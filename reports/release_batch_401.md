@@ -15,7 +15,7 @@ https://github.com/therealjameswilson/before-oss/pull/158
   session. That case passed unchanged on isolated rerun in 1.9 seconds.
   The original full run is not described as clean.
 - Pages 33840631003: **success**; deployed Batch 401 was verified.
-- Postmerge Test 33840631008: in progress at this checkpoint.
+- Postmerge Test 33840631008: **success**, verified during Batch 402 review.
 - Live asset verification: all 67 assets match the reviewed manifest byte
   lengths and SHA-256 hashes (83,204,891 bytes); all seven core routes and
   ten Batch 401 direct profiles return HTTP 200 and expected content. Live

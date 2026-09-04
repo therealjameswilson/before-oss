@@ -14,7 +14,9 @@ const normalized =
       : value.toLowerCase().replaceAll("_", "-");
 const text =
   label ??
-  (value === null
+  (value === "documented_prewar"
+    ? "documented pre-OSS"
+    : value === null
     ? "Unknown"
     : typeof value === "boolean"
       ? value

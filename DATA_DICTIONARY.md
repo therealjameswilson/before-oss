@@ -1,5 +1,11 @@
 # Data dictionary
 
+The stored temporal category `documented_prewar` means documented work before
+OSS, without a claim of immediacy. The public badge reads **documented pre-OSS**
+because this category can include wartime work. Its legacy machine-readable
+value is preserved for compatibility. Date-precision notes accompany all
+three profile affiliation categories.
+
 SQLite is the durable source of truth. CSV, JSONL, compressed JSON, and website
 assets are generated projections.
 

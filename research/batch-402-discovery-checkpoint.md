@@ -1,4 +1,9 @@
-# Batch 402 discovery checkpoint — not imported or published
+# Batch 402 discovery checkpoint — historical discovery record
+
+Superseded on 2026-09-04 by the reviewed Batch 402 evidence bundle and
+`reports/release_batch_402.md`. All ten outcomes have now been imported.
+The text below preserves the earlier discovery state rather than silently
+rewriting tentative findings as if they had already been adjudicated.
 
 Started 2026-09-04 UTC while Batch 401's full local and GitHub test matrices
 run. This is a research checkpoint, not ten completed outcomes. The database

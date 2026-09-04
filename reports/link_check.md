@@ -2,6 +2,14 @@
 
 Run: 2026-09-04 UTC
 
+## Batch 402 local checkpoint
+
+All internal targets resolve across 24,454 HTML pages; 49,558 external URLs
+were inventoried, not all visited. Five of seven source HEAD checks returned
+200; the two Marine-history targets returned 403 despite earlier successful
+content review. No restriction was bypassed. Final-build and live verification
+remain pending; see `reports/release_batch_402.md`.
+
 ## Batch 401 published verification
 
 All six citation targets returned HTTP 200 to normal HEAD checks; this is an
