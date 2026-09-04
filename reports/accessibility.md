@@ -4,7 +4,9 @@ Run: 2026-09-04 UTC
 
 ## Result
 
-Batch 404 is in release QA. Nine profile checks passed initially, while three
+Batch 404: the complete **1,668-case matrix passed in 19.1 minutes**, across
+desktop, phone and tablet, without retries. Fifteen focused checks also pass.
+Nine profile checks passed initially, while three
 directory checks exposed failure to match a name when its middle initial was
 omitted. The search is repaired without changing indexed names; exact matches
 still rank first and tokens cannot be combined across unrelated aliases.
@@ -16,7 +18,7 @@ across all three viewports (14.2 minutes). The 90-test Python suite passes; four
 existing SQLite connection-cleanup ResourceWarnings appeared on the final run.
 No warning was suppressed. See `reports/release_batch_403.md`.
 
-Batch 402 is in local release QA. Twelve focused cases passed after correcting
+Batch 402 has completed release QA. Twelve focused cases passed after correcting
 overbroad test selectors; the final presentation changes add date-precision
 notes and an accurate pre-OSS temporal badge. Its first full run exposed 27
 stale-label failures and three local timeouts. All twelve affected scenarios

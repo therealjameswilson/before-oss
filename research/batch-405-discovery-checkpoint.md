@@ -35,11 +35,15 @@ qualified occupation if the final review accepts applicability; do not apply
 this earlier grade to the OSS officer classification.
 
 George F Cheston has one exact-name Army candidate, but no exact index identifier
-was eligible/matched. The candidate was NOT yet inspected for its date or
-identifier comparison. Do not pad, drop digits, select an occupation, infer a
-naval commission or merge the candidate without evidence. The other eight
-names had zero exact-name bulk hits. Absence is not proof of no Army service.
-No raw bulk record or full identifier is stored here; no Catalog API request.
+was eligible/matched. A second complete 9,200,232-record transient scan inspected
+that candidate: 1942-08-03, PVT, birth-year code 20, occupation code 002. Its
+eight-digit identifier does not equal the six-digit indexed number. Different
+number formats do not themselves prove different people, but no promotion or
+other direct bridge was established. Keep the candidate unassigned; do not
+publish its occupation, pad/drop digits, or infer a naval commission. The other
+eight names had zero exact-name bulk hits. Absence is not proof of no Army
+service. No raw bulk record or full identifier is stored here; no Catalog API
+request.
 
 ## Sources actually read
 
@@ -47,10 +51,13 @@ No raw bulk record or full identifier is stored here; no Catalog API request.
 
 [Monsanto Chemical Company, Annual Report 1954, Toxic Docs record](https://www.toxicdocs.org/d/4J9qkjLYy1kaj3509N6qZvyDN).
 Corporate report title and the Charles S Cheston biographical paragraph were
-read in the item's OCR, locator MAR 000404 / LAM016463. It identifies former
+read in the item's OCR, locator MAR 000404 / LAM016463. A later ordinary public
+download succeeded (HTTP 200; 1,111,488 bytes), processed only in memory. Embedded
+PDF text independently places the paragraph on physical page 21. It identifies former
 Smith Barney senior partnership, Army Specialist Corps service and later OSS
 assistant directorship. This is a promising identity/sequence bridge, not yet
-adjudicated. Download-link PDF failed in the web reader; no PDF image reviewed.
+adjudicated. Download-link PDF failed in the web reader; the browser PDF viewer
+also reported ERR_BLOCKED_BY_CLIENT and was not bypassed. No PDF image reviewed.
 Do not infer Monsanto employment before OSS: the report dates board entry 1945.
 
 [American Airlines corporate record at TCU](https://repository.tcu.edu/server/api/core/bitstreams/9575f4b7-6181-4e8d-bdb3-2b672b2154c9/content)
@@ -58,21 +65,54 @@ is **discovery-only so far**. Its snippet indicates Smith Barney partnership
 and Army Specialist Corps dates, but the old URL now redirects to
 [TCU's new digital-repository discovery page](https://tcu.primo.exlibrisgroup.com/nde/collectionDiscovery?collectionId=81360631540008721&vid=01TCU_INST:Digital_Repository&lang=en).
 The redirect and five-collection page were actually seen in the browser. The
-record itself was NOT read. Next: locate it in Special Collections/Amon Carter
-material through the public interface; do not quote the snippet as evidence.
+1947 record itself was NOT read. Public repository searches were actually run
+for American Airlines (2,415 results), American Airlines proxy statement (19),
+and Cheston (one). List mode exposed proxy dates 1946-03-25, 1946-03-26,
+1941-03-21 and 1940-03-22; none was silently reclassified as 1947. The inspected
+[1946-03-25 metadata record](https://tcu.primo.exlibrisgroup.com/nde/fulldisplay?vid=01TCU_INST%3ADigital_Repository&docid=alma9975329509308721)
+is MS 014, Box 09, American Airlines, Inc. - Directors 1946 folder, Item 012;
+its 39.25 MB digital document was not opened. The Cheston hit was a 1947-02-18
+telegram from C. R. Smith, record alma9975329244308721; no document text read.
+Next: locate the actual 1947 statement, possibly accompanying an annual report,
+through public archive links; do not quote the old snippet as evidence.
 
 [Commercial and Financial Chronicle, July 23, 1942](https://fraser.stlouisfed.org/files/docs/publications/cfc/cfc_19420723_section1.pdf)
 has a snippet linking Cheston with Smith, Barney & Co. and war duty. Both normal
-reader and direct retrieval did not yield an inspectable PDF. Still discovery-only.
+reader and direct retrieval did not yield an inspectable PDF. The publicly
+indexed /docs/ variant also timed out after 45 seconds. Still discovery-only;
+printed page 268 is a discovery locator, not a visually checked citation.
 
 [Congressional Record, June 1942](https://www.govinfo.gov/content/pkg/GPO-CRECB-1942-pt4/pdf/GPO-CRECB-1942-pt4-13.pdf)
-search snippet names Charles Steele Cheston for Army Specialist Corps appointment.
-Web reader rejected the 24,997,186-byte size; no page inspected yet. Need inspect
-appointment versus nomination headings and dates before assigning the role.
+was subsequently retrieved normally in memory (HTTP 200; 24,997,186 bytes).
+Embedded text and the **complete physical page 29 image, printed page 5144**,
+were read. The June 11, 1942 page contains both nominations received and
+confirmations that day. The right-column CONFIRMATIONS section expressly lists
+Charles Steele Cheston as Deputy Director, Commercial and Business (Personnel),
+Army Specialist Corps. This establishes Senate confirmation, not an exact
+reporting-for-duty date or a regular Army commission. Before publishing an
+affiliation, adjudicate the identity bridge and appropriate personnel/relationship
+classification. Do not substitute nomination date for employment start.
+
+[FRUS, Emergence of the Intelligence Establishment, document 217](https://history.state.gov/historicaldocuments/frus1945-50Intel/d217)
+was read, including its editorial note identifying Charles S. Cheston as an OSS
+assistant director in 1943-45. The document is Hillenkoetter to Gurney,
+1947-06-03; CIA Historical Files HS/HC-805, Item 10, historian's transcript
+prepared 1952-09-11. This is an official OSS identity/chronology bridge; it does
+not name a civilian employer or establish an immediate transfer.
+
+[Rand McNally Bankers Directory, final 1936 edition, introductory material](https://fraser.stlouisfed.org/title/rand-mcnally-bankers-directory-105/final-1936-edition-598425/content/fulltext/rmbd_1936final_01_introductorymaterial)
+was actually opened, and its original-source OCR lists Charles S. Cheston with
+Edward B. Smith & Co., Philadelphia, among Investment Bankers Association
+governors, just before printed page 44. **No page image reviewed yet.** This is
+an earlier named-firm lead; do not silently merge it with Smith Barney or infer
+the role/last-employer chronology. The final 1941 edition's investment-bankers
+and stock-exchange-member section was also opened and searched; the returned
+Cheston occurrence was Simmons, Cheston, not Charles. Smith Barney's separate
+firm listing does not establish Charles's employment.
 
 CIA Reading Room searches found contemporaneous Cheston correspondence, but
-those PDFs have not yet been opened. State Department FRUS and NPS descriptions
-are additional leads. The old NPS chapter-2 PDF redirects to a general history
+those PDFs have not yet been opened. NPS descriptions are additional leads.
+The old NPS chapter-2 PDF redirects to a general history
 page; that page is not evidence for Cheston. Modern 1934-born Charles Cheston
 and British painter Charles Sidney Cheston are not the indexed person.
 
@@ -90,7 +130,10 @@ it offers no observed pre-OSS employer. The spouse is not an identity bridge.
 
 - Geraldine: Kappa Kappa Gamma's April 1935 *The Key*, UCLA Gamma Xi chapter,
   is a promising student/sorority lead. The [PDF](https://wiki.kkg.org/images/7/7b/THE_KEY_VOL_52_NO_2_APR_1935.pdf)
-  exceeded the web-reader size limit and has NOT been inspected. 1948 issue
+  exceeded the web-reader size limit, but a later ordinary retrieval succeeded
+  (HTTP 200; 22,628,468 bytes) and was processed only in memory. Embedded text
+  on physical pages 91-92 identifies Geraldine Chesebro as Gamma Xi's new
+  president. No page image or OSS bridge reviewed; no employment claim. 1948 issue
   contains an Owensmith candidate. A neighborhood census transcription also
   surfaced, but no index bridge; do not infer a relative's municipal legal
   employment or label Geraldine unemployed from an unreviewed transcription.
@@ -118,8 +161,13 @@ variants remove middle initials and punctuation. Additional variants actually
 queried: Charles Steele Cheston; Harriet Frazier Cheston; Harriet Klosson;
 Teddy Chester; Eugenia Cheston. No aliases are adopted as corrections.
 
-Still needed: relevant institutional/LoC checks for names without a reviewed
-source; inspect Kappa issues and corporate records; examine George's Army
-candidate; complete Charles's chronology and identity assessment. Save
-individual protocol outcomes only after these decisions. Batch 404 generated
-assets must stay frozen until its full browser matrix completes.
+Additional actual checks: Nancy Cherry 1943, Philip Chesley, Teddy Chester and
+John R Chevalier with the loc.gov domain; John Chevalier with 1905 and occupation;
+Eugenia M Cheston employment. None yielded an inspectable employer/identity
+bridge. The Nancy 1944 Kappa search did not supply a reviewable source body.
+
+Still needed: inspect relevant Kappa/corporate page images; complete Charles's
+chronology and identity assessment; adjudicate each person's individual outcome
+and archival question. Save individual protocol outcomes only after these
+decisions. Batch 404 generated assets must stay frozen until its full browser
+matrix completes. No authenticated API requests or secrets used.

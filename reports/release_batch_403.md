@@ -1,9 +1,8 @@
 # Batch 403 release verification
 
-2026-09-04 UTC. **Local reviewed dataset; publication pending.**
-The last live-verified release is Batch 402, merged in PR 159 with successful
-Test `33856421009` and Pages `33859505133`. Batch 403 PR 160 is awaiting
-Test `33859076065`; the complete local browser suite passed.
+2026-09-04 UTC. **Published and live-verified.**
+PR 160 merged at 10:13:56Z after successful independent Test `33859076065`.
+Pages `33862231457` succeeded. The complete local browser suite also passed.
 
 ## What changed
 
@@ -129,8 +128,19 @@ claims are excluded from default verified-employer/affiliation analytics.
   intended people; no unrelated person or source row changed.
 
 The complete local browser/accessibility matrix passed: **1,653 tests in
-14.2 minutes**, exit zero. No Batch 403 deployment is claimed yet.
-Dependencies/lockfile remain unchanged.
+14.2 minutes**, exit zero. Dependencies/lockfile remain unchanged.
+
+## Publication verification
+
+The [public site](https://therealjameswilson.github.io/before-oss/) is verified
+against immutable release `3884303c3e79e9277a9672dfd018f69987ab393d`, not the
+newer local dataset. Main merge: `4a56e5a101599e03d6c0d49505169f43dfa00426`.
+At 10:22 UTC, the release verifier passed all **67 assets / 83,362,842 bytes**,
+matching the manifest SHA-256 above, seven core routes and ten direct new
+profile URLs. No authenticated API call was made. Redundant postmerge Test
+`33862231469` was still running when this checkpoint was saved; it is not
+represented as completed. The premerge Test and Pages are independently
+successful.
 
 ## Resume and limits
 

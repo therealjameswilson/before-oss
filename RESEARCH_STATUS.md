@@ -2,10 +2,19 @@
 
 Verified against the current local SQLite database on 2026-09-04 UTC.
 
-Batch 404 is imported locally and undergoing release checks; the figures below
-are local, not yet a claim of deployed coverage. Batch 402 is the verified public
-release, with corrected Test and Pages successful; all 67 assets and ten direct
-profiles match its pinned release. See `reports/release_batch_402.md`.
+Batch 404 is imported locally; all 90 Python and 1,668 full browser checks pass.
+The figures below remain local while PR 161 awaits its independent GitHub test.
+Batch 403 PR 160 has merged after successful Test and Pages workflows; pinned
+live verification passes all 67 assets, seven core routes and ten new profiles.
+The live site therefore has 3,813 attempted people, 212 verified-employer
+people, 3,766 assessed archival dispositions and 20,127 not started. The index
+and active-person totals are identical to the local figures below. See
+`reports/release_batch_403.md` for the immutable release and verification.
+
+Batch 405 discovery is checkpointed but not imported and is excluded from the
+coverage totals. Original-source text and selected page images distinguish
+candidate evidence, Senate confirmation, Army identifiers and unresolved
+employment chronology. See `research/batch-405-discovery-checkpoint.md`.
 
 Batch 404 adds ten individual outcomes: three qualified Army occupation
 observations and seven archival dispositions; six identities are linked to

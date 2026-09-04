@@ -1,8 +1,11 @@
 # Batch 404 release verification
 
-2026-09-04 UTC. **Reviewed local dataset; full matrix and publication pending.**
-Last live-verified release: Batch 402. Batch 403 PR 160 has passed all 1,653
-local browser tests and is awaiting its independent GitHub run `33859076065`.
+2026-09-04 UTC. **Reviewed local dataset; complete local matrix passed.**
+Batch 404 PR 161 targets main and is awaiting independent GitHub Test
+`33861391925`. Batch 403 PR 160 has merged after successful Test `33859076065`;
+its Pages `33862231457` succeeded. Pinned live verification passed all 67
+assets, seven core routes and ten new profiles. Batch 403 remains the public
+release until Batch 404's independent workflow and publication succeed.
 
 ## Research added
 
@@ -137,8 +140,9 @@ are excluded from default verified-employer/affiliation analytics.
   accessible text retain the occupation/date caveat, masked serial, separate
   employer question and item-level citations with explicit context-only support.
 
-The complete 1,668-test local browser/accessibility matrix is running. Public
-data/build inputs are frozen during that run. No Batch 404 deployment claimed.
+The complete **1,668-test local browser/accessibility matrix passed in 19.1
+minutes**, exit zero. All three viewports passed, without retries or changed
+data/build inputs during the run. No Batch 404 deployment claimed yet.
 
 ## Resume and remaining work
 
