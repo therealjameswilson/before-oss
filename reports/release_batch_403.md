@@ -1,9 +1,9 @@
 # Batch 403 release verification
 
-2026-09-04 UTC. **Local reviewed dataset; full testing/publication pending.**
-The last live-verified release is Batch 401. Batch 402 PR 159 is awaiting the
-corrected full Test run `33856421009`; its first run's stale-label failures
-and passing targeted rerun are documented in `release_batch_402.md`.
+2026-09-04 UTC. **Local reviewed dataset; publication pending.**
+The last live-verified release is Batch 402, merged in PR 159 with successful
+Test `33856421009` and Pages `33859505133`. Batch 403 PR 160 is awaiting
+Test `33859076065`; the complete local browser suite passed.
 
 ## What changed
 
@@ -128,8 +128,9 @@ claims are excluded from default verified-employer/affiliation analytics.
 - A full profile-shard comparison against Batch 402 changes exactly the ten
   intended people; no unrelated person or source row changed.
 
-The complete 1,653-test local browser/accessibility matrix is running. No
-Batch 403 deployment is claimed. Dependencies/lockfile remain unchanged.
+The complete local browser/accessibility matrix passed: **1,653 tests in
+14.2 minutes**, exit zero. No Batch 403 deployment is claimed yet.
+Dependencies/lockfile remain unchanged.
 
 ## Resume and limits
 

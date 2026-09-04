@@ -1,5 +1,18 @@
 # Batch 402 release verification
 
+## Publication verified, 2026-09-04
+
+PR 159 merged at 09:40:27 UTC; merge commit
+`316fd611107222ad49a7c8ab67eea5ba2a3b157b`. Corrected Test `33856421009`
+and Pages `33859505133` succeeded. The commit-pinned verifier checked release
+`bba1fe66aab71d4408d2f6a2d124cb30cf3787dc`: 67 assets, 83,279,652 bytes,
+manifest SHA-256 `c39ee9da8603a61f92d234589c6b4f99935bb50c1a75efa689d858f0f3b27064`,
+seven core routes and ten direct profiles. An initial public-asset request
+returned transient HTTP 503; the second complete verification passed. Leslie
+Cheek Jr.'s direct profile and Baltimore Museum of Art organization page also
+rendered their expected names and historical affiliation. This supersedes the
+pending-publication language in the original checkpoint below.
+
 Checkpoint: 2026-09-04 UTC. **Local reviewed dataset; publication checks in progress.**
 The last independently live-verified release is Batch 401. Its premerge Test,
 postmerge Test and Pages workflows all succeeded; see `release_batch_401.md`.

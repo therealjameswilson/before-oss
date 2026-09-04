@@ -1,5 +1,9 @@
 # Batch 404 discovery checkpoint
 
+Superseded by the individually reviewed Batch 404 evidence bundle at
+2026-09-04T09:54:01Z. All ten outcomes are imported. The original discovery
+notes below preserve their uncertainty and do not themselves certify publication.
+
 2026-09-04T09:49:30Z: durable checkpoint, not the first query time. Research
 began while Batch 403 testing continued. This document is not a public claim
 bundle. Ten records on PDF page 78, rows 32–41, were individually investigated.
