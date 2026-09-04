@@ -68,6 +68,9 @@ Commissioned classification: 2,228 yes; 5,617 no; 16,095 indeterminate.
 - `verified_employer_found`: 207
 - Claim confidence: 917 confirmed; 1,153 high; 820 medium; 57 low; 81
   conflicting
+- Claims attached specifically to employment/self-employment affiliations:
+  35 confirmed; 270 high; 83 medium; 0 low; 2 conflicting; 0 unresolved.
+  These count claim rows, not unique people, and precede the analytics gates.
 - Durable evidence inventory: 3,711 citation records representing 1,734 legacy
   document keys (source-identity normalization still under review); 514
   organizations; 1,496 affiliations; 3,028 claims; and 6,857
