@@ -1,9 +1,13 @@
 # Batch 407 release checkpoint
 
-2026-09-04 UTC. **Reviewed local data; independent GitHub QA pending.**
-No Batch 407 deployment is claimed. Batch 406 passed independent GitHub Test
-33894971764, merged through PR 163, deployed through Pages 33900368779 and
-passed pinned live verification.
+2026-09-04 UTC. **Released and pinned-live verified.** Batch 407 passed
+independent GitHub Test `33904265520` with all 1,707 cases passing in 29.6
+minutes, merged through PR 164 as
+`ac848d724622cf2ae90570e95fe91631c1093514`, and deployed through Pages
+`33907253488`. Pinned verification against source commit
+`5969fb31c8b843a664e745407b64ca51f7e30655` matched all 67 assets /
+83,651,737 bytes, seven core routes and all nine direct cohort profiles. The
+verified public URL is <https://therealjameswilson.github.io/before-oss/>.
 
 ## Research
 
@@ -125,9 +129,9 @@ sessions and one was an accessibility timeout; no assertion contradicted the
 Batch 407 data. The six unchanged affected scenarios then passed across all
 three viewports, 18/18 in 1.5 minutes, again without retries. Failure artifacts
 from the initial run are preserved outside the generated test-results folder.
-This is not represented as a clean first-run full-matrix pass. Independent
-GitHub Test, Pages deployment and pinned live verification remain required
-before publication.
+This is not represented as a clean first-run local full-matrix pass. The later
+independent GitHub suite passed all 1,707 cases; Pages and pinned verification
+then succeeded, as recorded at the top of this report.
 
 ## Resume and limitations
 

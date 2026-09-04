@@ -2,13 +2,24 @@
 
 Verified against the current local SQLite database on 2026-09-04 UTC.
 
+Batch 408 is imported locally; 90 Python tests, deterministic build, privacy,
+links, structural audit and twelve final focused browser checks pass. Its full
+1,719-case browser matrix remains pending. It adds ten individual
+outcomes: four qualified occupation observations, Robert Chin's strongly
+date-bounded Columbia **student** pathway, one identifier-only result and four
+archival-review dispositions. Durwood Chiles and Robert Chin receive confirmed
+identity bridges; Robert's institution is not treated as an employer. No named
+employer is added. These figures are local, not a deployment claim. See
+`reports/release_batch_408.md` and
+`research/batch-408-discovery-checkpoint.md`.
+
 Batch 407 is imported locally; 90 Python tests and twelve final focused browser
 checks pass. The complete 1,707-case local matrix produced 1,701 passes and six
 timeouts; all six unchanged affected scenarios then passed in all three
-viewports, 18/18. These figures are local, not a deployment claim. Batch 406
-passed independent GitHub Test 33894971764, merged through PR 163, deployed
-through Pages 33900368779 and passed pinned live verification of all 67 assets,
-the cohort profiles, and the separately corrected Paul Child profile.
+viewports, 18/18. Batch 407 subsequently passed all 1,707 independent GitHub
+cases, merged through PR 164, deployed through Pages 33907253488 and passed
+pinned live verification of all 67 assets and nine direct cohort profiles.
+Batch 406's separately corrected Paul Child profile was also live-verified.
 See `reports/release_batch_406.md` and `reports/release_batch_407.md`.
 
 Batch 407 adds nine individual outcomes: one apprenticeship observation, one
@@ -62,10 +73,10 @@ display, preserving both printed suffixes. See `reports/release_batch_402.md`.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,852 people with a non-planned attempt | 23,940 active person entities | 16.0902% |
-| Verified-affiliation coverage | 488 people with qualifying confirmed/high published pre-OSS affiliation | 23,940 active person entities | 2.0384% |
+| Research-attempt coverage | 3,862 people with a non-planned attempt | 23,940 active person entities | 16.1320% |
+| Verified-affiliation coverage | 489 people with qualifying confirmed/high published pre-OSS affiliation | 23,940 active person entities | 2.0426% |
 | Verified-employer coverage | 213 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8897% |
-| Archival-review coverage | 3,805 people with an individual file-access/priority assessment | 23,940 active person entities | 15.8939% |
+| Archival-review coverage | 3,815 people with an individual file-access/priority assessment | 23,940 active person entities | 15.9357% |
 
 ## Extraction and identity
 
@@ -78,18 +89,18 @@ display, preserving both printed suffixes. See `reports/release_batch_402.md`.
 - Possible duplicate groups: 233
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 740
-- Identity status `high_confidence`: 567
+- Identity status `confirmed`: 742
+- Identity status `high_confidence`: 571
 - Identity status `probable`: 124
 - Identity status `ambiguous`: 70
 - Identity status `conflicting`: 72
-- Identity status `unresolved`: 22,367
+- Identity status `unresolved`: 22,361
 
 ## Personnel categories
 
-- Unknown or indeterminate: 15,964
-- Enlisted Army personnel: 3,949
-- Commissioned Army officers: 2,107
+- Unknown or indeterminate: 15,962
+- Enlisted Army personnel: 3,950
+- Commissioned Army officers: 2,108
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 8
 - Enlisted Marine Corps personnel: 3
@@ -100,34 +111,34 @@ display, preserving both printed suffixes. See `reports/release_batch_402.md`.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,229 yes; 5,618 no; 16,093 indeterminate.
+Commissioned classification: 2,230 yes; 5,619 no; 16,091 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,088
+- `not_started`: 20,078
 - `in_progress`: 46
 - `candidate_found`: 1
 - `needs_identity_review`: 106
 - `needs_temporal_review`: 9
 - `documented_prewar_employer_found`: 69
 - `no_reliable_result_after_protocol`: 82
-- `occupation_only_found`: 644
-- `requires_archival_review`: 2,495
+- `occupation_only_found`: 649
+- `requires_archival_review`: 2,500
 - `completed`: 121
 - `conflicting_sources`: 71
 - `verified_employer_found`: 208
-- Claim confidence: 919 confirmed; 1,185 high; 838 medium; 72 low; 83
+- Claim confidence: 921 confirmed; 1,190 high; 842 medium; 72 low; 83
   conflicting
 - Claims attached specifically to employment/self-employment affiliations:
   35 confirmed; 273 high; 82 medium; 1 low; 2 conflicting; 0 unresolved.
   These count claim rows, not unique people, and precede the analytics gates.
-- Durable evidence inventory: 3,777 citation records representing 1,769 legacy
+- Durable evidence inventory: 3,783 citation records representing 1,772 legacy
   document keys (source-identity normalization still under review); 521
-  organizations; 1,521 affiliations; 3,097 claims; and 7,037
+  organizations; 1,526 affiliations; 3,108 claims; and 7,064
   claim-source links
-- Reviewed public projection: 509 organizations; 1,510 published, qualified,
-  or conflict-visible affiliations; 3,022 published, qualified, or
-  conflict-visible claims; and 2,641 public citation records
+- Reviewed public projection: 509 organizations; 1,515 published, qualified,
+  or conflict-visible affiliations; 3,033 published, qualified, or
+  conflict-visible claims; and 2,647 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -137,12 +148,12 @@ Commissioned classification: 2,229 yes; 5,618 no; 16,093 indeterminate.
 - Reviewed-source attempts remain reproducible by versioned adapter in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,699; 160 additional attempts have a saved
+- Saved `source_reviewed` outcomes: 1,709; 160 additional attempts have a saved
   `candidate_found` outcome
-- Total recorded attempts/plans: 5,071
+- Total recorded attempts/plans: 5,081
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,496; 1,438 have at least one public-visible
+- People with saved reviewed claims: 1,502; 1,444 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John
