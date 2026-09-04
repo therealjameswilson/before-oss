@@ -1,4 +1,8 @@
-# Batch 403 discovery checkpoint — not imported
+# Batch 403 discovery checkpoint — historical discovery record
+
+Superseded by the reviewed Batch 403 evidence bundle on 2026-09-04. All ten
+outcomes are imported; `reports/release_batch_403.md` records current checks.
+The text below preserves the discovery state, not a claim of publication.
 
 Saved 2026-09-04 after the 08:34:55 UTC clock checkpoint; discovery began while
 Batch 402's full browser and GitHub checks were running. This is not a completed

@@ -2,6 +2,17 @@
 
 Run: 2026-09-04 UTC
 
+## Batch 403 local checkpoint
+
+All internal targets resolve across 24,454 HTML pages; 49,559 external URLs
+were inventoried, not all visited. The deterministic manifest lists 67 assets,
+83,362,842 bytes; SHA-256
+`43e7ab5002f3687871d688d1c447b5cd472c526015191e18b4f606b7e4d995e4`.
+Deployment is not yet verified. `scripts/verify_deployed_release.py` now pins
+the expected manifest to a Git commit, so ongoing local work cannot change
+the release being checked. Mock tests exercise stale manifests, changed or
+truncated bytes, unsafe paths, duplicate paths and concurrency limits.
+
 ## Batch 402 local checkpoint
 
 All internal targets resolve across 24,454 HTML pages; 49,558 external URLs

@@ -78,6 +78,23 @@ The local site defaults to the GitHub Pages project base path
 PUBLIC_BASE_PATH=/ npm run dev
 ```
 
+## Verify a published release
+
+After the Pages workflow succeeds, compare the deployed public data against a
+specific local Git commit, not the current working tree:
+
+```bash
+python3 scripts/verify_deployed_release.py --ref COMMIT_SHA \
+  --evidence-bundle research/evidence-page-seventy-eight-cheffins-through-chenowith-pathways_batch-403_2026-09-04.json
+```
+
+Choose a commit containing that bundle. The read-only check verifies the exact
+manifest, every listed asset's size/hash, seven core routes, and each batch
+person's direct URL. It does not certify the underlying historical claims.
+It uses public HTTPS only, at most four concurrent requests, and never reads
+credentials or the private SQLite database. It fails if the live release is
+different; do not confuse a newer local dataset with deployed coverage.
+
 ## Research commands
 
 ```bash

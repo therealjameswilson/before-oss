@@ -1,0 +1,877 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Codex archival research review, Batch 403, 2026-09-04; individual source-linked adjudication",
+  "sources": [
+    {
+      "key": "index-b403",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "locator": "RG 226, Entry A1-224; complete PDF page 78 visually reviewed; rows 22-31, Box 120, location 230/86/28/06",
+      "source_quality": "A_direct_official",
+      "repository_publisher": "National Archives and Records Administration",
+      "author_creator": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "access_date": "2026-09-04",
+      "rights_notes": "Citation and short project-authored assessments only; no full source page, portrait, raw bulk record or full private identifier reproduced."
+    },
+    {
+      "key": "army-b403",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "locator": "Series NAID 604357; file NAID 1263923; ASNEF.FIN.DAT, 9,200,232 records transiently examined in each of two passes; six exact private-identifier matches",
+      "source_quality": "A_direct_official",
+      "repository_publisher": "National Archives and Records Administration",
+      "author_creator": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged 2002",
+      "access_date": "2026-09-04",
+      "rights_notes": "Citation and short project-authored assessments only; no full source page, portrait, raw bulk record or full private identifier reproduced."
+    },
+    {
+      "key": "basic-b403",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "locator": "Physical PDF pages 44-45, reference pages 40-41; field layout and alternate-card/coding-manual limitations, complete page images reviewed",
+      "source_quality": "A_direct_official",
+      "repository_publisher": "National Archives and Records Administration",
+      "author_creator": "National Archives and Records Administration",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "access_date": "2026-09-04",
+      "rights_notes": "Citation and short project-authored assessments only; no full source page, portrait, raw bulk record or full private identifier reproduced."
+    },
+    {
+      "key": "codes-b403",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "locator": "Code No. 30; physical pages 171, 172, 174 and 178, complete page images reviewed; printed XI, XII, XVII and XXIV",
+      "source_quality": "A_direct_official",
+      "repository_publisher": "National Archives and Records Administration",
+      "author_creator": "National Archives and Records Administration",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "access_date": "2026-09-04",
+      "rights_notes": "Citation and short project-authored assessments only; no full source page, portrait, raw bulk record or full private identifier reproduced."
+    },
+    {
+      "key": "banner-b403",
+      "stable_url": "https://troopbanners.com/mckeesport/",
+      "title": "McKeesport Military Banner Tribute",
+      "locator": "TEC 4 Michael C. Chemsak, HQ & HQ DET OSS, WWII; adjacent Michael A. Chemsak Vietnam entry kept separate",
+      "source_quality": "D_correlative_or_secondary",
+      "repository_publisher": "McKeesport Military Banner Tribute program",
+      "author_creator": null,
+      "publication_record_date": null,
+      "access_date": "2026-09-04",
+      "rights_notes": "Citation and short project-authored assessments only; no full source page, portrait, raw bulk record or full private identifier reproduced."
+    },
+    {
+      "key": "msa-b403",
+      "stable_url": "https://msa.maryland.gov/msa/stagser/s1400/s1499/html/ssi1499c.html",
+      "title": "Military Department (Service Records, Maryland National Guard, Index)",
+      "locator": "CHENOWETH GEORGE N.; Bates 11481, Box 62, MSA S1499-11586, location 1/52/5/60; candidate only",
+      "source_quality": "A_direct_official",
+      "repository_publisher": "Maryland State Archives",
+      "author_creator": "Maryland State Archives",
+      "publication_record_date": null,
+      "access_date": "2026-09-04",
+      "rights_notes": "Citation and short project-authored assessments only; no full source page, portrait, raw bulk record or full private identifier reproduced."
+    },
+    {
+      "key": "kaba-b403",
+      "stable_url": "https://aidssh.al/wp-content/uploads/2025/07/E-MAJTA_FINAL-web.pdf",
+      "title": "Konstandin Çekrezi, in E majta: Mendimi politik / Profile biografike",
+      "locator": "Printed and physical pages 53, 61-63; title/byline and relevant text reviewed; page-image verification pending after failed image requests",
+      "source_quality": "B_authoritative_institutional",
+      "repository_publisher": "Friedrich-Ebert-Stiftung, Tirana, and AIDSSH",
+      "author_creator": "Hamit Kaba",
+      "publication_record_date": "2020",
+      "access_date": "2026-09-04",
+      "rights_notes": "Citation and short project-authored assessments only; no full source page, portrait, raw bulk record or full private identifier reproduced."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "occupation-22-b403",
+      "person_id": "2ecdbc80-de30-5429-9cbf-9aea2e9ccbec",
+      "occupation": "Routemen",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "date_precision": "Occupation observed in the Army entry dated 1943-07-15; actual employment start/end dates and timing relative to OSS service are not established.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The grouped transport occupation identifies neither a company nor a particular delivery route. The inaccessible Pennsylvania birth-index lead does not establish employment. Observation date is retained in date_precision, not misrepresented as an employment end date; no employer location is inferred."
+    },
+    {
+      "key": "occupation-23-b403",
+      "person_id": "88b3ba8a-9796-50b6-b74d-02eb8adfa16a",
+      "occupation": "Cooks, except private family",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "date_precision": "Occupation observed in the Army entry dated 1942-09-16; actual employment start/end dates and timing relative to OSS service are not established.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The code names an occupation category, not a restaurant, hotel or self-employment arrangement. Unsourced biographical and cemetery discovery is not employment evidence. Observation date is retained in date_precision, not misrepresented as an employment end date; no employer location is inferred."
+    },
+    {
+      "key": "occupation-25-b403",
+      "person_id": "4091f765-1f01-50d1-9a5e-94625d28073e",
+      "occupation": "Meatcutters, except in slaughtering and packing houses",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "date_precision": "Occupation observed in the Army entry dated 1942-09-05; actual employment start/end dates and timing relative to OSS service are not established.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The reviewed category does not name a butcher shop or company. The McKeesport banner program corroborates Michael C. Chemsak's OSS association but does not name his civilian employer. Adjacent Michael A. Chemsak (Vietnam) is not this person. Observation date is retained in date_precision, not misrepresented as an employment end date; no employer location is inferred."
+    },
+    {
+      "key": "occupation-28-b403",
+      "person_id": "a3a8b61e-e34c-570b-9895-8a6faa99e355",
+      "occupation": "Attendants, filling stations and parking lots",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "date_precision": "Occupation observed in the Army entry dated 1943-10-07; actual employment start/end dates and timing relative to OSS service are not established.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The grouped category cannot select filling-station work over parking-lot work or name a business. The inaccessible LSU alumni/newsletter lead does not establish employment by LSU. Observation date is retained in date_precision, not misrepresented as an employment end date; no employer location is inferred."
+    },
+    {
+      "key": "occupation-29-b403",
+      "person_id": "ede3fe35-7b17-5d18-a6f1-2ff194986020",
+      "occupation": "Clerks, general",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "date_precision": "Occupation observed in the Army entry dated 1944-01-17; actual employment start/end dates and timing relative to OSS service are not established.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "General clerical work does not establish a particular office, business or military occupation. Clarence O. Cheney and nineteenth-century namesakes are not assigned; commercial people-finder content is excluded without retaining sensitive numbers. Observation date is retained in date_precision, not misrepresented as an employment end date; no employer location is inferred."
+    },
+    {
+      "key": "occupation-31-b403",
+      "person_id": "faa58812-da75-5ee3-9dbe-b7150b0cc660",
+      "occupation": "Painters, construction and maintenance",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "date_precision": "Occupation observed in the Army entry dated 1942-05-09; actual employment start/end dates and timing relative to OSS service are not established.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The category does not name a contractor or establish self-employment. Maryland's CHENOWETH GEORGE N. service-index entry lacks dates and a corroborating identifier; it remains a separate archival candidate, not a proven assignment or spelling correction. Observation date is retained in date_precision, not misrepresented as an employment end date; no employer location is inferred."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-22-b403",
+      "person_id": "2ecdbc80-de30-5429-9cbf-9aea2e9ccbec",
+      "claim_type": "identity",
+      "claim_text": "The indexed Elmer T Cheffins is linked with high confidence to an Army entry under the same full name.",
+      "evidence_paraphrase": "The two official records have matching names and an exact private identifier, inspected without retaining a raw Army record.",
+      "identity_match_assessment": "Exact full-name and private-identifier correspondence between the index and the Army entry dated 1943-07-15. This supports high-confidence identity, not the timing of OSS entry or rank held during OSS. The grouped transport occupation identifies neither a company nor a particular delivery route. The inaccessible Pennsylvania birth-index lead does not establish employment.",
+      "temporal_assessment": "Army observation dated 1943-07-15; does not establish when OSS service began or determine the rank held during it.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The printed name and blank rank remain unchanged. No earlier Army grade is automatically applied to the OSS classification.",
+      "sources": [
+        {
+          "source_key": "index-b403",
+          "locator_override": "PDF page 78 row 22; Box 120; full identifier withheld"
+        },
+        {
+          "source_key": "army-b403",
+          "locator_override": "Elmer T. Cheffins; 1943-07-15; exact private-identifier match; number withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-claim-22-b403",
+      "person_id": "2ecdbc80-de30-5429-9cbf-9aea2e9ccbec",
+      "affiliation_key": "occupation-22-b403",
+      "claim_type": "occupation",
+      "claim_text": "An identifier-matched Army entry records the category Routemen; its timing relative to OSS service remains uncertain.",
+      "evidence_paraphrase": "The 1943-07-15 entry records civilian-occupation value 735; the reviewed Code No. 30 defines the corresponding category.",
+      "identity_match_assessment": "High-confidence exact private-identifier and full-name match for Elmer T. Cheffins.",
+      "temporal_assessment": "This is a dated occupation observation, not proof of an employment period, immediate pre-OSS role or last civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The grouped transport occupation identifies neither a company nor a particular delivery route. The inaccessible Pennsylvania birth-index lead does not establish employment. Historical card-layout and coding-manual limitations remain applicable.",
+      "sources": [
+        {
+          "source_key": "army-b403",
+          "locator_override": "Elmer T. Cheffins; 1943-07-15; occupation value 735; identifier withheld"
+        },
+        {
+          "source_key": "basic-b403",
+          "locator_override": "Physical pages 44-45; date columns 42-47 and civilian-occupation columns 70-72"
+        },
+        {
+          "source_key": "codes-b403",
+          "locator_override": "Code No. 30; physical page 174, printed XVII; alphabetical confirmation physical page 178, printed XXIV"
+        }
+      ]
+    },
+    {
+      "key": "identity-23-b403",
+      "person_id": "88b3ba8a-9796-50b6-b74d-02eb8adfa16a",
+      "claim_type": "identity",
+      "claim_text": "The indexed George L Chekani is linked with high confidence to an Army entry under the same full name.",
+      "evidence_paraphrase": "The two official records have matching names and an exact private identifier, inspected without retaining a raw Army record.",
+      "identity_match_assessment": "Exact full-name and private-identifier correspondence between the index and the Army entry dated 1942-09-16. This supports high-confidence identity, not the timing of OSS entry or rank held during OSS. The code names an occupation category, not a restaurant, hotel or self-employment arrangement. Unsourced biographical and cemetery discovery is not employment evidence.",
+      "temporal_assessment": "Army observation dated 1942-09-16; does not establish when OSS service began or determine the rank held during it.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The printed name and blank rank remain unchanged. No earlier Army grade is automatically applied to the OSS classification.",
+      "sources": [
+        {
+          "source_key": "index-b403",
+          "locator_override": "PDF page 78 row 23; Box 120; full identifier withheld"
+        },
+        {
+          "source_key": "army-b403",
+          "locator_override": "George L. Chekani; 1942-09-16; exact private-identifier match; number withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-claim-23-b403",
+      "person_id": "88b3ba8a-9796-50b6-b74d-02eb8adfa16a",
+      "affiliation_key": "occupation-23-b403",
+      "claim_type": "occupation",
+      "claim_text": "An identifier-matched Army entry records the category Cooks, except private family; its timing relative to OSS service remains uncertain.",
+      "evidence_paraphrase": "The 1942-09-16 entry records civilian-occupation value 226; the reviewed Code No. 30 defines the corresponding category.",
+      "identity_match_assessment": "High-confidence exact private-identifier and full-name match for George L. Chekani.",
+      "temporal_assessment": "This is a dated occupation observation, not proof of an employment period, immediate pre-OSS role or last civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The code names an occupation category, not a restaurant, hotel or self-employment arrangement. Unsourced biographical and cemetery discovery is not employment evidence. Historical card-layout and coding-manual limitations remain applicable.",
+      "sources": [
+        {
+          "source_key": "army-b403",
+          "locator_override": "George L. Chekani; 1942-09-16; occupation value 226; identifier withheld"
+        },
+        {
+          "source_key": "basic-b403",
+          "locator_override": "Physical pages 44-45; date columns 42-47 and civilian-occupation columns 70-72"
+        },
+        {
+          "source_key": "codes-b403",
+          "locator_override": "Code No. 30; physical page 172, printed XII"
+        }
+      ]
+    },
+    {
+      "key": "identity-25-b403",
+      "person_id": "4091f765-1f01-50d1-9a5e-94625d28073e",
+      "claim_type": "identity",
+      "claim_text": "The indexed Michael C Chemsak is linked with high confidence to an Army entry under the same full name.",
+      "evidence_paraphrase": "The two official records have matching names and an exact private identifier, inspected without retaining a raw Army record.",
+      "identity_match_assessment": "Exact full-name and private-identifier correspondence between the index and the Army entry dated 1942-09-05. This supports high-confidence identity, not the timing of OSS entry or rank held during OSS. The reviewed category does not name a butcher shop or company. The McKeesport banner program corroborates Michael C. Chemsak's OSS association but does not name his civilian employer. Adjacent Michael A. Chemsak (Vietnam) is not this person.",
+      "temporal_assessment": "Army observation dated 1942-09-05; does not establish when OSS service began or determine the rank held during it.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The printed name and blank rank remain unchanged. No earlier Army grade is automatically applied to the OSS classification.",
+      "sources": [
+        {
+          "source_key": "index-b403",
+          "locator_override": "PDF page 78 row 25; Box 120; full identifier withheld"
+        },
+        {
+          "source_key": "army-b403",
+          "locator_override": "Michael C. Chemsak; 1942-09-05; exact private-identifier match; number withheld"
+        },
+        {
+          "source_key": "banner-b403",
+          "support_type": "context_only",
+          "locator_override": "Michael C. Chemsak OSS banner entry; commemorative corroboration, not the basis of the exact-identifier match"
+        }
+      ]
+    },
+    {
+      "key": "occupation-claim-25-b403",
+      "person_id": "4091f765-1f01-50d1-9a5e-94625d28073e",
+      "affiliation_key": "occupation-25-b403",
+      "claim_type": "occupation",
+      "claim_text": "An identifier-matched Army entry records the category Meatcutters, except in slaughtering and packing houses; its timing relative to OSS service remains uncertain.",
+      "evidence_paraphrase": "The 1942-09-05 entry records civilian-occupation value 558; the reviewed Code No. 30 defines the corresponding category.",
+      "identity_match_assessment": "High-confidence exact private-identifier and full-name match for Michael C. Chemsak.",
+      "temporal_assessment": "This is a dated occupation observation, not proof of an employment period, immediate pre-OSS role or last civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The reviewed category does not name a butcher shop or company. The McKeesport banner program corroborates Michael C. Chemsak's OSS association but does not name his civilian employer. Adjacent Michael A. Chemsak (Vietnam) is not this person. Historical card-layout and coding-manual limitations remain applicable.",
+      "sources": [
+        {
+          "source_key": "army-b403",
+          "locator_override": "Michael C. Chemsak; 1942-09-05; occupation value 558; identifier withheld"
+        },
+        {
+          "source_key": "basic-b403",
+          "locator_override": "Physical pages 44-45; date columns 42-47 and civilian-occupation columns 70-72"
+        },
+        {
+          "source_key": "codes-b403",
+          "locator_override": "Code No. 30; physical page 174, printed XVII; category 5, 7-58"
+        }
+      ]
+    },
+    {
+      "key": "identity-28-b403",
+      "person_id": "a3a8b61e-e34c-570b-9895-8a6faa99e355",
+      "claim_type": "identity",
+      "claim_text": "The indexed Wilson P Chenevert is linked with high confidence to an Army entry under the same full name.",
+      "evidence_paraphrase": "The two official records have matching names and an exact private identifier, inspected without retaining a raw Army record.",
+      "identity_match_assessment": "Exact full-name and private-identifier correspondence between the index and the Army entry dated 1943-10-07. This supports high-confidence identity, not the timing of OSS entry or rank held during OSS. The grouped category cannot select filling-station work over parking-lot work or name a business. The inaccessible LSU alumni/newsletter lead does not establish employment by LSU.",
+      "temporal_assessment": "Army observation dated 1943-10-07; does not establish when OSS service began or determine the rank held during it.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The printed name and blank rank remain unchanged. No earlier Army grade is automatically applied to the OSS classification.",
+      "sources": [
+        {
+          "source_key": "index-b403",
+          "locator_override": "PDF page 78 row 28; Box 120; full identifier withheld"
+        },
+        {
+          "source_key": "army-b403",
+          "locator_override": "Wilson P. Chenevert; 1943-10-07; exact private-identifier match; number withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-claim-28-b403",
+      "person_id": "a3a8b61e-e34c-570b-9895-8a6faa99e355",
+      "affiliation_key": "occupation-28-b403",
+      "claim_type": "occupation",
+      "claim_text": "An identifier-matched Army entry records the category Attendants, filling stations and parking lots; its timing relative to OSS service remains uncertain.",
+      "evidence_paraphrase": "The 1943-10-07 entry records civilian-occupation value 760; the reviewed Code No. 30 defines the corresponding category.",
+      "identity_match_assessment": "High-confidence exact private-identifier and full-name match for Wilson P. Chenevert.",
+      "temporal_assessment": "This is a dated occupation observation, not proof of an employment period, immediate pre-OSS role or last civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The grouped category cannot select filling-station work over parking-lot work or name a business. The inaccessible LSU alumni/newsletter lead does not establish employment by LSU. Historical card-layout and coding-manual limitations remain applicable.",
+      "sources": [
+        {
+          "source_key": "army-b403",
+          "locator_override": "Wilson P. Chenevert; 1943-10-07; occupation value 760; identifier withheld"
+        },
+        {
+          "source_key": "basic-b403",
+          "locator_override": "Physical pages 44-45; date columns 42-47 and civilian-occupation columns 70-72"
+        },
+        {
+          "source_key": "codes-b403",
+          "locator_override": "Code No. 30; physical page 174, printed XVII"
+        }
+      ]
+    },
+    {
+      "key": "identity-29-b403",
+      "person_id": "ede3fe35-7b17-5d18-a6f1-2ff194986020",
+      "claim_type": "identity",
+      "claim_text": "The indexed Clarence L Cheney is linked with high confidence to an Army entry under the same full name.",
+      "evidence_paraphrase": "The two official records have matching names and an exact private identifier, inspected without retaining a raw Army record.",
+      "identity_match_assessment": "Exact full-name and private-identifier correspondence between the index and the Army entry dated 1944-01-17. This supports high-confidence identity, not the timing of OSS entry or rank held during OSS. General clerical work does not establish a particular office, business or military occupation. Clarence O. Cheney and nineteenth-century namesakes are not assigned; commercial people-finder content is excluded without retaining sensitive numbers.",
+      "temporal_assessment": "Army observation dated 1944-01-17; does not establish when OSS service began or determine the rank held during it.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The printed name and blank rank remain unchanged. No earlier Army grade is automatically applied to the OSS classification.",
+      "sources": [
+        {
+          "source_key": "index-b403",
+          "locator_override": "PDF page 78 row 29; Box 120; full identifier withheld"
+        },
+        {
+          "source_key": "army-b403",
+          "locator_override": "Clarence L. Cheney; 1944-01-17; exact private-identifier match; number withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-claim-29-b403",
+      "person_id": "ede3fe35-7b17-5d18-a6f1-2ff194986020",
+      "affiliation_key": "occupation-29-b403",
+      "claim_type": "occupation",
+      "claim_text": "An identifier-matched Army entry records the category Clerks, general; its timing relative to OSS service remains uncertain.",
+      "evidence_paraphrase": "The 1944-01-17 entry records civilian-occupation value 104; the reviewed Code No. 30 defines the corresponding category.",
+      "identity_match_assessment": "High-confidence exact private-identifier and full-name match for Clarence L. Cheney.",
+      "temporal_assessment": "This is a dated occupation observation, not proof of an employment period, immediate pre-OSS role or last civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "General clerical work does not establish a particular office, business or military occupation. Clarence O. Cheney and nineteenth-century namesakes are not assigned; commercial people-finder content is excluded without retaining sensitive numbers. Historical card-layout and coding-manual limitations remain applicable.",
+      "sources": [
+        {
+          "source_key": "army-b403",
+          "locator_override": "Clarence L. Cheney; 1944-01-17; occupation value 104; identifier withheld"
+        },
+        {
+          "source_key": "basic-b403",
+          "locator_override": "Physical pages 44-45; date columns 42-47 and civilian-occupation columns 70-72"
+        },
+        {
+          "source_key": "codes-b403",
+          "locator_override": "Code No. 30; physical page 171, printed XI"
+        }
+      ]
+    },
+    {
+      "key": "identity-31-b403",
+      "person_id": "faa58812-da75-5ee3-9dbe-b7150b0cc660",
+      "claim_type": "identity",
+      "claim_text": "The indexed George N Chenowith is linked with high confidence to an Army entry under the same full name.",
+      "evidence_paraphrase": "The two official records have matching names and an exact private identifier, inspected without retaining a raw Army record.",
+      "identity_match_assessment": "Exact full-name and private-identifier correspondence between the index and the Army entry dated 1942-05-09. This supports high-confidence identity, not the timing of OSS entry or rank held during OSS. The category does not name a contractor or establish self-employment. Maryland's CHENOWETH GEORGE N. service-index entry lacks dates and a corroborating identifier; it remains a separate archival candidate, not a proven assignment or spelling correction.",
+      "temporal_assessment": "Army observation dated 1942-05-09; does not establish when OSS service began or determine the rank held during it.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The printed name and blank rank remain unchanged. No earlier Army grade is automatically applied to the OSS classification.",
+      "sources": [
+        {
+          "source_key": "index-b403",
+          "locator_override": "PDF page 78 row 31; Box 120; full identifier withheld"
+        },
+        {
+          "source_key": "army-b403",
+          "locator_override": "George N. Chenowith; 1942-05-09; exact private-identifier match; number withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-claim-31-b403",
+      "person_id": "faa58812-da75-5ee3-9dbe-b7150b0cc660",
+      "affiliation_key": "occupation-31-b403",
+      "claim_type": "occupation",
+      "claim_text": "An identifier-matched Army entry records the category Painters, construction and maintenance; its timing relative to OSS service remains uncertain.",
+      "evidence_paraphrase": "The 1942-05-09 entry records civilian-occupation value 727; the reviewed Code No. 30 defines the corresponding category.",
+      "identity_match_assessment": "High-confidence exact private-identifier and full-name match for George N. Chenowith.",
+      "temporal_assessment": "This is a dated occupation observation, not proof of an employment period, immediate pre-OSS role or last civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The category does not name a contractor or establish self-employment. Maryland's CHENOWETH GEORGE N. service-index entry lacks dates and a corroborating identifier; it remains a separate archival candidate, not a proven assignment or spelling correction. Historical card-layout and coding-manual limitations remain applicable.",
+      "sources": [
+        {
+          "source_key": "army-b403",
+          "locator_override": "George N. Chenowith; 1942-05-09; occupation value 727; identifier withheld"
+        },
+        {
+          "source_key": "basic-b403",
+          "locator_override": "Physical pages 44-45; date columns 42-47 and civilian-occupation columns 70-72"
+        },
+        {
+          "source_key": "codes-b403",
+          "locator_override": "Code No. 30; physical page 174, printed XVII; category 5, 7-27"
+        }
+      ]
+    },
+    {
+      "key": "chekrezi-candidate-b403",
+      "person_id": "b4eb9569-3207-5ea7-a556-a107e4ed6f0b",
+      "claim_type": "identity",
+      "claim_text": "Konstandin/Kostë (Constantine) Chekrezi is a plausible but unconfirmed candidate for C A Chekrezi.",
+      "evidence_paraphrase": "Kaba describes Free Albania leadership and cooperation with OSS; this does not itself identify the initials-only index record.",
+      "identity_match_assessment": "Rare surname and compatible given-name initial plus OSS association are suggestive, but no independent identifier links the records.",
+      "temporal_assessment": "No OSS start, immediate predecessor or paid employment is established.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "Candidate retained in the research-only evidence bundle for review; no speculative name variant, employer or assignment is exported as a public fact.",
+      "sources": [
+        {
+          "source_key": "index-b403",
+          "locator_override": "Page 78 row 24; initials-only given name, no printed serial"
+        },
+        {
+          "source_key": "kaba-b403",
+          "locator_override": "Printed pages 53, 61-63; text reviewed, page images pending"
+        }
+      ]
+    },
+    {
+      "key": "vung-postwar-candidate-b403",
+      "person_id": "96c810da-5f93-590f-9532-e3c3f8ae8d96",
+      "claim_type": "identity",
+      "claim_text": "The postwar Army entry under Vung T Chen is not accepted as the indexed person's record.",
+      "evidence_paraphrase": "An exact-name candidate dated June 5, 1946 has a different private identifier; simple prefix/zero-padding checks do not reconcile it.",
+      "identity_match_assessment": "Name alone is insufficient, especially with discordant identifiers. No merge or spelling correction is made.",
+      "temporal_assessment": "Postwar observation cannot establish pre-OSS occupation or service grade.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "Candidate retained in the research-only evidence bundle for review; no speculative name variant, employer or assignment is exported as a public fact.",
+      "sources": [
+        {
+          "source_key": "index-b403",
+          "locator_override": "Page 78 row 27; private RA-prefixed value withheld"
+        },
+        {
+          "source_key": "army-b403",
+          "locator_override": "Exact-name candidate dated June 5, 1946; different private identifier, withheld"
+        }
+      ]
+    },
+    {
+      "key": "chenoweth-msa-candidate-b403",
+      "person_id": "faa58812-da75-5ee3-9dbe-b7150b0cc660",
+      "claim_type": "identity",
+      "claim_text": "The Maryland CHENOWETH GEORGE N. index entry remains an unlinked archival candidate.",
+      "evidence_paraphrase": "The Maryland index supplies Bates 11481 and MSA S1499-11586, but no reviewed dates or corroborating identifier.",
+      "identity_match_assessment": "The middle initial is compatible but the surname differs; a name match alone cannot establish this second linkage.",
+      "temporal_assessment": "No date or pre-OSS unit assignment established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "Candidate retained in the research-only evidence bundle for review; no speculative name variant, employer or assignment is exported as a public fact.",
+      "sources": [
+        {
+          "source_key": "msa-b403",
+          "locator_override": "CHENOWETH GEORGE N.; Bates 11481, Box 62; MSA S1499-11586"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "2ecdbc80-de30-5429-9cbf-9aea2e9ccbec",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact full-name and private-identifier correspondence between the index and the Army entry dated 1943-07-15. This supports high-confidence identity, not the timing of OSS entry or rank held during OSS. The grouped transport occupation identifies neither a company nor a particular delivery route. The inaccessible Pennsylvania birth-index lead does not establish employment.",
+      "name_variants": [
+        "Elmer T. Cheffins"
+      ],
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 120 and the underlying personnel/Army records for a named civilian employer, actual employment dates, OSS start and subsequent service grade. The grouped transport occupation identifies neither a company nor a particular delivery route. The inaccessible Pennsylvania birth-index lead does not establish employment. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "88b3ba8a-9796-50b6-b74d-02eb8adfa16a",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact full-name and private-identifier correspondence between the index and the Army entry dated 1942-09-16. This supports high-confidence identity, not the timing of OSS entry or rank held during OSS. The code names an occupation category, not a restaurant, hotel or self-employment arrangement. Unsourced biographical and cemetery discovery is not employment evidence.",
+      "name_variants": [
+        "George L. Chekani"
+      ],
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 120 and the underlying personnel/Army records for a named civilian employer, actual employment dates, OSS start and subsequent service grade. The code names an occupation category, not a restaurant, hotel or self-employment arrangement. Unsourced biographical and cemetery discovery is not employment evidence. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b4eb9569-3207-5ea7-a556-a107e4ed6f0b",
+      "identity_status": "probable",
+      "identity_evidence": "Kaba's institutional chapter describes Konstandin/Kostë Çekrezi and wartime cooperation with OSS, but the initials-only index has no corroborating identifier. Constantine A. Chekrezi remains a plausible candidate, not an accepted biographical identification. Cooperation is not employment.",
+      "name_variants": [
+        "C. A. Chekrezi"
+      ],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 120 for full name and evidence linking the index person to Constantine/Konstandin Chekrezi; then inspect cited RG 226 records and dated appointments. Verify the chapter's page images before using it for a public biographical claim. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4091f765-1f01-50d1-9a5e-94625d28073e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact full-name and private-identifier correspondence between the index and the Army entry dated 1942-09-05. This supports high-confidence identity, not the timing of OSS entry or rank held during OSS. The reviewed category does not name a butcher shop or company. The McKeesport banner program corroborates Michael C. Chemsak's OSS association but does not name his civilian employer. Adjacent Michael A. Chemsak (Vietnam) is not this person.",
+      "name_variants": [
+        "Michael C. Chemsak"
+      ],
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 120 and the underlying personnel/Army records for a named civilian employer, actual employment dates, OSS start and subsequent service grade. The reviewed category does not name a butcher shop or company. The McKeesport banner program corroborates Michael C. Chemsak's OSS association but does not name his civilian employer. Adjacent Michael A. Chemsak (Vietnam) is not this person. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "937d8ad6-6821-54df-80f8-2bcb699625d6",
+      "identity_status": "unresolved",
+      "identity_evidence": "No corroborated external identity was established. Modern technology-worker namesakes do not belong to the wartime index entry. Hyphen removal is a search variant, not a correction or proof of identity.",
+      "name_variants": [
+        "Tung-Yu Chen"
+      ],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 120 for original-script name or documented transliteration, nationality, wartime assignment and a corroborating identifier before extending employment research. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "96c810da-5f93-590f-9532-e3c3f8ae8d96",
+      "identity_status": "ambiguous",
+      "identity_evidence": "One exact-name Army candidate has a different private identifier and is dated June 5, 1946. Neither zero padding nor dropping one leading digit resolves the discrepancy. The name alone is insufficient, and the postwar entry cannot establish pre-OSS work.",
+      "name_variants": [
+        "Vung T. Chen"
+      ],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 120 for the RA-prefixed index identifier, full name and original service documentation. Resolve the different-number postwar Army candidate without assuming a typographical correction; Yung is only a search alias. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a3a8b61e-e34c-570b-9895-8a6faa99e355",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact full-name and private-identifier correspondence between the index and the Army entry dated 1943-10-07. This supports high-confidence identity, not the timing of OSS entry or rank held during OSS. The grouped category cannot select filling-station work over parking-lot work or name a business. The inaccessible LSU alumni/newsletter lead does not establish employment by LSU.",
+      "name_variants": [
+        "Wilson P. Chenevert"
+      ],
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 120 and the underlying personnel/Army records for a named civilian employer, actual employment dates, OSS start and subsequent service grade. The grouped category cannot select filling-station work over parking-lot work or name a business. The inaccessible LSU alumni/newsletter lead does not establish employment by LSU. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ede3fe35-7b17-5d18-a6f1-2ff194986020",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact full-name and private-identifier correspondence between the index and the Army entry dated 1944-01-17. This supports high-confidence identity, not the timing of OSS entry or rank held during OSS. General clerical work does not establish a particular office, business or military occupation. Clarence O. Cheney and nineteenth-century namesakes are not assigned; commercial people-finder content is excluded without retaining sensitive numbers.",
+      "name_variants": [
+        "Clarence L. Cheney"
+      ],
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 120 and the underlying personnel/Army records for a named civilian employer, actual employment dates, OSS start and subsequent service grade. General clerical work does not establish a particular office, business or military occupation. Clarence O. Cheney and nineteenth-century namesakes are not assigned; commercial people-finder content is excluded without retaining sensitive numbers. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0655ba1e-8528-52f0-9db4-f250406cc1e2",
+      "identity_status": "unresolved",
+      "identity_evidence": "No corroborated external identity was established. The LoC newspaper Jane Chennault lead lacks a reviewed original page, middle P and OSS bridge. Adjacent snippets describe other people's work; Claire or Anna Chennault and Jane Foster are not this person.",
+      "name_variants": [
+        "Jane P. Chennault"
+      ],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 120 for full middle name, dated employment and wartime locality; inspect the original May 26, 1944 newspaper if available before relating its Jane Chennault mention. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "faa58812-da75-5ee3-9dbe-b7150b0cc660",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact full-name and private-identifier correspondence between the index and the Army entry dated 1942-05-09. This supports high-confidence identity, not the timing of OSS entry or rank held during OSS. The category does not name a contractor or establish self-employment. Maryland's CHENOWETH GEORGE N. service-index entry lacks dates and a corroborating identifier; it remains a separate archival candidate, not a proven assignment or spelling correction.",
+      "name_variants": [
+        "George N. Chenowith"
+      ],
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 120 and the underlying personnel/Army records for a named civilian employer, actual employment dates, OSS start and subsequent service grade. The category does not name a contractor or establish self-employment. Maryland's CHENOWETH GEORGE N. service-index entry lacks dates and a corroborating identifier; it remains a separate archival candidate, not a proven assignment or spelling correction. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b403-person-22-review",
+      "person_id": "2ecdbc80-de30-5429-9cbf-9aea2e9ccbec",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index context and transient official Army bulk comparison; \"Elmer T Cheffins\" OSS; \"Elmer Cheffins\" site:cia.gov; \"Elmer T. Cheffins\" occupation obituary -site:locateancestors.com -site:truepeoplesearch.net; \"Elmer Cheffins\" site:loc.gov",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T09:02:14+00:00",
+      "completed_at": "2026-09-04T09:19:41+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "The grouped transport occupation identifies neither a company nor a particular delivery route. The inaccessible Pennsylvania birth-index lead does not establish employment.",
+      "research_notes": "Individual bounded disposition, not an exhaustive no-result conclusion. The start timestamp is the durable discovery-checkpoint commit, not the first query; completion is the adjudication clock checkpoint. Reviewed-source count includes index/bulk comparison and only actual opened relevant documents, not snippets or failed opens. Distinct rejected-document counts were not reliably retained; zero is a bookkeeping placeholder, with qualitative reasons preserved here and in the discovery checkpoint. No authenticated NARA request or raw API response. Exact full-name and private-identifier correspondence between the index and the Army entry dated 1943-07-15. This supports high-confidence identity, not the timing of OSS entry or rank held during OSS. The grouped transport occupation identifies neither a company nor a particular delivery route. The inaccessible Pennsylvania birth-index lead does not establish employment.",
+      "next_action": "Review Box 120 and the underlying personnel/Army records for a named civilian employer, actual employment dates, OSS start and subsequent service grade. The grouped transport occupation identifies neither a company nor a particular delivery route. The inaccessible Pennsylvania birth-index lead does not establish employment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch403-v1"
+    },
+    {
+      "key": "b403-person-23-review",
+      "person_id": "88b3ba8a-9796-50b6-b74d-02eb8adfa16a",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index context and transient official Army bulk comparison; \"George L Chekani\" OSS; \"George Chekani\" site:cia.gov; \"George L. Chekani\" occupation obituary -site:locateancestors.com; \"George Chekani\" site:loc.gov",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T09:02:14+00:00",
+      "completed_at": "2026-09-04T09:19:41+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "The code names an occupation category, not a restaurant, hotel or self-employment arrangement. Unsourced biographical and cemetery discovery is not employment evidence.",
+      "research_notes": "Individual bounded disposition, not an exhaustive no-result conclusion. The start timestamp is the durable discovery-checkpoint commit, not the first query; completion is the adjudication clock checkpoint. Reviewed-source count includes index/bulk comparison and only actual opened relevant documents, not snippets or failed opens. Distinct rejected-document counts were not reliably retained; zero is a bookkeeping placeholder, with qualitative reasons preserved here and in the discovery checkpoint. No authenticated NARA request or raw API response. Exact full-name and private-identifier correspondence between the index and the Army entry dated 1942-09-16. This supports high-confidence identity, not the timing of OSS entry or rank held during OSS. The code names an occupation category, not a restaurant, hotel or self-employment arrangement. Unsourced biographical and cemetery discovery is not employment evidence.",
+      "next_action": "Review Box 120 and the underlying personnel/Army records for a named civilian employer, actual employment dates, OSS start and subsequent service grade. The code names an occupation category, not a restaurant, hotel or self-employment arrangement. Unsourced biographical and cemetery discovery is not employment evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch403-v1"
+    },
+    {
+      "key": "b403-person-24-review",
+      "person_id": "b4eb9569-3207-5ea7-a556-a107e4ed6f0b",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index context and transient official Army bulk comparison; \"C A Chekrezi\" OSS; Chekrezi site:cia.gov; \"C. A. Chekrezi\" \"Office of Strategic Services\"; \"C. A. Chekrezi\" occupation editor; \"Constantine Chekrezi\" employment OSS; institutional biography text/byline and OSS passage review",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T09:02:14+00:00",
+      "completed_at": "2026-09-04T09:19:41+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Kaba's institutional chapter describes Konstandin/Kostë Çekrezi and wartime cooperation with OSS, but the initials-only index has no corroborating identifier. Constantine A. Chekrezi remains a plausible candidate, not an accepted biographical identification. Cooperation is not employment.",
+      "research_notes": "Individual bounded disposition, not an exhaustive no-result conclusion. The start timestamp is the durable discovery-checkpoint commit, not the first query; completion is the adjudication clock checkpoint. Reviewed-source count includes index/bulk comparison and only actual opened relevant documents, not snippets or failed opens. Distinct rejected-document counts were not reliably retained; zero is a bookkeeping placeholder, with qualitative reasons preserved here and in the discovery checkpoint. No authenticated NARA request or raw API response. Kaba's institutional chapter describes Konstandin/Kostë Çekrezi and wartime cooperation with OSS, but the initials-only index has no corroborating identifier. Constantine A. Chekrezi remains a plausible candidate, not an accepted biographical identification. Cooperation is not employment.",
+      "next_action": "Review Box 120 for full name and evidence linking the index person to Constantine/Konstandin Chekrezi; then inspect cited RG 226 records and dated appointments. Verify the chapter's page images before using it for a public biographical claim.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch403-v1"
+    },
+    {
+      "key": "b403-person-25-review",
+      "person_id": "4091f765-1f01-50d1-9a5e-94625d28073e",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index context and transient official Army bulk comparison; \"Michael C Chemsak\" OSS; \"Michael Chemsak\" site:cia.gov; \"Michael C. Chemsak\" obituary employment -site:locateancestors.com; \"Michael Chemsak\" \"1942\"; McKeesport military banner entry review",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T09:02:14+00:00",
+      "completed_at": "2026-09-04T09:19:41+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "The reviewed category does not name a butcher shop or company. The McKeesport banner program corroborates Michael C. Chemsak's OSS association but does not name his civilian employer. Adjacent Michael A. Chemsak (Vietnam) is not this person.",
+      "research_notes": "Individual bounded disposition, not an exhaustive no-result conclusion. The start timestamp is the durable discovery-checkpoint commit, not the first query; completion is the adjudication clock checkpoint. Reviewed-source count includes index/bulk comparison and only actual opened relevant documents, not snippets or failed opens. Distinct rejected-document counts were not reliably retained; zero is a bookkeeping placeholder, with qualitative reasons preserved here and in the discovery checkpoint. No authenticated NARA request or raw API response. Exact full-name and private-identifier correspondence between the index and the Army entry dated 1942-09-05. This supports high-confidence identity, not the timing of OSS entry or rank held during OSS. The reviewed category does not name a butcher shop or company. The McKeesport banner program corroborates Michael C. Chemsak's OSS association but does not name his civilian employer. Adjacent Michael A. Chemsak (Vietnam) is not this person.",
+      "next_action": "Review Box 120 and the underlying personnel/Army records for a named civilian employer, actual employment dates, OSS start and subsequent service grade. The reviewed category does not name a butcher shop or company. The McKeesport banner program corroborates Michael C. Chemsak's OSS association but does not name his civilian employer. Adjacent Michael A. Chemsak (Vietnam) is not this person.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch403-v1"
+    },
+    {
+      "key": "b403-person-26-review",
+      "person_id": "937d8ad6-6821-54df-80f8-2bcb699625d6",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index context and transient official Army bulk comparison; \"Tung-Yu Chen\" OSS; \"Tung-Yu Chen\" site:cia.gov; \"Tung-Yu Chen\" occupation obituary OSS; \"Tung Yu Chen\" \"Strategic Services\"; \"Tung-Yu Chen\" site:loc.gov",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T09:02:14+00:00",
+      "completed_at": "2026-09-04T09:19:41+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "No corroborated external identity was established. Modern technology-worker namesakes do not belong to the wartime index entry. Hyphen removal is a search variant, not a correction or proof of identity.",
+      "research_notes": "Individual bounded disposition, not an exhaustive no-result conclusion. The start timestamp is the durable discovery-checkpoint commit, not the first query; completion is the adjudication clock checkpoint. Reviewed-source count includes index/bulk comparison and only actual opened relevant documents, not snippets or failed opens. Distinct rejected-document counts were not reliably retained; zero is a bookkeeping placeholder, with qualitative reasons preserved here and in the discovery checkpoint. No authenticated NARA request or raw API response. No corroborated external identity was established. Modern technology-worker namesakes do not belong to the wartime index entry. Hyphen removal is a search variant, not a correction or proof of identity.",
+      "next_action": "Review Box 120 for original-script name or documented transliteration, nationality, wartime assignment and a corroborating identifier before extending employment research.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch403-v1"
+    },
+    {
+      "key": "b403-person-27-review",
+      "person_id": "96c810da-5f93-590f-9532-e3c3f8ae8d96",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index context and transient official Army bulk comparison; \"Vung T Chen\" OSS; \"Vung T Chen\" site:cia.gov; \"Vung T Chen\" occupation obituary army; \"Yung T Chen\" \"OSS\"; \"Vung\" \"Chen\" \"enlistment\"; \"Vung T Chen\" site:archives.gov -personnel-database.pdf; transient exact-name and identifier-compatibility comparison",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T09:02:14+00:00",
+      "completed_at": "2026-09-04T09:19:41+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "One exact-name Army candidate has a different private identifier and is dated June 5, 1946. Neither zero padding nor dropping one leading digit resolves the discrepancy. The name alone is insufficient, and the postwar entry cannot establish pre-OSS work.",
+      "research_notes": "Individual bounded disposition, not an exhaustive no-result conclusion. The start timestamp is the durable discovery-checkpoint commit, not the first query; completion is the adjudication clock checkpoint. Reviewed-source count includes index/bulk comparison and only actual opened relevant documents, not snippets or failed opens. Distinct rejected-document counts were not reliably retained; zero is a bookkeeping placeholder, with qualitative reasons preserved here and in the discovery checkpoint. No authenticated NARA request or raw API response. One exact-name Army candidate has a different private identifier and is dated June 5, 1946. Neither zero padding nor dropping one leading digit resolves the discrepancy. The name alone is insufficient, and the postwar entry cannot establish pre-OSS work.",
+      "next_action": "Review Box 120 for the RA-prefixed index identifier, full name and original service documentation. Resolve the different-number postwar Army candidate without assuming a typographical correction; Yung is only a search alias.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch403-v1"
+    },
+    {
+      "key": "b403-person-28-review",
+      "person_id": "a3a8b61e-e34c-570b-9895-8a6faa99e355",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index context and transient official Army bulk comparison; \"Wilson P Chenevert\" OSS; \"Wilson Chenevert\" site:cia.gov; \"Wilson P. Chenevert\" occupation obituary; \"Wilson Chenevert\" \"OSS\"; LSU engineering newsletter direct open",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T09:02:14+00:00",
+      "completed_at": "2026-09-04T09:19:41+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "The grouped category cannot select filling-station work over parking-lot work or name a business. The inaccessible LSU alumni/newsletter lead does not establish employment by LSU.",
+      "research_notes": "Individual bounded disposition, not an exhaustive no-result conclusion. The start timestamp is the durable discovery-checkpoint commit, not the first query; completion is the adjudication clock checkpoint. Reviewed-source count includes index/bulk comparison and only actual opened relevant documents, not snippets or failed opens. Distinct rejected-document counts were not reliably retained; zero is a bookkeeping placeholder, with qualitative reasons preserved here and in the discovery checkpoint. No authenticated NARA request or raw API response. Exact full-name and private-identifier correspondence between the index and the Army entry dated 1943-10-07. This supports high-confidence identity, not the timing of OSS entry or rank held during OSS. The grouped category cannot select filling-station work over parking-lot work or name a business. The inaccessible LSU alumni/newsletter lead does not establish employment by LSU.",
+      "next_action": "Review Box 120 and the underlying personnel/Army records for a named civilian employer, actual employment dates, OSS start and subsequent service grade. The grouped category cannot select filling-station work over parking-lot work or name a business. The inaccessible LSU alumni/newsletter lead does not establish employment by LSU.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch403-v1"
+    },
+    {
+      "key": "b403-person-29-review",
+      "person_id": "ede3fe35-7b17-5d18-a6f1-2ff194986020",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index context and transient official Army bulk comparison; \"Clarence L Cheney\" OSS; \"Clarence Cheney\" site:cia.gov; \"Clarence L. Cheney\" occupation obituary -site:truepeoplesearch.net -site:locateancestors.com; \"Clarence Cheney\" \"Office of Strategic Services\"; \"Clarence Cheney\" \"1925\" obituary; \"Clarence L Cheney\" site:archives.gov -personnel-database.pdf",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T09:02:14+00:00",
+      "completed_at": "2026-09-04T09:19:41+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "General clerical work does not establish a particular office, business or military occupation. Clarence O. Cheney and nineteenth-century namesakes are not assigned; commercial people-finder content is excluded without retaining sensitive numbers.",
+      "research_notes": "Individual bounded disposition, not an exhaustive no-result conclusion. The start timestamp is the durable discovery-checkpoint commit, not the first query; completion is the adjudication clock checkpoint. Reviewed-source count includes index/bulk comparison and only actual opened relevant documents, not snippets or failed opens. Distinct rejected-document counts were not reliably retained; zero is a bookkeeping placeholder, with qualitative reasons preserved here and in the discovery checkpoint. No authenticated NARA request or raw API response. Exact full-name and private-identifier correspondence between the index and the Army entry dated 1944-01-17. This supports high-confidence identity, not the timing of OSS entry or rank held during OSS. General clerical work does not establish a particular office, business or military occupation. Clarence O. Cheney and nineteenth-century namesakes are not assigned; commercial people-finder content is excluded without retaining sensitive numbers.",
+      "next_action": "Review Box 120 and the underlying personnel/Army records for a named civilian employer, actual employment dates, OSS start and subsequent service grade. General clerical work does not establish a particular office, business or military occupation. Clarence O. Cheney and nineteenth-century namesakes are not assigned; commercial people-finder content is excluded without retaining sensitive numbers.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch403-v1"
+    },
+    {
+      "key": "b403-person-30-review",
+      "person_id": "0655ba1e-8528-52f0-9db4-f250406cc1e2",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index context and transient official Army bulk comparison; \"Jane P Chennault\" OSS; \"Jane Chennault\" site:cia.gov; \"Jane P. Chennault\" occupation obituary -site:signalhire.com -site:contactout.com; \"Jane Chennault\" \"OSS\"; \"Jane Chennault\" site:loc.gov; LoC newspaper direct open (403)",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T09:02:14+00:00",
+      "completed_at": "2026-09-04T09:19:41+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "No corroborated external identity was established. The LoC newspaper Jane Chennault lead lacks a reviewed original page, middle P and OSS bridge. Adjacent snippets describe other people's work; Claire or Anna Chennault and Jane Foster are not this person.",
+      "research_notes": "Individual bounded disposition, not an exhaustive no-result conclusion. The start timestamp is the durable discovery-checkpoint commit, not the first query; completion is the adjudication clock checkpoint. Reviewed-source count includes index/bulk comparison and only actual opened relevant documents, not snippets or failed opens. Distinct rejected-document counts were not reliably retained; zero is a bookkeeping placeholder, with qualitative reasons preserved here and in the discovery checkpoint. No authenticated NARA request or raw API response. No corroborated external identity was established. The LoC newspaper Jane Chennault lead lacks a reviewed original page, middle P and OSS bridge. Adjacent snippets describe other people's work; Claire or Anna Chennault and Jane Foster are not this person.",
+      "next_action": "Review Box 120 for full middle name, dated employment and wartime locality; inspect the original May 26, 1944 newspaper if available before relating its Jane Chennault mention.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch403-v1"
+    },
+    {
+      "key": "b403-person-31-review",
+      "person_id": "faa58812-da75-5ee3-9dbe-b7150b0cc660",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index context and transient official Army bulk comparison; \"George N Chenowith\" OSS; \"George Chenowith\" site:cia.gov; \"George N. Chenowith\" occupation obituary -site:signalhire.com -site:contactout.com; Maryland State Archives service-record index review",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T09:02:14+00:00",
+      "completed_at": "2026-09-04T09:19:41+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "The category does not name a contractor or establish self-employment. Maryland's CHENOWETH GEORGE N. service-index entry lacks dates and a corroborating identifier; it remains a separate archival candidate, not a proven assignment or spelling correction.",
+      "research_notes": "Individual bounded disposition, not an exhaustive no-result conclusion. The start timestamp is the durable discovery-checkpoint commit, not the first query; completion is the adjudication clock checkpoint. Reviewed-source count includes index/bulk comparison and only actual opened relevant documents, not snippets or failed opens. Distinct rejected-document counts were not reliably retained; zero is a bookkeeping placeholder, with qualitative reasons preserved here and in the discovery checkpoint. No authenticated NARA request or raw API response. Exact full-name and private-identifier correspondence between the index and the Army entry dated 1942-05-09. This supports high-confidence identity, not the timing of OSS entry or rank held during OSS. The category does not name a contractor or establish self-employment. Maryland's CHENOWETH GEORGE N. service-index entry lacks dates and a corroborating identifier; it remains a separate archival candidate, not a proven assignment or spelling correction.",
+      "next_action": "Review Box 120 and the underlying personnel/Army records for a named civilian employer, actual employment dates, OSS start and subsequent service grade. The category does not name a contractor or establish self-employment. Maryland's CHENOWETH GEORGE N. service-index entry lacks dates and a corroborating identifier; it remains a separate archival candidate, not a proven assignment or spelling correction.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch403-v1"
+    }
+  ]
+}
