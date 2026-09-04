@@ -2,14 +2,27 @@
 
 Run: 2026-09-04 UTC
 
+## Batch 409 local
+
+All internal targets resolve across 24,458 HTML pages; 49,581 external URLs are
+inventoried, not all visited. Manifest: 67 assets / 83,758,733 bytes; SHA-256
+`7439600b57d4bdc5a6c74536edfa35f681ca6c62c09d2b1306dcca2f73a0c22a`.
+Identifier audit covers all 24,530 artifacts with zero unexpected boundary
+matches. Public and production trees reproduce byte-for-byte. Independent
+GitHub QA, merge, Pages deployment and pinned live verification remain pending;
+see `reports/release_batch_409.md`.
+
 ## Batch 408 local
 
 All internal targets resolve across 24,457 HTML pages; 49,578 external URLs are
 inventoried, not all visited. Manifest: 67 assets / 83,715,111 bytes; SHA-256
 `59017dd704f8e0c3212709b175025a55917a9226aa4a84d223c7ce7b86c79400`.
 Identifier audit covers all 24,529 artifacts with zero unexpected boundary
-matches. Public and production trees reproduce byte-for-byte. The complete
-browser matrix remains pending and no Batch 408 deployment is claimed.
+matches. Public and production trees reproduce byte-for-byte. Independent
+GitHub Test `33907815106` passed all 1,719 cases, PR 165 merged, and Pages
+`33911646661` succeeded. Pinned verification against
+`89a8219cc2c63b8dd32f713203d1f6e18c8279c8` matched all 67 assets /
+83,715,111 bytes, seven core routes and all ten cohort profiles.
 
 ## Batch 407 local
 

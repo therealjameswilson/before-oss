@@ -4,11 +4,24 @@ Run: 2026-09-04 UTC
 
 ## Result
 
+Batch 409: twelve focused checks pass across desktop, phone and tablet in 13.5
+seconds on the deterministic build. The first focused run served a stale built
+tree and included one incorrect test-only serial-mask expectation; the tree was
+rebuilt and the assertion corrected to the actual masked display without
+changing evidence or site behavior. The complete 1,731-case local matrix
+produced 1,728 passes and three browser-session timeouts in 45.5 minutes. All
+three unchanged affected scenarios then pass across all three viewports, 9/9
+in 16.7 seconds, without retries. Independent GitHub QA remains the publication
+gate. See `reports/release_batch_409.md`.
+
 Batch 408: twelve final focused checks pass across desktop, phone and tablet in
 12.3 seconds after the determinism run. The initial authoring run had three
 failures from one incorrect test-only field name; the assertion was corrected
 to the actual canonical-organization field without changing evidence or site
-behavior. The full 1,719-case matrix is pending. No deployment is claimed; see
+behavior. The full local matrix produced 1,712 passes and seven session/network
+timeouts; all affected batches pass unchanged across all three viewports in a
+36-case rerun. Independent GitHub Test `33907815106` passed 1,719/1,719 in 22.5
+minutes, followed by successful Pages and pinned verification. See
 `reports/release_batch_408.md`.
 
 Batch 407: twelve final focused checks pass in 8.5 seconds on the completed,

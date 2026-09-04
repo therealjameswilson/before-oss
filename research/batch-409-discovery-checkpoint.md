@@ -62,3 +62,38 @@ inspect the Martin Chittick and Yugoslavia sources. Complete the CIA, employment
 institutional/newspaper and archival query stages for every person before any
 individual outcome is imported. No authenticated Catalog call or exposed API
 credential was used.
+
+## Adjudication completed
+
+The discovery checkpoint above is retained as the pre-adjudication record. The
+ten individual outcomes were subsequently reviewed, validated and imported
+from
+`evidence-page-seventy-nine-chissell-through-choha-pathways_batch-409_2026-09-04.json`.
+All ten now have terminal research outcomes and saved attempt records.
+
+- Martin B. Chittick is a high-confidence identity. A 1940 ASTM publisher
+  record supplies a high-confidence, documented-prewar professional
+  affiliation with The Pure Oil Co.; it is deliberately not labeled employment,
+  immediate pre-OSS affiliation, or last civilian employer. The 1943 Official
+  Register places the indexed colonel in the Chemical Warfare Service Technical
+  Division. His personnel file remains necessary to establish the OSS transition.
+- DeForest D. Choha is a high-confidence enlisted-Army identity. The exact
+  private-identifier match records occupational value 580 on 1944-02-08; the
+  visually inspected official table defines that value as the broad group
+  "Mechanics and repairmen, airplane." This is published as a qualified
+  occupation observation, not a named employer or an asserted immediate OSS
+  pathway.
+- Ernest L. Chmieleski and Joseph F. Chochola receive probable, qualified
+  identity evidence from Waldemar Grabowski's contextual roster of OSS
+  personnel in Yugoslavia. The article does not establish pre-OSS employment;
+  both remain archive-routed.
+- Herbert G. Chissell, C. Chittinandhan, Charles E. Chitwood, Churchill T. Chiu,
+  Charles Choate and Wade T. Choate remain unresolved after the recorded staged
+  protocol and require archival review. Name-only, modern and genealogical
+  candidates were rejected rather than promoted.
+
+No authenticated Catalog request or exposed credential was used. The final
+bundle adds seven citation records, one organization, two affiliations, six
+claims, thirteen claim-source links and ten attempts. It adds one qualified
+professional affiliation and one occupation observation, but **no verified
+employer**.
