@@ -7,10 +7,10 @@ Generated from the current local SQLite database on 2026-09-03 UTC.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,743 people with a non-planned attempt | 23,940 active person entities | 15.6349% |
-| Verified-affiliation coverage | 491 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 2.0510% |
-| Verified-employer coverage | 210 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8772% |
-| Archival-review coverage | 3,696 people with an individual file-access/priority assessment | 23,940 active person entities | 15.4386% |
+| Research-attempt coverage | 3,773 people with a non-planned attempt | 23,940 active person entities | 15.7602% |
+| Verified-affiliation coverage | 494 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 2.0635% |
+| Verified-employer coverage | 211 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8814% |
+| Archival-review coverage | 3,726 people with an individual file-access/priority assessment | 23,940 active person entities | 15.5639% |
 
 ## Extraction and identity
 
@@ -23,52 +23,52 @@ Generated from the current local SQLite database on 2026-09-03 UTC.
 - Possible duplicate groups: 233
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 726
-- Identity status `high_confidence`: 536
+- Identity status `confirmed`: 738
+- Identity status `high_confidence`: 539
 - Identity status `probable`: 120
-- Identity status `ambiguous`: 60
-- Identity status `conflicting`: 68
-- Identity status `unresolved`: 22,430
+- Identity status `ambiguous`: 64
+- Identity status `conflicting`: 70
+- Identity status `unresolved`: 22,409
 
 ## Personnel categories
 
-- Unknown or indeterminate: 15,982
-- Enlisted Army personnel: 3,935
-- Commissioned Army officers: 2,106
+- Unknown or indeterminate: 15,968
+- Enlisted Army personnel: 3,946
+- Commissioned Army officers: 2,107
 - Commissioned Coast Guard officers: 1
-- Commissioned Marine Corps officers: 6
+- Commissioned Marine Corps officers: 7
 - Enlisted Marine Corps personnel: 3
 - Civilian professional or administrative grades: 1,498
-- Foreign or Allied military personnel: 251
+- Foreign or Allied military personnel: 252
 - Enlisted naval personnel: 64
 - Commissioned naval officers: 85
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,225 yes; 5,604 no; 16,111 indeterminate.
+Commissioned classification: 2,228 yes; 5,615 no; 16,097 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,197
+- `not_started`: 20,167
 - `in_progress`: 46
 - `candidate_found`: 1
 - `needs_identity_review`: 104
 - `needs_temporal_review`: 9
 - `documented_prewar_employer_found`: 68
-- `no_reliable_result_after_protocol`: 77
-- `occupation_only_found`: 615
-- `requires_archival_review`: 2,434
-- `completed`: 117
-- `conflicting_sources`: 66
-- `verified_employer_found`: 206
-- Claim confidence: 904 confirmed; 1,144 high; 803 medium; 55 low; 78
+- `no_reliable_result_after_protocol`: 82
+- `occupation_only_found`: 625
+- `requires_archival_review`: 2,443
+- `completed`: 120
+- `conflicting_sources`: 68
+- `verified_employer_found`: 207
+- Claim confidence: 916 confirmed; 1,152 high; 818 medium; 55 low; 80
   conflicting
-- Durable evidence inventory: 3,683 source records representing 1,717 unique
-  documents; 511 organizations; 1,476 affiliations; 2,984 claims; and 6,769
+- Durable evidence inventory: 3,700 citation records representing 1,723 unique
+  documents; 514 organizations; 1,495 affiliations; 3,021 claims; and 6,837
   claim-source links
-- Reviewed public projection: 499 organizations; 1,465 published, qualified,
-  or conflict-visible affiliations; 2,927 published, qualified, or
-  conflict-visible claims; and 2,572 public citation records
+- Reviewed public projection: 502 organizations; 1,484 published, qualified,
+  or conflict-visible affiliations; 2,964 published, qualified, or
+  conflict-visible claims; and 2,586 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -78,12 +78,12 @@ Commissioned classification: 2,225 yes; 5,604 no; 16,111 indeterminate.
 - Reviewed-source attempts remain reproducible by versioned adapter in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,621; 158 additional attempts have a saved
+- Saved `source_reviewed` outcomes: 1,636; 158 additional attempts have a saved
   `candidate_found` outcome
-- Total recorded attempts/plans: 4,961
+- Total recorded attempts/plans: 4,991
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,435; 1,389 have at least one public-visible
+- People with saved reviewed claims: 1,452; 1,406 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John

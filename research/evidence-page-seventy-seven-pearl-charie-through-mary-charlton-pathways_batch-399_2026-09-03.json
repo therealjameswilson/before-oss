@@ -1,0 +1,978 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS evidence review, Batch 399, 2026-09-03",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-77-batch399",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 118-119",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 77, rows 28-37; Pearl M. Charie through Mary Charlton; page visually checked at 300 dpi; private identifiers withheld",
+      "access_date": "2026-09-03",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. All ten immutable source rows, printed spellings, blank printed ranks, box boundary, and archival locations remain preserved. Full private identifiers are excluded from public data."
+    },
+    {
+      "key": "nara-army-enlistment-merged-file-batch399",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "National Archives Identifier 604357; data file NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; exact fixed-width private-identifier review for the five eligible Batch 399 rows and exact-name candidate counts for the other five; identifiers withheld",
+      "access_date": "2026-09-03",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "Reviewed transiently outside version control. Four rows had exact name-and-identifier matches; one identifier-backed record has transposed name fields, a postdated Army-entry chronology, and corrupt coded fields. Name-only candidates were not accepted without corroboration. Only project-authored conclusions are retained."
+    },
+    {
+      "key": "nara-army-enlistment-basic-documentation-batch399",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Reference Copy of Technical Documentation",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-45; fixed-width field layout, names, Army-entry dates, grades, and civilian-occupation values; visually and textually checked",
+      "access_date": "2026-09-03",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret the fixed-width records and identify visibly invalid or corrupt field values. The conversion is not treated as a complete roster, and a missing match is not negative proof."
+    },
+    {
+      "key": "nara-army-enlistment-code-lists-batch399",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "Code No. 30, PDF physical pages 170-175; values 002, 031, 433, and 599 visually and textually checked",
+      "access_date": "2026-09-03",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "The official table defines the four accepted occupation groups. No employer, exact workplace, or later Army-to-OSS sequence is inferred from an occupation value."
+    },
+    {
+      "key": "ibdb-andre-charise-batch399",
+      "stable_url": "https://www.ibdb.com/broadway-cast-staff/andre-charise-35075",
+      "archival_identifier": "IBDB person record 35075",
+      "title": "Andre Charise – Broadway Cast & Staff",
+      "author_creator": null,
+      "repository_publisher": "Internet Broadway Database; The Broadway League",
+      "publication_record_date": null,
+      "locator": "Person credits; Lady in the Dark, January 23, 1941-May 30, 1942, Alberta Rasch Group Dancer; earlier Broadway credits 1933-1940",
+      "access_date": "2026-09-03",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Internet Broadway Database",
+      "rights_notes": "The Broadway League describes IBDB as its official Broadway theatre database. Only short credit text and project-authored paraphrases are retained."
+    },
+    {
+      "key": "usmc-herringbone-cloak-joseph-charles-batch399",
+      "stable_url": "https://www.govinfo.gov/content/pkg/GOVPUB-D214-PURL-gpo66817/pdf/GOVPUB-D214-PURL-gpo66817.pdf",
+      "archival_identifier": "GOVPUB-D214-PURL-gpo66817",
+      "title": "Herringbone Cloak—GI Dagger: Marines of the OSS",
+      "author_creator": "Major Robert E. Mattingly, United States Marine Corps",
+      "repository_publisher": "History and Museums Division, Headquarters, U.S. Marine Corps; U.S. Government Publishing Office",
+      "publication_record_date": "Research paper 1979-05-10; published 1989",
+      "locator": "PDF physical pages 74-75, printed pages 54-55; PDF physical page 341, printed page 313 appendix",
+      "access_date": "2026-09-03",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "History and Museums Division Occasional Papers",
+      "rights_notes": "Officially published historical research paper. The Marine Corps foreword says factual errors may remain and the author's views are not official policy; claims are therefore rated institutional rather than direct personnel-file evidence."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "harvard-university",
+      "canonical_name": "Harvard University",
+      "historical_name": "Harvard University",
+      "aliases": [
+        "Harvard"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "active_dates": "1636-present",
+      "normalization_notes": "The source places Joseph E. Charles in Cambridge as an assistant professor after receiving his graduate degrees from Harvard. Employment is modeled separately from student status."
+    },
+    {
+      "key": "lady-in-the-dark-broadway-production",
+      "canonical_name": "Lady in the Dark (original Broadway production)",
+      "historical_name": "Lady in the Dark",
+      "aliases": [
+        "Lady in the Dark original Broadway cast"
+      ],
+      "organization_type": "theatrical production",
+      "sector": "arts_and_culture",
+      "city": "New York City",
+      "state_or_region": "New York",
+      "country": "United States",
+      "active_dates": "1941-1942",
+      "normalization_notes": "Modeled as a professional production affiliation, not a named employing organization. The production is not silently substituted for a producer or theatre employer."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "andre-b-charise-actor-occupation-batch399",
+      "person_id": "ec26c541-5896-5115-bb5a-fd4f6ae858d4",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Actor or actress",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-12-03",
+      "date_precision": "The official Army record at entry on December 3, 1942 encodes civilian occupation 002; NARA's Code No. 30 defines 0-02 as Actors and actresses.",
+      "city": "New York City",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Published only as the Army record's entry-time occupation group. The source does not identify an employer, production, exact role, or later Army-to-OSS sequence."
+    },
+    {
+      "key": "andre-b-charise-lady-in-the-dark-batch399",
+      "person_id": "ec26c541-5896-5115-bb5a-fd4f6ae858d4",
+      "organization_key": "lady-in-the-dark-broadway-production",
+      "organization_name_as_found": "Lady in the Dark",
+      "role_title": "Alberta Rasch Group Dancer",
+      "occupation": "Broadway performer and dancer",
+      "relationship_type": "professional_affiliation",
+      "start_date": "1941-01-23",
+      "end_date": "1942-05-30",
+      "date_precision": "IBDB supplies the original production's opening and closing dates and credits Andre Charise as an Alberta Rasch Group Dancer.",
+      "city": "New York City",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The rare exact name, institutional Broadway credit, matching New York context, and identifier-backed Army actor classification support this role. It is a production affiliation, not a proven employer or immediate predecessor to OSS."
+    },
+    {
+      "key": "joseph-e-charles-harvard-batch399",
+      "person_id": "a4ed0588-aa5d-5588-bb65-49a300158fbf",
+      "organization_key": "harvard-university",
+      "organization_name_as_found": "Harvard",
+      "role_title": "Assistant Professor of History",
+      "occupation": "Historian and university professor",
+      "relationship_type": "employment",
+      "start_date": "1936",
+      "end_date": "1942-12",
+      "date_precision": "The Marine Corps history says Charles remained in Cambridge as an assistant professor after graduating in 1936 and joined OSS in December 1942; no exact appointment or departure day is supplied.",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The source directly sequences Harvard teaching before December 1942 OSS entry and later Marine commissioning. Harvard is both the best-supported immediate civilian affiliation and last civilian employer; the Box 119 file remains the direct personnel-file check."
+    },
+    {
+      "key": "ruben-charles-woodworking-occupation-batch399",
+      "person_id": "1a8a6a90-b3d7-540b-b3a8-8ee8881e83e9",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Skilled general woodworking occupations, not elsewhere classified",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-03-29",
+      "date_precision": "The official Army record at entry on March 29, 1943 encodes civilian occupation 433; NARA's Code No. 30 places 4-33 among skilled general woodworking occupations not elsewhere classified.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Only name, identifier, Army-entry date, private grade, and the decoded occupation are accepted. Other coded and physical fields appear corrupt and are not published or used. No employer, exact trade, or OSS-transfer chronology is inferred."
+    },
+    {
+      "key": "morton-l-charleston-teacher-occupation-batch399",
+      "person_id": "8e781ec4-ddb3-5b65-ae9a-6229568890bb",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Secondary-school teacher or principal",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-08-31",
+      "date_precision": "The official Army record at entry on August 31, 1942 encodes civilian occupation 031; NARA's Code No. 30 defines 0-31 as Teachers (secondary school) and principals.",
+      "city": null,
+      "state_or_region": "New Jersey",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Published only as the Army record's entry-time grouped occupation. A postwar spouse obituary describes Morton Charleston as a Philadelphia teacher but does not identify his prewar school or employer, so it is not used as principal evidence."
+    },
+    {
+      "key": "samuel-s-charlon-foreman-occupation-batch399",
+      "person_id": "706ace36-3aba-52cc-b693-8c6b7f09eca9",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Foreman, not elsewhere classified",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-12-01",
+      "date_precision": "The official Army record at entry on December 1, 1942 encodes civilian occupation 599; NARA's Code No. 30 defines 5-99 as Foremen, n.e.c.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Only name, identifier, Army-entry date, private grade, and the decoded occupation are accepted. Residual physical fields appear corrupt and are not published or used. No employer, industry, worksite, or OSS-transfer chronology is inferred."
+    }
+  ],
+  "claims": [
+    {
+      "key": "andre-b-charise-confirmed-army-identity-batch399",
+      "person_id": "ec26c541-5896-5115-bb5a-fd4f6ae858d4",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Andre B. Charise is confirmed as the identifier-matched Army private of the same full name.",
+      "evidence_excerpt": "CHARISE ANDRE B",
+      "evidence_paraphrase": "The official OSS index and Army merged record share Andre B. Charise's exact name and private identifier.",
+      "identity_match_assessment": "Confirmed by exact full-name and private-identifier agreement.",
+      "temporal_assessment": "The Army record documents entry on December 3, 1942; it does not date OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The official record gives grade PVT and New York City context. The private identifier is excluded from public text and downloads.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-77-batch399",
+          "support_type": "supports",
+          "locator_override": "PDF page 77, row 29; Box 118; private identifier withheld",
+          "excerpt_override": "CHARISE ANDRE B"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch399",
+          "support_type": "supports",
+          "locator_override": "Exact identifier-backed record; entry December 3, 1942; grade PVT; identifier withheld",
+          "excerpt_override": "CHARISE ANDRE B"
+        }
+      ]
+    },
+    {
+      "key": "andre-b-charise-actor-occupation-claim-batch399",
+      "person_id": "ec26c541-5896-5115-bb5a-fd4f6ae858d4",
+      "affiliation_key": "andre-b-charise-actor-occupation-batch399",
+      "claim_type": "occupation",
+      "claim_text": "Andre B. Charise's Army-entry record classified his civilian occupation as actor or actress.",
+      "evidence_excerpt": "Actors and actresses",
+      "evidence_paraphrase": "The exact official Army record carries civilian occupation value 002, and NARA's official table defines 0-02 as Actors and actresses.",
+      "identity_match_assessment": "Confirmed by exact private-identifier and full-name agreement across the OSS index and official Army record.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on December 3, 1942. It is not established as the immediate pre-OSS role.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Publish the grouped occupation only. Do not infer a production, employer, exact stage role, or Army-to-OSS sequence from this field.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch399",
+          "support_type": "supports",
+          "locator_override": "Exact identifier-backed record; entry December 3, 1942; occupation value 002; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch399",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF physical page 170; value 002",
+          "excerpt_override": "Actors and actresses"
+        }
+      ]
+    },
+    {
+      "key": "andre-b-charise-lady-in-the-dark-claim-batch399",
+      "person_id": "ec26c541-5896-5115-bb5a-fd4f6ae858d4",
+      "affiliation_key": "andre-b-charise-lady-in-the-dark-batch399",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Andre Charise performed in the original Broadway production of Lady in the Dark as an Alberta Rasch Group Dancer from January 1941 through May 1942.",
+      "evidence_excerpt": "Performer: Andre Charise — Alberta Rasch Group Dancer",
+      "evidence_paraphrase": "IBDB credits Andre Charise in Lady in the Dark between January 23, 1941 and May 30, 1942 as an Alberta Rasch Group Dancer.",
+      "identity_match_assessment": "High-confidence role match supported by the rare exact name, New York context, institutional Broadway credit, and exact-identifier Army actor classification.",
+      "temporal_assessment": "Definitely before Army entry in December 1942, but the seven-month gap means the production is not labeled the immediate pre-OSS affiliation.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Modeled as a professional production affiliation, not an employer. Earlier IBDB credits are retained as context but not separately modeled in this batch.",
+      "sources": [
+        {
+          "source_key": "ibdb-andre-charise-batch399",
+          "support_type": "supports",
+          "locator_override": "Andre Charise credits; Lady in the Dark, January 23, 1941-May 30, 1942",
+          "excerpt_override": "Performer: Andre Charise — Alberta Rasch Group Dancer"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch399",
+          "support_type": "context_only",
+          "locator_override": "Exact identifier-backed New York City record; actor occupation; identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "joe-m-charles-identifier-chronology-conflict-batch399",
+      "person_id": "422f8f54-99bb-5d29-8bdb-7fecf6636e0e",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Joe M. Charles's index identifier points to an Army record with transposed name fields, a February 1945 entry date, and multiple invalid coded values.",
+      "evidence_excerpt": "JOE CHARLES M",
+      "evidence_paraphrase": "The private identifier agrees, but the official Army conversion reverses the name fields and contains a postdated entry chronology and corrupted coded data.",
+      "identity_match_assessment": "Conflicting. Identifier agreement is strong, but the name-field order and corrupted record prevent secure interpretation without the personnel file.",
+      "temporal_assessment": "Army entry on February 14, 1945 cannot be treated as a pre-OSS predecessor without evidence establishing when this indexed person joined OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The private identifier and invalid values remain withheld. No rank, occupation, employer, or Army-to-OSS sequence is assigned from the corrupted record.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-77-batch399",
+          "support_type": "supports",
+          "locator_override": "PDF page 77, row 31; Box 119; private identifier withheld",
+          "excerpt_override": "CHARLES JOE M"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch399",
+          "support_type": "contradicts",
+          "locator_override": "Exact-identifier record with transposed name fields, February 14, 1945 entry, and invalid coded fields; identifier withheld",
+          "excerpt_override": "JOE CHARLES M"
+        }
+      ]
+    },
+    {
+      "key": "joseph-e-charles-high-confidence-identity-batch399",
+      "person_id": "a4ed0588-aa5d-5588-bb65-49a300158fbf",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph E. Charles is identified with high confidence as the Harvard historian who joined OSS in December 1942 and later became a Marine Corps Reserve captain.",
+      "evidence_excerpt": "Joseph E. Charles — England, France, Germany",
+      "evidence_paraphrase": "The Marine Corps history names Joseph E. Charles in its OSS Marine roster and supplies a matching Harvard, OSS, and Marine chronology.",
+      "identity_match_assessment": "High confidence from the exact full name and middle initial in the official publication's roster plus the exceptionally specific OSS and academic biography.",
+      "temporal_assessment": "The source places Harvard employment from after 1936 through OSS entry in December 1942 and Marine commissioning in June 1943.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No private identifier is printed in the index. Two same-name Army-conversion records were not used because neither supplies the monograph's direct OSS and Harvard bridge. The Box 119 file remains the final archival confirmation.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-77-batch399",
+          "support_type": "supports",
+          "locator_override": "PDF page 77, row 32; Box 119",
+          "excerpt_override": "CHARLES JOSEPH E"
+        },
+        {
+          "source_key": "usmc-herringbone-cloak-joseph-charles-batch399",
+          "support_type": "supports",
+          "locator_override": "Printed pages 54-55 biography and printed page 313 roster",
+          "excerpt_override": "Joseph E. Charles — England, France, Germany"
+        }
+      ]
+    },
+    {
+      "key": "joseph-e-charles-immediate-harvard-claim-batch399",
+      "person_id": "a4ed0588-aa5d-5588-bb65-49a300158fbf",
+      "affiliation_key": "joseph-e-charles-harvard-batch399",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Joseph E. Charles's best-supported immediate pre-OSS affiliation was Harvard University, where he was an assistant professor of history before joining OSS in December 1942.",
+      "evidence_excerpt": "He remained in Cambridge as an Assistant Professor of History",
+      "evidence_paraphrase": "The Marine Corps history sequences Charles's Harvard teaching after his 1936 graduation and directly before his December 1942 OSS entry.",
+      "identity_match_assessment": "High-confidence exact-name and middle-initial identity in a detailed official institutional history and roster.",
+      "temporal_assessment": "Strongly date-bounded: teaching is presented as continuing after 1936, followed directly by OSS entry in December 1942, with no intervening affiliation identified.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Harvard is treated as an employer because an assistant professorship is explicitly documented. The direct personnel file should confirm the exact departure and appointment dates.",
+      "sources": [
+        {
+          "source_key": "usmc-herringbone-cloak-joseph-charles-batch399",
+          "support_type": "supports",
+          "locator_override": "Printed page 54, Joseph Charles paragraph",
+          "excerpt_override": "He remained in Cambridge as an Assistant Professor of History"
+        }
+      ]
+    },
+    {
+      "key": "joseph-e-charles-last-civilian-harvard-claim-batch399",
+      "person_id": "a4ed0588-aa5d-5588-bb65-49a300158fbf",
+      "affiliation_key": "joseph-e-charles-harvard-batch399",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Harvard University is Joseph E. Charles's best-supported last civilian employer before his later Marine Corps Reserve commission.",
+      "evidence_excerpt": "He joined OSS in December, 1942",
+      "evidence_paraphrase": "The source places Charles's Harvard assistant professorship before his December 1942 civilian OSS entry and his June 1943 Marine commission.",
+      "identity_match_assessment": "High-confidence exact-name and middle-initial identity in the same detailed institutional source.",
+      "temporal_assessment": "The chronology identifies Harvard teaching as the last named civilian employment before OSS and later military service; the exact employment end date remains month-level.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This claim is distinct from immediate affiliation even though the same Harvard role currently fills both categories. It is not based merely on Charles's Harvard degrees.",
+      "sources": [
+        {
+          "source_key": "usmc-herringbone-cloak-joseph-charles-batch399",
+          "support_type": "supports",
+          "locator_override": "Printed pages 54-55, assistant-professor, OSS-entry, and June 1943 commission sequence",
+          "excerpt_override": "He joined OSS in December, 1942"
+        }
+      ]
+    },
+    {
+      "key": "ruben-charles-confirmed-army-identity-batch399",
+      "person_id": "1a8a6a90-b3d7-540b-b3a8-8ee8881e83e9",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Ruben Charles is confirmed as the identifier-matched Army private of the same full name.",
+      "evidence_excerpt": "CHARLES RUBEN",
+      "evidence_paraphrase": "The official OSS index and Army merged record share Ruben Charles's exact name and private identifier.",
+      "identity_match_assessment": "Confirmed by exact full-name and private-identifier agreement.",
+      "temporal_assessment": "The Army record documents entry on March 29, 1943; it does not date OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The official record gives grade PVT. Corrupt residual fields are ignored, and the private identifier is excluded from public text and downloads.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-77-batch399",
+          "support_type": "supports",
+          "locator_override": "PDF page 77, row 33; Box 119; private identifier withheld",
+          "excerpt_override": "CHARLES RUBEN"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch399",
+          "support_type": "supports",
+          "locator_override": "Exact identifier-backed record; entry March 29, 1943; grade PVT; identifier withheld",
+          "excerpt_override": "CHARLES RUBEN"
+        }
+      ]
+    },
+    {
+      "key": "ruben-charles-woodworking-occupation-claim-batch399",
+      "person_id": "1a8a6a90-b3d7-540b-b3a8-8ee8881e83e9",
+      "affiliation_key": "ruben-charles-woodworking-occupation-batch399",
+      "claim_type": "occupation",
+      "claim_text": "Ruben Charles's Army-entry record classified his civilian occupation among skilled general woodworking occupations not elsewhere classified.",
+      "evidence_excerpt": "General woodworking occupations, n.e.c.",
+      "evidence_paraphrase": "The exact official Army record carries civilian occupation value 433, and NARA's official table places 4-33 in the skilled general woodworking group.",
+      "identity_match_assessment": "Confirmed by exact private-identifier and full-name agreement across the OSS index and official Army record.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on March 29, 1943. It is not established as the immediate pre-OSS role.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Publish the grouped occupation only. Do not infer a carpenter, cabinetmaker, employer, worksite, or Army-to-OSS sequence.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch399",
+          "support_type": "supports",
+          "locator_override": "Exact identifier-backed record; entry March 29, 1943; occupation value 433; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch399",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF physical page 173; value 433",
+          "excerpt_override": "General woodworking occupations, n.e.c."
+        }
+      ]
+    },
+    {
+      "key": "morton-l-charleston-confirmed-army-identity-batch399",
+      "person_id": "8e781ec4-ddb3-5b65-ae9a-6229568890bb",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Morton L. Charleston is confirmed as the identifier-matched Army private of the same full name.",
+      "evidence_excerpt": "CHARLESTON MORTON L",
+      "evidence_paraphrase": "The official OSS index and Army merged record share Morton L. Charleston's exact name and private identifier.",
+      "identity_match_assessment": "Confirmed by exact full-name and private-identifier agreement.",
+      "temporal_assessment": "The Army record documents entry on August 31, 1942; it does not date OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The official record gives grade PVT and New Jersey context. The private identifier is excluded from public text and downloads.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-77-batch399",
+          "support_type": "supports",
+          "locator_override": "PDF page 77, row 34; Box 119; private identifier withheld",
+          "excerpt_override": "CHARLESTON MORTON L"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch399",
+          "support_type": "supports",
+          "locator_override": "Exact identifier-backed record; entry August 31, 1942; grade PVT; identifier withheld",
+          "excerpt_override": "CHARLESTON MORTON L"
+        }
+      ]
+    },
+    {
+      "key": "morton-l-charleston-teacher-occupation-claim-batch399",
+      "person_id": "8e781ec4-ddb3-5b65-ae9a-6229568890bb",
+      "affiliation_key": "morton-l-charleston-teacher-occupation-batch399",
+      "claim_type": "occupation",
+      "claim_text": "Morton L. Charleston's Army-entry record classified his civilian occupation as a secondary-school teacher or principal.",
+      "evidence_excerpt": "Teachers (secondary school) and principals",
+      "evidence_paraphrase": "The exact official Army record carries civilian occupation value 031, and NARA's official table defines 0-31 as secondary-school teachers and principals.",
+      "identity_match_assessment": "Confirmed by exact private-identifier and full-name agreement across the OSS index and official Army record.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on August 31, 1942. It is not established as the immediate pre-OSS role.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Publish the grouped occupation only. A later spouse obituary corroborates teaching but does not identify the prewar school or employer and is not principal evidence.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch399",
+          "support_type": "supports",
+          "locator_override": "Exact identifier-backed record; entry August 31, 1942; occupation value 031; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch399",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF physical page 171; value 031",
+          "excerpt_override": "Teachers (secondary school) and principals"
+        }
+      ]
+    },
+    {
+      "key": "samuel-s-charlon-confirmed-army-identity-batch399",
+      "person_id": "706ace36-3aba-52cc-b693-8c6b7f09eca9",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Samuel S. Charlon is confirmed as the identifier-matched Army private of the same full name.",
+      "evidence_excerpt": "CHARLON SAMUEL S",
+      "evidence_paraphrase": "The official OSS index and Army merged record share Samuel S. Charlon's exact name and private identifier.",
+      "identity_match_assessment": "Confirmed by exact full-name and private-identifier agreement.",
+      "temporal_assessment": "The Army record documents entry on December 1, 1942; it does not date OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The official record gives grade PVT. Corrupt residual fields are ignored, and the private identifier is excluded from public text and downloads.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page-77-batch399",
+          "support_type": "supports",
+          "locator_override": "PDF page 77, row 35; Box 119; private identifier withheld",
+          "excerpt_override": "CHARLON SAMUEL S"
+        },
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch399",
+          "support_type": "supports",
+          "locator_override": "Exact identifier-backed record; entry December 1, 1942; grade PVT; identifier withheld",
+          "excerpt_override": "CHARLON SAMUEL S"
+        }
+      ]
+    },
+    {
+      "key": "samuel-s-charlon-foreman-occupation-claim-batch399",
+      "person_id": "706ace36-3aba-52cc-b693-8c6b7f09eca9",
+      "affiliation_key": "samuel-s-charlon-foreman-occupation-batch399",
+      "claim_type": "occupation",
+      "claim_text": "Samuel S. Charlon's Army-entry record classified his civilian occupation as a foreman not elsewhere classified.",
+      "evidence_excerpt": "Foremen, n.e.c.",
+      "evidence_paraphrase": "The exact official Army record carries civilian occupation value 599, and NARA's official table defines 5-99 as foremen not elsewhere classified.",
+      "identity_match_assessment": "Confirmed by exact private-identifier and full-name agreement across the OSS index and official Army record.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on December 1, 1942. It is not established as the immediate pre-OSS role.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Publish the grouped occupation only. Do not infer an industry, employer, exact supervisory role, worksite, or Army-to-OSS sequence.",
+      "sources": [
+        {
+          "source_key": "nara-army-enlistment-merged-file-batch399",
+          "support_type": "supports",
+          "locator_override": "Exact identifier-backed record; entry December 1, 1942; occupation value 599; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-enlistment-code-lists-batch399",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF physical page 175; value 599",
+          "excerpt_override": "Foremen, n.e.c."
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "e52cc435-419a-5564-a307-c6c45ab632cb",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page-77 row supplies Pearl M. Charie, no printed rank or identifier, and Box 118. Exact-name, initials, punctuation, OSS, CIA, Army, employer, occupation, obituary, newspaper, institutional, Library of Congress, and archival searches produced no corroborating identity.",
+      "name_variants": [
+        "Charie, Pearl M",
+        "Pearl M. Charie",
+        "Pearl Charie"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 118 for Pearl M. Charie's full middle name, personnel status, hometown, occupation or employer, and OSS appointment chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ec26c541-5896-5115-bb5a-fd4f6ae858d4",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index and official Army merged record share Andre B. Charise's exact full name and private identifier. The Army record documents New York City residence, entry as a private on December 3, 1942, and actor occupation 002; IBDB independently documents the rare exact name in Broadway productions through May 1942.",
+      "name_variants": [
+        "Charise, Andre B",
+        "Andre B. Charise",
+        "Andre Charise",
+        "André Charise"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "completed",
+      "next_action": "Review the Box 118 personnel file to identify the last named civilian employer, any activity between the May 1942 Broadway closing and December Army entry, and the Army-to-OSS transfer chronology.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9018bc91-a562-5fe4-9a54-f394ec098623",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page-77 row prints A'Louise Charles, with no rank or identifier, in Box 118. Searches retained the apostrophe spelling and tested A. Louise and Louise variants, but common-name and modern results lacked an OSS, archival, chronological, or institutional bridge.",
+      "name_variants": [
+        "Charles, A'Louise",
+        "A'Louise Charles",
+        "A. Louise Charles",
+        "Louise Charles"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 118 to establish whether A'Louise is the full printed given name or a punctuation variant and to identify personnel status, hometown, occupation or employer, and OSS appointment chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "422f8f54-99bb-5d29-8bdb-7fecf6636e0e",
+      "identity_status": "conflicting",
+      "identity_evidence": "The page-77 Joe M. Charles row and an official Army record share the same private identifier, but the converted Army name fields read JOE CHARLES M, the entry date is February 14, 1945, and multiple coded fields are invalid. These data cannot establish a secure pre-OSS Army chronology or occupation.",
+      "name_variants": [
+        "Charles, Joe M",
+        "Joe M. Charles"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 119 against the original Army punch-card image or predecessor record to resolve the name-field and chronology conflict before assigning rank, occupation, employer, or immediate affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "a4ed0588-aa5d-5588-bb65-49a300158fbf",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and middle initial match Joseph E. Charles in the Marine Corps history's OSS Marine roster. Its detailed biography documents University of Illinois and Harvard education, Harvard assistant-professor employment, December 1942 OSS entry, and June 1943 Marine Corps Reserve commissioning.",
+      "name_variants": [
+        "Charles, Joseph E",
+        "Joseph E. Charles",
+        "Joseph Charles"
+      ],
+      "personnel_category": "commissioned_marine_corps_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review the Box 119 personnel file and Harvard University Archives to confirm the exact appointment and departure dates and any intervening assignment; current evidence identifies Harvard as both the immediate affiliation and last civilian employer.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "1a8a6a90-b3d7-540b-b3a8-8ee8881e83e9",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index and official Army merged record share Ruben Charles's exact full name and private identifier. The record documents entry as a private on March 29, 1943 and occupation 433. Invalid residual codes and physical fields are excluded from interpretation.",
+      "name_variants": [
+        "Charles, Ruben",
+        "Ruben Charles"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the Box 119 personnel file to identify the employer, exact woodworking trade, hometown, and Army-to-OSS sequence; the converted record's corrupt residual fields must not be used.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8e781ec4-ddb3-5b65-ae9a-6229568890bb",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index and official Army merged record share Morton L. Charleston's exact full name and private identifier. The Army record documents New Jersey context, entry as a private on August 31, 1942, and grouped occupation 031.",
+      "name_variants": [
+        "Charleston, Morton L",
+        "Morton L. Charleston",
+        "Morton Charleston"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the Box 119 personnel file to identify the secondary school or other employer, exact role, and Army-to-OSS sequence. The postwar teacher reference is corroborative only.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "706ace36-3aba-52cc-b693-8c6b7f09eca9",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index and official Army merged record share Samuel S. Charlon's exact full name and private identifier. The record documents entry as a private on December 1, 1942 and occupation 599. Corrupt residual physical fields are excluded from interpretation.",
+      "name_variants": [
+        "Charlon, Samuel S",
+        "Samuel S. Charlon",
+        "Samuel Charlon"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the Box 119 personnel file to identify the employer, industry, exact foreman role, hometown, and Army-to-OSS sequence; the converted record's corrupt residual fields must not be used.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e958e490-0c9c-5fff-ac1c-f43df252fa50",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The visually verified page-77 row supplies Cecil F. Charlton, no rank or identifier, and Box 119. One exact-name Army-conversion candidate was found, but a name match alone is insufficient and no second OSS, hometown, institutional, occupational, or archival identifier was found.",
+      "name_variants": [
+        "Charlton, Cecil F",
+        "Cecil F. Charlton",
+        "Cecil Charlton"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 119 for Cecil F. Charlton's private identifier, personnel status, hometown, occupation or employer, and OSS chronology before assessing the one name-only Army candidate. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "6b2254cb-9706-5026-ba1a-af0f6c6a57f7",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified page-77 row supplies only the common name Mary Charlton, no rank or identifier, and Box 119. Exact-name OSS, CIA, Army, employer, occupation, obituary, newspaper, institutional, Library of Congress, and archival searches returned unrelated or non-disambiguating namesakes.",
+      "name_variants": [
+        "Charlton, Mary",
+        "Mary Charlton"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 119 for Mary Charlton's middle name, personnel status, hometown, birth year, occupation or employer, and OSS appointment chronology. Do not assign any common-name candidate without at least two corroborating identifiers. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "pearl-m-charie-reviewed-protocol-batch399",
+      "person_id": "e52cc435-419a-5564-a307-c6c45ab632cb",
+      "source_adapter": "reviewed_official_archival_web",
+      "query_text": "NARA OSS index and Army exact-name check; CIA Reading Room exact name; Catalog and Archives exact name; Pearl M Charie OSS employer occupation 1940 obituary; initials, punctuation, institutional, newspaper, Library of Congress, directory, and archival variants",
+      "query_variant_type": "staged_minimum_protocol",
+      "started_at": "2026-09-03T17:00:00Z",
+      "completed_at": "2026-09-03T17:31:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Searches returned the official index, substring collisions, and modern or unrelated names; none supplied an exact historical identity, OSS bridge, or prewar affiliation.",
+      "research_notes": "The printed row and spelling were visually checked. No Army exact-name record, CIA item, reliable identity, occupation, or employer source was found. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Review the Box 118 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-protocol-2026-09-03-b399"
+    },
+    {
+      "key": "andre-b-charise-reviewed-protocol-batch399",
+      "person_id": "ec26c541-5896-5115-bb5a-fd4f6ae858d4",
+      "source_adapter": "reviewed_official_archival_web",
+      "query_text": "NARA OSS index and exact private-identifier Army check; CIA Reading Room exact name; Catalog and Archives exact name; Andre B Charise OSS actor dancer employer obituary; Andre and André variants; IBDB, Playbill, Broadway, Library of Congress, newspaper, and archival searches",
+      "query_variant_type": "staged_minimum_protocol",
+      "started_at": "2026-09-03T17:02:00Z",
+      "completed_at": "2026-09-03T17:38:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "A discovery-only blog and an unverified British archival-file reference were not used; Playbill duplicated the stronger IBDB cast credit; no named employer or direct OSS-transfer source was found.",
+      "research_notes": "Identity and Army entry are confirmed. The official occupation table supports a qualified actor group, while IBDB independently documents Broadway performance as an Alberta Rasch Group Dancer through May 1942. The production is not treated as an employer or immediate OSS predecessor.",
+      "next_action": "Review the Box 118 personnel file for employer and transfer chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-protocol-2026-09-03-b399"
+    },
+    {
+      "key": "alouise-charles-reviewed-protocol-batch399",
+      "person_id": "9018bc91-a562-5fe4-9a54-f394ec098623",
+      "source_adapter": "reviewed_official_archival_web",
+      "query_text": "NARA OSS index and Army exact-name check; CIA Reading Room exact name; Catalog and Archives exact name; A'Louise Charles OSS employer occupation 1940 obituary; A. Louise and Louise variants; institutional, newspaper, Library of Congress, directory, and archival searches",
+      "query_variant_type": "staged_minimum_protocol_and-punctuation-variants",
+      "started_at": "2026-09-03T17:04:00Z",
+      "completed_at": "2026-09-03T17:34:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Common-name, modern, and approximate-spelling results lacked an OSS connection, Box 118 bridge, compatible chronology, or corroborating identifier; no silent correction of A'Louise was made.",
+      "research_notes": "The exact printed apostrophe spelling was preserved and alternate query spellings were treated only as search aliases. No reliable identity or affiliation was found. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Review the Box 118 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-protocol-2026-09-03-b399"
+    },
+    {
+      "key": "joe-m-charles-reviewed-protocol-batch399",
+      "person_id": "422f8f54-99bb-5d29-8bdb-7fecf6636e0e",
+      "source_adapter": "reviewed_official_archival_web",
+      "query_text": "NARA OSS index and exact private-identifier Army check; CIA Reading Room exact name; Catalog and Archives exact name; Joe M Charles OSS employer occupation 1940 1945 obituary; name-order, institutional, newspaper, directory, and archival variants",
+      "query_variant_type": "staged_minimum_protocol_and-corrupt-record-review",
+      "started_at": "2026-09-03T17:06:00Z",
+      "completed_at": "2026-09-03T17:42:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "Common-name web candidates lacked the private identifier or Box 119 bridge. The exact-identifier Army conversion is retained as a conflict, not used for affiliation, because its name order, February 1945 chronology, grade, and multiple coded fields are anomalous.",
+      "research_notes": "The official-record conflict is published without private values. No rank, occupation, employer, or immediate predecessor is assigned. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Review Box 119 and the original Army source record.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-protocol-2026-09-03-b399"
+    },
+    {
+      "key": "joseph-e-charles-reviewed-protocol-batch399",
+      "person_id": "a4ed0588-aa5d-5588-bb65-49a300158fbf",
+      "source_adapter": "reviewed_official_archival_web",
+      "query_text": "NARA OSS index and Army exact-name candidate check; CIA Reading Room exact name; Catalog and Archives exact name; Joseph E Charles OSS employer occupation Harvard professor obituary; University of Illinois, USMC, academic, institutional, newspaper, directory, and archival variants",
+      "query_variant_type": "staged_minimum_protocol_and-academic-identity",
+      "started_at": "2026-09-03T17:08:00Z",
+      "completed_at": "2026-09-03T17:47:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Two name-only Army-conversion records and unrelated modern academics lacked the Marine history's direct Harvard, December 1942 OSS, and June 1943 Marine chronology. Derivative reproductions were not used when the official publication was available.",
+      "research_notes": "The official Marine Corps publication's roster supplies Joseph E. Charles's middle initial, and its biography identifies his Harvard assistant professorship before December 1942 OSS entry. Harvard is the best-supported immediate affiliation and last civilian employer; the source is institutional rather than a direct personnel file.",
+      "next_action": "Review the Box 119 personnel file and Harvard University Archives for exact dates.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-protocol-2026-09-03-b399"
+    },
+    {
+      "key": "ruben-charles-reviewed-protocol-batch399",
+      "person_id": "1a8a6a90-b3d7-540b-b3a8-8ee8881e83e9",
+      "source_adapter": "reviewed_official_archival_web",
+      "query_text": "NARA OSS index and exact private-identifier Army check; CIA Reading Room exact name; Catalog and Archives exact name; Ruben Charles OSS woodworking employer occupation obituary; institutional, newspaper, directory, and archival variants",
+      "query_variant_type": "staged_minimum_protocol_and-corrupt-field-review",
+      "started_at": "2026-09-03T17:10:00Z",
+      "completed_at": "2026-09-03T17:50:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "A CIA result for a different person listed as 'RUBEN, Charles' and common-name web candidates lacked the identifier or Box 119 bridge. Corrupt residual Army fields were rejected from interpretation.",
+      "research_notes": "Identity and Army entry as a private are confirmed. The official occupation table supports a qualified skilled woodworking group, but no employer, exact trade, or immediate OSS predecessor was found. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Review the Box 119 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-protocol-2026-09-03-b399"
+    },
+    {
+      "key": "morton-l-charleston-reviewed-protocol-batch399",
+      "person_id": "8e781ec4-ddb3-5b65-ae9a-6229568890bb",
+      "source_adapter": "reviewed_official_archival_web",
+      "query_text": "NARA OSS index and exact private-identifier Army check; CIA Reading Room exact name; Catalog and Archives exact name; Morton L Charleston OSS teacher employer 1942 obituary Philadelphia; school, institutional, newspaper, directory, and archival variants",
+      "query_variant_type": "staged_minimum_protocol",
+      "started_at": "2026-09-03T17:12:00Z",
+      "completed_at": "2026-09-03T17:53:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "A postwar spouse obituary calls Morton Charleston a Philadelphia teacher but supplies no prewar school, employer, identifier, or OSS chronology; other common-name results were unrelated.",
+      "research_notes": "Identity and Army entry as a private are confirmed. The official occupation table supports a qualified secondary-school teacher or principal group. A later family source is corroborative only and is not used to name an employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Review the Box 119 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-protocol-2026-09-03-b399"
+    },
+    {
+      "key": "samuel-s-charlon-reviewed-protocol-batch399",
+      "person_id": "706ace36-3aba-52cc-b693-8c6b7f09eca9",
+      "source_adapter": "reviewed_official_archival_web",
+      "query_text": "NARA OSS index and exact private-identifier Army check; CIA Reading Room exact name; Catalog and Archives exact name; Samuel S Charlon OSS foreman employer occupation obituary; institutional, newspaper, Library of Congress, directory, and archival variants",
+      "query_variant_type": "staged_minimum_protocol_and-corrupt-field-review",
+      "started_at": "2026-09-03T17:14:00Z",
+      "completed_at": "2026-09-03T17:56:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Searches returned surname collisions and modern academic or directory results without the private identifier or OSS and Box 119 bridge. Corrupt residual Army fields were rejected from interpretation.",
+      "research_notes": "Identity and Army entry as a private are confirmed. The official occupation table supports a qualified foreman group, but no industry, employer, exact role, or immediate OSS predecessor was found. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Review the Box 119 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-protocol-2026-09-03-b399"
+    },
+    {
+      "key": "cecil-f-charlton-reviewed-protocol-batch399",
+      "person_id": "e958e490-0c9c-5fff-ac1c-f43df252fa50",
+      "source_adapter": "reviewed_official_archival_web",
+      "query_text": "NARA OSS index and Army exact-name candidate check; CIA Reading Room exact name; Catalog and Archives exact name; Cecil F Charlton OSS employer occupation 1940 obituary; institutional, newspaper, Library of Congress, directory, and archival variants",
+      "query_variant_type": "staged_minimum_protocol_and-common-name",
+      "started_at": "2026-09-03T17:16:00Z",
+      "completed_at": "2026-09-03T17:59:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "One exact-name Army-conversion candidate lacks a second corroborating identifier; Canadian, Jamaican, British, Australian, and modern namesakes were chronologically or geographically incompatible or unbridged to OSS and Box 119.",
+      "research_notes": "The name-only Army candidate is not selected. No reliable identity or employer claim survived review. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Review Box 119 for disambiguating identifiers.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-protocol-2026-09-03-b399"
+    },
+    {
+      "key": "mary-charlton-reviewed-protocol-batch399",
+      "person_id": "6b2254cb-9706-5026-ba1a-af0f6c6a57f7",
+      "source_adapter": "reviewed_official_archival_web",
+      "query_text": "NARA OSS index and Army exact-name check; CIA Reading Room exact name; Catalog and Archives exact name; Mary Charlton OSS employer occupation 1940 obituary; women personnel, institutional, newspaper, Library of Congress, directory, and archival variants",
+      "query_variant_type": "staged_minimum_protocol_and-common-name",
+      "started_at": "2026-09-03T17:18:00Z",
+      "completed_at": "2026-09-03T18:02:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 12,
+      "rejection_reasons": "The very common name produced teachers, writers, family references, property records, and foreign or nineteenth-century namesakes, none with two corroborating identifiers or an OSS and Box 119 bridge. No exact-name Army conversion was found.",
+      "research_notes": "No common-name candidate is selected and no employer is assigned. The indexed person remains public with explicit archival guidance. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Review the Box 119 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-protocol-2026-09-03-b399"
+    }
+  ]
+}

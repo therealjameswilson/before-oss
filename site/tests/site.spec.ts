@@ -32154,3 +32154,97 @@ test("Batch 398 variant directory search finds Paul Chardonet under the Army spe
   await search.fill("Paul Chardenet");
   await expect(page.getByRole("link", { name: "Paul Chardonet", exact: true }).first()).toBeVisible();
 });
+
+test("Batch 399 publishes Joseph E Charles's Harvard employer in both distinct pre-OSS fields", async ({
+  page,
+}) => {
+  await page.goto("./people/a4ed0588-aa5d-5588-bb65-49a300158fbf/");
+  await expect(page.getByRole("heading", { name: "Joseph E Charles", exact: true })).toBeVisible();
+  await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("verified employer found", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("commissioned marine corps officer", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="immediate-affiliation"]')).toContainText(
+    "Harvard University",
+  );
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "Harvard University",
+  );
+  await expect(page.locator("main")).toContainText("Assistant Professor of History");
+  await expect(page.locator("main")).toContainText("He joined OSS in December, 1942");
+});
+
+test("Batch 399 preserves Andre B Charise's Broadway role without inventing an employer", async ({ page }) => {
+  await page.goto("./people/ec26c541-5896-5115-bb5a-fd4f6ae858d4/");
+  await expect(page.getByRole("heading", { name: "Andre B Charise", exact: true })).toBeVisible();
+  await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("enlisted army personnel", { exact: true }).first()).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Lady in the Dark (original Broadway production)",
+  );
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
+    "Alberta Rasch Group Dancer",
+  );
+  await expect(page.locator("main")).toContainText("Actors and actresses");
+  await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+    "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+  );
+});
+
+test("Batch 399 publishes three identifier-backed occupations without naming employers", async ({ page }) => {
+  for (const [personId, name, occupation, entryDate] of [
+    [
+      "1a8a6a90-b3d7-540b-b3a8-8ee8881e83e9",
+      "Ruben Charles",
+      "Skilled general woodworking occupations, not elsewhere classified",
+      "March 29, 1943",
+    ],
+    [
+      "8e781ec4-ddb3-5b65-ae9a-6229568890bb",
+      "Morton L Charleston",
+      "Secondary-school teacher or principal",
+      "August 31, 1942",
+    ],
+    [
+      "706ace36-3aba-52cc-b693-8c6b7f09eca9",
+      "Samuel S Charlon",
+      "Foreman, not elsewhere classified",
+      "December 1, 1942",
+    ],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText("confirmed", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
+    await expect(page.locator("main")).toContainText(occupation);
+    await expect(page.locator("main")).toContainText(entryDate);
+    await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
+      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
+    );
+  }
+});
+
+test("Batch 399 keeps four unresolved identities and Joe M Charles's corrupt-record conflict visible", async ({
+  page,
+}) => {
+  for (const [personId, name, identity, box] of [
+    ["e52cc435-419a-5564-a307-c6c45ab632cb", "Pearl M Charie", "unresolved", "118"],
+    ["9018bc91-a562-5fe4-9a54-f394ec098623", "A'Louise Charles", "unresolved", "118"],
+    ["e958e490-0c9c-5fff-ac1c-f43df252fa50", "Cecil F Charlton", "ambiguous", "119"],
+    ["6b2254cb-9706-5026-ba1a-af0f6c6a57f7", "Mary Charlton", "unresolved", "119"],
+  ] as const) {
+    await page.goto(`./people/${personId}/`);
+    await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
+    await expect(page.getByText(identity, { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("requires archival review", { exact: true }).first()).toBeVisible();
+    await expect(page.locator(".index-record").first()).toContainText("Page 77");
+    await expect(page.locator(".index-record").first()).toContainText(box);
+  }
+
+  await page.goto("./people/422f8f54-99bb-5d29-8bdb-7fecf6636e0e/");
+  await expect(page.getByRole("heading", { name: "Joe M Charles", exact: true })).toBeVisible();
+  await expect(page.getByText("conflicting", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("conflicting sources", { exact: true }).first()).toBeVisible();
+  await expect(page.locator("main")).toContainText("JOE CHARLES M");
+  await expect(page.locator("main")).toContainText("multiple invalid coded values");
+  await expect(page.locator("main")).not.toContainText("P5");
+});

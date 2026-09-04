@@ -4,6 +4,25 @@ Run: 2026-09-03 UTC
 
 ## Result
 
+The Batch 399 release checks cover **1,599 / 1,599** distinct browser and
+accessibility cases across desktop, phone, and tablet, including all 27 axe
+cases. The complete 1,587-case pre-Batch-399 matrix passed 1,569 cases initially;
+18 older cases encountered local Chromium timeouts. Sixteen passed on the
+first isolated rerun, and the remaining two passed individually, including
+the tablet sources-page axe scan. All twelve new Batch 399 cases passed on
+the unchanged final data release. These results document the local timeouts
+and their successful reruns rather than describing the first run as clean.
+
+The new checks keep Joseph E. Charles's Harvard employment in the separately
+labeled immediate-affiliation and last-civilian-employer fields; preserve
+Andre B. Charise's Broadway production affiliation without inventing an
+employer; publish three identifier-backed, bounded Army-entry occupations;
+and keep four unresolved identities and Joe M. Charles's corrupt-record
+conflict visible. Astro diagnostics report zero errors, warnings, or hints.
+The release also passes all 75 Python tests (plus five subtests), the
+deterministic 200-profile audit, public-identifier redaction, reproducible
+data and production builds, and the 24,450-page internal-link check.
+
 The Batch 398 release matrix passed **1,587 / 1,587** browser and accessibility
 cases in 13.5 minutes across desktop, phone, and tablet. It includes all 27 axe
 accessibility cases and all fifteen new Batch 398 cases. The focused Batch 398
