@@ -181,3 +181,8 @@ medical details are retained. Search snippets are not accepted evidence.
 - An embedded-text scan of the complete Army code-list PDF found neither
   exact code 345 nor 590. This is not proof no alternate historical manual
   defines them; it reinforces withholding the occupation interpretations.
+- Additional discovery: Johnstone Parachute Units PDF 1962; Leslie Cheek
+  camouflage OSS; Abraham Checkoway Radio Intelligence; Walter Chechot
+  musician. A Marine Corps official publication gateway for Silk Chutes and
+  Hard Fighting was found, but not opened or used as evidence:
+  https://www.marines.mil/News/Publications/MCPEL/Electronic-Library-Display/Article/899880/silk-chutes-and-hard-fighting-usmc-parachute-units-in-ww-ii/

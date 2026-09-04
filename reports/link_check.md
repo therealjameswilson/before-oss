@@ -2,7 +2,7 @@
 
 Run: 2026-09-04 UTC
 
-## Batch 401 local checkpoint
+## Batch 401 published verification
 
 All six citation targets returned HTTP 200 to normal HEAD checks; this is an
 availability check, not a replacement for context review. All internal links
@@ -15,8 +15,10 @@ Repeated public export matches the 70-file tree digest
 Consecutive final-methodology builds match the 24,522-file tree digest
 `aa045cb0e7bafacc43cf4ffe2e906dd73215acaaa5000e50889f6c3230e0d1c8`.
 These digests hash sorted relative paths, a NUL separator and each file's
-binary SHA-256 digest. The full browser matrix is pending; Batch 401 is not
-yet the deployed version.
+binary SHA-256 digest. The independent 1,629-case matrix and Pages deployment
+succeeded. All 67 deployed assets match the manifest; seven core routes and
+ten Batch 401 direct profiles returned HTTP 200 with expected content. Live
+statistics match the reviewed local projection. See `reports/release_batch_401.md`.
 
 ## Batch 400 final published verification
 

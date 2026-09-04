@@ -1,4 +1,8 @@
-# Batch 401: reviewed outcomes and pending release
+# Batch 401: historical prerelease checkpoint
+
+Superseded by `reports/release_batch_401.md`, which records the successful
+premerge checks, deployment, live verification, and remaining postmerge check.
+The following retains the earlier checkpoint for audit.
 
 The live-verified site currently contains Batch 400. This next local update
 covers PDF page 78, rows 2-11, from Margaret I Chase through Arthur A

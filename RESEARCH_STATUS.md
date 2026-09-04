@@ -2,18 +2,19 @@
 
 Verified against the current local SQLite database on 2026-09-04 UTC.
 
-Batch 400 is published and live-verified; its fixed release record is in
-`reports/release_batch_400.md`. The local totals below include the ten reviewed
-Batch 401 people and are not yet the deployed totals. Batch 401 awaits the
-complete release checks and deployment.
+Batch 401 is published and live-verified; its fixed release record is in
+`reports/release_batch_401.md`. The local totals below match the deployed
+statistics. All 67 manifest assets and ten updated direct profiles were
+verified after the Pages deployment succeeded.
 
 Batch 401 adds one qualified, temporally uncertain Army-entry occupation and
 nine archival-review outcomes; it adds no verified employer. Its evidence,
 validation gates and compact resumption commands are documented in
-`reports/batch_401_release.md`. The full 1,629-case browser matrix is running.
-The published Batch 400 site contains 3,783 attempted people, 211 verified
-employers and 3,736 archival dispositions; do not confuse those with the local
-totals below. The source-identity audit remains a methodological limitation.
+`reports/release_batch_401.md`. The independent GitHub matrix passed all 1,629
+cases. Locally 1,628 passed initially and one closed-browser-session timeout
+passed on isolated rerun. The redundant postmerge Test workflow is still
+running at this checkpoint. Batch 402's separate discovery notes do not count
+as imported outcomes. The source-identity audit remains a limitation.
 
 ## Distinct coverage measures
 
