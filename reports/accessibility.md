@@ -4,8 +4,15 @@ Run: 2026-09-04 UTC
 
 ## Result
 
-Batch 403: twelve new focused checks pass across all three viewports, with a
-complete 1,653-case matrix running. The 90-test Python suite passes; four
+Batch 404 is in release QA. Nine profile checks passed initially, while three
+directory checks exposed failure to match a name when its middle initial was
+omitted. The search is repaired without changing indexed names; exact matches
+still rank first and tokens cannot be combined across unrelated aliases.
+Generated browser-report artifacts are now excluded from source type checking.
+See `reports/release_batch_404.md` for the final matrix and any remaining issues.
+
+Batch 403: twelve focused checks and the complete **1,653-case matrix** pass
+across all three viewports (14.2 minutes). The 90-test Python suite passes; four
 existing SQLite connection-cleanup ResourceWarnings appeared on the final run.
 No warning was suppressed. See `reports/release_batch_403.md`.
 
@@ -13,7 +20,8 @@ Batch 402 is in local release QA. Twelve focused cases passed after correcting
 overbroad test selectors; the final presentation changes add date-precision
 notes and an accurate pre-OSS temporal badge. Its first full run exposed 27
 stale-label failures and three local timeouts. All twelve affected scenarios
-pass across three viewports (36/36); the complete GitHub rerun is pending.
+pass across three viewports (36/36); the complete corrected GitHub rerun and
+Pages deployment passed. All 67 public assets and ten direct profiles verified.
 See `reports/release_batch_402.md`.
 
 Batch 401 final premerge result: the independent GitHub matrix passed all

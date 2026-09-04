@@ -202,6 +202,18 @@ const identityStatuses = Object.keys(stats.identity_status_counts).sort();
       if (names.some((name) => name === query)) return 1000;
       if (names.some((name) => name.startsWith(query))) return 800;
       if (names.some((name) => name.includes(query))) return 600;
+      // Permit omitted middle initials and surname-first searches within one
+      // documented name. Never combine tokens from different aliases.
+      const queryTokens = query.split(" ");
+      if (queryTokens.length > 1 && names.some((name) => {
+        const available = name.split(" ");
+        return queryTokens.every((token) => {
+          const index = available.indexOf(token);
+          if (index < 0) return false;
+          available.splice(index, 1);
+          return true;
+        });
+      })) return 500;
       const tokens = names.flatMap((name) => name.split(" "));
       if (tokens.some((token) => distance(token, query) <= 1)) return 350;
       const haystack = normalize(
