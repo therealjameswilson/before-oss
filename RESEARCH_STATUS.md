@@ -2,16 +2,20 @@
 
 Verified against the current local SQLite database on 2026-09-04 UTC.
 
-Batch 406 and the separate Paul Child correction are imported locally; 90
-Python tests and 39 final focused browser checks pass. The pre-correction
-1,692-case matrix had 1,687 passes and five failures; final independent GitHub
-QA is still required. These figures remain local. Batch 405 PR 162 merged after an independent 1,680-case
-GitHub pass and successful Pages deployment. Pinned live verification passes
-all 67 assets, seven core routes and ten new profiles. The live site has 3,833
-attempted people, 213 verified-employer people, 487 verified-affiliation people,
-3,786 assessed archival dispositions and 20,107 not started. Index and active
-person totals are identical to the local figures below.
-See `reports/release_batch_405.md`.
+Batch 407 is imported locally; 90 Python tests and twelve final focused browser
+checks pass. The complete 1,707-case local matrix produced 1,701 passes and six
+timeouts; all six unchanged affected scenarios then passed in all three
+viewports, 18/18. These figures are local, not a deployment claim. Batch 406
+passed independent GitHub Test 33894971764, merged through PR 163, deployed
+through Pages 33900368779 and passed pinned live verification of all 67 assets,
+the cohort profiles, and the separately corrected Paul Child profile.
+See `reports/release_batch_406.md` and `reports/release_batch_407.md`.
+
+Batch 407 adds nine individual outcomes: one apprenticeship observation, one
+Student observation, two identifier/name conflicts, and five archival-review
+dispositions. No named employer or institution is added. Two low-confidence
+candidate claims remain private. The previously researched Paul Child correction
+is preserved without additional person-coverage credit.
 
 Batch 406 adds ten individual outcomes: Milan Cheyovich's confirmed immediate
 Signal Corps radar-training assignment, five qualified Army occupation
@@ -58,10 +62,10 @@ display, preserving both printed suffixes. See `reports/release_batch_402.md`.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,843 people with a non-planned attempt | 23,940 active person entities | 16.0526% |
+| Research-attempt coverage | 3,852 people with a non-planned attempt | 23,940 active person entities | 16.0902% |
 | Verified-affiliation coverage | 488 people with qualifying confirmed/high published pre-OSS affiliation | 23,940 active person entities | 2.0384% |
 | Verified-employer coverage | 213 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8897% |
-| Archival-review coverage | 3,796 people with an individual file-access/priority assessment | 23,940 active person entities | 15.8563% |
+| Archival-review coverage | 3,805 people with an individual file-access/priority assessment | 23,940 active person entities | 15.8939% |
 
 ## Extraction and identity
 
@@ -75,11 +79,11 @@ display, preserving both printed suffixes. See `reports/release_batch_402.md`.
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
 - Identity status `confirmed`: 740
-- Identity status `high_confidence`: 565
-- Identity status `probable`: 123
+- Identity status `high_confidence`: 567
+- Identity status `probable`: 124
 - Identity status `ambiguous`: 70
-- Identity status `conflicting`: 70
-- Identity status `unresolved`: 22,372
+- Identity status `conflicting`: 72
+- Identity status `unresolved`: 22,367
 
 ## Personnel categories
 
@@ -100,30 +104,30 @@ Commissioned classification: 2,229 yes; 5,618 no; 16,093 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,097
+- `not_started`: 20,088
 - `in_progress`: 46
 - `candidate_found`: 1
 - `needs_identity_review`: 106
 - `needs_temporal_review`: 9
 - `documented_prewar_employer_found`: 69
 - `no_reliable_result_after_protocol`: 82
-- `occupation_only_found`: 642
-- `requires_archival_review`: 2,490
+- `occupation_only_found`: 644
+- `requires_archival_review`: 2,495
 - `completed`: 121
-- `conflicting_sources`: 69
+- `conflicting_sources`: 71
 - `verified_employer_found`: 208
-- Claim confidence: 919 confirmed; 1,183 high; 836 medium; 70 low; 81
+- Claim confidence: 919 confirmed; 1,185 high; 838 medium; 72 low; 83
   conflicting
 - Claims attached specifically to employment/self-employment affiliations:
   35 confirmed; 273 high; 82 medium; 1 low; 2 conflicting; 0 unresolved.
   These count claim rows, not unique people, and precede the analytics gates.
-- Durable evidence inventory: 3,767 citation records representing 1,764 legacy
+- Durable evidence inventory: 3,777 citation records representing 1,769 legacy
   document keys (source-identity normalization still under review); 521
-  organizations; 1,519 affiliations; 3,089 claims; and 7,013
+  organizations; 1,521 affiliations; 3,097 claims; and 7,037
   claim-source links
-- Reviewed public projection: 509 organizations; 1,508 published, qualified,
-  or conflict-visible affiliations; 3,016 published, qualified, or
-  conflict-visible claims; and 2,635 public citation records
+- Reviewed public projection: 509 organizations; 1,510 published, qualified,
+  or conflict-visible affiliations; 3,022 published, qualified, or
+  conflict-visible claims; and 2,641 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -133,12 +137,12 @@ Commissioned classification: 2,229 yes; 5,618 no; 16,093 indeterminate.
 - Reviewed-source attempts remain reproducible by versioned adapter in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,690; 160 additional attempts have a saved
+- Saved `source_reviewed` outcomes: 1,699; 160 additional attempts have a saved
   `candidate_found` outcome
-- Total recorded attempts/plans: 5,062
+- Total recorded attempts/plans: 5,071
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,491; 1,434 have at least one public-visible
+- People with saved reviewed claims: 1,496; 1,438 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John

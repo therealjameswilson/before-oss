@@ -4,6 +4,18 @@ Run: 2026-09-04 UTC
 
 ## Result
 
+Batch 407: twelve final focused checks pass in 8.5 seconds on the completed,
+deterministically rebuilt site. The full 1,707-case local matrix finished with
+1,701 passes and six timeouts; all six unchanged affected scenarios then pass
+across all three viewports, 18/18 in 1.5 minutes, without retries. This is not
+represented as a clean first-run pass. See `reports/release_batch_407.md`.
+
+Batch 406: final independent GitHub Test 33894971764 passed all 1,695 cases in
+22.1 minutes. Pages 33900368779 and pinned live verification succeeded. Earlier
+local failures, unchanged scenario reruns and the Child chronology correction
+remain documented below; the independent result supersedes the pending-gate
+wording.
+
 Batch 406: twelve focused checks pass in 9.6 seconds after correcting two
 authoring expectations (canonical organization punctuation and the raw name's
 pipe-separated layout). Six initial failures were those two assertions across

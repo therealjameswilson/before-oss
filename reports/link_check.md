@@ -2,13 +2,27 @@
 
 Run: 2026-09-04 UTC
 
-## Batch 406 local / Batch 405 live verification
+## Batch 407 local
+
+All internal targets resolve across 24,457 HTML pages; 49,575 external URLs
+are inventoried, not all visited. Manifest: 67 assets / 83,651,737 bytes;
+SHA-256 `159e135485d99f2e565fa6dc9e4f0156acb6f2836bed89c456d1cb6291cd2d79`.
+Identifier audit covers all 24,529 artifacts with zero unexpected boundary
+matches. The complete browser matrix produced 1,701 passes and six timeouts;
+all six unchanged affected scenarios then pass in all three viewports, 18/18.
+No Batch 407 live deployment is claimed; see `reports/release_batch_407.md`.
+
+## Batch 406 live verification
 
 All internal targets resolve across 24,457 local HTML pages. The check inventories
 49,575 external URLs; it does not claim to visit every external destination.
 The final corrected manifest has 67 assets / 83,606,294 bytes, SHA-256
 `1d22872db2b1a4706e995ed679c0c1e36894766b1378d879cc0442bba0f8fe77`.
-Batch 406 is not deployed at this checkpoint.
+Batch 406 passed independent GitHub Test `33894971764` (1,695/1,695), merged
+through PR 163, deployed through Pages `33900368779`, and passed pinned
+verification against `5c382ab3b8fe816e5a2e8132fd926ea86383b031` for all 67
+assets / 83,606,294 bytes, seven core routes and ten direct cohort profiles.
+A separate live check verifies the corrected Paul Child citation and chronology.
 An intermediate invocation overlapped a build and produced 57,976 missing
 targets; that invalid partial-build result is superseded by the complete
 post-build pass, not represented as a first-run pass.

@@ -1,10 +1,15 @@
 # Batch 406 release verification
 
-2026-09-04 UTC. **Reviewed local dataset; final independent GitHub QA pending.**
-Batch 405 is deployed and live verified; no Batch 406 publication is claimed.
-Its predecessor passed independent GitHub Test `33871852589`, merged as PR 162,
-deployed through Pages `33875459412`, and passed pinned verification of 67 assets,
-seven routes and ten direct profiles. See `reports/release_batch_405.md`.
+2026-09-04 UTC. **Released and pinned-live verified.**
+Batch 406 passed independent GitHub Test `33894971764` with all 1,695 cases
+passing in 22.1 minutes, merged through PR 163 as
+`ee192c0b2c418f2cf068b3d7743dd98be609396e`, and deployed through Pages
+`33900368779`. Pinned verification against source commit
+`5c382ab3b8fe816e5a2e8132fd926ea86383b031` matched all 67 assets /
+83,606,294 bytes, seven core routes and the ten cohort profiles. A separate
+direct live check confirmed Paul Child's corrected source date and that Avon
+appears only among earlier roles. The verified public URL is
+<https://therealjameswilson.github.io/before-oss/>.
 
 ## Research added
 
@@ -162,7 +167,9 @@ build: it inspected only 7,527 artifacts and reported 57,976 missing targets.
 That result was invalidated, not hidden. Checks were rerun after build and
 determinism completed: all 24,529 artifacts and all links pass as above.
 An intermediate 39-case pass also overlapped build startup and is not the
-final QA evidence. Independent GitHub QA and deployment are not yet complete.
+final QA evidence. Independent GitHub QA and Pages deployment subsequently
+completed successfully; the pinned live verification result is recorded at
+the top of this report.
 
 ## Resume
 
