@@ -2,6 +2,16 @@
 
 Run: 2026-09-04 UTC
 
+## Batch 409 local
+
+All internal targets resolve across 24,458 HTML pages; 49,581 external URLs are
+inventoried, not all visited. Manifest: 67 assets / 83,758,733 bytes; SHA-256
+`7439600b57d4bdc5a6c74536edfa35f681ca6c62c09d2b1306dcca2f73a0c22a`.
+Identifier audit covers all 24,530 artifacts with zero unexpected boundary
+matches. Public and production trees reproduce byte-for-byte. Independent
+GitHub QA, merge, Pages deployment and pinned live verification remain pending;
+see `reports/release_batch_409.md`.
+
 ## Batch 408 local
 
 All internal targets resolve across 24,457 HTML pages; 49,578 external URLs are

@@ -1,0 +1,585 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Codex individual archival review, Batch 409",
+  "sources": [
+    {
+      "key": "index-b409",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; complete PDF page 79 visually inspected; rows 36-45; Box 122; location 230/86/28/06",
+      "access_date": "2026-09-04",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Citation and project-authored assessments only; no full source page, raw bulk record or full private identifier reproduced."
+    },
+    {
+      "key": "army-b409",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged 2002",
+      "locator": "Series NAID 604357; file NAID 1263923; complete transient 9,200,232-row scan; three eligible private identifiers compared; one exact identifier and spaced-name match",
+      "access_date": "2026-09-04",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Citation and project-authored assessments only; no full private identifier, raw record or API response retained."
+    },
+    {
+      "key": "basic-b409",
+      "stable_url": "https://aad.archives.gov/aad/content/aad_docs/rg64_army_serial_number_electronic_records.pdf",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2005-02",
+      "locator": "Reference copy pages 40-41; field definitions, alternate cards, transcription and source limitations",
+      "access_date": "2026-09-04",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Government technical documentation; cited, not republished."
+    },
+    {
+      "key": "codes-b409",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2005 compilation of contemporary code documents",
+      "locator": "Physical page 175 / printed XVIII; code 5-80, Mechanics and repairmen, airplane",
+      "access_date": "2026-09-04",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Government code list inspected as a full rendered page; only the short code label is retained."
+    },
+    {
+      "key": "astm-chittick-b409",
+      "stable_url": "https://store.astm.org/stp47839s.html",
+      "archival_identifier": "DOI 10.1520/STP47839S",
+      "title": "Petroleum Lubricating Greases",
+      "author_creator": "Martin B. Chittick",
+      "repository_publisher": "American Society for Testing Materials",
+      "publication_record_date": "1940-01-01",
+      "locator": "ASTM STP47839S; author information; pages 11-18",
+      "access_date": "2026-09-04",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Copyrighted publisher record; citation, a short excerpt and project-authored paraphrase only."
+    },
+    {
+      "key": "official-register-chittick-b409",
+      "stable_url": "https://www.govinfo.gov/content/pkg/GOVPUB-CS1-c8a32080209c260c6988fbc61590627a/pdf/GOVPUB-CS1-c8a32080209c260c6988fbc61590627a.pdf",
+      "title": "Official Register of the United States, 1943",
+      "author_creator": "United States Civil Service Commission",
+      "repository_publisher": "United States Government Printing Office; GovInfo",
+      "publication_record_date": "1943",
+      "locator": "Persons in administrative and supervisory positions as of 1943-05-01; War Department, Chemical Warfare Service, Technical Division; printed page 108",
+      "access_date": "2026-09-04",
+      "source_quality": "A_direct_official",
+      "rights_notes": "United States government publication; citation and project-authored paraphrase only."
+    },
+    {
+      "key": "ipn-yugoslavia-b409",
+      "stable_url": "https://przystanekhistoria.pl/download/166/75499/Biuletyn8-92011popr.pdf",
+      "title": "‘Agenci’ SOE? Polscy spadochroniarze w okupowanej Europie",
+      "author_creator": "Waldemar Grabowski",
+      "repository_publisher": "Instytut Pamięci Narodowej",
+      "publication_record_date": "2011-08/09",
+      "locator": "Biuletyn Instytutu Pamięci Narodowej, no. 8-9 (129-130), printed pages 98-108; personnel list and Yugoslavia discussion on printed pages 107-108",
+      "access_date": "2026-09-04",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Copyrighted institutional historical article; citation and project-authored paraphrase only."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "pure-oil-company-b409",
+      "canonical_name": "The Pure Oil Company",
+      "historical_name": "The Pure Oil Co.",
+      "aliases": [
+        "Pure Oil Company",
+        "The Pure Oil Co.",
+        "Pure Oil Co."
+      ],
+      "organization_type": "petroleum company",
+      "sector": "business_and_industry",
+      "city": "Chicago",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "active_dates": null,
+      "normalization_notes": "The 1940 historical name and author-affiliation wording are preserved. The record does not substitute a modern successor or establish the exact legal employment relationship."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "martin-chittick-pure-oil-b409",
+      "person_id": "51732786-8509-5906-a4b4-66fd6bff7cac",
+      "organization_key": "pure-oil-company-b409",
+      "organization_name_as_found": "The Pure Oil Co.",
+      "role_title": null,
+      "occupation": null,
+      "relationship_type": "professional_affiliation",
+      "start_date": null,
+      "end_date": null,
+      "date_precision": "The author affiliation was published 1940-01-01; start and end dates are not stated.",
+      "city": "Chicago",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "ASTM's contemporary publisher record explicitly gives The Pure Oil Co. as Chittick's author affiliation. It does not state his role, formal employment terms, or the date and route of his later OSS association, so the project does not label it the immediate affiliation or last civilian employer."
+    },
+    {
+      "key": "deforest-choha-occupation-b409",
+      "person_id": "f160b3e8-0b1d-5abd-ac05-f07ffe541999",
+      "occupation": "Mechanics and repairmen, airplane",
+      "relationship_type": "unknown",
+      "date_precision": "Observation recorded 1944-02-08; actual work dates and relation to OSS entry are unestablished.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "No named employer, workplace, employment dates, immediate pre-OSS affiliation or last civilian employer is established. The dated Army observation is not converted into an employer claim."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-martin-chittick-b409",
+      "person_id": "51732786-8509-5906-a4b4-66fd6bff7cac",
+      "claim_type": "identity",
+      "claim_text": "The indexed Colonel Martin B Chittick is a high-confidence match to the Chemical Warfare Service officer and technical author.",
+      "evidence_paraphrase": "The 1943 Official Register names Colonel Martin B. Chittick as deputy chief of the Chemical Warfare Service Technical Division, while the 1940 ASTM record identifies the same distinctive name with The Pure Oil Co.",
+      "identity_match_assessment": "The exact, distinctive full name and colonel rank connect the index to the official wartime register; the earlier technical subject and Chicago company affiliation supply coherent but not independently identifier-backed continuity.",
+      "temporal_assessment": "The official register observes a wartime military assignment in May 1943 but does not establish the date or sequence of Chittick's OSS association.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The six-digit number printed in the OSS index is preserved and was not padded for comparison with the Army bulk file.",
+      "sources": [
+        {
+          "source_key": "index-b409",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "official-register-chittick-b409",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "astm-chittick-b409",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "prewar-martin-chittick-pure-oil-b409",
+      "person_id": "51732786-8509-5906-a4b4-66fd6bff7cac",
+      "affiliation_key": "martin-chittick-pure-oil-b409",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "In 1940, Martin B. Chittick was professionally affiliated with The Pure Oil Co. in Chicago.",
+      "evidence_excerpt": "Chittick, Martin, B. The Pure Oil Co., Chicago, Ill.",
+      "evidence_paraphrase": "ASTM's publisher record gives The Pure Oil Co. in Chicago as Chittick's author affiliation for a paper published in 1940.",
+      "identity_match_assessment": "High-confidence match based on the exact distinctive full name, technical subject continuity and the matching colonel named in the 1943 Official Register and OSS index.",
+      "temporal_assessment": "The affiliation is explicitly dated by the 1940 publication and therefore predates OSS; neither its exact duration nor its proximity to Chittick's OSS association is shown.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Published as a professional institutional affiliation, not silently converted into a verified employer, immediate affiliation or last civilian employer.",
+      "sources": [
+        {
+          "source_key": "astm-chittick-b409",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-ernest-chmieleski-b409",
+      "person_id": "ebd9f337-9fc5-5b5e-a22f-1b2020ff091c",
+      "claim_type": "identity",
+      "claim_text": "A probable source match identifies T/5 Ernest L. Chmieleski among OSS personnel in Yugoslavia.",
+      "evidence_paraphrase": "An institutional historical article lists T/5 Ernest L. Chmieleski, with a bracketed spelling variant, among OSS personnel in Yugoslavia and describes their 1944 operations.",
+      "identity_match_assessment": "The exact full name and middle initial are distinctive and occur in matching OSS context, but no private identifier or personnel-file bridge independently confirms the match.",
+      "temporal_assessment": "The article concerns OSS service from April through June 1944 and supplies no pre-OSS employer or recruitment chronology.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The source's bracketed alternative spelling remains evidence context and is not adopted as an index correction without archival confirmation.",
+      "sources": [
+        {
+          "source_key": "index-b409",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "ipn-yugoslavia-b409",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-joseph-chochola-b409",
+      "person_id": "f7ca36b2-9b93-5558-a6d1-40fd78fe0dc1",
+      "claim_type": "identity",
+      "claim_text": "A probable source match identifies T/5 Joseph Chochola among OSS personnel in Yugoslavia.",
+      "evidence_paraphrase": "An institutional historical article lists T/5 Joseph Chochola among OSS personnel in Yugoslavia and describes the group's 1944 operations.",
+      "identity_match_assessment": "The uncommon first name and surname occur in matching OSS context, but the article omits the index middle initial and supplies no private identifier or personnel-file bridge.",
+      "temporal_assessment": "The article concerns OSS service from April through June 1944 and supplies no pre-OSS employer or recruitment chronology.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published only as a qualified probable identity; the archival file is still required to confirm it.",
+      "sources": [
+        {
+          "source_key": "index-b409",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "ipn-yugoslavia-b409",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-deforest-choha-b409",
+      "person_id": "f160b3e8-0b1d-5abd-ac05-f07ffe541999",
+      "claim_type": "identity",
+      "claim_text": "DeForest D Choha has an identifier-backed Army record match.",
+      "evidence_paraphrase": "The private identifier matches an Army entry whose spaced name is the exact indexed name and whose February 1944 grade is private first class.",
+      "identity_match_assessment": "Exact indexed name and private identifier; identity assessed high confidence.",
+      "temporal_assessment": "The dated Army observation does not by itself establish an employer, OSS entry date or later OSS role.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The private identifier is masked publicly. The printed index value and spelling remain unchanged.",
+      "sources": [
+        {
+          "source_key": "index-b409",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b409",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "occupation-deforest-choha-b409",
+      "person_id": "f160b3e8-0b1d-5abd-ac05-f07ffe541999",
+      "affiliation_key": "deforest-choha-occupation-b409",
+      "claim_type": "occupation",
+      "claim_text": "The Army entry records the occupational group ‘Mechanics and repairmen, airplane.’",
+      "evidence_paraphrase": "The exact private-identifier Army record carries code 580, which the inspected applicable NARA code sheet labels Mechanics and repairmen, airplane.",
+      "identity_match_assessment": "Exact indexed name and private identifier; identity assessed high confidence.",
+      "temporal_assessment": "Observed 1944-02-08; temporal relationship to OSS entry remains uncertain.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer is named and no employment date is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b409",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "basic-b409",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b409",
+          "support_type": "supports"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "b837a209-4178-58ee-81b5-3f08eca2044b",
+      "identity_status": "unresolved",
+      "identity_evidence": "No sufficiently specific public-source bridge distinguishes the indexed person from namesakes or establishes a dated pre-OSS affiliation.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 122 to establish full identity, service branch, OSS chronology and pre-OSS affiliation.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "51732786-8509-5906-a4b4-66fd6bff7cac",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact distinctive full name and colonel rank connect the index to the 1943 Official Register; the 1940 ASTM record documents the earlier Pure Oil institutional affiliation.",
+      "replace_name_variants": false,
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 122 to confirm the first OSS association, whether Pure Oil was a formal employer, and any intervening affiliation after the 1940 observation.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "28875606-e837-5579-a6a2-4978bba482ef",
+      "identity_status": "unresolved",
+      "identity_evidence": "The initial-only source spelling has no secure external identity or dated pre-OSS affiliation; search variants were not adopted as corrections.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 122 for the full name, spelling, nationality or branch, identifying dates and pre-OSS affiliation.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8e8ab02f-80d9-5c28-bbef-1f3abfbefb93",
+      "identity_status": "unresolved",
+      "identity_evidence": "The seven-digit printed number was preserved rather than padded; two same-name Army candidates lack an identifier bridge and are not assigned.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 122 and original military records to establish the complete service identifier, branch, birth year and pre-OSS affiliation.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "667ecc9e-66f0-526d-a8a0-259242f0ea8f",
+      "identity_status": "unresolved",
+      "identity_evidence": "No sufficiently specific official, institutional or contemporary source securely identifies the indexed person or a pre-OSS affiliation.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 122 for nationality, documented name forms, branch, birth year and recruitment chronology before assigning any namesake.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ebd9f337-9fc5-5b5e-a22f-1b2020ff091c",
+      "identity_status": "probable",
+      "identity_evidence": "An institutional historical article supplies the exact full name and middle initial in matching OSS Yugoslavia context, but no independent identifier or personnel-file bridge confirms the person.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 122 to confirm the probable Yugoslavia identity, source spelling and pre-OSS employer or military pathway.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d7d32abf-05c1-55b3-8e8e-17a7efe1a0b3",
+      "identity_status": "unresolved",
+      "identity_evidence": "The name alone is too common to distinguish the indexed person from military and civilian namesakes; no corroborating identifier or pre-OSS affiliation was found.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 122 for middle name, branch, birth year, OSS assignment and prior affiliation; require at least two identifiers beyond the name.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "937f3bee-20bf-5379-9541-ad720f2347ef",
+      "identity_status": "unresolved",
+      "identity_evidence": "One same-name Army candidate lacks an identifier bridge; name and middle initial alone do not establish identity or employment.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 122 and original military records for the service identifier, branch, birth year and pre-OSS chronology before assigning the candidate.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f7ca36b2-9b93-5558-a6d1-40fd78fe0dc1",
+      "identity_status": "probable",
+      "identity_evidence": "An institutional historical article names T/5 Joseph Chochola in matching OSS Yugoslavia context, but it omits the index middle initial and supplies no identifier bridge.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 122 to confirm the probable Yugoslavia identity and establish the last pre-OSS employer or military pathway.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f160b3e8-0b1d-5abd-ac05-f07ffe541999",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact spaced name and private identifier match the February 1944 Army entry; the official code sheet supports only an aircraft-mechanics occupational group.",
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 122 for a named employer, work dates and the route from aircraft mechanics into OSS.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b409-person-herbert-chissell-review",
+      "person_id": "b837a209-4178-58ee-81b5-3f08eca2044b",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 79 context and complete Army bulk comparison; exact-name and variant OSS/CIA searches; employment, occupation, biography or obituary searches; institutional, newspaper and archival-source checks for Herbert G Chissell.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T19:30:00Z",
+      "completed_at": "2026-09-04T19:54:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Searches returned no secure body-level identity bridge or dated pre-OSS affiliation; unrelated name fragments and namesakes were rejected.",
+      "research_notes": "Bounded individual adjudication, not an exhaustive no-result conclusion. Counts include the index and applicable official comparison or inspected source bodies; snippets, failed opens and search pages are not counted as evidence. No physical personnel file, raw bulk record, full private identifier, copyrighted page body or authenticated Catalog payload is retained.",
+      "next_action": "Review Box 122 to establish full identity, service branch, OSS chronology and pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch409-v1"
+    },
+    {
+      "key": "b409-person-martin-chittick-review",
+      "person_id": "51732786-8509-5906-a4b4-66fd6bff7cac",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 79 context and complete Army bulk comparison; exact-name and variant OSS/CIA searches; employment, occupation, technical-publication, biography and archival searches for Colonel Martin B Chittick; ASTM and 1943 Official Register bodies inspected.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T19:30:00Z",
+      "completed_at": "2026-09-04T19:54:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Patent assignment was not treated as employment, and a modern CIA FOIA request log was discovery-only. Neither establishes OSS chronology.",
+      "research_notes": "The 1940 Pure Oil relationship is published only as an institutional affiliation. The six-digit index number was not padded. Bounded individual adjudication, not an exhaustive no-result conclusion. No physical personnel file, full copyrighted page body or authenticated Catalog payload is retained.",
+      "next_action": "Review Box 122 to confirm the first OSS association, whether Pure Oil was a formal employer, and any intervening affiliation after the 1940 observation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch409-v1"
+    },
+    {
+      "key": "b409-person-chittinandhan-review",
+      "person_id": "28875606-e837-5579-a6a2-4978bba482ef",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 79 context and complete Army bulk comparison; exact source spelling and cautious variant OSS/CIA searches; employment, occupation, institutional, newspaper and archival-source checks for C Chittinandhan.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T19:30:00Z",
+      "completed_at": "2026-09-04T19:54:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "No secure result expanded the initial-only identity; spelling variants and modern namesakes were not adopted as corrections.",
+      "research_notes": "Bounded individual adjudication, not an exhaustive no-result conclusion. Counts include the index and official-source check; snippets, failed opens and search pages are not counted as evidence. No physical personnel file or authenticated Catalog payload is retained.",
+      "next_action": "Review Box 122 for the full name, spelling, nationality or branch, identifying dates and pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch409-v1"
+    },
+    {
+      "key": "b409-person-charles-chitwood-review",
+      "person_id": "8e8ab02f-80d9-5c28-bbef-1f3abfbefb93",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 79 context and complete Army bulk comparison; exact-name and variant OSS/CIA searches; employment, occupation, obituary, newspaper, institutional and archival-source checks for Charles E Chitwood.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T19:30:00Z",
+      "completed_at": "2026-09-04T19:54:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Two name-matched Army candidates lack an identifier bridge; unrelated Oklahoma and modern namesakes were rejected.",
+      "research_notes": "The seven-digit printed number was preserved and not padded. Bounded individual adjudication, not an exhaustive no-result conclusion. No raw candidate row or full private identifier is retained.",
+      "next_action": "Review Box 122 and original military records to establish the complete service identifier, branch, birth year and pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch409-v1"
+    },
+    {
+      "key": "b409-person-churchill-chiu-review",
+      "person_id": "667ecc9e-66f0-526d-a8a0-259242f0ea8f",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 79 context and complete Army bulk comparison; exact-name and variant OSS/CIA searches; employment, occupation, biography or obituary searches; institutional, newspaper and archival-source checks for Churchill T Chiu.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T19:30:00Z",
+      "completed_at": "2026-09-04T19:54:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Searches returned modern and name-fragment results but no secure historical identity or dated pre-OSS affiliation.",
+      "research_notes": "Bounded individual adjudication, not an exhaustive no-result conclusion. Snippets, failed opens and search pages are not counted as evidence. No physical personnel file or authenticated Catalog payload is retained.",
+      "next_action": "Review Box 122 for nationality, documented name forms, branch, birth year and recruitment chronology before assigning any namesake.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch409-v1"
+    },
+    {
+      "key": "b409-person-ernest-chmieleski-review",
+      "person_id": "ebd9f337-9fc5-5b5e-a22f-1b2020ff091c",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 79 context and complete Army bulk comparison; exact-name and cautious spelling-variant OSS/CIA searches; employment, obituary, institutional, newspaper and archival-source checks for Ernest L Chmieleski; IPN article body inspected.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T19:30:00Z",
+      "completed_at": "2026-09-04T19:54:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "A 1949-born exact-name obituary is chronologically impossible; genealogy entries and the article's unconfirmed bracketed spelling are not pre-OSS employment evidence.",
+      "research_notes": "The IPN body supports a qualified probable OSS identity only. Bounded individual adjudication, not an exhaustive no-result conclusion. No full copyrighted page body, raw bulk record or authenticated Catalog payload is retained.",
+      "next_action": "Review Box 122 to confirm the probable Yugoslavia identity, source spelling and pre-OSS employer or military pathway.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch409-v1"
+    },
+    {
+      "key": "b409-person-charles-choate-review",
+      "person_id": "d7d32abf-05c1-55b3-8e8e-17a7efe1a0b3",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 79 context and complete Army bulk comparison; exact-name and variant OSS/CIA searches; employment, occupation, obituary, institutional, newspaper and archival-source checks for Charles Choate.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T19:30:00Z",
+      "completed_at": "2026-09-04T19:54:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The common name returned unrelated people, schools and Arthur O. Choate; none supplies two corroborating identifiers for the indexed person.",
+      "research_notes": "Bounded individual adjudication, not an exhaustive no-result conclusion. Snippets and search pages are not counted as evidence. No physical personnel file or authenticated Catalog payload is retained.",
+      "next_action": "Review Box 122 for middle name, branch, birth year, OSS assignment and prior affiliation; require at least two identifiers beyond the name.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch409-v1"
+    },
+    {
+      "key": "b409-person-wade-choate-review",
+      "person_id": "937f3bee-20bf-5379-9541-ad720f2347ef",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 79 context and complete Army bulk comparison; exact-name and variant OSS/CIA searches; employment, occupation, obituary, institutional, newspaper and archival-source checks for Wade T Choate.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T19:30:00Z",
+      "completed_at": "2026-09-04T19:54:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "One name-matched Army candidate lacks an identifier bridge, and broader same-surname results do not identify the indexed person.",
+      "research_notes": "Bounded individual adjudication, not an exhaustive no-result conclusion. The unlinked candidate is not assigned and no raw candidate row or full private identifier is retained.",
+      "next_action": "Review Box 122 and original military records for the service identifier, branch, birth year and pre-OSS chronology before assigning the candidate.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch409-v1"
+    },
+    {
+      "key": "b409-person-joseph-chochola-review",
+      "person_id": "f7ca36b2-9b93-5558-a6d1-40fd78fe0dc1",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 79 context and complete Army bulk comparison; exact-name and variant OSS/CIA searches; employment, occupation, obituary, institutional, newspaper and archival-source checks for Joseph F Chochola; IPN article body inspected.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T19:30:00Z",
+      "completed_at": "2026-09-04T19:54:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Genealogy, a postwar pharmacy advertisement and an unsourced operational-group roster do not establish pre-OSS employment or independently bridge the index identifier.",
+      "research_notes": "The IPN body supports a qualified probable OSS identity only and omits the middle initial. Bounded individual adjudication, not an exhaustive no-result conclusion. No full copyrighted page body or authenticated Catalog payload is retained.",
+      "next_action": "Review Box 122 to confirm the probable Yugoslavia identity and establish the last pre-OSS employer or military pathway.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch409-v1"
+    },
+    {
+      "key": "b409-person-deforest-choha-review",
+      "person_id": "f160b3e8-0b1d-5abd-ac05-f07ffe541999",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 79 context and complete Army bulk comparison; exact-name and spaced-name OSS/CIA searches; employment, occupation, obituary, institutional, newspaper and archival-source checks for DeForest D Choha; applicable NARA code page inspected.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T19:30:00Z",
+      "completed_at": "2026-09-04T19:54:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The identifier-backed Army occupation names no employer and does not establish its temporal relationship to OSS entry; no external employer result was accepted.",
+      "research_notes": "Bounded individual adjudication, not an exhaustive no-result conclusion. The exact private identifier and spaced name support the Army match; no raw bulk record, full private identifier or authenticated Catalog payload is retained.",
+      "next_action": "Review Box 122 for a named employer, work dates and the route from aircraft mechanics into OSS.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch409-v1"
+    }
+  ]
+}
