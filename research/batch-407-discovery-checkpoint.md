@@ -1,5 +1,64 @@
 # Batch 407 discovery checkpoint
 
+## Final individual adjudication
+
+The nine new outcomes are now imported idempotently. William Chidekel has a
+high-confidence exact name/identifier Army match with a medium-confidence
+Apprentices to other trades observation. Dawson W Chiles has the same level of
+identity support and a qualified Student observation. Neither has a named
+employer, school, work location or immediate/last-civilian designation.
+
+The complete source-index image was re-inspected, including Harold's printed
+identifier and T/Sgt. A second full 9,200,232-row Army scan found Harold's name
+candidate: 22 January 1943, PVT / 8, birth-year code 09, occupation value 306.
+Its number differs in six digit positions from the index. This is not a
+demonstrated one-digit typo. The name candidate and the exact-number record
+are both unassigned. Harold and Frank receive explicit conflicting statuses;
+their candidate occupations are not public facts.
+
+Shirley Chidsey remains a probable identity requiring Box 121 linkage. Her CIA
+book-review page (physical 1 / printed 35) was visually inspected in full.
+The 1946 Foreign Service Journal name list at physical 70 / printed 68 was
+read as embedded text, not certified visually. A bookseller's editorial-work
+account was actually read but remains discovery-only, not proof of an employer.
+Her low-confidence candidate claim is withheld. Four other common-name cases
+remain unresolved and archive-routed after staged searches. Paul Child's
+already-counted correction remains in Batch 406 and is not re-imported as a
+new person here.
+
+The official NARA code PDF was successfully retrieved as a public government
+document (no Catalog API call). Full physical page 175 / printed XVIII supports
+799; full physical page 304 / printed 284 shows the corrected 9 92 Students
+entry. Both images were read. The Berkeley CenSoc codebook, page 33, separately
+corroborates 992 in text; its screenshot was inaccessible. These code matches
+do not determine the record's temporal relationship to OSS recruitment.
+
+The CORE membership lead was resolved through the publisher's PDF:
+<https://crl.acrl.org/index.php/crl/article/viewFile/10390/11836>.
+It is dated July 1948, and its first page defines the membership period as
+January-April 1948. William's NYU entry is on physical 2 / printed 280; embedded
+text was read, screenshots failed. The postwar listing remains unlinked to the
+index and is not pre-OSS employment evidence. A later appointment PDF remained
+inaccessible and was not counted as reviewed.
+
+The remaining employment/occupation stages and shortened-name LoC searches
+were completed for this bounded cohort. They do not constitute exhaustive
+no-result certifications. Irrelevant eighteenth-century printer records,
+modern people, fictional characters, split-name index hits and unsourced
+family-tree entries were not promoted to evidence. The July 1944 FSJ PDF
+exceeded the web reader's size limit and UNH's finding aid returned 403; neither
+was counted as an inspected body. No access control was bypassed.
+
+Imported bundle: 10 citations, no organizations, 2 affiliations, 8 claims,
+24 claim-source links, 9 person updates and 9 individual attempts. Two
+low-confidence candidate claims remain private. Research-attempt coverage is
+3,852/23,940 (16.0902%); 20,088 remain not started. Five outcomes require archival
+review, two are occupation-only and two are conflicting. These are reviewed
+dispositions, not nine verified employers. See the release report for QA and
+publication status. The earlier discovery notes below remain the audit trail.
+
+## Earlier discovery checkpoint
+
 2026-09-04 UTC. **Discovery only; no new outcomes imported and no completion
 credit claimed.** Continue page 79 rows 16–25, Box 121, location 230/86/28/06.
 Nine people remain not started in the durable queue. Paul C Child was already

@@ -1,0 +1,632 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Codex individual archival review, Batch 407",
+  "sources": [
+    {
+      "key": "index-b407",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; complete PDF page 79 visually re-inspected; rows 16-25, excluding Paul C Child already corrected in Batch 406; Box 121, location 230/86/28/06",
+      "access_date": "2026-09-04",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Citation and short project-authored assessments only; no full source page, portrait, raw bulk record or full private identifier reproduced."
+    },
+    {
+      "key": "army-b407",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged 2002",
+      "locator": "Series NAID 604357; file NAID 1263923; complete transient 9,200,232-row scan: two exact name/identifier matches, two identifier/name conflicts. A second complete scan inspected the unassigned Harold A Childs name candidate.",
+      "access_date": "2026-09-04",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Citation and short project-authored assessments only; no full source page, portrait, raw bulk record or full private identifier reproduced."
+    },
+    {
+      "key": "basic-b407",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "Physical PDF pages 44-45, reference pages 40-41; field layout and alternate-card/coding-manual limitations, complete page images reviewed",
+      "access_date": "2026-09-04",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Citation and short project-authored assessments only; no full source page, portrait, raw bulk record or full private identifier reproduced."
+    },
+    {
+      "key": "codes-b407",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "Code No. 30; physical page 175 / printed XVIII, 7-99 Apprentices to other trades; physical page 304 / printed 284, changed code 9 92 Students. Both complete code images inspected. These are code interpretations, not employment dates.",
+      "access_date": "2026-09-04",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Citation and short project-authored assessments only; no full source page, portrait, raw bulk record or full private identifier reproduced."
+    },
+    {
+      "key": "censoc-b407",
+      "stable_url": "https://censoc.berkeley.edu/wp-content/uploads/2024/07/censoc_enlistment_numident_v2.1_codebook.pdf",
+      "title": "CenSoc Enlistment-Numident V2.1 Codebook",
+      "author_creator": "CenSoc project",
+      "repository_publisher": "CenSoc, University of California, Berkeley",
+      "publication_record_date": "2024-07-30",
+      "locator": "Physical/printed page 33, civilian_occupation_enlistment: 992 corresponds to Student. Text reviewed; attempted image fetch failed. Corroborates the separately inspected NARA code image; no mortality or other personal dataset used.",
+      "access_date": "2026-09-04",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Citation and short authored assessment only; no full copyrighted pages, raw records, private identifiers or unrelated personal information retained."
+    },
+    {
+      "key": "crl1948-b407",
+      "stable_url": "https://crl.acrl.org/index.php/crl/article/viewFile/10390/11836",
+      "title": "New Members",
+      "repository_publisher": "College and Research Libraries, Association of College and Research Libraries",
+      "publication_record_date": "1948-07",
+      "locator": "Physical pages 1-2, printed 279-280; membership period 1 January-1 April 1948; William Chidekel, New York University on printed 280. Embedded text reviewed; screenshot failed. This is postwar and lacks an OSS identity bridge.",
+      "access_date": "2026-09-04",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Citation and short authored assessment only; no full copyrighted pages, raw records, private identifiers or unrelated personal information retained."
+    },
+    {
+      "key": "ritchie-b407",
+      "stable_url": "https://www.theritchieboys.com/complete-roster/a-c-surnames",
+      "title": "The Ritchie Boys: complete roster, A-C surnames",
+      "repository_publisher": "The Ritchie Boys historical website",
+      "locator": "Chiella, Frank Ralph entry, relevant roster passage inspected; no identifier or dated pre-OSS transfer accompanies the name.",
+      "access_date": "2026-09-04",
+      "source_quality": "D_correlative_or_secondary",
+      "rights_notes": "Citation and short authored assessment only; no full copyrighted pages, raw records, private identifiers or unrelated personal information retained."
+    },
+    {
+      "key": "cia-b407",
+      "stable_url": "https://www.cia.gov/resources/csi/static/review-spies-in-congo.pdf",
+      "title": "Review of Spies in the Congo: America’s Atomic Mission in World War II",
+      "author_creator": "David A. Foy",
+      "repository_publisher": "Studies in Intelligence, Central Intelligence Agency",
+      "publication_record_date": "2016-12",
+      "locator": "Volume 60, number 4; physical page 1 / printed 35, right column, Shirley Chidsey as Hogue deputy at Leopoldville. Complete page image inspected. Review of Susan Williams, not a direct personnel record; author-view disclaimer retained in assessment.",
+      "access_date": "2026-09-04",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Citation and short authored assessment only; no full copyrighted pages, raw records, private identifiers or unrelated personal information retained."
+    },
+    {
+      "key": "fsj1946-b407",
+      "stable_url": "https://afsa.org/sites/default/files/fsj-1946-03-march_0.pdf",
+      "title": "Foreign Service Journal, March 1946",
+      "repository_publisher": "American Foreign Service Association",
+      "publication_record_date": "1946-03",
+      "locator": "Physical page 70 / printed 68, Shirley A. Chidsey, Leopoldville in name list. Embedded text inspected; image result not visually available. Postwar identity context, not pre-OSS employment.",
+      "access_date": "2026-09-04",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Citation and short authored assessment only; no full copyrighted pages, raw records, private identifiers or unrelated personal information retained."
+    },
+    {
+      "key": "dealer-b407",
+      "stable_url": "https://www.abebooks.co.uk/signed-first-edition/Taps-Reveille-FITZGERALD-F-SCOTT-New/5209131756/bd",
+      "title": "Taps at Reveille: presentation-copy description",
+      "author_creator": "Peter L. Stern",
+      "repository_publisher": "Peter L. Stern, reproduced by AbeBooks",
+      "locator": "Seller inventory 30066; descriptive paragraph concerning Shirley Chidsey. Listing inspected; original inscription and editorial papers not examined. Book publication year is not the listing date or a verified employment date.",
+      "access_date": "2026-09-04",
+      "source_quality": "E_discovery_only",
+      "rights_notes": "Citation and short authored assessment only; no full copyrighted pages, raw records, private identifiers or unrelated personal information retained."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "occupation-76efa2b4-2b39-5eb6-98cf-b5903c236e17-b407",
+      "person_id": "76efa2b4-2b39-5eb6-98cf-b5903c236e17",
+      "occupation": "Apprentices to other trades",
+      "relationship_type": "unknown",
+      "date_precision": "Observation recorded 1942-12-04; actual work or study dates and relation to OSS entry unestablished.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "No named employer, institution, work location, immediate pre-OSS affiliation or last civilian employer is established. The Army entry grade does not establish the later OSS rank. Dated Army observation, not a verified employment start or end. The relationship to OSS entry remains unestablished; alternate-card and transcription limitations remain."
+    },
+    {
+      "key": "occupation-dbe6b387-60ca-59e1-96cd-f92b7fbe21db-b407",
+      "person_id": "dbe6b387-60ca-59e1-96cd-f92b7fbe21db",
+      "occupation": "Student",
+      "relationship_type": "student",
+      "date_precision": "Observation recorded 1942-11-17; actual work or study dates and relation to OSS entry unestablished.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "No named employer, institution, work location, immediate pre-OSS affiliation or last civilian employer is established. The Army entry grade does not establish the later OSS rank. Dated Army observation, not a verified employment start or end. The relationship to OSS entry remains unestablished; alternate-card and transcription limitations remain."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-76efa2b4-2b39-5eb6-98cf-b5903c236e17-b407",
+      "person_id": "76efa2b4-2b39-5eb6-98cf-b5903c236e17",
+      "claim_type": "identity",
+      "claim_text": "William Chidekel has an identifier-backed Army record match.",
+      "evidence_paraphrase": "The full indexed name and private identifier agree with the inspected Army entry.",
+      "identity_match_assessment": "The exact indexed name and private service identifier match the Army record dated 1942-12-04; high confidence, without examining the OSS personnel file.",
+      "temporal_assessment": "Army entry dated 1942-12-04; not a personnel-file or OSS-rank verification.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No named employer, institution, work location, immediate pre-OSS affiliation or last civilian employer is established. The Army entry grade does not establish the later OSS rank.",
+      "sources": [
+        {
+          "source_key": "index-b407",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b407",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "occupation-76efa2b4-2b39-5eb6-98cf-b5903c236e17-b407",
+      "person_id": "76efa2b4-2b39-5eb6-98cf-b5903c236e17",
+      "affiliation_key": "occupation-76efa2b4-2b39-5eb6-98cf-b5903c236e17-b407",
+      "claim_type": "occupation",
+      "claim_text": "An Army record dated 1942-12-04 reports the occupation group Apprentices to other trades.",
+      "evidence_paraphrase": "The record contains value 799; the inspected official code list supports Apprentices to other trades.",
+      "identity_match_assessment": "The exact indexed name and private service identifier match the Army record dated 1942-12-04; high confidence, without examining the OSS personnel file.",
+      "temporal_assessment": "Dated Army observation, not a verified employment start or end. The relationship to OSS entry remains unestablished; alternate-card and transcription limitations remain.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No named employer, institution, work location, immediate pre-OSS affiliation or last civilian employer is established. The Army entry grade does not establish the later OSS rank.",
+      "sources": [
+        {
+          "source_key": "army-b407",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b407",
+          "support_type": "supports",
+          "locator_override": "Physical page 175, printed XVIII; 7-99"
+        },
+        {
+          "source_key": "basic-b407",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "index-b407",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "identity-dbe6b387-60ca-59e1-96cd-f92b7fbe21db-b407",
+      "person_id": "dbe6b387-60ca-59e1-96cd-f92b7fbe21db",
+      "claim_type": "identity",
+      "claim_text": "Dawson W Chiles has an identifier-backed Army record match.",
+      "evidence_paraphrase": "The full indexed name and private identifier agree with the inspected Army entry.",
+      "identity_match_assessment": "The exact indexed name and private service identifier match the Army record dated 1942-11-17; high confidence, without examining the OSS personnel file.",
+      "temporal_assessment": "Army entry dated 1942-11-17; not a personnel-file or OSS-rank verification.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No named employer, institution, work location, immediate pre-OSS affiliation or last civilian employer is established. The Army entry grade does not establish the later OSS rank.",
+      "sources": [
+        {
+          "source_key": "index-b407",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b407",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "occupation-dbe6b387-60ca-59e1-96cd-f92b7fbe21db-b407",
+      "person_id": "dbe6b387-60ca-59e1-96cd-f92b7fbe21db",
+      "affiliation_key": "occupation-dbe6b387-60ca-59e1-96cd-f92b7fbe21db-b407",
+      "claim_type": "occupation",
+      "claim_text": "An Army record dated 1942-11-17 reports Student status.",
+      "evidence_paraphrase": "The record contains value 992; the inspected official code list supports Student.",
+      "identity_match_assessment": "The exact indexed name and private service identifier match the Army record dated 1942-11-17; high confidence, without examining the OSS personnel file.",
+      "temporal_assessment": "Dated Army observation, not a verified employment start or end. The relationship to OSS entry remains unestablished; alternate-card and transcription limitations remain.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No named employer, institution, work location, immediate pre-OSS affiliation or last civilian employer is established. The Army entry grade does not establish the later OSS rank.",
+      "sources": [
+        {
+          "source_key": "army-b407",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b407",
+          "support_type": "supports",
+          "locator_override": "Physical page 304, printed 284; corrected 9 92 Students entry"
+        },
+        {
+          "source_key": "basic-b407",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "index-b407",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "censoc-b407",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "william-postwar-candidate-b407",
+      "person_id": "76efa2b4-2b39-5eb6-98cf-b5903c236e17",
+      "claim_type": "identity",
+      "claim_text": "The postwar New York University listing remains unlinked to the indexed William Chidekel.",
+      "evidence_paraphrase": "A 1948 professional membership list includes that name with New York University.",
+      "identity_match_assessment": "Name agreement alone does not bridge the professional listing to the identifier-backed Army identity.",
+      "temporal_assessment": "Postwar membership is not evidence of a pre-OSS employer.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "No NYU employer, librarian role or prewar employment date is published.",
+      "sources": [
+        {
+          "source_key": "crl1948-b407",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "index-b407",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "frank-identifier-conflict-b407",
+      "person_id": "297bde5b-cc65-51a6-8b54-9a1bee9db55a",
+      "claim_type": "identity",
+      "claim_text": "The indexed Frank R Chiella has an unresolved service-identifier/name conflict.",
+      "evidence_paraphrase": "The index identifier returns a garbled Army name rather than Chiella; a separate roster names Frank Ralph Chiella without an identifier.",
+      "identity_match_assessment": "The identifier is an exact match, but the name cannot be corroborated. The roster alone cannot repair the corrupted Army record.",
+      "temporal_assessment": "No occupation or recruitment chronology is accepted from the conflicting record.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The printed source row remains unchanged; Ralph is not adopted as a documented variant. Physical-file review is required.",
+      "sources": [
+        {
+          "source_key": "index-b407",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b407",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "ritchie-b407",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "harold-identifier-conflict-b407",
+      "person_id": "156581f1-85c9-5c65-8384-fe9d33fb837a",
+      "claim_type": "identity",
+      "claim_text": "Harold A Childs has conflicting indexed and Army service-identifier evidence.",
+      "evidence_paraphrase": "The indexed identifier returns a different Army name. An exact-name Army candidate has a different number.",
+      "identity_match_assessment": "The name candidate differs from the printed number in six digit positions, not a demonstrated one-digit typo. Neither external record can be assigned securely.",
+      "temporal_assessment": "The name candidate is dated 22 January 1943; no occupation or birth year is adopted from either candidate.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Preserve indexed T/Sgt and both independent candidates for Box 121 review; do not replace the number or merge namesakes.",
+      "sources": [
+        {
+          "source_key": "index-b407",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b407",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "shirley-identity-candidate-b407",
+      "person_id": "3a873e55-894a-5cd9-bc99-8e78cdc12151",
+      "claim_type": "identity",
+      "claim_text": "The wartime Shirley Chidsey biography is a probable identity candidate requiring index linkage.",
+      "evidence_paraphrase": "Foy identifies Chidsey in the Leopoldville OSS operation; the 1946 journal lists Shirley A. Chidsey at Leopoldville.",
+      "identity_match_assessment": "The distinctive name, middle initial and documented OSS context support a probable candidate; no service identifier, birth detail or personnel-file pointer directly bridges the index row.",
+      "temporal_assessment": "Wartime role and postwar name list do not establish an employer before initial OSS entry.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "The bookseller editorial-work account is discovery only, not an accepted employer claim. A separate employer lead still requires a lawful full-source or archival review. No relative’s occupation, school attendance or later journalism is assigned.",
+      "sources": [
+        {
+          "source_key": "cia-b407",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "fsj1946-b407",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "index-b407",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "dealer-b407",
+          "support_type": "context_only"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "76efa2b4-2b39-5eb6-98cf-b5903c236e17",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact name and private identifier match the Army entry. NYU membership is postwar and independently unlinked.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 121 for the employer and trade underlying the apprenticeship group, work dates, and the later NYU candidate.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3a873e55-894a-5cd9-bc99-8e78cdc12151",
+      "identity_status": "probable",
+      "identity_evidence": "Wartime OSS and postwar journal references support a probable identity candidate; no independent index identifier or dated pre-OSS employer has been established.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 121 for expanded name, first OSS appointment and actual previous employers; consult the cited biographical and editorial-record leads without treating a later return to OSS as initial recruitment.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "297bde5b-cc65-51a6-8b54-9a1bee9db55a",
+      "identity_status": "conflicting",
+      "identity_evidence": "The matching Army identifier has a garbled name. The Ritchie Boys roster is an unlinked name expansion, not proof that the occupation belongs to Chiella.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 121 and the original enlistment record to resolve the corrupted name before assigning an occupation or Ralph expansion.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "17e29ca0-9e0d-5b35-aee9-f987cd3690b4",
+      "identity_status": "unresolved",
+      "identity_evidence": "No external identity or pre-OSS employer is securely linked. Modern and 1943-born namesakes, fictional characters and split-name catalog hits are not this person.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Obtain at least two independent identifying details from Box 121, including branch, birth year and original service identifier; establish previous work without padding the printed number.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2ca01d01-7dc4-53cb-8a07-43e177095fa4",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reliable identity or employer has been linked to the indexed name. Broader searches do not authorize adoption of other middle initials or modern school-name hits.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 121 for full name, any documented name changes, recruitment chronology and dated employment; do not infer gender or an employer from the first name.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "954caa3f-c9c1-51c9-869a-b0fa13a967f7",
+      "identity_status": "unresolved",
+      "identity_evidence": "No identifier-backed external person or pre-OSS employer was found. Inexact names and concatenated place/person hits are not evidence.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 121 for the complete middle name, branch, birth year and employment history before expanding the identity.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ccb15857-8a09-5750-9e32-94e884a05dca",
+      "identity_status": "unresolved",
+      "identity_evidence": "No secure external identity or employer is established. The eighteenth-century printer appearing in LoC searches is chronologically incompatible.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 121 for branch, original seven-digit identifier, birth year and dated work history; keep different initials and earlier-century namesakes separate.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "156581f1-85c9-5c65-8384-fe9d33fb837a",
+      "identity_status": "conflicting",
+      "identity_evidence": "The printed identifier matches an Army record naming Parraz Bacilio; a Harold A Childs name candidate has a different identifier. Neither occupation is assigned.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 121 and original military records to resolve both identifier candidates; preserve the source T/Sgt and do not substitute a number.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "dbe6b387-60ca-59e1-96cd-f92b7fbe21db",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and private identifier match the Army observation. The official corrected code list supports Student status, not a school or employer.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 121 for the named institution, study dates, any actual civilian employment and subsequent military-to-OSS sequence; do not assign a spouse’s career.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b407-person-79-16-review",
+      "person_id": "76efa2b4-2b39-5eb6-98cf-b5903c236e17",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 79 context and full Army bulk comparison; exact-name William Chidekel OSS and shortened-name variants; name plus site:cia.gov; employment/occupation/biography or obituary searches; name plus site:loc.gov; targeted institutional/roster/code-document review described in the checkpoint.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T16:29:17Z",
+      "completed_at": "2026-09-04T16:33:08Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The exact name and private identifier match the Army entry. NYU membership is postwar and independently unlinked.",
+      "research_notes": "Checkpoint timestamp records adjudication, not the first query or reading duration. Individual bounded outcome, not an exhaustive no-result conclusion. Counts include the index and applicable bulk comparison plus the specific inspected bodies; snippets, failed opens and inaccessible images are not separate reviewed sources. Rejected counts concern the candidate records in this adjudication, not all search hits. Complete index and relevant official code images inspected. No physical personnel file, unauthorized book copy, full copyrighted page body, raw bulk record or authenticated Catalog API payload retained.",
+      "next_action": "Review Box 121 for the employer and trade underlying the apprenticeship group, work dates, and the later NYU candidate.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch407-v1"
+    },
+    {
+      "key": "b407-person-79-17-review",
+      "person_id": "3a873e55-894a-5cd9-bc99-8e78cdc12151",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 79 context and full Army bulk comparison; exact-name Shirley A Chidsey OSS and shortened-name variants; name plus site:cia.gov; employment/occupation/biography or obituary searches; name plus site:loc.gov; targeted institutional/roster/code-document review described in the checkpoint.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T16:29:17Z",
+      "completed_at": "2026-09-04T16:33:08Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Wartime OSS and postwar journal references support a probable identity candidate; no independent index identifier or dated pre-OSS employer has been established.",
+      "research_notes": "Checkpoint timestamp records adjudication, not the first query or reading duration. Individual bounded outcome, not an exhaustive no-result conclusion. Counts include the index and applicable bulk comparison plus the specific inspected bodies; snippets, failed opens and inaccessible images are not separate reviewed sources. Rejected counts concern the candidate records in this adjudication, not all search hits. Complete index and relevant official code images inspected. No physical personnel file, unauthorized book copy, full copyrighted page body, raw bulk record or authenticated Catalog API payload retained.",
+      "next_action": "Review Box 121 for expanded name, first OSS appointment and actual previous employers; consult the cited biographical and editorial-record leads without treating a later return to OSS as initial recruitment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch407-v1"
+    },
+    {
+      "key": "b407-person-79-18-review",
+      "person_id": "297bde5b-cc65-51a6-8b54-9a1bee9db55a",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 79 context and full Army bulk comparison; exact-name Frank R Chiella OSS and shortened-name variants; name plus site:cia.gov; employment/occupation/biography or obituary searches; name plus site:loc.gov; targeted institutional/roster/code-document review described in the checkpoint.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T16:29:17Z",
+      "completed_at": "2026-09-04T16:33:08Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The matching Army identifier has a garbled name. The Ritchie Boys roster is an unlinked name expansion, not proof that the occupation belongs to Chiella.",
+      "research_notes": "Checkpoint timestamp records adjudication, not the first query or reading duration. Individual bounded outcome, not an exhaustive no-result conclusion. Counts include the index and applicable bulk comparison plus the specific inspected bodies; snippets, failed opens and inaccessible images are not separate reviewed sources. Rejected counts concern the candidate records in this adjudication, not all search hits. Complete index and relevant official code images inspected. No physical personnel file, unauthorized book copy, full copyrighted page body, raw bulk record or authenticated Catalog API payload retained.",
+      "next_action": "Review Box 121 and the original enlistment record to resolve the corrupted name before assigning an occupation or Ralph expansion.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch407-v1"
+    },
+    {
+      "key": "b407-person-79-19-review",
+      "person_id": "17e29ca0-9e0d-5b35-aee9-f987cd3690b4",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 79 context and full Army bulk comparison; exact-name Howard Child OSS and shortened-name variants; name plus site:cia.gov; employment/occupation/biography or obituary searches; name plus site:loc.gov; targeted institutional/roster/code-document review described in the checkpoint.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T16:29:17Z",
+      "completed_at": "2026-09-04T16:33:08Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "No external identity or pre-OSS employer is securely linked. Modern and 1943-born namesakes, fictional characters and split-name catalog hits are not this person.",
+      "research_notes": "Checkpoint timestamp records adjudication, not the first query or reading duration. Individual bounded outcome, not an exhaustive no-result conclusion. Counts include the index and applicable bulk comparison plus the specific inspected bodies; snippets, failed opens and inaccessible images are not separate reviewed sources. Rejected counts concern the candidate records in this adjudication, not all search hits. Complete index and relevant official code images inspected. No physical personnel file, unauthorized book copy, full copyrighted page body, raw bulk record or authenticated Catalog API payload retained.",
+      "next_action": "Obtain at least two independent identifying details from Box 121, including branch, birth year and original service identifier; establish previous work without padding the printed number.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch407-v1"
+    },
+    {
+      "key": "b407-person-79-20-review",
+      "person_id": "2ca01d01-7dc4-53cb-8a07-43e177095fa4",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 79 context and full Army bulk comparison; exact-name Lois O Child OSS and shortened-name variants; name plus site:cia.gov; employment/occupation/biography or obituary searches; name plus site:loc.gov; targeted institutional/roster/code-document review described in the checkpoint.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T16:29:17Z",
+      "completed_at": "2026-09-04T16:33:08Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "No reliable identity or employer has been linked to the indexed name. Broader searches do not authorize adoption of other middle initials or modern school-name hits.",
+      "research_notes": "Checkpoint timestamp records adjudication, not the first query or reading duration. Individual bounded outcome, not an exhaustive no-result conclusion. Counts include the index and applicable bulk comparison plus the specific inspected bodies; snippets, failed opens and inaccessible images are not separate reviewed sources. Rejected counts concern the candidate records in this adjudication, not all search hits. Complete index and relevant official code images inspected. No physical personnel file, unauthorized book copy, full copyrighted page body, raw bulk record or authenticated Catalog API payload retained.",
+      "next_action": "Review Box 121 for full name, any documented name changes, recruitment chronology and dated employment; do not infer gender or an employer from the first name.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch407-v1"
+    },
+    {
+      "key": "b407-person-79-22-review",
+      "person_id": "954caa3f-c9c1-51c9-869a-b0fa13a967f7",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 79 context and full Army bulk comparison; exact-name Alton Q Childs OSS and shortened-name variants; name plus site:cia.gov; employment/occupation/biography or obituary searches; name plus site:loc.gov; targeted institutional/roster/code-document review described in the checkpoint.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T16:29:17Z",
+      "completed_at": "2026-09-04T16:33:08Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "No identifier-backed external person or pre-OSS employer was found. Inexact names and concatenated place/person hits are not evidence.",
+      "research_notes": "Checkpoint timestamp records adjudication, not the first query or reading duration. Individual bounded outcome, not an exhaustive no-result conclusion. Counts include the index and applicable bulk comparison plus the specific inspected bodies; snippets, failed opens and inaccessible images are not separate reviewed sources. Rejected counts concern the candidate records in this adjudication, not all search hits. Complete index and relevant official code images inspected. No physical personnel file, unauthorized book copy, full copyrighted page body, raw bulk record or authenticated Catalog API payload retained.",
+      "next_action": "Review Box 121 for the complete middle name, branch, birth year and employment history before expanding the identity.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch407-v1"
+    },
+    {
+      "key": "b407-person-79-23-review",
+      "person_id": "ccb15857-8a09-5750-9e32-94e884a05dca",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 79 context and full Army bulk comparison; exact-name Francis V Childs OSS and shortened-name variants; name plus site:cia.gov; employment/occupation/biography or obituary searches; name plus site:loc.gov; targeted institutional/roster/code-document review described in the checkpoint.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T16:29:17Z",
+      "completed_at": "2026-09-04T16:33:08Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "No secure external identity or employer is established. The eighteenth-century printer appearing in LoC searches is chronologically incompatible.",
+      "research_notes": "Checkpoint timestamp records adjudication, not the first query or reading duration. Individual bounded outcome, not an exhaustive no-result conclusion. Counts include the index and applicable bulk comparison plus the specific inspected bodies; snippets, failed opens and inaccessible images are not separate reviewed sources. Rejected counts concern the candidate records in this adjudication, not all search hits. Complete index and relevant official code images inspected. No physical personnel file, unauthorized book copy, full copyrighted page body, raw bulk record or authenticated Catalog API payload retained.",
+      "next_action": "Review Box 121 for branch, original seven-digit identifier, birth year and dated work history; keep different initials and earlier-century namesakes separate.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch407-v1"
+    },
+    {
+      "key": "b407-person-79-24-review",
+      "person_id": "156581f1-85c9-5c65-8384-fe9d33fb837a",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 79 context and full Army bulk comparison; exact-name Harold A Childs OSS and shortened-name variants; name plus site:cia.gov; employment/occupation/biography or obituary searches; name plus site:loc.gov; targeted institutional/roster/code-document review described in the checkpoint.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T16:29:17Z",
+      "completed_at": "2026-09-04T16:33:08Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The printed identifier matches an Army record naming Parraz Bacilio; a Harold A Childs name candidate has a different identifier. Neither occupation is assigned.",
+      "research_notes": "Checkpoint timestamp records adjudication, not the first query or reading duration. Individual bounded outcome, not an exhaustive no-result conclusion. Counts include the index and applicable bulk comparison plus the specific inspected bodies; snippets, failed opens and inaccessible images are not separate reviewed sources. Rejected counts concern the candidate records in this adjudication, not all search hits. Complete index and relevant official code images inspected. No physical personnel file, unauthorized book copy, full copyrighted page body, raw bulk record or authenticated Catalog API payload retained.",
+      "next_action": "Review Box 121 and original military records to resolve both identifier candidates; preserve the source T/Sgt and do not substitute a number.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch407-v1"
+    },
+    {
+      "key": "b407-person-79-25-review",
+      "person_id": "dbe6b387-60ca-59e1-96cd-f92b7fbe21db",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 79 context and full Army bulk comparison; exact-name Dawson W Chiles OSS and shortened-name variants; name plus site:cia.gov; employment/occupation/biography or obituary searches; name plus site:loc.gov; targeted institutional/roster/code-document review described in the checkpoint.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T16:29:17Z",
+      "completed_at": "2026-09-04T16:33:08Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Exact name and private identifier match the Army observation. The official corrected code list supports Student status, not a school or employer.",
+      "research_notes": "Checkpoint timestamp records adjudication, not the first query or reading duration. Individual bounded outcome, not an exhaustive no-result conclusion. Counts include the index and applicable bulk comparison plus the specific inspected bodies; snippets, failed opens and inaccessible images are not separate reviewed sources. Rejected counts concern the candidate records in this adjudication, not all search hits. Complete index and relevant official code images inspected. No physical personnel file, unauthorized book copy, full copyrighted page body, raw bulk record or authenticated Catalog API payload retained.",
+      "next_action": "Review Box 121 for the named institution, study dates, any actual civilian employment and subsequent military-to-OSS sequence; do not assign a spouse’s career.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch407-v1"
+    }
+  ]
+}
