@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import csv
+import json
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -11,6 +13,42 @@ from oss_research.review import import_review_decisions
 
 
 class ReviewDecisionTests(unittest.TestCase):
+    def _display_correction(self, expected="Example Person", replacement="Example A. Person"):
+        path = Path(self.temp_dir.name) / "display_review.csv"
+        with path.open("w", newline="", encoding="utf-8") as stream:
+            writer = csv.writer(stream)
+            writer.writerow(["target_type", "target_id", "decision", "rationale", "reviewer", "decision_version"])
+            writer.writerow(["person_entity", "person-1", "display_name:" + json.dumps({
+                "expected": expected, "replacement": replacement,
+            }), "Reviewed name presentation; raw source unchanged.", "Unit test", "display-v1"])
+        return path
+
+    def test_guarded_display_correction_preserves_sources_identity_and_audit(self):
+        source_before = [tuple(row) for row in self.connection.execute("SELECT * FROM source_records")]
+        links_before = [tuple(row) for row in self.connection.execute("SELECT * FROM person_source_links")]
+        path = self._display_correction()
+        first = import_review_decisions(self.connection, path)
+        self.assertEqual(first["state_changes_applied"], 1)
+        second = import_review_decisions(self.connection, path)
+        self.assertEqual(second["duplicates_skipped"], 1)
+        self.assertEqual(second["state_changes_applied"], 0)
+        row = self.connection.execute("SELECT * FROM person_entities WHERE person_id='person-1'").fetchone()
+        self.assertEqual(row["display_name"], "Example A. Person")
+        self.assertEqual(row["normalized_name"], "EXAMPLE A PERSON")
+        self.assertEqual(row["identity_status"], "unresolved")
+        self.assertEqual(json.loads(row["name_variants_json"]), ["Example A. Person", "Example Person"])
+        self.assertEqual(source_before, [tuple(row) for row in self.connection.execute("SELECT * FROM source_records")])
+        self.assertEqual(links_before, [tuple(row) for row in self.connection.execute("SELECT * FROM person_source_links")])
+        self.assertEqual(self.connection.execute("SELECT COUNT(*) FROM review_decisions").fetchone()[0], 1)
+
+    def test_display_correction_rejects_stale_or_empty_values_without_writes(self):
+        for expected, replacement in [("Another Name", "Example A. Person"), ("Example Person", " ")]:
+            with self.subTest(expected=expected, replacement=replacement):
+                with self.assertRaises(ValueError):
+                    import_review_decisions(self.connection, self._display_correction(expected, replacement))
+                self.assertEqual(self.connection.execute("SELECT COUNT(*) FROM review_decisions").fetchone()[0], 0)
+                self.assertEqual(self.connection.execute("SELECT display_name FROM person_entities WHERE person_id='person-1'").fetchone()[0], "Example Person")
+
     def setUp(self) -> None:
         self.temp_dir = tempfile.TemporaryDirectory()
         self.database = Path(self.temp_dir.name) / "test.sqlite"

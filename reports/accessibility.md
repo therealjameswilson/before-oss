@@ -4,11 +4,19 @@ Run: 2026-09-04 UTC
 
 ## Result
 
-Batch 401 current checkpoint: nine new browser scenarios pass across desktop,
-phone, and tablet. Three initial failures came from a test expecting a private
-review note in the public page; the corrected test checks the public employer
-disclaimer. The complete 1,629-case matrix is running and is still a release
-gate. The final methodology build has zero Astro errors, warnings or hints.
+Batch 402 is in local release QA. Twelve focused cases passed after correcting
+overbroad test selectors; the final presentation changes add date-precision
+notes and an accurate pre-OSS temporal badge. Full regression and deployment
+results will be recorded in `reports/release_batch_402.md`.
+
+Batch 401 final premerge result: the independent GitHub matrix passed all
+1,629 cases across desktop, phone, and tablet. Locally 1,628 passed initially;
+one older phone case encountered a closed Chromium session and passed unchanged
+on isolated rerun. Nine new focused cases pass. Three initial authoring failures
+were corrected to check the public employer disclaimer rather than a private
+note. The final build has zero Astro errors, warnings or hints. Pages succeeded
+and the live release is verified; the redundant postmerge Test also succeeded.
+See `reports/release_batch_401.md`.
 
 Batch 400 final result: the independent GitHub matrix passed all 1,620 cases.
 Locally 1,618 passed initially and two browser-connection timeouts passed on

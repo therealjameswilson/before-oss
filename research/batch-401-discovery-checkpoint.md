@@ -1,5 +1,8 @@
 # Batch 401 discovery checkpoint
 
+Historical discovery-stage record. Batch 401 has since been deployed and
+live-verified; see `reports/release_batch_401.md` for the release outcome.
+
 Started 2026-09-04 UTC while Batch 400 release tests run. These are discovery
 notes, not accepted public facts. These notes preserve the discovery stage.
 Subsequently a validated review bundle was imported twice with identical

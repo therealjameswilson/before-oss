@@ -1,0 +1,754 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Codex archival research review, Batch 402, 2026-09-04; source-linked individual adjudication",
+  "sources": [
+    {
+      "key": "index-b402",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "locator": "RG 226, Entry A1-224; PDF page 78 rows 12-21; Box 120, location 230/86/28/06; complete page visually reviewed",
+      "access_date": "2026-09-04",
+      "repository_publisher": "National Archives and Records Administration",
+      "author_creator": "National Archives and Records Administration",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Official public records. Only citations and project-authored assessments retained; no raw bulk rows or full service identifiers.",
+      "publication_record_date": "2010-12-23"
+    },
+    {
+      "key": "army-b402",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "locator": "Series NAID 604357; file NAID 1263923; ASNEF.FIN.DAT, 9,200,232 records examined transiently; three exact private-identifier matches",
+      "access_date": "2026-09-04",
+      "repository_publisher": "National Archives and Records Administration",
+      "author_creator": "National Archives and Records Administration",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Official public records. Only citations and project-authored assessments retained; no raw bulk rows or full service identifiers.",
+      "publication_record_date": "1938-1946; merged 2002"
+    },
+    {
+      "key": "basic-b402",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "locator": "Physical PDF pages 44-45, reference-copy pages 40-41; field layout and alternate-card limitations, visually reviewed",
+      "access_date": "2026-09-04",
+      "repository_publisher": "National Archives and Records Administration",
+      "author_creator": "National Archives and Records Administration",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Official public records. Only citations and project-authored assessments retained; no raw bulk rows or full service identifiers.",
+      "publication_record_date": "1994-2005; reference copy modified 2011"
+    },
+    {
+      "key": "codes-b402",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "locator": "Code No. 30; physical pages 172 and 175 visually checked; complete embedded text checked; values 345 and 590 not defined in the reviewed list",
+      "access_date": "2026-09-04",
+      "repository_publisher": "National Archives and Records Administration",
+      "author_creator": "National Archives and Records Administration",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Official public records. Only citations and project-authored assessments retained; no raw bulk rows or full service identifiers.",
+      "publication_record_date": "2011-01-12; modified 2011-03-17"
+    },
+    {
+      "key": "lva-cheek-b402",
+      "stable_url": "https://old.lva.virginia.gov/public/dvb/bio.asp?b=Cheek_Leslie",
+      "title": "Leslie Cheek (1908-1992), Dictionary of Virginia Biography",
+      "locator": "Arts Educator; Arts Administrator; source bibliography and byline",
+      "access_date": "2026-09-04",
+      "author_creator": "Brent Tarter",
+      "repository_publisher": "Library of Virginia",
+      "publication_record_date": "2006",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Citation and brief project-authored paraphrases only; no complete page or portrait reproduced."
+    },
+    {
+      "key": "mattingly-b402",
+      "stable_url": "https://www.usmcu.edu/Portals/218/Herringbone%20Cloak%20-%20GI%20Dagger%20Marines%20Of%20The%20OSS.pdf",
+      "title": "Herringbone Cloak-GI Dagger: Marines of the OSS",
+      "locator": "Printed pages 139 and 313; physical PDF pages 163 and 341, text and complete page images reviewed in browser",
+      "access_date": "2026-09-04",
+      "author_creator": "Robert E. Mattingly",
+      "repository_publisher": "History and Museums Division, Headquarters, U.S. Marine Corps",
+      "publication_record_date": "1989; research paper 1979",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Author retains copyright. Only citation and short project-authored notes retained; no full work or page image saved in the project."
+    },
+    {
+      "key": "johnstone-b402",
+      "stable_url": "https://www.generalstaff.org/WW2/Pubs/USMC_Pamplets/USMC_HRS-32_Parachute_Units.htm",
+      "title": "United States Marine Corps Parachute Units, Historical Reference Series 32",
+      "locator": "Appendix A, commanding-officer table: Parachute Battalion, New River (later 4th Parachute Battalion); January-May 1943 entries",
+      "access_date": "2026-09-04",
+      "author_creator": "John H. Johnstone",
+      "repository_publisher": "Historical Branch, G-3 Division, Headquarters, U.S. Marine Corps; HTML transcription hosted by GeneralStaff.org",
+      "publication_record_date": "Revised 1962; approved 1962-06-04",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Official publication consulted in a non-government HTML mirror; complete relevant table reviewed. Original printed-page comparison remains desirable; do not describe this mirror as an official host."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "baltimore-museum-of-art",
+      "canonical_name": "Baltimore Museum of Art",
+      "historical_name": "Baltimore Museum of Art",
+      "organization_type": "museum",
+      "sector": "arts_and_culture",
+      "city": "Baltimore",
+      "state_or_region": "Maryland",
+      "country": "United States",
+      "normalization_notes": "Institution named in LVA biography; not merged with other museums."
+    },
+    {
+      "key": "college-of-william-and-mary",
+      "canonical_name": "College of William and Mary",
+      "historical_name": "College of William and Mary",
+      "organization_type": "college",
+      "sector": "academia_and_research",
+      "city": "Williamsburg",
+      "state_or_region": "Virginia",
+      "country": "United States",
+      "normalization_notes": "Historical employing institution retained; no inference from alumni status."
+    },
+    {
+      "key": "army-corps-engineers-camouflage-school-fort-belvoir",
+      "canonical_name": "Army Corps of Engineers camouflage school, Fort Belvoir",
+      "historical_name": "Army Corps of Engineers camouflage school",
+      "organization_type": "military_school",
+      "sector": "military",
+      "city": "Fort Belvoir",
+      "state_or_region": "Virginia",
+      "country": "United States",
+      "normalization_notes": "Named school retained separately from its parent branch. Work for the school does not by itself establish a military commission."
+    },
+    {
+      "key": "usmc-parachute-battalion-new-river",
+      "canonical_name": "U.S. Marine Corps Parachute Battalion, New River",
+      "historical_name": "Parachute Battalion, New River",
+      "organization_type": "military_unit",
+      "sector": "military",
+      "city": "New River",
+      "state_or_region": "North Carolina",
+      "country": "United States",
+      "normalization_notes": "Contemporaneous unit name retained. Johnstone's Appendix A labels it later 4th Parachute Battalion; no silent merger with other parachute battalions."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "cheek-bma-b402",
+      "person_id": "46cc3ed9-c738-5649-93c1-48994390bd94",
+      "organization_key": "baltimore-museum-of-art",
+      "organization_name_as_found": "Baltimore Museum of Art",
+      "role_title": "Director",
+      "relationship_type": "employment",
+      "start_date": "1939-09-01",
+      "end_date": "1942",
+      "date_precision": "End in spring 1942; no exact day established.",
+      "city": "Baltimore",
+      "state_or_region": "Maryland",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Last civilian employer before the documented wartime government-school transition; not the immediate pre-OSS affiliation."
+    },
+    {
+      "key": "cheek-wm-b402",
+      "person_id": "46cc3ed9-c738-5649-93c1-48994390bd94",
+      "organization_key": "college-of-william-and-mary",
+      "organization_name_as_found": "College of William and Mary",
+      "role_title": "Fine arts instructor; department chair",
+      "relationship_type": "employment",
+      "start_date": "1935",
+      "end_date": "1939",
+      "date_precision": "Instructor from 1935; chair from 1936; year precision for this earlier employment.",
+      "city": "Williamsburg",
+      "state_or_region": "Virginia",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published"
+    },
+    {
+      "key": "cheek-school-b402",
+      "person_id": "46cc3ed9-c738-5649-93c1-48994390bd94",
+      "organization_key": "army-corps-engineers-camouflage-school-fort-belvoir",
+      "organization_name_as_found": "Army Corps of Engineers camouflage school",
+      "role_title": "School work; exact appointment unspecified",
+      "relationship_type": "government_assignment",
+      "start_date": "1942",
+      "end_date": null,
+      "date_precision": "Started in spring 1942; school end date and exact OSS transition not established.",
+      "city": "Fort Belvoir",
+      "state_or_region": "Virginia",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Government assignment used conservatively: source says worked for the Army school, not whether the appointment was uniformed or civilian."
+    },
+    {
+      "key": "cheever-new-river-b402",
+      "person_id": "eaf8432d-7c3b-5e66-b131-2c2c0c7d9f7f",
+      "organization_key": "usmc-parachute-battalion-new-river",
+      "organization_name_as_found": "Parachute Battalion, New River",
+      "role_title": "Intermittent commanding officer",
+      "relationship_type": "military_assignment",
+      "start_date": "1943-01-01",
+      "end_date": "1943-05-05",
+      "date_precision": "Separate intervals, not continuous: Jan 1-6; Jan 21-30; Feb 10-16; Mar 1-8; Mar 13-16; Apr 1-9; Apr 19-May 5, 1943.",
+      "city": "New River",
+      "state_or_region": "North Carolina",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Dated Marine assignment precedes the observed OSS command in early 1944, but the actual start of OSS service has not been established. Do not infer immediate transfer or uninterrupted command."
+    }
+  ],
+  "claims": [
+    {
+      "key": "army-identity-1-b402",
+      "person_id": "ab682014-4481-5aeb-82da-5f97fe88b403",
+      "claim_type": "identity",
+      "claim_text": "The indexed Harry D Chauvin is linked with high confidence to an Army record under Harry D. Chauvin.",
+      "evidence_paraphrase": "An exact private service-identifier match and compatible name support the linkage.",
+      "identity_match_assessment": "Unique exact private identifier plus compatible name; not a name-only match.",
+      "temporal_assessment": "November 21, 1946. The matched entry is postwar; it establishes neither a pre-OSS occupation nor an OSS rank.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The index remains independently recoverable; no unsupported employer, service grade, or namesake career is assigned.",
+      "sources": [
+        {
+          "source_key": "index-b402",
+          "locator_override": "PDF page 78 row 13, Box 120; private identifier withheld"
+        },
+        {
+          "source_key": "army-b402",
+          "locator_override": "Harry D. Chauvin; November 21, 1946; exact private identifier withheld"
+        },
+        {
+          "source_key": "basic-b402",
+          "support_type": "context_only",
+          "locator_override": "Physical pages 44-45; date field columns 42-47"
+        }
+      ]
+    },
+    {
+      "key": "army-identity-2-b402",
+      "person_id": "5ed618ea-3fd5-59e9-ae65-19e324758389",
+      "claim_type": "identity",
+      "claim_text": "The indexed Albert Chavez is linked with high confidence to an Army record under Albert Chavez.",
+      "evidence_paraphrase": "An exact private service-identifier match and compatible name support the linkage.",
+      "identity_match_assessment": "Unique exact private identifier plus compatible name; not a name-only match.",
+      "temporal_assessment": "June 1, 1943. The private identifier distinguishes this record from three other exact-name Army candidates. Occupation value 345 is left uninterpreted.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The index remains independently recoverable; no unsupported employer, service grade, or namesake career is assigned.",
+      "sources": [
+        {
+          "source_key": "index-b402",
+          "locator_override": "PDF page 78 row 14, Box 120; private identifier withheld"
+        },
+        {
+          "source_key": "army-b402",
+          "locator_override": "Albert Chavez; June 1, 1943; exact private identifier withheld"
+        },
+        {
+          "source_key": "basic-b402",
+          "support_type": "context_only",
+          "locator_override": "Physical pages 44-45; date field columns 42-47"
+        }
+      ]
+    },
+    {
+      "key": "army-identity-7-b402",
+      "person_id": "d183b618-59e9-5a78-a55c-e4ff5292df3f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Lloyd Cheek is linked with high confidence to an Army record under Lloyd J. Cheek.",
+      "evidence_paraphrase": "An exact private service-identifier match and compatible name support the linkage.",
+      "identity_match_assessment": "Unique exact private identifier plus compatible name; not a name-only match.",
+      "temporal_assessment": "July 29, 1943. The middle initial is a compatible variant, not a correction to the index. Occupation value 590 is left uninterpreted.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The index remains independently recoverable; no unsupported employer, service grade, or namesake career is assigned.",
+      "sources": [
+        {
+          "source_key": "index-b402",
+          "locator_override": "PDF page 78 row 19, Box 120; private identifier withheld"
+        },
+        {
+          "source_key": "army-b402",
+          "locator_override": "Lloyd J. Cheek; July 29, 1943; exact private identifier withheld"
+        },
+        {
+          "source_key": "basic-b402",
+          "support_type": "context_only",
+          "locator_override": "Physical pages 44-45; date field columns 42-47"
+        }
+      ]
+    },
+    {
+      "key": "cheek-identity-b402",
+      "person_id": "46cc3ed9-c738-5649-93c1-48994390bd94",
+      "claim_type": "identity",
+      "claim_text": "The index is linked with high confidence to the junior Leslie Cheek described by the Library of Virginia.",
+      "evidence_paraphrase": "The institutional biography explicitly identifies the junior namesake and OSS service in 1945.",
+      "identity_match_assessment": "Distinctive name, explicit junior suffix and specific OSS chronology; exceptionally specific institutional source, not solely a famous-name match. Private identifier not independently corroborated.",
+      "temporal_assessment": "The biography distinguishes wartime work from later museum appointments.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The index remains independently recoverable; no unsupported employer, service grade, or namesake career is assigned.",
+      "sources": [
+        {
+          "source_key": "index-b402",
+          "locator_override": "Page 78 row 20; both name cells print Jr."
+        },
+        {
+          "source_key": "lva-cheek-b402",
+          "locator_override": "Arts Educator and Arts Administrator"
+        }
+      ]
+    },
+    {
+      "key": "cheek-bma-claim-b402",
+      "person_id": "46cc3ed9-c738-5649-93c1-48994390bd94",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Cheek's last documented civilian employer before wartime government work was the Baltimore Museum of Art.",
+      "evidence_paraphrase": "He resigned the directorship to take up work at the Army school.",
+      "identity_match_assessment": "High-confidence linkage as assessed in the separate identity claim.",
+      "temporal_assessment": "Explicit civilian-to-wartime-work transition; not an immediate transfer to OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The index remains independently recoverable; no unsupported employer, service grade, or namesake career is assigned.",
+      "sources": [
+        {
+          "source_key": "lva-cheek-b402",
+          "locator_override": "Arts Administrator"
+        }
+      ],
+      "affiliation_key": "cheek-bma-b402"
+    },
+    {
+      "key": "cheek-wm-claim-b402",
+      "person_id": "46cc3ed9-c738-5649-93c1-48994390bd94",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Cheek earlier taught fine arts and chaired the department at the College of William and Mary.",
+      "evidence_paraphrase": "Teaching and chairmanship are employment, not alumni affiliations.",
+      "identity_match_assessment": "High-confidence linkage as assessed in the separate identity claim.",
+      "temporal_assessment": "Earlier pre-OSS employment, followed by a different civilian employer.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The index remains independently recoverable; no unsupported employer, service grade, or namesake career is assigned.",
+      "sources": [
+        {
+          "source_key": "lva-cheek-b402",
+          "locator_override": "Arts Educator"
+        }
+      ],
+      "affiliation_key": "cheek-wm-b402"
+    },
+    {
+      "key": "cheek-school-claim-b402",
+      "person_id": "46cc3ed9-c738-5649-93c1-48994390bd94",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Cheek worked for the Army Corps of Engineers camouflage school at Fort Belvoir before his documented OSS service.",
+      "evidence_paraphrase": "The institutional chronology distinguishes the Army-school work from OSS work.",
+      "identity_match_assessment": "High-confidence linkage as assessed in the separate identity claim.",
+      "temporal_assessment": "Earlier wartime government assignment; exact end date and immediacy remain unproved.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The index remains independently recoverable; no unsupported employer, service grade, or namesake career is assigned.",
+      "sources": [
+        {
+          "source_key": "lva-cheek-b402",
+          "locator_override": "Arts Administrator"
+        }
+      ],
+      "affiliation_key": "cheek-school-b402"
+    },
+    {
+      "key": "cheever-identity-b402",
+      "person_id": "eaf8432d-7c3b-5e66-b131-2c2c0c7d9f7f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Bruce B Cheever is linked with high confidence to Marine Major Bruce B. Cheever, commanding an OSS parachute training unit in England by early 1944.",
+      "evidence_paraphrase": "Mattingly identifies the officer in the narrative and an OSS Marine roster.",
+      "identity_match_assessment": "Distinctive full indexed name and middle initial, explicit OSS service, and a specific Marine parachute command corroborated by Johnstone; private identifier not independently matched.",
+      "temporal_assessment": "The major rank is documented during OSS service, not extrapolated from a prewar entry.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The index remains independently recoverable; no unsupported employer, service grade, or namesake career is assigned.",
+      "sources": [
+        {
+          "source_key": "index-b402",
+          "locator_override": "Page 78 row 21; printed rank blank"
+        },
+        {
+          "source_key": "mattingly-b402",
+          "locator_override": "Printed pages 139 and 313; physical pages 163 and 341"
+        },
+        {
+          "source_key": "johnstone-b402",
+          "support_type": "context_only",
+          "locator_override": "Appendix A; New River command table"
+        }
+      ]
+    },
+    {
+      "key": "cheever-unit-claim-b402",
+      "person_id": "eaf8432d-7c3b-5e66-b131-2c2c0c7d9f7f",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Cheever held intermittent command of the Marine Parachute Battalion at New River in early 1943; its timing relative to the beginning of his OSS service remains uncertain.",
+      "evidence_paraphrase": "Johnstone lists seven separate intervals, alternating with other officers; the final interval ends May 5, 1943.",
+      "identity_match_assessment": "Matching distinctive name, initial, branch and parachute specialization; high-confidence identity, qualified temporal claim.",
+      "temporal_assessment": "The observed OSS command dates to early 1944, but no reviewed transfer order establishes when OSS service began. Not an immediate affiliation.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The index remains independently recoverable; no unsupported employer, service grade, or namesake career is assigned.",
+      "sources": [
+        {
+          "source_key": "johnstone-b402",
+          "locator_override": "Appendix A, Parachute Battalion, New River; January-May 1943"
+        },
+        {
+          "source_key": "mattingly-b402",
+          "support_type": "context_only",
+          "locator_override": "Printed page 139; early 1944 OSS command"
+        }
+      ],
+      "affiliation_key": "cheever-new-river-b402"
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "83fbb728-78d5-5937-8bff-05a2e9d52d71",
+      "identity_status": "unresolved",
+      "identity_evidence": "The source row and bounded public searches do not establish an external identity. Katherine T. Chaudet lacks the indexed middle initial and an OSS link; modern namesakes are irrelevant.",
+      "name_variants": [
+        "Catherine Chaudet"
+      ],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 120 for full middle name, wartime locality, job history and a corroborating identifier. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ab682014-4481-5aeb-82da-5f97fe88b403",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact private-identifier Army match. The entry is dated after the war, so its grade and occupation value cannot establish a pre-OSS pathway.",
+      "name_variants": [
+        "Harry D. Chauvin"
+      ],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 120 for OSS dates and last civilian employer; do not use the 1946 Army entry as a pre-OSS record. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5ed618ea-3fd5-59e9-ae65-19e324758389",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact private-identifier Army match selects one of four exact-name candidates. Grade text 7VT is not silently repaired; occupation 345 is not decoded from an adjacent code.",
+      "name_variants": [
+        "Albert Chavez"
+      ],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 120 and the underlying Army card or applicable historical manual to interpret occupation 345 and establish employer and OSS chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f0f65160-fc7a-5a54-a723-7aea9ae853a1",
+      "identity_status": "unresolved",
+      "identity_evidence": "No corroborated external identity. Abram Chayes, Antonia Chayes and Aaron Hayes are not assigned to the indexed Aaron H Chayes.",
+      "name_variants": [
+        "Aaron H. Chayes"
+      ],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 120 for the complete name, a service identifier and employment chronology; treat Hayes only as a search alias. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a93259a6-252b-5580-b01d-d84a5f4a43c1",
+      "identity_status": "unresolved",
+      "identity_evidence": "No corroborated external identity from exact-name, OSS, employment/obituary and institutional checks. Unrelated modern and nineteenth-century Cheatham records are rejected.",
+      "name_variants": [
+        "Louis C. Cheatham"
+      ],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 120 for a corroborating identifier, military or civilian status, and dated civilian employment. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ba6b4769-c7f1-5ad4-a540-1186602077e8",
+      "identity_status": "unresolved",
+      "identity_evidence": "The Walter Chechot musician lead lacks a reviewed original page, the middle W and an OSS bridge. No employer is inferred from a spouse's orchestra or an unsourced genealogy entry.",
+      "name_variants": [
+        "Walter W. Chechot"
+      ],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 120 for full identity and pre-OSS employment before linking the 1940 musician lead; consult the original newspaper if accessible. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "adccb97e-8d3e-5f93-a783-f4f200f35e8a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The NSA Friedman search lead is a January 1948 personnel agenda, not pre-OSS evidence; its original page was inaccessible. A cemetery transcription is insufficient for identity, and modern namesakes are rejected.",
+      "name_variants": [
+        "Abraham Checkoway"
+      ],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 120 for full identity and pre-OSS chronology before relating the postwar NSA agenda or cemetery lead. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d183b618-59e9-5a78-a55c-e4ff5292df3f",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact private-identifier Army match supports Lloyd J. Cheek as a documented variant. Occupation 590 is not defined by the reviewed compiled list; the NCSU McForrest candidate is not assigned.",
+      "name_variants": [
+        "Lloyd J. Cheek"
+      ],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 120 and the underlying Army card or applicable historical manual to interpret occupation 590 and establish the employer and OSS start. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "46cc3ed9-c738-5649-93c1-48994390bd94",
+      "identity_status": "high_confidence",
+      "identity_evidence": "High-confidence institutional linkage as documented in the cited identity claim. The normalized display removes a repeated suffix through a separate guarded review decision; both printed name cells remain unchanged. The father's business, education-only institutions and later careers are not assigned as employers.",
+      "name_variants": [
+        "Leslie Cheek Jr.",
+        "Leslie Cheek"
+      ],
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 120 for the exact transition from Army-school work to OSS and the appointment's military/civilian status. Museum employment is documented; immediate pre-OSS affiliation is not.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "eaf8432d-7c3b-5e66-b131-2c2c0c7d9f7f",
+      "identity_status": "high_confidence",
+      "identity_evidence": "High-confidence Marine/OSS linkage with a dated major rank. Johnstone supports intermittent unit command, not an uninterrupted tenure or a documented transfer to OSS. The possible University of Washington/model-railroad namesake remains unlinked.",
+      "name_variants": [
+        "Bruce B. Cheever"
+      ],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 120 or Marine orders for the actual OSS transfer date, intervening units and last civilian employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "commissioned_marine_corps_officer",
+      "commissioned_officer": true
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b402-person-1-review",
+      "person_id": "83fbb728-78d5-5937-8bff-05a2e9d52d71",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA personnel index context and transient official Army bulk comparison; \"Catherine L Chaudet\" OSS; \"Catherine Chaudet\" site:cia.gov; \"Catherine Chaudet\" obituary; \"Catherine L Chaudet\" site:loc.gov; \"Catherine Chaudet\" 1940; \"Catherine Chaudet\" OSS secretary",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T05:27:08+00:00",
+      "completed_at": "2026-09-04T07:01:17+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "The source row and bounded public searches do not establish an external identity. Katherine T. Chaudet lacks the indexed middle initial and an OSS link; modern namesakes are irrelevant.",
+      "research_notes": "Individual disposition after the saved Batch 402 search checkpoint and complete index-page inspection. Sources reviewed counts include the index and transient official Army comparison; discovery-only snippets and failed opens are not counted as reviewed documents. Rejection counts are zero because a reliable number of distinct rejected source documents was not retained; qualitative rejection reasons are preserved. The source row and bounded public searches do not establish an external identity. Katherine T. Chaudet lacks the indexed middle initial and an OSS link; modern namesakes are irrelevant. This is a bounded archival disposition, not a claim that every accessible source has been exhausted. No authenticated NARA API call or raw API payload. The start timestamp is the saved discovery-checkpoint commit time, not an exact timestamp for the first query; completion records the adjudication checkpoint.",
+      "next_action": "Review Box 120 for full middle name, wartime locality, job history and a corroborating identifier.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch402-v1"
+    },
+    {
+      "key": "b402-person-2-review",
+      "person_id": "ab682014-4481-5aeb-82da-5f97fe88b403",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA personnel index context and transient official Army bulk comparison; \"Harry D Chauvin\" OSS; \"Harry Chauvin\" site:cia.gov; \"Harry Chauvin\" Army 1940; \"Harry D. Chauvin\" occupation; \"Harry Chauvin\" obituary 1920; \"Harry Chauvin\" site:loc.gov",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T05:27:08+00:00",
+      "completed_at": "2026-09-04T07:01:17+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Exact private-identifier Army match. The entry is dated after the war, so its grade and occupation value cannot establish a pre-OSS pathway.",
+      "research_notes": "Individual disposition after the saved Batch 402 search checkpoint and complete index-page inspection. Sources reviewed counts include the index and transient official Army comparison; discovery-only snippets and failed opens are not counted as reviewed documents. Rejection counts are zero because a reliable number of distinct rejected source documents was not retained; qualitative rejection reasons are preserved. Exact private-identifier Army match. The entry is dated after the war, so its grade and occupation value cannot establish a pre-OSS pathway. This is a bounded archival disposition, not a claim that every accessible source has been exhausted. No authenticated NARA API call or raw API payload. The start timestamp is the saved discovery-checkpoint commit time, not an exact timestamp for the first query; completion records the adjudication checkpoint.",
+      "next_action": "Review Box 120 for OSS dates and last civilian employer; do not use the 1946 Army entry as a pre-OSS record.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch402-v1"
+    },
+    {
+      "key": "b402-person-3-review",
+      "person_id": "5ed618ea-3fd5-59e9-ae65-19e324758389",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA personnel index context and transient official Army bulk comparison; \"Albert Chavez\" OSS; \"Albert Chavez\" \"Office of Strategic Services\"; \"Albert Chavez\" site:cia.gov OSS; \"Albert Chavez\" OSS employment; \"Albert Chavez\" 1924 OSS",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T05:27:08+00:00",
+      "completed_at": "2026-09-04T07:01:17+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Exact private-identifier Army match selects one of four exact-name candidates. Grade text 7VT is not silently repaired; occupation 345 is not decoded from an adjacent code.",
+      "research_notes": "Individual disposition after the saved Batch 402 search checkpoint and complete index-page inspection. Sources reviewed counts include the index and transient official Army comparison; discovery-only snippets and failed opens are not counted as reviewed documents. Rejection counts are zero because a reliable number of distinct rejected source documents was not retained; qualitative rejection reasons are preserved. Exact private-identifier Army match selects one of four exact-name candidates. Grade text 7VT is not silently repaired; occupation 345 is not decoded from an adjacent code. This is a bounded archival disposition, not a claim that every accessible source has been exhausted. No authenticated NARA API call or raw API payload. The start timestamp is the saved discovery-checkpoint commit time, not an exact timestamp for the first query; completion records the adjudication checkpoint.",
+      "next_action": "Review Box 120 and the underlying Army card or applicable historical manual to interpret occupation 345 and establish employer and OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch402-v1"
+    },
+    {
+      "key": "b402-person-4-review",
+      "person_id": "f0f65160-fc7a-5a54-a723-7aea9ae853a1",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA personnel index context and transient official Army bulk comparison; \"Aaron H Chayes\" OSS; Aaron Chayes site:cia.gov; \"Aaron H. Chayes\" biography; \"Aaron Chayes\" occupation obituary; \"Aaron Chayes\" site:archives.gov; \"Aaron Chayes\" site:loc.gov; \"Aaron H. Chayes\" Hayes; \"Aaron Hayes\" OSS (search alias only)",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T05:27:08+00:00",
+      "completed_at": "2026-09-04T07:01:17+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "No corroborated external identity. Abram Chayes, Antonia Chayes and Aaron Hayes are not assigned to the indexed Aaron H Chayes.",
+      "research_notes": "Individual disposition after the saved Batch 402 search checkpoint and complete index-page inspection. Sources reviewed counts include the index and transient official Army comparison; discovery-only snippets and failed opens are not counted as reviewed documents. Rejection counts are zero because a reliable number of distinct rejected source documents was not retained; qualitative rejection reasons are preserved. No corroborated external identity. Abram Chayes, Antonia Chayes and Aaron Hayes are not assigned to the indexed Aaron H Chayes. This is a bounded archival disposition, not a claim that every accessible source has been exhausted. No authenticated NARA API call or raw API payload. The start timestamp is the saved discovery-checkpoint commit time, not an exact timestamp for the first query; completion records the adjudication checkpoint.",
+      "next_action": "Review Box 120 for the complete name, a service identifier and employment chronology; treat Hayes only as a search alias.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch402-v1"
+    },
+    {
+      "key": "b402-person-5-review",
+      "person_id": "a93259a6-252b-5580-b01d-d84a5f4a43c1",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA personnel index context and transient official Army bulk comparison; \"Louis C Cheatham\" OSS; \"Louis Cheatham\" site:cia.gov; \"Louis C. Cheatham\" obituary; \"Louis Cheatham\" occupation 1940; \"Louis Cheatham\" site:loc.gov; \"Louis C Cheatham\" \"Office of Strategic Services\"",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T05:27:08+00:00",
+      "completed_at": "2026-09-04T07:01:17+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "No corroborated external identity from exact-name, OSS, employment/obituary and institutional checks. Unrelated modern and nineteenth-century Cheatham records are rejected.",
+      "research_notes": "Individual disposition after the saved Batch 402 search checkpoint and complete index-page inspection. Sources reviewed counts include the index and transient official Army comparison; discovery-only snippets and failed opens are not counted as reviewed documents. Rejection counts are zero because a reliable number of distinct rejected source documents was not retained; qualitative rejection reasons are preserved. No corroborated external identity from exact-name, OSS, employment/obituary and institutional checks. Unrelated modern and nineteenth-century Cheatham records are rejected. This is a bounded archival disposition, not a claim that every accessible source has been exhausted. No authenticated NARA API call or raw API payload. The start timestamp is the saved discovery-checkpoint commit time, not an exact timestamp for the first query; completion records the adjudication checkpoint.",
+      "next_action": "Review Box 120 for a corroborating identifier, military or civilian status, and dated civilian employment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch402-v1"
+    },
+    {
+      "key": "b402-person-6-review",
+      "person_id": "ba6b4769-c7f1-5ad4-a540-1186602077e8",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA personnel index context and transient official Army bulk comparison; \"Walter W Chechot\" OSS; \"Walter Chechot\" site:cia.gov; \"Walter Chechot\" biography; \"Walter W Chechot\" newspaper; \"Walter Chechot\" \"Office of Strategic Services\"; \"Walter Chechot\" site:loc.gov; \"Walter Chechot\" musician",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T05:27:08+00:00",
+      "completed_at": "2026-09-04T07:01:17+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "The Walter Chechot musician lead lacks a reviewed original page, the middle W and an OSS bridge. No employer is inferred from a spouse's orchestra or an unsourced genealogy entry.",
+      "research_notes": "Individual disposition after the saved Batch 402 search checkpoint and complete index-page inspection. Sources reviewed counts include the index and transient official Army comparison; discovery-only snippets and failed opens are not counted as reviewed documents. Rejection counts are zero because a reliable number of distinct rejected source documents was not retained; qualitative rejection reasons are preserved. The Walter Chechot musician lead lacks a reviewed original page, the middle W and an OSS bridge. No employer is inferred from a spouse's orchestra or an unsourced genealogy entry. This is a bounded archival disposition, not a claim that every accessible source has been exhausted. No authenticated NARA API call or raw API payload. The start timestamp is the saved discovery-checkpoint commit time, not an exact timestamp for the first query; completion records the adjudication checkpoint.",
+      "next_action": "Review Box 120 for full identity and pre-OSS employment before linking the 1940 musician lead; consult the original newspaper if accessible.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch402-v1"
+    },
+    {
+      "key": "b402-person-7-review",
+      "person_id": "adccb97e-8d3e-5f93-a783-f4f200f35e8a",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA personnel index context and transient official Army bulk comparison; \"Abraham Checkoway\" OSS; \"Abraham Checkoway\" site:cia.gov; \"Abraham Checkoway\" FCC; \"Abraham Checkoway\" occupation newspaper; \"Abraham Checkoway\" Radio Intelligence; \"Abraham Checkoway\" \"Office of Strategic Services\"",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T05:27:08+00:00",
+      "completed_at": "2026-09-04T07:01:17+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "The NSA Friedman search lead is a January 1948 personnel agenda, not pre-OSS evidence; its original page was inaccessible. A cemetery transcription is insufficient for identity, and modern namesakes are rejected.",
+      "research_notes": "Individual disposition after the saved Batch 402 search checkpoint and complete index-page inspection. Sources reviewed counts include the index and transient official Army comparison; discovery-only snippets and failed opens are not counted as reviewed documents. Rejection counts are zero because a reliable number of distinct rejected source documents was not retained; qualitative rejection reasons are preserved. The NSA Friedman search lead is a January 1948 personnel agenda, not pre-OSS evidence; its original page was inaccessible. A cemetery transcription is insufficient for identity, and modern namesakes are rejected. This is a bounded archival disposition, not a claim that every accessible source has been exhausted. No authenticated NARA API call or raw API payload. The start timestamp is the saved discovery-checkpoint commit time, not an exact timestamp for the first query; completion records the adjudication checkpoint.",
+      "next_action": "Review Box 120 for full identity and pre-OSS chronology before relating the postwar NSA agenda or cemetery lead.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch402-v1"
+    },
+    {
+      "key": "b402-person-8-review",
+      "person_id": "d183b618-59e9-5a78-a55c-e4ff5292df3f",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA personnel index context and transient official Army bulk comparison; \"Lloyd Cheek\" OSS; \"Lloyd Cheek\" site:cia.gov; \"Lloyd J Cheek\" occupation obituary; NCSU Lloyd McForrest Cheek discovery",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T05:27:08+00:00",
+      "completed_at": "2026-09-04T07:01:17+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Exact private-identifier Army match supports Lloyd J. Cheek as a documented variant. Occupation 590 is not defined by the reviewed compiled list; the NCSU McForrest candidate is not assigned.",
+      "research_notes": "Individual disposition after the saved Batch 402 search checkpoint and complete index-page inspection. Sources reviewed counts include the index and transient official Army comparison; discovery-only snippets and failed opens are not counted as reviewed documents. Rejection counts are zero because a reliable number of distinct rejected source documents was not retained; qualitative rejection reasons are preserved. Exact private-identifier Army match supports Lloyd J. Cheek as a documented variant. Occupation 590 is not defined by the reviewed compiled list; the NCSU McForrest candidate is not assigned. This is a bounded archival disposition, not a claim that every accessible source has been exhausted. No authenticated NARA API call or raw API payload. The start timestamp is the saved discovery-checkpoint commit time, not an exact timestamp for the first query; completion records the adjudication checkpoint.",
+      "next_action": "Review Box 120 and the underlying Army card or applicable historical manual to interpret occupation 590 and establish the employer and OSS start.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch402-v1"
+    },
+    {
+      "key": "b402-person-9-review",
+      "person_id": "46cc3ed9-c738-5649-93c1-48994390bd94",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA personnel index context and transient official Army bulk comparison; \"Leslie Cheek\" OSS; \"Leslie Cheek\" site:cia.gov; \"Leslie Cheek\" war museum 1942; \"Leslie Cheek\" Strategic; \"Leslie Cheek\" 1942 site:artbma.org; \"Leslie Cheek\" camouflage OSS; \"Leslie Cheek\" \"Office of Strategic Services\" site:wm.edu",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T05:27:08+00:00",
+      "completed_at": "2026-09-04T07:01:17+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "High-confidence institutional linkage as documented in the cited identity claim. The normalized display removes a repeated suffix through a separate guarded review decision; both printed name cells remain unchanged. The father's business, education-only institutions and later careers are not assigned as employers.",
+      "research_notes": "Individual disposition after the saved Batch 402 search checkpoint and complete index-page inspection. Sources reviewed counts include the index and transient official Army comparison; discovery-only snippets and failed opens are not counted as reviewed documents. Rejection counts are zero because a reliable number of distinct rejected source documents was not retained; qualitative rejection reasons are preserved. LVA page and byline reviewed; Smithsonian request rejection respected and BMA finding-aid access failure recorded. This is a bounded archival disposition, not a claim that every accessible source has been exhausted. No authenticated NARA API call or raw API payload. The start timestamp is the saved discovery-checkpoint commit time, not an exact timestamp for the first query; completion records the adjudication checkpoint.",
+      "next_action": "Review Box 120 for the exact transition from Army-school work to OSS and the appointment's military/civilian status. Museum employment is documented; immediate pre-OSS affiliation is not.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch402-v1"
+    },
+    {
+      "key": "b402-person-10-review",
+      "person_id": "eaf8432d-7c3b-5e66-b131-2c2c0c7d9f7f",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA personnel index context and transient official Army bulk comparison; \"Bruce B Cheever\" OSS; \"Bruce Cheever\" site:cia.gov OSS; \"Bruce B. Cheever\" biography 1940; \"Bruce Cheever\" marines 1941; Parachute Training School Cheever; Parachute Units Cheever site:usmcu.edu; \"Bruce Cheever\" 1943 Marine; \"Bruce B. Cheever\" OSS 1943",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T05:27:08+00:00",
+      "completed_at": "2026-09-04T07:01:17+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "High-confidence Marine/OSS linkage with a dated major rank. Johnstone supports intermittent unit command, not an uninterrupted tenure or a documented transfer to OSS. The possible University of Washington/model-railroad namesake remains unlinked.",
+      "research_notes": "Individual disposition after the saved Batch 402 search checkpoint and complete index-page inspection. Sources reviewed counts include the index and transient official Army comparison; discovery-only snippets and failed opens are not counted as reviewed documents. Rejection counts are zero because a reliable number of distinct rejected source documents was not retained; qualitative rejection reasons are preserved. Mattingly's complete relevant pages were visually read in the browser; Johnstone's complete table was read in HTML. Temporal relation remains qualified. This is a bounded archival disposition, not a claim that every accessible source has been exhausted. No authenticated NARA API call or raw API payload. The start timestamp is the saved discovery-checkpoint commit time, not an exact timestamp for the first query; completion records the adjudication checkpoint.",
+      "next_action": "Review Box 120 or Marine orders for the actual OSS transfer date, intervening units and last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch402-v1"
+    }
+  ]
+}

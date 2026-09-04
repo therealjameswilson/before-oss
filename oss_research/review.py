@@ -8,6 +8,7 @@ from pathlib import Path
 
 from .constants import NAMESPACE_GENERIC
 from .db import utc_now
+from .normalize import clean, name_key
 
 GENERIC_NAMESPACE = uuid.UUID(NAMESPACE_GENERIC)
 RESEARCH_STATUSES = {
@@ -473,6 +474,40 @@ def import_review_decisions(
                 )
                 applied += cursor.rowcount
             elif values["target_type"] == "person_entity":
+                if values["decision"].startswith("display_name:"):
+                    # A guarded editorial correction changes only the entity's
+                    # presentation. Printed source fields and identity stay put.
+                    correction = json.loads(values["decision"][len("display_name:"):])
+                    if not isinstance(correction, dict) or set(correction) != {
+                        "expected", "replacement"
+                    } or any(
+                        not isinstance(value, str) or not clean(value)
+                        for value in correction.values()
+                    ):
+                        raise ValueError("Display correction needs expected and replacement names.")
+                    replacement = clean(correction["replacement"])
+                    current = connection.execute(
+                        "SELECT display_name, name_variants_json FROM person_entities WHERE person_id=?",
+                        (values["target_id"],),
+                    ).fetchone()
+                    if current is None or current["display_name"] not in {
+                        correction["expected"], replacement
+                    }:
+                        raise ValueError("Display correction target does not match its expected name.")
+                    variants = sorted(
+                        {*json.loads(current["name_variants_json"] or "[]"),
+                         correction["expected"], replacement},
+                        key=lambda value: (value.casefold(), value),
+                    )
+                    if current["display_name"] != replacement:
+                        connection.execute(
+                            """UPDATE person_entities SET display_name=?, normalized_name=?,
+                               name_variants_json=?, updated_at=? WHERE person_id=?""",
+                            (replacement, name_key(replacement), json.dumps(variants, ensure_ascii=False),
+                             utc_now(), values["target_id"]),
+                        )
+                        applied += 1
+                    continue
                 prefix = "merge_into:"
                 if not values["decision"].startswith(prefix):
                     raise ValueError(

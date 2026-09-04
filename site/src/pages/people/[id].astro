@@ -142,6 +142,7 @@ const affiliationLabel = (item: Affiliation) =>
                   </h3>
                   <p>{item.role_title ?? item.occupation ?? item.relationship_type}</p>
                   <p class="citation-meta">{affiliationMeta(item)}</p>
+                  {item.date_precision && <p class="citation-meta">{item.date_precision}</p>}
                   <p>
                     <Badge value={item.claim_confidence} />
                     {" "}
@@ -176,6 +177,7 @@ const affiliationLabel = (item: Affiliation) =>
                   </h3>
                   <p>{item.role_title ?? item.occupation ?? "Employment"}</p>
                   <p class="citation-meta">{affiliationMeta(item)}</p>
+                  {item.date_precision && <p class="citation-meta">{item.date_precision}</p>}
                   <p>
                     <Badge value={item.claim_confidence} />
                     {" "}

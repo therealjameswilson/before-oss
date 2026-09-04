@@ -37,6 +37,14 @@ python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
 
+Reviewed presentation corrections use `target_type=person_entity` and a
+`decision` beginning `display_name:` followed by a JSON object containing
+`expected` and `replacement` names. The importer fails if the current name
+is neither the expected old value nor the already-applied replacement. It
+records the reviewer and rationale, preserves the original as a search alias,
+and changes neither raw index fields nor identity confidence. Replay CSVs
+belong in `research/*_review_decisions_*.csv`; never edit generated profiles.
+
 Candidate decisions may be `plausible`, `probable`, `accepted`, `rejected`, or
 `conflicting`. Research-status decisions must use the controlled values in
 `DATA_DICTIONARY.md` and the database schema.
