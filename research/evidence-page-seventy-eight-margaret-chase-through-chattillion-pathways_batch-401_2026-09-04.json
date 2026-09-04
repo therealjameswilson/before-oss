@@ -1,0 +1,458 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Codex archival research review, Batch 401, 2026-09-04; cautious identity and date-bounded occupational evidence",
+  "sources": [
+    {
+      "repository_publisher": "National Archives and Records Administration",
+      "source_quality": "A_direct_official",
+      "author_creator": "National Archives and Records Administration",
+      "access_date": "2026-09-04",
+      "rights_notes": "Official public records; only stable pointers and concise project-authored assessments are retained in this bundle. No full service identifiers or raw bulk rows are republished.",
+      "key": "nara-oss-index-page78-batch401",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226, Entry A1-224; PDF page 78 rows 2-11, visually inspected; Boxes 119-120, locations 230/86/28/05 and 230/86/28/06"
+    },
+    {
+      "repository_publisher": "National Archives and Records Administration",
+      "source_quality": "A_direct_official",
+      "author_creator": "National Archives and Records Administration",
+      "access_date": "2026-09-04",
+      "rights_notes": "Official public records; only stable pointers and concise project-authored assessments are retained in this bundle. No full service identifiers or raw bulk rows are republished.",
+      "key": "nara-army-merged-file-batch401",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "publication_record_date": "1938-1946; merged 2002",
+      "locator": "Series NAID 604357; file NAID 1263923, ASNEF.FIN.DAT; all 9,200,232 rows examined transiently, one exact identifier match; no raw rows or full identifiers retained"
+    },
+    {
+      "repository_publisher": "National Archives and Records Administration",
+      "source_quality": "A_direct_official",
+      "author_creator": "National Archives and Records Administration",
+      "access_date": "2026-09-04",
+      "rights_notes": "Official public records; only stable pointers and concise project-authored assessments are retained in this bundle. No full service identifiers or raw bulk rows are republished.",
+      "key": "nara-army-basic-documentation-batch401",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "Physical PDF pages 44-45, reference-copy pages 40-41, visually reviewed; field layout and alternate-card limitations"
+    },
+    {
+      "repository_publisher": "National Archives and Records Administration",
+      "source_quality": "A_direct_official",
+      "author_creator": "National Archives and Records Administration",
+      "access_date": "2026-09-04",
+      "rights_notes": "Official public records; only stable pointers and concise project-authored assessments are retained in this bundle. No full service identifiers or raw bulk rows are republished.",
+      "key": "nara-army-codes-batch401",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "Code No. 30; physical PDF page 172, printed XII; value 2-21 visually reviewed"
+    },
+    {
+      "key": "hagley-calendar-discovery-batch401",
+      "stable_url": "https://www.hagley.org/research/news/hagley-vault/second-monday-january-national-clean-your",
+      "title": "The second Monday in January is National Clean Off Your...",
+      "repository_publisher": "Hagley Museum and Library",
+      "publication_record_date": "2021-01-11",
+      "access_date": "2026-09-04",
+      "source_quality": "B_authoritative_institutional",
+      "locator": "Opening paragraph; same-name postwar calendar founder only; no accepted identity or pre-OSS claim",
+      "rights_notes": "Citation and project-authored rejection note only; no complete page copied."
+    },
+    {
+      "key": "tulare-obituary-index-discovery-batch401",
+      "stable_url": "https://www.cagenweb.org/tulare/obits/tcobitccn.htm",
+      "title": "Tulare County Obituary Index - C - Cn",
+      "repository_publisher": "CAGenWeb, Tulare County",
+      "access_date": "2026-09-04",
+      "source_quality": "E_discovery_only",
+      "locator": "Chastain, Fred A., age 81; May 7, 1984, newspaper code VTD; index only, original obituary not inspected",
+      "rights_notes": "Citation and project-authored rejection note only; not final employment evidence."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "rene-chatellier-occupation-batch401",
+      "person_id": "839ae1ff-71f1-577e-b54b-21c572f61f9c",
+      "occupation": "Bartenders",
+      "relationship_type": "unknown",
+      "end_date": "1944-03-21",
+      "date_precision": "Occupation recorded at Army entry on March 21, 1944. Employment dates and timing relative to OSS service are not established.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Code 221 denotes an occupation, not a named establishment or self-employment. Do not infer OSS rank from the PVT Army-entry grade."
+    }
+  ],
+  "claims": [
+    {
+      "key": "rene-chatellier-identity-batch401",
+      "person_id": "839ae1ff-71f1-577e-b54b-21c572f61f9c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Rene Chatellier is linked with high confidence to an Army record under Rene A. Chatellier.",
+      "evidence_paraphrase": "The official records share an exact private identifier and compatible given name and surname. The Army record adds a middle initial.",
+      "identity_match_assessment": "High confidence from the unique exact private-identifier match and compatible name; the index itself has no middle initial.",
+      "temporal_assessment": "The Army entry dates to March 21, 1944. Neither OSS entry nor the rank held during OSS service is established by it.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Preserve the index name and blank rank. The Army PVT grade is dated evidence, not a determination of commissioned status throughout OSS service.",
+      "sources": [
+        {
+          "source_key": "nara-oss-index-page78-batch401",
+          "support_type": "supports",
+          "locator_override": "PDF page 78 row 9, Box 120; private identifier withheld"
+        },
+        {
+          "source_key": "nara-army-merged-file-batch401",
+          "support_type": "supports",
+          "locator_override": "Rene A. Chatellier; exact private-identifier match, March 21, 1944; identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "rene-chatellier-occupation-claim-batch401",
+      "person_id": "839ae1ff-71f1-577e-b54b-21c572f61f9c",
+      "affiliation_key": "rene-chatellier-occupation-batch401",
+      "claim_type": "occupation",
+      "claim_text": "An identifier-matched Army entry records the occupation Bartenders; its timing relative to OSS service is unresolved.",
+      "evidence_paraphrase": "The March 21, 1944 entry contains civilian-occupation value 221. The official code list defines 2-21 as Bartenders.",
+      "identity_match_assessment": "High-confidence exact private-identifier linkage to Rene A. Chatellier; surname and given name are compatible with the index.",
+      "temporal_assessment": "An occupation observed at Army entry only. No employment start or end date, immediate pre-OSS affiliation, or last civilian employer is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No named establishment, nationality, or self-employment arrangement is inferred. The source's transcription and alternate-card limitations remain applicable.",
+      "sources": [
+        {
+          "source_key": "nara-army-merged-file-batch401",
+          "support_type": "supports",
+          "locator_override": "Rene A. Chatellier; March 21, 1944; civilian occupation 221; identifier withheld"
+        },
+        {
+          "source_key": "nara-army-basic-documentation-batch401",
+          "support_type": "supports",
+          "locator_override": "Physical PDF pages 44-45; date in columns 42-47 and occupation in columns 70-72"
+        },
+        {
+          "source_key": "nara-army-codes-batch401",
+          "support_type": "supports",
+          "locator_override": "Physical PDF page 172, printed XII; Code No. 30, value 2-21"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "5faa9147-8024-5d4d-b519-68c70e183dfb",
+      "identity_status": "unresolved",
+      "identity_evidence": "The printed name lacks a rank and identifier. Exact and shortened-name OSS searches, CIA-indexed discovery, occupation/obituary and LoC discovery, and the Army name comparison did not establish a corroborated external identity.",
+      "name_variants": [
+        "Margaret I Chase"
+      ],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 119 for full middle name, documented name variants, wartime locality, and pre-OSS employment. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "98a32940-848a-5a1d-b700-e294ac13867e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index lacks rank and identifier. Two alphabetic Army candidates cannot be distinguished. The reviewed Hagley article describes a same-name postwar calendar founder but does not link him to this index or a prewar job.",
+      "name_variants": [
+        "William D Chase"
+      ],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 119 for a wartime identifier and locality to distinguish the two Army namesakes and test the calendar-publisher candidate. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "160a50c5-4861-56c7-9423-8b8c4457c645",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index prints Capt. Its six-digit officer identifier was not forced into an enlisted eight-digit match. One name-only Army candidate and a reviewed Tulare obituary index lead are insufficient for a secure identity.",
+      "name_variants": [
+        "Fred A Chastain"
+      ],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 119 for officer appointment papers, full middle name, and a corroborating birth year before testing the 1984 obituary lead. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8e320ce1-8b48-5dbf-a2e5-38c9ff971f87",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index lacks rank and identifier. Two alphabetic Army candidates remain unlinked after exact-name OSS, CIA, occupation/obituary and LoC discovery. The common-name case requires identifiers beyond the name.",
+      "name_variants": [
+        "John P Chastain"
+      ],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 119 for a full middle name, service identifier, birth year, and wartime locality to distinguish the Army candidates. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9f0e80b1-b3e4-5c23-b592-e6969921dcb1",
+      "identity_status": "unresolved",
+      "identity_evidence": "The printed name lacks rank and identifier. OSS/CIA, employment, directory, LoC and institutional discovery and the transient Army name comparison supplied no corroborated external identity.",
+      "name_variants": [
+        "Ruth Chastain"
+      ],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 119 for documented name variants, personnel grade, recruitment date, and named previous organization. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "44114aef-c7b3-594a-963b-30d772df8e5d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The printed Chatelan spelling remains unchanged. Exact-name and Clotilde/Chatelain search aliases, OSS/CIA, employment, biography and archival discovery did not establish this identity.",
+      "name_variants": [
+        "Clothilde Chatelan"
+      ],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 119 for original spelling, full name, documented nationality if recorded, recruitment chronology, and previous organization. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "85beeed9-070e-5fc6-b6b2-a00ba5d82873",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed person remains unresolved. Exact-name OSS/CIA, occupation, biography and LoC discovery found a postwar NARA signature-block lead and a later magazine byline, but no reviewed identity bridge or pre-OSS employment.",
+      "name_variants": [
+        "Diane L Chatelan"
+      ],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 119 for a full middle name and wartime identifiers before testing the postwar signature-block lead; locate the relevant NARA page only if useful for identity. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "839ae1ff-71f1-577e-b54b-21c572f61f9c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact private identifier and compatible given name and surname link the index to one Army entry under Rene A. Chatellier. The Army entry is March 21, 1944 and records occupation 221, Bartenders. The index's blank middle initial and rank remain preserved; OSS-entry timing is unknown.",
+      "name_variants": [
+        "Rene Chatellier",
+        "Rene A Chatellier",
+        "Rene A. Chatellier"
+      ],
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 120 for the Army-to-OSS sequence, any named establishment, and the missing recruitment and employment dates. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d9d46acc-02eb-5517-a3ad-e0079a305145",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index lacks rank and identifier. Exact-name and shortened-name OSS/CIA, occupation, obituary, archival discovery and Army name comparison did not establish a corroborated external identity.",
+      "name_variants": [
+        "Charles W Chattaway"
+      ],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 120 for full middle name, wartime branch or civilian status, recruitment date, and prior organization. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2616ca43-44b8-5063-98de-cc06c7e7f6f7",
+      "identity_status": "unresolved",
+      "identity_evidence": "The printed Chattillion spelling is preserved. One alphabetic Army candidate remains a name-only lead. Exact-name OSS/CIA, occupation, obituary and archival discovery did not provide an independent identifier.",
+      "name_variants": [
+        "Arthur A Chattillion"
+      ],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 120 for an identifier and wartime locality before comparing the Army namesake, plus the employment and recruitment chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "margaret-i-chase-reviewed-batch401",
+      "person_id": "5faa9147-8024-5d4d-b519-68c70e183dfb",
+      "source_adapter": "reviewed_official_archival_web",
+      "query_text": "Margaret I Chase; NARA index context and transient Army name/eligible-identifier comparison; exact-name and meaningful punctuation/initial or shortened variants with OSS; CIA Reading Room-indexed discovery; occupation/employment and obituary, institutional or archival checks as individually itemized in research/batch-401-discovery-checkpoint.md.",
+      "query_variant_type": "staged_review_with_archival_disposition",
+      "started_at": "2026-09-04T03:35:15Z",
+      "completed_at": "2026-09-04T03:35:15Z",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Senator Margaret Chase Smith and nineteenth-century namesakes are different candidates; unsourced cemetery lists provide no OSS linkage.",
+      "research_notes": "The printed name lacks a rank and identifier. Exact and shortened-name OSS searches, CIA-indexed discovery, occupation/obituary and LoC discovery, and the Army name comparison did not establish a corroborated external identity. This timestamp records adjudication of the saved discovery checkpoint, not the earliest search time. Sources reviewed counts inspected documents, including index and bulk comparison, not search snippets; discovery-only rejected leads are explained without inflating a document-review count. No physical personnel file was reviewed and no authenticated NARA API request was made. This is an archival disposition, not a claim that all online avenues were exhausted.",
+      "next_action": "Review Box 119 for full middle name, documented name variants, wartime locality, and pre-OSS employment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-protocol-2026-09-04-b401"
+    },
+    {
+      "key": "william-d-chase-reviewed-batch401",
+      "person_id": "98a32940-848a-5a1d-b700-e294ac13867e",
+      "source_adapter": "reviewed_official_archival_web",
+      "query_text": "William D Chase; NARA index context and transient Army name/eligible-identifier comparison; exact-name and meaningful punctuation/initial or shortened variants with OSS; CIA Reading Room-indexed discovery; occupation/employment and obituary, institutional or archival checks as individually itemized in research/batch-401-discovery-checkpoint.md.",
+      "query_variant_type": "staged_review_with_archival_disposition",
+      "started_at": "2026-09-04T03:35:15Z",
+      "completed_at": "2026-09-04T03:35:15Z",
+      "outcome": "no_result",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The calendar history is postwar and name-only. Modern student and people-finder results and nineteenth-century entries are irrelevant; no brother-based identity assignment is made.",
+      "research_notes": "The index lacks rank and identifier. Two alphabetic Army candidates cannot be distinguished. The reviewed Hagley article describes a same-name postwar calendar founder but does not link him to this index or a prewar job. This timestamp records adjudication of the saved discovery checkpoint, not the earliest search time. Sources reviewed counts inspected documents, including index and bulk comparison, not search snippets; discovery-only rejected leads are explained without inflating a document-review count. No physical personnel file was reviewed and no authenticated NARA API request was made. This is an archival disposition, not a claim that all online avenues were exhausted.",
+      "next_action": "Review Box 119 for a wartime identifier and locality to distinguish the two Army namesakes and test the calendar-publisher candidate.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-protocol-2026-09-04-b401"
+    },
+    {
+      "key": "fred-a-chastain-reviewed-batch401",
+      "person_id": "160a50c5-4861-56c7-9423-8b8c4457c645",
+      "source_adapter": "reviewed_official_archival_web",
+      "query_text": "Fred A Chastain; NARA index context and transient Army name/eligible-identifier comparison; exact-name and meaningful punctuation/initial or shortened variants with OSS; CIA Reading Room-indexed discovery; occupation/employment and obituary, institutional or archival checks as individually itemized in research/batch-401-discovery-checkpoint.md.",
+      "query_variant_type": "staged_review_with_archival_disposition",
+      "started_at": "2026-09-04T03:35:15Z",
+      "completed_at": "2026-09-04T03:35:15Z",
+      "outcome": "no_result",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The Tulare index points to a May 7, 1984 obituary, not reviewed employment evidence. Fred L. Chastain has a different middle initial and rank; modern people-finder results are unrelated.",
+      "research_notes": "The index prints Capt. Its six-digit officer identifier was not forced into an enlisted eight-digit match. One name-only Army candidate and a reviewed Tulare obituary index lead are insufficient for a secure identity. This timestamp records adjudication of the saved discovery checkpoint, not the earliest search time. Sources reviewed counts inspected documents, including index and bulk comparison, not search snippets; discovery-only rejected leads are explained without inflating a document-review count. No physical personnel file was reviewed and no authenticated NARA API request was made. This is an archival disposition, not a claim that all online avenues were exhausted.",
+      "next_action": "Review Box 119 for officer appointment papers, full middle name, and a corroborating birth year before testing the 1984 obituary lead.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-protocol-2026-09-04-b401"
+    },
+    {
+      "key": "john-p-chastain-reviewed-batch401",
+      "person_id": "8e320ce1-8b48-5dbf-a2e5-38c9ff971f87",
+      "source_adapter": "reviewed_official_archival_web",
+      "query_text": "John P Chastain; NARA index context and transient Army name/eligible-identifier comparison; exact-name and meaningful punctuation/initial or shortened variants with OSS; CIA Reading Room-indexed discovery; occupation/employment and obituary, institutional or archival checks as individually itemized in research/batch-401-discovery-checkpoint.md.",
+      "query_variant_type": "staged_review_with_archival_disposition",
+      "started_at": "2026-09-04T03:35:15Z",
+      "completed_at": "2026-09-04T03:35:15Z",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "John A. Chastain has an incompatible middle initial and era. A spouse's burial listing does not independently identify the indexed person or a pre-OSS employer.",
+      "research_notes": "The index lacks rank and identifier. Two alphabetic Army candidates remain unlinked after exact-name OSS, CIA, occupation/obituary and LoC discovery. The common-name case requires identifiers beyond the name. This timestamp records adjudication of the saved discovery checkpoint, not the earliest search time. Sources reviewed counts inspected documents, including index and bulk comparison, not search snippets; discovery-only rejected leads are explained without inflating a document-review count. No physical personnel file was reviewed and no authenticated NARA API request was made. This is an archival disposition, not a claim that all online avenues were exhausted.",
+      "next_action": "Review Box 119 for a full middle name, service identifier, birth year, and wartime locality to distinguish the Army candidates.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-protocol-2026-09-04-b401"
+    },
+    {
+      "key": "ruth-chastain-reviewed-batch401",
+      "person_id": "9f0e80b1-b3e4-5c23-b592-e6969921dcb1",
+      "source_adapter": "reviewed_official_archival_web",
+      "query_text": "Ruth Chastain; NARA index context and transient Army name/eligible-identifier comparison; exact-name and meaningful punctuation/initial or shortened variants with OSS; CIA Reading Room-indexed discovery; occupation/employment and obituary, institutional or archival checks as individually itemized in research/batch-401-discovery-checkpoint.md.",
+      "query_variant_type": "staged_review_with_archival_disposition",
+      "started_at": "2026-09-04T03:35:15Z",
+      "completed_at": "2026-09-04T03:35:15Z",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Modern utility/customer lists and people-finder results are not historical employment evidence. A marriage index and unrelated directory entries do not establish OSS identity.",
+      "research_notes": "The printed name lacks rank and identifier. OSS/CIA, employment, directory, LoC and institutional discovery and the transient Army name comparison supplied no corroborated external identity. This timestamp records adjudication of the saved discovery checkpoint, not the earliest search time. Sources reviewed counts inspected documents, including index and bulk comparison, not search snippets; discovery-only rejected leads are explained without inflating a document-review count. No physical personnel file was reviewed and no authenticated NARA API request was made. This is an archival disposition, not a claim that all online avenues were exhausted.",
+      "next_action": "Review Box 119 for documented name variants, personnel grade, recruitment date, and named previous organization.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-protocol-2026-09-04-b401"
+    },
+    {
+      "key": "clothilde-chatelan-reviewed-batch401",
+      "person_id": "44114aef-c7b3-594a-963b-30d772df8e5d",
+      "source_adapter": "reviewed_official_archival_web",
+      "query_text": "Clothilde Chatelan; NARA index context and transient Army name/eligible-identifier comparison; exact-name and meaningful punctuation/initial or shortened variants with OSS; CIA Reading Room-indexed discovery; occupation/employment and obituary, institutional or archival checks as individually itemized in research/batch-401-discovery-checkpoint.md.",
+      "query_variant_type": "staged_review_with_archival_disposition",
+      "started_at": "2026-09-04T03:35:15Z",
+      "completed_at": "2026-09-04T03:35:15Z",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Modern Swiss staff lists combine different people; medieval genealogy and unrelated French administrative lists are not matches. No nationality or occupation is inferred from spelling.",
+      "research_notes": "The printed Chatelan spelling remains unchanged. Exact-name and Clotilde/Chatelain search aliases, OSS/CIA, employment, biography and archival discovery did not establish this identity. This timestamp records adjudication of the saved discovery checkpoint, not the earliest search time. Sources reviewed counts inspected documents, including index and bulk comparison, not search snippets; discovery-only rejected leads are explained without inflating a document-review count. No physical personnel file was reviewed and no authenticated NARA API request was made. This is an archival disposition, not a claim that all online avenues were exhausted.",
+      "next_action": "Review Box 119 for original spelling, full name, documented nationality if recorded, recruitment chronology, and previous organization.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-protocol-2026-09-04-b401"
+    },
+    {
+      "key": "diane-l-chatelan-reviewed-batch401",
+      "person_id": "85beeed9-070e-5fc6-b6b2-a00ba5d82873",
+      "source_adapter": "reviewed_official_archival_web",
+      "query_text": "Diane L Chatelan; NARA index context and transient Army name/eligible-identifier comparison; exact-name and meaningful punctuation/initial or shortened variants with OSS; CIA Reading Room-indexed discovery; occupation/employment and obituary, institutional or archival checks as individually itemized in research/batch-401-discovery-checkpoint.md.",
+      "query_variant_type": "staged_review_with_archival_disposition",
+      "started_at": "2026-09-04T03:35:15Z",
+      "completed_at": "2026-09-04T03:35:15Z",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "The 239-page NARA PDF is image-only and its relevant page is not yet located; search text is not final evidence. A 1990 article's subject is not its author, so the subject's jobs are not assigned to Diane.",
+      "research_notes": "The indexed person remains unresolved. Exact-name OSS/CIA, occupation, biography and LoC discovery found a postwar NARA signature-block lead and a later magazine byline, but no reviewed identity bridge or pre-OSS employment. This timestamp records adjudication of the saved discovery checkpoint, not the earliest search time. Sources reviewed counts inspected documents, including index and bulk comparison, not search snippets; discovery-only rejected leads are explained without inflating a document-review count. No physical personnel file was reviewed and no authenticated NARA API request was made. This is an archival disposition, not a claim that all online avenues were exhausted.",
+      "next_action": "Review Box 119 for a full middle name and wartime identifiers before testing the postwar signature-block lead; locate the relevant NARA page only if useful for identity.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-protocol-2026-09-04-b401"
+    },
+    {
+      "key": "rene-chatellier-reviewed-batch401",
+      "person_id": "839ae1ff-71f1-577e-b54b-21c572f61f9c",
+      "source_adapter": "reviewed_official_archival_web",
+      "query_text": "Rene Chatellier; NARA index context and transient Army name/eligible-identifier comparison; exact-name and meaningful punctuation/initial or shortened variants with OSS; CIA Reading Room-indexed discovery; occupation/employment and obituary, institutional or archival checks as individually itemized in research/batch-401-discovery-checkpoint.md.",
+      "query_variant_type": "staged_review_with_archival_disposition",
+      "started_at": "2026-09-04T03:35:15Z",
+      "completed_at": "2026-09-04T03:35:15Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Cemetery/genealogy candidates disagree on birth year and are not used to establish a full middle name, employer, nationality, or chronology. No establishment or self-employment is inferred from occupation 221.",
+      "research_notes": "The exact private identifier and compatible given name and surname link the index to one Army entry under Rene A. Chatellier. The Army entry is March 21, 1944 and records occupation 221, Bartenders. The index's blank middle initial and rank remain preserved; OSS-entry timing is unknown. This timestamp records adjudication of the saved discovery checkpoint, not the earliest search time. Sources reviewed counts inspected documents, including index and bulk comparison, not search snippets; discovery-only rejected leads are explained without inflating a document-review count. No physical personnel file was reviewed and no authenticated NARA API request was made. This is an archival disposition, not a claim that all online avenues were exhausted.",
+      "next_action": "Review Box 120 for the Army-to-OSS sequence, any named establishment, and the missing recruitment and employment dates.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-protocol-2026-09-04-b401"
+    },
+    {
+      "key": "charles-w-chattaway-reviewed-batch401",
+      "person_id": "d9d46acc-02eb-5517-a3ad-e0079a305145",
+      "source_adapter": "reviewed_official_archival_web",
+      "query_text": "Charles W Chattaway; NARA index context and transient Army name/eligible-identifier comparison; exact-name and meaningful punctuation/initial or shortened variants with OSS; CIA Reading Room-indexed discovery; occupation/employment and obituary, institutional or archival checks as individually itemized in research/batch-401-discovery-checkpoint.md.",
+      "query_variant_type": "staged_review_with_archival_disposition",
+      "started_at": "2026-09-04T03:35:15Z",
+      "completed_at": "2026-09-04T03:35:15Z",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Herbert Walter Chattaway, Francis Charles Chattaway, and nineteenth-century directory names have incompatible names or eras. None is assigned to this person.",
+      "research_notes": "The index lacks rank and identifier. Exact-name and shortened-name OSS/CIA, occupation, obituary, archival discovery and Army name comparison did not establish a corroborated external identity. This timestamp records adjudication of the saved discovery checkpoint, not the earliest search time. Sources reviewed counts inspected documents, including index and bulk comparison, not search snippets; discovery-only rejected leads are explained without inflating a document-review count. No physical personnel file was reviewed and no authenticated NARA API request was made. This is an archival disposition, not a claim that all online avenues were exhausted.",
+      "next_action": "Review Box 120 for full middle name, wartime branch or civilian status, recruitment date, and prior organization.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-protocol-2026-09-04-b401"
+    },
+    {
+      "key": "arthur-a-chattillion-reviewed-batch401",
+      "person_id": "2616ca43-44b8-5063-98de-cc06c7e7f6f7",
+      "source_adapter": "reviewed_official_archival_web",
+      "query_text": "Arthur A Chattillion; NARA index context and transient Army name/eligible-identifier comparison; exact-name and meaningful punctuation/initial or shortened variants with OSS; CIA Reading Room-indexed discovery; occupation/employment and obituary, institutional or archival checks as individually itemized in research/batch-401-discovery-checkpoint.md.",
+      "query_variant_type": "staged_review_with_archival_disposition",
+      "started_at": "2026-09-04T03:35:15Z",
+      "completed_at": "2026-09-04T03:35:15Z",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "A later obituary names a deceased spouse but is not a sufficient principal identity match. Literary Chatillion/Chattillion results are not personnel evidence.",
+      "research_notes": "The printed Chattillion spelling is preserved. One alphabetic Army candidate remains a name-only lead. Exact-name OSS/CIA, occupation, obituary and archival discovery did not provide an independent identifier. This timestamp records adjudication of the saved discovery checkpoint, not the earliest search time. Sources reviewed counts inspected documents, including index and bulk comparison, not search snippets; discovery-only rejected leads are explained without inflating a document-review count. No physical personnel file was reviewed and no authenticated NARA API request was made. This is an archival disposition, not a claim that all online avenues were exhausted.",
+      "next_action": "Review Box 120 for an identifier and wartime locality before comparing the Army namesake, plus the employment and recruitment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-research-protocol-2026-09-04-b401"
+    }
+  ]
+}

@@ -4,6 +4,19 @@ Run: 2026-09-04 UTC
 
 ## Result
 
+Batch 401 current checkpoint: nine new browser scenarios pass across desktop,
+phone, and tablet. Three initial failures came from a test expecting a private
+review note in the public page; the corrected test checks the public employer
+disclaimer. The complete 1,629-case matrix is running and is still a release
+gate. The final methodology build has zero Astro errors, warnings or hints.
+
+Batch 400 final result: the independent GitHub matrix passed all 1,620 cases.
+Locally 1,618 passed initially and two browser-connection timeouts passed on
+isolated rerun. Premerge Test, postmerge Test and Pages workflows succeeded;
+the live release was verified. See `reports/release_batch_400.md`.
+
+## Earlier Batch 400 checkpoint (superseded by the result above)
+
 Batch 400: all 15 new profile cases pass across desktop, phone, and tablet.
 The initial test authoring exposed overly broad `.affiliation-card` selectors
 that included evidence cards as well as occupation cards; the selectors were

@@ -2,6 +2,30 @@
 
 Run: 2026-09-04 UTC
 
+## Batch 401 local checkpoint
+
+All six citation targets returned HTTP 200 to normal HEAD checks; this is an
+availability check, not a replacement for context review. All internal links
+resolve across 24,450 HTML pages; 49,551 external URLs were inventoried.
+All 67 public-manifest assets match sizes and hashes: 83,204,891 bytes.
+Manifest SHA-256:
+`504b084ac9f7a14a712dd8711e18bc06750beab3e3d8ab22017a5d3d648f491f`.
+Repeated public export matches the 70-file tree digest
+`ca234e925b94b1f1f309bbe947eafe8d32d51c6ee840aaf6c1473d405e2238a4`.
+Consecutive final-methodology builds match the 24,522-file tree digest
+`aa045cb0e7bafacc43cf4ffe2e906dd73215acaaa5000e50889f6c3230e0d1c8`.
+These digests hash sorted relative paths, a NUL separator and each file's
+binary SHA-256 digest. The full browser matrix is pending; Batch 401 is not
+yet the deployed version.
+
+## Batch 400 final published verification
+
+Premerge Test 33832663156, postmerge Test 33835929305 and Pages 33835929295
+all succeeded. All 67 deployed assets, totaling 83,181,118 bytes, matched the
+Batch 400 manifest. Seven core and ten cohort profile URLs returned HTTP 200
+and a main element. See `reports/release_batch_400.md`; the earlier checkpoint
+below is retained as history, not the final release status.
+
 ## Batch 400 local checkpoint
 
 All internal targets resolve across 24,450 HTML files. The checker inventoried
