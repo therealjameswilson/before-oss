@@ -13,6 +13,9 @@ export function getStaticPaths() {
 }
 
 const { profile } = Astro.props as { profile: PersonProfile };
+const hasUncertainOtherTiming = profile.other_pre_oss_affiliations.some(
+  (item) => item.temporal_basis === "temporal_relation_uncertain",
+);
 const base = import.meta.env.BASE_URL;
 const publicOrganizationIds = new Set(
   (organizationsData as unknown as Organization[]).map(
@@ -39,7 +42,9 @@ const affiliationMeta = (item: Affiliation) => {
       : item.start_date
         ? `From ${item.start_date}`
         : item.end_date
-          ? `Through ${item.end_date}`
+          ? item.relationship_type === "unknown"
+            ? `Recorded at ${item.end_date}`
+            : `Through ${item.end_date}`
           : "Dates not established";
   const location = [item.city, item.state_or_region, item.country]
     .filter(Boolean)
@@ -206,7 +211,16 @@ const affiliationLabel = (item: Affiliation) =>
           profile.other_pre_oss_affiliations.length > 0 && (
             <section class="profile-section" aria-labelledby="earlier-affiliations">
               <p class="kicker">Other documented work</p>
-              <h2 id="earlier-affiliations">Earlier pre-OSS affiliations</h2>
+              <h2 id="earlier-affiliations">
+                {hasUncertainOtherTiming ? "Other documented affiliations and occupations" : "Earlier pre-OSS affiliations"}
+              </h2>
+              {hasUncertainOtherTiming && (
+                <p class="research-note">
+                  Some records below have an uncertain temporal relation to OSS.
+                  A dated occupation record does not establish that it immediately
+                  preceded OSS service or identify a last civilian employer.
+                </p>
+              )}
               {profile.other_pre_oss_affiliations.map((item) => (
                 <article class="affiliation-card">
                   <h3>
@@ -223,6 +237,7 @@ const affiliationLabel = (item: Affiliation) =>
                   </h3>
                   <p>{item.role_title ?? item.occupation}</p>
                   <p class="citation-meta">{affiliationMeta(item)}</p>
+                  {item.date_precision && <p class="citation-meta">{item.date_precision}</p>}
                   <p>
                     <Badge value={item.claim_confidence} />
                     {" "}

@@ -1,6 +1,10 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import stats from "../../data/generated/stats.json";
+import analytics from "../../data/generated/analytics.json";
+import people from "../../data/generated/people.json";
+import ResearchChart from "../../components/ResearchChart.astro";
+const names = new Map(people.map(p => [p.person_id, p.display_name]));
 
 const categories = Object.entries(stats.personnel_category_counts)
   .sort((left, right) => Number(right[1]) - Number(left[1]));
@@ -118,18 +122,32 @@ const base = import.meta.env.BASE_URL;
   <section class="section">
     <div class="container">
       <p class="kicker">Employer analytics</p>
-      <h2>No employer ranking is published yet</h2>
-      <div class="empty-state">
-        <p>
-          The current validated dataset contains no confirmed or high-confidence
-          employer claim. Accordingly, charts for immediate affiliations, last
-          civilian employers, sectors, civilian/military pathways, universities,
-          and employer geography remain withheld instead of graphing discovery leads.
-        </p>
-        <p>
-          When populated, the default unit will be unique person entities—not source
-          rows—and unresolved, conflicting, and low-confidence claims will be excluded.
-        </p>
+      <h2>The pathways documented so far</h2>
+      <p class="lede">
+        These are findings within a partially researched index, not a representative
+        portrait of the full OSS workforce. Each chart has its own denominator;
+        open its counted-person list to follow the profile and claim-level citations.
+      </p>
+      <p><a href={`${base}data/analytics.json`} download>Download the complete chart data and counted-person identifiers</a></p>
+      {analytics.charts.map(chart => <ResearchChart chart={chart} context={analytics} names={names} />)}
+      <div class="analysis-grid">
+        <section aria-labelledby="claim-confidence-counts">
+          <h3 id="claim-confidence-counts">Confidence of publicly visible claims</h3>
+          <p class="chart-note">Denominator: {stats.published_claims} claim records, not people or source rows.
+            All public confidence levels, including qualified and conflicting claims, are shown;
+            withheld speculative candidates are excluded. Research coverage: {stats.research_attempt_percent.toFixed(4)}%.
+            Updated {stats.generated_at}.</p>
+          <ul class="count-list">{Object.entries(analytics.public_claim_confidence).map(([label, count]) =>
+            <li><span>{label}</span><strong>{count}</strong></li>)}</ul>
+        </section>
+        <section aria-labelledby="archival-priority-counts">
+          <h3 id="archival-priority-counts">Archival review priorities</h3>
+          <p class="chart-note">Denominator: {stats.person_entities.toLocaleString("en-US")} unique person entities.
+            All confidence and research statuses, including unassessed files; not source rows.
+            Research coverage: {stats.research_attempt_percent.toFixed(4)}%. Updated {stats.generated_at}.</p>
+          <ul class="count-list">{Object.entries(analytics.archival_priorities).map(([label, count]) =>
+            <li><span>{label.replaceAll("_", " ")}</span><strong>{count.toLocaleString("en-US")}</strong></li>)}</ul>
+        </section>
       </div>
       <p><a href={`${base}methodology/`}>Read the analytic inclusion rules</a></p>
     </div>

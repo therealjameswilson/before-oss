@@ -1,8 +1,46 @@
 # Accessibility and responsive QA
 
-Run: 2026-09-03 UTC
+Run: 2026-09-04 UTC
 
 ## Result
+
+The final Batch 399 integration adds six confidence-aware chart families,
+counted-person evidence lists, public chart downloads, real featured profiles,
+and separate academic-employment/student groups. Its focused run passes
+18 / 18 browser cases across desktop, phone, and tablet, including all twelve
+Batch 399 profile cases and six new home/analysis cases. The full 1,605-case
+integration matrix is running; its outcome must be verified before release.
+A whitespace-only chart-caption correction follows that run and requires a
+fresh build and focused regression.
+
+The corrected profiles, before analytics integration, separately passed the
+complete 1,599 / 1,599-case matrix in 13.7 minutes without failures. All 82
+Python unittest cases pass, including seven analytics tests and subtests for
+SQL/projection agreement, missing assessments, identity and temporal exclusions,
+conflicts, student/employer separation, and deduplication. Astro reports zero
+errors, warnings, and hints. The earlier Batch 399 results below are retained
+as historical QA, not as a substitute for the final integration run.
+
+## Earlier Batch 399 checks
+
+The Batch 399 release checks cover **1,599 / 1,599** distinct browser and
+accessibility cases across desktop, phone, and tablet, including all 27 axe
+cases. The complete 1,587-case pre-Batch-399 matrix passed 1,569 cases initially;
+18 older cases encountered local Chromium timeouts. Sixteen passed on the
+first isolated rerun, and the remaining two passed individually, including
+the tablet sources-page axe scan. All twelve new Batch 399 cases passed on
+the unchanged final data release. These results document the local timeouts
+and their successful reruns rather than describing the first run as clean.
+
+The new checks keep Joseph E. Charles's Harvard employment in the separately
+labeled immediate-affiliation and last-civilian-employer fields; preserve
+Andre B. Charise's Broadway production affiliation without inventing an
+employer; publish three identifier-backed, bounded Army-entry occupations;
+and keep four unresolved identities and Joe M. Charles's corrupt-record
+conflict visible. Astro diagnostics report zero errors, warnings, or hints.
+The release also passes all 75 Python tests (plus five subtests), the
+deterministic 200-profile audit, public-identifier redaction, reproducible
+data and production builds, and the 24,450-page internal-link check.
 
 The Batch 398 release matrix passed **1,587 / 1,587** browser and accessibility
 cases in 13.5 minutes across desktop, phone, and tablet. It includes all 27 axe

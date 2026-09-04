@@ -113,3 +113,18 @@ their immutable source rows appear on the canonical profile.
 
 The public build rejects forbidden field tokens including raw/full serial fields,
 raw row text, private research notes, error fields, and API-key markers.
+
+## Public analytics projection
+
+`data/analytics.json` (with a gzip mirror) is a generated, non-authoritative
+projection of the reviewed SQLite data. It contains six chart groups: immediate
+affiliations, last civilian employers, civilian-employer sectors, immediate
+relationship types, academic employment versus study, and employer geography.
+Each chart has a `denominator` of unique qualifying people, a `scope` definition,
+and complete `rows` with `label`, `count`, `organization_id` when applicable, and
+sorted `person_ids` for audit. Counts are unique within each group and may
+overlap between groups. The shared confidence/counting rules and research
+coverage accompany the data. No full private identifiers or review notes are
+included. `featured_profiles` selects three eligible employer profiles
+deterministically; `public_claim_confidence` and `archival_priorities` are
+separate distributions with claim-record and person-entity denominators.

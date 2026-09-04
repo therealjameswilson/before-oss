@@ -1,0 +1,61 @@
+---
+interface Row { label: string; organization_id: string | null; count: number; person_ids: string[]; }
+interface Chart { key: string; title: string; scope: string; denominator: number; rows: Row[]; }
+interface Props {
+  chart: Chart;
+  context: { generated_at: string; person_entities: number; research_attempted_people: number;
+    research_attempt_percent: number; confidence_rule: string; counting_rule: string; };
+  names: Map<string, string>;
+}
+const { chart, context, names } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const maximum = Math.max(1, ...chart.rows.map(r => r.count));
+---
+<section class="research-chart" aria-labelledby={`chart-${chart.key}`}>
+  <h3 id={`chart-${chart.key}`}>{chart.title}</h3>
+  <p>{chart.scope} Documented in the current research dataset.</p>
+  <p class="chart-note">
+    Denominator: {chart.denominator.toLocaleString("en-US")} qualifying unique people.{" "}
+    {context.confidence_rule}{" "}{context.counting_rule}{" "}
+    Research coverage: {context.research_attempted_people.toLocaleString("en-US")} of
+    {context.person_entities.toLocaleString("en-US")} people ({context.research_attempt_percent.toFixed(4)}%).
+    Updated {context.generated_at}.
+  </p>
+  {chart.rows.length ? (
+    <>
+      <ol class="research-bars" aria-label={`${chart.title}: most frequently documented groups`}>
+        {chart.rows.slice(0, 12).map(row => (
+          <li>
+            <div class="research-bar-label">
+              {row.organization_id ? <a href={`${base}organizations/${row.organization_id}/`}>{row.label}</a> : <span>{row.label}</span>}
+              <strong>{row.count}</strong>
+            </div>
+            <div class="research-bar-track" aria-hidden="true"><span style={`width:${100 * row.count / maximum}%`}></span></div>
+          </li>
+        ))}
+      </ol>
+      {chart.rows.length > 12 && <p class="chart-note">Showing 12 of {chart.rows.length} groups. The complete counted set is below.</p>}
+      <details>
+        <summary>Inspect all {chart.rows.length} groups and the people counted</summary>
+        <ul class="evidence-groups">
+          {chart.rows.map(row => <li><strong>{row.label} ({row.count})</strong><ul>
+            {row.person_ids.map(id => <li><a href={`${base}people/${id}/`}>{names.get(id) ?? id}</a></li>)}
+          </ul></li>)}
+        </ul>
+      </details>
+    </>
+  ) : <p>No reviewed evidence currently meets this chart's inclusion rules.</p>}
+</section>
+<style>
+  .research-chart { margin-block: 3rem; max-width: 60rem; }
+  .research-bars { list-style: none; margin: 1.5rem 0; padding: 0; display: grid; gap: 1rem; }
+  .research-bar-label { display: flex; justify-content: space-between; gap: 1rem; line-height: 1.5; }
+  .research-bar-label strong { flex: 0 0 auto; font-variant-numeric: tabular-nums; }
+  .research-bar-track { height: .4rem; margin-top: .25rem; background: #dedbd3; }
+  .research-bar-track span { display: block; height: 100%; background: #4f6039; }
+  summary { cursor: pointer; font-weight: 600; padding-block: .6rem; }
+  .evidence-groups { padding-left: 1.25rem; }
+  .evidence-groups > li { margin-block: 1rem; }
+  .evidence-groups ul { columns: 2 18rem; padding-left: 1.25rem; }
+  @media print { .research-bar-track { print-color-adjust: exact; } }
+</style>

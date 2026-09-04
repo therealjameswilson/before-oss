@@ -10,6 +10,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 from .config import Settings
+from .analytics import build_analytics, eligible_affiliation
 from .constants import (
     NAMESPACE_GENERIC,
     PUBLIC_DATA_VERSION,
@@ -117,9 +118,7 @@ def verified_affiliation_person_count(
             *profile["other_pre_oss_affiliations"],
         ]
         if any(
-            affiliation["claim_confidence"] in {"confirmed", "high"}
-            and affiliation["publication_status"]
-            in {"published", "publish_qualified"}
+            eligible_affiliation(profile, affiliation)
             for affiliation in affiliations
         ):
             count += 1
@@ -138,9 +137,7 @@ def verified_employer_person_count(
             *profile["other_pre_oss_affiliations"],
         ]
         if any(
-            affiliation["claim_confidence"] in {"confirmed", "high"}
-            and affiliation["publication_status"]
-            in {"published", "publish_qualified"}
+            eligible_affiliation(profile, affiliation)
             and affiliation["relationship_type"]
             in {"employment", "self_employment"}
             for affiliation in affiliations
@@ -623,7 +620,9 @@ def build_public_data(
         "analytics_policy": (
             "Default employer analytics count unique person entities with "
             "confirmed or high-confidence published employment or "
-            "self-employment affiliations only. Verified-affiliation coverage "
+            "self-employment affiliations only, with confirmed/high-confidence "
+            "person and claim identity matches. Conflicts and uncertain "
+            "temporal relationships are excluded. Verified-affiliation coverage "
             "is reported separately and may include military, government, "
             "student, volunteer, or professional relationships."
         ),
@@ -673,6 +672,9 @@ def build_public_data(
     ]
     _write_json(GENERATED_ROOT / "organizations.json", organizations)
     _write_json(data_root / "organizations.json", organizations)
+    analytics = build_analytics(profiles, organizations, stats)
+    _write_json(GENERATED_ROOT / "analytics.json", analytics)
+    _write_json(data_root / "analytics.json", analytics)
 
     downloads = PUBLIC_ROOT / "downloads"
     personnel_fields = [
