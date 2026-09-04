@@ -206,6 +206,13 @@ derivative interpretation disagree, the code is preserved privately and no
 occupation or employer is published. A code describing `STUDENTS` is modeled
 as student status, never employment, and no school is inferred.
 
+A military rank observation belongs to its documented date. A private grade
+at Army entry does not by itself establish the rank held during subsequent
+OSS service or rule out a later commission. Batch 401 therefore preserves
+Rene Chatellier's blank indexed rank and indeterminate commissioned status
+while citing the earlier Army observation separately. Older classifications
+must be reviewed individually when this distinction affects an interpretation.
+
 Adapter audit rows needed to reproduce aggregate coverage are exported to the
 tracked `research/adapter_attempt_checkpoints.json` file. This deliberately
 sanitized checkpoint retains stable attempt and candidate identifiers,
