@@ -23,6 +23,16 @@ class FakeRow(dict):
 
 
 class PublicProjectionTests(unittest.TestCase):
+    def _add_verified_assessments(self, profiles: list[dict]) -> None:
+        for profile in profiles:
+            profile['identity_status'] = 'confirmed'
+            profile['research_status'] = 'completed'
+            for field in ('immediate_pre_oss_affiliations',
+                          'last_civilian_pre_service', 'other_pre_oss_affiliations'):
+                for item in profile[field]:
+                    item['identity_confidence'] = 'confirmed'
+                    item['temporal_basis'] = 'documented_prewar'
+
     def test_public_snapshot_timestamp_is_data_derived(self) -> None:
         connection = sqlite3.connect(":memory:")
         connection.executescript(
@@ -145,6 +155,7 @@ class PublicProjectionTests(unittest.TestCase):
                 "other_pre_oss_affiliations": [],
             },
         ]
+        self._add_verified_assessments(profiles)
         self.assertEqual(verified_affiliation_person_count(profiles), 1)
 
     def test_nonemployment_affiliation_does_not_count_as_verified_employer(
@@ -185,6 +196,7 @@ class PublicProjectionTests(unittest.TestCase):
                 ],
             },
         ]
+        self._add_verified_assessments(profiles)
         self.assertEqual(verified_affiliation_person_count(profiles), 3)
         self.assertEqual(verified_employer_person_count(profiles), 2)
 

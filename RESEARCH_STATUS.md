@@ -1,6 +1,6 @@
 # Research status
 
-Generated from the current local SQLite database on 2026-09-03 UTC.
+Verified against the current local SQLite database on 2026-09-04 UTC.
 
 ## Distinct coverage measures
 
@@ -8,7 +8,7 @@ Generated from the current local SQLite database on 2026-09-03 UTC.
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
 | Research-attempt coverage | 3,773 people with a non-planned attempt | 23,940 active person entities | 15.7602% |
-| Verified-affiliation coverage | 494 people with any confirmed/high published pre-OSS affiliation | 23,940 active person entities | 2.0635% |
+| Verified-affiliation coverage | 485 people with qualifying confirmed/high published pre-OSS affiliation | 23,940 active person entities | 2.0259% |
 | Verified-employer coverage | 211 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8814% |
 | Archival-review coverage | 3,726 people with an individual file-access/priority assessment | 23,940 active person entities | 15.5639% |
 
@@ -9541,6 +9541,13 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ## Current blockers
 
+Open methodological audit: four Batch 399 Army-entry occupations now have
+`temporal_relation_uncertain`, correcting a label that overstated their
+relationship to OSS. The reproducible triage query in
+`reports/temporal_basis_review.md` flags 468 older occupation-only affiliations
+for individual timing review. This is unresolved quality work, not a new
+research attempt or a reason to hide the records.
+
 1. Live authenticated NARA research remains disabled. The key pasted into chat
    is treated as compromised and was not used, stored, logged, or committed.
    After it is rotated, the replacement must be added as the `NARA_API_KEY`
@@ -9570,6 +9577,7 @@ toward verified-affiliation coverage but not verified-employer coverage.
 
 ```bash
 scripts/rebuild-all.sh
+python3 -m oss_research import-reviewed-evidence research/evidence-page-seventy-seven-pearl-charie-through-mary-charlton-pathways_batch-399_2026-09-03.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seventy-six-seventy-seven-frank-m-chapin-through-frank-m-chapman-pathways_batch-396_2026-09-03.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seventy-three-gino-casolini-through-gino-h-cassai-pathways_batch-379_2026-08-30.json
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seventy-three-jack-c-casey-through-john-l-caskey-pathways_batch-378_2026-08-30.json

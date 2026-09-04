@@ -1,8 +1,27 @@
 # Accessibility and responsive QA
 
-Run: 2026-09-03 UTC
+Run: 2026-09-04 UTC
 
 ## Result
+
+The final Batch 399 integration adds six confidence-aware chart families,
+counted-person evidence lists, public chart downloads, real featured profiles,
+and separate academic-employment/student groups. Its focused run passes
+18 / 18 browser cases across desktop, phone, and tablet, including all twelve
+Batch 399 profile cases and six new home/analysis cases. The full 1,605-case
+integration matrix is running; its outcome must be verified before release.
+A whitespace-only chart-caption correction follows that run and requires a
+fresh build and focused regression.
+
+The corrected profiles, before analytics integration, separately passed the
+complete 1,599 / 1,599-case matrix in 13.7 minutes without failures. All 82
+Python unittest cases pass, including seven analytics tests and subtests for
+SQL/projection agreement, missing assessments, identity and temporal exclusions,
+conflicts, student/employer separation, and deduplication. Astro reports zero
+errors, warnings, and hints. The earlier Batch 399 results below are retained
+as historical QA, not as a substitute for the final integration run.
+
+## Earlier Batch 399 checks
 
 The Batch 399 release checks cover **1,599 / 1,599** distinct browser and
 accessibility cases across desktop, phone, and tablet, including all 27 axe

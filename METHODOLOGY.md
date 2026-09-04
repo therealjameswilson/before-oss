@@ -98,6 +98,23 @@ Identity states are `confirmed`, `high_confidence`, `probable`, `ambiguous`,
 `conflicting`, and `unresolved`. Default employer analytics admit only confirmed
 or high-confidence identities.
 
+The SQL coverage report and public charts use the same inclusion rule: both
+person-level and affiliation-level identities must be confirmed/high-confidence,
+the claim must be confirmed/high and published or published-qualified, and
+neither the current research status nor the claim may be conflicting. Missing
+assessments and `temporal_relation_uncertain` affiliations are excluded from
+default totals without removing those records from profiles. Immediate-pathway
+charts additionally require `explicit_immediate` or `strongly_date_bounded`;
+`probable_immediate` is not counted as an established immediate predecessor.
+
+Each chart deduplicates person entities within a group and publishes its exact
+counted-person identifiers, denominator, confidence rule, and research coverage.
+People may appear in multiple groups, so group counts are not additive. Academic
+employment and student status are separate groups. Geography and sectors count
+civilian employment/self-employment, not military units or universities attended.
+The chart exports are regenerated from SQLite, not maintained as a second
+authoritative database.
+
 ## Affiliation model
 
 The project keeps three questions separate:

@@ -1,6 +1,6 @@
 # Link check
 
-Run: 2026-09-03 UTC
+Run: 2026-09-04 UTC
 
 ## Batch 399 citation and local release check
 
@@ -17,27 +17,30 @@ is part of the committed research evidence or public release.
 The static build contains 24,450 HTML files, including direct pages for all
 23,940 active person entities, 502 public organizations, and every Batch 399
 profile. Every internal link resolves; 49,548 unique external URLs were
-inventoried for separate live verification. The 65 public-manifest files cover
-82,993,740 bytes and passed size and SHA-256 validation. The manifest has
-SHA-256 `ebec17640e5380a88f27ba287861fb886132a70070b75ed352498e37d62396ae`.
+inventoried for separate live verification. The 67 public-manifest files,
+including the new chart-data export and gzip mirror, cover 83,137,581 bytes
+and passed size and SHA-256 validation. The manifest has SHA-256
+`e0318b0d59442f7291eb4bb5be459e6d47343b2ba5a27a3f7ba18d036093181b`.
 
 The complete production-tree public-identifier audit examined 12,926
-normalized private identifiers and 120 formatted variants across 24,520
-artifacts. It rejected 1,082 substring coincidences and found zero aggregate,
+normalized private identifiers and 120 formatted variants across 24,522
+artifacts. It rejected 1,080 substring coincidences and found zero aggregate,
 manifest-size, or unexpected boundary matches. Consecutive public-data exports
 reproduced public-directory path-and-content digest
-`20cc995b864041d645a7bb84e89db2249e0a87e6ebd3619806f5c69a327c26ff`.
-Consecutive production builds reproduced static-tree path-and-content digest
-`97ff8f26105f30822b73bcc356c82f4f65f80df5a51d440f82159142a4a52a5d`.
+`c00cbaad4ad4ea6aa1b0487456c5444163e590e13693e6cde79ad28f0c533a44`.
+Consecutive analytics-integration builds reproduced static-tree digest
+`598cdba80401160a4c3127916fc05284a0bce6fbc9af450396bff578bcdef866`.
+This digest precedes a whitespace-only chart-caption correction; final build,
+focused regression, and updated static-tree audit remain release gates.
 Each digest hashes sorted relative paths, a NUL separator, and binary SHA-256
 content digests, making the calculation independent of checkout location.
 
-All 1,599 distinct browser and accessibility cases ultimately passed across
-the complete previous matrix, explicitly documented local timeout reruns,
-and all twelve new Batch 399 cases; see `reports/accessibility.md` for the
-run breakdown. All 75 Python tests plus five subtests, the deterministic
-200-profile audit, public redaction audit, deterministic build checks, and
-the complete internal-link gate pass. These local checks do not imply that
+The pre-analytics 1,599-case matrix passed in 13.7 minutes. All 18 focused
+analytics/Batch 399 cases and 82 Python unittest cases pass. The 1,605-case
+full integration run remains in progress; see `reports/accessibility.md`.
+The deterministic 200-profile audit, public redaction audit, data/build
+reproducibility checks, and complete internal-link check passed on the
+integration build described above. These checks do not imply that
 all 49,548 external URLs or all historical profiles were individually verified.
 
 The live dependency-advisory audit was unavailable: the npm bulk-advisory

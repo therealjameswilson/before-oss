@@ -32185,6 +32185,9 @@ test("Batch 399 preserves Andre B Charise's Broadway role without inventing an e
     "Alberta Rasch Group Dancer",
   );
   await expect(page.locator("main")).toContainText("Actors and actresses");
+  await expect(page.getByRole("heading", { name: "Other documented affiliations and occupations", exact: true })).toBeVisible();
+  await expect(page.getByText("temporal relation uncertain", { exact: true })).toBeVisible();
+  await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText("Recorded at 1942-12-03");
   await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
     "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
   );
@@ -32217,6 +32220,9 @@ test("Batch 399 publishes three identifier-backed occupations without naming emp
     await expect(page.getByText("occupation only found", { exact: true }).first()).toBeVisible();
     await expect(page.locator("main")).toContainText(occupation);
     await expect(page.locator("main")).toContainText(entryDate);
+    await expect(page.getByRole("heading", { name: "Other documented affiliations and occupations", exact: true })).toBeVisible();
+    await expect(page.getByText("temporal relation uncertain", { exact: true })).toBeVisible();
+    await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).not.toContainText("Through ");
     await expect(page.locator('section[aria-labelledby="civilian-employer"]')).toContainText(
       "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed",
     );

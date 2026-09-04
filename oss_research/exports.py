@@ -7,6 +7,7 @@ from pathlib import Path
 
 from .constants import DERIVED_DIR, REPORTS_DIR
 from .db import utc_now
+from .analytics import VERIFIED_SQL
 
 
 def _write_csv(path: Path, fieldnames: list[str], rows: list[dict[str, object]]) -> None:
@@ -248,12 +249,11 @@ def coverage_report(connection: sqlite3.Connection) -> dict[str, object]:
         """
     )
     verified_affiliation_people = scalar(
-        """
+        f"""
         SELECT COUNT(DISTINCT a.person_id)
         FROM affiliations a
         JOIN person_entities pe ON pe.person_id = a.person_id
-        WHERE a.publication_status IN ('published', 'publish_qualified')
-          AND a.claim_confidence IN ('confirmed', 'high')
+        WHERE {VERIFIED_SQL}
           AND NOT EXISTS (
               SELECT 1 FROM entity_supersessions es
               WHERE es.superseded_person_id = pe.person_id
@@ -261,12 +261,11 @@ def coverage_report(connection: sqlite3.Connection) -> dict[str, object]:
         """
     )
     verified_employer_people = scalar(
-        """
+        f"""
         SELECT COUNT(DISTINCT a.person_id)
         FROM affiliations a
         JOIN person_entities pe ON pe.person_id = a.person_id
-        WHERE a.publication_status IN ('published', 'publish_qualified')
-          AND a.claim_confidence IN ('confirmed', 'high')
+        WHERE {VERIFIED_SQL}
           AND a.relationship_type IN ('employment', 'self_employment')
           AND NOT EXISTS (
               SELECT 1 FROM entity_supersessions es

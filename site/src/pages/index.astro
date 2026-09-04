@@ -2,6 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import StatCard from "../components/StatCard.astro";
 import stats from "../data/generated/stats.json";
+import analytics from "../data/generated/analytics.json";
 
 const base = import.meta.env.BASE_URL;
 const attempted = Number(stats.research_attempted_people).toLocaleString("en-US");
@@ -136,8 +137,9 @@ const notStarted = Number(stats.research_status_counts.not_started ?? 0);
         <div>
           <p class="lede">
             Every indexed person has a public research-status profile, including
-            unresolved and duplicate-candidate cases. The site presently has no
-            affiliation claim that meets its featured-profile threshold.
+            unresolved and duplicate-candidate cases. The reviewed profiles shown
+            here have a supported identity and a documented last civilian employer;
+            each profile separates that finding from its immediate OSS predecessor.
           </p>
           <p class="research-note">
             <strong>{notStarted.toLocaleString("en-US")}</strong> entities remain
@@ -145,16 +147,16 @@ const notStarted = Number(stats.research_status_counts.not_started ?? 0);
             so incomplete coverage cannot disappear behind a polished interface.
           </p>
         </div>
-        <div class="empty-state">
-          <h3>Featured profiles will appear only after review</h3>
-          <p>
-            A profile must have a confirmed or high-confidence identity and a
-            published source-supported pre-OSS affiliation. No placeholder
-            biographies or famous-name matches are substituted.
-          </p>
-          <a href={`${base}people/?research_status=not_started`}>
-            Browse current research-status profiles
-          </a>
+        <div>
+          <h3>Profiles with reviewed employer evidence</h3>
+          <ul class="count-list">
+            {analytics.featured_profiles.map(person => <li>
+              <div><a href={`${base}people/${person.person_id}/`}>{person.name}</a>
+                <p>{person.organization}{person.role ? ` · ${person.role}` : ""}</p>
+              </div>
+            </li>)}
+          </ul>
+          <p><a href={`${base}analysis/`}>Explore documented employers, sectors, and pathways</a></p>
         </div>
       </div>
     </div>
@@ -163,6 +165,23 @@ const notStarted = Number(stats.research_status_counts.not_started ?? 0);
   <section class="section">
     <div class="container">
       <p class="kicker">A source-first publication</p>
+      <h2>Documented in the current research dataset</h2>
+      <div class="analysis-grid">
+        {analytics.charts.filter(chart => ["last_civilian", "sectors"].includes(chart.key)).map(chart => (
+          <section aria-labelledby={`home-${chart.key}`}>
+            <h3 id={`home-${chart.key}`}>{chart.title}</h3>
+            <p class="chart-note">{chart.scope} Denominator: {chart.denominator} unique people, not source rows.
+              Confirmed/high claims and identities only; conflicts and uncertain timing excluded.
+              Research coverage: {stats.research_attempt_percent.toFixed(4)}%. Updated {stats.generated_at}.
+              Groups may overlap.</p>
+            <ul class="count-list">{chart.rows.slice(0, 5).map(row => <li>
+              {row.organization_id ? <a href={`${base}organizations/${row.organization_id}/`}>{row.label}</a> : <span>{row.label}</span>}
+              <strong>{row.count}</strong>
+            </li>)}</ul>
+            <p><a href={`${base}analysis/#chart-${chart.key}`}>Inspect the complete counted set</a></p>
+          </section>
+        ))}
+      </div>
       <h2>Claims remain inspectable down to the page and row.</h2>
       <div class="method-grid">
         <article class="method-card">

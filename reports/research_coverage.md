@@ -1,12 +1,12 @@
 # Research coverage
 
-Generated: 2026-09-03T20:16:31+00:00
+Generated: 2026-09-04T01:22:02+00:00
 
 ## Distinct coverage measures
 
 - Index coverage: **23,978 / 23,978** source rows linked (100.0000%).
 - Research-attempt coverage: **3,773 / 23,940** people (15.7602%).
-- Verified-affiliation coverage: **494 / 23,940** people (2.0635%).
+- Verified-affiliation coverage: **485 / 23,940** people (2.0259%).
 - Verified-employer coverage: **211 / 23,940** people (0.8814%).
 - Archival-review coverage: **3,726 / 23,940** people (15.5639%).
 
