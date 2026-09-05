@@ -118,9 +118,9 @@ artifacts from the first run were preserved outside the generated results
 folder. This is not represented as a clean first-run local pass. Independent
 GitHub Test `33925229525` then passed all 1,731 cases in 23.2 minutes. PR 166,
 Pages and pinned production verification succeeded as recorded at the top of
-this report. The redundant postmerge Test `33927323926` was still running at
-the time of this release record and is not substituted for the completed
-independent premerge result.
+this report. The redundant postmerge Test `33927323926` subsequently passed on
+the merged commit. It is additional confirmation, not a substitute for the
+completed independent premerge result.
 
 ```sh
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seventy-nine-chissell-through-choha-pathways_batch-409_2026-09-04.json

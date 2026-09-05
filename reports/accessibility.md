@@ -1,8 +1,15 @@
 # Accessibility and responsive QA
 
-Run: 2026-09-04 UTC
+Run: 2026-09-05 UTC
 
 ## Result
+
+Batch 410: the complete 1,743-case local browser/accessibility matrix passed
+cleanly across desktop, phone and tablet in 13.0 minutes with retries disabled.
+After a metadata-only source-tier and exact-name correction, the final tree's
+twelve focused cases passed in 13.4 seconds. The production build reports zero
+Astro errors, warnings or hints. Independent GitHub QA and deployment remain
+pending; see `reports/release_batch_410.md`.
 
 Batch 409: twelve focused checks pass across desktop, phone and tablet in 13.5
 seconds on the deterministic build. The first focused run served a stale built

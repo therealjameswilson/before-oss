@@ -1,0 +1,657 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Codex individual archival review, Batch 410",
+  "sources": [
+    {
+      "key": "index-b410",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; complete PDF pages 79-80 visually inspected; page 79 row 46 and page 80 rows 1-9; Box 122; location 230/86/28/06",
+      "access_date": "2026-09-04",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Citation and project-authored assessments only; no full source page or full private identifier reproduced."
+    },
+    {
+      "key": "army-series-b410",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "National Archives Identifier 604357; data file identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged 2002",
+      "locator": "Series description and public data-file pointer; the current public bulk-data routes were tested for the two eligible identifiers but did not return the data file",
+      "access_date": "2026-09-04",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Catalog citation and project-authored access note only. No raw response, candidate record or full private identifier retained. Failure to retrieve the current bulk file is not negative evidence about either person."
+    },
+    {
+      "key": "dartmouth-retiring-faculty-choukas-b410",
+      "stable_url": "https://archive.dartmouthalumnimagazine.com/article/1967/6/1/retiring-faculty",
+      "archival_identifier": "Dartmouth Alumni Magazine, June 1967",
+      "title": "Retiring Faculty",
+      "author_creator": "Dartmouth Alumni Magazine",
+      "repository_publisher": "Dartmouth College",
+      "publication_record_date": "1967-06-01",
+      "locator": "Michael E. Choukas section; web text lines 25-29; faculty chronology and OSS service",
+      "access_date": "2026-09-04",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Dartmouth Alumni Magazine archive",
+      "rights_notes": "Copyrighted institutional article; citation, short excerpts and project-authored paraphrases only."
+    },
+    {
+      "key": "dartmouth-oral-history-choukas-b410",
+      "stable_url": "https://www.dartmouth.edu/library/rauner/archives/oral_history/oh_interviews_pdf/Choukas_Michael.pdf",
+      "archival_identifier": "DOH-23",
+      "title": "Michael Choukas, Jr. '51: An Interview Conducted by Jane Carroll",
+      "author_creator": "Michael Choukas, Jr.; interviewed by Jane Carroll",
+      "repository_publisher": "Special Collections Library, Dartmouth College",
+      "publication_record_date": "1996-09-04 and 1996-09-11",
+      "locator": "Transcript physical page 2, lines 20-23, faculty tenure; physical page 5, lines 117-140, propaganda teaching and 1942 OSS recruitment",
+      "access_date": "2026-09-04",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Dartmouth Oral History Program",
+      "document_number": "DOH-23",
+      "rights_notes": "Institutional oral-history transcript; citation, short excerpts and project-authored paraphrases only. The legacy Dartmouth transcript URL now redirects to a moved-content notice; archival identifier DOH-23 is retained so the record can be requested or relocated."
+    },
+    {
+      "key": "milwaukee-obituary-nancy-andrews-b410",
+      "stable_url": "https://www.legacy.com/us/obituaries/jsonline/name/nancy-andrews-obituary?id=3802187",
+      "title": "Nancy Andrews Obituary",
+      "repository_publisher": "Milwaukee Journal Sentinel; republished by Legacy.com",
+      "publication_record_date": "2021-01-07 through 2021-01-10",
+      "locator": "Obituary body; Nancy Andrews née Chopela/Tsopelas identification and Washington-to-Cairo government/OSS chronology",
+      "access_date": "2026-09-04",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Copyrighted obituary; citation, short excerpts and project-authored paraphrases only. Unrelated family details are excluded."
+    },
+    {
+      "key": "korean-independence-stanley-choy-b410",
+      "stable_url": "https://search.i815.or.kr/dictionary/detail/print.do?id=6526",
+      "archival_identifier": "Korean Independence Movement Information System person-dictionary item 6526",
+      "title": "Korean Independence Movement Biographical Dictionary entry",
+      "author_creator": "Bae Young-mi",
+      "repository_publisher": "Independence Hall of Korea",
+      "locator": "Body paragraph naming OSS India-Burma Theater Sgt. 최창수 (Stanley Choy) as an interpreter in New Delhi in 1945",
+      "access_date": "2026-09-04",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Institutional historical reference; citation and project-authored paraphrase only. No unrelated personal details reproduced."
+    },
+    {
+      "key": "feefhs-chojnicki-b410",
+      "stable_url": "https://feefhs.org/node/300",
+      "title": "Polish Army in France Recruitment Records - Page 9, C",
+      "author_creator": "Federation of East European Family History Societies",
+      "repository_publisher": "Federation of East European Family History Societies",
+      "locator": "Alphabetical C index; exact Waclaw Chojnicki name entry",
+      "access_date": "2026-09-04",
+      "source_quality": "D_correlative_or_secondary",
+      "rights_notes": "Discovery and contextual index only. It is not treated as an OSS identity bridge or employment evidence."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "dartmouth-college",
+      "canonical_name": "Dartmouth College",
+      "historical_name": "Dartmouth College",
+      "aliases": [
+        "Dartmouth"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Hanover",
+      "state_or_region": "New Hampshire",
+      "country": "United States",
+      "active_dates": "1769-present",
+      "normalization_notes": "The historical institutional name is unchanged. Student attendance and employment are modeled as separate relationship types."
+    },
+    {
+      "key": "unspecified-united-states-federal-agency",
+      "canonical_name": "Unspecified United States federal agency",
+      "historical_name": "United States Government",
+      "aliases": [
+        "U.S. Government",
+        "United States government service"
+      ],
+      "organization_type": "unspecified United States federal agency",
+      "sector": "federal_government",
+      "country": "United States",
+      "normalization_notes": "The source names United States government work but not the agency. This record is not merged into a modern department or converted into a specific wartime agency."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "nancy-chopela-us-government-b410",
+      "person_id": "9259225a-2f15-589e-ba5d-fe40f44baba4",
+      "organization_key": "unspecified-united-states-federal-agency",
+      "organization_name_as_found": "U.S. Government",
+      "relationship_type": "government_assignment",
+      "date_precision": "The obituary places the Washington government work after business college and before her wartime transfer to Cairo; it supplies no agency or exact dates.",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The unusual indexed surname and direct OSS-in-Cairo chronology support a probable identity. The source does not name the employing agency, job title, college, exact transition date or personnel-file identifier; the relationship is therefore qualified and requires Box 122 review."
+    },
+    {
+      "key": "michael-choukas-dartmouth-employment-b410",
+      "person_id": "286cbf50-c5be-5404-b433-33584b7c9a1e",
+      "organization_key": "dartmouth-college",
+      "organization_name_as_found": "Dartmouth",
+      "role_title": "Professor of Sociology",
+      "occupation": "sociologist and professor",
+      "relationship_type": "employment",
+      "start_date": "1929",
+      "date_precision": "Dartmouth's faculty notice dates his return as a sociology instructor to 1929, promotion to assistant professor to 1934 and full professorship to 1940. The sources state he was recruited by OSS in 1942 but do not give a formal leave or employment-end date.",
+      "city": "Hanover",
+      "state_or_region": "New Hampshire",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Two Dartmouth sources independently connect the exact distinctive name, faculty role and 1942 OSS recruitment. They do not state the formal personnel action by which he left or took leave from Dartmouth, so immediacy is strongly date-bounded rather than explicit-immediate."
+    }
+  ],
+  "claims": [
+    {
+      "key": "nancy-chopela-identity-b410",
+      "person_id": "9259225a-2f15-589e-ba5d-fe40f44baba4",
+      "claim_type": "identity",
+      "claim_text": "Nancy Andrews, identified in her obituary as Nancy Chopela/Tsopelas, is a probable match to the indexed Nancy Chopela.",
+      "evidence_excerpt": "Nancy Andrews nee, Chopela/Tsopelas",
+      "evidence_paraphrase": "The obituary preserves the unusual Chopela surname and states that she worked for OSS in Cairo during World War II.",
+      "identity_match_assessment": "The exact unusual surname and first name occur with direct OSS context, but one later obituary without a personnel-file identifier is not enough for a confirmed or high-confidence match.",
+      "temporal_assessment": "The obituary places Washington government work before wartime OSS work in Cairo but supplies no exact appointment or transfer dates.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a probable match. The Tsopelas variant is retained as source context rather than a correction to the index spelling.",
+      "sources": [
+        {
+          "source_key": "index-b410",
+          "support_type": "supports",
+          "locator_override": "PDF page 80, row 4; Box 122"
+        },
+        {
+          "source_key": "milwaukee-obituary-nancy-andrews-b410",
+          "support_type": "supports",
+          "locator_override": "Obituary identification and OSS-in-Cairo paragraph"
+        }
+      ]
+    },
+    {
+      "key": "nancy-chopela-us-government-immediate-b410",
+      "person_id": "9259225a-2f15-589e-ba5d-fe40f44baba4",
+      "affiliation_key": "nancy-chopela-us-government-b410",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "A qualified obituary chronology indicates that Nancy Chopela worked for an unspecified U.S. Government agency in Washington immediately before OSS work in Cairo.",
+      "evidence_excerpt": "she worked for the U.S. Government in Washington, DC. After World War II began, she was sent to Cairo Egypt",
+      "evidence_paraphrase": "The obituary describes Washington government work followed by a wartime transfer to Cairo, where Chopela worked for OSS.",
+      "identity_match_assessment": "Probable identity based on the exact unusual first name and surname plus direct OSS context; no personnel-file identifier independently confirms the match.",
+      "temporal_assessment": "The narrative sequence supports probable immediacy, but no agency, job title, appointment date or transfer date is stated.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The broad U.S. Government description is preserved; the project does not invent an agency or treat business-college attendance as employment.",
+      "sources": [
+        {
+          "source_key": "milwaukee-obituary-nancy-andrews-b410",
+          "support_type": "supports",
+          "locator_override": "Washington government work followed by wartime OSS work in Cairo"
+        }
+      ]
+    },
+    {
+      "key": "nancy-chopela-us-government-last-civilian-b410",
+      "person_id": "9259225a-2f15-589e-ba5d-fe40f44baba4",
+      "affiliation_key": "nancy-chopela-us-government-b410",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "The same qualified chronology identifies an unspecified U.S. Government agency as Nancy Chopela's last documented civilian affiliation before OSS service.",
+      "evidence_paraphrase": "The obituary names no intervening civilian affiliation between her Washington government work and OSS work in Cairo.",
+      "identity_match_assessment": "Probable identity based on the uncommon name and OSS context; archival confirmation remains necessary.",
+      "temporal_assessment": "Probable rather than certain: a narrative sequence is present, but exact dates and the employing agency are absent.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Government assignment is not collapsed into a named employer; no unsupported agency is supplied.",
+      "sources": [
+        {
+          "source_key": "milwaukee-obituary-nancy-andrews-b410",
+          "support_type": "supports",
+          "locator_override": "Washington-to-Cairo wartime chronology"
+        }
+      ]
+    },
+    {
+      "key": "michael-choukas-identity-b410",
+      "person_id": "286cbf50-c5be-5404-b433-33584b7c9a1e",
+      "claim_type": "identity",
+      "claim_text": "The indexed Michael E. Choukas is a high-confidence match to the Dartmouth sociology professor recruited by OSS in 1942.",
+      "evidence_paraphrase": "Dartmouth's faculty history supplies the exact name and OSS service; a separate oral history dates his OSS recruitment to 1942 and describes the same propaganda expertise.",
+      "identity_match_assessment": "The exact distinctive full name with middle initial, Dartmouth class and faculty history, wartime Washington move, OSS organization and propaganda specialty form a coherent match across two institutional sources.",
+      "temporal_assessment": "The oral history explicitly dates OSS recruitment to 1942, while the faculty notice dates his professorship to 1940 and OSS departure to 1945.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The personnel file remains unreviewed, so the identity is high-confidence rather than confirmed by a unique archival identifier.",
+      "sources": [
+        {
+          "source_key": "index-b410",
+          "support_type": "supports",
+          "locator_override": "PDF page 80, row 6; Box 122"
+        },
+        {
+          "source_key": "dartmouth-retiring-faculty-choukas-b410",
+          "support_type": "supports",
+          "locator_override": "Michael E. Choukas section; faculty chronology and OSS service"
+        },
+        {
+          "source_key": "dartmouth-oral-history-choukas-b410",
+          "support_type": "supports",
+          "locator_override": "Transcript physical page 5, lines 117-140"
+        }
+      ]
+    },
+    {
+      "key": "michael-choukas-dartmouth-immediate-b410",
+      "person_id": "286cbf50-c5be-5404-b433-33584b7c9a1e",
+      "affiliation_key": "michael-choukas-dartmouth-employment-b410",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Michael E. Choukas's immediate pre-OSS affiliation was his Dartmouth College sociology professorship.",
+      "evidence_excerpt": "he was—because of this he was recruited by the OSS in 1942",
+      "evidence_paraphrase": "Dartmouth records show Choukas on its sociology faculty from 1929, a full professor in 1940, and recruited by OSS in 1942 because of his propaganda expertise.",
+      "identity_match_assessment": "High-confidence identity supported by the exact distinctive name and matching institutional, professional and OSS details in two Dartmouth sources.",
+      "temporal_assessment": "The faculty and recruitment chronology is strongly date-bounded to Dartmouth immediately before the 1942 OSS recruitment; no intervening affiliation is reported.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The record does not invent a formal leave date or characterize his OSS status as military service.",
+      "sources": [
+        {
+          "source_key": "dartmouth-retiring-faculty-choukas-b410",
+          "support_type": "supports",
+          "locator_override": "Web text lines 25-29"
+        },
+        {
+          "source_key": "dartmouth-oral-history-choukas-b410",
+          "support_type": "supports",
+          "locator_override": "Transcript physical page 5, lines 117-140"
+        }
+      ]
+    },
+    {
+      "key": "michael-choukas-dartmouth-last-civilian-b410",
+      "person_id": "286cbf50-c5be-5404-b433-33584b7c9a1e",
+      "affiliation_key": "michael-choukas-dartmouth-employment-b410",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Dartmouth College is Michael E. Choukas's last documented civilian employer before his OSS service.",
+      "evidence_excerpt": "returned to Dartmouth as an instructor in sociology in 1929",
+      "evidence_paraphrase": "Dartmouth's faculty account traces his employment from a 1929 instructorship through a 1940 full professorship and then directly to wartime OSS work.",
+      "identity_match_assessment": "High-confidence identity based on the exact distinctive name and consistent Dartmouth-to-OSS chronology across two institutional sources.",
+      "temporal_assessment": "Strongly date-bounded: Dartmouth employment is documented immediately before the 1942 OSS recruitment, with no intervening civilian employer in the reviewed sources.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Last civilian employer is modeled separately from immediate affiliation even though both point to Dartmouth in this case.",
+      "sources": [
+        {
+          "source_key": "dartmouth-retiring-faculty-choukas-b410",
+          "support_type": "supports",
+          "locator_override": "Web text lines 25-29"
+        },
+        {
+          "source_key": "dartmouth-oral-history-choukas-b410",
+          "support_type": "supports",
+          "locator_override": "Transcript physical pages 2 and 5"
+        }
+      ]
+    },
+    {
+      "key": "stanley-choy-identity-b410",
+      "person_id": "2e8e8232-d0ce-5c39-9319-4c9ecff60bf2",
+      "claim_type": "identity",
+      "claim_text": "An institutional Korean history identifies an OSS India-Burma Theater sergeant named Stanley Choy; it is a probable match to the index entry.",
+      "evidence_paraphrase": "The Independence Hall of Korea entry names Stanley Choy as an OSS sergeant who interpreted an interrogation in New Delhi in 1945.",
+      "identity_match_assessment": "The exact English name and direct OSS context support a probable match, but the source supplies no middle name, private identifier or Box 122 linkage.",
+      "temporal_assessment": "The entry documents an OSS assignment in New Delhi in 1945 but gives no pre-OSS employer or recruitment chronology.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a probable identity only. The Korean name form is retained as a search variant, not declared a correction to the index.",
+      "sources": [
+        {
+          "source_key": "index-b410",
+          "support_type": "supports",
+          "locator_override": "PDF page 80, row 9; Box 122"
+        },
+        {
+          "source_key": "korean-independence-stanley-choy-b410",
+          "support_type": "supports",
+          "locator_override": "Body paragraph on the 1945 New Delhi interrogation"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "309bceb3-860f-5ed0-98c3-667d46b24e7d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row was visually verified as Sgt Waclaw Chojnicki with the note 'Polish Ar.' A Polish Army in France recruitment index repeats the exact name but supplies no OSS, identifier or employment bridge.",
+      "replace_name_variants": false,
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 122 to establish nationality, unit, complete service identity, OSS assignment and the immediate pre-OSS military or civilian affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9ffc15bd-72c2-5e42-9465-a0ed8874ef47",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row was visually verified. Exact-name, OSS, CIA, employment, occupation, obituary, directory, newspaper, institutional and archival searches found no secure identity bridge. A French architect and postwar fire-protection results were rejected as unlinked namesakes or temporally irrelevant.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 122 and the original Army record to establish birth year, occupation, unit, OSS chronology and pre-OSS affiliation; the public Army bulk-data route was unavailable during this review.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3ce9a3d9-2931-54e1-98c9-02660f290020",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row was visually verified. Staged official, exact-name, OSS, employment, occupation, obituary, directory, newspaper, institutional and archival checks did not yield a reliable historical identity or dated pre-OSS affiliation.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 122 for birth year, hometown, service branch, OSS assignment and pre-OSS affiliation; do not assign postwar or common-name results without a direct bridge.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "995adb69-a654-5165-9539-62747ba289ea",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row was visually verified. Staged official, exact-name, OSS, employment, occupation, obituary, directory, newspaper, institutional and archival checks did not yield a secure identity bridge or pre-OSS affiliation.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 122 and the original Army record for name order, birth year, occupation, unit and OSS chronology; the public Army bulk-data route was unavailable during this review.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9259225a-2f15-589e-ba5d-fe40f44baba4",
+      "identity_status": "probable",
+      "identity_evidence": "A Milwaukee Journal Sentinel obituary uses the unusual Nancy Chopela/Tsopelas name and directly documents wartime OSS work in Cairo, but no private identifier or independent personnel-file bridge confirms the index match.",
+      "name_variants": [
+        "Nancy Andrews",
+        "Nancy Chopela",
+        "Nancy Tsopelas"
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 122 to confirm the identity, name variants, unnamed Washington government agency, job title and transfer chronology into OSS Cairo.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2663104c-b24d-5f9b-8f99-1e03069d69f7",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row was visually verified. Staged official, exact-name, OSS, employment, occupation, obituary, directory, newspaper, institutional and archival checks found no sufficiently specific identity or pre-OSS affiliation.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 122 for full name, spelling variants, birth year, service branch, OSS assignment and prior affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "286cbf50-c5be-5404-b433-33584b7c9a1e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Two Dartmouth sources connect the exact distinctive Michael E. Choukas name and sociology professorship to wartime OSS work; the oral history dates his recruitment to 1942 and ties it to his propaganda expertise.",
+      "name_variants": [
+        "Michael E. Choukas",
+        "Michael Choukas"
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 122 to confirm the formal Dartmouth leave or separation, OSS appointment status and exact service chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8cdf8f9f-b6fa-5590-8af0-54411b403936",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row and its nonstandard printed identifier were visually verified. Staged official, exact-name, OSS, employment, occupation, obituary, directory, newspaper, institutional and archival checks did not yield a secure identity bridge.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 122 to interpret the printed identifier, establish full identity and determine the immediate pre-OSS affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f9b5c7d6-c2cd-54b9-95eb-0af098f1db1f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row was visually verified. The common name and initial produced no source with sufficient OSS or identifier context to distinguish this person from namesakes or establish a pre-OSS affiliation.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 122 for complete name, birth year, nationality, OSS assignment and prior affiliation; require corroborating identifiers beyond the name.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2e8e8232-d0ce-5c39-9319-4c9ecff60bf2",
+      "identity_status": "probable",
+      "identity_evidence": "An Independence Hall of Korea biographical entry supplies the exact English name and identifies Sgt. Stanley Choy in the OSS India-Burma Theater in New Delhi in 1945; no private identifier or Box 122 bridge confirms the match.",
+      "name_variants": [
+        "Stanley Choy",
+        "최창수"
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 122 to confirm the Korean name form, military status, India-Burma assignment and any pre-OSS employer or military pathway.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b410-person-waclaw-chojnicki-review",
+      "person_id": "309bceb3-860f-5ed0-98c3-667d46b24e7d",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index pages 79-80 context; exact-name and diacritic-variant OSS/CIA searches; Polish Army, employment, occupation, obituary, institutional, newspaper and archival checks for Waclaw Chojnicki; FEEFHS body inspected.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T22:30:00Z",
+      "completed_at": "2026-09-04T23:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The Polish Army recruitment index lacks an OSS, private-identifier or employment bridge; spelling variants were not adopted as corrections.",
+      "research_notes": "The visually verified index rank and note support only the transparent Allied-military classification. Bounded individual adjudication, not an exhaustive no-result conclusion. No physical file, raw bulk record or authenticated Catalog payload is retained.",
+      "next_action": "Review Box 122 to establish nationality, unit, complete service identity, OSS assignment and the immediate pre-OSS military or civilian affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch410-v1"
+    },
+    {
+      "key": "b410-person-roger-cholin-review",
+      "person_id": "9ffc15bd-72c2-5e42-9465-a0ed8874ef47",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 80 context and Army-series access check; exact-name and initial variants with OSS/CIA; employment, occupation, obituary, institutional, directory, newspaper and archival checks for Roger R Cholin.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T22:30:00Z",
+      "completed_at": "2026-09-04T23:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "A French architect is a different namesake; postwar fire-protection, patent and vertical-file results lack a pre-OSS chronology or secure index bridge.",
+      "research_notes": "The current public Army bulk-data routes returned access errors or a web shell rather than the data file, so no identifier adjudication was claimed. Access failure is not negative evidence. No full private identifier or authenticated Catalog payload is retained.",
+      "next_action": "Review Box 122 and the original Army record to establish birth year, occupation, unit, OSS chronology and pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch410-v1"
+    },
+    {
+      "key": "b410-person-michael-choma-review",
+      "person_id": "3ce9a3d9-2931-54e1-98c9-02660f290020",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 80 context; exact-name and initial variants with OSS/CIA; employment, occupation, obituary, institutional, directory, newspaper and archival checks for Michael G Choma.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T22:30:00Z",
+      "completed_at": "2026-09-04T23:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Postwar federal and common-name results do not identify the indexed person or establish a pre-OSS chronology.",
+      "research_notes": "Bounded individual adjudication, not an exhaustive no-result conclusion. Snippets and search pages are not counted as evidence. No physical file or authenticated Catalog payload is retained.",
+      "next_action": "Review Box 122 for birth year, hometown, service branch, OSS assignment and pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch410-v1"
+    },
+    {
+      "key": "b410-person-bay-chong-review",
+      "person_id": "995adb69-a654-5165-9539-62747ba289ea",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 80 context and Army-series access check; cautious Western and East Asian name-order variants with OSS/CIA; employment, occupation, obituary, institutional, directory, newspaper and archival checks for Bay Y Chong.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T22:30:00Z",
+      "completed_at": "2026-09-04T23:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Common-name and reordered-name candidates lacked OSS context and a private-identifier bridge.",
+      "research_notes": "The current public Army bulk-data routes did not return the data file, so no identifier match or miss was claimed. Bounded individual adjudication; no raw record, full private identifier or authenticated Catalog payload is retained.",
+      "next_action": "Review Box 122 and the original Army record for name order, birth year, occupation, unit and OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch410-v1"
+    },
+    {
+      "key": "b410-person-nancy-chopela-review",
+      "person_id": "9259225a-2f15-589e-ba5d-fe40f44baba4",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 80 context; exact Chopela and Tsopelas variants with OSS/CIA and Cairo; employment, government-work, occupation, obituary, institutional, directory, newspaper and archival checks for Nancy Chopela; Milwaukee obituary body inspected.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T22:30:00Z",
+      "completed_at": "2026-09-04T23:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "No independent personnel-file identifier or official source confirmed the probable obituary match; the unnamed business college was not assigned as an employer.",
+      "research_notes": "The obituary supports a qualified probable identity and probable Washington-government-to-OSS chronology only. Unrelated family details are excluded. No physical file, full page body or authenticated Catalog payload is retained.",
+      "next_action": "Review Box 122 to confirm the identity, name variants, unnamed Washington government agency, job title and transfer chronology into OSS Cairo.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch410-v1"
+    },
+    {
+      "key": "b410-person-john-choptowich-review",
+      "person_id": "2663104c-b24d-5f9b-8f99-1e03069d69f7",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 80 context; exact-name and spelling variants with OSS/CIA; employment, occupation, obituary, institutional, directory, newspaper and archival checks for John Choptowich.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T22:30:00Z",
+      "completed_at": "2026-09-04T23:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "No body-level source supplied a secure OSS identity bridge or dated pre-OSS affiliation; spelling variants remain search aliases only.",
+      "research_notes": "Bounded individual adjudication, not an exhaustive no-result conclusion. Snippets and search pages are not evidence. No physical file or authenticated Catalog payload is retained.",
+      "next_action": "Review Box 122 for full name, spelling variants, birth year, service branch, OSS assignment and prior affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch410-v1"
+    },
+    {
+      "key": "b410-person-michael-choukas-review",
+      "person_id": "286cbf50-c5be-5404-b433-33584b7c9a1e",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 80 context; exact-name and initial variants with OSS/CIA; Dartmouth faculty, employment, propaganda, occupation, obituary, institutional, newspaper and archival checks for Michael E Choukas; two Dartmouth source bodies inspected.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T22:30:00Z",
+      "completed_at": "2026-09-04T23:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Derivative biography results were unnecessary once two Dartmouth sources established the faculty and OSS chronology; no source was used to invent a leave or separation date.",
+      "research_notes": "Two institutional sources support a high-confidence identity, verified Dartmouth employment, strongly date-bounded immediate affiliation and last civilian employer. Bounded individual adjudication; no full copyrighted body or authenticated Catalog payload is retained.",
+      "next_action": "Review Box 122 to confirm the formal Dartmouth leave or separation, OSS appointment status and exact service chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch410-v1"
+    },
+    {
+      "key": "b410-person-alma-choy-review",
+      "person_id": "8cdf8f9f-b6fa-5590-8af0-54411b403936",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 80 context; exact-name and initial variants with OSS/CIA; printed-identifier context; employment, occupation, obituary, institutional, directory, newspaper and archival checks for Alma H Choy.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T22:30:00Z",
+      "completed_at": "2026-09-04T23:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Common-name and modern results lacked OSS context; the printed identifier was preserved without speculative expansion or cross-system comparison.",
+      "research_notes": "Bounded individual adjudication, not an exhaustive no-result conclusion. No full private identifier, physical file or authenticated Catalog payload is retained.",
+      "next_action": "Review Box 122 to interpret the printed identifier, establish full identity and determine the immediate pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch410-v1"
+    },
+    {
+      "key": "b410-person-chin-choy-review",
+      "person_id": "f9b5c7d6-c2cd-54b9-95eb-0af098f1db1f",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 80 context; exact-name and cautious name-order variants with OSS/CIA; employment, occupation, obituary, institutional, directory, newspaper and archival checks for Chin H Choy.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T22:30:00Z",
+      "completed_at": "2026-09-04T23:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Common-name and reordered-name results did not provide two identifiers beyond the name or a dated pre-OSS affiliation.",
+      "research_notes": "Bounded individual adjudication, not an exhaustive no-result conclusion. Search pages and snippets are not evidence. No physical file or authenticated Catalog payload is retained.",
+      "next_action": "Review Box 122 for complete name, birth year, nationality, OSS assignment and prior affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch410-v1"
+    },
+    {
+      "key": "b410-person-stanley-choy-review",
+      "person_id": "2e8e8232-d0ce-5c39-9319-4c9ecff60bf2",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 80 context; exact-name and Korean-name variants with OSS/CIA and India-Burma/New Delhi; employment, occupation, obituary, institutional, newspaper and archival checks for Stanley Choy; Independence Hall of Korea body inspected.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-04T22:30:00Z",
+      "completed_at": "2026-09-04T23:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Modern professional namesakes and an unsourced secondary profile were rejected; the institutional Korean source lacks a private identifier and pre-OSS chronology.",
+      "research_notes": "The institutional body supports a qualified probable OSS identity only. Bounded individual adjudication, not an exhaustive no-result conclusion. No physical file, full copyrighted body or authenticated Catalog payload is retained.",
+      "next_action": "Review Box 122 to confirm the Korean name form, military status, India-Burma assignment and any pre-OSS employer or military pathway.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch410-v1"
+    }
+  ]
+}

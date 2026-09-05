@@ -1,6 +1,20 @@
 # Link check
 
-Run: 2026-09-04 UTC
+Run: 2026-09-05 UTC
+
+## Batch 410 local
+
+All internal targets resolve across 24,458 HTML pages; 49,585 external URLs are
+inventoried, not all visited. Identifier checks cover all 24,530 artifacts with
+zero unexpected boundary, aggregate or manifest-size matches. Manifest: 67
+assets / 83,819,345 bytes; SHA-256
+`a3249d48dbb174000f46d2e9748a65153d57c755a7906eb2211cbcd6fb958b05`.
+Repeated public-data and production builds match byte-for-byte. Five of seven
+Batch 410 citation URLs returned the expected source to an ordinary HEAD check;
+the legacy Dartmouth transcript redirected to a moved-content notice and
+Legacy returned 403. Both source bodies had been reviewed earlier, their
+limitations are disclosed, and no access control was bypassed. Independent
+GitHub QA and deployment remain pending; see `reports/release_batch_410.md`.
 
 ## Batch 409 local
 

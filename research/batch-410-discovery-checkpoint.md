@@ -1,10 +1,10 @@
 # Batch 410 discovery checkpoint
 
-2026-09-04 UTC. **Discovery only; no outcomes imported and no completion credit
-claimed.** Continue PDF page 79 row 46 and page 80 rows 1-9, Box 122,
-location 230/86/28/06. All ten people remain `not_started` in the durable queue.
-This checkpoint intentionally excludes every printed or external service
-identifier.
+2026-09-04 UTC. Discovery began with PDF page 79 row 46 and page 80 rows
+1-9, Box 122, location 230/86/28/06. The page boundary and all ten rows were
+subsequently visually verified; the reviewed outcomes were imported through
+the Batch 410 evidence bundle. This checkpoint intentionally excludes every
+printed or external service identifier.
 
 | PDF row | Indexed display | Person ID | Printed context |
 |---|---|---|---|
@@ -19,7 +19,7 @@ identifier.
 | 80:8 | Chin H Choy | f9b5c7d6-c2cd-54b9-95eb-0af098f1db1f | Box 122 |
 | 80:9 | Stanley Choy | 2e8e8232-d0ce-5c39-9319-4c9ecff60bf2 | Box 122 |
 
-## Body-level leads already inspected
+## Body-level leads inspected
 
 - Dartmouth College's 1967 retiring-faculty notice identifies Michael E.
   Choukas as a Dartmouth sociology instructor from 1929, assistant professor
@@ -58,11 +58,33 @@ body-level evidence beyond the NARA index in this first stage. A French
 architect named Roger Cholin and modern/common-name results are unassigned
 namesakes. No CIA Reading Room result was accepted for any of the ten.
 
-Next: visually inspect the page boundary; run the official Army comparison for
-the two eligible numeric identifiers without storing raw rows; inspect
-Dartmouth's employment chronology and the Nancy Chopela and Stanley Choy source
-contexts; then complete employment, institutional/newspaper, obituary and
-archival query stages for every person. Do not promote a Dartmouth affiliation,
-unnamed government work, Polish Army note, or Stanley Choy identity until the
-separate identity and temporal assessments are complete. No authenticated
-Catalog request or exposed API credential was used.
+## Adjudicated outcome
+
+- Michael E. Choukas receives a high-confidence identity and published,
+  high-confidence Dartmouth College employment. His faculty chronology begins
+  in 1929, he was a full professor by 1940, and a Dartmouth oral history dates
+  his OSS recruitment to 1942. Dartmouth is therefore marked as both the
+  strongly date-bounded immediate pre-OSS affiliation and last civilian
+  employer; no leave or separation date is invented.
+- Nancy Chopela receives a probable identity and a visibly qualified,
+  medium-confidence unnamed U.S. Government assignment in Washington before
+  OSS Cairo. The agency and business college remain unnamed, the relationship
+  is not mislabeled as ordinary employment, and Box 122 review is still
+  required.
+- Stanley Choy receives a probable identity link to an OSS India-Burma Theater
+  sergeant and interpreter in New Delhi in 1945. This establishes no pre-OSS
+  affiliation and remains archive-routed.
+- Waclaw Chojnicki is transparently classified as foreign or Allied military
+  personnel from the verified printed `Sgt` and `Polish Ar` fields. The exact
+  Polish Army name lead is discovery context only; identity and pre-OSS pathway
+  remain unresolved.
+- Roger R. Cholin, Michael G. Choma, Bay Y. Chong, John Choptowich, Alma H.
+  Choy and Chin H. Choy remain unresolved after the saved staged protocol and
+  are routed to Box 122. The public Army bulk-data route was unavailable for
+  the two eligible comparisons, so no identifier outcome is claimed.
+
+All ten durable statuses are terminal for this bounded review: Michael Choukas
+is `verified_employer_found`; the other nine are
+`requires_archival_review`. The evidence bundle contains the queries, sources
+reviewed, rejected candidates, rejection reasons and next action for each
+person. No authenticated Catalog request or exposed API credential was used.
