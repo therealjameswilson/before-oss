@@ -4,6 +4,14 @@ Run: 2026-09-05 UTC
 
 ## Result
 
+Batch 421: the complete 1,914-case local browser/accessibility matrix passed
+1,914/1,914 across desktop, phone and tablet in 15.6 minutes with retries
+disabled. Twenty-four focused browser and accessibility checks pass across
+desktop, phone and tablet in 15.4 seconds on consecutive deterministic Pages-
+configuration builds. The production build reports zero Astro errors,
+warnings or hints. Independent GitHub QA and deployment remain pending; see
+`reports/release_batch_421.md`.
+
 Batch 420: the complete 1,890-case local browser/accessibility matrix passed
 1,890/1,890 across desktop, phone and tablet in 15.7 minutes with retries
 disabled. Twenty-four final focused browser and accessibility checks pass
@@ -11,7 +19,9 @@ across desktop, phone and tablet in 15.3 seconds on consecutive deterministic
 Pages-configuration builds. The first authoring run had twelve assertion
 failures caused by test-string and absent-section assumptions; only the tests
 were corrected, without changing evidence or site behavior. The production
-build reports zero Astro errors, warnings or hints; see
+build reports zero Astro errors, warnings or hints. Independent GitHub Test
+`33955136725`, PR 177, Pages `33956876406` and pinned live verification
+subsequently passed; see
 `reports/release_batch_420.md`.
 
 Batch 419: the complete 1,866-case local browser/accessibility matrix passed
