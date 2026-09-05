@@ -2,6 +2,24 @@
 
 Run: 2026-09-05 UTC
 
+## Batch 415 local
+
+All internal targets resolve across 24,460 HTML pages; 49,590 external URLs are
+inventoried, not all visited. Identifier checks cover all 24,532 artifacts,
+12,926 normalized identifiers, 120 formatted variants and 1,082 candidate
+substring coincidences with zero unexpected boundary, aggregate or
+manifest-size matches. A separate scan finds zero private-identifier boundary
+matches in the tracked Batch 415 evidence bundle. Manifest: 67 assets /
+84,060,716 bytes; SHA-256
+`42704b117039756d67ac3e1054831a8f445c8f0104be78f2a2abde71a8f43c7e`.
+A full replay from the frozen PDF reproduces the 70-file public tree at SHA-256
+`4bd00fb295879cd6bae94fc40f9ced8809fb0ce8f1c7c50ce7aa067892d19577`.
+Consecutive 24,532-file Pages-configuration production trees match at SHA-256
+`e1bb7a5c939a3a6141245026cd9824c7dc91e0fb59f3ac9fbfecece70de4b6df`.
+All six Batch 415 citation destinations returned HTTP 200. No authenticated
+Catalog request or access-control bypass was used. Independent GitHub QA and
+deployment remain pending; see `reports/release_batch_415.md`.
+
 ## Batch 414 local
 
 All internal targets resolve across 24,460 HTML pages; 49,589 external URLs are
@@ -17,8 +35,11 @@ Consecutive 24,532-file production trees match at SHA-256
 Five of seven Batch 414 citation destinations returned HTTP 200. Hoover and
 Library of Congress returned HTTP 403 to the automated check after the exact
 source images were visually reviewed; no access control was bypassed. No
-authenticated Catalog request was used. Independent GitHub QA and deployment
-remain pending; see `reports/release_batch_414.md`.
+authenticated Catalog request was used. Independent GitHub Test
+`33943189306`, PR 171 and Pages `33944865714` passed. Pinned verification
+against `1eae15433e864fe5bbc3555d18d0fcfdfcb7ad27` matched all 67 assets /
+84,019,625 bytes, seven core routes and ten direct cohort profiles; see
+`reports/release_batch_414.md`.
 
 ## Batch 413 local
 

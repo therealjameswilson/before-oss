@@ -1,7 +1,7 @@
 # Batch 414 release verification
 
-2026-09-05 UTC. **Local release candidate; not yet merged or deployed.** This
-report covers ten people across PDF page 80 rows 40-46 and page 81 rows 1-3,
+2026-09-05 UTC. **Released and pinned-live verified.** This report covers ten
+people across PDF page 80 rows 40-46 and page 81 rows 1-3,
 John B Christopher through Walter J Chuckro. The page 80 rows span Boxes
 123-124; the page 81 rows are in Box 124.
 
@@ -148,8 +148,9 @@ checks pass across desktop, phone and tablet on the final build.
 
 The complete 1,782-case local browser/accessibility matrix passed 1,782/1,782
 in 15.1 minutes across desktop, phone and tablet with retries disabled.
-Independent GitHub QA, merge, Pages deployment and pinned live verification
-remain subsequent release gates.
+Independent GitHub Test `33943189306` passed in 36 minutes 37 seconds. PR 171
+merged as `a5dfe317e9b9f89a9f1bc1f9bbf7df07fad8c94e`, and Pages run
+`33944865714` succeeded.
 
 Final manifest: 67 assets / 84,019,625 bytes; SHA-256
 `89adc6e284738b24ec3fdffc83dce5c54859a802e8e65b6b9818b6be07f30529`.
@@ -158,6 +159,10 @@ Public tree: 70 files, SHA-256
 Production tree: 24,532 files, SHA-256
 `0e51debd489c3b637442a2bda1f3987ef90c6ef3d1ec8d1b2bb307ab7de8d705`.
 Tree digests use sorted relative paths, NUL separators and binary file hashes.
+
+Pinned post-deployment verification against source commit
+`1eae15433e864fe5bbc3555d18d0fcfdfcb7ad27` matched all 67 manifest assets
+totaling 84,019,625 bytes, seven core routes and ten direct cohort profiles.
 
 ```sh
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eighty-john-b-christopher-through-page-eighty-one-walter-j-chuckro-pathways_batch-414_2026-09-05.json
