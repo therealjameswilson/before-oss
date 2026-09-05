@@ -1,0 +1,569 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Codex individual archival review, Batch 415",
+  "sources": [
+    {
+      "key": "index-b415",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; complete PDF page 81 visually inspected at 150 dpi; rows 4-13; Box 124; location 230/86/28/06",
+      "access_date": "2026-09-05",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Citation and project-authored assessments only; no full source page, raw bulk record or full private identifier reproduced."
+    },
+    {
+      "key": "army-b415",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.zip; complete transient scan of 9,200,232 fixed-width records; six supplied private identifiers and exact-name candidates compared without padding or prefix guesses; two accepted identifier-backed matches, one identifier/name conflict and three identifier no-hits",
+      "access_date": "2026-09-05",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "Reviewed transiently outside version control. No raw row, full private identifier or API response is retained. The merged file is incomplete, so absence is not negative proof."
+    },
+    {
+      "key": "basic-b415",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-45; fixed-width field layout for name, residence, Army entry date, grade, branch, birth-year code and civilian occupation; visually and textually checked",
+      "access_date": "2026-09-05",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only. The documentation warns about alternate card layouts and coding limits; the merged file is not treated as a complete roster."
+    },
+    {
+      "key": "codes-b415",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical page 172 / printed XII-XIII for value 3-16 and physical page 178 / printed XXIV-XXV for value 6-88; both full pages visually and textually checked",
+      "access_date": "2026-09-05",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Government code list inspected as full rendered pages; only the short occupational labels are retained. The codes do not name employers or workplaces."
+    },
+    {
+      "key": "chuleas-obituary-b415",
+      "stable_url": "https://obits.mlive.com/us/obituaries/flint/name/constantine-chuleas-obituary?id=22786801",
+      "title": "Constantine W. ‘Gus’ Chuleas obituary",
+      "author_creator": "Flint Journal obituary staff and family notice",
+      "repository_publisher": "Flint Journal via Legacy.com",
+      "publication_record_date": "2010-11-16 to 2010-11-18",
+      "locator": "Obituary body; identity, birth and World War II Army/OSS service paragraph",
+      "access_date": "2026-09-05",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Used only to corroborate identity and wartime Army/OSS service. Its named entertainment work lasted into the postwar period and is not treated as pre-OSS employment."
+    },
+    {
+      "key": "ossog-roster-b415",
+      "stable_url": "https://ossog.info/personnel.html",
+      "title": "Office of Strategic Services Operational Groups personnel roster",
+      "author_creator": "OSS Operational Groups historical research project",
+      "repository_publisher": "ossog.info",
+      "publication_record_date": "undated; site describes list as under construction",
+      "locator": "Greek Operations, Greek Group VI personnel list; 1st Lt. George Chumas",
+      "access_date": "2026-09-05",
+      "source_quality": "D_correlative_or_secondary",
+      "rights_notes": "Retained only as a low-confidence identity lead. The roster does not supply the index number, a pre-OSS affiliation or a named civilian employer."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "jerome-chudej-occupation-b415",
+      "person_id": "16e04c43-c477-574f-8f47-ab51f1914b49",
+      "occupation": "Farm hands, general farms",
+      "relationship_type": "unknown",
+      "date_precision": "The Army record carries a 20 April 1942 entry date; the actual work dates and temporal relationship to OSS service are unestablished.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The official Army entry records an occupational category but names no farm, employer, location, work dates or self-employment. It is not converted into an immediate pre-OSS affiliation or last civilian employer."
+    },
+    {
+      "key": "constantine-chuleas-occupation-b415",
+      "person_id": "3c0feb4f-c51b-562d-a678-91c5aebb8619",
+      "occupation": "Stamping occupations in mechanical treatment of metals",
+      "relationship_type": "unknown",
+      "date_precision": "The Army record carries a 20 November 1942 entry date; the actual work dates and temporal relationship to OSS service are unestablished.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The official Army entry records an occupational category but names no employer, factory, metal product, location or work dates. Flint context is not used to infer an automobile employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-jerome-chudej-b415",
+      "person_id": "16e04c43-c477-574f-8f47-ab51f1914b49",
+      "claim_type": "identity",
+      "claim_text": "Jerome H Chudej has a high-confidence identifier-backed Army record match.",
+      "evidence_paraphrase": "The private identifier, surname and middle initial match an Army entry dated 20 April 1942; the Army name field reads Jero rather than the index's Jerome.",
+      "identity_match_assessment": "Exact private identifier, surname and middle initial with a one-letter given-name difference; assessed high confidence rather than confirmed.",
+      "temporal_assessment": "The Army entry establishes a wartime observation but not the date or route of later OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The private identifier is masked publicly. Jero H Chudej is retained as a documented Army-source spelling, not a correction to the index.",
+      "sources": [
+        {
+          "source_key": "index-b415",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b415",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "occupation-jerome-chudej-b415",
+      "person_id": "16e04c43-c477-574f-8f47-ab51f1914b49",
+      "affiliation_key": "jerome-chudej-occupation-b415",
+      "claim_type": "occupation",
+      "claim_text": "The Army entry records the occupational category ‘Farm hands, general farms.’",
+      "evidence_excerpt": "Farm hands, general farms",
+      "evidence_paraphrase": "The identifier-backed Army record carries occupation value 316, which the inspected NARA code page labels Farm hands, general farms.",
+      "identity_match_assessment": "Exact private identifier, surname and middle initial with a one-letter given-name difference; assessed high confidence.",
+      "temporal_assessment": "Observed with an Army entry date of 20 April 1942; temporal relationship to OSS entry remains uncertain.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No named farm, employer, location, work dates or self-employment is inferred from the occupational category.",
+      "sources": [
+        {
+          "source_key": "army-b415",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "basic-b415",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b415",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-constantine-chuleas-b415",
+      "person_id": "3c0feb4f-c51b-562d-a678-91c5aebb8619",
+      "claim_type": "identity",
+      "claim_text": "Constantine W Chuleas has a high-confidence identifier-backed Army record match corroborated by a published obituary.",
+      "evidence_paraphrase": "The exact private identifier and indexed name match an Army entry dated 20 November 1942. A Flint Journal obituary independently gives the exact name Constantine W. Chuleas and documents World War II Army and OSS service.",
+      "identity_match_assessment": "Exact full name and exact private identifier in an official Army record, independently corroborated by an exact-name obituary that names Army and OSS service; assessed high confidence.",
+      "temporal_assessment": "The Army entry date establishes a wartime observation; the obituary confirms service but not the date of OSS entry or the immediately preceding affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The private identifier is masked publicly. The obituary's long postwar entertainment work is outside the pre-OSS claim and is not projected backward.",
+      "sources": [
+        {
+          "source_key": "index-b415",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b415",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "chuleas-obituary-b415",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "occupation-constantine-chuleas-b415",
+      "person_id": "3c0feb4f-c51b-562d-a678-91c5aebb8619",
+      "affiliation_key": "constantine-chuleas-occupation-b415",
+      "claim_type": "occupation",
+      "claim_text": "The Army entry records the occupational category ‘Stamping occupations in mechanical treatment of metals.’",
+      "evidence_excerpt": "Stamping occupations in mechanical treatment of metals",
+      "evidence_paraphrase": "The identifier-backed Army record carries occupation value 688, which the inspected NARA code page labels Stamping occupations in mechanical treatment of metals.",
+      "identity_match_assessment": "Exact indexed name plus exact private identifier, independently supported by an exact-name Army/OSS obituary; assessed high confidence.",
+      "temporal_assessment": "Observed with an Army entry date of 20 November 1942; temporal relationship to OSS entry remains uncertain.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No named employer, factory, metal product, work location or employment period is inferred. Flint residence and later memberships do not justify assigning an automobile company.",
+      "sources": [
+        {
+          "source_key": "army-b415",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "basic-b415",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b415",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "candidate-george-chumas-b415",
+      "person_id": "6e8ef3e4-41ae-5e38-9a7b-a129e1ba0d7d",
+      "claim_type": "identity",
+      "claim_text": "An exact-name OSS Greek Operational Group candidate remains in the private research review system.",
+      "evidence_paraphrase": "A specialist OSS Operational Groups roster lists 1st Lt. George Chumas with Greek Group VI, but it supplies no identifier that connects the entry to Box 124.",
+      "identity_match_assessment": "Distinctive exact-name and OSS-context lead, but no private identifier, birth datum, hometown or personnel-file bridge; insufficient for publication as the indexed person.",
+      "temporal_assessment": "The roster concerns OSS service itself and establishes no pre-OSS employer or immediate predecessor assignment.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "The roster describes itself as under construction. A commercial militaria listing and a forum post were discovery leads only; a 1931-born obituary is chronologically impossible and was rejected.",
+      "sources": [
+        {
+          "source_key": "ossog-roster-b415",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-conflict-chin-h-chung-b415",
+      "person_id": "471aa9c5-0899-54a7-91d1-160ade15dcfc",
+      "claim_type": "identity",
+      "claim_text": "Chin H Chung has an unresolved service-identifier/name conflict.",
+      "evidence_paraphrase": "The exact private identifier returns an Army entry naming Edward F Foster rather than Chin H Chung.",
+      "identity_match_assessment": "The identifier agrees, but the entire first, middle and last name conflicts. The Army occupation cannot be assigned to the indexed person without direct correction evidence.",
+      "temporal_assessment": "The conflicting Army entry is dated 22 October 1942; no occupation or recruitment chronology is accepted from it.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The printed index row remains unchanged and the full identifier remains private. Box 124 and the original Army card require review.",
+      "sources": [
+        {
+          "source_key": "index-b415",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b415",
+          "support_type": "supports"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "16e04c43-c477-574f-8f47-ab51f1914b49",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact private identifier, surname and middle initial match an official Army entry dated 20 April 1942; the Army source reads Jero rather than the index's Jerome, so the match remains high confidence rather than confirmed.",
+      "name_variants": [
+        "Jerome H Chudej",
+        "Jerome H. Chudej",
+        "Jero H Chudej",
+        "Jero H. Chudej"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 124 for Jerome H Chudej's complete name, named employer or farm, work dates and route from Army entry into OSS service.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "73f5f637-3a2b-5851-a47e-daaea7b81fb2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The W-prefixed private index number is absent from the Army enlisted merged file, and accessible exact-name official, OSS, obituary, institutional and newspaper searches did not establish a second identifier. The prefix is preserved without inferring rank or warrant status.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 124 to determine what Raymond A Chuipek's W-prefixed number represents and establish his personnel category and pre-OSS history.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3c0feb4f-c51b-562d-a678-91c5aebb8619",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and private identifier match an official Army entry dated 20 November 1942. A Flint Journal obituary independently gives the exact name and documents World War II Army and OSS service.",
+      "name_variants": [
+        "Constantine W Chuleas",
+        "Constantine W. Chuleas",
+        "Constantine W. \"Gus\" Chuleas"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 124 for Constantine W Chuleas's named pre-Army employer, metal-stamping workplace and Army-to-OSS chronology.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6e8ef3e4-41ae-5e38-9a7b-a129e1ba0d7d",
+      "identity_status": "unresolved",
+      "identity_evidence": "A specialist roster lists a 1st Lt. George Chumas in OSS Greek Group VI, but it supplies no index number or second identifying datum. The exact-name Army enlisted candidate carries a different identifier, and the printed seven-digit value was not padded.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 124 for an officer-service number, birth year or hometown that can test the Greek Group VI lead and establish George Chumas's pre-OSS pathway.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "99a32b71-d20c-5e91-872f-a8262b30444f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The exact private identifier is absent from the Army merged file. Accessible exact-name OSS, CIA, obituary, directory and newspaper searches did not produce a Box 124 or second-identifier bridge; similarly named genealogy entries remain unverified.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 124 for Raymond L Chumbley's birth year, hometown, branch and pre-OSS affiliation.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e806fa99-e940-52c2-b617-a8e986a6458e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies no private identifier. One exact-name Army row cannot be selected without a second identifying datum, and an unsourced genealogy lead and broad institutional results lack an OSS or Box 124 bridge.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 124 for a service number, birth year, hometown or transliterated name that can distinguish William B Chun and establish his pre-OSS history.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "471aa9c5-0899-54a7-91d1-160ade15dcfc",
+      "identity_status": "conflicting",
+      "identity_evidence": "The exact private identifier matches an Army row naming Edward F Foster, not Chin H Chung. The complete name conflict prevents assignment of the Army occupation or any inferred service pathway.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 124 and the original Army card to resolve the Chin H Chung versus Edward F Foster identifier conflict before assigning any occupation or affiliation.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "eefdabd4-d4b8-589e-8460-452693535f96",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies no private identifier. One exact-name Army row cannot be selected for a common name without two corroborating identifiers, and accessible official, obituary, institutional and newspaper searches did not supply them.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 124 for John Chung's service number, full name, birth year, hometown, branch and pre-OSS affiliation before assessing common-name candidates.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4f0d5826-94bf-5da5-9faf-c0258038ef9b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies no private identifier. Exact-name OSS and CIA checks and employment, occupation, obituary, institutional and newspaper searches produced only modern or unrelated people without a Box 124 bridge.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 124 for Kei W Chung's full name, birth year, nationality, service context and pre-OSS affiliation.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "162f178d-0651-5261-ad6a-6e635111c8fb",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies no private identifier. Exact-name OSS and CIA checks and employment, occupation, obituary, institutional and newspaper searches produced modern namesakes, including one born after World War II, without a Box 124 bridge.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 124 for Lois W Chung's full name, birth year, nationality, personnel category and pre-OSS affiliation.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b415-person-jerome-h-chudej-review",
+      "person_id": "16e04c43-c477-574f-8f47-ab51f1914b49",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 81 context and complete Army bulk comparison; Jerome/Jero name and private-identifier OSS/CIA searches; farm, employer, occupation, obituary, institutional, Library of Congress newspaper and archival-source searches; applicable NARA code page inspected.",
+      "query_variant_type": "staged_identifier_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T03:18:00Z",
+      "completed_at": "2026-09-05T03:56:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "A 1948-born Jerome Chudej Jr. and Texas family-history references are too young or lack the matching identifier and OSS context.",
+      "research_notes": "The exact identifier-backed Army occupation names no farm or employer and does not establish its temporal relationship to OSS entry. No raw record or full identifier is retained.",
+      "next_action": "Review Box 124 for the complete name, named employer or farm, work dates and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch415-v1"
+    },
+    {
+      "key": "b415-person-raymond-a-chuipek-review",
+      "person_id": "73f5f637-3a2b-5851-a47e-daaea7b81fb2",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 81 context and complete Army bulk comparison; exact-name and W-prefixed private-number OSS/CIA searches; employment, occupation, obituary, institutional, Library of Congress newspaper and archival-source searches for Raymond A Chuipek.",
+      "query_variant_type": "staged_identifier_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T03:18:00Z",
+      "completed_at": "2026-09-05T03:56:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The W-prefixed number is absent from the Army enlisted file; a modern homeowner and a similarly named litigant concern later people and provide no OSS bridge.",
+      "research_notes": "The printed prefix is preserved exactly and does not by itself establish warrant-officer status or personnel category.",
+      "next_action": "Review Box 124 to interpret the W-prefixed number and establish identity and pre-OSS history.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch415-v1"
+    },
+    {
+      "key": "b415-person-constantine-w-chuleas-review",
+      "person_id": "3c0feb4f-c51b-562d-a678-91c5aebb8619",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 81 context and complete Army bulk comparison; exact-name and private-identifier OSS/CIA searches; metal stamping, employer, occupation, obituary, institutional, Library of Congress newspaper and archival-source searches; applicable NARA code page and Flint Journal obituary inspected.",
+      "query_variant_type": "staged_identifier_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T03:18:00Z",
+      "completed_at": "2026-09-05T03:56:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Postwar entertainment work and later AHEPA family material do not establish a pre-OSS employer; Flint and metal-stamping context cannot identify an automobile company.",
+      "research_notes": "The exact identifier-backed occupational category is published with uncertain timing. The obituary independently corroborates exact-name Army and OSS service but supplies no pre-OSS employer.",
+      "next_action": "Review Box 124 for a named pre-Army employer, work dates and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch415-v1"
+    },
+    {
+      "key": "b415-person-george-chumas-review",
+      "person_id": "6e8ef3e4-41ae-5e38-9a7b-a129e1ba0d7d",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 81 context and complete Army bulk comparison; exact-name and unpadded seven-digit value searches; OSS/CIA, Greek Operational Group, employer, occupation, obituary, institutional, Library of Congress newspaper and archival-source searches for George Chumas.",
+      "query_variant_type": "staged_identifier_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T03:18:00Z",
+      "completed_at": "2026-09-05T03:56:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The exact-name Army enlisted row carries another identifier; a 1931-born obituary concerns a child during World War II; commercial militaria and forum pages are discovery-only and do not establish pre-OSS history.",
+      "research_notes": "The specialist OSS roster's exact-name Greek Group VI lead is withheld at low confidence until Box 124 supplies a second identifier. The printed seven-digit value is not padded and no officer classification is inferred.",
+      "next_action": "Review Box 124 for an officer-service number, birth year or hometown that can test the Greek Group VI lead and establish the pre-OSS pathway.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch415-v1"
+    },
+    {
+      "key": "b415-person-raymond-l-chumbley-review",
+      "person_id": "99a32b71-d20c-5e91-872f-a8262b30444f",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 81 context and complete Army bulk comparison; exact-name and private-identifier OSS/CIA searches; employment, occupation, obituary, directory, institutional, Library of Congress newspaper and archival-source searches for Raymond L Chumbley.",
+      "query_variant_type": "staged_identifier_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T03:18:00Z",
+      "completed_at": "2026-09-05T03:56:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The private identifier is absent from the Army file; genealogy pages are unsourced, and a 1933 Cincinnati directory snippet concerns Raymond L Chubb, not Chumbley.",
+      "research_notes": "Bounded individual adjudication; missing merged-file coverage is not proof against service or prior employment.",
+      "next_action": "Review Box 124 for birth year, hometown, branch and pre-OSS evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch415-v1"
+    },
+    {
+      "key": "b415-person-william-b-chun-review",
+      "person_id": "e806fa99-e940-52c2-b617-a8e986a6458e",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 81 context and complete Army bulk comparison; exact-name, middle-initial and transliteration variants in OSS/CIA, employment, occupation, obituary, institutional, Library of Congress newspaper and archival sources for William B Chun.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T03:18:00Z",
+      "completed_at": "2026-09-05T03:56:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The exact-name Army row lacks a second identifier; an unsourced genealogy profile and broad Chinese-language or institutional namesakes supply no OSS or Box 124 bridge.",
+      "research_notes": "No candidate identity, Army occupation, birthplace or employer is selected by name alone.",
+      "next_action": "Review Box 124 for identifying, transliteration and pre-OSS evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch415-v1"
+    },
+    {
+      "key": "b415-person-chin-h-chung-review",
+      "person_id": "471aa9c5-0899-54a7-91d1-160ade15dcfc",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 81 context and complete Army bulk comparison; exact-name and private-identifier OSS/CIA searches; name-order and transliteration variants; employment, occupation, obituary, institutional, Library of Congress newspaper and archival-source searches for Chin H Chung.",
+      "query_variant_type": "staged_identifier_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T03:18:00Z",
+      "completed_at": "2026-09-05T03:56:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The exact identifier returns Edward F Foster, while exact-name and reversed-name searches produce unrelated modern academic references with no OSS bridge.",
+      "research_notes": "The Army occupation is withheld because the identity evidence conflicts completely. The full identifier remains private.",
+      "next_action": "Review Box 124 and the original Army card to resolve the complete-name conflict.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch415-v1"
+    },
+    {
+      "key": "b415-person-john-chung-review",
+      "person_id": "eefdabd4-d4b8-589e-8460-452693535f96",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 81 context and complete Army bulk comparison; exact-name, reversed-name and initial variants in OSS/CIA, employment, occupation, obituary, institutional, Library of Congress newspaper and archival sources for John Chung.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T03:18:00Z",
+      "completed_at": "2026-09-05T03:56:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "One exact-name Army row and numerous military, school and modern professional namesakes lack two corroborating identifiers and a Box 124 bridge; one Hong Kong teacher died in 1941 and cannot be this OSS person.",
+      "research_notes": "Common-name safeguards applied; no Army row, occupation, school or employer is selected by name alone.",
+      "next_action": "Review Box 124 for full name and at least two distinguishing identifiers before assessing candidates.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch415-v1"
+    },
+    {
+      "key": "b415-person-kei-w-chung-review",
+      "person_id": "4f0d5826-94bf-5da5-9faf-c0258038ef9b",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 81 context and complete Army bulk comparison; exact-name, reversed-name, spacing and transliteration variants in OSS/CIA, employment, occupation, obituary, institutional, Library of Congress newspaper and archival sources for Kei W Chung.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T03:18:00Z",
+      "completed_at": "2026-09-05T03:56:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Searches return modern people-finder, medical and academic namesakes born after World War II or lacking an OSS and Box 124 bridge.",
+      "research_notes": "Sensitive modern addresses and contact details were neither sought for publication nor retained.",
+      "next_action": "Review Box 124 for full name, nationality, birth year, service context and pre-OSS evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch415-v1"
+    },
+    {
+      "key": "b415-person-lois-w-chung-review",
+      "person_id": "162f178d-0651-5261-ad6a-6e635111c8fb",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 81 context and complete Army bulk comparison; exact-name, reversed-name, spacing and transliteration variants in OSS/CIA, employment, occupation, obituary, institutional, Library of Congress newspaper and archival sources for Lois W Chung.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T03:18:00Z",
+      "completed_at": "2026-09-05T03:56:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "A person born in 1945 and modern property or professional directory hits are chronologically impossible or lack an OSS and Box 124 bridge.",
+      "research_notes": "Modern addresses, relatives and contact details were not retained. No namesake biography is projected backward.",
+      "next_action": "Review Box 124 for full name, nationality, birth year, personnel category and pre-OSS evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch415-v1"
+    }
+  ]
+}
