@@ -2,7 +2,30 @@
 
 Verified against the current local SQLite database on 2026-09-05 UTC.
 
-Batch 423 is a locally verified release candidate. It adds ten saved
+Batch 424 is a locally verified release candidate. It adds ten saved
+individual outcomes across PDF page 83 rows 2-11, Phillip H Clark through
+Sidney E Clark, all in Box 127. Exact private-identifier and name matches
+support confirmed identities for Richard E Clark, Roger A Clark Jr. and
+Samuel E Clark, plus a high-confidence Russell W Clark identity whose Army
+grade field is malformed. Richard's qualified Army-entry category describes
+chauffeurs and drivers; Russell's describes photographers. Roger's Enlisted
+Reserve Corps statistical-card layout moves the occupation field one column,
+so the correct value is 992, students, rather than an apparent 699. Student
+status is kept separate from employment. Samuel's value 999 remains
+uninterpreted. Phillip and Richard N remain unresolved; Robert's thirty
+other-identifier candidates are rejected; and Randall, Sherman and Sidney
+retain unmerged name-only candidates. No employer, immediate affiliation or
+last civilian employer is inferred. The full replay, 90 Python tests, fifteen
+focused browser checks, link validation, profile audit and public-identifier
+audit pass; consecutive Pages-configuration builds match. The complete
+1,971-case browser/accessibility matrix produced 1,964 passes and seven
+browser-resource failures in 1.1 hours with retries disabled; all seven
+affected legacy scenarios then passed across all three layouts, 21/21 in 22.7
+seconds. Independent GitHub QA, merge, Pages deployment and pinned live
+verification remain release gates. See `reports/release_batch_424.md` and
+`research/batch-424-discovery-checkpoint.md`.
+
+Batch 423 is released and pinned-live verified. It adds ten saved
 individual outcomes across PDF page 82 rows 38-46 and page 83 row 1, Helen H
 Clark through Percy E Clark, spanning Boxes 126-127. John M Clark's exact
 private identifier selects one of thirty exact-name Army rows and supports
@@ -21,8 +44,12 @@ identifier audit pass; consecutive production builds match. The complete
 1,956-case browser/accessibility matrix produced 1,954 passes and two
 browser-resource timeouts in 38.3 minutes with retries disabled; both exact
 legacy cases passed 2/2 in isolation in 3.8 seconds, and all Batch 423
-scenarios passed across all three viewports. Independent GitHub QA, merge,
-Pages deployment and pinned live verification remain release gates. See
+scenarios passed across all three viewports. Independent GitHub Test
+`33963248213` passed in 32 minutes 18 seconds; PR 180 merged as
+`4ef64a5e315783c4a039f4d4ea47c673157db86e`; Pages `33969269323` succeeded;
+and pinned verification against
+`f89959540adc872924b6e3a25ce2237a94f00108` matched all 67 assets, seven core
+routes and ten direct cohort profiles. See
 `reports/release_batch_423.md` and
 `research/batch-423-discovery-checkpoint.md`.
 

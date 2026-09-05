@@ -2,7 +2,26 @@
 
 Run: 2026-09-05 UTC
 
-## Batch 423 local
+## Batch 424 local
+
+All internal targets resolve across 24,464 HTML pages; 49,608 external URLs are
+inventoried, not all visited. Identifier checks cover all 24,536 artifacts,
+12,926 normalized identifiers, 120 formatted variants and 1,083 candidate
+substring coincidences with zero unexpected boundary, aggregate or manifest-
+size matches. A separate scan finds zero full private identifiers in the
+tracked Batch 424 evidence bundle. Manifest: 67 assets / 84,701,215 bytes;
+SHA-256
+`89a690ef1879074a49079921e90e363b1007aae8b58312ff26de6b2a7432b522`.
+The full replay from the frozen PDF reproduced the 70-file public tree at
+SHA-256
+`bbb003592ecafdcbe8576f2c4e7dcebf9c7d4617a358459990fc19a185bacdcd`.
+Consecutive 24,536-file Pages-configuration production trees match at SHA-256
+`7a2bcd95b5042941a5c7c289650438e1b3dd028596a50c709eca8245412dade1`.
+All four Batch 424 citation destinations returned HTTP 200. No authenticated
+Catalog request or access-control bypass was used. Independent GitHub QA and
+deployment remain pending; see `reports/release_batch_424.md`.
+
+## Batch 423 release
 
 All internal targets resolve across 24,464 HTML pages; 49,608 external URLs are
 inventoried, not all visited. Identifier checks cover all 24,536 artifacts,
@@ -18,8 +37,11 @@ SHA-256
 Consecutive 24,536-file Pages-configuration production trees match at SHA-256
 `7190988b78f618e034b4fd99fd103579c6dde408ecfbb19dd44f0b9e4b88bf32`.
 All four Batch 423 citation destinations returned HTTP 200. No authenticated
-Catalog request or access-control bypass was used. Independent GitHub QA and
-deployment remain pending; see `reports/release_batch_423.md`.
+Catalog request or access-control bypass was used. Independent GitHub Test
+`33963248213`, PR 180 and Pages `33969269323` passed. Pinned verification
+against `f89959540adc872924b6e3a25ce2237a94f00108` matched all 67 assets /
+84,648,538 bytes, seven core routes and ten direct cohort profiles; see
+`reports/release_batch_423.md`.
 
 ## Batch 422 release
 

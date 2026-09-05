@@ -1,6 +1,6 @@
 # Batch 423 release verification
 
-2026-09-05 UTC. **Local release candidate; not yet merged or deployed.** This
+2026-09-05 UTC. **Released and pinned-live verified.** This
 report covers ten source records on PDF page 82 rows 38-46 and page 83 row 1,
 Helen H Clark through Percy E Clark, spanning Boxes 126-127.
 
@@ -127,8 +127,12 @@ One timed out during teardown; the other stalled while waiting for a previously
 stable legacy profile. Both exact cases then passed 2/2 in isolation in 3.8
 seconds, and all twenty-one Batch 423 scenarios passed across all three
 viewports. Consecutive Pages-configuration builds reproduced byte-identical
-public and production trees. Independent GitHub QA, merge, Pages deployment
-and pinned live verification remain subsequent release gates.
+public and production trees. Independent GitHub Test `33963248213` passed in
+32 minutes 18 seconds. PR 180 merged as
+`4ef64a5e315783c4a039f4d4ea47c673157db86e`; Pages run `33969269323`
+succeeded; and pinned verification against source commit
+`f89959540adc872924b6e3a25ce2237a94f00108` matched all 67 assets, seven core
+routes and ten direct cohort profiles.
 
 Final manifest: 67 assets / 84,648,538 bytes; SHA-256
 `880114ce786d173bba99f03d85b143b2c2b97b343d6b56a0b39e47d010c4bae3`.
