@@ -1,6 +1,6 @@
 # Batch 416 release verification
 
-2026-09-05 UTC. **Local release candidate; not yet merged or deployed.** This
+2026-09-05 UTC. **Released and pinned-live verified.** This
 report covers ten people across PDF page 81 rows 14-23, Woon S Chung through
 Michael A Ciaccio, spanning Boxes 124-125.
 
@@ -145,8 +145,12 @@ the final build. The dependency audit reports zero vulnerabilities.
 The complete 1,806-case local browser/accessibility matrix passed 1,806/1,806
 in 16.3 minutes across desktop, phone and tablet with retries disabled.
 Consecutive Pages-configuration builds reproduced byte-identical public and
-production trees. Independent GitHub QA, merge, Pages deployment and pinned
-live verification remain subsequent release gates.
+production trees. Independent GitHub Test `33946810994` passed in 32 minutes
+55 seconds; PR 173 merged as
+`e31a53147f837f3446fd753f0347414ac48769ff`; Pages `33948257696` succeeded;
+and pinned verification of source commit
+`f3114cafc2246018d90bbb60724e9edb93b29ad1` matched all 67 assets, seven core
+routes and ten direct cohort profiles.
 
 Final manifest: 67 assets / 84,148,970 bytes; SHA-256
 `76418ac28f27542ffc7040b961e93cf0e3308d3db2b745049b9e271e383d2a07`.
