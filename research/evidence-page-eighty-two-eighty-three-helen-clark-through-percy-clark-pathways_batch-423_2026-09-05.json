@@ -1,0 +1,422 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Codex individual archival review, Batch 423",
+  "sources": [
+    {
+      "key": "index-b423",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; complete PDF pages 82 and 83 visually inspected at 150 dpi; page 82 rows 38-46 and page 83 row 1; Boxes 126-127; locations 230/86/28/06 and 230/86/28/07",
+      "access_date": "2026-09-05",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Citation and project-authored assessments only; no full source page, raw bulk record or full private identifier reproduced. Original spellings, blank ranks and the printed Major rank are preserved."
+    },
+    {
+      "key": "army-b423",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; complete transient scan of 9,200,232 fixed-width records; three supplied private identifiers compared without retaining them; exact-name rows counted and reviewed separately for every cohort member",
+      "access_date": "2026-09-05",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "Reviewed transiently outside version control. No raw row, full private identifier or API response is retained. The merged file is incomplete and excludes many officers; non-hits are not negative proof."
+    },
+    {
+      "key": "basic-b423",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; fixed-width name, entry-date, grade, branch, occupation and alternate-card fields visually and textually checked",
+      "access_date": "2026-09-05",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only. The documentation warns about alternate card layouts, incomplete source documentation and coding limits."
+    },
+    {
+      "key": "codes-b423",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical page 172; rendered page visually inspected for value 266, code 2-66",
+      "access_date": "2026-09-05",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "The official label is retained in short form. It does not name an employer, public agency, jurisdiction, workplace, exact duties or employment date."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "john-m-clark-police-occupation-b423",
+      "person_id": "6648b6f7-0043-5018-98da-8d0087a41f69",
+      "occupation": "Policemen and detectives, public service",
+      "relationship_type": "unknown",
+      "date_precision": "The selected Army record carries a 2 September 1943 entry date; actual work dates and the temporal relationship to OSS service are unestablished.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category combines police and detective work but does not establish a named employing agency, jurisdiction, exact role, workplace or Army-to-OSS chronology."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-john-m-clark-b423",
+      "person_id": "6648b6f7-0043-5018-98da-8d0087a41f69",
+      "claim_type": "identity",
+      "claim_text": "John M Clark has a confirmed match to the exact name and private identifier in the official Army merged file.",
+      "evidence_excerpt": "CLARK JOHN M",
+      "evidence_paraphrase": "The private identifier selects one exact-name record among thirty John M Clark Army rows and dates Army entry to 2 September 1943.",
+      "identity_match_assessment": "The exact private identifier and exact indexed name are decisive among numerous common-name candidates.",
+      "temporal_assessment": "The record dates Army entry but does not date OSS service or prove the occupational category was immediately prior.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The Army row records an enlisted grade and no branch assignment. No public agency, employer or immediate OSS predecessor is inferred.",
+      "sources": [
+        {
+          "source_key": "index-b423",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b423",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "basic-b423",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-john-m-clark-b423",
+      "person_id": "6648b6f7-0043-5018-98da-8d0087a41f69",
+      "affiliation_key": "john-m-clark-police-occupation-b423",
+      "claim_type": "occupation",
+      "claim_text": "An official Army-entry record assigns John M Clark the broad occupational category Policemen and detectives, public service; no employing agency or exact role is identified.",
+      "evidence_excerpt": "Policemen and detectives, public service",
+      "evidence_paraphrase": "The identifier-matched Army row carries occupation value 266, decoded on the visually inspected official NARA code page.",
+      "identity_match_assessment": "The exact private identifier selects the indexed person from thirty exact-name Army candidates.",
+      "temporal_assessment": "The code was captured at Army entry on 2 September 1943; whether it was his immediate pre-OSS work is unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Occupation remains distinct from employer and self-employment; no organization, jurisdiction, workplace or exact police-versus-detective role is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b423",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "basic-b423",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; civilian-occupation field"
+        },
+        {
+          "source_key": "codes-b423",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 172; code 2-66",
+          "excerpt_override": "Policemen and detectives, public service"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "7245b71c-645e-578e-9180-9fa880db85a1",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, CIA, archival, newspaper, obituary, institutional and complete Army-file searches produced no reliable outside identity or pre-OSS affiliation for Helen H Clark; no exact-name Army row was found.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 126 for Helen H Clark's full name, civilian grade, hometown, OSS office and pre-OSS employer or institutional affiliation.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7931e78a-3718-5854-a528-9dbdb2190b9c",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The complete Army file contains one exact-name Hoyt B Clark row, but the index supplies no identifier, rank, hometown, birth year, occupation or unit with which to establish identity.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 126 for Hoyt B Clark's private identifier, birth date, hometown, occupation and OSS assignment before using the Army candidate.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0e0ce8ab-0ea3-567a-a265-c4693bde228d",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The complete Army file contains 111 exact-name James E Clark rows, but the index supplies no identifier, rank, hometown, birth year, occupation or unit with which to select one.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 126 for James E Clark's private identifier, birth date, hometown, occupation and OSS assignment before selecting any Army candidate.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "01f8e373-a84a-5da9-9e06-6492b02f265c",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, CIA, archival, newspaper, obituary, institutional and complete Army-file searches produced no reliable outside identity or pre-OSS affiliation for Janie K Clark; no exact-name Army row was found.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 126 for Janie K Clark's full name, civilian grade, hometown, OSS office and pre-OSS employer or institutional affiliation.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6648b6f7-0043-5018-98da-8d0087a41f69",
+      "identity_status": "confirmed",
+      "identity_evidence": "The indexed private identifier and exact name select one official Army entry among thirty exact-name John M Clark records.",
+      "name_variants": [
+        "John M Clark",
+        "John M. Clark"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 127 for John M Clark's employing police or detective agency, exact role and Army-to-OSS chronology.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "c5adb1fa-b411-50cc-bd88-c096fd60705e",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The index itself prints Major and supports commissioned Army classification, but thirteen exact-name John N Clark Army rows lack an indexed identifier or OSS bridge and remain separate people.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 127 for John N Clark's full name, private identifier, unit, hometown and OSS assignment before using any outside Army record.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "cee38083-52de-5ff3-9035-89079ef39004",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, CIA, archival, newspaper, obituary, institutional and complete Army-file searches produced no reliable outside identity or pre-OSS affiliation for Julia A Clark; no exact-name Army row was found.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 127 for Julia A Clark's full name, civilian grade, hometown, OSS office and pre-OSS employer or institutional affiliation.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "101632b5-950b-5e2f-8fa0-2ba405a797f6",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The supplied private identifier has no Army-file hit. The sole exact-name Leonard F Clark Army row lacks that identifier and any OSS bridge, so it remains a separate candidate.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 127 for Leonard F Clark's identifier provenance, branch, unit, occupation and OSS assignment before using the Army candidate.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "5d2b8485-58df-5f8f-8649-553f1b4aa280",
+      "identity_status": "unresolved",
+      "identity_evidence": "The supplied private identifier has no Army-file hit. Four exact-name Leslie A Clark Army rows carry other identifiers, and no official OSS bridge identifies any as the indexed person.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 127 for Leslie A Clark's identifier provenance, branch, occupation, hometown and OSS assignment.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "714f2320-668d-58f1-9367-8d129e00544f",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, CIA, archival, newspaper, obituary, institutional and complete Army-file searches produced no reliable outside identity or pre-OSS affiliation for Percy E Clark; no exact-name Army row was found.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 127 for Percy E Clark's full name, civilian grade, hometown, OSS office and pre-OSS employer or institutional affiliation.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b423-person-helen-h-clark-review",
+      "person_id": "7245b71c-645e-578e-9180-9fa880db85a1",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index pages 82-83 and complete Army bulk comparison; exact-name OSS/CIA searches; Helen H and Helen Clark variants; employer, occupation, obituary, institutional, LoC newspaper, directory and archival checks.",
+      "query_variant_type": "staged_common_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T09:30:00Z",
+      "completed_at": "2026-09-05T09:44:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "No exact Army row or specific official OSS identity source was found; institutional, directory, newspaper and obituary namesakes lack the indexed middle initial plus an OSS or chronology bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Establish identity and civilian history from Box 126.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch423-v1"
+    },
+    {
+      "key": "b423-person-hoyt-b-clark-review",
+      "person_id": "7931e78a-3718-5854-a528-9dbdb2190b9c",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index pages 82-83 and complete Army bulk comparison; exact-name OSS/CIA searches; employer, occupation, obituary, institutional, LoC newspaper, directory and archival checks.",
+      "query_variant_type": "staged_rare_name_oss_official_employment_disambiguation",
+      "started_at": "2026-09-05T09:30:20Z",
+      "completed_at": "2026-09-05T09:44:10Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The sole exact-name Army row lacks an index identifier, hometown, birth date, unit or OSS bridge; wider namesakes do not provide two corroborating identifiers beyond the name.",
+      "research_notes": "The Army candidate remains private. No reliable pre-OSS employer has yet been identified.",
+      "next_action": "Resolve the candidate against Box 126.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch423-v1"
+    },
+    {
+      "key": "b423-person-james-e-clark-review",
+      "person_id": "0e0ce8ab-0ea3-567a-a265-c4693bde228d",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index pages 82-83 and complete Army bulk comparison; exact-name OSS/CIA searches; employer, occupation, obituary, institutional, LoC newspaper, directory and archival checks with common-name disambiguation.",
+      "query_variant_type": "staged_very_common_name_oss_official_employment_disambiguation",
+      "started_at": "2026-09-05T09:30:40Z",
+      "completed_at": "2026-09-05T09:44:20Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 116,
+      "rejection_reasons": "All 111 exact-name Army rows lack an index identifier or OSS bridge; wider military, directory, newspaper and obituary namesakes likewise lack two corroborating identifiers beyond the name.",
+      "research_notes": "All Army candidates remain separate and private. No reliable pre-OSS employer has yet been identified.",
+      "next_action": "Establish disambiguating identifiers from Box 126 before selecting any candidate.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch423-v1"
+    },
+    {
+      "key": "b423-person-janie-k-clark-review",
+      "person_id": "01f8e373-a84a-5da9-9e06-6492b02f265c",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index pages 82-83 and complete Army bulk comparison; exact-name OSS/CIA searches; Janie K, Jane K and Janie Clark variants; employer, occupation, obituary, institutional, LoC newspaper, directory and archival checks.",
+      "query_variant_type": "staged_name_variant_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T09:31:00Z",
+      "completed_at": "2026-09-05T09:44:30Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "No exact Army row or specific official OSS identity source was found; Jane and Janie namesakes lack the indexed middle initial plus an OSS or chronology bridge.",
+      "research_notes": "No spelling is silently corrected. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Establish identity and civilian history from Box 126.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch423-v1"
+    },
+    {
+      "key": "b423-person-john-m-clark-review",
+      "person_id": "6648b6f7-0043-5018-98da-8d0087a41f69",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index pages 82-83 and complete Army bulk comparison; exact-name and supplied-identifier OSS/CIA searches; police, detective, public agency, employer, occupation, obituary, institutional, LoC newspaper, directory and archival checks.",
+      "query_variant_type": "staged_common_name_private_identifier_oss_official_employment_disambiguation",
+      "started_at": "2026-09-05T09:31:20Z",
+      "completed_at": "2026-09-05T09:44:40Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 34,
+      "rejection_reasons": "Twenty-nine other exact-name Army rows have different identifiers; wider police, detective, obituary and directory namesakes lack the exact identifier and OSS bridge.",
+      "research_notes": "The broad occupation category is published with uncertain timing. No employing agency, jurisdiction, exact role or immediate predecessor was found.",
+      "next_action": "Identify the employing agency and OSS chronology from Box 127.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch423-v1"
+    },
+    {
+      "key": "b423-person-john-n-clark-review",
+      "person_id": "c5adb1fa-b411-50cc-bd88-c096fd60705e",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index pages 82-83 and complete Army bulk comparison; exact-name and Major-rank OSS/CIA searches; employer, occupation, obituary, institutional, LoC newspaper, directory, officer and archival checks.",
+      "query_variant_type": "staged_common_name_officer_rank_oss_official_disambiguation",
+      "started_at": "2026-09-05T09:31:40Z",
+      "completed_at": "2026-09-05T09:44:50Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 18,
+      "rejection_reasons": "Thirteen exact-name Army rows and broader officer namesakes lack an index identifier, unit, hometown or direct OSS bridge. The index rank does not select any outside person.",
+      "research_notes": "The commissioned Army classification comes from the printed index only. No candidate occupation, unit, employer or biography is transferred.",
+      "next_action": "Resolve the full name, identifier, unit and OSS assignment from Box 127.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch423-v1"
+    },
+    {
+      "key": "b423-person-julia-a-clark-review",
+      "person_id": "cee38083-52de-5ff3-9035-89079ef39004",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index pages 82-83 and complete Army bulk comparison; exact-name OSS/CIA searches; employer, occupation, obituary, institutional, LoC newspaper, directory and archival checks.",
+      "query_variant_type": "staged_common_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T09:32:00Z",
+      "completed_at": "2026-09-05T09:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "No exact Army row or specific official OSS identity source was found; institutional, directory, newspaper and obituary namesakes lack the indexed middle initial plus an OSS or chronology bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Establish identity and civilian history from Box 127.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch423-v1"
+    },
+    {
+      "key": "b423-person-leonard-f-clark-review",
+      "person_id": "101632b5-950b-5e2f-8fa0-2ba405a797f6",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index pages 82-83 and complete Army bulk comparison; exact-name and supplied-identifier OSS/CIA searches; employer, occupation, obituary, institutional, LoC newspaper, directory and archival checks.",
+      "query_variant_type": "staged_common_name_private_identifier_nonhit_oss_official_disambiguation",
+      "started_at": "2026-09-05T09:32:20Z",
+      "completed_at": "2026-09-05T09:45:10Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "The supplied identifier has no Army-file hit, while the sole exact-name Army row has a different identifier and no indexed or OSS bridge; wider namesakes are likewise unbridged.",
+      "research_notes": "The Army candidate remains private. A non-hit is not used to infer another branch. No reliable pre-OSS employer has yet been identified.",
+      "next_action": "Reconcile the identifier and candidate against Box 127.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch423-v1"
+    },
+    {
+      "key": "b423-person-leslie-a-clark-review",
+      "person_id": "5d2b8485-58df-5f8f-8649-553f1b4aa280",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index pages 82-83 and complete Army bulk comparison; exact-name and supplied-identifier OSS/CIA searches; employer, occupation, obituary, institutional, LoC newspaper, directory and archival checks.",
+      "query_variant_type": "staged_common_name_private_identifier_nonhit_oss_official_disambiguation",
+      "started_at": "2026-09-05T09:32:40Z",
+      "completed_at": "2026-09-05T09:45:20Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "The supplied identifier has no Army-file hit. Four exact-name Army rows carry other identifiers, and wider namesakes lack the indexed identifier and OSS bridge.",
+      "research_notes": "The name-only Army rows are not substituted for the indexed identifier. No reliable pre-OSS employer has yet been identified.",
+      "next_action": "Establish identifier provenance, branch and civilian history from Box 127.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch423-v1"
+    },
+    {
+      "key": "b423-person-percy-e-clark-review",
+      "person_id": "714f2320-668d-58f1-9367-8d129e00544f",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index pages 82-83 and complete Army bulk comparison; exact-name OSS/CIA searches; employer, occupation, obituary, institutional, LoC newspaper, directory and archival checks.",
+      "query_variant_type": "staged_common_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T09:33:00Z",
+      "completed_at": "2026-09-05T09:45:30Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "No exact Army row or specific official OSS identity source was found; military, directory, newspaper and obituary namesakes lack the indexed middle initial plus an OSS or chronology bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Establish identity and civilian history from Box 127.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch423-v1"
+    }
+  ]
+}

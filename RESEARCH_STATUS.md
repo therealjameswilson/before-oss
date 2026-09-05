@@ -2,7 +2,31 @@
 
 Verified against the current local SQLite database on 2026-09-05 UTC.
 
-Batch 422 is a locally verified release candidate. It adds ten saved
+Batch 423 is a locally verified release candidate. It adds ten saved
+individual outcomes across PDF page 82 rows 38-46 and page 83 row 1, Helen H
+Clark through Percy E Clark, spanning Boxes 126-127. John M Clark's exact
+private identifier selects one of thirty exact-name Army rows and supports
+confirmed identity, enlisted Army classification and a qualified, temporally
+uncertain occupation observation: policemen and detectives, public service.
+The category names neither a public agency nor an exact role, so no employer
+is inferred. John N Clark retains the commissioned Army officer
+classification printed in the index, but none of thirteen name-only Army
+candidates is selected. Hoyt B Clark, James E Clark and Leonard F Clark remain
+ambiguous with unmerged name-only candidates. Helen H Clark, Janie K Clark,
+Julia A Clark and Percy E Clark remain unresolved. Leslie A Clark's supplied
+identifier has no Army-file hit, while four exact-name rows carry other
+identifiers; those candidates are rejected. The full replay, 90 Python tests,
+twenty-one focused browser checks, link validation, profile audit and public-
+identifier audit pass; consecutive production builds match. The complete
+1,956-case browser/accessibility matrix produced 1,954 passes and two
+browser-resource timeouts in 38.3 minutes with retries disabled; both exact
+legacy cases passed 2/2 in isolation in 3.8 seconds, and all Batch 423
+scenarios passed across all three viewports. Independent GitHub QA, merge,
+Pages deployment and pinned live verification remain release gates. See
+`reports/release_batch_423.md` and
+`research/batch-423-discovery-checkpoint.md`.
+
+Batch 422 is released and pinned-live verified. It adds ten saved
 individual outcomes across PDF page 82 rows 28-37, Elizabeth W Clark through
 George O Clark Jr., all in Box 126. Exact private-identifier and
 name matches support confirmed identities for the first Ernest D Clark and
@@ -22,9 +46,12 @@ Clark and George E Clark remain unresolved. The full replay, 90 Python tests,
 twenty-one focused browser checks, link validation, profile audit and public-
 identifier audit pass; consecutive production builds match. The complete
 1,935-case browser/accessibility matrix passed 1,935/1,935 across desktop,
-phone and tablet in 17.0 minutes with retries disabled. Independent GitHub QA,
-merge, Pages deployment and pinned live verification remain release gates. See
-`reports/release_batch_422.md` and
+phone and tablet in 17.0 minutes with retries disabled. Independent GitHub Test
+`33959080520` passed in 41 minutes 17 seconds; PR 179 merged as
+`45e2ec15e0f9e6181e1550e6019d64e4776613ad`; Pages `33961405702` succeeded;
+and pinned verification against
+`be35bff667187beedf14e4904835280230079e46` matched all 67 assets, seven core
+routes and ten direct cohort profiles. See `reports/release_batch_422.md` and
 `research/batch-422-discovery-checkpoint.md`.
 
 Batch 421 is released and pinned-live verified. It adds ten saved
