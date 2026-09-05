@@ -4,14 +4,25 @@ Run: 2026-09-05 UTC
 
 ## Result
 
+Batch 423: the complete 1,956-case local browser/accessibility matrix produced
+1,954 passes and two browser-resource timeouts in 38.3 minutes with retries
+disabled. One timed out during teardown and one stalled while waiting for a
+previously stable legacy profile; both exact cases passed 2/2 in isolation in
+3.8 seconds. Twenty-one focused Batch 423 browser and accessibility checks pass
+across all three layouts in 14.3 seconds after correcting six test-only wording
+expectations; no evidence or application behavior changed. Consecutive Pages-
+configuration builds match and report zero Astro errors, warnings or hints.
+Independent GitHub QA and deployment remain pending; see
+`reports/release_batch_423.md`.
+
 Batch 422: the complete 1,935-case local browser/accessibility matrix passed
 1,935/1,935 across desktop, phone and tablet in 17.0 minutes with retries
 disabled. Twenty-one focused browser and accessibility checks pass across all
 three layouts in 13.8 seconds after correcting six test-only wording
 expectations; no evidence or application behavior changed. Consecutive Pages-
 configuration builds match and report zero Astro errors, warnings or hints.
-Independent GitHub QA and deployment remain pending; see
-`reports/release_batch_422.md`.
+Independent GitHub Test `33959080520`, PR 179, Pages `33961405702` and pinned
+live verification subsequently passed; see `reports/release_batch_422.md`.
 
 Batch 421: the complete 1,914-case local browser/accessibility matrix passed
 1,914/1,914 across desktop, phone and tablet in 15.6 minutes with retries

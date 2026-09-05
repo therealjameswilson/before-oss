@@ -1,6 +1,6 @@
 # Batch 422 release verification
 
-2026-09-05 UTC. **Local release candidate; not yet merged or deployed.** This
+2026-09-05 UTC. **Released and pinned-live verified.** This
 report covers ten source records on PDF page 82 rows 28-37, Elizabeth W Clark
 through George O Clark Jr., all in Box 126.
 
@@ -135,8 +135,12 @@ vulnerabilities.
 The complete 1,935-case local browser/accessibility matrix passed 1,935/1,935
 in 17.0 minutes across desktop, phone and tablet with retries disabled.
 Consecutive Pages-configuration builds reproduced byte-identical public and
-production trees. Independent GitHub QA, merge, Pages deployment and pinned
-live verification remain subsequent release gates.
+production trees. Independent GitHub Test `33959080520` passed in 41 minutes
+17 seconds. PR 179 merged as
+`45e2ec15e0f9e6181e1550e6019d64e4776613ad`; Pages run `33961405702`
+succeeded; and pinned verification against source commit
+`be35bff667187beedf14e4904835280230079e46` matched all 67 assets, seven core
+routes and ten direct cohort profiles.
 
 Final manifest: 67 assets / 84,624,267 bytes; SHA-256
 `3d166ca2523670adeb3db193d618d328cdf566f0bf6560346fab255fd7fd04b3`.
