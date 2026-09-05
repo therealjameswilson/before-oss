@@ -2,7 +2,28 @@
 
 Verified against the current local SQLite database on 2026-09-05 UTC.
 
-Batch 417 is a locally verified release candidate. It adds ten saved
+Batch 418 is a locally verified release candidate. It adds ten saved
+individual outcomes across PDF page 81 rows 34-43. A direct OSS personnel
+interview supports Ralph J Ciluzzi's high-confidence, explicit immediate
+military pathway from the United States Marine Corps Reserve into OSS in July
+1943. Four Army-entry occupation categories are published as qualified,
+temporally uncertain observations; none supplies a named employer or proves
+immediate chronology. Jouis C Ciminera remains the exact indexed spelling,
+while identifier and contemporary newspaper evidence support Louis as a
+documented search variant. Joseph V Ciezadlo receives identity-only support
+from a 1945 OSS Detachment 101 report. The Joseph Cilcius and four Michael
+Cimino Army candidates remain low-confidence or ambiguous and are not
+published as facts; Angel L Cinza and Alfred H Ciocca remain unresolved. The
+90 Python tests, twenty-one focused browser checks, Pages build, link
+validation and public-identifier audit pass. The complete 1,842-case local
+browser/accessibility matrix passed 1,842/1,842 across desktop, phone and
+tablet in 15.5 minutes with retries disabled; the deterministic full replay
+and consecutive production builds match. Independent GitHub QA, merge, Pages
+deployment and pinned live verification remain release gates. See
+`reports/release_batch_418.md` and
+`research/batch-418-discovery-checkpoint.md`.
+
+Batch 417 is released and pinned-live verified. It adds ten saved
 individual outcomes across PDF page 81 rows 24-33. Exact private-identifier
 matches support six qualified Army occupation observations for Cafiero Cicala,
 Anthony L Cicatelli, Peter J Cicchini, Salvatore Cicciari, Angelo R Ciccolella
@@ -18,8 +39,11 @@ private. The complete replay, 90 Python tests, fifteen focused browser checks,
 link validation and public-identifier audits pass. The complete 1,821-case
 local browser/accessibility matrix passed 1,821/1,821 across desktop, phone
 and tablet in 15.0 minutes with retries disabled; consecutive production
-builds match. Independent GitHub QA, merge, Pages deployment and pinned live
-verification remain release gates. See `reports/release_batch_417.md` and
+builds match. Independent GitHub Test `33948513639` passed in 27 minutes 42
+seconds; PR 174 merged as `fc16d6dab080b5bd4ec433628239e588dc2f9eeb`;
+Pages `33949846453` succeeded; and pinned verification matched all 67 assets,
+seven core routes and ten direct cohort profiles. See
+`reports/release_batch_417.md` and
 `research/batch-417-discovery-checkpoint.md`.
 
 Batch 416 is released and pinned-live verified. It adds ten saved
