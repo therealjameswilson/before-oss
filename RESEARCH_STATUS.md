@@ -2,7 +2,28 @@
 
 Verified against the current local SQLite database on 2026-09-05 UTC.
 
-Batch 420 is a locally verified release candidate. It adds ten saved
+Batch 421 is a locally verified release candidate. It adds ten saved
+individual outcomes across PDF page 82 rows 18-27. Creston P Clark's exact
+private identifier supports confirmed identity and one qualified, temporally
+uncertain Army-entry occupation observation: accountants and auditors. It
+does not identify an employer or prove an immediate pre-OSS affiliation.
+Calvin L Clark's sole exact-name Army row carries a different identifier and
+is exposed as a conflict without transferring candidate facts. Andrew H
+Clark, Clayton E Clark, Dorothy P Clark and Douglas M Clark each have one
+unbridged exact-name Army or WAC candidate; Clyde Clark has six. All remain
+separate and the indexed identities remain ambiguous. Anna H Clark and
+Cecelia Clark remain unresolved. A strongly documented writer Eleanor Clark
+OSS candidate is not assigned to the common-name index row without a second
+identifier. The full replay, 90 Python tests, twenty-four focused browser
+checks, link validation, profile audit and public-identifier audit pass;
+consecutive production builds match. The complete 1,914-case
+browser/accessibility matrix passed 1,914/1,914 across desktop, phone and
+tablet in 15.6 minutes with retries disabled. Independent GitHub QA, merge,
+Pages deployment and pinned live verification remain release gates. See
+`reports/release_batch_421.md` and
+`research/batch-421-discovery-checkpoint.md`.
+
+Batch 420 is released and pinned-live verified. It adds ten saved
 individual outcomes across PDF page 82 rows 8-17. Exact private-identifier
 matches support four qualified, temporally uncertain Army-entry occupation
 observations for Eugene H Clapp, Aldo Clara, Alfred C Clark and Alvin Clark;
@@ -18,8 +39,12 @@ Clapp and Cloyd Clare remain unresolved. The full replay, 90 Python tests,
 twenty-four focused browser checks, link validation, profile audit and public-
 identifier audit pass; consecutive production builds match. The complete
 1,890-case browser/accessibility matrix passed 1,890/1,890 across desktop,
-phone and tablet in 15.7 minutes with retries disabled. Independent GitHub QA,
-merge, Pages deployment and pinned live verification remain release gates.
+phone and tablet in 15.7 minutes with retries disabled. Independent GitHub
+Test `33955136725` passed in 38 minutes 11 seconds; PR 177 merged as
+`ef2737d9c8121fa29377e5d55d3e6fafda7a2fdb`; Pages `33956876406`
+succeeded; and pinned verification against
+`980da53d8490b88343cc2edf5f744ea37d3e51d7` matched all 67 assets, seven core
+routes and ten direct cohort profiles.
 See `reports/release_batch_420.md` and
 `research/batch-420-discovery-checkpoint.md`.
 

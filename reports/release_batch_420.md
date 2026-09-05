@@ -1,8 +1,13 @@
 # Batch 420 release verification
 
-2026-09-05 UTC. **Local release candidate; not yet merged or deployed.** This
-report covers ten people on PDF page 82 rows 8-17, Richard R Clair through
-Alvin Clark, in Boxes 125 and 126.
+2026-09-05 UTC. **Released and pinned-live verified.** This report covers ten
+people on PDF page 82 rows 8-17, Richard R Clair through Alvin Clark, in Boxes
+125 and 126. Independent GitHub Test `33955136725` passed in 38 minutes 11
+seconds. PR 177 merged as
+`ef2737d9c8121fa29377e5d55d3e6fafda7a2fdb`; Pages run `33956876406`
+succeeded. Pinned read-only verification against source commit
+`980da53d8490b88343cc2edf5f744ea37d3e51d7` matched all 67 assets, all seven
+core routes and all ten direct cohort profiles on the public site.
 
 ## Research
 
@@ -140,8 +145,12 @@ site behavior. The dependency audit reports zero vulnerabilities.
 The complete 1,890-case local browser/accessibility matrix passed 1,890/1,890
 in 15.7 minutes across desktop, phone and tablet with retries disabled.
 Consecutive Pages-configuration builds reproduced byte-identical public and
-production trees. Independent GitHub QA, merge, Pages deployment and pinned
-live verification remain subsequent release gates.
+production trees. Independent GitHub Test `33955136725` then passed in 38
+minutes 11 seconds; PR 177 merged as
+`ef2737d9c8121fa29377e5d55d3e6fafda7a2fdb`; and Pages run `33956876406`
+succeeded. Pinned verification against
+`980da53d8490b88343cc2edf5f744ea37d3e51d7` matched all 67 assets / 84,543,559
+bytes, seven core routes and ten direct cohort profiles.
 
 Final manifest: 67 assets / 84,543,559 bytes; SHA-256
 `14720a5fe3d997c9754895d4bed24b8b095a9eef908b114ef166af4ed28fe381`.

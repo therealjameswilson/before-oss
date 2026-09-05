@@ -2,7 +2,26 @@
 
 Run: 2026-09-05 UTC
 
-## Batch 420 local
+## Batch 421 local
+
+All internal targets resolve across 24,464 HTML pages; 49,608 external URLs are
+inventoried, not all visited. Identifier checks cover all 24,536 artifacts,
+12,926 normalized identifiers, 120 formatted variants and 1,080 candidate
+substring coincidences with zero unexpected boundary, aggregate or
+manifest-size matches. A separate scan finds zero full private identifiers in
+the tracked Batch 421 evidence bundle. Manifest: 67 assets / 84,572,017 bytes;
+SHA-256
+`b1939d162d61a76c3a1c5140bddaefddfd83aebe640583156374c6f9e8630c6c`.
+The full replay from the frozen PDF reproduced the 70-file public tree at
+SHA-256
+`5f9c1014e6a5080857985e6e1eabf3681786ecda4fad61cd602050ec399841cb`.
+Consecutive 24,536-file Pages-configuration production trees match at SHA-256
+`a6153be1a28c30ecf3e733983dbad9887302b8a7b6a5b56d8272939ccbd130a7`.
+All six Batch 421 citation destinations returned HTTP 200. No authenticated
+Catalog request or access-control bypass was used. Independent GitHub QA and
+deployment remain pending; see `reports/release_batch_421.md`.
+
+## Batch 420 release
 
 All internal targets resolve across 24,464 HTML pages; 49,608 external URLs are
 inventoried, not all visited. Identifier checks cover all 24,536 artifacts,
@@ -20,7 +39,10 @@ Consecutive 24,536-file Pages-configuration production trees match at SHA-256
 Nine of ten Batch 420 citation destinations returned HTTP 200. The official
 Army history PDF timed out in the automated check after browser-readable
 review; no access control was bypassed. No authenticated Catalog request was
-used. Independent GitHub QA and deployment remain pending; see
+used. Independent GitHub Test `33955136725`, PR 177 and Pages `33956876406`
+passed. Pinned verification against
+`980da53d8490b88343cc2edf5f744ea37d3e51d7` matched all 67 assets / 84,543,559
+bytes, seven core routes and ten direct cohort profiles; see
 `reports/release_batch_420.md`.
 
 ## Batch 419 release
