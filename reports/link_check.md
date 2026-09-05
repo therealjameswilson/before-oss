@@ -2,6 +2,21 @@
 
 Run: 2026-09-05 UTC
 
+## Batch 412 local
+
+All internal targets resolve across 24,459 HTML pages; 49,587 external URLs are
+inventoried, not all visited. Identifier checks cover all 24,531 artifacts with
+zero unexpected boundary, aggregate or manifest-size matches. Manifest: 67
+assets / 83,888,460 bytes; SHA-256
+`cac12dd0e57bb8f21d75ff38b7ce1bb5a1d95609f8c0aae80bd9f8fc158ff7ab`.
+A full replay from the frozen PDF reproduces the 70-file public tree at SHA-256
+`1aa842c778e49847d69699fcff9b9e6ec9e8e993b37e61a5936e6f9b5a8148e4`.
+Consecutive 24,531-file production trees match at SHA-256
+`d83739b9d25e627c2ef844a039064303b44fa9f9da3278c7c14944ec0fd19db9`.
+All four Batch 412 citation destinations returned HTTP 200. No authenticated
+Catalog request or access-control bypass was used. Independent GitHub QA and
+deployment remain pending; see `reports/release_batch_412.md`.
+
 ## Batch 411 local
 
 All internal targets resolve across 24,459 HTML pages; 49,587 external URLs are
@@ -15,7 +30,8 @@ The final 24,531-file production tree has SHA-256
 `68c8369ffdbe44ca178de091a279bdd8717987074a892743eeb09d44e2af6804`.
 All seven Batch 411 citation destinations returned HTTP 200. A restricted
 secondary lead was excluded, and no access control was bypassed. Independent
-GitHub QA and deployment remain pending; see `reports/release_batch_411.md`.
+GitHub Test `33936944385`, PR 168, Pages `33938624532` and pinned live
+verification subsequently passed; see `reports/release_batch_411.md`.
 
 ## Batch 410 local
 

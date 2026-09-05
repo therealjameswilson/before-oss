@@ -1,8 +1,8 @@
 # Batch 411 release verification
 
-2026-09-05 UTC. **Local release candidate; not yet merged or deployed.** This
-report covers the ten people on PDF page 80 rows 10-19, Jean Chretien through
-Emil E. Christensen, in Boxes 122-123.
+2026-09-05 UTC. **Released and pinned-live verified.** This report covers the
+ten people on PDF page 80 rows 10-19, Jean Chretien through Emil E.
+Christensen, in Boxes 122-123.
 
 ## Research
 
@@ -129,6 +129,13 @@ comparing those two generations, not a page, evidence or accessibility defect.
 After the final deterministic rebuild, both analysis scenarios passed across
 all three viewports, 6/6, and all twelve Batch 411 scenarios passed across the
 same viewports, 12/12; the combined final rerun passed 18/18 in 15.7 seconds.
+
+Independent GitHub Test `33936944385` passed in 34 minutes 20 seconds. PR 168
+merged as `5d34bfea48a02b8c5190ce0ef2936b507c29110e`; Pages run `33938624532`
+succeeded. Pinned verification against source commit
+`9ba6fc311460cf48c59356d6648b5820a1e1f06c` matched all 67 assets, seven
+core routes and all ten direct cohort profiles at
+`https://therealjameswilson.github.io/before-oss/`.
 
 Final manifest: 67 assets / 83,867,088 bytes; SHA-256
 `9b151c18c4d3d20c6297fb093147db229ec7dbd95639a74ff09b0ecd4ad97690`.
