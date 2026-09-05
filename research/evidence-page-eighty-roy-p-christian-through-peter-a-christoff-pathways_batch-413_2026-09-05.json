@@ -1,0 +1,540 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Codex individual archival review, Batch 413",
+  "sources": [
+    {
+      "key": "index-b413",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; complete PDF page 80 visually inspected at 150 dpi; rows 30-39; Box 123; location 230/86/28/06",
+      "access_date": "2026-09-05",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Citation and project-authored assessments only; no full source page, raw bulk record or full private identifier reproduced."
+    },
+    {
+      "key": "army-b413",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.zip; complete transient scan of 9,200,232 fixed-width records; six eligible private identifiers and name variants compared; two exact name-and-identifier matches, two identifier/name conflicts and two identifier no-hits",
+      "access_date": "2026-09-05",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "Reviewed transiently outside version control. No raw row, full private identifier or API response is retained. The merged file is incomplete, so absence is not negative proof."
+    },
+    {
+      "key": "basic-b413",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-45; fixed-width field layout for name, residence, Army entry date, grade, branch, birth-year code and civilian occupation; visually and textually checked",
+      "access_date": "2026-09-05",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only. The documentation warns about alternate card layouts and coding limits; the merged file is not treated as a complete roster."
+    },
+    {
+      "key": "codes-b413",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical page 173 / printed XIV-XV; codes 4,6,8-02 and 4,6,8-49; full page visually and textually checked",
+      "access_date": "2026-09-05",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Government code list inspected as a full rendered page; only the short occupational labels are retained. The codes do not name employers or workplaces."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "gustave-christianson-occupation-b413",
+      "person_id": "1736c969-a322-5e9f-8229-c27ae6054dcb",
+      "occupation": "Occupations in printing and publishing, n.e.c.",
+      "relationship_type": "unknown",
+      "date_precision": "The Army record carries an 8 September 1943 entry date; the actual work dates and temporal relationship to OSS service are unestablished.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The official Army entry records a broad occupational group but names no employer, workplace or employment dates. It is not converted into an immediate pre-OSS affiliation or last civilian employer."
+    },
+    {
+      "key": "richard-christman-occupation-b413",
+      "person_id": "81ec4047-d242-56fe-bd16-b2affead3366",
+      "occupation": "Occupations in production of bakery products, n.e.c.",
+      "relationship_type": "unknown",
+      "date_precision": "The Army record carries a 12 May 1943 entry date; the actual work dates and temporal relationship to OSS service are unestablished.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The official Army entry records a broad occupational group but names no employer, workplace or employment dates. It is not converted into an immediate pre-OSS affiliation or last civilian employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-gustave-christianson-b413",
+      "person_id": "1736c969-a322-5e9f-8229-c27ae6054dcb",
+      "claim_type": "identity",
+      "claim_text": "Gustave M Christianson has a high-confidence identifier-backed Army record match.",
+      "evidence_paraphrase": "The private identifier and surname-middle-initial combination match an Army entry dated 8 September 1943; the entry spells the given name Gustav rather than the index's Gustave.",
+      "identity_match_assessment": "Exact private identifier, surname and middle initial with only the documented Gustav/Gustave spelling difference; assessed high confidence.",
+      "temporal_assessment": "The Army entry date establishes a wartime observation but not the date or route of later OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The private identifier is masked publicly. Gustav M Christianson is retained as a documented source spelling, not a correction to the index.",
+      "sources": [
+        {
+          "source_key": "index-b413",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b413",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "occupation-gustave-christianson-b413",
+      "person_id": "1736c969-a322-5e9f-8229-c27ae6054dcb",
+      "affiliation_key": "gustave-christianson-occupation-b413",
+      "claim_type": "occupation",
+      "claim_text": "The Army entry records the occupational group ‘Occupations in printing and publishing, n.e.c.’",
+      "evidence_excerpt": "Occupations in printing and publishing, n.e.c.",
+      "evidence_paraphrase": "The identifier-backed Army record carries occupation code 449, which the inspected NARA code page labels Occupations in printing and publishing, n.e.c.",
+      "identity_match_assessment": "Exact private identifier, surname and middle initial with a documented Gustav/Gustave spelling difference; assessed high confidence.",
+      "temporal_assessment": "Observed with an Army entry date of 8 September 1943; temporal relationship to OSS entry remains uncertain.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No named employer, workplace, specific job title or employment date is inferred from the occupational group.",
+      "sources": [
+        {
+          "source_key": "army-b413",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "basic-b413",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b413",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-conflict-christian-christis-b413",
+      "person_id": "c2d682f4-0bb7-5931-9a87-4235d10b9f91",
+      "claim_type": "identity",
+      "claim_text": "Christian C Christis has an unresolved service-identifier/name conflict.",
+      "evidence_paraphrase": "The exact private identifier returns an Army entry naming Christ G Christis rather than Christian C Christis.",
+      "identity_match_assessment": "The identifier agrees, but both the given-name form and middle initial conflict. The Army occupation cannot be assigned to the indexed person without further evidence.",
+      "temporal_assessment": "The conflicting Army entry is dated 12 October 1942; no occupation or recruitment chronology is accepted from it.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The printed index row remains unchanged and the full identifier remains private. Box 123 review is required.",
+      "sources": [
+        {
+          "source_key": "index-b413",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b413",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-richard-christman-b413",
+      "person_id": "81ec4047-d242-56fe-bd16-b2affead3366",
+      "claim_type": "identity",
+      "claim_text": "Richard A Christman has a high-confidence identifier-backed Army record match.",
+      "evidence_paraphrase": "The private identifier and exact indexed name match an Army entry dated 12 May 1943 whose grade field reads private.",
+      "identity_match_assessment": "Exact indexed name plus exact private identifier; assessed high confidence.",
+      "temporal_assessment": "The Army entry predates the index's T-5 rank observation but does not establish the date or route of OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The index's T-5 rank is preserved unchanged; the earlier Army entry grade is not substituted for it. The private identifier is masked publicly.",
+      "sources": [
+        {
+          "source_key": "index-b413",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b413",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "occupation-richard-christman-b413",
+      "person_id": "81ec4047-d242-56fe-bd16-b2affead3366",
+      "affiliation_key": "richard-christman-occupation-b413",
+      "claim_type": "occupation",
+      "claim_text": "The Army entry records the occupational group ‘Occupations in production of bakery products, n.e.c.’",
+      "evidence_excerpt": "Occupations in production of bakery products, n.e.c.",
+      "evidence_paraphrase": "The identifier-backed Army record carries occupation code 802, which the inspected NARA code page labels Occupations in production of bakery products, n.e.c.",
+      "identity_match_assessment": "Exact indexed name plus exact private identifier; assessed high confidence.",
+      "temporal_assessment": "Observed with an Army entry date of 12 May 1943; temporal relationship to OSS entry remains uncertain.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No named employer, workplace, bakery, specific job title or employment date is inferred from the occupational group.",
+      "sources": [
+        {
+          "source_key": "army-b413",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "basic-b413",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b413",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-conflict-peter-christoff-b413",
+      "person_id": "a40abcbd-0889-52c3-ac5c-4d62ed6ae3b8",
+      "claim_type": "identity",
+      "claim_text": "Peter A Christoff has an unresolved service-identifier/name conflict.",
+      "evidence_paraphrase": "The exact private identifier returns an Army entry naming Peter K Christoff rather than Peter A Christoff.",
+      "identity_match_assessment": "The identifier and full first and last names agree, but the middle initial conflicts. The Army occupation cannot be assigned to the indexed person without further evidence.",
+      "temporal_assessment": "The conflicting Army entry is dated 29 June 1943; no occupation or recruitment chronology is accepted from it.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The printed index row remains unchanged and the full identifier remains private. Box 123 review is required.",
+      "sources": [
+        {
+          "source_key": "index-b413",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b413",
+          "support_type": "supports"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "f47ac5d8-331e-5867-868b-fc35915dbf4d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The exact private identifier is absent from the complete Army file. One exact-name Army row carries another identifier, while modern dentist and other namesakes lack an OSS or Box 123 bridge.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 123 for identifiers that distinguish Roy P Christian from the Army and modern namesakes and establish his pre-OSS history.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "45fa4044-208b-503b-b46a-aef52ab7a166",
+      "identity_status": "unresolved",
+      "identity_evidence": "Neither the exact private identifier nor an exact Waldemar C Christian name appears in the complete Army file, and accessible official, obituary, institutional and newspaper searches did not establish an identity bridge.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 123 to identify Waldemar C Christian and establish his service context and pre-OSS affiliation.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fa7975d5-b4c3-5d3b-873b-ce5d5253adf5",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies no private identifier. Multiple William B Christian Army rows, including junior variants, cannot be selected by a common name alone, and external searches provided no Box 123 bridge.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 123 for a service number, birth year or hometown that can distinguish William B Christian and establish his pre-OSS pathway.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "235cb4c0-06a5-5831-82c6-55b08e00900a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies no private identifier. One Army row names William Christians without a middle initial, but no second identifier or direct OSS connection establishes that it belongs to this person.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 123 for a service number, birth year or hometown that can test the William Christians Army candidate and establish pre-OSS history.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3847bf8c-3f23-53db-9336-0acf281168cb",
+      "identity_status": "unresolved",
+      "identity_evidence": "The six-digit index value was preserved exactly and not padded. One exact-name Army row carries a different eight-digit identifier, and no external source bridges it to Box 123.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 123 to determine the meaning of Herbert P Christiansen's six-digit value and establish his identity and pre-OSS pathway.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1736c969-a322-5e9f-8229-c27ae6054dcb",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact private identifier, surname and middle initial match an official Army entry dated 8 September 1943; the Army source spells the given name Gustav rather than the index's Gustave, and the occupation code is supported by the inspected NARA code page.",
+      "name_variants": [
+        "Gustave M Christianson",
+        "Gustave M. Christianson",
+        "Gustav M Christianson",
+        "Gustav M. Christianson"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 123 for Gustave M Christianson's named employer, work dates and route from printing or publishing work into Army and OSS service.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c2d682f4-0bb7-5931-9a87-4235d10b9f91",
+      "identity_status": "conflicting",
+      "identity_evidence": "The exact private identifier matches an Army row naming Christ G Christis, not Christian C Christis. Both the given-name form and middle initial conflict, so no Army occupation is assigned.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 123 and the original Army record to resolve the Christian C versus Christ G name conflict before assigning any occupation or affiliation.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "81ec4047-d242-56fe-bd16-b2affead3366",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and private identifier match an official Army entry dated 12 May 1943; the entry-grade field reads private and the occupation code is supported by the inspected NARA code page.",
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 123 for Richard A Christman's named employer, work dates, progression from the Army entry grade to the indexed T-5 rank and route into OSS.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "703c7ac7-c148-54d8-8df0-38d919378a94",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies no private identifier, no exact William D Christman row appears in the complete Army file, and burial, obituary and directory namesakes lack an OSS or Box 123 bridge.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 123 for a service number, birth year or hometown that can identify William D Christman and establish his pre-OSS history.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a40abcbd-0889-52c3-ac5c-4d62ed6ae3b8",
+      "identity_status": "conflicting",
+      "identity_evidence": "The exact private identifier matches an Army row naming Peter K Christoff, not Peter A Christoff. The middle initial conflict prevents assignment of the Army occupation.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 123 and the original Army record to resolve the Peter A versus Peter K middle-initial conflict before assigning any occupation or affiliation.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b413-person-roy-p-christian-review",
+      "person_id": "f47ac5d8-331e-5867-868b-fc35915dbf4d",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 80 context and complete Army bulk comparison; exact-name and private-identifier OSS/CIA searches; employment, occupation, obituary, institutional, Library of Congress newspaper and archival-source searches for Roy P Christian.",
+      "query_variant_type": "staged_identifier_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T02:27:00Z",
+      "completed_at": "2026-09-05T02:34:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The exact identifier is absent from the Army file; an exact-name Army row carries another identifier, while modern dentist and government-payment namesakes are too recent and lack an OSS bridge.",
+      "research_notes": "Bounded individual adjudication, not proof that no prior employer existed. No raw Army row, full private identifier or authenticated Catalog payload is retained.",
+      "next_action": "Review Box 123 for identifying and pre-OSS evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch413-v1"
+    },
+    {
+      "key": "b413-person-waldemar-c-christian-review",
+      "person_id": "45fa4044-208b-503b-b46a-aef52ab7a166",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 80 context and complete Army bulk comparison; exact-name and private-identifier OSS/CIA searches; employment, occupation, obituary, institutional, Library of Congress newspaper and archival-source searches for Waldemar C Christian.",
+      "query_variant_type": "staged_identifier_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T02:27:00Z",
+      "completed_at": "2026-09-05T02:34:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Neither the identifier nor exact name appears in the Army file, and broad newspaper and institutional hits concern unrelated uses of Waldemar or Christian.",
+      "research_notes": "Bounded individual adjudication; missing merged-file coverage is not proof against service or employment.",
+      "next_action": "Review Box 123 for identifying and pre-OSS evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch413-v1"
+    },
+    {
+      "key": "b413-person-william-b-christian-review",
+      "person_id": "fa7975d5-b4c3-5d3b-873b-ce5d5253adf5",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 80 context and complete Army bulk comparison; exact-name, middle-initial and junior variants in OSS/CIA, employment, occupation, obituary, institutional, Library of Congress newspaper and archival sources for William B Christian.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T02:27:00Z",
+      "completed_at": "2026-09-05T02:34:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Multiple Army name candidates and unrelated modern or prewar namesakes lack a private identifier, Box 123 link or two corroborating identifiers.",
+      "research_notes": "Common-name safeguards applied; no Army candidate or employer is selected by name alone.",
+      "next_action": "Review Box 123 for distinguishing identifiers and pre-OSS evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch413-v1"
+    },
+    {
+      "key": "b413-person-william-f-christians-review",
+      "person_id": "235cb4c0-06a5-5831-82c6-55b08e00900a",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 80 context and complete Army bulk comparison; exact-name, singular-surname and middle-initial variants in OSS/CIA, employment, occupation, obituary, institutional, Library of Congress newspaper and archival sources for William F Christians.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T02:27:00Z",
+      "completed_at": "2026-09-05T02:34:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "An Army William Christians row lacks the middle initial and any OSS bridge; a 1949 burial-index result likewise supplies no corroborating identifier.",
+      "research_notes": "The surname is preserved as printed, and no singular/plural spelling is silently substituted.",
+      "next_action": "Review Box 123 for distinguishing identifiers and pre-OSS evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch413-v1"
+    },
+    {
+      "key": "b413-person-herbert-p-christiansen-review",
+      "person_id": "3847bf8c-3f23-53db-9336-0acf281168cb",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 80 context and complete Army bulk comparison; exact-name and unpadded six-digit value checks; OSS/CIA, employment, occupation, obituary, institutional, Library of Congress newspaper and archival-source searches for Herbert P Christiansen.",
+      "query_variant_type": "staged_identifier_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T02:27:00Z",
+      "completed_at": "2026-09-05T02:34:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The six-digit value was not padded; the exact-name Army row carries a different eight-digit identifier, and newspaper or directory results lack an OSS bridge.",
+      "research_notes": "The printed value remains unchanged. No unsupported leading digits or occupation are adopted.",
+      "next_action": "Review Box 123 to resolve the printed value and pre-OSS pathway.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch413-v1"
+    },
+    {
+      "key": "b413-person-gustave-m-christianson-review",
+      "person_id": "1736c969-a322-5e9f-8229-c27ae6054dcb",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 80 context and complete Army bulk comparison; Gustave/Gustav name and private-identifier OSS/CIA searches; printing, publishing, employment, occupation, obituary, institutional, Library of Congress newspaper and archival-source searches; applicable NARA code page inspected.",
+      "query_variant_type": "staged_identifier_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T02:27:00Z",
+      "completed_at": "2026-09-05T02:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "A North Dakota World War I veteran and Norwegian printer have different birth chronology or national context; a 2016 obituary is a modern namesake.",
+      "research_notes": "The exact identifier-backed Army occupation names no employer and does not establish its temporal relationship to OSS entry. No raw record or full identifier is retained.",
+      "next_action": "Review Box 123 for a named employer, work dates and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch413-v1"
+    },
+    {
+      "key": "b413-person-christian-c-christis-review",
+      "person_id": "c2d682f4-0bb7-5931-9a87-4235d10b9f91",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 80 context and complete Army bulk comparison; Christian/Christ and middle-initial variants with the private identifier; OSS/CIA, employment, occupation, obituary, institutional, Library of Congress newspaper and archival-source searches for Christian C Christis.",
+      "query_variant_type": "staged_identifier_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T02:27:00Z",
+      "completed_at": "2026-09-05T02:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The exact identifier returns Christ G Christis, while broad Christis results provide no source proving that both the given name and middle initial were mistranscribed.",
+      "research_notes": "The Army occupation is withheld because the identity evidence conflicts. The full identifier remains private.",
+      "next_action": "Review Box 123 and the original Army record to resolve the name conflict.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch413-v1"
+    },
+    {
+      "key": "b413-person-richard-a-christman-review",
+      "person_id": "81ec4047-d242-56fe-bd16-b2affead3366",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 80 context and complete Army bulk comparison; exact-name and private-identifier OSS/CIA searches; bakery, employment, occupation, obituary, institutional, Library of Congress newspaper and archival-source searches; applicable NARA code page inspected.",
+      "query_variant_type": "staged_identifier_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T02:27:00Z",
+      "completed_at": "2026-09-05T02:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "A second exact-name Army row carries another identifier, while obituary and directory namesakes lack the matching private identifier or OSS context.",
+      "research_notes": "The exact identifier-backed Army occupation names no employer and does not establish its temporal relationship to OSS entry. No raw record or full identifier is retained.",
+      "next_action": "Review Box 123 for a named employer, work dates, rank chronology and Army-to-OSS route.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch413-v1"
+    },
+    {
+      "key": "b413-person-william-d-christman-review",
+      "person_id": "703c7ac7-c148-54d8-8df0-38d919378a94",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 80 context and complete Army bulk comparison; exact-name and initial variants in OSS/CIA, employment, occupation, obituary, institutional, Library of Congress newspaper and archival sources for William D Christman.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T02:27:00Z",
+      "completed_at": "2026-09-05T02:34:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "No exact Army name is available, and burial, obituary and directory namesakes lack an OSS, Box 123 or second-identifier bridge.",
+      "research_notes": "Common-name safeguards applied; no burial candidate or employer is selected by name alone.",
+      "next_action": "Review Box 123 for distinguishing identifiers and pre-OSS evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch413-v1"
+    },
+    {
+      "key": "b413-person-peter-a-christoff-review",
+      "person_id": "a40abcbd-0889-52c3-ac5c-4d62ed6ae3b8",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 80 context and complete Army bulk comparison; Peter A/Peter K middle-initial variants with the private identifier; OSS/CIA, employment, occupation, obituary, institutional, Library of Congress newspaper and archival-source searches for Peter A Christoff.",
+      "query_variant_type": "staged_identifier_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T02:27:00Z",
+      "completed_at": "2026-09-05T02:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "The exact identifier returns Peter K Christoff; a separate Peter J Army namesake, a post-2008 attorney and older estate or newspaper namesakes cannot resolve the middle-initial conflict.",
+      "research_notes": "The Army occupation is withheld because the identity evidence conflicts. The full identifier remains private.",
+      "next_action": "Review Box 123 and the original Army record to resolve the middle-initial conflict.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch413-v1"
+    }
+  ]
+}

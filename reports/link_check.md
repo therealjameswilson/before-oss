@@ -2,6 +2,22 @@
 
 Run: 2026-09-05 UTC
 
+## Batch 413 local
+
+All internal targets resolve across 24,459 HTML pages; 49,587 external URLs are
+inventoried, not all visited. Identifier checks cover all 24,531 artifacts,
+12,926 normalized identifiers, 120 formatted variants and 1,087 candidate
+substring coincidences with zero unexpected boundary, aggregate or
+manifest-size matches. Manifest: 67 assets / 83,929,419 bytes; SHA-256
+`cfbfbd3b82c4d46d784dfb6a7d5b4bf86fb8902030d832825ccb944097842232`.
+A full replay from the frozen PDF reproduces the 70-file public tree at SHA-256
+`76d8bb8434e1826bcb4d1e6fa959316ae3dd3e04180af7bee70575f5220884df`.
+Consecutive 24,531-file production trees match at SHA-256
+`c519cefc808c1ca1419f2238fd5582aacccb01373f0c61ae042331ff8a6b2b56`.
+All four Batch 413 citation destinations returned HTTP 200. No authenticated
+Catalog request or access-control bypass was used. Independent GitHub QA and
+deployment remain pending; see `reports/release_batch_413.md`.
+
 ## Batch 412 local
 
 All internal targets resolve across 24,459 HTML pages; 49,587 external URLs are
@@ -14,8 +30,11 @@ A full replay from the frozen PDF reproduces the 70-file public tree at SHA-256
 Consecutive 24,531-file production trees match at SHA-256
 `d83739b9d25e627c2ef844a039064303b44fa9f9da3278c7c14944ec0fd19db9`.
 All four Batch 412 citation destinations returned HTTP 200. No authenticated
-Catalog request or access-control bypass was used. Independent GitHub QA and
-deployment remain pending; see `reports/release_batch_412.md`.
+Catalog request or access-control bypass was used. Independent GitHub Test
+`33939013769`, PR 169 and Pages `33940662130` passed. Pinned verification
+against `4bf9e80b6a258c6658c8d03b0c8a483960f260e5` matched all 67 assets /
+83,888,460 bytes, seven core routes and ten direct cohort profiles; see
+`reports/release_batch_412.md`.
 
 ## Batch 411 local
 

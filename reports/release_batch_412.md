@@ -1,6 +1,6 @@
 # Batch 412 release verification
 
-2026-09-05 UTC. **Local release candidate; not yet merged or deployed.** This
+2026-09-05 UTC. **Released and pinned-live verified.** This
 report covers the ten people on PDF page 80 rows 20-29, Geoffrey Christensen
 through Mary W. Christian, all in Box 123.
 
@@ -122,6 +122,13 @@ pass across desktop, phone and tablet on the final build.
 The complete 1,761-case local browser/accessibility matrix passed 1,761/1,761
 in 19.2 minutes across desktop, phone and tablet with retries disabled.
 Consecutive final production builds match byte-for-byte.
+
+Independent GitHub Test `33939013769` passed in 34 minutes 41 seconds. PR 169
+merged as `c9d7906660ecd7d08f7dd20ad9f6d612ea6c24ea`; Pages run
+`33940662130` succeeded. Pinned verification against source commit
+`4bf9e80b6a258c6658c8d03b0c8a483960f260e5` matched all 67 assets /
+83,888,460 bytes, seven core routes and all ten direct cohort profiles at
+`https://therealjameswilson.github.io/before-oss/`.
 
 Final manifest: 67 assets / 83,888,460 bytes; SHA-256
 `cac12dd0e57bb8f21d75ff38b7ce1bb5a1d95609f8c0aae80bd9f8fc158ff7ab`.

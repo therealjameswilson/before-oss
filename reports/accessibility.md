@@ -4,11 +4,18 @@ Run: 2026-09-05 UTC
 
 ## Result
 
+Batch 413: the complete 1,770-case local browser/accessibility matrix passed
+1,770/1,770 across desktop, phone and tablet in 18.8 minutes with retries
+disabled. Nine final focused checks pass on the repeated deterministic build.
+The production build reports zero Astro errors, warnings or hints; see
+`reports/release_batch_413.md`.
+
 Batch 412: the complete 1,761-case local browser/accessibility matrix passed
 1,761/1,761 across desktop, phone and tablet in 19.2 minutes with retries
 disabled. Six final focused checks pass on the repeated deterministic build.
-The production build reports zero Astro errors, warnings or hints; see
-`reports/release_batch_412.md`.
+The production build reports zero Astro errors, warnings or hints. Independent
+GitHub Test `33939013769`, PR 169, Pages `33940662130` and pinned live
+verification subsequently passed; see `reports/release_batch_412.md`.
 
 Batch 411: the complete 1,755-case local browser/accessibility matrix produced
 1,754 passes and one generated-timestamp equality failure in 16.0 minutes. The
