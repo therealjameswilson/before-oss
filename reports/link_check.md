@@ -2,6 +2,46 @@
 
 Run: 2026-09-05 UTC
 
+## Batch 418 local
+
+All internal targets resolve across 24,461 HTML pages; 49,598 external URLs are
+inventoried, not all visited. Identifier checks cover all 24,533 artifacts,
+12,926 normalized identifiers, 120 formatted variants and 1,085 candidate
+substring coincidences with zero unexpected boundary, aggregate or
+manifest-size matches. A separate scan finds zero private-identifier boundary
+matches in the tracked Batch 418 evidence bundle. Manifest: 67 assets /
+84,336,853 bytes; SHA-256
+`84f4bfa0491c0417e3499042993f1d194104fc77d6717210d6484e9245d8f95a`.
+The full replay from the frozen PDF reproduced the 70-file public tree at
+SHA-256
+`bb81344cc4683ce8d9691ba44d6ce488fba9fe6dfb1f8c009f480c01ddb3bac8`.
+Consecutive 24,533-file Pages-configuration production trees match at SHA-256
+`c82acc2215245433319694260abee04b8bf06e784d241fbd06a9267d757ba68b`.
+Six of eight Batch 418 citation destinations returned HTTP 200. Hoover and
+Library of Congress returned HTTP 403 to the automated check after the source
+pages were reviewed in the browser; no access control was bypassed. No
+authenticated Catalog request was used. Independent GitHub QA and deployment
+remain pending; see `reports/release_batch_418.md`.
+
+## Batch 417 release
+
+All internal targets resolved across 24,461 HTML pages; 49,595 external URLs
+were inventoried, not all visited. Identifier checks covered all 24,533
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,083
+candidate substring coincidences with zero unexpected boundary, aggregate or
+manifest-size matches. The manifest contains 67 assets / 84,251,572 bytes at
+SHA-256
+`b9bda45c293b345f6878eb3b3fc5d4ff5c6c64aec085ad77caaef26533ade734`.
+The full replay reproduced the 70-file public tree at SHA-256
+`818fc52a3a681de5480d721abadc9e02180c37a3a0e9213d2966b82b9ab017de`
+and consecutive 24,533-file production trees matched at SHA-256
+`2cf44a7da3157e06b58bc7aa36d7f811e13d40136e4af647cee1ecf3bd6050ae`.
+Independent GitHub Test `33948513639`, PR 174 and Pages `33949846453`
+passed. Pinned verification against
+`61eb287000e242e9c09dce3f2b9cfdea73050b94` matched all 67 assets, seven
+core routes and ten direct cohort profiles; see
+`reports/release_batch_417.md`.
+
 ## Batch 416 local
 
 All internal targets resolve across 24,461 HTML pages; 49,593 external URLs are
@@ -19,7 +59,9 @@ Consecutive 24,533-file Pages-configuration production trees match at SHA-256
 `47d4ac9d4f74337217c23457d82c24176b5f2282a3a704ca303da7cdf56ed5a0`.
 All six Batch 416 citation destinations returned HTTP 200 or HTTP 206. No
 authenticated Catalog request or access-control bypass was used. Independent
-GitHub QA and deployment remain pending; see
+GitHub Test `33946810994`, PR 173 and Pages `33948257696` passed. Pinned
+verification against `f3114cafc2246018d90bbb60724e9edb93b29ad1` matched all
+67 assets, seven core routes and ten direct cohort profiles; see
 `reports/release_batch_416.md`.
 
 ## Batch 415 local

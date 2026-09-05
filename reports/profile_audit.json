@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T05:30:25+00:00",
+  "generated_at": "2026-09-05T06:15:33+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -18,16 +18,16 @@
     "commissioned_marine_corps_officer": 4,
     "commissioned_naval_officer": 4,
     "enlisted_army_personnel": 25,
-    "enlisted_marine_corps_personnel": 3,
+    "enlisted_marine_corps_personnel": 4,
     "enlisted_naval_personnel": 4,
     "foreign_or_allied_military_personnel": 17,
     "temporary_contract_or_special_personnel": 3,
-    "unknown_or_indeterminate": 93,
+    "unknown_or_indeterminate": 92,
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
-    "1": 77,
-    "2": 60,
+    "1": 76,
+    "2": 61,
     "3": 27,
     "4": 36
   },
@@ -35,19 +35,19 @@
     "ambiguous": 2,
     "confirmed": 2,
     "conflicting": 10,
-    "high_confidence": 23,
+    "high_confidence": 24,
     "probable": 4,
-    "unresolved": 159
+    "unresolved": 158
   },
   "research_status_counts": {
-    "completed": 3,
+    "completed": 4,
     "conflicting_sources": 10,
     "documented_prewar_employer_found": 3,
     "in_progress": 2,
     "needs_identity_review": 1,
     "needs_temporal_review": 2,
     "no_reliable_result_after_protocol": 1,
-    "not_started": 139,
+    "not_started": 138,
     "occupation_only_found": 3,
     "requires_archival_review": 27,
     "verified_employer_found": 9
@@ -55,14 +55,14 @@
   "special_strata_counts": {
     "commissioned": 32,
     "civilian": 21,
-    "enlisted": 32,
+    "enlisted": 33,
     "allied_or_foreign": 20,
     "incomplete_or_initial_only_name": 20,
     "possible_duplicate_group": 31,
-    "confirmed_or_high_published_claim": 22,
+    "confirmed_or_high_published_claim": 23,
     "medium_published_claim": 11,
     "conflicting_published_claim": 10,
-    "unresolved_identity": 159
+    "unresolved_identity": 158
   },
   "unavailable_strata": {
     "women": "The index has no sex/gender field; the project does not infer gender from names. This stratum requires sourced identity research."
@@ -89,6 +89,7 @@
     "82a7ed2a-6c6d-5f14-b9b1-3e6862805610",
     "80da73bc-ef68-590b-98c3-4dfbd971b03f",
     "21c878e1-cfbe-598b-86ab-023aa190f643",
+    "5d8b3ae5-ea98-51eb-b4e0-fce85c3c0564",
     "bcfb9ef0-8447-55c1-8dbd-2e6612f80392",
     "63d92813-94cd-578e-942a-c2bdc37a92d8",
     "ab9eaf6b-7d47-5ba9-a724-d4579e7ec111",
@@ -122,7 +123,6 @@
     "37ea2669-6cb0-53ba-b88d-f47577d4eb99",
     "59596457-3383-5bce-9046-757979567629",
     "0d912f02-fd91-58a0-84ed-fc5bb2c58469",
-    "7fd2df90-8f0a-5177-8cac-da63dbe1f43d",
     "fe52d758-d6dd-5890-bf81-b66c092e7b5e",
     "77c4394e-748a-5cc8-944e-10fae7af4791",
     "d5ae5010-380a-5892-adb2-86b5396651aa",
@@ -192,7 +192,6 @@
     "856d3efb-e217-587a-920c-6ffcdaf7859e",
     "4fcc4224-509e-5abe-9eba-9e1dd27d0b97",
     "72016753-133a-5a39-909d-534def2349c5",
-    "0e45834f-eb80-5260-86f9-f290b7f429f9",
     "82810e22-1b1b-5b87-93f0-e8b8523d3de3",
     "5672d792-8da0-53b3-890f-e1b432c2ff25",
     "a9158554-12ab-50d6-b15e-3596a48aca6b",
@@ -248,6 +247,7 @@
     "fc2db5cc-62a0-5a20-a340-b5d44d755dcc",
     "ed85c4d6-8e49-5752-afde-7c5eea5f273d",
     "3847bf8c-3f23-53db-9336-0acf281168cb",
+    "7fd2df90-8f0a-5177-8cac-da63dbe1f43d",
     "c7b2f044-9e84-5e2e-8eaa-cba01581d249",
     "e93e5ecb-8c29-5043-a0cb-dbe9d1b9e6b1",
     "c3af4075-e97a-5342-b52a-ee92adb135a4",
@@ -267,6 +267,6 @@
     "70fbff69-8032-5457-9009-c1ad7ee0f6b7",
     "46c4071e-393f-5689-816d-8ae8c29bbf31",
     "e5dc04d0-a5d1-5aa9-bfd7-3746559353c6",
-    "a2d327c1-38bf-5e91-8762-d07ad0295d6c"
+    "0e45834f-eb80-5260-86f9-f290b7f429f9"
   ]
 }
