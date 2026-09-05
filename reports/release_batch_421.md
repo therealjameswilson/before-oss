@@ -1,6 +1,6 @@
 # Batch 421 release verification
 
-2026-09-05 UTC. **Local release candidate; not yet merged or deployed.** This
+2026-09-05 UTC. **Released and pinned-live verified.** This
 report covers ten people on PDF page 82 rows 18-27, Andrew H Clark through
 Eleanor Clark, all in Box 126.
 
@@ -133,8 +133,12 @@ zero vulnerabilities.
 The complete 1,914-case local browser/accessibility matrix passed 1,914/1,914
 in 15.6 minutes across desktop, phone and tablet with retries disabled.
 Consecutive Pages-configuration builds reproduced byte-identical public and
-production trees. Independent GitHub QA, merge, Pages deployment and pinned
-live verification remain subsequent release gates.
+production trees. Independent GitHub Test `33957120427` passed in 38 minutes
+49 seconds. PR 178 merged as
+`4bb6c6eeecb6fddae85dc2eaba2feb106afa9611` at 2026-09-05 09:46:36 UTC;
+Pages run `33958893596` succeeded. Pinned verification against source commit
+`3192b92d7b778f395cb8d5b37d531bb21d4176d5` matched all 67 assets / 84,572,017
+bytes, all seven core routes and all ten direct cohort profiles.
 
 Final manifest: 67 assets / 84,572,017 bytes; SHA-256
 `b1939d162d61a76c3a1c5140bddaefddfd83aebe640583156374c6f9e8630c6c`.

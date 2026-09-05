@@ -2,7 +2,26 @@
 
 Run: 2026-09-05 UTC
 
-## Batch 421 local
+## Batch 422 local
+
+All internal targets resolve across 24,464 HTML pages; 49,608 external URLs are
+inventoried, not all visited. Identifier checks cover all 24,536 artifacts,
+12,926 normalized identifiers, 120 formatted variants and 1,080 candidate
+substring coincidences with zero unexpected boundary, aggregate or manifest-
+size matches. A separate scan finds zero full private identifiers in the
+tracked Batch 422 evidence bundle. Manifest: 67 assets / 84,624,267 bytes;
+SHA-256
+`3d166ca2523670adeb3db193d618d328cdf566f0bf6560346fab255fd7fd04b3`.
+The full replay from the frozen PDF reproduced the 70-file public tree at
+SHA-256
+`586b24390d9abb46e4720cfa79fe890d764d4b01b347f028a5aa0ecbbfa44e96`.
+Consecutive 24,536-file Pages-configuration production trees match at SHA-256
+`3b215e099d6ebd0f4f8495b23d3c43218a6e86012303123ab968df99a87b2d02`.
+All five Batch 422 citation destinations returned HTTP 200. No authenticated
+Catalog request or access-control bypass was used. Independent GitHub QA and
+deployment remain pending; see `reports/release_batch_422.md`.
+
+## Batch 421 release
 
 All internal targets resolve across 24,464 HTML pages; 49,608 external URLs are
 inventoried, not all visited. Identifier checks cover all 24,536 artifacts,
@@ -18,8 +37,11 @@ SHA-256
 Consecutive 24,536-file Pages-configuration production trees match at SHA-256
 `a6153be1a28c30ecf3e733983dbad9887302b8a7b6a5b56d8272939ccbd130a7`.
 All six Batch 421 citation destinations returned HTTP 200. No authenticated
-Catalog request or access-control bypass was used. Independent GitHub QA and
-deployment remain pending; see `reports/release_batch_421.md`.
+Catalog request or access-control bypass was used. Independent GitHub Test
+`33957120427`, PR 178 and Pages `33958893596` passed. Pinned verification
+against `3192b92d7b778f395cb8d5b37d531bb21d4176d5` matched all 67 assets /
+84,572,017 bytes, seven core routes and ten direct cohort profiles; see
+`reports/release_batch_421.md`.
 
 ## Batch 420 release
 
