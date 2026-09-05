@@ -1,0 +1,905 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Codex individual archival review, Batch 416",
+  "sources": [
+    {
+      "key": "index-b416",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; complete PDF page 81 visually inspected at 150 dpi; rows 14-23; Boxes 124-125; location 230/86/28/06",
+      "access_date": "2026-09-05",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Citation and project-authored assessments only; no full source page, raw bulk record or full private identifier reproduced."
+    },
+    {
+      "key": "army-b416",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.zip; complete transient scan of 9,200,232 fixed-width records; five supplied private identifiers and exact-name variants compared without padding; four accepted identifier-backed matches, one identifier no-hit and five exact-name-only candidates",
+      "access_date": "2026-09-05",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "Reviewed transiently outside version control. No raw row, full private identifier or API response is retained. The merged file is incomplete, so absence is not negative proof."
+    },
+    {
+      "key": "basic-b416",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; fixed-width layout and Enlistment Reserve Corps variant; visually and textually checked for name, entry date, grade, branch, occupation and card-format limitations",
+      "access_date": "2026-09-05",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only. The documentation warns about alternate card layouts, incomplete source documentation and coding limits."
+    },
+    {
+      "key": "codes-b416",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical page 171 for values 1-05 and 1-34; physical pages 174, 176 and 178 for values 7-36 and 7-83; complete rendered pages visually inspected",
+      "access_date": "2026-09-05",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Only short official occupational labels are retained. The codes do not name employers, workplaces or employment dates."
+    },
+    {
+      "key": "cia-chun-ming-b416",
+      "stable_url": "https://www.cia.gov/stories/story/the-first-spy-doctor-of-wwii-dr-archie-chun-ming/",
+      "title": "The First Spy Doctor of WWII: Dr. Archie Chun-Ming",
+      "author_creator": "Central Intelligence Agency",
+      "repository_publisher": "Central Intelligence Agency",
+      "publication_record_date": null,
+      "locator": "Peace Before the Storm and Genesis of Det 101 sections; biography, Honolulu medical practice, June 1941 civic-association role and Army Medical Corps recruitment paragraphs",
+      "access_date": "2026-09-05",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "CIA Stories",
+      "rights_notes": "Current institutional retrospective used for concise facts only. The project does not repeat its broad terminology for other index personnel."
+    },
+    {
+      "key": "cia-fighting-doctors-b416",
+      "stable_url": "https://www.cia.gov/static/Fighting-Doctors-of-OSS.pdf",
+      "title": "The Fighting Doctors of the Office of Strategic Services",
+      "author_creator": "Dr. Lester E. Bush; edited by Randy P. Burkett",
+      "repository_publisher": "Central Intelligence Agency, Center for the Study of Intelligence",
+      "publication_record_date": "2018-09",
+      "locator": "Studies in Intelligence, volume 62, number 3, extracts; printed page 35 / PDF physical page 3; Archie Chun-Ming recruitment paragraph",
+      "access_date": "2026-09-05",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Studies in Intelligence",
+      "document_number": "Volume 62, Number 3",
+      "rights_notes": "Institutional historical article used for the explicit recruitment chronology and military status; no full page is stored or republished."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "united-states-army",
+      "canonical_name": "United States Army",
+      "historical_name": "United States Army",
+      "aliases": [
+        "U.S. Army",
+        "Army of the United States"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Army service is modeled as a military assignment, not civilian employment."
+    },
+    {
+      "key": "hawaii-chinese-civic-association",
+      "canonical_name": "Hawaii Chinese Civic Association",
+      "historical_name": "Hawaii Chinese Civic Association",
+      "aliases": [],
+      "organization_type": "civic association",
+      "sector": "labor_nonprofit_and_religion",
+      "state_or_region": "Hawaii",
+      "country": "United States",
+      "active_dates": "Established 1925; later activity not researched",
+      "normalization_notes": "The historical name is preserved from the CIA institutional biography. The June 1941 presidency is a civic affiliation, not employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "archie-chun-ming-army-reserve-b416",
+      "person_id": "370cf1be-3778-5aad-bf3b-690f5cd78525",
+      "organization_key": "united-states-army",
+      "organization_name_as_found": "a reserve unit in Hawaii",
+      "role_title": "captain, Medical Corps",
+      "occupation": "physician",
+      "relationship_type": "military_assignment",
+      "start_date": null,
+      "end_date": "1942",
+      "date_precision": "Recruited from the unidentified Hawaii reserve unit in spring 1942; exact unit and assignment dates are unestablished.",
+      "state_or_region": "Hawaii",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The source explicitly says Archie Chun-Ming was recruited from a Hawaii reserve unit. The unit is not named, and this military assignment is not a civilian employer."
+    },
+    {
+      "key": "archie-chun-ming-physician-b416",
+      "person_id": "370cf1be-3778-5aad-bf3b-690f5cd78525",
+      "occupation": "physician",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "date_precision": "After medical-school graduation in 1932 and before wartime recruitment; practice dates and employment arrangement are unestablished.",
+      "city": "Honolulu",
+      "state_or_region": "Hawaii",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The institutional biography documents medical practice in Honolulu but names no hospital, clinic, employer or ownership arrangement. It is not labeled self-employment or the last civilian employer."
+    },
+    {
+      "key": "archie-chun-ming-hcca-b416",
+      "person_id": "370cf1be-3778-5aad-bf3b-690f5cd78525",
+      "organization_key": "hawaii-chinese-civic-association",
+      "organization_name_as_found": "Hawaii Chinese Civic Association",
+      "role_title": "president",
+      "occupation": null,
+      "relationship_type": "professional_affiliation",
+      "start_date": null,
+      "end_date": null,
+      "date_precision": "Documented in June 1941; the beginning and end of the presidency are unestablished.",
+      "state_or_region": "Hawaii",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "This is a documented civic role, not employment. The reviewed source does not establish compensation or a continuous tenure."
+    },
+    {
+      "key": "oral-chupp-occupation-b416",
+      "person_id": "8c84a6ca-626d-51dd-b4d4-851be285f3b8",
+      "occupation": "Repairmen and mechanics, n.e.c.",
+      "relationship_type": "unknown",
+      "date_precision": "The Army record carries a 10 March 1942 entry date; actual work dates and temporal relationship to OSS service are unestablished.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The official Army entry records a broad occupational category but names no employer, trade specialty, workplace, location or work dates."
+    },
+    {
+      "key": "edward-church-occupation-b416",
+      "person_id": "9e0f0f21-c4a4-5105-95fe-9e326dde87f5",
+      "occupation": "Clerks, general office",
+      "relationship_type": "unknown",
+      "date_precision": "The Army record carries an 18 April 1941 entry date; actual work dates and temporal relationship to OSS service are unestablished.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The occupation value appears in the documented standard position, but the same merged row contains malformed grade and branch fields. The occupation is therefore qualified and no military category or employer is inferred."
+    },
+    {
+      "key": "phillip-churchill-occupation-b416",
+      "person_id": "b6e6a6d2-4da7-580a-bc82-874764976636",
+      "occupation": "Chauffeurs and drivers, bus, taxi, truck, and tractor",
+      "relationship_type": "unknown",
+      "date_precision": "The Army record carries a 29 October 1942 entry date; actual work dates and temporal relationship to OSS service are unestablished.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The Army source spells the given name Philip. The occupational category names no employer, vehicle type actually driven, workplace, route, location or work dates."
+    },
+    {
+      "key": "raymond-chynoweth-occupation-b416",
+      "person_id": "3e6c06db-82ef-5df9-918a-d3a7a7a35d16",
+      "occupation": "Shipping and receiving clerks",
+      "relationship_type": "unknown",
+      "date_precision": "The Army record carries a 23 April 1942 entry date; actual work dates and temporal relationship to OSS service are unestablished.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The occupational category names no employer, industry, receiving location, workplace or work dates. It is not converted into an employer claim."
+    }
+  ],
+  "claims": [
+    {
+      "key": "candidate-woon-s-chung-b416",
+      "person_id": "070898ca-4d78-5bee-9550-e4690a32fc34",
+      "claim_type": "identity",
+      "claim_text": "An exact-name Army enlisted candidate for Woon S Chung remains in the private review system.",
+      "evidence_paraphrase": "The Army merged file contains one Woon S Chung entry dated 9 June 1943 at private grade, while the index prints 1st Lt. and no identifier.",
+      "identity_match_assessment": "The exact name is distinctive, but no private identifier, hometown, birth datum, unit or personnel-file bridge connects the Army entry to the indexed lieutenant.",
+      "temporal_assessment": "The dates could permit later commissioning, but no promotion or OSS-entry chronology has been established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "The rank difference is not silently reconciled. No Army occupation or enlisted classification is transferred to the indexed person.",
+      "sources": [
+        {
+          "source_key": "index-b416",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b416",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-archie-chun-ming-b416",
+      "person_id": "370cf1be-3778-5aad-bf3b-690f5cd78525",
+      "claim_type": "identity",
+      "claim_text": "Archie Chun-Ming has a high-confidence match to the CIA's documented Army physician and OSS Detachment 101 officer.",
+      "evidence_excerpt": "Army Medical Corps Captain Archie Chun-Ming",
+      "evidence_paraphrase": "Two CIA institutional sources identify the distinctive exact name as a Hawaii-born physician, Army captain and original Detachment 101 member recruited in spring 1942.",
+      "identity_match_assessment": "Distinctive exact full name, direct OSS context, profession, Army status, Hawaii setting and recruitment chronology; no contradictory candidate found. Assessed high confidence because no service-number bridge was located.",
+      "temporal_assessment": "The institutional sources date recruitment to spring 1942 and describe later Detachment 101 service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The private index number is masked and was absent from the Army enlisted merged file. The source-supported Captain classification is retained without changing the index's blank rank field.",
+      "sources": [
+        {
+          "source_key": "index-b416",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "cia-chun-ming-b416",
+          "support_type": "supports",
+          "locator_override": "Genesis of Det 101; Army Medical Corps Captain paragraph"
+        },
+        {
+          "source_key": "cia-fighting-doctors-b416",
+          "support_type": "supports",
+          "locator_override": "Printed page 35 / PDF physical page 3"
+        }
+      ]
+    },
+    {
+      "key": "immediate-archie-chun-ming-army-reserve-b416",
+      "person_id": "370cf1be-3778-5aad-bf3b-690f5cd78525",
+      "affiliation_key": "archie-chun-ming-army-reserve-b416",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Archie Chun-Ming was recruited into COI from an unidentified Army reserve unit in Hawaii in spring 1942.",
+      "evidence_excerpt": "recruited from a reserve unit in Hawaii in the spring of 1942",
+      "evidence_paraphrase": "The CIA historical article explicitly places Chun-Ming in a Hawaii reserve unit immediately before recruitment into the organization that became OSS.",
+      "identity_match_assessment": "The distinctive exact name, Army captain status, physician role and Detachment 101 context establish a high-confidence identity match.",
+      "temporal_assessment": "Explicit immediate language: recruited from the reserve unit in spring 1942.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The reserve unit is not named. This is a military assignment, not a civilian employer, and COI recruitment is treated as the entry into the OSS predecessor organization.",
+      "sources": [
+        {
+          "source_key": "cia-fighting-doctors-b416",
+          "support_type": "supports",
+          "locator_override": "Printed page 35 / PDF physical page 3"
+        },
+        {
+          "source_key": "cia-chun-ming-b416",
+          "support_type": "supports",
+          "locator_override": "Genesis of Det 101 section"
+        }
+      ]
+    },
+    {
+      "key": "occupation-archie-chun-ming-physician-b416",
+      "person_id": "370cf1be-3778-5aad-bf3b-690f5cd78525",
+      "affiliation_key": "archie-chun-ming-physician-b416",
+      "claim_type": "occupation",
+      "claim_text": "Archie Chun-Ming practiced medicine in Honolulu before wartime recruitment.",
+      "evidence_excerpt": "after graduation Archie came back to practice medicine in his hometown",
+      "evidence_paraphrase": "The CIA biography states that he returned to Honolulu after medical school and practiced medicine before the 1942 recruitment chronology.",
+      "identity_match_assessment": "The distinctive exact name and integrated OSS biography establish a high-confidence match.",
+      "temporal_assessment": "Definitely prewar, but the evidence does not establish exact practice dates or whether this was his last civilian work before active military service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No clinic, hospital, employer or ownership arrangement is named. The claim is occupation and location only, not self-employment or a last civilian employer.",
+      "sources": [
+        {
+          "source_key": "cia-chun-ming-b416",
+          "support_type": "supports",
+          "locator_override": "Peace Before the Storm section"
+        }
+      ]
+    },
+    {
+      "key": "affiliation-archie-chun-ming-hcca-b416",
+      "person_id": "370cf1be-3778-5aad-bf3b-690f5cd78525",
+      "affiliation_key": "archie-chun-ming-hcca-b416",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Archie Chun-Ming served as president of the Hawaii Chinese Civic Association in June 1941.",
+      "evidence_excerpt": "served as President of the Hawaii Chinese Civic Association",
+      "evidence_paraphrase": "The CIA biography explicitly identifies his June 1941 presidency and community-organizing role.",
+      "identity_match_assessment": "The distinctive exact name and integrated OSS biography establish a high-confidence match.",
+      "temporal_assessment": "Explicitly dated June 1941, before spring 1942 recruitment; tenure boundaries are not given.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The association role is not treated as employment, and the source does not establish compensation.",
+      "sources": [
+        {
+          "source_key": "cia-chun-ming-b416",
+          "support_type": "supports",
+          "locator_override": "Peace Before the Storm; June 1941 paragraph"
+        }
+      ]
+    },
+    {
+      "key": "identity-oral-l-chupp-b416",
+      "person_id": "8c84a6ca-626d-51dd-b4d4-851be285f3b8",
+      "claim_type": "identity",
+      "claim_text": "Oral L Chupp has a high-confidence identifier-backed Army record match.",
+      "evidence_paraphrase": "The exact private identifier and indexed full name match an Army entry dated 10 March 1942.",
+      "identity_match_assessment": "Exact full name plus exact private identifier in an official Army record; assessed high confidence pending the personnel-file bridge to OSS.",
+      "temporal_assessment": "The Army entry establishes a wartime observation but not the date or route of later OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The full private identifier is never displayed publicly or retained in the evidence bundle.",
+      "sources": [
+        {
+          "source_key": "index-b416",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b416",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "occupation-oral-l-chupp-b416",
+      "person_id": "8c84a6ca-626d-51dd-b4d4-851be285f3b8",
+      "affiliation_key": "oral-chupp-occupation-b416",
+      "claim_type": "occupation",
+      "claim_text": "The Army entry records the occupational category ‘Repairmen and mechanics, n.e.c.’",
+      "evidence_excerpt": "Repairmen and mechanics, n.e.c.",
+      "evidence_paraphrase": "The identifier-backed Army row carries occupation value 783, which the inspected NARA code pages label Repairmen and mechanics, n.e.c.",
+      "identity_match_assessment": "Exact indexed name plus exact private identifier; assessed high confidence.",
+      "temporal_assessment": "Observed with an Army entry date of 10 March 1942; temporal relationship to OSS entry remains uncertain.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, mechanic specialty, workplace, location or work period is inferred from the occupational category.",
+      "sources": [
+        {
+          "source_key": "army-b416",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "basic-b416",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b416",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-edward-j-church-b416",
+      "person_id": "9e0f0f21-c4a4-5105-95fe-9e326dde87f5",
+      "claim_type": "identity",
+      "claim_text": "Edward J Church has a high-confidence identifier-backed Army record match.",
+      "evidence_paraphrase": "The exact private identifier and exact indexed name select an 18 April 1941 Army row among five same-name rows.",
+      "identity_match_assessment": "Exact full name plus exact private identifier; assessed high confidence despite malformed grade and branch fields in the selected merged row.",
+      "temporal_assessment": "The Army entry establishes a wartime observation but not the date or route of later OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The private identifier disambiguates five Edward J Church rows. Malformed grade and branch fields are not used for classification.",
+      "sources": [
+        {
+          "source_key": "index-b416",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b416",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "basic-b416",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-edward-j-church-b416",
+      "person_id": "9e0f0f21-c4a4-5105-95fe-9e326dde87f5",
+      "affiliation_key": "edward-church-occupation-b416",
+      "claim_type": "occupation",
+      "claim_text": "The Army row's standard occupation position records ‘Clerks, general office,’ subject to a record-quality warning.",
+      "evidence_excerpt": "Clerks, general office",
+      "evidence_paraphrase": "The selected row carries value 105 in the standard occupation columns, which the inspected NARA code page labels Clerks, general office; other row fields are malformed.",
+      "identity_match_assessment": "Exact indexed name plus exact private identifier; assessed high confidence for identity.",
+      "temporal_assessment": "Observed with an Army entry date of 18 April 1941; employment dates and relation to OSS entry remain uncertain.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The public qualification identifies the malformed grade and branch fields. No employer, office, industry, personnel category or work period is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b416",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "basic-b416",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b416",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-phillip-e-churchill-b416",
+      "person_id": "b6e6a6d2-4da7-580a-bc82-874764976636",
+      "claim_type": "identity",
+      "claim_text": "Phillip E Churchill has a high-confidence identifier-backed Army record match under the spelling Philip E Churchill.",
+      "evidence_paraphrase": "The exact private identifier, surname and middle initial match a 29 October 1942 Army row whose given name has one l rather than the index's two.",
+      "identity_match_assessment": "Exact private identifier, surname and middle initial with a minor given-name spelling difference; assessed high confidence rather than confirmed.",
+      "temporal_assessment": "The Army entry establishes a wartime observation but not the date or route of later OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Philip E Churchill is retained as a documented source spelling, not a correction to the index. The private identifier remains masked.",
+      "sources": [
+        {
+          "source_key": "index-b416",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b416",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "occupation-phillip-e-churchill-b416",
+      "person_id": "b6e6a6d2-4da7-580a-bc82-874764976636",
+      "affiliation_key": "phillip-churchill-occupation-b416",
+      "claim_type": "occupation",
+      "claim_text": "The Army entry records the occupational category ‘Chauffeurs and drivers, bus, taxi, truck, and tractor.’",
+      "evidence_excerpt": "Chauffeurs and drivers, bus, taxi, truck, and tractor",
+      "evidence_paraphrase": "The identifier-backed Army row carries occupation value 736, which the inspected NARA pages label Chauffeurs and drivers, bus, taxi, truck, and tractor.",
+      "identity_match_assessment": "Exact private identifier, surname and middle initial with a minor given-name spelling difference; assessed high confidence.",
+      "temporal_assessment": "Observed with an Army entry date of 29 October 1942; temporal relationship to OSS entry remains uncertain.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No named employer, vehicle type actually driven, workplace, route, location or work period is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b416",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "basic-b416",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b416",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-raymond-chynoweth-b416",
+      "person_id": "3e6c06db-82ef-5df9-918a-d3a7a7a35d16",
+      "claim_type": "identity",
+      "claim_text": "Raymond Chynoweth has a high-confidence identifier-backed Army record match.",
+      "evidence_paraphrase": "The exact private identifier and exact indexed name match an Army entry dated 23 April 1942.",
+      "identity_match_assessment": "Exact name plus exact private identifier in an official Army record; assessed high confidence pending the personnel-file bridge to OSS.",
+      "temporal_assessment": "The Army entry establishes a wartime observation but not the date or route of later OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The full private identifier is never displayed publicly or retained in the evidence bundle.",
+      "sources": [
+        {
+          "source_key": "index-b416",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b416",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "occupation-raymond-chynoweth-b416",
+      "person_id": "3e6c06db-82ef-5df9-918a-d3a7a7a35d16",
+      "affiliation_key": "raymond-chynoweth-occupation-b416",
+      "claim_type": "occupation",
+      "claim_text": "The Army entry records the occupational category ‘Shipping and receiving clerks.’",
+      "evidence_excerpt": "Shipping and receiving clerks",
+      "evidence_paraphrase": "The identifier-backed Army row carries occupation value 134, which the inspected NARA code page labels Shipping and receiving clerks.",
+      "identity_match_assessment": "Exact indexed name plus exact private identifier; assessed high confidence.",
+      "temporal_assessment": "Observed with an Army entry date of 23 April 1942; temporal relationship to OSS entry remains uncertain.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No named employer, industry, receiving location, workplace or work period is inferred from the category.",
+      "sources": [
+        {
+          "source_key": "army-b416",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "basic-b416",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b416",
+          "support_type": "supports"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "070898ca-4d78-5bee-9550-e4690a32fc34",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The index prints Woon S Chung as 1st Lt. without an identifier. A complete Army merged-file scan finds one exact-name private entry dated 9 June 1943, but no hometown, birth datum, unit, promotion or personnel-file bridge establishes that it is the same person.",
+      "name_variants": [
+        "Woon S Chung",
+        "Woon S. Chung"
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 124 for Woon S Chung's full name, service identifier, unit history and pre-OSS assignment; test the exact-name enlisted candidate only against those identifiers.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "370cf1be-3778-5aad-bf3b-690f5cd78525",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Two CIA institutional sources match the distinctive exact name to a Hawaii-born physician, Army Medical Corps captain and original Detachment 101 member recruited from a Hawaii reserve unit in spring 1942. The private index identifier is absent from the Army enlisted merged file, so identity remains high confidence rather than confirmed.",
+      "name_variants": [
+        "Archie Chun-Ming",
+        "Archie Chun Ming",
+        "Dr. Archie Chun-Ming"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": false,
+      "research_status": "completed",
+      "next_action": "Review Box 124 if available to identify the specific Hawaii reserve unit and determine whether a named clinic, hospital or independent practice was his last civilian work before active service.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "8c84a6ca-626d-51dd-b4d4-851be285f3b8",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact private identifier and exact indexed name match an official Army entry dated 10 March 1942. The personnel-file bridge to OSS is still unreviewed.",
+      "name_variants": [
+        "Oral L Chupp",
+        "Oral L. Chupp"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 124 for Oral L Chupp's named employer, mechanic specialty, work dates and Army-to-OSS chronology.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9e0f0f21-c4a4-5105-95fe-9e326dde87f5",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact private identifier and exact indexed name select the 18 April 1941 Army entry among five same-name candidates. The selected merged row has malformed grade and branch fields, so those fields are not used for classification.",
+      "name_variants": [
+        "Edward J Church",
+        "Edward J. Church"
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 124 and the original Army card for Edward J Church to verify the malformed row, named employer, office-clerk role and OSS chronology.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "d432e581-7896-58b9-b132-fbe3cfbe36a9",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies no private identifier or rank, no exact-name Army merged-file entry appears, and accessible official, OSS, employment, obituary, institutional and newspaper searches did not establish a corroborated identity.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 124 for Mallory D Church's full name, birth year, hometown, personnel category and pre-OSS affiliations before testing namesakes.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b59eb964-ab13-5d7b-bb80-1c53517f7285",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies no private identifier or rank, no exact-name Army merged-file entry appears, and accessible official, OSS, employment, obituary, institutional and newspaper searches did not establish a corroborated identity.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 124 for Rosa M Church's full name, birth year, hometown, personnel category and pre-OSS affiliations before testing namesakes.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b6e6a6d2-4da7-580a-bc82-874764976636",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact private identifier, surname and middle initial match an official Army entry dated 29 October 1942; the Army source spells the given name Philip rather than the index's Phillip.",
+      "name_variants": [
+        "Phillip E Churchill",
+        "Phillip E. Churchill",
+        "Philip E Churchill",
+        "Philip E. Churchill"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 124 for Phillip E Churchill's source spelling, named employer, driver role, work dates and Army-to-OSS chronology.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1afbe106-7187-5933-9beb-f3e298f54c50",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies no private identifier or rank, no exact-name Army merged-file entry appears, and accessible official, OSS, employment, obituary, institutional and newspaper searches did not establish a corroborated identity. A 1990 litigant was born decades too late and was rejected.",
+      "name_variants": [
+        "Mary B Chynoweth",
+        "Mary B. Chynoweth"
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 124 for Mary B Chynoweth's full name, birth year, hometown, personnel category and pre-OSS affiliations before testing namesakes.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3e6c06db-82ef-5df9-918a-d3a7a7a35d16",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact private identifier and exact indexed name match an official Army entry dated 23 April 1942. The personnel-file bridge to OSS is still unreviewed.",
+      "name_variants": [
+        "Raymond Chynoweth"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 124 for Raymond Chynoweth's named employer, shipping or receiving role, work dates and Army-to-OSS chronology.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e7a62c0e-a77b-5615-b506-42ec4940ca0f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies no private identifier or rank, no exact-name Army merged-file entry appears, and accessible official, OSS, employment, obituary, institutional and newspaper searches did not establish a corroborated identity.",
+      "name_variants": [
+        "Michael A Ciaccio",
+        "Michael A. Ciaccio"
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 125 for Michael A Ciaccio's full name, birth year, hometown, personnel category and pre-OSS affiliations before testing namesakes.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b416-person-woon-s-chung-review",
+      "person_id": "070898ca-4d78-5bee-9550-e4690a32fc34",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 81 context and complete Army bulk comparison; exact-name and punctuated-variant OSS/CIA searches; lieutenant, employer, occupation, obituary, institutional, Library of Congress newspaper and archival-source searches for Woon S Chung.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T04:37:00Z",
+      "completed_at": "2026-09-05T04:48:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Modern donor, property and professional-license results concern later people; a 1950s agricultural author lacks an OSS or military bridge. The exact-name Army private lacks a second corroborating identifier and conflicts with the index's printed lieutenant rank.",
+      "research_notes": "A later promotion is possible but unproved. The Army occupation and enlisted category remain withheld pending Box 124 evidence.",
+      "next_action": "Review Box 124 for a service identifier, unit history and promotion chronology before resolving the exact-name candidate.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch416-v1"
+    },
+    {
+      "key": "b416-person-archie-chun-ming-review",
+      "person_id": "370cf1be-3778-5aad-bf3b-690f5cd78525",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 81 context and complete Army bulk comparison; Archie Chun-Ming spacing, punctuation, physician and Detachment 101 searches; CIA institutional biography and Studies in Intelligence article reviewed; employment, civic-association, obituary, institutional, Library of Congress newspaper and archival-source searches.",
+      "query_variant_type": "staged_identifier_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T04:37:00Z",
+      "completed_at": "2026-09-05T04:48:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Genealogy pages and derivative Detachment 101 narratives add no stronger pre-OSS evidence; the private index number is absent from the Army enlisted merged file, which is not treated as negative proof.",
+      "research_notes": "The reserve unit is explicit and immediate but unnamed. Medical practice is occupation/location only because no employer or ownership arrangement is identified. The 1941 civic presidency is a non-employment affiliation.",
+      "next_action": "Review Box 124 if available to name the reserve unit and determine the last civilian employment arrangement.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch416-v1"
+    },
+    {
+      "key": "b416-person-oral-l-chupp-review",
+      "person_id": "8c84a6ca-626d-51dd-b4d4-851be285f3b8",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 81 context and complete Army bulk comparison; exact private-identifier and name OSS/CIA searches; mechanic, employer, occupation, obituary, institutional, Library of Congress newspaper and archival-source searches; applicable NARA code pages inspected.",
+      "query_variant_type": "staged_identifier_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T04:37:00Z",
+      "completed_at": "2026-09-05T04:48:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "An unsourced family-history page supplies dates but no matching identifier or OSS evidence; other Chupp biographies concern different names.",
+      "research_notes": "The identifier-backed Army occupation is broad and names no employer or mechanic specialty. No raw row or full identifier is retained.",
+      "next_action": "Review Box 124 for a named employer, work specialty, dates and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch416-v1"
+    },
+    {
+      "key": "b416-person-edward-j-church-review",
+      "person_id": "9e0f0f21-c4a4-5105-95fe-9e326dde87f5",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 81 context and complete Army bulk comparison; exact private-identifier, name and initial OSS/CIA searches; clerk, employer, occupation, obituary, institutional, Library of Congress newspaper and archival-source searches; technical layout and code page inspected.",
+      "query_variant_type": "staged_identifier_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T04:37:00Z",
+      "completed_at": "2026-09-05T04:48:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Four other exact-name Army rows have different private identifiers. Unrelated institutional and obituary results lack the indexed identifier and OSS bridge.",
+      "research_notes": "The matching merged row has malformed grade and branch fields. Value 105 appears in the documented standard occupation position but is published only with a record-quality warning; no personnel category is inferred.",
+      "next_action": "Review Box 124 and the original Army card to verify the merged row, employer, office role and OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch416-v1"
+    },
+    {
+      "key": "b416-person-mallory-d-church-review",
+      "person_id": "d432e581-7896-58b9-b132-fbe3cfbe36a9",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 81 context and complete Army bulk comparison; exact-name and initial OSS/CIA searches; employer, occupation, obituary, institutional, Library of Congress newspaper, directory and archival-source searches for Mallory D Church.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T04:37:00Z",
+      "completed_at": "2026-09-05T04:48:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Modern corporate and trademark results for Mallory & Church concern an organization, not the indexed person; no exact-name Army row appears.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The absence of an Army merged-file row is not negative proof.",
+      "next_action": "Review Box 124 for full name, birth year, hometown, personnel category and pre-OSS affiliations.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch416-v1"
+    },
+    {
+      "key": "b416-person-rosa-m-church-review",
+      "person_id": "b59eb964-ab13-5d7b-bb80-1c53517f7285",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 81 context and complete Army bulk comparison; exact-name and initial OSS/CIA searches; employer, occupation, obituary, institutional, Library of Congress newspaper, directory and archival-source searches for Rosa M Church.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T04:37:00Z",
+      "completed_at": "2026-09-05T04:48:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Unrelated Church-family and cemetery results lack the exact name, OSS context and a corroborating identifier; no exact-name Army row appears.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. No personnel category is inferred from the given name.",
+      "next_action": "Review Box 124 for full name, birth year, hometown, personnel category and pre-OSS affiliations.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch416-v1"
+    },
+    {
+      "key": "b416-person-phillip-e-churchill-review",
+      "person_id": "b6e6a6d2-4da7-580a-bc82-874764976636",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 81 context and complete Army bulk comparison; Phillip/Philip spelling and private-identifier OSS/CIA searches; driver, employer, occupation, obituary, institutional, Library of Congress newspaper and archival-source searches; applicable NARA code pages inspected.",
+      "query_variant_type": "staged_identifier_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T04:37:00Z",
+      "completed_at": "2026-09-05T04:48:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unrelated Churchill surname, cemetery and modern directory results lack the matching identifier and OSS bridge; no independent employer source was found.",
+      "research_notes": "The exact identifier connects the one-l spelling in the Army row to the indexed two-l spelling. The broad driver category names no employer or vehicle actually driven.",
+      "next_action": "Review Box 124 for the source spelling, named employer, driving role, dates and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch416-v1"
+    },
+    {
+      "key": "b416-person-mary-b-chynoweth-review",
+      "person_id": "1afbe106-7187-5933-9beb-f3e298f54c50",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 81 context and complete Army bulk comparison; exact-name and initial OSS/CIA searches; employer, occupation, obituary, institutional, Library of Congress newspaper, directory and archival-source searches for Mary B Chynoweth.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T04:37:00Z",
+      "completed_at": "2026-09-05T04:48:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "A 56-year-old litigant in 1990 was born decades too late; modern race results and unsourced genealogy entries lack an OSS bridge. No exact-name Army row appears.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. No personnel category is inferred from the given name.",
+      "next_action": "Review Box 124 for full name, birth year, hometown, personnel category and pre-OSS affiliations.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch416-v1"
+    },
+    {
+      "key": "b416-person-raymond-chynoweth-review",
+      "person_id": "3e6c06db-82ef-5df9-918a-d3a7a7a35d16",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 81 context and complete Army bulk comparison; exact private-identifier and name OSS/CIA searches; shipping, receiving, employer, occupation, obituary, institutional, Library of Congress newspaper and archival-source searches; applicable NARA code page inspected.",
+      "query_variant_type": "staged_identifier_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T04:37:00Z",
+      "completed_at": "2026-09-05T04:48:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Results for Bradford G. Chynoweth, Raymond E. Lee and Chenoweth-spelled veterans concern different people or surnames; no independent employer source was found.",
+      "research_notes": "The identifier-backed Army occupation names no employer, industry or workplace. No raw row or full identifier is retained.",
+      "next_action": "Review Box 124 for a named employer, work dates and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch416-v1"
+    },
+    {
+      "key": "b416-person-michael-a-ciaccio-review",
+      "person_id": "e7a62c0e-a77b-5615-b506-42ec4940ca0f",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 81 context and complete Army bulk comparison; exact-name and initial OSS/CIA searches; employer, occupation, obituary, institutional, Library of Congress newspaper, directory and archival-source searches for Michael A Ciaccio.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T04:37:00Z",
+      "completed_at": "2026-09-05T04:48:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Michael J Ciaccio veterans and a Michael A Colicchio relative are different names or later people; no exact-name Army row or OSS bridge appears.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Similar Italian surnames are not treated as variants without evidence.",
+      "next_action": "Review Box 125 for full name, birth year, hometown, personnel category and pre-OSS affiliations.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch416-v1"
+    }
+  ]
+}
