@@ -2,7 +2,28 @@
 
 Verified against the current local SQLite database on 2026-09-05 UTC.
 
-Batch 419 is a locally verified release candidate. It adds ten saved
+Batch 420 is a locally verified release candidate. It adds ten saved
+individual outcomes across PDF page 82 rows 8-17. Exact private-identifier
+matches support four qualified, temporally uncertain Army-entry occupation
+observations for Eugene H Clapp, Aldo Clara, Alfred C Clark and Alvin Clark;
+none identifies an employer or proves an immediate pre-OSS affiliation.
+Eugene's unexplained Army name text remains unexpanded. Alvin C Clark is a
+documented variant of the unchanged indexed Alvin Clark, while the Army-entry
+`PVT` and indexed `T-5` grades remain separate. James W Clance's rare-name
+military candidate carries a different identifier and is exposed as a
+conflict without transferring assignments or occupation. Sixteen Albert L
+Clark Army candidates remain separate and the identity is ambiguous. Richard
+R Clair and Frederick G Clapp have private, unbridged candidates; Beulah O
+Clapp and Cloyd Clare remain unresolved. The full replay, 90 Python tests,
+twenty-four focused browser checks, link validation, profile audit and public-
+identifier audit pass; consecutive production builds match. The complete
+1,890-case browser/accessibility matrix passed 1,890/1,890 across desktop,
+phone and tablet in 15.7 minutes with retries disabled. Independent GitHub QA,
+merge, Pages deployment and pinned live verification remain release gates.
+See `reports/release_batch_420.md` and
+`research/batch-420-discovery-checkpoint.md`.
+
+Batch 419 is released and pinned-live verified. It adds ten saved
 individual outcomes across PDF page 81 rows 44-46 and page 82 rows 1-7.
 Caesar J Civitella has the cohort's strongest pathway record: exact private-
 identifier evidence and an official U.S. Special Operations Command history
@@ -23,8 +44,11 @@ Python tests, twenty-four focused browser checks, link validation, profile
 audit and public-identifier audit pass. The complete 1,866-case local
 browser/accessibility matrix passed 1,866/1,866 across desktop, phone and
 tablet in 14.9 minutes with retries disabled; consecutive production builds
-match. Independent GitHub QA, merge, Pages deployment and pinned live
-verification remain release gates. See `reports/release_batch_419.md` and
+match. Independent GitHub Test `33952923818` passed in 39 minutes 26 seconds;
+PR 176 merged as `b3df11826d697c3b96cf5922d53fe798e07e8030`; Pages
+`33954698899` succeeded; and pinned verification against
+`5d28999903ca8aaa6640a6b60cf850ed6b43e1a1` matched all 67 assets, seven core
+routes and ten direct cohort profiles. See `reports/release_batch_419.md` and
 `research/batch-419-discovery-checkpoint.md`.
 
 Batch 418 is released and pinned-live verified. It adds ten saved

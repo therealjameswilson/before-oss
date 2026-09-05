@@ -2,7 +2,28 @@
 
 Run: 2026-09-05 UTC
 
-## Batch 419 local
+## Batch 420 local
+
+All internal targets resolve across 24,464 HTML pages; 49,608 external URLs are
+inventoried, not all visited. Identifier checks cover all 24,536 artifacts,
+12,926 normalized identifiers, 120 formatted variants and 1,081 candidate
+substring coincidences with zero unexpected boundary, aggregate or
+manifest-size matches. A separate scan finds zero full private identifiers in
+the tracked Batch 420 evidence bundle. Manifest: 67 assets / 84,543,559 bytes;
+SHA-256
+`14720a5fe3d997c9754895d4bed24b8b095a9eef908b114ef166af4ed28fe381`.
+The full replay from the frozen PDF reproduced the 70-file public tree at
+SHA-256
+`e542b471c8ee8de08c3bc71eb8030e3fed5ff3f846871fe1321592d06b2575b9`.
+Consecutive 24,536-file Pages-configuration production trees match at SHA-256
+`5b366638cb8bfc9c5a72f823d82bfd5f5b83b828ed208deb76a80d1667adcaca`.
+Nine of ten Batch 420 citation destinations returned HTTP 200. The official
+Army history PDF timed out in the automated check after browser-readable
+review; no access control was bypassed. No authenticated Catalog request was
+used. Independent GitHub QA and deployment remain pending; see
+`reports/release_batch_420.md`.
+
+## Batch 419 release
 
 All internal targets resolve across 24,464 HTML pages; 49,605 external URLs are
 inventoried, not all visited. Identifier checks cover all 24,536 artifacts,
@@ -20,8 +41,11 @@ Consecutive 24,536-file Pages-configuration production trees match at SHA-256
 Twelve of thirteen Batch 419 citation destinations returned HTTP 200 or 206.
 The Library of Congress item returned HTTP 403 to a generic automated request
 after browser-readable review; no access control was bypassed. No authenticated
-Catalog request was used. Independent GitHub QA and deployment remain pending;
-see `reports/release_batch_419.md`.
+Catalog request was used. Independent GitHub Test `33952923818`, PR 176 and
+Pages `33954698899` passed. Pinned verification against
+`5d28999903ca8aaa6640a6b60cf850ed6b43e1a1` matched all 67 assets / 84,475,132
+bytes, seven core routes and ten direct cohort profiles; see
+`reports/release_batch_419.md`.
 
 ## Batch 418 release
 
