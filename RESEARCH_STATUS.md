@@ -2,7 +2,32 @@
 
 Verified against the current local SQLite database on 2026-09-05 UTC.
 
-Batch 421 is a locally verified release candidate. It adds ten saved
+Batch 422 is a locally verified release candidate. It adds ten saved
+individual outcomes across PDF page 82 rows 28-37, Elizabeth W Clark through
+George O Clark Jr., all in Box 126. Exact private-identifier and
+name matches support confirmed identities for the first Ernest D Clark and
+George H Clark, and a high-confidence identity for Frederick W Clark. Their
+Army-entry categories are published only as qualified, temporally uncertain
+occupation observations: stationary engineers, furniture-manufacturing
+occupations not elsewhere classified, and designers. None identifies an
+employer or proves an immediate pre-OSS affiliation. The first Ernest record's
+grade field is malformed and Frederick's record has a blank grade and branch
+plus internally anomalous birth-year data, so those fields are not used for
+personnel classification. The second Ernest D Clark has a conflicting exact-
+identifier Army row whose name is Ernest K Clark; no candidate facts are
+transferred. Ellery D Clark's sole Navy candidate has the wrong middle initial;
+Francis J Clark has one name-only Army candidate; and George O Clark Jr. has two
+name-and-suffix candidates. All remain unmerged. Elizabeth W Clark, Frank M
+Clark and George E Clark remain unresolved. The full replay, 90 Python tests,
+twenty-one focused browser checks, link validation, profile audit and public-
+identifier audit pass; consecutive production builds match. The complete
+1,935-case browser/accessibility matrix passed 1,935/1,935 across desktop,
+phone and tablet in 17.0 minutes with retries disabled. Independent GitHub QA,
+merge, Pages deployment and pinned live verification remain release gates. See
+`reports/release_batch_422.md` and
+`research/batch-422-discovery-checkpoint.md`.
+
+Batch 421 is released and pinned-live verified. It adds ten saved
 individual outcomes across PDF page 82 rows 18-27. Creston P Clark's exact
 private identifier supports confirmed identity and one qualified, temporally
 uncertain Army-entry occupation observation: accountants and auditors. It
@@ -18,9 +43,12 @@ identifier. The full replay, 90 Python tests, twenty-four focused browser
 checks, link validation, profile audit and public-identifier audit pass;
 consecutive production builds match. The complete 1,914-case
 browser/accessibility matrix passed 1,914/1,914 across desktop, phone and
-tablet in 15.6 minutes with retries disabled. Independent GitHub QA, merge,
-Pages deployment and pinned live verification remain release gates. See
-`reports/release_batch_421.md` and
+tablet in 15.6 minutes with retries disabled. Independent GitHub Test
+`33957120427` passed in 38 minutes 49 seconds; PR 178 merged as
+`4bb6c6eeecb6fddae85dc2eaba2feb106afa9611`; Pages `33958893596` succeeded;
+and pinned verification against
+`3192b92d7b778f395cb8d5b37d531bb21d4176d5` matched all 67 assets, seven core
+routes and ten direct cohort profiles. See `reports/release_batch_421.md` and
 `research/batch-421-discovery-checkpoint.md`.
 
 Batch 420 is released and pinned-live verified. It adds ten saved
