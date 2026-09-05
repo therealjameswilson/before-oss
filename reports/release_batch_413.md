@@ -1,8 +1,8 @@
 # Batch 413 release verification
 
-2026-09-05 UTC. **Local release candidate; not yet merged or deployed.** This
-report covers the ten people on PDF page 80 rows 30-39, Roy P. Christian
-through Peter A. Christoff, all in Box 123.
+2026-09-05 UTC. **Released and pinned-live verified.** This report covers the
+ten people on PDF page 80 rows 30-39, Roy P. Christian through Peter A.
+Christoff, all in Box 123.
 
 ## Research
 
@@ -135,8 +135,12 @@ checks pass across desktop, phone and tablet on the final build.
 
 The complete 1,770-case local browser/accessibility matrix passed 1,770/1,770
 in 18.8 minutes across desktop, phone and tablet with retries disabled.
-Independent GitHub QA, merge, Pages deployment and pinned live verification
-remain release gates.
+Independent GitHub Test run `33941088586` passed in 33 minutes 31 seconds. PR
+170 merged source commit `7db51afc990c5b880453f2d3c76fa0ece11ab4d8`
+as `b8cc29a74d7930873e884dfe6554ca9da956b7b5`; Pages run `33942667032`
+succeeded. Pinned verification against the source commit matched all 67 assets
+/ 83,929,419 bytes, seven core routes and all ten direct cohort profiles at
+`https://therealjameswilson.github.io/before-oss/`.
 
 Final manifest: 67 assets / 83,929,419 bytes; SHA-256
 `cfbfbd3b82c4d46d784dfb6a7d5b4bf86fb8902030d832825ccb944097842232`.

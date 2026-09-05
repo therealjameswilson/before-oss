@@ -2,6 +2,24 @@
 
 Run: 2026-09-05 UTC
 
+## Batch 414 local
+
+All internal targets resolve across 24,460 HTML pages; 49,589 external URLs are
+inventoried, not all visited. Identifier checks cover all 24,532 artifacts,
+12,926 normalized identifiers, 120 formatted variants and 1,082 candidate
+substring coincidences with zero unexpected boundary, aggregate or
+manifest-size matches. Manifest: 67 assets / 84,019,625 bytes; SHA-256
+`89adc6e284738b24ec3fdffc83dce5c54859a802e8e65b6b9818b6be07f30529`.
+A full replay from the frozen PDF reproduces the 70-file public tree at SHA-256
+`a9f2119e3ef27d53ac017fe15ff4ca940675d34452ee08f80407f100d9e2ad5e`.
+Consecutive 24,532-file production trees match at SHA-256
+`0e51debd489c3b637442a2bda1f3987ef90c6ef3d1ec8d1b2bb307ab7de8d705`.
+Five of seven Batch 414 citation destinations returned HTTP 200. Hoover and
+Library of Congress returned HTTP 403 to the automated check after the exact
+source images were visually reviewed; no access control was bypassed. No
+authenticated Catalog request was used. Independent GitHub QA and deployment
+remain pending; see `reports/release_batch_414.md`.
+
 ## Batch 413 local
 
 All internal targets resolve across 24,459 HTML pages; 49,587 external URLs are
@@ -15,8 +33,11 @@ A full replay from the frozen PDF reproduces the 70-file public tree at SHA-256
 Consecutive 24,531-file production trees match at SHA-256
 `c519cefc808c1ca1419f2238fd5582aacccb01373f0c61ae042331ff8a6b2b56`.
 All four Batch 413 citation destinations returned HTTP 200. No authenticated
-Catalog request or access-control bypass was used. Independent GitHub QA and
-deployment remain pending; see `reports/release_batch_413.md`.
+Catalog request or access-control bypass was used. Independent GitHub Test
+`33941088586`, PR 170 and Pages `33942667032` passed. Pinned verification
+against `7db51afc990c5b880453f2d3c76fa0ece11ab4d8` matched all 67 assets /
+83,929,419 bytes, seven core routes and ten direct cohort profiles; see
+`reports/release_batch_413.md`.
 
 ## Batch 412 local
 

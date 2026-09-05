@@ -2,7 +2,26 @@
 
 Verified against the current local SQLite database on 2026-09-05 UTC.
 
-Batch 413 is a locally verified release candidate. It adds ten terminal
+Batch 414 is a locally verified release candidate. It adds ten saved
+individual outcomes across PDF page 80 rows 40-46 and page 81 rows 1-3. A
+direct 1944 OSS Board transcript confirms George Christy Chrysostomas's July
+1943 transfer from the 19th Communications Squadron to OSS as a Greek-speaking
+radio instructor. That military assignment is the cohort's one newly verified
+immediate affiliation; the transcript's separate New York radio-school
+attendance remains student status, and no institution or civilian employer is
+invented. John B Christopher, Paul P Christopher and James H Chu receive
+identifier-backed, visibly qualified occupation or student observations.
+Walter J Chuckro remains in temporal review because his matched Army entry is
+dated after NARA's documented 20 September 1945 dissolution of OSS. Five other
+people remain unresolved and route to Boxes 123-124. The complete replay, 90
+Python tests, twelve focused browser checks, link validation and public-
+identifier audit pass. The complete 1,782-case browser/accessibility matrix
+passed 1,782/1,782 across desktop, phone and tablet in 15.1 minutes with
+retries disabled. Independent GitHub QA, merge, Pages deployment and pinned
+live verification remain release gates. See `reports/release_batch_414.md` and
+`research/batch-414-discovery-checkpoint.md`.
+
+Batch 413 is released and pinned-live verified. It adds ten terminal
 individual outcomes: identifier-backed, qualified occupation observations for
 Gustave M Christianson and Richard A Christman; two identifier/name conflicts;
 and six archival-review dispositions. The two occupation groups have medium
@@ -12,7 +31,11 @@ Army bulk file was reviewed without an API key, and no raw bulk row, archive or
 full identifier was retained. The full replay, 90 Python tests, nine focused
 browser checks, link validation and public-identifier audit pass. The complete
 1,770-case browser/accessibility matrix passed 1,770/1,770 across desktop,
-phone and tablet in 18.8 minutes with retries disabled. See
+phone and tablet in 18.8 minutes with retries disabled. Independent GitHub
+Test `33941088586` passed in 33 minutes 31 seconds; PR 170 merged as
+`b8cc29a74d7930873e884dfe6554ca9da956b7b5`; Pages `33942667032`
+succeeded; and pinned verification matched all 67 assets, seven core routes
+and ten direct cohort profiles. See
 `reports/release_batch_413.md` and
 `research/batch-413-discovery-checkpoint.md`.
 
@@ -157,10 +180,10 @@ display, preserving both printed suffixes. See `reports/release_batch_402.md`.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,912 people with a non-planned attempt | 23,940 active person entities | 16.3409% |
-| Verified-affiliation coverage | 491 people with qualifying confirmed/high published pre-OSS affiliation | 23,940 active person entities | 2.0510% |
+| Research-attempt coverage | 3,922 people with a non-planned attempt | 23,940 active person entities | 16.3826% |
+| Verified-affiliation coverage | 492 people with qualifying confirmed/high published pre-OSS affiliation | 23,940 active person entities | 2.0551% |
 | Verified-employer coverage | 214 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8939% |
-| Archival-review coverage | 3,865 people with an individual file-access/priority assessment | 23,940 active person entities | 16.1445% |
+| Archival-review coverage | 3,875 people with an individual file-access/priority assessment | 23,940 active person entities | 16.1863% |
 
 ## Extraction and identity
 
@@ -173,18 +196,18 @@ display, preserving both printed suffixes. See `reports/release_batch_402.md`.
 - Possible duplicate groups: 233
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
-- Identity status `confirmed`: 742
-- Identity status `high_confidence`: 579
+- Identity status `confirmed`: 743
+- Identity status `high_confidence`: 583
 - Identity status `probable`: 128
 - Identity status `ambiguous`: 70
 - Identity status `conflicting`: 74
-- Identity status `unresolved`: 22,347
+- Identity status `unresolved`: 22,343
 
 ## Personnel categories
 
-- Unknown or indeterminate: 15,958
-- Enlisted Army personnel: 3,953
-- Commissioned Army officers: 2,108
+- Unknown or indeterminate: 15,953
+- Enlisted Army personnel: 3,957
+- Commissioned Army officers: 2,109
 - Commissioned Coast Guard officers: 1
 - Commissioned Marine Corps officers: 8
 - Enlisted Marine Corps personnel: 3
@@ -195,34 +218,34 @@ display, preserving both printed suffixes. See `reports/release_batch_402.md`.
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,232 yes; 5,623 no; 16,085 indeterminate.
+Commissioned classification: 2,233 yes; 5,627 no; 16,081 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,028
+- `not_started`: 20,018
 - `in_progress`: 46
 - `candidate_found`: 1
 - `needs_identity_review`: 106
-- `needs_temporal_review`: 9
+- `needs_temporal_review`: 10
 - `documented_prewar_employer_found`: 69
 - `no_reliable_result_after_protocol`: 82
-- `occupation_only_found`: 653
-- `requires_archival_review`: 2,541
-- `completed`: 123
+- `occupation_only_found`: 656
+- `requires_archival_review`: 2,546
+- `completed`: 124
 - `conflicting_sources`: 73
 - `verified_employer_found`: 209
-- Claim confidence: 921 confirmed; 1,201 high; 854 medium; 73 low; 85
+- Claim confidence: 923 confirmed; 1,206 high; 858 medium; 73 low; 85
   conflicting
 - Claims attached specifically to employment/self-employment affiliations:
   35 confirmed; 275 high; 82 medium; 1 low; 2 conflicting; 0 unresolved.
   These count claim rows, not unique people, and precede the analytics gates.
-- Durable evidence inventory: 3,812 citation records representing 1,786 legacy
-  document keys (source-identity normalization still under review); 523
-  organizations; 1,535 affiliations; 3,134 claims; and 7,119
+- Durable evidence inventory: 3,819 citation records representing 1,788 legacy
+  document keys (source-identity normalization still under review); 524
+  organizations; 1,541 affiliations; 3,145 claims; and 7,147
   claim-source links
-- Reviewed public projection: 511 organizations; 1,524 published, qualified,
-  or conflict-visible affiliations; 3,058 published, qualified, or
-  conflict-visible claims; and 2,672 public citation records
+- Reviewed public projection: 512 organizations; 1,530 published, qualified,
+  or conflict-visible affiliations; 3,069 published, qualified, or
+  conflict-visible claims; and 2,679 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
