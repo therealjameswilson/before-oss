@@ -1,8 +1,8 @@
 # Batch 418 release verification
 
-2026-09-05 UTC. **Local release candidate; not yet merged or deployed.** This
-report covers ten people on PDF page 81 rows 34-43, Joseph V Ciezadlo through
-Alfred H Ciocca, all in Box 125.
+2026-09-05 UTC. **Released and pinned-live verified.** This report covers ten
+people on PDF page 81 rows 34-43, Joseph V Ciezadlo through Alfred H Ciocca,
+all in Box 125.
 
 ## Research
 
@@ -154,8 +154,12 @@ audit reports zero vulnerabilities.
 The complete 1,842-case local browser/accessibility matrix passed 1,842/1,842
 in 15.5 minutes across desktop, phone and tablet with retries disabled.
 Consecutive Pages-configuration builds reproduced byte-identical public and
-production trees. Independent GitHub QA, merge, Pages deployment and pinned
-live verification remain subsequent release gates.
+production trees. Independent GitHub Test `33950674331` passed in 37 minutes
+20 seconds. PR 175 merged as
+`d0f93e4dd61e382bc4176755f69dba2a5cb27ca8`; Pages run `33952406605`
+succeeded; and pinned verification against source commit
+`cd89515904c056707eb0ab2edc97b00b453732e7` matched all 67 assets, seven core
+routes and ten direct cohort profiles.
 
 Final manifest: 67 assets / 84,336,853 bytes; SHA-256
 `84f4bfa0491c0417e3499042993f1d194104fc77d6717210d6484e9245d8f95a`.

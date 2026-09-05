@@ -2,7 +2,32 @@
 
 Verified against the current local SQLite database on 2026-09-05 UTC.
 
-Batch 418 is a locally verified release candidate. It adds ten saved
+Batch 419 is a locally verified release candidate. It adds ten saved
+individual outcomes across PDF page 81 rows 44-46 and page 82 rows 1-7.
+Caesar J Civitella has the cohort's strongest pathway record: exact private-
+identifier evidence and an official U.S. Special Operations Command history
+support Ford Motor Company in Chester as his last civilian employer, followed
+by an explicit Army and Camp Mackall pathway into OSS. His attendance at
+Girard College and the Pennsylvania Maritime Academy remains student status,
+not employment. Joseph C Ciras and George V Clainos receive qualified,
+temporally uncertain occupation or military observations without invented
+employers. Peter D Clainos is published as a high-confidence commissioned Army
+officer, while the contemporary source's wording `128 Infantry Greek
+battalion` and the uncertain relationship of that command to his OSS file are
+preserved. Nicholas D Clainos has a same-name officer candidate with a
+conflicting identifier and is not merged. Paul F Cirillo and the spelling-
+variant candidate for indexed `Iganazio Ciuppa` remain private; John J
+Cizauskas Jr. and Helen V Clabby remain unresolved; and Stephan M Claessens's
+printed `Dutch Ar` note is preserved without expansion. The full replay, 90
+Python tests, twenty-four focused browser checks, link validation, profile
+audit and public-identifier audit pass. The complete 1,866-case local
+browser/accessibility matrix passed 1,866/1,866 across desktop, phone and
+tablet in 14.9 minutes with retries disabled; consecutive production builds
+match. Independent GitHub QA, merge, Pages deployment and pinned live
+verification remain release gates. See `reports/release_batch_419.md` and
+`research/batch-419-discovery-checkpoint.md`.
+
+Batch 418 is released and pinned-live verified. It adds ten saved
 individual outcomes across PDF page 81 rows 34-43. A direct OSS personnel
 interview supports Ralph J Ciluzzi's high-confidence, explicit immediate
 military pathway from the United States Marine Corps Reserve into OSS in July
@@ -18,9 +43,11 @@ published as facts; Angel L Cinza and Alfred H Ciocca remain unresolved. The
 validation and public-identifier audit pass. The complete 1,842-case local
 browser/accessibility matrix passed 1,842/1,842 across desktop, phone and
 tablet in 15.5 minutes with retries disabled; the deterministic full replay
-and consecutive production builds match. Independent GitHub QA, merge, Pages
-deployment and pinned live verification remain release gates. See
-`reports/release_batch_418.md` and
+and consecutive production builds match. Independent GitHub Test
+`33950674331` passed in 37 minutes 20 seconds; PR 175 merged as
+`d0f93e4dd61e382bc4176755f69dba2a5cb27ca8`; Pages `33952406605`
+succeeded; and pinned verification matched all 67 assets, seven core routes
+and ten direct cohort profiles. See `reports/release_batch_418.md` and
 `research/batch-418-discovery-checkpoint.md`.
 
 Batch 417 is released and pinned-live verified. It adds ten saved

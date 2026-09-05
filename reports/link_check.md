@@ -2,7 +2,28 @@
 
 Run: 2026-09-05 UTC
 
-## Batch 418 local
+## Batch 419 local
+
+All internal targets resolve across 24,464 HTML pages; 49,605 external URLs are
+inventoried, not all visited. Identifier checks cover all 24,536 artifacts,
+12,926 normalized identifiers, 120 formatted variants and 1,081 candidate
+substring coincidences with zero unexpected boundary, aggregate or
+manifest-size matches. A separate scan finds zero eight-digit private-
+identifier sequences in the tracked Batch 419 evidence bundle. Manifest: 67
+assets / 84,475,132 bytes; SHA-256
+`7425145d48c774398b5c0f7d4b51069a33f6dfd8d060bf8815fc2010008dfe79`.
+The full replay from the frozen PDF reproduced the 70-file public tree at
+SHA-256
+`996cd1b7cebc830d9ab1a563f9f8484f71fa793ca6afd87e947c5d5b617c3dd3`.
+Consecutive 24,536-file Pages-configuration production trees match at SHA-256
+`59b9655735287b3d1dff159d2069c542acf3c5bcaf9fa93a0d707db70839f79d`.
+Twelve of thirteen Batch 419 citation destinations returned HTTP 200 or 206.
+The Library of Congress item returned HTTP 403 to a generic automated request
+after browser-readable review; no access control was bypassed. No authenticated
+Catalog request was used. Independent GitHub QA and deployment remain pending;
+see `reports/release_batch_419.md`.
+
+## Batch 418 release
 
 All internal targets resolve across 24,461 HTML pages; 49,598 external URLs are
 inventoried, not all visited. Identifier checks cover all 24,533 artifacts,
@@ -20,8 +41,10 @@ Consecutive 24,533-file Pages-configuration production trees match at SHA-256
 Six of eight Batch 418 citation destinations returned HTTP 200. Hoover and
 Library of Congress returned HTTP 403 to the automated check after the source
 pages were reviewed in the browser; no access control was bypassed. No
-authenticated Catalog request was used. Independent GitHub QA and deployment
-remain pending; see `reports/release_batch_418.md`.
+authenticated Catalog request was used. Independent GitHub Test `33950674331`,
+PR 175 and Pages `33952406605` passed. Pinned verification against
+`cd89515904c056707eb0ab2edc97b00b453732e7` matched all 67 assets, seven core
+routes and ten direct cohort profiles; see `reports/release_batch_418.md`.
 
 ## Batch 417 release
 
