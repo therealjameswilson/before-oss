@@ -4,6 +4,18 @@ Run: 2026-09-05 UTC
 
 ## Result
 
+Batch 425: the complete 1,986-case local browser/accessibility matrix produced
+1,983 passes and three legacy browser-resource failures in 58.4 minutes with
+retries disabled. Batches 022, 175 and 331 stalled waiting for profiles; each
+passed in another viewport during the matrix, and all three scenarios then
+passed across desktop, phone and tablet, 9/9 in 10.3 seconds. No Batch 425 test
+failed. Fifteen focused Batch 425 checks pass across all three layouts in 14.4
+seconds after correcting test-only assumptions about a private note and a
+public field label; no evidence or application behavior changed. Consecutive
+Pages-configuration builds match and report zero Astro errors, warnings or
+hints. Independent GitHub testing and release verification remain pending; see
+`reports/release_batch_425.md`.
+
 Batch 424: the complete 1,971-case local browser/accessibility matrix produced
 1,964 passes and seven browser-resource failures in 1.1 hours with retries
 disabled: six action, navigation or teardown timeouts and one suspended local-
@@ -12,8 +24,10 @@ scenarios then passed across desktop, phone and tablet, 21/21 in 22.7 seconds.
 Fifteen focused Batch 424 checks pass across all three layouts in 14.1 seconds
 after correcting six test-only wording expectations; no evidence or
 application behavior changed. Consecutive Pages-configuration builds match and
-report zero Astro errors, warnings or hints. Independent GitHub QA and
-deployment remain pending; see `reports/release_batch_424.md`.
+report zero Astro errors, warnings or hints. Independent GitHub Test
+`33977355458`, PR 181, Pages `33981046489` and pinned live verification
+subsequently passed. The supplementary merge-triggered Test `33981046485` also
+passed in 41 minutes 8 seconds; see `reports/release_batch_424.md`.
 
 Batch 423: the complete 1,956-case local browser/accessibility matrix produced
 1,954 passes and two browser-resource timeouts in 38.3 minutes with retries

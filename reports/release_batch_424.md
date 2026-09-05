@@ -1,7 +1,7 @@
 # Batch 424 release verification
 
-2026-09-05 UTC. **Local release candidate; independent CI and live release
-pending.** This report covers ten source records on PDF page 83 rows 2-11,
+2026-09-05 UTC. **Released and pinned-live verified.** This report covers ten
+source records on PDF page 83 rows 2-11,
 Phillip H Clark through Sidney E Clark, all in Box 127 at location 230/86/28/07.
 
 ## Research
@@ -136,8 +136,14 @@ six action, navigation or teardown timeouts and one suspended local-network
 navigation. No Batch 424 test failed. All seven affected legacy scenarios then
 passed across desktop, phone and tablet, 21/21 in 22.7 seconds. Consecutive
 Pages-configuration builds reproduced byte-identical public and production
-trees. Independent GitHub QA, merge, Pages deployment and pinned live
-verification remain subsequent release gates.
+trees. Independent GitHub Test `33977355458` passed in 41 minutes 15 seconds.
+PR 181 merged as `9a13751af6d9a23dc9d082a319e5727f3f4d678b`; Pages run
+`33981046489` succeeded. Pinned verification against source commit
+`26a34a2490aa5514547f711277d2e781261f3b0d` matched all 67 assets / 84,701,215
+bytes, the exact manifest digest, seven core routes and ten direct cohort
+profiles. The merge-triggered general Test run `33981046485` also passed in 41
+minutes 8 seconds; it is supplementary because the identical source commit had
+already passed the required independent gate.
 
 Final manifest: 67 assets / 84,701,215 bytes; SHA-256
 `89a690ef1879074a49079921e90e363b1007aae8b58312ff26de6b2a7432b522`.

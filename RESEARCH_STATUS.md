@@ -2,7 +2,29 @@
 
 Verified against the current local SQLite database on 2026-09-05 UTC.
 
-Batch 424 is a locally verified release candidate. It adds ten saved
+Batch 425 is a locally verified release candidate. It adds ten saved
+individual outcomes across PDF page 83 rows 12-21, Thomas B Clark through
+Josephine Clarke, all in Box 127. Exact private-identifier and name matches
+support confirmed identities and enlisted Army classification for Thomas B
+Clark and William F Clark. Thomas's qualified Army-entry category describes
+teachers (secondary school) and principals; William's describes students.
+Neither observation names a school or employer or proves immediate pre-OSS
+chronology, and student status remains separate from employment. Walter R
+Clark retains the commissioned Army officer classification printed in the
+index despite the incomplete Army bulk file's non-hit. Vernon S Clark, Edward
+Clarke, Frederick C Clarke and James F Clarke retain unmerged name-only
+candidates; William R Clark, Grace M Clarke and Josephine Clarke remain
+unresolved. No employer, immediate affiliation or last civilian employer is
+inferred. The full replay, 90 Python tests, fifteen focused browser checks,
+link validation, profile audit and public-identifier audit pass; consecutive
+Pages-configuration builds match. The complete 1,986-case browser/accessibility
+matrix produced 1,983 passes and three legacy browser-resource failures in
+58.4 minutes with retries disabled; all three affected scenarios then passed
+across all layouts, 9/9 in 10.3 seconds. Independent CI, deployment and pinned
+live verification remain pending. See `reports/release_batch_425.md` and
+`research/batch-425-discovery-checkpoint.md`.
+
+Batch 424 is released and pinned-live verified. It adds ten saved
 individual outcomes across PDF page 83 rows 2-11, Phillip H Clark through
 Sidney E Clark, all in Box 127. Exact private-identifier and name matches
 support confirmed identities for Richard E Clark, Roger A Clark Jr. and
@@ -21,8 +43,13 @@ audit pass; consecutive Pages-configuration builds match. The complete
 1,971-case browser/accessibility matrix produced 1,964 passes and seven
 browser-resource failures in 1.1 hours with retries disabled; all seven
 affected legacy scenarios then passed across all three layouts, 21/21 in 22.7
-seconds. Independent GitHub QA, merge, Pages deployment and pinned live
-verification remain release gates. See `reports/release_batch_424.md` and
+seconds. Independent GitHub Test `33977355458` passed in 41 minutes 15
+seconds; PR 181 merged as `9a13751af6d9a23dc9d082a319e5727f3f4d678b`;
+Pages `33981046489` succeeded; and pinned verification against
+`26a34a2490aa5514547f711277d2e781261f3b0d` matched all 67 assets, seven core
+routes and ten direct cohort profiles. The supplementary merge-triggered Test
+`33981046485` also passed in 41 minutes 8 seconds. See
+`reports/release_batch_424.md` and
 `research/batch-424-discovery-checkpoint.md`.
 
 Batch 423 is released and pinned-live verified. It adds ten saved
