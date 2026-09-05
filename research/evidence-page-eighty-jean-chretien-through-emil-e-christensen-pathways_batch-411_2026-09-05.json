@@ -1,0 +1,624 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Codex individual archival review, Batch 411",
+  "sources": [
+    {
+      "key": "index-b411",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; PDF page 80 visually inspected; rows 10-19; Boxes 122-123; location 230/86/28/06",
+      "access_date": "2026-09-05",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Citation and project-authored assessments only; no full source page or full private identifier reproduced."
+    },
+    {
+      "key": "nara-secrets-war-publication-b411",
+      "stable_url": "https://www.archives.gov/publications/military-history.html",
+      "archival_identifier": "NARA publication 100021; ISBN 0-911333-91-6",
+      "title": "The Secrets War: The Office of Strategic Services in World War II",
+      "author_creator": "George C. Chalou, editor",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1992",
+      "locator": "Official NARA publication description; 376 pages; proceedings of the 1991 NARA OSS conference",
+      "access_date": "2026-09-05",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "National Archives military-history publications",
+      "document_number": "100021",
+      "rights_notes": "Official publication metadata and project-authored citation only."
+    },
+    {
+      "key": "funk-oss-algiers-b411",
+      "stable_url": "https://www.znaci.org/00001/294.pdf",
+      "archival_identifier": "ISBN 0-911333-91-6",
+      "title": "The OSS in Algiers",
+      "author_creator": "Arthur L. Funk; in George C. Chalou, editor",
+      "repository_publisher": "National Archives Trust Fund Board for the National Archives and Records Administration; access scan hosted by Znaci.net",
+      "publication_record_date": "1992; second printing 2002",
+      "locator": "The Secrets War, printed pages 165-176; Jean Chretien passage on printed page 167; PDF physical page 190",
+      "access_date": "2026-09-05",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "The Secrets War: The Office of Strategic Services in World War II",
+      "rights_notes": "The complete publication was inspected transiently. The project stores only citation metadata, a short excerpt and an original paraphrase; it does not republish the scan."
+    },
+    {
+      "key": "nara-oss-hq-folder-list-b411",
+      "stable_url": "https://www.archives.gov/iwg/declassified-records/rg-226-oss/personnel-folder-list.pdf",
+      "title": "OSS: Headquarters and Headquarters Detachment Personnel Records",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010",
+      "locator": "Page 4; Roll 23; John Laurence Chrislow through Dim V. Zaikowsky; end of Naval Officers Personnel Cards",
+      "access_date": "2026-09-05",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "document_number": "Microfilm publication M1642, Roll 23",
+      "rights_notes": "Official archival finding-list citation and project-authored assessment only."
+    },
+    {
+      "key": "notre-dame-capstan-may-1943-b411",
+      "stable_url": "https://archives.nd.edu/Capstan/Capstan-1943-05.pdf",
+      "title": "Capstan: Second Class, United States Naval Reserve Midshipmen's School, University of Notre Dame",
+      "author_creator": "United States Naval Reserve Midshipmen's School; University of Notre Dame",
+      "repository_publisher": "University of Notre Dame Archives",
+      "publication_record_date": "1943-05-27",
+      "locator": "Dedication and commissioning statement; roster printed page 29, John L. Chrislow, Lodi, Wisconsin, University of Wisconsin 1941",
+      "access_date": "2026-09-05",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "University of Notre Dame Archives",
+      "rights_notes": "The volume was inspected transiently. The project stores citation metadata, short excerpts and original paraphrases, not the copyrighted PDF."
+    },
+    {
+      "key": "nara-jfk-anthony-chrisler-b411",
+      "stable_url": "https://www.archives.gov/files/research/jfk/releases/2022/104-10124-10337.pdf",
+      "archival_identifier": "104-10124-10337",
+      "title": "Shanghai cable concerning newly appointed CAP-5 radio operators",
+      "author_creator": "Central Intelligence Agency, Shanghai station",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1946-08-30; released 2022",
+      "locator": "Page 2 of 2; Shanghai cable 686, IN 1151; Anthony M. Chrisler appointment dated 27 August 1946",
+      "access_date": "2026-09-05",
+      "source_quality": "A_direct_official",
+      "collection_name": "John F. Kennedy Assassination Records Collection",
+      "document_number": "104-10124-10337",
+      "rights_notes": "The image-only record was inspected visually. Its postwar statement is retained only as a low-confidence identity lead, not a pre-OSS employment claim."
+    },
+    {
+      "key": "army-series-b411",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "National Archives Identifier 604357; data file identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged 2002",
+      "locator": "Series description and public data-file pointer; current public bulk-data routes were tested for eligible indexed records but did not return the data file",
+      "access_date": "2026-09-05",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Catalog citation and project-authored access note only. No raw response, candidate record or full private identifier retained. Access failure is not negative identity evidence."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "french-service-de-renseignement-sr",
+      "canonical_name": "French Service de Renseignement (SR)",
+      "historical_name": "Service de Renseignement",
+      "aliases": [
+        "SR",
+        "French intelligence"
+      ],
+      "organization_type": "French military intelligence service",
+      "sector": "military",
+      "city": "Algiers",
+      "country": "France",
+      "active_dates": "World War II",
+      "normalization_notes": "The NARA-published chapter uses Service de Renseignement or SR for the French intelligence organization in Algiers. This historical service is not silently merged with a later French intelligence agency."
+    },
+    {
+      "key": "united-states-naval-reserve",
+      "canonical_name": "United States Naval Reserve",
+      "historical_name": "Naval Reserve",
+      "aliases": [
+        "U.S. Naval Reserve",
+        "USNR"
+      ],
+      "organization_type": "military reserve component",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Naval Reserve service and OSS attachment are modeled as a military pathway, not civilian employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "jean-chretien-french-sr-pathway-b411",
+      "person_id": "86acb7be-f510-57a5-92a2-8dd2556fd316",
+      "organization_key": "french-service-de-renseignement-sr",
+      "organization_name_as_found": "French intelligence (Service de Renseignement, or SR)",
+      "role_title": "Colonel and French intelligence officer",
+      "occupation": "Military intelligence officer",
+      "relationship_type": "military_assignment",
+      "date_precision": "The NARA-published chapter identifies Colonel Chretien among French SR officers with whom the OSS quickly cooperated after establishing its Algiers headquarters; it gives no formal transfer date or personnel status.",
+      "city": "Algiers",
+      "country": "Algeria",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact name, colonel rank, French nationality note and direct OSS cooperation align. The evidence documents a French military-intelligence pathway and cooperation, not that Chretien became an OSS employee or held a civilian job."
+    },
+    {
+      "key": "john-laurence-chrislow-usnr-pathway-b411",
+      "person_id": "18b6fb4e-98c7-5805-9e26-ce9ac78a7048",
+      "organization_key": "united-states-naval-reserve",
+      "organization_name_as_found": "United States Naval Reserve",
+      "role_title": "Ensign",
+      "occupation": "Naval officer",
+      "relationship_type": "military_assignment",
+      "start_date": "1943-05-27",
+      "date_precision": "Notre Dame's contemporary volume places John L. Chrislow in the class commissioned as USNR ensigns on 27 May 1943. NARA later lists John Laurence Chrislow in OSS Naval Officers Personnel Cards, but the exact OSS assignment date is absent.",
+      "city": "Notre Dame",
+      "state_or_region": "Indiana",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The uncommon exact name, NARA-expanded middle name, Naval Officers card series and contemporary USNR commissioning roster form a strong bridge. No source yet supplies a direct school-to-OSS transfer order or a civilian employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "jean-chretien-identity-b411",
+      "person_id": "86acb7be-f510-57a5-92a2-8dd2556fd316",
+      "claim_type": "identity",
+      "claim_text": "The indexed French Colonel Jean Chretien is a high-confidence match to the Colonel Jean Chretien documented in NARA's history of OSS cooperation with French intelligence in Algiers.",
+      "evidence_excerpt": "The OSS quickly cooperated with Col. Louis Rivet, Col. Jean Chretien",
+      "evidence_paraphrase": "A NARA-published chapter names Colonel Jean Chretien among French intelligence officers with whom OSS cooperated in Algiers.",
+      "identity_match_assessment": "The exact name, colonel rank, French nationality and direct OSS relationship align across the index and a NARA-published operational history; Box 122 has not been reviewed.",
+      "temporal_assessment": "The chapter places the relationship after OSS established its Algiers headquarters following the November 1942 North Africa landings.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The project publishes the identity at high confidence while preserving the index spelling without an accent and not adding unsupported full given names.",
+      "sources": [
+        {
+          "source_key": "index-b411",
+          "support_type": "supports",
+          "locator_override": "PDF page 80, row 10; Colonel; French; Box 122"
+        },
+        {
+          "source_key": "funk-oss-algiers-b411",
+          "support_type": "supports",
+          "locator_override": "Printed page 167; PDF physical page 190"
+        },
+        {
+          "source_key": "nara-secrets-war-publication-b411",
+          "support_type": "context_only",
+          "locator_override": "Official title, editor, publisher and 1992 publication description"
+        }
+      ]
+    },
+    {
+      "key": "jean-chretien-french-sr-immediate-b411",
+      "person_id": "86acb7be-f510-57a5-92a2-8dd2556fd316",
+      "affiliation_key": "jean-chretien-french-sr-pathway-b411",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "The best-supported immediate pathway for Jean Chretien is his military role as a colonel in the French Service de Renseignement while OSS established cooperation in Algiers.",
+      "evidence_excerpt": "relationships were those with French intelligence (Service de Renseignement, or SR)",
+      "evidence_paraphrase": "The operational history identifies French SR as the organization through which OSS cooperated with Colonel Chretien in Algiers.",
+      "identity_match_assessment": "High-confidence identity based on exact name, rank, nationality and direct OSS operational context; the personnel file remains unreviewed.",
+      "temporal_assessment": "Probable immediate pathway because the source documents the French SR affiliation at the point of OSS cooperation, but it does not record a formal transfer or OSS employment date.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified military-intelligence affiliation. The project does not call French cooperation an OSS employment transfer or a civilian employer.",
+      "sources": [
+        {
+          "source_key": "funk-oss-algiers-b411",
+          "support_type": "supports",
+          "locator_override": "Printed page 167; French SR relationship and Colonel Chretien passage"
+        }
+      ]
+    },
+    {
+      "key": "john-laurence-chrislow-identity-b411",
+      "person_id": "18b6fb4e-98c7-5805-9e26-ce9ac78a7048",
+      "claim_type": "identity",
+      "claim_text": "John Laurence Chrislow is a high-confidence identification of the indexed John L. Chrislow.",
+      "evidence_excerpt": "Chrislow, John Laurence",
+      "evidence_paraphrase": "NARA expands the indexed middle initial in its OSS Naval Officers Personnel Cards list; a contemporary USNR school roster independently matches the exact name and initial.",
+      "identity_match_assessment": "The uncommon exact name and initial, NARA-expanded middle name, naval-officer record series, 1943 USNR commissioning, hometown and university form a strong identity bridge.",
+      "temporal_assessment": "The commissioning record is dated 27 May 1943; the NARA OSS card-list item supplies no assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "High confidence rather than confirmed because neither the Box 123 personnel file nor the Roll 23 card was inspected directly.",
+      "sources": [
+        {
+          "source_key": "index-b411",
+          "support_type": "supports",
+          "locator_override": "PDF page 80, row 13; John L. Chrislow; Box 123"
+        },
+        {
+          "source_key": "nara-oss-hq-folder-list-b411",
+          "support_type": "supports",
+          "locator_override": "Page 4; Roll 23; Naval Officers Personnel Cards"
+        },
+        {
+          "source_key": "notre-dame-capstan-may-1943-b411",
+          "support_type": "supports",
+          "locator_override": "Printed page 29 roster and commissioning statement"
+        }
+      ]
+    },
+    {
+      "key": "john-laurence-chrislow-usnr-immediate-b411",
+      "person_id": "18b6fb4e-98c7-5805-9e26-ce9ac78a7048",
+      "affiliation_key": "john-laurence-chrislow-usnr-pathway-b411",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "The best-supported immediate pathway for John Laurence Chrislow is his 1943 commissioning as a U.S. Naval Reserve ensign before documented service in the OSS Naval Officers record series.",
+      "evidence_excerpt": "Today, May 27, 1943 more than 1000 midshipmen are being commissioned Ensigns USNR.",
+      "evidence_paraphrase": "Notre Dame's contemporary class volume lists John L. Chrislow in the class commissioned as USNR ensigns; NARA later places his full name in OSS Naval Officers cards.",
+      "identity_match_assessment": "High-confidence identity from the uncommon exact name, NARA-expanded middle name, naval record type, hometown and education.",
+      "temporal_assessment": "Probable immediate military pathway. The sources establish a May 1943 commission and later OSS naval-officer documentation but not the exact assignment or transfer date.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified military assignment. University attendance is preserved as identity evidence and is not classified as employment.",
+      "sources": [
+        {
+          "source_key": "notre-dame-capstan-may-1943-b411",
+          "support_type": "supports",
+          "locator_override": "Commissioning statement and printed page 29 roster"
+        },
+        {
+          "source_key": "nara-oss-hq-folder-list-b411",
+          "support_type": "supports",
+          "locator_override": "Page 4; Roll 23; Naval Officers Personnel Cards"
+        }
+      ]
+    },
+    {
+      "key": "anthony-m-chrisler-postwar-identity-lead-b411",
+      "person_id": "919af5b7-2cd4-5a6b-8175-a9bafeafd6e1",
+      "claim_type": "identity",
+      "claim_text": "A 1946 Shanghai intelligence cable naming Anthony M. Chrisler is a possible but unconfirmed identity lead for the indexed person.",
+      "evidence_excerpt": "CHARLES R. ETHRIDGE, KEITH W. CORNELL AND ANTHONY M. CHRISLER",
+      "evidence_paraphrase": "The cable appoints an exact-name Anthony M. Chrisler as a CAP-5 radio operator in Shanghai in August 1946.",
+      "identity_match_assessment": "The exact full name and immediate postwar intelligence context are relevant, but no Box 122, service, hometown, birth or wartime OSS identifier connects the records.",
+      "temporal_assessment": "The source is postwar and does not establish pre-OSS employment, military service or an OSS start date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "Retained for human review only. It is excluded from public facts and default analytics.",
+      "sources": [
+        {
+          "source_key": "nara-jfk-anthony-chrisler-b411",
+          "support_type": "context_only",
+          "locator_override": "Page 2; appointment dated 27 August 1946"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "86acb7be-f510-57a5-92a2-8dd2556fd316",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The visually verified index row supplies Jean Chretien, Colonel, marked French, Box 122. A NARA-published operational history independently names Colonel Jean Chretien among French intelligence officers with whom OSS cooperated in Algiers. Exact name, rank, nationality and direct OSS context align; the physical file remains unreviewed.",
+      "name_variants": [
+        "Jean Chretien",
+        "Jean Chretien (indexed spelling)",
+        "Jean Chrétien",
+        "Chretien, Jean"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "completed",
+      "next_action": "Review Box 122 and the relevant French military file to confirm full identity, unit, exact SR position, formal relationship to OSS and any civilian employment before career military service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0f77fc28-499c-5824-a06e-da2e31dd33bb",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row was visually verified. Exact-name, OSS, CIA, employment, occupation, obituary, institutional, directory, newspaper and archival searches found no secure identity bridge. A later Nevada district attorney and entertainment-company name were rejected as unlinked results.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 122 to establish full name, birth year, service branch, OSS assignment and pre-OSS affiliation; keep John Chrislaw separate from the adjacent John L. Chrislow unless direct evidence links them.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "919af5b7-2cd4-5a6b-8175-a9bafeafd6e1",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row was visually verified. A 1946 official intelligence cable names an exact-name Anthony M. Chrisler as a Shanghai radio operator, but the postwar record lacks a Box 122, wartime service, hometown or birth identifier. The lead remains low confidence and is not a public fact.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 122 for a full service identity and wartime chronology, then compare it with the 1946 Shanghai radio-operator record before making any identity or pre-OSS claim.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "18b6fb4e-98c7-5805-9e26-ce9ac78a7048",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The visually verified index row supplies John L. Chrislow and Box 123. NARA expands the name to John Laurence Chrislow within the OSS Naval Officers Personnel Cards. Notre Dame's contemporary 1943 midshipmen volume independently lists John L. Chrislow of Lodi, Wisconsin, University of Wisconsin 1941, in the USNR ensign commissioning class.",
+      "name_variants": [
+        "John L Chrislow",
+        "John L. Chrislow",
+        "John Laurence Chrislow",
+        "Chrislow, John Laurence"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "commissioned_naval_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "completed",
+      "next_action": "Review Box 123 and NARA Microfilm Publication M1642 Roll 23 to confirm the exact OSS assignment date and unit, then identify the last civilian employer before Naval Reserve service. University attendance is not employment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "02302f01-e515-58e5-af6f-c1d482f981ea",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row was visually verified. Exact-name and initial searches across OSS, CIA, employment, occupation, obituary, institutional, directory, newspaper and archival sources found no secure independent identity bridge. Modern people-search results were rejected and not retained.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 123 and the original Army record to establish birth year, hometown, occupation, unit, OSS chronology and pre-OSS affiliation; the current public Army bulk-data route was unavailable.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9653f3c3-7536-5bdf-9087-be7781b8c46f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row was visually verified. Exact-name and initial searches across OSS, CIA, employment, occupation, obituary, institutional, directory, newspaper and archival sources found no secure independent identity bridge. Numerous common-name results lacked the private identifier or OSS context and were rejected.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 123 and the original Army record to establish birth year, hometown, occupation, unit, OSS chronology and pre-OSS affiliation; the current public Army bulk-data route was unavailable.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e230b035-c192-5130-a278-69bea41b2da3",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row was visually verified. Exact-name and initial searches across OSS, CIA, employment, occupation, obituary, institutional, directory, newspaper and archival sources found no secure independent identity bridge. Common-name and modern results were rejected.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 123 to establish birth year, hometown, occupation, service status, OSS assignment and pre-OSS affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2e800c49-fda9-514f-99d9-e8c3ba072a05",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row was visually verified. Exact-name and initial searches across OSS, CIA, employment, occupation, obituary, institutional, directory, newspaper and archival sources found no secure independent identity bridge. Common-name and modern results were rejected.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 123 and the original Army record to establish birth year, hometown, occupation, unit, OSS chronology and pre-OSS affiliation; the current public Army bulk-data route was unavailable.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e6354ca1-561d-56b5-8b1e-c4a6e13d06ba",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row was visually verified. Exact-name searches across OSS, CIA, employment, occupation, obituary, institutional, directory, newspaper and archival sources produced multiple namesakes but no secure identity bridge. The Medal of Honor recipient Dale E. Christensen was rejected because the index lacks the corroborating middle initial, unit or identifier.",
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 123 to establish the complete name, birth year, service identity, OSS assignment and pre-OSS affiliation before reconsidering any namesake.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e28dcc23-aaf4-535d-87c2-8995cd2d1574",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row was visually verified as Captain Emil E. Christensen. Exact-name, rank, OSS, CIA, employment, occupation, obituary, institutional, directory, newspaper and archival searches found no secure identity bridge. Modern Scandinavian athletes and unrelated historical namesakes were rejected.",
+      "replace_name_variants": false,
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 123 and the relevant officer records to establish branch, complete service identity, OSS chronology and the immediate military or civilian affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b411-person-jean-chretien-review",
+      "person_id": "86acb7be-f510-57a5-92a2-8dd2556fd316",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 80 context; exact-name, accented-name, colonel, French intelligence and OSS searches; NARA publication body and provenance review; CIA, institutional, military-file, obituary, newspaper and archival checks for Jean Chretien.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T00:15:00Z",
+      "completed_at": "2026-09-05T01:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unsourced biography mirrors and discovery-only pages were not accepted; the uninspected French military-file reference remains a lead rather than evidence; no civilian employer claim was inferred.",
+      "research_notes": "The NARA-published operational history supports a high-confidence identity and qualified French SR military pathway. It documents cooperation rather than a formal OSS transfer. No full identifier, raw Catalog response or copyrighted page is retained.",
+      "next_action": "Review Box 122 and the relevant French military file to confirm full identity, unit, exact SR position, formal relationship to OSS and any civilian employment before career military service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch411-v1"
+    },
+    {
+      "key": "b411-person-john-chrislaw-review",
+      "person_id": "0f77fc28-499c-5824-a06e-da2e31dd33bb",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 80 context; exact-name and likely spelling-variant OSS/CIA searches; employment, occupation, obituary, institutional, directory, newspaper and archival checks for John Chrislaw.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T00:15:00Z",
+      "completed_at": "2026-09-05T01:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "A later Nevada district attorney and entertainment-company spelling were unlinked; the adjacent John L. Chrislow record is maintained as a separate person.",
+      "research_notes": "Bounded individual adjudication found no secure identity or pre-OSS affiliation. This is not a claim that no prior employment existed.",
+      "next_action": "Review Box 122 to establish full name, birth year, service branch, OSS assignment and pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch411-v1"
+    },
+    {
+      "key": "b411-person-anthony-m-chrisler-review",
+      "person_id": "919af5b7-2cd4-5a6b-8175-a9bafeafd6e1",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 80 context; exact-name and initial OSS/CIA searches; 1946 NARA JFK-release cable visual review; employment, occupation, obituary, institutional, directory, newspaper and archival checks for Anthony M Chrisler.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T00:15:00Z",
+      "completed_at": "2026-09-05T01:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "The exact-name 1946 intelligence record is postwar and lacks an independent Box 122 or wartime identifier bridge; modern people-search results were rejected.",
+      "research_notes": "The official cable is preserved as a low-confidence, nonpublic identity lead only. It is not evidence of a pre-OSS employer or assignment.",
+      "next_action": "Review Box 122 for a full service identity and wartime chronology, then compare it with the 1946 Shanghai radio-operator record.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch411-v1"
+    },
+    {
+      "key": "b411-person-john-l-chrislow-review",
+      "person_id": "18b6fb4e-98c7-5805-9e26-ce9ac78a7048",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 80 and official headquarters folder-list context; exact John Laurence and John L Chrislow OSS/CIA searches; Notre Dame 1943 midshipmen volume; naval, employment, occupation, obituary, institutional, directory, newspaper and archival checks.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T00:15:00Z",
+      "completed_at": "2026-09-05T01:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unlinked genealogy and similarly spelled results were rejected; an access-restricted secondary OSS Maritime Unit account was excluded; education was not converted into employment.",
+      "research_notes": "NARA's expanded full name and Naval Officers card series, plus the contemporary USNR commissioning roster, support a high-confidence identity and a qualified immediate Navy pathway. No direct transfer order or civilian employer was found.",
+      "next_action": "Review Box 123 and NARA Microfilm Publication M1642 Roll 23 to confirm exact OSS assignment and identify the last civilian employer before Naval Reserve service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch411-v1"
+    },
+    {
+      "key": "b411-person-joseph-d-chrisman-review",
+      "person_id": "02302f01-e515-58e5-af6f-c1d482f981ea",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 80 context and Army-series access check; exact-name and initial OSS/CIA searches; employment, occupation, obituary, institutional, directory, newspaper and archival checks for Joseph D Chrisman.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T00:15:00Z",
+      "completed_at": "2026-09-05T01:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Modern people-search and common-name results lack the indexed private identifier and wartime OSS context; the public Army bulk-data route was unavailable.",
+      "research_notes": "No full private identifier or raw bulk record was retained. Access failure is not negative evidence, and no absence claim is made.",
+      "next_action": "Review Box 123 and the original Army record to establish birth year, hometown, occupation, unit, OSS chronology and pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch411-v1"
+    },
+    {
+      "key": "b411-person-david-j-christ-review",
+      "person_id": "9653f3c3-7536-5bdf-9087-be7781b8c46f",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 80 context and Army-series access check; exact-name and initial OSS/CIA searches; employment, occupation, obituary, institutional, directory, newspaper and archival checks for David J Christ.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T00:15:00Z",
+      "completed_at": "2026-09-05T01:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Common-name results lacked the indexed private identifier and direct OSS context; the public Army bulk-data route was unavailable.",
+      "research_notes": "No full private identifier or raw bulk record was retained. Access failure is not negative evidence, and no absence claim is made.",
+      "next_action": "Review Box 123 and the original Army record to establish birth year, hometown, occupation, unit, OSS chronology and pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch411-v1"
+    },
+    {
+      "key": "b411-person-mark-j-christ-review",
+      "person_id": "e230b035-c192-5130-a278-69bea41b2da3",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 80 context; exact-name and initial OSS/CIA searches; employment, occupation, obituary, institutional, directory, newspaper and archival checks for Mark J Christ.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T00:15:00Z",
+      "completed_at": "2026-09-05T01:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Common-name and modern results did not establish a wartime OSS identity or pre-OSS chronology.",
+      "research_notes": "Bounded individual adjudication found no secure identity or pre-OSS affiliation. This is not a claim that no prior employment existed.",
+      "next_action": "Review Box 123 to establish birth year, hometown, occupation, service status, OSS assignment and pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch411-v1"
+    },
+    {
+      "key": "b411-person-charles-n-christensen-review",
+      "person_id": "2e800c49-fda9-514f-99d9-e8c3ba072a05",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 80 context and Army-series access check; exact-name and initial OSS/CIA searches; employment, occupation, obituary, institutional, directory, newspaper and archival checks for Charles N Christensen.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T00:15:00Z",
+      "completed_at": "2026-09-05T01:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Common-name and modern results lacked the indexed private identifier and wartime OSS context; the public Army bulk-data route was unavailable.",
+      "research_notes": "No full private identifier or raw bulk record was retained. Access failure is not negative evidence, and no absence claim is made.",
+      "next_action": "Review Box 123 and the original Army record to establish birth year, hometown, occupation, unit, OSS chronology and pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch411-v1"
+    },
+    {
+      "key": "b411-person-dale-christensen-review",
+      "person_id": "e6354ca1-561d-56b5-8b1e-c4a6e13d06ba",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 80 context; exact-name OSS/CIA searches; employment, occupation, obituary, institutional, directory, newspaper, military and archival checks for Dale Christensen.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T00:15:00Z",
+      "completed_at": "2026-09-05T01:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "Multiple veteran and obituary namesakes lacked an index bridge. Medal of Honor recipient Dale E. Christensen lacks a matching middle initial, unit or identifier and was not assigned.",
+      "research_notes": "A name match alone is insufficient for this common name. No absence claim is made.",
+      "next_action": "Review Box 123 to establish the complete name, birth year, service identity, OSS assignment and pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch411-v1"
+    },
+    {
+      "key": "b411-person-emil-e-christensen-review",
+      "person_id": "e28dcc23-aaf4-535d-87c2-8995cd2d1574",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 80 context; exact-name, Captain, OSS and CIA searches; employment, occupation, obituary, institutional, directory, newspaper, military and archival checks for Emil E Christensen.",
+      "query_variant_type": "staged_name_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-05T00:15:00Z",
+      "completed_at": "2026-09-05T01:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Modern Scandinavian athletes, a Danish wrestler, an Australian businessman and other historical namesakes lacked the middle initial, Captain rank, private identifier or OSS context.",
+      "research_notes": "The indexed Captain classification is preserved, but branch and identity remain unresolved. No full identifier or namesake biography is retained as evidence.",
+      "next_action": "Review Box 123 and the relevant officer records to establish branch, complete service identity, OSS chronology and the immediate military or civilian affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch411-v1"
+    }
+  ]
+}

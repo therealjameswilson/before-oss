@@ -4,12 +4,23 @@ Run: 2026-09-05 UTC
 
 ## Result
 
+Batch 411: the complete 1,755-case local browser/accessibility matrix produced
+1,754 passes and one generated-timestamp equality failure in 16.0 minutes. The
+source data had been intentionally regenerated during that run while the test
+server retained the earlier build. After the final deterministic rebuild, the
+two analysis scenarios pass across all three viewports, 6/6, and the four Batch
+411 scenarios pass across all three viewports, 12/12; the combined final rerun
+passes 18/18 in 15.7 seconds. The production build reports zero Astro errors,
+warnings or hints; see `reports/release_batch_411.md`.
+
 Batch 410: the complete 1,743-case local browser/accessibility matrix passed
 cleanly across desktop, phone and tablet in 13.0 minutes with retries disabled.
 After a metadata-only source-tier and exact-name correction, the final tree's
 twelve focused cases passed in 13.4 seconds. The production build reports zero
-Astro errors, warnings or hints. Independent GitHub QA and deployment remain
-pending; see `reports/release_batch_410.md`.
+Astro errors, warnings or hints. Independent GitHub Test `33933349412` passed
+all 1,743 cases in 33 minutes 25 seconds, PR 167 merged, Pages `33935159559`
+succeeded, and pinned live verification passed; see
+`reports/release_batch_410.md`.
 
 Batch 409: twelve focused checks pass across desktop, phone and tablet in 13.5
 seconds on the deterministic build. The first focused run served a stale built
