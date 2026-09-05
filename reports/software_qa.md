@@ -2,6 +2,29 @@
 
 Run: 2026-09-05 UTC
 
+- Batch 414 complete browser and accessibility matrix: **1,782 / 1,782
+  passed** in 15.1 minutes across desktop, phone, and tablet with retries
+  disabled. The clean run includes all 27 axe cases and all twelve new Batch
+  414 cases; the focused regression separately passed **12 / 12** on the final
+  build. All **90 / 90** Python tests pass. The database passed `quick_check`,
+  had zero foreign-key violations, and passed the deterministic 200-profile
+  audit. Extraction validation passed all 522 pages and 23,978 rows. The
+  public-identifier audit examined 12,926 normalized private identifiers and
+  120 formatted variants across 24,532 production artifacts, rejected 1,082
+  substring coincidences, and found zero aggregate, manifest-size, or
+  unexpected boundary matches. All internal links resolve across 24,460 HTML
+  pages; 49,589 unique external URLs are inventoried, not all visited. The
+  public manifest covers 67 assets totaling 84,019,625 bytes. Five of seven
+  Batch 414 citation endpoints returned HTTP 200; Hoover and Library of
+  Congress returned HTTP 403 after their exact source images had been visually
+  inspected, and no access control was bypassed. The dependency audit found
+  zero vulnerabilities. Consecutive exports reproduced public-data digest
+  `a9f2119e3ef27d53ac017fe15ff4ca940675d34452ee08f80407f100d9e2ad5e`;
+  consecutive Pages builds reproduced production-tree digest
+  `0e51debd489c3b637442a2bda1f3987ef90c6ef3d1ec8d1b2bb307ab7de8d705`;
+  and the public manifest digest is
+  `89adc6e284738b24ec3fdffc83dce5c54859a802e8e65b6b9818b6be07f30529`.
+
 - Batch 413 complete browser and accessibility matrix: **1,770 / 1,770
   passed** in 18.8 minutes across desktop, phone, and tablet with retries
   disabled. The clean run includes all 27 axe cases and all nine new Batch 413
