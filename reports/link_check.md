@@ -2,8 +2,6 @@
 
 Run: 2026-09-05 UTC
 
-## Batch 414 local
-
 ## Batch 415 local
 
 All internal targets resolve across 24,460 HTML pages; 49,590 external URLs are
@@ -37,8 +35,11 @@ Consecutive 24,532-file production trees match at SHA-256
 Five of seven Batch 414 citation destinations returned HTTP 200. Hoover and
 Library of Congress returned HTTP 403 to the automated check after the exact
 source images were visually reviewed; no access control was bypassed. No
-authenticated Catalog request was used. Independent GitHub QA and deployment
-remain pending; see `reports/release_batch_414.md`.
+authenticated Catalog request was used. Independent GitHub Test
+`33943189306`, PR 171 and Pages `33944865714` passed. Pinned verification
+against `1eae15433e864fe5bbc3555d18d0fcfdfcb7ad27` matched all 67 assets /
+84,019,625 bytes, seven core routes and ten direct cohort profiles; see
+`reports/release_batch_414.md`.
 
 ## Batch 413 local
 

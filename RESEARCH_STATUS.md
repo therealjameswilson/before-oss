@@ -21,7 +21,7 @@ remain release gates. See
 `reports/release_batch_415.md` and
 `research/batch-415-discovery-checkpoint.md`.
 
-Batch 414 is a locally verified release candidate. It adds ten saved
+Batch 414 is released and pinned-live verified. It adds ten saved
 individual outcomes across PDF page 80 rows 40-46 and page 81 rows 1-3. A
 direct 1944 OSS Board transcript confirms George Christy Chrysostomas's July
 1943 transfer from the 19th Communications Squadron to OSS as a Greek-speaking
@@ -36,8 +36,11 @@ people remain unresolved and route to Boxes 123-124. The complete replay, 90
 Python tests, twelve focused browser checks, link validation and public-
 identifier audit pass. The complete 1,782-case browser/accessibility matrix
 passed 1,782/1,782 across desktop, phone and tablet in 15.1 minutes with
-retries disabled. Independent GitHub QA, merge, Pages deployment and pinned
-live verification remain release gates. See `reports/release_batch_414.md` and
+retries disabled. Independent GitHub Test `33943189306` passed in 36 minutes
+37 seconds; PR 171 merged as
+`a5dfe317e9b9f89a9f1bc1f9bbf7df07fad8c94e`; Pages `33944865714`
+succeeded; and pinned verification matched all 67 assets, seven core routes
+and ten direct cohort profiles. See `reports/release_batch_414.md` and
 `research/batch-414-discovery-checkpoint.md`.
 
 Batch 413 is released and pinned-live verified. It adds ten terminal

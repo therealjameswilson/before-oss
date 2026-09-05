@@ -46,6 +46,9 @@ Run: 2026-09-05 UTC
   `0e51debd489c3b637442a2bda1f3987ef90c6ef3d1ec8d1b2bb307ab7de8d705`;
   and the public manifest digest is
   `89adc6e284738b24ec3fdffc83dce5c54859a802e8e65b6b9818b6be07f30529`.
+  Independent GitHub Test `33943189306` passed in 36 minutes 37 seconds; PR
+  171, Pages `33944865714` and pinned verification of all 67 assets, seven core
+  routes and ten direct profiles subsequently passed.
 
 - Batch 413 complete browser and accessibility matrix: **1,770 / 1,770
   passed** in 18.8 minutes across desktop, phone, and tablet with retries
