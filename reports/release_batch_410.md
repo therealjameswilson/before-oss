@@ -1,9 +1,11 @@
 # Batch 410 release verification
 
-2026-09-05 UTC. **Local release candidate; independent GitHub QA, merge, Pages
-deployment and pinned live verification remain pending.** The public release
-must not be described as Batch 410 until those gates complete. The currently
-verified public URL remains <https://therealjameswilson.github.io/before-oss/>.
+2026-09-05 UTC. **Released and pinned-live verified.** Independent GitHub Test
+run `33933349412` passed on source commit
+`0a9cd32379f19759df8800f957c07c1a5b9f1600`; PR 167 merged as
+`a3baca8058f83c01a68948ecb16a9d80545953cf`; Pages run `33935159559`
+succeeded. The live release is
+<https://therealjameswilson.github.io/before-oss/>.
 
 ## Research
 
@@ -118,7 +120,9 @@ served the completed Batch 410 claims before a metadata-only correction changed
 the oral-history source tier from B to C and preserved the Korean source's
 exact name form. After rebuilding the final tree, all twelve Batch 410 focused
 checks passed across all three viewports in 13.4 seconds. Independent GitHub QA
-will exercise the exact final commit before merge.
+then passed the exact source commit in 33 minutes 25 seconds, including the
+complete site matrix, a fresh source-PDF re-ingest and the public identifier
+redaction audit.
 
 Final manifest: 67 assets / 83,819,345 bytes; SHA-256
 `a3249d48dbb174000f46d2e9748a65153d57c755a7906eb2211cbcd6fb958b05`.
@@ -127,6 +131,9 @@ Public tree: 70 files, SHA-256
 Production tree: 24,530 files, SHA-256
 `cafe6ca9c752843bfdbe52ec5c612a73094f5ee868ddc3281130c90058b41f04`.
 Tree digests use sorted relative paths, NUL separators and binary file hashes.
+Pinned post-deployment verification matched all 67 manifest assets totaling
+83,819,345 bytes, all seven core routes and all ten direct Batch 410 profiles
+against the immutable source commit.
 
 ```sh
 python3 -m oss_research import-reviewed-evidence research/evidence-page-seventy-nine-eighty-chojnicki-through-stanley-choy-pathways_batch-410_2026-09-04.json

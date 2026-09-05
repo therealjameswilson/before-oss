@@ -2,7 +2,23 @@
 
 Verified against the current local SQLite database on 2026-09-05 UTC.
 
-Batch 410 is a local release candidate. It adds ten terminal individual
+Batch 411 is a locally verified release candidate. It adds ten terminal
+individual outcomes: Jean Chretien's high-confidence, qualified French Service
+de Renseignement pathway; John Laurence Chrislow's high-confidence, qualified
+U.S. Naval Reserve pathway; and eight archival-review dispositions. Both
+pathways are medium-confidence military assignments, not civilian-employer
+findings. Anthony M. Chrisler's postwar Shanghai lead remains low confidence
+and private. The full replay, 90 Python tests, twelve focused browser checks,
+link validation and public-identifier audit pass. The complete 1,755-case
+browser/accessibility matrix produced 1,754 passes and one generated-timestamp
+mismatch after source data was intentionally refreshed during the run; the
+affected analysis scenarios then passed 6/6 and the final Batch 411 scenarios
+passed 12/12 across desktop, phone and tablet after the deterministic rebuild.
+See
+`reports/release_batch_411.md` and
+`research/batch-411-discovery-checkpoint.md`.
+
+Batch 410 is released and pinned-live verified. It adds ten terminal individual
 outcomes: Michael E. Choukas's high-confidence Dartmouth College employment as
 both a strongly date-bounded immediate affiliation and last civilian employer;
 Nancy Chopela's qualified probable unnamed U.S. Government pathway; Stanley
@@ -10,9 +26,12 @@ Choy's qualified probable OSS India-Burma identity; Waclaw Chojnicki's
 source-row-based Allied classification; and six unresolved archival-review
 dispositions. Nine profiles remain routed to Box 122. The complete local
 browser/accessibility matrix passed 1,743/1,743, and all twelve focused checks
-pass on the final deterministic build. Independent GitHub QA, merge, Pages and
-pinned live verification remain pending. See `reports/release_batch_410.md`
-and `research/batch-410-discovery-checkpoint.md`.
+pass on the final deterministic build. Independent GitHub Test `33933349412`
+passed in 33 minutes 25 seconds; PR 167 merged as
+`a3baca8058f83c01a68948ecb16a9d80545953cf`; Pages `33935159559` succeeded;
+and pinned verification matched all 67 assets, seven core routes and ten direct
+cohort profiles. See `reports/release_batch_410.md` and
+`research/batch-410-discovery-checkpoint.md`.
 
 Batch 409 is released and pinned-live verified. Independent GitHub Test
 `33925229525` passed all 1,731 browser/accessibility cases; PR 166 merged as
@@ -104,10 +123,10 @@ display, preserving both printed suffixes. See `reports/release_batch_402.md`.
 | Measure | Numerator | Denominator | Percent |
 |---|---:|---:|---:|
 | Index coverage | 23,978 linked source rows | 23,978 printed rows | 100.0000% |
-| Research-attempt coverage | 3,882 people with a non-planned attempt | 23,940 active person entities | 16.2155% |
+| Research-attempt coverage | 3,892 people with a non-planned attempt | 23,940 active person entities | 16.2573% |
 | Verified-affiliation coverage | 491 people with qualifying confirmed/high published pre-OSS affiliation | 23,940 active person entities | 2.0510% |
 | Verified-employer coverage | 214 people with confirmed/high published employment or self-employment | 23,940 active person entities | 0.8939% |
-| Archival-review coverage | 3,835 people with an individual file-access/priority assessment | 23,940 active person entities | 16.0192% |
+| Archival-review coverage | 3,845 people with an individual file-access/priority assessment | 23,940 active person entities | 16.0610% |
 
 ## Extraction and identity
 
@@ -121,15 +140,15 @@ display, preserving both printed suffixes. See `reports/release_batch_402.md`.
 - Automatic same-name/same-service-number groups: 36
 - Same-service-number/different-name candidate groups: 164
 - Identity status `confirmed`: 742
-- Identity status `high_confidence`: 574
+- Identity status `high_confidence`: 576
 - Identity status `probable`: 128
 - Identity status `ambiguous`: 70
 - Identity status `conflicting`: 72
-- Identity status `unresolved`: 22,354
+- Identity status `unresolved`: 22,352
 
 ## Personnel categories
 
-- Unknown or indeterminate: 15,961
+- Unknown or indeterminate: 15,960
 - Enlisted Army personnel: 3,951
 - Commissioned Army officers: 2,108
 - Commissioned Coast Guard officers: 1
@@ -138,15 +157,15 @@ display, preserving both printed suffixes. See `reports/release_batch_402.md`.
 - Civilian professional or administrative grades: 1,498
 - Foreign or Allied military personnel: 252
 - Enlisted naval personnel: 64
-- Commissioned naval officers: 85
+- Commissioned naval officers: 86
 - Warrant officers: 6
 - Temporary, contract, or special personnel: 3
 
-Commissioned classification: 2,230 yes; 5,621 no; 16,089 indeterminate.
+Commissioned classification: 2,232 yes; 5,621 no; 16,087 indeterminate.
 
 ## Research queue and pilot
 
-- `not_started`: 20,058
+- `not_started`: 20,048
 - `in_progress`: 46
 - `candidate_found`: 1
 - `needs_identity_review`: 106
@@ -154,22 +173,22 @@ Commissioned classification: 2,230 yes; 5,621 no; 16,089 indeterminate.
 - `documented_prewar_employer_found`: 69
 - `no_reliable_result_after_protocol`: 82
 - `occupation_only_found`: 650
-- `requires_archival_review`: 2,518
-- `completed`: 121
+- `requires_archival_review`: 2,526
+- `completed`: 123
 - `conflicting_sources`: 71
 - `verified_employer_found`: 209
-- Claim confidence: 921 confirmed; 1,196 high; 849 medium; 72 low; 83
+- Claim confidence: 921 confirmed; 1,198 high; 851 medium; 73 low; 83
   conflicting
 - Claims attached specifically to employment/self-employment affiliations:
   35 confirmed; 275 high; 82 medium; 1 low; 2 conflicting; 0 unresolved.
   These count claim rows, not unique people, and precede the analytics gates.
-- Durable evidence inventory: 3,797 citation records representing 1,781 legacy
-  document keys (source-identity normalization still under review); 522
-  organizations; 1,530 affiliations; 3,121 claims; and 7,090
+- Durable evidence inventory: 3,804 citation records representing 1,785 legacy
+  document keys (source-identity normalization still under review); 523
+  organizations; 1,532 affiliations; 3,126 claims; and 7,100
   claim-source links
-- Reviewed public projection: 510 organizations; 1,519 published, qualified,
-  or conflict-visible affiliations; 3,046 published, qualified, or
-  conflict-visible claims; and 2,659 public citation records
+- Reviewed public projection: 511 organizations; 1,521 published, qualified,
+  or conflict-visible affiliations; 3,050 published, qualified, or
+  conflict-visible claims; and 2,664 public citation records
 - Stratified pilot size: 75
 - Pilot difficulty tiers: T1 26; T2 19; T3 15; T4 15
 - NARA dry-run plans recorded: 111
@@ -179,12 +198,12 @@ Commissioned classification: 2,230 yes; 5,621 no; 16,089 indeterminate.
 - Reviewed-source attempts remain reproducible by versioned adapter in
   `research/research_attempts.csv`.
 - Live NARA requests: 0
-- Saved `source_reviewed` outcomes: 1,729; 160 additional attempts have a saved
+- Saved `source_reviewed` outcomes: 1,739; 160 additional attempts have a saved
   `candidate_found` outcome
-- Total recorded attempts/plans: 5,101
+- Total recorded attempts/plans: 5,111
 - Library of Congress discovery candidates: 133 total; 130 rejected after
   page-context review and three retained for review or identity context
-- People with saved reviewed claims: 1,509; 1,451 have at least one public-visible
+- People with saved reviewed claims: 1,512; 1,453 have at least one public-visible
   claim. The reviewed set includes Mort S. Bobrow, Morris Berg,
   Ralph J. Bunche, William J. Casey, Julia C. McWilliams, William E. Colby,
   Arthur J. Goldberg, Virginia Hall, Sterling W. Hayden, Richard M. Helms, John

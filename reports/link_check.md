@@ -2,6 +2,21 @@
 
 Run: 2026-09-05 UTC
 
+## Batch 411 local
+
+All internal targets resolve across 24,459 HTML pages; 49,587 external URLs are
+inventoried, not all visited. Identifier checks cover all 24,531 artifacts with
+zero unexpected boundary, aggregate or manifest-size matches. Manifest: 67
+assets / 83,867,088 bytes; SHA-256
+`9b151c18c4d3d20c6297fb093147db229ec7dbd95639a74ff09b0ecd4ad97690`.
+A full replay from the frozen PDF reproduces the 70-file public tree at SHA-256
+`7e86f9c0560cc0cc5ef15d5199a4eb3306390aa377a777c7025b80249dc5591b`.
+The final 24,531-file production tree has SHA-256
+`68c8369ffdbe44ca178de091a279bdd8717987074a892743eeb09d44e2af6804`.
+All seven Batch 411 citation destinations returned HTTP 200. A restricted
+secondary lead was excluded, and no access control was bypassed. Independent
+GitHub QA and deployment remain pending; see `reports/release_batch_411.md`.
+
 ## Batch 410 local
 
 All internal targets resolve across 24,458 HTML pages; 49,585 external URLs are
@@ -14,7 +29,8 @@ Batch 410 citation URLs returned the expected source to an ordinary HEAD check;
 the legacy Dartmouth transcript redirected to a moved-content notice and
 Legacy returned 403. Both source bodies had been reviewed earlier, their
 limitations are disclosed, and no access control was bypassed. Independent
-GitHub QA and deployment remain pending; see `reports/release_batch_410.md`.
+GitHub Test `33933349412`, PR 167, Pages `33935159559`, and pinned live
+verification subsequently passed; see `reports/release_batch_410.md`.
 
 ## Batch 409 local
 
