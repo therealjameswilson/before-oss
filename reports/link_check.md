@@ -2,6 +2,26 @@
 
 Run: 2026-09-05 UTC
 
+## Batch 416 local
+
+All internal targets resolve across 24,461 HTML pages; 49,593 external URLs are
+inventoried, not all visited. Identifier checks cover all 24,533 artifacts,
+12,926 normalized identifiers, 120 formatted variants and 1,081 candidate
+substring coincidences with zero unexpected boundary, aggregate or
+manifest-size matches. A separate scan finds zero private-identifier boundary
+matches in the tracked Batch 416 evidence bundle. Manifest: 67 assets /
+84,148,970 bytes; SHA-256
+`76418ac28f27542ffc7040b961e93cf0e3308d3db2b745049b9e271e383d2a07`.
+The full replay from the frozen PDF reproduced the 70-file public tree at
+SHA-256
+`e530cf1325a78d29bdf68020e56989a071b5997c16897b87172d893886f23516`.
+Consecutive 24,533-file Pages-configuration production trees match at SHA-256
+`47d4ac9d4f74337217c23457d82c24176b5f2282a3a704ca303da7cdf56ed5a0`.
+All six Batch 416 citation destinations returned HTTP 200 or HTTP 206. No
+authenticated Catalog request or access-control bypass was used. Independent
+GitHub QA and deployment remain pending; see
+`reports/release_batch_416.md`.
+
 ## Batch 415 local
 
 All internal targets resolve across 24,460 HTML pages; 49,590 external URLs are
@@ -17,8 +37,11 @@ A full replay from the frozen PDF reproduces the 70-file public tree at SHA-256
 Consecutive 24,532-file Pages-configuration production trees match at SHA-256
 `e1bb7a5c939a3a6141245026cd9824c7dc91e0fb59f3ac9fbfecece70de4b6df`.
 All six Batch 415 citation destinations returned HTTP 200. No authenticated
-Catalog request or access-control bypass was used. Independent GitHub QA and
-deployment remain pending; see `reports/release_batch_415.md`.
+Catalog request or access-control bypass was used. Independent GitHub Test
+`33945027673`, PR 172 and Pages `33946452068` passed. Pinned verification
+against `daf73bc7dae60bd3c8680cc1e3bd03b34fd63f04` matched all 67 assets /
+84,060,716 bytes, seven core routes and ten direct cohort profiles; see
+`reports/release_batch_415.md`.
 
 ## Batch 414 local
 

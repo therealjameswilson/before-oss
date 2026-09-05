@@ -2,6 +2,29 @@
 
 Run: 2026-09-05 UTC
 
+- Batch 416 local QA: all **90 / 90** Python tests pass. The database passed
+  `quick_check`, had zero foreign-key violations, and passed the deterministic
+  200-profile structural audit. Extraction validation passed all 522 pages and
+  23,978 rows. Twelve focused Batch 416 checks pass across desktop, phone and
+  tablet. The public-identifier audit examined 12,926 normalized private
+  identifiers and 120 formatted variants across 24,533 production artifacts,
+  rejected 1,081 substring coincidences, and found zero aggregate,
+  manifest-size, or unexpected boundary matches. A separate current-batch
+  evidence scan found zero private-identifier boundary matches. All internal
+  links resolve across 24,461 HTML pages; 49,593 unique external URLs are
+  inventoried, not all visited. The public manifest covers 67 assets totaling
+  84,148,970 bytes. All six Batch 416 citation endpoints returned HTTP 200 or
+  HTTP 206, and the dependency audit found zero vulnerabilities. The complete
+  browser/accessibility matrix passed **1,806 / 1,806** in 16.3 minutes across
+  desktop, phone and tablet with retries disabled. Consecutive exports
+  reproduced public-data digest
+  `e530cf1325a78d29bdf68020e56989a071b5997c16897b87172d893886f23516`;
+  consecutive Pages builds reproduced production-tree digest
+  `47d4ac9d4f74337217c23457d82c24176b5f2282a3a704ca303da7cdf56ed5a0`;
+  and the public manifest digest is
+  `76418ac28f27542ffc7040b961e93cf0e3308d3db2b745049b9e271e383d2a07`.
+  See `reports/release_batch_416.md`.
+
 - Batch 415 complete browser and accessibility matrix: **1,794 / 1,794
   passed** in 14.2 minutes across desktop, phone, and tablet with retries
   disabled. The clean run includes all 27 axe cases and all twelve new Batch
@@ -23,6 +46,9 @@ Run: 2026-09-05 UTC
   `e1bb7a5c939a3a6141245026cd9824c7dc91e0fb59f3ac9fbfecece70de4b6df`;
   and the public manifest digest is
   `42704b117039756d67ac3e1054831a8f445c8f0104be78f2a2abde71a8f43c7e`.
+  Independent GitHub Test `33945027673` passed in 32 minutes 7 seconds; PR
+  172, Pages `33946452068` and pinned verification of all 67 assets, seven core
+  routes and ten direct profiles subsequently passed.
 
 - Batch 414 complete browser and accessibility matrix: **1,782 / 1,782
   passed** in 15.1 minutes across desktop, phone, and tablet with retries

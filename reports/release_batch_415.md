@@ -1,6 +1,6 @@
 # Batch 415 release verification
 
-2026-09-05 UTC. **Local release candidate; not yet merged or deployed.** This
+2026-09-05 UTC. **Released and pinned-live verified.** This
 report covers ten people across PDF page 81 rows 4-13, Jerome H Chudej through
 Lois W Chung, all in Box 124.
 
@@ -148,8 +148,11 @@ the final build.
 
 The complete 1,794-case local browser/accessibility matrix passed 1,794/1,794
 in 14.2 minutes across desktop, phone and tablet with retries disabled.
-Independent GitHub QA, merge, Pages deployment and pinned live verification
-remain subsequent release gates.
+The complete independent GitHub Test `33945027673` passed in 32 minutes 7
+seconds. PR 172 merged as
+`51ca760f4a8d75c2cfbf4cc7effcec4a780a2665`; Pages `33946452068` succeeded;
+and pinned live verification against the reviewed source commit matched all 67
+assets, seven core routes and ten direct cohort profiles.
 
 Final manifest: 67 assets / 84,060,716 bytes; SHA-256
 `42704b117039756d67ac3e1054831a8f445c8f0104be78f2a2abde71a8f43c7e`.
