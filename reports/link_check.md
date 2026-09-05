@@ -2,7 +2,27 @@
 
 Run: 2026-09-05 UTC
 
-## Batch 424 local
+## Batch 425 local release candidate
+
+All internal targets resolve across 24,464 HTML pages; 49,608 external URLs are
+inventoried, not all visited. Identifier checks cover all 24,536 artifacts,
+12,926 normalized identifiers, 120 formatted variants and 1,081 candidate
+substring coincidences with zero unexpected boundary, aggregate or manifest-
+size matches. A separate scan finds zero full private identifiers in the
+tracked Batch 425 evidence bundle. Manifest: 67 assets / 84,736,826 bytes;
+SHA-256
+`44f14caa66a23a4484e73fea079b5fdb2237c366cba9f2896ed1baaed4942cce`.
+The full replay from the frozen PDF reproduced the 70-file public tree at
+SHA-256
+`0854de0558d23a9115f1f992f16a9833c61de6429107a9b4dac37aa3f0c0583a`.
+Consecutive 24,536-file Pages-configuration production trees match at SHA-256
+`afa6cae72a765ab312e23442db8b28466b62a8afe90a165d65a46360b68d82e1`.
+All four Batch 425 citation destinations returned HTTP 200. No authenticated
+Catalog request or access-control bypass was used. Independent GitHub testing,
+deployment and pinned live verification remain pending; see
+`reports/release_batch_425.md`.
+
+## Batch 424 release
 
 All internal targets resolve across 24,464 HTML pages; 49,608 external URLs are
 inventoried, not all visited. Identifier checks cover all 24,536 artifacts,
@@ -18,8 +38,12 @@ SHA-256
 Consecutive 24,536-file Pages-configuration production trees match at SHA-256
 `7a2bcd95b5042941a5c7c289650438e1b3dd028596a50c709eca8245412dade1`.
 All four Batch 424 citation destinations returned HTTP 200. No authenticated
-Catalog request or access-control bypass was used. Independent GitHub QA and
-deployment remain pending; see `reports/release_batch_424.md`.
+Catalog request or access-control bypass was used. Independent GitHub Test
+`33977355458`, PR 181 and Pages `33981046489` passed. Pinned verification
+against `26a34a2490aa5514547f711277d2e781261f3b0d` matched all 67 assets /
+84,701,215 bytes, seven core routes and ten direct cohort profiles. The
+supplementary merge-triggered Test `33981046485` also passed in 41 minutes 8
+seconds; see `reports/release_batch_424.md`.
 
 ## Batch 423 release
 
