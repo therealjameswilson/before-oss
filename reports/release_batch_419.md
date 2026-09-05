@@ -1,8 +1,13 @@
 # Batch 419 release verification
 
-2026-09-05 UTC. **Local release candidate; not yet merged or deployed.** This
-report covers ten people on PDF page 81 rows 44-46 and page 82 rows 1-7,
-Joseph C Ciras through Peter D Clainos, all in Box 125.
+2026-09-05 UTC. **Released and pinned-live verified.** This report covers ten
+people on PDF page 81 rows 44-46 and page 82 rows 1-7, Joseph C Ciras through
+Peter D Clainos, all in Box 125. Independent GitHub Test `33952923818` passed
+in 39 minutes 26 seconds. PR 176 merged as
+`b3df11826d697c3b96cf5922d53fe798e07e8030`; Pages run `33954698899`
+succeeded. Pinned read-only verification against source commit
+`5d28999903ca8aaa6640a6b60cf850ed6b43e1a1` matched all 67 assets, all seven
+core routes and all ten direct cohort profiles on the public site.
 
 ## Research
 
@@ -161,8 +166,12 @@ behavior. The dependency audit reports zero vulnerabilities.
 The complete 1,866-case local browser/accessibility matrix passed 1,866/1,866
 in 14.9 minutes across desktop, phone and tablet with retries disabled.
 Consecutive Pages-configuration builds reproduced byte-identical public and
-production trees. Independent GitHub QA, merge, Pages deployment and pinned
-live verification remain subsequent release gates.
+production trees. Independent GitHub Test `33952923818` then passed in 39
+minutes 26 seconds; PR 176 merged as
+`b3df11826d697c3b96cf5922d53fe798e07e8030`; and Pages run `33954698899`
+succeeded. Pinned verification against
+`5d28999903ca8aaa6640a6b60cf850ed6b43e1a1` matched all 67 assets / 84,475,132
+bytes, seven core routes and ten direct cohort profiles.
 
 Final manifest: 67 assets / 84,475,132 bytes; SHA-256
 `7425145d48c774398b5c0f7d4b51069a33f6dfd8d060bf8815fc2010008dfe79`.
