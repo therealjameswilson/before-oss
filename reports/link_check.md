@@ -1,6 +1,20 @@
 # Link check
 
-Run: 2026-09-04 UTC
+Run: 2026-09-05 UTC
+
+## Batch 410 local
+
+All internal targets resolve across 24,458 HTML pages; 49,585 external URLs are
+inventoried, not all visited. Identifier checks cover all 24,530 artifacts with
+zero unexpected boundary, aggregate or manifest-size matches. Manifest: 67
+assets / 83,819,345 bytes; SHA-256
+`a3249d48dbb174000f46d2e9748a65153d57c755a7906eb2211cbcd6fb958b05`.
+Repeated public-data and production builds match byte-for-byte. Five of seven
+Batch 410 citation URLs returned the expected source to an ordinary HEAD check;
+the legacy Dartmouth transcript redirected to a moved-content notice and
+Legacy returned 403. Both source bodies had been reviewed earlier, their
+limitations are disclosed, and no access control was bypassed. Independent
+GitHub QA and deployment remain pending; see `reports/release_batch_410.md`.
 
 ## Batch 409 local
 
@@ -9,8 +23,11 @@ inventoried, not all visited. Manifest: 67 assets / 83,758,733 bytes; SHA-256
 `7439600b57d4bdc5a6c74536edfa35f681ca6c62c09d2b1306dcca2f73a0c22a`.
 Identifier audit covers all 24,530 artifacts with zero unexpected boundary
 matches. Public and production trees reproduce byte-for-byte. Independent
-GitHub QA, merge, Pages deployment and pinned live verification remain pending;
-see `reports/release_batch_409.md`.
+GitHub Test `33925229525` passed all 1,731 cases; PR 166 merged and Pages
+`33927323898` succeeded. Pinned verification against
+`082e63594a087c7d84ecd1310f303043dae4edf1` matched all 67 assets /
+83,758,733 bytes, seven core routes and all ten cohort profiles. See
+`reports/release_batch_409.md`.
 
 ## Batch 408 local
 

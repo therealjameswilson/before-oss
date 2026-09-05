@@ -1,8 +1,15 @@
 # Accessibility and responsive QA
 
-Run: 2026-09-04 UTC
+Run: 2026-09-05 UTC
 
 ## Result
+
+Batch 410: the complete 1,743-case local browser/accessibility matrix passed
+cleanly across desktop, phone and tablet in 13.0 minutes with retries disabled.
+After a metadata-only source-tier and exact-name correction, the final tree's
+twelve focused cases passed in 13.4 seconds. The production build reports zero
+Astro errors, warnings or hints. Independent GitHub QA and deployment remain
+pending; see `reports/release_batch_410.md`.
 
 Batch 409: twelve focused checks pass across desktop, phone and tablet in 13.5
 seconds on the deterministic build. The first focused run served a stale built
@@ -11,8 +18,9 @@ rebuilt and the assertion corrected to the actual masked display without
 changing evidence or site behavior. The complete 1,731-case local matrix
 produced 1,728 passes and three browser-session timeouts in 45.5 minutes. All
 three unchanged affected scenarios then pass across all three viewports, 9/9
-in 16.7 seconds, without retries. Independent GitHub QA remains the publication
-gate. See `reports/release_batch_409.md`.
+in 16.7 seconds, without retries. Independent GitHub Test `33925229525` then
+passed 1,731/1,731 in 23.2 minutes; PR 166, Pages and pinned live verification
+succeeded. See `reports/release_batch_409.md`.
 
 Batch 408: twelve final focused checks pass across desktop, phone and tablet in
 12.3 seconds after the determinism run. The initial authoring run had three

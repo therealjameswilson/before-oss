@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T20:19:48+00:00",
+  "generated_at": "2026-09-05T00:16:50+00:00",
   "index_coverage": {
     "source_rows": 23978,
     "source_rows_linked": 23978,
@@ -9,23 +9,23 @@
     "person_entities": 23940,
     "stored_person_entities": 23941,
     "superseded_person_entities": 1,
-    "people_with_nonplanned_attempts": 3872,
-    "percent": 16.1738
+    "people_with_nonplanned_attempts": 3882,
+    "percent": 16.2155
   },
   "verified_affiliation_coverage": {
     "person_entities": 23940,
-    "people_with_confirmed_or_high_published_affiliation": 490,
-    "percent": 2.0468
+    "people_with_confirmed_or_high_published_affiliation": 491,
+    "percent": 2.051
   },
   "verified_employer_coverage": {
     "person_entities": 23940,
-    "people_with_confirmed_or_high_published_employer": 213,
-    "percent": 0.8897
+    "people_with_confirmed_or_high_published_employer": 214,
+    "percent": 0.8939
   },
   "archival_review_coverage": {
     "person_entities": 23940,
-    "people_assessed": 3825,
-    "percent": 15.9774
+    "people_assessed": 3835,
+    "percent": 16.0192
   },
   "research_status_counts": {
     "candidate_found": 1,
@@ -36,17 +36,17 @@
     "needs_identity_review": 106,
     "needs_temporal_review": 9,
     "no_reliable_result_after_protocol": 82,
-    "not_started": 20068,
+    "not_started": 20058,
     "occupation_only_found": 650,
-    "requires_archival_review": 2509,
-    "verified_employer_found": 208
+    "requires_archival_review": 2518,
+    "verified_employer_found": 209
   },
   "claim_confidence_counts": {
     "confirmed": 921,
     "conflicting": 83,
-    "high": 1193,
+    "high": 1196,
     "low": 72,
-    "medium": 845
+    "medium": 849
   },
   "personnel_category_counts": {
     "civilian_professional_or_administrative_grade": 1498,
@@ -64,6 +64,6 @@
   },
   "possible_duplicate_groups": 233,
   "conflict_count": 76,
-  "citations": 3790,
-  "unique_source_documents": 1775
+  "citations": 3797,
+  "unique_source_documents": 1781
 }
