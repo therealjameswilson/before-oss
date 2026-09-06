@@ -2,7 +2,34 @@
 
 Verified against the current local SQLite database on 2026-09-05 UTC.
 
-Batch 425 is a locally verified release candidate. It adds ten saved
+Batch 426 is a locally verified release candidate. It adds ten saved
+individual outcomes across PDF page 83 rows 22-31, Kathleen M Clarke through
+Frederick Claudy, spanning Boxes 125, 127 and 128. Exact private-identifier and
+name matches support confirmed identities and enlisted Army classification for
+Norman F Clarke and William W Clarke. Norman's qualified Army-entry category is
+engineers, electrical; William's is students. Neither observation names an
+employer or proves immediate pre-OSS chronology, and student status remains
+separate from employment. Paul W Clarke remains enlisted naval personnel from
+the indexed `S 2/c` grade; an incompatible Army candidate is rejected.
+Marianne Clarke, Harold W Classen, Henri L Claudel and Frederick Claudy retain
+unmerged or archival identity leads. Kathleen M Clarke, Mildred A Clarke and
+Ruby M Clarke remain unresolved. A CIA search discovery for a Marianne Clarke
+in OSS remains private and low-confidence because the document context could
+not be inspected. No employer, immediate affiliation or last civilian employer
+is inferred. The full clean replay, 90 Python tests, ingest, link, profile and
+public-identifier audits pass; consecutive Pages-configuration builds match.
+The complete 2,001-case browser/accessibility matrix produced 1,992 passes and
+nine browser-resource timeouts in 1.7 hours with retries disabled. The eight
+affected non-Sources scenarios then passed across all layouts, 24/24. Trace
+inspection showed that the large Sources audit stalled while returning every
+passing and inapplicable node; limiting the result payload to violations, with
+the same WCAG rules and assertion, made all 27 accessibility route checks and
+all fifteen Batch 426 checks pass across all layouts, 42/42 in 90 seconds.
+Independent CI, deployment and pinned verification remain pending. See
+`reports/release_batch_426.md` and
+`research/batch-426-discovery-checkpoint.md`.
+
+Batch 425 is released and pinned-live verified. It adds ten saved
 individual outcomes across PDF page 83 rows 12-21, Thomas B Clark through
 Josephine Clarke, all in Box 127. Exact private-identifier and name matches
 support confirmed identities and enlisted Army classification for Thomas B
@@ -20,8 +47,13 @@ link validation, profile audit and public-identifier audit pass; consecutive
 Pages-configuration builds match. The complete 1,986-case browser/accessibility
 matrix produced 1,983 passes and three legacy browser-resource failures in
 58.4 minutes with retries disabled; all three affected scenarios then passed
-across all layouts, 9/9 in 10.3 seconds. Independent CI, deployment and pinned
-live verification remain pending. See `reports/release_batch_425.md` and
+across all layouts, 9/9 in 10.3 seconds. Independent PR Test `33989727271`
+passed in 41 minutes 35 seconds; PR 182 merged as
+`edcd45faf6682f343f5aa1d0f5890135ecd80f77`; Pages `33992396552` succeeded;
+and pinned verification against `66e9b0497e1475fff8e2047652cddab14ceed441`
+matched all 67 assets, seven core routes and ten direct cohort profiles. The
+supplementary merge-triggered Test `33992396479` also passed in 42 minutes 11
+seconds. See `reports/release_batch_425.md` and
 `research/batch-425-discovery-checkpoint.md`.
 
 Batch 424 is released and pinned-live verified. It adds ten saved
