@@ -1,0 +1,893 @@
+{
+  "bundle_version": "before-oss-reviewed-evidence-v1",
+  "reviewer": "Codex archival research workflow, batch 428",
+  "sources": [
+    {
+      "key": "index-b428",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; complete PDF pages 83 and 84 visually inspected at 150 dpi; page 83 rows 42-46 and page 84 rows 1-5; Box 128; location 230/86/28/07",
+      "access_date": "2026-09-06",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Citation and project-authored assessments only; no full source page, raw bulk record or full private identifier reproduced. Original names, blank ranks and identifier forms are preserved."
+    },
+    {
+      "key": "army-b428",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; complete transient scan of 9,200,232 fixed-width records; four eligible private identifiers compared without retaining them; exact-name rows counted and adjudicated separately for every cohort member",
+      "access_date": "2026-09-06",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "Reviewed transiently outside version control. No raw row, full private identifier or API response is retained. The merged file is incomplete and is not an officer or Navy register; non-hits are not negative proof."
+    },
+    {
+      "key": "basic-b428",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; fixed-width name, entry-date, grade, branch, record-layout and civilian-occupation fields visually and textually checked",
+      "access_date": "2026-09-06",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only. The documentation warns about incomplete source documentation, alternate layouts and coding limits."
+    },
+    {
+      "key": "codes-b428",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 172, 174 and 304; rendered pages visually inspected for raw values 226, 736, 878 and 992",
+      "access_date": "2026-09-06",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Official historical labels are retained. They identify broad occupation or student categories, not a named employer, school, workplace or relationship to OSS service."
+    },
+    {
+      "key": "washington-post-michael-cleffi-b428",
+      "stable_url": "https://www.legacy.com/us/obituaries/washingtonpost/name/michael-cleffi-obituary?id=5566325",
+      "title": "Michael L. Cleffi obituary",
+      "repository_publisher": "The Washington Post via Legacy.com",
+      "publication_record_date": "2006-06-26 to 2006-06-27",
+      "locator": "Michael L. Cleffi notice; OSS and later government-service sentences",
+      "access_date": "2026-09-06",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Only the short OSS statement needed for identity corroboration is retained. Home-address, family and unrelated personal details are excluded."
+    },
+    {
+      "key": "red-bank-michael-cleffi-b428",
+      "stable_url": "https://www.digifind-it.com/redbank/data/newspapers/register/reg-1878-1969/1948/1948-02-19.pdf",
+      "title": "Red Bank Register, February 19, 1948",
+      "repository_publisher": "Red Bank Register via DigiFind-It newspaper archive",
+      "publication_record_date": "1948-02-19",
+      "locator": "PDF physical page 16; printed page 4; Michael Cleffi death notice",
+      "access_date": "2026-09-06",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Used only to reject a different Michael Cleffi whose 1944 death conflicts with the identifier-matched indexed person's 2006 obituary. Family details are not retained."
+    },
+    {
+      "key": "osu-trustees-gerard-cleisz-b428",
+      "stable_url": "https://trustees.osu.edu/sites/default/files/documents/2018/11/archived_minutes_1940-1943.pdf",
+      "title": "Record of Proceedings of the Board of Trustees of the Ohio State University, 1940-1943",
+      "author_creator": "Board of Trustees of the Ohio State University",
+      "repository_publisher": "The Ohio State University",
+      "publication_record_date": "1940-1943",
+      "locator": "Minutes dated 26 May 1941, printed pages 195-196 (PDF pages 197-198), Romance Languages roster; minutes dated 9 March 1942, printed page 148 (PDF page 461), Changes in Salary",
+      "access_date": "2026-09-06",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Ohio State University Board of Trustees archived minutes",
+      "rights_notes": "Institutional governance records used for the name, department, role, dates and compensation context needed to establish employment; no unrelated personnel data is retained."
+    },
+    {
+      "key": "high-point-gerard-cleisz-b428",
+      "stable_url": "https://library.highpoint.edu/archives/hi-po/1940_50/1959-hi-po-FallSemester.pdf",
+      "title": "The Hi-Po, September 25, 1959",
+      "author_creator": "Students of High Point College",
+      "repository_publisher": "High Point College; High Point University Libraries archive",
+      "publication_record_date": "1959-09-25",
+      "locator": "Volume XXXIV, number 1, PDF page 1; new faculty notice",
+      "access_date": "2026-09-06",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "High Point College student newspaper archive",
+      "rights_notes": "Postwar source used only to corroborate the rare full name and continuing language-teaching occupation. It is not used as evidence of pre-OSS employment."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "ohio-state-university",
+      "canonical_name": "The Ohio State University",
+      "historical_name": "Ohio State University",
+      "aliases": [
+        "Ohio State University",
+        "Ohio State",
+        "OSU",
+        "The Ohio State University"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Columbus",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "active_dates": "1870-present",
+      "normalization_notes": "The historical minutes use Ohio State University. The canonical institutional name is stored separately; no claim is made that every similarly named academic record belongs to the indexed person."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "george-l-clayton-cook-occupation-b428",
+      "person_id": "b76676ac-c0d0-5e16-a9fd-78f6a068f3fd",
+      "occupation": "Cooks, except private family",
+      "relationship_type": "unknown",
+      "date_precision": "The selected Army record carries an 8 May 1942 entry date; actual work dates and the temporal relationship to OSS service are unestablished.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The official civilian-occupation category does not identify an employer, kitchen, establishment, exact role, location or OSS chronology."
+    },
+    {
+      "key": "vernon-h-clear-driver-occupation-b428",
+      "person_id": "2a98d8c4-2887-55a5-91d1-f9565a177708",
+      "occupation": "Chauffeurs and drivers, bus, taxi, truck, and tractor",
+      "relationship_type": "unknown",
+      "date_precision": "The selected Army record carries an 8 April 1943 entry date; actual work dates and the temporal relationship to OSS service are unestablished.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad code does not identify an employer, vehicle, route, exact role, location or OSS chronology."
+    },
+    {
+      "key": "malachy-f-cleary-student-status-b428",
+      "person_id": "1b58c43b-3102-5134-928e-c4f93bc8547b",
+      "occupation": "Students",
+      "relationship_type": "student",
+      "date_precision": "Recorded as the civilian-occupation category at Army entry on 4 January 1944; the school, course, exact study dates and OSS transition are unknown.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Student status is not employment. The official code names no school, degree, employer or immediate OSS predecessor."
+    },
+    {
+      "key": "michael-l-cleffi-machine-shop-occupation-b428",
+      "person_id": "069c5b11-7359-58f5-95c6-6547eaa80397",
+      "occupation": "Machine shop and related occupations, n.e.c.",
+      "relationship_type": "unknown",
+      "date_precision": "The selected alternate-layout Army record carries a 30 November 1942 entry date; actual work dates and the temporal relationship to OSS service are unestablished.",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The residual machine-shop category does not identify an employer, trade, shop, exact role, location or OSS chronology."
+    },
+    {
+      "key": "gerard-p-cleisz-ohio-state-b428",
+      "person_id": "35b048ba-b360-5167-9b82-c3c06aaad2c0",
+      "organization_key": "ohio-state-university",
+      "organization_name_as_found": "Ohio State University",
+      "role_title": "Assistant, Romance Languages",
+      "occupation": "language instruction",
+      "relationship_type": "employment",
+      "date_precision": "Documented on the university's 26 May 1941 personnel roster and in 9 March 1942 salary-change minutes; exact appointment start and end dates are unknown.",
+      "city": "Columbus",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The rare name and later exact middle-initial teaching record support a probable identity, not confirmation. The minutes document paid university employment before OSS but do not establish the OSS-entry date, immediacy or last-civilian status."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-george-l-clayton-b428",
+      "person_id": "b76676ac-c0d0-5e16-a9fd-78f6a068f3fd",
+      "claim_type": "identity",
+      "claim_text": "George L Clayton has a confirmed match to the exact name and private identifier in the official Army merged file.",
+      "evidence_excerpt": "CLAYTON GEORGE L",
+      "evidence_paraphrase": "The exact indexed identifier selects one of five exact-name Army rows and dates Army entry to 8 May 1942.",
+      "identity_match_assessment": "The exact name and exact private identifier distinguish this person from the four other George L Clayton rows.",
+      "temporal_assessment": "The record dates Army entry but does not date OSS service or establish when the recorded occupation was held.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The matched row records Private. An unfamiliar branch abbreviation is preserved but not expanded, and the full identifier remains private.",
+      "sources": [
+        {
+          "source_key": "index-b428",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b428",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "basic-b428",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-george-l-clayton-b428",
+      "person_id": "b76676ac-c0d0-5e16-a9fd-78f6a068f3fd",
+      "affiliation_key": "george-l-clayton-cook-occupation-b428",
+      "claim_type": "occupation",
+      "claim_text": "An official Army-entry record assigns George L Clayton the broad category Cooks, except private family; no employer is identified.",
+      "evidence_excerpt": "Cooks, except private family",
+      "evidence_paraphrase": "The identifier-matched standard-layout Army row carries occupation value 226, decoded on the visually inspected official NARA code page.",
+      "identity_match_assessment": "The exact private identifier selects the indexed person from five exact-name Army candidates.",
+      "temporal_assessment": "The category was recorded at Army entry on 8 May 1942; whether it was his immediate pre-OSS occupation is unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Occupation remains distinct from employer. No employing organization, establishment, exact role or workplace is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b428",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "basic-b428",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; standard-card civilian-occupation field at positions 70-72"
+        },
+        {
+          "source_key": "codes-b428",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 172; code 2-26",
+          "excerpt_override": "Cooks, except private family"
+        }
+      ]
+    },
+    {
+      "key": "identity-vernon-h-clear-b428",
+      "person_id": "2a98d8c4-2887-55a5-91d1-f9565a177708",
+      "claim_type": "identity",
+      "claim_text": "Vernon H Clear has a confirmed match to the exact name and private identifier in the official Army merged file.",
+      "evidence_excerpt": "CLEAR VERNON H",
+      "evidence_paraphrase": "The indexed identifier and exact name select the sole exact-name Army row and date Army entry to 8 April 1943.",
+      "identity_match_assessment": "The exact private identifier and exact name establish the match.",
+      "temporal_assessment": "The record dates Army entry but does not date OSS service or establish when the recorded occupation was held.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The matched row records Private. An unfamiliar branch abbreviation is not expanded, and the full identifier remains private.",
+      "sources": [
+        {
+          "source_key": "index-b428",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b428",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "basic-b428",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-vernon-h-clear-b428",
+      "person_id": "2a98d8c4-2887-55a5-91d1-f9565a177708",
+      "affiliation_key": "vernon-h-clear-driver-occupation-b428",
+      "claim_type": "occupation",
+      "claim_text": "An official Army-entry record assigns Vernon H Clear the broad category Chauffeurs and drivers, bus, taxi, truck, and tractor; no employer is identified.",
+      "evidence_excerpt": "Chauffeurs and drivers, bus, taxi, truck, and tractor",
+      "evidence_paraphrase": "The identifier-matched standard-layout Army row carries occupation value 736, decoded on the visually inspected official NARA code page.",
+      "identity_match_assessment": "The exact private identifier and exact name select the sole exact-name Army row.",
+      "temporal_assessment": "The category was recorded at Army entry on 8 April 1943; whether it was his immediate pre-OSS occupation is unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Occupation remains distinct from employer. The broad transportation category does not establish a vehicle, route, organization or workplace.",
+      "sources": [
+        {
+          "source_key": "army-b428",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "basic-b428",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; standard-card civilian-occupation field at positions 70-72"
+        },
+        {
+          "source_key": "codes-b428",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 174; code 7-36",
+          "excerpt_override": "Chauffeurs and drivers, bus, taxi, truck, and tractor"
+        }
+      ]
+    },
+    {
+      "key": "rejected-joseph-p-cleary-army-candidates-b428",
+      "person_id": "4be4e8dc-5089-5a8d-b46d-68c61b78cc31",
+      "claim_type": "identity",
+      "claim_text": "Five exact-name Joseph P Cleary Army rows remain rejected as matches to the indexed person pending personnel-file evidence.",
+      "evidence_excerpt": "CLEARY JOSEPH P",
+      "evidence_paraphrase": "None of five exact-name Army rows matches the seven-digit indexed value literally, by alphanumeric normalization, by digits alone or by explicit leading-zero padding.",
+      "identity_match_assessment": "A common exact name cannot overcome the identifier conflict; the candidates remain separate.",
+      "temporal_assessment": "The rejected rows cannot establish the indexed person's occupation, Army chronology or pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "low",
+      "publication_status": "rejected",
+      "match_notes": "The source value is preserved exactly and is not padded or silently reclassified. No candidate occupation is transferred.",
+      "sources": [
+        {
+          "source_key": "index-b428",
+          "support_type": "contradicts"
+        },
+        {
+          "source_key": "army-b428",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-malachy-f-cleary-b428",
+      "person_id": "1b58c43b-3102-5134-928e-c4f93bc8547b",
+      "claim_type": "identity",
+      "claim_text": "Malachy F Cleary has a confirmed match to the exact name and private identifier in the official Army merged file.",
+      "evidence_excerpt": "CLEARY MALACHY F",
+      "evidence_paraphrase": "The indexed identifier and exact name select the sole exact-name Army row and date Army entry to 4 January 1944.",
+      "identity_match_assessment": "The exact private identifier and distinctive exact name establish the match.",
+      "temporal_assessment": "The record dates Army entry but does not date OSS service or establish the later assignment sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The matched row records Private. An unfamiliar branch abbreviation is not expanded, and the full identifier remains private.",
+      "sources": [
+        {
+          "source_key": "index-b428",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b428",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "basic-b428",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "student-malachy-f-cleary-b428",
+      "person_id": "1b58c43b-3102-5134-928e-c4f93bc8547b",
+      "affiliation_key": "malachy-f-cleary-student-status-b428",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "At Army entry on 4 January 1944, Malachy F Cleary was recorded in the student category; no school was named.",
+      "evidence_excerpt": "Students",
+      "evidence_paraphrase": "The identifier-matched Army row carries civilian-occupation value 992, and NARA's visually inspected compiled list defines that value as students.",
+      "identity_match_assessment": "The exact private identifier and exact name confirm that the Army record belongs to the indexed person.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; the institution, study dates and relation to later OSS service remain unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Student status is not employment, and no school, course or degree is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b428",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "basic-b428",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; standard-card civilian-occupation field at positions 70-72"
+        },
+        {
+          "source_key": "codes-b428",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 304; code 9 92",
+          "excerpt_override": "Students"
+        }
+      ]
+    },
+    {
+      "key": "identity-michael-l-cleffi-b428",
+      "person_id": "069c5b11-7359-58f5-95c6-6547eaa80397",
+      "claim_type": "identity",
+      "claim_text": "Michael L Cleffi has a confirmed match to the exact name and private identifier in the official Army merged file, independently corroborated by an obituary naming his OSS service.",
+      "evidence_excerpt": "He served in the OSS in Yugoslavia during World War II.",
+      "evidence_paraphrase": "The indexed identifier selects the sole exact-name Army row; a Washington Post obituary for Michael L. Cleffi independently states that he served with OSS in Yugoslavia.",
+      "identity_match_assessment": "The exact private identifier confirms the Army identity, while the rare exact full name and explicit OSS service independently bridge that person to the index.",
+      "temporal_assessment": "The Army record dates entry to 30 November 1942; the obituary establishes wartime OSS service but gives no transfer date or pre-service employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The Army row records Private and uses an alternate layout. The full identifier remains private, and postwar career detail is not modeled as pre-OSS evidence.",
+      "sources": [
+        {
+          "source_key": "index-b428",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b428",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "basic-b428",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "washington-post-michael-cleffi-b428",
+          "support_type": "supports",
+          "excerpt_override": "He served in the OSS in Yugoslavia during World War II."
+        }
+      ]
+    },
+    {
+      "key": "occupation-michael-l-cleffi-b428",
+      "person_id": "069c5b11-7359-58f5-95c6-6547eaa80397",
+      "affiliation_key": "michael-l-cleffi-machine-shop-occupation-b428",
+      "claim_type": "occupation",
+      "claim_text": "An official Army-entry record assigns Michael L Cleffi the broad category Machine shop and related occupations, n.e.c.; no employer is identified.",
+      "evidence_excerpt": "Machine shop and related occupations, n.e.c.",
+      "evidence_paraphrase": "The identifier-matched alternate-layout Army row carries occupation value 878, decoded on the visually inspected official NARA code page.",
+      "identity_match_assessment": "The exact private identifier and exact name select the sole exact-name Army row; the obituary independently corroborates OSS identity.",
+      "temporal_assessment": "The category was recorded at Army entry on 30 November 1942; whether it was his immediate pre-OSS occupation is unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Occupation remains distinct from employer. The residual category does not identify an exact trade, employing organization or workplace.",
+      "sources": [
+        {
+          "source_key": "army-b428",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "basic-b428",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; alternate-layout civilian-occupation field at positions 71-73"
+        },
+        {
+          "source_key": "codes-b428",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 174; code 8-78",
+          "excerpt_override": "Machine shop and related occupations, n.e.c."
+        }
+      ]
+    },
+    {
+      "key": "rejected-michael-cleffi-normandy-namesake-b428",
+      "person_id": "069c5b11-7359-58f5-95c6-6547eaa80397",
+      "claim_type": "identity",
+      "claim_text": "The Michael Cleffi reported killed in Normandy in 1944 is rejected as a different person from the indexed Michael L Cleffi.",
+      "evidence_excerpt": "Michael Cleffi, 32 ... killed in the invasion of Normandy, July 28, 1944.",
+      "evidence_paraphrase": "A 1948 New Jersey death notice describes a Michael Cleffi who died in 1944, while the exact-middle-initial OSS veteran's obituary records his death in 2006.",
+      "identity_match_assessment": "The death-date conflict and absence of the indexed middle initial rule out the newspaper namesake.",
+      "temporal_assessment": "The rejected 1944 casualty notice cannot establish the indexed person's occupation or pre-OSS affiliation.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "low",
+      "publication_status": "rejected",
+      "match_notes": "No unit, occupation or family detail from the rejected namesake is transferred to the indexed person.",
+      "sources": [
+        {
+          "source_key": "red-bank-michael-cleffi-b428",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "washington-post-michael-cleffi-b428",
+          "support_type": "contradicts"
+        }
+      ]
+    },
+    {
+      "key": "identity-gerard-p-cleisz-b428",
+      "person_id": "35b048ba-b360-5167-9b82-c3c06aaad2c0",
+      "claim_type": "identity",
+      "claim_text": "Institutional records support a probable match between the indexed Gerard P Cleisz and the rare-name language instructor documented before and after the war.",
+      "evidence_excerpt": "New additions to the faculty include Dr. Gerard P. Cleisz, Language",
+      "evidence_paraphrase": "Ohio State records list Gerard Cleisz in Romance Languages in 1941-1942; a 1959 institutional newspaper identifies Dr. Gerard P. Cleisz as language faculty.",
+      "identity_match_assessment": "The rare surname, exact given name, indexed middle initial reproduced in the later institutional record and consistent language-teaching occupation support probable identity; no direct OSS identifier confirms it.",
+      "temporal_assessment": "The Ohio State records are prewar and the High Point record is postwar identity context; neither dates OSS entry.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Probable rather than high confidence is retained because no service identifier, personnel-file linkage or explicit source joins the Ohio State instructor to OSS.",
+      "sources": [
+        {
+          "source_key": "index-b428",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "osu-trustees-gerard-cleisz-b428",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "high-point-gerard-cleisz-b428",
+          "support_type": "supports",
+          "excerpt_override": "New additions to the faculty include Dr. Gerard P. Cleisz, Language"
+        }
+      ]
+    },
+    {
+      "key": "prewar-ohio-state-gerard-p-cleisz-b428",
+      "person_id": "35b048ba-b360-5167-9b82-c3c06aaad2c0",
+      "affiliation_key": "gerard-p-cleisz-ohio-state-b428",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A probable identity match documents Gerard P Cleisz as a paid assistant in Ohio State University's Romance Languages department in 1941 and 1942.",
+      "evidence_excerpt": "Gerard Cleisz Assistant Wi. Qr. only 900.00 1,350.00",
+      "evidence_paraphrase": "The trustees' 1941 personnel roster places Gerard Cleisz under Romance Languages, and March 1942 minutes record his assistant salary change for the winter quarter.",
+      "identity_match_assessment": "The rare-name, middle-initial and occupational-continuity evidence supports probable identity but lacks a direct personnel-file or service-number bridge.",
+      "temporal_assessment": "The affiliation is directly documented before OSS, but the records do not establish that it was immediately before OSS or the last civilian employer before wartime service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published with visible qualification and excluded from default employer analytics because identity remains probable. No start date, end date or OSS-transition date is inferred.",
+      "sources": [
+        {
+          "source_key": "osu-trustees-gerard-cleisz-b428",
+          "support_type": "supports",
+          "locator_override": "26 May 1941, printed pages 195-196; 9 March 1942, printed page 148"
+        },
+        {
+          "source_key": "high-point-gerard-cleisz-b428",
+          "support_type": "context_only"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "3e7906f8-9da0-5ffa-925c-9f37e99b4735",
+      "identity_status": "unresolved",
+      "identity_evidence": "The complete Army file contains no exact-name Charlotte Clayton row, and exact-name OSS, CIA, employment, obituary, institutional, newspaper, directory and archival searches produced no reliable identity bridge.",
+      "name_variants": [
+        "Charlotte Clayton"
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 128 for Charlotte Clayton's middle name, identifiers, occupation, employer and OSS assignment.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b76676ac-c0d0-5e16-a9fd-78f6a068f3fd",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier and exact name select one official Army record among five exact-name George L Clayton rows.",
+      "name_variants": [
+        "George L Clayton",
+        "George L. Clayton"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 128 for George L Clayton's employer, exact cooking role, Army branch and OSS chronology.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2a98d8c4-2887-55a5-91d1-f9565a177708",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier and exact name select the sole Vernon H Clear row in the official Army merged file.",
+      "name_variants": [
+        "Vernon H Clear",
+        "Vernon H. Clear"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 128 for Vernon H Clear's employer, exact driving role, Army branch and OSS chronology.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5ebfb18e-6149-5fed-be21-47991c6daf52",
+      "identity_status": "unresolved",
+      "identity_evidence": "The complete Army file contains no exact-name Zola A Clear row, and exact-name OSS, CIA, employment, obituary, institutional, newspaper, directory and archival searches produced no reliable identity bridge.",
+      "name_variants": [
+        "Zola A Clear",
+        "Zola A. Clear"
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 128 for Zola A Clear's identity, name variants, occupation, employer and OSS assignment.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "4be4e8dc-5089-5a8d-b46d-68c61b78cc31",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Five exact-name Joseph P Cleary Army rows carry other identifiers. None matches the seven-digit indexed value literally, after alphanumeric or digit normalization, or after explicit leading-zero padding.",
+      "name_variants": [
+        "Joseph P Cleary",
+        "Joseph P. Cleary"
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 128 to determine Joseph P Cleary's identifier system, wartime identity, occupation and OSS assignment.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "1b58c43b-3102-5134-928e-c4f93bc8547b",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier and distinctive exact name select the sole Malachy F Cleary row in the official Army merged file.",
+      "name_variants": [
+        "Malachy F Cleary",
+        "Malachy F. Cleary"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 128 to identify Malachy F Cleary's school, any employer, Army branch and OSS chronology.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e7f29d6e-1b46-53aa-9436-73eba069ef8f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The complete Army file contains no exact-name Alice B Cleaveland row, and exact-name plus cautious spelling-variant OSS, CIA, employment, obituary, institutional, newspaper, directory and archival searches produced no reliable identity bridge.",
+      "name_variants": [
+        "Alice B Cleaveland",
+        "Alice B. Cleaveland"
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 128 for Alice B Cleaveland's identity, spelling variants, occupation, employer and OSS assignment.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "43fd883f-9fad-55bc-a3f1-75aeef606fd6",
+      "identity_status": "unresolved",
+      "identity_evidence": "The complete Army file contains no exact-name Dewey Cleek row, and exact-name OSS, CIA, employment, obituary, institutional, newspaper, directory and archival searches produced no reliable identity bridge.",
+      "name_variants": [
+        "Dewey Cleek"
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 128 for Dewey Cleek's middle name, identifiers, occupation, employer and OSS assignment.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "069c5b11-7359-58f5-95c6-6547eaa80397",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier and exact name select the sole official Army row; a Washington Post obituary for Michael L. Cleffi independently states that he served in OSS in Yugoslavia.",
+      "name_variants": [
+        "Michael L Cleffi",
+        "Michael L. Cleffi"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 128 for Michael L Cleffi's employer, exact machine-shop role, Army-to-OSS chronology and Yugoslavia assignment details.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "35b048ba-b360-5167-9b82-c3c06aaad2c0",
+      "identity_status": "probable",
+      "identity_evidence": "Ohio State records document the rare-name Gerard Cleisz in Romance Languages in 1941-1942, while a 1959 institutional newspaper supplies the exact indexed middle initial and the same language-teaching occupation. No direct identifier or OSS linkage confirms the match.",
+      "name_variants": [
+        "Gerard P Cleisz",
+        "Gerard P. Cleisz",
+        "Gerard Cleisz"
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 128 to confirm Gerard P Cleisz's identity, OSS-entry date, Ohio State end date, immediate predecessor and last civilian employer.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b428-person-charlotte-clayton-review",
+      "person_id": "3e7906f8-9da0-5ffa-925c-9f37e99b4735",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 83 and complete Army bulk comparison; exact-name and likely initial variants; OSS/CIA, employer, occupation, obituary, institutional, Library of Congress newspaper, directory and archival checks.",
+      "query_variant_type": "staged_common_name_incomplete_identity_oss_official_employment_disambiguation",
+      "started_at": "2026-09-06T05:16:00Z",
+      "completed_at": "2026-09-06T05:48:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "No exact-name Army row exists. Numerous obituary, directory and newspaper namesakes lack a middle name, indexed identifier, Box 128 link or OSS assignment.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Establish the indexed person's full identity and civilian history from Box 128.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch428-v1"
+    },
+    {
+      "key": "b428-person-george-l-clayton-review",
+      "person_id": "b76676ac-c0d0-5e16-a9fd-78f6a068f3fd",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 83 and complete Army bulk comparison; private-identifier disambiguation among five exact-name rows; official layout and occupation-code review; exact-name OSS/CIA, employer, occupation, obituary, institutional, Library of Congress newspaper, directory and archival checks.",
+      "query_variant_type": "staged_common_name_identifier_oss_official_employment_disambiguation",
+      "started_at": "2026-09-06T05:17:00Z",
+      "completed_at": "2026-09-06T05:48:30Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "Four other exact-name Army rows carry different identifiers; cemetery, obituary, directory and newspaper namesakes lack the exact identifier and OSS bridge; no source names an employer.",
+      "research_notes": "The broad cook category is published with uncertain timing. No exact role, employer, establishment or immediate predecessor was found.",
+      "next_action": "Identify the employing organization, exact role, Army branch and OSS chronology from Box 128.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch428-v1"
+    },
+    {
+      "key": "b428-person-vernon-h-clear-review",
+      "person_id": "2a98d8c4-2887-55a5-91d1-f9565a177708",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 83 and complete Army bulk comparison; exact private-identifier match; official layout and occupation-code review; exact-name OSS/CIA, employer, driving occupation, obituary, institutional, Library of Congress newspaper, directory and archival checks.",
+      "query_variant_type": "staged_identifier_oss_official_employment_institutional_disambiguation",
+      "started_at": "2026-09-06T05:18:00Z",
+      "completed_at": "2026-09-06T05:49:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Obituary, directory and newspaper namesakes lack the exact private identifier or OSS bridge; no reviewed source names an employer, vehicle or route.",
+      "research_notes": "The broad chauffeur and driver category is published with uncertain timing. No employing organization or immediate predecessor was found.",
+      "next_action": "Identify the employing organization, exact driving role, Army branch and OSS chronology from Box 128.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch428-v1"
+    },
+    {
+      "key": "b428-person-zola-a-clear-review",
+      "person_id": "5ebfb18e-6149-5fed-be21-47991c6daf52",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 83 and complete Army bulk comparison; exact-name and punctuation variants; OSS/CIA, employer, occupation, obituary, institutional, Library of Congress newspaper, directory and archival checks.",
+      "query_variant_type": "staged_distinctive_name_incomplete_identity_oss_official_employment_disambiguation",
+      "started_at": "2026-09-06T05:19:00Z",
+      "completed_at": "2026-09-06T05:49:30Z",
+      "outcome": "no_result",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "No exact-name Army row exists. Similar and family-history names lack a wartime identifier, Box 128 link or OSS assignment.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Establish identity, possible variants and civilian history from Box 128.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch428-v1"
+    },
+    {
+      "key": "b428-person-joseph-p-cleary-review",
+      "person_id": "4be4e8dc-5089-5a8d-b46d-68c61b78cc31",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 83 and complete Army bulk comparison; seven-digit identifier review without silent padding; five exact-name candidate comparisons; exact-name OSS/CIA, employer, occupation, obituary, institutional, Library of Congress newspaper, directory and archival checks.",
+      "query_variant_type": "staged_common_name_nonstandard_identifier_oss_official_employment_disambiguation",
+      "started_at": "2026-09-06T05:20:00Z",
+      "completed_at": "2026-09-06T05:50:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 12,
+      "rejection_reasons": "None of five exact-name Army rows matches the indexed value literally, alphanumerically, by digits or by leading-zero padding. Numerous namesakes lack an identifier and OSS bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The index value remains unchanged and no Army occupation is transferred.",
+      "next_action": "Reconcile the identifier system and establish wartime identity from Box 128.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch428-v1"
+    },
+    {
+      "key": "b428-person-malachy-f-cleary-review",
+      "person_id": "1b58c43b-3102-5134-928e-c4f93bc8547b",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 84 and complete Army bulk comparison; exact private-identifier match; official layout and student-code review; exact-name OSS/CIA, school, employer, occupation, obituary, institutional, Library of Congress newspaper, directory and archival checks.",
+      "query_variant_type": "staged_distinctive_name_identifier_oss_official_student_employment_disambiguation",
+      "started_at": "2026-09-06T05:21:00Z",
+      "completed_at": "2026-09-06T05:50:30Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Later obituary and directory candidates do not expose the private identifier or a sufficient OSS bridge; no reviewed source names the school or an employer.",
+      "research_notes": "Student status at Army entry is published separately from employment. No school, employer or immediate predecessor was found.",
+      "next_action": "Identify the school, any employer, Army branch and OSS chronology from Box 128.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch428-v1"
+    },
+    {
+      "key": "b428-person-alice-b-cleaveland-review",
+      "person_id": "e7f29d6e-1b46-53aa-9436-73eba069ef8f",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 84 and complete Army bulk comparison; exact printed spelling and cautious Cleveland variant searches; OSS/CIA, employer, occupation, obituary, institutional, Library of Congress newspaper, directory and archival checks.",
+      "query_variant_type": "staged_rare_spelling_incomplete_identity_oss_official_employment_disambiguation",
+      "started_at": "2026-09-06T05:22:00Z",
+      "completed_at": "2026-09-06T05:51:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "No exact-name Army row exists. An older Alice Cleaveland and Cleveland-spelling namesakes lack compatible wartime chronology, identifiers or an OSS bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The printed Cleaveland spelling is preserved; Cleveland was used only as a search alias.",
+      "next_action": "Establish identity, spelling variants and civilian history from Box 128.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch428-v1"
+    },
+    {
+      "key": "b428-person-dewey-cleek-review",
+      "person_id": "43fd883f-9fad-55bc-a3f1-75aeef606fd6",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 84 and complete Army bulk comparison; exact-name and possible middle-initial variants; OSS/CIA, employer, occupation, obituary, institutional, Library of Congress newspaper, directory and archival checks.",
+      "query_variant_type": "staged_distinctive_name_incomplete_identity_oss_official_employment_disambiguation",
+      "started_at": "2026-09-06T05:23:00Z",
+      "completed_at": "2026-09-06T05:51:30Z",
+      "outcome": "no_result",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "No exact-name Army row exists. Genealogy, cemetery, obituary and directory candidates lack documentary OSS evidence, an indexed identifier or other corroborating wartime details.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Establish the indexed person's full identity and civilian history from Box 128.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch428-v1"
+    },
+    {
+      "key": "b428-person-michael-l-cleffi-review",
+      "person_id": "069c5b11-7359-58f5-95c6-6547eaa80397",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 84 and complete Army bulk comparison; exact private-identifier match and alternate-layout review; Washington Post obituary; exact-name OSS/CIA, Yugoslavia, employer, occupation, obituary, institutional, Library of Congress newspaper, directory and archival checks.",
+      "query_variant_type": "staged_rare_name_identifier_oss_official_employment_disambiguation",
+      "started_at": "2026-09-06T05:24:00Z",
+      "completed_at": "2026-09-06T05:52:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "A New Jersey Michael Cleffi killed in 1944 is a different person. Other directory and family-history results lack the exact identifier. No source names a pre-Army employer.",
+      "research_notes": "The obituary independently corroborates OSS service in Yugoslavia. The broad machine-shop occupation is published with uncertain timing; no employer is inferred.",
+      "next_action": "Identify the employing organization, exact occupation, Army-to-OSS sequence and Yugoslavia assignment from Box 128.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch428-v1"
+    },
+    {
+      "key": "b428-person-gerard-p-cleisz-review",
+      "person_id": "35b048ba-b360-5167-9b82-c3c06aaad2c0",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 84; Ohio State University trustees' minutes for 1941-1942; High Point College 1959 institutional newspaper; exact-name OSS/CIA, employer, language faculty, obituary, institutional, Library of Congress newspaper, directory and archival checks.",
+      "query_variant_type": "staged_rare_name_institutional_prewar_employment_identity_disambiguation",
+      "started_at": "2026-09-06T05:25:00Z",
+      "completed_at": "2026-09-06T05:53:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Postwar Oregon, Texas, High Point and Sacramento records help trace occupation but do not independently establish OSS identity or pre-OSS immediacy. Search snippets and name-only genealogy were not used as evidence.",
+      "research_notes": "A probable identity and medium-confidence documented prewar employment at Ohio State are published with qualification. The claim is excluded from default analytics pending a direct OSS identity bridge.",
+      "next_action": "Confirm identity, Ohio State end date, OSS-entry timing and last civilian employer through Box 128.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch428-v1"
+    }
+  ]
+}

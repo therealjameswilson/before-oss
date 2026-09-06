@@ -1,6 +1,6 @@
 # Batch 427 release verification
 
-2026-09-05 UTC. **Local release candidate.** This report covers ten source
+2026-09-05 UTC. **Released and pinned-live verified.** This report covers ten source
 records on PDF page 83 rows 32-41, Gladys Claunch through Lee H Clayman, all
 in Box 128 at location 230/86/28/07.
 
@@ -141,17 +141,34 @@ organization profile, and the Batch 398 phone search stalled after loading the
 6.3 MB search index but before completing its filter. Both scenarios passed in
 the other layouts during the matrix. Their unchanged exact rerun then passed
 across desktop, phone and tablet, 6/6 in 5.9 seconds. No Batch 427 scenario or
-historical-evidence assertion failed. Consecutive Pages-configuration builds
-are byte-identical. Independent GitHub testing, merge, deployment and pinned
-live verification remain pending.
+historical-evidence assertion failed. Both Pages-configuration builds
+completed cleanly, but a Batch 428 audit found that the shell helper used for
+their aggregate tree comparison hashed only the sorted path list after a Perl
+capture was overwritten. Byte identity is therefore not claimed for those two
+local Batch 427 builds. The public manifest remained content-aware and the
+live verifier independently checked every manifested asset by size and
+SHA-256. Independent Test `34013376436` passed against exact source
+commit `7afb186dc480c5717366352e751b25edbbb978f0` in 43 minutes 35 seconds.
+Pull request 184 merged at 2026-09-06 05:57:58 UTC as merge commit
+`d12503e965e29eba37aad2c18fec920b61c0a5bc`. Pages `34015278276` passed
+(build 1 minute 10 seconds; deploy 13 seconds). Pinned live verification
+recovered all 67 manifest assets totaling 84,828,475 bytes, matched manifest
+SHA-256 `0dd995f3874c6eade96c19c6c18bc03150f454cedc67429e93c3698c8c242435`,
+confirmed the exact source commit, and passed seven core routes plus all ten
+direct cohort profiles at
+`https://therealjameswilson.github.io/before-oss/`. The supplementary
+merge-triggered Test `34015278270` also passed against the merge commit in
+34 minutes 27 seconds.
 
 Current manifest: 67 assets / 84,828,475 bytes; SHA-256
 `0dd995f3874c6eade96c19c6c18bc03150f454cedc67429e93c3698c8c242435`.
-Public tree: 70 files, SHA-256
+Legacy public-tree path-list fingerprint: 70 files, SHA-256
 `77afd79d3e65e1d425dd5a9a463f44174b9c9a444f952a41280fbfcfb63ef6c0`.
-Consecutive Pages-configuration production trees: 24,537 files, SHA-256
+Legacy production-tree path-list fingerprint: 24,537 files, SHA-256
 `60d6497b1eb45973f48d94369d6e8db4beff32c2db3e5a2109f4ed876ab30f7a`.
-Tree digests use sorted relative paths, NUL separators and binary file hashes.
+These two legacy aggregate values do not include file-content hashes and are
+retained only to make the correction auditable. Batch 428 adds a tested
+content-aware replacement.
 
 ```sh
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eighty-three-gladys-claunch-through-lee-clayman-pathways_batch-427_2026-09-05.json

@@ -45,6 +45,7 @@ coverage.
 - `site/`: Astro + TypeScript static site and redacted public data
 - `tests/`: parser, normalization, adapter, and redaction tests
 - `scripts/audit_public_identifiers.py`: aggregate-only full-identifier audit
+- `scripts/hash_tree.py`: deterministic path-and-content digest for release trees
   for the generated static site and compressed mirrors
 - `reports/`: reproducible QA and coverage reports
 

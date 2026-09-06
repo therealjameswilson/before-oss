@@ -1,8 +1,28 @@
 # Link check
 
-Run: 2026-09-05 UTC
+Run: 2026-09-06 UTC
 
-## Batch 427 local release candidate
+## Batch 428 local release candidate
+
+All internal targets resolve across 24,465 HTML pages; 49,613 external URLs are
+inventoried, not all visited. Identifier checks cover all 24,537 artifacts,
+12,926 normalized identifiers, 120 formatted variants and 1,079 candidate
+substring coincidences with zero unexpected boundary, aggregate or manifest-
+size matches. Five cohort identifier patterns have zero boundary matches in
+the tracked Batch 428 evidence bundle. Manifest: 67 assets / 84,913,502 bytes;
+SHA-256
+`cb3b2bbf555eef26eb715eed5ecff04bae0d3b5b5bf7759e97473e70069ca0ed`.
+The tested content-aware digest covers the 70-file, 87,260,634-byte public tree
+at SHA-256
+`b289167ffc3020b7397dea58d26e9007d17933eed761892a29c2518903e24caf`
+and two consecutive 24,537-file, 271,425,952-byte production trees at SHA-256
+`e05d66695232d18432c4d10bff7c8d1cbed7672031dafac0ddb5bb8eb94c71ad`.
+All eight distinct Batch 428 citation destinations returned HTTP 200. No
+authenticated Catalog request or access-control bypass was used. Independent
+GitHub testing, deployment and pinned live verification remain pending; see
+`reports/release_batch_428.md`.
+
+## Batch 427 release
 
 All internal targets resolve across 24,465 HTML pages; 49,610 external URLs
 are inventoried, not all visited. Identifier checks cover all 24,537 artifacts,
@@ -12,17 +32,24 @@ size matches. A separate cohort-value scan finds zero full private identifiers
 in the tracked Batch 427 evidence bundle. Manifest: 67 assets / 84,828,475
 bytes; SHA-256
 `0dd995f3874c6eade96c19c6c18bc03150f454cedc67429e93c3698c8c242435`.
-The full replay from the frozen PDF reproduced the 70-file public tree at
-SHA-256
+The full replay from the frozen PDF reproduced the 70-file public tree. The
+following legacy path-list fingerprint was originally mislabeled as a
+content-aware SHA-256:
 `77afd79d3e65e1d425dd5a9a463f44174b9c9a444f952a41280fbfcfb63ef6c0`.
-Consecutive 24,537-file Pages-configuration production trees match at SHA-256
+The corresponding 24,537-file production path-list fingerprint was
 `60d6497b1eb45973f48d94369d6e8db4beff32c2db3e5a2109f4ed876ab30f7a`.
+These values do not establish byte identity; Batch 428 replaces the faulty
+shell helper with a tested content-aware digest. The 67-asset public manifest
+remained content-aware and passed independent live size-and-hash verification.
 Seven of eight distinct Batch 427 citation destinations returned HTTP 200.
 Rochester Public Library returned HTTP 403 to the generic automated HEAD
 request after the document had been visually reviewed; no access control was
-bypassed. No authenticated Catalog request was used. Independent GitHub
-testing, deployment and pinned live verification remain pending; see
-`reports/release_batch_427.md`.
+bypassed. No authenticated Catalog request was used. Independent Test
+`34013376436`, PR 184 and Pages `34015278276` passed. Pinned verification
+against `7afb186dc480c5717366352e751b25edbbb978f0` matched all 67 assets /
+84,828,475 bytes, seven core routes and ten direct cohort profiles. The
+supplementary merge-triggered Test `34015278270` also passed in 34 minutes 27
+seconds; see `reports/release_batch_427.md`.
 
 ## Batch 426 release
 

@@ -1,10 +1,35 @@
 # Research status
 
-Verified against the current local SQLite database on 2026-09-05 UTC.
+Verified against the current local SQLite database on 2026-09-06 UTC.
 
-Batch 427 is a local release candidate. It adds ten saved individual outcomes
-across PDF page 83 rows 32-41, Gladys Claunch through Lee H Clayman, all in Box
-128. Exact private-identifier matches support confirmed enlisted Army
+Batch 428 is a local release candidate. It adds ten saved individual outcomes
+across PDF page 83 rows 42-46 and page 84 rows 1-5, Charlotte Clayton through
+Gerard P Cleisz, all in Box 128. Exact private-identifier matches support
+confirmed enlisted Army identities for George L Clayton, Vernon H Clear,
+Malachy F Cleary and Michael L Cleffi. Their qualified entry observations are,
+respectively, cooks except private family; chauffeurs and drivers; students;
+and machine-shop and related occupations not elsewhere classified. None names
+an employer or proves immediate pre-OSS chronology, and student status remains
+separate from employment. An obituary corroborates Michael's OSS identity;
+an incompatible 1944 casualty namesake is rejected. Ohio State's official
+minutes support probable-identity Gerard Cleisz as a paid Romance Languages
+assistant in 1941-1942. That claim remains medium-confidence documented-prewar
+employment, is neither immediate nor last civilian, and is excluded from
+default analytics. Joseph P Cleary's seven-digit index value matches none of
+five exact-name Army rows and is not silently padded. Charlotte Clayton, Zola
+A Clear, Alice B Cleaveland and Dewey Cleek remain unresolved. Full replay,
+coverage, profile, link, identifier, focused browser and dependency checks
+pass. The complete 2,028-case browser/accessibility matrix produced 2,026
+passes and two browser-session timeouts; both unchanged scenarios then passed
+across all three layouts, 6/6. Two clean Pages-configuration builds match under
+the corrected content-aware digest. Independent GitHub release checks remain
+pending. See
+`reports/release_batch_428.md` and
+`research/batch-428-discovery-checkpoint.md`.
+
+Batch 427 is released and pinned-live verified. It adds ten saved individual
+outcomes across PDF page 83 rows 32-41, Gladys Claunch through Lee H Clayman,
+all in Box 128. Exact private-identifier matches support confirmed enlisted Army
 identities for Gladys Claunch and Kenneth E Clawson. Their qualified Army-entry
 categories are `Clerks, general office` and `Clerks and kindred occupations,
 n.e.c.` Neither identifies an employer or proves immediate pre-OSS chronology.
@@ -17,11 +42,14 @@ unmerged or rejected name-only candidates; Paul Clavecilla, Donald M Clawson
 and Jeff Clay III remain unresolved. No candidate occupation or military unit
 is transferred by name alone. Evidence import is idempotent; the full replay,
 90 Python tests, generated coverage, profile audit, link and identifier audits,
-public projection, and consecutive production builds pass. The complete
+public projection and local site builds pass. A later audit found that the
+legacy aggregate shell helper hashed paths but not contents; Batch 428 replaces
+it with a tested content-aware digest. The complete
 2,016-case browser/accessibility matrix produced 2,014 passes and two legacy
 browser-resource timeouts; both unchanged scenarios then passed across all
-three layouts, 6/6. Independent GitHub testing, release and live-deployment
-verification remain pending. See `reports/release_batch_427.md` and
+three layouts, 6/6. Independent Test `34013376436`, PR 184, Pages
+`34015278276`, pinned verification of all 67 manifest assets and the
+merge-triggered Test `34015278270` passed. See `reports/release_batch_427.md` and
 `research/batch-427-discovery-checkpoint.md`.
 
 Batch 426 is released and pinned-live verified. It adds ten saved
