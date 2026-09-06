@@ -1,8 +1,21 @@
 # Accessibility and responsive QA
 
-Run: 2026-09-05 UTC
+Run: 2026-09-06 UTC
 
 ## Result
+
+Batch 428: the complete 2,028-case local browser/accessibility matrix produced
+2,026 passes and two browser-session timeouts in 55.6 minutes with retries
+disabled. A Batch 162 desktop profile lost its browser session and a Batch 400
+tablet scenario timed out while creating its page. Both passed in the other
+layouts during the matrix, and their unchanged exact rerun passed across
+desktop, phone and tablet, 6/6 in 6.5 seconds. No Batch 428 scenario or
+historical-evidence assertion failed. Twelve focused Batch 428 checks pass
+across all three layouts in 14.4 seconds. Consecutive Pages-configuration
+builds are content-identical and report zero Astro errors, warnings or hints.
+A release-audit repair replaces a legacy path-only aggregate fingerprint with
+a tested, content-aware deterministic-tree digest; see
+`reports/release_batch_428.md`.
 
 Batch 427: the complete 2,016-case local browser/accessibility matrix produced
 2,014 passes and two browser-resource timeouts in 54.4 minutes with retries
@@ -14,9 +27,12 @@ desktop, phone and tablet, 6/6 in 5.9 seconds. No Batch 427 scenario or
 historical-evidence assertion failed. Fifteen focused Batch 427 checks pass
 across all three layouts in 15.1 seconds after one test-only field-label
 expectation was corrected; no evidence or application behavior changed.
-Consecutive Pages-configuration builds match and report zero Astro errors,
-warnings or hints. Independent release verification remains pending; see
-`reports/release_batch_427.md`.
+Both Pages-configuration builds report zero Astro errors, warnings or hints.
+The legacy aggregate comparison did not prove content identity; Batch 428
+replaces it with a tested path-and-content digest. Independent Test
+`34013376436`, PR 184, Pages
+`34015278276`, pinned live verification and the supplementary merge-triggered
+Test `34015278270` subsequently passed; see `reports/release_batch_427.md`.
 
 Batch 426: the complete 2,001-case local browser/accessibility matrix produced
 1,992 passes and nine browser-resource timeouts in 1.7 hours with retries
