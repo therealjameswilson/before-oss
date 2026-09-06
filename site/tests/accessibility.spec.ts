@@ -32,6 +32,10 @@ for (const route of [
     }
     const results = await new AxeBuilder({ page })
       .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
+      // The public Sources page contains thousands of citation entries. Return
+      // only violations so axe does not serialize every passing/inapplicable
+      // node back through the browser protocol on constrained mobile runs.
+      .options({ resultTypes: ["violations"] })
       .analyze();
     expect(
       results.violations.filter((item) =>

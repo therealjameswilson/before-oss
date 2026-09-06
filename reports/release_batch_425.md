@@ -1,6 +1,6 @@
 # Batch 425 release verification
 
-2026-09-05 UTC. **Local release candidate.** This report covers ten source
+2026-09-05 UTC. **Released and pinned-live verified.** This report covers ten source
 records on PDF page 83 rows 12-21, Thomas B Clark through Josephine Clarke,
 all in Box 127 at location 230/86/28/07.
 
@@ -130,9 +130,7 @@ disabled. Batches 022, 175 and 331 each stalled while waiting for a profile;
 all passed in another viewport during the matrix, and all three exact scenarios
 then passed across desktop, phone and tablet, 9/9 in 10.3 seconds. No Batch 425
 test failed. Consecutive Pages-configuration builds reproduced byte-identical
-public and production trees. The clean independent GitHub Test, merge, Pages
-deployment and pinned live verification remain required before this candidate
-is a release.
+public and production trees.
 
 Final manifest: 67 assets / 84,736,826 bytes; SHA-256
 `44f14caa66a23a4484e73fea079b5fdb2237c366cba9f2896ed1baaed4942cce`.
@@ -141,6 +139,18 @@ Public tree: 70 files, SHA-256
 Consecutive Pages-configuration production trees: 24,536 files, SHA-256
 `afa6cae72a765ab312e23442db8b28466b62a8afe90a165d65a46360b68d82e1`.
 Tree digests use sorted relative paths and binary file hashes.
+
+## Publication verification
+
+Independent PR Test `33989727271` passed in 41 minutes 35 seconds against
+source commit `66e9b0497e1475fff8e2047652cddab14ceed441`. PR 182 merged on
+2026-09-05 as `edcd45faf6682f343f5aa1d0f5890135ecd80f77`. Pages run
+`33992396552` passed, including a 1 minute 7 second build and 16 second deploy.
+Pinned verification against the exact source commit matched all 67 manifest
+assets totaling 84,736,826 bytes, the manifest SHA-256 above, seven core routes
+and ten direct cohort profiles. The supplementary merge-triggered Test
+`33992396479` also passed in 42 minutes 11 seconds. The public site is
+https://therealjameswilson.github.io/before-oss/.
 
 ```sh
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eighty-three-thomas-clark-through-josephine-clarke-pathways_batch-425_2026-09-05.json
@@ -154,8 +164,8 @@ npm run test:e2e
 npm run check:links
 ```
 
-Full replay: `bash scripts/rebuild-all.sh`. The goal remains active and
-incomplete, with 19,910 active people still `not_started`. Rotate the
+Full replay: `bash scripts/rebuild-all.sh`. At this release, the goal remained
+active and incomplete, with 19,910 active people still `not_started`. Rotate the
 previously exposed credential before authenticated NARA work; public-source
 research is not blocked. Unresolved methodological issues remain: automated
 profile audit is structural rather than independent historical validation,

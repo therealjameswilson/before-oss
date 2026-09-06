@@ -4,6 +4,21 @@ Run: 2026-09-05 UTC
 
 ## Result
 
+Batch 426: the complete 2,001-case local browser/accessibility matrix produced
+1,992 passes and nine browser-resource timeouts in 1.7 hours with retries
+disabled. Seven affected legacy scenarios, one Sources-page audit and one
+Batch 426 scenario timed out; no evidence assertion failed. In the first exact
+rerun, all eight non-Sources scenarios passed across desktop, phone and tablet,
+24/24, while Sources passed on desktop and tablet but timed out again on phone.
+Trace inspection showed that axe completed page loading without network or
+console errors and stalled while returning every passing and inapplicable node
+from the 2,747-entry citation list. The audit now returns violations only while
+retaining the same WCAG tag set and serious/critical assertion. The full 27-
+check accessibility route set and all fifteen Batch 426 checks then passed
+across all three layouts, 42/42 in 90 seconds. Consecutive Pages-configuration
+builds match and report zero Astro errors, warnings or hints. See
+`reports/release_batch_426.md`.
+
 Batch 425: the complete 1,986-case local browser/accessibility matrix produced
 1,983 passes and three legacy browser-resource failures in 58.4 minutes with
 retries disabled. Batches 022, 175 and 331 stalled waiting for profiles; each
@@ -13,7 +28,9 @@ failed. Fifteen focused Batch 425 checks pass across all three layouts in 14.4
 seconds after correcting test-only assumptions about a private note and a
 public field label; no evidence or application behavior changed. Consecutive
 Pages-configuration builds match and report zero Astro errors, warnings or
-hints. Independent GitHub testing and release verification remain pending; see
+hints. Independent PR Test `33989727271`, PR 182, Pages `33992396552` and
+pinned live verification subsequently passed. The supplementary merge-triggered
+Test `33992396479` also passed in 42 minutes 11 seconds; see
 `reports/release_batch_425.md`.
 
 Batch 424: the complete 1,971-case local browser/accessibility matrix produced
