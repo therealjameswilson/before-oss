@@ -2,7 +2,29 @@
 
 Verified against the current local SQLite database on 2026-09-05 UTC.
 
-Batch 426 is a locally verified release candidate. It adds ten saved
+Batch 427 is a local release candidate. It adds ten saved individual outcomes
+across PDF page 83 rows 32-41, Gladys Claunch through Lee H Clayman, all in Box
+128. Exact private-identifier matches support confirmed enlisted Army
+identities for Gladys Claunch and Kenneth E Clawson. Their qualified Army-entry
+categories are `Clerks, general office` and `Clerks and kindred occupations,
+n.e.c.` Neither identifies an employer or proves immediate pre-OSS chronology.
+The 1946 Official Army Register supports a high-confidence Donald C Clayman
+identity and a documented-prewar Infantry Reserve commission from 31 May 1935;
+this remains military affiliation, not civilian employment, and is not marked
+as his immediate OSS predecessor. Cornell University appears only as education.
+Clarence Clausen, Arthur L Clawson, Alta T Clay and Lee H Clayman retain
+unmerged or rejected name-only candidates; Paul Clavecilla, Donald M Clawson
+and Jeff Clay III remain unresolved. No candidate occupation or military unit
+is transferred by name alone. Evidence import is idempotent; the full replay,
+90 Python tests, generated coverage, profile audit, link and identifier audits,
+public projection, and consecutive production builds pass. The complete
+2,016-case browser/accessibility matrix produced 2,014 passes and two legacy
+browser-resource timeouts; both unchanged scenarios then passed across all
+three layouts, 6/6. Independent GitHub testing, release and live-deployment
+verification remain pending. See `reports/release_batch_427.md` and
+`research/batch-427-discovery-checkpoint.md`.
+
+Batch 426 is released and pinned-live verified. It adds ten saved
 individual outcomes across PDF page 83 rows 22-31, Kathleen M Clarke through
 Frederick Claudy, spanning Boxes 125, 127 and 128. Exact private-identifier and
 name matches support confirmed identities and enlisted Army classification for
@@ -25,8 +47,12 @@ inspection showed that the large Sources audit stalled while returning every
 passing and inapplicable node; limiting the result payload to violations, with
 the same WCAG rules and assertion, made all 27 accessibility route checks and
 all fifteen Batch 426 checks pass across all layouts, 42/42 in 90 seconds.
-Independent CI, deployment and pinned verification remain pending. See
-`reports/release_batch_426.md` and
+Independent GitHub Test `34003906550` passed against exact source commit
+`3bc9934a56269d3e42abe91ef66d1f70b489dc00`; PR 183 merged as
+`8258962ba55aed8d5400f0f02945abcf4031142a`; Pages `34007115591` succeeded;
+and pinned verification matched all 67 assets, seven core routes and ten direct
+cohort profiles. The supplementary merge-triggered Test `34007115532` also
+passed in 42 minutes 39 seconds. See `reports/release_batch_426.md` and
 `research/batch-426-discovery-checkpoint.md`.
 
 Batch 425 is released and pinned-live verified. It adds ten saved

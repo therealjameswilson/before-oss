@@ -1,6 +1,6 @@
 # Batch 426 release verification
 
-2026-09-05 UTC. **Local release candidate.** This report covers ten source
+2026-09-05 UTC. **Released.** This report covers ten source
 records on PDF page 83 rows 22-31, Kathleen M Clarke through Frederick Claudy,
 spanning Boxes 125, 127 and 128 at locations 230/86/28/06 and 230/86/28/07.
 
@@ -136,8 +136,19 @@ retaining the same WCAG tags and serious/critical assertion. The full 27-check
 accessibility route set and all fifteen Batch 426 checks subsequently passed
 across desktop, phone and tablet, 42/42 in 90 seconds. Consecutive production
 builds are byte-identical. A clean independent GitHub Test, merge, Pages
-deployment and pinned live verification remain required before this candidate
-is a release.
+deployment and pinned live verification completed successfully. Independent
+Test run `34003906550` passed against exact source commit
+`3bc9934a56269d3e42abe91ef66d1f70b489dc00` in 41 minutes 46 seconds. Pull
+request 183 merged at 2026-09-06 02:41:10 UTC as merge commit
+`8258962ba55aed8d5400f0f02945abcf4031142a`. Pages run `34007115591` passed
+(build 1 minute 16 seconds; deploy 16 seconds). Pinned live verification
+recovered 67 manifest assets totaling 84,773,353 bytes, matched manifest
+SHA-256 `7858022f2c5a9d255272c7cd502a9d9d77d6da81cd6fd2fca3794e3d677d68a4`,
+confirmed exact source commit `3bc9934a56269d3e42abe91ef66d1f70b489dc00`, and passed seven core routes plus
+all ten direct cohort profiles at
+`https://therealjameswilson.github.io/before-oss/`.
+The supplementary merge-triggered Test `34007115532` passed against merge
+commit `8258962ba55aed8d5400f0f02945abcf4031142a` in 42 minutes 39 seconds.
 
 Current manifest: 67 assets / 84,773,353 bytes; SHA-256
 `7858022f2c5a9d255272c7cd502a9d9d77d6da81cd6fd2fca3794e3d677d68a4`.
