@@ -4,6 +4,20 @@ Run: 2026-09-05 UTC
 
 ## Result
 
+Batch 427: the complete 2,016-case local browser/accessibility matrix produced
+2,014 passes and two browser-resource timeouts in 54.4 minutes with retries
+disabled. The Batch 071 desktop scenario stalled after reaching its final
+organization profile, and the Batch 398 phone search stalled after loading the
+6.3 MB search index but before completing its filter. Both passed in other
+layouts during the matrix, and their unchanged exact rerun passed across
+desktop, phone and tablet, 6/6 in 5.9 seconds. No Batch 427 scenario or
+historical-evidence assertion failed. Fifteen focused Batch 427 checks pass
+across all three layouts in 15.1 seconds after one test-only field-label
+expectation was corrected; no evidence or application behavior changed.
+Consecutive Pages-configuration builds match and report zero Astro errors,
+warnings or hints. Independent release verification remains pending; see
+`reports/release_batch_427.md`.
+
 Batch 426: the complete 2,001-case local browser/accessibility matrix produced
 1,992 passes and nine browser-resource timeouts in 1.7 hours with retries
 disabled. Seven affected legacy scenarios, one Sources-page audit and one
@@ -16,7 +30,9 @@ from the 2,747-entry citation list. The audit now returns violations only while
 retaining the same WCAG tag set and serious/critical assertion. The full 27-
 check accessibility route set and all fifteen Batch 426 checks then passed
 across all three layouts, 42/42 in 90 seconds. Consecutive Pages-configuration
-builds match and report zero Astro errors, warnings or hints. See
+builds match and report zero Astro errors, warnings or hints. Independent PR
+Test `34003906550`, PR 183, Pages `34007115591`, pinned live verification and
+the supplementary merge-triggered Test `34007115532` subsequently passed. See
 `reports/release_batch_426.md`.
 
 Batch 425: the complete 1,986-case local browser/accessibility matrix produced

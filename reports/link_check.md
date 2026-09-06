@@ -2,7 +2,29 @@
 
 Run: 2026-09-05 UTC
 
-## Batch 426 local release candidate
+## Batch 427 local release candidate
+
+All internal targets resolve across 24,465 HTML pages; 49,610 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,537 artifacts,
+12,926 normalized identifiers, 120 formatted variants and 1,082 candidate
+substring coincidences with zero unexpected boundary, aggregate or manifest-
+size matches. A separate cohort-value scan finds zero full private identifiers
+in the tracked Batch 427 evidence bundle. Manifest: 67 assets / 84,828,475
+bytes; SHA-256
+`0dd995f3874c6eade96c19c6c18bc03150f454cedc67429e93c3698c8c242435`.
+The full replay from the frozen PDF reproduced the 70-file public tree at
+SHA-256
+`77afd79d3e65e1d425dd5a9a463f44174b9c9a444f952a41280fbfcfb63ef6c0`.
+Consecutive 24,537-file Pages-configuration production trees match at SHA-256
+`60d6497b1eb45973f48d94369d6e8db4beff32c2db3e5a2109f4ed876ab30f7a`.
+Seven of eight distinct Batch 427 citation destinations returned HTTP 200.
+Rochester Public Library returned HTTP 403 to the generic automated HEAD
+request after the document had been visually reviewed; no access control was
+bypassed. No authenticated Catalog request was used. Independent GitHub
+testing, deployment and pinned live verification remain pending; see
+`reports/release_batch_427.md`.
+
+## Batch 426 release
 
 All internal targets resolve across 24,464 HTML pages; 49,608 external URLs are
 inventoried, not all visited. Identifier checks cover all 24,536 artifacts,
@@ -20,9 +42,12 @@ Consecutive 24,536-file Pages-configuration production trees match at SHA-256
 The four archival/index destinations
 returned HTTP 200. The CIA discovery-only URL redirected to the CIA Reading
 Room home page and is not treated as inspected evidence. No authenticated
-Catalog request or access-control bypass was used. Independent GitHub testing,
-deployment and pinned live verification remain pending; see
-`reports/release_batch_426.md`.
+Catalog request or access-control bypass was used. Independent Test
+`34003906550`, PR 183 and Pages `34007115591` passed. Pinned verification
+against `3bc9934a56269d3e42abe91ef66d1f70b489dc00` matched all 67 assets /
+84,773,353 bytes, seven core routes and ten direct cohort profiles. The
+supplementary merge-triggered Test `34007115532` also passed in 42 minutes 39
+seconds; see `reports/release_batch_426.md`.
 
 ## Batch 425 release
 
