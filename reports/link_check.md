@@ -2,7 +2,30 @@
 
 Run: 2026-09-06 UTC
 
-## Batch 428 local release candidate
+## Batch 429 release candidate
+
+All internal targets resolve across 24,466 HTML pages; 49,618 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,538 artifacts,
+12,926 normalized identifiers, 120 formatted variants and 1,080 candidate
+substring coincidences with zero unexpected boundary, aggregate or manifest-
+size matches. A separate exact-value scan finds zero occurrences of the five
+private cohort identifiers in either public tree. Manifest: 67 assets /
+84,991,645 bytes; SHA-256
+`f7e9c1fbda2f5af50a4829fdcd2a09a0393752a569aaf29ef94ee06f4e56f711`.
+The tested content-aware digest covers the 70-file, 87,338,782-byte public tree
+at SHA-256
+`368aa0aa3249afb7f0fe23e7835c45b579c30a342dda593437a3d2a058facc4b`
+and the 24,538-file, 271,542,874-byte production tree at SHA-256
+`3669f831cb2e6027eb7df6505286d8082cf1a0250086d9952b29846924a99215`.
+A clean replay reproduces both digests exactly. Seven of nine Batch 429
+citation destinations returned HTTP 200. The University of Minnesota
+finding-aid endpoint returned HTTP 202 and the NYS Historic Newspapers viewer
+returned HTTP 403 to a generic automated request after both pages were
+visually inspected in an ordinary browser. No authenticated Catalog request
+or access-control bypass was used. Independent GitHub release checks remain
+pending; see `reports/release_batch_429.md`.
+
+## Batch 428 release
 
 All internal targets resolve across 24,465 HTML pages; 49,613 external URLs are
 inventoried, not all visited. Identifier checks cover all 24,537 artifacts,
@@ -19,8 +42,11 @@ and two consecutive 24,537-file, 271,425,952-byte production trees at SHA-256
 `e05d66695232d18432c4d10bff7c8d1cbed7672031dafac0ddb5bb8eb94c71ad`.
 All eight distinct Batch 428 citation destinations returned HTTP 200. No
 authenticated Catalog request or access-control bypass was used. Independent
-GitHub testing, deployment and pinned live verification remain pending; see
-`reports/release_batch_428.md`.
+Test `34023405836`, PR 185 and Pages `34026495170` passed. Pinned verification
+against `f743392b50339fa6cc7ca9b03194f3deb45f2a16` matched all 67 assets /
+84,913,502 bytes, seven core routes and ten direct cohort profiles. The
+supplementary merge-triggered Test `34026495182` also passed in 32 minutes 59
+seconds; see `reports/release_batch_428.md`.
 
 ## Batch 427 release
 

@@ -1,6 +1,6 @@
 # Batch 428 release verification
 
-2026-09-06 UTC. **Local release candidate.** This report covers ten source
+2026-09-06 UTC. **Released and pinned-live verified.** This report covers ten source
 records on PDF page 83 rows 42-46 and page 84 rows 1-5, Charlotte Clayton
 through Gerard P Cleisz, all in Box 128 at location 230/86/28/07.
 
@@ -151,8 +151,16 @@ Batch 162 desktop scenario lost its browser session while reading a profile,
 and the Batch 400 tablet scenario timed out while creating its page. Both
 scenarios passed in the other layouts during the matrix. Their unchanged exact
 rerun then passed across desktop, phone and tablet, 6/6 in 6.5 seconds. No
-Batch 428 scenario or historical-evidence assertion failed. Independent GitHub
-testing, merge, deployment and pinned live verification remain pending.
+Batch 428 scenario or historical-evidence assertion failed.
+
+Independent Test `34023405836` passed against exact source commit
+`f743392b50339fa6cc7ca9b03194f3deb45f2a16` in 44 minutes 13 seconds. PR 185
+merged as `eff94d0dd57fc55b243f457ef0d06c65a174b7a4`. Pages run
+`34026495170` passed (build 1 minute 18 seconds; deploy 22 seconds). Pinned live
+verification matched all 67 manifest assets / 84,913,502 bytes, the manifest
+SHA-256 below, seven core routes and all ten direct cohort profiles against the
+exact source commit. The supplementary merge-triggered Test `34026495182`
+passed in 32 minutes 59 seconds.
 
 Current public manifest: 67 assets / 84,913,502 bytes; SHA-256
 `cb3b2bbf555eef26eb715eed5ecff04bae0d3b5b5bf7759e97473e70069ca0ed`.
