@@ -1,8 +1,25 @@
 # Link check
 
-Run: 2026-09-06 UTC
+Run: 2026-09-08 UTC
 
-## Batch 429 release candidate
+## Batch 430 release candidate
+
+All internal targets resolve across 24,468 HTML pages; 49,622 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,540 artifacts,
+12,926 normalized identifiers, 120 formatted variants and 1,082 candidate
+substring coincidences with zero unexpected boundary, aggregate or manifest-
+size matches. The public manifest has 67 assets / 85,087,639 bytes at SHA-256
+`6f74b988cf3de63eb80921772be7ac784cc22ae5f79acc4a1d85a0c54ab7973c`.
+The public-tree digest is
+`31f6d600db57e490f0f264ff6646916308ee39138a85ed6973fbbf6e56af8bbf`;
+the production-tree digest is
+`480e4ff313d04f22f858c7d7938758aaa41cb7d2d0fe3f710a75d55291d14ac6`.
+A clean rebuild reproduces both. All seven Batch 430 citation destinations
+returned HTTP 200 in bounded HEAD checks. No authenticated Catalog request or
+access-control bypass was used. Independent GitHub release checks remain
+pending; see `reports/release_batch_430.md`.
+
+## Batch 429 release
 
 All internal targets resolve across 24,466 HTML pages; 49,618 external URLs
 are inventoried, not all visited. Identifier checks cover all 24,538 artifacts,
@@ -22,8 +39,12 @@ citation destinations returned HTTP 200. The University of Minnesota
 finding-aid endpoint returned HTTP 202 and the NYS Historic Newspapers viewer
 returned HTTP 403 to a generic automated request after both pages were
 visually inspected in an ordinary browser. No authenticated Catalog request
-or access-control bypass was used. Independent GitHub release checks remain
-pending; see `reports/release_batch_429.md`.
+or access-control bypass was used. Independent Test `34222289714`, PR 186 and
+Pages `34227810245` passed. Pinned verification against
+`27e113c50a5f9dfce32414c720e6d99108bfdc97` matched all 67 assets /
+84,991,645 bytes, seven core routes and ten direct cohort profiles. The
+supplementary merge-triggered Test `34227810204` also passed in 44 minutes 58
+seconds; see `reports/release_batch_429.md`.
 
 ## Batch 428 release
 

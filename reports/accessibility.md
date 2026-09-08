@@ -1,8 +1,18 @@
 # Accessibility and responsive QA
 
-Run: 2026-09-06 UTC
+Run: 2026-09-08 UTC
 
 ## Result
+
+Batch 430: the focused four-scenario suite covers data semantics and rendered
+profiles/directories across desktop, phone and tablet. All twelve checks pass
+in 21.2 seconds. An earlier run produced 11/12 passes before a final desktop
+multi-search action stalled ahead of any network request or console error;
+trace inspection found no page or assertion failure, and the unchanged
+scenario passed alone. The exact Pages build reports zero Astro errors,
+warnings or hints, and a clean replay reproduces the content-aware public and
+production tree digests. Independent GitHub release checks remain pending; see
+`reports/release_batch_430.md`.
 
 Batch 429: twelve focused cohort checks pass across desktop, phone and tablet,
 12/12 in 25.1 seconds. An initial retries-disabled complete-matrix attempt
@@ -17,8 +27,11 @@ The clean replacement tablet project passed 680/680 in 8.0 minutes with no
 retries. No Batch 429 or historical-evidence assertion failed. The exact
 Pages-configuration build reports zero Astro errors, warnings or hints, and a
 clean replay reproduces the content-aware public and production tree digests.
-The independent GitHub Test remains the authoritative pending complete
-2,040-case gate; see `reports/release_batch_429.md`.
+Independent Test `34222289714` completed the authoritative 2,040-case gate.
+PR 186, Pages `34227810245`, pinned live verification and the supplementary
+merge-triggered Test `34227810204` subsequently passed; the latter repeated
+the complete matrix in 44 minutes 58 seconds. See
+`reports/release_batch_429.md`.
 
 Batch 428: the complete 2,028-case local browser/accessibility matrix produced
 2,026 passes and two browser-session timeouts in 55.6 minutes with retries

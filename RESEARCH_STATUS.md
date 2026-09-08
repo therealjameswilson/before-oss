@@ -1,8 +1,26 @@
 # Research status
 
-Verified against the current local SQLite database on 2026-09-06 UTC.
+Verified against the current local SQLite database on 2026-09-08 UTC.
 
-Batch 429 is a local release candidate. It adds ten saved individual outcomes
+Batch 430 is a local release candidate. It adds ten saved individual outcomes
+across PDF page 84 rows 16-25, Joseph E Clements through David H Clift, all in
+Box 129. Exact private-identifier matches support confirmed enlisted Army
+identities for Harold V Cleveland, Elizabeth A Clifford and David H Clift.
+Their qualified Army-entry occupations remain distinct from employer claims.
+An institutional archival record supports David's earlier New York Public
+Library work, Columbia University Library as his last civilian employer, and
+an Army hospital-orderly assignment as the immediate pre-OSS affiliation.
+Margaret L Cleveland remains a visibly qualified probable identity based on
+official later SSU context; no pre-OSS employer is inferred. Joseph E Clements
+remains ambiguous, while Ysobel Clements, Edmund C Cleveland, Eleanor E
+Cleveland, Zito Cleveland and the visually confirmed printed spelling Acice C
+Clifford remain unresolved. The exact Pages build and deterministic clean
+replay pass, as do all twelve focused cross-viewport checks. Independent
+release checks remain pending. See
+`reports/release_batch_430.md` and
+`research/batch-430-discovery-checkpoint.md`.
+
+Batch 429 is released and pinned-live verified. It adds ten saved individual outcomes
 across PDF page 84 rows 6-15, Alice B Clem through Ira L Clements, spanning
 Boxes 128-129. Exact private-identifier matches support confirmed enlisted
 Army identities for Kent L Clemans and Egidio Clemente. Their qualified Army-
@@ -30,8 +48,11 @@ unchanged scenarios that encountered local Chromium-control stalls pass 3/3
 in an exact rerun; a traced delayed navigation returned its HTTP response in
 69 milliseconds with the expected content present. A later CI-policy run
 completed desktop and phone with all control stalls recovered on retry before
-its continuation handle disappeared, so the independent GitHub release check
-remains the authoritative pending 2,040-case gate. See
+its continuation handle disappeared. Independent Test `34222289714`, PR 186,
+Pages `34227810245`, pinned verification of all 67 manifest assets, seven core
+routes and ten direct profiles, and the merge-triggered Test `34227810204`
+subsequently passed. The latter completed the authoritative 2,040-case gate in
+44 minutes 58 seconds. See
 `reports/release_batch_429.md` and
 `research/batch-429-discovery-checkpoint.md`.
 
