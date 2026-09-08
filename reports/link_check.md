@@ -2,7 +2,25 @@
 
 Run: 2026-09-08 UTC
 
-## Batch 430 release candidate
+## Batch 431 release candidate
+
+All internal targets resolve across 24,468 HTML pages; 49,623 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,540 artifacts,
+12,926 normalized identifiers, 120 formatted variants and 1,085 candidate
+substring coincidences with zero unexpected boundary, aggregate or manifest-
+size matches. The public manifest has 67 assets / 85,140,258 bytes at SHA-256
+`45bd15e95b9ff6b1cf44e9587a94bfc4d43e4759f962fc20d973e1deb5c6cdb7`.
+The public-tree digest is
+`a13e86640345d36ba22474848e968282f4c19a2477a17c8c1d02992c0e7971bf`;
+the production-tree digest is
+`719691e2a53b064bf2f6375c899ffa1b3cd4c5d9cc1ff3b052a9d2a51fdac9f5`.
+All five Batch 431 citation destinations returned HTTP 200 in bounded HEAD
+checks. No authenticated Catalog request or access-control bypass was used.
+Two consecutive exact Pages-configuration builds reproduce both tree digests
+and file counts. Independent Test, merge, Pages and pinned-live checks remain
+pending; see `reports/release_batch_431.md`.
+
+## Batch 430 release
 
 All internal targets resolve across 24,468 HTML pages; 49,622 external URLs
 are inventoried, not all visited. Identifier checks cover all 24,540 artifacts,
@@ -16,8 +34,12 @@ the production-tree digest is
 `480e4ff313d04f22f858c7d7938758aaa41cb7d2d0fe3f710a75d55291d14ac6`.
 A clean rebuild reproduces both. All seven Batch 430 citation destinations
 returned HTTP 200 in bounded HEAD checks. No authenticated Catalog request or
-access-control bypass was used. Independent GitHub release checks remain
-pending; see `reports/release_batch_430.md`.
+access-control bypass was used. Independent Test `34249628299`, PR 187 and
+Pages `34253975677` passed. Pinned verification against
+`9fe13700af763908192820ed6b64936182a3e3ec` matched all 67 assets /
+85,087,639 bytes, seven core routes and ten direct cohort profiles. The
+supplementary merge-triggered Test `34253975663` also passed in 45 minutes 40
+seconds; see `reports/release_batch_430.md`.
 
 ## Batch 429 release
 

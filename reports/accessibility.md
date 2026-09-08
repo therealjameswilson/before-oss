@@ -4,6 +4,22 @@ Run: 2026-09-08 UTC
 
 ## Result
 
+Batch 431: the corrected focused four-scenario suite covers data semantics and
+rendered profiles/directories across desktop, phone and tablet. All twelve
+checks pass twice, most recently in 6.9 seconds after the deterministic
+rebuild; the first corrected run completed in 8.1 seconds. An earlier run
+produced 8/12 passes because three
+layouts expected a private identity-resolution note that is intentionally not
+rendered, and a long tablet search loop stalled during teardown. The test-only
+expectations were corrected without changing evidence or interface behavior;
+the suite still verifies the note in generated public data, all ten immutable
+source rows, identifier masking and a representative rendered search. The
+exact Pages build reports zero Astro errors, warnings or hints. No new local
+complete axe matrix was run; the focused suite and structural checks do not
+replace the independent full release gate. Independent Test, merge, Pages and
+pinned-live verification remain pending. See
+`reports/release_batch_431.md`.
+
 Batch 430: the focused four-scenario suite covers data semantics and rendered
 profiles/directories across desktop, phone and tablet. All twelve checks pass
 in 21.2 seconds. An earlier run produced 11/12 passes before a final desktop
@@ -11,8 +27,11 @@ multi-search action stalled ahead of any network request or console error;
 trace inspection found no page or assertion failure, and the unchanged
 scenario passed alone. The exact Pages build reports zero Astro errors,
 warnings or hints, and a clean replay reproduces the content-aware public and
-production tree digests. Independent GitHub release checks remain pending; see
-`reports/release_batch_430.md`.
+production tree digests. Independent Test `34249628299` completed the
+authoritative 2,052-case gate. PR 187, Pages `34253975677`, pinned live
+verification and the supplementary merge-triggered Test `34253975663`
+subsequently passed; the latter repeated the complete matrix in 45 minutes 40
+seconds. See `reports/release_batch_430.md`.
 
 Batch 429: twelve focused cohort checks pass across desktop, phone and tablet,
 12/12 in 25.1 seconds. An initial retries-disabled complete-matrix attempt

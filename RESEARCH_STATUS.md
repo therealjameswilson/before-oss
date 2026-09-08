@@ -2,7 +2,28 @@
 
 Verified against the current local SQLite database on 2026-09-08 UTC.
 
-Batch 430 is a local release candidate. It adds ten saved individual outcomes
+Batch 431 is a local release candidate awaiting independent release checks. It
+adds ten saved individual outcomes across PDF page 84 rows 26-35, Howard J
+Clifton through DeWitt Clinton, spanning Boxes 129-130. Exact private-
+identifier matches support confirmed enlisted Army identities for Howard J
+Clifton, William R Clifton and Sheldon R Cline. Their qualified Army-entry
+occupations are `Sales clerks`, `Attendants, recreation and amusement, n.e.c.`
+and `Salesmen, to consumers`; none names an employer or proves immediate
+pre-OSS chronology. Ray S Cline's existing Harvard junior fellowship and Navy
+cryptanalyst claims remain high-confidence professional and government
+affiliations, but his workflow status is corrected from employer-found to
+archival review because neither is documented employment. Dean A Cline's
+`Sp 2/C` and `Navy` classification is preserved directly from the index without
+expanding his specialty. An official OSS Director's Office roll list supports
+a qualified probable identity for DeWitt Clinton but supplies no role or
+pre-OSS employer. Mary F Clifton, A C Cline, Jeraldine E Cline and Walter B
+Cline remain unresolved. A full replay, 93 Python tests, twelve focused
+cross-viewport checks, link, profile, identifier and dependency audits and the
+exact Pages build pass locally. Independent CI, merge, deployment and pinned-
+live checks remain pending. See `reports/release_batch_431.md` and
+`research/batch-431-discovery-checkpoint.md`.
+
+Batch 430 is released and pinned-live verified. It adds ten saved individual outcomes
 across PDF page 84 rows 16-25, Joseph E Clements through David H Clift, all in
 Box 129. Exact private-identifier matches support confirmed enlisted Army
 identities for Harold V Cleveland, Elizabeth A Clifford and David H Clift.
@@ -15,8 +36,11 @@ official later SSU context; no pre-OSS employer is inferred. Joseph E Clements
 remains ambiguous, while Ysobel Clements, Edmund C Cleveland, Eleanor E
 Cleveland, Zito Cleveland and the visually confirmed printed spelling Acice C
 Clifford remain unresolved. The exact Pages build and deterministic clean
-replay pass, as do all twelve focused cross-viewport checks. Independent
-release checks remain pending. See
+replay pass, as do all twelve focused cross-viewport checks. Independent Test
+`34249628299`, PR 187, Pages `34253975677`, pinned verification of all 67
+manifest assets, seven core routes and ten direct profiles, and the merge-
+triggered Test `34253975663` subsequently passed. The latter completed the
+authoritative 2,052-case gate in 45 minutes 40 seconds. See
 `reports/release_batch_430.md` and
 `research/batch-430-discovery-checkpoint.md`.
 
