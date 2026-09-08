@@ -1,6 +1,6 @@
 # Batch 429 release verification
 
-2026-09-06 UTC. **Local release candidate; independent release checks pending.**
+2026-09-08 UTC. **Released and pinned-live verified.**
 This report covers ten source records on PDF page 84 rows 6-15, Alice B Clem
 through Ira L Clements, spanning Boxes 128-129 at location 230/86/28/07.
 
@@ -170,8 +170,14 @@ isolated control stalls recovered on retry, but its process handle disappeared
 after tablet testing began, so it is not treated as a terminal full-matrix
 result. The clean replacement tablet run passed 680/680 in 8.0 minutes with no
 retries. No historical-evidence assertion failed in these runs. The
-independent GitHub Test, pull request, Pages deployment and pinned-live checks
-remain pending and will provide the authoritative complete 2,040-case gate.
+independent Test `34222289714` passed against exact release commit
+`27e113c50a5f9dfce32414c720e6d99108bfdc97`. Pull request 186 merged as
+`776dba14a9c829a87105fd28cddcfb1d9e55a052`; Pages run `34227810245`
+passed. Pinned verification against the release commit matched all 67 assets /
+84,991,645 bytes, seven core routes, ten direct cohort profiles and the exact
+published statistics. The supplementary merge-triggered Test `34227810204`
+then passed all pipeline, site, complete 2,040-case browser/accessibility and
+private-identifier gates in 44 minutes 58 seconds.
 
 ```sh
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eighty-four-alice-b-clem-through-ira-l-clements-pathways_batch-429_2026-09-06.json
