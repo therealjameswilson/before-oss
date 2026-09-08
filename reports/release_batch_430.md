@@ -1,6 +1,6 @@
 # Batch 430 release verification
 
-2026-09-08 UTC. **Local release candidate; independent release checks pending.**
+2026-09-08 UTC. **Released and pinned-live verified.**
 This report covers ten source records on PDF page 84 rows 16-25, Joseph E
 Clements through David H Clift, all in Box 129 at location 230/86/28/07.
 
@@ -161,6 +161,16 @@ restricted npm install process ended with npm's internal `Exit handler never
 called!` error. Repeating only the dependency install with network access
 succeeded with zero vulnerabilities; the exact Pages build then reproduced
 both tree digests and file counts above.
+
+Independent Test `34249628299` passed against exact release commit
+`9fe13700af763908192820ed6b64936182a3e3ec` in 42 minutes 12 seconds.
+Pull request 187 merged as
+`7e35a39804c980925ff606a73f401c125fbb6720`; Pages run `34253975677`
+passed. Pinned verification against the release commit matched all 67 assets /
+85,087,639 bytes, seven core routes, ten direct cohort profiles and the exact
+published statistics. The supplementary merge-triggered Test `34253975663`
+then passed all pipeline, site, complete 2,052-case browser/accessibility and
+private-identifier gates in 45 minutes 40 seconds.
 
 ```sh
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eighty-four-joseph-e-clements-through-david-h-clift-pathways_batch-430_2026-09-08.json
