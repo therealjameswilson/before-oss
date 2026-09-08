@@ -4,6 +4,22 @@ Run: 2026-09-06 UTC
 
 ## Result
 
+Batch 429: twelve focused cohort checks pass across desktop, phone and tablet,
+12/12 in 25.1 seconds. An initial retries-disabled complete-matrix attempt
+reached 520 passes before three legacy scenarios encountered Chromium-control
+stalls; all three unchanged scenarios then passed together, 3/3 in 12.2
+seconds. Trace inspection showed a delayed navigation whose HTTP response
+completed in 69 milliseconds while the expected page content was present. A
+subsequent CI-policy run completed the desktop and phone projects with six
+isolated control stalls recovered on retry, but its process handle disappeared
+after tablet testing began and is not recorded as a terminal full-matrix run.
+The clean replacement tablet project passed 680/680 in 8.0 minutes with no
+retries. No Batch 429 or historical-evidence assertion failed. The exact
+Pages-configuration build reports zero Astro errors, warnings or hints, and a
+clean replay reproduces the content-aware public and production tree digests.
+The independent GitHub Test remains the authoritative pending complete
+2,040-case gate; see `reports/release_batch_429.md`.
+
 Batch 428: the complete 2,028-case local browser/accessibility matrix produced
 2,026 passes and two browser-session timeouts in 55.6 minutes with retries
 disabled. A Batch 162 desktop profile lost its browser session and a Batch 400
@@ -15,7 +31,9 @@ across all three layouts in 14.4 seconds. Consecutive Pages-configuration
 builds are content-identical and report zero Astro errors, warnings or hints.
 A release-audit repair replaces a legacy path-only aggregate fingerprint with
 a tested, content-aware deterministic-tree digest; see
-`reports/release_batch_428.md`.
+`reports/release_batch_428.md`. Independent Test `34023405836`, PR 185, Pages
+`34026495170`, pinned live verification and the supplementary merge-triggered
+Test `34026495182` subsequently passed.
 
 Batch 427: the complete 2,016-case local browser/accessibility matrix produced
 2,014 passes and two browser-resource timeouts in 54.4 minutes with retries

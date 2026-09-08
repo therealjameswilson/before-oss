@@ -2,7 +2,40 @@
 
 Verified against the current local SQLite database on 2026-09-06 UTC.
 
-Batch 428 is a local release candidate. It adds ten saved individual outcomes
+Batch 429 is a local release candidate. It adds ten saved individual outcomes
+across PDF page 84 rows 6-15, Alice B Clem through Ira L Clements, spanning
+Boxes 128-129. Exact private-identifier matches support confirmed enlisted
+Army identities for Kent L Clemans and Egidio Clemente. Their qualified Army-
+entry categories are `Molders` and `Occupations in printing and publishing,
+n.e.c.`; neither category names an employer or proves immediate pre-OSS
+chronology. A University of Minnesota finding aid independently corroborates
+Egidio's identity and documents him as editor and publisher of *La Parola del
+Popolo*. That high-confidence claim is documented prewar employment, not an
+immediate affiliation or established last civilian employer. An official OSS
+headquarters document and a contemporary newspaper confirm Marcel J Clemente
+as a commissioned Army officer serving with OSS in Italy. The newspaper
+strongly date-bounds his last civilian employment before Army service at an
+unnamed guarantee and trust company in New York; the legal organization name
+and his role remain unknown, and the Army is the intervening affiliation.
+A cited military-award record supports high-confidence Georges Clement as a
+French Allied commissioned officer attached to OSS, but does not establish his
+pre-OSS French assignment. Robert E Clemens and Ira L Clements retain rejected
+identifier-conflicting candidates; Alice B Clem, Catherine A Clement,
+Geraldine Clement and Claras B Clements remain unresolved. The original
+`Claras` spelling and all nonstandard identifier shapes remain unchanged.
+Evidence import is idempotent; full replay, 93 Python tests, twelve focused
+browser checks, link validation, profile audit, identifier audit and Pages-
+configuration builds pass. The clean tablet matrix passes 680/680. Three
+unchanged scenarios that encountered local Chromium-control stalls pass 3/3
+in an exact rerun; a traced delayed navigation returned its HTTP response in
+69 milliseconds with the expected content present. A later CI-policy run
+completed desktop and phone with all control stalls recovered on retry before
+its continuation handle disappeared, so the independent GitHub release check
+remains the authoritative pending 2,040-case gate. See
+`reports/release_batch_429.md` and
+`research/batch-429-discovery-checkpoint.md`.
+
+Batch 428 is released and pinned-live verified. It adds ten saved individual outcomes
 across PDF page 83 rows 42-46 and page 84 rows 1-5, Charlotte Clayton through
 Gerard P Cleisz, all in Box 128. Exact private-identifier matches support
 confirmed enlisted Army identities for George L Clayton, Vernon H Clear,
@@ -22,8 +55,9 @@ coverage, profile, link, identifier, focused browser and dependency checks
 pass. The complete 2,028-case browser/accessibility matrix produced 2,026
 passes and two browser-session timeouts; both unchanged scenarios then passed
 across all three layouts, 6/6. Two clean Pages-configuration builds match under
-the corrected content-aware digest. Independent GitHub release checks remain
-pending. See
+the corrected content-aware digest. Independent Test `34023405836`, PR 185,
+Pages `34026495170`, pinned verification of all 67 manifest assets and the
+merge-triggered Test `34026495182` passed. See
 `reports/release_batch_428.md` and
 `research/batch-428-discovery-checkpoint.md`.
 
