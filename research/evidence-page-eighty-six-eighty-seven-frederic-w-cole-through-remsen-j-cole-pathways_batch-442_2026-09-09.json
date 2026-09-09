@@ -1,0 +1,650 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "before-oss/reviewed-public-batch442-v1",
+  "sources": [
+    {
+      "key": "index-b442",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; complete PDF pages 86-87 visually inspected at 150 dpi; page 86 rows 44-46 and page 87 rows 1-7; Box 134; location 230/86/29/01",
+      "access_date": "2026-09-09",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Citation and project-authored assessments only; no full source page or full private identifier is reproduced. Printed names, initials, blank ranks, identifier forms, box and location are preserved."
+    },
+    {
+      "key": "army-b442",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; complete transient scan of 9,200,232 fixed-width records; Manny Cole and Raymond T Cole matched literally by exact private identifier, with the damaged Army name COLE MJNNY retained; all exact-name candidates reviewed for the ten-person cohort; shorter printed identifiers were not altered or padded",
+      "access_date": "2026-09-09",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "Reviewed transiently outside version control. No raw row, full private identifier or API response is retained. The file is incomplete and is not an officer, Navy, Marine Corps or comprehensive OSS register; a non-hit is not negative proof."
+    },
+    {
+      "key": "basic-b442",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-45; fixed-width identifier, name, Army-entry-date, grade, branch and civilian-occupation fields visually and textually checked",
+      "access_date": "2026-09-09",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only. The documentation warns about source damage, alternate interpretations, alternate card layouts, coding limits and incomplete coverage."
+    },
+    {
+      "key": "codes-b442",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 170-171; civilian-occupation entries 0-01 and 1-58 visually and textually checked",
+      "access_date": "2026-09-09",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Only short historical occupational labels are retained. The categories name neither employers nor workplaces and do not establish chronology relative to OSS service."
+    },
+    {
+      "key": "marines-oss-b442",
+      "stable_url": "https://www.govinfo.gov/content/pkg/GOVPUB-D214-PURL-gpo66817/pdf/GOVPUB-D214-PURL-gpo66817.pdf",
+      "archival_identifier": "GOVPUB-D214-PURL-gpo66817; SuDoc D 214.14/3:H 43",
+      "title": "Herringbone Cloak-GI Dagger: Marines of the OSS",
+      "author_creator": "Major Robert E. Mattingly, United States Marine Corps",
+      "repository_publisher": "History and Museums Division, Headquarters, U.S. Marine Corps; U.S. Government Publishing Office",
+      "publication_record_date": "1989",
+      "locator": "PDF physical page 341; printed page 313; Marines of the OSS roster; page image visually inspected at 180 dpi",
+      "access_date": "2026-09-09",
+      "source_quality": "A_direct_official",
+      "collection_name": "U.S. Marine Corps historical publications",
+      "document_number": "Occasional Paper; Shipping list 89-215-P",
+      "rights_notes": "The author describes the roster as an incomplete research starting point limited to Marine officers. It supplies rank and OSS area, not a personnel-file linkage or pre-service chronology."
+    },
+    {
+      "key": "poq-remsen-cole-b442",
+      "stable_url": "https://doi.org/10.1086/265428",
+      "archival_identifier": "DOI 10.1086/265428",
+      "title": "A Survey of Employee Attitudes",
+      "author_creator": "Remsen J. Cole",
+      "repository_publisher": "Public Opinion Quarterly; Oxford University Press",
+      "publication_record_date": "1940-09-01",
+      "locator": "Volume 4, issue 3, pages 497-506; contemporary author description",
+      "access_date": "2026-09-09",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Public Opinion Quarterly",
+      "rights_notes": "Citation, project-authored paraphrase and a short supporting excerpt only. The author description establishes the named 1940 firm and profession but not when Marine Corps or OSS service began."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "remsen-j-cole-and-associates",
+      "canonical_name": "Remsen J. Cole and Associates",
+      "historical_name": "Remsen J. Cole and Associates",
+      "aliases": [],
+      "organization_type": "public relations consultancy",
+      "sector": "advertising_and_public_relations",
+      "city": "Philadelphia",
+      "state_or_region": "Pennsylvania",
+      "country": "United States",
+      "active_dates": "documented 1940",
+      "normalization_notes": "The eponymous historical firm is preserved exactly as found. No modern successor, incorporation status or continued operating dates are inferred."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "manny-cole-newsboy-category-b442",
+      "person_id": "fa8fa6cc-d96d-5f4b-82fd-f9f39d977f2c",
+      "occupation": "Newsboy",
+      "relationship_type": "unknown",
+      "end_date": "1944-01-27",
+      "date_precision": "The identifier-matched Army record dated 27 January 1944 carries civilian-occupation value 158; actual work dates, employer and relationship to OSS service are unestablished.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is singularized only for readable presentation. It identifies no newspaper, distributor, employer, route, city or precise Army-to-OSS chronology."
+    },
+    {
+      "key": "raymond-t-cole-accountant-auditor-b442",
+      "person_id": "b16cf49b-b509-5383-8b31-b03ba885dbeb",
+      "occupation": "Accountant or auditor",
+      "relationship_type": "unknown",
+      "end_date": "1944-02-29",
+      "date_precision": "The identifier-matched Army record dated 29 February 1944 carries civilian-occupation value 001; actual work dates, employer and relationship to OSS service are unestablished.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category does not distinguish accounting from auditing and identifies no employer, client, firm, industry or precise Army-to-OSS chronology."
+    },
+    {
+      "key": "remsen-j-cole-public-relations-b442",
+      "person_id": "48a1eb2f-7da0-5757-a839-913057a727bd",
+      "organization_key": "remsen-j-cole-and-associates",
+      "organization_name_as_found": "Remsen J. Cole and Associates",
+      "role_title": "Head",
+      "occupation": "Public relations counsel",
+      "relationship_type": "self_employment",
+      "date_precision": "A contemporary journal's 1 September 1940 author description identifies Cole as head of the named Philadelphia public-relations firm; start and end dates are not stated.",
+      "city": "Philadelphia",
+      "state_or_region": "Pennsylvania",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The exact rare name is independently linked to wartime OSS Marine service by an official Marine Corps roster. Because no service-entry date or intervening chronology has been established, the 1940 firm is not labeled immediate or last civilian employment."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-manny-cole-b442",
+      "person_id": "fa8fa6cc-d96d-5f4b-82fd-f9f39d977f2c",
+      "claim_type": "identity",
+      "claim_text": "Manny Cole has a confirmed match to the exact private identifier and the damaged COLE MJNNY name in the official Army merged file.",
+      "evidence_excerpt": "COLE MJNNY",
+      "evidence_paraphrase": "The indexed identifier selects an Army row whose damaged given name is one letter from Manny and dates Army entry to 27 January 1944.",
+      "identity_match_assessment": "The exact private identifier establishes the match despite the damaged Army-file given name; both forms remain visible.",
+      "temporal_assessment": "The record dates Army entry but does not identify a later unit, OSS start or pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Historical grade code 8 supports private/enlisted classification even though the alpha grade is damaged. The identifier remains private.",
+      "sources": [
+        {
+          "source_key": "index-b442",
+          "support_type": "supports",
+          "locator_override": "PDF page 87, row 4; Box 134; identifier withheld"
+        },
+        {
+          "source_key": "army-b442",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; Army name COLE MJNNY; identifier withheld"
+        },
+        {
+          "source_key": "basic-b442",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-manny-cole-b442",
+      "person_id": "fa8fa6cc-d96d-5f4b-82fd-f9f39d977f2c",
+      "affiliation_key": "manny-cole-newsboy-category-b442",
+      "claim_type": "occupation",
+      "claim_text": "An official Army-entry record places Manny Cole in the historical newsboy category; no newspaper, route or employer is identified.",
+      "evidence_excerpt": "Newsboys",
+      "evidence_paraphrase": "The identifier-matched Army row carries occupation value 158; the visually inspected official NARA table defines 1-58 as Newsboys.",
+      "identity_match_assessment": "The exact private identifier links the indexed Manny spelling to the damaged Army-file Mjnny spelling.",
+      "temporal_assessment": "The category was captured at Army entry on 27 January 1944; actual work dates and relationship to OSS are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Occupation remains distinct from employer. No newspaper, distributor, route, city or immediate predecessor is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b442",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 158; identifier withheld"
+        },
+        {
+          "source_key": "basic-b442",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-45; civilian occupation field at positions 69-71"
+        },
+        {
+          "source_key": "codes-b442",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 171; entry 1-58",
+          "excerpt_override": "Newsboys"
+        }
+      ]
+    },
+    {
+      "key": "identity-raymond-t-cole-b442",
+      "person_id": "b16cf49b-b509-5383-8b31-b03ba885dbeb",
+      "claim_type": "identity",
+      "claim_text": "Raymond T Cole has a confirmed match to the exact name and private identifier in the official Army merged file.",
+      "evidence_excerpt": "COLE RAYMOND T",
+      "evidence_paraphrase": "The indexed identifier selects one of two exact-name Army rows and dates Army entry to 29 February 1944 as an Air Corps private.",
+      "identity_match_assessment": "The exact private identifier disambiguates the matching row from the other exact-name Army record.",
+      "temporal_assessment": "The record dates Army entry but does not identify a later unit, OSS start or pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The matched private grade supports enlisted Army classification. The identifier remains private.",
+      "sources": [
+        {
+          "source_key": "index-b442",
+          "support_type": "supports",
+          "locator_override": "PDF page 87, row 6; Box 134; identifier withheld"
+        },
+        {
+          "source_key": "army-b442",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record among two exact-name rows; identifier withheld"
+        },
+        {
+          "source_key": "basic-b442",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-raymond-t-cole-b442",
+      "person_id": "b16cf49b-b509-5383-8b31-b03ba885dbeb",
+      "affiliation_key": "raymond-t-cole-accountant-auditor-b442",
+      "claim_type": "occupation",
+      "claim_text": "An official Army-entry record places Raymond T Cole in the accountants-and-auditors category; it does not identify an employer or client.",
+      "evidence_excerpt": "Accountants and auditors",
+      "evidence_paraphrase": "The identifier-matched Army row carries occupation value 001, decoded on the visually inspected official NARA code page.",
+      "identity_match_assessment": "The exact private identifier disambiguates the matching row from one other exact-name Army record.",
+      "temporal_assessment": "The category was captured at Army entry on 29 February 1944; exact work dates and relationship to OSS are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Occupation remains distinct from employer. The historical category does not establish whether he was an accountant or auditor.",
+      "sources": [
+        {
+          "source_key": "army-b442",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 001; identifier withheld"
+        },
+        {
+          "source_key": "basic-b442",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-45; civilian occupation field at positions 69-71"
+        },
+        {
+          "source_key": "codes-b442",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 170; entry 0-01",
+          "excerpt_override": "Accountants and auditors"
+        }
+      ]
+    },
+    {
+      "key": "identity-remsen-j-cole-b442",
+      "person_id": "48a1eb2f-7da0-5757-a839-913057a727bd",
+      "claim_type": "identity",
+      "claim_text": "The indexed Remsen J Cole is a high-confidence match to the Marine lieutenant colonel named in an official Marines of the OSS roster.",
+      "evidence_excerpt": "LIEUTENANT COLONELS ... Remsen J. Cole ... Washington",
+      "evidence_paraphrase": "The official Marine Corps history lists the exact rare three-part name among Marine lieutenant colonels who served with OSS, with Washington as his area.",
+      "identity_match_assessment": "The exact uncommon first name, surname and middle initial plus explicit OSS context form an exceptionally specific official match despite the index's blank rank and identifier.",
+      "temporal_assessment": "The roster establishes wartime OSS service and Marine rank but supplies no commission, service-entry or OSS-transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "High confidence, not confirmed: the source is an official historical roster rather than a direct personnel-file or service-number linkage, and it describes itself as incomplete.",
+      "sources": [
+        {
+          "source_key": "index-b442",
+          "support_type": "supports",
+          "locator_override": "PDF page 87, row 7; Box 134; rank and identifier blank"
+        },
+        {
+          "source_key": "marines-oss-b442",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 341; printed page 313; Lieutenant Colonels section",
+          "excerpt_override": "Remsen J. Cole ... Washington"
+        }
+      ]
+    },
+    {
+      "key": "prewar-public-relations-remsen-j-cole-b442",
+      "person_id": "48a1eb2f-7da0-5757-a839-913057a727bd",
+      "affiliation_key": "remsen-j-cole-public-relations-b442",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "In September 1940, Remsen J Cole headed Remsen J. Cole and Associates, a Philadelphia public-relations consultancy.",
+      "evidence_excerpt": "Mr. Cole heads Remsen J. Cole and Associates, public relations counsel of Philadelphia.",
+      "evidence_paraphrase": "The contemporary author description identifies Cole as head of the eponymous Philadelphia firm and describes its field as public relations.",
+      "identity_match_assessment": "The exact rare three-part name is independently linked to wartime OSS Marine service by the official Marine Corps roster.",
+      "temporal_assessment": "The role is documented as of 1 September 1940, before wartime OSS service; no service-entry date excludes an intervening role, so it is neither immediate nor last civilian employment.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The eponymous firm is modeled as self-employment. The evidence does not establish incorporation, duration, later clients or the date Cole entered the Marine Corps.",
+      "sources": [
+        {
+          "source_key": "index-b442",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "marines-oss-b442",
+          "support_type": "context_only",
+          "locator_override": "PDF physical page 341; printed page 313; exact-name OSS Marine roster"
+        },
+        {
+          "source_key": "poq-remsen-cole-b442",
+          "support_type": "supports",
+          "locator_override": "Volume 4, issue 3, pages 497-506; contemporary author description",
+          "excerpt_override": "Mr. Cole heads Remsen J. Cole and Associates, public relations counsel of Philadelphia."
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "348ecda7-5f56-5838-8893-142847ee805c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Frederic W Cole, a short six-digit identifier, no rank and Box 134. The value was not padded or assigned to a service-number system, no exact-name Army row was found, and public-source checks supplied no corroborating OSS or Box linkage.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 134 to determine the identifier system and establish Frederic W Cole's full identity, personnel status, occupation, employer and OSS assignment.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "01695f9a-1467-50d8-a77d-77d24f71d10d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Gordon H Cole, no identifier or rank and Box 134. One exact-name Army row and a different labor-press editor candidate cannot be linked to the index row; neither has a direct OSS, identifier or Box bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 134 to establish Gordon H Cole's identity, personnel status, occupation, employer and OSS assignment before testing the Army and labor-press candidates.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9ef2a574-ef20-5c06-9eed-58cc0783defc",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Joe Cole, no middle initial, identifier or rank, and Box 134. Six exact-name Army rows and numerous public results remain undifferentiated because none has an index identifier or direct Box 134 bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 134 to establish Joe Cole's full identity, personnel status, occupation, employer and OSS assignment before testing common-name candidates.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "36b48c6c-7087-5ee9-82f5-49f900e06062",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies John O Cole, a standard eight-digit private identifier, no rank and Box 134. The complete Army scan found no literal identifier match; three exact-name Army rows carry other identifiers and remain unselected.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 134 to confirm the identifier, service branch and full identity of John O Cole and reconstruct his occupation, employer and OSS assignment.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8eafdcf1-0310-53f5-b8bb-ff60b4729c07",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Joseph G Cole, no identifier or rank and Box 134. One exact-name Army row and many public candidates lack the corroborating OSS, service-number or Box evidence needed to select the indexed person.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 134 to establish Joseph G Cole's identity, personnel status, occupation, employer and OSS assignment before selecting any exact-name candidate.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "874bbb80-f03f-5c50-8b69-392782bbd18e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Kathryn B Cole, no identifier or rank and Box 134. Exact-name OSS, CIA, Library of Congress, occupation, institutional, newspaper, obituary, directory and archival checks produced no corroborating identity or pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 134 to establish Kathryn B Cole's full identity, personnel status, occupation, employer and OSS assignment.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fa8fa6cc-d96d-5f4b-82fd-f9f39d977f2c",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier selects the official Army row with the damaged name COLE MJNNY. The row dates Army entry to 27 January 1944 with grade code 8 and civilian-occupation code 158.",
+      "name_variants": [
+        "Manny Cole",
+        "Mjnny Cole",
+        "Cole, Mjnny"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 134 and pre-January 1944 directories to confirm the Army-file spelling, identify Manny Cole's actual work and employer, and establish the Army-to-OSS sequence.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f35d0663-fd6a-5886-8353-e82a59cd39d5",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Nathan L Cole, a short seven-digit identifier, no rank and Box 134. One exact-name Army row exists, but the short value was not padded or assigned to a service-number system to force a match; public results provide no direct OSS bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 134 to determine the identifier system and establish Nathan L Cole's full identity, personnel status, occupation, employer and OSS assignment.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b16cf49b-b509-5383-8b31-b03ba885dbeb",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier selects one of two official Army rows named Raymond T Cole. It dates Army entry to 29 February 1944 as an Air Corps private and carries civilian-occupation code 001.",
+      "name_variants": [
+        "Raymond T Cole",
+        "Cole, Raymond T"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 134 and pre-February 1944 directories to identify Raymond T Cole's actual accounting or auditing work, employer and Army-to-OSS sequence.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "48a1eb2f-7da0-5757-a839-913057a727bd",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact uncommon Remsen J Cole name in the NARA index is explicitly listed in an official Marine Corps roster of Marine officers who served with OSS during World War II. The roster places him among lieutenant colonels and gives Washington as his service area; it is an official historical compilation rather than a direct personnel-file linkage.",
+      "name_variants": [
+        "Remsen J Cole",
+        "Remsen J. Cole",
+        "Cole, Remsen J"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "commissioned_marine_corps_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 134 and Marine Corps records to establish commission and OSS dates, test for intervening affiliations after the 1940 firm, and determine the immediate pre-OSS and last civilian roles.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b442-person-frederic-w-cole-review",
+      "person_id": "348ecda7-5f56-5838-8893-142847ee805c",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 86 and complete Army comparison; literal short-identifier review without padding; exact-name OSS/CIA, employer, occupation, obituary, institutional, newspaper, current Library of Congress and archival checks for Frederic W Cole and Frederick spelling variants.",
+      "query_variant_type": "short_identifier_name_without_literal_army_match",
+      "started_at": "2026-09-09T08:47:00Z",
+      "completed_at": "2026-09-09T09:13:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "The Army file has no exact-name row or literal identifier match; cemetery, directory and same-name records lack an OSS, identifier or Box 134 bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. This is not evidence that no employer existed.",
+      "next_action": "Determine the identifier system and full identity in Box 134.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch442-v1"
+    },
+    {
+      "key": "b442-person-gordon-h-cole-review",
+      "person_id": "01695f9a-1467-50d8-a77d-77d24f71d10d",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 86 and complete Army comparison; exact-name OSS/CIA, employer, occupation, labor press, obituary, institutional, newspaper, current Library of Congress, directory and archival checks for Gordon H Cole.",
+      "query_variant_type": "common_name_middle_initial_without_identifier",
+      "started_at": "2026-09-09T08:47:00Z",
+      "completed_at": "2026-09-09T09:13:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "One exact-name Army row and a labor-press editor candidate lack a direct identifier, OSS or Box 134 bridge; later airport and modern records are unrelated or sensitive.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. This is not evidence that no employer existed.",
+      "next_action": "Establish the identity in Box 134 before testing the Army and labor-press candidates.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch442-v1"
+    },
+    {
+      "key": "b442-person-joe-cole-review",
+      "person_id": "9ef2a574-ef20-5c06-9eed-58cc0783defc",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 86 and complete Army comparison; exact-name OSS/CIA, employer, occupation, obituary, institutional, newspaper, current Library of Congress, directory and archival checks for Joe Cole.",
+      "query_variant_type": "very_common_name_without_middle_initial_or_identifier",
+      "started_at": "2026-09-09T08:47:00Z",
+      "completed_at": "2026-09-09T09:13:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 14,
+      "rejection_reasons": "Six exact-name Army rows and numerous public candidates remain undifferentiated because none has an index identifier, middle initial or direct Box 134 bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. This is not evidence that no employer existed.",
+      "next_action": "Establish the full identity in Box 134 before testing common-name candidates.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch442-v1"
+    },
+    {
+      "key": "b442-person-john-o-cole-review",
+      "person_id": "36b48c6c-7087-5ee9-82f5-49f900e06062",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 87 and complete Army comparison; literal identifier test; exact-name OSS/CIA, employer, occupation, obituary, institutional, newspaper, current Library of Congress, directory and archival checks for John O Cole.",
+      "query_variant_type": "common_name_standard_identifier_without_literal_army_match",
+      "started_at": "2026-09-09T08:47:00Z",
+      "completed_at": "2026-09-09T09:13:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "No literal identifier match exists in the Army file; three exact-name Army rows and public candidates carry no direct Box 134 link.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. This is not evidence that no employer existed.",
+      "next_action": "Confirm the identifier and identity in Box 134.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch442-v1"
+    },
+    {
+      "key": "b442-person-joseph-g-cole-review",
+      "person_id": "8eafdcf1-0310-53f5-b8bb-ff60b4729c07",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 87 and complete Army comparison; exact-name OSS/CIA, employer, occupation, obituary, institutional, newspaper, current Library of Congress, directory and archival checks for Joseph G Cole.",
+      "query_variant_type": "common_name_middle_initial_without_identifier",
+      "started_at": "2026-09-09T08:47:00Z",
+      "completed_at": "2026-09-09T09:13:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "The one exact-name Army row and multiple public records lack a second identifier, direct OSS context or Box 134 linkage.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. This is not evidence that no employer existed.",
+      "next_action": "Establish the identity in Box 134 before selecting any candidate.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch442-v1"
+    },
+    {
+      "key": "b442-person-kathryn-b-cole-review",
+      "person_id": "874bbb80-f03f-5c50-8b69-392782bbd18e",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 87; exact-name OSS/CIA, employer, occupation, obituary, institutional, newspaper, current Library of Congress, directory and archival checks for Kathryn B Cole and Katherine spelling variants.",
+      "query_variant_type": "common_name_middle_initial_without_identifier",
+      "started_at": "2026-09-09T08:47:00Z",
+      "completed_at": "2026-09-09T09:13:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Newspaper, directory and same-name results supplied no corroborating OSS, Box 134, rank, identifier or wartime chronology; modern records were excluded.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. This is not evidence that no employer existed.",
+      "next_action": "Establish identity and chronology in Box 134.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch442-v1"
+    },
+    {
+      "key": "b442-person-manny-cole-review",
+      "person_id": "fa8fa6cc-d96d-5f4b-82fd-f9f39d977f2c",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 87 and complete Army comparison; exact private-identifier review; Manny and damaged Mjnny variants; exact-name OSS/CIA, newsboy, employer, occupation, obituary, institutional, newspaper, current Library of Congress, directory and archival checks.",
+      "query_variant_type": "identifier_match_with_damaged_army_name",
+      "started_at": "2026-09-09T08:47:00Z",
+      "completed_at": "2026-09-09T09:13:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Public same-name results lacked the exact identifier or Box 134 bridge; the Army occupation category names no newspaper, route or employer.",
+      "research_notes": "Confirmed the identity through the exact private identifier, preserved the damaged Army spelling and published only the qualified historical newsboy category.",
+      "next_action": "Confirm the spelling, employer and Army-to-OSS sequence in Box 134.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch442-v1"
+    },
+    {
+      "key": "b442-person-nathan-l-cole-review",
+      "person_id": "f35d0663-fd6a-5886-8353-e82a59cd39d5",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 87 and complete Army comparison; literal short-identifier review without padding; exact-name OSS/CIA, employer, occupation, obituary, institutional, newspaper, current Library of Congress, directory and archival checks for Nathan L Cole.",
+      "query_variant_type": "common_name_short_identifier_without_literal_army_match",
+      "started_at": "2026-09-09T08:47:00Z",
+      "completed_at": "2026-09-09T09:13:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "The one exact-name Army row cannot be selected from the short index value; older labor, cemetery, book and modern candidates lack an OSS or Box 134 bridge.",
+      "research_notes": "Preserved the seven-digit index value literally and retained unresolved identity and archival-review status.",
+      "next_action": "Determine the identifier system and full identity in Box 134.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch442-v1"
+    },
+    {
+      "key": "b442-person-raymond-t-cole-review",
+      "person_id": "b16cf49b-b509-5383-8b31-b03ba885dbeb",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 87 and complete Army comparison; exact private-identifier review; exact-name OSS/CIA, accountant, auditor, employer, occupation, obituary, institutional, newspaper, current Library of Congress, directory and archival checks for Raymond T Cole.",
+      "query_variant_type": "common_name_identifier_disambiguated_among_two_army_rows",
+      "started_at": "2026-09-09T08:47:00Z",
+      "completed_at": "2026-09-09T09:13:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "The other exact-name Army row and public candidates have different or missing identifiers; the official occupation category names no employer or client.",
+      "research_notes": "Confirmed the identity through the exact private identifier and published only the qualified accountants-and-auditors category at Army entry.",
+      "next_action": "Identify the actual work, employer and Army-to-OSS sequence in Box 134.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch442-v1"
+    },
+    {
+      "key": "b442-person-remsen-j-cole-review",
+      "person_id": "48a1eb2f-7da0-5757-a839-913057a727bd",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 87; exact-name OSS/CIA and Marine Corps checks; Remsen J Cole employment, public relations, employer, obituary, institutional, newspaper, current Library of Congress, professional-journal, directory and archival searches.",
+      "query_variant_type": "distinctive_name_official_oss_marine_roster_and_contemporary_employment",
+      "started_at": "2026-09-09T08:47:00Z",
+      "completed_at": "2026-09-09T09:13:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Cemetery and genealogy records were unnecessary for the identity and did not establish employment; search snippets and unrelated Remsen or Cole results were rejected. No source establishes the date he left the 1940 firm.",
+      "research_notes": "Accepted a high-confidence identity from the exact rare name in an official OSS Marine roster and a high-confidence documented 1940 self-employment claim from a contemporary professional journal. The firm is not promoted to immediate or last civilian employment.",
+      "next_action": "Establish Marine commission and OSS dates and test for intervening affiliations in Box 134 and official Marine records.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch442-v1"
+    }
+  ]
+}

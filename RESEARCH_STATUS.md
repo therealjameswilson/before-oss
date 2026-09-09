@@ -2,6 +2,29 @@
 
 Verified against the current local SQLite database on 2026-09-09 UTC.
 
+Batch 442 is a local release candidate awaiting independent release checks. It
+adds ten saved individual outcomes across PDF page 86 rows 44-46 and page 87
+rows 1-7, Frederic W Cole through Remsen J Cole, all in Box 134. Literal
+private-identifier matches in the complete official Army merged-file scan
+confirm Manny Cole, preserving the damaged Army form `Mjnny`, and Raymond T
+Cole as enlisted Army personnel. Their qualified newsboy and accountant-or-
+auditor categories remain occupation observations, never invented employers.
+An official Marine Corps history supports high-confidence Remsen J Cole as a
+commissioned Marine lieutenant colonel who served with OSS. A contemporary
+1940 journal author note separately documents his self-employment as head of
+Remsen J. Cole and Associates, a Philadelphia public-relations concern. That
+firm is published as a high-confidence documented-prewar affiliation, not as
+the immediate pre-OSS or last civilian employer because service chronology is
+not established. Frederic W Cole, Gordon H Cole, Joe Cole, John O Cole, Joseph
+G Cole, Kathryn B Cole and Nathan L Cole remain unresolved with specific Box
+134 questions. Short identifiers are not padded; name-only Army and public
+candidates are not selected. A full fresh replay, all 93 Python tests, nine
+focused cross-viewport checks, profile, link, identifier and dependency audits,
+and two deterministic Pages builds pass locally. Batch 439 is released and
+pinned-live verified; Batch 440 is in independent Test `34332938595`, with
+Batch 441 queued behind it. See `reports/release_batch_442.md` and
+`research/batch-442-discovery-checkpoint.md`.
+
 Batch 441 is a local release candidate awaiting independent release checks. It
 adds ten saved individual outcomes across PDF page 86 rows 34-43, Leoonard A
 Colavita through Frank Cole, spanning Boxes 133-135. Exact private-identifier
