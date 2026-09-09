@@ -2273,7 +2273,7 @@ test("Batch 024 preserves academic, government, military, and uncertain pathways
       }),
   ).toBeVisible();
   await expect(page.locator("body")).toContainText(
-    "No reliable pre-OSS civilian employer has yet been identified",
+    "No reliable pre-OSS employer has yet been identified",
   );
   expect(await page.locator("body").innerText()).not.toMatch(/\b\d{7,8}\b/);
 
