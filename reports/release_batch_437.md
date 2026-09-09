@@ -1,7 +1,7 @@
 # Batch 437 release verification
 
-2026-09-09 UTC. **Local release candidate; independent release checks
-pending.** This report covers PDF page 85 rows 40-46 and page 86 rows 1-3,
+2026-09-09 UTC. **Released and pinned-live verified.** This report covers PDF
+page 85 rows 40-46 and page 86 rows 1-3,
 Robert W Coe through Dorothy P Coggins, all in Box 132 at location
 230/86/28/07.
 
@@ -156,12 +156,19 @@ the 24,543-file / 272,427,085-byte production tree is
 Two consecutive exact Pages-configuration builds reproduce both tree digests
 and file counts.
 
-Batch 436 passed independent pull-request Test `34310687602`, merged to
-`main` as `42945da1953a1307df017f678b910493017f07f4`, deployed through Pages run
-`34313655088`, and passed pinned-live verification of all 67 manifest assets,
-seven core routes and ten direct profiles. Batch 437 requires its own
-independent pull-request Test, merge, deployment and pinned-live verification
-before it is described as released.
+Independent pull-request Test `34314054523` passed every stage in 34 minutes
+21 seconds. Pull request 192 merged to `main` as
+`74a437e0826b3a95ee677a9c82d61afe2c574d83` on 2026-09-09 at 06:00 UTC,
+and Pages run `34317209870` completed successfully. The pinned read-only check
+against immutable release commit
+`7bc35220f9104b9b964ac1f5614aae2a24674d81` matched all 67 manifest assets /
+85,587,446 bytes at SHA-256
+`399fa4f21f6ee89ffabf0516c1ec34d61d45600d745dffe28b5191c7f8f668b2`, seven
+core routes and all ten Batch 437 profiles at
+`https://therealjameswilson.github.io/before-oss/`. The merge-triggered main-
+branch Test `34317209813` remains separately recorded in GitHub Actions and
+does not alter the pinned release result. The preceding Batch 436 merge-
+triggered Test `34313655018` passed every stage.
 
 ```sh
 python3 -m oss_research import-reviewed-evidence research/evidence-pages-eighty-five-eighty-six-robert-w-coe-through-dorothy-p-coggins-pathways_batch-437_2026-09-09.json

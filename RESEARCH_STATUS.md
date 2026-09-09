@@ -2,7 +2,31 @@
 
 Verified against the current local SQLite database on 2026-09-09 UTC.
 
-Batch 437 is a local release candidate awaiting independent release checks. It
+Batch 438 is a local release candidate awaiting independent release checks. It
+adds ten saved individual outcomes across PDF page 86 rows 4-13, Mary M
+Coghlan through Leonard Cohen, spanning Boxes 132-133. Exact private-identifier
+and name matches in the complete official Army merged-file scan confirm Thomas
+B Cogley, Colby A Cogswell, Albert Cohen, Arthur A Cohen and Harry Cohen as
+enlisted Army personnel. Their decoded categories remain qualified occupation
+observations, never employer names. Dartmouth institutional evidence confirms
+the rare full name Colby Adams Cogswell, his Army status and wartime OSS service
+in Paris. A 1954 institutional notice, read with the official June 1943 Army-
+entry date, supports the First Boston Corporation as his best-supported last
+civilian employer. It is published at medium confidence with a visible temporal
+qualification, not as an immediate pre-OSS affiliation; his Dartmouth student,
+Army military and stock-and-bond occupation evidence remain separate. Mary M
+Coghlan, David C Cohen, Harold Cohen, Jean Cohen and Leonard Cohen remain
+unresolved. Famous and unbridged namesakes are rejected, and the five unresolved
+profiles retain physical-file questions. Full fresh replay, 93 Python tests,
+twelve focused cross-viewport checks, profile, link, identifier and dependency
+audits, and two deterministic Pages builds pass locally. Batch 437 passed
+independent Test `34314054523`, merged as
+`74a437e0826b3a95ee677a9c82d61afe2c574d83`, deployed through Pages run
+`34317209870`, and passed pinned-live verification. See
+`reports/release_batch_438.md` and
+`research/batch-438-discovery-checkpoint.md`.
+
+Batch 437 is released and pinned-live verified. It
 adds ten saved individual outcomes across PDF page 85 rows 40-46 and page 86
 rows 1-3, Robert W Coe through Dorothy P Coggins, all in Box 132. Exact
 private-identifier and name matches in the complete official Army merged-file
@@ -24,9 +48,10 @@ from public claims pending file review. Catherine R Coenen, Charles M Coffey,
 John W Coffey, Humbert Cofrances and Dorothy P Coggins remain unresolved.
 Full replay, 93 Python tests, twelve focused cross-viewport checks, profile,
 link, identifier and dependency audits, and two deterministic Pages builds
-pass locally. Batch 436 passed independent Test `34310687602`, merged as
-`42945da1953a1307df017f678b910493017f07f4`, deployed through Pages run
-`34313655088`, and passed pinned-live verification. See
+pass locally. Independent Test `34314054523`, PR 192, Pages `34317209870` and
+pinned verification of all 67 manifest assets, seven core routes and ten direct
+profiles subsequently passed. The earlier Batch 436 merge-triggered Test
+`34313655018` also passed every stage. See
 `reports/release_batch_437.md` and
 `research/batch-437-discovery-checkpoint.md`.
 
