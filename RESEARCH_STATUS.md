@@ -2,7 +2,28 @@
 
 Verified against the current local SQLite database on 2026-09-08 UTC.
 
-Batch 431 is a local release candidate awaiting independent release checks. It
+Batch 432 is a local release candidate awaiting independent release checks. It
+adds ten saved individual outcomes across PDF page 84 rows 36-45, Edward J
+Clinton through Evelyne Clopet, all in Box 130. Joseph F Clinton's exact
+private-identifier match supports a confirmed enlisted Army identity and the
+qualified Army-entry occupation `Embalmers and undertakers`; the category
+names no employer and has uncertain timing. Existing institutional evidence
+continues to support John L Clive's immediate Army affiliation and earlier
+University of North Carolina student status without converting either into a
+civilian employer. A private Artillery Officer Candidate School roster
+supports only probable-identity Charles K Cloninger and no pre-OSS affiliation.
+Official French defense and gendarmerie sources confirm Evelyne Clopet as a
+commissioned Allied officer, with the BCRA as her strongly date-bounded
+immediate military affiliation and earlier volunteer service in the Corps
+féminin des transmissions. No civilian employer is inferred. Edward J
+Clinton, Margery T Clinton, Frank T Cloak and Ida M Clohan remain unresolved;
+Jan Cloesmeyer and Elton Clohecy remain ambiguous. Full replay, 93 Python
+tests, twelve focused cross-viewport checks, link, profile, identifier and
+dependency audits and two deterministic Pages builds pass locally. Independent
+CI, merge, deployment and pinned-live checks remain pending. See
+`reports/release_batch_432.md` and `research/batch-432-discovery-checkpoint.md`.
+
+Batch 431 is released and pinned-live verified. It
 adds ten saved individual outcomes across PDF page 84 rows 26-35, Howard J
 Clifton through DeWitt Clinton, spanning Boxes 129-130. Exact private-
 identifier matches support confirmed enlisted Army identities for Howard J
@@ -19,8 +40,11 @@ a qualified probable identity for DeWitt Clinton but supplies no role or
 pre-OSS employer. Mary F Clifton, A C Cline, Jeraldine E Cline and Walter B
 Cline remain unresolved. A full replay, 93 Python tests, twelve focused
 cross-viewport checks, link, profile, identifier and dependency audits and the
-exact Pages build pass locally. Independent CI, merge, deployment and pinned-
-live checks remain pending. See `reports/release_batch_431.md` and
+exact Pages build pass locally. Independent Test `34275130997`, PR 188, Pages
+`34281181203`, pinned verification of all 67 manifest assets, seven core routes
+and ten direct profiles, and merge-triggered Test `34281181183` subsequently
+passed. The latter completed the authoritative 2,064-case gate in 50 minutes
+39 seconds. See `reports/release_batch_431.md` and
 `research/batch-431-discovery-checkpoint.md`.
 
 Batch 430 is released and pinned-live verified. It adds ten saved individual outcomes

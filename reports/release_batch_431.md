@@ -1,6 +1,6 @@
 # Batch 431 release verification
 
-2026-09-08 UTC. **Local release candidate; independent release checks pending.**
+2026-09-08 UTC. **Released and pinned-live verified.**
 This report covers ten source records on PDF page 84 rows 26-35, Howard J
 Clifton through DeWitt Clinton, spanning Boxes 129-130 at location
 230/86/28/07.
@@ -166,10 +166,16 @@ the restricted npm install process ended with npm's internal `Exit handler
 never called!` error. Repeating only dependency installation with permitted
 network access succeeded for 288 packages with zero vulnerabilities; the
 exact Pages build then produced the counts and digests above. A second
-projection and build must reproduce them before the branch is released.
+projection and build reproduced them before release.
 
-Independent Test, pull-request merge, Pages deployment and pinned-live
-verification remain pending at this release-candidate stage.
+Independent Test `34275130997` passed against exact release commit
+`da6f0cad67d3f69c5eed01eb6b5c535c21341b60` in 45 minutes 18 seconds. PR 188
+merged at 2026-09-08T21:32:32Z as
+`1339f6c40c270b84d1443c23ad5d8084e5c27dd7`; Pages run `34281181203` passed,
+and pinned verification matched all 67 manifest assets / 85,140,258 bytes,
+seven core routes and ten direct cohort profiles. The supplementary
+merge-triggered Test `34281181183` passed the complete 2,064-case gate in 50
+minutes 39 seconds.
 
 ```sh
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eighty-four-howard-j-clifton-through-dewitt-clinton-pathways_batch-431_2026-09-08.json

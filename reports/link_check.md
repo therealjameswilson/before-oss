@@ -2,7 +2,28 @@
 
 Run: 2026-09-08 UTC
 
-## Batch 431 release candidate
+## Batch 432 release candidate
+
+All internal targets resolve across 24,470 HTML pages; 49,627 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,542 artifacts,
+12,926 normalized identifiers, 120 formatted variants and 1,083 candidate
+substring coincidences with zero unexpected boundary, aggregate or manifest-
+size matches. The public manifest has 67 assets / 85,211,408 bytes at SHA-256
+`a9cec3f4f7e64376ce1f335db4cee0bc5bf8b5d68beafb7944a69ec7994cff53`.
+The public-tree digest is
+`3d6ff51e7a3354dbcddde81bff043a08fac0579f622e31462aedd6a4db5be28c`;
+the production-tree digest is
+`f3ca0edc0779db8769889f1a9683c66572974517929561425a8de7e992b9b44a`.
+A full replay and two consecutive exact Pages-configuration builds reproduce
+both tree digests and file counts. Six of eight Batch 432 citation destinations
+returned HTTP 200. The Gendarmerie nationale page returned HTTP 403 and the
+Service historique de la Défense catalog returned HTTP 503 to generic bounded
+automated GET requests; both had been reviewed as evidence, and no access
+control was bypassed. No authenticated Catalog request was used. Independent
+Test, merge, Pages and pinned-live checks remain pending; see
+`reports/release_batch_432.md`.
+
+## Batch 431 release
 
 All internal targets resolve across 24,468 HTML pages; 49,623 external URLs
 are inventoried, not all visited. Identifier checks cover all 24,540 artifacts,
@@ -17,8 +38,12 @@ the production-tree digest is
 All five Batch 431 citation destinations returned HTTP 200 in bounded HEAD
 checks. No authenticated Catalog request or access-control bypass was used.
 Two consecutive exact Pages-configuration builds reproduce both tree digests
-and file counts. Independent Test, merge, Pages and pinned-live checks remain
-pending; see `reports/release_batch_431.md`.
+and file counts. Independent Test `34275130997`, PR 188 and Pages
+`34281181203` passed. Pinned verification against
+`da6f0cad67d3f69c5eed01eb6b5c535c21341b60` matched all 67 assets /
+85,140,258 bytes, seven core routes and ten direct profiles. The supplementary
+merge-triggered Test `34281181183` also passed in 50 minutes 39 seconds; see
+`reports/release_batch_431.md`.
 
 ## Batch 430 release
 

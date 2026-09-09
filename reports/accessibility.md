@@ -4,6 +4,22 @@ Run: 2026-09-08 UTC
 
 ## Result
 
+Batch 432: the focused four-scenario suite covers data semantics and rendered
+profiles/directories across desktop, phone and tablet. All twelve checks pass
+after the deterministic full replay, 12/12 in 15.1 seconds. Two earlier clean
+runs also passed 12/12; the first used an incorrect test-only expectation for
+the canonical University of North Carolina name, which was corrected without
+changing evidence or interface behavior. The suite verifies Joseph F Clinton's
+occupation/employer distinction, Evelyne Clopet's separate Allied military
+affiliations, the qualified Charles K Cloninger identity, John L Clive's
+existing chronology, all ten immutable source rows and identifier masking.
+Astro 7's preview process is explicitly kept in the foreground for reliable
+test teardown. The exact Pages build reports zero Astro errors, warnings or
+hints. No new local complete axe matrix was run; the focused suite and
+structural checks do not replace the independent full release gate.
+Independent Test, merge, Pages and pinned-live verification remain pending.
+See `reports/release_batch_432.md`.
+
 Batch 431: the corrected focused four-scenario suite covers data semantics and
 rendered profiles/directories across desktop, phone and tablet. All twelve
 checks pass twice, most recently in 6.9 seconds after the deterministic
@@ -16,8 +32,10 @@ the suite still verifies the note in generated public data, all ten immutable
 source rows, identifier masking and a representative rendered search. The
 exact Pages build reports zero Astro errors, warnings or hints. No new local
 complete axe matrix was run; the focused suite and structural checks do not
-replace the independent full release gate. Independent Test, merge, Pages and
-pinned-live verification remain pending. See
+replace the independent full release gate. Independent Test `34275130997`, PR
+188, Pages `34281181203`, pinned-live verification and supplementary
+merge-triggered Test `34281181183` subsequently passed; the latter repeated the
+complete 2,064-case matrix in 50 minutes 39 seconds. See
 `reports/release_batch_431.md`.
 
 Batch 430: the focused four-scenario suite covers data semantics and rendered
