@@ -166,10 +166,12 @@ the 24,548-file / 273,203,556-byte production tree is
 The pre-replay and clean-replay exact Pages builds reproduce both tree digests
 and file counts.
 
-Batch 439 is the last pinned-live verified release at the time of this local
-report. Batch 440 is in independent pull-request Test `34332938595`; it must
-pass, merge, deploy and complete pinned-live verification before Batch 441 and
-then Batch 442 can advance through their own independent gates.
+Batch 441 is the latest pinned-live verified release at the time of this local
+report. It passed independent Test `34338589582`, merged through PR 196 as
+`3bfb8547c2392539fb9af613427e56c7c9ae236f`, deployed through Pages run
+`34342153869`, and passed pinned-live verification of all 67 manifest assets,
+seven core routes and ten direct profiles. Batch 442 is next in the independent
+release queue.
 
 ```sh
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eighty-six-eighty-seven-frederic-w-cole-through-remsen-j-cole-pathways_batch-442_2026-09-09.json

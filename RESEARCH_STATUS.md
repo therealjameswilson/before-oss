@@ -20,12 +20,12 @@ G Cole, Kathryn B Cole and Nathan L Cole remain unresolved with specific Box
 134 questions. Short identifiers are not padded; name-only Army and public
 candidates are not selected. A full fresh replay, all 93 Python tests, nine
 focused cross-viewport checks, profile, link, identifier and dependency audits,
-and two deterministic Pages builds pass locally. Batch 439 is released and
-pinned-live verified; Batch 440 is in independent Test `34332938595`, with
-Batch 441 queued behind it. See `reports/release_batch_442.md` and
+and two deterministic Pages builds pass locally. Batch 441 is released and
+pinned-live verified; Batch 442 is next in the independent release queue. See
+`reports/release_batch_442.md` and
 `research/batch-442-discovery-checkpoint.md`.
 
-Batch 441 is a local release candidate awaiting independent release checks. It
+Batch 441 is released and pinned-live verified. It
 adds ten saved individual outcomes across PDF page 86 rows 34-43, Leoonard A
 Colavita through Frank Cole, spanning Boxes 133-135. Exact private-identifier
 and name matches in the complete official Army merged-file scan confirm
@@ -45,8 +45,11 @@ cross-viewport checks, profile, link, identifier and dependency audits, and two
 deterministic Pages builds pass locally. Batch 440 passed independent Test
 `34332938595`, merged through PR 195 as
 `63f8d33dda89540ec1bffd89c1bafc54eed08c0f`, deployed through Pages run
-`34337696726`, and passed pinned-live verification. Batch 441 remains pending
-its own independent release gate. See
+`34337696726`, and passed pinned-live verification. Batch 441 passed independent
+Test `34338589582`, merged through PR 196 as
+`3bfb8547c2392539fb9af613427e56c7c9ae236f`, deployed through Pages run
+`34342153869`, and passed pinned-live verification of all 67 manifest assets,
+seven core routes and ten direct profiles. See
 `reports/release_batch_441.md` and
 `research/batch-441-discovery-checkpoint.md`.
 
