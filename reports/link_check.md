@@ -1,6 +1,24 @@
 # Link check
 
-Run: 2026-09-08 UTC
+Run: 2026-09-09 UTC
+
+## Batch 452 release candidate
+
+All internal targets resolve across 24,488 HTML pages; 49,691 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,560 artifacts,
+12,926 normalized identifiers, 120 formatted variants and 1,092 candidate
+substring coincidences with zero unexpected boundary, aggregate or manifest-
+size matches. The public manifest has 67 assets / 86,916,674 bytes at SHA-256
+`e747a5b030b76656c659985d00d397199c3fa8d97ef4e767191db025219c0679`.
+The public-tree digest is
+`a5fd36305095fe560ec9eab758e795546893a1cfd1f93f4fead99f3168f58056`;
+the production-tree digest is
+`d7b46f236eb1985cab1eeda353d9a9902e0e276204840647cc76eff3d1162b0e`.
+Two consecutive fresh Pages-configuration builds reproduce both tree digests
+and file counts. All five distinct Batch 452 citation destinations returned
+HTTP 200. No authenticated Catalog request was used. Independent Test, merge,
+Pages and pinned-live checks remain pending; see
+`reports/release_batch_452.md`.
 
 ## Batch 433 release candidate
 

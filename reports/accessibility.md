@@ -1,8 +1,20 @@
 # Accessibility and responsive QA
 
-Run: 2026-09-08 UTC
+Run: 2026-09-09 UTC
 
 ## Result
+
+Batch 452: the complete retries-disabled 2,301-case local browser and
+accessibility matrix passed 2,301/2,301 in one uninterrupted 17.0-minute run
+across desktop, phone and tablet. The focused Batch 452 suite also passed all
+fifteen checks across those layouts. It verifies four exact identifier-backed
+Army occupations, Edward T Cone's student/employer distinction, William A
+Condon's damaged-source qualification, Lucien E Conein's unchanged five-claim
+pathway, all ten immutable source rows, archive-routing for the unresolved
+profiles and identifier masking. Two consecutive fresh Pages-configuration
+builds are content-identical and report 76 Astro files with zero errors,
+warnings or hints. Independent Test, merge, Pages and pinned-live checks remain
+pending; see `reports/release_batch_452.md`.
 
 Batch 433: the focused four-scenario suite covers data semantics and rendered
 profiles/directories across desktop, phone and tablet. All twelve checks pass
