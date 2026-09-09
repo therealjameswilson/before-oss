@@ -3032,11 +3032,11 @@ test("Batch 032 preserves Area B command, engineer, occupation-only, and identit
   ).toBeVisible();
   await expect(page.getByText("ambiguous", { exact: true }).first()).toBeVisible();
   await expect(
-    page.getByText("needs identity review", { exact: true }).first(),
+    page.getByText("requires archival review", { exact: true }).first(),
   ).toBeVisible();
   await expect(page.locator("body")).toContainText("Box 133");
   await expect(page.locator("body")).toContainText(
-    "no reviewed service-number or file linkage establishes",
+    "but no service-number or file linkage establishes",
   );
   await expect(
     page.locator('section[aria-labelledby="immediate-affiliation"]'),
