@@ -2,7 +2,31 @@
 
 Verified against the current local SQLite database on 2026-09-09 UTC.
 
-Batch 435 is a local release candidate awaiting independent release checks. It
+Batch 436 is a local release candidate awaiting independent release checks. It
+adds ten saved individual outcomes across PDF page 85 rows 30-39, Nick J
+Cocoris through Chester Cody, spanning Boxes 131-132. Exact private-identifier
+and name matches in the complete official Army merged-file scan confirm Nick J
+Cocoris, Avery L Coddens, the identifier-bearing Ernest J Codekas entity and
+George N Codino as enlisted Army personnel. Their decoded categories remain
+qualified observations: general industry clerk, student, manufacturing
+foreman, and chauffeur/driver. None names an employer, and student status is
+not recast as employment. Scholarly and institutional evidence supports high-
+confidence John I Coddington as John Insley Coddington, an OSS Research
+Specialist, and documents his 1930-1936 Harvard History Department teaching as
+medium-confidence earlier pre-OSS employment, not his immediate affiliation or
+last civilian employer. National Army Museum evidence supports high-confidence
+Sergeant Chester Cody with Kachin Rangers and American OSS operations in 1945,
+but supplies no pre-OSS employer. His printed seven-digit identifier is not
+silently padded to select a zero-prefixed Army row. The duplicate William S
+Codd and Ernest J Codekas clusters remain separate and visible, while Eliot
+Codman remains unresolved. Full replay, 93 Python tests, twelve focused cross-
+viewport checks, profile, link, identifier and dependency audits, and two
+deterministic Pages builds pass locally. Batches 433-435 passed independent
+review, merged, deployed and were pinned-live verified. See
+`reports/release_batch_436.md` and
+`research/batch-436-discovery-checkpoint.md`.
+
+Batch 435 is released and pinned-live verified. It
 adds ten saved individual outcomes across PDF page 85 rows 20-29, Donald E
 Cobleigh through Lyle N Cockerille, all in Box 131. A complete official Army
 merged-file scan confirms Angelo Coccoli by exact name and private identifier
@@ -20,11 +44,13 @@ Cochran, Jefferson Cochran, Major B Cochran, Barbara L Cochrane and Lyle N
 Cockerille remain unresolved. `Major` is preserved as a first name, not read
 as rank. The full replay, all 93 Python tests, twelve focused cross-viewport
 checks, profile, link, identifier and dependency audits, and the exact Pages
-build pass locally. Independent release checks remain pending. See
+build pass. Independent Test `34306691024`, PR 190, Pages `34309668867` and
+pinned verification of all 67 manifest assets, seven core routes and ten
+direct profiles subsequently passed. See
 `reports/release_batch_435.md` and
 `research/batch-435-discovery-checkpoint.md`.
 
-Batch 434 is a local release candidate awaiting independent release checks. It
+Batch 434 is released and pinned-live verified. It
 adds ten saved individual outcomes across PDF page 85 rows 10-19, Philip B
 Coan through Anne M Coblean, spanning Boxes 130-131. Exact private-identifier
 and name matches in the complete official Army merged-file scan confirm
@@ -40,14 +66,14 @@ Robert B Coates are not merged, and Jane E Coates, Lucille A Coates, Eleanor
 Cobb and Anne M Coblean remain unresolved. Anne's unusual printed surname is
 preserved rather than silently corrected. The full replay, all 93 Python
 tests, twelve focused cross-viewport checks, profile, link, identifier and
-dependency audits, and two deterministic Pages builds pass locally. Batch 432
-is now released and pinned-live verified; Batches 433-435 share the current
-release-candidate branch and still require their independent Test, merge,
-deployment and pinned-live checks. See
+dependency audits, and two deterministic Pages builds pass. Independent Test
+`34306691024`, PR 190, Pages `34309668867` and pinned verification of all 67
+manifest assets, seven core routes and ten direct profiles subsequently
+passed. See
 `reports/release_batch_434.md` and
 `research/batch-434-discovery-checkpoint.md`.
 
-Batch 433 is a local release candidate awaiting independent release checks. It
+Batch 433 is released and pinned-live verified. It
 adds ten saved individual outcomes across PDF page 84 row 46 and page 85 rows
 1-9, John Closson through Howard R Coan, all in Box 130. Exact private-
 identifier matches confirm Lawrence W Cloutier, Wilbert A Clower and William
@@ -64,10 +90,10 @@ employment. None is promoted to immediate pre-OSS or last civilian employment.
 John Closson, Elinor Cloutier, James C Cloyd, Helen I Coakley and Howard R Coan
 remain unresolved. Full replay, 93 Python tests, twelve focused cross-viewport
 checks, the repaired three-viewport legacy regression, link, profile,
-identifier and dependency audits, and two deterministic Pages builds pass
-locally. Batch 432 is now released and pinned-live verified. Batches 433-435
-share the current release-candidate branch; their independent CI, merge,
-deployment and pinned-live checks remain pending. See
+identifier and dependency audits, and two deterministic Pages builds pass.
+Independent Test `34306691024`, PR 190, Pages `34309668867` and pinned
+verification of all 67 manifest assets, seven core routes and ten direct
+profiles subsequently passed. See
 `reports/release_batch_433.md` and
 `research/batch-433-discovery-checkpoint.md`.
 

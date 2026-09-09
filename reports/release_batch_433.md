@@ -1,7 +1,7 @@
 # Batch 433 release verification
 
-2026-09-08 UTC. **Local release candidate; independent release checks pending.**
-This report covers PDF page 84 row 46 and page 85 rows 1-9, John Closson
+2026-09-09 UTC. **Released and pinned-live verified.** This report covers PDF
+page 84 row 46 and page 85 rows 1-9, John Closson
 through Howard R Coan, all in Box 130 at location 230/86/28/07.
 
 ## Research
@@ -175,13 +175,18 @@ the 24,543-file / 272,011,487-byte production tree is
 Two consecutive projections and exact Pages-configuration builds, including
 the full replay, reproduce both tree digests and file counts.
 
-Batch 432's replacement independent Test `34300919657` passed every stage; PR
-189 merged as `bc3b6a3c7278e88d0e66715d4c76b0c7236f4593`; Pages run
-`34304199897` succeeded; and pinned verification against immutable release
-commit `0f6a59db206623db5da53666d475d25c676f3ecc` matched all 67 assets,
-seven core routes and ten direct profiles. Batches 433-435 share the current
-release-candidate branch and still require an independent pull-request Test,
-merge, Pages deployment and pinned-live verification.
+Independent pull-request Test `34306691024` passed every stage in 39 minutes
+8 seconds. Pull request 190 merged to `main` as
+`dbf7c9bc981fee5698bbaf7e4295cf26f09fbb9e` on 2026-09-09 at 04:06 UTC,
+and Pages run `34309668867` completed successfully. The pinned read-only check
+against immutable release commit
+`ceb84b956be87abfd0b7623b306cf8430e2b4d30` matched all 67 manifest assets /
+85,402,321 bytes at SHA-256
+`4d666a735bf5dbd8bab0750918b20eef1788717be902711840185b2ba6891587`, seven
+core routes and all ten Batch 433 profiles at
+`https://therealjameswilson.github.io/before-oss/`. The merge-triggered main-
+branch Test remains separately recorded in GitHub Actions and does not alter
+the pinned release result.
 
 ```sh
 python3 -m oss_research import-reviewed-evidence research/evidence-pages-eighty-four-eighty-five-john-closson-through-howard-coan-pathways_batch-433_2026-09-08.json
