@@ -2,7 +2,32 @@
 
 Verified against the current local SQLite database on 2026-09-09 UTC.
 
-Batch 440 is a local release candidate awaiting independent release checks. It
+Batch 441 is a local release candidate awaiting independent release checks. It
+adds ten saved individual outcomes across PDF page 86 rows 34-43, Leoonard A
+Colavita through Frank Cole, spanning Boxes 133-135. Exact private-identifier
+and name matches in the complete official Army merged-file scan confirm
+Leoonard/Leonard A Colavita, Calvin Colding/Calvin H Colding, Charles H Cole/
+Coles Jr. and Francis J Cole as enlisted Army personnel. Leonard, Charles and
+Francis receive qualified student-status observations, modeled as `student`
+rather than employment; Calvin receives only the broad historical chauffeur
+and driver category, never an inferred employer or vehicle. A visually checked
+1943 federal manual supports a probable John A Colborn identity and OSS-era
+mileage-administrator role, but not a pre-OSS employer. William E Colby's
+existing high-confidence identity and immediate Army affiliation remain; his
+terminal status is corrected to archival review because a military assignment
+is not an employer. John H Colby, Anita B Cole, Betina Cole and Frank Cole
+remain unresolved. Short identifiers are not padded, and printed spellings and
+variants remain visible. Full fresh replay, 93 Python tests, twelve focused
+cross-viewport checks, profile, link, identifier and dependency audits, and two
+deterministic Pages builds pass locally. Batch 440 passed independent Test
+`34332938595`, merged through PR 195 as
+`63f8d33dda89540ec1bffd89c1bafc54eed08c0f`, deployed through Pages run
+`34337696726`, and passed pinned-live verification. Batch 441 remains pending
+its own independent release gate. See
+`reports/release_batch_441.md` and
+`research/batch-441-discovery-checkpoint.md`.
+
+Batch 440 is released and pinned-live verified. It
 adds ten saved individual outcomes across PDF page 86 rows 24-33, Martin G
 Cohn through Alfred Colandrea, all in Box 133. Exact private-identifier and name
 matches in the complete official Army merged-file scan confirm Myron Cohn,
@@ -21,7 +46,11 @@ focused cross-viewport checks, profile, link, identifier and dependency audits,
 and two deterministic Pages builds pass locally. Batch 439 passed independent
 Test `34327575176`, merged through PR 194 as
 `11a624cd12efc26706c3b0dc53dd4f4c6ebb8625`, deployed through Pages run
-`34332364255`, and passed pinned-live verification. See
+`34332364255`, and passed pinned-live verification. Batch 440 then passed Test
+`34332938595`, merged through PR 195 as
+`63f8d33dda89540ec1bffd89c1bafc54eed08c0f`, deployed through Pages run
+`34337696726`, and passed pinned-live verification of all 67 manifest assets,
+seven core routes and ten direct profiles. See
 `reports/release_batch_440.md` and
 `research/batch-440-discovery-checkpoint.md`.
 
