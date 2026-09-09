@@ -2,6 +2,30 @@
 
 Verified against the current local SQLite database on 2026-09-09 UTC.
 
+Batch 450 is a local release candidate with complete local QA passing. It adds
+ten saved person outcomes across PDF page 88 rows 32-41, Simone J Companardi
+through Alfred F Conard, all in Box 137. A complete 9,200,232-record official
+Army scan leaves the common-name Compton candidates unassigned and preserves
+Charles R Compton's literal six-digit value without padding. Official 1917
+Congressional Record evidence and the West Point register support
+high-confidence commissioned officer Coalter Bates Compton; his Cavalry Arm
+appointment is labeled earlier documented prewar service, never the immediate
+pre-OSS assignment. Army, Grinnell, Washington University and Columbia
+evidence supports high-confidence Alfred Fletcher Conard and a visibly
+qualified medium-confidence University of Kansas City School of Law
+last-civilian-employer candidate; his separate `Lawyers and judges` Army-entry
+category is not turned into a firm or employer. Eight people remain unresolved.
+All 93 Python tests, twelve focused cross-viewport checks, the complete 2,271 /
+2,271 browser and accessibility matrix, profile, link, dependency and
+identifier audits, and two byte-identical clean 24,484-page Pages builds pass
+locally. Exact coverage is 4,275 / 23,940 researched, 510 verified
+affiliations, 226 verified employers, 4,230 archival dispositions assessed and
+19,665 `not_started`. Batches 443-445, 446 and 447 remain preserved in open,
+clean PRs 198-200 with independent Tests passing; Batches 448-450 are complete
+local release candidates pending explicit publication authorization. See
+`reports/release_batch_450.md` and
+`research/batch-450-discovery-checkpoint.md`.
+
 Batch 449 is a local release candidate with complete local QA passing. It adds
 ten saved person outcomes across PDF page 88 rows 22-31, Albert R Combs through
 Raymond Compain, all in Box 136. Exact private-identifier matches in the
