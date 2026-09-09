@@ -2,6 +2,29 @@
 
 Verified against the current local SQLite database on 2026-09-09 UTC.
 
+Batch 449 is a local release candidate with complete local QA passing. It adds
+ten saved person outcomes across PDF page 88 rows 22-31, Albert R Combs through
+Raymond Compain, all in Box 136. Exact private-identifier matches in the
+complete 9,200,232-record official Army merged-file scan confirm Albert R
+Combs, Joseph F Comerford and Adolph Commodaro, but Albert's post-OSS Army-entry
+date supports no pre-OSS result. Joseph's actor category and Adolph's tailor
+category remain qualified occupations, never employers. A direct NARA OSS
+roster supports high-confidence First Lieutenant Howard G Comfort while
+preserving his transposed-identifier conflict. Nicholas H Cominos receives a
+visibly qualified medium-confidence Cominos Hotel last-civilian-employer
+candidate; Raymond Compain's Team HERMIT bodyguard role is used for identity,
+not misrepresented as a pre-OSS affiliation. Four people remain unresolved.
+All 93 Python tests, twelve focused cross-viewport checks, the complete 2,259 /
+2,259 browser and accessibility matrix, profile, link, dependency and
+identifier audits, and two byte-identical clean 24,482-page Pages builds pass
+locally. Exact coverage is 4,265 / 23,940 researched, 509 verified
+affiliations, 226 verified employers, 4,220 archival dispositions assessed and
+19,675 `not_started`. Batches 443-445, 446 and 447 remain preserved in open,
+clean PRs 198-200 with independent Tests passing; Batches 448 and 449 are
+complete local release candidates pending explicit publication authorization.
+See `reports/release_batch_449.md` and
+`research/batch-449-discovery-checkpoint.md`.
+
 Batch 448 is a local release candidate with complete local QA passing. It adds
 ten saved person outcomes across PDF page 88 rows
 12-21, Lola Colonel through Don P Combe, spanning Boxes 136 and 141. The
