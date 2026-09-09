@@ -1,8 +1,8 @@
 # Batch 436 release verification
 
-2026-09-09 UTC. **Local release candidate; independent release checks
-pending.** This report covers PDF page 85 rows 30-39, Nick J Cocoris through
-Chester Cody, spanning Boxes 131-132 at location 230/86/28/07.
+2026-09-09 UTC. **Released and pinned-live verified.** This report covers PDF
+page 85 rows 30-39, Nick J Cocoris through Chester Cody, spanning Boxes
+131-132 at location 230/86/28/07.
 
 ## Research
 
@@ -151,11 +151,19 @@ the 24,543-file / 272,305,260-byte production tree is
 Two consecutive exact Pages-configuration builds reproduce both tree digests
 and file counts.
 
-Batches 433-435 passed their independent pull-request Test and merged as
-`dbf7c9bc981fee5698bbaf7e4295cf26f09fbb9e`; their merge-triggered Test,
-Pages deployment and pinned-live verification are still pending. Batch 436
-requires its own independent pull-request Test, merge, deployment and pinned-
-live verification before it is described as released.
+Independent pull-request Test `34310687602` passed every stage in 44 minutes
+57 seconds. Pull request 191 merged to `main` as
+`42945da1953a1307df017f678b910493017f07f4` on 2026-09-09 at 05:08 UTC,
+and Pages run `34313655088` completed successfully. The pinned read-only check
+against immutable release commit
+`6eb6b42ffbe4d3b0f7a543ecb9c6a0d893a56b9f` matched all 67 manifest assets /
+85,502,384 bytes at SHA-256
+`a533bd4da2f296e9e4844ac7c980245b3590fb5ba0d555ae290a7086e724d0fa`, seven
+core routes and all ten Batch 436 profiles at
+`https://therealjameswilson.github.io/before-oss/`. The merge-triggered main-
+branch Test `34313655018` remains separately recorded in GitHub Actions and
+does not alter the pinned release result. The preceding Batches 433-435 merge-
+triggered Test `34309668881` also passed every stage.
 
 ```sh
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eighty-five-nick-j-cocoris-through-chester-cody-pathways_batch-436_2026-09-09.json

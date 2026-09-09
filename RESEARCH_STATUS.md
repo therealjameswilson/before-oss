@@ -2,7 +2,35 @@
 
 Verified against the current local SQLite database on 2026-09-09 UTC.
 
-Batch 436 is a local release candidate awaiting independent release checks. It
+Batch 437 is a local release candidate awaiting independent release checks. It
+adds ten saved individual outcomes across PDF page 85 rows 40-46 and page 86
+rows 1-3, Robert W Coe through Dorothy P Coggins, all in Box 132. Exact
+private-identifier and name matches in the complete official Army merged-file
+scan confirm Robert W Coe and Henry G Coffee as enlisted Army personnel. Their
+decoded categories remain qualified observations: accountants and auditors,
+and general farm hands. Neither identifies an employer. Contemporary
+institutional evidence supports high-confidence Frederic E Coenen as
+University of North Carolina professor Frederic Edward Coenen and documents
+the university as his qualified last civilian employer before winter 1944-
+1945 government work; the source does not name OSS, so the university is not
+promoted to his immediate affiliation. A November 1942 contemporary notice
+supports high-confidence Robert M Coffin, explicitly linking leave from the
+Ohio State University teaching staff with OSS Cartographic Division work.
+Ohio State is published at high confidence as both immediate affiliation and
+last civilian employer. Cyril M Coggins remains only probable: his printed
+seven-digit identifier has no literal Army match, the different-identifier
+exact-name Army row is rejected, and a secondary twin-brother lead is withheld
+from public claims pending file review. Catherine R Coenen, Charles M Coffey,
+John W Coffey, Humbert Cofrances and Dorothy P Coggins remain unresolved.
+Full replay, 93 Python tests, twelve focused cross-viewport checks, profile,
+link, identifier and dependency audits, and two deterministic Pages builds
+pass locally. Batch 436 passed independent Test `34310687602`, merged as
+`42945da1953a1307df017f678b910493017f07f4`, deployed through Pages run
+`34313655088`, and passed pinned-live verification. See
+`reports/release_batch_437.md` and
+`research/batch-437-discovery-checkpoint.md`.
+
+Batch 436 is released and pinned-live verified. It
 adds ten saved individual outcomes across PDF page 85 rows 30-39, Nick J
 Cocoris through Chester Cody, spanning Boxes 131-132. Exact private-identifier
 and name matches in the complete official Army merged-file scan confirm Nick J
@@ -21,8 +49,10 @@ silently padded to select a zero-prefixed Army row. The duplicate William S
 Codd and Ernest J Codekas clusters remain separate and visible, while Eliot
 Codman remains unresolved. Full replay, 93 Python tests, twelve focused cross-
 viewport checks, profile, link, identifier and dependency audits, and two
-deterministic Pages builds pass locally. Batches 433-435 passed independent
-review, merged, deployed and were pinned-live verified. See
+deterministic Pages builds pass locally. Independent Test `34310687602`, PR
+191, Pages `34313655088` and pinned verification of all 67 manifest assets,
+seven core routes and ten direct profiles subsequently passed. Batches 433-435
+also passed their merge-triggered Test `34309668881`. See
 `reports/release_batch_436.md` and
 `research/batch-436-discovery-checkpoint.md`.
 
