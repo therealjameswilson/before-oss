@@ -2,6 +2,30 @@
 
 Verified against the current local SQLite database on 2026-09-09 UTC.
 
+Batch 448 is a local release candidate with complete local QA passing. It adds
+ten saved person outcomes across PDF page 88 rows
+12-21, Lola Colonel through Don P Combe, spanning Boxes 136 and 141. The
+complete 9,200,232-record official Army merged-file scan confirms Joseph S
+Comastra by exact private identifier and supports only a qualified broad
+chauffeur/driver occupation at Army entry, not an employer. A Washington Post
+obituary supports high-confidence Frances Richey Colosimo, her 1930s research-
+technician employment with the American Bottlers of Carbonated Beverages, and
+later OSS documents work; the employer is documented prewar but not proved
+immediate. An obituary supports high-confidence Constance Colt Bassett and
+explicitly sequences her New York work for the Free French immediately before
+OSS, while leaving her personal role blank. Harold Lee Colvocoresses remains a
+probable identity and archival lead rather than a published employer claim.
+Six people remain unresolved; Robert C Colson's and Don P Combe's seven-digit
+values remain literal and unpadded. All 93 Python tests, nine focused cross-
+viewport checks, the complete 2,247 / 2,247 browser and accessibility matrix,
+profile, link and identifier audits, and two byte-identical clean 24,481-page
+Pages builds pass locally. Exact coverage is 4,255 / 23,940 researched, 509
+verified affiliations, 226 verified employers, 4,210 archival dispositions
+assessed and 19,685 `not_started`. Batches 443-445, 446 and 447 remain preserved
+in open, clean PRs 198-200 with independent Tests `34354744527`, `34361660741`
+and `34368546155` passing; merge requires explicit approval. See
+`reports/release_batch_448.md` and `research/batch-448-discovery-checkpoint.md`.
+
 Batch 447 is a local release candidate awaiting independent release checks. It
 adds ten saved person outcomes across PDF page 88 rows 2-11, Rose L Collins
 through Peter J Colombo, spanning Boxes 135-136. Exact private-identifier

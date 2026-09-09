@@ -1,0 +1,735 @@
+{
+  "bundle_version": "before-oss-reviewed-public-batch448-v1",
+  "reviewer": "Before OSS research pipeline",
+  "sources": [
+    {
+      "key": "index-b448",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; complete PDF page 88 visually inspected at 150 dpi; rows 12-21; Boxes 136 and 141; location 230/86/29/01",
+      "access_date": "2026-09-09",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Citation and project-authored assessments only. Printed names, initials, identifier forms, boxes and location are preserved; full private identifiers are not published."
+    },
+    {
+      "key": "army-b448",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; complete transient scan of 9,200,232 fixed-width records; Joseph S Comastra matched by exact private identifier despite omission of his middle initial in the Army row; Robert C Colson's and Don P Combe's seven-digit printed values were preserved literally and excluded from exact eight-digit matching; all exact-name candidates reviewed for the ten-person cohort",
+      "access_date": "2026-09-09",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "Reviewed transiently outside version control. No raw row or full private identifier is retained. The file is incomplete and is not an officer, Navy, Marine Corps, women's-service or comprehensive OSS roster; a non-hit is not negative proof."
+    },
+    {
+      "key": "basic-b448",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-45; fixed-width identifier, name, Army-entry-date, grade, branch, education and civilian-occupation fields visually and textually checked",
+      "access_date": "2026-09-09",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only. The documentation warns about source damage, alternate interpretations, alternate card layouts, coding limits and incomplete coverage."
+    },
+    {
+      "key": "codes-b448",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical page 174; civilian-occupation entry 5,7-36 visually and textually checked",
+      "access_date": "2026-09-09",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Only the short historical occupational label is retained. The category names neither an employer nor workplace and does not establish chronology relative to OSS service."
+    },
+    {
+      "key": "washington-post-frances-colosimo-b448",
+      "stable_url": "https://www.washingtonpost.com/archive/local/1991/04/04/derek-m-schoen-journalist-and-speechwriter-dies-at-55/22982326-d8d0-4694-afd6-033430e9f75a/",
+      "title": "Frances R. Colosimo: Arlington Librarian",
+      "author_creator": "The Washington Post obituary desk",
+      "repository_publisher": "The Washington Post",
+      "publication_record_date": "1991-04-04",
+      "locator": "Frances R. Colosimo obituary, lines 47-55; 1930s employment and World War II OSS service",
+      "access_date": "2026-09-09",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Project-authored paraphrase and excerpts shorter than 25 words only. The obituary explicitly links the expanded name, 1930s employer and later OSS role."
+    },
+    {
+      "key": "kornegay-constance-colt-b448",
+      "stable_url": "https://www.kornegayfuneral.com/obituary/Constance-Bassett",
+      "title": "Official Obituary of Constance Colt Bassett",
+      "repository_publisher": "Kornegay Funeral Home",
+      "publication_record_date": "2012",
+      "locator": "Biographical paragraph describing New York work for the Free French immediately before moving to Washington for OSS",
+      "access_date": "2026-09-09",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Project-authored paraphrase and excerpts shorter than 25 words only. The source is used for the explicit work-to-OSS sequence, not to infer a particular radio station, employment dates or formal Free French unit."
+    },
+    {
+      "key": "norwich-colvocoresses-b448",
+      "stable_url": "https://archives.norwich.edu/digital/api/collection/p16663coll5/id/290/download",
+      "title": "Guide to the Colvocoresses Family Papers, 1824-2022",
+      "author_creator": "Norwich University Archives",
+      "repository_publisher": "Norwich University Archives, Kreitzberg Library",
+      "publication_record_date": "2022",
+      "locator": "PDF physical page 4; family chronology naming Harold Lee Colvocoresses (1913-1979)",
+      "access_date": "2026-09-09",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Colvocoresses Family Papers",
+      "rights_notes": "Used only to assess a probable identity expansion. The finding aid does not document OSS service or Harold Lee Colvocoresses's employment."
+    },
+    {
+      "key": "pan-american-colvocoresses-b448",
+      "stable_url": "https://archive.org/details/sim_bulletin-of-the-pan-american-union_1945-07_79_7/page/392/mode/2up",
+      "title": "The Story of Transportation in the Colombian Andes",
+      "author_creator": "Harold Lee Colvocoresses",
+      "repository_publisher": "Bulletin of the Pan American Union; digitized by Internet Archive",
+      "publication_record_date": "1945-07",
+      "locator": "Volume 79, number 7, page 393; author byline",
+      "access_date": "2026-09-09",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Bulletin of the Pan American Union",
+      "rights_notes": "The contemporary byline corroborates the expanded rare name and Latin American subject expertise only; it does not state an employer or OSS relationship."
+    },
+    {
+      "key": "cramer-bolanos-colvocoresses-b448",
+      "stable_url": "https://doi.org/10.4067/S0717-71942023000200209",
+      "title": "Mas alla de la punta del iceberg: las intervenciones de la Oficina Rockefeller en la prensa colombiana y latinoamericana (1940-1946)",
+      "author_creator": "Gisela Cramer and Leidy Paola Bolanos Florido",
+      "repository_publisher": "Historia (Santiago); SciELO",
+      "publication_record_date": "2023",
+      "locator": "Footnote 127; cites Harold Lee Colvocoresses correspondence of 16 March 1944 in USNA RG 229, Entry 1, Central Files, Box 326",
+      "access_date": "2026-09-09",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Historia, volume 56, number 2",
+      "document_number": "DOI 10.4067/S0717-71942023000200209",
+      "rights_notes": "Used as a scholarly archival pointer and identity-context source. The cited correspondence suggests OCIAA-related work but does not by itself establish Harold's formal employer or OSS chronology."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "american-bottlers-carbonated-beverages-b448",
+      "canonical_name": "American Bottlers of Carbonated Beverages",
+      "historical_name": "American Bottlers of Carbonated Beverages",
+      "aliases": [],
+      "organization_type": "trade association",
+      "sector": "business_and_industry",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "active_dates": "1930s",
+      "normalization_notes": "The employer name is preserved exactly as reported in the 1991 Washington Post obituary. No modern successor or expanded legal name is inferred."
+    },
+    {
+      "key": "free-french-movement-b448",
+      "canonical_name": "Free French",
+      "historical_name": "Free French",
+      "aliases": [
+        "Free France",
+        "France libre"
+      ],
+      "organization_type": "wartime government-in-exile and resistance movement",
+      "sector": "federal_government",
+      "country": "France",
+      "active_dates": "1940-1944",
+      "normalization_notes": "The obituary's broad Free French wording is preserved. This civilian radio-work affiliation is not silently merged into the narrower Free French Forces organization, and no specific station or bureau is inferred."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "frances-r-colosimo-american-bottlers-b448",
+      "person_id": "7aebe016-265f-59d0-8d94-211d9ec878af",
+      "organization_key": "american-bottlers-carbonated-beverages-b448",
+      "organization_name_as_found": "American Bottlers of Carbonated Beverages",
+      "role_title": "research technician",
+      "occupation": "research technician",
+      "relationship_type": "employment",
+      "date_precision": "The Washington Post obituary places this employment in the 1930s but gives no exact start or end date and does not explicitly call it her immediately preceding OSS role.",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The same obituary explicitly describes later World War II service as an OSS documents analyst, securely linking the unusual indexed name and the earlier job. The source does not establish that no affiliation intervened."
+    },
+    {
+      "key": "constance-colt-free-french-b448",
+      "person_id": "580abbf6-f2f9-506f-b091-1c075d5ba8ef",
+      "organization_key": "free-french-movement-b448",
+      "organization_name_as_found": "the Free French",
+      "relationship_type": "employment",
+      "date_precision": "The obituary explicitly sequences New York work for the Free French at the beginning of World War II immediately before her move to Washington for OSS; exact dates and a formal title are not given.",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The source says she was working for the Free French, which operated radio stations broadcasting to occupied France. It does not say what work she personally performed or identify a station, bureau, pay status or job title, so those fields remain blank."
+    },
+    {
+      "key": "joseph-s-comastra-driver-category-b448",
+      "person_id": "f00238d0-f2f2-5dfd-9aa4-a4b91b177b35",
+      "occupation": "Chauffeurs and drivers, bus, taxi, truck, and tractor",
+      "relationship_type": "unknown",
+      "end_date": "1941-01-16",
+      "date_precision": "The identifier-matched Army record dated 16 January 1941 carries civilian-occupation value 736; the official NARA table defines 5,7-36 as Chauffeurs and drivers, bus, taxi, truck, and tractor.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category names no employer, route, vehicle, industry, workplace, employment relationship or later Army-to-OSS sequence."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-frances-r-colosimo-b448",
+      "person_id": "7aebe016-265f-59d0-8d94-211d9ec878af",
+      "claim_type": "identity",
+      "claim_text": "The indexed Frances R Colosimo is matched at high confidence to Frances Richey Colosimo, whose Washington Post obituary explicitly documents later OSS service.",
+      "evidence_excerpt": "During World War II, she served as a documents analyst with the Office of Strategic Services.",
+      "evidence_paraphrase": "The obituary expands the indexed middle initial, documents Washington-area continuity and explicitly identifies her World War II OSS role.",
+      "identity_match_assessment": "The exact indexed first name, middle initial and surname align with the expanded Frances Richey Colosimo form, and the obituary supplies a direct OSS bridge.",
+      "temporal_assessment": "The obituary distinguishes 1930s employment from World War II OSS service but does not give an OSS entry date.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "High confidence is used rather than confirmed because the accessible source is a reputable obituary, not the personnel file. Her husband's Navy rank is not assigned to Frances.",
+      "sources": [
+        {
+          "source_key": "index-b448",
+          "support_type": "supports",
+          "locator_override": "PDF page 88, row 13; Frances R Colosimo; Box 136; no rank or identifier"
+        },
+        {
+          "source_key": "washington-post-frances-colosimo-b448",
+          "support_type": "supports",
+          "locator_override": "Lines 47-55; Frances R. Colosimo obituary"
+        }
+      ]
+    },
+    {
+      "key": "employer-frances-r-colosimo-b448",
+      "person_id": "7aebe016-265f-59d0-8d94-211d9ec878af",
+      "affiliation_key": "frances-r-colosimo-american-bottlers-b448",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "In the 1930s, Frances Richey Colosimo worked in Washington as a research technician for the American Bottlers of Carbonated Beverages.",
+      "evidence_excerpt": "She was a research technician with the American Bottlers of Carbonated Beverages here in the 1930s.",
+      "evidence_paraphrase": "The obituary names her employer, role, city context and decade before separately describing her World War II OSS service.",
+      "identity_match_assessment": "The exact indexed name and explicit OSS role establish a high-confidence match to Frances Richey Colosimo.",
+      "temporal_assessment": "The work is definitely pre-OSS and in the 1930s, but the source does not prove it was immediate or her last civilian job.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The employer name and research-technician role are retained as reported. No unreported successor, exact dates or immediacy is inferred.",
+      "sources": [
+        {
+          "source_key": "washington-post-frances-colosimo-b448",
+          "support_type": "supports",
+          "locator_override": "Line 54; 1930s employment sentence"
+        }
+      ]
+    },
+    {
+      "key": "identity-constance-colt-b448",
+      "person_id": "580abbf6-f2f9-506f-b091-1c075d5ba8ef",
+      "claim_type": "identity",
+      "claim_text": "The indexed Constance Colt is matched at high confidence to Constance Colt Bassett, whose obituary explicitly describes recruitment into OSS.",
+      "evidence_excerpt": "her language skills were needed at a new agency, the Office of Strategic Services",
+      "evidence_paraphrase": "The obituary preserves her indexed maiden name and directly sequences her move from New York Free French work to OSS in Washington.",
+      "identity_match_assessment": "The exact uncommon maiden name plus an explicit OSS recruitment narrative provide a strong bridge to the index record.",
+      "temporal_assessment": "The obituary gives a direct sequence at the beginning of World War II but no exact OSS start date.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "High confidence is used rather than confirmed because the accessible source is an obituary, not the personnel file. Bassett is retained as a documented married-name variant.",
+      "sources": [
+        {
+          "source_key": "index-b448",
+          "support_type": "supports",
+          "locator_override": "PDF page 88, row 15; Constance Colt; Box 136; no rank or identifier"
+        },
+        {
+          "source_key": "kornegay-constance-colt-b448",
+          "support_type": "supports",
+          "locator_override": "Biographical paragraph on wartime Free French and OSS work"
+        }
+      ]
+    },
+    {
+      "key": "immediate-affiliation-constance-colt-b448",
+      "person_id": "580abbf6-f2f9-506f-b091-1c075d5ba8ef",
+      "affiliation_key": "constance-colt-free-french-b448",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Immediately before moving to Washington for OSS, Constance Colt was working in New York for the Free French, which the obituary says operated radio broadcasts to occupied France.",
+      "evidence_excerpt": "Constance was in New York City working for the Free French",
+      "evidence_paraphrase": "The obituary explicitly places her Free French radio work before the move prompted by demand for her language skills at OSS.",
+      "identity_match_assessment": "The exact uncommon indexed name and direct OSS narrative make the identity match high confidence.",
+      "temporal_assessment": "The narrative explicitly sequences Free French work immediately before OSS, although it supplies no exact dates.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No specific station, bureau, title, salary or formal Free French unit is inferred from the broad obituary wording.",
+      "sources": [
+        {
+          "source_key": "kornegay-constance-colt-b448",
+          "support_type": "supports",
+          "locator_override": "Biographical paragraph on wartime Free French and OSS work"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-employer-constance-colt-b448",
+      "person_id": "580abbf6-f2f9-506f-b091-1c075d5ba8ef",
+      "affiliation_key": "constance-colt-free-french-b448",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "The best-supported last civilian affiliation before Constance Colt's OSS service is her New York work for the Free French.",
+      "evidence_excerpt": "working for the Free French which operated radio stations broadcasting to occupied French",
+      "evidence_paraphrase": "The obituary describes no intervening affiliation between this Free French work and her move to Washington for OSS.",
+      "identity_match_assessment": "The exact uncommon indexed name and direct OSS narrative make the identity match high confidence.",
+      "temporal_assessment": "The direct sequence supports this as the last civilian affiliation, but exact dates and whether it was salaried employment remain unstated.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The site labels this an affiliation and reports the obituary's working-for wording; it does not imply a military commission or assign her to a specific station.",
+      "sources": [
+        {
+          "source_key": "kornegay-constance-colt-b448",
+          "support_type": "supports",
+          "locator_override": "Biographical paragraph on wartime Free French and OSS work"
+        }
+      ]
+    },
+    {
+      "key": "identity-harold-l-colvocoresses-candidate-b448",
+      "person_id": "e2d88789-b88b-54cd-9475-dcb74148a638",
+      "claim_type": "identity",
+      "claim_text": "The indexed Harold L Colvocoresses is probably, but not conclusively, Harold Lee Colvocoresses (1913-1979).",
+      "evidence_excerpt": "Harold Lee Colvocoresses (1913-1979)",
+      "evidence_paraphrase": "A Norwich University finding aid expands the rare name; a 1945 Pan American Union byline and a scholarly archival citation place that full name in Latin American work during the war.",
+      "identity_match_assessment": "The surname is exceptionally rare, the indexed middle initial matches Lee, and the wartime Latin American evidence is compatible, but no private identifier or explicit OSS bridge was accessible.",
+      "temporal_assessment": "The contemporary byline and cited March 1944 correspondence establish wartime activity but not its formal relationship or sequence relative to OSS service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Probable identity only. No employer, OCIAA title, personnel category or immediate OSS predecessor is published without Box 136 or RG 229 confirmation.",
+      "sources": [
+        {
+          "source_key": "index-b448",
+          "support_type": "supports",
+          "locator_override": "PDF page 88, row 19; Harold L Colvocoresses; Box 136; no rank or identifier"
+        },
+        {
+          "source_key": "norwich-colvocoresses-b448",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 4; family chronology"
+        },
+        {
+          "source_key": "pan-american-colvocoresses-b448",
+          "support_type": "context_only",
+          "locator_override": "Volume 79, number 7, page 393; author byline"
+        },
+        {
+          "source_key": "cramer-bolanos-colvocoresses-b448",
+          "support_type": "context_only",
+          "locator_override": "Footnote 127; archival citation to 16 March 1944 correspondence"
+        }
+      ]
+    },
+    {
+      "key": "identity-joseph-s-comastra-b448",
+      "person_id": "f00238d0-f2f2-5dfd-9aa4-a4b91b177b35",
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph S Comastra has a confirmed match to the exact private identifier in the official Army merged file.",
+      "evidence_excerpt": "COMASTRA JOSEPH",
+      "evidence_paraphrase": "The indexed identifier selects the Army row and dates entry to 16 January 1941 as a private in the Infantry.",
+      "identity_match_assessment": "The exact private identifier and uncommon surname establish the match even though the Army row omits the indexed middle initial.",
+      "temporal_assessment": "The record dates Army entry but does not establish his later OSS start or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The Army private grade supports enlisted Army classification. The full identifier remains private and the middle-initial omission is preserved rather than silently corrected.",
+      "sources": [
+        {
+          "source_key": "index-b448",
+          "support_type": "supports",
+          "locator_override": "PDF page 88, row 20; Joseph S Comastra; Box 136; identifier withheld"
+        },
+        {
+          "source_key": "army-b448",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; Army name COMASTRA JOSEPH; identifier withheld"
+        },
+        {
+          "source_key": "basic-b448",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-joseph-s-comastra-b448",
+      "person_id": "f00238d0-f2f2-5dfd-9aa4-a4b91b177b35",
+      "affiliation_key": "joseph-s-comastra-driver-category-b448",
+      "claim_type": "occupation",
+      "claim_text": "Joseph S Comastra's Army-entry record carries the broad historical category Chauffeurs and drivers, bus, taxi, truck, and tractor; no employer is identified.",
+      "evidence_excerpt": "Chauffeurs and drivers, bus, taxi, truck, and tractor",
+      "evidence_paraphrase": "The identifier-matched Army row carries occupation value 736, decoded on the visually inspected official NARA code page.",
+      "identity_match_assessment": "The exact private identifier selects Joseph S Comastra's Army row despite its omission of the middle initial.",
+      "temporal_assessment": "The category is strongly date-bounded to Army entry on 16 January 1941, but actual work dates and its relation to OSS service are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The category is not narrowed to a vehicle, route, employer, industry, workplace or employment relationship.",
+      "sources": [
+        {
+          "source_key": "army-b448",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 736; identifier withheld"
+        },
+        {
+          "source_key": "basic-b448",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-45; civilian occupation field at positions 70-72"
+        },
+        {
+          "source_key": "codes-b448",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 174; entry 5,7-36",
+          "excerpt_override": "Chauffeurs and drivers, bus, taxi, truck, and tractor"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "dd6ce9da-5a46-5a47-b9a1-7d34ea7db1a3",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Lola Colonel, no middle initial, rank or identifier and Box 136. The complete Army file has no exact-name row and is not a comprehensive women's-service or civilian roster; accessible exact-name OSS, CIA, Catalog, employment, occupation, obituary, institutional, newspaper, current Library of Congress and archival discovery did not establish a unique identity or employer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 136 to establish Lola Colonel's full identity, personnel status, occupation, employer and OSS assignment.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7aebe016-265f-59d0-8d94-211d9ec878af",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed Frances R Colosimo name aligns with Washington Post obituary subject Frances Richey Colosimo, and the obituary explicitly identifies her World War II service as an OSS documents analyst after 1930s Washington employment.",
+      "name_variants": [
+        "Frances R Colosimo",
+        "Frances Richey Colosimo"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 136 to confirm the identity and determine whether American Bottlers of Carbonated Beverages was her immediate or last civilian employer before OSS.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "00fe1d19-198f-598b-830a-dfd37a46a12f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Edward A Colson, no rank or identifier and Box 136. One exact-name Army row exists, but it dates Army entry to 30 October 1945 and cannot be assigned without a second identifier or personnel-file bridge; accessible exact-name OSS and public sources did not establish identity or employer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 136 to distinguish Edward A Colson from the unassigned Army namesake and establish personnel status, occupation, employer and OSS chronology.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "596946e0-162f-5dc8-93b8-ce1df6df2f3e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Robert C Colson, no rank, a literal seven-digit printed value and Box 136. The value was not padded or forced into an eight-digit Army identifier. Four exact-name Army rows and numerous public namesakes remain unassignable without corroborating evidence.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 136 to determine what the seven-digit value represents, distinguish Robert C Colson from exact-name candidates and establish his occupation, employer and OSS assignment.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "580abbf6-f2f9-506f-b091-1c075d5ba8ef",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The uncommon indexed Constance Colt name aligns with Constance Colt Bassett, whose obituary explicitly says she moved from New York work for the Free French to Washington because her language skills were needed by OSS.",
+      "name_variants": [
+        "Constance Colt",
+        "Constance Colt Bassett"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 136 to confirm the identity, exact Free French organization, radio role and the dates of her Free French-to-OSS transition.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "46062dcb-0685-58df-bd51-74e7f87a7699",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Elizabeth V Colt, no rank or identifier and Box 136. The Army file has no exact-name row; a Library of Congress National Woman's Party record for an Elizabeth Colt lacks the indexed middle initial, OSS bridge and employment chronology and remains unassigned.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 136 to establish Elizabeth V Colt's full identity and determine whether the National Woman's Party namesake is related before researching occupation and employer.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "222d3d9a-a206-5f42-92fe-d9c4e5db6232",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Gertrude L Colvin, no rank or identifier and Box 136. The Army file has no exact-name row; public-record and family-history leads lack an OSS, date, employer or Box 136 bridge and were not used.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 136 to establish Gertrude L Colvin's full identity, personnel status, occupation, employer and OSS assignment.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e2d88789-b88b-54cd-9475-dcb74148a638",
+      "identity_status": "probable",
+      "identity_evidence": "The exceptionally rare indexed Harold L Colvocoresses name aligns with Norwich University's Harold Lee Colvocoresses (1913-1979), a 1945 Pan American Union article by that full name and a scholarly archival citation to his March 1944 correspondence. No private identifier or explicit OSS bridge was accessible.",
+      "name_variants": [
+        "Harold L Colvocoresses",
+        "Harold Lee Colvocoresses"
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 136 and the 16 March 1944 RG 229 letter in Box 326 to confirm the identity, formal OCIAA relationship, employer and OCIAA-to-OSS chronology.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f00238d0-f2f2-5dfd-9aa4-a4b91b177b35",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier selects the official Army row named COMASTRA JOSEPH. It dates Army entry to 16 January 1941 as an Infantry private and carries civilian-occupation value 736; the Army name omits the indexed middle initial.",
+      "name_variants": [
+        "Joseph S Comastra",
+        "COMASTRA JOSEPH"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 136 and pre-January 1941 employment records to identify Joseph S Comastra's exact driving occupation, employer, workplace and Army-to-OSS sequence.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "bec3acf5-804f-59bc-9013-5f7893a7462e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Don P Combe, no rank, a literal seven-digit printed value and Box 141. The value was not padded or forced into an eight-digit Army identifier. The complete Army file has no exact-name row, and accessible exact-name OSS and public sources did not establish identity or employer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 141 to determine what the seven-digit value represents and establish Don P Combe's full identity, personnel status, occupation, employer and OSS assignment.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b448-person-lola-colonel-review",
+      "person_id": "dd6ce9da-5a46-5a47-b9a1-7d34ea7db1a3",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 88 and complete Army exact-name comparison; Lola Colonel exact-name OSS/CIA, Catalog, employment, occupation, obituary, institutional, newspaper, current Library of Congress, women's-service and archival checks.",
+      "query_variant_type": "unusual_name_without_identifier_womens_service_and_civilian_disambiguation",
+      "started_at": "2026-09-09T15:31:00Z",
+      "completed_at": "2026-09-09T15:58:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The Army file has no exact-name row; search results split Lola as a given name from colonel as a title and supplied no OSS, employer or Box 136 bridge.",
+      "research_notes": "The printed surname Colonel is preserved and was not reinterpreted as a rank.",
+      "next_action": "Establish identity and pre-OSS chronology in Box 136.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch448-v1"
+    },
+    {
+      "key": "b448-person-frances-r-colosimo-review",
+      "person_id": "7aebe016-265f-59d0-8d94-211d9ec878af",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 88 and complete Army comparison; Frances R Colosimo and Frances Richey Colosimo variants; exact-name OSS/CIA, Catalog, employer, research technician, obituary, institutional, newspaper, current Library of Congress and archival checks.",
+      "query_variant_type": "rare_name_without_identifier_obituary_oss_employer_bridge",
+      "started_at": "2026-09-09T15:31:00Z",
+      "completed_at": "2026-09-09T15:58:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Cemetery and family references risk assigning her husband's Navy rank to Frances; those were rejected. The obituary does not prove employer immediacy.",
+      "research_notes": "Recorded the named 1930s employer and role as documented prewar employment and the exact OSS role as identity evidence.",
+      "next_action": "Establish the precise employer-to-OSS chronology in Box 136.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch448-v1"
+    },
+    {
+      "key": "b448-person-edward-a-colson-review",
+      "person_id": "00fe1d19-198f-598b-830a-dfd37a46a12f",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 88 and complete Army exact-name comparison; Edward A Colson exact-name OSS/CIA, Catalog, employment, occupation, obituary, institutional, newspaper, current Library of Congress and archival checks.",
+      "query_variant_type": "common_name_without_identifier_enhanced_disambiguation",
+      "started_at": "2026-09-09T15:31:00Z",
+      "completed_at": "2026-09-09T15:58:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "One exact-name Army row dates entry to 30 October 1945 but lacks an index identifier or OSS bridge; public namesakes likewise lack a second corroborating identifier.",
+      "research_notes": "The Army row was retained as an unassigned candidate rather than selected by name alone.",
+      "next_action": "Disambiguate the Army candidate and establish pre-OSS chronology in Box 136.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch448-v1"
+    },
+    {
+      "key": "b448-person-robert-c-colson-review",
+      "person_id": "596946e0-162f-5dc8-93b8-ce1df6df2f3e",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 88 and complete Army exact-name comparison; Robert C Colson exact-name OSS/CIA, Catalog, employment, occupation, obituary, institutional, newspaper, current Library of Congress and archival checks; literal seven-digit index value preserved without padding.",
+      "query_variant_type": "common_name_nonstandard_identifier_enhanced_disambiguation",
+      "started_at": "2026-09-09T15:31:00Z",
+      "completed_at": "2026-09-09T15:58:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 12,
+      "rejection_reasons": "Four exact-name Army rows and numerous public namesakes cannot be assigned without a second identifier; the seven-digit value is not silently padded or reinterpreted.",
+      "research_notes": "No Army row, identity or employer was selected by name alone. The literal printed value remains private and recoverable.",
+      "next_action": "Determine what the seven-digit value represents and recover a disambiguating identifier from Box 136.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch448-v1"
+    },
+    {
+      "key": "b448-person-constance-colt-review",
+      "person_id": "580abbf6-f2f9-506f-b091-1c075d5ba8ef",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 88 and complete Army comparison; Constance Colt and Constance Colt Bassett variants; exact-name OSS/CIA, Catalog, Free French, radio, employer, obituary, institutional, newspaper, current Library of Congress and archival checks.",
+      "query_variant_type": "rare_name_without_identifier_obituary_explicit_predecessor_bridge",
+      "started_at": "2026-09-09T15:31:00Z",
+      "completed_at": "2026-09-09T15:58:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Generic Free French and radio histories do not identify her station, bureau or formal title; those details were not inferred from institutional context.",
+      "research_notes": "The obituary directly supports the identity and immediate Free French-to-OSS sequence. The broad Free French organization is kept distinct from the Free French Forces.",
+      "next_action": "Confirm exact organization, title and dates in Box 136.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch448-v1"
+    },
+    {
+      "key": "b448-person-elizabeth-v-colt-review",
+      "person_id": "46062dcb-0685-58df-bd51-74e7f87a7699",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 88 and complete Army comparison; Elizabeth V Colt exact-name OSS/CIA, Catalog, employment, occupation, obituary, National Woman's Party, institutional, newspaper, current Library of Congress and archival checks.",
+      "query_variant_type": "common_name_without_identifier_womens_history_disambiguation",
+      "started_at": "2026-09-09T15:31:00Z",
+      "completed_at": "2026-09-09T15:58:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "A Library of Congress National Woman's Party record names Elizabeth Colt without the middle initial, OSS link or employment chronology; other namesakes also lack a Box 136 bridge.",
+      "research_notes": "The women's-suffrage record remains an unassigned candidate and is not projected onto the indexed person.",
+      "next_action": "Establish identity and test the National Woman's Party candidate in Box 136.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch448-v1"
+    },
+    {
+      "key": "b448-person-gertrude-l-colvin-review",
+      "person_id": "222d3d9a-a206-5f42-92fe-d9c4e5db6232",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 88 and complete Army comparison; Gertrude L Colvin exact-name OSS/CIA, Catalog, employment, occupation, obituary, institutional, newspaper, current Library of Congress, genealogy and archival checks.",
+      "query_variant_type": "common_name_without_identifier_womens_service_and_civilian_disambiguation",
+      "started_at": "2026-09-09T15:31:00Z",
+      "completed_at": "2026-09-09T15:58:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "A discovery-only exact-name family-history lead and similar names lack an OSS, employer, date or Box 136 bridge; the Army file has no exact-name row.",
+      "research_notes": "No identity or employer was inferred from genealogy or exact-name coincidence.",
+      "next_action": "Establish identity and pre-OSS chronology in Box 136.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch448-v1"
+    },
+    {
+      "key": "b448-person-harold-l-colvocoresses-review",
+      "person_id": "e2d88789-b88b-54cd-9475-dcb74148a638",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 88 and complete Army comparison; Harold L and Harold Lee Colvocoresses variants; exact-name OSS/CIA, Catalog, OCIAA, Pan American Union, Colombia, employer, occupation, institutional, newspaper, current Library of Congress and archival checks.",
+      "query_variant_type": "exceptionally_rare_name_without_identifier_wartime_archival_context",
+      "started_at": "2026-09-09T15:31:00Z",
+      "completed_at": "2026-09-09T15:58:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Family military records for his father and other relatives, a possible 1938 officer namesake and general OCIAA histories do not establish the indexed identity, formal employer or OSS transition.",
+      "research_notes": "Recorded Harold Lee Colvocoresses as a probable identity only. The 1944 RG 229 letter is an archival lead, not a published employment claim.",
+      "next_action": "Compare Box 136 with the RG 229 letter in Box 326 to confirm identity and OCIAA-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch448-v1"
+    },
+    {
+      "key": "b448-person-joseph-s-comastra-review",
+      "person_id": "f00238d0-f2f2-5dfd-9aa4-a4b91b177b35",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 88 and complete Army comparison; Joseph S and Joseph Comastra variants; exact-name OSS/CIA, Catalog, driver, chauffeur, employment, occupation, obituary, institutional, newspaper, current Library of Congress, veterans and archival checks.",
+      "query_variant_type": "staged_identifier_rare_name_oss_official_occupation_disambiguation",
+      "started_at": "2026-09-09T15:31:00Z",
+      "completed_at": "2026-09-09T15:58:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Later veteran-burial and municipal references do not establish a pre-1941 employer; the Army occupation category names no employer or specific driving role.",
+      "research_notes": "Confirmed the correct Army row and published only its broad historical occupation category with qualification.",
+      "next_action": "Identify the employer, vehicle, workplace and Army-to-OSS chronology in Box 136.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch448-v1"
+    },
+    {
+      "key": "b448-person-don-p-combe-review",
+      "person_id": "bec3acf5-804f-59bc-9013-5f7893a7462e",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 88 and complete Army comparison; Don P Combe exact-name OSS/CIA, Catalog, employment, occupation, obituary, institutional, newspaper, current Library of Congress and archival checks; literal seven-digit index value preserved without padding.",
+      "query_variant_type": "rare_name_nonstandard_identifier_enhanced_disambiguation",
+      "started_at": "2026-09-09T15:31:00Z",
+      "completed_at": "2026-09-09T15:58:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "The Army file has no exact-name row; public results were partial-name, modern or unrelated and did not establish an OSS or Box 141 bridge. The seven-digit value was not padded.",
+      "research_notes": "The literal printed value remains private and recoverable; no identity, military status or employer was inferred.",
+      "next_action": "Determine what the seven-digit value represents and establish identity and pre-OSS chronology in Box 141.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch448-v1"
+    }
+  ]
+}
