@@ -1,8 +1,8 @@
 # Batch 439 release verification
 
-2026-09-09 UTC. **Local release candidate; independent release checks
-pending.** This report covers PDF page 86 rows 14-23, Louise D Cohen through
-Edwin J Cohn Jr., spanning Boxes 132-133 at location 230/86/28/07.
+2026-09-09 UTC. **Released and pinned-live verified.** This report covers PDF
+page 86 rows 14-23, Louise D Cohen through Edwin J Cohn Jr., spanning Boxes
+132-133 at location 230/86/28/07.
 
 ## Research
 
@@ -166,16 +166,13 @@ the 24,547-file / 272,858,439-byte production tree is
 The pre-replay and clean-replay exact Pages builds reproduce both tree digests
 and file counts.
 
-Batch 438 passed independent pull-request Test `34317841755`, merged through PR
-193 as `356fcba0f03e1570e0af3988cc3671b5cd9644ce`, deployed through Pages run
-`34321923013`, and passed pinned-live verification against immutable commit
-`9af74f5a12501ff6a229cf7e9337362ccaa2d278`: all 67 manifest assets /
-85,718,020 bytes at SHA-256
-`096e2a33a52936c64868cb9fe38a8526e6bad7cf08021ea35a23cdd5c7ffa1b0`, seven
-core routes and ten direct profiles matched at
-`https://therealjameswilson.github.io/before-oss/`. Batch 439 requires its own
-independent pull-request Test, merge, deployment and pinned-live verification
-before it is described as released.
+Batch 439 passed independent pull-request Test `34327575176`, merged through PR
+194 as `11a624cd12efc26706c3b0dc53dd4f4c6ebb8625`, and deployed through Pages
+run `34332364255`. Pinned-live verification against that immutable merge commit
+matched all 67 manifest assets / 85,879,165 bytes at SHA-256
+`c535438efeeb423d218732196f06ed51773011a3a5eecfe3362f007489cd5d0d`, seven
+core routes and all ten direct profiles at
+`https://therealjameswilson.github.io/before-oss/`.
 
 ```sh
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eighty-six-louise-d-cohen-through-edwin-j-cohn-jr-pathways_batch-439_2026-09-09.json

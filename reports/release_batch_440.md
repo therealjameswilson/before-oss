@@ -164,10 +164,12 @@ the 24,547-file / 273,006,849-byte production tree is
 The pre-replay and clean-replay exact Pages builds reproduce both tree digests
 and file counts.
 
-Batch 438 is the last pinned-live verified release at the time of this local
-report. Batch 439 is awaiting completion of independent pull-request Test
-`34323269981`; it must pass, merge, deploy and complete pinned-live verification
-before Batch 440 can be rebased and submitted for its own independent gate.
+Batch 439 passed independent pull-request Test `34327575176`, merged through PR
+194 as `11a624cd12efc26706c3b0dc53dd4f4c6ebb8625`, deployed through Pages run
+`34332364255`, and passed pinned-live verification of all 67 manifest assets,
+seven core routes and ten direct profiles. Batch 440 is now rebased on that
+release and still requires its own independent pull-request gate, merge,
+deployment and pinned-live verification.
 
 ```sh
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eighty-six-martin-g-cohn-through-alfred-colandrea-pathways_batch-440_2026-09-09.json
