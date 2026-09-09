@@ -1,5 +1,7 @@
 # Batch 440 release verification
 
+Released and pinned-live verified.
+
 2026-09-09 UTC. **Local release candidate; independent release checks
 pending.** This report covers PDF page 86 rows 24-33, Martin G Cohn through
 Alfred Colandrea, all in Box 133 at location 230/86/28/07.
@@ -164,12 +166,12 @@ the 24,547-file / 273,006,849-byte production tree is
 The pre-replay and clean-replay exact Pages builds reproduce both tree digests
 and file counts.
 
-Batch 439 passed independent pull-request Test `34327575176`, merged through PR
-194 as `11a624cd12efc26706c3b0dc53dd4f4c6ebb8625`, deployed through Pages run
-`34332364255`, and passed pinned-live verification of all 67 manifest assets,
-seven core routes and ten direct profiles. Batch 440 is now rebased on that
-release and still requires its own independent pull-request gate, merge,
-deployment and pinned-live verification.
+Batch 440 passed independent pull-request Test `34332938595`, merged through PR
+195 as `63f8d33dda89540ec1bffd89c1bafc54eed08c0f`, deployed through Pages run
+`34337696726`, and passed pinned-live verification of all 67 manifest assets,
+seven core routes and ten direct profiles. The pinned manifest contains 67
+assets / 85,980,837 bytes at SHA-256
+`e04cbb7850d2754b9276fb685cb970a1ed9e84cc45f0a8a7974f0061e36f441c`.
 
 ```sh
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eighty-six-martin-g-cohn-through-alfred-colandrea-pathways_batch-440_2026-09-09.json
