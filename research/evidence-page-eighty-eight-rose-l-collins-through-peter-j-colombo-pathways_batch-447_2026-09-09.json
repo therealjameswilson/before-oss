@@ -1,0 +1,785 @@
+{
+  "bundle_version": "before-oss-reviewed-public-batch447-v1",
+  "reviewer": "Before OSS research pipeline",
+  "sources": [
+    {
+      "key": "index-b447",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; complete PDF page 88 visually inspected at 150 dpi; rows 2-11; Boxes 135-136; location 230/86/29/01",
+      "access_date": "2026-09-09",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Citation and project-authored assessments only. Printed names, initials, rank, identifier forms, boxes and location are preserved; full private identifiers are not published."
+    },
+    {
+      "key": "army-b447",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; complete transient scan of 9,200,232 fixed-width records; Thomas M Collins, John E Colnon, Willard D Cologna and Peter J Colombo matched by exact private identifier; all exact-name candidates reviewed for the ten-person cohort; Clarence V Colmorgen had no matching row; William L Collins's six-digit printed value was preserved literally and excluded from exact eight-digit matching",
+      "access_date": "2026-09-09",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "Reviewed transiently outside version control. No raw row or full private identifier is retained. The file is incomplete and is not an officer, Navy, Marine Corps, women's-service or comprehensive OSS roster; a non-hit is not negative proof."
+    },
+    {
+      "key": "basic-b447",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-45; fixed-width identifier, name, Army-entry-date, grade, branch, education and civilian-occupation fields visually and textually checked",
+      "access_date": "2026-09-09",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only. The documentation warns about source damage, alternate interpretations, alternate card layouts, coding limits and incomplete coverage."
+    },
+    {
+      "key": "codes-b447",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171, 176 and 304; civilian-occupation entries 1-03, 4-10 and 9-92 visually and textually checked",
+      "access_date": "2026-09-09",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Only short historical occupational labels are retained. The categories name neither employers nor workplaces and do not establish chronology relative to OSS service. Student status is not recast as employment."
+    },
+    {
+      "key": "washington-post-yolande-collins-b447",
+      "stable_url": "https://www.legacy.com/us/obituaries/washingtonpost/name/yolande-collins-obituary?id=5992107",
+      "title": "Yolande Collins Obituary",
+      "repository_publisher": "The Washington Post; hosted by Legacy.com",
+      "publication_record_date": "2012-06-18",
+      "locator": "Opening biographical paragraph naming Yolande de Mauduit Collins, her Paris birth and her husband",
+      "access_date": "2026-09-09",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Used only to assess a probable identity expansion. The obituary does not document OSS service or pre-OSS employment. Project-authored paraphrase and an excerpt shorter than 25 words only."
+    },
+    {
+      "key": "nj-veterans-colmorgen-b447",
+      "stable_url": "https://www.interment.net/united-states/new-jersey/veterans-burials/transcription/834.php?page=62",
+      "title": "Veterans Buried in New Jersey Cemeteries",
+      "repository_publisher": "Interment.net",
+      "locator": "Page 62; Clarence Vernon Colmorgen entry",
+      "access_date": "2026-09-09",
+      "source_quality": "D_correlative_or_secondary",
+      "rights_notes": "Secondary cemetery transcription used only as a probable identity lead. It does not reproduce a private identifier or establish OSS service, employer or Army-to-OSS chronology."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "thomas-m-collins-food-products-category-b447",
+      "person_id": "7e53c938-aff6-5443-aa8f-2cabe3d98785",
+      "occupation": "Food products producing occupations, miscellaneous",
+      "relationship_type": "unknown",
+      "end_date": "1942-11-16",
+      "date_precision": "The identifier-matched Army record dated 16 November 1942 carries civilian-occupation value 410; the official NARA table defines 4-10 as Food products producing occupations, miscellaneous.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical category names no employer, product, factory, workplace, exact role, employment relationship or later Army-to-OSS sequence."
+    },
+    {
+      "key": "john-e-colnon-student-b447",
+      "person_id": "7762320c-5b2e-52be-8568-1ef76930e06c",
+      "role_title": "Student",
+      "occupation": "Students",
+      "relationship_type": "student",
+      "end_date": "1944-04-10",
+      "date_precision": "The identifier-matched Army record dated 10 April 1944 carries civilian-occupation value 992; the official NARA table defines 9-92 as Students.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Student status is not employment. No school, course, degree, employer or precise Army-to-OSS sequence is inferred."
+    },
+    {
+      "key": "willard-d-cologna-student-b447",
+      "person_id": "6e96c735-101e-58fd-a956-c49978ee025f",
+      "role_title": "Student",
+      "occupation": "Students",
+      "relationship_type": "student",
+      "end_date": "1944-01-04",
+      "date_precision": "The identifier-matched Army record dated 4 January 1944 carries civilian-occupation value 992; the official NARA table defines 9-92 as Students.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Student status is not employment. No school, course, degree, employer or precise Army-to-OSS sequence is inferred."
+    },
+    {
+      "key": "peter-j-colombo-checker-b447",
+      "person_id": "7ff7214a-3d0e-554c-9f32-d041ce87b1f1",
+      "occupation": "Checkers",
+      "relationship_type": "unknown",
+      "end_date": "1942-09-07",
+      "date_precision": "The identifier-matched Army record dated 7 September 1942 carries civilian-occupation value 103; the official NARA table defines 1-03 as Checkers.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category does not identify what was checked, the industry, employer, workplace, relationship type or later Army-to-OSS sequence."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-thomas-m-collins-b447",
+      "person_id": "7e53c938-aff6-5443-aa8f-2cabe3d98785",
+      "claim_type": "identity",
+      "claim_text": "The indexed Thomas M Collins has a confirmed match to the exact private identifier and exact name in the official Army merged file.",
+      "evidence_excerpt": "COLLINS THOMAS M",
+      "evidence_paraphrase": "The indexed identifier selects one of twelve exact-name Army rows and dates Army entry to 16 November 1942 as a private.",
+      "identity_match_assessment": "The exact private identifier selects the correct Thomas M Collins row among twelve exact-name candidates.",
+      "temporal_assessment": "The record dates Army entry but does not establish his later OSS start or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The Army private grade and indexed T-5 rank support enlisted Army classification. The full identifier remains private.",
+      "sources": [
+        {
+          "source_key": "index-b447",
+          "support_type": "supports",
+          "locator_override": "PDF page 88, row 4; T-5; Box 135; identifier withheld"
+        },
+        {
+          "source_key": "army-b447",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; Army name COLLINS THOMAS M; identifier withheld"
+        },
+        {
+          "source_key": "basic-b447",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-thomas-m-collins-b447",
+      "person_id": "7e53c938-aff6-5443-aa8f-2cabe3d98785",
+      "affiliation_key": "thomas-m-collins-food-products-category-b447",
+      "claim_type": "occupation",
+      "claim_text": "Thomas M Collins's Army-entry record carries the broad historical category Food products producing occupations, miscellaneous; no employer is identified.",
+      "evidence_excerpt": "Food products producing occupations, miscellaneous",
+      "evidence_paraphrase": "The identifier-matched Army row carries occupation value 410, decoded on the visually inspected official NARA code page.",
+      "identity_match_assessment": "The exact private identifier selects the correct Thomas M Collins Army row.",
+      "temporal_assessment": "The category is strongly date-bounded to Army entry on 16 November 1942, but actual work dates and its relation to OSS service are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The category is not narrowed to an employer, product, role, industry, workplace or employment relationship.",
+      "sources": [
+        {
+          "source_key": "army-b447",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 410; identifier withheld"
+        },
+        {
+          "source_key": "basic-b447",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-45; civilian occupation field at positions 70-72"
+        },
+        {
+          "source_key": "codes-b447",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 176; entry 4-10",
+          "excerpt_override": "Food products producing occupations, miscellaneous"
+        }
+      ]
+    },
+    {
+      "key": "identity-yolande-d-collins-candidate-b447",
+      "person_id": "f8f138bb-7799-5463-84cd-c6a864525af6",
+      "claim_type": "identity",
+      "claim_text": "The indexed Yolande D Collins is probably, but not conclusively, Yolande de Mauduit Collins.",
+      "evidence_excerpt": "YOLANDE de MAUDUIT COLLINS",
+      "evidence_paraphrase": "A Washington Post obituary expands the rare name to Yolande de Mauduit Collins and places her in Washington as the wife of an Army officer.",
+      "identity_match_assessment": "The rare first-and-last-name pairing and the indexed D align with the de Mauduit name, but no personnel-file, private-identifier or explicit OSS bridge was accessible.",
+      "temporal_assessment": "The retrospective obituary supports a probable identity expansion but does not document OSS entry, pre-OSS employment or another prewar affiliation.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Probable identity only. The indexed spelling remains primary, no nationality is inferred from birthplace, and no spouse's role is assigned to her.",
+      "sources": [
+        {
+          "source_key": "index-b447",
+          "support_type": "supports",
+          "locator_override": "PDF page 88, row 6; Yolande D Collins; Box 136; no rank or identifier"
+        },
+        {
+          "source_key": "washington-post-yolande-collins-b447",
+          "support_type": "supports",
+          "locator_override": "Opening biographical paragraph",
+          "excerpt_override": "YOLANDE de MAUDUIT COLLINS"
+        }
+      ]
+    },
+    {
+      "key": "identity-clarence-v-colmorgen-candidate-b447",
+      "person_id": "256daab4-061f-5974-8e82-f98f3b2445b1",
+      "claim_type": "identity",
+      "claim_text": "The indexed Clarence V Colmorgen is probably, but not conclusively, the Clarence Vernon Colmorgen documented as a World War II Army Air Forces veteran.",
+      "evidence_excerpt": "Colmorgen, Clarence Vernon ... US ARMY AIR FORCES, PFC, WORLD WAR II",
+      "evidence_paraphrase": "A veteran-burial transcription expands the uncommon middle initial and describes World War II Army Air Forces service.",
+      "identity_match_assessment": "The distinctive full name, V-to-Vernon expansion and wartime military context support the candidate, but the transcription gives no private identifier or OSS linkage and the Army merged file has no matching row.",
+      "temporal_assessment": "The source establishes only a broad World War II service period and does not date Army entry, OSS service or prior employment.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Probable identity only. The complete Army-file non-hit is not negative proof, and no personnel category or employer is promoted without Box 136 confirmation.",
+      "sources": [
+        {
+          "source_key": "index-b447",
+          "support_type": "supports",
+          "locator_override": "PDF page 88, row 8; Box 136; identifier withheld"
+        },
+        {
+          "source_key": "nj-veterans-colmorgen-b447",
+          "support_type": "supports",
+          "locator_override": "Page 62; Clarence Vernon Colmorgen entry",
+          "excerpt_override": "Colmorgen, Clarence Vernon ... US ARMY AIR FORCES, PFC, WORLD WAR II"
+        },
+        {
+          "source_key": "army-b447",
+          "support_type": "context_only",
+          "locator_override": "Complete 9,200,232-row comparison; no exact identifier or exact-name row"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-e-colnon-b447",
+      "person_id": "7762320c-5b2e-52be-8568-1ef76930e06c",
+      "claim_type": "identity",
+      "claim_text": "The indexed John E Colnon has a confirmed match to the exact private identifier and the sole exact-name row in the official Army merged file.",
+      "evidence_excerpt": "COLNON JOHN E",
+      "evidence_paraphrase": "The indexed identifier selects the sole exact-name Army row and dates Army entry to 10 April 1944 as a private.",
+      "identity_match_assessment": "The exact private identifier, exact indexed name and unique exact-name Army row establish the match.",
+      "temporal_assessment": "The record dates Army entry but does not establish his later OSS start or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private grade supports enlisted Army classification. The full identifier remains private.",
+      "sources": [
+        {
+          "source_key": "index-b447",
+          "support_type": "supports",
+          "locator_override": "PDF page 88, row 9; Box 136; identifier withheld"
+        },
+        {
+          "source_key": "army-b447",
+          "support_type": "supports",
+          "locator_override": "Sole exact-name and exact private-identifier record; identifier withheld"
+        },
+        {
+          "source_key": "basic-b447",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "student-status-john-e-colnon-b447",
+      "person_id": "7762320c-5b2e-52be-8568-1ef76930e06c",
+      "affiliation_key": "john-e-colnon-student-b447",
+      "claim_type": "occupation",
+      "claim_text": "An official Army-entry record places John E Colnon in student status on 10 April 1944; no school or employer is identified.",
+      "evidence_excerpt": "Students",
+      "evidence_paraphrase": "The identifier-matched Army row carries occupation value 992; the visually inspected official NARA table defines 9-92 as Students.",
+      "identity_match_assessment": "The exact private identifier and sole exact-name Army row establish the match.",
+      "temporal_assessment": "Student status is strongly date-bounded to Army entry, but the school, study dates and OSS sequence are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Student status is not classified as employment, and later real-estate namesakes are not used to infer a school or employer.",
+      "sources": [
+        {
+          "source_key": "army-b447",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 992; identifier withheld"
+        },
+        {
+          "source_key": "basic-b447",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-45; civilian occupation field at positions 70-72"
+        },
+        {
+          "source_key": "codes-b447",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 304; entry 9-92",
+          "excerpt_override": "Students"
+        }
+      ]
+    },
+    {
+      "key": "identity-willard-d-cologna-b447",
+      "person_id": "6e96c735-101e-58fd-a956-c49978ee025f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Willard D Cologna has a confirmed match to the exact private identifier and the sole exact-name row in the official Army merged file.",
+      "evidence_excerpt": "COLOGNA WILLARD D",
+      "evidence_paraphrase": "The indexed identifier selects the sole exact-name Army row and dates Army entry to 4 January 1944 as a private.",
+      "identity_match_assessment": "The exact private identifier, exact indexed name and unique exact-name Army row establish the match.",
+      "temporal_assessment": "The record dates Army entry but does not establish his later OSS start or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private grade supports enlisted Army classification. The full identifier remains private.",
+      "sources": [
+        {
+          "source_key": "index-b447",
+          "support_type": "supports",
+          "locator_override": "PDF page 88, row 10; Box 136; identifier withheld"
+        },
+        {
+          "source_key": "army-b447",
+          "support_type": "supports",
+          "locator_override": "Sole exact-name and exact private-identifier record; identifier withheld"
+        },
+        {
+          "source_key": "basic-b447",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "student-status-willard-d-cologna-b447",
+      "person_id": "6e96c735-101e-58fd-a956-c49978ee025f",
+      "affiliation_key": "willard-d-cologna-student-b447",
+      "claim_type": "occupation",
+      "claim_text": "An official Army-entry record places Willard D Cologna in student status on 4 January 1944; no school or employer is identified.",
+      "evidence_excerpt": "Students",
+      "evidence_paraphrase": "The identifier-matched Army row carries occupation value 992; the visually inspected official NARA table defines 9-92 as Students.",
+      "identity_match_assessment": "The exact private identifier and sole exact-name Army row establish the match.",
+      "temporal_assessment": "Student status is strongly date-bounded to Army entry, but the school, study dates and OSS sequence are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Student status is not classified as employment, and no institution is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b447",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 992; identifier withheld"
+        },
+        {
+          "source_key": "basic-b447",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-45; civilian occupation field at positions 70-72"
+        },
+        {
+          "source_key": "codes-b447",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 304; entry 9-92",
+          "excerpt_override": "Students"
+        }
+      ]
+    },
+    {
+      "key": "identity-peter-j-colombo-b447",
+      "person_id": "7ff7214a-3d0e-554c-9f32-d041ce87b1f1",
+      "claim_type": "identity",
+      "claim_text": "The indexed Peter J Colombo has a confirmed match to the exact private identifier and the sole exact-name row in the official Army merged file.",
+      "evidence_excerpt": "COLOMBO PETER J",
+      "evidence_paraphrase": "The indexed identifier selects the sole exact-name Army row and dates Army entry to 7 September 1942 as a private.",
+      "identity_match_assessment": "The exact private identifier, exact indexed name and unique exact-name Army row establish the match.",
+      "temporal_assessment": "The record dates Army entry but does not establish his later OSS start or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private grade supports enlisted Army classification. The full identifier remains private.",
+      "sources": [
+        {
+          "source_key": "index-b447",
+          "support_type": "supports",
+          "locator_override": "PDF page 88, row 11; Box 136; identifier withheld"
+        },
+        {
+          "source_key": "army-b447",
+          "support_type": "supports",
+          "locator_override": "Sole exact-name and exact private-identifier record; identifier withheld"
+        },
+        {
+          "source_key": "basic-b447",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-peter-j-colombo-b447",
+      "person_id": "7ff7214a-3d0e-554c-9f32-d041ce87b1f1",
+      "affiliation_key": "peter-j-colombo-checker-b447",
+      "claim_type": "occupation",
+      "claim_text": "Peter J Colombo's Army-entry record carries the historical occupation category Checkers; no employer, industry or checked material is identified.",
+      "evidence_excerpt": "Checkers",
+      "evidence_paraphrase": "The identifier-matched Army row carries occupation value 103, decoded on the visually inspected official NARA code page.",
+      "identity_match_assessment": "The exact private identifier and sole exact-name Army row establish the match.",
+      "temporal_assessment": "The category is strongly date-bounded to Army entry on 7 September 1942, but actual work dates and its relation to OSS service are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The category is not converted into a named employer, workplace, industry, object checked or employment relationship.",
+      "sources": [
+        {
+          "source_key": "army-b447",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 103; identifier withheld"
+        },
+        {
+          "source_key": "basic-b447",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-45; civilian occupation field at positions 70-72"
+        },
+        {
+          "source_key": "codes-b447",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 171; entry 1-03",
+          "excerpt_override": "Checkers"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "dffa6165-09b9-5b3a-89cd-b73cee4cf27e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Rose L Collins, no rank or identifier and Box 135. The complete Army file has no exact-name row and is not a comprehensive women's-service or civilian roster; accessible exact-name OSS, CIA, Catalog, institutional, newspaper, obituary, directory and archival discovery did not establish a unique identity or employer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 135 to establish Rose L Collins's full identity, personnel status, occupation, employer and OSS assignment.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7c840cfb-8fea-5f09-9aa1-60f42cc9b8a9",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Sara R Collins, no rank or identifier and Box 135. The complete Army file has no exact-name row and is not a comprehensive women's-service or civilian roster; accessible exact-name OSS, CIA, Catalog, institutional, newspaper, obituary, directory and archival discovery did not establish a unique identity or employer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 135 to establish Sara R Collins's full identity, personnel status, occupation, employer and OSS assignment.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7e53c938-aff6-5443-aa8f-2cabe3d98785",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier selects one of twelve official Army rows named COLLINS THOMAS M. It dates Army entry to 16 November 1942 as a private and carries civilian-occupation value 410; the index later prints T-5.",
+      "name_variants": [
+        "Thomas M Collins",
+        "COLLINS THOMAS M"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 135 and pre-November 1942 food-production records to identify Thomas M Collins's exact occupation, employer, workplace and Army-to-OSS sequence.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "74726306-16fc-5807-8856-83ad9195bc62",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies William L Collins, no rank, a literal six-digit value and Box 136. The value was not padded or forced into an eight-digit Army identifier. Twenty-four exact-name Army rows and numerous public namesakes remain unassignable without a second identifier or personnel-file bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 136 to determine what the six-digit value represents, distinguish William L Collins from exact-name candidates and establish his personnel status, occupation, employer and OSS assignment.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f8f138bb-7799-5463-84cd-c6a864525af6",
+      "identity_status": "probable",
+      "identity_evidence": "The rare indexed Yolande D Collins name aligns with the Washington Post obituary's Yolande de Mauduit Collins form and Washington Army-family context. No private identifier, personnel-file linkage or explicit OSS chronology was accessible, so the identification remains probable.",
+      "name_variants": [
+        "Yolande D Collins",
+        "Yolande de Mauduit Collins"
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 136 to confirm or reject the Yolande de Mauduit Collins candidate and establish personnel status, pre-OSS occupation or employer, and OSS assignment.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fc4e66ca-0ecb-5f35-94b1-f4d7d32a5391",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Patsy Collitti, no middle initial, rank or identifier and Box 135. The Army file has no exact-name row; a later New Jersey hairdresser named Pat Collitti and other public leads lack an OSS, date, identifier or Box 135 bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 135 to establish Patsy Collitti's full identity, personnel status, occupation, employer and OSS assignment before using the later Pat Collitti lead.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "256daab4-061f-5974-8e82-f98f3b2445b1",
+      "identity_status": "probable",
+      "identity_evidence": "The distinctive Clarence V Colmorgen index name and wartime context align with a secondary veteran-burial transcription for Clarence Vernon Colmorgen, a World War II Army Air Forces private first class. The transcription lacks the private identifier or an OSS bridge, and the complete Army merged file has no matching identifier or exact-name row.",
+      "name_variants": [
+        "Clarence V Colmorgen",
+        "Clarence Vernon Colmorgen"
+      ],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 136 to confirm or reject the Clarence Vernon Colmorgen candidate, reconcile the Army-file non-hit and establish pre-service occupation, employer and Army-to-OSS chronology.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7762320c-5b2e-52be-8568-1ef76930e06c",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier selects the sole official Army row named COLNON JOHN E. It dates Army entry to 10 April 1944 as a private and carries civilian-occupation value 992.",
+      "name_variants": [
+        "John E Colnon",
+        "COLNON JOHN E"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 136 and pre-April 1944 educational records to identify John E Colnon's school, study dates, employer if any and Army-to-OSS sequence.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6e96c735-101e-58fd-a956-c49978ee025f",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier selects the sole official Army row named COLOGNA WILLARD D. It dates Army entry to 4 January 1944 as a private and carries civilian-occupation value 992.",
+      "name_variants": [
+        "Willard D Cologna",
+        "COLOGNA WILLARD D"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 136 and pre-January 1944 educational records to identify Willard D Cologna's school, study dates, employer if any and Army-to-OSS sequence.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7ff7214a-3d0e-554c-9f32-d041ce87b1f1",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier selects the sole official Army row named COLOMBO PETER J. It dates Army entry to 7 September 1942 as a private and carries civilian-occupation value 103.",
+      "name_variants": [
+        "Peter J Colombo",
+        "COLOMBO PETER J"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 136 and pre-September 1942 employment records to identify what Peter J Colombo checked, his employer, industry, workplace and Army-to-OSS sequence.",
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b447-person-rose-l-collins-review",
+      "person_id": "dffa6165-09b9-5b3a-89cd-b73cee4cf27e",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 88 and complete Army exact-name comparison; Rose L Collins exact-name OSS/CIA, Catalog, employment, occupation, obituary, institutional, newspaper, current Library of Congress, women's-service and archival checks.",
+      "query_variant_type": "common_name_without_identifier_womens_service_and_civilian_disambiguation",
+      "started_at": "2026-09-09T14:12:00Z",
+      "completed_at": "2026-09-09T14:31:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "No exact-name Army row exists, and cemetery, directory, obituary and modern namesakes lack an OSS or Box 135 bridge; the Army file is not a comprehensive women's-service or civilian roster.",
+      "research_notes": "A non-hit was not treated as negative proof; no employer, military status or identity candidate was selected by name alone.",
+      "next_action": "Establish identity and pre-OSS chronology in Box 135.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch447-v1"
+    },
+    {
+      "key": "b447-person-sara-r-collins-review",
+      "person_id": "7c840cfb-8fea-5f09-9aa1-60f42cc9b8a9",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 88 and complete Army exact-name comparison; Sara and Sarah variants; exact-name OSS/CIA, Catalog, employment, occupation, obituary, institutional, newspaper, current Library of Congress, women's-service and archival checks.",
+      "query_variant_type": "common_name_without_identifier_spelling_variant_womens_service_disambiguation",
+      "started_at": "2026-09-09T14:12:00Z",
+      "completed_at": "2026-09-09T14:31:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "No exact-name Army row exists, and Sarah spelling variants, current professionals, cemetery, obituary and directory namesakes lack an OSS or Box 135 bridge.",
+      "research_notes": "The printed Sara spelling remains primary. No identity, employer or personnel category was inferred.",
+      "next_action": "Establish identity and pre-OSS chronology in Box 135.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch447-v1"
+    },
+    {
+      "key": "b447-person-thomas-m-collins-review",
+      "person_id": "7e53c938-aff6-5443-aa8f-2cabe3d98785",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 88 and complete Army comparison; Thomas M Collins exact-name OSS/CIA, Catalog, T-5, food production, employment, occupation, obituary, institutional, newspaper, current Library of Congress and archival checks.",
+      "query_variant_type": "staged_identifier_common_name_rank_oss_official_occupation_disambiguation",
+      "started_at": "2026-09-09T14:12:00Z",
+      "completed_at": "2026-09-09T14:31:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 14,
+      "rejection_reasons": "The eleven other exact-name Army rows and later business, obituary and professional namesakes lack the exact private identifier; the Army category names no employer or product.",
+      "research_notes": "Confirmed the correct Army row and published only its broad historical occupation category with qualification.",
+      "next_action": "Identify the employer, product, workplace and Army-to-OSS chronology in Box 135.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch447-v1"
+    },
+    {
+      "key": "b447-person-william-l-collins-review",
+      "person_id": "74726306-16fc-5807-8856-83ad9195bc62",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 88 and complete Army exact-name comparison; William L Collins exact-name OSS/CIA, Catalog, employment, occupation, obituary, institutional, newspaper, current Library of Congress and archival checks; literal six-digit index value preserved without padding.",
+      "query_variant_type": "common_name_nonstandard_identifier_enhanced_disambiguation",
+      "started_at": "2026-09-09T14:12:00Z",
+      "completed_at": "2026-09-09T14:31:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 30,
+      "rejection_reasons": "Twenty-four exact-name Army rows and public entertainment, military, directory and obituary namesakes cannot be assigned without a second identifier; the six-digit value is not silently padded or reinterpreted.",
+      "research_notes": "No Army row, identity or employer was selected by name alone. The literal printed value remains recoverable in the private database.",
+      "next_action": "Determine what the six-digit value represents and recover a disambiguating identifier from Box 136.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch447-v1"
+    },
+    {
+      "key": "b447-person-yolande-d-collins-review",
+      "person_id": "f8f138bb-7799-5463-84cd-c6a864525af6",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 88 and complete Army comparison; Yolande D Collins and Yolande de Mauduit variants; exact-name OSS/CIA, Catalog, employment, occupation, obituary, institutional, newspaper, current Library of Congress and archival checks.",
+      "query_variant_type": "rare_name_without_identifier_married_name_and_particle_disambiguation",
+      "started_at": "2026-09-09T14:12:00Z",
+      "completed_at": "2026-09-09T14:31:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Modern professionals, public-record aggregators, a different Yolande Collins in education and family-tree derivatives do not establish the index identity or pre-OSS chronology; the obituary candidate lacks an explicit OSS bridge.",
+      "research_notes": "Recorded the Yolande de Mauduit Collins expansion as probable identity only. No employer, nationality or spouse-derived role was assigned.",
+      "next_action": "Confirm or reject the candidate and establish pre-OSS chronology in Box 136.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch447-v1"
+    },
+    {
+      "key": "b447-person-patsy-collitti-review",
+      "person_id": "fc4e66ca-0ecb-5f35-94b1-f4d7d32a5391",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 88 and complete Army exact-name comparison; Patsy, Pat and Patrick Collitti variants; exact-name OSS/CIA, Catalog, employment, occupation, obituary, institutional, newspaper, current Library of Congress and archival checks.",
+      "query_variant_type": "rare_name_without_identifier_given_name_variant_disambiguation",
+      "started_at": "2026-09-09T14:12:00Z",
+      "completed_at": "2026-09-09T14:31:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "The Army file has no exact-name row; a later New Jersey hairdresser named Pat Collitti and other variants lack an OSS, wartime, identifier or Box 135 bridge.",
+      "research_notes": "The later occupation was not projected backward or assigned to the indexed Patsy Collitti.",
+      "next_action": "Establish full name, identity and pre-OSS chronology in Box 135.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch447-v1"
+    },
+    {
+      "key": "b447-person-clarence-v-colmorgen-review",
+      "person_id": "256daab4-061f-5974-8e82-f98f3b2445b1",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 88 and complete Army comparison; Clarence V and Clarence Vernon Colmorgen variants; exact-name OSS/CIA, Catalog, Army Air Forces, employment, occupation, obituary, veterans, institutional, newspaper, current Library of Congress and archival checks.",
+      "query_variant_type": "rare_name_identifier_nonhit_veteran_candidate_disambiguation",
+      "started_at": "2026-09-09T14:12:00Z",
+      "completed_at": "2026-09-09T14:31:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Family-history, modern address and family-event results do not establish OSS service or employment. The veteran-burial transcription lacks the private identifier and remains a probable candidate rather than a confirmed match.",
+      "research_notes": "The complete Army-file non-hit was not treated as negative proof. The Clarence Vernon Colmorgen candidate remains qualified pending Box 136 review.",
+      "next_action": "Confirm the candidate, reconcile the Army-file non-hit and establish pre-service employment and Army-to-OSS chronology in Box 136.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch447-v1"
+    },
+    {
+      "key": "b447-person-john-e-colnon-review",
+      "person_id": "7762320c-5b2e-52be-8568-1ef76930e06c",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 88 and complete Army comparison; John E and John Edward Colnon variants; exact-name OSS/CIA, Catalog, student, school, employment, occupation, obituary, institutional, newspaper, current Library of Congress, directory and archival checks.",
+      "query_variant_type": "staged_identifier_rare_name_student_institutional_disambiguation",
+      "started_at": "2026-09-09T14:12:00Z",
+      "completed_at": "2026-09-09T14:31:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "Earlier and later Chicago real-estate namesakes and family-business references lack the private identifier or pre-April 1944 student bridge; no school or employer was established.",
+      "research_notes": "Confirmed the exact Army identity and published student status with qualification; did not project a later family or business career backward.",
+      "next_action": "Identify the school and Army-to-OSS chronology in Box 136.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch447-v1"
+    },
+    {
+      "key": "b447-person-willard-d-cologna-review",
+      "person_id": "6e96c735-101e-58fd-a956-c49978ee025f",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 88 and complete Army comparison; Willard D Cologna exact-name OSS/CIA, Catalog, student, school, employment, occupation, obituary, institutional, newspaper, current Library of Congress, directory and archival checks.",
+      "query_variant_type": "staged_identifier_rare_name_student_institutional_disambiguation",
+      "started_at": "2026-09-09T14:12:00Z",
+      "completed_at": "2026-09-09T14:31:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Later family references and modern namesakes lack the private identifier or pre-January 1944 educational bridge; no school or employer was established.",
+      "research_notes": "Confirmed the exact Army identity and published student status with qualification; did not infer an institution.",
+      "next_action": "Identify the school and Army-to-OSS chronology in Box 136.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch447-v1"
+    },
+    {
+      "key": "b447-person-peter-j-colombo-review",
+      "person_id": "7ff7214a-3d0e-554c-9f32-d041ce87b1f1",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 88 and complete Army comparison; Peter J Colombo exact-name OSS/CIA, Catalog, checker, employment, occupation, obituary, institutional, newspaper, current Library of Congress, directory and archival checks.",
+      "query_variant_type": "staged_identifier_rare_name_oss_official_occupation_disambiguation",
+      "started_at": "2026-09-09T14:12:00Z",
+      "completed_at": "2026-09-09T14:31:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Birth-index, obituary, directory and modern namesakes lack the exact private identifier; the Army category names no employer, industry or checked material.",
+      "research_notes": "Confirmed the correct Army row and published only its historical occupation category with qualification.",
+      "next_action": "Identify the employer, industry, checked material and Army-to-OSS chronology in Box 136.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/reviewed-public-batch447-v1"
+    }
+  ]
+}

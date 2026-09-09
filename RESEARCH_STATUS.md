@@ -2,7 +2,28 @@
 
 Verified against the current local SQLite database on 2026-09-09 UTC.
 
-Batch 446 is a local release candidate awaiting independent release checks. It
+Batch 447 is a local release candidate awaiting independent release checks. It
+adds ten saved person outcomes across PDF page 88 rows 2-11, Rose L Collins
+through Peter J Colombo, spanning Boxes 135-136. Exact private-identifier
+matches in the complete 9,200,232-record official Army merged-file scan confirm
+Thomas M Collins, John E Colnon, Willard D Cologna and Peter J Colombo as
+enlisted Army personnel. Their four historical occupation or student-status
+observations remain qualified, never employers. Yolande D Collins and Clarence
+V Colmorgen receive probable rare-name identity leads but no employer or
+personnel-category promotion because the accessible sources do not bridge them
+to the indexed files. Four people remain unresolved, and William L Collins's
+six-digit printed value is preserved literally rather than padded. Full replay,
+all 93 Python tests, nine focused checks, profile, link, identifier and
+dependency audits, two deterministic Pages builds, and the complete 2,238-test
+browser/accessibility matrix pass locally. Exact coverage is 4,245 / 23,940
+researched, 507 verified affiliations, 224 verified employers, 4,200 archival
+dispositions assessed and 19,695 `not_started`. Batches 443-445 and 446 are
+preserved in open, clean PRs 198 and 199; both independent Test runs pass, but
+merge remains pending explicit approval. See `reports/release_batch_447.md` and
+`research/batch-447-discovery-checkpoint.md`.
+
+Batch 446 is preserved in open PR 199 and has passed independent Test run
+`34361660741`; merge and deployment remain pending explicit approval. It
 adds ten saved person outcomes across PDF page 87 rows 38-46 and page 88 row 1,
 Charles J Collins Jr. through Lucille G Collins, all in Box 135. Exact private-
 identifier matches in the complete 9,200,232-record official Army merged-file
