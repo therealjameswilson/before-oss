@@ -2,7 +2,51 @@
 
 Verified against the current local SQLite database on 2026-09-09 UTC.
 
-Batch 442 is a local release candidate awaiting independent release checks. It
+Batch 446 is a local release candidate awaiting independent release checks. It
+adds ten saved person outcomes across PDF page 87 rows 38-46 and page 88 row 1,
+Charles J Collins Jr. through Lucille G Collins, all in Box 135. Exact private-
+identifier matches in the complete 9,200,232-record official Army merged-file
+scan confirm Charles, Gene Collins, Jerry Collins, John H Collins and Joseph G
+Collins as enlisted Army personnel. Gene's student status and the other three
+usable historical occupation categories remain qualified observations, never
+employers; Charles's non-substantive value 999 is not published as an
+occupation. George E Collins, Hugh R Collins, Jeremiah J Collins, John F Collins
+and Lucille G Collins remain unresolved because name-only candidates or a non-
+hit cannot establish identity. Full replay, all 93 Python tests, nine focused
+cross-viewport checks, profile, link, identifier and dependency audits, and a
+clean 24,479-page Pages build pass locally. Exact coverage is 4,235 / 23,940
+researched, 507 verified affiliations, 224 verified employers, 4,190 archival
+dispositions assessed and 19,705 `not_started`. Batches 443-445 are preserved
+in PR 198, passed independent Test `34354744527`, and remain ahead of Batch 446
+in the release queue pending explicitly authorized merge. Batch 446's complete
+browser and accessibility matrix passes 2,229 / 2,229 checks across desktop,
+phone and tablet. See
+`reports/release_batch_446.md` and
+`research/batch-446-discovery-checkpoint.md`.
+
+Batch 445 is a catch-up release candidate with independent Test
+`34354744527` passing; merge, Pages deployment and pinned-live verification are
+pending explicit approval. It preserves the separately reviewed Batch 443-445
+cohorts: thirty saved person outcomes across PDF page 87 rows 8-37. The newest ten-person
+cohort covers Henry D Collette through Charles A Collins in Boxes 135-136.
+Exact private identifiers confirm Henry D Collette and the indexed `L J
+Collier`/Army `Langdon J` form; their driver and office-clerk categories remain
+qualified occupations, never employers. High-confidence John G Colling has a
+probable-immediate Army path and a separate draftsman occupation. High-
+confidence Cowles Miles Collier has Collier Company as his last civilian
+employer and Motor Sport as separate prewar self-employment. The adjacent `Sam
+A Collier` row remains only a probable Samuel Carnes Collier candidate because
+the printed initial conflicts; his candidate affiliations are excluded from
+default analytics. Five people remain unresolved with specific archival
+questions. Full replay, all 93 Python tests, 27 focused cross-viewport checks,
+profile, link, identifier and dependency audits, and deterministic Pages builds
+pass locally. Exact coverage is 4,225 / 23,940 researched, 507 verified
+affiliations, 224 verified employers, 4,180 archival dispositions assessed and
+19,715 `not_started`. Batch 442 is released and pinned-live verified; this
+catch-up candidate is next. See `reports/release_batch_445.md` and the three
+Batch 443-445 discovery checkpoints.
+
+Batch 442 is released and pinned-live verified. It
 adds ten saved individual outcomes across PDF page 86 rows 44-46 and page 87
 rows 1-7, Frederic W Cole through Remsen J Cole, all in Box 134. Literal
 private-identifier matches in the complete official Army merged-file scan
@@ -20,8 +64,11 @@ G Cole, Kathryn B Cole and Nathan L Cole remain unresolved with specific Box
 134 questions. Short identifiers are not padded; name-only Army and public
 candidates are not selected. A full fresh replay, all 93 Python tests, nine
 focused cross-viewport checks, profile, link, identifier and dependency audits,
-and two deterministic Pages builds pass locally. Batch 441 is released and
-pinned-live verified; Batch 442 is next in the independent release queue. See
+and two deterministic Pages builds pass locally. Batch 442 passed independent
+Test `34342863058`, merged through PR 197 as
+`4cdb6547205b256f110f2ccd95d452a2794e9c51`, deployed through Pages run
+`34347563212`, and passed pinned-live verification of all 67 manifest assets,
+seven core routes and ten direct profiles. See
 `reports/release_batch_442.md` and
 `research/batch-442-discovery-checkpoint.md`.
 
