@@ -1,7 +1,7 @@
 # Batch 438 release verification
 
-2026-09-09 UTC. **Local release candidate; independent release checks
-pending.** This report covers PDF page 86 rows 4-13, Mary M Coghlan through
+2026-09-09 UTC. **Released and pinned-live verified.** This report covers PDF
+page 86 rows 4-13, Mary M Coghlan through
 Leonard Cohen, spanning Boxes 132-133 at location 230/86/28/07.
 
 ## Research
@@ -164,16 +164,19 @@ the 24,544-file / 272,617,455-byte production tree is
 Two consecutive exact Pages-configuration builds reproduce both tree digests
 and file counts.
 
-Batch 437 passed independent pull-request Test `34314054523`, merged to
-`main` as `74a437e0826b3a95ee677a9c82d61afe2c574d83`, deployed through Pages run
-`34317209870`, and passed pinned-live verification against immutable commit
-`7bc35220f9104b9b964ac1f5614aae2a24674d81`: all 67 manifest assets /
-85,587,446 bytes at SHA-256
-`399fa4f21f6ee89ffabf0516c1ec34d61d45600d745dffe28b5191c7f8f668b2`, seven
-core routes and ten direct profiles matched at
-`https://therealjameswilson.github.io/before-oss/`. Batch 438 requires its own
-independent pull-request Test, merge, deployment and pinned-live verification
-before it is described as released.
+Independent pull-request Test `34317841755` passed every stage in 45 minutes
+51 seconds. Pull request 193 merged to `main` as
+`356fcba0f03e1570e0af3988cc3671b5cd9644ce` on 2026-09-09 at 07:03 UTC,
+and Pages run `34321923013` completed successfully. The pinned read-only check
+against immutable release commit
+`9af74f5a12501ff6a229cf7e9337362ccaa2d278` matched all 67 manifest assets /
+85,718,020 bytes at SHA-256
+`096e2a33a52936c64868cb9fe38a8526e6bad7cf08021ea35a23cdd5c7ffa1b0`, seven
+core routes and all ten Batch 438 profiles at
+`https://therealjameswilson.github.io/before-oss/`. The merge-triggered main-
+branch Test `34321923055` remains separately recorded in GitHub Actions and
+does not alter the pinned release result. The preceding Batch 437 merge-
+triggered Test `34317209813` passed every stage.
 
 ```sh
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eighty-six-mary-m-coghlan-through-leonard-cohen-pathways_batch-438_2026-09-09.json

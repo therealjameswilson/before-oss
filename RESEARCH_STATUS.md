@@ -2,27 +2,53 @@
 
 Verified against the current local SQLite database on 2026-09-09 UTC.
 
-Batch 438 is a local release candidate awaiting independent release checks. It
-adds ten saved individual outcomes across PDF page 86 rows 4-13, Mary M
-Coghlan through Leonard Cohen, spanning Boxes 132-133. Exact private-identifier
-and name matches in the complete official Army merged-file scan confirm Thomas
-B Cogley, Colby A Cogswell, Albert Cohen, Arthur A Cohen and Harry Cohen as
-enlisted Army personnel. Their decoded categories remain qualified occupation
-observations, never employer names. Dartmouth institutional evidence confirms
-the rare full name Colby Adams Cogswell, his Army status and wartime OSS service
-in Paris. A 1954 institutional notice, read with the official June 1943 Army-
-entry date, supports the First Boston Corporation as his best-supported last
-civilian employer. It is published at medium confidence with a visible temporal
+Batch 439 is a local release candidate awaiting independent release checks. It
+adds ten saved individual outcomes across PDF page 86 rows 14-23, Louise D
+Cohen through Edwin J Cohn Jr., spanning Boxes 132-133. Exact private-
+identifier and name matches in the complete official Army merged-file scan
+confirm Noah J Cohen, Sidney L Cohen and Carl M Cohn as enlisted Army
+personnel. Their decoded categories remain qualified occupation observations:
+sales clerk, miscellaneous food-products work, and foreman. None identifies an
+employer. The official OSS *Assessment of Men* roster, a Washington Post
+obituary and Robert A. Cohen's oral history support Chestnut Lodge Sanitarium
+for Mabel Cohen and Sheppard-Pratt Hospital for Robert A Cohen. Because both
+index rows lack identifiers and ranks, the identities remain probable and the
+employer paths remain visibly qualified at medium confidence. A UCLA archival
+chronology likewise supports probable Theodore Cohen's 1939-1940 history
+teaching at City College of New York before 1941-1944 OSS service. Marcel
+Cohen's probable Marcel Cravenne identity receives only a temporal-uncertain
+film occupation, not an employer. Louise D Cohen remains ambiguous; Sarah
+Cohen and Edwin J Cohn Jr. remain unresolved. Full fresh replay, 93 Python
+tests, twelve focused cross-viewport checks, profile, link, identifier and
+dependency audits, and two deterministic Pages builds pass locally. Batch 438
+passed independent Test `34317841755`, merged through PR 193 as
+`356fcba0f03e1570e0af3988cc3671b5cd9644ce`, deployed through Pages run
+`34321923013`, and passed pinned-live verification. See
+`reports/release_batch_439.md` and
+`research/batch-439-discovery-checkpoint.md`.
+
+Batch 438 is released and pinned-live verified. It adds ten saved individual
+outcomes across PDF page 86 rows 4-13, Mary M Coghlan through Leonard Cohen,
+spanning Boxes 132-133. Exact private-identifier and name matches in the
+complete official Army merged-file scan confirm Thomas B Cogley, Colby A
+Cogswell, Albert Cohen, Arthur A Cohen and Harry Cohen as enlisted Army
+personnel. Their decoded categories remain qualified occupation observations,
+never employer names. Dartmouth institutional evidence confirms the rare full
+name Colby Adams Cogswell, his Army status and wartime OSS service in Paris. A
+1954 institutional notice, read with the official June 1943 Army-entry date,
+supports the First Boston Corporation as his best-supported last civilian
+employer. It is published at medium confidence with a visible temporal
 qualification, not as an immediate pre-OSS affiliation; his Dartmouth student,
 Army military and stock-and-bond occupation evidence remain separate. Mary M
 Coghlan, David C Cohen, Harold Cohen, Jean Cohen and Leonard Cohen remain
-unresolved. Famous and unbridged namesakes are rejected, and the five unresolved
-profiles retain physical-file questions. Full fresh replay, 93 Python tests,
-twelve focused cross-viewport checks, profile, link, identifier and dependency
-audits, and two deterministic Pages builds pass locally. Batch 437 passed
-independent Test `34314054523`, merged as
-`74a437e0826b3a95ee677a9c82d61afe2c574d83`, deployed through Pages run
-`34317209870`, and passed pinned-live verification. See
+unresolved. Famous and unbridged namesakes are rejected, and the five
+unresolved profiles retain physical-file questions. Full fresh replay, 93
+Python tests, twelve focused cross-viewport checks, profile, link, identifier
+and dependency audits, and two deterministic Pages builds pass locally.
+Independent Test `34317841755`, PR 193, Pages `34321923013` and pinned
+verification of all 67 manifest assets, seven core routes and ten direct
+profiles subsequently passed. The earlier Batch 437 merge-triggered Test
+`34317209813` also passed every stage. See
 `reports/release_batch_438.md` and
 `research/batch-438-discovery-checkpoint.md`.
 
