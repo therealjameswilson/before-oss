@@ -1,6 +1,6 @@
 # Batch 432 release verification
 
-2026-09-08 UTC. **Local release candidate; independent release checks pending.**
+2026-09-08 UTC. **Released and pinned-live verified.**
 This report covers ten source records on PDF page 84 rows 36-45, Edward J
 Clinton through Evelyne Clopet, all in Box 130 at location 230/86/28/07.
 
@@ -177,8 +177,18 @@ the 24,542-file / 271,880,348-byte production tree is
 Two consecutive projections and Pages-configuration builds, followed by the
 full replay, reproduce both tree digests and file counts.
 
-Independent Test, pull-request merge, Pages deployment and pinned-live
-verification remain pending at this release-candidate stage.
+Independent pull-request Test run 34300919657 passed every stage, including
+the full site suite and rebuilt private-identifier audit. Pull request 189 was
+merged to `main` as `bc3b6a3c7278e88d0e66715d4c76b0c7236f4593` on
+2026-09-09 at 02:41 UTC. Pages run 34304199897 completed successfully. The
+pinned read-only check against immutable release commit
+`0f6a59db206623db5da53666d475d25c676f3ecc` matched all 67 manifest assets /
+85,211,408 bytes at SHA-256
+`a9cec3f4f7e64376ce1f335db4cee0bc5bf8b5d68beafb7944a69ec7994cff53`,
+seven core routes and all ten direct cohort profiles at
+`https://therealjameswilson.github.io/before-oss/`. The merge-triggered
+main-branch Test remains separately recorded in GitHub Actions and does not
+alter the pinned release result.
 
 ```sh
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eighty-four-edward-j-clinton-through-evelyne-clopet-pathways_batch-432_2026-09-08.json

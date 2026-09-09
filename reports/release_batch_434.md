@@ -150,10 +150,13 @@ the 24,543-file / 272,069,851-byte production tree is
 Two consecutive projections and exact Pages-configuration builds, including
 the full replay, reproduce both tree digests and file counts.
 
-Batch 432's corrected replacement Test run `34300919657` remains pending. Its
-merge, Batch 433's and Batch 434's independent Test runs, Pages deployments and
-pinned-live verification must occur in order before any of these candidates is
-described as released.
+Batch 432's corrected replacement Test `34300919657` passed every stage; PR
+189 merged as `bc3b6a3c7278e88d0e66715d4c76b0c7236f4593`; Pages run
+`34304199897` succeeded; and pinned verification against immutable release
+commit `0f6a59db206623db5da53666d475d25c676f3ecc` matched all 67 assets,
+seven core routes and ten direct profiles. Batches 433-435 share the current
+release-candidate branch and still require an independent pull-request Test,
+merge, Pages deployment and pinned-live verification.
 
 ```sh
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eighty-five-philip-b-coan-through-anne-m-coblean-pathways_batch-434_2026-09-08.json

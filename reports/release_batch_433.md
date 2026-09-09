@@ -175,13 +175,13 @@ the 24,543-file / 272,011,487-byte production tree is
 Two consecutive projections and exact Pages-configuration builds, including
 the full replay, reproduce both tree digests and file counts.
 
-Batch 432's first independent Test run `34297143732` passed 2,073 browser
-checks and failed only the legacy Batch 024 wording assertion across three
-viewports. The one-line regression correction passes locally and was pushed as
-commit `0f6a59db`; its replacement independent run, PR 189 merge, Pages
-deployment and pinned-live verification remain pending. Batch 433's own
-independent Test, merge, Pages deployment and pinned-live verification also
-remain pending at this release-candidate stage.
+Batch 432's replacement independent Test `34300919657` passed every stage; PR
+189 merged as `bc3b6a3c7278e88d0e66715d4c76b0c7236f4593`; Pages run
+`34304199897` succeeded; and pinned verification against immutable release
+commit `0f6a59db206623db5da53666d475d25c676f3ecc` matched all 67 assets,
+seven core routes and ten direct profiles. Batches 433-435 share the current
+release-candidate branch and still require an independent pull-request Test,
+merge, Pages deployment and pinned-live verification.
 
 ```sh
 python3 -m oss_research import-reviewed-evidence research/evidence-pages-eighty-four-eighty-five-john-closson-through-howard-coan-pathways_batch-433_2026-09-08.json

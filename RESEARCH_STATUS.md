@@ -2,6 +2,28 @@
 
 Verified against the current local SQLite database on 2026-09-09 UTC.
 
+Batch 435 is a local release candidate awaiting independent release checks. It
+adds ten saved individual outcomes across PDF page 85 rows 20-29, Donald E
+Cobleigh through Lyle N Cockerille, all in Box 131. A complete official Army
+merged-file scan confirms Angelo Coccoli by exact name and private identifier
+as enlisted Army personnel. His decoded category, `Packing, filling,
+labeling, marking, bottling, and related occupations, n. e. c.`, remains a
+qualified medium-confidence occupation with uncertain timing, not an employer
+or immediate predecessor. Institutional evidence supports high-confidence
+Donald E Cobleigh as enlisted Marine Corps personnel and documents Dartmouth
+College as his last civilian employer before wartime service. The available
+chronology does not establish whether Marine Corps service preceded or
+coincided with his OSS assignment, so Dartmouth is not promoted to his
+immediate pre-OSS affiliation. John M Cochran's lone exact-name Army row is
+rejected as a name-only candidate; Gwynne W Coburn, Sarah E Coburn, Elizabeth
+Cochran, Jefferson Cochran, Major B Cochran, Barbara L Cochrane and Lyle N
+Cockerille remain unresolved. `Major` is preserved as a first name, not read
+as rank. The full replay, all 93 Python tests, twelve focused cross-viewport
+checks, profile, link, identifier and dependency audits, and the exact Pages
+build pass locally. Independent release checks remain pending. See
+`reports/release_batch_435.md` and
+`research/batch-435-discovery-checkpoint.md`.
+
 Batch 434 is a local release candidate awaiting independent release checks. It
 adds ten saved individual outcomes across PDF page 85 rows 10-19, Philip B
 Coan through Anne M Coblean, spanning Boxes 130-131. Exact private-identifier
@@ -18,9 +40,10 @@ Robert B Coates are not merged, and Jane E Coates, Lucille A Coates, Eleanor
 Cobb and Anne M Coblean remain unresolved. Anne's unusual printed surname is
 preserved rather than silently corrected. The full replay, all 93 Python
 tests, twelve focused cross-viewport checks, profile, link, identifier and
-dependency audits, and two deterministic Pages builds pass locally. The
-earlier Batch 432 replacement gate, subsequent merge order, independent CI,
-deployment and pinned-live checks remain pending. See
+dependency audits, and two deterministic Pages builds pass locally. Batch 432
+is now released and pinned-live verified; Batches 433-435 share the current
+release-candidate branch and still require their independent Test, merge,
+deployment and pinned-live checks. See
 `reports/release_batch_434.md` and
 `research/batch-434-discovery-checkpoint.md`.
 
@@ -42,11 +65,13 @@ John Closson, Elinor Cloutier, James C Cloyd, Helen I Coakley and Howard R Coan
 remain unresolved. Full replay, 93 Python tests, twelve focused cross-viewport
 checks, the repaired three-viewport legacy regression, link, profile,
 identifier and dependency audits, and two deterministic Pages builds pass
-locally. Independent CI, merge, deployment and pinned-live checks remain
-pending. See `reports/release_batch_433.md` and
+locally. Batch 432 is now released and pinned-live verified. Batches 433-435
+share the current release-candidate branch; their independent CI, merge,
+deployment and pinned-live checks remain pending. See
+`reports/release_batch_433.md` and
 `research/batch-433-discovery-checkpoint.md`.
 
-Batch 432 is a local release candidate awaiting independent release checks. It
+Batch 432 is released and pinned-live verified. It
 adds ten saved individual outcomes across PDF page 84 rows 36-45, Edward J
 Clinton through Evelyne Clopet, all in Box 130. Joseph F Clinton's exact
 private-identifier match supports a confirmed enlisted Army identity and the
@@ -65,9 +90,11 @@ Jan Cloesmeyer and Elton Clohecy remain ambiguous. Full replay, 93 Python
 tests, twelve focused cross-viewport checks, link, profile, identifier and
 dependency audits and two deterministic Pages builds pass locally. Its first
 independent run passed 2,073 browser checks and failed only one legacy wording
-assertion across three viewports; the repaired assertion passes locally and
-commit `0f6a59db` is queued for a replacement gate. Merge, deployment and
-pinned-live checks remain pending. See
+assertion across three viewports. Replacement Test `34300919657` passed every
+stage; PR 189 merged as `bc3b6a3c7278e88d0e66715d4c76b0c7236f4593`;
+Pages `34304199897` succeeded; and pinned verification against immutable
+release commit `0f6a59db206623db5da53666d475d25c676f3ecc` matched all
+67 assets, seven core routes and ten direct profiles. See
 `reports/release_batch_432.md` and `research/batch-432-discovery-checkpoint.md`.
 
 Batch 431 is released and pinned-live verified. It
