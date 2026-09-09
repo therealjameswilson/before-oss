@@ -2,6 +2,27 @@
 
 Verified against the current local SQLite database on 2026-09-09 UTC.
 
+Batch 440 is a local release candidate awaiting independent release checks. It
+adds ten saved individual outcomes across PDF page 86 rows 24-33, Martin G
+Cohn through Alfred Colandrea, all in Box 133. Exact private-identifier and name
+matches in the complete official Army merged-file scan confirm Myron Cohn,
+Theodore Cohn, Trayone J Cojerian, Raymond T Col, Hugo Colacicco and Alfred
+Colandrea as enlisted Army personnel. Myron and Raymond's accountant/auditor,
+Trayone and Hugo's machinist, and Alfred's unresolved job-pressman or casting-
+machine-operator categories remain qualified observations, never employer
+names. Theodore's student status is modeled as `student`, not employment, and
+no school is invented. Library of Congress evidence supports only probable
+Martin G Cohn and a medium-confidence 1920 film-editor occupation; the film
+company is not inferred to be an employer, and the early credit is not made an
+immediate pre-OSS role. Owen S Coke's short identifier is not silently padded;
+he, Dorothy E Cokeley and Vassilia Cokinides remain unresolved. Raymond's
+printed surname remains `Col`. Full fresh replay, 93 Python tests, twelve
+focused cross-viewport checks, profile, link, identifier and dependency audits,
+and two deterministic Pages builds pass locally. Batch 439 remains in
+independent Test `34323269981` and is not yet described as released. See
+`reports/release_batch_440.md` and
+`research/batch-440-discovery-checkpoint.md`.
+
 Batch 439 is a local release candidate awaiting independent release checks. It
 adds ten saved individual outcomes across PDF page 86 rows 14-23, Louise D
 Cohen through Edwin J Cohn Jr., spanning Boxes 132-133. Exact private-
