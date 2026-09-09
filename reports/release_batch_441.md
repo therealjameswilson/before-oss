@@ -179,9 +179,13 @@ and file counts.
 
 Batch 440 passed independent pull-request Test `34332938595`, merged through PR
 195 as `63f8d33dda89540ec1bffd89c1bafc54eed08c0f`, deployed through Pages run
-`34337696726`, and passed pinned-live verification. Batch 441 remains pending
-its own independent pull-request gate, merge, deployment and pinned-live
-verification.
+`34337696726`, and passed pinned-live verification. Batch 441 then passed
+independent Test `34338589582`, merged through PR 196 as
+`3bfb8547c2392539fb9af613427e56c7c9ae236f`, deployed through Pages run
+`34342153869`, and passed pinned-live verification of all 67 manifest assets,
+seven core routes and ten direct profiles. The pinned manifest contains 67
+assets / 86,053,336 bytes at SHA-256
+`5860b22b124c09d48c1b445250c8cd8662c09989e30aa7a01ed43a9d40bba6fd`.
 
 ```sh
 python3 -m oss_research import-reviewed-evidence research/evidence-page-eighty-six-leoonard-a-colavita-through-frank-cole-pathways_batch-441_2026-09-09.json
