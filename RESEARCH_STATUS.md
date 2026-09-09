@@ -1,6 +1,28 @@
 # Research status
 
-Verified against the current local SQLite database on 2026-09-08 UTC.
+Verified against the current local SQLite database on 2026-09-09 UTC.
+
+Batch 434 is a local release candidate awaiting independent release checks. It
+adds ten saved individual outcomes across PDF page 85 rows 10-19, Philip B
+Coan through Anne M Coblean, spanning Boxes 130-131. Exact private-identifier
+and name matches in the complete official Army merged-file scan confirm
+William A Coates and Howard L Cobb as enlisted Army personnel. Their decoded
+Army-entry categories, `Teachers (secondary school) and principals` and
+`Wholesale managers`, remain qualified medium-confidence occupations with
+uncertain timing: neither identifies an employer, school, business, immediate
+pre-OSS affiliation or last civilian employer. John G Coates's printed
+identifier matches no Army row; the one exact-name Army row carries a
+different identifier and remains rejected. Philip B Coan's identifier also
+has no Army match. Unbridged exact-name Army rows for George H Coates and
+Robert B Coates are not merged, and Jane E Coates, Lucille A Coates, Eleanor
+Cobb and Anne M Coblean remain unresolved. Anne's unusual printed surname is
+preserved rather than silently corrected. The full replay, all 93 Python
+tests, twelve focused cross-viewport checks, profile, link, identifier and
+dependency audits, and two deterministic Pages builds pass locally. The
+earlier Batch 432 replacement gate, subsequent merge order, independent CI,
+deployment and pinned-live checks remain pending. See
+`reports/release_batch_434.md` and
+`research/batch-434-discovery-checkpoint.md`.
 
 Batch 433 is a local release candidate awaiting independent release checks. It
 adds ten saved individual outcomes across PDF page 84 row 46 and page 85 rows
