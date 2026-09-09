@@ -1,9 +1,10 @@
 # Batch 445 release verification
 
-2026-09-09 UTC. **Local release candidate; independent release checks
-pending.** This catch-up release preserves the separately reviewed Batch 443,
-444 and 445 evidence sets. Batch 445 covers PDF page 87 rows 28-37, Henry D
-Collette through Charles A Collins, spanning Boxes 135-136 at location
+2026-09-09 UTC. **Independent Test passed; merge, Pages deployment and pinned-
+live verification pending explicit approval.** This catch-up release preserves
+the separately reviewed Batch 443, 444 and 445 evidence sets. Batch 445 covers
+PDF page 87 rows 28-37, Henry D Collette through Charles A Collins, spanning
+Boxes 135-136 at location
 230/86/29/01.
 
 ## Research
@@ -129,8 +130,8 @@ Batch 442 passed Pages run `34347563212` and pinned-live verification at merge
 commit `4cdb6547205b256f110f2ccd95d452a2794e9c51`: 67 assets / 86,115,803
 bytes, seven core routes and ten direct profiles, manifest SHA-256
 `0812ff9a8107be62179d8760ea9de679323892df206f1623ee75decaf96d220c`.
-This Batch 445 catch-up candidate still requires its own independent pull-
-request Test, merge, Pages deployment and pinned-live verification.
+This Batch 445 catch-up candidate passed independent Test `34354744527`; merge,
+Pages deployment and pinned-live verification remain pending.
 
 ```sh
 PUBLIC_SITE_URL=https://therealjameswilson.github.io \
