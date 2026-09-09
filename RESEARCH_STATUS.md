@@ -2,7 +2,30 @@
 
 Verified against the current local SQLite database on 2026-09-09 UTC.
 
-Batch 439 is a local release candidate awaiting independent release checks. It
+Batch 440 is a local release candidate awaiting independent release checks. It
+adds ten saved individual outcomes across PDF page 86 rows 24-33, Martin G
+Cohn through Alfred Colandrea, all in Box 133. Exact private-identifier and name
+matches in the complete official Army merged-file scan confirm Myron Cohn,
+Theodore Cohn, Trayone J Cojerian, Raymond T Col, Hugo Colacicco and Alfred
+Colandrea as enlisted Army personnel. Myron and Raymond's accountant/auditor,
+Trayone and Hugo's machinist, and Alfred's unresolved job-pressman or casting-
+machine-operator categories remain qualified observations, never employer
+names. Theodore's student status is modeled as `student`, not employment, and
+no school is invented. Library of Congress evidence supports only probable
+Martin G Cohn and a medium-confidence 1920 film-editor occupation; the film
+company is not inferred to be an employer, and the early credit is not made an
+immediate pre-OSS role. Owen S Coke's short identifier is not silently padded;
+he, Dorothy E Cokeley and Vassilia Cokinides remain unresolved. Raymond's
+printed surname remains `Col`. Full fresh replay, 93 Python tests, twelve
+focused cross-viewport checks, profile, link, identifier and dependency audits,
+and two deterministic Pages builds pass locally. Batch 439 passed independent
+Test `34327575176`, merged through PR 194 as
+`11a624cd12efc26706c3b0dc53dd4f4c6ebb8625`, deployed through Pages run
+`34332364255`, and passed pinned-live verification. See
+`reports/release_batch_440.md` and
+`research/batch-440-discovery-checkpoint.md`.
+
+Batch 439 is released and pinned-live verified. It
 adds ten saved individual outcomes across PDF page 86 rows 14-23, Louise D
 Cohen through Edwin J Cohn Jr., spanning Boxes 132-133. Exact private-
 identifier and name matches in the complete official Army merged-file scan
@@ -20,10 +43,11 @@ Cohen's probable Marcel Cravenne identity receives only a temporal-uncertain
 film occupation, not an employer. Louise D Cohen remains ambiguous; Sarah
 Cohen and Edwin J Cohn Jr. remain unresolved. Full fresh replay, 93 Python
 tests, twelve focused cross-viewport checks, profile, link, identifier and
-dependency audits, and two deterministic Pages builds pass locally. Batch 438
-passed independent Test `34317841755`, merged through PR 193 as
-`356fcba0f03e1570e0af3988cc3671b5cd9644ce`, deployed through Pages run
-`34321923013`, and passed pinned-live verification. See
+dependency audits, and two deterministic Pages builds pass locally.
+Independent Test `34327575176`, PR 194, merge commit
+`11a624cd12efc26706c3b0dc53dd4f4c6ebb8625`, Pages run `34332364255` and
+pinned verification of all 67 manifest assets, seven core routes and ten direct
+profiles subsequently passed. See
 `reports/release_batch_439.md` and
 `research/batch-439-discovery-checkpoint.md`.
 
