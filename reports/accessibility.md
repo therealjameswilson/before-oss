@@ -4,6 +4,23 @@ Run: 2026-09-08 UTC
 
 ## Result
 
+Batch 433: the focused four-scenario suite covers data semantics and rendered
+profiles/directories across desktop, phone and tablet. All twelve checks pass
+after the deterministic full replay, 12/12 in 7.9 seconds. Its first run passed
+9/12 because one test-only phrase differed from the already correct public
+wording; correcting the assertion did not change evidence or application
+behavior. The suite verifies Rhea G Clyman's three distinct documented-prewar
+work relationships and empty immediate/last-civilian fields, Lawrence W
+Cloutier's enlisted identity without an inferred occupation, Wilbert A
+Clower's student/employer distinction, William Clugston's occupation/rank
+boundary, Bartine H Coady's student status without a retrojected postwar rank,
+all ten immutable source rows and identifier masking. The separate repaired
+Batch 024 legacy assertion passes 3/3 across the same viewports. The exact
+Pages build reports zero Astro errors, warnings or hints. No new local complete
+axe matrix was run; focused and structural checks do not replace the
+independent full release gate. Independent Test, merge, Pages and pinned-live
+verification remain pending. See `reports/release_batch_433.md`.
+
 Batch 432: the focused four-scenario suite covers data semantics and rendered
 profiles/directories across desktop, phone and tablet. All twelve checks pass
 after the deterministic full replay, 12/12 in 15.1 seconds. Two earlier clean

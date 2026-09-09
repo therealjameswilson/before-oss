@@ -2,6 +2,28 @@
 
 Verified against the current local SQLite database on 2026-09-08 UTC.
 
+Batch 433 is a local release candidate awaiting independent release checks. It
+adds ten saved individual outcomes across PDF page 84 row 46 and page 85 rows
+1-9, John Closson through Howard R Coan, all in Box 130. Exact private-
+identifier matches confirm Lawrence W Cloutier, Wilbert A Clower and William
+Clugston in the official Army merged file. Lawrence and Wilbert receive
+enlisted Army classification. Wilbert's `Students` category and William's
+`Mechanics and repairmen, n.e.c.` category remain qualified observations, not
+employers; Lawrence's value 999 is left uninterpreted. An Army institutional
+history and unique Army row support high-confidence Bartine H Coady, with
+student status before documented August 1945 OSS recruitment but no named
+school, employer, pre-OSS unit or retrojected postwar rank. A visually checked
+institutional biography supports high-confidence Rhea G Clyman and separately
+documents work for Walter Duranty, freelance journalism, and Daily Telegraph
+employment. None is promoted to immediate pre-OSS or last civilian employment.
+John Closson, Elinor Cloutier, James C Cloyd, Helen I Coakley and Howard R Coan
+remain unresolved. Full replay, 93 Python tests, twelve focused cross-viewport
+checks, the repaired three-viewport legacy regression, link, profile,
+identifier and dependency audits, and two deterministic Pages builds pass
+locally. Independent CI, merge, deployment and pinned-live checks remain
+pending. See `reports/release_batch_433.md` and
+`research/batch-433-discovery-checkpoint.md`.
+
 Batch 432 is a local release candidate awaiting independent release checks. It
 adds ten saved individual outcomes across PDF page 84 rows 36-45, Edward J
 Clinton through Evelyne Clopet, all in Box 130. Joseph F Clinton's exact
@@ -19,8 +41,11 @@ féminin des transmissions. No civilian employer is inferred. Edward J
 Clinton, Margery T Clinton, Frank T Cloak and Ida M Clohan remain unresolved;
 Jan Cloesmeyer and Elton Clohecy remain ambiguous. Full replay, 93 Python
 tests, twelve focused cross-viewport checks, link, profile, identifier and
-dependency audits and two deterministic Pages builds pass locally. Independent
-CI, merge, deployment and pinned-live checks remain pending. See
+dependency audits and two deterministic Pages builds pass locally. Its first
+independent run passed 2,073 browser checks and failed only one legacy wording
+assertion across three viewports; the repaired assertion passes locally and
+commit `0f6a59db` is queued for a replacement gate. Merge, deployment and
+pinned-live checks remain pending. See
 `reports/release_batch_432.md` and `research/batch-432-discovery-checkpoint.md`.
 
 Batch 431 is released and pinned-live verified. It

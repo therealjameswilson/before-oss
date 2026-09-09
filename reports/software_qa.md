@@ -2,6 +2,28 @@
 
 Run: 2026-09-05 UTC
 
+- Batch 433 local QA: all **93 / 93** Python tests pass. SQLite `quick_check`
+  returns `ok`, foreign keys pass, and the deterministic 200-profile structural
+  audit passes. Extraction validation covers all 522 pages and 23,978 source
+  rows. Twelve focused Batch 433 checks pass across desktop, phone and tablet,
+  and the repaired legacy Batch 024 assertion passes 3/3. The
+  public-identifier audit examined 12,926 normalized private identifiers and
+  120 formatted variants across 24,543 production artifacts, rejected 1,086
+  substring coincidences, and found zero aggregate, manifest-size or
+  unexpected boundary matches. All internal links resolve across 24,471 HTML
+  pages; 49,629 unique external URLs are inventoried, not all visited. The
+  public manifest covers 67 assets totaling 85,298,325 bytes. Five of six
+  Batch 433 citation destinations returned HTTP 200; the reviewed Army Special
+  Operations history page returned HTTP 406 to a generic client. The
+  dependency audit found zero vulnerabilities. Consecutive projections and
+  Pages builds reproduce public-tree digest
+  `98aceaf1b7ce3eee322de3140691bb499336662869fa0c922e84e881bcc847a3`,
+  production-tree digest
+  `9a9c1edcee52f2a73af0a4b6cfbea7863a3bd26049553153a6fb74fdec940616`,
+  and public-manifest SHA-256
+  `79b43e7a2017c31fc5f88ebeb112875c07b2130d4e01f23607e3ae60c6b9c318`.
+  See `reports/release_batch_433.md`.
+
 - Batch 416 local QA: all **90 / 90** Python tests pass. The database passed
   `quick_check`, had zero foreign-key violations, and passed the deterministic
   200-profile structural audit. Extraction validation passed all 522 pages and

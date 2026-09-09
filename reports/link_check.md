@@ -2,6 +2,26 @@
 
 Run: 2026-09-08 UTC
 
+## Batch 433 release candidate
+
+All internal targets resolve across 24,471 HTML pages; 49,629 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,543 artifacts,
+12,926 normalized identifiers, 120 formatted variants and 1,086 candidate
+substring coincidences with zero unexpected boundary, aggregate or manifest-
+size matches. The public manifest has 67 assets / 85,298,325 bytes at SHA-256
+`79b43e7a2017c31fc5f88ebeb112875c07b2130d4e01f23607e3ae60c6b9c318`.
+The public-tree digest is
+`98aceaf1b7ce3eee322de3140691bb499336662869fa0c922e84e881bcc847a3`;
+the production-tree digest is
+`9a9c1edcee52f2a73af0a4b6cfbea7863a3bd26049553153a6fb74fdec940616`.
+A full replay and two consecutive exact Pages-configuration builds reproduce
+both tree digests and file counts. Five of six Batch 433 citation destinations
+returned HTTP 200. The U.S. Army Special Operations history page returned HTTP
+406 to a generic bounded automated GET after its evidence had been reviewed;
+no access control was bypassed. No authenticated Catalog request was used.
+Independent Test, merge, Pages and pinned-live checks remain pending; see
+`reports/release_batch_433.md`.
+
 ## Batch 432 release candidate
 
 All internal targets resolve across 24,470 HTML pages; 49,627 external URLs
