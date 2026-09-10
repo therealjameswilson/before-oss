@@ -322,6 +322,19 @@ const affiliationLabel = (item: Affiliation) =>
                     {" "}
                     <Badge value={claim.source_quality} />
                   </p>
+                  <details class="claim-assessment-details">
+                    <summary>Identity and chronology assessment</summary>
+                    <dl class="profile-facts">
+                      <div>
+                        <dt>Identity match</dt>
+                        <dd>{claim.identity_match_assessment}</dd>
+                      </div>
+                      <div>
+                        <dt>Temporal assessment</dt>
+                        <dd>{claim.temporal_assessment}</dd>
+                      </div>
+                    </dl>
+                  </details>
                   <h4>Sources for this claim</h4>
                   <ol class="citation-list">
                     {claim.sources.map((link) => {
