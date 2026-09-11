@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T22:57:48+00:00",
+  "generated_at": "2026-09-11T01:00:57+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -33,16 +33,16 @@
   },
   "identity_status_counts": {
     "ambiguous": 3,
-    "confirmed": 3,
+    "confirmed": 4,
     "conflicting": 10,
     "high_confidence": 25,
-    "probable": 4,
+    "probable": 3,
     "unresolved": 155
   },
   "research_status_counts": {
-    "completed": 4,
+    "completed": 5,
     "conflicting_sources": 10,
-    "documented_prewar_employer_found": 3,
+    "documented_prewar_employer_found": 2,
     "in_progress": 2,
     "needs_identity_review": 3,
     "needs_temporal_review": 2,
@@ -59,7 +59,7 @@
     "allied_or_foreign": 20,
     "incomplete_or_initial_only_name": 20,
     "possible_duplicate_group": 31,
-    "confirmed_or_high_published_claim": 25,
+    "confirmed_or_high_published_claim": 26,
     "medium_published_claim": 12,
     "conflicting_published_claim": 10,
     "unresolved_identity": 155
@@ -90,9 +90,9 @@
     "80da73bc-ef68-590b-98c3-4dfbd971b03f",
     "21c878e1-cfbe-598b-86ab-023aa190f643",
     "5d8b3ae5-ea98-51eb-b4e0-fce85c3c0564",
+    "c3328cd1-5357-552b-9644-af1edd47843a",
     "bcfb9ef0-8447-55c1-8dbd-2e6612f80392",
     "63d92813-94cd-578e-942a-c2bdc37a92d8",
-    "ab9eaf6b-7d47-5ba9-a724-d4579e7ec111",
     "37fcd0dc-b987-53ef-9934-7f6038b8aacc",
     "d69d0769-f276-56bf-8383-b0d369a7c12a",
     "1a8af78c-0f00-5268-a07d-a4109341012f",
