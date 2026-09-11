@@ -1,8 +1,22 @@
 # Accessibility and responsive QA
 
-Run: 2026-09-09 UTC
+Run: 2026-09-11 UTC
 
 ## Result
+
+Batch 467: the complete retries-disabled 2,520-case local browser and
+accessibility matrix passed 2,520/2,520 in one uninterrupted 20.4-minute run,
+with 840/840 checks passing in each desktop, phone and tablet project. The
+focused Batch 467 suite passed all twelve checks across those layouts and
+passed 12/12 again after the clean replay. It verifies all ten immutable source
+rows and identifier masking; three date-bounded Army-entry occupations without
+invented employers; William H Cooper Jr's separate OSS identity evidence; and
+Arthur S Copeland's visible identifier conflict plus Box 143 archival routing.
+The fresh Pages-configuration build reports 91 Astro source files with zero
+errors, warnings or hints and generates 24,496 HTML pages / 24,568 artifacts.
+The clean replay reproduces that production tree byte for byte. Independent
+Test, merge, Pages and pinned-live checks remain pending; see
+`reports/release_batch_467.md`.
 
 Batch 452: the complete retries-disabled 2,301-case local browser and
 accessibility matrix passed 2,301/2,301 in one uninterrupted 17.0-minute run

@@ -1,6 +1,24 @@
 # Link check
 
-Run: 2026-09-09 UTC
+Run: 2026-09-11 UTC
+
+## Batch 467 release candidate
+
+All internal targets resolve across 24,496 HTML pages; 49,722 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,568 artifacts,
+all 70 public-tree files, 12,926 normalized identifiers, 120 formatted variants
+and 1,095 built-tree / 665 public-tree candidate substring coincidences, with
+zero unexpected boundary, aggregate or manifest-size matches. The public
+manifest has 67 assets / 87,979,819 bytes at SHA-256
+`1f12920bf248b53855c391f263254914a62cf7eff85252903357c91a9044b1c1`.
+The public-tree digest is
+`7e60bf8e606d8fe7576ea944935703b1939fb106381d7b41f6a7cd6c17dc1347`;
+the production-tree digest is
+`2aabaf76212090e1893acf61b0779d6c8379a337859660a5ac965cb83f1d4737`.
+A full fresh-database replay reproduced both trees exactly. All five official
+Batch 467 citation destinations returned HTTP 200. No authenticated Catalog
+request was used. Independent Test, merge, Pages and pinned-live checks remain
+pending; see `reports/release_batch_467.md`.
 
 ## Batch 452 release candidate
 

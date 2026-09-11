@@ -1,6 +1,24 @@
 # Research status
 
-Verified against the current local SQLite database on 2026-09-09 UTC.
+Verified against the current local SQLite database on 2026-09-11 UTC.
+
+Batch 467 is a local release candidate with complete local QA passing. It adds
+ten saved person outcomes across PDF page 92 rows 18-27, Nolan R Cooper through
+Elizabeth Copeland, all in Box 143. Exact private-identifier matches in the
+complete 9,200,232-record official Army merged-file scan confirm Nolan R
+Cooper, Sidney H Cooper and William H Cooper Jr and support only qualified,
+date-bounded occupation categories, never named employers. A direct NARA OSS
+order independently confirms William as OSS enlisted Army personnel but does
+not establish a pre-OSS employer. Arthur S Copeland remains a visible
+identifier conflict; six other people remain unresolved. All 93 Python tests,
+twelve focused cross-viewport checks, the complete 2,520 / 2,520 browser and
+accessibility matrix, profile, link, dependency and identifier audits, and two
+byte-identical clean 24,496-page Pages builds pass locally. Exact coverage is
+4,442 / 23,940 researched, 519 verified affiliations, 230 verified employers,
+4,397 archival dispositions assessed and 19,498 `not_started`. Batches 448-467
+are complete local release candidates pending explicit publication
+authorization. See `reports/release_batch_467.md` and
+`research/batch-467-discovery-checkpoint.md`.
 
 Batch 450 is a local release candidate with complete local QA passing. It adds
 ten saved person outcomes across PDF page 88 rows 32-41, Simone J Companardi
