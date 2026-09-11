@@ -93,7 +93,10 @@ test("Batch 453 publishes Groff Conklin's earlier Doubleday role without conflat
     "Immediate pre-OSS affiliationNo reviewed claim currently meets the publication threshold",
   );
   await expect(page.locator("main")).toContainText(
-    "Last civilian employer before serviceNo reliable pre-OSS employer has yet been identified",
+    "Last civilian employer before serviceFor this question: No reliable pre-OSS employer has yet been identified",
+  );
+  await expect(page.locator("main")).toContainText(
+    "A single last civilian employer before wartime or military service has not yet been established",
   );
 });
 
