@@ -211,4 +211,4 @@ Resume commands:
 Authenticated NARA Catalog work remains fail-closed until the exposed key is
 rotated and supplied outside chat. No key, raw NARA API payload, full service
 identifier or private discovery note is present in public assets. The next
-bounded cohort begins at PDF page 93 row 2, Dorothy H Corbin.
+bounded cohort begins at PDF page 93 row 2, Pauline Corbitt.

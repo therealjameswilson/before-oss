@@ -138,4 +138,4 @@ The evidence bundle, Library of Congress decision ledger, and sanitized adapter
 checkpoints are imported idempotently. Rebuild all derived and public artifacts;
 run focused Batch 469, privacy, link, accessibility, build, and deterministic-
 replay QA; then commit only after all checks pass. The next bounded cohort begins
-at PDF page 93 row 2, Dorothy H Corbin.
+at PDF page 93 row 2, Pauline Corbitt.
