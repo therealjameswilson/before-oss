@@ -2,6 +2,28 @@
 
 Verified against the current local SQLite database on 2026-09-11 UTC.
 
+Batch 468 is a local release candidate with complete local QA passing. It adds
+ten saved person outcomes across PDF page 92 rows 28-37, James W Copeland
+through John O Coppock, all in Box 143. Exact private-identifier matches in the
+complete 9,200,232-record official Army merged-file scan confirm Millard A
+Copeland and John O Coppock as enlisted Army personnel; Millard's unsupported
+alternate-card occupation value remains uninterpreted. John receives a
+qualified broad professional occupation at Army entry, while an official
+Truman Library finding aid establishes a separate 1942 War Production Board
+government assignment without proving that it was his immediate pre-OSS role.
+Joe M Copeland remains a visible identifier conflict. Miles A Copeland's
+existing official Army-to-OSS pathway was revalidated without duplication;
+six other people remain unresolved, including the source spelling `Mortimemr`.
+All 93 Python tests, twelve focused cross-viewport checks, the complete 2,532 /
+2,532 browser and accessibility matrix, profile, link, dependency and
+identifier audits, and two byte-identical clean 24,496-page Pages builds pass
+locally. Exact coverage is 4,450 / 23,940 researched, 520 verified
+affiliations, 230 verified employers, 4,405 archival dispositions assessed
+and 19,490 `not_started`. Batches 448-468 are complete local release candidates
+pending explicit publication authorization. See
+`reports/release_batch_468.md` and
+`research/batch-468-discovery-checkpoint.md`.
+
 Batch 467 is a local release candidate with complete local QA passing. It adds
 ten saved person outcomes across PDF page 92 rows 18-27, Nolan R Cooper through
 Elizabeth Copeland, all in Box 143. Exact private-identifier matches in the

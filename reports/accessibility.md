@@ -4,6 +4,22 @@ Run: 2026-09-11 UTC
 
 ## Result
 
+Batch 468: the complete retries-disabled 2,532-case local browser and
+accessibility matrix passed 2,532/2,532 in one uninterrupted 20.7-minute run,
+with 844/844 checks passing in each desktop, phone and tablet project. The
+focused Batch 468 suite passed all twelve checks across those layouts and
+passed 12/12 again after the clean replay. It verifies all ten immutable source
+rows and identifier masking; Joe M Copeland's visible identifier conflict;
+Millard A Copeland's exact Army identity without interpretation of an
+unsupported code; John O Coppock's separate professional occupation and War
+Production Board government assignment; Miles A Copeland's existing immediate
+Army pathway; and complete archival routing for unresolved profiles. The fresh
+Pages-configuration build reports 92 Astro source files with zero errors,
+warnings or hints and generates 24,496 HTML pages / 24,568 artifacts. The clean
+replay reproduces that production tree byte for byte. Independent Test, merge,
+Pages and pinned-live checks remain pending; see
+`reports/release_batch_468.md`.
+
 Batch 467: the complete retries-disabled 2,520-case local browser and
 accessibility matrix passed 2,520/2,520 in one uninterrupted 20.4-minute run,
 with 840/840 checks passing in each desktop, phone and tablet project. The
