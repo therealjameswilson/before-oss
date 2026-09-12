@@ -93,6 +93,23 @@ class CiaAdapter:
             """,
             (fingerprint,),
         ).fetchone()
+        if existing and (
+            existing["http_status"] is None
+            or existing["http_status"] == 429
+            or existing["http_status"] >= 500
+        ):
+            # Preserve the failed attempt in the pipeline-run history, but do
+            # not let a transient transport or server failure permanently
+            # suppress the same deterministic discovery query on resume.
+            with self.connection:
+                self.connection.execute(
+                    """
+                    DELETE FROM request_audit
+                    WHERE adapter = 'cia' AND request_fingerprint = ?
+                    """,
+                    (fingerprint,),
+                )
+            existing = None
         if existing:
             return {
                 "duplicate_request": True,
