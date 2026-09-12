@@ -21,7 +21,7 @@ omitted.
 | 94:44 | e6ad2ec3-2109-56a5-81b9-34456d782951 | 66dc98d8-164a-546a-9218-02cd49b5132e | Beverly T Couchman | none | Unresolved; marriage record is not employment evidence |
 | 94:45 | 4191cd1f-7317-5af0-b954-a3141cf6b023 | d1d4928e-3a36-5c29-a1fd-1776e663e0b2 | Panagiotis D Coucoulis | none | High-confidence exact-name identity in a direct OSS Athens roster; no pre-OSS employer found |
 
-The adjacent next row is page 94 row 46, Dominic E Coulehan.
+The adjacent next row is page 94 row 46, Mary P Couden.
 
 ## Army merged-file adjudication
 

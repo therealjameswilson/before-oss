@@ -1,8 +1,21 @@
 # Accessibility and responsive QA
 
-Run: 2026-09-11 UTC
+Run: 2026-09-12 UTC
 
 ## Result
+
+Batch 479: the focused cohort suite passed all 18 checks across desktop,
+phone and tablet. It verifies ten immutable source rows and masked identifiers;
+John G Coughlin's 35th Infantry Regiment pathway as military rather than
+civilian employment; William L Coulehan's separately qualified Army and
+Foreign Service affiliations; three Army-entry occupations that do not become
+employer claims; Jacques Coulon's mission identity without a retrojected
+pre-OSS role; and archival routing for the unresolved profiles. The separate
+axe route suite passed 27/27 across the same three layouts. The production
+build reports 103 Astro source files with zero errors, warnings or hints and
+generates 24,503 HTML pages / 24,575 artifacts. A second clean build reproduced
+both public and production trees byte for byte. The complete historical
+browser matrix and independent GitHub checks were not rerun in this batch.
 
 Batch 468: the complete retries-disabled 2,532-case local browser and
 accessibility matrix passed 2,532/2,532 in one uninterrupted 20.7-minute run,
