@@ -1,0 +1,650 @@
+{
+  "bundle_version": "before-oss-reviewed-public-batch472-v1",
+  "reviewer": "Before OSS research pipeline",
+  "sources": [
+    {
+      "key": "index-b472",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; complete PDF page 93 visually inspected at 150 dpi; rows 22-31; Boxes 144-145; location 230/86/29/02",
+      "access_date": "2026-09-11",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Citation and project-authored assessments only. Printed names, initials, identifier forms, boxes and location are preserved; full private identifiers are not published."
+    },
+    {
+      "key": "army-b472",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; complete transient scan of 9,200,232 fixed-width records; Floyd Cornelison matched by exact private identifier and exact name; Alceste G Cornaro and all James H Cornell Jr. and Keith W Cornell exact-name candidates reviewed",
+      "access_date": "2026-09-11",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "Reviewed transiently outside version control. No raw row or full private identifier is retained. The file is incomplete and is not an officer, Navy, Marine Corps, women's-service, foreign-personnel or comprehensive OSS roster; a non-hit is not negative proof."
+    },
+    {
+      "key": "basic-b472",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-45; fixed-width identifier, name, Army-entry-date, grade, birth-year, state and civilian-occupation fields visually and textually checked",
+      "access_date": "2026-09-11",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only. The documentation warns about source damage, alternate interpretations, alternate card layouts, coding limits and incomplete coverage."
+    },
+    {
+      "key": "codes-b472",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 172-173; civilian-occupation entries 3-16 and 4-75 rendered at 150 dpi and visually inspected",
+      "access_date": "2026-09-11",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Only short historical occupational labels are retained. The categories name neither employers nor workplaces and do not establish chronology relative to OSS service."
+    },
+    {
+      "key": "gainesville-cornaro-b472",
+      "stable_url": "https://www.legacy.com/us/obituaries/gainesville/name/alceste-cornaro-obituary?id=18637158",
+      "title": "Alceste Cornaro Obituary",
+      "author_creator": "Author not stated",
+      "repository_publisher": "Gainesville Sun; hosted by Legacy.com",
+      "publication_record_date": "2013-01-17 to 2013-01-18",
+      "locator": "Obituary text under Alceste G. Cornaro; paragraphs on birth, CCC, Army enlistment, radio-intelligence service and discharge",
+      "access_date": "2026-09-11",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Gainesville Sun obituaries",
+      "rights_notes": "Citation, project-authored paraphrase and shortest supporting excerpt only. Family details and postwar career are excluded except where chronology safeguards the pre-OSS assessment."
+    },
+    {
+      "key": "bryan-county-cornelison-b472",
+      "stable_url": "https://worldwartwoveterans.org/wp-content/uploads/2021/10/Bryan-County-Oklahoma-WM.pdf",
+      "archival_identifier": "Transient review copy SHA-256 4020d489145f608ea8c44f43ea0fc04f8d64f4d5edb2989135b84d1de793e464",
+      "title": "Men and Women in the Armed Forces from Bryan County, Oklahoma",
+      "author_creator": "Honor Roll Publishing Company",
+      "repository_publisher": "Honor Roll Publishing Company; public reproduction hosted by World War II Veterans",
+      "publication_record_date": "Wartime publication; exact year not stated in reviewed front matter",
+      "locator": "PDF physical page 137; Floyd Cornelison entry; front matter identifies Honor Roll Publishing Company, Durant, Oklahoma",
+      "access_date": "2026-09-11",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "Bryan County, Oklahoma wartime honor roll",
+      "rights_notes": "Citation and concise project-authored paraphrase only. Reviewed transiently; no page image or full private identifier is retained."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "civilian-conservation-corps",
+      "canonical_name": "Civilian Conservation Corps",
+      "historical_name": "Civilian Conservation Corps",
+      "aliases": [
+        "CCC"
+      ],
+      "organization_type": "federal work-relief program",
+      "sector": "federal_government",
+      "country": "United States",
+      "active_dates": "1933-1942",
+      "normalization_notes": "CCC participation is a government assignment, not private employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "alceste-cornaro-machinists-b472",
+      "person_id": "64de9625-5a61-5ecd-ade5-e0937f3c1f23",
+      "occupation": "Machinists",
+      "relationship_type": "unknown",
+      "end_date": "1942-01-29",
+      "date_precision": "The high-confidence Army statistical card dated 29 January 1942 carries civilian-occupation value 475; the official table defines 4-75 as Machinists.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The category does not establish a specific task, employer, workplace, paid relationship, work dates or Army-to-OSS sequence."
+    },
+    {
+      "key": "alceste-cornaro-ccc-b472",
+      "person_id": "64de9625-5a61-5ecd-ade5-e0937f3c1f23",
+      "organization_key": "civilian-conservation-corps",
+      "organization_name_as_found": "C.C.C.",
+      "role_title": null,
+      "occupation": null,
+      "relationship_type": "government_assignment",
+      "date_precision": "The obituary states that Cornaro joined the CCC during the Depression for two years, at Fort Stevens, Oregon, and in western Massachusetts; exact dates, camps and duties are not stated.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "Earlier documented government work. It is not presented as paid private employment, an immediate OSS predecessor or the last civilian employer before service."
+    },
+    {
+      "key": "floyd-cornelison-farm-hands-b472",
+      "person_id": "e9393991-f8df-5cdd-b3d3-ebecfe97b059",
+      "occupation": "Farm hands, general farms",
+      "relationship_type": "unknown",
+      "end_date": "1942-04-15",
+      "date_precision": "The identifier-matched Army statistical card dated 15 April 1942 carries civilian-occupation value 316; the official table defines 3-16 as Farm hands, general farms.",
+      "state_or_region": "Oklahoma",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The category does not establish a specific task, employer, farm, paid relationship, work dates or Army-to-OSS sequence."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-alceste-g-cornaro-b472",
+      "person_id": "64de9625-5a61-5ecd-ade5-e0937f3c1f23",
+      "claim_type": "identity",
+      "claim_text": "The indexed Alceste G Cornaro is a high-confidence match to the sole exact-name Army row and the Alceste G. Cornaro obituary.",
+      "evidence_excerpt": "He was born in Marlboro, MA on May 1, 1918.",
+      "evidence_paraphrase": "The rare exact name, matching 1918 birth-year evidence, Massachusetts origin, compatible January 1942 Army entry, radio-intelligence chronology and 1945 discharge support one person.",
+      "identity_match_assessment": "The uncommon exact full name plus aligned birth year, state and wartime chronology provide multiple discriminators beyond the name. No index identifier or direct Box 144 link was available, so the status remains high confidence rather than confirmed.",
+      "temporal_assessment": "The sources date Army entry and prewar CCC work but do not establish the exact OSS-entry date or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Radio-intelligence service corroborates wartime context but is not treated as proof of an immediate pre-OSS assignment.",
+      "sources": [
+        {
+          "source_key": "index-b472",
+          "support_type": "supports",
+          "locator_override": "PDF page 93, row 22; Box 144"
+        },
+        {
+          "source_key": "army-b472",
+          "support_type": "supports",
+          "locator_override": "Sole exact-name row dated 29 January 1942; 1918 birth-year value; Massachusetts residence and nativity codes"
+        },
+        {
+          "source_key": "basic-b472",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "gainesville-cornaro-b472",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "occupation-alceste-g-cornaro-b472",
+      "person_id": "64de9625-5a61-5ecd-ade5-e0937f3c1f23",
+      "affiliation_key": "alceste-cornaro-machinists-b472",
+      "claim_type": "occupation",
+      "claim_text": "Alceste G Cornaro's high-confidence Army-entry record carries the occupational category Machinists; no employer, workplace or exact task is identified.",
+      "evidence_excerpt": "Machinists",
+      "evidence_paraphrase": "The exact-name Army row carries occupation value 475; the visually inspected official table defines the 4-75 occupational category.",
+      "identity_match_assessment": "The rare exact name, matching 1918 birth year, Massachusetts origin and obituary chronology support high-confidence attribution.",
+      "temporal_assessment": "The category is bounded to the Army record dated 29 January 1942, but actual work dates and its relation to OSS service are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, worksite, employment relationship or immediacy is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b472",
+          "support_type": "supports",
+          "locator_override": "Sole exact-name row; civilian occupation code 475"
+        },
+        {
+          "source_key": "basic-b472",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-45; civilian occupation field at positions 70-72"
+        },
+        {
+          "source_key": "codes-b472",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 173; entry 4-75",
+          "excerpt_override": "Machinists"
+        }
+      ]
+    },
+    {
+      "key": "ccc-alceste-g-cornaro-b472",
+      "person_id": "64de9625-5a61-5ecd-ade5-e0937f3c1f23",
+      "affiliation_key": "alceste-cornaro-ccc-b472",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A Gainesville Sun obituary reports that Alceste G Cornaro spent two years in the Civilian Conservation Corps during the Depression.",
+      "evidence_excerpt": "During the depression he joined the C.C.C.",
+      "evidence_paraphrase": "The obituary places two years of CCC work at Fort Stevens, Oregon, and in western Massachusetts before Cornaro's early-war Army enlistment.",
+      "identity_match_assessment": "The rare exact name and aligned 1918 Massachusetts birth and Army chronology support high-confidence attribution to the indexed person.",
+      "temporal_assessment": "Explicitly prewar and before Army entry, but exact dates and its relation to later OSS entry are not established.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Modeled as a government assignment, not a named civilian employer or immediate predecessor.",
+      "sources": [
+        {
+          "source_key": "gainesville-cornaro-b472",
+          "support_type": "supports",
+          "locator_override": "Obituary paragraph on birth, CCC work and Army enlistment"
+        }
+      ]
+    },
+    {
+      "key": "identity-floyd-cornelison-b472",
+      "person_id": "e9393991-f8df-5cdd-b3d3-ebecfe97b059",
+      "claim_type": "identity",
+      "claim_text": "The indexed Floyd Cornelison has a confirmed match to the exact private identifier and exact name in the official Army merged file.",
+      "evidence_excerpt": "CORNELISON FLOYD",
+      "evidence_paraphrase": "The indexed identifier selects the sole exact-name Army row and dates Army entry to 15 April 1942 as a private; a Bryan County honor roll independently prints the same identifier and service date.",
+      "identity_match_assessment": "Exact private identifier and exact indexed name establish the match; the wartime honor roll independently corroborates both.",
+      "temporal_assessment": "The records date Army service but do not identify an OSS start, employer or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private grade supports enlisted Army classification. The full identifier remains private.",
+      "sources": [
+        {
+          "source_key": "index-b472",
+          "support_type": "supports",
+          "locator_override": "PDF page 93, row 24; Box 144; identifier withheld"
+        },
+        {
+          "source_key": "army-b472",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier and exact-name record dated 15 April 1942; identifier withheld"
+        },
+        {
+          "source_key": "basic-b472",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "bryan-county-cornelison-b472",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 137; exact identifier and Army service dates; identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-floyd-cornelison-b472",
+      "person_id": "e9393991-f8df-5cdd-b3d3-ebecfe97b059",
+      "affiliation_key": "floyd-cornelison-farm-hands-b472",
+      "claim_type": "occupation",
+      "claim_text": "Floyd Cornelison's Army-entry record carries the broad category Farm hands, general farms; no employer, farm or exact task is identified.",
+      "evidence_excerpt": "Farm hands, general farms",
+      "evidence_paraphrase": "The identifier-matched Army row carries occupation value 316; the visually inspected official table defines the 3-16 occupational category.",
+      "identity_match_assessment": "The exact private identifier and exact indexed name establish the Army-record match.",
+      "temporal_assessment": "The category is bounded to the Army record dated 15 April 1942, but actual work dates and its relation to OSS service are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, farm, location, employment relationship or immediacy is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b472",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 316; identifier withheld"
+        },
+        {
+          "source_key": "basic-b472",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-45; civilian occupation field at positions 70-72"
+        },
+        {
+          "source_key": "codes-b472",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 172; entry 3-16",
+          "excerpt_override": "Farm hands, general farms"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "64de9625-5a61-5ecd-ade5-e0937f3c1f23",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare exact name selects one Army row dated 29 January 1942 with birth-year value 1918 and Massachusetts codes. A Gainesville Sun obituary supplies the same full name, 1918 Massachusetts birth, compatible Army chronology, radio-intelligence service and 1945 discharge.",
+      "name_variants": [
+        "Alceste G Cornaro",
+        "Alceste G. Cornaro",
+        "CORNARO ALCESTE G"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 144 and pre-January 1942 records to confirm the Army bridge, identify Cornaro's employer or exact machinist role, and establish the Army-to-OSS sequence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2cd574bb-443d-5564-998a-74b407f7de8d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Marion J Corne, an eight-digit private identifier and Box 144 but no rank. The identifier and exact name do not occur in the complete Army merged file, and reviewed official, OSS, newspaper, obituary, institutional and archival searches provide no unique bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 144 to interpret Marion J Corne's identifier and establish full identity, personnel status, chronology, pre-OSS affiliation and employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e9393991-f8df-5cdd-b3d3-ebecfe97b059",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier selects the sole official Army row named CORNELISON FLOYD, dated 15 April 1942 as a private with civilian-occupation value 316. A Bryan County wartime honor roll independently prints the same identifier, name and entry date.",
+      "name_variants": [
+        "Floyd Cornelison",
+        "CORNELISON FLOYD"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 144 and pre-April 1942 Oklahoma employment sources to identify Cornelison's employer, exact farm role and Army-to-OSS sequence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5feaf943-eb7c-5ba2-97c3-179835f207cc",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Anthony Cornell and Box 145 but no middle initial, rank or private identifier. The Army file has no exact-name row, and common-name obituary, directory and modern results lack an OSS or Box 145 bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 145 to establish Anthony Cornell's full identity, personnel status, chronology, pre-OSS affiliation and employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "16160757-5094-5425-9d3c-d25db8dca3bc",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Florence Cornell and Box 145 but no middle initial, rank or private identifier. The Army file has no exact-name row. A same-name 1942 newspaper candidate lacks a middle initial, private identifier, Box 145 or OSS bridge and was rejected.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 145 to establish Florence Cornell's full identity and confirm or reject the Florence Newell Cornell educator candidate before assigning any affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "add0d4e3-e23c-5f07-b1e9-af0150087ab6",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The index prints James, Jr. with middle initial H and Box 145 but no rank or identifier. Four Army full-name or suffix candidates have different identifiers, states, birth-year values, branches and occupations; a name match cannot distinguish them.",
+      "name_variants": [
+        "James H Cornell Jr.",
+        "James H. Cornell Jr.",
+        "James H Cornell, Jr."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 145 for an identifier, birth, hometown, branch or assignment clue that distinguishes James H Cornell Jr. from the four Army candidates.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "dfd1e1a2-67c0-5573-8217-0acdffbdacfb",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The index supplies Keith W Cornell and Box 145 but no rank or private identifier. The Army file contains one exact-name row, but no independent source bridges its state, birth-year value, Army-entry date or occupation to the indexed person.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 145 to confirm or reject the sole exact-name Army candidate before assigning status, occupation or employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "61e1fee6-96c8-5307-82de-7ccc20f6ba44",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Patricia M Cornell and Box 145 but no rank or private identifier. The complete Army file has no exact-name row, and reviewed OSS, newspaper, obituary, institutional and archival searches provide no unique bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 145 to establish Patricia M Cornell's full identity, personnel status, chronology, pre-OSS affiliation and employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2b198a70-e538-591e-90f4-b08793aaaf68",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Pierre F Cornell-D'Ech and Box 145 but no rank or private identifier. The exact rare spelling appears only in the NARA index among reviewed sources, and the Army file has no exact-name row.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 145 for Pierre F Cornell-D'Ech's full name, nationality, personnel status, spelling variants, chronology and pre-OSS affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "50f5b84d-5c15-549e-8708-b67aa5f0d85f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Thelma Cornette and Box 145 but no middle initial, rank or private identifier. The complete Army file has no exact-name row, and reviewed historical and modern results lack an OSS or Box 145 bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 145 to establish Thelma Cornette's full identity, personnel status, chronology, pre-OSS affiliation and employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b472-alceste-g-cornaro",
+      "person_id": "64de9625-5a61-5ecd-ade5-e0937f3c1f23",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 93; complete Army identifier and exact-name comparison as applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employment, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "distinctive_name_with_army_and_obituary_bridge",
+      "started_at": "2026-09-11T11:35:00Z",
+      "completed_at": "2026-09-11T12:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Namesakes and genealogy results lack the rare full-name, birth-year, state and wartime combination; postwar Army-intelligence and air-traffic-control work is temporally ineligible.",
+      "research_notes": "High-confidence identity. Published a qualified Army-entry occupation and earlier CCC government assignment, but no employer or immediate pre-OSS affiliation.",
+      "next_action": "Review Box 144 and pre-January 1942 employment sources.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss/reviewed-public-batch472-v1"
+    },
+    {
+      "key": "b472-marion-j-corne",
+      "person_id": "2cd574bb-443d-5564-998a-74b407f7de8d",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 93; complete Army identifier and exact-name comparison as applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employment, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "moderately_common_name_with_unmatched_private_identifier",
+      "started_at": "2026-09-11T11:35:00Z",
+      "completed_at": "2026-09-11T12:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The indexed identifier and exact name do not occur in the Army file; common-name, surname-variant, directory and genealogy results lack Box 144 or OSS evidence.",
+      "research_notes": "Bounded protocol completed without a reliable identity or pre-OSS employer.",
+      "next_action": "Review Box 144 to interpret the identifier and establish identity.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss/reviewed-public-batch472-v1"
+    },
+    {
+      "key": "b472-floyd-cornelison",
+      "person_id": "e9393991-f8df-5cdd-b3d3-ebecfe97b059",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 93; complete Army identifier and exact-name comparison as applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employment, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "distinctive_name_with_exact_private_identifier_and_occupation_code",
+      "started_at": "2026-09-11T11:35:00Z",
+      "completed_at": "2026-09-11T12:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Genealogy and cemetery results are unnecessary and lack stronger OSS chronology; the Army occupation group names no employer or farm.",
+      "research_notes": "Confirmed Army identity and enlisted grade. Published only the broad Army-entry occupation category with temporal uncertainty.",
+      "next_action": "Review Box 144 and pre-April 1942 Oklahoma employment sources.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss/reviewed-public-batch472-v1"
+    },
+    {
+      "key": "b472-anthony-cornell",
+      "person_id": "5feaf943-eb7c-5ba2-97c3-179835f207cc",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 93; complete Army identifier and exact-name comparison as applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employment, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "common_name_without_middle_initial_rank_or_identifier",
+      "started_at": "2026-09-11T11:35:00Z",
+      "completed_at": "2026-09-11T12:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Obituaries, military biographies, directories and modern results lack Box 145, an identifier or explicit OSS evidence; the Army file has no exact-name row.",
+      "research_notes": "Bounded protocol completed without a reliable identity or pre-OSS employer.",
+      "next_action": "Review Box 145 for identity and affiliation.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss/reviewed-public-batch472-v1"
+    },
+    {
+      "key": "b472-florence-cornell",
+      "person_id": "16160757-5094-5425-9d3c-d25db8dca3bc",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 93; complete Army identifier and exact-name comparison as applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employment, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "common_name_with_unbridged_school_principal_candidate",
+      "started_at": "2026-09-11T11:35:00Z",
+      "completed_at": "2026-09-11T12:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "The 1942 Adams School registrar is identifiable as Florence Newell Cornell, but neither the newspaper page nor obituary supplies the indexed middle initial, Box 145, an identifier or OSS evidence.",
+      "research_notes": "Rejected the Library of Congress candidate; no school-system affiliation transferred.",
+      "next_action": "Review Box 145 to identify the person and adjudicate the educator candidate.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss/reviewed-public-batch472-v1"
+    },
+    {
+      "key": "b472-james-h-cornell-jr",
+      "person_id": "add0d4e3-e23c-5f07-b1e9-af0150087ab6",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 93; complete Army identifier and exact-name comparison as applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employment, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "common_name_with_suffix_and_four_army_candidates",
+      "started_at": "2026-09-11T11:35:00Z",
+      "completed_at": "2026-09-11T12:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "Four Army full-name or suffix candidates have different identifiers, states, birth years, branches and occupations; no independent result bridges one to Box 145.",
+      "research_notes": "No Army, occupation, employer or biography fact transferred from any namesake.",
+      "next_action": "Review Box 145 for discriminating identity evidence.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss/reviewed-public-batch472-v1"
+    },
+    {
+      "key": "b472-keith-w-cornell",
+      "person_id": "dfd1e1a2-67c0-5573-8217-0acdffbdacfb",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 93; complete Army identifier and exact-name comparison as applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employment, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "moderately_distinctive_name_with_unbridged_army_candidate",
+      "started_at": "2026-09-11T11:35:00Z",
+      "completed_at": "2026-09-11T12:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "The sole exact-name Army row lacks a Box 145 or OSS bridge; common-name and modern results add no reliable identity evidence.",
+      "research_notes": "No Army status, driver-category occupation or employer transferred from the candidate.",
+      "next_action": "Review Box 145 to confirm or reject the Army candidate.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss/reviewed-public-batch472-v1"
+    },
+    {
+      "key": "b472-patricia-m-cornell",
+      "person_id": "61e1fee6-96c8-5307-82de-7ccc20f6ba44",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 93; complete Army identifier and exact-name comparison as applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employment, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "common_name_without_rank_or_identifier",
+      "started_at": "2026-09-11T11:35:00Z",
+      "completed_at": "2026-09-11T12:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Obituary, directory, genealogy and modern results lack the exact middle initial plus Box 145 or OSS evidence; the Army file has no exact-name row.",
+      "research_notes": "Bounded protocol completed without a reliable identity or pre-OSS employer.",
+      "next_action": "Review Box 145 for identity and affiliation.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss/reviewed-public-batch472-v1"
+    },
+    {
+      "key": "b472-pierre-f-cornell-dech",
+      "person_id": "2b198a70-e538-591e-90f4-b08793aaaf68",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 93; complete Army identifier and exact-name comparison as applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employment, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "rare_hyphenated_name_without_rank_or_identifier",
+      "started_at": "2026-09-11T11:35:00Z",
+      "completed_at": "2026-09-11T12:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Searches for apostrophe, hyphen and spacing variants produced only the NARA index or unrelated fragments; no archival identity bridge was found.",
+      "research_notes": "Bounded online protocol completed; spelling, nationality and identity require personnel-file review.",
+      "next_action": "Review Box 145 at critical priority.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss/reviewed-public-batch472-v1"
+    },
+    {
+      "key": "b472-thelma-cornette",
+      "person_id": "50f5b84d-5c15-549e-8708-b67aa5f0d85f",
+      "source_adapter": "reviewed_public_sources",
+      "query_text": "NARA OSS index page 93; complete Army identifier and exact-name comparison as applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employment, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "common_name_without_middle_initial_rank_or_identifier",
+      "started_at": "2026-09-11T11:35:00Z",
+      "completed_at": "2026-09-11T12:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Modern wrestling-associated results, obituaries, genealogy and directories concern other people or lack Box 145 and OSS evidence; the Army file has no exact-name row.",
+      "research_notes": "Bounded protocol completed without a reliable identity or pre-OSS employer.",
+      "next_action": "Review Box 145 for identity and affiliation.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss/reviewed-public-batch472-v1"
+    }
+  ]
+}
