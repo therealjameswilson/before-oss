@@ -21,7 +21,7 @@ identifiers are omitted.
 | 94:4 | 1df90aea-ca97-5e0b-9945-06885ae68b8e | 33999a88-57d6-5564-8258-10816fd55d3c | Archie B Cory | eight digits | Unresolved; unbridged contemporary namesake rejected |
 | 94:5 | 72227d87-62ed-54b8-8072-eb44357e1a41 | 1d72ab48-d68b-539f-a79f-320085c7b7b0 | Carolyn F Cory | none | Unresolved |
 
-The adjacent next row is page 94 row 6, Dennis H Cosgrove.
+The adjacent next row is page 94 row 6, Charles F Corya.
 
 ## Army merged-file adjudication
 

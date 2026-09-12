@@ -1,0 +1,881 @@
+{
+  "bundle_version": "before-oss-reviewed-public-batch475-v1",
+  "reviewer": "Before OSS research pipeline",
+  "sources": [
+    {
+      "key": "index-b475",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; complete PDF page 94 visually inspected; rows 6-15; Box 146; location 230/86/29/02",
+      "access_date": "2026-09-12",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Citation and project-authored assessments only. Full private identifiers are not published."
+    },
+    {
+      "key": "army-b475",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official ASNEF.FIN.DAT; complete transient scan of 9,200,232 fixed-width records; five exact-name and exact-private-identifier matches adjudicated",
+      "access_date": "2026-09-12",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full private identifier is retained. The incomplete file is not a comprehensive OSS or military roster; a non-hit is not negative proof."
+    },
+    {
+      "key": "basic-b475",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; fixed-width identifier, name, Army-entry-date, grade, birth-year and civilian-occupation fields checked",
+      "access_date": "2026-09-12",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields and documented coverage limits."
+    },
+    {
+      "key": "codes-b475",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 170-174; entries 0-02, 0-44, 8-57 and 9-32 visually and textually checked",
+      "access_date": "2026-09-12",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical occupational labels name neither employers nor workplaces and do not establish chronology relative to OSS service."
+    },
+    {
+      "key": "usm-cosgrave-b475",
+      "stable_url": "https://www.lib.usm.edu/legacy/degrum/public_html/html/research/findaids/masten.htm",
+      "archival_identifier": "Helen Adams Masten Papers, DG0677",
+      "title": "Helen Adams Masten Papers finding aid",
+      "author_creator": "de Grummond Children's Literature Collection",
+      "repository_publisher": "University Libraries, University of Southern Mississippi",
+      "locator": "Biographical sketches, lines 84-86; John and Mary Cosgrave",
+      "access_date": "2026-09-12",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "de Grummond Children's Literature Collection",
+      "rights_notes": "Short excerpt and project-authored citation only; collection restrictions remain controlling."
+    },
+    {
+      "key": "loc-cosgrave-b475",
+      "stable_url": "https://www.loc.gov/resource/sn83020847/1940-04-04/ed-1/?sp=8",
+      "archival_identifier": "LCCN sn83020847; sequence 8",
+      "title": "The World of Books: On a Garden Tour in Various States",
+      "repository_publisher": "Springfield Weekly Republican; Library of Congress, Chronicling America",
+      "publication_record_date": "1940-04-04",
+      "locator": "Springfield Weekly Republican, page 8, edition 1; book review of Bouquets and Bitters",
+      "access_date": "2026-09-12",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Chronicling America",
+      "rights_notes": "Short evidence excerpt only; persistent item and page URL retained."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "charles-corya-occupation-b475",
+      "person_id": "e72cc71f-1512-53dd-b1c5-b6ac47825601",
+      "occupation": "Actors and actresses",
+      "relationship_type": "unknown",
+      "end_date": "1941-01-17",
+      "date_precision": "The identifier-matched Army statistical card dated 17 January 1941 carries civilian-occupation value 002; the official table defines the broad category.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The category establishes no employer, workplace, exact duties, work dates or Army-to-OSS sequence."
+    },
+    {
+      "key": "thomas-cossuto-occupation-b475",
+      "person_id": "3758b471-812c-51a2-8176-acac3190f59d",
+      "occupation": "Construction occupations, n.e.c.",
+      "relationship_type": "unknown",
+      "end_date": "1943-03-04",
+      "date_precision": "The identifier-matched Army statistical card dated 4 March 1943 carries civilian-occupation value 932; the official table defines the broad category.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The category establishes no employer, workplace, exact duties, work dates or Army-to-OSS sequence."
+    },
+    {
+      "key": "howard-costa-occupation-b475",
+      "person_id": "0aed0b45-539c-5bce-bcff-67bbe59c23b0",
+      "occupation": "Construction occupations, n.e.c.",
+      "relationship_type": "unknown",
+      "end_date": "1943-02-12",
+      "date_precision": "The identifier-matched Army statistical card dated 12 February 1943 carries civilian-occupation value 932; the official table defines the broad category.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The category establishes no employer, workplace, exact duties, work dates or Army-to-OSS sequence."
+    },
+    {
+      "key": "liberal-costa-occupation-b475",
+      "person_id": "a5048b62-3b5c-5bef-b116-9f502a309088",
+      "occupation": "Occupations in production of rubber goods",
+      "relationship_type": "unknown",
+      "end_date": "1942-08-03",
+      "date_precision": "The identifier-matched Army statistical card dated 3 August 1942 carries civilian-occupation value 857; the official table defines the broad category.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The category establishes no employer, workplace, exact duties, work dates or Army-to-OSS sequence."
+    },
+    {
+      "key": "john-cosgrave-freelance-artist-b475",
+      "person_id": "521e3019-43b3-598a-9345-692e775d5cf6",
+      "role_title": "Book illustrator",
+      "occupation": "Freelance commercial artist and book illustrator",
+      "relationship_type": "self_employment",
+      "end_date": "1940",
+      "date_precision": "A contemporary review published 4 April 1940 credits John O'Hara Cosgrave as illustrator; the institutional finding aid describes him as a freelance commercial artist and book illustrator.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The 1940 illustration credit is definitely pre-OSS, but accessible sources do not establish that freelance work immediately preceded OSS service or name a client-employer relationship."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-charles-corya-b475",
+      "person_id": "e72cc71f-1512-53dd-b1c5-b6ac47825601",
+      "claim_type": "identity",
+      "claim_text": "The indexed Charles F Corya has a confirmed match to the exact private identifier and exact name in the official Army merged file.",
+      "evidence_excerpt": "CORYA CHARLES F",
+      "evidence_paraphrase": "The indexed identifier selects the matching Army row and dates Army entry to 17 January 1941 as a private.",
+      "identity_match_assessment": "Exact private identifier and exact indexed name establish the match.",
+      "temporal_assessment": "The record dates Army entry but does not identify an OSS start, employer or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full private identifier remains private.",
+      "sources": [
+        {
+          "source_key": "index-b475",
+          "support_type": "supports",
+          "locator_override": "PDF page 94, row 6; Box 146; identifier withheld"
+        },
+        {
+          "source_key": "army-b475",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier and exact-name record dated 17 January 1941; identifier withheld"
+        },
+        {
+          "source_key": "basic-b475",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-charles-corya-b475",
+      "person_id": "e72cc71f-1512-53dd-b1c5-b6ac47825601",
+      "affiliation_key": "charles-corya-occupation-b475",
+      "claim_type": "occupation",
+      "claim_text": "Charles F Corya's Army-entry record carries the broad occupational category Actors and actresses; no employer or workplace is identified.",
+      "evidence_excerpt": "Actors and actresses",
+      "evidence_paraphrase": "The identifier-matched Army row carries occupation value 002; the visually inspected official table supplies the category wording.",
+      "identity_match_assessment": "The exact private identifier and exact indexed name establish the Army-record match.",
+      "temporal_assessment": "The category is bounded to the Army record dated 17 January 1941, but actual work dates and its relation to OSS service are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, employment relationship or immediacy is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b475",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 002; identifier withheld"
+        },
+        {
+          "source_key": "basic-b475",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "codes-b475",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 170; entry 0-02",
+          "excerpt_override": "Actors and actresses"
+        }
+      ]
+    },
+    {
+      "key": "identity-thomas-cossuto-b475",
+      "person_id": "3758b471-812c-51a2-8176-acac3190f59d",
+      "claim_type": "identity",
+      "claim_text": "The indexed Thomas P Cossuto has a confirmed match to the exact private identifier and exact name in the official Army merged file.",
+      "evidence_excerpt": "COSSUTO THOMAS P",
+      "evidence_paraphrase": "The indexed identifier selects the matching Army row and dates Army entry to 4 March 1943 as a private.",
+      "identity_match_assessment": "Exact private identifier and exact indexed name establish the match.",
+      "temporal_assessment": "The record dates Army entry but does not identify an OSS start, employer or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full private identifier remains private.",
+      "sources": [
+        {
+          "source_key": "index-b475",
+          "support_type": "supports",
+          "locator_override": "PDF page 94, row 12; Box 146; identifier withheld"
+        },
+        {
+          "source_key": "army-b475",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier and exact-name record dated 4 March 1943; identifier withheld"
+        },
+        {
+          "source_key": "basic-b475",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-thomas-cossuto-b475",
+      "person_id": "3758b471-812c-51a2-8176-acac3190f59d",
+      "affiliation_key": "thomas-cossuto-occupation-b475",
+      "claim_type": "occupation",
+      "claim_text": "Thomas P Cossuto's Army-entry record carries the broad occupational category Construction occupations, n.e.c.; no employer or workplace is identified.",
+      "evidence_excerpt": "Construction occupations, n.e.c.",
+      "evidence_paraphrase": "The identifier-matched Army row carries occupation value 932; the visually inspected official table supplies the category wording.",
+      "identity_match_assessment": "The exact private identifier and exact indexed name establish the Army-record match.",
+      "temporal_assessment": "The category is bounded to the Army record dated 4 March 1943, but actual work dates and its relation to OSS service are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, employment relationship or immediacy is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b475",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 932; identifier withheld"
+        },
+        {
+          "source_key": "basic-b475",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "codes-b475",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 174; entry 9-32",
+          "excerpt_override": "Construction occupations, n.e.c."
+        }
+      ]
+    },
+    {
+      "key": "identity-howard-costa-b475",
+      "person_id": "0aed0b45-539c-5bce-bcff-67bbe59c23b0",
+      "claim_type": "identity",
+      "claim_text": "The indexed Howard R Costa has a confirmed match to the exact private identifier and exact name in the official Army merged file.",
+      "evidence_excerpt": "COSTA HOWARD R",
+      "evidence_paraphrase": "The indexed identifier selects the matching Army row and dates Army entry to 12 February 1943 as a private.",
+      "identity_match_assessment": "Exact private identifier and exact indexed name establish the match.",
+      "temporal_assessment": "The record dates Army entry but does not identify an OSS start, employer or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full private identifier remains private.",
+      "sources": [
+        {
+          "source_key": "index-b475",
+          "support_type": "supports",
+          "locator_override": "PDF page 94, row 14; Box 146; identifier withheld"
+        },
+        {
+          "source_key": "army-b475",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier and exact-name record dated 12 February 1943; identifier withheld"
+        },
+        {
+          "source_key": "basic-b475",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-howard-costa-b475",
+      "person_id": "0aed0b45-539c-5bce-bcff-67bbe59c23b0",
+      "affiliation_key": "howard-costa-occupation-b475",
+      "claim_type": "occupation",
+      "claim_text": "Howard R Costa's Army-entry record carries the broad occupational category Construction occupations, n.e.c.; no employer or workplace is identified.",
+      "evidence_excerpt": "Construction occupations, n.e.c.",
+      "evidence_paraphrase": "The identifier-matched Army row carries occupation value 932; the visually inspected official table supplies the category wording.",
+      "identity_match_assessment": "The exact private identifier and exact indexed name establish the Army-record match.",
+      "temporal_assessment": "The category is bounded to the Army record dated 12 February 1943, but actual work dates and its relation to OSS service are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, employment relationship or immediacy is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b475",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 932; identifier withheld"
+        },
+        {
+          "source_key": "basic-b475",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "codes-b475",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 174; entry 9-32",
+          "excerpt_override": "Construction occupations, n.e.c."
+        }
+      ]
+    },
+    {
+      "key": "identity-liberal-costa-b475",
+      "person_id": "a5048b62-3b5c-5bef-b116-9f502a309088",
+      "claim_type": "identity",
+      "claim_text": "The indexed Liberal Costa has a confirmed match to the exact private identifier and exact name in the official Army merged file.",
+      "evidence_excerpt": "COSTA LIBERAL",
+      "evidence_paraphrase": "The indexed identifier selects the matching Army row and dates Army entry to 3 August 1942 as a private.",
+      "identity_match_assessment": "Exact private identifier and exact indexed name establish the match.",
+      "temporal_assessment": "The record dates Army entry but does not identify an OSS start, employer or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full private identifier remains private.",
+      "sources": [
+        {
+          "source_key": "index-b475",
+          "support_type": "supports",
+          "locator_override": "PDF page 94, row 15; Box 146; identifier withheld"
+        },
+        {
+          "source_key": "army-b475",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier and exact-name record dated 3 August 1942; identifier withheld"
+        },
+        {
+          "source_key": "basic-b475",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-liberal-costa-b475",
+      "person_id": "a5048b62-3b5c-5bef-b116-9f502a309088",
+      "affiliation_key": "liberal-costa-occupation-b475",
+      "claim_type": "occupation",
+      "claim_text": "Liberal Costa's Army-entry record carries the broad occupational category Occupations in production of rubber goods; no employer or workplace is identified.",
+      "evidence_excerpt": "Occupations in production of rubber goods",
+      "evidence_paraphrase": "The identifier-matched Army row carries occupation value 857; the visually inspected official table supplies the category wording.",
+      "identity_match_assessment": "The exact private identifier and exact indexed name establish the Army-record match.",
+      "temporal_assessment": "The category is bounded to the Army record dated 3 August 1942, but actual work dates and its relation to OSS service are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, employment relationship or immediacy is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b475",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 857; identifier withheld"
+        },
+        {
+          "source_key": "basic-b475",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "codes-b475",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 173; entry 8-57",
+          "excerpt_override": "Occupations in production of rubber goods"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-o-cosgrave-b475",
+      "person_id": "521e3019-43b3-598a-9345-692e775d5cf6",
+      "claim_type": "identity",
+      "claim_text": "The indexed John O Cosgrave is a high-confidence match to commercial artist and book illustrator John O'Hara Cosgrave II (1908-1968).",
+      "evidence_excerpt": "John O'Hara Cosgrave (1908-1968)",
+      "evidence_paraphrase": "The exact private identifier links the index to a 1908-born Army entrant classified as a commercial artist; two independent prewar and institutional sources identify John O'Hara Cosgrave as an illustrator.",
+      "identity_match_assessment": "Exact private identifier, exact first and last name, matching middle initial, 1908 birth-year field and distinctive commercial-art occupation jointly distinguish the younger illustrator from his namesake uncle.",
+      "temporal_assessment": "The Army record dates entry to 1 June 1943; the newspaper credit is dated 4 April 1940. Neither source establishes an OSS start date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The personnel file remains necessary to confirm the expanded middle name and complete Army-to-OSS chronology. The senior John O'Hara Cosgrave, an editor born in 1866, is not assigned to this record.",
+      "sources": [
+        {
+          "source_key": "index-b475",
+          "support_type": "supports",
+          "locator_override": "PDF page 94, row 8; Box 146; identifier withheld"
+        },
+        {
+          "source_key": "army-b475",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record dated 1 June 1943; birth-year value 08 and civilian occupation code 044; identifier withheld"
+        },
+        {
+          "source_key": "basic-b475",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "codes-b475",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 171; entry 0-44",
+          "excerpt_override": "Commercial artists"
+        },
+        {
+          "source_key": "usm-cosgrave-b475",
+          "support_type": "supports",
+          "locator_override": "Biographical sketches, John and Mary Cosgrave"
+        },
+        {
+          "source_key": "loc-cosgrave-b475",
+          "support_type": "supports",
+          "locator_override": "Springfield Weekly Republican, 4 April 1940, page 8"
+        }
+      ]
+    },
+    {
+      "key": "prewar-affiliation-john-o-cosgrave-b475",
+      "person_id": "521e3019-43b3-598a-9345-692e775d5cf6",
+      "affiliation_key": "john-cosgrave-freelance-artist-b475",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "By 1940, John O'Hara Cosgrave II was working as a freelance commercial artist and book illustrator.",
+      "evidence_excerpt": "free-lance commercial artist and book illustrator",
+      "evidence_paraphrase": "The University of Southern Mississippi finding aid describes Cosgrave's freelance occupation, and a contemporary 1940 review credits his book illustrations.",
+      "identity_match_assessment": "The exact identifier-backed Army row's 1908 birth field and commercial-art category align with the institutional biography and distinctive newspaper credit.",
+      "temporal_assessment": "The 4 April 1940 illustration credit is definitely prewar and predates Army entry in 1943; no source reviewed establishes immediacy before OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This is modeled as self-employment, not as employment by a publisher. It is excluded from immediate-affiliation and last-civilian-employer analytics.",
+      "sources": [
+        {
+          "source_key": "usm-cosgrave-b475",
+          "support_type": "supports",
+          "locator_override": "Biographical sketches, lines 84-86",
+          "excerpt_override": "free-lance commercial artist and book illustrator"
+        },
+        {
+          "source_key": "loc-cosgrave-b475",
+          "support_type": "supports",
+          "locator_override": "Springfield Weekly Republican, 4 April 1940, page 8",
+          "excerpt_override": "with attractive illustrations by John O'Hara Cosgrave"
+        },
+        {
+          "source_key": "army-b475",
+          "support_type": "context_only",
+          "locator_override": "Exact private-identifier record; civilian occupation code 044; identifier withheld"
+        },
+        {
+          "source_key": "codes-b475",
+          "support_type": "context_only",
+          "locator_override": "PDF physical page 171; entry 0-44"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "e72cc71f-1512-53dd-b1c5-b6ac47825601",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked OSS index and official Army merged file share Charles F Corya's exact private identifier and full name. The Army row dates entry to 17 January 1941 and carries civilian occupation code 002.",
+      "name_variants": [
+        "Charles F Corya",
+        "Charles F. Corya",
+        "CORYA CHARLES F"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 146 to identify any employer or workplace behind the actors and actresses category and establish Army-to-OSS chronology.",
+      "archival_review_priority": "high",
+      "replace_name_variants": false,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false
+    },
+    {
+      "person_id": "3758b471-812c-51a2-8176-acac3190f59d",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked OSS index and official Army merged file share Thomas P Cossuto's exact private identifier and full name. The Army row dates entry to 4 March 1943 and carries civilian occupation code 932.",
+      "name_variants": [
+        "Thomas P Cossuto",
+        "Thomas P. Cossuto",
+        "COSSUTO THOMAS P"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 146 to identify any employer or workplace behind the construction occupations, n.e.c. category and establish Army-to-OSS chronology.",
+      "archival_review_priority": "high",
+      "replace_name_variants": false,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false
+    },
+    {
+      "person_id": "0aed0b45-539c-5bce-bcff-67bbe59c23b0",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked OSS index and official Army merged file share Howard R Costa's exact private identifier and full name. The Army row dates entry to 12 February 1943 and carries civilian occupation code 932.",
+      "name_variants": [
+        "Howard R Costa",
+        "Howard R. Costa",
+        "COSTA HOWARD R"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 146 to identify any employer or workplace behind the construction occupations, n.e.c. category and establish Army-to-OSS chronology.",
+      "archival_review_priority": "high",
+      "replace_name_variants": false,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false
+    },
+    {
+      "person_id": "a5048b62-3b5c-5bef-b116-9f502a309088",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked OSS index and official Army merged file share Liberal Costa's exact private identifier and full name. The Army row dates entry to 3 August 1942 and carries civilian occupation code 857.",
+      "name_variants": [
+        "Liberal Costa",
+        "COSTA LIBERAL"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 146 to identify any employer or workplace behind the occupations in production of rubber goods category and establish Army-to-OSS chronology.",
+      "archival_review_priority": "high",
+      "replace_name_variants": false,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false
+    },
+    {
+      "person_id": "521e3019-43b3-598a-9345-692e775d5cf6",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed private identifier exactly matches an official 1908-born Army entrant named John O Cosgrave with civilian occupation Commercial artists. The birth year, middle initial and occupation align with John O'Hara Cosgrave II (1908-1968), a freelance commercial artist and 1940 book illustrator.",
+      "name_variants": [
+        "John O Cosgrave",
+        "John O. Cosgrave",
+        "John O'Hara Cosgrave",
+        "John O'Hara Cosgrave II",
+        "J. O'H. Cosgrave II",
+        "COSGRAVE JOHN O"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 146 to confirm the expanded identity, determine whether freelance illustration immediately preceded OSS service and reconstruct Army-to-OSS chronology.",
+      "archival_review_priority": "high",
+      "replace_name_variants": false,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false
+    },
+    {
+      "person_id": "a9cae332-753e-5e30-b15d-4ce032ba3127",
+      "identity_status": "unresolved",
+      "identity_evidence": "No exact Army row or reliable public source linked Louise A Coser to Box 146 or established a pre-OSS affiliation.",
+      "name_variants": [
+        "Louise A Coser",
+        "Louise A. Coser"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 146.",
+      "archival_review_priority": "high",
+      "replace_name_variants": false,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false
+    },
+    {
+      "person_id": "f7382d8d-dc16-5521-824a-0a1c8511bf45",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies the enlisted rank Pfc, but no exact Army row or reliable public source established Charles M Cosner's identity or pre-OSS affiliation.",
+      "name_variants": [
+        "Charles M Cosner",
+        "Charles M. Cosner"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 146.",
+      "archival_review_priority": "high",
+      "replace_name_variants": false,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false
+    },
+    {
+      "person_id": "3655897f-afae-5e51-8136-04df35e75107",
+      "identity_status": "unresolved",
+      "identity_evidence": "No exact Army row or reliable public source linked William C Cossen to Box 146 or established a pre-OSS affiliation.",
+      "name_variants": [
+        "William C Cossen",
+        "William C. Cossen"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 146.",
+      "archival_review_priority": "high",
+      "replace_name_variants": false,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false
+    },
+    {
+      "person_id": "52e4f2d7-dc9a-5163-b70e-d30271b391d5",
+      "identity_status": "unresolved",
+      "identity_evidence": "A same-name Arkansas obituary describes a World War II Army veteran and retired master carpenter, but it supplies no private identifier, OSS link or prewar chronology and was not assigned to this person.",
+      "name_variants": [
+        "Harmon Cossey"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 146.",
+      "archival_review_priority": "high",
+      "replace_name_variants": false,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false
+    },
+    {
+      "person_id": "eae034aa-ed00-5c61-b2f5-9910e0a20616",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index preserves the truncated note 'Italian Ci'. No accessible source safely expanded that wording, established Anette Costa's identity or documented a pre-OSS affiliation.",
+      "name_variants": [
+        "Anette Costa"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 146.",
+      "archival_review_priority": "critical",
+      "replace_name_variants": false,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b475-charles-corya",
+      "person_id": "e72cc71f-1512-53dd-b1c5-b6ac47825601",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index page 94; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_exact_private_identifier",
+      "started_at": "2026-09-12T21:05:00Z",
+      "completed_at": "2026-09-12T22:25:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Commercial genealogy pages supplied later-life summaries without source images, OSS evidence or a prewar employer and were rejected.",
+      "research_notes": "The exact indexed private identifier and name match an official Army row. The decoded occupation is published only as a broad, temporally uncertain category; no employer is inferred.",
+      "next_action": "Review Box 146 for the named employer and Army-to-OSS chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch475-v1"
+    },
+    {
+      "key": "b475-louise-coser",
+      "person_id": "a9cae332-753e-5e30-b15d-4ce032ba3127",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index page 94; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_exact_name",
+      "started_at": "2026-09-12T21:05:00Z",
+      "completed_at": "2026-09-12T22:25:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Results for Lewis Coser and other differently named people were rejected as namesakes.",
+      "research_notes": "No exact Army row or accessible official, institutional, newspaper, obituary or archival source established both identity and a pre-OSS affiliation. The case is routed to the indexed personnel file.",
+      "next_action": "Review Box 146.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch475-v1"
+    },
+    {
+      "key": "b475-john-cosgrave",
+      "person_id": "521e3019-43b3-598a-9345-692e775d5cf6",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index page 94; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_exact_private_identifier_institutional_match",
+      "started_at": "2026-09-12T21:05:00Z",
+      "completed_at": "2026-09-12T22:25:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The older newspaper editor John O'Hara Cosgrave (1866-1947) was rejected as the Army entrant; the younger illustrator is distinguished by birth year and occupation.",
+      "research_notes": "The accepted 1940 Library of Congress page and University of Southern Mississippi finding aid, combined with the exact identifier-backed Army record, support a high-confidence identity and documented prewar freelance illustration work. Immediacy remains unproven.",
+      "next_action": "Review Box 146 to confirm the expanded identity and determine the immediate pre-OSS sequence.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch475-v1"
+    },
+    {
+      "key": "b475-charles-cosner",
+      "person_id": "f7382d8d-dc16-5521-824a-0a1c8511bf45",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index page 94; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_exact_name",
+      "started_at": "2026-09-12T21:05:00Z",
+      "completed_at": "2026-09-12T22:25:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "A 1929 probate entry belongs to a deceased namesake; a later factory-worker namesake was born in 1942. Neither was assigned.",
+      "research_notes": "No exact Army row or accessible official, institutional, newspaper, obituary or archival source established both identity and a pre-OSS affiliation. The case is routed to the indexed personnel file.",
+      "next_action": "Review Box 146.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch475-v1"
+    },
+    {
+      "key": "b475-william-cossen",
+      "person_id": "3655897f-afae-5e51-8136-04df35e75107",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index page 94; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_exact_name",
+      "started_at": "2026-09-12T21:05:00Z",
+      "completed_at": "2026-09-12T22:25:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "A World War I newspaper OCR candidate supplied no middle initial, private identifier, OSS link or usable chronology and was rejected.",
+      "research_notes": "No exact Army row or accessible official, institutional, newspaper, obituary or archival source established both identity and a pre-OSS affiliation. The case is routed to the indexed personnel file.",
+      "next_action": "Review Box 146.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch475-v1"
+    },
+    {
+      "key": "b475-harmon-cossey",
+      "person_id": "52e4f2d7-dc9a-5163-b70e-d30271b391d5",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index page 94; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_exact_name",
+      "started_at": "2026-09-12T21:05:00Z",
+      "completed_at": "2026-09-12T22:25:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The Arkansas obituary lacks the indexed identifier, OSS connection and prewar chronology, so its carpenter statement was not transferred.",
+      "research_notes": "No exact Army row or accessible official, institutional, newspaper, obituary or archival source established both identity and a pre-OSS affiliation. The case is routed to the indexed personnel file.",
+      "next_action": "Review Box 146.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch475-v1"
+    },
+    {
+      "key": "b475-thomas-cossuto",
+      "person_id": "3758b471-812c-51a2-8176-acac3190f59d",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index page 94; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_exact_private_identifier",
+      "started_at": "2026-09-12T21:05:00Z",
+      "completed_at": "2026-09-12T22:25:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "A privately compiled OSS operational-group roster corroborates a wartime namesake but supplies no archival citation or pre-OSS employment evidence; it remains a discovery lead only.",
+      "research_notes": "The exact indexed private identifier and name match an official Army row. The decoded occupation is published only as a broad, temporally uncertain category; no employer is inferred.",
+      "next_action": "Review Box 146 for the named employer and Army-to-OSS chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch475-v1"
+    },
+    {
+      "key": "b475-anette-costa",
+      "person_id": "eae034aa-ed00-5c61-b2f5-9910e0a20616",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index page 94; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_exact_name",
+      "started_at": "2026-09-12T21:05:00Z",
+      "completed_at": "2026-09-12T22:25:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Search results did not produce a candidate with a safe identity bridge or expansion of the truncated index note.",
+      "research_notes": "No exact Army row or accessible official, institutional, newspaper, obituary or archival source established both identity and a pre-OSS affiliation. The case is routed to the indexed personnel file.",
+      "next_action": "Review Box 146.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch475-v1"
+    },
+    {
+      "key": "b475-howard-costa",
+      "person_id": "0aed0b45-539c-5bce-bcff-67bbe59c23b0",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index page 94; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_exact_private_identifier",
+      "started_at": "2026-09-12T21:05:00Z",
+      "completed_at": "2026-09-12T22:25:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Exact-name searches produced no candidate with an identity bridge or named pre-OSS employer.",
+      "research_notes": "The exact indexed private identifier and name match an official Army row. The decoded occupation is published only as a broad, temporally uncertain category; no employer is inferred.",
+      "next_action": "Review Box 146 for the named employer and Army-to-OSS chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch475-v1"
+    },
+    {
+      "key": "b475-liberal-costa",
+      "person_id": "a5048b62-3b5c-5bef-b116-9f502a309088",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index page 94; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_exact_private_identifier",
+      "started_at": "2026-09-12T21:05:00Z",
+      "completed_at": "2026-09-12T22:25:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "A modern British company director is chronologically impossible and was rejected as a namesake.",
+      "research_notes": "The exact indexed private identifier and name match an official Army row. The decoded occupation is published only as a broad, temporally uncertain category; no employer is inferred.",
+      "next_action": "Review Box 146 for the named employer and Army-to-OSS chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch475-v1"
+    }
+  ]
+}
