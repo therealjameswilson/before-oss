@@ -2,6 +2,24 @@
 
 Run: 2026-09-12 UTC
 
+## Batch 484 release candidate
+
+All internal targets resolve across 24,507 HTML pages; 49,769 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,579 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,092
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 89,133,609 bytes at
+SHA-256 `e643f3fb89ed05472fdc2f3934a8e6164f69fe2814d6da90c40dbec8ffc84e9d`.
+The 70-file public-tree digest is
+`50e99c9a395c1643901aa404c3bdace470cc0dbaa5e2a171ffa73d2db501b5ca`;
+the 24,579-file production-tree digest is
+`5777a6a90a7822f30f2511cbc4687a9cabaaa133f53c2c389f3d3fba966a660b`.
+A second exact public-data and Pages build reproduced both trees. No
+authenticated Catalog request was used. Ten rejected Library of Congress pages
+were read in official OCR context, and the National Park Service and Lehigh
+institutional sources were reviewed in page context; independent GitHub and
+deployed-site checks remain pending.
+
 ## Batch 483 release candidate
 
 All internal targets resolve across 24,506 HTML pages; 49,767 external URLs

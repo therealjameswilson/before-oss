@@ -4,6 +4,20 @@ Run: 2026-09-12 UTC
 
 ## Result
 
+Batch 484: the focused cohort suite passed all 15 checks across desktop,
+phone and tablet. It verifies ten immutable page 96 rows, masked or unprinted
+identifiers, four exact-identifier Army identities, three qualified
+Army-entry occupations, and five unresolved profiles that retain empty
+affiliation arrays. It separately verifies that Alfred T. Cox's Infantry
+School role is an immediate military assignment, his Lehigh relationship is
+student status rather than employment, and no last civilian employer is
+invented. The separate axe route suite passed 27/27 across the same three
+layouts. The production build reports 108 Astro source files with zero errors,
+warnings or hints and generates 24,507 HTML pages / 24,579 artifacts. A second
+exact build reproduced both public and production trees byte for byte. The
+complete historical browser matrix and independent GitHub checks were not
+rerun in this batch.
+
 Batch 483: the focused cohort suite passed all 12 checks across desktop,
 phone and tablet. It verifies ten immutable source rows spanning PDF pages 95
 and 96, masked or unprinted identifiers, terminal archival-review states, and

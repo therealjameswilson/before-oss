@@ -1,0 +1,937 @@
+{
+  "bundle_version": "before-oss-reviewed-evidence-v1",
+  "reviewer": "Before OSS research pipeline",
+  "sources": [
+    {
+      "key": "index-b484",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; complete PDF page 96 rows 4-13 visually inspected; Boxes 149-150; location 230/86/29/03",
+      "access_date": "2026-09-12",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Citation and project-authored assessments only. Full private identifiers are not published. The printed spelling Katehrine is preserved."
+    },
+    {
+      "key": "army-b484",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official ASNEF.FIN.DAT; complete transient scan of 9,200,232 fixed-width records; four exact-private-identifier matches and all exact-name candidates adjudicated",
+      "access_date": "2026-09-12",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full private identifier is retained. The incomplete file is not a comprehensive OSS, officer, Navy, women's-service, or foreign roster; a non-hit is not negative proof."
+    },
+    {
+      "key": "basic-b484",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; fixed-width identifier, name, Army-entry-date, grade, branch, component, education, and civilian-occupation fields checked",
+      "access_date": "2026-09-12",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields and documented coverage limits."
+    },
+    {
+      "key": "codes-b484",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Code Lists",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 172, 174 and 175; civilian occupation codes 3-17, 4-99 and 5,7,9-86 visually inspected; value 999 deliberately left uninterpreted",
+      "access_date": "2026-09-12",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Official code-list labels are preserved while employer, workplace, exact trade, and the unsupported meaning of value 999 are not inferred."
+    },
+    {
+      "key": "nps-daily-life-b484",
+      "stable_url": "https://home.nps.gov/articles/daily-life-in-camp-park-and-town.htm",
+      "title": "Daily Life in Camp Park and Town",
+      "author_creator": "National Park Service",
+      "repository_publisher": "National Park Service",
+      "publication_record_date": "updated 2017-07-27",
+      "locator": "Operational Groups discussion: Obolensky obtained Captains Joseph Alderdice and Alfred T. Cox from the Infantry School at Fort Benning; Cox's Lehigh student background also described",
+      "access_date": "2026-09-12",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "National Park Service Articles",
+      "rights_notes": "Official institutional synthesis with source notes. A subsequent sentence says Albert instead of Alfred; the exact Alfred T. Cox passage and independent Lehigh biography control."
+    },
+    {
+      "key": "nps-pacific-b484",
+      "stable_url": "https://www.nps.gov/articles/oss-in-action-the-pacific-and-the-far-east.htm",
+      "title": "OSS in Action: The Pacific and the Far East",
+      "author_creator": "National Park Service",
+      "repository_publisher": "National Park Service",
+      "publication_record_date": "updated 2017-08-08",
+      "locator": "OSS Chinese OG Commandos section; Lieutenant Colonel Alfred T. Cox identified as overall commander and an original OSS Operational Groups leader in 1943",
+      "access_date": "2026-09-12",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "National Park Service Articles",
+      "rights_notes": "Official institutional synthesis with source notes; used to corroborate exact name, rank, and OSS identity."
+    },
+    {
+      "key": "lehigh-alfred-cox-b484",
+      "stable_url": "https://lehighsports.com/honors/roger-s-penskelehigh-athletics-hall-of-fame/alfred-cox/113",
+      "title": "Alfred Cox - Roger S. Penske/Lehigh Athletics Hall of Fame",
+      "author_creator": "Lehigh University Athletics",
+      "repository_publisher": "Lehigh University",
+      "publication_record_date": "2006 Hall of Fame induction biography",
+      "locator": "Biography for Alfred T. Cox, Class of 1940; civil engineering degree, late-1930s student and athletics chronology, earlier Army decoding work, and post-graduation return to Army",
+      "access_date": "2026-09-12",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Roger S. Penske/Lehigh Athletics Hall of Fame",
+      "rights_notes": "Institutional biography used for student chronology and identity corroboration; it does not name a civilian employer before OSS."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "infantry-school-fort-benning-junichi-buto-batch336",
+      "canonical_name": "U.S. Army Infantry School",
+      "historical_name": "Infantry School, Fort Benning",
+      "aliases": [
+        "The Infantry School",
+        "Fort Benning Infantry School"
+      ],
+      "organization_type": "United States Army training school",
+      "sector": "military",
+      "city": "Fort Benning",
+      "state_or_region": "Georgia",
+      "country": "United States",
+      "active_dates": "Active during 1943",
+      "normalization_notes": "The historical Fort Benning name is preserved. The present-day installation name is not substituted."
+    },
+    {
+      "key": "lehigh-university-b484",
+      "canonical_name": "Lehigh University",
+      "historical_name": "Lehigh University",
+      "aliases": [
+        "Lehigh"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Bethlehem",
+      "state_or_region": "Pennsylvania",
+      "country": "United States",
+      "normalization_notes": "Modeled as a student affiliation for Alfred T. Cox, not as an employer."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "david-o-cowles-radio-manufacture-occupation-b484",
+      "person_id": "008775a2-a334-54ae-9e0c-13baaf1d3b4e",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "occupation": "Occupation in manufacture of radios and phonographs",
+      "relationship_type": "unknown",
+      "end_date": "1943-06-07",
+      "date_precision": "The official Army-entry record carries civilian occupation code 499 on 7 June 1943. No employer, workplace, exact trade, or OSS transfer date is identified.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier and name confirm identity. The occupational category does not establish a named employer."
+    },
+    {
+      "key": "clarence-r-cox-farm-hand-occupation-b484",
+      "person_id": "7f2dd2e8-7842-5083-9244-72d3d5989eb6",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "occupation": "Farm hand, animal and livestock",
+      "relationship_type": "unknown",
+      "end_date": "1942-08-06",
+      "date_precision": "The official Army-entry record carries civilian occupation code 317 on 6 August 1942. No employer, farm, location, or OSS transfer date is identified.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier and name confirm identity. The occupational category does not establish a named employer."
+    },
+    {
+      "key": "donald-j-cox-photographic-process-occupation-b484",
+      "person_id": "d3f9beb5-abf3-58a9-917c-6ae1c3be4d4f",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "occupation": "Photographic process occupation",
+      "relationship_type": "unknown",
+      "end_date": "1942-09-12",
+      "date_precision": "The official Army-entry record carries civilian occupation code 586 on 12 September 1942. No employer, workplace, exact photographic trade, or OSS transfer date is identified.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier and name confirm identity. The occupational category does not establish a named employer."
+    },
+    {
+      "key": "alfred-t-cox-infantry-school-b484",
+      "person_id": "f6ed20c2-57d2-5eb5-b16e-eef3653d4755",
+      "organization_key": "infantry-school-fort-benning-junichi-buto-batch336",
+      "organization_name_as_found": "infantry school at Fort Benning",
+      "role_title": "Captain and guerrilla-warfare instructor",
+      "occupation": "Military instructor",
+      "relationship_type": "military_assignment",
+      "end_date": "1943",
+      "date_precision": "The National Park Service says Obolensky obtained Captain Alfred T. Cox from the Infantry School for the OSS Operational Groups and separately identifies Cox as an original OSS OG leader in 1943; the exact transfer date is unstated.",
+      "city": "Fort Benning",
+      "state_or_region": "Georgia",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "This is the best-supported immediate predecessor and is a military assignment, not a civilian employer. Box 150 remains unreviewed."
+    },
+    {
+      "key": "alfred-t-cox-lehigh-student-b484",
+      "person_id": "f6ed20c2-57d2-5eb5-b16e-eef3653d4755",
+      "organization_key": "lehigh-university-b484",
+      "organization_name_as_found": "Lehigh University",
+      "role_title": "Civil engineering student",
+      "occupation": null,
+      "relationship_type": "student",
+      "end_date": "1940",
+      "date_precision": "Lehigh identifies Cox as Class of 1940 with a civil engineering degree and describes his student activities in the late 1930s; an exact matriculation date is not stated.",
+      "city": "Bethlehem",
+      "state_or_region": "Pennsylvania",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Lehigh is a documented prewar student affiliation, not an employer. The source says he returned to the Army after graduation."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-lawrence-l-cowger-b484",
+      "person_id": "2dda6c0d-38cc-5c34-b02f-bd04dd9edcab",
+      "claim_type": "identity",
+      "claim_text": "The indexed Lawrence L Cowger is confirmed as the Army entrant represented by the exact name and private identifier in the official merged file.",
+      "evidence_excerpt": "COWGER LAWRENCE L",
+      "evidence_paraphrase": "The exact full name and private identifier match across the OSS index and Army-entry file.",
+      "identity_match_assessment": "Confirmed by exact private identifier and exact normalized full name.",
+      "temporal_assessment": "The Army-entry record is dated 23 April 1942; the OSS transfer date is unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full private identifier remains private. Occupation value 999 is not published because no verified official label was established.",
+      "sources": [
+        {
+          "source_key": "index-b484",
+          "support_type": "supports",
+          "locator_override": "PDF page 96, row 6; Box 150; identifier withheld",
+          "excerpt_override": "COWGER LAWRENCE L"
+        },
+        {
+          "source_key": "army-b484",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record dated 23 April 1942; private at entry; identifier withheld",
+          "excerpt_override": "COWGER LAWRENCE L"
+        },
+        {
+          "source_key": "basic-b484",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "identity-david-o-cowles-b484",
+      "person_id": "008775a2-a334-54ae-9e0c-13baaf1d3b4e",
+      "claim_type": "identity",
+      "claim_text": "The indexed David O Cowles is confirmed as the Army entrant represented by the exact name and private identifier in the official merged file.",
+      "evidence_excerpt": "COWLES DAVID O",
+      "evidence_paraphrase": "The exact full name and private identifier match across the OSS index and Army-entry file.",
+      "identity_match_assessment": "Confirmed by exact private identifier and exact normalized full name.",
+      "temporal_assessment": "The Army-entry record is dated 7 June 1943; the OSS transfer date is unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full private identifier remains private.",
+      "sources": [
+        {
+          "source_key": "index-b484",
+          "support_type": "supports",
+          "locator_override": "PDF page 96, row 8; Box 150; identifier withheld",
+          "excerpt_override": "COWLES DAVID O"
+        },
+        {
+          "source_key": "army-b484",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record dated 7 June 1943; private at entry; identifier withheld",
+          "excerpt_override": "COWLES DAVID O"
+        },
+        {
+          "source_key": "basic-b484",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-david-o-cowles-b484",
+      "person_id": "008775a2-a334-54ae-9e0c-13baaf1d3b4e",
+      "affiliation_key": "david-o-cowles-radio-manufacture-occupation-b484",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry, David O Cowles was recorded in an occupational category for manufacture of radios and phonographs.",
+      "evidence_excerpt": "4-99. Occupations in manufacture of radios and phonographs",
+      "evidence_paraphrase": "The matching Army row carries code 499, which the official NARA code list maps to occupations in radio and phonograph manufacture.",
+      "identity_match_assessment": "Confirmed by exact private identifier and full indexed name.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on 7 June 1943; relation to OSS recruitment is unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, product, exact trade, or immediate OSS predecessor is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b484",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 499; identifier withheld",
+          "excerpt_override": "COWLES DAVID O"
+        },
+        {
+          "source_key": "basic-b484",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; civilian occupation and entry-date fields"
+        },
+        {
+          "source_key": "codes-b484",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 174; code 4-99",
+          "excerpt_override": "Occupations in manufacture of radios and phonographs"
+        }
+      ]
+    },
+    {
+      "key": "identity-clarence-r-cox-b484",
+      "person_id": "7f2dd2e8-7842-5083-9244-72d3d5989eb6",
+      "claim_type": "identity",
+      "claim_text": "The indexed Clarence R Cox is confirmed as the Army entrant represented by the exact name and private identifier in the official merged file.",
+      "evidence_excerpt": "COX CLARENCE R",
+      "evidence_paraphrase": "The exact full name and private identifier match across the OSS index and Army-entry file.",
+      "identity_match_assessment": "Confirmed by exact private identifier and exact normalized full name.",
+      "temporal_assessment": "The Army-entry record is dated 6 August 1942; the OSS transfer date is unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full private identifier remains private.",
+      "sources": [
+        {
+          "source_key": "index-b484",
+          "support_type": "supports",
+          "locator_override": "PDF page 96, row 12; Box 150; identifier withheld",
+          "excerpt_override": "COX CLARENCE R"
+        },
+        {
+          "source_key": "army-b484",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record dated 6 August 1942; private at entry; identifier withheld",
+          "excerpt_override": "COX CLARENCE R"
+        },
+        {
+          "source_key": "basic-b484",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-clarence-r-cox-b484",
+      "person_id": "7f2dd2e8-7842-5083-9244-72d3d5989eb6",
+      "affiliation_key": "clarence-r-cox-farm-hand-occupation-b484",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry, Clarence R Cox was recorded in the farm-hands, animal-and-livestock occupational category.",
+      "evidence_excerpt": "3-17. Farm hands, animal and livestock",
+      "evidence_paraphrase": "The matching Army row carries code 317, which the official NARA code list maps to farm hands working with animals and livestock.",
+      "identity_match_assessment": "Confirmed by exact private identifier and full indexed name.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on 6 August 1942; relation to OSS recruitment is unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, farm, location, or immediate OSS predecessor is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b484",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 317; identifier withheld",
+          "excerpt_override": "COX CLARENCE R"
+        },
+        {
+          "source_key": "basic-b484",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; civilian occupation and entry-date fields"
+        },
+        {
+          "source_key": "codes-b484",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 172; code 3-17",
+          "excerpt_override": "Farm hands, animal and livestock"
+        }
+      ]
+    },
+    {
+      "key": "identity-donald-j-cox-b484",
+      "person_id": "d3f9beb5-abf3-58a9-917c-6ae1c3be4d4f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Donald J Cox is confirmed as the Army entrant represented by the exact name and private identifier in the official merged file.",
+      "evidence_excerpt": "COX DONALD J",
+      "evidence_paraphrase": "The exact full name and private identifier match across the OSS index and Army-entry file.",
+      "identity_match_assessment": "Confirmed by exact private identifier and exact normalized full name.",
+      "temporal_assessment": "The Army-entry record is dated 12 September 1942; the OSS transfer date is unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full private identifier remains private.",
+      "sources": [
+        {
+          "source_key": "index-b484",
+          "support_type": "supports",
+          "locator_override": "PDF page 96, row 13; Box 150; identifier withheld",
+          "excerpt_override": "COX DONALD J"
+        },
+        {
+          "source_key": "army-b484",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record dated 12 September 1942; private at entry; identifier withheld",
+          "excerpt_override": "COX DONALD J"
+        },
+        {
+          "source_key": "basic-b484",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-donald-j-cox-b484",
+      "person_id": "d3f9beb5-abf3-58a9-917c-6ae1c3be4d4f",
+      "affiliation_key": "donald-j-cox-photographic-process-occupation-b484",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry, Donald J Cox was recorded in a photographic-process occupational category.",
+      "evidence_excerpt": "5,7,9-86. Photographic process occupations",
+      "evidence_paraphrase": "The matching Army row carries code 586, which the official NARA code list maps to photographic process occupations.",
+      "identity_match_assessment": "Confirmed by exact private identifier and full indexed name.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on 12 September 1942; relation to OSS recruitment is unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, exact photographic trade, or immediate OSS predecessor is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b484",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 586; identifier withheld",
+          "excerpt_override": "COX DONALD J"
+        },
+        {
+          "source_key": "basic-b484",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; civilian occupation and entry-date fields"
+        },
+        {
+          "source_key": "codes-b484",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 175; code 5,7,9-86",
+          "excerpt_override": "Photographic process occupations"
+        }
+      ]
+    },
+    {
+      "key": "identity-alfred-t-cox-b484",
+      "person_id": "f6ed20c2-57d2-5eb5-b16e-eef3653d4755",
+      "claim_type": "identity",
+      "claim_text": "The indexed Lieutenant Colonel Alfred T Cox is a high-confidence match to the Army instructor and original OSS Operational Groups leader documented by the National Park Service and Lehigh University.",
+      "evidence_excerpt": "Lieutenant Colonel Alfred T. (“Al”) Cox",
+      "evidence_paraphrase": "Official NPS histories connect the exact name and compatible ranks to OSS Operational Groups, while Lehigh independently identifies Alfred T. Cox and his prewar chronology.",
+      "identity_match_assessment": "Exact full name, lieutenant-colonel rank, direct OSS role, Infantry School assignment, and independent Lehigh biography support high confidence without a private identifier.",
+      "temporal_assessment": "Lehigh dates graduation to 1940; NPS identifies Cox as an original OSS OG leader in 1943.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The exact Alfred T. Cox passages control over one NPS sentence that says Albert. A name-only Army candidate was not transferred.",
+      "sources": [
+        {
+          "source_key": "index-b484",
+          "support_type": "context_only",
+          "locator_override": "PDF page 96, row 10; Lieutenant Colonel; Box 150",
+          "excerpt_override": "COX ALFRED T LT COL"
+        },
+        {
+          "source_key": "nps-daily-life-b484",
+          "support_type": "supports",
+          "locator_override": "Operational Groups discussion",
+          "excerpt_override": "Captains Joseph Alderdice and Alfred T. Cox"
+        },
+        {
+          "source_key": "nps-pacific-b484",
+          "support_type": "supports",
+          "locator_override": "OSS Chinese OG Commandos section",
+          "excerpt_override": "Lieutenant Colonel Alfred T. (“Al”) Cox"
+        },
+        {
+          "source_key": "lehigh-alfred-cox-b484",
+          "support_type": "supports",
+          "locator_override": "Hall of Fame biography; Class of 1940",
+          "excerpt_override": "Alfred T. “Al” Cox"
+        }
+      ]
+    },
+    {
+      "key": "immediate-alfred-t-cox-b484",
+      "person_id": "f6ed20c2-57d2-5eb5-b16e-eef3653d4755",
+      "affiliation_key": "alfred-t-cox-infantry-school-b484",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Alfred T. Cox's best-supported immediate pre-OSS affiliation was the U.S. Army Infantry School at Fort Benning, where he instructed in guerrilla warfare.",
+      "evidence_excerpt": "Obolensky obtained two young instructors in guerrilla warfare at the infantry school at Fort Benning ... Captains Joseph Alderdice and Alfred T. Cox.",
+      "evidence_paraphrase": "The NPS history says Obolensky obtained Cox from the Infantry School for the Operational Groups and identifies him as an original OSS OG leader in 1943.",
+      "identity_match_assessment": "Exact full name, captain-to-lieutenant-colonel rank progression, and direct OSS Operational Groups context support a high-confidence match.",
+      "temporal_assessment": "Explicit predecessor language; the precise transfer date is not stated.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This is a military assignment and is excluded from civilian-employer counts.",
+      "sources": [
+        {
+          "source_key": "nps-daily-life-b484",
+          "support_type": "supports",
+          "locator_override": "Operational Groups discussion"
+        },
+        {
+          "source_key": "nps-pacific-b484",
+          "support_type": "context_only",
+          "locator_override": "OSS Chinese OG Commandos section; original OSS OG leader in 1943"
+        }
+      ]
+    },
+    {
+      "key": "prewar-student-alfred-t-cox-b484",
+      "person_id": "f6ed20c2-57d2-5eb5-b16e-eef3653d4755",
+      "affiliation_key": "alfred-t-cox-lehigh-student-b484",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Alfred T. Cox was a civil engineering student at Lehigh University and graduated in 1940.",
+      "evidence_excerpt": "earned his degree in civil engineering from Lehigh in 1940",
+      "evidence_paraphrase": "Lehigh's institutional biography identifies Cox as Class of 1940, describes his late-1930s student activities, and records his civil engineering degree.",
+      "identity_match_assessment": "The exact Alfred T. Cox name, Class of 1940 chronology, Army trajectory, and NPS corroboration support high confidence.",
+      "temporal_assessment": "Documented prewar student affiliation ending in 1940; the source says he then returned to the Army.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Student status is not employment, and Lehigh is excluded from employer counts for this person.",
+      "sources": [
+        {
+          "source_key": "lehigh-alfred-cox-b484",
+          "support_type": "supports",
+          "locator_override": "Hall of Fame biography; Class of 1940",
+          "excerpt_override": "earned his degree in civil engineering from Lehigh in 1940"
+        },
+        {
+          "source_key": "nps-daily-life-b484",
+          "support_type": "context_only",
+          "locator_override": "Operational Groups discussion; Lehigh student background"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "e22e73ce-92e3-511c-a522-e0f384616a9a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index prints Katehrine M Cowen in Box 149 without rank or identifier. Searches also tested Katherine as an explicitly unconfirmed spelling variant, but no official, institutional, newspaper, obituary, directory, or web source established her identity or pre-OSS affiliation.",
+      "name_variants": [
+        "Katehrine M Cowen",
+        "Katehrine M. Cowen",
+        "Cowen, Katehrine M."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Boxes 149-150 to confirm the printed name, recover identity and personnel status, and establish occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "53e57106-492b-5127-8255-2cd49f9d8201",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index gives Wilbur A Cowett in Box 150 with a short six-digit identifier and no rank. One exact-name Army row exists, but the incomplete identifier and absence of a second OSS-linked attribute make transfer unsafe; other reviewed sources supplied no bridge.",
+      "name_variants": [
+        "Wilbur A Cowett",
+        "Wilbur A. Cowett",
+        "Cowett, Wilbur A."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 150 for the complete identifier, identity, personnel status, occupation, employer, and chronology; do not transfer the name-only Army candidate without corroboration.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2dda6c0d-38cc-5c34-b02f-bd04dd9edcab",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked index and official Army merged file carry the exact Lawrence L Cowger name and exact private identifier. The Army record dates entry as a private on 23 April 1942. Its occupation value 999 remains deliberately uninterpreted.",
+      "name_variants": [
+        "Lawrence L Cowger",
+        "Lawrence L. Cowger",
+        "Cowger, Lawrence L."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 150 for the civilian occupation, employer, OSS transfer date, and service chronology; do not assign meaning to Army occupation value 999 without verified documentation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "bb5381dd-be46-51c8-a794-5d1bbda8f328",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index gives John F Cowgill as a lieutenant colonel with the note British A in Box 150 but no identifier. No exact-name Army row exists. A newspaper result names John S Cowgill, and other British Cowgill results lack the exact first name and OSS-file bridge.",
+      "name_variants": [
+        "John F Cowgill",
+        "John F. Cowgill",
+        "Cowgill, John F."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer or exact pre-OSS military assignment has yet been identified in the accessible sources reviewed. Review Box 150 to expand British A, confirm nationality and commissioned status, and recover the preceding unit or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "008775a2-a334-54ae-9e0c-13baaf1d3b4e",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked index and official Army merged file carry the exact David O Cowles name and exact private identifier. The Army record dates entry as a private on 7 June 1943.",
+      "name_variants": [
+        "David O Cowles",
+        "David O. Cowles",
+        "Cowles, David O."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "The Army record documents a radio-and-phonograph-manufacturing occupational category, but no employer. Review Box 150 for the workplace, exact trade, OSS transfer date, and whether this was the last civilian role before service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f6ed20c2-57d2-5eb5-b16e-eef3653d4755",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed Lieutenant Colonel Alfred T Cox aligns with official NPS histories naming Captain and later Lieutenant Colonel Alfred T. Cox as an Infantry School instructor and original OSS Operational Groups leader. Lehigh independently identifies Alfred T. Cox, Class of 1940, and his Army return.",
+      "name_variants": [
+        "Alfred T Cox",
+        "Alfred T. Cox",
+        "Alfred \"Al\" Cox"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "completed",
+      "next_action": "Review Box 150 to confirm the exact Infantry School-to-OSS transfer date and determine whether a civilian employer existed between earlier Army service, Lehigh graduation, and his return to the Army.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "6909bd17-a5b5-59c2-b81e-47cebee1b893",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index gives Arthur M Cox in Box 150 without rank or identifier. Seven exact-name Army rows cannot be distinguished. Three Library of Congress candidates carry conflicting middle initials or refer to a company and were rejected.",
+      "name_variants": [
+        "Arthur M Cox",
+        "Arthur M. Cox",
+        "Cox, Arthur M."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 150 for a complete identity, service details, occupation, employer, and chronology before selecting among common-name candidates.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8580a6aa-0113-52cf-8e8c-83156673ad99",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index gives Charles W Cox in Box 150 with a seven-digit identifier and no rank. Thirty-three exact-name Army rows remain indistinguishable because none can be linked by the incomplete identifier. Five newspaper candidates lacked an OSS or Box 150 bridge.",
+      "name_variants": [
+        "Charles W Cox",
+        "Charles W. Cox",
+        "Cox, Charles W."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 150 for the missing identifier character and corroborating identity evidence before assigning any common-name Army or newspaper record.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7f2dd2e8-7842-5083-9244-72d3d5989eb6",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked index and official Army merged file carry the exact Clarence R Cox name and exact private identifier. The Army record dates entry as a private on 6 August 1942.",
+      "name_variants": [
+        "Clarence R Cox",
+        "Clarence R. Cox",
+        "Cox, Clarence R."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "The Army record documents a farm-hand, animal-and-livestock occupational category, but no employer or farm. Review Box 150 for the workplace, location, OSS transfer date, and whether this was the last civilian role before service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d3f9beb5-abf3-58a9-917c-6ae1c3be4d4f",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked index and official Army merged file carry the exact Donald J Cox name and exact private identifier. The Army record dates entry as a private on 12 September 1942.",
+      "name_variants": [
+        "Donald J Cox",
+        "Donald J. Cox",
+        "Cox, Donald J."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "The Army record documents a photographic-process occupational category, but no employer or exact trade. Review Box 150 for the workplace, exact occupation, OSS transfer date, and whether this was the last civilian role before service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b484-katehrine-m-cowen",
+      "person_id": "e22e73ce-92e3-511c-a522-e0f384616a9a",
+      "source_adapter": "reviewed_official_bulk_newspaper_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 96; complete Army exact-name and identifier-eligibility comparison; CIA and current Library of Congress checks; Katehrine and unconfirmed Katherine search variants; exact-name OSS, employer, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_incomplete_name_possible_typographical_variant",
+      "started_at": "2026-09-13T02:05:00Z",
+      "completed_at": "2026-09-13T02:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "No candidate established an identity, OSS-file bridge, pre-OSS affiliation, occupation, or employer.",
+      "research_notes": "The PDF spelling Katehrine was visually confirmed and preserved. Katherine was used only as an explicitly unconfirmed search alias. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Boxes 149-150 to confirm the name and recover identity and pre-OSS chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch484-v1"
+    },
+    {
+      "key": "b484-wilbur-a-cowett",
+      "person_id": "53e57106-492b-5127-8255-2cd49f9d8201",
+      "source_adapter": "reviewed_official_bulk_newspaper_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 96; complete Army exact-name and identifier-eligibility comparison; CIA and current Library of Congress checks; exact-name OSS, employer, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_short_identifier_name_only_army_candidate",
+      "started_at": "2026-09-13T02:05:00Z",
+      "completed_at": "2026-09-13T02:35:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The single exact-name Army row cannot be linked by the short printed identifier and supplies no independent OSS or Box 150 bridge.",
+      "research_notes": "No Army grade, occupation, entry date, or personnel category was transferred from the name-only candidate. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 150 for the complete identifier and corroborating identity evidence.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch484-v1"
+    },
+    {
+      "key": "b484-lawrence-l-cowger",
+      "person_id": "2dda6c0d-38cc-5c34-b02f-bd04dd9edcab",
+      "source_adapter": "reviewed_official_bulk_newspaper_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 96; complete Army exact-private-identifier comparison; official Army technical documentation and code-list review; CIA and current Library of Congress checks; exact-name OSS, employer, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_exact_identifier_uninterpreted_occupation",
+      "started_at": "2026-09-13T02:05:00Z",
+      "completed_at": "2026-09-13T02:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Accessible sources established identity and Army entry but did not establish a pre-OSS employer; occupation value 999 lacked a verified official label.",
+      "research_notes": "The private identifier confirms identity and is not published. The unsupported occupation value was deliberately left uninterpreted. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 150 for occupation, employer, and OSS transfer chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch484-v1"
+    },
+    {
+      "key": "b484-john-f-cowgill",
+      "person_id": "bb5381dd-be46-51c8-a794-5d1bbda8f328",
+      "source_adapter": "reviewed_official_bulk_newspaper_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 96; complete Army exact-name comparison; CIA and current Library of Congress checks; exact-name and British Army OSS, employer, occupation, institutional, newspaper, obituary, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_foreign_or_allied_rank_without_identifier",
+      "started_at": "2026-09-13T02:05:00Z",
+      "completed_at": "2026-09-13T02:35:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The newspaper page names John S Cowgill, not John F Cowgill. Other British Cowgill results lacked the exact first name and an OSS, lieutenant-colonel, or Box 150 bridge.",
+      "research_notes": "The index note British A and rank were preserved without expanding the abbreviation or inferring a specific unit. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 150 to expand British A and identify the exact person and predecessor assignment.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch484-v1"
+    },
+    {
+      "key": "b484-david-o-cowles",
+      "person_id": "008775a2-a334-54ae-9e0c-13baaf1d3b4e",
+      "source_adapter": "reviewed_official_bulk_newspaper_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 96; complete Army exact-private-identifier comparison; official Army technical documentation and code-list review; CIA and current Library of Congress checks; exact-name OSS, employer, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_exact_identifier_occupation_only",
+      "started_at": "2026-09-13T02:05:00Z",
+      "completed_at": "2026-09-13T02:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Accessible sources established identity and a civilian occupational category at Army entry but did not name an employer or establish the OSS transfer chronology.",
+      "research_notes": "The private identifier confirms identity and is not published. The official code-list label is qualified as an occupation, not an employer. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 150 for the workplace, exact trade, and OSS transfer chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch484-v1"
+    },
+    {
+      "key": "b484-alfred-t-cox",
+      "person_id": "f6ed20c2-57d2-5eb5-b16e-eef3653d4755",
+      "source_adapter": "reviewed_official_bulk_newspaper_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 96; complete Army exact-name comparison; CIA and current Library of Congress checks; official National Park Service OSS histories; Lehigh University institutional biography; exact-name employer, occupation, military, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_high_confidence_officer_military_predecessor",
+      "started_at": "2026-09-13T02:05:00Z",
+      "completed_at": "2026-09-13T02:40:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "A newspaper candidate was federal judge Alfred C Cox with a conflicting middle initial. A name-only Army row was not transferred because it lacked an OSS or Box 150 bridge and did not securely align the officer chronology.",
+      "research_notes": "NPS and Lehigh establish a high-confidence identity, the immediate military assignment, and a separate student affiliation. Lehigh was not treated as an employer. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 150 for the exact Infantry School-to-OSS transfer date and any last civilian employer.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch484-v1"
+    },
+    {
+      "key": "b484-arthur-m-cox",
+      "person_id": "6909bd17-a5b5-59c2-b81e-47cebee1b893",
+      "source_adapter": "reviewed_official_bulk_newspaper_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 96; complete Army exact-name comparison; CIA and current Library of Congress checks; exact-name OSS, employer, occupation, institutional, newspaper, obituary, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_multiple_candidates",
+      "started_at": "2026-09-13T02:05:00Z",
+      "completed_at": "2026-09-13T02:35:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "Seven exact-name Army rows are indistinguishable without another identifier. Three newspaper pages name conflicting initials or a company and lack any OSS or Box 150 bridge.",
+      "research_notes": "No candidate attributes were transferred. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 150 for identity, service details, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch484-v1"
+    },
+    {
+      "key": "b484-charles-w-cox",
+      "person_id": "8580a6aa-0113-52cf-8e8c-83156673ad99",
+      "source_adapter": "reviewed_official_bulk_newspaper_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 96; complete Army exact-name and partial-identifier comparison; CIA and current Library of Congress checks; exact-name OSS, employer, occupation, institutional, newspaper, obituary, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_incomplete_identifier",
+      "started_at": "2026-09-13T02:05:00Z",
+      "completed_at": "2026-09-13T02:35:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 38,
+      "rejection_reasons": "Thirty-three exact-name Army rows remain indistinguishable because the index identifier is incomplete. Five newspaper candidates are too early, postwar, or carry conflicting identity details and lack an OSS or Box 150 bridge.",
+      "research_notes": "No candidate attributes were transferred. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 150 for the complete identifier and at least two corroborating identity attributes.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch484-v1"
+    },
+    {
+      "key": "b484-clarence-r-cox",
+      "person_id": "7f2dd2e8-7842-5083-9244-72d3d5989eb6",
+      "source_adapter": "reviewed_official_bulk_newspaper_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 96; complete Army exact-private-identifier comparison; official Army technical documentation and code-list review; CIA and current Library of Congress checks; exact-name OSS, employer, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_exact_identifier_occupation_only",
+      "started_at": "2026-09-13T02:05:00Z",
+      "completed_at": "2026-09-13T02:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Accessible sources established identity and a civilian occupational category at Army entry but did not name an employer, farm, or OSS transfer chronology.",
+      "research_notes": "The private identifier confirms identity and is not published. The official code-list label is qualified as an occupation, not an employer. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 150 for the farm or workplace, location, and OSS transfer chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch484-v1"
+    },
+    {
+      "key": "b484-donald-j-cox",
+      "person_id": "d3f9beb5-abf3-58a9-917c-6ae1c3be4d4f",
+      "source_adapter": "reviewed_official_bulk_newspaper_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 96; complete Army exact-private-identifier comparison; official Army technical documentation and code-list review; CIA and current Library of Congress checks; exact-name OSS, employer, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_exact_identifier_occupation_only",
+      "started_at": "2026-09-13T02:05:00Z",
+      "completed_at": "2026-09-13T02:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "One duplicate employment query was not reissued. Accessible sources established identity and a civilian occupational category at Army entry but did not name an employer or establish OSS transfer chronology.",
+      "research_notes": "The private identifier confirms identity and is not published. The official code-list label is qualified as an occupation, not an employer. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 150 for the workplace, exact photographic trade, and OSS transfer chronology.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss-batch484-v1"
+    }
+  ]
+}
