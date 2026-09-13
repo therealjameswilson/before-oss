@@ -4,6 +4,23 @@ Run: 2026-09-13 UTC
 
 ## Result
 
+Batch 496: the focused cohort suite passed all 15 checks across desktop,
+phone and tablet. It verifies ten immutable page 98 rows; masked or unprinted
+identifiers; James E Crittenden's qualified occupation without a named
+employer; Ernest Crocker's earlier Arthur D. Little employment without
+claiming immediacy; Charis and Frederick Crockett's Academy-sponsored
+expedition as professional affiliation rather than employment; Constantine J
+Critzaz's visibly qualified Critzas variant; official service identities for
+David C Crockett and Aristide Crocq; and three unresolved or ambiguous
+profiles. One initial test phrase did not match the already correct public
+qualification; the assertion was corrected without changing evidence or site
+behavior. The separate axe route suite passed 27/27 across the same three
+layouts in 1.8 minutes. Astro checked 120 source files with zero errors,
+warnings or hints and generated 24,526 HTML pages / 24,598 artifacts. A second
+exact build reproduced both public and production trees byte for byte. The
+complete historical browser matrix and independent GitHub checks were not
+rerun because this batch was neither pushed nor deployed.
+
 Batch 495: the focused cohort suite passed all 15 checks across desktop,
 phone and tablet. It verifies ten immutable page 98 rows; masked or unprinted
 identifiers; the separate and qualified Chronicle last-civilian-employer

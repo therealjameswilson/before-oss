@@ -2,6 +2,27 @@
 
 Run: 2026-09-13 UTC
 
+## Batch 496 release candidate
+
+All internal targets resolve across 24,526 HTML pages; 49,824 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,598 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,095
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 90,032,113 bytes
+at SHA-256
+`82257f711179d96c0a6ab21d9cf2f6b4a26f037fbf4c24fa2fd9cd073d13941d`.
+The 70-file public-tree digest is
+`6db27110aa9186b0865faaa5cba51217baaac5e2b878e2abd35555208e317e97`;
+the 24,598-file production-tree digest is
+`c2f42c728489bf093796f0c44e8071ba7f63b36cdf8157202229fe3eb4c92bf4`.
+A second exact public-data and Pages build reproduced both trees. Eight of
+eleven Batch 496 citation destinations returned HTTP 200 to the generic
+checker. The Rust PDF returned HTTP 406, and the Drexel and Gendarmerie pages
+returned HTTP 403; each cited page or passage had already been reviewed
+through permitted access, and no restriction was bypassed. No authenticated
+Catalog request was used. Three Library of Congress candidates were rejected
+in source context. Independent GitHub and deployed-site checks remain pending.
+
 ## Batch 495 release candidate
 
 All internal targets resolve across 24,523 HTML pages; 49,816 external URLs
