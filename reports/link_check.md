@@ -2,6 +2,28 @@
 
 Run: 2026-09-13 UTC
 
+## Batch 501 release candidate
+
+All internal targets resolve across 24,540 HTML pages; 49,854 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,612 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,096
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 90,542,183 bytes at
+SHA-256 `e79d81bb198a65ef3673a00664a33e504ad20acf2e5151ccf23bd8b6b5420802`.
+The 70-file public-tree digest is
+`0a7a399d8049679729f26243ef5ade26f5bfaeb47e4529b2567ec76c93502160`;
+the 24,612-file production-tree digest is
+`6056727ac441cc7cf3a4fb303d474e39e9a635b916795490dcffb643fda23f60`.
+A second exact public-data and Pages build reproduced both trees. The nine
+Batch 501 citation destinations were inspected during research: the source
+index, Army Catalog and documentation, Dartmouth, Hoover, Boone and Crockett,
+USAID Alumni and Department of State sources. The Hoover direct-media endpoint
+uses an automated-access gate, so its stable item identifier and reviewed
+document context are retained rather than claiming a generic link-check pass.
+No authenticated Catalog request was used. CIA and Library of Congress
+returned no candidates. Independent GitHub and deployed-site checks remain
+pending.
+
 ## Batch 500 release candidate
 
 All internal targets resolve across 24,535 HTML pages; 49,845 external URLs

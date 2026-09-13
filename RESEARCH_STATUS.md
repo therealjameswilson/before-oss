@@ -2,6 +2,25 @@
 
 Verified against the current local SQLite database on 2026-09-13 UTC.
 
+Batch 501 is a validated local release candidate. It adds ten saved outcomes
+for personnel-index PDF page 99 rows 36-45, Sherman J Crough through Anne T
+Crowley, across Boxes 156 and 157. Sherman is a confirmed enlisted identity
+with a Dartmouth student pathway; two more exact identifier matches support
+qualified actor/actress and student categories without named employers. Three
+institutional sources support high-confidence Philip Kingsland Crowe and
+separate Fortune, Life, the New York Evening Post and the University of
+Virginia. A contemporary OSS report directly confirms John B Crowl and keeps
+his Army replacement depot, own printing business and earlier steel-company
+clerkship distinct. Five people remain unresolved or ambiguous and retain
+archival-review guidance. All 94 Python tests, 21 focused cross-viewport checks,
+42 bounded core checks, profile, link, dependency and identifier audits pass
+locally; all 27 axe cases pass and two 24,540-page builds are byte-identical.
+Exact coverage is 4,778 / 23,940 researched,
+547 verified affiliations, 244 verified employers, 4,733 archival dispositions
+assessed and 19,162 `not_started`. Batch 501 is not pushed or deployed. See
+`reports/release_batch_501.md` and
+`research/batch-501-discovery-checkpoint.md`.
+
 Batch 500 is a validated local release candidate. It adds ten saved outcomes
 for personnel-index PDF page 99 rows 26-35, Paul L Crosby through Paul W
 Crouch, all in Box 156. Three exact private-identifier matches support enlisted

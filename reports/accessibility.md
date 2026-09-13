@@ -4,6 +4,23 @@ Run: 2026-09-13 UTC
 
 ## Result
 
+Batch 501: the focused cohort suite passed all 21 checks across desktop,
+phone and tablet. It verifies ten immutable page 99 rows; masked or unprinted
+identifiers; Sherman Crough's Dartmouth student pathway without calling it
+employment; two qualified Army-entry categories without named employers;
+Philip Crowe's distinct Fortune, Life, New York Evening Post and University of
+Virginia affiliations; John Crowl's separate Army, self-employment and earlier
+clerkship claims; and five ambiguous or unresolved profiles without promoted
+candidates. One initial test-only punctuation mismatch was corrected without
+changing evidence or site behavior. The bounded core suite passed 42/42 across
+the same viewports. The axe route suite passed 27/27 in 1.5 minutes. Astro
+checked 125 source files with zero errors, warnings or hints and generated
+24,540 HTML pages / 24,612 artifacts. A second exact public-data and Pages
+build reproduced both trees byte for byte. An unbounded historical-matrix
+diagnostic was deliberately stopped after ten passes; its interrupted eleventh
+case was not an assertion failure. Independent GitHub checks were not run
+because this batch was neither pushed nor deployed.
+
 Batch 500: the focused cohort suite passed all 21 checks across desktop,
 phone and tablet. It verifies ten immutable page 99 rows; masked or unprinted
 identifiers; three qualified Army-entry occupations without named employers;
