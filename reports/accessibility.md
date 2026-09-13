@@ -4,6 +4,21 @@ Run: 2026-09-13 UTC
 
 ## Result
 
+Batch 503: the focused cohort suite passed all 21 checks across desktop,
+phone and tablet. It verifies ten immutable page 100 rows; masked or unprinted
+identifiers; six confirmed enlisted identities; qualified occupations and
+student status without invented employers; Malcolm Crusius's probable legal
+pathway with the two affiliations kept separate; Ashley Crutchfield's
+uninterpreted prefixed value; Joseph Cryan's British classification with a U.S.
+namesake withheld; and Sophie Crystal's unresolved archival guidance. The
+bounded core suite passed 24/24 across the same viewports. The axe route suite
+passed 27/27 in 1.5 minutes. Astro checked 127 source files with zero errors,
+warnings or hints and generated 24,543 HTML pages / 24,615 artifacts. A second
+exact public-data and Pages build reproduced both trees byte for byte. An
+accidental unbounded historical-matrix run was deliberately stopped after 98
+passes; its interrupted case was not counted as a result. Independent GitHub
+checks were not run because this batch was neither pushed nor deployed.
+
 Batch 502: the focused cohort suite passed all 21 checks across desktop,
 phone and tablet. It verifies ten immutable rows across pages 99-100; masked
 or unprinted identifiers; Robert Crowley's printed commissioned status with

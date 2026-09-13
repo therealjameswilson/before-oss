@@ -2,6 +2,26 @@
 
 Verified against the current local SQLite database on 2026-09-13 UTC.
 
+Batch 503 is a validated local release candidate. It adds ten saved outcomes
+for personnel-index PDF page 100 rows 10-19, Malcolm A Crusius through Michael
+A Cucinotta, all in Box 157. Six exact private identifiers confirm enlisted
+Army identities and support only qualified occupations or student status, never
+invented employers; Michael Cucinotta's later Army-entry occupation is withheld
+from pre-OSS claims. A 1937 appellate decision and a 1945 Judge Advocate Journal
+support a probable Malcolm Crusius identity and separate federal and Army legal
+assignments, neither claimed immediate to OSS or as last civilian employment.
+Ashley Crutchfield's prefixed value remains uninterpreted, Joseph Cryan's later
+U.S. namesake is rejected against the indexed British sergeant, and Sophie
+Crystal remains unresolved. The audit preserves 17 actual no-result LoC checks,
+including seven repeats, plus ten no-result CIA checks. All 94 Python tests, 21
+focused cross-viewport checks, 24 bounded core checks, 27 axe cases, profile,
+link, dependency and identifier audits pass; two 24,543-page builds are byte-
+identical. Exact coverage is 4,798 / 23,940 researched, 547 verified
+affiliations, 244 verified employers, 4,753 archival dispositions assessed and
+19,142 `not_started`. Batch 503 is not pushed or deployed. See
+`reports/release_batch_503.md` and
+`research/batch-503-discovery-checkpoint.md`.
+
 Batch 502 is a validated local release candidate. It adds ten saved outcomes
 across personnel-index PDF page 99 row 46 and page 100 rows 1-9, Harriet
 Crowley through Nancy W Cruse, all in Box 157. Exact private identifiers

@@ -2,6 +2,26 @@
 
 Run: 2026-09-13 UTC
 
+## Batch 503 release candidate
+
+All internal targets resolve across 24,543 HTML pages; 49,861 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,615 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,099
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 90,674,995 bytes at
+SHA-256 `2dc3f849a3ba2c1a0e63b740780fcdfac75fe3de9f127634949fec74bde0963b`.
+The 70-file public-tree digest is
+`c12e92389f26ac0999b2e4d672205b7dd9baaaba1b17875fc061230b572f7623`;
+the 24,615-file production-tree digest is
+`0c3e5615d2f2675d50601f45c2efa2f2533ef40ad6317ed8d69bbf401a1bf2fb`.
+A second exact public-data and Pages build reproduced both trees. The seven
+Batch 503 citation destinations were inspected during research: the source
+index, Army Catalog and documentation, official code list, 1937 appellate
+decision, Judge Advocate Journal and Chi Phi alumni magazine. No authenticated
+Catalog request was used. Ten CIA and 17 actual Library of Congress checks
+returned no adapter candidates. Independent GitHub and deployed-site checks
+remain pending.
+
 ## Batch 502 release candidate
 
 All internal targets resolve across 24,541 HTML pages; 49,857 external URLs
