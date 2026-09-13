@@ -2,6 +2,27 @@
 
 Run: 2026-09-13 UTC
 
+## Batch 490 release candidate
+
+All internal targets resolve across 24,516 HTML pages; 49,792 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,588 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,099
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 89,553,969 bytes at
+SHA-256 `24d36b6d83b77ce20ea7fed773ef08486e15b4a64c9c677b10777adffe930c08`.
+The 70-file public-tree digest is
+`bd63ff46c15795294658e0c952069ab353543aefd3cb8cd985df3261c897867c`;
+the 24,588-file production-tree digest is
+`412e17251e8619e7001230a8e4a3240b6f4acfde10b2aaa2e02cbdb92d2d650e`.
+A second exact public-data and Pages build reproduced both trees. All five
+Batch 490 source destinations returned HTTP 200: the source index PDF, Army
+merged-file Catalog page, two official technical/code PDFs and the Franklin
+Institute finding aid. No authenticated Catalog request was used. Ten Library
+of Congress candidates were rejected in official OCR context; the official
+Army merged file and documentation and the institutional Burton Crane
+biography were reviewed in context. Independent GitHub and deployed-site
+checks remain pending.
+
 ## Batch 489 release candidate
 
 All internal targets resolve across 24,514 HTML pages; 49,789 external URLs

@@ -4,6 +4,20 @@ Run: 2026-09-13 UTC
 
 ## Result
 
+Batch 490: the focused cohort suite passed all 15 checks across desktop,
+phone and tablet. It verifies ten immutable page 97 rows; masked or unprinted
+identifiers; Burton Crane's distinct last-civilian-employer and earlier
+employment claims without overstating immediacy or officer status; three
+identifier-supported Army-entry occupations without named employers; and six
+unresolved profiles with commissioned status left unknown. The complete
+historical browser and accessibility matrix passed 2,853/2,853 in 26.3
+minutes across the same three viewports, with retries disabled and a single
+worker to remain within local memory. Astro checked 114 source files with zero
+errors, warnings or hints and generated 24,516 HTML pages / 24,588 artifacts.
+A second exact build reproduced both public and production trees byte for
+byte. Independent GitHub checks were not run because this batch was neither
+pushed nor deployed.
+
 Batch 489: the focused cohort suite passed all 15 checks across desktop,
 phone and tablet. It verifies ten immutable page 97 rows; masked or unprinted
 identifiers; four identifier-supported Army-entry occupations without named

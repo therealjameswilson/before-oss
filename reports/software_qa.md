@@ -1,6 +1,28 @@
 # Software QA
 
-Run: 2026-09-05 UTC
+Run: 2026-09-13 UTC
+
+- Batch 490 local QA: all **94 / 94** Python tests plus 43 subtests pass.
+  SQLite `quick_check` returns `ok`, foreign keys pass, and the deterministic
+  200-profile structural audit passes all seven checks. Extraction validation
+  covers all 522 pages and 23,978 source rows. Fifteen focused Batch 490 checks
+  pass across desktop, phone and tablet; the complete browser and accessibility
+  matrix passes **2,853 / 2,853** in 26.3 minutes with retries disabled. Astro
+  checks 114 source files with zero errors, warnings or hints and generates
+  24,516 HTML pages / 24,588 artifacts. The internal-link audit resolves every
+  page and inventories 49,792 unique external URLs. All five current-batch
+  source endpoints return HTTP 200. The public-identifier audit examines
+  12,926 normalized identifiers and 120 formatted variants, rejects 1,099
+  substring coincidences, and finds zero aggregate, manifest-size or
+  unexpected boundary matches. The production dependency audit finds zero
+  vulnerabilities. Consecutive projections and Pages builds reproduce public-
+  tree digest
+  `bd63ff46c15795294658e0c952069ab353543aefd3cb8cd985df3261c897867c`,
+  production-tree digest
+  `412e17251e8619e7001230a8e4a3240b6f4acfde10b2aaa2e02cbdb92d2d650e`,
+  and public-manifest SHA-256
+  `24d36b6d83b77ce20ea7fed773ef08486e15b4a64c9c677b10777adffe930c08`.
+  See `reports/release_batch_490.md`.
 
 - Batch 433 local QA: all **93 / 93** Python tests pass. SQLite `quick_check`
   returns `ok`, foreign keys pass, and the deterministic 200-profile structural

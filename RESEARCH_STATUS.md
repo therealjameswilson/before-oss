@@ -2,6 +2,26 @@
 
 Verified against the current local SQLite database on 2026-09-13 UTC.
 
+Batch 490 is a validated local release candidate. It adds ten saved outcomes
+for personnel-index PDF page 97 rows 18-27, Robert E Cramer through Wallen L
+Crane, across Boxes 151 and 152. An institutional finding aid supports a
+high-confidence Louis Burton Crane Jr. identity, the New York Times as his
+best-supported last civilian employer before documented wartime OSS service,
+and The Japan Advertiser as earlier documented employment. It does not prove
+an immediate newspaper-to-OSS transfer or commissioned status. Three strict
+private-identifier Army matches confirm Joseph Crampes, Rufus S Crane Jr. and
+Wallen L Crane as enlisted personnel and support qualified Army-entry
+occupation categories, never named employers. Six people remain unresolved
+with officer status unknown. All ten Library of Congress candidates were
+reviewed in official OCR context and rejected. All 94 Python tests, 15 focused
+cross-viewport checks, the complete 2,853 / 2,853 browser and accessibility
+matrix, profile, link, dependency and identifier audits, and two byte-
+identical 24,516-page Pages builds pass locally. Exact coverage is 4,668 /
+23,940 researched, 534 verified affiliations, 237 verified employers, 4,623
+archival dispositions assessed and 19,272 `not_started`. Batch 490 is not
+pushed or deployed. See `reports/release_batch_490.md` and
+`research/batch-490-discovery-checkpoint.md`.
+
 Batch 489 is a validated local release candidate. It adds ten saved outcomes
 for personnel-index PDF page 97 rows 8-17, Mary J Craig through Arvid H
 Craker, across Boxes 151 and 152. Four strict private-identifier Army matches

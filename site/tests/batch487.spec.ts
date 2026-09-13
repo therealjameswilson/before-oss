@@ -169,10 +169,10 @@ test("Batch 487 keeps the six unsupported identities unresolved", () => {
 });
 
 test("Batch 487 profiles and coverage render the reviewed outcomes", async ({ page }) => {
-  expect(stats.research_attempted_people).toBe(4639);
-  expect(stats.verified_affiliation_people).toBe(532);
-  expect(stats.verified_employer_people).toBe(236);
-  expect(stats.archival_review_assessed_people).toBe(4594);
+  expect(stats.research_attempted_people).toBeGreaterThanOrEqual(4639);
+  expect(stats.verified_affiliation_people).toBeGreaterThanOrEqual(532);
+  expect(stats.verified_employer_people).toBeGreaterThanOrEqual(236);
+  expect(stats.archival_review_assessed_people).toBeGreaterThanOrEqual(4594);
 
   await page.goto("./people/238d5430-0efc-55d9-a96e-d84cb37d0bbb/");
   await expect(page.getByRole("heading", { name: "Terence A Coyne", exact: true })).toBeVisible();

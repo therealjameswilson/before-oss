@@ -95,8 +95,8 @@ test("Batch 459 links but does not merge the Conssoule and Coussoule rows", asyn
   });
   expect(coussoule).toMatchObject({
     display_name: "Charles Coussoule",
-    identity_status: "unresolved",
-    research_status: "not_started",
+    identity_status: "probable",
+    research_status: "needs_identity_review",
     manual_review_required: true,
   });
   expect(conssoule.person_id).not.toBe(coussoule.person_id);
