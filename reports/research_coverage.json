@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T06:08:55+00:00",
+  "generated_at": "2026-09-13T06:37:41+00:00",
   "index_coverage": {
     "source_rows": 23978,
     "source_rows_linked": 23978,
@@ -9,8 +9,8 @@
     "person_entities": 23940,
     "stored_person_entities": 23941,
     "superseded_person_entities": 1,
-    "people_with_nonplanned_attempts": 4648,
-    "percent": 19.4152
+    "people_with_nonplanned_attempts": 4658,
+    "percent": 19.457
   },
   "verified_affiliation_coverage": {
     "person_entities": 23940,
@@ -24,8 +24,8 @@
   },
   "archival_review_coverage": {
     "person_entities": 23940,
-    "people_assessed": 4603,
-    "percent": 19.2272
+    "people_assessed": 4613,
+    "percent": 19.269
   },
   "research_status_counts": {
     "candidate_found": 7,
@@ -36,9 +36,9 @@
     "needs_identity_review": 203,
     "needs_temporal_review": 15,
     "no_reliable_result_after_protocol": 82,
-    "not_started": 19292,
-    "occupation_only_found": 835,
-    "requires_archival_review": 2926,
+    "not_started": 19282,
+    "occupation_only_found": 839,
+    "requires_archival_review": 2932,
     "verified_employer_found": 222
   },
   "claim_confidence_counts": {
@@ -46,7 +46,7 @@
     "conflicting": 103,
     "high": 1369,
     "low": 102,
-    "medium": 1088
+    "medium": 1092
   },
   "personnel_category_counts": {
     "civilian_professional_or_administrative_grade": 1508,
@@ -54,16 +54,16 @@
     "commissioned_coast_guard_officer": 1,
     "commissioned_marine_corps_officer": 9,
     "commissioned_naval_officer": 88,
-    "enlisted_army_personnel": 4154,
+    "enlisted_army_personnel": 4158,
     "enlisted_marine_corps_personnel": 6,
     "enlisted_naval_personnel": 65,
     "foreign_or_allied_military_personnel": 253,
     "temporary_contract_or_special_personnel": 4,
-    "unknown_or_indeterminate": 15724,
+    "unknown_or_indeterminate": 15720,
     "warrant_officer": 6
   },
-  "possible_duplicate_groups": 238,
+  "possible_duplicate_groups": 240,
   "conflict_count": 96,
-  "citations": 4308,
+  "citations": 4312,
   "unique_source_documents": 1970
 }

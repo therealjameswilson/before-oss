@@ -2,6 +2,22 @@
 
 Verified against the current local SQLite database on 2026-09-13 UTC.
 
+Batch 489 is a validated local release candidate. It adds ten saved outcomes
+for personnel-index PDF page 97 rows 8-17, Mary J Craig through Arvid H
+Craker, across Boxes 151 and 152. Four strict private-identifier Army matches
+support three confirmed and one high-confidence enlisted identities plus
+qualified Army-entry occupation categories, never named employers. Six people
+remain unresolved with officer status unknown. The two Robert B Craig rows and
+the Richard J Craigo/Richard Craigue pair remain separate in two visible
+possible-duplicate groups. All 17 Library of Congress candidates were
+reviewed in official OCR context and rejected. All 94 Python tests, 15 focused
+cross-viewport checks, 27 isolated axe checks, profile, link and identifier
+audits, and two byte-identical 24,514-page Pages builds pass locally. Exact
+coverage is 4,658 / 23,940 researched, 533 verified affiliations, 236 verified
+employers, 4,613 archival dispositions assessed and 19,282 `not_started`.
+Batch 489 is not pushed or deployed. See `reports/release_batch_489.md` and
+`research/batch-489-discovery-checkpoint.md`.
+
 Batch 488 is a validated local release candidate. It adds ten saved outcomes
 across personnel-index PDF page 96 rows 44-46 and page 97 rows 1-7, Pierre
 Crabites through Margaret Craig, all in Box 151. Official and contemporary

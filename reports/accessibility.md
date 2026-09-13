@@ -4,6 +4,19 @@ Run: 2026-09-13 UTC
 
 ## Result
 
+Batch 489: the focused cohort suite passed all 15 checks across desktop,
+phone and tablet. It verifies ten immutable page 97 rows; masked or unprinted
+identifiers; four identifier-supported Army-entry occupations without named
+employers; six unresolved people with commissioned status left unknown; and
+two possible-duplicate pairs that remain separate. One initial test-only
+phrase differed from the already correct public qualification; correcting the
+assertion did not change evidence or application behavior. The separate axe
+route suite passed 27/27 across the same three layouts. Astro checked 113
+source files with zero errors, warnings or hints and generated 24,514 HTML
+pages / 24,586 artifacts. A second exact build reproduced both public and
+production trees byte for byte. The complete historical browser matrix and
+independent GitHub checks were not rerun in this batch.
+
 Batch 488: the focused cohort suite passed all 18 checks across desktop,
 phone and tablet. It verifies ten immutable rows spanning pages 96-97;
 masked or unprinted identifiers; Pierre Crabites's documented-prewar judicial
