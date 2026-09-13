@@ -4,6 +4,21 @@ Run: 2026-09-13 UTC
 
 ## Result
 
+Batch 486: the focused cohort suite passed all 15 checks across desktop,
+phone and tablet. It verifies ten immutable page 96 rows; Russell C Cox's
+qualified student relationship without an employer; Henry B Coxe's separate
+commissioned classification and documented-prewar legal employment;
+Maryette A Coxe's civilian identity; Norwood S Cox's visible identifier
+conflict; and unresolved profiles without speculative affiliations. The
+separate axe route suite passed 27/27 across the same three layouts in its
+clean isolated run. The first focused run served stale production data; after
+a rebuild, one remaining exact-copy assertion was corrected to the verified
+public wording. The final clean run passed. Astro checked 110 source files
+with zero errors, warnings or hints and generated 24,508 HTML pages / 24,580
+artifacts. A second exact build reproduced both public and production trees
+byte for byte. The complete historical browser matrix and independent GitHub
+checks were not rerun in this batch.
+
 Batch 485: the focused cohort suite passed all 15 checks across desktop,
 phone and tablet. It verifies ten immutable page 96 rows, masked or unprinted
 identifiers, four exact-identifier Army identities, three qualified

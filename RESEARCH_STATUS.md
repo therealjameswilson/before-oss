@@ -2,6 +2,24 @@
 
 Verified against the current local SQLite database on 2026-09-13 UTC.
 
+Batch 486 is a validated local release candidate. It adds ten saved outcomes
+across personnel-index PDF page 96 rows 24-33, Marjorie L Cox through Maryette
+A Coxe, all in Box 150. Russell C Cox has an exact private-identifier Army
+match and a qualified student-status pathway that is not presented as
+employment. Official CIA evidence supports high-confidence commissioned
+officer Henry B Coxe; a contemporary appellate case supports a
+medium-confidence, documented-prewar Barratt Coxe attorney relationship but
+does not establish immediacy. Official OSS War Report evidence supports
+high-confidence civilian Maryette A Coxe. Norwood S Cox remains a visible
+identifier conflict, and six additional people remain unresolved and routed
+for archival review. All 94 Python tests, 15 focused cross-viewport checks, 27
+isolated axe checks, profile, link and identifier audits, and two
+byte-identical 24,508-page Pages builds pass locally. Exact coverage is 4,629 /
+23,940 researched, 530 verified affiliations, 235 verified employers, 4,584
+archival dispositions assessed and 19,311 not_started. Batch 486 is not pushed
+or deployed. See reports/release_batch_486.md and
+research/batch-486-discovery-checkpoint.md.
+
 Batch 485 is a local release candidate with complete local QA passing. It adds
 ten saved person outcomes across PDF page 96 rows 14-23, Dorotothy H Cox
 through Keith C Cox, all in Box 150. Four exact private-identifier matches in

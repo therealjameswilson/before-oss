@@ -2,6 +2,25 @@
 
 Run: 2026-09-13 UTC
 
+## Batch 486 release candidate
+
+All internal targets resolve across 24,508 HTML pages; 49,776 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,580 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,095
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 89,276,473 bytes at
+SHA-256 9f73384e93abfbd61c6e72bc950bbbe1f5640f98e40ef4d5d6cdf8ecc3569b9f.
+The 70-file public-tree digest is
+9a0363679f752b7a8672935905c9b9c788ba6a8e559d3594cf9228d8e47021c0;
+the 24,580-file production-tree digest is
+d39fe25fab649c3708f477ccbabc0972612b14619044f36c0c5c363ed6ed919b.
+A second exact public-data and Pages build reproduced both trees. No
+authenticated Catalog request was used. Thirteen rejected Library of Congress
+pages were read in official OCR context. Official CIA OSS records, the OSS War
+Report, a contemporary appellate case, a Salem directory and later
+disambiguation sources were reviewed in context; independent GitHub and
+deployed-site checks remain pending.
+
 ## Batch 485 release candidate
 
 All internal targets resolve across 24,507 HTML pages; 49,772 external URLs
