@@ -2,6 +2,25 @@
 
 Run: 2026-09-13 UTC
 
+## Batch 497 release candidate
+
+All internal targets resolve across 24,526 HTML pages; 49,824 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,598 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,095
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 90,093,383 bytes at
+SHA-256 `492c10c8cff8f94df3b80aaa16fe6d056c1a6dbe6b7d1ba7c8b009bd6aa0a169`.
+The 70-file public-tree digest is
+`cef4b633e96d8376f2b31d9f4f1e25d29fdfb1ea12bb6f4eddbe5405451592dd`;
+the 24,598-file production-tree digest is
+`2cd6abb4a0e90c70ca2d67d2ec3a58e7d9c4a04d5adcc86eb87e374f97cf0926`.
+A second exact public-data and Pages build reproduced both trees. All four
+Batch 497 citation destinations returned HTTP 200: the source index PDF, Army
+merged-file Catalog page, and two official technical/code PDFs. No
+authenticated Catalog request was used. CIA and Library of Congress returned
+no adapter candidates for the cohort. Independent GitHub and deployed-site
+checks remain pending.
+
 ## Batch 496 release candidate
 
 All internal targets resolve across 24,526 HTML pages; 49,824 external URLs
