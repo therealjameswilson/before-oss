@@ -4,6 +4,18 @@ Run: 2026-09-13 UTC
 
 ## Result
 
+Batch 505: the focused cohort suite passed all 21 checks across desktop,
+phone and tablet. It verifies ten immutable page 100 rows; masked or unprinted
+identifiers; William S Culbertson's qualified War Department pathway and
+separate Georgetown, law, tariff and diplomatic history; two exact-identifier
+occupations without employers; James S Cullison's qualified probable identity;
+and six unresolved profiles with Box 158 guidance. The bounded core suite
+passed 42/42 across the same viewports. The axe route suite passed 27/27 in
+1.6 minutes. Astro checked 129 source files with zero errors, warnings or hints
+and generated 24,546 HTML pages / 24,618 artifacts. A second exact public-data
+and Pages build reproduced both trees byte for byte. Independent GitHub checks
+were not run because this batch was neither pushed nor deployed.
+
 Batch 504: the focused cohort suite passed all 18 checks across desktop,
 phone and tablet. It verifies ten immutable page 100 rows; masked or unprinted
 identifiers; Walter Cuddy's and Mario Cugia's confirmed enlisted identities

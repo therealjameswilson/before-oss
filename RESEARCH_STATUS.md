@@ -2,6 +2,29 @@
 
 Verified against the current local SQLite database on 2026-09-13 UTC.
 
+Batch 505 is a validated local release candidate. It adds ten terminal saved
+outcomes for personnel-index PDF page 100 rows 30-39, Ruth B Culbertson through
+Carson W Culp, all in Box 158. A Library of Congress finding aid directly links
+William Smith Culbertson to War Department Military Intelligence and the OSS
+Planning Group, documents Colonel rank, and separates his long Georgetown
+faculty employment, private law practice, Tariff Commission service and earlier
+diplomatic assignments. The military-to-OSS sequence remains qualified as
+probable rather than explicit, and no last civilian employer is invented. A
+State Historical Society of Missouri finding aid supports a qualified probable
+James S Cullison identity and 1930-1945 Missouri School of Mines employment;
+the absent OSS bridge keeps it out of default analytics. Exact private
+identifiers confirm William D Culbertson and Thomas M Cullens as enlisted Army
+personnel and support occupation categories only. Six other profiles remain
+unresolved. Ten CIA checks returned no candidates; 16 actual LoC attempts
+produced 18 candidates, with 17 rejected and one accepted in the durable review
+ledger. All 94 Python tests, 21 focused cross-viewport checks, 42 bounded core
+checks, 27 axe cases, profile, link, dependency and identifier audits pass; two
+24,546-page builds are byte-identical. Exact coverage is 4,818 / 23,940
+researched, 549 verified affiliations, 244 verified employers, 4,773 archival
+dispositions assessed and 19,122 `not_started`. Batch 505 is not pushed or
+deployed. See `reports/release_batch_505.md` and
+`research/batch-505-discovery-checkpoint.md`.
+
 Batch 504 is a validated local release candidate. It adds ten saved outcomes
 for personnel-index PDF page 100 rows 20-29, Walter M Cuddy Jr. through Jane
 Culbertson, crossing from Box 157 to Box 158. Exact private identifiers confirm
