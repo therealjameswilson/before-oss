@@ -4,6 +4,21 @@ Run: 2026-09-13 UTC
 
 ## Result
 
+Batch 491: the focused cohort suite passed all 15 checks across desktop,
+phone and tablet. It verifies ten immutable page 97 rows; masked or unprinted
+identifiers; two qualified Army-entry occupations without named employers;
+two additional confirmed enlisted identities without unsafe occupation
+decoding; a visible Craven/Graven conversion conflict; the printed `aka Arch`
+note; and six unresolved or ambiguous profiles with commissioned status left
+unknown. The first run exposed two test-only field/text expectation errors;
+the corrected suite passed without changing evidence or application behavior.
+The separate axe route suite passed 27/27 across the same three layouts. Astro
+checked 115 source files with zero errors, warnings or hints and generated
+24,516 HTML pages / 24,588 artifacts. A second exact build reproduced both
+public and production trees byte for byte. The complete historical browser
+matrix and independent GitHub checks were not rerun because this batch was
+neither pushed nor deployed.
+
 Batch 490: the focused cohort suite passed all 15 checks across desktop,
 phone and tablet. It verifies ten immutable page 97 rows; masked or unprinted
 identifiers; Burton Crane's distinct last-civilian-employer and earlier

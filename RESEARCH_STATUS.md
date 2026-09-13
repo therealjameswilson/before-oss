@@ -2,6 +2,22 @@
 
 Verified against the current local SQLite database on 2026-09-13 UTC.
 
+Batch 491 is a validated local release candidate. It adds ten saved outcomes
+for personnel-index PDF page 97 rows 28-37, Virginia Crate through Eugene E
+Crawford, all in Box 152. Exact identifier matches confirm three enlisted Army
+identities; an exact identifier plus damaged Army surname supports a fourth at
+high confidence. Two Army-entry occupations are published with qualification,
+while unsupported alternate-card values 417 and 668 remain deliberately
+undecoded. Two people remain unresolved and four remain ambiguous; name-only
+Army/WAC rows and all eight Library of Congress candidates stay unassigned.
+All 94 Python tests, 15 focused cross-viewport checks, 27 isolated axe checks,
+profile, link, dependency and identifier audits, and two byte-identical
+24,516-page Pages builds pass locally. Exact coverage is 4,678 / 23,940
+researched, 534 verified affiliations, 237 verified employers, 4,633 archival
+dispositions assessed and 19,262 `not_started`. Batch 491 is not pushed or
+deployed. See `reports/release_batch_491.md` and
+`research/batch-491-discovery-checkpoint.md`.
+
 Batch 490 is a validated local release candidate. It adds ten saved outcomes
 for personnel-index PDF page 97 rows 18-27, Robert E Cramer through Wallen L
 Crane, across Boxes 151 and 152. An institutional finding aid supports a
