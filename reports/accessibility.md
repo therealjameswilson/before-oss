@@ -4,6 +4,22 @@ Run: 2026-09-13 UTC
 
 ## Result
 
+Batch 498: the focused cohort suite passed all 18 checks across desktop,
+phone and tablet. It verifies ten immutable page 99 rows; masked or unprinted
+identifiers; Raymond Cromley's separate last-civilian and earlier-employer
+claims; Doris Cromwell's qualified United Seamen's Service employment and
+distinct Duke Endowment professional affiliation; three qualified Army-entry
+occupations without named employers; Dorothea Cronin's identity evidence
+without an invented pre-OSS employer; and four unresolved or ambiguous
+profiles. Three initial test-only capitalization or label mismatches, each
+repeated across the viewports, were corrected without changing evidence or
+site behavior. The separate axe route suite passed 27/27 across the same three
+layouts in 2.3 minutes. Astro checked 122 source files with zero errors,
+warnings or hints and generated 24,530 HTML pages / 24,602 artifacts. A second
+exact build reproduced both public and production trees byte for byte. The
+complete historical browser matrix and independent GitHub checks were not
+rerun because this batch was neither pushed nor deployed.
+
 Batch 497: the focused cohort suite passed all 15 checks across desktop,
 phone and tablet. It verifies ten immutable rows across pages 98-99; masked or
 unprinted identifiers; four confirmed enlisted identities and qualified

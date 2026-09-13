@@ -2,6 +2,26 @@
 
 Run: 2026-09-13 UTC
 
+## Batch 498 release candidate
+
+All internal targets resolve across 24,530 HTML pages; 49,834 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,602 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,099
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 90,219,358 bytes at
+SHA-256 `7236fa29343d982534ed3e52cf1ace28db606c33fd1bd4889f9b4cb41beb282e`.
+The 70-file public-tree digest is
+`aa0be10e95dfb53390af158f1e8863d8347fc76faa0a688b325e96948b11f68a`;
+the 24,602-file production-tree digest is
+`010e96925401c54911875add7b299f6f4a74dbd264b7c97454558305ca32c516`.
+A second exact public-data and Pages build reproduced both trees. Eight of ten
+Batch 498 citation destinations returned HTTP 200 to the generic checker. The
+Library of Congress and Justia pages returned HTTP 403; their cited material
+had already been reviewed through permitted access, and no restriction was
+bypassed. No authenticated Catalog request was used. Six Library of Congress
+candidates were reviewed in context and five were rejected. Independent GitHub
+and deployed-site checks remain pending.
+
 ## Batch 497 release candidate
 
 All internal targets resolve across 24,526 HTML pages; 49,824 external URLs
