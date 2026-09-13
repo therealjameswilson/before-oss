@@ -2,6 +2,24 @@
 
 Verified against the current local SQLite database on 2026-09-13 UTC.
 
+Batch 493 is a validated local release candidate. It adds ten saved outcomes
+for personnel-index PDF page 98 rows 2-11, Robert N Creadick through Albert M
+Creighton Jr., all in Box 153. An exact private-identifier Army match confirms
+Robert D Creaven as enlisted personnel and supports only a qualified 1941
+carpenter occupation, not a named employer. A stronger Army-to-OSS lead remains
+private and low-confidence because its Hoover digital item is reading-room-
+only. Two independent sources support a probable, medium-confidence John A
+Creedy identity and two documented-prewar newspaper roles; neither is labeled
+immediate or last civilian. Five people remain ambiguous and three unresolved;
+short identifiers, name-only Army candidates and the one incompatible Library
+of Congress candidate stay unassigned. All 94 Python tests, 15 focused cross-
+viewport checks, 27 axe cases, profile, link, dependency and identifier audits,
+and two byte-identical 24,516-page Pages builds pass locally. Exact coverage is
+4,698 / 23,940 researched, 534 verified affiliations, 237 verified employers,
+4,653 archival dispositions assessed and 19,242 `not_started`. Batch 493 is not
+pushed or deployed. See `reports/release_batch_493.md` and
+`research/batch-493-discovery-checkpoint.md`.
+
 Batch 492 is a validated local release candidate. It adds ten saved outcomes
 across personnel-index PDF page 97 rows 38-46 and page 98 row 1, Hilary
 Crawford through James W Crayhon, spanning Boxes 152 and 153. Three exact

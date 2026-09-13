@@ -4,6 +4,21 @@ Run: 2026-09-13 UTC
 
 ## Result
 
+Batch 493: the focused cohort suite passed all 15 checks across desktop,
+phone and tablet. It verifies ten immutable page 98 rows; masked or unprinted
+identifiers; Robert D Creaven's qualified Army-entry occupation without a
+named employer; the private, withheld Hoover reading-room lead; John A
+Creedy's probable and visibly qualified newspaper roles without overstating
+their sequence; and eight unresolved or ambiguous profiles with commissioned
+status left unknown. The first run exposed three test-only wording
+expectations; the corrected suite passed without changing evidence or
+application behavior. The separate axe route suite passed 27/27 across the
+same three layouts. Astro checked 117 source files with zero errors, warnings
+or hints and generated 24,516 HTML pages / 24,588 artifacts. A second exact
+build reproduced both public and production trees byte for byte. The complete
+historical browser matrix and independent GitHub checks were not rerun because
+this batch was neither pushed nor deployed.
+
 Batch 492: the focused cohort suite passed all 18 checks across desktop,
 phone and tablet. It verifies ten immutable rows across pages 97 and 98;
 masked or unprinted identifiers; three qualified Army-entry occupations

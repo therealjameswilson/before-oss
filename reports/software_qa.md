@@ -2,6 +2,31 @@
 
 Run: 2026-09-13 UTC
 
+- Batch 493 local QA: all **94 / 94** Python tests plus 43 subtests pass.
+  SQLite `quick_check` returns `ok`, foreign keys pass, and the deterministic
+  200-profile structural audit passes all seven checks. Extraction validation
+  covers all 522 pages and 23,978 source rows. Fifteen focused Batch 493
+  checks pass across desktop, phone and tablet; the separate accessibility
+  suite passes **27 / 27** across the same viewports. The initial focused run
+  exposed three test-only wording expectations; the corrected suite passed
+  without changing evidence or application behavior. Astro checks 117 source
+  files with zero errors, warnings or hints and generates 24,516 HTML pages /
+  24,588 artifacts. The internal-link audit resolves every page and inventories
+  49,797 unique external URLs. Five of eight current-batch endpoints return
+  HTTP 200; three return HTTP 403 to the generic checker, while their relevant
+  metadata or page text had already been reviewed through permitted browser
+  access. The public-identifier audit examines 12,926 normalized identifiers
+  and 120 formatted variants, rejects 1,101 substring coincidences, and finds
+  zero aggregate, manifest-size or unexpected boundary matches. The production
+  dependency audit finds zero vulnerabilities. Consecutive projections and
+  Pages builds reproduce public-tree digest
+  `382e6c437f00e29698c2f516d9d7e562caf9e0c90c15fb99de6eb5d0f245d4e6`,
+  production-tree digest
+  `6c70f108d8d0ddb4b1a420327fca8b714a693b8ee81b5a71d561c1f467e98bb2`,
+  and public-manifest SHA-256
+  `67c2acc37a1dd49ac3f676f06bd280813de5490da48e203e354309801a27138a`.
+  See `reports/release_batch_493.md`.
+
 - Batch 492 local QA: all **94 / 94** Python tests plus 43 subtests pass.
   SQLite `quick_check` returns `ok`, foreign keys pass, and the deterministic
   200-profile structural audit passes all seven checks. Extraction validation

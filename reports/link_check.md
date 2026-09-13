@@ -2,6 +2,27 @@
 
 Run: 2026-09-13 UTC
 
+## Batch 493 release candidate
+
+All internal targets resolve across 24,516 HTML pages; 49,797 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,588 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,101
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 89,702,824 bytes at
+SHA-256 `67c2acc37a1dd49ac3f676f06bd280813de5490da48e203e354309801a27138a`.
+The 70-file public-tree digest is
+`382e6c437f00e29698c2f516d9d7e562caf9e0c90c15fb99de6eb5d0f245d4e6`;
+the 24,588-file production-tree digest is
+`6c70f108d8d0ddb4b1a420327fca8b714a693b8ee81b5a71d561c1f467e98bb2`.
+A second exact public-data and Pages build reproduced both trees. Five of eight
+Batch 493 citation destinations returned HTTP 200. The Hoover item, the
+Bennington Banner obituary and the Library of Congress page returned HTTP 403
+to the generic checker; relevant metadata or page text had already been
+reviewed through permitted browser access, and no restriction was bypassed.
+No authenticated Catalog request was used. The Hoover item remains a private,
+low-confidence reading-room lead, and the sole Library of Congress candidate
+was rejected. Independent GitHub and deployed-site checks remain pending.
+
 ## Batch 492 release candidate
 
 All internal targets resolve across 24,516 HTML pages; 49,794 external URLs
