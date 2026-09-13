@@ -4,6 +4,21 @@ Run: 2026-09-12 UTC
 
 ## Result
 
+Batch 480: the focused cohort suite passed all 18 checks across desktop,
+phone and tablet. It verifies ten immutable source rows and masked identifiers;
+four exact Army-record identities; the qualified Countouris-Kountouris match;
+two Army-entry occupations that do not become employers; Emile R Counasse's
+commissioned classification without a retrojected pre-OSS affiliation; Earl W
+Coulter's visible identifier conflict; and archival routing for four
+unresolved profiles. The separate axe route run passed 26/27 before the
+desktop `/sources/` case hit its test timeout; that same case passed in
+isolation in 20.7 seconds with no serious violation, while phone and tablet had
+already passed in the original run. The production build reports 104 Astro
+source files with zero errors, warnings or hints and generates 24,503 HTML
+pages / 24,575 artifacts. A second exact build reproduced both public and
+production trees byte for byte. The complete historical browser matrix and
+independent GitHub checks were not rerun in this batch.
+
 Batch 479: the focused cohort suite passed all 18 checks across desktop,
 phone and tablet. It verifies ten immutable source rows and masked identifiers;
 John G Coughlin's 35th Infantry Regiment pathway as military rather than
