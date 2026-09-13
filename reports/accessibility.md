@@ -4,6 +4,19 @@ Run: 2026-09-12 UTC
 
 ## Result
 
+Batch 483: the focused cohort suite passed all 12 checks across desktop,
+phone and tablet. It verifies ten immutable source rows spanning PDF pages 95
+and 96, masked or unprinted identifiers, terminal archival-review states, and
+the absence of transferred occupations or personnel categories from four
+name-only Army candidates and two institutional namesakes. The direct John W
+Covill route visibly preserves the unresolved USAAF prisoner-of-war candidate
+and critical Box 149 review priority. The separate axe route suite passed
+27/27 across the same three layouts. The production build reports 107 Astro
+source files with zero errors, warnings or hints and generates 24,506 HTML
+pages / 24,578 artifacts. A second exact build reproduced both public and
+production trees byte for byte. The complete historical browser matrix and
+independent GitHub checks were not rerun in this batch.
+
 Batch 482: the focused cohort suite passed all 18 checks across desktop,
 phone and tablet. It verifies ten immutable source rows and masked identifiers;
 four exact Army identities; Costa G Couvaras's separate immediate Army and
