@@ -2,6 +2,24 @@
 
 Verified against the current local SQLite database on 2026-09-13 UTC.
 
+Batch 488 is a validated local release candidate. It adds ten saved outcomes
+across personnel-index PDF page 96 rows 44-46 and page 97 rows 1-7, Pierre
+Crabites through Margaret Craig, all in Box 151. Official and contemporary
+Foreign Service evidence supports high-confidence Pierre Crabites and his
+1911-1936 Mixed Courts of Egypt government assignment, kept separate from an
+unproved immediate predecessor. Exact private-identifier Army matches confirm
+William S Craft and Alan B Cragin as enlisted personnel without publishing
+ambiguous occupation codes. Pauline G Craft remains a visible identifier/name
+conflict, Gordon A Craig's existing qualified Princeton student pathway is
+revalidated without duplication, and five people remain unresolved. All 94
+Python tests, 18 focused cross-viewport checks, 27 isolated axe checks,
+profile, link and identifier audits, and two byte-identical 24,514-page Pages
+builds pass locally. Exact coverage is 4,648 / 23,940 researched, 533 verified
+affiliations, 236 verified employers, 4,603 archival dispositions assessed
+and 19,292 `not_started`. Batch 488 is not pushed or deployed. See
+`reports/release_batch_488.md` and
+`research/batch-488-discovery-checkpoint.md`.
+
 Batch 487 is a validated local release candidate. It adds ten saved outcomes
 across personnel-index PDF page 96 rows 34-43, Jean L Coyat through Lillian E
 Crabbe, all in Box 151. Exact private-identifier Army matches support qualified

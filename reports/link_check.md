@@ -2,6 +2,25 @@
 
 Run: 2026-09-13 UTC
 
+## Batch 488 release candidate
+
+All internal targets resolve across 24,514 HTML pages; 49,789 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,586 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,099
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 89,446,175 bytes at
+SHA-256 `76e473f8ee68ac0a1dd24f6f8926d33a5d1907f0c8983524d115838031989588`.
+The 70-file public-tree digest is
+`3887ddc1ee53b0ff1214b6fe425afaecc2444afb7090d0c5dc0f367a1e1c0b59`;
+the 24,586-file production-tree digest is
+`6efb59f080e8721345f1f326ca6d39facb23da979d748ff1c21f83bc84ac4f3d`.
+A second exact public-data and Pages build reproduced both trees. No
+authenticated Catalog request was used. Four Library of Congress candidates
+were rejected in official OCR context; the source page endpoints did not
+deliver PDFs. The official Army merged file and documentation, FRUS document
+278 and the June/November 1943 Foreign Service Journal pages were reviewed in
+context; independent GitHub and deployed-site checks remain pending.
+
 ## Batch 487 release candidate
 
 All internal targets resolve across 24,513 HTML pages; 49,785 external URLs

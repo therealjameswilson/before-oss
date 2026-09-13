@@ -4,6 +4,20 @@ Run: 2026-09-13 UTC
 
 ## Result
 
+Batch 488: the focused cohort suite passed all 18 checks across desktop,
+phone and tablet. It verifies ten immutable rows spanning pages 96-97;
+masked or unprinted identifiers; Pierre Crabites's documented-prewar judicial
+assignment without claiming immediacy; William S Craft's and Alan B Cragin's
+confirmed enlisted identities without unsupported occupations; Pauline G
+Craft's visible identifier conflict; Gordon A Craig's unchanged qualified
+student pathway; and five unresolved profiles without speculative
+affiliations. The separate axe route suite passed 27/27 across the same three
+layouts in its clean isolated run. Astro checked 112 source files with zero
+errors, warnings or hints and generated 24,514 HTML pages / 24,586 artifacts.
+A second exact build reproduced both public and production trees byte for
+byte. The complete historical browser matrix and independent GitHub checks
+were not rerun in this batch.
+
 Batch 487: the focused cohort suite passed all 18 checks across desktop,
 phone and tablet. It verifies ten immutable page 96 rows; masked or unprinted
 identifiers; Jean L Coyat's and Nicholas A Cozzone's qualified Army-entry
