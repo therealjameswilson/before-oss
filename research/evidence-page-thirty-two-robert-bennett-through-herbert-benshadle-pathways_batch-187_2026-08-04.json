@@ -52,7 +52,7 @@
       "author_creator": "National Archives and Records Administration",
       "repository_publisher": "National Archives at College Park - Electronic Records",
       "publication_record_date": "2011-01-12; modified 2011-03-17",
-      "locator": "Code No. 30 entries 1-37, 4-16, 6-99, and 8-61: stenographers and typists; loom fixers; electrical-machinery manufacturing occupations, not elsewhere classified; shoe and boot manufacturing occupations; page containing 6-99 visually checked",
+      "locator": "Code No. 30 entries 1-37, 4-16, 6-99, and 8-61: stenographers and typists; loom fixers; radio and phonograph manufacturing occupations; shoe and boot manufacturing occupations; page containing 6-99 visually checked",
       "access_date": "2026-08-04",
       "source_quality": "A_direct_official",
       "collection_name": "World War II Army Enlistment Records technical documentation",
@@ -164,7 +164,7 @@
       "organization_key": null,
       "organization_name_as_found": null,
       "role_title": null,
-      "occupation": "Electrical-machinery manufacturing occupation, not elsewhere classified",
+      "occupation": "Semiskilled occupation in manufacture of radios and phonographs",
       "relationship_type": "unknown",
       "start_date": null,
       "end_date": "1942-11-30",
@@ -344,9 +344,9 @@
       "person_id": "3f59d5a5-1e4b-57f6-936d-75e5d3fe354b",
       "affiliation_key": "herbert-g-benshadle-electrical-machinery-manufacturing-occupation-batch187",
       "claim_type": "occupation",
-      "claim_text": "At Army entry on November 30, 1942, Herbert G. Benshadle was classified in electrical-machinery manufacturing occupations not elsewhere classified.",
-      "evidence_excerpt": "6-99. Occupations in manufacture of electrical machinery and accessories, n.e.c.",
-      "evidence_paraphrase": "The exact-matched Army record carries code 699, which NARA's corrected list assigns to a residual electrical-machinery manufacturing group.",
+      "claim_text": "At Army entry on November 30, 1942, Herbert G. Benshadle was classified in semiskilled radio and phonograph manufacturing work.",
+      "evidence_excerpt": "6-99. Occupations in manufacture of radios and phonographs",
+      "evidence_paraphrase": "The exact-matched Army record carries code 699, which NARA's corrected list assigns to semiskilled radio and phonograph manufacturing work.",
       "identity_match_assessment": "The exact private identifier confirms that the coded Army-entry record belongs to the indexed Herbert G. Benshadle.",
       "temporal_assessment": "Strongly date-bounded to Army entry, but not proven to identify a named employer, exact trade, or immediate pre-OSS role.",
       "source_quality": "A_direct_official",
@@ -356,7 +356,7 @@
       "sources": [
         {"source_key": "nara-army-enlistment-merged-file-batch187", "support_type": "supports"},
         {"source_key": "nara-army-enlistment-basic-documentation-batch187", "support_type": "context_only"},
-        {"source_key": "nara-army-enlistment-code-lists-batch187", "support_type": "supports", "excerpt_override": "6-99. Occupations in manufacture of electrical machinery and accessories, n.e.c."}
+        {"source_key": "nara-army-enlistment-code-lists-batch187", "support_type": "supports", "excerpt_override": "6-99. Occupations in manufacture of radios and phonographs"}
       ]
     }
   ],
@@ -649,7 +649,7 @@
       "key": "batch187-herbert-g-benshadle-reviewed-search",
       "person_id": "3f59d5a5-1e4b-57f6-936d-75e5d3fe354b",
       "source_adapter": "reviewed_official_bulk_institutional_newspaper_directory_and_web_sources",
-      "query_text": "Herbert G Benshadle; Private; private identifier; complete official Army merged file; occupation code 699; OSS; CIA Reading Room; current Library of Congress API; electrical machinery manufacturing; employer",
+      "query_text": "Herbert G Benshadle; Private; private identifier; complete official Army merged file; occupation code 699; OSS; CIA Reading Room; current Library of Congress API; radio and phonograph manufacturing; employer",
       "query_variant_type": "distinctive_name_middle_initial_private_identifier_exact_bulk_match_occupation_code",
       "started_at": "2026-08-04T19:35:00Z",
       "completed_at": "2026-08-04T22:10:00Z",

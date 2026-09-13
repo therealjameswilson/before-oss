@@ -2,6 +2,25 @@
 
 Run: 2026-09-13 UTC
 
+## Batch 500 release candidate
+
+All internal targets resolve across 24,535 HTML pages; 49,845 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,607 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,097
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 90,404,647 bytes at
+SHA-256 `7f0176e6488c235ac26b685a2916347cf14e5b22ca68c8a2bd6bf2faf5aa298a`.
+The 70-file public-tree digest is
+`79d5df750455f2068bc6cda1260992746b7a923e3b0a1776f96317c3a5a9419c`;
+the 24,607-file production-tree digest is
+`16376a4697f8681cb59beb4f7542ae44991b5e50c215b33eab72d7c195f319b2`.
+A second exact public-data and Pages build reproduced both trees. All five
+Batch 500 citation destinations returned HTTP 200: the source index, Army
+Catalog record, two Army technical/code PDFs and the Boothby obituary. No
+authenticated Catalog request was used. Ten Library of Congress candidates
+were reviewed in context and rejected. Independent GitHub and deployed-site
+checks remain pending.
+
 ## Batch 499 release candidate
 
 All internal targets resolve across 24,533 HTML pages; 49,842 external URLs

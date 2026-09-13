@@ -2,6 +2,24 @@
 
 Verified against the current local SQLite database on 2026-09-13 UTC.
 
+Batch 500 is a validated local release candidate. It adds ten saved outcomes
+for personnel-index PDF page 99 rows 26-35, Paul L Crosby through Paul W
+Crouch, all in Box 156. Three exact private-identifier matches support enlisted
+Army identities and qualified occupations without named employers. A rare-name
+obituary supports high-confidence Gregg Elwyn Crouch and documents Washta High
+School, Air Corps and OSS pathways, while a one-character index-to-Army
+identifier conflict remains visible. Six people remain unresolved or ambiguous;
+ten newspaper candidates were rejected with item-level reasons. A visual code
+audit also corrected occupation code 699 in three earlier profiles without
+creating duplicate claims. All 94 Python tests, 21 focused cross-viewport
+checks, 24 bounded core checks, 27 axe cases, profile, link, dependency and
+identifier audits, and two byte-identical 24,535-page Pages builds pass locally.
+Exact coverage is 4,768 / 23,940 researched, 544 verified affiliations, 242
+verified employers, 4,723 archival dispositions assessed and 19,172
+`not_started`. Batch 500 is not pushed or deployed. See
+`reports/release_batch_500.md` and
+`research/batch-500-discovery-checkpoint.md`.
+
 Batch 493 is a validated local release candidate. It adds ten saved outcomes
 for personnel-index PDF page 98 rows 2-11, Robert N Creadick through Albert M
 Creighton Jr., all in Box 153. An exact private-identifier Army match confirms

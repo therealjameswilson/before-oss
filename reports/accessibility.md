@@ -4,6 +4,22 @@ Run: 2026-09-13 UTC
 
 ## Result
 
+Batch 500: the focused cohort suite passed all 21 checks across desktop,
+phone and tablet. It verifies ten immutable page 99 rows; masked or unprinted
+identifiers; three qualified Army-entry occupations without named employers;
+Gregg Crouch's student, Air Corps and trade evidence with the identifier
+conflict visible; Arthur Crossley's low-confidence Army candidate withheld;
+six ambiguous or unresolved profiles; and three corrected historical code-699
+profiles. One initial test-only wording mismatch was corrected without changing
+evidence or site behavior. The bounded core-site suite passed 24/24 across the
+same viewports. The axe route suite passed 27/27 in 1.7 minutes. Astro checked
+124 source files with zero errors, warnings or hints and generated 24,535 HTML
+pages / 24,607 artifacts. A second exact build reproduced both public and
+production trees byte for byte. The accumulated 3,021-case historical matrix
+was not completed locally; a diagnostic run reached 88 passes before deliberate
+termination. Independent GitHub checks were not run because this batch was
+neither pushed nor deployed.
+
 Batch 499: the focused cohort suite passed all 21 checks across desktop,
 phone and tablet. It verifies ten immutable page 99 rows; masked or unprinted
 identifiers; Compton Crook's separate Yellowstone and Towson pathways and
