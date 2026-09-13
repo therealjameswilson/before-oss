@@ -2,6 +2,27 @@
 
 Run: 2026-09-13 UTC
 
+## Batch 495 release candidate
+
+All internal targets resolve across 24,523 HTML pages; 49,816 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,595 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,099
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 89,927,545 bytes at
+SHA-256 `5f4c92f584028210e2d0c03716b75987a27f77ae8049823419e638f7c76e2819`.
+The 70-file public-tree digest is
+`91b9c88294c46379f8e31416d64982649fccfb084f1e8e3f1cc50af156b3c3cf`;
+the 24,595-file production-tree digest is
+`bc6145edea62ad46695ce043258aff70cdf5b025aaf53b0edf7f1dfdab086387`.
+A second exact public-data and Pages build reproduced both trees. Nine of ten
+Batch 495 citation destinations returned a successful HTTP status: eight HTTP
+200 and one HTTP 202. Legacy returned HTTP 403 to the generic checker; the
+relevant obituary had already been reviewed through permitted browser access,
+and no restriction was bypassed. AFI initially returned HTTP 500 and succeeded
+on retry. No authenticated Catalog request was used. Five Library of Congress
+candidates were rejected in source context. Independent GitHub and deployed-
+site checks remain pending.
+
 ## Batch 494 release candidate
 
 All internal targets resolve across 24,522 HTML pages; 49,809 external URLs

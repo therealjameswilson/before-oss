@@ -4,6 +4,18 @@ Run: 2026-09-13 UTC
 
 ## Result
 
+Batch 495: the focused cohort suite passed all 15 checks across desktop,
+phone and tablet. It verifies ten immutable page 98 rows; masked or unprinted
+identifiers; the separate and qualified Chronicle last-civilian-employer
+claim for Charles Crisman; occupation-only findings for Dante Crifasi, James
+J Crisalli and Donald Crisp; rejected namesake conflicts; and six unresolved
+or ambiguous profiles. The separate axe route suite passed 27/27 across the
+same three layouts in 2.0 minutes. Astro checked 119 source files with zero
+errors, warnings or hints and generated 24,523 HTML pages / 24,595 artifacts.
+A second exact build reproduced both public and production trees byte for
+byte. The complete historical browser matrix and independent GitHub checks
+were not rerun because this batch was neither pushed nor deployed.
+
 Batch 494: the focused cohort suite passed all 15 checks across desktop,
 phone and tablet. It verifies ten immutable page 98 rows; masked or unprinted
 identifiers; separate last-civilian, student and military relationships for
