@@ -4,6 +4,19 @@ Run: 2026-09-12 UTC
 
 ## Result
 
+Batch 482: the focused cohort suite passed all 18 checks across desktop,
+phone and tablet. It verifies ten immutable source rows and masked identifiers;
+four exact Army identities; Costa G Couvaras's separate immediate Army and
+last-civilian National Herald affiliations; Miguel Covarrubias's
+high-confidence identity, indeterminate personnel status and non-employment
+Vanity Fair relationship; the unchanged Charles Coussoule duplicate boundary;
+and archival routing for four unresolved profiles. The separate axe route
+suite passed 27/27 across the same three layouts. The production build reports
+106 Astro source files with zero errors, warnings or hints and generates
+24,506 HTML pages / 24,578 artifacts. A second exact build reproduced both
+public and production trees byte for byte. The complete historical browser
+matrix and independent GitHub checks were not rerun in this batch.
+
 Batch 481: the focused cohort suite passed all 18 checks across desktop,
 phone and tablet. It verifies ten immutable source rows and masked identifiers;
 Armand H Courtot's exact Army identity and student-status/employer distinction;
