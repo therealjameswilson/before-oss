@@ -4,6 +4,19 @@ Run: 2026-09-13 UTC
 
 ## Result
 
+Batch 487: the focused cohort suite passed all 18 checks across desktop,
+phone and tablet. It verifies ten immutable page 96 rows; masked or unprinted
+identifiers; Jean L Coyat's and Nicholas A Cozzone's qualified Army-entry
+occupations without employers; Hubert E Coyer's commissioned classification
+and distinct earlier military and teaching relationships; Terence A Coyne's
+separate immediate naval assignment and last civilian employer; and six
+unresolved profiles without speculative affiliations. The separate axe route
+suite passed 27/27 across the same three layouts in its clean isolated run.
+Astro checked 111 source files with zero errors, warnings or hints and
+generated 24,513 HTML pages / 24,585 artifacts. A second exact build reproduced
+both public and production trees byte for byte. The complete historical browser
+matrix and independent GitHub checks were not rerun in this batch.
+
 Batch 486: the focused cohort suite passed all 15 checks across desktop,
 phone and tablet. It verifies ten immutable page 96 rows; Russell C Cox's
 qualified student relationship without an employer; Henry B Coxe's separate

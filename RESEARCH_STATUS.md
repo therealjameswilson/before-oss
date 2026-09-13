@@ -2,6 +2,23 @@
 
 Verified against the current local SQLite database on 2026-09-13 UTC.
 
+Batch 487 is a validated local release candidate. It adds ten saved outcomes
+across personnel-index PDF page 96 rows 34-43, Jean L Coyat through Lillian E
+Crabbe, all in Box 151. Exact private-identifier Army matches support qualified
+Army-entry occupations for Jean L Coyat and Nicholas A Cozzone without
+inventing employers. Institutional, official-state and directory evidence
+supports high-confidence commissioned officer Hubert E Coyer and his earlier
+military and teaching chronology. A NARA personnel-file-based account confirms
+Terence A Coyne's immediate naval assignment, last civilian employer and two
+earlier federal roles. Six people remain unresolved and routed for archival
+review. All 94 Python tests, 18 focused cross-viewport checks, 27 isolated axe
+checks, profile, link and identifier audits, and two byte-identical 24,513-page
+Pages builds pass locally. Exact coverage is 4,639 / 23,940 researched, 532
+verified affiliations, 236 verified employers, 4,594 archival dispositions
+assessed and 19,301 `not_started`. Batch 487 is not pushed or deployed. See
+`reports/release_batch_487.md` and
+`research/batch-487-discovery-checkpoint.md`.
+
 Batch 486 is a validated local release candidate. It adds ten saved outcomes
 across personnel-index PDF page 96 rows 24-33, Marjorie L Cox through Maryette
 A Coxe, all in Box 150. Russell C Cox has an exact private-identifier Army

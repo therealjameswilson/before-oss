@@ -2,6 +2,24 @@
 
 Run: 2026-09-13 UTC
 
+## Batch 487 release candidate
+
+All internal targets resolve across 24,513 HTML pages; 49,785 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,585 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,095
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 89,391,578 bytes at
+SHA-256 `63ad61689f5a5d7255522ee4985937701b981eddc83ae069178931d6ea7cf895`.
+The 70-file public-tree digest is
+`34ae474c421ff66d4dd70060545c93dfa1f7b576942ba99ddace3faef32b41b0`;
+the 24,585-file production-tree digest is
+`302bd8e835709944cc1bf8412af9d76f7d1e3a4346dc19eeaed63c688773daf7`.
+A second exact public-data and Pages build reproduced both trees. No
+authenticated Catalog request was used. Two Library of Congress candidates,
+the official Army merged file and code lists, Hubert E Coyer's military and
+directory sources, and the NARA Terence Coyne account were reviewed in context;
+independent GitHub and deployed-site checks remain pending.
+
 ## Batch 486 release candidate
 
 All internal targets resolve across 24,508 HTML pages; 49,776 external URLs
