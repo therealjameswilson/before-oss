@@ -2,6 +2,26 @@
 
 Run: 2026-09-13 UTC
 
+## Batch 504 release candidate
+
+All internal targets resolve across 24,543 HTML pages; 49,863 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,615 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,098
+candidate substring coincidences, with zero unexpected matches. The public
+manifest has 67 assets / 90,748,730 bytes at SHA-256
+`8bf27ef5a0707c27439e5330d9da3a73242912c794f72981c9cd6d84dffaddf0`.
+The 70-file public-tree digest is
+`7b6b6f6ddfe665d7fd0ea71ca6f77259955364464cfbacd98270305e94504cc8`;
+the 24,615-file production-tree digest is
+`c1a61393f796c9f5e340c8fb216ad4cac5def02dfd096fe088f1912bfcb47ee2`.
+A second exact public-data and Pages build reproduced both trees. The seven
+Batch 504 citation destinations were inspected during research: the source
+index, Army Catalog and documentation, official code list, direct CIA wartime
+plan and two Foreign Service Journal issues. No authenticated Catalog request
+was used. Ten CIA and ten Library of Congress checks completed; two LoC
+candidates were rejected from official page context. Independent GitHub and
+deployed-site checks remain pending.
+
 ## Batch 503 release candidate
 
 All internal targets resolve across 24,543 HTML pages; 49,861 external URLs

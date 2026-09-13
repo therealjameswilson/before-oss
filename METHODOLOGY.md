@@ -111,7 +111,8 @@ Each chart deduplicates person entities within a group and publishes its exact
 counted-person identifiers, denominator, confidence rule, and research coverage.
 People may appear in multiple groups, so group counts are not additive. Academic
 employment and student status are separate groups. Geography and sectors count
-civilian employment/self-employment, not military units or universities attended.
+civilian employment at a named organization or self-employment, not unnamed
+occupation-only findings, military units, or universities attended.
 The chart exports are regenerated from SQLite, not maintained as a second
 authoritative database.
 

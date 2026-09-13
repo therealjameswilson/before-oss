@@ -4,6 +4,21 @@ Run: 2026-09-13 UTC
 
 ## Result
 
+Batch 504: the focused cohort suite passed all 18 checks across desktop,
+phone and tablet. It verifies ten immutable page 100 rows; masked or unprinted
+identifiers; Walter Cuddy's and Mario Cugia's confirmed enlisted identities
+with occupations kept distinct from employers; Frederick P Culbert's
+qualified Foreign Service pathway, city conflict, earlier Navy service and
+unnamed business history; two ambiguous identities; five unresolved profiles;
+and both rejected Library of Congress token/name collisions. The bounded core
+suite passed 42/42 across the same viewports. The axe route suite passed 27/27
+in 1.5 minutes. Astro checked 128 source files with zero errors, warnings or
+hints and generated 24,543 HTML pages / 24,615 artifacts. A second exact
+public-data and Pages build reproduced both trees byte for byte. An accidental
+full historical-matrix run was deliberately stopped after 112 passes; its
+interrupted case is not counted. Independent GitHub checks were not run because
+this batch was neither pushed nor deployed.
+
 Batch 503: the focused cohort suite passed all 21 checks across desktop,
 phone and tablet. It verifies ten immutable page 100 rows; masked or unprinted
 identifiers; six confirmed enlisted identities; qualified occupations and

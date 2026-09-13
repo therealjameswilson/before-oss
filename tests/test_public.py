@@ -180,6 +180,7 @@ class PublicProjectionTests(unittest.TestCase):
                         "claim_confidence": "confirmed",
                         "publication_status": "published",
                         "relationship_type": "employment",
+                        "organization_name_as_found": "Named Company",
                     }
                 ],
                 "other_pre_oss_affiliations": [],
@@ -195,9 +196,21 @@ class PublicProjectionTests(unittest.TestCase):
                     }
                 ],
             },
+            {
+                "immediate_pre_oss_affiliations": [],
+                "last_civilian_pre_service": [],
+                "other_pre_oss_affiliations": [
+                    {
+                        "claim_confidence": "high",
+                        "publication_status": "publish_qualified",
+                        "relationship_type": "employment",
+                        "organization_name_as_found": None,
+                    }
+                ],
+            },
         ]
         self._add_verified_assessments(profiles)
-        self.assertEqual(verified_affiliation_person_count(profiles), 3)
+        self.assertEqual(verified_affiliation_person_count(profiles), 4)
         self.assertEqual(verified_employer_person_count(profiles), 2)
 
     def test_organization_projection_links_people_and_affiliation_citations(

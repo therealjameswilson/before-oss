@@ -32,6 +32,22 @@ def eligible_affiliation(profile: dict, item: dict) -> bool:
     )
 
 
+def identified_employer_affiliation(item: dict) -> bool:
+    """Return true only for self-employment or employment with a named employer.
+
+    A source can document that someone was employed, or call them a business
+    executive, without identifying the organization. That is a useful
+    affiliation finding but not a verified-employer finding.
+    """
+    relationship = item.get('relationship_type')
+    if relationship == 'self_employment':
+        return True
+    return relationship == 'employment' and bool(
+        item.get('organization_id')
+        or str(item.get('organization_name_as_found') or '').strip()
+    )
+
+
 def profile_affiliations(profile: dict) -> list[dict]:
     # One affiliation can appear in both immediate and last-civilian fields.
     unique = {}
@@ -76,7 +92,7 @@ def build_analytics(profiles: list[dict], organizations: list[dict], stats: dict
             label = name or ('Self-employment' if a['relationship_type'] == 'self_employment'
                              else 'Organization not identified')
             key = oid or label
-            employment = a['relationship_type'] in {'employment', 'self_employment'}
+            employment = identified_employer_affiliation(a)
             immediate = a.get('immediate_pre_oss') and a['temporal_basis'] in {
                 'explicit_immediate', 'strongly_date_bounded'}
             if immediate:

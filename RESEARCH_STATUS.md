@@ -2,6 +2,28 @@
 
 Verified against the current local SQLite database on 2026-09-13 UTC.
 
+Batch 504 is a validated local release candidate. It adds ten saved outcomes
+for personnel-index PDF page 100 rows 20-29, Walter M Cuddy Jr. through Jane
+Culbertson, crossing from Box 157 to Box 158. Exact private identifiers confirm
+Walter Cuddy and Mario Cugia as enlisted Army personnel and support only
+qualified printing occupations, never invented employers. Direct wartime and
+Foreign Service sources support a high-confidence Frederick P Culbert pathway
+from a State Department vice-consul/control-officer assignment into
+GYMNAST/Western Task Force work; conflicting Casablanca and Dakar locations
+remain visible, his earlier Navy service is separate, and an unnamed business-
+executive history is not counted as an employer. Frank Cuellar and Rodolfo
+Cueva remain ambiguous; five other profiles remain unresolved. Two LoC false
+matches are durably rejected after page-context review, and ten CIA checks
+returned no candidates. Employer analytics now require a named organization
+for employment relationships, correcting the verified-employer total from 244
+to 243. All 94 Python tests, 18 focused cross-viewport checks, 42 bounded core
+checks, 27 axe cases, profile, link, dependency and identifier audits pass;
+two 24,543-page builds are byte-identical. Exact coverage is 4,808 / 23,940
+researched, 548 verified affiliations, 243 verified employers, 4,763 archival
+dispositions assessed and 19,132 `not_started`. Batch 504 is not pushed or
+deployed. See `reports/release_batch_504.md` and
+`research/batch-504-discovery-checkpoint.md`.
+
 Batch 503 is a validated local release candidate. It adds ten saved outcomes
 for personnel-index PDF page 100 rows 10-19, Malcolm A Crusius through Michael
 A Cucinotta, all in Box 157. Six exact private identifiers confirm enlisted
