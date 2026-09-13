@@ -2,6 +2,26 @@
 
 Run: 2026-09-13 UTC
 
+## Batch 502 release candidate
+
+All internal targets resolve across 24,541 HTML pages; 49,857 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,613 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,101
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 90,589,880 bytes at
+SHA-256 `63d92e41cb75e3bf72f461886bd1276c058d996122e4cf3b541f0abdca40729c`.
+The 70-file public-tree digest is
+`4f3a8419f482b3d15d8b446d83e5493397740359c854bb17595d047e4d5898af`;
+the 24,613-file production-tree digest is
+`0e65d697e261a21fa8933c0a06200903b37f26bfc20fd2ae13b4215621ba272d`.
+A second exact public-data and Pages build reproduced both trees. The seven
+Batch 502 citation destinations were inspected during research: the source
+index, Army Catalog and documentation, PA-Roots cemetery transcription,
+Chinese University of Hong Kong contributor note and official EXIM history.
+No authenticated Catalog request was used. Ten CIA checks returned no
+candidates; seven Library of Congress candidates were rejected from official
+OCR context. Independent GitHub and deployed-site checks remain pending.
+
 ## Batch 501 release candidate
 
 All internal targets resolve across 24,540 HTML pages; 49,854 external URLs

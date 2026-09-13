@@ -4,6 +4,21 @@ Run: 2026-09-13 UTC
 
 ## Result
 
+Batch 502: the focused cohort suite passed all 21 checks across desktop,
+phone and tablet. It verifies ten immutable rows across pages 99-100; masked
+or unprinted identifiers; Robert Crowley's printed commissioned status with
+two enlisted namesakes withheld; John Croze's confirmed identity without an
+invented occupation; Scott Crull's qualified occupation without an employer;
+James Crump's probable Army-training pathway without calling Harvard an
+employer; and six unresolved or ambiguous profiles without public candidate
+claims. One initial test-only label mismatch was corrected without changing
+evidence or site behavior. The bounded core suite passed 30/30 across the same
+viewports. The axe route suite passed 27/27 in 1.5 minutes. Astro checked 126
+source files with zero errors, warnings or hints and generated 24,541 HTML
+pages / 24,613 artifacts. A second exact public-data and Pages build reproduced
+both trees byte for byte. Independent GitHub checks were not run because this
+batch was neither pushed nor deployed.
+
 Batch 501: the focused cohort suite passed all 21 checks across desktop,
 phone and tablet. It verifies ten immutable page 99 rows; masked or unprinted
 identifiers; Sherman Crough's Dartmouth student pathway without calling it

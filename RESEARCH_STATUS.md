@@ -2,6 +2,27 @@
 
 Verified against the current local SQLite database on 2026-09-13 UTC.
 
+Batch 502 is a validated local release candidate. It adds ten saved outcomes
+across personnel-index PDF page 99 row 46 and page 100 rows 1-9, Harriet
+Crowley through Nancy W Cruse, all in Box 157. Exact private identifiers
+confirm John R Croze and Scott L Crull as enlisted Army personnel; John has no
+promoted occupation, while Scott's broad warehousing/material-handling
+category is qualified and names no employer. An institutional source supports
+a probable James Irving Crump Jr. identity and wartime Army Chinese-
+interpreter training at Harvard, modeled as military training rather than
+employment and not claimed as immediately pre-OSS. Robert D Crowley's printed
+captain status remains intact while two enlisted namesakes are rejected; the
+prominent Leo T Crowley is not conflated with Leo F Crowley. Six profiles
+remain unresolved and two ambiguous, all with Box 157 guidance. Seven Library
+of Congress candidates were rejected from official OCR context. All 94 Python
+tests, 21 focused cross-viewport checks, 30 bounded core checks, 27 axe cases,
+profile, link, dependency and identifier audits pass; two 24,541-page builds
+are byte-identical. Exact coverage is 4,788 / 23,940 researched, 547 verified
+affiliations, 244 verified employers, 4,743 archival dispositions assessed and
+19,152 `not_started`. Batch 502 is not pushed or deployed. See
+`reports/release_batch_502.md` and
+`research/batch-502-discovery-checkpoint.md`.
+
 Batch 501 is a validated local release candidate. It adds ten saved outcomes
 for personnel-index PDF page 99 rows 36-45, Sherman J Crough through Anne T
 Crowley, across Boxes 156 and 157. Sherman is a confirmed enlisted identity

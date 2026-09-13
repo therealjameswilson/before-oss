@@ -1,6 +1,6 @@
 # Entity-resolution QA
 
-Generated: 2026-09-13T19:19:04+00:00
+Generated: 2026-09-13T20:00:09+00:00
 
 - Source rows: **23,978**.
 - Cautious person entities: **23,940**.
@@ -9,12 +9,12 @@ Generated: 2026-09-13T19:19:04+00:00
 - Narrow automatic same-name/same-service-number groups: **35**.
 - Possible duplicate groups: **241**.
 - Same-service-number/different-name groups: **164**.
-- Entities requiring manual review: **23,274**.
+- Entities requiring manual review: **23,272**.
 
 ## Checks
 
 - PASS - `all_source_rows_linked`
 - PASS - `no_name_only_automatic_merges`
-- PASS - `all_duplicate_groups_require_review`
+- FAIL - `all_duplicate_groups_require_review`
 
 Exact normalized names alone never trigger an automatic merge. Identical printed service numbers attached to different names remain separate review candidates.
