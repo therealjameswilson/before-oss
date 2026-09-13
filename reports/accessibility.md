@@ -4,6 +4,18 @@ Run: 2026-09-12 UTC
 
 ## Result
 
+Batch 481: the focused cohort suite passed all 18 checks across desktop,
+phone and tablet. It verifies ten immutable source rows and masked identifiers;
+Armand H Courtot's exact Army identity and student-status/employer distinction;
+the two separate William S Cousins entities in one review group; the unchanged
+Canby Courtlandt transposition; and archival routing for six unresolved
+profiles. The separate axe route suite passed 27/27 across the same three
+layouts. The production build reports 105 Astro source files with zero errors,
+warnings or hints and generates 24,503 HTML pages / 24,575 artifacts. A second
+exact build reproduced both public and production trees byte for byte. The
+complete historical browser matrix and independent GitHub checks were not
+rerun in this batch.
+
 Batch 480: the focused cohort suite passed all 18 checks across desktop,
 phone and tablet. It verifies ten immutable source rows and masked identifiers;
 four exact Army-record identities; the qualified Countouris-Kountouris match;
