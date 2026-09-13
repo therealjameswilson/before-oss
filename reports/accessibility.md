@@ -4,6 +4,28 @@ Run: 2026-09-13 UTC
 
 ## Result
 
+Batch 499: the focused cohort suite passed all 21 checks across desktop,
+phone and tablet. It verifies ten immutable page 99 rows; masked or unprinted
+identifiers; Compton Crook's separate Yellowstone and Towson pathways and
+visible 1939-versus-1940s chronology conflict; two qualified Army-entry
+occupations without named employers; Rene Cros's French archival-dossier
+identity without invented employment; Margaret Crosby's Agora fellowship as
+professional affiliation rather than employment; and five ambiguous or
+unresolved profiles. The focused core-site suite passed 24/24 across the same
+viewports, covering search, officer filtering, direct routes, citations,
+organization pages, analysis and downloads. The separate axe route suite
+passed 27/27 across the same layouts in 1.9 minutes. Astro checked 123 source
+files with zero errors, warnings or hints and generated 24,533 HTML pages /
+24,605 artifacts. A second exact build reproduced both public and production
+trees byte for byte.
+
+The accumulated 3,000-case historical matrix was not completed locally. Its
+default 4 GB Node process exhausted the heap during test discovery. A 12 GB
+rerun passed 122 cases without an assertion failure before it was deliberately
+stopped; the 21 new cohort cases, 24 core-site cases and 27 accessibility cases
+were then run to completion. Independent GitHub checks were not run because
+this batch was neither pushed nor deployed.
+
 Batch 498: the focused cohort suite passed all 18 checks across desktop,
 phone and tablet. It verifies ten immutable page 99 rows; masked or unprinted
 identifiers; Raymond Cromley's separate last-civilian and earlier-employer

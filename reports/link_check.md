@@ -2,6 +2,26 @@
 
 Run: 2026-09-13 UTC
 
+## Batch 499 release candidate
+
+All internal targets resolve across 24,533 HTML pages; 49,842 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,605 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,095
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 90,325,499 bytes at
+SHA-256 `3542132ff0f457b9da70709ec0dafa557d4c6c1c0b80ba0793ae968f10e0dff3`.
+The 70-file public-tree digest is
+`39233424dbe584f036f7c64af5a47afdd59edeae9dec480d88e39691fc47cfa7`;
+the 24,605-file production-tree digest is
+`b3c8eb02ef0838fda4c0912390af092f506b094d1e70dcf404b61636a7446a00`.
+A second exact public-data and Pages build reproduced both trees. All ten
+Batch 499 citation destinations returned HTTP 200 to the generic checker: the
+source index, Army Catalog and documentation, Towson, Baltimore Science
+Fiction Society, French Service historique de la Défense, Bryn Mawr and two
+American School of Classical Studies sources. No authenticated Catalog request
+was used. Five Library of Congress candidates were reviewed in context and
+rejected. Independent GitHub and deployed-site checks remain pending.
+
 ## Batch 498 release candidate
 
 All internal targets resolve across 24,530 HTML pages; 49,834 external URLs
