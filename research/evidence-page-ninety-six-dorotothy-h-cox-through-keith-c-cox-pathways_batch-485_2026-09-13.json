@@ -1,0 +1,869 @@
+{
+  "bundle_version": "before-oss-reviewed-evidence-v1",
+  "reviewer": "Before OSS research pipeline",
+  "sources": [
+    {
+      "key": "index-b485",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; complete PDF page 96 rows 14-23 visually inspected; Box 150; location 230/86/29/03",
+      "access_date": "2026-09-13",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Citation and project-authored assessments only. Full private identifiers are not published. The printed spelling Dorotothy is preserved."
+    },
+    {
+      "key": "army-b485",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official ASNEF.FIN.DAT; complete transient scan of 9,200,232 fixed-width records; four exact-private-identifier matches and all exact-name candidates adjudicated",
+      "access_date": "2026-09-13",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full private identifier is retained. The incomplete file is not a comprehensive OSS, officer, Navy, women's-service, or foreign roster; a non-hit is not negative proof."
+    },
+    {
+      "key": "basic-b485",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; fixed-width identifier, name, Army-entry-date, grade, branch, component, education, and civilian-occupation fields checked",
+      "access_date": "2026-09-13",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields and documented coverage limits."
+    },
+    {
+      "key": "codes-b485",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Code Lists",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 171-172; civilian occupation codes 0-43, 2-40, 3-16 and 3-06 visually inspected",
+      "access_date": "2026-09-13",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Official broad occupation labels are preserved while employer, workplace, exact trade, and unsupported temporal relationships are not inferred."
+    },
+    {
+      "key": "nara-entry215-dorothy-cox-b485",
+      "stable_url": "https://www.archives.gov/iwg/declassified-records/rg-226-oss/entry-215.html",
+      "archival_identifier": "RG 226 Entry 215, Box 2, WN#25887",
+      "title": "Records of the Office of Strategic Services (RG 226): Entry 215",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "Record dated 1944-01-08; online finding aid reviewed 2026-09-13",
+      "locator": "Entry 215, Box 2, location 250/64/33/3; letter from William J. Donovan concerning Miss Dorothy Cox and Greek-island relief; WN#25887",
+      "access_date": "2026-09-13",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "document_number": "WN#25887",
+      "rights_notes": "The finding-aid description supplies wartime OSS context. War Relief Association activity in January 1944 is not presented as a pre-OSS affiliation."
+    },
+    {
+      "key": "bryn-mawr-dorothy-cox-b485",
+      "stable_url": "https://www.brynmawr.edu/bulletin/perfect-spy",
+      "title": "The Perfect Spy",
+      "author_creator": "Nancy Brokaw",
+      "repository_publisher": "Bryn Mawr College Alumnae Bulletin",
+      "publication_record_date": "2019-05-20",
+      "locator": "Biography of Dorothy Cox, Class of 1914; archaeological occupations, wartime recruitment, languages, OSS training, Turkey reporting, and Cairo work",
+      "access_date": "2026-09-13",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Bryn Mawr Alumnae Bulletin",
+      "rights_notes": "Institutional biography used for identity and occupational chronology. Public excerpts remain under 25 words."
+    },
+    {
+      "key": "trowelblazers-dorothy-cox-b485",
+      "stable_url": "https://trowelblazers.com/2021/08/05/dorothy-hannah-cox/",
+      "title": "Dorothy Hannah Cox",
+      "author_creator": "Sara Duckworth",
+      "repository_publisher": "TrowelBlazers; UCL TrowelBlazers Digital Fieldwork Project",
+      "publication_record_date": "2021-08-05",
+      "locator": "Biographical article: Dorothy Hannah Cox, Bryn Mawr 1914, archaeologist and numismatist; architect and trench supervisor with Hetty Goldman, including Tarsus, 1934-1939",
+      "access_date": "2026-09-13",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "TrowelBlazers biographies",
+      "rights_notes": "Corroborative biography with institutional archive acknowledgments. It is not used alone to settle identity or an employer."
+    },
+    {
+      "key": "museum-john-h-cox-ivor-b485",
+      "stable_url": "https://www.museedelaresistanceenligne.org/musee/pageDoc/pageDoc.php?id_expo=2&id_media=419&id_sstheme=118&id_stheme=33&id_theme=7",
+      "title": "AERI",
+      "author_creator": "Pierre Balliot; Bertrand Souquet, Association des anciens Jedburghs",
+      "repository_publisher": "Musée de la Résistance en ligne",
+      "publication_record_date": "Photograph described as 1944-08-06; page reviewed 2026-09-13",
+      "locator": "Photograph description for Team IVOR at Harrington airfield; British Captain John H Cox identified as team leader before the 7 August 1944 drop",
+      "access_date": "2026-09-13",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Musée de la Résistance en ligne",
+      "rights_notes": "Retained only as a low-confidence namesake candidate. No indexed identifier, rank, nationality note, or Box 150 bridge links this British captain to the common-name index row."
+    },
+    {
+      "key": "nara-oss-records-overview-b485",
+      "stable_url": "https://www.archives.gov/research/military/ww2/oss",
+      "title": "OSS Records",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "Page last reviewed 2021-02-03",
+      "locator": "About the Records; NARA states that the OSS was terminated by Executive Order on 20 September 1945",
+      "access_date": "2026-09-13",
+      "source_quality": "A_direct_official",
+      "collection_name": "National Archives research guides",
+      "rights_notes": "Used only to establish that Keith C Cox's 11 October 1945 Army-entry record is later than the OSS termination date stated by NARA."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "dorothy-hannah-cox-archaeology-occupation-b485",
+      "person_id": "ffe64213-43bc-5b76-9577-4a45298443ce",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Excavation architect and numismatist",
+      "occupation": "Archaeologist, excavation architect, and numismatist",
+      "relationship_type": "unknown",
+      "end_date": "1939",
+      "date_precision": "Bryn Mawr describes Cox as a twenty-year excavation veteran recruited for wartime intelligence. TrowelBlazers specifically dates her architect and trench-supervisor work at Tarsus to 1934-1939; no employer or exact OSS start date is stated.",
+      "country": "Turkey",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "This is the best-supported pre-OSS occupation, not a named employer. The dated Tarsus role ends in 1939 and a gap before wartime recruitment remains."
+    },
+    {
+      "key": "edward-n-cox-decorator-occupation-b485",
+      "person_id": "e6db7e50-ba1d-5aae-93c4-9983d9e725bb",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "occupation": "Decorator or window dresser",
+      "relationship_type": "unknown",
+      "end_date": "1942-03-16",
+      "date_precision": "The official Army-entry record carries civilian occupation code 043 on 16 March 1942. No employer, workplace, exact specialty, or OSS transfer date is identified.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier and name confirm identity. The occupational category does not establish a named employer."
+    },
+    {
+      "key": "fred-e-cox-recreation-attendant-occupation-b485",
+      "person_id": "29788de7-9cce-5300-bbad-40fd4cfcc243",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "occupation": "Recreation or amusement attendant, not elsewhere classified",
+      "relationship_type": "unknown",
+      "end_date": "1942-11-20",
+      "date_precision": "The official Army-entry record carries civilian occupation code 240 on 20 November 1942. No employer, venue, exact job, or OSS transfer date is identified.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier and name confirm identity. The grade field is damaged and is not quoted. The occupational category does not establish an employer."
+    },
+    {
+      "key": "johnie-l-cox-general-farm-hand-occupation-b485",
+      "person_id": "5f9352e6-3dd4-5f38-a791-879a884281b4",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "occupation": "Farm hand, general farm",
+      "relationship_type": "unknown",
+      "end_date": "1942-04-15",
+      "date_precision": "The official Army-entry record carries civilian occupation code 316 on 15 April 1942. No employer, farm, location, or OSS transfer date is identified.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier and name confirm identity. The occupational category does not establish a named employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-dorothy-hannah-cox-b485",
+      "person_id": "ffe64213-43bc-5b76-9577-4a45298443ce",
+      "claim_type": "identity",
+      "claim_text": "The indexed Dorotothy H Cox is identified with high confidence as archaeologist Dorothy Hannah Cox; the apparent repeated syllable is preserved as the index spelling.",
+      "evidence_excerpt": "Dorothy Cox (Class of 1914)",
+      "evidence_paraphrase": "Bryn Mawr identifies Dorothy Cox as a multilingual archaeologist recruited for wartime intelligence, while NARA independently describes Donovan's 1944 letter concerning Dorothy Cox's Greek relief work.",
+      "identity_match_assessment": "High-confidence match based on the unusual indexed given name with H initial, compatible Dorothy Hannah expansion, Bryn Mawr education, archaeological occupation, Turkish and Greek expertise, and direct OSS and Greek-relief context across independent institutional and official sources.",
+      "temporal_assessment": "The institutional biography describes the transition from archaeology into wartime intelligence; NARA's official record is dated 8 January 1944. The exact OSS start date remains unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No source directly states that the printed Dorotothy spelling is an error, so it remains the indexed display name. Dorothy and Dorothy Hannah are documented variants, not silent corrections.",
+      "sources": [
+        {
+          "source_key": "index-b485",
+          "support_type": "supports",
+          "locator_override": "PDF page 96, row 14; Box 150",
+          "excerpt_override": "COX DOROTOTHY H"
+        },
+        {
+          "source_key": "nara-entry215-dorothy-cox-b485",
+          "support_type": "supports",
+          "locator_override": "Entry 215, Box 2, WN#25887; finding-aid description of 8 January 1944 letter",
+          "excerpt_override": "Miss Dorothy Cox of the War Relief Association"
+        },
+        {
+          "source_key": "bryn-mawr-dorothy-cox-b485",
+          "support_type": "supports",
+          "excerpt_override": "Dorothy Cox (Class of 1914)"
+        },
+        {
+          "source_key": "trowelblazers-dorothy-cox-b485",
+          "support_type": "supports",
+          "excerpt_override": "Dorothy Hannah Cox"
+        }
+      ]
+    },
+    {
+      "key": "occupation-dorothy-hannah-cox-b485",
+      "person_id": "ffe64213-43bc-5b76-9577-4a45298443ce",
+      "affiliation_key": "dorothy-hannah-cox-archaeology-occupation-b485",
+      "claim_type": "occupation",
+      "claim_text": "The best-supported pre-OSS occupation for Dorothy Hannah Cox is archaeologist, specifically excavation architect and numismatist; no employer has been established.",
+      "evidence_excerpt": "excavation architect and numismatist",
+      "evidence_paraphrase": "Bryn Mawr describes Cox as a twenty-year excavation veteran known as an excavation architect and numismatist before wartime recruitment; TrowelBlazers dates related Tarsus work through 1939.",
+      "identity_match_assessment": "High-confidence identity based on the combined index, NARA, and Bryn Mawr evidence described in the linked identity claim.",
+      "temporal_assessment": "Probable immediate pre-OSS occupation: the institutional account narratively connects her archaeological career to wartime recruitment, but the last specifically dated excavation ends in 1939 and the precise recruitment date is unstated.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employing organization is named. The War Relief Association appears in a January 1944 wartime record and is not recast as a pre-OSS employer.",
+      "sources": [
+        {
+          "source_key": "bryn-mawr-dorothy-cox-b485",
+          "support_type": "supports",
+          "excerpt_override": "excavation architect and numismatist"
+        },
+        {
+          "source_key": "trowelblazers-dorothy-cox-b485",
+          "support_type": "supports",
+          "locator_override": "Tarsus paragraph; architect and trench-supervisor work dated 1934-1939",
+          "excerpt_override": "then at Tarsus, in Turkey (1934-1939)"
+        },
+        {
+          "source_key": "nara-entry215-dorothy-cox-b485",
+          "support_type": "context_only",
+          "locator_override": "Entry 215, Box 2, WN#25887; wartime context only"
+        }
+      ]
+    },
+    {
+      "key": "identity-edward-n-cox-b485",
+      "person_id": "e6db7e50-ba1d-5aae-93c4-9983d9e725bb",
+      "claim_type": "identity",
+      "claim_text": "The indexed Edward N Cox is confirmed as the Army entrant represented by the exact name and private identifier in the official merged file.",
+      "evidence_excerpt": "COX EDWARD N",
+      "evidence_paraphrase": "The exact full name and private identifier match across the OSS index and Army-entry file.",
+      "identity_match_assessment": "Confirmed by exact private identifier and exact normalized full name.",
+      "temporal_assessment": "The Army-entry record is dated 16 March 1942; the OSS transfer date is unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full private identifier remains private. Four newspaper namesakes and a second Army namesake were rejected.",
+      "sources": [
+        {
+          "source_key": "index-b485",
+          "support_type": "supports",
+          "locator_override": "PDF page 96, row 15; Box 150; identifier withheld",
+          "excerpt_override": "COX EDWARD N"
+        },
+        {
+          "source_key": "army-b485",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record dated 16 March 1942; private at entry; identifier withheld",
+          "excerpt_override": "COX EDWARD N"
+        },
+        {
+          "source_key": "basic-b485",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-edward-n-cox-b485",
+      "person_id": "e6db7e50-ba1d-5aae-93c4-9983d9e725bb",
+      "affiliation_key": "edward-n-cox-decorator-occupation-b485",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry, Edward N Cox was recorded in the decorators and window dressers occupational category.",
+      "evidence_excerpt": "0-43. Decorators and window dressers",
+      "evidence_paraphrase": "The matching Army row carries code 043, which the official NARA code list maps to decorators and window dressers.",
+      "identity_match_assessment": "Confirmed by exact private identifier and full indexed name.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on 16 March 1942; relation to OSS recruitment is unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, exact specialty, or immediate OSS predecessor is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b485",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 043; identifier withheld",
+          "excerpt_override": "COX EDWARD N"
+        },
+        {
+          "source_key": "basic-b485",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; civilian occupation and entry-date fields"
+        },
+        {
+          "source_key": "codes-b485",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 171; code 0-43",
+          "excerpt_override": "Decorators and window dressers"
+        }
+      ]
+    },
+    {
+      "key": "identity-fred-e-cox-b485",
+      "person_id": "29788de7-9cce-5300-bbad-40fd4cfcc243",
+      "claim_type": "identity",
+      "claim_text": "The indexed Fred E Cox is confirmed as the Army entrant represented by the exact name and private identifier in the official merged file.",
+      "evidence_excerpt": "COX FRED E",
+      "evidence_paraphrase": "The exact full name and private identifier match across the OSS index and Army-entry file.",
+      "identity_match_assessment": "Confirmed by exact private identifier and exact normalized full name.",
+      "temporal_assessment": "The Army-entry record is dated 20 November 1942; the OSS transfer date is unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full private identifier remains private. The grade field is damaged and is not quoted or expanded. Five other exact-name Army rows were rejected.",
+      "sources": [
+        {
+          "source_key": "index-b485",
+          "support_type": "supports",
+          "locator_override": "PDF page 96, row 17; Box 150; identifier withheld",
+          "excerpt_override": "COX FRED E"
+        },
+        {
+          "source_key": "army-b485",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record dated 20 November 1942; damaged grade field; identifier withheld",
+          "excerpt_override": "COX FRED E"
+        },
+        {
+          "source_key": "basic-b485",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-fred-e-cox-b485",
+      "person_id": "29788de7-9cce-5300-bbad-40fd4cfcc243",
+      "affiliation_key": "fred-e-cox-recreation-attendant-occupation-b485",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry, Fred E Cox was recorded in the recreation and amusement attendants, not elsewhere classified, occupational category.",
+      "evidence_excerpt": "2-40. Attendants, recreation and amusement, n. e. c.",
+      "evidence_paraphrase": "The matching Army row carries code 240, which the official NARA code list maps to recreation and amusement attendants not elsewhere classified.",
+      "identity_match_assessment": "Confirmed by exact private identifier and full indexed name.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on 20 November 1942; relation to OSS recruitment is unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, venue, exact job, or immediate OSS predecessor is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b485",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 240; identifier withheld",
+          "excerpt_override": "COX FRED E"
+        },
+        {
+          "source_key": "basic-b485",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; civilian occupation and entry-date fields"
+        },
+        {
+          "source_key": "codes-b485",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 171; code 2-40",
+          "excerpt_override": "Attendants, recreation and amusement, n. e. c."
+        }
+      ]
+    },
+    {
+      "key": "identity-johnie-l-cox-b485",
+      "person_id": "5f9352e6-3dd4-5f38-a791-879a884281b4",
+      "claim_type": "identity",
+      "claim_text": "The indexed Johnie L Cox is confirmed as the Army entrant represented by the exact name and private identifier in the official merged file.",
+      "evidence_excerpt": "COX JOHNIE L",
+      "evidence_paraphrase": "The exact full name and private identifier match across the OSS index and Army-entry file.",
+      "identity_match_assessment": "Confirmed by exact private identifier and exact normalized full name.",
+      "temporal_assessment": "The Army-entry record is dated 15 April 1942; the OSS transfer date is unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full private identifier remains private. The printed Johnie spelling is preserved.",
+      "sources": [
+        {
+          "source_key": "index-b485",
+          "support_type": "supports",
+          "locator_override": "PDF page 96, row 22; Box 150; identifier withheld",
+          "excerpt_override": "COX JOHNIE L"
+        },
+        {
+          "source_key": "army-b485",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record dated 15 April 1942; private at entry; identifier withheld",
+          "excerpt_override": "COX JOHNIE L"
+        },
+        {
+          "source_key": "basic-b485",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-johnie-l-cox-b485",
+      "person_id": "5f9352e6-3dd4-5f38-a791-879a884281b4",
+      "affiliation_key": "johnie-l-cox-general-farm-hand-occupation-b485",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry, Johnie L Cox was recorded in the general-farm hands occupational category.",
+      "evidence_excerpt": "3-16. Farm hands, general farms",
+      "evidence_paraphrase": "The matching Army row carries code 316, which the official NARA code list maps to farm hands on general farms.",
+      "identity_match_assessment": "Confirmed by exact private identifier and full indexed name.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on 15 April 1942; relation to OSS recruitment is unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, farm, location, or immediate OSS predecessor is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b485",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 316; identifier withheld",
+          "excerpt_override": "COX JOHNIE L"
+        },
+        {
+          "source_key": "basic-b485",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; civilian occupation and entry-date fields"
+        },
+        {
+          "source_key": "codes-b485",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 172; code 3-16",
+          "excerpt_override": "Farm hands, general farms"
+        }
+      ]
+    },
+    {
+      "key": "identity-keith-c-cox-b485",
+      "person_id": "3f83f39a-9e81-52b8-8ba4-7eda1cfdc3ef",
+      "claim_type": "identity",
+      "claim_text": "The indexed Keith C Cox is confirmed as the Army entrant represented by the exact name and private identifier in the official merged file.",
+      "evidence_excerpt": "COX KEITH C",
+      "evidence_paraphrase": "The exact full name and private identifier match across the OSS index and Army-entry file.",
+      "identity_match_assessment": "Confirmed by exact private identifier and exact normalized full name.",
+      "temporal_assessment": "The Army-entry record is dated 11 October 1945, after NARA's documented 20 September 1945 OSS termination; it cannot establish a pre-OSS occupation or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full private identifier remains private. Occupation code 306 is deliberately not modeled because this record is post-OSS for temporal purposes. One additional exact-name Army row was rejected.",
+      "sources": [
+        {
+          "source_key": "index-b485",
+          "support_type": "supports",
+          "locator_override": "PDF page 96, row 23; Box 150; identifier withheld",
+          "excerpt_override": "COX KEITH C"
+        },
+        {
+          "source_key": "army-b485",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record dated 11 October 1945; private at entry; identifier withheld",
+          "excerpt_override": "COX KEITH C"
+        },
+        {
+          "source_key": "basic-b485",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "nara-oss-records-overview-b485",
+          "support_type": "supports",
+          "locator_override": "About the Records; OSS termination date",
+          "excerpt_override": "terminated on September 20, 1945, by Executive Order"
+        }
+      ]
+    },
+    {
+      "key": "candidate-identity-john-h-cox-team-ivor-b485",
+      "person_id": "5f1c5f46-5937-5595-bf3b-75c99e7231d9",
+      "claim_type": "identity",
+      "claim_text": "A British Captain John H Cox led Jedburgh Team IVOR in August 1944, but accessible evidence does not establish that he is the indexed John H Cox.",
+      "evidence_excerpt": "capitaine John H COX",
+      "evidence_paraphrase": "A museum page identifies British Captain John H Cox as Team IVOR's leader before its 7 August 1944 deployment.",
+      "identity_match_assessment": "Ambiguous. The exact common name and wartime special-operations context are compatible, but the index row has no rank, serial number, British note, or other corroborating identifier.",
+      "temporal_assessment": "The candidate is documented on 6 August 1944, but the source does not establish a pre-OSS employer or predecessor affiliation and may describe a different person.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "Retained for archival adjudication only. It is not published as the identity or service history of the indexed person.",
+      "sources": [
+        {
+          "source_key": "museum-john-h-cox-ivor-b485",
+          "support_type": "supports",
+          "excerpt_override": "capitaine John H COX"
+        },
+        {
+          "source_key": "index-b485",
+          "support_type": "context_only",
+          "locator_override": "PDF page 96, row 21; Box 150; no rank or identifier"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "ffe64213-43bc-5b76-9577-4a45298443ce",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The visually checked index records the unusual Dorotothy H Cox form. Bryn Mawr identifies Dorothy Cox, Class of 1914, as an archaeologist recruited for wartime intelligence; TrowelBlazers supplies the full name Dorothy Hannah Cox; NARA independently describes Donovan's 1944 letter about Dorothy Cox's Greek relief work.",
+      "name_variants": [
+        "Dorotothy H Cox",
+        "Dorothy H Cox",
+        "Dorothy H. Cox",
+        "Dorothy Hannah Cox",
+        "Cox, Dorothy Hannah"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 150 for the exact recruitment date, employment arrangement, any intervening role after the 1939 Tarsus season, and a named last civilian employer. Do not recast her 1944 War Relief Association work as pre-OSS.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "e6db7e50-ba1d-5aae-93c4-9983d9e725bb",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked index and official Army merged file carry the exact Edward N Cox name and exact private identifier. The Army record dates entry as a private on 16 March 1942.",
+      "name_variants": ["Edward N Cox", "Edward N. Cox", "Cox, Edward N."],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 150 for the employer or workplace behind the decorator/window-dresser category and the OSS transfer chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a73a235b-1eaf-51c2-841f-c98edcaed688",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies only Evelyn L Cox and Box 150. The two newspaper candidates were OCR or family-context false positives, and no reliable identity bridge was found.",
+      "name_variants": ["Evelyn L Cox", "Evelyn L. Cox", "Cox, Evelyn L."],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 150 for full name, identifiers, personnel category, occupation, employer, and OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "29788de7-9cce-5300-bbad-40fd4cfcc243",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked index and official Army merged file carry the exact Fred E Cox name and exact private identifier. The record is dated 20 November 1942; its damaged grade field is not expanded.",
+      "name_variants": ["Fred E Cox", "Fred E. Cox", "Cox, Fred E."],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 150 for the employer, venue, exact job, grade, and OSS transfer chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "63981f0e-428e-5598-b03f-97b1b005b42f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies only Frederic S Cox and Box 150. Official-source, exact-name, employment, occupation, institutional, obituary, newspaper, and archival searches produced no reliable identity bridge.",
+      "name_variants": ["Frederic S Cox", "Frederic S. Cox", "Cox, Frederic S."],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 150 for full name, identifiers, personnel category, occupation, employer, and OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3e64597f-14f0-5166-bdcd-fb99fe49dfb7",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index identifier begins RA but is incomplete for exact linkage. One exact-name Army row and one Glenn C Cox newspaper result cannot be transferred without corroboration.",
+      "name_variants": ["Glenn L Cox", "Glenn L. Cox", "Cox, Glenn L."],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 150 for the complete RA identifier and corroborating identity, personnel-category, employer, and chronology evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2dc77266-ba3b-5c58-bae6-73ba1e6fbd61",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies only Jane M Cox and Box 150. The sole newspaper candidate is Jane R Cox with incompatible First World War context and no OSS bridge.",
+      "name_variants": ["Jane M Cox", "Jane M. Cox", "Cox, Jane M."],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 150 for full name, identifiers, personnel category, occupation, employer, and OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5f1c5f46-5937-5595-bf3b-75c99e7231d9",
+      "identity_status": "ambiguous",
+      "identity_evidence": "A museum source documents British Captain John H Cox leading Jedburgh Team IVOR, but the common-name index row lacks a rank, identifier, British note, or second corroborating attribute. Thirty-three Army namesakes and five newspaper candidates remain unusable.",
+      "name_variants": ["John H Cox", "John H. Cox", "Cox, John H."],
+      "replace_name_variants": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 150 for an identifier, rank, nationality, and OSS assignment; compare only then with British Captain John H Cox and Team IVOR records.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5f9352e6-3dd4-5f38-a791-879a884281b4",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked index and official Army merged file carry the exact Johnie L Cox spelling and exact private identifier. The Army record dates entry as a private on 15 April 1942.",
+      "name_variants": ["Johnie L Cox", "Johnie L. Cox", "Cox, Johnie L."],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 150 for the farm or employer, location, and OSS transfer chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3f83f39a-9e81-52b8-8ba4-7eda1cfdc3ef",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually checked index and official Army merged file carry the exact Keith C Cox name and exact private identifier. The matching Army record is dated 11 October 1945, after NARA's documented OSS termination date.",
+      "name_variants": ["Keith C Cox", "Keith C. Cox", "Cox, Keith C."],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 150 for pre-OSS identity, occupation, employer, and assignment chronology. Do not use the 11 October 1945 Army occupation as pre-OSS evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b485-dorotothy-h-cox",
+      "person_id": "ffe64213-43bc-5b76-9577-4a45298443ce",
+      "source_adapter": "reviewed_official_bulk_newspaper_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 96; complete Army exact-name comparison; CIA and current Library of Congress checks; Dorotothy, Dorothy, Dorothy H, and Dorothy Hannah variants; NARA Entry 215; Bryn Mawr and TrowelBlazers biographies; exact-name OSS, employer, occupation, archaeology, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_high_confidence_typographical_variant_occupation_only",
+      "started_at": "2026-09-13T03:20:00Z",
+      "completed_at": "2026-09-13T04:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "No accessible source named a pre-OSS employer or supplied an exact recruitment date. The wartime War Relief Association evidence was excluded from the pre-OSS affiliation field.",
+      "research_notes": "The printed Dorotothy spelling was visually confirmed and preserved. Dorothy Hannah Cox is a high-confidence documented variant, not a silent correction. Archaeology is qualified as an occupation, not an employer. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 150 for exact recruitment chronology and a named last civilian employer.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch485-v1"
+    },
+    {
+      "key": "b485-edward-n-cox",
+      "person_id": "e6db7e50-ba1d-5aae-93c4-9983d9e725bb",
+      "source_adapter": "reviewed_official_bulk_newspaper_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 96; complete Army exact-private-identifier and exact-name comparison; official Army technical documentation and code-list review; CIA and current Library of Congress checks; exact-name OSS, employer, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_exact_identifier_occupation_only",
+      "started_at": "2026-09-13T03:20:00Z",
+      "completed_at": "2026-09-13T04:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "A second exact-name Army row lacked the private-identifier match. Four newspaper candidates carried conflicting full or middle names and lacked an OSS or Box 150 bridge.",
+      "research_notes": "The private identifier confirms identity and is not published. Code 043 is qualified as an occupation category, not an employer. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 150 for the employer and OSS transfer chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch485-v1"
+    },
+    {
+      "key": "b485-evelyn-l-cox",
+      "person_id": "a73a235b-1eaf-51c2-841f-c98edcaed688",
+      "source_adapter": "reviewed_official_bulk_newspaper_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 96; complete Army exact-name comparison; CIA and current Library of Congress checks; exact-name OSS, employer, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_without_identifier",
+      "started_at": "2026-09-13T03:20:00Z",
+      "completed_at": "2026-09-13T04:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "One page was a birth notice involving other Cox family members; the other apparent match was an OCR split of Evelyn Wilcox.",
+      "research_notes": "No candidate attribute was transferred. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 150 for identity and pre-OSS chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch485-v1"
+    },
+    {
+      "key": "b485-fred-e-cox",
+      "person_id": "29788de7-9cce-5300-bbad-40fd4cfcc243",
+      "source_adapter": "reviewed_official_bulk_newspaper_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 96; complete Army exact-private-identifier and exact-name comparison; official Army technical documentation and code-list review; CIA and current Library of Congress checks; exact-name OSS, employer, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_exact_identifier_occupation_only_damaged_grade",
+      "started_at": "2026-09-13T03:20:00Z",
+      "completed_at": "2026-09-13T04:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Five other exact-name Army rows lack the private-identifier match. Directory and employer namesakes lacked corroborating identifiers or an OSS and Box 150 bridge.",
+      "research_notes": "The private identifier confirms identity and is not published. The damaged grade field is not expanded. Code 240 is qualified as an occupation category, not an employer. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 150 for employer, exact job, grade, and OSS chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch485-v1"
+    },
+    {
+      "key": "b485-frederic-s-cox",
+      "person_id": "63981f0e-428e-5598-b03f-97b1b005b42f",
+      "source_adapter": "reviewed_official_bulk_newspaper_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 96; complete Army exact-name comparison; CIA and current Library of Congress checks; Frederic and Frederick search variants; exact-name OSS, employer, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_name_variant_without_identifier",
+      "started_at": "2026-09-13T03:20:00Z",
+      "completed_at": "2026-09-13T04:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "No candidate established an identity, OSS-file bridge, pre-OSS affiliation, occupation, or employer.",
+      "research_notes": "Frederick was used only as an explicitly unconfirmed search variant. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 150 for identity and pre-OSS chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch485-v1"
+    },
+    {
+      "key": "b485-glenn-l-cox",
+      "person_id": "3e64597f-14f0-5166-bdcd-fb99fe49dfb7",
+      "source_adapter": "reviewed_official_bulk_newspaper_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 96; complete Army exact-name and incomplete-RA-identifier comparison; CIA and current Library of Congress checks; exact-name OSS, employer, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_incomplete_identifier",
+      "started_at": "2026-09-13T03:20:00Z",
+      "completed_at": "2026-09-13T04:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The exact-name Army row cannot be linked by the incomplete RA identifier. The newspaper candidate is Glenn C Cox with a conflicting middle initial.",
+      "research_notes": "No Army or newspaper candidate attribute was transferred. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 150 for the complete RA identifier and corroborating identity evidence.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch485-v1"
+    },
+    {
+      "key": "b485-jane-m-cox",
+      "person_id": "2dc77266-ba3b-5c58-bae6-73ba1e6fbd61",
+      "source_adapter": "reviewed_official_bulk_newspaper_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 96; complete Army exact-name comparison; CIA and current Library of Congress checks; exact-name OSS, employer, occupation, institutional, newspaper, obituary, women's-service, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_without_identifier",
+      "started_at": "2026-09-13T03:20:00Z",
+      "completed_at": "2026-09-13T04:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The sole newspaper candidate is Jane R Cox, with a conflicting middle initial and unrelated First World War service context.",
+      "research_notes": "No candidate attribute was transferred. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 150 for identity and pre-OSS chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch485-v1"
+    },
+    {
+      "key": "b485-john-h-cox",
+      "person_id": "5f1c5f46-5937-5595-bf3b-75c99e7231d9",
+      "source_adapter": "reviewed_official_bulk_newspaper_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 96; complete Army exact-name comparison; CIA and current Library of Congress checks; exact-name OSS, Jedburgh, Team IVOR, employer, occupation, institutional, newspaper, obituary, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_low_confidence_special_operations_candidate",
+      "started_at": "2026-09-13T03:20:00Z",
+      "completed_at": "2026-09-13T04:15:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 38,
+      "rejection_reasons": "Thirty-three exact-name Army rows remain indistinguishable. Five newspaper candidates concern relatives, conflicting initials, or property notices. The British Team IVOR captain remains a low-confidence candidate because the index lacks rank, nationality, identifier, and a second corroborating attribute.",
+      "research_notes": "The museum lead is retained only in the withheld review system and is not published as the indexed person's identity. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 150 before comparing the record with British Captain John H Cox and Team IVOR files.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch485-v1"
+    },
+    {
+      "key": "b485-johnie-l-cox",
+      "person_id": "5f9352e6-3dd4-5f38-a791-879a884281b4",
+      "source_adapter": "reviewed_official_bulk_newspaper_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 96; complete Army exact-private-identifier comparison; official Army technical documentation and code-list review; CIA and current Library of Congress checks; Johnie and explicitly unconfirmed Johnny variants; exact-name OSS, employer, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_exact_identifier_occupation_only",
+      "started_at": "2026-09-13T03:20:00Z",
+      "completed_at": "2026-09-13T04:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Accessible sources established identity and a civilian occupational category at Army entry but did not name an employer, farm, or OSS transfer chronology.",
+      "research_notes": "The private identifier confirms identity and is not published. The official code-list label is qualified as an occupation, not an employer. Johnny was not adopted as a name variant. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 150 for the farm or employer, location, and OSS chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch485-v1"
+    },
+    {
+      "key": "b485-keith-c-cox",
+      "person_id": "3f83f39a-9e81-52b8-8ba4-7eda1cfdc3ef",
+      "source_adapter": "reviewed_official_bulk_newspaper_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 96; complete Army exact-private-identifier and exact-name comparison; official Army technical documentation; CIA and current Library of Congress checks; exact-name OSS, employer, occupation, institutional, newspaper, obituary, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_exact_identifier_post_oss_army_record",
+      "started_at": "2026-09-13T03:20:00Z",
+      "completed_at": "2026-09-13T04:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "One other exact-name Army row lacks the private-identifier match. The matching 11 October 1945 Army occupation is later than NARA's documented OSS termination date and is unusable as pre-OSS evidence.",
+      "research_notes": "The private identifier confirms identity and is not published. No occupation or employer was inferred from the post-OSS record. No authenticated NARA Catalog request was made.",
+      "next_action": "Review Box 150 for pre-OSS occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch485-v1"
+    }
+  ]
+}

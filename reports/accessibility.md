@@ -1,8 +1,22 @@
 # Accessibility and responsive QA
 
-Run: 2026-09-12 UTC
+Run: 2026-09-13 UTC
 
 ## Result
+
+Batch 485: the focused cohort suite passed all 15 checks across desktop,
+phone and tablet. It verifies ten immutable page 96 rows, masked or unprinted
+identifiers, four exact-identifier Army identities, three qualified
+Army-entry occupations, the preserved `Dorotothy` spelling and qualified
+Dorothy Hannah Cox pathway, and five unresolved or ambiguous profiles without
+published low-confidence claims. The separate axe route suite passed 27/27
+across the same three layouts in its clean isolated run. An earlier retry lost
+its preview server after two runs overlapped; the failures were connection
+refusals rather than axe findings. The production build reports 109 Astro
+source files with zero errors, warnings or hints and generates 24,507 HTML
+pages / 24,579 artifacts. A second exact build reproduced both public and
+production trees byte for byte. The complete historical browser matrix and
+independent GitHub checks were not rerun in this batch.
 
 Batch 484: the focused cohort suite passed all 15 checks across desktop,
 phone and tablet. It verifies ten immutable page 96 rows, masked or unprinted

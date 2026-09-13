@@ -1,6 +1,24 @@
 # Link check
 
-Run: 2026-09-12 UTC
+Run: 2026-09-13 UTC
+
+## Batch 485 release candidate
+
+All internal targets resolve across 24,507 HTML pages; 49,772 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,579 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,092
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 89,206,272 bytes at
+SHA-256 `41d79c342eb1c8b64e55a8f9c37e02fcbef03808f5ddb4bbf92ba533dc4f53a7`.
+The 70-file public-tree digest is
+`a23d226662c7e765793be826c98c4746a46f32acc76716466ce39a5000eb0890`;
+the 24,579-file production-tree digest is
+`adb59672ecfd2b25537cad0816e7fc15ca52d4a5ae12d4991dad682f779764c3`.
+A second exact public-data and Pages build reproduced both trees. No
+authenticated Catalog request was used. Thirteen rejected Library of Congress
+pages, NARA Entry 215 and OSS overview pages, the Bryn Mawr biography, the
+TrowelBlazers article, and the museum Team IVOR candidate were read in source
+context; independent GitHub and deployed-site checks remain pending.
 
 ## Batch 484 release candidate
 

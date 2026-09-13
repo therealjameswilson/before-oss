@@ -1,6 +1,24 @@
 # Research status
 
-Verified against the current local SQLite database on 2026-09-11 UTC.
+Verified against the current local SQLite database on 2026-09-13 UTC.
+
+Batch 485 is a local release candidate with complete local QA passing. It adds
+ten saved person outcomes across PDF page 96 rows 14-23, Dorotothy H Cox
+through Keith C Cox, all in Box 150. Four exact private-identifier matches in
+the complete 9,200,232-record Army scan establish enlisted Army identities;
+three support qualified Army-entry occupations but no employers, while Keith
+Cox's post-termination record is excluded from pre-OSS employment evidence.
+The printed `Dorotothy` spelling is preserved while NARA and Bryn Mawr evidence
+support a high-confidence Dorothy Hannah Cox identity and a qualified
+archaeology occupation. Four people remain unresolved and John H Cox remains
+ambiguous; the British Team IVOR captain is retained only as a low-confidence,
+unpublished candidate. All 94 Python tests, 15 focused cross-viewport checks,
+27 isolated axe checks, profile, link and identifier audits, and two
+byte-identical 24,507-page Pages builds pass locally. Exact coverage is 4,619 /
+23,940 researched, 530 verified affiliations, 235 verified employers, 4,574
+archival dispositions assessed and 19,321 `not_started`. Batch 485 is not
+pushed or deployed. See `reports/release_batch_485.md` and
+`research/batch-485-discovery-checkpoint.md`.
 
 Batch 468 is a local release candidate with complete local QA passing. It adds
 ten saved person outcomes across PDF page 92 rows 28-37, James W Copeland
