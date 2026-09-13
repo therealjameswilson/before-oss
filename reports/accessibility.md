@@ -4,6 +4,21 @@ Run: 2026-09-13 UTC
 
 ## Result
 
+Batch 494: the focused cohort suite passed all 15 checks across desktop,
+phone and tablet. It verifies ten immutable page 98 rows; masked or unprinted
+identifiers; separate last-civilian, student and military relationships for
+Robert Cresswell and Jack A Crichton; qualified occupation or status claims
+without named employers for Richard Cressey, Luther F Cressman and Charles F
+Crider; the absence of John W Crider's uninterpreted source value from the
+public projection; and four unresolved or ambiguous profiles. The first run
+caught one evidence-copy issue and one test-copy mismatch, each repeated
+across three viewports; after both were corrected, the full focused suite
+passed. The separate axe route suite passed 27/27 across the same three
+layouts. Astro checked 118 source files with zero errors, warnings or hints and
+generated 24,522 HTML pages / 24,594 artifacts. A second exact build reproduced
+both public and production trees byte for byte. The complete historical
+browser matrix and independent GitHub checks were not rerun in this batch.
+
 Batch 493: the focused cohort suite passed all 15 checks across desktop,
 phone and tablet. It verifies ten immutable page 98 rows; masked or unprinted
 identifiers; Robert D Creaven's qualified Army-entry occupation without a

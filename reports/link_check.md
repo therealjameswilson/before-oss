@@ -2,6 +2,26 @@
 
 Run: 2026-09-13 UTC
 
+## Batch 494 release candidate
+
+All internal targets resolve across 24,522 HTML pages; 49,809 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,594 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,097
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 89,842,329 bytes at
+SHA-256 `d7087aff73f9112beeccd0f218f45ddacd2071ce595baed8fc9402b7438bc23a`.
+The 70-file public-tree digest is
+`dff9d6397cbfe9958240f061527939b522276f0abdd69b62b484f10134f83d75`;
+the 24,594-file production-tree digest is
+`25a1632505a4b4d84ce38f4415a155a450d0f1d4386e896cdb5c9da36d5515a3`.
+A second exact public-data and Pages build reproduced both trees. Eight of ten
+Batch 494 citation destinations returned HTTP 200. Justia and the 1944 Texas
+Aggie page returned HTTP 403 to the generic checker; their relevant text or
+page context had already been reviewed through permitted browser access, and
+no restriction was bypassed. No authenticated Catalog request was used.
+Eight Library of Congress candidates were rejected in source context.
+Independent GitHub and deployed-site checks remain pending.
+
 ## Batch 493 release candidate
 
 All internal targets resolve across 24,516 HTML pages; 49,797 external URLs
