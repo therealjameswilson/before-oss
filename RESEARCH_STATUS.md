@@ -2,6 +2,25 @@
 
 Verified against the current local SQLite database on 2026-09-13 UTC.
 
+Batch 492 is a validated local release candidate. It adds ten saved outcomes
+across personnel-index PDF page 97 rows 38-46 and page 98 row 1, Hilary
+Crawford through James W Crayhon, spanning Boxes 152 and 153. Three exact
+identifier matches support confirmed enlisted Army identities and qualified
+Army-entry occupations without named employers. A fourth exact match is kept
+to identity only because its Army entry follows OSS dissolution. Two people
+remain unresolved and three remain ambiguous; short identifiers, name-only
+Army candidates and all ten Library of Congress candidates stay unassigned.
+Two independent sources support only a probable, medium-confidence 1938
+Associated Press role for James W Crayhon, labeled documented prewar rather
+than immediate or last civilian. All 94 Python tests, 18 focused cross-
+viewport checks, 27 axe cases after one clean isolated timeout rerun, profile,
+link, dependency and identifier audits, and two byte-identical 24,516-page
+Pages builds pass locally. Exact coverage is 4,688 / 23,940 researched, 534
+verified affiliations, 237 verified employers, 4,643 archival dispositions
+assessed and 19,252 `not_started`. Batch 492 is not pushed or deployed. See
+`reports/release_batch_492.md` and
+`research/batch-492-discovery-checkpoint.md`.
+
 Batch 491 is a validated local release candidate. It adds ten saved outcomes
 for personnel-index PDF page 97 rows 28-37, Virginia Crate through Eugene E
 Crawford, all in Box 152. Exact identifier matches confirm three enlisted Army

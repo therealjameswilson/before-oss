@@ -4,6 +4,21 @@ Run: 2026-09-13 UTC
 
 ## Result
 
+Batch 492: the focused cohort suite passed all 18 checks across desktop,
+phone and tablet. It verifies ten immutable rows across pages 97 and 98;
+masked or unprinted identifiers; three qualified Army-entry occupations
+without named employers; William E Crawford's post-OSS Army chronology
+without projection backward; the probable, qualified James W Crayhon-
+Associated Press role; and five unresolved or ambiguous profiles with
+commissioned status left unknown. The main axe route run passed 26/27; the
+one tablet Sources-page case timed out without an axe finding and passed 1/1
+on a clean isolated rerun, so all 27 route-and-viewport cases have a passing
+final result. Astro checked 116 source files with zero errors, warnings or
+hints and generated 24,516 HTML pages / 24,588 artifacts. A second exact build
+reproduced both public and production trees byte for byte. The complete
+historical browser matrix and independent GitHub checks were not rerun because
+this batch was neither pushed nor deployed.
+
 Batch 491: the focused cohort suite passed all 15 checks across desktop,
 phone and tablet. It verifies ten immutable page 97 rows; masked or unprinted
 identifiers; two qualified Army-entry occupations without named employers;

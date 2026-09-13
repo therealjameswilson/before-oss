@@ -2,6 +2,28 @@
 
 Run: 2026-09-13 UTC
 
+## Batch 492 release candidate
+
+All internal targets resolve across 24,516 HTML pages; 49,794 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,588 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,100
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 89,659,454 bytes at
+SHA-256 `bf475ebc0732866e4b48b1f94c7dc9521ab6013456315d690bee89d1bccf690c`.
+The 70-file public-tree digest is
+`8306774bb888567217a2934b69a3f3f8741ce3cf0d895cbe28c6679cdb91ffca`;
+the 24,588-file production-tree digest is
+`18b371a28ad9a44c1fb2db3e454955957f1bee4b0536ce0dcf2db078432a22a3`.
+A second exact public-data and Pages build reproduced both trees. Five of six
+Batch 492 citation destinations returned HTTP 200: the source index PDF, Army
+merged-file Catalog page, two official technical/code PDFs and the Ghiglione
+book PDF. The stable Columbia report handle redirected to HathiTrust and
+returned HTTP 403 to the checker; the exact annual report and cited page were
+separately downloaded from a public mirror, rendered and visually checked. No
+authenticated Catalog request was used. Ten Library of Congress candidates
+were rejected in official OCR context. Independent GitHub and deployed-site
+checks remain pending.
+
 ## Batch 491 release candidate
 
 All internal targets resolve across 24,516 HTML pages; 49,792 external URLs
