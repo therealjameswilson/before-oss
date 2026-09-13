@@ -2,6 +2,25 @@
 
 Run: 2026-09-13 UTC
 
+- Batch 506 local QA: all **94 / 94** Python tests pass. SQLite `quick_check`
+  returns `ok`, foreign keys pass, and the deterministic 200-profile audit
+  passes all seven checks. Extraction validation covers all 522 pages and
+  23,978 source rows; all 32 parser warnings are visually resolved, and 92
+  selected pages have been reviewed. Twenty-one focused Batch 506 checks, 57
+  bounded core checks and 27 axe cases pass across desktop, phone and tablet.
+  Astro checks 130 source files without errors, warnings or hints and generates
+  24,547 HTML pages / 24,619 artifacts. Every internal target resolves; 49,872
+  external URLs are inventoried. The identifier audit examines 12,926
+  normalized identifiers, 120 formatted variants and 1,098 artifact candidates
+  with zero leaks. The production dependency audit finds zero vulnerabilities.
+  Consecutive builds reproduce public-tree digest
+  `51ff6ca0c5a8e554ca1df0b78dbff52a91e00bd23690ee36a38387cf6e269dcb`,
+  production-tree digest
+  `ac7a1f8f30f55d38931810e869d07c84f7eb0be400ce29767ffe734e6f1941c4`
+  and public-manifest SHA-256
+  `52e8844a162b43c54d6c00b35561d17ada19f2207ea8cadac7edb6075d1c3301`.
+  See `reports/release_batch_506.md`.
+
 - Batch 505 local QA: all **94 / 94** Python tests pass. SQLite `quick_check`
   returns `ok`, foreign keys pass, and the deterministic 200-profile audit
   passes all seven checks. Extraction validation covers all 522 pages and

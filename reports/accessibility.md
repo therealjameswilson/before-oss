@@ -4,6 +4,18 @@ Run: 2026-09-13 UTC
 
 ## Result
 
+Batch 506: the focused cohort suite passed all 21 checks across desktop,
+phone and tablet. It verifies ten immutable rows across pages 100-101; masked
+or unprinted identifiers; Tom S Culverwell's confirmed enlisted identity,
+qualified Army pathway, Forest Service last civilian employer and separate
+newspaper-art relationship; five ambiguous identities; and four unresolved
+profiles with Box 159 guidance. The bounded core suite passed 57/57 across the
+same viewports. The axe route suite passed 27/27 in 1.7 minutes. Astro checked
+130 source files with zero errors, warnings or hints and generated 24,547 HTML
+pages / 24,619 artifacts. A second exact public-data and Pages build reproduced
+both trees byte for byte. Independent GitHub checks were not run because this
+batch was neither pushed nor deployed.
+
 Batch 505: the focused cohort suite passed all 21 checks across desktop,
 phone and tablet. It verifies ten immutable page 100 rows; masked or unprinted
 identifiers; William S Culbertson's qualified War Department pathway and

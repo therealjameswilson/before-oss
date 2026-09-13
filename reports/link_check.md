@@ -2,6 +2,27 @@
 
 Run: 2026-09-13 UTC
 
+## Batch 506 release candidate
+
+All internal targets resolve across 24,547 HTML pages; 49,872 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,619 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,098
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 90,919,533 bytes at
+SHA-256 `52e8844a162b43c54d6c00b35561d17ada19f2207ea8cadac7edb6075d1c3301`.
+The 70-file public-tree digest is
+`51ff6ca0c5a8e554ca1df0b78dbff52a91e00bd23690ee36a38387cf6e269dcb`;
+the 24,619-file production-tree digest is
+`ac7a1f8f30f55d38931810e869d07c84f7eb0be400ce29767ffe734e6f1941c4`.
+A second exact public-data and Pages build reproduced both trees. The six
+Batch 506 citation destinations were inspected during research: the source
+index, Army Catalog and documentation, official code list, National Forest
+Service Library item and National Museum of Forest Service History
+publication. No authenticated Catalog request was used. Ten CIA checks and 17
+actual Library of Congress adapter attempts completed; the two LoC candidates
+received rejected durable decisions. Independent GitHub and deployed-site
+checks remain pending.
+
 ## Batch 505 release candidate
 
 All internal targets resolve across 24,546 HTML pages; 49,869 external URLs

@@ -2,6 +2,26 @@
 
 Verified against the current local SQLite database on 2026-09-13 UTC.
 
+Batch 506 is a validated local release candidate. It adds ten terminal saved
+outcomes across personnel-index PDF page 100 rows 40-46 and page 101 rows 1-3,
+Richard T Culp through Philip H Cummings, crossing from Box 158 to Box 159.
+Exact private-identifier evidence confirms Tom S Culverwell as enlisted Army
+personnel; two institutional histories identify him as Thomas Speiden
+Culverwell, establish the United States Forest Service as his strongly date-
+bounded last civilian employer, and explicitly document wartime OSS map work.
+His Army pathway remains qualified as probable immediate because no transfer
+date is documented, while earlier artwork supplied to the Washington Daily
+News remains an unknown relationship rather than invented employment. Five
+other identities remain ambiguous and four unresolved; no exact-name Army or
+postwar namesake is silently selected. Two wrong-initial LoC candidates are
+durably rejected. All 94 Python tests, 21 focused cross-viewport checks, 57
+bounded core checks, 27 axe cases, profile, link, dependency and identifier
+audits pass; two 24,547-page builds are byte-identical. Exact coverage is 4,828
+/ 23,940 researched, 550 verified affiliations, 245 verified employers, 4,783
+archival dispositions assessed and 19,112 `not_started`. Batch 506 is not
+pushed or deployed. See `reports/release_batch_506.md` and
+`research/batch-506-discovery-checkpoint.md`.
+
 Batch 505 is a validated local release candidate. It adds ten terminal saved
 outcomes for personnel-index PDF page 100 rows 30-39, Ruth B Culbertson through
 Carson W Culp, all in Box 158. A Library of Congress finding aid directly links
