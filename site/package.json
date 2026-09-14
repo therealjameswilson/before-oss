@@ -10,6 +10,8 @@
     "test:e2e": "playwright test",
     "test:a11y": "playwright test tests/accessibility.spec.ts",
     "check:links": "node scripts/check-links.mjs",
+    "test:release": "node scripts/run-release-tests.mjs",
+    "test:ci": "npm run build && npm run test:release && npm run check:links",
     "test": "npm run build && npm run test:e2e && npm run check:links"
   },
   "dependencies": {

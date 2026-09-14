@@ -54,8 +54,20 @@ Candidate decisions may be `plausible`, `probable`, `accepted`, `rejected`, or
 ```bash
 python3 -m unittest discover -s tests -v
 cd site
-npm test
+npm run test:ci
 ```
+
+`npm run test:ci` builds the complete static site and runs the newest batch
+specification, bounded core-route checks, analysis checks, the accessibility
+suite, and the generated-site link audit. The release runner discovers the
+highest numbered `batchNNN.spec.ts` automatically so a new batch cannot leave
+CI pinned to an older cohort. This bounded suite keeps each Playwright process
+below the memory ceiling of a standard GitHub-hosted runner.
+
+`npm test` remains the exhaustive historical browser matrix. Run it on a host
+with sufficient memory when performing a full regression audit; its component
+specifications can also be run in bounded groups with `npm run test:e2e --
+tests/<spec>.spec.ts`.
 
 No test may consume a live NARA API request. Adapter tests use synthetic,
 hand-authored fixtures.
