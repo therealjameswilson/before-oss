@@ -2,7 +2,7 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
-Batch 516 is a validated local release candidate. It adds ten terminal saved
+Batch 516 is the current verified public release. It adds ten terminal saved
 outcomes for personnel-index PDF page 103 rows 2-11, Edmund Czaplinski through
 Arnold Daane, crossing from Box 162 to Box 163. Archive-based Project Eagle
 research supports three high-confidence Polish military pathways while keeping
@@ -18,9 +18,13 @@ All 94 Python tests, 21 focused checks, 18 bounded core checks, 6 analysis
 checks and 27 axe cases pass. Exact coverage is 4,927 / 23,940 researched, 562
 verified affiliations, 250 verified employers, 4,882 archival dispositions
 assessed and 19,013 `not_started`. See `reports/release_batch_516.md` and
-`research/batch-516-discovery-checkpoint.md`.
+`research/batch-516-discovery-checkpoint.md`. Pull request #211 was merged as
+commit `a013b9372469b8029c75256c4434342413915202`; PR test run 34826996806,
+main test run 34827638455 and Pages run 34827638457 succeeded. The live verifier
+matched all 67 manifest assets (91,655,994 bytes), seven core routes and ten
+direct Batch 516 profiles to that commit.
 
-Batch 515 is the current verified public release. It adds ten saved
+Batch 515 is the preceding verified public release. It adds ten saved
 outcomes for personnel-index PDF page 102 rows 38-46 and page 103 row 1, Mary W
 Cutler through Louise L Czako, all in Box 162. Richard W Cutler is a
 high-confidence match to the NARA-documented OSS officer; an FBI file and an

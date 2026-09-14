@@ -154,12 +154,13 @@ Dahl, all in Box 163.
 
 ## Release boundary
 
-This local release candidate is validated but not yet pushed or deployed. The
-current live release is Batch 515 at immutable commit
-`ce2bcbe28d02be88f62eb0cef007e9125eb9dc7e`; its main Test and Pages runs
-34823872905 and 34823873097 succeeded, and the verifier matched all 67 manifest
-assets (91,456,163 bytes), seven core routes and ten direct profiles. The
-research goal remains active because 19,013 person entities have not yet
-started the protocol. The generated entity-resolution report retains its
-pre-existing warning that not every possible duplicate group is marked for
-manual review; Batch 516 creates no new merge or silent conflation.
+Batch 516 was merged in pull request #211 as commit
+`a013b9372469b8029c75256c4434342413915202`. PR test run 34826996806, main
+test run 34827638455 and Pages run 34827638457 succeeded. The deployed verifier
+matched all 67 manifest assets (91,655,994 bytes), seven core routes and ten
+direct Batch 516 profiles to that commit. No authenticated NARA Catalog API
+request was made. The research goal remains active because 19,013 person
+entities have not yet started the protocol. The generated entity-resolution
+report retains its pre-existing warning that not every possible duplicate
+group is marked for manual review; Batch 516 creates no new merge or silent
+conflation.
