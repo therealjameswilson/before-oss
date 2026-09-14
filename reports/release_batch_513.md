@@ -145,9 +145,13 @@ Cutler, all in Box 161.
 
 ## Release boundary
 
-This local release candidate is validated but not yet pushed or deployed. No
-authenticated NARA Catalog API request was made. The research goal remains
-active because 19,042 person entities have not yet started the research
-protocol. The generated entity-resolution report retains its pre-existing
-warning that not every possible duplicate group is marked for manual review;
-Batch 513 creates no new duplicate group, merge or silent conflation.
+Batch 513 was merged in pull request #205 as commit
+`d16ee5c46fbd1cd51725a41ed25b10e3205f3b08`. PR test run 34811500345, main
+test run 34811913382 and Pages run 34811913366 succeeded. The deployed verifier
+matched all 67 manifest assets (91,340,900 bytes), seven core routes and ten
+direct Batch 513 profiles to that commit. No authenticated NARA Catalog API
+request was made. The research goal remains active because 19,042 person
+entities have not yet started the research protocol. The generated entity-
+resolution report retains its pre-existing warning that not every possible
+duplicate group is marked for manual review; Batch 513 creates no new duplicate
+group, merge or silent conflation.

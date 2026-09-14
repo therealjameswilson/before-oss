@@ -2,7 +2,7 @@
 
 Run: 2026-09-14 UTC
 
-## Batch 513 release candidate
+## Batch 513 verified public release
 
 All internal targets resolve across 24,554 HTML pages; 49,891 external URLs
 are inventoried, not all visited. Identifier checks cover all 24,626 built
@@ -17,8 +17,10 @@ the 24,626-file production-tree digest is
 A second exact public-data and Pages build reproduced both trees. Eleven bundle
 sources support the cohort's accepted or qualified outcomes; the single
 Library of Congress candidate was rejected after page review. No authenticated
-Catalog request was used. Independent GitHub and deployed-site checks remain
-pending.
+Catalog request was used. PR test run 34811500345, main test run 34811913382
+and Pages run 34811913366 passed. The deployed verifier matched every manifest
+asset, seven core routes and all ten direct profiles to merge commit
+`d16ee5c46fbd1cd51725a41ed25b10e3205f3b08`.
 
 ## Batch 512 release candidate
 
