@@ -156,6 +156,10 @@ code.
 
 ## Release boundary
 
-Independent GitHub checks, merge, Pages deployment and deployed-artifact
-verification remain pending. The research goal remains active because 18,922
-person entities have not yet started the protocol.
+Pull request #221 was merged as immutable main commit
+`3f704227d280d26db79e3d5f5f631c14bd2fe100`. PR Test run 34867353870,
+main Test run 34868250638 and Pages run 34868250534 succeeded. The deployed
+verifier matched all 67 manifest assets, 92,221,715 manifest bytes, seven core
+routes and ten direct Batch 525 profiles at
+<https://therealjameswilson.github.io/before-oss/>. The research goal remains
+active because 18,922 person entities have not yet started the protocol.

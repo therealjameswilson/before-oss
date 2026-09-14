@@ -2,7 +2,26 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
-Batch 525 is the current release candidate. It adds ten terminal saved
+Batch 526 is the current release candidate. It adds ten terminal saved outcomes
+for personnel-index PDF page 105 rows 12-21, Elmer Daniels through Frank P
+Dann, all in Box 166. Exact private-identifier evidence confirms Serge
+Daniluck and Frank P Dann / Dannelly as enlisted Army personnel. Daniluck has
+two separately documented occupation findings without a named employer; Dann
+has student status at Army entry without an inferred institution. Serge
+Daniloff's Packard employment and Richard Ely Danielson's Atlantic Monthly
+employment are published only as probable, medium-confidence documented-
+prewar findings pending Box 166 review, and neither is labeled immediate or
+last civilian. Six common-name or no-result profiles remain ambiguous or
+unresolved. Exact coverage is 5,028 / 23,940 researched, 567 verified
+affiliations, 252 verified employers, 4,983 archival dispositions assessed and
+18,912 `not_started`. All 94 Python tests, 48 focused checks, 18 bounded core
+checks, 6 analysis checks and 27 axe cases pass. The 24,635-artifact build is
+deterministic and the privacy, link, profile, credential and dependency audits
+pass. See `reports/release_batch_526.md` and
+`research/batch-526-discovery-checkpoint.md`. Independent GitHub and deployed-
+site verification remain pending. The goal remains active.
+
+Batch 525 is the current verified public release. It adds ten terminal saved
 outcomes for personnel-index PDF page 105 rows 2-11, Geneva L Daniel through
 Edward L Daniels, all in Box 166. An exact private-identifier match confirms
 Arlan R Daniels as enlisted Army personnel at entry, while civilian-
@@ -17,8 +36,11 @@ assessed and 18,922 `not_started`. All 94 Python tests, 45 focused checks, 18
 bounded core checks, 6 analysis checks and 27 axe cases pass. The
 24,633-artifact build is deterministic and the privacy, link, profile,
 credential and dependency audits pass. See `reports/release_batch_525.md` and
-`research/batch-525-discovery-checkpoint.md`. Independent GitHub and deployed-
-site verification remain pending. The goal remains active.
+`research/batch-525-discovery-checkpoint.md`. Pull request #221 was merged as
+commit `3f704227d280d26db79e3d5f5f631c14bd2fe100`; PR Test run
+34867353870, main Test run 34868250638 and Pages run 34868250534 succeeded.
+The live verifier matched all 67 manifest assets, 92,221,715 manifest bytes,
+seven core routes and ten direct Batch 525 profiles. The goal remains active.
 
 Batch 524 is the preceding verified public release. It adds ten saved outcomes
 for personnel-index PDF page 104 rows 38-46 and page 105 row 1, Beatrice Dancy
