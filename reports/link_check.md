@@ -2,6 +2,25 @@
 
 Run: 2026-09-14 UTC
 
+## Batch 527 release candidate
+
+All internal targets resolve across 24,566 HTML pages; 49,935 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,638 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,103
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 92,410,884 bytes at
+SHA-256 `9e72a26181ded4c1ce051a52aa02b4ae5fcfa088ba84123496f42a4ac08e6dc7`.
+Under the relative-path/content digest, the 70-file public tree is
+`3e72bf2d75d1929d77e44fb864b56b3b5751393a88f0acbea7c1d55ce32f67b6`;
+the 24,638-file production tree is
+`e62b3c058f6cb2df48ae26c4b53fa56d67a691831e7f19ea03095d4dca6c2541`.
+Three consecutive Pages builds reproduced both trees. Eight bundle sources
+support the accepted and qualified findings; one Library of Congress namesake
+candidate was rejected after official context review. No authenticated Catalog
+request was used. A new local-tree manifest check prevents the incomplete-
+download release assembly detected after Batch 526. Independent GitHub and
+deployed-site checks remain pending.
+
 ## Batch 526 release candidate
 
 All internal targets resolve across 24,563 HTML pages; 49,928 external URLs

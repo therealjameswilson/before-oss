@@ -53,12 +53,40 @@ def verify_assets(expected: bytes, fetch, workers: int = 4) -> dict:
             "manifest_sha256": hashlib.sha256(actual).hexdigest()}
 
 
+def verify_local_tree(public_root: Path, workers: int = 4) -> dict:
+    """Verify that a checked-out public tree agrees with its own manifest."""
+    public_root = public_root.resolve()
+    expected = (public_root / MANIFEST).read_bytes()
+
+    def fetch(path: str) -> bytes:
+        safe_path = validate_path(path)
+        candidate = (public_root / safe_path).resolve()
+        if public_root not in candidate.parents:
+            raise ValueError("Manifest asset resolves outside the public tree")
+        return candidate.read_bytes()
+
+    return verify_assets(expected, fetch, workers=workers)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--ref", required=True, help="Local Git commit or ref to verify, not the mutable working tree")
+    mode = parser.add_mutually_exclusive_group(required=True)
+    mode.add_argument("--ref", help="Local Git commit or ref to verify, not the mutable working tree")
+    mode.add_argument(
+        "--local-public-root",
+        type=Path,
+        help="Check a local public tree against its manifest without network access",
+    )
     parser.add_argument("--base-url", default="https://therealjameswilson.github.io/before-oss/")
     parser.add_argument("--evidence-bundle", help="Repository-relative reviewed bundle at the selected commit; check each person's direct URL")
     args = parser.parse_args()
+    if args.local_public_root:
+        if args.evidence_bundle:
+            parser.error("--evidence-bundle applies only to deployed --ref verification")
+        report = verify_local_tree(args.local_public_root)
+        report.update(public_root=str(args.local_public_root.resolve()))
+        print(json.dumps(report, indent=2))
+        return
     base = urlsplit(args.base_url)
     if base.scheme != "https" or not base.netloc or base.username or base.password or base.query or base.fragment:
         parser.error("Use a public HTTPS base URL without credentials, query or fragment")

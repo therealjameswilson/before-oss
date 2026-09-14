@@ -4,6 +4,18 @@ Run: 2026-09-14 UTC
 
 ## Result
 
+Batch 527: the focused cohort suite passed all 51 checks across desktop,
+phone and tablet. It verifies ten immutable page 105 rows; four strict private-
+identifier Army matches; four qualified entry-time occupation or student
+findings without employers; Alice Dannenberg's separately modeled CBS and COI
+pathways; Claude E Dansey's qualified SIS assignment; and four ambiguous or
+unresolved profiles with Box 166/167 guidance. The bounded core suite passed
+18/18 and the analysis suite passed 6/6 across the same viewports. The axe
+route suite passed 27/27 in 1.8 minutes. Astro checked 149 source files with
+zero errors, warnings or hints and generated 24,566 HTML pages / 24,638
+artifacts. Three consecutive builds reproduced the public and production trees
+byte for byte. Independent GitHub and deployed-site checks remain pending.
+
 Batch 526: the focused cohort suite passed all 48 checks across desktop,
 phone and tablet. It verifies ten immutable page 105 rows; four masked private
 values; two exact-identifier Army identities; Daniluck's direct mail-clerk

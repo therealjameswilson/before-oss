@@ -81,6 +81,13 @@ PUBLIC_BASE_PATH=/ npm run dev
 
 ## Verify a published release
 
+Before committing generated public data, verify that every checked-in asset
+matches its manifest:
+
+```bash
+python3 scripts/verify_deployed_release.py --local-public-root site/public
+```
+
 After the Pages workflow succeeds, compare the deployed public data against a
 specific local Git commit, not the current working tree:
 

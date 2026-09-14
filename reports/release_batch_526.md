@@ -160,6 +160,17 @@ unit or assignment beyond the indexed lieutenant-colonel rank.
 
 ## Release boundary
 
-Independent GitHub checks, merge, Pages deployment and deployed-artifact
-verification remain pending. The research goal remains active because 18,912
-person entities have not yet started the protocol.
+Pull request #222 was merged as commit
+`6e3678894831f7cccae5042b7063f9b6f2017dd7`. Main Test run 34877017896 and
+Pages run 34877017860 succeeded, and the Pages deployment identified that
+exact merge commit. Exact deployed-artifact verification nevertheless failed:
+the committed manifest described newly generated download files that the
+release commit had accidentally omitted. For example, its affiliation export
+entry expected 895,293 bytes while both the immutable Git blob and deployed
+file were the same older 892,902-byte asset. This was a release-assembly
+defect, not a CDN discrepancy, so Batch 526 is deployed but is not claimed as
+an exact manifest-verified release.
+
+Batch 527 adds a local-tree manifest check to CI and includes every changed
+download in the release candidate. The research goal remains active because
+18,912 person entities had not yet started the protocol at this boundary.
