@@ -137,5 +137,5 @@ formal status and immediate transition; establish Julia Cuniberti's exact
 recruitment date and any prior employer; and identify Matthew Cunic's textile
 workplace and Army-to-OSS sequence.
 
-Research resumes with page 101 rows 14-23, Laurence W Cunningham through
-Winfred P Cunningham, all in Box 159.
+Research resumes with page 101 rows 14-23, Ramon C Cunill through Lou
+Cunningham, all in Box 159.

@@ -10,8 +10,8 @@ Roger Cummings through Matthew J Cunic, all in Box 159 at archival location
 aid, Congressional Record page and Vassar College finding-aid page used for
 publication were rendered and visually inspected.
 
-The next unprocessed sequence is page 101 rows 14-23, Laurence W Cunningham
-through Winfred P Cunningham, all in Box 159.
+The next unprocessed sequence is page 101 rows 14-23, Ramon C Cunill through
+Lou Cunningham, all in Box 159.
 
 ## Research outcomes
 
@@ -150,8 +150,8 @@ npm --prefix site run test:e2e -- tests/batch507.spec.ts
 python3 -m oss_research audit-profiles --sample-size 200
 ```
 
-Research resumes with page 101 rows 14-23, Laurence W Cunningham through
-Winfred P Cunningham.
+Research resumes with page 101 rows 14-23, Ramon C Cunill through Lou
+Cunningham.
 
 ## Release boundary
 
