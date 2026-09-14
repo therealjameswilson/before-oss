@@ -15,8 +15,10 @@ The bounded core suite passed 18/18 and the analysis suite passed 6/6 across
 the same viewports. The axe route suite passed 27/27 in 1.6 minutes. Astro
 checked 138 source files with zero errors, warnings or hints and generated
 24,554 HTML pages / 24,626 artifacts. A second exact public-data and Pages
-build reproduced both trees byte for byte. Independent GitHub checks remain
-pending until publication.
+build reproduced both trees byte for byte. PR test run 34811500345 and main
+test run 34811913382 passed; Pages run 34811913366 deployed the verified
+release. The live verifier matched all ten cohort profiles and seven core
+routes to merge commit `d16ee5c46fbd1cd51725a41ed25b10e3205f3b08`.
 
 Batch 512: the focused cohort suite passed all 15 checks across desktop,
 phone and tablet. It verifies ten immutable page 102 rows; four masked private

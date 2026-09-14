@@ -2,7 +2,7 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
-Batch 513 is a validated local release candidate. It adds ten saved outcomes
+Batch 513 is the current verified public release. It adds ten saved outcomes
 for personnel-index PDF page 102 rows 18-27, Joseph T Curtiss through James S
 Cusick, all in Box 161. Yale evidence documents Joseph Toy Curtiss's assistant
 professorship as the role from which OSS recruited him. An official OSS report
@@ -18,9 +18,13 @@ bounded core checks, 6 analysis checks and 27 axe cases pass. Exact coverage is
 4,898 / 23,940 researched, 557 verified affiliations, 248 verified employers,
 4,853 archival dispositions assessed and 19,042 `not_started`. See
 `reports/release_batch_513.md` and
-`research/batch-513-discovery-checkpoint.md`.
+`research/batch-513-discovery-checkpoint.md`. Pull request #205 was merged as
+commit `d16ee5c46fbd1cd51725a41ed25b10e3205f3b08`; PR test run
+34811500345, main test run 34811913382 and Pages run 34811913366 succeeded.
+The live verifier matched all 67 manifest assets (91,340,900 bytes), seven core
+routes and ten direct Batch 513 profiles to that commit.
 
-Batch 512 is the current verified public release. It adds ten terminal saved
+Batch 512 is the preceding verified public release. It adds ten terminal saved
 outcomes for personnel-index PDF page 102 rows 8-17, Joseph T Curtis through
 John S Curtiss, all in Box 161. Exact private-identifier evidence confirms
 Leslie S Curtis and Reid H Curtis as enlisted Army personnel; Reid's `Student`
