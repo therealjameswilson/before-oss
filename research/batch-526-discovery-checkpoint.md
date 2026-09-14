@@ -120,6 +120,6 @@ synthesized research outcomes. Repeat import resolves to the same durable keys.
 Research resumes with personnel-index PDF page 105 row 22, Joseph A Dann,
 followed by Alice Dannenberg, John A Danner, Gerald A Danni, Nicholas J
 D'Annunzio, Anna M Danovsky, Claude E Dansey, Ebert W D'Anton, Rene J Daon, and
-F A D'Aprix. The cohort crosses Boxes 166-167 and includes British and French
-notes. Preserve those notes exactly and do not infer nationality or rank beyond
-the printed evidence.
+F A D'Aprix. The cohort crosses Boxes 166-167 and includes the printed `British
+A` note for Claude E Dansey. Preserve that wording exactly and do not infer
+nationality, unit or assignment beyond the indexed lieutenant-colonel rank.

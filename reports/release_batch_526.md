@@ -154,8 +154,9 @@ python3 scripts/audit_public_identifiers.py --database research/research.sqlite 
 Research resumes with page 105 row 22, Joseph A Dann, followed by Alice
 Dannenberg, John A Danner, Gerald A Danni, Nicholas J D'Annunzio, Anna M
 Danovsky, Claude E Dansey, Ebert W D'Anton, Rene J Daon and F A D'Aprix. The
-cohort crosses Boxes 166-167 and includes British and French notes; preserve
-those printed facts exactly without inferring nationality, rank or assignment.
+cohort crosses Boxes 166-167 and includes the printed `British A` note for
+Claude E Dansey; preserve that wording exactly without inferring nationality,
+unit or assignment beyond the indexed lieutenant-colonel rank.
 
 ## Release boundary
 
