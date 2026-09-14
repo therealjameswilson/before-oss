@@ -4,6 +4,20 @@ Run: 2026-09-14 UTC
 
 ## Result
 
+Batch 510: the focused cohort suite passed all 15 checks across desktop,
+phone and tablet. It verifies ten immutable page 101 rows; six masked private
+values; Anton Curl and Michael J Curley's confirmed enlisted identities and
+qualified occupation-only findings without employers; Charley Curo's confirmed
+identity while leaving occupation value 999 uninterpreted; Vincent L Curl's
+high-confidence immediate 35th Infantry military assignment and commissioned
+classification; and six unresolved profiles with Box 160 guidance. The bounded
+core suite passed 18/18 and the analysis suite passed 6/6 across the same
+viewports. The axe route suite passed 27/27 in 1.8 minutes. Astro checked 134
+source files with zero errors, warnings or hints and generated 24,551 HTML
+pages / 24,623 artifacts. A second exact public-data and Pages build reproduced
+both trees byte for byte. Independent GitHub checks were not run because this
+batch was neither pushed nor deployed.
+
 Batch 509: the focused cohort suite passed all 15 checks across desktop,
 phone and tablet. It verifies ten immutable page 101 rows; two masked private
 values; the Box 159-to-160 boundary; Murray O Cunningham's confirmed enlisted

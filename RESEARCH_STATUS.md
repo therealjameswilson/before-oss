@@ -2,6 +2,27 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
+Batch 510 is a validated local release candidate. It adds ten terminal saved
+outcomes for personnel-index PDF page 101 rows 34-43, Mary T Curio through
+Teresita Currie, all in Box 160. Exact private-identifier and name matches
+confirm Anton Curl, Michael J Curley and Charley Curo as enlisted Army
+personnel. Anton's `Electricians' apprentice` and Michael's `Boilermaker`
+categories are published only as qualified occupations at Army entry, never as
+named employers; Charley's occupation value 999 remains uninterpreted. An
+official National Park Service history supports Vincent L Curl as the First
+Sergeant selected from the 35th Infantry Regiment for the original Detachment
+101 cadre and later identifies him as an OSS captain. The regiment is therefore
+published as a high-confidence immediate military assignment, not a civilian
+employer, while Box 160 remains necessary to confirm the middle initial and
+chronology. Six identities remain unresolved. All eight Library of Congress
+candidates were rejected after full-page context review. Focused browser QA
+passes 15/15 checks, bounded core and analysis QA pass 24/24 checks, and axe
+passes 27/27 across desktop, phone and tablet. Exact coverage is 4,868 / 23,940
+researched, 554 verified affiliations, 246 verified employers, 4,823 archival
+dispositions assessed and 19,072 `not_started`. Batch 510 is not pushed or
+deployed. See `reports/release_batch_510.md` and
+`research/batch-510-discovery-checkpoint.md`.
+
 Batch 509 is a validated local release candidate. It adds ten terminal saved
 outcomes for personnel-index PDF page 101 rows 24-33, Mary Cunningham through
 Sanford C Curcie, crossing from Box 159 to Box 160. An exact private-identifier

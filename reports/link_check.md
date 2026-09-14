@@ -2,6 +2,27 @@
 
 Run: 2026-09-14 UTC
 
+## Batch 510 release candidate
+
+All internal targets resolve across 24,551 HTML pages; 49,881 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,623 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,100
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 91,100,159 bytes at
+SHA-256 `46e081a32f515759480e9427301b32c257aa1ed86296b1d5664e19e6cdd1589e`.
+The 70-file public-tree digest is
+`bf3c3f681b6276781d4661139955998139676d63eb0c15a3fd7fad866bc216e7`;
+the 24,623-file production-tree digest is
+`7030f5eb2ebf9520fa302a37e75010a1dfc145e422b919579b5f58ff7578732b`.
+A second exact public-data and Pages build reproduced both trees. Five bundle
+sources cover the OSS index, Army merged-file Catalog record, two Army
+technical-documentation files and the National Park Service Detachment 101
+history. Ten CIA and ten Library of Congress checks completed; all eight LoC
+candidates received rejected durable decisions. Unsupported modern or
+entertainment namesakes and an uninspectable CIA-hosted Vincent Curl lead remain
+withheld. No authenticated Catalog request was used. Independent GitHub and
+deployed-site checks remain pending.
+
 ## Batch 509 release candidate
 
 All internal targets resolve across 24,551 HTML pages; 49,881 external URLs
