@@ -160,8 +160,10 @@ already joined OSS.
 
 ## Release boundary
 
-Batch 524 remains a local release candidate until its exact commit passes the
-independent GitHub Test and Pages workflows and the deployed verifier matches
-the manifest assets, core routes and direct cohort profiles. The research goal
-remains active because 18,932 person entities have not yet started the
-protocol.
+Pull request #220 was merged as immutable main commit
+`fc9d2a3cadd2eb3ca0b038ebd6894088ddc0486c`. PR Test run 34863234720,
+main Test run 34863949031 and Pages run 34863948698 succeeded. The deployed
+verifier matched all 67 manifest assets, 92,203,485 manifest bytes, seven core
+routes and ten direct Batch 524 profiles at
+<https://therealjameswilson.github.io/before-oss/>. The research goal remains
+active because 18,932 person entities have not yet started the protocol.

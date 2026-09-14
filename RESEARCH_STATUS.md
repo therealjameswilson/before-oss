@@ -2,7 +2,25 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
-Batch 524 is the current local release candidate. It adds ten saved outcomes
+Batch 525 is the current release candidate. It adds ten terminal saved
+outcomes for personnel-index PDF page 105 rows 2-11, Geneva L Daniel through
+Edward L Daniels, all in Box 166. An exact private-identifier match confirms
+Arlan R Daniels as enlisted Army personnel at entry, while civilian-
+occupation value 999 remains deliberately uninterpreted. John F Daniel's
+indexed major rank and Edward J Danielewicz's indexed first-lieutenant rank
+are preserved as commissioned classifications without assigning external
+namesakes or pre-OSS affiliations. Seven common-name identities remain
+ambiguous and two remain unresolved after 24 Library of Congress candidates
+were inspected and rejected. Exact coverage is 5,018 / 23,940 researched, 566
+verified affiliations, 252 verified employers, 4,973 archival dispositions
+assessed and 18,922 `not_started`. All 94 Python tests, 45 focused checks, 18
+bounded core checks, 6 analysis checks and 27 axe cases pass. The
+24,633-artifact build is deterministic and the privacy, link, profile,
+credential and dependency audits pass. See `reports/release_batch_525.md` and
+`research/batch-525-discovery-checkpoint.md`. Independent GitHub and deployed-
+site verification remain pending. The goal remains active.
+
+Batch 524 is the preceding verified public release. It adds ten saved outcomes
 for personnel-index PDF page 104 rows 38-46 and page 105 row 1, Beatrice Dancy
 through Ernest Daniel, crossing from Box 165 to Box 166. Exact private-
 identifier evidence confirms John Dancy and Dennis V Dangerfield as enlisted
@@ -16,8 +34,11 @@ assessed and 18,932 `not_started`. All 94 Python tests, 45 focused checks, 18
 bounded core checks, 6 analysis checks and 27 axe cases pass. The
 24,633-artifact build is deterministic and the privacy, link, profile,
 credential and dependency audits pass. See `reports/release_batch_524.md` and
-`research/batch-524-discovery-checkpoint.md`. Independent GitHub and deployed-
-site verification remain pending; the goal remains active.
+`research/batch-524-discovery-checkpoint.md`. Pull request #220 was merged as
+commit `fc9d2a3cadd2eb3ca0b038ebd6894088ddc0486c`; PR Test run
+34863234720, main Test run 34863949031 and Pages run 34863948698 succeeded.
+The live verifier matched all 67 manifest assets, 92,203,485 manifest bytes,
+seven core routes and ten direct Batch 524 profiles. The goal remains active.
 
 Batch 523 is the current verified public release. It adds ten saved outcomes for
 personnel-index PDF page 104 rows 27-28 and 30-37, James F D'Amico through
