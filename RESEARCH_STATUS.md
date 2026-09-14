@@ -2,7 +2,26 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
-Batch 513 is the current verified public release. It adds ten saved outcomes
+Batch 514 is the current validated release candidate. It adds ten saved
+outcomes for personnel-index PDF page 102 rows 28-37, Arline Custer through
+Levern W Cutler, all in Box 161. Exact private-identifier matches confirm Joseph
+Cusumano and Levern W Cutler as enlisted Army personnel and support only the
+qualified occupations `Welders and flame cutters` and `Library assistants and
+attendants` at Army entry, never a named employer. The index spelling and a
+spaced `Le Vern` search variant remain visible. Arline Custer, Edward A Custer
+and Frank J Custode remain ambiguous; Edward retains the commissioned Army
+classification printed in the index while an incompatible name-only enlisted
+Army row is rejected. Five other profiles remain unresolved and require Box
+161 review. Ten CIA and ten Library of Congress checks returned no candidates,
+and the complete Army file was scanned without treating unmatched names as
+negative proof. All 94 Python tests, 24 focused checks, 18 bounded core checks,
+6 analysis checks and 27 axe cases pass. Exact coverage is 4,908 / 23,940
+researched, 557 verified affiliations, 248 verified employers, 4,863 archival
+dispositions assessed and 19,032 `not_started`. See
+`reports/release_batch_514.md` and
+`research/batch-514-discovery-checkpoint.md`.
+
+Batch 513 is the preceding verified public release. It adds ten saved outcomes
 for personnel-index PDF page 102 rows 18-27, Joseph T Curtiss through James S
 Cusick, all in Box 161. Yale evidence documents Joseph Toy Curtiss's assistant
 professorship as the role from which OSS recruited him. An official OSS report
