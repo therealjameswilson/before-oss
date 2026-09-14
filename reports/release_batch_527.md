@@ -162,6 +162,12 @@ unknown abbreviation or inferring more than the printed row establishes.
 
 ## Release boundary
 
-Independent GitHub checks, merge, Pages deployment and exact deployed-artifact
-verification remain pending. The research goal remains active because 18,902
-person entities have not yet started the protocol.
+Pull request #223 was merged as commit
+`c1f014215bef39fe451117f910943aacb46eb3ab`. PR Test run 34882800063, main
+Test run 34883520025 and Pages run 34883519985 succeeded. The main workflow
+independently passed the new checked-in-manifest guard, rebuilt the source-PDF
+privacy boundary and completed the identifier audit. The live verifier matched
+all 67 manifest assets (92,410,884 bytes), seven core routes and ten direct
+Batch 527 profiles to that exact commit. Batch 527 is the current verified
+public release. The research goal remains active because 18,902 person
+entities have not yet started the protocol.
