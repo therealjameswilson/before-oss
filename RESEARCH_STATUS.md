@@ -2,6 +2,24 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
+Batch 515 is the current validated local release candidate. It adds ten saved
+outcomes for personnel-index PDF page 102 rows 38-46 and page 103 row 1, Mary W
+Cutler through Louise L Czako, all in Box 162. Richard W Cutler is a
+high-confidence match to the NARA-documented OSS officer; an FBI file and an
+independent profile support Donovan, Leisure, Newton and Lumbard as his last
+civilian employer and the Army Air Forces as his separately modeled immediate
+pre-OSS assignment. Paul Cyr is a high-confidence match based on exact name,
+Vermont residence and compatible age; his historical `Actors and actresses`
+code is published only as an occupation at Army entry, not an employer.
+Charles S Cutting has a high-confidence exact-name and Lieutenant Colonel rank
+match but no employer finding. Louise L Czako remains visibly conflicting
+because the identifier-matched Army row prints Louis; the Army occupation is
+withheld. Six newspaper candidates were rejected after page-context review.
+All 94 Python tests pass. Exact coverage is 4,918 / 23,940 researched, 558
+verified affiliations, 249 verified employers, 4,873 archival dispositions
+assessed and 19,022 `not_started`. See `reports/release_batch_515.md` and
+`research/batch-515-discovery-checkpoint.md`.
+
 Batch 514 is the current verified public release. It adds ten saved
 outcomes for personnel-index PDF page 102 rows 28-37, Arline Custer through
 Levern W Cutler, all in Box 161. Exact private-identifier matches confirm Joseph

@@ -108,4 +108,4 @@ people; and recover named employers, workplaces and Army-to-OSS chronology for
 Joseph Cusumano and Levern W Cutler.
 
 Research resumes with page 102 rows 38-46 and page 103 row 1, Mary W Cutler
-through Steven C Dandolos.
+through Louise L Czako.
