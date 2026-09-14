@@ -2,7 +2,23 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
-Batch 526 is the current release candidate. It adds ten terminal saved outcomes
+Batch 527 is the current release candidate. It adds ten terminal saved outcomes
+for personnel-index PDF page 105 rows 22-31, Joseph A Dann through F A D'Aprix,
+crossing Boxes 166-167. Four exact private-identifier matches support qualified
+Army-entry occupation or student findings without inventing employers. Direct
+contemporary evidence separates Alice Dannenberg's CBS employment from her
+immediate COI government assignment; official British evidence supports Claude
+E Dansey's SIS assignment with uncertain temporal relation. Four identities
+remain ambiguous or unresolved. Exact coverage is 5,038 / 23,940 researched,
+568 verified affiliations, 253 verified employers, 4,993 archival dispositions
+assessed and 18,902 `not_started`. All 95 Python tests, 51 focused checks, 18
+bounded core checks, 6 analysis checks and 27 axe cases pass. A new CI guard
+verifies that all checked-in public assets match their manifest. See
+`reports/release_batch_527.md` and
+`research/batch-527-discovery-checkpoint.md`. Independent GitHub and deployed-
+site verification remain pending. The goal remains active.
+
+Batch 526 is the current deployed release. It adds ten terminal saved outcomes
 for personnel-index PDF page 105 rows 12-21, Elmer Daniels through Frank P
 Dann, all in Box 166. Exact private-identifier evidence confirms Serge
 Daniluck and Frank P Dann / Dannelly as enlisted Army personnel. Daniluck has
@@ -19,7 +35,11 @@ checks, 6 analysis checks and 27 axe cases pass. The 24,635-artifact build is
 deterministic and the privacy, link, profile, credential and dependency audits
 pass. See `reports/release_batch_526.md` and
 `research/batch-526-discovery-checkpoint.md`. Independent GitHub and deployed-
-site verification remain pending. The goal remains active.
+site verification found a release-assembly defect: the manifest described
+newly generated downloads that the commit omitted. GitHub Test and Pages runs
+passed, but Batch 526 is not claimed as exact manifest-verified. Batch 527 adds
+a regression guard and complete download synchronization. The goal remains
+active.
 
 Batch 525 is the current verified public release. It adds ten terminal saved
 outcomes for personnel-index PDF page 105 rows 2-11, Geneva L Daniel through

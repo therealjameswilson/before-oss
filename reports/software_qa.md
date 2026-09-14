@@ -1,6 +1,25 @@
 # Software QA
 
-Run: 2026-09-13 UTC
+Run: 2026-09-14 UTC
+
+- Batch 527 local QA: all **95 / 95** Python tests pass. SQLite integrity and
+  foreign keys pass, and the deterministic 200-profile audit passes all seven
+  checks. Extraction validation remains 522 pages and 23,978 linked source
+  rows. Fifty-one focused checks, 18 bounded core checks, 6 analysis checks
+  and 27 axe cases pass across desktop, phone and tablet. Astro checks 149
+  source files without errors, warnings or hints and generates 24,566 HTML
+  pages / 24,638 artifacts. Every internal target resolves; 49,935 external
+  URLs are inventoried. The identifier audit examines 12,926 normalized
+  identifiers, 120 formatted variants and 1,103 artifact candidates with zero
+  unexpected matches. The production dependency audit finds zero
+  vulnerabilities. Three consecutive builds reproduce public-tree digest
+  `3e72bf2d75d1929d77e44fb864b56b3b5751393a88f0acbea7c1d55ce32f67b6`,
+  production-tree digest
+  `e62b3c058f6cb2df48ae26c4b53fa56d67a691831e7f19ea03095d4dca6c2541`
+  and public-manifest SHA-256
+  `9e72a26181ded4c1ce051a52aa02b4ae5fcfa088ba84123496f42a4ac08e6dc7`.
+  The new local-manifest regression and CI step ensure checked-in downloads
+  match every advertised size and hash. See `reports/release_batch_527.md`.
 
 - Batch 506 local QA: all **94 / 94** Python tests pass. SQLite `quick_check`
   returns `ok`, foreign keys pass, and the deterministic 200-profile audit

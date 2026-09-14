@@ -2,6 +2,7 @@ import hashlib
 import importlib.util
 import json
 from pathlib import Path
+import tempfile
 import unittest
 
 spec = importlib.util.spec_from_file_location("verify_deployed_release", Path(__file__).resolve().parents[1] / "scripts/verify_deployed_release.py")
@@ -49,3 +50,19 @@ class ReleaseVerificationTests(unittest.TestCase):
             release.verify_assets(self.manifest, self.fetch)
         with self.assertRaisesRegex(ValueError, "concurrency"):
             release.verify_assets(self.manifest, self.fetch, workers=5)
+
+    def test_local_tree_must_match_its_manifest(self):
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            public_root = Path(temporary_directory)
+            (public_root / "data").mkdir()
+            (public_root / "downloads").mkdir()
+            asset = public_root / self.record["path"]
+            asset.write_bytes(self.body)
+            (public_root / release.MANIFEST).write_bytes(self.manifest)
+
+            report = release.verify_local_tree(public_root)
+            self.assertEqual(report["assets_verified"], 1)
+
+            asset.write_bytes(b"stale checkout")
+            with self.assertRaisesRegex(ValueError, "Asset size mismatch"):
+                release.verify_local_tree(public_root)
