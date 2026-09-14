@@ -123,6 +123,10 @@ Research-status counts:
   `77e84bdb3b3fef03bfc8f1ff16e76967b0819d05c6521b08ae87c663c4aa8f49`;
   the 24,643-file production tree covers 283,386,995 bytes at SHA-256
   `2055a2feaa770d7455190ac0522af8e1162ae27dc6b0ee1b13c2d8c734cd4158`.
+- PR Test run 34892869139, main Test run 34893610220 and Pages run
+  34893609558 passed. The exact live verifier matched all 67 manifest assets,
+  seven core routes and ten direct cohort profiles to the immutable merge
+  commit.
 
 ## Resume commands
 
@@ -148,7 +152,10 @@ the unfamiliar abbreviation and truncated alias without expansion.
 
 ## Release boundary
 
-Batch 529 is locally release-ready. Independent pull-request, main-branch,
-Pages and exact deployed-site verification remain pending. Batch 528 remains
-the current exact-verified public release. The research goal remains active
-because 18,882 person entities have not yet started the protocol.
+Pull request #225 was merged as commit
+`d019620c99e3bfdc766b22eb791677ad524bb070`. PR Test run 34892869139, main
+Test run 34893610220 and Pages run 34893609558 succeeded. The live verifier
+matched all 67 manifest assets (92,591,760 bytes), seven core routes and ten
+direct Batch 529 profiles to that exact commit. Batch 529 is the current
+verified public release. The research goal remains active because 18,882
+person entities have not yet started the protocol.

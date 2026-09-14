@@ -2,7 +2,25 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
-Batch 529 is the current local release candidate. It adds ten terminal saved
+Batch 530 is the current local release candidate. It adds ten terminal saved
+outcomes for personnel-index PDF page 106 rows 6-15, Charles Datcher through
+May J Dausch, all in Box 168. Four exact private-identifier matches confirm
+enlisted Army identities; three support qualified entry-time occupation
+findings without inventing employers. Dominick Dattoma's undefined occupation
+value remains uninterpreted; `* Daulne`, `Cdt`, and the truncated `aka Jea`
+note remain exactly as indexed; and six identities remain unresolved. Exact
+coverage is 5,068 / 23,940 researched, 569 verified affiliations, 253 verified
+employers, 5,023 archival dispositions assessed and 18,872 `not_started`.
+The clean release build checks 155 source files with zero diagnostics and produces 24,571
+HTML pages; all 95 Python tests, 51 focused checks, 18 core checks, 6 analysis
+checks and 27 axe cases pass. The profile, privacy, link, manifest, credential,
+dependency and three-build reproducibility audits are green. See
+`reports/release_batch_530.md` and
+`research/batch-530-discovery-checkpoint.md`. Batch 529 remains the current
+exact-verified public release while full QA and publication proceed. The goal
+remains active.
+
+Batch 529 is the current exact-verified public release. It adds ten terminal saved
 outcomes for personnel-index PDF page 105 rows 42-46 and page 106 rows 1-5,
 Guy G Darr through Leoni DasMousetis, crossing Boxes 167-168. Three exact
 private-identifier matches support qualified Army-entry occupation findings
@@ -16,9 +34,11 @@ affiliations, 253 verified employers, 5,013 archival dispositions assessed and
 checks, 6 analysis checks and 27 axe cases pass. The 24,643-artifact build is
 deterministic and the privacy, link, profile, manifest, credential and
 dependency audits pass. See `reports/release_batch_529.md` and
-`research/batch-529-discovery-checkpoint.md`. Independent GitHub and deployed-
-site checks remain pending; Batch 528 remains the current exact-verified public
-release. The goal remains active.
+`research/batch-529-discovery-checkpoint.md`. Pull request #225 was merged as
+commit `d019620c99e3bfdc766b22eb791677ad524bb070`; PR Test run
+34892869139, main Test run 34893610220 and Pages run 34893609558 succeeded.
+The live verifier matched all 67 manifest assets, 92,591,760 manifest bytes,
+seven core routes and ten direct Batch 529 profiles. The goal remains active.
 
 Batch 528 is the current exact-verified public release. It adds ten terminal saved outcomes
 for personnel-index PDF page 105 rows 32-41, Grant Darby through Marceau
