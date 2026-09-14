@@ -2,6 +2,27 @@
 
 Run: 2026-09-14 UTC
 
+## Batch 508 release candidate
+
+All internal targets resolve across 24,551 HTML pages; 49,881 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,623 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,100
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 91,024,032 bytes at
+SHA-256 `1b1be2d71bdfcd5967a7596729eb15fdb5a89af2cc2ef5fe847a577604bde860`.
+The 70-file public-tree digest is
+`4c3708e04241c054d397333f2644e9f8cd6da22599a37bf1426dcd934a1d5ab2`;
+the 24,623-file production-tree digest is
+`dbc38fcb21ae74a8c65c29ca909c06fd332d8fc496af0c02ded7ed5239a2a0bf`.
+A second exact public-data and Pages build reproduced both trees. The three
+bundle sources are the OSS index, Army merged-file Catalog record and Army
+technical documentation. Ten CIA and ten Library of Congress checks completed;
+all five LoC candidates received rejected durable decisions. The Harry
+Cunningham patent and cinematography leads and two postwar Hugh Cunningham CIA
+documents remain discovery-only namesakes documented in the checkpoint. No
+authenticated Catalog request was used. Independent GitHub and deployed-site
+checks remain pending.
+
 ## Batch 507 release candidate
 
 All internal targets resolve across 24,551 HTML pages; 49,881 external URLs

@@ -2,6 +2,24 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
+Batch 508 is a validated local release candidate. It adds ten terminal saved
+outcomes for personnel-index PDF page 101 rows 14-23, Ramon C Cunill through
+Lou Cunningham, all in Box 159. A complete 9,200,232-row Army-file scan leaves
+Harry G Cunningham and Helen M Cunningham with two incompatible exact-name
+alternatives each; Hugh T Cunningham has one exact-name row whose identifier
+does not match the private index value. None is selected. `Riuth` is confirmed
+as the source spelling and `Ruth` remains only a search alias. Five Library of
+Congress candidates, two technical-career Harry Cunningham leads and a
+postwar CIA Hugh Cunningham remain rejected or unbridged namesakes. The batch
+adds no affiliation because none meets the identity and temporal standards.
+All 94 Python tests, 15 focused cross-viewport checks, 54 bounded core checks,
+27 axe cases, profile, link, dependency and identifier audits pass; two
+24,551-page builds are byte-identical. Exact coverage is 4,848 / 23,940
+researched, 553 verified affiliations, 246 verified employers, 4,803 archival
+dispositions assessed and 19,092 `not_started`. Batch 508 is not pushed or
+deployed. See `reports/release_batch_508.md` and
+`research/batch-508-discovery-checkpoint.md`.
+
 Batch 507 is a validated local release candidate. It adds ten terminal saved
 outcomes for personnel-index PDF page 101 rows 4-13, Roger Cummings through
 Matthew J Cunic, all in Box 159. Exact private identifiers confirm Melvin F

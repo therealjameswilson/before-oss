@@ -4,6 +4,19 @@ Run: 2026-09-14 UTC
 
 ## Result
 
+Batch 508: the focused cohort suite passed all 15 checks across desktop,
+phone and tablet. It verifies ten immutable page 101 rows; one masked private
+value; seven unresolved identities; the unmerged Harry, Helen and Hugh
+Cunningham alternatives; preservation of `Riuth` as indexed with `Ruth` only
+as a search variant; and dignified Box 159 next actions without invented
+affiliations. Two initial test-only capitalization or label expectations were
+corrected without changing evidence or site behavior. The bounded core suite
+passed 54/54 across the same viewports. The axe route suite passed 27/27 in
+1.8 minutes. Astro checked 132 source files with zero errors, warnings or hints
+and generated 24,551 HTML pages / 24,623 artifacts. A second exact public-data
+and Pages build reproduced both trees byte for byte. Independent GitHub checks
+were not run because this batch was neither pushed nor deployed.
+
 Batch 507: the focused cohort suite passed all 24 checks across desktop,
 phone and tablet. It verifies ten immutable page 101 rows; masked or unprinted
 identifiers; two confirmed enlisted identities; Herman Cundiff's visible Army
