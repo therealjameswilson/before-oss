@@ -4,6 +4,20 @@ Run: 2026-09-14 UTC
 
 ## Result
 
+Batch 523: the focused cohort suite passed all 45 checks across desktop,
+phone and tablet. It verifies ten immutable page 104 rows; five masked private
+values; four exact-identifier Army identities; two qualified occupation-only
+findings without employers; two deliberately uninterpreted occupation values;
+Henri C Damon's indexed French lieutenant-colonel classification; and six
+unresolved identities with Box 165 guidance. The bounded core suite passed
+18/18 and the analysis suite passed 6/6 across the same viewports. The axe
+route suite passed 27/27 in 1.7 minutes. The clean publish tree's Astro check
+covered 148 source files with
+zero errors, warnings or hints and generated 24,561 HTML pages / 24,633
+artifacts. Three consecutive builds from the same public assets reproduced
+both trees byte for byte. Independent GitHub and deployed-site checks remain
+pending until publication.
+
 Batch 522: the focused cohort suite passed all 48 checks across desktop,
 phone and tablet. It verifies eleven immutable page 104 rows; four unique
 masked private values across five printed rows; the four common Daly names'
@@ -12,10 +26,13 @@ M Damen's unaccepted later-career namesake; and the separate Arnold H Damen
 and Arnold H Dammen captain profiles with their probable duplicate relation
 and unresolved spelling conflict. The bounded core suite passed 18/18 and the
 analysis suite passed 6/6 across the same viewports. The axe route suite passed
-27/27 in 1.6 minutes. Astro checked 147 source files with zero errors, warnings
-or hints and generated 24,561 HTML pages / 24,633 artifacts. Three consecutive
-builds from the same public assets reproduced both trees byte for byte.
-Independent GitHub checks remain pending until publication.
+27/27 in 1.6 minutes. The clean publish tree's Astro check covered 147 source
+files with zero errors, warnings or hints and generated 24,561 HTML pages /
+24,633 artifacts. Three consecutive
+builds from the same public assets reproduced both trees byte for byte. PR Test
+run 34853090516, main Test run 34853874883 and Pages run 34853874898 passed;
+the live verifier matched every manifest asset, core route and direct cohort
+profile.
 
 Batch 517: the focused cohort suite passed all 48 checks across desktop,
 phone and tablet. It verifies ten immutable page 103 rows; five masked private
