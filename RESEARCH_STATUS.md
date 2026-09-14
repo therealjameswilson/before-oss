@@ -2,7 +2,24 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
-Batch 511 is a validated local research checkpoint. It adds ten terminal saved
+Batch 512 is a validated local research checkpoint. It adds ten terminal saved
+outcomes for personnel-index PDF page 102 rows 8-17, Joseph T Curtis through
+John S Curtiss, all in Box 161. Exact private-identifier evidence confirms
+Leslie S Curtis and Reid H Curtis as enlisted Army personnel; Reid's `Student`
+category is published only as qualified status at Army entry, not employment
+or a named institution. An official Marine Corps history supports a qualified
+probable Thomas L Curtis identity and an explicit Quantico reconnaissance-
+section-to-OSS military pathway. Contemporary newspaper evidence supports a
+qualified probable John Shelton Curtiss identity and Franklin D. Roosevelt
+Library last-civilian-employer claim. Paul M Curtis and Richard R Curtis remain
+ambiguous; four others remain unresolved. All twelve Library of Congress
+candidates were rejected after full-page review. Exact coverage is 4,888 /
+23,940 researched, 554 verified affiliations, 246 verified employers, 4,843
+archival dispositions assessed and 19,052 `not_started`. Batch 512 is not yet
+pushed or deployed. See `reports/release_batch_512.md` and
+`research/batch-512-discovery-checkpoint.md`.
+
+Batch 511 is the current verified public release. It adds ten terminal saved
 outcomes for personnel-index PDF page 101 rows 44-46 and page 102 rows 1-7,
 Richard Currier through John N Curtis, all in Box 160. Exact private-identifier
 and name matches confirm William B Curry, Earle J Curtis, Floyd J Curtis and
@@ -11,16 +28,19 @@ Horace M Curtis as enlisted Army personnel. Earle's `General farmer`, Floyd's
 are published only as qualified occupations at Army entry; William's value 999
 remains uninterpreted. A 1940 newspaper names Colonel Charles C Curtis of the
 213th Coast Artillery, but the index supplies no rank or identifier and no
-source bridges that person to OSS, so the lead remains plausible and
-unpublished pending identity review. The other five identities remain
-unresolved.
+source bridges that person to OSS, so the lead remains plausible and unpub-
+lished pending identity review. The other five identities remain unresolved.
 Fifteen of sixteen Library of Congress candidates were rejected after full-
 page context review; the Charles Curtis lead is preserved. Exact coverage is
 4,878 / 23,940 researched, 554 verified affiliations, 246 verified employers,
-4,833 archival dispositions assessed and 19,062 `not_started`. Batch 511 is not
-yet pushed or deployed. See `research/batch-511-discovery-checkpoint.md`.
+4,833 archival dispositions assessed and 19,062 `not_started`. Pull request
+#202 was merged as commit `9b82ae01b5a738d7f6b2dc74973f2dbd93d81f32`;
+GitHub Pages run 34806155661 succeeded. The live verifier matched all 67
+manifest assets (91,151,036 bytes), seven core routes and ten direct Batch 511
+profiles to that commit. See `reports/release_batch_511.md` and
+`research/batch-511-discovery-checkpoint.md`.
 
-Batch 510 is the current verified public release. It adds ten terminal saved
+Batch 510 is an earlier verified public release. It adds ten terminal saved
 outcomes for personnel-index PDF page 101 rows 34-43, Mary T Curio through
 Teresita Currie, all in Box 160. Exact private-identifier and name matches
 confirm Anton Curl, Michael J Curley and Charley Curo as enlisted Army

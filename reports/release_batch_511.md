@@ -165,10 +165,13 @@ Curtiss, all in Box 161.
 
 ## Release boundary
 
-Batch 511 is a validated local release candidate and has not yet been pushed
-or deployed. No authenticated NARA Catalog API request was made. The research
-goal remains active because 19,062 person entities have not yet started the
-research protocol. The generated entity-resolution report retains its
-pre-existing warning that not every possible duplicate group is marked for
-manual review; Batch 511 creates no new duplicate group, merge or silent
-conflation.
+Batch 511 was merged in pull request #202 as commit
+`9b82ae01b5a738d7f6b2dc74973f2dbd93d81f32`. Main-branch test run 34806155655
+and Pages run 34806155661 succeeded. The live verifier matched all 67 manifest
+assets (91,151,036 bytes), seven core routes and ten direct Batch 511 profiles
+to that commit. No authenticated NARA Catalog API request was made. The
+research goal remains active because 19,062 person entities had not yet
+started the research protocol at this release. The generated entity-resolution
+report retains its pre-existing warning that not every possible duplicate
+group is marked for manual review; Batch 511 creates no new duplicate group,
+merge or silent conflation.

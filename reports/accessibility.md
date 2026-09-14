@@ -4,6 +4,19 @@ Run: 2026-09-14 UTC
 
 ## Result
 
+Batch 512: the focused cohort suite passed all 15 checks across desktop,
+phone and tablet. It verifies ten immutable page 102 rows; four masked private
+values; Leslie S Curtis and Reid H Curtis as confirmed enlisted personnel;
+Reid's qualified student status without an invented school or employer;
+Thomas L Curtis's qualified probable Marine reconnaissance pathway; John S
+Curtiss's qualified probable Franklin D. Roosevelt Library employment; and six
+ambiguous or unresolved profiles with Box 161 guidance. The bounded core suite
+passed 18/18 and the analysis suite passed 6/6 across the same viewports. The
+axe route suite passed 27/27 in 1.9 minutes. Astro checked 137 source files with
+zero errors, warnings or hints and generated 24,553 HTML pages / 24,625
+artifacts. A second exact public-data and Pages build reproduced both trees
+byte for byte. Independent GitHub checks remain pending.
+
 Batch 510: the focused cohort suite passed all 15 checks across desktop,
 phone and tablet. It verifies ten immutable page 101 rows; six masked private
 values; Anton Curl and Michael J Curley's confirmed enlisted identities and

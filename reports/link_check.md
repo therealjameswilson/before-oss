@@ -2,6 +2,24 @@
 
 Run: 2026-09-14 UTC
 
+## Batch 512 release candidate
+
+All internal targets resolve across 24,553 HTML pages; 49,885 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,625 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,101
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 91,221,402 bytes at
+SHA-256 `8b794b4a1fb526fa5f1dd2f089cf3fc130103cb4187b689def44b4dffb65bc6d`.
+The 70-file public-tree digest is
+`905527355ae25e94c3bf8a89f932577a8b805ce0ba6a5b3b68a117e329fb59bb`;
+the 24,625-file production-tree digest is
+`7734a116e74c9874a3a6194016d19ca1132190f19b127e2d6f0197b81941941c`.
+A second exact public-data and Pages build reproduced both trees. Seven bundle
+sources support qualified outcomes for Leslie S Curtis, Reid H Curtis, Thomas
+L Curtis and John S Curtiss; twelve Library of Congress candidates were
+rejected after page review. No authenticated Catalog request was used.
+Independent GitHub and deployed-site checks remain pending.
+
 ## Batch 510 release candidate
 
 All internal targets resolve across 24,551 HTML pages; 49,881 external URLs
