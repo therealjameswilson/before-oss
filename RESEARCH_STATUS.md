@@ -1,6 +1,25 @@
 # Research status
 
-Verified against the current local SQLite database on 2026-09-13 UTC.
+Verified against the current local SQLite database on 2026-09-14 UTC.
+
+Batch 507 is a validated local release candidate. It adds ten terminal saved
+outcomes for personnel-index PDF page 101 rows 4-13, Roger Cummings through
+Matthew J Cunic, all in Box 159. Exact private identifiers confirm Melvin F
+Cummins and Matthew J Cunic as enlisted Army personnel while Herman L
+Cundiff's identifier-name conflict remains explicit. Two official sources
+document Ernest L Cuneo's earlier newspaper and LaGuardia work and his
+1936-1940 Democratic National Committee role; the latter is published only as
+a medium-confidence probable-immediate affiliation because the post-1940 gap
+is unresolved. Julia Cuniberti's Vassar Class of 1944 chronology is published
+as a student affiliation, never an employer. Five other people remain
+ambiguous or unresolved, and two wrong-initial newspaper candidates are
+durably rejected. All 94 Python tests, 24 focused cross-viewport checks, 54
+bounded core checks, 27 axe cases, profile, link, dependency and identifier
+audits pass; two 24,551-page builds are byte-identical. Exact coverage is 4,838
+/ 23,940 researched, 553 verified affiliations, 246 verified employers, 4,793
+archival dispositions assessed and 19,102 `not_started`. Batch 507 is not
+pushed or deployed. See `reports/release_batch_507.md` and
+`research/batch-507-discovery-checkpoint.md`.
 
 Batch 506 is a validated local release candidate. It adds ten terminal saved
 outcomes across personnel-index PDF page 100 rows 40-46 and page 101 rows 1-3,

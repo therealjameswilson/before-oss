@@ -1,6 +1,26 @@
 # Link check
 
-Run: 2026-09-13 UTC
+Run: 2026-09-14 UTC
+
+## Batch 507 release candidate
+
+All internal targets resolve across 24,551 HTML pages; 49,881 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,623 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,098
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 91,018,147 bytes at
+SHA-256 `9b06bbd69277801d2df51d0c84a624caef79bdbd19f12d945f4c53f457f7c987`.
+The 70-file public-tree digest is
+`58f23a5cd5e666aef0f32fad35b1f93ce11e26ad73deb389f4d046e6df2bf811`;
+the 24,623-file production-tree digest is
+`2cbf488a66bddb9f261257a12705b57fbe26d0385ffbfb268259096f044546f9`.
+A second exact public-data and Pages build reproduced both trees. Eight Batch
+507 publication sources were inspected during research, including the source
+index, Army Catalog documentation and occupation-code list, two official
+Ernest Cuneo sources, the Julia Cuniberti obituary and Vassar finding aid. No
+authenticated Catalog request was used. Ten CIA and ten Library of Congress
+checks completed; both LoC candidates received rejected durable decisions.
+Independent GitHub and deployed-site checks remain pending.
 
 ## Batch 506 release candidate
 

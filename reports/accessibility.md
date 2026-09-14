@@ -1,8 +1,22 @@
 # Accessibility and responsive QA
 
-Run: 2026-09-13 UTC
+Run: 2026-09-14 UTC
 
 ## Result
+
+Batch 507: the focused cohort suite passed all 24 checks across desktop,
+phone and tablet. It verifies ten immutable page 101 rows; masked or unprinted
+identifiers; two confirmed enlisted identities; Herman Cundiff's visible Army
+record conflict; Ernest Cuneo's qualified Democratic National Committee
+predecessor and separate earlier roles; Julia Cuniberti's Vassar student
+affiliation; and five ambiguous or unresolved profiles with Box 159 guidance.
+The bounded core suite passed 54/54 across the same viewports. The axe route
+suite passed 27/27 in 1.7 minutes. Astro checked 131 source files with zero
+errors, warnings or hints and generated 24,551 HTML pages / 24,623 artifacts.
+A second exact public-data and Pages build reproduced both trees byte for byte.
+An accidentally over-broad historical-matrix run was stopped after 94 clean
+passes; its interrupted 95th case is not counted. Independent GitHub checks
+were not run because this batch was neither pushed nor deployed.
 
 Batch 506: the focused cohort suite passed all 21 checks across desktop,
 phone and tablet. It verifies ten immutable rows across pages 100-101; masked
