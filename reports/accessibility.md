@@ -4,6 +4,20 @@ Run: 2026-09-14 UTC
 
 ## Result
 
+Batch 528: the focused cohort suite passed all 51 checks across desktop,
+phone and tablet. It verifies ten immutable page 105 rows; five masked private
+values; three strict private-identifier Army matches; three qualified entry-
+time occupation or student findings without employers; Chris Dariotis's
+separate probable Army Air Corps, University student and earlier employment
+pathways; Grant Darby's qualified identity lead; Marceau Darques's official
+French archival pointer; and four unresolved profiles with Box 167 guidance.
+The bounded core suite passed 18/18 and the analysis suite passed 6/6 across
+the same viewports. The axe route suite passed 27/27 in 1.9 minutes. Astro
+checked 150 source files with zero errors, warnings or hints and generated
+24,569 HTML pages / 24,641 artifacts. Three consecutive builds reproduced the
+public and production trees byte for byte. Independent GitHub and deployed-
+site checks remain pending.
+
 Batch 527: the focused cohort suite passed all 51 checks across desktop,
 phone and tablet. It verifies ten immutable page 105 rows; four strict private-
 identifier Army matches; four qualified entry-time occupation or student
@@ -14,7 +28,9 @@ unresolved profiles with Box 166/167 guidance. The bounded core suite passed
 route suite passed 27/27 in 1.8 minutes. Astro checked 149 source files with
 zero errors, warnings or hints and generated 24,566 HTML pages / 24,638
 artifacts. Three consecutive builds reproduced the public and production trees
-byte for byte. Independent GitHub and deployed-site checks remain pending.
+byte for byte. PR Test run 34882800063, main Test run 34883520025 and Pages run
+34883519985 passed; the live verifier matched every manifest asset, core route
+and direct cohort profile.
 
 Batch 526: the focused cohort suite passed all 48 checks across desktop,
 phone and tablet. It verifies ten immutable page 105 rows; four masked private

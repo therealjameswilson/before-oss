@@ -2,7 +2,28 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
-Batch 527 is the current release candidate. It adds ten terminal saved outcomes
+Batch 528 is the current release candidate. It adds ten terminal saved outcomes
+for personnel-index PDF page 105 rows 32-41, Grant Darby through Marceau
+Darques, all in Box 167. Exact private-identifier evidence confirms Edmund
+D'Areienzo, Luigi D'Arezzo and Caesar J Dario as enlisted Army personnel and
+supports only qualified entry-time student or occupation findings, not named
+employers. A high-confidence Chris Dariotis identity preserves his probable
+immediate Army Air Corps assignment separately from University of Washington
+student status and earlier Imperial Linen Supply work; the latter is not
+promoted to last civilian employer. Grant Darby and Marceau Darques have
+high-confidence identity or archival leads without employer findings, while
+four identities remain unresolved. Exact coverage is 5,048 / 23,940
+researched, 569 verified affiliations, 253 verified employers, 5,003 archival
+dispositions assessed and 18,892 `not_started`. All 95 Python tests, 51
+focused checks, 18 bounded core checks, 6 analysis checks and 27 axe cases
+pass. The 24,641-artifact build is deterministic and the privacy, link,
+profile, manifest, credential and dependency audits pass. See
+`reports/release_batch_528.md` and
+`research/batch-528-discovery-checkpoint.md`. Independent GitHub and deployed-
+site checks remain pending until publication. Batch 527 remains the exact-
+verified public release. The goal remains active.
+
+Batch 527 is the current verified public release. It adds ten terminal saved outcomes
 for personnel-index PDF page 105 rows 22-31, Joseph A Dann through F A D'Aprix,
 crossing Boxes 166-167. Four exact private-identifier matches support qualified
 Army-entry occupation or student findings without inventing employers. Direct
@@ -15,8 +36,11 @@ assessed and 18,902 `not_started`. All 95 Python tests, 51 focused checks, 18
 bounded core checks, 6 analysis checks and 27 axe cases pass. A new CI guard
 verifies that all checked-in public assets match their manifest. See
 `reports/release_batch_527.md` and
-`research/batch-527-discovery-checkpoint.md`. Independent GitHub and deployed-
-site verification remain pending. The goal remains active.
+`research/batch-527-discovery-checkpoint.md`. Pull request #223 was merged as
+commit `c1f014215bef39fe451117f910943aacb46eb3ab`; PR Test run 34882800063,
+main Test run 34883520025 and Pages run 34883519985 succeeded. The live
+verifier matched all 67 manifest assets, 92,410,884 manifest bytes, seven core
+routes and ten direct Batch 527 profiles. The goal remains active.
 
 Batch 526 is the current deployed release. It adds ten terminal saved outcomes
 for personnel-index PDF page 105 rows 12-21, Elmer Daniels through Frank P
