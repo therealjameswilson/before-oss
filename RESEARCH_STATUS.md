@@ -2,7 +2,7 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
-Batch 514 is the current validated release candidate. It adds ten saved
+Batch 514 is the current verified public release. It adds ten saved
 outcomes for personnel-index PDF page 102 rows 28-37, Arline Custer through
 Levern W Cutler, all in Box 161. Exact private-identifier matches confirm Joseph
 Cusumano and Levern W Cutler as enlisted Army personnel and support only the
@@ -17,7 +17,11 @@ and the complete Army file was scanned without treating unmatched names as
 negative proof. All 94 Python tests, 24 focused checks, 18 bounded core checks,
 6 analysis checks and 27 axe cases pass. Exact coverage is 4,908 / 23,940
 researched, 557 verified affiliations, 248 verified employers, 4,863 archival
-dispositions assessed and 19,032 `not_started`. See
+dispositions assessed and 19,032 `not_started`. Pull request #207 was merged
+as commit `ef09935ba44846bd9a9cc3ce7b3216e9f2144d10`; PR test run
+34815505316, main test run 34816042572 and Pages run 34816042561 succeeded.
+The live verifier matched all 67 manifest assets (91,376,384 bytes), seven core
+routes and ten direct Batch 514 profiles to that commit. See
 `reports/release_batch_514.md` and
 `research/batch-514-discovery-checkpoint.md`.
 

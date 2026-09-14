@@ -140,9 +140,13 @@ through Louise L Czako, all in Box 162.
 
 ## Release boundary
 
-Batch 514 is locally validated but not yet merged or deployed. No authenticated
-NARA Catalog API request was made. The research goal remains active because
-19,032 person entities have not yet started the research protocol. The
-generated entity-resolution report retains its pre-existing warning that not
-every possible duplicate group is marked for manual review; Batch 514 creates
-no new duplicate group, merge or silent conflation.
+Batch 514 was merged in pull request #207 as commit
+`ef09935ba44846bd9a9cc3ce7b3216e9f2144d10`. PR test run 34815505316, main
+test run 34816042572 and Pages run 34816042561 succeeded. The deployed verifier
+matched all 67 manifest assets (91,376,384 bytes), seven core routes and ten
+direct Batch 514 profiles to that commit. No authenticated NARA Catalog API
+request was made. The research goal remains active because 19,032 person
+entities have not yet started the research protocol. The generated entity-
+resolution report retains its pre-existing warning that not every possible
+duplicate group is marked for manual review; Batch 514 creates no new duplicate
+group, merge or silent conflation.
