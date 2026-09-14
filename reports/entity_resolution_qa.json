@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-14T12:48:45+00:00",
+  "generated_at": "2026-09-14T13:44:45+00:00",
   "source_rows": 23978,
   "person_entities": 23940,
   "stored_person_entities": 23941,
   "superseded_person_entities": 1,
   "source_rows_linked": 23978,
   "identity_status_counts": {
-    "ambiguous": 219,
+    "ambiguous": 224,
     "confirmed": 1015,
-    "conflicting": 94,
+    "conflicting": 96,
     "high_confidence": 700,
     "probable": 156,
-    "unresolved": 21756
+    "unresolved": 21749
   },
   "link_status_counts": {
     "confirmed": 1018,

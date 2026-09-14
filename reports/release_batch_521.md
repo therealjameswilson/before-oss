@@ -151,13 +151,13 @@ Research resumes with page 104 row 17, George R Daly, in Box 165.
 
 ## Release boundary
 
-Batch 521 is a validated local release candidate and has not yet replaced the
-verified Batch 520 public release. Batch 520 remains deployed as immutable
-content commit `233e589e42acf2d3de3de3de5447322d190fea3a131`; main Test run
-34842352950 and Pages run 34842353061 succeeded, and the deployed verifier
-matched all 67 manifest assets, 92,009,768 manifest bytes, seven core routes
-and ten direct Batch 520 profiles. The research goal remains active because
-18,963 person entities have not yet started the protocol. The generated entity-
-resolution report retains its pre-existing warning that not every possible
-duplicate group is marked for manual review; Batch 521 creates no new merge or
-silent conflation.
+Pull request #217 was merged as immutable main commit
+`53c071bac9afab2d8d4ae081e5253388fed1e2bf`. PR Test run 34847423079, main
+Test run 34848185791 and Pages run 34848185806 succeeded. The deployed verifier
+matched all 67 manifest assets, 92,111,132 manifest bytes, seven core routes
+and ten direct Batch 521 profiles at
+<https://therealjameswilson.github.io/before-oss/>. The research goal remains
+active because 18,963 person entities had not yet started the protocol at this
+release. The generated entity-resolution report retains its pre-existing
+warning that not every possible duplicate group is marked for manual review;
+Batch 521 creates no new merge or silent conflation.

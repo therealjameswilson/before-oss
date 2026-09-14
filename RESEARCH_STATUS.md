@@ -2,7 +2,25 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
-Batch 521 is a validated local release candidate. It adds ten saved outcomes
+Batch 522 is the current release candidate. It adds eleven saved outcomes for
+personnel-index PDF page 104 rows 17-26, George R Daly through Caroline
+Damerau, plus the linked Arnold H Dammen spelling-conflict row 29, all in Box
+165. The four common Daly names remain ambiguous after complete Army-file and
+newspaper-context review; four other identities remain unresolved; and Edward
+M Damen remains ambiguous. Arnold H Damen and Arnold H Dammen share the same
+private identifier, given name, middle initial, captain rank, box and location,
+but remain two immutable source rows and two separate, visibly conflicting
+profiles until the authoritative surname spelling can be established. No
+employer or affiliation claim was created. Exact coverage is 4,988 / 23,940
+researched, 566 verified affiliations, 252 verified employers, 4,943 archival
+dispositions assessed and 18,952 `not_started`. All 94 Python tests, 48 focused
+checks, 18 bounded core checks, 6 analysis checks and 27 axe cases pass. The
+24,633-artifact build is deterministic and the privacy, link, profile,
+credential and dependency audits pass. See `reports/release_batch_522.md` and
+`research/batch-522-discovery-checkpoint.md`. Independent GitHub and deployed-
+site verification remain pending publication.
+
+Batch 521 is the current verified public release. It adds ten saved outcomes
 for eleven immutable personnel-index rows on PDF page 104 rows 6-16, Amando
 Dalisay through Edward F Daly, spanning Boxes 164-165. Exact private-
 identifier evidence confirms John E Dally, Ronald E Dalrymple, Robert A
@@ -19,9 +37,13 @@ focused checks, 18 bounded core checks, 6 analysis checks and 27 axe cases
 pass. The 24,633-artifact build is deterministic and the privacy, link,
 profile, source-URL and dependency audits pass. See
 `reports/release_batch_521.md` and
-`research/batch-521-discovery-checkpoint.md`.
+`research/batch-521-discovery-checkpoint.md`. Pull request #217 was merged as
+commit `53c071bac9afab2d8d4ae081e5253388fed1e2bf`; PR Test run 34847423079,
+main Test run 34848185791 and Pages run 34848185806 succeeded. The live
+verifier matched all 67 manifest assets, 92,111,132 manifest bytes, seven core
+routes and ten direct Batch 521 profiles.
 
-Batch 520 is the current verified public release. It adds ten saved outcomes
+Batch 520 is an earlier verified public release. It adds ten saved outcomes
 for personnel-index PDF page 103 rows 42-46 and page 104 rows 1-5, John P
 Dalberg through Lucille Dalious, all in Box 164. Exact private-identifier
 evidence confirms John P Dalberg, Ernest D'Alessandro, Giuseppe D'Alessandro
