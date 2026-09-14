@@ -156,9 +156,11 @@ Daane, in Boxes 162-163.
 
 ## Release boundary
 
-Batch 515 is a validated local release candidate. Deployment commit, workflow
-run identifiers and live-manifest verification will be added only after merge
-and successful GitHub Pages publication. No authenticated NARA Catalog API
+Batch 515 was merged in pull request #209 as commit
+`00cbc8f4641abf3964dc7d9c5102422e193f47f4`. PR test run 34821669757, main
+test run 34822168721 and Pages run 34822168766 succeeded. The deployed verifier
+matched all 67 manifest assets (91,456,163 bytes), seven core routes and ten
+direct Batch 515 profiles to that commit. No authenticated NARA Catalog API
 request was made. The research goal remains active because 19,022 person
 entities have not yet started the research protocol. The generated entity-
 resolution report retains its pre-existing warning that not every possible

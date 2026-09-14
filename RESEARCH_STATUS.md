@@ -2,7 +2,7 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
-Batch 515 is the current validated local release candidate. It adds ten saved
+Batch 515 is the current verified public release. It adds ten saved
 outcomes for personnel-index PDF page 102 rows 38-46 and page 103 row 1, Mary W
 Cutler through Louise L Czako, all in Box 162. Richard W Cutler is a
 high-confidence match to the NARA-documented OSS officer; an FBI file and an
@@ -18,9 +18,13 @@ withheld. Six newspaper candidates were rejected after page-context review.
 All 94 Python tests pass. Exact coverage is 4,918 / 23,940 researched, 558
 verified affiliations, 249 verified employers, 4,873 archival dispositions
 assessed and 19,022 `not_started`. See `reports/release_batch_515.md` and
-`research/batch-515-discovery-checkpoint.md`.
+`research/batch-515-discovery-checkpoint.md`. Pull request #209 was merged as
+commit `00cbc8f4641abf3964dc7d9c5102422e193f47f4`; PR test run 34821669757,
+main test run 34822168721 and Pages run 34822168766 succeeded. The live verifier
+matched all 67 manifest assets (91,456,163 bytes), seven core routes and ten
+direct Batch 515 profiles to that commit.
 
-Batch 514 is the current verified public release. It adds ten saved
+Batch 514 is the preceding verified public release. It adds ten saved
 outcomes for personnel-index PDF page 102 rows 28-37, Arline Custer through
 Levern W Cutler, all in Box 161. Exact private-identifier matches confirm Joseph
 Cusumano and Levern W Cutler as enlisted Army personnel and support only the
@@ -85,7 +89,7 @@ The live verifier matched all 67 manifest assets (91,221,402 bytes), seven core
 routes and ten direct Batch 512 profiles to that commit. See
 `reports/release_batch_512.md` and `research/batch-512-discovery-checkpoint.md`.
 
-Batch 511 is the current verified public release. It adds ten terminal saved
+Batch 511 is an earlier verified public release. It adds ten terminal saved
 outcomes for personnel-index PDF page 101 rows 44-46 and page 102 rows 1-7,
 Richard Currier through John N Curtis, all in Box 160. Exact private-identifier
 and name matches confirm William B Curry, Earle J Curtis, Floyd J Curtis and
