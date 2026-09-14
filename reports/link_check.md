@@ -2,6 +2,26 @@
 
 Run: 2026-09-14 UTC
 
+## Batch 509 release candidate
+
+All internal targets resolve across 24,551 HTML pages; 49,881 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,623 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,102
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 91,047,338 bytes at
+SHA-256 `0ede94f1efc7cb2d86f08ee9897d64031b544612977aab9ce3a602549df540cf`.
+The 70-file public-tree digest is
+`34c73a7f3e83bcb96f4c908292136b2d8b6d0ee57060ee786ee07bffe3d4dcba`;
+the 24,623-file production-tree digest is
+`18742ebed32af4c50d908ab28e2a3cbe1b568ec32c795c59d2118abaca8a86b6`.
+A second exact public-data and Pages build reproduced both trees. The four
+bundle sources are the OSS index, Army merged-file Catalog record and two Army
+technical-documentation files. Ten CIA checks and 18 actual Library of
+Congress attempts completed; all 28 LoC candidates received rejected durable
+decisions. Unbridged Alberto Cupelli media leads and Sanford Curcie postwar
+leads remain withheld. No authenticated Catalog request was used. Independent
+GitHub and deployed-site checks remain pending.
+
 ## Batch 508 release candidate
 
 All internal targets resolve across 24,551 HTML pages; 49,881 external URLs

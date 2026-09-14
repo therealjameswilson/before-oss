@@ -4,6 +4,21 @@ Run: 2026-09-14 UTC
 
 ## Result
 
+Batch 509: the focused cohort suite passed all 15 checks across desktop,
+phone and tablet. It verifies ten immutable page 101 rows; two masked private
+values; the Box 159-to-160 boundary; Murray O Cunningham's confirmed enlisted
+identity and qualified `Photographers` occupation without a named employer;
+six unmerged identity alternatives; three unresolved profiles; and Roy H
+Cunningham's printed commissioned classification without selecting either
+private-at-entry Army namesake. Initial test-only public-field and
+capitalization expectations were corrected without changing evidence or site
+behavior. The bounded core suite passed 39/39 across the same viewports. The
+axe route suite passed 27/27 in 1.6 minutes. Astro checked 133 source files with
+zero errors, warnings or hints and generated 24,551 HTML pages / 24,623
+artifacts. A second exact public-data and Pages build reproduced both trees
+byte for byte. Independent GitHub checks were not run because this batch was
+neither pushed nor deployed.
+
 Batch 508: the focused cohort suite passed all 15 checks across desktop,
 phone and tablet. It verifies ten immutable page 101 rows; one masked private
 value; seven unresolved identities; the unmerged Harry, Helen and Hugh

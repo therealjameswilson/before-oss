@@ -2,6 +2,26 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
+Batch 509 is a validated local release candidate. It adds ten terminal saved
+outcomes for personnel-index PDF page 101 rows 24-33, Mary Cunningham through
+Sanford C Curcie, crossing from Box 159 to Box 160. An exact private-identifier
+and exact-name match confirms Murray O Cunningham as enlisted Army personnel;
+the Army row and official code list support only the qualified civilian
+occupation category `Photographers` at Army entry, never a named employer or
+immediate OSS predecessor. Six common-name or rank-dependent identities remain
+ambiguous, including Captain Roy H Cunningham, whose printed commissioned
+classification is retained while two private-at-entry namesakes remain
+unassigned. Mary Cunningham, Alberto Cupelli and Sanford C Curcie remain
+unresolved; contemporary or postwar namesake leads are withheld without an OSS
+or personnel-file bridge. All 28 Library of Congress candidates were rejected
+after full-page context review. Focused browser QA passes 15/15 checks across
+desktop, phone and tablet; full regression and release audits are recorded in
+`reports/release_batch_509.md`. Exact coverage is 4,858 / 23,940 researched,
+553 verified affiliations, 246 verified employers, 4,813 archival dispositions
+assessed and 19,082 `not_started`. Batch 509 is not pushed or deployed. See
+`reports/release_batch_509.md` and
+`research/batch-509-discovery-checkpoint.md`.
+
 Batch 508 is a validated local release candidate. It adds ten terminal saved
 outcomes for personnel-index PDF page 101 rows 14-23, Ramon C Cunill through
 Lou Cunningham, all in Box 159. A complete 9,200,232-row Army-file scan leaves
