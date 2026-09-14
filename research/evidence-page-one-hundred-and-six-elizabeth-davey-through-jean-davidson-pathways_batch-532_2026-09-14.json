@@ -1,0 +1,726 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Codex archival review",
+  "sources": [
+    {
+      "key": "index-b532",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; PDF page 106 rows 26-35 visually inspected; rows 26-34 Box 168, location 230/86/29/05; row 35 Box 169, location 230/86/29/06",
+      "access_date": "2026-09-14",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Citation and project-authored assessments only. Printed private values are withheld from public claims and exports. The second consecutive Elizabeth Davey row is preserved separately and is not merged with row 25 from name agreement alone."
+    },
+    {
+      "key": "army-b532",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official ASNEF.FIN.DAT; complete transient scan of 9,200,232 fixed-width records; three accepted private-identifier and exact-name matches; identifiers withheld",
+      "access_date": "2026-09-14",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full private identifier is retained. Charles W David, Donald J Davidson and George B Davidson have accepted identifier-and-name matches. Abraham Davidson's printed value selected an Army row under a different full name and is rejected; seven exact-name alternatives are not assigned. David Davidian's eligible printed value had no hit and two exact-name rows remain unassigned. Homer David Jr.'s printed value did not meet the strict eight-digit eligibility rule. The incomplete Army file is not a comprehensive OSS, officer, Navy, Marine Corps, civilian, WAC, Coast Guard, or foreign roster; a non-hit is not negative proof."
+    },
+    {
+      "key": "codes-b532",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Code Lists",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "Civilian-occupation entries 0-02, 1-70 and 6-78 visually checked on PDF physical pages 170, 176 and 177",
+      "access_date": "2026-09-14",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "NARA's documentation warns that historical occupation-code interpretations can be imperfect. The codes identify neither a specific employer nor the sequence from Army service to OSS. Broad and residual occupational wording is preserved without modernization."
+    },
+    {
+      "key": "homer-awards-b532",
+      "stable_url": "https://www.archives.gov/files/research/jfk/releases/104-10165-10120.pdf",
+      "archival_identifier": "JFK assassination-records document 104-10165-10120",
+      "title": "Minutes of Meeting of Awards & Decorations Board; 14 Aug 45",
+      "author_creator": "Headquarters Detachment, Office of Strategic Services, United States Forces European Theater",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "Record bears 8 August 1945 and describes a 14 August 1945 meeting",
+      "locator": "PDF physical page 120; AG 637; internal handwritten page 69",
+      "access_date": "2026-09-14",
+      "source_quality": "A_direct_official",
+      "collection_name": "JFK Assassination Records Collection",
+      "document_number": "104-10165-10120",
+      "rights_notes": "The page was rendered and visually inspected. It places Major Homer David at an OSS awards-board meeting in the European Theater, but omits the suffix and gives no pre-OSS employer or occupation."
+    },
+    {
+      "key": "lovell-b532",
+      "stable_url": "https://www.lovellhistoricalsociety.org/wp-content/uploads/2015/12/Summer-2014.pdf",
+      "title": "Conifer As I Remember It",
+      "author_creator": "Ford Hutchinson",
+      "repository_publisher": "Lovell Historical Society",
+      "publication_record_date": "Summer 2014",
+      "locator": "Yesterday's News, volume 21, number 3, PDF physical page 6; visually inspected in Batch 531",
+      "access_date": "2026-09-14",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Yesterday's News",
+      "rights_notes": "The article identifies an Elizabeth Davey Velen as an OSS member, but it does not identify a pre-OSS employer, distinguish the two consecutive Elizabeth Davey index rows, or link either row to a private identifier. Radcliffe attendance is not classified as employment, and a later United Nations career is not recast as pre-OSS."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "charles-w-david-sales-clerk-b532",
+      "person_id": "9e5dd326-d7c8-5423-a2ce-d6843e803100",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Sales clerk",
+      "occupation": "Clerks, sales",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1940-07-29",
+      "date_precision": "Civilian-occupation value 170 was recorded at Army entry on July 29, 1940. NARA's code table defines 1-70 as clerks, sales; no employer, store, product, or location is identified.",
+      "city": null,
+      "state_or_region": "Delaware",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier and full name confirm the Army identity. The occupation is not converted into a named retailer, employer, or self-employment claim."
+    },
+    {
+      "key": "donald-j-davidson-actor-b532",
+      "person_id": "149e4a21-1703-5ddb-98d5-91d28cf3a9cf",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Actor or actress",
+      "occupation": "Actors and actresses",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-03-20",
+      "date_precision": "Civilian-occupation value 002 was recorded at Army entry on March 20, 1943. NARA's code table defines 0-02 as actors and actresses; no employer, company, theater, production, or union is identified.",
+      "city": null,
+      "state_or_region": "Rhode Island",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier and full name confirm the Army identity. The historical category is preserved and is not converted into a named employer or credited production."
+    },
+    {
+      "key": "george-b-davidson-machine-shop-b532",
+      "person_id": "d9ad3e21-13e2-5bcb-bdbd-d8bbe1f2c80e",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Machine-shop or related occupation, not elsewhere classified",
+      "occupation": "Machine shop and related occupations, n.e.c.",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1945-03-17",
+      "date_precision": "Civilian-occupation value 678 was recorded at Army entry on March 17, 1945. NARA's code table defines 6-78 as machine shop and related occupations, n.e.c.; no employer, shop, trade, or task is identified.",
+      "city": null,
+      "state_or_region": "Maryland",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier and full name confirm the Army identity. The residual historical category is not expanded to a particular task, company, or self-employment claim."
+    }
+  ],
+  "claims": [
+    {
+      "key": "charles-w-david-identity-b532",
+      "person_id": "9e5dd326-d7c8-5423-a2ce-d6843e803100",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The OSS index and Army merged file identify the same Charles W David.",
+      "evidence_excerpt": "DAVID CHARLES W",
+      "evidence_paraphrase": "The private identifier and exact full name agree across the two official NARA records.",
+      "identity_match_assessment": "Confirmed by the exact private identifier and full-name agreement.",
+      "temporal_assessment": "The Army row records entry on July 29, 1940, as private in the Medical Department.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private value is withheld publicly. Two other exact-name Army rows carry different identifiers and are not assigned.",
+      "sources": [
+        {
+          "source_key": "index-b532",
+          "support_type": "supports",
+          "locator_override": "PDF page 106, row 27; Box 168",
+          "excerpt_override": "DAVID CHARLES W"
+        },
+        {
+          "source_key": "army-b532",
+          "support_type": "supports",
+          "excerpt_override": "DAVID CHARLES W"
+        }
+      ]
+    },
+    {
+      "key": "charles-w-david-occupation-b532",
+      "person_id": "9e5dd326-d7c8-5423-a2ce-d6843e803100",
+      "affiliation_key": "charles-w-david-sales-clerk-b532",
+      "claim_type": "occupation",
+      "claim_text": "Charles W David's Army-entry record classifies his prior civilian occupation as sales clerk.",
+      "evidence_excerpt": "1-70. Clerks, sales",
+      "evidence_paraphrase": "The identifier-matched Army row carries occupation value 170; NARA's official code list defines 1-70 as clerks, sales.",
+      "identity_match_assessment": "Confirmed exact private-identifier and name match.",
+      "temporal_assessment": "Documented before Army entry on July 29, 1940; employer, store, product, and work location are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The occupational title is not converted into a named employer or self-employment claim.",
+      "sources": [
+        {
+          "source_key": "army-b532",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b532",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 176; entry 1-70",
+          "excerpt_override": "1-70. Clerks, sales"
+        }
+      ]
+    },
+    {
+      "key": "homer-david-jr-identity-b532",
+      "person_id": "c6be91fd-e067-52f9-8067-d644dbcdaf03",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "A wartime OSS awards-board memorandum strongly supports the indexed Major Homer David Jr. identity.",
+      "evidence_excerpt": "Major Homer David",
+      "evidence_paraphrase": "An OSS European Theater memorandum lists Major Homer David as present at the Awards and Decorations Board meeting of August 14, 1945.",
+      "identity_match_assessment": "High confidence from the uncommon full name, exact major rank, wartime date, and direct OSS context; the memorandum omits Jr. and no private identifier bridge is available.",
+      "temporal_assessment": "The memorandum establishes OSS service in August 1945 but provides no pre-OSS employer, occupation, or recruitment chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The identity is qualified because the memorandum omits the suffix and the index's printed private value is not a strict eight-digit Army-search key.",
+      "sources": [
+        {
+          "source_key": "index-b532",
+          "support_type": "supports",
+          "locator_override": "PDF page 106, row 28; Box 168",
+          "excerpt_override": "DAVID HOMER JR MAJ"
+        },
+        {
+          "source_key": "homer-awards-b532",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 120; Awards and Decorations Board minutes, 14 August 1945",
+          "excerpt_override": "Major Homer David"
+        }
+      ]
+    },
+    {
+      "key": "donald-j-davidson-identity-b532",
+      "person_id": "149e4a21-1703-5ddb-98d5-91d28cf3a9cf",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The OSS index and Army merged file identify the same Donald J Davidson.",
+      "evidence_excerpt": "DAVIDSON DONALD J",
+      "evidence_paraphrase": "The private identifier and exact full name agree across the two official NARA records.",
+      "identity_match_assessment": "Confirmed by the exact private identifier and full-name agreement.",
+      "temporal_assessment": "The Army row records entry on March 20, 1943, as private.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private value is withheld publicly. Five other exact-name Army rows carry different identifiers and are not assigned.",
+      "sources": [
+        {
+          "source_key": "index-b532",
+          "support_type": "supports",
+          "locator_override": "PDF page 106, row 32; Box 168",
+          "excerpt_override": "DAVIDSON DONALD J"
+        },
+        {
+          "source_key": "army-b532",
+          "support_type": "supports",
+          "excerpt_override": "DAVIDSON DONALD J"
+        }
+      ]
+    },
+    {
+      "key": "donald-j-davidson-occupation-b532",
+      "person_id": "149e4a21-1703-5ddb-98d5-91d28cf3a9cf",
+      "affiliation_key": "donald-j-davidson-actor-b532",
+      "claim_type": "occupation",
+      "claim_text": "Donald J Davidson's Army-entry record classifies his prior civilian occupation as actor or actress.",
+      "evidence_excerpt": "0-02. Actors and actresses",
+      "evidence_paraphrase": "The identifier-matched Army row carries occupation value 002; NARA's official code list defines 0-02 as actors and actresses.",
+      "identity_match_assessment": "Confirmed exact private-identifier and name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry on March 20, 1943; employer, company, theater, production, and work location are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is preserved and is not converted into a named employer or credited production.",
+      "sources": [
+        {
+          "source_key": "army-b532",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b532",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 170; entry 0-02",
+          "excerpt_override": "0-02. Actors and actresses"
+        }
+      ]
+    },
+    {
+      "key": "george-b-davidson-identity-b532",
+      "person_id": "d9ad3e21-13e2-5bcb-bdbd-d8bbe1f2c80e",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The OSS index and Army merged file identify the same George B Davidson.",
+      "evidence_excerpt": "DAVIDSON GEORGE B",
+      "evidence_paraphrase": "The private identifier and exact full name agree across the two official NARA records.",
+      "identity_match_assessment": "Confirmed by the exact private identifier and full-name agreement.",
+      "temporal_assessment": "The Army row records entry on March 17, 1945, as private.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private value is withheld publicly. One other exact-name Army row carries a different identifier and is not assigned.",
+      "sources": [
+        {
+          "source_key": "index-b532",
+          "support_type": "supports",
+          "locator_override": "PDF page 106, row 33; Box 168",
+          "excerpt_override": "DAVIDSON GEORGE B"
+        },
+        {
+          "source_key": "army-b532",
+          "support_type": "supports",
+          "excerpt_override": "DAVIDSON GEORGE B"
+        }
+      ]
+    },
+    {
+      "key": "george-b-davidson-occupation-b532",
+      "person_id": "d9ad3e21-13e2-5bcb-bdbd-d8bbe1f2c80e",
+      "affiliation_key": "george-b-davidson-machine-shop-b532",
+      "claim_type": "occupation",
+      "claim_text": "George B Davidson's Army-entry record classifies his prior civilian occupation within machine-shop and related work, not elsewhere classified.",
+      "evidence_excerpt": "6-78. Machine shop and related occupations, n.e.c.",
+      "evidence_paraphrase": "The identifier-matched Army row carries occupation value 678; NARA's official code list defines 6-78 as machine shop and related occupations, n.e.c.",
+      "identity_match_assessment": "Confirmed exact private-identifier and name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry on March 17, 1945; employer, shop, task, and work location are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The residual historical category is preserved and is not expanded to a particular task, company, or self-employment claim.",
+      "sources": [
+        {
+          "source_key": "army-b532",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b532",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 177; entry 6-78",
+          "excerpt_override": "6-78. Machine shop and related occupations, n.e.c."
+        }
+      ]
+    },
+    {
+      "key": "elizabeth-davey-row26-velen-unassigned-candidate-b532",
+      "person_id": "243c407d-976b-53a5-a08c-5a2939c41ec0",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "An institutional local history identifies an Elizabeth Davey Velen as an OSS member, but current evidence cannot assign her to this row or distinguish the two consecutive Elizabeth Davey index entries.",
+      "evidence_excerpt": "She joined the OSS in WWII",
+      "evidence_paraphrase": "Ford Hutchinson's Lovell Historical Society article identifies Elizabeth Davey Velen as a Radcliffe graduate who joined the OSS and served in England.",
+      "identity_match_assessment": "Low-confidence candidate only: full indexed name agrees, but both rows lack a middle initial, private identifier, birth data, rank, and a direct personnel-file bridge.",
+      "temporal_assessment": "The article establishes OSS service but not a pre-OSS employer or a precise service start date. Radcliffe attendance is not employment, and the later United Nations career is postwar.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "Retained privately as a review lead for row 26 as well as row 25. It is excluded from public factual claims and analytics until Box 168 or another direct record distinguishes the duplicate source rows.",
+      "sources": [
+        {
+          "source_key": "index-b532",
+          "support_type": "context_only",
+          "locator_override": "PDF page 106, row 26; Box 168",
+          "excerpt_override": "DAVEY ELIZABETH"
+        },
+        {
+          "source_key": "lovell-b532",
+          "support_type": "supports",
+          "locator_override": "Yesterday's News, volume 21, number 3, PDF physical page 6",
+          "excerpt_override": "She joined the OSS in WWII"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "243c407d-976b-53a5-a08c-5a2939c41ec0",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index preserves the second of two consecutive Elizabeth Davey rows, neither with rank, middle initial, or private identifier. A Lovell Historical Society article identifies an Elizabeth Davey Velen as a Radcliffe graduate who joined the OSS, but it does not distinguish the index rows or supply a Box 168 bridge. The candidate remains withheld and unassigned.",
+      "name_variants": [
+        "Elizabeth Davey"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified. Review both consecutive Elizabeth Davey folders in Box 168 to distinguish the rows and test the Elizabeth Davey Velen lead. Do not treat Radcliffe attendance as employment or her later United Nations career as pre-OSS.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "possible-elizabeth-davey-page106-rows25-26-batch531"
+    },
+    {
+      "person_id": "9e5dd326-d7c8-5423-a2ce-d6843e803100",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier selects one Army row with the exact Charles W David name. The private value is withheld publicly; two other exact-name Army rows carry different identifiers.",
+      "name_variants": [
+        "Charles W David",
+        "Charles W. David"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Sales clerk is documented at Army entry, but no employer, store, product, or work location is identified. Review Box 168 for employer, Army unit, OSS role, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c6be91fd-e067-52f9-8067-d644dbcdaf03",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A NARA-hosted wartime OSS European Theater memorandum lists Major Homer David at an August 1945 awards-board meeting. The uncommon name, exact major rank, and direct OSS context strongly match the index row; the memorandum omits Jr. and no private-identifier bridge is available.",
+      "name_variants": [
+        "Homer David Jr.",
+        "Homer David Jr",
+        "Major Homer David",
+        "Maj Homer David"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 168 for full identifiers, pre-OSS occupation or employer, military unit, OSS assignment, and recruitment chronology; confirm that the awards-board member used Jr. in other records.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "bfde1f87-73e4-58c9-80fd-d3113e071436",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Nathan H David without rank or private identifier. Complete Army comparison, CIA, current Library of Congress, exact-name OSS, employer, occupation, obituary, legal, institutional, newspaper, directory, and archival searches did not establish a defensible identity. A 1948 attorney namesake is postwar and lacks an OSS bridge.",
+      "name_variants": [
+        "Nathan H David",
+        "Nathan H. David"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 168 for full identifiers, birth details, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "f0b8bbf0-63b9-5fd1-b5c8-bccfc014ce08",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The index's eligible private identifier produced no Army-file hit. The complete Army scan found two exact-name David Davidian rows with different birth years, origins, residences, occupations, and identifiers; neither can be assigned. CIA, Library of Congress, obituary, employer, occupation, military, institutional, newspaper, directory, and archival searches found no independent bridge.",
+      "name_variants": [
+        "David Davidian"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 168 to resolve the printed private identifier and compare full birth, residence, and military details against the two unassigned Army namesakes before accepting any occupation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "172408f1-a8d0-56c0-a0f6-ae16387e18ef",
+      "identity_status": "conflicting",
+      "identity_evidence": "The index's private identifier points to an Army row under the different full name Donald F Mc Caffrey. Seven exact-name Abraham Davidson Army rows carry other identifiers and cannot be assigned. CIA, Library of Congress, exact-name OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches did not resolve the conflict.",
+      "name_variants": [
+        "Abraham Davidson"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "No reliable pre-OSS employer has yet been identified. Review the original Box 168 folder and index transcription to resolve the private-identifier and full-name conflict before assigning any Army identity, occupation, or affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "149e4a21-1703-5ddb-98d5-91d28cf3a9cf",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier selects one Army row with the exact Donald J Davidson name. The private value is withheld publicly; five other exact-name Army rows carry different identifiers.",
+      "name_variants": [
+        "Donald J Davidson",
+        "Donald J. Davidson"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Actor or actress is documented at Army entry, but no employer, company, theater, production, union, or work location is identified. Review Box 168 for employer, Army unit, OSS role, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d9ad3e21-13e2-5bcb-bdbd-d8bbe1f2c80e",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier selects one Army row with the exact George B Davidson name. The private value is withheld publicly; one other exact-name Army row carries a different identifier.",
+      "name_variants": [
+        "George B Davidson",
+        "George B. Davidson"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Machine-shop or related work, not elsewhere classified, is documented at Army entry, but no employer, shop, trade, task, or work location is identified. Review Box 168 for employer, Army unit, OSS role, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "85cd8516-81b3-5773-98ca-2f20e4a8b033",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Henrietta Davidson without middle name, rank, or private identifier. Complete Army comparison, CIA, current Library of Congress, exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity.",
+      "name_variants": [
+        "Henrietta Davidson"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 168 for middle name, birth details, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "038ce0ce-5944-5b38-b776-a0cc6955f212",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Jean A Davidson without rank or private identifier. Complete Army comparison, CIA, current Library of Congress, exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a defensible identity.",
+      "name_variants": [
+        "Jean A Davidson",
+        "Jean A. Davidson"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full name, birth details, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b532-elizabeth-davey-row26",
+      "person_id": "243c407d-976b-53a5-a08c-5a2939c41ec0",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 106 row 26; complete Army comparison; CIA and current Library of Congress checks; Elizabeth Davey and Elizabeth Davey Velen exact-name OSS, employer, occupation, Radcliffe, United Nations, obituary, institutional, newspaper, directory, and archival searches, evaluated separately from row 25.",
+      "query_variant_type": "minimum_completed_research_protocol_duplicate_name_low_identity_candidate_withheld",
+      "started_at": "2026-09-14T21:58:00Z",
+      "completed_at": "2026-09-14T22:28:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "A Lovell Historical Society article establishes that an Elizabeth Davey Velen joined OSS, but it cannot distinguish rows 25 and 26 or bridge either to Box 168; the later United Nations career is postwar, Radcliffe is education rather than employment, and unrelated modern obituaries were rejected.",
+      "research_notes": "The institutional identity lead is retained privately at low confidence for row 26 and withheld from public factual claims. No pre-OSS employer is established.",
+      "next_action": "Review both consecutive Elizabeth Davey folders in Box 168 to distinguish the rows and test the Elizabeth Davey Velen lead using direct identifiers and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch532-v1"
+    },
+    {
+      "key": "b532-charles-w-david",
+      "person_id": "9e5dd326-d7c8-5423-a2ce-d6843e803100",
+      "source_adapter": "reviewed_official_army_loc_cia_and_web_sources",
+      "query_text": "NARA OSS index page 106; complete Army comparison and code-table review; CIA and current Library of Congress checks; Charles W David exact-name and punctuation-variant OSS, Army, sales clerk, employer, occupation, obituary, institutional, newspaper, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_confirmed_by_private_identifier_occupation_only",
+      "started_at": "2026-09-14T22:00:00Z",
+      "completed_at": "2026-09-14T22:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Five Library of Congress candidates were either Charles W. David Jr., a different Coast Guard serviceman, or OCR name-boundary collisions; two other exact-name Army rows carry different identifiers; obituary and directory results lacked the private identifier or an OSS-employment bridge.",
+      "research_notes": "The private identifier confirms identity; the Army-entry sales-clerk occupation is documented, but no employer is named.",
+      "next_action": "Review Box 168 for employer, Army unit, OSS role, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch532-v1"
+    },
+    {
+      "key": "b532-homer-david-jr",
+      "person_id": "c6be91fd-e067-52f9-8067-d644dbcdaf03",
+      "source_adapter": "reviewed_official_nara_loc_cia_army_and_web_sources",
+      "query_text": "NARA OSS index page 106; NARA document 104-10165-10120 rendered-page review; complete Army comparison; CIA and current Library of Congress checks; Homer David Jr and Major Homer David exact-name, suffix, OSS, employer, occupation, obituary, institutional, newspaper, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_suffix_high_identity_direct_oss_document_employer_unresolved",
+      "started_at": "2026-09-14T22:02:00Z",
+      "completed_at": "2026-09-14T22:32:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "The index's shortened printed value was ineligible for strict Army matching. Cemetery, genealogy, historic-property, and unrelated military-name results lacked a direct pre-OSS identity or employer bridge.",
+      "research_notes": "The NARA-hosted OSS awards-board memorandum provides a high-confidence identity link through the uncommon name, exact rank, wartime date, and OSS context, but it does not document pre-OSS work.",
+      "next_action": "Review Box 168 for full identifiers, pre-OSS occupation or employer, military unit, OSS assignment, recruitment chronology, and suffix confirmation.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch532-v1"
+    },
+    {
+      "key": "b532-nathan-h-david",
+      "person_id": "bfde1f87-73e4-58c9-80fd-d3113e071436",
+      "source_adapter": "reviewed_nara_army_loc_cia_and_web_sources",
+      "query_text": "NARA OSS index page 106; complete Army comparison; CIA and current Library of Congress checks; Nathan H David exact-name OSS, employer, occupation, obituary, legal, institutional, newspaper, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_unresolved",
+      "started_at": "2026-09-14T22:04:00Z",
+      "completed_at": "2026-09-14T22:34:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The Library of Congress candidate names attorney Nathan H. David only in a 1948 divorce filing; later legal, obituary, yahrzeit, genealogy, and directory results lack an OSS, Box 168, or pre-OSS-employment bridge.",
+      "research_notes": "Identity, occupation, and employer remain unresolved after the minimum protocol.",
+      "next_action": "Review Box 168 for full identifiers, birth details, service status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch532-v1"
+    },
+    {
+      "key": "b532-david-davidian",
+      "person_id": "f0b8bbf0-63b9-5fd1-b5c8-bccfc014ce08",
+      "source_adapter": "reviewed_nara_army_loc_cia_and_web_sources",
+      "query_text": "NARA OSS index page 106; complete Army comparison; CIA and current Library of Congress checks; David Davidian exact-name OSS, Army, employer, occupation, obituary, Armenian institutional, newspaper, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_unmatched_identifier_two_name_candidates_ambiguous",
+      "started_at": "2026-09-14T22:06:00Z",
+      "completed_at": "2026-09-14T22:36:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The eligible private identifier had no Army hit. Two exact-name Army rows have different identifiers and conflicting biographical fields; a David B. Davidian obituary describes a younger Army Air Forces officer, while modern lecturer and Branch Davidian results are unrelated.",
+      "research_notes": "Two plausible name-only Army rows remain unassigned. No identity, occupation, or employer is accepted without a Box 168 or independent direct bridge.",
+      "next_action": "Review Box 168 to resolve the printed private identifier and compare full birth, residence, and military details against the two Army namesakes.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch532-v1"
+    },
+    {
+      "key": "b532-abraham-davidson",
+      "person_id": "172408f1-a8d0-56c0-a0f6-ae16387e18ef",
+      "source_adapter": "reviewed_nara_army_loc_cia_and_web_sources",
+      "query_text": "NARA OSS index page 106; complete Army comparison; CIA and current Library of Congress checks; Abraham Davidson exact-name OSS, Army, military, employer, occupation, obituary, institutional, newspaper, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_private_identifier_name_conflict",
+      "started_at": "2026-09-14T22:08:00Z",
+      "completed_at": "2026-09-14T22:38:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The private identifier selects an Army row under the different full name Donald F Mc Caffrey; seven exact-name Army hits carry other identifiers; military, art-history, obituary, cemetery, genealogy, directory, and newspaper namesakes lack a direct index bridge.",
+      "research_notes": "No Army record, personnel category, occupation, or employer is assigned while the official-record conflict remains unresolved.",
+      "next_action": "Review the original Box 168 folder and index transcription to resolve the private-identifier and full-name conflict.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch532-v1"
+    },
+    {
+      "key": "b532-donald-j-davidson",
+      "person_id": "149e4a21-1703-5ddb-98d5-91d28cf3a9cf",
+      "source_adapter": "reviewed_official_army_loc_cia_and_web_sources",
+      "query_text": "NARA OSS index page 106; complete Army comparison and code-table review; CIA and current Library of Congress checks; Donald J Davidson exact-name OSS, Army, actor, employer, occupation, obituary, theater, institutional, newspaper, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_confirmed_by_private_identifier_occupation_only",
+      "started_at": "2026-09-14T22:10:00Z",
+      "completed_at": "2026-09-14T22:40:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Five other exact-name Army rows carry different identifiers; actor, philosopher, obituary, genealogy, directory, and later institutional results lacked the private identifier or an OSS-employment bridge.",
+      "research_notes": "The private identifier confirms identity; the Army-entry actor-or-actress occupation is documented, but no employer, company, theater, production, or union is named.",
+      "next_action": "Review Box 168 for employer, Army unit, OSS role, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch532-v1"
+    },
+    {
+      "key": "b532-george-b-davidson",
+      "person_id": "d9ad3e21-13e2-5bcb-bdbd-d8bbe1f2c80e",
+      "source_adapter": "reviewed_official_army_loc_cia_and_web_sources",
+      "query_text": "NARA OSS index page 106; complete Army comparison and code-table review; CIA and current Library of Congress checks; George B Davidson exact-name OSS, Army, machine shop, employer, occupation, obituary, institutional, newspaper, cemetery, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_confirmed_by_private_identifier_occupation_only",
+      "started_at": "2026-09-14T22:12:00Z",
+      "completed_at": "2026-09-14T22:42:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The Library of Congress candidate was George 'Babe' Davidson, a Marine basketball scorer without the middle initial or identifier; one other exact-name Army row carries a different identifier; cemetery and other namesake records did not establish an employer.",
+      "research_notes": "The private identifier confirms identity; the Army-entry residual machine-shop occupation is documented, but no employer or specific task is named.",
+      "next_action": "Review Box 168 for employer, Army unit, OSS role, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch532-v1"
+    },
+    {
+      "key": "b532-henrietta-davidson",
+      "person_id": "85cd8516-81b3-5773-98ca-2f20e4a8b033",
+      "source_adapter": "reviewed_nara_army_loc_cia_and_web_sources",
+      "query_text": "NARA OSS index page 106; complete Army comparison; CIA and current Library of Congress checks; Henrietta Davidson exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_unresolved",
+      "started_at": "2026-09-14T22:14:00Z",
+      "completed_at": "2026-09-14T22:44:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Modern obituaries, cemetery lists, Canadian nursing OCR, genealogy, and unrelated wartime results lacked a full-name OSS, Box 168, or pre-OSS-employment bridge.",
+      "research_notes": "Identity, occupation, and employer remain unresolved after the minimum protocol.",
+      "next_action": "Review Box 168 for middle name, birth details, service status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch532-v1"
+    },
+    {
+      "key": "b532-jean-a-davidson",
+      "person_id": "038ce0ce-5944-5b38-b776-a0cc6955f212",
+      "source_adapter": "reviewed_nara_army_loc_cia_and_web_sources",
+      "query_text": "NARA OSS index page 106; complete Army comparison; CIA and current Library of Congress checks; Jean A Davidson exact-name and punctuation-variant OSS, employer, occupation, obituary, institutional, newspaper, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_unresolved",
+      "started_at": "2026-09-14T22:16:00Z",
+      "completed_at": "2026-09-14T22:46:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Modern obituaries, art and music professionals, genealogy, current directories, and unrelated military or newspaper results lacked the exact initial plus an OSS, Box 169, wartime, or pre-OSS-employment bridge.",
+      "research_notes": "Identity, occupation, and employer remain unresolved after the minimum protocol.",
+      "next_action": "Review Box 169 for full name, birth details, service status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch532-v1"
+    }
+  ]
+}

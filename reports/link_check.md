@@ -2,6 +2,26 @@
 
 Run: 2026-09-14 UTC
 
+## Batch 532 release candidate
+
+All internal targets resolve across 24,571 HTML pages; 49,946 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,643 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,099
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 92,734,734 bytes at
+SHA-256 `a5ef6a76e37695f9364dc8c1c7fc2fe29ebf00a8b60c254c6c47c6dd1400982c`.
+Under the relative-path/content digest, the 70-file public tree is
+`2921d5e720d23c07811956a4cad8528b4723eef060aa0343d9763e6bea5b6087`;
+the 24,643-file production tree is
+`f6f6471971d93866044660347f37b8ac74a9d3b7afd4b6d7e2267a34e988c759`.
+Three consecutive builds reproduced both trees. Five bundle sources support
+the three confirmed identity and three qualified occupation claims plus Homer
+David Jr.'s qualified official OSS identity; one additional Elizabeth Davey
+identity lead remains low-confidence and withheld. Seven Library of Congress
+candidates were rejected after official context review. No authenticated
+Catalog request was used. Independent GitHub and deployed-site verification
+are pending.
+
 ## Batch 531 release candidate
 
 All internal targets resolve across 24,571 HTML pages; 49,946 external URLs
@@ -18,8 +38,10 @@ Three consecutive builds reproduced both trees. Four bundle sources support
 the three confirmed identity and three qualified occupation claims; one
 additional Elizabeth Davey identity lead remains low-confidence and withheld.
 Four Library of Congress candidates were rejected after official OCR-context
-review. No authenticated Catalog request was used. Remote CI, Pages deployment
-and exact live verification are pending.
+review. No authenticated Catalog request was used. PR Test run 34902061949,
+main Test run 34902691961 and Pages run 34902691962 passed; the live verifier
+matched all 67 manifest assets and ten direct cohort profiles to merge commit
+`a54a2c00c6853aa6cd22ffc982cd1a6260178d6f`.
 
 ## Batch 530 release candidate
 
