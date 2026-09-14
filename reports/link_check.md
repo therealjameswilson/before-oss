@@ -1,6 +1,689 @@
 # Link check
 
-Run: 2026-09-08 UTC
+Run: 2026-09-14 UTC
+
+## Batch 510 release candidate
+
+All internal targets resolve across 24,551 HTML pages; 49,881 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,623 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,100
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 91,100,159 bytes at
+SHA-256 `46e081a32f515759480e9427301b32c257aa1ed86296b1d5664e19e6cdd1589e`.
+The 70-file public-tree digest is
+`bf3c3f681b6276781d4661139955998139676d63eb0c15a3fd7fad866bc216e7`;
+the 24,623-file production-tree digest is
+`7030f5eb2ebf9520fa302a37e75010a1dfc145e422b919579b5f58ff7578732b`.
+A second exact public-data and Pages build reproduced both trees. Five bundle
+sources cover the OSS index, Army merged-file Catalog record, two Army
+technical-documentation files and the National Park Service Detachment 101
+history. Ten CIA and ten Library of Congress checks completed; all eight LoC
+candidates received rejected durable decisions. Unsupported modern or
+entertainment namesakes and an uninspectable CIA-hosted Vincent Curl lead remain
+withheld. No authenticated Catalog request was used. Independent GitHub and
+deployed-site checks remain pending.
+
+## Batch 509 release candidate
+
+All internal targets resolve across 24,551 HTML pages; 49,881 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,623 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,102
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 91,047,338 bytes at
+SHA-256 `0ede94f1efc7cb2d86f08ee9897d64031b544612977aab9ce3a602549df540cf`.
+The 70-file public-tree digest is
+`34c73a7f3e83bcb96f4c908292136b2d8b6d0ee57060ee786ee07bffe3d4dcba`;
+the 24,623-file production-tree digest is
+`18742ebed32af4c50d908ab28e2a3cbe1b568ec32c795c59d2118abaca8a86b6`.
+A second exact public-data and Pages build reproduced both trees. The four
+bundle sources are the OSS index, Army merged-file Catalog record and two Army
+technical-documentation files. Ten CIA checks and 18 actual Library of
+Congress attempts completed; all 28 LoC candidates received rejected durable
+decisions. Unbridged Alberto Cupelli media leads and Sanford Curcie postwar
+leads remain withheld. No authenticated Catalog request was used. Independent
+GitHub and deployed-site checks remain pending.
+
+## Batch 508 release candidate
+
+All internal targets resolve across 24,551 HTML pages; 49,881 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,623 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,100
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 91,024,032 bytes at
+SHA-256 `1b1be2d71bdfcd5967a7596729eb15fdb5a89af2cc2ef5fe847a577604bde860`.
+The 70-file public-tree digest is
+`4c3708e04241c054d397333f2644e9f8cd6da22599a37bf1426dcd934a1d5ab2`;
+the 24,623-file production-tree digest is
+`dbc38fcb21ae74a8c65c29ca909c06fd332d8fc496af0c02ded7ed5239a2a0bf`.
+A second exact public-data and Pages build reproduced both trees. The three
+bundle sources are the OSS index, Army merged-file Catalog record and Army
+technical documentation. Ten CIA and ten Library of Congress checks completed;
+all five LoC candidates received rejected durable decisions. The Harry
+Cunningham patent and cinematography leads and two postwar Hugh Cunningham CIA
+documents remain discovery-only namesakes documented in the checkpoint. No
+authenticated Catalog request was used. Independent GitHub and deployed-site
+checks remain pending.
+
+## Batch 507 release candidate
+
+All internal targets resolve across 24,551 HTML pages; 49,881 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,623 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,098
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 91,018,147 bytes at
+SHA-256 `9b06bbd69277801d2df51d0c84a624caef79bdbd19f12d945f4c53f457f7c987`.
+The 70-file public-tree digest is
+`58f23a5cd5e666aef0f32fad35b1f93ce11e26ad73deb389f4d046e6df2bf811`;
+the 24,623-file production-tree digest is
+`2cbf488a66bddb9f261257a12705b57fbe26d0385ffbfb268259096f044546f9`.
+A second exact public-data and Pages build reproduced both trees. Eight Batch
+507 publication sources were inspected during research, including the source
+index, Army Catalog documentation and occupation-code list, two official
+Ernest Cuneo sources, the Julia Cuniberti obituary and Vassar finding aid. No
+authenticated Catalog request was used. Ten CIA and ten Library of Congress
+checks completed; both LoC candidates received rejected durable decisions.
+Independent GitHub and deployed-site checks remain pending.
+
+## Batch 506 release candidate
+
+All internal targets resolve across 24,547 HTML pages; 49,872 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,619 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,098
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 90,919,533 bytes at
+SHA-256 `52e8844a162b43c54d6c00b35561d17ada19f2207ea8cadac7edb6075d1c3301`.
+The 70-file public-tree digest is
+`51ff6ca0c5a8e554ca1df0b78dbff52a91e00bd23690ee36a38387cf6e269dcb`;
+the 24,619-file production-tree digest is
+`ac7a1f8f30f55d38931810e869d07c84f7eb0be400ce29767ffe734e6f1941c4`.
+A second exact public-data and Pages build reproduced both trees. The six
+Batch 506 citation destinations were inspected during research: the source
+index, Army Catalog and documentation, official code list, National Forest
+Service Library item and National Museum of Forest Service History
+publication. No authenticated Catalog request was used. Ten CIA checks and 17
+actual Library of Congress adapter attempts completed; the two LoC candidates
+received rejected durable decisions. Independent GitHub and deployed-site
+checks remain pending.
+
+## Batch 505 release candidate
+
+All internal targets resolve across 24,546 HTML pages; 49,869 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,618 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,102
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 90,852,990 bytes at
+SHA-256 `7fde8aa35508664fc1f53ba9f9309ec73396b508194be53ac9f423daacf00679`.
+The 70-file public-tree digest is
+`99aa93b4d7e5a103130e81a50498ae1c4c4bb638e55bc279f63db05954d652b1`;
+the 24,618-file production-tree digest is
+`13e5fb94c28c82ef39cfab713c37d882c05f509b78640c915c91767a16b7af17`.
+A second exact public-data and Pages build reproduced both trees. The seven
+Batch 505 citation destinations were inspected during research: the source
+index, Army Catalog and documentation, official code list, Library of Congress
+finding aid and newspaper page, and State Historical Society of Missouri
+finding aid. No authenticated Catalog request was used. Ten CIA and 16 actual
+Library of Congress attempts completed; the 18 LoC candidates received one
+accepted and 17 rejected durable decisions. Independent GitHub and deployed-
+site checks remain pending.
+
+## Batch 504 release candidate
+
+All internal targets resolve across 24,543 HTML pages; 49,863 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,615 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,098
+candidate substring coincidences, with zero unexpected matches. The public
+manifest has 67 assets / 90,748,730 bytes at SHA-256
+`8bf27ef5a0707c27439e5330d9da3a73242912c794f72981c9cd6d84dffaddf0`.
+The 70-file public-tree digest is
+`7b6b6f6ddfe665d7fd0ea71ca6f77259955364464cfbacd98270305e94504cc8`;
+the 24,615-file production-tree digest is
+`c1a61393f796c9f5e340c8fb216ad4cac5def02dfd096fe088f1912bfcb47ee2`.
+A second exact public-data and Pages build reproduced both trees. The seven
+Batch 504 citation destinations were inspected during research: the source
+index, Army Catalog and documentation, official code list, direct CIA wartime
+plan and two Foreign Service Journal issues. No authenticated Catalog request
+was used. Ten CIA and ten Library of Congress checks completed; two LoC
+candidates were rejected from official page context. Independent GitHub and
+deployed-site checks remain pending.
+
+## Batch 503 release candidate
+
+All internal targets resolve across 24,543 HTML pages; 49,861 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,615 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,099
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 90,674,995 bytes at
+SHA-256 `2dc3f849a3ba2c1a0e63b740780fcdfac75fe3de9f127634949fec74bde0963b`.
+The 70-file public-tree digest is
+`c12e92389f26ac0999b2e4d672205b7dd9baaaba1b17875fc061230b572f7623`;
+the 24,615-file production-tree digest is
+`0c3e5615d2f2675d50601f45c2efa2f2533ef40ad6317ed8d69bbf401a1bf2fb`.
+A second exact public-data and Pages build reproduced both trees. The seven
+Batch 503 citation destinations were inspected during research: the source
+index, Army Catalog and documentation, official code list, 1937 appellate
+decision, Judge Advocate Journal and Chi Phi alumni magazine. No authenticated
+Catalog request was used. Ten CIA and 17 actual Library of Congress checks
+returned no adapter candidates. Independent GitHub and deployed-site checks
+remain pending.
+
+## Batch 502 release candidate
+
+All internal targets resolve across 24,541 HTML pages; 49,857 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,613 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,101
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 90,589,880 bytes at
+SHA-256 `63d92e41cb75e3bf72f461886bd1276c058d996122e4cf3b541f0abdca40729c`.
+The 70-file public-tree digest is
+`4f3a8419f482b3d15d8b446d83e5493397740359c854bb17595d047e4d5898af`;
+the 24,613-file production-tree digest is
+`0e65d697e261a21fa8933c0a06200903b37f26bfc20fd2ae13b4215621ba272d`.
+A second exact public-data and Pages build reproduced both trees. The seven
+Batch 502 citation destinations were inspected during research: the source
+index, Army Catalog and documentation, PA-Roots cemetery transcription,
+Chinese University of Hong Kong contributor note and official EXIM history.
+No authenticated Catalog request was used. Ten CIA checks returned no
+candidates; seven Library of Congress candidates were rejected from official
+OCR context. Independent GitHub and deployed-site checks remain pending.
+
+## Batch 501 release candidate
+
+All internal targets resolve across 24,540 HTML pages; 49,854 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,612 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,096
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 90,542,183 bytes at
+SHA-256 `e79d81bb198a65ef3673a00664a33e504ad20acf2e5151ccf23bd8b6b5420802`.
+The 70-file public-tree digest is
+`0a7a399d8049679729f26243ef5ade26f5bfaeb47e4529b2567ec76c93502160`;
+the 24,612-file production-tree digest is
+`6056727ac441cc7cf3a4fb303d474e39e9a635b916795490dcffb643fda23f60`.
+A second exact public-data and Pages build reproduced both trees. The nine
+Batch 501 citation destinations were inspected during research: the source
+index, Army Catalog and documentation, Dartmouth, Hoover, Boone and Crockett,
+USAID Alumni and Department of State sources. The Hoover direct-media endpoint
+uses an automated-access gate, so its stable item identifier and reviewed
+document context are retained rather than claiming a generic link-check pass.
+No authenticated Catalog request was used. CIA and Library of Congress
+returned no candidates. Independent GitHub and deployed-site checks remain
+pending.
+
+## Batch 500 release candidate
+
+All internal targets resolve across 24,535 HTML pages; 49,845 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,607 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,097
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 90,404,647 bytes at
+SHA-256 `7f0176e6488c235ac26b685a2916347cf14e5b22ca68c8a2bd6bf2faf5aa298a`.
+The 70-file public-tree digest is
+`79d5df750455f2068bc6cda1260992746b7a923e3b0a1776f96317c3a5a9419c`;
+the 24,607-file production-tree digest is
+`16376a4697f8681cb59beb4f7542ae44991b5e50c215b33eab72d7c195f319b2`.
+A second exact public-data and Pages build reproduced both trees. All five
+Batch 500 citation destinations returned HTTP 200: the source index, Army
+Catalog record, two Army technical/code PDFs and the Boothby obituary. No
+authenticated Catalog request was used. Ten Library of Congress candidates
+were reviewed in context and rejected. Independent GitHub and deployed-site
+checks remain pending.
+
+## Batch 499 release candidate
+
+All internal targets resolve across 24,533 HTML pages; 49,842 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,605 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,095
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 90,325,499 bytes at
+SHA-256 `3542132ff0f457b9da70709ec0dafa557d4c6c1c0b80ba0793ae968f10e0dff3`.
+The 70-file public-tree digest is
+`39233424dbe584f036f7c64af5a47afdd59edeae9dec480d88e39691fc47cfa7`;
+the 24,605-file production-tree digest is
+`b3c8eb02ef0838fda4c0912390af092f506b094d1e70dcf404b61636a7446a00`.
+A second exact public-data and Pages build reproduced both trees. All ten
+Batch 499 citation destinations returned HTTP 200 to the generic checker: the
+source index, Army Catalog and documentation, Towson, Baltimore Science
+Fiction Society, French Service historique de la Défense, Bryn Mawr and two
+American School of Classical Studies sources. No authenticated Catalog request
+was used. Five Library of Congress candidates were reviewed in context and
+rejected. Independent GitHub and deployed-site checks remain pending.
+
+## Batch 498 release candidate
+
+All internal targets resolve across 24,530 HTML pages; 49,834 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,602 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,099
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 90,219,358 bytes at
+SHA-256 `7236fa29343d982534ed3e52cf1ace28db606c33fd1bd4889f9b4cb41beb282e`.
+The 70-file public-tree digest is
+`aa0be10e95dfb53390af158f1e8863d8347fc76faa0a688b325e96948b11f68a`;
+the 24,602-file production-tree digest is
+`010e96925401c54911875add7b299f6f4a74dbd264b7c97454558305ca32c516`.
+A second exact public-data and Pages build reproduced both trees. Eight of ten
+Batch 498 citation destinations returned HTTP 200 to the generic checker. The
+Library of Congress and Justia pages returned HTTP 403; their cited material
+had already been reviewed through permitted access, and no restriction was
+bypassed. No authenticated Catalog request was used. Six Library of Congress
+candidates were reviewed in context and five were rejected. Independent GitHub
+and deployed-site checks remain pending.
+
+## Batch 497 release candidate
+
+All internal targets resolve across 24,526 HTML pages; 49,824 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,598 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,095
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 90,093,383 bytes at
+SHA-256 `492c10c8cff8f94df3b80aaa16fe6d056c1a6dbe6b7d1ba7c8b009bd6aa0a169`.
+The 70-file public-tree digest is
+`cef4b633e96d8376f2b31d9f4f1e25d29fdfb1ea12bb6f4eddbe5405451592dd`;
+the 24,598-file production-tree digest is
+`2cd6abb4a0e90c70ca2d67d2ec3a58e7d9c4a04d5adcc86eb87e374f97cf0926`.
+A second exact public-data and Pages build reproduced both trees. All four
+Batch 497 citation destinations returned HTTP 200: the source index PDF, Army
+merged-file Catalog page, and two official technical/code PDFs. No
+authenticated Catalog request was used. CIA and Library of Congress returned
+no adapter candidates for the cohort. Independent GitHub and deployed-site
+checks remain pending.
+
+## Batch 496 release candidate
+
+All internal targets resolve across 24,526 HTML pages; 49,824 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,598 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,095
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 90,032,113 bytes
+at SHA-256
+`82257f711179d96c0a6ab21d9cf2f6b4a26f037fbf4c24fa2fd9cd073d13941d`.
+The 70-file public-tree digest is
+`6db27110aa9186b0865faaa5cba51217baaac5e2b878e2abd35555208e317e97`;
+the 24,598-file production-tree digest is
+`c2f42c728489bf093796f0c44e8071ba7f63b36cdf8157202229fe3eb4c92bf4`.
+A second exact public-data and Pages build reproduced both trees. Eight of
+eleven Batch 496 citation destinations returned HTTP 200 to the generic
+checker. The Rust PDF returned HTTP 406, and the Drexel and Gendarmerie pages
+returned HTTP 403; each cited page or passage had already been reviewed
+through permitted access, and no restriction was bypassed. No authenticated
+Catalog request was used. Three Library of Congress candidates were rejected
+in source context. Independent GitHub and deployed-site checks remain pending.
+
+## Batch 495 release candidate
+
+All internal targets resolve across 24,523 HTML pages; 49,816 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,595 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,099
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 89,927,545 bytes at
+SHA-256 `5f4c92f584028210e2d0c03716b75987a27f77ae8049823419e638f7c76e2819`.
+The 70-file public-tree digest is
+`91b9c88294c46379f8e31416d64982649fccfb084f1e8e3f1cc50af156b3c3cf`;
+the 24,595-file production-tree digest is
+`bc6145edea62ad46695ce043258aff70cdf5b025aaf53b0edf7f1dfdab086387`.
+A second exact public-data and Pages build reproduced both trees. Nine of ten
+Batch 495 citation destinations returned a successful HTTP status: eight HTTP
+200 and one HTTP 202. Legacy returned HTTP 403 to the generic checker; the
+relevant obituary had already been reviewed through permitted browser access,
+and no restriction was bypassed. AFI initially returned HTTP 500 and succeeded
+on retry. No authenticated Catalog request was used. Five Library of Congress
+candidates were rejected in source context. Independent GitHub and deployed-
+site checks remain pending.
+
+## Batch 494 release candidate
+
+All internal targets resolve across 24,522 HTML pages; 49,809 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,594 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,097
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 89,842,329 bytes at
+SHA-256 `d7087aff73f9112beeccd0f218f45ddacd2071ce595baed8fc9402b7438bc23a`.
+The 70-file public-tree digest is
+`dff9d6397cbfe9958240f061527939b522276f0abdd69b62b484f10134f83d75`;
+the 24,594-file production-tree digest is
+`25a1632505a4b4d84ce38f4415a155a450d0f1d4386e896cdb5c9da36d5515a3`.
+A second exact public-data and Pages build reproduced both trees. Eight of ten
+Batch 494 citation destinations returned HTTP 200. Justia and the 1944 Texas
+Aggie page returned HTTP 403 to the generic checker; their relevant text or
+page context had already been reviewed through permitted browser access, and
+no restriction was bypassed. No authenticated Catalog request was used.
+Eight Library of Congress candidates were rejected in source context.
+Independent GitHub and deployed-site checks remain pending.
+
+## Batch 493 release candidate
+
+All internal targets resolve across 24,516 HTML pages; 49,797 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,588 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,101
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 89,702,824 bytes at
+SHA-256 `67c2acc37a1dd49ac3f676f06bd280813de5490da48e203e354309801a27138a`.
+The 70-file public-tree digest is
+`382e6c437f00e29698c2f516d9d7e562caf9e0c90c15fb99de6eb5d0f245d4e6`;
+the 24,588-file production-tree digest is
+`6c70f108d8d0ddb4b1a420327fca8b714a693b8ee81b5a71d561c1f467e98bb2`.
+A second exact public-data and Pages build reproduced both trees. Five of eight
+Batch 493 citation destinations returned HTTP 200. The Hoover item, the
+Bennington Banner obituary and the Library of Congress page returned HTTP 403
+to the generic checker; relevant metadata or page text had already been
+reviewed through permitted browser access, and no restriction was bypassed.
+No authenticated Catalog request was used. The Hoover item remains a private,
+low-confidence reading-room lead, and the sole Library of Congress candidate
+was rejected. Independent GitHub and deployed-site checks remain pending.
+
+## Batch 492 release candidate
+
+All internal targets resolve across 24,516 HTML pages; 49,794 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,588 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,100
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 89,659,454 bytes at
+SHA-256 `bf475ebc0732866e4b48b1f94c7dc9521ab6013456315d690bee89d1bccf690c`.
+The 70-file public-tree digest is
+`8306774bb888567217a2934b69a3f3f8741ce3cf0d895cbe28c6679cdb91ffca`;
+the 24,588-file production-tree digest is
+`18b371a28ad9a44c1fb2db3e454955957f1bee4b0536ce0dcf2db078432a22a3`.
+A second exact public-data and Pages build reproduced both trees. Five of six
+Batch 492 citation destinations returned HTTP 200: the source index PDF, Army
+merged-file Catalog page, two official technical/code PDFs and the Ghiglione
+book PDF. The stable Columbia report handle redirected to HathiTrust and
+returned HTTP 403 to the checker; the exact annual report and cited page were
+separately downloaded from a public mirror, rendered and visually checked. No
+authenticated Catalog request was used. Ten Library of Congress candidates
+were rejected in official OCR context. Independent GitHub and deployed-site
+checks remain pending.
+
+## Batch 491 release candidate
+
+All internal targets resolve across 24,516 HTML pages; 49,792 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,588 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,100
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 89,595,720 bytes at
+SHA-256 `7cf8607f5651e842a8a7c297fc0bb0129f315239edfaab5585e3d25d17fb0864`.
+The 70-file public-tree digest is
+`7d53230c1622f47513c06099d6966a44da9bb7389bdd74bc7f697848b648cd46`;
+the 24,588-file production-tree digest is
+`07b33d95a1982752af4225142ef5da5e7bca3845f5c387ca2490775ee46820ba`.
+A second exact public-data and Pages build reproduced both trees. All four
+Batch 491 citation destinations returned HTTP 200: the source index PDF, Army
+merged-file Catalog page, and two official technical/code PDFs. No
+authenticated Catalog request was used. Eight Library of Congress candidates
+were rejected in official OCR context; the official Army merged file and its
+documentation were reviewed in context. Independent GitHub and deployed-site
+checks remain pending.
+
+## Batch 490 release candidate
+
+All internal targets resolve across 24,516 HTML pages; 49,792 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,588 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,099
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 89,553,969 bytes at
+SHA-256 `24d36b6d83b77ce20ea7fed773ef08486e15b4a64c9c677b10777adffe930c08`.
+The 70-file public-tree digest is
+`bd63ff46c15795294658e0c952069ab353543aefd3cb8cd985df3261c897867c`;
+the 24,588-file production-tree digest is
+`412e17251e8619e7001230a8e4a3240b6f4acfde10b2aaa2e02cbdb92d2d650e`.
+A second exact public-data and Pages build reproduced both trees. All five
+Batch 490 source destinations returned HTTP 200: the source index PDF, Army
+merged-file Catalog page, two official technical/code PDFs and the Franklin
+Institute finding aid. No authenticated Catalog request was used. Ten Library
+of Congress candidates were rejected in official OCR context; the official
+Army merged file and documentation and the institutional Burton Crane
+biography were reviewed in context. Independent GitHub and deployed-site
+checks remain pending.
+
+## Batch 489 release candidate
+
+All internal targets resolve across 24,514 HTML pages; 49,789 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,586 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,095
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 89,489,766 bytes at
+SHA-256 `76e223f9f4deca0936be1180e090e0832fa20955acd68c0e480f424ecf3026ff`.
+The 70-file public-tree digest is
+`b596e1c0043bd409ff645ee8cf1867d8b4020380b42f76f3904f944eb531b599`;
+the 24,586-file production-tree digest is
+`4cb1e77e8b898f5ca72a0d367efec5632b7e664ec11e63ad7733b9ec5d4148dd`.
+A second exact public-data and Pages build reproduced both trees. No
+authenticated Catalog request was used. Seventeen Library of Congress
+candidates were rejected in official OCR context, while the official Army
+merged file and code documentation were reviewed for the four qualified
+occupation claims. Independent GitHub and deployed-site checks remain
+pending.
+
+## Batch 488 release candidate
+
+All internal targets resolve across 24,514 HTML pages; 49,789 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,586 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,099
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 89,446,175 bytes at
+SHA-256 `76e473f8ee68ac0a1dd24f6f8926d33a5d1907f0c8983524d115838031989588`.
+The 70-file public-tree digest is
+`3887ddc1ee53b0ff1214b6fe425afaecc2444afb7090d0c5dc0f367a1e1c0b59`;
+the 24,586-file production-tree digest is
+`6efb59f080e8721345f1f326ca6d39facb23da979d748ff1c21f83bc84ac4f3d`.
+A second exact public-data and Pages build reproduced both trees. No
+authenticated Catalog request was used. Four Library of Congress candidates
+were rejected in official OCR context; the source page endpoints did not
+deliver PDFs. The official Army merged file and documentation, FRUS document
+278 and the June/November 1943 Foreign Service Journal pages were reviewed in
+context; independent GitHub and deployed-site checks remain pending.
+
+## Batch 487 release candidate
+
+All internal targets resolve across 24,513 HTML pages; 49,785 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,585 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,095
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 89,391,578 bytes at
+SHA-256 `63ad61689f5a5d7255522ee4985937701b981eddc83ae069178931d6ea7cf895`.
+The 70-file public-tree digest is
+`34ae474c421ff66d4dd70060545c93dfa1f7b576942ba99ddace3faef32b41b0`;
+the 24,585-file production-tree digest is
+`302bd8e835709944cc1bf8412af9d76f7d1e3a4346dc19eeaed63c688773daf7`.
+A second exact public-data and Pages build reproduced both trees. No
+authenticated Catalog request was used. Two Library of Congress candidates,
+the official Army merged file and code lists, Hubert E Coyer's military and
+directory sources, and the NARA Terence Coyne account were reviewed in context;
+independent GitHub and deployed-site checks remain pending.
+
+## Batch 486 release candidate
+
+All internal targets resolve across 24,508 HTML pages; 49,776 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,580 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,095
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 89,276,473 bytes at
+SHA-256 9f73384e93abfbd61c6e72bc950bbbe1f5640f98e40ef4d5d6cdf8ecc3569b9f.
+The 70-file public-tree digest is
+9a0363679f752b7a8672935905c9b9c788ba6a8e559d3594cf9228d8e47021c0;
+the 24,580-file production-tree digest is
+d39fe25fab649c3708f477ccbabc0972612b14619044f36c0c5c363ed6ed919b.
+A second exact public-data and Pages build reproduced both trees. No
+authenticated Catalog request was used. Thirteen rejected Library of Congress
+pages were read in official OCR context. Official CIA OSS records, the OSS War
+Report, a contemporary appellate case, a Salem directory and later
+disambiguation sources were reviewed in context; independent GitHub and
+deployed-site checks remain pending.
+
+## Batch 485 release candidate
+
+All internal targets resolve across 24,507 HTML pages; 49,772 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,579 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,092
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 89,206,272 bytes at
+SHA-256 `41d79c342eb1c8b64e55a8f9c37e02fcbef03808f5ddb4bbf92ba533dc4f53a7`.
+The 70-file public-tree digest is
+`a23d226662c7e765793be826c98c4746a46f32acc76716466ce39a5000eb0890`;
+the 24,579-file production-tree digest is
+`adb59672ecfd2b25537cad0816e7fc15ca52d4a5ae12d4991dad682f779764c3`.
+A second exact public-data and Pages build reproduced both trees. No
+authenticated Catalog request was used. Thirteen rejected Library of Congress
+pages, NARA Entry 215 and OSS overview pages, the Bryn Mawr biography, the
+TrowelBlazers article, and the museum Team IVOR candidate were read in source
+context; independent GitHub and deployed-site checks remain pending.
+
+## Batch 484 release candidate
+
+All internal targets resolve across 24,507 HTML pages; 49,769 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,579 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,092
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 89,133,609 bytes at
+SHA-256 `e643f3fb89ed05472fdc2f3934a8e6164f69fe2814d6da90c40dbec8ffc84e9d`.
+The 70-file public-tree digest is
+`50e99c9a395c1643901aa404c3bdace470cc0dbaa5e2a171ffa73d2db501b5ca`;
+the 24,579-file production-tree digest is
+`5777a6a90a7822f30f2511cbc4687a9cabaaa133f53c2c389f3d3fba966a660b`.
+A second exact public-data and Pages build reproduced both trees. No
+authenticated Catalog request was used. Ten rejected Library of Congress pages
+were read in official OCR context, and the National Park Service and Lehigh
+institutional sources were reviewed in page context; independent GitHub and
+deployed-site checks remain pending.
+
+## Batch 483 release candidate
+
+All internal targets resolve across 24,506 HTML pages; 49,767 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,578 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,094
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 89,043,398 bytes at
+SHA-256 `3ab13ee5a25d33d5383804e3b3978ab9656d46162e7f08cae9f5f01c45404189`.
+The 70-file public-tree digest is
+`f07f31e777efad523c21118dc28f53c8ebd960d4ce1ce5feb2cf08b72cdefbbc`;
+the 24,578-file production-tree digest is
+`723c62831ce07aa51f3ad11409e20c3f8b5e627c2ae80e8046e6480237fbbcbd`.
+A second exact public-data and Pages build reproduced both trees. No
+authenticated Catalog request was used. The five rejected Library of Congress
+pages were read in official OCR context, while other namesake results were
+adjudicated during research; independent GitHub and deployed-site checks
+remain pending.
+
+## Batch 482 release candidate
+
+All internal targets resolve across 24,506 HTML pages; 49,767 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,578 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,094
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 89,033,982 bytes at
+SHA-256 `ba36e700e594ad9a31501ce05015016754bddd1a716eae00c0a67e6835fa6fa5`.
+The 70-file public-tree digest is
+`03db07bed1c2c0dfdb26b9a6610f2dbd9d59baccff50d86b8143f7d06bb6d6c9`;
+the 24,578-file production-tree digest is
+`ca988300a080bfd6ea9b6973b69a48aa549ad04e1edef6811ceb3144e65e94a0`.
+A second exact public-data and Pages build reproduced both trees. No
+authenticated Catalog request was used. The new institutional, official and
+technical-document citation destinations were reviewed during research but
+were not re-polled as a separate release gate; independent GitHub and
+deployed-site checks remain pending.
+
+## Batch 481 release candidate
+
+All internal targets resolve across 24,503 HTML pages; 49,761 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,575 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,096
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 88,919,265 bytes at
+SHA-256 `2135c94980c7ddd684c08256719cc8546412379e66b2836070b9b67f88871224`.
+The 70-file public-tree digest is
+`cfa7f27172626e43d61ec8280df3b4934495a425172ed63f0bb4230ea650f14f`;
+the 24,575-file production-tree digest is
+`1fe31612ca1064dc41164a77c6eac5fa70a0c06056e25b80db6d795aa0155db1`.
+A second exact public-data and Pages build reproduced both trees. No
+authenticated Catalog request was used. The new official citation destinations
+and five rejected Library of Congress candidates were read in source context;
+independent GitHub and deployed-site checks remain pending.
+
+## Batch 480 release candidate
+
+All internal targets resolve across 24,503 HTML pages; 49,761 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,575 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,096
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 88,896,150 bytes at
+SHA-256 `ea6e46b469e014e92ccff9074db6ee194028580c9416f255c76863210e6b063a`.
+The 70-file public-tree digest is
+`0646fb40fe89dd99e06c2961927ad1f5761569453cfebb2de14a5cc39aa5e677`;
+the 24,575-file production-tree digest is
+`b082f6b72ff70b40dd60aa9623cc83506c5b9e08c9620d1ac1d68f727a8b26a3`.
+A second exact public-data and Pages build reproduced both trees. No
+authenticated Catalog request was used. The new citation destinations were
+read in page or article context during research but were not re-polled as a
+separate release gate; independent GitHub and deployed-site checks remain
+pending.
+
+## Batch 479 release candidate
+
+All internal targets resolve across 24,503 HTML pages; 49,758 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,575 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,095
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 88,841,441 bytes at
+SHA-256 `37d516f7827f8d7d9deb4a28edd827456000049497c0e22d863380ce234f9936`.
+The 70-file public-tree digest is
+`933b7e314530fb497e529a7627a9e9751edc569a643c19230b3481f2d5813a93`;
+the 24,575-file production-tree digest is
+`bc2b168b649665b92a8a6b86cc7a1a69b22c183f37c8aa7ffef1584153c52568`.
+A second exact public-data and Pages build reproduced both trees. No
+authenticated Catalog request was used. The new citation destinations were
+reviewed during research but were not re-polled as a separate release gate;
+independent GitHub and deployed-site checks remain pending.
+
+## Batch 468 release candidate
+
+All internal targets resolve across 24,496 HTML pages; 49,723 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,568 artifacts,
+all 70 public-tree files, 12,926 normalized identifiers, 120 formatted variants
+and 1,093 built-tree / 663 public-tree candidate substring coincidences, with
+zero unexpected boundary, aggregate or manifest-size matches. The public
+manifest has 67 assets / 88,034,364 bytes at SHA-256
+`9bda7672bae8b45af263b80e100f65e7bcd2725c97b546087dd093b6196ff8dd`.
+The public-tree digest is
+`9297a2256641caca5167d43be742bd3f532fb9fafe1a677f4d4d5228ee0661cd`;
+the production-tree digest is
+`8be93ff1c7bb5960cd46760a627c31e0186270df870b1854122829c1f526021d`.
+A full fresh-database replay reproduced both trees exactly. All five official
+Batch 468 citation destinations returned HTTP 200. No authenticated Catalog
+request was used. Independent Test, merge, Pages and pinned-live checks remain
+pending; see `reports/release_batch_468.md`.
+
+## Batch 467 release candidate
+
+All internal targets resolve across 24,496 HTML pages; 49,722 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,568 artifacts,
+all 70 public-tree files, 12,926 normalized identifiers, 120 formatted variants
+and 1,095 built-tree / 665 public-tree candidate substring coincidences, with
+zero unexpected boundary, aggregate or manifest-size matches. The public
+manifest has 67 assets / 87,979,819 bytes at SHA-256
+`1f12920bf248b53855c391f263254914a62cf7eff85252903357c91a9044b1c1`.
+The public-tree digest is
+`7e60bf8e606d8fe7576ea944935703b1939fb106381d7b41f6a7cd6c17dc1347`;
+the production-tree digest is
+`2aabaf76212090e1893acf61b0779d6c8379a337859660a5ac965cb83f1d4737`.
+A full fresh-database replay reproduced both trees exactly. All five official
+Batch 467 citation destinations returned HTTP 200. No authenticated Catalog
+request was used. Independent Test, merge, Pages and pinned-live checks remain
+pending; see `reports/release_batch_467.md`.
+
+## Batch 452 release candidate
+
+All internal targets resolve across 24,488 HTML pages; 49,691 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,560 artifacts,
+12,926 normalized identifiers, 120 formatted variants and 1,092 candidate
+substring coincidences with zero unexpected boundary, aggregate or manifest-
+size matches. The public manifest has 67 assets / 86,916,674 bytes at SHA-256
+`e747a5b030b76656c659985d00d397199c3fa8d97ef4e767191db025219c0679`.
+The public-tree digest is
+`a5fd36305095fe560ec9eab758e795546893a1cfd1f93f4fead99f3168f58056`;
+the production-tree digest is
+`d7b46f236eb1985cab1eeda353d9a9902e0e276204840647cc76eff3d1162b0e`.
+Two consecutive fresh Pages-configuration builds reproduce both tree digests
+and file counts. All five distinct Batch 452 citation destinations returned
+HTTP 200. No authenticated Catalog request was used. Independent Test, merge,
+Pages and pinned-live checks remain pending; see
+`reports/release_batch_452.md`.
 
 ## Batch 433 release candidate
 

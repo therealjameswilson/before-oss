@@ -1,0 +1,703 @@
+{
+  "bundle_version": "before-oss-reviewed-public-batch473-v1",
+  "reviewer": "Before OSS research pipeline",
+  "sources": [
+    {
+      "key": "index-b473",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; complete PDF page 93 visually inspected at 180 dpi; rows 32-41; Box 145; location 230/86/29/02",
+      "access_date": "2026-09-12",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Citation and project-authored assessments only. Full private identifiers are not published."
+    },
+    {
+      "key": "army-b473",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official ASNEF.FIN.DAT; complete transient scan of 9,200,232 fixed-width records; Tully R Cornick Jr. and William I Correa matched by exact private identifier and exact name; George H Cornish and John P Corriera candidates adjudicated",
+      "access_date": "2026-09-12",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full private identifier is retained. The incomplete file is not a comprehensive OSS or military roster; a non-hit is not negative proof."
+    },
+    {
+      "key": "basic-b473",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-45; fixed-width identifier, name, Army-entry-date, grade, birth-year, state and civilian-occupation fields checked",
+      "access_date": "2026-09-12",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields, leading-zero formatting and documented coverage limits."
+    },
+    {
+      "key": "codes-b473",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical page 171; civilian-occupation entries 1-37 and 1-70 rendered at 180 dpi and visually inspected",
+      "access_date": "2026-09-12",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical occupational labels name neither employers nor workplaces and do not establish chronology relative to OSS service."
+    },
+    {
+      "key": "cornick-roster-b473",
+      "stable_url": "https://thesolomoncrew.com/wp-content/uploads/2024/02/list-of-personnel-885th-bs-1943-45-rev-18.pdf",
+      "archival_identifier": "Transient review copy SHA-256 862325dd331eb786b647c83825a16b576c6bf9e61c503e7d5c26e47e7fee2b4a",
+      "title": "List of Personnel, 885th Bombardment Squadron, 1943-45, Revision 18",
+      "author_creator": "Enrico Barbina",
+      "repository_publisher": "The Solomon Crew",
+      "publication_record_date": "2024-02-27",
+      "locator": "PDF physical page 20; Tully R. Cornick Jr. roster entry visually inspected",
+      "access_date": "2026-09-12",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "885th Bombardment Squadron personnel compilation",
+      "rights_notes": "Identity and wartime-service corroboration only; not pre-OSS employment evidence."
+    },
+    {
+      "key": "cornut-infiltrations-b473",
+      "stable_url": "https://www.cnd-castille.org/wp-content/uploads/2021/10/infiltrations_into_france.pdf",
+      "title": "Tentative History of Infiltrations into and from France during World War II, Revision 103",
+      "author_creator": "Marcel Treville",
+      "repository_publisher": "CND-Castille",
+      "publication_record_date": "2021-07-31",
+      "locator": "PDF physical page 193; 9 September 1944 Confracourt entry; Captain Andre Cornut, alias Guermantes; NARA M1623 R4 V4 Proust and SHD GR16P143341",
+      "access_date": "2026-09-12",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "History of World War II infiltrations into France",
+      "rights_notes": "The compiler labels the work tentative; used as identity corroboration and an archival lead, not pre-OSS employment evidence."
+    },
+    {
+      "key": "rhode-island-corriera-b473",
+      "stable_url": "https://riveterangravesflags.ri.gov/media/1601/download?language=en",
+      "title": "Veteran Graves Registration Inventory: St Columba Cemetery and Veterans of Foreign Wars Post 4487",
+      "author_creator": "James Bessel, VETS",
+      "repository_publisher": "State of Rhode Island",
+      "publication_record_date": "2023-03-30",
+      "locator": "PDF physical page 4; John P. Corriera row visually inspected; birth year 1913, death year 1984, World War II and Korea, U.S. Army",
+      "access_date": "2026-09-12",
+      "source_quality": "A_direct_official",
+      "collection_name": "Rhode Island Veteran Graves Registration",
+      "rights_notes": "Identity and state context only; unrelated personal details are excluded."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "tully-cornick-sales-clerks-b473",
+      "person_id": "5c4ccadb-8b8a-50e0-8e71-8fae0cff6c3f",
+      "occupation": "Sales clerks",
+      "relationship_type": "unknown",
+      "end_date": "1942-02-12",
+      "date_precision": "The identifier-matched Army statistical card dated 12 February 1942 carries civilian-occupation value 170; the official table defines 1-70 as Sales clerks.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The category establishes no store, employer, workplace, paid relationship, work dates or Army-to-OSS sequence."
+    },
+    {
+      "key": "william-correa-stenographers-b473",
+      "person_id": "3525173e-a159-573d-ad9f-10e4889e028c",
+      "occupation": "Stenographers and typists",
+      "relationship_type": "unknown",
+      "end_date": "1941-08-20",
+      "date_precision": "The identifier-matched Army statistical card dated 20 August 1941 carries civilian-occupation value 137; the official table defines 1-37 as Stenographers and typists.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The category establishes no employer, workplace, paid relationship, work dates or Army-to-OSS sequence."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-tully-r-cornick-jr-b473",
+      "person_id": "5c4ccadb-8b8a-50e0-8e71-8fae0cff6c3f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Tully R Cornick Jr. has a confirmed match to the exact private identifier and exact name in the official Army merged file.",
+      "evidence_excerpt": "CORNICK TULLY R JR",
+      "evidence_paraphrase": "The indexed identifier selects the sole exact-name Army row, dated 12 February 1942 as a private; a squadron roster independently repeats the identifier, name, birth year and Nevada context.",
+      "identity_match_assessment": "Exact private identifier and exact indexed name establish the Army match; the independent squadron compilation corroborates multiple details.",
+      "temporal_assessment": "The records date Army entry and later squadron service but do not identify an OSS start, employer or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full private identifier remains private. Later squadron service is identity context, not a pre-OSS affiliation.",
+      "sources": [
+        {
+          "source_key": "index-b473",
+          "support_type": "supports",
+          "locator_override": "PDF page 93, row 32; Box 145; identifier withheld"
+        },
+        {
+          "source_key": "army-b473",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier and exact-name record dated 12 February 1942; identifier withheld"
+        },
+        {
+          "source_key": "basic-b473",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "cornick-roster-b473",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 20; exact identifier, name, 1912 birth year and Nevada context; identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-tully-r-cornick-jr-b473",
+      "person_id": "5c4ccadb-8b8a-50e0-8e71-8fae0cff6c3f",
+      "affiliation_key": "tully-cornick-sales-clerks-b473",
+      "claim_type": "occupation",
+      "claim_text": "Tully R Cornick Jr.'s Army-entry record carries the broad occupational category Sales clerks; no employer, store or exact task is identified.",
+      "evidence_excerpt": "Sales clerks",
+      "evidence_paraphrase": "The identifier-matched Army row carries occupation value 170; the visually inspected official table defines the 1-70 category.",
+      "identity_match_assessment": "The exact private identifier and exact indexed name establish the Army-record match.",
+      "temporal_assessment": "The category is bounded to the Army record dated 12 February 1942, but actual work dates and its relation to OSS service are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, store, worksite, employment relationship or immediacy is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b473",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 170; identifier withheld"
+        },
+        {
+          "source_key": "basic-b473",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-45; civilian occupation field"
+        },
+        {
+          "source_key": "codes-b473",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 171; entry 1-70",
+          "excerpt_override": "Sales clerks"
+        }
+      ]
+    },
+    {
+      "key": "identity-andre-cornut-b473",
+      "person_id": "846a5268-845f-57c7-b6a8-163e9246b300",
+      "claim_type": "identity",
+      "claim_text": "The indexed French Captain Andre Cornut is a high-confidence match to Captain Andre Cornut, alias Guermantes, in a compiled Proust mission history.",
+      "evidence_excerpt": "Cpt André Cornut @Guermantes",
+      "evidence_paraphrase": "The rare name, French nationality and captain rank align; the history places Cornut in a joint French BCRA and U.S. OSS Proust mission and supplies archival locators.",
+      "identity_match_assessment": "The uncommon exact name plus matching nationality, commissioned rank and OSS-associated mission context provide several discriminators beyond the name. Direct personnel-file confirmation remains outstanding.",
+      "temporal_assessment": "The source documents wartime mission context on 9 September 1944, not a pre-OSS employer or predecessor affiliation.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The alias is a documented search variant. The history is tentative, so Box 145 and cited NARA and SHD records remain controlling.",
+      "sources": [
+        {
+          "source_key": "index-b473",
+          "support_type": "supports",
+          "locator_override": "PDF page 93, row 34; Captain; French; Box 145"
+        },
+        {
+          "source_key": "cornut-infiltrations-b473",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 193; 9 September 1944 Confracourt entry; NARA M1623 R4 V4 Proust; SHD GR16P143341"
+        }
+      ]
+    },
+    {
+      "key": "identity-william-i-correa-b473",
+      "person_id": "3525173e-a159-573d-ad9f-10e4889e028c",
+      "claim_type": "identity",
+      "claim_text": "The indexed William I Correa has a confirmed match to the exact private identifier and exact name in the official Army merged file.",
+      "evidence_excerpt": "CORREA WILLIAM I",
+      "evidence_paraphrase": "The indexed identifier selects the sole exact-name Army row and dates Army entry to 20 August 1941 as a private.",
+      "identity_match_assessment": "Exact private identifier and exact indexed name establish the match.",
+      "temporal_assessment": "The record dates Army entry but does not identify an OSS start, employer or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private grade supports enlisted Army classification. The full identifier remains private.",
+      "sources": [
+        {
+          "source_key": "index-b473",
+          "support_type": "supports",
+          "locator_override": "PDF page 93, row 37; Box 145; identifier withheld"
+        },
+        {
+          "source_key": "army-b473",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier and exact-name record dated 20 August 1941; identifier withheld"
+        },
+        {
+          "source_key": "basic-b473",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-william-i-correa-b473",
+      "person_id": "3525173e-a159-573d-ad9f-10e4889e028c",
+      "affiliation_key": "william-correa-stenographers-b473",
+      "claim_type": "occupation",
+      "claim_text": "William I Correa's Army-entry record carries the occupational category Stenographers and typists; no employer or workplace is identified.",
+      "evidence_excerpt": "Stenographers and typists",
+      "evidence_paraphrase": "The identifier-matched Army row carries occupation value 137; the visually inspected official table defines the 1-37 category.",
+      "identity_match_assessment": "The exact private identifier and exact indexed name establish the Army-record match.",
+      "temporal_assessment": "The category is bounded to the Army record dated 20 August 1941, but actual work dates and its relation to OSS service are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, employment relationship or immediacy is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b473",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 137; identifier withheld"
+        },
+        {
+          "source_key": "basic-b473",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-45; civilian occupation field"
+        },
+        {
+          "source_key": "codes-b473",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 171; entry 1-37",
+          "excerpt_override": "Stenographers and typists"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-p-corriera-b473",
+      "person_id": "bbbc2fac-83f2-5f77-8aac-65bf979c87c6",
+      "claim_type": "identity",
+      "claim_text": "The indexed John P Corriera is a high-confidence match to an official Army row whose fixed-width identifier adds one leading zero.",
+      "evidence_excerpt": "Corriera John P.",
+      "evidence_paraphrase": "The exact rare name and seven indexed identifier digits agree after one leading zero; the Army row's 1913 birth-year and Rhode Island context align with an official state veterans inventory.",
+      "identity_match_assessment": "The private identifier, rare exact name, middle initial, birth year, state and Army service align. The leading-zero formatting difference and 10 November 1945 Army-entry date prevent confirmed status without Box 145.",
+      "temporal_assessment": "The Army record is dated after OSS dissolution and is used only for identity and enlisted-status context, not as pre-OSS occupation or affiliation evidence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "publish_qualified",
+      "match_notes": "The full identifier is withheld. No occupation, employer, branch assignment or pre-OSS sequence is transferred from the late Army row.",
+      "sources": [
+        {
+          "source_key": "index-b473",
+          "support_type": "supports",
+          "locator_override": "PDF page 93, row 41; seven-digit private identifier withheld; Box 145"
+        },
+        {
+          "source_key": "army-b473",
+          "support_type": "supports",
+          "locator_override": "Exact name and seven identifier digits after restoring one leading zero; 1913 birth-year value; Rhode Island residence code; identifier withheld"
+        },
+        {
+          "source_key": "basic-b473",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-45; fixed-width layout and leading-zero handling"
+        },
+        {
+          "source_key": "rhode-island-corriera-b473",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 4; exact name, 1913 birth year, World War II and Korea, U.S. Army"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "5c4ccadb-8b8a-50e0-8e71-8fae0cff6c3f",
+      "identity_status": "confirmed",
+      "identity_evidence": "Exact indexed private identifier and full name match the sole Army row; the 885th Bombardment Squadron roster independently repeats the identifier, name, 1912 birth year and Nevada context.",
+      "name_variants": [
+        "Tully R Cornick Jr.",
+        "Tully R. Cornick Jr.",
+        "CORNICK TULLY R JR"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 145 to identify the employer or workplace behind the sales-clerk category and establish Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "66969e0a-fbe9-5585-b23e-a42d32a0e659",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The sole exact-name Army row carries a different private identifier from the six-digit form printed in the OSS index. No source bridges either record to Box 145, so no Army fact is transferred.",
+      "name_variants": [
+        "George H Cornish",
+        "George H. Cornish",
+        "CORNISH GEORGE H"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 145 to resolve the identifier conflict.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "846a5268-845f-57c7-b6a8-163e9246b300",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index's rare name, French note and captain rank align with Captain Andre Cornut, alias Guermantes, in a compiled joint BCRA-OSS Proust mission history carrying NARA and French archival locators.",
+      "name_variants": [
+        "Andre Cornut",
+        "André Cornut",
+        "Cornut André",
+        "Guermantes"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": false,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer or immediate predecessor has yet been identified. Review Box 145, NARA M1623 R4 V4 Proust and SHD GR16P143341.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "21ca6b99-0cf9-5fc4-926d-02463a24b05f",
+      "identity_status": "unresolved",
+      "identity_evidence": "No exact Army row or reliable public source linked Beatrice L Corr to Box 145 or established a pre-OSS affiliation.",
+      "name_variants": [
+        "Beatrice L Corr",
+        "Beatrice L. Corr"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 145.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "89491a94-b0da-5edf-bcd6-76316e01f4c1",
+      "identity_status": "unresolved",
+      "identity_evidence": "No exact Army row or reliable public source linked Margaret M Corragio or the indexed A-prefixed identifier to Box 145 and a pre-OSS affiliation.",
+      "name_variants": [
+        "Margaret M Corragio",
+        "Margaret M. Corragio"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 145 to interpret the A-prefixed identifier.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "3525173e-a159-573d-ad9f-10e4889e028c",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier and exact full name match the sole official Army row dated 20 August 1941.",
+      "name_variants": [
+        "William I Correa",
+        "William I. Correa",
+        "CORREA WILLIAM I"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 145 to identify the employer or workplace behind the stenographer-and-typist category and establish Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "717ce632-7dd4-5519-99f1-f138e180c085",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index classifies Louise J Correri as a private, but no identifier, exact Army row or reliable public identity bridge was found.",
+      "name_variants": [
+        "Louise J Correri",
+        "Louise J. Correri"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 145.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fa649630-9bf9-5c87-acdf-bb5e3a5b77ae",
+      "identity_status": "unresolved",
+      "identity_evidence": "No exact Army row or reliable public source linked Bruce Corrick's indexed private identifier to Box 145; several obituary and genealogy namesakes lacked the required bridge.",
+      "name_variants": [
+        "Bruce Corrick"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 145 and the indexed identifier.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c4c8394a-c3c6-52f9-9cce-eed2d158edb1",
+      "identity_status": "unresolved",
+      "identity_evidence": "No exact Army row or reliable public source linked John H Corridon's indexed private identifier to Box 145. An early Maine National Guard officer was rejected as an unbridged older namesake.",
+      "name_variants": [
+        "John H Corridon",
+        "John H. Corridon"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 145.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "bbbc2fac-83f2-5f77-8aac-65bf979c87c6",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The Army row shares John P Corriera's rare exact name, middle initial and all seven printed identifier digits after restoring one leading zero. Its 1913 birth-year and Rhode Island Army context align with an official state inventory.",
+      "name_variants": [
+        "John P Corriera",
+        "John P. Corriera",
+        "CORRIERA JOHN P"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 145 to confirm the leading-zero bridge and explain the Army record dated after OSS dissolution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b473-tully-r-cornick-jr",
+      "person_id": "5c4ccadb-8b8a-50e0-8e71-8fae0cff6c3f",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index page 93; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_exact_private_identifier",
+      "started_at": "2026-09-12T15:05:00Z",
+      "completed_at": "2026-09-12T19:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Older lawyer namesakes and genealogy pages lacked the indexed identifier; the squadron roster does not establish pre-OSS employment.",
+      "research_notes": "Confirmed identity and qualified sales-clerk occupation at Army entry; no employer identified.",
+      "next_action": "Review Box 145 for identity, affiliation and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss/reviewed-public-batch473-v1"
+    },
+    {
+      "key": "b473-george-h-cornish",
+      "person_id": "66969e0a-fbe9-5585-b23e-a42d32a0e659",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index page 93; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_conflicting_private_identifier",
+      "started_at": "2026-09-12T15:05:00Z",
+      "completed_at": "2026-09-12T19:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The sole Army exact-name row has a different identifier. New Jersey directory and other common-name results lack Box 145 or OSS evidence.",
+      "research_notes": "Identifier conflict preserved; no candidate fact transferred.",
+      "next_action": "Review Box 145 for identity, affiliation and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss/reviewed-public-batch473-v1"
+    },
+    {
+      "key": "b473-andre-cornut",
+      "person_id": "846a5268-845f-57c7-b6a8-163e9246b300",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index page 93; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_foreign_ranked_personnel",
+      "started_at": "2026-09-12T15:05:00Z",
+      "completed_at": "2026-09-12T19:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "A French officer-register result may identify Andre Lucien Cornut but lacks a direct Box 145 bridge; mission histories establish wartime context, not a pre-OSS employer.",
+      "research_notes": "High-confidence identity with documented alias and archival leads; no reliable pre-OSS employer identified.",
+      "next_action": "Review Box 145 for identity, affiliation and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss/reviewed-public-batch473-v1"
+    },
+    {
+      "key": "b473-beatrice-l-corr",
+      "person_id": "21ca6b99-0cf9-5fc4-926d-02463a24b05f",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index page 93; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_without_identifier",
+      "started_at": "2026-09-12T15:05:00Z",
+      "completed_at": "2026-09-12T19:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Common-name directory, obituary and genealogy results lack the middle initial, Box 145 and OSS bridge.",
+      "research_notes": "Bounded protocol completed without a reliable identity or pre-OSS employer.",
+      "next_action": "Review Box 145 for identity, affiliation and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss/reviewed-public-batch473-v1"
+    },
+    {
+      "key": "b473-margaret-m-corragio",
+      "person_id": "89491a94-b0da-5edf-bcd6-76316e01f4c1",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index page 93; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_a_prefixed_private_identifier",
+      "started_at": "2026-09-12T15:05:00Z",
+      "completed_at": "2026-09-12T19:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "No Army literal-identifier or exact-name row was found; surname variants and public results lack Box 145 or OSS linkage.",
+      "research_notes": "The A-prefixed identifier requires personnel-file interpretation.",
+      "next_action": "Review Box 145 for identity, affiliation and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss/reviewed-public-batch473-v1"
+    },
+    {
+      "key": "b473-william-i-correa",
+      "person_id": "3525173e-a159-573d-ad9f-10e4889e028c",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index page 93; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_exact_private_identifier",
+      "started_at": "2026-09-12T15:05:00Z",
+      "completed_at": "2026-09-12T19:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Common-name and postwar results lack the indexed identifier, Box 145 or an employer link; the Army category names no workplace.",
+      "research_notes": "Confirmed identity and qualified stenographer-and-typist occupation at Army entry; no employer identified.",
+      "next_action": "Review Box 145 for identity, affiliation and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss/reviewed-public-batch473-v1"
+    },
+    {
+      "key": "b473-louise-j-correri",
+      "person_id": "717ce632-7dd4-5519-99f1-f138e180c085",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index page 93; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_rank_without_identifier",
+      "started_at": "2026-09-12T15:05:00Z",
+      "completed_at": "2026-09-12T19:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "A cemetery result has a different middle initial; other results lack Box 145 and OSS evidence. No exact Army row was found.",
+      "research_notes": "Rank classification preserved; identity and employer remain unresolved.",
+      "next_action": "Review Box 145 for identity, affiliation and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss/reviewed-public-batch473-v1"
+    },
+    {
+      "key": "b473-bruce-corrick",
+      "person_id": "fa649630-9bf9-5c87-acdf-bb5e3a5b77ae",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index page 93; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_private_identifier_common_name",
+      "started_at": "2026-09-12T15:05:00Z",
+      "completed_at": "2026-09-12T19:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Obituary and genealogy namesakes have incompatible ages or no indexed identifier, Box 145 or OSS bridge. No exact Army row was found.",
+      "research_notes": "Bounded protocol completed without a reliable identity or pre-OSS employer.",
+      "next_action": "Review Box 145 for identity, affiliation and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss/reviewed-public-batch473-v1"
+    },
+    {
+      "key": "b473-john-h-corridon",
+      "person_id": "c4c8394a-c3c6-52f9-9cce-eed2d158edb1",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index page 93; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_private_identifier_common_name",
+      "started_at": "2026-09-12T15:05:00Z",
+      "completed_at": "2026-09-12T19:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "An early Maine National Guard officer and other namesakes lack the indexed identifier, Box 145 or OSS bridge.",
+      "research_notes": "Bounded protocol completed without a reliable identity or pre-OSS employer.",
+      "next_action": "Review Box 145 for identity, affiliation and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss/reviewed-public-batch473-v1"
+    },
+    {
+      "key": "b473-john-p-corriera",
+      "person_id": "bbbc2fac-83f2-5f77-8aac-65bf979c87c6",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index page 93; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_leading_zero_private_identifier",
+      "started_at": "2026-09-12T15:05:00Z",
+      "completed_at": "2026-09-12T19:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "A modern junior-generation obituary was rejected. The 1945 Army occupation cannot establish a pre-OSS role.",
+      "research_notes": "High-confidence identity; late Army row withheld from pre-OSS affiliation findings.",
+      "next_action": "Review Box 145 for identity, affiliation and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss/reviewed-public-batch473-v1"
+    }
+  ]
+}

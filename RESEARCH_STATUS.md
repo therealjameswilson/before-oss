@@ -1,8 +1,565 @@
 # Research status
 
-Verified against the current local SQLite database on 2026-09-09 UTC.
+Verified against the current local SQLite database on 2026-09-14 UTC.
 
-Batch 442 is a local release candidate awaiting independent release checks. It
+Batch 510 is a validated local release candidate. It adds ten terminal saved
+outcomes for personnel-index PDF page 101 rows 34-43, Mary T Curio through
+Teresita Currie, all in Box 160. Exact private-identifier and name matches
+confirm Anton Curl, Michael J Curley and Charley Curo as enlisted Army
+personnel. Anton's `Electricians' apprentice` and Michael's `Boilermaker`
+categories are published only as qualified occupations at Army entry, never as
+named employers; Charley's occupation value 999 remains uninterpreted. An
+official National Park Service history supports Vincent L Curl as the First
+Sergeant selected from the 35th Infantry Regiment for the original Detachment
+101 cadre and later identifies him as an OSS captain. The regiment is therefore
+published as a high-confidence immediate military assignment, not a civilian
+employer, while Box 160 remains necessary to confirm the middle initial and
+chronology. Six identities remain unresolved. All eight Library of Congress
+candidates were rejected after full-page context review. Focused browser QA
+passes 15/15 checks, bounded core and analysis QA pass 24/24 checks, and axe
+passes 27/27 across desktop, phone and tablet. Exact coverage is 4,868 / 23,940
+researched, 554 verified affiliations, 246 verified employers, 4,823 archival
+dispositions assessed and 19,072 `not_started`. Batch 510 is not pushed or
+deployed. See `reports/release_batch_510.md` and
+`research/batch-510-discovery-checkpoint.md`.
+
+Batch 509 is a validated local release candidate. It adds ten terminal saved
+outcomes for personnel-index PDF page 101 rows 24-33, Mary Cunningham through
+Sanford C Curcie, crossing from Box 159 to Box 160. An exact private-identifier
+and exact-name match confirms Murray O Cunningham as enlisted Army personnel;
+the Army row and official code list support only the qualified civilian
+occupation category `Photographers` at Army entry, never a named employer or
+immediate OSS predecessor. Six common-name or rank-dependent identities remain
+ambiguous, including Captain Roy H Cunningham, whose printed commissioned
+classification is retained while two private-at-entry namesakes remain
+unassigned. Mary Cunningham, Alberto Cupelli and Sanford C Curcie remain
+unresolved; contemporary or postwar namesake leads are withheld without an OSS
+or personnel-file bridge. All 28 Library of Congress candidates were rejected
+after full-page context review. Focused browser QA passes 15/15 checks across
+desktop, phone and tablet; full regression and release audits are recorded in
+`reports/release_batch_509.md`. Exact coverage is 4,858 / 23,940 researched,
+553 verified affiliations, 246 verified employers, 4,813 archival dispositions
+assessed and 19,082 `not_started`. Batch 509 is not pushed or deployed. See
+`reports/release_batch_509.md` and
+`research/batch-509-discovery-checkpoint.md`.
+
+Batch 508 is a validated local release candidate. It adds ten terminal saved
+outcomes for personnel-index PDF page 101 rows 14-23, Ramon C Cunill through
+Lou Cunningham, all in Box 159. A complete 9,200,232-row Army-file scan leaves
+Harry G Cunningham and Helen M Cunningham with two incompatible exact-name
+alternatives each; Hugh T Cunningham has one exact-name row whose identifier
+does not match the private index value. None is selected. `Riuth` is confirmed
+as the source spelling and `Ruth` remains only a search alias. Five Library of
+Congress candidates, two technical-career Harry Cunningham leads and a
+postwar CIA Hugh Cunningham remain rejected or unbridged namesakes. The batch
+adds no affiliation because none meets the identity and temporal standards.
+All 94 Python tests, 15 focused cross-viewport checks, 54 bounded core checks,
+27 axe cases, profile, link, dependency and identifier audits pass; two
+24,551-page builds are byte-identical. Exact coverage is 4,848 / 23,940
+researched, 553 verified affiliations, 246 verified employers, 4,803 archival
+dispositions assessed and 19,092 `not_started`. Batch 508 is not pushed or
+deployed. See `reports/release_batch_508.md` and
+`research/batch-508-discovery-checkpoint.md`.
+
+Batch 507 is a validated local release candidate. It adds ten terminal saved
+outcomes for personnel-index PDF page 101 rows 4-13, Roger Cummings through
+Matthew J Cunic, all in Box 159. Exact private identifiers confirm Melvin F
+Cummins and Matthew J Cunic as enlisted Army personnel while Herman L
+Cundiff's identifier-name conflict remains explicit. Two official sources
+document Ernest L Cuneo's earlier newspaper and LaGuardia work and his
+1936-1940 Democratic National Committee role; the latter is published only as
+a medium-confidence probable-immediate affiliation because the post-1940 gap
+is unresolved. Julia Cuniberti's Vassar Class of 1944 chronology is published
+as a student affiliation, never an employer. Five other people remain
+ambiguous or unresolved, and two wrong-initial newspaper candidates are
+durably rejected. All 94 Python tests, 24 focused cross-viewport checks, 54
+bounded core checks, 27 axe cases, profile, link, dependency and identifier
+audits pass; two 24,551-page builds are byte-identical. Exact coverage is 4,838
+/ 23,940 researched, 553 verified affiliations, 246 verified employers, 4,793
+archival dispositions assessed and 19,102 `not_started`. Batch 507 is not
+pushed or deployed. See `reports/release_batch_507.md` and
+`research/batch-507-discovery-checkpoint.md`.
+
+Batch 506 is a validated local release candidate. It adds ten terminal saved
+outcomes across personnel-index PDF page 100 rows 40-46 and page 101 rows 1-3,
+Richard T Culp through Philip H Cummings, crossing from Box 158 to Box 159.
+Exact private-identifier evidence confirms Tom S Culverwell as enlisted Army
+personnel; two institutional histories identify him as Thomas Speiden
+Culverwell, establish the United States Forest Service as his strongly date-
+bounded last civilian employer, and explicitly document wartime OSS map work.
+His Army pathway remains qualified as probable immediate because no transfer
+date is documented, while earlier artwork supplied to the Washington Daily
+News remains an unknown relationship rather than invented employment. Five
+other identities remain ambiguous and four unresolved; no exact-name Army or
+postwar namesake is silently selected. Two wrong-initial LoC candidates are
+durably rejected. All 94 Python tests, 21 focused cross-viewport checks, 57
+bounded core checks, 27 axe cases, profile, link, dependency and identifier
+audits pass; two 24,547-page builds are byte-identical. Exact coverage is 4,828
+/ 23,940 researched, 550 verified affiliations, 245 verified employers, 4,783
+archival dispositions assessed and 19,112 `not_started`. Batch 506 is not
+pushed or deployed. See `reports/release_batch_506.md` and
+`research/batch-506-discovery-checkpoint.md`.
+
+Batch 505 is a validated local release candidate. It adds ten terminal saved
+outcomes for personnel-index PDF page 100 rows 30-39, Ruth B Culbertson through
+Carson W Culp, all in Box 158. A Library of Congress finding aid directly links
+William Smith Culbertson to War Department Military Intelligence and the OSS
+Planning Group, documents Colonel rank, and separates his long Georgetown
+faculty employment, private law practice, Tariff Commission service and earlier
+diplomatic assignments. The military-to-OSS sequence remains qualified as
+probable rather than explicit, and no last civilian employer is invented. A
+State Historical Society of Missouri finding aid supports a qualified probable
+James S Cullison identity and 1930-1945 Missouri School of Mines employment;
+the absent OSS bridge keeps it out of default analytics. Exact private
+identifiers confirm William D Culbertson and Thomas M Cullens as enlisted Army
+personnel and support occupation categories only. Six other profiles remain
+unresolved. Ten CIA checks returned no candidates; 16 actual LoC attempts
+produced 18 candidates, with 17 rejected and one accepted in the durable review
+ledger. All 94 Python tests, 21 focused cross-viewport checks, 42 bounded core
+checks, 27 axe cases, profile, link, dependency and identifier audits pass; two
+24,546-page builds are byte-identical. Exact coverage is 4,818 / 23,940
+researched, 549 verified affiliations, 244 verified employers, 4,773 archival
+dispositions assessed and 19,122 `not_started`. Batch 505 is not pushed or
+deployed. See `reports/release_batch_505.md` and
+`research/batch-505-discovery-checkpoint.md`.
+
+Batch 504 is a validated local release candidate. It adds ten saved outcomes
+for personnel-index PDF page 100 rows 20-29, Walter M Cuddy Jr. through Jane
+Culbertson, crossing from Box 157 to Box 158. Exact private identifiers confirm
+Walter Cuddy and Mario Cugia as enlisted Army personnel and support only
+qualified printing occupations, never invented employers. Direct wartime and
+Foreign Service sources support a high-confidence Frederick P Culbert pathway
+from a State Department vice-consul/control-officer assignment into
+GYMNAST/Western Task Force work; conflicting Casablanca and Dakar locations
+remain visible, his earlier Navy service is separate, and an unnamed business-
+executive history is not counted as an employer. Frank Cuellar and Rodolfo
+Cueva remain ambiguous; five other profiles remain unresolved. Two LoC false
+matches are durably rejected after page-context review, and ten CIA checks
+returned no candidates. Employer analytics now require a named organization
+for employment relationships, correcting the verified-employer total from 244
+to 243. All 94 Python tests, 18 focused cross-viewport checks, 42 bounded core
+checks, 27 axe cases, profile, link, dependency and identifier audits pass;
+two 24,543-page builds are byte-identical. Exact coverage is 4,808 / 23,940
+researched, 548 verified affiliations, 243 verified employers, 4,763 archival
+dispositions assessed and 19,132 `not_started`. Batch 504 is not pushed or
+deployed. See `reports/release_batch_504.md` and
+`research/batch-504-discovery-checkpoint.md`.
+
+Batch 503 is a validated local release candidate. It adds ten saved outcomes
+for personnel-index PDF page 100 rows 10-19, Malcolm A Crusius through Michael
+A Cucinotta, all in Box 157. Six exact private identifiers confirm enlisted
+Army identities and support only qualified occupations or student status, never
+invented employers; Michael Cucinotta's later Army-entry occupation is withheld
+from pre-OSS claims. A 1937 appellate decision and a 1945 Judge Advocate Journal
+support a probable Malcolm Crusius identity and separate federal and Army legal
+assignments, neither claimed immediate to OSS or as last civilian employment.
+Ashley Crutchfield's prefixed value remains uninterpreted, Joseph Cryan's later
+U.S. namesake is rejected against the indexed British sergeant, and Sophie
+Crystal remains unresolved. The audit preserves 17 actual no-result LoC checks,
+including seven repeats, plus ten no-result CIA checks. All 94 Python tests, 21
+focused cross-viewport checks, 24 bounded core checks, 27 axe cases, profile,
+link, dependency and identifier audits pass; two 24,543-page builds are byte-
+identical. Exact coverage is 4,798 / 23,940 researched, 547 verified
+affiliations, 244 verified employers, 4,753 archival dispositions assessed and
+19,142 `not_started`. Batch 503 is not pushed or deployed. See
+`reports/release_batch_503.md` and
+`research/batch-503-discovery-checkpoint.md`.
+
+Batch 502 is a validated local release candidate. It adds ten saved outcomes
+across personnel-index PDF page 99 row 46 and page 100 rows 1-9, Harriet
+Crowley through Nancy W Cruse, all in Box 157. Exact private identifiers
+confirm John R Croze and Scott L Crull as enlisted Army personnel; John has no
+promoted occupation, while Scott's broad warehousing/material-handling
+category is qualified and names no employer. An institutional source supports
+a probable James Irving Crump Jr. identity and wartime Army Chinese-
+interpreter training at Harvard, modeled as military training rather than
+employment and not claimed as immediately pre-OSS. Robert D Crowley's printed
+captain status remains intact while two enlisted namesakes are rejected; the
+prominent Leo T Crowley is not conflated with Leo F Crowley. Six profiles
+remain unresolved and two ambiguous, all with Box 157 guidance. Seven Library
+of Congress candidates were rejected from official OCR context. All 94 Python
+tests, 21 focused cross-viewport checks, 30 bounded core checks, 27 axe cases,
+profile, link, dependency and identifier audits pass; two 24,541-page builds
+are byte-identical. Exact coverage is 4,788 / 23,940 researched, 547 verified
+affiliations, 244 verified employers, 4,743 archival dispositions assessed and
+19,152 `not_started`. Batch 502 is not pushed or deployed. See
+`reports/release_batch_502.md` and
+`research/batch-502-discovery-checkpoint.md`.
+
+Batch 501 is a validated local release candidate. It adds ten saved outcomes
+for personnel-index PDF page 99 rows 36-45, Sherman J Crough through Anne T
+Crowley, across Boxes 156 and 157. Sherman is a confirmed enlisted identity
+with a Dartmouth student pathway; two more exact identifier matches support
+qualified actor/actress and student categories without named employers. Three
+institutional sources support high-confidence Philip Kingsland Crowe and
+separate Fortune, Life, the New York Evening Post and the University of
+Virginia. A contemporary OSS report directly confirms John B Crowl and keeps
+his Army replacement depot, own printing business and earlier steel-company
+clerkship distinct. Five people remain unresolved or ambiguous and retain
+archival-review guidance. All 94 Python tests, 21 focused cross-viewport checks,
+42 bounded core checks, profile, link, dependency and identifier audits pass
+locally; all 27 axe cases pass and two 24,540-page builds are byte-identical.
+Exact coverage is 4,778 / 23,940 researched,
+547 verified affiliations, 244 verified employers, 4,733 archival dispositions
+assessed and 19,162 `not_started`. Batch 501 is not pushed or deployed. See
+`reports/release_batch_501.md` and
+`research/batch-501-discovery-checkpoint.md`.
+
+Batch 500 is a validated local release candidate. It adds ten saved outcomes
+for personnel-index PDF page 99 rows 26-35, Paul L Crosby through Paul W
+Crouch, all in Box 156. Three exact private-identifier matches support enlisted
+Army identities and qualified occupations without named employers. A rare-name
+obituary supports high-confidence Gregg Elwyn Crouch and documents Washta High
+School, Air Corps and OSS pathways, while a one-character index-to-Army
+identifier conflict remains visible. Six people remain unresolved or ambiguous;
+ten newspaper candidates were rejected with item-level reasons. A visual code
+audit also corrected occupation code 699 in three earlier profiles without
+creating duplicate claims. All 94 Python tests, 21 focused cross-viewport
+checks, 24 bounded core checks, 27 axe cases, profile, link, dependency and
+identifier audits, and two byte-identical 24,535-page Pages builds pass locally.
+Exact coverage is 4,768 / 23,940 researched, 544 verified affiliations, 242
+verified employers, 4,723 archival dispositions assessed and 19,172
+`not_started`. Batch 500 is not pushed or deployed. See
+`reports/release_batch_500.md` and
+`research/batch-500-discovery-checkpoint.md`.
+
+Batch 493 is a validated local release candidate. It adds ten saved outcomes
+for personnel-index PDF page 98 rows 2-11, Robert N Creadick through Albert M
+Creighton Jr., all in Box 153. An exact private-identifier Army match confirms
+Robert D Creaven as enlisted personnel and supports only a qualified 1941
+carpenter occupation, not a named employer. A stronger Army-to-OSS lead remains
+private and low-confidence because its Hoover digital item is reading-room-
+only. Two independent sources support a probable, medium-confidence John A
+Creedy identity and two documented-prewar newspaper roles; neither is labeled
+immediate or last civilian. Five people remain ambiguous and three unresolved;
+short identifiers, name-only Army candidates and the one incompatible Library
+of Congress candidate stay unassigned. All 94 Python tests, 15 focused cross-
+viewport checks, 27 axe cases, profile, link, dependency and identifier audits,
+and two byte-identical 24,516-page Pages builds pass locally. Exact coverage is
+4,698 / 23,940 researched, 534 verified affiliations, 237 verified employers,
+4,653 archival dispositions assessed and 19,242 `not_started`. Batch 493 is not
+pushed or deployed. See `reports/release_batch_493.md` and
+`research/batch-493-discovery-checkpoint.md`.
+
+Batch 492 is a validated local release candidate. It adds ten saved outcomes
+across personnel-index PDF page 97 rows 38-46 and page 98 row 1, Hilary
+Crawford through James W Crayhon, spanning Boxes 152 and 153. Three exact
+identifier matches support confirmed enlisted Army identities and qualified
+Army-entry occupations without named employers. A fourth exact match is kept
+to identity only because its Army entry follows OSS dissolution. Two people
+remain unresolved and three remain ambiguous; short identifiers, name-only
+Army candidates and all ten Library of Congress candidates stay unassigned.
+Two independent sources support only a probable, medium-confidence 1938
+Associated Press role for James W Crayhon, labeled documented prewar rather
+than immediate or last civilian. All 94 Python tests, 18 focused cross-
+viewport checks, 27 axe cases after one clean isolated timeout rerun, profile,
+link, dependency and identifier audits, and two byte-identical 24,516-page
+Pages builds pass locally. Exact coverage is 4,688 / 23,940 researched, 534
+verified affiliations, 237 verified employers, 4,643 archival dispositions
+assessed and 19,252 `not_started`. Batch 492 is not pushed or deployed. See
+`reports/release_batch_492.md` and
+`research/batch-492-discovery-checkpoint.md`.
+
+Batch 491 is a validated local release candidate. It adds ten saved outcomes
+for personnel-index PDF page 97 rows 28-37, Virginia Crate through Eugene E
+Crawford, all in Box 152. Exact identifier matches confirm three enlisted Army
+identities; an exact identifier plus damaged Army surname supports a fourth at
+high confidence. Two Army-entry occupations are published with qualification,
+while unsupported alternate-card values 417 and 668 remain deliberately
+undecoded. Two people remain unresolved and four remain ambiguous; name-only
+Army/WAC rows and all eight Library of Congress candidates stay unassigned.
+All 94 Python tests, 15 focused cross-viewport checks, 27 isolated axe checks,
+profile, link, dependency and identifier audits, and two byte-identical
+24,516-page Pages builds pass locally. Exact coverage is 4,678 / 23,940
+researched, 534 verified affiliations, 237 verified employers, 4,633 archival
+dispositions assessed and 19,262 `not_started`. Batch 491 is not pushed or
+deployed. See `reports/release_batch_491.md` and
+`research/batch-491-discovery-checkpoint.md`.
+
+Batch 490 is a validated local release candidate. It adds ten saved outcomes
+for personnel-index PDF page 97 rows 18-27, Robert E Cramer through Wallen L
+Crane, across Boxes 151 and 152. An institutional finding aid supports a
+high-confidence Louis Burton Crane Jr. identity, the New York Times as his
+best-supported last civilian employer before documented wartime OSS service,
+and The Japan Advertiser as earlier documented employment. It does not prove
+an immediate newspaper-to-OSS transfer or commissioned status. Three strict
+private-identifier Army matches confirm Joseph Crampes, Rufus S Crane Jr. and
+Wallen L Crane as enlisted personnel and support qualified Army-entry
+occupation categories, never named employers. Six people remain unresolved
+with officer status unknown. All ten Library of Congress candidates were
+reviewed in official OCR context and rejected. All 94 Python tests, 15 focused
+cross-viewport checks, the complete 2,853 / 2,853 browser and accessibility
+matrix, profile, link, dependency and identifier audits, and two byte-
+identical 24,516-page Pages builds pass locally. Exact coverage is 4,668 /
+23,940 researched, 534 verified affiliations, 237 verified employers, 4,623
+archival dispositions assessed and 19,272 `not_started`. Batch 490 is not
+pushed or deployed. See `reports/release_batch_490.md` and
+`research/batch-490-discovery-checkpoint.md`.
+
+Batch 489 is a validated local release candidate. It adds ten saved outcomes
+for personnel-index PDF page 97 rows 8-17, Mary J Craig through Arvid H
+Craker, across Boxes 151 and 152. Four strict private-identifier Army matches
+support three confirmed and one high-confidence enlisted identities plus
+qualified Army-entry occupation categories, never named employers. Six people
+remain unresolved with officer status unknown. The two Robert B Craig rows and
+the Richard J Craigo/Richard Craigue pair remain separate in two visible
+possible-duplicate groups. All 17 Library of Congress candidates were
+reviewed in official OCR context and rejected. All 94 Python tests, 15 focused
+cross-viewport checks, 27 isolated axe checks, profile, link and identifier
+audits, and two byte-identical 24,514-page Pages builds pass locally. Exact
+coverage is 4,658 / 23,940 researched, 533 verified affiliations, 236 verified
+employers, 4,613 archival dispositions assessed and 19,282 `not_started`.
+Batch 489 is not pushed or deployed. See `reports/release_batch_489.md` and
+`research/batch-489-discovery-checkpoint.md`.
+
+Batch 488 is a validated local release candidate. It adds ten saved outcomes
+across personnel-index PDF page 96 rows 44-46 and page 97 rows 1-7, Pierre
+Crabites through Margaret Craig, all in Box 151. Official and contemporary
+Foreign Service evidence supports high-confidence Pierre Crabites and his
+1911-1936 Mixed Courts of Egypt government assignment, kept separate from an
+unproved immediate predecessor. Exact private-identifier Army matches confirm
+William S Craft and Alan B Cragin as enlisted personnel without publishing
+ambiguous occupation codes. Pauline G Craft remains a visible identifier/name
+conflict, Gordon A Craig's existing qualified Princeton student pathway is
+revalidated without duplication, and five people remain unresolved. All 94
+Python tests, 18 focused cross-viewport checks, 27 isolated axe checks,
+profile, link and identifier audits, and two byte-identical 24,514-page Pages
+builds pass locally. Exact coverage is 4,648 / 23,940 researched, 533 verified
+affiliations, 236 verified employers, 4,603 archival dispositions assessed
+and 19,292 `not_started`. Batch 488 is not pushed or deployed. See
+`reports/release_batch_488.md` and
+`research/batch-488-discovery-checkpoint.md`.
+
+Batch 487 is a validated local release candidate. It adds ten saved outcomes
+across personnel-index PDF page 96 rows 34-43, Jean L Coyat through Lillian E
+Crabbe, all in Box 151. Exact private-identifier Army matches support qualified
+Army-entry occupations for Jean L Coyat and Nicholas A Cozzone without
+inventing employers. Institutional, official-state and directory evidence
+supports high-confidence commissioned officer Hubert E Coyer and his earlier
+military and teaching chronology. A NARA personnel-file-based account confirms
+Terence A Coyne's immediate naval assignment, last civilian employer and two
+earlier federal roles. Six people remain unresolved and routed for archival
+review. All 94 Python tests, 18 focused cross-viewport checks, 27 isolated axe
+checks, profile, link and identifier audits, and two byte-identical 24,513-page
+Pages builds pass locally. Exact coverage is 4,639 / 23,940 researched, 532
+verified affiliations, 236 verified employers, 4,594 archival dispositions
+assessed and 19,301 `not_started`. Batch 487 is not pushed or deployed. See
+`reports/release_batch_487.md` and
+`research/batch-487-discovery-checkpoint.md`.
+
+Batch 486 is a validated local release candidate. It adds ten saved outcomes
+across personnel-index PDF page 96 rows 24-33, Marjorie L Cox through Maryette
+A Coxe, all in Box 150. Russell C Cox has an exact private-identifier Army
+match and a qualified student-status pathway that is not presented as
+employment. Official CIA evidence supports high-confidence commissioned
+officer Henry B Coxe; a contemporary appellate case supports a
+medium-confidence, documented-prewar Barratt Coxe attorney relationship but
+does not establish immediacy. Official OSS War Report evidence supports
+high-confidence civilian Maryette A Coxe. Norwood S Cox remains a visible
+identifier conflict, and six additional people remain unresolved and routed
+for archival review. All 94 Python tests, 15 focused cross-viewport checks, 27
+isolated axe checks, profile, link and identifier audits, and two
+byte-identical 24,508-page Pages builds pass locally. Exact coverage is 4,629 /
+23,940 researched, 530 verified affiliations, 235 verified employers, 4,584
+archival dispositions assessed and 19,311 not_started. Batch 486 is not pushed
+or deployed. See reports/release_batch_486.md and
+research/batch-486-discovery-checkpoint.md.
+
+Batch 485 is a local release candidate with complete local QA passing. It adds
+ten saved person outcomes across PDF page 96 rows 14-23, Dorotothy H Cox
+through Keith C Cox, all in Box 150. Four exact private-identifier matches in
+the complete 9,200,232-record Army scan establish enlisted Army identities;
+three support qualified Army-entry occupations but no employers, while Keith
+Cox's post-termination record is excluded from pre-OSS employment evidence.
+The printed `Dorotothy` spelling is preserved while NARA and Bryn Mawr evidence
+support a high-confidence Dorothy Hannah Cox identity and a qualified
+archaeology occupation. Four people remain unresolved and John H Cox remains
+ambiguous; the British Team IVOR captain is retained only as a low-confidence,
+unpublished candidate. All 94 Python tests, 15 focused cross-viewport checks,
+27 isolated axe checks, profile, link and identifier audits, and two
+byte-identical 24,507-page Pages builds pass locally. Exact coverage is 4,619 /
+23,940 researched, 530 verified affiliations, 235 verified employers, 4,574
+archival dispositions assessed and 19,321 `not_started`. Batch 485 is not
+pushed or deployed. See `reports/release_batch_485.md` and
+`research/batch-485-discovery-checkpoint.md`.
+
+Batch 468 is a local release candidate with complete local QA passing. It adds
+ten saved person outcomes across PDF page 92 rows 28-37, James W Copeland
+through John O Coppock, all in Box 143. Exact private-identifier matches in the
+complete 9,200,232-record official Army merged-file scan confirm Millard A
+Copeland and John O Coppock as enlisted Army personnel; Millard's unsupported
+alternate-card occupation value remains uninterpreted. John receives a
+qualified broad professional occupation at Army entry, while an official
+Truman Library finding aid establishes a separate 1942 War Production Board
+government assignment without proving that it was his immediate pre-OSS role.
+Joe M Copeland remains a visible identifier conflict. Miles A Copeland's
+existing official Army-to-OSS pathway was revalidated without duplication;
+six other people remain unresolved, including the source spelling `Mortimemr`.
+All 93 Python tests, twelve focused cross-viewport checks, the complete 2,532 /
+2,532 browser and accessibility matrix, profile, link, dependency and
+identifier audits, and two byte-identical clean 24,496-page Pages builds pass
+locally. Exact coverage is 4,450 / 23,940 researched, 520 verified
+affiliations, 230 verified employers, 4,405 archival dispositions assessed
+and 19,490 `not_started`. Batches 448-468 are complete local release candidates
+pending explicit publication authorization. See
+`reports/release_batch_468.md` and
+`research/batch-468-discovery-checkpoint.md`.
+
+Batch 467 is a local release candidate with complete local QA passing. It adds
+ten saved person outcomes across PDF page 92 rows 18-27, Nolan R Cooper through
+Elizabeth Copeland, all in Box 143. Exact private-identifier matches in the
+complete 9,200,232-record official Army merged-file scan confirm Nolan R
+Cooper, Sidney H Cooper and William H Cooper Jr and support only qualified,
+date-bounded occupation categories, never named employers. A direct NARA OSS
+order independently confirms William as OSS enlisted Army personnel but does
+not establish a pre-OSS employer. Arthur S Copeland remains a visible
+identifier conflict; six other people remain unresolved. All 93 Python tests,
+twelve focused cross-viewport checks, the complete 2,520 / 2,520 browser and
+accessibility matrix, profile, link, dependency and identifier audits, and two
+byte-identical clean 24,496-page Pages builds pass locally. Exact coverage is
+4,442 / 23,940 researched, 519 verified affiliations, 230 verified employers,
+4,397 archival dispositions assessed and 19,498 `not_started`. Batches 448-467
+are complete local release candidates pending explicit publication
+authorization. See `reports/release_batch_467.md` and
+`research/batch-467-discovery-checkpoint.md`.
+
+Batch 450 is a local release candidate with complete local QA passing. It adds
+ten saved person outcomes across PDF page 88 rows 32-41, Simone J Companardi
+through Alfred F Conard, all in Box 137. A complete 9,200,232-record official
+Army scan leaves the common-name Compton candidates unassigned and preserves
+Charles R Compton's literal six-digit value without padding. Official 1917
+Congressional Record evidence and the West Point register support
+high-confidence commissioned officer Coalter Bates Compton; his Cavalry Arm
+appointment is labeled earlier documented prewar service, never the immediate
+pre-OSS assignment. Army, Grinnell, Washington University and Columbia
+evidence supports high-confidence Alfred Fletcher Conard and a visibly
+qualified medium-confidence University of Kansas City School of Law
+last-civilian-employer candidate; his separate `Lawyers and judges` Army-entry
+category is not turned into a firm or employer. Eight people remain unresolved.
+All 93 Python tests, twelve focused cross-viewport checks, the complete 2,271 /
+2,271 browser and accessibility matrix, profile, link, dependency and
+identifier audits, and two byte-identical clean 24,484-page Pages builds pass
+locally. Exact coverage is 4,275 / 23,940 researched, 510 verified
+affiliations, 226 verified employers, 4,230 archival dispositions assessed and
+19,665 `not_started`. Batches 443-445, 446 and 447 remain preserved in open,
+clean PRs 198-200 with independent Tests passing; Batches 448-450 are complete
+local release candidates pending explicit publication authorization. See
+`reports/release_batch_450.md` and
+`research/batch-450-discovery-checkpoint.md`.
+
+Batch 449 is a local release candidate with complete local QA passing. It adds
+ten saved person outcomes across PDF page 88 rows 22-31, Albert R Combs through
+Raymond Compain, all in Box 136. Exact private-identifier matches in the
+complete 9,200,232-record official Army merged-file scan confirm Albert R
+Combs, Joseph F Comerford and Adolph Commodaro, but Albert's post-OSS Army-entry
+date supports no pre-OSS result. Joseph's actor category and Adolph's tailor
+category remain qualified occupations, never employers. A direct NARA OSS
+roster supports high-confidence First Lieutenant Howard G Comfort while
+preserving his transposed-identifier conflict. Nicholas H Cominos receives a
+visibly qualified medium-confidence Cominos Hotel last-civilian-employer
+candidate; Raymond Compain's Team HERMIT bodyguard role is used for identity,
+not misrepresented as a pre-OSS affiliation. Four people remain unresolved.
+All 93 Python tests, twelve focused cross-viewport checks, the complete 2,259 /
+2,259 browser and accessibility matrix, profile, link, dependency and
+identifier audits, and two byte-identical clean 24,482-page Pages builds pass
+locally. Exact coverage is 4,265 / 23,940 researched, 509 verified
+affiliations, 226 verified employers, 4,220 archival dispositions assessed and
+19,675 `not_started`. Batches 443-445, 446 and 447 remain preserved in open,
+clean PRs 198-200 with independent Tests passing; Batches 448 and 449 are
+complete local release candidates pending explicit publication authorization.
+See `reports/release_batch_449.md` and
+`research/batch-449-discovery-checkpoint.md`.
+
+Batch 448 is a local release candidate with complete local QA passing. It adds
+ten saved person outcomes across PDF page 88 rows
+12-21, Lola Colonel through Don P Combe, spanning Boxes 136 and 141. The
+complete 9,200,232-record official Army merged-file scan confirms Joseph S
+Comastra by exact private identifier and supports only a qualified broad
+chauffeur/driver occupation at Army entry, not an employer. A Washington Post
+obituary supports high-confidence Frances Richey Colosimo, her 1930s research-
+technician employment with the American Bottlers of Carbonated Beverages, and
+later OSS documents work; the employer is documented prewar but not proved
+immediate. An obituary supports high-confidence Constance Colt Bassett and
+explicitly sequences her New York work for the Free French immediately before
+OSS, while leaving her personal role blank. Harold Lee Colvocoresses remains a
+probable identity and archival lead rather than a published employer claim.
+Six people remain unresolved; Robert C Colson's and Don P Combe's seven-digit
+values remain literal and unpadded. All 93 Python tests, nine focused cross-
+viewport checks, the complete 2,247 / 2,247 browser and accessibility matrix,
+profile, link and identifier audits, and two byte-identical clean 24,481-page
+Pages builds pass locally. Exact coverage is 4,255 / 23,940 researched, 509
+verified affiliations, 226 verified employers, 4,210 archival dispositions
+assessed and 19,685 `not_started`. Batches 443-445, 446 and 447 remain preserved
+in open, clean PRs 198-200 with independent Tests `34354744527`, `34361660741`
+and `34368546155` passing; merge requires explicit approval. See
+`reports/release_batch_448.md` and `research/batch-448-discovery-checkpoint.md`.
+
+Batch 447 is a local release candidate awaiting independent release checks. It
+adds ten saved person outcomes across PDF page 88 rows 2-11, Rose L Collins
+through Peter J Colombo, spanning Boxes 135-136. Exact private-identifier
+matches in the complete 9,200,232-record official Army merged-file scan confirm
+Thomas M Collins, John E Colnon, Willard D Cologna and Peter J Colombo as
+enlisted Army personnel. Their four historical occupation or student-status
+observations remain qualified, never employers. Yolande D Collins and Clarence
+V Colmorgen receive probable rare-name identity leads but no employer or
+personnel-category promotion because the accessible sources do not bridge them
+to the indexed files. Four people remain unresolved, and William L Collins's
+six-digit printed value is preserved literally rather than padded. Full replay,
+all 93 Python tests, nine focused checks, profile, link, identifier and
+dependency audits, two deterministic Pages builds, and the complete 2,238-test
+browser/accessibility matrix pass locally. Exact coverage is 4,245 / 23,940
+researched, 507 verified affiliations, 224 verified employers, 4,200 archival
+dispositions assessed and 19,695 `not_started`. Batches 443-445 and 446 are
+preserved in open, clean PRs 198 and 199; both independent Test runs pass, but
+merge remains pending explicit approval. See `reports/release_batch_447.md` and
+`research/batch-447-discovery-checkpoint.md`.
+
+Batch 446 is preserved in open PR 199 and has passed independent Test run
+`34361660741`; merge and deployment remain pending explicit approval. It
+adds ten saved person outcomes across PDF page 87 rows 38-46 and page 88 row 1,
+Charles J Collins Jr. through Lucille G Collins, all in Box 135. Exact private-
+identifier matches in the complete 9,200,232-record official Army merged-file
+scan confirm Charles, Gene Collins, Jerry Collins, John H Collins and Joseph G
+Collins as enlisted Army personnel. Gene's student status and the other three
+usable historical occupation categories remain qualified observations, never
+employers; Charles's non-substantive value 999 is not published as an
+occupation. George E Collins, Hugh R Collins, Jeremiah J Collins, John F Collins
+and Lucille G Collins remain unresolved because name-only candidates or a non-
+hit cannot establish identity. Full replay, all 93 Python tests, nine focused
+cross-viewport checks, profile, link, identifier and dependency audits, and a
+clean 24,479-page Pages build pass locally. Exact coverage is 4,235 / 23,940
+researched, 507 verified affiliations, 224 verified employers, 4,190 archival
+dispositions assessed and 19,705 `not_started`. Batches 443-445 are preserved
+in PR 198, passed independent Test `34354744527`, and remain ahead of Batch 446
+in the release queue pending explicitly authorized merge. Batch 446's complete
+browser and accessibility matrix passes 2,229 / 2,229 checks across desktop,
+phone and tablet. See
+`reports/release_batch_446.md` and
+`research/batch-446-discovery-checkpoint.md`.
+
+Batch 445 is a catch-up release candidate with independent Test
+`34354744527` passing; merge, Pages deployment and pinned-live verification are
+pending explicit approval. It preserves the separately reviewed Batch 443-445
+cohorts: thirty saved person outcomes across PDF page 87 rows 8-37. The newest ten-person
+cohort covers Henry D Collette through Charles A Collins in Boxes 135-136.
+Exact private identifiers confirm Henry D Collette and the indexed `L J
+Collier`/Army `Langdon J` form; their driver and office-clerk categories remain
+qualified occupations, never employers. High-confidence John G Colling has a
+probable-immediate Army path and a separate draftsman occupation. High-
+confidence Cowles Miles Collier has Collier Company as his last civilian
+employer and Motor Sport as separate prewar self-employment. The adjacent `Sam
+A Collier` row remains only a probable Samuel Carnes Collier candidate because
+the printed initial conflicts; his candidate affiliations are excluded from
+default analytics. Five people remain unresolved with specific archival
+questions. Full replay, all 93 Python tests, 27 focused cross-viewport checks,
+profile, link, identifier and dependency audits, and deterministic Pages builds
+pass locally. Exact coverage is 4,225 / 23,940 researched, 507 verified
+affiliations, 224 verified employers, 4,180 archival dispositions assessed and
+19,715 `not_started`. Batch 442 is released and pinned-live verified; this
+catch-up candidate is next. See `reports/release_batch_445.md` and the three
+Batch 443-445 discovery checkpoints.
+
+Batch 442 is released and pinned-live verified. It
 adds ten saved individual outcomes across PDF page 86 rows 44-46 and page 87
 rows 1-7, Frederic W Cole through Remsen J Cole, all in Box 134. Literal
 private-identifier matches in the complete official Army merged-file scan
@@ -20,8 +577,11 @@ G Cole, Kathryn B Cole and Nathan L Cole remain unresolved with specific Box
 134 questions. Short identifiers are not padded; name-only Army and public
 candidates are not selected. A full fresh replay, all 93 Python tests, nine
 focused cross-viewport checks, profile, link, identifier and dependency audits,
-and two deterministic Pages builds pass locally. Batch 441 is released and
-pinned-live verified; Batch 442 is next in the independent release queue. See
+and two deterministic Pages builds pass locally. Batch 442 passed independent
+Test `34342863058`, merged through PR 197 as
+`4cdb6547205b256f110f2ccd95d452a2794e9c51`, deployed through Pages run
+`34347563212`, and passed pinned-live verification of all 67 manifest assets,
+seven core routes and ten direct profiles. See
 `reports/release_batch_442.md` and
 `research/batch-442-discovery-checkpoint.md`.
 

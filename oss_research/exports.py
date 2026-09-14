@@ -266,7 +266,16 @@ def coverage_report(connection: sqlite3.Connection) -> dict[str, object]:
         FROM affiliations a
         JOIN person_entities pe ON pe.person_id = a.person_id
         WHERE {VERIFIED_SQL}
-          AND a.relationship_type IN ('employment', 'self_employment')
+          AND (
+              a.relationship_type = 'self_employment'
+              OR (
+                  a.relationship_type = 'employment'
+                  AND (
+                      a.organization_id IS NOT NULL
+                      OR NULLIF(TRIM(a.organization_name_as_found), '') IS NOT NULL
+                  )
+              )
+          )
           AND NOT EXISTS (
               SELECT 1 FROM entity_supersessions es
               WHERE es.superseded_person_id = pe.person_id

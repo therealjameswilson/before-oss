@@ -52,7 +52,7 @@
       "author_creator": "National Archives and Records Administration",
       "repository_publisher": "National Archives at College Park - Electronic Records",
       "publication_record_date": "2011-01-12; modified 2011-03-17",
-      "locator": "Code No. 30, PDF pages 173-175: 819, textile manufacturing, n.e.c.; 893, metal-product fabrication, n.e.c.; 699, electrical machinery and accessories, n.e.c.; 599, foremen, n.e.c.; visually checked at 300 dpi",
+      "locator": "Code No. 30, PDF pages 173-175: 819, textile manufacturing, n.e.c.; 893, metal-product fabrication, n.e.c.; 699, radio and phonograph manufacturing; 599, foremen, n.e.c.; visually checked at 300 dpi",
       "access_date": "2026-08-06",
       "source_quality": "A_direct_official",
       "collection_name": "World War II Army Enlistment Records technical documentation",
@@ -390,7 +390,7 @@
       "organization_key": null,
       "organization_name_as_found": null,
       "role_title": null,
-      "occupation": "Semiskilled occupation in manufacture of electrical machinery and accessories, n.e.c.",
+      "occupation": "Semiskilled occupation in manufacture of radios and phonographs",
       "relationship_type": "unknown",
       "start_date": null,
       "end_date": "1942-09-18",
@@ -696,8 +696,8 @@
       "person_id": "e3d3ebd1-3c70-535d-a092-f52630dcce15",
       "affiliation_key": "frank-b-bessac-electrical-manufacturing-occupation-batch201",
       "claim_type": "occupation",
-      "claim_text": "Frank B. Bessac's September 1942 Army-entry record carried a broad semiskilled electrical-machinery manufacturing occupation code, while his direct testimony identifies him as a college student.",
-      "evidence_excerpt": "6-99. Occupations in manufacture of electrical machinery and accessories, n.e.c.",
+      "claim_text": "Frank B. Bessac's September 1942 Army-entry record carried a semiskilled radio and phonograph manufacturing occupation code, while his direct testimony identifies him as a college student.",
+      "evidence_excerpt": "6-99. Occupations in manufacture of radios and phonographs",
       "evidence_paraphrase": "The exact-matched Army row carries code 699; the code names no employer and is retained alongside, not instead of, Bessac's student chronology.",
       "identity_match_assessment": "The exact private-identifier match confirms the Army row; the separate oral history confirms the same person and his student status.",
       "temporal_assessment": "Strongly date-bounded to the reserve-enlistment record on September 18, 1942, but not proven to describe the final civilian role before active service.",
@@ -707,7 +707,7 @@
       "match_notes": "No employer, industry segment, workplace, or intervening role is inferred. The personnel file should reconcile the code with the student chronology.",
       "sources": [
         {"source_key": "nara-army-enlistment-merged-file-batch201", "support_type": "supports"},
-        {"source_key": "nara-army-enlistment-code-lists-batch201", "support_type": "supports", "excerpt_override": "6-99. Occupations in manufacture of electrical machinery and accessories, n.e.c."},
+        {"source_key": "nara-army-enlistment-code-lists-batch201", "support_type": "supports", "excerpt_override": "6-99. Occupations in manufacture of radios and phonographs"},
         {"source_key": "umt-frank-bessac-oral-history-batch201", "support_type": "context_only", "locator_override": "Transcript page 1", "excerpt_override": "I was majoring in U.S. history"}
       ]
     },

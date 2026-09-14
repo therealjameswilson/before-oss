@@ -1,8 +1,513 @@
 # Accessibility and responsive QA
 
-Run: 2026-09-08 UTC
+Run: 2026-09-14 UTC
 
 ## Result
+
+Batch 510: the focused cohort suite passed all 15 checks across desktop,
+phone and tablet. It verifies ten immutable page 101 rows; six masked private
+values; Anton Curl and Michael J Curley's confirmed enlisted identities and
+qualified occupation-only findings without employers; Charley Curo's confirmed
+identity while leaving occupation value 999 uninterpreted; Vincent L Curl's
+high-confidence immediate 35th Infantry military assignment and commissioned
+classification; and six unresolved profiles with Box 160 guidance. The bounded
+core suite passed 18/18 and the analysis suite passed 6/6 across the same
+viewports. The axe route suite passed 27/27 in 1.8 minutes. Astro checked 134
+source files with zero errors, warnings or hints and generated 24,551 HTML
+pages / 24,623 artifacts. A second exact public-data and Pages build reproduced
+both trees byte for byte. Independent GitHub checks were not run because this
+batch was neither pushed nor deployed.
+
+Batch 509: the focused cohort suite passed all 15 checks across desktop,
+phone and tablet. It verifies ten immutable page 101 rows; two masked private
+values; the Box 159-to-160 boundary; Murray O Cunningham's confirmed enlisted
+identity and qualified `Photographers` occupation without a named employer;
+six unmerged identity alternatives; three unresolved profiles; and Roy H
+Cunningham's printed commissioned classification without selecting either
+private-at-entry Army namesake. Initial test-only public-field and
+capitalization expectations were corrected without changing evidence or site
+behavior. The bounded core suite passed 39/39 across the same viewports. The
+axe route suite passed 27/27 in 1.6 minutes. Astro checked 133 source files with
+zero errors, warnings or hints and generated 24,551 HTML pages / 24,623
+artifacts. A second exact public-data and Pages build reproduced both trees
+byte for byte. Independent GitHub checks were not run because this batch was
+neither pushed nor deployed.
+
+Batch 508: the focused cohort suite passed all 15 checks across desktop,
+phone and tablet. It verifies ten immutable page 101 rows; one masked private
+value; seven unresolved identities; the unmerged Harry, Helen and Hugh
+Cunningham alternatives; preservation of `Riuth` as indexed with `Ruth` only
+as a search variant; and dignified Box 159 next actions without invented
+affiliations. Two initial test-only capitalization or label expectations were
+corrected without changing evidence or site behavior. The bounded core suite
+passed 54/54 across the same viewports. The axe route suite passed 27/27 in
+1.8 minutes. Astro checked 132 source files with zero errors, warnings or hints
+and generated 24,551 HTML pages / 24,623 artifacts. A second exact public-data
+and Pages build reproduced both trees byte for byte. Independent GitHub checks
+were not run because this batch was neither pushed nor deployed.
+
+Batch 507: the focused cohort suite passed all 24 checks across desktop,
+phone and tablet. It verifies ten immutable page 101 rows; masked or unprinted
+identifiers; two confirmed enlisted identities; Herman Cundiff's visible Army
+record conflict; Ernest Cuneo's qualified Democratic National Committee
+predecessor and separate earlier roles; Julia Cuniberti's Vassar student
+affiliation; and five ambiguous or unresolved profiles with Box 159 guidance.
+The bounded core suite passed 54/54 across the same viewports. The axe route
+suite passed 27/27 in 1.7 minutes. Astro checked 131 source files with zero
+errors, warnings or hints and generated 24,551 HTML pages / 24,623 artifacts.
+A second exact public-data and Pages build reproduced both trees byte for byte.
+An accidentally over-broad historical-matrix run was stopped after 94 clean
+passes; its interrupted 95th case is not counted. Independent GitHub checks
+were not run because this batch was neither pushed nor deployed.
+
+Batch 506: the focused cohort suite passed all 21 checks across desktop,
+phone and tablet. It verifies ten immutable rows across pages 100-101; masked
+or unprinted identifiers; Tom S Culverwell's confirmed enlisted identity,
+qualified Army pathway, Forest Service last civilian employer and separate
+newspaper-art relationship; five ambiguous identities; and four unresolved
+profiles with Box 159 guidance. The bounded core suite passed 57/57 across the
+same viewports. The axe route suite passed 27/27 in 1.7 minutes. Astro checked
+130 source files with zero errors, warnings or hints and generated 24,547 HTML
+pages / 24,619 artifacts. A second exact public-data and Pages build reproduced
+both trees byte for byte. Independent GitHub checks were not run because this
+batch was neither pushed nor deployed.
+
+Batch 505: the focused cohort suite passed all 21 checks across desktop,
+phone and tablet. It verifies ten immutable page 100 rows; masked or unprinted
+identifiers; William S Culbertson's qualified War Department pathway and
+separate Georgetown, law, tariff and diplomatic history; two exact-identifier
+occupations without employers; James S Cullison's qualified probable identity;
+and six unresolved profiles with Box 158 guidance. The bounded core suite
+passed 42/42 across the same viewports. The axe route suite passed 27/27 in
+1.6 minutes. Astro checked 129 source files with zero errors, warnings or hints
+and generated 24,546 HTML pages / 24,618 artifacts. A second exact public-data
+and Pages build reproduced both trees byte for byte. Independent GitHub checks
+were not run because this batch was neither pushed nor deployed.
+
+Batch 504: the focused cohort suite passed all 18 checks across desktop,
+phone and tablet. It verifies ten immutable page 100 rows; masked or unprinted
+identifiers; Walter Cuddy's and Mario Cugia's confirmed enlisted identities
+with occupations kept distinct from employers; Frederick P Culbert's
+qualified Foreign Service pathway, city conflict, earlier Navy service and
+unnamed business history; two ambiguous identities; five unresolved profiles;
+and both rejected Library of Congress token/name collisions. The bounded core
+suite passed 42/42 across the same viewports. The axe route suite passed 27/27
+in 1.5 minutes. Astro checked 128 source files with zero errors, warnings or
+hints and generated 24,543 HTML pages / 24,615 artifacts. A second exact
+public-data and Pages build reproduced both trees byte for byte. An accidental
+full historical-matrix run was deliberately stopped after 112 passes; its
+interrupted case is not counted. Independent GitHub checks were not run because
+this batch was neither pushed nor deployed.
+
+Batch 503: the focused cohort suite passed all 21 checks across desktop,
+phone and tablet. It verifies ten immutable page 100 rows; masked or unprinted
+identifiers; six confirmed enlisted identities; qualified occupations and
+student status without invented employers; Malcolm Crusius's probable legal
+pathway with the two affiliations kept separate; Ashley Crutchfield's
+uninterpreted prefixed value; Joseph Cryan's British classification with a U.S.
+namesake withheld; and Sophie Crystal's unresolved archival guidance. The
+bounded core suite passed 24/24 across the same viewports. The axe route suite
+passed 27/27 in 1.5 minutes. Astro checked 127 source files with zero errors,
+warnings or hints and generated 24,543 HTML pages / 24,615 artifacts. A second
+exact public-data and Pages build reproduced both trees byte for byte. An
+accidental unbounded historical-matrix run was deliberately stopped after 98
+passes; its interrupted case was not counted as a result. Independent GitHub
+checks were not run because this batch was neither pushed nor deployed.
+
+Batch 502: the focused cohort suite passed all 21 checks across desktop,
+phone and tablet. It verifies ten immutable rows across pages 99-100; masked
+or unprinted identifiers; Robert Crowley's printed commissioned status with
+two enlisted namesakes withheld; John Croze's confirmed identity without an
+invented occupation; Scott Crull's qualified occupation without an employer;
+James Crump's probable Army-training pathway without calling Harvard an
+employer; and six unresolved or ambiguous profiles without public candidate
+claims. One initial test-only label mismatch was corrected without changing
+evidence or site behavior. The bounded core suite passed 30/30 across the same
+viewports. The axe route suite passed 27/27 in 1.5 minutes. Astro checked 126
+source files with zero errors, warnings or hints and generated 24,541 HTML
+pages / 24,613 artifacts. A second exact public-data and Pages build reproduced
+both trees byte for byte. Independent GitHub checks were not run because this
+batch was neither pushed nor deployed.
+
+Batch 501: the focused cohort suite passed all 21 checks across desktop,
+phone and tablet. It verifies ten immutable page 99 rows; masked or unprinted
+identifiers; Sherman Crough's Dartmouth student pathway without calling it
+employment; two qualified Army-entry categories without named employers;
+Philip Crowe's distinct Fortune, Life, New York Evening Post and University of
+Virginia affiliations; John Crowl's separate Army, self-employment and earlier
+clerkship claims; and five ambiguous or unresolved profiles without promoted
+candidates. One initial test-only punctuation mismatch was corrected without
+changing evidence or site behavior. The bounded core suite passed 42/42 across
+the same viewports. The axe route suite passed 27/27 in 1.5 minutes. Astro
+checked 125 source files with zero errors, warnings or hints and generated
+24,540 HTML pages / 24,612 artifacts. A second exact public-data and Pages
+build reproduced both trees byte for byte. An unbounded historical-matrix
+diagnostic was deliberately stopped after ten passes; its interrupted eleventh
+case was not an assertion failure. Independent GitHub checks were not run
+because this batch was neither pushed nor deployed.
+
+Batch 500: the focused cohort suite passed all 21 checks across desktop,
+phone and tablet. It verifies ten immutable page 99 rows; masked or unprinted
+identifiers; three qualified Army-entry occupations without named employers;
+Gregg Crouch's student, Air Corps and trade evidence with the identifier
+conflict visible; Arthur Crossley's low-confidence Army candidate withheld;
+six ambiguous or unresolved profiles; and three corrected historical code-699
+profiles. One initial test-only wording mismatch was corrected without changing
+evidence or site behavior. The bounded core-site suite passed 24/24 across the
+same viewports. The axe route suite passed 27/27 in 1.7 minutes. Astro checked
+124 source files with zero errors, warnings or hints and generated 24,535 HTML
+pages / 24,607 artifacts. A second exact build reproduced both public and
+production trees byte for byte. The accumulated 3,021-case historical matrix
+was not completed locally; a diagnostic run reached 88 passes before deliberate
+termination. Independent GitHub checks were not run because this batch was
+neither pushed nor deployed.
+
+Batch 499: the focused cohort suite passed all 21 checks across desktop,
+phone and tablet. It verifies ten immutable page 99 rows; masked or unprinted
+identifiers; Compton Crook's separate Yellowstone and Towson pathways and
+visible 1939-versus-1940s chronology conflict; two qualified Army-entry
+occupations without named employers; Rene Cros's French archival-dossier
+identity without invented employment; Margaret Crosby's Agora fellowship as
+professional affiliation rather than employment; and five ambiguous or
+unresolved profiles. The focused core-site suite passed 24/24 across the same
+viewports, covering search, officer filtering, direct routes, citations,
+organization pages, analysis and downloads. The separate axe route suite
+passed 27/27 across the same layouts in 1.9 minutes. Astro checked 123 source
+files with zero errors, warnings or hints and generated 24,533 HTML pages /
+24,605 artifacts. A second exact build reproduced both public and production
+trees byte for byte.
+
+The accumulated 3,000-case historical matrix was not completed locally. Its
+default 4 GB Node process exhausted the heap during test discovery. A 12 GB
+rerun passed 122 cases without an assertion failure before it was deliberately
+stopped; the 21 new cohort cases, 24 core-site cases and 27 accessibility cases
+were then run to completion. Independent GitHub checks were not run because
+this batch was neither pushed nor deployed.
+
+Batch 498: the focused cohort suite passed all 18 checks across desktop,
+phone and tablet. It verifies ten immutable page 99 rows; masked or unprinted
+identifiers; Raymond Cromley's separate last-civilian and earlier-employer
+claims; Doris Cromwell's qualified United Seamen's Service employment and
+distinct Duke Endowment professional affiliation; three qualified Army-entry
+occupations without named employers; Dorothea Cronin's identity evidence
+without an invented pre-OSS employer; and four unresolved or ambiguous
+profiles. Three initial test-only capitalization or label mismatches, each
+repeated across the viewports, were corrected without changing evidence or
+site behavior. The separate axe route suite passed 27/27 across the same three
+layouts in 2.3 minutes. Astro checked 122 source files with zero errors,
+warnings or hints and generated 24,530 HTML pages / 24,602 artifacts. A second
+exact build reproduced both public and production trees byte for byte. The
+complete historical browser matrix and independent GitHub checks were not
+rerun because this batch was neither pushed nor deployed.
+
+Batch 497: the focused cohort suite passed all 15 checks across desktop,
+phone and tablet. It verifies ten immutable rows across pages 98-99; masked or
+unprinted identifiers; four confirmed enlisted identities and qualified
+occupations without named employers; the separate Diana Croft/Crofts possible-
+duplicate records; the Cromes/Cromez exact-identifier spelling conflict; and
+four unresolved profiles requiring identity or archival review. One initial
+test label did not match the already correct public duplicate-group wording;
+the assertion was corrected without changing evidence or site behavior. The
+separate axe route suite passed 27/27 across the same three layouts in 1.6
+minutes. Astro checked 121 source files with zero errors, warnings or hints and
+generated 24,526 HTML pages / 24,598 artifacts. A second exact build reproduced
+both public and production trees byte for byte. The complete historical browser
+matrix and independent GitHub checks were not rerun because this batch was
+neither pushed nor deployed.
+
+Batch 496: the focused cohort suite passed all 15 checks across desktop,
+phone and tablet. It verifies ten immutable page 98 rows; masked or unprinted
+identifiers; James E Crittenden's qualified occupation without a named
+employer; Ernest Crocker's earlier Arthur D. Little employment without
+claiming immediacy; Charis and Frederick Crockett's Academy-sponsored
+expedition as professional affiliation rather than employment; Constantine J
+Critzaz's visibly qualified Critzas variant; official service identities for
+David C Crockett and Aristide Crocq; and three unresolved or ambiguous
+profiles. One initial test phrase did not match the already correct public
+qualification; the assertion was corrected without changing evidence or site
+behavior. The separate axe route suite passed 27/27 across the same three
+layouts in 1.8 minutes. Astro checked 120 source files with zero errors,
+warnings or hints and generated 24,526 HTML pages / 24,598 artifacts. A second
+exact build reproduced both public and production trees byte for byte. The
+complete historical browser matrix and independent GitHub checks were not
+rerun because this batch was neither pushed nor deployed.
+
+Batch 495: the focused cohort suite passed all 15 checks across desktop,
+phone and tablet. It verifies ten immutable page 98 rows; masked or unprinted
+identifiers; the separate and qualified Chronicle last-civilian-employer
+claim for Charles Crisman; occupation-only findings for Dante Crifasi, James
+J Crisalli and Donald Crisp; rejected namesake conflicts; and six unresolved
+or ambiguous profiles. The separate axe route suite passed 27/27 across the
+same three layouts in 2.0 minutes. Astro checked 119 source files with zero
+errors, warnings or hints and generated 24,523 HTML pages / 24,595 artifacts.
+A second exact build reproduced both public and production trees byte for
+byte. The complete historical browser matrix and independent GitHub checks
+were not rerun because this batch was neither pushed nor deployed.
+
+Batch 494: the focused cohort suite passed all 15 checks across desktop,
+phone and tablet. It verifies ten immutable page 98 rows; masked or unprinted
+identifiers; separate last-civilian, student and military relationships for
+Robert Cresswell and Jack A Crichton; qualified occupation or status claims
+without named employers for Richard Cressey, Luther F Cressman and Charles F
+Crider; the absence of John W Crider's uninterpreted source value from the
+public projection; and four unresolved or ambiguous profiles. The first run
+caught one evidence-copy issue and one test-copy mismatch, each repeated
+across three viewports; after both were corrected, the full focused suite
+passed. The separate axe route suite passed 27/27 across the same three
+layouts. Astro checked 118 source files with zero errors, warnings or hints and
+generated 24,522 HTML pages / 24,594 artifacts. A second exact build reproduced
+both public and production trees byte for byte. The complete historical
+browser matrix and independent GitHub checks were not rerun in this batch.
+
+Batch 493: the focused cohort suite passed all 15 checks across desktop,
+phone and tablet. It verifies ten immutable page 98 rows; masked or unprinted
+identifiers; Robert D Creaven's qualified Army-entry occupation without a
+named employer; the private, withheld Hoover reading-room lead; John A
+Creedy's probable and visibly qualified newspaper roles without overstating
+their sequence; and eight unresolved or ambiguous profiles with commissioned
+status left unknown. The first run exposed three test-only wording
+expectations; the corrected suite passed without changing evidence or
+application behavior. The separate axe route suite passed 27/27 across the
+same three layouts. Astro checked 117 source files with zero errors, warnings
+or hints and generated 24,516 HTML pages / 24,588 artifacts. A second exact
+build reproduced both public and production trees byte for byte. The complete
+historical browser matrix and independent GitHub checks were not rerun because
+this batch was neither pushed nor deployed.
+
+Batch 492: the focused cohort suite passed all 18 checks across desktop,
+phone and tablet. It verifies ten immutable rows across pages 97 and 98;
+masked or unprinted identifiers; three qualified Army-entry occupations
+without named employers; William E Crawford's post-OSS Army chronology
+without projection backward; the probable, qualified James W Crayhon-
+Associated Press role; and five unresolved or ambiguous profiles with
+commissioned status left unknown. The main axe route run passed 26/27; the
+one tablet Sources-page case timed out without an axe finding and passed 1/1
+on a clean isolated rerun, so all 27 route-and-viewport cases have a passing
+final result. Astro checked 116 source files with zero errors, warnings or
+hints and generated 24,516 HTML pages / 24,588 artifacts. A second exact build
+reproduced both public and production trees byte for byte. The complete
+historical browser matrix and independent GitHub checks were not rerun because
+this batch was neither pushed nor deployed.
+
+Batch 491: the focused cohort suite passed all 15 checks across desktop,
+phone and tablet. It verifies ten immutable page 97 rows; masked or unprinted
+identifiers; two qualified Army-entry occupations without named employers;
+two additional confirmed enlisted identities without unsafe occupation
+decoding; a visible Craven/Graven conversion conflict; the printed `aka Arch`
+note; and six unresolved or ambiguous profiles with commissioned status left
+unknown. The first run exposed two test-only field/text expectation errors;
+the corrected suite passed without changing evidence or application behavior.
+The separate axe route suite passed 27/27 across the same three layouts. Astro
+checked 115 source files with zero errors, warnings or hints and generated
+24,516 HTML pages / 24,588 artifacts. A second exact build reproduced both
+public and production trees byte for byte. The complete historical browser
+matrix and independent GitHub checks were not rerun because this batch was
+neither pushed nor deployed.
+
+Batch 490: the focused cohort suite passed all 15 checks across desktop,
+phone and tablet. It verifies ten immutable page 97 rows; masked or unprinted
+identifiers; Burton Crane's distinct last-civilian-employer and earlier
+employment claims without overstating immediacy or officer status; three
+identifier-supported Army-entry occupations without named employers; and six
+unresolved profiles with commissioned status left unknown. The complete
+historical browser and accessibility matrix passed 2,853/2,853 in 26.3
+minutes across the same three viewports, with retries disabled and a single
+worker to remain within local memory. Astro checked 114 source files with zero
+errors, warnings or hints and generated 24,516 HTML pages / 24,588 artifacts.
+A second exact build reproduced both public and production trees byte for
+byte. Independent GitHub checks were not run because this batch was neither
+pushed nor deployed.
+
+Batch 489: the focused cohort suite passed all 15 checks across desktop,
+phone and tablet. It verifies ten immutable page 97 rows; masked or unprinted
+identifiers; four identifier-supported Army-entry occupations without named
+employers; six unresolved people with commissioned status left unknown; and
+two possible-duplicate pairs that remain separate. One initial test-only
+phrase differed from the already correct public qualification; correcting the
+assertion did not change evidence or application behavior. The separate axe
+route suite passed 27/27 across the same three layouts. Astro checked 113
+source files with zero errors, warnings or hints and generated 24,514 HTML
+pages / 24,586 artifacts. A second exact build reproduced both public and
+production trees byte for byte. The complete historical browser matrix and
+independent GitHub checks were not rerun in this batch.
+
+Batch 488: the focused cohort suite passed all 18 checks across desktop,
+phone and tablet. It verifies ten immutable rows spanning pages 96-97;
+masked or unprinted identifiers; Pierre Crabites's documented-prewar judicial
+assignment without claiming immediacy; William S Craft's and Alan B Cragin's
+confirmed enlisted identities without unsupported occupations; Pauline G
+Craft's visible identifier conflict; Gordon A Craig's unchanged qualified
+student pathway; and five unresolved profiles without speculative
+affiliations. The separate axe route suite passed 27/27 across the same three
+layouts in its clean isolated run. Astro checked 112 source files with zero
+errors, warnings or hints and generated 24,514 HTML pages / 24,586 artifacts.
+A second exact build reproduced both public and production trees byte for
+byte. The complete historical browser matrix and independent GitHub checks
+were not rerun in this batch.
+
+Batch 487: the focused cohort suite passed all 18 checks across desktop,
+phone and tablet. It verifies ten immutable page 96 rows; masked or unprinted
+identifiers; Jean L Coyat's and Nicholas A Cozzone's qualified Army-entry
+occupations without employers; Hubert E Coyer's commissioned classification
+and distinct earlier military and teaching relationships; Terence A Coyne's
+separate immediate naval assignment and last civilian employer; and six
+unresolved profiles without speculative affiliations. The separate axe route
+suite passed 27/27 across the same three layouts in its clean isolated run.
+Astro checked 111 source files with zero errors, warnings or hints and
+generated 24,513 HTML pages / 24,585 artifacts. A second exact build reproduced
+both public and production trees byte for byte. The complete historical browser
+matrix and independent GitHub checks were not rerun in this batch.
+
+Batch 486: the focused cohort suite passed all 15 checks across desktop,
+phone and tablet. It verifies ten immutable page 96 rows; Russell C Cox's
+qualified student relationship without an employer; Henry B Coxe's separate
+commissioned classification and documented-prewar legal employment;
+Maryette A Coxe's civilian identity; Norwood S Cox's visible identifier
+conflict; and unresolved profiles without speculative affiliations. The
+separate axe route suite passed 27/27 across the same three layouts in its
+clean isolated run. The first focused run served stale production data; after
+a rebuild, one remaining exact-copy assertion was corrected to the verified
+public wording. The final clean run passed. Astro checked 110 source files
+with zero errors, warnings or hints and generated 24,508 HTML pages / 24,580
+artifacts. A second exact build reproduced both public and production trees
+byte for byte. The complete historical browser matrix and independent GitHub
+checks were not rerun in this batch.
+
+Batch 485: the focused cohort suite passed all 15 checks across desktop,
+phone and tablet. It verifies ten immutable page 96 rows, masked or unprinted
+identifiers, four exact-identifier Army identities, three qualified
+Army-entry occupations, the preserved `Dorotothy` spelling and qualified
+Dorothy Hannah Cox pathway, and five unresolved or ambiguous profiles without
+published low-confidence claims. The separate axe route suite passed 27/27
+across the same three layouts in its clean isolated run. An earlier retry lost
+its preview server after two runs overlapped; the failures were connection
+refusals rather than axe findings. The production build reports 109 Astro
+source files with zero errors, warnings or hints and generates 24,507 HTML
+pages / 24,579 artifacts. A second exact build reproduced both public and
+production trees byte for byte. The complete historical browser matrix and
+independent GitHub checks were not rerun in this batch.
+
+Batch 484: the focused cohort suite passed all 15 checks across desktop,
+phone and tablet. It verifies ten immutable page 96 rows, masked or unprinted
+identifiers, four exact-identifier Army identities, three qualified
+Army-entry occupations, and five unresolved profiles that retain empty
+affiliation arrays. It separately verifies that Alfred T. Cox's Infantry
+School role is an immediate military assignment, his Lehigh relationship is
+student status rather than employment, and no last civilian employer is
+invented. The separate axe route suite passed 27/27 across the same three
+layouts. The production build reports 108 Astro source files with zero errors,
+warnings or hints and generates 24,507 HTML pages / 24,579 artifacts. A second
+exact build reproduced both public and production trees byte for byte. The
+complete historical browser matrix and independent GitHub checks were not
+rerun in this batch.
+
+Batch 483: the focused cohort suite passed all 12 checks across desktop,
+phone and tablet. It verifies ten immutable source rows spanning PDF pages 95
+and 96, masked or unprinted identifiers, terminal archival-review states, and
+the absence of transferred occupations or personnel categories from four
+name-only Army candidates and two institutional namesakes. The direct John W
+Covill route visibly preserves the unresolved USAAF prisoner-of-war candidate
+and critical Box 149 review priority. The separate axe route suite passed
+27/27 across the same three layouts. The production build reports 107 Astro
+source files with zero errors, warnings or hints and generates 24,506 HTML
+pages / 24,578 artifacts. A second exact build reproduced both public and
+production trees byte for byte. The complete historical browser matrix and
+independent GitHub checks were not rerun in this batch.
+
+Batch 482: the focused cohort suite passed all 18 checks across desktop,
+phone and tablet. It verifies ten immutable source rows and masked identifiers;
+four exact Army identities; Costa G Couvaras's separate immediate Army and
+last-civilian National Herald affiliations; Miguel Covarrubias's
+high-confidence identity, indeterminate personnel status and non-employment
+Vanity Fair relationship; the unchanged Charles Coussoule duplicate boundary;
+and archival routing for four unresolved profiles. The separate axe route
+suite passed 27/27 across the same three layouts. The production build reports
+106 Astro source files with zero errors, warnings or hints and generates
+24,506 HTML pages / 24,578 artifacts. A second exact build reproduced both
+public and production trees byte for byte. The complete historical browser
+matrix and independent GitHub checks were not rerun in this batch.
+
+Batch 481: the focused cohort suite passed all 18 checks across desktop,
+phone and tablet. It verifies ten immutable source rows and masked identifiers;
+Armand H Courtot's exact Army identity and student-status/employer distinction;
+the two separate William S Cousins entities in one review group; the unchanged
+Canby Courtlandt transposition; and archival routing for six unresolved
+profiles. The separate axe route suite passed 27/27 across the same three
+layouts. The production build reports 105 Astro source files with zero errors,
+warnings or hints and generates 24,503 HTML pages / 24,575 artifacts. A second
+exact build reproduced both public and production trees byte for byte. The
+complete historical browser matrix and independent GitHub checks were not
+rerun in this batch.
+
+Batch 480: the focused cohort suite passed all 18 checks across desktop,
+phone and tablet. It verifies ten immutable source rows and masked identifiers;
+four exact Army-record identities; the qualified Countouris-Kountouris match;
+two Army-entry occupations that do not become employers; Emile R Counasse's
+commissioned classification without a retrojected pre-OSS affiliation; Earl W
+Coulter's visible identifier conflict; and archival routing for four
+unresolved profiles. The separate axe route run passed 26/27 before the
+desktop `/sources/` case hit its test timeout; that same case passed in
+isolation in 20.7 seconds with no serious violation, while phone and tablet had
+already passed in the original run. The production build reports 104 Astro
+source files with zero errors, warnings or hints and generates 24,503 HTML
+pages / 24,575 artifacts. A second exact build reproduced both public and
+production trees byte for byte. The complete historical browser matrix and
+independent GitHub checks were not rerun in this batch.
+
+Batch 479: the focused cohort suite passed all 18 checks across desktop,
+phone and tablet. It verifies ten immutable source rows and masked identifiers;
+John G Coughlin's 35th Infantry Regiment pathway as military rather than
+civilian employment; William L Coulehan's separately qualified Army and
+Foreign Service affiliations; three Army-entry occupations that do not become
+employer claims; Jacques Coulon's mission identity without a retrojected
+pre-OSS role; and archival routing for the unresolved profiles. The separate
+axe route suite passed 27/27 across the same three layouts. The production
+build reports 103 Astro source files with zero errors, warnings or hints and
+generates 24,503 HTML pages / 24,575 artifacts. A second clean build reproduced
+both public and production trees byte for byte. The complete historical
+browser matrix and independent GitHub checks were not rerun in this batch.
+
+Batch 468: the complete retries-disabled 2,532-case local browser and
+accessibility matrix passed 2,532/2,532 in one uninterrupted 20.7-minute run,
+with 844/844 checks passing in each desktop, phone and tablet project. The
+focused Batch 468 suite passed all twelve checks across those layouts and
+passed 12/12 again after the clean replay. It verifies all ten immutable source
+rows and identifier masking; Joe M Copeland's visible identifier conflict;
+Millard A Copeland's exact Army identity without interpretation of an
+unsupported code; John O Coppock's separate professional occupation and War
+Production Board government assignment; Miles A Copeland's existing immediate
+Army pathway; and complete archival routing for unresolved profiles. The fresh
+Pages-configuration build reports 92 Astro source files with zero errors,
+warnings or hints and generates 24,496 HTML pages / 24,568 artifacts. The clean
+replay reproduces that production tree byte for byte. Independent Test, merge,
+Pages and pinned-live checks remain pending; see
+`reports/release_batch_468.md`.
+
+Batch 467: the complete retries-disabled 2,520-case local browser and
+accessibility matrix passed 2,520/2,520 in one uninterrupted 20.4-minute run,
+with 840/840 checks passing in each desktop, phone and tablet project. The
+focused Batch 467 suite passed all twelve checks across those layouts and
+passed 12/12 again after the clean replay. It verifies all ten immutable source
+rows and identifier masking; three date-bounded Army-entry occupations without
+invented employers; William H Cooper Jr's separate OSS identity evidence; and
+Arthur S Copeland's visible identifier conflict plus Box 143 archival routing.
+The fresh Pages-configuration build reports 91 Astro source files with zero
+errors, warnings or hints and generates 24,496 HTML pages / 24,568 artifacts.
+The clean replay reproduces that production tree byte for byte. Independent
+Test, merge, Pages and pinned-live checks remain pending; see
+`reports/release_batch_467.md`.
+
+Batch 452: the complete retries-disabled 2,301-case local browser and
+accessibility matrix passed 2,301/2,301 in one uninterrupted 17.0-minute run
+across desktop, phone and tablet. The focused Batch 452 suite also passed all
+fifteen checks across those layouts. It verifies four exact identifier-backed
+Army occupations, Edward T Cone's student/employer distinction, William A
+Condon's damaged-source qualification, Lucien E Conein's unchanged five-claim
+pathway, all ten immutable source rows, archive-routing for the unresolved
+profiles and identifier masking. Two consecutive fresh Pages-configuration
+builds are content-identical and report 76 Astro files with zero errors,
+warnings or hints. Independent Test, merge, Pages and pinned-live checks remain
+pending; see `reports/release_batch_452.md`.
 
 Batch 433: the focused four-scenario suite covers data semantics and rendered
 profiles/directories across desktop, phone and tablet. All twelve checks pass

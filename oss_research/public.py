@@ -10,7 +10,11 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 from .config import Settings
-from .analytics import build_analytics, eligible_affiliation
+from .analytics import (
+    build_analytics,
+    eligible_affiliation,
+    identified_employer_affiliation,
+)
 from .constants import (
     NAMESPACE_GENERIC,
     PUBLIC_DATA_VERSION,
@@ -138,8 +142,7 @@ def verified_employer_person_count(
         ]
         if any(
             eligible_affiliation(profile, affiliation)
-            and affiliation["relationship_type"]
-            in {"employment", "self_employment"}
+            and identified_employer_affiliation(affiliation)
             for affiliation in affiliations
         ):
             count += 1
@@ -619,8 +622,8 @@ def build_public_data(
         "nara_api_attribution_required": bool(public_sources),
         "analytics_policy": (
             "Default employer analytics count unique person entities with "
-            "confirmed or high-confidence published employment or "
-            "self-employment affiliations only, with confirmed/high-confidence "
+            "confirmed or high-confidence published employment at a named "
+            "organization, or self-employment affiliations, with confirmed/high-confidence "
             "person and claim identity matches. Conflicts and uncertain "
             "temporal relationships are excluded. Verified-affiliation coverage "
             "is reported separately and may include military, government, "

@@ -32,9 +32,9 @@ jobs:
         working-directory: site
         timeout-minutes: 10
         run: npx playwright install --only-shell chromium
-      - name: Build and test site
+      - name: Build and run bounded release suite
         working-directory: site
-        run: npm test
+        run: npm run test:ci
       - name: Rebuild the private identifier audit source
         run: |
           sudo apt-get install --yes poppler-utils ripgrep

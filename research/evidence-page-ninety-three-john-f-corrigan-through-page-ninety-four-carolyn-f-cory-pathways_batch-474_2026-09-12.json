@@ -1,0 +1,945 @@
+{
+  "bundle_version": "before-oss-reviewed-public-batch474-v1",
+  "reviewer": "Before OSS research pipeline",
+  "sources": [
+    {
+      "key": "index-b474",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; complete PDF pages 93-94 visually inspected; page 93 rows 42-46 and page 94 rows 1-5; Boxes 145-146; location 230/86/29/02",
+      "access_date": "2026-09-12",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Citation and project-authored assessments only. Full private identifiers are not published."
+    },
+    {
+      "key": "army-b474",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official ASNEF.FIN.DAT; complete transient scan of 9,200,232 fixed-width records; four exact-name and exact-private-identifier matches adjudicated",
+      "access_date": "2026-09-12",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full private identifier is retained. The incomplete file is not a comprehensive OSS or military roster; a non-hit is not negative proof."
+    },
+    {
+      "key": "basic-b474",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; fixed-width identifier, name, Army-entry-date, grade, birth-year, state and civilian-occupation fields checked; alternate Enlisted Reserve Corps layout applied where required",
+      "access_date": "2026-09-12",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields and documented coverage limits."
+    },
+    {
+      "key": "codes-b474",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171 and 304; entries 1-05, 1-36 and 9-92 rendered at 150 dpi and visually inspected",
+      "access_date": "2026-09-12",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical occupational labels name neither employers nor workplaces and do not establish chronology relative to OSS service."
+    },
+    {
+      "key": "lva-cortright-b474",
+      "stable_url": "https://www.fromthepage.com/lva/world-war-ii-separation-notices-navy/work-1142097-015-132-001/display/35757084",
+      "archival_identifier": "Library of Virginia work 1142097_015_132_001",
+      "title": "Notice of Separation from U.S. Naval Service for Richard Dean Cortright",
+      "author_creator": "United States Navy",
+      "repository_publisher": "Library of Virginia, Making History program",
+      "publication_record_date": "1946-11-07",
+      "locator": "NAVPERS-553, page 1; original facsimile visually inspected at full resolution; fields 17, 19, 20, 24 and 36-38",
+      "access_date": "2026-09-12",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Separation Notices: Navy",
+      "document_number": "1142097_015_132_001",
+      "rights_notes": "Project-authored transcription and the shortest necessary excerpts only. The public facsimile contains private data that are excluded from project exports."
+    },
+    {
+      "key": "nps-cortright-b474",
+      "stable_url": "https://www.nps.gov/articles/transforming-prince-william-forest-park-into-military-camps.htm",
+      "title": "Transforming Prince William Forest Park into Military Camps",
+      "author_creator": "John Whiteclay Chambers II",
+      "repository_publisher": "National Park Service",
+      "publication_record_date": null,
+      "locator": "Area C discussion; Cortright was ordered to redesign the OSS Communications Branch technical program after the November 1942 decision to retain Area C",
+      "access_date": "2026-09-12",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "OSS Training Areas in National Parks and Service Abroad During World War II",
+      "rights_notes": "Used to corroborate Cortright's OSS communications role and chronology, not his pre-service employer by itself."
+    },
+    {
+      "key": "yank-corven-b474",
+      "stable_url": "https://indianamilitary.org/YANK/1944-03-17-DownUnder/Yank-1944-03-17-s.pdf",
+      "title": "The Old One-Two Punch in Italy",
+      "author_creator": "Sgt. Burtt Evans, YANK staff correspondent",
+      "repository_publisher": "YANK, The Army Weekly; public mirror hosted by Indiana Military Organization",
+      "publication_record_date": "1944-03-17",
+      "locator": "PDF physical page 6; Pfc. Henry J. Corven of Ridgewood, New Jersey; article text identifies the soldiers as Rangers during the Nettuno landing",
+      "access_date": "2026-09-12",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "YANK Down Under Edition",
+      "rights_notes": "Contemporary wartime identity and Army context only; no employer or OSS-entry sequence is inferred."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "us-navy-bureau-of-ships-b474",
+      "canonical_name": "U.S. Navy Bureau of Ships",
+      "historical_name": "U.S. Navy - BuShips",
+      "aliases": [
+        "Bureau of Ships",
+        "BuShips",
+        "U.S. Navy - BuShips"
+      ],
+      "organization_type": "federal military bureau",
+      "sector": "federal_government",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "normalization_notes": "The historical wording is retained from the Navy separation form. This record does not substitute a modern successor organization."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "john-corrigan-student-b474",
+      "person_id": "bf272f97-ede5-5edc-a083-fedda34b9f67",
+      "occupation": "Student",
+      "relationship_type": "student",
+      "end_date": "1942-12-11",
+      "date_precision": "The identifier-matched Army statistical card dated 11 December 1942 carries civilian-occupation value 992; the official table defines 9-92 as Students.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "No school is identified. A separate birth-year field is internally implausible for the Army-entry date, so the student category is published with an explicit source-data warning and requires file review."
+    },
+    {
+      "key": "william-corson-statistical-clerks-b474",
+      "person_id": "856cdb6d-6397-522b-8073-bec696892033",
+      "occupation": "Statistical clerks and compilers",
+      "relationship_type": "unknown",
+      "end_date": "1942-12-30",
+      "date_precision": "The identifier-matched Army statistical card dated 30 December 1942 carries civilian-occupation value 136; the official table defines 1-36 as Statistical clerks and compilers.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The category establishes no employer, workplace, paid relationship, work dates or Army-to-OSS sequence."
+    },
+    {
+      "key": "richard-cortright-buships-b474",
+      "person_id": "44f3c943-47ee-5868-8b6e-2d670d16b950",
+      "organization_key": "us-navy-bureau-of-ships-b474",
+      "organization_name_as_found": "U.S. Navy - BuShips",
+      "role_title": "Radio engineer",
+      "occupation": "Engineer, radio",
+      "relationship_type": "government_assignment",
+      "start_date": "1942-02",
+      "end_date": "1942-09",
+      "date_precision": "The original separation form supplies month and year for the last employment period and records active-service entry on 23 September 1942 at OSS.",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The Navy form explicitly calls BuShips the last employer and places Cortright's active-service entry directly at OSS. The OSS index and separation form differ by one digit in the private service number, so identity remains high confidence pending Box 145 review."
+    },
+    {
+      "key": "joseph-corvaia-general-office-clerks-b474",
+      "person_id": "f4bd1796-a781-5db0-8b99-d16023380c09",
+      "occupation": "Clerks, general office",
+      "relationship_type": "unknown",
+      "end_date": "1941-04-07",
+      "date_precision": "The identifier-matched Army statistical card dated 7 April 1941 carries civilian-occupation value 105; the official table defines 1-05 as Clerks, general office.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The category establishes no employer, workplace, paid relationship, work dates or Army-to-OSS sequence."
+    },
+    {
+      "key": "melvin-corvin-student-b474",
+      "person_id": "98c3c478-3380-5141-83ae-9cd6b8ddfe33",
+      "occupation": "Student",
+      "relationship_type": "student",
+      "end_date": "1942-10-02",
+      "date_precision": "The identifier-matched Army statistical card dated 2 October 1942 carries civilian-occupation value 992; the official table defines 9-92 as Students.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "No school is identified. Another OSS index row bears the same private identifier under a different name; the records remain separate and require archival review."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-john-f-corrigan-b474",
+      "person_id": "bf272f97-ede5-5edc-a083-fedda34b9f67",
+      "claim_type": "identity",
+      "claim_text": "The indexed John F Corrigan has a confirmed match to the exact private identifier and exact name in the official Army merged file.",
+      "evidence_excerpt": "CORRIGAN JOHN F",
+      "evidence_paraphrase": "The indexed identifier selects one of eight exact-name Army candidates and dates Army entry to 11 December 1942 as a private.",
+      "identity_match_assessment": "Exact private identifier and exact indexed name establish the match.",
+      "temporal_assessment": "The record dates Army entry but does not identify an OSS start, employer or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full private identifier remains private. One unrelated birth-year field is internally implausible and is not published.",
+      "sources": [
+        {
+          "source_key": "index-b474",
+          "support_type": "supports",
+          "locator_override": "PDF page 93, row 42; Box 145; identifier withheld"
+        },
+        {
+          "source_key": "army-b474",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier and exact-name record dated 11 December 1942; identifier withheld"
+        },
+        {
+          "source_key": "basic-b474",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-john-f-corrigan-b474",
+      "person_id": "bf272f97-ede5-5edc-a083-fedda34b9f67",
+      "claim_type": "occupation",
+      "claim_text": "John F Corrigan's Army-entry record carries the broad category Student; no school, employer or course is identified.",
+      "evidence_excerpt": "Students",
+      "evidence_paraphrase": "The identifier-matched Army row carries occupation value 992; the visually inspected official table defines category 9-92 as Students.",
+      "identity_match_assessment": "The exact private identifier and exact indexed name establish the Army-record match.",
+      "temporal_assessment": "The category is bounded to the Army record dated 11 December 1942, but enrollment dates and its relation to OSS service are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The row has an internally implausible birth-year field. The student category is retained as the source reports it, visibly qualified, without naming an institution.",
+      "sources": [
+        {
+          "source_key": "army-b474",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 992; identifier withheld"
+        },
+        {
+          "source_key": "basic-b474",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; alternate card layout and documented limitations"
+        },
+        {
+          "source_key": "codes-b474",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 304; entry 9-92",
+          "excerpt_override": "Students"
+        }
+      ],
+      "affiliation_key": "john-corrigan-student-b474"
+    },
+    {
+      "key": "identity-william-h-corson-b474",
+      "person_id": "856cdb6d-6397-522b-8073-bec696892033",
+      "claim_type": "identity",
+      "claim_text": "The indexed William H Corson has a confirmed match to the exact private identifier and exact name in the official Army merged file.",
+      "evidence_excerpt": "CORSON WILLIAM H",
+      "evidence_paraphrase": "The indexed identifier selects the matching Army row and dates Army entry to 30 December 1942 as a private.",
+      "identity_match_assessment": "Exact private identifier and exact indexed name establish the match.",
+      "temporal_assessment": "The record dates Army entry but does not identify an OSS start, employer or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full private identifier remains private.",
+      "sources": [
+        {
+          "source_key": "index-b474",
+          "support_type": "supports",
+          "locator_override": "PDF page 93, row 44; Box 145; identifier withheld"
+        },
+        {
+          "source_key": "army-b474",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier and exact-name record dated 30 December 1942; identifier withheld"
+        },
+        {
+          "source_key": "basic-b474",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-william-h-corson-b474",
+      "person_id": "856cdb6d-6397-522b-8073-bec696892033",
+      "claim_type": "occupation",
+      "claim_text": "William H Corson's Army-entry record carries the occupational category Statistical clerks and compilers; no employer or workplace is identified.",
+      "evidence_excerpt": "Statistical clerks and compilers",
+      "evidence_paraphrase": "The identifier-matched Army row carries occupation value 136; the visually inspected official table defines category 1-36.",
+      "identity_match_assessment": "The exact private identifier and exact indexed name establish the Army-record match.",
+      "temporal_assessment": "The category is bounded to the Army record dated 30 December 1942, but actual work dates and its relation to OSS service are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, employment relationship or immediacy is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b474",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 136; identifier withheld"
+        },
+        {
+          "source_key": "basic-b474",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-45; civilian occupation field"
+        },
+        {
+          "source_key": "codes-b474",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 171; entry 1-36",
+          "excerpt_override": "Statistical clerks and compilers"
+        }
+      ],
+      "affiliation_key": "william-corson-statistical-clerks-b474"
+    },
+    {
+      "key": "identity-richard-d-cortright-b474",
+      "person_id": "44f3c943-47ee-5868-8b6e-2d670d16b950",
+      "claim_type": "identity",
+      "claim_text": "The indexed Lieutenant Commander Richard D Cortright is a high-confidence match to Navy officer Richard Dean Cortright, an OSS communications officer.",
+      "evidence_excerpt": "CORTRIGHT, Richard Dean",
+      "evidence_paraphrase": "The exact full name and rank align; the Navy form records direct active-service entry at OSS, and the National Park Service independently documents Cortright's OSS Communications Branch work.",
+      "identity_match_assessment": "Full name, middle name, commissioned rank, direct OSS entry, communications specialty and Area C role align. The two private service-number forms differ by one digit.",
+      "temporal_assessment": "The Navy form dates active-service entry at OSS to 23 September 1942; the NPS account documents later OSS Communications Branch responsibilities.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Neither identifier is silently corrected. Box 145 remains necessary to resolve the one-digit discrepancy.",
+      "sources": [
+        {
+          "source_key": "index-b474",
+          "support_type": "supports",
+          "locator_override": "PDF page 93, row 45; Lieutenant Commander; Box 145; identifier withheld"
+        },
+        {
+          "source_key": "lva-cortright-b474",
+          "support_type": "supports",
+          "locator_override": "NAVPERS-553, page 1; exact full name, Lieutenant Commander, commissioned and entered active service at OSS; identifier withheld"
+        },
+        {
+          "source_key": "nps-cortright-b474",
+          "support_type": "supports",
+          "locator_override": "Area C discussion; OSS Communications Branch technical-program assignment"
+        }
+      ]
+    },
+    {
+      "key": "immediate-richard-d-cortright-buships-b474",
+      "person_id": "44f3c943-47ee-5868-8b6e-2d670d16b950",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Immediately before entering active service at OSS, Richard Dean Cortright's last employer was the U.S. Navy Bureau of Ships in Washington, where his civilian occupation was radio engineer.",
+      "evidence_excerpt": "U.S. Navy - BuShips, Washington, D.C.",
+      "evidence_paraphrase": "The Navy separation form names BuShips as the last employer from February through September 1942 and records active-service entry at OSS on 23 September 1942.",
+      "identity_match_assessment": "The high-confidence identity rests on the exact full name, rank, OSS entry, communications specialty and independent NPS corroboration; the private identifier discrepancy remains disclosed.",
+      "temporal_assessment": "The form explicitly labels BuShips as the last employer and places active-service entry immediately afterward at OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This is a government affiliation and documented last employer, not a private-company employer. Month precision is preserved.",
+      "sources": [
+        {
+          "source_key": "lva-cortright-b474",
+          "support_type": "supports",
+          "locator_override": "NAVPERS-553, page 1; fields 17, 19 and 36-38; original facsimile visually inspected"
+        },
+        {
+          "source_key": "nps-cortright-b474",
+          "support_type": "context_only",
+          "locator_override": "Area C discussion; later OSS communications duties"
+        }
+      ],
+      "affiliation_key": "richard-cortright-buships-b474"
+    },
+    {
+      "key": "last-civilian-richard-d-cortright-buships-b474",
+      "person_id": "44f3c943-47ee-5868-8b6e-2d670d16b950",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Richard Dean Cortright's last documented civilian employer before commissioned active service was the U.S. Navy Bureau of Ships.",
+      "evidence_excerpt": "Name and address of last employer",
+      "evidence_paraphrase": "The form's employment section names U.S. Navy - BuShips, Washington, D.C., for February through September 1942 and identifies Engineer, Radio as the civilian occupation.",
+      "identity_match_assessment": "The same high-confidence full-name, rank, OSS-entry and communications evidence identifies the indexed person; the one-digit private identifier discrepancy is unresolved.",
+      "temporal_assessment": "The last-employer field ends in September 1942, the month of direct commissioned entry at OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The claim follows the form's own last-employer label. It is also modeled as a government assignment so civilian and military pathways remain distinct.",
+      "sources": [
+        {
+          "source_key": "lva-cortright-b474",
+          "support_type": "supports",
+          "locator_override": "NAVPERS-553, page 1; fields 36-38; original facsimile visually inspected"
+        }
+      ],
+      "affiliation_key": "richard-cortright-buships-b474"
+    },
+    {
+      "key": "identity-joseph-v-corvaia-b474",
+      "person_id": "f4bd1796-a781-5db0-8b99-d16023380c09",
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph V Corvaia has a confirmed match to the exact private identifier and exact name in the official Army merged file.",
+      "evidence_excerpt": "CORVAIA JOSEPH V",
+      "evidence_paraphrase": "The indexed identifier selects the sole exact-name Army row and dates Army entry to 7 April 1941 as a private.",
+      "identity_match_assessment": "Exact private identifier and exact indexed name establish the match.",
+      "temporal_assessment": "The record dates Army entry but does not identify an OSS start, employer or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full private identifier remains private.",
+      "sources": [
+        {
+          "source_key": "index-b474",
+          "support_type": "supports",
+          "locator_override": "PDF page 93, row 46; Box 146; identifier withheld"
+        },
+        {
+          "source_key": "army-b474",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier and exact-name record dated 7 April 1941; identifier withheld"
+        },
+        {
+          "source_key": "basic-b474",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-joseph-v-corvaia-b474",
+      "person_id": "f4bd1796-a781-5db0-8b99-d16023380c09",
+      "claim_type": "occupation",
+      "claim_text": "Joseph V Corvaia's Army-entry record carries the occupational category Clerks, general office; no employer or workplace is identified.",
+      "evidence_excerpt": "Clerks, general office",
+      "evidence_paraphrase": "The identifier-matched Army row carries occupation value 105; the visually inspected official table defines category 1-05.",
+      "identity_match_assessment": "The exact private identifier and exact indexed name establish the Army-record match.",
+      "temporal_assessment": "The category is bounded to the Army record dated 7 April 1941, but actual work dates and its relation to OSS service are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, workplace, employment relationship or immediacy is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b474",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 105; identifier withheld"
+        },
+        {
+          "source_key": "basic-b474",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-45; civilian occupation field"
+        },
+        {
+          "source_key": "codes-b474",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 171; entry 1-05",
+          "excerpt_override": "Clerks, general office"
+        }
+      ],
+      "affiliation_key": "joseph-corvaia-general-office-clerks-b474"
+    },
+    {
+      "key": "identity-henry-j-corven-b474",
+      "person_id": "c0712d8a-84e1-5588-82d6-ebf7a6094d71",
+      "claim_type": "identity",
+      "claim_text": "The indexed Henry J Corven is a probable match to Pfc. Henry J. Corven of Ridgewood, New Jersey, described with Army Rangers in a contemporary YANK report.",
+      "evidence_excerpt": "Pfc. Henry J. Corven of Ridgewood, N. J.",
+      "evidence_paraphrase": "The uncommon exact name and middle initial align with a contemporary Army report that places the soldier among Rangers during the Nettuno landing.",
+      "identity_match_assessment": "The rare exact name, middle initial and compatible wartime military context support probability, but neither a private identifier nor direct Box 146 link is available.",
+      "temporal_assessment": "The article documents January 1944 Army Ranger context; it does not establish whether that service preceded, overlapped or followed OSS assignment.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The Ranger context is identity evidence only and is not modeled as a pre-OSS affiliation without a documented sequence.",
+      "sources": [
+        {
+          "source_key": "index-b474",
+          "support_type": "supports",
+          "locator_override": "PDF page 94, row 1; Box 146"
+        },
+        {
+          "source_key": "yank-corven-b474",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 6; Nettuno landing article",
+          "excerpt_override": "Pfc. Henry J. Corven of Ridgewood, N. J."
+        }
+      ]
+    },
+    {
+      "key": "identity-melvin-corvin-b474",
+      "person_id": "98c3c478-3380-5141-83ae-9cd6b8ddfe33",
+      "claim_type": "identity",
+      "claim_text": "The indexed Melvin Corvin has a confirmed match to the exact private identifier and exact name in the official Army merged file.",
+      "evidence_excerpt": "CORVIN MELVIN",
+      "evidence_paraphrase": "The indexed identifier and exact name match the sole Army row, dated 2 October 1942 as a private; another OSS index row carries the same private identifier under a different name.",
+      "identity_match_assessment": "Exact private identifier and exact indexed name establish this Army-row match. The cross-index identifier conflict is preserved and the two person entities are not merged.",
+      "temporal_assessment": "The Army row dates entry but does not establish an OSS start, employer or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full private identifier remains private. Box 146 and the other indexed personnel file must resolve the duplicate-identifier conflict.",
+      "sources": [
+        {
+          "source_key": "index-b474",
+          "support_type": "supports",
+          "locator_override": "PDF page 94, row 2; Box 146; identifier withheld; same private value also appears on a different-name source row"
+        },
+        {
+          "source_key": "army-b474",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier and exact-name record dated 2 October 1942; identifier withheld"
+        },
+        {
+          "source_key": "basic-b474",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "occupation-melvin-corvin-b474",
+      "person_id": "98c3c478-3380-5141-83ae-9cd6b8ddfe33",
+      "claim_type": "occupation",
+      "claim_text": "Melvin Corvin's Army-entry record carries the broad category Student; no school, employer or course is identified.",
+      "evidence_excerpt": "Students",
+      "evidence_paraphrase": "The identifier-matched Army row carries occupation value 992; the visually inspected official table defines category 9-92 as Students.",
+      "identity_match_assessment": "The exact private identifier and exact indexed name establish the Army-record match, while the other index row sharing the private identifier remains unresolved.",
+      "temporal_assessment": "The category is bounded to the Army record dated 2 October 1942, but enrollment dates and its relation to OSS service are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No institution is inferred. The duplicate-identifier conflict is disclosed and requires archival review.",
+      "sources": [
+        {
+          "source_key": "army-b474",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 992; identifier withheld"
+        },
+        {
+          "source_key": "basic-b474",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-45; civilian occupation field"
+        },
+        {
+          "source_key": "codes-b474",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 304; entry 9-92",
+          "excerpt_override": "Students"
+        }
+      ],
+      "affiliation_key": "melvin-corvin-student-b474"
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "bf272f97-ede5-5edc-a083-fedda34b9f67",
+      "identity_status": "confirmed",
+      "identity_evidence": "Exact indexed private identifier and full name match one of eight exact-name Army candidates. The source's birth-year field is internally implausible and remains excluded.",
+      "name_variants": [
+        "John F Corrigan",
+        "John F. Corrigan",
+        "CORRIGAN JOHN F"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 145 to verify the source-data anomaly, identify the unnamed school behind the student category and establish Army-to-OSS chronology.",
+      "archival_review_priority": "critical",
+      "replace_name_variants": false,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false
+    },
+    {
+      "person_id": "d822b77d-95a9-5807-9d23-542182d4b9bd",
+      "identity_status": "unresolved",
+      "identity_evidence": "No exact Army row or reliable public source linked Catherine T Corson to Box 145 or established a pre-OSS affiliation.",
+      "name_variants": [
+        "Catherine T Corson",
+        "Catherine T. Corson"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 145.",
+      "archival_review_priority": "high",
+      "replace_name_variants": false,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false
+    },
+    {
+      "person_id": "856cdb6d-6397-522b-8073-bec696892033",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier and exact full name match an official Army row dated 30 December 1942.",
+      "name_variants": [
+        "William H Corson",
+        "William H. Corson",
+        "CORSON WILLIAM H"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 145 to identify the employer or workplace behind the statistical-clerk category and establish Army-to-OSS chronology.",
+      "archival_review_priority": "high",
+      "replace_name_variants": false,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false
+    },
+    {
+      "person_id": "44f3c943-47ee-5868-8b6e-2d670d16b950",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Richard Dean Cortright's exact full name, lieutenant-commander rank, direct active-service entry at OSS, communications specialty and independently documented Area C work align with the indexed person; the two private service-number forms differ by one digit.",
+      "name_variants": [
+        "Richard D Cortright",
+        "Richard D. Cortright",
+        "Richard Dean Cortright",
+        "R. Dean Cortright"
+      ],
+      "personnel_category": "commissioned_naval_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 145 to resolve the one-digit private service-number discrepancy and confirm whether any affiliation intervened within September 1942.",
+      "archival_review_priority": "critical",
+      "replace_name_variants": false,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false
+    },
+    {
+      "person_id": "f4bd1796-a781-5db0-8b99-d16023380c09",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier and exact full name match the sole official Army row dated 7 April 1941.",
+      "name_variants": [
+        "Joseph V Corvaia",
+        "Joseph V. Corvaia",
+        "CORVAIA JOSEPH V"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 146 to identify the employer or workplace behind the general-office-clerk category and establish Army-to-OSS chronology.",
+      "archival_review_priority": "high",
+      "replace_name_variants": false,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false
+    },
+    {
+      "person_id": "c0712d8a-84e1-5588-82d6-ebf7a6094d71",
+      "identity_status": "probable",
+      "identity_evidence": "A contemporary YANK article names Pfc. Henry J. Corven of Ridgewood, New Jersey, among Army Rangers during the Nettuno landing. The rare name and wartime context are compatible, but no identifier or direct Box 146 bridge was found.",
+      "name_variants": [
+        "Henry J Corven",
+        "Henry J. Corven",
+        "Pfc. Henry J. Corven"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer or immediate predecessor has yet been identified. Review Box 146 to confirm the probable Ranger identity and service-to-OSS sequence.",
+      "archival_review_priority": "high",
+      "replace_name_variants": false,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false
+    },
+    {
+      "person_id": "98c3c478-3380-5141-83ae-9cd6b8ddfe33",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier and exact name match the sole official Army row dated 2 October 1942. Another OSS index row shares that private identifier under a different name, so the records remain separate.",
+      "name_variants": [
+        "Melvin Corvin",
+        "CORVIN MELVIN"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 146 and the different-name file sharing the private identifier to resolve the conflict, identify the school behind the student category and establish OSS chronology.",
+      "archival_review_priority": "critical",
+      "replace_name_variants": false,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false
+    },
+    {
+      "person_id": "92c52128-31c7-5980-842c-eb2071d060a5",
+      "identity_status": "unresolved",
+      "identity_evidence": "No exact Army row or reliable public source linked Biagio M Corvio's indexed private identifier to Box 146 or established a pre-OSS affiliation.",
+      "name_variants": [
+        "Biagio M Corvio",
+        "Biagio M. Corvio"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 146 and interpret the six-digit private identifier.",
+      "archival_review_priority": "high",
+      "replace_name_variants": false,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false
+    },
+    {
+      "person_id": "33999a88-57d6-5564-8258-10816fd55d3c",
+      "identity_status": "unresolved",
+      "identity_evidence": "No exact Army row or reliable source bridged Archie B Cory's indexed private identifier to the 1945 Evening Star T/4 namesake or a pre-OSS affiliation.",
+      "name_variants": [
+        "Archie B Cory",
+        "Archie B. Cory"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 146 and the indexed private identifier before reconsidering the T/4 namesake.",
+      "archival_review_priority": "high",
+      "replace_name_variants": false,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false
+    },
+    {
+      "person_id": "1d72ab48-d68b-539f-a79f-320085c7b7b0",
+      "identity_status": "unresolved",
+      "identity_evidence": "No exact Army row or reliable public source linked Carolyn F Cory to Box 146 or established a pre-OSS affiliation.",
+      "name_variants": [
+        "Carolyn F Cory",
+        "Carolyn F. Cory"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 146.",
+      "archival_review_priority": "high",
+      "replace_name_variants": false,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b474-john-f-corrigan",
+      "person_id": "bf272f97-ede5-5edc-a083-fedda34b9f67",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index pages 93-94; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_exact_private_identifier",
+      "started_at": "2026-09-12T19:15:00Z",
+      "completed_at": "2026-09-12T20:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Five Library of Congress candidates resolved to wrong-middle-initial or postwar namesakes; modern lawyers, educators and property records lacked the indexed identifier.",
+      "research_notes": "Exact indexed private identifier and full name match one of eight exact-name Army candidates. The source's birth-year field is internally implausible and remains excluded. A reviewed pre-OSS employer or qualified occupation/status is published.",
+      "next_action": "Review Box 145 to verify the source-data anomaly, identify the unnamed school behind the student category and establish Army-to-OSS chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch474-v1"
+    },
+    {
+      "key": "b474-catherine-t-corson",
+      "person_id": "d822b77d-95a9-5807-9d23-542182d4b9bd",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index pages 93-94; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_enhanced_identity_review",
+      "started_at": "2026-09-12T19:15:00Z",
+      "completed_at": "2026-09-12T20:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Common-name genealogy, obituary and directory results lacked a Box 145, OSS or identity bridge.",
+      "research_notes": "No exact Army row or reliable public source linked Catherine T Corson to Box 145 or established a pre-OSS affiliation. No reliable pre-OSS employer was established.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 145.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch474-v1"
+    },
+    {
+      "key": "b474-william-h-corson",
+      "person_id": "856cdb6d-6397-522b-8073-bec696892033",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index pages 93-94; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_exact_private_identifier",
+      "started_at": "2026-09-12T19:15:00Z",
+      "completed_at": "2026-09-12T20:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "A later Marine author with a different middle name and birth generation, plus unrelated directories and obituaries, were rejected.",
+      "research_notes": "The exact indexed private identifier and exact full name match an official Army row dated 30 December 1942. A reviewed pre-OSS employer or qualified occupation/status is published.",
+      "next_action": "Review Box 145 to identify the employer or workplace behind the statistical-clerk category and establish Army-to-OSS chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch474-v1"
+    },
+    {
+      "key": "b474-richard-d-cortright",
+      "person_id": "44f3c943-47ee-5868-8b6e-2d670d16b950",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index pages 93-94; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_enhanced_identity_review",
+      "started_at": "2026-09-12T19:15:00Z",
+      "completed_at": "2026-09-12T20:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Postwar engineering directories were not used for pre-OSS employment; the one-digit identifier discrepancy was preserved rather than normalized away.",
+      "research_notes": "Richard Dean Cortright's exact full name, lieutenant-commander rank, direct active-service entry at OSS, communications specialty and independently documented Area C work align with the indexed person; the two private service-number forms differ by one digit. A reviewed pre-OSS employer or qualified occupation/status is published.",
+      "next_action": "Review Box 145 to resolve the one-digit private service-number discrepancy and confirm whether any affiliation intervened within September 1942.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch474-v1"
+    },
+    {
+      "key": "b474-joseph-v-corvaia",
+      "person_id": "f4bd1796-a781-5db0-8b99-d16023380c09",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index pages 93-94; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_exact_private_identifier",
+      "started_at": "2026-09-12T19:15:00Z",
+      "completed_at": "2026-09-12T20:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Modern business profiles, unsourced genealogy summaries and later-generation namesakes lacked the indexed private identifier.",
+      "research_notes": "The exact indexed private identifier and exact full name match the sole official Army row dated 7 April 1941. A reviewed pre-OSS employer or qualified occupation/status is published.",
+      "next_action": "Review Box 146 to identify the employer or workplace behind the general-office-clerk category and establish Army-to-OSS chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch474-v1"
+    },
+    {
+      "key": "b474-henry-j-corven",
+      "person_id": "c0712d8a-84e1-5588-82d6-ebf7a6094d71",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index pages 93-94; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_enhanced_identity_review",
+      "started_at": "2026-09-12T19:15:00Z",
+      "completed_at": "2026-09-12T20:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "People-finder and genealogy pages lacked documentary support; the Ranger article supports only probable identity and wartime context.",
+      "research_notes": "A contemporary YANK article names Pfc. Henry J. Corven of Ridgewood, New Jersey, among Army Rangers during the Nettuno landing. The rare name and wartime context are compatible, but no identifier or direct Box 146 bridge was found. No reliable pre-OSS employer was established.",
+      "next_action": "No reliable pre-OSS employer or immediate predecessor has yet been identified. Review Box 146 to confirm the probable Ranger identity and service-to-OSS sequence.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch474-v1"
+    },
+    {
+      "key": "b474-melvin-corvin",
+      "person_id": "98c3c478-3380-5141-83ae-9cd6b8ddfe33",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index pages 93-94; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_exact_private_identifier",
+      "started_at": "2026-09-12T19:15:00Z",
+      "completed_at": "2026-09-12T20:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Postwar fraternity and banking references lacked the private identifier and did not establish pre-OSS chronology; a different-name index conflict remains separate.",
+      "research_notes": "The exact indexed private identifier and exact name match the sole official Army row dated 2 October 1942. Another OSS index row shares that private identifier under a different name, so the records remain separate. A reviewed pre-OSS employer or qualified occupation/status is published.",
+      "next_action": "Review Box 146 and the different-name file sharing the private identifier to resolve the conflict, identify the school behind the student category and establish OSS chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch474-v1"
+    },
+    {
+      "key": "b474-biagio-m-corvio",
+      "person_id": "92c52128-31c7-5980-842c-eb2071d060a5",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index pages 93-94; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_enhanced_identity_review",
+      "started_at": "2026-09-12T19:15:00Z",
+      "completed_at": "2026-09-12T20:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Modern namesakes and similar Corvi or Corvino spellings lacked the indexed private identifier and were rejected.",
+      "research_notes": "No exact Army row or reliable public source linked Biagio M Corvio's indexed private identifier to Box 146 or established a pre-OSS affiliation. No reliable pre-OSS employer was established.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 146 and interpret the six-digit private identifier.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch474-v1"
+    },
+    {
+      "key": "b474-archie-b-cory",
+      "person_id": "33999a88-57d6-5564-8258-10816fd55d3c",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index pages 93-94; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_enhanced_identity_review",
+      "started_at": "2026-09-12T19:15:00Z",
+      "completed_at": "2026-09-12T20:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "The Evening Star T/4 namesake lacks the indexed identifier, OSS link and other corroborating identifiers; other results were unrelated.",
+      "research_notes": "No exact Army row or reliable source bridged Archie B Cory's indexed private identifier to the 1945 Evening Star T/4 namesake or a pre-OSS affiliation. No reliable pre-OSS employer was established.",
+      "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 146 and the indexed private identifier before reconsidering the T/4 namesake.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch474-v1"
+    },
+    {
+      "key": "b474-carolyn-f-cory",
+      "person_id": "1d72ab48-d68b-539f-a79f-320085c7b7b0",
+      "source_adapter": "reviewed_official_bulk_institutional_newspaper_and_web_sources",
+      "query_text": "NARA OSS index pages 93-94; complete Army comparison where applicable; CIA exact-name check; current Library of Congress employment check; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_enhanced_identity_review",
+      "started_at": "2026-09-12T19:15:00Z",
+      "completed_at": "2026-09-12T20:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Obituaries, directories and modern namesakes lacked the indexed middle initial, Box 146 or an OSS identity bridge.",
+      "research_notes": "No exact Army row or reliable public source linked Carolyn F Cory to Box 146 or established a pre-OSS affiliation. No reliable pre-OSS employer was established.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 146.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch474-v1"
+    }
+  ]
+}

@@ -1,0 +1,959 @@
+{
+  "bundle_version": "before-oss-reviewed-evidence-batch504-v1",
+  "reviewer": "Codex archival review",
+  "sources": [
+    {
+      "key": "index-b504",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; PDF page 100 rows 20-29 visually inspected; Boxes 157-158; location 230/86/29/04",
+      "access_date": "2026-09-13",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Citation and project-authored assessments only. Full private identifiers are retained only in the private database and are masked from public data. Adjacent Frederick C. and Frederick P. Culbert rows remain separate people unless direct evidence establishes otherwise."
+    },
+    {
+      "key": "army-b504",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official ASNEF.FIN.DAT; complete transient scan of 9,200,232 fixed-width records; three strict private identifiers and every exact-full-name candidate for the cohort adjudicated",
+      "access_date": "2026-09-13",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full private identifier is retained in this evidence bundle. The file is incomplete and is not an OSS, officer, Navy, civilian, or foreign roster; a non-hit is not negative proof."
+    },
+    {
+      "key": "basic-b504",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; fixed-width identifier, name, Army-entry-date, grade, branch, civilian-occupation, component, and card fields checked",
+      "access_date": "2026-09-13",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields and documented coverage limits. Name-conversion defects, alternate layouts, duplicate identifiers, and file omissions remain explicit uncertainty."
+    },
+    {
+      "key": "codes-b504",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30, Civilian Occupations",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "War Department; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1944-1945; compiled reference copy",
+      "locator": "Code No. 30, PDF physical page 173; skill-level rule and occupation codes 448 and 849 visually inspected",
+      "access_date": "2026-09-13",
+      "source_quality": "A_direct_official",
+      "collection_name": "Army Serial Number Electronic Files code documentation",
+      "document_number": "100.1CL_SD.pdf",
+      "rights_notes": "Historical occupation categories identify neither a named employer nor a workplace and do not establish an Army-to-OSS sequence."
+    },
+    {
+      "key": "cia-north-africa-culbert-b504",
+      "stable_url": "https://www.cia.gov/readingroom/docs/CIA-RDP13X00001R000100440005-1.pdf",
+      "archival_identifier": "CIA-RDP13X00001R000100440005-1",
+      "title": "Plan for North Africa",
+      "author_creator": "Office of the Coordinator of Information wartime planning staff; creator not identified in the accessible copy",
+      "repository_publisher": "Central Intelligence Agency FOIA Electronic Reading Room",
+      "publication_record_date": "Undated wartime planning document; internal context predates the November 1942 North African landings",
+      "locator": "Section 10(a), recommendation of Vice-Consul Frederick P. Culbert for GYMNAST",
+      "access_date": "2026-09-13",
+      "source_quality": "A_direct_official",
+      "collection_name": "CIA FOIA Electronic Reading Room",
+      "document_number": "CIA-RDP13X00001R000100440005-1",
+      "rights_notes": "The source calls Culbert the control officer at Casablanca. A later Foreign Service Journal account instead places the control post at Dakar; the project preserves the disagreement."
+    },
+    {
+      "key": "afsa-villard-culbert-b504",
+      "stable_url": "https://afsa.org/sites/default/files/fsj-1979-06-june_0.pdf",
+      "title": "CIA in Embryo: Our Spies in North Africa",
+      "author_creator": "Henry Serrano Villard",
+      "repository_publisher": "American Foreign Service Association, The Foreign Service Journal",
+      "publication_record_date": "1979-06",
+      "locator": "June 1979 issue, printed pages 27 and 34; PDF pages 28 and 35; recollection of Frederick P. Culbert's September 1942 recall and return with the assault forces",
+      "access_date": "2026-09-13",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "The Foreign Service Journal archive",
+      "rights_notes": "Project-authored paraphrase and a short excerpt only. The retrospective account calls Culbert the control officer at Dakar, conflicting with the contemporary planning document's Casablanca wording."
+    },
+    {
+      "key": "afsa-medal-culbert-b504",
+      "stable_url": "https://afsa.org/sites/default/files/fsj-1946-04-april_0.pdf",
+      "title": "Presentation of Medals for Merit",
+      "author_creator": "The American Foreign Service Journal",
+      "repository_publisher": "American Foreign Service Association, The American Foreign Service Journal",
+      "publication_record_date": "1946-04",
+      "locator": "April 1946 issue, printed page 27; PDF page 29; Foreign Service Medal for Merit recipients associated with the November 1942 Allied landings",
+      "access_date": "2026-09-13",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "The Foreign Service Journal archive",
+      "rights_notes": "Project-authored paraphrase and a short excerpt only. The item corroborates exact-name Foreign Service service and North Africa activity but does not name a prewar private employer."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "united-states-department-of-state",
+      "canonical_name": "United States Department of State",
+      "historical_name": "Department of State",
+      "aliases": [
+        "U.S. Department of State",
+        "State Department"
+      ],
+      "organization_type": "federal executive department",
+      "sector": "federal_government",
+      "country": "United States",
+      "normalization_notes": "Foreign Service and consular work is modeled as a government assignment. It is not silently converted into the unnamed private employer that preceded it."
+    },
+    {
+      "key": "united-states-navy",
+      "canonical_name": "United States Navy",
+      "historical_name": "United States Navy",
+      "aliases": [
+        "U.S. Navy",
+        "United States Naval Reserve",
+        "USNR"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Navy and Naval Reserve wording is preserved in claim-level evidence. A recommendation for Naval Reserve rank is not treated as proof that the appointment occurred."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "walter-m-cuddy-jr-pressman-occupation-b504",
+      "person_id": "2dbfa59b-f026-5aed-9456-1f9f853bada3",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Pressman or plate printer in printing",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-05-11",
+      "date_precision": "Civilian-occupation code 448 recorded at Army entry on 11 May 1943; no employer, worksite, or OSS-entry date is named.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact private-identifier, exact-name, middle-initial and suffix agreement confirm the Army row. The code gives an occupation, not a named employer."
+    },
+    {
+      "key": "mario-j-cugia-printing-occupation-b504",
+      "person_id": "8d9ac81b-e576-5636-9f1c-cbababa88946",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Unskilled occupation in printing and publishing, not elsewhere classified",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-03-20",
+      "date_precision": "Civilian-occupation code 849 recorded at Army entry on 20 March 1943; no employer, exact task, worksite, or OSS-entry date is named.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact private-identifier and exact-name agreement confirm the Army row. The historical skill label and broad code are preserved without inventing a firm or a more specific trade."
+    },
+    {
+      "key": "frederick-p-culbert-state-department-b504",
+      "person_id": "2434a0ca-c538-572c-be3b-dde55a2b03dd",
+      "organization_key": "united-states-department-of-state",
+      "organization_name_as_found": "Vice-Consul",
+      "role_title": "Vice Consul and control officer in North Africa",
+      "occupation": "Foreign Service officer",
+      "relationship_type": "government_assignment",
+      "start_date": null,
+      "end_date": "1942-09",
+      "date_precision": "A wartime plan recommends the serving vice consul for GYMNAST; a later Foreign Service account dates his recall for Western Task Force duty to September 1942.",
+      "city": null,
+      "state_or_region": "North Africa",
+      "country": null,
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The direct wartime plan supplies the recruitment/assignment bridge from Foreign Service duty. It names Casablanca; the 1979 Foreign Service account names Dakar. City is therefore left unresolved rather than harmonized."
+    },
+    {
+      "key": "frederick-p-culbert-us-navy-b504",
+      "person_id": "2434a0ca-c538-572c-be3b-dde55a2b03dd",
+      "organization_key": "united-states-navy",
+      "organization_name_as_found": "Navy",
+      "role_title": null,
+      "occupation": "Naval Academy graduate and naval officer",
+      "relationship_type": "military_assignment",
+      "start_date": null,
+      "end_date": null,
+      "date_precision": "The wartime plan identifies Naval Academy class of 1916 and says Culbert left the Navy in the early 1920s; exact service dates and rank were not established here.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "This is an earlier military affiliation. The document recommends Commander rank in the Naval Reserve, but does not prove that commission was issued; commissioned status in the OSS index therefore remains unknown."
+    },
+    {
+      "key": "frederick-p-culbert-business-executive-b504",
+      "person_id": "2434a0ca-c538-572c-be3b-dde55a2b03dd",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Business executive",
+      "occupation": "business executive",
+      "relationship_type": "employment",
+      "start_date": null,
+      "end_date": null,
+      "date_precision": "The wartime plan says only that Culbert had been a business executive in France and Germany for many years before the documented Foreign Service assignment.",
+      "city": null,
+      "state_or_region": null,
+      "country": null,
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "No company is named. The finding is an occupation and regional history only, not a normalized employer and not the immediate pre-OSS affiliation."
+    }
+  ],
+  "claims": [
+    {
+      "key": "walter-m-cuddy-jr-occupation-claim-b504",
+      "person_id": "2dbfa59b-f026-5aed-9456-1f9f853bada3",
+      "affiliation_key": "walter-m-cuddy-jr-pressman-occupation-b504",
+      "claim_type": "occupation",
+      "claim_text": "Walter M. Cuddy Jr.'s Army-entry record documents work as a pressman or plate printer in printing; it does not name an employer.",
+      "evidence_excerpt": "Pressmen and plate printers, printing",
+      "evidence_paraphrase": "An exact identifier and name match links the indexed person to an Army entry row whose official code list identifies printing work.",
+      "identity_match_assessment": "Confirmed: exact private identifier, full name, middle initial and suffix agree between the OSS index and official Army merged file.",
+      "temporal_assessment": "The occupation was recorded at Army entry on 11 May 1943 and is strongly date-bounded before military service, but its relation to OSS entry is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No named employer or worksite is inferred from occupation code 448.",
+      "sources": [
+        {
+          "source_key": "index-b504",
+          "support_type": "supports",
+          "locator_override": "PDF page 100, row 20; Box 157",
+          "excerpt_override": "CUDDY WALTER M JR"
+        },
+        {
+          "source_key": "army-b504",
+          "support_type": "supports",
+          "locator_override": "One exact-name and exact-private-identifier row; Army entry 11 May 1943; occupation code 448",
+          "excerpt_override": "CUDDY WALTER M JR"
+        },
+        {
+          "source_key": "basic-b504",
+          "support_type": "context_only",
+          "locator_override": "Technical documentation, physical pages 44-46",
+          "excerpt_override": "Civilian Occupation"
+        },
+        {
+          "source_key": "codes-b504",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, physical page 173; code 448",
+          "excerpt_override": "Pressmen and plate printers, printing"
+        }
+      ]
+    },
+    {
+      "key": "john-h-cudmore-unresolved-claim-b504",
+      "person_id": "3d16196a-e9d8-5c6d-8389-c213c16ba5f6",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed for John H. Cudmore.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The index supplies a short private value and Box 157, but official and targeted searches produced no independent identity or employment bridge; the sole newspaper candidate was unrelated.",
+      "identity_match_assessment": "Unresolved beyond the indexed row; no corroborating identifier or sufficiently specific biographical source was found.",
+      "temporal_assessment": "No reliable pre-OSS affiliation or dated occupation was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "The indexed personnel file may require archival examination; this is not evidence that no previous employer existed.",
+      "sources": [
+        {
+          "source_key": "index-b504",
+          "support_type": "supports",
+          "locator_override": "PDF page 100, row 21; Box 157",
+          "excerpt_override": "CUDMORE JOHN H"
+        }
+      ]
+    },
+    {
+      "key": "frank-cuellar-army-candidate-claim-b504",
+      "person_id": "4bc2de73-077f-5f07-a1b5-a13874dc02ff",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "An exact-name Army row for Frank Cuellar carries a different private identifier and is not assigned to the indexed person.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The complete official Army-file scan found no row for the index identifier and one exact-name row with a different identifier.",
+      "identity_match_assessment": "Ambiguous: the exact name alone cannot overcome the identifier conflict or supply an OSS-personnel bridge.",
+      "temporal_assessment": "The rejected candidate entered the Army in April 1942, but its occupation and chronology are not attributed to this person.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "Review Box 157 and underlying identifier-conversion evidence before reconsidering the candidate.",
+      "sources": [
+        {
+          "source_key": "index-b504",
+          "support_type": "supports",
+          "locator_override": "PDF page 100, row 22; Box 157",
+          "excerpt_override": "CUELLAR FRANK"
+        },
+        {
+          "source_key": "army-b504",
+          "support_type": "context_only",
+          "locator_override": "One exact-name row with a different private identifier; candidate rejected",
+          "excerpt_override": "CUELLAR FRANK"
+        }
+      ]
+    },
+    {
+      "key": "rodolfo-e-cueva-army-candidate-claim-b504",
+      "person_id": "40bd9b2d-264e-5842-9499-10ae6eaf98d3",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "A compatible exact-name Army row for Rodolfo E. Cueva remains an unconfirmed identity candidate and is not published as this person's career history.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The Army file contains one exact-name row dated December 1941, but the index has no identifier and accessible sources supplied no direct Box 157 or OSS bridge.",
+      "identity_match_assessment": "Ambiguous: exact full name and plausible wartime chronology are insufficient without another corroborating identifier.",
+      "temporal_assessment": "The candidate's Army entry predates OSS service, but neither its assignment nor occupation is attributed to the indexed person.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "A discovery-only genealogy page was not used as final evidence. Box 157 is required for identity resolution.",
+      "sources": [
+        {
+          "source_key": "index-b504",
+          "support_type": "supports",
+          "locator_override": "PDF page 100, row 23; Box 157",
+          "excerpt_override": "CUEVA RODOLFO E"
+        },
+        {
+          "source_key": "army-b504",
+          "support_type": "context_only",
+          "locator_override": "One exact-name row; Army entry 26 December 1941; no index identifier bridge",
+          "excerpt_override": "CUEVA RODOLFO E"
+        }
+      ]
+    },
+    {
+      "key": "domingo-cuevas-unresolved-claim-b504",
+      "person_id": "bc53e536-8919-59cb-b760-64d9928a0847",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed for Domingo Cuevas.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The index supplies a common name, a short private value and Box 157; official and targeted searches found no matching identity or employer source.",
+      "identity_match_assessment": "Unresolved beyond the indexed row; unrelated common-name military and guerrilla references were rejected.",
+      "temporal_assessment": "No reliable pre-OSS affiliation or dated occupation was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "The indexed personnel file may require archival examination; this is not evidence that no previous employer existed.",
+      "sources": [
+        {
+          "source_key": "index-b504",
+          "support_type": "supports",
+          "locator_override": "PDF page 100, row 24; Box 157",
+          "excerpt_override": "CUEVAS DOMINGO"
+        }
+      ]
+    },
+    {
+      "key": "mario-j-cugia-occupation-claim-b504",
+      "person_id": "8d9ac81b-e576-5636-9f1c-cbababa88946",
+      "affiliation_key": "mario-j-cugia-printing-occupation-b504",
+      "claim_type": "occupation",
+      "claim_text": "Mario J. Cugia's Army-entry record documents an unskilled occupation in printing and publishing, not elsewhere classified; it does not name an employer.",
+      "evidence_excerpt": "Occupations in printing and publishing, n.e.c.",
+      "evidence_paraphrase": "An exact identifier and name match links the indexed person to an Army entry row whose official code list identifies a broad printing and publishing occupation.",
+      "identity_match_assessment": "Confirmed: exact private identifier, full name and middle initial agree between the OSS index and official Army merged file.",
+      "temporal_assessment": "The occupation was recorded at Army entry on 20 March 1943 and is strongly date-bounded before military service, but its relation to OSS entry is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No named employer, exact task or worksite is inferred from occupation code 849.",
+      "sources": [
+        {
+          "source_key": "index-b504",
+          "support_type": "supports",
+          "locator_override": "PDF page 100, row 25; Box 157",
+          "excerpt_override": "CUGIA MARIO J"
+        },
+        {
+          "source_key": "army-b504",
+          "support_type": "supports",
+          "locator_override": "One exact-name and exact-private-identifier row; Army entry 20 March 1943; occupation code 849",
+          "excerpt_override": "CUGIA MARIO J"
+        },
+        {
+          "source_key": "basic-b504",
+          "support_type": "context_only",
+          "locator_override": "Technical documentation, physical pages 44-46",
+          "excerpt_override": "Civilian Occupation"
+        },
+        {
+          "source_key": "codes-b504",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, physical page 173; code 849",
+          "excerpt_override": "Occupations in printing and publishing, n.e.c."
+        }
+      ]
+    },
+    {
+      "key": "saburo-cujow-unresolved-claim-b504",
+      "person_id": "18dff061-47dd-532d-aed9-95e1affef495",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed for Saburo Cujow.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The index supplies the name and Box 158 but no rank or identifier; exact-name and spelling-variant searches produced no reliable identity bridge.",
+      "identity_match_assessment": "Unresolved beyond the indexed row; no corroborating identifier or biographical source was found.",
+      "temporal_assessment": "No reliable pre-OSS affiliation or dated occupation was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "The indexed personnel file may require archival examination; the unusual spelling is preserved rather than silently corrected.",
+      "sources": [
+        {
+          "source_key": "index-b504",
+          "support_type": "supports",
+          "locator_override": "PDF page 100, row 26; Box 158",
+          "excerpt_override": "CUJOW SABURO"
+        }
+      ]
+    },
+    {
+      "key": "frederick-c-culbert-unresolved-claim-b504",
+      "person_id": "4301edb6-d672-55ee-8659-abad726ee17d",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed for Frederick C. Culbert.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The index supplies the name and Box 158 without rank or identifier. Searches found incompatible namesakes but no direct identity or employer bridge.",
+      "identity_match_assessment": "Unresolved beyond the indexed row; the adjacent Frederick P. Culbert record remains separate.",
+      "temporal_assessment": "No reliable pre-OSS affiliation or dated occupation was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "A Canadian airman namesake and other partial-name results are not assigned to this person. Box 158 is required.",
+      "sources": [
+        {
+          "source_key": "index-b504",
+          "support_type": "supports",
+          "locator_override": "PDF page 100, row 27; Box 158",
+          "excerpt_override": "CULBERT FREDERICK C"
+        }
+      ]
+    },
+    {
+      "key": "frederick-p-culbert-immediate-state-claim-b504",
+      "person_id": "2434a0ca-c538-572c-be3b-dde55a2b03dd",
+      "affiliation_key": "frederick-p-culbert-state-department-b504",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Immediately before his wartime special assignment, Frederick P. Culbert was a U.S. vice consul and control officer in North Africa; the accessible sources disagree between Casablanca and Dakar.",
+      "evidence_excerpt": "Vice-Consul Frederick P. Culbert, control officer at Casablanca",
+      "evidence_paraphrase": "A direct wartime plan recommends Culbert from his serving vice-consular control post for GYMNAST; a later Foreign Service account dates his September 1942 recall for Western Task Force duty.",
+      "identity_match_assessment": "High confidence: the exact distinctive full name appears in the OSS index, a direct wartime operational-planning document, and two Foreign Service institutional sources.",
+      "temporal_assessment": "Explicit immediate: the planning document recommends the serving vice consul for the operation, and the later account dates his recall to September 1942.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The organization and role are stable; the location is conflicting and is not silently resolved. The Foreign Service assignment is not labeled a private employer.",
+      "sources": [
+        {
+          "source_key": "index-b504",
+          "support_type": "supports",
+          "locator_override": "PDF page 100, row 28; Box 158",
+          "excerpt_override": "CULBERT FREDERICK P"
+        },
+        {
+          "source_key": "cia-north-africa-culbert-b504",
+          "support_type": "supports",
+          "locator_override": "Section 10(a), GYMNAST recommendation",
+          "excerpt_override": "Vice-Consul Frederick P. Culbert, control officer at Casablanca"
+        },
+        {
+          "source_key": "afsa-villard-culbert-b504",
+          "support_type": "contradicts",
+          "locator_override": "Printed page 27; September 1942 recall",
+          "excerpt_override": "control officer at Dakar"
+        },
+        {
+          "source_key": "afsa-medal-culbert-b504",
+          "support_type": "supports",
+          "locator_override": "Printed page 27; Medal for Merit notice",
+          "excerpt_override": "Leland L. Rounds, Frederick P. Culbert and Harry A. Woodruff"
+        }
+      ]
+    },
+    {
+      "key": "frederick-p-culbert-navy-claim-b504",
+      "person_id": "2434a0ca-c538-572c-be3b-dde55a2b03dd",
+      "affiliation_key": "frederick-p-culbert-us-navy-b504",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Frederick P. Culbert graduated from the U.S. Naval Academy in the class of 1916 and left the Navy in the early 1920s.",
+      "evidence_excerpt": "graduate of the Naval Academy, class of 1916",
+      "evidence_paraphrase": "The wartime plan records Culbert's Naval Academy class and says he resigned from the Navy in the early 1920s; a Foreign Service account independently calls him an Annapolis graduate.",
+      "identity_match_assessment": "High confidence: the rare exact full name and distinctive North Africa career agree across the index and two institutional sources.",
+      "temporal_assessment": "Documented prewar military service, substantially earlier than the 1942 Foreign Service-to-special-assignment pathway.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The plan's recommendation that Culbert receive Commander rank in the Naval Reserve is not proof that the commission occurred.",
+      "sources": [
+        {
+          "source_key": "index-b504",
+          "support_type": "supports",
+          "locator_override": "PDF page 100, row 28; Box 158",
+          "excerpt_override": "CULBERT FREDERICK P"
+        },
+        {
+          "source_key": "cia-north-africa-culbert-b504",
+          "support_type": "supports",
+          "locator_override": "Section 10(a), biographical recommendation",
+          "excerpt_override": "graduate of the Naval Academy, class of 1916"
+        },
+        {
+          "source_key": "afsa-villard-culbert-b504",
+          "support_type": "supports",
+          "locator_override": "Printed page 27",
+          "excerpt_override": "a graduate of Annapolis"
+        }
+      ]
+    },
+    {
+      "key": "frederick-p-culbert-business-executive-claim-b504",
+      "person_id": "2434a0ca-c538-572c-be3b-dde55a2b03dd",
+      "affiliation_key": "frederick-p-culbert-business-executive-b504",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Before the documented Foreign Service assignment, Frederick P. Culbert had worked for many years as a business executive in France and Germany; the source names no company.",
+      "evidence_excerpt": "for many years was a business executive in France and Germany",
+      "evidence_paraphrase": "A direct wartime biographical recommendation describes long business-executive experience in France and Germany without naming an employing organization.",
+      "identity_match_assessment": "High confidence: the same specific wartime document directly names Frederick P. Culbert and his serving vice-consular assignment.",
+      "temporal_assessment": "Documented prewar employment that predates the Foreign Service post; the sequence and unnamed employers do not support an immediate-employer claim.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "publish_qualified",
+      "match_notes": "No company is invented, and modern or postwar business results are not substituted for the historical employer.",
+      "sources": [
+        {
+          "source_key": "index-b504",
+          "support_type": "supports",
+          "locator_override": "PDF page 100, row 28; Box 158",
+          "excerpt_override": "CULBERT FREDERICK P"
+        },
+        {
+          "source_key": "cia-north-africa-culbert-b504",
+          "support_type": "supports",
+          "locator_override": "Section 10(a), biographical recommendation",
+          "excerpt_override": "for many years was a business executive in France and Germany"
+        }
+      ]
+    },
+    {
+      "key": "jane-culbertson-unresolved-claim-b504",
+      "person_id": "aaf1d806-5ddb-580b-af22-e83861cd2c09",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed for Jane Culbertson.",
+      "evidence_excerpt": null,
+      "evidence_paraphrase": "The index supplies the name and Box 158 without rank or identifier; official and targeted searches produced no independent identity bridge, and the sole newspaper candidate was an OCR token collision.",
+      "identity_match_assessment": "Unresolved beyond the indexed row; no corroborating identifier or sufficiently specific biographical source was found.",
+      "temporal_assessment": "No reliable pre-OSS affiliation or dated occupation was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "The indexed personnel file may require archival examination; this is not evidence that no previous employer existed.",
+      "sources": [
+        {
+          "source_key": "index-b504",
+          "support_type": "supports",
+          "locator_override": "PDF page 100, row 29; Box 158",
+          "excerpt_override": "CULBERTSON JANE"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "2dbfa59b-f026-5aed-9456-1f9f853bada3",
+      "identity_status": "confirmed",
+      "identity_evidence": "The official Army merged-file row matches Walter M. Cuddy Jr.'s exact full name, middle initial, suffix and complete private identifier and records Army entry on 11 May 1943 with occupation code 448.",
+      "name_variants": [
+        "Walter M. Cuddy Jr."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 157 for the Army-to-OSS transfer sequence, exact printing role, and any named civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3d16196a-e9d8-5c6d-8389-c213c16ba5f6",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies John H. Cudmore, a short private value and Box 157. No official Army row or independent identity bridge was found, and the LoC candidate was an unrelated Cudmore.",
+      "name_variants": [
+        "John H. Cudmore"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 157 to interpret the printed value and establish identity, personnel status, assignment, and pre-OSS chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "4bc2de73-077f-5f07-a1b5-a13874dc02ff",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The complete Army-file scan found no row for Frank Cuellar's strict index identifier. One exact-name Army row carries a different identifier and remains unassigned.",
+      "name_variants": [
+        "Frank Cuellar"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 157 and the original Army/OSS records to resolve the identifier conflict and establish status and pre-OSS chronology. No employer is assigned from the rejected candidate.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "40bd9b2d-264e-5842-9499-10ae6eaf98d3",
+      "identity_status": "ambiguous",
+      "identity_evidence": "One official Army row has the exact Rodolfo E. Cueva name and compatible December 1941 chronology, but the index supplies no identifier and no direct Box 157 or OSS bridge was found.",
+      "name_variants": [
+        "Rodolfo E. Cueva"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 157 for service identifiers and biographical details before attributing the Army candidate or any pre-OSS occupation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "bc53e536-8919-59cb-b760-64d9928a0847",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies the common name Domingo Cuevas, a short private value and Box 157; no official or independent source securely links a namesake to this personnel record.",
+      "name_variants": [
+        "Domingo Cuevas"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 157 to interpret the printed value and establish full identity, status, assignment, and pre-OSS chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "8d9ac81b-e576-5636-9f1c-cbababa88946",
+      "identity_status": "confirmed",
+      "identity_evidence": "The official Army merged-file row matches Mario J. Cugia's exact full name, middle initial and complete private identifier and records Army entry on 20 March 1943 with occupation code 849.",
+      "name_variants": [
+        "Mario J. Cugia"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 157 for the Army-to-OSS transfer sequence, exact printing or publishing work, and any named civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "18dff061-47dd-532d-aed9-95e1affef495",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Saburo Cujow and Box 158 without rank or identifier. Exact-name and spelling-variant searches found no reliable independent identity bridge.",
+      "name_variants": [
+        "Saburo Cujow"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 158 for original spelling, aliases, nationality, status, assignment, and pre-OSS chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "4301edb6-d672-55ee-8659-abad726ee17d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Frederick C. Culbert and Box 158 without rank or identifier. Incompatible namesakes were rejected and the adjacent Frederick P. Culbert record was not merged.",
+      "name_variants": [
+        "Frederick C. Culbert"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 158 to establish identity, status, assignment, and pre-OSS chronology and to preserve the distinction from Frederick P. Culbert. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "2434a0ca-c538-572c-be3b-dde55a2b03dd",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact distinctive Frederick P. Culbert name appears in the OSS index, a direct wartime North Africa planning document, and two Foreign Service institutional sources describing the same vice-consular and landing-support pathway.",
+      "name_variants": [
+        "Frederick P. Culbert"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "completed",
+      "next_action": "Review Box 158 to resolve Casablanca versus Dakar, confirm the exact OSS/COI assignment and identify the unnamed firms behind Culbert's earlier business career. Do not infer a Naval Reserve commission from the recommendation alone.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "aaf1d806-5ddb-580b-af22-e83861cd2c09",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Jane Culbertson and Box 158 without rank or identifier. No reliable independent identity bridge was found, and the sole LoC candidate was an OCR token collision.",
+      "name_variants": [
+        "Jane Culbertson"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 158 for full identity, status, assignment, and pre-OSS chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b504-walter-m-cuddy-jr",
+      "person_id": "2dbfa59b-f026-5aed-9456-1f9f853bada3",
+      "source_adapter": "reviewed_official_bulk_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 100; complete Army exact-identifier and exact-name comparison; CIA and current Library of Congress checks; Walter M. Cuddy Jr. exact-name OSS, printing, pressman, employer, directory, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_exact_identifier_occupation_only",
+      "started_at": "2026-09-13T22:00:00Z",
+      "completed_at": "2026-09-13T23:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Postwar printing-company and directory references do not establish the 1943 employer. A university ROTC search result concerned a different Cuddy.",
+      "research_notes": "Exact Army identifier match supports a qualified occupation only. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 157 for the Army-to-OSS sequence and named printing employer.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch504-v1"
+    },
+    {
+      "key": "b504-john-h-cudmore",
+      "person_id": "3d16196a-e9d8-5c6d-8389-c213c16ba5f6",
+      "source_adapter": "reviewed_official_bulk_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 100; complete Army exact-name comparison; CIA and current Library of Congress checks; John H. Cudmore exact-name OSS, military, employer, occupation, obituary, genealogy, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_short_identifier_unresolved",
+      "started_at": "2026-09-13T22:00:00Z",
+      "completed_at": "2026-09-13T23:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The LoC candidate contains only an unrelated Frank A. Cudmore probate notice. Unsourced genealogy and common-name references lack an OSS bridge.",
+      "research_notes": "Minimum protocol completed without reliable identity or employer evidence. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 157 to interpret the short printed value and establish identity and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch504-v1"
+    },
+    {
+      "key": "b504-frank-cuellar",
+      "person_id": "4bc2de73-077f-5f07-a1b5-a13874dc02ff",
+      "source_adapter": "reviewed_official_bulk_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 100; complete Army exact-identifier and exact-name comparison; CIA and current Library of Congress checks; Frank Cuellar exact-name OSS, military, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_identifier_conflict",
+      "started_at": "2026-09-13T22:00:00Z",
+      "completed_at": "2026-09-13T23:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The exact-name Army row has a different private identifier. Other common-name results have no Box 157 or OSS bridge.",
+      "research_notes": "The Army candidate is retained as an ambiguity, not promoted. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 157 and original identifier evidence to resolve the candidate.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch504-v1"
+    },
+    {
+      "key": "b504-rodolfo-e-cueva",
+      "person_id": "40bd9b2d-264e-5842-9499-10ae6eaf98d3",
+      "source_adapter": "reviewed_official_bulk_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 100; complete Army exact-name comparison; CIA and current Library of Congress checks; Rodolfo E. Cueva exact-name OSS, military, employer, occupation, obituary, cemetery, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_name_only_army_candidate",
+      "started_at": "2026-09-13T22:00:00Z",
+      "completed_at": "2026-09-13T23:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The exact-name Army row lacks an index identifier or direct OSS bridge. Discovery-only family-history material cannot be final evidence.",
+      "research_notes": "A plausible candidate is preserved for archival resolution but no Army career or employer is published. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 157 for identifiers and biographical selectors.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch504-v1"
+    },
+    {
+      "key": "b504-domingo-cuevas",
+      "person_id": "bc53e536-8919-59cb-b760-64d9928a0847",
+      "source_adapter": "reviewed_official_bulk_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 100; complete Army exact-name comparison; CIA and current Library of Congress checks; Domingo Cuevas exact-name OSS, military, employer, occupation, obituary, Philippine wartime, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_short_identifier_unresolved",
+      "started_at": "2026-09-13T22:00:00Z",
+      "completed_at": "2026-09-13T23:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Common-name wartime and guerrilla references lack the printed value, Box 157, OSS linkage, and corroborating identity selectors.",
+      "research_notes": "Minimum protocol completed without reliable identity or employer evidence. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 157 to interpret the short printed value and establish identity and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch504-v1"
+    },
+    {
+      "key": "b504-mario-j-cugia",
+      "person_id": "8d9ac81b-e576-5636-9f1c-cbababa88946",
+      "source_adapter": "reviewed_official_bulk_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 100; complete Army exact-identifier and exact-name comparison; CIA and current Library of Congress checks; Mario J. Cugia exact-name OSS, Operational Groups, printing, publishing, employer, directory, obituary, institutional and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_exact_identifier_occupation_only",
+      "started_at": "2026-09-13T22:00:00Z",
+      "completed_at": "2026-09-13T23:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Postwar printing-directory and professional-association results do not establish pre-1943 employment. A secondary OSS Operational Groups roster supports wartime context, not the earlier employer.",
+      "research_notes": "Exact Army identifier match supports a qualified occupation only. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 157 for the Army-to-OSS sequence and named printing or publishing employer.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch504-v1"
+    },
+    {
+      "key": "b504-saburo-cujow",
+      "person_id": "18dff061-47dd-532d-aed9-95e1affef495",
+      "source_adapter": "reviewed_official_bulk_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 100; complete Army exact-name comparison; CIA and current Library of Congress checks; Saburo Cujow exact-name and Cujow, Cujo, Cujon variants with OSS, military, employer, occupation, obituary, institutional and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_unusual_spelling_unresolved",
+      "started_at": "2026-09-13T22:00:00Z",
+      "completed_at": "2026-09-13T23:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Variant spellings returned unrelated or context-free results and no source supplied a Box 158, nationality, employer, or OSS bridge.",
+      "research_notes": "Minimum protocol adapted for an unusual or possibly variant spelling. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 158 for original spelling, aliases, nationality and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch504-v1"
+    },
+    {
+      "key": "b504-frederick-c-culbert",
+      "person_id": "4301edb6-d672-55ee-8659-abad726ee17d",
+      "source_adapter": "reviewed_official_bulk_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 100; complete Army exact-name comparison; CIA and current Library of Congress checks; Frederick C. Culbert exact-name OSS, military, employer, occupation, obituary, Canadian airman, institutional and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_adjacent_namesake_unresolved",
+      "started_at": "2026-09-13T22:00:00Z",
+      "completed_at": "2026-09-13T23:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "A Canadian flying-officer namesake and partial-name results lack a Box 158 or OSS bridge. The adjacent Frederick P. Culbert record is not a duplicate by name similarity alone.",
+      "research_notes": "Minimum protocol completed without reliable identity or employer evidence. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 158 and keep this row separate from Frederick P. Culbert unless direct evidence supports a merge.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch504-v1"
+    },
+    {
+      "key": "b504-frederick-p-culbert",
+      "person_id": "2434a0ca-c538-572c-be3b-dde55a2b03dd",
+      "source_adapter": "reviewed_official_bulk_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 100; complete Army exact-name comparison; CIA and current Library of Congress checks; Frederick P. Culbert exact-name OSS, GYMNAST, TORCH, Foreign Service, vice consul, Casablanca, Dakar, Navy, business executive, employer, obituary, institutional and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_distinctive_name_direct_official_pathway",
+      "started_at": "2026-09-13T22:00:00Z",
+      "completed_at": "2026-09-13T23:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 18,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Postwar and modern business namesakes do not establish pre-OSS employment. A Harvard Law School search snippet joined text belonging to a different person and was rejected. No source names Culbert's earlier firms.",
+      "research_notes": "Direct wartime and Foreign Service evidence supports a high-confidence immediate government pathway, earlier Navy service and unnamed business-executive work. Casablanca versus Dakar remains explicit. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 158 to resolve the location conflict, exact OSS assignment, Naval Reserve status and unnamed private employers.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch504-v1"
+    },
+    {
+      "key": "b504-jane-culbertson",
+      "person_id": "aaf1d806-5ddb-580b-af22-e83861cd2c09",
+      "source_adapter": "reviewed_official_bulk_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 100; complete Army exact-name comparison; CIA and current Library of Congress checks; Jane Culbertson exact-name OSS, wartime government, employer, occupation, obituary, institutional, newspaper and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_no_identifier_unresolved",
+      "started_at": "2026-09-13T22:00:00Z",
+      "completed_at": "2026-09-13T23:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The LoC page is an OCR token collision, not a Jane Culbertson mention. Other namesakes lack a Box 158 or OSS bridge.",
+      "research_notes": "Minimum protocol completed without reliable identity or employer evidence. No authenticated NARA Catalog API request was made.",
+      "next_action": "Review Box 158 for full identity, status, assignment and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch504-v1"
+    }
+  ]
+}
