@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T04:15:03+00:00",
+  "generated_at": "2026-09-14T04:53:21+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -26,8 +26,8 @@
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
-    "1": 73,
-    "2": 63,
+    "1": 72,
+    "2": 64,
     "3": 28,
     "4": 36
   },
@@ -35,8 +35,8 @@
     "ambiguous": 5,
     "confirmed": 5,
     "conflicting": 10,
-    "high_confidence": 26,
-    "probable": 3,
+    "high_confidence": 25,
+    "probable": 4,
     "unresolved": 151
   },
   "research_status_counts": {
@@ -44,13 +44,13 @@
     "conflicting_sources": 10,
     "documented_prewar_employer_found": 2,
     "in_progress": 2,
-    "needs_identity_review": 5,
+    "needs_identity_review": 6,
     "needs_temporal_review": 2,
     "no_reliable_result_after_protocol": 1,
     "not_started": 130,
     "occupation_only_found": 6,
     "requires_archival_review": 29,
-    "verified_employer_found": 9
+    "verified_employer_found": 8
   },
   "special_strata_counts": {
     "commissioned": 30,
@@ -59,8 +59,8 @@
     "allied_or_foreign": 20,
     "incomplete_or_initial_only_name": 20,
     "possible_duplicate_group": 31,
-    "confirmed_or_high_published_claim": 28,
-    "medium_published_claim": 12,
+    "confirmed_or_high_published_claim": 27,
+    "medium_published_claim": 13,
     "conflicting_published_claim": 10,
     "unresolved_identity": 151
   },
@@ -90,9 +90,9 @@
     "80da73bc-ef68-590b-98c3-4dfbd971b03f",
     "21c878e1-cfbe-598b-86ab-023aa190f643",
     "5d8b3ae5-ea98-51eb-b4e0-fce85c3c0564",
+    "a4bea9af-3408-58c6-b0d4-f55dc126e656",
     "c3328cd1-5357-552b-9644-af1edd47843a",
     "bcfb9ef0-8447-55c1-8dbd-2e6612f80392",
-    "63d92813-94cd-578e-942a-c2bdc37a92d8",
     "37fcd0dc-b987-53ef-9934-7f6038b8aacc",
     "d69d0769-f276-56bf-8383-b0d369a7c12a",
     "1a8af78c-0f00-5268-a07d-a4109341012f",
@@ -117,13 +117,13 @@
     "342ecd8d-85bb-5c7c-ab27-709c7bc95573",
     "287d7392-923f-5771-9313-322ba7ae9601",
     "4ffef693-4365-5a93-97dd-679c33c4abb8",
+    "fc2db5cc-62a0-5a20-a340-b5d44d755dcc",
     "69d70558-05a9-5351-9194-5c706f75ee1a",
     "69a1cad0-11ef-5391-9489-751d74f28539",
     "6d812892-46d2-5de5-8c65-cd9264901268",
     "5e189335-60ca-50c9-b214-ae8f39b981db",
     "37ea2669-6cb0-53ba-b88d-f47577d4eb99",
     "59596457-3383-5bce-9046-757979567629",
-    "0d912f02-fd91-58a0-84ed-fc5bb2c58469",
     "fe52d758-d6dd-5890-bf81-b66c092e7b5e",
     "77c4394e-748a-5cc8-944e-10fae7af4791",
     "d5ae5010-380a-5892-adb2-86b5396651aa",
@@ -244,9 +244,9 @@
     "62b6d235-8e31-5c3a-ac37-cdd983a61651",
     "a4484c10-06bb-5af0-a3a6-c57b30bef1a1",
     "422f8f54-99bb-5d29-8bdb-7fecf6636e0e",
-    "fc2db5cc-62a0-5a20-a340-b5d44d755dcc",
     "ed85c4d6-8e49-5752-afde-7c5eea5f273d",
     "3847bf8c-3f23-53db-9336-0acf281168cb",
+    "0d912f02-fd91-58a0-84ed-fc5bb2c58469",
     "7fd2df90-8f0a-5177-8cac-da63dbe1f43d",
     "c7b2f044-9e84-5e2e-8eaa-cba01581d249",
     "e93e5ecb-8c29-5043-a0cb-dbe9d1b9e6b1",
