@@ -149,12 +149,12 @@ Research resumes with page 103 row 42, John P Dalberg, in Box 164.
 
 ## Release boundary
 
-This local release candidate is validated but not yet pushed or deployed. The
-current live release is Batch 518 at immutable content commit
-`1c9415fe3ab956b4a50c63bf448cce7f778e3f29`. Main Test run 34836398672 and
-Pages run 34836398561 succeeded, and the verifier matched all 67 manifest
-assets, 91,866,826 manifest bytes, seven core routes and ten direct profiles.
-The research goal remains active because 18,983 person entities have not yet
-started the protocol. The generated entity-resolution report retains its
+Pull request #215 was merged as immutable content commit
+`424e796932071b601ea03c921c184fea5c02de9b`. Main Test run 34838701167 and
+Pages run 34838701188 succeeded. The deployed verifier matched all 67 manifest
+assets, 91,915,517 manifest bytes, seven core routes and ten direct Batch 519
+profiles at <https://therealjameswilson.github.io/before-oss/>. The research
+goal remains active because 18,983 person entities had not yet started the
+protocol at this release. The generated entity-resolution report retains its
 pre-existing warning that not every possible duplicate group is marked for
 manual review; Batch 519 creates no new merge or silent conflation.

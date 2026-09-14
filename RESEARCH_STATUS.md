@@ -2,7 +2,25 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
-Batch 519 is a validated local release candidate. It adds ten saved outcomes
+Batch 520 is a validated local release candidate. It adds ten saved outcomes
+for personnel-index PDF page 103 rows 42-46 and page 104 rows 1-5, John P
+Dalberg through Lucille Dalious, all in Box 164. Exact private-identifier
+evidence confirms John P Dalberg, Ernest D'Alessandro, Giuseppe D'Alessandro
+and James B Dalgliesh and supports only qualified Army-entry occupations,
+never named employers. Independent contemporary and official sources support
+a high-confidence Lucille Dalious identity, a 1939 Southern Methodist
+University student affiliation and a stenographer-or-typist occupation at
+1943 Army entry; the university is not mislabeled as her employer. Five
+identities remain ambiguous or unresolved. Exact coverage is 4,967 / 23,940
+researched, 566 verified affiliations, 252 verified employers, 4,922 archival
+dispositions assessed and 18,973 `not_started`. All 94 Python tests, 57 focused
+checks, 18 bounded core checks, 6 analysis checks and 27 axe cases pass. The
+24,632-artifact build is deterministic and the privacy, link, profile and
+dependency audits pass. See
+`reports/release_batch_520.md` and
+`research/batch-520-discovery-checkpoint.md`.
+
+Batch 519 is the current verified public release. It adds ten saved outcomes
 for personnel-index PDF page 103 rows 32-41, Rose Daigle through Edward J
 Dajewski, all in Box 164. Exact private-identifier evidence confirms Alfred P
 Daignault and Pat H Dailey and supports only qualified automobile-manufacturing
@@ -15,11 +33,15 @@ retained while a psychiatrist namesake remains unassigned; six other identities
 remain unresolved. All 94 Python tests, 51 focused checks, 18 bounded core
 checks, 6 analysis checks and 27 axe cases pass. Exact coverage is 4,957 /
 23,940 researched, 565 verified affiliations, 252 verified employers, 4,912
-archival dispositions assessed and 18,983 `not_started`. See
+archival dispositions assessed and 18,983 `not_started`. Pull request #215 was
+merged as commit `424e796932071b601ea03c921c184fea5c02de9b`; main Test run
+34838701167 and Pages run 34838701188 succeeded. The live verifier matched all
+67 manifest assets, 91,915,517 manifest bytes, seven core routes and ten direct
+Batch 519 profiles. See
 `reports/release_batch_519.md` and
 `research/batch-519-discovery-checkpoint.md`.
 
-Batch 518 is the current verified public release. It adds ten saved outcomes
+Batch 518 is an earlier verified public release. It adds ten saved outcomes
 for personnel-index PDF page 103 rows 22-31, Dorothy J Dahl through Richard J
 Daigle Jr., crossing from Box 163 to Box 164. A direct OSS staff publication
 identifies Duke University as Bingham Dai's institution before government
