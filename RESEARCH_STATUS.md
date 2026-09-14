@@ -2,7 +2,26 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
-Batch 520 is a validated local release candidate. It adds ten saved outcomes
+Batch 521 is a validated local release candidate. It adds ten saved outcomes
+for eleven immutable personnel-index rows on PDF page 104 rows 6-16, Amando
+Dalisay through Edward F Daly, spanning Boxes 164-165. Exact private-
+identifier evidence confirms John E Dally, Ronald E Dalrymple, Robert A
+Dalton, Dennis D Daly and Edward F Daly and supports only qualified Army-entry
+student or occupation findings, never named employers. Contemporary Harvard
+and official Philippine institutional sources support a probable Amando
+Dalisay identity and two documented student affiliations; both remain medium-
+confidence findings and neither institution is mislabeled as an employer.
+James W Dallas and Donald D Daly remain ambiguous, while Miguel S Dalmau and
+Earle J Daly remain unresolved. Exact coverage is 4,977 / 23,940 researched,
+566 verified affiliations, 252 verified employers, 4,932 archival
+dispositions assessed and 18,963 `not_started`. All 94 Python tests, 48
+focused checks, 18 bounded core checks, 6 analysis checks and 27 axe cases
+pass. The 24,633-artifact build is deterministic and the privacy, link,
+profile, source-URL and dependency audits pass. See
+`reports/release_batch_521.md` and
+`research/batch-521-discovery-checkpoint.md`.
+
+Batch 520 is the current verified public release. It adds ten saved outcomes
 for personnel-index PDF page 103 rows 42-46 and page 104 rows 1-5, John P
 Dalberg through Lucille Dalious, all in Box 164. Exact private-identifier
 evidence confirms John P Dalberg, Ernest D'Alessandro, Giuseppe D'Alessandro
@@ -18,9 +37,13 @@ checks, 18 bounded core checks, 6 analysis checks and 27 axe cases pass. The
 24,632-artifact build is deterministic and the privacy, link, profile and
 dependency audits pass. See
 `reports/release_batch_520.md` and
-`research/batch-520-discovery-checkpoint.md`.
+`research/batch-520-discovery-checkpoint.md`. Pull request #216 was merged as
+commit `233e589e42acf2d3de3de5447322d190fea3a131`; main Test run 34842352950
+and Pages run 34842353061 succeeded. The live verifier matched all 67 manifest
+assets, 92,009,768 manifest bytes, seven core routes and ten direct Batch 520
+profiles.
 
-Batch 519 is the current verified public release. It adds ten saved outcomes
+Batch 519 is an earlier verified public release. It adds ten saved outcomes
 for personnel-index PDF page 103 rows 32-41, Rose Daigle through Edward J
 Dajewski, all in Box 164. Exact private-identifier evidence confirms Alfred P
 Daignault and Pat H Dailey and supports only qualified automobile-manufacturing
