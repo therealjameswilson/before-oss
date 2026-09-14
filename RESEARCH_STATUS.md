@@ -2,7 +2,7 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
-Batch 512 is a validated local research checkpoint. It adds ten terminal saved
+Batch 512 is the current verified public release. It adds ten terminal saved
 outcomes for personnel-index PDF page 102 rows 8-17, Joseph T Curtis through
 John S Curtiss, all in Box 161. Exact private-identifier evidence confirms
 Leslie S Curtis and Reid H Curtis as enlisted Army personnel; Reid's `Student`
@@ -15,9 +15,12 @@ Library last-civilian-employer claim. Paul M Curtis and Richard R Curtis remain
 ambiguous; four others remain unresolved. All twelve Library of Congress
 candidates were rejected after full-page review. Exact coverage is 4,888 /
 23,940 researched, 554 verified affiliations, 246 verified employers, 4,843
-archival dispositions assessed and 19,052 `not_started`. Batch 512 is not yet
-pushed or deployed. See `reports/release_batch_512.md` and
-`research/batch-512-discovery-checkpoint.md`.
+archival dispositions assessed and 19,052 `not_started`. Pull request #203 was
+merged as commit `df7ec8e690aaa680d7e67acc0adc4cb0efd43453`; PR test run
+34808180867, main test run 34808571853 and Pages run 34808571838 succeeded.
+The live verifier matched all 67 manifest assets (91,221,402 bytes), seven core
+routes and ten direct Batch 512 profiles to that commit. See
+`reports/release_batch_512.md` and `research/batch-512-discovery-checkpoint.md`.
 
 Batch 511 is the current verified public release. It adds ten terminal saved
 outcomes for personnel-index PDF page 101 rows 44-46 and page 102 rows 1-7,

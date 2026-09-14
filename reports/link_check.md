@@ -17,8 +17,9 @@ the 24,625-file production-tree digest is
 A second exact public-data and Pages build reproduced both trees. Seven bundle
 sources support qualified outcomes for Leslie S Curtis, Reid H Curtis, Thomas
 L Curtis and John S Curtiss; twelve Library of Congress candidates were
-rejected after page review. No authenticated Catalog request was used.
-Independent GitHub and deployed-site checks remain pending.
+rejected after page review. No authenticated Catalog request was used. PR and
+main-branch GitHub checks passed; the deployed verifier matched every manifest
+asset and all ten direct cohort profiles to the release commit.
 
 ## Batch 510 release candidate
 

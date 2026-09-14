@@ -15,7 +15,8 @@ passed 18/18 and the analysis suite passed 6/6 across the same viewports. The
 axe route suite passed 27/27 in 1.9 minutes. Astro checked 137 source files with
 zero errors, warnings or hints and generated 24,553 HTML pages / 24,625
 artifacts. A second exact public-data and Pages build reproduced both trees
-byte for byte. Independent GitHub checks remain pending.
+byte for byte. PR and main-branch GitHub checks passed, and Pages run
+34808571838 deployed the verified release.
 
 Batch 510: the focused cohort suite passed all 15 checks across desktop,
 phone and tablet. It verifies ten immutable page 101 rows; six masked private

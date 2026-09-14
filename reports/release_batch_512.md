@@ -147,10 +147,13 @@ Cusick, all in Box 161.
 
 ## Release boundary
 
-Batch 512 is a validated local research checkpoint and has not yet been pushed
-or deployed. No authenticated NARA Catalog API request was made. The research
-goal remains active because 19,052 person entities have not yet started the
-research protocol. The generated entity-resolution report retains its
-pre-existing warning that not every possible duplicate group is marked for
-manual review; Batch 512 creates no new duplicate group, merge or silent
-conflation.
+Batch 512 was merged in pull request #203 as commit
+`df7ec8e690aaa680d7e67acc0adc4cb0efd43453`. PR test run 34808180867, main test
+run 34808571853 and Pages run 34808571838 succeeded. The deployed verifier
+matched all 67 manifest assets (91,221,402 bytes), seven core routes and ten
+direct Batch 512 profiles to that commit. No authenticated NARA Catalog API
+request was made. The research goal remains active because 19,052 person
+entities have not yet started the research protocol. The generated entity-
+resolution report retains its pre-existing warning that not every possible
+duplicate group is marked for manual review; Batch 512 creates no new duplicate
+group, merge or silent conflation.
