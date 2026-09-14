@@ -4,6 +4,19 @@ Run: 2026-09-14 UTC
 
 ## Result
 
+Batch 524: the focused cohort suite passed all 45 checks across desktop,
+phone and tablet. It verifies ten immutable rows across pages 104-105; three
+masked private values; two exact-identifier Army identities; one qualified
+student finding and one qualified mining-occupation finding without employers;
+Gerard N D'Anglure's indexed French-captain classification; and eight
+unresolved external identities with Box 165 or Box 166 guidance. The bounded
+core suite passed 18/18 and the analysis suite passed 6/6 across the same
+viewports. The axe route suite passed 27/27 in 1.7 minutes. The clean publish
+tree's Astro check covered 149 source files with zero errors, warnings or
+hints and generated 24,561 HTML pages / 24,633 artifacts. Three consecutive
+builds from the same public assets reproduced both trees byte for byte.
+Independent GitHub and deployed-site checks remain pending until publication.
+
 Batch 523: the focused cohort suite passed all 45 checks across desktop,
 phone and tablet. It verifies ten immutable page 104 rows; five masked private
 values; four exact-identifier Army identities; two qualified occupation-only
@@ -15,8 +28,9 @@ route suite passed 27/27 in 1.7 minutes. The clean publish tree's Astro check
 covered 148 source files with
 zero errors, warnings or hints and generated 24,561 HTML pages / 24,633
 artifacts. Three consecutive builds from the same public assets reproduced
-both trees byte for byte. Independent GitHub and deployed-site checks remain
-pending until publication.
+both trees byte for byte. PR Test run 34858254253, main Test run 34859041025
+and Pages run 34859041152 passed; the live verifier matched every manifest
+asset, core route and direct cohort profile.
 
 Batch 522: the focused cohort suite passed all 48 checks across desktop,
 phone and tablet. It verifies eleven immutable page 104 rows; four unique

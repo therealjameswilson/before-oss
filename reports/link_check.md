@@ -2,6 +2,24 @@
 
 Run: 2026-09-14 UTC
 
+## Batch 524 release candidate
+
+All internal targets resolve across 24,561 HTML pages; 49,920 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,633 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,102
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 92,203,485 bytes at
+SHA-256 `ec5422224c6a43c81e2121658f0fb8fe32d26d2604dba940927c46782e612f05`.
+Under the relative-path/content digest, the 70-file public tree is
+`f4b4d9cbd221daca596c83b2c2e69c29e111b1cd04d30f1a56ed747a7045256b`;
+the 24,633-file production tree is
+`a56bedc0915a377677f97ad9cdc293077c3eb7f8bb93f21b4a8b268e2db7e12a`.
+Three consecutive Pages builds reproduced both trees. Four bundle sources
+support two identity claims and two qualified student-or-occupation claims;
+seven Library of Congress candidates were rejected after official OCR-context
+review. No authenticated Catalog request was used. Independent GitHub and
+deployed-site checks remain pending until publication.
+
 ## Batch 523 release candidate
 
 All internal targets resolve across 24,561 HTML pages; 49,920 external URLs
@@ -19,8 +37,9 @@ the 24,633-file production tree is
 Three consecutive Pages builds reproduced both trees. Four bundle sources
 support four identity claims and two qualified occupation claims; six Library
 of Congress candidates were rejected after official OCR-context review. No
-authenticated Catalog request was used. Independent GitHub and deployed-site
-checks remain pending.
+authenticated Catalog request was used. PR Test run 34858254253, main Test run
+34859041025 and Pages run 34859041152 passed; the live verifier matched all 67
+manifest assets and ten direct cohort profiles.
 
 ## Batch 522 release candidate
 
