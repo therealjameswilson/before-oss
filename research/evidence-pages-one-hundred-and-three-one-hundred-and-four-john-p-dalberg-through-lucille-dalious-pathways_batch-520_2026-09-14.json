@@ -1,0 +1,981 @@
+{
+  "bundle_version": "before-oss-batch520-v1",
+  "reviewer": "Codex archival review",
+  "sources": [
+    {
+      "key": "index-b520",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; PDF page 103 rows 42-46 and page 104 rows 1-5 visually inspected; Box 164; location 230/86/29/05",
+      "access_date": "2026-09-14",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Citation and project-authored assessments only. Seven printed private values are withheld from public claims and exports. Indexed spelling, punctuation, and empty rank fields are preserved."
+    },
+    {
+      "key": "army-b520",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official ASNEF.FIN.DAT; complete transient scan of 9,200,232 fixed-width records; four exact-private-identifier matches and two exact-name-only match sets; identifiers withheld",
+      "access_date": "2026-09-14",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full private identifier is retained. The incomplete file is not a comprehensive OSS, officer, Navy, Marine Corps, civilian, WAC, or foreign roster; a non-hit is not negative proof."
+    },
+    {
+      "key": "basic-b520",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; fixed-width identifier, name, residence, birth-year, Army-entry-date, grade and civilian-occupation fields checked; date format DD/MM/YY",
+      "access_date": "2026-09-14",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields and documented coverage limits."
+    },
+    {
+      "key": "codes-b520",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Code Lists",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "Civilian-occupation entries 0-72 and 1-37 visually checked on PDF physical page 171; skill-level notes and entries 4,6,8-55 and 4,6,8-57 visually checked on physical page 173",
+      "access_date": "2026-09-14",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical grouped occupations identify neither a specific employer nor the sequence from Army service to OSS."
+    },
+    {
+      "key": "gamma-phi-beta-b520",
+      "stable_url": "https://www.gpbarchives.org/wp-content/uploads/2017/07/1939_December.pdf",
+      "archival_identifier": "The Crescent, volume 40, number 2",
+      "title": "The Crescent of Gamma Phi Beta",
+      "author_creator": "Gamma Phi Beta",
+      "repository_publisher": "Gamma Phi Beta International Sorority archives",
+      "publication_record_date": "1939-12",
+      "locator": "Printed page 44; PDF physical page 46; Alpha Xi, Southern-Methodist University",
+      "access_date": "2026-09-14",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "The Crescent archive",
+      "rights_notes": "Only a short supporting excerpt and project-authored paraphrase are retained. A sorority pledge is modeled as student affiliation, never as employment."
+    },
+    {
+      "key": "dallas-directory-b520",
+      "stable_url": "https://texashistory.unt.edu/ark:/67531/metapth806920/m1/247/",
+      "archival_identifier": "UNT Digital Library ark:/67531/metapth806920/m1/247",
+      "title": "Dallas City Directory, 1939",
+      "author_creator": "R. L. Polk & Co.",
+      "repository_publisher": "The Portal to Texas History, University of North Texas Libraries",
+      "publication_record_date": "1939",
+      "locator": "Printed page 243; image 247; Dalious entries visually checked",
+      "access_date": "2026-09-14",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Dallas City Directories",
+      "rights_notes": "The source is used only to corroborate Lucille Dalious in Dallas. The private street address is not reproduced in public claims, notes, or downloads."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "southern-methodist-university-b520",
+      "canonical_name": "Southern Methodist University",
+      "historical_name": "Southern-Methodist University",
+      "aliases": [
+        "SMU",
+        "S.M.U.",
+        "Southern-Methodist University"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Dallas",
+      "state_or_region": "Texas",
+      "country": "United States",
+      "active_dates": "Founded 1911",
+      "normalization_notes": "The 1939 institutional periodical prints Southern-Methodist University. The historical wording is preserved separately from the current canonical spacing."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "john-p-dalberg-petroleum-refining-b520",
+      "person_id": "1e53babf-16ab-5529-a74a-1d944e8d413f",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Skilled petroleum-refining occupation",
+      "occupation": "Occupations in refining of petroleum",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-08-07",
+      "date_precision": "Civilian-occupation value 455 was recorded at Army entry on 7 August 1943. NARA's table places 4,6,8-55 in petroleum refining and defines initial digit 4 as skilled; no specific trade, employer, plant, start date, or Army-to-OSS sequence is identified.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier and exact name confirm the Army row. The occupation group is not converted into a specific employer."
+    },
+    {
+      "key": "ernest-dalessandro-rubber-production-b520",
+      "person_id": "f6438eed-0236-5098-853b-3f976a314cea",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Semiskilled rubber-goods production occupation",
+      "occupation": "Occupations in production of rubber goods",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-08-12",
+      "date_precision": "Civilian-occupation value 657 was recorded at Army entry on 12 August 1942. NARA's table places 4,6,8-57 in rubber-goods production and defines initial digit 6 as semiskilled; no employer, plant, start date, or Army-to-OSS sequence is identified.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier confirms the row despite Ernest in the index and Ernesto in the Army file. The grouped occupation is not a named employer."
+    },
+    {
+      "key": "giuseppe-dalessandro-retail-manager-b520",
+      "person_id": "477143b5-c899-5111-ab9d-9895d74ad1ea",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Retail manager",
+      "occupation": "Retail managers",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-09-21",
+      "date_precision": "Civilian-occupation value 072 was recorded at Army entry on 21 September 1942. NARA's table defines 0-72 as Retail managers; no store, employer, start date, or Army-to-OSS sequence is identified.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier confirms the row despite the Army file's Guiseppe spelling. Retail manager is an occupation, not a named employer."
+    },
+    {
+      "key": "james-b-dalgliesh-retail-manager-b520",
+      "person_id": "751fb3d4-7e8c-5278-933a-a5f33d70fe68",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Retail manager",
+      "occupation": "Retail managers",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-10-09",
+      "date_precision": "Civilian-occupation value 072 was recorded at Army entry on 9 October 1943. NARA's table defines 0-72 as Retail managers; no store, employer, start date, or Army-to-OSS sequence is identified.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier confirms the row despite Dalgliesh in the index and Delgliesh in the Army file. Retail manager is not a named employer."
+    },
+    {
+      "key": "lucille-dalious-smu-student-b520",
+      "person_id": "5f351eb8-9fa1-537e-96a0-02082a43e8c5",
+      "organization_key": "southern-methodist-university-b520",
+      "organization_name_as_found": "Southern-Methodist University",
+      "role_title": "Student and Alpha Xi pledge",
+      "occupation": "Student",
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "1939",
+      "date_precision": "The December 1939 issue lists Lucille Dalious of Dallas among Alpha Xi's pledges under Southern-Methodist University. The exact pledge or enrollment dates are not stated.",
+      "city": "Dallas",
+      "state_or_region": "Texas",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Pledge status within the university chapter is modeled as student affiliation. No employment by Southern Methodist University and no immediate transition to OSS are inferred."
+    },
+    {
+      "key": "lucille-dalious-stenographer-b520",
+      "person_id": "5f351eb8-9fa1-537e-96a0-02082a43e8c5",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Stenographer or typist",
+      "occupation": "Stenographers and typists",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-05-15",
+      "date_precision": "The sole exact-name Army row records civilian-occupation value 137 at Army entry on 15 May 1943. NARA's table defines 1-37 as Stenographers and typists; no employer, office, start date, or Army-to-OSS sequence is identified.",
+      "city": "Dallas",
+      "state_or_region": "Texas",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The rare exact name, Texas Army residence, 1939 Dallas directory, and 1939 SMU chapter record support the identity at high confidence. An occupational code does not identify an employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "john-p-dalberg-confirmed-identity-b520",
+      "person_id": "1e53babf-16ab-5529-a74a-1d944e8d413f",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed John P. Dalberg is confirmed as the same enlisted soldier recorded in the official Army merged file.",
+      "evidence_excerpt": "DALBERG JOHN P",
+      "evidence_paraphrase": "The exact private identifier and exact indexed name select one Army row dated 7 August 1943.",
+      "identity_match_assessment": "Confirmed by a unique private identifier and exact full name; the full value is withheld from public data.",
+      "temporal_assessment": "The Army record dates entry to 7 August 1943. The later Army-to-OSS sequence is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "No public namesake was assigned without the private identifier or an OSS file bridge.",
+      "sources": [
+        {
+          "source_key": "index-b520",
+          "support_type": "supports",
+          "locator_override": "PDF page 103, row 42; Box 164; identifier withheld",
+          "excerpt_override": "DALBERG JOHN P"
+        },
+        {
+          "source_key": "army-b520",
+          "support_type": "supports",
+          "locator_override": "Exact-private-identifier and exact-name row; Army entry 7 August 1943; identifier withheld",
+          "excerpt_override": "DALBERG JOHN P"
+        },
+        {
+          "source_key": "basic-b520",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "john-p-dalberg-occupation-b520",
+      "person_id": "1e53babf-16ab-5529-a74a-1d944e8d413f",
+      "affiliation_key": "john-p-dalberg-petroleum-refining-b520",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on August 7, 1943, John P. Dalberg's civilian occupation was recorded in the skilled petroleum-refining group.",
+      "evidence_excerpt": "4, 6, 8-55. Occupations in refining of petroleum",
+      "evidence_paraphrase": "The identifier-matched Army row carries civilian-occupation value 455; NARA's table supplies the petroleum-refining group and skilled initial digit.",
+      "identity_match_assessment": "Confirmed by exact private identifier and exact full name.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; relation to OSS recruitment is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No specific trade, employer, refinery, or workplace is inferred from the grouped occupation.",
+      "sources": [
+        {
+          "source_key": "army-b520",
+          "support_type": "supports",
+          "locator_override": "Exact-private-identifier row; occupation value 455; Army entry 7 August 1943; identifier withheld",
+          "excerpt_override": "DALBERG JOHN P"
+        },
+        {
+          "source_key": "codes-b520",
+          "support_type": "supports",
+          "locator_override": "Skill-level note and entry 4,6,8-55; PDF physical page 173",
+          "excerpt_override": "4 and 5 indicate the skilled levels; 4, 6, 8-55. Occupations in refining of petroleum"
+        },
+        {
+          "source_key": "basic-b520",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "ernest-dalessandro-confirmed-identity-b520",
+      "person_id": "f6438eed-0236-5098-853b-3f976a314cea",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Ernest D'Alessandro is confirmed as the enlisted soldier recorded as Ernesto Dalessandro in the official Army merged file.",
+      "evidence_excerpt": "DALESSANDRO ERNESTO",
+      "evidence_paraphrase": "The exact private identifier selects one Army row despite the Ernest-versus-Ernesto and punctuation differences.",
+      "identity_match_assessment": "Confirmed by a unique private identifier; the name difference is preserved as a variant and the full identifier is withheld.",
+      "temporal_assessment": "The Army record dates entry to 12 August 1942. The later Army-to-OSS sequence is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The Army form is not silently substituted for the indexed name.",
+      "sources": [
+        {
+          "source_key": "index-b520",
+          "support_type": "supports",
+          "locator_override": "PDF page 103, row 44; Box 164; identifier withheld",
+          "excerpt_override": "D'ALESSANDRO ERNEST"
+        },
+        {
+          "source_key": "army-b520",
+          "support_type": "supports",
+          "locator_override": "Exact-private-identifier row; Army entry 12 August 1942; identifier withheld",
+          "excerpt_override": "DALESSANDRO ERNESTO"
+        },
+        {
+          "source_key": "basic-b520",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "ernest-dalessandro-occupation-b520",
+      "person_id": "f6438eed-0236-5098-853b-3f976a314cea",
+      "affiliation_key": "ernest-dalessandro-rubber-production-b520",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on August 12, 1942, Ernest D'Alessandro's civilian occupation was recorded in the semiskilled rubber-goods production group.",
+      "evidence_excerpt": "4, 6, 8-57. Occupations in production of rubber goods",
+      "evidence_paraphrase": "The identifier-matched Army row carries civilian-occupation value 657; NARA's table supplies the rubber-goods group and semiskilled initial digit.",
+      "identity_match_assessment": "Confirmed by exact private identifier despite the recorded first-name variant.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; relation to OSS recruitment is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No specific trade, employer, plant, or workplace is inferred from the grouped occupation.",
+      "sources": [
+        {
+          "source_key": "army-b520",
+          "support_type": "supports",
+          "locator_override": "Exact-private-identifier row; occupation value 657; Army entry 12 August 1942; identifier withheld",
+          "excerpt_override": "DALESSANDRO ERNESTO"
+        },
+        {
+          "source_key": "codes-b520",
+          "support_type": "supports",
+          "locator_override": "Skill-level note and entry 4,6,8-57; PDF physical page 173",
+          "excerpt_override": "6 and 7 indicate the semiskilled levels; 4, 6, 8-57. Occupations in production of rubber goods"
+        },
+        {
+          "source_key": "basic-b520",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "giuseppe-dalessandro-confirmed-identity-b520",
+      "person_id": "477143b5-c899-5111-ab9d-9895d74ad1ea",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Giuseppe D'Alessandro is confirmed as the enlisted soldier recorded as Guiseppe Dalessandro in the official Army merged file.",
+      "evidence_excerpt": "DALESSANDRO GUISEPPE",
+      "evidence_paraphrase": "The exact private identifier selects one Army row despite the transposed first-name letters and omitted apostrophe.",
+      "identity_match_assessment": "Confirmed by a unique private identifier; the spelling difference is preserved as a variant and the full identifier is withheld.",
+      "temporal_assessment": "The Army record dates entry to 21 September 1942. The later Army-to-OSS sequence is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The Army misspelling is exposed as a variant rather than replacing the indexed name.",
+      "sources": [
+        {
+          "source_key": "index-b520",
+          "support_type": "supports",
+          "locator_override": "PDF page 103, row 45; Box 164; identifier withheld",
+          "excerpt_override": "D'ALESSANDRO GIUSEPPE"
+        },
+        {
+          "source_key": "army-b520",
+          "support_type": "supports",
+          "locator_override": "Exact-private-identifier row; Army entry 21 September 1942; identifier withheld",
+          "excerpt_override": "DALESSANDRO GUISEPPE"
+        },
+        {
+          "source_key": "basic-b520",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "giuseppe-dalessandro-occupation-b520",
+      "person_id": "477143b5-c899-5111-ab9d-9895d74ad1ea",
+      "affiliation_key": "giuseppe-dalessandro-retail-manager-b520",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on September 21, 1942, Giuseppe D'Alessandro's civilian occupation was recorded as retail manager.",
+      "evidence_excerpt": "0-72. Retail managers",
+      "evidence_paraphrase": "The identifier-matched Army row carries civilian-occupation value 072; NARA's official code table defines that value as retail managers.",
+      "identity_match_assessment": "Confirmed by exact private identifier despite the Army first-name misspelling.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; relation to OSS recruitment is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No store, employer, or workplace is inferred from the occupation.",
+      "sources": [
+        {
+          "source_key": "army-b520",
+          "support_type": "supports",
+          "locator_override": "Exact-private-identifier row; occupation value 072; Army entry 21 September 1942; identifier withheld",
+          "excerpt_override": "DALESSANDRO GUISEPPE"
+        },
+        {
+          "source_key": "codes-b520",
+          "support_type": "supports",
+          "locator_override": "Entry 0-72; PDF physical page 171",
+          "excerpt_override": "0-72. Retail managers"
+        },
+        {
+          "source_key": "basic-b520",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "james-b-dalgliesh-confirmed-identity-b520",
+      "person_id": "751fb3d4-7e8c-5278-933a-a5f33d70fe68",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed James B. Dalgliesh is confirmed as the enlisted soldier recorded as James B. Delgliesh in the official Army merged file.",
+      "evidence_excerpt": "DELGLIESH JAMES B",
+      "evidence_paraphrase": "The exact private identifier selects one Army row despite the last-name vowel difference.",
+      "identity_match_assessment": "Confirmed by a unique private identifier; the Army spelling is preserved as a variant and the full identifier is withheld.",
+      "temporal_assessment": "The Army record dates entry to 9 October 1943. The later Army-to-OSS sequence is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The Army spelling is not silently substituted for the indexed spelling.",
+      "sources": [
+        {
+          "source_key": "index-b520",
+          "support_type": "supports",
+          "locator_override": "PDF page 104, row 4; Box 164; identifier withheld",
+          "excerpt_override": "DALGLIESH JAMES B"
+        },
+        {
+          "source_key": "army-b520",
+          "support_type": "supports",
+          "locator_override": "Exact-private-identifier row; Army entry 9 October 1943; identifier withheld",
+          "excerpt_override": "DELGLIESH JAMES B"
+        },
+        {
+          "source_key": "basic-b520",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "james-b-dalgliesh-occupation-b520",
+      "person_id": "751fb3d4-7e8c-5278-933a-a5f33d70fe68",
+      "affiliation_key": "james-b-dalgliesh-retail-manager-b520",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on October 9, 1943, James B. Dalgliesh's civilian occupation was recorded as retail manager.",
+      "evidence_excerpt": "0-72. Retail managers",
+      "evidence_paraphrase": "The identifier-matched Army row carries civilian-occupation value 072; NARA's official code table defines that value as retail managers.",
+      "identity_match_assessment": "Confirmed by exact private identifier despite the Army last-name variant.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; relation to OSS recruitment is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No store, employer, or workplace is inferred from the occupation.",
+      "sources": [
+        {
+          "source_key": "army-b520",
+          "support_type": "supports",
+          "locator_override": "Exact-private-identifier row; occupation value 072; Army entry 9 October 1943; identifier withheld",
+          "excerpt_override": "DELGLIESH JAMES B"
+        },
+        {
+          "source_key": "codes-b520",
+          "support_type": "supports",
+          "locator_override": "Entry 0-72; PDF physical page 171",
+          "excerpt_override": "0-72. Retail managers"
+        },
+        {
+          "source_key": "basic-b520",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "lucille-dalious-high-confidence-identity-b520",
+      "person_id": "5f351eb8-9fa1-537e-96a0-02082a43e8c5",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Lucille Dalious is identified at high confidence as the Dallas student and exact-name Women's Army Corps entrant documented in contemporary and official sources.",
+      "evidence_excerpt": "Lucille Dalious, Dallas, Texas",
+      "evidence_paraphrase": "A rare exact name, Dallas location, compatible 1939 student evidence, and the sole exact-name 1943 Army row align across independent sources.",
+      "identity_match_assessment": "High confidence: the exact rare name, Dallas linkage, Army residence, education, and chronology corroborate one another, but no unique public identifier bridges every source.",
+      "temporal_assessment": "The student sources date to 1939 and the Army row to 15 May 1943; the Army-to-OSS sequence is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The identification is qualified because the Army match is name- and context-based rather than a shared public identifier.",
+      "sources": [
+        {
+          "source_key": "index-b520",
+          "support_type": "supports",
+          "locator_override": "PDF page 104, row 5; Box 164; identifier withheld",
+          "excerpt_override": "DALIOUS LUCILLE"
+        },
+        {
+          "source_key": "army-b520",
+          "support_type": "supports",
+          "locator_override": "Sole exact-name row; Army entry 15 May 1943; Women's Army Corps auxiliary; occupation value 137; identifier withheld",
+          "excerpt_override": "DALIOUS LUCILLE"
+        },
+        {
+          "source_key": "gamma-phi-beta-b520",
+          "support_type": "supports",
+          "locator_override": "Printed page 44; PDF physical page 46; Alpha Xi, Southern-Methodist University",
+          "excerpt_override": "Lucille Dalious, Dallas, Texas"
+        },
+        {
+          "source_key": "dallas-directory-b520",
+          "support_type": "supports",
+          "locator_override": "Printed page 243; image 247; Dalious entries",
+          "excerpt_override": null
+        },
+        {
+          "source_key": "basic-b520",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "lucille-dalious-smu-student-claim-b520",
+      "person_id": "5f351eb8-9fa1-537e-96a0-02082a43e8c5",
+      "affiliation_key": "lucille-dalious-smu-student-b520",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "In 1939, Lucille Dalious was a Southern Methodist University student and an Alpha Xi pledge of Gamma Phi Beta.",
+      "evidence_excerpt": "Alpha Xi's pledges are: ... Lucille Dalious, Dallas, Texas",
+      "evidence_paraphrase": "Gamma Phi Beta's December 1939 institutional magazine lists Lucille Dalious of Dallas among the pledges of its Southern Methodist University chapter.",
+      "identity_match_assessment": "High confidence based on the rare exact name, Dallas directory corroboration, and compatible official Army chronology.",
+      "temporal_assessment": "Documented prewar student affiliation. It is not shown to be immediately before OSS service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Student and sorority status are not employment, and Southern Methodist University is not classified as her employer.",
+      "sources": [
+        {
+          "source_key": "gamma-phi-beta-b520",
+          "support_type": "supports",
+          "locator_override": "Printed page 44; PDF physical page 46; Alpha Xi, Southern-Methodist University",
+          "excerpt_override": "Alpha Xi's pledges are: ... Lucille Dalious, Dallas, Texas"
+        },
+        {
+          "source_key": "dallas-directory-b520",
+          "support_type": "context_only",
+          "locator_override": "Printed page 243; image 247; Dalious entries",
+          "excerpt_override": null
+        },
+        {
+          "source_key": "army-b520",
+          "support_type": "context_only",
+          "locator_override": "Sole exact-name row; Texas residence; Army entry 15 May 1943; identifier withheld",
+          "excerpt_override": "DALIOUS LUCILLE"
+        }
+      ]
+    },
+    {
+      "key": "lucille-dalious-occupation-b520",
+      "person_id": "5f351eb8-9fa1-537e-96a0-02082a43e8c5",
+      "affiliation_key": "lucille-dalious-stenographer-b520",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on May 15, 1943, Lucille Dalious's civilian occupation was recorded as stenographer or typist.",
+      "evidence_excerpt": "1-37. Stenographers and typists",
+      "evidence_paraphrase": "The sole exact-name Army row carries civilian-occupation value 137; NARA's official code table defines that value as stenographers and typists.",
+      "identity_match_assessment": "High confidence based on the rare exact name, Texas residence, 1939 Dallas directory, and 1939 SMU chapter record.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; relation to OSS recruitment is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, office, or workplace is inferred from the occupation.",
+      "sources": [
+        {
+          "source_key": "army-b520",
+          "support_type": "supports",
+          "locator_override": "Sole exact-name row; occupation value 137; Army entry 15 May 1943; identifier withheld",
+          "excerpt_override": "DALIOUS LUCILLE"
+        },
+        {
+          "source_key": "codes-b520",
+          "support_type": "supports",
+          "locator_override": "Entry 1-37; PDF physical page 171",
+          "excerpt_override": "1-37. Stenographers and typists"
+        },
+        {
+          "source_key": "gamma-phi-beta-b520",
+          "support_type": "context_only",
+          "locator_override": "Printed page 44; PDF physical page 46",
+          "excerpt_override": "Lucille Dalious, Dallas, Texas"
+        },
+        {
+          "source_key": "basic-b520",
+          "support_type": "context_only"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "1e53babf-16ab-5529-a74a-1d944e8d413f",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact private identifier and exact John P Dalberg name select one official Army record dated 7 August 1943. The full identifier remains private.",
+      "name_variants": [
+        "John P Dalberg",
+        "John P. Dalberg"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "The Army record supports only a skilled petroleum-refining occupation at 1943 entry. Review Box 164 for his specific trade, employer, refinery, Army unit, and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "239218cd-90f7-5691-8428-fcb850f16847",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The index supplies only Hope Dale, no middle identifier, rank, or service number, and Box 164. A 1943 Texas Tech student namesake and multiple biographical namesakes lack an OSS, archival, or unique-identifier bridge.",
+      "name_variants": [
+        "Hope Dale"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 164 to distinguish Hope Dale candidates and establish identity, personnel status, chronology, occupation, and employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "f6438eed-0236-5098-853b-3f976a314cea",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact private identifier links indexed Ernest D'Alessandro to one official Army row recorded as Ernesto Dalessandro and dated 12 August 1942. The spelling difference remains visible and the identifier remains private.",
+      "name_variants": [
+        "Ernest D'Alessandro",
+        "Ernest Dalessandro",
+        "Ernesto Dalessandro"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "The Army record supports only a semiskilled rubber-goods production category at 1942 entry. Review Box 164 for his specific job, employer, plant, and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "477143b5-c899-5111-ab9d-9895d74ad1ea",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact private identifier links indexed Giuseppe D'Alessandro to one official Army row recorded as Guiseppe Dalessandro and dated 21 September 1942. The misspelling remains visible and the identifier remains private.",
+      "name_variants": [
+        "Giuseppe D'Alessandro",
+        "Giuseppe Dalessandro",
+        "Guiseppe Dalessandro"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "The Army record supports retail manager status but no store or employer. Review Box 164 for the employing organization, city, Army unit, and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ccdc6027-ee0e-5b5e-9c13-9b9721294ff6",
+      "identity_status": "unresolved",
+      "identity_evidence": "No exact Army row or reliable accessible source linked Donald D Daley to Box 164 or established a pre-OSS occupation, employer, institution, or military pathway after official, CIA, Library of Congress, obituary, directory, and archival checks.",
+      "name_variants": [
+        "Donald D Daley",
+        "Donald D. Daley"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 164 to establish identity, personnel status, occupation, employer, and OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e3d99ad9-602d-5e49-9d52-efad9ee68629",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The index supplies John F Daley without rank or private identifier and Box 164. The complete Army file contains ten exact-name rows, none distinguishable by the index; five visually reviewed newspaper candidates concerned different initials, much earlier people, or OCR artifacts.",
+      "name_variants": [
+        "John F Daley",
+        "John F. Daley"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 164 for an identifier, age, hometown, Army unit, occupation, or employer that distinguishes the ten Army candidates.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "d24f062c-1d5f-5cb9-b868-cac337d78fbc",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies the common name Mary Daley, no rank, and Box 164. No exact Army row or accessible OSS source provides a unique identity bridge; a visually reviewed 1941 bridesmaid item shares only the name.",
+      "name_variants": [
+        "Mary Daley"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 164 to establish Mary's full identity, personnel status, occupation, employer, and OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b3b2fdf6-fde4-557c-9795-c2a26f3361ab",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The printed private identifier has no exact Army merged-file match. A 377th Infantry roster and a veteran burial record identify a wartime John H Dalgarn, but neither supplies the private identifier, OSS context, Box 164, or a pre-OSS chronology.",
+      "name_variants": [
+        "John H Dalgarn",
+        "John H. Dalgarn"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 164 and the original identifier context to test the 377th Infantry candidate and establish any Army-to-OSS pathway.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "751fb3d4-7e8c-5278-933a-a5f33d70fe68",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact private identifier links indexed James B Dalgliesh to one official Army row recorded as James B Delgliesh and dated 9 October 1943. The spelling difference remains visible and the identifier remains private.",
+      "name_variants": [
+        "James B Dalgliesh",
+        "James B. Dalgliesh",
+        "James B Delgliesh"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "The Army record supports retail manager status but no store or employer. Review Box 164 for the employing organization, city, Army unit, and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5f351eb8-9fa1-537e-96a0-02082a43e8c5",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare exact Lucille Dalious name appears in the index, the sole exact-name Army row, a 1939 Dallas directory, and Gamma Phi Beta's 1939 Southern Methodist University chapter report. Dallas, Texas Army residence, education, and chronology align, but no unique public identifier bridges every source.",
+      "name_variants": [
+        "Lucille Dalious",
+        "Dalious, Lucille"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "completed",
+      "next_action": "Student status at Southern Methodist University and a stenographer-or-typist occupation at Army entry are documented. Review Box 164 for her employer, exact WAC and OSS chronology, and whether either affiliation was immediate before OSS.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b520-john-p-dalberg",
+      "person_id": "1e53babf-16ab-5529-a74a-1d944e8d413f",
+      "source_adapter": "reviewed_official_bulk_loc_cia_and_web_sources",
+      "query_text": "NARA OSS index pages 103-104; complete Army exact-private-identifier comparison; CIA and current Library of Congress checks; John P. Dalberg exact-name OSS, petroleum refining, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_confirmed_identifier_identity_occupation_only",
+      "started_at": "2026-09-14T11:30:00Z",
+      "completed_at": "2026-09-14T12:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Modern and family-history namesakes lacked the private identifier, OSS context, and Box 164 bridge.",
+      "research_notes": "The exact private identifier confirms identity. Occupation value 455 supports only the skilled petroleum-refining group at Army entry and no employer.",
+      "next_action": "Review Box 164 for a specific trade, employer, refinery, Army unit, and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch520-v1"
+    },
+    {
+      "key": "b520-hope-dale",
+      "person_id": "239218cd-90f7-5691-8428-fcb850f16847",
+      "source_adapter": "reviewed_official_bulk_loc_cia_and_web_sources",
+      "query_text": "NARA OSS index pages 103-104; complete Army comparison; CIA and current Library of Congress checks; Hope Dale exact-name OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_ambiguous_name_only",
+      "started_at": "2026-09-14T11:30:00Z",
+      "completed_at": "2026-09-14T12:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "A 1943 Texas Tech student item and several biographical namesakes lack a middle identifier, OSS context, and Box 164 bridge.",
+      "research_notes": "No reliable identity, occupation, employer, institution, or military pathway was found.",
+      "next_action": "Review Box 164 to distinguish the candidates and recover pre-OSS evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch520-v1"
+    },
+    {
+      "key": "b520-ernest-dalessandro",
+      "person_id": "f6438eed-0236-5098-853b-3f976a314cea",
+      "source_adapter": "reviewed_official_bulk_loc_cia_and_web_sources",
+      "query_text": "NARA OSS index pages 103-104; complete Army exact-private-identifier comparison; Ernest D'Alessandro and Ernesto Dalessandro variants; CIA and current Library of Congress checks; exact-name OSS, rubber production, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_confirmed_identifier_variant_identity_occupation_only",
+      "started_at": "2026-09-14T11:30:00Z",
+      "completed_at": "2026-09-14T12:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Modern profiles and foreign records concern later or differently identified people and have no private-identifier, OSS, or Box 164 bridge.",
+      "research_notes": "The exact private identifier confirms the Ernest/Ernesto identity. Occupation value 657 supports only a semiskilled rubber-goods production group at Army entry and no employer.",
+      "next_action": "Review Box 164 for a specific job, employer, plant, and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch520-v1"
+    },
+    {
+      "key": "b520-giuseppe-dalessandro",
+      "person_id": "477143b5-c899-5111-ab9d-9895d74ad1ea",
+      "source_adapter": "reviewed_official_bulk_loc_cia_and_web_sources",
+      "query_text": "NARA OSS index pages 103-104; complete Army exact-private-identifier comparison; Giuseppe D'Alessandro, Giuseppe Dalessandro, and Guiseppe Dalessandro variants; CIA and current Library of Congress checks; exact-name OSS, retail manager, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_confirmed_identifier_variant_identity_occupation_only",
+      "started_at": "2026-09-14T11:30:00Z",
+      "completed_at": "2026-09-14T12:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Modern and foreign namesakes lack the private identifier, compatible wartime chronology, OSS context, and Box 164 bridge.",
+      "research_notes": "The exact private identifier confirms the Giuseppe/Guiseppe identity. Occupation value 072 supports retail manager status at Army entry and no employer.",
+      "next_action": "Review Box 164 for the store or employer and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch520-v1"
+    },
+    {
+      "key": "b520-donald-d-daley",
+      "person_id": "ccdc6027-ee0e-5b5e-9c13-9b9721294ff6",
+      "source_adapter": "reviewed_official_bulk_loc_cia_and_web_sources",
+      "query_text": "NARA OSS index pages 103-104; complete Army comparison; CIA and current Library of Congress checks; Donald D. Daley exact-name OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_unresolved_common_name_no_identifier",
+      "started_at": "2026-09-14T11:30:00Z",
+      "completed_at": "2026-09-14T12:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Common-name military, obituary, directory, and family-history results lacked an exact full-name OSS or Box 164 bridge.",
+      "research_notes": "No reliable identity, occupation, employer, institution, or military pathway was found.",
+      "next_action": "Review Box 164 for identity and pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch520-v1"
+    },
+    {
+      "key": "b520-john-f-daley",
+      "person_id": "e3d99ad9-602d-5e49-9d52-efad9ee68629",
+      "source_adapter": "reviewed_official_bulk_loc_cia_and_web_sources",
+      "query_text": "NARA OSS index pages 103-104; complete Army exact-name comparison; CIA and current Library of Congress checks; five newspaper candidates visually reviewed; John F. Daley exact-name OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_ambiguous_common_name_ten_army_rows_five_newspapers_rejected",
+      "started_at": "2026-09-14T11:30:00Z",
+      "completed_at": "2026-09-14T12:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 15,
+      "candidate_sources_rejected": 18,
+      "rejection_reasons": "Ten exact-name Army rows cannot be distinguished from the index. The rendered newspapers concern John P., L., M., C., or D. Daley, much earlier people, or OCR occurrences of daily.",
+      "research_notes": "No candidate supplies the two corroborating identifiers required for this common name.",
+      "next_action": "Review Box 164 for an identifier, age, hometown, Army unit, occupation, or employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch520-v1"
+    },
+    {
+      "key": "b520-mary-daley",
+      "person_id": "d24f062c-1d5f-5cb9-b868-cac337d78fbc",
+      "source_adapter": "reviewed_official_bulk_loc_cia_and_web_sources",
+      "query_text": "NARA OSS index pages 103-104; complete Army comparison; CIA and current Library of Congress checks; one newspaper candidate visually reviewed; Mary Daley exact-name OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_unresolved_common_name_newspaper_candidate_rejected",
+      "started_at": "2026-09-14T11:30:00Z",
+      "completed_at": "2026-09-14T12:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "A rendered 1941 wedding item identifies a Mary Daley only as a bridesmaid and provides no middle identifier, occupation, OSS, military, or Box 164 bridge; other common-name results are equally unbridged.",
+      "research_notes": "No reliable identity, occupation, employer, institution, or military pathway was found.",
+      "next_action": "Review Box 164 for Mary's full identity and pre-OSS evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch520-v1"
+    },
+    {
+      "key": "b520-john-h-dalgarn",
+      "person_id": "b3b2fdf6-fde4-557c-9795-c2a26f3361ab",
+      "source_adapter": "reviewed_official_bulk_loc_cia_and_web_sources",
+      "query_text": "NARA OSS index pages 103-104; complete Army exact-private-identifier and exact-name comparison; CIA and current Library of Congress checks; John H. Dalgarn exact-name OSS, 377th Infantry, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_ambiguous_private_identifier_no_bulk_match_wartime_candidate_unbridged",
+      "started_at": "2026-09-14T11:30:00Z",
+      "completed_at": "2026-09-14T12:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The 377th Infantry and veteran-burial records share the exact name but provide no private identifier, direct OSS context, Box 164 link, or sequence establishing the assignment before OSS.",
+      "research_notes": "The printed private identifier has no exact Army merged-file match. The wartime candidate remains plausible but unaccepted.",
+      "next_action": "Review Box 164 and original identifier context to test the 377th Infantry candidate.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch520-v1"
+    },
+    {
+      "key": "b520-james-b-dalgliesh",
+      "person_id": "751fb3d4-7e8c-5278-933a-a5f33d70fe68",
+      "source_adapter": "reviewed_official_bulk_loc_cia_and_web_sources",
+      "query_text": "NARA OSS index pages 103-104; complete Army exact-private-identifier comparison; James B. Dalgliesh and James B. Delgliesh variants; CIA and current Library of Congress checks; exact-name OSS, retail manager, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_confirmed_identifier_variant_identity_occupation_only",
+      "started_at": "2026-09-14T11:30:00Z",
+      "completed_at": "2026-09-14T12:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "British military, postwar, and family-history namesakes lack the private identifier, compatible U.S. Army chronology, OSS context, and Box 164 bridge.",
+      "research_notes": "The exact private identifier confirms the Dalgliesh/Delgliesh identity. Occupation value 072 supports retail manager status at Army entry and no employer.",
+      "next_action": "Review Box 164 for the store or employer and Army-to-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch520-v1"
+    },
+    {
+      "key": "b520-lucille-dalious",
+      "person_id": "5f351eb8-9fa1-537e-96a0-02082a43e8c5",
+      "source_adapter": "reviewed_official_institutional_directory_bulk_loc_cia_and_web_sources",
+      "query_text": "NARA OSS index pages 103-104; complete Army comparison; CIA and current Library of Congress checks; Gamma Phi Beta institutional archive and 1939 Dallas directory; Lucille Dalious exact-name OSS, Southern Methodist University, stenographer, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_high_confidence_identity_documented_student_and_occupation_no_employer",
+      "started_at": "2026-09-14T11:30:00Z",
+      "completed_at": "2026-09-14T12:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Later unsourced genealogy and people-search profiles were not used; no accessible source named an employer or established the exact Army-to-OSS sequence.",
+      "research_notes": "Independent contemporary and official sources support Lucille Dalious at high confidence. Southern Methodist University student status in 1939 and a stenographer-or-typist occupation at 1943 Army entry are separate, qualified claims; no employer is inferred.",
+      "next_action": "Review Box 164 for the employer, precise WAC and OSS chronology, and whether any documented affiliation was immediate before OSS.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch520-v1"
+    }
+  ]
+}
