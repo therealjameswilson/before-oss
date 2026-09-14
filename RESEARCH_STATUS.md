@@ -2,6 +2,24 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
+Batch 516 is a validated local release candidate. It adds ten terminal saved
+outcomes for personnel-index PDF page 103 rows 2-11, Edmund Czaplinski through
+Arnold Daane, crossing from Box 162 to Box 163. Archive-based Project Eagle
+research supports three high-confidence Polish military pathways while keeping
+forced German service separate and never recasting it as employment. Exact
+private-identifier matches support three qualified Army-entry occupations and
+Joseph F. Czechlewski's confirmed identity; official and institutional sources
+establish the New York County District Attorney's Office as Czechlewski's last
+civilian government employer while preserving a conflicting Army occupation
+code. Stephanie Czech's existing Texas Oil and WAAC/WAC sequence remains
+unchanged. Arnold Daane's exact-name newspaper-publisher match is visibly
+conditional at medium confidence; William S. Czyzewski remains unresolved.
+All 94 Python tests, 21 focused checks, 18 bounded core checks, 6 analysis
+checks and 27 axe cases pass. Exact coverage is 4,927 / 23,940 researched, 562
+verified affiliations, 250 verified employers, 4,882 archival dispositions
+assessed and 19,013 `not_started`. See `reports/release_batch_516.md` and
+`research/batch-516-discovery-checkpoint.md`.
+
 Batch 515 is the current verified public release. It adds ten saved
 outcomes for personnel-index PDF page 102 rows 38-46 and page 103 row 1, Mary W
 Cutler through Louise L Czako, all in Box 162. Richard W Cutler is a
