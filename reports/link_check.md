@@ -2,6 +2,25 @@
 
 Run: 2026-09-14 UTC
 
+## Batch 531 release candidate
+
+All internal targets resolve across 24,571 HTML pages; 49,946 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,643 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,103
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 92,682,273 bytes at
+SHA-256 `1203c94e6c3d5a0c9287afe8d591a7ed8ffde8ed74aadb0dda6c7aa6b485b1b3`.
+Under the relative-path/content digest, the 70-file public tree is
+`c814aeaa33577a7188ecdcf8b7997faa1fd0d4406c23d93e2984492eee268f12`;
+the 24,643-file production tree is
+`866fe4dcc614411975badaa4e768d60dd289dd0edbfd512a53112a6237b84974`.
+Three consecutive builds reproduced both trees. Four bundle sources support
+the three confirmed identity and three qualified occupation claims; one
+additional Elizabeth Davey identity lead remains low-confidence and withheld.
+Four Library of Congress candidates were rejected after official OCR-context
+review. No authenticated Catalog request was used. Remote CI, Pages deployment
+and exact live verification are pending.
+
 ## Batch 530 release candidate
 
 All internal targets resolve across 24,571 HTML pages; 49,946 external URLs
@@ -17,8 +36,10 @@ the 24,643-file production tree is
 Three consecutive builds reproduced both trees. Three bundle sources support
 the four confirmed identity claims and three qualified occupation findings;
 two Library of Congress candidates were rejected after official context
-review. No authenticated Catalog request was used. Independent GitHub and
-deployed-site checks remain pending.
+review. No authenticated Catalog request was used. PR Test run 34897593738,
+main Test run 34898156873 and Pages run 34898156916 passed; the live verifier
+matched all 67 manifest assets and ten direct cohort profiles to merge commit
+`5607aeca17d49c8a890bf3eb60a01be9dd732e39`.
 
 ## Batch 529 release candidate
 
