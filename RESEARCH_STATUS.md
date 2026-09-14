@@ -2,7 +2,27 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
-Batch 530 is the current local release candidate. It adds ten terminal saved
+Batch 531 is the current locally validated release candidate. It adds ten
+terminal saved outcomes for personnel-index PDF page 106 rows 16-25, Isabelle
+Davenport through the first of two consecutive Elizabeth Davey rows, all in
+Box 168. Three identifier-and-name matches support qualified Army-entry
+occupation findings without inventing employers. The two Donald L Davey rows
+remain separate; Leo Davenport carries a visible official-record identity
+conflict; and the Elizabeth Davey Velen institutional lead remains low-
+confidence, withheld and unassigned because it cannot distinguish the two
+consecutive index rows. Exact coverage is 5,078 / 23,940 researched, 569
+verified affiliations, 253 verified employers, 5,033 archival dispositions
+assessed and 18,862 `not_started`. The clean release build checks 156 source
+files with zero diagnostics and produces 24,571 HTML pages / 24,643 artifacts;
+all 95 Python tests, 54 focused checks, 18 core checks, 6 analysis checks and
+27 axe cases pass. The profile, privacy, link, manifest, credential, dependency
+and three-build reproducibility audits are green. See
+`reports/release_batch_531.md` and
+`research/batch-531-discovery-checkpoint.md`. Remote CI, Pages deployment and
+exact live verification are pending; Batch 530 remains the current exact-
+verified public boundary until those checks complete. The goal remains active.
+
+Batch 530 is the current exact-verified public release. It adds ten terminal saved
 outcomes for personnel-index PDF page 106 rows 6-15, Charles Datcher through
 May J Dausch, all in Box 168. Four exact private-identifier matches confirm
 enlisted Army identities; three support qualified entry-time occupation
@@ -16,9 +36,11 @@ HTML pages; all 95 Python tests, 51 focused checks, 18 core checks, 6 analysis
 checks and 27 axe cases pass. The profile, privacy, link, manifest, credential,
 dependency and three-build reproducibility audits are green. See
 `reports/release_batch_530.md` and
-`research/batch-530-discovery-checkpoint.md`. Batch 529 remains the current
-exact-verified public release while full QA and publication proceed. The goal
-remains active.
+`research/batch-530-discovery-checkpoint.md`. Pull request #226 was merged as
+commit `5607aeca17d49c8a890bf3eb60a01be9dd732e39`; PR Test run
+34897593738, main Test run 34898156873 and Pages run 34898156916 succeeded.
+The live verifier matched all 67 manifest assets, 92,637,647 manifest bytes,
+seven core routes and ten direct Batch 530 profiles. The goal remains active.
 
 Batch 529 is the current exact-verified public release. It adds ten terminal saved
 outcomes for personnel-index PDF page 105 rows 42-46 and page 106 rows 1-5,

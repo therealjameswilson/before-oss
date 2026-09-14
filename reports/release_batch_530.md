@@ -120,8 +120,11 @@ Research-status counts:
   `942dccf3309fdc96ed842b96ec76e60bf09544e6c998737e02384d2bd2f21397`;
   the 24,643-file production tree covers 283,456,303 bytes at SHA-256
   `4d9784a764f09726e450719825f37b4c8738bdcab8792a72e79f200efae0d353`.
-- Independent GitHub checks, Pages deployment and exact live-manifest
-  verification remain pending.
+- Pull request #226 was merged as commit
+  `5607aeca17d49c8a890bf3eb60a01be9dd732e39`. PR Test run 34897593738,
+  main Test run 34898156873 and Pages run 34898156916 succeeded. The live
+  verifier matched all 67 manifest assets / 92,637,647 manifest bytes, seven
+  core routes and ten direct cohort profiles to that immutable commit.
 
 ## Resume commands
 
@@ -147,6 +150,7 @@ merge.
 
 ## Release boundary
 
-Batch 530 is a locally validated release candidate. Batch 529 remains the
-current exact-verified public release until the pull request, GitHub Test,
-Pages deployment and exact live-manifest checks have all completed.
+Batch 530 is the current exact-verified public release. The release boundary is
+merge commit `5607aeca17d49c8a890bf3eb60a01be9dd732e39`, independently passed
+by the pull-request and main-branch Test workflows, deployed by GitHub Pages,
+and verified live against the checked-in manifest and all ten cohort profiles.
