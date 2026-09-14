@@ -4,6 +4,20 @@ Run: 2026-09-14 UTC
 
 ## Result
 
+Batch 526: the focused cohort suite passed all 48 checks across desktop,
+phone and tablet. It verifies ten immutable page 105 rows; four masked private
+values; two exact-identifier Army identities; Daniluck's direct mail-clerk
+self-report and separate grouped Army occupation; the documented Dann / Dannelly
+surname variant and student status; two qualified probable prewar-employment
+findings; two indexed commissioned Army classifications; and six ambiguous or
+unresolved profiles with Box 166 guidance. The bounded core suite passed 18/18
+and the analysis suite passed 6/6 across the same viewports. The axe route suite
+passed 27/27 in 1.7 minutes. The clean publish tree's Astro check covered 151
+source files with zero errors, warnings or hints and generated 24,563 HTML
+pages / 24,635 artifacts. Three consecutive builds from the same public assets
+reproduced both trees byte for byte. Independent GitHub and deployed-site checks
+remain pending.
+
 Batch 525: the focused cohort suite passed all 45 checks across desktop,
 phone and tablet. It verifies ten immutable page 105 rows; five masked private
 values; one exact-identifier Army identity; two indexed commissioned Army
@@ -14,8 +28,9 @@ analysis suite passed 6/6 across the same viewports. The axe route suite passed
 27/27 in 1.7 minutes. The clean publish tree's Astro check covered 150 source
 files with zero errors, warnings or hints and generated 24,561 HTML pages /
 24,633 artifacts. Three consecutive builds from the same public assets
-reproduced both trees byte for byte. Independent GitHub and deployed-site
-checks remain pending.
+reproduced both trees byte for byte. PR Test run 34867353870, main Test run
+34868250638 and Pages run 34868250534 passed; the live verifier matched every
+manifest asset, core route and direct cohort profile.
 
 Batch 524: the focused cohort suite passed all 45 checks across desktop,
 phone and tablet. It verifies ten immutable rows across pages 104-105; three
