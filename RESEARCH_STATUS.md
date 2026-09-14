@@ -2,7 +2,24 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
-Batch 523 is the current local release candidate. It adds ten saved outcomes for
+Batch 524 is the current local release candidate. It adds ten saved outcomes
+for personnel-index PDF page 104 rows 38-46 and page 105 row 1, Beatrice Dancy
+through Ernest Daniel, crossing from Box 165 to Box 166. Exact private-
+identifier evidence confirms John Dancy and Dennis V Dangerfield as enlisted
+Army personnel and supports only qualified Army-entry student and mining-
+occupation findings, never named employers. Gerard N D'Anglure's indexed
+French-captain classification is preserved without assigning an external
+namesake, military unit or pre-OSS affiliation. The other eight external
+identities remain unresolved. Exact coverage is 5,008 / 23,940 researched, 566
+verified affiliations, 252 verified employers, 4,963 archival dispositions
+assessed and 18,932 `not_started`. All 94 Python tests, 45 focused checks, 18
+bounded core checks, 6 analysis checks and 27 axe cases pass. The
+24,633-artifact build is deterministic and the privacy, link, profile,
+credential and dependency audits pass. See `reports/release_batch_524.md` and
+`research/batch-524-discovery-checkpoint.md`. Independent GitHub and deployed-
+site verification remain pending; the goal remains active.
+
+Batch 523 is the current verified public release. It adds ten saved outcomes for
 personnel-index PDF page 104 rows 27-28 and 30-37, James F D'Amico through
 Joseph C Dance, all in Box 165. Exact private-identifier evidence confirms the
 two D'Amico names, Donald M Dana and Joseph C Dance as enlisted Army
@@ -17,9 +34,11 @@ tests, 45 focused checks, 18 bounded core checks, 6 analysis checks and 27 axe
 cases pass. The 24,633-artifact build is deterministic and the privacy, link,
 profile, credential and dependency audits pass. See
 `reports/release_batch_523.md` and
-`research/batch-523-discovery-checkpoint.md`. Publication proof will be added
-only after the exact commit has passed GitHub Actions and the deployed
-manifest and ten direct profile routes have been verified.
+`research/batch-523-discovery-checkpoint.md`. Pull request #219 was merged as
+commit `3405cbe7b4e64b2422e5f36c57aa6c9cf5db8928`; PR Test run
+34858254253, main Test run 34859041025 and Pages run 34859041152 succeeded.
+The live verifier matched all 67 manifest assets, 92,167,881 manifest bytes,
+seven core routes and ten direct Batch 523 profiles.
 
 Batch 522 is the preceding verified public release. It adds eleven saved outcomes for
 personnel-index PDF page 104 rows 17-26, George R Daly through Caroline

@@ -104,7 +104,7 @@ unchanged.
 
 ## Resume
 
-Research resumes with personnel-index PDF page 104 row 38, Roberta A Dance,
+Research resumes with personnel-index PDF page 104 row 38, Beatrice Dancy,
 in Box 165. Do not infer an employer from an Army occupation code, residual
 value, student affiliation, namesake, or a source describing service after the
 person had already joined OSS.

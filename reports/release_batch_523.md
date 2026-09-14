@@ -153,15 +153,17 @@ python3 -m oss_research audit-profiles --sample-size 200
 python3 scripts/audit_public_identifiers.py --database research/research.sqlite --public-root site/dist
 ```
 
-Research resumes with page 104 row 38, Roberta A Dance, in Box 165. Do not
+Research resumes with page 104 row 38, Beatrice Dancy, in Box 165. Do not
 infer an employer from an Army occupation code, residual value, student
 affiliation, namesake, or a source describing service after the person had
 already joined OSS.
 
 ## Release boundary
 
-Batch 523 remains a local release candidate until the exact commit passes the
-independent GitHub Test and Pages workflows and the deployed verifier matches
-all manifest assets, seven core routes and ten direct cohort profiles. The
-research goal remains active because 18,942 person entities have not yet
-started the protocol.
+Pull request #219 was merged as immutable main commit
+`3405cbe7b4e64b2422e5f36c57aa6c9cf5db8928`. PR Test run 34858254253,
+main Test run 34859041025 and Pages run 34859041152 succeeded. The deployed
+verifier matched all 67 manifest assets, 92,167,881 manifest bytes, seven core
+routes and ten direct Batch 523 profiles at
+<https://therealjameswilson.github.io/before-oss/>. The research goal remains
+active because 18,942 person entities have not yet started the protocol.
