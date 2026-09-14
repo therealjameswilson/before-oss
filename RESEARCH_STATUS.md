@@ -2,6 +2,24 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
+Batch 513 is a validated local release candidate. It adds ten saved outcomes
+for personnel-index PDF page 102 rows 18-27, Joseph T Curtiss through James S
+Cusick, all in Box 161. Yale evidence documents Joseph Toy Curtiss's assistant
+professorship as the role from which OSS recruited him. An official OSS report
+documents Congdon Curts's immediate Staff Sergeant Army pathway. Bowdoin
+evidence preserves two unordered prewar librarian employers for Benjamin H.
+Cushing Jr.; institutional sources preserve Edward Cushing's concurrent
+Columbia Gramophone and bookshop roles with visible temporal qualification.
+An exact private-identifier match supports Ralph H Cushing's occupation-only
+Army-entry finding. Virginia Cushing remains probable; two identities are
+ambiguous and two unresolved. The only Library of Congress candidate was
+rejected after full-page review. All 94 Python tests, 24 focused checks, 18
+bounded core checks, 6 analysis checks and 27 axe cases pass. Exact coverage is
+4,898 / 23,940 researched, 557 verified affiliations, 248 verified employers,
+4,853 archival dispositions assessed and 19,042 `not_started`. See
+`reports/release_batch_513.md` and
+`research/batch-513-discovery-checkpoint.md`.
+
 Batch 512 is the current verified public release. It adds ten terminal saved
 outcomes for personnel-index PDF page 102 rows 8-17, Joseph T Curtis through
 John S Curtiss, all in Box 161. Exact private-identifier evidence confirms
