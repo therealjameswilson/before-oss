@@ -2,7 +2,25 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
-Batch 510 is a validated local release candidate. It adds ten terminal saved
+Batch 511 is a validated local research checkpoint. It adds ten terminal saved
+outcomes for personnel-index PDF page 101 rows 44-46 and page 102 rows 1-7,
+Richard Currier through John N Curtis, all in Box 160. Exact private-identifier
+and name matches confirm William B Curry, Earle J Curtis, Floyd J Curtis and
+Horace M Curtis as enlisted Army personnel. Earle's `General farmer`, Floyd's
+`Policemen and detectives, public service`, and Horace's `Draftsman` categories
+are published only as qualified occupations at Army entry; William's value 999
+remains uninterpreted. A 1940 newspaper names Colonel Charles C Curtis of the
+213th Coast Artillery, but the index supplies no rank or identifier and no
+source bridges that person to OSS, so the lead remains plausible and
+unpublished pending identity review. The other five identities remain
+unresolved.
+Fifteen of sixteen Library of Congress candidates were rejected after full-
+page context review; the Charles Curtis lead is preserved. Exact coverage is
+4,878 / 23,940 researched, 554 verified affiliations, 246 verified employers,
+4,833 archival dispositions assessed and 19,062 `not_started`. Batch 511 is not
+yet pushed or deployed. See `research/batch-511-discovery-checkpoint.md`.
+
+Batch 510 is the current verified public release. It adds ten terminal saved
 outcomes for personnel-index PDF page 101 rows 34-43, Mary T Curio through
 Teresita Currie, all in Box 160. Exact private-identifier and name matches
 confirm Anton Curl, Michael J Curley and Charley Curo as enlisted Army
@@ -19,9 +37,11 @@ candidates were rejected after full-page context review. Focused browser QA
 passes 15/15 checks, bounded core and analysis QA pass 24/24 checks, and axe
 passes 27/27 across desktop, phone and tablet. Exact coverage is 4,868 / 23,940
 researched, 554 verified affiliations, 246 verified employers, 4,823 archival
-dispositions assessed and 19,072 `not_started`. Batch 510 is not pushed or
-deployed. See `reports/release_batch_510.md` and
-`research/batch-510-discovery-checkpoint.md`.
+dispositions assessed and 19,072 `not_started`. Pull request #201 was merged as
+commit `9cdc22fac15a09e8aa502538a8eee2c13fb4f354`; GitHub Pages run 34804187555
+succeeded. The live verifier matched all 67 manifest assets (91,100,159 bytes),
+seven core routes and ten direct Batch 510 profiles to that commit. See
+`reports/release_batch_510.md` and `research/batch-510-discovery-checkpoint.md`.
 
 Batch 509 is a validated local release candidate. It adds ten terminal saved
 outcomes for personnel-index PDF page 101 rows 24-33, Mary Cunningham through

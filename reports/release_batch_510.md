@@ -166,9 +166,16 @@ Currier through John N Curtis, all in Box 160.
 
 ## Release boundary
 
-This batch is a validated local release candidate. It has not been pushed or
-deployed. No authenticated NARA Catalog API request was made. The research goal
-remains active because 19,072 person entities have not yet started the research
-protocol. The generated entity-resolution report retains its pre-existing
-warning that not every possible duplicate group is marked for manual review;
-Batch 510 creates no new duplicate group, merge or silent conflation.
+Pull request #201 was merged to `main` as commit
+`9cdc22fac15a09e8aa502538a8eee2c13fb4f354` on 2026-09-14 UTC. GitHub Pages run
+34804187555 succeeded. Post-deployment verification matched the live 67-file
+public manifest byte-for-byte to the immutable merge commit (91,100,159 bytes;
+manifest SHA-256
+`46e081a32f515759480e9427301b32c257aa1ed86296b1d5664e19e6cdd1589e`), rendered
+all seven core routes and rendered all ten Batch 510 direct profiles.
+
+No authenticated NARA Catalog API request was made. The research goal remains
+active because 19,072 person entities had not yet started the research protocol
+at this release. The generated entity-resolution report retains its pre-
+existing warning that not every possible duplicate group is marked for manual
+review; Batch 510 creates no new duplicate group, merge or silent conflation.
