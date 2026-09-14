@@ -4,6 +4,19 @@ Run: 2026-09-14 UTC
 
 ## Result
 
+Batch 530: the focused cohort suite passed all 51 checks across desktop, phone
+and tablet. It verifies ten immutable page 106 rows; five masked private
+values; four exact-identifier Army identities; three qualified entry-time
+occupation findings without employers; Dominick Dattoma's deliberately
+uninterpreted occupation value; the unexpanded `* Daulne`, `Cdt` and
+`aka Jea` fields; and six unresolved profiles with Box 168 guidance. The
+bounded core suite passed 18/18 and the analysis suite passed 6/6 across the
+same viewports. The axe route suite passed 27/27 in 1.7 minutes. Astro checked
+155 source files with zero errors, warnings or hints and generated 24,571 HTML
+pages / 24,643 artifacts. Three consecutive builds reproduced the public and
+production trees byte for byte. Independent GitHub and deployed-site checks
+remain pending.
+
 Batch 529: the focused cohort suite passed all 54 checks across desktop, phone
 and tablet. It verifies ten immutable rows across pages 105-106; three strict
 private-identifier Army matches and qualified occupation-only findings without
@@ -14,8 +27,9 @@ bounded core suite passed 18/18 and the analysis suite passed 6/6 across the
 same viewports. The axe route suite passed 27/27 in 1.7 minutes. Astro checked
 151 source files with zero errors, warnings or hints and generated 24,571 HTML
 pages / 24,643 artifacts. Three consecutive builds reproduced the public and
-production trees byte for byte. Independent GitHub and deployed-site checks
-remain pending.
+production trees byte for byte. PR Test run 34892869139, main Test run
+34893610220 and Pages run 34893609558 passed; the live verifier matched every
+manifest asset, core route and direct cohort profile.
 
 Batch 528: the focused cohort suite passed all 51 checks across desktop,
 phone and tablet. It verifies ten immutable page 105 rows; five masked private
