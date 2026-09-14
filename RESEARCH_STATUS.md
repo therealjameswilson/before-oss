@@ -2,7 +2,23 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
-Batch 517 is a validated local release candidate. It adds ten saved outcomes
+Batch 518 is a validated local release candidate. It adds ten saved outcomes
+for personnel-index PDF page 103 rows 22-31, Dorothy J Dahl through Richard J
+Daigle Jr., crossing from Box 163 to Box 164. A direct OSS staff publication
+identifies Duke University as Bingham Dai's institution before government
+service; institutional and scholarly sources preserve Peking Union Medical
+College as separate earlier employment. Exact private-identifier evidence
+confirms Bruce T Dahlberg and Larry A Dahlquist and supports only qualified
+student and construction-occupation findings. Richard J Daigle Jr. is
+confirmed, but a February 1946 Army row is excluded from pre-OSS fields. Six
+identities remain unresolved. All 94 Python tests, 48 focused checks, 18
+bounded core checks, 6 analysis checks and 27 axe cases pass. Exact coverage is
+4,947 / 23,940 researched, 565 verified affiliations, 252 verified employers,
+4,902 archival dispositions assessed and 18,993 `not_started`. See
+`reports/release_batch_518.md` and
+`research/batch-518-discovery-checkpoint.md`.
+
+Batch 517 is the current verified public release. It adds ten saved outcomes
 for personnel-index PDF page 103 rows 12-21, William C Dabney through Clarence
 Dahl, all in Box 163. Institutional and official military sources support a
 high-confidence William C. Dabney identity and a prewar Colorado College
@@ -16,10 +32,13 @@ occupations, never named employers. Five identities remain unresolved. All 94
 Python tests, 48 focused checks, 18 bounded core checks, 6 analysis checks and
 27 axe cases pass. Exact coverage is 4,937 / 23,940 researched, 564 verified
 affiliations, 251 verified employers, 4,892 archival dispositions assessed and
-19,003 `not_started`. See `reports/release_batch_517.md` and
-`research/batch-517-discovery-checkpoint.md`.
+19,003 `not_started`. Pull request #213 was merged as commit
+`c268ed2b4c943d1d5e01f4951d97cb425fcb64d0`; main Test run 34832799936 and
+Pages run 34832799986 succeeded. The live verifier matched all 67 manifest
+assets, seven core routes and ten direct Batch 517 profiles. See
+`reports/release_batch_517.md` and `research/batch-517-discovery-checkpoint.md`.
 
-Batch 516 is the current verified public release. It adds ten terminal saved
+Batch 516 is the preceding verified public release. It adds ten terminal saved
 outcomes for personnel-index PDF page 103 rows 2-11, Edmund Czaplinski through
 Arnold Daane, crossing from Box 162 to Box 163. Archive-based Project Eagle
 research supports three high-confidence Polish military pathways while keeping

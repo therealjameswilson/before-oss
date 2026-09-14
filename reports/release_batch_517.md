@@ -152,13 +152,12 @@ Daigle Jr., crossing from Box 163 to Box 164.
 
 ## Release boundary
 
-This local release candidate is validated but not yet pushed or deployed. The
-current live release is Batch 516 at immutable content commit
-`a013b9372469b8029c75256c4434342413915202`, followed by release-proof commit
-`b18dee2a8d50546c6c2251fef3e6a811caeeca1b`. Main Test and Pages runs
-34829078975 and 34829078981 succeeded, and the verifier matched all 67 manifest
-assets, seven core routes and ten direct profiles. The research goal remains
-active because 19,003 person entities have not yet started the protocol. The
-generated entity-resolution report retains its pre-existing warning that not
-every possible duplicate group is marked for manual review; Batch 517 creates
-no new merge or silent conflation.
+Batch 517 was merged by pull request #213 at immutable content commit
+`c268ed2b4c943d1d5e01f4951d97cb425fcb64d0`. Pull-request Test run
+34832351165, main Test run 34832799936 and Pages run 34832799986 succeeded.
+The live verifier matched all 67 manifest assets (91,767,883 bytes), seven core
+routes and ten direct Batch 517 profiles to that commit. The research goal
+remained active with 19,003 person entities not started. The generated entity-
+resolution report retained its pre-existing warning that not every possible
+duplicate group is marked for manual review; Batch 517 created no new merge or
+silent conflation.
