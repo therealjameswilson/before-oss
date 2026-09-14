@@ -2,7 +2,26 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
-Batch 522 is the current release candidate. It adds eleven saved outcomes for
+Batch 523 is the current local release candidate. It adds ten saved outcomes for
+personnel-index PDF page 104 rows 27-28 and 30-37, James F D'Amico through
+Joseph C Dance, all in Box 165. Exact private-identifier evidence confirms the
+two D'Amico names, Donald M Dana and Joseph C Dance as enlisted Army
+personnel. It supports only qualified Army-entry occupation groups for James F
+D'Amico and Joseph C Dance; Jerry M D'Amico's value 999 and Donald M Dana's
+value 253 remain deliberately uninterpreted. Henri C Damon's indexed French
+lieutenant-colonel classification is preserved without assigning an external
+namesake or military unit. Six identities remain unresolved. Exact coverage is
+4,998 / 23,940 researched, 566 verified affiliations, 252 verified employers,
+4,953 archival dispositions assessed and 18,942 `not_started`. All 94 Python
+tests, 45 focused checks, 18 bounded core checks, 6 analysis checks and 27 axe
+cases pass. The 24,633-artifact build is deterministic and the privacy, link,
+profile, credential and dependency audits pass. See
+`reports/release_batch_523.md` and
+`research/batch-523-discovery-checkpoint.md`. Publication proof will be added
+only after the exact commit has passed GitHub Actions and the deployed
+manifest and ten direct profile routes have been verified.
+
+Batch 522 is the preceding verified public release. It adds eleven saved outcomes for
 personnel-index PDF page 104 rows 17-26, George R Daly through Caroline
 Damerau, plus the linked Arnold H Dammen spelling-conflict row 29, all in Box
 165. The four common Daly names remain ambiguous after complete Army-file and
@@ -17,10 +36,13 @@ dispositions assessed and 18,952 `not_started`. All 94 Python tests, 48 focused
 checks, 18 bounded core checks, 6 analysis checks and 27 axe cases pass. The
 24,633-artifact build is deterministic and the privacy, link, profile,
 credential and dependency audits pass. See `reports/release_batch_522.md` and
-`research/batch-522-discovery-checkpoint.md`. Independent GitHub and deployed-
-site verification remain pending publication.
+`research/batch-522-discovery-checkpoint.md`. Pull request #218 was merged as
+commit `e3d57d94fc4c9770ffc4906eb85123742ee8334f`; PR Test run 34853090516,
+main Test run 34853874883 and Pages run 34853874898 succeeded. The live
+verifier matched all 67 manifest assets, 92,122,570 manifest bytes, seven core
+routes and eleven direct Batch 522 profiles.
 
-Batch 521 is the current verified public release. It adds ten saved outcomes
+Batch 521 is an earlier verified public release. It adds ten saved outcomes
 for eleven immutable personnel-index rows on PDF page 104 rows 6-16, Amando
 Dalisay through Edward F Daly, spanning Boxes 164-165. Exact private-
 identifier evidence confirms John E Dally, Ronald E Dalrymple, Robert A

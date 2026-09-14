@@ -109,8 +109,8 @@ Research-status counts:
 - Accessibility: all 27 route-and-viewport axe cases passed in 1.6 minutes.
 - Stratified profile audit: all seven structural checks passed across 200
   profiles. This is not an independent historical rereview.
-- Astro checked 147 source files with zero errors, warnings or hints and built
-  24,561 HTML pages / 24,633 artifacts.
+- The clean publish tree's Astro check covered 147 source files with zero
+  errors, warnings or hints and built 24,561 HTML pages / 24,633 artifacts.
 - Link audit: all 24,561 internal HTML pages resolve; 49,920 unique external
   URLs were inventoried for separate live checking.
 - Identifier audit: 12,926 normalized identifiers, 120 formatted variants and
@@ -155,10 +155,14 @@ continue with row 30.
 
 ## Release boundary
 
-This is a release candidate. Independent PR checks, main-branch checks, Pages
-deployment and deployed-manifest/profile verification remain pending. The
-research goal remains active because 18,952 person entities have not yet
-started the protocol. The generated entity-resolution report retains its pre-
-existing warning that not every possible duplicate group is marked for manual
-review; Batch 522 deliberately adds a probable duplicate relation without a
-merge or silent conflation.
+Pull request #218 was merged as immutable main commit
+`e3d57d94fc4c9770ffc4906eb85123742ee8334f`. PR Test run 34853090516, main
+Test run 34853874883 and Pages run 34853874898 succeeded. The deployed verifier
+matched all 67 manifest assets, 92,122,570 manifest bytes, seven core routes
+and eleven direct Batch 522 profiles at
+<https://therealjameswilson.github.io/before-oss/>. The research goal remains
+active because 18,952 person entities had not yet started the protocol at this
+release. The generated entity-resolution report retains its pre-existing
+warning that not every possible duplicate group is marked for manual review;
+Batch 522 deliberately adds a probable duplicate relation without a merge or
+silent conflation.
