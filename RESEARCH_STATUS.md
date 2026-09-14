@@ -2,6 +2,23 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
+Batch 517 is a validated local release candidate. It adds ten saved outcomes
+for personnel-index PDF page 103 rows 12-21, William C Dabney through Clarence
+Dahl, all in Box 163. Institutional and official military sources support a
+high-confidence William C. Dabney identity and a prewar Colorado College
+student affiliation without turning the college into an employer. A
+contemporary OSS report confirms Captain Emilio Q. Daddario; official House
+and Wesleyan sources establish his individual Middletown law practice as his
+last civilian work, while a February/April 1943 Army-entry conflict remains
+visible. Exact private-identifier evidence confirms Joseph Dagan, Arthur T
+D'Agostino and Ralph C Dahdah and supports only qualified Army-entry
+occupations, never named employers. Five identities remain unresolved. All 94
+Python tests, 48 focused checks, 18 bounded core checks, 6 analysis checks and
+27 axe cases pass. Exact coverage is 4,937 / 23,940 researched, 564 verified
+affiliations, 251 verified employers, 4,892 archival dispositions assessed and
+19,003 `not_started`. See `reports/release_batch_517.md` and
+`research/batch-517-discovery-checkpoint.md`.
+
 Batch 516 is the current verified public release. It adds ten terminal saved
 outcomes for personnel-index PDF page 103 rows 2-11, Edmund Czaplinski through
 Arnold Daane, crossing from Box 162 to Box 163. Archive-based Project Eagle

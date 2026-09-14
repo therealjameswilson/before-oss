@@ -4,6 +4,20 @@ Run: 2026-09-14 UTC
 
 ## Result
 
+Batch 517: the focused cohort suite passed all 48 checks across desktop,
+phone and tablet. It verifies ten immutable page 103 rows; five masked private
+values; William C Dabney's commissioned identity and student-not-employer
+boundary; Emilio Q Daddario's separate civilian practice and conflicting Army
+pathway; three bounded occupation-only findings; and five unresolved profiles
+with Box 163 guidance. An initial root-relative test-path assumption produced
+the expected project-site 404 and was corrected without changing evidence or
+site behavior. The bounded core suite passed 18/18 and the analysis suite
+passed 6/6 across the same viewports. The axe route suite passed 27/27 in 1.6
+minutes. Astro checked 142 source files with zero errors, warnings or hints and
+generated 24,558 HTML pages / 24,630 artifacts. A second exact public-data and
+Pages build reproduced both trees byte for byte. Independent GitHub checks
+remain pending until publication.
+
 Batch 513: the focused cohort suite passed all 24 checks across desktop,
 phone and tablet. It verifies ten immutable page 102 rows; five masked private
 values; the distinct military, occupation, government, employment and self-
