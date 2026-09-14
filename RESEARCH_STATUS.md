@@ -2,7 +2,24 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
-Batch 518 is a validated local release candidate. It adds ten saved outcomes
+Batch 519 is a validated local release candidate. It adds ten saved outcomes
+for personnel-index PDF page 103 rows 32-41, Rose Daigle through Edward J
+Dajewski, all in Box 164. Exact private-identifier evidence confirms Alfred P
+Daignault and Pat H Dailey and supports only qualified automobile-manufacturing
+and machinist occupations at Army entry, never named employers. A direct OSS
+staff publication independently corroborates Daignault. Scholarly evidence
+supports a high-confidence 2nd Lt. George E Dail Jr. identity and later OSS
+Morale Operations work in China without mislabeling that OSS assignment as a
+pre-OSS affiliation. Harvey J Dain's indexed commissioned classification is
+retained while a psychiatrist namesake remains unassigned; six other identities
+remain unresolved. All 94 Python tests, 51 focused checks, 18 bounded core
+checks, 6 analysis checks and 27 axe cases pass. Exact coverage is 4,957 /
+23,940 researched, 565 verified affiliations, 252 verified employers, 4,912
+archival dispositions assessed and 18,983 `not_started`. See
+`reports/release_batch_519.md` and
+`research/batch-519-discovery-checkpoint.md`.
+
+Batch 518 is the current verified public release. It adds ten saved outcomes
 for personnel-index PDF page 103 rows 22-31, Dorothy J Dahl through Richard J
 Daigle Jr., crossing from Box 163 to Box 164. A direct OSS staff publication
 identifies Duke University as Bingham Dai's institution before government
@@ -11,14 +28,14 @@ College as separate earlier employment. Exact private-identifier evidence
 confirms Bruce T Dahlberg and Larry A Dahlquist and supports only qualified
 student and construction-occupation findings. Richard J Daigle Jr. is
 confirmed, but a February 1946 Army row is excluded from pre-OSS fields. Six
-identities remain unresolved. All 94 Python tests, 48 focused checks, 18
-bounded core checks, 6 analysis checks and 27 axe cases pass. Exact coverage is
-4,947 / 23,940 researched, 565 verified affiliations, 252 verified employers,
-4,902 archival dispositions assessed and 18,993 `not_started`. See
-`reports/release_batch_518.md` and
+identities remain unresolved. Pull request #214 was merged as commit
+`1c9415fe3ab956b4a50c63bf448cce7f778e3f29`; main Test run 34836398672 and
+Pages run 34836398561 succeeded. The live verifier matched all 67 manifest
+assets, 91,866,826 manifest bytes, seven core routes and ten direct Batch 518
+profiles. See `reports/release_batch_518.md` and
 `research/batch-518-discovery-checkpoint.md`.
 
-Batch 517 is the current verified public release. It adds ten saved outcomes
+Batch 517 is the preceding verified public release. It adds ten saved outcomes
 for personnel-index PDF page 103 rows 12-21, William C Dabney through Clarence
 Dahl, all in Box 163. Institutional and official military sources support a
 high-confidence William C. Dabney identity and a prewar Colorado College
