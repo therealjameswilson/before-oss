@@ -2,7 +2,31 @@
 
 Verified against the current local SQLite database on 2026-09-15 UTC.
 
-Batch 546 is the current locally verified release candidate. It adds ten
+Batch 547 is a locally verified release candidate. It adds ten terminal saved
+outcomes for personnel-index PDF page 109 rows 38-46 and page 110 row 1,
+Michel DeBourbon through Louis DeCastro, all in Box 175. Two independent
+biographical accounts support Michel DeBourbon as Prince Michel de
+Bourbon-Parma and explicitly place his newly commissioned U.S. Army
+second-lieutenant assignment immediately before OSS recruitment by William
+Casey; it is modeled as a military assignment, not an employer. Exact protected-
+identifier and normalized-name agreement confirms Michael De Capite and Joseph
+F De Carli as enlisted Army personnel. Contemporary and institutional evidence
+documents Michael's authorship and *Common Ground* contribution, while keeping
+its relation to OSS uncertain and declining to call the periodical an employer.
+Joseph's occupation remains undecoded. John W DeBoy retains a W/M middle-
+initial conflict, William D DeCamp remains an unaccepted roster candidate, and
+five further identities remain unresolved or require archival review. Exact
+coverage is 5,238 / 23,940 researched, 574 verified affiliations, 254 verified
+employers, 5,193 archival dispositions assessed and 18,702 `not_started`. All
+95 Python tests, 63 focused checks, 18 core checks, 6 analysis checks and 27
+route-and-viewport axe cases pass. The ingest, profile, privacy, link,
+dependency, manifest and three-build reproducibility audits are green. See
+`reports/release_batch_547.md` and
+`research/batch-547-discovery-checkpoint.md`. GitHub pull-request CI, merge,
+Pages deployment and independent live verification remain. Batch 546 is still
+the exact-verified public release. The goal remains active.
+
+Batch 546 is the current exact-verified public release. It adds ten
 terminal saved outcomes for personnel-index PDF page 109 rows 28-37, John F
 Debardeleben through Louis D DeBottari, all in Box 175. High-confidence
 identity work documents John F. DeBardeleben's FCC Radio Intelligence
@@ -20,9 +44,12 @@ and 18,712 `not_started`. All 95 Python tests, 60 focused checks, 18 core
 checks, 6 analysis checks and 27 route-and-viewport axe cases pass. The
 ingest, profile, privacy, link, dependency, manifest and three-build
 reproducibility audits are green. See `reports/release_batch_546.md` and
-`research/batch-546-discovery-checkpoint.md`. Batch 545 remains the current
-exact-verified public release pending Batch 546 publication. The goal remains
-active.
+`research/batch-546-discovery-checkpoint.md`. Pull request #242 passed Test
+run 34974989516 and merged as commit
+`342d13c1835bce2a058e7e97dcf943e27228228e`; main Test run 34975840126 and
+Pages run 34975840076 succeeded. The live verifier matched all 67 manifest
+assets, 93,498,788 bytes, seven core routes and ten direct Batch 546 profiles.
+The goal remains active.
 
 Batch 545 is the current exact-verified public release. It adds ten
 terminal saved outcomes for personnel-index PDF page 109 rows 18-27, John J

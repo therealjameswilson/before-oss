@@ -2,7 +2,28 @@
 
 Run: 2026-09-15 UTC
 
-## Batch 546 release candidate
+## Batch 547 local release candidate
+
+All internal targets resolve across 24,584 HTML pages; 49,986 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,656 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,100
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 93,574,000 bytes at
+SHA-256 `ca3fe39ca921fa371887395985b926515d44719d7969b9f1c159068b1d3bf557`.
+Under the relative-path/content digest, the 70-file public tree is
+`d818789c1e0eb1bc305c1511aeb76b114aaac50a273081f4b0ad4c261848ed04`;
+the 24,656-file production tree is
+`04aa962a166b4f93868582905763b5213a7e564f235142595dd0aefbda64595e`.
+Three exact GitHub Pages-configured builds reproduce both trees. Seven bundle
+sources support Michel de Bourbon-Parma's explicit immediate Army assignment,
+Michael De Capite's qualified writer pathway, Joseph F De Carli's confirmed
+Army identity and John W DeBoy's middle-initial conflict. The new public
+evidence targets are the Legasee veteran interview, Washington Post obituary,
+Ukrainian Weekly archive, CUNY Manifold syllabus, Army merged-file Catalog page
+and official code list. No authenticated Catalog request was used. GitHub CI,
+deployment and live verification remain pending.
+
+## Batch 546 production release
 
 All internal targets resolve across 24,582 HTML pages; 49,982 external URLs
 are inventoried, not all visited. Identifier checks cover all 24,654 built
@@ -19,8 +40,10 @@ sources support John F. DeBardeleben's documented FCC pathway, René Débia's
 qualified French government chronology, Louis D. deBottari's documented RCA
 employment, four explicit identifier conflicts, and a non-merged Frederick /
 Fritz deBeer possible-duplicate group. No authenticated Catalog request was
-used. Batch 545 remains the exact-verified public release pending Batch 546
-publication.
+used. PR Test run 34974989516, main Test run 34975840126 and Pages run
+34975840076 succeeded; the live verifier matched all 67 manifest assets,
+93,498,788 bytes, seven core routes and ten direct Batch 546 profiles at merge
+commit `342d13c1835bce2a058e7e97dcf943e27228228e`.
 
 ## Batch 545 production release
 
