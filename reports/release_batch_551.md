@@ -137,12 +137,12 @@ python3 -m oss_research audit-profiles --sample-size 200
 python3 scripts/audit_public_identifiers.py --database research/research.sqlite --public-root site/dist
 ```
 
-Research resumes with personnel-index PDF page 110 rows 42-46 and page 111
-rows 1-5, Vincent R DeGennaro through Jean DeGuerrif, in Boxes 176 and 177 at
-location `230/86/29/07`.
+Batch 552 completed personnel-index PDF page 110 rows 42-46 and page 111 rows
+1-5. Research resumes with page 111 rows 6-15, E E Dehaan through John B Deik,
+all in Box 177 at location `230/86/29/07`.
 
 ## Release boundary
 
-Batch 550 is the current exact-verified public release until Batch 551 passes
+Batch 551 is the current exact-verified public release until Batch 552 passes
 clean replay, review, merge, deployment and independent live verification. The
 goal remains active.
