@@ -115,9 +115,9 @@ import was verified as idempotent through consecutive imports.
 
 ## Next cohort
 
-Resume with personnel-index PDF page 110 rows 42-46 and page 111 rows 1-5:
-Vincent R DeGennaro, Henry Degeynst, Grace M Degli-Unomini, Antonio Degrassi,
-Julian DeGray, Sebastian DeGrazia, Don L DeGroat, Herbert L DeGroot, Andre
-Degrose and Jean DeGuerrif. Boxes are 176 and 177; all remain at archival
-location `230/86/29/07`. Render and inspect both source regions before research
-and retain every printed spelling, rank, note and private field exactly.
+Batch 552 completed personnel-index PDF page 110 rows 42-46 and page 111 rows
+1-5. Continue with page 111 rows 6-15: E E Dehaan, Del Dehart, Hazel A Dehart,
+Hilda A Dehart, Hendrik Dehartog, Gwendolyn M DeHaviland, Rae W Dehncke,
+Bernard U DeHosson, Herbert G Deignan and John B Deik. All ten rows are in Box
+177 at archival location `230/86/29/07`; two contain private values that must
+remain masked publicly.

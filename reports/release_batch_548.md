@@ -154,7 +154,9 @@ and do not expand the initial-only `E T Deerfield` name.
 
 ## Release boundary
 
-Batch 548 is a fully validated local release candidate. Batch 547 remains the
-current exact-verified public release until the Batch 548 pull request, main
-test, GitHub Pages deployment and independent live verification all succeed.
-The goal remains active.
+Batch 548 is the current exact-verified public release. Pull request #244
+passed Test run 34985607483 and merged as commit
+`8f496eb72a72dd9c7c5a761383be41e596e83f2c`; main Test run 34986487115 and
+Pages run 34986487034 succeeded. Independent live verification matched all 67
+manifest assets, 93,638,355 bytes, seven core routes and ten direct Batch 548
+profiles. The goal remains active.
