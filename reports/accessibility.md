@@ -4,6 +4,18 @@ Run: 2026-09-15 UTC
 
 ## Result
 
+Batch 537: the focused cohort suite passed all 48 checks across desktop, phone
+and tablet. It verifies ten immutable page 107 rows; seven masked private
+values; one accepted identifier-and-name Army identity; one qualified entry-
+time occupation finding without an employer; one visible identifier/name
+conflict; and eight unresolved profiles. The bounded core suite passed 18/18
+and the analysis suite passed 6/6 across the same viewports. The axe route
+suite passed 27/27 in 1.6 minutes with no serious violations. Astro checked
+162 source files with zero errors, warnings or hints and generated 24,571 HTML
+pages / 24,643 artifacts. Three exact GitHub Pages-configured builds reproduced
+the public and production trees byte for byte. GitHub CI, deployment and live
+verification remain the release-candidate boundary.
+
 Batch 536: the focused cohort suite passed all 48 checks across desktop, phone
 and tablet. It verifies ten immutable page 107 rows; four masked private
 values; two accepted identifier-and-name Army identities; two qualified entry-
@@ -15,7 +27,9 @@ profiles. The bounded core suite passed 18/18 and the analysis suite passed
 with no serious violations. Astro checked 161 source files with zero errors,
 warnings or hints and generated 24,571 HTML pages / 24,643 artifacts. Three
 consecutive builds reproduced the public and production trees byte for byte.
-Independent GitHub and deployed-site checks remain pending.
+PR Test run 34928915638, main Test run 34929378545 and Pages run 34929378541
+succeeded; the exact-live verifier matched every manifest asset, core route
+and direct Batch 536 profile.
 
 Batch 535: the focused cohort suite passed all 45 checks across desktop, phone
 and tablet. It verifies ten immutable page 107 rows; two masked private

@@ -151,5 +151,8 @@ Davis, all in Box 170 at location 230/86/29/06.
 
 ## Release boundary
 
-Batch 536 is a fully validated local release candidate. Independent GitHub
-Actions, merge, Pages deployment and exact live verification remain pending.
+Batch 536 is the current exact-verified public release. Pull request #232 was
+merged as commit `af3adc4ca850b542d458409e66e1017420bb5740`; PR Test run
+34928915638, main Test run 34929378545 and Pages run 34929378541 succeeded.
+The live verifier matched all 67 manifest assets, 92,861,626 manifest bytes,
+seven core routes and ten direct Batch 536 profiles. The goal remains active.
