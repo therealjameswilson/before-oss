@@ -2,6 +2,25 @@
 
 Run: 2026-09-15 UTC
 
+## Batch 539 release candidate
+
+All internal targets resolve across 24,571 HTML pages; 49,946 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,643 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,101
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 92,953,951 bytes at
+SHA-256 `50d339c75ccc95f252e24fe1e8e2e4d0c2a404474bb16ae5afa5434e351cb3ac`.
+Under the relative-path/content digest, the 70-file public tree is
+`d1031fc84249afe48a52dc3b2c04bd5df0bfd382583a4116f9e166c7841185e0`;
+the 24,643-file production tree is
+`452f51083a1595bf0a23b43565fb7ef227dced6d8adae674ba082a43d99b6c44`.
+Three exact GitHub Pages-configured builds reproduced both trees. Three bundle
+sources support three confirmed identities, one qualified identity-conflict
+notice and two qualified occupation claims; no named employer is created. CIA
+and Library of Congress adapters returned no cohort candidates. No
+authenticated Catalog request was used. Batch 538 remains the exact-verified
+public release while Batch 539 proceeds through clean replay and CI.
+
 ## Batch 538 release candidate
 
 All internal targets resolve across 24,571 HTML pages; 49,946 external URLs
@@ -18,8 +37,10 @@ Three exact GitHub Pages-configured builds reproduced both trees. Three bundle
 sources support two confirmed identities and one qualified occupation claim;
 no named employer is created. All 25 Library of Congress candidates were
 rejected after official page-context review. No authenticated Catalog request
-was used. Batch 537 remains the exact-verified public release while Batch 538
-proceeds through clean replay and CI.
+was used. PR Test run 34935812449, main Test run 34936369315 and Pages run
+34936369372 succeeded; the live verifier matched all 67 manifest assets,
+92,913,597 bytes, seven core routes and ten direct Batch 538 profiles at merge
+commit `fc85b3e63549fc771aeeb50333c1d72cb275d997`.
 
 ## Batch 537 release candidate
 

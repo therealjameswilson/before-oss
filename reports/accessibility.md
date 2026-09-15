@@ -4,6 +4,19 @@ Run: 2026-09-15 UTC
 
 ## Result
 
+Batch 539: the focused cohort suite passed all 54 checks across desktop, phone
+and tablet. It verifies ten immutable page 108 rows; seven masked private
+values; three accepted identifier-and-name Army identities; one visible
+identifier/name conflict; two qualified entry-time occupation findings without
+employers; deliberate non-interpretation of value `999`; and six unresolved
+profiles. The bounded core suite passed 18/18 and the analysis suite passed
+6/6 across the same viewports. The axe route suite passed 27/27 in 1.7 minutes
+with no serious violations. Astro checked 164 source files with zero errors,
+warnings or hints and generated 24,571 HTML pages / 24,643 artifacts. Three
+exact GitHub Pages-configured builds reproduced the public and production trees
+byte for byte. Batch 538 remains the exact-verified public release while Batch
+539 proceeds through clean replay and CI.
+
 Batch 538: the focused cohort suite passed all 51 checks across desktop, phone
 and tablet. It verifies ten immutable rows across pages 107-108; four masked
 private values; two accepted identifier-and-name Army identities; one
@@ -15,8 +28,10 @@ analysis suite passed 6/6 across the same viewports. The axe route suite passed
 27/27 in 1.7 minutes with no serious violations. Astro checked 163 source files
 with zero errors, warnings or hints and generated 24,571 HTML pages / 24,643
 artifacts. Three exact GitHub Pages-configured builds reproduced the public and
-production trees byte for byte. Batch 537 remains the exact-verified public
-release while Batch 538 proceeds through clean replay and CI.
+production trees byte for byte. PR Test run 34935812449, main Test run
+34936369315 and Pages run 34936369372 succeeded; the exact-live verifier
+matched every manifest asset, core route and direct Batch 538 profile at merge
+commit `fc85b3e63549fc771aeeb50333c1d72cb275d997`.
 
 Batch 537: the focused cohort suite passed all 48 checks across desktop, phone
 and tablet. It verifies ten immutable page 107 rows; seven masked private
