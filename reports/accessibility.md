@@ -1,8 +1,21 @@
 # Accessibility and responsive QA
 
-Run: 2026-09-14 UTC
+Run: 2026-09-15 UTC
 
 ## Result
+
+Batch 536: the focused cohort suite passed all 48 checks across desktop, phone
+and tablet. It verifies ten immutable page 107 rows; four masked private
+values; two accepted identifier-and-name Army identities; two qualified entry-
+time occupation findings without employers; Gerald W Davis's indexed Major
+classification without an external identity resolution; Horace Bancroft
+Davis's rejected, unassigned biographical leads; and eight unresolved
+profiles. The bounded core suite passed 18/18 and the analysis suite passed
+6/6 across the same viewports. The axe route suite passed 27/27 in 1.7 minutes
+with no serious violations. Astro checked 161 source files with zero errors,
+warnings or hints and generated 24,571 HTML pages / 24,643 artifacts. Three
+consecutive builds reproduced the public and production trees byte for byte.
+Independent GitHub and deployed-site checks remain pending.
 
 Batch 535: the focused cohort suite passed all 45 checks across desktop, phone
 and tablet. It verifies ten immutable page 107 rows; two masked private
@@ -14,8 +27,9 @@ route suite passed 27/27 in 1.6 minutes with no serious violations. The clean
 publish replay's Astro check covered 160 source files with zero errors,
 warnings or hints and generated 24,571 HTML pages / 24,643 artifacts. Three
 consecutive builds reproduced the public and production trees byte for byte.
-Remote CI, Pages and exact-live
-results remain pending for this release candidate.
+PR Test run 34925100415, main Test run 34925491952 and Pages run 34925491956
+succeeded; the exact-live verifier matched every manifest asset, core route
+and direct Batch 535 profile.
 
 Batch 534: the focused cohort suite passed all 48 checks across desktop, phone
 and tablet. It verifies ten immutable rows across pages 106-107; seven masked

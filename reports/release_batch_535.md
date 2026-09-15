@@ -103,8 +103,7 @@ Research-status counts:
 - The local public-manifest guard verified all 67 listed assets and 92,831,424
   bytes at manifest SHA-256
   `348184d44f06d191cffe98babd1df1258c01ce4a199705f7477e338a7dd2751e`.
-- The clean publish replay's Astro check covered 160 source files with zero
-  errors, warnings or hints and built
+- Astro checked 157 source files with zero errors, warnings or hints and built
   24,571 HTML pages / 24,643 artifacts. All internal links resolve; 49,946
   unique external URLs are inventoried for separate live checking.
 - Identifier audit: 12,926 normalized identifiers, 120 formatted variants and
@@ -141,7 +140,8 @@ Davis, all in Box 170 at location 230/86/29/06.
 
 ## Release boundary
 
-Batch 535 is a fully validated local release candidate. Batch 534 remains the
-current exact-verified public release until the Batch 535 pull request, main-
-branch checks, Pages deployment and exact live verification succeed. The goal
-remains active.
+Batch 535 is the current exact-verified public release. Pull request #231 was
+merged as commit `ae0ed517fe059eddfeee93ff1fca27f5b23bed91`; PR Test run
+34925100415, main Test run 34925491952 and Pages run 34925491956 succeeded.
+The live verifier matched all 67 manifest assets, 92,831,424 manifest bytes,
+seven core routes and ten direct Batch 535 profiles. The goal remains active.
