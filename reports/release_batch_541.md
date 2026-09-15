@@ -163,6 +163,11 @@ matches without direct evidence.
 
 ## Release boundary
 
-Batch 541 is a validated local release candidate. Batch 540 remains the current
-exact-verified public release at merge commit
-`9bfccbb5d8aa757b696a1189b5d43f6d2d8efe1b`. The goal remains active.
+Batch 541 is exact-verified in production. Pull request #237 used branch commit
+`1daaf3d182abeafc9f8a1b0773c190c9f3ac6912` and merged as
+`c161d7d11aa35a6d29ed00ff1a0cfc245d988cbe`. PR Test run 34946731643, main
+Test run 34947387736 and Pages run 34947387730 all completed successfully. The
+production verifier matched all 67 manifest assets, 93,062,362 bytes, seven
+core routes and ten direct Batch 541 profiles at manifest SHA-256
+`e1cc09592cabdc87e3ef52117a065cda8ab5f8a6b60525bb3dacdbdbcd5bb05a`.
+The goal remains active.

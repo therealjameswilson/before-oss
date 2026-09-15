@@ -2,27 +2,50 @@
 
 Verified against the current local SQLite database on 2026-09-15 UTC.
 
-Batch 541 is the current validated local release candidate. It adds ten
-terminal saved outcomes for personnel-index PDF page 108 rows 24-33, William
-G Davis through Camille L Dawson. Exact protected-identifier and name
-agreement confirms Robert W Davy as enlisted Army personnel; the official
-code table supports a qualified “Purchasing agents and buyers, n. e. c.”
-occupation, not an employer. The ranked Captain Carlos B Dawes is identified
-with high confidence as Carlos Burr Dawes, and independent contemporary and
-official sources support a documented 1930 Treasury Department national-bank
-examiner assignment. It is not presented as immediate or as a last civilian
-employer. The adjacent unranked Carlos row and both Walter P Davison rows
-remain separate and ambiguous; the William P Davis Colonel candidate is
-withheld. Four other identities remain unresolved. Exact coverage is 5,178 /
-23,940 researched, 571 verified affiliations, 253 verified employers, 5,133
-archival dispositions assessed and 18,762 `not_started`. All 95 Python tests,
-57 focused checks, 18 core checks, 6 analysis checks and 27 route-and-viewport
-axe cases pass. The profile, privacy, link, manifest, dependency and three-
-build reproducibility audits are green. See `reports/release_batch_541.md` and
-`research/batch-541-discovery-checkpoint.md`. Batch 540 is the current exact-
-verified public release. The goal remains active.
+Batch 542 is locally exact-verified and ready for pull-request release. It adds
+ten terminal saved outcomes for personnel-index PDF page 108 rows 34-43,
+Chiles W Dawson through Raymond L Day. Exact protected-identifier, name and
+rank agreement confirms Captain Joseph T Dawson as Joseph Turner Dawson. His
+1st Infantry Division assignment is published as the qualified probable
+immediate military predecessor to OSS; Ren-War Oil is the best-supported last
+civilian employer and Humble Oil an earlier employer. All three remain medium
+confidence pending Box 173 confirmation and are excluded from default verified
+analytics. Three exact Army matches support qualified entry-time occupation
+findings, not employers. Six identities remain unresolved. Exact coverage is
+5,188 / 23,940 researched, 571 verified affiliations, 253 verified employers,
+5,143 archival dispositions assessed and 18,752 `not_started`. All 95 Python
+tests, 57 focused checks, 18 core checks, 6 analysis checks and 27 route-and-
+viewport axe cases pass. The profile, privacy, link, manifest, dependency and
+three-build reproducibility audits are green. See
+`reports/release_batch_542.md` and
+`research/batch-542-discovery-checkpoint.md`. Batch 541 remains the current
+exact-verified public release. The goal remains active.
 
-Batch 540 is the current exact-verified public release. It adds ten
+Batch 541 is the exact-verified public predecessor. It adds ten terminal saved
+outcomes for personnel-index PDF page 108 rows 24-33, William G Davis through
+Camille L Dawson. Exact protected-identifier and name agreement confirms
+Robert W Davy as enlisted Army personnel; the official code table supports a
+qualified “Purchasing agents and buyers, n. e. c.” occupation, not an
+employer. The ranked Captain Carlos B Dawes is identified with high confidence
+as Carlos Burr Dawes, and independent contemporary and official sources
+support a documented 1930 Treasury Department national-bank examiner
+assignment. It is not presented as immediate or as a last civilian employer.
+The adjacent unranked Carlos row and both Walter P Davison rows remain separate
+and ambiguous; the William P Davis Colonel candidate is withheld. Four other
+identities remain unresolved. Exact coverage is 5,178 / 23,940 researched,
+571 verified affiliations, 253 verified employers, 5,133 archival
+dispositions assessed and 18,762 `not_started`. All 95 Python tests, 57 focused
+checks, 18 core checks, 6 analysis checks and 27 route-and-viewport axe cases
+pass. The profile, privacy, link, manifest, dependency and three-build
+reproducibility audits are green. See `reports/release_batch_541.md` and
+`research/batch-541-discovery-checkpoint.md`. Pull request #237 used branch
+commit `1daaf3d182abeafc9f8a1b0773c190c9f3ac6912` and merged as commit
+`c161d7d11aa35a6d29ed00ff1a0cfc245d988cbe`; PR Test run 34946731643, main
+Test run 34947387736 and Pages run 34947387730 succeeded. The live verifier
+matched all 67 manifest assets, 93,062,362 bytes, seven core routes and ten
+direct Batch 541 profiles. The goal remains active.
+
+Batch 540 is the exact-verified public predecessor. It adds ten
 terminal saved outcomes for personnel-index PDF page 108 rows 14-23, Roger F
 Davis through William A Davis. Exact protected-identifier and name agreement
 confirms Russell R Davis as enlisted Army personnel; the official code table
