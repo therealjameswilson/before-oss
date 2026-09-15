@@ -2,7 +2,30 @@
 
 Verified against the current local SQLite database on 2026-09-15 UTC.
 
-Batch 548 is a fully validated local release candidate. It adds ten terminal
+Batch 549 is the current local release candidate. It adds ten terminal saved
+outcomes for personnel-index PDF page 110 rows 12-21, George L DeCoster
+through Joseph L Dees, all in Box 176. Exact protected-identifier and
+normalized-name agreement confirms Fiore DeCristoforo, Nicholas G D'Ecsery
+and Leonard Decunha as enlisted Army personnel. Official code tables support
+three qualified broad occupation categories recorded at Army entry; none names
+an employer. Charles J DeDero retains an explicit conflicting identity because
+his protected identifier selects an Army row under Charles J De Fero; no
+occupation is carried across the surname conflict. George L DeCoster and Calvin
+C DeCray retain their printed `2nd Lt` classifications without namesake
+assignment. Jehan DeCrequy's `S/Lt` and `French` fields remain literal, E T
+Deerfield remains initial-only, and all five Deerfield newspaper candidates are
+rejected place-name or telephone-exchange collisions. Exact coverage is 5,258 /
+23,940 researched, 575 verified affiliations, 255 verified employers, 5,213
+archival dispositions assessed and 18,682 `not_started`. All 95 Python tests,
+57 focused checks, 18 core checks, 6 analysis checks and 27 route-and-viewport
+axe cases pass. The ingest, profile, privacy, link, dependency, manifest and
+three-build reproducibility audits are green. The long-standing duplicate-
+review advisory remains explicitly reported. See `reports/release_batch_549.md`
+and `research/batch-549-discovery-checkpoint.md`. Batch 548 remains the current
+exact-verified public release while Batch 549 proceeds through clean replay,
+review, merge, deployment and live verification. The goal remains active.
+
+Batch 548 is the current exact-verified public release. It adds ten terminal
 saved outcomes for personnel-index PDF page 110 rows 2-11, Edmund J Decaussin
 Jr. through Francis E Decker. Exact protected-identifier and normalized-name
 agreement confirms Edmund J Decaussin Jr., Jorg DeChochor and Joseph G Decicco
@@ -20,9 +43,12 @@ archival dispositions assessed and 18,692 `not_started`. All 95 Python tests,
 axe cases pass. The ingest, profile, privacy, link, dependency, manifest and
 three-build reproducibility audits are green. See
 `reports/release_batch_548.md` and
-`research/batch-548-discovery-checkpoint.md`. Batch 547 remains the current
-exact-verified public release until Batch 548 passes pull-request, main, Pages
-and live-release verification. The goal remains active.
+`research/batch-548-discovery-checkpoint.md`. Pull request #244 passed Test run
+34985607483 and merged as commit
+`8f496eb72a72dd9c7c5a761383be41e596e83f2c`; main Test run 34986487115 and
+Pages run 34986487034 succeeded. The live verifier matched all 67 manifest
+assets, 93,638,355 bytes, seven core routes and ten direct Batch 548 profiles.
+The goal remains active.
 
 Batch 547 is the current exact-verified public release. It adds ten terminal saved
 outcomes for personnel-index PDF page 109 rows 38-46 and page 110 row 1,
