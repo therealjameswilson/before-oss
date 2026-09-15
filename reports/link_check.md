@@ -2,7 +2,28 @@
 
 Run: 2026-09-15 UTC
 
-## Batch 549 release candidate
+## Batch 550 release candidate
+
+All internal targets resolve across 24,585 HTML pages; 49,988 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,657 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,101
+candidate substring coincidences. Two recognized aggregate-count matches and
+zero unexpected boundary or manifest-size matches remain. The public manifest
+has 67 assets / 93,753,017 bytes at SHA-256
+`6de75deabf7c60f250f05a2b183dac36f4dd982e8645b34a8338c807decd38fb`.
+Under the relative-path/content digest, the 70-file public tree is
+`2db996fe9d25119d4856a7f8b76daf63e3a827f9b3eece65660366a5fb088d50`;
+the 24,657-file production tree is
+`202ae28f7b280df89d1db419e8bbcd43bd9f9c5168b49660cbb07743715b3d10`.
+Three exact GitHub Pages-configured builds reproduce both trees. Four bundle
+sources support four identifier-confirmed and qualified Army occupations; no
+employer is inferred. Maurice Defenin and Serge Defleury remain qualified
+identity candidates without public claims, and the Hoover item remains an
+access-blocked archival lead. No authenticated Catalog request was used. Batch
+549 remains the exact-verified public release until Batch 550 passes clean
+replay, CI, deployment and independent live verification.
+
+## Batch 549 production release
 
 All internal targets resolve across 24,585 HTML pages; 49,988 external URLs
 are inventoried, not all visited. Identifier checks cover all 24,657 built
@@ -18,9 +39,10 @@ Three exact GitHub Pages-configured builds reproduce both trees. Three bundle
 sources support three identifier-confirmed and qualified Army occupations and
 Charles J DeDero's explicit surname conflict; no employer is inferred. All five
 LoC candidates were rejected through the review workflow. No authenticated
-Catalog request was used. Batch 548 remains the exact-verified public release
-until Batch 549 passes clean replay, CI, deployment and independent live
-verification.
+Catalog request was used. PR Test run 34992117094, main Test run 34992926816
+and Pages run 34992926944 succeeded; the live verifier matched all 67 manifest
+assets, 93,690,574 bytes, seven core routes and ten direct Batch 549 profiles at
+merge commit `d3e6c756308c280911e2c253cfea9ada76ed3662`.
 
 ## Batch 548 production release
 
