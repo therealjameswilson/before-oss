@@ -1,0 +1,615 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Codex archival research review",
+  "sources": [
+    {
+      "key": "index-b539",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; PDF page 108 rows 4-13 visually inspected; Boxes 171-172; location 230/86/29/06",
+      "access_date": "2026-09-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Citation and project-authored assessments only. Printed private values are withheld from public claims and exports."
+    },
+    {
+      "key": "army-b539",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official ASNEF.FIN.DAT; complete transient scan of 9,200,232 fixed-width records; four eligible private identifiers and all exact-name candidates adjudicated; identifiers withheld",
+      "access_date": "2026-09-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row, full private identifier, or other subject's full name is retained. Robert H, Robert E and Robert T Davis have exact identifier-and-name agreement; Minor M Davis has an identifier/full-name conflict. Six- and seven-character index values were not padded. The incomplete Army file is not a comprehensive OSS, officer, Navy, Marine Corps, civilian, women's-service, Coast Guard, or foreign roster; a non-hit is not negative proof."
+    },
+    {
+      "key": "codes-b539",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Code Lists",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "Code No. 30, Civilian Occupations, PDF physical page 171 / printed page XI and physical pages 176-177; entries 0-72 and 3-36, plus neighboring 9-89/absence of 9-99, visually and textually checked",
+      "access_date": "2026-09-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "The official table defines 0-72 as Retail managers and 3-36 as Farm couples. It shows 9-89 among the miscellaneous occupations but not 9-99, so value 999 is not interpreted. Occupational groups identify neither a named employer, workplace, exact role, nor the sequence from Army service to OSS."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "robert-h-davis-retail-managers-b539",
+      "person_id": "f2684834-3532-5a21-9216-632a4f2c6b22",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Retail managers",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-10-23",
+      "date_precision": "Civilian-occupation value 072 was recorded at Army entry on October 23, 1942. NARA's code table defines 0-72 as Retail managers; no employer, workplace, or exact role is identified.",
+      "city": null,
+      "state_or_region": null,
+      "country": null,
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier and full name confirm the Army identity. The historical occupational group is not converted into a named employer, immediate-OSS affiliation, workplace, or exact management role."
+    },
+    {
+      "key": "robert-t-davis-farm-couples-b539",
+      "person_id": "0f01525b-21aa-5a17-92d8-05d651be5ce5",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Farm couples",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-04-05",
+      "date_precision": "Civilian-occupation value 336 was recorded at Army entry on April 5, 1943. NARA's code table defines 3-36 as Farm couples; no spouse, farm, employer, workplace, or exact role is identified.",
+      "city": null,
+      "state_or_region": null,
+      "country": null,
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier and full name confirm the Army identity. The historical occupational group is preserved without inferring a spouse, farm, employer, immediate-OSS affiliation, workplace, or exact role."
+    }
+  ],
+  "claims": [
+    {
+      "key": "minor-m-davis-identity-conflict-b539",
+      "person_id": "74a3e55c-f716-5672-ae2a-871108ca67ec",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Minor M Davis has an unresolved private-identifier/full-name conflict.",
+      "evidence_paraphrase": "The private identifier printed in the OSS index selects an Army entry whose name contains additional initials; no exact-name Army row resolves the difference.",
+      "identity_match_assessment": "The identifier and full-name evidence conflict; the Army record is not assigned to the indexed person.",
+      "temporal_assessment": "The identifier-selected Army row is dated July 8, 1942, but none of its service, occupation, or biographical fields is accepted for Minor M Davis.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The full identifier and other subject's full name remain private. Box 171 and the original Army record require review.",
+      "sources": [
+        {
+          "source_key": "index-b539",
+          "support_type": "supports",
+          "locator_override": "PDF page 108, row 5; Box 171"
+        },
+        {
+          "source_key": "army-b539",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "robert-h-davis-identity-b539",
+      "person_id": "f2684834-3532-5a21-9216-632a4f2c6b22",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The OSS index and Army merged file identify the same Robert H Davis.",
+      "evidence_excerpt": "DAVIS ROBERT H",
+      "evidence_paraphrase": "The private identifier and exact full name agree across the two official NARA records.",
+      "identity_match_assessment": "Confirmed by exact private-identifier and full-name agreement.",
+      "temporal_assessment": "The Army row records entry on October 23, 1942, as private.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private value is withheld publicly. Eighty other exact-name Army rows carry different identifiers and remain unassigned.",
+      "sources": [
+        {
+          "source_key": "index-b539",
+          "support_type": "supports",
+          "locator_override": "PDF page 108, row 9; Box 171",
+          "excerpt_override": "DAVIS ROBERT H"
+        },
+        {
+          "source_key": "army-b539",
+          "support_type": "supports",
+          "excerpt_override": "DAVIS ROBERT H"
+        }
+      ]
+    },
+    {
+      "key": "robert-h-davis-occupation-b539",
+      "person_id": "f2684834-3532-5a21-9216-632a4f2c6b22",
+      "affiliation_key": "robert-h-davis-retail-managers-b539",
+      "claim_type": "occupation",
+      "claim_text": "Robert H Davis's Army-entry record classifies the prior civilian occupation under retail managers.",
+      "evidence_excerpt": "0-72. Retail managers",
+      "evidence_paraphrase": "The identifier-matched Army row carries value 072; NARA's official code list defines 0-72 as retail managers.",
+      "identity_match_assessment": "Confirmed exact private-identifier and full-name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry on October 23, 1942; no employer, workplace, or exact management role is identified.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical occupational group is not converted into a named employer, immediate-OSS affiliation, workplace, or exact job title.",
+      "sources": [
+        {
+          "source_key": "army-b539",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b539",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 171 / printed page XI; entry 0-72",
+          "excerpt_override": "0-72. Retail managers"
+        }
+      ]
+    },
+    {
+      "key": "robert-e-davis-identity-b539",
+      "person_id": "a081662b-2adf-5951-bb48-09b521f2a022",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The OSS index and Army merged file identify the same Robert E Davis.",
+      "evidence_excerpt": "DAVIS ROBERT E",
+      "evidence_paraphrase": "The private identifier and exact full name agree across the two official NARA records.",
+      "identity_match_assessment": "Confirmed by exact private-identifier and full-name agreement.",
+      "temporal_assessment": "The Army row records entry on June 11, 1941, as private.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private value is withheld publicly. One hundred ninety-seven other exact-name Army rows carry different identifiers. Occupation value 999 is not published because 9-99 is absent from the reviewed official table.",
+      "sources": [
+        {
+          "source_key": "index-b539",
+          "support_type": "supports",
+          "locator_override": "PDF page 108, row 12; Box 171",
+          "excerpt_override": "DAVIS ROBERT E"
+        },
+        {
+          "source_key": "army-b539",
+          "support_type": "supports",
+          "excerpt_override": "DAVIS ROBERT E"
+        }
+      ]
+    },
+    {
+      "key": "robert-t-davis-identity-b539",
+      "person_id": "0f01525b-21aa-5a17-92d8-05d651be5ce5",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The OSS index and Army merged file identify the same Robert T Davis.",
+      "evidence_excerpt": "DAVIS ROBERT T",
+      "evidence_paraphrase": "The private identifier and exact full name agree across the two official NARA records.",
+      "identity_match_assessment": "Confirmed by exact private-identifier and full-name agreement.",
+      "temporal_assessment": "The Army row records entry on April 5, 1943, as private.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private value is withheld publicly. Twenty-five other exact-name Army rows carry different identifiers and remain unassigned.",
+      "sources": [
+        {
+          "source_key": "index-b539",
+          "support_type": "supports",
+          "locator_override": "PDF page 108, row 13; Box 171",
+          "excerpt_override": "DAVIS ROBERT T"
+        },
+        {
+          "source_key": "army-b539",
+          "support_type": "supports",
+          "excerpt_override": "DAVIS ROBERT T"
+        }
+      ]
+    },
+    {
+      "key": "robert-t-davis-occupation-b539",
+      "person_id": "0f01525b-21aa-5a17-92d8-05d651be5ce5",
+      "affiliation_key": "robert-t-davis-farm-couples-b539",
+      "claim_type": "occupation",
+      "claim_text": "Robert T Davis's Army-entry record classifies the prior civilian occupation under the historical group ‘Farm couples.’",
+      "evidence_excerpt": "3-36. Farm couples",
+      "evidence_paraphrase": "The identifier-matched Army row carries value 336; NARA's official code list defines 3-36 as Farm couples.",
+      "identity_match_assessment": "Confirmed exact private-identifier and full-name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry on April 5, 1943; no spouse, farm, employer, workplace, or exact role is identified.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical occupational group is preserved verbatim and is not converted into a named employer, spouse, farm, immediate-OSS affiliation, workplace, or exact job title.",
+      "sources": [
+        {
+          "source_key": "army-b539",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b539",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 176; entry 3-36",
+          "excerpt_override": "3-36. Farm couples"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "bed59d15-66fe-5cfd-a2bd-a41648e38a86",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Mary P Davis without rank or private identifier. One exact-name Army row and generic web results cannot be linked to OSS or Box 171 by name alone.",
+      "name_variants": [
+        "Mary P Davis",
+        "Mary P. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 171 for full identity, service or civilian status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "74a3e55c-f716-5672-ae2a-871108ca67ec",
+      "identity_status": "conflicting",
+      "identity_evidence": "The exact private identifier printed for Minor M Davis selects one Army row whose name contains additional initials and therefore does not agree with the indexed full name. No exact-name Army row or outside source resolves the discrepancy.",
+      "name_variants": [
+        "Minor M Davis",
+        "Minor M. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 171 and the original Army source record to resolve the private-identifier/name conflict before assigning Army status, occupation, employer, or chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "13bb115c-47cc-5c19-97d9-8039d5036f95",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Peggy M Davis without rank or private identifier. No exact-name Army, CIA, Library of Congress, or web result supplies an OSS or Box 171 identity bridge.",
+      "name_variants": [
+        "Peggy M Davis",
+        "Peggy M. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 171 for full identity, service or civilian status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e7cf43fd-0bcb-592a-9726-0e315671642c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index prints Ray Davis with a six-character private value that is preserved exactly and not padded. Eighteen exact-name Army rows remain unassignable, while a prominent Marine Corps namesake has no OSS, Box 171, or protected-identifier bridge.",
+      "name_variants": [
+        "Ray Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer or military assignment has yet been identified in the accessible sources reviewed. Review Box 171 to resolve the private value, full identity, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "96743f6b-b6f5-5443-8207-f0dce6966053",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies a seven-character private value that is preserved exactly and not padded. Thirteen exact-name Army rows and later-life web biographies cannot be linked to OSS or Box 171.",
+      "name_variants": [
+        "Richard G Davis",
+        "Richard G. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 171 to resolve the private value, identity, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "f2684834-3532-5a21-9216-632a4f2c6b22",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier selects one Army row with the exact Robert H Davis name. The row records entry as private on October 23, 1942. Eighty other exact-name Army rows carry different identifiers and remain unassigned.",
+      "name_variants": [
+        "Robert H Davis",
+        "Robert H. Davis"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Retail manager is documented as the Army entry-time civilian occupational group, but no employer, workplace, exact role, or immediate OSS predecessor is identified. Review Box 171 for employer, Army unit, OSS role, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "13b34e92-909a-5e1a-901b-418282a3c346",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Robert W Davis without rank or private identifier. One hundred exact-name Army rows and generic web results cannot be connected to OSS or Box 172 by this common name alone.",
+      "name_variants": [
+        "Robert W Davis",
+        "Robert W. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 172 for full identity, service or civilian status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "6b6a26ab-e25d-5b81-ae7d-9b0ea1a27d24",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies a seven-character private value that is preserved exactly and not padded. Twenty-eight exact-name Army rows and generic web results cannot be linked to OSS or Box 171.",
+      "name_variants": [
+        "Robert P Davis",
+        "Robert P. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 171 to resolve the private value, identity, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "a081662b-2adf-5951-bb48-09b521f2a022",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier selects one Army row with the exact Robert E Davis name. The row records entry as private on June 11, 1941. One hundred ninety-seven other exact-name Army rows carry different identifiers and remain unassigned.",
+      "name_variants": [
+        "Robert E Davis",
+        "Robert E. Davis"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Identity and Army entry are confirmed, but occupation value 999 is not defined by the reviewed official table and no employer is identified. Review Box 171 for the original occupation wording, employer, Army unit, OSS role, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "0f01525b-21aa-5a17-92d8-05d651be5ce5",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier selects one Army row with the exact Robert T Davis name. The row records entry as private on April 5, 1943. Twenty-five other exact-name Army rows carry different identifiers and remain unassigned.",
+      "name_variants": [
+        "Robert T Davis",
+        "Robert T. Davis"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "The historical Army occupational group ‘Farm couples’ is documented at entry, but it does not establish a spouse, farm, employer, workplace, exact role, or immediate OSS predecessor. Review Box 171 for the original occupation wording, employer, Army unit, OSS role, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b539-mary-p-davis",
+      "person_id": "bed59d15-66fe-5cfd-a2bd-a41648e38a86",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 108; complete Army comparison; CIA and current Library of Congress checks; Mary P Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_unassigned_army_candidate",
+      "started_at": "2026-09-15T06:20:00Z",
+      "completed_at": "2026-09-15T06:40:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The single name-only Army row and generic web namesakes lack an OSS, Box 171, private-identifier, or corroborating-identity bridge.",
+      "research_notes": "No Army row, occupation, employer, or namesake biography is assigned by name alone.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 171 for full identity, service or civilian status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch539-v1"
+    },
+    {
+      "key": "b539-minor-m-davis",
+      "person_id": "74a3e55c-f716-5672-ae2a-871108ca67ec",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 108; complete Army comparison; CIA and current Library of Congress checks; Minor M Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_exact_identifier_full_name_conflict",
+      "started_at": "2026-09-15T06:21:00Z",
+      "completed_at": "2026-09-15T06:41:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The identifier-selected Army row has additional initials and cannot be assigned to Minor M Davis without personnel-file evidence.",
+      "research_notes": "The conflict is published without the other subject's full name, private identifier, occupation, or additional personal details.",
+      "next_action": "Review Box 171 and the original Army source record to resolve the private-identifier/name conflict before assigning Army status, occupation, employer, or chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch539-v1"
+    },
+    {
+      "key": "b539-peggy-m-davis",
+      "person_id": "13bb115c-47cc-5c19-97d9-8039d5036f95",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 108; complete Army comparison; CIA and current Library of Congress checks; Peggy M Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_no_reliable_candidate",
+      "started_at": "2026-09-15T06:22:00Z",
+      "completed_at": "2026-09-15T06:42:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "No plausible candidate survived the exact-name official, employment, occupation, obituary, institutional, newspaper, directory, military, or archival searches.",
+      "research_notes": "The zero-candidate result is not evidence that the person lacked a prior affiliation.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 171 for full identity, service or civilian status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch539-v1"
+    },
+    {
+      "key": "b539-ray-davis",
+      "person_id": "e7cf43fd-0bcb-592a-9726-0e315671642c",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 108; complete Army comparison; CIA and current Library of Congress checks; Ray Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_incomplete_common_name_ineligible_private_value",
+      "started_at": "2026-09-15T06:23:00Z",
+      "completed_at": "2026-09-15T06:43:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 22,
+      "candidate_sources_rejected": 19,
+      "rejection_reasons": "Eighteen name-only Army rows and the Marine Corps namesake lack the exact indexed private value, OSS evidence, Box 171 link, or corroborating identifiers.",
+      "research_notes": "No Army row, Marine biography, occupation, employer, or military assignment is assigned.",
+      "next_action": "No reliable pre-OSS employer or military assignment has yet been identified in the accessible sources reviewed. Review Box 171 to resolve the private value, full identity, service status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch539-v1"
+    },
+    {
+      "key": "b539-richard-g-davis",
+      "person_id": "96743f6b-b6f5-5443-8207-f0dce6966053",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 108; complete Army comparison; CIA and current Library of Congress checks; Richard G Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_ineligible_private_value_unassigned_candidates",
+      "started_at": "2026-09-15T06:24:00Z",
+      "completed_at": "2026-09-15T06:44:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 17,
+      "candidate_sources_rejected": 14,
+      "rejection_reasons": "Thirteen name-only Army rows and later-life namesakes lack the exact indexed private value, an OSS statement, Box 171 linkage, or corroborating identifiers.",
+      "research_notes": "No Army row, postwar biography, occupation, employer, or institution is assigned.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 171 to resolve the private value, identity, service status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch539-v1"
+    },
+    {
+      "key": "b539-robert-h-davis",
+      "person_id": "f2684834-3532-5a21-9216-632a4f2c6b22",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 108; complete Army comparison; CIA and current Library of Congress checks; Robert H Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_confirmed_army_identity_occupation_only",
+      "started_at": "2026-09-15T06:25:00Z",
+      "completed_at": "2026-09-15T06:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 85,
+      "candidate_sources_rejected": 82,
+      "rejection_reasons": "Eighty other exact-name Army rows carry different identifiers; generic web namesakes lack the protected identifier, OSS context, or Box 171 bridge.",
+      "research_notes": "The official Army identity and occupational group are accepted; the category is not converted into a named employer, workplace, exact management role, or immediate OSS sequence.",
+      "next_action": "Retail manager is documented as the Army entry-time civilian occupational group, but no employer, workplace, exact role, or immediate OSS predecessor is identified. Review Box 171 for employer, Army unit, OSS role, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch539-v1"
+    },
+    {
+      "key": "b539-robert-w-davis",
+      "person_id": "13b34e92-909a-5e1a-901b-418282a3c346",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 108; complete Army comparison; CIA and current Library of Congress checks; Robert W Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_many_unassigned_candidates",
+      "started_at": "2026-09-15T06:26:00Z",
+      "completed_at": "2026-09-15T06:46:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 104,
+      "candidate_sources_rejected": 102,
+      "rejection_reasons": "One hundred name-only Army rows and generic web namesakes lack an OSS, Box 172, private-identifier, or corroborating-identity bridge.",
+      "research_notes": "No Army row, occupation, employer, or namesake biography is assigned by name alone.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 172 for full identity, service or civilian status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch539-v1"
+    },
+    {
+      "key": "b539-robert-p-davis",
+      "person_id": "6b6a26ab-e25d-5b81-ae7d-9b0ea1a27d24",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 108; complete Army comparison; CIA and current Library of Congress checks; Robert P Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_ineligible_private_value_unassigned_candidates",
+      "started_at": "2026-09-15T06:27:00Z",
+      "completed_at": "2026-09-15T06:47:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 32,
+      "candidate_sources_rejected": 30,
+      "rejection_reasons": "Twenty-eight name-only Army rows and generic web namesakes lack the exact indexed private value, OSS evidence, Box 171 linkage, or corroborating identifiers.",
+      "research_notes": "No Army row, occupation, employer, or namesake biography is assigned.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 171 to resolve the private value, identity, service status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch539-v1"
+    },
+    {
+      "key": "b539-robert-e-davis",
+      "person_id": "a081662b-2adf-5951-bb48-09b521f2a022",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 108; complete Army comparison; CIA and current Library of Congress checks; Robert E Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_confirmed_identity_undefined_occupation_code",
+      "started_at": "2026-09-15T06:28:00Z",
+      "completed_at": "2026-09-15T06:48:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 202,
+      "candidate_sources_rejected": 199,
+      "rejection_reasons": "One hundred ninety-seven other exact-name Army rows carry different identifiers; generic web namesakes lack the protected identifier, OSS context, or Box 171 bridge.",
+      "research_notes": "The exact identifier confirms identity and Army entry. Value 999 remains uninterpreted because 9-99 is absent from the reviewed official table.",
+      "next_action": "Identity and Army entry are confirmed, but occupation value 999 is not defined by the reviewed official table and no employer is identified. Review Box 171 for the original occupation wording, employer, Army unit, OSS role, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch539-v1"
+    },
+    {
+      "key": "b539-robert-t-davis",
+      "person_id": "0f01525b-21aa-5a17-92d8-05d651be5ce5",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 108; complete Army comparison; CIA and current Library of Congress checks; Robert T Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_confirmed_army_identity_occupation_only",
+      "started_at": "2026-09-15T06:29:00Z",
+      "completed_at": "2026-09-15T06:49:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 30,
+      "candidate_sources_rejected": 27,
+      "rejection_reasons": "Twenty-five other exact-name Army rows carry different identifiers; generic web namesakes lack the protected identifier, OSS context, or Box 171 bridge.",
+      "research_notes": "The official Army identity and historical occupational group are accepted verbatim; no spouse, farm, employer, workplace, exact role, or immediate OSS sequence is inferred.",
+      "next_action": "The historical Army occupational group ‘Farm couples’ is documented at entry, but it does not establish a spouse, farm, employer, workplace, exact role, or immediate OSS predecessor. Review Box 171 for the original occupation wording, employer, Army unit, OSS role, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch539-v1"
+    }
+  ]
+}

@@ -164,6 +164,9 @@ and do not merge the four Robert Davis entries by normalized name.
 
 ## Release boundary
 
-Batch 538 is the current local release candidate. Batch 537 remains the
-exact-verified public release at merge commit
-`189d1612fd0afa49ec8c13aeea58b9a2d0b1f8a7`. The goal remains active.
+Batch 538 is the current exact-verified public release. Pull request #234 was
+merged as commit `fc85b3e63549fc771aeeb50333c1d72cb275d997`; PR Test run
+34935812449, main Test run 34936369315 and Pages run 34936369372 succeeded.
+The live verifier matched all 67 manifest assets, 92,913,597 bytes, seven core
+routes and all ten direct Batch 538 profiles at that immutable merge commit.
+The goal remains active.
