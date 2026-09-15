@@ -118,7 +118,8 @@ verified through consecutive imports.
 
 ## Next cohort
 
-Resume with personnel-index PDF page 110 rows 32-41, Joseph P Defrancesco
-through Claudius Delalaing, all in Box 176 at archival location
-`230/86/29/07`. Render and inspect the source region before research and retain
-all printed spellings, ranks, notes and private fields exactly.
+Batch 551 continued with personnel-index PDF page 110 rows 32-41, Clifford H
+DeFlumear through Lawrence DeGennaro, all in Box 176 at archival location
+`230/86/29/07`. The earlier next-cohort note was corrected against the database
+and a fresh rendering of the source page; it did not affect Batch 550's saved
+outcomes.

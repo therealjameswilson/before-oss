@@ -139,12 +139,14 @@ python3 -m oss_research audit-profiles --sample-size 200
 python3 scripts/audit_public_identifiers.py --database research/research.sqlite --public-root site/dist
 ```
 
-Research resumes with personnel-index PDF page 110 rows 32-41, Joseph P
-Defrancesco through Claudius Delalaing, all in Box 176 at location
-`230/86/29/07`.
+Batch 551 continued with personnel-index PDF page 110 rows 32-41, Clifford H
+DeFlumear through Lawrence DeGennaro, all in Box 176 at location
+`230/86/29/07`. This corrects the earlier next-cohort note against the database
+and a fresh source-page rendering; Batch 550's cohort and outcomes are
+unchanged.
 
 ## Release boundary
 
-Batch 549 is the current exact-verified public release until Batch 550 passes
-the local release gate, review, merge, deployment and independent live
-verification. The goal remains active.
+Batch 550 subsequently passed review, merged as commit
+`738a9c22c3561af0d79fefbc37b7ee31a4cd337d`, deployed, and passed independent
+exact live verification. The goal remains active.

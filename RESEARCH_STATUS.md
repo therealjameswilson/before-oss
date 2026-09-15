@@ -2,26 +2,42 @@
 
 Verified against the current local SQLite database on 2026-09-15 UTC.
 
-Batch 550 is the current local release candidate. It adds ten terminal saved
-outcomes for personnel-index PDF page 110 rows 22-31, Kathleen M Dees through
-Serge Defleury, all in Box 176. Exact protected-identifier agreement confirms
-Albert W Deese, Slyvester S Defazio, Joseph A DeFelice and Nick DeFeo under
-transparent spelling or surname-spacing variants. Official code tables support
-four qualified broad occupation categories recorded at Army entry; none names
-an employer. Maurice Defenin remains a probable French rare-name candidate and
-Serge Defleury remains an ambiguous postwar namesake; neither receives a public
-biography or affiliation. Four other identities remain unresolved. A Hoover
-OSS report is preserved only as an access-blocked reading-room lead. Exact
-coverage is 5,268 / 23,940 researched, 575 verified affiliations, 255 verified
-employers, 5,223 archival dispositions assessed and 18,672 `not_started`. All
-95 Python tests, 57 focused checks, 18 core checks, 6 analysis checks and 27
+Batch 551 is the current local release candidate. It adds ten terminal saved
+outcomes for personnel-index PDF page 110 rows 32-41, Clifford H DeFlumear
+through Lawrence DeGennaro, all in Box 176. Official Veterans History Project
+and Army sources support René J Defourneaux's Special Operations Executive
+predecessor and earlier tool-maker occupation without inventing an employer.
+Box-linked evidence supports Rene DeGaston's Polish military predecessor,
+earlier Sopot Casino employment and unnamed dock work as distinct findings. A
+contemporary account supports Claire de Forbin only as a probable identity;
+her Franco-American Service affiliation is visibly qualified and excluded
+from default analytics. Protected identifiers confirm three further Army
+identities, but publish only two qualified occupations because one official
+code is unmapped. Three people remain ambiguous or unresolved. Exact coverage
+is 5,278 / 23,940 researched, 577 verified affiliations, 256 verified
+employers, 5,233 archival dispositions assessed and 18,662 `not_started`. All
+95 Python tests, 63 focused checks, 18 core checks, 6 analysis checks and 27
 route-and-viewport axe cases pass. The ingest, profile, privacy, link,
-dependency, manifest and three-build reproducibility audits are green. The
-long-standing duplicate-review advisory remains explicitly reported. See
-`reports/release_batch_550.md` and
-`research/batch-550-discovery-checkpoint.md`. Batch 549 remains the current
-exact-verified public release while Batch 550 proceeds through clean replay,
+dependency, manifest and three-build reproducibility audits are green. See
+`reports/release_batch_551.md` and
+`research/batch-551-discovery-checkpoint.md`. Batch 550 remains the current
+exact-verified public release while Batch 551 proceeds through clean replay,
 review, merge, deployment and live verification. The goal remains active.
+
+Batch 550 is the current exact-verified public release. It adds ten terminal
+saved outcomes for personnel-index PDF page 110 rows 22-31, Kathleen M Dees
+through Serge Defleury, all in Box 176. Exact protected-identifier agreement
+confirms Albert W Deese, Slyvester S Defazio, Joseph A DeFelice and Nick DeFeo
+under transparent spelling or surname-spacing variants. Official code tables
+support four qualified broad occupations recorded at Army entry; none names an
+employer. Maurice Defenin remains probable, Serge Defleury remains ambiguous,
+and four other identities remain unresolved. Pull request #246 passed Test run
+34997607761 and merged as commit
+`738a9c22c3561af0d79fefbc37b7ee31a4cd337d`; Pages run 34998766414 succeeded.
+The live verifier matched all 67 manifest assets, 93,753,017 bytes, seven core
+routes and ten direct Batch 550 profiles at manifest SHA-256
+`6de75deabf7c60f250f05a2b183dac36f4dd982e8645b34a8338c807decd38fb`.
+The goal remains active.
 
 Batch 549 is the current exact-verified public release. It adds ten terminal
 saved outcomes for personnel-index PDF page 110 rows 12-21, George L DeCoster
