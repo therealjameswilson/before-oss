@@ -2,7 +2,25 @@
 
 Verified against the current local SQLite database on 2026-09-15 UTC.
 
-Batch 536 is the current fully validated local release candidate. It adds ten
+Batch 537 is a fully validated local release candidate. It adds ten terminal
+saved outcomes for personnel-index PDF page 107 rows 30-39, Howell A Davis Jr.
+through Jean Davis, all in Box 170. Exact protected-identifier and name
+agreement confirms James M Davis as enlisted Army personnel; the official
+entry-time occupation table supports a qualified structural- and ornamental-
+metal-workers finding, not an employer finding. Irvin P Davis carries a
+visible official-record identity conflict because the protected identifier and
+exact-name Army evidence point to different records. Eight further identities
+remain unresolved. Exact coverage is 5,138 / 23,940 researched, 569 verified
+affiliations, 253 verified employers, 5,093 archival dispositions assessed and
+18,802 `not_started`. All 95 Python tests, 48 focused checks, 18 core checks,
+6 analysis checks and 27 route-and-viewport axe cases pass. The profile,
+privacy, link, manifest, dependency and three-build reproducibility audits are
+green. See `reports/release_batch_537.md` and
+`research/batch-537-discovery-checkpoint.md`. Batch 536 remains the current
+exact-verified public release until this candidate completes GitHub CI, Pages
+deployment and immutable live verification. The goal remains active.
+
+Batch 536 is the current exact-verified public release. It adds ten
 terminal saved outcomes for personnel-index PDF page 107 rows 20-29, Emiscah
 Davis through Howard Davis, all in Box 170. Exact protected-identifier matches
 confirm Fred C Davis and Howard Davis as enlisted Army personnel; their
@@ -16,9 +34,11 @@ verified employers, 5,083 archival dispositions assessed and 18,812
 analysis checks and 27 route-and-viewport axe cases pass. The profile,
 privacy, link, manifest, dependency and three-build reproducibility audits are
 green. See `reports/release_batch_536.md` and
-`research/batch-536-discovery-checkpoint.md`. Independent GitHub Actions,
-merge, Pages deployment and exact live checks remain pending. The goal remains
-active.
+`research/batch-536-discovery-checkpoint.md`. Pull request #232 was merged as
+commit `af3adc4ca850b542d458409e66e1017420bb5740`; PR Test run 34928915638,
+main Test run 34929378545 and Pages run 34929378541 succeeded. The live
+verifier matched all 67 manifest assets, 92,861,626 manifest bytes, seven core
+routes and ten direct Batch 536 profiles. The goal remains active.
 
 Batch 535 is the exact-verified public predecessor. It adds ten terminal
 saved outcomes for personnel-index PDF page 107 rows 10-19, Charlotte M Davis

@@ -1,0 +1,512 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Codex archival research review",
+  "sources": [
+    {
+      "key": "index-b537",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; PDF page 107 rows 30-39 visually inspected; Box 170; location 230/86/29/06",
+      "access_date": "2026-09-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Citation and project-authored assessments only. Printed private values are withheld from public claims and exports."
+    },
+    {
+      "key": "army-b537",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official ASNEF.FIN.DAT; complete transient scan of 9,200,232 fixed-width records; two eligible private identifiers and all exact-name candidates adjudicated; identifiers withheld",
+      "access_date": "2026-09-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row, full private identifier, or unrelated subject name is retained. James M Davis has exact identifier-and-name agreement. Irvin P Davis has an identifier/full-name conflict. Six- and seven-character index values were not padded. The incomplete Army file is not a comprehensive OSS, officer, Navy, Marine Corps, civilian, women's-service, Coast Guard, or foreign roster; a non-hit is not negative proof."
+    },
+    {
+      "key": "codes-b537",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Code Lists",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "Code No. 30, Civilian Occupations, PDF physical page 178 / printed page XXV; entry 6-84 visually and textually checked",
+      "access_date": "2026-09-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "The official table defines 6-84 as Structural- and ornamental-metal workers. The category identifies neither an employer, workplace, specific trade, nor the sequence from Army service to OSS; the historical wording is preserved."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "james-m-davis-structural-metal-worker-b537",
+      "person_id": "ca6eb565-d431-512d-8827-ebe6ebcfa889",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Structural- and ornamental-metal worker",
+      "occupation": "Structural- and ornamental-metal workers",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-03-01",
+      "date_precision": "Civilian-occupation value 684 was recorded at Army entry on March 1, 1942. NARA's code table defines 6-84 as Structural- and ornamental-metal workers; no employer, workplace, or specific trade is identified.",
+      "city": null,
+      "state_or_region": null,
+      "country": null,
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier and full name confirm the Army identity. The historical occupational group is not converted into a named employer, immediate-OSS affiliation, workplace, or narrower trade."
+    }
+  ],
+  "claims": [
+    {
+      "key": "irvin-p-davis-identity-conflict-b537",
+      "person_id": "ca4d52ae-743e-5e0e-8394-31c202f5a719",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Irvin P Davis has an unresolved private-identifier/full-name conflict.",
+      "evidence_paraphrase": "The exact private identifier printed in the OSS index returns an Army entry with a wholly different full name; a separate exact-name Army row carries another identifier.",
+      "identity_match_assessment": "The identifier and name evidence conflict; neither Army record is assigned to the indexed person.",
+      "temporal_assessment": "The identifier-selected Army row is dated October 21, 1943, but none of its occupation or biographical fields is accepted for Irvin P Davis.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The full identifier and unrelated subject's identity remain private. Box 170 and the original Army record require review.",
+      "sources": [
+        {
+          "source_key": "index-b537",
+          "support_type": "supports",
+          "locator_override": "PDF page 107, row 32; Box 170"
+        },
+        {
+          "source_key": "army-b537",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "james-m-davis-identity-b537",
+      "person_id": "ca6eb565-d431-512d-8827-ebe6ebcfa889",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The OSS index and Army merged file identify the same James M Davis.",
+      "evidence_excerpt": "DAVIS JAMES M",
+      "evidence_paraphrase": "The private identifier and exact name agree across the two official NARA records.",
+      "identity_match_assessment": "Confirmed by the exact private identifier and full-name match.",
+      "temporal_assessment": "The Army row records entry on March 1, 1942, as private.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private value is withheld publicly. Eighty-six other exact-name Army rows carry different identifiers and remain unassigned.",
+      "sources": [
+        {
+          "source_key": "index-b537",
+          "support_type": "supports",
+          "locator_override": "PDF page 107, row 37; Box 170",
+          "excerpt_override": "DAVIS JAMES M"
+        },
+        {
+          "source_key": "army-b537",
+          "support_type": "supports",
+          "excerpt_override": "DAVIS JAMES M"
+        }
+      ]
+    },
+    {
+      "key": "james-m-davis-occupation-b537",
+      "person_id": "ca6eb565-d431-512d-8827-ebe6ebcfa889",
+      "affiliation_key": "james-m-davis-structural-metal-worker-b537",
+      "claim_type": "occupation",
+      "claim_text": "James M Davis's Army-entry record classifies the prior civilian occupation as structural- and ornamental-metal worker.",
+      "evidence_excerpt": "6-84. Structural- and ornamental-metal workers",
+      "evidence_paraphrase": "The identifier-matched Army row carries value 684; NARA's official code list defines 6-84 as structural- and ornamental-metal workers.",
+      "identity_match_assessment": "Confirmed exact private-identifier and name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry on March 1, 1942; no employer, workplace, or specific trade is identified.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical occupational group is not converted into a named employer, immediate-OSS affiliation, workplace, or narrower trade.",
+      "sources": [
+        {
+          "source_key": "army-b537",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b537",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 178 / printed page XXV; entry 6-84",
+          "excerpt_override": "6-84. Structural- and ornamental-metal workers"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "b62f290b-7f6b-5ed2-82e0-07b32e59536b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Howell A Davis Jr. with a six-character private value. The value was preserved exactly and not padded. No exact-name Army row or accessible official, obituary, institutional, newspaper, directory, military, or archival result supplies an OSS or Box 170 bridge.",
+      "name_variants": [
+        "Howell A Davis Jr.",
+        "Howell A. Davis Jr.",
+        "Howell A Davis, Jr."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 to resolve the private value, full identity, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "4bae7a16-bbff-5450-a178-963759ddfd42",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies a seven-character private value that was preserved exactly and not padded. Two exact-name Army rows carry other identifiers, and accessible searches provide no OSS or Box 170 evidence that selects either namesake.",
+      "name_variants": [
+        "Hoyt B Davis",
+        "Hoyt B. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 to resolve the private value, birth details, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ca4d52ae-743e-5e0e-8394-31c202f5a719",
+      "identity_status": "conflicting",
+      "identity_evidence": "The exact private identifier printed for Irvin P Davis returns an Army row with an entirely different full name. A separate exact-name Irvin P Davis Army row carries another identifier. Neither Army record, occupation, or biographical detail is assigned to the indexed person.",
+      "name_variants": [
+        "Irvin P Davis",
+        "Irvin P. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 170 and the original Army source record to resolve the identifier/name conflict before assigning any occupation, employer, military pathway, or outside biography.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "3c2ae6fe-a858-53ba-8d08-46f9f7d2f5c3",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Isabelle M Davis without rank or private identifier. No exact-name Army row appears, while obituary and burial namesakes cannot be connected to OSS, the index spelling, or Box 170.",
+      "name_variants": [
+        "Isabelle M Davis",
+        "Isabelle M. Davis",
+        "Isabel M Davis",
+        "Isabel M. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 for full name, birth details, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "0c93f7ad-d011-53dd-8be3-ad451eb70185",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies a six-character private value that was preserved exactly and not padded. Nineteen exact-name Army rows and an Oregon biographical namesake cannot be connected to that value, OSS, or Box 170.",
+      "name_variants": [
+        "Jack E Davis",
+        "Jack E. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 to resolve the private value, birth details, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "f8810526-dfbe-5d21-abb7-cd54431c0d01",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies a seven-character private value that was preserved exactly and not padded. One hundred forty-seven exact-name Army rows and military or archival web namesakes cannot be selected without another matching identifier or Box 170 evidence.",
+      "name_variants": [
+        "James A Davis",
+        "James A. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 to resolve the private value, full identity, military status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "330f89fe-6008-5162-b697-3b2396a69d57",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies a seven-character private value that was preserved exactly and not padded. Two hundred twelve exact-name Army rows and generic obituary or military results cannot be linked to OSS or Box 170.",
+      "name_variants": [
+        "James E Davis",
+        "James E. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 to resolve the private value, full identity, military status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ca6eb565-d431-512d-8827-ebe6ebcfa889",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact private identifier selects one Army row with the exact James M Davis name. The Army row records entry as private on March 1, 1942; eighty-six other exact-name Army rows carry different identifiers and remain unassigned.",
+      "name_variants": [
+        "James M Davis",
+        "James M. Davis"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Structural- and ornamental-metal worker is documented at Army entry, but no employer, workplace, specific trade, or immediate OSS predecessor is identified. Review Box 170 for employer, Army unit, OSS role, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "da56d687-2bde-5d66-8a43-a6edd975c394",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Jane M Davis without rank or private identifier. No exact-name Army row or accessible official, obituary, institutional, newspaper, directory, military, or archival result supplies an OSS or Box 170 identity bridge.",
+      "name_variants": [
+        "Jane M Davis",
+        "Jane M. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 for full name, birth details, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "d54eba4c-1174-5007-a577-a9fa53a4fb36",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Jean Davis without middle initial, rank, or private identifier. One exact-name Army row and numerous generic web results cannot be linked to OSS or Box 170 by this common name alone.",
+      "name_variants": [
+        "Jean Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 for full name, birth details, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b537-howell-a-davis-jr",
+      "person_id": "b62f290b-7f6b-5ed2-82e0-07b32e59536b",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; Howell A Davis Jr. exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_ineligible_private_value_no_reliable_candidate",
+      "started_at": "2026-09-15T04:20:00Z",
+      "completed_at": "2026-09-15T05:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "No plausible candidate survived exact-name OSS, Army, CIA, Library of Congress, employment, occupation, obituary, institutional, military, or archival discovery.",
+      "research_notes": "A zero-candidate result is a bounded online outcome, not proof that the person lacked a prior employer or military assignment.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 to resolve the private value, full identity, service status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch537-v1"
+    },
+    {
+      "key": "b537-hoyt-b-davis",
+      "person_id": "4bae7a16-bbff-5450-a178-963759ddfd42",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; Hoyt B Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_ineligible_private_value_two_unassigned_army_candidates",
+      "started_at": "2026-09-15T04:21:00Z",
+      "completed_at": "2026-09-15T05:01:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Two exact-name Army rows cannot be selected using the shorter index value; no web, CIA, or Library of Congress result supplies a corroborating OSS or Box 170 identifier.",
+      "research_notes": "No Army occupation, employer, or affiliation is assigned from a name match alone.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 to resolve the private value, birth details, service status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch537-v1"
+    },
+    {
+      "key": "b537-irvin-p-davis",
+      "person_id": "ca4d52ae-743e-5e0e-8394-31c202f5a719",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; Irvin P Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_exact_identifier_full_name_conflict",
+      "started_at": "2026-09-15T04:22:00Z",
+      "completed_at": "2026-09-15T05:02:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "The identifier-selected Army row has a wholly different name; the name-selected Army row has a different identifier. Burial and obituary namesakes lack an OSS, Box 170, or protected-identifier bridge.",
+      "research_notes": "The conflict is published without the unrelated subject's name, private identifier, occupation, or other personal details.",
+      "next_action": "Review Box 170 and the original Army source record to resolve the identifier/name conflict before assigning any occupation, employer, military pathway, or outside biography.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch537-v1"
+    },
+    {
+      "key": "b537-isabelle-m-davis",
+      "person_id": "3c2ae6fe-a858-53ba-8d08-46f9f7d2f5c3",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; Isabelle M Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_name_variant_unresolved",
+      "started_at": "2026-09-15T04:23:00Z",
+      "completed_at": "2026-09-15T05:03:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Isabelle and Isabel obituary or burial candidates lack OSS, Box 170, service, or other corroborating identifiers and remain unassigned.",
+      "research_notes": "The Isabel spelling is retained only as a search variant, not a correction or asserted identity.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 for full name, birth details, service status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch537-v1"
+    },
+    {
+      "key": "b537-jack-e-davis",
+      "person_id": "0c93f7ad-d011-53dd-8be3-ad451eb70185",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; Jack E Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_ineligible_private_value_many_unassigned_candidates",
+      "started_at": "2026-09-15T04:24:00Z",
+      "completed_at": "2026-09-15T05:04:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 23,
+      "candidate_sources_rejected": 20,
+      "rejection_reasons": "Nineteen exact-name Army rows carry unbridged identifiers; the Oregon namesake has no protected-value, OSS, or Box 170 connection.",
+      "research_notes": "No Army row, occupation, employer, or later-life identity is assigned by name alone.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 to resolve the private value, birth details, service status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch537-v1"
+    },
+    {
+      "key": "b537-james-a-davis",
+      "person_id": "f8810526-dfbe-5d21-abb7-cd54431c0d01",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; James A Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_ineligible_private_value",
+      "started_at": "2026-09-15T04:25:00Z",
+      "completed_at": "2026-09-15T05:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 152,
+      "candidate_sources_rejected": 149,
+      "rejection_reasons": "One hundred forty-seven Army rows plus military and archival namesakes lack the shorter protected value, an OSS link, or Box 170 evidence.",
+      "research_notes": "Common-name safeguards prevent selection of a service record, occupation, employer, or unit from search prominence.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 to resolve the private value, full identity, military status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch537-v1"
+    },
+    {
+      "key": "b537-james-e-davis",
+      "person_id": "330f89fe-6008-5162-b697-3b2396a69d57",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; James E Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_ineligible_private_value",
+      "started_at": "2026-09-15T04:26:00Z",
+      "completed_at": "2026-09-15T05:06:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 216,
+      "candidate_sources_rejected": 213,
+      "rejection_reasons": "Two hundred twelve Army rows and a generic obituary lead lack the shorter protected value, an OSS connection, or Box 170 evidence.",
+      "research_notes": "No namesake biography, Army occupation, employer, or affiliation is assigned.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 to resolve the private value, full identity, military status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch537-v1"
+    },
+    {
+      "key": "b537-james-m-davis",
+      "person_id": "ca6eb565-d431-512d-8827-ebe6ebcfa889",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; James M Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_confirmed_army_identity_occupation_only",
+      "started_at": "2026-09-15T04:27:00Z",
+      "completed_at": "2026-09-15T05:07:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 91,
+      "candidate_sources_rejected": 86,
+      "rejection_reasons": "Eighty-six other exact-name Army rows carry different identifiers; web, CIA, and Library of Congress results supply no stronger or contradictory identity bridge.",
+      "research_notes": "The official Army identity and occupational group are accepted; no metalworking employer, workplace, exact job title, or immediate OSS sequence is inferred.",
+      "next_action": "Structural- and ornamental-metal worker is documented at Army entry, but no employer, workplace, specific trade, or immediate OSS predecessor is identified. Review Box 170 for employer, Army unit, OSS role, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch537-v1"
+    },
+    {
+      "key": "b537-jane-m-davis",
+      "person_id": "da56d687-2bde-5d66-8a43-a6edd975c394",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; Jane M Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_no_reliable_candidate",
+      "started_at": "2026-09-15T04:28:00Z",
+      "completed_at": "2026-09-15T05:08:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "No plausible candidate survived exact-name OSS, Army, CIA, Library of Congress, employment, occupation, obituary, institutional, military, or archival discovery.",
+      "research_notes": "The zero-candidate result is not evidence that the person lacked a prior affiliation.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 for full name, birth details, service status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch537-v1"
+    },
+    {
+      "key": "b537-jean-davis",
+      "person_id": "d54eba4c-1174-5007-a577-a9fa53a4fb36",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; Jean Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_incomplete_common_name_unassigned_candidate",
+      "started_at": "2026-09-15T04:29:00Z",
+      "completed_at": "2026-09-15T05:09:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The single exact-name Army row and a modern fictional employment example lack a middle initial, OSS evidence, Box 170 link, or corroborating identifier.",
+      "research_notes": "No Army row, modern employment example, occupation, or employer is assigned to the indexed person.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 for full name, birth details, service status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch537-v1"
+    }
+  ]
+}

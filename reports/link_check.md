@@ -2,6 +2,24 @@
 
 Run: 2026-09-15 UTC
 
+## Batch 537 release candidate
+
+All internal targets resolve across 24,571 HTML pages; 49,946 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,643 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,101
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 92,888,056 bytes at
+SHA-256 `ba14dbf76dc11db6dea909a73f870f927ef91cefb5409329528516c487c58a9a`.
+Under the relative-path/content digest, the 70-file public tree is
+`eef30b8d4ec37d8d7cd3e7ab73223380319f2f7d0e53fb0020931753cb01af62`;
+the 24,643-file production tree is
+`5fa7c6e1eaef9346a0319fa2c51189463fcc4c8335c0d3e9b6ac2369374ec303`.
+Three exact GitHub Pages-configured builds reproduced both trees. Three bundle
+sources support one confirmed identity, one qualified occupation claim and one
+identity-conflict claim; no named employer is created. No CIA Reading Room or
+Library of Congress candidate was returned. No authenticated Catalog request
+was used. GitHub CI, deployment and exact-live verification remain pending.
+
 ## Batch 536 release candidate
 
 All internal targets resolve across 24,571 HTML pages; 49,946 external URLs
@@ -18,7 +36,10 @@ Three consecutive builds reproduced both trees. Three bundle sources support
 two confirmed identity and two qualified occupation claims without an
 employer claim. All 114 Library of Congress candidates were rejected through
 the durable review workflow. No authenticated Catalog request was used.
-Independent GitHub and deployed-site checks remain pending.
+PR Test run 34928915638, main Test run 34929378545 and Pages run 34929378541
+succeeded; the live verifier matched all 67 manifest assets, 92,861,626 bytes,
+seven core routes and ten direct Batch 536 profiles at merge commit
+`af3adc4ca850b542d458409e66e1017420bb5740`.
 
 ## Batch 535 release candidate
 
