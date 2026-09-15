@@ -165,7 +165,11 @@ establishes duplication.
 
 ## Release boundary
 
-Batch 542 is locally exact-verified and ready for pull-request review. It is
-not yet the public production release. Batch 541 remains the exact-verified
-public release at merge commit
-`c161d7d11aa35a6d29ed00ff1a0cfc245d988cbe`. The goal remains active.
+Batch 542 is exact-verified in production. Pull request #238 used branch commit
+`be754deb792eed60146d74a0164e2b1aa15d8c11` and merged as
+`41eb10b98488da48a094ef8a1795e423837b17f7`. PR Test run 34951716727, main
+Test run 34952390247 and Pages run 34952390156 all completed successfully. The
+production verifier matched all 67 manifest assets, 93,158,889 bytes, seven
+core routes and ten direct Batch 542 profiles at manifest SHA-256
+`4d3dd625bfae482d947bcdf37e26d9317d83915f909c3a7891d0ea051a622ace`.
+The goal remains active.
