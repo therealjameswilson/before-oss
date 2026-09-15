@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T06:44:23+00:00",
+  "generated_at": "2026-09-15T07:28:58+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -26,8 +26,8 @@
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
-    "1": 72,
-    "2": 64,
+    "1": 73,
+    "2": 63,
     "3": 28,
     "4": 36
   },
@@ -35,12 +35,12 @@
     "ambiguous": 5,
     "confirmed": 7,
     "conflicting": 9,
-    "high_confidence": 24,
+    "high_confidence": 23,
     "probable": 4,
-    "unresolved": 151
+    "unresolved": 152
   },
   "research_status_counts": {
-    "completed": 4,
+    "completed": 5,
     "conflicting_sources": 9,
     "documented_prewar_employer_found": 2,
     "in_progress": 2,
@@ -50,7 +50,7 @@
     "not_started": 129,
     "occupation_only_found": 7,
     "requires_archival_review": 30,
-    "verified_employer_found": 8
+    "verified_employer_found": 7
   },
   "special_strata_counts": {
     "commissioned": 31,
@@ -60,9 +60,9 @@
     "incomplete_or_initial_only_name": 20,
     "possible_duplicate_group": 30,
     "confirmed_or_high_published_claim": 28,
-    "medium_published_claim": 14,
+    "medium_published_claim": 15,
     "conflicting_published_claim": 10,
-    "unresolved_identity": 151
+    "unresolved_identity": 152
   },
   "unavailable_strata": {
     "women": "The index has no sex/gender field; the project does not infer gender from names. This stratum requires sourced identity research."
@@ -82,9 +82,9 @@
     "22cdf385-f081-5297-8f59-5db0c83088d5",
     "eaf8432d-7c3b-5e66-b131-2c2c0c7d9f7f",
     "4754d09e-877f-5023-96ab-c0b6e61530f7",
+    "5a86c87d-bb0f-5443-bc47-991328da2cb1",
     "f072c29e-3a6c-55fe-9020-42c8fc7b5aae",
     "923cfb26-1b11-5617-ba2d-ba33ec808d31",
-    "8f01ec1e-7a03-5d7b-8ebd-8144fdfd6d85",
     "2f07c879-0403-5aef-836a-6c149b664d2c",
     "82a7ed2a-6c6d-5f14-b9b1-3e6862805610",
     "80da73bc-ef68-590b-98c3-4dfbd971b03f",
@@ -124,6 +124,7 @@
     "5e189335-60ca-50c9-b214-ae8f39b981db",
     "37ea2669-6cb0-53ba-b88d-f47577d4eb99",
     "59596457-3383-5bce-9046-757979567629",
+    "0d912f02-fd91-58a0-84ed-fc5bb2c58469",
     "fe52d758-d6dd-5890-bf81-b66c092e7b5e",
     "77c4394e-748a-5cc8-944e-10fae7af4791",
     "d5ae5010-380a-5892-adb2-86b5396651aa",
@@ -146,7 +147,6 @@
     "bbbee60c-44af-5e65-b36d-0844eaa930f0",
     "abd2051f-0d23-5f36-adee-8aaa5d94640c",
     "0763cce9-6235-5eff-8672-c82aa0ee7bc9",
-    "efba9703-0f0b-5bd3-93d0-295f4e001fd8",
     "50b068b0-8ce8-5303-bc9e-2f7cd488ca4a",
     "74658c63-7063-50dd-80e3-fc8fe12c23c0",
     "dfef5646-c18d-5421-b981-9b3f3b573cf8",
@@ -233,7 +233,6 @@
     "dc88a935-db79-5e2b-b38a-79936682efb7",
     "cbe19c19-6a10-511f-aa88-e16088a2eb26",
     "ac54bd11-b754-5de2-a8a8-7cb19016db49",
-    "0cc3dccd-fa47-5ba6-9730-046c3568b198",
     "5973e9b9-4412-53fc-93d6-c9925bed1a90",
     "e9894de3-592a-5ab3-b5f3-56ea67909531",
     "cc806144-a526-5ecf-9b71-bab279bfcdf4",
@@ -246,7 +245,6 @@
     "a4484c10-06bb-5af0-a3a6-c57b30bef1a1",
     "ed85c4d6-8e49-5752-afde-7c5eea5f273d",
     "3847bf8c-3f23-53db-9336-0acf281168cb",
-    "0d912f02-fd91-58a0-84ed-fc5bb2c58469",
     "7fd2df90-8f0a-5177-8cac-da63dbe1f43d",
     "c7b2f044-9e84-5e2e-8eaa-cba01581d249",
     "e93e5ecb-8c29-5043-a0cb-dbe9d1b9e6b1",
@@ -267,6 +265,8 @@
     "70fbff69-8032-5457-9009-c1ad7ee0f6b7",
     "46c4071e-393f-5689-816d-8ae8c29bbf31",
     "e5dc04d0-a5d1-5aa9-bfd7-3746559353c6",
-    "0e45834f-eb80-5260-86f9-f290b7f429f9"
+    "0e45834f-eb80-5260-86f9-f290b7f429f9",
+    "a2d327c1-38bf-5e91-8762-d07ad0295d6c",
+    "ce77c56f-052f-511b-a375-ae9b026f1492"
   ]
 }

@@ -2,7 +2,26 @@
 
 Verified against the current local SQLite database on 2026-09-15 UTC.
 
-Batch 539 is the current local release candidate. It adds ten terminal saved
+Batch 540 is the current validated local release candidate. It adds ten
+terminal saved outcomes for personnel-index PDF page 108 rows 14-23, Roger F
+Davis through William A Davis. Exact protected-identifier and name agreement
+confirms Russell R Davis as enlisted Army personnel; the official code table
+supports a qualified “Farm hands, general farms” occupation, not an employer.
+Walter H Davis carries an explicit private-identifier/name conflict. Ward P
+Davis is identified with high confidence as Navy Captain Ward Percival Davis;
+his career Navy affiliation is high confidence and USS Raleigh command is a
+qualified probable-immediate military assignment. The adjacent Ward Davis row
+remains separate and ambiguous. Six other identities remain unresolved. Exact
+coverage is 5,168 / 23,940 researched, 570 verified affiliations, 253 verified
+employers, 5,123 archival dispositions assessed and 18,772 `not_started`. All
+95 Python tests, 54 focused checks, 18 core checks, 6 analysis checks and 27
+route-and-viewport axe cases pass. The profile, privacy, link, manifest,
+dependency and three-build reproducibility audits are green. See
+`reports/release_batch_540.md` and
+`research/batch-540-discovery-checkpoint.md`. Batch 539 remains the current
+exact-verified public release. The goal remains active.
+
+Batch 539 is the current exact-verified public release. It adds ten terminal saved
 outcomes for personnel-index PDF page 108 rows 4-13, Mary P Davis through
 Robert T Davis. Exact protected-identifier and name agreement confirms Robert
 H, Robert E and Robert T Davis as enlisted Army personnel. The official entry-
@@ -16,8 +35,11 @@ affiliations, 253 verified employers, 5,113 archival dispositions assessed and
 analysis checks and 27 route-and-viewport axe cases pass. The profile, privacy,
 link, manifest, dependency and three-build reproducibility audits are green.
 See `reports/release_batch_539.md` and
-`research/batch-539-discovery-checkpoint.md`. Batch 538 remains the current
-exact-verified public release. The goal remains active.
+`research/batch-539-discovery-checkpoint.md`. Pull request #235 was merged as
+commit `eed84bc9db5a961f5d567c73780ffd5442ac759b`; PR Test run 34938530736,
+main Test run 34939083777 and Pages run 34939083781 succeeded. The live verifier
+matched all 67 manifest assets, 92,953,951 bytes, seven core routes and ten
+direct Batch 539 profiles. The goal remains active.
 
 Batch 538 is the current exact-verified public release. It adds ten terminal saved
 outcomes for personnel-index PDF page 107 rows 40-46 and page 108 rows 1-3,
