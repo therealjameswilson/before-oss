@@ -14,6 +14,46 @@ type Stats = {
 const stats = JSON.parse(
   fs.readFileSync(new URL("../src/data/generated/stats.json", import.meta.url), "utf8"),
 ) as Stats;
+type Organization = {
+  organization_id: string;
+  organization_type: string | null;
+  linked_people: Array<{
+    person_id: string;
+    display_name: string;
+    affiliations: Array<{
+      organization_id: string;
+      relationship_type: string;
+    }>;
+  }>;
+};
+const organizations = JSON.parse(
+  fs.readFileSync(
+    new URL("../src/data/generated/organizations.json", import.meta.url),
+    "utf8",
+  ),
+) as Organization[];
+const oilCompanyOrganizationTypes = new Set([
+  "oil and gas company",
+  "oil and refining company",
+  "oil exploration company",
+  "petroleum company",
+  "petroleum research and development company",
+]);
+const oilCompanyPeople = new Map<string, string>();
+for (const organization of organizations) {
+  if (!oilCompanyOrganizationTypes.has(organization.organization_type ?? "")) continue;
+  for (const person of organization.linked_people) {
+    if (
+      person.affiliations.some(
+        (affiliation) =>
+          affiliation.organization_id === organization.organization_id &&
+          affiliation.relationship_type === "employment",
+      )
+    ) {
+      oilCompanyPeople.set(person.person_id, person.display_name);
+    }
+  }
+}
 
 test("home reports the complete index and incomplete research honestly", async ({ page }) => {
   await page.goto("./");
@@ -47,6 +87,31 @@ test("directory search, commissioned filter, and URL state work", async ({ page 
   await page.getByLabel("Commissioned status").selectOption("true");
   await expect(page).toHaveURL(/commissioned=true/);
   await expect(page.locator("#result-summary")).not.toHaveText(new RegExp(allResults));
+});
+
+test("featured oil-company category lists employment relationships only", async ({ page }) => {
+  await page.goto("./people/");
+  const category = page.getByRole("region", { name: "Oil company employees" });
+  await expect(category).toBeVisible();
+  await expect(category).toContainText(`${oilCompanyPeople.size} people`);
+  await expect(category).toContainText("Professional affiliations that do not establish employment are excluded.");
+
+  await category.getByRole("button", { name: /View category/i }).click();
+  await expect(page).toHaveURL(/featured=oil_companies/);
+  await expect(page.locator("#result-summary")).toContainText(
+    `${oilCompanyPeople.size} results`,
+  );
+  await expect(page.locator(".person-result")).toHaveCount(oilCompanyPeople.size);
+  for (const name of oilCompanyPeople.values()) {
+    await expect(page.getByRole("link", { name, exact: true })).toBeVisible();
+  }
+
+  await expect(page.getByRole("link", { name: "Martin B Chittick", exact: true })).toHaveCount(0);
+  await category.getByRole("button", { name: /Show all personnel/i }).click();
+  await expect(page).not.toHaveURL(/featured=oil_companies/);
+  await expect(page.locator("#result-summary")).toContainText(
+    `${stats.person_entities.toLocaleString("en-US")} results`,
+  );
 });
 
 test("direct person route preserves source evidence and masks serials", async ({ page }) => {

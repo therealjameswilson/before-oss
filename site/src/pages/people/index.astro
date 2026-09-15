@@ -1,10 +1,46 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import organizations from "../../data/generated/organizations.json";
 import stats from "../../data/generated/stats.json";
 const base = import.meta.env.BASE_URL;
 const categories = Object.keys(stats.personnel_category_counts).sort();
 const researchStatuses = Object.keys(stats.research_status_counts).sort();
 const identityStatuses = Object.keys(stats.identity_status_counts).sort();
+const oilCompanyOrganizationTypes = new Set([
+  "oil and gas company",
+  "oil and refining company",
+  "oil exploration company",
+  "petroleum company",
+  "petroleum research and development company",
+]);
+const oilCompanyOrganizations = organizations.filter((organization) =>
+  oilCompanyOrganizationTypes.has(organization.organization_type ?? ""),
+);
+const oilCompanyPersonIds = Array.from(
+  new Set(
+    oilCompanyOrganizations.flatMap((organization) =>
+      organization.linked_people
+        .filter((person) =>
+          person.affiliations.some(
+            (affiliation) =>
+              affiliation.organization_id === organization.organization_id &&
+              affiliation.relationship_type === "employment",
+          ),
+        )
+        .map((person) => person.person_id),
+    ),
+  ),
+).sort();
+const oilCompanyEmploymentOrganizationCount = oilCompanyOrganizations.filter(
+  (organization) =>
+    organization.linked_people.some((person) =>
+      person.affiliations.some(
+        (affiliation) =>
+          affiliation.organization_id === organization.organization_id &&
+          affiliation.relationship_type === "employment",
+      ),
+    ),
+).length;
 ---
 
 <BaseLayout
@@ -28,7 +64,37 @@ const identityStatuses = Object.keys(stats.identity_status_counts).sort();
     </div>
   </header>
 
-  <div class="directory-shell" data-base={base}>
+  <div
+    class="directory-shell"
+    data-base={base}
+    data-oil-company-people={JSON.stringify(oilCompanyPersonIds)}
+  >
+    <section
+      class="featured-directory-category"
+      aria-labelledby="oil-company-category-title"
+    >
+      <div>
+        <p class="kicker">Featured category</p>
+        <h2 id="oil-company-category-title">Oil company employees</h2>
+        <p>
+          {oilCompanyPersonIds.length.toLocaleString("en-US")} people have
+          published evidence of employment by{" "}
+          {oilCompanyEmploymentOrganizationCount.toLocaleString("en-US")}{" "}
+          historically named oil, petroleum, refining, or exploration companies.
+          Professional affiliations that do not establish employment are excluded.
+        </p>
+      </div>
+      <button
+        class="featured-directory-category__action"
+        id="oil-company-filter"
+        type="button"
+        aria-pressed="false"
+      >
+        <span data-category-action>View category</span>
+        <strong>{oilCompanyPersonIds.length.toLocaleString("en-US")} people</strong>
+      </button>
+    </section>
+
     <div class="az-nav" aria-label="Filter by last-name initial" id="az-nav">
       <button type="button" data-letter="" aria-pressed="true">All</button>
       {
@@ -162,11 +228,18 @@ const identityStatuses = Object.keys(stats.identity_status_counts).sort();
     const summaryNode = document.querySelector<HTMLElement>("#result-summary")!;
     const paginationNode = document.querySelector<HTMLElement>("#pagination")!;
     const azNode = document.querySelector<HTMLElement>("#az-nav")!;
+    const oilCompanyFilter = document.querySelector<HTMLButtonElement>(
+      "#oil-company-filter",
+    )!;
+    const oilCompanyPersonIds = new Set<string>(
+      JSON.parse(shell.dataset.oilCompanyPeople ?? "[]"),
+    );
     const pageSize = 50;
     let allRows: SearchRow[] = [];
     let page = 1;
     let letter = "";
     let view = "compact";
+    let featuredCategory = "";
 
     const normalize = (value: string) =>
       value
@@ -237,6 +310,8 @@ const identityStatuses = Object.keys(stats.identity_status_counts).sort();
       letter = params.get("letter") ?? "";
       page = Math.max(1, Number(params.get("page") ?? "1"));
       view = params.get("view") === "detailed" ? "detailed" : "compact";
+      featuredCategory =
+        params.get("featured") === "oil_companies" ? "oil_companies" : "";
     };
 
     const syncUrl = () => {
@@ -251,6 +326,7 @@ const identityStatuses = Object.keys(stats.identity_status_counts).sort();
       if (letter) params.set("letter", letter);
       if (page > 1) params.set("page", String(page));
       if (view !== "compact") params.set("view", view);
+      if (featuredCategory) params.set("featured", featuredCategory);
       history.replaceState({}, "", `${location.pathname}${params.size ? `?${params}` : ""}`);
     };
 
@@ -276,6 +352,10 @@ const identityStatuses = Object.keys(stats.identity_status_counts).sort();
         .map((row) => ({ row, relevance: score(row, query) }))
         .filter(({ row, relevance }) => {
           if (query && relevance < 0) return false;
+          if (
+            featuredCategory === "oil_companies" &&
+            !oilCompanyPersonIds.has(row.id)
+          ) return false;
           if (letter && !row.nn.split(" ").at(-1)?.startsWith(letter)) return false;
           if (commissioned === "true" && row.o !== true) return false;
           if (commissioned === "false" && row.o !== false) return false;
@@ -355,6 +435,16 @@ const identityStatuses = Object.keys(stats.identity_status_counts).sort();
           String((button as HTMLButtonElement).dataset.view === view),
         );
       });
+      const oilCategoryActive = featuredCategory === "oil_companies";
+      oilCompanyFilter.setAttribute("aria-pressed", String(oilCategoryActive));
+      const categoryAction = oilCompanyFilter.querySelector<HTMLElement>(
+        "[data-category-action]",
+      );
+      if (categoryAction) {
+        categoryAction.textContent = oilCategoryActive
+          ? "Show all personnel"
+          : "View category";
+      }
       syncUrl();
     };
 
@@ -364,6 +454,17 @@ const identityStatuses = Object.keys(stats.identity_status_counts).sort();
       render();
     });
     form.addEventListener("submit", (event) => event.preventDefault());
+    oilCompanyFilter.addEventListener("click", () => {
+      if (featuredCategory === "oil_companies") {
+        featuredCategory = "";
+      } else {
+        form.reset();
+        featuredCategory = "oil_companies";
+        letter = "";
+      }
+      page = 1;
+      render();
+    });
     azNode.addEventListener("click", (event) => {
       const button = (event.target as HTMLElement).closest<HTMLButtonElement>("button");
       if (!button) return;

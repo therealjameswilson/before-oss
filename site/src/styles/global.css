@@ -685,6 +685,59 @@ h3 {
   padding-block: 2rem 6rem;
 }
 
+.featured-directory-category {
+  margin-bottom: 1.5rem;
+  padding: clamp(1.25rem, 3vw, 2rem);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: clamp(1.5rem, 4vw, 4rem);
+  border: 1px solid var(--line);
+  border-top: 0.35rem solid var(--rust);
+  background: var(--paper-light);
+  box-shadow: var(--shadow);
+}
+
+.featured-directory-category h2 {
+  margin-bottom: 0.6rem;
+  font-size: clamp(1.75rem, 3vw, 2.6rem);
+}
+
+.featured-directory-category p:last-child {
+  max-width: 55rem;
+  margin-bottom: 0;
+  color: var(--ink-soft);
+}
+
+.featured-directory-category__action {
+  min-width: 10.5rem;
+  padding: 0.9rem 1rem;
+  display: grid;
+  gap: 0.15rem;
+  border: 1px solid var(--navy);
+  background: var(--navy);
+  color: white;
+  font: inherit;
+  text-align: left;
+}
+
+.featured-directory-category__action span {
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.featured-directory-category__action strong {
+  font-family: var(--serif);
+  font-size: 1.25rem;
+}
+
+.featured-directory-category__action[aria-pressed="true"] {
+  border-color: var(--rust-dark);
+  background: var(--rust-dark);
+}
+
 .az-nav {
   display: flex;
   flex-wrap: wrap;
@@ -1043,6 +1096,14 @@ dd {
     grid-template-columns: 1fr;
   }
 
+  .featured-directory-category {
+    grid-template-columns: 1fr;
+  }
+
+  .featured-directory-category__action {
+    width: 100%;
+  }
+
   .search-panel input {
     border-right: 1px solid var(--line-dark);
   }
@@ -1071,6 +1132,7 @@ dd {
   .button,
   .search-panel,
   .directory-controls,
+  .featured-directory-category,
   .az-nav,
   .pagination,
   .view-toggle {
