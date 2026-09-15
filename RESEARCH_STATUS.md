@@ -2,7 +2,29 @@
 
 Verified against the current local SQLite database on 2026-09-15 UTC.
 
-Batch 547 is a locally verified release candidate. It adds ten terminal saved
+Batch 548 is a fully validated local release candidate. It adds ten terminal
+saved outcomes for personnel-index PDF page 110 rows 2-11, Edmund J Decaussin
+Jr. through Francis E Decker. Exact protected-identifier and normalized-name
+agreement confirms Edmund J Decaussin Jr., Jorg DeChochor and Joseph G Decicco
+as enlisted Army personnel. Official code tables support three qualified broad
+occupation categories recorded at Army entry; none names an employer. The
+official Ordre de la Libération biography supports Eugene Dechelette as Eugène
+Déchelette at high confidence and documents S.A. Déchelette-Despierres as his
+last civilian employer before August 1939 mobilization, without calling it an
+immediate pre-OSS affiliation. Three identities remain unresolved, two require
+critical archival review, and Francis E Decker remains ambiguous because the
+same-name Army row carries a different identifier. Exact coverage is 5,248 /
+23,940 researched, 575 verified affiliations, 255 verified employers, 5,203
+archival dispositions assessed and 18,692 `not_started`. All 95 Python tests,
+57 focused checks, 18 core checks, 6 analysis checks and 27 route-and-viewport
+axe cases pass. The ingest, profile, privacy, link, dependency, manifest and
+three-build reproducibility audits are green. See
+`reports/release_batch_548.md` and
+`research/batch-548-discovery-checkpoint.md`. Batch 547 remains the current
+exact-verified public release until Batch 548 passes pull-request, main, Pages
+and live-release verification. The goal remains active.
+
+Batch 547 is the current exact-verified public release. It adds ten terminal saved
 outcomes for personnel-index PDF page 109 rows 38-46 and page 110 row 1,
 Michel DeBourbon through Louis DeCastro, all in Box 175. Two independent
 biographical accounts support Michel DeBourbon as Prince Michel de
@@ -22,9 +44,12 @@ employers, 5,193 archival dispositions assessed and 18,702 `not_started`. All
 route-and-viewport axe cases pass. The ingest, profile, privacy, link,
 dependency, manifest and three-build reproducibility audits are green. See
 `reports/release_batch_547.md` and
-`research/batch-547-discovery-checkpoint.md`. GitHub pull-request CI, merge,
-Pages deployment and independent live verification remain. Batch 546 is still
-the exact-verified public release. The goal remains active.
+`research/batch-547-discovery-checkpoint.md`. Pull request #243 passed Test run
+34980231889 and merged as commit
+`316f1f2106006fbe3052366b1001d99555da177f`; main Test run 34980922257 and
+Pages run 34980922111 succeeded. The live verifier matched all 67 manifest
+assets, 93,574,000 bytes, seven core routes and ten direct Batch 547 profiles.
+The goal remains active.
 
 Batch 546 is the current exact-verified public release. It adds ten
 terminal saved outcomes for personnel-index PDF page 109 rows 28-37, John F
