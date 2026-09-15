@@ -147,6 +147,15 @@ all in Box 177 at location `230/86/29/07`.
 
 ## Release boundary
 
-Batch 551 remains the current exact-verified public release until this Batch
-552 candidate passes clean replay, review, merge, deployment and independent
-live verification. The goal remains active.
+Batch 552 was merged as immutable commit
+`07f26a7a142005e021346c3a1637e3bdd34f660a`. The post-merge Test workflow
+([run 35009874147](https://github.com/therealjameswilson/before-oss/actions/runs/35009874147))
+and Deploy GitHub Pages workflow
+([run 35009874135](https://github.com/therealjameswilson/before-oss/actions/runs/35009874135))
+both passed. Independent live verification matched all 67 manifested assets and
+94,005,185 bytes at manifest SHA-256
+`f9c1d802e6e362c93699b3afb5d92b22e2bf70be49d719bb11b98e157fdee085`,
+verified seven core routes and rendered all ten Batch 552 profiles at
+`https://therealjameswilson.github.io/before-oss/`. Batch 552 is therefore the
+current exact-verified public release while Batch 553 remains a local release
+candidate. The goal remains active.
