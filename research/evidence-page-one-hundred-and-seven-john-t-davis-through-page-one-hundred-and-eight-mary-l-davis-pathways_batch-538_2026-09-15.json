@@ -1,0 +1,514 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Codex archival research review",
+  "sources": [
+    {
+      "key": "index-b538",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; PDF page 107 rows 40-46 and page 108 rows 1-3 visually inspected; Boxes 170-171; location 230/86/29/06",
+      "access_date": "2026-09-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Citation and project-authored assessments only. Printed private values are withheld from public claims and exports."
+    },
+    {
+      "key": "army-b538",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official ASNEF.FIN.DAT; complete transient scan of 9,200,232 fixed-width records; two eligible private identifiers and all exact-name candidates adjudicated; identifiers withheld",
+      "access_date": "2026-09-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full private identifier is retained. John R Davis Jr and Lloyd G Davis have exact identifier-and-name agreement. Six- and seven-character index values were not padded. The incomplete Army file is not a comprehensive OSS, officer, Navy, Marine Corps, civilian, women's-service, Coast Guard, or foreign roster; a non-hit is not negative proof."
+    },
+    {
+      "key": "codes-b538",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Code Lists",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "Code No. 30, Civilian Occupations, PDF physical page 171 / printed page XI and physical pages 176-177; entry 1-37 and neighboring x-92 entries visually and textually checked",
+      "access_date": "2026-09-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "The official table defines 1-37 as Stenographers and typists. It defines 4-92, 6-92, and 8-92 but not 9-92, so value 992 is not interpreted. Occupational categories identify neither an employer, workplace, exact job title, nor the sequence from Army service to OSS."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "lloyd-g-davis-stenographer-typist-b538",
+      "person_id": "3f99df4f-3ca0-54cf-8bbb-cabaebdc70bb",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Stenographer or typist",
+      "occupation": "Stenographers and typists",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1940-10-30",
+      "date_precision": "Civilian-occupation value 137 was recorded at Army entry on October 30, 1940. NARA's code table defines 1-37 as Stenographers and typists; no employer, workplace, or exact role is identified.",
+      "city": null,
+      "state_or_region": null,
+      "country": null,
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier and full name confirm the Army identity. The historical occupational group is not converted into a named employer, immediate-OSS affiliation, workplace, or narrower role."
+    }
+  ],
+  "claims": [
+    {
+      "key": "john-r-davis-jr-identity-b538",
+      "person_id": "fc29c01f-e6d1-5966-afc8-d01cf8a6d15b",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The OSS index and Army merged file identify the same John R Davis Jr.",
+      "evidence_excerpt": "DAVIS JOHN R JR",
+      "evidence_paraphrase": "The private identifier and exact full name, including suffix, agree across the two official NARA records.",
+      "identity_match_assessment": "Confirmed by exact private-identifier and full-name agreement.",
+      "temporal_assessment": "The Army row records entry on September 23, 1942, as private.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private value is withheld publicly. Nine other exact-name Army rows carry different identifiers. Occupation value 992 is not published because 9-92 is absent from the reviewed official table.",
+      "sources": [
+        {
+          "source_key": "index-b538",
+          "support_type": "supports",
+          "locator_override": "PDF page 107, row 41; Box 170",
+          "excerpt_override": "DAVIS JOHN R JR"
+        },
+        {
+          "source_key": "army-b538",
+          "support_type": "supports",
+          "excerpt_override": "DAVIS JOHN R JR"
+        }
+      ]
+    },
+    {
+      "key": "lloyd-g-davis-identity-b538",
+      "person_id": "3f99df4f-3ca0-54cf-8bbb-cabaebdc70bb",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The OSS index and Army merged file identify the same Lloyd G Davis.",
+      "evidence_excerpt": "DAVIS LLOYD G",
+      "evidence_paraphrase": "The private identifier and exact full name agree across the two official NARA records.",
+      "identity_match_assessment": "Confirmed by exact private-identifier and full-name agreement.",
+      "temporal_assessment": "The Army row records entry on October 30, 1940, as private.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private value is withheld publicly. Eight other exact-name Army rows carry different identifiers and remain unassigned.",
+      "sources": [
+        {
+          "source_key": "index-b538",
+          "support_type": "supports",
+          "locator_override": "PDF page 107, row 44; Box 171",
+          "excerpt_override": "DAVIS LLOYD G"
+        },
+        {
+          "source_key": "army-b538",
+          "support_type": "supports",
+          "excerpt_override": "DAVIS LLOYD G"
+        }
+      ]
+    },
+    {
+      "key": "lloyd-g-davis-occupation-b538",
+      "person_id": "3f99df4f-3ca0-54cf-8bbb-cabaebdc70bb",
+      "affiliation_key": "lloyd-g-davis-stenographer-typist-b538",
+      "claim_type": "occupation",
+      "claim_text": "Lloyd G Davis's Army-entry record classifies the prior civilian occupation as stenographer or typist.",
+      "evidence_excerpt": "1-37. Stenographers and typists",
+      "evidence_paraphrase": "The identifier-matched Army row carries value 137; NARA's official code list defines 1-37 as stenographers and typists.",
+      "identity_match_assessment": "Confirmed exact private-identifier and full-name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry on October 30, 1940; no employer, workplace, or exact role is identified.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical occupational group is not converted into a named employer, immediate-OSS affiliation, workplace, or narrower role.",
+      "sources": [
+        {
+          "source_key": "army-b538",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b538",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 171 / printed page XI; entry 1-37",
+          "excerpt_override": "1-37. Stenographers and typists"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "6ca4ef9a-dc1b-59cd-be80-ada20139703f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies John T Davis without rank or private identifier. Sixty-four exact-name Army rows and five Library of Congress candidates cannot be connected to OSS or Box 171 by name alone.",
+      "name_variants": [
+        "John T Davis",
+        "John T. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 171 for full identity, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "fc29c01f-e6d1-5966-afc8-d01cf8a6d15b",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier selects one Army row with the exact John R Davis Jr name. The row records entry as private on September 23, 1942. Nine other exact-name Army rows carry different identifiers and remain unassigned.",
+      "name_variants": [
+        "John R Davis Jr.",
+        "John R. Davis Jr.",
+        "John R Davis, Jr."
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Identity and Army entry are confirmed, but occupation value 992 is not defined by the reviewed official table and no employer is identified. Review Box 170 for the original occupation wording, employer, Army unit, OSS role, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "344ba533-e8b9-53cc-b5b8-29d32026e214",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Joseph W Davis without rank or private identifier. Thirty-eight exact-name Army rows and five LoC candidates cannot be selected without an OSS, Box 171, or corroborating-identifier bridge.",
+      "name_variants": [
+        "Joseph W Davis",
+        "Joseph W. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 171 for full identity, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "a08fced3-5874-5724-ac83-b35c41c7ef93",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index prints Leonard R Davis with rank Lt, which supports the index-derived commissioned Army category. Eight exact-name Army rows and two LoC candidates cannot be linked to OSS or Box 171.",
+      "name_variants": [
+        "Leonard R Davis",
+        "Leonard R. Davis"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer or military assignment has yet been identified in the accessible sources reviewed. Review Box 171 for full identity, branch, unit, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "3f99df4f-3ca0-54cf-8bbb-cabaebdc70bb",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier selects one Army row with the exact Lloyd G Davis name. The row records entry as private on October 30, 1940. Eight other exact-name Army rows carry different identifiers and remain unassigned.",
+      "name_variants": [
+        "Lloyd G Davis",
+        "Lloyd G. Davis"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Stenographer or typist is documented at Army entry, but no employer, workplace, exact job title, or immediate OSS predecessor is identified. Review Box 171 for employer, Army unit, OSS role, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "bc45da48-63ad-596d-b657-f60237bd2a15",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index prints Louie D Davis as Sgt with a seven-character private value, preserved exactly and not padded. Two exact-name Army rows carry other identifiers, and no accessible source supplies an OSS or Box 171 bridge.",
+      "name_variants": [
+        "Louie D Davis",
+        "Louie D. Davis"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer or Army assignment has yet been identified in the accessible sources reviewed. Review Box 171 to resolve the private value, identity, unit, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "73c434fa-35a7-5436-b785-7a8784c387e2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies a seven-character private value that was preserved exactly and not padded. Three exact-name Army rows and five LoC candidates cannot be selected without an OSS or Box 171 bridge.",
+      "name_variants": [
+        "Louis B Davis",
+        "Louis B. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 171 to resolve the private value, identity, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "5cf9b950-cd92-5702-a81a-0177fce48aa9",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Malcolm W Davis without rank or private identifier. Three exact-name Army rows are unassignable. A documented international-affairs official of the same name has Carnegie Endowment, Council on Foreign Relations, and United Nations-era records, but no reviewed source connects that biography to OSS or Box 171.",
+      "name_variants": [
+        "Malcolm W Davis",
+        "Malcolm W. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified for the indexed person. Review Box 171 for birth details, service or civilian status, OSS assignment, and evidence testing the international-affairs namesake.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "c9005af8-2f62-545f-91dd-f27dd362dbb0",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Marion R Davis without rank or private identifier. Three exact-name Army rows and a nineteenth-century LoC hit cannot be connected to OSS or Box 171.",
+      "name_variants": [
+        "Marion R Davis",
+        "Marion R. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 171 for full identity, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "9847c8d8-3763-516a-91fe-1931746d7cef",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Mary L Davis without rank or private identifier. Eight exact-name Army rows and five LoC candidates cannot be connected to OSS or Box 171; the last two LoC pages identify Mary Alice Davis Holt and Mary H Davis instead.",
+      "name_variants": [
+        "Mary L Davis",
+        "Mary L. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 171 for full identity, service or civilian status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b538-john-t-davis",
+      "person_id": "6ca4ef9a-dc1b-59cd-be80-ada20139703f",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index pages 107-108; complete Army comparison; CIA and current Library of Congress checks; John T Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_many_unassigned_candidates",
+      "started_at": "2026-09-15T05:30:00Z",
+      "completed_at": "2026-09-15T06:00:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 73,
+      "candidate_sources_rejected": 71,
+      "rejection_reasons": "Sixty-four name-only Army rows, five LoC candidates, and generic web namesakes lack an OSS, Box 171, or corroborating-identifier bridge.",
+      "research_notes": "No Army row, occupation, employer, unit, or namesake biography is assigned by name alone.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 171 for full identity, service status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch538-v1"
+    },
+    {
+      "key": "b538-john-r-davis-jr",
+      "person_id": "fc29c01f-e6d1-5966-afc8-d01cf8a6d15b",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index pages 107-108; complete Army comparison; CIA and current Library of Congress checks; John R Davis Jr. exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_confirmed_identity_undefined_occupation_code",
+      "started_at": "2026-09-15T05:31:00Z",
+      "completed_at": "2026-09-15T06:01:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 16,
+      "candidate_sources_rejected": 13,
+      "rejection_reasons": "Nine other exact-name Army rows carry different identifiers. Two LoC pages and generic web namesakes lack the protected identifier, OSS context, or Box 170 bridge.",
+      "research_notes": "The exact identifier confirms identity and Army entry. Value 992 remains uninterpreted because the reviewed official table defines 4-92, 6-92, and 8-92 but not 9-92.",
+      "next_action": "Identity and Army entry are confirmed, but occupation value 992 is not defined by the reviewed official table and no employer is identified. Review Box 170 for the original occupation wording, employer, Army unit, OSS role, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch538-v1"
+    },
+    {
+      "key": "b538-joseph-w-davis",
+      "person_id": "344ba533-e8b9-53cc-b5b8-29d32026e214",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index pages 107-108; complete Army comparison; CIA and current Library of Congress checks; Joseph W Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_many_unassigned_candidates",
+      "started_at": "2026-09-15T05:32:00Z",
+      "completed_at": "2026-09-15T06:02:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 46,
+      "candidate_sources_rejected": 44,
+      "rejection_reasons": "Thirty-eight name-only Army rows, five LoC pages, and web namesakes refer to other initials or lack an OSS, Box 171, or corroborating identifier.",
+      "research_notes": "No Army row, occupation, employer, military assignment, or namesake biography is assigned.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 171 for full identity, service status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch538-v1"
+    },
+    {
+      "key": "b538-leonard-r-davis",
+      "person_id": "a08fced3-5874-5724-ac83-b35c41c7ef93",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index pages 107-108; complete Army comparison; CIA and current Library of Congress checks; Leonard R Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_index_rank_common_name_unresolved",
+      "started_at": "2026-09-15T05:33:00Z",
+      "completed_at": "2026-09-15T06:03:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 11,
+      "rejection_reasons": "Eight name-only Army rows, two LoC pages, and web namesakes lack the indexed Lieutenant, OSS, Box 171, or other identity bridge.",
+      "research_notes": "The commissioned classification is index-derived; no outside Army row, unit, employer, or biography is assigned.",
+      "next_action": "No reliable pre-OSS employer or military assignment has yet been identified in the accessible sources reviewed. Review Box 171 for full identity, branch, unit, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch538-v1"
+    },
+    {
+      "key": "b538-lloyd-g-davis",
+      "person_id": "3f99df4f-3ca0-54cf-8bbb-cabaebdc70bb",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index pages 107-108; complete Army comparison; CIA and current Library of Congress checks; Lloyd G Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_confirmed_army_identity_occupation_only",
+      "started_at": "2026-09-15T05:34:00Z",
+      "completed_at": "2026-09-15T06:04:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 14,
+      "candidate_sources_rejected": 11,
+      "rejection_reasons": "Eight other exact-name Army rows carry different identifiers. A North Carolina city-directory lead conflicts with the identifier-matched record's New York residence evidence; generic web results have no OSS or Box 171 bridge.",
+      "research_notes": "The official Army identity and occupational group are accepted; the historical group is not converted into a named employer, workplace, narrower role, or immediate OSS sequence.",
+      "next_action": "Stenographer or typist is documented at Army entry, but no employer, workplace, exact job title, or immediate OSS predecessor is identified. Review Box 171 for employer, Army unit, OSS role, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch538-v1"
+    },
+    {
+      "key": "b538-louie-d-davis",
+      "person_id": "bc45da48-63ad-596d-b657-f60237bd2a15",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index pages 107-108; complete Army comparison; CIA and current Library of Congress checks; Louie D Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_index_rank_ineligible_private_value",
+      "started_at": "2026-09-15T05:35:00Z",
+      "completed_at": "2026-09-15T06:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Two exact-name Army rows and generic web namesakes cannot be selected using the shorter index value and lack an OSS or Box 171 bridge.",
+      "research_notes": "The enlisted classification is index-derived; no Army row, occupation, employer, or unit is assigned.",
+      "next_action": "No reliable pre-OSS employer or Army assignment has yet been identified in the accessible sources reviewed. Review Box 171 to resolve the private value, identity, unit, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch538-v1"
+    },
+    {
+      "key": "b538-louis-b-davis",
+      "person_id": "73c434fa-35a7-5436-b785-7a8784c387e2",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index pages 107-108; complete Army comparison; CIA and current Library of Congress checks; Louis B Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_ineligible_private_value_unassigned_candidates",
+      "started_at": "2026-09-15T05:36:00Z",
+      "completed_at": "2026-09-15T06:06:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 11,
+      "rejection_reasons": "Three name-only Army rows, five LoC pages, and web namesakes refer to other Louis Davis identities or lack the shorter protected value, OSS, or Box 171 evidence.",
+      "research_notes": "No Army row, occupation, employer, or later-life identity is assigned.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 171 to resolve the private value, identity, service status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch538-v1"
+    },
+    {
+      "key": "b538-malcolm-w-davis",
+      "person_id": "5cf9b950-cd92-5702-a81a-0177fce48aa9",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index pages 107-108; complete Army comparison; CIA and current Library of Congress checks; Malcolm W Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_distinctive_biography_unbridged",
+      "started_at": "2026-09-15T05:37:00Z",
+      "completed_at": "2026-09-15T06:07:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "Three name-only Army rows and the institutional biography lack a protected identifier, direct OSS statement, personnel-file linkage, or Box 171 evidence; the latter remains an unassigned lead.",
+      "research_notes": "The Carnegie Endowment and Council on Foreign Relations biography is preserved only as a rejected identity lead, not published as the indexed person's employment.",
+      "next_action": "No reliable pre-OSS employer has yet been identified for the indexed person. Review Box 171 for birth details, service or civilian status, OSS assignment, and evidence testing the international-affairs namesake.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch538-v1"
+    },
+    {
+      "key": "b538-marion-r-davis",
+      "person_id": "c9005af8-2f62-545f-91dd-f27dd362dbb0",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index pages 107-108; complete Army comparison; CIA and current Library of Congress checks; Marion R Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_unassigned_candidates",
+      "started_at": "2026-09-15T05:38:00Z",
+      "completed_at": "2026-09-15T06:08:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Three name-only Army rows, the 1875 LoC hit, and web namesakes lack an OSS, Box 171, or corroborating-identifier bridge.",
+      "research_notes": "No Army row, occupation, employer, or namesake biography is assigned.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 171 for full identity, service status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch538-v1"
+    },
+    {
+      "key": "b538-mary-l-davis",
+      "person_id": "9847c8d8-3763-516a-91fe-1931746d7cef",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index pages 107-108; complete Army comparison; CIA and current Library of Congress checks; Mary L Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_unassigned_candidates",
+      "started_at": "2026-09-15T05:39:00Z",
+      "completed_at": "2026-09-15T06:09:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 17,
+      "candidate_sources_rejected": 15,
+      "rejection_reasons": "Eight name-only Army rows, five reviewed LoC pages, and web namesakes refer to different names or lack an OSS, Box 171, or corroborating-identifier bridge.",
+      "research_notes": "No Army row, occupation, employer, or later-life identity is assigned.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 171 for full identity, service or civilian status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch538-v1"
+    }
+  ]
+}

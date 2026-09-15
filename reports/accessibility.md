@@ -4,6 +4,20 @@ Run: 2026-09-15 UTC
 
 ## Result
 
+Batch 538: the focused cohort suite passed all 51 checks across desktop, phone
+and tablet. It verifies ten immutable rows across pages 107-108; four masked
+private values; two accepted identifier-and-name Army identities; one
+qualified entry-time stenographer-or-typist occupation without an employer;
+deliberate non-interpretation of value `992`; Lieutenant and Sergeant
+classifications preserved from the index without namesake assignment; and
+eight unresolved profiles. The bounded core suite passed 18/18 and the
+analysis suite passed 6/6 across the same viewports. The axe route suite passed
+27/27 in 1.7 minutes with no serious violations. Astro checked 163 source files
+with zero errors, warnings or hints and generated 24,571 HTML pages / 24,643
+artifacts. Three exact GitHub Pages-configured builds reproduced the public and
+production trees byte for byte. Batch 537 remains the exact-verified public
+release while Batch 538 proceeds through clean replay and CI.
+
 Batch 537: the focused cohort suite passed all 48 checks across desktop, phone
 and tablet. It verifies ten immutable page 107 rows; seven masked private
 values; one accepted identifier-and-name Army identity; one qualified entry-
@@ -13,8 +27,10 @@ and the analysis suite passed 6/6 across the same viewports. The axe route
 suite passed 27/27 in 1.6 minutes with no serious violations. Astro checked
 162 source files with zero errors, warnings or hints and generated 24,571 HTML
 pages / 24,643 artifacts. Three exact GitHub Pages-configured builds reproduced
-the public and production trees byte for byte. GitHub CI, deployment and live
-verification remain the release-candidate boundary.
+the public and production trees byte for byte. PR Test run 34932227187, main
+Test run 34932770088 and Pages run 34932770066 succeeded; the exact-live verifier matched every
+manifest asset, core route and direct Batch 537 profile at merge commit
+`189d1612fd0afa49ec8c13aeea58b9a2d0b1f8a7`.
 
 Batch 536: the focused cohort suite passed all 48 checks across desktop, phone
 and tablet. It verifies ten immutable page 107 rows; four masked private
