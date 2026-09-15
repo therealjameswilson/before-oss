@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T19:47:32+00:00",
+  "generated_at": "2026-09-15T20:55:34+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -35,9 +35,9 @@
     "ambiguous": 5,
     "confirmed": 7,
     "conflicting": 9,
-    "high_confidence": 23,
+    "high_confidence": 24,
     "probable": 4,
-    "unresolved": 152
+    "unresolved": 151
   },
   "research_status_counts": {
     "completed": 5,
@@ -47,9 +47,9 @@
     "needs_identity_review": 6,
     "needs_temporal_review": 2,
     "no_reliable_result_after_protocol": 1,
-    "not_started": 128,
+    "not_started": 127,
     "occupation_only_found": 7,
-    "requires_archival_review": 31,
+    "requires_archival_review": 32,
     "verified_employer_found": 7
   },
   "special_strata_counts": {
@@ -59,10 +59,10 @@
     "allied_or_foreign": 20,
     "incomplete_or_initial_only_name": 20,
     "possible_duplicate_group": 30,
-    "confirmed_or_high_published_claim": 28,
+    "confirmed_or_high_published_claim": 29,
     "medium_published_claim": 15,
     "conflicting_published_claim": 10,
-    "unresolved_identity": 152
+    "unresolved_identity": 151
   },
   "unavailable_strata": {
     "women": "The index has no sex/gender field; the project does not infer gender from names. This stratum requires sourced identity research."

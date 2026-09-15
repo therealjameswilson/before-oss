@@ -158,8 +158,13 @@ are in Box 177 and rows 34-35 are in Box 178, all at `230/86/29/07`.
 
 ## Release boundary
 
-Batch 553 at immutable commit
-`fbdfa82e8dc8643d1581b6cf6963dc973c8cb439` remains the current
-exact-verified public release until this Batch 554 candidate passes clean
-replay, review, merge, deployment and independent live verification. The goal
-remains active.
+Batch 554 was committed as `c07f6a92382956083db347c9757de3e81f11f4ee`,
+reviewed in pull request 250, and merged as immutable commit
+`86d993dd0edfde4e3821c0e7de79b75d4b33b65f`. Pull-request CI run
+`35017512554`, post-merge test run `35018267164`, and Pages run `35018267121`
+all passed. Independent live verification matched that merge commit, all 67
+manifest assets, 94,175,514 bytes, manifest SHA-256
+`c1cf314f04ba25a90bd90f2fc249c511108a09c914025d554e909ac559724fe5`,
+seven core routes and all ten Batch 554 profiles at
+`https://therealjameswilson.github.io/before-oss/`. Batch 554 is therefore the
+current exact-verified public release. The goal remains active.
