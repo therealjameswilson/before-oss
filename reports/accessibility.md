@@ -4,6 +4,19 @@ Run: 2026-09-14 UTC
 
 ## Result
 
+Batch 532: the focused cohort suite passed all 54 checks across desktop, phone
+and tablet. It verifies ten immutable page 106 rows; six masked private values;
+three accepted identifier-and-name Army identities; three qualified entry-time
+occupation findings without employers; the separate Elizabeth Davey duplicate-
+name profiles; Homer David Jr.'s qualified official OSS identity; David
+Davidian's ambiguity; Abraham Davidson's visible identity conflict; and three
+unresolved profiles. The bounded core suite passed 18/18 and the analysis
+suite passed 6/6 across the same viewports. The axe route suite passed 27/27
+in 1.6 minutes. The clean publish clone's Astro check covered 157 source files
+with zero errors, warnings or hints and generated 24,571 HTML pages / 24,643
+artifacts. Three consecutive builds reproduced the public and production trees
+byte for byte. Independent GitHub and deployed-site verification are pending.
+
 Batch 531: the focused cohort suite passed all 54 checks across desktop, phone
 and tablet. It verifies ten immutable page 106 rows; five masked private
 values; three accepted identifier-and-name Army identities; three qualified
@@ -14,8 +27,9 @@ The bounded core suite passed 18/18 and the analysis suite passed 6/6 across
 the same viewports. The axe route suite passed 27/27 in 1.7 minutes. Astro
 checked 156 source files with zero errors, warnings or hints and generated
 24,571 HTML pages / 24,643 artifacts. Three consecutive builds reproduced the
-public and production trees byte for byte. Remote CI, Pages deployment and
-exact live verification are pending.
+public and production trees byte for byte. PR Test run 34902061949, main Test
+run 34902691961 and Pages run 34902691962 passed; the live verifier matched
+every manifest asset, core route and direct cohort profile.
 
 Batch 530: the focused cohort suite passed all 51 checks across desktop, phone
 and tablet. It verifies ten immutable page 106 rows; five masked private
