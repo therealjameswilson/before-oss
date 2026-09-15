@@ -149,6 +149,8 @@ before research.
 
 ## Release boundary
 
-Batch 537 is a fully validated local release candidate. Batch 536 remains the
-current exact-verified public release until GitHub CI, Pages deployment and
-immutable live verification succeed. The goal remains active.
+Batch 537 is the current exact-verified public release. Pull request #233 was
+merged as commit `189d1612fd0afa49ec8c13aeea58b9a2d0b1f8a7`; PR Test run
+34932227187, main Test run 34932770088 and Pages run 34932770066 succeeded. The immutable live verifier
+matched all 67 manifest assets, 92,888,056 manifest bytes, seven core routes
+and ten direct Batch 537 profiles at that merge commit. The goal remains active.

@@ -2,6 +2,25 @@
 
 Run: 2026-09-15 UTC
 
+## Batch 538 release candidate
+
+All internal targets resolve across 24,571 HTML pages; 49,946 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,643 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,100
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 92,913,597 bytes at
+SHA-256 `2021ddc832d044fc9edfe5725f345a52f9f1e60904ed305df57f7b648ffaf84e`.
+Under the relative-path/content digest, the 70-file public tree is
+`bf20ecf83d8a275e29186ddfcfc3312b015751917a97790592e45234cbbf34b8`;
+the 24,643-file production tree is
+`dbb3e9a6a9add241a5e253d56d98891878790b352e0674dc217a6134d6015eb9`.
+Three exact GitHub Pages-configured builds reproduced both trees. Three bundle
+sources support two confirmed identities and one qualified occupation claim;
+no named employer is created. All 25 Library of Congress candidates were
+rejected after official page-context review. No authenticated Catalog request
+was used. Batch 537 remains the exact-verified public release while Batch 538
+proceeds through clean replay and CI.
+
 ## Batch 537 release candidate
 
 All internal targets resolve across 24,571 HTML pages; 49,946 external URLs
@@ -18,7 +37,11 @@ Three exact GitHub Pages-configured builds reproduced both trees. Three bundle
 sources support one confirmed identity, one qualified occupation claim and one
 identity-conflict claim; no named employer is created. No CIA Reading Room or
 Library of Congress candidate was returned. No authenticated Catalog request
-was used. GitHub CI, deployment and exact-live verification remain pending.
+was used. PR Test run 34932227187, main Test run 34932770088 and Pages run
+34932770066 succeeded; the
+live verifier matched all 67 manifest assets, 92,888,056 bytes, seven core
+routes and ten direct Batch 537 profiles at merge commit
+`189d1612fd0afa49ec8c13aeea58b9a2d0b1f8a7`.
 
 ## Batch 536 release candidate
 

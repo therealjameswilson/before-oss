@@ -16571,7 +16571,7 @@ test("Batch 187 qualifies four Army occupations and exposes the Samuel Bennett i
     ["35ee9427-2315-5c04-998c-308fbbcfc950", "Loom fixer"],
     [
       "3f59d5a5-1e4b-57f6-936d-75e5d3fe354b",
-      "Electrical-machinery manufacturing occupation, not elsewhere classified",
+      "Semiskilled occupation in manufacture of radios and phonographs",
     ],
   ]) {
     await page.goto(`./people/${personId}/`);
@@ -17739,7 +17739,7 @@ test("Batch 201 preserves Besancon-through-Bessermann and separates employers, m
     "Stockton Junior College",
   );
   await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
-    "electrical machinery",
+    "Semiskilled occupation in manufacture of radios and phonographs",
   );
 
   await page.goto("./people/f2352d2d-2f91-5496-a7cf-9f0d86ebb52b/");
@@ -30743,7 +30743,7 @@ test("Batch 382 confirms three exact Army identities while retaining name varian
     [
       "d9ee343c-50ab-5db4-b059-1b6dffa9b3a3",
       "Vincent T Catalano",
-      "Occupations in manufacture of electrical machinery and accessories",
+      "Semiskilled occupation in manufacture of radios and phonographs",
       "Vincent T. Catalano",
     ],
   ] as const) {
