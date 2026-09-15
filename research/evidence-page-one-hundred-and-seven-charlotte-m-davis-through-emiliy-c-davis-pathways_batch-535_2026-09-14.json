@@ -1,0 +1,432 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Codex archival research review",
+  "sources": [
+    {
+      "key": "index-b535",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; PDF page 107 rows 10-19 visually inspected; Boxes 169-170; location 230/86/29/06",
+      "access_date": "2026-09-14",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Citation and project-authored assessments only. Printed private values are withheld from public claims and exports. The spelling Emiliy is preserved exactly from the index; Emily is used only as a labeled search alias."
+    },
+    {
+      "key": "army-b535",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official ASNEF.FIN.DAT; complete transient scan of 9,200,232 fixed-width records; one strict private-identifier and name match; identifier withheld",
+      "access_date": "2026-09-14",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full private identifier is retained. David M Davis has the sole exact identifier-and-name match. Curtis C Davis's short private value is ineligible for strict comparison, and all name-only Army rows remain unassigned. The incomplete Army file is not a comprehensive OSS, officer, Navy, Marine Corps, civilian, WAC, Coast Guard, or foreign roster; a non-hit is not negative proof. David M Davis's occupation value 944 is not interpreted because the official table does not define 9-44."
+    },
+    {
+      "key": "codes-b535",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Code Lists",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "Code No. 30, Civilian Occupations, PDF physical page 174; transportation entry 5, 7-44 visually and textually checked",
+      "access_date": "2026-09-14",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "The official table defines 5-44 and 7-44 as railroad switchmen but does not define 9-44. The raw Army value 944 is therefore left uninterpreted and is not silently converted to a different listed skill-level code."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [],
+  "claims": [
+    {
+      "key": "david-m-davis-identity-b535",
+      "person_id": "7491db37-9fd9-55dc-afe4-eca6400dba26",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The OSS index and Army merged file identify the same David M Davis.",
+      "evidence_excerpt": "DAVIS DAVID M",
+      "evidence_paraphrase": "The private identifier and exact full name agree across the two official NARA records.",
+      "identity_match_assessment": "Confirmed by the exact private identifier and full-name agreement.",
+      "temporal_assessment": "The Army row records entry on December 15, 1942, as private.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private value is withheld publicly. Thirteen other exact-name Army rows have different identifiers. Occupation value 944 is not published because the official code table defines 5-44 and 7-44 but not 9-44.",
+      "sources": [
+        {
+          "source_key": "index-b535",
+          "support_type": "supports",
+          "locator_override": "PDF page 107, row 15; Box 169",
+          "excerpt_override": "DAVIS DAVID M"
+        },
+        {
+          "source_key": "army-b535",
+          "support_type": "supports",
+          "excerpt_override": "DAVIS DAVID M"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "90c0b7de-0923-5936-a1ff-c6a5bf5e6b27",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Charlotte M Davis without rank or private identifier. Three Library of Congress candidates include Charlotte Mason Davis and Charlotte Amelia Davis, but none supplies a Box 169, OSS, wartime, occupation, or employer bridge.",
+      "name_variants": [
+        "Charlotte M Davis",
+        "Charlotte M. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full middle name, birth details, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "45f452c9-3575-5fbf-be86-a0460c6cc3be",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Cleveland Davis without rank, middle name, or private identifier. Seven exact-name Army rows and three Library of Congress results cannot be linked to Box 169 or OSS and remain unassigned.",
+      "name_variants": [
+        "Cleveland Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full name, birth details, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "436b6ccd-6d7c-5da9-ae07-1fe2aaceb5de",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Cora J Davis without rank or private identifier. The sole Library of Congress candidate is Cora Lee Davis, whose middle name differs; other web and directory results have no OSS or Box 169 bridge.",
+      "name_variants": [
+        "Cora J Davis",
+        "Cora J. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full middle name, birth details, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "39dda008-4d79-556c-acb5-4f4cafb32559",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies a six-character private value, which is ineligible for the strict eight-digit Army comparison. Five exact-name Army rows and three Library of Congress candidates lack corroborating Box 169 or OSS evidence and remain unassigned.",
+      "name_variants": [
+        "Curtis C Davis",
+        "Curtis C. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 to resolve the printed private value, full name, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "a3c8ebf8-0301-51ad-ba31-9bf2ba001903",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies David R Davis without rank or private identifier. Sixteen exact-name Army rows and ten Library of Congress candidates cannot be linked to Box 169 or OSS and remain unassigned.",
+      "name_variants": [
+        "David R Davis",
+        "David R. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full middle name, birth details, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "7491db37-9fd9-55dc-afe4-eca6400dba26",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier selects one Army row with the exact David M Davis name. The private value is withheld publicly. The Army occupation value 944 is not interpreted because the official code table defines 5-44 and 7-44 but not 9-44.",
+      "name_variants": [
+        "David M Davis",
+        "David M. Davis"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Identity and Army entry are confirmed, but no reliable pre-OSS occupation or employer has yet been identified. Review Box 169 for the original occupation wording, employer, Army unit, OSS role, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "0cfb5b81-4fc7-5de2-9009-bf089b9b84e3",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Doris Davis without rank, middle name, or private identifier. Five Library of Congress candidates and web results lack corroborating Box 169, OSS, wartime, occupation, or employer evidence.",
+      "name_variants": [
+        "Doris Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full name, birth details, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "f59cf82f-cb46-5018-85f0-4fdc01034ce5",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Dorothy Davis without rank, middle name, or private identifier. Two exact-name Army rows, five Library of Congress candidates, and numerous biographies cannot be linked to Box 169 or OSS and remain unassigned.",
+      "name_variants": [
+        "Dorothy Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full name, birth details, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "3d907752-6913-5b84-baef-cec3dc3aeb13",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Elizabeth T Davis without rank or private identifier. Five Library of Congress candidates and official or web name indexes provide no corroborating Box 169, OSS, occupation, or employer bridge.",
+      "name_variants": [
+        "Elizabeth T Davis",
+        "Elizabeth T. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full middle name, birth details, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "119caf16-01cd-5536-9fae-d740da6d47a8",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index clearly prints Emiliy C Davis. Searches also tested Emily C Davis only as a likely search alias, not as a correction. Army, CIA, Library of Congress, web, obituary, directory, and institutional checks found no Box 170 or OSS identity bridge.",
+      "name_variants": [
+        "Emiliy C Davis",
+        "Emiliy C. Davis",
+        "Emily C Davis (search alias only)"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 to verify the given-name spelling and recover birth details, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b535-charlotte-m-davis",
+      "person_id": "90c0b7de-0923-5936-a1ff-c6a5bf5e6b27",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; Charlotte M Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_no_private_identifier",
+      "started_at": "2026-09-15T02:20:00Z",
+      "completed_at": "2026-09-15T02:42:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Charlotte Mason Davis appears only in a chancery-party list; Charlotte Amelia Davis has a different middle name and a postwar death notice; modern directory and sports results lack an OSS or Box 169 bridge.",
+      "research_notes": "No identity, occupation, employer, or affiliation is assigned from the compatible initial alone.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full middle name, birth details, service status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch535-v1"
+    },
+    {
+      "key": "b535-cleveland-davis",
+      "person_id": "45f452c9-3575-5fbf-be86-a0460c6cc3be",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; Cleveland Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_multiple_unassigned_army_rows",
+      "started_at": "2026-09-15T02:23:00Z",
+      "completed_at": "2026-09-15T02:44:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 16,
+      "candidate_sources_rejected": 14,
+      "rejection_reasons": "Seven same-name Army rows are indistinguishable without another identifier. All LoC hits are spouse-style references to Mrs F Cleveland Davis; modern obituaries and census results provide no OSS or Box 169 link.",
+      "research_notes": "A name match alone is insufficient; no Army row, occupation, employer, or affiliation is assigned.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full name, birth details, service status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch535-v1"
+    },
+    {
+      "key": "b535-cora-j-davis",
+      "person_id": "436b6ccd-6d7c-5da9-ae07-1fe2aaceb5de",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; Cora J Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_middle_initial_unresolved",
+      "started_at": "2026-09-15T02:26:00Z",
+      "completed_at": "2026-09-15T02:46:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Cora Lee Davis has a different middle name. Modern genealogy, burial, and directory candidates lack the indexed middle initial, OSS context, and wartime employment chronology.",
+      "research_notes": "No defensible identity, occupation, employer, or affiliation was found in accessible sources.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full middle name, birth details, service status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch535-v1"
+    },
+    {
+      "key": "b535-curtis-c-davis",
+      "person_id": "39dda008-4d79-556c-acb5-4f4cafb32559",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; Curtis C Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_ineligible_private_value_multiple_candidates",
+      "started_at": "2026-09-15T02:29:00Z",
+      "completed_at": "2026-09-15T02:48:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 14,
+      "candidate_sources_rejected": 12,
+      "rejection_reasons": "Five exact-name Army rows cannot be selected by the short index value. LoC items identify Curtis W or Curtis B Davis, and obituary results are modern, differently initialed, or lack an OSS bridge.",
+      "research_notes": "The protected six-character value is preserved but does not authorize selecting an Army row.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 to resolve the printed private value, full name, service status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch535-v1"
+    },
+    {
+      "key": "b535-david-r-davis",
+      "person_id": "a3c8ebf8-0301-51ad-ba31-9bf2ba001903",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; David R Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_many_unassigned_candidates",
+      "started_at": "2026-09-15T02:32:00Z",
+      "completed_at": "2026-09-15T02:50:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 32,
+      "candidate_sources_rejected": 30,
+      "rejection_reasons": "Sixteen same-name Army rows are indistinguishable without another identifier. LoC candidates mostly have different middle initials; a 1948 David R Carpet Center advertisement is postwar and supplies no identity bridge.",
+      "research_notes": "A name match alone is insufficient; no Army row, occupation, employer, or affiliation is assigned.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full middle name, birth details, service status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch535-v1"
+    },
+    {
+      "key": "b535-david-m-davis",
+      "person_id": "7491db37-9fd9-55dc-afe4-eca6400dba26",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; David M Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_confirmed_identity_undefined_occupation_code",
+      "started_at": "2026-09-15T02:35:00Z",
+      "completed_at": "2026-09-15T02:52:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 30,
+      "candidate_sources_rejected": 28,
+      "rejection_reasons": "Thirteen other exact-name Army rows carry different identifiers. Ten LoC results have other middle initials or lack full-name context; generic biographies and obituaries supply no private-identifier, OSS, or employer bridge.",
+      "research_notes": "The exact private identifier confirms identity and Army entry. Value 944 remains uninterpreted because 9-44 is absent from the official table.",
+      "next_action": "Identity and Army entry are confirmed, but no reliable pre-OSS occupation or employer has yet been identified. Review Box 169 for the original occupation wording, employer, Army unit, OSS role, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch535-v1"
+    },
+    {
+      "key": "b535-doris-davis",
+      "person_id": "0cfb5b81-4fc7-5de2-9009-bf089b9b84e3",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; Doris Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_no_private_identifier",
+      "started_at": "2026-09-15T02:38:00Z",
+      "completed_at": "2026-09-15T02:54:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "LoC results are birthday lists, a school-age honor item, a postwar married-name reference, or a visitor notice. Modern obituaries and genealogy pages lack an OSS or Box 169 bridge.",
+      "research_notes": "No defensible identity, occupation, employer, or affiliation was found in accessible sources.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full name, birth details, service status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch535-v1"
+    },
+    {
+      "key": "b535-dorothy-davis",
+      "person_id": "f59cf82f-cb46-5018-85f0-4fdc01034ce5",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; Dorothy Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_multiple_unassigned_candidates",
+      "started_at": "2026-09-15T02:41:00Z",
+      "completed_at": "2026-09-15T02:56:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 15,
+      "candidate_sources_rejected": 13,
+      "rejection_reasons": "Two Army rows are indistinguishable by name alone. A 1941 newspaper byline, court report, church notice, band list, Dorothy Davis Locanthi, Dorothy Salisbury Davis, and other biographies lack the indexed person's identifiers and OSS bridge.",
+      "research_notes": "A byline does not establish this common-name person's occupation; no Army row, employer, or affiliation is assigned.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full name, birth details, service status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch535-v1"
+    },
+    {
+      "key": "b535-elizabeth-t-davis",
+      "person_id": "3d907752-6913-5b84-baef-cec3dc3aeb13",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; Elizabeth T Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_middle_initial_unresolved",
+      "started_at": "2026-09-15T02:44:00Z",
+      "completed_at": "2026-09-15T02:58:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "LoC candidates identify Elizabeth Anne, G, A, Ann, or Swartzell Davis rather than the indexed middle initial. A 1920 birth index and burial entry match the initials but supply no OSS or Box 169 bridge.",
+      "research_notes": "Compatible initials alone are insufficient; no identity, occupation, employer, or affiliation is assigned.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full middle name, birth details, service status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch535-v1"
+    },
+    {
+      "key": "b535-emiliy-c-davis",
+      "person_id": "119caf16-01cd-5536-9fae-d740da6d47a8",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; Emiliy C Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_printed_spelling_and_search_alias_unresolved",
+      "started_at": "2026-09-15T02:47:00Z",
+      "completed_at": "2026-09-15T03:02:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "No exact Emiliy candidate was found. Emily C Davis results are modern professionals, directories, or genealogy pages with no OSS, wartime, or Box 170 bridge and are not treated as a correction.",
+      "research_notes": "The printed Emiliy spelling remains authoritative; Emily was used only to broaden discovery.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 to verify the given-name spelling and recover birth details, service status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch535-v1"
+    }
+  ]
+}

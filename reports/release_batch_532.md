@@ -129,8 +129,14 @@ Research-status counts:
   `2921d5e720d23c07811956a4cad8528b4723eef060aa0343d9763e6bea5b6087`;
   the 24,643-file production tree covers 283,600,849 bytes at SHA-256
   `f6f6471971d93866044660347f37b8ac74a9d3b7afd4b6d7e2267a34e988c759`.
-- Independent GitHub workflow, merge and deployed-site verification are
-  pending.
+- Pull request #228 was merged as commit
+  `6a7fb2fe0e0444bd6ac4ea84e1aadd49ec4afc18`. PR Test run 34911041876
+  passed in 5m28s, main Test run 34911466381 passed in 5m53s and Pages run
+  34911466384 passed (build 1m19s and deploy 13s). The live verifier matched
+  all 67 manifest assets / 92,734,734 manifest bytes, seven core routes and
+  ten direct cohort profiles to that immutable commit. GitHub emitted a non-
+  blocking maintenance warning that several v4/v5 actions still declare
+  Node.js 20 and are currently forced onto Node.js 24.
 
 ## Resume commands
 
@@ -154,6 +160,7 @@ Davies, all in Box 169 at location 230/86/29/06.
 
 ## Release boundary
 
-Batch 531 remains the current exact-verified public release at merge commit
-`a54a2c00c6853aa6cd22ffc982cd1a6260178d6f`. Batch 532 is locally validated
-and awaiting publication and independent GitHub/deployed-site verification.
+Batch 532 is the current exact-verified public release. The release boundary
+is merge commit `6a7fb2fe0e0444bd6ac4ea84e1aadd49ec4afc18`, independently passed by
+the pull-request and main-branch Test workflows, deployed by GitHub Pages, and
+verified live against the checked-in manifest and all ten cohort profiles.

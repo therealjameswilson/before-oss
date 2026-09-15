@@ -128,9 +128,13 @@ Research-status counts:
   `c814aeaa33577a7188ecdcf8b7997faa1fd0d4406c23d93e2984492eee268f12`;
   the 24,643-file production tree covers 283,523,570 bytes at SHA-256
   `866fe4dcc614411975badaa4e768d60dd289dd0edbfd512a53112a6237b84974`.
-- Pull-request CI, main-branch CI, GitHub Pages deployment and exact live
-  verification are pending. Batch 530 remains the current exact-verified
-  public boundary until those checks complete.
+- Pull request #227 was merged as commit
+  `a54a2c00c6853aa6cd22ffc982cd1a6260178d6f`. PR Test run 34902061949,
+  main Test run 34902691961 and Pages run 34902691962 succeeded. The live
+  verifier matched all 67 manifest assets / 92,682,273 manifest bytes, seven
+  core routes and ten direct cohort profiles to that immutable commit. GitHub
+  emitted a non-blocking maintenance warning that several v4 actions still
+  declare Node.js 20 and are currently forced onto Node.js 24.
 
 ## Resume commands
 
@@ -155,7 +159,7 @@ forward without merging the source rows unless direct evidence supports it.
 
 ## Release boundary
 
-Batch 531 is a locally validated release candidate. Batch 530 remains the
-current exact-verified public release at merge commit
-`5607aeca17d49c8a890bf3eb60a01be9dd732e39` until Batch 531 passes remote CI,
-Pages deployment and exact live artifact/profile verification.
+Batch 531 is the current exact-verified public release. The release boundary is
+merge commit `a54a2c00c6853aa6cd22ffc982cd1a6260178d6f`, independently passed
+by the pull-request and main-branch Test workflows, deployed by GitHub Pages,
+and verified live against the checked-in manifest and all ten cohort profiles.

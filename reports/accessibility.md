@@ -4,6 +4,19 @@ Run: 2026-09-14 UTC
 
 ## Result
 
+Batch 535: the focused cohort suite passed all 45 checks across desktop, phone
+and tablet. It verifies ten immutable page 107 rows; two masked private
+values; one exact identifier-and-name Army identity; deliberate non-
+interpretation of occupation value `944`; nine unresolved profiles; and exact
+preservation of the indexed `Emiliy` spelling. The bounded core suite passed
+18/18 and the analysis suite passed 6/6 across the same viewports. The axe
+route suite passed 27/27 in 1.6 minutes with no serious violations. The clean
+publish replay's Astro check covered 160 source files with zero errors,
+warnings or hints and generated 24,571 HTML pages / 24,643 artifacts. Three
+consecutive builds reproduced the public and production trees byte for byte.
+Remote CI, Pages and exact-live
+results remain pending for this release candidate.
+
 Batch 534: the focused cohort suite passed all 48 checks across desktop, phone
 and tablet. It verifies ten immutable rows across pages 106-107; seven masked
 private values; three accepted identifier-and-name Army identities; three
@@ -14,8 +27,10 @@ the analysis suite passed 6/6 across the same viewports. The axe route suite
 passed 27/27 in 1.6 minutes with no serious violations. The clean replay's
 Astro check covered 159 source files with zero errors, warnings or hints and
 generated 24,571 HTML pages / 24,643 artifacts. Three consecutive builds
-reproduced the public and production trees byte for byte. Independent GitHub
-and deployed-site checks remain pending.
+reproduced the public and production trees byte for byte. PR Test run
+34921536919, main Test run 34921981099 and Pages run 34921981119 passed; the
+live verifier matched every manifest asset, core route and direct cohort
+profile.
 
 Batch 533: the focused cohort suite passed all 51 checks across desktop, phone
 and tablet. It verifies ten immutable page 106 rows; three masked private
