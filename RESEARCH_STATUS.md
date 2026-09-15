@@ -1,8 +1,26 @@
 # Research status
 
-Verified against the current local SQLite database on 2026-09-14 UTC.
+Verified against the current local SQLite database on 2026-09-15 UTC.
 
-Batch 535 is a fully validated local release candidate. It adds ten terminal
+Batch 536 is the current fully validated local release candidate. It adds ten
+terminal saved outcomes for personnel-index PDF page 107 rows 20-29, Emiscah
+Davis through Howard Davis, all in Box 170. Exact protected-identifier matches
+confirm Fred C Davis and Howard Davis as enlisted Army personnel; their
+official entry-time occupation code supports qualified cook findings, not
+employer findings. Eight identities remain unresolved, including Gerald W
+Davis, whose printed `Maj` classification is preserved without assigning a
+namesake, and Horace B Davis, whose unbridged biographical leads are rejected.
+Exact coverage is 5,128 / 23,940 researched, 569 verified affiliations, 253
+verified employers, 5,083 archival dispositions assessed and 18,812
+`not_started`. All 95 Python tests, 48 focused checks, 18 core checks, 6
+analysis checks and 27 route-and-viewport axe cases pass. The profile,
+privacy, link, manifest, dependency and three-build reproducibility audits are
+green. See `reports/release_batch_536.md` and
+`research/batch-536-discovery-checkpoint.md`. Independent GitHub Actions,
+merge, Pages deployment and exact live checks remain pending. The goal remains
+active.
+
+Batch 535 is the exact-verified public predecessor. It adds ten terminal
 saved outcomes for personnel-index PDF page 107 rows 10-19, Charlotte M Davis
 through the indexed spelling Emiliy C Davis, crossing from Box 169 to Box 170.
 An exact private-identifier match confirms David M Davis as enlisted Army
@@ -15,11 +33,13 @@ focused checks, 18 core checks, 6 analysis checks and 27 route-and-viewport axe
 cases pass. The profile, privacy, link, manifest, credential, dependency and
 three-build reproducibility audits are green. See
 `reports/release_batch_535.md` and
-`research/batch-535-discovery-checkpoint.md`. Batch 534 remains the current
-exact-verified public release until Batch 535 passes its pull-request,
-main-branch, Pages and exact live checks. The goal remains active.
+`research/batch-535-discovery-checkpoint.md`. Pull request #231 was merged as
+commit `ae0ed517fe059eddfeee93ff1fca27f5b23bed91`; PR Test run 34925100415,
+main Test run 34925491952 and Pages run 34925491956 succeeded. The live
+verifier matched all 67 manifest assets, 92,831,424 manifest bytes, seven core
+routes and ten direct Batch 535 profiles. The goal remains active.
 
-Batch 534 is the current exact-verified public release. It adds ten
+Batch 534 is the exact-verified predecessor. It adds ten
 terminal saved outcomes for personnel-index PDF page 106 row 46 and page 107
 rows 1-9, John R Davies through Charles N Davis, all in Box 169. Three exact
 private-identifier matches support qualified Army-entry occupation findings

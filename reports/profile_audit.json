@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T03:12:59+00:00",
+  "generated_at": "2026-09-15T04:23:01+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -46,7 +46,8 @@
     "in_progress": 2,
     "needs_identity_review": 6,
     "needs_temporal_review": 2,
-    "not_started": 130,
+    "no_reliable_result_after_protocol": 1,
+    "not_started": 129,
     "occupation_only_found": 7,
     "requires_archival_review": 30,
     "verified_employer_found": 8

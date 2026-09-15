@@ -1,0 +1,561 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Codex archival research review",
+  "sources": [
+    {
+      "key": "index-b536",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; PDF page 107 rows 20-29 visually inspected; Box 170; location 230/86/29/06",
+      "access_date": "2026-09-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Citation and project-authored assessments only. Printed private values are withheld from public claims and exports."
+    },
+    {
+      "key": "army-b536",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official ASNEF.FIN.DAT; complete transient scan of 9,200,232 fixed-width records; two exact private-identifier and name matches; identifiers withheld",
+      "access_date": "2026-09-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full private identifier is retained. Fred C Davis and Howard Davis have exact identifier-and-name matches. The shorter Eugene M Davis value and alphanumeric Horace B Davis value are ineligible for strict comparison; all name-only rows remain unassigned. The incomplete Army file is not a comprehensive OSS, officer, Navy, Marine Corps, civilian, WAC, Coast Guard, or foreign roster."
+    },
+    {
+      "key": "codes-b536",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Code Lists",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "Code No. 30, Civilian Occupations, PDF physical page 172; entry 2-26 visually and textually checked",
+      "access_date": "2026-09-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "The official table defines 2-26 as Cooks, except private family. The category identifies neither an employer nor the sequence from Army service to OSS; the historical wording is preserved without modernization."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "fred-c-davis-cook-b536",
+      "person_id": "8891eafe-66e5-575e-aa07-d4e696da7ed7",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Cook, except private family",
+      "occupation": "Cooks, except private family",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-06-09",
+      "date_precision": "Civilian-occupation value 226 was recorded at Army entry on June 9, 1943. NARA's code table defines 2-26 as Cooks, except private family; no employer or work location is identified.",
+      "city": null,
+      "state_or_region": null,
+      "country": null,
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier and full name confirm the Army identity. The occupation is not converted into a named employer, immediate-OSS affiliation, household assignment, or self-employment claim."
+    },
+    {
+      "key": "howard-davis-cook-b536",
+      "person_id": "b177d735-c33c-5d00-95ff-f00fc4d186d6",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Cook, except private family",
+      "occupation": "Cooks, except private family",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1941-03-20",
+      "date_precision": "Civilian-occupation value 226 was recorded at Army entry on March 20, 1941. NARA's code table defines 2-26 as Cooks, except private family; no employer or work location is identified.",
+      "city": null,
+      "state_or_region": null,
+      "country": null,
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier and full name confirm the Army identity. The occupation is not converted into a named employer, immediate-OSS affiliation, household assignment, or self-employment claim."
+    }
+  ],
+  "claims": [
+    {
+      "key": "fred-c-davis-identity-b536",
+      "person_id": "8891eafe-66e5-575e-aa07-d4e696da7ed7",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The OSS index and Army merged file identify the same Fred C Davis.",
+      "evidence_excerpt": "DAVIS FRED C",
+      "evidence_paraphrase": "The private identifier and exact name agree across the two official NARA records.",
+      "identity_match_assessment": "Confirmed by the exact private identifier and full-name match.",
+      "temporal_assessment": "The Army row records entry on June 9, 1943, as private.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private value is withheld publicly. Twelve other exact-name Army rows carry different identifiers and are not assigned.",
+      "sources": [
+        {
+          "source_key": "index-b536",
+          "support_type": "supports",
+          "locator_override": "PDF page 107, row 25; Box 170",
+          "excerpt_override": "DAVIS FRED C"
+        },
+        {
+          "source_key": "army-b536",
+          "support_type": "supports",
+          "excerpt_override": "DAVIS FRED C"
+        }
+      ]
+    },
+    {
+      "key": "fred-c-davis-occupation-b536",
+      "person_id": "8891eafe-66e5-575e-aa07-d4e696da7ed7",
+      "affiliation_key": "fred-c-davis-cook-b536",
+      "claim_type": "occupation",
+      "claim_text": "Fred C Davis's Army-entry record classifies the prior civilian occupation as cook, except private family.",
+      "evidence_excerpt": "2-26. Cooks, except private family",
+      "evidence_paraphrase": "The identifier-matched Army row carries value 226; NARA's official code list defines 2-26 as cooks, except private family.",
+      "identity_match_assessment": "Confirmed exact private-identifier and name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry on June 9, 1943; no employer or work location is identified.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical occupation is not converted into a named employer, immediate-OSS affiliation, household assignment, or self-employment claim.",
+      "sources": [
+        {
+          "source_key": "army-b536",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b536",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 172; entry 2-26",
+          "excerpt_override": "2-26. Cooks, except private family"
+        }
+      ]
+    },
+    {
+      "key": "howard-davis-identity-b536",
+      "person_id": "b177d735-c33c-5d00-95ff-f00fc4d186d6",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The OSS index and Army merged file identify the same Howard Davis.",
+      "evidence_excerpt": "DAVIS HOWARD",
+      "evidence_paraphrase": "The private identifier and exact name agree across the two official NARA records.",
+      "identity_match_assessment": "Confirmed by the exact private identifier and full-name match.",
+      "temporal_assessment": "The Army row records entry on March 20, 1941, as private.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private value is withheld publicly. Thirty-five other exact-name Army rows carry different identifiers and are not assigned.",
+      "sources": [
+        {
+          "source_key": "index-b536",
+          "support_type": "supports",
+          "locator_override": "PDF page 107, row 29; Box 170",
+          "excerpt_override": "DAVIS HOWARD"
+        },
+        {
+          "source_key": "army-b536",
+          "support_type": "supports",
+          "excerpt_override": "DAVIS HOWARD"
+        }
+      ]
+    },
+    {
+      "key": "howard-davis-occupation-b536",
+      "person_id": "b177d735-c33c-5d00-95ff-f00fc4d186d6",
+      "affiliation_key": "howard-davis-cook-b536",
+      "claim_type": "occupation",
+      "claim_text": "Howard Davis's Army-entry record classifies the prior civilian occupation as cook, except private family.",
+      "evidence_excerpt": "2-26. Cooks, except private family",
+      "evidence_paraphrase": "The identifier-matched Army row carries value 226; NARA's official code list defines 2-26 as cooks, except private family.",
+      "identity_match_assessment": "Confirmed exact private-identifier and name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry on March 20, 1941; no employer or work location is identified.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical occupation is not converted into a named employer, immediate-OSS affiliation, household assignment, or self-employment claim.",
+      "sources": [
+        {
+          "source_key": "army-b536",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b536",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 172; entry 2-26",
+          "excerpt_override": "2-26. Cooks, except private family"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "ac89e00d-bd19-55d7-9342-24a122f2dcdb",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies the distinctive name Emiscah Davis without rank, middle name, or private identifier. A 1929 social notice, an Emiscah G Davis directory and burial lead, and web results provide no OSS or Box 170 identity bridge.",
+      "name_variants": [
+        "Emiscah Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 for full name, birth details, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "476d9a5d-e132-5b78-8336-a46a9a4950a2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies a six-character private value that is ineligible for the strict eight-digit Army comparison. Eleven exact-name Army rows, fourteen LoC candidates, and web results lack a Box 170 or OSS bridge and remain unassigned.",
+      "name_variants": [
+        "Eugene M Davis",
+        "Eugene M. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 to resolve the private value, service status, birth details, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "7fb64342-8abf-5f75-8668-b6266abb5960",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Eugenia C Davis without rank or private identifier. Four LoC candidates and exact-name OSS, employment, occupation, obituary, institutional, military, and archival searches provide no Box 170 or identity bridge.",
+      "name_variants": [
+        "Eugenia C Davis",
+        "Eugenia C. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 for full middle name, birth details, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "6463307a-2601-5028-b44c-6ec4210b318a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Farrell J Davis without rank or private identifier. One exact-name Army row, eight LoC candidates, and web results cannot be linked to Box 170 or OSS and remain unassigned.",
+      "name_variants": [
+        "Farrell J Davis",
+        "Farrell J. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 for full middle name, birth details, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e11a8ba2-cb1b-5800-b728-791675e191e0",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Foster E Davis without rank or private identifier. Two exact-name Army rows, ten LoC candidates, and obituary or directory results lack corroborating Box 170 or OSS evidence and remain unassigned.",
+      "name_variants": [
+        "Foster E Davis",
+        "Foster E. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 for full middle name, birth details, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "8891eafe-66e5-575e-aa07-d4e696da7ed7",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier selects one Army row with the exact Fred C Davis name. The private value is withheld publicly; twelve other exact-name Army rows carry different identifiers.",
+      "name_variants": [
+        "Fred C Davis",
+        "Fred C. Davis"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Cook, except private family, is documented at Army entry, but no employer, establishment, work location, or immediate OSS predecessor is identified. Review Box 170 for employer, Army unit, OSS role, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "20fb2c0f-8822-5fe7-b16b-7eab8fdb989f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index records Gerald W Davis as Major but supplies no private identifier. Seven exact-name Army rows, nine LoC candidates, a postwar Fort Myers credit, and obituary results lack a Box 170 or OSS identity bridge.",
+      "name_variants": [
+        "Gerald W Davis",
+        "Gerald W. Davis"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 for full middle name, birth details, Army unit and commission, occupation, employer, OSS assignment, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "444d0582-9c7f-581a-b238-8b9bcd606db7",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Grover C Davis without rank or private identifier. Eight exact-name Army rows, twelve LoC candidates, and web results lack corroborating Box 170 or OSS evidence and remain unassigned.",
+      "name_variants": [
+        "Grover C Davis",
+        "Grover C. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 for full middle name, birth details, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "f85dd22c-2d96-5e89-8647-6e16e659f3bc",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies an alphanumeric private value that is ineligible for the strict digit-only Army comparison. One exact-name Army row and sources for Horace Bancroft Davis do not link that person to the private value, Box 170, or OSS.",
+      "name_variants": [
+        "Horace B Davis",
+        "Horace B. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 to resolve the private value, full identity, service status, occupation, employer, and chronology before reconsidering Horace Bancroft Davis.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b177d735-c33c-5d00-95ff-f00fc4d186d6",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier selects one Army row with the exact Howard Davis name. The private value is withheld publicly; thirty-five other exact-name Army rows carry different identifiers.",
+      "name_variants": [
+        "Howard Davis"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Cook, except private family, is documented at Army entry, but no employer, establishment, work location, or immediate OSS predecessor is identified. Review Box 170 for employer, Army unit, OSS role, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b536-emiscah-davis",
+      "person_id": "ac89e00d-bd19-55d7-9342-24a122f2dcdb",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; Emiscah Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_distinctive_name_no_corroborating_identifier",
+      "started_at": "2026-09-15T03:40:00Z",
+      "completed_at": "2026-09-15T04:00:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "The LoC notice lists Emiscah Davis only as a social guest; directory and burial results add a middle initial but no OSS, Box 170, occupation, employer, or wartime link.",
+      "research_notes": "The unusual given name alone does not establish that the social, directory, and burial references belong to the indexed person.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 for full name, birth details, service status, occupation, employer, and chronology.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-batch536-v1"
+    },
+    {
+      "key": "b536-eugene-m-davis",
+      "person_id": "476d9a5d-e132-5b78-8336-a46a9a4950a2",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; Eugene M Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_ineligible_private_value_many_unassigned_candidates",
+      "started_at": "2026-09-15T03:41:00Z",
+      "completed_at": "2026-09-15T04:01:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 29,
+      "candidate_sources_rejected": 26,
+      "rejection_reasons": "Eleven exact-name Army rows cannot be selected by the short index value. LoC results are much earlier, postwar, or lack exact-name context; web results supply no OSS or protected-value link.",
+      "research_notes": "The protected six-character value is retained privately but does not authorize selecting an Army or newspaper namesake.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 to resolve the private value, service status, birth details, occupation, employer, and chronology.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-batch536-v1"
+    },
+    {
+      "key": "b536-eugenia-c-davis",
+      "person_id": "7fb64342-8abf-5f75-8668-b6266abb5960",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; Eugenia C Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_middle_initial_no_reliable_candidate",
+      "started_at": "2026-09-15T03:42:00Z",
+      "completed_at": "2026-09-15T04:02:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The LoC results are nineteenth- or early twentieth-century items without exact-name context, OSS evidence, or Box 170 linkage.",
+      "research_notes": "No defensible identity, occupation, employer, or affiliation was found in accessible sources.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 for full middle name, birth details, service status, occupation, employer, and chronology.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-batch536-v1"
+    },
+    {
+      "key": "b536-farrell-j-davis",
+      "person_id": "6463307a-2601-5028-b44c-6ec4210b318a",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; Farrell J Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_unassigned_army_and_newspaper_candidates",
+      "started_at": "2026-09-15T03:43:00Z",
+      "completed_at": "2026-09-15T04:03:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "The sole exact-name Army row lacks another identifier. LoC items have no full-name or OSS context, and web results supply no Box 170 bridge.",
+      "research_notes": "A name match alone is insufficient; no Army row, occupation, employer, or affiliation is assigned.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 for full middle name, birth details, service status, occupation, employer, and chronology.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-batch536-v1"
+    },
+    {
+      "key": "b536-foster-e-davis",
+      "person_id": "e11a8ba2-cb1b-5800-b728-791675e191e0",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; Foster E Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_multiple_unassigned_army_and_web_candidates",
+      "started_at": "2026-09-15T03:44:00Z",
+      "completed_at": "2026-09-15T04:04:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 16,
+      "candidate_sources_rejected": 13,
+      "rejection_reasons": "Two exact-name Army rows are indistinguishable without another identifier. LoC context does not establish the name, while modern or postwar Foster E Davis results provide no OSS bridge.",
+      "research_notes": "No candidate meets the identity rule; no Army row, occupation, employer, or affiliation is assigned.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 for full middle name, birth details, service status, occupation, employer, and chronology.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-batch536-v1"
+    },
+    {
+      "key": "b536-fred-c-davis",
+      "person_id": "8891eafe-66e5-575e-aa07-d4e696da7ed7",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; Fred C Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_confirmed_army_identity_occupation_only",
+      "started_at": "2026-09-15T03:45:00Z",
+      "completed_at": "2026-09-15T04:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 39,
+      "candidate_sources_rejected": 35,
+      "rejection_reasons": "Twelve exact-name Army rows carry other identifiers. Twenty LoC candidates are unrelated older or postwar namesakes, including an 1893 attorney; web results lack the exact identifier or OSS bridge.",
+      "research_notes": "The official Army identity and occupation code are accepted; no restaurant, household, employer, or self-employment is inferred.",
+      "next_action": "Cook, except private family, is documented at Army entry, but no employer, establishment, work location, or immediate OSS predecessor is identified. Review Box 170 for employer, Army unit, OSS role, and chronology.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-batch536-v1"
+    },
+    {
+      "key": "b536-gerald-w-davis",
+      "person_id": "20fb2c0f-8822-5fe7-b16b-7eab8fdb989f",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; Gerald W Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_indexed_major_common_name_unresolved",
+      "started_at": "2026-09-15T03:46:00Z",
+      "completed_at": "2026-09-15T04:06:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 21,
+      "candidate_sources_rejected": 18,
+      "rejection_reasons": "Seven Army rows cannot be selected by name alone. LoC and obituary results are incidental or postwar, and a source credit for Gerald W Davis of Fort Myers supplies no rank, OSS role, or Box 170 bridge.",
+      "research_notes": "The indexed Major rank supports commissioned Army classification only; no external identity, unit, occupation, or employer is assigned.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 for full middle name, birth details, Army unit and commission, occupation, employer, OSS assignment, and chronology.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-batch536-v1"
+    },
+    {
+      "key": "b536-grover-c-davis",
+      "person_id": "444d0582-9c7f-581a-b238-8b9bcd606db7",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; Grover C Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_many_unassigned_candidates",
+      "started_at": "2026-09-15T03:47:00Z",
+      "completed_at": "2026-09-15T04:07:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 25,
+      "candidate_sources_rejected": 22,
+      "rejection_reasons": "Eight Army rows cannot be distinguished. LoC context concerns land transfers, social notices, a juvenile, or no full-name context; no candidate supplies an OSS or Box 170 bridge.",
+      "research_notes": "A name match alone is insufficient; no Army row, occupation, employer, or affiliation is assigned.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 for full middle name, birth details, service status, occupation, employer, and chronology.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-batch536-v1"
+    },
+    {
+      "key": "b536-horace-b-davis",
+      "person_id": "f85dd22c-2d96-5e89-8647-6e16e659f3bc",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; Horace B Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_alphanumeric_private_value_prominent_namesake_unresolved",
+      "started_at": "2026-09-15T03:48:00Z",
+      "completed_at": "2026-09-15T04:08:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 24,
+      "candidate_sources_rejected": 21,
+      "rejection_reasons": "The name-only Army row is not selectable. LoC and institutional sources document Horace Bancroft Davis as a Federated Press writer, Simmons professor, and CIO News managing editor, but none supplies the protected value, OSS, or Box 170 bridge.",
+      "research_notes": "A rich namesake career is preserved as a rejected lead; no occupation or employer is assigned to the indexed person.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 170 to resolve the private value, full identity, service status, occupation, employer, and chronology before reconsidering Horace Bancroft Davis.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-batch536-v1"
+    },
+    {
+      "key": "b536-howard-davis",
+      "person_id": "b177d735-c33c-5d00-95ff-f00fc4d186d6",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 107; complete Army comparison; CIA and current Library of Congress checks; Howard Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_confirmed_army_identity_occupation_only",
+      "started_at": "2026-09-15T03:49:00Z",
+      "completed_at": "2026-09-15T04:09:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 62,
+      "candidate_sources_rejected": 58,
+      "rejection_reasons": "Thirty-five exact-name Army rows carry other identifiers. Twenty LoC candidates and web results concern unrelated social, school, sports, directory, editorial, or military namesakes without the exact identifier.",
+      "research_notes": "The official Army identity and occupation code are accepted; no restaurant, household, employer, or self-employment is inferred.",
+      "next_action": "Cook, except private family, is documented at Army entry, but no employer, establishment, work location, or immediate OSS predecessor is identified. Review Box 170 for employer, Army unit, OSS role, and chronology.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-batch536-v1"
+    }
+  ]
+}
