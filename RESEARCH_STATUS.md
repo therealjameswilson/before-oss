@@ -2,7 +2,24 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
-Batch 534 is the current locally verified release candidate. It adds ten
+Batch 535 is a fully validated local release candidate. It adds ten terminal
+saved outcomes for personnel-index PDF page 107 rows 10-19, Charlotte M Davis
+through the indexed spelling Emiliy C Davis, crossing from Box 169 to Box 170.
+An exact private-identifier match confirms David M Davis as enlisted Army
+personnel at entry, but his occupation value `944` remains uninterpreted
+because the official table defines `5-44` and `7-44`, not `9-44`. Nine common-
+name identities remain unresolved. Exact coverage is 5,118 / 23,940
+researched, 569 verified affiliations, 253 verified employers, 5,073 archival
+dispositions assessed and 18,822 `not_started`. All 95 Python tests, 45
+focused checks, 18 core checks, 6 analysis checks and 27 route-and-viewport axe
+cases pass. The profile, privacy, link, manifest, credential, dependency and
+three-build reproducibility audits are green. See
+`reports/release_batch_535.md` and
+`research/batch-535-discovery-checkpoint.md`. Batch 534 remains the current
+exact-verified public release until Batch 535 passes its pull-request,
+main-branch, Pages and exact live checks. The goal remains active.
+
+Batch 534 is the current exact-verified public release. It adds ten
 terminal saved outcomes for personnel-index PDF page 106 row 46 and page 107
 rows 1-9, John R Davies through Charles N Davis, all in Box 169. Three exact
 private-identifier matches support qualified Army-entry occupation findings
@@ -14,9 +31,11 @@ assessed and 18,832 `not_started`. All 95 Python tests, 48 focused checks, 18
 core checks, 6 analysis checks and 27 route-and-viewport axe cases pass. The
 profile, privacy, link, manifest, credential, dependency and three-build
 reproducibility audits are green. See `reports/release_batch_534.md` and
-`research/batch-534-discovery-checkpoint.md`. Independent GitHub and deployed-
-site verification remain pending. Batch 533 remains the current exact-
-verified public release, and the goal remains active.
+`research/batch-534-discovery-checkpoint.md`. Pull request #230 was merged as
+commit `b8b0e2ea9c2e7b4c7053d708207dd8c94a984452`; PR Test run 34921536919,
+main Test run 34921981099 and Pages run 34921981119 succeeded. The live
+verifier matched all 67 manifest assets, 92,816,730 manifest bytes, seven core
+routes and ten direct Batch 534 profiles. The goal remains active.
 
 Batch 533 is the current exact-verified public release. It adds ten
 terminal saved outcomes for personnel-index PDF page 106 rows 36-45, John J

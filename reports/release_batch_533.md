@@ -123,7 +123,11 @@ Research-status counts:
   `1eba7a4e036f2e609b02406ffd24b00d3bfb4708c6cded46fdcbc50b3061c7d9`;
   the 24,643-file production tree covers 283,663,242 bytes at SHA-256
   `6c71935bc5f67f362280058b128ab83a7fbe40438d7fa73e4db8eee61e9937d8`.
-- Pull-request, main-branch and GitHub Pages workflow validation is pending.
+- Pull request #229 was merged as commit
+  `6fb8569af3f255bcda0c3b8063cc174416449d7d`. PR Test run 34918835156,
+  main Test run 34919328724 and Pages run 34919328709 passed. The live verifier
+  matched all 67 manifest assets, 92,776,434 manifest bytes, seven core routes
+  and all ten direct cohort profiles to that immutable commit.
 
 ## Resume commands
 
@@ -147,6 +151,5 @@ Davies through Charles N Davis, all in Box 169 at location 230/86/29/06.
 
 ## Release boundary
 
-Batch 532 remains the current exact-verified public release until Batch 533's
-pull request, main-branch Test workflow, Pages deployment and immutable live
-verification succeed.
+Batch 533 is the current exact-verified public release. The goal remains
+active and research resumes with Batch 534.

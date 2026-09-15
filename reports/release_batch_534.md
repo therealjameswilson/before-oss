@@ -116,8 +116,11 @@ Research-status counts:
   `6dc4e7279f7457ad350644fb55afe219282b105434809e8738f5417fbb1aa62e`;
   the 24,643-file production tree covers 283,724,050 bytes at SHA-256
   `bdaa22a5a65e65dbb285e458dfe7204c9761eca226e2864972b9c5a1f8ed57f9`.
-- Independent GitHub CI, merge, Pages and deployed-site verification remain
-  pending until this release candidate is published.
+- Pull request #230 was merged as commit
+  `b8b0e2ea9c2e7b4c7053d708207dd8c94a984452`. PR Test run 34921536919,
+  main Test run 34921981099 and Pages run 34921981119 passed. The live verifier
+  matched all 67 manifest assets, 92,816,730 manifest bytes, seven core routes
+  and all ten direct cohort profiles to that immutable commit.
 
 ## Resume commands
 
@@ -142,5 +145,5 @@ indexed spelling Emiliy C Davis, crossing from Box 169 to Box 170 at location
 
 ## Release boundary
 
-Batch 534 is a locally verified release candidate. Batch 533 remains the
-current exact-verified public release until GitHub and live verification pass.
+Batch 534 is the current exact-verified public release. The goal remains
+active and research resumes with Batch 535.

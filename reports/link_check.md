@@ -2,6 +2,24 @@
 
 Run: 2026-09-14 UTC
 
+## Batch 535 release candidate
+
+All internal targets resolve across 24,571 HTML pages; 49,946 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,643 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,102
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 92,831,424 bytes at
+SHA-256 `348184d44f06d191cffe98babd1df1258c01ce4a199705f7477e338a7dd2751e`.
+Under the relative-path/content digest, the 70-file public tree is
+`a0a11d0e7f2fa7fc96078df432d8a79ae029fc5f1040882223fd6ac30537b1d4`;
+the 24,643-file production tree is
+`0834e4235c1978f0d5ddee48fee727b9d3d3528ec9d4166648581c06a4b9167e`.
+Three consecutive builds reproduced both trees. Three bundle sources support
+one confirmed identity claim; no occupation or employer claim is created from
+the undefined Army value `944`. Forty-five Library of Congress candidates
+were rejected after official context review. No authenticated Catalog request
+was used. Remote CI, Pages and exact-live verification remain pending.
+
 ## Batch 534 release candidate
 
 All internal targets resolve across 24,571 HTML pages; 49,946 external URLs
@@ -18,7 +36,10 @@ Three consecutive builds reproduced both trees. Three bundle sources support
 three confirmed identity and three qualified occupation claims. Thirty-four
 Library of Congress candidates were rejected after official context review.
 No authenticated Catalog request was used. Independent GitHub and deployed-
-site checks remain pending.
+site checks passed: PR Test run 34921536919, main Test run 34921981099 and
+Pages run 34921981119 succeeded; the live verifier matched all 67 manifest
+assets and ten direct cohort profiles to merge commit
+`b8b0e2ea9c2e7b4c7053d708207dd8c94a984452`.
 
 ## Batch 533 release candidate
 
