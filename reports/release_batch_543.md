@@ -149,7 +149,10 @@ direct evidence establishes duplication.
 
 ## Release boundary
 
-Batch 543 is a locally exact-verified release candidate. Publication, CI and
-independent production verification are pending. Batch 542 remains the current
-exact-verified public release at merge commit
-`41eb10b98488da48a094ef8a1795e423837b17f7`. The goal remains active.
+Batch 543 is released and exact-verified in production. Pull request 239 used
+branch commit `1b744e6f93bde6b9832268b3b986397c6de7feb4` and merged as commit
+`12f4ea9a3abc07ea6e89a244f1ccad6b867d4b13`. PR Test run 34956370238, main
+Test run 34957513189 and Pages run 34957513184 succeeded. The independent live
+verifier matched all 67 manifest assets, 93,231,152 bytes, seven core routes
+and ten direct Batch 543 profiles against that immutable merge commit. The
+goal remains active.

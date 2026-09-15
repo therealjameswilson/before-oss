@@ -2,7 +2,31 @@
 
 Verified against the current local SQLite database on 2026-09-15 UTC.
 
-Batch 543 is the current locally exact-verified release candidate. It adds ten
+Batch 544 is the current locally exact-verified release candidate. It adds ten
+terminal saved outcomes for personnel-index PDF page 109 rows 8-17, Harlowe F
+Dean Jr. through Nato DeAngeles. Exact protected-identifier and name agreement
+confirms Elmer L Deane as enlisted Army personnel and supports a qualified
+entry-time metal-stamping occupation, not an employer. Contemporary and
+institutional evidence documents Harlowe F Dean Jr. as a 1940 Civic Concerts
+representative at medium confidence; the finding is qualified, non-immediate
+and excluded from default analytics. Rare-name scholarly evidence documents
+Nato de Angeles's OSS operations at Lipari and Naples, while his printed
+identifier matches an Army record carrying a different surname; both findings
+remain visible as an identity conflict without publishing either identifier or
+the unrelated name. Six people require archival review, Margaret W Deane
+remains unresolved, and William Dean and William A Dean remain separate. Exact
+coverage is 5,208 / 23,940 researched, 571 verified affiliations, 253 verified
+employers, 5,163 archival dispositions assessed and 18,732 `not_started`. All
+95 Python tests, 63 focused checks, 18 core checks, 6 analysis checks and 27
+route-and-viewport axe cases pass. The ingest, profile, privacy, link, manifest
+and three-build reproducibility audits are green. The current online dependency
+audit could not be rerun because package-registry access was denied; no current
+result is inferred. See `reports/release_batch_544.md` and
+`research/batch-544-discovery-checkpoint.md`. Publication and independent live
+verification are pending; Batch 543 remains the exact-verified public release.
+The goal remains active.
+
+Batch 543 is the current exact-verified public release. It adds ten
 terminal saved outcomes for personnel-index PDF page 108 rows 44-46 and page
 109 rows 1-7, Richard A Day Jr. through Louis R DeAlva. Exact protected-
 identifier and name agreement confirms James L Dayley as enlisted Army
@@ -23,9 +47,12 @@ reproducibility audits are green. The current online dependency audit could
 not be rerun because package-registry access was denied; dependencies and the
 lockfile are unchanged, and no current result is inferred from Batch 542's
 green audit. See `reports/release_batch_543.md` and
-`research/batch-543-discovery-checkpoint.md`. Publication and independent live
-verification are pending; Batch 542 remains the exact-verified public release.
-The goal remains active.
+`research/batch-543-discovery-checkpoint.md`. Pull request 239 used branch
+commit `1b744e6f93bde6b9832268b3b986397c6de7feb4` and merged as commit
+`12f4ea9a3abc07ea6e89a244f1ccad6b867d4b13`; PR Test run 34956370238, main
+Test run 34957513189 and Pages run 34957513184 succeeded. The live verifier
+matched all 67 manifest assets, 93,231,152 bytes, seven core routes and ten
+direct Batch 543 profiles. The goal remains active.
 
 Batch 542 is the current exact-verified public release. It adds
 ten terminal saved outcomes for personnel-index PDF page 108 rows 34-43,
