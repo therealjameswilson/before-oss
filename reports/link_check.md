@@ -2,6 +2,26 @@
 
 Run: 2026-09-15 UTC
 
+## Batch 541 release candidate
+
+All internal targets resolve across 24,572 HTML pages; 49,954 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,644 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,099
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 93,062,362 bytes at
+SHA-256 `e1cc09592cabdc87e3ef52117a065cda8ab5f8a6b60525bb3dacdbdbcd5bb05a`.
+Under the relative-path/content digest, the 70-file public tree is
+`329d79c9adce29ba61776990820b0a256fc9051d88ac6ca7f61f516fb0dd4899`;
+the 24,644-file production tree is
+`f72d61b4b5fa1dcbc49f3e37b78e4b03810fe1277a8a98e5d3f4a36aeb5a078a`.
+Three exact GitHub Pages-configured builds reproduce both trees. Eight bundle
+sources support Robert W Davy's confirmed identity and qualified occupation
+and the ranked Carlos B Dawes row's high-confidence identity and dated
+Treasury assignment. Low-confidence candidates for the second Carlos row,
+both Walter P Davison rows and William P Davis are withheld. All sixteen
+Library of Congress candidates were rejected after context review. No
+authenticated Catalog request was used.
+
 ## Batch 540 release candidate
 
 All internal targets resolve across 24,571 HTML pages; 49,950 external URLs
@@ -19,7 +39,11 @@ sources support Russell R Davis's confirmed identity and qualified occupation,
 Walter H Davis's explicit identity conflict, and Ward P Davis's high-
 confidence Navy identity and career affiliation plus a qualified probable-
 immediate USS Raleigh assignment. All 26 Library of Congress candidates were
-rejected after context review. No authenticated Catalog request was used.
+rejected after context review. No authenticated Catalog request was used. PR
+Test run 34942781371, main Test run 34943561714 and Pages run 34943561874
+succeeded; the live verifier matched all 67 manifest assets, 93,015,740 bytes,
+seven core routes and ten direct Batch 540 profiles at merge commit
+`9bfccbb5d8aa757b696a1189b5d43f6d2d8efe1b`.
 
 ## Batch 539 release candidate
 

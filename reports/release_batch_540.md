@@ -163,6 +163,11 @@ Dawes rows separate unless direct evidence establishes duplication.
 
 ## Release boundary
 
-Batch 540 is a validated local release candidate. Batch 539 remains the current
-exact-verified public release at merge commit
-`eed84bc9db5a961f5d567c73780ffd5442ac759b`. The goal remains active.
+Batch 540 is exact-verified in production. Pull request #236 used branch commit
+`12546f4` and merged as
+`9bfccbb5d8aa757b696a1189b5d43f6d2d8efe1b`. PR Test run 34942781371, main
+Test run 34943561714 and Pages run 34943561874 all completed successfully. The
+production verifier matched all 67 manifest assets, 93,015,740 bytes, seven
+core routes and ten direct Batch 540 profiles at manifest SHA-256
+`5885af073729bbba9abd9117d6a07d60cb6def43617132fe926153c9cb1e978b`.
+The goal remains active.
