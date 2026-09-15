@@ -146,8 +146,15 @@ with page 111 rows 16-25, Andries Deinum through Egilio P Delaini, all in Box
 
 ## Release boundary
 
-Batch 552 at immutable commit
-`07f26a7a142005e021346c3a1637e3bdd34f660a` remains the current
-exact-verified public release until this Batch 553 candidate passes clean
-replay, review, merge, deployment and independent live verification. The goal
-remains active.
+Batch 553 was merged as immutable commit
+`fbdfa82e8dc8643d1581b6cf6963dc973c8cb439`. The post-merge Test workflow
+([run 35013605535](https://github.com/therealjameswilson/before-oss/actions/runs/35013605535))
+and Deploy GitHub Pages workflow
+([run 35013605538](https://github.com/therealjameswilson/before-oss/actions/runs/35013605538))
+both passed. Independent live verification matched all 67 manifested assets and
+94,079,413 bytes at manifest SHA-256
+`2e04d2046b3a08a3631e42c799aa73ce924bbae5311f74e576baa1ca1d131312`,
+verified seven core routes and rendered all ten Batch 553 profiles at
+`https://therealjameswilson.github.io/before-oss/`. Batch 553 is therefore the
+current exact-verified public release while Batch 554 remains a local release
+candidate. The goal remains active.
