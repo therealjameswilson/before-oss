@@ -144,7 +144,10 @@ separate rows unless direct evidence supports resolution.
 
 ## Release boundary
 
-Batch 544 is a locally exact-verified release candidate. Release packaging,
-publication, CI and independent production verification remain pending. Batch
-543 is the current exact-verified public release at merge commit
-`12f4ea9a3abc07ea6e89a244f1ccad6b867d4b13`. The goal remains active.
+Batch 544 is the current exact-verified public release. Pull request 240 used
+branch commit `8749a3ac6f2bd84e48a155a3b2e5ef58209f825b` and merged as commit
+`28057217241e6e58ca93b0689b302a20a5b6dd6d`. PR Test run 34960201893, main
+Test run 34961124756 and Pages run 34961124751 succeeded. The unauthenticated
+live verifier matched all 67 manifest assets, 93,294,125 bytes, seven core
+routes and ten direct Batch 544 profiles at the exact merge commit. The goal
+remains active.

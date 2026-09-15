@@ -1,0 +1,921 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Codex archival research review",
+  "sources": [
+    {
+      "key": "index-b545",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 174-175",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 109 rows 18-27; John J Deangelis through Daniel Debardeleben; visually inspected at original resolution; Boxes 174-175; location 230/86/29/06",
+      "access_date": "2026-09-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Every printed row remains separate. Seven printed private values remain restricted and may appear publicly only in masked form."
+    },
+    {
+      "key": "army-b545",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "National Archives Identifier 604357; data-file NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.zip; full 9,200,232-row scan; exact identifier-and-name matches for Edward P Deason and David C Deaver; exact-name-only row for Frances V Dearborn; John J and Peter L Deangelis identifiers each match a different surname",
+      "access_date": "2026-09-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "rights_notes": "Only project-authored conclusions and citation pointers are retained. Full identifiers, raw records and unrelated identities are excluded from public outputs."
+    },
+    {
+      "key": "army-codes-b545",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 5 and Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "Code No. 5, PDF physical page 150, grade code 8, Private; Code No. 30, PDF physical page 304, code 1-36, Statistical clerks and compilers, and code 9-92, Students; visually inspected",
+      "access_date": "2026-09-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "The historical codes establish Army-entry grade and civilian occupation categories. They name no employer, school or OSS transition."
+    },
+    {
+      "key": "prct-albin-dearing-b545",
+      "stable_url": "https://www.517prct.org/bios.htm",
+      "archival_identifier": "517th Parachute Regimental Combat Team website, Biographies roster",
+      "title": "Biographies of 517th Parachute Regimental Combat Team Members",
+      "author_creator": "517th Parachute Regimental Combat Team historical website",
+      "repository_publisher": "517prct.org",
+      "publication_record_date": null,
+      "locator": "Roster entry for Albin P. Dearing; Regimental HQ; linked obituary image inspected",
+      "access_date": "2026-09-15",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "517th Parachute Regimental Combat Team historical website",
+      "rights_notes": "Volunteer historical roster used only as corroboration. It does not establish the sequence between Army and OSS assignments."
+    },
+    {
+      "key": "times-union-albin-dearing-b545",
+      "stable_url": "https://www.517prct.org/dearing_obit.jpg",
+      "archival_identifier": "The Florida Times-Union obituary image; legacy obituary record 7194181",
+      "title": "Ex-U.S. Arts Council leader Dearing dies",
+      "author_creator": "Jessie-Lynne Kerr",
+      "repository_publisher": "The Florida Times-Union; image preserved by 517prct.org",
+      "publication_record_date": "2003-10-29",
+      "locator": "Obituary image for Albin Pasteur Dearing, age 94; original 624 by 1162 image visually inspected; wartime service paragraph only",
+      "access_date": "2026-09-15",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Florida Times-Union obituaries",
+      "rights_notes": "Only a short evidence excerpt and project-authored paraphrase are retained. Home addresses, relatives, contact details and unrelated postwar personal information are excluded."
+    },
+    {
+      "key": "cia-debardeleben-1944-b545",
+      "stable_url": "https://www.cia.gov/readingroom/docs/CIA-RDP13X00001R000100410007-2.pdf",
+      "archival_identifier": "CIA-RDP13X00001R000100410007-2",
+      "title": "Philip D. Gurasevich and his report on Field Conditions",
+      "author_creator": "D. DeBardeleben",
+      "repository_publisher": "Office of Strategic Services; CIA Freedom of Information Act Electronic Reading Room",
+      "publication_record_date": "1944-11-24",
+      "locator": "Office memorandum from D. DeBardeleben to Chief, SI; declassified CIA document; document text and context reviewed through the official CIA Reading Room index",
+      "access_date": "2026-09-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "CIA FOIA Electronic Reading Room",
+      "rights_notes": "The memo establishes an OSS SI context for D. DeBardeleben in November 1944. It names no pre-OSS employer."
+    },
+    {
+      "key": "cia-debardeleben-1945-citation-b545",
+      "stable_url": "https://www.cia.gov/readingroom/docs/CIA%20AND%20NAZI%20WAR%20CRIM.%20AND%20COL.%20CHAP.%2011-21%2C%20DRAFT%20WORKING%20PAPER_0002.pdf",
+      "archival_identifier": "CIA draft working paper, chapter 11-21, PDF part 2; cited source L-003-705",
+      "title": "CIA and Nazi War Criminals and Collaborators: Draft Working Paper, Chapters 11-21",
+      "author_creator": "Central Intelligence Agency History Staff",
+      "repository_publisher": "Central Intelligence Agency",
+      "publication_record_date": null,
+      "locator": "Footnote 3, printed page 2, citing D. DeBardeleben to Frank G. Wisner, Proposed Protection of and Assistance to OSS Contacts and Agents, July 5, 1945, L-003-705",
+      "access_date": "2026-09-15",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "CIA Freedom of Information Act Electronic Reading Room",
+      "rights_notes": "The CIA-authored working paper provides a stable archival citation to a 1945 OSS memorandum. The underlying L-003-705 document has not yet been inspected by this project."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "frances-dearborn-statistical-clerk-b545",
+      "person_id": "e3ed20fb-6b40-5139-87b0-281802104daf",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Statistical clerks and compilers",
+      "relationship_type": "employment",
+      "start_date": null,
+      "end_date": "1943-05-08",
+      "date_precision": "An exact-name Army-entry candidate carries occupation code 136 on May 8, 1943. The code names an occupational category but no employer, and the candidate lacks a strict index-identifier bridge.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact full-name evidence only. No employer, workplace, exact job title, Box 174 bridge or Army-to-OSS sequence is inferred."
+    },
+    {
+      "key": "edward-deason-student-b545",
+      "person_id": "28957e5f-5790-5ae4-a204-f0b9d95645e1",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Student",
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "1943-03-04",
+      "date_precision": "The exact identifier-and-name Army-entry record carries occupation code 992 on March 4, 1943. The code identifies students but names no institution or course.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Student status is not an employer. The source does not identify a school or establish the Army-to-OSS sequence."
+    },
+    {
+      "key": "david-deaver-student-b545",
+      "person_id": "c5e2679f-8ba1-58f5-b56f-39b5f2d32767",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Student",
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "1943-06-29",
+      "date_precision": "The exact identifier-and-name Army-entry record carries occupation code 992 on June 29, 1943. The code identifies students but names no institution or course.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Student status is not an employer. The source does not identify a school or establish the Army-to-OSS sequence."
+    }
+  ],
+  "claims": [
+    {
+      "key": "john-deangelis-identifier-conflict-b545",
+      "person_id": "d593feba-7881-5a10-a0e5-21f9cd160905",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The private identifier printed beside John J Deangelis in the OSS index matches an Army merged-file row carrying a different surname.",
+      "evidence_excerpt": "Identifier-name conflict",
+      "evidence_paraphrase": "A complete exact-identifier scan found one Army row, but its surname does not agree with the indexed name; unrelated details remain withheld.",
+      "identity_match_assessment": "Conflicting. The identifier points to a different Army subject, while no exact-name Army row supplies an alternative bridge.",
+      "temporal_assessment": "The Army row is wartime evidence but cannot be assigned to John J Deangelis. No cause for the conflict is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Review Box 174 and the original index source before correcting either record. Do not expose either full identifier or the unrelated name.",
+      "sources": [
+        {
+          "source_key": "index-b545",
+          "support_type": "supports",
+          "locator_override": "PDF page 109, row 18; John J Deangelis; Box 174; identifier withheld",
+          "excerpt_override": "DEANGELIS JOHN J"
+        },
+        {
+          "source_key": "army-b545",
+          "support_type": "contradicts",
+          "locator_override": "Exact private-identifier match with a different surname; unrelated row fields withheld",
+          "excerpt_override": "Identifier-name conflict"
+        }
+      ]
+    },
+    {
+      "key": "peter-deangelis-identifier-conflict-b545",
+      "person_id": "5384720e-fa95-54b8-b0ed-61ca7e9dd005",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The private identifier printed beside Peter L Deangelis in the OSS index matches an Army merged-file row carrying a different surname.",
+      "evidence_excerpt": "Identifier-name conflict",
+      "evidence_paraphrase": "A complete exact-identifier scan found one Army row, but its surname does not agree with the indexed name; unrelated details remain withheld.",
+      "identity_match_assessment": "Conflicting. The identifier points to a different Army subject, while no exact-name Army row supplies an alternative bridge.",
+      "temporal_assessment": "The Army row is wartime evidence but cannot be assigned to Peter L Deangelis. No cause for the conflict is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Review Box 174 and the original index source before correcting either record. Do not expose either full identifier or the unrelated name.",
+      "sources": [
+        {
+          "source_key": "index-b545",
+          "support_type": "supports",
+          "locator_override": "PDF page 109, row 19; Peter L Deangelis; Box 174; identifier withheld",
+          "excerpt_override": "DEANGELIS PETER L"
+        },
+        {
+          "source_key": "army-b545",
+          "support_type": "contradicts",
+          "locator_override": "Exact private-identifier match with a different surname; unrelated row fields withheld",
+          "excerpt_override": "Identifier-name conflict"
+        }
+      ]
+    },
+    {
+      "key": "frances-dearborn-probable-army-identity-b545",
+      "person_id": "e3ed20fb-6b40-5139-87b0-281802104daf",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Frances V Dearborn probably is the exact-name Women's Army Corps entry found in the official Army merged file.",
+      "evidence_excerpt": "DEARBORN FRANCES V",
+      "evidence_paraphrase": "The complete Army file contains one exact full-name row, dated May 8, 1943, with WAC and auxiliary context.",
+      "identity_match_assessment": "Probable. The exact full name is distinctive and unique in the file, but the index's seven-character private value cannot be used as a strict identifier bridge.",
+      "temporal_assessment": "The Army candidate is dated May 8, 1943. The later transition to OSS is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Keep all Army-derived details qualified until Box 174 or an original military record confirms the identity.",
+      "sources": [
+        {
+          "source_key": "index-b545",
+          "support_type": "supports",
+          "locator_override": "PDF page 109, row 21; Frances V Dearborn; Box 174; abbreviated private value withheld",
+          "excerpt_override": "DEARBORN FRANCES V"
+        },
+        {
+          "source_key": "army-b545",
+          "support_type": "supports",
+          "locator_override": "One exact full-name Army row; May 8, 1943; no strict identifier bridge",
+          "excerpt_override": "DEARBORN FRANCES V"
+        }
+      ]
+    },
+    {
+      "key": "frances-dearborn-occupation-b545",
+      "person_id": "e3ed20fb-6b40-5139-87b0-281802104daf",
+      "affiliation_key": "frances-dearborn-statistical-clerk-b545",
+      "claim_type": "occupation",
+      "claim_text": "The probable Frances V Dearborn Army candidate was classified as a statistical clerk or compiler at Army entry.",
+      "evidence_excerpt": "1 36 Statistical clerks and compilers",
+      "evidence_paraphrase": "The exact-name candidate carries occupation code 136, defined in NARA's official code list as statistical clerks and compilers.",
+      "identity_match_assessment": "Probable on a unique exact full-name row, without a strict identifier bridge.",
+      "temporal_assessment": "Strongly date-bounded at Army entry on May 8, 1943; no employer, workplace, exact position or OSS transition is documented.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "This is an occupation-only candidate, not an employer claim, and is excluded from default confirmed/high analytics.",
+      "sources": [
+        {
+          "source_key": "army-b545",
+          "support_type": "supports",
+          "locator_override": "Exact-name-only Army row; May 8, 1943; occupation code 136",
+          "excerpt_override": "Occupation code 136"
+        },
+        {
+          "source_key": "army-codes-b545",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF physical page 304; code 1-36; visually inspected",
+          "excerpt_override": "Statistical clerks and compilers"
+        }
+      ]
+    },
+    {
+      "key": "albin-dearing-identity-b545",
+      "person_id": "32046bbe-c39c-5d11-aef4-a81edaaf4028",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Albin P Dearing is highly likely to be Albin Pasteur Dearing, identified in a contemporary obituary as an original OSS member.",
+      "evidence_excerpt": "One of the original members of the Office of Strategic Services",
+      "evidence_paraphrase": "The distinctive indexed name matches an obituary that expands the middle initial and explicitly documents OSS membership and wartime service.",
+      "identity_match_assessment": "High. The exact first name, middle initial and rare surname align with direct OSS context, corroborated by the 517th roster; no Box 175 bridge has yet been inspected.",
+      "temporal_assessment": "The obituary places the service during World War II but does not give the sequence between the Army formations and OSS.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The obituary's postwar company is not treated as prewar employment. Sensitive and unrelated personal details are excluded.",
+      "sources": [
+        {
+          "source_key": "index-b545",
+          "support_type": "supports",
+          "locator_override": "PDF page 109, row 23; Albin P Dearing; Box 175; abbreviated private value withheld",
+          "excerpt_override": "DEARING ALBIN P"
+        },
+        {
+          "source_key": "times-union-albin-dearing-b545",
+          "support_type": "supports",
+          "locator_override": "Wartime service paragraph of obituary image; October 29, 2003",
+          "excerpt_override": "One of the original members of the Office of Strategic Services"
+        },
+        {
+          "source_key": "prct-albin-dearing-b545",
+          "support_type": "supports",
+          "locator_override": "Biographies roster; Albin P. Dearing; Regimental HQ",
+          "excerpt_override": "Albin P. Dearing"
+        }
+      ]
+    },
+    {
+      "key": "albin-dearing-wartime-context-b545",
+      "person_id": "32046bbe-c39c-5d11-aef4-a81edaaf4028",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Sources place Albin P. Dearing in the 517th Parachute Regimental Combat Team and identify him as an original OSS member during World War II.",
+      "evidence_excerpt": "served in the 82nd Airborne, 517 Parachute Regimental Combat Team",
+      "evidence_paraphrase": "The obituary and unit roster document Army and OSS wartime context but do not establish which assignment immediately preceded the other.",
+      "identity_match_assessment": "High on the distinctive exact name and explicit OSS context.",
+      "temporal_assessment": "Wartime only; the sequence is temporally uncertain, so no immediate pre-OSS affiliation is asserted.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "publish_qualified",
+      "match_notes": "This claim supports identity resolution and archival targeting, not employer analytics or a reconstructed transfer sequence.",
+      "sources": [
+        {
+          "source_key": "times-union-albin-dearing-b545",
+          "support_type": "supports",
+          "locator_override": "Wartime service paragraph of obituary image",
+          "excerpt_override": "served in the 82nd Airborne, 517 Parachute Regimental Combat Team"
+        },
+        {
+          "source_key": "prct-albin-dearing-b545",
+          "support_type": "supports",
+          "locator_override": "Biographies roster; Regimental HQ",
+          "excerpt_override": "Regimental HQ"
+        }
+      ]
+    },
+    {
+      "key": "edward-deason-identity-b545",
+      "person_id": "28957e5f-5790-5ae4-a204-f0b9d95645e1",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Sergeant Edward P Deason is confirmed as the same enlisted soldier represented in the official Army merged file.",
+      "evidence_excerpt": "DEASON EDWARD P",
+      "evidence_paraphrase": "The OSS index and Army merged record agree on the exact full name and private identifier.",
+      "identity_match_assessment": "Confirmed by exact private-identifier and exact-name agreement across two official NARA records.",
+      "temporal_assessment": "The Army record dates entry as a private on March 4, 1943; the index later lists sergeant, but the promotion and OSS transition are not dated.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains private. Army-entry private and indexed OSS sergeant are distinct timepoints, not a contradiction.",
+      "sources": [
+        {
+          "source_key": "index-b545",
+          "support_type": "supports",
+          "locator_override": "PDF page 109, row 24; Sergeant Edward P Deason; Box 175; identifier withheld",
+          "excerpt_override": "DEASON EDWARD P SGT"
+        },
+        {
+          "source_key": "army-b545",
+          "support_type": "supports",
+          "locator_override": "Exact identifier-and-name row; Army entry March 4, 1943; identifier withheld",
+          "excerpt_override": "DEASON EDWARD P"
+        }
+      ]
+    },
+    {
+      "key": "edward-deason-student-b545",
+      "person_id": "28957e5f-5790-5ae4-a204-f0b9d95645e1",
+      "affiliation_key": "edward-deason-student-b545",
+      "claim_type": "occupation",
+      "claim_text": "Edward P Deason's Army-entry record classified his civilian occupation as student.",
+      "evidence_excerpt": "9 92 Students",
+      "evidence_paraphrase": "The exact-identifier Army row carries occupation code 992, which NARA's official code list defines as students.",
+      "identity_match_assessment": "Confirmed through exact private-identifier and exact-name agreement.",
+      "temporal_assessment": "Strongly date-bounded at Army entry on March 4, 1943; no school, course or later Army-to-OSS sequence is documented.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Student status is not employment and no institution is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b545",
+          "support_type": "supports",
+          "locator_override": "Exact identifier-and-name row; March 4, 1943; occupation code 992",
+          "excerpt_override": "Occupation code 992"
+        },
+        {
+          "source_key": "army-codes-b545",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF physical page 304; code 9-92; visually inspected",
+          "excerpt_override": "Students"
+        }
+      ]
+    },
+    {
+      "key": "david-deaver-identity-b545",
+      "person_id": "c5e2679f-8ba1-58f5-b56f-39b5f2d32767",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Private First Class David C Deaver is confirmed as the same enlisted soldier represented in the official Army merged file.",
+      "evidence_excerpt": "DEAVER DAVID C",
+      "evidence_paraphrase": "The OSS index and Army merged record agree on the exact full name and private identifier.",
+      "identity_match_assessment": "Confirmed by exact private-identifier and exact-name agreement across two official NARA records.",
+      "temporal_assessment": "The Army record dates entry as a private on June 29, 1943; the index later lists private first class, but the promotion and OSS transition are not dated.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains private. Army-entry private and indexed OSS private first class are distinct timepoints, not a contradiction.",
+      "sources": [
+        {
+          "source_key": "index-b545",
+          "support_type": "supports",
+          "locator_override": "PDF page 109, row 26; Private First Class David C Deaver; Box 175; identifier withheld",
+          "excerpt_override": "DEAVER DAVID C PFC"
+        },
+        {
+          "source_key": "army-b545",
+          "support_type": "supports",
+          "locator_override": "Exact identifier-and-name row; Army entry June 29, 1943; identifier withheld",
+          "excerpt_override": "DEAVER DAVID C"
+        }
+      ]
+    },
+    {
+      "key": "david-deaver-student-b545",
+      "person_id": "c5e2679f-8ba1-58f5-b56f-39b5f2d32767",
+      "affiliation_key": "david-deaver-student-b545",
+      "claim_type": "occupation",
+      "claim_text": "David C Deaver's Army-entry record classified his civilian occupation as student.",
+      "evidence_excerpt": "9 92 Students",
+      "evidence_paraphrase": "The exact-identifier Army row carries occupation code 992, which NARA's official code list defines as students.",
+      "identity_match_assessment": "Confirmed through exact private-identifier and exact-name agreement.",
+      "temporal_assessment": "Strongly date-bounded at Army entry on June 29, 1943; no school, course or later Army-to-OSS sequence is documented.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Student status is not employment and no institution is inferred.",
+      "sources": [
+        {
+          "source_key": "army-b545",
+          "support_type": "supports",
+          "locator_override": "Exact identifier-and-name row; June 29, 1943; occupation code 992",
+          "excerpt_override": "Occupation code 992"
+        },
+        {
+          "source_key": "army-codes-b545",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF physical page 304; code 9-92; visually inspected",
+          "excerpt_override": "Students"
+        }
+      ]
+    },
+    {
+      "key": "daniel-debardeleben-identity-b545",
+      "person_id": "12c6802d-18ec-55e6-b114-2e9bf3aa255e",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Daniel Debardeleben is highly likely to be D. DeBardeleben, documented in official CIA sources as an OSS SI official in 1944-45.",
+      "evidence_excerpt": "FROM: D. DeBardeleben",
+      "evidence_paraphrase": "An OSS office memorandum places D. DeBardeleben in SI in November 1944; a CIA history cites his July 1945 memorandum to Frank Wisner.",
+      "identity_match_assessment": "High. The rare surname, matching first initial and direct OSS context appear in two official CIA sources, but neither supplies the full first name or Box 175 bridge.",
+      "temporal_assessment": "The sources date OSS work to November 24, 1944 and July 5, 1945. They do not identify an earlier employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Preserve the indexed capitalization and the DeBardeleben documentary variant. Confirm the full first name in Box 175 before elevating to confirmed.",
+      "sources": [
+        {
+          "source_key": "index-b545",
+          "support_type": "supports",
+          "locator_override": "PDF page 109, row 27; Daniel Debardeleben; Box 175",
+          "excerpt_override": "DEBARDELEBEN DANIEL"
+        },
+        {
+          "source_key": "cia-debardeleben-1944-b545",
+          "support_type": "supports",
+          "locator_override": "Office memorandum to Chief, SI; November 24, 1944",
+          "excerpt_override": "FROM: D. DeBardeleben"
+        },
+        {
+          "source_key": "cia-debardeleben-1945-citation-b545",
+          "support_type": "supports",
+          "locator_override": "Footnote 3, printed page 2; citation to July 5, 1945 memorandum L-003-705",
+          "excerpt_override": "D. DeBardeleben to Frank G. Wisner"
+        }
+      ]
+    },
+    {
+      "key": "daniel-debardeleben-oss-si-role-b545",
+      "person_id": "12c6802d-18ec-55e6-b114-2e9bf3aa255e",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Official sources document D. DeBardeleben writing within OSS Secret Intelligence in November 1944 and to Frank Wisner about OSS contacts in July 1945.",
+      "evidence_excerpt": "TO: Chief, SI; FROM: D. DeBardeleben",
+      "evidence_paraphrase": "The two documents establish wartime OSS institutional context and help resolve the rare-name index entry.",
+      "identity_match_assessment": "High for the indexed Daniel Debardeleben, subject to full-name confirmation in the personnel file.",
+      "temporal_assessment": "Wartime OSS role evidence only; it does not establish the immediate pre-OSS affiliation or last civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "publish_qualified",
+      "match_notes": "Included for identity resolution, not employer analytics. The underlying July 1945 memorandum remains an archival-review target.",
+      "sources": [
+        {
+          "source_key": "cia-debardeleben-1944-b545",
+          "support_type": "supports",
+          "locator_override": "Office memorandum to Chief, SI; November 24, 1944",
+          "excerpt_override": "TO: Chief, SI; FROM: D. DeBardeleben"
+        },
+        {
+          "source_key": "cia-debardeleben-1945-citation-b545",
+          "support_type": "supports",
+          "locator_override": "Footnote 3, printed page 2",
+          "excerpt_override": "Proposed Protection of and Assistance to OSS Contacts and Agents"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "d593feba-7881-5a10-a0e5-21f9cd160905",
+      "identity_status": "conflicting",
+      "identity_evidence": "The visually verified index supplies John J Deangelis, Box 174 and an eligible private identifier. A complete Army scan found one exact-identifier row under a different surname and no exact-name row. The unrelated identity and all full identifiers remain withheld.",
+      "name_variants": [
+        "John J Deangelis",
+        "John J. Deangelis",
+        "John J DeAngelis",
+        "Deangelis, John J."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 174 and the original index source to resolve the identifier-name conflict and establish full identity, occupation, employer and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "5384720e-fa95-54b8-b0ed-61ca7e9dd005",
+      "identity_status": "conflicting",
+      "identity_evidence": "The visually verified index supplies Peter L Deangelis, Box 174 and an eligible private identifier. A complete Army scan found one exact-identifier row under a different surname and no exact-name row. The unrelated identity and all full identifiers remain withheld.",
+      "name_variants": [
+        "Peter L Deangelis",
+        "Peter L. Deangelis",
+        "Peter L DeAngelis",
+        "Deangelis, Peter L."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 174 and the original index source to resolve the identifier-name conflict and establish full identity, occupation, employer and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "2174b0f7-dabd-59af-9101-43fbed2aa4c7",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Rita E DeAngelis and Box 174 without rank or private identifier. Complete Army, CIA and current LoC checks plus exact-name OSS, employer, occupation, obituary, institutional, directory, newspaper and archival searches found no candidate with a reliable identity bridge.",
+      "name_variants": [
+        "Rita E DeAngelis",
+        "Rita E. DeAngelis",
+        "Rita E De Angelis",
+        "DeAngelis, Rita E."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 174 for full identity, personnel status, occupation, employer and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e3ed20fb-6b40-5139-87b0-281802104daf",
+      "identity_status": "probable",
+      "identity_evidence": "The visually verified index supplies Frances V Dearborn, Box 174 and a seven-character private value ineligible for strict eight-digit matching. The complete Army file contains one exact full-name WAC entry dated May 8, 1943, with occupation code 136, but no independent Box 174 bridge confirms the candidate.",
+      "name_variants": [
+        "Frances V Dearborn",
+        "Frances V. Dearborn",
+        "Dearborn, Frances V."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 174 to test the exact-name Women's Army Corps candidate and establish any employer, exact position and Army-to-OSS sequence. Keep the statistical-clerk category qualified.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "6806ccc5-d88b-54b5-8d82-6b0b2e5530a1",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies the distinctive Fila R DeArellano and Box 175 without rank or private identifier. Complete Army, CIA and current LoC checks plus DeArellano, De Arellano and Arellano variants found no candidate with a reliable OSS, employment or identity bridge.",
+      "name_variants": [
+        "Fila R DeArellano",
+        "Fila R. DeArellano",
+        "Fila R De Arellano",
+        "De Arellano, Fila R."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 175 for original spelling, nationality, full identity, personnel status, occupation, employer and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "32046bbe-c39c-5d11-aef4-a81edaaf4028",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The visually verified index's distinctive Albin P Dearing aligns with a Florida Times-Union obituary for Albin Pasteur Dearing that explicitly identifies him as an original OSS member and places him in the 82nd Airborne and 517th Parachute Regimental Combat Team. The 517th roster independently lists Albin P. Dearing in Regimental HQ.",
+      "name_variants": [
+        "Albin P Dearing",
+        "Albin P. Dearing",
+        "Albin Pasteur Dearing",
+        "Dearing, Albin P."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 175 and military records to establish the sequence among civilian life, the 82nd Airborne, 517th PRCT and OSS. Do not project the documented postwar firm backward.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "28957e5f-5790-5ae4-a204-f0b9d95645e1",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index and official Army merged file agree on Edward P Deason's exact full name and private identifier. The Army record documents entry as a private on March 4, 1943 with occupation code 992; NARA's code list defines the category as students. The index later lists sergeant.",
+      "name_variants": [
+        "Edward P Deason",
+        "Edward P. Deason",
+        "Sergeant Edward P Deason",
+        "Deason, Edward P."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "The Army-entry record documents student status but names no institution or employer. Review Box 175 for the school, occupation and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b45e9d39-de70-5245-a622-29487dee8454",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index prints Felix R Deasonb, Box 175 and a seven-character private value ineligible for strict matching. Complete Army, CIA and current LoC checks plus exact printed-surname and marked Deason search variants found no reliable identity or employment bridge.",
+      "name_variants": [
+        "Felix R Deasonb",
+        "Felix R. Deasonb",
+        "Deasonb, Felix R.",
+        "Felix R Deason (search alias only)"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 175 and the underlying index source to confirm whether the printed final b belongs to the surname, then establish identity, occupation, employer and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c5e2679f-8ba1-58f5-b56f-39b5f2d32767",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index and official Army merged file agree on David C Deaver's exact full name and private identifier. The Army record documents entry as a private on June 29, 1943 with occupation code 992; NARA's code list defines the category as students. The index later lists private first class.",
+      "name_variants": [
+        "David C Deaver",
+        "David C. Deaver",
+        "Private First Class David C Deaver",
+        "Deaver, David C."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "The Army-entry record documents student status but names no institution or employer. Review Box 175 for the school, occupation and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "12c6802d-18ec-55e6-b114-2e9bf3aa255e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The visually verified index supplies the rare name Daniel Debardeleben and Box 175. An official November 1944 OSS memorandum is from D. DeBardeleben to Chief, SI, and a CIA history cites D. DeBardeleben's July 1945 memorandum to Frank Wisner about OSS contacts and agents. The full first name remains to be confirmed in the personnel file.",
+      "name_variants": [
+        "Daniel Debardeleben",
+        "Daniel DeBardeleben",
+        "D. DeBardeleben",
+        "DeBardeleben, Daniel"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 175 and underlying OSS SI records, including L-003-705, to confirm the full first name and establish pre-OSS occupation, employer and entry chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b545-john-synthesis",
+      "person_id": "d593feba-7881-5a10-a0e5-21f9cd160905",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_newspaper_unit_history_obituary_and_web_sources",
+      "query_text": "NARA OSS index page 109; complete Army exact-name and exact-identifier comparison; CIA and current LoC checks; John J Deangelis and DeAngelis variants with OSS, Army, lieutenant, employer, occupation, obituary, directory, newspaper and archival terms.",
+      "query_variant_type": "minimum_completed_research_protocol_identifier_conflict",
+      "started_at": "2026-09-15T11:30:00Z",
+      "completed_at": "2026-09-15T13:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "The exact Army identifier points to a different surname; a 1942 LoC lieutenant candidate has a conflicting middle initial, and wartime directory entries provide only residences, not identity or employment.",
+      "research_notes": "No authenticated NARA Catalog API request was made because no local key was available. Army non-hits are not negative proof. No full identifier, raw Army row, unrelated identity, home address, relative detail or modern contact information is retained.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 174 and the original index source to resolve the identifier-name conflict and establish full identity, occupation, employer and chronology.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-batch545-v1"
+    },
+    {
+      "key": "b545-peter-synthesis",
+      "person_id": "5384720e-fa95-54b8-b0ed-61ca7e9dd005",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_newspaper_unit_history_obituary_and_web_sources",
+      "query_text": "NARA OSS index page 109; complete Army exact-name and exact-identifier comparison; CIA and current LoC checks; Peter L Deangelis and DeAngelis variants with OSS, Army, employer, occupation, obituary, directory, newspaper and archival terms.",
+      "query_variant_type": "minimum_completed_research_protocol_identifier_conflict",
+      "started_at": "2026-09-15T11:30:00Z",
+      "completed_at": "2026-09-15T13:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The exact Army identifier points to a different surname; wartime directory and common-name results lack an OSS, Box 174 or employment bridge.",
+      "research_notes": "No authenticated NARA Catalog API request was made because no local key was available. Army non-hits are not negative proof. No full identifier, raw Army row, unrelated identity, home address, relative detail or modern contact information is retained.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 174 and the original index source to resolve the identifier-name conflict and establish full identity, occupation, employer and chronology.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-batch545-v1"
+    },
+    {
+      "key": "b545-rita-synthesis",
+      "person_id": "2174b0f7-dabd-59af-9101-43fbed2aa4c7",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_newspaper_unit_history_obituary_and_web_sources",
+      "query_text": "NARA OSS index page 109; complete Army comparison; CIA and current LoC checks; Rita E DeAngelis and De Angelis variants with OSS, employer, occupation, obituary, institutional, directory, newspaper and archival terms.",
+      "query_variant_type": "minimum_completed_research_protocol_no_identifier_no_result",
+      "started_at": "2026-09-15T11:30:00Z",
+      "completed_at": "2026-09-15T13:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "No reviewed result supplied a direct OSS, Box 174, occupation, employer or corroborating-identity bridge.",
+      "research_notes": "No authenticated NARA Catalog API request was made because no local key was available. Army non-hits are not negative proof. No full identifier, raw Army row, unrelated identity, home address, relative detail or modern contact information is retained.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 174 for full identity, personnel status, occupation, employer and chronology.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-batch545-v1"
+    },
+    {
+      "key": "b545-frances-synthesis",
+      "person_id": "e3ed20fb-6b40-5139-87b0-281802104daf",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_newspaper_unit_history_obituary_and_web_sources",
+      "query_text": "NARA OSS index page 109; complete Army exact-name comparison with abbreviated index value ineligible for strict matching; NARA occupation and grade codes; CIA and current LoC checks; Frances V Dearborn with OSS, WAC, employer, statistical clerk, obituary and archival terms.",
+      "query_variant_type": "minimum_completed_research_protocol_probable_exact_name_army_candidate",
+      "started_at": "2026-09-15T11:30:00Z",
+      "completed_at": "2026-09-15T13:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The one exact full-name Army row is retained as a qualified probable candidate. The abbreviated index value cannot support a strict identifier match and no second bridge was found.",
+      "research_notes": "No authenticated NARA Catalog API request was made because no local key was available. Army non-hits are not negative proof. No full identifier, raw Army row, unrelated identity, home address, relative detail or modern contact information is retained.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 174 to test the exact-name Women's Army Corps candidate and establish any employer, exact position and Army-to-OSS sequence. Keep the statistical-clerk category qualified.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-batch545-v1"
+    },
+    {
+      "key": "b545-fila-synthesis",
+      "person_id": "6806ccc5-d88b-54b5-8d82-6b0b2e5530a1",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_newspaper_unit_history_obituary_and_web_sources",
+      "query_text": "NARA OSS index page 109; complete Army comparison; CIA and current LoC checks; Fila R DeArellano, De Arellano and Arellano variants with OSS, employer, occupation, obituary, foreign-name, institutional and archival terms.",
+      "query_variant_type": "minimum_completed_research_protocol_distinctive_name_variants_no_result",
+      "started_at": "2026-09-15T11:30:00Z",
+      "completed_at": "2026-09-15T13:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "DeArellano, De Arellano and Arellano variants produced no result with an OSS, Box 175 or employment bridge.",
+      "research_notes": "No authenticated NARA Catalog API request was made because no local key was available. Army non-hits are not negative proof. No full identifier, raw Army row, unrelated identity, home address, relative detail or modern contact information is retained.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 175 for original spelling, nationality, full identity, personnel status, occupation, employer and chronology.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-batch545-v1"
+    },
+    {
+      "key": "b545-albin-synthesis",
+      "person_id": "32046bbe-c39c-5d11-aef4-a81edaaf4028",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_newspaper_unit_history_obituary_and_web_sources",
+      "query_text": "NARA OSS index page 109; complete Army comparison; CIA and current LoC checks; Albin P Dearing and Albin Pasteur Dearing with OSS, 82nd Airborne, 517th PRCT, employer, occupation, obituary, institutional, newspaper and archival terms.",
+      "query_variant_type": "minimum_completed_research_protocol_high_oss_identity_no_prewar_employer",
+      "started_at": "2026-09-15T11:30:00Z",
+      "completed_at": "2026-09-15T13:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "The obituary and 517th roster resolve the distinctive OSS identity. Postwar Albin Dearing Inc. and an Albin P. Dearing III business lead were rejected as pre-OSS evidence.",
+      "research_notes": "No authenticated NARA Catalog API request was made because no local key was available. Army non-hits are not negative proof. No full identifier, raw Army row, unrelated identity, home address, relative detail or modern contact information is retained.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 175 and military records to establish the sequence among civilian life, the 82nd Airborne, 517th PRCT and OSS. Do not project the documented postwar firm backward.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-batch545-v1"
+    },
+    {
+      "key": "b545-edward-synthesis",
+      "person_id": "28957e5f-5790-5ae4-a204-f0b9d95645e1",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_newspaper_unit_history_obituary_and_web_sources",
+      "query_text": "NARA OSS index page 109; complete Army exact-name and exact-identifier comparison; NARA occupation and grade codes; CIA and current LoC checks; Edward P Deason with Sergeant, OSS, Army, student, employer, occupation, obituary, directory and archival terms.",
+      "query_variant_type": "minimum_completed_research_protocol_confirmed_army_student_status",
+      "started_at": "2026-09-15T11:30:00Z",
+      "completed_at": "2026-09-15T13:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The exact identifier-and-name Army record and occupation code were accepted. An early Fort Worth Armour & Co. directory namesake lacks a chronological or identity bridge.",
+      "research_notes": "No authenticated NARA Catalog API request was made because no local key was available. Army non-hits are not negative proof. No full identifier, raw Army row, unrelated identity, home address, relative detail or modern contact information is retained.",
+      "next_action": "The Army-entry record documents student status but names no institution or employer. Review Box 175 for the school, occupation and Army-to-OSS chronology.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-batch545-v1"
+    },
+    {
+      "key": "b545-felix-synthesis",
+      "person_id": "b45e9d39-de70-5245-a622-29487dee8454",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_newspaper_unit_history_obituary_and_web_sources",
+      "query_text": "NARA OSS index page 109; complete Army comparison with abbreviated index value ineligible; CIA and current LoC checks; exact Felix R Deasonb plus marked Deason search alias with OSS, employer, occupation, obituary, military and archival terms.",
+      "query_variant_type": "minimum_completed_research_protocol_printed_surname_and_alias_no_result",
+      "started_at": "2026-09-15T11:30:00Z",
+      "completed_at": "2026-09-15T13:15:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Exact Deasonb and marked Deason variants produced no candidate with an OSS, Box 175 or employment bridge; the printed surname is preserved.",
+      "research_notes": "No authenticated NARA Catalog API request was made because no local key was available. Army non-hits are not negative proof. No full identifier, raw Army row, unrelated identity, home address, relative detail or modern contact information is retained.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 175 and the underlying index source to confirm whether the printed final b belongs to the surname, then establish identity, occupation, employer and chronology.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-batch545-v1"
+    },
+    {
+      "key": "b545-david-synthesis",
+      "person_id": "c5e2679f-8ba1-58f5-b56f-39b5f2d32767",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_newspaper_unit_history_obituary_and_web_sources",
+      "query_text": "NARA OSS index page 109; complete Army exact-name and exact-identifier comparison; NARA occupation and grade codes; CIA and current LoC checks; David C Deaver with Private First Class, OSS, Army, student, employer, occupation, obituary and archival terms.",
+      "query_variant_type": "minimum_completed_research_protocol_confirmed_army_student_status",
+      "started_at": "2026-09-15T11:30:00Z",
+      "completed_at": "2026-09-15T13:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The exact identifier-and-name Army record and occupation code were accepted. Other name matches lacked the private identifier and OSS chronology.",
+      "research_notes": "No authenticated NARA Catalog API request was made because no local key was available. Army non-hits are not negative proof. No full identifier, raw Army row, unrelated identity, home address, relative detail or modern contact information is retained.",
+      "next_action": "The Army-entry record documents student status but names no institution or employer. Review Box 175 for the school, occupation and Army-to-OSS chronology.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-batch545-v1"
+    },
+    {
+      "key": "b545-daniel-synthesis",
+      "person_id": "12c6802d-18ec-55e6-b114-2e9bf3aa255e",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_newspaper_unit_history_obituary_and_web_sources",
+      "query_text": "NARA OSS index page 109; complete Army comparison; CIA and current LoC checks; Daniel Debardeleben, Daniel DeBardeleben and D. DeBardeleben with OSS, Secret Intelligence, Frank Wisner, employer, occupation, obituary, official documents and archival terms.",
+      "query_variant_type": "minimum_completed_research_protocol_high_oss_identity_no_prewar_employer",
+      "started_at": "2026-09-15T11:30:00Z",
+      "completed_at": "2026-09-15T13:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Two official CIA sources resolve a high-confidence OSS SI identity. Later CIG and insurance-branch references were reviewed only as identity context and not treated as pre-OSS employment.",
+      "research_notes": "No authenticated NARA Catalog API request was made because no local key was available. Army non-hits are not negative proof. No full identifier, raw Army row, unrelated identity, home address, relative detail or modern contact information is retained.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 175 and underlying OSS SI records, including L-003-705, to confirm the full first name and establish pre-OSS occupation, employer and entry chronology.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-batch545-v1"
+    }
+  ]
+}

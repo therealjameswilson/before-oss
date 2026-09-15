@@ -2,7 +2,28 @@
 
 Run: 2026-09-15 UTC
 
-## Batch 544 release candidate
+## Batch 545 release candidate
+
+All internal targets resolve across 24,578 HTML pages; 49,970 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,650 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,099
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 93,372,118 bytes at
+SHA-256 `73f70d78eca97125abc57fcd3fe700ba37995a7bcc4dbb0a4f1b3c7dd164bbc4`.
+Under the relative-path/content digest, the 70-file public tree is
+`9a15150b592964e3a6a72a770e5b5cd264b7e9f4289215562930e1ecb56a4bed`;
+the 24,650-file production tree is
+`f6ed5b1200b396db44efc1a4edb856ca34c40c87bf7bc225e7cb86874120db0b`.
+Three exact GitHub Pages-configured builds reproduce both trees. Seven bundle
+sources support Edward P Deason's and David C Deaver's confirmed Army
+identities and qualified student statuses, Frances V Dearborn's qualified
+occupation candidate, high-confidence OSS identities for Albin P Dearing and
+Daniel Debardeleben, and explicit identifier conflicts for John J and Peter L
+Deangelis. The sole Library of Congress candidate was rejected after full-
+page review. No authenticated Catalog request was used. Publication and
+independent live checks are pending.
+
+## Batch 544 production release
 
 All internal targets resolve across 24,578 HTML pages; 49,967 external URLs
 are inventoried, not all visited. Identifier checks cover all 24,650 built
@@ -19,8 +40,11 @@ sources support Elmer L Deane's confirmed Army identity and qualified entry-
 time occupation, Harlowe F Dean Jr.'s qualified medium-confidence Civic
 Concerts role, and Nato de Angeles's high-confidence OSS role alongside an
 explicit identifier conflict. All twenty Library of Congress candidates were
-reviewed and rejected. No authenticated Catalog request was used. Publication
-and independent live checks are pending.
+reviewed and rejected. No authenticated Catalog request was used. PR Test run
+34960201893, main Test run 34961124756 and Pages run 34961124751 succeeded;
+the live verifier matched all 67 manifest assets, 93,294,125 bytes, seven core
+routes and ten direct Batch 544 profiles at merge commit
+`28057217241e6e58ca93b0689b302a20a5b6dd6d`.
 
 ## Batch 543 release candidate
 
