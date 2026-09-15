@@ -2,6 +2,26 @@
 
 Run: 2026-09-15 UTC
 
+## Batch 543 release candidate
+
+All internal targets resolve across 24,577 HTML pages; 49,964 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,649 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,099
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 93,231,152 bytes at
+SHA-256 `9619e5669f2e125e77bdcb91475d96f4b2fe96cc41d954abda7ba21811e4e435`.
+Under the relative-path/content digest, the 70-file public tree is
+`f504c9d21d87dd1da762fbc5347083f3d34ab53c3e56f69fc29627826cd42c3f`;
+the 24,649-file production tree is
+`0e4f7d6e77534bb3453cf3ad7969043fc060a705e6c1372e235efa04dd2e2b12`.
+Three exact GitHub Pages-configured builds reproduce both trees. Six bundle
+sources support James L Dayley's confirmed identity and qualified student
+status, Nicholas L Deak's high-confidence identity and three qualified pre-OSS
+affiliations, and a preserved conflicting employer chronology. The Arthur
+Dayton lead is withheld; Louis R DeAlva and Bruce Deahl namesakes are rejected.
+No CIA or Library of Congress candidate was returned and no authenticated
+Catalog request was used. Publication and independent live checks are pending.
+
 ## Batch 542 release candidate
 
 All internal targets resolve across 24,575 HTML pages; 49,960 external URLs
@@ -19,8 +39,11 @@ sources support Joseph Turner Dawson's confirmed identity and three qualified
 medium-confidence pathway claims plus three confirmed Army identities and
 their qualified entry-time occupations. Six identities remain unresolved.
 All fifteen Library of Congress candidates were rejected after context review.
-No authenticated Catalog request was used. Batch 542 is locally exact-verified
-and awaits pull-request release; Batch 541 remains the exact public release.
+No authenticated Catalog request was used. PR Test run 34951716727, main Test
+run 34952390247 and Pages run 34952390156 succeeded; the live verifier matched
+all 67 manifest assets, 93,158,889 bytes, seven core routes and ten direct
+Batch 542 profiles at merge commit
+`41eb10b98488da48a094ef8a1795e423837b17f7`.
 
 ## Batch 541 release candidate
 

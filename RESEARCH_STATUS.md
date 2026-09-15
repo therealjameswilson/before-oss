@@ -2,7 +2,32 @@
 
 Verified against the current local SQLite database on 2026-09-15 UTC.
 
-Batch 542 is locally exact-verified and ready for pull-request release. It adds
+Batch 543 is the current locally exact-verified release candidate. It adds ten
+terminal saved outcomes for personnel-index PDF page 108 rows 44-46 and page
+109 rows 1-7, Richard A Day Jr. through Louis R DeAlva. Exact protected-
+identifier and name agreement confirms James L Dayley as enlisted Army
+personnel; the official code table supports qualified `student` status at Army
+entry, not an institution, employer or immediate OSS predecessor. A scholarly
+biography grounded chiefly in declassified OSS files supports Nicholas L
+Deak's high-confidence identity, Korody and Co. Inc. as his best-supported last
+civilian employer and two earlier teaching affiliations. A contrary UPI
+chronology is preserved as conflicting and excluded from default analytics.
+Arthur Dayton and Louis R DeAlva require archival review; four identities
+remain unresolved; and the ranked and unranked Bruce E Deahl rows remain
+separate ambiguous entities in a visible duplicate group. Exact coverage is
+5,198 / 23,940 researched, 571 verified affiliations, 253 verified employers,
+5,153 archival dispositions assessed and 18,742 `not_started`. All 95 Python
+tests, 60 focused checks, 18 core checks, 6 analysis checks and 27 route-and-
+viewport axe cases pass. The profile, privacy, link, manifest and three-build
+reproducibility audits are green. The current online dependency audit could
+not be rerun because package-registry access was denied; dependencies and the
+lockfile are unchanged, and no current result is inferred from Batch 542's
+green audit. See `reports/release_batch_543.md` and
+`research/batch-543-discovery-checkpoint.md`. Publication and independent live
+verification are pending; Batch 542 remains the exact-verified public release.
+The goal remains active.
+
+Batch 542 is the current exact-verified public release. It adds
 ten terminal saved outcomes for personnel-index PDF page 108 rows 34-43,
 Chiles W Dawson through Raymond L Day. Exact protected-identifier, name and
 rank agreement confirms Captain Joseph T Dawson as Joseph Turner Dawson. His
@@ -18,8 +43,12 @@ tests, 57 focused checks, 18 core checks, 6 analysis checks and 27 route-and-
 viewport axe cases pass. The profile, privacy, link, manifest, dependency and
 three-build reproducibility audits are green. See
 `reports/release_batch_542.md` and
-`research/batch-542-discovery-checkpoint.md`. Batch 541 remains the current
-exact-verified public release. The goal remains active.
+`research/batch-542-discovery-checkpoint.md`. Pull request #238 used branch
+commit `be754deb792eed60146d74a0164e2b1aa15d8c11` and merged as commit
+`41eb10b98488da48a094ef8a1795e423837b17f7`; PR Test run 34951716727, main
+Test run 34952390247 and Pages run 34952390156 succeeded. The live verifier
+matched all 67 manifest assets, 93,158,889 bytes, seven core routes and ten
+direct Batch 542 profiles. The goal remains active.
 
 Batch 541 is the exact-verified public predecessor. It adds ten terminal saved
 outcomes for personnel-index PDF page 108 rows 24-33, William G Davis through
