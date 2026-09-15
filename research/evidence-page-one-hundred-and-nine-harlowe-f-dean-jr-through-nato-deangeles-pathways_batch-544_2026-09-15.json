@@ -1,0 +1,741 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Codex archival research review",
+  "sources": [
+    {
+      "key": "index-b544",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 174",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 109 rows 8-17; Harlowe F Dean Jr. through Nato DeAngeles; visually inspected at original resolution; Box 174; location 230/86/29/06",
+      "access_date": "2026-09-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Every printed row remains separate. Five printed private values remain restricted and may appear publicly only in masked form."
+    },
+    {
+      "key": "army-b544",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "National Archives Identifier 604357; data-file NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.zip; exact private-identifier and exact-name match for Elmer L Deane; Army entry December 16, 1942; grade code 8; occupation code 688; Nato DeAngeles private identifier instead matches a record with a different surname",
+      "access_date": "2026-09-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "rights_notes": "The complete 9,200,232-row file was reviewed transiently. Only project-authored conclusions and citation pointers are retained. Full identifiers, raw records and unrelated identities are excluded from public outputs."
+    },
+    {
+      "key": "army-codes-b544",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 5 and Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "Code No. 5, PDF physical page 150, grade code 8, Private; Code No. 30, PDF physical page 304, code 6-88, Stamping occupations in mechanical treatment of metals; both visually inspected",
+      "access_date": "2026-09-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "The historical codes establish Army-entry grade and civilian occupation. They name no employer and do not establish the later Army-to-OSS sequence."
+    },
+    {
+      "key": "delta-harlowe-dean-b544",
+      "stable_url": "https://www.deltataudeltaarchive.com/wp-content/uploads/2011/11/2010-WINTER_VOL-134_NO-1.pdf",
+      "archival_identifier": "The Rainbow, Vol. 134, No. 1, Winter 2010",
+      "title": "In Memoriam",
+      "author_creator": "Delta Tau Delta Fraternity",
+      "repository_publisher": "The Rainbow; Delta Tau Delta Fraternity",
+      "publication_record_date": "2010",
+      "locator": "PDF physical and printed page 33; Delta Epsilon, University of Kentucky; Harlowe F. Dean, Jr., 1938; visually inspected",
+      "access_date": "2026-09-15",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "The Rainbow archive",
+      "rights_notes": "Institutional memorial roster. It supports the exact full-name variant and University of Kentucky class context, not employment or OSS service by itself."
+    },
+    {
+      "key": "big-spring-harlowe-dean-b544",
+      "stable_url": "https://newspapers.swco.ttu.edu/server/api/core/bitstreams/0dd94307-7c03-42c7-8f9c-a3c587ec0ade/content",
+      "archival_identifier": "The Big Spring Daily Herald, Vol. 12, No. 253",
+      "title": "Music Drive Is Success",
+      "author_creator": null,
+      "repository_publisher": "The Big Spring Daily Herald; Southwest Collection/Special Collections Library, Texas Tech University",
+      "publication_record_date": "1940-03-31",
+      "locator": "Front page, lower-right column; Harlowe F. Dean identified as a Civic Concerts representative assisting the membership drive; issue and article visually inspected",
+      "access_date": "2026-09-15",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Southwest Collection historical newspapers",
+      "rights_notes": "Contemporary newspaper. The exact role and organization wording are preserved; the item does not state when the relationship began or ended and does not mention OSS."
+    },
+    {
+      "key": "griebling-de-angeles-b544",
+      "stable_url": "https://scholarshare.temple.edu/bitstreams/0e8035f8-21d3-455c-a831-2b1c6c0af02f/download",
+      "archival_identifier": "Temple University PhD dissertation, 2017",
+      "title": "Intelligence Professionalism: A Study of Developing Intelligence Professionalism in the Office of Strategic Services in Italy and the Central Mediterranean 1941-1945",
+      "author_creator": "Erik Karl Griebling",
+      "repository_publisher": "Temple University Libraries, ScholarShare",
+      "publication_record_date": "2017-08",
+      "locator": "Printed page 144 (PDF physical page 161), Private Nate de Angeles as official OSS liaison at Lipari; printed page 170 (PDF physical page 187), Private (Acting Sergeant) Nato de Angeles, Seventh Army Detachment and Naples mission; both visually inspected",
+      "access_date": "2026-09-15",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Temple University Electronic Theses and Dissertations",
+      "rights_notes": "Scholarly dissertation based on archival records. Its footnotes identify the underlying September and October 1943 OSS reports in RG 226, but those physical records have not yet been inspected for this project."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "civic-concert-service-b544",
+      "canonical_name": "Civic Concert Service",
+      "historical_name": "Civic Concerts",
+      "aliases": [
+        "Civic Concerts",
+        "Civic Concert Service"
+      ],
+      "organization_type": "concert booking and audience-development service",
+      "sector": "arts_and_culture",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "active_dates": "active by 1940",
+      "normalization_notes": "The newspaper's historical wording 'Civic Concerts' is preserved. The canonical label distinguishes the service from the local Big Spring Civic Music Association whose drive Dean assisted."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "harlowe-dean-civic-concerts-b544",
+      "person_id": "9176d1b5-5092-5cd5-9602-f8892227960c",
+      "organization_key": "civic-concert-service-b544",
+      "organization_name_as_found": "Civic Concerts",
+      "role_title": "Representative",
+      "occupation": "Concert-service representative",
+      "relationship_type": "employment",
+      "start_date": null,
+      "end_date": "1940-03-31",
+      "date_precision": "The newspaper identifies Harlowe F. Dean as a Civic Concerts representative on March 31, 1940. It does not state a start or end date. The indexed identity remains probable because no Box 174 or private-identifier bridge has yet been found.",
+      "city": "Big Spring",
+      "state_or_region": "Texas",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The role is documented before U.S. entry into the war, but neither the employment end date nor the sequence into military service and OSS is established. It is not promoted to immediate affiliation or last civilian employer."
+    },
+    {
+      "key": "elmer-deane-metal-stamping-b544",
+      "person_id": "9943a542-2744-5468-9e5a-fb73dde9fa04",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Stamping occupations in mechanical treatment of metals",
+      "relationship_type": "employment",
+      "start_date": null,
+      "end_date": "1942-12-16",
+      "date_precision": "The exact private-identifier Army-entry record carries civilian occupation code 688 on December 16, 1942. The code names an occupational group but no employer, job title, workplace or employment dates.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The Army-entry occupation is not an employer. No company, precise trade, location or Army-to-OSS sequence is inferred."
+    }
+  ],
+  "claims": [
+    {
+      "key": "harlowe-dean-identity-b544",
+      "person_id": "9176d1b5-5092-5cd5-9602-f8892227960c",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Harlowe F Dean Jr. probably is the University of Kentucky alumnus and 1940 Civic Concerts representative documented under the same distinctive name.",
+      "evidence_excerpt": "Harlowe F. Dean, Jr., 1938",
+      "evidence_paraphrase": "An institutional memorial gives the exact full name and 1938 University of Kentucky class context; a contemporary newspaper identifies Harlowe F. Dean as a Civic Concerts representative in 1940.",
+      "identity_match_assessment": "Probable. The exact first, middle initial, surname and suffix are distinctive, and the chronology is plausible, but neither source supplies a Box 174, service-number or direct OSS bridge.",
+      "temporal_assessment": "The university class context is dated 1938 and the representative role is dated March 31, 1940, both before U.S. entry into World War II; the OSS transition date remains unknown.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The profile must remain visibly qualified. The indexed file should be compared for birth date, Lexington or University of Kentucky references, and Civic Concerts history.",
+      "sources": [
+        {
+          "source_key": "index-b544",
+          "support_type": "supports",
+          "locator_override": "PDF page 109, row 8; Harlowe F Dean Jr.; Box 174; no rank or private identifier",
+          "excerpt_override": "DEAN HARLOWE, JR. F"
+        },
+        {
+          "source_key": "delta-harlowe-dean-b544",
+          "support_type": "supports",
+          "locator_override": "Printed page 33; Delta Epsilon, University of Kentucky memorial roster",
+          "excerpt_override": "Harlowe F. Dean, Jr., 1938"
+        },
+        {
+          "source_key": "big-spring-harlowe-dean-b544",
+          "support_type": "supports",
+          "locator_override": "Front page, lower-right column; March 31, 1940",
+          "excerpt_override": "Harlowe F, Dean, Civic Concerts representative"
+        }
+      ]
+    },
+    {
+      "key": "harlowe-dean-civic-concerts-claim-b544",
+      "person_id": "9176d1b5-5092-5cd5-9602-f8892227960c",
+      "affiliation_key": "harlowe-dean-civic-concerts-b544",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "For the probable indexed identity, Harlowe F. Dean was a Civic Concerts representative in March 1940.",
+      "evidence_excerpt": "Harlowe F, Dean, Civic Concerts representative",
+      "evidence_paraphrase": "A contemporary Big Spring newspaper identifies Dean as the Civic Concerts representative who assisted a local membership drive.",
+      "identity_match_assessment": "Probable rather than confirmed because the distinctive exact-name evidence lacks a Box 174 or service-number bridge.",
+      "temporal_assessment": "Documented prewar on March 31, 1940. The source does not establish that the role was immediately before OSS service or the last civilian employment before military service.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Count only as a qualified documented prewar role. Exclude from default confirmed/high employer analytics pending the personnel-file bridge.",
+      "sources": [
+        {
+          "source_key": "big-spring-harlowe-dean-b544",
+          "support_type": "supports",
+          "locator_override": "Front page, lower-right column, 'Music Drive Is Success,' March 31, 1940",
+          "excerpt_override": "Harlowe F, Dean, Civic Concerts representative"
+        }
+      ]
+    },
+    {
+      "key": "elmer-deane-identity-b544",
+      "person_id": "9943a542-2744-5468-9e5a-fb73dde9fa04",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Elmer L Deane is confirmed as the same enlisted soldier represented in the official Army merged file.",
+      "evidence_excerpt": "DEANE ELMER L",
+      "evidence_paraphrase": "The OSS index and Army merged record agree on the exact full name and private identifier.",
+      "identity_match_assessment": "Confirmed by exact private-identifier and exact-name agreement across two official NARA records.",
+      "temporal_assessment": "The Army record dates entry as a private on December 16, 1942 but does not establish the later Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains private. The decoded grade supports enlisted classification but is not presented as an OSS rank.",
+      "sources": [
+        {
+          "source_key": "index-b544",
+          "support_type": "supports",
+          "locator_override": "PDF page 109, row 14; Elmer L Deane; Box 174; identifier withheld",
+          "excerpt_override": "DEANE ELMER L"
+        },
+        {
+          "source_key": "army-b544",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier and exact-name record; Army entry December 16, 1942; identifier withheld",
+          "excerpt_override": "DEANE ELMER L"
+        }
+      ]
+    },
+    {
+      "key": "elmer-deane-occupation-b544",
+      "person_id": "9943a542-2744-5468-9e5a-fb73dde9fa04",
+      "affiliation_key": "elmer-deane-metal-stamping-b544",
+      "claim_type": "occupation",
+      "claim_text": "Elmer L Deane's Army-entry record classified his civilian occupation in metal-stamping work.",
+      "evidence_excerpt": "6 88 Stamping occupations in mechanical treatment of metals",
+      "evidence_paraphrase": "The exact-identifier Army row carries occupation code 688, which NARA's official code list defines as stamping occupations in mechanical treatment of metals.",
+      "identity_match_assessment": "Confirmed through exact private-identifier and exact-name agreement.",
+      "temporal_assessment": "Strongly date-bounded at Army entry on December 16, 1942; no employer, workplace, exact trade or OSS transfer date is documented.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "This is an occupation-only finding, not an employer. Grade code 8 is decoded as private using Code No. 5.",
+      "sources": [
+        {
+          "source_key": "army-b544",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier row; Army entry December 16, 1942; civilian occupation code 688; identifier withheld",
+          "excerpt_override": "Occupation code 688"
+        },
+        {
+          "source_key": "army-codes-b544",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, PDF physical page 304; code 6-88; visually inspected",
+          "excerpt_override": "Stamping occupations in mechanical treatment of metals"
+        }
+      ]
+    },
+    {
+      "key": "nato-de-angeles-identity-b544",
+      "person_id": "8b53835a-2229-5628-9934-118ef4e52c08",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Nato DeAngeles is very likely the Private (Acting Sergeant) Nato de Angeles documented in archival scholarship on OSS operations in Italy.",
+      "evidence_excerpt": "Private (Acting Sergeant) Nato de Angeles",
+      "evidence_paraphrase": "The rare indexed name aligns with a scholarly account, grounded in RG 226 operational reports, that places Nato de Angeles in the OSS Seventh Army Detachment and the Lipari and Naples missions.",
+      "identity_match_assessment": "High on distinctive name and direct OSS context, but the index's private identifier creates a serious conflict because it matches an Army record under a different surname.",
+      "temporal_assessment": "The cited operations are dated September and October 1943. They establish wartime OSS identity context, not a pre-OSS employer or a sequence into OSS.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "publish_qualified",
+      "match_notes": "The profile remains in conflicting status until Box 174 and the cited RG 226 reports are compared. The surname spacing and Nate/Nato variants are preserved rather than silently corrected.",
+      "sources": [
+        {
+          "source_key": "index-b544",
+          "support_type": "supports",
+          "locator_override": "PDF page 109, row 17; Nato DeAngeles; Box 174; identifier withheld",
+          "excerpt_override": "DEANGELES NATO"
+        },
+        {
+          "source_key": "griebling-de-angeles-b544",
+          "support_type": "supports",
+          "locator_override": "Printed pages 144 and 170; Lipari and Naples operations; cited RG 226 reports",
+          "excerpt_override": "Private (Acting Sergeant) Nato de Angeles"
+        },
+        {
+          "source_key": "army-b544",
+          "support_type": "contradicts",
+          "locator_override": "The index's private identifier matches an Army row with a different surname; all other row fields withheld",
+          "excerpt_override": "Identifier-name conflict"
+        }
+      ]
+    },
+    {
+      "key": "nato-de-angeles-oss-role-b544",
+      "person_id": "8b53835a-2229-5628-9934-118ef4e52c08",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Archival scholarship describes Nato de Angeles as an enlisted member of the OSS Seventh Army Detachment who served as liaison at Lipari and led a team connected with the liberation of Naples.",
+      "evidence_excerpt": "worked as the official OSS liaison",
+      "evidence_paraphrase": "Griebling describes De Angeles as a private or acting sergeant, identifies his detachment, and connects him with the 1943 Lipari and Naples operations.",
+      "identity_match_assessment": "High on the rare name and direct OSS context, qualified by the unresolved private-identifier conflict.",
+      "temporal_assessment": "Wartime OSS context in September-October 1943. This is not modeled as a pre-OSS affiliation or employer.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "publish_qualified",
+      "match_notes": "Included to explain identity resolution only. The underlying RG 226 reports remain an archival-review priority.",
+      "sources": [
+        {
+          "source_key": "griebling-de-angeles-b544",
+          "support_type": "supports",
+          "locator_override": "Printed page 144, OSS liaison at Lipari; printed page 170, Seventh Army Detachment and Naples mission",
+          "excerpt_override": "worked as the official OSS liaison"
+        }
+      ]
+    },
+    {
+      "key": "nato-de-angeles-identifier-conflict-b544",
+      "person_id": "8b53835a-2229-5628-9934-118ef4e52c08",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The private identifier printed beside Nato DeAngeles in the OSS index matches an Army merged-file row carrying a different surname.",
+      "evidence_excerpt": "Identifier-name conflict",
+      "evidence_paraphrase": "A complete exact-identifier scan found one Army row, but its name does not agree with the indexed name; the unrelated name and all full identifiers are withheld.",
+      "identity_match_assessment": "Conflicting. The rare-name OSS evidence strongly supports Nato de Angeles, while the printed identifier points elsewhere in the Army file.",
+      "temporal_assessment": "The Army row and 1943 OSS narrative are wartime records; the conflict may reflect an index transcription error, a file association problem or a different record, but no cause is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Do not expose the full identifier or the other Army subject. Review the original Box 174 folder and underlying index source before correcting either record.",
+      "sources": [
+        {
+          "source_key": "index-b544",
+          "support_type": "supports",
+          "locator_override": "PDF page 109, row 17; Nato DeAngeles; Box 174; identifier withheld",
+          "excerpt_override": "DEANGELES NATO"
+        },
+        {
+          "source_key": "army-b544",
+          "support_type": "contradicts",
+          "locator_override": "Exact private-identifier match with a different surname; unrelated row fields withheld",
+          "excerpt_override": "Identifier-name conflict"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "9176d1b5-5092-5cd5-9602-f8892227960c",
+      "identity_status": "probable",
+      "identity_evidence": "The visually verified index supplies the distinctive Harlowe F Dean Jr. and Box 174. An institutional memorial gives the exact full name and a 1938 University of Kentucky class context, while a contemporary newspaper identifies Harlowe F. Dean as a Civic Concerts representative in March 1940. The identity is probable but lacks a Box 174 or private-identifier bridge.",
+      "name_variants": [
+        "Harlowe F Dean Jr.",
+        "Harlowe F. Dean Jr.",
+        "Harlowe F. Dean, Jr.",
+        "Harlowe Dean",
+        "Dean, Harlowe F., Jr."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 174 for birth date, Lexington or University of Kentucky context, Civic Concerts history, military service and the sequence into OSS. Keep the 1940 role qualified and outside default high-confidence analytics.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "bfdf95ff-466c-5571-840e-e096dfc5ff96",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Colonel Junius S Dean, Box 174 and a five-character private value ineligible for strict eight-digit enlisted-file matching. The complete Army file has one exact-name row but no strict identifier bridge; CIA, LoC and exact-name military, employer, obituary, institutional, newspaper and archival searches did not resolve the person.",
+      "name_variants": [
+        "Junius S Dean",
+        "Junius S. Dean",
+        "Colonel Junius S Dean",
+        "Dean, Junius S."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 174 and officer records to expand the abbreviated private value and establish identity, civilian employment, military assignment and OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "8e4db147-8045-5423-b361-696e83827fb4",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Sidney W Dean Jr. and Box 174 without rank or private identifier. A 1940 book by Sidney W. Dean and a 1943 patent assigned to Sidney W. Dean Jr. are plausible exact-name leads, but neither supplies an OSS, Box 174, birth-year, hometown or other second bridge; they remain rejected for publication.",
+      "name_variants": [
+        "Sidney W Dean Jr.",
+        "Sidney W. Dean Jr.",
+        "Sidney W. Dean, Jr.",
+        "Sidney W Dean",
+        "Dean, Sidney W., Jr."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 174 for birth date, New York context, authorship, patent activity, occupation and OSS chronology before accepting either exact-name lead.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "f2cc738c-e46b-54ff-82c7-5f1d5b22387d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies the distinctive name Vaudie Dean and Box 174 without rank or private identifier. An institutional commencement program identifies a Vaudie Dean of Belmont, Mississippi, with a 1933 degree, but education alone is not employment and no OSS or Box 174 bridge establishes that this is the indexed person.",
+      "name_variants": [
+        "Vaudie Dean",
+        "Dean, Vaudie"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 174 for birth date, Belmont or Mississippi context, education, wartime role, occupation and employer before accepting the institutional candidate.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "d0b62865-623d-5a43-863f-7f1bcea90305",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies William Dean, Box 174 and an eligible eight-digit private identifier. A complete Army scan found twelve exact-name rows but no exact-identifier match. Two LoC passes produced ten common-name newspaper candidates, all rejected because none established the indexed identifier, OSS service or employment chronology.",
+      "name_variants": [
+        "William Dean",
+        "Dean, William"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 174 and original military records for full name, birth year, branch, occupation and employer; do not choose among common-name candidates without two corroborating identifiers.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "0c0a0e8b-7394-5a73-9746-9843ffa969c8",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies William A Dean, Box 174 and a six-character private value ineligible for strict eight-digit enlisted-file matching. The Army file contains twenty-five exact-name rows and LoC produced ten common-name newspaper candidates, but none supplied a Box 174, OSS or identifier bridge.",
+      "name_variants": [
+        "William A Dean",
+        "William A. Dean",
+        "Dean, William A."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 174 and officer or other military records to expand the abbreviated private value and establish full identity, occupation, employer and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "9943a542-2744-5468-9e5a-fb73dde9fa04",
+      "identity_status": "confirmed",
+      "identity_evidence": "The visually verified OSS index and official Army merged file agree on Elmer L Deane's exact full name and private identifier. The Army record documents entry as a private on December 16, 1942 and civilian occupation code 688, which NARA's code list defines as stamping occupations in mechanical treatment of metals.",
+      "name_variants": [
+        "Elmer L Deane",
+        "Elmer L. Deane",
+        "Deane, Elmer L."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "The Army-entry record documents a metal-stamping occupational group but names no employer. Review Box 174 for the precise job, employer and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "23c3c78e-05d3-57f2-81d3-ef477b1e7492",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index supplies Margaret W Deane and Box 174 without rank or private identifier. Complete Army, CIA and LoC checks plus exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military and archival searches found no candidate with a reliable identity bridge.",
+      "name_variants": [
+        "Margaret W Deane",
+        "Margaret W. Deane",
+        "Deane, Margaret W."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 174 for full identity, personnel status, occupation, employer and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "2ee2761a-5167-526c-81c2-abb2f8d8f331",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The visually verified index supplies First Lieutenant Rex D Deane and Box 174 without a private identifier. A same-name New York veteran and burial lead lacks rank, OSS, Box 174 and employment evidence, while the complete Army file's one exact-name row has no identifier bridge. The lead remains ambiguous and unassigned.",
+      "name_variants": [
+        "Rex D Deane",
+        "Rex D. Deane",
+        "First Lieutenant Rex D Deane",
+        "Deane, Rex D."
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 174 for birth date, hometown, branch, unit, occupation and employer before testing the New York veteran candidate.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "8b53835a-2229-5628-9934-118ef4e52c08",
+      "identity_status": "conflicting",
+      "identity_evidence": "The distinctive indexed name Nato DeAngeles aligns strongly with Erik Griebling's archival account of Private or Acting Sergeant Nato de Angeles in the OSS Seventh Army Detachment, including Lipari and Naples operations in 1943. However, the index's private identifier matches an Army merged-file row carrying a different surname. The conflict is preserved without exposing either full identifier or the unrelated name.",
+      "name_variants": [
+        "Nato DeAngeles",
+        "Nato de Angeles",
+        "Nate de Angeles",
+        "De Angeles, Nato",
+        "DeAngeles, Nato"
+      ],
+      "replace_name_variants": false,
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 174 and the cited RG 226 Lipari and Naples reports to resolve the identifier-name conflict, confirm the enlisted identity, and establish any pre-OSS occupation or employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b544-harlowe-synthesis",
+      "person_id": "9176d1b5-5092-5cd5-9602-f8892227960c",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_newspaper_scholarly_and_web_sources",
+      "query_text": "NARA OSS index page 109; complete Army comparison; CIA and two current LoC checks; Harlowe F Dean Jr. exact and suffix variants with OSS, Civic Concerts, University of Kentucky, employer, occupation, obituary, military, institutional, newspaper and archival terms.",
+      "query_variant_type": "minimum_completed_research_protocol_probable_distinctive_identity_qualified_role",
+      "started_at": "2026-09-15T10:00:00Z",
+      "completed_at": "2026-09-15T11:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The University of Kentucky and 1940 newspaper evidence support a probable identity and qualified role. A name-only wartime military order and modern biographical leads lack a Box 174 bridge and were not used to elevate confidence.",
+      "research_notes": "No authenticated NARA Catalog API request was made because no local key was available. Army non-hits are not negative proof. No full identifier, raw Army row, unrelated identity, sensitive data or modern contact information is retained.",
+      "next_action": "Review Box 174 for birth date, Lexington or University of Kentucky context, Civic Concerts history, military service and the sequence into OSS. Keep the 1940 role qualified and outside default high-confidence analytics.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-batch544-v1"
+    },
+    {
+      "key": "b544-junius-synthesis",
+      "person_id": "bfdf95ff-466c-5571-840e-e096dfc5ff96",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_newspaper_scholarly_and_web_sources",
+      "query_text": "NARA OSS index page 109; complete Army comparison with short private value ineligible; CIA and two current LoC checks; Junius S Dean with Colonel, OSS, Army, employer, occupation, obituary, directory, newspaper and archival terms.",
+      "query_variant_type": "minimum_completed_research_protocol_colonel_short_identifier",
+      "started_at": "2026-09-15T10:00:00Z",
+      "completed_at": "2026-09-15T11:30:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The five-character private value cannot support strict enlisted-file matching; a name-only Army row and unrelated modern results lack an OSS, Box 174 or employment bridge.",
+      "research_notes": "No authenticated NARA Catalog API request was made because no local key was available. Army non-hits are not negative proof. No full identifier, raw Army row, unrelated identity, sensitive data or modern contact information is retained.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 174 and officer records to expand the abbreviated private value and establish identity, civilian employment, military assignment and OSS chronology.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-batch544-v1"
+    },
+    {
+      "key": "b544-sidney-synthesis",
+      "person_id": "8e4db147-8045-5423-b361-696e83827fb4",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_newspaper_scholarly_and_web_sources",
+      "query_text": "NARA OSS index page 109; complete Army comparison; CIA and two current LoC checks; Sidney W Dean Jr. with OSS, employer, author, He Fought for Freedom, patent, occupation, obituary, institutional, newspaper and archival terms.",
+      "query_variant_type": "minimum_completed_research_protocol_exact_name_author_patent_leads",
+      "started_at": "2026-09-15T10:00:00Z",
+      "completed_at": "2026-09-15T11:30:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The 1940 book, 1943 patent and later publishing lead do not establish that their Sidney W. Dean is the Box 174 person or document a pre-OSS employer.",
+      "research_notes": "No authenticated NARA Catalog API request was made because no local key was available. Army non-hits are not negative proof. No full identifier, raw Army row, unrelated identity, sensitive data or modern contact information is retained.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 174 for birth date, New York context, authorship, patent activity, occupation and OSS chronology before accepting either exact-name lead.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-batch544-v1"
+    },
+    {
+      "key": "b544-vaudie-synthesis",
+      "person_id": "f2cc738c-e46b-54ff-82c7-5f1d5b22387d",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_newspaper_scholarly_and_web_sources",
+      "query_text": "NARA OSS index page 109; complete Army comparison; CIA and two current LoC checks; Vaudie Dean with OSS, Belmont, Mississippi, school, teacher, employer, occupation, obituary, institutional, newspaper and archival terms.",
+      "query_variant_type": "minimum_completed_research_protocol_distinctive_name_education_only_lead",
+      "started_at": "2026-09-15T10:00:00Z",
+      "completed_at": "2026-09-15T11:30:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The Belmont and degree chronology is plausible, but education alone is not employment and neither the Auburn program nor discovery-only death lead supplies an OSS or Box 174 bridge.",
+      "research_notes": "No authenticated NARA Catalog API request was made because no local key was available. Army non-hits are not negative proof. No full identifier, raw Army row, unrelated identity, sensitive data or modern contact information is retained.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 174 for birth date, Belmont or Mississippi context, education, wartime role, occupation and employer before accepting the institutional candidate.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-batch544-v1"
+    },
+    {
+      "key": "b544-william-synthesis",
+      "person_id": "d0b62865-623d-5a43-863f-7f1bcea90305",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_newspaper_scholarly_and_web_sources",
+      "query_text": "NARA OSS index page 109; complete Army comparison including exact private identifier; CIA and two current LoC checks; William Dean with OSS, employer, occupation, obituary, military, institutional, newspaper, directory and archival terms; all common-name candidates required enhanced disambiguation.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_identifier_no_army_match",
+      "started_at": "2026-09-15T10:00:00Z",
+      "completed_at": "2026-09-15T11:30:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 22,
+      "rejection_reasons": "Twelve exact-name Army rows and ten LoC newspaper candidates lacked the indexed private identifier and an OSS or employment bridge.",
+      "research_notes": "No authenticated NARA Catalog API request was made because no local key was available. Army non-hits are not negative proof. No full identifier, raw Army row, unrelated identity, sensitive data or modern contact information is retained.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 174 and original military records for full name, birth year, branch, occupation and employer; do not choose among common-name candidates without two corroborating identifiers.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-batch544-v1"
+    },
+    {
+      "key": "b544-william_a-synthesis",
+      "person_id": "0c0a0e8b-7394-5a73-9746-9843ffa969c8",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_newspaper_scholarly_and_web_sources",
+      "query_text": "NARA OSS index page 109; complete Army comparison with short private value ineligible; CIA and two current LoC checks; William A Dean with OSS, employer, occupation, obituary, military, institutional, newspaper, directory and archival terms; all common-name candidates required enhanced disambiguation.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_short_identifier",
+      "started_at": "2026-09-15T10:00:00Z",
+      "completed_at": "2026-09-15T11:30:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 35,
+      "rejection_reasons": "Twenty-five exact-name Army rows and ten LoC newspaper candidates lacked an eligible identifier, Box 174 context and an OSS or employment bridge.",
+      "research_notes": "No authenticated NARA Catalog API request was made because no local key was available. Army non-hits are not negative proof. No full identifier, raw Army row, unrelated identity, sensitive data or modern contact information is retained.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 174 and officer or other military records to expand the abbreviated private value and establish full identity, occupation, employer and chronology.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-batch544-v1"
+    },
+    {
+      "key": "b544-elmer-synthesis",
+      "person_id": "9943a542-2744-5468-9e5a-fb73dde9fa04",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_newspaper_scholarly_and_web_sources",
+      "query_text": "NARA OSS index page 109; complete Army comparison including exact private identifier; NARA Code Nos. 5 and 30; CIA and two current LoC checks; Elmer L Deane with OSS, employer, occupation, metal stamping, obituary, military, institutional, newspaper and archival terms.",
+      "query_variant_type": "minimum_completed_research_protocol_confirmed_army_occupation",
+      "started_at": "2026-09-15T10:00:00Z",
+      "completed_at": "2026-09-15T11:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "The exact private-identifier and exact-name Army record was accepted; Code No. 5 establishes private grade and Code No. 30 establishes occupation code 688. No employer was found.",
+      "research_notes": "No authenticated NARA Catalog API request was made because no local key was available. Army non-hits are not negative proof. No full identifier, raw Army row, unrelated identity, sensitive data or modern contact information is retained.",
+      "next_action": "The Army-entry record documents a metal-stamping occupational group but names no employer. Review Box 174 for the precise job, employer and Army-to-OSS chronology.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-batch544-v1"
+    },
+    {
+      "key": "b544-margaret-synthesis",
+      "person_id": "23c3c78e-05d3-57f2-81d3-ef477b1e7492",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_newspaper_scholarly_and_web_sources",
+      "query_text": "NARA OSS index page 109; complete Army comparison; CIA and two current LoC checks; Margaret W Deane exact and punctuation variants with OSS, employer, occupation, obituary, institutional, newspaper, directory, military and archival terms.",
+      "query_variant_type": "minimum_completed_research_protocol_no_identifier_no_result",
+      "started_at": "2026-09-15T10:00:00Z",
+      "completed_at": "2026-09-15T11:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "No reviewed candidate supplied an OSS, Box 174, employment or corroborating-identity bridge.",
+      "research_notes": "No authenticated NARA Catalog API request was made because no local key was available. Army non-hits are not negative proof. No full identifier, raw Army row, unrelated identity, sensitive data or modern contact information is retained.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 174 for full identity, personnel status, occupation, employer and chronology.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-batch544-v1"
+    },
+    {
+      "key": "b544-rex-synthesis",
+      "person_id": "2ee2761a-5167-526c-81c2-abb2f8d8f331",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_newspaper_scholarly_and_web_sources",
+      "query_text": "NARA OSS index page 109; complete Army comparison; CIA and two current LoC checks; Rex D Deane with First Lieutenant, OSS, Army, employer, occupation, obituary, New York, burial, institutional, newspaper and archival terms.",
+      "query_variant_type": "minimum_completed_research_protocol_ranked_name_only_veteran_lead",
+      "started_at": "2026-09-15T10:00:00Z",
+      "completed_at": "2026-09-15T11:30:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The New York veteran and burial lead, name-only Army row and other results lack a rank, OSS, Box 174 or employment bridge.",
+      "research_notes": "No authenticated NARA Catalog API request was made because no local key was available. Army non-hits are not negative proof. No full identifier, raw Army row, unrelated identity, sensitive data or modern contact information is retained.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 174 for birth date, hometown, branch, unit, occupation and employer before testing the New York veteran candidate.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-batch544-v1"
+    },
+    {
+      "key": "b544-nato-synthesis",
+      "person_id": "8b53835a-2229-5628-9934-118ef4e52c08",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_newspaper_scholarly_and_web_sources",
+      "query_text": "NARA OSS index page 109; complete Army comparison including exact private identifier and redacted name conflict; CIA and two current LoC checks; Nato DeAngeles, Nato de Angeles and Nate de Angeles with OSS, Lipari, Naples, Seventh Army Detachment, employer, occupation, obituary, film, scholarly, institutional, newspaper and archival terms.",
+      "query_variant_type": "minimum_completed_research_protocol_high_oss_identity_identifier_conflict",
+      "started_at": "2026-09-15T10:00:00Z",
+      "completed_at": "2026-09-15T11:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The archival dissertation was retained for the rare-name OSS identity and wartime role. The Army identifier conflict, postwar film credits and unbridged namesakes do not establish pre-OSS employment.",
+      "research_notes": "No authenticated NARA Catalog API request was made because no local key was available. Army non-hits are not negative proof. No full identifier, raw Army row, unrelated identity, sensitive data or modern contact information is retained.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 174 and the cited RG 226 Lipari and Naples reports to resolve the identifier-name conflict, confirm the enlisted identity, and establish any pre-OSS occupation or employer.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-batch544-v1"
+    }
+  ]
+}

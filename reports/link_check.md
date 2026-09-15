@@ -2,6 +2,26 @@
 
 Run: 2026-09-15 UTC
 
+## Batch 544 release candidate
+
+All internal targets resolve across 24,578 HTML pages; 49,967 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,650 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,099
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 93,294,125 bytes at
+SHA-256 `15220ba7d755c3169327b2aa20a1d85597d83b4b987c1879f062589fa4bf3566`.
+Under the relative-path/content digest, the 70-file public tree is
+`e9c16781f3fe156799040a2663900cab0c7ff4fb273431dcc0e6bbf9a2a4b479`;
+the 24,650-file production tree is
+`ba5725a74b2c20f04b99332b43690b2e311c1f7899b08df912d5833f95d80844`.
+Three exact GitHub Pages-configured builds reproduce both trees. Six bundle
+sources support Elmer L Deane's confirmed Army identity and qualified entry-
+time occupation, Harlowe F Dean Jr.'s qualified medium-confidence Civic
+Concerts role, and Nato de Angeles's high-confidence OSS role alongside an
+explicit identifier conflict. All twenty Library of Congress candidates were
+reviewed and rejected. No authenticated Catalog request was used. Publication
+and independent live checks are pending.
+
 ## Batch 543 release candidate
 
 All internal targets resolve across 24,577 HTML pages; 49,964 external URLs
@@ -20,7 +40,10 @@ status, Nicholas L Deak's high-confidence identity and three qualified pre-OSS
 affiliations, and a preserved conflicting employer chronology. The Arthur
 Dayton lead is withheld; Louis R DeAlva and Bruce Deahl namesakes are rejected.
 No CIA or Library of Congress candidate was returned and no authenticated
-Catalog request was used. Publication and independent live checks are pending.
+Catalog request was used. PR Test run 34956370238, main Test run 34957513189
+and Pages run 34957513184 succeeded; the live verifier matched all 67 manifest
+assets, 93,231,152 bytes, seven core routes and ten direct Batch 543 profiles
+at merge commit `12f4ea9a3abc07ea6e89a244f1ccad6b867d4b13`.
 
 ## Batch 542 release candidate
 
