@@ -161,6 +161,8 @@ values independently, and do not merge Ward P Davis with Ward Davis.
 
 ## Release boundary
 
-Batch 539 is the current local release candidate. Batch 538 remains the
-exact-verified public release at merge commit
-`fc85b3e63549fc771aeeb50333c1d72cb275d997`. The goal remains active.
+Batch 539 is the current exact-verified public release. Pull request #235 was
+merged as commit `eed84bc9db5a961f5d567c73780ffd5442ac759b`; PR Test run
+34938530736, main Test run 34939083777 and Pages run 34939083781 succeeded.
+The live verifier matched all 67 manifest assets, 92,953,951 bytes, seven core
+routes and ten direct Batch 539 profiles. The goal remains active.
