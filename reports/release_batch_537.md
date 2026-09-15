@@ -143,7 +143,7 @@ python3 scripts/audit_public_identifiers.py --database research/research.sqlite 
 ```
 
 Research resumes with personnel-index PDF page 107 rows 40-46 and page 108
-rows 1-3, beginning Joseph M Davis and continuing through the next ten
+rows 1-3, beginning John T Davis and continuing through the next ten
 contiguous source rows. Both pages require rendering and visual inspection
 before research.
 

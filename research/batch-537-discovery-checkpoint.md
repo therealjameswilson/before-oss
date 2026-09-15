@@ -94,6 +94,6 @@ logical rows and counts.
 ## Resume boundary
 
 Resume with personnel-index PDF page 107 rows 40-46 and page 108 rows 1-3,
-beginning with Joseph M Davis and continuing through the next ten contiguous
+beginning with John T Davis and continuing through the next ten contiguous
 source rows. Render and inspect both pages before research; preserve all
 private values and page-boundary context.
