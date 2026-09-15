@@ -138,7 +138,7 @@ python3 scripts/audit_public_identifiers.py --database research/research.sqlite 
 ```
 
 Research resumes with personnel-index PDF page 109 rows 18-27, John J
-Deangelis through Louis D DeBottari, crossing Boxes 174-175. Re-render and
+Deangelis through Daniel Debardeleben, crossing Boxes 174-175. Re-render and
 inspect the cohort before research and preserve surname spelling variants as
 separate rows unless direct evidence supports resolution.
 

@@ -123,7 +123,7 @@ Deane's record documents an occupation without a named employer.
 ## Resume boundary
 
 Resume with personnel-index PDF page 109 rows 18-27, John J Deangelis through
-Louis D DeBottari, all in Boxes 174-175. Re-render and inspect the cohort region
+Daniel Debardeleben, all in Boxes 174-175. Re-render and inspect the cohort region
 before research. Preserve spelling, capitalization and the Deangelis,
 DeAngelis and DeAngeles variants exactly as printed; do not merge by normalized
 surname alone.
