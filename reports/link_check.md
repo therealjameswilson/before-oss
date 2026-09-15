@@ -2,7 +2,27 @@
 
 Run: 2026-09-15 UTC
 
-## Batch 548 local release candidate
+## Batch 549 release candidate
+
+All internal targets resolve across 24,585 HTML pages; 49,988 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,657 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,099
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 93,690,574 bytes at
+SHA-256 `106c475885fd7bd68db5e3ede9a4a296d584521de2f664a623abc6caa659e125`.
+Under the relative-path/content digest, the 70-file public tree is
+`d4195c6514c7d817560310b51752d77ce75159a083bf07433247f4d9207bae2e`;
+the 24,657-file production tree is
+`018bbbee89d9de39e6d7325cdf8873655a9678a266ff6a414076e50af2e9a4f6`.
+Three exact GitHub Pages-configured builds reproduce both trees. Three bundle
+sources support three identifier-confirmed and qualified Army occupations and
+Charles J DeDero's explicit surname conflict; no employer is inferred. All five
+LoC candidates were rejected through the review workflow. No authenticated
+Catalog request was used. Batch 548 remains the exact-verified public release
+until Batch 549 passes clean replay, CI, deployment and independent live
+verification.
+
+## Batch 548 production release
 
 All internal targets resolve across 24,585 HTML pages; 49,988 external URLs
 are inventoried, not all visited. Identifier checks cover all 24,657 built
@@ -19,9 +39,10 @@ sources support three identifier-confirmed and qualified Army occupations,
 Eugène Déchelette's high-confidence identity and last civilian employer, and
 Francis E Decker's rejected differing-identifier candidate. The sole LoC
 candidate was rejected through the review workflow. No authenticated Catalog
-request was used. Batch 547 remains the exact-verified public release until the
-Batch 548 pull request, main tests, Pages deployment and independent live
-verification succeed.
+request was used. PR Test run 34985607483, main Test run 34986487115 and Pages
+run 34986487034 succeeded; the live verifier matched all 67 manifest assets,
+93,638,355 bytes, seven core routes and ten direct Batch 548 profiles at merge
+commit `8f496eb72a72dd9c7c5a761383be41e596e83f2c`.
 
 ## Batch 547 production release
 
