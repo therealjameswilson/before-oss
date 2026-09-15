@@ -2,7 +2,23 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
-Batch 533 is the current validated local release candidate. It adds ten
+Batch 534 is the current locally verified release candidate. It adds ten
+terminal saved outcomes for personnel-index PDF page 106 row 46 and page 107
+rows 1-9, John R Davies through Charles N Davis, all in Box 169. Three exact
+private-identifier matches support qualified Army-entry occupation findings
+without inventing employers. Seven identities remain unresolved; John R
+Davies's indexed `T/Sgt` classification remains index-derived rather than an
+external identity claim. Exact coverage is 5,108 / 23,940 researched, 569
+verified affiliations, 253 verified employers, 5,063 archival dispositions
+assessed and 18,832 `not_started`. All 95 Python tests, 48 focused checks, 18
+core checks, 6 analysis checks and 27 route-and-viewport axe cases pass. The
+profile, privacy, link, manifest, credential, dependency and three-build
+reproducibility audits are green. See `reports/release_batch_534.md` and
+`research/batch-534-discovery-checkpoint.md`. Independent GitHub and deployed-
+site verification remain pending. Batch 533 remains the current exact-
+verified public release, and the goal remains active.
+
+Batch 533 is the current exact-verified public release. It adds ten
 terminal saved outcomes for personnel-index PDF page 106 rows 36-45, John J
 Davidson through F T Davies, all in Box 169. Three exact private-identifier
 matches support qualified Army-entry occupation findings without inventing
@@ -14,11 +30,13 @@ affiliations, 253 verified employers, 5,053 archival dispositions assessed and
 6 analysis checks and 27 route-and-viewport axe cases have passing results.
 The profile, privacy, link, manifest, credential, dependency and three-build
 reproducibility audits are green. See `reports/release_batch_533.md` and
-`research/batch-533-discovery-checkpoint.md`. Batch 532 remains the current
-exact-verified public release pending Batch 533 pull-request, main-branch,
-Pages and immutable live verification. The goal remains active.
+`research/batch-533-discovery-checkpoint.md`. Pull request #229 was merged as
+commit `6fb8569af3f255bcda0c3b8063cc174416449d7d`; PR Test run 34918835156,
+main Test run 34919328724 and Pages run 34919328709 succeeded. The live
+verifier matched all 67 manifest assets, 92,776,434 manifest bytes, seven core
+routes and ten direct Batch 533 profiles. The goal remains active.
 
-Batch 532 is the current exact-verified public release.
+Batch 532 is the exact-verified predecessor.
 It adds ten terminal saved outcomes for personnel-index PDF page 106 rows
 26-35, the second Elizabeth Davey row through Jean A Davidson, crossing from
 Box 168 to Box 169. Three identifier-and-name matches support qualified Army-

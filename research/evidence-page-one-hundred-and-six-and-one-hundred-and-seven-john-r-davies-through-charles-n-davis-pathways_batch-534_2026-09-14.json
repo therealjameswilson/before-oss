@@ -1,0 +1,640 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Codex archival research review",
+  "sources": [
+    {
+      "key": "index-b534",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; PDF page 106 row 46 and page 107 rows 1-9 visually inspected; Box 169, location 230/86/29/06",
+      "access_date": "2026-09-14",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Citation and project-authored assessments only. Printed private values are withheld from public claims and exports."
+    },
+    {
+      "key": "army-b534",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official ASNEF.FIN.DAT; complete transient scan of 9,200,232 fixed-width records; three accepted private-identifier matches; identifiers withheld",
+      "access_date": "2026-09-14",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full private identifier is retained. Amos Davis, Buster B Davis, and Charles C Davis have exact identifier-and-name matches. All name-only Army rows remain unassigned. The incomplete Army file is not a comprehensive OSS, officer, Navy, Marine Corps, civilian, WAC, Coast Guard, or foreign roster; a non-hit is not negative proof."
+    },
+    {
+      "key": "codes-b534",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Code Lists",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "Civilian-occupation entries 0-31, 3-16, and 4-48 visually checked on PDF physical pages 171, 176, and 173",
+      "access_date": "2026-09-14",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "NARA's documentation warns that historical occupation-code interpretations can be imperfect. The codes identify neither a specific employer nor the sequence from Army service to OSS. Historical occupational wording is preserved without modernization."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "amos-davis-general-farm-hand-b534",
+      "person_id": "6859f328-a32f-5fcb-94d9-333cefe7ea49",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Farm hand, general farm",
+      "occupation": "Farm hands, general farms",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-04-15",
+      "date_precision": "The historical civilian-occupation value was recorded at Army entry on April 15, 1942. NARA's code table defines it as Farm hands, general farms; no employer or work location is identified.",
+      "city": null,
+      "state_or_region": null,
+      "country": null,
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier and full name confirm the Army identity. The occupation is not converted into a named employer, immediate-OSS affiliation, or self-employment claim."
+    },
+    {
+      "key": "buster-b-davis-pressman-b534",
+      "person_id": "f88a5714-6e16-5466-a7fa-ed61c8e897c0",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Pressman or plate printer, printing",
+      "occupation": "Pressmen and plate printers, printing",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-04-09",
+      "date_precision": "The historical civilian-occupation value was recorded at Army entry on April 9, 1942. NARA's code table defines it as Pressmen and plate printers, printing; no employer or work location is identified.",
+      "city": null,
+      "state_or_region": null,
+      "country": null,
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier and full name confirm the Army identity. The occupation is not converted into a named employer, immediate-OSS affiliation, or self-employment claim."
+    },
+    {
+      "key": "charles-c-davis-secondary-teacher-b534",
+      "person_id": "747831e4-0e1e-5f36-aff8-781323c86cf3",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Secondary-school teacher or principal",
+      "occupation": "Teachers (secondary school) and principals",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-06-29",
+      "date_precision": "The historical civilian-occupation value was recorded at Army entry on June 29, 1942. NARA's code table defines it as Teachers (secondary school) and principals; no employer or work location is identified.",
+      "city": null,
+      "state_or_region": null,
+      "country": null,
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier and full name confirm the Army identity. The occupation is not converted into a named employer, immediate-OSS affiliation, or self-employment claim."
+    }
+  ],
+  "claims": [
+    {
+      "key": "amos-davis-identity-b534",
+      "person_id": "6859f328-a32f-5fcb-94d9-333cefe7ea49",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The OSS index and Army merged file identify the same Amos Davis.",
+      "evidence_excerpt": "DAVIS AMOS",
+      "evidence_paraphrase": "The private identifier and exact full name agree across the two official NARA records.",
+      "identity_match_assessment": "Confirmed by the exact private identifier and full-name match.",
+      "temporal_assessment": "The Army row records entry on April 15, 1942, as private.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private value is withheld publicly. Nine other exact-name Army rows carry different identifiers and are not assigned.",
+      "sources": [
+        {
+          "source_key": "index-b534",
+          "support_type": "supports",
+          "locator_override": "PDF page 107, row 5; Box 169",
+          "excerpt_override": "DAVIS AMOS"
+        },
+        {
+          "source_key": "army-b534",
+          "support_type": "supports",
+          "excerpt_override": "DAVIS AMOS"
+        }
+      ]
+    },
+    {
+      "key": "amos-davis-occupation-b534",
+      "person_id": "6859f328-a32f-5fcb-94d9-333cefe7ea49",
+      "affiliation_key": "amos-davis-general-farm-hand-b534",
+      "claim_type": "occupation",
+      "claim_text": "Amos Davis's Army-entry record classifies the prior civilian occupation as farm hand, general farm.",
+      "evidence_excerpt": "3-16. Farm hands, general farms",
+      "evidence_paraphrase": "The identifier-matched Army row carries the occupation value mapped by NARA's official code list to farm hand, general farm.",
+      "identity_match_assessment": "Confirmed exact private-identifier and name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry on April 15, 1942; no employer or work location is identified.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical occupation is not converted into a named employer, immediate-OSS affiliation, or self-employment claim.",
+      "sources": [
+        {
+          "source_key": "army-b534",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b534",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 176; entry 3-16",
+          "excerpt_override": "3-16. Farm hands, general farms"
+        }
+      ]
+    },
+    {
+      "key": "buster-b-davis-identity-b534",
+      "person_id": "f88a5714-6e16-5466-a7fa-ed61c8e897c0",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The OSS index and Army merged file identify the same Buster B Davis.",
+      "evidence_excerpt": "DAVIS BUSTER B",
+      "evidence_paraphrase": "The private identifier and exact full name agree across the two official NARA records.",
+      "identity_match_assessment": "Confirmed by the exact private identifier and full-name match.",
+      "temporal_assessment": "The Army row records entry on April 9, 1942, as private.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private value is withheld publicly. The other exact-name Army row carries a different identifier and is not assigned.",
+      "sources": [
+        {
+          "source_key": "index-b534",
+          "support_type": "supports",
+          "locator_override": "PDF page 107, row 6; Box 169",
+          "excerpt_override": "DAVIS BUSTER B"
+        },
+        {
+          "source_key": "army-b534",
+          "support_type": "supports",
+          "excerpt_override": "DAVIS BUSTER B"
+        }
+      ]
+    },
+    {
+      "key": "buster-b-davis-occupation-b534",
+      "person_id": "f88a5714-6e16-5466-a7fa-ed61c8e897c0",
+      "affiliation_key": "buster-b-davis-pressman-b534",
+      "claim_type": "occupation",
+      "claim_text": "Buster B Davis's Army-entry record classifies the prior civilian occupation as pressman or plate printer, printing.",
+      "evidence_excerpt": "4-48. Pressmen and plate printers, printing",
+      "evidence_paraphrase": "The identifier-matched Army row carries the occupation value mapped by NARA's official code list to pressman or plate printer, printing.",
+      "identity_match_assessment": "Confirmed exact private-identifier and name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry on April 9, 1942; no employer or work location is identified.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical occupation is not converted into a named employer, immediate-OSS affiliation, or self-employment claim.",
+      "sources": [
+        {
+          "source_key": "army-b534",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b534",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 173; entry 4-48",
+          "excerpt_override": "4-48. Pressmen and plate printers, printing"
+        }
+      ]
+    },
+    {
+      "key": "charles-c-davis-identity-b534",
+      "person_id": "747831e4-0e1e-5f36-aff8-781323c86cf3",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The OSS index and Army merged file identify the same Charles C Davis.",
+      "evidence_excerpt": "DAVIS CHARLES C",
+      "evidence_paraphrase": "The private identifier and exact full name agree across the two official NARA records.",
+      "identity_match_assessment": "Confirmed by the exact private identifier and full-name match.",
+      "temporal_assessment": "The Army row records entry on June 29, 1942, as private.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private value is withheld publicly. Thirty-six other exact-name Army rows carry different identifiers and are not assigned.",
+      "sources": [
+        {
+          "source_key": "index-b534",
+          "support_type": "supports",
+          "locator_override": "PDF page 107, row 8; Box 169",
+          "excerpt_override": "DAVIS CHARLES C"
+        },
+        {
+          "source_key": "army-b534",
+          "support_type": "supports",
+          "excerpt_override": "DAVIS CHARLES C"
+        }
+      ]
+    },
+    {
+      "key": "charles-c-davis-occupation-b534",
+      "person_id": "747831e4-0e1e-5f36-aff8-781323c86cf3",
+      "affiliation_key": "charles-c-davis-secondary-teacher-b534",
+      "claim_type": "occupation",
+      "claim_text": "Charles C Davis's Army-entry record classifies the prior civilian occupation as secondary-school teacher or principal.",
+      "evidence_excerpt": "0-31. Teachers (secondary school) and principals",
+      "evidence_paraphrase": "The identifier-matched Army row carries the occupation value mapped by NARA's official code list to secondary-school teacher or principal.",
+      "identity_match_assessment": "Confirmed exact private-identifier and name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry on June 29, 1942; no employer or work location is identified.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical occupation is not converted into a named employer, immediate-OSS affiliation, or self-employment claim.",
+      "sources": [
+        {
+          "source_key": "army-b534",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b534",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 171; entry 0-31",
+          "excerpt_override": "0-31. Teachers (secondary school) and principals"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "32bbcbe1-c581-50ae-87ad-3dcaaaa622e2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index records John R Davies as T/Sgt without a private identifier. Eight exact-name Army rows, five Library of Congress results, an RAF namesake, and other web results lack a Box 169 or OSS identity bridge and remain unassigned.",
+      "name_variants": [
+        "John R Davies",
+        "John R. Davies"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full name, birth details, Army unit, occupation, employer, OSS assignment, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "2bb59c52-cdda-55b2-99cd-b1e0deffc527",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies a seven-character private value but no rank. It does not meet the eight-digit Army-file comparison rule. Nine exact-name Army rows and online John H Davies candidates lack corroborating Box 169 or OSS evidence and remain unassigned.",
+      "name_variants": [
+        "John H Davies",
+        "John H. Davies"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for service status, full private identifier context, birth details, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "624e4f2a-828e-5dfa-b6a2-229f08764a3a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Martha A Davies without rank or private identifier. Army, CIA, Library of Congress, exact-name OSS, employment, occupation, obituary, institutional, newspaper, and archival searches did not establish a historical identity.",
+      "name_variants": [
+        "Martha A Davies",
+        "Martha A. Davies"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full name, birth details, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ba89c8f1-2483-52e2-9e67-8940603b53aa",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies a six-character private value but no rank. It does not meet the eight-digit Army-file comparison rule. One exact-name Army row and generic obituary results lack corroborating Box 169 or OSS evidence and remain unassigned.",
+      "name_variants": [
+        "Thomas M Davies",
+        "Thomas M. Davies"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for service status, full private identifier context, birth details, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "fcb095ba-a71d-51e7-96e2-7ad9c401b43c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index records only W O Davies and a six-character private value, with no rank. LoC results are different people or a building-name collision; a W O Davies killed in 1917 cannot be the indexed wartime person.",
+      "name_variants": [
+        "W O Davies",
+        "W. O. Davies"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 to recover full name, service status, private-identifier context, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "6859f328-a32f-5fcb-94d9-333cefe7ea49",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier selects one Army row with the exact Amos Davis name. The private value is withheld publicly; nine other exact-name Army rows lack that identifier.",
+      "name_variants": [
+        "Amos Davis"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Farm hand on a general farm is documented at Army entry, but no farm, owner, crop, or work location is identified. Review Box 169 for employer, Army unit, OSS role, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f88a5714-6e16-5466-a7fa-ed61c8e897c0",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier selects one Army row with the exact Buster B Davis name. The private value is withheld publicly; the other exact-name Army row carries a different identifier.",
+      "name_variants": [
+        "Buster B Davis",
+        "Buster B. Davis"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Pressman or plate printer is documented at Army entry, but no newspaper, printer, shop, or work location is identified. Review Box 169 for employer, Army unit, OSS role, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c9795ded-be2f-57ce-8361-1a6f6ba3c77f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies a seven-character private value but no rank, and it does not meet the eight-digit Army comparison rule. Twenty exact-name Army rows and online candidates lack corroborating Box 169 or OSS evidence and remain unassigned.",
+      "name_variants": [
+        "Charles T Davis",
+        "Charles T. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for service status, full private identifier context, birth details, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "747831e4-0e1e-5f36-aff8-781323c86cf3",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier selects one Army row with the exact Charles C Davis name. The private value is withheld publicly; 36 other exact-name Army rows lack that identifier.",
+      "name_variants": [
+        "Charles C Davis",
+        "Charles C. Davis"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Secondary-school teacher or principal is documented at Army entry, but no school, district, subject, or location is identified. Review Box 169 for employer, Army unit, OSS role, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "18517786-fa7f-52af-834b-abbc9ea4eb69",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies a seven-character private value but no rank, and it does not meet the eight-digit Army comparison rule. Fourteen exact-name Army rows and online candidates lack corroborating Box 169 or OSS evidence and remain unassigned.",
+      "name_variants": [
+        "Charles N Davis",
+        "Charles N. Davis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for service status, full private identifier context, birth details, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b534-john-r-davies",
+      "person_id": "32bbcbe1-c581-50ae-87ad-3dcaaaa622e2",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 106 or 107 row; complete Army comparison; CIA and current Library of Congress checks; John R Davies exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_indexed_enlisted_rank_multiple_unassigned_candidates",
+      "started_at": "2026-09-15T01:49:00Z",
+      "completed_at": "2026-09-15T02:16:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 16,
+      "candidate_sources_rejected": 14,
+      "rejection_reasons": "Eight exact-name Army rows cannot be distinguished without a private identifier. Five LoC results have different initials or nineteenth-century dates; the RAF and modern obituary namesakes have incompatible service or age.",
+      "research_notes": "The indexed T/Sgt rank supports enlisted classification only; no identity, occupation, or employer is assigned.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full name, birth details, Army unit, occupation, employer, OSS assignment, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch534-v1"
+    },
+    {
+      "key": "b534-john-h-davies",
+      "person_id": "2bb59c52-cdda-55b2-99cd-b1e0deffc527",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 106 or 107 row; complete Army comparison; CIA and current Library of Congress checks; John H Davies exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_ineligible_private_value_unassigned_candidates",
+      "started_at": "2026-09-15T01:49:00Z",
+      "completed_at": "2026-09-15T02:16:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 17,
+      "candidate_sources_rejected": 16,
+      "rejection_reasons": "Nine same-name Army rows are not selectable by the index value. LoC results identify John E, G, J, or P Davies; a postwar economics professor served in India rather than supplying an OSS bridge.",
+      "research_notes": "No candidate meets the common-name identity rule; the private index value is retained only in the protected database.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for service status, full private identifier context, birth details, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch534-v1"
+    },
+    {
+      "key": "b534-martha-a-davies",
+      "person_id": "624e4f2a-828e-5dfa-b6a2-229f08764a3a",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 106 or 107 row; complete Army comparison; CIA and current Library of Congress checks; Martha A Davies exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_no_reliable_candidate",
+      "started_at": "2026-09-15T01:49:00Z",
+      "completed_at": "2026-09-15T02:16:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "A 1932 obituary has inconsistent name order and no OSS bridge. Modern people-directory and cemetery aggregations do not establish the indexed person's identity and were not used.",
+      "research_notes": "No defensible identity, occupation, employer, or affiliation was found in the accessible sources reviewed.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full name, birth details, service status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch534-v1"
+    },
+    {
+      "key": "b534-thomas-m-davies",
+      "person_id": "ba89c8f1-2483-52e2-9e67-8940603b53aa",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 106 or 107 row; complete Army comparison; CIA and current Library of Congress checks; Thomas M Davies exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_ineligible_private_value_unassigned_army_candidate",
+      "started_at": "2026-09-15T01:49:00Z",
+      "completed_at": "2026-09-15T02:16:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The sole exact-name Army row cannot be linked by the index value; generic biography results supply no OSS context.",
+      "research_notes": "No defensible identity, occupation, employer, or affiliation was found in the accessible sources reviewed.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for service status, full private identifier context, birth details, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch534-v1"
+    },
+    {
+      "key": "b534-w-o-davies",
+      "person_id": "fcb095ba-a71d-51e7-96e2-7ad9c401b43c",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 106 or 107 row; complete Army comparison; CIA and current Library of Congress checks; W O Davies exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_initials_only_ineligible_private_value",
+      "started_at": "2026-09-15T01:49:00Z",
+      "completed_at": "2026-09-15T02:16:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Five LoC results identify John E, J L, Albert, or Al Davies or an address. A World War I sergeant died in 1917 and is excluded.",
+      "research_notes": "Initials and an ineligible private value do not establish an identity, occupation, or employer.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 to recover full name, service status, private-identifier context, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch534-v1"
+    },
+    {
+      "key": "b534-amos-davis",
+      "person_id": "6859f328-a32f-5fcb-94d9-333cefe7ea49",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 106 or 107 row; complete Army comparison; CIA and current Library of Congress checks; Amos Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_confirmed_army_identity_occupation_only",
+      "started_at": "2026-09-15T01:49:00Z",
+      "completed_at": "2026-09-15T02:16:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 18,
+      "candidate_sources_rejected": 16,
+      "rejection_reasons": "Nine exact-name Army rows carry other identifiers. Three LoC results and web candidates concern a Florida legislator, social listings, postwar namesakes, or earlier soldiers without an OSS bridge.",
+      "research_notes": "The official Army identity and occupation code are accepted; no farm, employer, or self-employment is inferred.",
+      "next_action": "Farm hand on a general farm is documented at Army entry, but no farm, owner, crop, or work location is identified. Review Box 169 for employer, Army unit, OSS role, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch534-v1"
+    },
+    {
+      "key": "b534-buster-b-davis",
+      "person_id": "f88a5714-6e16-5466-a7fa-ed61c8e897c0",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 106 or 107 row; complete Army comparison; CIA and current Library of Congress checks; Buster B Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_confirmed_army_identity_occupation_only",
+      "started_at": "2026-09-15T01:49:00Z",
+      "completed_at": "2026-09-15T02:16:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The other exact-name Army row carries a different identifier. A 1953 directory names a postwar driver but supplies no private-identifier, OSS, or prewar chronology bridge.",
+      "research_notes": "The official Army identity and occupation code are accepted; no printing employer is inferred.",
+      "next_action": "Pressman or plate printer is documented at Army entry, but no newspaper, printer, shop, or work location is identified. Review Box 169 for employer, Army unit, OSS role, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch534-v1"
+    },
+    {
+      "key": "b534-charles-t-davis",
+      "person_id": "c9795ded-be2f-57ce-8361-1a6f6ba3c77f",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 106 or 107 row; complete Army comparison; CIA and current Library of Congress checks; Charles T Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_ineligible_private_value_multiple_candidates",
+      "started_at": "2026-09-15T01:49:00Z",
+      "completed_at": "2026-09-15T02:16:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 29,
+      "candidate_sources_rejected": 27,
+      "rejection_reasons": "Twenty same-name Army rows are not selectable by the index value. LoC candidates identify other initials, a spouse-style reference, or a 1910 incorporator; web results supply no OSS identity bridge.",
+      "research_notes": "A name match alone is insufficient; no Army row, occupation, employer, or affiliation is assigned.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for service status, full private identifier context, birth details, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch534-v1"
+    },
+    {
+      "key": "b534-charles-c-davis",
+      "person_id": "747831e4-0e1e-5f36-aff8-781323c86cf3",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 106 or 107 row; complete Army comparison; CIA and current Library of Congress checks; Charles C Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_confirmed_army_identity_occupation_only",
+      "started_at": "2026-09-15T01:49:00Z",
+      "completed_at": "2026-09-15T02:16:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 45,
+      "candidate_sources_rejected": 43,
+      "rejection_reasons": "Thirty-six exact-name Army rows carry other identifiers. Five LoC results identify Charles B, E, H, S, or Mrs. Charles T Davis; web results are incompatible namesakes or index-only references.",
+      "research_notes": "The official Army identity and occupation code are accepted; no school or employer is inferred.",
+      "next_action": "Secondary-school teacher or principal is documented at Army entry, but no school, district, subject, or location is identified. Review Box 169 for employer, Army unit, OSS role, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch534-v1"
+    },
+    {
+      "key": "b534-charles-n-davis",
+      "person_id": "18517786-fa7f-52af-834b-abbc9ea4eb69",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 106 or 107 row; complete Army comparison; CIA and current Library of Congress checks; Charles N Davis exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_ineligible_private_value_multiple_candidates",
+      "started_at": "2026-09-15T01:49:00Z",
+      "completed_at": "2026-09-15T02:16:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 23,
+      "candidate_sources_rejected": 21,
+      "rejection_reasons": "Fourteen same-name Army rows are not selectable by the index value. LoC candidates identify Charles B, E, H, S, or Mrs. Charles T Davis; obituary and cemetery results lack an OSS identity bridge.",
+      "research_notes": "A name match alone is insufficient; no Army row, occupation, employer, or affiliation is assigned.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for service status, full private identifier context, birth details, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch534-v1"
+    }
+  ]
+}

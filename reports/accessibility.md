@@ -4,6 +4,19 @@ Run: 2026-09-14 UTC
 
 ## Result
 
+Batch 534: the focused cohort suite passed all 48 checks across desktop, phone
+and tablet. It verifies ten immutable rows across pages 106-107; seven masked
+private values; three accepted identifier-and-name Army identities; three
+qualified entry-time occupation findings without employers; seven unresolved
+profiles; and preservation of John R Davies's indexed `T/Sgt` classification
+without over-resolving his identity. The bounded core suite passed 18/18 and
+the analysis suite passed 6/6 across the same viewports. The axe route suite
+passed 27/27 in 1.6 minutes with no serious violations. The clean replay's
+Astro check covered 159 source files with zero errors, warnings or hints and
+generated 24,571 HTML pages / 24,643 artifacts. Three consecutive builds
+reproduced the public and production trees byte for byte. Independent GitHub
+and deployed-site checks remain pending.
+
 Batch 533: the focused cohort suite passed all 51 checks across desktop, phone
 and tablet. It verifies ten immutable page 106 rows; three masked private
 values; three accepted identifier-and-compatible-name Army identities; three
@@ -18,7 +31,9 @@ have passing Batch 533 results. The clean publish clone's Astro check covered
 158 source files with zero
 errors, warnings or hints and generated 24,571 HTML pages / 24,643 artifacts.
 Three consecutive builds reproduced the public and production trees byte for
-byte. Independent GitHub and deployed-site checks remain pending.
+byte. PR Test run 34918835156, main Test run 34919328724 and Pages run
+34919328709 passed; the live verifier matched every manifest asset, core route
+and direct cohort profile.
 
 Batch 532: the focused cohort suite passed all 54 checks across desktop, phone
 and tablet. It verifies ten immutable page 106 rows; six masked private values;
