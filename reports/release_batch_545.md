@@ -148,7 +148,9 @@ same-surname rows without direct evidence.
 
 ## Release boundary
 
-Batch 545 is a locally exact-verified release candidate. Release packaging,
-publication, CI and independent production verification remain pending. Batch
-544 is the current exact-verified public release at merge commit
-`28057217241e6e58ca93b0689b302a20a5b6dd6d`. The goal remains active.
+Batch 545 is the current exact-verified public release. Pull request #241
+passed Test run 34965693014 and merged as commit
+`7b733ad19f5e4baed7b6cb9d34ee945e64cbfcee`; main Test run 34969899903 and
+Pages run 34969899856 succeeded. Independent production verification matched
+all 67 manifest assets, 93,372,118 bytes, seven core routes and all ten direct
+Batch 545 profiles. The goal remains active.

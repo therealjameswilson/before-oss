@@ -2,7 +2,29 @@
 
 Verified against the current local SQLite database on 2026-09-15 UTC.
 
-Batch 545 is the current locally exact-verified release candidate. It adds ten
+Batch 546 is the current locally verified release candidate. It adds ten
+terminal saved outcomes for personnel-index PDF page 109 rows 28-37, John F
+Debardeleben through Louis D DeBottari, all in Box 175. High-confidence
+identity work documents John F. DeBardeleben's FCC Radio Intelligence
+Division pathway and Louis D. deBottari's 1939-41 RCA Communications
+employment without calling either affiliation immediate. Official French
+Resistance and institutional evidence supports René Marie Albert Yves
+Débia's identity and three qualified government posts; the 1943 Prades post
+remains temporally uncertain relative to OSS. Four protected identifiers
+conflict with different Army surnames. Frederick S Debeer Jr. and Fritz
+Debeer remain separate profiles linked only by a visible possible-duplicate
+group, while Sidney A Debarthy and the incomplete `* DeBlasi` row remain
+unresolved. Exact coverage is 5,228 / 23,940 researched, 573 verified
+affiliations, 254 verified employers, 5,183 archival dispositions assessed
+and 18,712 `not_started`. All 95 Python tests, 60 focused checks, 18 core
+checks, 6 analysis checks and 27 route-and-viewport axe cases pass. The
+ingest, profile, privacy, link, dependency, manifest and three-build
+reproducibility audits are green. See `reports/release_batch_546.md` and
+`research/batch-546-discovery-checkpoint.md`. Batch 545 remains the current
+exact-verified public release pending Batch 546 publication. The goal remains
+active.
+
+Batch 545 is the current exact-verified public release. It adds ten
 terminal saved outcomes for personnel-index PDF page 109 rows 18-27, John J
 Deangelis through Daniel Debardeleben. Exact protected-identifier and name
 agreement confirms Edward P Deason and David C Deaver as enlisted Army
@@ -19,8 +41,11 @@ archival dispositions assessed and 18,722 `not_started`. All 95 Python tests,
 axe cases pass. The ingest, profile, privacy, link, dependency, manifest and
 three-build reproducibility audits are green. See
 `reports/release_batch_545.md` and
-`research/batch-545-discovery-checkpoint.md`. Publication and independent live
-verification are pending; Batch 544 remains the exact-verified public release.
+`research/batch-545-discovery-checkpoint.md`. Pull request #241 passed Test run
+34965693014 and merged as commit
+`7b733ad19f5e4baed7b6cb9d34ee945e64cbfcee`; main Test run 34969899903 and
+Pages run 34969899856 succeeded. The live verifier matched all 67 manifest
+assets, 93,372,118 bytes, seven core routes and ten direct Batch 545 profiles.
 The goal remains active.
 
 Batch 544 is the current exact-verified public release. It adds ten

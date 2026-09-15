@@ -2,7 +2,27 @@
 
 Run: 2026-09-15 UTC
 
-## Batch 545 release candidate
+## Batch 546 release candidate
+
+All internal targets resolve across 24,582 HTML pages; 49,982 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,654 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,099
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 93,498,788 bytes at
+SHA-256 `69fc31b8f7a0569e142cd1c406116ec9657ebd8e727d63c19af6a744e1207958`.
+Under the relative-path/content digest, the 70-file public tree is
+`469e1fd4b312509ec40677e2e044bee0927d482cdf558554d5e9148b5b51e357`;
+the 24,654-file production tree is
+`7848b55f1fa3aa65c9efe650ae172e376646192c5e83dddd24d34a9d4e85b754`.
+Three exact GitHub Pages-configured builds reproduce both trees. Ten bundle
+sources support John F. DeBardeleben's documented FCC pathway, René Débia's
+qualified French government chronology, Louis D. deBottari's documented RCA
+employment, four explicit identifier conflicts, and a non-merged Frederick /
+Fritz deBeer possible-duplicate group. No authenticated Catalog request was
+used. Batch 545 remains the exact-verified public release pending Batch 546
+publication.
+
+## Batch 545 production release
 
 All internal targets resolve across 24,578 HTML pages; 49,970 external URLs
 are inventoried, not all visited. Identifier checks cover all 24,650 built
@@ -20,8 +40,11 @@ identities and qualified student statuses, Frances V Dearborn's qualified
 occupation candidate, high-confidence OSS identities for Albin P Dearing and
 Daniel Debardeleben, and explicit identifier conflicts for John J and Peter L
 Deangelis. The sole Library of Congress candidate was rejected after full-
-page review. No authenticated Catalog request was used. Publication and
-independent live checks are pending.
+page review. No authenticated Catalog request was used. PR Test run
+34965693014, main Test run 34969899903 and Pages run 34969899856 succeeded;
+the live verifier matched all 67 manifest assets, 93,372,118 bytes, seven core
+routes and ten direct Batch 545 profiles at merge commit
+`7b733ad19f5e4baed7b6cb9d34ee945e64cbfcee`.
 
 ## Batch 544 production release
 
