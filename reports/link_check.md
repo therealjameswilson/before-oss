@@ -2,6 +2,24 @@
 
 Run: 2026-09-14 UTC
 
+## Batch 533 release candidate
+
+All internal targets resolve across 24,571 HTML pages; 49,946 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,643 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,102
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 92,776,434 bytes at
+SHA-256 `f83b25d61879945e1dae3d6f0dc5613f654780cca5f3d61e8975eb07bd980a53`.
+Under the relative-path/content digest, the 70-file public tree is
+`1eba7a4e036f2e609b02406ffd24b00d3bfb4708c6cded46fdcbc50b3061c7d9`;
+the 24,643-file production tree is
+`6c71935bc5f67f362280058b128ab83a7fbe40438d7fa73e4db8eee61e9937d8`.
+Three consecutive builds reproduced both trees. Three bundle sources support
+three confirmed identity and three qualified occupation claims. Fourteen
+Library of Congress candidates were rejected after official context review.
+No authenticated Catalog request was used. Independent GitHub and deployed-
+site checks remain pending.
+
 ## Batch 532 release candidate
 
 All internal targets resolve across 24,571 HTML pages; 49,946 external URLs
@@ -19,8 +37,10 @@ the three confirmed identity and three qualified occupation claims plus Homer
 David Jr.'s qualified official OSS identity; one additional Elizabeth Davey
 identity lead remains low-confidence and withheld. Seven Library of Congress
 candidates were rejected after official context review. No authenticated
-Catalog request was used. Independent GitHub and deployed-site verification
-are pending.
+Catalog request was used. PR Test run 34911041876, main Test run 34911466381
+and Pages run 34911466384 passed; the live verifier matched all 67 manifest
+assets and ten direct cohort profiles to merge commit
+`6a7fb2fe0e0444bd6ac4ea84e1aadd49ec4afc18`.
 
 ## Batch 531 release candidate
 
