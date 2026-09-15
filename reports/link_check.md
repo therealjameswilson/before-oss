@@ -2,6 +2,26 @@
 
 Run: 2026-09-15 UTC
 
+## Batch 542 release candidate
+
+All internal targets resolve across 24,575 HTML pages; 49,960 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,647 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,104
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 93,158,889 bytes at
+SHA-256 `4d3dd625bfae482d947bcdf37e26d9317d83915f909c3a7891d0ea051a622ace`.
+Under the relative-path/content digest, the 70-file public tree is
+`a593bd041082fbe232605ac19af7160a48c6bb866872a6c1280bb4aa196e24ac`;
+the 24,647-file production tree is
+`d1fc8475c6d650db2cb4e92c28b4111e9db4fdc5775112cc051473014cbc64ba`.
+Three exact GitHub Pages-configured builds reproduce both trees. Seven bundle
+sources support Joseph Turner Dawson's confirmed identity and three qualified
+medium-confidence pathway claims plus three confirmed Army identities and
+their qualified entry-time occupations. Six identities remain unresolved.
+All fifteen Library of Congress candidates were rejected after context review.
+No authenticated Catalog request was used. Batch 542 is locally exact-verified
+and awaits pull-request release; Batch 541 remains the exact public release.
+
 ## Batch 541 release candidate
 
 All internal targets resolve across 24,572 HTML pages; 49,954 external URLs
@@ -20,7 +40,11 @@ and the ranked Carlos B Dawes row's high-confidence identity and dated
 Treasury assignment. Low-confidence candidates for the second Carlos row,
 both Walter P Davison rows and William P Davis are withheld. All sixteen
 Library of Congress candidates were rejected after context review. No
-authenticated Catalog request was used.
+authenticated Catalog request was used. PR Test run 34946731643, main Test run
+34947387736 and Pages run 34947387730 succeeded; the live verifier matched all
+67 manifest assets, 93,062,362 bytes, seven core routes and ten direct Batch
+541 profiles at merge commit
+`c161d7d11aa35a6d29ed00ff1a0cfc245d988cbe`.
 
 ## Batch 540 release candidate
 
