@@ -2,28 +2,44 @@
 
 Verified against the current local SQLite database on 2026-09-15 UTC.
 
-Batch 549 is the current local release candidate. It adds ten terminal saved
-outcomes for personnel-index PDF page 110 rows 12-21, George L DeCoster
-through Joseph L Dees, all in Box 176. Exact protected-identifier and
-normalized-name agreement confirms Fiore DeCristoforo, Nicholas G D'Ecsery
-and Leonard Decunha as enlisted Army personnel. Official code tables support
-three qualified broad occupation categories recorded at Army entry; none names
-an employer. Charles J DeDero retains an explicit conflicting identity because
-his protected identifier selects an Army row under Charles J De Fero; no
-occupation is carried across the surname conflict. George L DeCoster and Calvin
-C DeCray retain their printed `2nd Lt` classifications without namesake
-assignment. Jehan DeCrequy's `S/Lt` and `French` fields remain literal, E T
-Deerfield remains initial-only, and all five Deerfield newspaper candidates are
-rejected place-name or telephone-exchange collisions. Exact coverage is 5,258 /
-23,940 researched, 575 verified affiliations, 255 verified employers, 5,213
-archival dispositions assessed and 18,682 `not_started`. All 95 Python tests,
-57 focused checks, 18 core checks, 6 analysis checks and 27 route-and-viewport
-axe cases pass. The ingest, profile, privacy, link, dependency, manifest and
-three-build reproducibility audits are green. The long-standing duplicate-
-review advisory remains explicitly reported. See `reports/release_batch_549.md`
-and `research/batch-549-discovery-checkpoint.md`. Batch 548 remains the current
-exact-verified public release while Batch 549 proceeds through clean replay,
+Batch 550 is the current local release candidate. It adds ten terminal saved
+outcomes for personnel-index PDF page 110 rows 22-31, Kathleen M Dees through
+Serge Defleury, all in Box 176. Exact protected-identifier agreement confirms
+Albert W Deese, Slyvester S Defazio, Joseph A DeFelice and Nick DeFeo under
+transparent spelling or surname-spacing variants. Official code tables support
+four qualified broad occupation categories recorded at Army entry; none names
+an employer. Maurice Defenin remains a probable French rare-name candidate and
+Serge Defleury remains an ambiguous postwar namesake; neither receives a public
+biography or affiliation. Four other identities remain unresolved. A Hoover
+OSS report is preserved only as an access-blocked reading-room lead. Exact
+coverage is 5,268 / 23,940 researched, 575 verified affiliations, 255 verified
+employers, 5,223 archival dispositions assessed and 18,672 `not_started`. All
+95 Python tests, 57 focused checks, 18 core checks, 6 analysis checks and 27
+route-and-viewport axe cases pass. The ingest, profile, privacy, link,
+dependency, manifest and three-build reproducibility audits are green. The
+long-standing duplicate-review advisory remains explicitly reported. See
+`reports/release_batch_550.md` and
+`research/batch-550-discovery-checkpoint.md`. Batch 549 remains the current
+exact-verified public release while Batch 550 proceeds through clean replay,
 review, merge, deployment and live verification. The goal remains active.
+
+Batch 549 is the current exact-verified public release. It adds ten terminal
+saved outcomes for personnel-index PDF page 110 rows 12-21, George L DeCoster
+through Joseph L Dees, all in Box 176. Exact protected-identifier and
+normalized-name agreement confirms Fiore DeCristoforo, Nicholas G D'Ecsery and
+Leonard Decunha as enlisted Army personnel. Official code tables support three
+qualified broad occupation categories recorded at Army entry; none names an
+employer. Charles J DeDero retains an explicit conflicting identity because his
+protected identifier selects an Army row under Charles J De Fero; no occupation
+is carried across the surname conflict. Jehan DeCrequy's `S/Lt` and `French`
+fields remain literal and E T Deerfield remains initial-only. Exact coverage is
+5,258 / 23,940 researched, 575 verified affiliations, 255 verified employers,
+5,213 archival dispositions assessed and 18,682 `not_started`. Pull request
+#245 passed Test run 34992117094 and merged as commit
+`d3e6c756308c280911e2c253cfea9ada76ed3662`; main Test run 34992926816 and
+Pages run 34992926944 succeeded. The live verifier matched all 67 manifest
+assets, 93,690,574 bytes, seven core routes and ten direct Batch 549 profiles.
+The goal remains active.
 
 Batch 548 is the current exact-verified public release. It adds ten terminal
 saved outcomes for personnel-index PDF page 110 rows 2-11, Edmund J Decaussin

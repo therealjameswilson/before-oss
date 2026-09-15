@@ -4,6 +4,20 @@ Run: 2026-09-15 UTC
 
 ## Result
 
+Batch 550: the focused cohort suite passed all 57 checks across desktop, phone
+and tablet. It verifies ten immutable page 110 rows; four masked private values;
+four accepted identifier-and-name Army identities; four qualified entry-time
+occupation findings without employers; the source-index `Slyvester` spelling
+beside the Army `Sylvester` variant; Maurice Defenin's probable French candidate
+without biography assignment; Serge Defleury's ambiguous postwar namesake; and
+four unresolved profiles. The bounded core suite passed 18/18 and the analysis
+suite passed 6/6 across the same viewports. The axe route suite passed 27/27 in
+1.7 minutes with no serious violations. Astro checked 175 source files with
+zero errors, warnings or hints and generated 24,585 HTML pages / 24,657
+artifacts. Three exact GitHub Pages-configured builds reproduced the public and
+production trees byte for byte. Batch 549 remains the exact-verified public
+release while Batch 550 proceeds through clean replay and CI.
+
 Batch 549: the focused cohort suite passed all 57 checks across desktop, phone
 and tablet. It verifies ten immutable page 110 rows; six masked private values;
 three accepted identifier-and-name Army identities; three qualified entry-time
@@ -15,8 +29,9 @@ positives. The bounded core suite passed 18/18 and the analysis suite passed
 with no serious violations. Astro checked 174 source files with zero errors,
 warnings or hints and generated 24,585 HTML pages / 24,657 artifacts. Three
 exact GitHub Pages-configured builds reproduced the public and production trees
-byte for byte. Batch 548 remains the exact-verified public release while Batch
-549 proceeds through clean replay and CI.
+byte for byte. PR Test run 34992117094, main Test run 34992926816 and Pages run
+34992926944 succeeded; the live verifier matched all 67 manifest assets, seven
+core routes and ten direct Batch 549 profiles.
 
 Batch 539: the focused cohort suite passed all 54 checks across desktop, phone
 and tablet. It verifies ten immutable page 108 rows; seven masked private
