@@ -2,7 +2,28 @@
 
 Run: 2026-09-15 UTC
 
-## Batch 547 local release candidate
+## Batch 548 local release candidate
+
+All internal targets resolve across 24,585 HTML pages; 49,988 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,657 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,099
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 93,638,355 bytes at
+SHA-256 `962049af40bf14409f599e46d43f80c3eaf2afaaed2ac7e9c6591654e46a02c3`.
+Under the relative-path/content digest, the 70-file public tree is
+`edf7d97bba2c7ac9ad3ab858a89c7c5fa60ef454760ad97d67071dd046541acf`;
+the 24,657-file production tree is
+`7fb470e73606b75684d0a3de48b4cd6659a36ac5b3833aa02fd12fc78a8ec4e2`.
+Three exact GitHub Pages-configured builds reproduce both trees. Four bundle
+sources support three identifier-confirmed and qualified Army occupations,
+Eugène Déchelette's high-confidence identity and last civilian employer, and
+Francis E Decker's rejected differing-identifier candidate. The sole LoC
+candidate was rejected through the review workflow. No authenticated Catalog
+request was used. Batch 547 remains the exact-verified public release until the
+Batch 548 pull request, main tests, Pages deployment and independent live
+verification succeed.
+
+## Batch 547 production release
 
 All internal targets resolve across 24,584 HTML pages; 49,986 external URLs
 are inventoried, not all visited. Identifier checks cover all 24,656 built
@@ -20,8 +41,11 @@ Michael De Capite's qualified writer pathway, Joseph F De Carli's confirmed
 Army identity and John W DeBoy's middle-initial conflict. The new public
 evidence targets are the Legasee veteran interview, Washington Post obituary,
 Ukrainian Weekly archive, CUNY Manifold syllabus, Army merged-file Catalog page
-and official code list. No authenticated Catalog request was used. GitHub CI,
-deployment and live verification remain pending.
+and official code list. No authenticated Catalog request was used. PR Test run
+34980231889, main Test run 34980922257 and Pages run 34980922111 succeeded;
+the live verifier matched all 67 manifest assets, 93,574,000 bytes, seven core
+routes and ten direct Batch 547 profiles at merge commit
+`316f1f2106006fbe3052366b1001d99555da177f`.
 
 ## Batch 546 production release
 

@@ -160,8 +160,9 @@ distinct from the Box 175 rows.
 
 ## Release boundary
 
-Batch 547 is a locally verified release candidate. Batch 546 remains the
-current exact-verified public release at merge commit
-`342d13c1835bce2a058e7e97dcf943e27228228e`. GitHub pull-request CI, merge,
-Pages deployment and independent live-byte verification remain before Batch
-547 can be called public. The goal remains active.
+Batch 547 is the current exact-verified public release. Pull request #243
+passed Test run 34980231889 and merged as commit
+`316f1f2106006fbe3052366b1001d99555da177f`; main Test run 34980922257 and
+Pages run 34980922111 succeeded. Independent live verification matched all 67
+manifest assets, 93,574,000 bytes, seven core routes and ten direct Batch 547
+profiles. The goal remains active.

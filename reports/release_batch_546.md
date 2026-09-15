@@ -154,9 +154,9 @@ Render and inspect both source regions before research and preserve each row.
 
 ## Release boundary
 
-Batch 546 is a locally verified release candidate. Batch 545 remains the
-current exact-verified public release at merge commit
-`7b733ad19f5e4baed7b6cb9d34ee945e64cbfcee`. Publish Batch 546 through a
-reviewed pull request, successful main test and Pages runs, and independent
-live asset/route/profile verification before calling it public. The goal
-remains active.
+Batch 546 is the current exact-verified public release. Pull request #242
+passed Test run 34974989516 and merged as commit
+`342d13c1835bce2a058e7e97dcf943e27228228e`; main Test run 34975840126 and
+Pages run 34975840076 succeeded. The independent live verifier matched all 67
+manifest assets, 93,498,788 bytes, seven core routes and ten direct Batch 546
+profiles. The goal remains active.
