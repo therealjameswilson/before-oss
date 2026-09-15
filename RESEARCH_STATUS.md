@@ -2,7 +2,23 @@
 
 Verified against the current local SQLite database on 2026-09-14 UTC.
 
-Batch 532 is locally validated and awaiting publication.
+Batch 533 is the current validated local release candidate. It adds ten
+terminal saved outcomes for personnel-index PDF page 106 rows 36-45, John J
+Davidson through F T Davies, all in Box 169. Three exact private-identifier
+matches support qualified Army-entry occupation findings without inventing
+employers. Seven identities remain unresolved; David M Davies's `T-3` and F T
+Davies's `Col` classifications remain index-derived rather than external
+identity claims. Exact coverage is 5,098 / 23,940 researched, 569 verified
+affiliations, 253 verified employers, 5,053 archival dispositions assessed and
+18,842 `not_started`. All 95 Python tests, 51 focused checks, 18 core checks,
+6 analysis checks and 27 route-and-viewport axe cases have passing results.
+The profile, privacy, link, manifest, credential, dependency and three-build
+reproducibility audits are green. See `reports/release_batch_533.md` and
+`research/batch-533-discovery-checkpoint.md`. Batch 532 remains the current
+exact-verified public release pending Batch 533 pull-request, main-branch,
+Pages and immutable live verification. The goal remains active.
+
+Batch 532 is the current exact-verified public release.
 It adds ten terminal saved outcomes for personnel-index PDF page 106 rows
 26-35, the second Elizabeth Davey row through Jean A Davidson, crossing from
 Box 168 to Box 169. Three identifier-and-name matches support qualified Army-
@@ -17,8 +33,11 @@ tests, 54 focused checks, 18 core checks, 6 analysis checks and 27 axe cases
 pass. The profile, privacy, link, manifest, credential, dependency and three-
 build reproducibility audits are green. See `reports/release_batch_532.md` and
 `research/batch-532-discovery-checkpoint.md`. Batch 531 remains the current
-exact-verified public release while Batch 532 awaits publication and
-independent GitHub/deployed-site verification. The goal remains active.
+exact-verified predecessor. Pull request #228 was merged as commit
+`6a7fb2fe0e0444bd6ac4ea84e1aadd49ec4afc18`; PR Test run 34911041876,
+main Test run 34911466381 and Pages run 34911466384 succeeded. The live
+verifier matched all 67 manifest assets, 92,734,734 manifest bytes, seven core
+routes and ten direct Batch 532 profiles. The goal remains active.
 
 Batch 531 is the current exact-verified public release. It adds ten
 terminal saved outcomes for personnel-index PDF page 106 rows 16-25, Isabelle

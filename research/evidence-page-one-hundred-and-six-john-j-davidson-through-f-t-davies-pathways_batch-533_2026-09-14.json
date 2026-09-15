@@ -1,0 +1,639 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Codex archival research review",
+  "sources": [
+    {
+      "key": "index-b533",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "RG 226 Entry A1-224; PDF page 106 rows 36-45 visually inspected; Box 169, location 230/86/29/06",
+      "access_date": "2026-09-14",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Citation and project-authored assessments only. Printed private values are withheld from public claims and exports."
+    },
+    {
+      "key": "army-b533",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official ASNEF.FIN.DAT; complete transient scan of 9,200,232 fixed-width records; three accepted private-identifier matches; identifiers withheld",
+      "access_date": "2026-09-14",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full private identifier is retained. John J Davidson and Kenneth E Davidson have exact identifier-and-name matches. John T Davidson Jr. has an exact identifier match and token-equivalent full name; suffix storage order explains the mechanical raw-name mismatch. Name-only rows for Milton Davidson, Thomas Davidson, and Alfred Davies remain unassigned. The incomplete Army file is not a comprehensive OSS, officer, Navy, Marine Corps, civilian, WAC, Coast Guard, or foreign roster; a non-hit is not negative proof."
+    },
+    {
+      "key": "codes-b533",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Code Lists",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "Civilian-occupation entries 0-97, 1-37 and 3-16 visually checked on PDF physical pages 171, 176, 177 and 178",
+      "access_date": "2026-09-14",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "NARA's documentation warns that historical occupation-code interpretations can be imperfect. The codes identify neither a specific employer nor the sequence from Army service to OSS. Broad and residual occupational wording is preserved without modernization."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "john-j-davidson-manager-official-b533",
+      "person_id": "cdda339e-ab68-596d-96cd-7a0b8ce05e6d",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Manager or official, not elsewhere classified",
+      "occupation": "Managers and officials, n.e.c.",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-05-26",
+      "date_precision": "Civilian-occupation value 097 was recorded at Army entry on May 26, 1943. NARA's code table defines 0-97 as managers and officials, n.e.c.; no employer, industry, office, or work location is identified.",
+      "city": null,
+      "state_or_region": null,
+      "country": null,
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier and full name confirm the Army identity. The residual category is not converted into a named employer, industry, or executive title."
+    },
+    {
+      "key": "john-t-davidson-jr-stenographer-typist-b533",
+      "person_id": "2b3786dd-e97b-5cbc-830d-40ee51ad3952",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Stenographer or typist",
+      "occupation": "Stenographers and typists",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-08-22",
+      "date_precision": "Civilian-occupation value 137 was recorded at Army entry on August 22, 1942. NARA's code table defines 1-37 as stenographers and typists; no employer, office, or work location is identified.",
+      "city": null,
+      "state_or_region": null,
+      "country": null,
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier and token-equivalent full name confirm the Army identity. The occupation is not converted into a named employer or office."
+    },
+    {
+      "key": "kenneth-e-davidson-general-farm-hand-b533",
+      "person_id": "44e80b12-0d77-5556-83fa-8623dbc8932e",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "Farm hand, general farm",
+      "occupation": "Farm hands, general farms",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-03-11",
+      "date_precision": "Civilian-occupation value 316 was recorded at Army entry on March 11, 1943. NARA's code table defines 3-16 as farm hands, general farms; no farm, owner, crop, or work location is identified.",
+      "city": null,
+      "state_or_region": null,
+      "country": null,
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact private identifier and full name confirm the Army identity. The occupation is not converted into a named employer, farm, or self-employment claim."
+    }
+  ],
+  "claims": [
+    {
+      "key": "john-j-davidson-identity-b533",
+      "person_id": "cdda339e-ab68-596d-96cd-7a0b8ce05e6d",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The OSS index and Army merged file identify the same John J Davidson.",
+      "evidence_excerpt": "DAVIDSON JOHN J",
+      "evidence_paraphrase": "The private identifier and compatible full name agree across the two official NARA records.",
+      "identity_match_assessment": "Confirmed by the exact private identifier and compatible full-name tokens.",
+      "temporal_assessment": "The Army row records entry on May 26, 1943, as private.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private value is withheld publicly. Four other exact-name Army rows carry different identifiers and are not assigned.",
+      "sources": [
+        {
+          "source_key": "index-b533",
+          "support_type": "supports",
+          "locator_override": "PDF page 106, row 36; Box 169",
+          "excerpt_override": "DAVIDSON JOHN J"
+        },
+        {
+          "source_key": "army-b533",
+          "support_type": "supports",
+          "excerpt_override": "DAVIDSON JOHN J"
+        }
+      ]
+    },
+    {
+      "key": "john-j-davidson-occupation-b533",
+      "person_id": "cdda339e-ab68-596d-96cd-7a0b8ce05e6d",
+      "affiliation_key": "john-j-davidson-manager-official-b533",
+      "claim_type": "occupation",
+      "claim_text": "John J Davidson's Army-entry record classifies the prior civilian occupation as managers and officials, n.e.c..",
+      "evidence_excerpt": "0-97. Managers and officials, n.e.c.",
+      "evidence_paraphrase": "The identifier-matched Army row carries the occupation value mapped by NARA's official code list to managers and officials, n.e.c..",
+      "identity_match_assessment": "Confirmed exact private-identifier and compatible-name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry on May 26, 1943; no employer or work location is identified.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical occupation is not converted into a named employer, immediate-OSS affiliation, or self-employment claim.",
+      "sources": [
+        {
+          "source_key": "army-b533",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b533",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 171; entry 0-97",
+          "excerpt_override": "0-97. Managers and officials, n.e.c."
+        }
+      ]
+    },
+    {
+      "key": "john-t-davidson-jr-identity-b533",
+      "person_id": "2b3786dd-e97b-5cbc-830d-40ee51ad3952",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The OSS index and Army merged file identify the same John T Davidson Jr..",
+      "evidence_excerpt": "DAVIDSON JOHN T JR",
+      "evidence_paraphrase": "The private identifier and compatible full name agree across the two official NARA records.",
+      "identity_match_assessment": "Confirmed by the exact private identifier and compatible full-name tokens.",
+      "temporal_assessment": "The Army row records entry on August 22, 1942, as private.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private value is withheld publicly. Suffix placement differs between the index's raw columns and conventional display order; all substantive name tokens agree.",
+      "sources": [
+        {
+          "source_key": "index-b533",
+          "support_type": "supports",
+          "locator_override": "PDF page 106, row 37; Box 169",
+          "excerpt_override": "DAVIDSON JOHN T JR"
+        },
+        {
+          "source_key": "army-b533",
+          "support_type": "supports",
+          "excerpt_override": "DAVIDSON JOHN T JR"
+        }
+      ]
+    },
+    {
+      "key": "john-t-davidson-jr-occupation-b533",
+      "person_id": "2b3786dd-e97b-5cbc-830d-40ee51ad3952",
+      "affiliation_key": "john-t-davidson-jr-stenographer-typist-b533",
+      "claim_type": "occupation",
+      "claim_text": "John T Davidson Jr.'s Army-entry record classifies the prior civilian occupation as stenographer or typist.",
+      "evidence_excerpt": "1-37. Stenographers and typists",
+      "evidence_paraphrase": "The identifier-matched Army row carries the occupation value mapped by NARA's official code list to stenographer or typist.",
+      "identity_match_assessment": "Confirmed exact private-identifier and compatible-name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry on August 22, 1942; no employer or work location is identified.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical occupation is not converted into a named employer, immediate-OSS affiliation, or self-employment claim.",
+      "sources": [
+        {
+          "source_key": "army-b533",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b533",
+          "support_type": "supports",
+          "locator_override": "PDF physical pages 177-178; entry 1-37",
+          "excerpt_override": "1-37. Stenographers and typists"
+        }
+      ]
+    },
+    {
+      "key": "kenneth-e-davidson-identity-b533",
+      "person_id": "44e80b12-0d77-5556-83fa-8623dbc8932e",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The OSS index and Army merged file identify the same Kenneth E Davidson.",
+      "evidence_excerpt": "DAVIDSON KENNETH E",
+      "evidence_paraphrase": "The private identifier and compatible full name agree across the two official NARA records.",
+      "identity_match_assessment": "Confirmed by the exact private identifier and compatible full-name tokens.",
+      "temporal_assessment": "The Army row records entry on March 11, 1943, as private.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The private value is withheld publicly. Six other exact-name Army rows carry different identifiers and are not assigned.",
+      "sources": [
+        {
+          "source_key": "index-b533",
+          "support_type": "supports",
+          "locator_override": "PDF page 106, row 38; Box 169",
+          "excerpt_override": "DAVIDSON KENNETH E"
+        },
+        {
+          "source_key": "army-b533",
+          "support_type": "supports",
+          "excerpt_override": "DAVIDSON KENNETH E"
+        }
+      ]
+    },
+    {
+      "key": "kenneth-e-davidson-occupation-b533",
+      "person_id": "44e80b12-0d77-5556-83fa-8623dbc8932e",
+      "affiliation_key": "kenneth-e-davidson-general-farm-hand-b533",
+      "claim_type": "occupation",
+      "claim_text": "Kenneth E Davidson's Army-entry record classifies the prior civilian occupation as farm hand on a general farm.",
+      "evidence_excerpt": "3-16. Farm hands, general farms",
+      "evidence_paraphrase": "The identifier-matched Army row carries the occupation value mapped by NARA's official code list to farm hand on a general farm.",
+      "identity_match_assessment": "Confirmed exact private-identifier and compatible-name match.",
+      "temporal_assessment": "Strongly date-bounded at Army entry on March 11, 1943; no employer or work location is identified.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical occupation is not converted into a named employer, immediate-OSS affiliation, or self-employment claim.",
+      "sources": [
+        {
+          "source_key": "army-b533",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "codes-b533",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 176; entry 3-16",
+          "excerpt_override": "3-16. Farm hands, general farms"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "cdda339e-ab68-596d-96cd-7a0b8ce05e6d",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier selects one Army row with the exact John J Davidson name. The private value is withheld publicly; four other exact-name Army rows carry different identifiers.",
+      "name_variants": [
+        "John J Davidson",
+        "John J. Davidson"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Manager or official, not elsewhere classified, is documented at Army entry, but no employer, industry, office, or work location is identified. Review Box 169 for employer, Army unit, OSS role, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2b3786dd-e97b-5cbc-830d-40ee51ad3952",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier selects the Army row DAVIDSON JOHN T JR. The source index stores Jr. after the first name and the normalized display name restores conventional suffix order; all substantive name tokens agree.",
+      "name_variants": [
+        "John T Davidson Jr.",
+        "John T Davidson Jr",
+        "John T. Davidson Jr."
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Stenographer or typist is documented at Army entry, but no employer, office, or work location is identified. Review Box 169 for employer, Army unit, OSS role, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "44e80b12-0d77-5556-83fa-8623dbc8932e",
+      "identity_status": "confirmed",
+      "identity_evidence": "The exact indexed private identifier selects one Army row with the exact Kenneth E Davidson name. The private value is withheld publicly; six other exact-name Army rows carry different identifiers.",
+      "name_variants": [
+        "Kenneth E Davidson",
+        "Kenneth E. Davidson"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Farm hand on a general farm is documented at Army entry, but no farm, owner, crop, or work location is identified. Review Box 169 for employer, Army unit, OSS role, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "734db315-13e2-513a-a730-fa0f45080ddc",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Milton Davidson without rank, middle initial, or private identifier. One exact-name Army row and several postwar namesakes lack corroborating identifiers or a Box 169 and OSS bridge and remain unassigned.",
+      "name_variants": [
+        "Milton Davidson"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full name, birth details, service status, occupation, employer, and chronology before reconsidering the Army and postwar namesakes.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "fc3ff118-01f7-56ca-83c8-30a0bca61810",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Rebecca D Davidson without rank or private identifier. Army, CIA, Library of Congress, exact-name OSS, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish an identity.",
+      "name_variants": [
+        "Rebecca D Davidson",
+        "Rebecca D. Davidson"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full name, birth details, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ed9a0f14-c3b5-5b7e-a72a-58f2aad9afac",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies the common name Thomas Davidson without rank, middle initial, or private identifier. Three exact-name Army rows and online namesakes lack corroborating identifiers or a Box 169 and OSS bridge and remain unassigned.",
+      "name_variants": [
+        "Thomas Davidson"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full name, birth details, service status, occupation, employer, and chronology before reconsidering name-only candidates.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "4a1c57e1-7052-5f8c-92b1-428fc2a1ccae",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Alfred Davies without rank, middle initial, or private identifier. One exact-name Army row lacks corroborating identifiers or a Box 169 and OSS bridge and remains unassigned; other staged searches established no identity.",
+      "name_variants": [
+        "Alfred Davies"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full name, birth details, service status, occupation, employer, and chronology before reconsidering the Army namesake.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "49696b15-fe98-5137-a67f-fd4d6fd7bfc7",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index records David M Davies with rank T-3 but no private identifier. The Army file produced no exact full-name row, and a Library of Congress result names David Lloyd Davies Jr.; modern namesakes lack compatible chronology and OSS linkage.",
+      "name_variants": [
+        "David M Davies",
+        "David M. Davies"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full name, birth details, Army unit, occupation, employer, OSS assignment, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "c0e63e3a-b4a1-516f-85f1-ef82211524f7",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Elspeth V Davies without rank or private identifier. Army, CIA, Library of Congress, exact-name OSS, employment, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a historical identity.",
+      "name_variants": [
+        "Elspeth V Davies",
+        "Elspeth V. Davies"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": null,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full name, birth details, nationality, service status, occupation, employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "991d1a51-9960-52bb-ba4b-a0ff4b44b7a6",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index records only the initials F T Davies and rank Col, with no private identifier or nationality. Library of Congress and web candidates concern other initials, civilian addresses, World War I service, Australian business, or 1977 public service and remain unassigned.",
+      "name_variants": [
+        "F T Davies",
+        "F. T. Davies"
+      ],
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 to recover full name, nationality, service branch, rank authority, pre-OSS assignment or employer, and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b533-john-j-davidson",
+      "person_id": "cdda339e-ab68-596d-96cd-7a0b8ce05e6d",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 106 row; complete Army comparison; CIA and current Library of Congress checks; John J Davidson exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches with meaningful variants.",
+      "query_variant_type": "minimum_completed_research_protocol_confirmed_army_identity_occupation_only",
+      "started_at": "2026-09-14T23:10:00Z",
+      "completed_at": "2026-09-14T23:48:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "Four exact-name Army rows carry different identifiers. Five Library of Congress results and a directory namesake lack compatible identifiers or OSS context and were rejected.",
+      "research_notes": "The official Army identity and civilian-occupation code are accepted. The broad residual occupation is not converted into a named employer or an immediate-OSS affiliation.",
+      "next_action": "Manager or official, not elsewhere classified, is documented at Army entry, but no employer, industry, office, or work location is identified. Review Box 169 for employer, Army unit, OSS role, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch533-v1"
+    },
+    {
+      "key": "b533-john-t-davidson-jr",
+      "person_id": "2b3786dd-e97b-5cbc-830d-40ee51ad3952",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 106 row; complete Army comparison; CIA and current Library of Congress checks; John T Davidson Jr. exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches with meaningful variants.",
+      "query_variant_type": "minimum_completed_research_protocol_confirmed_identifier_token_equivalent_name_occupation_only",
+      "started_at": "2026-09-14T23:10:00Z",
+      "completed_at": "2026-09-14T23:48:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "A 1928 market proprietor without the suffix and a modern physician namesake lack compatible chronology and OSS linkage.",
+      "research_notes": "The official Army identity and civilian-occupation code are accepted. Suffix placement explains the mechanical raw-name comparison failure; no substantive token conflicts. No employer is inferred.",
+      "next_action": "Stenographer or typist is documented at Army entry, but no employer, office, or work location is identified. Review Box 169 for employer, Army unit, OSS role, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch533-v1"
+    },
+    {
+      "key": "b533-kenneth-e-davidson",
+      "person_id": "44e80b12-0d77-5556-83fa-8623dbc8932e",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 106 row; complete Army comparison; CIA and current Library of Congress checks; Kenneth E Davidson exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches with meaningful variants.",
+      "query_variant_type": "minimum_completed_research_protocol_confirmed_army_identity_occupation_only",
+      "started_at": "2026-09-14T23:10:00Z",
+      "completed_at": "2026-09-14T23:48:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 13,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "Six exact-name Army rows carry different identifiers. One Library of Congress result and modern attorney and federal-employee namesakes lack compatible chronology and OSS linkage.",
+      "research_notes": "The official Army identity and civilian-occupation code are accepted. The category does not identify a farm or employer and is not converted into self-employment.",
+      "next_action": "Farm hand on a general farm is documented at Army entry, but no farm, owner, crop, or work location is identified. Review Box 169 for employer, Army unit, OSS role, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch533-v1"
+    },
+    {
+      "key": "b533-milton-davidson",
+      "person_id": "734db315-13e2-513a-a730-fa0f45080ddc",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 106 row; complete Army comparison; CIA and current Library of Congress checks; Milton Davidson exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches with meaningful variants.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_unassigned_candidates",
+      "started_at": "2026-09-14T23:10:00Z",
+      "completed_at": "2026-09-14T23:48:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The sole exact-name Army row has no private-identifier bridge. A Library of Congress result and postwar employment, music, and obituary namesakes cannot be connected to Box 169 or OSS service.",
+      "research_notes": "No candidate meets the common-name identity rule; no employer or occupation is assigned.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full name, birth details, service status, occupation, employer, and chronology before reconsidering the Army and postwar namesakes.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch533-v1"
+    },
+    {
+      "key": "b533-rebecca-d-davidson",
+      "person_id": "fc3ff118-01f7-56ca-83c8-30a0bca61810",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 106 row; complete Army comparison; CIA and current Library of Congress checks; Rebecca D Davidson exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches with meaningful variants.",
+      "query_variant_type": "minimum_completed_research_protocol_no_reliable_candidate",
+      "started_at": "2026-09-14T23:10:00Z",
+      "completed_at": "2026-09-14T23:48:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "No plausible candidate survived exact-name and contextual screening.",
+      "research_notes": "No defensible identity, occupation, employer, or affiliation was found in the accessible sources reviewed.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full name, birth details, service status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch533-v1"
+    },
+    {
+      "key": "b533-thomas-davidson",
+      "person_id": "ed9a0f14-c3b5-5b7e-a72a-58f2aad9afac",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 106 row; complete Army comparison; CIA and current Library of Congress checks; Thomas Davidson exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches with meaningful variants.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_multiple_unassigned_candidates",
+      "started_at": "2026-09-14T23:10:00Z",
+      "completed_at": "2026-09-14T23:48:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Three exact-name Army rows carry incompatible and mutually distinct biographical values. A Library of Congress result concerns an elderly former archbishop, and another OSS-adjacent result concerns Iver Olsen rather than Thomas Davidson.",
+      "research_notes": "A name match alone is insufficient; no Army row, occupation, employer, or affiliation is assigned.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full name, birth details, service status, occupation, employer, and chronology before reconsidering name-only candidates.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch533-v1"
+    },
+    {
+      "key": "b533-alfred-davies",
+      "person_id": "4a1c57e1-7052-5f8c-92b1-428fc2a1ccae",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 106 row; complete Army comparison; CIA and current Library of Congress checks; Alfred Davies exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches with meaningful variants.",
+      "query_variant_type": "minimum_completed_research_protocol_common_name_unassigned_army_candidate",
+      "started_at": "2026-09-14T23:10:00Z",
+      "completed_at": "2026-09-14T23:48:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The sole exact-name Army row has no corroborating identifier or OSS context and is not assigned.",
+      "research_notes": "No defensible identity, occupation, employer, or affiliation was found in the accessible sources reviewed.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full name, birth details, service status, occupation, employer, and chronology before reconsidering the Army namesake.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch533-v1"
+    },
+    {
+      "key": "b533-david-m-davies",
+      "person_id": "49696b15-fe98-5137-a67f-fd4d6fd7bfc7",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 106 row; complete Army comparison; CIA and current Library of Congress checks; David M Davies exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches with meaningful variants.",
+      "query_variant_type": "minimum_completed_research_protocol_indexed_enlisted_rank_unresolved_identity",
+      "started_at": "2026-09-14T23:10:00Z",
+      "completed_at": "2026-09-14T23:48:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The Library of Congress candidate has a different middle name and suffix. Modern local-government and commercial namesakes lack compatible chronology and OSS linkage.",
+      "research_notes": "The indexed T-3 rank supports personnel classification only; it does not resolve the person or establish an employer.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full name, birth details, Army unit, occupation, employer, OSS assignment, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch533-v1"
+    },
+    {
+      "key": "b533-elspeth-v-davies",
+      "person_id": "c0e63e3a-b4a1-516f-85f1-ef82211524f7",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 106 row; complete Army comparison; CIA and current Library of Congress checks; Elspeth V Davies exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches with meaningful variants.",
+      "query_variant_type": "minimum_completed_research_protocol_distinctive_name_no_reliable_candidate",
+      "started_at": "2026-09-14T23:10:00Z",
+      "completed_at": "2026-09-14T23:48:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "A modern electoral-register namesake is irrelevant to the wartime person and was rejected.",
+      "research_notes": "No defensible historical identity, occupation, employer, or affiliation was found in the accessible sources reviewed.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 for full name, birth details, nationality, service status, occupation, employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch533-v1"
+    },
+    {
+      "key": "b533-f-t-davies",
+      "person_id": "991d1a51-9960-52bb-ba4b-a0ff4b44b7a6",
+      "source_adapter": "reviewed_nara_army_loc_cia_institutional_and_web_sources",
+      "query_text": "NARA OSS index page 106 row; complete Army comparison; CIA and current Library of Congress checks; F T Davies exact-name OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches with meaningful variants.",
+      "query_variant_type": "minimum_completed_research_protocol_initials_only_foreign_or_allied_colonel",
+      "started_at": "2026-09-14T23:10:00Z",
+      "completed_at": "2026-09-14T23:48:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Five Library of Congress candidates are different people or OCR/address collisions. A World War I private, an Australian trade association secretary, and a 1977 Scottish council member lack an OSS and Box 169 bridge.",
+      "research_notes": "The rank supports the existing foreign-or-Allied personnel category, but initials alone do not establish a commissioned-officer flag, nationality, military branch, identity, or prior affiliation.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 169 to recover full name, nationality, service branch, rank authority, pre-OSS assignment or employer, and chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch533-v1"
+    }
+  ]
+}

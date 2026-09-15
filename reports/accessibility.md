@@ -4,6 +4,22 @@ Run: 2026-09-14 UTC
 
 ## Result
 
+Batch 533: the focused cohort suite passed all 51 checks across desktop, phone
+and tablet. It verifies ten immutable page 106 rows; three masked private
+values; three accepted identifier-and-compatible-name Army identities; three
+qualified entry-time occupation findings without employers; seven unresolved
+profiles; and the preservation of David M Davies's indexed `T-3` and F T
+Davies's indexed `Col` classifications without over-resolving either identity.
+The bounded core suite passed 18/18 and the analysis suite passed 6/6 across
+the same viewports. Twenty-five axe cases passed in the aggregate run; desktop
+Sources and tablet Analysis timed out under browser/display pressure and then
+each passed in focused reruns. All 27 route-and-viewport axe cases therefore
+have passing Batch 533 results. The clean publish clone's Astro check covered
+158 source files with zero
+errors, warnings or hints and generated 24,571 HTML pages / 24,643 artifacts.
+Three consecutive builds reproduced the public and production trees byte for
+byte. Independent GitHub and deployed-site checks remain pending.
+
 Batch 532: the focused cohort suite passed all 54 checks across desktop, phone
 and tablet. It verifies ten immutable page 106 rows; six masked private values;
 three accepted identifier-and-name Army identities; three qualified entry-time
@@ -15,7 +31,9 @@ suite passed 6/6 across the same viewports. The axe route suite passed 27/27
 in 1.6 minutes. The clean publish clone's Astro check covered 157 source files
 with zero errors, warnings or hints and generated 24,571 HTML pages / 24,643
 artifacts. Three consecutive builds reproduced the public and production trees
-byte for byte. Independent GitHub and deployed-site verification are pending.
+byte for byte. PR Test run 34911041876, main Test run 34911466381 and Pages run
+34911466384 passed; the live verifier matched every manifest asset, core route
+and direct cohort profile.
 
 Batch 531: the focused cohort suite passed all 54 checks across desktop, phone
 and tablet. It verifies ten immutable page 106 rows; five masked private
