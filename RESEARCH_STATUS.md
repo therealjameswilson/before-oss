@@ -2,7 +2,28 @@
 
 Verified against the current local SQLite database on 2026-09-15 UTC.
 
-Batch 544 is the current locally exact-verified release candidate. It adds ten
+Batch 545 is the current locally exact-verified release candidate. It adds ten
+terminal saved outcomes for personnel-index PDF page 109 rows 18-27, John J
+Deangelis through Daniel Debardeleben. Exact protected-identifier and name
+agreement confirms Edward P Deason and David C Deaver as enlisted Army
+personnel and supports qualified entry-time student status, not an institution
+or employer. John J and Peter L Deangelis retain explicit identifier-name
+conflicts. Frances V Dearborn remains a probable exact-name Army candidate
+with a medium-confidence statistical-clerk occupational category. Obituary,
+unit-history and official CIA evidence support high-confidence OSS identities
+for Albin P Dearing and Daniel Debardeleben without establishing pre-OSS
+employers. Three identities remain unresolved. Exact coverage is 5,218 /
+23,940 researched, 571 verified affiliations, 253 verified employers, 5,173
+archival dispositions assessed and 18,722 `not_started`. All 95 Python tests,
+60 focused checks, 18 core checks, 6 analysis checks and 27 route-and-viewport
+axe cases pass. The ingest, profile, privacy, link, dependency, manifest and
+three-build reproducibility audits are green. See
+`reports/release_batch_545.md` and
+`research/batch-545-discovery-checkpoint.md`. Publication and independent live
+verification are pending; Batch 544 remains the exact-verified public release.
+The goal remains active.
+
+Batch 544 is the current exact-verified public release. It adds ten
 terminal saved outcomes for personnel-index PDF page 109 rows 8-17, Harlowe F
 Dean Jr. through Nato DeAngeles. Exact protected-identifier and name agreement
 confirms Elmer L Deane as enlisted Army personnel and supports a qualified
@@ -22,9 +43,12 @@ route-and-viewport axe cases pass. The ingest, profile, privacy, link, manifest
 and three-build reproducibility audits are green. The current online dependency
 audit could not be rerun because package-registry access was denied; no current
 result is inferred. See `reports/release_batch_544.md` and
-`research/batch-544-discovery-checkpoint.md`. Publication and independent live
-verification are pending; Batch 543 remains the exact-verified public release.
-The goal remains active.
+`research/batch-544-discovery-checkpoint.md`. Pull request 240 used branch
+commit `8749a3ac6f2bd84e48a155a3b2e5ef58209f825b` and merged as commit
+`28057217241e6e58ca93b0689b302a20a5b6dd6d`; PR Test run 34960201893, main
+Test run 34961124756 and Pages run 34961124751 succeeded. The live verifier
+matched all 67 manifest assets, 93,294,125 bytes, seven core routes and ten
+direct Batch 544 profiles. The goal remains active.
 
 Batch 543 is the current exact-verified public release. It adds ten
 terminal saved outcomes for personnel-index PDF page 108 rows 44-46 and page
