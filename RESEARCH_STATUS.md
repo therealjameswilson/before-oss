@@ -20,8 +20,10 @@ data contains 2,121 affiliations, 656 organizations, 3,583 sources and 4,283
 claims. See `reports/release_batch_561.md` and
 `research/batch-561-discovery-checkpoint.md`. All 95 Python tests, 81 bounded
 browser checks, the 200-profile audit, identifier audit, link audit and
-manifest guard pass. Batch 560 remains the current exact-verified public
-release while Batch 561 proceeds through clean replay, review, merge,
+manifest guard pass. A detached clean-room replay from commit `9f3139e`
+regenerated the exact database totals and reproduced the 70-file public tree
+and 24,676-file production tree byte for byte. Batch 560 remains the current
+exact-verified public release while Batch 561 proceeds through review, merge,
 deployment and live verification. The goal remains active.
 
 Batch 560 is the current exact-verified public release. It adds ten terminal

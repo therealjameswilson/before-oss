@@ -106,6 +106,12 @@ counts are 2,281 commissioned, 6,023 not commissioned and 15,636 unknown.
   `eb8ac1a589079bbb235f521b4cc362888bfee8fe77b48f8eeadda8c1e3f3971d`.
 - The production tree contains 24,676 files and 288,919,486 bytes at SHA-256
   `92c9faf9784b36fef9a9787d9dce93f3a34a496897a26566424999d95ea28985`.
+- A detached clean-room replay from commit `9f3139e`, using only the frozen
+  522-page source PDF, versioned evidence, review decisions and sanitized
+  adapter checkpoint, regenerated the exact database totals above. After a
+  locked `npm ci`, it reproduced both the public-tree and production-tree
+  hashes byte for byte. The first package install was blocked by sandbox DNS;
+  the authorized retry completed with zero reported vulnerabilities.
 - The 200-profile stratified structural audit passes all seven checks. This is
   not an independent historical rereview.
 - Identifier audit: 12,926 normalized identifiers, 120 formatted variants and
