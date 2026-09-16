@@ -1,0 +1,728 @@
+{
+  "bundle_version": "3",
+  "reviewer": "Before OSS reviewed evidence batch 567",
+  "sources": [
+    {
+      "key": "index-b567",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 181",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 114 rows 9-18 visually inspected; Box 181; location 230/86/29/07",
+      "access_date": "2026-09-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Three printed private values remain private and are excluded from public claims and exports. Original spelling, ranks, Box 181, location, French notes and Clyde DePlanche's visibly truncated printed note 'first nam' remain recoverable."
+    },
+    {
+      "key": "army-b567",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official ASNEF.FIN.DAT; complete transient scan of 9,200,232 fixed-width records; protected identifiers withheld",
+      "access_date": "2026-09-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full private identifier is retained. Exact protected-identifier matches were accepted only when names agreed. Name-only candidates remain unresolved. The file is incomplete and a non-hit is not negative proof."
+    },
+    {
+      "key": "army-technical-b567",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "Fixed-width identifier, name, Army-entry-date, grade and civilian-occupation fields checked",
+      "access_date": "2026-09-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "document_number": "100.1ND_NC.pdf",
+      "rights_notes": "Used to interpret selected fields only. The documentation warns about source damage, alternate layouts, coding limits and incomplete coverage."
+    },
+    {
+      "key": "army-codes-b567",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30, Civilian Occupations",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "Code No. 30, physical PDF pages 171 and 174 visually inspected; entries 1-26, 9-92 and 7-36",
+      "access_date": "2026-09-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Official code documentation. The codes identify broad civilian occupation categories at Army entry, not named employers or immediate pre-OSS affiliations."
+    },
+    {
+      "key": "secrets-war-b567",
+      "stable_url": "https://www.znaci.org/00001/294.pdf",
+      "archival_identifier": "National Archives publication no. 100021; ISBN 0-911333-91-6",
+      "title": "The Secrets War: The Office of Strategic Services in World War II",
+      "author_creator": "George C. Chalou, editor; Arthur Layton Funk, chapter author",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1992",
+      "locator": "Arthur Layton Funk, 'The OSS in Algiers,' printed page 175, PDF page 182",
+      "access_date": "2026-09-16",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "National Archives scholarly conference proceedings",
+      "rights_notes": "The NARA publication page at https://www.archives.gov/publications/military-history.html confirms the title, editor, publisher, date and ISBN. The linked access copy was inspected for the cited passage."
+    },
+    {
+      "key": "diane-compilation-b567",
+      "stable_url": "https://www.cnd-castille.org/wp-content/uploads/2021/10/infiltrations_into_france.pdf",
+      "archival_identifier": "Mission Diane references: NARA Mission Report Diane; SHD GR 28 P 4 168/9",
+      "title": "Tentative of History of In/Exfiltrations into/from France during WWII from 1940 to 1945",
+      "author_creator": "Marcel Treville",
+      "repository_publisher": "Plan Sussex / CND-Castille",
+      "publication_record_date": "2021-07-31 revision 103",
+      "locator": "Physical PDF page 136; 10 May 1944 Diane mission row",
+      "access_date": "2026-09-16",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "History of World War II infiltrations into France",
+      "rights_notes": "The compilation labels itself tentative and cites a NARA Mission Diane report and French SHD personnel files. It is used only with the official index and an independent municipal account, not as sole evidence."
+    },
+    {
+      "key": "diane-municipal-b567",
+      "stable_url": "https://www.ville-petit-couronne.fr/download/file/3563?key=rt%2BiRSyQaBdbjlAfIvSHYQ%3D%3D",
+      "title": "Historical account of OSS Mission Diane",
+      "repository_publisher": "Ville de Petit-Couronne",
+      "publication_record_date": "circa 2022",
+      "locator": "Section describing the Diane team and Claude de Perthuis as observer",
+      "access_date": "2026-09-16",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Petit-Couronne municipal historical publications",
+      "rights_notes": "Municipal historical account used as independent corroboration of the distinctive name and Diane assignment. It does not establish pre-OSS employment."
+    },
+    {
+      "key": "depinay-scholar-b567",
+      "stable_url": "https://uplopen.com/en/chapters/11793/files/4a70423f-369d-44f4-b0f9-7d58e3a5a219.pdf",
+      "archival_identifier": "DOI 10.1515/9783111644080; ISBN PDF 978-3-11-164408-0",
+      "title": "Egon Berliner: ein jüdischer Emigrant im Dienst der SOE zwischen NS-Verbrechen, juristischer Aufarbeitung und Erinnerung",
+      "author_creator": "Nicole-Melanie Goll and Philipp Schwarz",
+      "repository_publisher": "Dokumentationsarchiv des österreichischen Widerstandes; Walter de Gruyter",
+      "publication_record_date": "2026",
+      "locator": "Nach der Befreiung, page 90, footnote 41",
+      "access_date": "2026-09-16",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Jahrbuch des Dokumentationsarchivs des österreichischen Widerstandes 2025",
+      "rights_notes": "Open-access scholarly article. The passage describes French Sous-Lieutenant Pierre Depinay entering OSS service and cites Georg Hoffmann and British archival records. It does not supply the middle initial or a pre-OSS employer."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "john-d-denton-jr-metals-b567",
+      "person_id": "1e92901c-6eb8-5ec8-a243-7961adc813ec",
+      "occupation": "Ferrous- or nonferrous-metals production occupation, not elsewhere classified",
+      "relationship_type": "unknown",
+      "end_date": "1943-05-08",
+      "date_precision": "day",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact-matched Army row records civilian occupation code 992 at Army entry. The official code list defines 9-92 broadly; it does not identify a metal, job title, employer or immediate pre-OSS affiliation."
+    },
+    {
+      "key": "keith-g-denton-payroll-b567",
+      "person_id": "54fe4f71-a7ee-5406-9234-25a283cab43e",
+      "occupation": "Paymaster, payroll clerk, or timekeeper category",
+      "relationship_type": "unknown",
+      "end_date": "1942-10-17",
+      "date_precision": "day",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact-matched Army row records civilian occupation code 126 at Army entry. The official code list groups paymasters, payroll clerks and timekeepers; it does not select one role or identify an employer."
+    },
+    {
+      "key": "alfred-j-depole-driver-b567",
+      "person_id": "584ed69a-45a8-55d8-be95-c4001135be27",
+      "occupation": "Chauffeur or bus, taxi, truck, or tractor driver category",
+      "relationship_type": "unknown",
+      "end_date": "1943-06-18",
+      "date_precision": "day",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact-matched Army row records civilian occupation code 736 at Army entry. The official code list groups chauffeurs with several driver categories; it does not select one role or identify an employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "john-d-denton-jr-identity-b567",
+      "person_id": "1e92901c-6eb8-5ec8-a243-7961adc813ec",
+      "claim_type": "identity",
+      "claim_text": "John D Denton Jr. is identity-confirmed through exact protected-identifier and exact-name agreement in the official Army file.",
+      "evidence_paraphrase": "The index and Army record agree on the protected identifier and the indexed name; four other exact-name Army rows were not attributed.",
+      "identity_match_assessment": "Confirmed by exact protected identifier plus agreeing name.",
+      "temporal_assessment": "The Army record establishes entry on 8 May 1943; it does not establish the later OSS start date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The protected identifier remains private and is essential to distinguishing this row from four exact-name Army namesakes.",
+      "sources": [
+        {"source_key": "index-b567", "support_type": "supports", "locator_override": "PDF page 114 row 10; John D Denton Jr.; Box 181; protected identifier withheld"},
+        {"source_key": "army-b567", "support_type": "supports", "locator_override": "Exact protected-identifier and name match; identifier withheld"}
+      ]
+    },
+    {
+      "key": "john-d-denton-jr-occupation-b567",
+      "person_id": "1e92901c-6eb8-5ec8-a243-7961adc813ec",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry in May 1943, John D Denton Jr.'s civilian occupation code represented work in production of ferrous or nonferrous metals, not elsewhere classified.",
+      "evidence_paraphrase": "The exact-matched Army row supplies occupation code 992, and the official code list defines 9-92 as a broad metals-production category.",
+      "identity_match_assessment": "The occupation belongs to the exact protected-identifier match.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on 8 May 1943; not proven to be immediately pre-OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No metal, precise job title or employer is inferred from the broad code.",
+      "sources": [
+        {"source_key": "army-b567", "support_type": "supports", "locator_override": "Exact protected-identifier row; civilian occupation value 992; identifier withheld"},
+        {"source_key": "army-technical-b567", "support_type": "context_only"},
+        {"source_key": "army-codes-b567", "support_type": "supports", "locator_override": "Code No. 30, physical PDF page 174, code 9-92", "excerpt_override": "9-92. Occupations in production of ferrous and nonferrous metals, n. e. c."}
+      ]
+    },
+    {
+      "key": "john-d-denton-jr-unresolved-employer-b567",
+      "person_id": "1e92901c-6eb8-5ec8-a243-7961adc813ec",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable named pre-OSS employer has yet been identified for John D Denton Jr.",
+      "evidence_paraphrase": "The reviewed sources identify a broad civilian occupation at Army entry but no employing organization.",
+      "identity_match_assessment": "Identity is confirmed; employer remains unresolved.",
+      "temporal_assessment": "The occupation is date-bounded to Army entry, but an employer sequence cannot be established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 181 for a named employer and intervening chronology.",
+      "sources": [
+        {"source_key": "index-b567", "support_type": "supports", "locator_override": "PDF page 114 row 10; Box 181"},
+        {"source_key": "army-b567", "support_type": "context_only"}
+      ]
+    },
+    {
+      "key": "keith-g-denton-identity-b567",
+      "person_id": "54fe4f71-a7ee-5406-9234-25a283cab43e",
+      "claim_type": "identity",
+      "claim_text": "Keith G Denton is identity-confirmed through exact protected-identifier and exact-name agreement in the official Army file.",
+      "evidence_paraphrase": "The index and the sole exact-name Army row agree on the protected identifier and name.",
+      "identity_match_assessment": "Confirmed by exact protected identifier plus agreeing name.",
+      "temporal_assessment": "The Army record establishes entry on 17 October 1942; it does not establish the later OSS start date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The protected identifier remains private.",
+      "sources": [
+        {"source_key": "index-b567", "support_type": "supports", "locator_override": "PDF page 114 row 11; Keith G Denton; Box 181; protected identifier withheld"},
+        {"source_key": "army-b567", "support_type": "supports", "locator_override": "Exact protected-identifier and exact-name match; identifier withheld"}
+      ]
+    },
+    {
+      "key": "keith-g-denton-occupation-b567",
+      "person_id": "54fe4f71-a7ee-5406-9234-25a283cab43e",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry in October 1942, Keith G Denton's civilian occupation code represented the paymaster, payroll-clerk, or timekeeper category.",
+      "evidence_paraphrase": "The exact-matched Army row supplies occupation code 126, and the official code list defines 1-26 as paymasters, payroll clerks, and timekeepers.",
+      "identity_match_assessment": "The occupation belongs to the exact protected-identifier match.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on 17 October 1942; not proven to be immediately pre-OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The code does not distinguish among its three roles or identify an employer.",
+      "sources": [
+        {"source_key": "army-b567", "support_type": "supports", "locator_override": "Exact protected-identifier row; civilian occupation value 126; identifier withheld"},
+        {"source_key": "army-technical-b567", "support_type": "context_only"},
+        {"source_key": "army-codes-b567", "support_type": "supports", "locator_override": "Code No. 30, physical PDF page 171, code 1-26", "excerpt_override": "1-26. Paymasters, payroll clerks, and timekeepers"}
+      ]
+    },
+    {
+      "key": "keith-g-denton-unresolved-employer-b567",
+      "person_id": "54fe4f71-a7ee-5406-9234-25a283cab43e",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable named pre-OSS employer has yet been identified for Keith G Denton.",
+      "evidence_paraphrase": "The reviewed sources identify a broad civilian occupation category at Army entry but no employing organization.",
+      "identity_match_assessment": "Identity is confirmed; employer remains unresolved.",
+      "temporal_assessment": "The occupation is date-bounded to Army entry, but an employer sequence cannot be established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 181 for a named employer and intervening chronology.",
+      "sources": [
+        {"source_key": "index-b567", "support_type": "supports", "locator_override": "PDF page 114 row 11; Box 181"},
+        {"source_key": "army-b567", "support_type": "context_only"}
+      ]
+    },
+    {
+      "key": "alfred-j-depole-identity-b567",
+      "person_id": "584ed69a-45a8-55d8-be95-c4001135be27",
+      "claim_type": "identity",
+      "claim_text": "Alfred J DePole is identity-confirmed through exact protected-identifier and exact-name agreement in the official Army file.",
+      "evidence_paraphrase": "The index and the sole exact-name Army row agree on the protected identifier and name.",
+      "identity_match_assessment": "Confirmed by exact protected identifier plus agreeing name.",
+      "temporal_assessment": "The Army record establishes entry on 18 June 1943; it does not establish the later OSS start date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The protected identifier remains private.",
+      "sources": [
+        {"source_key": "index-b567", "support_type": "supports", "locator_override": "PDF page 114 row 18; Alfred J DePole; Box 181; protected identifier withheld"},
+        {"source_key": "army-b567", "support_type": "supports", "locator_override": "Exact protected-identifier and exact-name match; identifier withheld"}
+      ]
+    },
+    {
+      "key": "alfred-j-depole-occupation-b567",
+      "person_id": "584ed69a-45a8-55d8-be95-c4001135be27",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry in June 1943, Alfred J DePole's civilian occupation code represented the chauffeur or bus, taxi, truck, or tractor driver category.",
+      "evidence_paraphrase": "The exact-matched Army row supplies occupation code 736, and the official code list defines 7-36 as chauffeurs and several driver categories.",
+      "identity_match_assessment": "The occupation belongs to the exact protected-identifier match.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on 18 June 1943; not proven to be immediately pre-OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The code does not distinguish among its listed roles or identify an employer.",
+      "sources": [
+        {"source_key": "army-b567", "support_type": "supports", "locator_override": "Exact protected-identifier row; civilian occupation value 736; identifier withheld"},
+        {"source_key": "army-technical-b567", "support_type": "context_only"},
+        {"source_key": "army-codes-b567", "support_type": "supports", "locator_override": "Code No. 30, physical PDF page 174, code 7-36", "excerpt_override": "7-36. Chauffeurs and drivers, bus, taxi, truck, and tractor"}
+      ]
+    },
+    {
+      "key": "alfred-j-depole-unresolved-employer-b567",
+      "person_id": "584ed69a-45a8-55d8-be95-c4001135be27",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable named pre-OSS employer has yet been identified for Alfred J DePole.",
+      "evidence_paraphrase": "The reviewed sources identify a broad civilian occupation category at Army entry but no employing organization.",
+      "identity_match_assessment": "Identity is confirmed; employer remains unresolved.",
+      "temporal_assessment": "The occupation is date-bounded to Army entry, but an employer sequence cannot be established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 181 for a named employer and intervening chronology.",
+      "sources": [
+        {"source_key": "index-b567", "support_type": "supports", "locator_override": "PDF page 114 row 18; Box 181"},
+        {"source_key": "army-b567", "support_type": "context_only"}
+      ]
+    },
+    {
+      "key": "gerard-depiolenc-identity-b567",
+      "person_id": "bb8ca645-9194-5f81-8291-eebb5422d8ea",
+      "claim_type": "identity",
+      "claim_text": "The indexed Gerard Depiolenc is a high-confidence match to Captain Gerard de Piolenc, the OSS member of the French section at the Special Project Operations Center.",
+      "evidence_paraphrase": "A NARA-published OSS history names Captain Gerard de Piolenc as the OSS member of SPOC's French section and notes his French origins.",
+      "identity_match_assessment": "The distinctive compressed surname in the index aligns with the spaced form, given name and direct OSS context in the NARA publication.",
+      "temporal_assessment": "The source documents an OSS assignment in 1944; it does not establish pre-OSS employment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Published as a documented name variant and OSS identity, not as evidence of a pre-OSS employer.",
+      "sources": [
+        {"source_key": "index-b567", "support_type": "supports", "locator_override": "PDF page 114 row 16; Gerard Depiolenc; Box 181"},
+        {"source_key": "secrets-war-b567", "support_type": "supports", "locator_override": "Arthur Layton Funk, 'The OSS in Algiers,' printed page 175", "excerpt_override": "The OSS member of the French section was Capt. Gerard de Piolenc"}
+      ]
+    },
+    {
+      "key": "gerard-depiolenc-unresolved-employer-b567",
+      "person_id": "bb8ca645-9194-5f81-8291-eebb5422d8ea",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for Gerard Depiolenc in the accessible sources reviewed.",
+      "evidence_paraphrase": "The sources identify his OSS role but do not document the organization or status immediately before OSS.",
+      "identity_match_assessment": "Identity is high confidence; employer remains unresolved.",
+      "temporal_assessment": "The NARA history describes wartime OSS work, not a pre-OSS chronology.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 181 for pre-OSS chronology.",
+      "sources": [
+        {"source_key": "index-b567", "support_type": "supports"},
+        {"source_key": "secrets-war-b567", "support_type": "context_only"}
+      ]
+    },
+    {
+      "key": "claude-deperthius-identity-b567",
+      "person_id": "b5a624a2-4177-5faa-b771-20380f275b58",
+      "claim_type": "identity",
+      "claim_text": "The indexed Claude DePerthius is a high-confidence match to Ernest Claude de Perthuis, the French officer associated with OSS Mission Diane.",
+      "evidence_paraphrase": "Two independent historical accounts identify Claude or Ernest Claude de Perthuis as the observer in OSS Mission Diane; one cites the NARA mission report and French SHD personnel file.",
+      "identity_match_assessment": "The distinctive surname, Claude given name, French classification, officer context and direct OSS mission linkage align. The full-name form Ernest Claude remains a documented variant rather than a replacement for the indexed name.",
+      "temporal_assessment": "The sources document an OSS mission in May 1944; they do not establish pre-OSS employment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The index prints S/Lt while one secondary account's wording is not fully consistent about the two Diane officers' ranks; that discrepancy is preserved for archival review.",
+      "sources": [
+        {"source_key": "index-b567", "support_type": "supports", "locator_override": "PDF page 114 row 14; Claude DePerthius; S/Lt; French; Box 181"},
+        {"source_key": "diane-compilation-b567", "support_type": "supports", "locator_override": "Physical PDF page 136; 10 May 1944; OSS Diane", "excerpt_override": "Ernest Claude De Perthuis @Jean Bertrand badge n°21"},
+        {"source_key": "diane-municipal-b567", "support_type": "supports", "locator_override": "Mission Diane historical account", "excerpt_override": "Claude de PERTHUIS (Observateur)"}
+      ]
+    },
+    {
+      "key": "claude-deperthius-unresolved-employer-b567",
+      "person_id": "b5a624a2-4177-5faa-b771-20380f275b58",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for Claude DePerthius in the accessible sources reviewed.",
+      "evidence_paraphrase": "The sources establish a likely OSS mission identity but do not document an immediately prior employer or institution.",
+      "identity_match_assessment": "Identity is high confidence; employer remains unresolved.",
+      "temporal_assessment": "The evidence concerns OSS service in 1944, not pre-OSS chronology.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 181 and the cited NARA Mission Diane report and SHD file.",
+      "sources": [
+        {"source_key": "index-b567", "support_type": "supports"},
+        {"source_key": "diane-compilation-b567", "support_type": "context_only"},
+        {"source_key": "diane-municipal-b567", "support_type": "context_only"}
+      ]
+    },
+    {
+      "key": "pierre-r-depinay-identity-b567",
+      "person_id": "c8645131-9d3a-53d7-9d84-41ebfcc13082",
+      "claim_type": "identity",
+      "claim_text": "The indexed Pierre R Depinay is a high-confidence match to the French Sous-Lieutenant Pierre Depinay documented as having entered OSS service.",
+      "evidence_paraphrase": "An archive-cited scholarly article identifies French Sous-Lieutenant Pierre Depinay as entering OSS service.",
+      "identity_match_assessment": "The rare exact name, French classification, officer rank and direct OSS linkage align; the scholarly source does not supply the middle initial R.",
+      "temporal_assessment": "The source documents entry into OSS service but does not establish pre-OSS employment.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The index prints Lt and the scholarly source Sous-Lieutenant; the difference and absent middle initial remain visible rather than silently harmonized.",
+      "sources": [
+        {"source_key": "index-b567", "support_type": "supports", "locator_override": "PDF page 114 row 15; Pierre R Depinay; Lt; French; Box 181"},
+        {"source_key": "depinay-scholar-b567", "support_type": "supports", "locator_override": "Page 90, footnote 41", "excerpt_override": "französischen Sous-Lieutenant Pierre Depinay, der in den Dienst der OSS getreten war"}
+      ]
+    },
+    {
+      "key": "pierre-r-depinay-unresolved-employer-b567",
+      "person_id": "c8645131-9d3a-53d7-9d84-41ebfcc13082",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for Pierre R Depinay in the accessible sources reviewed.",
+      "evidence_paraphrase": "The sources establish a strong OSS identity match but not an immediately prior employer or institution.",
+      "identity_match_assessment": "Identity is high confidence; employer remains unresolved.",
+      "temporal_assessment": "The evidence concerns entry into OSS service, not earlier employment chronology.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 181 and the underlying archival citations used by the scholarly article.",
+      "sources": [
+        {"source_key": "index-b567", "support_type": "supports"},
+        {"source_key": "depinay-scholar-b567", "support_type": "context_only"}
+      ]
+    },
+    {
+      "key": "jeffrey-t-denton-jr-unresolved-employer-b567",
+      "person_id": "131357dc-d090-56a0-aef6-629d897c9502",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for Jeffrey T Denton Jr. in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official, archival, newspaper and staged web checks did not establish a unique identity or employer.",
+      "identity_match_assessment": "The index establishes the source record, but no independent identity bridge survived review.",
+      "temporal_assessment": "No reliable pre-OSS employment chronology was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 181 for identifiers and chronology.",
+      "sources": [{"source_key": "index-b567", "support_type": "supports"}]
+    },
+    {
+      "key": "otto-depasetti-unresolved-employer-b567",
+      "person_id": "84055c54-45f7-54c7-a326-db74aa5e88e2",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for Otto DePasetti in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official, archival, newspaper and staged web checks did not establish a unique identity or employer.",
+      "identity_match_assessment": "The index establishes the source record, but no independent identity bridge survived review.",
+      "temporal_assessment": "No reliable pre-OSS employment chronology was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 181 for identifiers and chronology.",
+      "sources": [{"source_key": "index-b567", "support_type": "supports"}]
+    },
+    {
+      "key": "harry-depaur-unresolved-employer-b567",
+      "person_id": "f9e52678-9b71-51f2-b188-38d88462c743",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for Harry DePaur in the accessible sources reviewed.",
+      "evidence_paraphrase": "Searches found the index and unrelated or unbridged Harry M. DePaur and Leonard de Paur results; none established this person's identity or employer.",
+      "identity_match_assessment": "The index establishes the source record; similar-surname biographies were rejected without an OSS or Box linkage.",
+      "temporal_assessment": "No reliable pre-OSS employment chronology was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Do not merge this record with Leonard de Paur or the Harry M. DePaur lead without direct evidence.",
+      "sources": [{"source_key": "index-b567", "support_type": "supports"}]
+    },
+    {
+      "key": "clyde-deplanche-unresolved-employer-b567",
+      "person_id": "3c25b26f-0104-52cf-a60d-bd7e98811347",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for Clyde DePlanche in the accessible sources reviewed.",
+      "evidence_paraphrase": "The index supplies rank Sgt and the visibly truncated note 'first nam'; a discovery-only namesake result lacked an OSS, Box or employment bridge.",
+      "identity_match_assessment": "The source row is established, but the namesake lead was rejected.",
+      "temporal_assessment": "No reliable pre-OSS employment chronology was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Preserve the truncated printed note exactly and review Box 181 for its meaning and identifying evidence.",
+      "sources": [{"source_key": "index-b567", "support_type": "supports"}]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "131357dc-d090-56a0-aef6-629d897c9502",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index establishes Jeffrey T Denton Jr. in Box 181, but exact-name official, newspaper, archival and staged web checks did not establish a unique identity or pre-OSS employer.",
+      "name_variants": ["Jeffrey T Denton Jr.", "Jeffrey T. Denton Jr."],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 181 for identifiers, biography and pre-OSS employment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1e92901c-6eb8-5ec8-a243-7961adc813ec",
+      "identity_status": "confirmed",
+      "identity_evidence": "An exact protected-identifier and name match confirms the correct Army row among five exact-name John D Denton Jr. rows.",
+      "name_variants": ["John D Denton Jr.", "John D. Denton Jr."],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "possible_duplicate_group": null,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 181 for a named employer and the chronology between Army entry and OSS service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "54fe4f71-a7ee-5406-9234-25a283cab43e",
+      "identity_status": "confirmed",
+      "identity_evidence": "An exact protected-identifier and exact-name match confirms the sole exact-name Army row.",
+      "name_variants": ["Keith G Denton", "Keith G. Denton"],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "possible_duplicate_group": null,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 181 for a named employer and the chronology between Army entry and OSS service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "84055c54-45f7-54c7-a326-db74aa5e88e2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index establishes Otto DePasetti in Box 181, but accessible official, archival and web sources did not establish a unique identity or employer.",
+      "name_variants": ["Otto DePasetti", "Otto De Pasetti"],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 181 for identifiers, biography and pre-OSS employment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f9e52678-9b71-51f2-b188-38d88462c743",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index establishes Harry DePaur in Box 181. Similar-surname results involving Leonard de Paur and an unbridged Harry M. DePaur were rejected because no OSS, Box or other identity link was found.",
+      "name_variants": ["Harry DePaur", "Harry De Paur"],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 181 for a full name, identifiers and pre-OSS chronology before considering any de Paur biography.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b5a624a2-4177-5faa-b771-20380f275b58",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The distinctive surname, Claude given name, French note and officer context align with two independent accounts of Ernest Claude de Perthuis as the observer on OSS Mission Diane; one cites the NARA mission report and French SHD file.",
+      "name_variants": ["Claude DePerthius", "Claude de Perthuis", "Ernest Claude de Perthuis", "Jean Bertrand"],
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 181, the NARA Mission Diane report and SHD GR 28 P 4 168/9 for identity, rank and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c8645131-9d3a-53d7-9d84-41ebfcc13082",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare Pierre Depinay name, French note, officer rank and direct OSS linkage align between the index and an archive-cited scholarly article; the article does not supply middle initial R and calls him Sous-Lieutenant rather than Lt.",
+      "name_variants": ["Pierre R Depinay", "Pierre R. Depinay", "Pierre Depinay"],
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 181 and the scholarly article's underlying British and Hoffmann citations for full identity and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "bb8ca645-9194-5f81-8291-eebb5422d8ea",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The distinctive compressed indexed surname aligns with Captain Gerard de Piolenc, named in a NARA-published history as the OSS member of the French section at SPOC.",
+      "name_variants": ["Gerard Depiolenc", "Gerard de Piolenc", "Gérard de Piolenc"],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 181 for nationality, branch, identifiers and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3c25b26f-0104-52cf-a60d-bd7e98811347",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index establishes Clyde DePlanche, rank Sgt, in Box 181 and visibly preserves the truncated printed note 'first nam'. A discovery-only namesake result lacked an OSS, Box or employment bridge.",
+      "name_variants": ["Clyde DePlanche", "Clyde De Planche"],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 181 to interpret the truncated note, resolve identity and establish pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "584ed69a-45a8-55d8-be95-c4001135be27",
+      "identity_status": "confirmed",
+      "identity_evidence": "An exact protected-identifier and exact-name match confirms the sole exact-name Army row.",
+      "name_variants": ["Alfred J DePole", "Alfred J. DePole", "Alfred J Depole"],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "possible_duplicate_group": null,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 181 for a named employer and the chronology between Army entry and OSS service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b567-claude-deperthius-loc-timeout", "person_id": "b5a624a2-4177-5faa-b771-20380f275b58", "source_adapter": "loc", "query_text": "\"Claude DePerthius\" employer 1940", "query_variant_type": "employment_occupation", "started_at": "2026-09-16T15:05:11Z", "completed_at": "2026-09-16T15:05:19Z", "outcome": "error", "sources_reviewed": 0, "candidate_sources_rejected": 0, "research_notes": "The bounded Library of Congress request reached the configured read timeout. No response body or live payload was stored.", "next_action": "Use the completed official and staged web checks now; retry LoC in a later bounded batch if needed.", "last_error_redacted": "Library of Congress API read timed out after the configured bounded timeout.", "attempt_number": 3, "research_agent_version": "before-oss/batch-567-v1"
+    },
+    {
+      "key": "b567-clyde-deplanche-loc-timeout", "person_id": "3c25b26f-0104-52cf-a60d-bd7e98811347", "source_adapter": "loc", "query_text": "\"Clyde DePlanche\" employer 1940", "query_variant_type": "employment_occupation", "started_at": "2026-09-16T15:05:23Z", "completed_at": "2026-09-16T15:05:31Z", "outcome": "error", "sources_reviewed": 0, "candidate_sources_rejected": 0, "research_notes": "The bounded Library of Congress request reached the configured read timeout. No response body or live payload was stored.", "next_action": "Use the completed official and staged web checks now; retry LoC in a later bounded batch if needed.", "last_error_redacted": "Library of Congress API read timed out after the configured bounded timeout.", "attempt_number": 3, "research_agent_version": "before-oss/batch-567-v1"
+    },
+    {
+      "key": "b567-gerard-depiolenc-loc-timeout", "person_id": "bb8ca645-9194-5f81-8291-eebb5422d8ea", "source_adapter": "loc", "query_text": "\"Gerard Depiolenc\" employer 1940", "query_variant_type": "employment_occupation", "started_at": "2026-09-16T15:05:36Z", "completed_at": "2026-09-16T15:05:44Z", "outcome": "error", "sources_reviewed": 0, "candidate_sources_rejected": 0, "research_notes": "The bounded Library of Congress request reached the configured read timeout. No response body or live payload was stored.", "next_action": "Use the completed official and staged web checks now; retry LoC in a later bounded batch if needed.", "last_error_redacted": "Library of Congress API read timed out after the configured bounded timeout.", "attempt_number": 3, "research_agent_version": "before-oss/batch-567-v1"
+    },
+    {
+      "key": "b567-harry-depaur-loc-timeout", "person_id": "f9e52678-9b71-51f2-b188-38d88462c743", "source_adapter": "loc", "query_text": "\"Harry DePaur\" employer 1940", "query_variant_type": "employment_occupation", "started_at": "2026-09-16T15:05:51Z", "completed_at": "2026-09-16T15:05:59Z", "outcome": "error", "sources_reviewed": 0, "candidate_sources_rejected": 0, "research_notes": "The bounded Library of Congress request reached the configured read timeout. No response body or live payload was stored.", "next_action": "Use the completed official and staged web checks now; retry LoC in a later bounded batch if needed.", "last_error_redacted": "Library of Congress API read timed out after the configured bounded timeout.", "attempt_number": 3, "research_agent_version": "before-oss/batch-567-v1"
+    },
+    {
+      "key": "b567-jeffrey-t-denton-jr-loc-timeout", "person_id": "131357dc-d090-56a0-aef6-629d897c9502", "source_adapter": "loc", "query_text": "\"Jeffrey T Denton Jr.\" employer 1940", "query_variant_type": "employment_occupation", "started_at": "2026-09-16T15:06:04Z", "completed_at": "2026-09-16T15:06:12Z", "outcome": "error", "sources_reviewed": 0, "candidate_sources_rejected": 0, "research_notes": "The bounded Library of Congress request reached the configured read timeout. No response body or live payload was stored.", "next_action": "Use the completed official and staged web checks now; retry LoC in a later bounded batch if needed.", "last_error_redacted": "Library of Congress API read timed out after the configured bounded timeout.", "attempt_number": 3, "research_agent_version": "before-oss/batch-567-v1"
+    },
+    {
+      "key": "b567-john-d-denton-jr-loc-timeout", "person_id": "1e92901c-6eb8-5ec8-a243-7961adc813ec", "source_adapter": "loc", "query_text": "\"John D Denton Jr.\" employer 1940", "query_variant_type": "employment_occupation", "started_at": "2026-09-16T15:06:19Z", "completed_at": "2026-09-16T15:06:27Z", "outcome": "error", "sources_reviewed": 0, "candidate_sources_rejected": 0, "research_notes": "The bounded Library of Congress request reached the configured read timeout. No response body or live payload was stored.", "next_action": "Use the completed official and staged web checks now; retry LoC in a later bounded batch if needed.", "last_error_redacted": "Library of Congress API read timed out after the configured bounded timeout.", "attempt_number": 3, "research_agent_version": "before-oss/batch-567-v1"
+    },
+    {
+      "key": "b567-keith-g-denton-loc-timeout", "person_id": "54fe4f71-a7ee-5406-9234-25a283cab43e", "source_adapter": "loc", "query_text": "\"Keith G Denton\" employer 1940", "query_variant_type": "employment_occupation", "started_at": "2026-09-16T15:06:31Z", "completed_at": "2026-09-16T15:06:39Z", "outcome": "error", "sources_reviewed": 0, "candidate_sources_rejected": 0, "research_notes": "The bounded Library of Congress request reached the configured read timeout. No response body or live payload was stored.", "next_action": "Use the completed official and staged web checks now; retry LoC in a later bounded batch if needed.", "last_error_redacted": "Library of Congress API read timed out after the configured bounded timeout.", "attempt_number": 3, "research_agent_version": "before-oss/batch-567-v1"
+    },
+    {
+      "key": "b567-otto-depasetti-loc-timeout", "person_id": "84055c54-45f7-54c7-a326-db74aa5e88e2", "source_adapter": "loc", "query_text": "\"Otto DePasetti\" employer 1940", "query_variant_type": "employment_occupation", "started_at": "2026-09-16T15:06:46Z", "completed_at": "2026-09-16T15:06:54Z", "outcome": "error", "sources_reviewed": 0, "candidate_sources_rejected": 0, "research_notes": "The bounded Library of Congress request reached the configured read timeout. No response body or live payload was stored.", "next_action": "Use the completed official and staged web checks now; retry LoC in a later bounded batch if needed.", "last_error_redacted": "Library of Congress API read timed out after the configured bounded timeout.", "attempt_number": 3, "research_agent_version": "before-oss/batch-567-v1"
+    },
+    {
+      "key": "b567-pierre-r-depinay-loc-timeout", "person_id": "c8645131-9d3a-53d7-9d84-41ebfcc13082", "source_adapter": "loc", "query_text": "\"Pierre R Depinay\" employer 1940", "query_variant_type": "employment_occupation", "started_at": "2026-09-16T15:07:02Z", "completed_at": "2026-09-16T15:07:10Z", "outcome": "error", "sources_reviewed": 0, "candidate_sources_rejected": 0, "research_notes": "The bounded Library of Congress request reached the configured read timeout. No response body or live payload was stored.", "next_action": "Use the completed official and staged web checks now; retry LoC in a later bounded batch if needed.", "last_error_redacted": "Library of Congress API read timed out after the configured bounded timeout.", "attempt_number": 3, "research_agent_version": "before-oss/batch-567-v1"
+    },
+    {
+      "key": "b567-jeffrey-t-denton-jr-evidence-review", "person_id": "131357dc-d090-56a0-aef6-629d897c9502", "source_adapter": "manual_evidence_review", "query_text": "Review the OSS index, complete Army-file scan, CIA and Library of Congress checkpoints, staged web results and archival leads for Jeffrey T Denton Jr.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T15:10:00Z", "completed_at": "2026-09-16T15:14:00Z", "outcome": "no_result", "sources_reviewed": 5, "candidate_sources_rejected": 0, "rejection_reasons": null, "research_notes": "No attributable employer or identity candidate survived the staged protocol; the LoC timeout was recorded.", "next_action": "Review Box 181 for identifiers, biography and pre-OSS employment chronology.", "attempt_number": 4, "research_agent_version": "before-oss/batch-567-v1"
+    },
+    {
+      "key": "b567-jeffrey-t-denton-jr-synthesis", "person_id": "131357dc-d090-56a0-aef6-629d897c9502", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Jeffrey T Denton Jr.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T15:14:00Z", "completed_at": "2026-09-16T15:16:00Z", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 0, "research_notes": "Terminal outcome: requires_archival_review. No unique identity or named pre-OSS employer was established.", "next_action": "Review Box 181 for identifiers, biography and pre-OSS employment chronology.", "attempt_number": 5, "research_agent_version": "before-oss/batch-567-v1"
+    },
+    {
+      "key": "b567-john-d-denton-jr-evidence-review", "person_id": "1e92901c-6eb8-5ec8-a243-7961adc813ec", "source_adapter": "manual_evidence_review", "query_text": "Review the OSS index, complete Army-file scan, CIA and Library of Congress checkpoints, staged web results and archival leads for John D Denton Jr.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T15:10:00Z", "completed_at": "2026-09-16T15:14:00Z", "outcome": "candidate_found", "sources_reviewed": 7, "candidate_sources_rejected": 4, "rejection_reasons": "Four exact-name Army rows were rejected for this entity because their protected identifiers did not match the index row.", "research_notes": "Exact protected-identifier and name agreement confirmed the correct Army row and a broad civilian occupation category at Army entry.", "next_action": "Review Box 181 for a named employer and intervening chronology.", "attempt_number": 4, "research_agent_version": "before-oss/batch-567-v1"
+    },
+    {
+      "key": "b567-john-d-denton-jr-synthesis", "person_id": "1e92901c-6eb8-5ec8-a243-7961adc813ec", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for John D Denton Jr.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T15:14:00Z", "completed_at": "2026-09-16T15:16:00Z", "outcome": "source_reviewed", "sources_reviewed": 7, "candidate_sources_rejected": 0, "research_notes": "Terminal outcome: occupation_only_found. The broad metals-production code is published as an occupation, not a named employer.", "next_action": "Review Box 181 for a named employer and intervening chronology.", "attempt_number": 5, "research_agent_version": "before-oss/batch-567-v1"
+    },
+    {
+      "key": "b567-keith-g-denton-evidence-review", "person_id": "54fe4f71-a7ee-5406-9234-25a283cab43e", "source_adapter": "manual_evidence_review", "query_text": "Review the OSS index, complete Army-file scan, CIA and Library of Congress checkpoints, staged web results and archival leads for Keith G Denton.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T15:10:00Z", "completed_at": "2026-09-16T15:14:00Z", "outcome": "candidate_found", "sources_reviewed": 7, "candidate_sources_rejected": 0, "research_notes": "Exact protected-identifier and name agreement confirmed the sole exact-name Army row and a broad civilian occupation category at Army entry.", "next_action": "Review Box 181 for a named employer and intervening chronology.", "attempt_number": 4, "research_agent_version": "before-oss/batch-567-v1"
+    },
+    {
+      "key": "b567-keith-g-denton-synthesis", "person_id": "54fe4f71-a7ee-5406-9234-25a283cab43e", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Keith G Denton.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T15:14:00Z", "completed_at": "2026-09-16T15:16:00Z", "outcome": "source_reviewed", "sources_reviewed": 7, "candidate_sources_rejected": 0, "research_notes": "Terminal outcome: occupation_only_found. The three-role code is published as a broad category, not a selected job title or employer.", "next_action": "Review Box 181 for a named employer and intervening chronology.", "attempt_number": 5, "research_agent_version": "before-oss/batch-567-v1"
+    },
+    {
+      "key": "b567-otto-depasetti-evidence-review", "person_id": "84055c54-45f7-54c7-a326-db74aa5e88e2", "source_adapter": "manual_evidence_review", "query_text": "Review the OSS index, complete Army-file scan, CIA and Library of Congress checkpoints, staged web results and archival leads for Otto DePasetti.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T15:10:00Z", "completed_at": "2026-09-16T15:14:00Z", "outcome": "no_result", "sources_reviewed": 5, "candidate_sources_rejected": 0, "rejection_reasons": null, "research_notes": "No attributable employer or identity candidate survived the staged protocol; the LoC timeout was recorded.", "next_action": "Review Box 181 for identifiers, biography and pre-OSS employment chronology.", "attempt_number": 4, "research_agent_version": "before-oss/batch-567-v1"
+    },
+    {
+      "key": "b567-otto-depasetti-synthesis", "person_id": "84055c54-45f7-54c7-a326-db74aa5e88e2", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Otto DePasetti.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T15:14:00Z", "completed_at": "2026-09-16T15:16:00Z", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 0, "research_notes": "Terminal outcome: requires_archival_review. No unique identity or named pre-OSS employer was established.", "next_action": "Review Box 181 for identifiers, biography and pre-OSS employment chronology.", "attempt_number": 5, "research_agent_version": "before-oss/batch-567-v1"
+    },
+    {
+      "key": "b567-harry-depaur-evidence-review", "person_id": "f9e52678-9b71-51f2-b188-38d88462c743", "source_adapter": "manual_evidence_review", "query_text": "Review the OSS index, complete Army-file scan, CIA and Library of Congress checkpoints, staged web results and archival leads for Harry DePaur.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T15:10:00Z", "completed_at": "2026-09-16T15:14:00Z", "outcome": "candidate_rejected", "sources_reviewed": 6, "candidate_sources_rejected": 2, "rejection_reasons": "Leonard de Paur and Harry M. DePaur leads lacked a direct OSS, Box 181, identifier or employment bridge.", "research_notes": "Namesake and similar-surname biographies were not merged into the index record; the LoC timeout was recorded.", "next_action": "Review Box 181 for a full name, identifiers and pre-OSS chronology.", "attempt_number": 4, "research_agent_version": "before-oss/batch-567-v1"
+    },
+    {
+      "key": "b567-harry-depaur-synthesis", "person_id": "f9e52678-9b71-51f2-b188-38d88462c743", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Harry DePaur.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T15:14:00Z", "completed_at": "2026-09-16T15:16:00Z", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 0, "research_notes": "Terminal outcome: requires_archival_review. Similar-name candidates were preserved as rejected leads and no named employer was established.", "next_action": "Review Box 181 for a full name, identifiers and pre-OSS chronology.", "attempt_number": 5, "research_agent_version": "before-oss/batch-567-v1"
+    },
+    {
+      "key": "b567-claude-deperthius-evidence-review", "person_id": "b5a624a2-4177-5faa-b771-20380f275b58", "source_adapter": "manual_evidence_review", "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, Diane mission sources, staged web results and archival leads for Claude DePerthius.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T15:10:00Z", "completed_at": "2026-09-16T15:14:00Z", "outcome": "candidate_found", "sources_reviewed": 7, "candidate_sources_rejected": 0, "research_notes": "The official index and two independent mission accounts support the high-confidence Ernest Claude de Perthuis identity variant; no pre-OSS employer was found and the rank wording requires archival review.", "next_action": "Review Box 181, the NARA Mission Diane report and SHD GR 28 P 4 168/9.", "attempt_number": 4, "research_agent_version": "before-oss/batch-567-v1"
+    },
+    {
+      "key": "b567-claude-deperthius-synthesis", "person_id": "b5a624a2-4177-5faa-b771-20380f275b58", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Claude DePerthius.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T15:14:00Z", "completed_at": "2026-09-16T15:16:00Z", "outcome": "source_reviewed", "sources_reviewed": 7, "candidate_sources_rejected": 0, "research_notes": "Terminal outcome: requires_archival_review. The identity and Mission Diane association are published with variant and rank caveats; no pre-OSS employer is claimed.", "next_action": "Review Box 181, the NARA Mission Diane report and SHD GR 28 P 4 168/9.", "attempt_number": 5, "research_agent_version": "before-oss/batch-567-v1"
+    },
+    {
+      "key": "b567-pierre-r-depinay-evidence-review", "person_id": "c8645131-9d3a-53d7-9d84-41ebfcc13082", "source_adapter": "manual_evidence_review", "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, scholarly sources, staged web results and archival leads for Pierre R Depinay.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T15:10:00Z", "completed_at": "2026-09-16T15:14:00Z", "outcome": "candidate_found", "sources_reviewed": 6, "candidate_sources_rejected": 0, "research_notes": "The rare name, French officer context and direct OSS linkage support a high-confidence identity, while the missing middle initial and Lt/Sous-Lieutenant difference remain explicit.", "next_action": "Review Box 181 and the scholarly article's underlying archival citations.", "attempt_number": 4, "research_agent_version": "before-oss/batch-567-v1"
+    },
+    {
+      "key": "b567-pierre-r-depinay-synthesis", "person_id": "c8645131-9d3a-53d7-9d84-41ebfcc13082", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Pierre R Depinay.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T15:14:00Z", "completed_at": "2026-09-16T15:16:00Z", "outcome": "source_reviewed", "sources_reviewed": 6, "candidate_sources_rejected": 0, "research_notes": "Terminal outcome: requires_archival_review. The identity and OSS linkage are published with rank and middle-initial caveats; no pre-OSS employer is claimed.", "next_action": "Review Box 181 and the scholarly article's underlying archival citations.", "attempt_number": 5, "research_agent_version": "before-oss/batch-567-v1"
+    },
+    {
+      "key": "b567-gerard-depiolenc-evidence-review", "person_id": "bb8ca645-9194-5f81-8291-eebb5422d8ea", "source_adapter": "manual_evidence_review", "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, the NARA-published OSS history, staged web results and archival leads for Gerard Depiolenc.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T15:10:00Z", "completed_at": "2026-09-16T15:14:00Z", "outcome": "candidate_found", "sources_reviewed": 6, "candidate_sources_rejected": 0, "research_notes": "The distinctive spelling variant and NARA-published direct OSS assignment support high-confidence identity; no pre-OSS employer was found.", "next_action": "Review Box 181 for nationality, branch, identifiers and pre-OSS chronology.", "attempt_number": 4, "research_agent_version": "before-oss/batch-567-v1"
+    },
+    {
+      "key": "b567-gerard-depiolenc-synthesis", "person_id": "bb8ca645-9194-5f81-8291-eebb5422d8ea", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Gerard Depiolenc.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T15:14:00Z", "completed_at": "2026-09-16T15:16:00Z", "outcome": "source_reviewed", "sources_reviewed": 6, "candidate_sources_rejected": 0, "research_notes": "Terminal outcome: requires_archival_review. The name variant and OSS French-section role are published; no pre-OSS employer is claimed.", "next_action": "Review Box 181 for nationality, branch, identifiers and pre-OSS chronology.", "attempt_number": 5, "research_agent_version": "before-oss/batch-567-v1"
+    },
+    {
+      "key": "b567-clyde-deplanche-evidence-review", "person_id": "3c25b26f-0104-52cf-a60d-bd7e98811347", "source_adapter": "manual_evidence_review", "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, staged web results and archival leads for Clyde DePlanche.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T15:10:00Z", "completed_at": "2026-09-16T15:14:00Z", "outcome": "candidate_rejected", "sources_reviewed": 6, "candidate_sources_rejected": 1, "rejection_reasons": "A discovery-only Clyde J. Deplanche namesake lacked an OSS, Box 181, identifier or employer bridge.", "research_notes": "The namesake was withheld, the LoC timeout recorded and the truncated printed note preserved exactly.", "next_action": "Review Box 181 to interpret the truncated note and resolve identity.", "attempt_number": 4, "research_agent_version": "before-oss/batch-567-v1"
+    },
+    {
+      "key": "b567-clyde-deplanche-synthesis", "person_id": "3c25b26f-0104-52cf-a60d-bd7e98811347", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Clyde DePlanche.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T15:14:00Z", "completed_at": "2026-09-16T15:16:00Z", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 0, "research_notes": "Terminal outcome: requires_archival_review. No identity bridge or named employer was established; the truncated source wording remains visible.", "next_action": "Review Box 181 to interpret the truncated note and resolve identity.", "attempt_number": 5, "research_agent_version": "before-oss/batch-567-v1"
+    },
+    {
+      "key": "b567-alfred-j-depole-evidence-review", "person_id": "584ed69a-45a8-55d8-be95-c4001135be27", "source_adapter": "manual_evidence_review", "query_text": "Review the OSS index, complete Army-file scan, CIA and Library of Congress checkpoints, staged web results and archival leads for Alfred J DePole.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T15:10:00Z", "completed_at": "2026-09-16T15:14:00Z", "outcome": "candidate_found", "sources_reviewed": 7, "candidate_sources_rejected": 1, "rejection_reasons": "A discovery-only lifespan and residence lead was unnecessary for identity and supplied no employer evidence.", "research_notes": "Exact protected-identifier and name agreement confirmed the sole exact-name Army row and a broad civilian occupation category at Army entry.", "next_action": "Review Box 181 for a named employer and intervening chronology.", "attempt_number": 4, "research_agent_version": "before-oss/batch-567-v1"
+    },
+    {
+      "key": "b567-alfred-j-depole-synthesis", "person_id": "584ed69a-45a8-55d8-be95-c4001135be27", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Alfred J DePole.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T15:14:00Z", "completed_at": "2026-09-16T15:16:00Z", "outcome": "source_reviewed", "sources_reviewed": 7, "candidate_sources_rejected": 0, "research_notes": "Terminal outcome: occupation_only_found. The multi-role driver code is published as a broad category, not a selected job title or employer.", "next_action": "Review Box 181 for a named employer and intervening chronology.", "attempt_number": 5, "research_agent_version": "before-oss/batch-567-v1"
+    }
+  ]
+}

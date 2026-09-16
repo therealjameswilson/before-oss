@@ -2,9 +2,51 @@
 
 Verified against the current local SQLite database on 2026-09-16 UTC.
 
-Batch 566 is the current validated local release candidate; Batch 565 remains
-the exact-verified public release until this candidate passes remote CI and
-Pages verification. Batch 566 adds terminal outcomes for ten people represented
+Batch 567 is the current local release candidate. It adds terminal outcomes for
+personnel-index PDF page 114 rows 9-18, Jeffrey T Denton Jr. through Alfred J
+DePole, all in Box 181 at `230/86/29/07`. The complete page and relevant Army
+occupation-code pages were rendered and visually inspected. The index's
+truncated `first nam` note for Clyde DePlanche remains literal; three private
+values remain masked in every public artifact.
+
+Exact protected-identifier and agreeing-name matches confirm John D Denton
+Jr., Keith G Denton and Alfred J DePole. Official Army code tables support only
+qualified occupations recorded at Army entry: a broad ferrous/nonferrous-
+metals-production category, paymaster/payroll-clerk/timekeeper work, and
+chauffeur/driver work. None names an employer or establishes an immediate
+pre-OSS affiliation. Official, institutional and scholarly sources support
+Claude DePerthius as Ernest Claude de Perthuis, Pierre R Depinay as the French
+sous-lieutenant Pierre Depinay, and Gerard Depiolenc as Gerard de Piolenc, all
+at high identity confidence; no reliable pre-OSS employer was established for
+them. Jeffrey T Denton Jr., Otto DePasetti, Harry DePaur and Clyde DePlanche
+remain unresolved for archival review. Plausible Leonard de Paur, Harry M
+DePaur and name-only Clyde DePlanche leads were rejected rather than
+misattributed.
+
+The batch raises research-attempt coverage to 5,436 of 23,940 active people
+(22.7068%) and archival-disposition coverage to 5,391 (22.5188%). Verified
+affiliation coverage remains 585 (2.4436%) and verified-employer coverage
+remains 259 (1.0819%). The private database contains 2,152 affiliations, 675
+organizations, 4,812 citation records, 2,192 unique source documents, 4,566
+claims, 9,660 attempts and 10,665 claim-source links; public data contains
+2,138 affiliations, 661 organizations, 3,624 sources and 4,385 claims. See
+`reports/release_batch_567.md` and
+`research/batch-567-discovery-checkpoint.md`. Local validation is green: 95
+Python tests, 75 bounded release checks, all internal links across 24,609 HTML
+pages, the 200-profile structural audit and the public-identifier audit pass.
+The oil-company category remains tested across desktop, phone and tablet. The
+local public-manifest guard verifies 67 assets and 95,292,205 bytes at SHA-256
+`2db7d6ef42d08548c08a706d1619fcfbd8e297d2a3680c4352d8ba32e51f16bd`;
+the 70-file public tree is
+`08ffbabc8fbdf05167ed2ef147c57f6f4c56bf2e4bbb399279e11d96bf796b77`,
+and the 24,681-file production tree is
+`dac59fda433778b930e68207ae29dc0b52cd22fa9bed801c5cf9190b2e22d7d0`.
+A detached clean replay from release-candidate commit `9d38a54` reconstructed
+the database and reproduced all three hashes, passed all 95 Python tests, and
+repeated the zero-false-positive identifier audit across all 24,681 artifacts.
+Remote publication verification remains pending. The goal remains active.
+
+Batch 566 is the current exact-verified public release. It adds terminal outcomes for ten people represented
 by eleven source rows on personnel-index PDF page 113 rows 44-46 and page 114
 rows 1-8, Nancy Dennis through Robert P Dent, in Boxes 180-181. Robert P.
 Dent's two identical printed rows remain separate immutable source records
@@ -37,10 +79,16 @@ The oil-company category remains tested across desktop, phone and tablet. A
 detached replay from release-candidate commit `8d570fd` reconstructs the
 database and reproduces the exact public-manifest, public-tree and
 production-tree hashes, passes all 95 Python tests, and repeats the
-zero-false-positive identifier audit across 24,681 artifacts. Public deployment
-checks remain release gates. The goal remains active.
+zero-false-positive identifier audit across 24,681 artifacts. Pull request #264
+merged as main commit `4a34c8052c4412d41d27ccfedf31e7394658b3a9`;
+PR Test run 35110511772, main Test run 35111348888 and Pages run 35111348799
+succeeded. The unauthenticated live verifier matched all 67 manifest assets,
+95,199,316 bytes, seven core routes and ten direct profiles at manifest SHA-256
+`59a988bb6b18af93ebbfecc6670b1be9d3b73a9cb84aa0dd8fb2118291d270a6`.
+The live personnel directory retains the tested oil-company employee category.
+The goal remains active.
 
-Batch 565 is the current exact-verified public release. It adds ten terminal saved
+Batch 565 is an earlier exact-verified public release. It adds ten terminal saved
 outcomes for personnel-index PDF page 113 rows 34-43, William Denit through
 John M Dennis, all in Box 180. William Denit has a medium-confidence documented
 prewar Department of Agriculture role; Anthony J Denneau has confirmed OSS
