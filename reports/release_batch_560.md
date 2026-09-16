@@ -88,6 +88,14 @@ counts are 2,281 commissioned, 6,021 not commissioned and 15,638 unknown.
 - Evidence validation accepts seven sources, four affiliations, seventeen
   claims, thirty claim-source links, ten person updates and twenty attempts.
   Two consecutive reimports leave all stable-ID table counts unchanged.
+- The sanitized adapter checkpoint was regenerated after the batch and now
+  preserves 3,985 bounded CIA, Library of Congress, web and NARA adapter
+  attempts without query text, response payloads, credentials or private
+  research notes. A clean checkout rebuilt from the 522-page source PDF, the
+  versioned evidence bundles and this checkpoint reproduces all 9,310 private
+  research attempts and every public coverage count. The replay also corrected
+  one shared provenance note from six to seven protected identifiers on the
+  current source page.
 - Public-data construction reports 23,978 rows, 23,940 active people, 26
   profile shards and passing redaction checks.
 - Entity-resolution QA passes all three corpus-wide checks: every source row is
@@ -102,13 +110,13 @@ counts are 2,281 commissioned, 6,021 not commissioned and 15,638 unknown.
   24,604 HTML pages. All internal links resolve; 50,036 unique external URLs
   are inventoried for separate live checking.
 - Two consecutive production builds produce the identical 24,676-file,
-  288,805,895-byte tree at SHA-256
-  `45e9b88b59258afe91ca49ecb38fdc66848e8441acf1fd49d3d81a7b66bca2dc`.
-- The local public-manifest guard verifies all 67 listed assets and 94,696,156
+  288,805,930-byte tree at SHA-256
+  `429ff041ea86257e4e60254e4318ed4898796d4e2f3f65cbfd5e7a15dcbfd70a`.
+- The local public-manifest guard verifies all 67 listed assets and 94,696,184
   bytes at manifest SHA-256
-  `c7c93542fda309728e0eeba58e0683248ff19d739241291d5be76dd06f0bfdff`.
-- The 70-file public tree covers 97,043,287 bytes at deterministic SHA-256
-  `7c2ebc3cc748e68b59c6f7a0139606131aeccdcb356a24510ec68302c2c17e51`.
+  `4e87d68a6dc48bf56caf04e048ae4ea7b38fe46439fac7aa1a95ddf1f9a661ff`.
+- The 70-file public tree covers 97,043,322 bytes at deterministic SHA-256
+  `ab1d47ad3a09f0d1760759c87a9bf8f3217832f5b4e6c0bcacf95b5e97fa445c`.
 - The 200-profile stratified structural audit passes all seven checks. This is
   not an independent historical rereview.
 - Identifier audit: 12,926 normalized identifiers, 120 formatted variants and
