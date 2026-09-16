@@ -2,31 +2,40 @@
 
 Verified against the current local SQLite database on 2026-09-16 UTC.
 
-Batch 563 is the current local release candidate. It adds ten terminal saved
-outcomes for personnel-index PDF page 113 rows 14-23, John D Dempsey through
-Gusbert DenBesten, in Boxes 179-180. Exact protected-identifier agreement
-confirms Joseph Denaro in a direct May 1944 OSS report. That report identifies
-his civilian work supervising beauty-salon personnel, and the contemporary
-1942 Cincinnati directory lists him as a hairdresser at Mabley's. The exact
-name, city, specific occupation and close chronology support Mabley's as his
-high-confidence immediate affiliation and last civilian employer; the two
-claims remain separately modeled. John D Dempsey's Burma obituary lead and
-Jean Denamiel's official French resistance-file lead remain low-confidence
-identity candidates and are withheld. Livia M Denain remains separate from
-Livia M Demian in their visible duplicate group. Six further identities remain
-unresolved, including Gusbert DenBesten's explicitly qualified `possibly`
-entry. Exact coverage is 5,396 / 23,940 researched, 585 verified affiliations,
-259 verified employers, 5,351 archival dispositions assessed and 18,544
-`not_started`. The private database contains 2,139 affiliations, 672
-organizations, 4,784 citations, 4,493 claims, 9,460 attempts and 10,513
-claim-source links; public data contains 2,125 affiliations, 658 organizations,
-3,596 sources and 4,313 claims. See `reports/release_batch_563.md` and
-`research/batch-563-discovery-checkpoint.md`. Local validation is green;
-the detached archive replay reproduces both release trees and the asset manifest
-at their exact hashes. Publication verification remains pending. The goal
-remains active.
+Batch 564 is the current local release candidate. It adds ten terminal saved
+outcomes for personnel-index PDF page 113 rows 24-33, Bernard S DeNedde
+through Reid M Denis, in Boxes 180-181. Two exact Army matches support only
+qualified occupation findings: skilled leather-manufacturing work for Joseph P
+Dengel and general-office-clerk work for Anthony D DeNino. Neither names an
+employer. Official French inventories support Bernard Sabouret Garat de Nedde
+at high confidence but do not establish an immediate affiliation. The two
+Lawrence E DeNeufville source rows remain separate in a visible possible-
+duplicate group; an official Army history documents a same-name OSS officer's
+prewar foreign-correspondent work, but the biography is not assigned to either
+row. William D Denholm Jr. retains an explicit identity conflict, and John
+Denicola's exact Army match is dated after OSS dissolution and supplies no
+pre-OSS occupation. Exact coverage is 5,406 / 23,940 researched, 585 verified
+affiliations, 259 verified employers, 5,361 archival dispositions assessed and
+18,534 `not_started`. The private database contains 2,141 affiliations, 672
+organizations, 4,791 citations, 4,509 claims, 9,510 attempts and 10,549
+claim-source links; public data contains 2,127 affiliations, 658 organizations,
+3,603 sources and 4,328 claims. See `reports/release_batch_564.md` and
+`research/batch-564-discovery-checkpoint.md`. Local validation is green;
+a detached archive replay from release-candidate commit `e03784c` reproduces
+the exact public-manifest, public-tree and production-tree hashes. Publication
+verification is pending. The goal remains active.
 
-Batch 562 is the current exact-verified public release. It adds ten terminal
+Batch 563 is the current exact-verified public release. It adds ten terminal
+saved outcomes for personnel-index PDF page 113 rows 14-23, John D Dempsey
+through Gusbert DenBesten. Pull request #261 merged as main commit
+`1bf0d2c0130953298d52c74de6e4daae93f869ce`; PR Test run 35092507552,
+main Test run 35093083822 and Pages run 35093083871 succeeded. The live
+verifier matched all 67 manifest assets, 94,921,623 bytes, seven core routes
+and ten direct profiles at manifest SHA-256
+`3f3e3e988d2b005fcba9f2201cc68e0c8fe4b9180a477576e96d16dbba6de9c4`.
+The goal remains active.
+
+Batch 562 is an earlier exact-verified public release. It adds ten terminal
 saved outcomes for page 113 rows 4-13, Lawrence G Demgen through John J
 DeMoore. Pull request #260 merged as main commit
 `c826ba65721af951474a07d854090c590a88c921`; main Test run 35088492588

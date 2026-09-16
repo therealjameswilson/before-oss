@@ -123,6 +123,15 @@ counts are 2,283 commissioned, 6,033 not commissioned and 15,624 unknown.
 - No local `.env` or credential file is included in the release tree; tracked
   ignore rules cover `.env` while `.env.example` remains allowed.
 
+## Publication verification
+
+Pull request #261 merged as main commit
+`1bf0d2c0130953298d52c74de6e4daae93f869ce`. PR Test run 35092507552,
+main Test run 35093083822 and Pages run 35093083871 succeeded. The
+unauthenticated live verifier matched all 67 manifest assets, 94,921,623 bytes,
+seven core routes and ten direct Batch 563 profiles at manifest SHA-256
+`3f3e3e988d2b005fcba9f2201cc68e0c8fe4b9180a477576e96d16dbba6de9c4`.
+
 ## Resume commands
 
 ```bash
