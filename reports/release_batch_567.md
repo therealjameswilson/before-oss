@@ -119,7 +119,18 @@ the database from the frozen 522-page source PDF, versioned evidence, review
 decisions and sanitized adapter checkpoint. It reproduced the exact public-
 manifest, public-tree and production-tree hashes above, passed all 95 Python
 tests, and repeated the zero-false-positive identifier audit across all 24,681
-artifacts. Remote publication verification remains pending.
+artifacts.
+
+## Publication verification
+
+Pull request #265 merged as main commit
+`a62bad8139591a84c6a9d704817c1cea713c0942`. PR Test run 35116927482,
+main Test run 35117791870 and Pages run 35117791926 succeeded. The
+unauthenticated live verifier matched all 67 manifest assets, 95,292,205 bytes,
+seven core routes and all ten direct Batch 567 profiles at manifest SHA-256
+`2db7d6ef42d08548c08a706d1619fcfbd8e297d2a3680c4352d8ba32e51f16bd`.
+The deployed personnel directory retains the tested oil-company employee
+category and its employment-only filter.
 
 ## Resume commands
 
