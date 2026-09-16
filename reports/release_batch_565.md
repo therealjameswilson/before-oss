@@ -119,7 +119,10 @@ counts are 2,284 commissioned, 6,039 not commissioned and 15,617 unknown.
 - Identifier audit: 12,926 normalized identifiers, 120 formatted variants and
   1,100 candidate substrings produce zero unexpected boundary, aggregate or
   manifest-size matches across all 24,681 artifacts.
-- A detached clean replay from the release-candidate commit remains pending.
+- A detached clean replay from release-candidate commit `21bff79` completed
+  successfully. It reproduced the exact public-manifest, public-tree and
+  production-tree hashes above, passed all 95 Python tests, and repeated the
+  zero-false-positive public-identifier audit across all 24,681 artifacts.
 - No local `.env` or credential file is included in the release tree; tracked
   ignore rules cover `.env` while `.env.example` remains allowed.
 

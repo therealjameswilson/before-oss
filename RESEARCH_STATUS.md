@@ -24,9 +24,12 @@ claims, 9,560 attempts and 10,602 claim-source links; public data contains
 2,133 affiliations, 661 organizations, 3,612 sources and 4,352 claims. See
 `reports/release_batch_565.md` and `research/batch-565-discovery-checkpoint.md`.
 Local validation is green: 95 Python tests, 84 bounded release checks, all
-24,609 internal HTML routes, the 200-profile structural audit and public-
-identifier redaction audit pass. A detached clean replay and publication
-verification remain pending. The goal remains active.
+internal links across 24,609 HTML pages, the 200-profile structural audit and
+public-identifier redaction audit pass. A detached archive replay from
+release-candidate commit `21bff79` reproduces the exact public-manifest,
+public-tree and production-tree hashes, passes all 95 Python tests, and repeats
+the zero-false-positive identifier audit across 24,681 artifacts. Publication
+verification remains pending. The goal remains active.
 
 Batch 564 is the current exact-verified public release. It adds ten terminal saved
 outcomes for personnel-index PDF page 113 rows 24-33, Bernard S DeNedde
