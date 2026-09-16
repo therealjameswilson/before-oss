@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T05:07:06+00:00",
+  "generated_at": "2026-09-16T06:18:13+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -17,12 +17,12 @@
     "commissioned_coast_guard_officer": 1,
     "commissioned_marine_corps_officer": 4,
     "commissioned_naval_officer": 4,
-    "enlisted_army_personnel": 26,
+    "enlisted_army_personnel": 27,
     "enlisted_marine_corps_personnel": 4,
     "enlisted_naval_personnel": 4,
     "foreign_or_allied_military_personnel": 15,
     "temporary_contract_or_special_personnel": 4,
-    "unknown_or_indeterminate": 94,
+    "unknown_or_indeterminate": 93,
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
@@ -33,9 +33,9 @@
   },
   "identity_status_counts": {
     "ambiguous": 6,
-    "confirmed": 7,
+    "confirmed": 8,
     "conflicting": 9,
-    "high_confidence": 24,
+    "high_confidence": 23,
     "probable": 4,
     "unresolved": 150
   },
@@ -47,20 +47,20 @@
     "needs_identity_review": 7,
     "needs_temporal_review": 2,
     "no_reliable_result_after_protocol": 1,
-    "not_started": 126,
-    "occupation_only_found": 7,
+    "not_started": 125,
+    "occupation_only_found": 8,
     "requires_archival_review": 32,
     "verified_employer_found": 7
   },
   "special_strata_counts": {
     "commissioned": 31,
     "civilian": 20,
-    "enlisted": 34,
+    "enlisted": 35,
     "allied_or_foreign": 20,
     "incomplete_or_initial_only_name": 20,
     "possible_duplicate_group": 30,
-    "confirmed_or_high_published_claim": 31,
-    "medium_published_claim": 15,
+    "confirmed_or_high_published_claim": 32,
+    "medium_published_claim": 16,
     "conflicting_published_claim": 10,
     "unresolved_identity": 150
   },
@@ -212,6 +212,7 @@
     "017814e5-1414-5ebe-9bc9-7f13a45a30dd",
     "48e61523-be66-5f16-92ed-15ee9c6c7cd9",
     "032795ea-6f85-54e5-80a3-ced37cf4e990",
+    "d0042f95-e917-5a02-9973-6ed3330f0f68",
     "faa590d7-cc71-5602-a8f8-516ea5b54623",
     "7b58b991-86e7-5ab0-9781-c77140261080",
     "668221c0-1ef1-54c9-b4f0-d39a94fd5b68",
@@ -231,7 +232,6 @@
     "e9a37a58-d576-543c-90c0-77421678dadb",
     "dc88a935-db79-5e2b-b38a-79936682efb7",
     "cbe19c19-6a10-511f-aa88-e16088a2eb26",
-    "ac54bd11-b754-5de2-a8a8-7cb19016db49",
     "5973e9b9-4412-53fc-93d6-c9925bed1a90",
     "e9894de3-592a-5ab3-b5f3-56ea67909531",
     "cc806144-a526-5ecf-9b71-bab279bfcdf4",
