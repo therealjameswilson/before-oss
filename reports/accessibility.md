@@ -4,6 +4,18 @@ Run: 2026-09-16 UTC
 
 ## Result
 
+Batch 571: the focused cohort suite passed all 24 checks across desktop, phone
+and tablet. It verifies ten immutable page 115 rows; five masked private
+values; qualified public identities for Vincent DeSanto, Bunmag Desaputra,
+James B Desch, Phillip Deshaw, Jacques B DeSibour and Daniel B Desich; one
+student affiliation without employer inflation; and the deliberate exclusion
+of a low-confidence same-name occupation lead. The bounded core suite passed
+24/24, including the evidence-filtered seven-person oil-company category, and
+the analysis suite passed 6/6. The accessibility suite passed 27/27 in 1.9
+minutes with no serious violations. Astro checked 196 source files with zero
+errors, warnings or hints and generated 24,616 HTML pages / 24,688 artifacts.
+Clean replay and remote publication verification remain pending.
+
 Batch 560: the focused cohort suite passed all 24 checks across desktop, phone
 and tablet. It verifies ten immutable page 112 rows; seven masked private
 values; René Demarcq's high-confidence identity and explicit immediate student

@@ -2,6 +2,25 @@
 
 Run: 2026-09-16 UTC
 
+## Batch 571 release candidate
+
+All internal targets resolve across 24,616 HTML pages; 50,074 unique external
+URLs are inventoried, not all visited. Identifier checks cover all 24,688
+built artifacts, 12,926 normalized identifiers, 120 formatted variants and
+1,106 candidate substring coincidences, with zero unexpected boundary,
+aggregate or manifest-size matches. The public manifest has 67 assets /
+95,624,349 bytes at SHA-256
+`81f709fd1ea36049190c83281cbfaa541cd2a4991977cb7dd041e1f6fd94d839`.
+Under the relative-path/content digest, the 70-file public tree is
+`58ea2a542328e3808d7d2167c4b94cc54a0fc300c9f8406808f7d44f03b7e135`;
+the 24,688-file production tree is
+`296d6f550f40a29bc5b6492ed48c95a80a28be27b0c48ec3f4d419aa1430480a`.
+Nine bundle sources support the Batch 571 qualified identity, occupation,
+student, employer and military-assignment findings. No authenticated Catalog
+request was used. Batch 570 remains the exact-verified public release until
+Batch 571 passes clean replay, CI, deployment and independent live
+verification.
+
 ## Batch 560 release candidate
 
 All internal targets resolve across 24,604 HTML pages; 50,036 external URLs
