@@ -22,8 +22,9 @@ database contains 2,138 affiliations, 671 organizations, 4,778 citations,
 4,479 claims, 9,410 attempts and 10,492 claim-source links; public data contains
 2,124 affiliations, 657 organizations, 3,591 sources and 4,301 claims. See
 `reports/release_batch_562.md` and
-`research/batch-562-discovery-checkpoint.md`. Release verification is in
-progress. The goal remains active.
+`research/batch-562-discovery-checkpoint.md`. All local validation and the
+detached clean-room replay pass; publication verification is in progress. The
+goal remains active.
 
 Batch 561 is the current exact-verified public release. It adds ten terminal
 saved outcomes for personnel-index PDF page 112 rows 40-46 and page 113 rows

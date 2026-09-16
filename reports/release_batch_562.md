@@ -114,6 +114,13 @@ counts are 2,283 commissioned, 6,025 not commissioned and 15,632 unknown.
   `ad1a414b772051d27cb324478cc87b074b8d1da03d29b33da5d85003075b4cee`.
 - The production tree contains 24,677 files and 289,055,205 bytes at SHA-256
   `d1943583881d438e75687b3e31ccf30a195ccabfd2813b2160a49a2083894f44`.
+- A detached archive replay from commit `53f19a9` copied only the frozen source
+  PDF (SHA-256
+  `7268492342ab131d3b6d2697cfa4f6856cbdcd16e0ed3877e8d6a0478f58c02b`),
+  rebuilt the exact database totals, installed 276 locked npm packages, passed
+  Astro checks across 187 source files, and regenerated all 24,605 pages. Its
+  public and production tree hashes and 67-asset manifest hash match the
+  release candidate exactly.
 - The 200-profile stratified structural audit passes all seven checks. This is
   not an independent historical rereview.
 - Identifier audit: 12,926 normalized identifiers, 120 formatted variants and
