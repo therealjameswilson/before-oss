@@ -49,9 +49,12 @@ The 70-file public tree is
 `58ea2a542328e3808d7d2167c4b94cc54a0fc300c9f8406808f7d44f03b7e135`;
 the 24,688-file production tree is
 `296d6f550f40a29bc5b6492ed48c95a80a28be27b0c48ec3f4d419aa1430480a`.
-Clean replay and remote publication verification remain pending. Batch 570 is
-the current exact-verified public release, including the live oil-company
-category. The goal remains active.
+A detached clean replay from release-candidate commit `b4cd353` reconstructed
+the complete database and reproduced all three release hashes, passed all 95
+Python tests, and repeated the zero-false-positive identifier audit. Remote
+publication verification remains pending. Batch 570 is the current exact-
+verified public release, including the live oil-company category. The goal
+remains active.
 
 Batch 569 is the current local release candidate. It adds terminal outcomes for
 personnel-index PDF page 114 rows 29-38, Bernard F Deren through King Derr,

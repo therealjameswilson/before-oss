@@ -17,9 +17,10 @@ the 24,688-file production tree is
 `296d6f550f40a29bc5b6492ed48c95a80a28be27b0c48ec3f4d419aa1430480a`.
 Nine bundle sources support the Batch 571 qualified identity, occupation,
 student, employer and military-assignment findings. No authenticated Catalog
-request was used. Batch 570 remains the exact-verified public release until
-Batch 571 passes clean replay, CI, deployment and independent live
-verification.
+request was used. A detached clean replay from commit `b4cd353` reproduces
+both tree hashes and the manifest hash exactly. Batch 570 remains the exact-
+verified public release until Batch 571 passes CI, deployment and independent
+live verification.
 
 ## Batch 560 release candidate
 

@@ -114,7 +114,13 @@ counts are 2,289 commissioned, 6,048 not commissioned and 15,603 unknown.
   `58ea2a542328e3808d7d2167c4b94cc54a0fc300c9f8406808f7d44f03b7e135`;
   the 24,688-file production tree contains 290,269,067 bytes at SHA-256
   `296d6f550f40a29bc5b6492ed48c95a80a28be27b0c48ec3f4d419aa1430480a`.
-- Detached clean replay and remote publication verification remain pending.
+- A detached clean replay from release-candidate commit `b4cd353`
+  reconstructed the database from the frozen 522-page source PDF, versioned
+  evidence, review decisions and sanitized adapter checkpoint. It reproduced
+  all three release hashes above, passed all 95 Python tests, and repeated the
+  zero-false-positive identifier audit across all 24,688 artifacts. The only
+  tracked replay differences were expected report-generation timestamps.
+  Remote publication verification remains pending.
 
 ## Resume commands
 
