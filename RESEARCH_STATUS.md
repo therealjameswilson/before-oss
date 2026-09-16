@@ -2,6 +2,60 @@
 
 Verified against the current local SQLite database on 2026-09-16 UTC.
 
+Batch 571 is the current local release candidate. It adds terminal outcomes
+for personnel-index PDF page 115 rows 3-12, Vincent DeSanto through Daniel B
+Desich, all in Box 182 at `230/86/29/07`. The complete page, relevant official
+Army occupation-code pages and the Jacques de Sibour evidence pages were
+rendered and visually inspected. Five private values remain masked in every
+public artifact.
+
+Protected-identifier Army matches confirm Vincent DeSanto and James B Desch.
+The official records establish only a foreman occupation for DeSanto and
+student status at Chaminade High School immediately before Desch entered the
+Army; neither supplies an employer. Scholarly and institutional sources
+support Bunmag Desaputra as Bunmak Thesabut, Phillip Deshaw as Phillip E.
+Deshaw and Daniel B Desich as the Second Lieutenant interviewed at Bari. A
+name-only automobile-manufacturing lead for Desich remains private at low
+confidence. Marcel Descour remains a probable identity and Blaise DeSibour an
+ambiguous one. John M DeSaussure and Bernard D'Escayrac remain unresolved.
+
+Jacques B DeSibour is a high-confidence match to Jacques de Sibour. A
+specialist archival article supports International Aviation Associates,
+later Intava, as his last documented civilian employer before wartime service
+and the Army's Services of Supply as his last documented assignment before
+OSS recruitment. Both claims are visibly qualified at medium confidence. The
+source leaves a July-to-December 1943 gap, so the military assignment is
+`probable_immediate`, not explicit. Intava is an aviation and fuel-logistics
+firm, not an oil company; the site's evidence-filtered oil-company category
+therefore remains at seven people.
+
+The batch raises research-attempt coverage to 5,476 of 23,940 active people
+(22.8739%), verified-affiliation coverage to 590 (2.4645%) and archival-
+disposition coverage to 5,431 (22.6859%). Verified-employer coverage remains
+260 (1.0860%). The private database contains 2,165 affiliations, 682
+organizations, 4,841 citation records, 2,210 unique source documents, 4,635
+claims, 9,861 attempts and 10,778 claim-source links; public data contains
+2,150 affiliations, 668 organizations, 3,651 sources and 4,452 claims. See
+`reports/release_batch_571.md` and
+`research/batch-571-discovery-checkpoint.md`. All 95 Python tests pass. The
+bounded release suite passes 81/81 checks across desktop, phone and tablet,
+including 24 focused Batch 571 checks and 27 accessibility checks. The
+production build creates 24,616 direct HTML pages; all internal links resolve,
+the dependency audit reports zero vulnerabilities, and the public-identifier
+audit finds zero false positives across 24,688 artifacts. The local manifest
+guard verifies 67 assets and 95,624,349 bytes at SHA-256
+`81f709fd1ea36049190c83281cbfaa541cd2a4991977cb7dd041e1f6fd94d839`.
+The 70-file public tree is
+`58ea2a542328e3808d7d2167c4b94cc54a0fc300c9f8406808f7d44f03b7e135`;
+the 24,688-file production tree is
+`296d6f550f40a29bc5b6492ed48c95a80a28be27b0c48ec3f4d419aa1430480a`.
+A detached clean replay from release-candidate commit `b4cd353` reconstructed
+the complete database and reproduced all three release hashes, passed all 95
+Python tests, and repeated the zero-false-positive identifier audit. Remote
+publication verification remains pending. Batch 570 is the current exact-
+verified public release, including the live oil-company category. The goal
+remains active.
+
 Batch 569 is the current local release candidate. It adds terminal outcomes for
 personnel-index PDF page 114 rows 29-38, Bernard F Deren through King Derr,
 all in Box 181 at `230/86/29/07`. The complete page was rendered and visually
