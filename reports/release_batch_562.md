@@ -2,6 +2,16 @@
 
 Run: 2026-09-16 UTC
 
+## Publication verification
+
+Pull request #260 merged as main commit
+`c826ba65721af951474a07d854090c590a88c921`. Main Test run 35088492588
+and Pages run 35088492504 completed successfully. The deployed-release verifier
+matched all 67 manifest assets and 94,857,400 bytes, seven core routes and
+eleven direct profiles at manifest SHA-256
+`de23b5e113e0a93a52d9b6fb8f3eb37a560906d97dede852a6be3836a70b0929`.
+Batch 562 is therefore the exact-verified public release preceding Batch 563.
+
 ## Scope and outcomes
 
 Batch 562 researches personnel-index PDF page 113 rows 4-13, Lawrence G Demgen

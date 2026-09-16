@@ -1,0 +1,1015 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Codex archival research batch 563",
+  "sources": [
+    {
+      "key": "index-b563",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 179-180",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 113 rows 14-23 visually inspected; Boxes 179-180; location 230/86/29/07",
+      "access_date": "2026-09-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Printed private values remain private and are excluded from public claims and exports. The source note 'possibly' for Gusbert DenBesten is preserved verbatim."
+    },
+    {
+      "key": "army-b563",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official ASNEF.FIN.DAT; complete transient scan of 9,200,232 fixed-width records; five eligible private-identifier comparisons and exact-name checks; identifiers withheld",
+      "access_date": "2026-09-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full private identifier is retained. A superficially padded seven-digit value produced only incompatible rows and was rejected; the immutable index value was not altered. A non-hit is not negative proof because the file is incomplete and is not a comprehensive OSS or military roster."
+    },
+    {
+      "key": "hoover-denaro-b563",
+      "stable_url": "https://digitalcollections.hoover.org/internal/media/dispatcher/331573/full",
+      "archival_identifier": "Hoover Digital Collections media 331573",
+      "title": "Office of Strategic Services board proceedings at Caserta",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "Hoover Institution Library & Archives",
+      "publication_record_date": "1944-05-04",
+      "locator": "PDF physical page 17 / document page 18; entry LXII for Pvt. Joseph Denaro",
+      "access_date": "2026-09-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "Hoover Institution Digital Collections",
+      "document_number": "Media 331573",
+      "rights_notes": "Direct wartime report. The private identifier establishes identity but is omitted publicly. The passage dates OSS entry and Army induction, describes civilian beauty-salon personnel work, and names Cincinnati as the recruiting city."
+    },
+    {
+      "key": "cincinnati-directory-denaro-b563",
+      "stable_url": "https://cdm16998.contentdm.oclc.org/digital/collection/p16998coll5/id/244012",
+      "archival_identifier": "Cincinnati & Hamilton County Public Library Digital Library item 244012",
+      "title": "Williams' Cincinnati Directory, 1942, Part 1",
+      "author_creator": "Williams Directory Company",
+      "repository_publisher": "Cincinnati & Hamilton County Public Library",
+      "publication_record_date": "1942",
+      "locator": "Printed page 284; PDF physical page 288; Denaro entry visually inspected",
+      "access_date": "2026-09-16",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Cincinnati City Directories",
+      "rights_notes": "The directory lists Joseph Denaro as a hairdresser at Mabley's. Private residential and family details used only for identity assessment are excluded from public evidence."
+    },
+    {
+      "key": "shd-denamiel-b563",
+      "stable_url": "https://www.servicehistorique.sga.defense.gouv.fr/sites/default/files/ir_pdf/ir-42088.pdf",
+      "archival_identifier": "Service historique de la défense GR 16 P 174420",
+      "title": "Dossiers individuels du bureau Résistance, GR 16 P",
+      "author_creator": "Service historique de la défense",
+      "repository_publisher": "Service historique de la défense, France",
+      "publication_record_date": null,
+      "locator": "PDF physical page 334; GR 16 P 174420, DENAMIEL, Jean Pierre",
+      "access_date": "2026-09-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "Dossiers individuels du bureau Résistance, GR 16 P",
+      "document_number": "GR 16 P 174420",
+      "rights_notes": "Official archival-inventory candidate. It identifies a French resistance file but does not establish that Jean Pierre Denamiel is the Box 179 person or document a pre-OSS employer."
+    },
+    {
+      "key": "mesaieux-john-dempsey-b563",
+      "stable_url": "https://www.mesaieux.com/genealogy/john_dempsey",
+      "archival_identifier": null,
+      "title": "John Dempsey genealogy and obituary aggregation",
+      "author_creator": null,
+      "repository_publisher": "MesAieux.com",
+      "publication_record_date": null,
+      "locator": "John D. Dempsey obituary aggregation; OSS service in Burma",
+      "access_date": "2026-09-16",
+      "source_quality": "E_discovery_only",
+      "collection_name": "Genealogy and obituary aggregation",
+      "rights_notes": "Discovery lead only. The original obituary was unavailable, and this page supplies no protected identifier or direct Box 179 linkage. It is not used as a public fact."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "mableys-cincinnati-b563",
+      "canonical_name": "Mabley's",
+      "historical_name": "Mabley's",
+      "aliases": [
+        "Mabley's beauty salon"
+      ],
+      "organization_type": "Department-store beauty salon",
+      "sector": "business_and_industry",
+      "city": "Cincinnati",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "active_dates": "Documented in the 1942 Cincinnati directory",
+      "normalization_notes": "The directory wording is preserved. No modern successor, corporate form, or relationship to similarly named retailers is inferred."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "joseph-denaro-mableys-b563",
+      "person_id": "4bad86f5-ac40-53f4-96fc-55fd71718d3e",
+      "organization_key": "mableys-cincinnati-b563",
+      "organization_name_as_found": "Mabley's",
+      "role_title": "Hairdresser and beauty-salon personnel supervisor",
+      "occupation": "Hairdresser; beauty-salon personnel supervisor",
+      "relationship_type": "employment",
+      "start_date": null,
+      "end_date": null,
+      "date_precision": "The directory documents employment in 1942; the direct OSS report describes the same civilian-life field before OSS entry on 9 June 1943, but supplies no exact employment dates.",
+      "city": "Cincinnati",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The direct OSS report and contemporary directory independently converge on the same uncommon name, city, and beauty-salon work. The employer is high-confidence rather than confirmed because the direct report does not itself name Mabley's."
+    }
+  ],
+  "claims": [
+    {
+      "key": "john-d-dempsey-candidate-b563",
+      "person_id": "c578149c-a3ce-535c-9e00-cb5ee49f4fef",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "A John D. Dempsey reported as an OSS veteran of Burma is a plausible but unresolved candidate for the indexed person.",
+      "evidence_excerpt": "served in Burma with the Office of Strategic Services",
+      "evidence_paraphrase": "A discovery-only obituary aggregation matches the full indexed name and OSS context but supplies no protected identifier, Box 179 linkage, or accessible original obituary.",
+      "identity_match_assessment": "Ambiguous common-name lead with fewer than two corroborating identifiers beyond the name.",
+      "temporal_assessment": "The candidate's wartime service is plausible, but no pre-OSS chronology or employer is documented.",
+      "source_quality": "E_discovery_only",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "The lead remains private until a stronger source or Box 179 supplies a direct bridge.",
+      "sources": [
+        {
+          "source_key": "mesaieux-john-dempsey-b563",
+          "support_type": "supports",
+          "locator_override": "Obituary aggregation; original publisher unavailable",
+          "excerpt_override": "served in Burma with the Office of Strategic Services"
+        }
+      ]
+    },
+    {
+      "key": "john-d-dempsey-unresolved-b563",
+      "person_id": "c578149c-a3ce-535c-9e00-cb5ee49f4fef",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for John D Dempsey in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official, Army, CIA, Library of Congress, exact-name, employment, obituary and archival checks produced only a discovery-level OSS namesake without the required identity bridge.",
+      "identity_match_assessment": "Unresolved beyond the verified index row; compare Box 179 with the withheld Burma candidate.",
+      "temporal_assessment": "No reliable pre-OSS occupation, employer, military unit or chronology was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Unresolved beyond the verified index row; compare Box 179 with the withheld Burma candidate.",
+      "sources": [
+        {
+          "source_key": "index-b563",
+          "support_type": "supports",
+          "locator_override": "PDF page 113 row 14; protected value withheld; Box 179"
+        }
+      ]
+    },
+    {
+      "key": "john-f-dempsey-unresolved-b563",
+      "person_id": "c2db85ef-4192-5521-9701-26f5e66c8d94",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for Capt. John F Dempsey in the accessible sources reviewed.",
+      "evidence_paraphrase": "The printed seven-digit value was preserved exactly. A padded Army search produced incompatible records, and staged official and employment checks did not resolve the officer.",
+      "identity_match_assessment": "Do not silently pad the index value; review Box 179 for the complete officer-number form.",
+      "temporal_assessment": "No reliable pre-OSS occupation, employer, unit or transfer chronology was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Do not silently pad the index value; review Box 179 for the complete officer-number form.",
+      "sources": [
+        {
+          "source_key": "index-b563",
+          "support_type": "supports",
+          "locator_override": "PDF page 113 row 15; Capt; protected value withheld; Box 179"
+        },
+        {
+          "source_key": "army-b563",
+          "support_type": "context_only",
+          "locator_override": "Complete transient scan; incompatible padded candidates rejected"
+        }
+      ]
+    },
+    {
+      "key": "mary-demsford-unresolved-b563",
+      "person_id": "a4250eaf-d4ca-556b-8abb-bd27113e8d47",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for Mary E Demsford in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official, CIA, Library of Congress, exact-name, employment, directory, obituary and archival checks produced no defensible identity or affiliation.",
+      "identity_match_assessment": "The index has no rank or identifier; review Box 179.",
+      "temporal_assessment": "No reliable pre-OSS chronology was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The index has no rank or identifier; review Box 179.",
+      "sources": [
+        {
+          "source_key": "index-b563",
+          "support_type": "supports",
+          "locator_override": "PDF page 113 row 16; Box 179"
+        }
+      ]
+    },
+    {
+      "key": "robert-demuth-unresolved-b563",
+      "person_id": "af20fa45-9ad6-539c-825d-7f2dc7b155c5",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for Robert E Demuth in the accessible sources reviewed.",
+      "evidence_paraphrase": "The private index value did not produce a literal Army match, and staged official and employment checks did not resolve the person.",
+      "identity_match_assessment": "Unresolved common-name case; review Box 179.",
+      "temporal_assessment": "No reliable pre-OSS occupation, employer, assignment or chronology was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Unresolved common-name case; review Box 179.",
+      "sources": [
+        {
+          "source_key": "index-b563",
+          "support_type": "supports",
+          "locator_override": "PDF page 113 row 17; protected value withheld; Box 179"
+        },
+        {
+          "source_key": "army-b563",
+          "support_type": "context_only",
+          "locator_override": "Complete transient scan; no literal private-identifier match"
+        }
+      ]
+    },
+    {
+      "key": "livia-denain-unresolved-b563",
+      "person_id": "5e9bdd16-b771-5b64-9164-aa332ad8f1ff",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for Livia M Denain in the accessible sources reviewed.",
+      "evidence_paraphrase": "The index row has no rank or identifier, staged searches found no external match, and the same-box Livia M Demian spelling-variant question remains unresolved.",
+      "identity_match_assessment": "Both entities remain separate; compare the two Box 179 files.",
+      "temporal_assessment": "No reliable pre-OSS occupation, employer or chronology was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Both entities remain separate; compare the two Box 179 files.",
+      "sources": [
+        {
+          "source_key": "index-b563",
+          "support_type": "supports",
+          "locator_override": "PDF page 113 row 18; compare row 5; Box 179"
+        }
+      ]
+    },
+    {
+      "key": "jean-denamiel-candidate-b563",
+      "person_id": "4c1b9919-6e72-5d59-9496-c9c4d4b3402b",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "Jean Pierre Denamiel, whose French resistance file is indexed as GR 16 P 174420, is a plausible but unconfirmed candidate for the French sub-lieutenant.",
+      "evidence_excerpt": "DENAMIEL, Jean Pierre",
+      "evidence_paraphrase": "The official French inventory supplies an uncommon matching name and an approved resistance file, but not an OSS link, rank match, or Box 179 identifier.",
+      "identity_match_assessment": "Probable archival lead, insufficient for identity resolution.",
+      "temporal_assessment": "The inventory establishes a resistance-file candidate, not a pre-OSS employer or transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "The candidate is excluded from public facts and analytics pending direct linkage.",
+      "sources": [
+        {
+          "source_key": "shd-denamiel-b563",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 334; GR 16 P 174420",
+          "excerpt_override": "DENAMIEL, Jean Pierre"
+        }
+      ]
+    },
+    {
+      "key": "jean-denamiel-unresolved-b563",
+      "person_id": "4c1b9919-6e72-5d59-9496-c9c4d4b3402b",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for French S/Lt Jean Denamiel in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official French archival research produced a plausible resistance-file candidate but no direct identity bridge or pre-OSS employment evidence.",
+      "identity_match_assessment": "Compare Box 179 with SHD GR 16 P 174420 before accepting the candidate.",
+      "temporal_assessment": "No reliable pre-OSS occupation, employer, unit or transfer chronology was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Compare Box 179 with SHD GR 16 P 174420 before accepting the candidate.",
+      "sources": [
+        {
+          "source_key": "index-b563",
+          "support_type": "supports",
+          "locator_override": "PDF page 113 row 19; S/Lt; French; Box 179"
+        },
+        {
+          "source_key": "shd-denamiel-b563",
+          "support_type": "context_only",
+          "locator_override": "PDF physical page 334; GR 16 P 174420"
+        }
+      ]
+    },
+    {
+      "key": "lorene-denard-unresolved-b563",
+      "person_id": "0474843e-f742-5073-bd85-cdc8ba7fe6b9",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for Lorene Denard in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official, CIA, Library of Congress, exact-name, employment, directory, obituary and archival checks produced no defensible identity or affiliation.",
+      "identity_match_assessment": "Modern people-finder results were rejected; review Box 179.",
+      "temporal_assessment": "No reliable pre-OSS chronology was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Modern people-finder results were rejected; review Box 179.",
+      "sources": [
+        {
+          "source_key": "index-b563",
+          "support_type": "supports",
+          "locator_override": "PDF page 113 row 20; Box 179"
+        }
+      ]
+    },
+    {
+      "key": "joseph-denaro-identity-b563",
+      "person_id": "4bad86f5-ac40-53f4-96fc-55fd71718d3e",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph Denaro is confirmed as the private in the Italian Section, SI, described in a May 1944 OSS board report.",
+      "evidence_excerpt": "Pvt. Joseph Denaro",
+      "evidence_paraphrase": "The direct OSS report matches the exact name and protected identifier in the index and supplies the Italian Section assignment and chronology.",
+      "identity_match_assessment": "Confirmed by exact name plus unique protected-identifier agreement, retained privately.",
+      "temporal_assessment": "The report dates OSS entry to 9 June 1943 and Army induction through OSS to 5 July 1943.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier is excluded from public evidence and downloads.",
+      "sources": [
+        {
+          "source_key": "index-b563",
+          "support_type": "supports",
+          "locator_override": "PDF page 113 row 21; protected value withheld; Box 179",
+          "excerpt_override": "DENARO JOSEPH"
+        },
+        {
+          "source_key": "hoover-denaro-b563",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 17 / document page 18; entry LXII",
+          "excerpt_override": "Pvt. Joseph Denaro"
+        }
+      ]
+    },
+    {
+      "key": "joseph-denaro-immediate-b563",
+      "person_id": "4bad86f5-ac40-53f4-96fc-55fd71718d3e",
+      "affiliation_key": "joseph-denaro-mableys-b563",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "The best-supported immediate pre-OSS affiliation for Joseph Denaro is beauty-salon work at Mabley's in Cincinnati.",
+      "evidence_excerpt": "Was in charge of personnel for beauty salon in civilian life.",
+      "evidence_paraphrase": "The 1944 OSS report describes beauty-salon personnel work before his June 1943 entry, while the 1942 directory lists Joseph Denaro as a hairdresser at Mabley's.",
+      "identity_match_assessment": "Confirmed OSS identity; high-confidence employer match from the same uncommon name, city, and highly specific civilian occupation.",
+      "temporal_assessment": "Strongly date-bounded by contemporary 1942 employment and direct civilian-life evidence before June 1943 OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The OSS report does not name Mabley's, so the employer claim is high rather than confirmed.",
+      "sources": [
+        {
+          "source_key": "hoover-denaro-b563",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 17 / document page 18; entry LXII",
+          "excerpt_override": "Was in charge of personnel for beauty salon in civilian life."
+        },
+        {
+          "source_key": "cincinnati-directory-denaro-b563",
+          "support_type": "supports",
+          "locator_override": "Printed page 284; PDF physical page 288; Denaro entry",
+          "excerpt_override": "Jos (Alice) hairdrsr Mabley's"
+        }
+      ]
+    },
+    {
+      "key": "joseph-denaro-last-civilian-b563",
+      "person_id": "4bad86f5-ac40-53f4-96fc-55fd71718d3e",
+      "affiliation_key": "joseph-denaro-mableys-b563",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Mabley's is the best-supported last civilian employer before Joseph Denaro entered OSS and was then inducted into the Army through OSS.",
+      "evidence_excerpt": "Entered OSS 9 June 1943",
+      "evidence_paraphrase": "A 1942 directory names Mabley's and the direct report sequences civilian beauty-salon work before OSS entry on 9 June 1943 and Army induction on 5 July.",
+      "identity_match_assessment": "Confirmed OSS identity; high-confidence employer match based on name, Cincinnati, occupation, and close chronology.",
+      "temporal_assessment": "Strongly date-bounded, though neither source states an exact employment end date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This remains a separate claim from immediate affiliation even though the current evidence supports the same organization for both.",
+      "sources": [
+        {
+          "source_key": "hoover-denaro-b563",
+          "support_type": "supports",
+          "locator_override": "PDF physical page 17 / document page 18; entry LXII",
+          "excerpt_override": "Entered OSS 9 June 1943"
+        },
+        {
+          "source_key": "cincinnati-directory-denaro-b563",
+          "support_type": "supports",
+          "locator_override": "Printed page 284; PDF physical page 288; Denaro entry",
+          "excerpt_override": "Jos (Alice) hairdrsr Mabley's"
+        }
+      ]
+    },
+    {
+      "key": "dennis-denaxas-unresolved-b563",
+      "person_id": "05017bd7-cb68-5c46-ae9e-9234230c65c5",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for Dennis Denaxas in the accessible sources reviewed.",
+      "evidence_paraphrase": "The private index value did not produce a literal Army match, and staged official and employment checks produced no direct identity bridge.",
+      "identity_match_assessment": "Family and genealogy leads were rejected; review Box 180.",
+      "temporal_assessment": "No reliable pre-OSS occupation, employer, assignment or chronology was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Family and genealogy leads were rejected; review Box 180.",
+      "sources": [
+        {
+          "source_key": "index-b563",
+          "support_type": "supports",
+          "locator_override": "PDF page 113 row 22; protected value withheld; Box 180"
+        },
+        {
+          "source_key": "army-b563",
+          "support_type": "context_only",
+          "locator_override": "Complete transient scan; no literal private-identifier or exact-name match"
+        }
+      ]
+    },
+    {
+      "key": "gusbert-denbesten-unresolved-b563",
+      "person_id": "71814f14-0513-5e21-a2d1-2b018bc75d5e",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for Gusbert DenBesten in the accessible sources reviewed.",
+      "evidence_paraphrase": "The index itself qualifies the entry as 'possibly'; staged official, exact-name, employment, obituary and archival checks produced no external identity evidence.",
+      "identity_match_assessment": "The printed uncertainty makes Box 180 review critical.",
+      "temporal_assessment": "No reliable pre-OSS occupation, employer, assignment or chronology was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The printed uncertainty makes Box 180 review critical.",
+      "sources": [
+        {
+          "source_key": "index-b563",
+          "support_type": "supports",
+          "locator_override": "PDF page 113 row 23; note 'possibly'; Box 180",
+          "excerpt_override": "possibly"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "c578149c-a3ce-535c-9e00-cb5ee49f4fef",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The index is verified. A discovery-only John D. Dempsey obituary aggregation mentions OSS service in Burma, but the common name, inaccessible original, and absent identifier bridge prevent resolution.",
+      "name_variants": [
+        "John D Dempsey",
+        "John D. Dempsey",
+        "Dempsey, John D"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare Box 179 with the withheld Burma candidate before transferring any evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "c2db85ef-4192-5521-9701-26f5e66c8d94",
+      "identity_status": "unresolved",
+      "identity_evidence": "The verified index row gives captain rank and an immutable seven-digit protected value. Literal and padded Army checks plus staged research did not identify the officer.",
+      "name_variants": [
+        "John F Dempsey",
+        "John F. Dempsey",
+        "Dempsey, John F"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 179 for the complete officer number, branch, assignments, and civilian history; do not pad the printed value without direct evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a4250eaf-d4ca-556b-8abb-bd27113e8d47",
+      "identity_status": "unresolved",
+      "identity_evidence": "The verified index row supplies no rank or protected identifier, and staged official, institutional, exact-name and employment research found no defensible identity.",
+      "name_variants": [
+        "Mary E Demsford",
+        "Mary E. Demsford",
+        "Demsford, Mary E"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 179 for identity, aliases, occupation, employer, assignment and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "af20fa45-9ad6-539c-825d-7f2dc7b155c5",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row and protected value were verified, but the value produced no literal Army match and staged research found no defensible identity.",
+      "name_variants": [
+        "Robert E Demuth",
+        "Robert E. Demuth",
+        "Robert E DeMuth",
+        "Demuth, Robert E"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 179 for identity, branch, occupation, employer and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5e9bdd16-b771-5b64-9164-aa332ad8f1ff",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The index row is verified. Staged research found no external match, and the same-box Livia M Demian spelling-variant question remains unresolved; both entities stay separate.",
+      "name_variants": [
+        "Livia M Denain",
+        "Livia M. Denain",
+        "Denain, Livia M"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "possible_duplicate_group": "possible-livia-m-demian-denain-box179-batch562",
+      "research_status": "needs_identity_review",
+      "next_action": "Compare both Box 179 files before merging or transferring evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "4c1b9919-6e72-5d59-9496-c9c4d4b3402b",
+      "identity_status": "probable",
+      "identity_evidence": "The index identifies a French sub-lieutenant. Official SHD inventory GR 16 P 174420 names Jean Pierre Denamiel with an approved resistance file, a strong lead without a direct OSS bridge.",
+      "name_variants": [
+        "Jean Denamiel",
+        "Denamiel, Jean",
+        "Jean Pierre Denamiel"
+      ],
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare Box 179 with SHD GR 16 P 174420 before accepting identity or employment evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "0474843e-f742-5073-bd85-cdc8ba7fe6b9",
+      "identity_status": "unresolved",
+      "identity_evidence": "The verified index row supplies no rank or protected identifier, and staged official, institutional, exact-name and employment research found no defensible identity.",
+      "name_variants": [
+        "Lorene Denard",
+        "Denard, Lorene"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 179 for identity, occupation, employer, assignment and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4bad86f5-ac40-53f4-96fc-55fd71718d3e",
+      "identity_status": "confirmed",
+      "identity_evidence": "A direct May 1944 OSS report matches Joseph Denaro's exact name and protected index identifier, then supplies Italian Section service, dates and Cincinnati recruiting context.",
+      "name_variants": [
+        "Joseph Denaro",
+        "Denaro, Joseph",
+        "Jos Denaro"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "possible_duplicate_group": null,
+      "research_status": "verified_employer_found",
+      "next_action": "Box 179 may refine exact job dates and Mabley's organizational form; the current high-confidence claim is publication-ready.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "05017bd7-cb68-5c46-ae9e-9234230c65c5",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row and protected value were verified, but the value and exact name produced no Army match. Family and genealogy leads lacked a direct OSS bridge.",
+      "name_variants": [
+        "Dennis Denaxas",
+        "Denaxas, Dennis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 180; do not transfer a relative's biography.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "71814f14-0513-5e21-a2d1-2b018bc75d5e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The verified index row supplies no rank or protected identifier and carries the source note 'possibly.' Staged research found no external identity evidence.",
+      "name_variants": [
+        "Gusbert DenBesten",
+        "Gusbert Den Besten",
+        "DenBesten, Gusbert",
+        "Den Besten, Gusbert"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 180 to determine whether the tentative entry represents a person, spelling variant or filing lead.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b563-john-d-dempsey-evidence-review",
+      "person_id": "c578149c-a3ce-535c-9e00-cb5ee49f4fef",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review official index, Army bulk evidence, CIA and Library of Congress checkpoints, exact-name web queries, and employment-focused sources for John D Dempsey.",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T10:31:00Z",
+      "completed_at": "2026-09-16T10:33:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "A discovery-only Burma OSS namesake was retained for Box 179 comparison; incompatible Army namesakes were rejected.",
+      "research_notes": "A discovery-only Burma OSS namesake was retained for Box 179 comparison; incompatible Army namesakes were rejected.",
+      "next_action": "Compare Box 179 with the withheld candidate.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-563-v1"
+    },
+    {
+      "key": "b563-john-d-dempsey-synthesis",
+      "person_id": "c578149c-a3ce-535c-9e00-cb5ee49f4fef",
+      "source_adapter": "manual_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, publication, privacy and archival-review rules for John D Dempsey.",
+      "query_variant_type": "reviewed_evidence_synthesis",
+      "started_at": "2026-09-16T10:33:00Z",
+      "completed_at": "2026-09-16T10:33:45Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "A discovery-only Burma OSS namesake was retained for Box 179 comparison; incompatible Army namesakes were rejected.",
+      "research_notes": "A discovery-only Burma OSS namesake was retained for Box 179 comparison; incompatible Army namesakes were rejected. The terminal outcome was recorded without inferring an employer.",
+      "next_action": "Compare Box 179 with the withheld candidate.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-563-v1"
+    },
+    {
+      "key": "b563-john-f-dempsey-evidence-review",
+      "person_id": "c2db85ef-4192-5521-9701-26f5e66c8d94",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review official index, Army bulk evidence, CIA and Library of Congress checkpoints, exact-name web queries, and employment-focused sources for John F Dempsey.",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T10:35:00Z",
+      "completed_at": "2026-09-16T10:37:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Literal and cautiously padded Army checks plus staged sources failed; superficially matching padded rows were incompatible.",
+      "research_notes": "Literal and cautiously padded Army checks plus staged sources failed; superficially matching padded rows were incompatible.",
+      "next_action": "Review Box 179 for the complete officer number.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-563-v1"
+    },
+    {
+      "key": "b563-john-f-dempsey-synthesis",
+      "person_id": "c2db85ef-4192-5521-9701-26f5e66c8d94",
+      "source_adapter": "manual_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, publication, privacy and archival-review rules for John F Dempsey.",
+      "query_variant_type": "reviewed_evidence_synthesis",
+      "started_at": "2026-09-16T10:37:00Z",
+      "completed_at": "2026-09-16T10:37:45Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Literal and cautiously padded Army checks plus staged sources failed; superficially matching padded rows were incompatible.",
+      "research_notes": "Literal and cautiously padded Army checks plus staged sources failed; superficially matching padded rows were incompatible. The terminal outcome was recorded without inferring an employer.",
+      "next_action": "Review Box 179 for the complete officer number.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-563-v1"
+    },
+    {
+      "key": "b563-mary-demsford-evidence-review",
+      "person_id": "a4250eaf-d4ca-556b-8abb-bd27113e8d47",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review official index, Army bulk evidence, CIA and Library of Congress checkpoints, exact-name web queries, and employment-focused sources for Mary E Demsford.",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T10:39:00Z",
+      "completed_at": "2026-09-16T10:41:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": null,
+      "research_notes": "No defensible identity or pre-OSS affiliation emerged from the completed staged protocol.",
+      "next_action": "Review Box 179.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-563-v1"
+    },
+    {
+      "key": "b563-mary-demsford-synthesis",
+      "person_id": "a4250eaf-d4ca-556b-8abb-bd27113e8d47",
+      "source_adapter": "manual_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, publication, privacy and archival-review rules for Mary E Demsford.",
+      "query_variant_type": "reviewed_evidence_synthesis",
+      "started_at": "2026-09-16T10:41:00Z",
+      "completed_at": "2026-09-16T10:41:45Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": null,
+      "research_notes": "No defensible identity or pre-OSS affiliation emerged from the completed staged protocol. The terminal outcome was recorded without inferring an employer.",
+      "next_action": "Review Box 179.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-563-v1"
+    },
+    {
+      "key": "b563-robert-demuth-evidence-review",
+      "person_id": "af20fa45-9ad6-539c-825d-7f2dc7b155c5",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review official index, Army bulk evidence, CIA and Library of Congress checkpoints, exact-name web queries, and employment-focused sources for Robert E Demuth.",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T10:43:00Z",
+      "completed_at": "2026-09-16T10:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The protected value produced no Army match; namesakes lacked the required identity bridge.",
+      "research_notes": "The protected value produced no Army match; namesakes lacked the required identity bridge.",
+      "next_action": "Review Box 179.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-563-v1"
+    },
+    {
+      "key": "b563-robert-demuth-synthesis",
+      "person_id": "af20fa45-9ad6-539c-825d-7f2dc7b155c5",
+      "source_adapter": "manual_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, publication, privacy and archival-review rules for Robert E Demuth.",
+      "query_variant_type": "reviewed_evidence_synthesis",
+      "started_at": "2026-09-16T10:45:00Z",
+      "completed_at": "2026-09-16T10:45:45Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The protected value produced no Army match; namesakes lacked the required identity bridge.",
+      "research_notes": "The protected value produced no Army match; namesakes lacked the required identity bridge. The terminal outcome was recorded without inferring an employer.",
+      "next_action": "Review Box 179.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-563-v1"
+    },
+    {
+      "key": "b563-livia-denain-evidence-review",
+      "person_id": "5e9bdd16-b771-5b64-9164-aa332ad8f1ff",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review official index, Army bulk evidence, CIA and Library of Congress checkpoints, exact-name web queries, and employment-focused sources for Livia M Denain.",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T10:47:00Z",
+      "completed_at": "2026-09-16T10:49:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": null,
+      "research_notes": "No external identity was found; the documented Demian-Denain duplicate question remains open.",
+      "next_action": "Compare both Box 179 files.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-563-v1"
+    },
+    {
+      "key": "b563-livia-denain-synthesis",
+      "person_id": "5e9bdd16-b771-5b64-9164-aa332ad8f1ff",
+      "source_adapter": "manual_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, publication, privacy and archival-review rules for Livia M Denain.",
+      "query_variant_type": "reviewed_evidence_synthesis",
+      "started_at": "2026-09-16T10:49:00Z",
+      "completed_at": "2026-09-16T10:49:45Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": null,
+      "research_notes": "No external identity was found; the documented Demian-Denain duplicate question remains open. The terminal outcome was recorded without inferring an employer.",
+      "next_action": "Compare both Box 179 files.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-563-v1"
+    },
+    {
+      "key": "b563-jean-denamiel-evidence-review",
+      "person_id": "4c1b9919-6e72-5d59-9496-c9c4d4b3402b",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review official index, Army bulk evidence, CIA and Library of Congress checkpoints, exact-name web queries, and employment-focused sources for Jean Denamiel.",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T10:51:00Z",
+      "completed_at": "2026-09-16T10:53:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": null,
+      "research_notes": "Official SHD inventory GR 16 P 174420 is a strong lead but lacks direct OSS linkage.",
+      "next_action": "Compare Box 179 and the French file.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-563-v1"
+    },
+    {
+      "key": "b563-jean-denamiel-synthesis",
+      "person_id": "4c1b9919-6e72-5d59-9496-c9c4d4b3402b",
+      "source_adapter": "manual_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, publication, privacy and archival-review rules for Jean Denamiel.",
+      "query_variant_type": "reviewed_evidence_synthesis",
+      "started_at": "2026-09-16T10:53:00Z",
+      "completed_at": "2026-09-16T10:53:45Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": null,
+      "research_notes": "Official SHD inventory GR 16 P 174420 is a strong lead but lacks direct OSS linkage. The terminal outcome was recorded without inferring an employer.",
+      "next_action": "Compare Box 179 and the French file.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-563-v1"
+    },
+    {
+      "key": "b563-lorene-denard-evidence-review",
+      "person_id": "0474843e-f742-5073-bd85-cdc8ba7fe6b9",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review official index, Army bulk evidence, CIA and Library of Congress checkpoints, exact-name web queries, and employment-focused sources for Lorene Denard.",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T10:55:00Z",
+      "completed_at": "2026-09-16T10:57:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "No defensible historical identity or affiliation was found; a modern people-finder result was rejected.",
+      "research_notes": "No defensible historical identity or affiliation was found; a modern people-finder result was rejected.",
+      "next_action": "Review Box 179.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-563-v1"
+    },
+    {
+      "key": "b563-lorene-denard-synthesis",
+      "person_id": "0474843e-f742-5073-bd85-cdc8ba7fe6b9",
+      "source_adapter": "manual_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, publication, privacy and archival-review rules for Lorene Denard.",
+      "query_variant_type": "reviewed_evidence_synthesis",
+      "started_at": "2026-09-16T10:57:00Z",
+      "completed_at": "2026-09-16T10:57:45Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "No defensible historical identity or affiliation was found; a modern people-finder result was rejected.",
+      "research_notes": "No defensible historical identity or affiliation was found; a modern people-finder result was rejected. The terminal outcome was recorded without inferring an employer.",
+      "next_action": "Review Box 179.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-563-v1"
+    },
+    {
+      "key": "b563-joseph-denaro-evidence-review",
+      "person_id": "4bad86f5-ac40-53f4-96fc-55fd71718d3e",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review official index, Army bulk evidence, CIA and Library of Congress checkpoints, exact-name web queries, and employment-focused sources for Joseph Denaro.",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T10:59:00Z",
+      "completed_at": "2026-09-16T11:01:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": null,
+      "research_notes": "Direct OSS and contemporary directory evidence confirm identity and support Mabley's as the high-confidence employer.",
+      "next_action": "Publication-ready; Box 179 may refine dates.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-563-v1"
+    },
+    {
+      "key": "b563-joseph-denaro-synthesis",
+      "person_id": "4bad86f5-ac40-53f4-96fc-55fd71718d3e",
+      "source_adapter": "manual_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, publication, privacy and archival-review rules for Joseph Denaro.",
+      "query_variant_type": "reviewed_evidence_synthesis",
+      "started_at": "2026-09-16T11:01:00Z",
+      "completed_at": "2026-09-16T11:01:45Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": null,
+      "research_notes": "Direct OSS and contemporary directory evidence confirm identity and support Mabley's as the high-confidence employer. The terminal outcome was recorded without inferring an employer.",
+      "next_action": "Publication-ready; Box 179 may refine dates.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-563-v1"
+    },
+    {
+      "key": "b563-dennis-denaxas-evidence-review",
+      "person_id": "05017bd7-cb68-5c46-ae9e-9234230c65c5",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review official index, Army bulk evidence, CIA and Library of Congress checkpoints, exact-name web queries, and employment-focused sources for Dennis Denaxas.",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T11:03:00Z",
+      "completed_at": "2026-09-16T11:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The protected value and name produced no Army match; family and genealogy leads lacked an OSS bridge.",
+      "research_notes": "The protected value and name produced no Army match; family and genealogy leads lacked an OSS bridge.",
+      "next_action": "Review Box 180.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-563-v1"
+    },
+    {
+      "key": "b563-dennis-denaxas-synthesis",
+      "person_id": "05017bd7-cb68-5c46-ae9e-9234230c65c5",
+      "source_adapter": "manual_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, publication, privacy and archival-review rules for Dennis Denaxas.",
+      "query_variant_type": "reviewed_evidence_synthesis",
+      "started_at": "2026-09-16T11:05:00Z",
+      "completed_at": "2026-09-16T11:05:45Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The protected value and name produced no Army match; family and genealogy leads lacked an OSS bridge.",
+      "research_notes": "The protected value and name produced no Army match; family and genealogy leads lacked an OSS bridge. The terminal outcome was recorded without inferring an employer.",
+      "next_action": "Review Box 180.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-563-v1"
+    },
+    {
+      "key": "b563-gusbert-denbesten-evidence-review",
+      "person_id": "71814f14-0513-5e21-a2d1-2b018bc75d5e",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review official index, Army bulk evidence, CIA and Library of Congress checkpoints, exact-name web queries, and employment-focused sources for Gusbert DenBesten.",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T11:07:00Z",
+      "completed_at": "2026-09-16T11:09:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": null,
+      "research_notes": "No external identity evidence was found, and the index itself qualifies the entry as possibly.",
+      "next_action": "Review Box 180 and preserve uncertainty.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-563-v1"
+    },
+    {
+      "key": "b563-gusbert-denbesten-synthesis",
+      "person_id": "71814f14-0513-5e21-a2d1-2b018bc75d5e",
+      "source_adapter": "manual_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, publication, privacy and archival-review rules for Gusbert DenBesten.",
+      "query_variant_type": "reviewed_evidence_synthesis",
+      "started_at": "2026-09-16T11:09:00Z",
+      "completed_at": "2026-09-16T11:09:45Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": null,
+      "research_notes": "No external identity evidence was found, and the index itself qualifies the entry as possibly. The terminal outcome was recorded without inferring an employer.",
+      "next_action": "Review Box 180 and preserve uncertainty.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-563-v1"
+    }
+  ]
+}
