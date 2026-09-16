@@ -2,64 +2,51 @@
 
 Verified against the current local SQLite database on 2026-09-16 UTC.
 
-Batch 571 is the current local release candidate. It adds terminal outcomes
-for personnel-index PDF page 115 rows 3-12, Vincent DeSanto through Daniel B
-Desich, all in Box 182 at `230/86/29/07`. The complete page, relevant official
-Army occupation-code pages and the Jacques de Sibour evidence pages were
-rendered and visually inspected. Five private values remain masked in every
-public artifact.
+Batch 572 is the current local release candidate. It adds terminal outcomes
+for personnel-index PDF page 115 rows 13-22, Jean M DeSieyes through Robert
+Desmond, all in Box 182 at `230/86/29/07`. The complete page and the relevant
+official Army occupation-code pages were rendered at 180 dpi and visually
+inspected. Five private values remain masked in every public artifact, and
+`Geral` remains the literal indexed spelling rather than a silently corrected
+name.
 
-Protected-identifier Army matches confirm Vincent DeSanto and James B Desch.
-The official records establish only a foreman occupation for DeSanto and
-student status at Chaminade High School immediately before Desch entered the
-Army; neither supplies an employer. Scholarly and institutional sources
-support Bunmag Desaputra as Bunmak Thesabut, Phillip Deshaw as Phillip E.
-Deshaw and Daniel B Desich as the Second Lieutenant interviewed at Bari. A
-name-only automobile-manufacturing lead for Desich remains private at low
-confidence. Marcel Descour remains a probable identity and Blaise DeSibour an
-ambiguous one. John M DeSaussure and Bernard D'Escayrac remain unresolved.
+Peer DeSilva is a high-confidence match to Peer de Silva. West Point and
+National Museum of Nuclear Science & History sources document his West Point
+education, Quartermaster Corps service and 1943-1945 Manhattan Project
+security work before his assignment to the postwar Strategic Services Unit.
+The site does not mislabel the Manhattan Project as an immediate pre-OSS
+affiliation and does not claim wartime OSS service. Protected-identifier Army
+matches confirm George C Deskin, Cletus H Desmaretz and Daniel H Desmond.
+George's code 999 remains uninterpreted; Cletus is published as a student at
+Army entry with a qualified Whittier school affiliation; and Daniel is
+published as a general office clerk without an invented employer. Joseph
+Desipio remains ambiguous, while Jean M DeSieyes, Adele D DeSimone, M H
+Deslandes, Geral A Desmond and Robert Desmond remain unresolved for archival
+review. No named pre-OSS civilian employer was established in this cohort.
 
-Jacques B DeSibour is a high-confidence match to Jacques de Sibour. A
-specialist archival article supports International Aviation Associates,
-later Intava, as his last documented civilian employer before wartime service
-and the Army's Services of Supply as his last documented assignment before
-OSS recruitment. Both claims are visibly qualified at medium confidence. The
-source leaves a July-to-December 1943 gap, so the military assignment is
-`probable_immediate`, not explicit. Intava is an aviation and fuel-logistics
-firm, not an oil company; the site's evidence-filtered oil-company category
-therefore remains at seven people.
-
-The batch raises research-attempt coverage to 5,476 of 23,940 active people
-(22.8739%), verified-affiliation coverage to 590 (2.4645%) and archival-
-disposition coverage to 5,431 (22.6859%). Verified-employer coverage remains
-260 (1.0860%). The private database contains 2,165 affiliations, 682
-organizations, 4,841 citation records, 2,210 unique source documents, 4,635
-claims, 9,861 attempts and 10,778 claim-source links; public data contains
-2,150 affiliations, 668 organizations, 3,651 sources and 4,452 claims. See
-`reports/release_batch_571.md` and
-`research/batch-571-discovery-checkpoint.md`. All 95 Python tests pass. The
+The batch raises research-attempt coverage to 5,486 of 23,940 active people
+(22.9156%), verified-affiliation coverage to 593 (2.4770%) and archival-
+disposition coverage to 5,441 (22.7277%). Verified-employer coverage remains
+260 (1.0860%). The private database contains 2,172 affiliations, 686
+organizations, 4,848 citation records, 2,214 unique source documents, 4,658
+claims and 9,911 attempts; public data contains 2,156 affiliations, 672
+organizations, 3,657 sources and 4,472 claims. See
+`reports/release_batch_572.md` and
+`research/batch-572-discovery-checkpoint.md`. All 95 Python tests pass. The
 bounded release suite passes 81/81 checks across desktop, phone and tablet,
-including 24 focused Batch 571 checks and 27 accessibility checks. The
-production build creates 24,616 direct HTML pages; all internal links resolve,
+including 24 focused Batch 572 checks and 27 accessibility checks. The
+production build creates 24,620 direct HTML pages; all internal links resolve,
 the dependency audit reports zero vulnerabilities, and the public-identifier
-audit finds zero false positives across 24,688 artifacts. The local manifest
-guard verifies 67 assets and 95,624,349 bytes at SHA-256
-`81f709fd1ea36049190c83281cbfaa541cd2a4991977cb7dd041e1f6fd94d839`.
+audit finds zero false positives across 24,692 artifacts. The local manifest
+guard verifies 67 assets and 95,728,474 bytes at SHA-256
+`08b6f7921d6bf997205c18d5afeedb1072a834d60ccb05031769f6af8d1d9c34`.
 The 70-file public tree is
-`58ea2a542328e3808d7d2167c4b94cc54a0fc300c9f8406808f7d44f03b7e135`;
-the 24,688-file production tree is
-`296d6f550f40a29bc5b6492ed48c95a80a28be27b0c48ec3f4d419aa1430480a`.
-A detached clean replay from release-candidate commit `b4cd353` reconstructed
-the complete database and reproduced all three release hashes, passed all 95
-Python tests, and repeated the zero-false-positive identifier audit. Pull
-request #269 merged as main commit
-`d8ef45bac00b363b3724a1a0b0d214e3f9f15d5e`; PR Test run 35147313973,
-main Test run 35148044074 and Pages run 35148044065 succeeded. The
-unauthenticated live verifier matched all 67 manifest assets, 95,624,349
-bytes, seven core routes and all ten Batch 571 profiles. A separate
-live-browser check confirmed the evidence-filtered seven-person oil-company
-category and the new qualified profile evidence. Batch 571 is the current
-exact-verified public release. The goal remains active.
+`60bf2a722aaa66728b8ac33804fe41e1f2d21c7a1a46fc59e163236a6faff048`;
+the 24,692-file production tree is
+`cc3526168c9f191c60519c651b2f810353d59699e46089d4f9e792f5e0ba7243`.
+A detached clean replay and remote publication verification remain pending.
+Batch 571 remains the current exact-verified public release. The goal remains
+active.
 
 Batch 569 is the current local release candidate. It adds terminal outcomes for
 personnel-index PDF page 114 rows 29-38, Bernard F Deren through King Derr,
