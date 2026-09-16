@@ -2,7 +2,42 @@
 
 Verified against the current local SQLite database on 2026-09-16 UTC.
 
-Batch 565 is the current local release candidate. It adds ten terminal saved
+Batch 566 is the current validated local release candidate; Batch 565 remains
+the exact-verified public release until this candidate passes remote CI and
+Pages verification. Batch 566 adds terminal outcomes for ten people represented
+by eleven source rows on personnel-index PDF page 113 rows 44-46 and page 114
+rows 1-8, Nancy Dennis through Robert P Dent, in Boxes 180-181. Robert P.
+Dent's two identical printed rows remain separate immutable source records
+linked to one person entity.
+
+Exact protected-identifier and agreeing-name matches confirm Anthony DeNoia
+and Robert P. Dent. Official Army code tables support only qualified,
+date-bounded occupations at Army entry: a broad chemical-products-producing
+category for DeNoia and secretary work for Dent. Neither code names an
+employer, and neither finding is labeled immediate pre-OSS or last civilian
+employment. Jack H Denniston, Philippe A DeNoailles and Frederick E Densmore
+remain ambiguous because their plausible namesake candidates lack a direct
+Box/OSS bridge. Nancy Dennis, Edward E Denniston, Charles P Denny Jr., Charles
+M Densler and Ralph E Densmore remain unresolved for archival review. Short
+printed private values are masked and are not forced into a service-number
+interpretation.
+
+The batch raises research-attempt coverage to 5,426 of 23,940 active people
+(22.6650%) and archival-disposition coverage to 5,381 (22.4770%). Verified
+affiliation coverage remains 585 (2.4436%) and verified-employer coverage
+remains 259 (1.0819%). The private database contains 2,149 affiliations, 675
+organizations, 4,804 citation records, 2,187 unique source documents, 4,547
+claims, 9,610 attempts and 10,626 claim-source links; public data contains
+2,135 affiliations, 661 organizations, 3,616 sources and 4,366 claims. See
+`reports/release_batch_566.md` and
+`research/batch-566-discovery-checkpoint.md`. Local validation is green: 95
+Python tests, 78 bounded release checks, all internal links across 24,609 HTML
+pages, the 200-profile structural audit and the public-identifier audit pass.
+The oil-company category remains tested across desktop, phone and tablet. The
+detached clean replay and public deployment checks remain release gates. The
+goal remains active.
+
+Batch 565 is the current exact-verified public release. It adds ten terminal saved
 outcomes for personnel-index PDF page 113 rows 34-43, William Denit through
 John M Dennis, all in Box 180. William Denit has a medium-confidence documented
 prewar Department of Agriculture role; Anthony J Denneau has confirmed OSS
@@ -28,8 +63,14 @@ internal links across 24,609 HTML pages, the 200-profile structural audit and
 public-identifier redaction audit pass. A detached archive replay from
 release-candidate commit `21bff79` reproduces the exact public-manifest,
 public-tree and production-tree hashes, passes all 95 Python tests, and repeats
-the zero-false-positive identifier audit across 24,681 artifacts. Publication
-verification remains pending. The goal remains active.
+the zero-false-positive identifier audit across 24,681 artifacts. Pull request
+#263 merged as main commit `25b75758ee538f31f6fde0d4c323572f3aedbb19`; PR Test
+run 35103625940, main Test run 35104404734 and Pages run 35104404934
+succeeded. The live verifier matched all 67 manifest assets, 95,138,834 bytes,
+seven core routes and ten direct profiles at manifest SHA-256
+`3d7f6ae80a20b9b4743ec16c232bddffcf5de24a5114969433b444d4dbb3dec4`.
+The live personnel directory retains the tested oil-company employee category.
+The goal remains active.
 
 Batch 564 is the current exact-verified public release. It adds ten terminal saved
 outcomes for personnel-index PDF page 113 rows 24-33, Bernard S DeNedde

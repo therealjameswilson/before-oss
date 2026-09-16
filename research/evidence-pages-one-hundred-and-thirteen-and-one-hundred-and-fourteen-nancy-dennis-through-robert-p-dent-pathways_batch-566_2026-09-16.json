@@ -1,0 +1,965 @@
+{
+  "bundle_version": "3",
+  "reviewer": "Codex archival research workflow",
+  "sources": [
+    {
+      "key": "index-b566",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 180-181",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 113 rows 44-46 and page 114 rows 1-8 visually inspected; Boxes 180-181; location 230/86/29/07",
+      "access_date": "2026-09-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Six printed private values across the eleven source rows remain private and are excluded from public claims and exports. Original spelling, blank ranks, boxes, location and Robert P. Dent's duplicate rows remain recoverable."
+    },
+    {
+      "key": "army-b566",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official ASNEF.FIN.DAT; complete transient scan of 9,200,232 fixed-width records; protected identifiers withheld",
+      "access_date": "2026-09-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full private identifier is retained. Exact protected-identifier matches were accepted only when names agreed. Name-only candidates remain unresolved. The file is incomplete and a non-hit is not negative proof."
+    },
+    {
+      "key": "army-technical-b566",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "Fixed-width identifier, name, Army-entry-date, grade and civilian-occupation fields checked",
+      "access_date": "2026-09-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "document_number": "100.1ND_NC.pdf",
+      "rights_notes": "Used to interpret selected fields only. The documentation warns about source damage, alternate layouts, coding limits and incomplete coverage."
+    },
+    {
+      "key": "army-codes-b566",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30, Civilian Occupations",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "Code No. 30, Reference Copy 243 physical PDF page 171 and Reference Copy 248 physical PDF page 176 visually inspected; entries 1-33 and 6-53",
+      "access_date": "2026-09-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Official code documentation. The codes identify a civilian occupation category at Army entry, not a named employer or immediate pre-OSS affiliation."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "anthony-denoia-chemical-products-b566",
+      "person_id": "7eed6672-575e-506f-8e2c-ee0f0ac489ad",
+      "occupation": "Chemical products producing occupation, not elsewhere classified",
+      "relationship_type": "unknown",
+      "end_date": "1942-08-17",
+      "date_precision": "day",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact-matched Army row records civilian occupation code 653 at Army entry. The official list defines 6-53 broadly; it does not identify an employer or prove the role immediately preceded OSS."
+    },
+    {
+      "key": "robert-p-dent-secretary-b566",
+      "person_id": "df5cd92a-c30b-5693-9516-0d349473c334",
+      "occupation": "Secretary",
+      "relationship_type": "unknown",
+      "end_date": "1942-11-27",
+      "date_precision": "day",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact-matched Army row records civilian occupation code 133 at Army entry. The official list defines 1-33 as secretaries; it does not identify an employer or prove the role immediately preceded OSS."
+    }
+  ],
+  "claims": [
+    {
+      "key": "anthony-denoia-identity-b566",
+      "person_id": "7eed6672-575e-506f-8e2c-ee0f0ac489ad",
+      "claim_type": "identity",
+      "claim_text": "Anthony DeNoia is identity-confirmed through exact protected-identifier and name agreement in the official Army file.",
+      "evidence_paraphrase": "The index and Army record agree on the protected identifier and name after the transparent spacing variant De Noia.",
+      "identity_match_assessment": "Confirmed by exact protected identifier plus agreeing name.",
+      "temporal_assessment": "The Army record establishes entry on 17 August 1942; it does not establish the later OSS start date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The protected identifier remains private and only the spacing variant is published.",
+      "sources": [
+        {
+          "source_key": "index-b566",
+          "support_type": "supports",
+          "locator_override": "PDF page 114 row 3; Anthony DeNoia; Box 180; protected identifier withheld"
+        },
+        {
+          "source_key": "army-b566",
+          "support_type": "supports",
+          "locator_override": "Exact protected-identifier match; source name rendered De Noia; identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "anthony-denoia-occupation-b566",
+      "person_id": "7eed6672-575e-506f-8e2c-ee0f0ac489ad",
+      "affiliation_key": "anthony-denoia-chemical-products-b566",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry in August 1942, Anthony DeNoia's civilian occupation code represented a broad chemical-products-producing occupation.",
+      "evidence_excerpt": "6-53. Chemical products producing occupations, n. e. c.",
+      "evidence_paraphrase": "The exact-matched Army row carries code 653; NARA's official code list defines 6-53 as a broad chemical-products-producing category.",
+      "identity_match_assessment": "Confirmed by exact protected identifier and agreeing name.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on 17 August 1942, but not proved to be his final role before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No named employer, product, plant or precise task is inferred from the broad occupation code.",
+      "sources": [
+        {
+          "source_key": "army-b566",
+          "support_type": "supports",
+          "locator_override": "Exact protected-identifier row; civilian occupation value 653; identifier withheld"
+        },
+        {
+          "source_key": "army-technical-b566",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b566",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, physical PDF page 176, code 6-53",
+          "excerpt_override": "6-53. Chemical products producing occupations, n. e. c."
+        }
+      ]
+    },
+    {
+      "key": "anthony-denoia-unresolved-employer-b566",
+      "person_id": "7eed6672-575e-506f-8e2c-ee0f0ac489ad",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable named pre-OSS employer has yet been identified for Anthony DeNoia.",
+      "evidence_paraphrase": "The Army evidence supports a broad occupation category at entry, while reviewed accessible sources do not name an employer.",
+      "identity_match_assessment": "Confirmed identity.",
+      "temporal_assessment": "Occupation is date-bounded at Army entry; employer and immediate pre-OSS sequence remain unresolved.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 180 for employer and recruitment chronology.",
+      "sources": [
+        {
+          "source_key": "index-b566",
+          "support_type": "supports",
+          "locator_override": "PDF page 114 row 3; Box 180"
+        },
+        {
+          "source_key": "army-b566",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "robert-p-dent-identity-b566",
+      "person_id": "df5cd92a-c30b-5693-9516-0d349473c334",
+      "claim_type": "identity",
+      "claim_text": "Robert P. Dent is identity-confirmed through exact protected-identifier and exact-name agreement in the official Army file.",
+      "evidence_paraphrase": "The Army record agrees with both identical index rows on name and protected identifier.",
+      "identity_match_assessment": "Confirmed by exact protected identifier and exact name; both source rows link to the same person entity.",
+      "temporal_assessment": "The Army record establishes entry on 27 November 1942; it does not establish the later OSS start date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The two printed index rows remain separate source records and are not counted as two people.",
+      "sources": [
+        {
+          "source_key": "index-b566",
+          "support_type": "supports",
+          "locator_override": "PDF page 114 rows 7-8; Robert P Dent; Box 181; duplicate rows preserved; identifier withheld"
+        },
+        {
+          "source_key": "army-b566",
+          "support_type": "supports",
+          "locator_override": "Exact protected-identifier and exact-name row; identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "robert-p-dent-occupation-b566",
+      "person_id": "df5cd92a-c30b-5693-9516-0d349473c334",
+      "affiliation_key": "robert-p-dent-secretary-b566",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry in November 1942, Robert P. Dent's civilian occupation code represented secretary work.",
+      "evidence_excerpt": "1-33. Secretaries",
+      "evidence_paraphrase": "The exact-matched Army row carries code 133; NARA's official code list defines 1-33 as secretaries.",
+      "identity_match_assessment": "Confirmed by exact protected identifier and exact name.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on 27 November 1942, but not proved to be his final role before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No named employer or office is inferred from the occupation code.",
+      "sources": [
+        {
+          "source_key": "army-b566",
+          "support_type": "supports",
+          "locator_override": "Exact protected-identifier row; civilian occupation value 133; identifier withheld"
+        },
+        {
+          "source_key": "army-technical-b566",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "army-codes-b566",
+          "support_type": "supports",
+          "locator_override": "Code No. 30, physical PDF page 171, code 1-33",
+          "excerpt_override": "1-33. Secretaries"
+        }
+      ]
+    },
+    {
+      "key": "robert-p-dent-unresolved-employer-b566",
+      "person_id": "df5cd92a-c30b-5693-9516-0d349473c334",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable named pre-OSS employer has yet been identified for Robert P. Dent.",
+      "evidence_paraphrase": "The Army evidence supports secretary work at entry, while reviewed accessible sources do not name an employer.",
+      "identity_match_assessment": "Confirmed identity; duplicate source rows preserved.",
+      "temporal_assessment": "Occupation is date-bounded at Army entry; employer and immediate pre-OSS sequence remain unresolved.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 181 for employer, recruitment chronology and the reason for duplicate index rows.",
+      "sources": [
+        {
+          "source_key": "index-b566",
+          "support_type": "supports",
+          "locator_override": "PDF page 114 rows 7-8; Box 181"
+        },
+        {
+          "source_key": "army-b566",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "nancy-dennis-unresolved-employer-b566",
+      "person_id": "b6bfbd56-ea40-5166-bcae-92aaaf1a263f",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for Nancy Dennis in the accessible sources reviewed.",
+      "evidence_paraphrase": "The index establishes Nancy Dennis in Box 180, but exact-name official, newspaper, archival and staged web checks did not establish a unique identity or pre-OSS employer.",
+      "identity_match_assessment": "Identity remains unresolved; this claim reports research status only and does not attribute a namesake record.",
+      "temporal_assessment": "No reliable immediate pre-OSS or last-civilian-employer chronology has been established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 180 for identifiers, biography and pre-OSS employment chronology.",
+      "sources": [
+        {
+          "source_key": "index-b566",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "edward-e-denniston-unresolved-employer-b566",
+      "person_id": "7d44e1d1-b668-592c-9622-8693280b423d",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for Edward E Denniston in the accessible sources reviewed.",
+      "evidence_paraphrase": "The index establishes Edward E Denniston in Box 180 and preserves a short printed private value, but accessible sources did not establish a unique identity or employer.",
+      "identity_match_assessment": "Identity remains unresolved; this claim reports research status only and does not attribute a namesake record.",
+      "temporal_assessment": "No reliable immediate pre-OSS or last-civilian-employer chronology has been established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 180 and the protected printed value for identity and pre-OSS chronology.",
+      "sources": [
+        {
+          "source_key": "index-b566",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "jack-h-denniston-unresolved-employer-b566",
+      "person_id": "9250e2a1-4aad-5ef4-98e9-762231fe4030",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for Jack H Denniston in the accessible sources reviewed.",
+      "evidence_paraphrase": "Two exact-name Army rows describe materially different men; neither carries a direct bridge to the Box 180 index record.",
+      "identity_match_assessment": "Identity remains ambiguous; plausible namesake material was preserved as a lead and not attributed.",
+      "temporal_assessment": "No reliable immediate pre-OSS or last-civilian-employer chronology has been established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 180 to distinguish the two exact-name Army candidates and establish any pre-OSS occupation or employer.",
+      "sources": [
+        {
+          "source_key": "index-b566",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b566",
+          "support_type": "context_only",
+          "locator_override": "Name-only Army candidate review; no protected-identifier or Box linkage accepted"
+        }
+      ]
+    },
+    {
+      "key": "charles-p-denny-jr-unresolved-employer-b566",
+      "person_id": "3d2a531e-4e68-55e9-a620-5da1ae8a053d",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for Charles P Denny Jr. in the accessible sources reviewed.",
+      "evidence_paraphrase": "The index establishes Charles P Denny Jr. in Box 180, but the LoC candidate was generic and postwar and lacked an OSS, identity or employment bridge.",
+      "identity_match_assessment": "Identity remains unresolved; this claim reports research status only and does not attribute a namesake record.",
+      "temporal_assessment": "No reliable immediate pre-OSS or last-civilian-employer chronology has been established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 180 for full-name identifiers and pre-OSS chronology.",
+      "sources": [
+        {
+          "source_key": "index-b566",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "philippe-a-denoailles-unresolved-employer-b566",
+      "person_id": "f5b35619-eb87-565a-b9d0-70ee754ea86c",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for Philippe A DeNoailles in the accessible sources reviewed.",
+      "evidence_paraphrase": "A rare-name biographical candidate exists, but no official OSS, archival or protected-identifier bridge ties that person to the Box 180 record.",
+      "identity_match_assessment": "Identity remains ambiguous; plausible namesake material was preserved as a lead and not attributed.",
+      "temporal_assessment": "No reliable immediate pre-OSS or last-civilian-employer chronology has been established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 180 for nationality, birth details, aliases and any wartime-service linkage before attributing a biography.",
+      "sources": [
+        {
+          "source_key": "index-b566",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "charles-m-densler-unresolved-employer-b566",
+      "person_id": "bd570f16-80fc-5d2f-ab66-16732dbbceb6",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for Charles M Densler in the accessible sources reviewed.",
+      "evidence_paraphrase": "The index establishes Charles M Densler in Box 181 and preserves a short printed private value, but accessible sources did not establish identity or employment.",
+      "identity_match_assessment": "Identity remains unresolved; this claim reports research status only and does not attribute a namesake record.",
+      "temporal_assessment": "No reliable immediate pre-OSS or last-civilian-employer chronology has been established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 181 and the protected printed value for identity and pre-OSS chronology.",
+      "sources": [
+        {
+          "source_key": "index-b566",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "frederick-e-densmore-unresolved-employer-b566",
+      "person_id": "d9b22413-66c2-546c-82b7-1908e36f884d",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for Frederick E Densmore in the accessible sources reviewed.",
+      "evidence_paraphrase": "One exact-name Army row and a University of Michigan graduate lead are plausible, but neither directly links to the Box 181 OSS index record.",
+      "identity_match_assessment": "Identity remains ambiguous; plausible namesake material was preserved as a lead and not attributed.",
+      "temporal_assessment": "No reliable immediate pre-OSS or last-civilian-employer chronology has been established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 181 for birth year, education, Army identifiers and any pre-OSS employer before accepting the candidate.",
+      "sources": [
+        {
+          "source_key": "index-b566",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b566",
+          "support_type": "context_only",
+          "locator_override": "Name-only Army candidate review; no protected-identifier or Box linkage accepted"
+        }
+      ]
+    },
+    {
+      "key": "ralph-e-densmore-unresolved-employer-b566",
+      "person_id": "06ea271f-bb85-593a-a2c1-488645685db1",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for Ralph E Densmore in the accessible sources reviewed.",
+      "evidence_paraphrase": "The index establishes Ralph E Densmore in Box 181, but accessible official, archival and web sources did not establish a unique identity or employer.",
+      "identity_match_assessment": "Identity remains unresolved; this claim reports research status only and does not attribute a namesake record.",
+      "temporal_assessment": "No reliable immediate pre-OSS or last-civilian-employer chronology has been established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 181 for identifiers, biography and pre-OSS employment chronology.",
+      "sources": [
+        {
+          "source_key": "index-b566",
+          "support_type": "supports"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "b6bfbd56-ea40-5166-bcae-92aaaf1a263f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index establishes Nancy Dennis in Box 180, but exact-name official, newspaper, archival and staged web checks did not establish a unique identity or pre-OSS employer.",
+      "name_variants": [
+        "Nancy Dennis"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 180 for identifiers, biography and pre-OSS employment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7d44e1d1-b668-592c-9622-8693280b423d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index establishes Edward E Denniston in Box 180 and preserves a short printed private value, but accessible sources did not establish a unique identity or employer.",
+      "name_variants": [
+        "Edward E Denniston"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 180 and the protected printed value for identity and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9250e2a1-4aad-5ef4-98e9-762231fe4030",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Two exact-name Army rows describe materially different men; neither carries a direct bridge to the Box 180 index record.",
+      "name_variants": [
+        "Jack H Denniston"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 180 to distinguish the two exact-name Army candidates and establish any pre-OSS occupation or employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "3d2a531e-4e68-55e9-a620-5da1ae8a053d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index establishes Charles P Denny Jr. in Box 180, but the LoC candidate was generic and postwar and lacked an OSS, identity or employment bridge.",
+      "name_variants": [
+        "Charles P Denny Jr."
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 180 for full-name identifiers and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f5b35619-eb87-565a-b9d0-70ee754ea86c",
+      "identity_status": "ambiguous",
+      "identity_evidence": "A rare-name biographical candidate exists, but no official OSS, archival or protected-identifier bridge ties that person to the Box 180 record.",
+      "name_variants": [
+        "Philippe A DeNoailles"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 180 for nationality, birth details, aliases and any wartime-service linkage before attributing a biography.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "7eed6672-575e-506f-8e2c-ee0f0ac489ad",
+      "identity_status": "confirmed",
+      "identity_evidence": "An exact protected-identifier match in the complete Army file agrees with the indexed name after the transparent spacing variant De Noia.",
+      "name_variants": [
+        "Anthony DeNoia",
+        "Anthony De Noia"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "possible_duplicate_group": null,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 180 for a named employer and the chronology between Army entry and OSS service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "bd570f16-80fc-5d2f-ab66-16732dbbceb6",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index establishes Charles M Densler in Box 181 and preserves a short printed private value, but accessible sources did not establish identity or employment.",
+      "name_variants": [
+        "Charles M Densler"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 181 and the protected printed value for identity and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d9b22413-66c2-546c-82b7-1908e36f884d",
+      "identity_status": "ambiguous",
+      "identity_evidence": "One exact-name Army row and a University of Michigan graduate lead are plausible, but neither directly links to the Box 181 OSS index record.",
+      "name_variants": [
+        "Frederick E Densmore"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 181 for birth year, education, Army identifiers and any pre-OSS employer before accepting the candidate.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "06ea271f-bb85-593a-a2c1-488645685db1",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index establishes Ralph E Densmore in Box 181, but accessible official, archival and web sources did not establish a unique identity or employer.",
+      "name_variants": [
+        "Ralph E Densmore"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 181 for identifiers, biography and pre-OSS employment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "df5cd92a-c30b-5693-9516-0d349473c334",
+      "identity_status": "confirmed",
+      "identity_evidence": "An exact protected-identifier and exact-name Army match confirms the person; the two identical printed index rows remain separate and link to this one entity.",
+      "name_variants": [
+        "Robert P Dent",
+        "Robert P. Dent"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "possible_duplicate_group": "auto:df5cd92a-c30b-5693-9516-0d349473c334",
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 181 to explain the duplicate index rows and identify a named employer and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b566-nancy-dennis-evidence-review",
+      "person_id": "b6bfbd56-ea40-5166-bcae-92aaaf1a263f",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review the OSS index, complete Army-file scan, CIA and Library of Congress checkpoints, staged web results and archival leads for Nancy Dennis.",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T14:06:00Z",
+      "completed_at": "2026-09-16T14:10:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": null,
+      "research_notes": "No attributable employer or identity candidate survived the staged protocol.",
+      "next_action": "Review Box 180 for identifiers, biography and pre-OSS employment chronology.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-566-v1"
+    },
+    {
+      "key": "b566-nancy-dennis-synthesis",
+      "person_id": "b6bfbd56-ea40-5166-bcae-92aaaf1a263f",
+      "source_adapter": "reviewed_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Nancy Dennis.",
+      "query_variant_type": "terminal_outcome_synthesis",
+      "started_at": "2026-09-16T14:10:00Z",
+      "completed_at": "2026-09-16T14:12:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Terminal outcome: requires_archival_review. The index establishes Nancy Dennis in Box 180, but exact-name official, newspaper, archival and staged web checks did not establish a unique identity or pre-OSS employer.",
+      "next_action": "Review Box 180 for identifiers, biography and pre-OSS employment chronology.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-566-v1"
+    },
+    {
+      "key": "b566-edward-e-denniston-evidence-review",
+      "person_id": "7d44e1d1-b668-592c-9622-8693280b423d",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review the OSS index, complete Army-file scan, CIA and Library of Congress checkpoints, staged web results and archival leads for Edward E Denniston.",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T14:06:00Z",
+      "completed_at": "2026-09-16T14:10:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": null,
+      "research_notes": "No attributable identity or employer evidence was found; the short printed value was not forced into a service-number interpretation.",
+      "next_action": "Review Box 180 and the protected printed value for identity and pre-OSS chronology.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-566-v1"
+    },
+    {
+      "key": "b566-edward-e-denniston-synthesis",
+      "person_id": "7d44e1d1-b668-592c-9622-8693280b423d",
+      "source_adapter": "reviewed_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Edward E Denniston.",
+      "query_variant_type": "terminal_outcome_synthesis",
+      "started_at": "2026-09-16T14:10:00Z",
+      "completed_at": "2026-09-16T14:12:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Terminal outcome: requires_archival_review. The index establishes Edward E Denniston in Box 180 and preserves a short printed private value, but accessible sources did not establish a unique identity or employer.",
+      "next_action": "Review Box 180 and the protected printed value for identity and pre-OSS chronology.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-566-v1"
+    },
+    {
+      "key": "b566-jack-h-denniston-evidence-review",
+      "person_id": "9250e2a1-4aad-5ef4-98e9-762231fe4030",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review the OSS index, complete Army-file scan, CIA and Library of Congress checkpoints, staged web results and archival leads for Jack H Denniston.",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T14:06:00Z",
+      "completed_at": "2026-09-16T14:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Two exact-name Army candidates with different birth years, entry dates, grades and occupations were preserved as alternatives; neither was attributed.",
+      "research_notes": "Two exact-name Army candidates with different birth years, entry dates, grades and occupations were preserved as alternatives; neither was attributed.",
+      "next_action": "Review Box 180 to distinguish the two exact-name Army candidates and establish any pre-OSS occupation or employer.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-566-v1"
+    },
+    {
+      "key": "b566-jack-h-denniston-synthesis",
+      "person_id": "9250e2a1-4aad-5ef4-98e9-762231fe4030",
+      "source_adapter": "reviewed_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Jack H Denniston.",
+      "query_variant_type": "terminal_outcome_synthesis",
+      "started_at": "2026-09-16T14:10:00Z",
+      "completed_at": "2026-09-16T14:12:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Terminal outcome: needs_identity_review. Two exact-name Army rows describe materially different men; neither carries a direct bridge to the Box 180 index record.",
+      "next_action": "Review Box 180 to distinguish the two exact-name Army candidates and establish any pre-OSS occupation or employer.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-566-v1"
+    },
+    {
+      "key": "b566-charles-p-denny-jr-evidence-review",
+      "person_id": "3d2a531e-4e68-55e9-a620-5da1ae8a053d",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review the OSS index, complete Army-file scan, CIA and Library of Congress checkpoints, staged web results and archival leads for Charles P Denny Jr..",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T14:06:00Z",
+      "completed_at": "2026-09-16T14:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "A February 1946 Evening Star image was rejected because the generic name hit did not establish identity, OSS service or pre-OSS employment.",
+      "research_notes": "A February 1946 Evening Star image was rejected because the generic name hit did not establish identity, OSS service or pre-OSS employment.",
+      "next_action": "Review Box 180 for full-name identifiers and pre-OSS chronology.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-566-v1"
+    },
+    {
+      "key": "b566-charles-p-denny-jr-synthesis",
+      "person_id": "3d2a531e-4e68-55e9-a620-5da1ae8a053d",
+      "source_adapter": "reviewed_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Charles P Denny Jr..",
+      "query_variant_type": "terminal_outcome_synthesis",
+      "started_at": "2026-09-16T14:10:00Z",
+      "completed_at": "2026-09-16T14:12:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Terminal outcome: requires_archival_review. The index establishes Charles P Denny Jr. in Box 180, but the LoC candidate was generic and postwar and lacked an OSS, identity or employment bridge.",
+      "next_action": "Review Box 180 for full-name identifiers and pre-OSS chronology.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-566-v1"
+    },
+    {
+      "key": "b566-philippe-a-denoailles-evidence-review",
+      "person_id": "f5b35619-eb87-565a-b9d0-70ee754ea86c",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review the OSS index, complete Army-file scan, CIA and Library of Congress checkpoints, staged web results and archival leads for Philippe A DeNoailles.",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T14:06:00Z",
+      "completed_at": "2026-09-16T14:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "A rare-name noble-family candidate was withheld because name similarity alone cannot establish the indexed person's identity.",
+      "research_notes": "A rare-name noble-family candidate was withheld because name similarity alone cannot establish the indexed person's identity.",
+      "next_action": "Review Box 180 for nationality, birth details, aliases and any wartime-service linkage before attributing a biography.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-566-v1"
+    },
+    {
+      "key": "b566-philippe-a-denoailles-synthesis",
+      "person_id": "f5b35619-eb87-565a-b9d0-70ee754ea86c",
+      "source_adapter": "reviewed_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Philippe A DeNoailles.",
+      "query_variant_type": "terminal_outcome_synthesis",
+      "started_at": "2026-09-16T14:10:00Z",
+      "completed_at": "2026-09-16T14:12:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Terminal outcome: needs_identity_review. A rare-name biographical candidate exists, but no official OSS, archival or protected-identifier bridge ties that person to the Box 180 record.",
+      "next_action": "Review Box 180 for nationality, birth details, aliases and any wartime-service linkage before attributing a biography.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-566-v1"
+    },
+    {
+      "key": "b566-anthony-denoia-evidence-review",
+      "person_id": "7eed6672-575e-506f-8e2c-ee0f0ac489ad",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review the OSS index, complete Army-file scan, CIA and Library of Congress checkpoints, staged web results and archival leads for Anthony DeNoia.",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T14:06:00Z",
+      "completed_at": "2026-09-16T14:10:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": null,
+      "research_notes": "Exact protected-identifier and name agreement confirmed the Army row; the occupation code supports a category, not an employer.",
+      "next_action": "Review Box 180 for a named employer and the chronology between Army entry and OSS service.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-566-v1"
+    },
+    {
+      "key": "b566-anthony-denoia-synthesis",
+      "person_id": "7eed6672-575e-506f-8e2c-ee0f0ac489ad",
+      "source_adapter": "reviewed_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Anthony DeNoia.",
+      "query_variant_type": "terminal_outcome_synthesis",
+      "started_at": "2026-09-16T14:10:00Z",
+      "completed_at": "2026-09-16T14:12:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Terminal outcome: occupation_only_found. An exact protected-identifier match in the complete Army file agrees with the indexed name after the transparent spacing variant De Noia.",
+      "next_action": "Review Box 180 for a named employer and the chronology between Army entry and OSS service.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-566-v1"
+    },
+    {
+      "key": "b566-charles-m-densler-evidence-review",
+      "person_id": "bd570f16-80fc-5d2f-ab66-16732dbbceb6",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review the OSS index, complete Army-file scan, CIA and Library of Congress checkpoints, staged web results and archival leads for Charles M Densler.",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T14:06:00Z",
+      "completed_at": "2026-09-16T14:10:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": null,
+      "research_notes": "No attributable identity or employer evidence was found; the short printed value was not forced into a service-number interpretation.",
+      "next_action": "Review Box 181 and the protected printed value for identity and pre-OSS chronology.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-566-v1"
+    },
+    {
+      "key": "b566-charles-m-densler-synthesis",
+      "person_id": "bd570f16-80fc-5d2f-ab66-16732dbbceb6",
+      "source_adapter": "reviewed_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Charles M Densler.",
+      "query_variant_type": "terminal_outcome_synthesis",
+      "started_at": "2026-09-16T14:10:00Z",
+      "completed_at": "2026-09-16T14:12:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Terminal outcome: requires_archival_review. The index establishes Charles M Densler in Box 181 and preserves a short printed private value, but accessible sources did not establish identity or employment.",
+      "next_action": "Review Box 181 and the protected printed value for identity and pre-OSS chronology.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-566-v1"
+    },
+    {
+      "key": "b566-frederick-e-densmore-evidence-review",
+      "person_id": "d9b22413-66c2-546c-82b7-1908e36f884d",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review the OSS index, complete Army-file scan, CIA and Library of Congress checkpoints, staged web results and archival leads for Frederick E Densmore.",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T14:06:00Z",
+      "completed_at": "2026-09-16T14:10:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "A plausible 1914-born Army candidate and University of Michigan graduate lead were withheld because no direct Box or OSS bridge was found.",
+      "research_notes": "A plausible 1914-born Army candidate and University of Michigan graduate lead were withheld because no direct Box or OSS bridge was found.",
+      "next_action": "Review Box 181 for birth year, education, Army identifiers and any pre-OSS employer before accepting the candidate.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-566-v1"
+    },
+    {
+      "key": "b566-frederick-e-densmore-synthesis",
+      "person_id": "d9b22413-66c2-546c-82b7-1908e36f884d",
+      "source_adapter": "reviewed_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Frederick E Densmore.",
+      "query_variant_type": "terminal_outcome_synthesis",
+      "started_at": "2026-09-16T14:10:00Z",
+      "completed_at": "2026-09-16T14:12:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Terminal outcome: needs_identity_review. One exact-name Army row and a University of Michigan graduate lead are plausible, but neither directly links to the Box 181 OSS index record.",
+      "next_action": "Review Box 181 for birth year, education, Army identifiers and any pre-OSS employer before accepting the candidate.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-566-v1"
+    },
+    {
+      "key": "b566-ralph-e-densmore-loc-timeout",
+      "person_id": "06ea271f-bb85-593a-a2c1-488645685db1",
+      "source_adapter": "loc",
+      "query_text": "\"Ralph E Densmore\" occupation employer",
+      "query_variant_type": "employment_occupation",
+      "started_at": "2026-09-16T14:03:00Z",
+      "completed_at": "2026-09-16T14:05:00Z",
+      "outcome": "error",
+      "sources_reviewed": 0,
+      "candidate_sources_rejected": 0,
+      "research_notes": "The final bounded Library of Congress request reached the configured read timeout. No response body or live payload was stored.",
+      "next_action": "Use the completed official and staged web checks now; retry LoC in a later bounded batch if needed.",
+      "last_error_redacted": "Library of Congress API read timed out after the configured bounded timeout.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss/batch-566-v1"
+    },
+    {
+      "key": "b566-ralph-e-densmore-evidence-review",
+      "person_id": "06ea271f-bb85-593a-a2c1-488645685db1",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review the OSS index, complete Army-file scan, CIA and Library of Congress checkpoints, staged web results and archival leads for Ralph E Densmore.",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T14:06:00Z",
+      "completed_at": "2026-09-16T14:10:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": null,
+      "research_notes": "No attributable employer or identity candidate survived the staged protocol; the final LoC request timed out and was recorded.",
+      "next_action": "Review Box 181 for identifiers, biography and pre-OSS employment chronology.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-566-v1"
+    },
+    {
+      "key": "b566-ralph-e-densmore-synthesis",
+      "person_id": "06ea271f-bb85-593a-a2c1-488645685db1",
+      "source_adapter": "reviewed_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Ralph E Densmore.",
+      "query_variant_type": "terminal_outcome_synthesis",
+      "started_at": "2026-09-16T14:10:00Z",
+      "completed_at": "2026-09-16T14:12:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Terminal outcome: requires_archival_review. The index establishes Ralph E Densmore in Box 181, but accessible official, archival and web sources did not establish a unique identity or employer.",
+      "next_action": "Review Box 181 for identifiers, biography and pre-OSS employment chronology.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-566-v1"
+    },
+    {
+      "key": "b566-robert-p-dent-loc-timeout",
+      "person_id": "df5cd92a-c30b-5693-9516-0d349473c334",
+      "source_adapter": "loc",
+      "query_text": "\"Robert P Dent\" occupation employer",
+      "query_variant_type": "employment_occupation",
+      "started_at": "2026-09-16T14:03:00Z",
+      "completed_at": "2026-09-16T14:05:00Z",
+      "outcome": "error",
+      "sources_reviewed": 0,
+      "candidate_sources_rejected": 0,
+      "research_notes": "The final bounded Library of Congress request reached the configured read timeout. No response body or live payload was stored.",
+      "next_action": "Use the completed official and staged web checks now; retry LoC in a later bounded batch if needed.",
+      "last_error_redacted": "Library of Congress API read timed out after the configured bounded timeout.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss/batch-566-v1"
+    },
+    {
+      "key": "b566-robert-p-dent-evidence-review",
+      "person_id": "df5cd92a-c30b-5693-9516-0d349473c334",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review the OSS index, complete Army-file scan, CIA and Library of Congress checkpoints, staged web results and archival leads for Robert P Dent.",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T14:06:00Z",
+      "completed_at": "2026-09-16T14:10:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": null,
+      "research_notes": "Exact protected-identifier and name agreement confirmed the Army row; the duplicate source rows were preserved and not counted as two people.",
+      "next_action": "Review Box 181 to explain the duplicate index rows and identify a named employer and pre-OSS chronology.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-566-v1"
+    },
+    {
+      "key": "b566-robert-p-dent-synthesis",
+      "person_id": "df5cd92a-c30b-5693-9516-0d349473c334",
+      "source_adapter": "reviewed_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Robert P Dent.",
+      "query_variant_type": "terminal_outcome_synthesis",
+      "started_at": "2026-09-16T14:10:00Z",
+      "completed_at": "2026-09-16T14:12:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Terminal outcome: occupation_only_found. An exact protected-identifier and exact-name Army match confirms the person; the two identical printed index rows remain separate and link to this one entity.",
+      "next_action": "Review Box 181 to explain the duplicate index rows and identify a named employer and pre-OSS chronology.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-566-v1"
+    }
+  ]
+}
