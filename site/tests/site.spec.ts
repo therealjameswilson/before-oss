@@ -91,6 +91,10 @@ test("directory search, commissioned filter, and URL state work", async ({ page 
 
 test("featured oil-company category lists employment relationships only", async ({ page }) => {
   await page.goto("./people/");
+  await expect(
+    page.getByRole("navigation", { name: "Primary navigation" })
+      .getByRole("link", { name: "Oil companies", exact: true }),
+  ).toHaveAttribute("href", /people\/\?featured=oil_companies&sort=name_asc$/);
   const category = page.getByRole("region", { name: "Oil company employees" });
   await expect(category).toBeVisible();
   await expect(category).toContainText(`${oilCompanyPeople.size} people`);
@@ -112,6 +116,23 @@ test("featured oil-company category lists employment relationships only", async 
   await expect(page.locator("#result-summary")).toContainText(
     `${stats.person_entities.toLocaleString("en-US")} results`,
   );
+});
+
+test("top oil-company category link opens only the documented employee set", async ({ page }) => {
+  await page.goto("./");
+  await page
+    .getByRole("navigation", { name: "Primary navigation" })
+    .getByRole("link", { name: "Oil companies", exact: true })
+    .click();
+
+  await expect(page).toHaveURL(/people\/\?featured=oil_companies&sort=name_asc$/);
+  await expect(page.locator("#result-summary")).toContainText(
+    `${oilCompanyPeople.size} results`,
+  );
+  await expect(page.locator(".person-result")).toHaveCount(oilCompanyPeople.size);
+  await expect(
+    page.getByRole("button", { name: /Show all personnel/i }),
+  ).toHaveAttribute("aria-pressed", "true");
 });
 
 test("direct person route preserves source evidence and masks serials", async ({ page }) => {
