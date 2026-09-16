@@ -112,6 +112,7 @@ produce identical database totals.
 
 ## Next cohort
 
-Resume with personnel-index PDF page 111 rows 46-55. Preserve every printed
+Resume with personnel-index PDF page 111 row 46 and page 112 rows 1-9. Page
+111 has only 46 personnel rows. Preserve every printed
 row, render the source region before research and keep any printed service
 identifier private.

@@ -128,4 +128,6 @@ python3 scripts/audit_public_identifiers.py --database research/research.sqlite 
 ```
 
 Batch 556 completes the protocol for page 111 rows 36-45. Research resumes
-with page 111 rows 46-55. The overall goal remains active.
+with page 111 row 46 and page 112 rows 1-9. Page 111 has 46 personnel rows;
+the earlier continuation note incorrectly implied rows 47-55 existed. The
+overall goal remains active.

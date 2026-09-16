@@ -2,27 +2,34 @@
 
 Verified against the current local SQLite database on 2026-09-15 UTC.
 
-Batch 551 is the current local release candidate. It adds ten terminal saved
-outcomes for personnel-index PDF page 110 rows 32-41, Clifford H DeFlumear
-through Lawrence DeGennaro, all in Box 176. Official Veterans History Project
-and Army sources support René J Defourneaux's Special Operations Executive
-predecessor and earlier tool-maker occupation without inventing an employer.
-Box-linked evidence supports Rene DeGaston's Polish military predecessor,
-earlier Sopot Casino employment and unnamed dock work as distinct findings. A
-contemporary account supports Claire de Forbin only as a probable identity;
-her Franco-American Service affiliation is visibly qualified and excluded
-from default analytics. Protected identifiers confirm three further Army
-identities, but publish only two qualified occupations because one official
-code is unmapped. Three people remain ambiguous or unresolved. Exact coverage
-is 5,278 / 23,940 researched, 577 verified affiliations, 256 verified
-employers, 5,233 archival dispositions assessed and 18,662 `not_started`. All
-95 Python tests, 63 focused checks, 18 core checks, 6 analysis checks and 27
-route-and-viewport axe cases pass. The ingest, profile, privacy, link,
-dependency, manifest and three-build reproducibility audits are green. See
-`reports/release_batch_551.md` and
-`research/batch-551-discovery-checkpoint.md`. Batch 550 remains the current
-exact-verified public release while Batch 551 proceeds through clean replay,
-review, merge, deployment and live verification. The goal remains active.
+Batch 557 is the current local release candidate. It adds ten terminal saved
+outcomes for personnel-index PDF page 111 row 46 and page 112 rows 1-9, Joseph
+H Delgoffe through John A Dellangelo, all in Box 178. Four protected
+identifiers confirm Army identities and support only broad qualified Army-entry
+occupations, never employers. The adjacent John W DelGreco rows remain separate
+in a visible possible-duplicate group. Marcel Delhomme is a high-confidence
+French sous-lieutenant/OSS match, while two official SHD dossiers remain
+unresolved. John A DeLisa's same-name Army candidate was rejected on identifier
+conflict; three further identities remain unresolved. Exact coverage is 5,337
+/ 23,940 researched, 582 verified affiliations, 258 verified employers, 5,292
+archival dispositions assessed and 18,603 `not_started`. All 95 Python tests,
+24 current-batch browser checks, 21 core checks, 6 analysis checks and 27
+route-and-viewport axe cases pass. Profile, privacy, link, manifest and three-
+build reproducibility audits are green. See `reports/release_batch_557.md` and
+`research/batch-557-discovery-checkpoint.md`. Batch 556 remains the current
+exact-verified public release while Batch 557 proceeds through review, merge,
+deployment and live verification. The goal remains active.
+
+Batch 556 is the current exact-verified public release. It adds ten terminal
+saved outcomes for personnel-index PDF page 111 rows 36-45, Bruce E DeLapp
+through Marion M DeLeva. Four protected identifiers confirm Army identities;
+three official codes support qualified broad occupations and one remains
+undefined. Institutional sources document qualified probable academic and
+engineering pathways for Gottfried Delatour and Jean P DeLaValdene. French
+archival leads remain explicit for DuRanzet DelaRoche and Rene Delbos, and two
+name-only cases remain unresolved. Pull request #253 merged as main commit
+`143f0e0ff2c59b15ca6286c7284e7fdc6e3b352e`; the deployed site and its public
+data were verified live before Batch 557 began. The goal remains active.
 
 Batch 550 is the current exact-verified public release. It adds ten terminal
 saved outcomes for personnel-index PDF page 110 rows 22-31, Kathleen M Dees
