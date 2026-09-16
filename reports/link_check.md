@@ -1,6 +1,25 @@
 # Link check
 
-Run: 2026-09-15 UTC
+Run: 2026-09-16 UTC
+
+## Batch 560 release candidate
+
+All internal targets resolve across 24,604 HTML pages; 50,036 external URLs
+are inventoried, not all visited. Identifier checks cover all 24,676 built
+artifacts, 12,926 normalized identifiers, 120 formatted variants and 1,102
+candidate substring coincidences, with zero unexpected boundary, aggregate or
+manifest-size matches. The public manifest has 67 assets / 94,696,156 bytes at
+SHA-256 `c7c93542fda309728e0eeba58e0683248ff19d739241291d5be76dd06f0bfdff`.
+Under the relative-path/content digest, the 70-file public tree is
+`7c2ebc3cc748e68b59c6f7a0139606131aeccdcb356a24510ec68302c2c17e51`;
+the 24,676-file production tree is
+`45e9b88b59258afe91ca49ecb38fdc66848e8441acf1fd49d3d81a7b66bca2dc`.
+Two consecutive builds reproduce the production tree. Seven bundle sources
+support René Demarcq's qualified immediate student status, three confirmed
+Army identities and three qualified Army-entry occupations. No employer is
+inferred. No authenticated Catalog request was used. Batch 559 remains the
+exact-verified public research release until Batch 560 passes clean replay,
+CI, deployment and independent live verification.
 
 ## Batch 550 release candidate
 

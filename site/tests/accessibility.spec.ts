@@ -24,7 +24,7 @@ for (const route of [
     // The sources table grows with every reviewed batch; give axe enough time
     // to inspect the complete rendered citation list on slower CI runners.
     if (route === "sources/") {
-      test.setTimeout(90_000);
+      test.setTimeout(180_000);
     }
     await page.goto(`./${route}`);
     if (route === "people/") {

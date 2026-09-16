@@ -1,8 +1,22 @@
 # Accessibility and responsive QA
 
-Run: 2026-09-15 UTC
+Run: 2026-09-16 UTC
 
 ## Result
+
+Batch 560: the focused cohort suite passed all 24 checks across desktop, phone
+and tablet. It verifies ten immutable page 112 rows; seven masked private
+values; René Demarcq's high-confidence identity and explicit immediate student
+status without a school or employer; three accepted identifier-and-name Army
+identities; three qualified entry-time occupation findings without employers;
+and two separate Henry A DeMarey entities in a visible possible-duplicate
+group. The bounded core suite passed 24/24, including the oil-company category,
+and the analysis suite passed 6/6. After increasing the large Sources route's
+bound to reflect measured 26.6-28.4 second axe scans, the final CI-mode
+accessibility suite passed 27/27 in 1.9 minutes with no serious violations.
+Astro checked 185 source files with zero errors, warnings or hints and generated
+24,604 HTML pages / 24,676 artifacts. Two consecutive GitHub Pages-configured
+builds reproduced the production tree byte for byte.
 
 Batch 550: the focused cohort suite passed all 57 checks across desktop, phone
 and tablet. It verifies ten immutable page 110 rows; four masked private values;
