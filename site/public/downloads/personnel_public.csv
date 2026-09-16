@@ -564,7 +564,7 @@ b2b098d0-36b9-5306-b4e7-c810a4bfc90f,Alfred Magone,Magone,Alfred,unresolved,enli
 ccda3ab9-f651-5dde-b757-227cca8a4532,Alfred N Sangari,Sangari,Alfred,unresolved,enlisted_army_personnel,False,not_started,1,408,676,230/86/40/01,
 caff86ae-4b70-5344-9b3d-8e2f71c81243,Alfred N Sanzari,Sanzari,Alfred,unresolved,enlisted_army_personnel,False,not_started,1,409,677,230/86/40/01,••••0780
 3711608f-c2e2-59a1-8733-7ce4daf72d11,Alfred P Daignault,Daignault,Alfred,confirmed,enlisted_army_personnel,False,occupation_only_found,1,103,164,230/86/29/05,••••3533
-1a5a6a85-de3c-5cf6-ae88-30abdceaa08a,Alfred P Dennis,Dennis,Alfred,unresolved,unknown_or_indeterminate,,not_started,1,113,180,230/86/29/07,
+1a5a6a85-de3c-5cf6-ae88-30abdceaa08a,Alfred P Dennis,Dennis,Alfred,unresolved,unknown_or_indeterminate,,requires_archival_review,1,113,180,230/86/29/07,
 02cbd337-3848-538d-bb46-59534d055fd6,Alfred P Wehren,Wehren,Alfred,unresolved,unknown_or_indeterminate,,not_started,1,494,822,230/86/43/01,
 b47f4bff-6090-505d-88d0-c4a89900d368,Alfred R Switgall,Switgall,Alfred,unresolved,unknown_or_indeterminate,,not_started,1,458,762,230/86/41/06,••••3197
 a745c018-dbd0-5c30-ad4a-63605b4bf09e,Alfred Reifman,Reifman,Alfred,unresolved,commissioned_army_officer,True,not_started,1,387,638,230/86/39/03,••••6085
@@ -1165,7 +1165,7 @@ d301cfab-642d-5749-b293-8fe87e6655ea,Anthony J Barrett,Barrett,Anthony,unresolve
 a964fca6-9e82-51b6-a2ff-3586f1b75888,Anthony J Budraitis,Budraitis,Anthony,confirmed,enlisted_army_personnel,False,occupation_only_found,1,59,91,230/86/28/01,••••5632
 fda85ada-1838-5035-b8ac-77cf9819e48e,Anthony J DeCicco,DeCicco,Anthony,unresolved,unknown_or_indeterminate,,no_reliable_result_after_protocol,1,110,175,230/86/29/06,••••0817
 4baee0d9-0d1a-52dc-bcfe-26934b4a20f9,Anthony J Demaio,Demaio,Anthony,confirmed,enlisted_army_personnel,False,occupation_only_found,1,112,179,230/86/29/07,••••2577
-6bb9b4f1-cdae-5a5f-962c-9654281f0722,Anthony J Denneau,Denneau,Anthony,unresolved,enlisted_army_personnel,False,not_started,1,113,180,230/86/29/07,••••7373
+6bb9b4f1-cdae-5a5f-962c-9654281f0722,Anthony J Denneau,Denneau,Anthony,confirmed,enlisted_army_personnel,False,occupation_only_found,1,113,180,230/86/29/07,••••7373
 da6bb68e-f6c6-534a-b04b-f6f2e21aa957,Anthony J Facciolo,Facciolo,Anthony,unresolved,unknown_or_indeterminate,,not_started,1,139,226,230/86/30/07,••••7547
 94e392eb-0890-5562-9dfc-a9fa153dd660,Anthony J Gallo,Gallo,Anthony,unresolved,unknown_or_indeterminate,,not_started,1,160,259,230/86/31/05,••••7650
 d29e39fe-d977-5ad2-ac5d-b1c9b702d78c,Anthony J Gibella,Gibella,Anthony,unresolved,unknown_or_indeterminate,,not_started,1,168,271,230/86/31/06,••••4476
@@ -3862,7 +3862,7 @@ fc7008c4-a612-55de-bbf2-b16d109002ad,Daniel B Desich,Desich,Daniel,unresolved,un
 5590f910-2498-563e-9bb3-971bbefdd108,Daniel B Heyl,Heyl,Daniel,unresolved,unknown_or_indeterminate,,not_started,1,206,331,230/86/33/01,
 45f0c866-ec38-5c65-a3f7-f4775d326cb1,Daniel Bender,Bender,Daniel,confirmed,enlisted_army_personnel,False,occupation_only_found,1,31,48,230/86/27/02,••••2915
 01c42fc5-95f0-5df3-adbd-66e1870a58f2,Daniel C Buchanan,Buchanan,Daniel,high_confidence,unknown_or_indeterminate,,completed,1,58,90,230/86/28/01,
-ff8d9423-3d2c-51cf-be95-7c5e2ddab8ac,Daniel C Dennet Jr.,Dennet,"Daniel, Jr.",unresolved,unknown_or_indeterminate,,not_started,1,113,180,230/86/29/07,
+ff8d9423-3d2c-51cf-be95-7c5e2ddab8ac,Daniel C Dennet Jr.,Dennet,"Daniel, Jr.",high_confidence,unknown_or_indeterminate,,documented_prewar_employer_found,1,113,180,230/86/29/07,
 1ff2cbc5-97b2-5caf-9eb0-52e891b47db5,Daniel C Gilmartin,Gilmartin,Daniel,unresolved,unknown_or_indeterminate,,not_started,1,169,273,230/86/31/06,
 29939c06-bc66-5d6c-ae17-3189c15cf607,Daniel C Shields,Shields,Daniel,unresolved,unknown_or_indeterminate,,not_started,1,424,705,230/86/40/05,
 3f7a9fc8-a061-511e-9adc-195f7e0575bc,Daniel D Hunter,Hunter,Daniel,unresolved,commissioned_army_officer,True,not_started,1,221,358,230/86/33/05,••••5325
@@ -4414,7 +4414,7 @@ c92aff9b-5b9f-5560-ba49-fc75a868ff3e,Donald J Cartwright,Cartwright,Donald,unres
 d3f9beb5-abf3-58a9-917c-6ae1c3be4d4f,Donald J Cox,Cox,Donald,confirmed,enlisted_army_personnel,False,occupation_only_found,1,96,150,230/86/29/03,••••2766
 1e569e97-758d-5ce7-a2b0-d7a062fe81bb,Donald J Crane,Crane,Donald,unresolved,unknown_or_indeterminate,,requires_archival_review,1,97,152,230/86/29/03,
 149e4a21-1703-5ddb-98d5-91d28cf3a9cf,Donald J Davidson,Davidson,Donald,confirmed,enlisted_army_personnel,False,occupation_only_found,1,106,168,230/86/29/05,••••0945
-9206b213-e887-511d-a1c4-02d21752425e,Donald J Dennhardt,Dennhardt,Donald,unresolved,unknown_or_indeterminate,,not_started,1,113,180,230/86/29/07,••••4800
+9206b213-e887-511d-a1c4-02d21752425e,Donald J Dennhardt,Dennhardt,Donald,confirmed,enlisted_army_personnel,False,occupation_only_found,1,113,180,230/86/29/07,••••4800
 a044d219-cd45-5355-97c9-9ab2cb92c0ba,Donald J Fugitt,Fugitt,Donald,unresolved,enlisted_army_personnel,False,not_started,1,158,254,230/86/31/04,••••4652
 3968d693-7ffc-5a20-a4ba-70e4d3645508,Donald J Hall,Hall,Donald,unresolved,unknown_or_indeterminate,,not_started,1,188,305,230/86/32/04,••••8358
 a3118ad8-b0b2-532f-91b3-f52585447209,Donald J Haselfeld,Haselfeld,Donald,unresolved,unknown_or_indeterminate,,not_started,1,197,318,230/86/32/06,••••5642
@@ -5160,7 +5160,7 @@ dd2bc6f0-4f73-530b-9945-907f7b321b05,Edward J Clinton,Clinton,Edward,unresolved,
 9597340e-98ff-53e3-8a82-59cb7edd653d,Edward J Czop,Czop,Edward,confirmed,enlisted_army_personnel,False,occupation_only_found,1,103,162,230/86/29/05,••••9631
 e7978ab6-aac5-5e97-9dd7-2bd37f556ccb,Edward J Dajewski,Dajewski,Edward,unresolved,unknown_or_indeterminate,,requires_archival_review,1,103,164,230/86/29/05,••••2401
 96fdbd36-d557-5870-8510-07af0a370858,Edward J Danielewicz,Danielewicz,Edward,ambiguous,commissioned_army_officer,True,requires_archival_review,1,105,166,230/86/29/05,••••2133
-f3de5438-6446-580a-a53c-454fcbabe8d4,Edward J Dennis,Dennis,Edward,unresolved,unknown_or_indeterminate,,not_started,1,113,180,230/86/29/07,••••7215
+f3de5438-6446-580a-a53c-454fcbabe8d4,Edward J Dennis,Dennis,Edward,confirmed,enlisted_army_personnel,False,requires_archival_review,1,113,180,230/86/29/07,••••7215
 fa268820-3371-51b3-84a5-3ef90973aa63,Edward J Donlon,Donlon,Edward,unresolved,unknown_or_indeterminate,,not_started,1,121,193,230/86/30/02,••••3265
 4795e5aa-be15-5ce7-9c64-3328916cb381,Edward J Donnelly,Donnelly,Edward,unresolved,unknown_or_indeterminate,,not_started,1,121,193,230/86/30/02,••••6057
 e32b8497-b86e-5362-aa68-5abb31c7c458,Edward J Durkin,Durkin,Edward,unresolved,unknown_or_indeterminate,,not_started,1,129,207,230/86/30/04,••••4012
@@ -10658,7 +10658,7 @@ b9883af7-7ab7-5b23-b8c8-2dc9cf3ac401,James A Aiken,Aiken,James,unresolved,enlist
 e359488c-4462-50f2-bb29-7954c00d2ae6,James A Creel,Creel,James,ambiguous,unknown_or_indeterminate,,needs_identity_review,1,98,153,230/86/29/03,
 eca1a09c-d2c8-5464-bf0e-ca64bd30c31e,James A Cryer Jr.,Cryer,"James, Jr.",confirmed,enlisted_army_personnel,False,occupation_only_found,1,100,157,230/86/29/04,••••0927
 f8810526-dfbe-5d21-abb7-cd54431c0d01,James A Davis,Davis,James,unresolved,unknown_or_indeterminate,,no_reliable_result_after_protocol,1,107,170,230/86/29/06,••••4343
-f95dcbe9-afee-568d-a7b9-62ad20ca43f5,James A Dennis,Dennis,James,unresolved,commissioned_army_officer,True,not_started,1,113,180,230/86/29/07,••••1806
+f95dcbe9-afee-568d-a7b9-62ad20ca43f5,James A Dennis,Dennis,James,unresolved,commissioned_army_officer,True,requires_archival_review,1,113,180,230/86/29/07,••••1806
 43827afe-5599-5403-b8a7-93dfe28e00cb,James A Fogarty,Fogarty,James,unresolved,unknown_or_indeterminate,,not_started,1,149,241,230/86/31/02,••••3896
 cb46455e-04c4-5129-ad89-794f23589237,James A Fogarty,Fogarty,James,unresolved,unknown_or_indeterminate,,not_started,1,149,241,230/86/31/02,••••1189
 3a98be84-829a-5e18-a2cc-3f9f58308626,James A Ford,Ford,James,unresolved,unknown_or_indeterminate,,not_started,1,150,243,230/86/31/02,
@@ -10919,7 +10919,7 @@ e510eaf0-8943-535d-8a60-b4715e6d368b,James H Brodie,Brodie,James,probable,unknow
 aae3cf9d-f551-5260-82ad-2cb06d163ec2,James H Chu,Chu,James,high_confidence,enlisted_army_personnel,False,occupation_only_found,1,81,124,230/86/28/06,••••3620
 add0d4e3-e23c-5f07-b1e9-af0150087ab6,James H Cornell Jr.,Cornell,"James, Jr.",ambiguous,unknown_or_indeterminate,,requires_archival_review,1,93,145,230/86/29/02,
 7546cd85-f1e5-5f15-b033-5897f92d414a,James H Costigan,Costigan,James,unresolved,unknown_or_indeterminate,,requires_archival_review,1,94,147,230/86/29/02,
-f6af9284-77a9-56f5-aef5-52534a83791b,James H Dennis,Dennis,James,unresolved,unknown_or_indeterminate,,not_started,1,113,180,230/86/29/07,••••0930
+f6af9284-77a9-56f5-aef5-52534a83791b,James H Dennis,Dennis,James,confirmed,enlisted_army_personnel,False,requires_archival_review,1,113,180,230/86/29/07,••••0930
 b734cbc0-0844-5875-8f87-d127316b4d35,James H Dummer,Dummer,James,unresolved,unknown_or_indeterminate,,not_started,1,127,203,230/86/30/03,••••4774
 20d8ecdb-f257-5df7-9315-cd02e12717bc,James H Dunaway Jr.,"Dunaway, Jr.",James,unresolved,unknown_or_indeterminate,,not_started,1,127,204,230/86/30/04,
 6030a308-8a05-5d33-bb3d-b5fd8d467da2,James H Dyas,Dyas,James,unresolved,unknown_or_indeterminate,,not_started,1,129,208,230/86/30/04,••••1473
@@ -11191,7 +11191,7 @@ cada8583-a8fa-513f-90ff-e0517b94b62a,James S Arnold,Arnold,James,unresolved,comm
 3e962aee-cba6-58e1-9ff6-be60be3c9201,James S Bell,Bell,James,unresolved,civilian_professional_or_administrative_grade,False,requires_archival_review,1,30,47,230/86/27/02,
 c62ad924-7552-571c-81de-d64b0278240e,James S Cullison,Cullison,James,probable,unknown_or_indeterminate,,documented_prewar_employer_found,1,100,158,230/86/29/04,••••2297
 2f1e43d7-5fb0-5276-bb7b-acad1078bceb,James S Cusick,Cusick,James,ambiguous,unknown_or_indeterminate,,needs_identity_review,1,102,161,230/86/29/04,••••5985
-8effbe20-4379-57cd-becd-326ebd8a3de4,James S Dennis,Dennis,James,unresolved,unknown_or_indeterminate,,not_started,1,113,180,230/86/29/07,
+8effbe20-4379-57cd-becd-326ebd8a3de4,James S Dennis,Dennis,James,unresolved,unknown_or_indeterminate,,requires_archival_review,1,113,180,230/86/29/07,
 2d9c344c-84f1-5395-8f02-66975e53b9f1,James S Farrior Jr.,Farrior,"James, Jr.",unresolved,unknown_or_indeterminate,,not_started,1,141,229,230/86/30/07,
 05ba5a28-6f04-59b8-9423-2af4dd393b1c,James S Jeffers,Jeffers,James,unresolved,unknown_or_indeterminate,,not_started,1,229,371,230/86/33/06,••••4014
 a3f3cc39-c34e-5f06-b235-d764fdc69fce,James S Kavourhas,Kavourhas,James,unresolved,enlisted_army_personnel,False,not_started,1,243,394,230/86/34/03,••••3679
@@ -12474,7 +12474,7 @@ ea835bdd-af4f-5c5b-afbd-5c5d9cbb619b,John M Cassin,Cassin,John,conflicting,unkno
 6648b6f7-0043-5018-98da-8d0087a41f69,John M Clark,Clark,John,confirmed,enlisted_army_personnel,False,occupation_only_found,1,82,127,230/86/28/07,••••5569
 ab8bc172-1b16-5d39-83eb-c14640bb53c0,John M Cochran,Cochran,John,unresolved,unknown_or_indeterminate,,requires_archival_review,1,85,131,230/86/28/07,
 a929b4f2-9c2d-5e01-b8bd-b14e6b5ef237,John M Corbett,Corbett,John,unresolved,unknown_or_indeterminate,,requires_archival_review,1,92,143,230/86/29/02,••••5480
-b5f771d9-823a-53ef-b17e-bfd0c260c114,John M Dennis,Dennis,John,unresolved,unknown_or_indeterminate,,not_started,1,113,180,230/86/29/07,••••9106
+b5f771d9-823a-53ef-b17e-bfd0c260c114,John M Dennis,Dennis,John,confirmed,enlisted_army_personnel,False,occupation_only_found,1,113,180,230/86/29/07,••••9106
 aec04724-b0f3-5a6b-8d82-a71466804cd6,John M DeSaussure,DeSaussure,John,unresolved,unknown_or_indeterminate,,not_started,1,115,182,230/86/29/07,••••7686
 4dc5ec08-d157-54ef-aeab-0061112e5e56,John M Dimick,Dimick,John,unresolved,unknown_or_indeterminate,,not_started,1,118,188,230/86/30/01,
 f38583b2-8274-530a-afd9-d8e28aa46240,John M Durbin,Durbin,John,unresolved,unknown_or_indeterminate,,not_started,1,128,207,230/86/30/04,••••5888
@@ -23035,7 +23035,7 @@ e0365f40-d2e7-5b3d-8852-b1b7e56f1831,William D Ticknor,Ticknor,William,unresolve
 a699fb3f-fdb2-5f46-b13f-787bda39291e,William D Wood,Wood,William,unresolved,unknown_or_indeterminate,,not_started,1,512,851,230/86/43/05,••••6516
 40e47078-c0b2-57a2-abb8-d6067da31aa7,William Dan Harrison,Harrison,William Dan,unresolved,unknown_or_indeterminate,,not_started,1,196,316,230/86/32/06,
 d0b62865-623d-5a43-863f-7f1bcea90305,William Dean,Dean,William,unresolved,unknown_or_indeterminate,,requires_archival_review,1,109,174,230/86/29/06,••••9731
-59c682ab-bb74-5fc5-9f42-6922c12ddc94,William Denit,Denit,William,unresolved,unknown_or_indeterminate,,not_started,1,113,180,230/86/29/07,
+59c682ab-bb74-5fc5-9f42-6922c12ddc94,William Denit,Denit,William,probable,unknown_or_indeterminate,,documented_prewar_employer_found,1,113,180,230/86/29/07,
 d312d6af-94a7-51cb-8140-767acc5c38f6,William Diebod Jr.,"Diebod,Jr.",William,unresolved,unknown_or_indeterminate,,not_started,1,117,186,230/86/30/01,••••8786
 36d0ba4c-91fe-5a8f-96e1-5b2bfcc09d2d,William Disanza,Disanza,William,unresolved,unknown_or_indeterminate,,not_started,1,119,189,230/86/30/01,••••9916
 11d3bb29-f208-5d9d-8455-11e668201e89,William Donov Harrison,Harrison,William Donov,unresolved,unknown_or_indeterminate,,not_started,1,196,316,230/86/32/06,

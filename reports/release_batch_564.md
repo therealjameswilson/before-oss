@@ -133,7 +133,14 @@ counts are 2,284 commissioned, 6,035 not commissioned and 15,621 unknown.
 
 ## Publication verification
 
-Pending pull-request, main-branch and unauthenticated live-site verification.
+Pull request #262 merged as main commit
+`3c45b895dd5d57c3054e88dda0151907e5a7efc6`. PR Test run 35098234639,
+main Test run 35099119811 and Pages run 35099119629 succeeded. The
+unauthenticated live verifier matched all 67 manifest assets, 95,001,097
+bytes, seven core routes and ten direct Batch 564 profiles at manifest
+SHA-256 `3c9238c1673df75029b9eec1d759ca22053be3270b0918e414346dbb26e9ad6b`.
+The live directory also exposes the tested top-level `Oil companies` link and
+the `Oil company employees` featured category for seven documented people.
 
 ## Resume commands
 
