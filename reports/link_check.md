@@ -13115,3 +13115,17 @@ and URL-encoded canonical-host normalization. The live manifest and all 65
 listed assets matched local bytes, sizes, and SHA-256 values; 68,575,591 bytes
 were verified with zero mismatches. The live manifest SHA-256 is
 `6f937ae2eec5f57811f781280f42e24f296363c69dbdafab70218c78f1428129`.
+
+## Batch 561 local link, manifest and redaction check
+
+The static build contains 24,604 HTML files, including direct pages for all
+23,940 active person entities and the ten Batch 561 profiles. Every internal
+link resolves; 50,036 unique external URLs were inventoried for separate live
+checking. The public-manifest guard verified 67 assets and 94,770,534 bytes at
+manifest SHA-256
+`400075865ee2b5cee293fc4fdf686854f64b95f0c369779d40753a557236ac4e`.
+
+The boundary-aware audit compared 12,926 normalized private identifiers and
+120 formatted variants across all 24,676 production artifacts, rejected 1,101
+substring coincidences, and found zero unexpected boundary, aggregate or
+manifest-size matches.

@@ -5880,3 +5880,14 @@ repeated the complete 453 / 453 matrix successfully for Batch 136 release
 also completed successfully. All 17 audited live routes returned HTTP 200 and
 matched their local accessible HTML after development and production
 canonical-host normalization.
+
+## Batch 561 accessibility and responsive regression
+
+The bounded release suite passed 81 / 81 checks: 24 Batch 561 data and privacy
+assertions, 24 core interaction checks, 6 analysis checks and 27 axe scans. The
+matrix covers desktop, phone and tablet widths. It verifies all ten new direct
+profiles, both source pages, five masked private values, the Samuel F
+Demastrie conflict, and the refusal to pad Leon M Demers's seven-digit source
+value. The student findings remain institutional status rather than
+employment. All 27 axe scans reported no serious violations; the Sources route
+completed in 25.4-26.1 seconds.
