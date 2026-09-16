@@ -1,35 +1,47 @@
 # Research status
 
-Verified against the current local SQLite database on 2026-09-15 UTC.
+Verified against the current local SQLite database on 2026-09-16 UTC.
 
-Batch 557 is the current local release candidate. It adds ten terminal saved
-outcomes for personnel-index PDF page 111 row 46 and page 112 rows 1-9, Joseph
-H Delgoffe through John A Dellangelo, all in Box 178. Four protected
+Batch 558 is the current local release candidate. It adds nine newly terminal
+saved outcomes for personnel-index PDF page 112 rows 10-19, Angelo J Dell'Anno
+through Alfonso DeLuca, and supplements Jacques Delmas's existing terminal
+record without erasing its earlier fourteen attempts. Exact protected-
+identifier and name agreement confirms John S Delphenich and Peter J Delpome;
+their official Army-entry codes support only qualified student and metal-
+finishing statuses, never employers. A direct 1944-1945 London OSS roster also
+confirms Delphenich. Exact identifier plus the close surname variant confirms
+Roland C DeLormae as Army-record Roland C Delorme, but that 1946 row is used
+only for identity resolution. Angelo J Dell'Anno and Angelo J Dellano remain
+separate in a visible possible-duplicate group after an identifier collision.
+The printed `Geroge Delmas` spelling remains primary while three Georges Delmas
+and five Jacques Delmas official French resistance dossiers remain unresolved
+archival leads. Exact coverage is 5,346 / 23,940 researched, 582 verified
+affiliations, 258 verified employers, 5,301 archival dispositions assessed and
+18,594 `not_started`. The private database contains 2,125 affiliations, 669
+organizations, 4,753 citations, 4,411 claims, 9,210 attempts and 10,382 claim-
+source links; public data contains 2,112 affiliations, 656 organizations, 3,570
+sources and 4,236 claims. See `reports/release_batch_558.md` and
+`research/batch-558-discovery-checkpoint.md`. The release also repairs the
+review invariant for one older open serial-conflict group; all 250 possible-
+duplicate groups now retain manual-review status. All 95 Python tests, 78
+bounded browser checks, the 200-profile audit, identifier audit, link audit,
+manifest guard and three-build reproducibility check pass. Batch 557 remains
+the current exact-verified public release while Batch 558 proceeds through
+review, merge, deployment and live verification. The goal remains active.
+
+Batch 557 is the current exact-verified public release. It adds ten terminal
+saved outcomes for personnel-index PDF page 111 row 46 and page 112 rows 1-9,
+Joseph H Delgoffe through John A Dellangelo, all in Box 178. Four protected
 identifiers confirm Army identities and support only broad qualified Army-entry
 occupations, never employers. The adjacent John W DelGreco rows remain separate
 in a visible possible-duplicate group. Marcel Delhomme is a high-confidence
 French sous-lieutenant/OSS match, while two official SHD dossiers remain
 unresolved. John A DeLisa's same-name Army candidate was rejected on identifier
-conflict; three further identities remain unresolved. Exact coverage is 5,337
-/ 23,940 researched, 582 verified affiliations, 258 verified employers, 5,292
-archival dispositions assessed and 18,603 `not_started`. All 95 Python tests,
-24 current-batch browser checks, 21 core checks, 6 analysis checks and 27
-route-and-viewport axe cases pass. Profile, privacy, link, manifest and three-
-build reproducibility audits are green. See `reports/release_batch_557.md` and
-`research/batch-557-discovery-checkpoint.md`. Batch 556 remains the current
-exact-verified public release while Batch 557 proceeds through review, merge,
-deployment and live verification. The goal remains active.
-
-Batch 556 is the current exact-verified public release. It adds ten terminal
-saved outcomes for personnel-index PDF page 111 rows 36-45, Bruce E DeLapp
-through Marion M DeLeva. Four protected identifiers confirm Army identities;
-three official codes support qualified broad occupations and one remains
-undefined. Institutional sources document qualified probable academic and
-engineering pathways for Gottfried Delatour and Jean P DeLaValdene. French
-archival leads remain explicit for DuRanzet DelaRoche and Rene Delbos, and two
-name-only cases remain unresolved. Pull request #253 merged as main commit
-`143f0e0ff2c59b15ca6286c7284e7fdc6e3b352e`; the deployed site and its public
-data were verified live before Batch 557 began. The goal remains active.
+conflict; three further identities remain unresolved. Pull request #254 merged
+as main commit `a28c377c7e5371a944dd2bec4df2d09ffb7b0fbb`; main Test run
+35052919006 and Pages run 35052919005 succeeded. The live verifier matched all
+67 manifest assets, 94,477,888 bytes, seven core routes and ten direct Batch 557
+profiles. The goal remains active.
 
 Batch 550 is the current exact-verified public release. It adds ten terminal
 saved outcomes for personnel-index PDF page 110 rows 22-31, Kathleen M Dees

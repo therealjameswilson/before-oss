@@ -202,7 +202,9 @@ class ReviewedEvidenceTests(unittest.TestCase):
         )
         self.assertEqual(person["commissioned_officer"], 0)
         self.assertEqual(person["allied_or_foreign_personnel"], 0)
-        self.assertEqual(person["manual_review_required"], 0)
+        # An open duplicate group always keeps the person in manual review,
+        # even if a reviewed evidence bundle confirms one identity candidate.
+        self.assertEqual(person["manual_review_required"], 1)
         self.assertEqual(
             person["possible_duplicate_group"],
             "test-duplicate-group",
