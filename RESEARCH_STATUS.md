@@ -2,32 +2,38 @@
 
 Verified against the current local SQLite database on 2026-09-16 UTC.
 
-Batch 558 is the current local release candidate. It adds nine newly terminal
-saved outcomes for personnel-index PDF page 112 rows 10-19, Angelo J Dell'Anno
-through Alfonso DeLuca, and supplements Jacques Delmas's existing terminal
-record without erasing its earlier fourteen attempts. Exact protected-
-identifier and name agreement confirms John S Delphenich and Peter J Delpome;
-their official Army-entry codes support only qualified student and metal-
-finishing statuses, never employers. A direct 1944-1945 London OSS roster also
-confirms Delphenich. Exact identifier plus the close surname variant confirms
-Roland C DeLormae as Army-record Roland C Delorme, but that 1946 row is used
-only for identity resolution. Angelo J Dell'Anno and Angelo J Dellano remain
-separate in a visible possible-duplicate group after an identifier collision.
-The printed `Geroge Delmas` spelling remains primary while three Georges Delmas
-and five Jacques Delmas official French resistance dossiers remain unresolved
-archival leads. Exact coverage is 5,346 / 23,940 researched, 582 verified
-affiliations, 258 verified employers, 5,301 archival dispositions assessed and
-18,594 `not_started`. The private database contains 2,125 affiliations, 669
-organizations, 4,753 citations, 4,411 claims, 9,210 attempts and 10,382 claim-
-source links; public data contains 2,112 affiliations, 656 organizations, 3,570
-sources and 4,236 claims. See `reports/release_batch_558.md` and
-`research/batch-558-discovery-checkpoint.md`. The release also repairs the
-review invariant for one older open serial-conflict group; all 250 possible-
-duplicate groups now retain manual-review status. All 95 Python tests, 78
-bounded browser checks, the 200-profile audit, identifier audit, link audit,
-manifest guard and three-build reproducibility check pass. Batch 557 remains
-the current exact-verified public release while Batch 558 proceeds through
-review, merge, deployment and live verification. The goal remains active.
+Batch 561 is the current local release candidate. It adds ten terminal saved
+outcomes for personnel-index PDF page 112 rows 40-46 and page 113 rows 1-3,
+George C Demas through Leon M Demers, all in Box 179. Exact protected-
+identifier and name agreement confirms John Demas Jr., Joseph A Dematteo and
+Gilbert Dementis as enlisted Army personnel. Official code tables support two
+qualified student statuses and one machinist occupation recorded at Army
+entry; none names an employer. Samuel F Demastrie retains an explicit
+identifier-name conflict, with all unrelated subject details withheld. Leon M
+Demers's seven-digit source value is preserved exactly and not padded to select
+a name-only Army candidate. Six people require archival review. Exact coverage
+is 5,376 / 23,940 researched, 583 verified affiliations, 258 verified
+employers, 5,331 archival dispositions assessed and 18,564 `not_started`. The
+private database contains 2,134 affiliations, 669 organizations, 4,768
+citations, 4,458 claims, 9,360 attempts and 10,461 claim-source links; public
+data contains 2,121 affiliations, 656 organizations, 3,583 sources and 4,283
+claims. See `reports/release_batch_561.md` and
+`research/batch-561-discovery-checkpoint.md`. All 95 Python tests, 81 bounded
+browser checks, the 200-profile audit, identifier audit, link audit and
+manifest guard pass. A detached clean-room replay from commit `9f3139e`
+regenerated the exact database totals and reproduced the 70-file public tree
+and 24,676-file production tree byte for byte. Batch 560 remains the current
+exact-verified public release while Batch 561 proceeds through review, merge,
+deployment and live verification. The goal remains active.
+
+Batch 560 is the current exact-verified public release. It adds ten terminal
+saved outcomes for personnel-index PDF page 112 rows 30-39, William H Demant
+through Joseph R Demartino. Pull request #258 merged as main commit
+`a413d0f749a429bc91f21645917c52f7ba33b26b`; main Test run 35069886436 and
+Pages run 35069886411 succeeded. The live verifier matched all 67 manifest
+assets, 94,696,184 bytes, seven core routes and ten direct Batch 560 profiles.
+The live oil-company category also returned its seven documented employees.
+The goal remains active.
 
 Batch 557 is the current exact-verified public release. It adds ten terminal
 saved outcomes for personnel-index PDF page 111 row 46 and page 112 rows 1-9,

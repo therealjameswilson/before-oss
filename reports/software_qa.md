@@ -11076,3 +11076,18 @@ The workflows emitted one non-failing platform annotation: several pinned
 GitHub Actions still declare the deprecated Node.js 20 runtime and were forced
 by the runner to Node.js 24. The repository's test job explicitly uses Node.js
 24, and the annotation did not affect the successful build or test results.
+
+## Batch 561 software QA
+
+The source bundle validates and reimports idempotently: four sources, three
+affiliations, seventeen claims, twenty-seven claim-source links, ten person
+updates and twenty attempts. Ingest validation passes all seven corpus checks,
+SQLite reports `ok` with zero foreign-key errors, and the 200-profile audit
+passes all seven structural checks. Python passes 95 / 95 tests.
+
+Astro checks 185 source files with zero errors, warnings or hints and generates
+24,604 HTML pages. The bounded browser suite passes 81 / 81 across desktop,
+phone and tablet. The new regression proves the two student statuses are not
+employment, the three accepted Army findings require exact protected-
+identifier agreement, the conflicting Army namesake is not exposed, and the
+seven-digit source value is not silently corrected.
