@@ -112,5 +112,5 @@ totals.
 ## Next cohort
 
 Resume with personnel-index PDF page 112 rows 20-29, Anthony Deluca through
-Rene Demarcq. Preserve every printed row, render the source region before
+Anthony J Demaio. Preserve every printed row, render the source region before
 research and keep every printed identifier private.

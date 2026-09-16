@@ -149,5 +149,5 @@ python3 scripts/audit_public_identifiers.py --database research/research.sqlite 
 ```
 
 Batch 558 completes the accessible-source protocol for page 112 rows 10-19.
-Research resumes with page 112 rows 20-29, Anthony Deluca through Rene
-Demarcq. The overall goal remains active.
+Research resumes with page 112 rows 20-29, Anthony Deluca through Anthony J
+Demaio. The overall goal remains active.
