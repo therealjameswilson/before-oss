@@ -1,0 +1,757 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Codex archival research batch 569",
+  "sources": [
+    {
+      "key": "index-b569",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 181",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 114 rows 29-38 visually inspected; Box 181; location 230/86/29/07",
+      "access_date": "2026-09-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Six printed private values remain private and are excluded from public claims and exports. Three short or nonstandard values were preserved literally and were not padded."
+    },
+    {
+      "key": "army-b569",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official ASNEF.FIN.DAT; complete transient scan of 9,200,232 fixed-width records; three eligible protected-identifier comparisons; identifiers withheld",
+      "access_date": "2026-09-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full private identifier is retained. Exact protected-identifier and name matches were found for Marinus G DeRidder and Francis J Derocher; Charles R Derr had no literal identifier match. The source is incomplete, so nonappearance is not negative proof."
+    },
+    {
+      "key": "army-technical-b569",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "Fixed-width identifier, name, Army-entry-date, grade and civilian-occupation fields checked",
+      "access_date": "2026-09-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "document_number": "100.1ND_NC.pdf",
+      "rights_notes": "Used to interpret selected fields only. The documentation warns about source damage, alternate layouts, coding limits and incomplete coverage."
+    },
+    {
+      "key": "army-codes-b569",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Code No. 30, Civilian Occupation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "Reference copy modified 2011",
+      "locator": "Code No. 30, physical PDF pages 173-174; codes 4-50 and 7-36 visually inspected",
+      "access_date": "2026-09-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "document_number": "100.1ND_NC.pdf",
+      "rights_notes": "The broad historical categories identify neither an employer nor a precise job and do not prove chronology relative to OSS service."
+    },
+    {
+      "key": "nara-conein-awards-b569",
+      "stable_url": "https://www.archives.gov/files/research/jfk/releases/104-10165-10120.pdf",
+      "archival_identifier": "JFK Assassination Records document 104-10165-10120; CIA file on Lucien E. Conein",
+      "title": "CIA File on Conein, Lucien E.: OSS awards and personnel material",
+      "author_creator": "Office of Strategic Services and successor records custodians",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "Wartime material; released 2017-11-03",
+      "locator": "PDF page 105, manuscript page 84; PDF page 113, manuscript page 76",
+      "access_date": "2026-09-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "John F. Kennedy Assassination Records Collection",
+      "document_number": "104-10165-10120",
+      "rights_notes": "The scan was reviewed at the image level. The exact names, ranks and approval entries establish OSS-era identities and assignments but do not identify a civilian employer."
+    },
+    {
+      "key": "gazette-derome-b569",
+      "stable_url": "https://www.thegazette.co.uk/London/issue/37909/supplement/1316/data.pdf",
+      "archival_identifier": "The London Gazette, issue 37909, supplement page 1316",
+      "title": "Supplement to The London Gazette, 20 March 1947",
+      "author_creator": "The London Gazette",
+      "repository_publisher": "The Gazette, United Kingdom",
+      "publication_record_date": "1947-03-20",
+      "locator": "Supplement page 1316; Medal of Freedom with Bronze Palm notice",
+      "access_date": "2026-09-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "The London Gazette",
+      "rights_notes": "Official notice supplies the full name Maurice Louis de Rome, lieutenant-colonel rank and Canadian Infantry Corps."
+    },
+    {
+      "key": "barrett-derome-b569",
+      "stable_url": "https://matthewkbarrett.com/2024/03/19/lt-col-m-l-de-rome/",
+      "title": "Lt-Col. M.L. de Rome",
+      "author_creator": "Matthew K. Barrett",
+      "repository_publisher": "World War Graphic History",
+      "publication_record_date": "2024-03-19",
+      "locator": "Biographical chronology before mobilization and wartime service",
+      "access_date": "2026-09-16",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "World War Graphic History",
+      "rights_notes": "Historian-authored secondary account with quotations from official award citations. It is used only for a qualified earlier military affiliation and not for an employer claim."
+    },
+    {
+      "key": "cia-war-report-b569",
+      "stable_url": "https://www.cia.gov/readingroom/docs/WAR%20REPORT%2C%20OFFICE%20OF%20STR%5B15825608%5D.pdf",
+      "archival_identifier": "C00168776",
+      "title": "War Report, Office of Strategic Services",
+      "author_creator": "Strategic Services Unit History Project; Kermit Roosevelt, chief historian",
+      "repository_publisher": "Central Intelligence Agency FOIA Electronic Reading Room",
+      "publication_record_date": "1947-09-05",
+      "locator": "Volume I front matter, History Project acknowledgments",
+      "access_date": "2026-09-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "CIA FOIA OSS Collection",
+      "document_number": "C00168776",
+      "rights_notes": "Official OSS history naming Richard de Roussy de Sales among former OSS members who consulted on the report. It does not establish his pre-OSS employer."
+    },
+    {
+      "key": "greshams-roussy-b569",
+      "stable_url": "https://www.greshams.com/wp-content/uploads/2021/11/OG-magazine-2020-for-website.pdf",
+      "archival_identifier": "The Old Greshamian 2020",
+      "title": "The Old Greshamian 2020",
+      "author_creator": "Gresham's School alumni publication",
+      "repository_publisher": "Gresham's School",
+      "publication_record_date": "2020",
+      "locator": "Article on Raoul de Roussy de Sales; passage identifying his younger brother Richard",
+      "access_date": "2026-09-16",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Gresham's School publications",
+      "rights_notes": "Institutional alumni history. It documents Richard's First World War French-artillery service but does not establish his immediate pre-OSS affiliation."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "regiment-de-maisonneuve-b569",
+      "canonical_name": "Le Régiment de Maisonneuve",
+      "historical_name": "Régiment de Maisonneuve",
+      "aliases": ["The Maisonneuve Regiment"],
+      "organization_type": "Canadian Army infantry regiment",
+      "sector": "military",
+      "city": "Montreal",
+      "state_or_region": "Quebec",
+      "country": "Canada",
+      "active_dates": "Documented in 1935",
+      "normalization_notes": "Historical regiment name preserved. This is a military affiliation, not civilian employment."
+    },
+    {
+      "key": "french-army-artillery-b569",
+      "canonical_name": "French Army artillery",
+      "historical_name": "French artillery",
+      "aliases": ["French Army artillery service"],
+      "organization_type": "national army branch",
+      "sector": "military",
+      "country": "France",
+      "active_dates": "First World War",
+      "normalization_notes": "The source does not name a regiment or battery. No narrower unit is inferred."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "marinus-g-deridder-driver-b569",
+      "person_id": "acb4990d-bce9-516b-a728-e67e0072ab9c",
+      "occupation": "Chauffeur or bus, taxi, truck, or tractor driver category",
+      "relationship_type": "unknown",
+      "end_date": "1941-10-02",
+      "date_precision": "day",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact-matched Army row records civilian occupation code 736 at Army entry. The official list groups chauffeurs with several driver categories; it does not select one role or identify an employer."
+    },
+    {
+      "key": "francis-j-derocher-paint-b569",
+      "person_id": "184dc31a-d4f1-5d1a-8e50-980c572317da",
+      "occupation": "Occupation in the production of paint and varnish",
+      "relationship_type": "unknown",
+      "end_date": "1942-12-04",
+      "date_precision": "day",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact-matched Army row records civilian occupation code 450 at Army entry. The code identifies a broad production category, not a job title, product, plant or employer."
+    },
+    {
+      "key": "maurice-derome-maisonneuve-b569",
+      "person_id": "61b7ea6d-f2a1-5950-9c24-af75d23eeba4",
+      "organization_key": "regiment-de-maisonneuve-b569",
+      "organization_name_as_found": "Régiment de Maisonneuve",
+      "role_title": "Officer",
+      "occupation": "Canadian Army officer",
+      "relationship_type": "military_assignment",
+      "start_date": "1935",
+      "end_date": "1939-09",
+      "date_precision": "year to month; the secondary source says he joined in 1935 and joined the Royal 22nd Regiment on mobilization in September 1939",
+      "city": "Montreal",
+      "state_or_region": "Quebec",
+      "country": "Canada",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "D_correlative_or_secondary",
+      "publication_status": "publish_qualified",
+      "research_notes": "A historian-authored chronology documents the 1935 regimental affiliation. Official NARA and Gazette records independently confirm the exact wartime identity. The evidence does not make this an immediate pre-OSS assignment."
+    },
+    {
+      "key": "richard-roussy-french-artillery-b569",
+      "person_id": "3f2d6473-cb73-5600-85a7-30074e21e3a4",
+      "organization_key": "french-army-artillery-b569",
+      "organization_name_as_found": "French artillery",
+      "role_title": "Noncommissioned officer",
+      "occupation": "French artillery NCO",
+      "relationship_type": "military_assignment",
+      "date_precision": "First World War; no regiment or exact dates stated",
+      "country": "France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The institutional school history identifies Richard de Roussy de Sales as a French-artillery NCO during the First World War. The official OSS War Report independently names him as a former OSS member; no immediate pre-OSS chronology is inferred."
+    }
+  ],
+  "claims": [
+    {
+      "key": "bernard-f-deren-unresolved-b569",
+      "person_id": "2c682422-1d95-53d6-a84e-b8884421e528",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for Bernard F Deren in the accessible sources reviewed.",
+      "evidence_paraphrase": "The short printed private value was preserved literally rather than padded, and staged official, archival and employment checks did not resolve the person.",
+      "identity_match_assessment": "The index establishes the Box 181 record, but no independent identity bridge survived review.",
+      "temporal_assessment": "No reliable pre-OSS employment chronology was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 181 to interpret the private value and establish identifiers and chronology.",
+      "sources": [{"source_key": "index-b569", "support_type": "supports"}]
+    },
+    {
+      "key": "bernice-a-deren-unresolved-b569",
+      "person_id": "7ad6d261-8790-5f7c-97c7-011d68f74545",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for Bernice A Deren in the accessible sources reviewed.",
+      "evidence_paraphrase": "Staged official, archival, newspaper, obituary and employment checks did not establish a unique identity or employing organization.",
+      "identity_match_assessment": "The index establishes the Box 181 record, but no independent identity bridge survived review.",
+      "temporal_assessment": "No reliable pre-OSS employment chronology was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 181 for identifiers, biography and pre-OSS chronology.",
+      "sources": [{"source_key": "index-b569", "support_type": "supports"}]
+    },
+    {
+      "key": "henrietta-e-derestie-identity-b569",
+      "person_id": "ae687867-a68a-5862-ad87-d1e53e54985f",
+      "claim_type": "identity",
+      "claim_text": "The indexed T-4 Henrietta E DeRestie is a high-confidence match to T/4 Henrietta E. DeRestie in an official OSS award-approval list.",
+      "evidence_paraphrase": "The uncommon exact name and matching technical-grade rank align between the NARA personnel index and the scanned OSS adjutant's-office list.",
+      "identity_match_assessment": "High confidence from exact uncommon name, middle initial, rank and direct OSS context; Box 181 remains the final personnel-file bridge.",
+      "temporal_assessment": "The list establishes wartime OSS-era service and award approval but supplies no pre-OSS chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The index prints T-4; the award list prints T/4. This punctuation difference is preserved.",
+      "sources": [
+        {"source_key": "index-b569", "support_type": "supports", "locator_override": "PDF page 114 row 31; T-4; Box 181"},
+        {"source_key": "nara-conein-awards-b569", "support_type": "supports", "locator_override": "PDF page 105, manuscript page 84; Adjutant's Office, Unit Commander's Certificate of Merit", "excerpt_override": "T/4 Henrietta E. DeRestie — Approved"}
+      ]
+    },
+    {
+      "key": "henrietta-e-derestie-unresolved-b569",
+      "person_id": "ae687867-a68a-5862-ad87-d1e53e54985f",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for Henrietta E DeRestie in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official evidence establishes her OSS-era identity and technical grade but names no pre-OSS employer or earlier institution.",
+      "identity_match_assessment": "High-confidence identity; employer remains unresolved.",
+      "temporal_assessment": "No reliable pre-OSS employment chronology was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 181 for her application, résumé or personnel-history statement.",
+      "sources": [{"source_key": "index-b569", "support_type": "supports"}, {"source_key": "nara-conein-awards-b569", "support_type": "context_only"}]
+    },
+    {
+      "key": "marinus-g-deridder-identity-b569",
+      "person_id": "acb4990d-bce9-516b-a728-e67e0072ab9c",
+      "claim_type": "identity",
+      "claim_text": "Marinus G DeRidder is identity-confirmed through exact protected-identifier and name agreement in the official Army file.",
+      "evidence_paraphrase": "The index and the sole exact protected-identifier Army row agree on the name; the Army row additionally prints Jr.",
+      "identity_match_assessment": "Confirmed by exact protected identifier plus agreeing uncommon name.",
+      "temporal_assessment": "The Army record establishes entry on 2 October 1941; it does not establish the later OSS start date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The protected identifier remains private. Jr. is published as a documented variant, not silently added to the indexed display name.",
+      "sources": [
+        {"source_key": "index-b569", "support_type": "supports", "locator_override": "PDF page 114 row 32; Marinus G DeRidder; Box 181; protected identifier withheld"},
+        {"source_key": "army-b569", "support_type": "supports", "locator_override": "Exact protected-identifier and name match; identifier withheld"}
+      ]
+    },
+    {
+      "key": "marinus-g-deridder-occupation-b569",
+      "person_id": "acb4990d-bce9-516b-a728-e67e0072ab9c",
+      "affiliation_key": "marinus-g-deridder-driver-b569",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry in October 1941, Marinus G DeRidder Jr.'s civilian occupation code represented the chauffeur or bus, taxi, truck, or tractor driver category.",
+      "evidence_paraphrase": "The exact-matched Army row supplies occupation code 736, and the official code list defines 7-36 as chauffeurs and several driver categories.",
+      "identity_match_assessment": "The occupation belongs to the exact protected-identifier match.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on 2 October 1941; not proven to be immediately pre-OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The code does not distinguish among its listed roles or identify an employer.",
+      "sources": [
+        {"source_key": "army-b569", "support_type": "supports", "locator_override": "Exact protected-identifier row; civilian occupation value 736; identifier withheld"},
+        {"source_key": "army-technical-b569", "support_type": "context_only"},
+        {"source_key": "army-codes-b569", "support_type": "supports", "locator_override": "Code No. 30, physical PDF page 174, code 7-36", "excerpt_override": "7-36. Chauffeurs and drivers, bus, taxi, truck, and tractor"}
+      ]
+    },
+    {
+      "key": "marinus-g-deridder-unresolved-b569",
+      "person_id": "acb4990d-bce9-516b-a728-e67e0072ab9c",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable named pre-OSS employer has yet been identified for Marinus G DeRidder.",
+      "evidence_paraphrase": "The reviewed sources identify a broad civilian occupation category at Army entry but no employing organization.",
+      "identity_match_assessment": "Identity is confirmed; employer remains unresolved.",
+      "temporal_assessment": "The occupation is date-bounded to Army entry, but an employer sequence cannot be established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 181 for a named employer and intervening chronology.",
+      "sources": [{"source_key": "index-b569", "support_type": "supports"}, {"source_key": "army-b569", "support_type": "context_only"}]
+    },
+    {
+      "key": "william-b-dern-unresolved-b569",
+      "person_id": "8095d5fa-1ca2-5958-b572-0fa680d9a5f9",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for Capt. William B Dern in the accessible sources reviewed.",
+      "evidence_paraphrase": "The short printed private value was preserved literally rather than padded. A same-name military burial and a prominent-family lead lacked a Box 181 or identifier bridge.",
+      "identity_match_assessment": "Ambiguous; the index establishes a captain, but accessible sources do not distinguish the indexed person from same-name candidates.",
+      "temporal_assessment": "No reliable pre-OSS employment chronology was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 181 before assigning any William B. Dern biography.",
+      "sources": [{"source_key": "index-b569", "support_type": "supports"}]
+    },
+    {
+      "key": "francis-j-derocher-identity-b569",
+      "person_id": "184dc31a-d4f1-5d1a-8e50-980c572317da",
+      "claim_type": "identity",
+      "claim_text": "Francis J Derocher is identity-confirmed through exact protected-identifier and exact-name agreement in the official Army file.",
+      "evidence_paraphrase": "The index and Army record agree on the protected identifier and the indexed name.",
+      "identity_match_assessment": "Confirmed by exact protected identifier plus exact name.",
+      "temporal_assessment": "The Army record establishes entry on 4 December 1942; it does not establish the later OSS start date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The protected identifier remains private.",
+      "sources": [
+        {"source_key": "index-b569", "support_type": "supports", "locator_override": "PDF page 114 row 34; Francis J Derocher; Box 181; protected identifier withheld"},
+        {"source_key": "army-b569", "support_type": "supports", "locator_override": "Exact protected-identifier and exact-name match; identifier withheld"}
+      ]
+    },
+    {
+      "key": "francis-j-derocher-occupation-b569",
+      "person_id": "184dc31a-d4f1-5d1a-8e50-980c572317da",
+      "affiliation_key": "francis-j-derocher-paint-b569",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry in December 1942, Francis J Derocher's civilian occupation code represented work in the production of paint and varnish.",
+      "evidence_paraphrase": "The exact-matched Army row supplies occupation code 450, and the official code list defines 4-50 as a broad paint-and-varnish production category.",
+      "identity_match_assessment": "The occupation belongs to the exact protected-identifier match.",
+      "temporal_assessment": "Strongly date-bounded to Army entry on 4 December 1942; not proven to be immediately pre-OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No precise job title, product, plant or employer is inferred from the broad code.",
+      "sources": [
+        {"source_key": "army-b569", "support_type": "supports", "locator_override": "Exact protected-identifier row; civilian occupation value 450; identifier withheld"},
+        {"source_key": "army-technical-b569", "support_type": "context_only"},
+        {"source_key": "army-codes-b569", "support_type": "supports", "locator_override": "Code No. 30, physical PDF page 173, code 4-50", "excerpt_override": "4-50. Occupations in production of paint and varnish"}
+      ]
+    },
+    {
+      "key": "francis-j-derocher-unresolved-b569",
+      "person_id": "184dc31a-d4f1-5d1a-8e50-980c572317da",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable named pre-OSS employer has yet been identified for Francis J Derocher.",
+      "evidence_paraphrase": "The reviewed sources identify a broad civilian production category at Army entry but no employing organization.",
+      "identity_match_assessment": "Identity is confirmed; employer remains unresolved.",
+      "temporal_assessment": "The occupation is date-bounded to Army entry, but an employer sequence cannot be established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 181 for a named employer and intervening chronology.",
+      "sources": [{"source_key": "index-b569", "support_type": "supports"}, {"source_key": "army-b569", "support_type": "context_only"}]
+    },
+    {
+      "key": "maurice-derome-identity-b569",
+      "person_id": "61b7ea6d-f2a1-5950-9c24-af75d23eeba4",
+      "claim_type": "identity",
+      "claim_text": "The indexed LtCol Maurice DeRome is confirmed as Canadian Army Lieutenant-Colonel Maurice Louis de Rome.",
+      "evidence_paraphrase": "The exact uncommon name, lieutenant-colonel rank and Canadian Army note align across the index, an OSS award list and the official Gazette notice.",
+      "identity_match_assessment": "Confirmed by exact name, rank, nationality and direct OSS-era assignment evidence from two official sources.",
+      "temporal_assessment": "The wartime evidence identifies him as commanding the Special Force Detachment at First Canadian Army headquarters.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The index compresses the surname as DeRome and note as Can. Ar; the full official name remains a documented variant.",
+      "sources": [
+        {"source_key": "index-b569", "support_type": "supports", "locator_override": "PDF page 114 row 35; LtCol; Can. Ar; Box 181"},
+        {"source_key": "nara-conein-awards-b569", "support_type": "supports", "locator_override": "PDF page 113, manuscript page 76; SO Branch 5 Bronze Star continuation", "excerpt_override": "Lt Col Maurice de Rome (Canadian Army) — Approved"},
+        {"source_key": "gazette-derome-b569", "support_type": "supports", "locator_override": "Issue 37909 supplement page 1316", "excerpt_override": "Lieutenant-Colonel Maurice Louis DE ROME, O.B.E., Canadian Infantry Corps"}
+      ]
+    },
+    {
+      "key": "maurice-derome-maisonneuve-claim-b569",
+      "person_id": "61b7ea6d-f2a1-5950-9c24-af75d23eeba4",
+      "affiliation_key": "maurice-derome-maisonneuve-b569",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A secondary military chronology reports that Maurice Louis de Rome joined the Régiment de Maisonneuve in 1935 before mobilization in 1939.",
+      "evidence_paraphrase": "The historian-authored account places de Rome in the Montreal regiment from 1935 until his September 1939 mobilization-era move to the Royal 22nd Regiment.",
+      "identity_match_assessment": "Official NARA and Gazette records confirm the exact wartime identity; the earlier chronology is supported by one detailed secondary account.",
+      "temporal_assessment": "Documented prewar military affiliation; not established as the immediate predecessor to an OSS relationship.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as an earlier military affiliation, not employment. Box 181 and Canadian service records should confirm the sequence.",
+      "sources": [
+        {"source_key": "barrett-derome-b569", "support_type": "supports", "excerpt_override": "joined the Régiment de Maisonneuve in 1935"},
+        {"source_key": "nara-conein-awards-b569", "support_type": "context_only"},
+        {"source_key": "gazette-derome-b569", "support_type": "context_only"}
+      ]
+    },
+    {
+      "key": "maurice-derome-unresolved-b569",
+      "person_id": "61b7ea6d-f2a1-5950-9c24-af75d23eeba4",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable civilian pre-OSS employer has yet been identified for Maurice DeRome in the accessible sources reviewed.",
+      "evidence_paraphrase": "The reviewed evidence establishes prewar and wartime Canadian military assignments but no civilian employer.",
+      "identity_match_assessment": "Identity is confirmed; civilian employment remains unresolved.",
+      "temporal_assessment": "An earlier military affiliation is documented, but the full sequence into OSS-linked service remains incomplete.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 181 and Canadian service records for the complete pre-OSS chronology.",
+      "sources": [{"source_key": "index-b569", "support_type": "supports"}, {"source_key": "nara-conein-awards-b569", "support_type": "context_only"}]
+    },
+    {
+      "key": "richard-roussy-identity-b569",
+      "person_id": "3f2d6473-cb73-5600-85a7-30074e21e3a4",
+      "claim_type": "identity",
+      "claim_text": "The truncated indexed Lt Richard DeRoussyDeD is a high-confidence match to former OSS member Richard de Roussy de Sales.",
+      "evidence_paraphrase": "The distinctive given name and truncated surname align with the official OSS War Report's full name; an institutional school history independently identifies the same full name and French military background.",
+      "identity_match_assessment": "High confidence from the rare name pattern, officer context, direct former-OSS designation and independent institutional biography; Box 181 should confirm the truncation.",
+      "temporal_assessment": "The War Report establishes former OSS membership; the school history establishes earlier First World War service, not an immediate pre-OSS role.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The source index ends the surname at DeRoussyDeD. The full surname is published as a supported variant, not as a silent correction.",
+      "sources": [
+        {"source_key": "index-b569", "support_type": "supports", "locator_override": "PDF page 114 row 36; Lt; truncated surname; Box 181"},
+        {"source_key": "cia-war-report-b569", "support_type": "supports", "locator_override": "Volume I front matter, History Project acknowledgments", "excerpt_override": "Among the former members of OSS ... Richard de Roussy de Sales"},
+        {"source_key": "greshams-roussy-b569", "support_type": "supports", "excerpt_override": "Comte Richard de Roussy de Sales ... served as an NCO in the French artillery"}
+      ]
+    },
+    {
+      "key": "richard-roussy-artillery-claim-b569",
+      "person_id": "3f2d6473-cb73-5600-85a7-30074e21e3a4",
+      "affiliation_key": "richard-roussy-french-artillery-b569",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Gresham's institutional alumni history reports that Richard de Roussy de Sales served as a noncommissioned officer in French artillery during the First World War.",
+      "evidence_paraphrase": "The school history distinguishes Richard from his older brother Raoul and explicitly describes Richard's French-artillery service.",
+      "identity_match_assessment": "High-confidence match to the distinctive former OSS member named in the official War Report and the truncated Box 181 index entry.",
+      "temporal_assessment": "Documented prewar military service; not established as the immediate predecessor to OSS service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No regiment, battery or exact service dates are inferred.",
+      "sources": [
+        {"source_key": "greshams-roussy-b569", "support_type": "supports", "excerpt_override": "served as an NCO in the French artillery"},
+        {"source_key": "cia-war-report-b569", "support_type": "context_only"}
+      ]
+    },
+    {
+      "key": "richard-roussy-unresolved-b569",
+      "person_id": "3f2d6473-cb73-5600-85a7-30074e21e3a4",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable immediate pre-OSS employer or affiliation has yet been identified for Richard DeRoussyDeD in the accessible sources reviewed.",
+      "evidence_paraphrase": "The reviewed sources support the full-name identity and much earlier French-artillery service but do not establish the affiliation immediately before OSS.",
+      "identity_match_assessment": "High-confidence identity; immediate pre-OSS chronology remains unresolved.",
+      "temporal_assessment": "First World War service is documented, but the intervening chronology is not.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 181 for nationality, branch, identifiers and the immediate pre-OSS pathway.",
+      "sources": [{"source_key": "index-b569", "support_type": "supports"}, {"source_key": "cia-war-report-b569", "support_type": "context_only"}]
+    },
+    {
+      "key": "charles-r-derr-unresolved-b569",
+      "person_id": "b78e7a77-6fd2-5010-bf78-0823ce79b9c8",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for Charles R Derr in the accessible sources reviewed.",
+      "evidence_paraphrase": "The eligible private value had no literal match in the incomplete Army file, and staged official and employment checks did not establish a unique identity.",
+      "identity_match_assessment": "The index record is preserved; no external namesake is assigned.",
+      "temporal_assessment": "No reliable pre-OSS employment chronology was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 181; Army-file nonappearance is not negative proof.",
+      "sources": [{"source_key": "index-b569", "support_type": "supports"}, {"source_key": "army-b569", "support_type": "context_only"}]
+    },
+    {
+      "key": "king-derr-unresolved-b569",
+      "person_id": "e1fd5b65-db48-5804-ade3-fe98fb8fa179",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for King Derr in the accessible sources reviewed.",
+      "evidence_paraphrase": "Exact-name OSS, employment, military, newspaper, obituary and archival searches did not produce a defensible identity or employer bridge.",
+      "identity_match_assessment": "The distinctive index name remains unresolved beyond Box 181.",
+      "temporal_assessment": "No reliable pre-OSS employment chronology was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 181 for a full name, identifiers and biography.",
+      "sources": [{"source_key": "index-b569", "support_type": "supports"}]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "2c682422-1d95-53d6-a84e-b8884421e528",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index establishes Bernard F Deren in Box 181, but the short private value cannot be safely padded and no external identity bridge survived review.",
+      "name_variants": ["Bernard F Deren", "Bernard F. Deren"],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 181 to interpret the private value and establish identifiers and chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "7ad6d261-8790-5f7c-97c7-011d68f74545",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index establishes Bernice A Deren in Box 181, but no independent identity or employer bridge survived the staged protocol.",
+      "name_variants": ["Bernice A Deren", "Bernice A. Deren"],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 181 for identifiers, biography and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ae687867-a68a-5862-ad87-d1e53e54985f",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The uncommon exact name, middle initial, T-4/T/4 grade and direct OSS award-list context align between the index and an official NARA scan.",
+      "name_variants": ["Henrietta E DeRestie", "Henrietta E. DeRestie", "Henrietta E. Derestie"],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 181 for her application, résumé or personnel-history statement and pre-OSS employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "acb4990d-bce9-516b-a728-e67e0072ab9c",
+      "identity_status": "confirmed",
+      "identity_evidence": "An exact protected-identifier and name match confirms the Army row; the Army source additionally records Jr. as a name variant.",
+      "name_variants": ["Marinus G DeRidder", "Marinus G. DeRidder", "Marinus G DeRidder Jr.", "Marinus G. de Ridder Jr."],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "possible_duplicate_group": null,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 181 for a named employer and the chronology between Army entry and OSS service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8095d5fa-1ca2-5958-b572-0fa680d9a5f9",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The index establishes Capt. William B Dern in Box 181. Same-name military and prominent-family leads lacked a protected identifier or direct file bridge, and the short printed value was not padded.",
+      "name_variants": ["William B Dern", "William B. Dern"],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 181 before assigning any William B. Dern biography or pre-OSS employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "184dc31a-d4f1-5d1a-8e50-980c572317da",
+      "identity_status": "confirmed",
+      "identity_evidence": "An exact protected-identifier and exact-name match confirms the Army row.",
+      "name_variants": ["Francis J Derocher", "Francis J. Derocher", "Francis J DeRocher"],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "possible_duplicate_group": null,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 181 for a named employer and the chronology between Army entry and OSS service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "61b7ea6d-f2a1-5950-9c24-af75d23eeba4",
+      "identity_status": "confirmed",
+      "identity_evidence": "Exact name, lieutenant-colonel rank and Canadian Army status align across the index, an official OSS award list and an official Gazette notice naming Maurice Louis de Rome.",
+      "name_variants": ["Maurice DeRome", "Maurice de Rome", "Maurice Louis de Rome", "M. L. de Rome"],
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": false,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 181 and Canadian service records for civilian employment and the complete pathway into OSS-linked service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3f2d6473-cb73-5600-85a7-30074e21e3a4",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The distinctive truncated index name and lieutenant rank align with former OSS member Richard de Roussy de Sales in the official War Report; an institutional school history independently supplies the same full name and French military background.",
+      "name_variants": ["Richard DeRoussyDeD", "Richard de Roussy de Sales", "Richard De Roussy de Sales"],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 181 to confirm the truncated surname, nationality, branch and immediate pre-OSS pathway.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b78e7a77-6fd2-5010-bf78-0823ce79b9c8",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index establishes Charles R Derr in Box 181. The eligible protected value had no literal Army-file match, and no external identity bridge survived review.",
+      "name_variants": ["Charles R Derr", "Charles R. Derr"],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 181 for identifiers, service branch and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e1fd5b65-db48-5804-ade3-fe98fb8fa179",
+      "identity_status": "unresolved",
+      "identity_evidence": "The distinctive King Derr index entry remains unresolved after official, archival, employment, military, newspaper and obituary checks.",
+      "name_variants": ["King Derr"],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "possible_duplicate_group": null,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 181 for a full name, identifiers, biography and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b569-bernard-f-deren-evidence-review", "person_id": "2c682422-1d95-53d6-a84e-b8884421e528", "source_adapter": "manual_evidence_review", "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, staged exact-name and employment searches, private-value handling and archival leads for Bernard F Deren.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T17:40:00Z", "completed_at": "2026-09-16T17:44:00Z", "outcome": "no_result", "sources_reviewed": 5, "candidate_sources_rejected": 0, "research_notes": "The short private value was not padded. No attributable identity or employer survived the staged protocol.", "next_action": "Review Box 181 to interpret the private value and establish identifiers and chronology.", "attempt_number": 4, "research_agent_version": "before-oss/batch-569-v1"
+    },
+    {
+      "key": "b569-bernard-f-deren-synthesis", "person_id": "2c682422-1d95-53d6-a84e-b8884421e528", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Bernard F Deren.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T17:44:00Z", "completed_at": "2026-09-16T17:46:00Z", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 0, "research_notes": "Terminal outcome: requires_archival_review. No unique identity or named pre-OSS employer was established.", "next_action": "Review Box 181 to interpret the private value and establish identifiers and chronology.", "attempt_number": 5, "research_agent_version": "before-oss/batch-569-v1"
+    },
+    {
+      "key": "b569-bernice-a-deren-evidence-review", "person_id": "7ad6d261-8790-5f7c-97c7-011d68f74545", "source_adapter": "manual_evidence_review", "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, staged exact-name, obituary, newspaper and employment searches and archival leads for Bernice A Deren.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T17:40:00Z", "completed_at": "2026-09-16T17:44:00Z", "outcome": "no_result", "sources_reviewed": 5, "candidate_sources_rejected": 0, "research_notes": "No attributable identity or employer survived the staged protocol.", "next_action": "Review Box 181 for identifiers, biography and pre-OSS chronology.", "attempt_number": 4, "research_agent_version": "before-oss/batch-569-v1"
+    },
+    {
+      "key": "b569-bernice-a-deren-synthesis", "person_id": "7ad6d261-8790-5f7c-97c7-011d68f74545", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Bernice A Deren.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T17:44:00Z", "completed_at": "2026-09-16T17:46:00Z", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 0, "research_notes": "Terminal outcome: requires_archival_review. No unique identity or named pre-OSS employer was established.", "next_action": "Review Box 181 for identifiers, biography and pre-OSS chronology.", "attempt_number": 5, "research_agent_version": "before-oss/batch-569-v1"
+    },
+    {
+      "key": "b569-henrietta-e-derestie-evidence-review", "person_id": "ae687867-a68a-5862-ad87-d1e53e54985f", "source_adapter": "manual_evidence_review", "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, the NARA awards scan, staged exact-name and employment searches and archival leads for Henrietta E DeRestie.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T17:40:00Z", "completed_at": "2026-09-16T17:44:00Z", "outcome": "candidate_found", "sources_reviewed": 7, "candidate_sources_rejected": 0, "research_notes": "Exact uncommon name, middle initial, matching T-4/T/4 rank and direct OSS context support high-confidence identity; no employer was found.", "next_action": "Review Box 181 for her application, résumé or personnel-history statement.", "attempt_number": 4, "research_agent_version": "before-oss/batch-569-v1"
+    },
+    {
+      "key": "b569-henrietta-e-derestie-synthesis", "person_id": "ae687867-a68a-5862-ad87-d1e53e54985f", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Henrietta E DeRestie.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T17:44:00Z", "completed_at": "2026-09-16T17:46:00Z", "outcome": "source_reviewed", "sources_reviewed": 7, "candidate_sources_rejected": 0, "research_notes": "Terminal outcome: requires_archival_review. The OSS-era identity and award approval are published; no pre-OSS employer is claimed.", "next_action": "Review Box 181 for her application, résumé or personnel-history statement.", "attempt_number": 5, "research_agent_version": "before-oss/batch-569-v1"
+    },
+    {
+      "key": "b569-marinus-g-deridder-evidence-review", "person_id": "acb4990d-bce9-516b-a728-e67e0072ab9c", "source_adapter": "manual_evidence_review", "query_text": "Review the OSS index, complete Army-file scan, occupation-code documentation, CIA and Library of Congress checkpoints, staged employment searches and archival leads for Marinus G DeRidder.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T17:40:00Z", "completed_at": "2026-09-16T17:44:00Z", "outcome": "candidate_found", "sources_reviewed": 8, "candidate_sources_rejected": 0, "research_notes": "Exact protected-identifier and name agreement confirmed the Army row and its Jr. variant; the broad driver category names no employer.", "next_action": "Review Box 181 for a named employer and intervening chronology.", "attempt_number": 4, "research_agent_version": "before-oss/batch-569-v1"
+    },
+    {
+      "key": "b569-marinus-g-deridder-synthesis", "person_id": "acb4990d-bce9-516b-a728-e67e0072ab9c", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Marinus G DeRidder.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T17:44:00Z", "completed_at": "2026-09-16T17:46:00Z", "outcome": "source_reviewed", "sources_reviewed": 8, "candidate_sources_rejected": 0, "research_notes": "Terminal outcome: occupation_only_found. The multi-role driver code is published as a broad category, not a selected job or employer.", "next_action": "Review Box 181 for a named employer and intervening chronology.", "attempt_number": 5, "research_agent_version": "before-oss/batch-569-v1"
+    },
+    {
+      "key": "b569-william-b-dern-evidence-review", "person_id": "8095d5fa-1ca2-5958-b572-0fa680d9a5f9", "source_adapter": "manual_evidence_review", "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, staged officer, burial, family and employment searches, private-value handling and archival leads for Capt. William B Dern.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T17:40:00Z", "completed_at": "2026-09-16T17:44:00Z", "outcome": "candidate_rejected", "sources_reviewed": 8, "candidate_sources_rejected": 2, "rejection_reasons": "A same-name Arlington burial and a William B. Dern in George H. Dern's family lacked a Box 181, protected-identifier or direct OSS bridge.", "research_notes": "The short printed private value was preserved literally rather than padded; no candidate was assigned.", "next_action": "Review Box 181 before assigning any William B. Dern biography.", "attempt_number": 4, "research_agent_version": "before-oss/batch-569-v1"
+    },
+    {
+      "key": "b569-william-b-dern-synthesis", "person_id": "8095d5fa-1ca2-5958-b572-0fa680d9a5f9", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Capt. William B Dern.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T17:44:00Z", "completed_at": "2026-09-16T17:46:00Z", "outcome": "source_reviewed", "sources_reviewed": 8, "candidate_sources_rejected": 2, "rejection_reasons": "Same-name candidates remain unassigned.", "research_notes": "Terminal outcome: requires_archival_review. Identity remains ambiguous and no employer is claimed.", "next_action": "Review Box 181 before assigning any William B. Dern biography.", "attempt_number": 5, "research_agent_version": "before-oss/batch-569-v1"
+    },
+    {
+      "key": "b569-francis-j-derocher-evidence-review", "person_id": "184dc31a-d4f1-5d1a-8e50-980c572317da", "source_adapter": "manual_evidence_review", "query_text": "Review the OSS index, complete Army-file scan, occupation-code documentation, CIA and Library of Congress checkpoints, staged employment searches and archival leads for Francis J Derocher.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T17:40:00Z", "completed_at": "2026-09-16T17:44:00Z", "outcome": "candidate_found", "sources_reviewed": 8, "candidate_sources_rejected": 0, "research_notes": "Exact protected-identifier and name agreement confirmed the Army row; the paint-and-varnish production category names no employer or precise job.", "next_action": "Review Box 181 for a named employer and intervening chronology.", "attempt_number": 4, "research_agent_version": "before-oss/batch-569-v1"
+    },
+    {
+      "key": "b569-francis-j-derocher-synthesis", "person_id": "184dc31a-d4f1-5d1a-8e50-980c572317da", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Francis J Derocher.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T17:44:00Z", "completed_at": "2026-09-16T17:46:00Z", "outcome": "source_reviewed", "sources_reviewed": 8, "candidate_sources_rejected": 0, "research_notes": "Terminal outcome: occupation_only_found. The production code is published as a broad occupation, not a job title or employer.", "next_action": "Review Box 181 for a named employer and intervening chronology.", "attempt_number": 5, "research_agent_version": "before-oss/batch-569-v1"
+    },
+    {
+      "key": "b569-maurice-derome-evidence-review", "person_id": "61b7ea6d-f2a1-5950-9c24-af75d23eeba4", "source_adapter": "manual_evidence_review", "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, the NARA awards scan, official Gazette notice, Canadian military chronology and staged employment searches for Maurice DeRome.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T17:40:00Z", "completed_at": "2026-09-16T17:44:00Z", "outcome": "candidate_found", "sources_reviewed": 10, "candidate_sources_rejected": 1, "rejection_reasons": "A genealogy PDF mentioning furniture work conflicted on personal details and was rejected as discovery-only evidence.", "research_notes": "Exact official name, rank, nationality and assignment evidence confirm the identity. A detailed secondary chronology supports an earlier 1935 regiment affiliation; no civilian employer was accepted.", "next_action": "Review Box 181 and Canadian service records for civilian employment and the complete pathway into OSS-linked service.", "attempt_number": 4, "research_agent_version": "before-oss/batch-569-v1"
+    },
+    {
+      "key": "b569-maurice-derome-synthesis", "person_id": "61b7ea6d-f2a1-5950-9c24-af75d23eeba4", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Maurice DeRome.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T17:44:00Z", "completed_at": "2026-09-16T17:46:00Z", "outcome": "source_reviewed", "sources_reviewed": 10, "candidate_sources_rejected": 1, "research_notes": "Terminal outcome: requires_archival_review. Identity is confirmed and the earlier regiment affiliation is qualified; no civilian employer is claimed.", "next_action": "Review Box 181 and Canadian service records for civilian employment and the complete pathway into OSS-linked service.", "attempt_number": 5, "research_agent_version": "before-oss/batch-569-v1"
+    },
+    {
+      "key": "b569-richard-roussy-evidence-review", "person_id": "3f2d6473-cb73-5600-85a7-30074e21e3a4", "source_adapter": "manual_evidence_review", "query_text": "Review the truncated OSS index name, CIA and Library of Congress checkpoints, the official OSS War Report, institutional school history and staged identity and employment searches for Richard DeRoussyDeD.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T17:40:00Z", "completed_at": "2026-09-16T17:44:00Z", "outcome": "candidate_found", "sources_reviewed": 9, "candidate_sources_rejected": 3, "rejection_reasons": "Genealogy-only birth and burial pages and postwar United Nations records were not used to establish pre-OSS employment.", "research_notes": "The official War Report directly names former OSS member Richard de Roussy de Sales, and an institutional source independently supports the full name and earlier French military service.", "next_action": "Review Box 181 to confirm the truncation, nationality, branch and immediate pre-OSS pathway.", "attempt_number": 4, "research_agent_version": "before-oss/batch-569-v1"
+    },
+    {
+      "key": "b569-richard-roussy-synthesis", "person_id": "3f2d6473-cb73-5600-85a7-30074e21e3a4", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Richard DeRoussyDeD.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T17:44:00Z", "completed_at": "2026-09-16T17:46:00Z", "outcome": "source_reviewed", "sources_reviewed": 9, "candidate_sources_rejected": 3, "research_notes": "Terminal outcome: requires_archival_review. The full-name identity and much earlier French-artillery service are published; immediate pre-OSS affiliation remains unresolved.", "next_action": "Review Box 181 to confirm the truncation, nationality, branch and immediate pre-OSS pathway.", "attempt_number": 5, "research_agent_version": "before-oss/batch-569-v1"
+    },
+    {
+      "key": "b569-charles-r-derr-evidence-review", "person_id": "b78e7a77-6fd2-5010-bf78-0823ce79b9c8", "source_adapter": "manual_evidence_review", "query_text": "Review the OSS index, complete Army-file scan, CIA and Library of Congress checkpoints, staged exact-name and employment searches and archival leads for Charles R Derr.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T17:40:00Z", "completed_at": "2026-09-16T17:44:00Z", "outcome": "no_result", "sources_reviewed": 6, "candidate_sources_rejected": 1, "rejection_reasons": "A name-only Air Force memorial entry lacked an OSS, Box 181, identifier or employment bridge.", "research_notes": "The eligible protected value had no literal Army match. No attributable identity or employer survived the staged protocol.", "next_action": "Review Box 181 for identifiers, service branch and pre-OSS chronology.", "attempt_number": 4, "research_agent_version": "before-oss/batch-569-v1"
+    },
+    {
+      "key": "b569-charles-r-derr-synthesis", "person_id": "b78e7a77-6fd2-5010-bf78-0823ce79b9c8", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Charles R Derr.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T17:44:00Z", "completed_at": "2026-09-16T17:46:00Z", "outcome": "source_reviewed", "sources_reviewed": 6, "candidate_sources_rejected": 1, "research_notes": "Terminal outcome: requires_archival_review. No unique identity or named pre-OSS employer was established; Army-file nonappearance is not negative proof.", "next_action": "Review Box 181 for identifiers, service branch and pre-OSS chronology.", "attempt_number": 5, "research_agent_version": "before-oss/batch-569-v1"
+    },
+    {
+      "key": "b569-king-derr-evidence-review", "person_id": "e1fd5b65-db48-5804-ade3-fe98fb8fa179", "source_adapter": "manual_evidence_review", "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, staged exact-name, military, newspaper, obituary and employment searches and archival leads for King Derr.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T17:40:00Z", "completed_at": "2026-09-16T17:44:00Z", "outcome": "no_result", "sources_reviewed": 6, "candidate_sources_rejected": 0, "research_notes": "No attributable identity or employer survived the staged protocol; search results primarily split the two words across unrelated names.", "next_action": "Review Box 181 for a full name, identifiers, biography and pre-OSS chronology.", "attempt_number": 4, "research_agent_version": "before-oss/batch-569-v1"
+    },
+    {
+      "key": "b569-king-derr-synthesis", "person_id": "e1fd5b65-db48-5804-ade3-fe98fb8fa179", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for King Derr.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T17:44:00Z", "completed_at": "2026-09-16T17:46:00Z", "outcome": "source_reviewed", "sources_reviewed": 6, "candidate_sources_rejected": 0, "research_notes": "Terminal outcome: requires_archival_review. No unique identity or named pre-OSS employer was established.", "next_action": "Review Box 181 for a full name, identifiers, biography and pre-OSS chronology.", "attempt_number": 5, "research_agent_version": "before-oss/batch-569-v1"
+    }
+  ]
+}

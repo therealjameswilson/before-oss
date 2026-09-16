@@ -2,48 +2,58 @@
 
 Verified against the current local SQLite database on 2026-09-16 UTC.
 
-Batch 568 is the current local release candidate. It adds terminal outcomes for
-personnel-index PDF page 114 rows 19-28, Wallace A DePonio through Anne B
-Deren, all in Box 181 at `230/86/29/07`. The complete page was rendered and
-visually inspected; two private values remain masked in every public artifact.
+Batch 569 is the current local release candidate. It adds terminal outcomes for
+personnel-index PDF page 114 rows 29-38, Bernard F Deren through King Derr,
+all in Box 181 at `230/86/29/07`. The complete page was rendered and visually
+inspected; six private values remain masked in every public artifact.
 
-Institutional scholarship supports Lt Cmdr B N Deranian as B. Nelson
-Deranian, chief of OSS Special Operations at Bari, at high identity confidence.
-An official French parliamentary biography and a contemporary *Le Monde*
-account support Captain Antoine DeRecy as Antoine Chalvet de Récy and document
-his earlier aide-de-camp service to war minister André Diethelm and work
-organizing the Commandos de France. That finding is published as a strongly
-date-bounded military/government assignment, not civilian employment and not
-a proven immediate pre-OSS affiliation. Wallace A DePonio, Samuel H Derbyshire
-and John Dereki remain ambiguous; name-only and rare-name leads were not
-assigned without direct Box 181 or identifier bridges. Five additional people
-remain unresolved for archival review.
+Exact protected-identifier and agreeing-name matches confirm Marinus G
+DeRidder and Francis J Derocher. Official Army code tables support only broad,
+qualified occupations at Army entry: a chauffeur/driver category and
+paint-and-varnish-production work. Neither names an employer. Official NARA
+and *London Gazette* evidence confirms T-4 Henrietta E DeRestie and Canadian
+Lieutenant-Colonel Maurice Louis de Rome; a secondary military chronology
+supports de Rome's earlier 1935 Régiment de Maisonneuve affiliation. The
+truncated Lt Richard DeRoussyDeD is a high-confidence match to former OSS
+member Richard de Roussy de Sales; an institutional source documents only his
+much earlier First World War French-artillery service. Those earlier military
+affiliations remain qualified and are not treated as immediate or civilian
+employment. William B Dern remains ambiguous; Bernard F Deren, Bernice A
+Deren, Charles R Derr and King Derr remain unresolved for archival review.
 
-The batch raises research-attempt coverage to 5,446 of 23,940 active people
-(22.7485%), verified-affiliation coverage to 586 (2.4478%) and archival-
-disposition coverage to 5,401 (22.5606%). Verified-employer coverage remains
-259 (1.0819%). The private database contains 2,153 affiliations, 676
-organizations, 4,818 citation records, 2,195 unique source documents, 4,579
-claims, 9,711 attempts and 10,684 claim-source links; public data contains
-2,139 affiliations, 662 organizations, 3,628 sources and 4,398 claims. See
-`reports/release_batch_568.md` and
-`research/batch-568-discovery-checkpoint.md`. Focused Batch 568 browser QA
-passes 18/18 checks across desktop, phone and tablet. Full local validation is
-green: 95 Python tests, 75 bounded release checks, all internal links across
-24,610 HTML pages, the 200-profile structural audit, the zero-vulnerability
-dependency audit and the public-identifier audit pass. The local public-
-manifest guard verifies 67 assets and 95,344,752 bytes at SHA-256
-`ad75b79123a34a548aef9cfd7b5d18a1ff798054c1282d399bfb2f45483587a4`;
+The batch raises research-attempt coverage to 5,456 of 23,940 active people
+(22.7903%) and archival-disposition coverage to 5,411 (22.6023%). Verified-
+affiliation coverage remains 586 (2.4478%), and verified-employer coverage
+remains 259 (1.0819%). The private database contains 2,157 affiliations, 678
+organizations, 4,827 citation records, 2,199 unique source documents, 4,598
+claims, 9,761 attempts and 10,723 claim-source links; public data contains
+2,143 affiliations, 664 organizations, 3,637 sources and 4,417 claims. See
+`reports/release_batch_569.md` and
+`research/batch-569-discovery-checkpoint.md`. Focused Batch 569 browser QA
+passes 18/18 checks across desktop, phone and tablet. Full local validation is green: 95
+Python tests, 75 bounded release checks, all internal links across 24,612 HTML
+pages, the 200-profile structural audit, the zero-vulnerability dependency
+audit and the public-identifier audit pass. The local public-manifest guard
+verifies 67 assets and 95,451,323 bytes at SHA-256
+`07841386dd2f419208c6c938a930f0492d9ba4033fb1e184dce605711871cac8`;
 the 70-file public tree is
-`e9eb4719272b95f1aa142b899a796438b7dda8b58d0dd095ac6f0390099a2241`,
-and the 24,682-file production tree is
-`305c5eb9b60aaf906241df4545295fde0fbe33b0145587adf5973724647e832f`.
-A detached clean replay from release-candidate commit `8fd648c` reconstructed
+`9431f48c38a874c9fb9329c7ef6492d7aa48b5cd167f4328c76b954fa573d3d6`,
+and the 24,684-file production tree is
+`0f8c17d0dda68e5fa328ef0786bd1382a21318e2feefacbfcca9a33dbf9030fe`.
+A detached clean replay from release-candidate commit `5d9088d` reconstructed
 the database and reproduced all three hashes, passed all 95 Python tests, and
-repeated the zero-false-positive identifier audit across all 24,682 artifacts.
-Remote publication verification remains pending. The oil-company category
-remains in the top directory navigation and tested as an employment-only
-filter. The goal remains active.
+repeated the zero-false-positive identifier audit across all 24,684 artifacts.
+Remote-publication verification remains pending. The oil-company category
+remains tested across desktop, phone and tablet. The goal remains active.
+
+Batch 568 is the current exact-verified public release. It adds terminal
+outcomes for personnel-index PDF page 114 rows 19-28, Wallace A DePonio through
+Anne B Deren. Pull request #266 merged as main commit
+`67e905210e6e2c01b71b24baea07b79ee67bb31b`; PR Test run 35122836413,
+main Test run 35123666303 and Pages run 35123666290 succeeded. The live
+verifier matched all 67 manifest assets, 95,344,752 bytes, seven core routes
+and ten direct profiles. The live oil-company category lists its seven
+documented employees. The goal remains active.
 
 Batch 567 is the current exact-verified public release. It adds terminal outcomes for
 personnel-index PDF page 114 rows 9-18, Jeffrey T Denton Jr. through Alfred J
