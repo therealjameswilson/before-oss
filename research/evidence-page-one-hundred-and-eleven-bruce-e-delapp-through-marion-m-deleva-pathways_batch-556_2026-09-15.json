@@ -1,0 +1,721 @@
+{
+  "bundle_version": "2026-09-15-batch-556-v1",
+  "reviewer": "Before OSS research pipeline",
+  "sources": [
+    {
+      "key": "index-b556",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 178",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 111 rows 36-45; Bruce E DeLapp through Marion M DeLeva; rendered at 180 dpi and visually inspected at original resolution; Box 178; location 230/86/29/07",
+      "access_date": "2026-09-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Every printed row remains separate. Four printed service identifiers remain restricted and may appear publicly only in masked form. Original capitalization and spacing are preserved."
+    },
+    {
+      "key": "army-b556",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "National Archives Identifier 604357; data-file NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.zip; complete 9,200,232-row scan; exact eligible protected-identifier matches for Bruce E DeLapp, Albert V DeL'Arbre, Domenico DelBianco and Edward A DelCarlo",
+      "access_date": "2026-09-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "Only project-authored conclusions and stable citation pointers are retained. Full identifiers, raw records and unrelated fields are excluded from public outputs. Name-only candidates and non-hits are not treated as proof."
+    },
+    {
+      "key": "army-docs-b556",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Reference Copy 40-42",
+      "title": "Service Number Index -- Valid Input Codes",
+      "author_creator": "National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1994-04-08",
+      "locator": "PDF physical pages 44-45; enlistment-card field positions and DD/MM/YY date format; rendered at 180 dpi and visually inspected",
+      "access_date": "2026-09-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army enlistment electronic-records documentation",
+      "rights_notes": "The documentation defines the fixed-width fields and warns that two layouts and historical coding practices exist."
+    },
+    {
+      "key": "army-codes-b556",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30, Civilian Occupations",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "Code No. 30, PDF physical pages 171, 172 and 304: codes 133, 316, 992 and undefined 993; rendered at 180 dpi and visually inspected",
+      "access_date": "2026-09-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "The historical codes establish broad civilian-occupation categories recorded at Army entry. They name no employers or immediate transitions to OSS. Code 993 is not defined in the official list."
+    },
+    {
+      "key": "deutsche-biographie-delatour-b556",
+      "stable_url": "https://www.deutsche-biographie.de/gnd116767359.html?language=de",
+      "archival_identifier": "Deutsche Biographie GND 116767359",
+      "title": "Salomon-Delatour, Gottfried",
+      "repository_publisher": "Deutsche Biographie, Historische Kommission bei der Bayerischen Akademie der Wissenschaften",
+      "locator": "Biographical chronology: New School for Social Research, University of Denver and wartime War Department advisory work",
+      "access_date": "2026-09-15",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Deutsche Biographie",
+      "rights_notes": "The rare name and chronology support a probable identity only. The biography is not a direct link to the Box 178 file."
+    },
+    {
+      "key": "meribel-valdene-b556",
+      "stable_url": "https://www.meribel.net/histoire-de-meribel/",
+      "archival_identifier": "Meribel official tourism historical essay",
+      "title": "L'histoire de Meribel",
+      "repository_publisher": "Meribel Tourisme",
+      "locator": "Section on engineer Jean Pierre de la Valdene and development of the Meribel project, 1935-1938",
+      "access_date": "2026-09-15",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "The distinctive name and middle-name initial support a probable identity only. The page does not directly link the historical subject to the Box 178 file."
+    },
+    {
+      "key": "shd-gr16p-d-b556",
+      "stable_url": "https://www.museedelaresistanceenligne.org/musee/doc/pdf/ressource_source/SHDGR_16P_D.pdf",
+      "archival_identifier": "Service historique de la Defense, GR 16 P, letter D",
+      "title": "Sous-serie GR 16 P: Dossiers administratifs de resistantes et resistants, lettre D",
+      "author_creator": "Service historique de la Defense, Centre historique des archives, Vincennes",
+      "repository_publisher": "Service historique de la Defense",
+      "publication_record_date": "2015",
+      "locator": "PDF physical page 137, GR 16 P 168164; physical page 260, GR 16 P 169127-169130; both pages rendered at 180 dpi and visually inspected",
+      "access_date": "2026-09-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "Dossiers administratifs de resistantes et resistants",
+      "rights_notes": "These official index entries are archival leads, not direct links to the Box 178 personnel files or evidence of pre-OSS employment."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "new-school-b556",
+      "canonical_name": "New School for Social Research",
+      "historical_name": "Graduate Faculty of the New School for Social Research",
+      "aliases": ["New School for Social Research", "University in Exile"],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "The historical Graduate Faculty name is preserved; it is not silently replaced by the institution's current branding."
+    },
+    {
+      "key": "university-denver-b556",
+      "canonical_name": "University of Denver",
+      "historical_name": "University of Denver",
+      "aliases": [],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Denver",
+      "state_or_region": "Colorado",
+      "country": "United States",
+      "normalization_notes": "The Institute of International Studies is retained as the role context rather than normalized as a separate employer."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "bruce-delapp-student-b556",
+      "person_id": "52658f7e-f1f9-5179-9aa8-525ed6be9c23",
+      "occupation": "Student",
+      "relationship_type": "student",
+      "end_date": "1943-03-16",
+      "date_precision": "The identifier-confirmed Army entry record dated 1943-03-16 carries civilian-occupation code 992; no school is identified.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Published only as the status recorded at Army entry. No educational institution, employer or immediate OSS transition is inferred."
+    },
+    {
+      "key": "albert-delarbre-secretary-b556",
+      "person_id": "c45ea48a-dfce-50cb-8b1d-d0ab46ff1682",
+      "occupation": "Secretary",
+      "relationship_type": "unknown",
+      "end_date": "1943-02-03",
+      "date_precision": "The identifier-confirmed Army entry record dated 1943-02-03 carries civilian-occupation code 133. The code names no employer.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical occupation code is reported without assigning employment status, organization or immediate OSS chronology."
+    },
+    {
+      "key": "edward-delcarlo-farm-hand-b556",
+      "person_id": "6cc80245-c98a-5f79-8565-1774c9507999",
+      "occupation": "Farm hand, general farm",
+      "relationship_type": "unknown",
+      "end_date": "1942-10-16",
+      "date_precision": "The identifier-confirmed Army entry record dated 1942-10-16 carries civilian-occupation code 316. The farm is not identified.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical occupation is reported without inventing a farm, employer, location or immediate OSS transition."
+    },
+    {
+      "key": "gottfried-delatour-new-school-b556",
+      "person_id": "a01a2e73-fbe2-5b3f-85cb-ec4e82e2b4fb",
+      "organization_key": "new-school-b556",
+      "organization_name_as_found": "Graduate Faculty of the New School for Social Research",
+      "role_title": "teacher and Rockefeller fellow",
+      "occupation": "sociologist",
+      "relationship_type": "employment",
+      "start_date": "1941",
+      "end_date": "1943",
+      "date_precision": "Year-level institutional chronology; overlap with any OSS service has not been established.",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Qualified because the rare-name match is probable rather than directly linked to Box 178, and the chronology does not establish immediacy."
+    },
+    {
+      "key": "gottfried-delatour-denver-b556",
+      "person_id": "a01a2e73-fbe2-5b3f-85cb-ec4e82e2b4fb",
+      "organization_key": "university-denver-b556",
+      "organization_name_as_found": "University of Denver",
+      "role_title": "founder of the Institute of International Studies",
+      "occupation": "sociologist",
+      "relationship_type": "professional_affiliation",
+      "start_date": "1942",
+      "date_precision": "Year-level chronology; duration and relation to OSS service remain uncertain.",
+      "city": "Denver",
+      "state_or_region": "Colorado",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The institutional role is not labeled an employer because the source chronology does not specify an employment relationship."
+    },
+    {
+      "key": "jean-delavaldene-meribel-b556",
+      "person_id": "86a0a709-57c4-52d0-b0e1-3a55768826bd",
+      "role_title": "engineer and development organizer",
+      "occupation": "engineer",
+      "relationship_type": "self_employment",
+      "start_date": "1935",
+      "end_date": "1938",
+      "date_precision": "The institutional history dates the commission to 1935, investor group to 1937 and first buildings to 1938; OSS sequence is unknown.",
+      "city": "Meribel",
+      "country": "France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "No employer is named. The distinctive-name link remains probable pending review of Box 178."
+    }
+  ],
+  "claims": [
+    {
+      "key": "bruce-delapp-identity-b556",
+      "person_id": "52658f7e-f1f9-5179-9aa8-525ed6be9c23",
+      "claim_type": "identity",
+      "claim_text": "The indexed Bruce E DeLapp is confirmed as the corresponding person in the official Army merged file.",
+      "evidence_excerpt": "DELAPP BRUCE E",
+      "evidence_paraphrase": "The protected identifier in the OSS index selects one Army row with the same surname, given name and middle initial.",
+      "identity_match_assessment": "Confirmed by exact protected-identifier agreement plus all indexed name elements.",
+      "temporal_assessment": "The Army row dates entry to 1943-03-16. It does not establish the OSS start or transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier is private and masked in public data.",
+      "sources": [
+        {"source_key": "index-b556", "support_type": "supports", "locator_override": "PDF page 111 row 36; Box 178; protected identifier withheld", "excerpt_override": "DELAPP BRUCE E"},
+        {"source_key": "army-b556", "support_type": "supports", "locator_override": "Exact protected-identifier match; Army entry 1943-03-16", "excerpt_override": "DELAPP BRUCE E"}
+      ]
+    },
+    {
+      "key": "bruce-delapp-student-claim-b556",
+      "person_id": "52658f7e-f1f9-5179-9aa8-525ed6be9c23",
+      "affiliation_key": "bruce-delapp-student-b556",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-03-16, Bruce E DeLapp was recorded in the historical civilian-occupation category Student.",
+      "evidence_excerpt": "992 Students",
+      "evidence_paraphrase": "The official fixed-width Army row carries occupation code 992, decoded by NARA as Students.",
+      "identity_match_assessment": "The occupation belongs to the identifier-confirmed Army row.",
+      "temporal_assessment": "Strongly bounded to Army entry; it is not evidence of an immediate OSS affiliation or a named school.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No educational institution or employer is inferred.",
+      "sources": [
+        {"source_key": "army-b556", "support_type": "supports", "locator_override": "Identifier-confirmed row; occupation code 992; Army entry 1943-03-16"},
+        {"source_key": "army-codes-b556", "support_type": "supports", "locator_override": "Code No. 30, PDF physical page 304", "excerpt_override": "9-92 STUDENTS"}
+      ]
+    },
+    {
+      "key": "albert-delarbre-identity-b556",
+      "person_id": "c45ea48a-dfce-50cb-8b1d-d0ab46ff1682",
+      "claim_type": "identity",
+      "claim_text": "The indexed Albert V DeL'Arbre is confirmed as the corresponding person in the official Army merged file.",
+      "evidence_excerpt": "DE LARBRE ALBERT V",
+      "evidence_paraphrase": "The protected identifier selects one Army row with all indexed name elements, preserving historical differences in apostrophe and spacing.",
+      "identity_match_assessment": "Confirmed by exact protected-identifier agreement plus all indexed name elements.",
+      "temporal_assessment": "The Army row dates entry to 1943-02-03. It does not establish an OSS date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier is private; DeL'Arbre and DE LARBRE are retained as variants.",
+      "sources": [
+        {"source_key": "index-b556", "support_type": "supports", "locator_override": "PDF page 111 row 37; Box 178; protected identifier withheld", "excerpt_override": "DEL'ARBRE ALBERT V"},
+        {"source_key": "army-b556", "support_type": "supports", "locator_override": "Exact protected-identifier match; Army entry 1943-02-03", "excerpt_override": "DE LARBRE ALBERT V"}
+      ]
+    },
+    {
+      "key": "albert-delarbre-secretary-claim-b556",
+      "person_id": "c45ea48a-dfce-50cb-8b1d-d0ab46ff1682",
+      "affiliation_key": "albert-delarbre-secretary-b556",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-02-03, Albert V DeL'Arbre was recorded in the historical civilian-occupation category Secretaries.",
+      "evidence_excerpt": "1-33 SECRETARIES",
+      "evidence_paraphrase": "The official fixed-width Army row carries occupation code 133, decoded by NARA as Secretaries.",
+      "identity_match_assessment": "The occupation belongs to the identifier-confirmed Army row.",
+      "temporal_assessment": "Strongly bounded to Army entry; it does not identify an employer or prove an immediate OSS transition.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Occupation is not converted into an employment claim.",
+      "sources": [
+        {"source_key": "army-b556", "support_type": "supports", "locator_override": "Identifier-confirmed row; occupation code 133; Army entry 1943-02-03"},
+        {"source_key": "army-codes-b556", "support_type": "supports", "locator_override": "Code No. 30, PDF physical page 171", "excerpt_override": "1-33 SECRETARIES"}
+      ]
+    },
+    {
+      "key": "domenico-delbianco-identity-b556",
+      "person_id": "8d76ef5c-53a3-5716-924d-b035def7610c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Domenico DelBianco is confirmed as the corresponding person in the official Army merged file.",
+      "evidence_excerpt": "DEL BIANCO DOMENICO",
+      "evidence_paraphrase": "The protected identifier selects one Army row with the same name, preserving historical surname spacing.",
+      "identity_match_assessment": "Confirmed by exact protected-identifier agreement plus the distinctive full name.",
+      "temporal_assessment": "The Army row dates entry to 1942-11-06; its occupation code 993 is undefined in NARA's official list.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier is private. No occupation or employer is inferred from undefined code 993.",
+      "sources": [
+        {"source_key": "index-b556", "support_type": "supports", "locator_override": "PDF page 111 row 42; Box 178; protected identifier withheld", "excerpt_override": "DELBIANCO DOMENICO"},
+        {"source_key": "army-b556", "support_type": "supports", "locator_override": "Exact protected-identifier match; Army entry 1942-11-06", "excerpt_override": "DEL BIANCO DOMENICO"},
+        {"source_key": "army-codes-b556", "support_type": "context_only", "locator_override": "Code No. 30, PDF physical page 304; code 993 is absent"}
+      ]
+    },
+    {
+      "key": "edward-delcarlo-identity-b556",
+      "person_id": "6cc80245-c98a-5f79-8565-1774c9507999",
+      "claim_type": "identity",
+      "claim_text": "The indexed Edward A DelCarlo is confirmed as the corresponding person in the official Army merged file.",
+      "evidence_excerpt": "DEL CARLO EDWARD A",
+      "evidence_paraphrase": "The protected identifier selects one Army row with all indexed name elements, preserving historical surname spacing.",
+      "identity_match_assessment": "Confirmed by exact protected-identifier agreement plus all indexed name elements.",
+      "temporal_assessment": "The Army row dates entry to 1942-10-16. It does not establish an OSS date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier is private and masked in public data.",
+      "sources": [
+        {"source_key": "index-b556", "support_type": "supports", "locator_override": "PDF page 111 row 44; Box 178; protected identifier withheld", "excerpt_override": "DELCARLO EDWARD A"},
+        {"source_key": "army-b556", "support_type": "supports", "locator_override": "Exact protected-identifier match; Army entry 1942-10-16", "excerpt_override": "DEL CARLO EDWARD A"}
+      ]
+    },
+    {
+      "key": "edward-delcarlo-farm-hand-claim-b556",
+      "person_id": "6cc80245-c98a-5f79-8565-1774c9507999",
+      "affiliation_key": "edward-delcarlo-farm-hand-b556",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-10-16, Edward A DelCarlo was recorded in the historical civilian-occupation category Farm hands, general farms.",
+      "evidence_excerpt": "3-16 FARM HANDS, GENERAL FARMS",
+      "evidence_paraphrase": "The official fixed-width Army row carries occupation code 316, decoded by NARA as Farm hands, general farms.",
+      "identity_match_assessment": "The occupation belongs to the identifier-confirmed Army row.",
+      "temporal_assessment": "Strongly bounded to Army entry; it does not identify a farm, employer or immediate OSS transition.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer or property is inferred.",
+      "sources": [
+        {"source_key": "army-b556", "support_type": "supports", "locator_override": "Identifier-confirmed row; occupation code 316; Army entry 1942-10-16"},
+        {"source_key": "army-codes-b556", "support_type": "supports", "locator_override": "Code No. 30, PDF physical page 172", "excerpt_override": "3-16 FARM HANDS, GENERAL FARMS"}
+      ]
+    },
+    {
+      "key": "gottfried-delatour-identity-b556",
+      "person_id": "a01a2e73-fbe2-5b3f-85cb-ec4e82e2b4fb",
+      "claim_type": "identity",
+      "claim_text": "The indexed Gottfried Delatour is probably the sociologist later identified as Gottfried Salomon-Delatour, but Box 178 has not been reviewed.",
+      "evidence_excerpt": "Salomon-Delatour, Gottfried",
+      "evidence_paraphrase": "An authoritative biography documents the rare Delatour name variant and a United States wartime chronology consistent with the index entry.",
+      "identity_match_assessment": "Probable, not confirmed: the distinctive name and chronology align, but no protected identifier or direct personnel-file linkage is available.",
+      "temporal_assessment": "The biography documents 1941-1943 academic roles and wartime government advisory work; their sequence relative to OSS is unresolved.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Default employer analytics exclude this probable-identity pathway.",
+      "sources": [
+        {"source_key": "index-b556", "support_type": "supports", "locator_override": "PDF page 111 row 40; Box 178", "excerpt_override": "DELATOUR GOTTFRIED"},
+        {"source_key": "deutsche-biographie-delatour-b556", "support_type": "supports", "locator_override": "Biographical chronology", "excerpt_override": "Salomon-Delatour, Gottfried"}
+      ]
+    },
+    {
+      "key": "gottfried-delatour-new-school-claim-b556",
+      "person_id": "a01a2e73-fbe2-5b3f-85cb-ec4e82e2b4fb",
+      "affiliation_key": "gottfried-delatour-new-school-b556",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "If the probable identity is correct, Gottfried Delatour taught at the Graduate Faculty of the New School for Social Research from 1941 to 1943.",
+      "evidence_excerpt": "1941-43 New School for Social Research",
+      "evidence_paraphrase": "The institutional biography places Salomon-Delatour at the New School's Graduate Faculty during 1941-1943.",
+      "identity_match_assessment": "Probable rare-name match; direct linkage to the index row remains unverified.",
+      "temporal_assessment": "Documented during 1941-1943, but no immediate transition to OSS is established.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Visible qualification is required and the claim is excluded from default employer analytics.",
+      "sources": [{"source_key": "deutsche-biographie-delatour-b556", "support_type": "supports", "locator_override": "Biographical chronology, 1941-1943"}]
+    },
+    {
+      "key": "gottfried-delatour-denver-claim-b556",
+      "person_id": "a01a2e73-fbe2-5b3f-85cb-ec4e82e2b4fb",
+      "affiliation_key": "gottfried-delatour-denver-b556",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "If the probable identity is correct, Gottfried Delatour founded an Institute of International Studies at the University of Denver in 1942.",
+      "evidence_excerpt": "1942 University of Denver",
+      "evidence_paraphrase": "The institutional biography dates Salomon-Delatour's founding of the Denver institute to 1942.",
+      "identity_match_assessment": "Probable rare-name match; direct linkage to the index row remains unverified.",
+      "temporal_assessment": "Documented in 1942, but duration and relation to OSS service are uncertain.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The source does not establish employment, so the relationship remains professional affiliation.",
+      "sources": [{"source_key": "deutsche-biographie-delatour-b556", "support_type": "supports", "locator_override": "Biographical chronology, 1942"}]
+    },
+    {
+      "key": "jean-delavaldene-identity-b556",
+      "person_id": "86a0a709-57c4-52d0-b0e1-3a55768826bd",
+      "claim_type": "identity",
+      "claim_text": "The indexed Jean P DeLaValdene is probably engineer Jean Pierre de la Valdene, but Box 178 has not been reviewed.",
+      "evidence_excerpt": "Jean Pierre de la Valdene",
+      "evidence_paraphrase": "An institutional history documents the distinctive full name and a prewar French engineering role consistent with the indexed initial.",
+      "identity_match_assessment": "Probable, not confirmed: the distinctive surname and middle-name initial align, but no direct archival identifier links the records.",
+      "temporal_assessment": "The Meribel project is documented from 1935 to 1938; no OSS sequence is given.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Default employer analytics exclude this probable-identity pathway.",
+      "sources": [
+        {"source_key": "index-b556", "support_type": "supports", "locator_override": "PDF page 111 row 41; Box 178", "excerpt_override": "DELAVALDENE JEAN P"},
+        {"source_key": "meribel-valdene-b556", "support_type": "supports", "locator_override": "History section", "excerpt_override": "Jean Pierre de la Valdene"}
+      ]
+    },
+    {
+      "key": "jean-delavaldene-meribel-claim-b556",
+      "person_id": "86a0a709-57c4-52d0-b0e1-3a55768826bd",
+      "affiliation_key": "jean-delavaldene-meribel-b556",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "If the probable identity is correct, Jean P DeLaValdene worked as the engineer and development organizer for the Meribel project before the war.",
+      "evidence_excerpt": "l'ingenieur Jean Pierre de la Valdene",
+      "evidence_paraphrase": "Meribel's institutional history says the engineer received the project in 1935, assembled investors in 1937 and began buildings in 1938.",
+      "identity_match_assessment": "Probable distinctive-name match; direct Box 178 linkage remains unavailable.",
+      "temporal_assessment": "Definitely prewar, but not shown to be the immediate predecessor to OSS service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No named employer is supplied, so the role is modeled as self-employment rather than corporate employment.",
+      "sources": [{"source_key": "meribel-valdene-b556", "support_type": "supports", "locator_override": "History section, 1935-1938"}]
+    },
+    {
+      "key": "duranzet-delaroche-archival-candidate-b556",
+      "person_id": "d6a6a54d-6f8e-5c7b-ae1d-8f05777e8688",
+      "claim_type": "archival_file_status",
+      "claim_text": "An official French index contains a plausible but unconfirmed candidate for the printed DuRanzet DelaRoche entry: Joseph Armand Guy de la Roche du Rouzet.",
+      "evidence_excerpt": "DE LA ROCHE DU ROUZET, Joseph Armand Guy",
+      "evidence_paraphrase": "The SHD index lists a similarly ordered compound name, born in Mauritius in 1913, with FFC and FFL recognition.",
+      "identity_match_assessment": "Ambiguous: the French note and compound-name resemblance are useful, but the printed given-name field differs and no direct Box 178 link exists.",
+      "temporal_assessment": "The SHD entry establishes a resistance-file lead, not a pre-OSS employer or assignment chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No identity merge is made. Box 178 and SHD GR 16 P 168164 should be compared.",
+      "sources": [
+        {"source_key": "index-b556", "support_type": "context_only", "locator_override": "PDF page 111 row 38; Capt; note French", "excerpt_override": "DELAROCHE DURANZET"},
+        {"source_key": "shd-gr16p-d-b556", "support_type": "supports", "locator_override": "PDF physical page 137; GR 16 P 168164", "excerpt_override": "DE LA ROCHE DU ROUZET, Joseph Armand Guy"}
+      ]
+    },
+    {
+      "key": "rene-delbos-ambiguity-b556",
+      "person_id": "8503fac3-fd47-534a-85b8-6bd1a04599b3",
+      "claim_type": "archival_file_status",
+      "claim_text": "The official French resistance index contains four distinct Rene Delbos files, so the name-only OSS index row cannot safely be assigned to one of them.",
+      "evidence_excerpt": "GR 16 P 169127 through GR 16 P 169130",
+      "evidence_paraphrase": "Four SHD entries share the name Rene Delbos or a fuller variant, with distinct birth dates and file identifiers.",
+      "identity_match_assessment": "Ambiguous: the OSS index supplies no middle name, date, rank or service number to distinguish the four official candidates.",
+      "temporal_assessment": "The French index supplies candidate archival files but no pre-OSS employment chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The candidate identities remain separate; review of Box 178 is required.",
+      "sources": [
+        {"source_key": "index-b556", "support_type": "context_only", "locator_override": "PDF page 111 row 43; Box 178", "excerpt_override": "DELBOS RENE"},
+        {"source_key": "shd-gr16p-d-b556", "support_type": "supports", "locator_override": "PDF physical page 260; GR 16 P 169127-169130"}
+      ]
+    },
+    {
+      "key": "antonio-delatorre-archive-b556",
+      "person_id": "78860eb1-3b5b-5216-92a2-54db5afe26d2",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for Antonio M DeLaTorre; the indexed Box 178 file may require archival examination.",
+      "evidence_paraphrase": "The index establishes a Box 178 personnel-file pointer, while the completed accessible-source protocol yielded no defensible identity or employer match.",
+      "identity_match_assessment": "Unresolved because the name is not accompanied by rank, serial number or another discriminator.",
+      "temporal_assessment": "No reliable pre-OSS chronology was found.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This is a research-status statement, not a claim that no prior employment existed.",
+      "sources": [{"source_key": "index-b556", "support_type": "supports", "locator_override": "PDF page 111 row 39; Box 178", "excerpt_override": "DELATORRE ANTONIO M"}]
+    },
+    {
+      "key": "marion-deleva-archive-b556",
+      "person_id": "6ca4d542-7288-50b8-a656-b7fe66ac2f24",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified for Marion M DeLeva; the indexed Box 178 file may require archival examination.",
+      "evidence_paraphrase": "The index establishes a Box 178 personnel-file pointer, while the completed accessible-source protocol yielded no defensible identity or employer match.",
+      "identity_match_assessment": "Unresolved because the name is not accompanied by rank, serial number or another discriminator.",
+      "temporal_assessment": "No reliable pre-OSS chronology was found.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This is a research-status statement, not a claim that no prior employment existed.",
+      "sources": [{"source_key": "index-b556", "support_type": "supports", "locator_override": "PDF page 111 row 45; Box 178", "excerpt_override": "DELEVA MARION M"}]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "52658f7e-f1f9-5179-9aa8-525ed6be9c23",
+      "identity_status": "confirmed",
+      "identity_evidence": "The protected identifier on the visually verified Box 178 row selects one official Army row with all indexed name elements.",
+      "name_variants": ["Bruce E DeLapp", "Bruce E. DeLapp"],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 178 for the school, employer if any, and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c45ea48a-dfce-50cb-8b1d-d0ab46ff1682",
+      "identity_status": "confirmed",
+      "identity_evidence": "The protected identifier selects one official Army row with the same name; apostrophe and spacing variants are preserved.",
+      "name_variants": ["Albert V DeL'Arbre", "Albert V. DeL'Arbre", "Albert V De Larbre"],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 178 for the organization behind the secretary occupation and the Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d6a6a54d-6f8e-5c7b-ae1d-8f05777e8688",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The official SHD index supplies a plausible de la Roche du Rouzet candidate, but the printed DuRanzet field differs and no direct archival linkage exists.",
+      "name_variants": ["DuRanzet DelaRoche", "de la Roche du Rouzet"],
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare Box 178 with SHD GR 16 P 168164 before assigning Joseph Armand Guy de la Roche du Rouzet or publishing a pre-OSS affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "78860eb1-3b5b-5216-92a2-54db5afe26d2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The name-only Box 178 row lacks a rank, identifier or other discriminator; accessible official and exact-name searches produced no safe match.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 178 for identifiers, aliases, citizenship, occupation, employer and OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "a01a2e73-fbe2-5b3f-85cb-ec4e82e2b4fb",
+      "identity_status": "probable",
+      "identity_evidence": "The rare Delatour name and wartime United States chronology align with Gottfried Salomon-Delatour, but no direct Box 178 linkage is available.",
+      "name_variants": ["Gottfried Delatour", "Gottfried Salomon-Delatour"],
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 178 to confirm the Salomon-Delatour identity and determine whether the New School, Denver institute or War Department work immediately preceded OSS service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "86a0a709-57c4-52d0-b0e1-3a55768826bd",
+      "identity_status": "probable",
+      "identity_evidence": "The distinctive DeLaValdene surname and middle-name initial align with engineer Jean Pierre de la Valdene, but no direct archival linkage is available.",
+      "name_variants": ["Jean P DeLaValdene", "Jean Pierre de la Valdene", "Jean de Gaillard de la Valdene"],
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 178 to confirm the identity and determine what affiliation immediately preceded OSS service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8d76ef5c-53a3-5716-924d-b035def7610c",
+      "identity_status": "confirmed",
+      "identity_evidence": "The protected identifier selects one official Army row with the distinctive full name, preserving the historical surname spacing.",
+      "name_variants": ["Domenico DelBianco", "Domenico Del Bianco"],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 178 for pre-service occupation and employer. Army occupation code 993 is undefined and cannot support an occupation claim.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8503fac3-fd47-534a-85b8-6bd1a04599b3",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Four distinct official SHD files share the indexed name or a fuller form, and the Box 178 row lacks enough identifiers to select one.",
+      "name_variants": ["Rene Delbos", "Rene Georges Delbos", "Rene Louis Delbos", "Rene Pierre Delbos"],
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 178 for a birth date, middle name, nationality or other discriminator; compare with SHD GR 16 P 169127-169130.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "6cc80245-c98a-5f79-8565-1774c9507999",
+      "identity_status": "confirmed",
+      "identity_evidence": "The protected identifier selects one official Army row with all indexed name elements, preserving historical surname spacing.",
+      "name_variants": ["Edward A DelCarlo", "Edward A. DelCarlo", "Edward A Del Carlo"],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 178 for the farm, employer and Army-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6ca4d542-7288-50b8-a656-b7fe66ac2f24",
+      "identity_status": "unresolved",
+      "identity_evidence": "The name-only Box 178 row lacks a rank, identifier or other discriminator; accessible official and exact-name searches produced no safe match.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 178 for identifiers, occupation, employer and OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b556-bruce-army-review", "person_id": "52658f7e-f1f9-5179-9aa8-525ed6be9c23", "source_adapter": "nara_army_bulk_fixed_width_review", "query_text": "Complete official Army bulk-file scan for exact eligible protected-identifier and name agreement; identifier withheld.", "query_variant_type": "official_army_bulk_exact_name_and_identifier_review", "started_at": "2026-09-15T23:00:00Z", "completed_at": "2026-09-15T23:07:00Z", "outcome": "source_reviewed", "sources_reviewed": 3, "candidate_sources_rejected": 0, "research_notes": "One exact protected-identifier match was accepted. The raw row and full identifier were not retained.", "next_action": "Review Box 178 for the school, employer if any, and OSS chronology.", "attempt_number": 4, "research_agent_version": "before-oss-batch556-v1"
+    },
+    {
+      "key": "b556-bruce-synthesis", "person_id": "52658f7e-f1f9-5179-9aa8-525ed6be9c23", "source_adapter": "manual_evidence_synthesis", "query_text": "Synthesize index, Army entry, CIA, LOC and exact-name results under publication rules.", "query_variant_type": "cross_source_identity_temporal_synthesis", "started_at": "2026-09-15T23:08:00Z", "completed_at": "2026-09-15T23:12:00Z", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 0, "research_notes": "Identity confirmed and student status published as a bounded occupation/status; no school or employer identified.", "next_action": "Review Box 178 for the school, employer if any, and OSS chronology.", "attempt_number": 5, "research_agent_version": "before-oss-batch556-v1"
+    },
+    {
+      "key": "b556-albert-army-review", "person_id": "c45ea48a-dfce-50cb-8b1d-d0ab46ff1682", "source_adapter": "nara_army_bulk_fixed_width_review", "query_text": "Complete official Army bulk-file scan for exact eligible protected-identifier and name agreement; identifier withheld.", "query_variant_type": "official_army_bulk_exact_name_and_identifier_review", "started_at": "2026-09-15T23:00:00Z", "completed_at": "2026-09-15T23:07:00Z", "outcome": "source_reviewed", "sources_reviewed": 3, "candidate_sources_rejected": 0, "research_notes": "One exact protected-identifier match was accepted; punctuation and spacing variants were retained.", "next_action": "Review Box 178 for the organization behind the secretary occupation.", "attempt_number": 4, "research_agent_version": "before-oss-batch556-v1"
+    },
+    {
+      "key": "b556-albert-synthesis", "person_id": "c45ea48a-dfce-50cb-8b1d-d0ab46ff1682", "source_adapter": "manual_evidence_synthesis", "query_text": "Synthesize index, Army entry, CIA, LOC and exact-name results under publication rules.", "query_variant_type": "cross_source_identity_temporal_synthesis", "started_at": "2026-09-15T23:08:00Z", "completed_at": "2026-09-15T23:12:00Z", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 0, "research_notes": "Identity confirmed and secretary occupation qualified; no employer identified.", "next_action": "Review Box 178 for the employer and OSS chronology.", "attempt_number": 5, "research_agent_version": "before-oss-batch556-v1"
+    },
+    {
+      "key": "b556-duranzet-official-review", "person_id": "d6a6a54d-6f8e-5c7b-ae1d-8f05777e8688", "source_adapter": "official_archival_and_web_review", "query_text": "Exact-name and variant searches, official SHD resistance-index review, CIA and LOC checks.", "query_variant_type": "foreign_compound_name_disambiguation", "started_at": "2026-09-15T23:00:00Z", "completed_at": "2026-09-15T23:10:00Z", "outcome": "candidate_found", "sources_reviewed": 4, "candidate_sources_rejected": 1, "rejection_reasons": "A discovery-only Jedburgh-list lead was not used as final evidence; the SHD candidate lacks direct Box 178 linkage.", "research_notes": "Joseph Armand Guy de la Roche du Rouzet remains a plausible archival candidate, not a resolved identity.", "next_action": "Compare Box 178 with SHD GR 16 P 168164.", "attempt_number": 4, "research_agent_version": "before-oss-batch556-v1"
+    },
+    {
+      "key": "b556-duranzet-synthesis", "person_id": "d6a6a54d-6f8e-5c7b-ae1d-8f05777e8688", "source_adapter": "manual_evidence_synthesis", "query_text": "Evaluate the French compound-name candidate without merging on name resemblance alone.", "query_variant_type": "identity_conflict_synthesis", "started_at": "2026-09-15T23:11:00Z", "completed_at": "2026-09-15T23:14:00Z", "outcome": "source_reviewed", "sources_reviewed": 2, "candidate_sources_rejected": 0, "research_notes": "Identity remains ambiguous; the official SHD pointer is published only as a qualified archival lead.", "next_action": "Compare Box 178 with SHD GR 16 P 168164.", "attempt_number": 5, "research_agent_version": "before-oss-batch556-v1"
+    },
+    {
+      "key": "b556-antonio-official-review", "person_id": "78860eb1-3b5b-5216-92a2-54db5afe26d2", "source_adapter": "official_archival_and_web_review", "query_text": "Exact-name variants, OSS context, employer and occupation searches across CIA, LOC and accessible web sources.", "query_variant_type": "common_name_disambiguation", "started_at": "2026-09-15T23:00:00Z", "completed_at": "2026-09-15T23:10:00Z", "outcome": "no_result", "sources_reviewed": 4, "candidate_sources_rejected": 2, "rejection_reasons": "Common-name results lacked a direct OSS or Box 178 linkage and sufficient corroborating identifiers.", "research_notes": "No reliable identity or employer match was found after the accessible-source protocol.", "next_action": "Review Box 178 for identifiers, occupation, employer and OSS chronology.", "attempt_number": 4, "research_agent_version": "before-oss-batch556-v1"
+    },
+    {
+      "key": "b556-antonio-synthesis", "person_id": "78860eb1-3b5b-5216-92a2-54db5afe26d2", "source_adapter": "manual_evidence_synthesis", "query_text": "Apply unresolved-publication and archival-review rules after the completed online protocol.", "query_variant_type": "unresolved_protocol_synthesis", "started_at": "2026-09-15T23:11:00Z", "completed_at": "2026-09-15T23:14:00Z", "outcome": "source_reviewed", "sources_reviewed": 1, "candidate_sources_rejected": 0, "research_notes": "The profile remains public as unresolved; no absence of prior employment is claimed.", "next_action": "Review Box 178.", "attempt_number": 5, "research_agent_version": "before-oss-batch556-v1"
+    },
+    {
+      "key": "b556-gottfried-official-review", "person_id": "a01a2e73-fbe2-5b3f-85cb-ec4e82e2b4fb", "source_adapter": "institutional_biography_review", "query_text": "Exact and Salomon-Delatour variants; official and institutional sources; wartime employer chronology.", "query_variant_type": "rare_name_variant_identity_review", "started_at": "2026-09-15T23:00:00Z", "completed_at": "2026-09-15T23:10:00Z", "outcome": "candidate_found", "sources_reviewed": 4, "candidate_sources_rejected": 1, "rejection_reasons": "Discovery-only summaries were excluded; the institutional biography lacks direct Box 178 linkage.", "research_notes": "The rare-name match is probable. New School and Denver affiliations are documented but not proven immediate to OSS.", "next_action": "Review Box 178 to confirm identity and chronology.", "attempt_number": 4, "research_agent_version": "before-oss-batch556-v1"
+    },
+    {
+      "key": "b556-gottfried-synthesis", "person_id": "a01a2e73-fbe2-5b3f-85cb-ec4e82e2b4fb", "source_adapter": "manual_evidence_synthesis", "query_text": "Separate probable identity, documented academic affiliations and unresolved immediate chronology.", "query_variant_type": "cross_source_identity_temporal_synthesis", "started_at": "2026-09-15T23:11:00Z", "completed_at": "2026-09-15T23:15:00Z", "outcome": "source_reviewed", "sources_reviewed": 2, "candidate_sources_rejected": 0, "research_notes": "Two qualified affiliations are published and excluded from default analytics because identity is probable.", "next_action": "Review Box 178 to confirm identity and chronology.", "attempt_number": 5, "research_agent_version": "before-oss-batch556-v1"
+    },
+    {
+      "key": "b556-jean-official-review", "person_id": "86a0a709-57c4-52d0-b0e1-3a55768826bd", "source_adapter": "institutional_history_review", "query_text": "Exact and expanded-name variants; French institutional history; CIA, LOC and accessible web sources.", "query_variant_type": "foreign_name_variant_identity_review", "started_at": "2026-09-15T23:00:00Z", "completed_at": "2026-09-15T23:10:00Z", "outcome": "candidate_found", "sources_reviewed": 4, "candidate_sources_rejected": 1, "rejection_reasons": "Secondary wartime biographies without item-level archival support were excluded.", "research_notes": "The distinctive match to Jean Pierre de la Valdene is probable; Meribel engineering work is documented prewar but not immediate.", "next_action": "Review Box 178 to confirm identity and OSS chronology.", "attempt_number": 4, "research_agent_version": "before-oss-batch556-v1"
+    },
+    {
+      "key": "b556-jean-synthesis", "person_id": "86a0a709-57c4-52d0-b0e1-3a55768826bd", "source_adapter": "manual_evidence_synthesis", "query_text": "Separate probable identity, self-employment and unresolved immediate chronology.", "query_variant_type": "cross_source_identity_temporal_synthesis", "started_at": "2026-09-15T23:11:00Z", "completed_at": "2026-09-15T23:15:00Z", "outcome": "source_reviewed", "sources_reviewed": 2, "candidate_sources_rejected": 0, "research_notes": "The Meribel role is qualified and modeled as self-employment because no employing organization is named.", "next_action": "Review Box 178 to confirm identity and chronology.", "attempt_number": 5, "research_agent_version": "before-oss-batch556-v1"
+    },
+    {
+      "key": "b556-domenico-army-review", "person_id": "8d76ef5c-53a3-5716-924d-b035def7610c", "source_adapter": "nara_army_bulk_fixed_width_review", "query_text": "Complete official Army bulk-file scan for exact eligible protected-identifier and name agreement; identifier withheld.", "query_variant_type": "official_army_bulk_exact_name_and_identifier_review", "started_at": "2026-09-15T23:00:00Z", "completed_at": "2026-09-15T23:07:00Z", "outcome": "source_reviewed", "sources_reviewed": 3, "candidate_sources_rejected": 0, "research_notes": "Identity confirmed. Occupation code 993 is undefined in the official NARA list and is not converted into an occupation.", "next_action": "Review Box 178 for occupation and employer.", "attempt_number": 4, "research_agent_version": "before-oss-batch556-v1"
+    },
+    {
+      "key": "b556-domenico-synthesis", "person_id": "8d76ef5c-53a3-5716-924d-b035def7610c", "source_adapter": "manual_evidence_synthesis", "query_text": "Synthesize confirmed identity while preserving undefined occupation coding.", "query_variant_type": "cross_source_identity_temporal_synthesis", "started_at": "2026-09-15T23:08:00Z", "completed_at": "2026-09-15T23:12:00Z", "outcome": "source_reviewed", "sources_reviewed": 4, "candidate_sources_rejected": 0, "research_notes": "No occupation or employer claim is made from undefined code 993.", "next_action": "Review Box 178.", "attempt_number": 5, "research_agent_version": "before-oss-batch556-v1"
+    },
+    {
+      "key": "b556-rene-official-review", "person_id": "8503fac3-fd47-534a-85b8-6bd1a04599b3", "source_adapter": "official_archival_and_web_review", "query_text": "Exact-name review across official SHD, CIA, LOC and accessible sources; compare fuller name variants.", "query_variant_type": "common_foreign_name_disambiguation", "started_at": "2026-09-15T23:00:00Z", "completed_at": "2026-09-15T23:10:00Z", "outcome": "candidate_found", "sources_reviewed": 4, "candidate_sources_rejected": 4, "rejection_reasons": "Four distinct SHD files fit the unqualified name; the OSS row lacks identifiers needed to choose among them.", "research_notes": "The four archival candidates are preserved without merging.", "next_action": "Compare Box 178 with SHD GR 16 P 169127-169130.", "attempt_number": 4, "research_agent_version": "before-oss-batch556-v1"
+    },
+    {
+      "key": "b556-rene-synthesis", "person_id": "8503fac3-fd47-534a-85b8-6bd1a04599b3", "source_adapter": "manual_evidence_synthesis", "query_text": "Preserve four plausible official candidates and document the unresolved discriminator.", "query_variant_type": "identity_conflict_synthesis", "started_at": "2026-09-15T23:11:00Z", "completed_at": "2026-09-15T23:14:00Z", "outcome": "source_reviewed", "sources_reviewed": 2, "candidate_sources_rejected": 0, "research_notes": "Identity remains ambiguous and no employer is assigned.", "next_action": "Review Box 178.", "attempt_number": 5, "research_agent_version": "before-oss-batch556-v1"
+    },
+    {
+      "key": "b556-edward-army-review", "person_id": "6cc80245-c98a-5f79-8565-1774c9507999", "source_adapter": "nara_army_bulk_fixed_width_review", "query_text": "Complete official Army bulk-file scan for exact eligible protected-identifier and name agreement; identifier withheld.", "query_variant_type": "official_army_bulk_exact_name_and_identifier_review", "started_at": "2026-09-15T23:00:00Z", "completed_at": "2026-09-15T23:07:00Z", "outcome": "source_reviewed", "sources_reviewed": 3, "candidate_sources_rejected": 0, "research_notes": "One exact protected-identifier match was accepted; the occupation code was decoded from official documentation.", "next_action": "Review Box 178 for the farm, employer and OSS chronology.", "attempt_number": 5, "research_agent_version": "before-oss-batch556-v1"
+    },
+    {
+      "key": "b556-edward-synthesis", "person_id": "6cc80245-c98a-5f79-8565-1774c9507999", "source_adapter": "manual_evidence_synthesis", "query_text": "Synthesize index, Army entry, CIA, LOC and exact-name results under publication rules.", "query_variant_type": "cross_source_identity_temporal_synthesis", "started_at": "2026-09-15T23:08:00Z", "completed_at": "2026-09-15T23:12:00Z", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 0, "research_notes": "Identity confirmed and general-farm-hand occupation qualified; no farm or employer identified.", "next_action": "Review Box 178.", "attempt_number": 6, "research_agent_version": "before-oss-batch556-v1"
+    },
+    {
+      "key": "b556-marion-official-review", "person_id": "6ca4d542-7288-50b8-a656-b7fe66ac2f24", "source_adapter": "official_archival_and_web_review", "query_text": "Exact-name variants, OSS context, employer and occupation searches across CIA, LOC and accessible web sources.", "query_variant_type": "incomplete_name_disambiguation", "started_at": "2026-09-15T23:00:00Z", "completed_at": "2026-09-15T23:10:00Z", "outcome": "no_result", "sources_reviewed": 4, "candidate_sources_rejected": 1, "rejection_reasons": "A name-only candidate lacked OSS context and corroborating identifiers.", "research_notes": "No reliable identity or employer match was found after the accessible-source protocol.", "next_action": "Review Box 178 for identifiers, occupation, employer and OSS chronology.", "attempt_number": 5, "research_agent_version": "before-oss-batch556-v1"
+    },
+    {
+      "key": "b556-marion-synthesis", "person_id": "6ca4d542-7288-50b8-a656-b7fe66ac2f24", "source_adapter": "manual_evidence_synthesis", "query_text": "Apply unresolved-publication and archival-review rules after the completed online protocol.", "query_variant_type": "unresolved_protocol_synthesis", "started_at": "2026-09-15T23:11:00Z", "completed_at": "2026-09-15T23:14:00Z", "outcome": "source_reviewed", "sources_reviewed": 1, "candidate_sources_rejected": 0, "research_notes": "The profile remains public as unresolved; no absence of prior employment is claimed.", "next_action": "Review Box 178.", "attempt_number": 6, "research_agent_version": "before-oss-batch556-v1"
+    }
+  ]
+}
