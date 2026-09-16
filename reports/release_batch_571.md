@@ -147,5 +147,14 @@ Research resumes with page 115 rows 13-22. The overall goal remains active.
 
 ## Publication verification
 
-Pending pull-request CI, merge, Pages deployment and independent live
-verification.
+Pull request #269 merged as main commit
+`d8ef45bac00b363b3724a1a0b0d214e3f9f15d5e`. PR Test run 35147313973,
+main Test run 35148044074 and Pages run 35148044065 succeeded. The
+unauthenticated live verifier matched all 67 manifest assets, 95,624,349
+bytes, seven core routes and all ten affected Batch 571 profiles at manifest
+SHA-256
+`81f709fd1ea36049190c83281cbfaa541cd2a4991977cb7dd041e1f6fd94d839`.
+A separate live-browser check confirmed that the top-level oil-company
+category returns its evidence-filtered seven-person set, excludes Jacques de
+Sibour's aviation firm, and renders the new qualified employer, military,
+occupation and student evidence on the affected profiles.

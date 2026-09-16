@@ -15,7 +15,11 @@ the analysis suite passed 6/6. The accessibility suite passed 27/27 in 1.9
 minutes with no serious violations. Astro checked 196 source files with zero
 errors, warnings or hints and generated 24,616 HTML pages / 24,688 artifacts.
 A detached clean replay from commit `b4cd353` reproduces both release trees
-byte for byte. Remote publication verification remains pending.
+byte for byte. PR Test run 35147313973, main Test run 35148044074 and Pages run
+35148044065 succeeded. The unauthenticated live verifier matched all release
+assets, core routes and ten direct Batch 571 profiles; a separate live-browser
+check confirmed the seven-person oil-company filter and qualified new profile
+content. Batch 571 is the current exact-verified public release.
 
 Batch 560: the focused cohort suite passed all 24 checks across desktop, phone
 and tablet. It verifies ten immutable page 112 rows; seven masked private

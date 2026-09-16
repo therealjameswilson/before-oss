@@ -51,10 +51,15 @@ the 24,688-file production tree is
 `296d6f550f40a29bc5b6492ed48c95a80a28be27b0c48ec3f4d419aa1430480a`.
 A detached clean replay from release-candidate commit `b4cd353` reconstructed
 the complete database and reproduced all three release hashes, passed all 95
-Python tests, and repeated the zero-false-positive identifier audit. Remote
-publication verification remains pending. Batch 570 is the current exact-
-verified public release, including the live oil-company category. The goal
-remains active.
+Python tests, and repeated the zero-false-positive identifier audit. Pull
+request #269 merged as main commit
+`d8ef45bac00b363b3724a1a0b0d214e3f9f15d5e`; PR Test run 35147313973,
+main Test run 35148044074 and Pages run 35148044065 succeeded. The
+unauthenticated live verifier matched all 67 manifest assets, 95,624,349
+bytes, seven core routes and all ten Batch 571 profiles. A separate
+live-browser check confirmed the evidence-filtered seven-person oil-company
+category and the new qualified profile evidence. Batch 571 is the current
+exact-verified public release. The goal remains active.
 
 Batch 569 is the current local release candidate. It adds terminal outcomes for
 personnel-index PDF page 114 rows 29-38, Bernard F Deren through King Derr,

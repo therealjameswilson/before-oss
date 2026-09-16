@@ -18,9 +18,12 @@ the 24,688-file production tree is
 Nine bundle sources support the Batch 571 qualified identity, occupation,
 student, employer and military-assignment findings. No authenticated Catalog
 request was used. A detached clean replay from commit `b4cd353` reproduces
-both tree hashes and the manifest hash exactly. Batch 570 remains the exact-
-verified public release until Batch 571 passes CI, deployment and independent
-live verification.
+both tree hashes and the manifest hash exactly. PR Test run 35147313973, main
+Test run 35148044074 and Pages run 35148044065 succeeded; the unauthenticated
+live verifier matched all 67 manifest assets, seven core routes and ten direct
+Batch 571 profiles at merge commit
+`d8ef45bac00b363b3724a1a0b0d214e3f9f15d5e`. Batch 571 is the current exact-
+verified public release.
 
 ## Batch 560 release candidate
 
