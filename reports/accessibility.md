@@ -5891,3 +5891,14 @@ Demastrie conflict, and the refusal to pad Leon M Demers's seven-digit source
 value. The student findings remain institutional status rather than
 employment. All 27 axe scans reported no serious violations; the Sources route
 completed in 25.4-26.1 seconds.
+
+## Batch 562 accessibility and responsive regression
+
+The bounded release suite passes 81 / 81 checks: 24 Batch 562 data and privacy
+assertions, 24 core interaction checks, 6 analysis checks and 27 axe scans. The
+matrix covers desktop, phone and tablet widths. It verifies all ten new direct
+profiles, their page 113 source rows, five masked private values, the two
+possible-duplicate groups, Jerome E Demontesante's conflict, and the separation
+of Eugene W. DeMoore's Army assignment from his unnamed civil-engineering
+employment question. All 27 axe scans report no serious violations; the large
+Sources route completes in 25.8-30.7 seconds.

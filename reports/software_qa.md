@@ -11091,3 +11091,37 @@ phone and tablet. The new regression proves the two student statuses are not
 employment, the three accepted Army findings require exact protected-
 identifier agreement, the conflicting Army namesake is not exposed, and the
 seven-digit source value is not silently corrected.
+
+## Batch 562 software QA
+
+The reviewed source bundle validates and reimports idempotently: ten sources,
+two organizations, four affiliations, twenty-one claims, thirty-one claim-
+source links, eleven person updates and twenty attempts. Two consecutive
+reimports preserve exact table totals of 4,778 sources, 671 organizations,
+2,138 affiliations, 4,479 claims, 10,492 claim-source links and 9,410 research
+attempts. Ingest validation passes all seven corpus checks, SQLite reports
+`ok` with zero foreign-key errors, and the 200-profile audit passes all seven
+structural checks. Python passes 95 / 95 tests.
+
+Astro checks 187 source files with zero errors, warnings or hints and generates
+24,605 HTML pages. The bounded browser suite passes 81 / 81 across desktop,
+phone and tablet: 24 current-batch checks, 24 core route and interaction checks,
+6 analysis checks and 27 accessibility checks. The Batch 562 regression proves
+that military assignment, occupation and named employer remain distinct;
+duplicate candidates remain separate; private identifiers remain masked; and
+the conflicting and low-confidence candidates do not become public
+affiliations.
+
+The local public-manifest guard verifies all 67 listed assets and 94,857,400
+bytes at manifest SHA-256
+`de23b5e113e0a93a52d9b6fb8f3eb37a560906d97dede852a6be3836a70b0929`.
+The 70-file public tree contains 97,204,528 bytes at deterministic SHA-256
+`ad1a414b772051d27cb324478cc87b074b8d1da03d29b33da5d85003075b4cee`.
+The production tree contains 24,677 files and 289,055,205 bytes at SHA-256
+`d1943583881d438e75687b3e31ccf30a195ccabfd2813b2160a49a2083894f44`.
+
+Every internal link in the 24,605-page site resolves; 50,038 unique external
+URLs are inventoried for separate live checking. The identifier audit compares
+12,926 normalized identifiers and 120 formatted variants across 24,677
+artifacts, rejects 1,101 candidate substrings, and finds zero unexpected
+boundary, aggregate or manifest-size matches.
