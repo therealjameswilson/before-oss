@@ -33,9 +33,12 @@ claims, 9,610 attempts and 10,626 claim-source links; public data contains
 `research/batch-566-discovery-checkpoint.md`. Local validation is green: 95
 Python tests, 78 bounded release checks, all internal links across 24,609 HTML
 pages, the 200-profile structural audit and the public-identifier audit pass.
-The oil-company category remains tested across desktop, phone and tablet. The
-detached clean replay and public deployment checks remain release gates. The
-goal remains active.
+The oil-company category remains tested across desktop, phone and tablet. A
+detached replay from release-candidate commit `8d570fd` reconstructs the
+database and reproduces the exact public-manifest, public-tree and
+production-tree hashes, passes all 95 Python tests, and repeats the
+zero-false-positive identifier audit across 24,681 artifacts. Public deployment
+checks remain release gates. The goal remains active.
 
 Batch 565 is the current exact-verified public release. It adds ten terminal saved
 outcomes for personnel-index PDF page 113 rows 34-43, William Denit through

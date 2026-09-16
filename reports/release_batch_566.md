@@ -109,9 +109,9 @@ counts are 2,284 commissioned, 6,041 not commissioned and 15,615 unknown.
   bytes at manifest SHA-256
   `59a988bb6b18af93ebbfecc6670b1be9d3b73a9cb84aa0dd8fb2118291d270a6`.
 - The 70-file public tree covers 97,546,446 bytes at deterministic SHA-256
-  `80fece0f677aa99187a4361bcda730d4f17291498af9289fa1ba1c07f40ea212`.
+  `8c24e7a63cd64f1a55ac7e5ca30778eb3c94ccacc3bedf6b7e30d75229a1f483`.
 - The production tree contains 24,681 files and 289,591,449 bytes at SHA-256
-  `7a685b93a17d94258a1e75210c1d83e30e8ed868bcd25eabb2f8c9205984ba8c`.
+  `8cf25a0d6f451830fb7bcbea0ae6628ecce170aab88f309e0acca77799c69b21`.
 - The 200-profile stratified structural audit passes all seven checks. This is
   not an independent historical rereview.
 - Identifier audit: 12,926 normalized identifiers, 120 formatted variants and
@@ -121,9 +121,13 @@ counts are 2,284 commissioned, 6,041 not commissioned and 15,615 unknown.
 - No local `.env` or credential file is included in the release tree; tracked
   ignore rules cover `.env` while `.env.example` remains allowed.
 
-A detached clean replay from the committed release candidate remains required
-before publication. Remote pull-request CI, main-branch CI, Pages deployment
-and unauthenticated live verification also remain pending.
+A detached clean replay from release-candidate commit `8d570fd` completed
+successfully. It reconstructed the database from the verified PDF, tracked
+adapter checkpoints, review decisions and evidence bundles; reproduced the
+exact public-manifest, public-tree and production-tree hashes above; passed all
+95 Python tests; and repeated the zero-false-positive identifier audit across
+all 24,681 artifacts. Remote pull-request CI, main-branch CI, Pages deployment
+and unauthenticated live verification remain pending.
 
 ## Resume commands
 
