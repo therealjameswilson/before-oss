@@ -113,6 +113,13 @@ counts are 2,283 commissioned, 6,033 not commissioned and 15,624 unknown.
 - Identifier audit: 12,926 normalized identifiers, 120 formatted variants and
   1,101 candidate substrings produce zero unexpected boundary, aggregate or
   manifest-size matches across all 24,678 artifacts.
+- A detached archive replay from commit `7e87431bdedeafe229dc726a00243f03b80ebdc5`
+  copied only the frozen source PDF (SHA-256
+  `7268492342ab131d3b6d2697cfa4f6856cbdcd16e0ed3877e8d6a0478f58c02b`),
+  rebuilt the database and public assets, installed 276 locked npm packages,
+  and repeated Astro's 188-file check and 24,606-page build. It reproduced the
+  70-file public tree, 24,678-file production tree and 67-asset manifest at the
+  exact hashes reported above.
 - No local `.env` or credential file is included in the release tree; tracked
   ignore rules cover `.env` while `.env.example` remains allowed.
 

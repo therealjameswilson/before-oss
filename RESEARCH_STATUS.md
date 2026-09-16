@@ -22,7 +22,9 @@ organizations, 4,784 citations, 4,493 claims, 9,460 attempts and 10,513
 claim-source links; public data contains 2,125 affiliations, 658 organizations,
 3,596 sources and 4,313 claims. See `reports/release_batch_563.md` and
 `research/batch-563-discovery-checkpoint.md`. Local validation is green;
-publication verification remains pending. The goal remains active.
+the detached archive replay reproduces both release trees and the asset manifest
+at their exact hashes. Publication verification remains pending. The goal
+remains active.
 
 Batch 562 is the current exact-verified public release. It adds ten terminal
 saved outcomes for page 113 rows 4-13, Lawrence G Demgen through John J
