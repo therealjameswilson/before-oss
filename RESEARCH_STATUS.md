@@ -41,9 +41,15 @@ and the 24,682-file production tree is
 A detached clean replay from release-candidate commit `8fd648c` reconstructed
 the database and reproduced all three hashes, passed all 95 Python tests, and
 repeated the zero-false-positive identifier audit across all 24,682 artifacts.
-Remote publication verification remains pending. The oil-company category
-remains in the top directory navigation and tested as an employment-only
-filter. The goal remains active.
+Pull request #266 merged as main commit
+`67e905210e6e2c01b71b24baea07b79ee67bb31b`; PR Test run 35122836413,
+main Test run 35123666303 and Pages run 35123666290 succeeded. The
+unauthenticated live verifier matched all 67 manifest assets, 95,344,752
+bytes, seven core routes and all ten direct profiles at manifest SHA-256
+`ad75b79123a34a548aef9cfd7b5d18a1ff798054c1282d399bfb2f45483587a4`.
+Live browser inspection confirmed that the oil-company category remains in
+the top directory navigation, applies its employment-only filter, and lists
+seven documented people. The goal remains active.
 
 Batch 567 is the current exact-verified public release. It adds terminal outcomes for
 personnel-index PDF page 114 rows 9-18, Jeffrey T Denton Jr. through Alfred J
