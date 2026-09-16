@@ -123,7 +123,11 @@ counts are 2,284 commissioned, 6,035 not commissioned and 15,621 unknown.
 - Identifier audit: 12,926 normalized identifiers, 120 formatted variants and
   1,099 candidate substrings produce zero unexpected boundary, aggregate or
   manifest-size matches across all 24,678 artifacts.
-- Clean detached replay: pending the frozen release-candidate commit.
+- A detached archive replay from release-candidate commit `e03784c` rebuilt
+  the SQLite database and every public artifact from the frozen 522-page source
+  PDF (SHA-256 `7268492342ab131d3b6d2697cfa4f6856cbdcd16e0ed3877e8d6a0478f58c02b`).
+  It reproduced the exact public-manifest, public-tree and production-tree
+  hashes above, and all 95 Python tests passed independently in the replay.
 - No local `.env` or credential file is included in the release tree; tracked
   ignore rules cover `.env` while `.env.example` remains allowed.
 

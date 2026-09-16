@@ -21,8 +21,9 @@ organizations, 4,791 citations, 4,509 claims, 9,510 attempts and 10,549
 claim-source links; public data contains 2,127 affiliations, 658 organizations,
 3,603 sources and 4,328 claims. See `reports/release_batch_564.md` and
 `research/batch-564-discovery-checkpoint.md`. Local validation is green;
-clean-replay and publication verification are pending. The goal remains
-active.
+a detached archive replay from release-candidate commit `e03784c` reproduces
+the exact public-manifest, public-tree and production-tree hashes. Publication
+verification is pending. The goal remains active.
 
 Batch 563 is the current exact-verified public release. It adds ten terminal
 saved outcomes for personnel-index PDF page 113 rows 14-23, John D Dempsey
