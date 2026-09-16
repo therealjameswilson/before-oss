@@ -41,8 +41,10 @@ the 70-file public tree is
 `08ffbabc8fbdf05167ed2ef147c57f6f4c56bf2e4bbb399279e11d96bf796b77`,
 and the 24,681-file production tree is
 `dac59fda433778b930e68207ae29dc0b52cd22fa9bed801c5cf9190b2e22d7d0`.
-Detached clean replay and remote publication verification remain pending. The
-goal remains active.
+A detached clean replay from release-candidate commit `9d38a54` reconstructed
+the database and reproduced all three hashes, passed all 95 Python tests, and
+repeated the zero-false-positive identifier audit across all 24,681 artifacts.
+Remote publication verification remains pending. The goal remains active.
 
 Batch 566 is the current exact-verified public release. It adds terminal outcomes for ten people represented
 by eleven source rows on personnel-index PDF page 113 rows 44-46 and page 114

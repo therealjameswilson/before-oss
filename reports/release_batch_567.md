@@ -114,7 +114,12 @@ counts are 2,287 commissioned, 6,044 not commissioned and 15,609 unknown.
 - No local `.env` or credential file is included in the release tree; tracked
   ignore rules cover `.env` while `.env.example` remains allowed.
 
-Detached clean replay and remote publication verification remain pending.
+A detached clean replay from release-candidate commit `9d38a54` reconstructed
+the database from the frozen 522-page source PDF, versioned evidence, review
+decisions and sanitized adapter checkpoint. It reproduced the exact public-
+manifest, public-tree and production-tree hashes above, passed all 95 Python
+tests, and repeated the zero-false-positive identifier audit across all 24,681
+artifacts. Remote publication verification remains pending.
 
 ## Resume commands
 
