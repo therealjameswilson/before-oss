@@ -40,9 +40,11 @@ the 70-file public tree is
 `9431f48c38a874c9fb9329c7ef6492d7aa48b5cd167f4328c76b954fa573d3d6`,
 and the 24,684-file production tree is
 `0f8c17d0dda68e5fa328ef0786bd1382a21318e2feefacbfcca9a33dbf9030fe`.
-Detached clean-replay and remote-publication verification remain pending. The
-oil-company category remains tested across desktop, phone and tablet. The goal
-remains active.
+A detached clean replay from release-candidate commit `5d9088d` reconstructed
+the database and reproduced all three hashes, passed all 95 Python tests, and
+repeated the zero-false-positive identifier audit across all 24,684 artifacts.
+Remote-publication verification remains pending. The oil-company category
+remains tested across desktop, phone and tablet. The goal remains active.
 
 Batch 568 is the current exact-verified public release. It adds terminal
 outcomes for personnel-index PDF page 114 rows 19-28, Wallace A DePonio through
