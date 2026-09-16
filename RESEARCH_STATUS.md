@@ -2,31 +2,39 @@
 
 Verified against the current local SQLite database on 2026-09-16 UTC.
 
-Batch 562 is the current local release candidate. It adds ten terminal saved
-outcomes for personnel-index PDF page 113 rows 4-13, Lawrence G Demgen through
-John J DeMoore, all in Box 179. A direct OSS interview confirms Eugene W.
-DeMoore and documents United States Army Field Artillery as his immediate
-pre-OSS military assignment plus civil engineer in New York City as an earlier
-occupation, but it names no civilian employer. Exact protected-identifier and
-name agreement confirms John J DeMoore and supports only a qualified grouped
-metalworking occupation at Army entry. The official French military-archives
-inventory supplies Igor Demidoff's high-confidence dossier path, while two
-reputable histories support John Demontis's Bathtub 1 mission identity without
-establishing earlier employment. The Giovanni/John Demontis and Livia M
-Demian/Denain pairs remain separate in visible possible-duplicate groups. Arto
-DeMirjian's plausible photographer lead is withheld at low confidence; Jerome
-E Demontesante retains an explicit identifier conflict. Exact coverage is
-5,386 / 23,940 researched, 584 verified affiliations, 258 verified employers,
-5,342 archival dispositions assessed and 18,554 `not_started`. The private
-database contains 2,138 affiliations, 671 organizations, 4,778 citations,
-4,479 claims, 9,410 attempts and 10,492 claim-source links; public data contains
-2,124 affiliations, 657 organizations, 3,591 sources and 4,301 claims. See
-`reports/release_batch_562.md` and
-`research/batch-562-discovery-checkpoint.md`. All local validation and the
-detached clean-room replay pass; publication verification is in progress. The
-goal remains active.
+Batch 563 is the current local release candidate. It adds ten terminal saved
+outcomes for personnel-index PDF page 113 rows 14-23, John D Dempsey through
+Gusbert DenBesten, in Boxes 179-180. Exact protected-identifier agreement
+confirms Joseph Denaro in a direct May 1944 OSS report. That report identifies
+his civilian work supervising beauty-salon personnel, and the contemporary
+1942 Cincinnati directory lists him as a hairdresser at Mabley's. The exact
+name, city, specific occupation and close chronology support Mabley's as his
+high-confidence immediate affiliation and last civilian employer; the two
+claims remain separately modeled. John D Dempsey's Burma obituary lead and
+Jean Denamiel's official French resistance-file lead remain low-confidence
+identity candidates and are withheld. Livia M Denain remains separate from
+Livia M Demian in their visible duplicate group. Six further identities remain
+unresolved, including Gusbert DenBesten's explicitly qualified `possibly`
+entry. Exact coverage is 5,396 / 23,940 researched, 585 verified affiliations,
+259 verified employers, 5,351 archival dispositions assessed and 18,544
+`not_started`. The private database contains 2,139 affiliations, 672
+organizations, 4,784 citations, 4,493 claims, 9,460 attempts and 10,513
+claim-source links; public data contains 2,125 affiliations, 658 organizations,
+3,596 sources and 4,313 claims. See `reports/release_batch_563.md` and
+`research/batch-563-discovery-checkpoint.md`. Local validation is green;
+publication verification remains pending. The goal remains active.
 
-Batch 561 is the current exact-verified public release. It adds ten terminal
+Batch 562 is the current exact-verified public release. It adds ten terminal
+saved outcomes for page 113 rows 4-13, Lawrence G Demgen through John J
+DeMoore. Pull request #260 merged as main commit
+`c826ba65721af951474a07d854090c590a88c921`; main Test run 35088492588
+and Pages run 35088492504 succeeded. The live verifier matched all 67 manifest
+assets, 94,857,400 bytes, seven core routes and eleven direct profiles at
+manifest SHA-256
+`de23b5e113e0a93a52d9b6fb8f3eb37a560906d97dede852a6be3836a70b0929`.
+The goal remains active.
+
+Batch 561 is an earlier exact-verified public release. It adds ten terminal
 saved outcomes for personnel-index PDF page 112 rows 40-46 and page 113 rows
 1-3, George C Demas through Leon M Demers, all in Box 179. Pull request #259
 merged as main commit `dfe206a929d10a799d029ab980afa62b03a9a893`; main Test
