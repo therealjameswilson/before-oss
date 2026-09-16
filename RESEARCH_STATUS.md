@@ -38,9 +38,12 @@ the 70-file public tree is
 `e9eb4719272b95f1aa142b899a796438b7dda8b58d0dd095ac6f0390099a2241`,
 and the 24,682-file production tree is
 `305c5eb9b60aaf906241df4545295fde0fbe33b0145587adf5973724647e832f`.
-A detached clean replay and remote publication verification remain pending.
-The oil-company category remains in the top directory navigation and tested
-as an employment-only filter. The goal remains active.
+A detached clean replay from release-candidate commit `8fd648c` reconstructed
+the database and reproduced all three hashes, passed all 95 Python tests, and
+repeated the zero-false-positive identifier audit across all 24,682 artifacts.
+Remote publication verification remains pending. The oil-company category
+remains in the top directory navigation and tested as an employment-only
+filter. The goal remains active.
 
 Batch 567 is the current exact-verified public release. It adds terminal outcomes for
 personnel-index PDF page 114 rows 9-18, Jeffrey T Denton Jr. through Alfred J
