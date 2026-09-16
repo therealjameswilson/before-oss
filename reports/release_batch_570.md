@@ -144,3 +144,15 @@ python3 scripts/audit_public_identifiers.py --database research/research.sqlite 
 Batch 570 completes the accessible-source protocol for page 114 rows 39-46
 and page 115 rows 1-2. Research resumes with page 115 rows 3-12. The overall
 goal remains active.
+
+## Publication verification
+
+Pull request #268 merged as main commit
+`885ccd1ed630d853e53b3cc85b7be758910566f4`. PR Test run 35136800984,
+main Test run 35137597385 and Pages run 35137597425 succeeded. The
+unauthenticated live verifier matched all 67 manifest assets, 95,517,234
+bytes, seven core routes and all eleven affected Batch 570 profiles at
+manifest SHA-256
+`2004dd86809014b45991a4cbdefd7302934bb81b23e97135c34b664b14990826`.
+The live directory also retained the top-level oil-company category and its
+dedicated `featured=oil_companies` filter.
