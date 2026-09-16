@@ -2,7 +2,36 @@
 
 Verified against the current local SQLite database on 2026-09-16 UTC.
 
-Batch 564 is the current local release candidate. It adds ten terminal saved
+Batch 565 is the current local release candidate. It adds ten terminal saved
+outcomes for personnel-index PDF page 113 rows 34-43, William Denit through
+John M Dennis, all in Box 180. William Denit has a medium-confidence documented
+prewar Department of Agriculture role; Anthony J Denneau has confirmed OSS
+identity and date-bounded stock-clerk occupation; and Daniel C Dennet Jr. has a
+high-confidence identity with Clark University qualified as probable immediate
+and last civilian employment plus earlier American University of Beirut
+teaching. Donald J Dennhardt and John M Dennis have qualified student status at
+Army entry. Edward J Dennis and James H Dennis are identity-confirmed without
+publishable pre-OSS occupations. Alfred P Dennis, 1st Lt James A Dennis and
+James S Dennis remain unresolved for Box 180 review.
+
+The batch raises research-attempt coverage to 5,416 of 23,940 active people
+(22.6232%) and archival-disposition coverage to 5,371 (22.4353%). Verified
+affiliation coverage remains 585 (2.4436%) and verified-employer coverage
+remains 259 (1.0819%), because the new employer findings are deliberately
+medium-confidence. The private database contains 2,147 affiliations, 675
+organizations, 4,800 citation records, 2,187 unique source documents, 4,533
+claims, 9,560 attempts and 10,602 claim-source links; public data contains
+2,133 affiliations, 661 organizations, 3,612 sources and 4,352 claims. See
+`reports/release_batch_565.md` and `research/batch-565-discovery-checkpoint.md`.
+Local validation is green: 95 Python tests, 84 bounded release checks, all
+internal links across 24,609 HTML pages, the 200-profile structural audit and
+public-identifier redaction audit pass. A detached archive replay from
+release-candidate commit `21bff79` reproduces the exact public-manifest,
+public-tree and production-tree hashes, passes all 95 Python tests, and repeats
+the zero-false-positive identifier audit across 24,681 artifacts. Publication
+verification remains pending. The goal remains active.
+
+Batch 564 is the current exact-verified public release. It adds ten terminal saved
 outcomes for personnel-index PDF page 113 rows 24-33, Bernard S DeNedde
 through Reid M Denis, in Boxes 180-181. Two exact Army matches support only
 qualified occupation findings: skilled leather-manufacturing work for Joseph P
@@ -22,8 +51,14 @@ claim-source links; public data contains 2,127 affiliations, 658 organizations,
 3,603 sources and 4,328 claims. See `reports/release_batch_564.md` and
 `research/batch-564-discovery-checkpoint.md`. Local validation is green;
 a detached archive replay from release-candidate commit `e03784c` reproduces
-the exact public-manifest, public-tree and production-tree hashes. Publication
-verification is pending. The goal remains active.
+the exact public-manifest, public-tree and production-tree hashes. Pull request
+#262 merged as main commit `3c45b895dd5d57c3054e88dda0151907e5a7efc6`; PR Test
+run 35098234639, main Test run 35099119811 and Pages run 35099119629
+succeeded. The live verifier matched all 67 manifest assets, 95,001,097 bytes,
+seven core routes and ten direct profiles at manifest SHA-256
+`3c9238c1673df75029b9eec1d759ca22053be3270b0918e414346dbb26e9ad6b`.
+The live personnel directory retains the tested oil-company employee category.
+The goal remains active.
 
 Batch 563 is the current exact-verified public release. It adds ten terminal
 saved outcomes for personnel-index PDF page 113 rows 14-23, John D Dempsey
