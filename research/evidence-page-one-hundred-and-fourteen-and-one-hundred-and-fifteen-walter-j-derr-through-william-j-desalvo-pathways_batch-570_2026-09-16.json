@@ -1,0 +1,600 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Codex archival research batch 570",
+  "sources": [
+    {
+      "key": "index-b570",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 182",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 114 rows 39-46 and page 115 rows 1-2 visually inspected; Box 182; location 230/86/29/07",
+      "access_date": "2026-09-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official personnel-file index. Four printed private values are retained only in the private database, were preserved literally, and are excluded from public claims and exports."
+    },
+    {
+      "key": "musee-errecalde-b570",
+      "stable_url": "https://museedelaresistanceenligne.org/media7954-Jean-Maurice-Muthular-dErrecalde",
+      "archival_identifier": "Musée de la Résistance en ligne media 7954",
+      "title": "Jean-Maurice Muthular d'Errecalde",
+      "author_creator": "Robert Mencherini",
+      "repository_publisher": "Musée de la Résistance en ligne",
+      "locator": "Historical context paragraphs describing 1942 Army entry, naturalization, first-lieutenant status and OSS recruitment",
+      "access_date": "2026-09-16",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Musée de la Résistance en ligne biographical media",
+      "rights_notes": "Institutional resistance-history profile based on civil records, the USCIS History Office and Library naturalization file, French archival records and the posthumous award citation."
+    },
+    {
+      "key": "mvr-errecalde-b570",
+      "stable_url": "https://mvr.asso.fr/derrecalde/",
+      "title": "MUTHULAR-D'ERRECALDE Jean-Maurice, alias Lucas",
+      "author_creator": "Mémoire Vive de la Résistance",
+      "repository_publisher": "Mémoire Vive de la Résistance",
+      "publication_record_date": "2025",
+      "locator": "Biographical summary and Resistance-service chronology",
+      "access_date": "2026-09-16",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Resistance biographies",
+      "rights_notes": "The profile cites the Musée de la Résistance en ligne and scholarly Resistance histories. It supports a qualified occupation statement, not a named employer."
+    },
+    {
+      "key": "presidency-saint-phalle-b570",
+      "stable_url": "https://www.presidency.ucsb.edu/documents/export-import-bank-the-united-states-nomination-thibaut-de-saint-phalle-be-member-the",
+      "archival_identifier": "American Presidency Project document 242574",
+      "title": "Export-Import Bank of the United States Nomination of Thibaut de Saint Phalle To Be a Member of the Board of Directors",
+      "author_creator": "Jimmy Carter White House Press Office",
+      "repository_publisher": "The American Presidency Project, University of California, Santa Barbara",
+      "publication_record_date": "1977-11-07",
+      "locator": "White House nomination announcement, biographical paragraphs",
+      "access_date": "2026-09-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "Presidential press releases",
+      "rights_notes": "The institutional transcript reproduces the White House announcement. It explicitly supplies education, 1941 law-firm employment and 1942-1946 Navy and OSS service."
+    },
+    {
+      "key": "episcopal-desaix-b570",
+      "stable_url": "https://www.episcopalarchives.org/sites/default/files/clerical-directories/1964_Supplement.pdf",
+      "archival_identifier": "Clerical Directory Supplement, 1964, PDF page 5",
+      "title": "Clerical Directory Supplement, 1964",
+      "author_creator": "The Episcopal Church",
+      "repository_publisher": "The Archives of the Episcopal Church",
+      "publication_record_date": "1964",
+      "locator": "PDF page 5, printed directory entry for Pierry Francis DeSaix",
+      "access_date": "2026-09-16",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Episcopal Clerical Directories",
+      "rights_notes": "The exact rare name and middle-name expansion are used as a qualified identity lead. The postwar clerical entry does not establish pre-OSS employment."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "united-states-army",
+      "canonical_name": "United States Army",
+      "historical_name": "Army",
+      "aliases": ["U.S. Army", "US Army", "Army of the United States"],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Broad service-level normalization used only when the source does not identify the relevant Army unit."
+    },
+    {
+      "key": "chadbourne-wallace-parke-whiteside-b570",
+      "canonical_name": "Chadbourne, Wallace, Parke & Whiteside",
+      "historical_name": "Chadbourne, Wallace, Parke & Whiteside",
+      "aliases": ["Chadbourne, Wallace, Parke and Whiteside"],
+      "organization_type": "law firm",
+      "sector": "law",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "active_dates": "Historical name documented in 1941",
+      "normalization_notes": "The historical law-firm name is preserved as published; no modern successor firm is substituted."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "jean-errecalde-us-army-b570",
+      "person_id": "882d31ba-3e7d-53d0-8951-3a70ef7534a5",
+      "organization_key": "united-states-army",
+      "organization_name_as_found": "armée américaine",
+      "role_title": "First Lieutenant, Infantry",
+      "occupation": "Army infantry officer",
+      "relationship_type": "military_assignment",
+      "start_date": "1942-10-13",
+      "date_precision": "Army-entry day is explicit; OSS recruitment date is not stated",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The institutional profile says he entered the U.S. Army, became a first lieutenant of infantry and was recruited by OSS in that military capacity. No narrower Army unit is inferred."
+    },
+    {
+      "key": "jean-errecalde-lawyer-b570",
+      "person_id": "882d31ba-3e7d-53d0-8951-3a70ef7534a5",
+      "role_title": "Lawyer",
+      "occupation": "Lawyer",
+      "relationship_type": "unknown",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "A Resistance-history association reports that he became a lawyer in New York after legal studies. It does not name an employer or provide practice dates, so no employer or self-employment status is inferred."
+    },
+    {
+      "key": "thibaut-saint-phalle-chadbourne-b570",
+      "person_id": "b5b3d635-1c5d-5dfa-b722-72893e89e679",
+      "organization_key": "chadbourne-wallace-parke-whiteside-b570",
+      "organization_name_as_found": "Chadbourne, Wallace, Parke & Whiteside",
+      "role_title": "Associate attorney",
+      "occupation": "Attorney",
+      "relationship_type": "employment",
+      "start_date": "1941",
+      "end_date": "1950",
+      "date_precision": "year; the published employment range overlaps wartime service and is not treated as continuous active office work",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The White House biography places the law-firm association from 1941 and Navy/OSS service from 1942. The reported 1941-1950 range is preserved without assuming uninterrupted active employment during service."
+    }
+  ],
+  "claims": [
+    {
+      "key": "jean-errecalde-identity-b570",
+      "person_id": "882d31ba-3e7d-53d0-8951-3a70ef7534a5",
+      "claim_type": "identity",
+      "claim_text": "The indexed First Lieutenant Jean M D'Errecalde is a confirmed match to Jean-Maurice Muthular d'Errecalde, the infantry officer recruited by OSS.",
+      "evidence_excerpt": "First Lieutenant (Infantry) ... Jean-Maurice Muthular d'Errecalde was recruited by the Office of Strategic Services",
+      "evidence_paraphrase": "The rare surname, Jean-Maurice given name, first-lieutenant rank and direct OSS recruitment statement align with the indexed row.",
+      "identity_match_assessment": "Confirmed by the distinctive name pattern, matching first-lieutenant rank and an institutional profile explicitly linking him to OSS.",
+      "temporal_assessment": "The profile documents 1942 Army entry and subsequent OSS recruitment before his 1944 mission.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The fuller name is published as a documented variant while the index spelling remains recoverable.",
+      "sources": [
+        {"source_key": "index-b570", "support_type": "supports", "locator_override": "PDF page 114 row 40; 1stLt; Box 182"},
+        {"source_key": "musee-errecalde-b570", "support_type": "supports", "excerpt_override": "First Lieutenant (Infantry) ... Jean-Maurice Muthular d'Errecalde was recruited by the Office of Strategic Services"}
+      ]
+    },
+    {
+      "key": "jean-errecalde-army-claim-b570",
+      "person_id": "882d31ba-3e7d-53d0-8951-3a70ef7534a5",
+      "affiliation_key": "jean-errecalde-us-army-b570",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Jean-Maurice Muthular d'Errecalde entered the U.S. Army on October 13, 1942, and was later recruited by OSS as a first lieutenant of infantry.",
+      "evidence_excerpt": "Jean Maurice enlisted in the American army on October 13, 1942",
+      "evidence_paraphrase": "The institutional chronology places Army entry before recruitment by OSS in his capacity as an infantry first lieutenant.",
+      "identity_match_assessment": "Confirmed exact-person match from name, rank and explicit OSS context.",
+      "temporal_assessment": "The source explicitly describes recruitment from his Army officer status; the precise OSS recruitment date is not stated.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This is a military assignment, not a civilian employer.",
+      "sources": [{"source_key": "musee-errecalde-b570", "support_type": "supports"}]
+    },
+    {
+      "key": "jean-errecalde-lawyer-claim-b570",
+      "person_id": "882d31ba-3e7d-53d0-8951-3a70ef7534a5",
+      "affiliation_key": "jean-errecalde-lawyer-b570",
+      "claim_type": "occupation",
+      "claim_text": "A Resistance-history profile reports that Jean-Maurice Muthular d'Errecalde became a lawyer in New York before entering the U.S. Army.",
+      "evidence_excerpt": "After studying law, he became a lawyer in New York.",
+      "evidence_paraphrase": "The profile identifies a New York legal occupation but names no firm and supplies no employment dates.",
+      "identity_match_assessment": "Confirmed identity from the matching institutional OSS chronology.",
+      "temporal_assessment": "Documented as pre-Army and therefore pre-OSS; immediacy and employer remain unestablished.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as an occupation only. It is not converted to self-employment or a named employer.",
+      "sources": [{"source_key": "mvr-errecalde-b570", "support_type": "supports", "excerpt_override": "After studying law, he became a lawyer in New York."}]
+    },
+    {
+      "key": "jean-errecalde-unresolved-employer-b570",
+      "person_id": "882d31ba-3e7d-53d0-8951-3a70ef7534a5",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "The sources establish his Army-to-OSS path and a New York legal occupation but do not name a civilian employer.",
+      "identity_match_assessment": "Identity is confirmed; employer identification remains unresolved.",
+      "temporal_assessment": "Army entry and OSS recruitment are ordered, but the civilian employment record is incomplete.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 182 and the cited USCIS naturalization file for an application, résumé or firm name.",
+      "sources": [{"source_key": "index-b570", "support_type": "supports"}, {"source_key": "musee-errecalde-b570", "support_type": "context_only"}]
+    },
+    {
+      "key": "thibaut-saint-phalle-identity-b570",
+      "person_id": "b5b3d635-1c5d-5dfa-b722-72893e89e679",
+      "claim_type": "identity",
+      "claim_text": "The indexed Thibaut DeSaint Phalle is a high-confidence match to Thibaut de Saint Phalle, who served in the U.S. Navy and OSS from 1942 to 1946.",
+      "evidence_excerpt": "He served in the U.S. Navy and Office of Strategic Services from 1942 to 1946.",
+      "evidence_paraphrase": "The exceptionally distinctive name and explicit official-service chronology match the Box 182 index entry.",
+      "identity_match_assessment": "High confidence from a rare exact name and a White House biography explicitly stating Navy and OSS service.",
+      "temporal_assessment": "The source dates the combined Navy and OSS service to 1942-1946.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Spacing and hyphen variants are preserved as documented variants rather than silent corrections.",
+      "sources": [{"source_key": "index-b570", "support_type": "supports", "locator_override": "PDF page 114 row 43; Box 182"}, {"source_key": "presidency-saint-phalle-b570", "support_type": "supports"}]
+    },
+    {
+      "key": "thibaut-saint-phalle-employer-b570",
+      "person_id": "b5b3d635-1c5d-5dfa-b722-72893e89e679",
+      "affiliation_key": "thibaut-saint-phalle-chadbourne-b570",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Thibaut de Saint Phalle's last documented civilian employer before wartime service was Chadbourne, Wallace, Parke & Whiteside, where he was an associate attorney from 1941.",
+      "evidence_excerpt": "From 1941 to 1950, he was an associate attorney with the New York firm",
+      "evidence_paraphrase": "The White House biography dates his law-firm role from 1941 and his U.S. Navy and OSS service from 1942.",
+      "identity_match_assessment": "High-confidence identity from the distinctive name and explicit OSS-service statement in the same biographical source.",
+      "temporal_assessment": "Strongly date-bounded as the last identified civilian role before service; the reported 1941-1950 association overlaps wartime service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The source does not explain whether the firm relationship continued as military leave, so continuous active employment is not inferred.",
+      "sources": [{"source_key": "presidency-saint-phalle-b570", "support_type": "supports", "excerpt_override": "From 1941 to 1950, he was an associate attorney with the New York firm"}]
+    },
+    {
+      "key": "pierry-desaix-identity-b570",
+      "person_id": "50e34e69-af2b-5095-b5ea-c33a2ee5dbe4",
+      "claim_type": "identity",
+      "claim_text": "The postwar Episcopal clerical directory provides Pierry Francis DeSaix as a probable full-name expansion for the indexed Pierry F Desaix.",
+      "evidence_excerpt": "DeSaix, Pierry Francis ... born Chicago ... 5 June 15",
+      "evidence_paraphrase": "The exact rare given name and surname align and the institutional directory expands the middle initial, but no wartime identifier bridges the records.",
+      "identity_match_assessment": "Probable, not confirmed: the rare name supports the match, but the source supplies no OSS, Box 182, rank or protected-identifier link.",
+      "temporal_assessment": "The directory is postwar and is used for identity resolution only, not employment chronology.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Box 182 should confirm the middle-name expansion before the identity is promoted.",
+      "sources": [{"source_key": "index-b570", "support_type": "supports", "locator_override": "PDF page 114 row 44; 2nd Lt; Box 182"}, {"source_key": "episcopal-desaix-b570", "support_type": "supports", "excerpt_override": "DeSaix, Pierry Francis ... born Chicago ... 5 June 15"}]
+    },
+    {
+      "key": "walter-j-derr-unresolved-b570",
+      "person_id": "81b1d697-a203-5a42-a043-902eb5163a44",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official, archival, exact-name, military, newspaper, obituary and employment searches did not produce an attributable identity or employer.",
+      "identity_match_assessment": "Unresolved; the name is insufficiently distinctive without another identifier.",
+      "temporal_assessment": "No reliable pre-OSS chronology was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 182 for a full name, identifiers and employment history.",
+      "sources": [{"source_key": "index-b570", "support_type": "supports"}]
+    },
+    {
+      "key": "delta-i-derrom-unresolved-b570",
+      "person_id": "4a68409f-238b-584f-b226-102dfb86e966",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "The distinctive indexed name produced no attributable identity or employer after the completed staged protocol.",
+      "identity_match_assessment": "Unresolved; no external identity bridge was found.",
+      "temporal_assessment": "No reliable pre-OSS chronology was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 182 for identifiers, spelling variants and employment history.",
+      "sources": [{"source_key": "index-b570", "support_type": "supports"}]
+    },
+    {
+      "key": "romeo-j-derussau-unresolved-b570",
+      "person_id": "3733ff51-7a57-5197-92cb-ac3d130a14da",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "An exact-name obituary-index lead lacked an OSS, Box 182, wartime or employment bridge and was not assigned.",
+      "identity_match_assessment": "Unresolved; the obituary lead is plausible but unlinked.",
+      "temporal_assessment": "No reliable pre-OSS chronology was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 182 before assigning the obituary candidate or any employer.",
+      "sources": [{"source_key": "index-b570", "support_type": "supports"}]
+    },
+    {
+      "key": "pierry-f-desaix-unresolved-b570",
+      "person_id": "50e34e69-af2b-5095-b5ea-c33a2ee5dbe4",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "The likely postwar clerical identity and later employer evidence do not establish the work or assignment immediately before OSS.",
+      "identity_match_assessment": "Probable full-name identity; wartime linkage beyond the index remains incomplete.",
+      "temporal_assessment": "Postwar clerical and sales-representative records are not used as pre-OSS evidence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 182 for wartime identifiers and the pre-OSS employment sequence.",
+      "sources": [{"source_key": "index-b570", "support_type": "supports"}, {"source_key": "episcopal-desaix-b570", "support_type": "context_only"}]
+    },
+    {
+      "key": "gerard-d-desales-unresolved-b570",
+      "person_id": "feb03984-e283-55e5-a721-de4ac69df190",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "Search results did not produce a candidate with a defensible OSS, Box 182 or employment bridge.",
+      "identity_match_assessment": "Unresolved; the indexed name alone is insufficient.",
+      "temporal_assessment": "No reliable pre-OSS chronology was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 182 for identifiers, nationality, spelling and employment history.",
+      "sources": [{"source_key": "index-b570", "support_type": "supports"}]
+    },
+    {
+      "key": "richard-desales-unresolved-b570",
+      "person_id": "46294c52-767a-5a2e-a71d-d726e7bab301",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "The row may duplicate or abbreviate Richard de Roussy de Sales, but the Box 182 identity has not been directly linked and remains separate.",
+      "identity_match_assessment": "Ambiguous; a possible duplicate is preserved without merging the two source rows or person entities.",
+      "temporal_assessment": "No independent pre-OSS chronology was established for this Box 182 row.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Compare the Box 181 and Box 182 files before accepting or rejecting the possible duplicate relationship.",
+      "sources": [{"source_key": "index-b570", "support_type": "supports", "locator_override": "PDF page 114 rows 36 and 46; Boxes 181 and 182"}]
+    },
+    {
+      "key": "joseph-s-desalvo-unresolved-b570",
+      "person_id": "df8c3a35-1f4b-5b7d-9461-051dc05e7500",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "Common-name results could not be linked to the Box 182 row by two corroborating identifiers.",
+      "identity_match_assessment": "Unresolved; no candidate met the common-name disambiguation rule.",
+      "temporal_assessment": "No reliable pre-OSS chronology was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 182 before assigning any Joseph S. DeSalvo biography or employer.",
+      "sources": [{"source_key": "index-b570", "support_type": "supports"}]
+    },
+    {
+      "key": "william-j-desalvo-unresolved-b570",
+      "person_id": "8946ed2e-1e06-54b2-abac-519504a63bb3",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "A same-name Silver Star index lacks the additional identifiers needed to assign it to the indexed captain and provides no employer.",
+      "identity_match_assessment": "Unresolved; the award lead is not a sufficient identity bridge for this common name.",
+      "temporal_assessment": "No reliable pre-OSS chronology was established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 182 for branch, unit and identifiers before using the award lead or any employment source.",
+      "sources": [{"source_key": "index-b570", "support_type": "supports"}]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "81b1d697-a203-5a42-a043-902eb5163a44",
+      "identity_status": "unresolved",
+      "identity_evidence": "The Box 182 index row remains the only attributable source after official, archival, military, newspaper, obituary and employment checks.",
+      "name_variants": ["Walter J Derr", "Walter J. Derr"],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 182 for a full name, identifiers and pre-OSS employment history.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "882d31ba-3e7d-53d0-8951-3a70ef7534a5",
+      "identity_status": "confirmed",
+      "identity_evidence": "The rare indexed surname, Jean-Maurice name, matching first-lieutenant rank and institutional statement of OSS recruitment establish the identity.",
+      "name_variants": ["Jean M D'Errecalde", "Jean-Maurice Muthular d'Errecalde", "Jean Maurice Muthular d’Errecalde", "Lucas"],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 182 and the USCIS naturalization file for his named civilian employer and exact Army-to-OSS transfer date.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "4a68409f-238b-584f-b226-102dfb86e966",
+      "identity_status": "unresolved",
+      "identity_evidence": "The distinctive Box 182 name produced no external identity bridge in the completed staged protocol.",
+      "name_variants": ["Delta I Derrom", "Delta I. Derrom"],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 182 for identifiers, name spelling and pre-OSS history.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3733ff51-7a57-5197-92cb-ac3d130a14da",
+      "identity_status": "unresolved",
+      "identity_evidence": "An exact-name obituary-index lead was rejected because it lacked an OSS, Box 182, wartime or employment bridge.",
+      "name_variants": ["Romeo J Derussau", "Romeo J. Derussau", "Romeo J. DeRussau"],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 182 before assigning the obituary candidate or any employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b5b3d635-1c5d-5dfa-b722-72893e89e679",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The distinctive name and White House biography explicitly linking Thibaut de Saint Phalle to U.S. Navy and OSS service establish a high-confidence identity.",
+      "name_variants": ["Thibaut DeSaint Phalle", "Thibaut de Saint Phalle", "Thibaut de Saint-Phalle"],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 182 to determine the exact Navy-to-OSS sequence and whether the law-firm relationship was formally held during service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "50e34e69-af2b-5095-b5ea-c33a2ee5dbe4",
+      "identity_status": "probable",
+      "identity_evidence": "The rare exact given name and surname align with the Episcopal directory's Pierry Francis DeSaix, but no wartime identifier directly bridges the records.",
+      "name_variants": ["Pierry F Desaix", "Pierry F. DeSaix", "Pierry Francis DeSaix", "Pierry Francis Desaix"],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 182 to confirm the full name and establish military and civilian chronology before OSS.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "feb03984-e283-55e5-a721-de4ac69df190",
+      "identity_status": "unresolved",
+      "identity_evidence": "No candidate with an OSS, Box 182, wartime or employment bridge survived the staged search protocol.",
+      "name_variants": ["Gerard D Desales", "Gerard D. Desales", "Gerard D. DeSales"],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 182 for identifiers, nationality, spelling and pre-OSS history.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "46294c52-767a-5a2e-a71d-d726e7bab301",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The indexed Richard DeSales may duplicate or abbreviate Richard de Roussy de Sales, but the separate Box 182 row lacks a direct linkage and remains a separate entity.",
+      "name_variants": ["Richard DeSales", "Richard de Sales"],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "possible_duplicate_group": "possible-richard-desales-roussy-b570",
+      "research_status": "requires_archival_review",
+      "next_action": "Compare the Box 181 and Box 182 personnel files before merging or separating the identities conclusively.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "3f2d6473-cb73-5600-85a7-30074e21e3a4",
+      "possible_duplicate_group": "possible-richard-desales-roussy-b570",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 181 and Box 182 personnel files before merging or separating the identities conclusively.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "df8c3a35-1f4b-5b7d-9461-051dc05e7500",
+      "identity_status": "unresolved",
+      "identity_evidence": "Common-name candidates lacked two corroborating identifiers beyond the name and were not assigned.",
+      "name_variants": ["Joseph S DeSalvo", "Joseph S. DeSalvo"],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 182 for branch, identifiers, hometown and pre-OSS employment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8946ed2e-1e06-54b2-abac-519504a63bb3",
+      "identity_status": "unresolved",
+      "identity_evidence": "A same-name Silver Star index lacked the additional identifiers required to link it to the indexed captain, so the candidate remains unassigned.",
+      "name_variants": ["William J DeSalvo", "William J. DeSalvo"],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 182 for branch, unit, identifiers and pre-OSS employment before using the award lead.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b570-walter-j-derr-evidence-review", "person_id": "81b1d697-a203-5a42-a043-902eb5163a44", "source_adapter": "manual_evidence_review", "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, staged exact-name, military, newspaper, obituary and employment searches for Walter J Derr.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T18:05:00Z", "completed_at": "2026-09-16T18:18:00Z", "outcome": "no_result", "sources_reviewed": 7, "candidate_sources_rejected": 0, "research_notes": "No attributable identity or employer survived the staged protocol.", "next_action": "Review Box 182 for a full name, identifiers and pre-OSS employment history.", "attempt_number": 4, "research_agent_version": "before-oss/batch-570-v1"
+    },
+    {
+      "key": "b570-walter-j-derr-synthesis", "person_id": "81b1d697-a203-5a42-a043-902eb5163a44", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Walter J Derr.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T18:18:00Z", "completed_at": "2026-09-16T18:21:00Z", "outcome": "source_reviewed", "sources_reviewed": 7, "candidate_sources_rejected": 0, "research_notes": "Terminal outcome: requires_archival_review. No unique identity or named pre-OSS employer was established.", "next_action": "Review Box 182 for a full name, identifiers and pre-OSS employment history.", "attempt_number": 5, "research_agent_version": "before-oss/batch-570-v1"
+    },
+    {
+      "key": "b570-jean-errecalde-evidence-review", "person_id": "882d31ba-3e7d-53d0-8951-3a70ef7534a5", "source_adapter": "manual_evidence_review", "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, institutional Resistance biographies and staged military, legal-employment, obituary and archival searches for Jean M D'Errecalde.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T18:05:00Z", "completed_at": "2026-09-16T18:18:00Z", "outcome": "candidate_found", "sources_reviewed": 10, "candidate_sources_rejected": 1, "rejection_reasons": "A commercial valor biography was unnecessary once the institutional profile and its archival source trail established the identity and assignment.", "research_notes": "The rare name, rank and explicit OSS recruitment confirm the identity and Army pathway; a legal occupation is qualified because no firm is named.", "next_action": "Review Box 182 and the USCIS naturalization file for his named employer and exact transfer date.", "attempt_number": 4, "research_agent_version": "before-oss/batch-570-v1"
+    },
+    {
+      "key": "b570-jean-errecalde-synthesis", "person_id": "882d31ba-3e7d-53d0-8951-3a70ef7534a5", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Jean M D'Errecalde.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T18:18:00Z", "completed_at": "2026-09-16T18:21:00Z", "outcome": "source_reviewed", "sources_reviewed": 10, "candidate_sources_rejected": 1, "research_notes": "Terminal outcome: requires_archival_review. The Army-to-OSS pathway and legal occupation are published; no civilian employer is claimed.", "next_action": "Review Box 182 and the USCIS naturalization file for his named employer and exact transfer date.", "attempt_number": 5, "research_agent_version": "before-oss/batch-570-v1"
+    },
+    {
+      "key": "b570-delta-i-derrom-evidence-review", "person_id": "4a68409f-238b-584f-b226-102dfb86e966", "source_adapter": "manual_evidence_review", "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, exact-name, military, newspaper, obituary, directory and employment searches for Delta I Derrom.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T18:05:00Z", "completed_at": "2026-09-16T18:18:00Z", "outcome": "no_result", "sources_reviewed": 7, "candidate_sources_rejected": 0, "research_notes": "No external identity or employer survived the staged protocol.", "next_action": "Review Box 182 for identifiers, spelling and pre-OSS history.", "attempt_number": 4, "research_agent_version": "before-oss/batch-570-v1"
+    },
+    {
+      "key": "b570-delta-i-derrom-synthesis", "person_id": "4a68409f-238b-584f-b226-102dfb86e966", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Delta I Derrom.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T18:18:00Z", "completed_at": "2026-09-16T18:21:00Z", "outcome": "source_reviewed", "sources_reviewed": 7, "candidate_sources_rejected": 0, "research_notes": "Terminal outcome: requires_archival_review. No unique identity or named pre-OSS employer was established.", "next_action": "Review Box 182 for identifiers, spelling and pre-OSS history.", "attempt_number": 5, "research_agent_version": "before-oss/batch-570-v1"
+    },
+    {
+      "key": "b570-romeo-j-derussau-evidence-review", "person_id": "3733ff51-7a57-5197-92cb-ac3d130a14da", "source_adapter": "manual_evidence_review", "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, exact-name, obituary, newspaper, military and employment searches for Romeo J Derussau.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T18:05:00Z", "completed_at": "2026-09-16T18:18:00Z", "outcome": "candidate_rejected", "sources_reviewed": 8, "candidate_sources_rejected": 1, "rejection_reasons": "An exact-name Fall River obituary index lacked an OSS, Box 182, wartime or employment bridge.", "research_notes": "The obituary lead remains unassigned and no employer is claimed.", "next_action": "Review Box 182 before assigning the obituary candidate or any employer.", "attempt_number": 4, "research_agent_version": "before-oss/batch-570-v1"
+    },
+    {
+      "key": "b570-romeo-j-derussau-synthesis", "person_id": "3733ff51-7a57-5197-92cb-ac3d130a14da", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Romeo J Derussau.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T18:18:00Z", "completed_at": "2026-09-16T18:21:00Z", "outcome": "source_reviewed", "sources_reviewed": 8, "candidate_sources_rejected": 1, "rejection_reasons": "The obituary candidate remains unassigned.", "research_notes": "Terminal outcome: requires_archival_review. Identity and employer remain unresolved.", "next_action": "Review Box 182 before assigning the obituary candidate or any employer.", "attempt_number": 5, "research_agent_version": "before-oss/batch-570-v1"
+    },
+    {
+      "key": "b570-thibaut-saint-phalle-evidence-review", "person_id": "b5b3d635-1c5d-5dfa-b722-72893e89e679", "source_adapter": "manual_evidence_review", "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, White House nomination biography, congressional hearing leads, obituary and law-firm chronology for Thibaut DeSaint Phalle.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T18:05:00Z", "completed_at": "2026-09-16T18:18:00Z", "outcome": "candidate_found", "sources_reviewed": 11, "candidate_sources_rejected": 2, "rejection_reasons": "Wikipedia and a commercial biographical page were used only for discovery because the White House biography supplied the relevant evidence.", "research_notes": "The distinctive name and explicit OSS service establish identity; the 1941 law-firm role is the last documented civilian employment before 1942 service.", "next_action": "Review Box 182 to clarify the Navy-to-OSS transition and wartime status of the firm association.", "attempt_number": 4, "research_agent_version": "before-oss/batch-570-v1"
+    },
+    {
+      "key": "b570-thibaut-saint-phalle-synthesis", "person_id": "b5b3d635-1c5d-5dfa-b722-72893e89e679", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Thibaut DeSaint Phalle.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T18:18:00Z", "completed_at": "2026-09-16T18:21:00Z", "outcome": "source_reviewed", "sources_reviewed": 11, "candidate_sources_rejected": 2, "research_notes": "Terminal outcome: verified_employer_found. The law-firm claim is high confidence; continuous active employment during wartime is not inferred.", "next_action": "Review Box 182 to clarify the Navy-to-OSS transition and wartime status of the firm association.", "attempt_number": 5, "research_agent_version": "before-oss/batch-570-v1"
+    },
+    {
+      "key": "b570-pierry-f-desaix-evidence-review", "person_id": "50e34e69-af2b-5095-b5ea-c33a2ee5dbe4", "source_adapter": "manual_evidence_review", "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, Episcopal clerical directory, exact-name, military, newspaper, obituary and employment searches for Pierry F Desaix.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T18:05:00Z", "completed_at": "2026-09-16T18:18:00Z", "outcome": "candidate_found", "sources_reviewed": 10, "candidate_sources_rejected": 2, "rejection_reasons": "A 1955 sales-representative directory and postwar clerical roles were rejected as evidence of pre-OSS employment.", "research_notes": "The Episcopal directory supports a probable full-name expansion only; no wartime bridge or pre-OSS employer was established.", "next_action": "Review Box 182 to confirm the full name and pre-OSS chronology.", "attempt_number": 4, "research_agent_version": "before-oss/batch-570-v1"
+    },
+    {
+      "key": "b570-pierry-f-desaix-synthesis", "person_id": "50e34e69-af2b-5095-b5ea-c33a2ee5dbe4", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Pierry F Desaix.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T18:18:00Z", "completed_at": "2026-09-16T18:21:00Z", "outcome": "source_reviewed", "sources_reviewed": 10, "candidate_sources_rejected": 2, "research_notes": "Terminal outcome: requires_archival_review. The full-name expansion is qualified; no pre-OSS employer is claimed.", "next_action": "Review Box 182 to confirm the full name and pre-OSS chronology.", "attempt_number": 5, "research_agent_version": "before-oss/batch-570-v1"
+    },
+    {
+      "key": "b570-gerard-d-desales-evidence-review", "person_id": "feb03984-e283-55e5-a721-de4ac69df190", "source_adapter": "manual_evidence_review", "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, exact-name, punctuation-variant, military, newspaper, obituary and employment searches for Gerard D Desales.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T18:05:00Z", "completed_at": "2026-09-16T18:18:00Z", "outcome": "no_result", "sources_reviewed": 7, "candidate_sources_rejected": 0, "research_notes": "No attributable identity or employer survived the staged protocol.", "next_action": "Review Box 182 for identifiers, nationality, spelling and pre-OSS history.", "attempt_number": 4, "research_agent_version": "before-oss/batch-570-v1"
+    },
+    {
+      "key": "b570-gerard-d-desales-synthesis", "person_id": "feb03984-e283-55e5-a721-de4ac69df190", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Gerard D Desales.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T18:18:00Z", "completed_at": "2026-09-16T18:21:00Z", "outcome": "source_reviewed", "sources_reviewed": 7, "candidate_sources_rejected": 0, "research_notes": "Terminal outcome: requires_archival_review. No unique identity or named pre-OSS employer was established.", "next_action": "Review Box 182 for identifiers, nationality, spelling and pre-OSS history.", "attempt_number": 5, "research_agent_version": "before-oss/batch-570-v1"
+    },
+    {
+      "key": "b570-richard-desales-evidence-review", "person_id": "46294c52-767a-5a2e-a71d-d726e7bab301", "source_adapter": "manual_evidence_review", "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, the adjacent Richard de Roussy de Sales record and staged exact-name, military, newspaper, obituary and employment searches for Richard DeSales.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T18:05:00Z", "completed_at": "2026-09-16T18:18:00Z", "outcome": "candidate_found", "sources_reviewed": 9, "candidate_sources_rejected": 2, "rejection_reasons": "Modern same-name people and genealogy-only results lacked any wartime connection.", "research_notes": "A possible duplicate relationship with Richard de Roussy de Sales is preserved, but the Box 182 row remains a separate ambiguous entity.", "next_action": "Compare the Box 181 and Box 182 personnel files before merging or separating the identities conclusively.", "attempt_number": 4, "research_agent_version": "before-oss/batch-570-v1"
+    },
+    {
+      "key": "b570-richard-desales-synthesis", "person_id": "46294c52-767a-5a2e-a71d-d726e7bab301", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, duplicate-resolution, temporal, source-quality and publication rules to the reviewed evidence for Richard DeSales.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T18:18:00Z", "completed_at": "2026-09-16T18:21:00Z", "outcome": "source_reviewed", "sources_reviewed": 9, "candidate_sources_rejected": 2, "research_notes": "Terminal outcome: requires_archival_review. The possible duplicate is visible and no employer is claimed.", "next_action": "Compare the Box 181 and Box 182 personnel files before merging or separating the identities conclusively.", "attempt_number": 5, "research_agent_version": "before-oss/batch-570-v1"
+    },
+    {
+      "key": "b570-joseph-s-desalvo-evidence-review", "person_id": "df8c3a35-1f4b-5b7d-9461-051dc05e7500", "source_adapter": "manual_evidence_review", "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, exact-name, military, directory, newspaper, obituary and employment searches for Joseph S DeSalvo.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T18:05:00Z", "completed_at": "2026-09-16T18:18:00Z", "outcome": "candidate_rejected", "sources_reviewed": 8, "candidate_sources_rejected": 3, "rejection_reasons": "Common-name candidates lacked two corroborating identifiers beyond the name.", "research_notes": "No candidate met the enhanced common-name identity rule and no employer is claimed.", "next_action": "Review Box 182 for branch, identifiers, hometown and pre-OSS employment.", "attempt_number": 4, "research_agent_version": "before-oss/batch-570-v1"
+    },
+    {
+      "key": "b570-joseph-s-desalvo-synthesis", "person_id": "df8c3a35-1f4b-5b7d-9461-051dc05e7500", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Joseph S DeSalvo.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T18:18:00Z", "completed_at": "2026-09-16T18:21:00Z", "outcome": "source_reviewed", "sources_reviewed": 8, "candidate_sources_rejected": 3, "research_notes": "Terminal outcome: requires_archival_review. Identity and employer remain unresolved.", "next_action": "Review Box 182 for branch, identifiers, hometown and pre-OSS employment.", "attempt_number": 5, "research_agent_version": "before-oss/batch-570-v1"
+    },
+    {
+      "key": "b570-william-j-desalvo-evidence-review", "person_id": "8946ed2e-1e06-54b2-abac-519504a63bb3", "source_adapter": "manual_evidence_review", "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, exact-name, officer, award, military, newspaper, obituary and employment searches for Capt. William J DeSalvo.", "query_variant_type": "bounded_cross_source_evidence_review", "started_at": "2026-09-16T18:05:00Z", "completed_at": "2026-09-16T18:18:00Z", "outcome": "candidate_rejected", "sources_reviewed": 9, "candidate_sources_rejected": 2, "rejection_reasons": "A same-name Silver Star index and burial candidate lacked the branch, unit, protected identifier or Box 182 linkage needed for assignment.", "research_notes": "The award lead remains unassigned and no employer is claimed.", "next_action": "Review Box 182 for branch, unit, identifiers and pre-OSS employment.", "attempt_number": 4, "research_agent_version": "before-oss/batch-570-v1"
+    },
+    {
+      "key": "b570-william-j-desalvo-synthesis", "person_id": "8946ed2e-1e06-54b2-abac-519504a63bb3", "source_adapter": "reviewed_evidence_synthesis", "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Capt. William J DeSalvo.", "query_variant_type": "terminal_outcome_synthesis", "started_at": "2026-09-16T18:18:00Z", "completed_at": "2026-09-16T18:21:00Z", "outcome": "source_reviewed", "sources_reviewed": 9, "candidate_sources_rejected": 2, "research_notes": "Terminal outcome: requires_archival_review. Identity and employer remain unresolved.", "next_action": "Review Box 182 for branch, unit, identifiers and pre-OSS employment.", "attempt_number": 5, "research_agent_version": "before-oss/batch-570-v1"
+    }
+  ]
+}

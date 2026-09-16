@@ -121,8 +121,13 @@ counts are 2,287 commissioned, 6,046 not commissioned and 15,607 unknown.
 
 ## Publication verification
 
-Pending release-candidate commit, pull-request checks, merge, Pages deployment
-and unauthenticated live verification.
+Pull request #267 merged as main commit
+`0e29b2ff62762edba7c605522573d5c4339ee756`. PR Test run 35131290875,
+main Test run 35132059310 and Pages run 35132059436 succeeded. The
+unauthenticated live verifier matched all 67 manifest assets, 95,451,323
+bytes, seven core routes and all ten direct Batch 569 profiles at manifest
+SHA-256
+`07841386dd2f419208c6c938a930f0492d9ba4033fb1e184dce605711871cac8`.
 
 ## Resume commands
 
