@@ -126,8 +126,13 @@ successfully. It reconstructed the database from the verified PDF, tracked
 adapter checkpoints, review decisions and evidence bundles; reproduced the
 exact public-manifest, public-tree and production-tree hashes above; passed all
 95 Python tests; and repeated the zero-false-positive identifier audit across
-all 24,681 artifacts. Remote pull-request CI, main-branch CI, Pages deployment
-and unauthenticated live verification remain pending.
+all 24,681 artifacts. Pull request #264 merged as main commit
+`4a34c8052c4412d41d27ccfedf31e7394658b3a9`. PR Test run 35110511772,
+main Test run 35111348888 and Pages run 35111348799 succeeded. The
+unauthenticated live verifier matched all 67 manifest assets, 95,199,316 bytes,
+seven core routes and ten direct profiles at manifest SHA-256
+`59a988bb6b18af93ebbfecc6670b1be9d3b73a9cb84aa0dd8fb2118291d270a6`.
+The live personnel directory retains the tested oil-company employee category.
 
 ## Resume commands
 

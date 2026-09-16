@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T14:28:46+00:00",
+  "generated_at": "2026-09-16T15:26:50+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -13,7 +13,7 @@
   },
   "personnel_category_counts": {
     "civilian_professional_or_administrative_grade": 20,
-    "commissioned_army_officer": 20,
+    "commissioned_army_officer": 19,
     "commissioned_coast_guard_officer": 1,
     "commissioned_marine_corps_officer": 4,
     "commissioned_naval_officer": 4,
@@ -22,7 +22,7 @@
     "enlisted_naval_personnel": 4,
     "foreign_or_allied_military_personnel": 15,
     "temporary_contract_or_special_personnel": 4,
-    "unknown_or_indeterminate": 93,
+    "unknown_or_indeterminate": 94,
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
@@ -40,7 +40,7 @@
     "unresolved": 150
   },
   "research_status_counts": {
-    "completed": 5,
+    "completed": 4,
     "conflicting_sources": 9,
     "documented_prewar_employer_found": 2,
     "in_progress": 2,
@@ -49,7 +49,7 @@
     "no_reliable_result_after_protocol": 1,
     "not_started": 125,
     "occupation_only_found": 8,
-    "requires_archival_review": 32,
+    "requires_archival_review": 33,
     "verified_employer_found": 7
   },
   "special_strata_counts": {
@@ -60,7 +60,7 @@
     "incomplete_or_initial_only_name": 20,
     "possible_duplicate_group": 30,
     "confirmed_or_high_published_claim": 32,
-    "medium_published_claim": 16,
+    "medium_published_claim": 15,
     "conflicting_published_claim": 10,
     "unresolved_identity": 150
   },
@@ -175,7 +175,6 @@
     "6df71376-3491-5715-91af-53606a60d0fd",
     "7f837b0a-599d-53c4-a9d7-01b0da7384ff",
     "f6ea5939-6163-59f6-a9b3-3fe7e848fc26",
-    "4aac5898-1798-5825-b2cf-b2bb1f3a976b",
     "15c108b1-3187-5a2b-8203-eaa6a8d5ed12",
     "41562bd4-211a-57fd-9a4e-3a3af7c83eb6",
     "17a8f2cd-1c27-5342-a669-dd2ce398161e",
@@ -267,6 +266,7 @@
     "0e45834f-eb80-5260-86f9-f290b7f429f9",
     "a2d327c1-38bf-5e91-8762-d07ad0295d6c",
     "ce77c56f-052f-511b-a375-ae9b026f1492",
-    "eace424d-a9d1-53c2-ba18-d81c2393eff3"
+    "eace424d-a9d1-53c2-ba18-d81c2393eff3",
+    "bda8dff2-e4ea-5625-9eef-5034cc86608d"
   ]
 }
