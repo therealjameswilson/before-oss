@@ -43,8 +43,14 @@ and the 24,684-file production tree is
 A detached clean replay from release-candidate commit `5d9088d` reconstructed
 the database and reproduced all three hashes, passed all 95 Python tests, and
 repeated the zero-false-positive identifier audit across all 24,684 artifacts.
-Remote-publication verification remains pending. The oil-company category
-remains tested across desktop, phone and tablet. The goal remains active.
+Pull request #267 merged as main commit
+`0e29b2ff62762edba7c605522573d5c4339ee756`; PR Test run 35131290875,
+main Test run 35132059310 and Pages run 35132059436 succeeded. The
+unauthenticated live verifier matched all 67 manifest assets, 95,451,323
+bytes, seven core routes and all ten direct profiles at manifest SHA-256
+`07841386dd2f419208c6c938a930f0492d9ba4033fb1e184dce605711871cac8`.
+The oil-company category remains tested across desktop, phone and tablet. The
+goal remains active.
 
 Batch 568 is the current exact-verified public release. It adds terminal
 outcomes for personnel-index PDF page 114 rows 19-28, Wallace A DePonio through
