@@ -696,6 +696,20 @@ def import_reviewed_evidence(
                     {str(value) for value in variant_values},
                     key=lambda value: (value.casefold(), value),
                 )
+            possible_duplicate_group = (
+                update.possible_duplicate_group
+                if update.possible_duplicate_group is not None
+                else current["possible_duplicate_group"]
+            )
+            manual_review_required = (
+                1
+                if possible_duplicate_group is not None
+                else (
+                    int(update.manual_review_required)
+                    if update.manual_review_required is not None
+                    else current["manual_review_required"]
+                )
+            )
             connection.execute(
                 """
                 UPDATE person_entities
@@ -736,16 +750,8 @@ def import_reviewed_evidence(
                         if "allied_or_foreign_personnel" in update.model_fields_set
                         else current["allied_or_foreign_personnel"]
                     ),
-                    (
-                        int(update.manual_review_required)
-                        if update.manual_review_required is not None
-                        else current["manual_review_required"]
-                    ),
-                    (
-                        update.possible_duplicate_group
-                        if update.possible_duplicate_group is not None
-                        else current["possible_duplicate_group"]
-                    ),
+                    manual_review_required,
+                    possible_duplicate_group,
                     research_status,
                     current["research_started_at"] or now,
                     (
@@ -794,11 +800,7 @@ def import_reviewed_evidence(
                             if update.identity_evidence is not None
                             else current["identity_evidence"]
                         ),
-                        (
-                            int(update.manual_review_required)
-                            if update.manual_review_required is not None
-                            else current["manual_review_required"]
-                        ),
+                        manual_review_required,
                         update.person_id,
                     ),
                 )

@@ -1,20 +1,20 @@
 # Entity-resolution QA
 
-Generated: 2026-09-16T03:28:34+00:00
+Generated: 2026-09-16T04:26:28+00:00
 
 - Source rows: **23,978**.
 - Cautious person entities: **23,940**.
 - Superseded person entities retained for audit: **1** of **23,941** stored rows.
 - Source rows linked: **23,978**.
 - Narrow automatic same-name/same-service-number groups: **34**.
-- Possible duplicate groups: **249**.
+- Possible duplicate groups: **250**.
 - Same-service-number/different-name groups: **164**.
-- Entities requiring manual review: **23,215**.
+- Entities requiring manual review: **23,216**.
 
 ## Checks
 
 - PASS - `all_source_rows_linked`
 - PASS - `no_name_only_automatic_merges`
-- FAIL - `all_duplicate_groups_require_review`
+- PASS - `all_duplicate_groups_require_review`
 
 Exact normalized names alone never trigger an automatic merge. Identical printed service numbers attached to different names remain separate review candidates.
