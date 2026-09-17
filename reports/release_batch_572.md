@@ -144,7 +144,14 @@ Research resumes with page 115 rows 23-32. The overall goal remains active.
 
 ## Publication verification
 
-Remote publication verification remains pending. The live verifier will check
-the exact manifest, every listed asset's size and hash, seven core routes and
-all ten affected Batch 572 profiles. It uses public HTTPS only, bounded
-concurrency and no credential or private database.
+Pull request #270 merged as main commit
+`f2073cc1a8d0c51edb7da31ef69412b2e97fbbfc`. PR Test run 35166626477,
+main Test run 35167281944 and Pages run 35167281964 succeeded. The
+unauthenticated live verifier matched all 67 manifest assets, 95,728,474
+bytes, seven core routes and all ten affected Batch 572 profiles at manifest
+SHA-256
+`08b6f7921d6bf997205c18d5afeedb1072a834d60ccb05031769f6af8d1d9c34`.
+A separate live-browser check confirmed the Peer de Silva chronology, the
+qualified student and occupation evidence on the Cletus Desmaretz and Daniel
+Desmond profiles, George Deskin's explicitly uninterpreted Army code, and the
+unchanged evidence-filtered seven-person oil-company category.

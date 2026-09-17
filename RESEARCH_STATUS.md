@@ -49,9 +49,16 @@ the database from the frozen 522-page source PDF, versioned evidence, review
 decisions and sanitized adapter checkpoint. It reproduced all three release
 hashes, passed all 95 Python tests, and repeated the zero-false-positive
 identifier audit across all 24,692 artifacts. Its only tracked differences
-were expected report-generation timestamps. Remote publication verification
-remains pending. Batch 571 remains the current exact-verified public release.
-The goal remains active.
+were expected report-generation timestamps. Pull request #270 merged as main
+commit `f2073cc1a8d0c51edb7da31ef69412b2e97fbbfc`; PR Test run 35166626477,
+main Test run 35167281944 and Pages run 35167281964 succeeded. The
+unauthenticated live verifier matched all 67 manifest assets, 95,728,474
+bytes, seven core routes and all ten Batch 572 profiles. A separate
+live-browser check confirmed the Peer de Silva chronology, the qualified
+Cletus Desmaretz and Daniel Desmond evidence, George Deskin's explicitly
+uninterpreted code, and the unchanged seven-person oil-company category.
+Batch 572 is the current exact-verified public release. The goal remains
+active.
 
 Batch 569 is the current local release candidate. It adds terminal outcomes for
 personnel-index PDF page 114 rows 29-38, Bernard F Deren through King Derr,
