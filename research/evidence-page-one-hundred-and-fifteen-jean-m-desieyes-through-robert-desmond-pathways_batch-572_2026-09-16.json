@@ -1,0 +1,1334 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 572 evidence review",
+  "sources": [
+    {
+      "key": "index-b572",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 182",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 115 rows 13-22; Jean M DeSieyes through Robert Desmond; rendered at 180 dpi and visually inspected; Box 182; location 230/86/29/07",
+      "access_date": "2026-09-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Every printed row remains separate. Five printed private identifiers remain restricted and appear publicly only in masked form. Original spelling, rank and row order are preserved."
+    },
+    {
+      "key": "army-b572",
+      "stable_url": "https://catalog.archives.gov/id/604357",
+      "archival_identifier": "National Archives Identifier 604357; data-file NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.zip; complete 9,200,232-row scan; strict protected-identifier matches for George C Deskin, Cletus H Desmaretz and Daniel H Desmond; a name-only Robert Desmond candidate remains unassigned",
+      "access_date": "2026-09-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "Only project-authored conclusions and stable citation pointers are retained. Full identifiers, raw records and unrelated fields are excluded from public outputs. Name-only candidates and non-hits are not proof."
+    },
+    {
+      "key": "army-codes-b572",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30, Civilian Occupations",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "Code No. 30, PDF physical pages 171 and 304: codes 105 and 992; rendered at 180 dpi and visually inspected",
+      "access_date": "2026-09-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "The historical codes establish broad civilian-occupation or student categories recorded at Army entry. They name no employer and do not establish an immediate transition to OSS. Code 999 is not interpreted."
+    },
+    {
+      "key": "west-point-peer-b572",
+      "stable_url": "https://alumni.westpointaog.org/memorial-article?id=43eb9d67-112d-4f71-a9d8-ed3b9a9eba50",
+      "archival_identifier": "Cullum No. 12560-1941",
+      "title": "Peer DeSilva 1941",
+      "author_creator": "West Point Association of Graduates memorial contributors",
+      "repository_publisher": "West Point Association of Graduates",
+      "publication_record_date": "1978",
+      "locator": "Memorial article, career chronology paragraphs following the Class of 1941 discussion",
+      "access_date": "2026-09-16",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Be Thou At Peace memorial articles",
+      "rights_notes": "Short excerpts only. The article distinguishes wartime Manhattan Project service from the postwar Strategic Services Unit that inherited OSS remnants."
+    },
+    {
+      "key": "nuclear-museum-peer-b572",
+      "stable_url": "https://ahf.nuclearmuseum.org/ahf/profile/peer-de-silva/",
+      "title": "Peer de Silva",
+      "author_creator": "Atomic Heritage Foundation",
+      "repository_publisher": "National Museum of Nuclear Science & History",
+      "publication_record_date": "2022",
+      "locator": "Profile and timeline: West Point graduation in 1941 and Los Alamos security service, 1943-1945",
+      "access_date": "2026-09-16",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Manhattan Project profiles",
+      "rights_notes": "Short excerpts only; the profile corroborates Army officer status and the Manhattan Project chronology."
+    },
+    {
+      "key": "whittier-cletus-b572",
+      "stable_url": "https://whs.wuhsd.org/apps/pages/index.jsp?uREC_ID=742733&type=u&pREC_ID=2714387",
+      "title": "Whittier High School's World War II Veterans",
+      "author_creator": "John Bellanti",
+      "repository_publisher": "Whittier High School; Whittier Union High School District",
+      "locator": "Alphabetical veteran list, entry for Cletus Hen Desmaretz",
+      "access_date": "2026-09-16",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Whittier High School veterans project",
+      "rights_notes": "The school page supports school association and OSS service but gives no attendance dates or employer."
+    },
+    {
+      "key": "princeton-joseph-b572",
+      "stable_url": "https://www.princeton.edu/~paw/archive_old/PAW97-98/17-0708/0708mem.html",
+      "title": "Memorials - July 8, 1998: Joseph DeSipio '33 *34",
+      "author_creator": "Joseph DeSipio and the Princeton Class of 1933",
+      "repository_publisher": "Princeton Alumni Weekly; Princeton University",
+      "publication_record_date": "1998-07-08",
+      "locator": "Class of 1933 memorial, Joseph DeSipio paragraphs",
+      "access_date": "2026-09-16",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Princeton Alumni Weekly memorials",
+      "rights_notes": "Private candidate evidence only. The memorial names no OSS service and cannot by itself resolve the index identity."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "usma-b572",
+      "canonical_name": "United States Military Academy",
+      "historical_name": "United States Military Academy at West Point",
+      "aliases": [
+        "West Point",
+        "Military Academy"
+      ],
+      "organization_type": "military academy",
+      "sector": "academia_and_research",
+      "city": "West Point",
+      "state_or_region": "New York",
+      "country": "United States",
+      "active_dates": "1802-present",
+      "normalization_notes": "Student and cadet status is not treated as civilian employment."
+    },
+    {
+      "key": "quartermaster-corps-b572",
+      "canonical_name": "United States Army Quartermaster Corps",
+      "historical_name": "Quartermaster Corps",
+      "aliases": [
+        "U.S. Army Quartermaster Corps"
+      ],
+      "organization_type": "military branch",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Preserved as the historical Army branch named in the source."
+    },
+    {
+      "key": "manhattan-engineer-district-b572",
+      "canonical_name": "Manhattan Engineer District",
+      "historical_name": "Manhattan Engineer District",
+      "aliases": [
+        "Manhattan Project"
+      ],
+      "organization_type": "United States Army wartime project",
+      "sector": "military",
+      "country": "United States",
+      "active_dates": "1942-1946",
+      "normalization_notes": "The source's familiar Manhattan Project name is mapped to the wartime Army organization without substituting a modern successor."
+    },
+    {
+      "key": "whittier-high-school-b572",
+      "canonical_name": "Whittier High School",
+      "historical_name": "Whittier High School",
+      "aliases": [],
+      "organization_type": "secondary school",
+      "sector": "academia_and_research",
+      "city": "Whittier",
+      "state_or_region": "California",
+      "country": "United States",
+      "normalization_notes": "School association is modeled as student status, never employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "peer-west-point-b572",
+      "person_id": "1e8668a2-d8bd-56cf-8690-943863c27acd",
+      "organization_key": "usma-b572",
+      "organization_name_as_found": "Military Academy",
+      "role_title": "cadet",
+      "occupation": "Student",
+      "relationship_type": "student",
+      "end_date": "1941",
+      "date_precision": "Graduation year is explicit; no start date is assigned from the reviewed sources.",
+      "city": "West Point",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "West Point attendance is education and a military-academy affiliation, not civilian employment."
+    },
+    {
+      "key": "peer-quartermaster-b572",
+      "person_id": "1e8668a2-d8bd-56cf-8690-943863c27acd",
+      "organization_key": "quartermaster-corps-b572",
+      "organization_name_as_found": "Quartermaster Corps",
+      "role_title": "Army officer at Fort Ord",
+      "relationship_type": "military_assignment",
+      "start_date": "1941",
+      "date_precision": "The source places the assignment after 1941 graduation and before Manhattan Project recruitment after Pearl Harbor; it gives no exact transfer date.",
+      "city": "Fort Ord",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "This is an Army assignment, not a civilian employer."
+    },
+    {
+      "key": "peer-manhattan-b572",
+      "person_id": "1e8668a2-d8bd-56cf-8690-943863c27acd",
+      "organization_key": "manhattan-engineer-district-b572",
+      "organization_name_as_found": "Manhattan Project",
+      "role_title": "project security officer",
+      "occupation": "Military security officer",
+      "relationship_type": "military_assignment",
+      "start_date": "1943",
+      "end_date": "1945",
+      "date_precision": "The museum timeline dates Los Alamos security service to 1943-1945; the West Point memorial places it immediately before a postwar SSU assignment.",
+      "city": "Los Alamos",
+      "state_or_region": "New Mexico",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Explicitly immediate before the postwar Strategic Services Unit, not proven as an immediate pre-OSS wartime affiliation."
+    },
+    {
+      "key": "cletus-student-b572",
+      "person_id": "c7755531-e843-584d-a1bd-decd81d573c7",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": "student",
+      "occupation": "Student",
+      "relationship_type": "student",
+      "end_date": "1943-03-16",
+      "date_precision": "Recorded as civilian-occupation code 992 on the protected-identifier-confirmed Army entry; no institution is named by that record.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Student status at Army entry is not employment and does not by itself identify the school."
+    },
+    {
+      "key": "cletus-whittier-b572",
+      "person_id": "c7755531-e843-584d-a1bd-decd81d573c7",
+      "organization_key": "whittier-high-school-b572",
+      "organization_name_as_found": "Whittier High School",
+      "role_title": "student or alumnus",
+      "occupation": "Student",
+      "relationship_type": "student",
+      "date_precision": "The official school veterans page establishes association but supplies no attendance or graduation date.",
+      "city": "Whittier",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Published as a qualified school affiliation, not as employment and not as the institution named by the Army occupation code."
+    },
+    {
+      "key": "daniel-clerk-b572",
+      "person_id": "3ebb5921-2bff-5bb2-b300-af80ca882ff8",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "General office clerk",
+      "relationship_type": "unknown",
+      "end_date": "1942-10-02",
+      "date_precision": "Recorded as civilian-occupation code 105 on the protected-identifier-confirmed Army entry; no employer or employment dates are supplied.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Published as an occupation at Army entry, not a named employer and not proof of an immediate pre-OSS role."
+    },
+    {
+      "key": "joseph-ballet-candidate-b572",
+      "person_id": "7cf772c8-b746-503b-911a-b56fe9322bf8",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Ballet dancer",
+      "relationship_type": "unknown",
+      "date_precision": "The memorial places the career after graduate study but supplies no dates or wartime chronology.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "ambiguous",
+      "claim_confidence": "low",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "withheld_low_confidence",
+      "research_notes": "Private candidate only. The exact name is not enough to link the Princeton alumnus to Box 182 or OSS."
+    }
+  ],
+  "claims": [
+    {
+      "key": "peer-identity-b572",
+      "person_id": "1e8668a2-d8bd-56cf-8690-943863c27acd",
+      "claim_type": "identity",
+      "claim_text": "The indexed Peer DeSilva is a high-confidence match to West Point graduate and Army intelligence officer Peer de Silva.",
+      "evidence_excerpt": "Peer DeSilva 1941",
+      "evidence_paraphrase": "The rare exact name, West Point class, Army career and specific SSU succession chronology align with the indexed record.",
+      "identity_match_assessment": "High confidence from a distinctive exact name and two independent institutional biographies documenting the same Army and intelligence chronology.",
+      "temporal_assessment": "The sources document military service from 1941 and a postwar SSU assignment, but do not prove wartime OSS service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The indexed spelling remains primary; de Silva is retained as a documented spacing and capitalization variant.",
+      "sources": [
+        {
+          "source_key": "index-b572",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "west-point-peer-b572",
+          "support_type": "supports",
+          "excerpt_override": "Peer DeSilva 1941"
+        },
+        {
+          "source_key": "nuclear-museum-peer-b572",
+          "support_type": "supports",
+          "excerpt_override": "Peer de Silva (1917-1978) was an American Army officer"
+        }
+      ]
+    },
+    {
+      "key": "peer-west-point-claim-b572",
+      "person_id": "1e8668a2-d8bd-56cf-8690-943863c27acd",
+      "affiliation_key": "peer-west-point-b572",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Peer de Silva graduated from the United States Military Academy in 1941.",
+      "evidence_excerpt": "entering the Military Academy with the Class of 1941",
+      "evidence_paraphrase": "The West Point memorial identifies his academy class, and the museum profile independently dates graduation to 1941.",
+      "identity_match_assessment": "High-confidence identity from the distinctive name and matching Army career.",
+      "temporal_assessment": "Documented prewar education; it is student status, not employment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The academy is not counted as a civilian employer.",
+      "sources": [
+        {
+          "source_key": "west-point-peer-b572",
+          "support_type": "supports",
+          "excerpt_override": "entering the Military Academy with the Class of 1941"
+        },
+        {
+          "source_key": "nuclear-museum-peer-b572",
+          "support_type": "supports",
+          "excerpt_override": "graduating in 1941"
+        }
+      ]
+    },
+    {
+      "key": "peer-quartermaster-claim-b572",
+      "person_id": "1e8668a2-d8bd-56cf-8690-943863c27acd",
+      "affiliation_key": "peer-quartermaster-b572",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "After West Point, Peer de Silva served with the Army Quartermaster Corps at Fort Ord.",
+      "evidence_excerpt": "Following graduation Peer joined the Quartermaster Corps at Fort Ord, California.",
+      "evidence_paraphrase": "The West Point memorial places this Army assignment between 1941 graduation and Manhattan Project recruitment.",
+      "identity_match_assessment": "High-confidence identity from the distinctive name and coherent Army chronology.",
+      "temporal_assessment": "Strongly date-bounded before Manhattan Project service; no exact transfer date is supplied.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Classified as a military assignment, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "west-point-peer-b572",
+          "support_type": "supports",
+          "excerpt_override": "Following graduation Peer joined the Quartermaster Corps at Fort Ord, California."
+        }
+      ]
+    },
+    {
+      "key": "peer-manhattan-claim-b572",
+      "person_id": "1e8668a2-d8bd-56cf-8690-943863c27acd",
+      "affiliation_key": "peer-manhattan-b572",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Peer de Silva served as a Manhattan Project security officer immediately before assignment to the postwar Strategic Services Unit.",
+      "evidence_excerpt": "General Leslie Groves recruited him for the Manhattan Project",
+      "evidence_paraphrase": "Institutional sources document Los Alamos security work in 1943-1945 and then an assignment to the OSS successor SSU.",
+      "identity_match_assessment": "High-confidence identity from the rare name and matching West Point, Army and intelligence chronology.",
+      "temporal_assessment": "Explicitly immediate before the postwar SSU; not labeled immediate pre-OSS because the source says OSS had already dissolved.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The site must preserve the distinction between wartime OSS and its postwar Strategic Services Unit successor.",
+      "sources": [
+        {
+          "source_key": "west-point-peer-b572",
+          "support_type": "supports",
+          "excerpt_override": "requested his assignment to the Strategic Services Unit (SSU)"
+        },
+        {
+          "source_key": "nuclear-museum-peer-b572",
+          "support_type": "supports",
+          "excerpt_override": "1943 1945 Served as security officer at Los Alamos"
+        }
+      ]
+    },
+    {
+      "key": "george-identity-b572",
+      "person_id": "7a40a6f8-f46d-5d29-9080-f1f90c24d81d",
+      "claim_type": "identity",
+      "claim_text": "The indexed George C Deskin is confirmed as the Army entrant with the same exact name.",
+      "evidence_paraphrase": "A unique protected identifier links the Box 182 index row to the official Army entry record.",
+      "identity_match_assessment": "Confirmed by a unique protected-identifier match and exact name.",
+      "temporal_assessment": "The Army entry occurred in 1942; the record does not establish an OSS entry date or employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The identifier remains masked. Occupation code 999 is deliberately not interpreted.",
+      "sources": [
+        {
+          "source_key": "index-b572",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b572",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "cletus-identity-b572",
+      "person_id": "c7755531-e843-584d-a1bd-decd81d573c7",
+      "claim_type": "identity",
+      "claim_text": "The indexed Cletus H Desmaretz is confirmed as the Army entrant and Whittier veteran identified as Cletus Hen Desmaretz.",
+      "evidence_excerpt": "Cletus Hen Desmaretz - Army: Office of Strategic Services (OSS)",
+      "evidence_paraphrase": "A protected identifier confirms the Army record; the official school page independently supplies the rare expanded name and OSS context.",
+      "identity_match_assessment": "Confirmed by the protected identifier, rare exact surname and independent institutional veteran record.",
+      "temporal_assessment": "The Army entry is dated 1943; the school page establishes wartime service but not an OSS entry date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full service identifier remains masked; the expanded middle name is retained as a documented variant.",
+      "sources": [
+        {
+          "source_key": "index-b572",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b572",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "whittier-cletus-b572",
+          "support_type": "supports",
+          "excerpt_override": "Cletus Hen Desmaretz - Army: Office of Strategic Services (OSS)"
+        }
+      ]
+    },
+    {
+      "key": "cletus-student-claim-b572",
+      "person_id": "c7755531-e843-584d-a1bd-decd81d573c7",
+      "affiliation_key": "cletus-student-b572",
+      "claim_type": "occupation",
+      "claim_text": "Cletus H Desmaretz's Army entry record classified his civilian status as student.",
+      "evidence_excerpt": "Students",
+      "evidence_paraphrase": "The identifier-confirmed Army entry carries occupation code 992, which the official NARA code list defines as students.",
+      "identity_match_assessment": "Confirmed by the protected identifier shared with the private OSS index row.",
+      "temporal_assessment": "Strongly date-bounded at Army entry in March 1943; the code names no institution or employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Published as student status only and excluded from employer counts.",
+      "sources": [
+        {
+          "source_key": "army-b572",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-codes-b572",
+          "support_type": "supports",
+          "excerpt_override": "Students"
+        }
+      ]
+    },
+    {
+      "key": "cletus-whittier-claim-b572",
+      "person_id": "c7755531-e843-584d-a1bd-decd81d573c7",
+      "affiliation_key": "cletus-whittier-b572",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Cletus Hen Desmaretz is documented as a Whittier High School veteran associated with Army OSS service.",
+      "evidence_excerpt": "Cletus Hen Desmaretz - Army: Office of Strategic Services (OSS)",
+      "evidence_paraphrase": "The official school veterans page links the uncommon full name to Whittier High School and Army OSS service.",
+      "identity_match_assessment": "Confirmed by the protected Army identifier and the rare expanded name in an official school source.",
+      "temporal_assessment": "Documented school association, but the page gives no attendance or graduation dates and does not prove immediate pre-OSS status.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Qualified school affiliation only; Whittier is not presented as an employer.",
+      "sources": [
+        {
+          "source_key": "whittier-cletus-b572",
+          "support_type": "supports",
+          "excerpt_override": "Cletus Hen Desmaretz - Army: Office of Strategic Services (OSS)"
+        }
+      ]
+    },
+    {
+      "key": "daniel-identity-b572",
+      "person_id": "3ebb5921-2bff-5bb2-b300-af80ca882ff8",
+      "claim_type": "identity",
+      "claim_text": "The indexed Daniel H Desmond is confirmed as the Army Air Corps entrant with the same exact full name.",
+      "evidence_paraphrase": "A unique protected identifier links the Box 182 index row to the official Army entry record.",
+      "identity_match_assessment": "Confirmed by a unique protected-identifier match and exact full name.",
+      "temporal_assessment": "The Army entry occurred in 1942; no OSS entry date is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains masked; branch information is used only to classify wartime service.",
+      "sources": [
+        {
+          "source_key": "index-b572",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-b572",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "daniel-clerk-claim-b572",
+      "person_id": "3ebb5921-2bff-5bb2-b300-af80ca882ff8",
+      "affiliation_key": "daniel-clerk-b572",
+      "claim_type": "occupation",
+      "claim_text": "Daniel H Desmond's Army entry record described his civilian occupation as a general office clerk.",
+      "evidence_excerpt": "Clerks, general office",
+      "evidence_paraphrase": "The identifier-confirmed Army entry carries occupation code 105, defined by the official code list as general office clerks.",
+      "identity_match_assessment": "Confirmed by the protected identifier shared with the private OSS index row.",
+      "temporal_assessment": "Strongly date-bounded at Army entry in October 1942; no employer or OSS-entry date is stated.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Published as an occupation only, never as a named employer.",
+      "sources": [
+        {
+          "source_key": "army-b572",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-codes-b572",
+          "support_type": "supports",
+          "excerpt_override": "Clerks, general office"
+        }
+      ]
+    },
+    {
+      "key": "joseph-princeton-candidate-b572",
+      "person_id": "7cf772c8-b746-503b-911a-b56fe9322bf8",
+      "claim_type": "identity",
+      "claim_text": "The Princeton alumnus Joseph DeSipio is an age-appropriate but unconfirmed candidate for the indexed Joseph Desipio.",
+      "evidence_excerpt": "The Class of 1933 Joseph DeSipio '33 *34",
+      "evidence_paraphrase": "The institutional memorial documents the exact uncommon name, Philadelphia origin and prewar education, but no OSS or Box 182 link.",
+      "identity_match_assessment": "Ambiguous; exact name and age are insufficient without a second identifier or direct personnel-file connection.",
+      "temporal_assessment": "The source documents education and a later dance career but supplies no wartime chronology.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "Retained in the private review system only pending the Box 182 file.",
+      "sources": [
+        {
+          "source_key": "index-b572",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "princeton-joseph-b572",
+          "support_type": "supports",
+          "excerpt_override": "The Class of 1933 Joseph DeSipio '33 *34"
+        }
+      ]
+    },
+    {
+      "key": "joseph-ballet-candidate-claim-b572",
+      "person_id": "7cf772c8-b746-503b-911a-b56fe9322bf8",
+      "affiliation_key": "joseph-ballet-candidate-b572",
+      "claim_type": "occupation",
+      "claim_text": "An unconfirmed same-name Princeton alumnus worked as a ballet dancer before the war.",
+      "evidence_excerpt": "after which he became a ballet dancer",
+      "evidence_paraphrase": "The memorial places ballet work after graduate study, but identity and temporal proximity to OSS are unproven.",
+      "identity_match_assessment": "Low-confidence candidate because no OSS, Box 182 or second identifying bridge was found.",
+      "temporal_assessment": "The career is plausibly prewar but the source gives no dates and does not establish immediacy.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "Excluded from public facts and analytics pending archival confirmation.",
+      "sources": [
+        {
+          "source_key": "princeton-joseph-b572",
+          "support_type": "supports",
+          "excerpt_override": "after which he became a ballet dancer"
+        }
+      ]
+    },
+    {
+      "key": "robert-army-candidate-b572",
+      "person_id": "7319ff54-e69e-58dc-8495-b3b960550744",
+      "claim_type": "identity",
+      "claim_text": "A same-name 1944 Army entry is a possible but unassigned candidate for the indexed Robert Desmond.",
+      "evidence_paraphrase": "The official Army file contains a Robert Desmond, but the common name has no matching protected identifier or second biographical bridge.",
+      "identity_match_assessment": "Low confidence; a common-name match alone is insufficient under the project's enhanced disambiguation rule.",
+      "temporal_assessment": "The Army entry is wartime, but its relation to the indexed person is unproven.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "Retained only as a private candidate and excluded from public claims and analytics.",
+      "sources": [
+        {
+          "source_key": "army-b572",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "jean-unresolved-employer-b572",
+      "person_id": "eb58ee86-eef2-52ce-8760-ea757f4e8f18",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "The index establishes a staff-sergeant record, but no accessible source supplied a defensible identity or employer bridge.",
+      "identity_match_assessment": "Identity status: unresolved. Employer identification remains unresolved.",
+      "temporal_assessment": "No source establishes a named civilian employer immediately before OSS or related strategic-services service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 182 for a full name, nationality, unit, service chronology and pre-OSS employer.",
+      "sources": [
+        {
+          "source_key": "index-b572",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "peer-unresolved-employer-b572",
+      "person_id": "1e8668a2-d8bd-56cf-8690-943863c27acd",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "Institutional sources document West Point, Quartermaster Corps and Manhattan Project service immediately before a postwar SSU assignment; no civilian employer was found.",
+      "identity_match_assessment": "Identity status: high_confidence. Employer identification remains unresolved.",
+      "temporal_assessment": "No source establishes a named civilian employer immediately before OSS or related strategic-services service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 182 to determine why this postwar SSU officer appears in Entry A1-224 and whether any civilian employer preceded Army service.",
+      "sources": [
+        {
+          "source_key": "index-b572",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "adele-unresolved-employer-b572",
+      "person_id": "230e6fdf-6e49-5894-8839-677637334843",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "Accessible results were modern or lacked any OSS and Box 182 bridge; no employer can be assigned.",
+      "identity_match_assessment": "Identity status: unresolved. Employer identification remains unresolved.",
+      "temporal_assessment": "No source establishes a named civilian employer immediately before OSS or related strategic-services service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 182 for a full middle name, identifiers and pre-OSS employment history.",
+      "sources": [
+        {
+          "source_key": "index-b572",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "joseph-unresolved-employer-b572",
+      "person_id": "7cf772c8-b746-503b-911a-b56fe9322bf8",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "A Princeton alumnus and ballet-dancer candidate is age-appropriate but remains unlinked to OSS; several later namesakes were rejected.",
+      "identity_match_assessment": "Identity status: ambiguous. Employer identification remains unresolved.",
+      "temporal_assessment": "No source establishes a named civilian employer immediately before OSS or related strategic-services service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 182 for birth, education or Philadelphia identifiers before accepting or rejecting the Princeton alumnus candidate.",
+      "sources": [
+        {
+          "source_key": "index-b572",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "george-unresolved-employer-b572",
+      "person_id": "7a40a6f8-f46d-5d29-9080-f1f90c24d81d",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "The Army record confirms identity and entry in 1942, but occupation code 999 is intentionally not interpreted and no employer was found.",
+      "identity_match_assessment": "Identity status: confirmed. Employer identification remains unresolved.",
+      "temporal_assessment": "No source establishes a named civilian employer immediately before OSS or related strategic-services service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 182 for wartime unit, OSS chronology and a named pre-service employer; do not interpret Army occupation code 999.",
+      "sources": [
+        {
+          "source_key": "index-b572",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "mh-unresolved-employer-b572",
+      "person_id": "bc1b6eec-f789-5df3-b416-1717e821c3dc",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "The Library of Congress candidate was a surname-only mention in a list of historical French colonists; no identity or employer was found.",
+      "identity_match_assessment": "Identity status: unresolved. Employer identification remains unresolved.",
+      "temporal_assessment": "No source establishes a named civilian employer immediately before OSS or related strategic-services service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 182 for full given names, nationality, identifiers and pre-OSS employment.",
+      "sources": [
+        {
+          "source_key": "index-b572",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "cletus-unresolved-employer-b572",
+      "person_id": "c7755531-e843-584d-a1bd-decd81d573c7",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official records confirm identity, student status at Army entry and association with Whittier High School, but no employer.",
+      "identity_match_assessment": "Identity status: confirmed. Employer identification remains unresolved.",
+      "temporal_assessment": "No source establishes a named civilian employer immediately before OSS or related strategic-services service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 182 for the transition from student status to Army and OSS service and for any named employer.",
+      "sources": [
+        {
+          "source_key": "index-b572",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "daniel-unresolved-employer-b572",
+      "person_id": "3ebb5921-2bff-5bb2-b300-af80ca882ff8",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "The Army record confirms identity, Army Air Corps entry and a general-office-clerk occupation, but no employer.",
+      "identity_match_assessment": "Identity status: confirmed. Employer identification remains unresolved.",
+      "temporal_assessment": "No source establishes a named civilian employer immediately before OSS or related strategic-services service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 182 for a named employer and the chronology from Army Air Corps entry to OSS service.",
+      "sources": [
+        {
+          "source_key": "index-b572",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "geral-unresolved-employer-b572",
+      "person_id": "1dc38d7d-79c4-55e8-afc8-5963dba545d8",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "Gerald A. Desmond was used only as a search alias; multiple military namesakes could not be linked to the literal indexed name.",
+      "identity_match_assessment": "Identity status: unresolved. Employer identification remains unresolved.",
+      "temporal_assessment": "No source establishes a named civilian employer immediately before OSS or related strategic-services service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 182 to determine whether Geral is complete or a printing error and to identify the person before assigning any career claim.",
+      "sources": [
+        {
+          "source_key": "index-b572",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "robert-unresolved-employer-b572",
+      "person_id": "7319ff54-e69e-58dc-8495-b3b960550744",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "A same-name 1944 Army entry lacks the index identifier and any second biographical bridge, so it remains unassigned.",
+      "identity_match_assessment": "Identity status: unresolved. Employer identification remains unresolved.",
+      "temporal_assessment": "No source establishes a named civilian employer immediately before OSS or related strategic-services service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 182 for a middle name, service identifier, hometown and occupation before evaluating same-name candidates.",
+      "sources": [
+        {
+          "source_key": "index-b572",
+          "support_type": "supports"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "eb58ee86-eef2-52ce-8760-ea757f4e8f18",
+      "identity_status": "unresolved",
+      "identity_evidence": "The printed staff-sergeant rank is clear, but staged official, exact-name, military, institutional, newspaper, obituary and employment searches did not identify a source that links a full identity to Box 182.",
+      "name_variants": [
+        "Jean M DeSieyes",
+        "Jean M. DeSieyes"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 182 for a full name, nationality, unit, service chronology and pre-OSS employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "1e8668a2-d8bd-56cf-8690-943863c27acd",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare exact name, West Point class record, Army career and a chronology explicitly linking the Manhattan Project to the Strategic Services Unit establish a high-confidence identity.",
+      "name_variants": [
+        "Peer DeSilva",
+        "Peer de Silva"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 182 to determine why this postwar SSU officer appears in Entry A1-224 and whether any civilian employer preceded Army service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "allied_or_foreign_personnel": false
+    },
+    {
+      "person_id": "230e6fdf-6e49-5894-8839-677637334843",
+      "identity_status": "unresolved",
+      "identity_evidence": "The name and middle initial produced modern and genealogical namesakes, but no source linked one of them to OSS, Box 182 or a pre-OSS occupation.",
+      "name_variants": [
+        "Adele D DeSimone",
+        "Adele D. DeSimone"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 182 for a full middle name, identifiers and pre-OSS employment history.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "7cf772c8-b746-503b-911a-b56fe9322bf8",
+      "identity_status": "ambiguous",
+      "identity_evidence": "A Princeton institutional memorial identifies an age-appropriate Joseph DeSipio from Philadelphia, but the exact name alone does not link him to OSS or Box 182.",
+      "name_variants": [
+        "Joseph Desipio",
+        "Joseph DeSipio"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 182 for birth, education or Philadelphia identifiers before accepting or rejecting the Princeton alumnus candidate.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "7a40a6f8-f46d-5d29-9080-f1f90c24d81d",
+      "identity_status": "confirmed",
+      "identity_evidence": "A unique protected-identifier match and exact name confirm the official Army entry record.",
+      "name_variants": [
+        "George C Deskin",
+        "George C. Deskin"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 182 for wartime unit, OSS chronology and a named pre-service employer; do not interpret Army occupation code 999.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "allied_or_foreign_personnel": false
+    },
+    {
+      "person_id": "bc1b6eec-f789-5df3-b416-1717e821c3dc",
+      "identity_status": "unresolved",
+      "identity_evidence": "Initials-only identification remains unresolved; the reviewed newspaper hit contains only the surname in a historical list and does not identify the indexed person.",
+      "name_variants": [
+        "M H Deslandes",
+        "M. H. Deslandes"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 182 for full given names, nationality, identifiers and pre-OSS employment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "c7755531-e843-584d-a1bd-decd81d573c7",
+      "identity_status": "confirmed",
+      "identity_evidence": "A unique protected-identifier Army match confirms the exact name; an official school page independently expands the middle name and identifies Army OSS service.",
+      "name_variants": [
+        "Cletus H Desmaretz",
+        "Cletus Hen Desmaretz"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 182 for the transition from student status to Army and OSS service and for any named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "allied_or_foreign_personnel": false
+    },
+    {
+      "person_id": "3ebb5921-2bff-5bb2-b300-af80ca882ff8",
+      "identity_status": "confirmed",
+      "identity_evidence": "A unique protected-identifier match and exact full name confirm the official Army entry record.",
+      "name_variants": [
+        "Daniel H Desmond",
+        "Daniel H. Desmond"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 182 for a named employer and the chronology from Army Air Corps entry to OSS service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "allied_or_foreign_personnel": false
+    },
+    {
+      "person_id": "1dc38d7d-79c4-55e8-afc8-5963dba545d8",
+      "identity_status": "unresolved",
+      "identity_evidence": "The literal printed given name is Geral. Searches also tested Gerald only as an OCR alias, but no candidate supplied two corroborating identifiers or an OSS and Box 182 bridge.",
+      "name_variants": [
+        "Geral A Desmond",
+        "Geral A. Desmond"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 182 to determine whether Geral is complete or a printing error and to identify the person before assigning any career claim.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "7319ff54-e69e-58dc-8495-b3b960550744",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name produced a same-name Army record and numerous namesakes, but no candidate has two corroborating identifiers beyond the name.",
+      "name_variants": [
+        "Robert Desmond"
+      ],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 182 for a middle name, service identifier, hometown and occupation before evaluating same-name candidates.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b572-jean-evidence-review",
+      "person_id": "eb58ee86-eef2-52ce-8760-ea757f4e8f18",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, staged exact-name, military, institutional, obituary, newspaper and employment searches for Jean M DeSieyes.",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T21:20:00Z",
+      "completed_at": "2026-09-16T21:30:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Material about other de Sieyes family members did not match the indexed first name or establish an OSS-file link.",
+      "research_notes": "The index establishes a staff-sergeant record, but no accessible source supplied a defensible identity or employer bridge.",
+      "next_action": "Review Box 182 for a full name, nationality, unit, service chronology and pre-OSS employer.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-572-v1"
+    },
+    {
+      "key": "b572-jean-synthesis",
+      "person_id": "eb58ee86-eef2-52ce-8760-ea757f4e8f18",
+      "source_adapter": "reviewed_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Jean M DeSieyes.",
+      "query_variant_type": "terminal_outcome_synthesis",
+      "started_at": "2026-09-16T21:30:00Z",
+      "completed_at": "2026-09-16T21:33:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Material about other de Sieyes family members did not match the indexed first name or establish an OSS-file link.",
+      "research_notes": "Terminal outcome: requires_archival_review. The index establishes a staff-sergeant record, but no accessible source supplied a defensible identity or employer bridge.",
+      "next_action": "Review Box 182 for a full name, nationality, unit, service chronology and pre-OSS employer.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-572-v1"
+    },
+    {
+      "key": "b572-peer-evidence-review",
+      "person_id": "1e8668a2-d8bd-56cf-8690-943863c27acd",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, staged exact-name, military, institutional, obituary, newspaper and employment searches for Peer DeSilva.",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T21:21:00Z",
+      "completed_at": "2026-09-16T21:31:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": null,
+      "research_notes": "Institutional sources document West Point, Quartermaster Corps and Manhattan Project service immediately before a postwar SSU assignment; no civilian employer was found.",
+      "next_action": "Review Box 182 to determine why this postwar SSU officer appears in Entry A1-224 and whether any civilian employer preceded Army service.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-572-v1"
+    },
+    {
+      "key": "b572-peer-synthesis",
+      "person_id": "1e8668a2-d8bd-56cf-8690-943863c27acd",
+      "source_adapter": "reviewed_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Peer DeSilva.",
+      "query_variant_type": "terminal_outcome_synthesis",
+      "started_at": "2026-09-16T21:31:00Z",
+      "completed_at": "2026-09-16T21:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": null,
+      "research_notes": "Terminal outcome: requires_archival_review. Institutional sources document West Point, Quartermaster Corps and Manhattan Project service immediately before a postwar SSU assignment; no civilian employer was found.",
+      "next_action": "Review Box 182 to determine why this postwar SSU officer appears in Entry A1-224 and whether any civilian employer preceded Army service.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-572-v1"
+    },
+    {
+      "key": "b572-adele-evidence-review",
+      "person_id": "230e6fdf-6e49-5894-8839-677637334843",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, staged exact-name, military, institutional, obituary, newspaper and employment searches for Adele D DeSimone.",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T21:22:00Z",
+      "completed_at": "2026-09-16T21:32:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Modern people and an unsourced death-index lead lacked a middle-initial, OSS, archival or employment bridge.",
+      "research_notes": "Accessible results were modern or lacked any OSS and Box 182 bridge; no employer can be assigned.",
+      "next_action": "Review Box 182 for a full middle name, identifiers and pre-OSS employment history.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-572-v1"
+    },
+    {
+      "key": "b572-adele-synthesis",
+      "person_id": "230e6fdf-6e49-5894-8839-677637334843",
+      "source_adapter": "reviewed_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Adele D DeSimone.",
+      "query_variant_type": "terminal_outcome_synthesis",
+      "started_at": "2026-09-16T21:32:00Z",
+      "completed_at": "2026-09-16T21:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Modern people and an unsourced death-index lead lacked a middle-initial, OSS, archival or employment bridge.",
+      "research_notes": "Terminal outcome: requires_archival_review. Accessible results were modern or lacked any OSS and Box 182 bridge; no employer can be assigned.",
+      "next_action": "Review Box 182 for a full middle name, identifiers and pre-OSS employment history.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-572-v1"
+    },
+    {
+      "key": "b572-joseph-evidence-review",
+      "person_id": "7cf772c8-b746-503b-911a-b56fe9322bf8",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, staged exact-name, military, institutional, obituary, newspaper and employment searches for Joseph Desipio.",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T21:23:00Z",
+      "completed_at": "2026-09-16T21:33:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Later financial-services, environmental-services and obituary namesakes did not match the wartime age or supply an OSS link.",
+      "research_notes": "A Princeton alumnus and ballet-dancer candidate is age-appropriate but remains unlinked to OSS; several later namesakes were rejected.",
+      "next_action": "Review Box 182 for birth, education or Philadelphia identifiers before accepting or rejecting the Princeton alumnus candidate.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-572-v1"
+    },
+    {
+      "key": "b572-joseph-synthesis",
+      "person_id": "7cf772c8-b746-503b-911a-b56fe9322bf8",
+      "source_adapter": "reviewed_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Joseph Desipio.",
+      "query_variant_type": "terminal_outcome_synthesis",
+      "started_at": "2026-09-16T21:33:00Z",
+      "completed_at": "2026-09-16T21:36:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Later financial-services, environmental-services and obituary namesakes did not match the wartime age or supply an OSS link.",
+      "research_notes": "Terminal outcome: requires_archival_review. A Princeton alumnus and ballet-dancer candidate is age-appropriate but remains unlinked to OSS; several later namesakes were rejected.",
+      "next_action": "Review Box 182 for birth, education or Philadelphia identifiers before accepting or rejecting the Princeton alumnus candidate.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-572-v1"
+    },
+    {
+      "key": "b572-george-evidence-review",
+      "person_id": "7a40a6f8-f46d-5d29-9080-f1f90c24d81d",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, staged exact-name, military, institutional, obituary, newspaper and employment searches for George C Deskin.",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T21:24:00Z",
+      "completed_at": "2026-09-16T21:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "A biographical namesake lead lacked an OSS, Box 182 or protected-identifier bridge.",
+      "research_notes": "The Army record confirms identity and entry in 1942, but occupation code 999 is intentionally not interpreted and no employer was found.",
+      "next_action": "Review Box 182 for wartime unit, OSS chronology and a named pre-service employer; do not interpret Army occupation code 999.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-572-v1"
+    },
+    {
+      "key": "b572-george-synthesis",
+      "person_id": "7a40a6f8-f46d-5d29-9080-f1f90c24d81d",
+      "source_adapter": "reviewed_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for George C Deskin.",
+      "query_variant_type": "terminal_outcome_synthesis",
+      "started_at": "2026-09-16T21:34:00Z",
+      "completed_at": "2026-09-16T21:37:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "A biographical namesake lead lacked an OSS, Box 182 or protected-identifier bridge.",
+      "research_notes": "Terminal outcome: requires_archival_review. The Army record confirms identity and entry in 1942, but occupation code 999 is intentionally not interpreted and no employer was found.",
+      "next_action": "Review Box 182 for wartime unit, OSS chronology and a named pre-service employer; do not interpret Army occupation code 999.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-572-v1"
+    },
+    {
+      "key": "b572-mh-evidence-review",
+      "person_id": "bc1b6eec-f789-5df3-b416-1717e821c3dc",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, staged exact-name, military, institutional, obituary, newspaper and employment searches for M H Deslandes.",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T21:25:00Z",
+      "completed_at": "2026-09-16T21:35:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The 1944 Le messager page lists Deslandes only as the surname of a historical colonist from Honfleur and supplies no initials, living person or OSS context.",
+      "research_notes": "The Library of Congress candidate was a surname-only mention in a list of historical French colonists; no identity or employer was found.",
+      "next_action": "Review Box 182 for full given names, nationality, identifiers and pre-OSS employment.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-572-v1"
+    },
+    {
+      "key": "b572-mh-synthesis",
+      "person_id": "bc1b6eec-f789-5df3-b416-1717e821c3dc",
+      "source_adapter": "reviewed_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for M H Deslandes.",
+      "query_variant_type": "terminal_outcome_synthesis",
+      "started_at": "2026-09-16T21:35:00Z",
+      "completed_at": "2026-09-16T21:38:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The 1944 Le messager page lists Deslandes only as the surname of a historical colonist from Honfleur and supplies no initials, living person or OSS context.",
+      "research_notes": "Terminal outcome: requires_archival_review. The Library of Congress candidate was a surname-only mention in a list of historical French colonists; no identity or employer was found.",
+      "next_action": "Review Box 182 for full given names, nationality, identifiers and pre-OSS employment.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-572-v1"
+    },
+    {
+      "key": "b572-cletus-evidence-review",
+      "person_id": "c7755531-e843-584d-a1bd-decd81d573c7",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, staged exact-name, military, institutional, obituary, newspaper and employment searches for Cletus H Desmaretz.",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T21:26:00Z",
+      "completed_at": "2026-09-16T21:36:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": null,
+      "research_notes": "Official records confirm identity, student status at Army entry and association with Whittier High School, but no employer.",
+      "next_action": "Review Box 182 for the transition from student status to Army and OSS service and for any named employer.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-572-v1"
+    },
+    {
+      "key": "b572-cletus-synthesis",
+      "person_id": "c7755531-e843-584d-a1bd-decd81d573c7",
+      "source_adapter": "reviewed_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Cletus H Desmaretz.",
+      "query_variant_type": "terminal_outcome_synthesis",
+      "started_at": "2026-09-16T21:36:00Z",
+      "completed_at": "2026-09-16T21:39:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": null,
+      "research_notes": "Terminal outcome: occupation_only_found. Official records confirm identity, student status at Army entry and association with Whittier High School, but no employer.",
+      "next_action": "Review Box 182 for the transition from student status to Army and OSS service and for any named employer.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-572-v1"
+    },
+    {
+      "key": "b572-daniel-evidence-review",
+      "person_id": "3ebb5921-2bff-5bb2-b300-af80ca882ff8",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, staged exact-name, military, institutional, obituary, newspaper and employment searches for Daniel H Desmond.",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T21:27:00Z",
+      "completed_at": "2026-09-16T21:37:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The 1952 Evening star page names James M. Desmond, not Daniel H. Desmond, and is postwar.",
+      "research_notes": "The Army record confirms identity, Army Air Corps entry and a general-office-clerk occupation, but no employer.",
+      "next_action": "Review Box 182 for a named employer and the chronology from Army Air Corps entry to OSS service.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-572-v1"
+    },
+    {
+      "key": "b572-daniel-synthesis",
+      "person_id": "3ebb5921-2bff-5bb2-b300-af80ca882ff8",
+      "source_adapter": "reviewed_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Daniel H Desmond.",
+      "query_variant_type": "terminal_outcome_synthesis",
+      "started_at": "2026-09-16T21:37:00Z",
+      "completed_at": "2026-09-16T21:40:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The 1952 Evening star page names James M. Desmond, not Daniel H. Desmond, and is postwar.",
+      "research_notes": "Terminal outcome: occupation_only_found. The Army record confirms identity, Army Air Corps entry and a general-office-clerk occupation, but no employer.",
+      "next_action": "Review Box 182 for a named employer and the chronology from Army Air Corps entry to OSS service.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-572-v1"
+    },
+    {
+      "key": "b572-geral-evidence-review",
+      "person_id": "1dc38d7d-79c4-55e8-afc8-5963dba545d8",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, staged exact-name, military, institutional, obituary, newspaper and employment searches for Geral A Desmond.",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T21:28:00Z",
+      "completed_at": "2026-09-16T21:38:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Gerald and Gerard Desmond military records differ in spelling and lack OSS, Box 182 and a second corroborating identifier.",
+      "research_notes": "Gerald A. Desmond was used only as a search alias; multiple military namesakes could not be linked to the literal indexed name.",
+      "next_action": "Review Box 182 to determine whether Geral is complete or a printing error and to identify the person before assigning any career claim.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-572-v1"
+    },
+    {
+      "key": "b572-geral-synthesis",
+      "person_id": "1dc38d7d-79c4-55e8-afc8-5963dba545d8",
+      "source_adapter": "reviewed_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Geral A Desmond.",
+      "query_variant_type": "terminal_outcome_synthesis",
+      "started_at": "2026-09-16T21:38:00Z",
+      "completed_at": "2026-09-16T21:41:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Gerald and Gerard Desmond military records differ in spelling and lack OSS, Box 182 and a second corroborating identifier.",
+      "research_notes": "Terminal outcome: requires_archival_review. Gerald A. Desmond was used only as a search alias; multiple military namesakes could not be linked to the literal indexed name.",
+      "next_action": "Review Box 182 to determine whether Geral is complete or a printing error and to identify the person before assigning any career claim.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-572-v1"
+    },
+    {
+      "key": "b572-robert-evidence-review",
+      "person_id": "7319ff54-e69e-58dc-8495-b3b960550744",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Review the OSS index, CIA and Library of Congress checkpoints, staged exact-name, military, institutional, obituary, newspaper and employment searches for Robert Desmond.",
+      "query_variant_type": "bounded_cross_source_evidence_review",
+      "started_at": "2026-09-16T21:29:00Z",
+      "completed_at": "2026-09-16T21:39:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The same-name Army entry has no protected-identifier, middle-name, hometown or OSS linkage and cannot be assigned to a common-name index row.",
+      "research_notes": "A same-name 1944 Army entry lacks the index identifier and any second biographical bridge, so it remains unassigned.",
+      "next_action": "Review Box 182 for a middle name, service identifier, hometown and occupation before evaluating same-name candidates.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss/batch-572-v1"
+    },
+    {
+      "key": "b572-robert-synthesis",
+      "person_id": "7319ff54-e69e-58dc-8495-b3b960550744",
+      "source_adapter": "reviewed_evidence_synthesis",
+      "query_text": "Apply identity, temporal, source-quality, privacy and publication rules to the reviewed evidence for Robert Desmond.",
+      "query_variant_type": "terminal_outcome_synthesis",
+      "started_at": "2026-09-16T21:39:00Z",
+      "completed_at": "2026-09-16T21:42:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The same-name Army entry has no protected-identifier, middle-name, hometown or OSS linkage and cannot be assigned to a common-name index row.",
+      "research_notes": "Terminal outcome: requires_archival_review. A same-name 1944 Army entry lacks the index identifier and any second biographical bridge, so it remains unassigned.",
+      "next_action": "Review Box 182 for a middle name, service identifier, hometown and occupation before evaluating same-name candidates.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss/batch-572-v1"
+    }
+  ]
+}
