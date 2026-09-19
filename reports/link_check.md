@@ -1,6 +1,21 @@
 # Link check
 
-Run: 2026-09-16 UTC
+Latest run: 2026-09-19 UTC
+
+## Batch 574 local release candidate
+
+All internal targets resolve across 24,621 generated HTML pages. The
+separate external URL inventory contains 50,086 unique links; it is not a
+complete live check. The public-identifier audit examined 24,693 artifacts
+against 12,926 private normalized identifiers and 120 formatted variants and
+found zero unexpected boundary, aggregate or manifest-size matches. The
+local public manifest verifies 67 assets / 95,904,747 bytes at SHA-256
+`fcf00162246f7e65dbb70071b05dc76e14fb573ad9cb9d0636d00fdbb20c74fc`.
+The 70-file public tree hashes to
+`96c72e04be2b282bab91f7375bbf4a61a1a9396beed6d7b0a09e09637778a6a1`;
+the 24,693-file production tree hashes to
+`2044d8485474384b75acd9d2ef2fd7f14def3dfc4295ac294a76e665b2ab6427`.
+These are local validation results, not yet a live GitHub Pages verification.
 
 ## Batch 571 release candidate
 
