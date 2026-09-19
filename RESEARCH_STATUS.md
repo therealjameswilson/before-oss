@@ -2,6 +2,30 @@
 
 Verified against the current local SQLite database on 2026-09-19 UTC.
 
+Batch 577 has been reviewed and rebuilt locally, but is not yet a verified
+public release. It covers PDF page 116 rows 17-26 in Boxes 183-184. Ten people
+now have terminal `requires_archival_review` dispositions after saved CIA,
+Library of Congress and manual cross-source checks. Joseph H Devlin, Carl
+Devoe and Charles E DeVogel gained high-confidence Army identity links, not
+employers. A 1944 OSS Cairo report names a USNR officer Carl Devoe without
+linking him to the index's Carl Devoe; the latter's service branch remains
+indeterminate. The similarly named SOE organizer Philippe de Vomécourt has a
+documented 1940 railway employer, but no established link to the indexed
+`Phillippe DeVomecourt`; the employer is withheld. See
+`research/batch-577-discovery-checkpoint.md`.
+
+The local database contains 23,978 / 23,978 linked rows (100%) and 23,940
+active people. Research-attempt coverage is 5,534 / 23,940 (23.1161%);
+verified-affiliation coverage is 597 / 23,940 (2.4937%); verified-employer
+coverage is 261 / 23,940 (1.0902%); archival-review disposition is
+5,489 / 23,940 (22.9282%). There are 18,406 active `not_started` people and
+256 possible-duplicate groups. Private SQLite has 10,065 attempts, 4,719
+claims (1,307 confirmed, 1,745 high, 1,355 medium, 183 low, 129
+conflicting), 4,871 citation records and 2,226 unique source documents.
+The rebuilt public projection has 2,163 affiliations, 673 organizations,
+3,680 sources and 4,532 claims. No employer was added by this batch. The
+overall research goal remains active.
+
 Batch 576 is the current exact-verified public release. It covers PDF page
 116 rows 7-16, ten people in Box 183.
 All ten received terminal `requires_archival_review` outcomes after saved CIA,
@@ -35,7 +59,7 @@ bytes), seven core routes and ten direct profiles at manifest SHA-256
 `00806441dd8b863f958c9c2e699338cac526ac6ea6890f44ef1d18f2628f4a69`.
 See `reports/release_batch_576.md`. The goal remains active.
 
-Batch 575 is the current exact-verified public release. It covers PDF page
+Batch 575 was a previous exact-verified public release. It covers PDF page
 115 rows 43-46 and page 116 rows 2-6, nine new people in Box 183; already
 researched Harold C Deutsch at page 116 row 1 is unchanged. Nine people gained
 terminal `requires_archival_review` outcomes, and none gained a named

@@ -161,7 +161,7 @@ test("direct person route preserves source evidence and masks serials", async ({
 
 test("organizations, analysis, methodology, sources, and downloads are direct routes", async ({ page }) => {
   for (const route of ["organizations/", "analysis/", "methodology/", "sources/", "downloads/"]) {
-    const response = await page.goto(`./${route}`);
+    const response = await page.goto(`./${route}`, { waitUntil: "domcontentloaded" });
     expect(response?.ok(), route).toBeTruthy();
     await expect(page.locator("h1")).toBeVisible();
   }
