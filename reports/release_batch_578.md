@@ -3,8 +3,8 @@
 Verified 2026-09-19 UTC. [Pull request
 #279](https://github.com/therealjameswilson/before-oss/pull/279) passed Test
 run 35473921285 and merged as
-`fa54cf77b5a20f91b7a67df95ecd0a1409c62e12`. The merged-main Pages run
-35474409026 completed successfully.
+`fa54cf77b5a20f91b7a67df95ecd0a1409c62e12`. The merged-main Test run
+35474409028 and Pages run 35474409026 both completed successfully.
 
 The unauthenticated, read-only verifier compared the live [Before OSS
 site](https://therealjameswilson.github.io/before-oss/) to that immutable

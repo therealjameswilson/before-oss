@@ -27,7 +27,8 @@ this batch. The 98 Python tests, ingest and 200-profile audits, 69 bounded
 browser checks (including 27 axe checks), internal links and full-identifier
 redaction pass. The 24,694-file production build contains 24,622 direct
 HTML pages. [PR #279](https://github.com/therealjameswilson/before-oss/pull/279)
-and its Test workflow passed. The Pages workflow passed, and the read-only
+and its Test workflow passed. The merged-main Test and Pages workflows also
+passed, and the read-only
 verifier matched all 67 public assets (96,080,763 bytes), seven core routes,
 and ten new direct profiles against merge commit
 `fa54cf77b5a20f91b7a67df95ecd0a1409c62e12`. See
