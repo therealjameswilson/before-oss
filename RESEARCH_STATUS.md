@@ -2,6 +2,37 @@
 
 Verified against the current local SQLite database on 2026-09-19 UTC.
 
+Batch 578 is the current exact-verified public release. It covers PDF page
+116 rows 27-36, ten people in Box 184. All ten have terminal
+`requires_archival_review` dispositions after saved CIA, Library of Congress,
+and targeted cross-source checks. A contemporaneous OSS board record confirms
+Mike Devyak's immediate pre-OSS U.S. Navy assignment; this is a military
+pathway, not a civilian employer. William T Dewart Jr.'s role as Frank A.
+Munsey Company secretary is a dated 1940 professional affiliation, not a
+proven paid job or immediate predecessor. Similar-name leads for Henry P
+Devries, Andre DeWavrins, and Robert K Deweese remain unmerged. See
+`research/batch-578-discovery-checkpoint.md`.
+
+The local database contains 23,978 / 23,978 linked rows (100%) and 23,940
+active people. Research-attempt coverage is 5,544 / 23,940 (23.1579%);
+verified-affiliation coverage is 599 / 23,940 (2.5021%); verified-employer
+coverage is 261 / 23,940 (1.0902%); archival-review disposition is
+5,499 / 23,940 (22.9699%). There are 18,396 active `not_started` people and
+256 possible-duplicate groups. Private SQLite has 10,095 attempts, 4,725
+claims (1,307 confirmed, 1,750 high, 1,356 medium, 183 low, 129
+conflicting), 4,877 citation records and 2,231 unique source documents.
+The rebuilt public projection has 2,165 affiliations, 674 organizations,
+3,686 sources and 4,538 claims. No new civilian employer was verified in
+this batch. The 98 Python tests, ingest and 200-profile audits, 69 bounded
+browser checks (including 27 axe checks), internal links and full-identifier
+redaction pass. The 24,694-file production build contains 24,622 direct
+HTML pages. [PR #279](https://github.com/therealjameswilson/before-oss/pull/279)
+and its Test workflow passed. The Pages workflow passed, and the read-only
+verifier matched all 67 public assets (96,080,763 bytes), seven core routes,
+and ten new direct profiles against merge commit
+`fa54cf77b5a20f91b7a67df95ecd0a1409c62e12`. See
+`reports/release_batch_578.md`. The overall research goal remains active.
+
 Batch 577 is the current exact-verified public release. It covers PDF page
 116 rows 17-26 in Boxes 183-184. Ten people
 now have terminal `requires_archival_review` dispositions after saved CIA,

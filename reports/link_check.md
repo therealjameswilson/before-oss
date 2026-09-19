@@ -2,6 +2,15 @@
 
 Latest run: 2026-09-19 UTC
 
+## Batch 578 exact-verified release
+
+The local checker resolved all internal links across 24,622 generated HTML
+pages and inventoried 50,093 unique external URLs without claiming to have
+visited them all. The unauthenticated live verifier matched 67 public assets,
+seven core routes, and ten new direct person profiles to merge commit
+`fa54cf77b5a20f91b7a67df95ecd0a1409c62e12`. Details:
+`reports/release_batch_578.md`.
+
 ## Batch 577 exact-verified release
 
 The local checker resolved all internal links across 24,621 generated HTML
