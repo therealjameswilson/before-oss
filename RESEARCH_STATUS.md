@@ -2,6 +2,38 @@
 
 Verified against the current local SQLite database on 2026-09-19 UTC.
 
+Batch 575 is the current reviewed local release candidate. It covers PDF page
+115 rows 43-46 and page 116 rows 2-6, nine new people in Box 183; already
+researched Harold C Deutsch at page 116 row 1 is unchanged. Nine people gained
+terminal `requires_archival_review` outcomes, and none gained a named
+pre-OSS employer. William C Deutsch and Hector F DeVega gained high-confidence
+identity matches to the official Army bulk file, but Army occupation codes
+were not converted to employer claims. The shared protected identifier in the
+John/Sol Deull rows remains an unmerged identity ambiguity. A reviewed
+obituary is a qualified, probable Catherine DeVaney identity lead and places
+college attendance before OSS recruitment; its two named jobs are undated
+and excluded from employer analytics. See
+`research/batch-575-discovery-checkpoint.md`.
+
+The current local database contains 23,978 / 23,978 linked source rows and
+23,940 active people. Research-attempt coverage is 5,514 / 23,940 (23.0326%);
+verified-affiliation coverage is 597 / 23,940 (2.4937%); verified-employer
+coverage is 261 / 23,940 (1.0902%); and archival-disposition coverage is
+5,469 / 23,940 (22.8446%). There are 18,426 active `not_started` people,
+256 possible-duplicate groups, 10,005 durable attempts, 4,864 citation
+records and 2,222 unique source documents. The 4,703 private claims comprise
+1,307 confirmed, 1,731 high, 1,353 medium, 183 low and 129 conflicting.
+The public projection has 2,163 affiliations, 673 organizations, 3,673
+sources and 4,516 claims. The top oil-company category remains seven people
+with cited employment at nine companies. All 97 Python unittests, ingestion
+checks, the 200-profile structural audit, 69/69 bounded browser checks,
+internal-link checks, 27 accessibility checks and identifier redaction passed
+locally; the static build produced 24,621 direct HTML pages. The local
+manifest guard verified 67 assets at SHA-256
+`8cd0c06d7b96538b7c8680e489c6379bca0b64df9cfe0dd8a56e30b8af03189c`.
+This candidate is not a verified live release until CI, Pages deployment and
+unauthenticated asset checks complete. The overall goal remains active.
+
 The official Army bulk-file identity crosswalk has now been scanned across
 all 9,200,232 records and all 8,954 eligible indexed people, with 7,364
 private candidate comparisons checkpointed in bounded batches. Of these,
