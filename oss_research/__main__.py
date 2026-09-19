@@ -16,6 +16,7 @@ from .research import create_stratified_pilot, run_research
 from .runs import finish_run, start_run
 from .config import get_settings
 from .sources.nara import NaraAdapter
+from .sources.army_bulk import ARMY_BULK_SHA256, match_army_bulk
 from .public import build_public_data
 from .review import import_review_decisions
 from .evidence import import_reviewed_evidence
@@ -79,6 +80,15 @@ def parser() -> argparse.ArgumentParser:
     research.add_argument("--batch")
     research.add_argument("--resume", action="store_true")
     research.add_argument("--dry-run", action="store_true")
+
+    army_bulk = sub.add_parser(
+        "army-bulk-match",
+        help="Privately checkpoint official Army bulk identity leads; never infer employers",
+    )
+    army_bulk.add_argument("--file", type=_path, required=True)
+    army_bulk.add_argument("--max-candidates", type=int, default=500)
+    army_bulk.add_argument("--expected-sha256", default=ARMY_BULK_SHA256)
+    army_bulk.add_argument("--dry-run", action="store_true")
 
     sub.add_parser("export-derived")
     sub.add_parser("export-review-queue")
@@ -221,6 +231,26 @@ def main(argv: list[str] | None = None) -> int:
                 succeeded=result["queries_planned"] + result["queries_searched"],
                 warnings=result["candidate_matches_created_or_seen"],
                 failed=result["errors"],
+            )
+        elif args.command == "army-bulk-match":
+            result = match_army_bulk(
+                connection,
+                args.file,
+                max_candidates=args.max_candidates,
+                dry_run=args.dry_run,
+                expected_sha256=args.expected_sha256,
+            )
+            finish_run(
+                connection,
+                run,
+                status="completed",
+                processed=result["identity_candidates_total"],
+                succeeded=result["candidates_checkpointed_this_run"],
+                warnings=result["name_conflict_candidates"],
+                checkpoint={
+                    "already_checkpointed": result["already_checkpointed"],
+                    "candidates_remaining": result["candidates_remaining"],
+                },
             )
         elif args.command in {"export-derived", "export-review-queue"}:
             result = export_derived(connection)

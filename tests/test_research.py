@@ -59,6 +59,7 @@ class ResearchQuerySchedulerTests(unittest.TestCase):
             CREATE TABLE candidate_matches(
                 person_id TEXT,
                 candidate_type TEXT,
+                candidate_url TEXT,
                 match_assessment TEXT
             )
             """
@@ -66,7 +67,7 @@ class ResearchQuerySchedulerTests(unittest.TestCase):
         connection.execute(
             """
             INSERT INTO candidate_matches
-            VALUES ('person-1', 'duplicate_person', 'unreviewed')
+            VALUES ('person-1', 'duplicate_person', NULL, 'unreviewed')
             """
         )
         self.assertFalse(
@@ -75,7 +76,17 @@ class ResearchQuerySchedulerTests(unittest.TestCase):
         connection.execute(
             """
             INSERT INTO candidate_matches
-            VALUES ('person-1', 'source', 'unreviewed')
+            VALUES ('person-1', 'identity',
+                    'https://catalog.archives.gov/id/1263923', 'unreviewed')
+            """
+        )
+        self.assertFalse(
+            has_unreviewed_research_candidate(connection, "person-1")
+        )
+        connection.execute(
+            """
+            INSERT INTO candidate_matches
+            VALUES ('person-1', 'source', NULL, 'unreviewed')
             """
         )
         self.assertTrue(

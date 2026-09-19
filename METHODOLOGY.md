@@ -197,15 +197,22 @@ rendered and inspected before the document supports a public claim. A document
 that confirms wartime OSS context but says nothing about the predecessor role
 may strengthen identity while leaving the pre-OSS affiliation unresolved.
 
-The official unrestricted Army Serial Number Merged File is used only for
-eligible enlisted records and only when the indexed private identifier and
-name agree. Its own documentation warns of transcription errors, missing
-ranges, duplicate identifiers, and the absence of officer records. Civilian-
-occupation codes are expanded only when NARA's compiled code list supplies an
-unambiguous definition. When the official raw-code layout and a retired
-derivative interpretation disagree, the code is preserved privately and no
-occupation or employer is published. A code describing `STUDENTS` is modeled
-as student status, never employment, and no school is inferred.
+The official unrestricted Army Serial Number Merged File supplies *identity
+leads* wherever the printed index has a compatible eight-digit private
+identifier. The bulk crosswalk examines identifier hits, checks the printed
+name independently, and retains name disagreements and shared index
+identifiers as private review questions. It does not automatically change a
+person's identity confidence, research status, or published claims. Reviewed
+Army observations are used only when the private identifier and name agree.
+The file's own documentation warns of transcription errors, missing ranges,
+duplicate identifiers, and the absence of officer records; a later OSS officer
+may nevertheless have an earlier Army entry, so neither a hit nor a non-hit
+settles commissioned status. Civilian-occupation codes are expanded only when
+NARA's compiled code list supplies an unambiguous definition. When the
+official raw-code layout and a retired derivative interpretation disagree,
+the code is preserved privately and no occupation or employer is published.
+A code describing `STUDENTS` is modeled as student status, never employment,
+and no school is inferred.
 
 A military rank observation belongs to its documented date. A private grade
 at Army entry does not by itself establish the rank held during subsequent

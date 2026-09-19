@@ -8,6 +8,7 @@ from pathlib import Path
 from .constants import DERIVED_DIR, REPORTS_DIR
 from .db import utc_now
 from .analytics import VERIFIED_SQL
+from .sources.army_bulk import ARMY_BULK_URL
 
 
 def _write_csv(path: Path, fieldnames: list[str], rows: list[dict[str, object]]) -> None:
@@ -192,6 +193,46 @@ def export_derived(connection: sqlite3.Connection) -> dict[str, int]:
         ],
         review_queue,
     )
+    army_bulk_review = [
+        dict(row)
+        for row in connection.execute(
+            """
+            SELECT cm.candidate_match_id, cm.person_id, pe.display_name,
+                   cm.match_assessment,
+                   json_extract(cm.evidence_json, '$.name_alignment') AS name_alignment,
+                   json_extract(cm.evidence_json, '$.identifier_shared_by_multiple_index_people')
+                       AS shared_index_identifier,
+                   json_extract(cm.evidence_json, '$.bulk_record_ordinal') AS bulk_record_ordinal,
+                   json_extract(cm.evidence_json, '$.indexed_name') AS indexed_name,
+                   json_extract(cm.evidence_json, '$.army_name') AS army_name,
+                   sr.source_record_id, sr.source_page AS pdf_page,
+                   sr.box_raw AS archive_box, sr.archive_location
+            FROM candidate_matches cm
+            JOIN person_entities pe ON pe.person_id = cm.person_id
+            JOIN source_records sr ON sr.source_record_id =
+                json_extract(cm.evidence_json, '$.source_record_id')
+            WHERE cm.candidate_url = ?
+            ORDER BY CASE json_extract(cm.evidence_json, '$.name_alignment')
+                        WHEN 'name_conflict' THEN 0
+                        WHEN 'middle_disagreement' THEN 1
+                        WHEN 'surname_given_only' THEN 2
+                        ELSE 3 END,
+                     shared_index_identifier DESC, sr.source_page,
+                     sr.source_row_number, bulk_record_ordinal
+            """,
+            (ARMY_BULK_URL,),
+        )
+    ]
+    _write_csv(
+        Path("research/army_bulk_review_queue.csv"),
+        [
+            "candidate_match_id", "person_id", "display_name", "match_assessment",
+            "name_alignment", "shared_index_identifier", "bulk_record_ordinal",
+            "indexed_name", "army_name", "source_record_id", "pdf_page",
+            "archive_box", "archive_location",
+        ],
+        army_bulk_review,
+    )
     attempts = _query_dicts(
         connection,
         "SELECT * FROM research_attempts ORDER BY started_at, research_attempt_id",
@@ -215,6 +256,7 @@ def export_derived(connection: sqlite3.Connection) -> dict[str, int]:
         "unresolved": len(unresolved),
         "nara_pull_list_rows": len(pull_list),
         "review_queue_rows": len(review_queue),
+        "army_bulk_review_queue_rows": len(army_bulk_review),
         "research_attempts": len(attempts),
     }
 
