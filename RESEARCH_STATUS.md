@@ -2,6 +2,33 @@
 
 Verified against the current local SQLite database on 2026-09-19 UTC.
 
+Batch 576 is the current local release candidate; it is **not yet verified on
+the public site**. It covers PDF page 116 rows 7-16, ten people in Box 183.
+All ten received terminal `requires_archival_review` outcomes after saved CIA,
+LoC and cross-source checks. Ronnie A DeVico and Gordon D Devins gained
+high-confidence Army identity links, not employers. Joseph M Deveraux Jr.'s
+spelling variant remains ambiguous; Peter P Devivi's Army-name conflict is
+unresolved. A Robert C Devilbiss trade-paper snippet remains discovery-only,
+not an employer claim. The private Army review queue now distinguishes 196
+spacing-only conflicts from 1,176 substantive name differences without
+promoting either class automatically. See
+`research/batch-576-discovery-checkpoint.md`.
+
+Current local index coverage is 23,978 / 23,978 linked rows (100%).
+Research-attempt coverage is 5,524 / 23,940 active people (23.0744%);
+verified-affiliation coverage is 597 / 23,940 (2.4937%);
+verified-employer coverage is 261 / 23,940 (1.0902%); and archival-review
+disposition is 5,479 / 23,940 (22.8864%). There are 18,416 active
+`not_started` people and 256 possible-duplicate groups. The private database
+contains 10,035 attempts, 4,715 claims (1,307 confirmed, 1,743 high, 1,353
+medium, 183 low, 129 conflicting), 4,866 citation records and 2,222 unique
+source documents. The public projection contains 2,163 affiliations, 673
+organizations, 3,675 sources and 4,528 claims. The top oil-company category
+still shows seven documented employees at nine companies. The 98 Python
+tests, ingest checks, 200-profile audit, 69 bounded browser checks (including
+27 axe checks), 24,621-page static build and internal-link check, and
+full-identifier redaction audit pass locally. The goal remains active.
+
 Batch 575 is the current exact-verified public release. It covers PDF page
 115 rows 43-46 and page 116 rows 2-6, nine new people in Box 183; already
 researched Harold C Deutsch at page 116 row 1 is unchanged. Nine people gained

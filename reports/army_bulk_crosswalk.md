@@ -22,6 +22,8 @@ candidate write. This is bulk-data use, not an authenticated Catalog API call.
 | Surname and given agree, middle absent in Army record | 55 |
 | Surname and given agree, middle differs | 80 |
 | Indexed and Army names conflict | 1,372 |
+| Of those, spelling differs only in spacing or punctuation | 196 |
+| Of those, substantive name differences remain | 1,176 |
 | Candidate comparisons involving an identifier shared across index people | 198 |
 | Candidates still awaiting checkpoint | 0 |
 | Research-status changes made by this crosswalk | 0 |
@@ -34,7 +36,12 @@ ordinal, name-alignment category, and selected uninterpreted Army field codes,
 but no full private identifier or raw 91-byte record. The official bulk file
 itself is not committed or included in public downloads. `export-derived`
 creates a 7,364-row, Git-ignored `research/army_bulk_review_queue.csv` with
-masked-by-omission identifier handling and name conflicts sorted first.
+masked-by-omission identifier handling and name conflicts sorted first. The
+review queue derives `conflict_triage` from the stored indexed and Army names:
+196 conflicts collapse to identical names after whitespace and punctuation
+are removed, while 1,176 still differ substantively. This is a routing aid,
+not an identity decision; a spacing-equivalent name can still be a wrong
+record, and a substantive difference can reflect an indexing error.
 
 This crosswalk does **not** count as a completed research attempt. A number
 match alone cannot verify an OSS identity: the file has known transcription

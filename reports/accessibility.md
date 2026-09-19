@@ -4,6 +4,16 @@ Latest run: 2026-09-19 UTC
 
 ## Result
 
+Batch 576 local release candidate: the focused cohort suite passed 9/9
+checks across desktop, phone and tablet. The bounded core routes and
+oil-company category passed 27/27; analysis passed 6/6. The axe
+accessibility suite passed 27/27 with no serious or critical violations.
+Astro checked 201 source files with zero errors, warnings or hints and built
+24,621 direct pages. Ten new unresolved-employer pages, two high-confidence
+Army identity links, and Peter Devivi's visible identity conflict were
+checked at all three widths. PR, main CI, Pages deployment and live
+verification have not yet been performed for this local candidate.
+
 Batch 574 local release candidate: the focused cohort suite passed 15/15
 checks across desktop, phone and tablet. The bounded core routes and oil-
 company category passed 27/27; analysis passed 6/6. The axe accessibility

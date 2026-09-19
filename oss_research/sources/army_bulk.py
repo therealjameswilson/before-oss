@@ -66,6 +66,23 @@ def _tokens(value: str) -> list[str]:
     return re.findall(r"[A-Z0-9]+", ascii_value.upper())
 
 
+def conflict_triage(indexed_name: str, army_name: str, alignment: str) -> str:
+    """Explain a stored name conflict for *private review*, never identity promotion.
+
+    The index and Army file often differ only in surname spacing (for example,
+    DE VICO/DEVICO). Collapsing punctuation and whitespace helps route those
+    leads, but is insufficient to establish that the two people are identical.
+    The original name-alignment assessment and both source spellings are kept.
+    """
+    if alignment != "name_conflict":
+        return "not_a_name_conflict"
+    indexed = "".join(_tokens(indexed_name))
+    army = "".join(_tokens(army_name))
+    if indexed and army and indexed == army:
+        return "spacing_or_punctuation_only"
+    return "substantive_name_difference"
+
+
 def _alignment(indexed: IndexedRow, army_name: str) -> str:
     army = _tokens(army_name)
     surname = _tokens(indexed.surname)
