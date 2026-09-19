@@ -9,9 +9,12 @@ Deufson, were visually checked and researched as a ten-person bounded cohort.
 All ten now have saved terminal outcomes. The Library of Congress and National
 Park Service support Wallace R. Deuel's Chicago Daily News career through
 1941, followed by 1941 entry into the Coordinator of Information and later
-OSS service. His earlier American University in Beirut teaching is a separate
-documented role. Nine other people remain unresolved or ambiguous and are
-directed to archival review. Four Library of Congress OCR candidates were
+OSS service. NARA dates COI's conversion into OSS to June 1942, so COI is
+modeled as his immediate pre-OSS government assignment; Chicago Daily News is
+his last documented civilian employer. His earlier American University in
+Beirut teaching is a separate documented role. Nine other people remain
+unresolved or ambiguous and are directed to archival review. Four Library of
+Congress OCR candidates were
 reviewed, none used as final employer evidence. See the detailed
 `research/batch-574-discovery-checkpoint.md` and versioned evidence bundle.
 
@@ -33,10 +36,10 @@ professional affiliation and does not claim to represent the full OSS index.
 | Not started | 18,435 | 23,940 | 77.0050% |
 
 There are 256 possible-duplicate groups. The private database records 9,978
-attempts, 4,860 citations, 2,221 unique source documents and 4,690 claims.
-Claim-confidence totals are 1,307 confirmed, 1,720 high, 1,351 medium, 183
-low and 129 conflicting. The public projection contains 2,162 affiliations,
-673 organizations, 3,669 sources and 4,504 claims. Research-status counts are
+attempts, 4,861 citations, 2,221 unique source documents and 4,691 claims.
+Claim-confidence totals are 1,307 confirmed, 1,721 high, 1,351 medium, 183
+low and 129 conflicting. The public projection contains 2,163 affiliations,
+673 organizations, 3,670 sources and 4,504 claims. Research-status counts are
 in `reports/research_coverage.md`; an issued automated query alone is not
 treated as completed research for the full index.
 
@@ -52,12 +55,12 @@ treated as completed research for the full index.
   URL inventory contains 50,086 unique links and is not a complete live check.
 - The public-identifier audit scanned 24,693 artifacts against 12,926 private
   normalized identifiers and 120 formatted variants: no unexpected matches.
-- The 70-file public-data tree totals 98,246,609 bytes at SHA-256
-  `89dd05ce3f441a3c23c93ac4ba0ae706f55c98a823cc8ac88a6670c01c3192cd`.
-  The 24,693-file static build totals 290,717,533 bytes at SHA-256
-  `3202457e04dd8d9423fbe0189ca22989a1bbc75558a26371b32072c8194c8dc5`.
-- The local manifest guard verifies all 67 assets (95,899,493 bytes) at
-  SHA-256 `651a6ace9b6db20d8a5ffe7e84c732d2c650d0742991cb558c4f4a03c60e0b42`.
+- The 70-file public-data tree totals 98,251,871 bytes at SHA-256
+  `96c72e04be2b282bab91f7375bbf4a61a1a9396beed6d7b0a09e09637778a6a1`.
+  The 24,693-file static build totals 290,724,441 bytes at SHA-256
+  `2044d8485474384b75acd9d2ef2fd7f14def3dfc4295ac294a76e665b2ab6427`.
+- The local manifest guard verifies all 67 assets (95,904,747 bytes) at
+  SHA-256 `fcf00162246f7e65dbb70071b05dc76e14fb573ad9cb9d0636d00fdbb20c74fc`.
 
 This remains a **local release candidate** until the exact committed revision
 passes CI, GitHub Pages deployment and unauthenticated live verification. The

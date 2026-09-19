@@ -1,6 +1,6 @@
 # Research coverage
 
-Generated: 2026-09-19T15:07:47+00:00
+Generated: 2026-09-19T15:26:45+00:00
 
 ## Distinct coverage measures
 
@@ -32,6 +32,6 @@ Automated extraction and identity-queue creation do not count as a historical re
 
 - `confirmed`: 1,307
 - `conflicting`: 129
-- `high`: 1,720
+- `high`: 1,721
 - `low`: 183
 - `medium`: 1,351

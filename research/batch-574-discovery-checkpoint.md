@@ -38,11 +38,11 @@ Frank J Desuta entities remain a possible-duplicate group, not a merge.
 
 Wallace R Deuel has a high-confidence identity match and a high-confidence,
 strongly date-bounded Chicago Daily News employment pathway through 1941. The
-same newspaper is separately recorded as the last documented civilian
-employer before his COI/OSS service. Earlier 1926-1929 Beirut teaching is a
-different affiliation, not the immediate predecessor. The personnel file
-could refine the exact recruitment date, so the claim does not assert that no
-short intervening role could have existed.
+newspaper is his last documented civilian employer before a COI government
+assignment. NPS identifies his 1941 COI entry, and NARA dates COI's conversion
+to OSS to 13 June 1942; COI is therefore the immediate pre-OSS institution.
+Earlier 1926-1929 Beirut teaching is a different affiliation. The personnel
+file could refine his exact COI recruitment date and employment transition.
 
 The other nine people receive terminal `requires_archival_review` outcomes,
 with the exact unresolved-employer statement in their public profiles. The
@@ -60,14 +60,16 @@ Deufson's indexed private rank does not identify a prior unit.
 - `research/loc_review_decisions_2026-09-19_batch574.csv`
 - `site/tests/batch574.spec.ts`
 
-The reviewed bundle has four source records, two organization records (one
-reuses the prior American University of Beirut canonical entity), two
-affiliations, thirteen claims, twenty claim-source links, ten person updates
+The reviewed bundle has five source records, three organization records (two
+reuse prior American University of Beirut and COI canonical entities), three
+affiliations, fourteen claims, twenty-three claim-source links, ten person updates
 and ten manual review attempts. Four LoC candidate decisions were imported.
 The private database contains 23,978 linked source rows, 23,940 active people,
-9,978 durable attempts, 2,178 affiliations, 687 organizations, 4,860 citation
+9,978 durable attempts, 2,179 affiliations, 687 organizations, 4,861 citation
 records and 2,221 unique source documents. Claims by confidence: 1,307
-confirmed, 1,720 high, 1,351 medium, 183 low and 129 conflicting.
+confirmed, 1,721 high, 1,351 medium, 183 low and 129 conflicting. The
+superseded newspaper-as-immediate claim is retained privately as rejected so
+the correction is auditable and cannot enter public aggregates.
 
 - Index coverage: 23,978 / 23,978 source rows linked (100%).
 - Research-attempt coverage: 5,505 / 23,940 active people (22.9950%).
@@ -75,7 +77,7 @@ confirmed, 1,720 high, 1,351 medium, 183 low and 129 conflicting.
 - Verified-employer coverage: 261 / 23,940 (1.0902%).
 - Archival-review disposition coverage: 5,460 / 23,940 (22.8070%).
 - Remaining active `not_started`: 18,435; possible duplicate groups: 256.
-- Public output: 2,162 published affiliations, 673 organizations, 3,669
+- Public output: 2,163 published affiliations, 673 organizations, 3,670
   sources and 4,504 claims.
 
 This cohort supplies a saved research outcome, not a claim that the entire

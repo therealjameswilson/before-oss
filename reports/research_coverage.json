@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T15:07:47+00:00",
+  "generated_at": "2026-09-19T15:26:45+00:00",
   "index_coverage": {
     "source_rows": 23978,
     "source_rows_linked": 23978,
@@ -45,7 +45,7 @@
   "claim_confidence_counts": {
     "confirmed": 1307,
     "conflicting": 129,
-    "high": 1720,
+    "high": 1721,
     "low": 183,
     "medium": 1351
   },
@@ -65,6 +65,6 @@
   },
   "possible_duplicate_groups": 256,
   "conflict_count": 122,
-  "citations": 4860,
+  "citations": 4861,
   "unique_source_documents": 2221
 }

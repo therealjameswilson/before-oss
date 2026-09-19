@@ -54,7 +54,7 @@ test("Batch 574 preserves ten distinct indexed rows and masks three private iden
   expect(evidence).not.toMatch(/"serial_number"|"serial_number_raw"|"serial_number_normalized"/);
 });
 
-test("Batch 574 keeps Deuel's immediate newspaper pathway separate from earlier Beirut teaching", () => {
+test("Batch 574 separates Deuel's COI assignment, last civilian employer and earlier teaching", () => {
   const wallace = profile("a3ddbbc7-cd72-5a18-b315-10d558b89fd5");
   expect(wallace).toMatchObject({
     identity_status: "high_confidence",
@@ -63,15 +63,23 @@ test("Batch 574 keeps Deuel's immediate newspaper pathway separate from earlier 
   expect(wallace.name_variants).toContain("Wallace Rankin Deuel");
   expect(wallace.immediate_pre_oss_affiliations).toEqual([
     expect.objectContaining({
+      canonical_organization: "Coordinator of Information",
+      relationship_type: "government_assignment",
+      start_date: "1941",
+      end_date: "1942",
+      temporal_basis: "explicit_immediate",
+      claim_confidence: "high",
+    }),
+  ]);
+  expect(wallace.last_civilian_pre_service).toEqual([
+    expect.objectContaining({
       canonical_organization: "Chicago Daily News",
       relationship_type: "employment",
       start_date: "1929",
       end_date: "1941",
-      temporal_basis: "strongly_date_bounded",
-      claim_confidence: "high",
+      immediate_pre_oss: false,
     }),
   ]);
-  expect(wallace.last_civilian_pre_service).toEqual(wallace.immediate_pre_oss_affiliations);
   expect(wallace.other_pre_oss_affiliations).toEqual([
     expect.objectContaining({
       canonical_organization: "American University of Beirut",
@@ -84,7 +92,10 @@ test("Batch 574 keeps Deuel's immediate newspaper pathway separate from earlier 
   ]);
   expect(wallace.claims.find((claim: { claim_type: string }) =>
     claim.claim_type === "immediate_pre_oss_affiliation",
-  ).sources).toHaveLength(2);
+  ).sources).toHaveLength(3);
+  expect(wallace.claims.filter((claim: { claim_type: string }) =>
+    claim.claim_type === "immediate_pre_oss_affiliation",
+  )).toHaveLength(1);
   expect(JSON.stringify(wallace)).toContain("Coordinator of Information");
 });
 
@@ -114,7 +125,7 @@ test("Batch 574 exact aggregate counters remain reproducible", () => {
     verified_affiliation_people: 597,
     verified_employer_people: 261,
     archival_review_assessed_people: 5460,
-    public_sources: 3669,
+    public_sources: 3670,
     published_claims: 4504,
   });
 });
@@ -127,6 +138,10 @@ test("Batch 574 direct person and employer pages render evidence and archival gu
 
   await page.goto("organizations/ef8f9192-943e-5396-a904-62ba002b9beb/");
   await expect(page.getByRole("heading", { name: "Chicago Daily News", exact: true })).toBeVisible();
+  await expect(page.getByText("Wallace R Deuel", { exact: true }).first()).toBeVisible();
+
+  await page.goto("organizations/7717ee63-f94b-59b6-a06e-5b0f44350338/");
+  await expect(page.getByRole("heading", { name: "Coordinator of Information", exact: true })).toBeVisible();
   await expect(page.getByText("Wallace R Deuel", { exact: true }).first()).toBeVisible();
 
   await page.goto("people/918c8146-4378-5171-b6a6-71f0a185c63a/");

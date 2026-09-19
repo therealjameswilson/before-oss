@@ -55,9 +55,33 @@
       "access_date": "2026-09-19",
       "source_quality": "B_authoritative_institutional",
       "rights_notes": "A brief project-authored paraphrase is retained. NPS identifies the 1941 organization as the Coordinator of Information, not OSS."
+    },
+    {
+      "key": "nara-coi-oss-b574",
+      "stable_url": "https://www.archives.gov/research/military/ww2/oss",
+      "title": "OSS Records",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "locator": "Historical overview: COI established 11 July 1941 and became OSS on 13 June 1942",
+      "access_date": "2026-09-19",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Institutional chronology only; this NARA overview does not itself name Wallace Deuel."
     }
   ],
   "organizations": [
+    {
+      "key": "coordinator-of-information",
+      "canonical_name": "Coordinator of Information",
+      "historical_name": "Coordinator of Information",
+      "aliases": ["C.O.I.", "COI"],
+      "organization_type": "United States federal intelligence agency",
+      "sector": "federal_government",
+      "city": "Washington",
+      "country": "United States",
+      "active_dates": "1941-1942",
+      "normalization_notes": "The COI was the direct institutional predecessor from which the OSS was created in June 1942. It is modeled as a government assignment, not a civilian employer."
+    },
     {
       "key": "chicago-daily-news-b574",
       "canonical_name": "Chicago Daily News",
@@ -83,6 +107,27 @@
   ],
   "affiliations": [
     {
+      "key": "wallace-deuel-coi-b574",
+      "person_id": "a3ddbbc7-cd72-5a18-b315-10d558b89fd5",
+      "organization_key": "coordinator-of-information",
+      "organization_name_as_found": "Coordinator of Information",
+      "role_title": "Special assistant to William J. Donovan",
+      "relationship_type": "government_assignment",
+      "start_date": "1941",
+      "end_date": "1942",
+      "date_precision": "NPS dates Deuel's COI entry to 1941; NARA dates the COI-to-OSS institutional transition to 13 June 1942, not a separate person-specific transfer order.",
+      "city": "Washington",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "NPS identifies Deuel as joining COI in 1941 and remaining with OSS; NARA confirms that COI became OSS on 13 June 1942. This was an intervening government assignment, not a named civilian employer."
+    },
+    {
       "key": "wallace-deuel-chicago-daily-news-b574",
       "person_id": "a3ddbbc7-cd72-5a18-b315-10d558b89fd5",
       "organization_key": "chicago-daily-news-b574",
@@ -96,14 +141,14 @@
       "city": "Chicago",
       "state_or_region": "Illinois",
       "country": "United States",
-      "immediate_pre_oss": true,
+      "immediate_pre_oss": false,
       "last_civilian_pre_service": true,
       "pre_oss_temporal_basis": "strongly_date_bounded",
       "identity_confidence": "high_confidence",
       "claim_confidence": "high",
       "source_quality": "B_authoritative_institutional",
       "publication_status": "published",
-      "research_notes": "The employer period ends in the same year that he joined COI. No intervening affiliation is documented. This is the immediate pre-COI/OSS civilian affiliation, not proof that OSS itself existed in 1941."
+      "research_notes": "The employer period ends in the same year that he joined COI. COI is the documented immediate institutional predecessor of OSS; the newspaper is the last documented civilian employer before that government assignment."
     },
     {
       "key": "wallace-deuel-american-university-b574",
@@ -148,16 +193,31 @@
       "person_id": "a3ddbbc7-cd72-5a18-b315-10d558b89fd5",
       "affiliation_key": "wallace-deuel-chicago-daily-news-b574",
       "claim_type": "immediate_pre_oss_affiliation",
-      "claim_text": "Wallace R. Deuel worked for the Chicago Daily News through 1941 and joined the Coordinator of Information that year, preceding his OSS service.",
+      "claim_text": "Superseded formulation: Chicago Daily News was Deuel's last documented civilian employer before COI, not the organization immediately preceding OSS.",
       "evidence_excerpt": "1929-1941 Editorial writer and assistant to foreign editor, Chicago Daily News",
       "evidence_paraphrase": "The Library of Congress gives a 1929-1941 Chicago Daily News employment chronology; NPS specifies that the newspaper's Rome/Berlin correspondent joined COI in 1941.",
       "identity_match_assessment": "High-confidence match to the index row through uncommon name, middle initial and wartime OSS connection.",
-      "temporal_assessment": "Strongly date-bounded across 1941; neither source uses the precise phrase 'left the newspaper to join COI,' so immediacy is a supported inference and no intervening role is known.",
+      "temporal_assessment": "COI intervened between newspaper work and OSS; this earlier immediate-pre-OSS formulation is rejected, while the separate last-civilian claim remains published.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "rejected",
+      "match_notes": "Retained privately to audit the correction. Do not display or aggregate this as an immediate OSS predecessor.",
+      "sources": [{"source_key": "loc-deuel-b574", "locator_override": "PDF physical page 4, biographical chronology"}, {"source_key": "nps-deuel-b574", "locator_override": "Note 38"}]
+    },
+    {
+      "key": "wallace-deuel-immediate-coi-b574",
+      "person_id": "a3ddbbc7-cd72-5a18-b315-10d558b89fd5",
+      "affiliation_key": "wallace-deuel-coi-b574",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "The Coordinator of Information was Wallace R. Deuel's immediate documented government assignment before it became OSS in June 1942.",
+      "evidence_paraphrase": "NPS records Deuel joining COI as Donovan's special assistant in 1941 and remaining with OSS; NARA dates the COI-to-OSS transition to 13 June 1942.",
+      "identity_match_assessment": "High-confidence uncommon-name and middle-initial match, independently linked to OSS by the Library of Congress finding aid.",
+      "temporal_assessment": "Explicit institutional succession from COI to OSS; a person-specific transfer order has not been reviewed.",
       "source_quality": "B_authoritative_institutional",
       "claim_confidence": "high",
       "publication_status": "published",
-      "match_notes": "Do not describe the 1941 appointment as entry into OSS, which was established later; the 1941 organization was COI.",
-      "sources": [{"source_key": "loc-deuel-b574", "locator_override": "PDF physical page 4, biographical chronology"}, {"source_key": "nps-deuel-b574", "locator_override": "Note 38"}]
+      "match_notes": "COI is a government assignment, not the last civilian employer. Chicago Daily News remains separately documented as the preceding civilian employer.",
+      "sources": [{"source_key": "nps-deuel-b574", "locator_override": "Note 38"}, {"source_key": "nara-coi-oss-b574", "locator_override": "Historical overview, COI-to-OSS transition"}, {"source_key": "loc-deuel-b574", "support_type": "context_only"}]
     },
     {
       "key": "wallace-deuel-last-civilian-b574",
@@ -171,7 +231,7 @@
       "source_quality": "B_authoritative_institutional",
       "claim_confidence": "high",
       "publication_status": "published",
-      "match_notes": "The same named employer supports both immediate affiliation and last civilian employer; the categories remain separately modeled.",
+      "match_notes": "COI intervened between this named employer and the formal OSS organization; do not aggregate the newspaper as Deuel's immediate pre-OSS institution.",
       "sources": [{"source_key": "loc-deuel-b574"}, {"source_key": "nps-deuel-b574"}]
     },
     {
@@ -326,7 +386,7 @@
     {"person_id": "ddce3f23-b4cd-5104-819b-4380082f793f", "identity_status": "unresolved", "identity_evidence": "No exact-name or protected-identifier Army bulk-file match; postwar city-directory occupation is not a pre-OSS identity bridge.", "name_variants": ["Louis M Detore", "Louis M. Detore"], "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Box 183 for original identifier, wartime transfer and pre-OSS employer.", "personnel_file_digitized": false, "personnel_file_reviewed": false, "archival_review_priority": "critical"},
     {"person_id": "466a5387-1fe3-5f5b-aad3-d732d6c0a520", "identity_status": "ambiguous", "identity_evidence": "A 1942 wartime air officer and 1951 furniture-company executive are possible same-name leads, but neither has a direct OSS index bridge; no external employer accepted.", "name_variants": ["Alan W Detweiler", "Alan W. Detweiler"], "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Box 183 and compare independent wartime identifiers before adopting the air-officer lead; do not use 1951 employment as pre-OSS.", "personnel_file_digitized": false, "personnel_file_reviewed": false, "archival_review_priority": "critical"},
     {"person_id": "3e6f059d-c02e-53ee-b26a-bea085f4dc1c", "identity_status": "unresolved", "identity_evidence": "No corroborating accessible source links indexed Albert Deuble to a dated pre-OSS affiliation.", "name_variants": ["Albert Deuble"], "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Box 183 for full identity and prior employer.", "personnel_file_digitized": false, "personnel_file_reviewed": false, "archival_review_priority": "high"},
-    {"person_id": "a3ddbbc7-cd72-5a18-b315-10d558b89fd5", "identity_status": "high_confidence", "identity_evidence": "Library of Congress finding aid identifies Wallace Rankin Deuel as Chicago Daily News journalist and OSS official; NPS independently identifies Wallace R. Deuel as the newspaper correspondent who joined COI in 1941.", "name_variants": ["Wallace R Deuel", "Wallace R. Deuel", "Wallace Rankin Deuel"], "manual_review_required": true, "research_status": "verified_employer_found", "next_action": "Inspect Box 183 for precise COI/OSS recruitment date and personnel details; retain Chicago Daily News as strongly date-bounded immediate predecessor.", "personnel_file_digitized": false, "personnel_file_reviewed": false, "archival_review_priority": "medium"},
+    {"person_id": "a3ddbbc7-cd72-5a18-b315-10d558b89fd5", "identity_status": "high_confidence", "identity_evidence": "Library of Congress finding aid identifies Wallace Rankin Deuel as Chicago Daily News journalist and OSS official; NPS independently identifies Wallace R. Deuel as the newspaper correspondent who joined COI in 1941.", "name_variants": ["Wallace R Deuel", "Wallace R. Deuel", "Wallace Rankin Deuel"], "manual_review_required": true, "research_status": "verified_employer_found", "next_action": "Inspect Box 183 for precise COI recruitment date and personnel details; retain COI as immediate pre-OSS assignment and Chicago Daily News as last documented civilian employer.", "personnel_file_digitized": false, "personnel_file_reviewed": false, "archival_review_priority": "medium"},
     {"person_id": "792b43b2-3fe0-5fd3-a4d9-a6eee4080296", "identity_status": "unresolved", "identity_evidence": "The index gives Richard B Deufson and private rank, without an accessible independent identifier or named prior assignment.", "name_variants": ["Richard B Deufson", "Richard B. Deufson"], "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Box 183 for Army assignment, recruitment date and last civilian employer.", "personnel_file_digitized": false, "personnel_file_reviewed": false, "archival_review_priority": "high"}
   ],
   "research_attempts": [
@@ -338,7 +398,7 @@
     {"key": "b574-louis-review", "person_id": "ddce3f23-b4cd-5104-819b-4380082f793f", "source_adapter": "manual_evidence_review", "query_text": "NARA index and CIA/LoC exact-name checks; Louis M Detore OSS, employer 1940, occupation, directories and archives; entire official Army merged-file scan.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-19T13:00:00Z", "completed_at": "2026-09-19T15:00:00Z", "outcome": "source_reviewed", "sources_reviewed": 2, "candidate_sources_rejected": 1, "rejection_reasons": "Postwar 1950s fire-department directories lack an OSS identity bridge and cannot prove a pre-OSS job; Army identifier had no match.", "research_notes": "No employer verified; original index and personnel file require comparison.", "next_action": "Inspect Box 183.", "attempt_number": 3, "research_agent_version": "before-oss/batch-574-v1"},
     {"key": "b574-alan-review", "person_id": "466a5387-1fe3-5f5b-aad3-d732d6c0a520", "source_adapter": "manual_evidence_review", "query_text": "NARA index and CIA/LoC exact-name checks; Alan W Detweiler OSS, Army Air Forces, company, 1940 occupation, directories and official historic-property records.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-19T13:00:00Z", "completed_at": "2026-09-19T15:00:00Z", "outcome": "source_reviewed", "sources_reviewed": 1, "candidate_sources_rejected": 2, "rejection_reasons": "1951 furniture-company executive is postwar and unlinked to the OSS row; 1942 air-officer name lacks a transfer bridge.", "research_notes": "Identity remains ambiguous; no pre-OSS employer or dated immediate assignment accepted.", "next_action": "Inspect Box 183 and wartime unit identifiers.", "attempt_number": 3, "research_agent_version": "before-oss/batch-574-v1"},
     {"key": "b574-albert-review", "person_id": "3e6f059d-c02e-53ee-b26a-bea085f4dc1c", "source_adapter": "manual_evidence_review", "query_text": "NARA index and CIA/LoC exact-name checks; Albert Deuble OSS, 1940 occupation, employer, obituary, institutional and archival searches.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-19T13:00:00Z", "completed_at": "2026-09-19T15:00:00Z", "outcome": "no_result", "sources_reviewed": 1, "candidate_sources_rejected": 0, "research_notes": "No reliable external identity or employer; index pointer only, so physical file review is required.", "next_action": "Inspect Box 183.", "attempt_number": 3, "research_agent_version": "before-oss/batch-574-v1"},
-    {"key": "b574-wallace-review", "person_id": "a3ddbbc7-cd72-5a18-b315-10d558b89fd5", "source_adapter": "manual_evidence_review", "query_text": "NARA index and CIA/LoC exact-name checks; Wallace R/Rankin Deuel OSS, COI, Chicago Daily News, American University Beirut; rendered LoC finding aid and reviewed NPS history and newspaper candidate dates.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-19T13:00:00Z", "completed_at": "2026-09-19T15:00:00Z", "outcome": "source_reviewed", "sources_reviewed": 3, "candidate_sources_rejected": 1, "rejection_reasons": "A 1950 newspaper item is postwar; page OCR candidates were not adopted as final evidence without original-image review.", "research_notes": "LoC and NPS establish 1929-1941 newspaper employment and 1941 COI entry; earlier Beirut teaching is separately recorded. Personnel file remains unexamined.", "next_action": "Inspect Box 183 for precise recruitment date and confirm civilian pathway.", "attempt_number": 3, "research_agent_version": "before-oss/batch-574-v1"},
+    {"key": "b574-wallace-review", "person_id": "a3ddbbc7-cd72-5a18-b315-10d558b89fd5", "source_adapter": "manual_evidence_review", "query_text": "NARA index and CIA/LoC exact-name checks; Wallace R/Rankin Deuel OSS, COI, Chicago Daily News, American University Beirut; rendered LoC finding aid and reviewed NPS and NARA organizational histories.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-19T13:00:00Z", "completed_at": "2026-09-19T15:25:00Z", "outcome": "source_reviewed", "sources_reviewed": 4, "candidate_sources_rejected": 1, "rejection_reasons": "A 1950 newspaper item is postwar; page OCR candidates were not adopted as final evidence without original-image review.", "research_notes": "LoC and NPS establish 1929-1941 newspaper employment and 1941 COI entry; NARA dates formal COI-to-OSS transformation to June 1942. COI is the immediate institutional predecessor, Chicago Daily News the last civilian employer, and Beirut teaching an earlier role. Personnel file remains unexamined.", "next_action": "Inspect Box 183 for precise recruitment date and confirm civilian pathway.", "attempt_number": 3, "research_agent_version": "before-oss/batch-574-v2"},
     {"key": "b574-richard-review", "person_id": "792b43b2-3fe0-5fd3-a4d9-a6eee4080296", "source_adapter": "manual_evidence_review", "query_text": "NARA index and CIA/LoC exact-name checks; Richard B Deufson OSS, Army private, employer 1940, military unit, obituary and archival searches.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-19T13:00:00Z", "completed_at": "2026-09-19T15:00:00Z", "outcome": "no_result", "sources_reviewed": 1, "candidate_sources_rejected": 0, "research_notes": "The indexed private rank does not identify a prior unit; no employer documented.", "next_action": "Inspect Box 183.", "attempt_number": 3, "research_agent_version": "before-oss/batch-574-v1"}
   ]
 }

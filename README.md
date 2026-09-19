@@ -24,7 +24,7 @@ is not complete, and the site reports that limitation explicitly.
   attempts or plans
 - 597 verified-affiliation profiles, including 261 with verified employment or
   self-employment, and 5,460 individually assessed archival dispositions
-- 2,162 public-visible affiliations, 4,504 public-visible claims, 3,669 public
+- 2,163 public-visible affiliations, 4,504 public-visible claims, 3,670 public
   source records, and 2,221 unique source-document keys; 183 low-confidence
   claims remain outside default analytics
 - 18,435 active people remain `not_started`; the public site reports this

@@ -7,7 +7,9 @@ PDF page 115 rows 33-42, Frank J Desuta through Richard B Deufson, all in Box
 183. Ten people gained terminal research outcomes. A Library of Congress
 finding aid and independent National Park Service history establish Wallace R.
 Deuel's 1929-1941 Chicago Daily News employment followed by 1941 entry into
-the Coordinator of Information; his 1926-1929 American University in Beirut
+the Coordinator of Information. NARA's organizational chronology makes COI
+the immediate pre-OSS government assignment, while Chicago Daily News is the
+last documented civilian employer; his 1926-1929 American University in Beirut
 teaching is a separate earlier affiliation. The remaining nine profiles
 require archival review, including the unmerged Desota/Desuta spelling pair.
 No conflicting Army-identifier or postwar namesake lead was promoted into an
@@ -18,9 +20,9 @@ active people, 5,505 research-attempted people (22.9950%), 597 with verified
 affiliations (2.4937%), 261 with verified employers (1.0902%), and 5,460
 with archival disposition assessed (22.8070%). The remaining active
 `not_started` count is 18,435. There are 256 possible-duplicate groups;
-4,860 citation records; 2,221 unique source documents; 4,690 stored claims;
-and 9,978 durable attempts. Public output contains 2,162 affiliations,
-3,669 sources and 4,504 claims. Claim confidence is 1,307 confirmed, 1,720
+4,861 citation records; 2,221 unique source documents; 4,691 stored claims;
+and 9,978 durable attempts. Public output contains 2,163 affiliations,
+3,670 sources and 4,504 claims. Claim confidence is 1,307 confirmed, 1,721
 high, 1,351 medium, 183 low and 129 conflicting. Ingest validation, all 95
 Python tests, the 200-profile structural audit, the 24,621-page static build,
 75/75 bounded browser checks, internal-link checks and the full-identifier
