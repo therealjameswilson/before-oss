@@ -3,6 +3,9 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import StatCard from "../components/StatCard.astro";
 import stats from "../data/generated/stats.json";
 import analytics from "../data/generated/analytics.json";
+import organizations from "../data/generated/organizations.json";
+import { oilCompanyEmployees } from "../lib/oilCompanies";
+import type { Organization } from "../types";
 
 const base = import.meta.env.BASE_URL;
 const attempted = Number(stats.research_attempted_people).toLocaleString("en-US");
@@ -12,6 +15,7 @@ const verified = Number(stats.verified_employer_people).toLocaleString("en-US");
 const verifiedAffiliations = Number(stats.verified_affiliation_people).toLocaleString("en-US");
 const archival = Number(stats.archival_review_assessed_people).toLocaleString("en-US");
 const notStarted = Number(stats.research_status_counts.not_started ?? 0);
+const oilCompanyCategory = oilCompanyEmployees(organizations as Organization[]);
 ---
 
 <BaseLayout
@@ -61,6 +65,51 @@ const notStarted = Number(stats.research_status_counts.not_started ?? 0);
       </div>
     </form>
   </div>
+
+  <section class="oil-directory" id="oil-companies" aria-labelledby="oil-company-heading">
+    <div class="container">
+      <div class="oil-directory__intro">
+        <div>
+          <p class="kicker">Featured category · documented employment</p>
+          <h2 id="oil-company-heading">People who worked for oil companies</h2>
+          <p>
+            {oilCompanyCategory.employees.length} people in the current research
+            dataset have a cited employment claim at one of
+            {" "}{oilCompanyCategory.organizationCount} historically named oil companies.
+            These jobs were documented before OSS service, but were not always
+            the immediate pre-OSS affiliation. Qualified findings are marked below.
+          </p>
+        </div>
+        <a class="button button--ghost" href={`${base}people/?featured=oil_companies&sort=name_asc`}>
+          Open this category
+        </a>
+      </div>
+      <ul class="oil-directory__list">
+        {oilCompanyCategory.employees.map((person) => (
+          <li class="oil-directory__person">
+            <h3><a href={`${base}people/${person.personId}/`}>{person.name}</a></h3>
+            <ul>
+              {person.employers.map((employer) => (
+                <li>
+                  <a href={`${base}organizations/${employer.organizationId}/`}>
+                    {employer.organizationName}
+                  </a>
+                  {employer.role && <span> · {employer.role}</span>}
+                  <span class="oil-directory__confidence">
+                    {employer.qualified ? "Qualified medium-confidence claim" : `${employer.confidence} confidence`}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </li>
+        ))}
+      </ul>
+      <p class="oil-directory__note">
+        This is a research-coverage list, not a count of every oil-industry worker
+        in OSS. Each person page links to the underlying evidence.
+      </p>
+    </div>
+  </section>
 
   <section class="section">
     <div class="container">
