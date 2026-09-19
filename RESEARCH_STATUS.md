@@ -2,8 +2,8 @@
 
 Verified against the current local SQLite database on 2026-09-19 UTC.
 
-Batch 576 is the current local release candidate; it is **not yet verified on
-the public site**. It covers PDF page 116 rows 7-16, ten people in Box 183.
+Batch 576 is the current exact-verified public release. It covers PDF page
+116 rows 7-16, ten people in Box 183.
 All ten received terminal `requires_archival_review` outcomes after saved CIA,
 LoC and cross-source checks. Ronnie A DeVico and Gordon D Devins gained
 high-confidence Army identity links, not employers. Joseph M Deveraux Jr.'s
@@ -27,7 +27,13 @@ organizations, 3,675 sources and 4,528 claims. The top oil-company category
 still shows seven documented employees at nine companies. The 98 Python
 tests, ingest checks, 200-profile audit, 69 bounded browser checks (including
 27 axe checks), 24,621-page static build and internal-link check, and
-full-identifier redaction audit pass locally. The goal remains active.
+full-identifier redaction audit pass locally. Pull request #275 merged as
+`35c75c141ca2bf42461a4f3b387525fa2373aa33`; PR Test run 35464527023,
+main Test run 35464887846 and Pages run 35464887847 all succeeded. The
+unauthenticated live verifier matched all 67 manifest assets (95,995,847
+bytes), seven core routes and ten direct profiles at manifest SHA-256
+`00806441dd8b863f958c9c2e699338cac526ac6ea6890f44ef1d18f2628f4a69`.
+See `reports/release_batch_576.md`. The goal remains active.
 
 Batch 575 is the current exact-verified public release. It covers PDF page
 115 rows 43-46 and page 116 rows 2-6, nine new people in Box 183; already
