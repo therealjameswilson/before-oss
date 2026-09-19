@@ -82,8 +82,11 @@ guard verified 67 assets (95,955,642 bytes) at SHA-256
 `8cd0c06d7b96538b7c8680e489c6379bca0b64df9cfe0dd8a56e30b8af03189c`.
 The full historical Playwright suite exceeds the local test-runner's Node
 heap during test discovery; the bounded release suite runs the latest batch
-and core routes without that failure. No new Pages deployment is asserted
-until CI and live verification succeed.
+and core routes without that failure. Pull request #274 passed Test run
+35461888181, merged as `a73cf8d26108001ad5da74fdb1cfa6b8151daa87`,
+and Pages run 35462295429 succeeded. An unauthenticated read-only verifier
+matched all 67 public assets, seven core routes and nine new direct profiles
+to that commit at the manifest SHA-256 above.
 
 Resume with the next sequential index cohort at PDF page 116 row 7. Before
 adding claims, visually inspect its page context and run bounded official,

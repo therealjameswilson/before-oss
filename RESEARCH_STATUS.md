@@ -2,7 +2,7 @@
 
 Verified against the current local SQLite database on 2026-09-19 UTC.
 
-Batch 575 is the current reviewed local release candidate. It covers PDF page
+Batch 575 is the current exact-verified public release. It covers PDF page
 115 rows 43-46 and page 116 rows 2-6, nine new people in Box 183; already
 researched Harold C Deutsch at page 116 row 1 is unchanged. Nine people gained
 terminal `requires_archival_review` outcomes, and none gained a named
@@ -31,20 +31,25 @@ internal-link checks, 27 accessibility checks and identifier redaction passed
 locally; the static build produced 24,621 direct HTML pages. The local
 manifest guard verified 67 assets at SHA-256
 `8cd0c06d7b96538b7c8680e489c6379bca0b64df9cfe0dd8a56e30b8af03189c`.
-This candidate is not a verified live release until CI, Pages deployment and
-unauthenticated asset checks complete. The overall goal remains active.
+Pull request #274 passed Test run 35461888181 and merged as
+`a73cf8d26108001ad5da74fdb1cfa6b8151daa87`. Main Test run 35462295431
+and Pages run 35462295429 succeeded. A detached rebuild reproduced the
+public and production trees exactly. An unauthenticated verifier matched all
+67 public-manifest assets
+(95,955,642 bytes), seven core routes, and all nine new direct profiles to
+the merged commit. See `reports/release_batch_575.md`. The overall goal
+remains active because 18,426 people have not yet received a research attempt.
 
 The official Army bulk-file identity crosswalk has now been scanned across
 all 9,200,232 records and all 8,954 eligible indexed people, with 7,364
 private candidate comparisons checkpointed in bounded batches. Of these,
 1,372 have name conflicts and 198 involve an identifier shared across index
-people. They remain unreviewed leads; no research status, identity-confidence
-state, affiliation, or employer claim was promoted from the automated scan.
-See `reports/army_bulk_crosswalk.md`. All four coverage measures below are
-therefore unchanged. The public site remains at the exact-verified Batch 574
-release; the private crosswalk has not yet been projected into a new release.
+people. They remain unreviewed leads by default; Batch 575 manually assessed
+five cohort comparisons without converting any Army occupation code into an
+employer. See `reports/army_bulk_crosswalk.md` and
+`research/batch-575-discovery-checkpoint.md`.
 
-Batch 574 is the current exact-verified public release. It covers personnel-index
+Batch 574 was the previous exact-verified public release. It covers personnel-index
 PDF page 115 rows 33-42, Frank J Desuta through Richard B Deufson, all in Box
 183. Ten people gained terminal research outcomes. A Library of Congress
 finding aid and independent National Park Service history establish Wallace R.
