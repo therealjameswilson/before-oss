@@ -2,6 +2,16 @@
 
 Verified against the current local SQLite database on 2026-09-19 UTC.
 
+The official Army bulk-file identity crosswalk has now been scanned across
+all 9,200,232 records and all 8,954 eligible indexed people, with 7,364
+private candidate comparisons checkpointed in bounded batches. Of these,
+1,372 have name conflicts and 198 involve an identifier shared across index
+people. They remain unreviewed leads; no research status, identity-confidence
+state, affiliation, or employer claim was promoted from the automated scan.
+See `reports/army_bulk_crosswalk.md`. All four coverage measures below are
+therefore unchanged. The public site remains at the exact-verified Batch 574
+release; the private crosswalk has not yet been projected into a new release.
+
 Batch 574 is the current exact-verified public release. It covers personnel-index
 PDF page 115 rows 33-42, Frank J Desuta through Richard B Deufson, all in Box
 183. Ten people gained terminal research outcomes. A Library of Congress

@@ -11,6 +11,7 @@ from . import __version__
 from .config import Settings
 from .constants import NAMESPACE_GENERIC, RESEARCH_PROTOCOL_VERSION
 from .db import utc_now
+from .sources.army_bulk import ARMY_BULK_URL
 from .sources.loc import LocAdapter
 from .sources.nara import NaraAdapter
 from .sources.cia import CiaAdapter
@@ -175,10 +176,11 @@ def has_unreviewed_research_candidate(
             FROM candidate_matches
             WHERE person_id = ?
               AND candidate_type <> 'duplicate_person'
+              AND NOT (candidate_type = 'identity' AND candidate_url = ?)
               AND match_assessment = 'unreviewed'
             LIMIT 1
             """,
-            (person_id,),
+            (person_id, ARMY_BULK_URL),
         ).fetchone()
     )
 

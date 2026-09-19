@@ -23,6 +23,22 @@ part of public project downloads.
 The machine-readable manifest is
 `data/provenance/source_manifest.json`.
 
+## Official Army bulk-data identity crosswalk
+
+The private research pipeline also uses NARA's [Electronic Army Serial Number
+Merged File](https://catalog.archives.gov/id/1263923), file NAID 1263923 in
+the [World War II Army Enlistment Records series](https://catalog.archives.gov/id/604357).
+The separately downloaded `ASNEF.FIN.DAT` is 837,221,112 bytes, with 9,200,232
+fixed-length 91-byte records and SHA-256
+`db10dbf90f0ef95dc327b0e8f8f0489923941b65399cf79bba71ac4b45d07e5b`.
+Those format and count facts match [NARA's published technical-specification
+example](https://www.archives.gov/files/calendar/genealogy-fair/2015/handouts/session-7-legloahec-handout-7of7.pdf).
+The file was locally reverified on 2026-09-19; its original local retrieval
+date was not recoverable and is not invented. See the machine-readable
+`data/provenance/army_bulk_manifest.json` and
+`reports/army_bulk_crosswalk.md`. The source file is not committed, and its
+private identifiers do not enter public assets.
+
 ## Reviewed digitized personnel-file sources
 
 The second reviewed evidence batch used NARA's public digitized personnel-file

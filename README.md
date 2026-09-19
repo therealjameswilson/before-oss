@@ -118,6 +118,32 @@ python3 -m oss_research import-adapter-checkpoints research/adapter_attempt_chec
 python3 -m oss_research import-review-decisions review_decisions.csv
 ```
 
+### Official Army bulk identity triage
+
+NARA makes the *Electronic Army Serial Number Merged File* available as a
+separate public bulk-data download (file NAID 1263923). After obtaining
+`ASNEF.FIN.DAT` through the [official Catalog file page](https://catalog.archives.gov/id/1263923),
+run the private crosswalk in bounded, resumable batches:
+
+```bash
+python3 -m oss_research army-bulk-match --file /absolute/path/ASNEF.FIN.DAT --dry-run
+python3 -m oss_research army-bulk-match --file /absolute/path/ASNEF.FIN.DAT --max-candidates 500
+```
+
+Repeat the second command until `candidates_remaining` is zero. The file is
+verified against the fixed size and SHA-256 in
+`data/provenance/army_bulk_manifest.json` before any candidate write. Candidate
+IDs are deterministic, and reruns never overwrite manual assessments. The
+restricted SQLite database stores record ordinals and minimal field codes,
+but neither a full identifier nor a raw bulk record in candidate evidence.
+The command does **not** change research statuses, establish anyone's OSS
+identity by itself, create employer claims, or consume Catalog API quota.
+Name conflicts and shared index identifiers are explicitly flagged for review.
+Army-entry occupation codes are not named employers.
+`python3 -m oss_research export-derived` writes a separate restricted
+`research/army_bulk_review_queue.csv`, prioritized by name conflict and
+shared-identifier risk. That CSV is ignored by Git and is not a public download.
+
 `--person-id PERSON_ID` rebuilds or researches one person. All stages are
 idempotent. API request fingerprints prevent a completed request from being
 repeated inadvertently.
