@@ -2,6 +2,11 @@
 
 Latest run: 2026-09-19 UTC
 
+Batch 578 exact-verified release: the bounded suite passed 69/69 checks
+across desktop, phone, and tablet, including 27 axe checks. It includes
+the top oil-company category and all ten new direct profiles. See
+`reports/release_batch_578.md`.
+
 Batch 577 exact-verified release: the bounded suite passed 69/69 checks
 across desktop, phone and tablet, including 27 axe checks with no serious
 violations. See `reports/release_batch_577.md`.
