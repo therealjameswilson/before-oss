@@ -2,7 +2,7 @@
 
 Verified against the current local SQLite database on 2026-09-19 UTC.
 
-Batch 574 is the current local release candidate. It covers personnel-index
+Batch 574 is the current exact-verified public release. It covers personnel-index
 PDF page 115 rows 33-42, Frank J Desuta through Richard B Deufson, all in Box
 183. Ten people gained terminal research outcomes. A Library of Congress
 finding aid and independent National Park Service history establish Wallace R.
@@ -26,10 +26,19 @@ and 9,978 durable attempts. Public output contains 2,163 affiliations,
 high, 1,351 medium, 183 low and 129 conflicting. Ingest validation, all 95
 Python tests, the 200-profile structural audit, the 24,621-page static build,
 75/75 bounded browser checks, internal-link checks and the full-identifier
-redaction audit pass locally. The public GitHub Pages release remains Batch 573
-until Batch 574 is merged, deployed and independently verified.
+redaction audit pass locally. A detached clean replay of merged commit
+`ba2bad45fa7fd02244300b94da2533057c0d6b67` reproduced both release-tree
+hashes exactly; its only tracked differences were report timestamps. Pull
+request #272 and its Test run 35452153622 passed, as did main Test run
+35452448556 and Pages run 35452448546. The unauthenticated live verifier
+matched all 67 public-manifest assets (95,904,747 bytes), seven core routes
+and ten affected profiles at manifest SHA-256
+`fcf00162246f7e65dbb70071b05dc76e14fb573ad9cb9d0636d00fdbb20c74fc`.
+The [public site](https://therealjameswilson.github.io/before-oss/) retains
+the seven-person oil-company listing. The goal remains active because 18,435
+people have not yet received a research attempt.
 
-Batch 573 is the current exact-verified public release. It covers personnel-index
+Batch 573 was the previous exact-verified public release. It covers personnel-index
 PDF page 115 rows 23-32, Christian DeSorbier through Raymond Deston, crossing
 from Box 182 to Box 183. Nine people gained terminal research outcomes; Emile
 Despres retains the prior verified Federal Reserve Board claim. Strict official

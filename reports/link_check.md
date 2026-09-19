@@ -15,7 +15,9 @@ The 70-file public tree hashes to
 `96c72e04be2b282bab91f7375bbf4a61a1a9396beed6d7b0a09e09637778a6a1`;
 the 24,693-file production tree hashes to
 `2044d8485474384b75acd9d2ef2fd7f14def3dfc4295ac294a76e665b2ab6427`.
-These are local validation results, not yet a live GitHub Pages verification.
+The unauthenticated live verifier subsequently matched the 67 manifest assets,
+seven core routes and ten Batch 574 direct profiles at merge commit
+`ba2bad45fa7fd02244300b94da2533057c0d6b67`.
 
 ## Batch 571 release candidate
 

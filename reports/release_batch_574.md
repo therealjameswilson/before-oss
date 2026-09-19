@@ -61,10 +61,17 @@ treated as completed research for the full index.
   `2044d8485474384b75acd9d2ef2fd7f14def3dfc4295ac294a76e665b2ab6427`.
 - The local manifest guard verifies all 67 assets (95,904,747 bytes) at
   SHA-256 `fcf00162246f7e65dbb70071b05dc76e14fb573ad9cb9d0636d00fdbb20c74fc`.
+- A detached clean replay of the corrected commit reproduced both public and
+  production tree hashes byte for byte. Its only tracked differences were
+  report-generation timestamps; the replayed public-identifier audit also
+  found zero unexpected matches.
 
-This remains a **local release candidate** until the exact committed revision
-passes CI, GitHub Pages deployment and unauthenticated live verification. The
-existing public release is Batch 573.
+Pull request [#272](https://github.com/therealjameswilson/before-oss/pull/272)
+merged as `ba2bad45fa7fd02244300b94da2533057c0d6b67`. PR Test run
+35452153622, main Test run 35452448556 and Pages run 35452448546 succeeded.
+The unauthenticated live verifier matched all 67 manifest assets (95,904,747
+bytes), seven core routes and all ten Batch 574 direct profiles at the manifest
+hash above. The updated site is [public at GitHub Pages](https://therealjameswilson.github.io/before-oss/).
 
 ## Resume
 

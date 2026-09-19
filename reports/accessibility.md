@@ -9,9 +9,10 @@ checks across desktop, phone and tablet. The bounded core routes and oil-
 company category passed 27/27; analysis passed 6/6. The axe accessibility
 suite passed 27/27 in 1.9 minutes with no serious violations. Astro checked
 200 source files with zero errors, warnings or hints and built 24,621 pages.
-Direct Wallace Deuel person and Chicago Daily News organization URLs and the
-unresolved Frank Desuta route passed at all three widths. Live deployment
-verification remains separate.
+Direct Wallace Deuel person, COI and Chicago Daily News organization URLs, and
+the unresolved Frank Desuta route passed at all three widths. PR and main Test
+workflows and Pages deployment succeeded; the live verifier matched every
+manifest asset and ten affected direct profiles at merge commit `ba2bad4`.
 
 Batch 571: the focused cohort suite passed all 24 checks across desktop, phone
 and tablet. It verifies ten immutable page 115 rows; five masked private
