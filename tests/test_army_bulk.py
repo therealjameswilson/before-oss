@@ -23,6 +23,28 @@ def _record(identifier: str, name: str, occupation: str = "098") -> bytes:
 
 
 class ArmyBulkTests(unittest.TestCase):
+    def test_conflict_triage_distinguishes_spacing_from_substantive_differences(self) -> None:
+        self.assertEqual(
+            army_bulk.conflict_triage("DeVico Ronnie A", "DE VICO RONNIE A", "name_conflict"),
+            "spacing_or_punctuation_only",
+        )
+        self.assertEqual(
+            army_bulk.conflict_triage("De-Weese Robert C Jr", "DE WEESE ROBERT C JR", "name_conflict"),
+            "spacing_or_punctuation_only",
+        )
+        self.assertEqual(
+            army_bulk.conflict_triage("Deveraux Joseph M Jr", "DEVEREAUX JOSEPH M JR", "name_conflict"),
+            "substantive_name_difference",
+        )
+        self.assertEqual(
+            army_bulk.conflict_triage("Devivi Peter P", "DELAMARTER GEORGE W", "name_conflict"),
+            "substantive_name_difference",
+        )
+        self.assertEqual(
+            army_bulk.conflict_triage("DeVico Ronnie A", "DE VICO RONNIE A", "name_agrees"),
+            "not_a_name_conflict",
+        )
+
     def test_bounded_checkpoint_keeps_name_conflicts_private_and_status_unchanged(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)

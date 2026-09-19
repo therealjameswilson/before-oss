@@ -2,6 +2,17 @@
 
 Latest run: 2026-09-19 UTC
 
+## Batch 576 local release candidate
+
+All internal targets resolve across 24,621 generated HTML pages. The 50,087
+unique external URLs are inventoried, not comprehensively visited. The
+public-identifier audit examined 24,693 production artifacts against 12,926
+private normalized identifiers and 120 formatted variants; it found zero
+unexpected boundary, aggregate, or manifest-size matches. The local public
+manifest lists 67 assets / 95,995,847 bytes at SHA-256
+`00806441dd8b863f958c9c2e699338cac526ac6ea6890f44ef1d18f2628f4a69`.
+This is local verification only; no Batch 576 live deployment is claimed.
+
 ## Batch 574 local release candidate
 
 All internal targets resolve across 24,621 generated HTML pages. The

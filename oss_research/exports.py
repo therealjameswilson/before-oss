@@ -8,7 +8,7 @@ from pathlib import Path
 from .constants import DERIVED_DIR, REPORTS_DIR
 from .db import utc_now
 from .analytics import VERIFIED_SQL
-from .sources.army_bulk import ARMY_BULK_URL
+from .sources.army_bulk import ARMY_BULK_URL, conflict_triage
 
 
 def _write_csv(path: Path, fieldnames: list[str], rows: list[dict[str, object]]) -> None:
@@ -223,11 +223,24 @@ def export_derived(connection: sqlite3.Connection) -> dict[str, int]:
             (ARMY_BULK_URL,),
         )
     ]
+    for candidate in army_bulk_review:
+        candidate["conflict_triage"] = conflict_triage(
+            str(candidate["indexed_name"] or ""),
+            str(candidate["army_name"] or ""),
+            str(candidate["name_alignment"] or ""),
+        )
+    army_bulk_review.sort(
+        key=lambda candidate: {
+            "substantive_name_difference": 0,
+            "spacing_or_punctuation_only": 1,
+            "not_a_name_conflict": 2,
+        }[candidate["conflict_triage"]]
+    )
     _write_csv(
         Path("research/army_bulk_review_queue.csv"),
         [
             "candidate_match_id", "person_id", "display_name", "match_assessment",
-            "name_alignment", "shared_index_identifier", "bulk_record_ordinal",
+            "name_alignment", "conflict_triage", "shared_index_identifier", "bulk_record_ordinal",
             "indexed_name", "army_name", "source_record_id", "pdf_page",
             "archive_box", "archive_location",
         ],
@@ -257,6 +270,14 @@ def export_derived(connection: sqlite3.Connection) -> dict[str, int]:
         "nara_pull_list_rows": len(pull_list),
         "review_queue_rows": len(review_queue),
         "army_bulk_review_queue_rows": len(army_bulk_review),
+        "army_bulk_spacing_only_conflicts": sum(
+            row["conflict_triage"] == "spacing_or_punctuation_only"
+            for row in army_bulk_review
+        ),
+        "army_bulk_substantive_name_differences": sum(
+            row["conflict_triage"] == "substantive_name_difference"
+            for row in army_bulk_review
+        ),
         "research_attempts": len(attempts),
     }
 

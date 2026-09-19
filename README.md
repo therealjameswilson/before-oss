@@ -142,7 +142,10 @@ Name conflicts and shared index identifiers are explicitly flagged for review.
 Army-entry occupation codes are not named employers.
 `python3 -m oss_research export-derived` writes a separate restricted
 `research/army_bulk_review_queue.csv`, prioritized by name conflict and
-shared-identifier risk. That CSV is ignored by Git and is not a public download.
+shared-identifier risk. Its private `conflict_triage` column separates names
+that differ only in spacing or punctuation from substantive differences; both
+remain unreviewed identity leads, never verified matches. That CSV is ignored
+by Git and is not a public download.
 
 `--person-id PERSON_ID` rebuilds or researches one person. All stages are
 idempotent. API request fingerprints prevent a completed request from being
