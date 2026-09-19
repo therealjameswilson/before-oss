@@ -2,45 +2,15 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import organizations from "../../data/generated/organizations.json";
 import stats from "../../data/generated/stats.json";
+import { oilCompanyEmployees } from "../../lib/oilCompanies";
+import type { Organization } from "../../types";
 const base = import.meta.env.BASE_URL;
 const categories = Object.keys(stats.personnel_category_counts).sort();
 const researchStatuses = Object.keys(stats.research_status_counts).sort();
 const identityStatuses = Object.keys(stats.identity_status_counts).sort();
-const oilCompanyOrganizationTypes = new Set([
-  "oil and gas company",
-  "oil and refining company",
-  "oil exploration company",
-  "petroleum company",
-  "petroleum research and development company",
-]);
-const oilCompanyOrganizations = organizations.filter((organization) =>
-  oilCompanyOrganizationTypes.has(organization.organization_type ?? ""),
-);
-const oilCompanyPersonIds = Array.from(
-  new Set(
-    oilCompanyOrganizations.flatMap((organization) =>
-      organization.linked_people
-        .filter((person) =>
-          person.affiliations.some(
-            (affiliation) =>
-              affiliation.organization_id === organization.organization_id &&
-              affiliation.relationship_type === "employment",
-          ),
-        )
-        .map((person) => person.person_id),
-    ),
-  ),
-).sort();
-const oilCompanyEmploymentOrganizationCount = oilCompanyOrganizations.filter(
-  (organization) =>
-    organization.linked_people.some((person) =>
-      person.affiliations.some(
-        (affiliation) =>
-          affiliation.organization_id === organization.organization_id &&
-          affiliation.relationship_type === "employment",
-      ),
-    ),
-).length;
+const oilCompanyCategory = oilCompanyEmployees(organizations as Organization[]);
+const oilCompanyPersonIds = oilCompanyCategory.employees.map((person) => person.personId);
+const oilCompanyEmploymentOrganizationCount = oilCompanyCategory.organizationCount;
 ---
 
 <BaseLayout

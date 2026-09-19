@@ -1,8 +1,45 @@
 # Research status
 
-Verified against the current local SQLite database on 2026-09-16 UTC.
+Verified against the current local SQLite database on 2026-09-19 UTC.
 
-Batch 572 is the current local release candidate. It adds terminal outcomes
+Batch 573 is the current local release candidate. It covers personnel-index
+PDF page 115 rows 23-32, Christian DeSorbier through Raymond Deston, crossing
+from Box 182 to Box 183. Nine people gained terminal research outcomes; Emile
+Despres retains the prior verified Federal Reserve Board claim. Strict official
+Army matches support occupation-only findings for Emile F Desormier, Gabriel H
+Desplaines and Jean P Desroberts. French military archives support
+high-confidence identities for Christian DeSorbier and lieutenant-colonel René
+Despax but do not establish their immediate pre-OSS assignments. A
+contemporaneous OSS memorandum documents Lieutenant Raymond Deston, USNR; his
+1941 insurance occupation remains a medium-confidence, qualified directory
+lead without a named employer. Frank J Desota and the next indexed Frank J
+Desuta are flagged as possible duplicates but remain distinct people and
+source rows. Michel E Despax remains ambiguous; Frank J Desota and Dorothy G
+Dessin remain unresolved. No new named pre-OSS employer was verified.
+
+The website update adds a near-top home-page oil-company list alongside the
+existing top-navigation category and directory filter. The list contains the
+seven people with cited, published or visibly qualified pre-OSS employment
+claims at nine oil companies; a professional affiliation alone is excluded.
+Medium-confidence claims are labeled, and the list does not imply that each
+oil-company job immediately preceded OSS. See `reports/release_batch_573.md`.
+
+The local database now reports 23,978 / 23,978 linked source rows, 23,940
+active people, 5,495 research-attempted people (22.9532%), 596 with verified
+affiliations (2.4896%), 260 with verified employers (1.0860%), and 5,450
+with archival disposition assessed (22.7652%). The remaining active
+`not_started` count is 18,445. There are 256 possible-duplicate groups;
+4,856 citation records; 2,220 unique source documents; 4,677 stored claims;
+and 9,948 durable attempts. Public output contains 2,160 affiliations,
+3,665 sources and 4,491 claims. Claim confidence is 1,307 confirmed, 1,707
+high, 1,351 medium, 183 low and 129 conflicting. See
+`research/batch-573-discovery-checkpoint.md`. Ingest validation, 95 Python
+tests, the 200-profile structural audit, the 24,620-page static build, bounded
+browser tests, internal-link checks and full-identifier redaction audit pass
+locally. Batch 573 has not yet been verified on the live GitHub Pages site;
+Batch 572 remains the current exact-verified public release.
+
+Batch 572 was the previous local release candidate. It adds terminal outcomes
 for personnel-index PDF page 115 rows 13-22, Jean M DeSieyes through Robert
 Desmond, all in Box 182 at `230/86/29/07`. The complete page and the relevant
 official Army occupation-code pages were rendered at 180 dpi and visually

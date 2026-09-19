@@ -118,6 +118,22 @@ test("featured oil-company category lists employment relationships only", async 
   );
 });
 
+test("home oil-company category names only cited employees and their companies", async ({ page }) => {
+  await page.goto("./");
+  const category = page.locator("#oil-companies");
+  await expect(category.getByRole("heading", { name: "People who worked for oil companies" })).toBeVisible();
+  await expect(category.locator(".oil-directory__person")).toHaveCount(oilCompanyPeople.size);
+  for (const name of oilCompanyPeople.values()) {
+    await expect(category.getByRole("link", { name, exact: true })).toBeVisible();
+  }
+  await expect(category.getByRole("link", { name: "The Pure Oil Company" })).toHaveCount(0);
+  await expect(category.getByText("Qualified medium-confidence claim").first()).toBeVisible();
+  await category.getByRole("link", { name: "Open this category" }).click();
+  await expect(page.locator("#result-summary")).toContainText(
+    `${oilCompanyPeople.size} results`,
+  );
+});
+
 test("top oil-company category link opens only the documented employee set", async ({ page }) => {
   await page.goto("./");
   await page
