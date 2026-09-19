@@ -2,6 +2,12 @@
 
 Latest run: 2026-09-19 UTC
 
+Batch 579 local release candidate: the bounded suite passed 69/69 checks
+across desktop, phone, and tablet. It includes nine new cohort checks, 27
+core-route checks (including the oil-company category), six analysis checks,
+and 27 axe checks with no serious violations. Public deployment verification
+is pending.
+
 Batch 578 exact-verified release: the bounded suite passed 69/69 checks
 across desktop, phone, and tablet, including 27 axe checks. It includes
 the top oil-company category and all ten new direct profiles. See

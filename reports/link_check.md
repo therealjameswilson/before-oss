@@ -2,6 +2,19 @@
 
 Latest run: 2026-09-19 UTC
 
+## Batch 579 local release candidate
+
+The local checker resolved all internal links across 24,622 generated HTML
+pages and inventoried 50,094 unique external URLs. That inventory is not a
+claim that every external target was visited. The public-identifier audit
+examined 24,694 production artifacts against 12,926 private normalized
+identifiers and 120 formatted variants; it found zero unexpected matches.
+The local manifest verified 67 assets / 96,107,476 bytes at SHA-256
+`082a37ff32e825cc6acd7a3526f94d70cdc4aff1597f3927e84c1dc487814062`.
+Two Pages-configured production builds reproduced the same 24,694-artifact
+tree digest: `7fadf768d26459f00c581f1ef7e4934cfea21ea6f93b1aadcf81f5749e1d669c`.
+Live deployment verification is pending.
+
 ## Batch 578 exact-verified release
 
 The local checker resolved all internal links across 24,622 generated HTML

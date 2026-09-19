@@ -1,12 +1,29 @@
 # Research status
 
-The published projection below is the exact-verified Batch 578 release as of
-2026-09-19 UTC. A subsequent private Batch 579 checkpoint has ten additional
-people with saved CIA and Library of Congress discovery attempts, bringing
-local research-attempt coverage to 5,554 / 23,940 (23.1997%), with 18,386
-`not_started` and 54 `in_progress`. No Batch 579 person has a terminal review
-outcome yet, and the public data has not been rebuilt from this checkpoint.
-See `research/batch-579-initial-adapter-checkpoint.md`.
+The local Batch 579 release candidate covers PDF page 116, rows 37–46: ten
+more Box 184 people now have terminal `requires_archival_review` dispositions
+and direct public profiles. Three official Army bulk-file crosswalks support
+high-confidence **identity-only** claims. The Albert P Dewey / A. Peter Dewey
+lead remains qualified because a secondary award-order transcription has a
+one-digit service-identifier conflict with the printed index. Neither that
+candidate's Chicago Daily News employment nor any other new employer was
+assigned. See `research/batch-579-discovery-checkpoint.md`.
+
+The local database now has 23,978 / 23,978 linked source rows (100%) and
+23,940 active person entities. Research-attempt coverage is 5,554 / 23,940
+(23.1997%); verified-affiliation coverage is 599 / 23,940 (2.5021%);
+verified-employer coverage is 261 / 23,940 (1.0902%); archival-review
+disposition is 5,509 / 23,940 (23.0117%). There are 18,386 `not_started`
+people, 44 `in_progress` people, and 256 possible-duplicate groups. Private
+SQLite contains 10,125 attempts, 4,729 claims (1,307 confirmed, 1,753 high,
+1,357 medium, 183 low, 129 conflicting), 4,881 citation records and 2,232
+unique source documents. The reviewed public projection contains 2,165
+affiliations, 674 organizations, 3,690 sources and 4,542 claims. The 98
+Python tests, extraction checks, 200-profile audit, 69 bounded browser
+checks (including 27 axe checks), internal links and full-identifier
+redaction audit pass. The production build has 24,622 direct HTML pages.
+Deployment of this candidate is pending; Batch 578 remains the last
+exact-verified public release.
 
 Batch 578 is the current exact-verified public release. It covers PDF page
 116 rows 27-36, ten people in Box 184. All ten have terminal
