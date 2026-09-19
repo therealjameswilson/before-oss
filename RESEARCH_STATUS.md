@@ -2,7 +2,7 @@
 
 Verified against the current local SQLite database on 2026-09-19 UTC.
 
-Batch 573 is the current local release candidate. It covers personnel-index
+Batch 573 is the current exact-verified public release. It covers personnel-index
 PDF page 115 rows 23-32, Christian DeSorbier through Raymond Deston, crossing
 from Box 182 to Box 183. Nine people gained terminal research outcomes; Emile
 Despres retains the prior verified Federal Reserve Board claim. Strict official
@@ -34,10 +34,17 @@ and 9,948 durable attempts. Public output contains 2,160 affiliations,
 3,665 sources and 4,491 claims. Claim confidence is 1,307 confirmed, 1,707
 high, 1,351 medium, 183 low and 129 conflicting. See
 `research/batch-573-discovery-checkpoint.md`. Ingest validation, 95 Python
-tests, the 200-profile structural audit, the 24,620-page static build, bounded
-browser tests, internal-link checks and full-identifier redaction audit pass
-locally. Batch 573 has not yet been verified on the live GitHub Pages site;
-Batch 572 remains the current exact-verified public release.
+tests, the 200-profile structural audit, the 24,620-page static build, 81/81
+bounded browser checks, internal-link checks and full-identifier redaction
+audit pass. Pull request #271 merged as `89661f740f28f6994904fef4f458596ffed1bd50`;
+PR Test run 35444861118, main Test run 35445281241 and Pages run
+35445281226 succeeded. The unauthenticated live verifier matched all 67
+manifest assets (95,827,544 bytes), seven core routes and ten affected
+profiles at manifest SHA-256
+`57a5722d915b1c308c0c330ff9a593778cad234f218a22272a1b04b3bfaf38a6`.
+The live home page contains seven oil-company person cards and visibly
+qualified employer entries. The goal remains active because 18,445 people
+have not yet received a research attempt.
 
 Batch 572 was the previous local release candidate. It adds terminal outcomes
 for personnel-index PDF page 115 rows 13-22, Jean M DeSieyes through Robert
@@ -93,9 +100,8 @@ unauthenticated live verifier matched all 67 manifest assets, 95,728,474
 bytes, seven core routes and all ten Batch 572 profiles. A separate
 live-browser check confirmed the Peer de Silva chronology, the qualified
 Cletus Desmaretz and Daniel Desmond evidence, George Deskin's explicitly
-uninterpreted code, and the unchanged seven-person oil-company category.
-Batch 572 is the current exact-verified public release. The goal remains
-active.
+uninterpreted code, and the then-current seven-person oil-company category.
+Batch 572 was superseded by the exact-verified Batch 573 release.
 
 Batch 569 is the current local release candidate. It adds terminal outcomes for
 personnel-index PDF page 114 rows 29-38, Bernard F Deren through King Derr,

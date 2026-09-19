@@ -62,8 +62,15 @@ research for the entire index.
   `a9bb7b273d82e0f7db462f3517157cc970812cc284e198ffc997af0809c90e47`.
   The 24,692-file static build totals 290,603,447 bytes at SHA-256
   `51c3b4d459e878363f20eb8f44b16640fa340e8b0eb3eaecc6a040f6e86a3cb7`.
-- Remote GitHub Pages publication and exact live-manifest verification remain
-  pending until the release branch is pushed and merged.
+- Pull request #271 merged as `89661f740f28f6994904fef4f458596ffed1bd50`.
+  PR Test run 35444861118, main Test run 35445281241 and Pages run
+  35445281226 succeeded. Unauthenticated live verification matched all 67
+  public-manifest assets (95,827,544 bytes) at SHA-256
+  `57a5722d915b1c308c0c330ff9a593778cad234f218a22272a1b04b3bfaf38a6`,
+  seven core routes and all ten Batch 573 direct profiles. The live home page
+  contains exactly seven oil-company person cards, five visibly qualified
+  employer entries and no The Pure Oil Company nonemployee card. The site is
+  [public at GitHub Pages](https://therealjameswilson.github.io/before-oss/).
 
 ## Resume
 
