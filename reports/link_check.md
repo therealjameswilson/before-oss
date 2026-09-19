@@ -2,7 +2,7 @@
 
 Latest run: 2026-09-19 UTC
 
-## Batch 576 local release candidate
+## Batch 576 exact-verified release
 
 All internal targets resolve across 24,621 generated HTML pages. The 50,087
 unique external URLs are inventoried, not comprehensively visited. The
@@ -11,7 +11,10 @@ private normalized identifiers and 120 formatted variants; it found zero
 unexpected boundary, aggregate, or manifest-size matches. The local public
 manifest lists 67 assets / 95,995,847 bytes at SHA-256
 `00806441dd8b863f958c9c2e699338cac526ac6ea6890f44ef1d18f2628f4a69`.
-This is local verification only; no Batch 576 live deployment is claimed.
+The unauthenticated live verifier subsequently matched all 67 assets, seven
+core routes and ten Batch 576 direct profiles to merge commit `35c75c1`.
+PR Test, main Test and Pages runs all succeeded; see
+`reports/release_batch_576.md`.
 
 ## Batch 574 local release candidate
 
