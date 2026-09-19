@@ -1,0 +1,225 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 579 source review",
+  "sources": [
+    {
+      "key": "index-b579",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 184",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 116, printed rows 37-46; original page image checked; Box 184, location 230/86/30/01",
+      "access_date": "2026-09-19",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Indexed spellings and ranks are preserved. Full service identifiers remain in private SQLite and are not copied into this bundle."
+    },
+    {
+      "key": "army-b579",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT, protected identifier and name comparison; record ordinals 6230024, 558804, and 6294476 are retained in the private candidate records",
+      "access_date": "2026-09-19",
+      "source_quality": "A_direct_official",
+      "rights_notes": "This is an official bulk-data source, not a Catalog API response. Occupation codes are not named employers. Full identifiers are excluded."
+    },
+    {
+      "key": "nps-dewey-b579",
+      "stable_url": "https://www.nps.gov/articles/oss-in-action-the-pacific-and-the-far-east.htm",
+      "title": "OSS in Action: The Pacific and the Far East",
+      "author_creator": "John W. Chambers II",
+      "repository_publisher": "National Park Service",
+      "locator": "Cochinchina Is Burning section, Major A. Peter Dewey biography; associated research study cites RG 226, Entry 92A, Box 29, Folder 421",
+      "access_date": "2026-09-19",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "The biography is a candidate identity lead only; its prewar employer is not assigned to the indexed Box 184 person."
+    },
+    {
+      "key": "orders-dewey-b579",
+      "stable_url": "https://valor.militarytimes.com/recipient/recipient-103388/",
+      "archival_identifier": "War Department General Orders No. 23 (1947), Bronze Star citation transcription",
+      "title": "Albert Peter Dewey, Bronze Star citation",
+      "author_creator": "War Department; transcription presented by Military Times Hall of Valor",
+      "repository_publisher": "Military Times Hall of Valor",
+      "publication_record_date": "1947; web transcription date unknown",
+      "locator": "Bronze Star citation, service identifier; compared privately with original index row 38",
+      "access_date": "2026-09-19",
+      "source_quality": "D_correlative_or_secondary",
+      "rights_notes": "The secondary transcription differs by one digit from the printed index identifier. Neither full number is included in public data."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [],
+  "claims": [
+    {
+      "key": "b579-robert-c-deweese-army-identity",
+      "person_id": "fcad5639-3834-56c7-b2e2-c9c25cf41472",
+      "claim_type": "identity",
+      "claim_text": "The indexed Robert C DeWeese Jr. has a high-confidence match to an official Army enlistment record.",
+      "evidence_paraphrase": "The protected service identifier agrees and the full name including Jr. matches after joining the Army record's spaced surname. The record does not name an employer.",
+      "identity_match_assessment": "High confidence: nonshared protected identifier, given name, middle initial and suffix agree; surname spacing is the only difference. Box 184 file not reviewed.",
+      "temporal_assessment": "The wartime Army entry establishes identity context but not the immediate pre-OSS affiliation or last civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Separate from adjacent Robert K Deweese. Do not convert Army civilian-occupation code 993 to a named employer.",
+      "sources": [{"source_key": "index-b579"}, {"source_key": "army-b579", "locator_override": "Bulk record ordinal 6230024; protected identifier and name comparison"}]
+    },
+    {
+      "key": "b579-howard-p-dewitt-army-identity",
+      "person_id": "65a6d7b0-f56d-5ef6-b4d6-204be19d7df8",
+      "claim_type": "identity",
+      "claim_text": "The indexed Howard P Dewitt has a high-confidence match to an official Army enlistment record.",
+      "evidence_paraphrase": "The protected service identifier and full given name and middle initial agree; the Army surname DE WITT differs only in spacing. No employer is named.",
+      "identity_match_assessment": "High confidence: nonshared protected identifier and full name agree apart from surname spacing. Box 184 file not reviewed.",
+      "temporal_assessment": "The wartime Army entry does not establish the Army-to-OSS transfer date or a civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Do not infer a named employer from civilian-occupation code 308 or from an unrelated Howard DeWitt namesake.",
+      "sources": [{"source_key": "index-b579"}, {"source_key": "army-b579", "locator_override": "Bulk record ordinal 558804; protected identifier and name comparison"}]
+    },
+    {
+      "key": "b579-jack-w-dexter-army-identity",
+      "person_id": "6a3b92fa-8715-5e30-894b-5ffe0e2bf4ab",
+      "claim_type": "identity",
+      "claim_text": "The indexed Jack W Dexter has a high-confidence match to an official Army enlistment record.",
+      "evidence_paraphrase": "The protected service identifier and indexed full name agree exactly with the Army entry. The entry supplies no named employer.",
+      "identity_match_assessment": "High confidence: nonshared protected identifier and exact full-name agreement. Box 184 file not reviewed.",
+      "temporal_assessment": "The Army entry does not establish the immediate pre-OSS assignment or final civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Occupation code 476 is not a named employer or evidence that the occupation continued to OSS entry.",
+      "sources": [{"source_key": "index-b579"}, {"source_key": "army-b579", "locator_override": "Bulk record ordinal 6294476; protected identifier and name comparison"}]
+    },
+    {
+      "key": "b579-albert-p-dewey-identity-warning",
+      "person_id": "9edcd9c2-ea84-5788-a550-9c4c6467d1ff",
+      "claim_type": "identity",
+      "claim_text": "The indexed Major Albert P Dewey resembles OSS officer A. Peter Dewey, but a service-identifier discrepancy prevents a confirmed match.",
+      "evidence_paraphrase": "The NPS account agrees on the expanded name, major rank and OSS setting. A secondary transcription of a War Department award citation differs from the printed index by one identifier digit.",
+      "identity_match_assessment": "Ambiguous pending comparison of the original Box 184 personnel file, War Department order, and separately cited RG 226 Entry 92A file.",
+      "temporal_assessment": "The NPS candidate's Chicago Daily News chronology cannot be assigned to the indexed person while identity remains unresolved.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Full service identifiers are withheld. The discrepancy could reflect a transcription or index error, but neither explanation is presumed.",
+      "sources": [{"source_key": "index-b579", "support_type": "context_only"}, {"source_key": "nps-dewey-b579"}, {"source_key": "orders-dewey-b579", "support_type": "contradicts"}]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "fcad5639-3834-56c7-b2e2-c9c25cf41472",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Official Army bulk record ordinal 6230024 and the NARA index agree on a nonshared protected identifier, Robert C and Jr.; DE WEESE versus DeWeese is spacing only. The adjacent Robert K remains separate.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Robert C DeWeese Jr.'s Box 184 file for Army-to-OSS sequence and named last civilian employer; do not merge with Robert K Deweese.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9edcd9c2-ea84-5788-a550-9c4c6467d1ff",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Major Albert P Dewey's printed Box 184 row and the NPS account of Major A. Peter Dewey are suggestive, but the transcribed War Department order has a one-digit different protected service identifier. The two OSS files have not been compared.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Compare Box 184, RG 226 Entry 92A Box 29 Folder 421, and original War Department General Orders No. 23 before assigning the NPS biography or Chicago Daily News employer.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "1b4dc2c0-9ca7-52d9-ae32-874f7ecd9359",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index names Dorothy Dewey without a rank or identifier. An entertainer, a British later-born namesake and a modern university figure found in discovery searches have no OSS or Box 184 bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Dorothy Dewey's Box 184 file for full identity, personnel grade and pre-OSS occupation or employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "310d4d18-a480-5e79-8632-063a95670514",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed Eugene E Dewey has a protected identifier, but CIA, LoC, exact-name OSS, occupational and institutional searches reviewed here yielded no independently linked person or employer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Eugene E Dewey's Box 184 file and compare its identifier against military or institutional records.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b84dcb1c-b480-596c-ac9f-afcd6a88a6a8",
+      "identity_status": "ambiguous",
+      "identity_evidence": "A same-name Charles Dewey Jr. is mentioned as an OSS China veteran in derivative sources and a Newberry finding-aid search lead, but no accessible source checked links the index's otherwise unidentified Box 184 row to that man.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Charles Dewey Jr.'s Box 184 file; seek the original Newberry Goodman family papers finding aid and a dated pre-OSS work record before assigning any biography.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "f5400d27-0cf0-5ab3-b920-51341fb13812",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed Major John N Dewey Jr. has a protected identifier, but exact OSS, employer, institutional and obituary checks produced no independent match with that rank and identifier.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review John N Dewey Jr.'s Box 184 file for rank-linked identity and dated pre-OSS employer or military unit.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d4248544-6fbb-5a3d-8b0c-ee6f73e38c91",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index gives only P C Dewiart, without rank or identifier. Exact and spelling-variant searches did not identify a person linked to OSS Box 184; similarly spelled unrelated names are not merged.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review P C Dewiart's Box 184 file for expanded name, spelling and previous occupation or institution.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "65a6d7b0-f56d-5ef6-b4d6-204be19d7df8",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Official Army bulk record ordinal 558804 and the NARA index share a nonshared protected identifier and Howard P Dewitt/DE WITT differs only in surname spacing.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Howard P Dewitt's Box 184 file for Army-to-OSS sequence and named last civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "88e5d5a0-f197-54ee-b79e-8ee163e94af3",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index names Joe A Dewsbury without rank or identifier. A later Detroit tax-law namesake is not linked to the Box 184 record or dated pre-OSS occupation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Joe A Dewsbury's Box 184 file for identity, grade and pre-OSS work before considering later namesakes.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6a3b92fa-8715-5e30-894b-5ffe0e2bf4ab",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Official Army bulk record ordinal 6294476 and the NARA index share a nonshared protected identifier and exact Jack W Dexter name.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Jack W Dexter's Box 184 file for Army-to-OSS sequence and named last civilian employer.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {"key":"b579-robert-review","person_id":"fcad5639-3834-56c7-b2e2-c9c25cf41472","source_adapter":"manual_evidence_review","query_text":"NARA index and Army bulk crosswalk; CIA and LoC exact/employment checks; Robert C DeWeese Jr and De Weese OSS, employer 1940, institutional, obituary and archival searches.","query_variant_type":"bounded_cross_source_terminal_review","started_at":"2026-09-19T23:10:00Z","completed_at":"2026-09-19T23:33:00Z","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":1,"rejection_reasons":"Adjacent indexed Robert K Deweese is a different row and must not be merged by surname; no searched employer lead has an identity and temporal bridge.","research_notes":"Army identity crosswalk accepted. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 184.","attempt_number":3,"research_agent_version":"before-oss/batch-579-v1"},
+    {"key":"b579-albert-review","person_id":"9edcd9c2-ea84-5788-a550-9c4c6467d1ff","source_adapter":"manual_evidence_review","query_text":"NARA index; CIA and LoC checks; Albert P/A Peter Dewey OSS, Chicago Daily News, military award, institution, newspaper and archival searches.","query_variant_type":"bounded_cross_source_terminal_review","started_at":"2026-09-19T23:10:00Z","completed_at":"2026-09-19T23:33:00Z","outcome":"source_reviewed","sources_reviewed":3,"candidate_sources_rejected":1,"rejection_reasons":"NPS employer biography is withheld for the indexed person because the War Department award transcription differs by one protected identifier digit from the printed index.","research_notes":"Possible high-value identity conflict; no employer assigned pending original-file comparison.","next_action":"Compare Box 184, Entry 92A Box 29 Folder 421 and original General Orders No. 23.","attempt_number":3,"research_agent_version":"before-oss/batch-579-v1"},
+    {"key":"b579-dorothy-review","person_id":"1b4dc2c0-9ca7-52d9-ae32-874f7ecd9359","source_adapter":"manual_evidence_review","query_text":"NARA index; CIA and LoC checks; Dorothy Dewey OSS, occupation 1940, institutional, entertainment, obituary and archival searches.","query_variant_type":"bounded_cross_source_terminal_review","started_at":"2026-09-19T23:10:00Z","completed_at":"2026-09-19T23:33:00Z","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":3,"rejection_reasons":"Modern university figure, later-born British namesake and 1936 entertainer have no OSS Box 184 identity bridge.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 184.","attempt_number":3,"research_agent_version":"before-oss/batch-579-v1"},
+    {"key":"b579-eugene-review","person_id":"310d4d18-a480-5e79-8632-063a95670514","source_adapter":"manual_evidence_review","query_text":"NARA index; CIA and LoC checks; Eugene E Dewey OSS, military identifier, employer 1940, institutional, obituary and archival searches.","query_variant_type":"bounded_cross_source_terminal_review","started_at":"2026-09-19T23:10:00Z","completed_at":"2026-09-19T23:33:00Z","outcome":"no_result","sources_reviewed":1,"candidate_sources_rejected":0,"research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 184.","attempt_number":3,"research_agent_version":"before-oss/batch-579-v1"},
+    {"key":"b579-charles-review","person_id":"b84dcb1c-b480-596c-ac9f-afcd6a88a6a8","source_adapter":"manual_evidence_review","query_text":"NARA index; CIA and LoC checks; Charles Dewey Jr OSS China, occupation 1940, Newberry Goodman family papers, obituary and archival searches.","query_variant_type":"bounded_cross_source_terminal_review","started_at":"2026-09-19T23:10:00Z","completed_at":"2026-09-19T23:33:00Z","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":1,"rejection_reasons":"Derivative biography and inaccessible Newberry search lead do not establish that this unnumbered index row is the OSS China namesake or his employer; Newberry direct page returned HTTP 403.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 184 and seek accessible original Newberry finding aid.","attempt_number":3,"research_agent_version":"before-oss/batch-579-v1"},
+    {"key":"b579-john-review","person_id":"f5400d27-0cf0-5ab3-b920-51341fb13812","source_adapter":"manual_evidence_review","query_text":"NARA index; CIA and LoC checks; Major John N Dewey Jr OSS, occupation 1940, military, institutional, obituary and archival searches.","query_variant_type":"bounded_cross_source_terminal_review","started_at":"2026-09-19T23:10:00Z","completed_at":"2026-09-19T23:33:00Z","outcome":"no_result","sources_reviewed":1,"candidate_sources_rejected":0,"research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 184.","attempt_number":3,"research_agent_version":"before-oss/batch-579-v1"},
+    {"key":"b579-dewiart-review","person_id":"d4248544-6fbb-5a3d-8b0c-ee6f73e38c91","source_adapter":"manual_evidence_review","query_text":"NARA index; CIA and LoC checks; P C Dewiart OSS, Dewiart spelling variants, employer 1940, institutional, obituary and archival searches.","query_variant_type":"bounded_cross_source_terminal_review","started_at":"2026-09-19T23:10:00Z","completed_at":"2026-09-19T23:33:00Z","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":1,"rejection_reasons":"Similarly spelled Carton de Wiart references and other variant-name results lack the indexed initials and OSS Box 184 bridge.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 184 for full name.","attempt_number":3,"research_agent_version":"before-oss/batch-579-v1"},
+    {"key":"b579-howard-review","person_id":"65a6d7b0-f56d-5ef6-b4d6-204be19d7df8","source_adapter":"manual_evidence_review","query_text":"NARA index and Army bulk crosswalk; CIA and LoC checks; Howard P Dewitt/De Witt OSS, employer 1940, institutional, obituary and archival searches.","query_variant_type":"bounded_cross_source_terminal_review","started_at":"2026-09-19T23:10:00Z","completed_at":"2026-09-19T23:33:00Z","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":1,"rejection_reasons":"Cemetery and modern namesake results lack a protected identifier or OSS context and cannot name a predecessor employer.","research_notes":"Army identity crosswalk accepted; occupation code is not an employer. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 184.","attempt_number":3,"research_agent_version":"before-oss/batch-579-v1"},
+    {"key":"b579-joe-review","person_id":"88e5d5a0-f197-54ee-b79e-8ee163e94af3","source_adapter":"manual_evidence_review","query_text":"NARA index; CIA and LoC checks; Joe A Dewsbury OSS, employer 1940, Detroit tax case, institutional, newspaper, obituary and archival searches.","query_variant_type":"bounded_cross_source_terminal_review","started_at":"2026-09-19T23:10:00Z","completed_at":"2026-09-19T23:33:00Z","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":1,"rejection_reasons":"Later Detroit tax-law namesake has no OSS Box 184 or dated pre-OSS identity bridge.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 184.","attempt_number":3,"research_agent_version":"before-oss/batch-579-v1"},
+    {"key":"b579-jack-review","person_id":"6a3b92fa-8715-5e30-894b-5ffe0e2bf4ab","source_adapter":"manual_evidence_review","query_text":"NARA index and Army bulk crosswalk; CIA and LoC checks; Jack W Dexter OSS, employer 1940, institutional, obituary and archival searches.","query_variant_type":"bounded_cross_source_terminal_review","started_at":"2026-09-19T23:10:00Z","completed_at":"2026-09-19T23:33:00Z","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":1,"rejection_reasons":"Modern real-estate and people-finder namesakes have no protected identifier or OSS context; occupation code is not a named employer.","research_notes":"Army identity crosswalk accepted. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 184.","attempt_number":3,"research_agent_version":"before-oss/batch-579-v1"}
+  ]
+}
