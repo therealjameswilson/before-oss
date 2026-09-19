@@ -2,8 +2,8 @@
 
 Verified against the current local SQLite database on 2026-09-19 UTC.
 
-Batch 577 has been reviewed and rebuilt locally, but is not yet a verified
-public release. It covers PDF page 116 rows 17-26 in Boxes 183-184. Ten people
+Batch 577 is the current exact-verified public release. It covers PDF page
+116 rows 17-26 in Boxes 183-184. Ten people
 now have terminal `requires_archival_review` dispositions after saved CIA,
 Library of Congress and manual cross-source checks. Joseph H Devlin, Carl
 Devoe and Charles E DeVogel gained high-confidence Army identity links, not
@@ -24,9 +24,16 @@ claims (1,307 confirmed, 1,745 high, 1,355 medium, 183 low, 129
 conflicting), 4,871 citation records and 2,226 unique source documents.
 The rebuilt public projection has 2,163 affiliations, 673 organizations,
 3,680 sources and 4,532 claims. No employer was added by this batch. The
-overall research goal remains active.
+98 Python tests, ingest and 200-profile audits, 69 bounded browser checks
+(including 27 axe checks), internal links and full-identifier redaction pass.
+The 24,693-file production build reproduced the same tree hash twice.
+[PR #277](https://github.com/therealjameswilson/before-oss/pull/277), the
+merged-main Test and Pages workflows passed; a read-only verifier matched
+all 67 public assets, seven core routes and ten new direct profiles against
+merge commit `0b398a8b2a3e2d04ac03df90a1c63bebf133e313`. See
+`reports/release_batch_577.md`. The overall research goal remains active.
 
-Batch 576 is the current exact-verified public release. It covers PDF page
+Batch 576 was the previous exact-verified public release. It covers PDF page
 116 rows 7-16, ten people in Box 183.
 All ten received terminal `requires_archival_review` outcomes after saved CIA,
 LoC and cross-source checks. Ronnie A DeVico and Gordon D Devins gained

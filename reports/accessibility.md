@@ -2,6 +2,10 @@
 
 Latest run: 2026-09-19 UTC
 
+Batch 577 exact-verified release: the bounded suite passed 69/69 checks
+across desktop, phone and tablet, including 27 axe checks with no serious
+violations. See `reports/release_batch_577.md`.
+
 ## Result
 
 Batch 576 exact-verified release: the focused cohort suite passed 9/9
