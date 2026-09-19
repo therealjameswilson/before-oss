@@ -1,6 +1,12 @@
 # Research status
 
-Verified against the current local SQLite database on 2026-09-19 UTC.
+The published projection below is the exact-verified Batch 578 release as of
+2026-09-19 UTC. A subsequent private Batch 579 checkpoint has ten additional
+people with saved CIA and Library of Congress discovery attempts, bringing
+local research-attempt coverage to 5,554 / 23,940 (23.1997%), with 18,386
+`not_started` and 54 `in_progress`. No Batch 579 person has a terminal review
+outcome yet, and the public data has not been rebuilt from this checkpoint.
+See `research/batch-579-initial-adapter-checkpoint.md`.
 
 Batch 578 is the current exact-verified public release. It covers PDF page
 116 rows 27-36, ten people in Box 184. All ten have terminal
