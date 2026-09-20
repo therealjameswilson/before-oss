@@ -1,6 +1,6 @@
 # Link check
 
-Latest local candidate: 2026-09-20 UTC, Batch 580. All internal links resolve
+Latest exact-verified public release: 2026-09-20 UTC, Batch 580. All internal links resolve
 across 24,646 generated HTML pages, including 25 directly addressable Sources
 register pages. The checker inventoried 50,119 unique external URLs; it did
 not visit every external target. The local public manifest verifies 67 assets
@@ -11,9 +11,12 @@ Two consecutive builds reproduced the 70-file public tree digest
 and 24,718-file production tree digest
 `ee93ab4b0db1dd60f7d32c6606be8edc3651d09158fed2b9b8b0618a724a56f8`.
 The full-identifier audit found zero unexpected boundary matches across those
-24,718 production artifacts. Live Pages verification remains pending.
+24,718 production artifacts. The unauthenticated live verifier matched all
+67 manifest assets, seven core routes, all 25 Sources pages and ten Batch
+580 profiles to merge commit `894fb0430500fef70d4ba5d2c861692d0d93301c`;
+see `reports/release_batch_580.md`.
 
-Latest run: 2026-09-19 UTC
+Previous run: 2026-09-19 UTC
 
 ## Batch 579 exact-verified public release
 

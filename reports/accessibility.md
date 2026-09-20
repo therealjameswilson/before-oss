@@ -1,6 +1,6 @@
 # Accessibility and responsive QA
 
-Batch 580 local candidate, 2026-09-20 UTC: the bounded release suite passed
+Batch 580 exact-verified public release, 2026-09-20 UTC: the bounded release suite passed
 75/75 checks across desktop, phone and tablet: 12 cohort-profile checks, 30
 core-route checks, six analysis checks and 27 axe checks with no serious or
 critical violations. A first run timed out on the former 1.5 MB Sources
@@ -8,9 +8,11 @@ register in the tablet viewport. Splitting its 3,694 citations into 25 static
 pages reduced the first HTML page to about 68 KB; the complete suite then
 passed, and the Sources accessibility case passed again under the normal
 45-second test timeout at all three widths. The earlier timeout is retained
-here as a diagnosed failure, not silently erased. Publication is pending.
+here as a diagnosed failure, not silently erased. PR Test, merged-main Test,
+Pages deployment and read-only live-release verification passed; see
+`reports/release_batch_580.md`.
 
-Latest run: 2026-09-19 UTC
+Previous run: 2026-09-19 UTC
 
 Batch 579 exact-verified public release: the bounded suite passed 69/69 checks
 across desktop, phone, and tablet. It includes nine new cohort checks, 27
