@@ -1,5 +1,31 @@
 # Research status
 
+Batch 581 is locally reviewed and awaits public release. It covers PDF page
+117, rows 11–20, all in Box 185. Ten distinct printed rows and cautious
+people received terminal online research outcomes. Five accepted official Army
+bulk matches support identity only. A contemporary 1942 *Broadcasting* item
+and Lawrence C. Soley's scholarly *Radio Warfare* support J. Walter Thompson
+Co. as the numbered Major George C Dibert's last civilian employer before Army
+service, **not** his proven immediate pre-OSS affiliation. His adjacent
+unnumbered namesake row remains separate in a visible possible-duplicate
+group, with no inherited employer. See
+`research/batch-581-terminal-review.md` and its importable evidence and review
+files. Local QA has passed; publication status is recorded in the release
+report after deployment verification.
+
+Current local SQLite contains 23,978 / 23,978 linked source rows, 23,940
+active person entities, 5,574 / 23,940 with nonplanned research attempts
+(23.2832%), 262 / 23,940 with confirmed/high published employer evidence
+(1.0944%), 600 / 23,940 with confirmed/high published affiliation evidence
+(2.5063%), and 5,529 / 23,940 with assessed archival-review dispositions
+(23.0952%). There are 18,366 active `not_started` people and 258
+possible-duplicate groups. Private SQLite has 10,198 attempts and 4,742
+claims: 1,307 confirmed, 1,763 high, 1,359 medium, 184 low, and 129
+conflicting. It has 4,890 citation records and 2,238 unique source
+documents. The public projection contains 2,166 published affiliations, 675
+organizations, 3,698 sources, and 4,554 claims. The full-index research goal
+remains active.
+
 The exact-verified public Batch 580 release covers PDF page 117, rows 1-10,
 in Box 185.
 All ten now have saved cross-source research attempts, terminal

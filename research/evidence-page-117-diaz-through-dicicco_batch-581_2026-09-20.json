@@ -1,0 +1,361 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 581 source review",
+  "sources": [
+    {
+      "key": "index-b581",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 185",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 117, printed rows 11-20; original page image checked; Box 185, location 230/86/30/01",
+      "access_date": "2026-09-20",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Two adjacent George C Dibert rows remain separate; Joseph Diaz's unusually long printed identifier is not silently corrected. Full identifiers stay in private SQLite."
+    },
+    {
+      "key": "army-b581",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; private name and protected-identifier crosswalk, with record ordinals cited on claims",
+      "access_date": "2026-09-20",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Official bulk data, not a Catalog API response. Occupation codes are not named employers; full identifiers are excluded."
+    },
+    {
+      "key": "broadcasting-dibert-1942",
+      "stable_url": "https://www.worldradiohistory.com/Archive-BC/BC-1942/1942-10-19-BC.pdf",
+      "title": "Agencies: George C. Dibert commissioned in the Army Specialist Corps",
+      "author_creator": "Broadcasting editorial staff",
+      "repository_publisher": "Broadcasting, Broadcast Advertising; scan hosted by World Radio History",
+      "publication_record_date": "1942-10-19",
+      "locator": "Printed page 39, Agencies column; PDF page 35",
+      "access_date": "2026-09-20",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Broadcasting, October 19, 1942",
+      "rights_notes": "Contemporary scanned trade periodical inspected as a page image; only a short excerpt and paraphrase are retained."
+    },
+    {
+      "key": "soley-radio-warfare-dibert-1989",
+      "stable_url": "https://device.report/m/e9158badfd31ef45c1f1ef2e1c1562f9d4b35b7710bdd77b93b5c3583dccb029",
+      "archival_identifier": "ISBN 0-275-93051-3",
+      "title": "Radio Warfare: OSS and CIA Subversive Propaganda",
+      "author_creator": "Lawrence C. Soley",
+      "repository_publisher": "Praeger Publishers; accessible OCR transcription hosted by device.report",
+      "publication_record_date": "1989",
+      "locator": "Printed pages 99 and 161 (J. Walter Thompson and OSS role); page 152, chapter 4 note 36 (Major Dibert and J. Walter Thompson)",
+      "access_date": "2026-09-20",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "The book's accessible OCR text was inspected in context. It cites OSS Entry 148, Box 81, Folder 1180 for a 1944 memo to Major Dibert; the original memo was not inspected. No book text is republished beyond a short excerpt."
+    },
+    {
+      "key": "va-john-di-blasi-candidate-b581",
+      "stable_url": "https://www.vlm.cem.va.gov/JOHNSDIBLASI/7bfba1",
+      "title": "John S Di Blasi: Veterans Legacy Memorial",
+      "author_creator": "U.S. Department of Veterans Affairs",
+      "repository_publisher": "U.S. Department of Veterans Affairs",
+      "publication_record_date": null,
+      "locator": "Service section, World War II U.S. Army TEC4 memorial",
+      "access_date": "2026-09-20",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Reviewed as a same-name military lead only. The memorial has no protected identifier or OSS link, so it is not assigned to the indexed person."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "j-walter-thompson-co-historical",
+      "canonical_name": "J. Walter Thompson Co.",
+      "historical_name": "J. Walter Thompson Co.",
+      "aliases": ["J. Walter Thompson", "JWT"],
+      "organization_type": "advertising agency",
+      "sector": "advertising_and_public_relations",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "Preserves the 1942 agency name and New York office; no modern successor company is substituted."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "b581-george-c-dibert-j-walter-thompson-employment",
+      "person_id": "1105c04b-ece7-557c-b84a-230d6fb00977",
+      "organization_key": "j-walter-thompson-co-historical",
+      "organization_name_as_found": "J. Walter Thompson Co.",
+      "role_title": "spacebuyer; later described as media director",
+      "occupation": "advertising media buyer and director",
+      "relationship_type": "employment",
+      "date_precision": "Employment reported as preceding an Army commission in October 1942; exact start and end dates unknown",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "A contemporary 1942 trade paper gives George C. Dibert's full name, J. Walter Thompson job, and new Army captain commission. Soley's scholarly history independently connects a J. Walter Thompson media director George Dibert to OSS Morale Operations and refers to Major Dibert. This supports the indexed major row's last civilian employer before military service, not an immediate Army-to-OSS predecessor. The adjacent unnumbered index row remains a separate possible duplicate pending Box 185 review."
+    }
+  ],
+  "claims": [
+    {
+      "key": "b581-george-c-dibert-identity",
+      "person_id": "1105c04b-ece7-557c-b84a-230d6fb00977",
+      "claim_type": "identity",
+      "claim_text": "The indexed Major George C Dibert is a high-confidence match to the advertising professional George C. Dibert described in a 1942 trade paper and to the OSS Major Dibert discussed by Lawrence C. Soley.",
+      "evidence_paraphrase": "The 1942 item identifies George C. Dibert as an Army Specialist Corps captain and J. Walter Thompson spacebuyer; Soley links George Dibert, a Thompson media director, to OSS Morale Operations and refers to him as a major.",
+      "identity_match_assessment": "High confidence from uncommon full name, Army officer progression from captain to indexed major, shared advertising employer, and an independently described OSS major. No original personnel file or protected-identifier crosswalk has been reviewed.",
+      "temporal_assessment": "The Army commission is reported in October 1942; Soley dates a subsequent OSS Morale Operations leadership role to August 1944. Exact OSS entry date remains unverified.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This claim concerns the numbered major row only. The adjacent unnumbered George C Dibert remains separate and may be a duplicate; it is not automatically assigned the biography or employer.",
+      "sources": [
+        {"source_key": "index-b581", "support_type": "supports", "locator_override": "PDF page 117, row 14, Major George C Dibert"},
+        {"source_key": "broadcasting-dibert-1942", "support_type": "supports", "locator_override": "Printed page 39, Agencies column"},
+        {"source_key": "soley-radio-warfare-dibert-1989", "support_type": "supports", "locator_override": "Pages 99, 161; chapter 4 note 36"}
+      ]
+    },
+    {
+      "key": "b581-george-c-dibert-last-civilian-employer",
+      "person_id": "1105c04b-ece7-557c-b84a-230d6fb00977",
+      "affiliation_key": "b581-george-c-dibert-j-walter-thompson-employment",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "J. Walter Thompson Co. was the last documented civilian employer of the indexed Major George C Dibert before his wartime Army service.",
+      "evidence_excerpt": "GEORGE C. DIBERT, spacebuyer of J. Walter Thompson Co., New York.",
+      "evidence_paraphrase": "A contemporary trade-paper item reports George C. Dibert's agency job and Army captain commission together; Soley independently identifies the OSS George Dibert as a Thompson media director before joining OSS.",
+      "identity_match_assessment": "High for the indexed major row: uncommon full name, compatible wartime officer ranks, and scholarly OSS/agency corroboration. The adjacent unnumbered row is unresolved.",
+      "temporal_assessment": "The 1942 publication explicitly places Thompson employment at the Army commission; Soley states the Thompson role preceded OSS. The immediate pre-OSS military or institutional assignment is not established.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Count once as last civilian employer before service. Do not present J. Walter Thompson as the immediate pre-OSS affiliation, and do not transfer the claim to the separate unnumbered row without file review.",
+      "sources": [
+        {"source_key": "broadcasting-dibert-1942", "support_type": "supports", "locator_override": "Printed page 39, PDF page 35", "excerpt_override": "GEORGE C. DIBERT, spacebuyer of J. Walter Thompson Co., New York."},
+        {"source_key": "soley-radio-warfare-dibert-1989", "support_type": "supports", "locator_override": "Page 161", "excerpt_override": "George Dibert was a media director at J. Walter Thompson before joining OSS."}
+      ]
+    },
+    {
+      "key": "b581-ismael-diaz-army-identity",
+      "person_id": "475b54bf-2ece-59ab-817c-291ef46d22d2",
+      "claim_type": "identity",
+      "claim_text": "The indexed Ismael E Diaz has a high-confidence identity match to an official Army enlistment record.",
+      "evidence_paraphrase": "The indexed full name and a nonshared protected identifier agree with official Army bulk record ordinal 3109157; no employer is named.",
+      "identity_match_assessment": "High confidence: exact full name and nonshared protected identifier agree; Box 185 is unreviewed.",
+      "temporal_assessment": "The Army entry documents wartime identity, not an immediate pre-OSS affiliation or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Accepted private identity-only candidate; occupation coding is not a named employer.",
+      "sources": [
+        {"source_key": "index-b581"},
+        {"source_key": "army-b581", "locator_override": "Official bulk record ordinal 3109157; full-name and protected-identifier comparison"}
+      ]
+    },
+    {
+      "key": "b581-dominick-diblasi-army-identity",
+      "person_id": "ec72c2c9-5279-5c03-bbc3-468b937e7ebb",
+      "claim_type": "identity",
+      "claim_text": "The indexed Dominick N Diblasi has a high-confidence identity match to an official Army enlistment record.",
+      "evidence_paraphrase": "The Army entry gives DI BLASI DOMINICK N, matching the index apart from surname spacing, with a nonshared protected identifier; no employer is named.",
+      "identity_match_assessment": "High confidence: full given name and initial, spelling-equivalent spaced surname, and nonshared protected identifier agree.",
+      "temporal_assessment": "The Army record does not establish the immediate OSS predecessor or last civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "DI BLASI is treated as a spacing variant for this identity crosswalk, not a correction to the printed index name.",
+      "sources": [
+        {"source_key": "index-b581"},
+        {"source_key": "army-b581", "locator_override": "Official bulk record ordinal 2858310; protected-identifier agreement and surname-spacing review"}
+      ]
+    },
+    {
+      "key": "b581-john-diblasi-army-identity",
+      "person_id": "e813de5e-63a0-5dec-915f-4acb48c91ec9",
+      "claim_type": "identity",
+      "claim_text": "The indexed John S Diblasi has a high-confidence identity match to an official Army enlistment record.",
+      "evidence_paraphrase": "The Army entry gives DI BLASI JOHN S, matching the index apart from surname spacing, with a nonshared protected identifier; no employer is named.",
+      "identity_match_assessment": "High confidence for the Army crosswalk from full name and nonshared protected identifier; the same-name VA memorial is not linked to this index row.",
+      "temporal_assessment": "The Army entry documents service context only, with no named predecessor employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Do not assign the Veterans Legacy Memorial person's birth, later life, or rank to this indexed person without a second unique identifier.",
+      "sources": [
+        {"source_key": "index-b581"},
+        {"source_key": "army-b581", "locator_override": "Official bulk record ordinal 697320; protected-identifier agreement and surname-spacing review"}
+      ]
+    },
+    {
+      "key": "b581-charles-dibner-army-identity",
+      "person_id": "80aee59d-e7b4-5c90-a6fc-e8d3c1da20fc",
+      "claim_type": "identity",
+      "claim_text": "The indexed Charles Dibner has a high-confidence identity match to an official Army enlistment record.",
+      "evidence_paraphrase": "The indexed name and nonshared protected identifier agree with official Army bulk record ordinal 2864102; no employer is named.",
+      "identity_match_assessment": "High confidence: exact full name and protected identifier agree.",
+      "temporal_assessment": "The Army entry does not identify an OSS-entry assignment or previous civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Do not conflate Charles Dibner with the well-documented but differently named Bern Dibner or with modern Charles Dibner profiles.",
+      "sources": [
+        {"source_key": "index-b581"},
+        {"source_key": "army-b581", "locator_override": "Official bulk record ordinal 2864102; full-name and protected-identifier comparison"}
+      ]
+    },
+    {
+      "key": "b581-louis-dicicco-army-identity",
+      "person_id": "54f1e052-dfc1-5f30-a8dd-9a654e46b80a",
+      "claim_type": "identity",
+      "claim_text": "The indexed Louis D DiCicco has a high-confidence identity match to an official Army enlistment record.",
+      "evidence_paraphrase": "The Army entry gives DI CICCO LOUIS D, matching the index apart from surname spacing, with a nonshared protected identifier; no employer is named.",
+      "identity_match_assessment": "High confidence: full name, surname-spacing variant, and nonshared protected identifier agree.",
+      "temporal_assessment": "The Army record provides no named employer or immediate pre-OSS chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The 2007 same-name obituary and grave-index results have not been bridged to this protected identifier and do not establish pre-service work.",
+      "sources": [
+        {"source_key": "index-b581"},
+        {"source_key": "army-b581", "locator_override": "Official bulk record ordinal 2775567; protected-identifier agreement and surname-spacing review"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "475b54bf-2ece-59ab-817c-291ef46d22d2",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Official Army bulk record ordinal 3109157 and the NARA index agree on exact full name and a nonshared protected identifier. The Army record is an identity crosswalk, not employer evidence.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Inspect Ismael E Diaz's Box 185 file for civilian employer and Army-to-OSS sequence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d3b54bf8-250b-52cc-a85c-14888c14f056",
+      "identity_status": "unresolved",
+      "identity_evidence": "Joseph Diaz is a common name. The printed index row has an unusually long nine-digit identifier, verified on the page image; it has not been silently shortened or matched to a namesake. No independent identity bridge was found.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Inspect Joseph Diaz's Box 185 file and verify the printed identifier before outside-record matching.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "904ce055-2020-59ba-acba-88193ca7484f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index identifies Marino Dibari with a protected identifier. Di Bari spacing variants and modern Italian namesakes yielded no source linking an employer to this specific Box 185 person.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Inspect Marino Dibari's Box 185 file for full identity, birthplace or nationality, and a dated employer or assignment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1105c04b-ece7-557c-b84a-230d6fb00977",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed George C Dibert is a major. A contemporary October 1942 item identifies full-name George C. Dibert as a newly commissioned Army captain from J. Walter Thompson; Soley independently describes Thompson's George Dibert as an OSS Morale Operations leader and refers to Major Dibert. The adjacent unnumbered row remains a separate possible duplicate.",
+      "possible_duplicate_group": "b581-george-c-dibert-adjacent-rows",
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "J. Walter Thompson Co. is documented as the last civilian employer before Army service, not necessarily the immediate pre-OSS affiliation. Compare both George C Dibert Box 185 files and inspect OSS Entry 148, Box 81, Folder 1180 for the Army-to-OSS sequence and duplicate relationship.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "04e1481b-c471-5892-9d61-579a7b2d2971",
+      "identity_status": "ambiguous",
+      "identity_evidence": "A second adjacent George C Dibert row in Box 185 has no rank or identifier. It may duplicate the indexed major, but it cannot inherit that row's biography, military rank, or employer without a file comparison.",
+      "possible_duplicate_group": "b581-george-c-dibert-adjacent-rows",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Compare both George C Dibert Box 185 files before merging or applying the J. Walter Thompson evidence to this separate unnumbered row.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ec72c2c9-5279-5c03-bbc3-468b937e7ebb",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Official Army bulk record ordinal 2858310 and the index agree on given name, middle initial and a nonshared protected identifier; DI BLASI versus Diblasi is a spacing variant, not a substantive name conflict.",
+      "name_variants": ["Dominick N Di Blasi"],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Inspect Dominick N Diblasi's Box 185 file for dated civilian employment and OSS-entry route.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e813de5e-63a0-5dec-915f-4acb48c91ec9",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Official Army bulk record ordinal 697320 and the index agree on given name, middle initial and a nonshared protected identifier; DI BLASI versus Diblasi is a spacing variant. A same-name VA memorial has no unique bridge to this index row.",
+      "name_variants": ["John S Di Blasi"],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Inspect John S Diblasi's Box 185 file; compare the VA memorial only after finding a second unique identifier.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "80aee59d-e7b4-5c90-a6fc-e8d3c1da20fc",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Official Army bulk record ordinal 2864102 and the index agree on exact name and a nonshared protected identifier. Bern Dibner and modern Charles Dibner results are not identities for this row.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Inspect Charles Dibner's Box 185 file for the civilian employer before Army service.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "61569c53-9c8c-5c06-96e2-d26affb2ccb5",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index gives Susan W Dichter with no rank, identifier, or explanatory note. Exact OSS, institutional, employment, newspaper and archival searches did not resolve her identity; no modern namesake is assigned.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Inspect Susan W Dichter's Box 185 file for full identity, grade, organization, and work chronology.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "54f1e052-dfc1-5f30-a8dd-9a654e46b80a",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Official Army bulk record ordinal 2775567 and the index agree on given name, middle initial and a nonshared protected identifier; DI CICCO versus DiCicco is a spacing variant. A later same-name obituary has no unique index bridge.",
+      "name_variants": ["Louis D Di Cicco"],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Inspect Louis D DiCicco's Box 185 file for dated civilian work and military-to-OSS transfer.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b581-ismael-terminal-review", "person_id": "475b54bf-2ece-59ab-817c-291ef46d22d2", "source_adapter": "manual_evidence_review", "query_text": "Rendered NARA index page; saved CIA and LoC checks; exact Ismael E Diaz OSS and employment/occupation 1940 searches; Army bulk crosswalk; institutional and obituary discovery checks.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T04:46:00Z", "completed_at": "2026-09-20T04:56:00Z", "outcome": "source_reviewed", "sources_reviewed": 2, "candidate_sources_rejected": 1, "rejection_reasons": "Modern physicians and people-finder namesakes do not agree with the wartime context or protected identifier; an Army occupation code is not an employer.", "research_notes": "Army identity crosswalk accepted. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 185.", "attempt_number": 4, "research_agent_version": "before-oss/batch-581-v1"
+    },
+    {
+      "key": "b581-joseph-terminal-review", "person_id": "d3b54bf8-250b-52cc-a85c-14888c14f056", "source_adapter": "manual_evidence_review", "query_text": "Rendered NARA index page; saved CIA and LoC checks; exact Joseph Diaz OSS, employer/occupation 1940, Army and newspaper/archival discovery searches.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T04:46:00Z", "completed_at": "2026-09-20T04:56:00Z", "outcome": "no_result", "sources_reviewed": 1, "candidate_sources_rejected": 1, "rejection_reasons": "Joseph Diaz namesakes are too numerous and lack a matching OSS Box 185 identifier; the printed nine-digit value must be checked against the file before any correction or Army crosswalk.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 185 and verify the printed identifier.", "attempt_number": 4, "research_agent_version": "before-oss/batch-581-v1"
+    },
+    {
+      "key": "b581-marino-terminal-review", "person_id": "904ce055-2020-59ba-acba-88193ca7484f", "source_adapter": "manual_evidence_review", "query_text": "Rendered NARA index page; saved CIA and LoC checks; Marino Dibari/Di Bari OSS, employment/occupation 1940, newspaper, obituary and archival discovery searches.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T04:46:00Z", "completed_at": "2026-09-20T04:56:00Z", "outcome": "candidate_rejected", "sources_reviewed": 1, "candidate_sources_rejected": 1, "rejection_reasons": "A modern Italian professional profile and surname-family entries do not bridge this wartime index row and supply no pre-OSS employer for it.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 185.", "attempt_number": 4, "research_agent_version": "before-oss/batch-581-v1"
+    },
+    {
+      "key": "b581-george-major-terminal-review", "person_id": "1105c04b-ece7-557c-b84a-230d6fb00977", "source_adapter": "manual_evidence_review", "query_text": "Rendered NARA index page; saved CIA and LoC checks; George C Dibert OSS, Army Specialist Corps, employer, J. Walter Thompson, contemporary Broadcasting and Soley Radio Warfare; archival OSS Entry 148 lead.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T04:46:00Z", "completed_at": "2026-09-20T04:56:00Z", "outcome": "source_reviewed", "sources_reviewed": 3, "candidate_sources_rejected": 1, "rejection_reasons": "A separate 1945 Pennsylvania George C Dibert obituary index is a possible namesake and has no military or OSS link; it is not used.", "research_notes": "Contemporary and scholarly evidence supports J. Walter Thompson as last civilian employer before the reported Army commission. Immediate pre-OSS assignment and adjacent-row duplication remain open.", "next_action": "Compare both Box 185 files and the OSS Entry 148 memo.", "attempt_number": 6, "research_agent_version": "before-oss/batch-581-v1"
+    },
+    {
+      "key": "b581-george-unnumbered-terminal-review", "person_id": "04e1481b-c471-5892-9d61-579a7b2d2971", "source_adapter": "manual_evidence_review", "query_text": "Rendered NARA index page; saved CIA and LoC checks; separate unnumbered George C Dibert row, adjacent major row, exact OSS/employer searches, contemporary Broadcasting and Soley evidence.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T04:46:00Z", "completed_at": "2026-09-20T04:56:00Z", "outcome": "candidate_rejected", "sources_reviewed": 3, "candidate_sources_rejected": 1, "rejection_reasons": "The separate unnumbered row has no rank or identifier proving it is the Major George C Dibert in the trade-paper and scholarly sources; no biography or employer is transferred.", "research_notes": "Possible duplicate group retained. No reliable pre-OSS employer has yet been identified for this separate indexed entity.", "next_action": "Compare both Box 185 files before merge or attribution.", "attempt_number": 4, "research_agent_version": "before-oss/batch-581-v1"
+    },
+    {
+      "key": "b581-dominick-terminal-review", "person_id": "ec72c2c9-5279-5c03-bbc3-468b937e7ebb", "source_adapter": "manual_evidence_review", "query_text": "Rendered NARA index page; saved CIA and LoC checks; exact Dominick N Diblasi/Di Blasi OSS, employer/occupation 1940, Army bulk, obituary and archival searches.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T04:46:00Z", "completed_at": "2026-09-20T04:56:00Z", "outcome": "source_reviewed", "sources_reviewed": 2, "candidate_sources_rejected": 1, "rejection_reasons": "Surname-only and postwar Di Blasi results lack an index-specific pre-OSS employment link; Army occupation coding is not a named employer.", "research_notes": "Army identity crosswalk accepted. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 185.", "attempt_number": 4, "research_agent_version": "before-oss/batch-581-v1"
+    },
+    {
+      "key": "b581-john-terminal-review", "person_id": "e813de5e-63a0-5dec-915f-4acb48c91ec9", "source_adapter": "manual_evidence_review", "query_text": "Rendered NARA index page; saved CIA and LoC checks; John S Diblasi/Di Blasi OSS, employer/occupation 1940, official Army bulk, VA memorial and archival searches.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T04:46:00Z", "completed_at": "2026-09-20T04:56:00Z", "outcome": "candidate_rejected", "sources_reviewed": 3, "candidate_sources_rejected": 1, "rejection_reasons": "The VA Veterans Legacy Memorial names a John S Di Blasi with WWII Army technical grade but no protected identifier or OSS tie; it cannot be assigned to this index row or used to infer employment.", "research_notes": "Army bulk identity crosswalk accepted. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 185 and compare VA lead only after a second unique identifier.", "attempt_number": 4, "research_agent_version": "before-oss/batch-581-v1"
+    },
+    {
+      "key": "b581-charles-terminal-review", "person_id": "80aee59d-e7b4-5c90-a6fc-e8d3c1da20fc", "source_adapter": "manual_evidence_review", "query_text": "Rendered NARA index page; saved CIA and LoC checks; Charles Dibner OSS, employer/occupation 1940, official Army bulk, institutional, obituary and archival searches.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T04:46:00Z", "completed_at": "2026-09-20T04:56:00Z", "outcome": "candidate_rejected", "sources_reviewed": 2, "candidate_sources_rejected": 2, "rejection_reasons": "Bern Dibner is a differently named wartime officer; modern Charles Dibner professional results are postwar or current and lack protected-identifier or OSS linkage.", "research_notes": "Army identity crosswalk accepted. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 185.", "attempt_number": 4, "research_agent_version": "before-oss/batch-581-v1"
+    },
+    {
+      "key": "b581-susan-terminal-review", "person_id": "61569c53-9c8c-5c06-96e2-d26affb2ccb5", "source_adapter": "manual_evidence_review", "query_text": "Rendered NARA index page; saved CIA and LoC checks; exact Susan W Dichter OSS, occupation/employer 1940, institutional, newspaper, obituary and archival searches.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T04:46:00Z", "completed_at": "2026-09-20T04:56:00Z", "outcome": "no_result", "sources_reviewed": 1, "candidate_sources_rejected": 0, "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed; no rank, identifier or grade is printed to distinguish namesakes.", "next_action": "Inspect Box 185.", "attempt_number": 4, "research_agent_version": "before-oss/batch-581-v1"
+    },
+    {
+      "key": "b581-louis-terminal-review", "person_id": "54f1e052-dfc1-5f30-a8dd-9a654e46b80a", "source_adapter": "manual_evidence_review", "query_text": "Rendered NARA index page; saved CIA and LoC checks; Louis D DiCicco/Di Cicco OSS, employer/occupation 1940, official Army bulk, obituary, institutional and archival searches.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T04:46:00Z", "completed_at": "2026-09-20T04:56:00Z", "outcome": "candidate_rejected", "sources_reviewed": 2, "candidate_sources_rejected": 1, "rejection_reasons": "A 2007 Louis D. Di Cicco obituary search lead supplies neither an index-specific protected-identifier bridge nor a dated prewar employer; later work cannot be projected backward.", "research_notes": "Army identity crosswalk accepted. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 185.", "attempt_number": 4, "research_agent_version": "before-oss/batch-581-v1"
+    }
+  ]
+}
