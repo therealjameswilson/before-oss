@@ -1,5 +1,32 @@
 # Research status
 
+Batch 588 completed local research and validation. It covers PDF page 119,
+rows 21–40, all in Box 189. Twenty people have durable CIA, LoC, and manual
+cross-source attempts and terminal online outcomes: nineteen
+`requires_archival_review` and one `occupation_only_found`. Seven official
+Army bulk matches support one confirmed and six high-confidence identities;
+they are not employer evidence. Salvatore Disclafani's pre-draft polisher
+occupation is documented without a named employer; his Army-to-OSS pathway
+is visibly qualified at medium confidence. Eleven LoC OCR candidates were
+rejected, including an unbridged postwar Sohio employee with the common name
+John Dixon; he is excluded from the oil-company category. Jacques B
+DiSibour and an earlier Jacques B DeSibour row are marked possible duplicates,
+not merged. See `research/batch-588-terminal-review.md` and the cited evidence
+and review-decision files. The NARA Catalog API was not used.
+
+Current local SQLite has 23,978/23,978 linked source rows, 23,940 active
+people, 5,686/23,940 people with nonplanned attempts (23.7510%),
+264/23,940 with confirmed/high published employer evidence (1.1028%),
+604/23,940 with confirmed/high published affiliation evidence (2.5230%),
+and 5,641/23,940 with assessed archival-review dispositions (23.5631%).
+There are 18,254 active `not_started` people and 259 possible-duplicate
+groups. Private SQLite has 10,544 attempts and 4,799 claims: 1,308
+confirmed, 1,817 high, 1,361 medium, 184 low, and 129 conflicting. It has
+4,922 citation records and 2,262 unique source-document keys. The public
+projection has 2,173 affiliations, 678 organizations, 3,728 sources, and
+4,611 claims. The full-index research goal remains active. Batch 588 has
+not yet been publicly deployed as of this local status entry.
+
 Batch 587 completed local validation. It covers PDF page 119,
 rows 1–20, in Boxes 188–189. All twenty have saved CIA, Library of Congress,
 and manual cross-source attempts with terminal online

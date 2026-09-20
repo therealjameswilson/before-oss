@@ -76,7 +76,7 @@ test("featured oil-company category lists employment relationships only", async 
   await page.goto("./people/");
   await expect(
     page.getByRole("navigation", { name: "Primary navigation" })
-      .getByRole("link", { name: "Oil companies", exact: true }),
+      .getByRole("link", { name: "Oil-company employees", exact: true }),
   ).toHaveAttribute("href", /oil-companies\/$/);
   const category = page.getByRole("region", { name: "Oil company employees" });
   await expect(category).toBeVisible();
@@ -157,7 +157,7 @@ test("top oil-company category link opens only the documented employee set", asy
   await page.goto("./");
   await page
     .getByRole("navigation", { name: "Primary navigation" })
-    .getByRole("link", { name: "Oil companies", exact: true })
+    .getByRole("link", { name: "Oil-company employees", exact: true })
     .click();
 
   await expect(page).toHaveURL(/oil-companies\/$/);

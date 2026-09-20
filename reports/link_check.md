@@ -1,5 +1,13 @@
 # Link check
 
+Batch 588 local validation, 2026-09-20 UTC: all internal links resolve
+across **24,651** built HTML files, including the top oil-company category,
+its dedicated route, and 25 Sources pages. The checker inventoried **50,140**
+unique external URLs without visiting every target. The public-identifier
+audit found zero unexpected full-number boundary matches across **24,723**
+public artifacts. Public deployment and live hash verification are tracked
+separately and are not implied by this local check.
+
 Batch 587 local validation, 2026-09-20 UTC: all internal links resolve
 across **24,651** built HTML files, including the oil-company category and
 25 Sources pages. The checker inventoried **50,137** unique external URLs;
