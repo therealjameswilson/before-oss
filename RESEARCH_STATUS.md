@@ -1,5 +1,37 @@
 # Research status
 
+Batch 602 visually checked all 138 printed rows on PDF pages 132–134,
+bringing the distinct visual-review ledger to **106/522 pages**; **416**
+pages still need visual certification. Forty-four unique people on page 132
+received bounded, read-only Library of Congress searches. The adapter saved
+28 newspaper-page discovery candidates for eight people, but no candidate
+was promoted to employer evidence or a completed multi-source protocol.
+Pages 133–134 are visually reviewed and queued, but their full research
+passes have **not** been run. Four possible-duplicate clusters were flagged
+without merging source rows or people. A correction to
+[Carl F. Eifler's](https://therealjameswilson.github.io/before-oss/people/a0f164c7-505d-5cb9-88e1-0c3c1f1be22f/)
+profile separates his 1941 infantry command, later Hawaii military-police
+assignment, 1942 COI assignment, and earlier U.S. Customs Service job.
+The [Army biography](https://www.ikn.army.mil/apps/MIHOF/biographies/Eifler%2C%20Carl.pdf),
+[National Park Service history](https://www.nps.gov/articles/oss-in-action-the-pacific-and-the-far-east.htm),
+and [NARA agency chronology](https://www.archives.gov/research/holocaust/finding-aid/military/rg-226.html)
+support these distinct stages; the exact individual COI/OSS transfer order
+remains unreviewed. The top oil-company category remains six cited employees;
+another person's oil-field work is not Eifler's employer. See
+`research/batch-602-progress.md`. No authenticated NARA Catalog request was made.
+
+Current local SQLite has 23,978/23,978 linked source rows, 23,940 active
+people, 6,278/23,940 with nonplanned attempts (26.2239%), 269/23,940 with
+confirmed/high published employer evidence (1.1236%), 614/23,940 with
+confirmed/high published affiliation evidence (2.5647%), and 5,751/23,940
+with assessed archival-review dispositions (24.0226%). There are 17,662
+active `not_started` people and 275 possible-duplicate groups. Private SQLite
+has 11,282 attempts and 4,858 claims: 1,311 confirmed, 1,862 high, 1,368
+medium, 185 low, and 132 conflicting. It has 4,982 citation records and
+2,311 unique source-document keys. The public projection has 2,196
+affiliations, 690 organizations, 3,779 sources, and 4,669 claims. Full-index
+historical research remains unfinished.
+
 Batch 601 visually checked every printed row on PDF pages 129–131, adding
 pages 130–131 to the visual-review ledger (103/522 distinct pages; 419 remain).
 All 138 rows on those pages are preserved as separate source records.

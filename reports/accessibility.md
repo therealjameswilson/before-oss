@@ -1,5 +1,16 @@
 # Accessibility and responsive QA
 
+Batch 602 local validation, 2026-09-20 UTC: the bounded release suite
+passed **75/75** desktop/phone/tablet checks: six new Eifler timeline and
+oil-category exclusions, 33 core-route checks, six confidence-aware
+analysis checks, and 30 accessibility checks with no serious or critical
+axe violations. The 121 Python unit tests, deterministic Astro build, link
+check, and full public-identifier scan also passed. The build produced
+**24,689** local pages; one unrelated untracked duplicate Sources route
+adds 25 local-only pages and is excluded from the clean release. This is
+automated structural and interaction QA, not a 200-person manual historical
+source audit. Local checks do not establish CI or public deployment.
+
 Batch 601 local validation, 2026-09-20 UTC: the bounded release suite
 passed **78/78** desktop/phone/tablet checks: nine new page-131 Eddy,
 page-130 duplicate, and oil-category checks; 33 core-route checks; six
