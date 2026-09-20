@@ -36,6 +36,20 @@ separate discovery attempts, with unreviewed candidates for Carl D Marshall
 and Joseph F Willis. Those attempts remain in private SQLite but must not be
 counted as Batch 582 review. Subsequent commands used `--batch batch-582`.
 
+The global LOC search also exposed a scheduler bug: supplementary discovery
+attempts could replace a previously reviewed terminal research status. It
+temporarily changed Carl D Marshall, Constantine Papadopoulos, and Gus
+Macriyanni from `requires_archival_review`, and Edson P Bradley from
+`occupation_only_found`, to automatic discovery states. The four person and
+queue statuses and next actions were restored from the exact-verified Batch
+581 public projection via the importable
+`research/review_decisions_2026-09-20_discovery_status_repair.csv`.
+`oss_research/research.py` now increments attempt counters for supplemental
+searches while allowing automatic status transitions **only** among
+`not_started`, `in_progress`, and `candidate_found`; regression tests cover
+ten reviewed-status categories. Unreviewed candidates remain available for
+later assessment without erasing prior archival or employer conclusions.
+
 Next: inspect accessible original or alternative archival context for the
 four newspaper leads without bypassing access controls; run targeted
 employment, obituary, institutional, and military/OSS disambiguation for
@@ -51,6 +65,7 @@ python3 -m oss_research assign-page-batch --batch-name batch-582 --page 117 --fi
 python3 -m oss_research research --source cia --batch batch-582 --max-queries 10 --resume
 python3 -m oss_research research --source loc --batch batch-582 --max-queries 10 --resume
 python3 -m oss_research import-review-decisions research/army_review_decisions_2026-09-20_batch582.csv
+python3 -m oss_research import-review-decisions research/review_decisions_2026-09-20_discovery_status_repair.csv
 ```
 
 The completed search fingerprints and review decisions make these commands
