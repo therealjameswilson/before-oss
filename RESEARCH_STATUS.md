@@ -1,5 +1,31 @@
 # Research status
 
+Batch 587 completed local validation. It covers PDF page 119,
+rows 1–20, in Boxes 188–189. All twenty have saved CIA, Library of Congress,
+and manual cross-source attempts with terminal online
+`requires_archival_review` outcomes. Thirteen official Army bulk rows support
+high-confidence identity crosswalks for twelve people; Victor J DiRocco's
+two bulk entries share one protected identifier and are not counted as two
+people. A USASOC history identifies Damon S Diomandes as an enlisted OSS
+Detachment 101 member. A National WWII Museum oral history and an obituary
+establish William Disanza's U.S. Army assignment immediately before OSS;
+earlier CCC service and Merchant Marine occupation are kept distinct. No
+named pre-OSS civilian employer was established in this cohort. See
+`research/batch-587-terminal-review.md`, its evidence bundle, and Army
+review decisions. The NARA Catalog API was not used.
+
+Current local SQLite has 23,978/23,978 linked source rows, 23,940 active
+people, 5,666/23,940 people with nonplanned attempts (23.6675%),
+264/23,940 with confirmed/high published employer evidence (1.1028%),
+604/23,940 with confirmed/high published affiliation evidence (2.5230%),
+and 5,621/23,940 with assessed archival-review dispositions (23.4795%).
+There are 18,274 active `not_started` people and 258 possible-duplicate
+groups. Private SQLite has 10,484 attempts and 4,790 claims: 1,307
+confirmed, 1,810 high, 1,360 medium, 184 low, and 129 conflicting. It has
+4,917 citation records and 2,258 unique source-document keys. The public
+projection has 2,172 affiliations, 678 organizations, 3,723 sources, and
+4,602 claims. The full-index research goal remains active.
+
 Batch 586 is live and exact-verified at merge commit
 `3565891fb4048d0de757f6f38d9cb8428e1fff63`. It covers
 PDF page 118, rows 31–46, in Boxes 187–188. Six official Army bulk
