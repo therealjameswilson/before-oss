@@ -1,5 +1,19 @@
 # Accessibility and responsive QA
 
+Batch 591 local validation, 2026-09-20 UTC: the bounded release suite
+passed **84/84** desktop/phone/tablet checks: 15 latest-cohort checks,
+33 core-route checks, six analysis checks, and 30 accessibility checks
+with no serious or critical axe violations. The cohort checks open all 26
+direct profiles, separate Patrick Dolan's COI, Columbia Records, and
+earlier Times roles, and verify that Academy trusteeship, a prewar legal
+occupation, an Allied military assignment, and an unconfirmed obituary
+match do not become invented civilian employers. Two initial browser
+assertions had overly broad selectors; these were narrowed, then the
+entire release suite passed. Astro checked 221 source files with zero
+errors, warnings, or hints and built 24,657 static pages. The stratified
+200-profile audit passed its machine-checkable gates. No live deployment
+is implied by these local results.
+
 Batch 590 local validation, 2026-09-20 UTC: the bounded release suite
 passed **78/78** desktop/phone/tablet checks: nine latest-cohort checks,
 33 core-route checks, six analysis checks, and 30 accessibility checks with
