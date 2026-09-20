@@ -1,14 +1,14 @@
 # Link check
 
-Batch 597 local validation, 2026-09-20 UTC: all internal links resolve
-across **24,684** locally built HTML files, including direct routes for
+Batch 597 clean CI validation, 2026-09-20 UTC: all internal links resolve
+across **24,659** built HTML files, including direct routes for
 Druckenmiller, Gamble, Koch, and the oil-company category. An unrelated,
-untracked duplicate Sources route inflated this checkout's page count by
-26; it is not part of the intended release, so clean CI link results must
-be checked separately. The checker inventoried **50,190** unique external
-URLs; it did not request all external targets. The public-identifier audit
-compared 12,926 normalized identifiers and 120 variants against 24,756
-public artifacts, with zero unexpected full-number boundary matches. The
+untracked duplicate Sources route inflated this checkout's local build to
+24,684 pages; it is not part of the release. CI inventoried **50,165**
+unique external URLs; it did not request all external targets. The CI
+public-identifier audit compared 12,926 normalized identifiers and 120
+variants against 24,731 public artifacts, with zero unexpected full-number
+boundary matches. The
 local manifest matched **67** assets and **96,928,011** bytes at SHA-256
 `65251d9f51de0f7c64d65cc1d2483b09c5add3e4f1ec4e68a087c20134fe5e0c`.
 Public deployment and exact live hash verification are separate checks.

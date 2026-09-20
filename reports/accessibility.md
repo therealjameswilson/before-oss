@@ -1,6 +1,6 @@
 # Accessibility and responsive QA
 
-Batch 597 local validation, 2026-09-20 UTC: the bounded release suite
+Batch 597 clean CI validation, 2026-09-20 UTC: the bounded release suite
 passed **81/81** desktop/phone/tablet checks: 12 new source-review and
 oil-category checks, 33 core-route checks, six analysis checks, and 30
 accessibility checks with no serious or critical axe violations. The new
@@ -8,12 +8,12 @@ checks keep Druckenmiller's Army predecessor separate from his unnamed
 civilian employer, place Gamble's Packard work only among earlier jobs,
 withhold Koch's identity-conflicted employer lead, and retain exactly six
 oil-company employees. Astro reported zero errors, warnings, or hints
-across 229 local source files. The local checkout also contains an unrelated,
-untracked duplicate Sources route file that is intentionally not committed;
-it inflated the local output to **24,684** static pages. A clean CI build
-must establish the release page total. The 200-profile stratified
+across **228** clean source files and built **24,659** static pages. The
+local checkout also contains an unrelated, untracked duplicate Sources
+route file that is intentionally not committed; its local build produced
+24,684 pages and is not the release page count. The 200-profile stratified
 structural audit passed its machine-checkable gates; it is not a manual
-historical source audit. These local results do not prove deployment.
+historical source audit. The CI pass does not by itself prove deployment.
 
 Batch 596 local validation, 2026-09-20 UTC: the bounded release suite
 passed **84/84** desktop/phone/tablet checks: 15 page-124 and oil-category
