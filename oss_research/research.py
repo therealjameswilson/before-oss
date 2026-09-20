@@ -269,6 +269,16 @@ def candidate_aware_status(
     )
 
 
+def discovery_outcome(
+    *, planned: bool, http_status: int | None, candidate_count: int
+) -> str:
+    if planned:
+        return "planned"
+    if http_status != 200:
+        return "blocked"
+    return "candidate_found" if candidate_count else "no_result"
+
+
 def has_unreviewed_research_candidate(
     connection: sqlite3.Connection,
     person_id: str,
@@ -443,7 +453,7 @@ def run_research(
     else:
         raise ValueError(f"Unsupported research source: {source}")
 
-    planned = searched = duplicates = candidates = errors = 0
+    planned = searched = blocked = duplicates = candidates = errors = 0
     processed_people: set[str] = set()
     for person in people:
         if planned + searched >= max_queries:
@@ -495,13 +505,19 @@ def run_research(
                 fingerprint,
                 status,
             ) = selected
-            outcome = "planned" if is_planned else (
-                "candidate_found" if candidate_count else "no_result"
+            outcome = discovery_outcome(
+                planned=is_planned,
+                http_status=status,
+                candidate_count=candidate_count,
             )
             notes = (
                 "Dry-run query plan; no request was made."
                 if is_planned
-                else f"HTTP {status}; {candidate_count} unreviewed discovery candidates."
+                else (
+                    f"HTTP {status}; {candidate_count} unreviewed discovery candidates."
+                    if status == 200
+                    else f"HTTP {status}; no usable source response, so this is not a negative search result."
+                )
             )
             attempt_number = connection.execute(
                 "SELECT COUNT(*) + 1 FROM research_attempts WHERE person_id = ?",
@@ -536,6 +552,11 @@ def run_research(
                 searched += 1
                 processed_people.add(person_id_value)
                 candidates += candidate_count
+                if outcome == "blocked":
+                    blocked += 1
+                    # A restricted or unavailable source must not be probed
+                    # for every subsequent person in the same batch.
+                    break
         except Exception:
             errors += 1
             raise
@@ -547,6 +568,7 @@ def run_research(
         "max_queries": max_queries,
         "queries_planned": planned,
         "queries_searched": searched,
+        "queries_blocked": blocked,
         "duplicate_queries_skipped": duplicates,
         "candidate_matches_created_or_seen": candidates,
         "people_with_live_attempts_this_run": len(processed_people),

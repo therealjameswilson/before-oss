@@ -1,5 +1,32 @@
 # Research status
 
+Batch 593 advanced all 46 rows on PDF page 121 (Doll through Donovan): the
+printed page was visually checked, 46 rate-limited Library of Congress
+discovery requests completed, and 44 candidate links remain unreviewed.
+Current CIA robots policy disallows the automated Reading Room search route,
+so it is now blocked in the adapter rather than counted as a negative search.
+National Archives and museum evidence supports Kingman M Dong Sr.'s **earlier**
+WPA employment, not an immediate pre-OSS or proven last-civilian employer.
+A contemporary Clark alumni publication supports Jocelyn Donaldson's OSS
+identity and earlier student status, not Clark employment. Ivan H Doman has
+an official Army name/identifier conflict; two same-name row pairs remain
+unmerged. Only two page-121 people currently have terminal research statuses;
+44 still need further review. See `research/batch-593-progress.md` and its
+replayable evidence and QA files. The NARA Catalog API key was not used.
+
+Current local SQLite has 23,978/23,978 linked source rows, 23,940 active
+people, 5,782/23,940 people with nonplanned attempts (24.1520%),
+266/23,940 with confirmed/high published employer evidence (1.1111%),
+607/23,940 with confirmed/high published affiliation evidence (2.5355%),
+and 5,699/23,940 with assessed archival-review dispositions (23.8053%).
+There are 18,158 active `not_started` people and 261 possible-duplicate
+groups. Private SQLite has 10,752 attempts and 4,832 claims: 1,308
+confirmed, 1,843 high, 1,367 medium, 185 low, and 129 conflicting. It has
+4,942 citation records and 2,279 unique source-document keys. The public
+projection has 2,180 affiliations, 684 organizations, 3,747 sources, and
+4,643 claims. The full-index historical research goal is unfinished; local
+build and a live deployment must be verified separately.
+
 Batch 591 completed local research and data validation for PDF page 120,
 rows 21–46, closing the page. All 26 people have saved CIA, LoC, and
 cross-source attempts and terminal online dispositions: 24 archival review,

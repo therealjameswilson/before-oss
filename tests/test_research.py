@@ -6,6 +6,7 @@ import unittest
 from oss_research.research import (
     assign_page_batch,
     candidate_aware_status,
+    discovery_outcome,
     has_unreviewed_research_candidate,
     record_discovery_progress,
     source_query_options,
@@ -199,6 +200,28 @@ class ResearchQuerySchedulerTests(unittest.TestCase):
                 ("institutional", "obituary"),
                 ("institutional", "biography"),
             ],
+        )
+
+    def test_unavailable_source_is_never_a_negative_search_result(self) -> None:
+        self.assertEqual(
+            discovery_outcome(planned=False, http_status=200, candidate_count=0),
+            "no_result",
+        )
+        self.assertEqual(
+            discovery_outcome(planned=False, http_status=200, candidate_count=1),
+            "candidate_found",
+        )
+        for status in (None, 401, 403, 429, 503):
+            with self.subTest(status=status):
+                self.assertEqual(
+                    discovery_outcome(
+                        planned=False, http_status=status, candidate_count=0
+                    ),
+                    "blocked",
+                )
+        self.assertEqual(
+            discovery_outcome(planned=True, http_status=None, candidate_count=0),
+            "planned",
         )
 
     def test_unreviewed_candidate_survives_a_later_no_result(self) -> None:

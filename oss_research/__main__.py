@@ -16,6 +16,8 @@ from .research import assign_page_batch, create_stratified_pilot, run_research
 from .runs import finish_run, start_run
 from .config import get_settings
 from .sources.nara import NaraAdapter
+from .sources.cia import CiaRobotsDisallowed, CiaRobotsUnavailable
+from .sources.loc import LocRateLimitCooldown
 from .sources.army_bulk import ARMY_BULK_SHA256, match_army_bulk
 from .public import build_public_data
 from .review import import_review_decisions
@@ -255,9 +257,13 @@ def main(argv: list[str] | None = None) -> int:
                 run,
                 status="completed",
                 processed=result["queries_planned"] + result["queries_searched"],
-                succeeded=result["queries_planned"] + result["queries_searched"],
+                succeeded=(
+                    result["queries_planned"]
+                    + result["queries_searched"]
+                    - result["queries_blocked"]
+                ),
                 warnings=result["candidate_matches_created_or_seen"],
-                failed=result["errors"],
+                failed=result["errors"] + result["queries_blocked"],
             )
         elif args.command == "army-bulk-match":
             result = match_army_bulk(
@@ -383,6 +389,10 @@ def main(argv: list[str] | None = None) -> int:
             raise ValueError(f"Unhandled command: {args.command}")
     except Exception as error:
         finish_run(connection, run, status="failed", failed=1, error=str(error))
+        if isinstance(
+            error, (CiaRobotsDisallowed, CiaRobotsUnavailable, LocRateLimitCooldown)
+        ):
+            raise SystemExit(str(error)) from None
         raise
     _print(result)
     return 0

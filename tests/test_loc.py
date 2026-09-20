@@ -8,7 +8,12 @@ from pathlib import Path
 from oss_research.config import Settings
 from oss_research.db import connect, migrate
 from oss_research.sources.common import ResponseData
-from oss_research.sources.loc import LocAdapter
+from oss_research.sources.common import audit_request, request_fingerprint
+from oss_research.sources.loc import (
+    LOC_MIN_INTERVAL_SECONDS,
+    LocAdapter,
+    LocRateLimitCooldown,
+)
 
 
 def settings() -> Settings:
@@ -109,7 +114,7 @@ class LocAdapterTests(unittest.TestCase):
         self.assertEqual(audit["retry_count"], 1)
         self.assertIsNone(audit["error_class"])
 
-    def test_respects_retry_after_for_429(self) -> None:
+    def test_429_stops_without_retry_and_enforces_project_cooldown(self) -> None:
         responses = [
             ResponseData(429, {"retry-after": "0"}, b"{}"),
             ResponseData(200, {}, b'{"results": []}'),
@@ -125,8 +130,92 @@ class LocAdapterTests(unittest.TestCase):
             transport=transport,
             sleep=sleeps.append,
         ).search("Retry Example", person_id="person-2")
-        self.assertEqual(result["http_status"], 200)
-        self.assertEqual(sleeps, [0.0])
+        self.assertEqual(result["http_status"], 429)
+        self.assertEqual(sleeps, [])
+        self.assertEqual(len(responses), 1)
+        with self.assertRaisesRegex(LocRateLimitCooldown, "no request was sent"):
+            LocAdapter(
+                self.connection,
+                settings(),
+                transport=transport,
+                sleep=sleeps.append,
+            ).search("Another query", person_id="person-2")
+        self.assertEqual(len(responses), 1)
+
+    def test_default_spacing_stays_below_published_twenty_per_minute(self) -> None:
+        adapter = LocAdapter(self.connection, settings())
+        self.assertGreaterEqual(adapter.limiter.minimum_interval_seconds, 3.0)
+        self.assertEqual(adapter.limiter.minimum_interval_seconds, LOC_MIN_INTERVAL_SECONDS)
+
+    def test_reuses_successful_query_from_prior_adapter_version(self) -> None:
+        query = '"Example Person 1" employer 1940'
+        old_fingerprint = request_fingerprint(
+            "loc-chronicling-america-v2",
+            "GET",
+            "/collections/chronicling-america/",
+            {"q": query, "fo": "json", "c": 5, "at": "results,pagination"},
+        )
+        with self.connection:
+            audit_request(
+                self.connection,
+                adapter="loc",
+                fingerprint=old_fingerprint,
+                query_text=query,
+                status=200,
+                adapter_version="loc-chronicling-america-v2",
+                person_id="person-1",
+            )
+        calls = []
+
+        def transport(request: object, _timeout: float) -> ResponseData:
+            calls.append(request)
+            return ResponseData(200, {}, b'{"results": []}')
+
+        result = LocAdapter(
+            self.connection,
+            settings(),
+            transport=transport,
+        ).search(query, person_id="person-2")
+        self.assertTrue(result["duplicate_request"])
+        self.assertEqual(result["fingerprint"], old_fingerprint)
+        self.assertEqual(calls, [])
+
+    def test_rebuilt_database_reuses_sanitized_successful_attempt(self) -> None:
+        query = '"Example Person 1" occupation 1940'
+        old_fingerprint = request_fingerprint(
+            "loc-chronicling-america-v2",
+            "GET",
+            "/collections/chronicling-america/",
+            {"q": query, "fo": "json", "c": 5, "at": "results,pagination"},
+        )
+        with self.connection:
+            self.connection.execute(
+                """
+                INSERT INTO research_attempts(
+                    research_attempt_id, person_id, source_adapter,
+                    request_fingerprint, started_at, completed_at,
+                    outcome, attempt_number, research_agent_version
+                ) VALUES ('rebuilt-attempt', 'person-1', 'loc', ?,
+                          '2026-08-03T00:00:00Z', '2026-08-03T00:00:01Z',
+                          'no_result', 1, 'checkpoint-test')
+                """,
+                (old_fingerprint,),
+            )
+
+        def forbidden(_request: object, _timeout: float) -> ResponseData:
+            self.fail("Completed checkpoint was unexpectedly searched again")
+
+        result = LocAdapter(
+            self.connection,
+            settings(),
+            transport=forbidden,
+        ).search(query, person_id="person-2")
+        self.assertTrue(result["duplicate_request"])
+        self.assertEqual(result["fingerprint"], old_fingerprint)
+        self.assertEqual(
+            self.connection.execute("SELECT COUNT(*) FROM request_audit").fetchone()[0],
+            0,
+        )
 
     def test_final_transport_error_is_durably_audited(self) -> None:
         def transport(_request: object, _timeout: float) -> ResponseData:

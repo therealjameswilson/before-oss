@@ -1,5 +1,17 @@
 # Link check
 
+Batch 593 local validation, 2026-09-20 UTC: all internal links resolve
+across **24,657** built HTML files, including both page-121 evidence profiles,
+the two separate George J Donish routes, the oil-company category, and
+25 Sources pages. The checker inventoried **50,160** unique external URLs;
+it did not request every external target. The newly cited NARA, MOCA, and
+Clark source URLs were inspected separately. The public-identifier audit
+found zero unexpected full-number boundary matches across **70** scanned
+public artifacts. The local manifest matched **67** data assets and
+**96,752,638** bytes at SHA-256
+`1acb95559f54fdaa57ba0fd0bb025bb1d59f79b6d294edeecc213eaf8c26109f`.
+Public deployment and live hash verification are separate checks.
+
 Batch 591 local validation, 2026-09-20 UTC: all internal links resolve
 across **24,657** built HTML files, including the top oil-company category,
 its dedicated route, and 25 Sources pages. The checker inventoried **50,155**

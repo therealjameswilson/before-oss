@@ -1,5 +1,20 @@
 # Accessibility and responsive QA
 
+Batch 593 local validation, 2026-09-20 UTC: the bounded release suite
+passed **78/78** desktop/phone/tablet checks: nine page-121 profile checks,
+33 core-route checks, six analysis checks, and 30 accessibility checks with
+no serious or critical axe violations. The new checks keep Kingman Dong's
+WPA work in earlier employment, Jocelyn Donaldson's Clark study out of
+employer fields, duplicate rows on separate direct URLs, and the Ivan H
+Doman identity conflict qualified without printing another person's name.
+An initial assertion expected the private duplicate-group label; the public
+projection correctly hashes it, and the test now verifies shared membership
+without exposing the private label. Astro reported zero errors, warnings,
+or hints across 222 source files and built **24,657** static pages. The
+200-profile stratified structural audit passed all machine-checkable gates;
+it is not a substitute for a manual historical source audit. These are local
+checks, not evidence of live deployment.
+
 Batch 592 local validation, 2026-09-20 UTC: the bounded release suite
 passed **75/75** desktop/phone/tablet checks: six oil-category correction
 checks, 33 core-route checks, six analysis checks, and 30 accessibility
