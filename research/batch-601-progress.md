@@ -70,3 +70,12 @@ python3 -m oss_research coverage-report
 The private SQLite database stays local. The reviewed evidence, identity
 decisions, sanitized adapter checkpoints, and redacted public assets are
 versioned. No NARA API key was present or used in this checkout.
+
+The initial clean CI run passed the Python, build, and browser steps but
+stopped at the public-identifier audit: a five-digit *aggregate count* in
+analytics JSON happened to equal a protected identifier and appeared once
+in the plain asset and once in its compressed twin. No full service number
+was published as a person or source field. The audit now recognizes only
+numeric aggregate-field coincidences in analytics and still flags the same
+digits in string fields or profiles. The revised unit test and local full
+scan pass; clean CI must be rerun before release.

@@ -49,12 +49,15 @@ class PublicIdentifierAuditTests(unittest.TestCase):
             {12, 34},
         )
 
-    def test_aggregate_coincidence_is_allowed_only_in_stats_artifacts(self) -> None:
+    def test_aggregate_coincidence_is_allowed_only_in_numeric_aggregate_fields(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             public_root = Path(directory)
             stats_path = public_root / "data" / "stats.json"
             stats_path.parent.mkdir(parents=True)
             stats_path.write_text(json.dumps({"unresolved": 12345}), encoding="utf-8")
+            analytics_path = public_root / "data" / "analytics.json"
+            analytics_line = '{"archival_priorities":{"unassessed":12345},"note":"12345"}'
+            analytics_path.write_text(analytics_line, encoding="utf-8")
             (public_root / "profile.html").write_text(
                 "Leaked identifier: 12345",
                 encoding="utf-8",
@@ -63,9 +66,14 @@ class PublicIdentifierAuditTests(unittest.TestCase):
             events = []
             for path, line in (
                 (stats_path, '{"unresolved": 12345}'),
+                (analytics_path, analytics_line),
                 (public_root / "profile.html", "Leaked identifier: 12345"),
             ):
                 start = len(line[: line.index("12345")].encode("utf-8"))
+                matches = [{"start": start, "end": start + len("12345")}]
+                if path == analytics_path:
+                    second = len(line[: line.rindex("12345")].encode("utf-8"))
+                    matches.append({"start": second, "end": second + len("12345")})
                 events.append(
                     json.dumps(
                         {
@@ -73,9 +81,7 @@ class PublicIdentifierAuditTests(unittest.TestCase):
                             "data": {
                                 "path": {"text": str(path)},
                                 "lines": {"text": line},
-                                "submatches": [
-                                    {"start": start, "end": start + len("12345")}
-                                ],
+                                "submatches": matches,
                             },
                         }
                     )
@@ -103,10 +109,10 @@ class PublicIdentifierAuditTests(unittest.TestCase):
                     set(),
                 )
 
-            self.assertEqual(candidates, 2)
-            self.assertEqual(aggregate_false_positives, 1)
+            self.assertEqual(candidates, 4)
+            self.assertEqual(aggregate_false_positives, 2)
             self.assertEqual(manifest_size_false_positives, 0)
-            self.assertEqual(boundary_matches, 1)
+            self.assertEqual(boundary_matches, 2)
 
     def test_manifest_size_coincidence_is_allowed_only_in_size_field(self) -> None:
         with tempfile.TemporaryDirectory() as directory:

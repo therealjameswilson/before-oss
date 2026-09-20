@@ -14,7 +14,13 @@ normalized identifiers and **120** variants against **24,760** public
 artifacts, with zero unexpected full-number boundary matches. The local
 manifest matched **67** assets and **97,122,497** bytes at SHA-256
 `c8c26a6b79ac5867d6cb5fd35cdc02d01529a015466f7fec3fc1f016437ee291`.
-CI, Pages deployment, and exact live verification remain separate checks.
+The first clean CI run caught two matches caused by one five-digit
+`archival_priorities.unassessed` **aggregate count** in both plain and
+compressed analytics JSON. A field-aware audit amendment now checks numeric
+aggregate values in `analytics.json` as well as `stats.json`, while still
+rejecting the same digits in a text field or person profile. The expanded
+unit test and full local scan pass; a new clean CI run is required before
+merge. Pages deployment and exact live verification remain separate checks.
 
 Batch 600 local validation, 2026-09-20 UTC: all internal links resolve
 across **24,688** locally built HTML files, including direct page-128
