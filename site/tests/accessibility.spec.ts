@@ -21,20 +21,14 @@ for (const route of [
   "downloads/",
 ]) {
   test(`no serious axe violations on /${route}`, async ({ page }) => {
-    // The sources table grows with every reviewed batch; give axe enough time
-    // to inspect the complete rendered citation list on slower CI runners.
-    if (route === "sources/") {
-      test.setTimeout(180_000);
-    }
     await page.goto(`./${route}`);
     if (route === "people/") {
       await expect(page.getByText(/results/)).toBeVisible({ timeout: 30_000 });
     }
     const results = await new AxeBuilder({ page })
       .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
-      // The public Sources page contains thousands of citation entries. Return
-      // only violations so axe does not serialize every passing/inapplicable
-      // node back through the browser protocol on constrained mobile runs.
+      // Return only violations so axe does not serialize every passing or
+      // inapplicable node back through the browser protocol on mobile runs.
       .options({ resultTypes: ["violations"] })
       .analyze();
     expect(

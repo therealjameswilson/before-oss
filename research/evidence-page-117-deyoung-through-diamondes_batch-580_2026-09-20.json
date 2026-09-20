@@ -1,0 +1,322 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 580 source review",
+  "sources": [
+    {
+      "key": "index-b580",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 185",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 117, printed rows 1-10; original page image checked; Box 185, location 230/86/30/01",
+      "access_date": "2026-09-20",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Printed spellings, separate rows, and displaced rank text retained. Full service identifiers stay in private SQLite."
+    },
+    {
+      "key": "army-b580",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; name and protected-identifier crosswalk; private candidate records hold matching details",
+      "access_date": "2026-09-20",
+      "source_quality": "A_direct_official",
+      "rights_notes": "This is official bulk data, not a Catalog API response. Occupation codes and Army status are not named employers; full identifiers are excluded."
+    },
+    {
+      "key": "oss-award-b580",
+      "stable_url": "https://www.archives.gov/files/research/jfk/releases/104-10165-10120.pdf",
+      "archival_identifier": "NARA document 104-10165-10120",
+      "title": "Office of Strategic Services Mission to France: Award of Unit Certificate of Merit",
+      "author_creator": "Office of Strategic Services, United States Forces, European Theater",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1945-07-19",
+      "locator": "PDF page 79 (dated award-list heading) and PDF page 82 (Goodhue Diament entry)",
+      "access_date": "2026-09-20",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Original wartime document inspected as page images. It supports wartime identity, not predecessor employment; full identifier withheld."
+    },
+    {
+      "key": "densho-deyoung-b580",
+      "stable_url": "https://encyclopedia.densho.org/John%20E.%20de%20Young",
+      "title": "John E. de Young",
+      "author_creator": "Brian Niiya",
+      "repository_publisher": "Densho Encyclopedia",
+      "publication_record_date": "2023-12-19 update",
+      "locator": "Opening biography paragraph and footnote 1, which cites the 1950 International Directory of Anthropologists and Micronesian Reporter 14.6",
+      "access_date": "2026-09-20",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Directly inspected biography; paraphrase only. Index-to-biography identity remains unconfirmed."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "university-of-chicago",
+      "canonical_name": "University of Chicago",
+      "historical_name": "University of Chicago",
+      "organization_type": "private university",
+      "sector": "academia_and_research",
+      "city": "Chicago",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "normalization_notes": "The institution is modeled in the academia and research sector. Student attendance and faculty employment remain distinct affiliation relationships."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "b580-deyoung-chicago-student-candidate",
+      "person_id": "bb2f7687-e088-5ab7-9bb8-6b74a5899f4f",
+      "organization_key": "university-of-chicago",
+      "organization_name_as_found": "University of Chicago",
+      "role_title": "anthropology Ph.D. student",
+      "relationship_type": "student",
+      "date_precision": "before OSS service; exact dates unverified",
+      "city": "Chicago",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "probable",
+      "claim_confidence": "low",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "withheld_low_confidence",
+      "research_notes": "Densho explicitly describes leaving this Ph.D. program for an OSS Far East Desk position, but the unnumbered John E Deyoung index row has not been bridged to John Edward de Young by a second unique identifier. This is student status, not a civilian employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "b580-deyoung-identity-candidate",
+      "person_id": "bb2f7687-e088-5ab7-9bb8-6b74a5899f4f",
+      "claim_type": "identity",
+      "claim_text": "A biography of OSS regional planner John Edward de Young is a plausible but unconfirmed match for the indexed John E Deyoung.",
+      "evidence_paraphrase": "The biography supplies the expanded middle name and an OSS Far East Desk role, but the index row supplies no service identifier, rank, assignment or biographical discriminator.",
+      "identity_match_assessment": "Probable candidate by full name and OSS context; insufficient for a confirmed or high-confidence linkage without a second independent index identifier or personnel file.",
+      "temporal_assessment": "The biography says its subject left a University of Chicago Ph.D. program for OSS; this chronology cannot yet be asserted for the indexed person.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Do not count the candidate's student institution as an employer or add it to default affiliation analytics. Inspect Box 185 and the biography's cited primary directory.",
+      "sources": [
+        {"source_key": "index-b580", "support_type": "context_only"},
+        {"source_key": "densho-deyoung-b580"}
+      ]
+    },
+    {
+      "key": "b580-deyoung-student-withheld",
+      "person_id": "bb2f7687-e088-5ab7-9bb8-6b74a5899f4f",
+      "affiliation_key": "b580-deyoung-chicago-student-candidate",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "If this is the indexed person, John Edward de Young was a University of Chicago anthropology student immediately before OSS.",
+      "evidence_paraphrase": "Densho says its subject left the Chicago Ph.D. program to become an OSS Far East Desk regional planner.",
+      "identity_match_assessment": "Candidate identity only; the unnumbered Box 185 index row needs independent confirmation.",
+      "temporal_assessment": "Explicit transition in the biography, conditional on identity; this is student status, not employment.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "Retain as private review lead, not a public fact or employer-chart input.",
+      "sources": [{"source_key": "densho-deyoung-b580"}]
+    },
+    {
+      "key": "b580-serge-diab-army-identity",
+      "person_id": "322aa2f1-ff7d-566d-b961-ed2126809a4c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Serge A Diab has a high-confidence match to an official Army enlistment record.",
+      "evidence_paraphrase": "The indexed full name and nonshared protected identifier agree with official Army bulk record ordinal 2948115. No employer is named.",
+      "identity_match_assessment": "High confidence: exact full name and unique protected identifier agree; Box 185 has not been inspected.",
+      "temporal_assessment": "The Army record establishes wartime identity context, not immediate pre-OSS assignment or earlier employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Accepted identity-only candidate in the private review file. Do not infer employer from an Army occupation code.",
+      "sources": [
+        {"source_key": "index-b580"},
+        {"source_key": "army-b580", "locator_override": "Official bulk record ordinal 2948115; protected identifier and full-name comparison"}
+      ]
+    },
+    {
+      "key": "b580-spyros-dialismas-army-identity",
+      "person_id": "b3b06374-696f-596d-82fc-ac7161ebaab1",
+      "claim_type": "identity",
+      "claim_text": "The indexed Spyros Dialismas has a high-confidence match to an official Army enlistment record.",
+      "evidence_paraphrase": "The indexed full name and nonshared protected identifier agree with official Army bulk record ordinal 4444893. No employer is named.",
+      "identity_match_assessment": "High confidence: exact full name and unique protected identifier agree; Box 185 has not been inspected.",
+      "temporal_assessment": "The Army entry does not establish the immediate pre-OSS assignment or last civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Accepted identity-only candidate. Do not equate Army occupation coding with an employer.",
+      "sources": [
+        {"source_key": "index-b580"},
+        {"source_key": "army-b580", "locator_override": "Official bulk record ordinal 4444893; protected identifier and full-name comparison"}
+      ]
+    },
+    {
+      "key": "b580-paul-pavlos-identity-conflict",
+      "person_id": "577cd1dd-ed29-546c-bcd3-14bd7f303752",
+      "claim_type": "identity",
+      "claim_text": "An Army entry shares the indexed Paul Diamantoukos identifier but names Pavlos; a separate adjacent index row also names Pavlos.",
+      "evidence_paraphrase": "The Army bulk crosswalk found a protected-identifier agreement and a given-name conflict. The two Box 185 source rows remain separate.",
+      "identity_match_assessment": "Conflicting name evidence; the relationship between the Paul and Pavlos rows cannot be resolved from the index and bulk entry.",
+      "temporal_assessment": "The Army entry does not document a predecessor employer, and its person's assignment cannot safely be attached to either row.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The warning is public; the full identifier and speculative duplicate merge are not. Side-by-side personnel-file review is required.",
+      "sources": [
+        {"source_key": "index-b580"},
+        {"source_key": "army-b580", "locator_override": "Official bulk record ordinal 3617746; protected identifier agrees with Paul row while given name differs"}
+      ]
+    },
+    {
+      "key": "b580-goodhue-diament-army-oss-identity",
+      "person_id": "47d9cccc-5ca5-58fd-a893-04ffeeee54be",
+      "claim_type": "identity",
+      "claim_text": "The indexed Goodhue Diament has a high-confidence identity match to an official Army record and an original OSS Mission to France award list.",
+      "evidence_paraphrase": "The Army bulk entry matches the indexed name and protected identifier; a 1945 OSS award page independently prints the technical grade, name and matching protected identifier.",
+      "identity_match_assessment": "High confidence: two independent official records corroborate the index's distinctive name, technical grade and nonshared protected identifier.",
+      "temporal_assessment": "The award documents 1945 wartime OSS service. Neither it nor the Army entry names a pre-OSS employer or establishes recruitment sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The printed T-4 sits in the index's middle-initial column but is a technical grade, not a middle initial; the original award list writes Tec 4. Neither source supplies civilian employment.",
+      "sources": [
+        {"source_key": "index-b580"},
+        {"source_key": "army-b580", "locator_override": "Official bulk record ordinal 835975; protected identifier and full-name comparison"},
+        {"source_key": "oss-award-b580", "locator_override": "PDF page 82, Goodhue Diament entry; page 79 provides the dated OSS Mission to France heading"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "bb2f7687-e088-5ab7-9bb8-6b74a5899f4f",
+      "identity_status": "probable",
+      "identity_evidence": "Densho identifies John Edward de Young as an OSS Far East Desk regional planner, a close candidate for the unnumbered John E Deyoung index row. The row has no unique biographical or service identifier, so the candidate's University of Chicago student status is withheld pending Box 185 comparison.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect John E Deyoung's Box 185 file and the cited 1950 anthropologists directory to test the Densho identity and pre-OSS student chronology; seek any separately named civilian employer.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e3f6b1ff-70df-51f9-b771-c60b55c6d9b8",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed Louis A Dezman has no rank or service identifier. A 1936/1940 radio-amateur callbook name and postwar city-directory namesakes have no OSS Box 185 bridge and identify no pre-OSS employer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Louis A Dezman's Box 185 file for full identity, 1940 occupation and a dated employer or institution; do not infer a job from radio-amateur registration.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "322aa2f1-ff7d-566d-b961-ed2126809a4c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Official Army bulk record ordinal 2948115 and the NARA index agree on exact full name and a nonshared protected identifier. This is an identity match only; Box 185 is unreviewed and no predecessor employer is documented.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Serge A Diab's Box 185 file for Army-to-OSS chronology and the last named civilian employer; Army occupation codes alone are insufficient.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "91c597f7-5760-527d-9995-f29749e13b3b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index identifies John G Dial Jr. as a second lieutenant with a protected identifier, but discovery results for John Dial do not link rank, suffix and identifier to an independently documented pre-OSS employer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect John G Dial Jr.'s Box 185 file for branch, full identity, assignment immediately before OSS and last civilian employer; check officer records with rank and suffix.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b3b06374-696f-596d-82fc-ac7161ebaab1",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Official Army bulk record ordinal 4444893 and the NARA index agree on exact full name and a nonshared protected identifier. No named employer follows from the Army file.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Spyros Dialismas's Box 185 file for prior military assignment and separately documented civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "577cd1dd-ed29-546c-bcd3-14bd7f303752",
+      "identity_status": "conflicting",
+      "identity_evidence": "Official Army bulk record ordinal 3617746 shares the printed Paul-row protected identifier but gives the first name Pavlos, which also appears in a separate adjacent unnumbered index row. Do not merge these source rows or assign the Army biography to either until the physical files are compared.",
+      "possible_duplicate_group": "b580-diamantoukos-paul-pavlos",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Compare both Diamantoukos Box 185 personnel files side by side with the Army bulk entry; resolve names and possible duplication before any employment attribution.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "88b7db00-ec3c-5822-ab44-ba858591e816",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Pavlos Diamantoukos is a distinct unnumbered index row adjacent to Paul. The Army entry matching Paul's protected identifier uses Pavlos, creating a possible duplicate or variant that cannot be resolved online; both source rows remain separate.",
+      "possible_duplicate_group": "b580-diamantoukos-paul-pavlos",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Compare Pavlos and Paul Diamantoukos Box 185 files and the Army record; do not transfer Paul's identifier or assign an employer by name similarity.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "47d9cccc-5ca5-58fd-a893-04ffeeee54be",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The NARA index, Army bulk record ordinal 835975 and original 19 July 1945 OSS Mission to France award list agree on distinctive name, technical grade where supplied and a nonshared protected identifier. Wartime identity is strong; no pre-OSS employer follows.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Goodhue Diament's Box 185 file for enlistment-to-OSS transfer and last civilian employer; disregard postwar corporation and family-name results for this question.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "330b0c5e-6c4a-5f75-8a64-4720405e59db",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index gives Melvin Diamond a protected identifier and the unexplained note 'also AS'. Common-name discovery results lack a match on identifier and OSS context; the note cannot be expanded by inference.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Melvin Diamond's Box 185 file for the meaning of 'also AS', full identity and documented pre-OSS employer or assignment.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "eadd095b-3044-5a40-9c61-9f7b6ef1e45c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The printed Damon Diamondes row carries a T/Sgt grade displaced into the middle-initial column but no service identifier. Variant-spelling and obituary discovery results do not bridge a specific person to Box 185 or name a predecessor employer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Damon Diamondes's Box 185 file for service identity, technical-sergeant assignment and last civilian employer; investigate name variants only with a second identifier.",
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b580-deyoung-terminal-review", "person_id": "bb2f7687-e088-5ab7-9bb8-6b74a5899f4f", "source_adapter": "manual_evidence_review", "query_text": "NARA index; saved CIA and LoC searches; John E/Edward de Young OSS, Far East Desk, anthropology, University of Chicago, institutional directory and archival searches.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T02:00:00Z", "completed_at": "2026-09-20T02:31:00Z", "outcome": "candidate_found", "sources_reviewed": 2, "candidate_sources_rejected": 1, "rejection_reasons": "Same-name institutional and later-career results lack a link to the unnumbered index row; Densho is a substantive candidate, not a confirmed index match.", "research_notes": "Student-status lead retained privately. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Compare Box 185 and cited 1950 anthropology directory.", "attempt_number": 3, "research_agent_version": "before-oss/batch-580-v1"
+    },
+    {
+      "key": "b580-dezman-terminal-review", "person_id": "e3f6b1ff-70df-51f9-b771-c60b55c6d9b8", "source_adapter": "manual_evidence_review", "query_text": "NARA index; saved CIA and LoC searches; Louis A Dezman OSS, employer/occupation 1940, radio-amateur directories, contemporary and archival searches.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T02:00:00Z", "completed_at": "2026-09-20T02:31:00Z", "outcome": "candidate_rejected", "sources_reviewed": 1, "candidate_sources_rejected": 2, "rejection_reasons": "1936/1940 radio-amateur callbook lists a name, not an employer or OSS service; 1952-1963 Euclid city-directory namesakes are postwar and have no index identity bridge.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 185.", "attempt_number": 3, "research_agent_version": "before-oss/batch-580-v1"
+    },
+    {
+      "key": "b580-diab-terminal-review", "person_id": "322aa2f1-ff7d-566d-b961-ed2126809a4c", "source_adapter": "manual_evidence_review", "query_text": "NARA index and official Army bulk crosswalk; saved CIA and LoC searches; Serge A Diab OSS, employer/occupation 1940, institutional, obituary and archival searches.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T02:00:00Z", "completed_at": "2026-09-20T02:31:00Z", "outcome": "source_reviewed", "sources_reviewed": 2, "candidate_sources_rejected": 1, "rejection_reasons": "Genealogy/person-list results do not document a pre-OSS employer; no occupational code is promoted to an employer.", "research_notes": "Army identity crosswalk accepted. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 185.", "attempt_number": 3, "research_agent_version": "before-oss/batch-580-v1"
+    },
+    {
+      "key": "b580-dial-terminal-review", "person_id": "91c597f7-5760-527d-9995-f29749e13b3b", "source_adapter": "manual_evidence_review", "query_text": "NARA index; saved CIA and LoC searches; John G Dial Jr second lieutenant OSS, employer/occupation 1940, official military, obituary and archival searches.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T02:00:00Z", "completed_at": "2026-09-20T02:31:00Z", "outcome": "candidate_rejected", "sources_reviewed": 1, "candidate_sources_rejected": 1, "rejection_reasons": "A John G Dial genealogy lead lacks rank, protected identifier and OSS Box 185 linkage; a name and birth/death chronology alone cannot establish this indexed officer.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 185 and original officer records.", "attempt_number": 3, "research_agent_version": "before-oss/batch-580-v1"
+    },
+    {
+      "key": "b580-dialismas-terminal-review", "person_id": "b3b06374-696f-596d-82fc-ac7161ebaab1", "source_adapter": "manual_evidence_review", "query_text": "NARA index and official Army bulk crosswalk; saved CIA and LoC searches; Spyros Dialismas OSS, employer/occupation 1940, Greek spelling, institutional and archival searches.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T02:00:00Z", "completed_at": "2026-09-20T02:31:00Z", "outcome": "source_reviewed", "sources_reviewed": 2, "candidate_sources_rejected": 1, "rejection_reasons": "Unrelated contemporary Greek surname results and modern professional profiles do not match the protected identifier or wartime context.", "research_notes": "Army identity crosswalk accepted. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 185.", "attempt_number": 3, "research_agent_version": "before-oss/batch-580-v1"
+    },
+    {
+      "key": "b580-paul-terminal-review", "person_id": "577cd1dd-ed29-546c-bcd3-14bd7f303752", "source_adapter": "manual_evidence_review", "query_text": "NARA index and official Army bulk crosswalk; saved CIA and LoC searches; Paul/Pavlos Diamantoukos OSS, employer/occupation 1940, variant spelling, Greek institutional and archival searches.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T02:00:00Z", "completed_at": "2026-09-20T02:31:00Z", "outcome": "source_reviewed", "sources_reviewed": 2, "candidate_sources_rejected": 1, "rejection_reasons": "Modern Diamantoukos civic/professional results lack the Box 185 identity bridge; Army given name PAVLOS conflicts with Paul's printed given name.", "research_notes": "Possible duplicate or variant, not resolved; no employer assigned.", "next_action": "Compare both Box 185 files with Army entry.", "attempt_number": 3, "research_agent_version": "before-oss/batch-580-v1"
+    },
+    {
+      "key": "b580-pavlos-terminal-review", "person_id": "88b7db00-ec3c-5822-ab44-ba858591e816", "source_adapter": "manual_evidence_review", "query_text": "NARA index and adjacent Paul row; saved CIA and LoC searches; Pavlos Diamantoukos OSS, employer/occupation 1940, Greek spelling and archival searches; compare official Army bulk candidate.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T02:00:00Z", "completed_at": "2026-09-20T02:31:00Z", "outcome": "source_reviewed", "sources_reviewed": 2, "candidate_sources_rejected": 1, "rejection_reasons": "The Army PAVLOS name is attached to Paul's protected identifier, not this separately printed unnumbered row; no identity or employer is transferred.", "research_notes": "Possible duplicate group retained; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Compare both Box 185 files.", "attempt_number": 3, "research_agent_version": "before-oss/batch-580-v1"
+    },
+    {
+      "key": "b580-diament-terminal-review", "person_id": "47d9cccc-5ca5-58fd-a893-04ffeeee54be", "source_adapter": "manual_evidence_review", "query_text": "NARA index, original OSS Mission to France award list and Army bulk crosswalk; saved CIA and LoC searches; Goodhue Diament OSS, employer/occupation 1940, contemporary institutional and archival searches.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T02:00:00Z", "completed_at": "2026-09-20T02:31:00Z", "outcome": "source_reviewed", "sources_reviewed": 3, "candidate_sources_rejected": 2, "rejection_reasons": "A spouse's obituary and postwar corporate listings are not this person's pre-OSS employer evidence; a later curling-club history documents neither pre-OSS work nor recruitment date.", "research_notes": "Original OSS award confirms identity and wartime service only. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 185.", "attempt_number": 3, "research_agent_version": "before-oss/batch-580-v1"
+    },
+    {
+      "key": "b580-diamond-terminal-review", "person_id": "330b0c5e-6c4a-5f75-8a64-4720405e59db", "source_adapter": "manual_evidence_review", "query_text": "NARA index; saved CIA and LoC searches; Melvin Diamond OSS and printed 'also AS' note, employer/occupation 1940, military, newspaper and archival searches.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T02:00:00Z", "completed_at": "2026-09-20T02:31:00Z", "outcome": "no_result", "sources_reviewed": 1, "candidate_sources_rejected": 0, "research_notes": "Common name and unexplained note prevent a namesake assignment. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 185 and decode note from file context.", "attempt_number": 3, "research_agent_version": "before-oss/batch-580-v1"
+    },
+    {
+      "key": "b580-diamondes-terminal-review", "person_id": "eadd095b-3044-5a40-9c61-9f7b6ef1e45c", "source_adapter": "manual_evidence_review", "query_text": "NARA index; saved CIA and LoC searches; Damon Diamondes OSS, Diamondes/Diomandes variants, employer/occupation 1940, military, obituary and archival searches.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T02:00:00Z", "completed_at": "2026-09-20T02:31:00Z", "outcome": "candidate_rejected", "sources_reviewed": 1, "candidate_sources_rejected": 1, "rejection_reasons": "A modern Damon Diomandes people-finder result lacks wartime rank, OSS context or Box 185 linkage; it is not a pre-OSS employer source.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 185.", "attempt_number": 3, "research_agent_version": "before-oss/batch-580-v1"
+    }
+  ]
+}

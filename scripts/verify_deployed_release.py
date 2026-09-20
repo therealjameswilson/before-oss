@@ -17,6 +17,15 @@ from urllib.request import Request, urlopen
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = "data/public_build_manifest.json"
 CORE_ROUTES = ("", "people/", "organizations/", "analysis/", "methodology/", "sources/", "downloads/")
+SOURCE_PAGE_SIZE = 150
+
+
+def source_register_routes(source_count: int) -> tuple[str, ...]:
+    """Return all paginated register routes after the first Sources page."""
+    if source_count < 0:
+        raise ValueError("Source count must not be negative")
+    page_count = max(1, (source_count + SOURCE_PAGE_SIZE - 1) // SOURCE_PAGE_SIZE)
+    return tuple(f"sources/page/{page}/" for page in range(2, page_count + 1))
 
 
 def validate_path(path: str) -> str:
@@ -109,6 +118,19 @@ def main() -> None:
     for route in CORE_ROUTES:
         if b"<main" not in fetch(route):
             raise ValueError(f"Core page is missing its main content: {route}")
+    paginated_template = subprocess.run(
+        ["git", "cat-file", "-e", f"{commit}:site/src/pages/sources/page/[page].astro"],
+        cwd=ROOT,
+        capture_output=True,
+        check=False,
+    ).returncode == 0
+    source_routes = ()
+    if paginated_template:
+        source_count = len(json.loads(blob("site/src/data/generated/sources.json")))
+        source_routes = source_register_routes(source_count)
+        for route in source_routes:
+            if b"<main" not in fetch(route):
+                raise ValueError(f"Source register page is missing its main content: {route}")
     people = []
     if args.evidence_bundle:
         bundle = json.loads(blob(validate_path(args.evidence_bundle)))
@@ -122,6 +144,7 @@ def main() -> None:
             if b"<main" not in body or person_id.encode() not in body:
                 raise ValueError(f"Direct profile did not render its identifier: {person_id}")
     report.update(commit=commit, core_routes_verified=len(CORE_ROUTES),
+                  source_register_pages_verified=1 + len(source_routes),
                   direct_profiles_verified=len(people), base_url=args.base_url)
     print(json.dumps(report, indent=2))
 

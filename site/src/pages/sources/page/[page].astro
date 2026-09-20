@@ -1,0 +1,50 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import SourceRegister from "../../../components/SourceRegister.astro";
+import sourceData from "../../../data/generated/sources.json";
+import { sourcePageCount, SOURCES_PER_PAGE } from "../../../lib/sourcePagination";
+import type { PublicSource } from "../../../types";
+
+const allSources = sourceData as unknown as PublicSource[];
+const pageCount = sourcePageCount(allSources.length);
+
+export function getStaticPaths() {
+  const sources = sourceData as unknown as PublicSource[];
+  const count = sourcePageCount(sources.length);
+  return Array.from({ length: Math.max(0, count - 1) }, (_, index) => ({
+    params: { page: String(index + 2) },
+    props: { pageNumber: index + 2 },
+  }));
+}
+
+const { pageNumber } = Astro.props as { pageNumber: number };
+const firstIndex = (pageNumber - 1) * SOURCES_PER_PAGE;
+const sources = allSources.slice(firstIndex, firstIndex + SOURCES_PER_PAGE);
+---
+
+<BaseLayout
+  title={`Sources, page ${pageNumber}`}
+  description={`Page ${pageNumber} of ${pageCount} in the Before OSS published evidence register.`}
+  eyebrow="Sources"
+>
+  <header class="page-hero">
+    <div class="container">
+      <p class="kicker">Published evidence register</p>
+      <h1>Item-level sources · page {pageNumber}</h1>
+      <p class="lede">
+        Sources are listed as cited; a collection-level link alone is not
+        evidence for a particular person's pre-OSS affiliation.
+      </p>
+    </div>
+  </header>
+  <section class="section section--paper-light">
+    <div class="container">
+      <SourceRegister
+        sources={sources}
+        pageNumber={pageNumber}
+        pageCount={pageCount}
+        totalSources={allSources.length}
+      />
+    </div>
+  </section>
+</BaseLayout>

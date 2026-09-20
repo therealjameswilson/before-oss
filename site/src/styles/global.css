@@ -1033,6 +1033,34 @@ dd {
   margin-block: 0.35rem;
 }
 
+.source-register__summary,
+.source-register__download {
+  color: var(--ink-soft);
+}
+
+.source-register__pages {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-block: 2rem;
+}
+
+.source-register__pages a {
+  display: inline-block;
+  padding: 0.55rem 0.8rem;
+  border: 1px solid var(--navy);
+  color: var(--navy);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.source-register__pages a:hover,
+.source-register__pages a:focus-visible {
+  background: var(--navy);
+  color: white;
+}
+
 .citation-meta {
   color: var(--ink-soft);
   font-size: 0.82rem;

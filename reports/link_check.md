@@ -1,5 +1,18 @@
 # Link check
 
+Latest local candidate: 2026-09-20 UTC, Batch 580. All internal links resolve
+across 24,646 generated HTML pages, including 25 directly addressable Sources
+register pages. The checker inventoried 50,119 unique external URLs; it did
+not visit every external target. The local public manifest verifies 67 assets
+and 96,140,066 bytes at SHA-256
+`57a2093ae9e4e34530c87122095c7cec51854afe08f2325ef4b4d079558b30e1`.
+Two consecutive builds reproduced the 70-file public tree digest
+`e7827ab78bcf48466ff4294b24064c37bd8247171cdd6d883081448dc91ea86e`
+and 24,718-file production tree digest
+`ee93ab4b0db1dd60f7d32c6606be8edc3651d09158fed2b9b8b0618a724a56f8`.
+The full-identifier audit found zero unexpected boundary matches across those
+24,718 production artifacts. Live Pages verification remains pending.
+
 Latest run: 2026-09-19 UTC
 
 ## Batch 579 exact-verified public release

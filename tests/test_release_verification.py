@@ -66,3 +66,12 @@ class ReleaseVerificationTests(unittest.TestCase):
             asset.write_bytes(b"stale checkout")
             with self.assertRaisesRegex(ValueError, "Asset size mismatch"):
                 release.verify_local_tree(public_root)
+
+    def test_paginated_source_routes_cover_every_page_after_index(self):
+        self.assertEqual(release.source_register_routes(0), ())
+        self.assertEqual(release.source_register_routes(150), ())
+        self.assertEqual(release.source_register_routes(151), ("sources/page/2/",))
+        self.assertEqual(len(release.source_register_routes(3694)), 24)
+        self.assertEqual(release.source_register_routes(3694)[-1], "sources/page/25/")
+        with self.assertRaises(ValueError):
+            release.source_register_routes(-1)

@@ -26,6 +26,11 @@ const organizations = JSON.parse(
     "utf8",
   ),
 ) as Organization[];
+const sourceCount = (
+  JSON.parse(
+    fs.readFileSync(new URL("../src/data/generated/sources.json", import.meta.url), "utf8"),
+  ) as unknown[]
+).length;
 const oilCompanyPeople = new Map(
   oilCompanyEmployees(organizations).employees.map((person) => [
     person.personId,
@@ -110,6 +115,24 @@ test("home oil-company category names only cited employees and their companies",
   await expect(page.locator("#result-summary")).toContainText(
     `${oilCompanyPeople.size} results`,
   );
+});
+
+test("published source register has small, directly addressable static pages", async ({ page }) => {
+  const pageCount = Math.ceil(sourceCount / 150);
+  await page.goto("./sources/");
+  await expect(page.locator(".source-register .citation-list li")).toHaveCount(150);
+  await expect(page.getByText(`of ${sourceCount.toLocaleString("en-US")} published item-level sources.`)).toBeVisible();
+  await page.getByRole("navigation", { name: "Source register pages" })
+    .getByRole("link", { name: "Next page" }).click();
+  await expect(page).toHaveURL(/sources\/page\/2\/$/);
+  await expect(page.locator(".source-register .citation-list li")).toHaveCount(150);
+  await expect(page.locator(".source-register ol")).toHaveAttribute("start", "151");
+
+  await page.goto(`./sources/page/${pageCount}/`);
+  await expect(page.locator(".source-register .citation-list li"))
+    .toHaveCount(sourceCount - (pageCount - 1) * 150);
+  await expect(page.getByRole("navigation", { name: "Source register pages" }))
+    .toContainText(`Page ${pageCount} of ${pageCount}`);
 });
 
 test("top oil-company category link opens only the documented employee set", async ({ page }) => {

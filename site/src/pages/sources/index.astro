@@ -1,9 +1,12 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import SourceRegister from "../../components/SourceRegister.astro";
 import sourceData from "../../data/generated/sources.json";
+import { sourcePageCount, SOURCES_PER_PAGE } from "../../lib/sourcePagination";
 import type { PublicSource } from "../../types";
 
 const sources = sourceData as unknown as PublicSource[];
+const pageCount = sourcePageCount(sources.length);
 ---
 
 <BaseLayout
@@ -64,17 +67,12 @@ const sources = sourceData as unknown as PublicSource[];
       <h2>{sources.length.toLocaleString("en-US")} item-level sources currently published</h2>
       {
         sources.length ? (
-          <ol class="citation-list">
-            {sources.map((source) => (
-              <li>
-                {source.author_creator && <span>{source.author_creator}. </span>}
-                <cite>{source.title}</cite>. {source.repository_publisher}.
-                {source.publication_record_date && ` ${source.publication_record_date}.`}
-                {source.locator && ` ${source.locator}.`}
-                {source.stable_url && <a href={source.stable_url}> View source</a>}
-              </li>
-            ))}
-          </ol>
+          <SourceRegister
+            sources={sources.slice(0, SOURCES_PER_PAGE)}
+            pageNumber={1}
+            pageCount={pageCount}
+            totalSources={sources.length}
+          />
         ) : (
           <div class="empty-state">
             <p>
