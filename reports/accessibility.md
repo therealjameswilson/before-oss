@@ -1,6 +1,6 @@
 # Accessibility and responsive QA
 
-Batch 583 local release candidate, 2026-09-20 UTC: the bounded Playwright
+Batch 583 exact-verified public release, 2026-09-20 UTC: the bounded Playwright
 release suite passed **72/72** checks across desktop, phone and tablet:
 nine Batch 583 cohort-profile checks, 30 core-route checks, six analysis
 checks, and 27 axe checks with no serious or critical violations. The new
@@ -9,7 +9,10 @@ sections, Martin Dickson's visibly medium-confidence Army pathway and
 citation links, and two documented Army-name variants. An initial test run
 failed because the memorial citation correctly appears in two claims but the
 test locator assumed one link; the locator was corrected and the complete
-suite then passed. GitHub Actions and live-site deployment remain pending.
+suite then passed. The PR and merged-main Tests and Pages deployment passed;
+the live verifier matched all sixteen direct profiles at commit
+`290c475de5f93e402cce9dd59c1401b38fc538b1`. See
+`reports/release_batch_583.md`.
 
 Batch 582 exact-verified public release, 2026-09-20 UTC: the bounded release suite
 passed **72/72** checks across desktop, phone and tablet: nine cohort-profile

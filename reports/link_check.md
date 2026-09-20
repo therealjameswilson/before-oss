@@ -1,15 +1,18 @@
 # Link check
 
-Batch 583 local release candidate, 2026-09-20 UTC: all internal links
+Batch 583 exact-verified public release, 2026-09-20 UTC: all internal links
 resolve across **24,647** built HTML files, including 25 Sources pages.
 The checker inventoried **50,123** unique external URLs but did not visit
 every target. The public-identifier audit found zero unexpected full-number
 boundary matches across **24,719** public artifacts. The local manifest
 verifier matched all **67** public assets / **96,257,044** bytes at SHA-256
 `627cbe5739353460d5be678585e846f3def345622e52ef550a50d0e4f110770d`.
-The deployed site has not yet been checked against this local build.
+The unauthenticated live verifier matched all 67 assets, seven core routes,
+25 Sources pages and sixteen direct profiles to exact merge commit
+`290c475de5f93e402cce9dd59c1401b38fc538b1`; see
+`reports/release_batch_583.md`.
 
-Latest exact-verified public release: 2026-09-20 UTC, Batch 582. All internal links resolve
+Previous exact-verified public release: 2026-09-20 UTC, Batch 582. All internal links resolve
 across 24,647 generated HTML pages, including 25 Sources-register pages.
 The checker inventoried 50,121 unique external URLs without visiting every
 external target. The full-identifier audit found zero unexpected boundary
