@@ -1,6 +1,7 @@
 # Research status
 
-Batch 585 is locally reviewed and built, but not yet released. It covers
+Batch 585 is live and exact-verified at merge commit
+`d01a71916bc0dd9a2734a887c251235780b5f72d`. It covers
 PDF page 118, rows 11–30, in Boxes 186–187. Twenty people have saved CIA,
 LoC and manual cross-source research attempts with terminal online
 `requires_archival_review` outcomes. Eight official Army bulk crosswalks
@@ -12,6 +13,11 @@ Dillon Jr newspaper employer and a 1958 Clair F Dillman employer were
 specifically kept out of the pre-OSS dataset. See
 `research/batch-585-terminal-review.md`, its importable evidence bundle and
 review-decision files.
+[PR #296](https://github.com/therealjameswilson/before-oss/pull/296),
+the PR and merged-main Tests, and GitHub Pages deployment passed. The
+unauthenticated live verifier matched 67 assets, seven core routes, 25
+Sources pages, and all twenty direct profiles to the merge commit; see
+`reports/release_batch_585.md`.
 
 Current local SQLite has 23,978/23,978 linked source rows, 23,940 active
 people, 5,630/23,940 people with nonplanned attempts (23.5171%),
