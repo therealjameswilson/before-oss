@@ -1,5 +1,32 @@
 # Research status
 
+Batch 597 rechecked all 46 rows of PDF page 125 (Dresden through Dubuc),
+already among the 99 visually reviewed pages. A bounded Library of Congress
+pass saved 46 successful discovery attempts and six unreviewed candidates for
+five people. Eight official Army bulk-file crosswalks were accepted privately
+for identity only. A 1944 OSS interview board directly documents Martin L
+Druckenmiller's immediate **Army** replacement-center pathway and civilian
+occupation as draftsman, but not a named civilian employer. It directly
+documents Robert Gamble's earlier Packard Car Company employment, without
+establishing Packard as his final civilian employer before Army service.
+Robert J Koch's apparently relevant board entry has an identifier conflict
+and remains an unpublished identity lead. The top oil-company category
+remains limited to six people at eight cited oil companies. See
+`research/batch-597-progress.md` and its replayable evidence file. No
+authenticated NARA Catalog request was made.
+
+Current local SQLite has 23,978/23,978 linked source rows, 23,940 active
+people, 5,963/23,940 people with nonplanned attempts (24.9081%),
+268/23,940 with confirmed/high published employer evidence (1.1195%),
+612/23,940 with confirmed/high published affiliation evidence (2.5564%),
+and 5,711/23,940 with assessed archival-review dispositions (23.8555%).
+There are 17,977 active `not_started` people and 261 possible-duplicate
+groups. Private SQLite has 10,948 attempts and 4,847 claims: 1,311
+confirmed, 1,852 high, 1,368 medium, 185 low, and 131 conflicting. It has
+4,957 citation records and 2,290 unique source-document keys. The public
+projection has 2,187 affiliations, 685 organizations, 3,761 sources, and
+4,658 claims. The full-index historical research goal remains unfinished.
+
 Batch 596 rechecked all 46 rows of PDF page 124 (Downey through
 Drendel), which was already in the extraction sample; distinct page-level
 visual review remains at 99 pages. A bounded Library
