@@ -1,5 +1,17 @@
 # Accessibility and responsive QA
 
+Batch 592 local validation, 2026-09-20 UTC: the bounded release suite
+passed **75/75** desktop/phone/tablet checks: six oil-category correction
+checks, 33 core-route checks, six analysis checks, and 30 accessibility
+checks with no serious or critical axe violations. The new tests verify
+that a court-documented oil-company representative is absent from the
+employee category while the qualified historical association remains on
+his profile. Astro checked 221 source files with zero errors, warnings,
+or hints and built 24,657 static pages. The link check resolved every
+internal link across those pages. A separate attempt to enumerate the full
+historical Playwright suite exceeded Node's 4 GB heap; the bounded release
+suite passed. These are local checks, not evidence of live deployment.
+
 Batch 591 local validation, 2026-09-20 UTC: the bounded release suite
 passed **84/84** desktop/phone/tablet checks: 15 latest-cohort checks,
 33 core-route checks, six analysis checks, and 30 accessibility checks

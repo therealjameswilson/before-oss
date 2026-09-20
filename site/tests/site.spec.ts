@@ -100,6 +100,7 @@ test("featured oil-company category lists employment relationships only", async 
   }
 
   await expect(page.getByRole("link", { name: "Martin B Chittick", exact: true })).toHaveCount(0);
+  await expect(page.getByRole("link", { name: "Fred Bielaski", exact: true })).toHaveCount(0);
   await category.getByRole("button", { name: /Show all personnel/i }).click();
   await expect(page).not.toHaveURL(/featured=oil_companies/);
   await expect(page.locator("#result-summary")).toContainText(
@@ -116,6 +117,7 @@ test("home oil-company category names only cited employees and their companies",
     await expect(category.getByRole("link", { name, exact: true })).toBeVisible();
   }
   await expect(category.getByRole("link", { name: "The Pure Oil Company" })).toHaveCount(0);
+  await expect(category.getByRole("link", { name: "Fred Bielaski", exact: true })).toHaveCount(0);
   await expect(category.getByText("Qualified medium-confidence claim").first()).toBeVisible();
   await category.getByRole("link", { name: "Open this category" }).click();
   await expect(page).toHaveURL(/oil-companies\/$/);
@@ -130,6 +132,7 @@ test("oil-company landing page lists only cited employees and labels qualified c
     await expect(list.getByRole("link", { name, exact: true })).toBeVisible();
   }
   await expect(list.getByRole("link", { name: "Martin B Chittick" })).toHaveCount(0);
+  await expect(list.getByRole("link", { name: "Fred Bielaski", exact: true })).toHaveCount(0);
   await expect(list.getByText("Qualified medium-confidence employment claim").first()).toBeVisible();
   await list.getByRole("link", { name: "Review claim-level evidence" }).first().click();
   await expect(page).toHaveURL(/people\/[^/]+\/#evidence$/);
