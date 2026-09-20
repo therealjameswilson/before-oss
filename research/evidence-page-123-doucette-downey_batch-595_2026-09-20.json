@@ -1,0 +1,265 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 595 source review",
+  "sources": [
+    {
+      "key": "index-b595",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 196",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 123, printed rows 27-28; original page image checked; Box 196, location 230/86/30/02",
+      "access_date": "2026-09-20",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Printed names and two separate source rows retained. Full service identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b595",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; protected full-name and unique-identifier crosswalk, record ordinals 364286-364287",
+      "access_date": "2026-09-20",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Official bulk data, not a Catalog API response. Full identifiers and raw records are not published; occupation codes are not named employers."
+    },
+    {
+      "key": "museum-doundoulakis-oral-b595",
+      "stable_url": "https://www.ww2online.org/view/helias-doundoulakis",
+      "title": "Oral History: Doundoulakis, Helias",
+      "author_creator": "Helias Doundoulakis; National WWII Museum oral history project",
+      "repository_publisher": "The National WWII Museum Digital Collections",
+      "locator": "'Prewar Life to Greek Resistance' and 'Escaping Crete and Joining the OSS' annotations, paragraphs on the brothers' Cretan resistance work, Army enlistment, and OSS recruitment",
+      "access_date": "2026-09-20",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "First-person oral-history description reviewed; public data use a project paraphrase and a short excerpt only. The interview is retrospective and its precise dates need personnel-file confirmation."
+    },
+    {
+      "key": "museum-doundoulakis-podcast-b595",
+      "stable_url": "https://www.nationalww2museum.org/war/podcasts/secret-wwii-spies-special-ops/bonus-episode-voices-secret-wwii",
+      "title": "Bonus Episode: Voices of the Secret WWII",
+      "author_creator": "Bradley Hart; Helias Doundoulakis",
+      "repository_publisher": "The National WWII Museum",
+      "locator": "Transcript section introduced by Bradley Hart and headed 'Helias Doundoulakis', describing the brothers' departure from Crete and U.S. Army enlistment",
+      "access_date": "2026-09-20",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "This edited podcast reuses the Helias oral history, so it is corroborative context, not an independent second witness; quote is under 25 words."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "united-states-army",
+      "canonical_name": "United States Army",
+      "historical_name": "U.S. Army",
+      "aliases": ["United States Army", "Army"],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Army service is a military assignment, not a civilian employer; individual units and transfer dates require person-level evidence."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "b595-george-doundoulakis-army-before-oss",
+      "person_id": "a2b4dafa-878e-5de0-8f04-31a0ecea4933",
+      "organization_key": "united-states-army",
+      "organization_name_as_found": "United States Army",
+      "relationship_type": "military_assignment",
+      "start_date": "1943-09",
+      "date_precision": "The oral history places enlistment in September 1943 and says OSS assignment followed; official Army bulk data agree on a September 1943 entry code. Exact Army-to-OSS transfer date and unit remain unknown.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The Army was the documented formal military pathway immediately before OSS. Earlier SOE-supported Cretan resistance was not established as paid employment. The last civilian employer before enlistment is unknown."
+    },
+    {
+      "key": "b595-helias-doundoulakis-army-before-oss",
+      "person_id": "1a853afd-b422-501f-8834-6ad8e293ceac",
+      "organization_key": "united-states-army",
+      "organization_name_as_found": "United States Army",
+      "relationship_type": "military_assignment",
+      "start_date": "1943-09",
+      "date_precision": "The oral history places enlistment in September 1943 and says OSS assignment followed; official Army bulk data agree on a September 1943 entry code. Exact Army-to-OSS transfer date and unit remain unknown.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The Army was the documented formal military pathway immediately before OSS. Earlier SOE-supported Cretan resistance was not established as paid employment. The last civilian employer before enlistment is unknown."
+    }
+  ],
+  "claims": [
+    {
+      "key": "b595-george-doundoulakis-identity",
+      "person_id": "a2b4dafa-878e-5de0-8f04-31a0ecea4933",
+      "claim_type": "identity",
+      "claim_text": "The indexed George J Doundoulakis is linked with high confidence to the brother described in Helias Doundoulakis's oral history.",
+      "evidence_paraphrase": "The NARA index and official Army bulk record have the same full name and a nonshared protected identifier. Helias's National WWII Museum oral history independently describes his brother George in the Cretan resistance, U.S. Army, and OSS sequence.",
+      "identity_match_assessment": "High: full indexed name and nonshared protected identifier agree with official Army bulk record ordinal 364286; the museum oral history names brother George and the same Army-to-OSS pathway. Box 196 has not been opened.",
+      "temporal_assessment": "The museum describes Cretan resistance before Army enlistment in September 1943 and OSS recruitment afterward; exact OSS start date needs archival confirmation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The separate Helias index row and consecutive Army bulk record are not merged into George. No employer is inferred from the Army occupation code or the brothers' later careers.",
+      "sources": [
+        {"source_key": "index-b595", "locator_override": "PDF page 123, row 27, Box 196"},
+        {"source_key": "army-bulk-b595", "locator_override": "Official bulk record ordinal 364286; exact full indexed name and protected nonshared identifier"},
+        {"source_key": "museum-doundoulakis-oral-b595"}
+      ]
+    },
+    {
+      "key": "b595-helias-doundoulakis-identity",
+      "person_id": "1a853afd-b422-501f-8834-6ad8e293ceac",
+      "claim_type": "identity",
+      "claim_text": "The indexed Helias J Doundoulakis is linked with high confidence to the National WWII Museum oral-history subject.",
+      "evidence_paraphrase": "The NARA index and official Army bulk record have the same full name and a nonshared protected identifier. The museum's oral history names Helias and describes his U.S. Army and OSS service.",
+      "identity_match_assessment": "High: full indexed name and nonshared protected identifier agree with official Army bulk record ordinal 364287; the distinctive museum oral-history subject independently matches the wartime Army-to-OSS context. Box 196 has not been opened.",
+      "temporal_assessment": "The museum describes Cretan resistance before Army enlistment in September 1943 and OSS recruitment afterward; exact OSS start date needs archival confirmation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The separate George index row and consecutive Army bulk record are not merged into Helias. The source's alternate 'Elias' spelling is not silently substituted for the printed index name.",
+      "sources": [
+        {"source_key": "index-b595", "locator_override": "PDF page 123, row 28, Box 196"},
+        {"source_key": "army-bulk-b595", "locator_override": "Official bulk record ordinal 364287; exact full indexed name and protected nonshared identifier"},
+        {"source_key": "museum-doundoulakis-oral-b595"}
+      ]
+    },
+    {
+      "key": "b595-george-doundoulakis-immediate-army",
+      "person_id": "a2b4dafa-878e-5de0-8f04-31a0ecea4933",
+      "affiliation_key": "b595-george-doundoulakis-army-before-oss",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "George J Doundoulakis enlisted in the U.S. Army before joining the OSS; this was a military pathway, not a civilian employer.",
+      "evidence_paraphrase": "Helias's museum oral history says that he and George enlisted in the Army in September 1943 and then joined OSS after a basic-training waiver. An edited museum podcast transcribes Helias describing both brothers entering the Army; official bulk records show both Army entries.",
+      "identity_match_assessment": "The exact-name, nonshared protected Army identifier links indexed George to the official record; the museum identifies Helias's brother George in the same Army-to-OSS sequence.",
+      "temporal_assessment": "Explicit sequence in the oral history: resistance work, Army enlistment, then OSS recruitment. Exact transfer date and civilian pre-service employer are not documented.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "U.S. Army is an immediately preceding military assignment only. Do not count it as civilian employment or classify the earlier Cretan resistance as paid SOE employment.",
+      "sources": [
+        {"source_key": "museum-doundoulakis-oral-b595"},
+        {"source_key": "museum-doundoulakis-podcast-b595", "excerpt_override": "We entered the American army."},
+        {"source_key": "army-bulk-b595", "locator_override": "Official bulk record ordinal 364286; protected name-and-identifier agreement and September 1943 entry code"}
+      ]
+    },
+    {
+      "key": "b595-helias-doundoulakis-immediate-army",
+      "person_id": "1a853afd-b422-501f-8834-6ad8e293ceac",
+      "affiliation_key": "b595-helias-doundoulakis-army-before-oss",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Helias J Doundoulakis enlisted in the U.S. Army before joining the OSS; this was a military pathway, not a civilian employer.",
+      "evidence_paraphrase": "Helias's museum oral history says that he and George enlisted in the Army in September 1943 and then joined OSS after a basic-training waiver. An edited museum podcast transcribes his own description of entering the Army; official bulk records show his Army entry.",
+      "identity_match_assessment": "The exact-name, nonshared protected Army identifier links indexed Helias to the official record; the museum names him as the first-person oral-history subject.",
+      "temporal_assessment": "Explicit sequence in the oral history: resistance work, Army enlistment, then OSS recruitment. Exact transfer date and civilian pre-service employer are not documented.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "U.S. Army is an immediately preceding military assignment only. Do not count it as civilian employment or infer an employer from his father's former restaurant or his own postwar work.",
+      "sources": [
+        {"source_key": "museum-doundoulakis-oral-b595"},
+        {"source_key": "museum-doundoulakis-podcast-b595", "excerpt_override": "We entered the American army."},
+        {"source_key": "army-bulk-b595", "locator_override": "Official bulk record ordinal 364287; protected name-and-identifier agreement and September 1943 entry code"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "a2b4dafa-878e-5de0-8f04-31a0ecea4933",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact full index name and nonshared protected identifier agree with official Army bulk ordinal 364286; Helias Doundoulakis's museum oral history independently names his brother George and describes Army enlistment before OSS. Box 196 remains unreviewed.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 196 for precise Army-to-OSS transfer and pre-enlistment civilian employer; consult the underlying museum interview for resistance/SOE relationship and dates.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1a853afd-b422-501f-8834-6ad8e293ceac",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact full index name and nonshared protected identifier agree with official Army bulk ordinal 364287; Helias Doundoulakis is the museum oral-history subject and describes his Army enlistment before OSS. Box 196 remains unreviewed.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 196 for precise Army-to-OSS transfer and pre-enlistment civilian employer; do not use the father's restaurant or postwar Grumman work as Helias's employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "38cfc8c6-f3da-5fd6-b4b0-5558fa8b6805",
+      "identity_status": "probable",
+      "identity_evidence": "The index prints Theodore D'Oultremont, Belgian second lieutenant, Box 196. A Comète Kinship Belgium profile for Théodore Robert Elie Joseph Ghislain Marie d'Oultremont describes a Belgian reserve-officer candidate and later OSS liaison, citing Belgian defense dossier OO-46851. The original dossier and Box 196 are not yet inspected, so the candidate is not treated as a settled match or a pre-OSS employer.",
+      "manual_review_required": true,
+      "research_status": "needs_temporal_review",
+      "next_action": "Compare Box 196 with Belgian defense dossier OO-46851; determine whether Belgian State Security service preceded or overlapped OSS liaison before assigning an immediate pre-OSS institution. Keep this Theodore separate from Georges, Edouard, and Charles-Emile d'Oultremont.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b595-george-doundoulakis-source-review",
+      "person_id": "a2b4dafa-878e-5de0-8f04-31a0ecea4933",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "George J Doundoulakis NARA index, official Army bulk crosswalk, National WWII Museum Helias oral history and podcast, pre-OSS employer and Army-to-OSS chronology",
+      "query_variant_type": "cross_source_identity_and_temporal_review",
+      "started_at": "2026-09-20T15:59:00Z",
+      "completed_at": "2026-09-20T16:03:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Wikipedia and postwar institutional biographies were discovery-only; they do not establish a named pre-enlistment employer. The museum oral history does not establish paid SOE employment or an exact OSS transfer date.",
+      "research_notes": "The official Army bulk candidate has an exact full-name and nonshared protected-identifier match. The museum's oral history and derivative podcast place Army enlistment between Cretan resistance and OSS. George's last civilian employer is not identified.",
+      "next_action": "Inspect Box 196 and a dated pre-enlistment employment source.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss/batch-595-v1"
+    },
+    {
+      "key": "b595-helias-doundoulakis-source-review",
+      "person_id": "1a853afd-b422-501f-8834-6ad8e293ceac",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Helias J Doundoulakis NARA index, official Army bulk crosswalk, National WWII Museum first-person oral history and podcast, pre-OSS employer and Army-to-OSS chronology",
+      "query_variant_type": "cross_source_identity_and_temporal_review",
+      "started_at": "2026-09-20T15:59:00Z",
+      "completed_at": "2026-09-20T16:03:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Wikipedia and postwar Grumman biographies were discovery-only; they do not establish a pre-enlistment employer. The father's restaurant is not evidence of Helias's own employment.",
+      "research_notes": "The official Army bulk candidate has an exact full-name and nonshared protected-identifier match. The museum's first-person oral history and derivative podcast place Army enlistment between Cretan resistance and OSS. Helias was a high-school student in 1941 according to the interview annotation, but no school employer is inferred.",
+      "next_action": "Inspect Box 196 and a dated pre-enlistment employment source.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss/batch-595-v1"
+    },
+    {
+      "key": "b595-theodore-doultremont-temporal-review",
+      "person_id": "38cfc8c6-f3da-5fd6-b4b0-5558fa8b6805",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Theodore and Théodore d'Oultremont Belgian OSS liaison, Comète network, Belgian State Security, defense dossier OO-46851, namesake review",
+      "query_variant_type": "foreign_name_identity_and_temporal_review",
+      "started_at": "2026-09-20T16:04:00Z",
+      "completed_at": "2026-09-20T16:06:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Georges, Edouard, and Charles-Emile d'Oultremont search hits are different named people; later UN employment is not a pre-OSS employer. The Comète Kinship page references an uninspected Belgian defense dossier and describes State Security-OSS liaison, not a proven employment-to-OSS transfer.",
+      "research_notes": "The inspected https://www.cometeline.org/ficheB043.html profile supplies a probable identity lead with Belgian reserve-officer and OSS-liaison context, but its cited Archives Notariales Défense OO-46851 was not inspected. The indexed Box 196 file has not been inspected. No pre-OSS employer, immediate predecessor, or formal OSS transfer is published.",
+      "next_action": "Inspect Box 196 and Belgian defense dossier OO-46851 side by side; preserve potentially concurrent Belgian State Security and OSS roles rather than treating one as the other's predecessor without dates.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss/batch-595-v1"
+    }
+  ]
+}

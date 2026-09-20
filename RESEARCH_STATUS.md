@@ -1,5 +1,35 @@
 # Research status
 
+Batch 595 visually checked all 46 rows of PDF page 123 (Doucette through
+Downey) and ran 46 rate-limited Library of Congress discovery requests with
+zero errors, retaining 31 unreviewed links. The official Army bulk file's
+exact-name and nonshared-identifier evidence was accepted privately for the
+separate George J and Helias J Doundoulakis rows. A first-person National
+WWII Museum oral history places U.S. Army enlistment between their Cretan
+resistance work and OSS recruitment; two cited **military**, not civilian
+employer, immediate-affiliation claims are now published. The last civilian
+employer before enlistment remains unknown for both. A detailed Comète
+Kinship Belgium page supplies a probable lead for Belgian Theodore
+D'Oultremont, but its cited defense dossier and Box 196 remain uninspected;
+no predecessor affiliation is assigned because State Security and OSS
+liaison roles may have overlapped. Arden W Dow, Sterling Dow, and Donald C
+Downes already had documented outcomes; their claims were not duplicated.
+See `research/batch-595-progress.md` and its replayable files. No
+authenticated NARA Catalog request was made.
+
+Current local SQLite has 23,978/23,978 linked source rows, 23,940 active
+people, 5,870/23,940 people with nonplanned attempts (24.5196%),
+266/23,940 with confirmed/high published employer evidence (1.1111%),
+609/23,940 with confirmed/high published affiliation evidence (2.5439%),
+and 5,704/23,940 with assessed archival-review dispositions (23.8262%).
+There are 18,070 active `not_started` people and 261 possible-duplicate
+groups. Private SQLite has 10,849 attempts and 4,836 claims: 1,308
+confirmed, 1,847 high, 1,367 medium, 185 low, and 129 conflicting. It has
+4,946 citation records and 2,281 unique source-document keys. The public
+projection has 2,182 affiliations, 684 organizations, 3,751 sources, and
+4,647 claims. This local batch must pass release checks and deployment
+verification separately; the full-index historical research goal is unfinished.
+
 Batch 594 visually checked all 46 printed rows of PDF page 122 (Donovan
 through Doucette), ran 46 rate-limited Library of Congress discovery
 requests without errors, and saved 30 unreviewed candidate links. Fourteen
@@ -26,8 +56,8 @@ groups. Private SQLite has 10,800 attempts and 4,832 claims: 1,308
 confirmed, 1,843 high, 1,367 medium, 185 low, and 129 conflicting. It has
 4,942 citation records and 2,279 unique source-document keys. The public
 projection has 2,180 affiliations, 684 organizations, 3,747 sources, and
-4,643 claims. This batch is local until release verification; the full-index
-research goal remains unfinished.
+4,643 claims. Batch 594 was merged and deployed through PR #308; the
+full-index research goal remains unfinished.
 
 Batch 593 advanced all 46 rows on PDF page 121 (Doll through Donovan): the
 printed page was visually checked, 46 rate-limited Library of Congress
