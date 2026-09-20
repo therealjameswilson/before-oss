@@ -1,5 +1,14 @@
 # Accessibility and responsive QA
 
+Batch 588 local validation, 2026-09-20 UTC: the complete bounded release
+suite passed **72/72** desktop/phone/tablet checks: 12 latest-cohort checks,
+24 core-route checks, six analysis checks, and 30 accessibility checks with no
+serious or critical axe violations. The cohort checks include the exact
+oil-company exclusion for an unbridged John Dixon namesake. Astro checked
+217 source files with zero errors, warnings, or hints and built 24,651 static
+pages. A stratified 200-profile audit passed its machine-checkable gates. No
+live deployment is claimed here.
+
 Batch 586 exact-verified public release, 2026-09-20 UTC: the bounded Playwright
 release suite passed **72/72** desktop, phone, and tablet checks: nine
 cohort-profile checks, 30 core-route checks (including the oil-company
