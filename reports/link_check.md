@@ -5,8 +5,8 @@ resolve across **24,649** built HTML files, including 25 Sources pages.
 The checker inventoried **50,131** unique external URLs but did not visit
 every target. The public-identifier audit found zero unexpected full-number
 boundary matches across **24,721** public artifacts. The local manifest
-verifier matched all **67** public assets / **96,357,675** bytes at SHA-256
-`167103e7d441c39934ec10e592ab1071bb3dccdfb0c53de7123dcff99cc5e0c0`.
+verifier matched all **67** public assets / **96,356,622** bytes at SHA-256
+`1ef6d8e04a6f80c68b4521fe6a592a848a0e2cf3984ecc1d95ae08bee15131e0`.
 Live verification remains pending until this commit is deployed.
 
 Batch 583 exact-verified public release, 2026-09-20 UTC: all internal links

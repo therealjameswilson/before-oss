@@ -1,6 +1,6 @@
 # Research coverage
 
-Generated: 2026-09-20T08:18:59+00:00
+Generated: 2026-09-20T08:30:12+00:00
 
 ## Distinct coverage measures
 

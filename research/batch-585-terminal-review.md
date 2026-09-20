@@ -32,21 +32,27 @@ mentions Dillow correspondence in 1939–42, but does not name his job or
 employer. Box 187 and that correspondence are the next chronology checks.
 
 Eleven LoC candidates were reviewed in official OCR context where available:
-eight rejected, three private plausible/unresolved. The 1944 Waterbury
-article about **John T** Dillon Jr names First National Warehouse as his
+eight rejected, three private plausible/unresolved. The
+[1944 *Waterbury Democrat* article](https://www.loc.gov/resource/sn82014085/1944-09-19/ed-1/?sp=2)
+about **John T** Dillon Jr names First National Warehouse as his
 pre-service employer; it cannot be transferred to the indexed **John B**
 Dillon Jr, whose Army crosswalk agrees on B and a protected identifier. A
 1946 **William J** Dillon captain reference is not evidence for indexed
 William F; whether it belongs to the adjacent indexed William J remains
 unresolved. Several E P Dillon hits use *Dillon* as a Montana place or name
-other initials. An oil advertisement on the same newspaper page is not
+other initials. An oil advertisement on the same
+[1940 *Harlem News* page](https://www.loc.gov/resource/sn86075250/1940-01-05/ed-1/?sp=5)
+is not
 evidence of E P Dillon working for an oil company. One Laredo text-service
 response exceeded the bounded review path, and a George Dill hit had empty
 OCR context; both remain private leads for visual or archival review.
 
-An Express Times obituary lead for Alfred Dilello mentions OSS service and
+An [*Express Times* obituary lead](https://obits.lehighvalleylive.com/us/obituaries/etpa/name/alfred-dilello-obituary?id=15407091)
+for Alfred Dilello mentions OSS service and
 postwar work, but its host blocked direct reinspection and it does not name
-a pre-OSS employer. A 1958 radio directory names Carter-Lee Lumber Co for a
+a pre-OSS employer. A
+[1958 radio directory](https://vtda.org/docs/radio/IndianapolisRadioClub/IRC_MarionCountryDirectoryRadioAmateurs_Apr58.pdf)
+names Carter-Lee Lumber Co for a
 Clair F Dillman, but the date is postwar and no Box 187 identity bridge is
 present. Neither was promoted into the pre-OSS employer dataset. The NARA
 Catalog API was not used; the Army crosswalk is a separate official bulk file.
