@@ -1,5 +1,35 @@
 # Research status
 
+Batch 591 completed local research and data validation for PDF page 120,
+rows 21–46, closing the page. All 26 people have saved CIA, LoC, and
+cross-source attempts and terminal online dispositions: 24 archival review,
+one occupation only, and one verified employer. [Patrick Dolan's](https://doi.org/10.25969/mediarep/18337)
+Columbia Records role is the last named civilian employer before COI; the
+Chicago *Times* is earlier employment and COI is a qualified government
+predecessor. Brooke Dolan's Academy trusteeship is not employment, Otto C
+Doering Jr.'s 1932 counsel listing is occupation only, and Simon Doillon is
+classified as Allied/foreign military. Cordelia Dodson's erroneous
+`verified_employer_found` label was corrected without withdrawing her
+government-assignment evidence. The Margaret Dole Rust and Frederic R
+Dolbeare identity leads remain unconfirmed. See
+`research/batch-591-terminal-review.md` and its replayable evidence and
+review files. The NARA Catalog API was not used. Local release/build and
+public deployment are separate verification steps.
+
+Current local SQLite has 23,978/23,978 linked source rows, 23,940 active
+people, 5,737/23,940 people with nonplanned attempts (23.9641%),
+265/23,940 with confirmed/high published employer evidence (1.1069%),
+606/23,940 with confirmed/high published affiliation evidence (2.5313%),
+and 5,692/23,940 with assessed archival-review dispositions (23.7761%).
+There are 18,203 active `not_started` people and 259 possible-duplicate
+groups. Private SQLite has 10,700 attempts and 4,828 claims: 1,308
+confirmed, 1,840 high, 1,366 medium, 185 low, and 129 conflicting. It has
+4,938 citation records and 2,275 unique source-document keys. The public
+projection has 2,179 affiliations, 684 organizations, 3,743 sources, and
+4,639 claims. The full-index research goal remains active; Batch 590 is
+already merged and deployed, while Batch 591 has not yet been released as
+of this local status entry.
+
 Batch 590 completed local research and validation for PDF page 120,
 rows 1–20, all in Box 190. All twenty people have saved CIA, LoC, and
 manual cross-source attempts and terminal online `requires_archival_review`
