@@ -1,0 +1,8 @@
+{
+  "bundle_version": "parser-visual-review-v1",
+  "source_pdf_sha256": "7268492342ab131d3b6d2697cfa4f6856cbdcd16e0ed3877e8d6a0478f58c02b",
+  "reviewer": "Codex page 124 visual audit",
+  "matching_pages_reviewed_at": "2026-09-20T16:28:00Z",
+  "matching_pages_notes": "Original PDF page 124 was rendered at full detail and all 46 rows were compared with stored raw extraction. The two Millard P Downey rows remain distinct, with one blank and one populated protected-identifier cell. Names, initials, ranks, protected-identifier column occupancy, the 'also AS' note for Fred B Drake, the 'French' note and S/Lt rank for Rene Drap, the Box 197-to-198-to-199 transitions, and location 230/86/30/03 match the printed table. No parser warning is present.",
+  "reviewed_matching_pages": [124]
+}

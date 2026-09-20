@@ -1,0 +1,348 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 596 source review",
+  "sources": [
+    {
+      "key": "index-b596-dozer",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 198",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 124, printed row 18; Donald M Dozer; Box 198, location 230/86/30/03; original page image checked",
+      "access_date": "2026-09-20",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official index proves the personnel-file listing, not the earlier University of Maryland job."
+    },
+    {
+      "key": "maryland-magazine-dozer-1941-b596",
+      "stable_url": "https://msa.maryland.gov/megafile/msa/speccol/sc5800/sc5881/000001/000000/000142/pdf/msa_sc_5881_1_142.pdf",
+      "archival_identifier": "Maryland Historical Magazine 36, no. 2 (June 1941), page 231",
+      "title": "Maryland Historical Magazine, Volume 36, Number 2; Notes and Queries",
+      "author_creator": "Donald Marquand Dozer; Maryland Historical Society",
+      "repository_publisher": "Maryland State Archives digital collection; Maryland Historical Society",
+      "publication_record_date": "1941-06",
+      "locator": "Printed page 231, PDF page 107; the byline identifies Donald Marquand Dozer, University of Maryland",
+      "access_date": "2026-09-20",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Contemporaneous institutional byline; only a brief identifying excerpt is used. By itself a byline establishes affiliation, while the independent obituary establishes faculty employment."
+    },
+    {
+      "key": "washington-post-dozer-obituary-b596",
+      "stable_url": "https://www.washingtonpost.com/archive/local/1980/08/16/donald-m-dozer-professor-expert-on-latin-america/4ed6f37c-a45b-490d-a713-322fb000c383/",
+      "title": "Donald M. Dozer, Professor, Expert On Latin America",
+      "repository_publisher": "The Washington Post",
+      "publication_record_date": "1980-08-16",
+      "locator": "Obituary, paragraphs 1 and 4-7; 1936 State Department archivist work, University of Maryland faculty from 1937, and government intelligence service in 1942",
+      "access_date": "2026-09-20",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Retrospective obituary inspected at the publisher URL; no living relatives' details are retained. The obituary does not name a specific 1942 intelligence office."
+    },
+    {
+      "key": "vanderbilt-alex-dragnich-2009-b596",
+      "stable_url": "https://news.vanderbilt.edu/2009/08/12/political-scientist-alex-n-dragnich-dead-at-97-86530/",
+      "title": "Political scientist Alex N. Dragnich dead at 97",
+      "author_creator": "Jim Patterson; Vanderbilt University News",
+      "repository_publisher": "Vanderbilt University",
+      "publication_record_date": "2009-08-12",
+      "locator": "Paragraphs on Berkeley doctoral work completed in 1942 and wartime OSS foreign-affairs analysis; the source calls him Alex N., while the index prints Alexis N.",
+      "access_date": "2026-09-20",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Institutional obituary reviewed only as a possible identity lead. Home addresses, health details, and living-relatives information are excluded. It does not establish a pre-OSS employer or a direct Alex/Alexis name bridge."
+    },
+    {
+      "key": "index-b596-army-crosswalk",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 197-199",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 124, printed rows 5, 6, 10, 21, 24, 25, 29, 33 and 38; individual row locators are supplied on claims",
+      "access_date": "2026-09-20",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Full serial identifiers are used only in the private crosswalk and omitted from public citations."
+    },
+    {
+      "key": "army-bulk-b596",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; private name-and-identifier crosswalk; selected record ordinals 362235, 2699177, 2895332, 3475821, 4271383, 4494337, 5781261, 7010274 and 8032770",
+      "access_date": "2026-09-20",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Official bulk data, not a Catalog API response. Full identifiers and raw records are not published; occupation codes are not named employers. Name conflicts are not silently corrected."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "university-of-maryland",
+      "canonical_name": "University of Maryland",
+      "historical_name": "University of Maryland",
+      "aliases": [],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "state_or_region": "Maryland",
+      "country": "United States",
+      "normalization_notes": "Historical employer name is retained; student status and employment are separate relationships. The cited sources do not establish which Maryland campus employed Dozer."
+    },
+    {
+      "key": "united-states-department-of-state",
+      "canonical_name": "United States Department of State",
+      "historical_name": "Department of State",
+      "aliases": ["U.S. Department of State", "State Department"],
+      "organization_type": "federal department",
+      "sector": "federal_government",
+      "country": "United States",
+      "normalization_notes": "Earlier government service is distinct from later OSS/COI work and from the last civilian employer."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "b596-donald-m-dozer-university-of-maryland-last-civilian",
+      "person_id": "b94564fb-2bf0-50bb-96cb-f50e9cc24ea2",
+      "organization_key": "university-of-maryland",
+      "organization_name_as_found": "University of Maryland",
+      "role_title": "history faculty member",
+      "occupation": "historian and teacher",
+      "relationship_type": "employment",
+      "start_date": "1937",
+      "end_date": "1942",
+      "date_precision": "The obituary says Dozer joined Maryland's faculty in 1937 and returned to government intelligence service in 1942; the June 1941 journal byline independently places him at the university. Exact departure and OSS-entry dates are not established.",
+      "state_or_region": "Maryland",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Published as the last civilian employer before 1942 government intelligence service, not as an explicitly immediate predecessor to OSS. The specific intelligence office and formal OSS entry require Box 198."
+    },
+    {
+      "key": "b596-donald-m-dozer-state-department-earlier-government",
+      "person_id": "b94564fb-2bf0-50bb-96cb-f50e9cc24ea2",
+      "organization_key": "united-states-department-of-state",
+      "organization_name_as_found": "State Department",
+      "role_title": "archivist",
+      "occupation": "archivist",
+      "relationship_type": "government_assignment",
+      "start_date": "1936",
+      "end_date": "1937",
+      "date_precision": "The obituary names 1936 State Department archivist service and says he joined Maryland's faculty the following year; exact appointment dates are unknown.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "Earlier government assignment documented by one inspected obituary. It is not the last civilian employer and is not the immediate pre-OSS affiliation."
+    }
+  ],
+  "claims": [
+    {
+      "key": "b596-donald-m-dozer-identity",
+      "person_id": "b94564fb-2bf0-50bb-96cb-f50e9cc24ea2",
+      "claim_type": "identity",
+      "claim_text": "The indexed Donald M Dozer is linked with high confidence to historian Donald Marquand Dozer, who later served in wartime government intelligence.",
+      "evidence_paraphrase": "The NARA index names Donald M Dozer in the OSS personnel series. A June 1941 contemporaneous byline expands the distinctive middle initial to Marquand and places him at Maryland; the Washington Post obituary identifies Donald M Dozer with that faculty career and 1942 government intelligence service.",
+      "identity_match_assessment": "High: distinctive indexed first name, surname, and middle initial; independently documented full middle name; prewar Maryland and 1942 intelligence chronology fit the index. Box 198 has not been examined, so identity is not marked confirmed.",
+      "temporal_assessment": "The magazine is dated June 1941; the obituary dates the faculty-to-government transition to 1942. The exact OSS-entry date is not documented by the inspected sources.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Do not identify the 1942 government office more precisely from the obituary's generic 'intelligence official' wording, or import an uninspected university memorial from a search snippet.",
+      "sources": [
+        {"source_key": "index-b596-dozer", "locator_override": "PDF page 124, row 18, Box 198"},
+        {"source_key": "maryland-magazine-dozer-1941-b596", "excerpt_override": "DONALD MARQUAND DOZER University of Maryland"},
+        {"source_key": "washington-post-dozer-obituary-b596", "locator_override": "Paragraphs 1 and 4-7"}
+      ]
+    },
+    {
+      "key": "b596-donald-m-dozer-last-civilian-maryland",
+      "person_id": "b94564fb-2bf0-50bb-96cb-f50e9cc24ea2",
+      "affiliation_key": "b596-donald-m-dozer-university-of-maryland-last-civilian",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Donald M Dozer taught on the University of Maryland faculty before moving into wartime government intelligence service in 1942.",
+      "evidence_paraphrase": "The June 1941 magazine byline places Donald Marquand Dozer at Maryland. The Washington Post obituary says he joined the Maryland faculty in 1937 and returned to government service as an intelligence official in 1942.",
+      "identity_match_assessment": "The distinctive indexed Donald M Dozer aligns with the contemporary full-name byline and the independently dated obituary; the OSS personnel file remains unopened.",
+      "temporal_assessment": "Strongly date-bounded last civilian employer before the documented 1942 move into government intelligence. The inspected sources do not prove Maryland was the immediate predecessor to formal OSS service.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Count Maryland as last civilian employer, not as a student institution and not as an unqualified immediate pre-OSS employer; no specific 1942 government bureau is assigned.",
+      "sources": [
+        {"source_key": "maryland-magazine-dozer-1941-b596", "locator_override": "Printed page 231; June 1941 byline", "excerpt_override": "DONALD MARQUAND DOZER University of Maryland"},
+        {"source_key": "washington-post-dozer-obituary-b596", "locator_override": "Paragraphs 4-5", "excerpt_override": "He was a State Department archivist in 1936 and joined the Maryland faculty the following year."},
+        {"source_key": "index-b596-dozer", "support_type": "context_only", "locator_override": "PDF page 124, row 18; index supplies the OSS personnel listing only"}
+      ]
+    },
+    {
+      "key": "b596-donald-m-dozer-earlier-state-department",
+      "person_id": "b94564fb-2bf0-50bb-96cb-f50e9cc24ea2",
+      "affiliation_key": "b596-donald-m-dozer-state-department-earlier-government",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A contemporary obituary reports that Donald M Dozer worked as a State Department archivist in 1936, before joining Maryland's faculty.",
+      "evidence_paraphrase": "The Washington Post dates State Department archivist work to 1936 and places the Maryland faculty appointment in the following year; this is earlier government work, not Dozer's last civilian employer or immediate pre-OSS affiliation.",
+      "identity_match_assessment": "The obituary's distinctive Donald M Dozer name and Maryland career align with the indexed person, though Box 198 has not been inspected.",
+      "temporal_assessment": "Documented prewar work: 1936 precedes the 1937 Maryland faculty appointment and 1942 government intelligence service.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Qualified because one inspected obituary documents this earlier appointment; it is categorized as a government assignment, not as the last civilian employer.",
+      "sources": [
+        {"source_key": "washington-post-dozer-obituary-b596", "locator_override": "Paragraph 5", "excerpt_override": "He was a State Department archivist in 1936 and joined the Maryland faculty the following year."}
+      ]
+    },
+    {
+      "key": "b596-myftar-s-dragoti-army-name-conflict",
+      "person_id": "ef3ad527-d48f-5838-ac6e-cf32ce5da7f9",
+      "claim_type": "identity",
+      "claim_text": "The indexed Myftar S Dragoti has a protected identifier associated with a different full name in the official Army bulk file; identity is unresolved.",
+      "evidence_paraphrase": "NARA page 124 prints Myftar S Dragoti, while the Army bulk record at ordinal 4271383 linked by the protected identifier prints a different first name and surname.",
+      "identity_match_assessment": "Conflicting: identifier agreement is outweighed by a whole-name disagreement until the underlying records are examined.",
+      "temporal_assessment": "Neither source establishes a named pre-OSS employer or a resolved OSS-entry chronology for this indexed person.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Do not assign the Army record's different name, biography, or occupation to Myftar S Dragoti. Review Box 198 and the Army source.",
+      "sources": [
+        {"source_key": "index-b596-army-crosswalk", "locator_override": "PDF page 124, row 25, Box 198"},
+        {"source_key": "army-bulk-b596", "locator_override": "Bulk record ordinal 4271383; protected identifier agrees but full name conflicts"}
+      ]
+    },
+    {
+      "key": "b596-spiros-d-drakos-army-initial-conflict",
+      "person_id": "89bfc672-e952-52b8-bcf2-b9ba5bf2068e",
+      "claim_type": "identity",
+      "claim_text": "The indexed Spiros D Drakos and a protected-identifier-linked Army bulk record disagree on the middle initial; identity needs archival review.",
+      "evidence_paraphrase": "NARA page 124 prints Spiros D Drakos; Army bulk record ordinal 3475821 prints the same first and last names but middle initial J.",
+      "identity_match_assessment": "Conflicting: a nonshared protected identifier agrees, but the printed middle initials differ. Neither initial is silently corrected.",
+      "temporal_assessment": "Neither source establishes a named pre-OSS employer or a resolved OSS-entry chronology for this indexed person.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Review Box 198 or a second independent identifier before attaching the Army biography or occupation code.",
+      "sources": [
+        {"source_key": "index-b596-army-crosswalk", "locator_override": "PDF page 124, row 33, Box 198"},
+        {"source_key": "army-bulk-b596", "locator_override": "Bulk record ordinal 3475821; protected identifier agrees, middle initial conflicts"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "b94564fb-2bf0-50bb-96cb-f50e9cc24ea2",
+      "identity_status": "high_confidence",
+      "identity_evidence": "NARA prints Donald M Dozer in Box 198; a contemporary June 1941 magazine byline expands the distinctive name to Donald Marquand Dozer at the University of Maryland; the Washington Post obituary links Donald M Dozer's Maryland faculty appointment to 1942 government intelligence service. Box 198 is unopened.",
+      "name_variants": ["Donald M Dozer", "Donald Marquand Dozer"],
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 198 for precise COI/OSS entry, Maryland departure date, and any intervening 1942 government assignment; do not call Maryland the immediate pre-OSS employer without that chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7c16eead-094c-52bc-9789-356f0d300f4d",
+      "identity_status": "probable",
+      "identity_evidence": "NARA prints Alexis N Dragnich in Box 198. Vanderbilt University's obituary identifies an Alex N. Dragnich who completed Berkeley doctoral work in 1942 and served as an OSS foreign-affairs analyst. The unusual surname, middle initial, and OSS context make this a plausible candidate, but the first names differ and no direct Alex/Alexis bridge or Box 198 identifier has been inspected. Student status is not employment.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect Box 198 and a contemporaneous OSS personnel record for the indexed Alexis N Dragnich; compare birth or education data with the Vanderbilt Alex N Dragnich before accepting the candidate. Do not assign Berkeley or later Vanderbilt as a pre-OSS employer from this source.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ef3ad527-d48f-5838-ac6e-cf32ce5da7f9",
+      "identity_status": "conflicting",
+      "identity_evidence": "The visually verified NARA Box 198 row prints Myftar S Dragoti. Official Army bulk record ordinal 4271383 has the same privately checked identifier but a different full name, DANGEL LOUIS JR. No alias or transcription correction has been established; the Army record is not accepted as this person's biography or employer evidence.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Compare the Box 198 personnel file with the original Army bulk record and any correction/alias documentation before resolving identity or assigning an employer.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "89bfc672-e952-52b8-bcf2-b9ba5bf2068e",
+      "identity_status": "conflicting",
+      "identity_evidence": "The visually verified NARA Box 198 row prints Spiros D Drakos. Official Army bulk record ordinal 3475821 shares the privately checked identifier but prints SPIROS J DRAKOS. The middle-initial disagreement is preserved rather than silently corrected.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review the Box 198 personnel file and a second independent identifier to determine whether the D/J disagreement is an index error, Army-record error, or different person before assigning employment.",
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b596-donald-m-dozer-source-review",
+      "person_id": "b94564fb-2bf0-50bb-96cb-f50e9cc24ea2",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Donald M and Donald Marquand Dozer NARA Box 198, Maryland Historical Magazine June 1941, Washington Post obituary, University of Maryland faculty, 1942 intelligence transition",
+      "query_variant_type": "distinctive_name_civilian_to_government_review",
+      "started_at": "2026-09-20T16:29:00Z",
+      "completed_at": "2026-09-20T16:33:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Wikipedia is discovery-only. The University of California memorial PDF endpoint returned an access challenge and its search-result text was not treated as inspected evidence or a final citation.",
+      "research_notes": "Two independently inspectable sources establish Maryland faculty work before the 1942 intelligence transition; only the last civilian employer is published as high confidence. The specific intelligence office and exact OSS date remain undetermined. The 1936 State Department archivist role is qualified as earlier government service.",
+      "next_action": "Review Box 198 and contemporaneous COI/OSS staff records for exact entry and intervening office.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss/batch-596-v1"
+    },
+    {
+      "key": "b596-alexis-n-dragnich-identity-review",
+      "person_id": "7c16eead-094c-52bc-9789-356f0d300f4d",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Alexis N Dragnich NARA OSS Box 198 versus Vanderbilt Alex N Dragnich Berkeley doctoral work and OSS foreign-affairs service",
+      "query_variant_type": "rare_name_variant_identity_review",
+      "started_at": "2026-09-20T16:33:00Z",
+      "completed_at": "2026-09-20T16:35:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Wikipedia and unsourced mirrors are discovery-only. Vanderbilt's later faculty position is post-OSS and Berkeley doctoral study is student status, not documented pre-OSS employment. The Alex/Alexis first-name difference remains unresolved.",
+      "research_notes": "Inspected NARA index page 124 and Vanderbilt University obituary; the latter directly names OSS service but not the index spelling Alexis. A plausible candidate is retained without a published employer claim.",
+      "next_action": "Review NARA Box 198 and a contemporaneous OSS personnel record for an independent identifier or direct name variant.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss/batch-596-v1"
+    },
+    {
+      "key": "b596-myftar-s-dragoti-army-conflict-review",
+      "person_id": "ef3ad527-d48f-5838-ac6e-cf32ce5da7f9",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Myftar S Dragoti NARA Box 198 versus official Army bulk protected-identifier match to a different full name",
+      "query_variant_type": "official_record_identity_conflict_review",
+      "started_at": "2026-09-20T16:35:00Z",
+      "completed_at": "2026-09-20T16:37:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "The identifier crosswalk is real, but the full-name discrepancy precludes accepting an Army biography or occupation. The private candidate decision is conflicting and two cited public sources document why.",
+      "next_action": "Inspect Box 198 and original Army source context for alias, clerical, or record-linkage explanation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss/batch-596-v1"
+    },
+    {
+      "key": "b596-spiros-d-drakos-army-conflict-review",
+      "person_id": "89bfc672-e952-52b8-bcf2-b9ba5bf2068e",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Spiros D Drakos NARA Box 198 versus official Army bulk protected-identifier match with middle-initial J",
+      "query_variant_type": "official_record_initial_conflict_review",
+      "started_at": "2026-09-20T16:35:00Z",
+      "completed_at": "2026-09-20T16:37:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "The official identifier agrees but the middle initials disagree. Both spellings remain visible; no employer or Army occupation is assigned.",
+      "next_action": "Inspect Box 198 and an independent dated identifier for the indexed Spiros D Drakos.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss/batch-596-v1"
+    }
+  ]
+}

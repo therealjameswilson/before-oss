@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Badge from "../../components/Badge.astro";
+import ClaimEvidence from "../../components/ClaimEvidence.astro";
 import organizationsData from "../../data/generated/organizations.json";
 import peopleData from "../../data/generated/people.json";
 import type { Affiliation, Organization, PersonProfile } from "../../types";
@@ -13,6 +14,16 @@ export function getStaticPaths() {
 }
 
 const { profile } = Astro.props as { profile: PersonProfile };
+const conflictClaims = profile.claims.filter(
+  (claim) =>
+    claim.claim_confidence === "conflicting" ||
+    claim.publication_status === "conflicting",
+);
+const supportedClaims = profile.claims.filter(
+  (claim) =>
+    claim.claim_confidence !== "conflicting" &&
+    claim.publication_status !== "conflicting",
+);
 const hasUncertainOtherTiming = profile.other_pre_oss_affiliations.some(
   (item) => item.temporal_basis === "temporal_relation_uncertain",
 );
@@ -326,73 +337,26 @@ const affiliationLabel = (item: Affiliation) =>
         </section>
 
         {
-          profile.claims.length > 0 && (
+          supportedClaims.length > 0 && (
             <section class="profile-section" aria-labelledby="evidence">
               <p class="kicker">Claim-level evidence</p>
               <h2 id="evidence">Evidence and citations</h2>
-              {profile.claims.map((claim) => (
-                <article class="affiliation-card">
-                  <h3>{claim.claim_text}</h3>
-                  <p>{claim.evidence_paraphrase}</p>
-                  {claim.evidence_excerpt && (
-                    <blockquote>“{claim.evidence_excerpt}”</blockquote>
-                  )}
-                  <p>
-                    <Badge value={claim.claim_confidence} />
-                    {" "}
-                    <Badge value={claim.source_quality} />
-                  </p>
-                  <details class="claim-assessment-details">
-                    <summary>Identity and chronology assessment</summary>
-                    <dl class="profile-facts">
-                      <div>
-                        <dt>Identity match</dt>
-                        <dd>{claim.identity_match_assessment}</dd>
-                      </div>
-                      <div>
-                        <dt>Temporal assessment</dt>
-                        <dd>{claim.temporal_assessment}</dd>
-                      </div>
-                    </dl>
-                  </details>
-                  <h4>Sources for this claim</h4>
-                  <ol class="citation-list">
-                    {claim.sources.map((link) => {
-                      const source = link.source;
-                      const locator = link.locator_override ?? source.locator;
-                      return (
-                        <li>
-                          <p>
-                            {source.stable_url ? (
-                              <a href={source.stable_url}>{source.title}</a>
-                            ) : (
-                              <strong>{source.title}</strong>
-                            )}
-                            {source.author_creator && ` — ${source.author_creator}`}
-                            {`. ${source.repository_publisher}.`}
-                            {source.publication_record_date &&
-                              ` ${source.publication_record_date}.`}
-                          </p>
-                          <p class="citation-meta">
-                            {source.archival_identifier &&
-                              `Archival identifier: ${source.archival_identifier}. `}
-                            {source.document_number &&
-                              `Document: ${source.document_number}. `}
-                            {locator && `Locator: ${locator}. `}
-                            {`Accessed ${source.access_date}.`}
-                          </p>
-                          {link.excerpt_override && (
-                            <blockquote>“{link.excerpt_override}”</blockquote>
-                          )}
-                          <p class="citation-meta">
-                            Support: {link.support_type.replaceAll("_", " ")}.
-                          </p>
-                        </li>
-                      );
-                    })}
-                  </ol>
-                </article>
-              ))}
+              {supportedClaims.map((claim) => <ClaimEvidence claim={claim} />)}
+            </section>
+          )
+        }
+
+        {
+          conflictClaims.length > 0 && (
+            <section class="profile-section" aria-labelledby="evidence-conflicts">
+              <p class="kicker">Unresolved identity or source discrepancy</p>
+              <h2 id="evidence-conflicts">Evidence conflicts</h2>
+              <p>
+                These sources disagree about the indexed person or another
+                material detail. No disputed affiliation is treated as an
+                established employer while the conflict remains unresolved.
+              </p>
+              {conflictClaims.map((claim) => <ClaimEvidence claim={claim} />)}
             </section>
           )
         }

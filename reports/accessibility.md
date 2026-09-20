@@ -1,5 +1,17 @@
 # Accessibility and responsive QA
 
+Batch 596 local validation, 2026-09-20 UTC: the bounded release suite
+passed **84/84** desktop/phone/tablet checks: 15 page-124 and oil-category
+checks, 33 core-route checks, six analysis checks, and 30 accessibility
+checks with no serious or critical axe violations. The new tests retain
+the six cited oil-company employees, separate Dozer's last civilian employer
+from earlier government work, label two Army identity conflicts, and keep
+two distinct Millard P Downey profiles. Astro checked 227 source files with
+zero errors, warnings, or hints and built **24,658** static pages. The
+200-profile stratified structural audit passed its machine-checkable gates;
+it is not a manual historical source audit. These are local checks, not
+evidence of live deployment.
+
 Batch 595 local validation, 2026-09-20 UTC: the bounded release suite
 passed **84/84** desktop/phone/tablet checks: 15 page-123 and continuity
 checks, 33 core-route checks (including the top oil-company category), six
