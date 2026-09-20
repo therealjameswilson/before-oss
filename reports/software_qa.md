@@ -1,6 +1,6 @@
 # Software QA
 
-Run: 2026-09-20 UTC, Batch 580 local candidate. All **104 / 104** Python tests
+Run: 2026-09-20 UTC, Batch 580 exact-verified public release. All **104 / 104** Python tests
 pass; SQLite integrity and foreign-key checks pass. Extraction validation
 still covers all 522 PDF pages and 23,978 printed source rows, with selected
 page and warning-row visual-review gates passing. The 200-profile stratified
@@ -13,8 +13,10 @@ auditing examines 12,926 normalized private identifiers and 120 formatted
 variants across 24,718 built artifacts, with zero unexpected boundary
 matches. Two consecutive production builds reproduce the same public and
 production tree digests recorded in `reports/link_check.md`. The local
-manifest verifier checks 67 public assets / 96,140,066 bytes. Live deployment
-has not yet been verified.
+manifest verifier checks 67 public assets / 96,140,066 bytes. PR Test,
+merged-main Test, Pages deployment and unauthenticated live verification
+passed at commit `894fb0430500fef70d4ba5d2c861692d0d93301c`; see
+`reports/release_batch_580.md`.
 
 Run: 2026-09-14 UTC
 

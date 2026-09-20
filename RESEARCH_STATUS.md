@@ -1,9 +1,10 @@
 # Research status
 
-The local Batch 580 review covers PDF page 117, rows 1-10, in Box 185.
+The exact-verified public Batch 580 release covers PDF page 117, rows 1-10,
+in Box 185.
 All ten now have saved cross-source research attempts, terminal
-`requires_archival_review` outcomes, and direct static profiles in the local
-build. Official Army bulk data supports high-confidence **identity-only**
+`requires_archival_review` outcomes, and direct static profiles on the public
+site. Official Army bulk data supports high-confidence **identity-only**
 matches for Serge A Diab, Spyros Dialismas and Goodhue Diament; an original
 OSS Mission to France award list independently confirms Goodhue's wartime
 identity. Neither source supplies a pre-OSS employer. Paul and Pavlos
@@ -11,8 +12,12 @@ Diamantoukos remain separate, with the Army first-name conflict visible.
 John E Deyoung's potential University of Chicago *student* chronology is a
 withheld low-confidence affiliation lead, not a public employer claim.
 See `research/batch-580-terminal-review.md` and the importable evidence
-bundle. Until publication is separately verified, the live site may still
-show the previous Batch 579 data.
+bundle. [PR #285](https://github.com/therealjameswilson/before-oss/pull/285),
+the merged-main Test run and Pages deployment passed. The read-only live
+verifier matched 67 public assets, seven core routes, all 25 Sources pages,
+and ten new direct profiles to merge commit
+`894fb0430500fef70d4ba5d2c861692d0d93301c`. See
+`reports/release_batch_580.md`.
 
 Local SQLite now has 23,978 / 23,978 linked source rows, 23,940 active
 person entities, 5,564 / 23,940 with nonplanned research attempts (23.2414%),
