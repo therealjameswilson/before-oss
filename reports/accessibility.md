@@ -1,6 +1,6 @@
 # Accessibility and responsive QA
 
-Batch 585 local release candidate, 2026-09-20 UTC: the bounded Playwright
+Batch 585 exact-verified public release, 2026-09-20 UTC: the bounded Playwright
 release suite passed **72/72** checks across desktop, phone and tablet:
 nine cohort-profile checks, 30 core-route checks (including the oil-company
 category), six analysis checks, and 27 axe checks with no serious or
@@ -10,7 +10,9 @@ literal clipped notes. An initial test run failed because a broad CSS
 selector counted a legitimate identity-evidence card as an affiliation; the
 selector was narrowed and the complete suite passed. Production Astro
 check reported zero errors, warnings and hints and built 24,649 static pages.
-PR, merged-main and live deployment verification remain pending.
+[PR #296](https://github.com/therealjameswilson/before-oss/pull/296),
+the merged-main Test and Pages workflows, and exact live verification all
+passed; see `reports/release_batch_585.md`.
 
 Batch 583 exact-verified public release, 2026-09-20 UTC: the bounded Playwright
 release suite passed **72/72** checks across desktop, phone and tablet:
