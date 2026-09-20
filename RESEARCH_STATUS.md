@@ -1,5 +1,30 @@
 # Research status
 
+Batch 585 is locally reviewed and built, but not yet released. It covers
+PDF page 118, rows 11–30, in Boxes 186–187. Twenty people have saved CIA,
+LoC and manual cross-source research attempts with terminal online
+`requires_archival_review` outcomes. Eight official Army bulk crosswalks
+support identity only. University of Illinois trustee minutes establish
+Konrad C Dillow's 1937–38 graduate fellowship as **student affiliation**,
+not a verified university employer. Eleven LoC candidates were reviewed:
+eight rejected and three retained as private plausible leads. The John T
+Dillon Jr newspaper employer and a 1958 Clair F Dillman employer were
+specifically kept out of the pre-OSS dataset. See
+`research/batch-585-terminal-review.md`, its importable evidence bundle and
+review-decision files.
+
+Current local SQLite has 23,978/23,978 linked source rows, 23,940 active
+people, 5,630/23,940 people with nonplanned attempts (23.5171%),
+263/23,940 with confirmed/high published employer evidence (1.0986%),
+602/23,940 with confirmed/high published affiliation evidence (2.5146%),
+and 5,585/23,940 with assessed archival-review dispositions (23.3292%).
+There are 18,310 active `not_started` people and 258 possible-duplicate
+groups. Private SQLite has 10,376 attempts and 4,764 claims: 1,307
+confirmed, 1,784 high, 1,360 medium, 184 low, and 129 conflicting. It has
+4,908 citation records and 2,251 unique source-document keys. The local
+public projection has 2,169 affiliations, 677 organizations, 3,714 sources,
+and 4,576 claims. The full-index research goal remains active.
+
 Batch 584 is live and exact-verified at merge commit
 `7401f27a2278710501e825ebb732767965a8696d`. It covers PDF page 118,
 rows 1–10, in Boxes 186–187. Ten distinct printed rows
