@@ -1,5 +1,29 @@
 # Research status
 
+Batch 584 is prepared locally but **not yet deployed or live-verified**. It
+covers PDF page 118, rows 1–10, in Boxes 186–187. Ten distinct printed rows
+received saved CIA, LoC and manual cross-source research attempts with terminal
+online `requires_archival_review` outcomes. A University of Florida archival
+finding aid and a contemporary 1933 magazine establish Sigismond Diettrich's
+earlier Florida faculty employment at high confidence; the exact immediate
+pre-OSS sequence is not established. Two official Army bulk crosswalks support
+identity only. Three LoC discovery candidates were reviewed: two rejected and
+one private plausible, not a published employer. See
+`research/batch-584-terminal-review.md` and the importable evidence and
+decision files.
+
+The current local SQLite has 23,978/23,978 linked source rows, 23,940 active
+people, 5,610/23,940 people with nonplanned attempts (23.4336%),
+263/23,940 with confirmed/high published employer evidence (1.0986%),
+601/23,940 with confirmed/high published affiliation evidence (2.5104%), and
+5,565/23,940 with assessed archival-review dispositions (23.2456%). There
+are 18,330 active `not_started` people and 258 possible-duplicate groups.
+Private SQLite has 10,316 attempts and 4,754 claims: 1,307 confirmed,
+1,774 high, 1,360 medium, 184 low, and 129 conflicting. It has 4,902
+citation records and 2,247 unique source-document keys. The local public
+projection has 2,168 affiliations, 676 organizations, 3,709 sources, and
+4,566 claims. The full-index research goal remains active.
+
 Batch 583 is live and exact-verified at merge commit
 `290c475de5f93e402cce9dd59c1401b38fc538b1`. It covers
 PDF page 117, rows 31–46, all in Box 186. Sixteen people have saved CIA,
