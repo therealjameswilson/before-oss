@@ -1,0 +1,71 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import organizations from "../../data/generated/organizations.json";
+import { oilCompanyEmployees } from "../../lib/oilCompanies";
+import type { Organization } from "../../types";
+
+const base = import.meta.env.BASE_URL;
+const category = oilCompanyEmployees(organizations as Organization[]);
+---
+
+<BaseLayout
+  title="Oil company employees"
+  description="People in the OSS personnel index with cited evidence of pre-OSS employment by a historically named oil company."
+  eyebrow="Featured personnel category"
+>
+  <header class="page-hero">
+    <div class="container">
+      <p class="kicker">Documented employment</p>
+      <h1>People who worked for oil companies</h1>
+      <p class="lede">
+        {category.employees.length.toLocaleString("en-US")} people in the current
+        research dataset have published employment evidence at
+        {" "}{category.organizationCount.toLocaleString("en-US")} historically named oil,
+        petroleum, refining, or exploration companies.
+      </p>
+      <p>
+        These are documented pre-OSS jobs, not necessarily the job held immediately
+        before OSS service. Medium-confidence findings are labeled; a professional
+        affiliation alone does not qualify someone for this list.
+      </p>
+      <a class="button button--ghost" href={`${base}people/?featured=oil_companies&sort=name_asc`}>
+        Search and filter this category
+      </a>
+    </div>
+  </header>
+
+  <section class="oil-directory" aria-label="Oil company employee list">
+    <div class="container">
+      <ol class="oil-directory__list">
+        {category.employees.map((person) => (
+          <li class="oil-directory__person">
+            <h2><a href={`${base}people/${person.personId}/`}>{person.name}</a></h2>
+            <ul>
+              {person.employers.map((employer) => (
+                <li>
+                  <a href={`${base}organizations/${employer.organizationId}/`}>
+                    {employer.organizationName}
+                  </a>
+                  {employer.role && <span> · {employer.role}</span>}
+                  <span class="oil-directory__confidence">
+                    {employer.qualified
+                      ? "Qualified medium-confidence employment claim"
+                      : `${employer.confidence} confidence employment claim`}
+                  </span>
+                </li>
+              ))}
+            </ul>
+            <p class="oil-directory__person-evidence">
+              <a href={`${base}people/${person.personId}/#evidence`}>Review claim-level evidence</a>
+            </p>
+          </li>
+        ))}
+      </ol>
+      <p class="oil-directory__note">
+        This is a research-coverage list, not a count of everyone in OSS who
+        worked in the oil industry. The original personnel index does not record
+        every previous employer.
+      </p>
+    </div>
+  </section>
+</BaseLayout>

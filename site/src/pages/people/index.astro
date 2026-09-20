@@ -63,6 +63,23 @@ const oilCompanyEmploymentOrganizationCount = oilCompanyCategory.organizationCou
         <span data-category-action>View category</span>
         <strong>{oilCompanyPersonIds.length.toLocaleString("en-US")} people</strong>
       </button>
+      <ul class="featured-directory-category__list">
+        {oilCompanyCategory.employees.map((person) => (
+          <li>
+            <a href={`${base}people/${person.personId}/`}>{person.name}</a>
+            <span>
+              {person.employers.map((employer) => employer.organizationName).join(" · ")}
+            </span>
+            {person.employers.some((employer) => employer.qualified) && (
+              <small>Includes a qualified medium-confidence claim</small>
+            )}
+          </li>
+        ))}
+      </ul>
+      <p class="featured-directory-category__note">
+        This list includes only cited employment relationships, not every search
+        result containing “oil.” <a href={`${base}oil-companies/`}>See the full category and evidence status</a>.
+      </p>
     </section>
 
     <div class="az-nav" aria-label="Filter by last-name initial" id="az-nav">
