@@ -1,7 +1,8 @@
 # Research status
 
-Batch 584 is prepared locally but **not yet deployed or live-verified**. It
-covers PDF page 118, rows 1–10, in Boxes 186–187. Ten distinct printed rows
+Batch 584 is live and exact-verified at merge commit
+`7401f27a2278710501e825ebb732767965a8696d`. It covers PDF page 118,
+rows 1–10, in Boxes 186–187. Ten distinct printed rows
 received saved CIA, LoC and manual cross-source research attempts with terminal
 online `requires_archival_review` outcomes. A University of Florida archival
 finding aid and a contemporary 1933 magazine establish Sigismond Diettrich's
@@ -10,7 +11,11 @@ pre-OSS sequence is not established. Two official Army bulk crosswalks support
 identity only. Three LoC discovery candidates were reviewed: two rejected and
 one private plausible, not a published employer. See
 `research/batch-584-terminal-review.md` and the importable evidence and
-decision files.
+decision files. [PR #294](https://github.com/therealjameswilson/before-oss/pull/294),
+the PR and merged-main Tests, and GitHub Pages deployment passed. The
+unauthenticated live verifier matched 67 assets, seven core routes, 25
+Sources pages, and all ten direct profiles to the merge commit; see
+`reports/release_batch_584.md`.
 
 The current local SQLite has 23,978/23,978 linked source rows, 23,940 active
 people, 5,610/23,940 people with nonplanned attempts (23.4336%),
