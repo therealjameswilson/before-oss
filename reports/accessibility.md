@@ -1,5 +1,15 @@
 # Accessibility and responsive QA
 
+Batch 590 local validation, 2026-09-20 UTC: the bounded release suite
+passed **78/78** desktop/phone/tablet checks: nine latest-cohort checks,
+33 core-route checks, six analysis checks, and 30 accessibility checks with
+no serious or critical axe violations. The new cohort checks open all twenty
+direct profiles and verify that Dodderidge's White House role is qualified
+earlier work, not an immediate or civilian-employer claim. Astro checked
+220 source files with zero errors, warnings, or hints and built 24,652 static
+pages. The stratified 200-profile audit passed its machine-checkable gates.
+No live deployment is implied by these local results.
+
 Batch 588 local validation, 2026-09-20 UTC: the complete bounded release
 suite passed **72/72** desktop/phone/tablet checks: 12 latest-cohort checks,
 24 core-route checks, six analysis checks, and 30 accessibility checks with no

@@ -1,5 +1,31 @@
 # Research status
 
+Batch 590 completed local research and validation for PDF page 120,
+rows 1–20, all in Box 190. All twenty people have saved CIA, LoC, and
+manual cross-source attempts and terminal online `requires_archival_review`
+outcomes. Nine official Army bulk rows support identity-only crosswalks for
+eight people; Harvey H Dodge's two discrepant bulk entries are not counted
+as two OSS people. A Washington Post obituary places Major Robert R
+Dodderidge's White House aide assignment before OSS service, but does not
+prove it was his immediate predecessor; it is published as a qualified
+earlier government assignment, not a civilian employer. The Dodd, Mead
+career of a same-name Edward H Dodd Jr remains an unbridged private lead.
+See `research/batch-590-terminal-review.md` and the replayable evidence and
+review-decision files. The NARA Catalog API was not used.
+
+Current local SQLite has 23,978/23,978 linked source rows, 23,940 active
+people, 5,712/23,940 people with nonplanned attempts (23.8596%),
+264/23,940 with confirmed/high published employer evidence (1.1028%),
+604/23,940 with confirmed/high published affiliation evidence (2.5230%),
+and 5,667/23,940 with assessed archival-review dispositions (23.6717%).
+There are 18,228 active `not_started` people and 259 possible-duplicate
+groups. Private SQLite has 10,622 attempts and 4,810 claims: 1,308
+confirmed, 1,827 high, 1,362 medium, 184 low, and 129 conflicting. It has
+4,927 citation records and 2,265 unique source-document keys. The public
+projection has 2,174 affiliations, 679 organizations, 3,733 sources, and
+4,622 claims. The full-index research goal remains active; Batch 590 has
+not yet been publicly deployed as of this local status entry.
+
 Batch 589 completed local research and validation for PDF page 119,
 rows 41–46, in Boxes 189–190. All six have saved CIA, LoC, and manual
 cross-source attempts and terminal online `requires_archival_review`
