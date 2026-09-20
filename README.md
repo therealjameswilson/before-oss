@@ -13,21 +13,21 @@ is not complete, and the site reports that limitation explicitly.
 
 ## Current state
 
-- 522 PDF pages processed; 97 pages visually reviewed under and beyond the documented sampling rule
+- 522 PDF pages processed; 98 pages visually reviewed under and beyond the documented sampling rule
 - 23,978 immutable source rows
 - 23,941 stored person rows and 23,940 active person entities; one reviewed
   duplicate supersession retains both immutable index rows for audit
 - 23,978 / 23,978 source rows linked to an entity
 - 261 possible duplicate groups; possible variants remain separate until reviewed
-- 75-person stratified research pilot, 6 reviewed NARA personnel files, 5,782
-  people with saved non-planned research outcomes, and 10,752 durable research
+- 75-person stratified research pilot, 6 reviewed NARA personnel files, 5,827
+  people with saved non-planned research outcomes, and 10,800 durable research
   attempts or plans
 - 607 verified-affiliation profiles, including 266 with verified employment or
-  self-employment, and 5,699 individually assessed archival dispositions
+  self-employment, and 5,701 individually assessed archival dispositions
 - 2,180 public-visible affiliations, 4,643 public-visible claims, 3,747 public
   source records, and 2,279 unique source-document keys; 185 low-confidence
   claims remain outside default analytics
-- 18,158 active people remain `not_started`; the public site reports this
+- 18,113 active people remain `not_started`; the public site reports this
   incompleteness rather than treating an automated query as completed research
 
 See [RESEARCH_STATUS.md](RESEARCH_STATUS.md) and

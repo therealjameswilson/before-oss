@@ -1,5 +1,34 @@
 # Research status
 
+Batch 594 visually checked all 46 printed rows of PDF page 122 (Donovan
+through Doucette), ran 46 rate-limited Library of Congress discovery
+requests without errors, and saved 30 unreviewed candidate links. Fourteen
+official Army bulk identity candidates were accepted privately on full-name
+and nonshared-identifier evidence; one spelling/suffix variant remains
+probable and one surname discrepancy conflicting. These decisions do not
+establish an employer. The 1943-44 federal foreign-agent report dates the
+International Transport Workers Federation's registration but does **not**
+name Willy Dorchain, so its date was not attributed to his employment.
+Alexis Doster Jr.'s uninspected Colt lead likewise remains unpublished.
+Two people have new manual source-review attempts; the other LoC results are
+discovery only. Page 122 now has 45 people needing further research and one
+previously verified employer case. See `research/batch-594-progress.md` and
+its replayable QA, decisions, and evidence files. The NARA Catalog API key
+was not used.
+
+Current local SQLite has 23,978/23,978 linked source rows, 23,940 active
+people, 5,827/23,940 people with nonplanned attempts (24.3400%),
+266/23,940 with confirmed/high published employer evidence (1.1111%),
+607/23,940 with confirmed/high published affiliation evidence (2.5355%),
+and 5,701/23,940 with assessed archival-review dispositions (23.8137%).
+There are 18,113 active `not_started` people and 261 possible-duplicate
+groups. Private SQLite has 10,800 attempts and 4,832 claims: 1,308
+confirmed, 1,843 high, 1,367 medium, 185 low, and 129 conflicting. It has
+4,942 citation records and 2,279 unique source-document keys. The public
+projection has 2,180 affiliations, 684 organizations, 3,747 sources, and
+4,643 claims. This batch is local until release verification; the full-index
+research goal remains unfinished.
+
 Batch 593 advanced all 46 rows on PDF page 121 (Doll through Donovan): the
 printed page was visually checked, 46 rate-limited Library of Congress
 discovery requests completed, and 44 candidate links remain unreviewed.

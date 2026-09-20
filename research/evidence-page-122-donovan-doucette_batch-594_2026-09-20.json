@@ -1,0 +1,60 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 594 source review",
+  "person_updates": [
+    {
+      "person_id": "383199ed-8106-5810-9cf4-400cb086d1f5",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed Willy Dorchain has no rank or protected identifier. A 1950 Justice Department FARA report names Willy Jules Polidore Dorchain under federation registration 212, but the 1943-44 report's original printed pages 353-354 name the organization and other officers, not Dorchain. The same-person and employment chronology are not yet established.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect Box 194 for full name and OSS entry date; then compare the original FARA registration 212 filings and dated International Transport Workers' Federation records. Do not date Dorchain's federation work from the organization's 1943 registration.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2e457382-a60c-53ad-9b44-9b79afe11351",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index prints Alexis Doster Jr. as a first lieutenant. Search results point to a contemporary report and a Smithsonian aircraft history about Lieutenant Alexis Doster, plus a separate genealogy that may discuss OSS and experimental work at Colt. The full genealogy could not be accessed; the accessible search excerpts do not establish a pre-OSS employer or conclusively bridge the indexed file to those accounts.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect Box 195 and an accessible copy of the Doster genealogy or contemporary military record; establish identity and the Army-to-OSS transition before evaluating whether the reported Colt experimental work was paid employment.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b594-willy-dorchain-temporal-source-review",
+      "person_id": "383199ed-8106-5810-9cf4-400cb086d1f5",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Willy Dorchain indexed Box 194; DOJ FARA reports 1942-44 and 1945-49; International Transport Workers' Federation chronology.",
+      "query_variant_type": "identity_and_temporal_disambiguation",
+      "started_at": "2026-09-20T15:33:00Z",
+      "completed_at": "2026-09-20T15:38:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The federation's 1943 FARA registration is organizational and its named principal officers are Becu and Brier, not Dorchain; it cannot date Dorchain's own employment. Postwar union and UN records cannot by themselves establish a pre-OSS role.",
+      "research_notes": "The rendered 1943-44 DOJ report, June 1945, https://www.justice.gov/nsd-fara/page/file/991971/dl?inline=, printed pp. 353-354/PDF pp. 356-357, lists registration 212 filed 1943-09-30 but not Dorchain. The DOJ June 1950 report, https://www.justice.gov/nsd-fara/page/file/991961/dl, index p. 173/PDF p. 174, names Willy Jules Polidore Dorchain under registration 212 during a report covering 1945-49. The visually reviewed NARA index p. 122 row 18 has Willy Dorchain, Box 194. Identity and pre-OSS sequence remain unproved.",
+      "next_action": "Inspect Box 194 and original registration supplements for personal dates; do not publish the federation as a pre-OSS employer yet.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss/batch-594-v1"
+    },
+    {
+      "key": "b594-alexis-doster-employment-lead-review",
+      "person_id": "2e457382-a60c-53ad-9b44-9b79afe11351",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Alexis Doster Jr. indexed Box 195; exact-name OSS, Army airborne pickup, and Colt experimental-work leads.",
+      "query_variant_type": "identity_and_employer_lead_review",
+      "started_at": "2026-09-20T15:30:00Z",
+      "completed_at": "2026-09-20T15:38:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "A genealogy PDF mentioning experimental work at Colt timed out and could not be inspected; a search excerpt cannot establish employment. Museum and contemporary-news search excerpts concern an Army experiment, not a named civilian employer or the OSS entry date.",
+      "research_notes": "The NARA index p. 122 row 41 was visually verified. Potential follow-ups are the Smithsonian aircraft record https://www.si.edu/object/nasm_A19500076000 and The Doster Genealogy https://www.seekingmyroots.com/members/files/G001821.pdf, neither accepted here as employer evidence. No Colt employment or immediate affiliation claim is published.",
+      "next_action": "Review Box 195 and an accessible primary or institutional source distinguishing paid Colt employment from technical experimentation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss/batch-594-v1"
+    }
+  ]
+}
