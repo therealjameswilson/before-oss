@@ -1,5 +1,28 @@
 # Research status
 
+Batch 586 is locally reviewed and awaiting CI and publication. It covers
+PDF page 118, rows 31–46, in Boxes 187–188. Six official Army bulk
+crosswalks support identity only. A direct wartime OSS interview establishes
+Martin Dinga's immediate pre-OSS Red Cross affiliation and last civilian
+employer at high confidence; the specific Red Cross society and title remain
+unknown. Fifteen other people have terminal online archival-review outcomes.
+The source's `Capt` for Charles DiMary is retained, but its service branch
+is not inferred. Six LoC discovery hits were reviewed: five rejected, one
+retained privately. See `research/batch-586-terminal-review.md`, its
+importable evidence bundle and review-decision files.
+
+Current local SQLite has 23,978/23,978 linked source rows, 23,940 active
+people, 5,646/23,940 people with nonplanned attempts (23.5840%),
+264/23,940 with confirmed/high published employer evidence (1.1028%),
+603/23,940 with confirmed/high published affiliation evidence (2.5188%),
+and 5,601/23,940 with assessed archival-review dispositions (23.3960%).
+There are 18,294 active `not_started` people and 258 possible-duplicate
+groups. Private SQLite has 10,424 attempts and 4,775 claims: 1,307
+confirmed, 1,795 high, 1,360 medium, 184 low, and 129 conflicting. It has
+4,912 citation records and 2,254 unique source-document keys. The local
+public projection has 2,170 affiliations, 678 organizations, 3,718 sources,
+and 4,587 claims. The full-index research goal remains active.
+
 Batch 585 is live and exact-verified at merge commit
 `d01a71916bc0dd9a2734a887c251235780b5f72d`. It covers
 PDF page 118, rows 11–30, in Boxes 186–187. Twenty people have saved CIA,

@@ -1,5 +1,16 @@
 # Link check
 
+Batch 586 local release candidate, 2026-09-20 UTC: all internal links
+resolve across **24,650** built HTML files, including 25 Sources pages.
+The checker inventoried **50,133** unique external URLs but did not visit
+every target. The full-identifier audit found zero unexpected full-number
+boundary matches across **24,722** public artifacts. The local verifier
+matched all **67** public assets / **96,411,664** bytes at SHA-256
+`846455d0e1eb2869009e2df19dac3e548fb3439d359659789dc1235257ce91a0`.
+The Hoover interview URL was readable through the web-source reader but
+returned 403 to command-line HEAD; an item-level Hoover catalog link remains
+a citation-quality follow-up. No complete external-link validation is claimed.
+
 Batch 585 exact-verified public release, 2026-09-20 UTC: all internal links
 resolve across **24,649** built HTML files, including 25 Sources pages.
 The checker inventoried **50,131** unique external URLs but did not visit

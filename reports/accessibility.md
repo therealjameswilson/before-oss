@@ -1,5 +1,23 @@
 # Accessibility and responsive QA
 
+Batch 586 local release candidate, 2026-09-20 UTC: the bounded Playwright
+release suite passed **72/72** desktop, phone, and tablet checks: nine
+cohort-profile checks, 30 core-route checks (including the oil-company
+category), six analysis checks, and 27 axe checks with no serious or
+critical violations. The cohort checks cover all sixteen direct profiles,
+Martin Dinga's cited immediate and last-civilian Red Cross affiliation,
+and exclusion of an unbridged engineer namesake and postwar teaching from
+employer claims. Astro reported zero errors, warnings, and hints across 215
+source files and built 24,650 static pages. An attempt to enumerate and run
+all 187 historical batch specifications in one Playwright process exceeded
+Node's default 4 GB heap; the separate bounded release suites passed and
+remain the CI gate. No full historical-suite pass is claimed for this local
+run. Two consecutive public-data and Astro builds reproduced the 70-file
+public tree SHA-256
+`a9745caacaa5091466f0c2bf7723ffcec1798f056a62664372d807f7457224b5`
+and the 24,722-file production tree SHA-256
+`3c151f34189acefa7daaa36125d4c6e49d44dccf9ed31ebae12d559b40bec5f0`.
+
 Batch 585 exact-verified public release, 2026-09-20 UTC: the bounded Playwright
 release suite passed **72/72** checks across desktop, phone and tablet:
 nine cohort-profile checks, 30 core-route checks (including the oil-company
