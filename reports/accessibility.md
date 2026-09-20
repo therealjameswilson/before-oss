@@ -1,5 +1,16 @@
 # Accessibility and responsive QA
 
+Batch 581 exact-verified public release, 2026-09-20 UTC: the bounded release
+suite passed **75/75** checks across desktop, phone and tablet: 12 cohort
+profile checks, 30 core-route checks, six analysis checks and 27 axe checks
+with no serious or critical violations. After the final research-status
+wording sync, a fresh build and **12/12** focused three-viewport cohort
+checks passed. The PR and merged-main Tests and GitHub Pages deployment
+passed, and the live
+verifier matched ten direct profiles; see `reports/release_batch_581.md`.
+
+Previous release: Batch 580, 2026-09-20 UTC.
+
 Batch 580 exact-verified public release, 2026-09-20 UTC: the bounded release suite passed
 75/75 checks across desktop, phone and tablet: 12 cohort-profile checks, 30
 core-route checks, six analysis checks and 27 axe checks with no serious or

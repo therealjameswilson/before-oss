@@ -1,6 +1,7 @@
 # Research status
 
-Batch 581 is locally reviewed and awaits public release. It covers PDF page
+Batch 581 is live and exact-verified at merge commit
+`cbec90e90debbc4107b9a9b28485135feaa73b3d`. It covers PDF page
 117, rows 11–20, all in Box 185. Ten distinct printed rows and cautious
 people received terminal online research outcomes. Five accepted official Army
 bulk matches support identity only. A contemporary 1942 *Broadcasting* item
@@ -10,8 +11,10 @@ service, **not** his proven immediate pre-OSS affiliation. His adjacent
 unnumbered namesake row remains separate in a visible possible-duplicate
 group, with no inherited employer. See
 `research/batch-581-terminal-review.md` and its importable evidence and review
-files. Local QA has passed; publication status is recorded in the release
-report after deployment verification.
+files. The PR and merged-main Tests, GitHub Pages deployment, and read-only live verifier
+passed: all 67 manifested assets, seven core routes, 25 Sources pages, and
+ten direct profiles matched the merge commit. See
+`reports/release_batch_581.md`.
 
 Current local SQLite contains 23,978 / 23,978 linked source rows, 23,940
 active person entities, 5,574 / 23,940 with nonplanned research attempts
