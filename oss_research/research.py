@@ -289,6 +289,61 @@ def has_unreviewed_research_candidate(
     )
 
 
+def record_discovery_progress(
+    connection: sqlite3.Connection,
+    *,
+    person_id: str,
+    candidate_count: int,
+    has_unreviewed_candidates: bool,
+) -> None:
+    """Count a source check without replacing a reviewed research disposition.
+
+    Only the three automatically managed discovery states may move to another
+    discovery state. A later search is supplementary evidence, not a reason
+    to erase a human-reviewed employer, archival, conflict, or access outcome.
+    """
+    next_status, person_action, queue_action = candidate_aware_status(
+        candidate_count, has_unreviewed_candidates
+    )
+    now = utc_now()
+    connection.execute(
+        """
+        UPDATE person_entities
+        SET research_started_at = COALESCE(research_started_at, ?),
+            research_attempt_number = research_attempt_number + 1,
+            updated_at = ?
+        WHERE person_id = ?
+        """,
+        (now, now, person_id),
+    )
+    connection.execute(
+        """
+        UPDATE person_entities
+        SET research_status = ?, next_action = ?, research_agent_version = ?
+        WHERE person_id = ?
+          AND research_status IN ('not_started', 'in_progress', 'candidate_found')
+        """,
+        (next_status, person_action, f"before-oss/{__version__}", person_id),
+    )
+    connection.execute(
+        """
+        UPDATE research_queue
+        SET attempts = attempts + 1, updated_at = ?
+        WHERE person_id = ?
+        """,
+        (now, person_id),
+    )
+    connection.execute(
+        """
+        UPDATE research_queue
+        SET research_status = ?, next_action = ?
+        WHERE person_id = ?
+          AND research_status IN ('not_started', 'in_progress', 'candidate_found')
+        """,
+        (next_status, queue_action, person_id),
+    )
+
+
 def _attempt(
     connection: sqlite3.Connection,
     *,
@@ -469,47 +524,11 @@ def run_research(
                         connection,
                         person_id_value,
                     )
-                    (
-                        next_status,
-                        person_next_action,
-                        queue_next_action,
-                    ) = candidate_aware_status(
-                        candidate_count,
-                        has_unreviewed_candidates,
-                    )
-                    connection.execute(
-                        """
-                        UPDATE person_entities
-                        SET research_status = ?,
-                            research_started_at = COALESCE(research_started_at, ?),
-                            research_attempt_number = research_attempt_number + 1,
-                            next_action = ?,
-                            research_agent_version = ?,
-                            updated_at = ?
-                        WHERE person_id = ?
-                        """,
-                        (
-                            next_status,
-                            utc_now(),
-                            person_next_action,
-                            f"before-oss/{__version__}",
-                            utc_now(),
-                            person_id_value,
-                        ),
-                    )
-                    connection.execute(
-                        """
-                        UPDATE research_queue
-                        SET research_status = ?, attempts = attempts + 1,
-                            next_action = ?, updated_at = ?
-                        WHERE person_id = ?
-                        """,
-                        (
-                            next_status,
-                            queue_next_action,
-                            utc_now(),
-                            person_id_value,
-                        ),
+                    record_discovery_progress(
+                        connection,
+                        person_id=person_id_value,
+                        candidate_count=candidate_count,
+                        has_unreviewed_candidates=has_unreviewed_candidates,
                     )
             if is_planned:
                 planned += 1

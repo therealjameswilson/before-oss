@@ -7,6 +7,7 @@ from oss_research.research import (
     assign_page_batch,
     candidate_aware_status,
     has_unreviewed_research_candidate,
+    record_discovery_progress,
     source_query_options,
 )
 
@@ -248,6 +249,114 @@ class ResearchQuerySchedulerTests(unittest.TestCase):
         self.assertTrue(
             has_unreviewed_research_candidate(connection, "person-1")
         )
+
+
+class DiscoveryStatusPreservationTests(unittest.TestCase):
+    def setUp(self) -> None:
+        self.connection = sqlite3.connect(":memory:")
+        self.connection.row_factory = sqlite3.Row
+        self.connection.executescript(
+            """
+            CREATE TABLE person_entities(
+                person_id TEXT PRIMARY KEY,
+                research_status TEXT NOT NULL,
+                research_started_at TEXT,
+                research_attempt_number INTEGER NOT NULL,
+                next_action TEXT,
+                research_agent_version TEXT,
+                updated_at TEXT
+            );
+            CREATE TABLE research_queue(
+                person_id TEXT PRIMARY KEY,
+                research_status TEXT NOT NULL,
+                attempts INTEGER NOT NULL,
+                next_action TEXT,
+                updated_at TEXT
+            );
+            INSERT INTO person_entities VALUES
+                ('person-1', 'not_started', NULL, 0,
+                 'Keep reviewed action', 'manual-review', 'old-time');
+            INSERT INTO research_queue VALUES
+                ('person-1', 'not_started', 0,
+                 'Keep reviewed action', 'old-time');
+            """
+        )
+
+    def tearDown(self) -> None:
+        self.connection.close()
+
+    def test_new_candidate_advances_only_an_automatic_discovery_status(self) -> None:
+        record_discovery_progress(
+            self.connection,
+            person_id="person-1",
+            candidate_count=1,
+            has_unreviewed_candidates=True,
+        )
+        person = self.connection.execute(
+            "SELECT * FROM person_entities WHERE person_id='person-1'"
+        ).fetchone()
+        queue = self.connection.execute(
+            "SELECT * FROM research_queue WHERE person_id='person-1'"
+        ).fetchone()
+        self.assertEqual(person["research_status"], "candidate_found")
+        self.assertIn("Review discovery candidates", person["next_action"])
+        self.assertEqual(queue["research_status"], "candidate_found")
+        self.assertEqual(person["research_attempt_number"], 1)
+        self.assertEqual(queue["attempts"], 1)
+
+    def test_supplemental_search_preserves_reviewed_status_and_next_action(self) -> None:
+        reviewed_statuses = (
+            "requires_archival_review",
+            "verified_employer_found",
+            "documented_prewar_employer_found",
+            "occupation_only_found",
+            "no_reliable_result_after_protocol",
+            "conflicting_sources",
+            "needs_identity_review",
+            "needs_temporal_review",
+            "blocked_by_source_access",
+            "completed",
+        )
+        for status in reviewed_statuses:
+            with self.subTest(status=status):
+                self.connection.execute(
+                    """
+                    UPDATE person_entities
+                    SET research_status=?, research_attempt_number=4,
+                        next_action='Keep reviewed action',
+                        research_agent_version='manual-review'
+                    WHERE person_id='person-1'
+                    """,
+                    (status,),
+                )
+                self.connection.execute(
+                    """
+                    UPDATE research_queue
+                    SET research_status=?, attempts=4,
+                        next_action='Keep reviewed action'
+                    WHERE person_id='person-1'
+                    """,
+                    (status,),
+                )
+                record_discovery_progress(
+                    self.connection,
+                    person_id="person-1",
+                    candidate_count=1,
+                    has_unreviewed_candidates=True,
+                )
+                person = self.connection.execute(
+                    "SELECT * FROM person_entities WHERE person_id='person-1'"
+                ).fetchone()
+                queue = self.connection.execute(
+                    "SELECT * FROM research_queue WHERE person_id='person-1'"
+                ).fetchone()
+                self.assertEqual(person["research_status"], status)
+                self.assertEqual(queue["research_status"], status)
+                self.assertEqual(person["next_action"], "Keep reviewed action")
+                self.assertEqual(queue["next_action"], "Keep reviewed action")
+                self.assertEqual(person["research_agent_version"], "manual-review")
+                self.assertEqual(person["research_attempt_number"], 5)
+                self.assertEqual(queue["attempts"], 5)
 
 
 if __name__ == "__main__":
