@@ -1,0 +1,283 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 602 official-history timeline review",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-133-eifler-carl-f",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 214",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 133, row 13; Carl F Eifler, Colonel; Box 214; visually reviewed",
+      "access_date": "2026-09-20",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Index is a personnel-file locator, not evidence of earlier employment. Full service identifier stays private."
+    },
+    {
+      "key": "army-mi-hall-eifler",
+      "stable_url": "https://www.ikn.army.mil/apps/MIHOF/biographies/Eifler%2C%20Carl.pdf",
+      "title": "Colonel Carl F. Eifler, US Army, Retired",
+      "author_creator": "U.S. Army Intelligence Center of Excellence",
+      "repository_publisher": "United States Army",
+      "locator": "PDF page 1; early-1941 K Company command and 1942 COI assignment",
+      "access_date": "2026-09-20",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Military Intelligence Hall of Fame",
+      "rights_notes": "Official Army biography; only project-authored paraphrases are retained."
+    },
+    {
+      "key": "nps-chambers-pacific-eifler-b602",
+      "stable_url": "https://www.nps.gov/articles/oss-in-action-the-pacific-and-the-far-east.htm",
+      "title": "OSS in Action: The Pacific and the Far East",
+      "author_creator": "National Park Service history program",
+      "repository_publisher": "National Park Service",
+      "publication_record_date": "2017-08-08 page update",
+      "locator": "Detachment 101: OSS Success in Burma, first three paragraphs; footnote 43",
+      "access_date": "2026-09-20",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "OSS Training in the National Parks and Service Abroad in World War II",
+      "rights_notes": "Official interpretive history; source language is paraphrased. Its source note cites U.S. Customs Today and Eifler's memoir."
+    },
+    {
+      "key": "nara-oss-formation-eifler-b602",
+      "stable_url": "https://www.archives.gov/research/holocaust/finding-aid/military/rg-226.html",
+      "title": "Records of the Office of Strategic Services (RG 226)",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "locator": "RG 226 agency history: OSS established 13 June 1942 as successor to the Coordinator of Information",
+      "access_date": "2026-09-20",
+      "source_quality": "A_direct_official",
+      "collection_name": "Guide to Federal Records",
+      "rights_notes": "Agency chronology is paraphrased; the index does not by itself establish an individual transfer day."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "k-company-35th-infantry-regiment",
+      "canonical_name": "K Company, 35th Infantry Regiment",
+      "historical_name": "K Company, 35th Infantry Regiment",
+      "aliases": ["Company K, 35th Infantry"],
+      "organization_type": "United States Army company",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "The Army biography identifies this 1941 command. NPS documents an intervening military-police assignment after Pearl Harbor, so K Company is not the immediate pre-COI posting."
+    },
+    {
+      "key": "us-customs-service",
+      "canonical_name": "United States Customs Service",
+      "historical_name": "U.S. Customs Service",
+      "aliases": ["US Customs Service"],
+      "organization_type": "federal customs agency",
+      "sector": "federal_government",
+      "country": "United States",
+      "active_dates": "1789-2003",
+      "normalization_notes": "The National Park Service explicitly names Eifler's pre-service federal employer; no modern successor is substituted."
+    },
+    {
+      "key": "eifler-hawaii-army-military-police-b602",
+      "canonical_name": "Unidentified U.S. Army military police unit in Hawaii",
+      "historical_name": "military police unit guarding enemy alien detainees in Hawaii",
+      "organization_type": "United States Army unit; exact designation unknown",
+      "sector": "military",
+      "state_or_region": "Hawaii Territory",
+      "country": "United States",
+      "normalization_notes": "NPS identifies the intervening assignment but not the formal unit designation. Do not merge it with a named military-police unit without personnel orders."
+    },
+    {
+      "key": "coordinator-of-information",
+      "canonical_name": "Coordinator of Information",
+      "historical_name": "Office of the Coordinator of Information",
+      "aliases": ["COI", "OCOI"],
+      "organization_type": "federal intelligence agency",
+      "sector": "federal_government",
+      "country": "United States",
+      "active_dates": "1941-1942",
+      "normalization_notes": "COI preceded OSS, which NARA dates to 13 June 1942. An individual administrative transfer day for Eifler is not established."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "carl-eifler-k-company",
+      "person_id": "a0f164c7-505d-5cb9-88e1-0c3c1f1be22f",
+      "organization_key": "k-company-35th-infantry-regiment",
+      "organization_name_as_found": "K Company, 35th Infantry Regiment",
+      "role_title": "Commanding officer",
+      "occupation": "Army officer",
+      "relationship_type": "military_assignment",
+      "start_date": "1941",
+      "date_precision": "Called to active duty in early 1941; NPS documents a later military-police command after Pearl Harbor, but the exact K Company end date is unknown",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Correction to the earlier immediate label: NPS records an intervening Army military-police command after Pearl Harbor, followed by COI in 1942."
+    },
+    {
+      "key": "carl-eifler-customs-service",
+      "person_id": "a0f164c7-505d-5cb9-88e1-0c3c1f1be22f",
+      "organization_key": "us-customs-service",
+      "organization_name_as_found": "U.S. Customs Service",
+      "role_title": "Chief Customs Inspector in Hawaii",
+      "occupation": "customs inspector",
+      "relationship_type": "employment",
+      "date_precision": "Named 1940 Hawaii appointment; followed by an early-1941 call to active Army duty; exact federal separation date unknown",
+      "state_or_region": "Hawaii Territory",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "NPS explicitly names the U.S. Customs Service; its historical account dates the Hawaii chief-inspector appointment to 1940 and Army recall to 1941. The date of leaving the civilian role is not established."
+    },
+    {
+      "key": "b602-carl-eifler-hawaii-military-police",
+      "person_id": "a0f164c7-505d-5cb9-88e1-0c3c1f1be22f",
+      "organization_key": "eifler-hawaii-army-military-police-b602",
+      "organization_name_as_found": "military police unit guarding enemy alien detainees in Hawaii",
+      "role_title": "Commanding officer",
+      "occupation": "Army officer",
+      "relationship_type": "military_assignment",
+      "date_precision": "After the December 1941 Pearl Harbor attack and before the 1942 COI assignment; exact start, end, and unit designation unknown",
+      "state_or_region": "Hawaii Territory",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "NPS identifies this assignment between K Company and COI. The specific military-police unit remains unnamed."
+    },
+    {
+      "key": "b602-carl-eifler-coi",
+      "person_id": "a0f164c7-505d-5cb9-88e1-0c3c1f1be22f",
+      "organization_key": "coordinator-of-information",
+      "organization_name_as_found": "Office of the Coordinator of Information",
+      "role_title": "Detachment 101 organizer and commander",
+      "occupation": "Army officer assigned to intelligence work",
+      "relationship_type": "government_assignment",
+      "start_date": "1942",
+      "date_precision": "Army biography dates COI assignment to 1942; NARA dates OSS succession to 13 June 1942; exact Eifler personnel-transfer date unknown",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The Army biography documents assignment to COI before its OSS succession; COI is the immediate institutional predecessor, while Eifler remained an Army officer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "carl-eifler-army-immediate",
+      "person_id": "a0f164c7-505d-5cb9-88e1-0c3c1f1be22f",
+      "affiliation_key": "carl-eifler-k-company",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Eifler commanded K Company, 35th Infantry Regiment, after his early-1941 call to Army active duty; this was not his final documented pre-COI assignment.",
+      "evidence_paraphrase": "The Army biography identifies K Company. The NPS history adds a subsequent military-police command after Pearl Harbor before his 1942 COI assignment.",
+      "identity_match_assessment": "High: exact indexed full name and colonel rank match the Army biography, while NPS identifies the same distinctive Detachment 101 commander.",
+      "temporal_assessment": "Definitely pre-OSS, but superseded by the military-police and COI assignments; exact K Company end date unknown.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Revises the earlier immediate-pre-OSS interpretation without deleting the historic claim ID. The company remains a military unit, not a civilian employer.",
+      "sources": [
+        {"source_key": "army-mi-hall-eifler", "support_type": "supports"},
+        {"source_key": "nps-chambers-pacific-eifler-b602", "support_type": "supports"},
+        {"source_key": "nara-oss-index-page-133-eifler-carl-f", "support_type": "context_only"}
+      ]
+    },
+    {
+      "key": "carl-eifler-last-civilian",
+      "person_id": "a0f164c7-505d-5cb9-88e1-0c3c1f1be22f",
+      "affiliation_key": "carl-eifler-customs-service",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Eifler's last documented civilian employer before his 1941 Army active-duty recall was the U.S. Customs Service, where he had become chief Customs Inspector in Hawaii in 1940.",
+      "evidence_paraphrase": "NPS explicitly identifies the U.S. Customs Service and the 1940 Hawaii appointment; the Army biography independently places his customs work before active-duty recall.",
+      "identity_match_assessment": "High: exact full name, customs-to-Army chronology, and Detachment 101 command align with the indexed colonel.",
+      "temporal_assessment": "The civilian-employer sequence is strongly date-bounded before active Army duty, but the exact Customs separation date is not documented.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "NPS supplies the historically named organization; this is civilian federal employment, distinct from the subsequent Army and COI assignments.",
+      "sources": [
+        {"source_key": "nps-chambers-pacific-eifler-b602", "support_type": "supports"},
+        {"source_key": "army-mi-hall-eifler", "support_type": "supports"}
+      ]
+    },
+    {
+      "key": "b602-carl-eifler-military-police",
+      "person_id": "a0f164c7-505d-5cb9-88e1-0c3c1f1be22f",
+      "affiliation_key": "b602-carl-eifler-hawaii-military-police",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "After Pearl Harbor, Eifler commanded an unidentified U.S. Army military-police unit guarding enemy alien detainees in Hawaii before his COI assignment.",
+      "evidence_paraphrase": "The NPS history places a Hawaii military-police command after his 35th Infantry command; the Army biography then dates assignment to COI in 1942.",
+      "identity_match_assessment": "High: NPS and Army accounts identify the same Eifler by name, Army service, and Detachment 101 command.",
+      "temporal_assessment": "Strongly date-bounded after December 1941 and before COI service in 1942; no exact unit name or assignment orders were reviewed.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Do not silently infer the formal military-police unit designation or treat this Army assignment as civilian employment.",
+      "sources": [
+        {"source_key": "nps-chambers-pacific-eifler-b602", "support_type": "supports"},
+        {"source_key": "army-mi-hall-eifler", "support_type": "context_only"}
+      ]
+    },
+    {
+      "key": "b602-carl-eifler-coi-immediate",
+      "person_id": "a0f164c7-505d-5cb9-88e1-0c3c1f1be22f",
+      "affiliation_key": "b602-carl-eifler-coi",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Eifler's best-documented immediate institutional affiliation before OSS was the Coordinator of Information, to which he was assigned in 1942 while remaining an Army officer.",
+      "evidence_paraphrase": "The Army biography records Eifler's 1942 COI assignment. NARA documents that OSS succeeded COI on 13 June 1942.",
+      "identity_match_assessment": "High: the Army biography names Carl F. Eifler, matching the indexed colonel, and identifies his Detachment 101 role.",
+      "temporal_assessment": "Strongly date-bounded COI-to-OSS agency succession; no individual administrative transfer order or exact date was inspected.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This is a government assignment and agency chronology, not Eifler's last civilian employer. His Army commission continued concurrently.",
+      "sources": [
+        {"source_key": "army-mi-hall-eifler", "support_type": "supports"},
+        {"source_key": "nara-oss-formation-eifler-b602", "support_type": "supports"},
+        {"source_key": "nara-oss-index-page-133-eifler-carl-f", "support_type": "context_only"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "a0f164c7-505d-5cb9-88e1-0c3c1f1be22f",
+      "identity_status": "high_confidence",
+      "next_action": "Review Box 214 and military orders to identify the Hawaii military-police unit and Eifler's exact 1942 COI/OSS administrative transition."
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b602-carl-eifler-official-timeline-correction",
+      "person_id": "a0f164c7-505d-5cb9-88e1-0c3c1f1be22f",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Carl F. Eifler customs service Hawaii 35th Infantry military police COI; official Army NPS NARA review",
+      "query_variant_type": "official_institutional_timeline_correction",
+      "started_at": "2026-09-20T21:32:00Z",
+      "completed_at": "2026-09-20T21:32:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "research_notes": "NPS documents an intervening Hawaii military-police command omitted from the earlier Army biography summary. The previously immediate K Company affiliation is reclassified as earlier military service; COI is the immediate institutional predecessor to OSS. NPS explicitly names the Customs Service as the last civilian employer. The original personnel file and individual transfer orders remain unreviewed.",
+      "next_action": "Review Box 214 and military orders for exact unit and transition dates.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch-602-v1"
+    }
+  ]
+}

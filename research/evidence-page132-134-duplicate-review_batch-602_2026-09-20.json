@@ -1,0 +1,78 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 602 original-index duplicate review",
+  "person_updates": [
+    {
+      "person_id": "d1c6f7c9-45fa-54d3-ba2f-8a0ec50f2dab",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA page 132 rows 6 and 7 both print Kay Edmonston without a protected identifier but point to Boxes 212 and 213. The rows remain separate people pending file comparison.",
+      "possible_duplicate_group": "p132-kay-edmonston-b602",
+      "manual_review_required": true,
+      "next_action": "Compare the Kay Edmonston files in Boxes 212 and 213 before merging or attaching outside biographical evidence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7b23cb78-6d82-5623-b6a9-d0b5c519e11d",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA page 132 rows 6 and 7 both print Kay Edmonston without a protected identifier but point to Boxes 212 and 213. The rows remain separate people pending file comparison.",
+      "possible_duplicate_group": "p132-kay-edmonston-b602",
+      "manual_review_required": true,
+      "next_action": "Compare the Kay Edmonston files in Boxes 212 and 213 before merging or attaching outside biographical evidence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "95ff1709-4839-5ecf-b6b2-08fcb8e3c07b",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA page 132 row 12 prints Charles F Edson in Box 212 without a protected identifier; row 13 prints Charles F Edson Jr. in Box 213 with one. A suffix could distinguish father and son or be omitted in one index row. No merger is justified.",
+      "possible_duplicate_group": "p132-charles-f-edson-jr-b602",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 212 and 213 and establish whether the suffix denotes separate people before resolving either identity.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5441be09-605e-5412-ba4d-5863355c23dd",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA page 132 row 12 prints Charles F Edson in Box 212 without a protected identifier; row 13 prints Charles F Edson Jr. in Box 213 with one. A suffix could distinguish father and son or be omitted in one index row. No merger is justified.",
+      "possible_duplicate_group": "p132-charles-f-edson-jr-b602",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 212 and 213 and establish whether the suffix denotes separate people before resolving either identity.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "da4b431c-b9f1-577a-a0c1-a4781a6bd529",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA page 134 row 29 prints Robert M Elliot without a protected identifier; row 36 prints Robert M Elliott with one. Both point to Box 217. The one-letter spelling variant and shared box are a lead, not proof of one person.",
+      "possible_duplicate_group": "p134-robert-m-elliot-elliott-b602",
+      "manual_review_required": true,
+      "next_action": "Inspect both Box 217 entries and compare the protected identifier and biographical details before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "eff35a46-69d7-5c6e-b9f4-e085c194cca6",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA page 134 row 29 prints Robert M Elliot without a protected identifier; row 36 prints Robert M Elliott with one. Both point to Box 217. The one-letter spelling variant and shared box are a lead, not proof of one person.",
+      "possible_duplicate_group": "p134-robert-m-elliot-elliott-b602",
+      "manual_review_required": true,
+      "next_action": "Inspect both Box 217 entries and compare the protected identifier and biographical details before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ee9ec1af-54c3-5110-b566-f8ddd5a11c97",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA page 131 row 3 prints Herman Ebeling in Box 211; page 133 row 34 prints Hermann Elbeling in Box 215. Both have printed protected identifiers, but those identifiers differ. This is only a spelling lead and the entities remain separate.",
+      "possible_duplicate_group": "p131-133-ebeling-elbeling-b602",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 211 and 215 and investigate the distinct protected identifiers before considering any name-variant linkage.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c2a93a45-4e4b-5f0e-bc61-b78ea7a11e72",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA page 131 row 3 prints Herman Ebeling in Box 211; page 133 row 34 prints Hermann Elbeling in Box 215. Both have printed protected identifiers, but those identifiers differ. This is only a spelling lead and the entities remain separate.",
+      "possible_duplicate_group": "p131-133-ebeling-elbeling-b602",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 211 and 215 and investigate the distinct protected identifiers before considering any name-variant linkage.",
+      "archival_review_priority": "high"
+    }
+  ]
+}

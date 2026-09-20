@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T20:55:31+00:00",
+  "generated_at": "2026-09-20T21:43:11+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -32,25 +32,25 @@
     "4": 36
   },
   "identity_status_counts": {
-    "ambiguous": 9,
+    "ambiguous": 10,
     "confirmed": 8,
     "conflicting": 10,
     "high_confidence": 24,
     "probable": 4,
-    "unresolved": 145
+    "unresolved": 144
   },
   "research_status_counts": {
-    "candidate_found": 1,
+    "candidate_found": 2,
     "completed": 4,
     "conflicting_sources": 9,
     "documented_prewar_employer_found": 2,
-    "in_progress": 5,
+    "in_progress": 6,
     "needs_identity_review": 11,
     "needs_temporal_review": 2,
     "no_reliable_result_after_protocol": 1,
-    "not_started": 118,
+    "not_started": 117,
     "occupation_only_found": 8,
-    "requires_archival_review": 31,
+    "requires_archival_review": 30,
     "verified_employer_found": 8
   },
   "special_strata_counts": {
@@ -63,7 +63,7 @@
     "confirmed_or_high_published_claim": 33,
     "medium_published_claim": 16,
     "conflicting_published_claim": 10,
-    "unresolved_identity": 145
+    "unresolved_identity": 144
   },
   "unavailable_strata": {
     "women": "The index has no sex/gender field; the project does not infer gender from names. This stratum requires sourced identity research."
@@ -218,6 +218,7 @@
     "d0042f95-e917-5a02-9973-6ed3330f0f68",
     "faa590d7-cc71-5602-a8f8-516ea5b54623",
     "7b58b991-86e7-5ab0-9781-c77140261080",
+    "95ff1709-4839-5ecf-b6b2-08fcb8e3c07b",
     "668221c0-1ef1-54c9-b4f0-d39a94fd5b68",
     "b103f936-8713-53ae-ab14-15b94df853e2",
     "0b37edb6-1768-529f-b824-7a4af2183d43",
@@ -231,7 +232,6 @@
     "bc76141a-950f-5e91-8578-a9b74be39d47",
     "1395be4e-115f-5669-a026-51ab90051ff9",
     "45216897-b9ce-59ee-bb1e-0cd8f74e7a81",
-    "243c407d-976b-53a5-a08c-5a2939c41ec0",
     "5973e9b9-4412-53fc-93d6-c9925bed1a90",
     "e9894de3-592a-5ab3-b5f3-56ea67909531",
     "cc806144-a526-5ecf-9b71-bab279bfcdf4",

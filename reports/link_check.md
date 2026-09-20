@@ -1,5 +1,22 @@
 # Link check
 
+Batch 602 local validation, 2026-09-20 UTC: all internal links resolve
+across **24,689** locally built HTML files, including the corrected Carl F.
+Eifler profile, its COI and military organization pages, and the six-person
+oil-company category. An unrelated untracked duplicate Sources route adds
+25 local-only pages and is excluded from the release. The checker inventoried
+**50,203** unique external URLs; it did not request every target. The new
+[Army biography](https://www.ikn.army.mil/apps/MIHOF/biographies/Eifler%2C%20Carl.pdf),
+[NPS history](https://www.nps.gov/articles/oss-in-action-the-pacific-and-the-far-east.htm),
+and [NARA agency history](https://www.archives.gov/research/holocaust/finding-aid/military/rg-226.html)
+were inspected separately. The public-identifier audit compared **12,926**
+normalized identifiers and **120** variants against **24,761** public
+artifacts, with zero unexpected full-number boundary matches. The local
+manifest matched **67** assets and **97,166,080** bytes at SHA-256
+`7b1c7b077f7d4dcab3f26930696f5d79270e447fb74a32abe09963a404d6e4c0`.
+Clean CI, Pages deployment, and live exact-file verification remain separate
+release checks.
+
 Batch 601 local validation, 2026-09-20 UTC: all internal links resolve
 across **24,688** locally built HTML files, including direct pages 129–131
 profiles, William A. Eddy's three-way chronology, and the six-person

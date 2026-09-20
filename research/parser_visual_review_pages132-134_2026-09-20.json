@@ -1,0 +1,8 @@
+{
+  "bundle_version": "parser-visual-review-v1",
+  "source_pdf_sha256": "7268492342ab131d3b6d2697cfa4f6856cbdcd16e0ed3877e8d6a0478f58c02b",
+  "reviewer": "Codex pages 132-134 visual audit",
+  "matching_pages_reviewed_at": "2026-09-20T21:27:43Z",
+  "matching_pages_notes": "Original PDF pages 132-134 were rendered at 170 dpi and all 46 printed row positions on each page were compared with immutable source rows. Names, initials, suffixes, rank and serial-column occupancy, box changes, notes, and printed archival location 230/86/30/05 match. Preserve page-132 separate James Edminster/James H Edminster and duplicate-looking Kay Edmonston, Eugene D Edmunds, Robert B Edris, and Charles F Edson/Jr. rows. Preserve British Army note for C H Edwards. Page 133 reads Ingvalg O Eidsheim, with printed truncated note 'Norwegi'; preserve French Lt Andre G Eichart, British civilian Charles Albert Elazar, the two William E Eisemann rows with identical printed identifier but different rank, and distinct John G/John J Eldracher and Randolph D/Randolph F Eley. Page 134 preserves printed civilian status for Sverre Ellingsen and Margaret F Elliott, British Army notes for J N R Elliot and Charles H Ellis, and the visibly column-split Alger C Ellis Jr. entry: rank cell '1st Lt., 2' and serial cell '86782'. The split is in the printed source, not a parser shift; do not silently reconstruct the full identifier. No parser warning or source correction is required.",
+  "reviewed_matching_pages": [132, 133, 134]
+}
