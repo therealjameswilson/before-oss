@@ -13,21 +13,21 @@ is not complete, and the site reports that limitation explicitly.
 
 ## Current state
 
-- 522 PDF pages processed and visually audited under the documented sampling rule
+- 522 PDF pages processed; 97 pages visually reviewed under and beyond the documented sampling rule
 - 23,978 immutable source rows
 - 23,941 stored person rows and 23,940 active person entities; one reviewed
   duplicate supersession retains both immutable index rows for audit
 - 23,978 / 23,978 source rows linked to an entity
-- 258 possible duplicate groups; possible variants remain separate until reviewed
-- 75-person stratified research pilot, 6 reviewed NARA personnel files, 5,600
-  people with saved non-planned research outcomes, and 10,286 durable research
+- 261 possible duplicate groups; possible variants remain separate until reviewed
+- 75-person stratified research pilot, 6 reviewed NARA personnel files, 5,782
+  people with saved non-planned research outcomes, and 10,752 durable research
   attempts or plans
-- 600 verified-affiliation profiles, including 262 with verified employment or
-  self-employment, and 5,555 individually assessed archival dispositions
-- 2,167 public-visible affiliations, 4,562 public-visible claims, 3,704 public
-  source records, and 2,243 unique source-document keys; 184 low-confidence
+- 607 verified-affiliation profiles, including 266 with verified employment or
+  self-employment, and 5,699 individually assessed archival dispositions
+- 2,180 public-visible affiliations, 4,643 public-visible claims, 3,747 public
+  source records, and 2,279 unique source-document keys; 185 low-confidence
   claims remain outside default analytics
-- 18,340 active people remain `not_started`; the public site reports this
+- 18,158 active people remain `not_started`; the public site reports this
   incompleteness rather than treating an automated query as completed research
 
 See [RESEARCH_STATUS.md](RESEARCH_STATUS.md) and
@@ -110,7 +110,6 @@ python3 -m oss_research nara-check --dry-run
 python3 -m oss_research nara-usage
 python3 -m oss_research research --source nara --batch pilot-v1 --max-queries 75 --dry-run
 python3 -m oss_research research --source nara --batch pilot-v1 --max-queries 75
-python3 -m oss_research research --source cia --batch pilot-v1 --max-queries 75
 python3 -m oss_research research --source loc --batch pilot-v1 --max-queries 75
 python3 -m oss_research research --source web --batch pilot-v1 --max-queries 75
 python3 -m oss_research export-review-queue
@@ -126,7 +125,6 @@ used for a different cohort; repeating the same assignment is safe.
 ```bash
 python3 -m oss_research assign-page-batch \
   --batch-name batch-580 --page 117 --first-row 1 --last-row 10
-python3 -m oss_research research --source cia --batch batch-580 --max-queries 10
 python3 -m oss_research research --source loc --batch batch-580 --max-queries 10
 python3 -m oss_research export-adapter-checkpoints
 ```
@@ -135,6 +133,14 @@ Batch assignment and adapter queries are discovery checkpoints, not a
 reviewed research outcome or proof of a previous employer. Resume the
 source-by-source review and import evidence or rejection decisions before
 changing a person's terminal research status.
+
+Automated CIA Reading Room searches are currently unavailable: the
+[CIA robots policy](https://www.cia.gov/robots.txt) disallows the adapter's
+`/readingroom/search/` route. The adapter checks the current policy and fails
+closed without sending a search request. Do not interpret this access limit as
+a negative search result or as a completed CIA check. Use a permitted official
+source or manual archival review instead; see
+`research/source-access-review_2026-09-20.md`.
 
 To inspect a bounded LoC newspaper candidate through the official item JSON
 and text-service API without storing source responses, run

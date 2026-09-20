@@ -36,9 +36,9 @@ contains 12, for a total of 23,978. Visual selection includes:
 - every parser-warning page;
 - every anomalous row-count page.
 
-Ninety-six pages have durable, replayable visual decisions. The current audit
-rules select 92 of them; four additional pages retained from earlier checks are
-also reviewed. Twenty-three values
+Ninety-seven pages have durable, replayable visual decisions. The current audit
+rules select 92 of them; five additional pages, including newly reviewed page
+121, are also reviewed. Twenty-three values
 are printed in the table's `M I` column while their rank cells are blank: six
 civilian grades and seventeen military grades. Their raw cells remain
 unchanged. The normalized names omit the displaced grade, the normalized rank
@@ -56,7 +56,8 @@ identifier under rank, and `Jun-43` under serial. Version `bbox-columns-v8`
 normalizes the first two values as rank and private identifier while treating
 the third as a date annotation, and emits a dedicated warning. The complete coordinates
 and expected raw values are retained in
-`research/parser_visual_review_decisions.json`. Parser fixtures cover missing
+`research/parser_visual_review_decisions.json` and the independent page-121
+matching-only review bundle. Parser fixtures cover missing
 first names, initials, suffixes, apostrophes, hyphens, foreign notes, civilian
 grades, military ranks, numeric rank-column anomalies, the combined
 rank/identifier/date shift, multiple column shifts on one page, and unfamiliar
@@ -183,13 +184,27 @@ pointers and project-authored review notes.
 
 The Library of Congress adapter uses the current loc.gov Chronicling America
 collection API. It applies configured timeouts and bounded retries, respects
-numeric `Retry-After` instructions, and records terminal transport failures in
-the durable request audit. Transient terminal failures remain eligible for a
-later resumable retry; successful and non-transient completed requests retain
-their deterministic fingerprint checkpoint. CIA Reading Room HTML is parsed in memory for
-document links; access failures are logged without bypass attempts. General web
-searches are exported as reviewable discovery plans instead of scraping
-search-result pages.
+`Retry-After` instructions, spaces requests by at least 3.2 seconds (below
+the [published 20-per-minute limit](https://www.loc.gov/apis/json-and-yaml/working-within-limits/)),
+and checks the last project request across runs. A 429 ends the batch and
+enforces a durable one-hour-or-longer cooldown; it never becomes a negative
+person-search result. Terminal transport failures are recorded in the durable
+request audit. Transient terminal failures remain eligible for a later
+resumable retry; successful and non-transient completed requests retain
+their deterministic fingerprint checkpoint. Sanitized completed-attempt
+fingerprints are honored after a clean SQLite rebuild, including LoC adapter
+version 2 searches, so the changed rate policy does not repeat those requests.
+The CIA adapter checks the
+host's current robots.txt before any live discovery request, fails closed if
+it cannot verify the policy or the route is disallowed, and honors any
+published crawl delay. As checked on 2026-09-20, the wildcard rule disallows
+the adapter's `/readingroom/search/` route, so this automated source is
+paused. A blocked route does not count as a negative CIA result or complete
+the official-source step of the research protocol. Previously recorded
+request audits remain for accountability; see
+`research/source-access-review_2026-09-20.md`. General web searches are
+exported as reviewable discovery plans instead of scraping search-result
+pages.
 
 CIA Reading Room OCR is discovery evidence, not an identity decision. When a
 released document is available as an image-only PDF, the relevant page is

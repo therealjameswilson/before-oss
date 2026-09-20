@@ -97,6 +97,33 @@ class PageReviewTests(unittest.TestCase):
 
         self.assertIsNone(correction.expected_middle_initial_raw)
 
+    def test_matching_only_page_review_can_be_imported_independently(self) -> None:
+        review_file = Path(self.temp_dir.name) / "matching-only.json"
+        review_file.write_text(
+            json.dumps(
+                {
+                    "bundle_version": "test-matching-only",
+                    "source_pdf_sha256": self.pdf_hash,
+                    "reviewer": "Unit test",
+                    "matching_pages_reviewed_at": "2026-09-20T15:00:00Z",
+                    "matching_pages_notes": "The original page image matches the row.",
+                    "reviewed_matching_pages": [1],
+                }
+            ),
+            encoding="utf-8",
+        )
+
+        result = import_page_reviews(self.connection, review_file)
+
+        self.assertEqual(result["matching_pages"], 1)
+        self.assertEqual(result["correction_pages"], 0)
+        self.assertEqual(
+            self.connection.execute(
+                "SELECT visual_review_status FROM page_qa WHERE source_page=1"
+            ).fetchone()[0],
+            "reviewed_matches",
+        )
+
     def test_import_page_reviews_replays_page_and_row_decisions(self) -> None:
         review_file = Path(self.temp_dir.name) / "reviews.json"
         review_file.write_text(

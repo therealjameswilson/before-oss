@@ -1,0 +1,298 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 593 source review",
+  "sources": [
+    {
+      "key": "index-b593",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 192-193",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 121, printed rows 1-46; original page image checked; Boxes 192-193, location 230/86/30/02",
+      "access_date": "2026-09-20",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Original index spellings and all separate printed rows retained. Full service identifiers remain private."
+    },
+    {
+      "key": "army-b580",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; protected name-and-identifier crosswalk; private candidate records hold matching details",
+      "access_date": "2026-09-20",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Official bulk data, not a Catalog API response. Army occupation codes are not named employers; full identifiers are excluded."
+    },
+    {
+      "key": "nara-dong-kingman-b593",
+      "stable_url": "https://unwritten-record.blogs.archives.gov/2023/05/23/dong-kingman-watercolor-master/",
+      "title": "Dong Kingman: Watercolor Master",
+      "author_creator": "Katherine M. Stinson",
+      "repository_publisher": "National Archives and Records Administration, The Unwritten Record",
+      "publication_record_date": "2023-05-23",
+      "locator": "Biographical paragraphs beginning 'Dong Kingman was born' and 'Kingman worked'",
+      "access_date": "2026-09-20",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Project paraphrase and short excerpt only; no images or article text republished."
+    },
+    {
+      "key": "moca-dong-kingman-b593",
+      "stable_url": "https://www.mocanyc.org/collections/stories/dong-kingman/",
+      "title": "Dong Kingman",
+      "repository_publisher": "Museum of Chinese in America",
+      "locator": "Biography paragraphs on prewar work, WPA funding, and OSS cartography",
+      "access_date": "2026-09-20",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Project paraphrase only; no photographs or article text republished."
+    },
+    {
+      "key": "clark-monadnock-1945-b593",
+      "stable_url": "https://commons.clarku.edu/monadnock/30/",
+      "archival_identifier": "The Monadnock, volume 19, number 2 (May 1945), Clark Digital Commons item 30",
+      "title": "The Monadnock Volume 19, Number 2, May 1945",
+      "author_creator": "Clark University Geographical Society",
+      "repository_publisher": "Clark University Digital Commons",
+      "publication_record_date": "1945-05",
+      "locator": "Printed page 9, PDF page 5, 'Alumni in Government Service'; original scanned page inspected",
+      "access_date": "2026-09-20",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "The contemporary issue was inspected page-by-page; only a short excerpt is published."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "works-progress-administration",
+      "canonical_name": "Works Progress Administration",
+      "historical_name": "Works Progress Administration (WPA)",
+      "aliases": ["WPA", "Work Projects Administration"],
+      "organization_type": "federal relief and public works agency",
+      "sector": "federal_government",
+      "country": "United States",
+      "active_dates": "1935-1943",
+      "normalization_notes": "The source's historical WPA wording is retained; the agency was renamed Work Projects Administration in 1939."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "b593-dong-kingman-wpa-earlier",
+      "person_id": "684fe187-b576-5042-8ea3-1301b58ff4c5",
+      "organization_key": "works-progress-administration",
+      "organization_name_as_found": "Works Progress Administration",
+      "role_title": "painter",
+      "occupation": "watercolor painter",
+      "relationship_type": "employment",
+      "date_precision": "Museum reports WPA support in 1936-1941; exact employment endpoints unverified",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "NARA explicitly says Kingman worked for the WPA and later served with OSS. This is earlier named employment, not proof that WPA was the immediate pre-OSS assignment or the last civilian employer before military service."
+    }
+  ],
+  "claims": [
+    {
+      "key": "b593-dong-kingman-identity",
+      "person_id": "684fe187-b576-5042-8ea3-1301b58ff4c5",
+      "claim_type": "identity",
+      "claim_text": "The indexed Kingman M Dong Sr. has a high-confidence match to artist Dong Kingman, an OSS cartographer.",
+      "evidence_paraphrase": "The official Army bulk entry agrees with the index on the full indexed name and a nonshared protected identifier. NARA and MOCA independently describe Dong Kingman's wartime OSS map work and explain the family-name order.",
+      "identity_match_assessment": "High confidence from the unique protected identifier plus exact indexed Army name and independent institutional biographies with OSS cartographic context; Box 193 remains unreviewed.",
+      "temporal_assessment": "The institutional biographies document wartime OSS service; they do not date the index person's recruitment or prove the immediately previous assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Do not replace the index spelling or invert it silently. The article's account of Chinese naming conventions explains the alternate public name. Full service identifier withheld.",
+      "sources": [
+        {"source_key": "index-b593", "locator_override": "PDF page 121, row 27, Box 193"},
+        {"source_key": "army-b580", "locator_override": "Official bulk record ordinal 8361135; exact full indexed name and protected nonshared identifier"},
+        {"source_key": "nara-dong-kingman-b593"},
+        {"source_key": "moca-dong-kingman-b593"}
+      ]
+    },
+    {
+      "key": "b593-dong-kingman-wpa-employment",
+      "person_id": "684fe187-b576-5042-8ea3-1301b58ff4c5",
+      "affiliation_key": "b593-dong-kingman-wpa-earlier",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Dong Kingman worked for the Works Progress Administration as a painter before his documented OSS service.",
+      "evidence_paraphrase": "NARA explicitly says Kingman worked for the WPA before later serving in the OSS mapmaking division. MOCA dates WPA support to 1936-1941 and independently records OSS cartographic service.",
+      "identity_match_assessment": "The indexed Kingman M Dong Sr. is linked to the Army bulk entry by exact full name and a nonshared protected identifier; NARA and MOCA document the distinctive artist's OSS work.",
+      "temporal_assessment": "Documented earlier WPA employment. Neither source proves this was his immediate pre-OSS assignment or last civilian employer before Army service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Count as an earlier documented employer only. Do not place WPA in immediate-predecessor or last-civilian-before-service aggregates.",
+      "sources": [
+        {"source_key": "nara-dong-kingman-b593", "excerpt_override": "Kingman worked for the Depression era Works Progress Administration applying his skills in art as a painter"},
+        {"source_key": "moca-dong-kingman-b593"}
+      ]
+    },
+    {
+      "key": "b593-jocelyn-donaldson-identity",
+      "person_id": "db6acb5b-ef68-5c32-a029-d6b87a655dac",
+      "claim_type": "identity",
+      "claim_text": "A May 1945 Clark University alumni publication identifies Jocelyn Donaldson in the OSS Topographic Models Section and calls her a 1942-43 Clark student.",
+      "evidence_paraphrase": "The contemporary alumni issue prints the exact indexed name, an OSS section and Washington location. It identifies earlier Clark student status but not a paid employer or the OSS entry date.",
+      "identity_match_assessment": "High confidence: distinctive exact name plus a specific OSS assignment in a contemporary institutional publication; the index row has no serial or rank to provide an independent protected-identifier cross-check.",
+      "temporal_assessment": "Student years 1942-43 precede the May 1945 publication's OSS observation, but their relationship to the actual OSS entry date remains uncertain.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Clark student status is not a Clark employment claim, and it is not marked as the immediate pre-OSS affiliation. Inspect Box 192 for the transition date.",
+      "sources": [
+        {"source_key": "index-b593", "locator_override": "PDF page 121, row 17, Box 192"},
+        {"source_key": "clark-monadnock-1945-b593", "excerpt_override": "Jocelyn Donaldson (Student 1942-3) is with the Topographic Models Section, the O.S.S. at Washington, D. C."}
+      ]
+    },
+    {
+      "key": "b593-ivan-doman-conflicting-army-identity",
+      "person_id": "2d6ce766-6f15-5170-8ec8-0f947b9a071a",
+      "claim_type": "identity",
+      "claim_text": "An Army bulk entry shares the indexed Ivan H Doman protected identifier but gives a different full name; this is an unresolved identity conflict.",
+      "evidence_paraphrase": "The printed index and official Army bulk record agree on a protected identifier but disagree completely on the person's name.",
+      "identity_match_assessment": "Conflicting official identifiers and names; no Army biography or employer is assigned to the indexed person before Box 192 review.",
+      "temporal_assessment": "The Army entry gives no reliable pre-OSS employer for the indexed Ivan H Doman.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Possible transcription, reassignment or source-data error; do not choose an explanation without the original personnel file. Full identifier withheld.",
+      "sources": [
+        {"source_key": "index-b593", "locator_override": "PDF page 121, row 6, Box 192"},
+        {"source_key": "army-b580", "locator_override": "Official bulk record ordinal 4930984; protected identifier agreement but name conflict"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "684fe187-b576-5042-8ea3-1301b58ff4c5",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The NARA index and official Army bulk record ordinal 8361135 agree on exact full name and a nonshared protected identifier. NARA and MOCA independently identify Dong Kingman as an OSS mapmaker. WPA employment is documented earlier, not immediate before OSS.",
+      "name_variants": ["Dong Kingman", "Dong Kingman Sr.", "Dong Moy Shu"],
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Inspect Box 193 for Army-to-OSS transfer, last civilian employer before service, and exact WPA employment dates; do not infer an immediate WPA-to-OSS transfer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "db6acb5b-ef68-5c32-a029-d6b87a655dac",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The May 1945 Clark University Geographical Society magazine prints the exact indexed name and specifically places Jocelyn Donaldson in the OSS Topographic Models Section. It records Clark student status in 1942-43 but neither employment nor OSS entry date.",
+      "manual_review_required": true,
+      "research_status": "needs_temporal_review",
+      "next_action": "Inspect Box 192 for actual OSS entry date, preceding employment or assignment, and whether Clark study had already ended; do not count student status as employment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2d6ce766-6f15-5170-8ec8-0f947b9a071a",
+      "identity_status": "conflicting",
+      "identity_evidence": "The official Army bulk entry at ordinal 4930984 matches the printed protected identifier but gives a different full name. No biography or employer is transferred across this conflict.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect Ivan H Doman's Box 192 file and original Army record to resolve the protected-identifier/name conflict before linking employment.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ea68739d-bfe9-56b3-889f-b64b5d3b10c8",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The unnumbered George J Donish row 28 is separate from serial-bearing row 29. Identical printed names alone do not establish that they are the same person.",
+      "possible_duplicate_group": "b593-george-j-donish-rows-28-29",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare both George J Donish Box 193 files side by side; do not copy the row-29 identifier into row 28.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "3237419b-7fee-5183-a635-00c50210d224",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The serial-bearing George J Donish row 29 has an exact-name official Army bulk candidate, but a separate unnumbered row 28 has the same printed name. The duplicate relationship is unresolved.",
+      "possible_duplicate_group": "b593-george-j-donish-rows-28-29",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare both George J Donish Box 193 files and the Army bulk candidate; preserve both source rows.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e784fc2a-dbc5-54b7-8271-d055c086843f",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The serial-bearing John L Donnelly row 37 has an exact-name official Army bulk candidate, but unnumbered row 38 repeats the name. The duplicate relationship is unresolved.",
+      "possible_duplicate_group": "b593-john-l-donnelly-rows-37-38",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare both John L Donnelly Box 193 files and the Army bulk candidate; preserve both printed rows.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "467c34fa-0b81-5bee-9c59-cc2e7d28f3de",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The unnumbered John L Donnelly row 38 is distinct from serial-bearing row 37. Printed-name agreement alone does not justify merging them.",
+      "possible_duplicate_group": "b593-john-l-donnelly-rows-37-38",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare both John L Donnelly Box 193 files; do not transfer the row-37 identifier into row 38.",
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b593-dong-kingman-source-review",
+      "person_id": "684fe187-b576-5042-8ea3-1301b58ff4c5",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "NARA index; protected Army bulk crosswalk; Dong Kingman OSS WPA and named-work chronology; NARA and institutional museum biographies; LoC discovery results.",
+      "query_variant_type": "bounded_cross_source_review",
+      "started_at": "2026-09-20T14:45:00Z",
+      "completed_at": "2026-09-20T14:58:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Artwork-sale and postwar-gallery biographies were not used to establish immediate pre-OSS employment; NARA and MOCA do not document a direct WPA-to-OSS transfer.",
+      "research_notes": "Earlier named WPA employment supported; immediate affiliation and last civilian employer still require Box 193.",
+      "next_action": "Inspect Box 193 for sequence and dates.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss/batch-593-v1"
+    },
+    {
+      "key": "b593-jocelyn-donaldson-source-review",
+      "person_id": "db6acb5b-ef68-5c32-a029-d6b87a655dac",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "NARA index; Jocelyn Donaldson OSS Topographic Models Section; Clark University Geographical Society 1945 issue and student status; LoC discovery.",
+      "query_variant_type": "bounded_cross_source_review",
+      "started_at": "2026-09-20T14:45:00Z",
+      "completed_at": "2026-09-20T14:58:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Modern same-name profiles are unrelated and provide no wartime identity bridge or pre-OSS employer evidence.",
+      "research_notes": "Contemporary institutional issue confirms specific OSS assignment and earlier student status; no employer is established.",
+      "next_action": "Inspect Box 192 for transition chronology and any named employer.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss/batch-593-v1"
+    },
+    {
+      "key": "b593-ivan-doman-conflict-review",
+      "person_id": "2d6ce766-6f15-5170-8ec8-0f947b9a071a",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "NARA index row 6 and official Army bulk protected-identifier candidate; compare indexed Ivan H Doman with the conflicting Army full name.",
+      "query_variant_type": "identity_conflict_review",
+      "started_at": "2026-09-20T14:50:00Z",
+      "completed_at": "2026-09-20T14:58:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The Army name conflicts with the printed index name despite protected-identifier agreement; it cannot be accepted as the indexed person's biography without file review.",
+      "research_notes": "Identity conflict retained, no employer attributed.",
+      "next_action": "Inspect Box 192 and original Army source.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss/batch-593-v1"
+    }
+  ]
+}

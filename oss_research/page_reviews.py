@@ -29,12 +29,16 @@ class PageReviewBundle(StrictModel):
     reviewer: str = Field(min_length=1)
     matching_pages_reviewed_at: str = Field(min_length=1)
     matching_pages_notes: str = Field(min_length=1)
-    reviewed_matching_pages: list[int] = Field(min_length=1)
-    corrections_reviewed_at: str = Field(min_length=1)
-    correction_rows: list[CorrectionRow] = Field(min_length=1)
+    reviewed_matching_pages: list[int] = Field(default_factory=list)
+    corrections_reviewed_at: str | None = None
+    correction_rows: list[CorrectionRow] = Field(default_factory=list)
 
     @model_validator(mode="after")
     def validate_pages(self) -> PageReviewBundle:
+        if not self.reviewed_matching_pages and not self.correction_rows:
+            raise ValueError("A page-review bundle must review at least one page.")
+        if self.correction_rows and not self.corrections_reviewed_at:
+            raise ValueError("Correction rows require a review timestamp.")
         if len(self.reviewed_matching_pages) != len(
             set(self.reviewed_matching_pages)
         ):
@@ -130,42 +134,44 @@ def import_page_reviews(
     matching_placeholders = ", ".join("?" for _ in matching_pages)
     correction_placeholders = ", ".join("?" for _ in correction_pages)
     with connection:
-        connection.execute(
-            f"""
-            UPDATE page_qa
-            SET visual_review_status = 'reviewed_matches',
-                reviewed_by = ?,
-                reviewed_at = ?,
-                notes = ?
-            WHERE source_pdf_sha256 = ?
-              AND source_page IN ({matching_placeholders})
-            """,
-            (
-                bundle.reviewer,
-                bundle.matching_pages_reviewed_at,
-                bundle.matching_pages_notes,
-                bundle.source_pdf_sha256,
-                *matching_pages,
-            ),
-        )
-        connection.execute(
-            f"""
-            UPDATE source_records
-            SET visual_review_status = 'reviewed_matches'
-            WHERE source_pdf_sha256 = ?
-              AND source_page IN ({matching_placeholders})
-            """,
-            (bundle.source_pdf_sha256, *matching_pages),
-        )
-        connection.execute(
-            f"""
-            UPDATE source_records
-            SET visual_review_status = 'reviewed_matches'
-            WHERE source_pdf_sha256 = ?
-              AND source_page IN ({correction_placeholders})
-            """,
-            (bundle.source_pdf_sha256, *correction_pages),
-        )
+        if matching_pages:
+            connection.execute(
+                f"""
+                UPDATE page_qa
+                SET visual_review_status = 'reviewed_matches',
+                    reviewed_by = ?,
+                    reviewed_at = ?,
+                    notes = ?
+                WHERE source_pdf_sha256 = ?
+                  AND source_page IN ({matching_placeholders})
+                """,
+                (
+                    bundle.reviewer,
+                    bundle.matching_pages_reviewed_at,
+                    bundle.matching_pages_notes,
+                    bundle.source_pdf_sha256,
+                    *matching_pages,
+                ),
+            )
+            connection.execute(
+                f"""
+                UPDATE source_records
+                SET visual_review_status = 'reviewed_matches'
+                WHERE source_pdf_sha256 = ?
+                  AND source_page IN ({matching_placeholders})
+                """,
+                (bundle.source_pdf_sha256, *matching_pages),
+            )
+        if correction_pages:
+            connection.execute(
+                f"""
+                UPDATE source_records
+                SET visual_review_status = 'reviewed_matches'
+                WHERE source_pdf_sha256 = ?
+                  AND source_page IN ({correction_placeholders})
+                """,
+                (bundle.source_pdf_sha256, *correction_pages),
+            )
         for correction_page in correction_pages:
             page_notes = " | ".join(
                 correction.notes
