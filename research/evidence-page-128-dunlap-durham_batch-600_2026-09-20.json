@@ -1,0 +1,228 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 600 direct-source and identity review",
+  "sources": [
+    {
+      "key": "nara-index-page128-b600",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 205-207",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 128, printed rows 1-46; original page image visually reviewed. Related Virginia E Dunlap appears on page 127 row 46.",
+      "access_date": "2026-09-20",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "The index is a file locator, not an employer source. Full personnel identifiers remain private."
+    },
+    {
+      "key": "ny-guard-dups-1938-b600",
+      "stable_url": "https://museum.dmna.ny.gov/application/files/2916/1141/3435/AG_Report_1938.pdf",
+      "archival_identifier": "New York Legislative Document (1939) No. 9",
+      "title": "Annual Report of the Adjutant General for the Year 1938",
+      "author_creator": "Brigadier General Walter G. Robinson, Adjutant General; Commanding General's report",
+      "repository_publisher": "State of New York; New York State Military Museum and Veterans Research Center",
+      "publication_record_date": "1939",
+      "locator": "Printed page 53, PDF page 53, Service Schools, enlisted men's non-commissioned officers' Cavalry School course; original page image reviewed",
+      "access_date": "2026-09-20",
+      "source_quality": "A_direct_official",
+      "collection_name": "New York State Adjutant General annual reports",
+      "rights_notes": "Only a short excerpt and project-authored paraphrase are stored; the report is linked, not republished."
+    },
+    {
+      "key": "nara-oss-dups-1945-b600",
+      "stable_url": "https://www.archives.gov/files/research/jfk/releases/104-10165-10120.pdf",
+      "archival_identifier": "NARA JFK release 104-10165-10120; OSS ETO memorandum 200.6/17-A15",
+      "title": "Battle Participation Awards, OSS Headquarters and Headquarters Detachment, European Theater of Operations",
+      "author_creator": "George H. Anders, Major, Adjutant, by order of Colonel Fogel",
+      "repository_publisher": "Office of Strategic Services; National Archives and Records Administration",
+      "publication_record_date": "1945-05-03",
+      "locator": "PDF page 4, list of OSS 31 Field Detachment personnel serving with Headquarters, First U.S. Army; original page image reviewed",
+      "access_date": "2026-09-20",
+      "source_quality": "A_direct_official",
+      "collection_name": "NARA JFK Assassination Records release, OSS document",
+      "rights_notes": "The document is used as an identity and Cavalry-branch corroboration, not as proof of an immediate pre-OSS assignment. Full service identifiers remain private."
+    },
+    {
+      "key": "ieee-dunwell-b600",
+      "stable_url": "https://history.computer.org/pioneers/dunwell.html",
+      "title": "Stephen W. Dunwell",
+      "author_creator": "IEEE Computer Society; J. A. N. Lee",
+      "repository_publisher": "IEEE Computer Society",
+      "publication_record_date": "1992 award release; web version later updated",
+      "locator": "Professional Experience and wartime Army Security Agency paragraphs",
+      "access_date": "2026-09-20",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Discovery and identity-review lead only. The biography does not link its IBM engineer to the NARA Box 206 file."
+    },
+    {
+      "key": "ibm-dunwell-b600",
+      "stable_url": "https://www.ibm.com/history/stretch",
+      "title": "The IBM 7030, aka Stretch",
+      "author_creator": "IBM corporate history staff",
+      "repository_publisher": "IBM",
+      "locator": "Opening historical section naming IBM engineer Stephen W. Dunwell and wartime cryptographic work",
+      "access_date": "2026-09-20",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Employer corroboration for the engineer's biography, not an identity bridge to the indexed OSS person; no IBM claim is published."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "ny-101st-cavalry-b600",
+      "canonical_name": "101st Cavalry, New York National Guard",
+      "historical_name": "101st Cavalry",
+      "aliases": ["Headquarters Troop, 101st Cavalry"],
+      "organization_type": "New York National Guard cavalry regiment",
+      "sector": "military",
+      "state_or_region": "New York",
+      "country": "United States",
+      "active_dates": "1938 documented for Louis Dups",
+      "normalization_notes": "Preserve the report's specific Headquarters Troop and regiment; do not collapse the unit into the broader Army Cavalry branch printed in a 1945 OSS memorandum."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "b600-louis-dups-101st-cavalry-1938",
+      "person_id": "2d2ac1c9-b522-54e0-9202-d488968653c2",
+      "organization_key": "ny-101st-cavalry-b600",
+      "organization_name_as_found": "Headquarters Troop, 101st Cavalry",
+      "role_title": "Sergeant, Headquarters Troop",
+      "relationship_type": "military_assignment",
+      "date_precision": "The 1938 annual report identifies his unit while listing a September-December 1938 service-school course; assignment start and end dates are not stated.",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "A 1938 New York military report names Sergeant Louis Dups in the 101st Cavalry. An original OSS memorandum of 3 May 1945 names Major Louis Dups in the Cavalry, matching the indexed Major Louis Dups. This establishes an earlier military pathway, not the immediate predecessor or a civilian employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "b600-louis-dups-101st-cavalry-1938-claim",
+      "person_id": "2d2ac1c9-b522-54e0-9202-d488968653c2",
+      "affiliation_key": "b600-louis-dups-101st-cavalry-1938",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "In 1938, Louis Dups was a sergeant in Headquarters Troop, 101st Cavalry, New York National Guard. This is an earlier military assignment, not a documented immediate pre-OSS posting.",
+      "evidence_excerpt": "Sergeant Louis Dups, Headquarters Troop, 101st Cavalry.",
+      "evidence_paraphrase": "The 1938 New York Adjutant General report places Sergeant Louis Dups in Headquarters Troop, 101st Cavalry, during a non-commissioned officers' course. A May 1945 OSS memorandum identifies a Major Louis Dups in the Cavalry, independently connecting the uncommon name and branch to OSS service.",
+      "identity_match_assessment": "High: uncommon full name, the indexed Major rank, and the original 1945 OSS memorandum's Major Louis Dups and Cavalry branch corroborate the earlier named New York cavalry sergeant. Box 206 remains unreviewed.",
+      "temporal_assessment": "Documented in a 1938 report, before OSS existed. The sources do not establish when Dups entered OSS or which posting immediately preceded it.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The 1945 document is an identity and branch bridge only. No civilian employer is established, and no service number is public.",
+      "sources": [
+        {"source_key": "ny-guard-dups-1938-b600", "support_type": "supports"},
+        {"source_key": "nara-oss-dups-1945-b600", "support_type": "supports", "excerpt_override": "Maj LOUIS DUPS ... Cav"},
+        {"source_key": "nara-index-page128-b600", "support_type": "context_only", "locator_override": "PDF page 128 row 31, Box 206"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "2d2ac1c9-b522-54e0-9202-d488968653c2",
+      "identity_status": "high_confidence",
+      "identity_evidence": "NARA page 128 row 31 prints Louis Dups, Maj, Box 206. The original 3 May 1945 OSS memorandum names Maj Louis Dups, Cav, and the 1938 New York report names Sergeant Louis Dups, Headquarters Troop, 101st Cavalry. Uncommon full name and Cavalry pathway support a high-confidence cross-record identity; the Box 206 personnel file has not been reviewed.",
+      "research_status": "needs_temporal_review",
+      "next_action": "Review Box 206 for OSS entry date, immediate predecessor, and last civilian employer; do not infer either from the 1938 regiment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "07852900-171e-5f02-ba1a-eb43afeeafa3",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA page 128 row 21 prints Capt Stephen W Dunwell, Box 206, without a protected identifier. IEEE and IBM document an engineer Stephen W. Dunwell who worked for IBM and served in the Army Security Agency, but neither source links him to the Box 206 OSS record. Name plus broadly compatible wartime rank is insufficient for this employer attribution.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect Box 206 or a direct OSS document linking the indexed Captain to the IBM engineer before assigning IBM as a last civilian employer; determine wartime chronology separately.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "da32c6ed-054c-54b6-9a73-e70b09bb549c",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA page 127 row 46 prints Virginia E Dunlap and page 128 row 1 prints Virginia A Dunlap, both in Box 205. The middle initials differ, and neither row has a protected identifier. Both printed rows and separate person entities are preserved.",
+      "possible_duplicate_group": "p127-128-virginia-dunlap-b600",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect both Box 205 entries to establish whether Virginia E and Virginia A Dunlap are two people or an index error.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f3ffe609-1b06-5cb4-a604-f60a19d68e9b",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA page 127 row 46 prints Virginia E Dunlap and page 128 row 1 prints Virginia A Dunlap, both in Box 205. The middle initials differ, and neither row has a protected identifier. Both printed rows and separate person entities are preserved.",
+      "possible_duplicate_group": "p127-128-virginia-dunlap-b600",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect both Box 205 entries to establish whether Virginia E and Virginia A Dunlap are two people or an index error.",
+      "archival_review_priority": "high"
+    },
+    {"person_id":"c80e5f43-2aa9-5f6e-96b9-196fe5ee3de0","identity_status":"high_confidence","identity_evidence":"Official Army bulk ordinal 1505039 matches indexed Kenneth V Dunlevy on exact full name and a nonshared protected identifier; identity only, no employer.","next_action":"Continue employer research and review Box 205 if needed."},
+    {"person_id":"5a34e882-d5f6-58e8-87b9-0af2c49241b2","identity_status":"high_confidence","identity_evidence":"Official Army bulk ordinal 1434430 matches indexed Richard B Dunlop on exact full name and a nonshared protected identifier; identity only, no employer.","next_action":"Continue employer research and review Box 205 if needed."},
+    {"person_id":"b0fee6df-a3f0-5638-9c74-b5f623cc8865","identity_status":"high_confidence","identity_evidence":"Official Army bulk ordinal 1507779 matches indexed Harold V Dunn on exact full name and a nonshared protected identifier. A PVT entry grade and later indexed T-3 rank are different record moments, not proof of a conflict or employer.","next_action":"Continue employer research and review Box 205 if needed."},
+    {"person_id":"3e25ec21-6895-5adc-a2dd-1ef9ed110f4b","identity_status":"high_confidence","identity_evidence":"Official Army bulk ordinal 2008834 matches indexed Leonard A Dunn on exact full name and a nonshared protected identifier; identity only, no employer.","next_action":"Continue employer research and review Box 205 if needed."},
+    {"person_id":"5867e367-47df-5275-8f4d-16b571aa375e","identity_status":"high_confidence","identity_evidence":"Official Army bulk ordinal 7272319 matches indexed Herman E Dunning on exact full name and a nonshared protected identifier; identity only, no employer.","next_action":"Continue employer research and review Box 206 if needed."},
+    {"person_id":"c704f69e-91e3-51c2-b7d6-c930e444c774","identity_status":"high_confidence","identity_evidence":"Official Army bulk ordinal 7608031 matches indexed Wilbert C Duplantis on exact full name and a nonshared protected identifier; identity only, no employer.","next_action":"Continue employer research and review Box 206 if needed."},
+    {"person_id":"787fe010-adea-5178-bc67-7e41f84ded60","identity_status":"high_confidence","identity_evidence":"Official Army bulk ordinal 7444027 matches indexed Thomas F Dupont on exact full name and a nonshared protected identifier. The surname is not evidence of employment by any DuPont company.","next_action":"Continue employer research and review Box 206 if needed."},
+    {"person_id":"25480d9b-4de2-5aeb-b226-c88f8d5ce36f","identity_status":"high_confidence","identity_evidence":"Official Army bulk ordinal 8782404 matches indexed Ernest L Dupree Jr on exact full name, suffix, and a nonshared protected identifier; identity only, no employer.","next_action":"Continue employer research and review Box 206 if needed."},
+    {"person_id":"1bcedf1a-b415-582d-bb36-4c26a3ab3d29","identity_status":"high_confidence","identity_evidence":"Official Army bulk ordinal 3176183 matches indexed Paul A Dupuis on exact full name and a nonshared protected identifier; identity only, no employer.","next_action":"Continue employer research and review Box 206 if needed."},
+    {"person_id":"8c639e2b-e223-5ab1-995b-4a0ef827940f","identity_status":"high_confidence","identity_evidence":"Official Army bulk ordinal 2837461 matches indexed Roland L Dupuis on exact full name and a nonshared protected identifier; identity only, no employer.","next_action":"Continue employer research and review Box 206 if needed."},
+    {"person_id":"a4cc34a6-f6bf-51f5-9a02-322a7021874b","identity_status":"high_confidence","identity_evidence":"Official Army bulk ordinal 2911430 matches indexed Victor A Durand on exact full name and a nonshared protected identifier; identity only, no employer.","next_action":"Continue employer research and review Box 206 if needed."},
+    {"person_id":"f38583b2-8274-530a-afd9-d8e28aa46240","identity_status":"high_confidence","identity_evidence":"Official Army bulk ordinal 5271859 matches indexed John M Durbin on exact full name and a nonshared protected identifier; identity only, no employer.","next_action":"Continue employer research and review Box 207 if needed."},
+    {"person_id":"224230cb-1883-506d-9080-0d7936234872","identity_status":"probable","identity_evidence":"Official Army bulk ordinal 8624830 prints DUNN VERN G whereas NARA page 128 prints Vernon G Dunn. A nonshared protected identifier agrees, but the given-name shortening needs original-record or Box 205 review before acceptance.","manual_review_required":true,"research_status":"needs_identity_review","next_action":"Resolve the Vern/Vernon given-name discrepancy from an original record or Box 205 before attributing an employer.","archival_review_priority":"high"},
+    {"person_id":"0027e418-51aa-5b3f-8834-8c8f8482cce4","identity_status":"probable","identity_evidence":"Official Army bulk ordinal 374496 prints Maurice P Durand; NARA page 128 prints Maurice Durand without an initial. A nonshared protected identifier agrees, but the common name and extra initial require Box 206 review.","manual_review_required":true,"research_status":"needs_identity_review","next_action":"Resolve the extra Army middle initial against Box 206 before attributing an employer.","archival_review_priority":"high"}
+  ],
+  "research_attempts": [
+    {
+      "key": "b600-louis-dups-original-source-review",
+      "person_id": "2d2ac1c9-b522-54e0-9202-d488968653c2",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Louis Dups 1938 New York National Guard report; 1945 OSS battle participation memorandum; NARA index Box 206",
+      "query_variant_type": "military_unit_and_identity_review",
+      "started_at": "2026-09-20T20:15:00Z",
+      "completed_at": "2026-09-20T20:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "research_notes": "Original 1938 and 1945 document pages were rendered and visually inspected. The earlier 101st Cavalry assignment is high confidence; immediate predecessor and last civilian employer remain unknown.",
+      "next_action": "Inspect Box 206 for OSS entry and pre-service employment chronology.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-600-v1"
+    },
+    {
+      "key": "b600-stephen-dunwell-namesake-review",
+      "person_id": "07852900-171e-5f02-ba1a-eb43afeeafa3",
+      "source_adapter": "manual_identity_review",
+      "query_text": "Stephen W Dunwell NARA page 128 Box 206; IEEE Computer Society; IBM Stretch history; direct OSS linkage",
+      "query_variant_type": "famous_namesake_and_employer_review",
+      "started_at": "2026-09-20T20:15:00Z",
+      "completed_at": "2026-09-20T20:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "research_notes": "IEEE and IBM establish employment for the computer engineer but neither source directly links him to the indexed Box 206 Captain. IBM is withheld from this profile pending an identity bridge.",
+      "next_action": "Review Box 206 and seek a direct OSS-engineer linkage.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-600-v1"
+    },
+    {
+      "key": "b600-virginia-dunlap-index-review",
+      "person_id": "f3ffe609-1b06-5cb4-a604-f60a19d68e9b",
+      "source_adapter": "manual_identity_review",
+      "query_text": "Virginia A Dunlap page 128 row 1 and Virginia E Dunlap page 127 row 46, both NARA Box 205",
+      "query_variant_type": "adjacent_page_possible_duplicate_review",
+      "started_at": "2026-09-20T20:15:00Z",
+      "completed_at": "2026-09-20T20:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "research_notes": "Different printed middle initials and no protected identifiers; preserve both source rows and separate people. No employer assigned.",
+      "next_action": "Compare both Box 205 personnel files.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-600-v1"
+    }
+  ]
+}

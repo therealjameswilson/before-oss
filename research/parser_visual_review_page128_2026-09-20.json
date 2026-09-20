@@ -1,0 +1,8 @@
+{
+  "bundle_version": "parser-visual-review-v1",
+  "source_pdf_sha256": "7268492342ab131d3b6d2697cfa4f6856cbdcd16e0ed3877e8d6a0478f58c02b",
+  "reviewer": "Codex page 128 visual audit",
+  "matching_pages_reviewed_at": "2026-09-20T20:02:23Z",
+  "matching_pages_notes": "Original PDF page 128 rendered and all 46 printed row positions compared with stored source rows. Names, initials, rank and serial-column occupancy, box changes 205 to 206 to 207, and archive location 230/86/30/04 match. The late Loyal Durand Jr. row prints Box 206 after Virginia R Durand prints Box 207; preserve that nonmonotonic box value. Mary Dunn has an A-prefixed serial, Norman W Dunn has an RA-prefixed serial, and Madeline M D'Urbal has an L-prefixed serial; none is silently converted to a number. Robert Dupaix prints S/Lt and note French. Both Dupree Jr. suffixes, the Dunlap Virginia A row adjacent to a prior-page Virginia E row, and the many common Dunn/Dupont names remain separate. No parser warning is present.",
+  "reviewed_matching_pages": [128]
+}
