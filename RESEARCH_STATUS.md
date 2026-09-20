@@ -1,14 +1,19 @@
 # Research status
 
-Batch 582 is the current **local candidate release**, not yet a verified
-public deployment. It covers PDF page 117, rows 21–30, in Boxes 185–186.
+Batch 582 is live and exact-verified at merge commit
+`3a2a9c0784016bed6f1e192eb4d6452eeabc777e`. It covers PDF page 117,
+rows 21–30, in Boxes 185–186.
 Ten distinct people received saved cross-source research attempts and terminal
 online `requires_archival_review` outcomes. Official Army bulk matches
 support high-confidence identity-only claims for Roger H Dickens, indexed
 Gelnn/Army Glenn O Dickerson, and Harold E Dickerson. Four LoC OCR discovery
 leads were reviewed in official text-service context and rejected. No new
 pre-OSS employer was established. See `research/batch-582-terminal-review.md`
-and its importable evidence and review-decision files.
+and its importable evidence and review-decision files. [PR #290](https://github.com/therealjameswilson/before-oss/pull/290),
+the PR and merged-main Tests, and GitHub Pages deployment passed. The
+unauthenticated live verifier matched all 67 manifested assets, seven core
+routes, 25 Sources pages, and ten direct profiles to the merge commit; see
+`reports/release_batch_582.md`.
 
 The local SQLite now has 23,978/23,978 linked source rows, 23,940 active
 person entities, 5,584/23,940 people with nonplanned research attempts
