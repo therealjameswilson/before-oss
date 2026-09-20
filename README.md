@@ -118,6 +118,24 @@ python3 -m oss_research import-adapter-checkpoints research/adapter_attempt_chec
 python3 -m oss_research import-review-decisions review_decisions.csv
 ```
 
+To assign a bounded cohort from a checked PDF page without manually editing
+the private queue, use the exact printed row numbers. The command rejects
+missing or unlinked rows, conflicting assignments, and a batch name already
+used for a different cohort; repeating the same assignment is safe.
+
+```bash
+python3 -m oss_research assign-page-batch \
+  --batch-name batch-580 --page 117 --first-row 1 --last-row 10
+python3 -m oss_research research --source cia --batch batch-580 --max-queries 10
+python3 -m oss_research research --source loc --batch batch-580 --max-queries 10
+python3 -m oss_research export-adapter-checkpoints
+```
+
+Batch assignment and adapter queries are discovery checkpoints, not a
+reviewed research outcome or proof of a previous employer. Resume the
+source-by-source review and import evidence or rejection decisions before
+changing a person's terminal research status.
+
 ### Official Army bulk identity triage
 
 NARA makes the *Electronic Army Serial Number Merged File* available as a

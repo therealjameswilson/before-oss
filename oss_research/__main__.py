@@ -12,7 +12,7 @@ from .identity import build_identities
 from .ingest import ingest_pdf
 from .provenance import build_source_manifest
 from .qa import audit_profiles, validate_ingest
-from .research import create_stratified_pilot, run_research
+from .research import assign_page_batch, create_stratified_pilot, run_research
 from .runs import finish_run, start_run
 from .config import get_settings
 from .sources.nara import NaraAdapter
@@ -66,6 +66,14 @@ def parser() -> argparse.ArgumentParser:
     pilot = sub.add_parser("create-pilot")
     pilot.add_argument("--size", type=int, default=75)
     pilot.add_argument("--batch-name", default="pilot-v1")
+    page_batch = sub.add_parser(
+        "assign-page-batch",
+        help="Assign an exact, validated PDF page-row range to a resumable batch",
+    )
+    page_batch.add_argument("--batch-name", required=True)
+    page_batch.add_argument("--page", type=int, required=True)
+    page_batch.add_argument("--first-row", type=int, required=True)
+    page_batch.add_argument("--last-row", type=int, required=True)
 
     nara_check = sub.add_parser("nara-check")
     nara_check.add_argument("--dry-run", action="store_true")
@@ -212,6 +220,25 @@ def main(argv: list[str] | None = None) -> int:
                 status="completed",
                 processed=result["size"],
                 succeeded=result["size"],
+            )
+        elif args.command == "assign-page-batch":
+            result = assign_page_batch(
+                connection,
+                batch_name=args.batch_name,
+                source_page=args.page,
+                first_row=args.first_row,
+                last_row=args.last_row,
+            )
+            finish_run(
+                connection,
+                run,
+                status="completed",
+                processed=result["source_rows"],
+                succeeded=result["source_rows"],
+                checkpoint={
+                    "batch_name": result["batch_name"],
+                    "person_entities": result["person_entities"],
+                },
             )
         elif args.command == "research":
             result = run_research(

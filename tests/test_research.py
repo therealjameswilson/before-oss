@@ -4,10 +4,166 @@ import sqlite3
 import unittest
 
 from oss_research.research import (
+    assign_page_batch,
     candidate_aware_status,
     has_unreviewed_research_candidate,
     source_query_options,
 )
+
+
+class PageBatchAssignmentTests(unittest.TestCase):
+    def setUp(self) -> None:
+        self.connection = sqlite3.connect(":memory:")
+        self.connection.row_factory = sqlite3.Row
+        self.connection.executescript(
+            """
+            CREATE TABLE source_records(
+                source_record_id TEXT PRIMARY KEY,
+                source_page INTEGER NOT NULL,
+                source_row_number INTEGER NOT NULL
+            );
+            CREATE TABLE person_source_links(
+                source_record_id TEXT NOT NULL,
+                person_id TEXT NOT NULL
+            );
+            CREATE TABLE entity_supersessions(
+                superseded_person_id TEXT PRIMARY KEY,
+                canonical_person_id TEXT NOT NULL
+            );
+            CREATE TABLE research_queue(
+                person_id TEXT PRIMARY KEY,
+                assigned_batch TEXT,
+                protocol_version TEXT NOT NULL,
+                updated_at TEXT NOT NULL
+            );
+            INSERT INTO source_records VALUES ('row-1', 117, 1), ('row-2', 117, 2);
+            INSERT INTO person_source_links VALUES
+                ('row-1', 'person-1'), ('row-2', 'person-2');
+            INSERT INTO research_queue VALUES
+                ('person-1', NULL, 'old', 'old-time'),
+                ('person-2', NULL, 'old', 'old-time'),
+                ('person-3', NULL, 'old', 'old-time');
+            """
+        )
+
+    def tearDown(self) -> None:
+        self.connection.close()
+
+    def test_assigns_exact_range_and_repeat_is_idempotent(self) -> None:
+        first = assign_page_batch(
+            self.connection,
+            batch_name="batch-580",
+            source_page=117,
+            first_row=1,
+            last_row=2,
+        )
+        self.assertEqual(first["source_rows"], 2)
+        self.assertEqual(first["person_entities"], 2)
+        self.assertEqual(first["newly_assigned_people"], 2)
+        self.assertEqual(first["person_ids"], ["person-1", "person-2"])
+        before = self.connection.execute(
+            "SELECT updated_at FROM research_queue WHERE person_id='person-1'"
+        ).fetchone()[0]
+        second = assign_page_batch(
+            self.connection,
+            batch_name="batch-580",
+            source_page=117,
+            first_row=1,
+            last_row=2,
+        )
+        after = self.connection.execute(
+            "SELECT updated_at FROM research_queue WHERE person_id='person-1'"
+        ).fetchone()[0]
+        self.assertEqual(second["newly_assigned_people"], 0)
+        self.assertEqual(before, after)
+
+    def test_missing_or_unlinked_row_fails_without_partial_assignment(self) -> None:
+        with self.assertRaisesRegex(ValueError, "no printed source row"):
+            assign_page_batch(
+                self.connection,
+                batch_name="batch-580",
+                source_page=117,
+                first_row=1,
+                last_row=3,
+            )
+        self.connection.execute(
+            "DELETE FROM person_source_links WHERE source_record_id='row-2'"
+        )
+        with self.assertRaisesRegex(ValueError, "unlinked source row"):
+            assign_page_batch(
+                self.connection,
+                batch_name="batch-580",
+                source_page=117,
+                first_row=1,
+                last_row=2,
+            )
+        self.assertEqual(
+            self.connection.execute(
+                "SELECT COUNT(*) FROM research_queue WHERE assigned_batch IS NOT NULL"
+            ).fetchone()[0],
+            0,
+        )
+
+    def test_conflicting_assignment_or_batch_name_fails(self) -> None:
+        self.connection.execute(
+            "UPDATE research_queue SET assigned_batch='other' WHERE person_id='person-2'"
+        )
+        with self.assertRaisesRegex(ValueError, "another batch"):
+            assign_page_batch(
+                self.connection,
+                batch_name="batch-580",
+                source_page=117,
+                first_row=1,
+                last_row=2,
+            )
+        self.connection.execute(
+            "UPDATE research_queue SET assigned_batch=NULL WHERE person_id='person-2'"
+        )
+        self.connection.execute(
+            "UPDATE research_queue SET assigned_batch='batch-580' WHERE person_id='person-3'"
+        )
+        with self.assertRaisesRegex(ValueError, "outside this row range"):
+            assign_page_batch(
+                self.connection,
+                batch_name="batch-580",
+                source_page=117,
+                first_row=1,
+                last_row=2,
+            )
+
+    def test_superseded_row_routes_to_canonical_person(self) -> None:
+        self.connection.execute(
+            "INSERT INTO entity_supersessions VALUES ('person-2', 'person-1')"
+        )
+        result = assign_page_batch(
+            self.connection,
+            batch_name="batch-580",
+            source_page=117,
+            first_row=1,
+            last_row=2,
+        )
+        self.assertEqual(result["source_rows"], 2)
+        self.assertEqual(result["person_ids"], ["person-1"])
+        self.assertEqual(result["newly_assigned_people"], 1)
+
+    def test_batch_name_and_range_are_bounded(self) -> None:
+        for name in ("Batch580", "../batch", "", "a" * 65):
+            with self.subTest(name=name), self.assertRaisesRegex(ValueError, "slug"):
+                assign_page_batch(
+                    self.connection,
+                    batch_name=name,
+                    source_page=117,
+                    first_row=1,
+                    last_row=2,
+                )
+        with self.assertRaisesRegex(ValueError, "at most 100"):
+            assign_page_batch(
+                self.connection,
+                batch_name="batch-580",
+                source_page=117,
+                first_row=1,
+                last_row=101,
+            )
 
 
 class ResearchQuerySchedulerTests(unittest.TestCase):
