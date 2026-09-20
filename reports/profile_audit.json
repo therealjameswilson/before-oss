@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T19:11:05+00:00",
+  "generated_at": "2026-09-20T19:47:15+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -17,27 +17,27 @@
     "commissioned_coast_guard_officer": 1,
     "commissioned_marine_corps_officer": 4,
     "commissioned_naval_officer": 4,
-    "enlisted_army_personnel": 26,
+    "enlisted_army_personnel": 25,
     "enlisted_marine_corps_personnel": 4,
     "enlisted_naval_personnel": 4,
     "foreign_or_allied_military_personnel": 15,
     "temporary_contract_or_special_personnel": 4,
-    "unknown_or_indeterminate": 95,
+    "unknown_or_indeterminate": 96,
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
-    "1": 72,
-    "2": 64,
+    "1": 71,
+    "2": 65,
     "3": 28,
     "4": 36
   },
   "identity_status_counts": {
-    "ambiguous": 8,
+    "ambiguous": 9,
     "confirmed": 8,
     "conflicting": 10,
     "high_confidence": 24,
     "probable": 4,
-    "unresolved": 146
+    "unresolved": 145
   },
   "research_status_counts": {
     "candidate_found": 1,
@@ -45,10 +45,10 @@
     "conflicting_sources": 9,
     "documented_prewar_employer_found": 2,
     "in_progress": 4,
-    "needs_identity_review": 10,
+    "needs_identity_review": 11,
     "needs_temporal_review": 2,
     "no_reliable_result_after_protocol": 1,
-    "not_started": 120,
+    "not_started": 119,
     "occupation_only_found": 8,
     "requires_archival_review": 31,
     "verified_employer_found": 8
@@ -56,14 +56,14 @@
   "special_strata_counts": {
     "commissioned": 31,
     "civilian": 20,
-    "enlisted": 34,
+    "enlisted": 33,
     "allied_or_foreign": 20,
     "incomplete_or_initial_only_name": 20,
     "possible_duplicate_group": 30,
     "confirmed_or_high_published_claim": 33,
     "medium_published_claim": 16,
     "conflicting_published_claim": 10,
-    "unresolved_identity": 146
+    "unresolved_identity": 145
   },
   "unavailable_strata": {
     "women": "The index has no sex/gender field; the project does not infer gender from names. This stratum requires sourced identity research."
@@ -231,7 +231,7 @@
     "1395be4e-115f-5669-a026-51ab90051ff9",
     "45216897-b9ce-59ee-bb1e-0cd8f74e7a81",
     "243c407d-976b-53a5-a08c-5a2939c41ec0",
-    "e9a37a58-d576-543c-90c0-77421678dadb",
+    "5248c175-fe7c-5951-9ad2-33d69ff67e84",
     "5973e9b9-4412-53fc-93d6-c9925bed1a90",
     "e9894de3-592a-5ab3-b5f3-56ea67909531",
     "cc806144-a526-5ecf-9b71-bab279bfcdf4",

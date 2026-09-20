@@ -1,0 +1,352 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 599 direct-source and identity review",
+  "sources": [
+    {
+      "key": "nara-index-page127-b599",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 203-205",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 127, printed rows 1-46; original page image and row-5 spelling visually reviewed",
+      "access_date": "2026-09-20",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "The index is an archival file locator, not evidence of a pre-OSS employer. Full personnel identifiers remain private."
+    },
+    {
+      "key": "army-bulk-page127-b599",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; page-127 candidate ordinals and protected-identifier comparisons documented in the private review decisions",
+      "access_date": "2026-09-20",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Official bulk file, not a Catalog API response. Full identifiers and raw records remain private; occupation codes are not employers."
+    },
+    {
+      "key": "ipn-dunderdale-1941-b599",
+      "stable_url": "https://ipn.gov.pl/download/1/1244361/OkupowanaEuropaFr.pdf",
+      "archival_identifier": "ISBN 978-83-8376-764-2",
+      "title": "La création de l'Équipe 300 et son sort dans la période de juin 1940 à novembre 1942, in L'Europe occupée: Similitudes et différences",
+      "author_creator": "Zdzisław Jan Kapera; volume edited by Waldemar Grabowski",
+      "repository_publisher": "Instytut Pamięci Narodowej (Institute of National Remembrance), Warsaw",
+      "publication_record_date": "2014",
+      "locator": "Printed page 193; PDF page 194 (zero-based page 193), paragraph beginning 'Comme on le sait, Bertrand'",
+      "access_date": "2026-09-20",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "L'Europe occupée, conference proceedings",
+      "rights_notes": "Project-authored paraphrase and a brief supporting excerpt only; source PDF is linked, not republished."
+    },
+    {
+      "key": "polish-veterans-dunderdale-b599",
+      "stable_url": "https://www.kombatanci.gov.pl/images/DOC/Kombatant/2009/200910.pdf",
+      "title": "Kombatant: Biuletyn Urzędu do Spraw Kombatantów i Osób Represjonowanych, no. 10 (226)",
+      "author_creator": "Office for War Veterans and Victims of Oppression (Poland); article author not established",
+      "repository_publisher": "Urząd do Spraw Kombatantów i Osób Represjonowanych",
+      "publication_record_date": "2009-10",
+      "locator": "PDF page 7 (zero-based page 6), caption quoting a 1945 report and naming Wilfred A. Dunderdale as SIS officer",
+      "access_date": "2026-09-20",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "The 2009 caption corroborates full name, initial, and SIS role; it does not establish an OSS transfer."
+    },
+    {
+      "key": "harvard-clover-dulles-b599",
+      "stable_url": "https://hollisarchives.lib.harvard.edu/catalog/sch01595",
+      "archival_identifier": "Schlesinger Library finding aid sch01595",
+      "title": "Papers of Clover Todd Dulles, 1877-2010",
+      "author_creator": "Paula Aloisio and Ashley Thomas",
+      "repository_publisher": "Schlesinger Library, Harvard Radcliffe Institute",
+      "publication_record_date": "2018-04 (processing)",
+      "locator": "Biographical/historical note identifying Martha (Clover) Todd Dulles and daughter Clover Todd Dulles Jebsen",
+      "access_date": "2026-09-20",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Used only to document same-name ambiguity; no employer is transferred to the indexed person."
+    },
+    {
+      "key": "wilson-clover-oss-b599",
+      "stable_url": "https://afghanistan.wilsoncenter.org/sites/default/files/media/documents/article/Vassiliev-Notebooks-and-Venona-Index-Concordance_update-2014-11-01.pdf",
+      "title": "Index and Concordance to Alexander Vassiliev's Notebooks and Venona",
+      "author_creator": "Wilson Center Cold War International History Project; compiler not stated in excerpt reviewed",
+      "repository_publisher": "Woodrow Wilson International Center for Scholars",
+      "locator": "PDF page 112 (zero-based page 111), Dulles, Clover Todd entry",
+      "access_date": "2026-09-20",
+      "source_quality": "D_correlative_or_secondary",
+      "rights_notes": "Discovery context only: identifies a daughter named Clover Todd as an OSS participant; direct Box 203 file linkage remains necessary."
+    },
+    {
+      "key": "princeton-allen-dulles-b599",
+      "stable_url": "https://findingaids.library.upenn.edu/records/PRIN_MUDD_MC019.09",
+      "archival_identifier": "Princeton University Library MC019.09",
+      "title": "Allen W. Dulles Papers: Digital Files Series",
+      "author_creator": "Princeton University Library, Public Policy Papers",
+      "repository_publisher": "Princeton University Library",
+      "locator": "Collection overview and scope notes describing OSS war telegrams",
+      "access_date": "2026-09-20",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Discovery context only; the finding aid does not link the printed 'Dullles' Box 203 row to this collection."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "british-sis-b599",
+      "canonical_name": "Secret Intelligence Service (United Kingdom)",
+      "historical_name": "Secret Intelligence Service",
+      "aliases": ["SIS"],
+      "organization_type": "British government foreign intelligence service",
+      "sector": "federal_government",
+      "country": "United Kingdom",
+      "normalization_notes": "The 2014 Institute of National Remembrance chapter prints Secret Intelligence Service (SIS). This is a British government assignment, not a civilian private employer or proof of transfer into OSS."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "b599-wilfred-dunderdale-sis-earlier",
+      "person_id": "51da4744-aece-5630-a1bd-e47bc3356d73",
+      "organization_key": "british-sis-b599",
+      "organization_name_as_found": "Secret Intelligence Service (SIS)",
+      "role_title": "British SIS officer; Madrid liaison for intelligence transmissions",
+      "relationship_type": "government_assignment",
+      "date_precision": "The cited chapter places this liaison activity before March 1941; no start, end, or OSS transfer date is established.",
+      "city": "Madrid",
+      "country": "Spain",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The NARA index prints Wilfred A. Dunderdale, Cmdr, British A. A Polish government veterans bulletin independently prints Wilfred A. Dunderdale and SIS officer. A scholarly Institute of National Remembrance chapter identifies Wilfred Dunderdale as SIS contact in Madrid before March 1941. Neither source shows a transfer into OSS; any immediate affiliation remains unresolved."
+    }
+  ],
+  "claims": [
+    {
+      "key": "b599-wilfred-dunderdale-sis-earlier-claim",
+      "person_id": "51da4744-aece-5630-a1bd-e47bc3356d73",
+      "affiliation_key": "b599-wilfred-dunderdale-sis-earlier",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A Wilfred A. Dunderdale matching the indexed British officer is documented as an officer of Britain's Secret Intelligence Service in the period before March 1941; this is not evidence of an immediate transfer from SIS to OSS.",
+      "evidence_excerpt": "son collègue du Secret Intelligence Service (SIS) – le capitaine Wilfred Dunderdale",
+      "evidence_paraphrase": "The 2014 historical chapter describes French intelligence messages going to SIS contact Wilfred Dunderdale in Madrid before March 1941. A 2009 Polish government veterans bulletin independently names Wilfred A. Dunderdale as an SIS officer, matching the indexed initial and British-service note.",
+      "identity_match_assessment": "High: uncommon full name, indexed initial A and British officer notation align with the government bulletin's full-name SIS identification and the chapter's wartime SIS role; original OSS Box 204 file unreviewed.",
+      "temporal_assessment": "Documented prewar/pre-OSS institutional role before March 1941. No source establishes whether, when, or how this British officer entered or liaised with OSS, so immediacy is explicitly withheld.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The index prints Cmdr while the French-language chapter calls Dunderdale capitaine; service-rank equivalence is not assumed. The SIS affiliation is a historical pathway claim, not an employer or transfer claim.",
+      "sources": [
+        {"source_key": "ipn-dunderdale-1941-b599"},
+        {"source_key": "polish-veterans-dunderdale-b599", "support_type": "supports"},
+        {"source_key": "nara-index-page127-b599", "support_type": "context_only"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "51da4744-aece-5630-a1bd-e47bc3356d73",
+      "identity_status": "high_confidence",
+      "identity_evidence": "NARA page 127 row 34 prints Wilfred A Dunderdale, Cmdr, British A, Box 204. A Polish government veterans bulletin names Wilfred A. Dunderdale as SIS officer; an independent Institute of National Remembrance chapter places Wilfred Dunderdale in SIS liaison work before March 1941. The Box 204 file remains unreviewed and may reveal whether this was Allied liaison rather than OSS personnel service.",
+      "manual_review_required": true,
+      "research_status": "needs_temporal_review",
+      "next_action": "Review NARA Box 204 for role, identity, and any OSS entry/liaison dates; do not call SIS an immediate predecessor until directly established.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7fcfdbed-345d-5e4d-8166-edde0efc8ffb",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The original index image and embedded text both print Allen W Dullles, with three consecutive l letters, page 127 row 5, Box 203; no rank or protected identifier is supplied. Princeton holds papers of Allen W. Dulles with OSS telegrams, but the finding aid does not link those papers to this exact index row. Name similarity alone does not authorize the famous biography or Sullivan & Cromwell employer claim.",
+      "name_variants": ["Allen W. Dulles (unconfirmed search alias; do not replace printed spelling)"],
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review NARA Box 203 to link or distinguish the printed Allen W Dullles record before applying any Allen W. Dulles biography or employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "99dd2090-ca2d-5631-af58-fb8e41b34768",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The index prints Clover T Dulles, page 127 row 4, Box 203, without identifiers. Harvard's finding aid distinguishes Martha (Clover) Todd Dulles from her daughter Clover Todd Dulles Jebsen; a Wilson Center index says the daughter served in OSS. The printed row's T initial and name do not themselves prove which same-name person is represented.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review NARA Box 203 to identify the indexed Clover T Dulles; keep mother and daughter biographies and occupations separate.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5248c175-fe7c-5951-9ad2-33d69ff67e84",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA page 127 rows 30 and 31 independently print Russell Duncan with no middle initial or protected identifier. Same-name rows remain separate person entities pending Box 204 review.",
+      "possible_duplicate_group": "p127-russell-duncan-b599",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review both Russell Duncan entries in NARA Box 204 before any merge or employer attribution.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "895b1af2-7acb-58f0-a046-9038da0275b2",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA page 127 rows 30 and 31 independently print Russell Duncan with no middle initial or protected identifier. Same-name rows remain separate person entities pending Box 204 review.",
+      "possible_duplicate_group": "p127-russell-duncan-b599",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review both Russell Duncan entries in NARA Box 204 before any merge or employer attribution.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a8892fa2-dcf0-5e0b-a355-7ccef2c6a898",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA page 127 row 26 repeats Joe B Duncan after row 25 but does not print its protected identifier. Row 25 has an accepted official Army bulk identity candidate; that match does not transfer to row 26 without Box 204 evidence.",
+      "possible_duplicate_group": "p127-joe-b-duncan-b599",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review both Joe B Duncan entries in NARA Box 204 to establish whether they represent one person or two.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "99e5142e-5adc-5697-8255-50e14a2e0186",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA page 127 row 44 prints Joseph P Dunkley in Box 205 without a protected identifier; row 33 prints Joseph P Dunckley in Box 204 with one. Spelling proximity is a review lead, not proof of a shared person or employer.",
+      "possible_duplicate_group": "p127-joseph-p-dunckley-dunkley-b599",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare NARA Boxes 204 and 205 before linking Joseph P Dunckley and Joseph P Dunkley.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "15cbb219-c3e6-580c-828e-23ea2c7f809e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Official Army bulk ordinal 7004041 matches indexed Lyle E Dulgar on exact full name and nonshared protected identifier; identity only, no employer.",
+      "next_action": "Continue employment and institutional source checks; review Box 203 if online evidence remains insufficient."
+    },
+    {
+      "person_id": "b734cbc0-0844-5875-8f87-d127316b4d35",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Official Army bulk ordinal 1515771 matches indexed James H Dummer on exact full name and nonshared protected identifier; identity only, no employer.",
+      "next_action": "Continue employment and institutional source checks; review Box 203 if online evidence remains insufficient."
+    },
+    {
+      "person_id": "ad3ae237-a6a9-5a75-9137-759101a80b66",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Official Army bulk ordinal 3808235 prints DU MONT JOHN C and matches indexed John C Dumont on given name, initial, surname spacing, and nonshared protected identifier; identity only, no employer.",
+      "name_variants": ["John C Du Mont (official Army bulk spacing variant)"],
+      "next_action": "Continue employment and institutional source checks; preserve original index spelling."
+    },
+    {
+      "person_id": "c770c23c-76be-549b-a654-430c5d5972ae",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Official Army bulk ordinal 4591907 matches indexed Philip H Dunaway on exact full name and nonshared protected identifier; identity only, no employer.",
+      "next_action": "Continue employment and institutional source checks; review Box 204 if online evidence remains insufficient."
+    },
+    {
+      "person_id": "701d62df-c3ba-5ada-b51d-c74331b4b3da",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Official Army bulk ordinal 625002 matches indexed Donald S Dunbar on exact full name and nonshared protected identifier; identity only, no employer.",
+      "next_action": "Continue employment and institutional source checks; review Box 204 if online evidence remains insufficient."
+    },
+    {
+      "person_id": "24bc73b6-8aca-50c4-b82e-5462b703c5df",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Official Army bulk ordinal 4966670 matches indexed James F Duncan on exact full name and nonshared protected identifier. Library of Congress newspaper hits have not been linked to this identity; no employer inferred.",
+      "next_action": "Review LoC page-context candidates and continue employment-focused checks; use Box 204 if disambiguation fails."
+    },
+    {
+      "person_id": "55a428fa-737c-5315-83fb-725cd3ca7aef",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Official Army bulk ordinal 7102152 matches indexed Joe B Duncan at page 127 row 25 on exact full name and nonshared protected identifier. Row 26 repeats the name without identifier and remains separate.",
+      "possible_duplicate_group": "p127-joe-b-duncan-b599",
+      "manual_review_required": true,
+      "next_action": "Continue employer research for row 25 and compare both Joe B Duncan Box 204 files before any merge.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3960135f-c18d-54cf-9ea7-6eedf9771d66",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Official Army bulk ordinal 7615696 matches indexed Otis D Duncan on exact full name and nonshared protected identifier; identity only, no employer.",
+      "next_action": "Continue employment and institutional source checks; review Box 204 if online evidence remains insufficient."
+    },
+    {
+      "person_id": "71ec538e-4f9f-5d9d-8a6e-5712f4e3d752",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Official Army bulk ordinal 636112 matches indexed Joseph P Dunckley at page 127 row 33 on exact full name and nonshared protected identifier. The separately printed Joseph P Dunkley in Box 205 is not merged.",
+      "possible_duplicate_group": "p127-joseph-p-dunckley-dunkley-b599",
+      "manual_review_required": true,
+      "next_action": "Continue employer research and compare NARA Boxes 204 and 205 before any name-variant merge.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "67b33b69-05e4-52d3-ae4e-c2d62c13e31c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Official Army bulk ordinal 3120355 matches indexed Frank E Dunham on exact full name and nonshared protected identifier; identity only, no employer.",
+      "next_action": "Continue employment and institutional source checks; review Box 204 if online evidence remains insufficient."
+    },
+    {
+      "person_id": "7c27b1ee-fec2-54e7-a66c-7daae8530904",
+      "identity_status": "probable",
+      "identity_evidence": "Official Army bulk ordinal 4303630 agrees with indexed Alvin F Dunham on name, initial, and nonshared protected identifier, but its name string contains an unexplained extra X token; keep probable pending original-record review.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect original Army bulk context or NARA Box 204 before promoting identity or attributing employment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3b7522b2-7a80-5922-88df-f24553fc14b0",
+      "identity_status": "probable",
+      "identity_evidence": "Official Army bulk ordinal 1534842 prints DUNLAP HOWARD without indexed middle initial L; protected identifier is nonshared, but incomplete bulk name makes the identity only probable.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review NARA Box 205 or original Army record to establish middle initial and identity before employment attribution.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b599-wilfred-dunderdale-source-review",
+      "person_id": "51da4744-aece-5630-a1bd-e47bc3356d73",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Wilfred A Dunderdale NARA index; Institute of National Remembrance Équipe 300; Polish veterans bulletin 2009",
+      "query_variant_type": "allied_officer_identity_and_temporal_review",
+      "started_at": "2026-09-20T19:20:00Z",
+      "completed_at": "2026-09-20T19:39:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "research_notes": "Two independent institutional/scholarly sources support British SIS service, and one dates the Madrid liaison before March 1941. No source establishes an OSS transfer, so only an earlier qualified affiliation is published.",
+      "next_action": "Inspect Box 204 and determine whether the printed entry is Allied liaison, assigned personnel, or a separate role.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-599-v1"
+    },
+    {
+      "key": "b599-allen-dullles-identity-review",
+      "person_id": "7fcfdbed-345d-5e4d-8166-edde0efc8ffb",
+      "source_adapter": "manual_identity_review",
+      "query_text": "Allen W Dullles original NARA PDF page 127 row 5; Allen W Dulles Princeton finding aid",
+      "query_variant_type": "printed_spelling_and_famous_namesake_review",
+      "started_at": "2026-09-20T18:55:00Z",
+      "completed_at": "2026-09-20T19:39:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "research_notes": "Full page image confirms triple-l Dullles; Princeton's Allen W. Dulles finding aid is not a direct Box 203 identity bridge. Withhold Sullivan & Cromwell and other biography-derived claims.",
+      "next_action": "Review Box 203 personnel file for direct identity linkage.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-599-v1"
+    },
+    {
+      "key": "b599-clover-t-dulles-identity-review",
+      "person_id": "99dd2090-ca2d-5631-af58-fb8e41b34768",
+      "source_adapter": "manual_identity_review",
+      "query_text": "Clover T Dulles NARA page 127 row 4; Harvard Clover Todd Dulles papers; Wilson Center OSS concordance",
+      "query_variant_type": "same_name_mother_daughter_review",
+      "started_at": "2026-09-20T19:05:00Z",
+      "completed_at": "2026-09-20T19:39:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "research_notes": "Harvard distinguishes mother and daughter with related names; Wilson Center lists the daughter in OSS. The index alone cannot select a biography or pre-OSS affiliation.",
+      "next_action": "Review Box 203 for direct identity and pre-OSS evidence.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-599-v1"
+    }
+  ]
+}

@@ -1,5 +1,18 @@
 # Link check
 
+Batch 599 local validation, 2026-09-20 UTC: all internal links resolve
+across **24,687** locally built HTML files, including direct page-127
+profiles, the British SIS organization page, and the top oil-company
+category. The unrelated untracked duplicate Sources route adds 25
+local-only pages and is excluded from the release. The checker
+inventoried **50,198** unique external URLs but did not request all of
+them. The public-identifier audit compared **12,926** normalized
+identifiers and **120** variants against **24,759** public artifacts,
+with **zero** unexpected full-number boundary matches. The local
+manifest matched **67** assets and **97,035,184** bytes at SHA-256
+`e2f754c6044d8accf866404882f8f2a5d994be2155abfbcfc22daa11c733143d`.
+CI, Pages deployment, and exact live verification remain separate checks.
+
 Batch 598 local validation, 2026-09-20 UTC: all internal links resolve
 across **24,686** locally built HTML files, including the direct page-126
 profile routes and the top oil-company category. The untracked duplicate

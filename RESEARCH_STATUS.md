@@ -1,5 +1,39 @@
 # Research status
 
+Batch 599 visually rechecked all 46 printed rows of PDF page 127 (Dulac
+through Virginia E Dunlap); the page was already in the extraction sample,
+so distinct visually reviewed pages remain 100. Forty-five newly assigned
+people received successful, rate-limited Library of Congress discovery
+searches; the remaining truncated-name row was already in the pilot queue.
+Thirteen newspaper-page candidates remain unreviewed as identity/employment
+evidence. Ten official Army bulk crosswalks were accepted for **identity
+only** on name and nonshared protected-identifier agreement; two remain
+probable. The two Joe B Duncan rows, two Russell Duncan rows, and
+Dunckley/Dunkley spelling pair stay separate with explicit possible-duplicate
+groups. A 2014 Polish historical study and an independent Polish government
+veterans bulletin support [Wilfred A Dunderdale's](https://therealjameswilson.github.io/before-oss/people/51da4744-aece-5630-a1bd-e47bc3356d73/)
+earlier British Secret Intelligence Service affiliation, published at
+**medium confidence**, not as an immediate OSS transfer or a civilian
+employer. The original index genuinely spells Allen W **Dullles** with
+three consecutive l letters; no famous-namesake employer is assigned.
+The Clover T Dulles row remains ambiguous between same-name historical
+people pending Box 203. The top oil-company employee category remains at
+six cited people. See `research/batch-599-progress.md` and its replayable
+visual-review, review-decision, and evidence files. No authenticated NARA
+Catalog request was made.
+
+Current local SQLite has 23,978/23,978 linked source rows, 23,940 active
+people, 6,053/23,940 people with nonplanned attempts (25.284%),
+269/23,940 with confirmed/high published employer evidence (1.1236%),
+613/23,940 with confirmed/high published affiliation evidence (2.5606%),
+and 5,725/23,940 with assessed archival-review dispositions (23.914%).
+There are 17,887 active `not_started` people and 264 possible-duplicate
+groups. Private SQLite has 11,046 attempts and 4,854 claims: 1,311
+confirmed, 1,857 high, 1,369 medium, 185 low, and 132 conflicting. It has
+4,971 citation records and 2,302 unique source-document keys. The public
+projection has 2,192 affiliations, 688 organizations, 3,771 sources, and
+4,665 claims. The full-index historical research goal remains unfinished.
+
 Batch 598 visually rechecked all 46 printed rows of PDF page 126 (Duby
 through Dukson), raising distinct visually reviewed pages to 100. It made
 45 successful bounded Library of Congress discovery searches for newly

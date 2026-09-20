@@ -1,5 +1,19 @@
 # Accessibility and responsive QA
 
+Batch 599 local validation, 2026-09-20 UTC: the bounded release suite
+passed **81/81** desktop/phone/tablet checks: 12 new page-127 and
+oil-category checks, 33 core-route checks, six analysis checks, and 30
+accessibility checks with no serious or critical axe violations. The new
+checks keep Dunderdale's medium-confidence SIS role among earlier
+affiliations, preserve the printed `Dullles` spelling without a
+famous-namesake employer, and retain separate Clover and Duncan review
+cases. Astro reported zero errors, warnings, or hints across **230**
+local source files and built **24,687** local static pages. An unrelated,
+untracked duplicate Sources route adds 25 local pages; it is intentionally
+excluded from the clean release. The 200-profile stratified structural
+audit passed its machine-checkable gates but is not a manual historical
+source audit. Local checks do not establish CI or public deployment.
+
 Batch 598 local validation, 2026-09-20 UTC: the bounded release suite passed
 **84/84** desktop/phone/tablet checks: 15 new page-126 source, duplicate,
 conflict, and oil-category checks; 33 core-route checks; six analysis checks;
