@@ -1,5 +1,29 @@
 # Research status
 
+Batch 589 completed local research and validation for PDF page 119,
+rows 41–46, in Boxes 189–190. All six have saved CIA, LoC, and manual
+cross-source attempts and terminal online `requires_archival_review`
+dispositions. An official Army bulk match supports a high-confidence
+**identity-only** crosswalk for John Dobo; it does not identify his employer.
+The printed `Dobberstein, J` / `Albert` column split remains unrepaired.
+A separately documented Francis F. Dobo career is a private, unbridged
+candidate, not an employer assignment to indexed Francis Dobo. See
+`research/batch-589-terminal-review.md` and its cited replayable evidence
+and review-decision files. The NARA Catalog API was not used.
+
+Current local SQLite has 23,978/23,978 linked source rows, 23,940 active
+people, 5,692/23,940 people with nonplanned attempts (23.7761%),
+264/23,940 with confirmed/high published employer evidence (1.1028%),
+604/23,940 with confirmed/high published affiliation evidence (2.5230%),
+and 5,647/23,940 with assessed archival-review dispositions (23.5881%).
+There are 18,248 active `not_started` people and 259 possible-duplicate
+groups. Private SQLite has 10,562 attempts and 4,800 claims: 1,308
+confirmed, 1,818 high, 1,361 medium, 184 low, and 129 conflicting. It has
+4,924 citation records and 2,263 unique source-document keys. The public
+projection has 2,173 affiliations, 678 organizations, 3,730 sources, and
+4,612 claims. The full-index research goal remains active; Batch 589 has
+not yet been publicly deployed as of this local status entry.
+
 Batch 588 completed local research and validation. It covers PDF page 119,
 rows 21–40, all in Box 189. Twenty people have durable CIA, LoC, and manual
 cross-source attempts and terminal online outcomes: nineteen
