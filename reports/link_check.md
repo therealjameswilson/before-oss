@@ -2,7 +2,7 @@
 
 Latest run: 2026-09-19 UTC
 
-## Batch 579 local release candidate
+## Batch 579 exact-verified public release
 
 The local checker resolved all internal links across 24,622 generated HTML
 pages and inventoried 50,094 unique external URLs. That inventory is not a
@@ -13,7 +13,10 @@ The local manifest verified 67 assets / 96,107,476 bytes at SHA-256
 `082a37ff32e825cc6acd7a3526f94d70cdc4aff1597f3927e84c1dc487814062`.
 Two Pages-configured production builds reproduced the same 24,694-artifact
 tree digest: `7fadf768d26459f00c581f1ef7e4934cfea21ea6f93b1aadcf81f5749e1d669c`.
-Live deployment verification is pending.
+The unauthenticated live verifier matched those 67 assets, seven core routes
+and ten direct Batch 579 profiles to merge commit
+`e3bd9260c4a3ebc030b9555a813f2d93eacfb595`. The PR, merged-main Test,
+and Pages workflows passed. Details: `reports/release_batch_579.md`.
 
 ## Batch 578 exact-verified release
 
