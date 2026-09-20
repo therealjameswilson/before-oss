@@ -1,5 +1,33 @@
 # Research status
 
+Batch 596 visually checked all 46 rows of PDF page 124 (Downey through
+Drendel), bringing page-level visual review to 100 pages. A bounded Library
+of Congress pass completed 46 successful discovery queries and retained 22
+unreviewed links for ten people. Contemporaneous Maryland Historical
+Magazine and a separate obituary support Donald M Dozer's University of
+Maryland faculty employment as his **last civilian employer before wartime
+government service**; the immediate pre-OSS office is not established.
+An official Army bulk-file comparison produced seven private identity-only
+matches and two uncorrected name/identifier conflicts. Alexis N Dragnich
+remains an unbridged name-variant lead without an employer claim. Profiles
+with conflicting identity evidence now show a separate “Evidence conflicts”
+section. The top oil-company category remains limited to cited employee
+claims; it contains six people at eight historical companies. See
+`research/batch-596-progress.md` for sources, limitations, and replay
+commands. No authenticated NARA Catalog request was made.
+
+Current local SQLite has 23,978/23,978 linked source rows, 23,940 active
+people, 5,916/23,940 people with nonplanned attempts (24.7118%),
+267/23,940 with confirmed/high published employer evidence (1.1153%),
+610/23,940 with confirmed/high published affiliation evidence (2.5480%),
+and 5,708/23,940 with assessed archival-review dispositions (23.8429%).
+There are 18,024 active `not_started` people and 261 possible-duplicate
+groups. Private SQLite has 10,899 attempts and 4,841 claims: 1,308
+confirmed, 1,849 high, 1,368 medium, 185 low, and 131 conflicting. It has
+4,952 citation records and 2,286 unique source-document keys. The public
+projection has 2,184 affiliations, 684 organizations, 3,756 sources, and
+4,652 claims. The full-index historical research goal remains unfinished.
+
 Batch 595 visually checked all 46 rows of PDF page 123 (Doucette through
 Downey) and ran 46 rate-limited Library of Congress discovery requests with
 zero errors, retaining 31 unreviewed links. The official Army bulk file's
