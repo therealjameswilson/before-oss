@@ -1,0 +1,213 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 582 source review",
+  "sources": [
+    {
+      "key": "index-b582",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 185-186",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 117, printed rows 21-30; original page image checked; Boxes 185-186, location 230/86/30/01",
+      "access_date": "2026-09-20",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All ten printed rows remain distinct. The printed given name Gelnn is preserved exactly; full identifiers are private."
+    },
+    {
+      "key": "army-b582",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; private protected-identifier crosswalk, with record ordinals on claims",
+      "access_date": "2026-09-20",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Official bulk data, not a Catalog API response. Army occupation codes are not named employers; full identifiers are excluded."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [],
+  "claims": [
+    {
+      "key": "b582-roger-h-dickens-army-identity",
+      "person_id": "cfec3f26-d75a-53e9-9126-e1c9456c16f5",
+      "claim_type": "identity",
+      "claim_text": "The indexed Roger H Dickens has a high-confidence identity match to an official Army enlistment record.",
+      "evidence_paraphrase": "The indexed full name and a nonshared protected identifier agree with official Army bulk record ordinal 4384504; no employer is named.",
+      "identity_match_assessment": "High confidence from exact full name and nonshared protected identifier; Box 186 is unreviewed.",
+      "temporal_assessment": "The Army record establishes wartime identity, not the immediate pre-OSS affiliation or a named civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity-only crosswalk. An Army occupation code is not an employer.",
+      "sources": [
+        {"source_key": "index-b582", "locator_override": "PDF page 117, row 26, Box 186"},
+        {"source_key": "army-b582", "locator_override": "Official bulk record ordinal 4384504; protected-identifier comparison"}
+      ]
+    },
+    {
+      "key": "b582-gelnn-o-dickerson-army-identity",
+      "person_id": "76dc4560-6f0a-5b02-a3a2-d4815e0e0419",
+      "claim_type": "identity",
+      "claim_text": "The indexed Gelnn O Dickerson has a high-confidence identity match to the official Army record for Glenn O Dickerson.",
+      "evidence_paraphrase": "The original index visibly spells Gelnn; the Army bulk entry spells Glenn. Surname, middle initial, and a nonshared protected identifier agree at bulk record ordinal 6801581.",
+      "identity_match_assessment": "High confidence from nonshared protected identifier, surname, and middle initial; the transposed given-name letters are retained as an index variant, not silently corrected.",
+      "temporal_assessment": "The Army record establishes wartime identity only; it does not name a civilian employer or immediate OSS predecessor.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Preserve Gelnn as indexed; Glenn is a documented Army-record name variant. The physical Box 186 file is unreviewed.",
+      "sources": [
+        {"source_key": "index-b582", "locator_override": "PDF page 117, row 29, printed Gelnn O Dickerson"},
+        {"source_key": "army-b582", "locator_override": "Official bulk record ordinal 6801581, printed Glenn O Dickerson; protected-identifier comparison"}
+      ]
+    },
+    {
+      "key": "b582-harold-e-dickerson-army-identity",
+      "person_id": "069e0379-3fd1-5002-802b-7ed37128e5e4",
+      "claim_type": "identity",
+      "claim_text": "The indexed Harold E Dickerson has a high-confidence identity match to an official Army enlistment record.",
+      "evidence_paraphrase": "The indexed full name and a nonshared protected identifier agree with official Army bulk record ordinal 7353129; no pre-OSS employer is named.",
+      "identity_match_assessment": "High confidence from exact full name and nonshared protected identifier; Box 186 is unreviewed.",
+      "temporal_assessment": "The Army entry documents wartime identity only. Its May 1945 date does not establish the order of OSS and Army service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Two Library of Congress OCR hits were rejected as unrelated; the Army occupation code is not an employer.",
+      "sources": [
+        {"source_key": "index-b582", "locator_override": "PDF page 117, row 30, Box 186"},
+        {"source_key": "army-b582", "locator_override": "Official bulk record ordinal 7353129; protected-identifier comparison"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "4f720acb-3589-5ea2-887c-975af2e002a9",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually checked index supplies Ann J Dick and Box 185 but no rank or protected identifier. Two LoC OCR hits split Ann and Dick across other people's names; neither identifies this person. No outside identity bridge was accepted.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Inspect Ann J Dick's Box 185 file for full identity, personnel status, and predecessor affiliation.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ca30a4a5-e1aa-5490-b6a7-e5b08cfd59dc",
+      "identity_status": "unresolved",
+      "identity_evidence": "The NARA index supplies Doris R Dick and Box 185, without a rank or protected identifier. Exact-name OSS, employer, institutional, obituary, CIA and LoC searches did not establish a separate identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Inspect Doris R Dick's Box 185 file for full identity, employer, and OSS chronology.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "5d21d605-2eab-56f1-8d52-7a95a8c41ae7",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies David H Dickason and Box 185 but no protected identifier. A literary scholar named David Howard Dickason published before and after the war, but the inspected results provide no OSS or Box 185 bridge; his academic biography is not assigned to this row.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Inspect David H Dickason's Box 185 file to test the Indiana literary-scholar namesake and his documented employment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "76d8b004-fdff-5747-88ef-2c74edddd985",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies Frederick G Dickason and Box 186 without a protected identifier. An American Baptist missionary and Judson College teacher named Frederick Garrett Dickason is a plausible lead, but accessible source results do not link him to the OSS file; the archival finding aid itself returned 503 on direct access.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Inspect Frederick G Dickason's Box 186 file and the American Baptist Historical Society correspondence before assigning the missionary or Judson College affiliation.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e3e5aed7-e9be-5ceb-8b3b-ead0c9e9d3c6",
+      "identity_status": "unresolved",
+      "identity_evidence": "The NARA row gives Samuel Dicken and Box 186, without initials, rank, or protected identifier. Same-name obituary and genealogy leads lack an OSS or file linkage and were not adopted.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Inspect Samuel Dicken's Box 186 file for full name, identity discriminators, and prior occupation or employer.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "cfec3f26-d75a-53e9-9126-e1c9456c16f5",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Official Army bulk record ordinal 4384504 agrees with the indexed full name and a nonshared protected identifier. This confirms wartime identity, not an employer or the Army-to-OSS sequence.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Inspect Roger H Dickens's Box 186 file for a named civilian employer and Army-to-OSS sequence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8f2b63e7-4749-52b6-8744-98a3875fb741",
+      "identity_status": "unresolved",
+      "identity_evidence": "The NARA index gives William B Dickens, Box 186, and a private identifier, but no reviewed outside record matched that identifier. Search results for same-name people, including later professional directories, are not an OSS identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Inspect William B Dickens's Box 186 file and reconcile the printed identifier before using namesake professional records.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "776f68d5-9f3d-58fd-b8dd-0c75d18570f3",
+      "identity_status": "unresolved",
+      "identity_evidence": "The NARA index supplies Thelma W Dickerman and Box 186 without rank or protected identifier. Exact-name OSS, employer, newspaper, obituary, CIA and LoC checks supplied no accepted identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Inspect Thelma W Dickerman's Box 186 file for full identity and pre-OSS work.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "76dc4560-6f0a-5b02-a3a2-d4815e0e0419",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The printed index visibly says Gelnn O Dickerson. Official Army bulk record ordinal 6801581 says Glenn O Dickerson and agrees by surname, middle initial, and a nonshared protected identifier. The raw spelling is preserved; no employer follows from this crosswalk.",
+      "name_variants": ["Glenn O Dickerson", "Dickerson, Glenn O"],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Inspect Gelnn/Glenn O Dickerson's Box 186 file for civilian employer and Army-to-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "069e0379-3fd1-5002-802b-7ed37128e5e4",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Official Army bulk record ordinal 7353129 agrees with indexed Harold E Dickerson by full name and a nonshared protected identifier. Two LoC newspaper OCR candidates were rejected; neither names a pre-OSS employer for this person.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Inspect Harold E Dickerson's Box 186 file; clarify how a May 1945 Army entry relates to OSS service.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b582-ann-j-dick-terminal-review", "person_id": "4f720acb-3589-5ea2-887c-975af2e002a9", "source_adapter": "manual_evidence_review", "query_text": "NARA index page 117; saved CIA and LoC checks; exact-name OSS, employer/occupation 1940, obituary and institutional searches; two official LoC OCR contexts.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T05:56:24Z", "completed_at": "2026-09-20T05:56:24Z", "outcome": "candidate_rejected", "sources_reviewed": 3, "candidate_sources_rejected": 2, "rejection_reasons": "LoC pages refer to separate Ann and Dick names, not Ann J Dick; no other identity or employment bridge was found.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 185.", "attempt_number": 3, "research_agent_version": "before-oss/batch-582-v1"
+    },
+    {
+      "key": "b582-doris-r-dick-terminal-review", "person_id": "ca30a4a5-e1aa-5490-b6a7-e5b08cfd59dc", "source_adapter": "manual_evidence_review", "query_text": "NARA index page 117; saved CIA and LoC checks; exact-name OSS, employer/occupation 1940, institutional, newspaper and obituary searches.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T05:56:24Z", "completed_at": "2026-09-20T05:56:24Z", "outcome": "no_result", "sources_reviewed": 1, "candidate_sources_rejected": 1, "rejection_reasons": "Modern people-finder namesakes offer no wartime identity or employer evidence; they were not opened or adopted.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 185.", "attempt_number": 3, "research_agent_version": "before-oss/batch-582-v1"
+    },
+    {
+      "key": "b582-david-h-dickason-terminal-review", "person_id": "5d21d605-2eab-56f1-8d52-7a95a8c41ae7", "source_adapter": "manual_evidence_review", "query_text": "NARA index page 117; saved CIA and LoC checks; exact-name OSS, employer/occupation 1940, Indiana institutional, biographical and obituary searches.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T05:56:24Z", "completed_at": "2026-09-20T05:56:24Z", "outcome": "no_result", "sources_reviewed": 1, "candidate_sources_rejected": 1, "rejection_reasons": "David Howard Dickason literary-scholar results, including postwar books, lack an OSS file or independent identity bridge; later publication is not earlier employment.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 185 and test the scholarly namesake.", "attempt_number": 3, "research_agent_version": "before-oss/batch-582-v1"
+    },
+    {
+      "key": "b582-frederick-g-dickason-terminal-review", "person_id": "76d8b004-fdff-5747-88ef-2c74edddd985", "source_adapter": "manual_evidence_review", "query_text": "NARA index page 117; saved CIA and LoC checks; exact-name OSS, employer/occupation 1940, Baptist institutional, biographical and obituary searches.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T05:56:24Z", "completed_at": "2026-09-20T05:56:24Z", "outcome": "no_result", "sources_reviewed": 1, "candidate_sources_rejected": 1, "rejection_reasons": "Frederick Garrett Dickason missionary and Judson College results lack an OSS Box 186 identity bridge; the archival finding aid returned 503 when directly accessed. No employer claim is promoted from snippets.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 186 and American Baptist Historical Society correspondence.", "attempt_number": 3, "research_agent_version": "before-oss/batch-582-v1"
+    },
+    {
+      "key": "b582-samuel-dicken-terminal-review", "person_id": "e3e5aed7-e9be-5ceb-8b3b-ead0c9e9d3c6", "source_adapter": "manual_evidence_review", "query_text": "NARA index page 117; saved CIA and LoC checks; exact-name OSS, employer/occupation 1940, institutional, newspaper and obituary searches.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T05:56:24Z", "completed_at": "2026-09-20T05:56:24Z", "outcome": "no_result", "sources_reviewed": 1, "candidate_sources_rejected": 1, "rejection_reasons": "Same-name obituary and genealogy results lack a middle name, OSS context or Box 186 linkage; no employer can be assigned.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 186.", "attempt_number": 3, "research_agent_version": "before-oss/batch-582-v1"
+    },
+    {
+      "key": "b582-roger-h-dickens-terminal-review", "person_id": "cfec3f26-d75a-53e9-9126-e1c9456c16f5", "source_adapter": "manual_evidence_review", "query_text": "NARA index page 117; saved CIA and LoC checks; official Army bulk identity crosswalk; exact-name OSS, employer/occupation 1940, institutional, newspaper and obituary searches.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T05:56:24Z", "completed_at": "2026-09-20T05:56:24Z", "outcome": "source_reviewed", "sources_reviewed": 2, "candidate_sources_rejected": 1, "rejection_reasons": "Army occupation code is not a named employer; broad namesake results lack the protected-identifier bridge.", "research_notes": "Army identity accepted. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 186.", "attempt_number": 3, "research_agent_version": "before-oss/batch-582-v1"
+    },
+    {
+      "key": "b582-william-b-dickens-terminal-review", "person_id": "8f2b63e7-4749-52b6-8744-98a3875fb741", "source_adapter": "manual_evidence_review", "query_text": "NARA index page 117; saved CIA and LoC checks; exact-name OSS, employer/occupation 1940, institutional, newspaper and obituary searches.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T05:56:24Z", "completed_at": "2026-09-20T05:56:24Z", "outcome": "no_result", "sources_reviewed": 1, "candidate_sources_rejected": 1, "rejection_reasons": "Modern architectural registration and older same-name records lack a matching index identifier or wartime OSS bridge; no occupation or employer is assigned.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 186 and reconcile the printed identifier.", "attempt_number": 3, "research_agent_version": "before-oss/batch-582-v1"
+    },
+    {
+      "key": "b582-thelma-w-dickerman-terminal-review", "person_id": "776f68d5-9f3d-58fd-b8dd-0c75d18570f3", "source_adapter": "manual_evidence_review", "query_text": "NARA index page 117; saved CIA and LoC checks; exact-name OSS, employer/occupation 1940, institutional, newspaper and obituary searches.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T05:56:24Z", "completed_at": "2026-09-20T05:56:24Z", "outcome": "no_result", "sources_reviewed": 1, "candidate_sources_rejected": 1, "rejection_reasons": "Dickerman teacher obituary and census snippets concern people with other given names; no link to indexed Thelma W Dickerman was found.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 186.", "attempt_number": 3, "research_agent_version": "before-oss/batch-582-v1"
+    },
+    {
+      "key": "b582-gelnn-o-dickerson-terminal-review", "person_id": "76dc4560-6f0a-5b02-a3a2-d4815e0e0419", "source_adapter": "manual_evidence_review", "query_text": "Rendered NARA page 117; saved CIA and LoC checks; official Army bulk name/identifier crosswalk; exact Gelnn and Glenn O Dickerson OSS, employer/occupation 1940, institutional and obituary searches.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T05:56:24Z", "completed_at": "2026-09-20T05:56:24Z", "outcome": "source_reviewed", "sources_reviewed": 2, "candidate_sources_rejected": 1, "rejection_reasons": "A same-name memorial-style result lacks a protected-identifier bridge; Army occupation coding is not a named employer.", "research_notes": "Army identity accepted; Gelnn retained as indexed and Glenn recorded as variant. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 186.", "attempt_number": 3, "research_agent_version": "before-oss/batch-582-v1"
+    },
+    {
+      "key": "b582-harold-e-dickerson-terminal-review", "person_id": "069e0379-3fd1-5002-802b-7ed37128e5e4", "source_adapter": "manual_evidence_review", "query_text": "NARA index page 117; saved CIA and LoC checks; official Army bulk identity crosswalk; exact-name OSS, employer/occupation 1940, institutional and obituary searches; two LoC OCR contexts.", "query_variant_type": "bounded_cross_source_terminal_review", "started_at": "2026-09-20T05:56:24Z", "completed_at": "2026-09-20T05:56:24Z", "outcome": "candidate_rejected", "sources_reviewed": 4, "candidate_sources_rejected": 2, "rejection_reasons": "The 1940 OCR appears to name a different middle initial and supplies no employer; the 1948 OCR names a postwar namesake and has no pre-OSS evidence. Unrelated sensitive content is not retained.", "research_notes": "Army identity accepted. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 186 and compare OSS/Army dates.", "attempt_number": 3, "research_agent_version": "before-oss/batch-582-v1"
+    }
+  ]
+}
