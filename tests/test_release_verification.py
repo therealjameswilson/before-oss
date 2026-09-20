@@ -11,6 +11,9 @@ spec.loader.exec_module(release)
 
 
 class ReleaseVerificationTests(unittest.TestCase):
+    def test_oil_company_landing_page_is_a_required_public_route(self):
+        self.assertIn("oil-companies/", release.CORE_ROUTES)
+
     def setUp(self):
         self.body = b'{"people": 3}'
         self.record = {"path": "data/stats.json", "size_bytes": len(self.body),

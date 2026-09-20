@@ -77,11 +77,16 @@ test("featured oil-company category lists employment relationships only", async 
   await expect(
     page.getByRole("navigation", { name: "Primary navigation" })
       .getByRole("link", { name: "Oil companies", exact: true }),
-  ).toHaveAttribute("href", /people\/\?featured=oil_companies&sort=name_asc$/);
+  ).toHaveAttribute("href", /oil-companies\/$/);
   const category = page.getByRole("region", { name: "Oil company employees" });
   await expect(category).toBeVisible();
   await expect(category).toContainText(`${oilCompanyPeople.size} people`);
   await expect(category).toContainText("Professional affiliations that do not establish employment are excluded.");
+  await expect(category.locator(".featured-directory-category__list li"))
+    .toHaveCount(oilCompanyPeople.size);
+  for (const name of oilCompanyPeople.values()) {
+    await expect(category.getByRole("link", { name, exact: true })).toBeVisible();
+  }
 
   await category.getByRole("button", { name: /View category/i }).click();
   await expect(page).toHaveURL(/featured=oil_companies/);
@@ -90,7 +95,8 @@ test("featured oil-company category lists employment relationships only", async 
   );
   await expect(page.locator(".person-result")).toHaveCount(oilCompanyPeople.size);
   for (const name of oilCompanyPeople.values()) {
-    await expect(page.getByRole("link", { name, exact: true })).toBeVisible();
+    await expect(page.locator("#person-results").getByRole("link", { name, exact: true }))
+      .toBeVisible();
   }
 
   await expect(page.getByRole("link", { name: "Martin B Chittick", exact: true })).toHaveCount(0);
@@ -112,9 +118,21 @@ test("home oil-company category names only cited employees and their companies",
   await expect(category.getByRole("link", { name: "The Pure Oil Company" })).toHaveCount(0);
   await expect(category.getByText("Qualified medium-confidence claim").first()).toBeVisible();
   await category.getByRole("link", { name: "Open this category" }).click();
-  await expect(page.locator("#result-summary")).toContainText(
-    `${oilCompanyPeople.size} results`,
-  );
+  await expect(page).toHaveURL(/oil-companies\/$/);
+  await expect(page.locator(".oil-directory__person")).toHaveCount(oilCompanyPeople.size);
+});
+
+test("oil-company landing page lists only cited employees and labels qualified claims", async ({ page }) => {
+  await page.goto("./oil-companies/");
+  const list = page.getByRole("region", { name: "Oil company employee list" });
+  await expect(list.locator(".oil-directory__person")).toHaveCount(oilCompanyPeople.size);
+  for (const name of oilCompanyPeople.values()) {
+    await expect(list.getByRole("link", { name, exact: true })).toBeVisible();
+  }
+  await expect(list.getByRole("link", { name: "Martin B Chittick" })).toHaveCount(0);
+  await expect(list.getByText("Qualified medium-confidence employment claim").first()).toBeVisible();
+  await list.getByRole("link", { name: "Review claim-level evidence" }).first().click();
+  await expect(page).toHaveURL(/people\/[^/]+\/#evidence$/);
 });
 
 test("published source register has small, directly addressable static pages", async ({ page }) => {
@@ -142,15 +160,11 @@ test("top oil-company category link opens only the documented employee set", asy
     .getByRole("link", { name: "Oil companies", exact: true })
     .click();
 
+  await expect(page).toHaveURL(/oil-companies\/$/);
+  await expect(page.locator(".oil-directory__person")).toHaveCount(oilCompanyPeople.size);
+  await page.getByRole("link", { name: "Search and filter this category" }).click();
   await expect(page).toHaveURL(/people\/\?.*featured=oil_companies/);
-  expect(new URL(page.url()).searchParams.get("sort")).toBe("name_asc");
-  await expect(page.locator("#result-summary")).toContainText(
-    `${oilCompanyPeople.size} results`,
-  );
-  await expect(page.locator(".person-result")).toHaveCount(oilCompanyPeople.size);
-  await expect(
-    page.getByRole("button", { name: /Show all personnel/i }),
-  ).toHaveAttribute("aria-pressed", "true");
+  await expect(page.locator("#result-summary")).toContainText(`${oilCompanyPeople.size} results`);
 });
 
 test("direct person route preserves source evidence and masks serials", async ({ page }) => {

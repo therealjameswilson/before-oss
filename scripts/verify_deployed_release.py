@@ -16,7 +16,10 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = "data/public_build_manifest.json"
-CORE_ROUTES = ("", "people/", "organizations/", "analysis/", "methodology/", "sources/", "downloads/")
+CORE_ROUTES = (
+    "", "people/", "oil-companies/", "organizations/", "analysis/",
+    "methodology/", "sources/", "downloads/",
+)
 SOURCE_PAGE_SIZE = 150
 
 
