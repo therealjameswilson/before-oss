@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T17:45:16+00:00",
+  "generated_at": "2026-09-20T19:11:05+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -40,14 +40,15 @@
     "unresolved": 146
   },
   "research_status_counts": {
+    "candidate_found": 1,
     "completed": 4,
     "conflicting_sources": 9,
     "documented_prewar_employer_found": 2,
-    "in_progress": 3,
+    "in_progress": 4,
     "needs_identity_review": 10,
     "needs_temporal_review": 2,
     "no_reliable_result_after_protocol": 1,
-    "not_started": 122,
+    "not_started": 120,
     "occupation_only_found": 8,
     "requires_archival_review": 31,
     "verified_employer_found": 8

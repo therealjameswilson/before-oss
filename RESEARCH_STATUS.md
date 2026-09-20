@@ -1,5 +1,34 @@
 # Research status
 
+Batch 598 visually rechecked all 46 printed rows of PDF page 126 (Duby
+through Dukson), raising distinct visually reviewed pages to 100. It made
+45 successful bounded Library of Congress discovery searches for newly
+assigned people and saved 33 unreviewed candidate links; the pilot's
+Pierre Duffourc row was left in its existing queue. Twelve official Army
+bulk-file crosswalks were accepted privately for identity only; the
+Stevens Dukson shared-identifier candidate was marked conflicting.
+[Florimond D Duke's](https://therealjameswilson.github.io/before-oss/people/c852d410-a4a4-596c-8781-6bd4bf4c65d6/)
+wartime OSS memorandum explicitly gives the Military Intelligence Service
+as the **immediate military predecessor**. Dartmouth and an independent
+BYU photo inventory support Time, Inc. as the **last civilian employer
+before 1939 Army service**; Newsweek and Fortune are earlier roles.
+The NARA index's D middle initial and wartime memorandum's S remain
+unresolved. The six-person oil-company employee category remains unchanged.
+See `research/batch-598-progress.md` and its replayable evidence file.
+No authenticated NARA Catalog request was made.
+
+Current local SQLite has 23,978/23,978 linked source rows, 23,940 active
+people, 6,008/23,940 people with nonplanned attempts (25.0961%),
+269/23,940 with confirmed/high published employer evidence (1.1236%),
+613/23,940 with confirmed/high published affiliation evidence (2.5606%),
+and 5,714/23,940 with assessed archival-review dispositions (23.8680%).
+There are 17,932 active `not_started` people and 261 possible-duplicate
+groups. Private SQLite has 10,996 attempts and 4,853 claims: 1,311
+confirmed, 1,857 high, 1,368 medium, 185 low, and 132 conflicting. It has
+4,964 citation records and 2,296 unique source-document keys. The public
+projection has 2,191 affiliations, 687 organizations, 3,768 sources, and
+4,664 claims. The full-index historical research goal remains unfinished.
+
 Batch 597 rechecked all 46 rows of PDF page 125 (Dresden through Dubuc),
 already among the 99 visually reviewed pages. A bounded Library of Congress
 pass saved 46 successful discovery attempts and six unreviewed candidates for

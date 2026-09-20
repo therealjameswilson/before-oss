@@ -1,5 +1,17 @@
 # Link check
 
+Batch 598 local validation, 2026-09-20 UTC: all internal links resolve
+across **24,686** locally built HTML files, including the direct page-126
+profile routes and the top oil-company category. The untracked duplicate
+Sources route adds 25 local-only pages and is not part of the release.
+The checker inventoried **50,195** unique external URLs but did not request
+all targets. The public-identifier audit compared 12,926 normalized
+identifiers and 120 variants against 24,756 public artifacts, with **zero**
+unexpected full-number boundary matches. The local public-data manifest
+matched **67** assets and **96,999,694** bytes at SHA-256
+`1f6bbed674e2d1a3008a4edf77a7742b31013f3a17f60ebcc6d8f3e511a0da95`.
+CI, Pages deployment, and exact live verification remain separate checks.
+
 Batch 597 clean CI validation, 2026-09-20 UTC: all internal links resolve
 across **24,659** built HTML files, including direct routes for
 Druckenmiller, Gamble, Koch, and the oil-company category. An unrelated,
