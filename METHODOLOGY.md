@@ -141,6 +141,16 @@ sources agree on an affiliation but disagree on a detail such as duration, the
 shared fact may be published with the disputed detail omitted and the conflict
 explained in the evidence notes.
 
+Roles can overlap. A person may retain a civilian title after beginning active
+military duty, or hold a military commission while assigned to a wartime
+government agency. In those cases, the profile records each relationship
+separately and explains whether a date describes formal tenure, active work,
+or an agency succession. An assignment to the Coordinator of Information
+before OSS was established is modeled as a distinct institutional step; the
+mere date of COI-to-OSS succession does not establish an individual's exact
+transfer-order date. Person pages show the canonical organization and, when
+different, the name actually used in the supporting source.
+
 ## Time, sources, and confidence
 
 Temporal basis is assessed independently as `explicit_immediate`,

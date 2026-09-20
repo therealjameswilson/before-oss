@@ -1,5 +1,20 @@
 # Accessibility and responsive QA
 
+Batch 601 local validation, 2026-09-20 UTC: the bounded release suite
+passed **78/78** desktop/phone/tablet checks: nine new page-131 Eddy,
+page-130 duplicate, and oil-category checks; 33 core-route checks; six
+analysis checks; and 30 accessibility checks with no serious or critical
+axe violations. The first run found a test expectation using the historical
+Hobart College name where the UI displayed the canonical institutional
+name. The profile now shows both the canonical name and a separate
+"Name in source" label when they differ, and the full suite passes.
+Astro reported zero errors, warnings, or hints across **233** local
+source files and built **24,688** pages. An unrelated untracked duplicate
+Sources route adds 25 local pages and is excluded from the clean release.
+The 200-profile stratified structural audit passed its machine-checkable
+gates but is not a manual historical source audit. Local checks do not
+establish CI or public deployment.
+
 Batch 600 local validation, 2026-09-20 UTC: the bounded release suite
 passed **78/78** desktop/phone/tablet checks: nine new page-128 profile
 checks, 33 core-route checks including the six-person oil-company

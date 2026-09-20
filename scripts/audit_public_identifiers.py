@@ -89,7 +89,11 @@ def public_aggregate_values(public_root: Path) -> set[int]:
         raise FileNotFoundError(
             f"Public aggregate statistics are missing: {stats_path}. Build the site first."
         )
-    return _integer_values(json.loads(stats_path.read_text(encoding="utf-8")))
+    values = _integer_values(json.loads(stats_path.read_text(encoding="utf-8")))
+    analytics_path = public_root / "data" / "analytics.json"
+    if analytics_path.is_file():
+        values.update(_integer_values(json.loads(analytics_path.read_text(encoding="utf-8"))))
+    return values
 
 
 def public_manifest_sizes(public_root: Path) -> set[int]:
@@ -114,6 +118,7 @@ def scan(
     formatted: set[str],
     aggregate_values: set[int],
     manifest_sizes: set[int],
+    diagnostic_paths: set[str] | None = None,
 ) -> tuple[int, int, int, int]:
     patterns = sorted(normalized | formatted, key=lambda value: (-len(value), value))
     command = [
@@ -150,9 +155,15 @@ def scan(
             continue
         data = event["data"]
         artifact_path = data["path"]["text"]
-        aggregate_artifact = artifact_path.endswith(
-            "/data/stats.json"
-        ) or artifact_path.endswith("/data/stats.json.gz")
+        aggregate_artifact = any(
+            artifact_path.endswith(f"/data/{name}")
+            for name in (
+                "stats.json",
+                "stats.json.gz",
+                "analytics.json",
+                "analytics.json.gz",
+            )
+        )
         manifest_artifact = artifact_path.endswith(
             "/data/public_build_manifest.json"
         ) or artifact_path.endswith("/data/public_build_manifest.json.gz")
@@ -177,6 +188,7 @@ def scan(
                     aggregate_artifact
                     and matched_text.isdigit()
                     and int(matched_text) in aggregate_values
+                    and line[max(0, start - 80) : start].rstrip().endswith(b":")
                 ):
                     aggregate_false_positives += 1
                     continue
@@ -191,6 +203,8 @@ def scan(
                     manifest_size_false_positives += 1
                     continue
                 boundary_matches += 1
+                if diagnostic_paths is not None:
+                    diagnostic_paths.add(str(Path(artifact_path).relative_to(public_root)))
     return (
         candidate_matches,
         boundary_matches,
@@ -205,12 +219,18 @@ def main() -> int:
         "--database", type=Path, default=Path("research/research.sqlite")
     )
     parser.add_argument("--public-root", type=Path, default=Path("site/dist"))
+    parser.add_argument(
+        "--diagnose-paths",
+        action="store_true",
+        help="Print paths with unexpected matches, never the identifiers or surrounding text.",
+    )
     args = parser.parse_args()
 
     normalized, formatted = identifier_sets(args.database)
     artifact_count = public_artifact_count(args.public_root)
     aggregate_values = public_aggregate_values(args.public_root)
     manifest_sizes = public_manifest_sizes(args.public_root)
+    diagnostic_paths: set[str] | None = set() if args.diagnose_paths else None
     (
         candidates,
         boundary_matches,
@@ -222,6 +242,7 @@ def main() -> int:
         formatted,
         aggregate_values,
         manifest_sizes,
+        diagnostic_paths,
     )
     print(
         "normalized_identifiers={} formatted_variants={} artifacts={} "
@@ -236,6 +257,9 @@ def main() -> int:
             boundary_matches,
         )
     )
+    if diagnostic_paths is not None:
+        for path in sorted(diagnostic_paths):
+            print(f"unexpected_match_path={path}")
     return 1 if boundary_matches else 0
 
 
