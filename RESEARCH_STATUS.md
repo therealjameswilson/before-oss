@@ -1,6 +1,7 @@
 # Research status
 
-Batch 586 is locally reviewed and awaiting CI and publication. It covers
+Batch 586 is live and exact-verified at merge commit
+`3565891fb4048d0de757f6f38d9cb8428e1fff63`. It covers
 PDF page 118, rows 31–46, in Boxes 187–188. Six official Army bulk
 crosswalks support identity only. A direct wartime OSS interview establishes
 Martin Dinga's immediate pre-OSS Red Cross affiliation and last civilian
@@ -9,7 +10,11 @@ unknown. Fifteen other people have terminal online archival-review outcomes.
 The source's `Capt` for Charles DiMary is retained, but its service branch
 is not inferred. Six LoC discovery hits were reviewed: five rejected, one
 retained privately. See `research/batch-586-terminal-review.md`, its
-importable evidence bundle and review-decision files.
+importable evidence bundle and review-decision files. [PR #298](https://github.com/therealjameswilson/before-oss/pull/298),
+the PR and merged-main Tests, and GitHub Pages deployment passed. The
+unauthenticated live verifier matched 67 assets, seven core routes, 25
+Sources pages, and all sixteen direct profiles to the merge commit; see
+`reports/release_batch_586.md`.
 
 Current local SQLite has 23,978/23,978 linked source rows, 23,940 active
 people, 5,646/23,940 people with nonplanned attempts (23.5840%),

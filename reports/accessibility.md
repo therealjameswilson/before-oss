@@ -1,6 +1,6 @@
 # Accessibility and responsive QA
 
-Batch 586 local release candidate, 2026-09-20 UTC: the bounded Playwright
+Batch 586 exact-verified public release, 2026-09-20 UTC: the bounded Playwright
 release suite passed **72/72** desktop, phone, and tablet checks: nine
 cohort-profile checks, 30 core-route checks (including the oil-company
 category), six analysis checks, and 27 axe checks with no serious or
@@ -17,6 +17,11 @@ public tree SHA-256
 `a9745caacaa5091466f0c2bf7723ffcec1798f056a62664372d807f7457224b5`
 and the 24,722-file production tree SHA-256
 `3c151f34189acefa7daaa36125d4c6e49d44dccf9ed31ebae12d559b40bec5f0`.
+The [PR #298](https://github.com/therealjameswilson/before-oss/pull/298),
+merged-main Test, and Pages deployment passed. The unauthenticated live
+verifier matched all sixteen profiles and all 67 public assets to merge
+commit `3565891fb4048d0de757f6f38d9cb8428e1fff63`; see
+`reports/release_batch_586.md`.
 
 Batch 585 exact-verified public release, 2026-09-20 UTC: the bounded Playwright
 release suite passed **72/72** checks across desktop, phone and tablet:
