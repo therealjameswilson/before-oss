@@ -1,5 +1,16 @@
 # Accessibility and responsive QA
 
+Batch 594 local validation, 2026-09-20 UTC: the bounded release suite
+passed **78/78** desktop/phone/tablet checks: nine page-122 profile checks,
+33 core-route checks (including the oil-company category), six analysis
+checks, and 30 accessibility checks with no serious or critical axe
+violations. The new tests keep Willy Dorchain's later federation evidence
+and Alexis Doster Jr.'s inaccessible Colt lead out of pre-OSS employer
+fields, and preserve separate direct profiles for James E and James R
+Donovan. Astro checked 224 source files with zero errors, warnings, or hints
+and built **24,657** static pages. These are local checks, not evidence of
+live deployment.
+
 Batch 593 local validation, 2026-09-20 UTC: the bounded release suite
 passed **78/78** desktop/phone/tablet checks: nine page-121 profile checks,
 33 core-route checks, six analysis checks, and 30 accessibility checks with

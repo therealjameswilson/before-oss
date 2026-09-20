@@ -1,5 +1,15 @@
 # Link check
 
+Batch 594 local validation, 2026-09-20 UTC: all internal links resolve
+across **24,657** built HTML files, including the oil-company category and
+the page-122 profile routes. The checker inventoried **50,160** unique
+external URLs; it did not request every external target. The
+public-identifier audit found zero unexpected full-number boundary matches
+across **70** scanned public artifacts. The local manifest matched **67**
+data assets and **96,762,422** bytes at SHA-256
+`66eef33ee401f9e549bac99b1c27e5d5742499a741bae519b5ea90353b073de0`.
+Public deployment and live hash verification are separate checks.
+
 Batch 593 local validation, 2026-09-20 UTC: all internal links resolve
 across **24,657** built HTML files, including both page-121 evidence profiles,
 the two separate George J Donish routes, the oil-company category, and
