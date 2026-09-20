@@ -119,7 +119,8 @@ test("top oil-company category link opens only the documented employee set", asy
     .getByRole("link", { name: "Oil companies", exact: true })
     .click();
 
-  await expect(page).toHaveURL(/people\/\?featured=oil_companies&sort=name_asc$/);
+  await expect(page).toHaveURL(/people\/\?.*featured=oil_companies/);
+  expect(new URL(page.url()).searchParams.get("sort")).toBe("name_asc");
   await expect(page.locator("#result-summary")).toContainText(
     `${oilCompanyPeople.size} results`,
   );
