@@ -1,5 +1,38 @@
 # Research status
 
+Batch 601 visually checked every printed row on PDF pages 129–131, adding
+pages 130–131 to the visual-review ledger (103/522 distinct pages; 419 remain).
+All 138 rows on those pages are preserved as separate source records.
+Three bounded Library of Congress searches made 46 read-only queries each:
+138 people now have saved live attempts on these pages, including 136 whose
+research had not started. The 74 newspaper-page candidates are discovery leads,
+not accepted employer claims. Eight exact-name, nonshared-identifier Army bulk
+crosswalks were accepted for identity only; six two-person duplicate groups
+remain separate pending Boxes 207, 209, 211, and 212. The indexed Colonel
+[William A. Eddy](https://therealjameswilson.github.io/before-oss/people/495e4e73-3aa2-5afa-b5b3-838e28cc7957/)
+now has a corrected three-part chronology: Hobart was his last civilian
+employer, Marine duty began in June 1941, and a Coordinator of Information
+North Africa assignment immediately preceded OSS's June 1942 succession.
+A contemporary college yearbook says his formal resignation took effect in
+August 1942, so formal title and active military duty overlapped; the exact
+individual OSS transfer order still requires archival review. The featured
+oil-company list remains six cited employees. See
+`research/batch-601-progress.md` and its replayable source, identity, and
+review files. No authenticated NARA Catalog request was made.
+
+Current local SQLite has 23,978/23,978 linked source rows, 23,940 active
+people, 6,234/23,940 people with nonplanned attempts (26.0401%),
+269/23,940 with confirmed/high published employer evidence (1.1236%),
+614/23,940 with confirmed/high published affiliation evidence (2.5647%),
+and 5,743/23,940 with assessed archival-review dispositions (23.9891%).
+There are 17,706 active `not_started` people and 271 possible-duplicate
+groups. Private SQLite has 11,237 attempts and 4,856 claims: 1,311
+confirmed, 1,860 high, 1,368 medium, 185 low, and 132 conflicting. It
+has 4,980 citation records and 2,311 unique source-document keys. The
+public projection has 2,194 affiliations, 689 organizations, 3,777
+sources, and 4,667 claims. The full-index historical research goal
+remains unfinished.
+
 Batch 600 visually reviewed all 46 printed rows of PDF page 128
 (Virginia A Dunlap through Mary E Durham), raising distinct visually
 reviewed pages to 101 of 522. Forty-five newly assigned people received

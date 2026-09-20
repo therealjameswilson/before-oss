@@ -82,6 +82,11 @@ const affiliationLabel = (item: Affiliation) =>
   item.role_title ??
   item.occupation ??
   item.relationship_type.replaceAll("_", " ");
+const historicalOrganizationName = (item: Affiliation) =>
+  item.organization_name_as_found &&
+  item.organization_name_as_found !== item.canonical_organization
+    ? item.organization_name_as_found
+    : null;
 ---
 
 <BaseLayout
@@ -159,6 +164,9 @@ const affiliationLabel = (item: Affiliation) =>
                       )
                     }
                   </h3>
+                  {historicalOrganizationName(item) && (
+                    <p class="citation-meta">Name in source: {historicalOrganizationName(item)}</p>
+                  )}
                   <p>{item.role_title ?? item.occupation ?? item.relationship_type}</p>
                   <p class="citation-meta">{affiliationMeta(item)}</p>
                   {item.date_precision && <p class="citation-meta">{item.date_precision}</p>}
@@ -194,6 +202,9 @@ const affiliationLabel = (item: Affiliation) =>
                       )
                     }
                   </h3>
+                  {historicalOrganizationName(item) && (
+                    <p class="citation-meta">Name in source: {historicalOrganizationName(item)}</p>
+                  )}
                   <p>{item.role_title ?? item.occupation ?? "Employment"}</p>
                   <p class="citation-meta">{affiliationMeta(item)}</p>
                   {item.date_precision && <p class="citation-meta">{item.date_precision}</p>}
@@ -268,6 +279,9 @@ const affiliationLabel = (item: Affiliation) =>
                       )
                     }
                   </h3>
+                  {historicalOrganizationName(item) && (
+                    <p class="citation-meta">Name in source: {historicalOrganizationName(item)}</p>
+                  )}
                   <p>{item.role_title ?? item.occupation}</p>
                   <p class="citation-meta">{affiliationMeta(item)}</p>
                   {item.date_precision && <p class="citation-meta">{item.date_precision}</p>}

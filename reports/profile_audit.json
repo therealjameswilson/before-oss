@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T20:17:05+00:00",
+  "generated_at": "2026-09-20T20:55:31+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -44,11 +44,11 @@
     "completed": 4,
     "conflicting_sources": 9,
     "documented_prewar_employer_found": 2,
-    "in_progress": 4,
+    "in_progress": 5,
     "needs_identity_review": 11,
     "needs_temporal_review": 2,
     "no_reliable_result_after_protocol": 1,
-    "not_started": 119,
+    "not_started": 118,
     "occupation_only_found": 8,
     "requires_archival_review": 31,
     "verified_employer_found": 8
@@ -206,6 +206,7 @@
     "dfec0fab-cfc9-511a-9ae0-29010e7bfa0b",
     "d7c03613-c5e1-5938-ba61-e2e48cd4941b",
     "dd445e77-9239-566e-843e-1d3b6cd9a7dc",
+    "f140aabd-2113-55a3-8db3-27e1859007ff",
     "8330aa69-f666-5dc6-bb18-01c3024fabf1",
     "bd36d4ff-c5f7-574e-adfc-20454703ace2",
     "467c34fa-0b81-5bee-9c59-cc2e7d28f3de",
@@ -231,7 +232,6 @@
     "1395be4e-115f-5669-a026-51ab90051ff9",
     "45216897-b9ce-59ee-bb1e-0cd8f74e7a81",
     "243c407d-976b-53a5-a08c-5a2939c41ec0",
-    "5248c175-fe7c-5951-9ad2-33d69ff67e84",
     "5973e9b9-4412-53fc-93d6-c9925bed1a90",
     "e9894de3-592a-5ab3-b5f3-56ea67909531",
     "cc806144-a526-5ecf-9b71-bab279bfcdf4",

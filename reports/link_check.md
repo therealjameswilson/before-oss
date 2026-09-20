@@ -1,5 +1,21 @@
 # Link check
 
+Batch 601 local validation, 2026-09-20 UTC: all internal links resolve
+across **24,688** locally built HTML files, including direct pages 129–131
+profiles, William A. Eddy's three-way chronology, and the six-person
+oil-company category. An unrelated untracked duplicate Sources route adds
+25 local-only pages and is excluded from the release. The checker
+inventoried **50,202** unique external URLs; it did not request all
+50,202 targets. The new [Hobart yearbook scan](https://hwslibrary.contentdm.oclc.org/digital/api/collection/p16757coll4/id/14731/download),
+[Marine Corps publication](https://www.usmcu.edu/Portals/218/Herringbone%20Cloak%20-%20GI%20Dagger%20Marines%20Of%20The%20OSS.pdf),
+and [NARA agency history](https://www.archives.gov/research/holocaust/finding-aid/military/rg-226.html)
+were inspected separately. The public-identifier audit compared **12,926**
+normalized identifiers and **120** variants against **24,760** public
+artifacts, with zero unexpected full-number boundary matches. The local
+manifest matched **67** assets and **97,122,497** bytes at SHA-256
+`c8c26a6b79ac5867d6cb5fd35cdc02d01529a015466f7fec3fc1f016437ee291`.
+CI, Pages deployment, and exact live verification remain separate checks.
+
 Batch 600 local validation, 2026-09-20 UTC: all internal links resolve
 across **24,688** locally built HTML files, including direct page-128
 profiles, the 101st Cavalry organization, and the top oil-company
