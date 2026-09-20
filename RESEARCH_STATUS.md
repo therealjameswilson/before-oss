@@ -1,6 +1,7 @@
 # Research status
 
-Batch 583 is locally reviewed and built but **not yet deployed**. It covers
+Batch 583 is live and exact-verified at merge commit
+`290c475de5f93e402cce9dd59c1401b38fc538b1`. It covers
 PDF page 117, rows 31–46, all in Box 186. Sixteen people have saved CIA,
 Library of Congress and manual cross-source attempts plus terminal online
 `requires_archival_review` dispositions. Four official Army bulk matches
@@ -14,6 +15,11 @@ Diebod Jr. have promising but unbridged competing biographical leads, not
 published employer claims. See
 `research/batch-583-terminal-review.md` and the importable evidence and
 decision files.
+The [PR #292](https://github.com/therealjameswilson/before-oss/pull/292),
+pull-request and merged-main Tests, and GitHub Pages deployment passed.
+The unauthenticated live verifier matched all 67 manifested assets, seven
+core routes, 25 Sources pages, and all sixteen direct profiles to the merge
+commit; see `reports/release_batch_583.md`.
 
 Current local SQLite has 23,978/23,978 linked source rows, 23,940 active
 people, 5,600/23,940 people with nonplanned research attempts (23.3918%),
@@ -25,8 +31,7 @@ Private SQLite has 10,286 attempts and 4,750 claims: 1,307 confirmed,
 1,770 high, 1,360 medium, 184 low, and 129 conflicting. It has 4,897 citation
 records and 2,243 unique source-document keys. The local public projection
 has 2,167 affiliations, 675 organizations, 3,704 sources, and 4,562 claims.
-The full-index research goal remains active. The live site still represents
-Batch 582 until this batch passes tests, release review, and deployment.
+The full-index research goal remains active.
 
 Batch 582 is live and exact-verified at merge commit
 `3a2a9c0784016bed6f1e192eb4d6452eeabc777e`. It covers PDF page 117,
