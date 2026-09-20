@@ -1,5 +1,31 @@
 # Research status
 
+The local Batch 580 review covers PDF page 117, rows 1-10, in Box 185.
+All ten now have saved cross-source research attempts, terminal
+`requires_archival_review` outcomes, and direct static profiles in the local
+build. Official Army bulk data supports high-confidence **identity-only**
+matches for Serge A Diab, Spyros Dialismas and Goodhue Diament; an original
+OSS Mission to France award list independently confirms Goodhue's wartime
+identity. Neither source supplies a pre-OSS employer. Paul and Pavlos
+Diamantoukos remain separate, with the Army first-name conflict visible.
+John E Deyoung's potential University of Chicago *student* chronology is a
+withheld low-confidence affiliation lead, not a public employer claim.
+See `research/batch-580-terminal-review.md` and the importable evidence
+bundle. Until publication is separately verified, the live site may still
+show the previous Batch 579 data.
+
+Local SQLite now has 23,978 / 23,978 linked source rows, 23,940 active
+person entities, 5,564 / 23,940 with nonplanned research attempts (23.2414%),
+261 / 23,940 with confirmed/high published employer evidence (1.0902%), and
+5,519 / 23,940 with assessed archival-review dispositions (23.0535%). The
+broader verified-affiliation count remains 599 / 23,940 (2.5021%). There
+are 18,376 active `not_started` people and 257 possible-duplicate groups.
+Private SQLite holds 10,156 attempts and 4,735 claims: 1,307 confirmed,
+1,756 high, 1,359 medium, 184 low and 129 conflicting. It has 4,885 citation
+records and 2,235 unique source documents. The public projection contains
+2,165 published affiliations, 674 organizations, 3,694 sources and 4,547
+claims. The full research goal remains active.
+
 The exact-verified public Batch 579 release covers PDF page 116, rows 37–46: ten
 more Box 184 people now have terminal `requires_archival_review` dispositions
 and direct public profiles. Three official Army bulk-file crosswalks support

@@ -1,0 +1,48 @@
+---
+import type { PublicSource } from "../types";
+import { sourcePageHref, SOURCES_PER_PAGE } from "../lib/sourcePagination";
+
+interface Props {
+  sources: PublicSource[];
+  pageNumber: number;
+  pageCount: number;
+  totalSources: number;
+}
+
+const { sources, pageNumber, pageCount, totalSources } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const firstNumber = (pageNumber - 1) * SOURCES_PER_PAGE + 1;
+const lastNumber = Math.min(pageNumber * SOURCES_PER_PAGE, totalSources);
+---
+
+<div class="source-register">
+  <p class="source-register__summary">
+    Showing {firstNumber.toLocaleString("en-US")}-{lastNumber.toLocaleString("en-US")}
+    of {totalSources.toLocaleString("en-US")} published item-level sources.
+    Each person's profile links its claims to the specific supporting item.
+  </p>
+  <ol class="citation-list" start={firstNumber}>
+    {sources.map((source) => (
+      <li>
+        {source.author_creator && <span>{source.author_creator}. </span>}
+        <cite>{source.title}</cite>. {source.repository_publisher}.
+        {source.publication_record_date && ` ${source.publication_record_date}.`}
+        {source.locator && ` ${source.locator}.`}
+        {source.stable_url && <a href={source.stable_url}> View source</a>}
+      </li>
+    ))}
+  </ol>
+  <nav class="source-register__pages" aria-label="Source register pages">
+    {pageNumber > 1 && (
+      <a href={sourcePageHref(base, pageNumber - 1)} rel="prev">Previous page</a>
+    )}
+    <span aria-current="page">Page {pageNumber} of {pageCount}</span>
+    {pageNumber < pageCount && (
+      <a href={sourcePageHref(base, pageNumber + 1)} rel="next">Next page</a>
+    )}
+  </nav>
+  <p class="source-register__download">
+    Need the full register in one file?
+    <a href={`${base}downloads/sources_public.csv`}>Download the public sources CSV</a>.
+  </p>
+</div>
