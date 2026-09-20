@@ -1,0 +1,8 @@
+{
+  "bundle_version": "parser-visual-review-v1",
+  "source_pdf_sha256": "7268492342ab131d3b6d2697cfa4f6856cbdcd16e0ed3877e8d6a0478f58c02b",
+  "reviewer": "Codex page 126 visual audit",
+  "matching_pages_reviewed_at": "2026-09-20T18:49:29Z",
+  "matching_pages_notes": "Original PDF page 126 rendered at full detail. All 46 printed rows match the stored page-row sequence, raw names and initials, ranks, serial-column occupancy and character lengths, three box transitions (201, 202, 203), two 'French' notes, and archive location 230/86/30/03. Exact duplicate Jeanne S Duiker rows 35-36 and Stevens Dukson rows 45-46 (only the latter has a populated serial cell) remain separate source rows; the two William Duff rows have different rank/serial cells. The unusual printed 'Katherne Duffy' spelling and the letter-prefixed Charlotte R Due serial cell are preserved, not silently corrected. No parser warning is present.",
+  "reviewed_matching_pages": [126]
+}

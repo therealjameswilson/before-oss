@@ -1,5 +1,21 @@
 # Accessibility and responsive QA
 
+Batch 598 local validation, 2026-09-20 UTC: the bounded release suite passed
+**84/84** desktop/phone/tablet checks: 15 new page-126 source, duplicate,
+conflict, and oil-category checks; 33 core-route checks; six analysis checks;
+and 30 accessibility checks with no serious or critical axe violations.
+The direct Duke profile distinguishes Military Intelligence Service from
+Time, Inc. and cites the underlying sources. The two Stevens Dukson rows
+retain distinct direct routes, with one conflict section and no invented
+employer. The top oil-company category still lists exactly six cited
+employees. Astro reported zero errors, warnings, or hints across **230**
+local source files and built **24,686** local static pages. One unrelated,
+untracked duplicate Sources route is intentionally not committed; it adds
+25 local pages and is excluded from the expected clean release. The
+200-profile stratified structural audit passed machine-checkable gates,
+but is not a manual historical source audit. These local checks do not
+establish CI or public deployment.
+
 Batch 597 clean CI validation, 2026-09-20 UTC: the bounded release suite
 passed **81/81** desktop/phone/tablet checks: 12 new source-review and
 oil-category checks, 33 core-route checks, six analysis checks, and 30
