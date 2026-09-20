@@ -13,7 +13,7 @@ is not complete, and the site reports that limitation explicitly.
 
 ## Current state
 
-- 522 PDF pages processed; 100 pages visually reviewed under and beyond the documented sampling rule
+- 522 PDF pages processed; 99 distinct pages visually reviewed under and beyond the documented sampling rule
 - 23,978 immutable source rows
 - 23,941 stored person rows and 23,940 active person entities; one reviewed
   duplicate supersession retains both immutable index rows for audit

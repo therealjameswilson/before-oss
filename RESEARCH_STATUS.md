@@ -1,7 +1,8 @@
 # Research status
 
-Batch 596 visually checked all 46 rows of PDF page 124 (Downey through
-Drendel), bringing page-level visual review to 100 pages. A bounded Library
+Batch 596 rechecked all 46 rows of PDF page 124 (Downey through
+Drendel), which was already in the extraction sample; distinct page-level
+visual review remains at 99 pages. A bounded Library
 of Congress pass completed 46 successful discovery queries and retained 22
 unreviewed links for ten people. Contemporaneous Maryland Historical
 Magazine and a separate obituary support Donald M Dozer's University of
