@@ -5,6 +5,8 @@ import random
 import sqlite3
 import time
 import urllib.parse
+import urllib.request
+import urllib.robotparser
 import uuid
 from html.parser import HTMLParser
 from typing import Callable
@@ -22,8 +24,16 @@ from .common import (
     request_fingerprint,
 )
 
-ADAPTER_VERSION = "cia-reading-room-html-v1"
+ADAPTER_VERSION = "cia-reading-room-html-v2-robots"
 GENERIC_NAMESPACE = uuid.UUID(NAMESPACE_GENERIC)
+
+
+class CiaRobotsDisallowed(RuntimeError):
+    """The current host policy forbids this automated search URL."""
+
+
+class CiaRobotsUnavailable(RuntimeError):
+    """The host policy could not be checked, so discovery fails closed."""
 
 
 class _DocumentLinkParser(HTMLParser):
@@ -76,6 +86,49 @@ class CiaAdapter:
         self.transport = transport
         self.limiter = limiter or DomainRateLimiter(1.0)
         self.sleep = sleep
+        self._robots: urllib.robotparser.RobotFileParser | None = None
+
+    @property
+    def user_agent(self) -> str:
+        return (
+            f"BeforeOSS/{__version__} archival-research "
+            f"({self.settings.contact_email or 'no-email-configured'})"
+        )
+
+    def _check_robots(self, url: str) -> None:
+        parsed = urllib.parse.urlsplit(url)
+        robots_url = f"{parsed.scheme}://{parsed.netloc}/robots.txt"
+        if self._robots is None:
+            request = urllib.request.Request(
+                robots_url,
+                method="GET",
+                headers={"Accept": "text/plain", "User-Agent": self.user_agent},
+            )
+            try:
+                response = self.transport(request, 30)
+            except Exception as error:
+                raise CiaRobotsUnavailable(
+                    f"Could not verify {robots_url}; CIA discovery was not sent."
+                ) from error
+            if response.status != 200:
+                raise CiaRobotsUnavailable(
+                    f"Could not verify {robots_url} (HTTP {response.status}); "
+                    "CIA discovery was not sent."
+                )
+            robots = urllib.robotparser.RobotFileParser()
+            robots.parse(response.body.decode("utf-8", errors="replace").splitlines())
+            self._robots = robots
+            crawl_delay = robots.crawl_delay(self.user_agent)
+            if crawl_delay is not None:
+                self.limiter.minimum_interval_seconds = max(
+                    self.limiter.minimum_interval_seconds, float(crawl_delay)
+                )
+        if not self._robots.can_fetch(self.user_agent, url):
+            raise CiaRobotsDisallowed(
+                f"Current {robots_url} disallows automated discovery at "
+                f"{parsed.path}; no CIA search was sent. Use a permitted "
+                "official source or manual archival review."
+            )
 
     def search(
         self,
@@ -85,6 +138,7 @@ class CiaAdapter:
         dry_run: bool = False,
     ) -> dict[str, object]:
         path = f"/search/site/{urllib.parse.quote(query, safe='')}"
+        url = f"{self.settings.cia_base_url}{path}"
         fingerprint = request_fingerprint(ADAPTER_VERSION, "GET", path, {})
         existing = self.connection.execute(
             """
@@ -98,6 +152,17 @@ class CiaAdapter:
             or existing["http_status"] == 429
             or existing["http_status"] >= 500
         ):
+            if dry_run:
+                return {
+                    "duplicate_request": False,
+                    "planned": True,
+                    "fingerprint": fingerprint,
+                    "candidate_count": 0,
+                    "http_status": None,
+                }
+            # A changed host policy must not erase the earlier failed audit
+            # just because this request is eligible for a later retry.
+            self._check_robots(url)
             # Preserve the failed attempt in the pipeline-run history, but do
             # not let a transient transport or server failure permanently
             # suppress the same deterministic discovery query on resume.
@@ -127,7 +192,7 @@ class CiaAdapter:
                 "http_status": None,
             }
 
-        url = f"{self.settings.cia_base_url}{path}"
+        self._check_robots(url)
         response = None
         retry_count = 0
         try:
@@ -138,10 +203,7 @@ class CiaAdapter:
                     method="GET",
                     headers={
                         "Accept": "text/html",
-                        "User-Agent": (
-                            f"BeforeOSS/{__version__} archival-research "
-                            f"({self.settings.contact_email or 'no-email-configured'})"
-                        ),
+                        "User-Agent": self.user_agent,
                     },
                 )
                 response = self.transport(request, 30)

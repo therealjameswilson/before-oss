@@ -8,6 +8,8 @@ import urllib.error
 import urllib.parse
 import urllib.request
 import uuid
+from datetime import UTC, datetime
+from email.utils import parsedate_to_datetime
 from typing import Callable
 
 from .. import __version__
@@ -23,8 +25,29 @@ from .common import (
     request_fingerprint,
 )
 
-ADAPTER_VERSION = "loc-chronicling-america-v2"
+ADAPTER_VERSION = "loc-chronicling-america-v3-rate-policy"
 GENERIC_NAMESPACE = uuid.UUID(NAMESPACE_GENERIC)
+LOC_MIN_INTERVAL_SECONDS = 3.2  # 18.75/minute, below LoC's published 20/minute.
+LOC_DEFAULT_429_COOLDOWN_SECONDS = 3600  # LoC documents a one-hour block.
+
+
+class LocRateLimitCooldown(RuntimeError):
+    """Project-side cooldown prevents a premature repeat request."""
+
+
+def _retry_after_seconds(value: str | None) -> int | None:
+    if value is None:
+        return None
+    try:
+        return max(0, int(float(value)))
+    except (ValueError, OverflowError):
+        try:
+            target = parsedate_to_datetime(value)
+        except (TypeError, ValueError):
+            return None
+        if target.tzinfo is None:
+            target = target.replace(tzinfo=UTC)
+        return max(0, int((target - datetime.now(UTC)).total_seconds()))
 
 
 class LocAdapter:
@@ -40,8 +63,51 @@ class LocAdapter:
         self.connection = connection
         self.settings = settings
         self.transport = transport
-        self.limiter = limiter or DomainRateLimiter(0.75)
+        self.limiter = limiter or DomainRateLimiter(LOC_MIN_INTERVAL_SECONDS)
         self.sleep = sleep
+
+    def _check_cooldown(self) -> None:
+        recent = self.connection.execute(
+            """
+            SELECT requested_at, http_status, error_class
+            FROM request_audit
+            WHERE adapter = 'loc'
+              AND (http_status = 429 OR error_class LIKE 'HTTP_%_RETRY_AFTER_%')
+            ORDER BY requested_at DESC LIMIT 1
+            """
+        ).fetchone()
+        if not recent:
+            return
+        code = recent["error_class"] or ""
+        suffix = code.rsplit("_RETRY_AFTER_", 1)
+        header_delay = int(suffix[1]) if len(suffix) == 2 and suffix[1].isdigit() else 0
+        cooldown = max(
+            LOC_DEFAULT_429_COOLDOWN_SECONDS if recent["http_status"] == 429 else 0,
+            header_delay,
+        )
+        requested_at = datetime.fromisoformat(recent["requested_at"])
+        elapsed = (datetime.now(UTC) - requested_at).total_seconds()
+        remaining = cooldown - elapsed
+        if remaining > 0:
+            raise LocRateLimitCooldown(
+                f"Library of Congress API cooldown remains active for "
+                f"{int(remaining) + 1} seconds; no request was sent."
+            )
+
+    def _pace_across_runs(self) -> None:
+        recent = self.connection.execute(
+            """
+            SELECT requested_at FROM request_audit
+            WHERE adapter = 'loc' ORDER BY requested_at DESC LIMIT 1
+            """
+        ).fetchone()
+        if not recent:
+            return
+        elapsed = (
+            datetime.now(UTC) - datetime.fromisoformat(recent["requested_at"])
+        ).total_seconds()
+        if elapsed < LOC_MIN_INTERVAL_SECONDS:
+            self.sleep(LOC_MIN_INTERVAL_SECONDS - elapsed)
 
     def search(
         self,
@@ -53,6 +119,9 @@ class LocAdapter:
         path = "/collections/chronicling-america/"
         params = {"q": query, "fo": "json", "c": 5, "at": "results,pagination"}
         fingerprint = request_fingerprint(ADAPTER_VERSION, "GET", path, params)
+        prior_v2_fingerprint = request_fingerprint(
+            "loc-chronicling-america-v2", "GET", path, params
+        )
         existing = self.connection.execute(
             """
             SELECT http_status FROM request_audit
@@ -60,11 +129,48 @@ class LocAdapter:
             """,
             (fingerprint,),
         ).fetchone()
+        if existing and existing["http_status"] not in (None, 429) and existing["http_status"] < 500:
+            return {
+                "duplicate_request": True,
+                "planned": False,
+                "fingerprint": fingerprint,
+                "candidate_count": 0,
+                "http_status": existing["http_status"],
+            }
+        # A clean rebuild replays sanitized attempts, not raw request-audit
+        # rows. Their successful fingerprints are still durable checkpoints.
+        completed_checkpoint = self.connection.execute(
+            """
+            SELECT request_fingerprint FROM research_attempts
+            WHERE source_adapter = 'loc'
+              AND request_fingerprint IN (?, ?)
+              AND outcome IN ('candidate_found', 'no_result')
+            ORDER BY completed_at DESC LIMIT 1
+            """,
+            (fingerprint, prior_v2_fingerprint),
+        ).fetchone()
+        if completed_checkpoint:
+            return {
+                "duplicate_request": True,
+                "planned": False,
+                "fingerprint": completed_checkpoint["request_fingerprint"],
+                "candidate_count": 0,
+                "http_status": 200,
+            }
         if existing and (
             existing["http_status"] is None
             or existing["http_status"] == 429
             or existing["http_status"] >= 500
         ):
+            if dry_run:
+                return {
+                    "duplicate_request": False,
+                    "planned": True,
+                    "fingerprint": fingerprint,
+                    "candidate_count": 0,
+                    "http_status": None,
+                }
+            self._check_cooldown()
             # A terminal transient failure is auditable, but it is not a
             # completed search. Clear its one-row fingerprint checkpoint so a
             # later resumable batch can try the same request again.
@@ -77,13 +183,26 @@ class LocAdapter:
                     (fingerprint,),
                 )
             existing = None
-        if existing:
+        # The rate-policy revision changed the adapter version, not the
+        # underlying search. Reuse an identical completed query from an older
+        # adapter version rather than spending another LoC API call.
+        prior_completed = self.connection.execute(
+            """
+            SELECT request_fingerprint, http_status FROM request_audit
+            WHERE adapter = 'loc' AND adapter_version = 'loc-chronicling-america-v2'
+              AND query_text = ?
+              AND http_status = 200
+            ORDER BY requested_at DESC LIMIT 1
+            """,
+            (query,),
+        ).fetchone()
+        if prior_completed:
             return {
                 "duplicate_request": True,
                 "planned": False,
-                "fingerprint": fingerprint,
+                "fingerprint": prior_completed["request_fingerprint"],
                 "candidate_count": 0,
-                "http_status": existing["http_status"],
+                "http_status": prior_completed["http_status"],
             }
         if dry_run:
             return {
@@ -93,10 +212,12 @@ class LocAdapter:
                 "candidate_count": 0,
                 "http_status": None,
             }
+        self._check_cooldown()
         url = f"{self.settings.loc_api_base_url}{path}?{urllib.parse.urlencode(params)}"
         response = None
         retry_count = 0
         try:
+            self._pace_across_runs()
             for attempt in range(self.settings.loc_max_retries + 1):
                 self.limiter.wait()
                 request = urllib.request.Request(
@@ -126,20 +247,20 @@ class LocAdapter:
                     increment_usage(self.connection, "loc", response.status == 200)
                 if response.status == 200:
                     break
-                if response.status == 429 or 500 <= response.status <= 599:
+                if response.status == 429:
+                    # The published rate-limit block lasts one hour. A retry
+                    # inside this run would violate that policy even if the
+                    # response omitted Retry-After.
+                    break
+                if 500 <= response.status <= 599:
                     if attempt >= self.settings.loc_max_retries:
                         break
                     retry_count += 1
-                    retry_after = response.headers.get("retry-after")
-                    try:
-                        delay = float(retry_after) if retry_after is not None else None
-                    except ValueError:
-                        delay = None
+                    delay = _retry_after_seconds(response.headers.get("retry-after"))
+                    if delay is not None and delay > 60:
+                        break
                     self.sleep(
-                        min(
-                            60.0,
-                            delay if delay is not None else (2**attempt) + random.random(),
-                        )
+                        float(delay) if delay is not None else (2**attempt) + random.random()
                     )
                     continue
                 break
@@ -163,6 +284,9 @@ class LocAdapter:
                                 "date": str(date or ""),
                             }
                         )
+            retry_after_seconds = _retry_after_seconds(
+                response.headers.get("retry-after")
+            )
             with self.connection:
                 audit_request(
                     self.connection,
@@ -173,7 +297,14 @@ class LocAdapter:
                     adapter_version=ADAPTER_VERSION,
                     person_id=person_id,
                     error_class=(
-                        None if response.status == 200 else f"HTTP_{response.status}"
+                        None
+                        if response.status == 200
+                        else (
+                            f"HTTP_{response.status}_RETRY_AFTER_"
+                            f"{retry_after_seconds}"
+                            if retry_after_seconds is not None
+                            else f"HTTP_{response.status}"
+                        )
                     ),
                     retry_count=retry_count,
                 )
