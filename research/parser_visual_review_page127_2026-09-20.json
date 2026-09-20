@@ -1,0 +1,8 @@
+{
+  "bundle_version": "parser-visual-review-v1",
+  "source_pdf_sha256": "7268492342ab131d3b6d2697cfa4f6856cbdcd16e0ed3877e8d6a0478f58c02b",
+  "reviewer": "Codex page 127 visual audit",
+  "matching_pages_reviewed_at": "2026-09-20T19:26:24Z",
+  "matching_pages_notes": "Original PDF page 127 rendered at full detail and the anomalous surname cell enlarged separately. All 46 printed rows match the stored page-row sequence, raw names and initials, ranks, serial-column occupancy and character lengths, box changes 203 to 204 to 205, British A note on Wilfred A Dunderdale, and archive locations 230/86/30/03 and 230/86/30/04. The print genuinely spells Allen W Dullles with three consecutive l characters; it is not silently corrected to Dulles. Dumesnil-Rev is the truncated surname as printed, with first-name cell H. The duplicate Russell Duncan rows 30-31, the two Joe B Duncan rows 25-26 with different serial occupancy, and Joseph P Dunckley versus Joseph P Dunkley rows 33 and 44 remain separate. No parser warning is present.",
+  "reviewed_matching_pages": [127]
+}
