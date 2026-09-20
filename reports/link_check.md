@@ -1,5 +1,18 @@
 # Link check
 
+Batch 600 local validation, 2026-09-20 UTC: all internal links resolve
+across **24,688** locally built HTML files, including direct page-128
+profiles, the 101st Cavalry organization, and the top oil-company
+category. An unrelated untracked duplicate Sources route adds 25
+local-only pages and is excluded from the release. The checker
+inventoried **50,200** unique external URLs but did not request all of
+them. The public-identifier audit compared **12,926** normalized
+identifiers and **120** variants against **24,759** public artifacts,
+with zero unexpected full-number boundary matches. The local manifest
+matched **67** assets and **97,067,530** bytes at SHA-256
+`e89a65a4b6c638a5a74964650c2f7da5ff56100e25a6d9c2b7e29e6c40658353`.
+CI, Pages deployment, and exact live verification remain separate checks.
+
 Batch 599 local validation, 2026-09-20 UTC: all internal links resolve
 across **24,687** locally built HTML files, including direct page-127
 profiles, the British SIS organization page, and the top oil-company

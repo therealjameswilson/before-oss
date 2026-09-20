@@ -1,5 +1,22 @@
 # Accessibility and responsive QA
 
+Batch 600 local validation, 2026-09-20 UTC: the bounded release suite
+passed **78/78** desktop/phone/tablet checks: nine new page-128 profile
+checks, 33 core-route checks including the six-person oil-company
+category, six analysis checks, and 30 accessibility checks with no
+serious or critical axe violations. The page-128 checks keep Louis Dups's
+101st Cavalry assignment earlier and distinct from unknown immediate
+and civilian employers; withhold the Stephen Dunwell IBM namesake lead;
+and retain two separate Virginia Dunlap profiles in one publicly hashed
+possible-duplicate group. The initial duplicate-group assertion used
+the private label; it was corrected to test the public hash before the
+full suite passed. Astro reported zero errors, warnings, or hints across
+**232** local source files and built **24,688** static pages. An unrelated,
+untracked duplicate Sources route adds 25 local pages and is excluded
+from the clean release. The 200-profile stratified structural audit
+passed its machine-checkable gates but is not a manual historical
+source audit. Local checks do not establish CI or public deployment.
+
 Batch 599 local validation, 2026-09-20 UTC: the bounded release suite
 passed **81/81** desktop/phone/tablet checks: 12 new page-127 and
 oil-category checks, 33 core-route checks, six analysis checks, and 30

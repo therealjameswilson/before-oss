@@ -1,5 +1,36 @@
 # Research status
 
+Batch 600 visually reviewed all 46 printed rows of PDF page 128
+(Virginia A Dunlap through Mary E Durham), raising distinct visually
+reviewed pages to 101 of 522. Forty-five newly assigned people received
+successful bounded Library of Congress discovery searches; Grier Durant
+already had an archival-review disposition. The 39 newspaper candidates
+remain leads, not employer evidence. Twelve official Army bulk-file
+crosswalks were accepted for **identity only**, and two remain probable.
+The separate Virginia A/E Dunlap Box 205 rows remain a flagged possible
+duplicate. IEEE and IBM biographies did not establish a direct link from
+their engineer Stephen W. Dunwell to the indexed Box 206 Captain, so IBM
+was withheld. A 1938 New York National Guard report and a 1945 original
+OSS memorandum support [Louis Dups's](https://therealjameswilson.github.io/before-oss/people/2d2ac1c9-b522-54e0-9202-d488968653c2/)
+earlier 101st Cavalry assignment at **high confidence**, not his
+immediate pre-OSS posting or a civilian employer. The oil-company
+employee category remains six cited people. See
+`research/batch-600-progress.md` and its replayable review/evidence files.
+No authenticated NARA Catalog request was made.
+
+Current local SQLite has 23,978/23,978 linked source rows, 23,940 active
+people, 6,098/23,940 people with nonplanned attempts (25.472%),
+269/23,940 with confirmed/high published employer evidence (1.1236%),
+614/23,940 with confirmed/high published affiliation evidence (2.5647%),
+and 5,731/23,940 with assessed archival-review dispositions (23.939%).
+There are 17,842 active `not_started` people and 265 possible-duplicate
+groups. Private SQLite has 11,094 attempts and 4,855 claims: 1,311
+confirmed, 1,858 high, 1,369 medium, 185 low, and 132 conflicting. It
+has 4,976 citation records and 2,307 unique source-document keys. The
+public projection has 2,193 affiliations, 689 organizations, 3,774
+sources, and 4,666 claims. The full-index historical research goal
+remains unfinished.
+
 Batch 599 visually rechecked all 46 printed rows of PDF page 127 (Dulac
 through Virginia E Dunlap); the page was already in the extraction sample,
 so distinct visually reviewed pages remain 100. Forty-five newly assigned
