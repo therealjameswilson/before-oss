@@ -2,11 +2,12 @@
 
 Latest run: 2026-09-19 UTC
 
-Batch 579 local release candidate: the bounded suite passed 69/69 checks
+Batch 579 exact-verified public release: the bounded suite passed 69/69 checks
 across desktop, phone, and tablet. It includes nine new cohort checks, 27
 core-route checks (including the oil-company category), six analysis checks,
-and 27 axe checks with no serious violations. Public deployment verification
-is pending.
+and 27 axe checks with no serious violations. PR #282, the merged-main Test
+workflow, Pages deployment, and read-only live release verification passed;
+see `reports/release_batch_579.md`.
 
 Batch 578 exact-verified release: the bounded suite passed 69/69 checks
 across desktop, phone, and tablet, including 27 axe checks. It includes

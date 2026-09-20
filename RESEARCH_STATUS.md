@@ -1,6 +1,6 @@
 # Research status
 
-The local Batch 579 release candidate covers PDF page 116, rows 37–46: ten
+The exact-verified public Batch 579 release covers PDF page 116, rows 37–46: ten
 more Box 184 people now have terminal `requires_archival_review` dispositions
 and direct public profiles. Three official Army bulk-file crosswalks support
 high-confidence **identity-only** claims. The Albert P Dewey / A. Peter Dewey
@@ -22,10 +22,14 @@ affiliations, 674 organizations, 3,690 sources and 4,542 claims. The 98
 Python tests, extraction checks, 200-profile audit, 69 bounded browser
 checks (including 27 axe checks), internal links and full-identifier
 redaction audit pass. The production build has 24,622 direct HTML pages.
-Deployment of this candidate is pending; Batch 578 remains the last
-exact-verified public release.
+[PR #282](https://github.com/therealjameswilson/before-oss/pull/282), the
+merged-main Test run 35477453030 and Pages run 35477453027 passed. The
+unauthenticated verifier matched all 67 public assets (96,107,476 bytes),
+seven core routes and ten new profiles to merge commit
+`e3bd9260c4a3ebc030b9555a813f2d93eacfb595`. See
+`reports/release_batch_579.md`. The overall research goal remains active.
 
-Batch 578 is the current exact-verified public release. It covers PDF page
+Batch 578 was the preceding exact-verified public release. It covers PDF page
 116 rows 27-36, ten people in Box 184. All ten have terminal
 `requires_archival_review` dispositions after saved CIA, Library of Congress,
 and targeted cross-source checks. A contemporaneous OSS board record confirms

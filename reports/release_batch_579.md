@@ -1,8 +1,17 @@
-# Batch 579 release candidate
+# Batch 579 public release verification
 
-Built and tested locally on 2026-09-19 UTC. Public deployment and
-unauthenticated live verification are **pending**; Batch 578 remains the last
-exact-verified public release until those steps succeed.
+Built locally on 2026-09-19 UTC and verified publicly on 2026-09-20 UTC.
+[PR #282](https://github.com/therealjameswilson/before-oss/pull/282) passed
+Test run 35477181717 and merged as
+`e3bd9260c4a3ebc030b9555a813f2d93eacfb595`. The merged-main Test run
+35477453030 and Pages run 35477453027 both passed. The unauthenticated,
+read-only verifier matched the live [Before OSS
+site](https://therealjameswilson.github.io/before-oss/) to that exact merge
+commit: 67 public-manifest assets (96,107,476 bytes), seven core routes,
+and all ten Batch 579 direct person URLs. Manifest SHA-256:
+`082a37ff32e825cc6acd7a3526f94d70cdc4aff1597f3927e84c1dc487814062`.
+This proves publication of the reviewed projection, not completion of the
+entire research goal.
 
 ## Coverage and evidence
 
