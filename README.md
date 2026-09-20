@@ -18,16 +18,16 @@ is not complete, and the site reports that limitation explicitly.
 - 23,941 stored person rows and 23,940 active person entities; one reviewed
   duplicate supersession retains both immutable index rows for audit
 - 23,978 / 23,978 source rows linked to an entity
-- 256 possible duplicate groups; possible variants remain separate until reviewed
-- 75-person stratified research pilot, 6 reviewed NARA personnel files, 5,554
-  people with saved non-planned research outcomes, and 10,125 durable research
+- 258 possible duplicate groups; possible variants remain separate until reviewed
+- 75-person stratified research pilot, 6 reviewed NARA personnel files, 5,600
+  people with saved non-planned research outcomes, and 10,286 durable research
   attempts or plans
-- 599 verified-affiliation profiles, including 261 with verified employment or
-  self-employment, and 5,509 individually assessed archival dispositions
-- 2,165 public-visible affiliations, 4,542 public-visible claims, 3,690 public
-  source records, and 2,232 unique source-document keys; 183 low-confidence
+- 600 verified-affiliation profiles, including 262 with verified employment or
+  self-employment, and 5,555 individually assessed archival dispositions
+- 2,167 public-visible affiliations, 4,562 public-visible claims, 3,704 public
+  source records, and 2,243 unique source-document keys; 184 low-confidence
   claims remain outside default analytics
-- 18,386 active people remain `not_started`; the public site reports this
+- 18,340 active people remain `not_started`; the public site reports this
   incompleteness rather than treating an automated query as completed research
 
 See [RESEARCH_STATUS.md](RESEARCH_STATUS.md) and
@@ -135,6 +135,14 @@ Batch assignment and adapter queries are discovery checkpoints, not a
 reviewed research outcome or proof of a previous employer. Resume the
 source-by-source review and import evidence or rejection decisions before
 changing a person's terminal research status.
+
+To inspect a bounded LoC newspaper candidate through the official item JSON
+and text-service API without storing source responses, run
+`python3 scripts/inspect_loc_candidates.py --batch batch-583 --max-candidates 20`.
+This prints short OCR context for human rejection/triage only; it does not
+establish identity, save claims, or modify SQLite. Use `--dry-run` to inspect
+planned URLs. Import a review-decision CSV after checking the original page
+context and retain ambiguous namesakes as private leads.
 
 ### Official Army bulk identity triage
 
