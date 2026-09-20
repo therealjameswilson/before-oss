@@ -1,5 +1,28 @@
 # Research status
 
+Batch 582 is the current **local candidate release**, not yet a verified
+public deployment. It covers PDF page 117, rows 21–30, in Boxes 185–186.
+Ten distinct people received saved cross-source research attempts and terminal
+online `requires_archival_review` outcomes. Official Army bulk matches
+support high-confidence identity-only claims for Roger H Dickens, indexed
+Gelnn/Army Glenn O Dickerson, and Harold E Dickerson. Four LoC OCR discovery
+leads were reviewed in official text-service context and rejected. No new
+pre-OSS employer was established. See `research/batch-582-terminal-review.md`
+and its importable evidence and review-decision files.
+
+The local SQLite now has 23,978/23,978 linked source rows, 23,940 active
+person entities, 5,584/23,940 people with nonplanned research attempts
+(23.3250%), 262/23,940 with confirmed/high published employer evidence
+(1.0944%), 600/23,940 with confirmed/high published affiliation evidence
+(2.5063%), and 5,539/23,940 with assessed archival-review dispositions
+(23.1370%). There are 18,356 active `not_started` people and 258
+possible-duplicate groups. Private SQLite has 10,238 attempts and 4,745
+claims: 1,307 confirmed, 1,766 high, 1,359 medium, 184 low, and 129
+conflicting. It has 4,892 citation records and 2,239 unique source
+documents. The rebuilt public projection contains 2,166 published
+affiliations, 675 organizations, 3,700 sources, and 4,557 claims. The
+full-index research goal remains active.
+
 Batch 581 is live and exact-verified at merge commit
 `cbec90e90debbc4107b9a9b28485135feaa73b3d`. It covers PDF page
 117, rows 11–20, all in Box 185. Ten distinct printed rows and cautious

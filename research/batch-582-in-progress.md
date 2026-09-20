@@ -1,4 +1,9 @@
-# Batch 582 — bounded research checkpoint, not a terminal review
+# Batch 582 — initial bounded research checkpoint (superseded)
+
+This records the initial source-access and scheduler state. The four LoC
+leads were subsequently checked through the official LoC text-service API
+and rejected, and all ten people received terminal online dispositions.
+See `research/batch-582-terminal-review.md` for the current outcome.
 
 Started 2026-09-20 UTC. PDF page 117, rows 21–30, covers ten distinct
 indexed people: Ann J Dick, Doris R Dick, David H Dickason, Frederick G
