@@ -1,5 +1,17 @@
 # Accessibility and responsive QA
 
+Batch 585 local release candidate, 2026-09-20 UTC: the bounded Playwright
+release suite passed **72/72** checks across desktop, phone and tablet:
+nine cohort-profile checks, 30 core-route checks (including the oil-company
+category), six analysis checks, and 27 axe checks with no serious or
+critical violations. The cohort checks cover all twenty direct profiles,
+Konrad C Dillow's student-not-employer distinction, source citations, and
+literal clipped notes. An initial test run failed because a broad CSS
+selector counted a legitimate identity-evidence card as an affiliation; the
+selector was narrowed and the complete suite passed. Production Astro
+check reported zero errors, warnings and hints and built 24,649 static pages.
+PR, merged-main and live deployment verification remain pending.
+
 Batch 583 exact-verified public release, 2026-09-20 UTC: the bounded Playwright
 release suite passed **72/72** checks across desktop, phone and tablet:
 nine Batch 583 cohort-profile checks, 30 core-route checks, six analysis
