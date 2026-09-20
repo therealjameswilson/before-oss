@@ -1,13 +1,18 @@
 # Link check
 
-Batch 582 local release candidate, 2026-09-20 UTC: all internal links resolve
+Latest exact-verified public release: 2026-09-20 UTC, Batch 582. All internal links resolve
 across 24,647 generated HTML pages, including 25 Sources-register pages.
 The checker inventoried 50,121 unique external URLs without visiting every
 external target. The full-identifier audit found zero unexpected boundary
-matches across 24,719 public artifacts. The 67-file public-data manifest
-totals 96,210,168 bytes. GitHub and live release verification remain pending.
+matches across 24,719 public artifacts. The local and unauthenticated live
+verifiers matched all 67 assets / 96,210,168 bytes at SHA-256
+`c3a4b45c6cf80f72da58ff4a9f89f6fd10c2c570455b72f38d713166edbfacea`.
+The live verifier also matched seven core routes, 25 Sources pages, and ten
+direct profiles to merge commit
+`3a2a9c0784016bed6f1e192eb4d6452eeabc777e`; see
+`reports/release_batch_582.md`.
 
-Latest exact-verified public release: 2026-09-20 UTC, Batch 581. All
+Previous exact-verified public release: 2026-09-20 UTC, Batch 581. All
 internal links resolve across 24,647 generated HTML pages, including 25
 directly addressable Sources-register pages. The checker inventoried 50,121
 unique external URLs; it did not visit every external target. The local and

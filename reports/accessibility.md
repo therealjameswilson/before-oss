@@ -1,12 +1,13 @@
 # Accessibility and responsive QA
 
-Batch 582 local release candidate, 2026-09-20 UTC: the bounded release suite
+Batch 582 exact-verified public release, 2026-09-20 UTC: the bounded release suite
 passed **72/72** checks across desktop, phone and tablet: nine cohort-profile
 checks, 30 core-route checks, six analysis checks, and 27 axe checks with no
 serious or critical violations. The cohort tests assert ten direct routes,
 archival-review status, no inferred employer, three cited identity-only Army
-matches, and the distinct Gelnn/Glenn spellings. GitHub and live deployment
-have not yet been verified for this candidate.
+matches, and the distinct Gelnn/Glenn spellings. The PR and merged-main
+Tests, Pages deployment, and read-only live verification passed; see
+`reports/release_batch_582.md`.
 
 Batch 581 exact-verified public release, 2026-09-20 UTC: the bounded release
 suite passed **75/75** checks across desktop, phone and tablet: 12 cohort
