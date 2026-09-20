@@ -1,6 +1,6 @@
 # Research coverage
 
-Generated: 2026-09-20T13:37:37+00:00
+Generated: 2026-09-20T14:08:53+00:00
 
 ## Distinct coverage measures
 
@@ -18,14 +18,14 @@ Automated extraction and identity-queue creation do not count as a historical re
 - `candidate_found`: 8
 - `completed`: 147
 - `conflicting_sources`: 114
-- `documented_prewar_employer_found`: 112
+- `documented_prewar_employer_found`: 111
 - `in_progress`: 43
 - `needs_identity_review`: 322
 - `needs_temporal_review`: 18
 - `no_reliable_result_after_protocol`: 210
 - `not_started`: 18,203
 - `occupation_only_found`: 1,021
-- `requires_archival_review`: 3,495
+- `requires_archival_review`: 3,496
 - `verified_employer_found`: 246
 
 ## Claim confidence

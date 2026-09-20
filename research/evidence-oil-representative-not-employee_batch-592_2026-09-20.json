@@ -1,0 +1,111 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Codex source re-audit, 2026-09-20",
+  "sources": [
+    {
+      "key": "hammond-oil-fred-bielaski-batch206",
+      "stable_url": "https://www.casemine.com/judgement/us/5914cd0badd7b0493480f576",
+      "archival_identifier": "Hammond Oil Co. v. Standard Oil Co., 259 N.Y. 312, 181 N.E. 583 (N.Y. 1932)",
+      "title": "Hammond Oil Co. v. Standard Oil Co.",
+      "author_creator": "New York Court of Appeals",
+      "repository_publisher": "CaseMine",
+      "publication_record_date": "1932-06-07",
+      "locator": "Opinion by Kellogg, J.; statement of facts describing the agreements of December 30, 1919, September 24, 1920, and October 6, 1920",
+      "access_date": "2026-09-20",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Historical court decisions",
+      "rights_notes": "The opinion documents Bielaski acting for the company in named transactions; it does not state that he was an employee. Only a short excerpt and project-authored paraphrase are retained."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "richmond-levering-company-batch206",
+      "canonical_name": "Richmond Levering Co., Inc.",
+      "historical_name": "Richmond Levering Co., Inc.",
+      "aliases": ["Richmond Levering Company, Inc.", "Levering Co."],
+      "organization_type": "oil exploration company",
+      "sector": "business_and_industry",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "active_dates": "documented 1919-1920",
+      "normalization_notes": "The court decision's historical corporate forms are preserved. It proves representation in oil-concession transactions, not the representative's employment relationship. No modern successor is asserted."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "fred-bielaski-richmond-levering-batch206",
+      "person_id": "15a29a44-a8fd-5b29-b86e-f5ec49ccf794",
+      "organization_key": "richmond-levering-company-batch206",
+      "organization_name_as_found": "Richmond Levering Co., Inc.",
+      "role_title": "Company representative in Bolivian oil-concession transactions",
+      "occupation": null,
+      "relationship_type": "unknown",
+      "start_date": "1919-12-30",
+      "end_date": "1920-10-06",
+      "date_precision": "These are the first and last dated transactions described in the opinion, not proven employment dates or continuous tenure.",
+      "city": "La Paz",
+      "state_or_region": null,
+      "country": "Bolivia",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "Corrects batch 206: acting for a company in named transactions establishes an earlier business affiliation, not an employment relationship. Exclude from employer analytics and oil-company employee listings."
+    }
+  ],
+  "claims": [
+    {
+      "key": "fred-bielaski-richmond-levering-affiliation-batch206",
+      "person_id": "15a29a44-a8fd-5b29-b86e-f5ec49ccf794",
+      "affiliation_key": "fred-bielaski-richmond-levering-batch206",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Fred Bielaski represented Richmond Levering Co., Inc. in Bolivian oil-concession transactions in 1919 and 1920; his employment status is not documented.",
+      "evidence_excerpt": "Fred Bielaski, acting for Richmond Levering Co., Inc., of New York",
+      "evidence_paraphrase": "A judicial opinion recounts dated agreements in which Bielaski acted for the oil company, without specifying whether he was an employee, contractor, or other representative.",
+      "identity_match_assessment": "Medium-confidence historical association attached to a high-confidence OSS identity: the exact uncommon name and age-compatible chronology align, but the opinion has no Army or OSS identifier.",
+      "temporal_assessment": "The named transactions precede OSS service by more than twenty years. They establish neither an immediate pre-OSS affiliation nor the last civilian employer.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The court's 'acting for' wording supports representation only. It cannot be used to count Bielaski as an oil-company employee or to assign Richmond Levering as an employer.",
+      "sources": [
+        {
+          "source_key": "hammond-oil-fred-bielaski-batch206",
+          "support_type": "supports",
+          "locator_override": "Statement of facts, agreements dated 1919-1920",
+          "excerpt_override": "Fred Bielaski, acting for Richmond Levering Co., Inc., of New York"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "15a29a44-a8fd-5b29-b86e-f5ec49ccf794",
+      "research_status": "requires_archival_review",
+      "next_action": "Review indexed OSS personnel file, Box 55, for Bielaski's immediate pre-OSS role and last civilian employer; the 1919-1920 court opinion proves representation only.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "fred-bielaski-oil-representation-source-reaudit-batch592",
+      "person_id": "15a29a44-a8fd-5b29-b86e-f5ec49ccf794",
+      "source_adapter": "court_opinion_manual_reaudit",
+      "query_text": "Hammond Oil Co. v. Standard Oil Co., 259 N.Y. 312 (1932): Fred Bielaski acting for Richmond Levering Co.",
+      "query_variant_type": "employment_relationship_reassessment",
+      "started_at": "2026-09-20T14:07:53Z",
+      "completed_at": "2026-09-20T14:07:53Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "research_notes": "The opinion documents representation in oil-concession agreements but supplies no payroll, employment, or contract classification. An earlier batch had classified this as employment; this correction changes the relationship to unknown while retaining the qualified historical association.",
+      "next_action": "Examine OSS personnel file, Box 55, to establish the actual pre-OSS civilian and military pathway.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss/source-reaudit-v1"
+    }
+  ]
+}
