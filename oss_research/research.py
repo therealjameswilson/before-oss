@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 import sqlite3
 import uuid
 from collections import Counter, defaultdict
@@ -23,6 +24,109 @@ PILOT_SEED = "before-oss-pilot-v1"
 
 def _order_key(person_id: str) -> str:
     return hashlib.sha256(f"{PILOT_SEED}:{person_id}".encode()).hexdigest()
+
+
+def assign_page_batch(
+    connection: sqlite3.Connection,
+    *,
+    batch_name: str,
+    source_page: int,
+    first_row: int,
+    last_row: int,
+) -> dict[str, object]:
+    """Assign a complete printed row range to a resumable research batch.
+
+    A source row may link to a superseded entity, so research its reviewed
+    canonical person. Existing assignments outside this exact cohort are not
+    displaced. Repeating the same command is idempotent.
+    """
+    if not re.fullmatch(r"[a-z][a-z0-9_-]{0,63}", batch_name):
+        raise ValueError("Batch name must be a short lowercase slug.")
+    if source_page < 1 or first_row < 1 or last_row < first_row:
+        raise ValueError("Page and row numbers must be positive and ordered.")
+    if last_row - first_row + 1 > 100:
+        raise ValueError("Page batches are bounded to at most 100 printed rows.")
+
+    rows = list(
+        connection.execute(
+            """
+            SELECT s.source_row_number,
+                   COALESCE(es.canonical_person_id, l.person_id) AS person_id
+            FROM source_records s
+            LEFT JOIN person_source_links l USING(source_record_id)
+            LEFT JOIN entity_supersessions es
+              ON es.superseded_person_id = l.person_id
+            WHERE s.source_page = ? AND s.source_row_number BETWEEN ? AND ?
+            ORDER BY s.source_row_number, person_id
+            """,
+            (source_page, first_row, last_row),
+        )
+    )
+    found_rows = {row["source_row_number"] for row in rows}
+    missing_rows = sorted(set(range(first_row, last_row + 1)) - found_rows)
+    if missing_rows:
+        raise ValueError(
+            f"Page {source_page} has no printed source row(s) {missing_rows}."
+        )
+    unlinked_rows = sorted(
+        {row["source_row_number"] for row in rows if row["person_id"] is None}
+    )
+    if unlinked_rows:
+        raise ValueError(
+            f"Page {source_page} has unlinked source row(s) {unlinked_rows}."
+        )
+    person_ids = sorted({row["person_id"] for row in rows})
+    assigned = {
+        row["person_id"]: row["assigned_batch"]
+        for row in connection.execute(
+            "SELECT person_id, assigned_batch FROM research_queue"
+        )
+    }
+    missing_people = sorted(set(person_ids) - set(assigned))
+    if missing_people:
+        raise ValueError(f"Person(s) missing from research queue: {missing_people}.")
+    conflicting_people = [
+        person_id
+        for person_id in person_ids
+        if assigned[person_id] not in (None, batch_name)
+    ]
+    if conflicting_people:
+        raise ValueError(
+            f"Person(s) already assigned to another batch: {conflicting_people}."
+        )
+    other_members = sorted(
+        person_id
+        for person_id, assigned_batch in assigned.items()
+        if assigned_batch == batch_name and person_id not in person_ids
+    )
+    if other_members:
+        raise ValueError(
+            f"Batch name already contains person(s) outside this row range: {other_members}."
+        )
+
+    now = utc_now()
+    with connection:
+        connection.executemany(
+            """
+            UPDATE research_queue
+            SET assigned_batch = ?, protocol_version = ?, updated_at = ?
+            WHERE person_id = ? AND assigned_batch IS NULL
+            """,
+            (
+                (batch_name, RESEARCH_PROTOCOL_VERSION, now, person_id)
+                for person_id in person_ids
+            ),
+        )
+    return {
+        "batch_name": batch_name,
+        "source_page": source_page,
+        "first_row": first_row,
+        "last_row": last_row,
+        "source_rows": len(found_rows),
+        "person_entities": len(person_ids),
+        "newly_assigned_people": sum(assigned[person_id] is None for person_id in person_ids),
+        "person_ids": person_ids,
+    }
 
 
 def create_stratified_pilot(

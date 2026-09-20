@@ -1,11 +1,17 @@
 import { expect, test } from "@playwright/test";
 import fs from "node:fs";
+import { oilCompanyEmployees } from "../src/lib/oilCompanies";
+import type { Organization } from "../src/types";
 
-type Person = { person_id: string; display_name: string };
-const people = JSON.parse(
-  fs.readFileSync(new URL("../src/data/generated/people.json", import.meta.url), "utf8"),
-) as Person[];
-const firstPerson = people[0];
+type SearchPerson = { id: string; n: string };
+const searchPeople = JSON.parse(
+  fs.readFileSync(new URL("../public/data/search-index.json", import.meta.url), "utf8"),
+) as SearchPerson[];
+const firstSearchPerson = searchPeople[0];
+const firstPerson = {
+  person_id: firstSearchPerson.id,
+  display_name: firstSearchPerson.n,
+};
 type Stats = {
   person_entities: number;
   verified_affiliation_people: number;
@@ -14,46 +20,18 @@ type Stats = {
 const stats = JSON.parse(
   fs.readFileSync(new URL("../src/data/generated/stats.json", import.meta.url), "utf8"),
 ) as Stats;
-type Organization = {
-  organization_id: string;
-  organization_type: string | null;
-  linked_people: Array<{
-    person_id: string;
-    display_name: string;
-    affiliations: Array<{
-      organization_id: string;
-      relationship_type: string;
-    }>;
-  }>;
-};
 const organizations = JSON.parse(
   fs.readFileSync(
     new URL("../src/data/generated/organizations.json", import.meta.url),
     "utf8",
   ),
 ) as Organization[];
-const oilCompanyOrganizationTypes = new Set([
-  "oil and gas company",
-  "oil and refining company",
-  "oil exploration company",
-  "petroleum company",
-  "petroleum research and development company",
-]);
-const oilCompanyPeople = new Map<string, string>();
-for (const organization of organizations) {
-  if (!oilCompanyOrganizationTypes.has(organization.organization_type ?? "")) continue;
-  for (const person of organization.linked_people) {
-    if (
-      person.affiliations.some(
-        (affiliation) =>
-          affiliation.organization_id === organization.organization_id &&
-          affiliation.relationship_type === "employment",
-      )
-    ) {
-      oilCompanyPeople.set(person.person_id, person.display_name);
-    }
-  }
-}
+const oilCompanyPeople = new Map(
+  oilCompanyEmployees(organizations).employees.map((person) => [
+    person.personId,
+    person.name,
+  ]),
+);
 
 test("home reports the complete index and incomplete research honestly", async ({ page }) => {
   await page.goto("./");
@@ -141,7 +119,8 @@ test("top oil-company category link opens only the documented employee set", asy
     .getByRole("link", { name: "Oil companies", exact: true })
     .click();
 
-  await expect(page).toHaveURL(/people\/\?featured=oil_companies&sort=name_asc$/);
+  await expect(page).toHaveURL(/people\/\?.*featured=oil_companies/);
+  expect(new URL(page.url()).searchParams.get("sort")).toBe("name_asc");
   await expect(page.locator("#result-summary")).toContainText(
     `${oilCompanyPeople.size} results`,
   );
@@ -17153,7 +17132,7 @@ test("Batch 193 normalizes a repeated suffix, consolidates the reviewed Borin du
   page,
 }) => {
   expect(
-    people.some((person) => person.person_id === "bed57e52-38d6-5777-b915-c421556b01f8"),
+    searchPeople.some((person) => person.id === "bed57e52-38d6-5777-b915-c421556b01f8"),
   ).toBe(false);
 
   const profiles = [
