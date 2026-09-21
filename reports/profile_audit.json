@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T12:12:21+00:00",
+  "generated_at": "2026-09-21T15:28:33+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -17,12 +17,12 @@
     "commissioned_coast_guard_officer": 1,
     "commissioned_marine_corps_officer": 4,
     "commissioned_naval_officer": 4,
-    "enlisted_army_personnel": 21,
+    "enlisted_army_personnel": 22,
     "enlisted_marine_corps_personnel": 4,
     "enlisted_naval_personnel": 4,
     "foreign_or_allied_military_personnel": 15,
     "temporary_contract_or_special_personnel": 4,
-    "unknown_or_indeterminate": 103,
+    "unknown_or_indeterminate": 102,
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
@@ -32,15 +32,15 @@
     "4": 36
   },
   "identity_status_counts": {
-    "ambiguous": 23,
+    "ambiguous": 24,
     "confirmed": 6,
     "conflicting": 11,
     "high_confidence": 23,
     "probable": 4,
-    "unresolved": 133
+    "unresolved": 132
   },
   "research_status_counts": {
-    "candidate_found": 2,
+    "candidate_found": 1,
     "completed": 4,
     "conflicting_sources": 9,
     "documented_prewar_employer_found": 2,
@@ -48,7 +48,7 @@
     "needs_identity_review": 10,
     "needs_temporal_review": 2,
     "no_reliable_result_after_protocol": 1,
-    "not_started": 113,
+    "not_started": 114,
     "occupation_only_found": 6,
     "requires_archival_review": 30,
     "verified_employer_found": 8
@@ -56,14 +56,14 @@
   "special_strata_counts": {
     "commissioned": 28,
     "civilian": 20,
-    "enlisted": 29,
+    "enlisted": 30,
     "allied_or_foreign": 20,
     "incomplete_or_initial_only_name": 20,
     "possible_duplicate_group": 30,
     "confirmed_or_high_published_claim": 31,
     "medium_published_claim": 14,
     "conflicting_published_claim": 10,
-    "unresolved_identity": 133
+    "unresolved_identity": 132
   },
   "unavailable_strata": {
     "women": "The index has no sex/gender field; the project does not infer gender from names. This stratum requires sourced identity research."
@@ -207,6 +207,8 @@
     "c7b2f044-9e84-5e2e-8eaa-cba01581d249",
     "b289289f-9647-52ff-b40c-93d9dee810f1",
     "7afed1a2-15b6-5b8b-a16d-f4173efc613d",
+    "a97af1de-b812-5bba-b897-a138910b7a3f",
+    "9ae3efad-663b-59c3-b3cb-62a73c131500",
     "d7c03613-c5e1-5938-ba61-e2e48cd4941b",
     "dd445e77-9239-566e-843e-1d3b6cd9a7dc",
     "13051a30-2f51-5f02-9d4c-37a51314fc99",
@@ -229,8 +231,6 @@
     "67f4a576-c8d1-5803-873b-4fd38dd6b516",
     "faa590d7-cc71-5602-a8f8-516ea5b54623",
     "facc664d-c5b6-5f57-b41a-2ddae929f925",
-    "ec6d0e25-eb95-53c5-95cc-6f2e34a7533d",
-    "10ad95f6-d07e-5590-9b31-c7561d6d0542",
     "5973e9b9-4412-53fc-93d6-c9925bed1a90",
     "e9894de3-592a-5ab3-b5f3-56ea67909531",
     "cc806144-a526-5ecf-9b71-bab279bfcdf4",

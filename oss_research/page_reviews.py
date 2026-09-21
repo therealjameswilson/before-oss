@@ -144,6 +144,8 @@ def import_page_reviews(
                     notes = ?
                 WHERE source_pdf_sha256 = ?
                   AND source_page IN ({matching_placeholders})
+                  AND COALESCE(visual_review_status, 'not_selected')
+                      <> 'reviewed_after_correction'
                 """,
                 (
                     bundle.reviewer,
@@ -159,6 +161,8 @@ def import_page_reviews(
                 SET visual_review_status = 'reviewed_matches'
                 WHERE source_pdf_sha256 = ?
                   AND source_page IN ({matching_placeholders})
+                  AND COALESCE(visual_review_status, 'not_reviewed')
+                      <> 'reviewed_corrected'
                 """,
                 (bundle.source_pdf_sha256, *matching_pages),
             )
