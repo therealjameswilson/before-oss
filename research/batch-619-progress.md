@@ -57,6 +57,20 @@ The public projection has **2,224** affiliations, **708** organizations,
 supported, incomplete evidence set of **seven** people across nine companies.
 Full-index historical research is unfinished.
 
+## Local release validation
+
+The clean tracked-only release candidate passed 126 Python unit tests, a
+200-profile deterministic structural audit, and 81 bounded Playwright tests
+(including 30 accessibility cases with no serious or critical axe findings).
+Astro reported zero errors, warnings, or hints and emitted 24,681 HTML pages
+among 24,753 total artifacts. All internal links resolved. The public-
+identifier audit found no unexpected matches, aggregate false positives, or
+manifest-size false positives. Two clean production builds produced the same
+24,753-file tree SHA-256:
+`1f836e027bda9dc6144bf421d2fb75be0f3cf109b98a44e0551dd52e61735d58`.
+The 67-asset release manifest covers 98,003,514 bytes and has SHA-256
+`4ef376c64439bef98ce651dffc2c4810d26ca4aa1356cb65d3433ce3e3cd7ec3`.
+
 ## Replay and continuation
 
 After importing the prior durable batches into private SQLite:
