@@ -36,12 +36,13 @@ contains 12, for a total of 23,978. Visual selection includes:
 - every parser-warning page;
 - every anomalous row-count page.
 
-One hundred sixty-six pages have durable, replayable visual decisions. The
-current audit rules select 92 of them; seventy-four additional pages are also
-reviewed. Three hundred fifty-six pages still await individual visual comparison.
-Page 136 was rechecked in batch 604, and page 184 received complete-page review
-in batch 611 after already entering the ledger through a row-specific parser
-warning, so neither recheck increased distinct-page coverage. Twenty-three values
+One hundred seventy-five pages have durable, replayable visual decisions. The
+current audit rules select 92 of them; eighty-three additional pages are also
+reviewed. Three hundred forty-seven pages still await individual visual comparison.
+Pages 136 and 207 were rechecked in batches 604 and 613. Page 184 received
+complete-page review in batch 611 after already entering the ledger through a
+row-specific parser warning. Those rechecks did not increase distinct-page
+coverage. Twenty-three values
 are printed in the table's `M I` column while their rank cells are blank: six
 civilian grades and seventeen military grades. Their raw cells remain
 unchanged. The normalized names omit the displaced grade, the normalized rank
