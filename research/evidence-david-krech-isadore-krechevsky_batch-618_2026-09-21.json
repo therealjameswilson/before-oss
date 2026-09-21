@@ -1,0 +1,247 @@
+{
+  "bundle_version": "2026-09-21-batch-618-krech-v1",
+  "reviewer": "Before OSS research pipeline",
+  "sources": [
+    {
+      "key": "index-b618-david-krech-isadore-krechevsky",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 420",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 258 rows 42 and 44; David Krech and Isadore Krechevsky; rendered at 180 dpi and visually inspected; Box 420; location 230/86/34/06",
+      "access_date": "2026-09-21",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "The public citation retains both immutable indexed names, the box, and archival location. David Krech's row contains a private identifier that remains restricted and is not reproduced. The index establishes personnel-file entries but not pre-OSS employment."
+    },
+    {
+      "key": "graz-frenkel-brunswik-krech-alias-b618",
+      "stable_url": "https://agso.uni-graz.at/wp-content/uploads/2021/12/025_Frenkel_Brunswik_Else_Katalog.pdf",
+      "archival_identifier": "Nachlass Else Frenkel-Brunswik, Signatur 25/1.52",
+      "title": "Katalog Nachlass Else Frenkel-Brunswik",
+      "author_creator": "Archiv für die Geschichte der Soziologie in Österreich",
+      "repository_publisher": "Universität Graz",
+      "publication_record_date": "2022",
+      "locator": "PDF physical page 22, Signatur 25/1.52; David Krech name chronology",
+      "access_date": "2026-09-21",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Nachlass Else Frenkel-Brunswik",
+      "rights_notes": "Institutional archival finding aid used to resolve the documented name chronology. The project retains citation metadata, one short excerpt, and project-authored assessments rather than republishing the page."
+    },
+    {
+      "key": "iess-krech-biography-b618",
+      "stable_url": "https://web.mit.edu/morrishalle/pubworks/papers/1979_Halle_Biographical_Supplement_Roman_Jakobson_International_Encyclopedia_of_the_Social_Sciences.pdf",
+      "archival_identifier": "International Encyclopedia of the Social Sciences, volume 18, pp. 391-393",
+      "title": "David Krech",
+      "author_creator": "Lewis Petrinovich; David L. Sills, editor",
+      "repository_publisher": "The Free Press, a division of Macmillan Publishing Co.; scan hosted by MIT",
+      "publication_record_date": "1979",
+      "locator": "Volume 18, printed pages 391-393; PDF physical pages 431-433; birth name, Swarthmore teaching, 1942 Army draft, and OSS assessment-station assignment",
+      "access_date": "2026-09-21",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "International Encyclopedia of the Social Sciences: Biographical Supplement",
+      "document_number": "ISBN 0-02-895510-2",
+      "rights_notes": "Copyrighted scholarly reference work. The project stores citation metadata, short evidence excerpts within the public quotation limit, and project-authored paraphrases; it does not redistribute the PDF."
+    },
+    {
+      "key": "uc-berkeley-krech-memorial-b618",
+      "stable_url": "https://digicoll.lib.berkeley.edu/record/81146/files/inmemoriam1978.pdf",
+      "archival_identifier": "University of California: In Memoriam, September 1978, pp. 99-101",
+      "title": "David Krech, Psychology: Berkeley, 1909-1977, Professor Emeritus",
+      "author_creator": "Edwin E. Ghiselli; Frank A. Beach; A. G. Pickerell; Mark R. Rosenzweig",
+      "repository_publisher": "University of California, Academic Senate; UC Berkeley Library",
+      "publication_record_date": "1978-09",
+      "locator": "Printed pages 99-100; 1937 Swarthmore research assistantship, 1938 University of Colorado faculty appointment, intervening nonacademic work, Army entry, and OSS assignment",
+      "access_date": "2026-09-21",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "University of California: In Memoriam",
+      "rights_notes": "Official institutional memorial. The project retains citation metadata, short evidence excerpts, and project-authored paraphrases rather than republishing the memorial."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "swarthmore-college-b618-krech",
+      "canonical_name": "Swarthmore College",
+      "historical_name": "Swarthmore College",
+      "aliases": [],
+      "organization_type": "college",
+      "sector": "academia_and_research",
+      "city": "Swarthmore",
+      "state_or_region": "Pennsylvania",
+      "country": "United States",
+      "normalization_notes": "The historical institution name is preserved directly. This organization already exists in the canonical organization register and is reused rather than duplicated."
+    },
+    {
+      "key": "university-colorado-b618-krech",
+      "canonical_name": "University of Colorado",
+      "historical_name": "University of Colorado",
+      "aliases": ["University of Colorado at Boulder"],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Boulder",
+      "state_or_region": "Colorado",
+      "country": "United States",
+      "normalization_notes": "The 1938 institutional wording is retained as the canonical historical name. The present campus designation is stored only as an alias and is not substituted into the claim."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "david-krech-swarthmore-b618",
+      "person_id": "dcda092a-a3c2-5d38-8677-94a9083a5844",
+      "organization_key": "swarthmore-college-b618-krech",
+      "organization_name_as_found": "Swarthmore College",
+      "role_title": "Research assistant to Wolfgang Köhler",
+      "occupation": "psychologist and research assistant",
+      "relationship_type": "employment",
+      "start_date": "1937",
+      "end_date": "1938",
+      "date_precision": "The University of California memorial dates Krech's move to Swarthmore to 1937 and his subsequent University of Colorado appointment to 1938. The encyclopedia independently describes the Swarthmore teaching period but does not supply exact months.",
+      "city": "Swarthmore",
+      "state_or_region": "Pennsylvania",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "This is documented earlier pre-OSS employment. The institutional memorial explicitly reports later University of Colorado and nonacademic work, so Swarthmore is not labeled immediate or last civilian employment."
+    },
+    {
+      "key": "david-krech-university-colorado-b618",
+      "person_id": "dcda092a-a3c2-5d38-8677-94a9083a5844",
+      "organization_key": "university-colorado-b618-krech",
+      "organization_name_as_found": "University of Colorado",
+      "role_title": "Faculty member",
+      "occupation": "psychologist and university teacher",
+      "relationship_type": "employment",
+      "start_date": "1938",
+      "end_date": "1939",
+      "date_precision": "The University of California memorial says Krech was appointed to the faculty in 1938 and left at the end of one year. Exact appointment and departure dates are not supplied.",
+      "city": "Boulder",
+      "state_or_region": "Colorado",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "This is documented earlier pre-OSS employment. The memorial reports later unidentified nonacademic jobs and pre-Army survey work, so the university is not labeled the immediate predecessor or last civilian employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "david-krech-isadore-krechevsky-identity-b618",
+      "person_id": "dcda092a-a3c2-5d38-8677-94a9083a5844",
+      "claim_type": "identity",
+      "claim_text": "The David Krech and Isadore Krechevsky entries in OSS personnel Box 420 represent the same psychologist under his documented later and earlier names.",
+      "evidence_excerpt": "1913 bis 1943: Isadore Krechevsky (1909–1977)",
+      "evidence_paraphrase": "The University of Graz archival finding aid explicitly gives Isadore Krechevsky as David Krech's name from 1913 through 1943, while a scholarly biography connects both names to Army and OSS service.",
+      "identity_match_assessment": "High confidence from the two immutable same-box index rows, the institutional archival finding aid's explicit name chronology, and a scholarly biography that independently gives the birth name and OSS assignment.",
+      "temporal_assessment": "The finding aid dates the Isadore Krechevsky name through 1943; the 1979 biography says the change to David Krech occurred during his 1942 Army and OSS period.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "A reviewed entity-merge decision links both immutable rows to the David Krech person entity. The merge is based on direct alias chronology and OSS biography, not on name resemblance alone.",
+      "sources": [
+        {"source_key":"index-b618-david-krech-isadore-krechevsky","support_type":"context_only","locator_override":"PDF page 258 rows 42 and 44; Box 420","excerpt_override":"KRECH DAVID; KRECHEVSKY ISADORE"},
+        {"source_key":"graz-frenkel-brunswik-krech-alias-b618","support_type":"supports","locator_override":"PDF physical page 22, Signatur 25/1.52","excerpt_override":"1913 bis 1943: Isadore Krechevsky (1909–1977)"},
+        {"source_key":"iess-krech-biography-b618","support_type":"supports","locator_override":"Printed page 391; PDF physical page 431","excerpt_override":"David Krech was born Isadore Krechevsky in 1909."}
+      ]
+    },
+    {
+      "key": "david-krech-oss-assignment-b618",
+      "person_id": "dcda092a-a3c2-5d38-8677-94a9083a5844",
+      "claim_type": "identity",
+      "claim_text": "After being drafted into the U.S. Army in 1942, David Krech was assigned to an OSS assessment station under Henry A. Murray.",
+      "evidence_excerpt": "drafted into the U.S. Army and assigned to the Office of Strategic Services' assessment station",
+      "evidence_paraphrase": "The scholarly biographical supplement directly places Krech's 1942 Army service in the OSS assessment program, corroborating the index identity.",
+      "identity_match_assessment": "High confidence because the biography gives both Krech and Krechevsky names and the two names appear together in OSS personnel Box 420.",
+      "temporal_assessment": "The source explicitly dates the Army draft and OSS assignment to 1942.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This wartime assignment supports identity resolution. It is not presented as a civilian employer or as evidence of the employer immediately before OSS.",
+      "sources": [
+        {"source_key":"iess-krech-biography-b618","support_type":"supports","locator_override":"Printed page 391; PDF physical page 431","excerpt_override":"drafted into the U.S. Army and assigned to the Office of Strategic Services' assessment station"},
+        {"source_key":"uc-berkeley-krech-memorial-b618","support_type":"supports","locator_override":"Printed page 100; Army entry and OSS assignment"},
+        {"source_key":"index-b618-david-krech-isadore-krechevsky","support_type":"context_only","locator_override":"PDF page 258 rows 42 and 44; Box 420"}
+      ]
+    },
+    {
+      "key": "david-krech-swarthmore-b618",
+      "person_id": "dcda092a-a3c2-5d38-8677-94a9083a5844",
+      "affiliation_key": "david-krech-swarthmore-b618",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "In 1937 David Krech worked at Swarthmore College as Wolfgang Köhler's research assistant.",
+      "evidence_excerpt": "In 1937 he went to Swarthmore College as a research assistant",
+      "evidence_paraphrase": "The University of California memorial dates and names the Swarthmore role; the scholarly encyclopedia independently describes his brief Swarthmore teaching period.",
+      "identity_match_assessment": "High confidence because both biographical sources identify the same psychologist, and the alias and OSS chronology independently bridge him to both Box 420 index rows.",
+      "temporal_assessment": "Documented prewar employment in 1937, followed by University of Colorado employment and later nonacademic jobs; not immediate pre-OSS employment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The role is published as earlier documented employment only. Education, later appointments, and postwar work are not used as substitutes for this named prewar employer.",
+      "sources": [
+        {"source_key":"uc-berkeley-krech-memorial-b618","support_type":"supports","locator_override":"Printed page 100; 1937 chronology","excerpt_override":"In 1937 he went to Swarthmore College as a research assistant"},
+        {"source_key":"iess-krech-biography-b618","support_type":"supports","locator_override":"Printed page 391; PDF physical page 431; Swarthmore chronology"}
+      ]
+    },
+    {
+      "key": "david-krech-university-colorado-b618",
+      "person_id": "dcda092a-a3c2-5d38-8677-94a9083a5844",
+      "affiliation_key": "david-krech-university-colorado-b618",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "David Krech served on the University of Colorado faculty from 1938 until approximately 1939.",
+      "evidence_excerpt": "in 1938 he was appointed to the faculty of the University of Colorado",
+      "evidence_paraphrase": "The University of California memorial says Krech joined the faculty in 1938 and left at the end of one year.",
+      "identity_match_assessment": "High confidence because the memorial's continuous biography aligns with the institutional alias finding aid and the scholarly OSS biography.",
+      "temporal_assessment": "Documented prewar employment beginning in 1938 and lasting one year; later nonacademic jobs mean it cannot be labeled immediate or last civilian employment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The historical institution name is preserved. The claim does not infer a department, title beyond faculty member, or direct transition to OSS.",
+      "sources": [
+        {"source_key":"uc-berkeley-krech-memorial-b618","support_type":"supports","locator_override":"Printed page 100; 1938 faculty appointment","excerpt_override":"in 1938 he was appointed to the faculty of the University of Colorado"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "dcda092a-a3c2-5d38-8677-94a9083a5844",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The University of Graz archival finding aid explicitly documents Isadore Krechevsky as David Krech's name from 1913 through 1943. The two names are indexed in adjacent Box 420 rows, and the 1979 scholarly biography identifies the same psychologist by both names and places his 1942 Army service in OSS.",
+      "name_variants": ["David Krech", "Isadore Krechevsky", "Yitzhok-Eizik Krechevsky"],
+      "manual_review_required": false,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 420 and Krech's 1974 autobiography to identify the nonacademic jobs and the precise organization behind the pre-Army attitude-survey work. Until then, no immediate pre-OSS affiliation or last civilian employer is asserted.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b618-david-krech-isadore-krechevsky-review",
+      "person_id": "dcda092a-a3c2-5d38-8677-94a9083a5844",
+      "source_adapter": "reviewed_web",
+      "query_text": "David Krech Isadore Krechevsky OSS prewar employer Swarthmore University Colorado War Office institutional archive",
+      "query_variant_type": "alias_identity_official_institutional_employment_review",
+      "started_at": "2026-09-21T14:10:00Z",
+      "completed_at": "2026-09-21T14:38:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Discovery-only biographies were not used. A University of Michigan survey-program paper overlaps the wartime period but does not establish the immediate pre-OSS chronology. The University of California memorial's phrase 'War Office' is too imprecise to normalize to a particular organization, and its later unnamed nonacademic jobs prevent Swarthmore or the University of Colorado from being labeled the last civilian employer.",
+      "research_notes": "Accepted evidence resolves the David Krech and Isadore Krechevsky alias at high confidence and documents two earlier prewar academic employers. The institutional memorial explicitly reports later unidentified nonacademic jobs and attitude-survey work before Army entry. Because the exact employer and sequence remain unclear, the immediate pre-OSS affiliation and last civilian employer remain unresolved rather than inferred.",
+      "next_action": "Review Box 420 and Krech's 1974 autobiography for the unnamed nonacademic jobs, pre-Army attitude-survey employer, exact Army entry date, and OSS assignment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/batch-618-v1"
+    }
+  ]
+}
