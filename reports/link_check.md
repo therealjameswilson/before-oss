@@ -1,5 +1,19 @@
 # Link check
 
+Batch 607 local validation, 2026-09-21 UTC: all internal links resolve
+across **24,694** locally built HTML files, including the Farish and
+Amiranian pages, separate duplicate-candidate profiles, and the seven-person
+oil-company workers category. An unrelated untracked duplicate Sources
+route adds 25 local-only pages and is excluded from the clean release. The
+checker inventoried **50,228** unique external URLs; it did not request
+every target. The public-identifier audit compared **12,926** normalized
+identifiers and **120** variants against **24,766** public artifacts, with
+zero unexpected full-number boundary matches. The local public manifest
+verified **67** assets and **97,422,120** bytes at SHA-256
+`8a41395f54765746fe1ceeaf2f15891ad23a5d85c0e7c00852f4dfb46146de79`.
+Clean CI, Pages deployment, and live exact-file verification remain
+separate release checks.
+
 Batch 606 local validation, 2026-09-21 UTC: all internal links resolve
 across **24,693** locally built HTML files, including the newly qualified
 Fairbank profile, both separate Ruth E Evans profiles, and the seven-person

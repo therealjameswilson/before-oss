@@ -1,5 +1,32 @@
 # Research status
 
+Batch 607 visually checked all **460** printed rows on PDF pages 141–150,
+bringing the distinct ledger to **121/522 pages**; **401** remain. Eight
+new possible-duplicate/variant groups remain unmerged. The printed `Cmdr`
+classification was fixed conservatively for **8** source rows and **7**
+person entities without changing printed cells or manual decisions. A
+bounded LoC first pass completed **128** searches across the remaining
+page-139 and full page-140/141 queues, saving **54** unreviewed discovery
+leads. A [1937 State Department despatch](https://history.state.gov/historicaldocuments/frus1937v02/d592)
+supports only a qualified earlier Amiranian Oil Company *representation*
+for [Linn M Farish](https://therealjameswilson.github.io/before-oss/people/c9356a0e-8474-5f03-a634-0bff4555e069/),
+not proved employment or immediate predecessor status. The top oil-company
+workers category remains **seven** people with cited work claims. See
+`research/batch-607-progress.md`. No authenticated NARA Catalog request was
+made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,940** active
+people. Research-attempt coverage is **6,684/23,940 (27.9198%)**;
+verified-employer coverage is **271/23,940 (1.1320%)**; verified-affiliation
+coverage is **617/23,940 (2.5773%)**; archival-review coverage is
+**5,786/23,940 (24.1688%)**. There are **17,256** `not_started` people and
+**289** possible-duplicate groups. SQLite retains **11,733** attempts or
+plans and **4,868** claims: 1,311 confirmed, 1,868 high, 1,372 medium,
+185 low, and 132 conflicting. It has **5,009** source/citation records and
+**2,337** unique source-document keys. The public projection has **2,205**
+affiliations, **695** organizations, **3,806** sources, and **4,679** claims.
+Full-index historical research remains unfinished.
+
 Batch 606 visually checked all **138 printed rows** on PDF pages 138–140,
 bringing the distinct ledger to **111/522 pages**; **411** remain. The
 page-138 and first page-139 LoC batches completed **54** bounded,

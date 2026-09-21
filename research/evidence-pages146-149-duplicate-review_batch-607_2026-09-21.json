@@ -1,0 +1,96 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 607 original-index variant review",
+  "person_updates": [
+    {
+      "person_id": "8f1b7780-7318-52a1-ab11-a38de9f86606",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Original NARA index page 146 rows 16-17 lists Harry A Finney and Harry Alvin Finney in Box 235. One row has a private identifier and the other does not. A middle-name expansion is plausible but not established by the index.",
+      "possible_duplicate_group": "p146-harry-finney-b607",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 235 files and their identifiers before merging or assigning pre-OSS work across the two entries.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0db5945b-0bf7-59ba-a65d-dfb452ff1d2a",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Original NARA index page 146 rows 16-17 lists Harry A Finney and Harry Alvin Finney in Box 235. Only one row includes a private identifier; the two entities remain separate until direct file evidence resolves the possible variant.",
+      "possible_duplicate_group": "p146-harry-finney-b607",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 235 files and their identifiers before merging or assigning pre-OSS work across the two entries.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0330dbbe-a34e-588c-af63-605709e5b531",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Original NARA index page 147 rows 21-22 lists John Fistere and John C Fistere in Box 237, without a printed private identifier for either. Name and shared box alone do not establish a duplicate.",
+      "possible_duplicate_group": "p147-john-fistere-b607",
+      "manual_review_required": true,
+      "next_action": "Inspect both Box 237 files for distinct biographical or service identifiers before linking the entries.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2da46ba7-035e-5418-b29a-0a62277b1b0f",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Original NARA index page 147 rows 21-22 lists John Fistere and John C Fistere in Box 237, with no printed private identifier. The initial may be omitted in one row, but the source alone cannot prove it.",
+      "possible_duplicate_group": "p147-john-fistere-b607",
+      "manual_review_required": true,
+      "next_action": "Inspect both Box 237 files for distinct biographical or service identifiers before linking the entries.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "cdc0e25e-2c5e-5456-9d58-8b593ae4c1bf",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Original NARA index page 148 rows 30 and 40 lists Brooks K Fleming in Box 239 and Brooks K Flemming in Box 240. The spelling variation could be a duplicate or distinct people; only the first has a printed private identifier.",
+      "possible_duplicate_group": "p148-brooks-k-fleming-flemming-b607",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 239 and 240 and the spelling used in underlying files before merging or borrowing an employer claim.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0fff9ca4-70bb-58bf-85e7-9e9a7e6ede78",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Original NARA index page 148 rows 30 and 40 lists Brooks K Fleming and Brooks K Flemming in adjacent boxes. The single-letter variation and same initials are a lead, not sufficient identity proof.",
+      "possible_duplicate_group": "p148-brooks-k-fleming-flemming-b607",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 239 and 240 and the spelling used in underlying files before merging or borrowing an employer claim.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b1e13c51-1b05-5ae0-aac2-fa21d3fd01c2",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Original NARA index page 148 rows 36 and 41 lists John E Fleming and John E Flemming, both in Box 240. Only the latter has a printed private identifier; the spelling variant may or may not denote one person.",
+      "possible_duplicate_group": "p148-john-e-fleming-flemming-b607",
+      "manual_review_required": true,
+      "next_action": "Review both Box 240 files for name, service, and biographical evidence before resolving the variant.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "671174b8-6874-5f12-9f07-db81099d7b9a",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Original NARA index page 148 rows 36 and 41 lists John E Fleming and John E Flemming in Box 240. The private identifier appears on only one row. Similar spelling and box are not direct duplicate evidence.",
+      "possible_duplicate_group": "p148-john-e-fleming-flemming-b607",
+      "manual_review_required": true,
+      "next_action": "Review both Box 240 files for name, service, and biographical evidence before resolving the variant.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "86241af9-6074-5d40-9840-75f1963ad236",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Original NARA index page 149 rows 6-7 repeats Andre Fleuridas, but places the entries in Boxes 241 and 240 and prints a private identifier on only one. The two source rows and person entities remain separate.",
+      "possible_duplicate_group": "p149-andre-fleuridas-b607",
+      "manual_review_required": true,
+      "next_action": "Compare both archived files and their identifiers before deciding whether the duplicated name crosses boxes.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8bdef67d-8600-5ea2-aae1-ce7f5e99aef8",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Original NARA index page 149 rows 6-7 repeats Andre Fleuridas in different boxes, one with a private identifier and one without. A same-name match alone cannot settle identity.",
+      "possible_duplicate_group": "p149-andre-fleuridas-b607",
+      "manual_review_required": true,
+      "next_action": "Compare both archived files and their identifiers before deciding whether the duplicated name crosses boxes.",
+      "archival_review_priority": "high"
+    }
+  ]
+}

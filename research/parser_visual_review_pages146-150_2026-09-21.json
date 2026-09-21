@@ -1,0 +1,8 @@
+{
+  "bundle_version": "parser-visual-review-v1",
+  "source_pdf_sha256": "7268492342ab131d3b6d2697cfa4f6856cbdcd16e0ed3877e8d6a0478f58c02b",
+  "reviewer": "Codex pages 146-150 visual audit",
+  "matching_pages_reviewed_at": "2026-09-21T02:59:00Z",
+  "matching_pages_notes": "Original PDF pages 146-150 were rendered at 180 dpi. All 230 printed rows were compared with immutable source records for row order, names and initials, rank, private-identifier column occupancy, box, notes, and archival location. No extraction correction was needed. Page 146 retains two Harry Finney forms in Box 235 and two James Fischer rows with different private identifiers in Box 236. Page 147 retains the John/John C Fistere pair and clipped rank and ASN notes exactly as printed. Page 148 retains the identical Harry Flater rows as two source records linked to the existing single high-confidence entity through the shared indexed name and private identifier; Brooks K Fleming/Flemming and John E Fleming/Flemming remain separate entities pending identity review. Page 149 retains two Andre Fleuridas rows with different boxes and two James A Fogarty rows with different private identifiers; it preserves the Belgian note for Francois Flour. Page 150 keeps truncated printed names and notes, and the unusual Ford John row with rank Cmdr and USNR printed in the serial column, without reinterpreting the immutable raw cell. The latter exposes a rank-classification gap for a separate normalization fix. Private identifiers are not included in this review bundle or public assets.",
+  "reviewed_matching_pages": [146, 147, 148, 149, 150]
+}
