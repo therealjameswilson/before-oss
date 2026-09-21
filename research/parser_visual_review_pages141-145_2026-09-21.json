@@ -1,0 +1,8 @@
+{
+  "bundle_version": "parser-visual-review-v1",
+  "source_pdf_sha256": "7268492342ab131d3b6d2697cfa4f6856cbdcd16e0ed3877e8d6a0478f58c02b",
+  "reviewer": "Codex pages 141-145 visual audit",
+  "matching_pages_reviewed_at": "2026-09-21T02:49:00Z",
+  "matching_pages_notes": "Original PDF pages 141-145 were rendered at 180 dpi. All 230 printed rows were compared with the immutable source records for row order, name and initial cells, rank, private-identifier column occupancy, box, notes, and location; no parser correction was needed. Page 141 keeps the out-of-order Boxes 226 and 230 and the printed CMP/CMP 2n abbreviations. Page 142 has two Roger Faucher rows, two Robert W Feeney rows, and two Leon Feldman rows; none is merged. Its Sidney Feinstein note is clipped as 'ASN 321' and is not expanded. Several names appear partly clipped by cell boundaries in the rendering; pdftotext -layout confirms the embedded text strings Roger Faucher, Frances Fearseth, Robert Fellner, Marjorie Nellie Felton, and Wesley Eugen Fesler. Page 143 keeps both Milton Felsen rows and the printed switch to archive location 230/86/31/01 at row 32; the first row's '1st Lt., 2' rank remains truncated. Page 144 preserves 'French' and 'Italian P' exactly in rank cells rather than inventing ranks; its two Frank Ferrara rows have distinct private identifiers. Page 145 preserves Field Fay R at Box 230 and Fiend Miles D at Box 252/location 230/86/31/03 despite their out-of-sequence placement. The PDF contains service identifiers that remain private in the research database and masked in public assets.",
+  "reviewed_matching_pages": [141, 142, 143, 144, 145]
+}

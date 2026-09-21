@@ -24,6 +24,7 @@ from .review import import_review_decisions
 from .evidence import import_reviewed_evidence
 from .checkpoints import export_adapter_checkpoints, import_adapter_checkpoints
 from .page_reviews import import_page_reviews
+from .classification import refresh_unknown_classifications
 
 
 def _path(value: str) -> Path:
@@ -65,6 +66,11 @@ def parser() -> argparse.ArgumentParser:
     validate.add_argument("--render-selected", action="store_true")
 
     sub.add_parser("build-identities")
+    refresh_classifications = sub.add_parser(
+        "refresh-classifications",
+        help="Conservatively upgrade unknown rank categories after rule changes",
+    )
+    refresh_classifications.add_argument("--dry-run", action="store_true")
     pilot = sub.add_parser("create-pilot")
     pilot.add_argument("--size", type=int, default=75)
     pilot.add_argument("--batch-name", default="pilot-v1")
@@ -215,6 +221,18 @@ def main(argv: list[str] | None = None) -> int:
                 processed=result["source_rows"],
                 succeeded=result["source_rows_linked"],
                 warnings=result["automatic_duplicate_groups"],
+            )
+        elif args.command == "refresh-classifications":
+            result = refresh_unknown_classifications(
+                connection, dry_run=args.dry_run
+            )
+            finish_run(
+                connection,
+                run,
+                status="completed",
+                processed=result["source_rows_reclassified"],
+                succeeded=result["source_rows_reclassified"],
+                checkpoint={"dry_run": args.dry_run},
             )
         elif args.command == "create-pilot":
             result = create_stratified_pilot(

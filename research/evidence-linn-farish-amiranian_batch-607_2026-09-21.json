@@ -1,0 +1,131 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 607 Farish prewar oil-company affiliation review",
+  "sources": [
+    {
+      "key": "b607-nara-index-p141-linn-farish",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 228",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 141, row 4; Farish, Linn M; Major; Box 228; visually checked against rendered page",
+      "access_date": "2026-09-21",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "The index locates a personnel file but does not give Farish's prior employer."
+    },
+    {
+      "key": "b607-frus1937-v2-d592-farish",
+      "stable_url": "https://history.state.gov/historicaldocuments/frus1937v02/d592",
+      "archival_identifier": "FRUS 1937, Volume II, Document 592; 661.00251/4; despatch No. 532",
+      "title": "The Chargé in the Soviet Union (Henderson) to the Secretary of State",
+      "author_creator": "Lot W. Henderson",
+      "repository_publisher": "Office of the Historian, U.S. Department of State",
+      "publication_record_date": "1937-09-03",
+      "locator": "Pages 751-758, especially page 753, paragraph beginning 'On July 17, 1937' and subsequent references to Farish's company",
+      "access_date": "2026-09-21",
+      "source_quality": "A_direct_official",
+      "collection_name": "Foreign Relations of the United States, Diplomatic Papers, 1937, Volume II",
+      "document_number": "592",
+      "rights_notes": "Contemporary U.S. diplomatic despatch; concise excerpt only. It calls Farish a company representative, not explicitly an employee."
+    },
+    {
+      "key": "b607-cia-peake-farish-2010",
+      "stable_url": "https://www.cia.gov/resources/csi/static/Intel-Officers-Bookshelf-54.4.pdf",
+      "title": "Intelligence in Recent Public Literature: The Intelligence Officer's Bookshelf",
+      "author_creator": "Hayden B. Peake",
+      "repository_publisher": "Studies in Intelligence, Central Intelligence Agency",
+      "publication_record_date": "2010-12",
+      "locator": "Vol. 54, no. 4, page 60-61, review of Shadows on the Mountains; Major Linn M. Farish paragraph",
+      "access_date": "2026-09-21",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Studies in Intelligence",
+      "rights_notes": "A review, not an official personnel record. It corroborates the distinctive Major Linn M. Farish OSS identity and reports a 1943 OSS transfer, but its military-branch wording differs from the book excerpt."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "amiranian-oil-company",
+      "canonical_name": "Amiranian Oil Company",
+      "historical_name": "Amiranian Oil Company",
+      "organization_type": "oil and gas company",
+      "sector": "business_and_industry",
+      "country": "United States",
+      "active_dates": "attested in 1937",
+      "normalization_notes": "Preserve the historical company name from FRUS. The 1937 despatch calls it an American firm with oil concessions in Iran and Afghanistan; it does not establish a successor, exact legal name, or Farish's employment contract."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "b607-linn-farish-amiranian-representative-1937",
+      "person_id": "c9356a0e-8474-5f03-a634-0bff4555e069",
+      "organization_key": "amiranian-oil-company",
+      "organization_name_as_found": "Amiranian Oil Company",
+      "role_title": "Company representative on transit and supply questions",
+      "relationship_type": "professional_affiliation",
+      "date_precision": "attested July 17, 1937; beginning and end of relationship unknown",
+      "city": "Moscow",
+      "country": "Soviet Union",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The contemporary FRUS despatch explicitly calls Farish a representative of the named oil company and shows him conducting its business. Neither salaried employment nor the final civilian employer before military or OSS service is established. Exclude from the oil-company employment category pending stronger evidence."
+    }
+  ],
+  "claims": [
+    {
+      "key": "b607-linn-farish-amiranian-representative-claim",
+      "person_id": "c9356a0e-8474-5f03-a634-0bff4555e069",
+      "affiliation_key": "b607-linn-farish-amiranian-representative-1937",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Linn M. Farish represented Amiranian Oil Company in Moscow in July 1937; the source does not establish that he was its employee or that it was his final civilian employer.",
+      "evidence_excerpt": "Mr. Linn M. Farish, a representative of the Amiranian Oil Company, called at the Embassy",
+      "evidence_paraphrase": "Henderson's diplomatic despatch records Farish discussing routes for the company's supplies and referring to it as his company on July 17, 1937.",
+      "identity_match_assessment": "High-confidence indexed-person match: the distinctive full name and middle initial in the contemporary despatch match the NARA entry; Peake's CIA-published review independently identifies an OSS Major Linn M. Farish, matching the index's rank.",
+      "temporal_assessment": "Explicitly dated 1937, before the CIA review's reported 1943 OSS transfer. This is an earlier affiliation; the time span of the company relationship and any immediate predecessor are unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Representation and company business are documented, but payroll status is not. Do not convert the claim to employment, last civilian employer, or oil-company-worker category membership without further evidence.",
+      "sources": [
+        {"source_key": "b607-frus1937-v2-d592-farish", "support_type": "supports", "locator_override": "Page 753, July 17, 1937 paragraph"},
+        {"source_key": "b607-cia-peake-farish-2010", "support_type": "context_only", "locator_override": "Page 61, Farish review paragraph"},
+        {"source_key": "b607-nara-index-p141-linn-farish", "support_type": "context_only"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "c9356a0e-8474-5f03-a634-0bff4555e069",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The original NARA index gives the distinctive Linn M Farish and Major in Box 228. Hayden B. Peake's CIA-published 2010 review independently names OSS Major Linn M. Farish. The 1937 FRUS despatch gives the exact name and initial. No personnel file has yet been examined.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 228 and company records to determine the employment contract and last civilian employer. Clarify whether his pre-OSS wartime assignment was Canadian or British military service; current secondary accounts differ. A 1932 Canadian government report appears to name another oil company but was inaccessible (HTTP 502) and is not accepted as evidence.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b607-linn-farish-frus-cia-oil-review",
+      "person_id": "c9356a0e-8474-5f03-a634-0bff4555e069",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "\"Linn M Farish\" OSS Amiranian Oil Company 1937",
+      "query_variant_type": "exact_name_official_corporate_and_oss",
+      "started_at": "2026-09-21T02:49:00Z",
+      "completed_at": "2026-09-21T02:53:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "research_notes": "Rendered NARA page 141 and reviewed the 1937 FRUS despatch and CIA-published Peake review. The 1937 company representation is accepted only as a qualified earlier professional affiliation. A Canadian government report naming an Alberta company returned HTTP 502, and military-branch accounts disagree; neither becomes a settled employer or immediate assignment claim.",
+      "next_action": "Inspect Box 228 for a resume, payroll or transfer record and resolve the 1932 Alberta lead and wartime military branch.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-607-v1"
+    }
+  ]
+}

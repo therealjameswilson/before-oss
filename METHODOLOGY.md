@@ -36,8 +36,9 @@ contains 12, for a total of 23,978. Visual selection includes:
 - every parser-warning page;
 - every anomalous row-count page.
 
-One hundred seven pages have durable, replayable visual decisions. The current
-audit rules select 92 of them; fifteen additional pages are also reviewed.
+One hundred twenty-one pages have durable, replayable visual decisions. The
+current audit rules select 92 of them; twenty-nine additional pages are also
+reviewed. Four hundred one pages still await individual visual comparison.
 Page 136 was rechecked in batch 604, but was already part of the sampled
 visual-review ledger. Twenty-three values
 are printed in the table's `M I` column while their rank cells are blank: six
@@ -67,6 +68,15 @@ values.
 Version `bbox-columns-v8` also recognizes an identical suffix printed in more
 than one name column. It emits one normalized suffix while preserving every raw
 cell and recording the duplicate-suffix normalization note.
+
+The rank classifier recognizes the printed `Cmdr` abbreviation as a
+commissioned naval rank. The replayable `refresh-classifications` command
+upgrades only source and single-row person categories that were previously
+`unknown_or_indeterminate` under an older rule. It preserves the printed rank,
+private identifier, reviewed identity decisions, and already known categories;
+`--dry-run` reports the proposed upgrades first. For the batch-607 refresh,
+eight source rows and seven person entities were upgraded. The rank and branch
+of a historical individual still require the usual identity review.
 
 ## Rows and entities
 

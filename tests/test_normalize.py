@@ -112,6 +112,12 @@ class NormalizeTests(unittest.TestCase):
                 self.assertEqual(result.category, "commissioned_naval_officer")
                 self.assertTrue(result.commissioned_officer)
 
+    def test_printed_cmdr_is_naval_officer(self) -> None:
+        result = classify_personnel("Cmdr", None)
+        self.assertEqual(result.rank_normalized, "CMDR")
+        self.assertEqual(result.category, "commissioned_naval_officer")
+        self.assertTrue(result.commissioned_officer)
+
     def test_serial_normalization_preserves_prefix(self) -> None:
         self.assertEqual(normalize_serial("RA 3389449"), "RA3389449")
 

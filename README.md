@@ -62,6 +62,7 @@ python3 -m oss_research ingest --pdf data/source/personnel-database.pdf
 python3 -m oss_research import-page-reviews research/parser_visual_review_decisions.json
 python3 -m oss_research validate-ingest --pdf data/source/personnel-database.pdf
 python3 -m oss_research build-identities
+python3 -m oss_research refresh-classifications --dry-run
 python3 -m oss_research create-pilot --size 75 --batch-name pilot-v1
 python3 -m oss_research export-derived
 python3 -m oss_research coverage-report
@@ -71,6 +72,11 @@ cd site
 npm ci
 npm run dev
 ```
+
+When a new explicit rank-normalization rule is added to an existing SQLite
+database, run `python3 -m oss_research refresh-classifications` after reviewing
+the dry-run count. This only upgrades formerly unknown categories and does not
+rewrite printed index fields or reviewed person classifications.
 
 The local site defaults to the GitHub Pages project base path
 `/before-oss/`. For a root-path preview:

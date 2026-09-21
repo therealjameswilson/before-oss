@@ -1,0 +1,60 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 607 original-index duplicate review",
+  "person_updates": [
+    {
+      "person_id": "c4f68774-cfa8-51fc-9fc5-3aeb3f172ba4",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 142 rows 2 and 3 print Roger Faucher in Box 229, once with initials L.R. and rank Sp(X)1c/USNR, once with initial L and no rank. The index does not establish whether these are the same person or two people.",
+      "possible_duplicate_group": "p142-roger-faucher-b607",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 229 Faucher files and any branch or personal identifiers before linking either entry to an employer or merging entities.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b289289f-9647-52ff-b40c-93d9dee810f1",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 142 rows 2 and 3 print Roger Faucher in Box 229, with differing initial and rank detail. Similar names and a shared box are a possible duplicate clue, not proof of a single person.",
+      "possible_duplicate_group": "p142-roger-faucher-b607",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 229 Faucher files and any branch or personal identifiers before linking either entry to an employer or merging entities.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "af68e70a-831f-5792-b6d3-5ef45d7599de",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 142 rows 33 and 34 print two consecutive Robert W Feeney entries in Box 230; one lacks an identifier and the other has one. The source does not establish whether the entries describe the same person.",
+      "possible_duplicate_group": "p142-robert-w-feeney-b607",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 230 Feeney entries and the file-level identifiers before combining their histories.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d4a24c00-e848-56cc-8aac-7e3309db9e69",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 142 rows 33 and 34 print two consecutive Robert W Feeney entries in Box 230, but only one has a private identifier. They remain separate cautious person entities.",
+      "possible_duplicate_group": "p142-robert-w-feeney-b607",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 230 Feeney entries and the file-level identifiers before combining their histories.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ac02c168-5414-53da-b400-193016ba2bd2",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 142 rows 45 and 46 print Leon Feldman twice in Box 231. One row gives 2nd Lt. without an identifier; the other gives a private identifier without a rank. The index alone cannot resolve the pair.",
+      "possible_duplicate_group": "p142-leon-feldman-b607",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 231 Feldman files and any service record before transferring an affiliation claim or merging entities.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5bde8f9a-38b4-5e9c-8660-436f7e3f4ca6",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 142 rows 45 and 46 print Leon Feldman twice in Box 231, one ranked and one with a private identifier. This is a possible duplicate only; both printed records and entities remain separate.",
+      "possible_duplicate_group": "p142-leon-feldman-b607",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 231 Feldman files and any service record before transferring an affiliation claim or merging entities.",
+      "archival_review_priority": "high"
+    }
+  ]
+}
