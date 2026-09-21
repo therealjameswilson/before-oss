@@ -1,43 +1,43 @@
 {
-  "generated_at": "2026-09-21T10:14:57+00:00",
+  "generated_at": "2026-09-21T11:15:05+00:00",
   "index_coverage": {
     "source_rows": 23978,
     "source_rows_linked": 23978,
     "percent_linked": 100.0
   },
   "research_attempt_coverage": {
-    "person_entities": 23940,
+    "person_entities": 23939,
     "stored_person_entities": 23941,
-    "superseded_person_entities": 1,
-    "people_with_nonplanned_attempts": 7193,
-    "percent": 30.0459
+    "superseded_person_entities": 2,
+    "people_with_nonplanned_attempts": 7239,
+    "percent": 30.2394
   },
   "verified_affiliation_coverage": {
-    "person_entities": 23940,
-    "people_with_confirmed_or_high_published_affiliation": 627,
-    "percent": 2.619
+    "person_entities": 23939,
+    "people_with_confirmed_or_high_published_affiliation": 628,
+    "percent": 2.6233
   },
   "verified_employer_coverage": {
-    "person_entities": 23940,
-    "people_with_confirmed_or_high_published_employer": 279,
-    "percent": 1.1654
+    "person_entities": 23939,
+    "people_with_confirmed_or_high_published_employer": 280,
+    "percent": 1.1696
   },
   "archival_review_coverage": {
-    "person_entities": 23940,
-    "people_assessed": 6091,
-    "percent": 25.4428
+    "person_entities": 23939,
+    "people_assessed": 6118,
+    "percent": 25.5566
   },
   "research_status_counts": {
     "blocked_by_source_access": 1,
-    "candidate_found": 319,
+    "candidate_found": 329,
     "completed": 147,
     "conflicting_sources": 117,
-    "documented_prewar_employer_found": 117,
-    "in_progress": 1123,
+    "documented_prewar_employer_found": 118,
+    "in_progress": 1158,
     "needs_identity_review": 359,
     "needs_temporal_review": 23,
     "no_reliable_result_after_protocol": 210,
-    "not_started": 16747,
+    "not_started": 16700,
     "occupation_only_found": 1021,
     "requires_archival_review": 3500,
     "verified_employer_found": 256
@@ -45,7 +45,7 @@
   "claim_confidence_counts": {
     "confirmed": 1311,
     "conflicting": 132,
-    "high": 1894,
+    "high": 1898,
     "low": 185,
     "medium": 1374
   },
@@ -60,11 +60,11 @@
     "enlisted_naval_personnel": 65,
     "foreign_or_allied_military_personnel": 260,
     "temporary_contract_or_special_personnel": 4,
-    "unknown_or_indeterminate": 15492,
+    "unknown_or_indeterminate": 15491,
     "warrant_officer": 6
   },
-  "possible_duplicate_groups": 424,
-  "conflict_count": 131,
-  "citations": 5041,
-  "unique_source_documents": 2368
+  "possible_duplicate_groups": 435,
+  "conflict_count": 133,
+  "citations": 5045,
+  "unique_source_documents": 2372
 }

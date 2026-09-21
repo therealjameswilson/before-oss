@@ -1,0 +1,240 @@
+{
+  "bundle_version": "2026-09-21-batch-618-duplicate-review-v1",
+  "reviewer": "Before OSS batch 618 original-index variant review",
+  "person_updates": [
+    {
+      "person_id": "d4361459-5c62-58f4-8ffd-90a117efbb12",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 251 prints Victor A Kirouac without a rank or private identifier and Victor E Kirouac as a sergeant with a private identifier in the same box. The middle-initial and rank differences prevent a merge.",
+      "possible_duplicate_group": "p251-victor-kirouac-b618",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 408 files for full middle name, dates, rank history, and identifier context.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "08e12159-33af-55f7-95e9-3495d025c082",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 251 prints Victor E Kirouac as a sergeant with a private identifier beside Victor A Kirouac without either field. Similar names alone do not establish one person.",
+      "possible_duplicate_group": "p251-victor-kirouac-b618",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 408 files for full middle name, dates, rank history, and identifier context.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e89e031c-e0e2-543c-a951-1945cc6954b0",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 252 prints Maurice J Kleibert without a private identifier and Maurice J Kliebert with one in Box 410. The one-letter surname difference is a plausible index variant, not proof of one person.",
+      "possible_duplicate_group": "p252-maurice-j-kleibert-kliebert-b618",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 410 files for authoritative surname spelling, dates, and service history before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "59e09334-c90b-5d81-b456-a9c58476ec5b",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 252 prints Maurice J Kliebert with a private identifier and Maurice J Kleibert without one in Box 410. Both spellings and entities remain separate pending file review.",
+      "possible_duplicate_group": "p252-maurice-j-kleibert-kliebert-b618",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 410 files for authoritative surname spelling, dates, and service history before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e7538516-abe1-591b-86b0-323aeadc1388",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 254 prints Eugene Kocherga and Gene L Kocherga in Box 414, neither with a private identifier. Gene may be a familiar form of Eugene, but the index alone cannot establish one person.",
+      "possible_duplicate_group": "p254-eugene-gene-l-kocherga-b618",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 414 files for full name, dates, and assignments before resolving the familiar-name variant.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "af7a8d7b-4dee-5aa1-b7e6-75d842b63ab0",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 254 prints Gene L Kocherga beside Eugene Kocherga in Box 414, with no private identifier in either row. Both remain separate because a familiar-name resemblance is not sufficient evidence for a merge.",
+      "possible_duplicate_group": "p254-eugene-gene-l-kocherga-b618",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 414 files for full name, dates, and assignments before resolving the familiar-name variant.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2e1db921-c0e9-5568-ad5c-4a12fbd552a0",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Pages 255 and 260 print Nick Kochopolus and Nick Kuchopolus with the same private identifier but different boxes. This is strong duplicate evidence, but both source rows remain immutable pending file review.",
+      "possible_duplicate_group": "p255-p260-nick-kochopolus-kuchopolus-b618",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 414 and 423 to establish the authoritative surname spelling and explain the differing box references before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "26ec588b-b35f-5ca4-b056-1c0e73af0d6c",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The page 260 Nick Kuchopolus row repeats the private identifier of Nick Kochopolus on page 255 but points to a different box. The records are linked as a probable duplicate group without exposing the identifier or merging the entities.",
+      "possible_duplicate_group": "p255-p260-nick-kochopolus-kuchopolus-b618",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 414 and 423 to establish the authoritative surname spelling and explain the differing box references before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c6e300c7-3d27-56ae-bfd6-b15ae2838846",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 256 prints two Charles E Kopp rows with different private identifiers; one has no rank in Box 416 and the other is a sergeant in Box 417. The identifier conflict requires the entities to remain separate.",
+      "possible_duplicate_group": "p256-charles-e-kopp-b618",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 416 and Box 417 files for birth dates, service histories, ranks, and assignments to distinguish the namesakes.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d3a92763-60eb-5121-9070-f69b5ff2dea0",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The second Charles E Kopp row on page 256 is a sergeant in Box 417 with a different private identifier from the unranked Box 416 row. Identical names do not override that conflict.",
+      "possible_duplicate_group": "p256-charles-e-kopp-b618",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 416 and Box 417 files for birth dates, service histories, ranks, and assignments to distinguish the namesakes.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "47443b45-d542-5e4f-b747-e080e6d8338b",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 257 prints two Lawrence Korpita rows in Box 417, one with a private identifier and one without. The duplicated name and box are suggestive but not conclusive.",
+      "possible_duplicate_group": "p257-lawrence-korpita-b618",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 417 files for dates, assignments, and identifier context before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4ba73115-5df2-5d52-a5ad-f8b090f5059d",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The second Lawrence Korpita row on page 257 lacks the private identifier printed on the adjacent same-name row in Box 417. Both entities remain separate pending file review.",
+      "possible_duplicate_group": "p257-lawrence-korpita-b618",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 417 files for dates, assignments, and identifier context before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b4054c44-0f87-55ca-88f6-c21ab0af4dcb",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 259 prints two Elizabeth Krishna rows in Box 421, one with a private identifier and one without. The repeated name and box warrant review but do not independently prove duplication.",
+      "possible_duplicate_group": "p259-elizabeth-krishna-b618",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 421 files for dates, assignments, and identifier context before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2fc49736-c69b-5bdd-aafa-54aabf37e2dd",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The second Elizabeth Krishna row on page 259 lacks the private identifier printed on the adjacent same-name row in Box 421. Both source rows remain distinct and recoverable.",
+      "possible_duplicate_group": "p259-elizabeth-krishna-b618",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 421 files for dates, assignments, and identifier context before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0e72ac16-a82f-5560-be11-8d6ad15288b9",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 259 prints Francis J Kruckosky with a private identifier and Francis S Kruckosky without one in Box 422. The middle-initial difference remains unresolved.",
+      "possible_duplicate_group": "p259-francis-kruckosky-b618",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 422 files for full middle name, dates, and service history.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e317ea73-1eab-5fea-bcfd-104338c5ca97",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 259 prints Francis S Kruckosky without a private identifier beside Francis J Kruckosky with one. Similar names do not justify transferring facts between the entities.",
+      "possible_duplicate_group": "p259-francis-kruckosky-b618",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 422 files for full middle name, dates, and service history.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "cddbae0e-6c00-5108-a64c-da4614c7c267",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 260 prints two Virginia J Kuch rows in Box 423; one has a private identifier and no rank, while the other is a technical sergeant without an identifier. Rank and identifier context require file review.",
+      "possible_duplicate_group": "p260-virginia-j-kuch-b618",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 423 files for rank chronology, dates, and identifier context before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "407ad863-cb4f-5d09-9210-c7276a5b6b13",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The second Virginia J Kuch row on page 260 is a technical sergeant without the private identifier printed on the adjacent unranked row. Both remain separate pending file review.",
+      "possible_duplicate_group": "p260-virginia-j-kuch-b618",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 423 files for rank chronology, dates, and identifier context before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4e5a39d5-8aad-58fa-8766-2e60503c1e2e",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 256 prints M G Konos and William G Konos in Box 416 without private identifiers. The initials may represent the same or different people, and the index does not resolve the relationship.",
+      "possible_duplicate_group": "p256-m-g-william-g-konos-b618",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 416 files for full names, dates, and assignments before treating M G as an alias or abbreviation.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0f8c9ea6-fd43-5469-ba69-ffd9716233f0",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 256 prints William G Konos near M G Konos in Box 416; neither row has a private identifier. Both entities remain separate because initials alone cannot establish an alias.",
+      "possible_duplicate_group": "p256-m-g-william-g-konos-b618",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 416 files for full names, dates, and assignments before treating M G as an alias or abbreviation.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6427139c-d487-56b3-b501-5822d2518ef8",
+      "identity_status": "conflicting",
+      "identity_evidence": "Pages 254 and 255 print substantially different names, John J Knox and Jean Kohn, with the same private identifier and different boxes. The collision is preserved as an unresolved index conflict; neither entity receives facts from the other.",
+      "possible_duplicate_group": "p254-p255-john-knox-jean-kohn-b618",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 413 and 415 and the identifier-bearing records to determine whether this is a transcription error, reused identifier, or two people.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ceee440b-e123-53d9-ac3f-15617a0e34ce",
+      "identity_status": "conflicting",
+      "identity_evidence": "The Jean Kohn row on page 255 shares a private identifier with John J Knox on page 254 despite different names and boxes. The conflict remains explicit and no merge is made.",
+      "possible_duplicate_group": "p254-p255-john-knox-jean-kohn-b618",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 413 and 415 and the identifier-bearing records to determine whether this is a transcription error, reused identifier, or two people.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b006ec61-8e0d-5836-a16d-d33666cd74aa",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 260 prints Joseph Kubachka with a private identifier and Joseph Kubuchka without one in Box 423. The one-letter surname difference is a plausible variant that requires file confirmation.",
+      "possible_duplicate_group": "p260-joseph-kubachka-kubuchka-b618",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 423 files for authoritative surname spelling, dates, and service history before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b75731e0-a67c-5ab6-b820-896b94690e82",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 260 prints Joseph Kubuchka without a private identifier and Joseph Kubachka with one in the same box. Both entities and spellings remain distinct pending review.",
+      "possible_duplicate_group": "p260-joseph-kubachka-kubuchka-b618",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 423 files for authoritative surname spelling, dates, and service history before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c7dcd34e-18fb-58a8-ae0e-ad4404397a72",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 258 prints Paul L Kraus with a private identifier and Paul L Krauss without one in Box 419. The final-letter surname difference is a plausible index variant, not proof of one person.",
+      "possible_duplicate_group": "p258-paul-l-kraus-krauss-b618",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 419 files for authoritative surname spelling, dates, and service history before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "023da83c-ac1a-5b31-a4f6-4ae3297f9fdc",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 258 prints Paul L Krauss without a private identifier beside Paul L Kraus with one in Box 419. Both source spellings remain recoverable and the entities remain separate.",
+      "possible_duplicate_group": "p258-paul-l-kraus-krauss-b618",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 419 files for authoritative surname spelling, dates, and service history before merging.",
+      "archival_review_priority": "high"
+    }
+  ]
+}
