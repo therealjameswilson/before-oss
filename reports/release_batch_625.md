@@ -98,10 +98,26 @@ A clean tracked-only worktree passed the complete local release suite:
 
 ## Deployment
 
-Pending. The exact release commit must pass the required GitHub test workflow,
-merge to `main`, complete the GitHub Pages workflow, and pass unauthenticated
-manifest, route, profile, and asset verification before this section is marked
-complete.
+Pull request [#351](https://github.com/therealjameswilson/before-oss/pull/351)
+passed its required test workflow in 4m22s and was merged to `main` as commit
+`9e0bbcee29099ae0227d4f69cae510e5dc04e593`.
+
+The post-merge
+[Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/35642026688)
+passed in 3m32s, including the checked-in manifest and public-identifier audit.
+The corresponding
+[GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/35642026752)
+also passed and deployed the site.
+
+An unauthenticated verifier then resolved the live release to the exact merge
+commit and checked **8** required core routes, all **26** paginated source
+register routes, the identity-evidence profile, and all **67** manifest-listed
+assets. It verified **98,085,125 bytes** with manifest SHA-256
+`25f433da14b511b864843d0064a8c96589ba52bc8ee9040e874a470aee60040e`.
+A separate bounded live check loaded all **10** directly affected profile URLs
+and confirmed their rendered main content and exact public person identifiers.
+The public release is available at
+<https://therealjameswilson.github.io/before-oss/>.
 
 ## Resume
 
