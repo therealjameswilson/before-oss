@@ -11,7 +11,7 @@ test("official Army crosswalks improve identity without inventing employers", as
     await expect(page.locator("main")).toContainText("high confidence");
     await expect(page.locator("main")).toContainText(/official Army bulk entry/i);
     await expect(page.locator("main")).toContainText(
-      "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "No publishable pre-OSS affiliation is recorded yet",
     );
   }
 });
