@@ -21,6 +21,7 @@ from pathlib import Path
 ITEM_HOSTS = {"loc.gov", "www.loc.gov"}
 TEXT_SERVICE = "https://tile.loc.gov/text-services/word-coordinates-service"
 USER_AGENT = "BeforeOSS/loc-context-review archival-research (read-only)"
+BATCH_NAME_RE = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
 
 
 def item_json_url(candidate_url: str) -> str:
@@ -118,8 +119,8 @@ def main() -> int:
     parser.add_argument("--delay", type=float, default=0.75)
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
-    if not re.fullmatch(r"batch-[0-9]+", args.batch):
-        parser.error("--batch must be an assigned batch-NNN name")
+    if len(args.batch) > 128 or BATCH_NAME_RE.fullmatch(args.batch) is None:
+        parser.error("--batch must be a lowercase hyphenated assigned-batch name")
     if not 1 <= args.max_candidates <= 100 or not 0 <= args.delay <= 30:
         parser.error("candidate limit or delay is out of bounds")
 

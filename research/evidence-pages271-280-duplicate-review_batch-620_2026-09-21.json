@@ -1,0 +1,447 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 620 pages 271-280 original-index duplicate and variant review",
+  "person_updates": [
+    {
+      "person_id": "f1ebdbf8-e64f-5445-9bf8-84c3ab3d50e4",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 271 prints two Herbert P Lefler rows in Box 443. This row is a first lieutenant and carries a private identifier different from the identifier on the second row; identical names do not override that conflict.",
+      "possible_duplicate_group": "p271-herbert-p-lefler-b620",
+      "manual_review_required": true,
+      "next_action": "Compare the two Box 443 personnel files, including their different private identifiers, before merging or transferring any biographical fact.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e1cc1cd6-e2c1-5948-9a62-eb19849f97b6",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 271 prints a second Herbert P Lefler row in Box 443 without a rank. Its private identifier differs from the first-lieutenant row, so both entities remain separate.",
+      "possible_duplicate_group": "p271-herbert-p-lefler-b620",
+      "manual_review_required": true,
+      "next_action": "Compare the two Box 443 personnel files, including their different private identifiers, before merging or transferring any biographical fact.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fd094a9b-3854-54a7-9316-d16fb1c50ae8",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 271 prints Robert M Leiberger with a private identifier in Box 444; page 277 prints Robert M Lieberger without one in Box 452. The near-identical uncommon name is possible variant evidence, not proof.",
+      "possible_duplicate_group": "p271-robert-m-leiberger-lieberger-b620",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 444 and Box 452 files for full name, dates, and service history before resolving the surname spelling.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "790036e7-3024-5957-8e65-7a585bbb1046",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 277 prints Robert M Lieberger without a private identifier; page 271 prints Robert M Leiberger with one. Both spellings and entities remain separate pending file review.",
+      "possible_duplicate_group": "p271-robert-m-leiberger-lieberger-b620",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 444 and Box 452 files for full name, dates, and service history before resolving the surname spelling.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "13b7199d-14f1-5a06-9258-c9775484982e",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 272 prints PFC Roland F Lemay with a private identifier in Box 444 and later Roland F Lenay without one in Box 445. The one-letter surname difference is a possible index variant only.",
+      "possible_duplicate_group": "p272-roland-f-lemay-lenay-b620",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 444 and Box 445 files for full surname, dates, and service history.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6f00457e-69c4-56c2-9d80-2806244a10f3",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 272 prints Roland F Lenay without rank or private identifier after PFC Roland F Lemay. Both records remain separate until the files establish whether Lenay is a spelling error.",
+      "possible_duplicate_group": "p272-roland-f-lemay-lenay-b620",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 444 and Box 445 files for full surname, dates, and service history.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a97af1de-b812-5bba-b897-a138910b7a3f",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 272 prints Louis E Leipold with a private identifier in Box 444; page 273 prints Louis Leopold without a middle initial and with a different private identifier in Box 446. Similarity alone cannot establish duplication.",
+      "possible_duplicate_group": "p272-273-louis-e-leipold-leopold-b620",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 444 and Box 446 files for full surname, dates, and independent identifiers before resolving the possible spelling pair.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e4a6c1f7-7a79-5ef9-98a1-3aef35e06268",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 273 prints Louis Leopold with a private identifier different from Louis E Leipold. The records remain separate despite the similar names.",
+      "possible_duplicate_group": "p272-273-louis-e-leipold-leopold-b620",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 444 and Box 446 files for full surname, dates, and independent identifiers before resolving the possible spelling pair.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "856fdf51-e670-566c-acdf-3be96cbd7311",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 273 prints two consecutive T-4 Edward Leon rows in Box 446 with different private identifiers. This supports two distinct records unless direct file evidence explains the duplication.",
+      "possible_duplicate_group": "p273-edward-leon-b620",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 446 files and their different private identifiers before treating the entries as duplicates.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "741e5933-40ed-51df-9dd8-70ee86f8648a",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 273's second T-4 Edward Leon row carries a different private identifier from the first. Both source rows and person entities remain separate.",
+      "possible_duplicate_group": "p273-edward-leon-b620",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 446 files and their different private identifiers before treating the entries as duplicates.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "389f393e-717c-5d48-80e9-3a69d6899856",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 273 prints two consecutive Martin Leon rows in Box 446, neither with a rank or private identifier. Identical names alone do not establish duplication.",
+      "possible_duplicate_group": "p273-martin-leon-b620",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 446 files for dates, signatures, and assignments before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6fb05728-06ef-5975-a798-decc09d7d302",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 273 contains a second Martin Leon row in Box 446 without a private identifier. Both entries remain separate pending file review.",
+      "possible_duplicate_group": "p273-martin-leon-b620",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 446 files for dates, signatures, and assignments before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d8d99cf0-1473-5290-a4f0-789458d42728",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 273 prints Robert P Leonard without rank or private identifier and a second Captain Robert P Leonard with one in Box 446. The missing identifier may indicate a duplicate or a namesake.",
+      "possible_duplicate_group": "p273-robert-p-leonard-b620",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 446 files for biographical identifiers and service history.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f4bb15d8-436d-5698-bc91-3f4348885ce2",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 273's Captain Robert P Leonard row carries a private identifier while the other same-name row does not. Both remain separate.",
+      "possible_duplicate_group": "p273-robert-p-leonard-b620",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 446 files for biographical identifiers and service history.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ff31dd6c-e29f-5bd7-8b15-504dea723a45",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 273 prints two Maurice A Lepage rows in Box 446 with different private identifiers; this row has no rank. The identifier difference prevents an automatic merge.",
+      "possible_duplicate_group": "p273-maurice-a-lepage-b620",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 446 files and their different private identifiers before resolving the duplicate name.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a7d6edbd-66ed-5a1a-b39d-97a9a3843a64",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 273's second Maurice A Lepage row is a second lieutenant and carries a different private identifier from the unranked row. Both entities remain separate.",
+      "possible_duplicate_group": "p273-maurice-a-lepage-b620",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 446 files and their different private identifiers before resolving the duplicate name.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2eb8a67e-2d77-5889-876e-ab1860dd6208",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 274 prints two Edmond Lesout rows in Box 447 with different private identifiers; this row is a second lieutenant. Both records remain separate.",
+      "possible_duplicate_group": "p274-edmond-lesout-b620",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 447 files and their different private identifiers before resolving the duplicate name.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0edfe28d-9c03-5578-b442-a16c216f6e6e",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 274's unranked Edmond Lesout row carries a private identifier different from the second-lieutenant row. Identical names do not justify a merge.",
+      "possible_duplicate_group": "p274-edmond-lesout-b620",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 447 files and their different private identifiers before resolving the duplicate name.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3a2b68db-f3ad-56bb-b914-07da2c06da1d",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 274 prints Regina Levander and Rena Levander in Box 448, neither with a private identifier. The uncommon surname and shortened given name suggest a possible variant but do not prove one person.",
+      "possible_duplicate_group": "p274-regina-rena-levander-b620",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 448 files for full given name, dates, and assignments before resolving the possible name variant.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "87e2181d-9587-556a-bf6f-01f49fabdcda",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 274 prints P-1 Rena Levander near Regina Levander in Box 448. With no private identifiers, both records remain separate.",
+      "possible_duplicate_group": "p274-regina-rena-levander-b620",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 448 files for full given name, dates, and assignments before resolving the possible name variant.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1a670813-149a-560e-b621-5a851bc68d67",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 274 prints PFC Gus Levathes and ENS Gus Levathes in Box 448 with different private identifiers. The rank and identifier differences require separate entities pending direct evidence.",
+      "possible_duplicate_group": "p274-gus-levathes-b620",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 448 files, service branches, and their different private identifiers.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5986dbe3-3d59-56c6-a7f9-350515e9dc94",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 274's ENS Gus Levathes row carries a different private identifier and branch-related rank from the PFC row. Both remain separate.",
+      "possible_duplicate_group": "p274-gus-levathes-b620",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 448 files, service branches, and their different private identifiers.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6abd89e9-a450-553a-858d-5d9bdda88166",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 274 prints George Levetine without rank or private identifier in Box 448; page 275 prints George Levitine with a naval rank and private identifier in Box 449. This is a possible spelling variant only.",
+      "possible_duplicate_group": "p274-275-george-levetine-levitine-b620",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 448 and Box 449 files for surname spelling, dates, and service history.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c89b209a-1bc6-5c9f-8933-ed035c9edfe6",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 275 prints George Levitine with a private identifier while George Levetine lacks one. Both spellings remain separate pending file comparison.",
+      "possible_duplicate_group": "p274-275-george-levetine-levitine-b620",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 448 and Box 449 files for surname spelling, dates, and service history.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d58d0bbc-76ee-53af-9fb0-75832df73848",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 275 prints two Stuart M Levine rows in Box 449 with different private identifiers; this row is unranked. The identifier difference prevents an automatic merge.",
+      "possible_duplicate_group": "p275-stuart-m-levine-b620",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 449 files and their different private identifiers before resolving the duplicate name.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fe0ea47a-08a6-53f9-b7d5-9ca1e14a390c",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 275's second Stuart M Levine row has a naval rank and a different private identifier. Both entities remain separate.",
+      "possible_duplicate_group": "p275-stuart-m-levine-b620",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 449 files and their different private identifiers before resolving the duplicate name.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "927f95fb-04c2-5845-a52f-6f7f20ecbc03",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 276 prints two Edgar S Lewis rows in Box 450 with different private identifiers; this row is a PFC. The identifier difference supports separate records pending review.",
+      "possible_duplicate_group": "p276-edgar-s-lewis-b620",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 450 files and their different private identifiers before resolving the duplicate name.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "51503511-b632-5da5-8832-d4002923bc44",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 276's unranked Edgar S Lewis row carries a different private identifier from the PFC row. Both remain separate.",
+      "possible_duplicate_group": "p276-edgar-s-lewis-b620",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 450 files and their different private identifiers before resolving the duplicate name.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3efb8856-f18d-53ec-ba0a-5c1762136367",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Pages 276–277 print Harry J Lichtenberger without a private identifier and Henry J Lichtenberger with one in Box 452. Harry and Henry may be an index variation, but the evidence is not conclusive.",
+      "possible_duplicate_group": "p276-277-harry-henry-j-lichtenberger-b620",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 452 files for full given name, dates, and service history.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "25207a2f-1f32-54ee-97f5-40202e17fd8d",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 277 prints First Lieutenant Henry J Lichtenberger with a private identifier after an unranked Harry J Lichtenberger row. Both remain separate pending file review.",
+      "possible_duplicate_group": "p276-277-harry-henry-j-lichtenberger-b620",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 452 files for full given name, dates, and service history.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9ae3efad-663b-59c3-b3cb-62a73c131500",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 277 prints two consecutive Margaret Lilley rows in Box 453, neither with a private identifier; this row is marked CIV. Identical names alone do not prove duplication.",
+      "possible_duplicate_group": "p277-margaret-lilley-b620",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 453 files for biographical identifiers and assignments before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "58d6e385-b342-556c-b765-6768b4663f60",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 277 contains a second unranked Margaret Lilley row without a private identifier. Both entries remain separate.",
+      "possible_duplicate_group": "p277-margaret-lilley-b620",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 453 files for biographical identifiers and assignments before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "72d8578b-93ff-55ef-8989-66706fe89313",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 278 prints William C Lindblad without rank or private identifier in Box 453 and a T-5 William C Lindblad with one in Box 454. The records may duplicate one person or describe namesakes.",
+      "possible_duplicate_group": "p278-william-c-lindblad-b620",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 453 and Box 454 files for full identity, dates, and service history.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2f281c38-eecf-55d9-b303-00bf179fd726",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 278's T-5 William C Lindblad row has a private identifier while the other same-name row does not. Both remain separate.",
+      "possible_duplicate_group": "p278-william-c-lindblad-b620",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 453 and Box 454 files for full identity, dates, and service history.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "996fcedc-e1ad-52d3-8738-367d1430d7cf",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 278 prints two Pertti J. C. Lindfors rows in Box 454 with different private identifiers; this row is a second lieutenant. Both remain separate.",
+      "possible_duplicate_group": "p278-pertti-j-c-lindfors-b620",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 454 files and their different private identifiers before resolving the duplicate name.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7efb4611-91c8-5f65-ba26-e9dbcde41ec3",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 278's unranked Pertti J. C. Lindfors row carries a different private identifier from the officer row. Identical names do not justify a merge.",
+      "possible_duplicate_group": "p278-pertti-j-c-lindfors-b620",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 454 files and their different private identifiers before resolving the duplicate name.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8e2121ad-ac78-5ed3-b066-33258ba3dcc0",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 278 prints Major Frank Lindsay and Lieutenant Colonel Franklin A Lindsay with the same private identifier, box, and location. This strongly suggests a duplicate or name expansion, but both entities remain separate pending file review.",
+      "possible_duplicate_group": "p278-frank-franklin-a-lindsay-b620",
+      "manual_review_required": true,
+      "next_action": "Review both Box 454 entries to confirm the given-name expansion and rank chronology before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f10209b9-429e-568b-aaec-7310078b0915",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 278's Franklin A Lindsay row repeats the private identifier of Frank Lindsay and shows a different rank. The records are linked as a probable variant without merging.",
+      "possible_duplicate_group": "p278-frank-franklin-a-lindsay-b620",
+      "manual_review_required": true,
+      "next_action": "Review both Box 454 entries to confirm the given-name expansion and rank chronology before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f23acb11-30ef-528c-a4bf-cbd84689dffb",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 279 prints Page K Linton and two Paige K Linton rows in Box 455. This row shares a private identifier with the officer row, while the other Paige row has a different identifier.",
+      "possible_duplicate_group": "p279-page-paige-k-linton-b620",
+      "manual_review_required": true,
+      "next_action": "Compare all three Box 455 entries, including the two different private identifiers, to determine whether they represent one person or multiple namesakes.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "dfe14b8a-9d6b-5dcf-8231-5201ad288ced",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 279's unranked Paige K Linton row carries a private identifier different from the Page K and officer rows. All three records remain separate.",
+      "possible_duplicate_group": "p279-page-paige-k-linton-b620",
+      "manual_review_required": true,
+      "next_action": "Compare all three Box 455 entries, including the two different private identifiers, to determine whether they represent one person or multiple namesakes.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1c0dbb47-b101-5fc9-b63a-003e9d316200",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 279's officer Paige K Linton row shares a private identifier with Page K Linton but not with the other Paige row. This is strong variant evidence for two rows but leaves the three-entry cluster unresolved.",
+      "possible_duplicate_group": "p279-page-paige-k-linton-b620",
+      "manual_review_required": true,
+      "next_action": "Compare all three Box 455 entries, including the two different private identifiers, to determine whether they represent one person or multiple namesakes.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3c59d080-7138-588b-a660-ab4b651f0926",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Pages 279–280 print Marcizus J Litivinos and Narcizus J Litwinas with the same private identifier, box, and location. The substantial spelling variation is strong duplicate evidence but needs direct file confirmation.",
+      "possible_duplicate_group": "p279-280-marcizus-narcizus-litivinos-litwinas-b620",
+      "manual_review_required": true,
+      "next_action": "Review the Box 457 file to establish the authoritative given name and surname spelling before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "513c5164-2c91-51e7-898e-658eb6db3a04",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 280's Narcizus J Litwinas row repeats the private identifier of Marcizus J Litivinos. Both original spellings and separate entities are retained pending review.",
+      "possible_duplicate_group": "p279-280-marcizus-narcizus-litivinos-litwinas-b620",
+      "manual_review_required": true,
+      "next_action": "Review the Box 457 file to establish the authoritative given name and surname spelling before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7390538c-bc8e-5cfe-b377-b4d2e62cb25a",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 280 prints Second Lieutenant Adolf Lium and Second Lieutenant Adolf J Livim in adjacent boxes with different private identifiers. The similar names may be variants, but the identifier and middle-initial differences prevent a merge.",
+      "possible_duplicate_group": "p280-adolf-lium-livim-b620",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 457 and Box 458 files, private identifiers, and full middle names before resolving the possible spelling pair.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "893cc594-fc2f-535c-90bd-c8ebbdced857",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 280's Adolf J Livim row carries a private identifier different from Adolf Lium. Both spellings remain separate pending file review.",
+      "possible_duplicate_group": "p280-adolf-lium-livim-b620",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 457 and Box 458 files, private identifiers, and full middle names before resolving the possible spelling pair.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "06f247a0-afc6-5203-86b7-c331b49f15f3",
+      "identity_status": "conflicting",
+      "identity_evidence": "Page 280 assigns the same private identifier to Stacey Lloyd and Kwong W Lo, two materially different names. This is an index or identifier conflict, not evidence that the people are the same.",
+      "possible_duplicate_group": "p280-stacey-lloyd-kwong-w-lo-conflict-b620",
+      "manual_review_required": true,
+      "next_action": "Inspect both Box 458 files and the original index or personnel jackets to determine which name owns the duplicated private identifier.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "8537d52c-6ad0-5eeb-b7e7-ea6ae63bb08e",
+      "identity_status": "conflicting",
+      "identity_evidence": "Page 280 assigns Kwong W Lo the same private identifier printed for Stacey Lloyd. The names and ranks differ, so both entities remain separate and the conflict requires archival review.",
+      "possible_duplicate_group": "p280-stacey-lloyd-kwong-w-lo-conflict-b620",
+      "manual_review_required": true,
+      "next_action": "Inspect both Box 458 files and the original index or personnel jackets to determine which name owns the duplicated private identifier.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e47465b7-c249-5908-9bdb-5aa06aa3ee85",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 280 prints Richard P Lochner and Richard P Lockner with the same private identifier, box, and location. The one-letter surname difference is strong duplicate evidence, but both entities remain separate pending file review.",
+      "possible_duplicate_group": "p280-richard-p-lochner-lockner-b620",
+      "manual_review_required": true,
+      "next_action": "Review the Box 458 file to establish the authoritative surname spelling before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1ac6b235-f3fc-599b-a131-2e064f94a30d",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 280's Richard P Lockner row repeats the private identifier of Richard P Lochner. Both original spellings are retained until the file establishes the authoritative form.",
+      "possible_duplicate_group": "p280-richard-p-lochner-lockner-b620",
+      "manual_review_required": true,
+      "next_action": "Review the Box 458 file to establish the authoritative surname spelling before merging.",
+      "archival_review_priority": "high"
+    }
+  ]
+}
