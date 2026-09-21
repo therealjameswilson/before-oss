@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T11:18:15+00:00",
+  "generated_at": "2026-09-21T12:12:21+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -17,12 +17,12 @@
     "commissioned_coast_guard_officer": 1,
     "commissioned_marine_corps_officer": 4,
     "commissioned_naval_officer": 4,
-    "enlisted_army_personnel": 20,
+    "enlisted_army_personnel": 21,
     "enlisted_marine_corps_personnel": 4,
     "enlisted_naval_personnel": 4,
     "foreign_or_allied_military_personnel": 15,
     "temporary_contract_or_special_personnel": 4,
-    "unknown_or_indeterminate": 104,
+    "unknown_or_indeterminate": 103,
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
@@ -32,12 +32,12 @@
     "4": 36
   },
   "identity_status_counts": {
-    "ambiguous": 22,
+    "ambiguous": 23,
     "confirmed": 6,
-    "conflicting": 10,
+    "conflicting": 11,
     "high_confidence": 23,
     "probable": 4,
-    "unresolved": 135
+    "unresolved": 133
   },
   "research_status_counts": {
     "candidate_found": 2,
@@ -48,22 +48,22 @@
     "needs_identity_review": 10,
     "needs_temporal_review": 2,
     "no_reliable_result_after_protocol": 1,
-    "not_started": 112,
+    "not_started": 113,
     "occupation_only_found": 6,
-    "requires_archival_review": 31,
+    "requires_archival_review": 30,
     "verified_employer_found": 8
   },
   "special_strata_counts": {
     "commissioned": 28,
     "civilian": 20,
-    "enlisted": 28,
+    "enlisted": 29,
     "allied_or_foreign": 20,
     "incomplete_or_initial_only_name": 20,
     "possible_duplicate_group": 30,
     "confirmed_or_high_published_claim": 31,
     "medium_published_claim": 14,
     "conflicting_published_claim": 10,
-    "unresolved_identity": 135
+    "unresolved_identity": 133
   },
   "unavailable_strata": {
     "women": "The index has no sex/gender field; the project does not infer gender from names. This stratum requires sourced identity research."
@@ -228,9 +228,9 @@
     "d0042f95-e917-5a02-9973-6ed3330f0f68",
     "67f4a576-c8d1-5803-873b-4fd38dd6b516",
     "faa590d7-cc71-5602-a8f8-516ea5b54623",
+    "facc664d-c5b6-5f57-b41a-2ddae929f925",
     "ec6d0e25-eb95-53c5-95cc-6f2e34a7533d",
     "10ad95f6-d07e-5590-9b31-c7561d6d0542",
-    "7b58b991-86e7-5ab0-9781-c77140261080",
     "5973e9b9-4412-53fc-93d6-c9925bed1a90",
     "e9894de3-592a-5ab3-b5f3-56ea67909531",
     "cc806144-a526-5ecf-9b71-bab279bfcdf4",
