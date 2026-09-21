@@ -36,9 +36,9 @@ contains 12, for a total of 23,978. Visual selection includes:
 - every parser-warning page;
 - every anomalous row-count page.
 
-One hundred fifty-six pages have durable, replayable visual decisions. The
-current audit rules select 92 of them; sixty-four additional pages are also
-reviewed. Three hundred sixty-six pages still await individual visual comparison.
+One hundred sixty-six pages have durable, replayable visual decisions. The
+current audit rules select 92 of them; seventy-four additional pages are also
+reviewed. Three hundred fifty-six pages still await individual visual comparison.
 Page 136 was rechecked in batch 604, and page 184 received complete-page review
 in batch 611 after already entering the ledger through a row-specific parser
 warning, so neither recheck increased distinct-page coverage. Twenty-three values

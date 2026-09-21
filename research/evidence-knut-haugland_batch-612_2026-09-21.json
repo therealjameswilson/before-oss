@@ -1,0 +1,161 @@
+{
+  "bundle_version": "2026-09-21-batch-612-v1",
+  "reviewer": "Before OSS research pipeline",
+  "sources": [
+    {
+      "key": "index-b612-knut-haugland",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 319",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 198 row 20; Knut Haugland; rendered at 180 dpi and visually inspected; rank 1st Lt.; Box 319; location 230/86/32/06",
+      "access_date": "2026-09-21",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "The public citation retains the indexed name, rank, box, and archival location while excluding any private identifier. The row establishes an indexed file, not by itself a direct OSS assignment or a pre-service employer."
+    },
+    {
+      "key": "snl-2025-knut-haugland",
+      "stable_url": "https://snl.no/Knut_Haugland",
+      "title": "Knut Haugland",
+      "author_creator": "Dag Leraand and Ivar Kraglund",
+      "repository_publisher": "Store norske leksikon",
+      "publication_record_date": "2025-03-25",
+      "locator": "Background and resistance-work sections; civilian radio-factory work after demobilization and admission to Kompani Linge in 1941",
+      "access_date": "2026-09-21",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Store norske leksikon / Norsk biografisk leksikon",
+      "rights_notes": "University-owned Norwegian scholarly encyclopedia article written by military-history specialists. Only a short supporting excerpt and project-authored paraphrases are retained."
+    },
+    {
+      "key": "kontiki-archive-knut-haugland",
+      "stable_url": "https://www.kon-tiki.no/no/archives-and-collections",
+      "title": "Kon-Tiki Museum Archives and Collections: Knut M. Haugland Archive",
+      "author_creator": "Kon-Tiki Museum",
+      "repository_publisher": "Kon-Tiki Museum",
+      "publication_record_date": null,
+      "locator": "Knut M. Haugland archive description",
+      "access_date": "2026-09-21",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Knut M. Haugland Archive",
+      "rights_notes": "Institutional archive description corroborating the full name, Norwegian wartime service, British SOE relationship, Kompani Linge membership, and later military career."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "hovding-radiofabrikk",
+      "canonical_name": "Høvding Radiofabrikk",
+      "historical_name": "Høvding Radiofabrikk",
+      "aliases": ["Hovding Radiofabrikk"],
+      "organization_type": "radio factory",
+      "sector": "engineering_science_and_technology",
+      "city": "Oslo",
+      "state_or_region": null,
+      "country": "Norway",
+      "normalization_notes": "The historical Norwegian name printed by Store norske leksikon is preserved. No owner, legal form, or successor organization is inferred."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "knut-haugland-hovding-radiofabrikk-b612",
+      "person_id": "8a1378f4-e6f0-530d-a153-2581acc176be",
+      "organization_key": "hovding-radiofabrikk",
+      "organization_name_as_found": "Høvding Radiofabrikk",
+      "role_title": "Radio-factory employee",
+      "occupation": "radio specialist and telegraphist",
+      "relationship_type": "employment",
+      "start_date": "1940",
+      "end_date": "1941",
+      "date_precision": "Store norske leksikon places the factory employment after Haugland's 1940 demobilization and before he went into hiding, fled Norway, and entered Kompani Linge in 1941; exact employment dates are not stated.",
+      "city": "Oslo",
+      "state_or_region": null,
+      "country": "Norway",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "This is the last documented civilian employer before Haugland resumed clandestine Allied wartime service. It is not labeled an immediate pre-OSS affiliation because the reviewed sources establish British SOE and Kompani Linge service, not a direct OSS assignment."
+    }
+  ],
+  "claims": [
+    {
+      "key": "knut-haugland-identity-b612",
+      "person_id": "8a1378f4-e6f0-530d-a153-2581acc176be",
+      "claim_type": "identity",
+      "claim_text": "The indexed First Lieutenant Knut Haugland is the Norwegian officer and resistance radio specialist Knut Magne Haugland.",
+      "evidence_paraphrase": "The exact distinctive indexed name and officer rank align with two authoritative Norwegian accounts of Knut Magne Haugland's wartime military and special-operations service; neither reviewed account establishes a direct OSS assignment.",
+      "identity_match_assessment": "High confidence from the distinctive exact name, indexed officer rank, and independent scholarly and institutional accounts identifying him as a Norwegian wartime officer and radio specialist.",
+      "temporal_assessment": "The sources document his 1940-1945 chronology, but the Box 319 personnel file remains necessary to explain why a British-SOE-linked Norwegian officer appears in the OSS index.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Do not translate index inclusion into a claim of direct OSS service. The reviewed sources establish British SOE, Kompani Linge, Norwegian resistance, and Norwegian military service; the exact NARA file relationship remains unresolved.",
+      "sources": [
+        {"source_key":"index-b612-knut-haugland","support_type":"supports","locator_override":"PDF page 198 row 20; rank 1st Lt.; Box 319","excerpt_override":"HAUGLAND KNUT 1st Lt."},
+        {"source_key":"snl-2025-knut-haugland","support_type":"supports","locator_override":"Fact box and wartime biography"},
+        {"source_key":"kontiki-archive-knut-haugland","support_type":"supports","locator_override":"Knut M. Haugland archive description"}
+      ]
+    },
+    {
+      "key": "knut-haugland-hovding-last-civilian-b612",
+      "person_id": "8a1378f4-e6f0-530d-a153-2581acc176be",
+      "affiliation_key": "knut-haugland-hovding-radiofabrikk-b612",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Høvding Radiofabrikk in Oslo is Knut Haugland's last documented civilian employer before he resumed clandestine Allied wartime service.",
+      "evidence_excerpt": "Etter demobiliseringen arbeidet han på Høvding Radiofabrikk i Oslo.",
+      "evidence_paraphrase": "The Norwegian scholarly biography places Haugland at the Oslo radio factory after demobilization, then describes his 1941 flight to Britain and admission to Kompani Linge.",
+      "identity_match_assessment": "High confidence from the distinctive exact name, officer rank, and corroborating institutional wartime biography.",
+      "temporal_assessment": "Strongly date-bounded: employment falls between 1940 demobilization and the 1941 transition to clandestine Allied service, although exact start and end dates are not supplied.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The claim is limited to the last documented civilian employer before resumed wartime service. It does not characterize Høvding Radiofabrikk as an OSS predecessor or establish a direct OSS assignment.",
+      "sources": [
+        {"source_key":"snl-2025-knut-haugland","support_type":"supports","locator_override":"Background and resistance-work sections"},
+        {"source_key":"index-b612-knut-haugland","support_type":"context_only","locator_override":"PDF page 198 row 20; Box 319"},
+        {"source_key":"kontiki-archive-knut-haugland","support_type":"context_only","locator_override":"Knut M. Haugland archive description"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "8a1378f4-e6f0-530d-a153-2581acc176be",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The distinctive exact indexed name and First Lieutenant rank are corroborated by a Norwegian scholarly biography and the Kon-Tiki Museum's Haugland archive description. Both identify Knut Magne Haugland as a Norwegian wartime officer and radio specialist. Neither source establishes a direct OSS assignment, so index inclusion is not described as OSS service.",
+      "name_variants": ["Knut Magne Haugland", "Knut M. Haugland"],
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 319 to establish the precise relationship between Haugland, the OSS personnel index, British SOE, and Kompani Linge, and to confirm the indexed First Lieutenant rank date.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b612-knut-haugland-norwegian-institutional-review",
+      "person_id": "8a1378f4-e6f0-530d-a153-2581acc176be",
+      "source_adapter": "reviewed_web",
+      "query_text": "Knut Haugland Norwegian officer resistance employment Høvding Radiofabrikk SOE Kompani Linge biography archive",
+      "query_variant_type": "distinctive_foreign_name_institutional_employment_review",
+      "started_at": "2026-09-21T14:10:00Z",
+      "completed_at": "2026-09-21T14:31:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Wikipedia was discovery-only; newspaper obituaries were unnecessary once scholarly and institutional Norwegian sources supplied the chronology; derivative history pages did not clarify the NARA-index relationship.",
+      "research_notes": "The research establishes a high-confidence identity, corrects the U.S.-Army-style automated category to foreign or Allied military personnel, and documents Høvding Radiofabrikk as the last civilian employer before resumed wartime service. It deliberately does not claim direct OSS service.",
+      "next_action": "Review Box 319 for the exact OSS-index relationship, service chronology, and any direct recruitment or liaison documentation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/batch-612-v1"
+    }
+  ]
+}

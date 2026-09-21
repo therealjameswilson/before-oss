@@ -1,5 +1,24 @@
 # Link check
 
+Batch 612 local validation, 2026-09-21 UTC: all internal links resolve across
+**24,696** locally built HTML files, including Knut Haugland's evidence profile,
+the separate Haselfeld/Haselfield and Harrington review candidates, and the
+seven-person oil-company workers category. An unrelated untracked duplicate
+Sources route adds 25 local-only pages and is excluded from the clean release.
+The checker inventoried **50,240** unique external URLs; it did not request
+every target. The public-identifier audit compared **12,926** normalized
+identifiers and **120** variants against **24,768** public artifacts, with zero
+unexpected full-number boundary matches. The local release verifier matched
+all **67** manifest-listed assets and **97,618,109** bytes at manifest SHA-256
+`1052685216f532cd1e4d41ed3fd13e8912b446b396dd8af5b43242c4d3be5b5a`.
+Clean CI, Pages deployment, and live exact-file verification remain separate
+release checks.
+The tracked-only build excluded the unrelated route and contained **24,671**
+HTML files and **24,743** total artifacts. Every internal link resolved, the
+identifier scan found zero unexpected matches, and two consecutive builds
+matched the same SHA-256 tree digest
+`a524c8f6e3510181ef958df5d976438c92ae00f4d999b7adde271c49dae9dad5`.
+
 Batch 611 local validation, 2026-09-21 UTC: all internal links resolve across
 **24,695** locally built HTML files, including Moses Hadas's evidence profile,
 the separate same- and different-identifier duplicate candidates, and the

@@ -1,5 +1,35 @@
 # Research status
 
+Batch 612 visually checked all **460** printed rows on PDF pages 191–200.
+Every row matches the immutable extraction, raising the durable visual-review
+ledger to **166/522 pages**; **356** remain. Fifteen possible-duplicate or
+spelling-variant groups covering 31 people remain separate pending stronger
+evidence. Three Simon/Stephen Harrington records are now explicitly conflicting
+because the index combines identical names with different private identifiers
+and reuses one identifier under a different name. A bounded LoC first pass
+completed **46** page-147 searches and saved **88** discovery candidates across
+23 people; none was accepted as an identity or employer claim.
+[Knut Haugland](https://therealjameswilson.github.io/before-oss/people/8a1378f4-e6f0-530d-a153-2581acc176be/)
+now has a high-confidence, strongly date-bounded last civilian employer at
+Høvding Radiofabrikk and is classified as foreign or Allied military personnel.
+The reviewed sources do not establish a direct OSS assignment or prove that the
+company was his immediate pre-OSS affiliation, so Box 319 remains necessary.
+The top oil-company workers category remains **seven** people and does not add
+Haugland. See `research/batch-612-progress.md`. No authenticated NARA Catalog
+request was made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,940** active
+people. Research-attempt coverage is **6,963/23,940 (29.0852%)**;
+verified-employer coverage is **274/23,940 (1.1445%)**;
+verified-affiliation coverage is **622/23,940 (2.5982%)**; archival-review
+coverage is **5,896/23,940 (24.6282%)**. There are **16,977** `not_started`
+people and **334** active possible-duplicate groups. SQLite retains **12,016**
+attempts or plans and **4,880** claims: 1,311 confirmed, 1,879 high, 1,373
+medium, 185 low, and 132 conflicting. It has **5,026** source/citation records
+and **2,353** unique source-document keys. The public projection has **2,212**
+affiliations, **697** organizations, **3,823** sources, and **4,691** claims.
+Full-index historical research remains unfinished.
+
 Batch 611 visually checked all **460** printed rows on PDF pages 181–190.
 Because page 184 was already represented by a row-specific parser-warning
 decision, the distinct ledger rises by nine to **156/522 pages**; **366**
