@@ -1,5 +1,41 @@
 # Research status
 
+Batch 615 visually checked all **460** printed rows on PDF pages 221–230.
+Every row matches the immutable extraction, raising the durable ledger to
+**193/522 pages**; **329** remain. Sixteen possible-duplicate or spelling-
+variant groups covering 34 people were reviewed without merging any record.
+The clusters explicitly preserve exact-name rows with different private
+identifiers, present/absent-identifier pairs, spelling variants, and common
+names with different initials as separate entities pending direct file review.
+A bounded LoC first pass completed **46** page-221 searches, creating or
+revisiting **64** discovery candidates; one completed fingerprint was skipped
+and there were no errors or blocks. Twenty-two people have candidate leads and
+24 had no result from this source-specific pass. None of those leads was
+accepted as an identity or employer claim.
+[Alex Inkeles](https://therealjameswilson.github.io/before-oss/people/2a63f636-b442-5b0e-9b45-5c8c53d8b670/)
+now has a high-confidence identity and two distinct high-confidence pathways:
+the U.S. Army Signal Corps is his explicit immediate pre-OSS military
+affiliation, while Cornell University is his last documented civilian employer.
+Official Cornell trustee minutes record his paid Sociology and Anthropology
+assistantship and March 1, 1942 resignation; Barry Katz's scholarly history
+places him in the Signal Corps immediately before OSS Research and Analysis
+recruitment. The index supplies no rank, so none is inferred. The featured
+oil-company category remains evidence-scoped to **seven** people. See
+`research/batch-615-progress.md`. No authenticated NARA Catalog request was
+made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,940** active
+people. Research-attempt coverage is **7,101/23,940 (29.6617%)**;
+verified-employer coverage is **277/23,940 (1.1571%)**;
+verified-affiliation coverage is **625/23,940 (2.6107%)**; archival-review
+coverage is **6,028/23,940 (25.1796%)**. There are **16,839** `not_started`
+people and **395** active possible-duplicate groups. SQLite retains **12,156**
+attempts or plans and **4,889** claims: 1,311 confirmed, 1,888 high, 1,373
+medium, 185 low, and 132 conflicting. It has **5,035** source/citation records
+and **2,362** unique source-document keys. The public projection has **2,218**
+affiliations, **703** organizations, **3,832** sources, and **4,700** claims.
+Full-index historical research remains unfinished.
+
 Batch 614 visually checked all **460** printed rows on PDF pages 211–220.
 Every row matches the immutable extraction. Because pages 215 and 220 already
 had complete-page decisions, the durable ledger rises by eight to **183/522

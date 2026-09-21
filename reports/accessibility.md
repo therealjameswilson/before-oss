@@ -1,5 +1,17 @@
 # Accessibility and responsive QA
 
+Batch 615 local validation, 2026-09-21 UTC: the isolated tracked-only bounded
+release suite passed **81/81** desktop, phone, and tablet checks: 12 Alex
+Inkeles, separate duplicate-candidate, and oil-category checks; 33 core-route
+checks; six analysis checks; and 30 accessibility checks with no serious or
+critical axe violations. All **126** Python unit tests passed. Astro reported
+zero errors, warnings, or hints across **246** source files and built **24,677**
+static pages. Every internal link resolves, the 200-profile stratified
+structural audit passes all seven checks, and two consecutive builds reproduce
+the same output-tree digest. The structural audit is not the required
+independent manual historical audit of 200 profiles. These local results do not
+by themselves establish CI or public deployment.
+
 Batch 614 local validation, 2026-09-21 UTC: the bounded release suite passed
 **81/81** desktop, phone, and tablet checks: 12 William Holohan, safe duplicate-
 group, and top oil-category checks; 33 core-route checks; six analysis checks;
