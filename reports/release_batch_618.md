@@ -76,8 +76,22 @@ Two independent clean production builds produced the same 24,753-file,
 
 ## Deployment
 
-Pending pull-request CI, merge, post-merge Test and Pages runs, and
-unauthenticated live-artifact verification.
+Research pull request
+[#337](https://github.com/therealjameswilson/before-oss/pull/337)
+passed its required test job and merged as commit
+`49f1c627557bdc017ffb1e2ddace81fcfca013b5`. The post-merge
+[Test run 35594512963](https://github.com/therealjameswilson/before-oss/actions/runs/35594512963)
+and
+[Pages run 35594512974](https://github.com/therealjameswilson/before-oss/actions/runs/35594512974)
+both completed successfully.
+
+Unauthenticated verification against the deployed site and the exact merged
+commit matched all **67** manifest assets and **97,982,649** bytes at manifest
+SHA-256
+`4978362fdd3cab50c7f3b5c386948795a85562e7255f90b11653bd40e564174a`.
+It also verified all eight core routes, all 26 source-register pages, the
+canonical David Krech profile, and all 26 profiles represented in the reviewed
+duplicate/variant evidence bundle.
 
 ## Resume
 
