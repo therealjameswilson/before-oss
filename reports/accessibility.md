@@ -1,5 +1,22 @@
 # Accessibility and responsive QA
 
+Batch 605 local validation, 2026-09-21 UTC: the bounded release suite
+passed **78/78** desktop/phone/tablet checks: nine new checks for the
+seven-person oil-company category, Eric S Erickson's qualified Pennco
+claim, and separate page-137 Ericsson variants; 33 core-route checks;
+six analysis checks; and 30 accessibility checks with no serious or
+critical axe violations. All **122** Python unit tests passed. Astro
+reported zero errors, warnings, or hints across **237** local source
+files and built **24,693** local pages. An unrelated, untracked duplicate
+Sources route adds 25 local-only pages and is excluded from the clean
+release. A broader affected desktop regression set passed **558/558**
+after three stale historical expectations were aligned with previously
+published Eifler, Eddy, and Bielaski corrections; their source records
+and claims were not changed. The 200-profile stratified **structural**
+audit passed; it does
+not substitute for manual historical source review of 200 profiles.
+These local checks do not establish CI or public deployment.
+
 Batch 604 local validation, 2026-09-21 UTC: the bounded release suite
 passed **81/81** desktop/phone/tablet checks: 12 new checks for Van Harvey
 English, the Enders and Endacott namesake exclusions, and separate page-136

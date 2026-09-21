@@ -20,7 +20,7 @@ test("Eifler's Army, COI, and Customs roles remain distinct", async ({ page }) =
 
 test("the featured oil category excludes Eifler's father's oil-field work", async ({ page }) => {
   await page.goto("./oil-companies/");
-  const list = page.getByRole("region", { name: "Oil company employee list" });
-  await expect(list.locator(".oil-directory__person")).toHaveCount(6);
+  const list = page.getByRole("region", { name: "Oil company work list" });
+  await expect(list.locator(".oil-directory__person")).toHaveCount(7);
   await expect(list).not.toContainText("Carl F Eifler");
 });

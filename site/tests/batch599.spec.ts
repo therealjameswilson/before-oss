@@ -49,5 +49,5 @@ test("the oil-company category remains linked at the top of the home page", asyn
   await page.goto("./");
   await expect(page.locator("#oil-companies").getByRole("heading", { name: "People who worked for oil companies" }))
     .toBeVisible();
-  await expect(page.locator("#oil-companies .oil-directory__person")).toHaveCount(6);
+  await expect(page.locator("#oil-companies .oil-directory__person")).toHaveCount(7);
 });

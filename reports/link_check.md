@@ -1,5 +1,19 @@
 # Link check
 
+Batch 605 local validation, 2026-09-21 UTC: all internal links resolve
+across **24,693** locally built HTML files, including the new Pennco
+organization and Eric S Erickson profile and the seven-person oil-company
+category. The unrelated untracked duplicate Sources route adds 25
+local-only pages and is excluded from the release. The checker inventoried
+**50,223** unique external URLs; it did not request every target. The
+public-identifier audit compared **12,926** normalized identifiers and
+**120** formatted variants against **24,765** public artifacts, with zero
+unexpected full-number boundary matches. The local public manifest lists
+**67** assets and **97,349,211** bytes, SHA-256
+`99252a1541f8f71116e0e40120264955d8d1131140f4d0923ae03f46eae64ea9`.
+Clean CI, Pages deployment, and live exact-file verification remain
+separate release checks.
+
 Batch 604 local validation, 2026-09-21 UTC: all internal links resolve
 across **24,692** locally built HTML files, including the page-136
 profiles, direct evidence citations, and six-person oil-company category.

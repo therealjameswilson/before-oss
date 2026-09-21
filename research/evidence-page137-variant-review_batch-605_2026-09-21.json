@@ -1,0 +1,24 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 605 page 137 variant review",
+  "person_updates": [
+    {
+      "person_id": "8c90cc9d-c865-5ce0-9228-af5c73030496",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 137 row 25 prints H. Loyd Ericsson in Box 222 without rank or identifier; row 26 prints Herman Lloyd Ericsson in the same box, also without an identifier. Initial and given-name expansion plus Lloyd/Loyd variation warrant comparison, but the index does not prove one person.",
+      "possible_duplicate_group": "p137-h-loyd-herman-lloyd-ericsson-b605",
+      "manual_review_required": true,
+      "next_action": "Compare the two Box 222 personnel files for shared identifiers, dates, signatures, or assignment details before any merge or employer transfer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f6cd3541-4660-53d2-a300-498aee2a1789",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 137 row 26 prints Herman Lloyd Ericsson in Box 222 without rank or identifier; row 25 prints H. Loyd Ericsson in Box 222. The names could be variants, but both original spellings and separate person entities are retained until direct file evidence resolves them.",
+      "possible_duplicate_group": "p137-h-loyd-herman-lloyd-ericsson-b605",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 222 files and look for shared independent identifiers; do not merge based on the near-match alone.",
+      "archival_review_priority": "high"
+    }
+  ]
+}

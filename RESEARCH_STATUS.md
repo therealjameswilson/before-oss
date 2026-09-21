@@ -1,5 +1,32 @@
 # Research status
 
+Batch 605 visually checked all 46 printed rows on PDF page 137, bringing
+the distinct review ledger to **108/522 pages**; **414** remain. A bounded
+Library of Congress first pass covered all 46 page-137 people, saving
+seven unreviewed discovery leads for four common-name Erickson rows. The
+`H. Loyd Ericsson` / `Herman Lloyd Ericsson` pair is marked as a possible
+duplicate without merging either entity. A separately reviewed,
+source-cited [Eric S Erickson](https://therealjameswilson.github.io/before-oss/people/cd589355-8c39-5c32-9510-a747d795d9d6/)
+claim records his own Pennco oil business by 1937 at **qualified medium
+confidence**, not as a proven immediate pre-OSS predecessor or exact
+prewar legal entity. The featured oil-company category now lists **seven**
+people with cited employment or self-employment at named oil companies;
+it excludes mere industry mentions and unbridged namesakes. See
+`research/batch-605-progress.md`. No authenticated NARA Catalog request
+was made.
+
+Current local SQLite has **23,978/23,978** linked source rows and **23,940**
+active people. Research-attempt coverage is **6,505/23,940 (27.1721%)**;
+verified-employer coverage is **271/23,940 (1.1320%)**; verified-affiliation
+coverage is **617/23,940 (2.5773%)**; archival-review coverage is
+**5,767/23,940 (24.0894%)**. There are **17,435** `not_started` people and
+**280** possible-duplicate groups. SQLite retains **11,549** attempts or
+plans and **4,866** claims: 1,311 confirmed, 1,868 high, 1,370 medium,
+185 low, and 132 conflicting. It has **5,003** source/citation records and
+**2,332** unique source-document keys. The public projection has **2,203**
+affiliations, **694** organizations, **3,800** sources, and **4,677** claims.
+Full-index historical research remains unfinished.
+
 Batch 604 rechecked all 46 printed rows on PDF page 136, which was already
 in the sampled visual-review ledger. The distinct total remains **107/522
 pages**; **415** remain. All 46

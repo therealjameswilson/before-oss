@@ -30,8 +30,8 @@ test("Paul Endacott's Phillips career is excluded from John Endacott and the oil
   await expect(page.locator('section[aria-labelledby="civilian-employer"]'))
     .not.toContainText("Phillips Petroleum");
   await page.goto("./oil-companies/");
-  const list = page.getByRole("region", { name: "Oil company employee list" });
-  await expect(list.locator(".oil-directory__person")).toHaveCount(6);
+  const list = page.getByRole("region", { name: "Oil company work list" });
+  await expect(list.locator(".oil-directory__person")).toHaveCount(7);
   await expect(list).not.toContainText("John L Endacott");
 });
 

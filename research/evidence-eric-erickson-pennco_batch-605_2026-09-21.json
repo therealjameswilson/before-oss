@@ -1,0 +1,169 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 605 Eric S Erickson oil-business review",
+  "sources": [
+    {
+      "key": "b605-index-erickson-page137",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 221",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 137, row 18: Erickson, Eric S; note Swedish; Box 221; archive location 230/86/30/06",
+      "access_date": "2026-09-21",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Visually checked index row; the index does not name an employer."
+    },
+    {
+      "key": "b605-cia-safehaven-erickson",
+      "stable_url": "https://www.cia.gov/resources/csi/static/oss-project-safehaven.pdf",
+      "title": "The OSS and Project SAFEHAVEN: Tracking Nazi 'Gold'",
+      "author_creator": "Donald P. Steury",
+      "repository_publisher": "Central Intelligence Agency, Center for the Study of Intelligence",
+      "publication_record_date": "2000",
+      "locator": "Studies in Intelligence, Summer 2000, No. 9, PDF page 9, paragraph on German petroleum exports to Sweden",
+      "access_date": "2026-09-21",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Studies in Intelligence",
+      "rights_notes": "Project-authored paraphrase only; this source confirms OSS work and Swedish context, not Pennco employment."
+    },
+    {
+      "key": "b605-nz-gazette-erickson-spelling",
+      "stable_url": "https://library.victoria.ac.nz/databases/nzgazettearchive/pubs/gazettes/1943/1943%20ISSUE%20046.pdf",
+      "title": "New Zealand Gazette, Issue 46, Enemy Trading Amendment Notice",
+      "author_creator": "Government of New Zealand",
+      "repository_publisher": "New Zealand Gazette, archived by Victoria University of Wellington",
+      "publication_record_date": "1943-06-17",
+      "locator": "Page 673, Sweden amendment; PDF page 20: corrects Ericsson, Eric Siegfried to Erickson, Eric Siegfried, Norrkoping",
+      "access_date": "2026-09-21",
+      "source_quality": "A_direct_official",
+      "collection_name": "New Zealand Gazette",
+      "rights_notes": "Government notice used as an identity and spelling cross-check only; it does not establish an employer."
+    },
+    {
+      "key": "b605-talyt-secret-agent-book-summary",
+      "stable_url": "https://books.google.com/books/about/The_Secret_Agent.html?id=pxjqAgAAQBAJ",
+      "archival_identifier": "ISBN 9781626811652",
+      "title": "The Secret Agent: In Search of America's Greatest World War II Spy",
+      "author_creator": "Stephan Talty",
+      "repository_publisher": "Diversion Books; bibliographic and publisher description via Google Books",
+      "publication_record_date": "2014-05-18",
+      "locator": "Publisher description, lines 39-52; identifies Eric Erickson as a millionaire oil businessman in 1942",
+      "access_date": "2026-09-21",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Only the authorized book description was consulted; it does not name Pennco. No unauthorized full-text mirror is used as evidence."
+    },
+    {
+      "key": "b605-globala-eremitaget-erickson-pennco",
+      "stable_url": "https://globalaeremitaget.com/eric-erickson-den-bortglomda-svenska-storspionen/",
+      "title": "Eric Erickson: Den bortglömda svenska storspionen",
+      "repository_publisher": "Globala Eremitaget",
+      "locator": "Opening biography and Bortglömd svensk storspion? section, paragraphs identifying Pennco and 1937",
+      "access_date": "2026-09-21",
+      "source_quality": "D_correlative_or_secondary",
+      "rights_notes": "Swedish historical essay is used as qualified secondary evidence for the named prewar business; no extensive text is reproduced. Its exact legal-company identification has not been verified from a prewar corporate record."
+    },
+    {
+      "key": "b605-stockholm-directory-pennco-1952",
+      "stable_url": "https://sok.stadsarkivet.stockholm.se/bildarkiv/egenproducerat/rodaboken/Roda_boken_1952_109_126.pdf",
+      "title": "Röda boken: Stockholm telephone directory, 1952",
+      "repository_publisher": "Stockholms stadsarkiv",
+      "publication_record_date": "1952",
+      "locator": "Furusundsgatan 15 entry: Bensin AB Pennco followed by Dir. Eric S Erickson",
+      "access_date": "2026-09-21",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Röda boken",
+      "rights_notes": "Postwar directory corroborates the exact indexed name and a Pennco-related company but cannot establish pre-OSS timing or prove that this legal entity existed in 1937."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "b605-pennco-erickson-oil-business",
+      "canonical_name": "Pennco (Eric Erickson oil business)",
+      "historical_name": "Pennco",
+      "aliases": ["Pennco-Oil"],
+      "organization_type": "petroleum company",
+      "sector": "business_and_industry",
+      "city": "Norrköping",
+      "country": "Sweden",
+      "normalization_notes": "The historical essay names Pennco as Erickson's own oil business by 1937. A 1952 directory links Eric S Erickson to Bensin AB Pennco, but this later legal entity is not silently equated with the prewar Pennco business. Pennco, Bilkol A/B, Pennco, Cistern A/B, and Pennco, Garage A/B remain distinct legal entities."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "b605-erickson-pennco-prewar",
+      "person_id": "cd589355-8c39-5c32-9510-a747d795d9d6",
+      "organization_key": "b605-pennco-erickson-oil-business",
+      "organization_name_as_found": "Pennco; Pennco-Oil",
+      "role_title": "Owner and oil trader",
+      "occupation": "oil trader",
+      "relationship_type": "self_employment",
+      "start_date": "1937",
+      "date_precision": "Documented as operating Pennco by 1937 in a secondary historical essay; founding date and exact pre-OSS legal entity unverified",
+      "city": "Norrköping",
+      "country": "Sweden",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "D_correlative_or_secondary",
+      "publication_status": "publish_qualified",
+      "research_notes": "Named prewar own-business claim rests on a secondary historical essay, with 1942 oil-business context from Talty's publisher and exact-name postwar Pennco director cross-check from Stockholm City Archives. Do not call Pennco the immediate pre-OSS predecessor or Bensin AB Pennco the proven 1937 legal employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "b605-erickson-pennco-prewar-claim",
+      "person_id": "cd589355-8c39-5c32-9510-a747d795d9d6",
+      "affiliation_key": "b605-erickson-pennco-prewar",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A Swedish historical essay reports that Eric S. Erickson operated his own Pennco oil business by 1937. The exact pre-OSS legal entity and whether Pennco immediately preceded his OSS work remain unverified.",
+      "evidence_paraphrase": "The Swedish essay dates Erickson's operation of Pennco to 1937; a published book description places him in the oil business in 1942, and a later Stockholm directory names Eric S. Erickson as director of a Pennco company.",
+      "identity_match_assessment": "High, not confirmed: the index has Eric S. Erickson marked Swedish; the official CIA history identifies a Swedish Eric Erickson in OSS; a 1943 government notice expands the middle initial to Siegfried, and a 1952 Stockholm directory gives the exact Eric S. Erickson spelling. The Box 221 file has not been reviewed.",
+      "temporal_assessment": "The essay's 1937 business date predates OSS. The 1952 directory is postwar and only corroborates the later name-company association. Neither source establishes the immediate predecessor to OSS; no last civilian employer before military service is designated.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Pennco is represented as his own named oil business, not as a proven employment contract at Bensin AB Pennco or as a generic oil-industry occupation. The essay's disputed wartime recruitment chronology and later biographical claims are not imported. Review Box 221 and Swedish corporate records for a stronger temporal and legal-company bridge.",
+      "sources": [
+        {"source_key": "b605-globala-eremitaget-erickson-pennco", "support_type": "supports"},
+        {"source_key": "b605-talyt-secret-agent-book-summary", "support_type": "context_only"},
+        {"source_key": "b605-stockholm-directory-pennco-1952", "support_type": "context_only"},
+        {"source_key": "b605-cia-safehaven-erickson", "support_type": "context_only"},
+        {"source_key": "b605-nz-gazette-erickson-spelling", "support_type": "context_only"},
+        {"source_key": "b605-index-erickson-page137", "support_type": "context_only"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "cd589355-8c39-5c32-9510-a747d795d9d6",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The visually verified Box 221 index row gives Eric S Erickson and Swedish status. CIA's institutional history explicitly identifies a Swedish Eric Erickson working for OSS. A 1943 official notice gives Eric Siegfried Erickson in Sweden; a Stockholm directory gives exact Eric S Erickson and Pennco director. No contrary indexed Eric S candidate was found, but the Box 221 file has not been inspected.",
+      "name_variants": ["Eric S. Erickson", "Eric Siegfried Erickson", "Eric Sigfrid Erickson", "Eric 'Red' Erickson"],
+      "research_status": "in_progress",
+      "next_action": "Review Box 221 and pre-1942 Swedish corporate records to verify Pennco's exact legal entity, its operating dates, and whether another affiliation intervened before OSS work.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b605-erickson-pennco-review",
+      "person_id": "cd589355-8c39-5c32-9510-a747d795d9d6",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Eric S Erickson Swedish OSS Pennco 1937 oil company archive directory",
+      "query_variant_type": "official_history_government_notice_institutional_directory_historical_essay",
+      "started_at": "2026-09-21T01:10:00Z",
+      "completed_at": "2026-09-21T01:22:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "research_notes": "Cross-checked the visually verified index against CIA OSS history, a 1943 official spelling notice, the authorized description of a published biography, a Swedish historical essay, and a 1952 Stockholm directory. Only the essay dates Pennco to before OSS; the later directory does not. The business is therefore a qualified medium-confidence prewar self-employment claim, not an immediate-pre-OSS or exact legal-entity assertion.",
+      "next_action": "Inspect Box 221 and prewar Swedish company records for a direct company and chronology bridge.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-605-v1"
+    }
+  ]
+}

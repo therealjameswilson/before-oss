@@ -45,13 +45,13 @@ const oilCompanyEmploymentOrganizationCount = oilCompanyCategory.organizationCou
     >
       <div>
         <p class="kicker">Featured category</p>
-        <h2 id="oil-company-category-title">Oil company employees</h2>
+        <h2 id="oil-company-category-title">People who worked for oil companies</h2>
         <p>
           {oilCompanyPersonIds.length.toLocaleString("en-US")} people have
-          published evidence of employment by{" "}
+          published evidence of employment or self-employment at{" "}
           {oilCompanyEmploymentOrganizationCount.toLocaleString("en-US")}{" "}
           historically named oil, petroleum, refining, or exploration companies.
-          Professional affiliations that do not establish employment are excluded.
+          Professional affiliations that do not establish work for a named company are excluded.
         </p>
       </div>
       <button
@@ -77,7 +77,7 @@ const oilCompanyEmploymentOrganizationCount = oilCompanyCategory.organizationCou
         ))}
       </ul>
       <p class="featured-directory-category__note">
-        This list includes only cited employment relationships, not every search
+        This list includes only cited employment or self-employment relationships, not every search
         result containing “oil.” <a href={`${base}oil-companies/`}>See the full category and evidence status</a>.
       </p>
     </section>

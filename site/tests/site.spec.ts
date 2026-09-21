@@ -72,16 +72,16 @@ test("directory search, commissioned filter, and URL state work", async ({ page 
   await expect(page.locator("#result-summary")).not.toHaveText(new RegExp(allResults));
 });
 
-test("featured oil-company category lists employment relationships only", async ({ page }) => {
+test("featured oil-company category lists cited work relationships only", async ({ page }) => {
   await page.goto("./people/");
   await expect(
     page.getByRole("navigation", { name: "Primary navigation" })
-      .getByRole("link", { name: "Oil-company employees", exact: true }),
+      .getByRole("link", { name: "Oil company work", exact: true }),
   ).toHaveAttribute("href", /oil-companies\/$/);
-  const category = page.getByRole("region", { name: "Oil company employees" });
+  const category = page.getByRole("region", { name: "People who worked for oil companies" });
   await expect(category).toBeVisible();
   await expect(category).toContainText(`${oilCompanyPeople.size} people`);
-  await expect(category).toContainText("Professional affiliations that do not establish employment are excluded.");
+  await expect(category).toContainText("Professional affiliations that do not establish work for a named company are excluded.");
   await expect(category.locator(".featured-directory-category__list li"))
     .toHaveCount(oilCompanyPeople.size);
   for (const name of oilCompanyPeople.values()) {
@@ -126,14 +126,14 @@ test("home oil-company category names only cited employees and their companies",
 
 test("oil-company landing page lists only cited employees and labels qualified claims", async ({ page }) => {
   await page.goto("./oil-companies/");
-  const list = page.getByRole("region", { name: "Oil company employee list" });
+  const list = page.getByRole("region", { name: "Oil company work list" });
   await expect(list.locator(".oil-directory__person")).toHaveCount(oilCompanyPeople.size);
   for (const name of oilCompanyPeople.values()) {
     await expect(list.getByRole("link", { name, exact: true })).toBeVisible();
   }
   await expect(list.getByRole("link", { name: "Martin B Chittick" })).toHaveCount(0);
   await expect(list.getByRole("link", { name: "Fred Bielaski", exact: true })).toHaveCount(0);
-  await expect(list.getByText("Qualified medium-confidence employment claim").first()).toBeVisible();
+  await expect(list.getByText("Qualified medium-confidence work claim").first()).toBeVisible();
   await list.getByRole("link", { name: "Review claim-level evidence" }).first().click();
   await expect(page).toHaveURL(/people\/[^/]+\/#evidence$/);
 });
@@ -160,7 +160,7 @@ test("top oil-company category link opens only the documented employee set", asy
   await page.goto("./");
   await page
     .getByRole("navigation", { name: "Primary navigation" })
-    .getByRole("link", { name: "Oil-company employees", exact: true })
+    .getByRole("link", { name: "Oil company work", exact: true })
     .click();
 
   await expect(page).toHaveURL(/oil-companies\/$/);
@@ -759,7 +759,7 @@ test("Batch 009 preserves civilian, military, government, and duplicate-row boun
     {
       id: "a0f164c7-505d-5cb9-88e1-0c3c1f1be22f",
       name: "Carl F Eifler",
-      immediate: "K Company, 35th Infantry Regiment",
+      immediate: "Coordinator of Information",
       lastCivilian: "United States Customs Service",
       source: "Colonel Carl F. Eifler, US Army, Retired",
     },
@@ -1084,7 +1084,7 @@ test("Batch 012 preserves qualified military pathways, unnamed employers, studen
   await expect(
     page
       .locator('section[aria-labelledby="immediate-affiliation"]')
-      .getByRole("heading", { name: "United States Marine Corps", exact: true }),
+      .getByRole("heading", { name: "Coordinator of Information", exact: true }),
   ).toBeVisible();
   await expect(
     page
@@ -18301,7 +18301,7 @@ test("Batch 206 separates detective, Army intelligence, bookstore, and unresolve
   await page.goto("./people/15a29a44-a8fd-5b29-b86e-f5ec49ccf794/");
   await expect(page.getByText("high confidence", { exact: true }).first()).toBeVisible();
   await expect(
-    page.getByText("documented prewar employer found", { exact: true }).first(),
+    page.getByText("requires archival review", { exact: true }).first(),
   ).toBeVisible();
   await expect(page.locator('section[aria-labelledby="earlier-affiliations"]')).toContainText(
     "Richmond Levering Co., Inc.",
