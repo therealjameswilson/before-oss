@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import sqlite3
 import unittest
+from types import SimpleNamespace
+from unittest.mock import patch
 
 from oss_research.research import (
     assign_page_batch,
@@ -10,6 +12,8 @@ from oss_research.research import (
     discovery_outcome,
     has_unreviewed_research_candidate,
     record_discovery_progress,
+    record_research_error,
+    run_research,
     source_query_options,
 )
 
@@ -298,6 +302,121 @@ class ResearchQuerySchedulerTests(unittest.TestCase):
             has_unreviewed_research_candidate(connection, "person-1")
         )
 
+    def test_exhausted_adapter_error_returns_resumable_summary(self) -> None:
+        connection = sqlite3.connect(":memory:")
+        connection.row_factory = sqlite3.Row
+        try:
+            connection.executescript(
+                """
+                CREATE TABLE person_entities(
+                    person_id TEXT PRIMARY KEY,
+                    display_name TEXT NOT NULL,
+                    normalized_name TEXT NOT NULL,
+                    difficulty_tier INTEGER NOT NULL,
+                    commissioned_officer INTEGER NOT NULL,
+                    research_status TEXT NOT NULL,
+                    research_started_at TEXT,
+                    research_attempt_number INTEGER NOT NULL,
+                    next_action TEXT,
+                    last_error TEXT,
+                    research_agent_version TEXT,
+                    updated_at TEXT
+                );
+                CREATE TABLE research_queue(
+                    person_id TEXT PRIMARY KEY,
+                    assigned_batch TEXT,
+                    priority INTEGER NOT NULL,
+                    research_status TEXT NOT NULL,
+                    attempts INTEGER NOT NULL,
+                    next_action TEXT,
+                    updated_at TEXT
+                );
+                CREATE TABLE source_records(
+                    source_record_id TEXT PRIMARY KEY,
+                    rank_normalized TEXT,
+                    serial_number_normalized TEXT
+                );
+                CREATE TABLE person_source_links(
+                    person_id TEXT NOT NULL,
+                    source_record_id TEXT NOT NULL
+                );
+                CREATE TABLE candidate_matches(
+                    person_id TEXT,
+                    candidate_type TEXT,
+                    candidate_url TEXT,
+                    match_assessment TEXT
+                );
+                CREATE TABLE request_audit(
+                    adapter TEXT,
+                    person_id TEXT,
+                    request_fingerprint TEXT,
+                    requested_at TEXT,
+                    error_class TEXT
+                );
+                CREATE TABLE research_attempts(
+                    research_attempt_id TEXT PRIMARY KEY,
+                    person_id TEXT NOT NULL,
+                    source_adapter TEXT NOT NULL,
+                    query_text TEXT NOT NULL,
+                    query_variant_type TEXT NOT NULL,
+                    request_fingerprint TEXT NOT NULL,
+                    started_at TEXT NOT NULL,
+                    completed_at TEXT,
+                    outcome TEXT NOT NULL,
+                    sources_reviewed INTEGER NOT NULL,
+                    candidate_sources_rejected INTEGER NOT NULL,
+                    research_notes TEXT,
+                    next_action TEXT,
+                    last_error_redacted TEXT,
+                    attempt_number INTEGER NOT NULL,
+                    research_agent_version TEXT NOT NULL
+                );
+                INSERT INTO person_entities VALUES (
+                    'person-1', 'Test Person', 'test person', 1, 0,
+                    'not_started', NULL, 0, NULL, NULL, NULL, 'old-time'
+                );
+                INSERT INTO research_queue VALUES (
+                    'person-1', 'test-batch', 1, 'not_started', 0, NULL,
+                    'old-time'
+                );
+                INSERT INTO source_records VALUES ('row-1', 'CIV', NULL);
+                INSERT INTO person_source_links VALUES ('person-1', 'row-1');
+                """
+            )
+            with patch("oss_research.research.LocAdapter") as adapter_class:
+                adapter_class.return_value.search.side_effect = TimeoutError(
+                    "sensitive transport detail"
+                )
+                result = run_research(
+                    connection,
+                    SimpleNamespace(research_scope="all_personnel"),
+                    source="loc",
+                    max_queries=5,
+                    batch="test-batch",
+                    resume=True,
+                )
+
+            self.assertEqual(result["errors"], 1)
+            self.assertEqual(result["queries_searched"], 0)
+            self.assertEqual(result["people_with_live_attempts_this_run"], 1)
+            attempt = connection.execute(
+                "SELECT * FROM research_attempts WHERE person_id='person-1'"
+            ).fetchone()
+            person = connection.execute(
+                "SELECT * FROM person_entities WHERE person_id='person-1'"
+            ).fetchone()
+            self.assertEqual(attempt["outcome"], "error")
+            self.assertEqual(attempt["last_error_redacted"], "TimeoutError")
+            self.assertNotIn("sensitive transport detail", attempt["research_notes"])
+            self.assertEqual(person["research_status"], "in_progress")
+            self.assertEqual(person["last_error"], "TimeoutError")
+            self.assertIn("Retry loc", person["next_action"])
+            self.assertNotIn(
+                "person-1", completed_source_people(connection, "loc")
+            )
+        finally:
+            connection.close()
+
 
 class DiscoveryStatusPreservationTests(unittest.TestCase):
     def setUp(self) -> None:
@@ -311,6 +430,7 @@ class DiscoveryStatusPreservationTests(unittest.TestCase):
                 research_started_at TEXT,
                 research_attempt_number INTEGER NOT NULL,
                 next_action TEXT,
+                last_error TEXT,
                 research_agent_version TEXT,
                 updated_at TEXT
             );
@@ -323,7 +443,7 @@ class DiscoveryStatusPreservationTests(unittest.TestCase):
             );
             INSERT INTO person_entities VALUES
                 ('person-1', 'not_started', NULL, 0,
-                 'Keep reviewed action', 'manual-review', 'old-time');
+                 'Keep reviewed action', NULL, 'manual-review', 'old-time');
             INSERT INTO research_queue VALUES
                 ('person-1', 'not_started', 0,
                  'Keep reviewed action', 'old-time');
@@ -405,6 +525,26 @@ class DiscoveryStatusPreservationTests(unittest.TestCase):
                 self.assertEqual(person["research_agent_version"], "manual-review")
                 self.assertEqual(person["research_attempt_number"], 5)
                 self.assertEqual(queue["attempts"], 5)
+
+    def test_transport_error_is_counted_but_remains_resumable(self) -> None:
+        record_research_error(
+            self.connection,
+            person_id="person-1",
+            source="loc",
+            error_class="TimeoutError",
+        )
+        person = self.connection.execute(
+            "SELECT * FROM person_entities WHERE person_id='person-1'"
+        ).fetchone()
+        queue = self.connection.execute(
+            "SELECT * FROM research_queue WHERE person_id='person-1'"
+        ).fetchone()
+        self.assertEqual(person["research_status"], "in_progress")
+        self.assertEqual(queue["research_status"], "in_progress")
+        self.assertEqual(person["research_attempt_number"], 1)
+        self.assertEqual(queue["attempts"], 1)
+        self.assertEqual(person["last_error"], "TimeoutError")
+        self.assertIn("Retry loc", person["next_action"])
 
 
 if __name__ == "__main__":
