@@ -1,0 +1,233 @@
+{
+  "bundle_version": "2026-09-21-batch-616-v1",
+  "reviewer": "Before OSS research pipeline",
+  "sources": [
+    {
+      "key": "index-b616-garson-kanin",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 389",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 240 row 17; Garson Kanin; rendered at 180 dpi and visually inspected; Box 389; location 230/86/35/01",
+      "access_date": "2026-09-21",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "The public citation retains the indexed name, box, and archival location while excluding the private identifier. The row establishes an indexed OSS personnel file and supports identity resolution with the independent Library of Congress, AFI, and estate sources."
+    },
+    {
+      "key": "loc-garson-kanin-papers-b616",
+      "stable_url": "https://findingaids.loc.gov/repositories/19/resources/3113",
+      "archival_identifier": "MSS29280",
+      "title": "Garson Kanin Papers",
+      "author_creator": "Prepared by Grover Batts; revised by Donna Ellis",
+      "repository_publisher": "Manuscript Division, Library of Congress",
+      "publication_record_date": "2006",
+      "locator": "Scope and Content Note and Biographical Note; 1941 military-training correspondence; 1941 film and 1941-1945 U.S. Army chronology",
+      "access_date": "2026-09-21",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Garson Kanin Papers",
+      "rights_notes": "Institutional archival finding aid. The project retains citation metadata, short excerpts, and project-authored paraphrases rather than unpublished collection content."
+    },
+    {
+      "key": "afi-tom-dick-harry-garson-kanin-b616",
+      "stable_url": "https://catalog.afi.com/Catalog/moviedetails/27062",
+      "archival_identifier": "AFI Catalog: Tom, Dick and Harry (1941)",
+      "title": "Tom, Dick and Harry",
+      "author_creator": "AFI Catalog of Feature Films",
+      "repository_publisher": "American Film Institute",
+      "publication_record_date": "1941",
+      "locator": "History, production credits, and details; Garson Kanin director; RKO Radio Pictures production; production February-May 1941; last RKO production before Army service",
+      "access_date": "2026-09-21",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "AFI Catalog of Feature Films",
+      "rights_notes": "Institutional film catalog drawing on contemporary trade publications. The project retains a short supporting excerpt and a project-authored paraphrase."
+    },
+    {
+      "key": "garson-kanin-estate-biography-b616",
+      "stable_url": "https://garsonkanin.com/Biography/",
+      "archival_identifier": "Garson Kanin Estate biography",
+      "title": "Biography of Garson Kanin",
+      "author_creator": "Garson Kanin Estate",
+      "repository_publisher": "Garson Kanin Estate",
+      "publication_record_date": "2023-01-16",
+      "locator": "Key Facts and full biography; RKO-to-Army Film Unit chronology and subsequent OSS assignment",
+      "access_date": "2026-09-21",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": null,
+      "rights_notes": "Estate biography used with corroborating Library of Congress and AFI records. The project retains the shortest excerpts needed and project-authored evidence notes."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "rko-radio-pictures-b616",
+      "canonical_name": "RKO Radio Pictures, Inc.",
+      "historical_name": "RKO Radio Pictures, Inc.",
+      "aliases": ["RKO Studios", "RKO"],
+      "organization_type": "motion picture studio",
+      "sector": "arts_and_culture",
+      "city": "Los Angeles",
+      "state_or_region": "California",
+      "country": "United States",
+      "normalization_notes": "The AFI Catalog's historical production-company name is canonical. The estate biography's RKO Studios wording is preserved as an alias; no modern successor is substituted."
+    },
+    {
+      "key": "us-army-signal-corps-b616",
+      "canonical_name": "U.S. Army Signal Corps",
+      "historical_name": "U.S. Army Signal Corps",
+      "aliases": ["United States Army Signal Corps", "U.S. Army Film Unit", "Army Film Unit"],
+      "organization_type": "military branch",
+      "sector": "military",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "normalization_notes": "The estate chronology identifies Kanin's 1941-1942 service as U.S. Army Signal Corps and describes the working assignment as the Army Film Unit. It is modeled as a military assignment, not a civilian employer."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "garson-kanin-rko-b616",
+      "person_id": "03835a06-93bb-5db7-846a-aec5e47b58df",
+      "organization_key": "rko-radio-pictures-b616",
+      "organization_name_as_found": "RKO Studios",
+      "role_title": "Film director",
+      "occupation": "motion picture director",
+      "relationship_type": "employment",
+      "start_date": null,
+      "end_date": "1941",
+      "date_precision": "The estate biography dates Kanin's RKO directing career from his first feature in 1938 through his last RKO project in 1941. AFI dates production of that final film from February through May 1941.",
+      "city": "Los Angeles",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "RKO is the last documented civilian employer before Kanin's intervening Army Signal Corps assignment. It is not labeled his immediate pre-OSS affiliation."
+    },
+    {
+      "key": "garson-kanin-signal-corps-b616",
+      "person_id": "03835a06-93bb-5db7-846a-aec5e47b58df",
+      "organization_key": "us-army-signal-corps-b616",
+      "organization_name_as_found": "U.S. Army, Signal Corps",
+      "role_title": "Army Film Unit director",
+      "occupation": "military film director",
+      "relationship_type": "military_assignment",
+      "start_date": "1941",
+      "end_date": "1942",
+      "date_precision": "The estate chronology identifies Signal Corps service in 1941-1942 and says Kanin entered the OSS months after his December 1942 marriage. Exact transfer and commissioning dates require the personnel file.",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The Signal Corps/Army Film Unit is the immediate documented pre-OSS affiliation. The estate supplies the explicit sequence; the Library of Congress independently corroborates Kanin's Army service beginning in 1941, but the personnel file is still needed for exact transfer dates."
+    }
+  ],
+  "claims": [
+    {
+      "key": "garson-kanin-identity-b616",
+      "person_id": "03835a06-93bb-5db7-846a-aec5e47b58df",
+      "claim_type": "identity",
+      "claim_text": "The Garson Kanin indexed in Box 389 is the film and theater director whose Army and OSS service is documented by the Library of Congress and the Garson Kanin Estate.",
+      "evidence_paraphrase": "The distinctive exact name in the NARA index matches the Library of Congress archival chronology and estate biography of Garson Kanin's 1941-1945 Army service and OSS assignment.",
+      "identity_match_assessment": "High confidence from the distinctive exact name, the matching 1941-1945 wartime chronology, and the estate's explicit OSS identification corroborated by the Library of Congress Army-service record.",
+      "temporal_assessment": "The sources converge on Army service beginning in 1941 and an OSS assignment after December 1942. Box 389 remains necessary for the exact accession and assignment dates.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The match rests on a distinctive exact name plus convergent institutional and biographical chronology, not on name recognition alone.",
+      "sources": [
+        {"source_key":"index-b616-garson-kanin","support_type":"supports","locator_override":"PDF page 240 row 17; Box 389","excerpt_override":"KANIN GARSON"},
+        {"source_key":"loc-garson-kanin-papers-b616","support_type":"supports","locator_override":"Scope and Content Note and Biographical Note; 1941-1945"},
+        {"source_key":"garson-kanin-estate-biography-b616","support_type":"supports","locator_override":"Key Facts and full biography; wartime chronology"}
+      ]
+    },
+    {
+      "key": "garson-kanin-rko-last-civilian-b616",
+      "person_id": "03835a06-93bb-5db7-846a-aec5e47b58df",
+      "affiliation_key": "garson-kanin-rko-b616",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "RKO Radio Pictures was Garson Kanin's last documented civilian employer before his U.S. Army service.",
+      "evidence_excerpt": "this picture also marked the last RKO productions for producer Robert Sisk and director Garson Kanin",
+      "evidence_paraphrase": "AFI identifies Kanin as director of RKO's 1941 Tom, Dick and Harry and reports that it was his last RKO production before joining the Army; the estate supplies the same transition.",
+      "identity_match_assessment": "High confidence from the distinctive exact name, AFI production credit, and the continuous RKO-to-Army chronology in two independent sources.",
+      "temporal_assessment": "Explicit immediate transition into military service: AFI and the estate both place Kanin's final RKO work immediately before joining or being drafted into the Army. The later Signal Corps assignment intervened before OSS service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "RKO is identified as the last civilian employer before military service, not as the immediate pre-OSS affiliation.",
+      "sources": [
+        {"source_key":"afi-tom-dick-harry-garson-kanin-b616","support_type":"supports","locator_override":"History, production credits, and production dates","excerpt_override":"this picture also marked the last RKO productions for producer Robert Sisk and director Garson Kanin"},
+        {"source_key":"garson-kanin-estate-biography-b616","support_type":"supports","locator_override":"Full biography; RKO-to-Army Film Unit transition"},
+        {"source_key":"loc-garson-kanin-papers-b616","support_type":"context_only","locator_override":"Biographical Note; 1941 film and Army entries"},
+        {"source_key":"index-b616-garson-kanin","support_type":"context_only","locator_override":"PDF page 240 row 17; Box 389"}
+      ]
+    },
+    {
+      "key": "garson-kanin-signal-corps-immediate-b616",
+      "person_id": "03835a06-93bb-5db7-846a-aec5e47b58df",
+      "affiliation_key": "garson-kanin-signal-corps-b616",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "The U.S. Army Signal Corps film unit was Garson Kanin's immediate documented assignment before he entered the OSS.",
+      "evidence_excerpt": "months later, the military enlisted Kanin in the Office of Strategic Services",
+      "evidence_paraphrase": "The estate chronology places Kanin in the Army Signal Corps film unit in 1941-1942, then says the military placed him in the OSS months after December 1942; the Library of Congress corroborates his Army service.",
+      "identity_match_assessment": "High confidence from the distinctive exact name and continuous film-director, Army, and OSS chronology.",
+      "temporal_assessment": "Explicit immediate sequence in the estate biography, but medium claim confidence because the reviewed institutional finding aid does not name the Signal Corps-to-OSS transfer and the personnel file has not been reviewed.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "published",
+      "match_notes": "The military assignment is not presented as a civilian employer. RKO remains separately identified as the last documented civilian employer.",
+      "sources": [
+        {"source_key":"garson-kanin-estate-biography-b616","support_type":"supports","locator_override":"Key Facts and full biography; 1941-1943 chronology","excerpt_override":"months later, the military enlisted Kanin in the Office of Strategic Services"},
+        {"source_key":"loc-garson-kanin-papers-b616","support_type":"context_only","locator_override":"Scope and Content Note and Biographical Note; Army service beginning in 1941"},
+        {"source_key":"index-b616-garson-kanin","support_type":"supports","locator_override":"PDF page 240 row 17; Box 389"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "03835a06-93bb-5db7-846a-aec5e47b58df",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The distinctive exact indexed name Garson Kanin aligns with the Library of Congress chronology for the director's 1941-1945 Army service, AFI's 1941 RKO production record, and the estate's explicit Army Signal Corps and OSS sequence.",
+      "name_variants": ["Garson Kanin"],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 389 to document Kanin's exact Signal Corps and OSS dates, commissioning chronology, assignments, and the transfer authority.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b616-garson-kanin-official-institutional-review",
+      "person_id": "03835a06-93bb-5db7-846a-aec5e47b58df",
+      "source_adapter": "reviewed_web",
+      "query_text": "Garson Kanin RKO employment Army Signal Corps Office of Strategic Services official institutional sources",
+      "query_variant_type": "distinctive_name_institutional_employment_and_military_pathway_review",
+      "started_at": "2026-09-21T09:20:00Z",
+      "completed_at": "2026-09-21T09:26:38Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Wikipedia and derivative biographical pages were discovery-only; an unrelated CIA story concerned another filmmaker; general Signal Corps histories did not establish Kanin's personal chronology. The accepted claims rely on the NARA index, the Library of Congress finding aid, the AFI Catalog, and the Garson Kanin Estate biography.",
+      "research_notes": "The review resolves identity at high confidence and keeps the categories separate: the Signal Corps film unit is the immediate documented pre-OSS military affiliation, while RKO Radio Pictures is the last documented civilian employer. The immediate-affiliation claim is published at medium confidence pending Box 389 review.",
+      "next_action": "Review Box 389 for exact Signal Corps and OSS dates, commissioning chronology, assignments, and transfer documentation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/batch-616-v1"
+    }
+  ]
+}
