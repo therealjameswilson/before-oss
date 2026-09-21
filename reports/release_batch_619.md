@@ -76,8 +76,22 @@ Two independent clean production builds produced the same 24,753-file,
 
 ## Deployment
 
-Pending push, required CI, merge, Pages deployment, and unauthenticated live
-manifest and route verification.
+Research pull request
+[#339](https://github.com/therealjameswilson/before-oss/pull/339)
+passed its required test job and merged as commit
+`23efc04cb3930c154e78cb347a85703a645afb21`. The post-merge
+[Test run 35599636419](https://github.com/therealjameswilson/before-oss/actions/runs/35599636419)
+and
+[Pages run 35599636416](https://github.com/therealjameswilson/before-oss/actions/runs/35599636416)
+both completed successfully.
+
+Unauthenticated verification against the deployed site and the exact merged
+commit matched all **67** manifest assets and **98,003,514** bytes at manifest
+SHA-256
+`4ef376c64439bef98ce651dffc2c4810d26ca4aa1356cb65d3433ce3e3cd7ec3`.
+It also verified all eight core routes, all 26 source-register pages, and all
+45 active profiles represented in the reviewed duplicate/variant evidence
+bundle.
 
 ## Resume
 
