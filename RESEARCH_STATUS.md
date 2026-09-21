@@ -1,5 +1,34 @@
 # Research status
 
+Batch 613 visually checked all **460** printed rows on PDF pages 201–210.
+Every row matches the immutable extraction. Because page 207 already had a
+complete-page decision, the durable ledger rises by nine to **175/522 pages**;
+**347** remain. Twenty-two possible-duplicate or spelling-variant groups
+covering 44 people were reviewed without merging any record; 20 are new groups
+and two preexisting private-value-derived slugs were replaced with safe names.
+A bounded LoC first pass completed **45** page-148 searches, saving **21**
+discovery candidates across eight people; none was accepted as an identity or
+employer claim.
+[Charles J. Hitch](https://therealjameswilson.github.io/before-oss/people/077388e6-27b2-502b-b1c1-8509e3bcbb03/)
+now has a high-confidence profile separating Oxford University as the last
+civilian employer, the U.S. War Production Board as an intervening government
+assignment, and the U.S. Army as the explicit immediate affiliation before his
+1943 OSS assignment. The top oil-company workers category remains **seven**
+people and does not add Hitch. See `research/batch-613-progress.md`. No
+authenticated NARA Catalog request was made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,940** active
+people. Research-attempt coverage is **7,009/23,940 (29.2774%)**;
+verified-employer coverage is **275/23,940 (1.1487%)**;
+verified-affiliation coverage is **623/23,940 (2.6023%)**; archival-review
+coverage is **5,941/23,940 (24.8162%)**. There are **16,931** `not_started`
+people and **354** active possible-duplicate groups. SQLite retains **12,062**
+attempts or plans and **4,884** claims: 1,311 confirmed, 1,883 high, 1,373
+medium, 185 low, and 132 conflicting. It has **5,028** source/citation records
+and **2,355** unique source-document keys. The public projection has **2,215**
+affiliations, **700** organizations, **3,825** sources, and **4,695** claims.
+Full-index historical research remains unfinished.
+
 Batch 612 visually checked all **460** printed rows on PDF pages 191–200.
 Every row matches the immutable extraction, raising the durable visual-review
 ledger to **166/522 pages**; **356** remain. Fifteen possible-duplicate or

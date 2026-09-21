@@ -1,5 +1,24 @@
 # Link check
 
+Batch 613 local validation, 2026-09-21 UTC: all internal links resolve across
+**24,699** locally built HTML files, including Charles Hitch's evidence profile,
+the separate Hoshide/Hoshicle and Hipp/Pipp review candidates, and the
+seven-person oil-company workers category. An unrelated untracked duplicate
+Sources route adds 25 local-only pages and is excluded from the clean release.
+The checker inventoried **50,244** unique external URLs; it did not request
+every target. The public-identifier audit compared **12,926** normalized
+identifiers and **120** variants against **24,771** public artifacts, with zero
+unexpected full-number boundary matches. The local release verifier matched
+all **67** manifest-listed assets and **97,681,283** bytes at manifest SHA-256
+`d581104c2e63cdd93f608667bfd562c3e33f7455795212e3c0068d04f8b56dbb`.
+Clean CI, Pages deployment, and live exact-file verification remain separate
+release checks.
+The tracked-only build excluded the unrelated route and contained **24,674**
+HTML files and **24,746** total artifacts. Every internal link resolved, the
+identifier scan found zero unexpected matches, and two consecutive builds
+matched the same SHA-256 tree digest
+`4307133fca8068d114207cd7f80da367f6021c38defbb056e72e7a6b68fc3981`.
+
 Batch 612 local validation, 2026-09-21 UTC: all internal links resolve across
 **24,696** locally built HTML files, including Knut Haugland's evidence profile,
 the separate Haselfeld/Haselfield and Harrington review candidates, and the

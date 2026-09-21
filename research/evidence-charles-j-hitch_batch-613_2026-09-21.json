@@ -1,0 +1,252 @@
+{
+  "bundle_version": "2026-09-21-batch-613-v1",
+  "reviewer": "Before OSS research pipeline",
+  "sources": [
+    {
+      "key": "index-b613-charles-j-hitch",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 337",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 209 row 34; Charles J Hitch; rendered at 180 dpi and visually inspected; rank 2nd Lt.; Box 337; note 'also AS'; location 230/86/33/02",
+      "access_date": "2026-09-21",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "The public citation retains the indexed name, rank, box, note, and archival location while excluding the private identifier. The row establishes an indexed personnel file and supports identity resolution when combined with the University of California memorial biography."
+    },
+    {
+      "key": "uc-in-memoriam-1995-charles-j-hitch",
+      "stable_url": "https://digicoll.lib.berkeley.edu/record/81363/files/inmemoriam1995.pdf",
+      "title": "Charles Johnston Hitch, Economics: Berkeley",
+      "author_creator": "Frederick E. Balderston, Clark Kerr, and Angus E. Taylor",
+      "repository_publisher": "University of California Academic Senate; UC History Digital Archive; University Archives, The Bancroft Library",
+      "publication_record_date": "1995",
+      "locator": "University of California: In Memoriam, 1995, printed pages 78-80; PDF pages 36-37; education, Oxford appointment, wartime government service, Army entry, and OSS assignment",
+      "access_date": "2026-09-21",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "University of California: In Memoriam, 1995",
+      "rights_notes": "Authoritative institutional memorial by senior University of California colleagues. The project retains only one short excerpt plus project-authored paraphrases."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "university-of-oxford-b613",
+      "canonical_name": "University of Oxford",
+      "historical_name": "Oxford University",
+      "aliases": ["Oxford University", "Queen's College, Oxford"],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Oxford",
+      "state_or_region": "England",
+      "country": "United Kingdom",
+      "normalization_notes": "The biography describes Hitch as an Oxford don and Fellow of Queen's College. The university and college are preserved in the role and alias fields without treating the college as an unrelated employer."
+    },
+    {
+      "key": "us-war-production-board-b613",
+      "canonical_name": "U.S. War Production Board",
+      "historical_name": "U.S. War Production Board",
+      "aliases": ["War Production Board"],
+      "organization_type": "federal government agency",
+      "sector": "federal_government",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "normalization_notes": "The historical wartime agency name in the institutional biography is preserved; no modern successor is substituted."
+    },
+    {
+      "key": "united-states-army-b613",
+      "canonical_name": "United States Army",
+      "historical_name": "U.S. Army",
+      "aliases": ["U.S. Army"],
+      "organization_type": "military branch",
+      "sector": "military",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "normalization_notes": "The institutional biography explicitly says Hitch joined the U.S. Army in 1943 and was then assigned to the OSS."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "charles-j-hitch-oxford-b613",
+      "person_id": "077388e6-27b2-502b-b1c1-8509e3bcbb03",
+      "organization_key": "university-of-oxford-b613",
+      "organization_name_as_found": "Oxford University",
+      "role_title": "Don and Fellow of Queen's College",
+      "occupation": "economist",
+      "relationship_type": "employment",
+      "start_date": "1935",
+      "end_date": "1948",
+      "date_precision": "The biography says Hitch remained at Oxford after receiving his MA in 1935 and retained his status until 1948, while on wartime leave for government and military service.",
+      "city": "Oxford",
+      "state_or_region": "England",
+      "country": "United Kingdom",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Oxford is the last documented civilian employer before Hitch's intervening wartime government work and Army service. Because he was on leave from Oxford, the profile does not misstate Oxford as the immediate predecessor to the OSS."
+    },
+    {
+      "key": "charles-j-hitch-wpb-b613",
+      "person_id": "077388e6-27b2-502b-b1c1-8509e3bcbb03",
+      "organization_key": "us-war-production-board-b613",
+      "organization_name_as_found": "U.S. War Production Board",
+      "role_title": "Member",
+      "occupation": "economist",
+      "relationship_type": "government_assignment",
+      "start_date": null,
+      "end_date": "1943",
+      "date_precision": "The biography sequences War Production Board service after the Harriman lend-lease mission and before Hitch joined the Army in 1943; exact dates are not supplied.",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "This was a civilian federal government assignment before Hitch joined the Army. It is not labeled a civilian employer or immediate pre-OSS affiliation because Army entry intervened."
+    },
+    {
+      "key": "charles-j-hitch-us-army-b613",
+      "person_id": "077388e6-27b2-502b-b1c1-8509e3bcbb03",
+      "organization_key": "united-states-army-b613",
+      "organization_name_as_found": "U.S. Army",
+      "role_title": "Soldier; later indexed as Second Lieutenant",
+      "occupation": "military personnel",
+      "relationship_type": "military_assignment",
+      "start_date": "1943",
+      "end_date": "1943",
+      "date_precision": "The institutional biography states that Hitch joined the Army in 1943, initially as a private, and was assigned to the OSS; the NARA index later identifies him as a Second Lieutenant.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The Army is the immediate documented affiliation because the biography explicitly places Army entry immediately before assignment to the OSS. The profile separately preserves Oxford as the last civilian employer and the War Production Board as an intervening government assignment."
+    }
+  ],
+  "claims": [
+    {
+      "key": "charles-j-hitch-identity-b613",
+      "person_id": "077388e6-27b2-502b-b1c1-8509e3bcbb03",
+      "claim_type": "identity",
+      "claim_text": "The indexed Second Lieutenant Charles J Hitch is economist Charles Johnston Hitch.",
+      "evidence_paraphrase": "The exact name and middle initial, Second Lieutenant rank in the NARA index, and the University of California biography's Army-to-OSS chronology identify the indexed person as Charles Johnston Hitch.",
+      "identity_match_assessment": "High confidence from the distinctive exact name, matching military and OSS context, and authoritative institutional chronology.",
+      "temporal_assessment": "The NARA index and memorial biography converge on Hitch's 1943 Army and OSS service; the personnel file remains necessary for the exact assignment record and commission chronology.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The identity is not based on fame or name alone: the indexed officer rank is consistent with the memorial's explicit Army and OSS chronology.",
+      "sources": [
+        {"source_key":"index-b613-charles-j-hitch","support_type":"supports","locator_override":"PDF page 209 row 34; rank 2nd Lt.; Box 337; note 'also AS'","excerpt_override":"HITCH CHARLES J 2nd Lt."},
+        {"source_key":"uc-in-memoriam-1995-charles-j-hitch","support_type":"supports","locator_override":"Printed pages 78-80; PDF pages 36-37"}
+      ]
+    },
+    {
+      "key": "charles-j-hitch-oxford-last-civilian-b613",
+      "person_id": "077388e6-27b2-502b-b1c1-8509e3bcbb03",
+      "affiliation_key": "charles-j-hitch-oxford-b613",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Oxford University, where Charles Hitch was a don and Fellow of Queen's College, was his last documented civilian employer before intervening wartime government and Army service.",
+      "evidence_excerpt": "He retained his status at Oxford until 1948, but during the Second World War he was on leave from Oxford",
+      "evidence_paraphrase": "The University of California memorial states that Hitch remained at Oxford after his 1935 MA, became a Queen's College Fellow, and took wartime leave for government service before entering the Army.",
+      "identity_match_assessment": "High confidence from the distinctive exact name and the source's explicit Army and OSS chronology.",
+      "temporal_assessment": "Strongly date-bounded: Oxford employment continued in status while Hitch was on leave, and it preceded the government and military assignments that led to the OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Oxford is presented as the last civilian employer, not the immediate pre-OSS affiliation. The profile makes the wartime leave and intervening assignments explicit.",
+      "sources": [
+        {"source_key":"uc-in-memoriam-1995-charles-j-hitch","support_type":"supports","locator_override":"Printed pages 79-80; PDF pages 36-37"},
+        {"source_key":"index-b613-charles-j-hitch","support_type":"context_only","locator_override":"PDF page 209 row 34; Box 337"}
+      ]
+    },
+    {
+      "key": "charles-j-hitch-army-immediate-b613",
+      "person_id": "077388e6-27b2-502b-b1c1-8509e3bcbb03",
+      "affiliation_key": "charles-j-hitch-us-army-b613",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "The U.S. Army was Charles Hitch's immediate documented affiliation before his assignment to the OSS in 1943.",
+      "evidence_paraphrase": "The memorial biography explicitly says Hitch entered the Army in 1943, initially as a private, and was then assigned to the OSS; the NARA row indexes him as a Second Lieutenant.",
+      "identity_match_assessment": "High confidence from the exact name, matching officer context, and explicit institutional chronology.",
+      "temporal_assessment": "Explicit immediate: the source directly sequences Army entry and OSS assignment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This military pathway is kept separate from the last civilian employer and the earlier War Production Board government assignment.",
+      "sources": [
+        {"source_key":"uc-in-memoriam-1995-charles-j-hitch","support_type":"supports","locator_override":"Printed page 80; PDF page 37"},
+        {"source_key":"index-b613-charles-j-hitch","support_type":"supports","locator_override":"PDF page 209 row 34; rank 2nd Lt.; Box 337"}
+      ]
+    },
+    {
+      "key": "charles-j-hitch-wpb-prewar-b613",
+      "person_id": "077388e6-27b2-502b-b1c1-8509e3bcbb03",
+      "affiliation_key": "charles-j-hitch-wpb-b613",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Charles Hitch served as a member of the U.S. War Production Board before he joined the Army and was assigned to the OSS.",
+      "evidence_paraphrase": "The memorial biography sequences Hitch's wartime leave from Oxford through the Harriman lend-lease mission and War Production Board, followed by Army entry in 1943 and OSS assignment.",
+      "identity_match_assessment": "High confidence from the distinctive exact name and source-specific OSS chronology.",
+      "temporal_assessment": "Strongly date-bounded before Army and OSS service, although the source does not give exact War Production Board dates.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The War Production Board is classified as a government assignment, not a civilian employer and not the immediate pre-OSS affiliation.",
+      "sources": [
+        {"source_key":"uc-in-memoriam-1995-charles-j-hitch","support_type":"supports","locator_override":"Printed pages 79-80; PDF pages 36-37"},
+        {"source_key":"index-b613-charles-j-hitch","support_type":"context_only","locator_override":"PDF page 209 row 34; Box 337"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "077388e6-27b2-502b-b1c1-8509e3bcbb03",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name Charles J Hitch, Second Lieutenant rank, and OSS personnel-file context align with the University of California Academic Senate memorial's explicit account of economist Charles Johnston Hitch joining the Army in 1943 and being assigned to the OSS.",
+      "name_variants": ["Charles Johnston Hitch", "Charlie Hitch"],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 337 to document the exact OSS assignment, the 'also AS' index note, and Hitch's commission chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b613-charles-j-hitch-institutional-review",
+      "person_id": "077388e6-27b2-502b-b1c1-8509e3bcbb03",
+      "source_adapter": "reviewed_web",
+      "query_text": "Charles Johnston Hitch Oxford War Production Board U.S. Army Office of Strategic Services institutional biography",
+      "query_variant_type": "distinctive_name_institutional_employment_and_service_review",
+      "started_at": "2026-09-21T15:02:00Z",
+      "completed_at": "2026-09-21T15:21:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "A short Berkeley news obituary lacked the pre-OSS chronology; a RAND history documented Hitch's later career but not the relevant transition. Neither was needed once the Academic Senate memorial supplied the detailed sequence.",
+      "research_notes": "The review resolves identity at high confidence and separates three distinct findings: U.S. Army as the immediate pre-OSS military affiliation, Oxford University as the last civilian employer before intervening wartime assignments, and the War Production Board as a documented government assignment. It does not conflate education, government service, military assignment, or employment.",
+      "next_action": "Review Box 337 for the exact OSS assignment, commission chronology, and meaning of the 'also AS' index note.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/batch-613-v1"
+    }
+  ]
+}

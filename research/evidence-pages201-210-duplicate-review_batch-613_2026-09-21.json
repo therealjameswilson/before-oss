@@ -1,0 +1,402 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 613 original-index variant review",
+  "person_updates": [
+    {
+      "person_id": "13051a30-2f51-5f02-9d4c-37a51314fc99",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 201 prints two Melvin L Hecker rows in the same box; one lacks a private identifier and the other has one. Both source rows remain separate.",
+      "possible_duplicate_group": "p201-melvin-l-hecker-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 323 files for dates, assignments, and identifier context before resolving the pair.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c350512b-36c2-5fd5-8bcc-e3f3a6b7af62",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The second Melvin L Hecker row on page 201 has a private identifier while the adjacent identical-name row does not. Identical names alone do not establish duplication.",
+      "possible_duplicate_group": "p201-melvin-l-hecker-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 323 files for dates, assignments, and identifier context before resolving the pair.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0e5885d6-e311-5dc8-9bc9-8aafa58f467f",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 201 prints Katherine E Heckman and Katherine Heckman in the same box without private identifiers. The omitted middle initial may be an index variant, but it is not proof of one person.",
+      "possible_duplicate_group": "p201-katherine-heckman-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 323 files for full name, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "185f5d8b-7324-513a-b4dd-53bc334bddf7",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 201 prints Katherine Heckman immediately after Katherine E Heckman in the same box. Both entities remain separate pending direct file evidence.",
+      "possible_duplicate_group": "p201-katherine-heckman-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 323 files for full name, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "64bb916f-3e89-5364-ba9f-ca0e7134f06b",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 202 prints Ernest C Helf and Ernest E Helf in the same box without private identifiers. The middle-initial difference remains unresolved.",
+      "possible_duplicate_group": "p202-ernest-helf-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 324 files for full middle name, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d1d744ec-6097-57ae-8928-214deac2e11a",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 202 prints Ernest E Helf near Ernest C Helf in the same box. Similar names without corroborating identifiers do not justify a merge.",
+      "possible_duplicate_group": "p202-ernest-helf-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 324 files for full middle name, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9f9c5f46-dc6d-57a1-8a46-2fccc65eb8f5",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 202 prints two Caroline Heller rows in the same box. One is indexed with an Army rank and private identifier; the other has neither.",
+      "possible_duplicate_group": "p202-caroline-heller-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 324 files for rank chronology, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8eb09da9-e2c3-5f40-889a-dec9bdefa9aa",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The second Caroline Heller row on page 202 lacks the rank and private identifier printed on the adjacent identical-name row. Both records remain separate.",
+      "possible_duplicate_group": "p202-caroline-heller-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 324 files for rank chronology, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4209021c-4ed0-5562-ac1a-9c9505b4a8ea",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 202 prints Francis J Heller and Francis G Heller with different private identifiers. The middle-initial and identifier differences require the records to remain distinct.",
+      "possible_duplicate_group": "p202-francis-heller-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 324 files and service histories before treating either row as a variant.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ec6d0e25-eb95-53c5-95cc-6f2e34a7533d",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The Francis G Heller row on page 202 has a different middle initial and private identifier from Francis J Heller. No identity is selected.",
+      "possible_duplicate_group": "p202-francis-heller-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 324 files and service histories before treating either row as a variant.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7e549a00-2c36-5fce-9648-39c4ecd19e5b",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 202 prints two George T Hemming rows in the same box with different private identifiers. The records remain separate.",
+      "possible_duplicate_group": "p202-george-t-hemming-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 325 files and service histories before resolving the pair.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6c6db29d-b3cf-51c9-b3f6-63bee36b3b03",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The second George T Hemming row on page 202 has a different private identifier from the first. Identical names do not override that conflict.",
+      "possible_duplicate_group": "p202-george-t-hemming-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 325 files and service histories before resolving the pair.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "70b2401b-d249-5035-8d76-0bad54c87195",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 203 prints John W Henderson without a private identifier and John R Henderson with one. The common name and middle-initial difference remain unresolved.",
+      "possible_duplicate_group": "p203-john-henderson-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 326 files for full middle name, dates, and service history.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6eeda557-892e-5706-842f-282ec8d5abd6",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 203's John R Henderson row has a private identifier while John W Henderson does not. Both remain distinct pending file review.",
+      "possible_duplicate_group": "p203-john-henderson-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 326 files for full middle name, dates, and service history.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ee77d5ea-78ae-5a2e-8dda-23b1073c713d",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 203 prints two Dewey Hendrix rows in the same box; one has a private identifier and the other does not. Both source rows remain separate.",
+      "possible_duplicate_group": "p203-dewey-hendrix-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 326 files for dates, assignments, and identifier context.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "dcd8eba7-3b81-538e-8737-76739154593b",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The second Dewey Hendrix row on page 203 lacks the private identifier printed on the adjacent identical-name row. This is not enough to merge them.",
+      "possible_duplicate_group": "p203-dewey-hendrix-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 326 files for dates, assignments, and identifier context.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4318808e-ebd2-5ab6-a26d-3bfc1eb95459",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 203 prints two Charles Hendry rows in the same box; one has a private identifier and the other does not. Both remain separate.",
+      "possible_duplicate_group": "p203-charles-hendry-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 326 files for dates, assignments, and identifier context.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f935b164-8085-5a88-b541-0f8e574bf29a",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The second Charles Hendry row on page 203 lacks the private identifier printed on the adjacent identical-name row. Identical names alone do not resolve the pair.",
+      "possible_duplicate_group": "p203-charles-hendry-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 326 files for dates, assignments, and identifier context.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "463fe436-1242-54ea-8414-3153e88d72d3",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 204 prints Walter R Henschel with a private identifier and Walter R.B. Henschel without one in the same box. The expanded initials are a possible variant, not conclusive identity evidence.",
+      "possible_duplicate_group": "p204-walter-henschel-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 328 files for full name, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4d30e653-411a-500c-aef2-ec86ed30d062",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 204 prints Walter R.B. Henschel next to Walter R Henschel. One row lacks a private identifier, so both entities remain separate.",
+      "possible_duplicate_group": "p204-walter-henschel-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 328 files for full name, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6642bd41-df05-53c3-bed3-2bf0f3fd5d36",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 205 prints Cathryn U Herron with a private identifier and Captain Kathryn U Herron without one. The spelling and rank differences require direct file review.",
+      "possible_duplicate_group": "p205-cathryn-kathryn-u-herron-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 331 files for authoritative given-name spelling, rank chronology, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a9fd6e5e-b717-54ae-94fc-e4c9b92e340d",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Captain Kathryn U Herron on page 205 may be a spelling and rank variant of Cathryn U Herron, but no private identifier confirms that relationship.",
+      "possible_duplicate_group": "p205-cathryn-kathryn-u-herron-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 331 files for authoritative given-name spelling, rank chronology, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9c554837-8f51-5e47-b18e-d70db21a37ee",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 207 prints Robert L Hiegel with a private identifier and First Lieutenant Robert J Hiegel without one. The middle-initial and rank differences remain unresolved.",
+      "possible_duplicate_group": "p207-robert-hiegel-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 334 files for full middle name, rank chronology, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "00416440-ddce-5626-b50f-56189739895d",
+      "identity_status": "ambiguous",
+      "identity_evidence": "First Lieutenant Robert J Hiegel on page 207 differs in middle initial and lacks the private identifier printed for Robert L Hiegel. Both remain distinct.",
+      "possible_duplicate_group": "p207-robert-hiegel-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 334 files for full middle name, rank chronology, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "53ecbd7d-2b16-5503-87bf-4cce476bedba",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 207 prints Betty E Hill and Betty J Hill in the same box without private identifiers. The middle-initial difference remains unresolved.",
+      "possible_duplicate_group": "p207-betty-hill-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 335 files for full middle name, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f801e65b-1570-5c5b-a6c4-a91f6372bfc6",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 207 prints Betty J Hill near Betty E Hill in the same box. With no private identifiers, the records remain separate.",
+      "possible_duplicate_group": "p207-betty-hill-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 335 files for full middle name, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "30067950-3778-5bc9-935a-4dd45ee1f0d9",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 208 prints Martha T Hill and Martha L Hill in the same box without private identifiers. The middle-initial difference prevents a merge.",
+      "possible_duplicate_group": "p208-martha-hill-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 335 files for full middle name, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7795dc99-fc01-5b90-947a-7020253b6043",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Martha L Hill on page 208 is adjacent to Martha T Hill, but neither row has a private identifier. Both entities remain distinct.",
+      "possible_duplicate_group": "p208-martha-hill-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 335 files for full middle name, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b0cf1f57-ed69-58e5-9709-9e59b895ceb7",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 208 prints Richard C Hill without a private identifier and Richard F Hill with one. The common name and middle-initial difference remain unresolved.",
+      "possible_duplicate_group": "p208-richard-hill-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 335 files for full middle name, dates, and service history.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d25a118e-8ef6-5a28-ac0a-3ec6bec0faf2",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Richard F Hill on page 208 has a private identifier while Richard C Hill does not. Both records remain separate pending file review.",
+      "possible_duplicate_group": "p208-richard-hill-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 335 files for full middle name, dates, and service history.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c3b2ac1c-b064-51ac-949f-f14ebc14c9af",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 208 prints Martin A Himler and Marttin M Himler in the same box without private identifiers. The given-name spelling and middle-initial differences remain unresolved.",
+      "possible_duplicate_group": "p208-martin-marttin-himler-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 336 files for authoritative spelling, full middle name, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8c54ce04-83c7-593c-962e-a11dea32fd89",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Marttin M Himler on page 208 may be an index spelling variant of Martin A Himler, but no private identifier or corroborating evidence resolves the pair.",
+      "possible_duplicate_group": "p208-martin-marttin-himler-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 336 files for authoritative spelling, full middle name, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5299be03-8360-56f9-8d04-f0b929900077",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Pages 208 and 209 print Sergeant Harry G Hines without a private identifier and Harry J Hines with one. The middle-initial and rank differences require direct file review.",
+      "possible_duplicate_group": "p208-209-harry-hines-b613",
+      "manual_review_required": true,
+      "next_action": "Compare the indicated Box 337 files for full middle name, rank chronology, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "881751a3-635a-572e-ad3c-8b5ff41dca32",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Harry J Hines on page 209 has a private identifier while Sergeant Harry G Hines on page 208 does not. Both entities remain distinct.",
+      "possible_duplicate_group": "p208-209-harry-hines-b613",
+      "manual_review_required": true,
+      "next_action": "Compare the indicated Box 337 files for full middle name, rank chronology, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "89704470-038a-5d54-8d9a-15fa727c15f1",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 209 prints Erwin E Hirchberg with a private identifier and Erwin E Hirschberg Jr without one. The surname spelling and suffix are possible index variants, not proof of one person.",
+      "possible_duplicate_group": "p209-erwin-hirchberg-hirschberg-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 337 files for authoritative surname spelling, suffix, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "092a9e55-8619-588d-9e59-7dde910e2f7f",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Erwin E Hirschberg Jr on page 209 may correspond to Erwin E Hirchberg, but the row lacks the private identifier printed for the neighboring spelling. Both remain separate.",
+      "possible_duplicate_group": "p209-erwin-hirchberg-hirschberg-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 337 files for authoritative surname spelling, suffix, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "aeaa52ed-5041-5a7d-9786-08a79cc18872",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 209 prints Captain David C Hite without a private identifier and David L Hite with one. The middle-initial and rank differences remain unresolved.",
+      "possible_duplicate_group": "p209-david-hite-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 337 files for full middle name, rank chronology, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "99ee5486-5bef-56f2-9b43-b439aa03ded3",
+      "identity_status": "ambiguous",
+      "identity_evidence": "David L Hite on page 209 has a private identifier while Captain David C Hite does not. Both records remain distinct pending file review.",
+      "possible_duplicate_group": "p209-david-hite-b613",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 337 files for full middle name, rank chronology, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "21ae6f66-8ac1-5eaa-a422-2fcf7ce2cc1e",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 210 prints Myron A Hofer and Myron Arms Hofer in different boxes and locations, both without private identifiers. The expanded middle name is a possible variant, but the archival differences require review.",
+      "possible_duplicate_group": "p210-myron-a-arms-hofer-b613",
+      "manual_review_required": true,
+      "next_action": "Compare the indicated Box 339 and Box 355 files for full name, dates, locations, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "48fbd6bb-b5d3-591f-bc94-845822e67e65",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Myron Arms Hofer on page 210 may be an expanded-name variant of Myron A Hofer, but the rows point to different boxes and locations. Both entities remain separate.",
+      "possible_duplicate_group": "p210-myron-a-arms-hofer-b613",
+      "manual_review_required": true,
+      "next_action": "Compare the indicated Box 339 and Box 355 files for full name, dates, locations, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a8085c7a-7238-53e9-b86a-418542206445",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The index prints Hideo Hoshide and Hoshicle Hideo with the same private identifier. The shared identifier is strong variant evidence, but the immutable rows and person entities remain separate pending file review.",
+      "possible_duplicate_group": "hideo-hoshide-hoshicle-b613",
+      "manual_review_required": true,
+      "next_action": "Review the indexed personnel file to establish the authoritative name order and spelling before resolving the pair.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "562ce43a-5894-5fce-816c-857a19ab5677",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Hoshicle Hideo repeats the private identifier printed for Hideo Hoshide. This supports a possible transposition or spelling variant but does not authorize a silent merge.",
+      "possible_duplicate_group": "hideo-hoshide-hoshicle-b613",
+      "manual_review_required": true,
+      "next_action": "Review the indexed personnel file to establish the authoritative name order and spelling before resolving the pair.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2e3cadf2-69e6-5b13-a2ea-e88df3ee1f7b",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The index prints Paul P Hipp and Paul P Pipp with the same private identifier. The shared identifier is strong spelling-variant evidence, but both source rows remain preserved and both entities remain separate pending file review.",
+      "possible_duplicate_group": "paul-p-hipp-pipp-b613",
+      "manual_review_required": true,
+      "next_action": "Review the indexed personnel file to establish the authoritative surname spelling and confirm the relationship between the rows.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "225d66bc-a7e6-590e-8739-7ec97bb8f3e9",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Paul P Pipp repeats the private identifier printed for Paul P Hipp. This is strong duplicate evidence, but the project does not merge immutable index records without direct file confirmation.",
+      "possible_duplicate_group": "paul-p-hipp-pipp-b613",
+      "manual_review_required": true,
+      "next_action": "Review the indexed personnel file to establish the authoritative surname spelling and confirm the relationship between the rows.",
+      "archival_review_priority": "high"
+    }
+  ]
+}
