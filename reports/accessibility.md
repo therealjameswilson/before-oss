@@ -1,5 +1,16 @@
 # Accessibility and responsive QA
 
+Batch 608 local validation, 2026-09-21 UTC: the bounded release suite passed
+**81/81** desktop, phone, and tablet checks: 12 new Gaevernitz, Galenson,
+separate Funari/Furnari, and oil-category checks; 33 core-route checks; six
+analysis checks; and 30 accessibility checks with no serious or critical axe
+violations. All **126** Python unit tests passed. Astro reported zero errors,
+warnings, or hints across **240** local source files and built **24,694** local
+pages. An unrelated untracked duplicate Sources route adds 25 local-only pages
+and is excluded from the clean release. The 200-profile stratified structural
+audit passed; it is not a manual historical source review. These local results
+do not establish CI or public deployment.
+
 Batch 607 local validation, 2026-09-21 UTC: the bounded release suite
 passed **78/78** desktop, phone, and tablet checks: nine new Farish,
 oil-category, and separate Finney-profile checks; 33 core-route checks;

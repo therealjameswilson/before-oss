@@ -1,5 +1,31 @@
 # Research status
 
+Batch 608 visually checked all **460** printed rows on PDF pages 151–160,
+bringing the distinct ledger to **129/522 pages**; **393** remain. Ten new
+possible-duplicate or spelling-variant groups remain separate, including two
+same-private-identifier pairs under critical review. Bounded LoC first passes
+completed **92** searches across pages 142–143 and saved **47** unreviewed
+newspaper-page leads. [Gero V Gaevernitz](https://therealjameswilson.github.io/before-oss/people/8b7344ea-c0e0-54b6-894a-90c64be8db07/)
+has a qualified probable-immediate asset-management and import-export
+affiliation, while [Walter Galenson](https://therealjameswilson.github.io/before-oss/people/30a94b28-903c-51f8-8e80-d36f8c7271fb/)
+has documented earlier work at his father's unnamed accounting firm. Neither
+claim is presented as a verified immediate employer. The top oil-company
+workers category remains **seven** people. See
+`research/batch-608-progress.md`. No authenticated NARA Catalog request was
+made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,940** active
+people. Research-attempt coverage is **6,776/23,940 (28.3041%)**;
+verified-employer coverage is **271/23,940 (1.1320%)**; verified-affiliation
+coverage is **618/23,940 (2.5815%)**; archival-review coverage is
+**5,809/23,940 (24.2648%)**. There are **17,164** `not_started` people and
+**297** possible-duplicate groups. SQLite retains **11,827** attempts or plans
+and **4,870** claims: 1,311 confirmed, 1,869 high, 1,373 medium, 185 low, and
+132 conflicting. It has **5,015** source/citation records and **2,342** unique
+source-document keys. The public projection has **2,207** affiliations,
+**695** organizations, **3,812** sources, and **4,681** claims. Full-index
+historical research remains unfinished.
+
 Batch 607 visually checked all **460** printed rows on PDF pages 141–150,
 bringing the distinct ledger to **121/522 pages**; **401** remain. Eight
 new possible-duplicate/variant groups remain unmerged. The printed `Cmdr`

@@ -1,0 +1,104 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 608 Walter Galenson review",
+  "sources": [
+    {
+      "key": "b608-nara-index-p160-walter-galenson",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 258",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 160, row 1; Galenson, Walter; Box 258; visually checked against rendered page",
+      "access_date": "2026-09-21",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "The index locates the personnel file but does not itself record Galenson's pre-OSS work."
+    },
+    {
+      "key": "b608-cornell-memorial-walter-galenson",
+      "stable_url": "https://ecommons.cornell.edu/bitstream/handle/1813/18680/Galenson_Walter_1999.pdf?isAllowed=y&sequence=2",
+      "archival_identifier": "Cornell University Faculty Memorial Statement",
+      "title": "Walter Galenson, December 5, 1914 - December 30, 1999",
+      "author_creator": "Cornell University faculty memorial committee",
+      "repository_publisher": "Cornell University Library eCommons",
+      "publication_record_date": "1999",
+      "locator": "PDF page 1, first two biographical paragraphs",
+      "access_date": "2026-09-21",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Cornell University Faculty Memorial Statements",
+      "rights_notes": "Institutional memorial used for identity and career chronology; only a short excerpt and project-authored paraphrase are retained."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "b608-walter-galenson-fathers-accounting-firm",
+      "person_id": "30a94b28-903c-51f8-8e80-d36f8c7271fb",
+      "role_title": "Staff member at his father's accounting firm",
+      "occupation": "Accounting",
+      "relationship_type": "employment",
+      "start_date": "1935",
+      "end_date": "1940",
+      "date_precision": "Joined after graduating from Columbia in 1935 and left before completing a Columbia economics doctorate in 1940; exact transition dates and the firm's name are not given",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Cornell's memorial explicitly says Galenson joined his father's accounting firm after his 1935 graduation and later returned to Columbia for a doctorate received in 1940. It separately records principal-economist work in the War Department and OSS during World War II. The firm is unnamed, and the memorial does not establish this employment as his immediate pre-OSS affiliation or last civilian employer before government service."
+    }
+  ],
+  "claims": [
+    {
+      "key": "b608-walter-galenson-earlier-accounting-firm-employment",
+      "person_id": "30a94b28-903c-51f8-8e80-d36f8c7271fb",
+      "affiliation_key": "b608-walter-galenson-fathers-accounting-firm",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "After graduating from Columbia in 1935, Walter Galenson worked at his father's accounting firm before returning for an economics doctorate completed in 1940.",
+      "evidence_excerpt": "graduated from Columbia University in 1935 and joined his father's accounting firm",
+      "evidence_paraphrase": "Cornell's faculty memorial places Galenson at his father's accounting firm after his 1935 graduation and before his return to Columbia for a doctorate received in 1940.",
+      "identity_match_assessment": "High-confidence match. Cornell's memorial identifies the distinctive Walter Galenson and explicitly records work in both the War Department and OSS, matching the indexed civilian name in Box 258.",
+      "temporal_assessment": "Documented prewar employment, not established as immediate. Graduate study intervened, and the source does not name the firm or establish the transition from the War Department to OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Publish as earlier documented employment only. Do not treat the unnamed accounting firm as the immediate pre-OSS affiliation or last civilian employer. Review Box 258 for the firm's name and the exact War Department-to-OSS chronology.",
+      "sources": [
+        {"source_key": "b608-cornell-memorial-walter-galenson", "support_type": "supports"},
+        {"source_key": "b608-nara-index-p160-walter-galenson", "support_type": "context_only"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "30a94b28-903c-51f8-8e80-d36f8c7271fb",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The distinctive indexed Walter Galenson in Box 258 matches Cornell's institutional memorial, which identifies Walter Galenson by birth date, Columbia education, economics career, and explicit service in the War Department and OSS.",
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 258 to identify the accounting firm, establish the chronology of Galenson's War Department and OSS service, and determine his immediate pre-OSS affiliation and last civilian employer before wartime government service.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b608-walter-galenson-official-institutional-review",
+      "person_id": "30a94b28-903c-51f8-8e80-d36f8c7271fb",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "\"Walter Galenson\" OSS \"War Department\" biography",
+      "query_variant_type": "exact_name_official_and_institutional",
+      "started_at": "2026-09-21T03:34:00Z",
+      "completed_at": "2026-09-21T03:40:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "research_notes": "Reviewed the NARA personnel index and Cornell's faculty memorial. The memorial securely documents an earlier accounting-firm job and wartime War Department and OSS work, but it does not name the firm or provide enough chronology to label either affiliation as immediately pre-OSS.",
+      "next_action": "Inspect Box 258 and contemporary War Department records for the firm's name and exact government-service sequence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-608-v1"
+    }
+  ]
+}

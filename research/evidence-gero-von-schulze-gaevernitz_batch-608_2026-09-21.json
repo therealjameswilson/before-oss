@@ -1,0 +1,132 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 608 Gero von Schulze Gaevernitz review",
+  "sources": [
+    {
+      "key": "b608-nara-index-p159-gero-gaevernitz",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 257",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 159, row 15; Gaevernitz, Gero V; Box 257; visually checked against rendered page",
+      "access_date": "2026-09-21",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "The index locates the personnel file but does not itself record Gaevernitz's pre-OSS work."
+    },
+    {
+      "key": "b608-nara-oss-terms-gero-gaevernitz",
+      "stable_url": "https://www.archives.gov/iwg/declassified-records/rg-226-oss/terms.pdf",
+      "title": "Terms, Names, Organizational Abbreviations, and Code Words in OSS Records",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "locator": "PDF page 7, numeric name index: 476, Gero von Schulze Gaevernitz",
+      "access_date": "2026-09-21",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official OSS research aid used to corroborate the expanded indexed name; it does not establish pre-OSS employment."
+    },
+    {
+      "key": "b608-leobw-granier-gero-schulze-gaevernitz",
+      "stable_url": "https://www.leo-bw.de/detail/-/Detail/details/PERSON/kgl_biographien/129442186/Schulze%2BGaevernitz%2BGero%2Bvon%2BHermann",
+      "archival_identifier": "GND 129442186; Baden-Württembergische Biographien 1 (1994), pp. 343-345",
+      "title": "Schulze Gaevernitz, Gero von Hermann",
+      "author_creator": "Gerhard Granier",
+      "repository_publisher": "LEO-BW, Landesarchiv Baden-Württemberg",
+      "publication_record_date": "1994",
+      "locator": "Biography paragraphs describing his 1939 asset-management assignment, import-export work, and service to Allen Dulles eleven months after December 1941",
+      "access_date": "2026-09-21",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Baden-Württembergische Biographien",
+      "rights_notes": "Authoritative institutional biography; only a short excerpt and project-authored paraphrase are retained."
+    },
+    {
+      "key": "b608-cia-murphy-agent-110-gaevernitz",
+      "stable_url": "https://www.cia.gov/resources/csi/static/Exploits-of-Agent-110.pdf",
+      "title": "The Exploits of Agent 110",
+      "author_creator": "Mark Murphy",
+      "repository_publisher": "Studies in Intelligence, Central Intelligence Agency",
+      "locator": "PDF page 3, Setting Up Shop, paragraph naming Gero von Schulze Gaevernitz as a volunteer assistant",
+      "access_date": "2026-09-21",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Studies in Intelligence",
+      "rights_notes": "CIA-published historical article used to corroborate OSS/Bern recruitment and the full name; it does not name a prior employer."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "b608-gero-gaevernitz-pre-oss-asset-manager-merchant",
+      "person_id": "8b7344ea-c0e0-54b6-894a-90c64be8db07",
+      "role_title": "Manager of Edmund Stinnes's Swiss assets and import-export merchant",
+      "occupation": "Asset manager and import-export merchant",
+      "relationship_type": "professional_affiliation",
+      "start_date": "1939",
+      "end_date": "1942",
+      "date_precision": "Began in 1939; the institutional biography places service to Allen Dulles eleven months after the United States entered the war, approximately November 1942",
+      "city": "Bern",
+      "country": "Switzerland",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The institutional biography presents asset management and import-export work immediately before Gaevernitz put his knowledge and contacts at Dulles's disposal; the CIA history independently says he volunteered as an assistant soon after Dulles established OSS/Bern. The personnel file has not been reviewed, and the evidence does not name a corporate employer or establish whether the civilian work ended when informal OSS assistance began."
+    }
+  ],
+  "claims": [
+    {
+      "key": "b608-gero-gaevernitz-probable-immediate-affiliation",
+      "person_id": "8b7344ea-c0e0-54b6-894a-90c64be8db07",
+      "affiliation_key": "b608-gero-gaevernitz-pre-oss-asset-manager-merchant",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "The available chronology indicates that, immediately before volunteering for Dulles's OSS/Bern office, Gero von Schulze Gaevernitz managed Edmund Stinnes's Swiss assets and worked as an import-export merchant.",
+      "evidence_excerpt": "übernahm 1939 die Verwaltung des in der Schweiz belegenen Vermögens seines Schwagers Edmund Stinnes",
+      "evidence_paraphrase": "Granier records a 1939 assignment managing Stinnes's Swiss assets and work as an import-export merchant, followed about eleven months after December 1941 by assistance to Dulles.",
+      "identity_match_assessment": "High-confidence match. The distinctive indexed Gero V Gaevernitz in Box 257 matches the NARA OSS terms index's Gero von Schulze Gaevernitz; the CIA history independently gives that full name in OSS/Bern.",
+      "temporal_assessment": "Probable immediate predecessor. The institutional biography narrates the 1939 civilian activity through the wartime restriction of his travel and then states that eleven months later he put his knowledge and contacts at Dulles's service. It does not explicitly state the civilian activity's termination date, and it distinguishes informal private assistance from official OSS service in July 1945.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Publish only as a qualified immediate professional affiliation, not as a verified employer or last civilian employer. Review Box 257 for the exact recruitment date, business records, and whether the asset-management assignment continued concurrently.",
+      "sources": [
+        {"source_key": "b608-leobw-granier-gero-schulze-gaevernitz", "support_type": "supports"},
+        {"source_key": "b608-cia-murphy-agent-110-gaevernitz", "support_type": "supports", "locator_override": "PDF page 3, volunteer-assistant paragraph"},
+        {"source_key": "b608-nara-oss-terms-gero-gaevernitz", "support_type": "context_only"},
+        {"source_key": "b608-nara-index-p159-gero-gaevernitz", "support_type": "context_only"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "8b7344ea-c0e0-54b6-894a-90c64be8db07",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The NARA personnel index prints the distinctive Gero V Gaevernitz in Box 257. NARA's OSS terms index expands the name to Gero von Schulze Gaevernitz, and a CIA-published history independently names the same person as Dulles's volunteer assistant in Bern.",
+      "name_variants": ["Gero von Schulze Gaevernitz", "Gero von Schulze-Gaevernitz", "Gero von Hermann Schulze Gaevernitz"],
+      "manual_review_required": true,
+      "research_status": "needs_temporal_review",
+      "next_action": "Review Box 257 to establish the exact start and status of informal OSS assistance, identify any named business entity behind the import-export work, and determine whether management of Edmund Stinnes's Swiss assets continued concurrently.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b608-gero-gaevernitz-official-institutional-review",
+      "person_id": "8b7344ea-c0e0-54b6-894a-90c64be8db07",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "\"Gero von Schulze Gaevernitz\" OSS biography prewar occupation",
+      "query_variant_type": "exact_name_official_and_institutional",
+      "started_at": "2026-09-21T03:24:00Z",
+      "completed_at": "2026-09-21T03:31:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "research_notes": "Reviewed the original index, NARA OSS terms index, CIA-published OSS/Bern history, and Granier's institutional biography. The civilian chronology supports a qualified probable immediate affiliation, not a named employer. Formal OSS appointment and earlier private volunteer work are distinct and require Box 257 review.",
+      "next_action": "Inspect Box 257 and business records for a named employing or self-employed entity and exact transition dates.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-608-v1"
+    }
+  ]
+}
