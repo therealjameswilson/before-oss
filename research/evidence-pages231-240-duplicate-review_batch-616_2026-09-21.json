@@ -1,0 +1,294 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 616 pages 231-240 duplicate and variant review",
+  "person_updates": [
+    {
+      "person_id": "5dd3f402-a16d-5ee6-bb11-0d1f57bb531e",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 231 rows 11-12 prints John Jett twice in Box 373. One row lacks a private identifier and the other has one. The exact name and shared box warrant comparison, but the index alone does not prove one person.",
+      "possible_duplicate_group": "p231-john-jett-b616",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 373 files for matching dates, signatures, and assignments before any merge.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "df80bdcc-85be-54c3-9c07-8f49b7bbc031",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 231 rows 11-12 prints John Jett twice in Box 373. One row lacks a private identifier and the other has one. The exact name and shared box warrant comparison, but the index alone does not prove one person.",
+      "possible_duplicate_group": "p231-john-jett-b616",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 373 files for matching dates, signatures, and assignments before any merge.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0b10903c-68c9-5805-a3ff-8adee0b86507",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 231 rows 13-14 prints Gust Jevas twice in Box 373. One row has a private identifier and the other does not. The source rows remain separate pending direct file comparison.",
+      "possible_duplicate_group": "p231-gust-jevas-b616",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 373 files for matching dates, signatures, and assignments before any merge.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e7744921-928b-51a1-addf-789376eb33e8",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 231 rows 13-14 prints Gust Jevas twice in Box 373. One row has a private identifier and the other does not. The source rows remain separate pending direct file comparison.",
+      "possible_duplicate_group": "p231-gust-jevas-b616",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 373 files for matching dates, signatures, and assignments before any merge.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ebbaa3cb-8283-527e-a7f9-ac5b1daab7c1",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 231 rows 33 and 35 prints Eilert J Johannesen and Eilert Johannessen in Box 374, neither with a private identifier. The adjacent spelling variant and missing middle initial are strong reasons to compare the files, but not enough to merge them.",
+      "possible_duplicate_group": "p231-eilert-johannesen-johannessen-b616",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 374 files and seek an authoritative full-name spelling before resolving the entities.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e6698717-99d9-5680-9cfb-10a8eb7d9ec9",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 231 rows 33 and 35 prints Eilert J Johannesen and Eilert Johannessen in Box 374, neither with a private identifier. The adjacent spelling variant and missing middle initial are strong reasons to compare the files, but not enough to merge them.",
+      "possible_duplicate_group": "p231-eilert-johannesen-johannessen-b616",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 374 files and seek an authoritative full-name spelling before resolving the entities.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "79a4f5fd-673a-53cb-a095-bf26b29ac5ba",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 231 rows 37-38 prints Technician Third Grade Fred J Johansen and Fred W Johansen in Box 374. Their middle initials and rank fields differ, and neither row has a private identifier, so they remain separate common-name candidates.",
+      "possible_duplicate_group": "p231-fred-johansen-b616",
+      "manual_review_required": true,
+      "next_action": "Retain both entities and compare the Box 374 files only for direct name-variant or duplicate evidence.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "63ce2758-728c-574c-a7f4-396c89f670ed",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 231 rows 37-38 prints Technician Third Grade Fred J Johansen and Fred W Johansen in Box 374. Their middle initials and rank fields differ, and neither row has a private identifier, so they remain separate common-name candidates.",
+      "possible_duplicate_group": "p231-fred-johansen-b616",
+      "manual_review_required": true,
+      "next_action": "Retain both entities and compare the Box 374 files only for direct name-variant or duplicate evidence.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "7d3cb153-3ccb-5b82-9272-3ca3ed0ee15e",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 232 rows 7-8 prints James E Johns and James M Johns in Box 374 with different private identifiers. The differing middle initials and identifiers require the records to remain separate.",
+      "possible_duplicate_group": "p232-james-johns-b616",
+      "manual_review_required": true,
+      "next_action": "Retain both entities; compare the Box 374 files only if later evidence suggests a name or indexing error.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "8e210b24-f397-5fa5-8a7d-7a23c8922923",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 232 rows 7-8 prints James E Johns and James M Johns in Box 374 with different private identifiers. The differing middle initials and identifiers require the records to remain separate.",
+      "possible_duplicate_group": "p232-james-johns-b616",
+      "manual_review_required": true,
+      "next_action": "Retain both entities; compare the Box 374 files only if later evidence suggests a name or indexing error.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "00393281-7038-537c-bbb9-8c0707cee901",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 232 rows 44-45 prints Eules Johnson in Box 375 and Eules M Johnson in Box 376. One row lacks a private identifier and the other has one. The rare shared name is a strong variant lead, but the box and identifier differences require direct review.",
+      "possible_duplicate_group": "p232-eules-johnson-b616",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 375 and Box 376 files for a full name, dates, signatures, and assignments before any merge.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4ebac569-31f4-5ee1-ab10-434d9394f28c",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 232 rows 44-45 prints Eules Johnson in Box 375 and Eules M Johnson in Box 376. One row lacks a private identifier and the other has one. The rare shared name is a strong variant lead, but the box and identifier differences require direct review.",
+      "possible_duplicate_group": "p232-eules-johnson-b616",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 375 and Box 376 files for a full name, dates, signatures, and assignments before any merge.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a06ff4fb-5491-51ce-8658-e5494e8eee0f",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 233 rows 21 and 24 prints James H Johnson twice in Box 377 with different private identifiers. The exact name and shared box warrant comparison, while the different identifiers require separate treatment.",
+      "possible_duplicate_group": "p233-james-h-johnson-b616",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 377 files for a possible indexing error, but retain separate entities without direct evidence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f487cfd3-d72f-5358-bf91-946cbd5a2525",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 233 rows 21 and 24 prints James H Johnson twice in Box 377 with different private identifiers. The exact name and shared box warrant comparison, while the different identifiers require separate treatment.",
+      "possible_duplicate_group": "p233-james-h-johnson-b616",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 377 files for a possible indexing error, but retain separate entities without direct evidence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f3626c35-48eb-5376-8a04-ce0123a5933c",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 234 rows 1-2 prints Owen Johnson with an oversize note and Owen D Johnson, a first lieutenant with a private identifier and an also-AS note, both in Box 377. The missing middle initial may be a variant, but the other distinguishing fields prevent an automatic merge.",
+      "possible_duplicate_group": "p234-owen-johnson-b616",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 377 and associated oversize records for a full name, dates, and shared assignments before resolving the entities.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f3042a24-6176-5590-b6be-6517746e56db",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 234 rows 1-2 prints Owen Johnson with an oversize note and Owen D Johnson, a first lieutenant with a private identifier and an also-AS note, both in Box 377. The missing middle initial may be a variant, but the other distinguishing fields prevent an automatic merge.",
+      "possible_duplicate_group": "p234-owen-johnson-b616",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 377 and associated oversize records for a full name, dates, and shared assignments before resolving the entities.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "304ae5b0-fc49-5b45-95e6-19d6a2a3822e",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 236 rows 10-11 prints John H Jones twice in Box 381 with different private identifiers. The exact name and shared box warrant comparison, but the different identifiers require the entities to remain separate.",
+      "possible_duplicate_group": "p236-john-h-jones-b616",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 381 files for a possible indexing error; do not merge without direct evidence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "602bf526-4db0-5085-9d06-e71db905cadd",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 236 rows 10-11 prints John H Jones twice in Box 381 with different private identifiers. The exact name and shared box warrant comparison, but the different identifiers require the entities to remain separate.",
+      "possible_duplicate_group": "p236-john-h-jones-b616",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 381 files for a possible indexing error; do not merge without direct evidence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b5e7117a-8044-5014-83bf-b738f8550158",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 237 rows 38-39 prints Thomas F Joyce with a private identifier and Thomas N Joyce without one in Box 385. The differing middle initials and identifier status support separate entities pending archival comparison.",
+      "possible_duplicate_group": "p237-thomas-joyce-b616",
+      "manual_review_required": true,
+      "next_action": "Retain both entities and compare the Box 385 files only if later evidence suggests a name variant.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "f27c0cd3-5dd1-5a86-b5f6-88fa31439070",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 237 rows 38-39 prints Thomas F Joyce with a private identifier and Thomas N Joyce without one in Box 385. The differing middle initials and identifier status support separate entities pending archival comparison.",
+      "possible_duplicate_group": "p237-thomas-joyce-b616",
+      "manual_review_required": true,
+      "next_action": "Retain both entities and compare the Box 385 files only if later evidence suggests a name variant.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "8fb24f56-2930-5ab5-9488-93df505bab12",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 237 rows 42-43 prints Technician Sergeant Michael Jozsa and Mike Jozsa in Box 385 with different private identifiers. Mike is a plausible familiar-name variant, but the identifiers and rank fields require separate treatment.",
+      "possible_duplicate_group": "p237-michael-mike-jozsa-b616",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 385 files for full-name, date, and assignment evidence; retain separate entities without a direct linkage.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "142ea202-d95d-58b0-ad56-90ee60c1c1c4",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 237 rows 42-43 prints Technician Sergeant Michael Jozsa and Mike Jozsa in Box 385 with different private identifiers. Mike is a plausible familiar-name variant, but the identifiers and rank fields require separate treatment.",
+      "possible_duplicate_group": "p237-michael-mike-jozsa-b616",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 385 files for full-name, date, and assignment evidence; retain separate entities without a direct linkage.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7d8c8c13-ef5d-5394-9715-def366b7a82c",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 237 row 46 and page 238 row 1 prints Edward H Judels and Edward J Judels in Box 385 with different private identifiers. The adjacent entries share a distinctive name, but the middle initials and identifiers require separate treatment.",
+      "possible_duplicate_group": "p237-p238-edward-judels-b616",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 385 files for a middle-initial indexing error; do not merge without direct evidence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ca4a96b2-63cd-5dad-9fcc-7f180e9de4db",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 237 row 46 and page 238 row 1 prints Edward H Judels and Edward J Judels in Box 385 with different private identifiers. The adjacent entries share a distinctive name, but the middle initials and identifiers require separate treatment.",
+      "possible_duplicate_group": "p237-p238-edward-judels-b616",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 385 files for a middle-initial indexing error; do not merge without direct evidence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6f346188-0085-54c5-ac56-796d8863e0fd",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 238 rows 22-23 prints Tvonimir Jurisic and Zvonimir Jurisic in Box 386, neither with a rank or private identifier. The one-letter first-name difference is consistent with a spelling or transcription variant, but the index alone cannot establish one person.",
+      "possible_duplicate_group": "p238-tvonimir-zvonimir-jurisic-b616",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 386 files and seek an authoritative romanized spelling before resolving the entities.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "781fd0e0-f08c-514d-ad72-8233149cfa17",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 238 rows 22-23 prints Tvonimir Jurisic and Zvonimir Jurisic in Box 386, neither with a rank or private identifier. The one-letter first-name difference is consistent with a spelling or transcription variant, but the index alone cannot establish one person.",
+      "possible_duplicate_group": "p238-tvonimir-zvonimir-jurisic-b616",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 386 files and seek an authoritative romanized spelling before resolving the entities.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fe2d6714-e48a-5595-9711-3f83c363d10c",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 239 rows 20-21 prints Medard K Kalich with a private identifier and Lieutenant Medard Kalick without one in Box 388. The final-letter surname difference and missing middle initial make this a strong variant candidate, but the rank and identifier fields require file review.",
+      "possible_duplicate_group": "p239-medard-kalich-kalick-b616",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 388 files for an authoritative spelling, full name, dates, and shared assignments before any merge.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8322d59a-4df9-5aee-ac75-dd5b526b2116",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 239 rows 20-21 prints Medard K Kalich with a private identifier and Lieutenant Medard Kalick without one in Box 388. The final-letter surname difference and missing middle initial make this a strong variant candidate, but the rank and identifier fields require file review.",
+      "possible_duplicate_group": "p239-medard-kalich-kalick-b616",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 388 files for an authoritative spelling, full name, dates, and shared assignments before any merge.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "83f9b366-2bae-57ae-97ee-234e63ed039f",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 240 rows 30-31 prints Baruch D Kaplan twice in Box 390. One row has a private identifier and the other does not. The exact name and shared box justify direct file comparison, not an automatic merge.",
+      "possible_duplicate_group": "p240-baruch-d-kaplan-b616",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 390 files for matching dates, signatures, and assignments before resolving the duplicate question.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e42eb6d2-8842-5371-b45a-3af9a8fed252",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 240 rows 30-31 prints Baruch D Kaplan twice in Box 390. One row has a private identifier and the other does not. The exact name and shared box justify direct file comparison, not an automatic merge.",
+      "possible_duplicate_group": "p240-baruch-d-kaplan-b616",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 390 files for matching dates, signatures, and assignments before resolving the duplicate question.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c78cccf9-f32d-5b90-945d-c7c8502676c4",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 240 rows 34-35 prints Jacob J Kaplan and Jacob Kaplan in Box 390 with different private identifiers. The missing middle initial is a possible name variant, but the different identifiers require separate treatment.",
+      "possible_duplicate_group": "p240-jacob-kaplan-b616",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 390 files for a middle-initial indexing error; retain separate entities without direct evidence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0be40a08-4b92-5782-82ee-1147dfb34412",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 240 rows 34-35 prints Jacob J Kaplan and Jacob Kaplan in Box 390 with different private identifiers. The missing middle initial is a possible name variant, but the different identifiers require separate treatment.",
+      "possible_duplicate_group": "p240-jacob-kaplan-b616",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 390 files for a middle-initial indexing error; retain separate entities without direct evidence.",
+      "archival_review_priority": "high"
+    }
+  ]
+}
