@@ -1,0 +1,8 @@
+{
+  "bundle_version": "parser-visual-review-v1",
+  "source_pdf_sha256": "7268492342ab131d3b6d2697cfa4f6856cbdcd16e0ed3877e8d6a0478f58c02b",
+  "reviewer": "Codex pages 311-320 visual audit",
+  "matching_pages_reviewed_at": "2026-09-21T17:45:00Z",
+  "matching_pages_notes": "Original PDF pages 311-320 were rendered at 180 dpi and all 460 printed rows were compared with immutable source records for row order, indexed name and initials, rank, private-identifier column occupancy, box, notes, and archive location. All ten pages match the current extraction and no new correction is needed. Page 312 retains its earlier reviewed-after-correction status and page 314 retains its earlier complete deterministic-random review; those two pages are intentionally omitted from this bundle's matching-page list so their prior dispositions remain authoritative on replay. The review preserves literal source anomalies and variants rather than silently repairing them, including PVT (Au, Sep-39, 023034/84, RA 3994620, RA1404787, A700336, A402911, Virgina, Lawerence, Jospeh, Meeksdelbert?, Melnikoff II, McNearnry and McNerney, McParland and McPharland, Meader and Meador, Menanga and Menengas, Mersereau and Meserau, Meuller, Meysereav, Micheals, clipped notes, values visibly displaced between columns, and repeated Kenneth McKown, John McLaughlin, Mary Meade, Michael Melkonian, William Meritts, Leon Messenger, Hans Meyerhoff, and other visibly duplicated or variant rows. Private identifiers are not included in this bundle or public assets.",
+  "reviewed_matching_pages": [311, 313, 315, 316, 317, 318, 319, 320]
+}

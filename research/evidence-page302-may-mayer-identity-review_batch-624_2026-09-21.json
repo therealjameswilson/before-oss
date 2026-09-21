@@ -1,0 +1,18 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 624 page 302 Army identity review",
+  "person_updates": [
+    {
+      "person_id": "1364045d-eec0-547c-96b1-8b50f5ea90d3",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name and a nonshared protected identifier. The Army grade and bulk occupation code are not treated as a named employer or immediate pre-OSS affiliation.",
+      "manual_review_required": false
+    },
+    {
+      "person_id": "7ed4cef0-5c5c-5b9a-b3aa-538a30dd11c9",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name and a nonshared protected identifier. The Army grade and bulk occupation code are not treated as a named employer or immediate pre-OSS affiliation.",
+      "manual_review_required": false
+    }
+  ]
+}
