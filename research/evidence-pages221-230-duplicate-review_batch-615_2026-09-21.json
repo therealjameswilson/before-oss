@@ -1,0 +1,312 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 615 pages 221-230 duplicate and variant review",
+  "person_updates": [
+    {
+      "person_id": "3f7a9fc8-a061-511e-9adc-195f7e0575bc",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 221 rows 23-24 prints two Daniel D Hunter entries in Box 358 with different ranks and different private identifiers. The exact name match warrants comparison, but those distinguishing fields do not support an automatic merge.",
+      "possible_duplicate_group": "p221-daniel-d-hunter-b615",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 358 personnel files for dates, assignments, and independent identifiers before deciding whether the rows represent one person or two.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d10821ec-45d4-572e-8275-fff2d4241652",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 221 rows 23-24 prints two Daniel D Hunter entries in Box 358 with different ranks and different private identifiers. The exact name match warrants comparison, but those distinguishing fields do not support an automatic merge.",
+      "possible_duplicate_group": "p221-daniel-d-hunter-b615",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 358 personnel files for dates, assignments, and independent identifiers before deciding whether the rows represent one person or two.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7287eee8-59ad-5434-a6be-4d8da06a4015",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 221 rows 38-40 prints Robert G Hunter, Robert C Hunter, and Robert A.M. Hunter in Box 358, each with a different private identifier. The shared first and last names justify a review cluster, while the initials and identifiers require the rows to remain separate.",
+      "possible_duplicate_group": "p221-robert-hunter-b615",
+      "manual_review_required": true,
+      "next_action": "Compare the three Box 358 files for any variant-name evidence; retain separate entities unless direct records establish duplication.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "a7f84f59-e986-55bf-bf32-c650b93f5163",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 221 rows 38-40 prints Robert G Hunter, Robert C Hunter, and Robert A.M. Hunter in Box 358, each with a different private identifier. The shared first and last names justify a review cluster, while the initials and identifiers require the rows to remain separate.",
+      "possible_duplicate_group": "p221-robert-hunter-b615",
+      "manual_review_required": true,
+      "next_action": "Compare the three Box 358 files for any variant-name evidence; retain separate entities unless direct records establish duplication.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "a1513055-0c63-5516-8a0b-184dccf662a0",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 221 rows 38-40 prints Robert G Hunter, Robert C Hunter, and Robert A.M. Hunter in Box 358, each with a different private identifier. The shared first and last names justify a review cluster, while the initials and identifiers require the rows to remain separate.",
+      "possible_duplicate_group": "p221-robert-hunter-b615",
+      "manual_review_required": true,
+      "next_action": "Compare the three Box 358 files for any variant-name evidence; retain separate entities unless direct records establish duplication.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "d81f3768-8dfa-5f5a-8b9d-121739f31a19",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 222 rows 5-6 prints William C Hurley in Box 357 and William P Hurley, a second lieutenant, in Box 359. Their middle initials, boxes, ranks, and private identifiers differ, so the common first and last names are only a comparison lead.",
+      "possible_duplicate_group": "p222-william-hurley-b615",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 357 and Box 359 files only if later evidence suggests a name variant; do not merge from the common name alone.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "cb225d10-cb54-582b-8b2a-9af0a6a23f9e",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 222 rows 5-6 prints William C Hurley in Box 357 and William P Hurley, a second lieutenant, in Box 359. Their middle initials, boxes, ranks, and private identifiers differ, so the common first and last names are only a comparison lead.",
+      "possible_duplicate_group": "p222-william-hurley-b615",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 357 and Box 359 files only if later evidence suggests a name variant; do not merge from the common name alone.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "69a89657-c1cc-5ab4-a861-d58087a6040f",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 222 rows 19-20 prints Frank U Huston without a private identifier and Frank V Huston, a naval lieutenant junior grade, with a private identifier; both are in Box 359. The differing initials and service details require separate entities pending file comparison.",
+      "possible_duplicate_group": "p222-frank-huston-b615",
+      "manual_review_required": true,
+      "next_action": "Compare the two Box 359 personnel files for name-variant evidence while preserving the existing supported identity for Frank V Huston.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "789afa1d-9778-5d84-904a-0f341884f736",
+      "identity_status": "high_confidence",
+      "identity_evidence": "NARA PDF page 222 row 20 identifies Frank V Huston as a naval lieutenant junior grade with a private identifier in Box 359. Row 19 separately prints Frank U Huston without an identifier. The neighboring row is recorded as a possible variant for review without displacing the existing independently supported Frank V Huston identity.",
+      "possible_duplicate_group": "p222-frank-huston-b615",
+      "manual_review_required": true,
+      "next_action": "Compare the two Box 359 files for name-variant evidence; retain the current Frank V Huston identity unless direct records contradict it.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "aa0f5bcf-6acc-596c-b9d7-2273df27bd88",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 222 rows 36-37 prints Mary A Hutchison and Mary E Hutchison in Box 360, neither with a rank or private identifier. The shared name and box invite comparison, but the different middle initials may identify different people.",
+      "possible_duplicate_group": "p222-mary-hutchison-b615",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 360 files for dates, signatures, addresses, and assignment details before any merge.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "30cf69c5-78c7-55a0-9a9f-48a06dc23fc9",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 222 rows 36-37 prints Mary A Hutchison and Mary E Hutchison in Box 360, neither with a rank or private identifier. The shared name and box invite comparison, but the different middle initials may identify different people.",
+      "possible_duplicate_group": "p222-mary-hutchison-b615",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 360 files for dates, signatures, addresses, and assignment details before any merge.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5b9ddef0-017f-5bd6-8b88-9aac770aef05",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 223 rows 1-2 prints Lillian S Huyck and Lillian Huyck in Box 360, neither with a rank or private identifier. The adjacent names could be a duplicated or shortened entry, but the index alone does not prove that.",
+      "possible_duplicate_group": "p223-lillian-huyck-b615",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 360 files for a shared middle initial, dates, signatures, and assignments before considering a merge.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "23f3aeff-f80a-51f4-8593-bd6fed6f0448",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 223 rows 1-2 prints Lillian S Huyck and Lillian Huyck in Box 360, neither with a rank or private identifier. The adjacent names could be a duplicated or shortened entry, but the index alone does not prove that.",
+      "possible_duplicate_group": "p223-lillian-huyck-b615",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 360 files for a shared middle initial, dates, signatures, and assignments before considering a merge.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2042be06-86fb-57e0-b604-da5c63d7bd29",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 224 rows 7-8 prints Joseph H Immel twice in Box 362. One row has a private identifier and one does not. The exact duplicate name and shared box are strong reasons to compare the files, but not enough to merge the preserved source rows.",
+      "possible_duplicate_group": "p224-joseph-h-immel-b615",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 362 file entries for the same dates, signatures, and assignment history before resolving the duplicate question.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0ba1bef2-c507-58fe-bef8-fc8e29ef603c",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 224 rows 7-8 prints Joseph H Immel twice in Box 362. One row has a private identifier and one does not. The exact duplicate name and shared box are strong reasons to compare the files, but not enough to merge the preserved source rows.",
+      "possible_duplicate_group": "p224-joseph-h-immel-b615",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 362 file entries for the same dates, signatures, and assignment history before resolving the duplicate question.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9e3de161-062f-599b-a458-f3c29cc7d632",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 225 rows 20-21 prints George R Isaac with a private identifier and George R.W. Isaac without one, both in Box 364. The extra initial could be an expanded name variant, but direct file evidence is required.",
+      "possible_duplicate_group": "p225-george-isaac-b615",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 364 files for the full name, dates, signatures, and assignments before any merge.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "638949cb-ecee-54f9-af63-f04f39515d92",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 225 rows 20-21 prints George R Isaac with a private identifier and George R.W. Isaac without one, both in Box 364. The extra initial could be an expanded name variant, but direct file evidence is required.",
+      "possible_duplicate_group": "p225-george-isaac-b615",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 364 files for the full name, dates, signatures, and assignments before any merge.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "76b4d57a-238c-5a81-bcc2-ee8594f6b555",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 225 rows 29 and 31 prints Ayus Isarasena and Ayus Isavasena in Box 364, neither with a rank or private identifier. The one-letter surname difference is consistent with a transcription or spelling variant, but the index does not establish one person.",
+      "possible_duplicate_group": "p225-ayus-isarasena-isavasena-b615",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 364 files and seek an authoritative romanized spelling before resolving the entities.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d572996f-8156-5d63-8ac7-508396602332",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 225 rows 29 and 31 prints Ayus Isarasena and Ayus Isavasena in Box 364, neither with a rank or private identifier. The one-letter surname difference is consistent with a transcription or spelling variant, but the index does not establish one person.",
+      "possible_duplicate_group": "p225-ayus-isarasena-isavasena-b615",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 364 files and seek an authoritative romanized spelling before resolving the entities.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "428f4c24-f029-5ce1-b187-e6b74b46db07",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 227 rows 4-5 prints Captain Joseph J Jackson and Joseph Jackson in Box 366 with different private identifiers. The missing middle initial in one row is a possible name variant, while the different identifiers require separate treatment.",
+      "possible_duplicate_group": "p227-joseph-jackson-b615",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 366 files for full names, service history, and assignments; do not merge without direct evidence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7143e372-bec4-5990-bf9f-a63ed28ee4b6",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 227 rows 4-5 prints Captain Joseph J Jackson and Joseph Jackson in Box 366 with different private identifiers. The missing middle initial in one row is a possible name variant, while the different identifiers require separate treatment.",
+      "possible_duplicate_group": "p227-joseph-jackson-b615",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 366 files for full names, service history, and assignments; do not merge without direct evidence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d0da23e5-ed3d-50d6-82b7-a796c3f6ce2c",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 227 rows 15-17 prints Colonel William C Jackson, William Hardin Jackson, and William W Jackson Jr. in Box 367 with distinct names and private identifiers. They form a common-name review cluster, not a basis for merging.",
+      "possible_duplicate_group": "p227-william-jackson-b615",
+      "manual_review_required": true,
+      "next_action": "Retain all three entities; compare the Box 367 files only if later sources suggest an alias or indexing duplication.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "179d7906-7c1b-5fa7-baaa-251877dcca8a",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 227 rows 15-17 prints Colonel William C Jackson, William Hardin Jackson, and William W Jackson Jr. in Box 367 with distinct names and private identifiers. They form a common-name review cluster, not a basis for merging.",
+      "possible_duplicate_group": "p227-william-jackson-b615",
+      "manual_review_required": true,
+      "next_action": "Retain all three entities; compare the Box 367 files only if later sources suggest an alias or indexing duplication.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "addc3c8f-bd9c-521d-89a4-7d316466a58d",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 227 rows 15-17 prints Colonel William C Jackson, William Hardin Jackson, and William W Jackson Jr. in Box 367 with distinct names and private identifiers. They form a common-name review cluster, not a basis for merging.",
+      "possible_duplicate_group": "p227-william-jackson-b615",
+      "manual_review_required": true,
+      "next_action": "Retain all three entities; compare the Box 367 files only if later sources suggest an alias or indexing duplication.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "588dd91c-cb3b-55dd-a10a-ffc9ad82ddf1",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 227 rows 35-36 prints Harold B Jacobsen twice. One row lacks a private identifier and is in Box 368; the other has an identifier and is in Box 367. The exact name match needs archival comparison, but the box and identifier differences prevent an automatic merge.",
+      "possible_duplicate_group": "p227-harold-b-jacobsen-b615",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 367 and Box 368 files for shared dates, signatures, and assignments before resolving the duplicate question.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "86d09d35-ed7f-544e-9315-829affee5c50",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 227 rows 35-36 prints Harold B Jacobsen twice. One row lacks a private identifier and is in Box 368; the other has an identifier and is in Box 367. The exact name match needs archival comparison, but the box and identifier differences prevent an automatic merge.",
+      "possible_duplicate_group": "p227-harold-b-jacobsen-b615",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 367 and Box 368 files for shared dates, signatures, and assignments before resolving the duplicate question.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0cdf3213-13c5-5af0-aa3f-51321e63d824",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 228 rows 8-9 prints Robert Jaffe with a private identifier and Robert Jaffee without one, both in Box 368. The one-letter surname difference is a plausible index variant, but it does not establish one person.",
+      "possible_duplicate_group": "p228-robert-jaffe-jaffee-b615",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 368 files for full-name spelling, dates, signatures, and assignment details before any merge.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "48849341-7229-50cc-b75d-09a370e4b021",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 228 rows 8-9 prints Robert Jaffe with a private identifier and Robert Jaffee without one, both in Box 368. The one-letter surname difference is a plausible index variant, but it does not establish one person.",
+      "possible_duplicate_group": "p228-robert-jaffe-jaffee-b615",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 368 files for full-name spelling, dates, signatures, and assignment details before any merge.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2c51ae91-5916-5c65-94a6-ab7751d99b80",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 229 rows 40 and 44 prints Henry L Jeffery with a private identifier and Henry L Jeffry without one, both in Box 371. The surname spelling difference is a possible index variant requiring file-level confirmation.",
+      "possible_duplicate_group": "p229-henry-l-jeffery-jeffry-b615",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 371 files for authoritative spelling, dates, signatures, and assignments before any merge.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7b6758d8-373c-5295-9be2-bbef06c139c5",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 229 rows 40 and 44 prints Henry L Jeffery with a private identifier and Henry L Jeffry without one, both in Box 371. The surname spelling difference is a possible index variant requiring file-level confirmation.",
+      "possible_duplicate_group": "p229-henry-l-jeffery-jeffry-b615",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 371 files for authoritative spelling, dates, signatures, and assignments before any merge.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "449c3e9e-7f65-57f2-b780-f044be30f70b",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 230 rows 11-12 prints Captain John C Jenkins and John M Jenkins in Box 371, neither with a private identifier. The different middle initials may identify different people despite the common first and last names.",
+      "possible_duplicate_group": "p230-john-jenkins-b615",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 371 files for full names, dates, signatures, and assignments before resolving the cluster.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d8fcfa84-87dc-573a-90e7-fa775b1456fb",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 230 rows 11-12 prints Captain John C Jenkins and John M Jenkins in Box 371, neither with a private identifier. The different middle initials may identify different people despite the common first and last names.",
+      "possible_duplicate_group": "p230-john-jenkins-b615",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 371 files for full names, dates, signatures, and assignments before resolving the cluster.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f0792247-2d77-50c2-a954-11c501032bdf",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 230 rows 33-34 prints William Jennings without a private identifier and William R Jennings with one, both in Box 372. The missing middle initial may be a shortened entry, but direct evidence is required.",
+      "possible_duplicate_group": "p230-william-jennings-b615",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 372 files for full names, dates, signatures, and assignments before any merge.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5e9f40ec-d324-5ab8-aecd-1dea806d7fe6",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 230 rows 33-34 prints William Jennings without a private identifier and William R Jennings with one, both in Box 372. The missing middle initial may be a shortened entry, but direct evidence is required.",
+      "possible_duplicate_group": "p230-william-jennings-b615",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 372 files for full names, dates, signatures, and assignments before any merge.",
+      "archival_review_priority": "high"
+    }
+  ]
+}

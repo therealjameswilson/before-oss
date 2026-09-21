@@ -1,6 +1,6 @@
 # Parser QA
 
-Generated: 2026-09-21T07:39:00+00:00
+Generated: 2026-09-21T08:32:38+00:00
 
 ## Gate summary
 
@@ -9,7 +9,7 @@ Generated: 2026-09-21T07:39:00+00:00
 - Parser-warning rows: **32**.
 - Pages selected for visual QA: **92**.
 - Page images rendered in this run: **0**.
-- Pages visually reviewed as matching: **155**.
+- Pages visually reviewed as matching: **165**.
 - Pages visually reviewed after a normalized-field correction: **28**.
 - Parser-warning rows visually reviewed and corrected: **31**.
 

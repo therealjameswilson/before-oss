@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T07:39:07+00:00",
+  "generated_at": "2026-09-21T08:42:03+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -26,29 +26,29 @@
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
-    "1": 68,
-    "2": 68,
+    "1": 67,
+    "2": 69,
     "3": 28,
     "4": 36
   },
   "identity_status_counts": {
-    "ambiguous": 19,
+    "ambiguous": 20,
     "confirmed": 6,
     "conflicting": 10,
     "high_confidence": 23,
     "probable": 4,
-    "unresolved": 138
+    "unresolved": 137
   },
   "research_status_counts": {
     "candidate_found": 3,
     "completed": 4,
     "conflicting_sources": 9,
     "documented_prewar_employer_found": 2,
-    "in_progress": 14,
+    "in_progress": 13,
     "needs_identity_review": 10,
     "needs_temporal_review": 2,
     "no_reliable_result_after_protocol": 1,
-    "not_started": 111,
+    "not_started": 112,
     "occupation_only_found": 6,
     "requires_archival_review": 30,
     "verified_employer_found": 8
@@ -63,7 +63,7 @@
     "confirmed_or_high_published_claim": 31,
     "medium_published_claim": 14,
     "conflicting_published_claim": 10,
-    "unresolved_identity": 138
+    "unresolved_identity": 137
   },
   "unavailable_strata": {
     "women": "The index has no sex/gender field; the project does not infer gender from names. This stratum requires sourced identity research."
@@ -215,6 +215,7 @@
     "f9f7888e-c29a-5af7-b6b4-1c89953e194c",
     "8330aa69-f666-5dc6-bb18-01c3024fabf1",
     "bd36d4ff-c5f7-574e-adfc-20454703ace2",
+    "588dd91c-cb3b-55dd-a10a-ffc9ad82ddf1",
     "467c34fa-0b81-5bee-9c59-cc2e7d28f3de",
     "266a1510-87a8-5103-bdc8-52ded6feeeb8",
     "017814e5-1414-5ebe-9bc9-7f13a45a30dd",
@@ -231,7 +232,6 @@
     "668221c0-1ef1-54c9-b4f0-d39a94fd5b68",
     "8c54ce04-83c7-593c-962e-a11dea32fd89",
     "b103f936-8713-53ae-ab14-15b94df853e2",
-    "0b37edb6-1768-529f-b824-7a4af2183d43",
     "5973e9b9-4412-53fc-93d6-c9925bed1a90",
     "e9894de3-592a-5ab3-b5f3-56ea67909531",
     "cc806144-a526-5ecf-9b71-bab279bfcdf4",

@@ -36,10 +36,11 @@ contains 12, for a total of 23,978. Visual selection includes:
 - every parser-warning page;
 - every anomalous row-count page.
 
-One hundred eighty-three pages have durable, replayable visual decisions. The
-current audit rules select 92 of them; ninety-one additional pages are also
-reviewed. Three hundred thirty-nine pages still await individual visual comparison.
-Pages 136, 207, 215, and 220 were rechecked in batches 604, 613, and 614. Page 184 received
+One hundred ninety-three pages have durable, replayable visual decisions. The
+current audit rules select 92 of them; 101 additional pages are also reviewed.
+Three hundred twenty-nine pages still await individual visual comparison.
+Pages 136, 207, 215, and 220 were rechecked in batches 604, 613, and 614; pages
+221–230 received complete-page comparison in batch 615. Page 184 received
 complete-page review in batch 611 after already entering the ledger through a
 row-specific parser warning. Those rechecks did not increase distinct-page
 coverage. Twenty-three values
