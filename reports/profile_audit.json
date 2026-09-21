@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T04:42:36+00:00",
+  "generated_at": "2026-09-21T05:16:51+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -17,17 +17,17 @@
     "commissioned_coast_guard_officer": 1,
     "commissioned_marine_corps_officer": 4,
     "commissioned_naval_officer": 4,
-    "enlisted_army_personnel": 25,
+    "enlisted_army_personnel": 24,
     "enlisted_marine_corps_personnel": 4,
     "enlisted_naval_personnel": 4,
     "foreign_or_allied_military_personnel": 15,
     "temporary_contract_or_special_personnel": 4,
-    "unknown_or_indeterminate": 97,
+    "unknown_or_indeterminate": 98,
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
-    "1": 69,
-    "2": 67,
+    "1": 68,
+    "2": 68,
     "3": 28,
     "4": 36
   },
@@ -56,7 +56,7 @@
   "special_strata_counts": {
     "commissioned": 30,
     "civilian": 20,
-    "enlisted": 33,
+    "enlisted": 32,
     "allied_or_foreign": 20,
     "incomplete_or_initial_only_name": 20,
     "possible_duplicate_group": 30,
@@ -204,6 +204,7 @@
     "f16ee2f2-158a-5256-8b48-960b81d55951",
     "5657736e-f8ad-5314-b76a-6d377200c8ce",
     "dfec0fab-cfc9-511a-9ae0-29010e7bfa0b",
+    "c7b2f044-9e84-5e2e-8eaa-cba01581d249",
     "b289289f-9647-52ff-b40c-93d9dee810f1",
     "d7c03613-c5e1-5938-ba61-e2e48cd4941b",
     "dd445e77-9239-566e-843e-1d3b6cd9a7dc",
@@ -231,7 +232,6 @@
     "82212ca6-e815-57ca-b4ea-3caf8025c31d",
     "94612448-1e57-544c-a26a-524b6a20d4b4",
     "fd9fdd87-52ca-5b6d-8055-e8d26f87ef64",
-    "9ba1a015-c88d-5cf7-bc6d-b106adf37013",
     "5973e9b9-4412-53fc-93d6-c9925bed1a90",
     "e9894de3-592a-5ab3-b5f3-56ea67909531",
     "cc806144-a526-5ecf-9b71-bab279bfcdf4",
@@ -245,7 +245,6 @@
     "3847bf8c-3f23-53db-9336-0acf281168cb",
     "0d912f02-fd91-58a0-84ed-fc5bb2c58469",
     "7fd2df90-8f0a-5177-8cac-da63dbe1f43d",
-    "c7b2f044-9e84-5e2e-8eaa-cba01581d249",
     "e93e5ecb-8c29-5043-a0cb-dbe9d1b9e6b1",
     "c3af4075-e97a-5342-b52a-ee92adb135a4",
     "6a846dd9-b29a-5b8d-b4de-b54d826ff669",
@@ -268,6 +267,7 @@
     "a2d327c1-38bf-5e91-8762-d07ad0295d6c",
     "ce77c56f-052f-511b-a375-ae9b026f1492",
     "eace424d-a9d1-53c2-ba18-d81c2393eff3",
-    "bda8dff2-e4ea-5625-9eef-5034cc86608d"
+    "bda8dff2-e4ea-5625-9eef-5034cc86608d",
+    "6aad5298-2d26-58d4-9351-760a406ae906"
   ]
 }

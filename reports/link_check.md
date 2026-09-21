@@ -1,5 +1,19 @@
 # Link check
 
+Batch 611 local validation, 2026-09-21 UTC: all internal links resolve across
+**24,695** locally built HTML files, including Moses Hadas's evidence profile,
+the separate same- and different-identifier duplicate candidates, and the
+seven-person oil-company workers category. An unrelated untracked duplicate
+Sources route adds 25 local-only pages and is excluded from the clean release.
+The checker inventoried **50,237** unique external URLs; it did not request
+every target. The public-identifier audit compared **12,926** normalized
+identifiers and **120** variants against **24,767** public artifacts, with zero
+unexpected full-number boundary matches. The local release verifier matched
+all **67** manifest-listed assets and **97,577,955** bytes at manifest SHA-256
+`d20b90c48a61fec2d27937d69d5346d0096cb526a7f1a920ef646a3b811fba77`.
+Clean CI, Pages deployment, and live exact-file verification remain separate
+release checks.
+
 Batch 610 local validation, 2026-09-21 UTC: all internal links resolve across
 **24,696** locally built HTML files, including Nelson Glueck's evidence profile,
 the separate Glazier and Green/Greene review candidates, and the seven-person

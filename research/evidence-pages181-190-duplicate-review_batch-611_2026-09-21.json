@@ -1,0 +1,168 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 611 original-index variant review",
+  "person_updates": [
+    {
+      "person_id": "662007d2-ddcc-51e4-a62e-2fabc2e49cdc",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 181 prints Stephen F Greigal without a private identifier and later prints Stephen F Griegal with one. The transposed surname letters are a possible index variant, not proof of one person.",
+      "possible_duplicate_group": "p181-stephen-f-greigal-griegal-b611",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 292 and Box 293 files for exact surname, dates, and service history before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "576b1142-26d2-5e61-bac8-dde6c3378b43",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 181 prints Stephen F Griegal with a private identifier and Stephen F Greigal without one. Both source rows and person entities remain separate.",
+      "possible_duplicate_group": "p181-stephen-f-greigal-griegal-b611",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 292 and Box 293 files for exact surname, dates, and service history before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "67310b55-53cd-5ca2-b9dc-0956e7439450",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 181 prints Joseph A Grenci without a private identifier and Joseph L Grenci with one in the same box. The middle-initial difference remains unresolved.",
+      "possible_duplicate_group": "p181-joseph-grenci-b611",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 292 files for full middle name, dates, and service history.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5215cafc-7564-5147-ab32-f0b5da22ce45",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 181 prints Joseph L Grenci with a private identifier beside Joseph A Grenci without one. Similar names do not justify a merge or fact transfer.",
+      "possible_duplicate_group": "p181-joseph-grenci-b611",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 292 files for full middle name, dates, and service history.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7d1fd082-cb2d-5b5f-b7b8-5947670016fb",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 182 prints two consecutive James Grimes rows in Box 295, neither with a middle initial or private identifier. Identical names alone do not establish duplication.",
+      "possible_duplicate_group": "p182-james-grimes-b611",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 295 files for biographical identifiers and assignments before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c53c188d-78aa-586e-988b-e69712309423",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 182 contains a second James Grimes row in Box 295 without a middle initial or private identifier. Both entries remain separate.",
+      "possible_duplicate_group": "p182-james-grimes-b611",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 295 files for biographical identifiers and assignments before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "847a7fa2-8d00-5967-a71e-9f331d0a365b",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 183 prints Harry W Grossglaus and Harry A Grossglaus with different private identifiers. Both entities remain separate unless direct file evidence explains the relationship.",
+      "possible_duplicate_group": "p183-harry-grossglaus-b611",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 296 files and identifiers before treating either record as a spelling or middle-initial error.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0e75b6c4-b8fe-5998-9922-c342f87b3003",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 183's two Harry Grossglaus rows carry different middle initials and private identifiers. A shared uncommon name does not override that conflict.",
+      "possible_duplicate_group": "p183-harry-grossglaus-b611",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 296 files and identifiers before treating either record as a spelling or middle-initial error.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b8fdedfd-7562-57ab-9fd9-f6ae42f07e32",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Pages 184 and 185 print Louis W Guadarelli and Louis W Guidarelli with the same private identifier, box, and location. This is strong duplicate evidence, but both source rows remain immutable and separate pending file review.",
+      "possible_duplicate_group": "p184-185-louis-w-guadarelli-guidarelli-b611",
+      "manual_review_required": true,
+      "next_action": "Review Box 298 to establish the authoritative surname spelling and confirm that both rows describe one file.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "13cd560f-9f53-5453-b69d-fd9966476a4f",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The Louis W Guidarelli row on page 185 repeats the private identifier, box, and location of Louis W Guadarelli on page 184. The records are linked as a probable duplicate group without merging.",
+      "possible_duplicate_group": "p184-185-louis-w-guadarelli-guidarelli-b611",
+      "manual_review_required": true,
+      "next_action": "Review Box 298 to establish the authoritative surname spelling and confirm that both rows describe one file.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6b734369-078e-512d-98f2-0731ae54ccd3",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 184 prints Jackson E Guernsey without a private identifier and Jackson Guernsey with one in Box 298. The missing initial could reflect a duplicate or a namesake.",
+      "possible_duplicate_group": "p184-jackson-guernsey-b611",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 298 files for full name, dates, and service history before resolving the pair.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b9edd47f-ca8d-5ffb-a950-8f1a0548a939",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 184's Jackson Guernsey row has a private identifier while the adjacent Jackson E Guernsey row does not. Both remain separate.",
+      "possible_duplicate_group": "p184-jackson-guernsey-b611",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 298 files for full name, dates, and service history before resolving the pair.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "507ab14e-f7ae-513a-9e9c-95183f7f9d3b",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 186 prints Otto E Gutman with a private identifier and Otto E Guttman without one in adjacent boxes. The surname spelling difference remains unresolved.",
+      "possible_duplicate_group": "p186-otto-e-gutman-guttman-b611",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 300 and 301 for exact surname, dates, and service history before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "badaf6ec-5385-59eb-b108-2815b0b43ea4",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 186's Otto E Guttman row lacks a private identifier while the Otto E Gutman row has one. Both spellings and entities remain public as indexed.",
+      "possible_duplicate_group": "p186-otto-e-gutman-guttman-b611",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 300 and 301 for exact surname, dates, and service history before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d413b99e-79dc-5b2e-a862-b8da37fc4fc5",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 190 prints Ernestine Hambeurg and Ernestine A Hamburg in the same box without private identifiers. The similar surname and shared first name are a possible spelling variant only.",
+      "possible_duplicate_group": "p190-ernestine-hambeurg-hamburg-b611",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 308 files for full name, dates, and assignments before resolving the spelling pair.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c9fa2d39-b221-59d7-9368-baa71ff850dc",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 190's Ernestine A Hamburg row may correspond to Ernestine Hambeurg, but neither row carries a private identifier. Both remain separate.",
+      "possible_duplicate_group": "p190-ernestine-hambeurg-hamburg-b611",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 308 files for full name, dates, and assignments before resolving the spelling pair.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c7b2f044-9e84-5e2e-8eaa-cba01581d249",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 190 prints Major John B Hamblet with a private identifier and Major John P Hamblet without one in Box 308. The middle-initial conflict prevents a merge.",
+      "possible_duplicate_group": "p190-major-john-hamblet-b611",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 308 files for full middle name, service history, and identifier context.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "29c7da2e-247a-5b36-b377-22fb73422646",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 190's Major John P Hamblet row lacks a private identifier while the adjacent Major John B Hamblet row has one. Both entities remain separate.",
+      "possible_duplicate_group": "p190-major-john-hamblet-b611",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 308 files for full middle name, service history, and identifier context.",
+      "archival_review_priority": "high"
+    }
+  ]
+}
