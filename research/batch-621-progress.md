@@ -65,9 +65,14 @@ Full-index historical research is unfinished.
 
 ## Local release validation
 
-Release validation will be recorded in `reports/release_batch_621.md` after the
-tracked-only candidate passes the complete test, build, accessibility, link,
-redaction, and deterministic-build suite.
+The tracked-only candidate passed 127/127 Python tests, all ingest checks, all
+7/7 checks in the deterministic 200-profile audit, and all 90/90 bounded
+Playwright checks across desktop, phone, and tablet. Astro reported zero
+diagnostics and generated 24,681 HTML pages / 24,753 artifacts. Link and public
+identifier audits passed. Two clean builds were byte-identical at 24,753 files,
+294,223,000 bytes, and tree SHA-256
+`b7bda0076ec95b6a771d7bb2ddf83cefb06cdecdeddc8d7cf71f571c6000c335`.
+The complete local verification record is in `reports/release_batch_621.md`.
 
 ## Replay and continuation
 

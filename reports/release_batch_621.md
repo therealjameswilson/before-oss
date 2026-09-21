@@ -60,7 +60,31 @@ historical research remains unfinished.
 
 ## Local verification
 
-Pending the tracked-only release validation suite.
+A clean tracked-only worktree passed the complete local release suite:
+
+- **127/127** Python unit, parser, schema, normalization, privacy, adapter,
+  review-import, and export tests passed.
+- `validate-ingest` passed every extraction invariant; SQLite `quick_check`
+  returned `ok` and there were **0** foreign-key errors.
+- The deterministic **200-profile** stratified audit passed all **7/7**
+  structural and evidence checks.
+- Astro completed with **0 errors, 0 warnings, and 0 hints**, generating
+  **24,681 HTML pages** and **24,753 total artifacts**.
+- The bounded Playwright release suite passed **90/90** tests: **21** Batch
+  621 checks, **33** core-route checks, **6** analysis checks, and **30**
+  accessibility checks. Axe reported no serious or critical violations.
+- All internal links resolved across **24,681** HTML files; **50,236** unique
+  external URLs were inventoried for the separate live-source process.
+- The public-identifier audit examined **12,926** normalized identifiers,
+  **120** formatted variants, and **24,753** artifacts, finding **0** aggregate
+  false positives, **0** manifest-size false positives, and **0** unexpected
+  boundary matches.
+- The checked-in public manifest covers **67 assets** and **98,039,531 bytes**
+  with SHA-256
+  `214050b74d2ea50297e06a48c049103c3c8815bfdcf53f11a6ab826143177b96`.
+- Two independent clean production builds were byte-identical: **24,753**
+  files, **294,223,000** bytes, tree SHA-256
+  `b7bda0076ec95b6a771d7bb2ddf83cefb06cdecdeddc8d7cf71f571c6000c335`.
 
 ## Deployment
 
