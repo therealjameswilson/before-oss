@@ -173,6 +173,19 @@ h3 {
   color: var(--rust);
 }
 
+.site-header nav a.nav-featured {
+  padding: 0.55rem 0.7rem;
+  background: var(--navy);
+  color: white;
+  white-space: nowrap;
+}
+
+.site-header nav a.nav-featured:hover,
+.site-header nav a.nav-featured:focus-visible {
+  background: var(--rust-dark);
+  color: white;
+}
+
 .page-eyebrow {
   width: min(calc(100% - 2rem), var(--measure));
   margin: 2rem auto 0;
