@@ -57,9 +57,16 @@ Full-index historical research is unfinished.
 
 ## Local release validation
 
-Release validation is recorded in `reports/release_batch_620.md` after the
-tracked-only candidate has passed the full test, build, accessibility, link,
-redaction, and deterministic-build suite.
+The tracked-only candidate passed the full release suite: **127/127** Python
+tests; all ingest invariants, SQLite integrity, and foreign-key checks; all
+**7/7** checks in the deterministic 200-profile audit; a clean Astro build of
+**24,681 HTML pages** and **24,753 total artifacts**; **81/81** bounded
+Playwright tests including **30** accessibility checks; all internal links;
+and the public-identifier audit with zero unexpected matches. Two independent
+clean builds produced the same **294,194,766-byte** tree and SHA-256
+`646061fc1565e03cbfc4a24c17fa75c76f6dc5416e18310bf23042573385283d`.
+Exact component counts and the checked-in manifest hash are recorded in
+`reports/release_batch_620.md`.
 
 ## Replay and continuation
 
