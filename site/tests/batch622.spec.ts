@@ -51,7 +51,7 @@ test("Robert March and Marck retain the one-digit conflict", async ({ page }) =>
     await page.goto(`./people/${id}/`);
     await expect(page.getByRole("heading", { name, level: 1 })).toBeVisible();
     await expect(page.locator("main")).toContainText("ambiguous");
-    await expect(page.locator("main")).toContainText(/first printed identifier digit|first identifier digit/i);
+    await expect(page.locator("main")).toContainText(/first printed (?:identifier )?digit/i);
     await expect(page.locator("main")).toContainText(/duplicate-[a-f0-9]{12}/i);
   }
 });

@@ -123,3 +123,14 @@ python3 -m oss_research coverage-report
 
 No API key, full service number, raw API response, or private reviewer note is
 committed or included in the public site.
+
+## Local release validation
+
+The complete tracked-only release candidate passed 128 Python tests plus 75
+parameterized subtests, every ingestion and SQLite integrity check, the 7/7
+deterministic 200-profile audit, and 93/93 bounded browser checks. Astro built
+24,681 HTML pages with zero errors, warnings, or hints; all internal links
+resolved, and the public-identifier audit found no leak or unexpected boundary
+match. Two independent production builds were byte-identical at 24,753 files,
+294,251,840 bytes, and tree SHA-256
+`be2f9c7f535cef6ce96acdbd9551af6c80f432886cf1ceb9dc64a4686329a460`.
