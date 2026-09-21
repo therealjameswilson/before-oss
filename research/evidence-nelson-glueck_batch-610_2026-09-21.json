@@ -1,0 +1,214 @@
+{
+  "bundle_version": "2026-09-21-batch-610-v1",
+  "reviewer": "Before OSS research pipeline",
+  "sources": [
+    {
+      "key": "index-b610-nelson-glueck",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 277",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 171 row 46; Nelson Glueck; rendered at 180 dpi and visually inspected; Box 277; location 230/86/31/07",
+      "access_date": "2026-09-21",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "The index row has no rank or private identifier. Identity is assessed with independent official and institutional sources that explicitly connect Nelson Glueck to OSS work."
+    },
+    {
+      "key": "nara-entry210-nelson-glueck",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/entry-210.pdf",
+      "archival_identifier": "RG 226, Entry 210, Box 369, WN#14334-WN#14335",
+      "title": "Records of the Office of Strategic Services (Record Group 226), 1940-1947: Entry 210, Boxes 1-538",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": null,
+      "locator": "PDF page 121; Box 369; records by and relating to Nelson Glueck and William Hicks, approximately August 1941-September 1945",
+      "access_date": "2026-09-21",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "The inventory identifies a substantial contemporaneous OSS record group by and relating to Glueck but does not by itself define his employment relationship."
+    },
+    {
+      "key": "huc-aja-2023-nelson-glueck",
+      "stable_url": "https://huc.edu/wp-content/uploads/HUC-JIRs-Decision-to-Mandate-a-Year-of-Study-in-Israel-for-Rabbinical-Students_Mendelsson-ADA.pdf",
+      "archival_identifier": "American Jewish Archives Journal, volume LXXV, 2023, numbers 1 & 2",
+      "title": "HUC-JIR's Decision to Mandate a Year of Study in Israel for Rabbinical Students",
+      "author_creator": "David Mendelsson",
+      "repository_publisher": "American Jewish Archives Journal, Hebrew Union College-Jewish Institute of Religion",
+      "publication_record_date": "2023",
+      "locator": "Journal page 87 (PDF page 13), biographical paragraph on Nelson Glueck",
+      "access_date": "2026-09-21",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "American Jewish Archives Journal",
+      "rights_notes": "Institutional scholarly article based on American Jewish Archives materials; only short supporting excerpts and project-authored paraphrases are retained."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "hebrew-union-college",
+      "canonical_name": "Hebrew Union College",
+      "historical_name": "Hebrew Union College",
+      "aliases": ["HUC", "Hebrew Union College-Jewish Institute of Religion", "HUC-JIR"],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Cincinnati",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "normalization_notes": "Historical name retained for the pre-1950 period; the college merged with the Jewish Institute of Religion in 1950."
+    },
+    {
+      "key": "american-school-oriental-research-jerusalem",
+      "canonical_name": "American School of Oriental Research in Jerusalem",
+      "historical_name": "American School of Oriental Research in Jerusalem",
+      "aliases": ["American Schools of Oriental Research", "ASOR"],
+      "organization_type": "research institute",
+      "sector": "academia_and_research",
+      "city": "Jerusalem",
+      "country": "Mandatory Palestine",
+      "normalization_notes": "The historical Jerusalem school is kept distinct from the modern American Society of Overseas Research and from its later institutional successors."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "nelson-glueck-huc-faculty-b610",
+      "person_id": "61e39cb1-9c3d-5f1e-badb-712e2694b4f7",
+      "organization_key": "hebrew-union-college",
+      "organization_name_as_found": "HUC",
+      "role_title": "Faculty member",
+      "occupation": "rabbi and archaeologist",
+      "relationship_type": "employment",
+      "start_date": "1928",
+      "end_date": null,
+      "date_precision": "The institutional source states that Glueck joined the faculty in 1928; it does not give an end date or say whether the appointment changed during his OSS work.",
+      "city": "Cincinnati",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Published as documented pre-OSS employment, not as the proven immediate predecessor or last civilian employer. HUC's article separately documents his OSS mapping and logistics work."
+    },
+    {
+      "key": "nelson-glueck-asor-director-b610",
+      "person_id": "61e39cb1-9c3d-5f1e-badb-712e2694b4f7",
+      "organization_key": "american-school-oriental-research-jerusalem",
+      "organization_name_as_found": "American School of Oriental Research in eastern Jerusalem",
+      "role_title": "Director",
+      "occupation": "archaeologist",
+      "relationship_type": "professional_affiliation",
+      "start_date": "1932",
+      "end_date": "1947",
+      "date_precision": "Intermittent directorship during 1932-1933, 1936-1940 and 1942-1947; the source does not define the contractual relationship.",
+      "city": "Jerusalem",
+      "country": "Mandatory Palestine",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The 1942-1947 directorship overlaps his documented OSS mapping and logistics work. It is therefore published as an institutional affiliation, not as an immediate employer transition."
+    }
+  ],
+  "claims": [
+    {
+      "key": "nelson-glueck-identity-b610",
+      "person_id": "61e39cb1-9c3d-5f1e-badb-712e2694b4f7",
+      "claim_type": "identity",
+      "claim_text": "The indexed Nelson Glueck is the archaeologist and Hebrew Union College faculty member documented doing mapping and logistics work for OSS.",
+      "evidence_paraphrase": "The exact distinctive index name is corroborated by an HUC institutional biography that explicitly records OSS work and by NARA's inventory of wartime records by and relating to Glueck.",
+      "identity_match_assessment": "High confidence from the distinctive exact name plus two independent institutional and official links to OSS work in Palestine and Transjordan.",
+      "temporal_assessment": "The sources place Glueck's HUC and Jerusalem-school affiliations before and during the OSS period, but do not establish a formal recruitment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Box 277 personnel file is still needed for a confirmed private-identifier linkage and exact service chronology.",
+      "sources": [
+        {"source_key":"index-b610-nelson-glueck","support_type":"supports","locator_override":"PDF page 171 row 46; Box 277","excerpt_override":"GLUECK NELSON"},
+        {"source_key":"nara-entry210-nelson-glueck","support_type":"supports","locator_override":"PDF page 121; Box 369; WN#14334-WN#14335"},
+        {"source_key":"huc-aja-2023-nelson-glueck","support_type":"supports","locator_override":"Journal page 87; biographical paragraph"}
+      ]
+    },
+    {
+      "key": "nelson-glueck-huc-employment-b610",
+      "person_id": "61e39cb1-9c3d-5f1e-badb-712e2694b4f7",
+      "affiliation_key": "nelson-glueck-huc-faculty-b610",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Nelson Glueck joined the faculty of Hebrew Union College in 1928.",
+      "evidence_excerpt": "He returned to the United States in 1928, joining the faculty of HUC.",
+      "evidence_paraphrase": "HUC's institutional journal dates Glueck's faculty appointment to 1928 and separately identifies his wartime OSS work.",
+      "identity_match_assessment": "High confidence from the distinctive exact name and explicit OSS linkage in HUC and NARA sources.",
+      "temporal_assessment": "Documented prewar employment; the source does not establish that HUC was the immediate predecessor or last civilian employer before OSS work.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Do not infer that the faculty appointment ended or was suspended during OSS service.",
+      "sources": [
+        {"source_key":"huc-aja-2023-nelson-glueck","support_type":"supports","locator_override":"Journal page 87"},
+        {"source_key":"index-b610-nelson-glueck","support_type":"context_only","locator_override":"PDF page 171 row 46; Box 277"}
+      ]
+    },
+    {
+      "key": "nelson-glueck-asor-directorship-b610",
+      "person_id": "61e39cb1-9c3d-5f1e-badb-712e2694b4f7",
+      "affiliation_key": "nelson-glueck-asor-director-b610",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Nelson Glueck directed the American School of Oriental Research in Jerusalem during 1932-1933, 1936-1940 and 1942-1947.",
+      "evidence_excerpt": "director of the American School of Oriental Research in eastern Jerusalem at various periods",
+      "evidence_paraphrase": "HUC's institutional journal gives three periods of Glueck's Jerusalem-school directorship and separately records his OSS mapping and logistics work.",
+      "identity_match_assessment": "High confidence from the distinctive exact name, matching archaeological occupation and explicit OSS linkage.",
+      "temporal_assessment": "Documented prewar and wartime institutional affiliation. The 1942-1947 period overlaps OSS service, so no immediate-predecessor inference is made.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Modeled as a professional affiliation because the reviewed source does not define the contractual relationship.",
+      "sources": [
+        {"source_key":"huc-aja-2023-nelson-glueck","support_type":"supports","locator_override":"Journal page 87"},
+        {"source_key":"nara-entry210-nelson-glueck","support_type":"supports","locator_override":"PDF page 121; Box 369; WN#14334-WN#14335"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "61e39cb1-9c3d-5f1e-badb-712e2694b4f7",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The distinctive exact index name is corroborated by an HUC institutional article that explicitly records Nelson Glueck's OSS mapping and logistics work and by NARA's inventory of wartime records by and relating to him.",
+      "name_variants": ["Nelson Glueck", "Glueck, Nelson", "Rabbi Nelson Glueck"],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 277 to establish the formal OSS start date, employment or assignment status, and whether his HUC or Jerusalem-school affiliation was continued, suspended or used as cover.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b610-nelson-glueck-official-institutional-review",
+      "person_id": "61e39cb1-9c3d-5f1e-badb-712e2694b4f7",
+      "source_adapter": "reviewed_web",
+      "query_text": "Nelson Glueck OSS Hebrew Union College American School of Oriental Research official and institutional sources",
+      "query_variant_type": "distinctive_name_official_employment_review",
+      "started_at": "2026-09-21T06:20:00Z",
+      "completed_at": "2026-09-21T06:36:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Discovery-only biographies and book-sales summaries were rejected as final evidence; modern pages naming institutions after Glueck did not establish his pre-OSS chronology.",
+      "research_notes": "NARA's official Entry 210 inventory and HUC's institutional journal securely link the distinctive indexed name to OSS work and document HUC faculty employment plus the Jerusalem-school directorship. Neither establishes the immediate pre-OSS transition.",
+      "next_action": "Review Box 277 for exact OSS chronology and administrative relationship.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/batch-610-v1"
+    }
+  ]
+}

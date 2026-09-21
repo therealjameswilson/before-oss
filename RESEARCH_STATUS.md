@@ -1,5 +1,30 @@
 # Research status
 
+Batch 610 visually checked all **460** printed rows on PDF pages 171–180,
+bringing the distinct ledger to **147/522 pages**; **375** remain. Eight new
+possible-duplicate or spelling-variant groups remain separate, including two
+pairs with different private identifiers. A bounded LoC first pass completed
+**46** page-145 searches and created or revisited **32** unreviewed
+newspaper-page leads across 12 people. [Nelson Glueck](https://therealjameswilson.github.io/before-oss/people/61e39cb1-9c3d-5f1e-badb-712e2694b4f7/)
+now has high-confidence documented Hebrew Union College and American School of
+Oriental Research affiliations, but neither is called the immediate pre-OSS
+affiliation because the reviewed sources do not establish that transition. The
+top oil-company workers category remains **seven** people. See
+`research/batch-610-progress.md`. No authenticated NARA Catalog request was
+made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,940** active
+people. Research-attempt coverage is **6,870/23,940 (28.6967%)**;
+verified-employer coverage is **272/23,940 (1.1362%)**; verified-affiliation
+coverage is **620/23,940 (2.5898%)**; archival-review coverage is
+**5,845/23,940 (24.4152%)**. There are **17,070** `not_started` people and
+**314** possible-duplicate groups. SQLite retains **11,922** attempts or plans
+and **4,875** claims: 1,311 confirmed, 1,874 high, 1,373 medium, 185 low, and
+132 conflicting. It has **5,021** source/citation records and **2,348** unique
+source-document keys. The public projection has **2,210** affiliations,
+**697** organizations, **3,818** sources, and **4,686** claims. Full-index
+historical research remains unfinished.
+
 Batch 609 visually checked all **460** printed rows on PDF pages 161–170,
 bringing the distinct ledger to **137/522 pages**; **385** remain. Nine new
 possible-duplicate or spelling-variant groups remain separate, including three
