@@ -97,7 +97,7 @@
       "normalization_notes": "Military service is modeled separately from civilian employment. No branch, unit, theater command, or grade is inferred for Chester L Cooper."
     },
     {
-      "key": "columbia-university-b465",
+      "key": "columbia-university",
       "canonical_name": "Columbia University",
       "historical_name": "Columbia University",
       "aliases": [],
@@ -162,7 +162,7 @@
     {
       "key": "chester-l-cooper-columbia-student-b465",
       "person_id": "b79f33c3-4dcb-521d-af4e-d4d010b3e74b",
-      "organization_key": "columbia-university-b465",
+      "organization_key": "columbia-university",
       "organization_name_as_found": "Columbia University",
       "role_title": "Doctoral student",
       "occupation": "Student",

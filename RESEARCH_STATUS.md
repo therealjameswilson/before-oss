@@ -1,5 +1,33 @@
 # Research status
 
+Batch 611 visually checked all **460** printed rows on PDF pages 181–190.
+Because page 184 was already represented by a row-specific parser-warning
+decision, the distinct ledger rises by nine to **156/522 pages**; **366**
+remain. Nine possible-duplicate or spelling-variant groupings remain separate,
+including one same-private-identifier pair and one different-identifier pair.
+A bounded LoC first pass completed **46** page-146 searches and created or
+revisited **58** discovery candidates; no discovery lead was accepted as an
+identity or employer claim. [Moses Hadas](https://therealjameswilson.github.io/before-oss/people/87a20fba-2949-53b1-9a30-b36933e71d23/)
+now has a high-confidence, strongly date-bounded Columbia University-to-OSS
+pathway based on an institutional biography's professor-to-OSS-to-professor
+sequence. Exact transition dates still require Box 302 review. The canonical
+Columbia organization now links both Hadas and Chester L Cooper, and an
+unlinked duplicate organization record was removed. The top oil-company
+workers category remains **seven** people. See `research/batch-611-progress.md`.
+No authenticated NARA Catalog request was made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,940** active
+people. Research-attempt coverage is **6,916/23,940 (28.8889%)**;
+verified-employer coverage is **273/23,940 (1.1404%)**;
+verified-affiliation coverage is **621/23,940 (2.5940%)**; archival-review
+coverage is **5,864/23,940 (24.4946%)**. There are **17,024** `not_started`
+people and **322** active possible-duplicate groups. SQLite retains **11,969**
+attempts or plans and **4,878** claims: 1,311 confirmed, 1,877 high, 1,373
+medium, 185 low, and 132 conflicting. It has **5,023** source/citation records
+and **2,350** unique source-document keys. The public projection has **2,211**
+affiliations, **696** organizations, **3,820** sources, and **4,689** claims.
+Full-index historical research remains unfinished.
+
 Batch 610 visually checked all **460** printed rows on PDF pages 171–180,
 bringing the distinct ledger to **147/522 pages**; **375** remain. Eight new
 possible-duplicate or spelling-variant groups remain separate, including two

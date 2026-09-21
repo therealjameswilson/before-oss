@@ -1,0 +1,163 @@
+{
+  "bundle_version": "2026-09-21-batch-611-v1",
+  "reviewer": "Before OSS research pipeline",
+  "sources": [
+    {
+      "key": "index-b611-moses-hadas",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 302",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 187 row 11; Moses Hadas; rendered at 180 dpi and visually inspected; Box 302; location 230/86/32/04",
+      "access_date": "2026-09-21",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "The row has no rank or private identifier. Identity is assessed with an independent Columbia institutional article that explicitly connects the distinctive name to OSS service."
+    },
+    {
+      "key": "columbia-magazine-2001-moses-hadas",
+      "stable_url": "https://magazine.columbia.edu/article/many-lives-moses-hadas",
+      "title": "The Many Lives of Moses Hadas",
+      "author_creator": "Rachel Hadas",
+      "repository_publisher": "Columbia Magazine, Columbia University",
+      "publication_record_date": "2001-09",
+      "locator": "Fall 2001; opening biographical section and 'Living many lives' section",
+      "access_date": "2026-09-21",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Columbia Magazine",
+      "rights_notes": "Institutional biographical article by Hadas's daughter. Only a short supporting excerpt and project-authored paraphrase are retained."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "columbia-university",
+      "canonical_name": "Columbia University",
+      "historical_name": "Columbia University",
+      "aliases": ["Columbia University in the City of New York", "Columbia College"],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "The institutional source describes Hadas's career in Columbia's Department of Classics and undergraduate teaching at Columbia College."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "moses-hadas-columbia-professor-b611",
+      "person_id": "87a20fba-2949-53b1-9a30-b36933e71d23",
+      "organization_key": "columbia-university",
+      "organization_name_as_found": "Columbia",
+      "role_title": "Professor of classics",
+      "occupation": "classicist and university professor",
+      "relationship_type": "employment",
+      "start_date": null,
+      "end_date": null,
+      "date_precision": "The institutional article places the beginning of Hadas's long Columbia classics career in the 1930s and explicitly sequences professor, OSS service, then professor again; it does not supply exact employment transition dates.",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Columbia's article explicitly describes a professor-to-OSS-to-professor sequence. The personnel file is still needed for exact leave, recruitment, and return dates."
+    }
+  ],
+  "claims": [
+    {
+      "key": "moses-hadas-identity-b611",
+      "person_id": "87a20fba-2949-53b1-9a30-b36933e71d23",
+      "claim_type": "identity",
+      "claim_text": "The indexed Moses Hadas is the Columbia classicist whom Columbia's institutional biography identifies as serving in the OSS during World War II.",
+      "evidence_paraphrase": "The exact distinctive index name is independently linked by Columbia to both a long classics faculty career and OSS service.",
+      "identity_match_assessment": "High confidence from the distinctive exact name and explicit institutional OSS linkage; the index row itself lacks a rank or private identifier.",
+      "temporal_assessment": "Columbia places the academic career before and after OSS service, but the personnel file is required for exact dates.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Box 302 remains the direct personnel-file confirmation path.",
+      "sources": [
+        {"source_key":"index-b611-moses-hadas","support_type":"supports","locator_override":"PDF page 187 row 11; Box 302","excerpt_override":"HADAS MOSES"},
+        {"source_key":"columbia-magazine-2001-moses-hadas","support_type":"supports","locator_override":"Living many lives section"}
+      ]
+    },
+    {
+      "key": "moses-hadas-columbia-immediate-b611",
+      "person_id": "87a20fba-2949-53b1-9a30-b36933e71d23",
+      "affiliation_key": "moses-hadas-columbia-professor-b611",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Moses Hadas was a Columbia University classics professor immediately before his OSS service and returned to the Columbia faculty afterward.",
+      "evidence_excerpt": "a professor; then ... an O.S.S. operative ... and then a professor again",
+      "evidence_paraphrase": "Columbia's institutional biography gives a direct professor-to-OSS-to-professor sequence and describes his long career in its classics department.",
+      "identity_match_assessment": "High confidence from the distinctive exact name and explicit OSS service in the employer's own institutional publication.",
+      "temporal_assessment": "Strongly date-bounded immediate civilian affiliation: the article directly sequences his professorship before OSS service and his return afterward, although exact transition dates are absent.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Also marked as last civilian employer before service. Do not infer an exact leave date or that his Columbia appointment formally ended.",
+      "sources": [
+        {"source_key":"columbia-magazine-2001-moses-hadas","support_type":"supports","locator_override":"Opening biographical section and Living many lives section"},
+        {"source_key":"index-b611-moses-hadas","support_type":"context_only","locator_override":"PDF page 187 row 11; Box 302"}
+      ]
+    },
+    {
+      "key": "moses-hadas-columbia-last-civilian-b611",
+      "person_id": "87a20fba-2949-53b1-9a30-b36933e71d23",
+      "affiliation_key": "moses-hadas-columbia-professor-b611",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Columbia University is the last documented civilian employer before Moses Hadas's OSS service.",
+      "evidence_paraphrase": "The Columbia account presents no intervening civilian employer between his professorship and OSS service and records his later return to professorial work.",
+      "identity_match_assessment": "High confidence from the distinctive exact name and direct institutional OSS linkage.",
+      "temporal_assessment": "Strongly date-bounded but not day-specific; Box 302 is needed to establish exact administrative dates.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This is a last-documented-employer claim, not a claim that his Columbia appointment was terminated during service.",
+      "sources": [
+        {"source_key":"columbia-magazine-2001-moses-hadas","support_type":"supports","locator_override":"Opening biographical section and Living many lives section"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "87a20fba-2949-53b1-9a30-b36933e71d23",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The distinctive exact index name is independently corroborated by a Columbia institutional biography that explicitly describes Moses Hadas as a Columbia professor and OSS operative.",
+      "name_variants": ["Moses Hadas", "Hadas, Moses"],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 302 for exact Columbia leave status, OSS recruitment and service dates, and the administrative relationship between the faculty appointment and wartime service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b611-moses-hadas-institutional-review",
+      "person_id": "87a20fba-2949-53b1-9a30-b36933e71d23",
+      "source_adapter": "reviewed_web",
+      "query_text": "Moses Hadas OSS Columbia professor official institutional biography archives",
+      "query_variant_type": "distinctive_name_official_employment_review",
+      "started_at": "2026-09-21T07:25:00Z",
+      "completed_at": "2026-09-21T07:34:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Wikipedia and derivative biographical summaries were discovery-only; a Columbia finding-aid cross-reference did not itself establish the employment-to-OSS sequence; postwar teaching references were unnecessary.",
+      "research_notes": "The NARA index and Columbia's employer-published chronology support a high-confidence identity and strongly date-bounded Columbia-to-OSS pathway. Exact administrative dates remain unresolved.",
+      "next_action": "Review Box 302 for exact transition dates and appointment status during wartime service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/batch-611-v1"
+    }
+  ]
+}
