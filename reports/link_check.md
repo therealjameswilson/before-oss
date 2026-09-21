@@ -1,5 +1,19 @@
 # Link check
 
+Batch 610 local validation, 2026-09-21 UTC: all internal links resolve across
+**24,696** locally built HTML files, including Nelson Glueck's evidence profile,
+the separate Glazier and Green/Greene review candidates, and the seven-person
+oil-company workers category. An unrelated untracked duplicate Sources route
+adds 25 local-only pages and is excluded from the clean release. The checker
+inventoried **50,237** unique external URLs; it did not request every target.
+The public-identifier audit compared **12,926** normalized identifiers and
+**120** variants against **24,768** public artifacts, with zero unexpected
+full-number boundary matches. The local public manifest verified **70** assets
+and **99,892,171** bytes at SHA-256
+`e5dca53bbcc9b966d8211e1fa39eb9c29ba088dbe30e0f6b4a632512252a61ab`.
+Clean CI, Pages deployment, and live exact-file verification remain separate
+release checks.
+
 Batch 608 local validation, 2026-09-21 UTC: all internal links resolve across
 **24,694** locally built HTML files, including the Gaevernitz and Galenson
 evidence profiles, separate Funari/Furnari duplicate candidates, and the

@@ -1,0 +1,150 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 610 original-index variant review",
+  "person_updates": [
+    {
+      "person_id": "c35f3a9a-b7b8-5c92-962f-e8a6a211edd7",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 171 prints Edward J Glavin twice in Box 276. This row has no private identifier; the adjacent row has one, so identical names alone do not justify a merge.",
+      "possible_duplicate_group": "p171-edward-j-glavin-b610",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 276 files for matching biographical and service evidence before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fcaf04a4-9dbf-5f27-9d6a-681bf9c7325d",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 171 prints two Edward J Glavin rows in Box 276, but only this row supplies a private identifier. Both source rows and entities remain separate.",
+      "possible_duplicate_group": "p171-edward-j-glavin-b610",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 276 files for matching biographical and service evidence before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "422af803-f699-5e5d-9828-49a06a988b09",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 171 prints William H Glazier twice in Box 276 with different private identifiers. The entries remain separate unless direct file evidence explains the duplication.",
+      "possible_duplicate_group": "p171-william-h-glazier-b610",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 276 files and their identifiers before deciding whether these are namesakes or duplicated service history.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d2138c67-1436-5672-addb-bdc6c50972cb",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 171's two William H Glazier rows carry different private identifiers. Identical names alone do not justify transferring facts or merging entities.",
+      "possible_duplicate_group": "p171-william-h-glazier-b610",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 276 files and their identifiers before deciding whether these are namesakes or duplicated service history.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f6a86f80-25a5-5bed-9bc7-e89486f29e5f",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 174 prints Gavin W Gonzalez with a private identifier and Gavin G Gonzalez without one in Box 281. The middle-initial difference remains unresolved.",
+      "possible_duplicate_group": "p174-gavin-gonzalez-b610",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 281 files for full middle name, dates and service history before resolving the pair.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "36994d5c-6fc6-537a-9cca-c0c692f2f0ef",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 174's Gavin G Gonzalez row lacks a private identifier while the adjacent Gavin W Gonzalez row has one. Similar names do not establish one person.",
+      "possible_duplicate_group": "p174-gavin-gonzalez-b610",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 281 files for full middle name, dates and service history before resolving the pair.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ee056f55-5e60-55f2-b30c-a3e049fd737c",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 175 prints Kermit Gordon twice in Box 283 with different private identifiers. The entries remain separate pending direct personnel-file evidence.",
+      "possible_duplicate_group": "p175-kermit-gordon-b610",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 283 files and their identifiers before deciding whether these are namesakes or duplicated service history.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "059dfc56-b7ca-54e7-8f02-f72aa352925c",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 175's two Kermit Gordon rows carry different private identifiers. Identical names alone do not justify a merge.",
+      "possible_duplicate_group": "p175-kermit-gordon-b610",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 283 files and their identifiers before deciding whether these are namesakes or duplicated service history.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "243bf546-cec7-53fb-b6af-87f0e6ed2d70",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 176 prints Katherine Gorman and Kathryn Gorman in Box 284 without private identifiers. The first-name variants are a possible duplicate, not proof of one person.",
+      "possible_duplicate_group": "p176-katherine-kathryn-gorman-b610",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 284 files for exact name, dates and assignments before resolving the variant.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "82384965-a951-534b-9c9f-47673b0b0175",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 176 prints Kathryn Gorman and Katherine Gorman in the same box, both without identifiers. Both records remain separate.",
+      "possible_duplicate_group": "p176-katherine-kathryn-gorman-b610",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 284 files for exact name, dates and assignments before resolving the variant.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "51791935-d646-5835-b530-dfd80185fab9",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Pages 179 and 180 print Charles S Green and Charles S Greene in adjacent boxes. The shorter spelling lacks a private identifier while the longer spelling has one.",
+      "possible_duplicate_group": "p179-180-charles-s-green-greene-b610",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 289 and 290 for exact surname, biographical evidence and service history before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "04f2d4f6-3160-5a9e-bdfd-2fcc6837e458",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Pages 179 and 180 contain the Charles S Green/Greene spelling pair, but only this Greene row supplies a private identifier. Both entities remain separate.",
+      "possible_duplicate_group": "p179-180-charles-s-green-greene-b610",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 289 and 290 for exact surname, biographical evidence and service history before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ab8569d5-cb5b-586d-8a2e-0973753ffc5a",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Pages 179 and 180 print Francis X Green and Francis X Greene in adjacent boxes. The shorter spelling lacks a private identifier while the longer spelling has one.",
+      "possible_duplicate_group": "p179-180-francis-x-green-greene-b610",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 289 and 290 for exact surname, biographical evidence and service history before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d9c6c390-2506-5b0b-a051-71e7c66f4378",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Pages 179 and 180 contain the Francis X Green/Greene spelling pair, but only this Greene row supplies a private identifier. Both entities remain separate.",
+      "possible_duplicate_group": "p179-180-francis-x-green-greene-b610",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 289 and 290 for exact surname, biographical evidence and service history before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "03ece3f5-75c0-5d5e-9cf1-eaeabce613cc",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 179 prints Lt. Cmdr Robert H Green twice in Box 290 without private identifiers. This row alone carries the USNR note; identical names and rank do not prove duplication.",
+      "possible_duplicate_group": "p179-robert-h-green-b610",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 290 files for service branch, dates and assignments before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "06658c4d-ab6e-5d71-bc1a-013cac8dff80",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 179 prints two Lt. Cmdr Robert H Green rows in Box 290 without identifiers, but only the adjacent row is annotated USNR. Both entities remain separate.",
+      "possible_duplicate_group": "p179-robert-h-green-b610",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 290 files for service branch, dates and assignments before merging.",
+      "archival_review_priority": "high"
+    }
+  ]
+}
