@@ -1,8 +1,7 @@
 # Batch 617 release status — pages 241–250 and Felix M. Keesing
 
-Date: 2026-09-21 UTC. This report records the audited local release candidate.
-The deployment section will be completed only after the immutable merged commit
-and live public artifacts have been verified.
+Date: 2026-09-21 UTC. This report records the audited local release candidate
+and completed public release.
 
 ## Historical and extraction work
 
@@ -68,8 +67,23 @@ historical research remains unfinished.
 
 ## Deployment
 
-Pending pull-request review, merge, successful post-merge Test and Pages jobs,
-and unauthenticated verification of the exact manifest and direct profile URLs.
+[Pull request 335](https://github.com/therealjameswilson/before-oss/pull/335)
+merged as immutable commit
+`fff3a4f6ded3d8ee479212ef9ac3b2f69eb2d3f2`. The pull-request test job passed,
+and the post-merge [Test run
+35589204108](https://github.com/therealjameswilson/before-oss/actions/runs/35589204108)
+and [Pages run
+35589204142](https://github.com/therealjameswilson/before-oss/actions/runs/35589204142)
+both completed successfully.
+
+The unauthenticated live verifier matched all 67 manifest assets / 97,925,474
+bytes, all 26 source-register pages, eight core routes,
+[Felix M. Keesing's direct profile](https://therealjameswilson.github.io/before-oss/people/207b22e8-a74e-58b1-9c8e-500660f2063c/),
+and all 29 direct profiles in the duplicate-review bundle to the merged commit
+at manifest SHA-256
+`2b05867e22ee4aa1a8e690829ed4a01601d11e929082fd01dcc2b91adfca461b`.
+The public release is available at
+<https://therealjameswilson.github.io/before-oss/>.
 
 ## Resume
 
