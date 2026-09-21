@@ -1,5 +1,17 @@
 # Accessibility and responsive QA
 
+Batch 603 local validation, 2026-09-21 UTC: the bounded release suite
+passed **81/81** desktop/phone/tablet checks: 12 new checks for the
+Elisseeff, Eitner, Embree, and separate Ellmann profiles; 33 core-route
+checks; six analysis checks; and 30 accessibility checks with no serious
+or critical axe violations. The oil-company page remained in the
+accessibility and core-route suites. All **122** Python unit tests passed.
+Astro reported zero errors, warnings, or hints across **235** local source
+files and built **24,692** pages. An unrelated, untracked duplicate Sources
+route adds 25 local-only pages and is excluded from the clean release.
+This is automated structural and interaction QA, not a 200-person manual
+historical source audit. Local checks do not establish CI or public deployment.
+
 Batch 602 local validation, 2026-09-20 UTC: the bounded release suite
 passed **75/75** desktop/phone/tablet checks: six new Eifler timeline and
 oil-category exclusions, 33 core-route checks, six confidence-aware

@@ -1,5 +1,36 @@
 # Research status
 
+Batch 603 visually checked all 46 printed source rows on PDF page 135,
+bringing the distinct visual-review ledger to **107/522 pages**; **415**
+remain. Bounded, read-only Library of Congress searches now cover all
+**45** people on page 133, **46** on page 134, and **46** on page 135.
+Page 135 required 64 live queries for 46 distinct people because the former
+`--resume` implementation sought second name variants before reaching
+untouched people. The corrected flag now skips saved live source attempts;
+dry-run plans do not count. These are discovery checks, **not** completed
+multi-source research protocols or employer proof. Candidate newspaper pages
+remain unreviewed. Two possible-duplicate groups on page 135 were marked
+without merging source rows or entities. [Sergei Elisseeff's](https://therealjameswilson.github.io/before-oss/people/8829fd35-280c-54c2-8348-ca57b8befb3d/)
+documented Paris and Harvard roles, [Lorenz E. A. Eitner's](https://therealjameswilson.github.io/before-oss/people/31a9a6d6-7414-5e2c-887d-214d6e723ea7/)
+Princeton *student* status, and the indexed Yeoman [Richard D. Ellmann's](https://therealjameswilson.github.io/before-oss/people/572c9c93-f927-5f68-8344-4a76fe5ff959/)
+Harvard-to-Navy-to-OSS sequence were reviewed with item-level citations.
+John Fee Embree's Toronto-to-OSS immediacy was reduced to a qualified
+probability. The top oil-company category remains six cited employees.
+See `research/batch-603-progress.md`. No authenticated NARA Catalog request
+was made.
+
+Current local SQLite has **23,978/23,978** linked source rows and **23,940**
+active people. Research-attempt coverage is **6,413/23,940 (26.7878%)**;
+verified-employer coverage is **271/23,940 (1.1320%)**; verified-affiliation
+coverage is **617/23,940 (2.5773%)**; archival-review coverage is
+**5,757/23,940 (24.0476%)**. There are **17,527** `not_started` people and
+**277** possible-duplicate groups. SQLite retains **11,453** attempts or
+plans and **4,864** claims: 1,311 confirmed, 1,867 high, 1,369 medium,
+185 low, and 132 conflicting. It has 4,994 source/citation records and
+2,323 unique source-document keys. The public projection has 2,202
+affiliations, 693 organizations, 3,791 sources, and 4,675 claims.
+Full-index historical research remains unfinished.
+
 Batch 602 visually checked all 138 printed rows on PDF pages 132–134,
 bringing the distinct visual-review ledger to **106/522 pages**; **416**
 pages still need visual certification. Forty-four unique people on page 132

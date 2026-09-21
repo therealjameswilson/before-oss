@@ -403,6 +403,27 @@ def _attempt(
     )
 
 
+def completed_source_people(
+    connection: sqlite3.Connection, source: str
+) -> set[str]:
+    """Find people already given a live first-pass query for this source.
+
+    A dry-run plan is deliberately excluded. Later name-variant searches remain
+    possible without --resume or by targeting one person explicitly.
+    """
+    return {
+        row["person_id"]
+        for row in connection.execute(
+            """
+            SELECT DISTINCT person_id FROM research_attempts
+            WHERE source_adapter = ?
+              AND outcome IN ('candidate_found', 'no_result', 'blocked')
+            """,
+            (source,),
+        )
+    }
+
+
 def run_research(
     connection: sqlite3.Connection,
     settings: Settings,
@@ -412,6 +433,7 @@ def run_research(
     person_id: str | None = None,
     batch: str | None = None,
     dry_run: bool = False,
+    resume: bool = False,
 ) -> dict[str, object]:
     if max_queries <= 0:
         raise ValueError("--max-queries must be positive")
@@ -455,10 +477,19 @@ def run_research(
 
     planned = searched = blocked = duplicates = candidates = errors = 0
     processed_people: set[str] = set()
+    completed_people = (
+        completed_source_people(connection, source)
+        if resume and not person_id
+        else set()
+    )
+    previously_searched_people_skipped = 0
     for person in people:
         if planned + searched >= max_queries:
             break
         person_id_value = person["person_id"]
+        if person_id_value in completed_people:
+            previously_searched_people_skipped += 1
+            continue
         families = query_families(person)
         try:
             selected: tuple[
@@ -570,6 +601,7 @@ def run_research(
         "queries_searched": searched,
         "queries_blocked": blocked,
         "duplicate_queries_skipped": duplicates,
+        "previously_searched_people_skipped": previously_searched_people_skipped,
         "candidate_matches_created_or_seen": candidates,
         "people_with_live_attempts_this_run": len(processed_people),
         "errors": errors,

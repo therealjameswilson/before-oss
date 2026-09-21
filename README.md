@@ -13,21 +13,21 @@ is not complete, and the site reports that limitation explicitly.
 
 ## Current state
 
-- 522 PDF pages processed; 106 distinct pages visually reviewed under and beyond the documented sampling rule
+- 522 PDF pages processed; 107 distinct pages visually reviewed under and beyond the documented sampling rule
 - 23,978 immutable source rows
 - 23,941 stored person rows and 23,940 active person entities; one reviewed
   duplicate supersession retains both immutable index rows for audit
 - 23,978 / 23,978 source rows linked to an entity
-- 275 possible duplicate groups; possible variants remain separate until reviewed
-- 75-person stratified research pilot, 6 reviewed NARA personnel files, 6,278
-  people with saved non-planned research outcomes, and 11,282 durable research
+- 277 possible duplicate groups; possible variants remain separate until reviewed
+- 75-person stratified research pilot, 6 reviewed NARA personnel files, 6,413
+  people with saved non-planned research outcomes, and 11,453 durable research
   attempts or plans
-- 614 verified-affiliation profiles, including 269 with verified employment or
-  self-employment, and 5,751 individually assessed archival dispositions
-- 2,196 public-visible affiliations, 4,669 public-visible claims, 3,779 public
-  source records, and 2,311 unique source-document keys; 185 low-confidence
+- 617 verified-affiliation profiles, including 271 with verified employment or
+  self-employment, and 5,757 individually assessed archival dispositions
+- 2,202 public-visible affiliations, 4,675 public-visible claims, 3,791 public
+  source records, and 2,323 unique source-document keys; 185 low-confidence
   claims remain outside default analytics
-- 17,662 active people remain `not_started`; the public site reports this
+- 17,527 active people remain `not_started`; the public site reports this
   incompleteness rather than treating an automated query as completed research
 
 See [RESEARCH_STATUS.md](RESEARCH_STATUS.md) and
@@ -111,6 +111,7 @@ python3 -m oss_research nara-usage
 python3 -m oss_research research --source nara --batch pilot-v1 --max-queries 75 --dry-run
 python3 -m oss_research research --source nara --batch pilot-v1 --max-queries 75
 python3 -m oss_research research --source loc --batch pilot-v1 --max-queries 75
+python3 -m oss_research research --source loc --batch pilot-v1 --max-queries 75 --resume
 python3 -m oss_research research --source web --batch pilot-v1 --max-queries 75
 python3 -m oss_research export-review-queue
 python3 -m oss_research import-adapter-checkpoints research/adapter_attempt_checkpoints.json
@@ -133,6 +134,13 @@ Batch assignment and adapter queries are discovery checkpoints, not a
 reviewed research outcome or proof of a previous employer. Resume the
 source-by-source review and import evidence or rejection decisions before
 changing a person's terminal research status.
+
+With `--resume`, a batch skips people who already have a saved live attempt
+for that source; dry-run plans do not count. This favors first-pass coverage
+after interruption. Omit `--resume`, or target `--person-id`, when deliberately
+researching further name variants for an already-searched person. The flag
+does not claim that a one-query discovery attempt completes the research
+protocol.
 
 Automated CIA Reading Room searches are currently unavailable: the
 [CIA robots policy](https://www.cia.gov/robots.txt) disallows the adapter's
