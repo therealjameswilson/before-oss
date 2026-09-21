@@ -1,0 +1,507 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 623 pages 301-310 original-index and Army identity review",
+  "person_updates": [
+    {
+      "person_id": "9a838d2e-e71b-533a-82f3-07a519001f44",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name and a nonshared protected identifier. The bulk occupation code is not treated as an employer.",
+      "manual_review_required": false
+    },
+    {
+      "person_id": "bbdeca8e-84d8-571c-aa35-91064cd2dc10",
+      "identity_status": "probable",
+      "identity_evidence": "A nonshared protected identifier links indexed Charles Maxwell to an Army bulk name printed MAXWELC CHARLES R. The likely surname transcription error and added middle initial require file confirmation.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect Box 493 and the original jacket to confirm the Army bulk surname spelling and middle initial before relying on this identity crosswalk.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4547df27-17c8-586b-a93f-a142b84ec7d9",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name and a nonshared protected identifier. The bulk occupation code is not treated as an employer.",
+      "manual_review_required": false
+    },
+    {
+      "person_id": "4b97ed0c-9c0b-5f68-a7a1-c49471df5b6b",
+      "identity_status": "conflicting",
+      "identity_evidence": "The protected identifier printed for indexed Erwin Mauss points to an Army bulk entry for Stephen Z Krzyzaniak. The materially different full names create an identifier conflict and are not merged.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Inspect Box 492 and both original records to determine which person owns the repeated protected identifier.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "64ba13a9-502e-5e08-8a9f-f753ddb6f93d",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name and a nonshared protected identifier. The bulk occupation code is not treated as an employer.",
+      "manual_review_required": false
+    },
+    {
+      "person_id": "96d23cce-ea21-58ca-a626-4e13d8243f04",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The page-301 enlisted Georges May row and the official Army bulk entry agree in name and a nonshared protected identifier; the bulk entry adds middle initial C. A separate officer row has a different protected identifier.",
+      "name_variants": ["Georges C May"],
+      "possible_duplicate_group": "p301-georges-may-distinct-identifiers-b623",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 493 files to confirm that the officer and enlisted rows are distinct namesakes.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b39c237a-1c75-5dd0-a2be-01b88172e126",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 301 prints a second Georges May as a second lieutenant with a protected identifier different from the enlisted Georges May row. The officer remains a separate same-name entity pending file review.",
+      "possible_duplicate_group": "p301-georges-may-distinct-identifiers-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare both Box 493 files to confirm that the officer and enlisted rows are distinct namesakes.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5a9d35c6-967b-58de-8ed0-a4e55cdc8d4d",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name and a nonshared protected identifier. The bulk occupation code is not treated as an employer.",
+      "manual_review_required": false
+    },
+    {
+      "person_id": "0982cbc4-221f-509c-b88b-953f26d89127",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name and a nonshared protected identifier. The bulk occupation code is not treated as an employer.",
+      "manual_review_required": false
+    },
+    {
+      "person_id": "98254b52-cb7b-518a-ae69-58e318dbb8b5",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name and a nonshared protected identifier. The bulk occupation code is not treated as an employer.",
+      "manual_review_required": false
+    },
+    {
+      "person_id": "d9ef67dd-d79c-5adf-8565-8146fa7225dd",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name and a nonshared protected identifier. The bulk occupation code is not treated as an employer.",
+      "manual_review_required": false
+    },
+    {
+      "person_id": "50a8b427-21e6-511d-a21f-c924b6124d2a",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name and a nonshared protected identifier. The bulk occupation code is not treated as an employer.",
+      "manual_review_required": false
+    },
+    {
+      "person_id": "afb2ef1d-8661-50fc-8e0a-27938f5d56b7",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Two page-301 source rows print Joseph P Mauro with the same protected identifier. The official Army bulk entry agrees in full name and identifier; both immutable rows remain linked to one person.",
+      "manual_review_required": false
+    },
+    {
+      "person_id": "dc92c3c1-dd07-53b9-befd-b2e4f8ba018c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name and a nonshared protected identifier. The bulk occupation code is not treated as an employer.",
+      "manual_review_required": false
+    },
+    {
+      "person_id": "90d03d3a-dba1-5886-b612-b39efed74330",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name and a nonshared protected identifier. The bulk occupation code is not treated as an employer.",
+      "manual_review_required": false
+    },
+    {
+      "person_id": "c516c4e3-dc96-5e9e-84a3-67277e5ef6f2",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name and a nonshared protected identifier. The bulk occupation code is not treated as an employer.",
+      "manual_review_required": false
+    },
+    {
+      "person_id": "bf7b573d-3118-55fe-b61e-f6d284d10163",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name, suffix, and a nonshared protected identifier. The bulk occupation code is not treated as an employer.",
+      "manual_review_required": false
+    },
+    {
+      "person_id": "51028b1e-5c4c-5549-9726-2ea57824bfe5",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name and a nonshared protected identifier. The bulk occupation code is not treated as an employer.",
+      "manual_review_required": false
+    },
+    {
+      "person_id": "5925506f-0976-5138-9c6a-794f152a31d9",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Pages 303 and 308 print William C McAragle and William C McGaragle with the same protected identifier. The surname variation is strong duplicate evidence, but the widely separated boxes require file confirmation.",
+      "name_variants": ["William C McGaragle"],
+      "possible_duplicate_group": "p303-308-william-mcaragle-mcgaragle-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare the Box 496 and Box 505 files to establish the authoritative surname and whether both rows represent one person.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4d6eb7f9-83b2-567a-aa76-25683a32d761",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 308's William C McGaragle row repeats the protected identifier printed for William C McAragle on page 303. Both indexed spellings remain separate pending file comparison.",
+      "name_variants": ["William C McAragle"],
+      "possible_duplicate_group": "p303-308-william-mcaragle-mcgaragle-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare the Box 496 and Box 505 files to establish the authoritative surname and whether both rows represent one person.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6b4b6e22-e835-55ae-b7a6-40a112ecb5b7",
+      "identity_status": "conflicting",
+      "identity_evidence": "Page 303 prints Ward McCabe with the same protected identifier printed for William W McCabe on the next row. The materially different given names cannot support a merge.",
+      "possible_duplicate_group": "p303-ward-william-mccabe-conflict-b623",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Inspect both Box 497 files and original jackets to determine which name owns the repeated protected identifier.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "d7c03613-c5e1-5938-ba61-e2e48cd4941b",
+      "identity_status": "conflicting",
+      "identity_evidence": "Page 303 prints William W McCabe with the same protected identifier printed for Ward McCabe on the preceding row. The materially different given names remain separate.",
+      "possible_duplicate_group": "p303-ward-william-mccabe-conflict-b623",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Inspect both Box 497 files and original jackets to determine which name owns the repeated protected identifier.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "1aa37e74-b066-54a9-b781-89500217fb27",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Pages 304 and 306 print Jack L McCarary and Jack L McCrary with the same protected identifier. The one-letter surname difference is strong variant evidence but needs file confirmation.",
+      "name_variants": ["Jack L McCrary"],
+      "possible_duplicate_group": "p304-306-jack-mccarary-mccrary-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare the Box 501 files and original jackets to establish the authoritative surname before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4960f431-455c-5d03-a23d-90159edbc153",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 306's Jack L McCrary row repeats the protected identifier printed for Jack L McCarary on page 304. Both source spellings remain visible pending review.",
+      "name_variants": ["Jack L McCarary"],
+      "possible_duplicate_group": "p304-306-jack-mccarary-mccrary-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare the Box 501 files and original jackets to establish the authoritative surname before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ff0e53eb-3398-5e5e-86ec-d8d5547ad224",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 304 prints John A McCargar and Lieutenant John A McCaroar with matching protected-identifier digits apart from a leading zero. The surname and rank differences require file confirmation.",
+      "name_variants": ["John A McCaroar"],
+      "possible_duplicate_group": "p304-john-mccargar-mccaroar-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare the Box 498 and Box 499 files to resolve the surname, leading zero, and rank before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f378adb4-7779-533a-934a-0be8f4f721f3",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 304's John A McCaroar row carries the same protected-identifier digits as John A McCargar after removal of a leading zero. Both indexed spellings remain separate pending review.",
+      "name_variants": ["John A McCargar"],
+      "possible_duplicate_group": "p304-john-mccargar-mccaroar-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare the Box 498 and Box 499 files to resolve the surname, leading zero, and rank before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "98b57dae-121f-52b2-810c-165e26f3751a",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 304 prints two John F McCarthy rows with different ranks and protected identifiers. The shared name alone is insufficient to merge them.",
+      "possible_duplicate_group": "p304-john-f-mccarthy-distinct-identifiers-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare both Box 498 files to confirm that the two John F McCarthy rows represent distinct people.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d5db343c-7209-505d-b40b-f777f67cf63c",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 304 prints a second John F McCarthy with a protected identifier different from the staff-sergeant row. Both entities remain separate pending file review.",
+      "possible_duplicate_group": "p304-john-f-mccarthy-distinct-identifiers-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare both Box 498 files to confirm that the two John F McCarthy rows represent distinct people.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "dbbe0d36-756b-5061-87a8-aaab00a15a41",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 304 prints Edward A McCaughy with the protected identifier repeated for Sergeant Edward McGaughy on page 308. A neighboring Edward A McGaughy row differs by the final identifier digit.",
+      "name_variants": ["Edward A McGaughy", "Edward McGaughy"],
+      "possible_duplicate_group": "p304-308-edward-mccaughy-mcgaughy-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare all three Box 498/505 files to resolve the surname spelling, middle initial, rank, and final identifier digit.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "806e928a-6bb1-5935-a8cc-258cb69cbdf6",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 308 prints Edward A McGaughy with a protected identifier one final digit shorter than the identifier shared by Edward A McCaughy and Sergeant Edward McGaughy.",
+      "name_variants": ["Edward A McCaughy", "Edward McGaughy"],
+      "possible_duplicate_group": "p304-308-edward-mccaughy-mcgaughy-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare all three Box 498/505 files to resolve the surname spelling, middle initial, rank, and final identifier digit.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "73bc3437-460f-5c09-9903-82b581914e1e",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 308 prints Sergeant Edward McGaughy with the same protected identifier as Edward A McCaughy on page 304; the adjacent Edward A McGaughy row has a shortened identifier.",
+      "name_variants": ["Edward A McCaughy", "Edward A McGaughy"],
+      "possible_duplicate_group": "p304-308-edward-mccaughy-mcgaughy-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare all three Box 498/505 files to resolve the surname spelling, middle initial, rank, and final identifier digit.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "85c12836-4535-5df2-bdc9-3b0cc2d61af2",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 304 prints Lieutenants Paul W McCausland and Paul W McClausland with near-identical surnames and protected identifiers differing only by a missing zero. They remain separate pending review.",
+      "name_variants": ["Paul W McClausland"],
+      "possible_duplicate_group": "p304-paul-mccausland-mcclausland-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare the Box 498 and Box 499 files to establish the surname and identifier before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b641e203-1d4e-51f8-993a-38270141ec15",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 304's Paul W McClausland row closely matches Paul W McCausland in name, rank, and protected-identifier digits but omits one zero. Both rows remain separate.",
+      "name_variants": ["Paul W McCausland"],
+      "possible_duplicate_group": "p304-paul-mccausland-mcclausland-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare the Box 498 and Box 499 files to establish the surname and identifier before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b66a5fc2-3989-5316-a346-82a0bf0162a1",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Pages 304 and 305 print Elmer L McCcollum and Elmer L McCollum with the same protected identifier but different ranks. The doubled letter and rank conflict require file confirmation.",
+      "name_variants": ["Elmer L McCollum"],
+      "possible_duplicate_group": "p304-305-elmer-mcccollum-mccollum-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare both Box 499 files to establish the surname spelling and rank before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3b715d57-6fcc-58f1-8da6-b8438bf52f62",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 305's Elmer L McCollum row repeats the protected identifier printed for Elmer L McCcollum on page 304, with a different rank. Both source rows remain visible.",
+      "name_variants": ["Elmer L McCcollum"],
+      "possible_duplicate_group": "p304-305-elmer-mcccollum-mccollum-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare both Box 499 files to establish the surname spelling and rank before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5396ca3e-dd9d-5b69-9ed9-5e312e36f4cb",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 305 prints two adjacent Ruth K McClenon rows with the same civilian grade and box but no protected identifier. The exact-name repetition is not enough by itself to merge them.",
+      "possible_duplicate_group": "p305-ruth-k-mcclenon-repeat-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect both Box 499 index entries and files to determine whether the repeated rows represent one person.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "073741a6-1c20-5321-af39-d72645caa59a",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The second page-305 Ruth K McClenon row exactly repeats the first row's name, civilian grade, and box but supplies no protected identifier. Both entities remain separate.",
+      "possible_duplicate_group": "p305-ruth-k-mcclenon-repeat-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect both Box 499 index entries and files to determine whether the repeated rows represent one person.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6530a476-0f7c-58aa-bb49-3fb56edc8118",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 305 prints three adjacent Alice M McCool rows in Box 500. Only the first supplies a civilian grade and none supplies a protected identifier, so the rows cannot be merged from the index alone.",
+      "possible_duplicate_group": "p305-alice-m-mccool-three-rows-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect all three Box 500 index entries and files to determine whether they represent one person or same-name people.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ef714a0d-639b-584c-b23e-b994ad27312e",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The second of three adjacent Alice M McCool rows in Box 500 has no grade or protected identifier. The shared name alone is insufficient to merge it.",
+      "possible_duplicate_group": "p305-alice-m-mccool-three-rows-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect all three Box 500 index entries and files to determine whether they represent one person or same-name people.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "11561770-114f-5e51-9220-efe6e7eff8dc",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The third of three adjacent Alice M McCool rows in Box 500 has no grade or protected identifier. It remains separate pending direct file review.",
+      "possible_duplicate_group": "p305-alice-m-mccool-three-rows-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect all three Box 500 index entries and files to determine whether they represent one person or same-name people.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "29170d7f-5242-5fd5-a271-647f2a89f820",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 306 prints Virgina McCoud and Virgina C McCould in adjacent boxes. The shared unusual first-name spelling and near-identical surname suggest a variant, but neither row supplies a protected identifier.",
+      "name_variants": ["Virgina C McCould"],
+      "possible_duplicate_group": "p306-virgina-mccoud-mccould-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare the Box 499 and Box 500 files to resolve the surname spelling and middle initial before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "118dd0d9-52fa-5f97-9806-5ba3f0dce348",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 306's Virgina C McCould row closely matches Virgina McCoud but differs in surname spelling, middle initial, and box. Both entities remain separate pending review.",
+      "name_variants": ["Virgina McCoud"],
+      "possible_duplicate_group": "p306-virgina-mccoud-mccould-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare the Box 499 and Box 500 files to resolve the surname spelling and middle initial before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "615d5039-2e2c-50fa-b8d4-9e772f537dc6",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 306 prints Ivna W McCrary and Ivan W McCray with the same protected identifier. The transposed given-name letters and surname variation are strong duplicate evidence but need file confirmation.",
+      "name_variants": ["Ivan W McCray"],
+      "possible_duplicate_group": "p306-ivna-mccrary-ivan-mccray-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare both Box 501 files to establish the authoritative given name, surname, and rank before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "af0435c1-a04e-533d-9289-1ee6cdf53e12",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 306's Ivan W McCray row repeats the protected identifier printed for Ivna W McCrary. Both literal index spellings remain visible pending review.",
+      "name_variants": ["Ivna W McCrary"],
+      "possible_duplicate_group": "p306-ivna-mccrary-ivan-mccray-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare both Box 501 files to establish the authoritative given name, surname, and rank before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4c8522f4-9712-584a-924e-ba55ee072e88",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 306 prints two Joseph F McCrindle rows with different ranks and protected identifiers. The identical name alone does not establish duplication.",
+      "possible_duplicate_group": "p306-joseph-f-mccrindle-distinct-identifiers-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare both Box 501 files to confirm whether the corporal and lieutenant rows are distinct people.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9c68dd21-4877-5709-b14a-e757abb377f9",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The second page-306 Joseph F McCrindle row carries a lieutenant rank and protected identifier different from the corporal row. Both entities remain separate.",
+      "possible_duplicate_group": "p306-joseph-f-mccrindle-distinct-identifiers-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare both Box 501 files to confirm whether the corporal and lieutenant rows are distinct people.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "24c85fe3-ff5a-5a8d-a9fd-14eeac196896",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 307 prints Dervey A McDonald and Hervey A McDonald with the same protected identifier and closely related officer ranks. The first-letter difference needs file confirmation.",
+      "name_variants": ["Hervey A McDonald"],
+      "possible_duplicate_group": "p307-dervey-hervey-mcdonald-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare both Box 502 files to establish the authoritative given name and rank before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7498979d-3069-5bd2-8ab0-748855fec83d",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 307's Hervey A McDonald row repeats the protected identifier printed for Dervey A McDonald. Both literal given names remain separate pending file review.",
+      "name_variants": ["Dervey A McDonald"],
+      "possible_duplicate_group": "p307-dervey-hervey-mcdonald-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare both Box 502 files to establish the authoritative given name and rank before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7db9f7df-bf95-5c1f-a059-f03c440c517c",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 307 prints two adjacent Robert L McDougal rows in Box 503; one supplies a grade and the other a protected identifier. The complementary fields suggest duplication but do not prove it.",
+      "possible_duplicate_group": "p307-robert-l-mcdougal-two-rows-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect both Box 503 index entries and files to determine whether the rows represent one person.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c6a74455-3ace-5b0a-9c9a-ddc2c70770c5",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The second page-307 Robert L McDougal row supplies a protected identifier while the preceding same-name row supplies a grade. Both entities remain separate pending review.",
+      "possible_duplicate_group": "p307-robert-l-mcdougal-two-rows-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect both Box 503 index entries and files to determine whether the rows represent one person.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "19527627-c8ef-5beb-9c82-4eb2b082fed0",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 309 prints two David K McGinnis rows in different boxes; one carries civilian grade CAF-11 and neither carries a protected identifier. They remain separate same-name entities.",
+      "possible_duplicate_group": "p309-david-k-mcginnis-two-boxes-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare the Box 505 and Box 506 files to determine whether the two rows represent one person or namesakes.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4d925235-45a5-5159-a7a5-a62ecfa8f571",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The second page-309 David K McGinnis row is in Box 506 without grade or protected identifier, while the first is CAF-11 in Box 505. The name match alone is insufficient to merge them.",
+      "possible_duplicate_group": "p309-david-k-mcginnis-two-boxes-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare the Box 505 and Box 506 files to determine whether the two rows represent one person or namesakes.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8cb882e2-137b-5126-96c5-c3415e716d7f",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 309 prints Lieutenant John E McGowan and Technician Third Grade John E McGowan with different protected identifiers. The identical name cannot overcome the identifier and rank differences.",
+      "possible_duplicate_group": "p309-john-e-mcgowan-distinct-identifiers-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare both Box 506 files to confirm that the two John E McGowan rows represent distinct people.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5b3f8268-a841-5291-8096-84d6bdc48b8d",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The second page-309 John E McGowan row carries an enlisted grade and a protected identifier different from the lieutenant row. Both entities remain separate pending file review.",
+      "possible_duplicate_group": "p309-john-e-mcgowan-distinct-identifiers-b623",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare both Box 506 files to confirm that the two John E McGowan rows represent distinct people.",
+      "archival_review_priority": "high"
+    }
+  ]
+}
