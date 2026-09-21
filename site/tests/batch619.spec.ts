@@ -32,7 +32,7 @@ test("Braho Kute name-order variants stay separate pending archival review", asy
     await page.goto(`./people/${id}/`);
     await expect(page.getByRole("heading", { name, level: 1 })).toBeVisible();
     await expect(page.locator("main")).toContainText("ambiguous");
-    await expect(page.locator("main")).toContainText(/name order/i);
+    await expect(page.locator("main")).toContainText(/reverse the apparent given and family names/i);
     await expect(page.locator("main")).toContainText(/duplicate-[a-f0-9]{12}/i);
   }
 });
