@@ -1,8 +1,7 @@
 # Batch 615 release status — pages 221–230 and Alex Inkeles
 
-Date: 2026-09-21 UTC. This report records the audited local release candidate.
-Pull-request, CI, GitHub Pages, and unauthenticated live verification are
-recorded below after they complete.
+Date: 2026-09-21 UTC. This report records the audited local release candidate
+and the completed public release.
 
 ## Historical and extraction work
 
@@ -64,8 +63,22 @@ historical research remains unfinished.
 
 ## Deployment
 
-Pending commit, pull request, CI, merge, GitHub Pages build, and live exact-file
-verification. The active public site may therefore still display Batch 614.
+[Pull request 331](https://github.com/therealjameswilson/before-oss/pull/331)
+merged as immutable commit
+`c9d4098e3ffd59db446ad9038b2cfa415c2f3c55`. The pull-request test job passed,
+and the post-merge [Test run
+35580202406](https://github.com/therealjameswilson/before-oss/actions/runs/35580202406)
+and [Pages run
+35580202400](https://github.com/therealjameswilson/before-oss/actions/runs/35580202400)
+both completed successfully.
+
+The unauthenticated live verifier matched all 67 manifest assets / 97,806,543
+bytes, all 26 source-register pages, eight core routes, Alex Inkeles's direct
+profile, and all 34 direct profiles in the duplicate-review bundle to the
+merged commit at manifest SHA-256
+`ba1839fe7c086daa927371941ec2163ad8ec003bb11c9d720eaa82508b2c3aed`.
+The public release is available at
+<https://therealjameswilson.github.io/before-oss/>.
 
 ## Resume
 
