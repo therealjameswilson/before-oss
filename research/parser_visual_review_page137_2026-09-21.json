@@ -1,0 +1,8 @@
+{
+  "bundle_version": "parser-visual-review-v1",
+  "source_pdf_sha256": "7268492342ab131d3b6d2697cfa4f6856cbdcd16e0ed3877e8d6a0478f58c02b",
+  "reviewer": "Codex page 137 visual audit",
+  "matching_pages_reviewed_at": "2026-09-21T01:13:53Z",
+  "matching_pages_notes": "Original PDF page 137 was rendered at 170 dpi and all 46 printed rows were compared with immutable source records. Names, initials, suffixes, rank/identifier column occupancy, notes, boxes, and the common 230/86/30/06 location match. The John W Entz rank is printed only as 'SP (P) 2/' with USNR in notes; no missing grade is invented. Philippe Erard is printed Capt. with French in notes; Eric S Erickson has Swedish in notes. Box 222 begins at Luverne J Erickson (row 20), but Herbert J Ersham (row 36) is genuinely printed with Box 221; Louis Eschweiler starts Box 223 at row 46. The 'H. Loyd Ericsson' and 'Herman Lloyd Ericsson' rows share Box 222 but no identifier; they remain possible variants, not a proven duplicate. The Arthur H/W/C Erickson and Wallace F/M/R Erwin rows have distinct initials and are not merged. 'Elizabeth Amel' is retained as the printed, possibly truncated given-name cell. No parser correction is required.",
+  "reviewed_matching_pages": [137]
+}

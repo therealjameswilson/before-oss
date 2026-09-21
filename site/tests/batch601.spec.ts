@@ -34,8 +34,8 @@ test("same-name John A Dykes rows remain separate for Box 209 review", async ({ 
 
 test("featured oil-company category remains a dedicated list above directory filters", async ({ page }) => {
   await page.goto("./people/");
-  await expect(page.getByRole("heading", { name: "Oil company employees", level: 2 })).toBeVisible();
-  await expect(page.locator(".featured-directory-category__list > li")).toHaveCount(6);
+  await expect(page.getByRole("heading", { name: "People who worked for oil companies", level: 2 })).toBeVisible();
+  await expect(page.locator(".featured-directory-category__list > li")).toHaveCount(7);
   await expect(page.locator(".featured-directory-category + .az-nav")).toHaveCount(1);
   await page.getByRole("link", { name: "See the full category and evidence status" }).click();
   await expect(page).toHaveURL(/\/oil-companies\/$/);

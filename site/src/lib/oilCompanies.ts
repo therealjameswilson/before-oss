@@ -14,6 +14,7 @@ type OilCompanyEmployment = {
   role: string | null;
   confidence: string;
   qualified: boolean;
+  relationshipType: "employment" | "self_employment";
 };
 
 export type OilCompanyEmployee = {
@@ -35,12 +36,12 @@ export function oilCompanyEmployees(organizations: Organization[]) {
       for (const affiliation of person.affiliations) {
         if (
           affiliation.organization_id !== organization.organization_id ||
-          affiliation.relationship_type !== "employment" ||
+          !["employment", "self_employment"].includes(affiliation.relationship_type) ||
           !["published", "publish_qualified"].includes(affiliation.publication_status) ||
           !["confirmed", "high", "medium"].includes(affiliation.claim_confidence)
         ) continue;
 
-        // Public category membership requires an inspectable employment claim,
+        // Public category membership requires an inspectable work claim,
         // not just an organization name or a professional affiliation.
         const hasCitedClaim = person.claims.some((claim) =>
           claim.affiliation_id === affiliation.affiliation_id &&
@@ -63,6 +64,7 @@ export function oilCompanyEmployees(organizations: Organization[]) {
             role: affiliation.role_title ?? affiliation.occupation,
             confidence: affiliation.claim_confidence,
             qualified: affiliation.publication_status === "publish_qualified",
+            relationshipType: affiliation.relationship_type as "employment" | "self_employment",
           });
           employerIds.add(organization.organization_id);
         }

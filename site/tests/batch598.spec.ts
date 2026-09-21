@@ -66,9 +66,9 @@ test("oil-company category at the top stays employee-only after the media claims
   const category = page.locator("#oil-companies");
   await expect(category.getByRole("heading", { name: "People who worked for oil companies" }))
     .toBeVisible();
-  await expect(category.locator(".oil-directory__person")).toHaveCount(6);
+  await expect(category.locator(".oil-directory__person")).toHaveCount(7);
   await expect(category).not.toContainText("Florimond D Duke");
   await category.getByRole("link", { name: "Open this category" }).click();
   await expect(page).toHaveURL(/\/oil-companies\/$/);
-  await expect(page.locator(".oil-directory__person")).toHaveCount(6);
+  await expect(page.locator(".oil-directory__person")).toHaveCount(7);
 });

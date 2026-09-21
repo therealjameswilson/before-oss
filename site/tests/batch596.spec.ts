@@ -4,12 +4,12 @@ test("oil-company category stays near the top and lists only cited employees", a
   await page.goto("./");
   const category = page.locator("#oil-companies");
   await expect(category.getByRole("heading", { name: "People who worked for oil companies" })).toBeVisible();
-  await expect(category.locator(".oil-directory__person")).toHaveCount(6);
+  await expect(category.locator(".oil-directory__person")).toHaveCount(7);
   await expect(category.getByRole("link", { name: "John Dixon", exact: true })).toHaveCount(0);
   await category.getByRole("link", { name: "Open this category" }).click();
   await expect(page).toHaveURL(/\/oil-companies\/$/);
-  await expect(page.locator(".oil-directory__person")).toHaveCount(6);
-  await expect(page.getByRole("link", { name: "Review claim-level evidence" })).toHaveCount(6);
+  await expect(page.locator(".oil-directory__person")).toHaveCount(7);
+  await expect(page.getByRole("link", { name: "Review claim-level evidence" })).toHaveCount(7);
 });
 
 test("page 124 Dozer separates civilian employer from earlier government assignment", async ({ page }) => {

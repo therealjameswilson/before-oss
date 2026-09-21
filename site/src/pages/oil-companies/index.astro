@@ -9,22 +9,22 @@ const category = oilCompanyEmployees(organizations as Organization[]);
 ---
 
 <BaseLayout
-  title="Oil company employees"
-  description="People in the OSS personnel index with cited evidence of pre-OSS employment by a historically named oil company."
+  title="People who worked for oil companies"
+  description="People in the OSS personnel index with cited evidence of pre-OSS employment or self-employment at a historically named oil company."
   eyebrow="Featured personnel category"
 >
   <header class="page-hero">
     <div class="container">
-      <p class="kicker">Documented employment</p>
+      <p class="kicker">Documented work</p>
       <h1>People who worked for oil companies</h1>
       <p class="lede">
         {category.employees.length.toLocaleString("en-US")} people in the current
-        research dataset have published employment evidence at
+        research dataset have published employment or self-employment evidence at
         {" "}{category.organizationCount.toLocaleString("en-US")} historically named oil,
         petroleum, refining, or exploration companies.
       </p>
       <p>
-        These are documented pre-OSS jobs, not necessarily the job held immediately
+        These are documented pre-OSS roles, not necessarily the role held immediately
         before OSS service. Medium-confidence findings are labeled; a professional
         affiliation alone does not qualify someone for this list.
       </p>
@@ -34,7 +34,7 @@ const category = oilCompanyEmployees(organizations as Organization[]);
     </div>
   </header>
 
-  <section class="oil-directory" aria-label="Oil company employee list">
+  <section class="oil-directory" aria-label="Oil company work list">
     <div class="container">
       <ol class="oil-directory__list">
         {category.employees.map((person) => (
@@ -47,10 +47,11 @@ const category = oilCompanyEmployees(organizations as Organization[]);
                     {employer.organizationName}
                   </a>
                   {employer.role && <span> · {employer.role}</span>}
+                  {employer.relationshipType === "self_employment" && <span> · own business</span>}
                   <span class="oil-directory__confidence">
                     {employer.qualified
-                      ? "Qualified medium-confidence employment claim"
-                      : `${employer.confidence} confidence employment claim`}
+                      ? "Qualified medium-confidence work claim"
+                      : `${employer.confidence} confidence work claim`}
                   </span>
                 </li>
               ))}

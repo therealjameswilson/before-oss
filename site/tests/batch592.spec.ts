@@ -11,13 +11,13 @@ const organizations = JSON.parse(
 ) as Organization[];
 const category = oilCompanyEmployees(organizations);
 
-test("oil-company category requires employment, not mere representation", async ({ page }) => {
+test("oil-company category requires work, not mere representation", async ({ page }) => {
   expect(category.employees.length).toBeGreaterThanOrEqual(6);
   expect(category.employees.map((person) => person.name)).not.toContain("Fred Bielaski");
   expect(category.employees.map((person) => person.name)).not.toContain("Martin B Chittick");
 
   await page.goto("./oil-companies/");
-  const list = page.getByRole("region", { name: "Oil company employee list" });
+  const list = page.getByRole("region", { name: "Oil company work list" });
   await expect(list.locator(".oil-directory__person")).toHaveCount(category.employees.length);
   await expect(list.getByRole("link", { name: "Fred Bielaski", exact: true })).toHaveCount(0);
   await expect(list.getByRole("link", { name: "Martin B Chittick", exact: true })).toHaveCount(0);

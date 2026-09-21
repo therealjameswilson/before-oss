@@ -70,11 +70,11 @@ const oilCompanyCategory = oilCompanyEmployees(organizations as Organization[]);
     <div class="container">
       <div class="oil-directory__intro">
         <div>
-          <p class="kicker">Featured category · documented employment</p>
+          <p class="kicker">Featured category · documented work</p>
           <h2 id="oil-company-heading">People who worked for oil companies</h2>
           <p>
             {oilCompanyCategory.employees.length} people in the current research
-            dataset have a cited employment claim at one of
+            dataset have a cited employment or self-employment claim at one of
             {" "}{oilCompanyCategory.organizationCount} historically named oil companies.
             These jobs were documented before OSS service, but were not always
             the immediate pre-OSS affiliation. Qualified findings are marked below.
@@ -95,6 +95,7 @@ const oilCompanyCategory = oilCompanyEmployees(organizations as Organization[]);
                     {employer.organizationName}
                   </a>
                   {employer.role && <span> · {employer.role}</span>}
+                  {employer.relationshipType === "self_employment" && <span> · own business</span>}
                   <span class="oil-directory__confidence">
                     {employer.qualified ? "Qualified medium-confidence claim" : `${employer.confidence} confidence`}
                   </span>

@@ -40,6 +40,6 @@ test("Koch's conflicting identifier remains an identity lead without an employer
 
 test("oil-company category remains limited to supported oil employers", async ({ page }) => {
   await page.goto("./oil-companies/");
-  await expect(page.locator(".oil-directory__person")).toHaveCount(6);
+  await expect(page.locator(".oil-directory__person")).toHaveCount(7);
   await expect(page.locator("main")).not.toContainText("Packard Car Company");
 });
