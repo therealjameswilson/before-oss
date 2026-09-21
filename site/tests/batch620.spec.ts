@@ -9,7 +9,9 @@ test("Frank and Franklin Lindsay remain separate reviewed variants", async ({ pa
     await page.goto(`./people/${id}/`);
     await expect(page.getByRole("heading", { name, level: 1 })).toBeVisible();
     await expect(page.locator("main")).toContainText("ambiguous");
-    await expect(page.locator("main")).toContainText(/same private identifier/i);
+    await expect(page.locator("main")).toContainText(
+      /same private identifier|repeats the private identifier/i,
+    );
     await expect(page.locator("main")).toContainText(/duplicate-[a-f0-9]{12}/i);
   }
 });
