@@ -66,6 +66,11 @@ or hints across **243** source files. The structural sample is **not** the
 required 200-profile manual historical source audit. An unrelated untracked
 duplicate Sources route adds 25 local-only pages and is excluded from the clean
 release. Clean CI and public deployment require separate verification.
+An isolated tracked-only build then produced **24,670** pages from **242**
+source files; all links resolved, the identifier scan covered **24,742**
+artifacts with zero unexpected matches, and two consecutive builds had the
+same SHA-256 tree digest
+`803aa9907ebd2659f427e75e056f96d5558a6dcd3cd0c26fddc3622cec6211c7`.
 
 ## Replay and continuation
 

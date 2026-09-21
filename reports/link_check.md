@@ -13,6 +13,11 @@ all **67** manifest-listed assets and **97,577,955** bytes at manifest SHA-256
 `d20b90c48a61fec2d27937d69d5346d0096cb526a7f1a920ef646a3b811fba77`.
 Clean CI, Pages deployment, and live exact-file verification remain separate
 release checks.
+The tracked-only build excluded the unrelated route and contained **24,670**
+HTML files and **24,742** total artifacts. Every internal link resolved, the
+identifier scan found zero unexpected matches, and two consecutive builds
+matched the same SHA-256 tree digest
+`803aa9907ebd2659f427e75e056f96d5558a6dcd3cd0c26fddc3622cec6211c7`.
 
 Batch 610 local validation, 2026-09-21 UTC: all internal links resolve across
 **24,696** locally built HTML files, including Nelson Glueck's evidence profile,
