@@ -5,6 +5,7 @@ from __future__ import annotations
 import unittest
 
 from scripts.inspect_loc_candidates import (
+    BATCH_NAME_RE,
     item_json_url,
     relevant_snippet,
     text_service_url,
@@ -12,6 +13,18 @@ from scripts.inspect_loc_candidates import (
 
 
 class LocContextReviewTests(unittest.TestCase):
+    def test_current_and_legacy_batch_names_are_safe(self) -> None:
+        for name in (
+            "batch-619",
+            "page-271-lee-lefferts-b620",
+            "page-274-lester-letellier-b620",
+        ):
+            with self.subTest(name=name):
+                self.assertIsNotNone(BATCH_NAME_RE.fullmatch(name))
+        for name in ("../batch-619", "Batch-619", "batch 619", "batch_619", ""):
+            with self.subTest(name=name):
+                self.assertIsNone(BATCH_NAME_RE.fullmatch(name))
+
     def test_item_url_uses_official_host_and_single_page(self) -> None:
         self.assertEqual(
             item_json_url("https://www.loc.gov/resource/sn83045462/1948-10-18/ed-1/?sp=20"),
