@@ -354,6 +354,62 @@ def record_discovery_progress(
     )
 
 
+def record_research_error(
+    connection: sqlite3.Connection,
+    *,
+    person_id: str,
+    source: str,
+    error_class: str,
+) -> None:
+    """Persist an exhausted adapter failure without treating it as a search result.
+
+    A transient transport failure is a real research attempt, but it is neither
+    a negative source finding nor a reason to probe every remaining person in a
+    batch. Preserve reviewed dispositions while leaving automatically managed
+    records resumable at the failed source.
+    """
+    now = utc_now()
+    person_action = f"Retry {source} research after transient {error_class}."
+    queue_action = f"Retry {source} source after transient {error_class}."
+    connection.execute(
+        """
+        UPDATE person_entities
+        SET research_started_at = COALESCE(research_started_at, ?),
+            research_attempt_number = research_attempt_number + 1,
+            last_error = ?, updated_at = ?
+        WHERE person_id = ?
+        """,
+        (now, error_class, now, person_id),
+    )
+    connection.execute(
+        """
+        UPDATE person_entities
+        SET research_status = 'in_progress', next_action = ?,
+            research_agent_version = ?
+        WHERE person_id = ?
+          AND research_status IN ('not_started', 'in_progress', 'candidate_found')
+        """,
+        (person_action, f"before-oss/{__version__}", person_id),
+    )
+    connection.execute(
+        """
+        UPDATE research_queue
+        SET attempts = attempts + 1, updated_at = ?
+        WHERE person_id = ?
+        """,
+        (now, person_id),
+    )
+    connection.execute(
+        """
+        UPDATE research_queue
+        SET research_status = 'in_progress', next_action = ?
+        WHERE person_id = ?
+          AND research_status IN ('not_started', 'in_progress', 'candidate_found')
+        """,
+        (queue_action, person_id),
+    )
+
+
 def _attempt(
     connection: sqlite3.Connection,
     *,
@@ -365,6 +421,8 @@ def _attempt(
     outcome: str,
     notes: str,
     attempt_number: int,
+    next_action: str | None = None,
+    last_error_redacted: str | None = None,
 ) -> None:
     attempt_id = str(
         uuid.uuid5(
@@ -379,12 +437,14 @@ def _attempt(
             research_attempt_id, person_id, source_adapter, query_text,
             query_variant_type, request_fingerprint, started_at, completed_at, outcome,
             sources_reviewed, candidate_sources_rejected, research_notes,
-            attempt_number, research_agent_version
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 0, 0, ?, ?, ?)
+            next_action, last_error_redacted, attempt_number, research_agent_version
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 0, 0, ?, ?, ?, ?, ?)
         ON CONFLICT(research_attempt_id) DO UPDATE SET
             completed_at=excluded.completed_at,
             outcome=excluded.outcome,
-            research_notes=excluded.research_notes
+            research_notes=excluded.research_notes,
+            next_action=excluded.next_action,
+            last_error_redacted=excluded.last_error_redacted
         """,
         (
             attempt_id,
@@ -397,6 +457,8 @@ def _attempt(
             now,
             outcome,
             notes,
+            next_action,
+            last_error_redacted,
             attempt_number,
             f"before-oss/{__version__}",
         ),
@@ -491,6 +553,8 @@ def run_research(
             previously_searched_people_skipped += 1
             continue
         families = query_families(person)
+        query_variant_type = "unknown"
+        query = f"[{source} query setup]"
         try:
             selected: tuple[
                 str, str, bool, int, str, int | None
@@ -588,9 +652,58 @@ def run_research(
                     # A restricted or unavailable source must not be probed
                     # for every subsequent person in the same batch.
                     break
-        except Exception:
+        except Exception as error:
             errors += 1
-            raise
+            error_class = type(error).__name__
+            audit = connection.execute(
+                """
+                SELECT request_fingerprint
+                FROM request_audit
+                WHERE adapter = ? AND person_id = ? AND error_class IS NOT NULL
+                ORDER BY requested_at DESC LIMIT 1
+                """,
+                (source, person_id_value),
+            ).fetchone()
+            fingerprint = (
+                str(audit["request_fingerprint"])
+                if audit
+                else hashlib.sha256(
+                    f"error:{source}:{person_id_value}:{query}:{error_class}".encode()
+                ).hexdigest()
+            )
+            attempt_number = connection.execute(
+                "SELECT COUNT(*) + 1 FROM research_attempts WHERE person_id = ?",
+                (person_id_value,),
+            ).fetchone()[0]
+            next_action = f"Retry {source} source after transient {error_class}."
+            with connection:
+                _attempt(
+                    connection,
+                    person_id=person_id_value,
+                    source=source,
+                    query=query,
+                    query_variant_type=query_variant_type,
+                    fingerprint=fingerprint,
+                    outcome="error",
+                    notes=(
+                        f"{source} request failed after adapter retries; "
+                        f"error class {error_class}. No source result was inferred."
+                    ),
+                    next_action=next_action,
+                    last_error_redacted=error_class,
+                    attempt_number=attempt_number,
+                )
+                record_research_error(
+                    connection,
+                    person_id=person_id_value,
+                    source=source,
+                    error_class=error_class,
+                )
+            processed_people.add(person_id_value)
+            # An exhausted transport failure may affect the whole source. Stop
+            # this bounded run, but return a structured summary so --resume can
+            # retry this person without reissuing completed searches.
+            break
     return {
         "source": source,
         "scope": settings.research_scope,
