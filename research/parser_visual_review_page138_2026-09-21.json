@@ -1,0 +1,8 @@
+{
+  "bundle_version": "parser-visual-review-v1",
+  "source_pdf_sha256": "7268492342ab131d3b6d2697cfa4f6856cbdcd16e0ed3877e8d6a0478f58c02b",
+  "reviewer": "Codex page 138 visual audit",
+  "matching_pages_reviewed_at": "2026-09-21T02:07:50Z",
+  "matching_pages_notes": "Original PDF page 138 was rendered at 180 dpi and all 46 printed rows were compared with immutable source records. Names, middle-initial and suffix cells, rank and private-identifier column occupancy, notes, boxes, and the common 230/86/30/06 location match. Escoute's given-name cell is printed 'Aspirant Mauri', Esway's is 'Alexander Ezr', and Etenne has '*' with the truncated note 'no first n'; none is silently expanded. The complete 'Jacob David' cell for Esterline is preserved without inventing a middle-initial split. Emily J Ethier is printed in Box 224, followed by Arvin F, Charles, and Floyd L.R. Ethridge in Box 223, before Robert V Ettinger begins Box 224 again. Robert V Ettinger is printed as Lt. and Robert N Ettinger has a distinct initial and private identifier; they remain separate entities. James R Eubank is printed CBM with USCGR in notes, and Allan Evans is printed Civilian. No parser correction is required.",
+  "reviewed_matching_pages": [138]
+}

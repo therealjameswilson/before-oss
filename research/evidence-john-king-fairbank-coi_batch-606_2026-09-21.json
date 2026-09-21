@@ -1,0 +1,145 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 606 Fairbank COI-to-OSS chronology review",
+  "sources": [
+    {
+      "key": "nara-oss-index-page-140-fairbank-john-king",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 226",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 140, row 2; Fairbank, John King; Box 226; rendered page visually reviewed",
+      "access_date": "2026-09-21",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "The index locates a personnel file but does not itself establish an earlier employer or the administrative transition date."
+    },
+    {
+      "key": "b606-usc-us-china-today-fairbank-2007",
+      "stable_url": "https://uschinatoday.org/features/2007/11/09/john-king-fairbank-present-at-the-creation/",
+      "title": "John King Fairbank: Present at the Creation",
+      "author_creator": "US-China Today Team",
+      "repository_publisher": "USC U.S.-China Institute, University of Southern California",
+      "publication_record_date": "2007-11-09",
+      "locator": "Pitching a Tent section, paragraphs on Harvard instruction and 1941 COI work",
+      "access_date": "2026-09-21",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "US-China Today",
+      "rights_notes": "Institutional historical article paraphrased only. It does not reproduce Fairbank's individual COI-to-OSS transfer order."
+    },
+    {
+      "key": "b606-nara-rg226-coi-succession",
+      "stable_url": "https://www.archives.gov/research/holocaust/finding-aid/military/rg-226.html",
+      "title": "Military Agency Records RG 226",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2016-08-15 page review",
+      "locator": "Records of the Office of Strategic Services (RG 226), opening agency-history paragraph",
+      "access_date": "2026-09-21",
+      "source_quality": "A_direct_official",
+      "collection_name": "Holocaust-Era Assets Finding Aid",
+      "rights_notes": "Official agency-level chronology; it names OSS as principal successor to COI on 13 June 1942 but does not establish Fairbank's individual transfer date."
+    },
+    {
+      "key": "b606-harvard-fairbank-center-wwii-2025",
+      "stable_url": "https://fairbank.fas.harvard.edu/research/blog/madame-fairbanks-living-room/",
+      "title": "Madame Fairbank's Living Room: How John and Wilma Fairbank Forged Lasting Ties with China's Intellectuals During WWII",
+      "author_creator": "Dorinda Elliott, interviewing Ruiheng Wang",
+      "repository_publisher": "Fairbank Center for Chinese Studies, Harvard University",
+      "publication_record_date": "2025-11-20",
+      "locator": "Question on wartime cultural-affairs work; answer describing John King Fairbank's September 1942-late 1943 OSS publication collecting",
+      "access_date": "2026-09-21",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Fairbank Center research blog",
+      "rights_notes": "Institutional interview paraphrased only; no full article is retained."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "coordinator-of-information",
+      "canonical_name": "Coordinator of Information",
+      "historical_name": "Office of the Coordinator of Information",
+      "aliases": ["COI", "OCOI"],
+      "organization_type": "federal intelligence agency",
+      "sector": "federal_government",
+      "country": "United States",
+      "active_dates": "1941-1942",
+      "normalization_notes": "COI preceded OSS, which NARA dates to 13 June 1942. An agency-level succession does not establish any individual's administrative transfer date."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "b606-john-king-fairbank-coi",
+      "person_id": "e091453b-28d3-5f35-a907-415c62dfc364",
+      "organization_key": "coordinator-of-information",
+      "organization_name_as_found": "Office of the Coordinator of Information",
+      "role_title": "COI work; exact position not established",
+      "occupation": "historian and China specialist",
+      "relationship_type": "government_assignment",
+      "start_date": "1941",
+      "end_date": "1942",
+      "date_precision": "year; individual COI-to-OSS transition date not established",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "USC documents COI work beginning in 1941; Harvard documents OSS collecting in 1942-43; NARA documents OSS as COI's principal successor in June 1942. This is the probable immediate institutional predecessor, not a documented individual transfer or a civilian employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "b606-john-king-fairbank-probable-immediate-coi",
+      "person_id": "e091453b-28d3-5f35-a907-415c62dfc364",
+      "affiliation_key": "b606-john-king-fairbank-coi",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "The Office of the Coordinator of Information was probably John King Fairbank's immediate institutional affiliation before its OSS successor; his individual transfer date remains unverified.",
+      "evidence_paraphrase": "USC dates Fairbank's COI work to 1941; NARA dates the OSS succession to June 1942; Harvard documents his OSS collecting in China beginning September 1942.",
+      "identity_match_assessment": "High-confidence identity already established from the exact distinctive indexed full name, Harvard employment chronology, and Fairbank's independently documented OSS work.",
+      "temporal_assessment": "Probable immediate institutional predecessor, not explicit individual transfer evidence. COI work began in 1941 and OSS service is documented in 1942; exact assignment and appointment dates require Box 226.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Keep the separate high-confidence last-civilian-employer claim for Harvard University. COI is a government assignment, not a civilian employer; do not imply a verified personnel-file transfer order.",
+      "sources": [
+        {"source_key": "b606-usc-us-china-today-fairbank-2007", "support_type": "supports"},
+        {"source_key": "b606-nara-rg226-coi-succession", "support_type": "supports"},
+        {"source_key": "b606-harvard-fairbank-center-wwii-2025", "support_type": "supports"},
+        {"source_key": "nara-oss-index-page-140-fairbank-john-king", "support_type": "context_only"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "e091453b-28d3-5f35-a907-415c62dfc364",
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 226 and any COI personnel orders to establish the exact COI-to-OSS transition and whether his Harvard appointment formally continued during government service.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b606-john-king-fairbank-coi-chronology-review",
+      "person_id": "e091453b-28d3-5f35-a907-415c62dfc364",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "\"John King Fairbank\" COI 1941 OSS 1942 Harvard",
+      "query_variant_type": "government_predecessor_chronology",
+      "started_at": "2026-09-21T02:17:21Z",
+      "completed_at": "2026-09-21T02:17:21Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "research_notes": "Rendered page 140 and reviewed the USC institutional article, NARA RG 226 agency history, and Harvard's wartime Fairbank interview. COI is a probable immediate predecessor but individual transfer documentation remains absent; Harvard stays the separately documented last civilian employer.",
+      "next_action": "Examine Box 226 and COI personnel orders for the individual transition date.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-606-v1"
+    }
+  ]
+}

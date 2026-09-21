@@ -1,0 +1,8 @@
+{
+  "bundle_version": "parser-visual-review-v1",
+  "source_pdf_sha256": "7268492342ab131d3b6d2697cfa4f6856cbdcd16e0ed3877e8d6a0478f58c02b",
+  "reviewer": "Codex page 139 visual audit",
+  "matching_pages_reviewed_at": "2026-09-21T02:12:18Z",
+  "matching_pages_notes": "Original PDF page 139 was rendered at 180 dpi and all 46 printed rows were compared with immutable source records. Names, initials, suffixes, rank and private-identifier column occupancy, box numbers, and location fields match. Rows 1-9 remain in Box 224 at 230/86/30/06; the location changes to 230/86/30/07 with Margaret Evans in Box 225 at row 10; Salvador Fabrega starts Box 226 at row 31. The two consecutive Ruth E Evans entries at rows 15-16 are genuinely duplicated print rows, each lacking a private identifier. They are preserved separately and should be reviewed as possible duplicates, not silently merged. Robert K Everest has 'Robert K' in the printed first-name cell and 'K' in the middle-initial cell; both raw cells are preserved. The middle-initial cell for Hubert Fagan includes a period, and Wallace W Fair's rank is printed 'Capt. Inf.'; neither is normalized by guesswork. No parser correction is required.",
+  "reviewed_matching_pages": [139]
+}

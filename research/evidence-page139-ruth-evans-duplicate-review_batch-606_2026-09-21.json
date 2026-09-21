@@ -1,0 +1,24 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 606 original-index duplicate review",
+  "person_updates": [
+    {
+      "person_id": "6bf06cbd-5227-5e28-a6b8-5a96808861b3",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 139 rows 15 and 16 print two consecutive Ruth E Evans entries in Box 225, both without a rank or private identifier. The exact repeated name and box make duplicate files or duplicated transcription plausible, but the index alone does not establish one person.",
+      "possible_duplicate_group": "p139-ruth-e-evans-b606",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 225 entries and any file-level identifiers before merging the two rows or transferring an employer claim between them.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "79be4725-9ae5-5b44-a21b-d1ecfe3fe10a",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 139 rows 15 and 16 print two consecutive Ruth E Evans entries in Box 225, both without a rank or private identifier. This is a possible duplicate pair only; two original source rows and two cautious person entities remain intact.",
+      "possible_duplicate_group": "p139-ruth-e-evans-b606",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 225 entries and any file-level identifiers before merging the two rows or transferring an employer claim between them.",
+      "archival_review_priority": "high"
+    }
+  ]
+}

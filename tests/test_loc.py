@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import http.client
 import json
 import unittest
 import urllib.error
@@ -113,6 +114,67 @@ class LocAdapterTests(unittest.TestCase):
         ).fetchone()
         self.assertEqual(audit["retry_count"], 1)
         self.assertIsNone(audit["error_class"])
+
+    def test_retries_truncated_http_body_then_succeeds(self) -> None:
+        responses: list[object] = [
+            http.client.IncompleteRead(b'{"results":', 20),
+            ResponseData(200, {}, b'{"results": []}'),
+        ]
+        sleeps: list[float] = []
+
+        def transport(_request: object, _timeout: float) -> ResponseData:
+            response = responses.pop(0)
+            if isinstance(response, Exception):
+                raise response
+            return response
+
+        result = LocAdapter(
+            self.connection,
+            settings(),
+            transport=transport,
+            sleep=sleeps.append,
+        ).search("Truncated Example", person_id="person-1")
+        self.assertEqual(result["http_status"], 200)
+        self.assertEqual(result["candidate_count"], 0)
+        self.assertEqual(len(sleeps), 1)
+        audit = self.connection.execute(
+            "SELECT http_status, error_class, retry_count FROM request_audit "
+            "WHERE adapter = 'loc'"
+        ).fetchone()
+        self.assertEqual(audit["http_status"], 200)
+        self.assertIsNone(audit["error_class"])
+        self.assertEqual(audit["retry_count"], 1)
+
+    def test_exhausted_truncated_body_is_audited_and_resumable(self) -> None:
+        def truncated(_request: object, _timeout: float) -> ResponseData:
+            raise http.client.IncompleteRead(b"partial", 12)
+
+        with self.assertRaises(http.client.IncompleteRead):
+            LocAdapter(
+                self.connection,
+                settings(),
+                transport=truncated,
+                sleep=lambda _delay: None,
+            ).search("Incomplete Example", person_id="person-2")
+
+        audit = self.connection.execute(
+            "SELECT http_status, error_class, retry_count FROM request_audit "
+            "WHERE adapter = 'loc'"
+        ).fetchone()
+        self.assertIsNone(audit["http_status"])
+        self.assertEqual(audit["error_class"], "IncompleteRead")
+        self.assertEqual(audit["retry_count"], 3)
+
+        recovered = LocAdapter(
+            self.connection,
+            settings(),
+            transport=lambda _request, _timeout: ResponseData(
+                200, {}, b'{"results": []}'
+            ),
+            sleep=lambda _delay: None,
+        ).search("Incomplete Example", person_id="person-2")
+        self.assertEqual(recovered["http_status"], 200)
+        self.assertFalse(recovered["duplicate_request"])
 
     def test_429_stops_without_retry_and_enforces_project_cooldown(self) -> None:
         responses = [

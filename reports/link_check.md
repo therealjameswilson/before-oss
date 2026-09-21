@@ -1,5 +1,19 @@
 # Link check
 
+Batch 606 local validation, 2026-09-21 UTC: all internal links resolve
+across **24,693** locally built HTML files, including the newly qualified
+Fairbank profile, both separate Ruth E Evans profiles, and the seven-person
+oil-company category. The unrelated untracked duplicate Sources route
+adds 25 local-only pages and is excluded from the clean release. The
+checker inventoried **50,225** unique external URLs; it did not request
+every target. The public-identifier audit compared **12,926** normalized
+identifiers and **120** formatted variants against **24,765** public
+artifacts, with zero unexpected full-number boundary matches. The local
+public manifest verified **67** assets and **97,378,238** bytes at SHA-256
+`3b1c9fc85ecddd4372d0574b0219095d7bc597adf271c0cacf697e07cea6abbf`.
+Clean CI, Pages deployment, and live exact-file verification remain
+separate release checks.
+
 Batch 605 local validation, 2026-09-21 UTC: all internal links resolve
 across **24,693** locally built HTML files, including the new Pennco
 organization and Eric S Erickson profile and the seven-person oil-company
