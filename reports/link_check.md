@@ -1,5 +1,19 @@
 # Link check
 
+Batch 604 local validation, 2026-09-21 UTC: all internal links resolve
+across **24,692** locally built HTML files, including the page-136
+profiles, direct evidence citations, and six-person oil-company category.
+An unrelated untracked duplicate Sources route adds 25 local-only pages
+and is excluded from the release. The checker inventoried **50,217**
+unique external URLs; it did not request every target. The
+public-identifier audit compared **12,926** normalized identifiers and
+**120** variants against **24,764** public artifacts, with zero unexpected
+full-number boundary matches. The local public manifest matched **67**
+assets and **97,309,272** bytes at SHA-256
+`b0c674118d7470b90a99f716d14338fc27cd5bf91df4f947392a6ea0bd137eeb`.
+Clean CI, Pages deployment, and live exact-file verification remain
+separate release checks.
+
 Batch 603 local validation, 2026-09-21 UTC: all internal links resolve
 across **24,692** locally built HTML files, including the newly cited
 Elisseeff, Eitner, and Ellmann profiles and the six-person oil-company

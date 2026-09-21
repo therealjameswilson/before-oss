@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T21:43:11+00:00",
+  "generated_at": "2026-09-21T01:03:02+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -13,7 +13,7 @@
   },
   "personnel_category_counts": {
     "civilian_professional_or_administrative_grade": 20,
-    "commissioned_army_officer": 19,
+    "commissioned_army_officer": 18,
     "commissioned_coast_guard_officer": 1,
     "commissioned_marine_corps_officer": 4,
     "commissioned_naval_officer": 4,
@@ -22,39 +22,39 @@
     "enlisted_naval_personnel": 4,
     "foreign_or_allied_military_personnel": 15,
     "temporary_contract_or_special_personnel": 4,
-    "unknown_or_indeterminate": 96,
+    "unknown_or_indeterminate": 97,
     "warrant_officer": 4
   },
   "difficulty_tier_counts": {
-    "1": 71,
-    "2": 65,
+    "1": 70,
+    "2": 66,
     "3": 28,
     "4": 36
   },
   "identity_status_counts": {
-    "ambiguous": 10,
+    "ambiguous": 12,
     "confirmed": 8,
     "conflicting": 10,
     "high_confidence": 24,
     "probable": 4,
-    "unresolved": 144
+    "unresolved": 142
   },
   "research_status_counts": {
-    "candidate_found": 2,
+    "candidate_found": 3,
     "completed": 4,
     "conflicting_sources": 9,
     "documented_prewar_employer_found": 2,
-    "in_progress": 6,
+    "in_progress": 7,
     "needs_identity_review": 11,
     "needs_temporal_review": 2,
     "no_reliable_result_after_protocol": 1,
-    "not_started": 117,
+    "not_started": 115,
     "occupation_only_found": 8,
     "requires_archival_review": 30,
     "verified_employer_found": 8
   },
   "special_strata_counts": {
-    "commissioned": 31,
+    "commissioned": 30,
     "civilian": 20,
     "enlisted": 33,
     "allied_or_foreign": 20,
@@ -63,7 +63,7 @@
     "confirmed_or_high_published_claim": 33,
     "medium_published_claim": 16,
     "conflicting_published_claim": 10,
-    "unresolved_identity": 144
+    "unresolved_identity": 142
   },
   "unavailable_strata": {
     "women": "The index has no sex/gender field; the project does not infer gender from names. This stratum requires sourced identity research."
@@ -206,6 +206,7 @@
     "dfec0fab-cfc9-511a-9ae0-29010e7bfa0b",
     "d7c03613-c5e1-5938-ba61-e2e48cd4941b",
     "dd445e77-9239-566e-843e-1d3b6cd9a7dc",
+    "d4d89487-a8f1-5a61-98d8-7bcd8a064c9c",
     "f140aabd-2113-55a3-8db3-27e1859007ff",
     "8330aa69-f666-5dc6-bb18-01c3024fabf1",
     "bd36d4ff-c5f7-574e-adfc-20454703ace2",
@@ -217,6 +218,7 @@
     "e784fc2a-dbc5-54b7-8271-d055c086843f",
     "d0042f95-e917-5a02-9973-6ed3330f0f68",
     "faa590d7-cc71-5602-a8f8-516ea5b54623",
+    "10ad95f6-d07e-5590-9b31-c7561d6d0542",
     "7b58b991-86e7-5ab0-9781-c77140261080",
     "95ff1709-4839-5ecf-b6b2-08fcb8e3c07b",
     "668221c0-1ef1-54c9-b4f0-d39a94fd5b68",
@@ -230,8 +232,6 @@
     "fd9fdd87-52ca-5b6d-8055-e8d26f87ef64",
     "9ba1a015-c88d-5cf7-bc6d-b106adf37013",
     "bc76141a-950f-5e91-8578-a9b74be39d47",
-    "1395be4e-115f-5669-a026-51ab90051ff9",
-    "45216897-b9ce-59ee-bb1e-0cd8f74e7a81",
     "5973e9b9-4412-53fc-93d6-c9925bed1a90",
     "e9894de3-592a-5ab3-b5f3-56ea67909531",
     "cc806144-a526-5ecf-9b71-bab279bfcdf4",

@@ -1,0 +1,146 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 604 page 136 source and namesake review",
+  "sources": [
+    {
+      "key": "b604-nara-index-english-page136",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 220",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 136, row 42: Van Harvey English, Capt., Box 220",
+      "access_date": "2026-09-21",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "The index identifies a file locator and rank; it does not identify a pre-OSS employer."
+    },
+    {
+      "key": "b604-dartmouth-with-the-faculty-english-nov1946",
+      "stable_url": "https://archive.dartmouthalumnimagazine.com/article/1946/11/1/with-the-faculty",
+      "title": "With the Faculty",
+      "author_creator": "Dartmouth Alumni Magazine",
+      "repository_publisher": "Dartmouth Alumni Magazine",
+      "publication_record_date": "1946-11",
+      "locator": "Paragraph beginning 'Development of Dartmouth's growing map collection'",
+      "access_date": "2026-09-21",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Dartmouth Alumni Magazine Archive",
+      "rights_notes": "Project-authored paraphrase only; no article text republished."
+    },
+    {
+      "key": "b604-dartmouth-faculty-appointments-english-oct1946",
+      "stable_url": "https://archive.dartmouthalumnimagazine.com/article/1946/10/1/faculty-appointments",
+      "title": "Faculty Appointments",
+      "author_creator": "Dartmouth Alumni Magazine",
+      "repository_publisher": "Dartmouth Alumni Magazine",
+      "publication_record_date": "1946-10",
+      "locator": "Paragraph naming Van Harvey English and paragraph beginning 'The new addition to the department of geography'",
+      "access_date": "2026-09-21",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Dartmouth Alumni Magazine Archive",
+      "rights_notes": "Project-authored paraphrase only; no article text republished."
+    }
+  ],
+  "claims": [
+    {
+      "key": "b604-identity-van-harvey-english-dartmouth",
+      "person_id": "a1b5cb3b-8221-5bf4-ac6a-2cdf45dbab56",
+      "claim_type": "identity",
+      "claim_text": "The indexed Capt. Van Harvey English is identified with the geographer and cartographer whom a contemporary Dartmouth account places in the OSS as an Army captain from 1942 to 1945.",
+      "evidence_paraphrase": "The November 1946 institutional account gives the same uncommon full name, Army captain rank, and explicit OSS geographer/cartographer service in 1942–45; the index lists the full name, Capt., and Box 220.",
+      "identity_match_assessment": "High: uncommon exact full name, matching captain rank, and explicit OSS service. Neither Dartmouth account independently supplies the index service number or personnel-file identifier.",
+      "temporal_assessment": "This is an identity and wartime-service crosswalk only. Dartmouth describes prewar education and postwar appointments but no named pre-OSS employer or immediate predecessor; neither is inferred.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The October and November 1946 Dartmouth reports disagree on the Colorado State College of Education graduation year (1936 versus 1939). Do not resolve that discrepancy by guesswork or treat later Dartmouth employment as pre-OSS employment.",
+      "sources": [
+        {"source_key": "b604-nara-index-english-page136", "support_type": "supports"},
+        {"source_key": "b604-dartmouth-with-the-faculty-english-nov1946", "support_type": "supports"},
+        {"source_key": "b604-dartmouth-faculty-appointments-english-oct1946", "support_type": "context_only"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "a1b5cb3b-8221-5bf4-ac6a-2cdf45dbab56",
+      "identity_status": "high_confidence",
+      "identity_evidence": "November 1946 Dartmouth Alumni Magazine names Van Harvey English as an Army captain and OSS geographer/cartographer in 1942–45; NARA page 136 row 42 prints the identical uncommon full name and Capt. The October Dartmouth account corroborates the full name and captain rank but differs from the November account on his Colorado State graduation year.",
+      "name_variants": ["Van Harvey English"],
+      "research_status": "in_progress",
+      "next_action": "Review Box 220, Army records, and pre-1942 institutional directories to identify any actual employer or assignment before OSS. Do not use Dartmouth's 1946 appointment as a pre-OSS employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8ec38c0a-bbba-5f1b-870b-d68064f8e5d5",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA page 136 row 20 provides Robert K Enders and Box 220, without rank or service identifier. The Smithsonian authority record for zoologist Robert Kendall Enders is a same-name lead, but it does not independently connect him to the OSS index entry.",
+      "research_status": "needs_identity_review",
+      "next_action": "Examine Box 220 for an identifier, birth year, occupation, or OSS assignment before associating either same-name biography with this index row.",
+      "manual_review_required": true,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "426e86a1-a152-50d5-b7fa-0ed0e75e636b",
+      "identity_status": "unresolved",
+      "identity_evidence": "NARA page 136 row 19 identifies John L Endacott in Box 220 without a rank or service number. Oil-company records encountered in search name Paul Endacott, a different given name; they cannot identify this indexed person or establish his employer.",
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect Box 220 for identifying details and search independent John L Endacott records. Exclude Paul Endacott's Phillips Petroleum career from this profile and the oil-company category.",
+      "manual_review_required": true,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b604-english-dartmouth-institutional-review",
+      "person_id": "a1b5cb3b-8221-5bf4-ac6a-2cdf45dbab56",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "\"Van Harvey English\" OSS Dartmouth employer before 1942",
+      "query_variant_type": "institutional_and_index_crosswalk",
+      "started_at": "2026-09-21T00:50:06Z",
+      "completed_at": "2026-09-21T00:50:06Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "research_notes": "The index and two direct Dartmouth institutional articles support identity. The 1946 articles disagree on Colorado State graduation year and do not identify a pre-OSS employer. Clark graduate work is education, not employment; Dartmouth hired him after OSS service.",
+      "next_action": "Inspect Box 220 and pre-1942 institutional records for an employer or assignment.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-604-v1"
+    },
+    {
+      "key": "b604-enders-two-namesakes-rejected",
+      "person_id": "8ec38c0a-bbba-5f1b-870b-d68064f8e5d5",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "\"Robert K Enders\" OSS zoologist Army",
+      "query_variant_type": "same_name_identity_disambiguation",
+      "started_at": "2026-09-21T00:50:06Z",
+      "completed_at": "2026-09-21T00:50:06Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Smithsonian's Robert Kendall Enders (https://siarchives.si.edu/collections/auth_per_fbr_eacp365) has documented academic employment but no reviewed OSS linkage. A matching name alone cannot select this candidate.",
+      "research_notes": "No employer is transferred from the Smithsonian candidate. The index has no rank or service identifier; Box 220 is essential for disambiguation.",
+      "next_action": "Review Box 220; seek two independent identifiers beyond name for any candidate.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-604-v1"
+    },
+    {
+      "key": "b604-endacott-paul-oil-lead-rejected",
+      "person_id": "426e86a1-a152-50d5-b7fa-0ed0e75e636b",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "\"John L Endacott\" OSS Phillips Petroleum",
+      "query_variant_type": "oil_company_false_positive_review",
+      "started_at": "2026-09-21T00:50:06Z",
+      "completed_at": "2026-09-21T00:50:06Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The National Petroleum Council's period documents identify Paul Endacott, not John L Endacott, as Phillips Petroleum's president (https://www.npc.org/reports/1955-Petroleum_Imports.pdf). A shared surname does not support an identity match; moreover this is a postwar title.",
+      "research_notes": "No oil-company affiliation is assigned to the John L Endacott indexed in Box 220.",
+      "next_action": "Review Box 220 and seek sources that identify John L Endacott directly.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-604-v1"
+    }
+  ]
+}

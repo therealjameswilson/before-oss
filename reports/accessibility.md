@@ -1,5 +1,19 @@
 # Accessibility and responsive QA
 
+Batch 604 local validation, 2026-09-21 UTC: the bounded release suite
+passed **81/81** desktop/phone/tablet checks: 12 new checks for Van Harvey
+English, the Enders and Endacott namesake exclusions, and separate page-136
+variant profiles; 33 core-route checks; six analysis checks; and 30
+accessibility checks with no serious or critical axe violations. The
+six-person oil-company category passed the new exclusion and existing
+navigation checks. All **122** Python unit tests passed. Astro reported
+zero errors, warnings, or hints across **236** local source files and built
+**24,692** local pages. An unrelated, untracked duplicate Sources route
+adds 25 local-only pages and is excluded from the clean release. These
+checks include a passing 200-profile stratified **structural** audit, but
+do not substitute for a 200-person manual historical source audit or
+establish CI or public deployment.
+
 Batch 603 local validation, 2026-09-21 UTC: the bounded release suite
 passed **81/81** desktop/phone/tablet checks: 12 new checks for the
 Elisseeff, Eitner, Embree, and separate Ellmann profiles; 33 core-route

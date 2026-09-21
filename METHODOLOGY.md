@@ -36,9 +36,10 @@ contains 12, for a total of 23,978. Visual selection includes:
 - every parser-warning page;
 - every anomalous row-count page.
 
-Ninety-seven pages have durable, replayable visual decisions. The current audit
-rules select 92 of them; five additional pages, including newly reviewed page
-121, are also reviewed. Twenty-three values
+One hundred seven pages have durable, replayable visual decisions. The current
+audit rules select 92 of them; fifteen additional pages are also reviewed.
+Page 136 was rechecked in batch 604, but was already part of the sampled
+visual-review ledger. Twenty-three values
 are printed in the table's `M I` column while their rank cells are blank: six
 civilian grades and seventeen military grades. Their raw cells remain
 unchanged. The normalized names omit the displaced grade, the normalized rank
@@ -56,8 +57,8 @@ identifier under rank, and `Jun-43` under serial. Version `bbox-columns-v8`
 normalizes the first two values as rank and private identifier while treating
 the third as a date annotation, and emits a dedicated warning. The complete coordinates
 and expected raw values are retained in
-`research/parser_visual_review_decisions.json` and the independent page-121
-matching-only review bundle. Parser fixtures cover missing
+`research/parser_visual_review_decisions.json` and subsequent page-specific
+matching-only review bundles. Parser fixtures cover missing
 first names, initials, suffixes, apostrophes, hyphens, foreign notes, civilian
 grades, military ranks, numeric rank-column anomalies, the combined
 rank/identifier/date shift, multiple column shifts on one page, and unfamiliar
