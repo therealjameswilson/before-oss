@@ -1,0 +1,285 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 612 original-index variant review",
+  "person_updates": [
+    {
+      "person_id": "d92f2fac-0a50-5fed-8c19-bc52dd1268b1",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 191 prints Isaac H Hammand without a private identifier and Isaac H Hammond with one in the same box. The surname difference may be an index variant, but it is not sufficient to merge the records.",
+      "possible_duplicate_group": "p191-isaac-h-hammand-hammond-b612",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 309 files for exact surname, dates, and service history before resolving the pair.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b60a5ded-88b8-5a36-afbe-9287a595d639",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 191 prints Isaac H Hammond with a private identifier near Isaac H Hammand without one in the same box. Both source rows and person entities remain separate.",
+      "possible_duplicate_group": "p191-isaac-h-hammand-hammond-b612",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 309 files for exact surname, dates, and service history before resolving the pair.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3cd87aac-9347-548c-ae97-19a4ab3f009e",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 191 prints James C Hammet without a private identifier and James T Hammet with one. The middle-initial difference remains unresolved.",
+      "possible_duplicate_group": "p191-james-hammet-b612",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 309 files for full middle name, dates, and service history.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4dac28cc-2fdb-511b-aada-a03b33dc9c10",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 191 prints James T Hammet with a private identifier near James C Hammet without one. Similar names do not justify a merge or fact transfer.",
+      "possible_duplicate_group": "p191-james-hammet-b612",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 309 files for full middle name, dates, and service history.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c0ed45e5-9a92-5192-94b0-2cdcc4b5dbb6",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 192 prints two consecutive Palmer L Hansen rows with the same rank and box; one lacks a private identifier and the other has one. Both rows remain separate pending file review.",
+      "possible_duplicate_group": "p192-palmer-l-hansen-b612",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 312 files for dates, assignments, and identifier context before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7fcd5f0f-6bbb-5b1b-be4a-4c7c9feeb4d5",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 192's second Palmer L Hansen row has a private identifier while the adjacent identical-name row does not. Identical names alone do not establish duplication.",
+      "possible_duplicate_group": "p192-palmer-l-hansen-b612",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 312 files for dates, assignments, and identifier context before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e5040de4-bfdd-5684-94ec-f92b574d103d",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 193 prints William B Hardin without a private identifier and William B Harding with one in the same box. The surname ending may be an index variant, not proof of one person.",
+      "possible_duplicate_group": "p193-william-b-hardin-harding-b612",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 313 files for authoritative surname spelling, dates, and service history.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ba5599eb-439a-5efc-aabf-fd2062738efb",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 193 prints William B Harding with a private identifier near William B Hardin without one in the same box. Both records remain separate.",
+      "possible_duplicate_group": "p193-william-b-hardin-harding-b612",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 313 files for authoritative surname spelling, dates, and service history.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "442a21a3-4eed-59de-8da4-34b9343c3315",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 193 prints two Edward W Harding rows in Box 313. One has a private identifier and no rank; the other lacks an identifier and is indexed as Major.",
+      "possible_duplicate_group": "p193-edward-w-harding-b612",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 313 files for rank chronology, dates, assignments, and identifier context.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0fbb99b4-0383-5c13-89a0-91651d7e9876",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 193's Major Edward W Harding row lacks a private identifier while the adjacent Edward W Harding row has one. Rank variation alone does not resolve the pair.",
+      "possible_duplicate_group": "p193-edward-w-harding-b612",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 313 files for rank chronology, dates, assignments, and identifier context.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "be64cf3e-0ef3-5e9e-9574-910aecedc924",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Pages 193 and 194 print Henry Herman Harjes and civilian Herman H Harjes in Box 313, both without private identifiers. The shared names may reflect reversal or truncation, but this remains unresolved.",
+      "possible_duplicate_group": "p193-194-henry-herman-harjes-b612",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 313 files for full name, civilian status, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5948b5ee-32fe-5343-94d2-2c86c0488279",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 194 prints civilian Herman H Harjes immediately after Henry Herman Harjes on page 193. Both are in Box 313 and lack private identifiers, so both entities remain separate.",
+      "possible_duplicate_group": "p193-194-henry-herman-harjes-b612",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 313 files for full name, civilian status, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3904d17c-c34d-5acf-87c1-82c6088dc6ba",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 194 prints Harold B Harlow and Staff Sergeant Harold C Harlow with different private identifiers. The shared name and box do not override the middle-initial, rank, and identifier differences.",
+      "possible_duplicate_group": "p194-harold-harlow-b612",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 314 files and service histories before treating either row as a variant.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "be7bd86d-cade-5dea-8300-529a535ec67e",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 194's Harold C Harlow row has a different middle initial, rank, and private identifier from Harold B Harlow. Both remain distinct pending direct file evidence.",
+      "possible_duplicate_group": "p194-harold-harlow-b612",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 314 files and service histories before treating either row as a variant.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4d40aeef-3e60-5b82-a878-34660f727675",
+      "identity_status": "conflicting",
+      "identity_evidence": "Page 194 prints two Simon C Harrington rows with different private identifiers. A third adjacent row, Stephen H Harrington, repeats one of those identifiers. The three records form an unresolved identifier-and-name conflict.",
+      "possible_duplicate_group": "p194-195-harrington-collision-b612",
+      "manual_review_required": true,
+      "next_action": "Compare all three Box 315 files and original identifier context before assigning any shared biography or merging records.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "dba8b70e-ef25-5f39-bf15-102d6d4d7440",
+      "identity_status": "conflicting",
+      "identity_evidence": "The second Simon C Harrington row on page 194 has a different private identifier from the first Simon row, while sharing its identifier with Stephen H Harrington on page 195. No identity is selected.",
+      "possible_duplicate_group": "p194-195-harrington-collision-b612",
+      "manual_review_required": true,
+      "next_action": "Compare all three Box 315 files and original identifier context before assigning any shared biography or merging records.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "05eb008a-5478-5d07-a3eb-ce158db68d62",
+      "identity_status": "conflicting",
+      "identity_evidence": "Stephen H Harrington on page 195 repeats the private identifier printed for the second Simon C Harrington row on page 194. The conflicting names remain separate and unpublished as a resolved identity.",
+      "possible_duplicate_group": "p194-195-harrington-collision-b612",
+      "manual_review_required": true,
+      "next_action": "Compare all three Box 315 files and original identifier context before assigning any shared biography or merging records.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "0246fda4-41b2-5f07-bc50-f2e3ff6a71b8",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 195 prints John O Harris and John Otto Harris in Box 315, both without private identifiers. The expanded middle name is a possible variant, not conclusive identity evidence.",
+      "possible_duplicate_group": "p195-john-o-otto-harris-b612",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 315 files for full name, dates, locations, and assignments before resolving the pair.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "de82156c-9397-51f5-8cfe-57678285b044",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 195 prints John Otto Harris near John O Harris in the same box. Neither row has a private identifier, and the common name requires direct file evidence.",
+      "possible_duplicate_group": "p195-john-o-otto-harris-b612",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 315 files for full name, dates, locations, and assignments before resolving the pair.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d8ec3b3e-6488-5198-9c3a-999eb13c826c",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 196 prints two James D Hart rows in Box 317 without private identifiers. One is labeled Civilian and the other has no rank, so both rows remain separate.",
+      "possible_duplicate_group": "p196-james-d-hart-b612",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 317 files for civilian status, dates, and assignments before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "562ac73f-833e-5ff0-a54e-05fc7fa53343",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 196's second James D Hart row has no rank or private identifier, while the adjacent identical-name row is labeled Civilian. Identical names alone do not establish duplication.",
+      "possible_duplicate_group": "p196-james-d-hart-b612",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 317 files for civilian status, dates, and assignments before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a3118ad8-b0b2-532f-91b3-f52585447209",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 197 prints Donald J Haselfeld and Donald J Haselfield with the same private identifier and box. This is strong duplicate evidence, but the immutable source rows remain separate pending file review.",
+      "possible_duplicate_group": "p197-donald-j-haselfeld-haselfield-b612",
+      "manual_review_required": true,
+      "next_action": "Review Box 318 to establish the authoritative surname spelling and confirm that both rows describe one file.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "02475cda-7139-5ce2-be5f-7ff54290f7e5",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The Donald J Haselfield row on page 197 repeats the private identifier and box of Donald J Haselfeld. The records are grouped as probable duplicates without merging.",
+      "possible_duplicate_group": "p197-donald-j-haselfeld-haselfield-b612",
+      "manual_review_required": true,
+      "next_action": "Review Box 318 to establish the authoritative surname spelling and confirm that both rows describe one file.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e0b5041f-c3ab-51ed-9b07-66039b6511aa",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 199 prints Vivian F Haymaker and Vivian King Haymaker in Box 321, both without private identifiers. The middle-name difference may be an expansion or a namesake distinction.",
+      "possible_duplicate_group": "p199-vivian-haymaker-b612",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 321 files for full name, dates, and assignments before resolving the pair.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "28ad46b8-5e24-54da-b8ad-f9186b6d01cd",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 199's Vivian King Haymaker row may correspond to Vivian F Haymaker, but neither record carries a private identifier. Both entities remain separate.",
+      "possible_duplicate_group": "p199-vivian-haymaker-b612",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 321 files for full name, dates, and assignments before resolving the pair.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6eef2f6e-4bd9-58f9-b6ef-531bdb44cbf5",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 200 prints William F Hazalwood without a private identifier and William F Hazelwood with one in Box 322. The surname spelling remains unresolved.",
+      "possible_duplicate_group": "p200-william-f-hazalwood-hazelwood-b612",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 322 files for authoritative surname spelling, dates, and service history.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "91576a57-8342-55be-a2ec-40e3345548ba",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 200 prints William F Hazelwood with a private identifier near William F Hazalwood without one. Both source rows and entities remain separate.",
+      "possible_duplicate_group": "p200-william-f-hazalwood-hazelwood-b612",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 322 files for authoritative surname spelling, dates, and service history.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ec05ad25-2502-585e-9ac5-bb9f82261187",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 200 prints Marjorie Hazard and Marjorie Hazzard in Box 322, both without private identifiers. The spelling difference is a possible variant only.",
+      "possible_duplicate_group": "p200-marjorie-hazard-hazzard-b612",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 322 files for authoritative surname spelling, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b7944eab-503c-5a80-b354-d7d28e8c8bf0",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 200's Marjorie Hazzard row may correspond to Marjorie Hazard, but neither row carries a private identifier. Both remain separate.",
+      "possible_duplicate_group": "p200-marjorie-hazard-hazzard-b612",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 322 files for authoritative surname spelling, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0b411a83-a0b1-5d99-8d7a-63d2fe879c8e",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 200 prints Corporal James E Healey and Corporal James E Healy with the same private identifier and box. This is strong duplicate evidence, but both source rows remain preserved.",
+      "possible_duplicate_group": "p200-james-e-healey-healy-b612",
+      "manual_review_required": true,
+      "next_action": "Review Box 323 to establish the authoritative surname spelling and confirm that both rows describe one file.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "eaca2a1a-7c7a-5b76-81b8-739284109724",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The Corporal James E Healy row on page 200 repeats the private identifier, rank, and box of James E Healey. The records are grouped without merging.",
+      "possible_duplicate_group": "p200-james-e-healey-healy-b612",
+      "manual_review_required": true,
+      "next_action": "Review Box 323 to establish the authoritative surname spelling and confirm that both rows describe one file.",
+      "archival_review_priority": "high"
+    }
+  ]
+}
