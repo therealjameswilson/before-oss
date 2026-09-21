@@ -181,6 +181,76 @@ class PageReviewTests(unittest.TestCase):
             [(1, "reviewed_matches"), (2, "reviewed_corrected")],
         )
 
+    def test_matching_page_replay_does_not_downgrade_prior_correction(
+        self,
+    ) -> None:
+        correction_file = Path(self.temp_dir.name) / "correction-only.json"
+        correction_file.write_text(
+            json.dumps(
+                {
+                    "bundle_version": "test-correction-only",
+                    "source_pdf_sha256": self.pdf_hash,
+                    "reviewer": "Correction reviewer",
+                    "matching_pages_reviewed_at": "2026-07-30T00:01:00Z",
+                    "matching_pages_notes": "No matching-only pages.",
+                    "reviewed_matching_pages": [],
+                    "corrections_reviewed_at": "2026-07-30T00:02:00Z",
+                    "correction_rows": [
+                        {
+                            "source_page": 2,
+                            "source_row_number": 1,
+                            "expected_last_name_raw": "Shift",
+                            "expected_first_name_raw": "Sonia",
+                            "expected_middle_initial_raw": "P-2",
+                            "expected_rank_raw": None,
+                            "decision": "reviewed_corrected",
+                            "notes": "Raw grade cell preserved.",
+                        }
+                    ],
+                }
+            ),
+            encoding="utf-8",
+        )
+        matching_file = Path(self.temp_dir.name) / "later-matching-page.json"
+        matching_file.write_text(
+            json.dumps(
+                {
+                    "bundle_version": "test-later-matching-page",
+                    "source_pdf_sha256": self.pdf_hash,
+                    "reviewer": "Later page reviewer",
+                    "matching_pages_reviewed_at": "2026-07-31T00:00:00Z",
+                    "matching_pages_notes": "The complete page was rechecked.",
+                    "reviewed_matching_pages": [2],
+                }
+            ),
+            encoding="utf-8",
+        )
+
+        import_page_reviews(self.connection, correction_file)
+        result = import_page_reviews(self.connection, matching_file)
+
+        self.assertEqual(result["matching_pages"], 1)
+        page = self.connection.execute(
+            """
+            SELECT visual_review_status, reviewed_by, notes
+            FROM page_qa
+            WHERE source_pdf_sha256 = ? AND source_page = 2
+            """,
+            (self.pdf_hash,),
+        ).fetchone()
+        self.assertEqual(page["visual_review_status"], "reviewed_after_correction")
+        self.assertEqual(page["reviewed_by"], "Correction reviewer")
+        self.assertEqual(page["notes"], "Raw grade cell preserved.")
+        row = self.connection.execute(
+            """
+            SELECT visual_review_status
+            FROM source_records
+            WHERE source_pdf_sha256 = ? AND source_page = 2
+            """,
+            (self.pdf_hash,),
+        ).fetchone()
+        self.assertEqual(row["visual_review_status"], "reviewed_corrected")
+
     def test_import_page_reviews_rejects_changed_raw_cells(self) -> None:
         review_file = Path(self.temp_dir.name) / "reviews.json"
         review_file.write_text(

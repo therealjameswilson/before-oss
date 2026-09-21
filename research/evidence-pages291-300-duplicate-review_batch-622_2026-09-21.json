@@ -1,0 +1,230 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 622 pages 291-300 original-index duplicate and variant review",
+  "person_updates": [
+    {
+      "person_id": "e48018de-7e7c-55dd-9463-a85918f30847",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 292 prints Marcus Manaloe and page 293 prints Marcus Manoloe with the same private identifier. The one-letter surname variation is strong duplicate evidence, but the different boxes require file confirmation.",
+      "name_variants": ["Marcus Manoloe"],
+      "possible_duplicate_group": "p292-293-marcus-manaloe-manoloe-b622",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 478 and Box 480 files to establish the authoritative surname spelling and confirm that both rows represent one person.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e39610c5-3508-5326-b6e8-7bc7f5844670",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 293's Marcus Manoloe row repeats the private identifier printed for Marcus Manaloe on page 292. Both source spellings and separate entities remain visible pending file comparison.",
+      "name_variants": ["Marcus Manaloe"],
+      "possible_duplicate_group": "p292-293-marcus-manaloe-manoloe-b622",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 478 and Box 480 files to establish the authoritative surname spelling and confirm that both rows represent one person.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c8ea75e3-3284-5cde-bad9-dd273eb64ca7",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 292 prints Major Cyrus E Manierre with a six-digit private identifier; page 293 prints Cyrus E Manniere with the same digits, without the leading zero, displaced into the rank column. The spelling and column differences require direct file confirmation.",
+      "name_variants": ["Cyrus E Manniere"],
+      "possible_duplicate_group": "p292-293-cyrus-e-manierre-manniere-b622",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 479 and Box 480 files and original index cards to establish the authoritative surname and identifier placement before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "392fe164-4c4f-5874-98e4-b5fc5fba6129",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 293 prints Cyrus E Manniere with a number in the rank column that matches Major Cyrus E Manierre's page-292 private identifier after removal of a leading zero. Both rows remain separate pending file review.",
+      "name_variants": ["Cyrus E Manierre"],
+      "possible_duplicate_group": "p292-293-cyrus-e-manierre-manniere-b622",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 479 and Box 480 files and original index cards to establish the authoritative surname and identifier placement before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b8ae54d3-5969-5238-a9bb-2300b9407a78",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Page 294 prints two Augustine J Maratzo rows with the same exact normalized name, private identifier, and box. The two immutable source rows are retained and linked to one high-confidence person entity.",
+      "possible_duplicate_group": "p294-augustine-j-maratzo-repeat-b622",
+      "manual_review_required": false
+    },
+    {
+      "person_id": "04f9bd64-030a-54eb-83e9-97c40d3f1e0d",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Page 294 prints two Edward Marchigiani rows with the same exact normalized name, private identifier, and box; one repeats the identifier without the rank. Both source rows are retained and linked to one high-confidence person entity.",
+      "possible_duplicate_group": "p294-edward-marchigiani-repeat-b622",
+      "manual_review_required": false
+    },
+    {
+      "person_id": "4db308d3-43af-5fa2-a297-2c27383e429b",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 294 prints Robert K March and Sergeant Robert K Marck in the same box. Their private identifiers differ only in the first printed digit, making a spelling or identifier error plausible but not proven.",
+      "name_variants": ["Robert K Marck"],
+      "possible_duplicate_group": "p294-robert-k-march-marck-b622",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 482 files and original jackets to resolve the surname, first identifier digit, and rank before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ea9d802b-77c3-5615-85ec-b549f52b237e",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 294's Sergeant Robert K Marck row closely matches Robert K March in name, box, and all but the first printed identifier digit. Both indexed spellings remain separate pending direct file comparison.",
+      "name_variants": ["Robert K March"],
+      "possible_duplicate_group": "p294-robert-k-march-marck-b622",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 482 files and original jackets to resolve the surname, first identifier digit, and rank before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "45a59ffc-eaac-581c-80ff-393af6e87fb4",
+      "identity_status": "conflicting",
+      "identity_evidence": "Page 294 prints Herbert D Marcy with the same private identifier also printed for Raymond W Bauer on page 27 and Raymond W Fletcher on page 149. The materially different names make this an index or identifier conflict, not a basis for merging.",
+      "possible_duplicate_group": "p27-149-294-bauer-fletcher-marcy-conflict-b622",
+      "manual_review_required": true,
+      "next_action": "Inspect the three personnel files and original jackets to determine which name owns the repeated private identifier.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "f86e0661-55ae-5f8c-b9ec-c7f649a289db",
+      "identity_evidence": "Raymond W Bauer's confirmed identity remains supported by reviewed evidence, but the index prints his private identifier again for Raymond W Fletcher and Herbert D Marcy. The identifier conflict cannot be used to merge the three names.",
+      "possible_duplicate_group": "p27-149-294-bauer-fletcher-marcy-conflict-b622",
+      "manual_review_required": true,
+      "next_action": "Inspect the three personnel files and original jackets to resolve the repeated private identifier while preserving Bauer's separately confirmed identity.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "7074bb68-c115-5b97-859a-6bb34be4a5d9",
+      "identity_status": "conflicting",
+      "identity_evidence": "Page 149 prints Raymond W Fletcher with the same private identifier printed for Raymond W Bauer on page 27 and Herbert D Marcy on page 294. The unrelated names must remain separate.",
+      "possible_duplicate_group": "p27-149-294-bauer-fletcher-marcy-conflict-b622",
+      "manual_review_required": true,
+      "next_action": "Inspect the three personnel files and original jackets to determine which name owns the repeated private identifier.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "48867a9a-9f06-5030-81f9-0dd9653fd321",
+      "identity_status": "conflicting",
+      "identity_evidence": "Page 293 prints Corporal Robert S Mantho with the same private identifier printed for Frederick K Glasbrenner on page 170. The names differ materially and cannot be merged.",
+      "possible_duplicate_group": "p170-293-glasbrenner-mantho-conflict-b622",
+      "manual_review_required": true,
+      "next_action": "Inspect the Box 275 and Box 480 files and original jackets to resolve the repeated private identifier.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "0355de70-e55f-5023-b15d-4c6b1051e9f2",
+      "identity_status": "conflicting",
+      "identity_evidence": "Page 170 prints Frederick K Glasbrenner with the same private identifier printed for Corporal Robert S Mantho on page 293. The unrelated names remain separate pending archival review.",
+      "possible_duplicate_group": "p170-293-glasbrenner-mantho-conflict-b622",
+      "manual_review_required": true,
+      "next_action": "Inspect the Box 275 and Box 480 files and original jackets to resolve the repeated private identifier.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "974a420d-0ec8-5cde-ad74-70357b5d6f2a",
+      "identity_status": "conflicting",
+      "identity_evidence": "Page 293 prints John Manual with the same private identifier printed for Private John N Monroe on page 326. The names differ materially and cannot support a merge.",
+      "possible_duplicate_group": "p293-326-manual-monroe-conflict-b622",
+      "manual_review_required": true,
+      "next_action": "Inspect the Box 534 and Box 532 files and original jackets to resolve the repeated private identifier.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "c08acd42-5748-5e0b-9514-7a7508d10957",
+      "identity_status": "conflicting",
+      "identity_evidence": "Page 326 prints Private John N Monroe with the same private identifier printed for John Manual on page 293. The unrelated names remain separate pending archival review.",
+      "possible_duplicate_group": "p293-326-manual-monroe-conflict-b622",
+      "manual_review_required": true,
+      "next_action": "Inspect the Box 534 and Box 532 files and original jackets to resolve the repeated private identifier.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "5f2ac5f3-3165-5f9a-8773-de9beda50d77",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Pages 295 and 296 print Richard S Marnocaa and First Lieutenant Richard S Marnocha with the same private identifier and box. The surname difference is strong variant evidence but needs direct file confirmation.",
+      "name_variants": ["Richard S Marnocha"],
+      "possible_duplicate_group": "p295-296-richard-s-marnocaa-marnocha-b622",
+      "manual_review_required": true,
+      "next_action": "Review the Box 484 file to establish the authoritative surname spelling and confirm whether both rows represent one person.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f2d841bd-ea19-5b97-b16d-7152373af21a",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 296's First Lieutenant Richard S Marnocha row repeats the private identifier printed for Richard S Marnocaa on page 295. Both original spellings remain visible pending file review.",
+      "name_variants": ["Richard S Marnocaa"],
+      "possible_duplicate_group": "p295-296-richard-s-marnocaa-marnocha-b622",
+      "manual_review_required": true,
+      "next_action": "Review the Box 484 file to establish the authoritative surname spelling and confirm whether both rows represent one person.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "84cbf17c-b33e-58d2-ab99-4b7aaf44e83c",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 296 prints William L Marritts and page 317 prints William L Meritts and William L Merritts with the same private identifier. The three surname forms are strong variant evidence, but their different boxes require file confirmation.",
+      "name_variants": ["William L Meritts", "William L Merritts"],
+      "possible_duplicate_group": "p296-317-william-l-marritts-variants-b622",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 484, Box 518, and Box 519 files to establish the authoritative surname and determine whether all three rows represent one person.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7b5cf14b-f5b5-58b4-bab2-a6ff99802643",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 317's William L Meritts row shares a private identifier with William L Marritts on page 296 and William L Merritts later on page 317. All entities remain separate pending file comparison.",
+      "name_variants": ["William L Marritts", "William L Merritts"],
+      "possible_duplicate_group": "p296-317-william-l-marritts-variants-b622",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 484, Box 518, and Box 519 files to establish the authoritative surname and determine whether all three rows represent one person.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e9a37a58-d576-543c-90c0-77421678dadb",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 317's William L Merritts row shares a private identifier with William L Marritts on page 296 and William L Meritts earlier on page 317. All three source spellings remain visible.",
+      "name_variants": ["William L Marritts", "William L Meritts"],
+      "possible_duplicate_group": "p296-317-william-l-marritts-variants-b622",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 484, Box 518, and Box 519 files to establish the authoritative surname and determine whether all three rows represent one person.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5ae134b6-03a7-56fa-9a37-a6077ed848fe",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 299 prints Captain Eugene K Mathews and page 300 prints Captain Eugene K Matthews with the same private identifier. Page 300 also prints a second-lieutenant Eugene K Matthews with a different identifier, so the three rows cannot be collapsed together.",
+      "name_variants": ["Eugene K Matthews"],
+      "possible_duplicate_group": "p299-300-442-eugene-mathews-stlaurent-b622",
+      "manual_review_required": true,
+      "next_action": "Compare the two Box 491/492 captain files, the separate second-lieutenant file, and the St. Laurent file before resolving either name duplicate or identifier conflict.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "25689d5d-02b6-5777-afd0-5053e025dec6",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 300's Captain Eugene K Matthews row repeats the private identifier of Captain Eugene K Mathews on page 299. A separate second-lieutenant Eugene K Matthews row has a different identifier, so all three person entities remain distinct.",
+      "name_variants": ["Eugene K Mathews"],
+      "possible_duplicate_group": "p299-300-442-eugene-mathews-stlaurent-b622",
+      "manual_review_required": true,
+      "next_action": "Compare the two Box 491/492 captain files, the separate second-lieutenant file, and the St. Laurent file before resolving either name duplicate or identifier conflict.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c91e6700-1847-531b-9b16-ea7876434623",
+      "identity_status": "conflicting",
+      "identity_evidence": "Page 300 prints a second-lieutenant Eugene K Matthews with a private identifier different from the two captain rows bearing the same full name. That identifier is also printed for Captain Ramond P St. Laurent on page 442, creating a separate identifier conflict.",
+      "possible_duplicate_group": "p299-300-442-eugene-mathews-stlaurent-b622",
+      "manual_review_required": true,
+      "next_action": "Compare both Eugene K Matthews files, the Eugene K Mathews file, and the St. Laurent file to resolve the same-name entities and repeated identifier.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e56f66cd-9fe3-5322-926b-a103a02141cf",
+      "identity_status": "conflicting",
+      "identity_evidence": "Page 442 prints Captain Ramond P St. Laurent with the same private identifier printed for second-lieutenant Eugene K Matthews on page 300. The materially different names cannot be merged.",
+      "possible_duplicate_group": "p299-300-442-eugene-mathews-stlaurent-b622",
+      "manual_review_required": true,
+      "next_action": "Compare the St. Laurent file and the three Eugene K Mathews/Matthews files to resolve the repeated identifier and same-name cluster.",
+      "archival_review_priority": "critical"
+    }
+  ]
+}
