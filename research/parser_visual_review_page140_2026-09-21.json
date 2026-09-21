@@ -1,0 +1,8 @@
+{
+  "bundle_version": "parser-visual-review-v1",
+  "source_pdf_sha256": "7268492342ab131d3b6d2697cfa4f6856cbdcd16e0ed3877e8d6a0478f58c02b",
+  "reviewer": "Codex page 140 visual audit",
+  "matching_pages_reviewed_at": "2026-09-21T02:14:10Z",
+  "matching_pages_notes": "Original PDF page 140 was rendered at 180 dpi and all 46 printed rows were compared with immutable source records. Printed names, initials, suffixes, rank and private-identifier column occupancy, notes, box numbers, and common 230/86/30/07 location match. William E Fairbairn has the truncated note 'British A'; Irving Fajans has the truncated rank '2nd Lt. I'; neither is expanded. Samson Lane Faison is printed Lt. Cmdr with Navy in notes; Marcel Henri Faivre is S/Lt. with French in notes. Frank B Falkner and Frank B Falknor in adjacent rows have the same privately held identifier and Box 227 but different printed surnames and rank cells; both source rows and entities remain separate pending file-level review. Raymond L Falkenstein and Raymond L Falkenthal have similar names but no shared printed identifier, so no identity conclusion is drawn. The first-name cells 'George Josep' and 'Ruby Dorothe' remain truncated as printed, with a separate 'D' in the latter middle-initial cell. No parser correction is required.",
+  "reviewed_matching_pages": [140]
+}

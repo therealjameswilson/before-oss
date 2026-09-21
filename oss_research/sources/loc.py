@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import http.client
 import json
 import random
 import sqlite3
@@ -236,7 +237,12 @@ class LocAdapter:
                         request,
                         self.settings.loc_timeout_seconds,
                     )
-                except (TimeoutError, urllib.error.URLError, ConnectionError):
+                except (
+                    TimeoutError,
+                    urllib.error.URLError,
+                    ConnectionError,
+                    http.client.IncompleteRead,
+                ):
                     if attempt >= self.settings.loc_max_retries:
                         raise
                     retry_count += 1

@@ -1,5 +1,29 @@
 # Research status
 
+Batch 606 visually checked all **138 printed rows** on PDF pages 138–140,
+bringing the distinct ledger to **111/522 pages**; **411** remain. The
+page-138 and first page-139 LoC batches completed **54** bounded,
+read-only first-pass searches; **25** newspaper-page leads remain unreviewed
+discovery records. Two printed Ruth E Evans rows remain separate possible
+duplicates. [John King Fairbank](https://therealjameswilson.github.io/before-oss/people/e091453b-28d3-5f35-a907-415c62dfc364/)
+now has a qualified, probable immediate COI assignment while Harvard
+remains his separately documented last civilian employer. The top
+oil-company category still lists **seven** people with cited work claims.
+See `research/batch-606-progress.md`. No authenticated NARA Catalog
+request was made.
+
+Current local SQLite has **23,978/23,978** linked source rows and **23,940**
+active people. Research-attempt coverage is **6,559/23,940 (27.3977%)**;
+verified-employer coverage is **271/23,940 (1.1320%)**; verified-affiliation
+coverage is **617/23,940 (2.5773%)**; archival-review coverage is
+**5,769/23,940 (24.0977%)**. There are **17,381** `not_started` people and
+**281** possible-duplicate groups. SQLite retains **11,604** attempts or
+plans and **4,867** claims: 1,311 confirmed, 1,868 high, 1,371 medium,
+185 low, and 132 conflicting. It has **5,006** source/citation records and
+**2,334** unique source-document keys. The public projection has **2,204**
+affiliations, **694** organizations, **3,803** sources, and **4,678** claims.
+Full-index historical research remains unfinished.
+
 Batch 605 visually checked all 46 printed rows on PDF page 137, bringing
 the distinct review ledger to **108/522 pages**; **414** remain. A bounded
 Library of Congress first pass covered all 46 page-137 people, saving

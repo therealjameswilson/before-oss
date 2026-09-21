@@ -1,5 +1,18 @@
 # Accessibility and responsive QA
 
+Batch 606 local validation, 2026-09-21 UTC: the bounded release suite
+passed **75/75** desktop, phone, and tablet checks: six page-139/140
+profile checks; 33 core-route and oil-category checks; six analysis checks;
+and 30 accessibility checks with no serious or critical axe violations.
+All **124** Python unit tests passed, including new truncated-response
+retry/resume tests for the LoC adapter. Astro reported zero errors,
+warnings, or hints across **238** local source files and built **24,693**
+local pages. An unrelated untracked duplicate Sources route adds 25
+local-only pages and is excluded from the clean release. The 200-profile
+stratified **structural** audit passed; it does not substitute for manual
+historical source review. These local checks do not establish CI or
+public deployment.
+
 Batch 605 local validation, 2026-09-21 UTC: the bounded release suite
 passed **78/78** desktop/phone/tablet checks: nine new checks for the
 seven-person oil-company category, Eric S Erickson's qualified Pennco
