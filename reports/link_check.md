@@ -1,5 +1,19 @@
 # Link check
 
+Batch 608 local validation, 2026-09-21 UTC: all internal links resolve across
+**24,694** locally built HTML files, including the Gaevernitz and Galenson
+evidence profiles, separate Funari/Furnari duplicate candidates, and the
+seven-person oil-company workers category. An unrelated untracked duplicate
+Sources route adds 25 local-only pages and is excluded from the clean release.
+The checker inventoried **50,232** unique external URLs; it did not request
+every target. The public-identifier audit compared **12,926** normalized
+identifiers and **120** variants against **24,766** public artifacts, with zero
+unexpected full-number boundary matches. The local public manifest verified
+**67** assets and **97,465,498** bytes at SHA-256
+`685082198e14b0083dd0dc95f31c687c15f660ff84f6f4d24a9d0f829120f63e`.
+Clean CI, Pages deployment, and live exact-file verification remain separate
+release checks.
+
 Batch 607 local validation, 2026-09-21 UTC: all internal links resolve
 across **24,694** locally built HTML files, including the Farish and
 Amiranian pages, separate duplicate-candidate profiles, and the seven-person
