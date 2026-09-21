@@ -80,11 +80,11 @@ sources, and 4,711 claims. Full-index historical research remains unfinished.
 
 ## Local verification
 
-The working-tree verification completed before publication:
+A clean tracked-only worktree passed the complete local release suite:
 
-- **132** Python unit, parser, schema, normalization, privacy, adapter,
-  review-import, and export tests passed; the final clean release run is
-  recorded below when available.
+- **132/132** Python unit, parser, schema, normalization, privacy, adapter,
+  review-import, and export tests passed, together with **75** parameterized
+  subtests.
 - `validate-ingest` passed every extraction invariant; SQLite `quick_check`
   returned `ok` and there were **0** foreign-key errors.
 - The deterministic **200-profile** stratified audit passed all **7/7**
@@ -93,13 +93,18 @@ The working-tree verification completed before publication:
 - The bounded Playwright release suite passed **81/81** tests: **12** Batch
   626 checks, **33** core-route checks, **6** analysis checks, and **30**
   accessibility checks. Axe reported no serious or critical violations.
+- All internal links resolved across **24,681** HTML files; **50,236** unique
+  external URLs were inventoried for the separate live-source process.
+- The public-identifier audit examined **12,926** normalized identifiers,
+  **120** formatted variants, and **24,753** artifacts, finding **0** aggregate
+  false positives, **0** manifest-size false positives, and **0** unexpected
+  boundary matches.
 - The checked-in public manifest covers **67 assets** and **98,093,188 bytes**
   with SHA-256
   `cd9f63fac6cc4750b43821377935897cef4b63eeb9e4ae5468f5b7650382e0c3`.
-
-Tracked-only build, link, public-identifier, deterministic-tree, CI, and live
-deployment evidence will replace this paragraph after the release commit is
-tested and published.
+- Two independent clean production builds were byte-identical: **24,753**
+  files, **294,317,573** bytes, tree SHA-256
+  `c9e20ad10e156f72f7ecd4fb52b900385b8b94ab1da0a1e5d9c415870380d2ac`.
 
 ## Deployment
 
