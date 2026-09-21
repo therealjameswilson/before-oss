@@ -48,6 +48,16 @@ def text_service_url(segment: str, surname: str) -> str:
     return f"{TEXT_SERVICE}?{query}"
 
 
+def full_text_service_url(segment: str) -> str:
+    """Return the bounded official full-text endpoint for a validated segment."""
+    if not segment.startswith("/service/ndnp/") or not segment.endswith(".xml"):
+        raise ValueError("LoC item has no expected newspaper OCR segment")
+    query = urllib.parse.urlencode(
+        {"segment": segment, "format": "alto_xml", "full_text": 1}
+    )
+    return f"{TEXT_SERVICE}?{query}"
+
+
 def fetch_json(url: str, *, timeout: float, retries: int = 3) -> dict:
     for attempt in range(retries + 1):
         request = urllib.request.Request(
@@ -86,6 +96,41 @@ def relevant_snippet(payload: dict, segment: str) -> str:
     if not isinstance(snippet, str):
         return ""
     return snippet.replace("[[tag]]", "").replace("[[/tag]]", "")
+
+
+def full_text(payload: dict, segment: str) -> str:
+    """Extract text from an official full-text response without mutating it."""
+    segment_result = payload.get(segment)
+    if not isinstance(segment_result, dict):
+        return ""
+    text = segment_result.get("full_text", "")
+    return text if isinstance(text, str) else ""
+
+
+def bounded_ocr_context(
+    text: str, search_terms: list[str], *, max_chars: int = 1200
+) -> str:
+    """Return bounded OCR windows, preferring the most specific search term."""
+    if not 1 <= max_chars <= 4000:
+        raise ValueError("OCR context bound is out of range")
+    normalized = re.sub(r"\s+", " ", text).strip()
+    if not normalized:
+        return ""
+    terms = sorted(
+        {term.strip() for term in search_terms if term and term.strip()},
+        key=lambda term: (-len(term), term.casefold()),
+    )
+    for term in terms:
+        matches = list(re.finditer(re.escape(term), normalized, flags=re.IGNORECASE))
+        if not matches:
+            continue
+        windows: list[str] = []
+        for match in matches[:3]:
+            start = max(0, match.start() - 180)
+            end = min(len(normalized), match.end() + 180)
+            windows.append(normalized[start:end].strip())
+        return " … ".join(windows)[:max_chars]
+    return ""
 
 
 def candidates(connection: sqlite3.Connection, batch: str, limit: int) -> list[sqlite3.Row]:
@@ -151,7 +196,23 @@ def main() -> int:
                 if not isinstance(segment, str):
                     raise ValueError("LoC item has no OCR segment_id")
                 text_payload = fetch_json(text_service_url(segment, surname), timeout=args.timeout)
-                result["ocr_context"] = relevant_snippet(text_payload, segment)[:1200]
+                context = relevant_snippet(text_payload, segment)[:1200]
+                context_source = "server_relevant_snippet"
+                if not context:
+                    full_payload = fetch_json(
+                        full_text_service_url(segment), timeout=args.timeout
+                    )
+                    context = bounded_ocr_context(
+                        full_text(full_payload, segment),
+                        [str(row["display_name"]), surname],
+                    )
+                    context_source = (
+                        "bounded_full_text_fallback"
+                        if context
+                        else "no_matching_ocr_context"
+                    )
+                result["ocr_context"] = context
+                result["ocr_context_source"] = context_source
                 result["review_status"] = "context_only_not_identity_proof"
         except (ValueError, urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
             result["review_error"] = f"{type(exc).__name__}: {exc}"
