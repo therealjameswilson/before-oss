@@ -6,6 +6,7 @@ import unittest
 from oss_research.research import (
     assign_page_batch,
     candidate_aware_status,
+    completed_source_people,
     discovery_outcome,
     has_unreviewed_research_candidate,
     record_discovery_progress,
@@ -223,6 +224,30 @@ class ResearchQuerySchedulerTests(unittest.TestCase):
             discovery_outcome(planned=True, http_status=None, candidate_count=0),
             "planned",
         )
+
+    def test_resume_skips_live_source_attempts_but_not_dry_run_plans(self) -> None:
+        connection = sqlite3.connect(":memory:")
+        connection.row_factory = sqlite3.Row
+        try:
+            connection.executescript(
+                """
+                CREATE TABLE research_attempts(
+                    person_id TEXT, source_adapter TEXT, outcome TEXT
+                );
+                INSERT INTO research_attempts VALUES
+                  ('searched', 'loc', 'no_result'),
+                  ('candidate', 'loc', 'candidate_found'),
+                  ('blocked', 'loc', 'blocked'),
+                  ('planned', 'loc', 'planned'),
+                  ('other-source', 'nara', 'no_result');
+                """
+            )
+            self.assertEqual(
+                completed_source_people(connection, "loc"),
+                {"searched", "candidate", "blocked"},
+            )
+        finally:
+            connection.close()
 
     def test_unreviewed_candidate_survives_a_later_no_result(self) -> None:
         status, person_action, queue_action = candidate_aware_status(0, True)

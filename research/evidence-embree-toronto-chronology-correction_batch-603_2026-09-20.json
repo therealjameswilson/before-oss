@@ -1,0 +1,129 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 603 Embree chronology re-review",
+  "sources": [
+    {
+      "key": "yale-macmillan-john-fee-embree",
+      "stable_url": "https://macmillan.yale.edu/southeast-asia/john-fee-embree",
+      "archival_identifier": "Yale Council on Southeast Asia biographical profile",
+      "title": "John Fee Embree",
+      "author_creator": "Council on Southeast Asia",
+      "repository_publisher": "Yale University MacMillan Center",
+      "locator": "Career chronology: Hawaii, Toronto in 1941, and subsequent wartime service",
+      "access_date": "2026-09-20",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Council on Southeast Asia historical profiles",
+      "rights_notes": "The Yale page draws on Fred Eggan's 1951 memorial. It does not specify the Toronto departure or individual COI/OSS entry date."
+    },
+    {
+      "key": "densho-john-f-embree",
+      "stable_url": "https://encyclopedia.densho.org/John_F._Embree/",
+      "archival_identifier": "Densho Encyclopedia biographical entry",
+      "title": "John F. Embree",
+      "author_creator": "Brian Niiya",
+      "repository_publisher": "Densho",
+      "locator": "Career section, 1941 Toronto appointment followed by COI/OSS work",
+      "access_date": "2026-09-20",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Densho Encyclopedia",
+      "rights_notes": "Densho cites Eggan and later scholarship. Chronological corroboration is not proof of a precise job-exit date."
+    },
+    {
+      "key": "b603-eggan-john-fee-embree-1951",
+      "stable_url": "https://cseas.yale.edu/sites/default/files/files/Embree_obit_Eggan.pdf",
+      "archival_identifier": "American Anthropologist 53 (1951): 376–382",
+      "title": "John Fee Embree, 1908–1950",
+      "author_creator": "Fred Eggan",
+      "repository_publisher": "American Anthropologist; copy hosted by Yale University",
+      "publication_record_date": "1951",
+      "locator": "Printed page 377, first biographical paragraph; PDF page 2",
+      "access_date": "2026-09-20",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "American Anthropologist obituary",
+      "rights_notes": "Contemporary colleague's chronology is paraphrased; no full PDF or page is retained."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "university-toronto",
+      "canonical_name": "University of Toronto",
+      "historical_name": "University of Toronto",
+      "aliases": ["Toronto"],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Toronto",
+      "state_or_region": "Ontario",
+      "country": "Canada",
+      "normalization_notes": "The Canadian university appointment is kept distinct from Embree's earlier University of Hawaii employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "john-embree-university-toronto",
+      "person_id": "ae597b0c-6982-5c47-8b87-f74cfb29b92c",
+      "organization_key": "university-toronto",
+      "organization_name_as_found": "University of Toronto",
+      "occupation": "anthropologist",
+      "relationship_type": "employment",
+      "start_date": "1941",
+      "date_precision": "Toronto appointment documented in 1941; the employment end date and individual COI/OSS start date are not given in the reviewed sources",
+      "city": "Toronto",
+      "state_or_region": "Ontario",
+      "country": "Canada",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Yale/Eggan and Densho support Toronto employment before wartime COI/OSS work, but do not document its end or exclude a short intervening appointment. Immediate-pre-OSS status is a qualified chronology, not a settled fact."
+    }
+  ],
+  "claims": [
+    {
+      "key": "employment-john-embree-university-toronto",
+      "person_id": "ae597b0c-6982-5c47-8b87-f74cfb29b92c",
+      "affiliation_key": "john-embree-university-toronto",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "The University of Toronto is Embree's latest named civilian employer found before his wartime COI/OSS work. He took a position there in 1941, but the available accounts do not establish the precise transition date or rule out an intervening role.",
+      "evidence_paraphrase": "Eggan's 1951 memorial places a Toronto appointment in 1941 and describes subsequent OSS work. Yale repeats that chronology; Densho places a brief COI/OSS stint before the War Relocation Authority.",
+      "identity_match_assessment": "High: exact indexed name aligns with Eggan's full-name memorial, Yale's profile, and Densho's account of wartime OSS work. The Box 219 file has not been examined.",
+      "temporal_assessment": "Probable immediate predecessor, not strongly date-bounded: the sources do not give a Toronto separation date or exact COI/OSS entry date.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Corrects the earlier high-confidence immediate label while preserving the well-supported fact of Toronto employment. University of Hawaii remains an earlier employer; WRA came after his initial COI/OSS work.",
+      "sources": [
+        {"source_key": "b603-eggan-john-fee-embree-1951", "support_type": "supports"},
+        {"source_key": "yale-macmillan-john-fee-embree", "support_type": "supports"},
+        {"source_key": "densho-john-f-embree", "support_type": "supports"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "ae597b0c-6982-5c47-8b87-f74cfb29b92c",
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 219 and a dated COI/OSS appointment record to establish when Embree left Toronto and whether the university was the immediate predecessor.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b603-john-embree-toronto-temporal-correction",
+      "person_id": "ae597b0c-6982-5c47-8b87-f74cfb29b92c",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "John Fee Embree University of Toronto 1941 COI OSS; Eggan 1951 Yale Densho chronology",
+      "query_variant_type": "institutional_timeline_correction",
+      "started_at": "2026-09-21T00:02:06Z",
+      "completed_at": "2026-09-21T00:02:06Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "research_notes": "Re-examined the actual Eggan obituary and Yale/Densho accounts. They confirm Toronto employment in 1941, then wartime OSS-related work, but not an employment end date or exact COI/OSS entry. Downgraded immediate chronology to probable and visibly qualified the claim; no employer was invented or deleted.",
+      "next_action": "Inspect Box 219 and appointment records for dates and any intervening role.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-603-v1"
+    }
+  ]
+}

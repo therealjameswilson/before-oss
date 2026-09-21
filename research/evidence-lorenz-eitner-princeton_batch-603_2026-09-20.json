@@ -1,0 +1,119 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 603 Princeton student-status review",
+  "sources": [
+    {
+      "key": "b603-nara-index-eitner-page133",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 215",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 133, row 27: Lorenz E.A. Eitner, 2nd Lt.; Box 215",
+      "access_date": "2026-09-20",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Index is a personnel-file locator, not a source for Princeton study or employment."
+    },
+    {
+      "key": "b603-princeton-eitner-memorial",
+      "stable_url": "https://paw.princeton.edu/memorial/lorenz-e-eitner-52",
+      "title": "Lorenz E. A. Eitner *52",
+      "author_creator": "Association of Princeton Graduate Alumni",
+      "repository_publisher": "Princeton Alumni Weekly",
+      "publication_record_date": "2009-07-15",
+      "locator": "Graduate memorial, second paragraph",
+      "access_date": "2026-09-20",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Princeton graduate memorials",
+      "rights_notes": "Project-authored paraphrase only; no copyrighted memorial text is republished."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "princeton-university",
+      "canonical_name": "Princeton University",
+      "historical_name": "Princeton University",
+      "aliases": ["Princeton"],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Princeton",
+      "state_or_region": "New Jersey",
+      "country": "United States",
+      "active_dates": "1746-present",
+      "normalization_notes": "Student relationships are represented separately from employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "b603-lorenz-eitner-princeton-graduate-student",
+      "person_id": "31a9a6d6-7414-5e2c-887d-214d6e723ea7",
+      "organization_key": "princeton-university",
+      "organization_name_as_found": "Princeton Graduate School",
+      "role_title": "Graduate student",
+      "occupation": "graduate student",
+      "relationship_type": "student",
+      "date_precision": "After Duke graduation in 1940 and until withdrawal in 1943; exact matriculation and withdrawal dates are not established",
+      "city": "Princeton",
+      "state_or_region": "New Jersey",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Princeton memorial states that he withdrew in 1943 to join the Army and OSS. This supports a pre-service student pathway; the Army assignment between university and OSS is not resolved here. No employer is inferred from enrollment."
+    }
+  ],
+  "claims": [
+    {
+      "key": "b603-lorenz-eitner-princeton-student",
+      "person_id": "31a9a6d6-7414-5e2c-887d-214d6e723ea7",
+      "affiliation_key": "b603-lorenz-eitner-princeton-graduate-student",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Lorenz E. A. Eitner was a Princeton Graduate School student before withdrawing in 1943 to join the Army and OSS; Princeton is documented as an institution attended, not an employer.",
+      "evidence_paraphrase": "The Princeton graduate memorial names Eitner with matching initials and says he entered its graduate school after Duke and withdrew in 1943 for Army and OSS service.",
+      "identity_match_assessment": "High: the memorial's uncommon full name and three initials match the indexed Lorenz E.A. Eitner, and it independently identifies Army and OSS service. The index records 2nd Lt.; the memorial does not verify the commission or service identifier.",
+      "temporal_assessment": "Princeton study ended in 1943 for wartime service. An Army assignment may have intervened before OSS; therefore the university is not designated the immediate pre-OSS affiliation.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Do not equate enrollment with employment, and do not import later Stanford or Minnesota faculty posts into the pre-OSS timeline.",
+      "sources": [
+        {"source_key": "b603-princeton-eitner-memorial", "support_type": "supports"},
+        {"source_key": "b603-nara-index-eitner-page133", "support_type": "context_only"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "31a9a6d6-7414-5e2c-887d-214d6e723ea7",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The unusual full name and E.A. initials in the Box 215 index match Princeton's Lorenz E. A. Eitner; Princeton also explicitly links him to Army and OSS service. The memorial does not identify the Army commission or an employer.",
+      "name_variants": ["Lorenz E. A. Eitner", "Lorenz Eitner"],
+      "research_status": "in_progress",
+      "next_action": "Review Box 215 and Army records for the assignment between Princeton and OSS; inspect any contemporary pre-service employment evidence instead of treating Princeton enrollment as employment.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b603-lorenz-eitner-princeton-review",
+      "person_id": "31a9a6d6-7414-5e2c-887d-214d6e723ea7",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Lorenz E. A. Eitner Princeton Graduate School 1943 Army OSS employer",
+      "query_variant_type": "institutional_obituary_and_index_crosswalk",
+      "started_at": "2026-09-20T23:53:08Z",
+      "completed_at": "2026-09-20T23:53:08Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "research_notes": "Princeton memorial provides exact full-name and OSS crosswalk and identifies graduate study before Army/OSS entry. No employer or immediate OSS predecessor is supported by this source. The underlying personnel file and Army sequence need examination.",
+      "next_action": "Inspect Box 215 and Army service records for dates and preceding employer.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-603-v1"
+    }
+  ]
+}

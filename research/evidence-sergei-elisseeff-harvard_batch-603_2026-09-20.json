@@ -1,0 +1,274 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 603 institutional-source review",
+  "sources": [
+    {
+      "key": "b603-nara-index-elisseeff-page134",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 216",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 134, row 10: Elisseeff, Sergei, Dr.; Box 216",
+      "access_date": "2026-09-20",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Personnel-file locator only; the index does not establish earlier employment or an OSS assignment date."
+    },
+    {
+      "key": "b603-harvard-ealc-1930s-elisseeff",
+      "stable_url": "https://ealc.fas.harvard.edu/1930-1940",
+      "title": "1930–1940",
+      "author_creator": "Department of East Asian Languages and Civilizations",
+      "repository_publisher": "Harvard University",
+      "locator": "1933 November 13 appointment and 1934–35 return entries",
+      "access_date": "2026-09-20",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Department history timeline",
+      "rights_notes": "Appointment chronology paraphrased; no source page is reproduced."
+    },
+    {
+      "key": "b603-harvard-ealc-elisseeff-biography",
+      "stable_url": "https://ealc.fas.harvard.edu/serge-eliss%C3%A9eff",
+      "title": "Serge Elisséeff",
+      "author_creator": "Department of East Asian Languages and Civilizations",
+      "repository_publisher": "Harvard University",
+      "locator": "Faculty biography, paragraphs 1 and 3–5",
+      "access_date": "2026-09-20",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Department history",
+      "rights_notes": "Biographical account paraphrased; no source page is reproduced."
+    },
+    {
+      "key": "b603-harvard-yenching-elisseeff-biography",
+      "stable_url": "https://www.harvard-yenching.org/news/new-book-published-former-hyi-director-serge-elisseeff/",
+      "title": "New Book Published on former HYI Director Serge Elisseeff",
+      "author_creator": "Harvard-Yenching Institute; summary of Svetlana Marakhonova's biography",
+      "repository_publisher": "Harvard-Yenching Institute",
+      "publication_record_date": "2016-11-04",
+      "locator": "Opening paragraph and English-language book summary",
+      "access_date": "2026-09-20",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Harvard-Yenching Institute news",
+      "rights_notes": "The institute identifies Sergei Grigorievich Eliseev as Serge Elisséeff and describes his 1934–56 directorship and wartime U.S. government consulting. Project-authored paraphrase only."
+    },
+    {
+      "key": "b603-crimson-elisseeff-1934",
+      "stable_url": "https://www.thecrimson.com/article/1934/2/15/elisseeff-appointed-to-head-yenching-institute/",
+      "title": "Elisseeff Appointed to Head Yenching Institute",
+      "author_creator": "No writer attributed",
+      "repository_publisher": "The Harvard Crimson",
+      "publication_record_date": "1934-02-15",
+      "locator": "Announcement, first two paragraphs",
+      "access_date": "2026-09-20",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Harvard Crimson archive",
+      "rights_notes": "Contemporary announcement paraphrased; no copyrighted article text is reproduced."
+    },
+    {
+      "key": "b603-crimson-elisseeff-january-1934",
+      "stable_url": "https://www.thecrimson.com/article/1934/1/26/serge-elisseeff-chosen-to-be-harvard/",
+      "title": "Serge Elisseeff Chosen to Be Harvard Professor",
+      "author_creator": "No writer attributed",
+      "repository_publisher": "The Harvard Crimson",
+      "publication_record_date": "1934-01-26",
+      "locator": "Appointment announcement, first paragraph",
+      "access_date": "2026-09-20",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Harvard Crimson archive",
+      "rights_notes": "Contemporary account of 1933–34 Paris directorship, paraphrased rather than copied."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "b603-harvard-university",
+      "canonical_name": "Harvard University",
+      "historical_name": "Harvard University",
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "normalization_notes": "Harvard's academic professorship is recorded separately from the directorship of the Harvard-Yenching Institute. Neither role is inferred from education or alumni status."
+    },
+    {
+      "key": "b603-harvard-yenching-institute",
+      "canonical_name": "Harvard-Yenching Institute",
+      "historical_name": "Harvard-Yenching Institute",
+      "organization_type": "independent research institute affiliated with Harvard University",
+      "sector": "academia_and_research",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "normalization_notes": "Kept separate from Harvard University: institutional sources distinguish appointment as Institute director from the Harvard professorship."
+    },
+    {
+      "key": "b603-ecole-pratique-hautes-etudes",
+      "canonical_name": "École pratique des hautes études",
+      "historical_name": "Ecole Pratique des Hautes Etudes",
+      "organization_type": "higher-education and research institution",
+      "sector": "academia_and_research",
+      "city": "Paris",
+      "country": "France",
+      "normalization_notes": "The 1934 Harvard Crimson describes the institution as 'of the University of Paris'; this historical phrasing is retained in the citation, not silently substituted for the named school."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "b603-sergei-elisseeff-harvard-professor",
+      "person_id": "8829fd35-280c-54c2-8348-ca57b8befb3d",
+      "organization_key": "b603-harvard-university",
+      "organization_name_as_found": "Harvard University",
+      "role_title": "Professor of Far Eastern Languages",
+      "occupation": "Japanologist and university professor",
+      "relationship_type": "employment",
+      "start_date": "1934-09-01",
+      "date_precision": "Harvard gives the effective appointment date as 1 September 1934 and documents an active Harvard career spanning World War II; no individual OSS start date or intervening employer has been established",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The 1934 Harvard professorship clearly predates wartime consulting. It appears to have continued during the war, so it is not labeled as a job he left immediately before OSS, nor as the last civilian job before military service."
+    },
+    {
+      "key": "b603-sergei-elisseeff-harvard-yenching-director",
+      "person_id": "8829fd35-280c-54c2-8348-ca57b8befb3d",
+      "organization_key": "b603-harvard-yenching-institute",
+      "organization_name_as_found": "Harvard-Yenching Institute",
+      "role_title": "Director",
+      "occupation": "research-institute director",
+      "relationship_type": "employment",
+      "start_date": "1934",
+      "date_precision": "Harvard records appointment in November 1933, effective during 1934; the Institute records a 1934–56 directorship, overlapping the war",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Separate institutional appointment, concurrent with his Harvard professorship. Exact OSS relationship and chronology require Box 216 review."
+    },
+    {
+      "key": "b603-sergei-elisseeff-ephe-director",
+      "person_id": "8829fd35-280c-54c2-8348-ca57b8befb3d",
+      "organization_key": "b603-ecole-pratique-hautes-etudes",
+      "organization_name_as_found": "Ecole Pratique des Hautes Etudes",
+      "role_title": "Director of Studies; professor",
+      "occupation": "Japanologist and teacher",
+      "relationship_type": "employment",
+      "start_date": "1930-02",
+      "date_precision": "A February 1934 contemporary notice says he had held a professorship since February 1930; a January 1934 notice identifies him as Director of Studies in Paris in the 1933–34 academic year. Exact end date is not established.",
+      "city": "Paris",
+      "country": "France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Contemporary reports document this earlier Paris academic role. His later Harvard appointment intervened before wartime OSS-related work."
+    }
+  ],
+  "claims": [
+    {
+      "key": "b603-sergei-elisseeff-harvard-professor",
+      "person_id": "8829fd35-280c-54c2-8348-ca57b8befb3d",
+      "affiliation_key": "b603-sergei-elisseeff-harvard-professor",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "The person indexed as Dr. Sergei Elisseeff is strongly identified with Serge Elisséeff, appointed professor of Far Eastern Languages at Harvard University effective 1 September 1934; the professorship preceded and overlapped his wartime U.S. government consulting.",
+      "evidence_paraphrase": "Harvard's departmental chronology gives the 1934 professorial appointment. Its biography describes the academic career, and the Harvard-Yenching Institute identifies the Sergei/Serge name variants and wartime consulting.",
+      "identity_match_assessment": "High, not confirmed: the uncommon indexed surname, given-name variant, and Dr. title align with Harvard's named professor; the Institute explicitly equates Sergei Grigorievich Eliseev and Serge Elisséeff and describes wartime U.S. government consulting. The Box 216 file has not been examined.",
+      "temporal_assessment": "Appointment effective in 1934, before OSS existed; the institutional role continued into the war. No evidence establishes that Harvard was an employer he left immediately for OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This is employment, not Harvard student status. It is an earlier/concurrent role, not a proven immediate predecessor or last civilian employer before service.",
+      "sources": [
+        {"source_key": "b603-harvard-ealc-1930s-elisseeff", "support_type": "supports"},
+        {"source_key": "b603-harvard-ealc-elisseeff-biography", "support_type": "supports"},
+        {"source_key": "b603-harvard-yenching-elisseeff-biography", "support_type": "supports"},
+        {"source_key": "b603-nara-index-elisseeff-page134", "support_type": "context_only"}
+      ]
+    },
+    {
+      "key": "b603-sergei-elisseeff-harvard-yenching-director",
+      "person_id": "8829fd35-280c-54c2-8348-ca57b8befb3d",
+      "affiliation_key": "b603-sergei-elisseeff-harvard-yenching-director",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Elisséeff became director of the Harvard-Yenching Institute in 1934, a position the Institute documents through 1956; this role preceded and overlapped his wartime government consulting.",
+      "evidence_paraphrase": "The Institute's institutional account dates his directorship 1934–56, while Harvard's chronology documents the original appointment and separates it from his professorship.",
+      "identity_match_assessment": "High for the same rare-name, title, and wartime-consulting crosswalk; no original Box 216 personnel file has yet been reviewed.",
+      "temporal_assessment": "The directorship began before OSS and continued during the war; it cannot be treated as an organization he left to join OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The independent Institute is not silently collapsed into Harvard University. Government consulting is a separate wartime activity, not a named pre-OSS employer claim.",
+      "sources": [
+        {"source_key": "b603-harvard-yenching-elisseeff-biography", "support_type": "supports"},
+        {"source_key": "b603-harvard-ealc-1930s-elisseeff", "support_type": "supports"},
+        {"source_key": "b603-crimson-elisseeff-1934", "support_type": "supports"},
+        {"source_key": "b603-nara-index-elisseeff-page134", "support_type": "context_only"}
+      ]
+    },
+    {
+      "key": "b603-sergei-elisseeff-ephe-director",
+      "person_id": "8829fd35-280c-54c2-8348-ca57b8befb3d",
+      "affiliation_key": "b603-sergei-elisseeff-ephe-director",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Before his permanent Harvard appointment, Elisséeff held a professorship at the École pratique des hautes études in Paris from February 1930 and was its Director of Studies during the 1933–34 academic year.",
+      "evidence_paraphrase": "Two Harvard Crimson announcements in January and February 1934 document the Paris institution, role, and chronology before his September Harvard appointment.",
+      "identity_match_assessment": "High: the two contemporary notices identify the same uncommon-name scholar and Harvard appointee, linked to the indexed Dr. Sergei Elisseeff through Harvard-Yenching's Sergei/Serge name crosswalk and wartime consultant account.",
+      "temporal_assessment": "Explicitly documented in 1930 and 1933–34; certainly before OSS. Harvard appointments intervened, so this was not the immediate pre-OSS affiliation.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Named teaching institution and role are documented directly; the cited 1934 notices do not establish the precise end of the Paris appointment.",
+      "sources": [
+        {"source_key": "b603-crimson-elisseeff-january-1934", "support_type": "supports"},
+        {"source_key": "b603-crimson-elisseeff-1934", "support_type": "supports"},
+        {"source_key": "b603-harvard-yenching-elisseeff-biography", "support_type": "context_only"},
+        {"source_key": "b603-nara-index-elisseeff-page134", "support_type": "context_only"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "8829fd35-280c-54c2-8348-ca57b8befb3d",
+      "identity_status": "high_confidence",
+      "identity_evidence": "NARA's rare indexed name and Dr. title match institutional accounts of Professor Serge Elisséeff. Harvard-Yenching explicitly equates Sergei Grigorievich Eliseev with Serge Elisséeff and documents wartime U.S. government consulting. This is a strong biographical match, not direct inspection of Box 216.",
+      "name_variants": ["Sergei Elisseeff", "Serge Elisséeff", "Serge Elisseeff", "Sergei Grigorievich Eliseev"],
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review NARA RG 226 Entry A1-224 Box 216 and the cited OSS-era memo to establish the actual consultant assignment, dates, and whether any distinct immediate pre-OSS affiliation existed.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b603-sergei-elisseeff-institutional-review",
+      "person_id": "8829fd35-280c-54c2-8348-ca57b8befb3d",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Sergei Elisseeff; Serge Elisséeff; NARA OSS index; Harvard-Yenching; Harvard EALC; 1934 appointment; wartime consulting",
+      "query_variant_type": "official_institutional_and_contemporary",
+      "started_at": "2026-09-20T23:48:11Z",
+      "completed_at": "2026-09-20T23:48:11Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "research_notes": "Reviewed NARA index, three Harvard institutional pages, and two contemporary Harvard Crimson appointment notices. The Paris, Harvard, and Harvard-Yenching roles are supported; neither immediate pre-OSS status nor a last civilian pre-service employer is proven. Full Box 216 file remains unavailable in the reviewed sources.",
+      "next_action": "Inspect Box 216 and a dated OSS consultant document for recruitment/assignment chronology.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-603-v1"
+    }
+  ]
+}

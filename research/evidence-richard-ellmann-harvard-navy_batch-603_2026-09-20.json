@@ -1,0 +1,181 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 603 Ellmann wartime chronology review",
+  "sources": [
+    {
+      "key": "b603-nara-index-ellmann-page135-row22",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 218",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 135, row 22: Richard D Ellmann, Yeoman, USNR; Box 218",
+      "access_date": "2026-09-20",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Personnel-file locator; this row does not establish earlier civilian employment or prove its relationship to the unranked same-name row 21."
+    },
+    {
+      "key": "b603-barker-ellmann-british-academy",
+      "stable_url": "https://www.thebritishacademy.ac.uk/sites/default/files/08%20Ellmann%201808.pdf",
+      "archival_identifier": "Biographical Memoirs of Fellows of the British Academy 13 (2014): 179–192",
+      "title": "Richard Ellmann, 1918–1987",
+      "author_creator": "Nicolas Barker",
+      "repository_publisher": "The British Academy",
+      "publication_record_date": "2014",
+      "locator": "Printed pages 179–180 (PDF pages 2–3), wartime chronology; page 184 (PDF page 7), prewar Harvard stint",
+      "access_date": "2026-09-20",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Biographical Memoirs of Fellows of the British Academy",
+      "rights_notes": "Scholarly memoir is paraphrased; no copyright-protected page is reproduced."
+    },
+    {
+      "key": "b603-amacad-richard-david-ellmann",
+      "stable_url": "https://www.amacad.org/person/richard-david-ellmann",
+      "title": "Richard David Ellmann",
+      "author_creator": "American Academy of Arts and Sciences",
+      "repository_publisher": "American Academy of Arts and Sciences",
+      "locator": "Member heading identifying full middle name",
+      "access_date": "2026-09-20",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Members",
+      "rights_notes": "Full-name corroboration only; the member page is not cited as evidence of wartime employment."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "b603-harvard-university",
+      "canonical_name": "Harvard University",
+      "historical_name": "Harvard University",
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "normalization_notes": "The dated prewar instructorship is distinct from Ellmann's postwar Harvard appointment."
+    },
+    {
+      "key": "united-states-navy",
+      "canonical_name": "United States Navy",
+      "historical_name": "United States Navy",
+      "aliases": ["U.S. Navy", "USN", "USNR", "United States Naval Reserve"],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Navy and Naval Reserve wording is preserved in person-level evidence; military assignments are not classified as civilian employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "b603-richard-ellmann-harvard-instructor-1942",
+      "person_id": "572c9c93-f927-5f68-8344-4a76fe5ff959",
+      "organization_key": "b603-harvard-university",
+      "organization_name_as_found": "Harvard",
+      "role_title": "Instructor",
+      "occupation": "university instructor",
+      "relationship_type": "employment",
+      "start_date": "1942-08",
+      "end_date": "1943",
+      "date_precision": "Barker says Ellmann became a Harvard instructor in August 1942 and spent the next year there before a 1943 Navy draft; exact start and departure days are not stated",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Barker places Harvard after Ellmann's 1942 COI work and immediately before his Navy draft. It is the last named civilian employer before Navy service in the reviewed chronology, not his immediate predecessor at the later OSS transfer. The unranked same-name Box 218 index row remains a separate unresolved entity."
+    },
+    {
+      "key": "b603-richard-ellmann-navy-before-oss-transfer",
+      "person_id": "572c9c93-f927-5f68-8344-4a76fe5ff959",
+      "organization_key": "united-states-navy",
+      "organization_name_as_found": "USNR",
+      "role_title": "Yeoman",
+      "relationship_type": "military_assignment",
+      "start_date": "1943",
+      "date_precision": "Barker dates the Navy draft to 1943 and describes a later transfer back to OSS; the exact transfer date is not established from the reviewed sources",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The British Academy account explicitly says Ellmann was transferred from the U.S. Navy back to OSS. The index independently prints Yeoman and USNR. This refers to his later OSS transfer, not his earlier March 1942 COI work."
+    }
+  ],
+  "claims": [
+    {
+      "key": "b603-richard-ellmann-last-civilian-harvard",
+      "person_id": "572c9c93-f927-5f68-8344-4a76fe5ff959",
+      "affiliation_key": "b603-richard-ellmann-harvard-instructor-1942",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Richard D. Ellmann taught as an instructor at Harvard beginning in August 1942 and was drafted into the U.S. Navy the following year. Harvard is the last named civilian employer before his Navy service in the reviewed chronology, not his immediate predecessor at the later OSS transfer.",
+      "evidence_paraphrase": "Barker's British Academy memoir places a Harvard instructorship after Ellmann's COI work, then a Navy draft in 1943 and a later return to OSS.",
+      "identity_match_assessment": "High for the indexed Yeoman/USNR row: uncommon name and middle initial align with Academy full-name identification; the British Academy memoir independently describes his Navy and OSS service. No serial number or Box 218 personnel file has been examined. The unranked same-name index row is not silently merged.",
+      "temporal_assessment": "Harvard instructorship began August 1942 and ended with the 1943 Navy draft. The U.S. Navy, not Harvard, was his immediate predecessor on later transfer back to OSS.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The memoir also identifies earlier COI work, so Harvard should not be framed as an initial intelligence-service recruitment source. Postwar Harvard employment is excluded from this claim.",
+      "sources": [
+        {"source_key": "b603-barker-ellmann-british-academy", "support_type": "supports"},
+        {"source_key": "b603-nara-index-ellmann-page135-row22", "support_type": "context_only"},
+        {"source_key": "b603-amacad-richard-david-ellmann", "support_type": "context_only"}
+      ]
+    },
+    {
+      "key": "b603-richard-ellmann-navy-immediate",
+      "person_id": "572c9c93-f927-5f68-8344-4a76fe5ff959",
+      "affiliation_key": "b603-richard-ellmann-navy-before-oss-transfer",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "After Navy service beginning in 1943, Richard D. Ellmann was transferred back to OSS. His immediate affiliation at that later transfer was the U.S. Navy, not Harvard University.",
+      "evidence_paraphrase": "Barker describes a Navy-to-OSS transfer, while the index identifies this Richard D. Ellmann as a Yeoman in the U.S. Navy Reserve.",
+      "identity_match_assessment": "High for the indexed Yeoman/USNR row because the uncommon name, middle initial, Navy affiliation, and OSS link converge. The Box 218 file and unranked duplicate row still need review.",
+      "temporal_assessment": "Explicit transfer from U.S. Navy back to OSS; the date of this later OSS appointment is not precisely established here.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Military affiliation only; this is never counted as a civilian employer.",
+      "sources": [
+        {"source_key": "b603-barker-ellmann-british-academy", "support_type": "supports"},
+        {"source_key": "b603-nara-index-ellmann-page135-row22", "support_type": "supports"},
+        {"source_key": "b603-amacad-richard-david-ellmann", "support_type": "context_only"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "572c9c93-f927-5f68-8344-4a76fe5ff959",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The Box 218 index row names Richard D Ellmann and labels him Yeoman/USNR. Barker's British Academy memoir describes the uncommon-name Richard Ellmann serving in the U.S. Navy and OSS; the American Academy identifies his middle name as David. This supports this naval-row match, but the unranked same-name Box 218 row remains a separate possible duplicate pending file review.",
+      "name_variants": ["Richard David Ellmann", "Richard D. Ellmann"],
+      "research_status": "verified_employer_found",
+      "next_action": "Inspect both Box 218 Ellmann file entries and a dated Navy/OSS transfer record to determine whether the unranked row refers to the same person and establish exact appointment dates.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b603-richard-ellmann-barker-review",
+      "person_id": "572c9c93-f927-5f68-8344-4a76fe5ff959",
+      "source_adapter": "manual_evidence_review",
+      "query_text": "Richard David Ellmann Harvard instructor 1942 Navy Yeoman USNR OSS",
+      "query_variant_type": "scholarly_memorial_and_index_crosswalk",
+      "started_at": "2026-09-21T00:07:00Z",
+      "completed_at": "2026-09-21T00:07:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "research_notes": "Reviewed the British Academy's dated wartime chronology and cross-checked the original indexed Yeoman/USNR row. Harvard is the latest named civilian employer before the Navy draft; Navy was the immediate affiliation before a later return to OSS. The same-name unranked row is not merged or assigned this employer.",
+      "next_action": "Review both Box 218 entries and original appointment records to resolve the duplicate lead.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-603-v1"
+    }
+  ]
+}

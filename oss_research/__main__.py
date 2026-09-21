@@ -88,7 +88,11 @@ def parser() -> argparse.ArgumentParser:
     research.add_argument("--max-queries", type=int, default=500)
     research.add_argument("--person-id")
     research.add_argument("--batch")
-    research.add_argument("--resume", action="store_true")
+    research.add_argument(
+        "--resume",
+        action="store_true",
+        help="Skip people with a saved live attempt for this source; dry-run plans do not count",
+    )
     research.add_argument("--dry-run", action="store_true")
 
     army_bulk = sub.add_parser(
@@ -251,6 +255,7 @@ def main(argv: list[str] | None = None) -> int:
                 person_id=args.person_id,
                 batch=args.batch,
                 dry_run=args.dry_run,
+                resume=args.resume,
             )
             finish_run(
                 connection,

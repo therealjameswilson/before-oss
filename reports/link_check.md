@@ -1,5 +1,19 @@
 # Link check
 
+Batch 603 local validation, 2026-09-21 UTC: all internal links resolve
+across **24,692** locally built HTML files, including the newly cited
+Elisseeff, Eitner, and Ellmann profiles and the six-person oil-company
+category. An unrelated untracked duplicate Sources route adds 25
+local-only pages and is excluded from the release. The checker inventoried
+**50,215** unique external URLs; it did not request every target. The
+public-identifier audit compared **12,926** normalized identifiers and
+**120** variants against **24,761** public artifacts, with zero unexpected
+full-number boundary matches. The local manifest matched **67** assets
+and **97,291,075** bytes at SHA-256
+`9b371b12a245163526b997c1b98d099b95c188773bb3c7725f5275a739caa25a`.
+Clean CI, Pages deployment, and live exact-file verification remain
+separate release checks.
+
 Batch 602 local validation, 2026-09-20 UTC: all internal links resolve
 across **24,689** locally built HTML files, including the corrected Carl F.
 Eifler profile, its COI and military organization pages, and the six-person

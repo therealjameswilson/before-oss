@@ -1,0 +1,2 @@
+target_type,target_id,decision,rationale,reviewer,decision_version
+person_entity,8829fd35-280c-54c2-8348-ca57b8befb3d,"display_name:{""expected"":""Sergei, Dr. Elisseeff"",""replacement"":""Sergei Elisseeff""}","The source places Dr. inside the first-name cell; normalize the entity display without altering the printed row or treating Dr. as part of the given name.",Before OSS editorial review,batch-603-v1

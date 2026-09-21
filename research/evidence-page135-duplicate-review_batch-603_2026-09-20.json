@@ -1,0 +1,42 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 603 original-index duplicate review",
+  "person_updates": [
+    {
+      "person_id": "bd8aca8d-045b-5d58-88f6-531291f982e3",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA page 135 rows 21 and 22 print Richard D Ellmann in Box 218. One row is unranked; the other says Yeoman and USNR. No identifier is printed in either row. Same name and box are a duplicate lead, not proof of one person.",
+      "possible_duplicate_group": "p135-richard-d-ellmann-b603",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 218 Ellmann entries and seek direct identifier or personnel-file evidence before any merge.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "572c9c93-f927-5f68-8344-4a76fe5ff959",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA page 135 rows 21 and 22 print Richard D Ellmann in Box 218. One row is unranked; the other says Yeoman and USNR. No identifier is printed in either row. Same name and box are a duplicate lead, not proof of one person.",
+      "possible_duplicate_group": "p135-richard-d-ellmann-b603",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 218 Ellmann entries and seek direct identifier or personnel-file evidence before any merge.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5a301cb8-1670-599f-9adb-eadaf80d5785",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA page 135 rows 13 and 14 print Ted Ellis and Theodore Ellis in Box 217. Ted has a protected identifier, Theodore is marked Sgt. without one. Ted may abbreviate Theodore, but this does not establish a duplicate.",
+      "possible_duplicate_group": "p135-ted-theodore-ellis-b603",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 217 entries and the Ted Ellis identifier before resolving whether the names refer to one or two people.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "23fd2317-4c00-58eb-85ba-0a0e0ecc0602",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA page 135 rows 13 and 14 print Ted Ellis and Theodore Ellis in Box 217. Ted has a protected identifier, Theodore is marked Sgt. without one. Ted may abbreviate Theodore, but this does not establish a duplicate.",
+      "possible_duplicate_group": "p135-ted-theodore-ellis-b603",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 217 entries and the Ted Ellis identifier before resolving whether the names refer to one or two people.",
+      "archival_review_priority": "high"
+    }
+  ]
+}
