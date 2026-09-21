@@ -1,5 +1,39 @@
 # Research status
 
+Batch 614 visually checked all **460** printed rows on PDF pages 211–220.
+Every row matches the immutable extraction. Because pages 215 and 220 already
+had complete-page decisions, the durable ledger rises by eight to **183/522
+pages**; **339** remain. Twenty-six possible-duplicate or spelling-variant
+groups covering 52 people were reviewed without merging any record; 25 are new
+groups and the preexisting Hoffarth/Hoffman private-value-derived slug was
+replaced with a safe descriptive name. A bounded LoC first pass completed
+**46** page-149 searches, creating or revisiting **34** discovery candidates;
+two completed query fingerprints were skipped and there were no errors or
+blocks. None of those discovery leads was accepted as an identity or employer
+claim.
+[William V. Holohan](https://therealjameswilson.github.io/before-oss/people/d9962ab3-e93e-5613-9f03-7021a0f31b28/)
+now has a high-confidence identity and a high-confidence last civilian employer
+at the U.S. Securities and Exchange Commission. Official NARA, Defense
+Department/CIA Reading Room, and SEC sources support the finding. The SEC is
+not labeled his immediate pre-OSS affiliation because the reviewed sources do
+not supply the Army Reserve activation and OSS assignment chronology. The
+featured oil-company category remains evidence-scoped to **seven** people and
+appears above the personnel-directory controls. See
+`research/batch-614-progress.md`. No authenticated NARA Catalog request was
+made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,940** active
+people. Research-attempt coverage is **7,055/23,940 (29.4695%)**;
+verified-employer coverage is **276/23,940 (1.1529%)**;
+verified-affiliation coverage is **624/23,940 (2.6065%)**; archival-review
+coverage is **5,994/23,940 (25.0376%)**. There are **16,885** `not_started`
+people and **379** active possible-duplicate groups. SQLite retains **12,109**
+attempts or plans and **4,886** claims: 1,311 confirmed, 1,885 high, 1,373
+medium, 185 low, and 132 conflicting. It has **5,032** source/citation records
+and **2,359** unique source-document keys. The public projection has **2,216**
+affiliations, **701** organizations, **3,829** sources, and **4,697** claims.
+Full-index historical research remains unfinished.
+
 Batch 613 visually checked all **460** printed rows on PDF pages 201–210.
 Every row matches the immutable extraction. Because page 207 already had a
 complete-page decision, the durable ledger rises by nine to **175/522 pages**;

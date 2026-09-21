@@ -1,0 +1,177 @@
+{
+  "bundle_version": "2026-09-21-batch-614-v1",
+  "reviewer": "Before OSS research pipeline",
+  "sources": [
+    {
+      "key": "index-b614-william-v-holohan",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 344",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 213 row 44; William V Holohan; rendered at 180 dpi and visually inspected; rank Maj; Box 344; location 230/86/33/03",
+      "access_date": "2026-09-21",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "The public citation retains the indexed name, rank, box, and archival location while excluding the private identifier. The row establishes an indexed personnel file and supports identity resolution with the independent official sources."
+    },
+    {
+      "key": "nara-house-records-holohan-b614",
+      "stable_url": "https://www.archives.gov/legislative/guide/house/chapter-04.html",
+      "archival_identifier": "Records of the House Armed Services Committee, 82A-F2.3 and 84A-F2.8",
+      "title": "Guide to the Records of the U.S. House of Representatives at the National Archives, 1789-1989: Chapter 4",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": null,
+      "locator": "Section 4.114; description of the House investigation into Major William V. Holohan's disappearance while on OSS duty in Italy",
+      "access_date": "2026-09-21",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Armed Services Committee and Its Predecessors",
+      "rights_notes": "Official NARA archival guide used for identity and OSS-service context. The project paraphrases the description and retains the exact committee file-unit identifiers."
+    },
+    {
+      "key": "dod-memorandum-holohan-case-b614",
+      "stable_url": "https://www.cia.gov/readingroom/docs/CIA-RDP62-00631R000200030050-3.pdf",
+      "archival_identifier": "CIA-RDP62-00631R000200030050-3",
+      "title": "Memorandum on the Holohan Case",
+      "author_creator": "U.S. Department of Defense, Office of Public Information",
+      "repository_publisher": "Central Intelligence Agency Freedom of Information Act Electronic Reading Room",
+      "publication_record_date": "1951-08-15",
+      "locator": "First page; paragraphs identifying Major William V. Holohan, his OSS mission, education, SEC legal work, and reserve-officer status",
+      "access_date": "2026-09-21",
+      "source_quality": "A_direct_official",
+      "collection_name": "General CIA Records",
+      "rights_notes": "Official contemporary Defense Department memorandum preserved in the CIA Reading Room. The project retains only a short supporting excerpt and an evidence paraphrase."
+    },
+    {
+      "key": "sec-eleventh-annual-report-holohan-b614",
+      "stable_url": "https://www.sec.gov/files/1945.pdf",
+      "archival_identifier": "Eleventh Annual Report of the Securities and Exchange Commission",
+      "title": "Eleventh Annual Report of the Securities and Exchange Commission: Fiscal Year Ended June 30, 1945",
+      "author_creator": "U.S. Securities and Exchange Commission",
+      "repository_publisher": "U.S. Securities and Exchange Commission",
+      "publication_record_date": "1945",
+      "locator": "Front matter, printed page iv; Employees of the Securities and Exchange Commission in the Armed Services of the United States to July 30, 1945",
+      "access_date": "2026-09-21",
+      "source_quality": "A_direct_official",
+      "collection_name": "SEC Annual Reports",
+      "rights_notes": "Official agency annual report. The list independently identifies William V. Holohan as an SEC employee in the armed services; the project does not interpret the printed bullet symbol."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "us-securities-and-exchange-commission-b614",
+      "canonical_name": "U.S. Securities and Exchange Commission",
+      "historical_name": "Securities and Exchange Commission",
+      "aliases": ["Securities and Exchange Commission", "SEC"],
+      "organization_type": "federal government agency",
+      "sector": "federal_government",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "normalization_notes": "The historical agency name in both official sources is preserved. No successor organization is substituted."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "william-v-holohan-sec-b614",
+      "person_id": "d9962ab3-e93e-5613-9f03-7021a0f31b28",
+      "organization_key": "us-securities-and-exchange-commission-b614",
+      "organization_name_as_found": "Securities and Exchange Commission",
+      "role_title": "Attorney",
+      "occupation": "attorney",
+      "relationship_type": "employment",
+      "start_date": null,
+      "end_date": null,
+      "date_precision": "The 1951 Defense Department memorandum says Holohan had served as an SEC attorney; the SEC's 1945 annual report independently lists him among Commission employees in the armed services. Neither source supplies exact employment dates.",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The SEC is the last civilian employer documented in the reviewed official sources before Holohan's wartime military and OSS service. It is not labeled the immediate pre-OSS affiliation because the sources also identify military reserve status and do not supply the activation or assignment chronology."
+    }
+  ],
+  "claims": [
+    {
+      "key": "william-v-holohan-identity-b614",
+      "person_id": "d9962ab3-e93e-5613-9f03-7021a0f31b28",
+      "claim_type": "identity",
+      "claim_text": "The indexed Major William V Holohan is the OSS officer William V. Holohan documented by NARA and the Defense Department.",
+      "evidence_paraphrase": "The index prints the exact name and Major rank; NARA's House-records guide and the Defense Department memorandum independently identify Major William V. Holohan as an OSS officer serving in Italy.",
+      "identity_match_assessment": "High confidence from the distinctive exact name, matching Major rank, matching OSS context, and convergent official archival and contemporary records.",
+      "temporal_assessment": "The official sources converge on Holohan's 1944 OSS mission; the indexed Box 344 personnel file remains necessary for the exact accession and assignment chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The identity is supported by rank and service context in multiple official sources, not by name alone.",
+      "sources": [
+        {"source_key":"index-b614-william-v-holohan","support_type":"supports","locator_override":"PDF page 213 row 44; rank Maj; Box 344","excerpt_override":"HOLOHAN WILLIAM V Maj"},
+        {"source_key":"nara-house-records-holohan-b614","support_type":"supports","locator_override":"Section 4.114; committee files 82A-F2.3 and 84A-F2.8"},
+        {"source_key":"dod-memorandum-holohan-case-b614","support_type":"supports","locator_override":"First page; mission and biographical paragraphs"}
+      ]
+    },
+    {
+      "key": "william-v-holohan-sec-last-civilian-b614",
+      "person_id": "d9962ab3-e93e-5613-9f03-7021a0f31b28",
+      "affiliation_key": "william-v-holohan-sec-b614",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "The U.S. Securities and Exchange Commission was William V. Holohan's last documented civilian employer before his wartime military and OSS service.",
+      "evidence_excerpt": "had served as an attorney for the Securities and Exchange Commission",
+      "evidence_paraphrase": "A 1951 Defense Department memorandum identifies Holohan as a former SEC attorney, while the SEC's own 1945 annual report lists him among Commission employees in the armed services.",
+      "identity_match_assessment": "High confidence from the distinctive exact name, matching military status, and the separately established Major-and-OSS identity.",
+      "temporal_assessment": "Strongly date-bounded: both official sources place the SEC relationship before or across Holohan's transition into wartime service, but they do not establish the precise activation date or an uninterrupted immediate transition to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The SEC is presented as the last documented civilian employer, not as the immediate pre-OSS affiliation. The exact Army Reserve, active-duty, and OSS sequence remains an archival question.",
+      "sources": [
+        {"source_key":"dod-memorandum-holohan-case-b614","support_type":"supports","locator_override":"First page; biographical paragraph","excerpt_override":"had served as an attorney for the Securities and Exchange Commission"},
+        {"source_key":"sec-eleventh-annual-report-holohan-b614","support_type":"supports","locator_override":"Front matter, printed page iv; SEC employees in the armed services to July 30, 1945","excerpt_override":"WILLIAM V. HOLOHAN"},
+        {"source_key":"index-b614-william-v-holohan","support_type":"context_only","locator_override":"PDF page 213 row 44; Box 344"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "d9962ab3-e93e-5613-9f03-7021a0f31b28",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name William V Holohan and Major rank align with NARA's description of the House investigation and a Defense Department memorandum identifying Major William V. Holohan as an OSS officer in Italy. The SEC annual report independently connects the same distinctive name to the civilian employer.",
+      "name_variants": ["William V. Holohan", "Major William V. Holohan"],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 344 to document Holohan's Army Reserve activation, exact OSS assignment chronology, and whether any affiliation intervened after SEC employment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b614-william-v-holohan-official-source-review",
+      "person_id": "d9962ab3-e93e-5613-9f03-7021a0f31b28",
+      "source_adapter": "reviewed_web",
+      "query_text": "William V. Holohan OSS attorney Securities and Exchange Commission official archival sources",
+      "query_variant_type": "distinctive_name_official_employment_and_service_review",
+      "started_at": "2026-09-21T07:24:00Z",
+      "completed_at": "2026-09-21T07:37:30Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Contemporary Time coverage described Holohan as a lawyer but did not identify his civilian employer; a modern case-summary page discussed the wartime investigation but was unnecessary once official NARA, Defense Department, CIA Reading Room, and SEC records supplied the identity and employment evidence.",
+      "research_notes": "The review establishes the indexed Major's identity at high confidence and identifies the SEC as his last documented civilian employer. It deliberately does not label the SEC the immediate pre-OSS affiliation because the official sources mention reserve-officer status without giving the activation and assignment sequence.",
+      "next_action": "Review Box 344 for the precise Army Reserve, active-duty, and OSS chronology and any intervening government or military assignment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss/batch-614-v1"
+    }
+  ]
+}

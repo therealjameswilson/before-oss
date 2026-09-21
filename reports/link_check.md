@@ -1,5 +1,19 @@
 # Link check
 
+Batch 614 local validation, 2026-09-21 UTC: the isolated tracked-only build
+contains **24,675** HTML files and **24,747** total artifacts. Every internal
+link resolves, and the checker inventories **50,223** unique external URLs for
+the separate live check. The public-identifier audit compares **12,926**
+normalized identifiers and **120** formatted variants against all **24,747**
+artifacts, with zero unexpected full-number boundary matches. The local release
+verifier matches all **67** manifest-listed assets and **97,743,773** bytes at
+manifest SHA-256
+`d1c0101f509748d9332b38394947d631eb37621aadbab4b8374d5b1f3948816d`.
+Two consecutive clean builds reproduce the same production-tree SHA-256
+`c8aa4e20b30dd4aed81238f5506b6be6ece97a65f2ff5f7d5309d0873932bd43`.
+The unrelated untracked duplicate Sources route in the working checkout was
+preserved but excluded from this release validation.
+
 Batch 613 local validation, 2026-09-21 UTC: all internal links resolve across
 **24,699** locally built HTML files, including Charles Hitch's evidence profile,
 the separate Hoshide/Hoshicle and Hipp/Pipp review candidates, and the

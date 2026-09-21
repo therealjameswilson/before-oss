@@ -1,5 +1,17 @@
 # Accessibility and responsive QA
 
+Batch 614 local validation, 2026-09-21 UTC: the bounded release suite passed
+**81/81** desktop, phone, and tablet checks: 12 William Holohan, safe duplicate-
+group, and top oil-category checks; 33 core-route checks; six analysis checks;
+and 30 accessibility checks with no serious or critical axe violations. All
+**126** Python unit tests passed. The isolated tracked-only Astro build reported
+zero errors, warnings, or hints across **245** source files and built **24,675**
+static pages. Every internal link resolved, the 200-profile stratified
+structural audit passed, and two consecutive builds reproduced the same output
+tree digest. The structural audit is not the required 200-profile manual
+historical source audit. These local results do not establish CI or public
+deployment.
+
 Batch 613 local validation, 2026-09-21 UTC: the bounded release suite passed
 **81/81** desktop, phone, and tablet checks: 12 new Charles Hitch, separate
 Hoshide/Hoshicle and Hipp/Pipp, and oil-category checks; 33 core-route checks;
