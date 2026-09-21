@@ -1,0 +1,179 @@
+{
+  "bundle_version": "2026-09-21-batch-609-v1",
+  "reviewer": "Before OSS research pipeline",
+  "sources": [
+    {
+      "key": "index-b609-gerschenkron",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 269",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 166 row 31; Alexander Gerschenkron; rendered at 180 dpi and visually inspected; Box 269; location 230/86/31/06",
+      "access_date": "2026-09-21",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "The row contains no rank or private identifier. Its distinctive exact-name linkage is assessed with independent official and institutional sources."
+    },
+    {
+      "key": "congressional-record-1948-gerschenkron",
+      "stable_url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1948-pt2/pdf/GPO-CRECB-1948-pt2-16.pdf",
+      "archival_identifier": "Congressional Record, 80th Congress, 2nd Session, Senate, volume 94, part 2, page 2659",
+      "title": "Congressional Record—Senate",
+      "author_creator": "United States Congress",
+      "repository_publisher": "United States Government Publishing Office",
+      "publication_record_date": "1948-03-10",
+      "locator": "Page 2659, personnel statement for Alexander Gerschenkron",
+      "access_date": "2026-09-21",
+      "source_quality": "A_direct_official",
+      "collection_name": "Congressional Record Bound Edition",
+      "rights_notes": "The official statement identifies Gerschenkron's Federal Reserve position, age, degree, prior employment categories and Board start date. It does not describe his OSS duties or state whether the Board appointment was interrupted."
+    },
+    {
+      "key": "harvard-gerschenkron-papers",
+      "stable_url": "https://hollisarchives.lib.harvard.edu/catalog/hua46020",
+      "archival_identifier": "Harvard University Archives HUGFP 45",
+      "title": "Papers of Alexander Gerschenkron, 1940-1978: an inventory",
+      "author_creator": "Harvard University Archives",
+      "repository_publisher": "Harvard Library",
+      "publication_record_date": "collection processed 2012; finding aid updated 2025",
+      "locator": "Biographical note; government work in Washington, D.C.; Federal Reserve employment beginning in 1944",
+      "access_date": "2026-09-21",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Harvard University Archives",
+      "rights_notes": "The finding aid corroborates the distinctive identity and Federal Reserve role but does not itself mention OSS service."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "federal-reserve-board",
+      "canonical_name": "Board of Governors of the Federal Reserve System",
+      "historical_name": "Board of Governors of the Federal Reserve System",
+      "aliases": ["Federal Reserve Board", "Board of Governors"],
+      "organization_type": "federal agency",
+      "sector": "federal_government",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "normalization_notes": "The federal Board is kept distinct from the twelve regional Federal Reserve Banks."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "gerschenkron-federal-reserve-board-b609",
+      "person_id": "36062bdb-bd0c-5653-8b7e-6b0915258619",
+      "organization_key": "federal-reserve-board",
+      "organization_name_as_found": "Board of Governors of the Federal Reserve System",
+      "role_title": "European economic analyst",
+      "occupation": "economist",
+      "relationship_type": "government_assignment",
+      "start_date": "1944-02-29",
+      "end_date": null,
+      "date_precision": "The 1948 Congressional Record gives the exact Board start date; Harvard independently describes his 1944 acceptance of a European economic analyst position. Neither source states the dates or administrative relationship of his OSS service.",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Published as a documented pre-OSS government affiliation, not as the proven immediate predecessor. The physical personnel file is needed to establish whether the Board appointment continued during OSS service, involved a detail, or was interrupted."
+    }
+  ],
+  "claims": [
+    {
+      "key": "gerschenkron-identity-b609",
+      "person_id": "36062bdb-bd0c-5653-8b7e-6b0915258619",
+      "claim_type": "identity",
+      "claim_text": "The indexed Alexander Gerschenkron is the economist documented at the Federal Reserve Board beginning in 1944.",
+      "evidence_paraphrase": "The exact distinctive name in the OSS index matches the official federal personnel statement and Harvard archival biography in name, profession, degree and Washington career.",
+      "identity_match_assessment": "High confidence from a distinctive exact name plus consistent official and institutional biographical identifiers.",
+      "temporal_assessment": "The Board appointment is precisely dated; the OSS service dates and administrative relationship remain unestablished.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No rank or private identifier appears in the index, so identity is not labeled confirmed until the Box 269 file is compared.",
+      "sources": [
+        {"source_key":"index-b609-gerschenkron","support_type":"supports","locator_override":"PDF page 166 row 31; Box 269","excerpt_override":"GERSCHENKRON ALEXANDER"},
+        {"source_key":"congressional-record-1948-gerschenkron","support_type":"supports","locator_override":"Congressional Record page 2659"},
+        {"source_key":"harvard-gerschenkron-papers","support_type":"supports","locator_override":"Biographical note"}
+      ]
+    },
+    {
+      "key": "gerschenkron-federal-reserve-affiliation-b609",
+      "person_id": "36062bdb-bd0c-5653-8b7e-6b0915258619",
+      "affiliation_key": "gerschenkron-federal-reserve-board-b609",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Alexander Gerschenkron joined the Board of Governors of the Federal Reserve System as a European economic analyst in 1944.",
+      "evidence_excerpt": "Board of Governors of the Federal Reserve System since February 29, 1944.",
+      "evidence_paraphrase": "A 1948 official personnel statement dates his Board service to February 29, 1944; Harvard independently identifies the role as European economic analyst.",
+      "identity_match_assessment": "High confidence based on the distinctive exact name and consistent profession, degree and Washington chronology.",
+      "temporal_assessment": "Documented wartime affiliation beginning before the 1945 end of OSS, but not proven to be the immediate predecessor to OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Board is modeled as a government assignment, not a private employer. The public profile explicitly preserves the unresolved OSS transition.",
+      "sources": [
+        {"source_key":"congressional-record-1948-gerschenkron","support_type":"supports","locator_override":"Congressional Record page 2659","excerpt_override":"Board of Governors of the Federal Reserve System since February 29, 1944."},
+        {"source_key":"harvard-gerschenkron-papers","support_type":"supports","locator_override":"Biographical note; 1944 Federal Reserve appointment"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "36062bdb-bd0c-5653-8b7e-6b0915258619",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The distinctive exact index name is corroborated by an official 1948 federal personnel statement and Harvard's archival biography, which agree on profession, degree, Federal Reserve employer and Washington chronology.",
+      "name_variants": ["Alexander Gerschenkron", "Alexander P. Gerschenkron", "Gerschenkron, Alexander"],
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "The Federal Reserve Board affiliation is documented, but the immediate pre-OSS transition is not. Review Box 269 for the OSS entry date, branch, duties and whether the Board appointment continued, paused or ended.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b609-gerschenkron-official",
+      "person_id": "36062bdb-bd0c-5653-8b7e-6b0915258619",
+      "source_adapter": "reviewed_web",
+      "query_text": "Alexander Gerschenkron OSS Federal Reserve Board official government and archival sources.",
+      "query_variant_type": "distinctive_name_official_employment_review",
+      "started_at": "2026-09-21T05:05:00Z",
+      "completed_at": "2026-09-21T05:24:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Discovery-only biographies supplied an OSS-to-State sequence but were not used as final evidence; unrelated later citations were rejected.",
+      "research_notes": "The Congressional Record and Harvard finding aid independently establish the 1944 Federal Reserve Board affiliation. Neither proves the immediate OSS transition.",
+      "next_action": "Review Box 269 for exact OSS chronology and administrative relationship.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss/batch-609-v1"
+    },
+    {
+      "key": "b609-gerschenkron-cia-loc",
+      "person_id": "36062bdb-bd0c-5653-8b7e-6b0915258619",
+      "source_adapter": "cia_loc_review",
+      "query_text": "Alexander Gerschenkron exact-name CIA Reading Room, Library of Congress and institutional archival checks.",
+      "query_variant_type": "distinctive_name_official_archive_review",
+      "started_at": "2026-09-21T05:24:00Z",
+      "completed_at": "2026-09-21T05:33:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "CIA results were postwar bibliographic citations, and LoC results did not establish the indexed identity or employment chronology.",
+      "research_notes": "No official online source located the OSS service dates. The Federal Reserve affiliation remains published only as documented pre-OSS, not immediate.",
+      "next_action": "Review Box 269.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss/batch-609-v1"
+    }
+  ]
+}
