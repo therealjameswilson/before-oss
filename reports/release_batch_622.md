@@ -97,9 +97,24 @@ A clean tracked-only worktree passed the complete local release suite:
 
 ## Deployment
 
-Deployment will be completed only after the release commit passes the required
-GitHub test workflow and an unauthenticated verifier confirms the exact public
-artifact at <https://therealjameswilson.github.io/before-oss/>.
+Pull request [#345](https://github.com/therealjameswilson/before-oss/pull/345)
+passed its required test workflow and was merged to `main` as commit
+`abf6ebd6150d710912b80ae705926940eec09b2b`.
+
+The post-merge
+[Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/35620793366)
+passed in 4m10s, including the checked-in manifest and public-identifier audits.
+The corresponding
+[GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/35620793322)
+also passed and deployed the site.
+
+An unauthenticated verifier then resolved the live release to the exact merge
+commit and checked **8** required core routes, all **26** paginated source
+register routes, **24** directly affected profiles, and all **67**
+manifest-listed assets. It verified **98,054,812 bytes** with manifest SHA-256
+`8d56b6c1d4c8c7a570bf924b764813ccbcafa15e1baa436686109a1955eac1ae`.
+The public release is available at
+<https://therealjameswilson.github.io/before-oss/>.
 
 ## Resume
 
