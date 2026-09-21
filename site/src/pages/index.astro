@@ -34,6 +34,9 @@ const oilCompanyCategory = oilCompanyEmployees(organizations as Organization[]);
         </p>
         <div class="hero__actions">
           <a class="button" href={`${base}people/`}>Explore the directory</a>
+          <a class="button button--ghost" href={`${base}oil-companies/`}>
+            Oil-company workers ({oilCompanyCategory.employees.length})
+          </a>
           <a class="button button--ghost" href={`${base}methodology/`}>
             Read the methodology
           </a>

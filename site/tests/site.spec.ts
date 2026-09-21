@@ -76,7 +76,7 @@ test("featured oil-company category lists cited work relationships only", async 
   await page.goto("./people/");
   await expect(
     page.getByRole("navigation", { name: "Primary navigation" })
-      .getByRole("link", { name: "Oil company work", exact: true }),
+      .getByRole("link", { name: "Oil-company workers", exact: true }),
   ).toHaveAttribute("href", /oil-companies\/$/);
   const category = page.getByRole("region", { name: "People who worked for oil companies" });
   await expect(category).toBeVisible();
@@ -158,9 +158,15 @@ test("published source register has small, directly addressable static pages", a
 
 test("top oil-company category link opens only the documented employee set", async ({ page }) => {
   await page.goto("./");
+  const navigation = page.getByRole("navigation", { name: "Primary navigation" });
+  await expect(navigation.getByRole("link").first())
+    .toHaveText("Oil-company workers");
+  await expect(page.locator(".hero__actions").getByRole("link", {
+    name: `Oil-company workers (${oilCompanyPeople.size})`,
+  })).toHaveAttribute("href", /oil-companies\/$/);
   await page
     .getByRole("navigation", { name: "Primary navigation" })
-    .getByRole("link", { name: "Oil company work", exact: true })
+    .getByRole("link", { name: "Oil-company workers", exact: true })
     .click();
 
   await expect(page).toHaveURL(/oil-companies\/$/);
