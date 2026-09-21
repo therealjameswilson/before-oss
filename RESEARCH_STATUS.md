@@ -1,5 +1,34 @@
 # Research status
 
+Batch 604 rechecked all 46 printed rows on PDF page 136, which was already
+in the sampled visual-review ledger. The distinct total remains **107/522
+pages**; **415** remain. All 46
+people on that page received one bounded, read-only Library of Congress
+first-pass search. The newspaper-page hits remain unreviewed discovery leads,
+not employer proof or completed research protocols. Two spelling-variant
+pairs, Emond/Enond and Engl/England, were flagged as possible duplicates
+without merging either row or person. Contemporary Dartmouth accounts
+identify [Van Harvey English](https://therealjameswilson.github.io/before-oss/people/a1b5cb3b-8221-5bf4-ac6a-2cdf45dbab56/)
+with the indexed OSS captain, but do not name a pre-OSS employer; they also
+disagree on his Colorado State graduation year. The Smithsonian's Robert
+Kendall Enders and Phillips Petroleum's Paul Endacott were rejected as
+unbridged namesake/employer leads for the indexed Robert K Enders and John L
+Endacott. The top oil-company category remains six cited employees. See
+`research/batch-604-progress.md`. No authenticated NARA Catalog request was
+made.
+
+Current local SQLite has **23,978/23,978** linked source rows and **23,940**
+active people. Research-attempt coverage is **6,459/23,940 (26.9799%)**;
+verified-employer coverage is **271/23,940 (1.1320%)**; verified-affiliation
+coverage is **617/23,940 (2.5773%)**; archival-review coverage is
+**5,764/23,940 (24.0769%)**. There are **17,481** `not_started` people and
+**279** possible-duplicate groups. SQLite retains **11,502** attempts or
+plans and **4,865** claims: 1,311 confirmed, 1,868 high, 1,369 medium,
+185 low, and 132 conflicting. It has 4,997 source/citation records and
+2,326 unique source-document keys. The public projection has 2,202
+affiliations, 693 organizations, 3,794 sources, and 4,676 claims. Full-index
+historical research remains unfinished.
+
 Batch 603 visually checked all 46 printed source rows on PDF page 135,
 bringing the distinct visual-review ledger to **107/522 pages**; **415**
 remain. Bounded, read-only Library of Congress searches now cover all

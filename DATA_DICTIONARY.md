@@ -31,8 +31,9 @@ assets are generated projections.
 | `api_usage_monthly` | One adapter-month | Persistent successful and failed request counts |
 | `page_qa` | One PDF page | Row counts, anomaly flags, render path, and visual review state |
 
-`research/parser_visual_review_decisions.json` is a versioned replay artifact
-for the 83 visually audited pages. It records 63 matching-page decisions and
+`research/parser_visual_review_decisions.json` is the base versioned replay
+artifact for 83 visually audited pages; page-specific review bundles bring
+the current distinct total to 107. The base file records 63 matching-page decisions and
 23 row-specific normalized-field corrections across 20 pages, together with
 the frozen PDF hash, expected raw cells, reviewer, timestamps, and notes.
 Multiple corrections may occur on one page, but every page-row coordinate must

@@ -1,0 +1,42 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 604 original-index variant review",
+  "person_updates": [
+    {
+      "person_id": "d4d89487-a8f1-5a61-98d8-7bcd8a064c9c",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 136 row 14 prints Rudolphe J Emond with an identifier in Box 219; row 45 prints Rudolphe J Enond without an identifier in Box 221. The rare shared given name and middle initial plus one-letter surname difference are a possible spelling-variant lead, not proof that the two files concern one person.",
+      "possible_duplicate_group": "p136-emond-enond-rudolphe-j-b604",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 219 and Box 221 files and seek a direct identifier crosswalk before any merge or employer transfer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2752a201-e638-5c92-8f43-879847ec43ca",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 136 row 45 prints Rudolphe J Enond without an identifier in Box 221; row 14 prints Rudolphe J Emond with an identifier in Box 219. The spelling difference and separate boxes remain unresolved; neither row is silently corrected to the other.",
+      "possible_duplicate_group": "p136-emond-enond-rudolphe-j-b604",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 219 and Box 221 files and seek a direct identifier crosswalk before any merge or employer transfer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "54052f1b-2a7a-51d8-8a17-0c105f509f3b",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 136 rows 32 and 33 print George W Engl and George W England in Box 220. The Engl row has an identifier; the England row has none. Shared given name, initial, and box plus similar surnames warrant comparison, but do not establish one person.",
+      "possible_duplicate_group": "p136-engl-england-george-w-b604",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 220 entries and the Engl identifier; retain separate source rows and entities until direct evidence resolves the surname.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "10ad95f6-d07e-5590-9b31-c7561d6d0542",
+      "identity_status": "ambiguous",
+      "identity_evidence": "NARA PDF page 136 rows 32 and 33 print George W Engl and George W England in Box 220. Only the Engl row has an identifier. The similar names are a potential spelling-variant lead, not a verified duplicate or correction.",
+      "possible_duplicate_group": "p136-engl-england-george-w-b604",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 220 entries and the Engl identifier; retain separate source rows and entities until direct evidence resolves the surname.",
+      "archival_review_priority": "high"
+    }
+  ]
+}
