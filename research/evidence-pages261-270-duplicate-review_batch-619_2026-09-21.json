@@ -1,0 +1,411 @@
+{
+  "bundle_version": "2026-09-21-batch-619-duplicate-review-v1",
+  "reviewer": "Before OSS batch 619 original-index variant review",
+  "person_updates": [
+    {
+      "person_id": "c9689f09-1e75-518b-bda3-77fb7592b506",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Page 267 prints two Reynold W Larson rows with the same name, technical-grade rank, and private identifier but distinct Box 433 and Box 434 references. The existing cautious entity link is strongly supported, while both source rows remain immutable.",
+      "possible_duplicate_group": "p267-reynold-w-larson-b619",
+      "manual_review_required": true,
+      "next_action": "Compare the Box 433 and Box 434 files to explain the duplicate index entries and differing box references.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "722b7664-7dc8-5876-ba62-bbf1e86c35e6",
+      "identity_status": "conflicting",
+      "identity_evidence": "Walter M Kuznecoff on page 261 and James Volosen on page 485 have substantially different names and box references but share a private identifier. The collision is preserved without merging or transferring facts.",
+      "possible_duplicate_group": "p261-p485-kuznecoff-volosen-b619",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 425 and 807 and the identifier-bearing records to determine whether the collision reflects an index error, reused identifier, or two people.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "752029e7-cc27-5f1c-b486-30108e4126ee",
+      "identity_status": "conflicting",
+      "identity_evidence": "James Volosen on page 485 and Walter M Kuznecoff on page 261 have substantially different names and box references but share a private identifier. The collision is preserved without merging or transferring facts.",
+      "possible_duplicate_group": "p261-p485-kuznecoff-volosen-b619",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 425 and 807 and the identifier-bearing records to determine whether the collision reflects an index error, reused identifier, or two people.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b2d178b9-b3c2-515a-aaa5-c1d3681ebe3b",
+      "identity_status": "conflicting",
+      "identity_evidence": "Page 263 prints Nickolas S Lallas as a sergeant and Howard F Lalonoe as a staff sergeant with the same private identifier. The different names and ranks create an unresolved index conflict.",
+      "possible_duplicate_group": "p263-lallas-lalonoe-b619",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 428 files and the identifier-bearing records for authoritative names, dates, ranks, and assignments.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e9cfccdd-0d72-58eb-828b-e93d50b13153",
+      "identity_status": "conflicting",
+      "identity_evidence": "Page 263 prints Howard F Lalonoe as a staff sergeant and Nickolas S Lallas as a sergeant with the same private identifier. Neither entity receives facts from the other.",
+      "possible_duplicate_group": "p263-lallas-lalonoe-b619",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 428 files and the identifier-bearing records for authoritative names, dates, ranks, and assignments.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "de2c8d87-c7f8-5967-896c-4f915870be0e",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Louis A Lecalvez on page 270 and Louis A Legalvez on page 271 share a private identifier but use one-letter surname variants, different rank abbreviations, and different boxes. This is strong duplicate evidence but not sufficient for an automatic merge.",
+      "possible_duplicate_group": "p270-p271-louis-a-lecalvez-legalvez-b619",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 440 and 443 for authoritative surname spelling, rank history, and an explanation of the differing box references.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "cc98b9e9-cf27-5e4f-a551-b6f32adfc94c",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Louis A Legalvez on page 271 and Louis A Lecalvez on page 270 share a private identifier but use one-letter surname variants, different rank abbreviations, and different boxes. Both spellings remain separate pending file review.",
+      "possible_duplicate_group": "p270-p271-louis-a-lecalvez-legalvez-b619",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 440 and 443 for authoritative surname spelling, rank history, and an explanation of the differing box references.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5ca01b4e-a215-5a0a-9f08-cd166c938c39",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Kute Braho on page 49 and Braho Kute on page 261 share a private identifier but reverse the apparent given and family names and point to different boxes. The variant is not merged without archival confirmation.",
+      "possible_duplicate_group": "p49-p261-braho-kute-b619",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 76 and 425 for the authoritative name order, dates, and assignments before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b9525047-8e49-510f-a899-1238519988b7",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Braho Kute on page 261 and Kute Braho on page 49 share a private identifier but reverse the apparent given and family names and point to different boxes. Both printed forms remain recoverable.",
+      "possible_duplicate_group": "p49-p261-braho-kute-b619",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 76 and 425 for the authoritative name order, dates, and assignments before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e2e4690d-9d41-53ff-96c2-0eeff7798b89",
+      "identity_status": "conflicting",
+      "identity_evidence": "Page 269 prints John G Lawton as a private and Oscar J Lax as a private first class with the same private identifier and different boxes. The substantially different names make this an unresolved index conflict.",
+      "possible_duplicate_group": "p269-lawton-lax-b619",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 437 and 438 and the identifier-bearing records to determine whether the collision is an index error, reused identifier, or two people.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "37fccf8f-54be-547d-b7a7-0b2edd06f719",
+      "identity_status": "conflicting",
+      "identity_evidence": "Page 269 prints Oscar J Lax as a private first class and John G Lawton as a private with the same private identifier and different boxes. No identity or employment facts are transferred between the entities.",
+      "possible_duplicate_group": "p269-lawton-lax-b619",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 437 and 438 and the identifier-bearing records to determine whether the collision is an index error, reused identifier, or two people.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "a5394b03-11e9-51ae-bc66-d383f47280c4",
+      "identity_status": "conflicting",
+      "identity_evidence": "Page 263 prints Dominic P Lalli and Alfred J Lalotte with different names and technical grades but the same private identifier in Box 428. The collision remains explicit and unresolved.",
+      "possible_duplicate_group": "p263-lalli-lalotte-b619",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 428 files and the identifier-bearing records for authoritative names, ranks, dates, and assignments.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "8330aa69-f666-5dc6-bb18-01c3024fabf1",
+      "identity_status": "conflicting",
+      "identity_evidence": "Page 263 prints Alfred J Lalotte and Dominic P Lalli with different names and technical grades but the same private identifier in Box 428. Both people remain separate.",
+      "possible_duplicate_group": "p263-lalli-lalotte-b619",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 428 files and the identifier-bearing records for authoritative names, ranks, dates, and assignments.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "686e9d41-9b28-5fe4-9739-240c8adff5e4",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Clinton Langhead on page 265 and Clinton B Laughead Jr. on page 267 share a private identifier, but the surname spelling, middle initial, suffix, rank, and box references differ. The index strongly suggests a variant while leaving material discrepancies.",
+      "possible_duplicate_group": "p265-p267-clinton-langhead-laughead-b619",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 431 and 435 for authoritative spelling, full name, suffix, rank history, and assignments before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "046afbb9-8c96-5bdb-af94-a4e46fbc82cc",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Clinton B Laughead Jr. on page 267 and Clinton Langhead on page 265 share a private identifier, but the surname spelling, middle initial, suffix, rank, and box references differ. Both entries remain distinct pending archival review.",
+      "possible_duplicate_group": "p265-p267-clinton-langhead-laughead-b619",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 431 and 435 for authoritative spelling, full name, suffix, rank history, and assignments before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "cdc831ac-143b-5d53-8fbd-34cacb1118d0",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 261 prints Mary C Kuschke with a private identifier and Mary Kuschke without a middle initial or identifier in the same box. The repeated name and box are suggestive but not conclusive.",
+      "possible_duplicate_group": "p261-mary-kuschke-b619",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 424 files for full name, dates, assignments, and identifier context before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "cc7c4dea-3a00-5810-a32f-a845d625b772",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 261 prints Mary Kuschke without a middle initial or private identifier beside Mary C Kuschke with both in Box 424. Both entities remain separate pending file review.",
+      "possible_duplicate_group": "p261-mary-kuschke-b619",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 424 files for full name, dates, assignments, and identifier context before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "49efc4ca-3dee-5a4b-a150-ce86b51f9b23",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 265 prints John C. E. Lane without rank or private identifier and John L Lane as a technical-grade soldier with a private identifier in Box 430. The middle-name and service differences prevent a merge.",
+      "possible_duplicate_group": "p265-john-lane-b619",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 430 files for full middle names, dates, service history, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "da3fef09-740a-5600-8ed5-48838d35bf7c",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 265 prints John L Lane as a technical-grade soldier with a private identifier and John C. E. Lane without either field in Box 430. Similar first and last names alone do not identify one person.",
+      "possible_duplicate_group": "p265-john-lane-b619",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 430 files for full middle names, dates, service history, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "81bddc5d-c28a-545f-ae20-5d7ac23b387b",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 265 prints Robert A Lane without rank, suffix, or private identifier and Robert A. Lane Jr. as a master sergeant with a private identifier in Box 430. The suffix and service differences require file review.",
+      "possible_duplicate_group": "p265-robert-a-lane-b619",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 430 files for suffix, birth date, rank history, assignments, and identifier context.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e11cd4bb-4c54-5ace-965b-f77a624ddd13",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 265 prints Robert A. Lane Jr. as a master sergeant with a private identifier and Robert A Lane without those fields in Box 430. The entries remain separate despite their similar names.",
+      "possible_duplicate_group": "p265-robert-a-lane-b619",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 430 files for suffix, birth date, rank history, assignments, and identifier context.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "80750d56-b668-5309-8e01-1ded55cdfb03",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 265 prints Robert P Lang as a private first class and Robert E Lang as a first lieutenant with different private identifiers in Box 431. The middle-initial, rank, and identifier differences support keeping them separate.",
+      "possible_duplicate_group": "p265-robert-lang-b619",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 431 files for full middle names, birth dates, service histories, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9d597ca8-bb8b-5928-99e7-0d8580dfd4c2",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 265 prints Robert E Lang as a first lieutenant and Robert P Lang as a private first class with different private identifiers in Box 431. No facts are transferred between the probable namesakes.",
+      "possible_duplicate_group": "p265-robert-lang-b619",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 431 files for full middle names, birth dates, service histories, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d59da2f7-5dda-55ff-a9be-eed0f739ce82",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 266 prints Evelyn Larsen without a middle initial, rank, or private identifier and Evelyn H Larsen as CAF-6, also without an identifier, in Box 433. The added initial and grade are insufficient to prove duplication.",
+      "possible_duplicate_group": "p266-evelyn-larsen-b619",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 433 files for full name, grade history, dates, and assignments before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "105f98f4-6d7c-56b7-9082-0876ee6c6a5a",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 266 prints Evelyn H Larsen as CAF-6 beside Evelyn Larsen without an initial or grade in Box 433; neither row has a private identifier. Both entities remain separate pending file review.",
+      "possible_duplicate_group": "p266-evelyn-larsen-b619",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 433 files for full name, grade history, dates, and assignments before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c020a75d-1470-5055-b32f-37d6cb2bebc4",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 268 prints Richard L Lawrence as a lieutenant commander and Richard A Lawrence without a rank, each with a different private identifier in Box 437. The middle-initial, rank, and identifier differences require distinct entities.",
+      "possible_duplicate_group": "p268-richard-lawrence-b619",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 437 files for full middle names, branches, birth dates, and service histories.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c72ec22f-c352-580b-873e-7eac3219ab28",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 268 prints Richard A Lawrence without a rank and Richard L Lawrence as a lieutenant commander, each with a different private identifier in Box 437. The shared first and last names do not outweigh those differences.",
+      "possible_duplicate_group": "p268-richard-lawrence-b619",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 437 files for full middle names, branches, birth dates, and service histories.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b935120a-c0cb-5c8e-88e2-6445a84d4f59",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 268 prints Robert G Lawson as a technical-grade soldier with a private identifier and Robert W Lawson as civilian personnel without an identifier in Box 437. The different middle initials and personnel categories support separate entities.",
+      "possible_duplicate_group": "p268-robert-lawson-b619",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 437 files for full middle names, dates, civilian or military histories, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "aa53a5d3-579b-50a1-ab4a-d58fa484e039",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 268 prints Robert W Lawson as civilian personnel without a private identifier and Robert G Lawson as a technical-grade soldier with one in Box 437. Neither identity nor employment evidence is transferred between them.",
+      "possible_duplicate_group": "p268-robert-lawson-b619",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 437 files for full middle names, dates, civilian or military histories, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "efeee327-c712-59da-b3c9-a1a54b6e502c",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 268 prints William C Lawson as a private and William E Lawson as a second lieutenant with different private identifiers in Box 437. The middle-initial, rank, and identifier differences require separate entities.",
+      "possible_duplicate_group": "p268-william-lawson-b619",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 437 files for full middle names, birth dates, service histories, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "dd27d5d6-f877-5f11-853d-28183bce7cdd",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 268 prints William E Lawson as a second lieutenant and William C Lawson as a private with different private identifiers in Box 437. Identical first and last names do not establish duplication.",
+      "possible_duplicate_group": "p268-william-lawson-b619",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 437 files for full middle names, birth dates, service histories, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6c5e9175-7925-520a-abf6-f19d977fa102",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 269 prints William H Leathers without a rank or private identifier and William R Leathers as a first lieutenant with an identifier in Box 439. The middle-initial and service differences prevent a merge.",
+      "possible_duplicate_group": "p269-william-leathers-b619",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 439 files for full middle names, birth dates, ranks, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4c1c53b1-e80c-512c-9957-f2276b8d29b1",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 269 prints William R Leathers as a first lieutenant with a private identifier and William H Leathers without either field in Box 439. Both entities remain separate pending archival review.",
+      "possible_duplicate_group": "p269-william-leathers-b619",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 439 files for full middle names, birth dates, ranks, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "32a15e86-58ec-5349-9ef9-b06178a0a72b",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 270 prints Frank C Lee and Frank M Lee as privates with different private identifiers in Box 441. The middle-initial and identifier differences establish that facts must not be conflated.",
+      "possible_duplicate_group": "p270-frank-lee-b619",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 441 files for full middle names, birth dates, service histories, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7f2951b7-9e97-577e-876a-8ce0b3a8537c",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 270 prints Frank M Lee and Frank C Lee as privates with different private identifiers in Box 441. Both namesakes remain distinct and receive independent research histories.",
+      "possible_duplicate_group": "p270-frank-lee-b619",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 441 files for full middle names, birth dates, service histories, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fc82c866-54f8-53c7-94ed-abca2bcf3cd2",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 262 prints Louis J Lacabanne and Louis J Ladabanne in Box 426 without ranks or private identifiers. The one-letter surname difference is a plausible index variant, not proof of one person.",
+      "possible_duplicate_group": "p262-louis-j-lacabanne-ladabanne-b619",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 426 files for authoritative surname spelling, dates, and assignments before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4e8538c2-9a5b-55c6-89b8-a3211e84ccdd",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 262 prints Louis J Ladabanne and Louis J Lacabanne in Box 426 without ranks or private identifiers. Both spellings remain separate pending file review.",
+      "possible_duplicate_group": "p262-louis-j-lacabanne-ladabanne-b619",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 426 files for authoritative surname spelling, dates, and assignments before merging.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "14bd806d-6837-5f9c-a696-d73726e915ab",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 264 prints Hans H Landesberg without a rank or private identifier and Hans H Landsberg as a first lieutenant with an identifier in Box 430. The surname variant is plausible but not enough for a merge.",
+      "possible_duplicate_group": "p264-hans-h-landesberg-landsberg-b619",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 430 files for authoritative surname spelling, rank history, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "cba12726-c888-52df-8fa6-4f23e3b92acd",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Page 264 prints Hans H Landsberg as a first lieutenant with a private identifier and Hans H Landesberg without either field in Box 430. Both entities remain separate pending file review.",
+      "possible_duplicate_group": "p264-hans-h-landesberg-landsberg-b619",
+      "manual_review_required": true,
+      "next_action": "Compare both Box 430 files for authoritative surname spelling, rank history, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "86573cf9-6cec-5c0c-8d7c-1a3b0d12a7e0",
+      "identity_status": "ambiguous",
+      "identity_evidence": "William F Larsen on page 266 is a captain with a private identifier in Box 433, while William F Larson on page 267 is a first lieutenant without an identifier in Box 434. The one-letter surname variant is offset by rank and box differences.",
+      "possible_duplicate_group": "p266-p267-william-f-larsen-larson-b619",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 433 and 434 for authoritative surname spelling, rank chronology, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fef4e9a1-76e4-585a-9383-7d229283b5fc",
+      "identity_status": "ambiguous",
+      "identity_evidence": "William F Larson on page 267 is a first lieutenant without a private identifier in Box 434, while William F Larsen on page 266 is a captain with an identifier in Box 433. Both entities remain separate pending file review.",
+      "possible_duplicate_group": "p266-p267-william-f-larsen-larson-b619",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 433 and 434 for authoritative surname spelling, rank chronology, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0dd41dc4-ef2a-5a9a-bba2-7db077ea7c18",
+      "identity_status": "ambiguous",
+      "identity_evidence": "John F Knock on page 254 has no rank or private identifier in Box 413, while John F Kwock on page 262 is a captain with an identifier in Box 425. The one-letter surname variant is plausible but the service and box differences require review.",
+      "possible_duplicate_group": "p254-p262-john-f-knock-kwock-b619",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 413 and 425 for authoritative surname spelling, rank history, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4912124e-a45a-54ba-833b-867694e10124",
+      "identity_status": "ambiguous",
+      "identity_evidence": "John F Kwock on page 262 is a captain with a private identifier in Box 425, while John F Knock on page 254 has neither field in Box 413. Both printed forms remain separate pending archival review.",
+      "possible_duplicate_group": "p254-p262-john-f-knock-kwock-b619",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 413 and 425 for authoritative surname spelling, rank history, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6eaff9c0-8782-5c99-b715-1a1bb884be15",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Edmund J Laudie on page 267 has no rank or private identifier in Box 435, while Edmund J Lavoie on page 268 is a sergeant with an identifier in Box 436. The similar surname shapes are only a lead, not a basis for merging.",
+      "possible_duplicate_group": "p267-p268-edmund-j-laudie-lavoie-b619",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 435 and 436 for authoritative surname spelling, rank history, dates, and assignments.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "facc664d-c5b6-5f57-b41a-2ddae929f925",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Edmund J Lavoie on page 268 is a sergeant with a private identifier in Box 436, while Edmund J Laudie on page 267 has neither field in Box 435. Both entities remain separate pending archival review.",
+      "possible_duplicate_group": "p267-p268-edmund-j-laudie-lavoie-b619",
+      "manual_review_required": true,
+      "next_action": "Compare Boxes 435 and 436 for authoritative surname spelling, rank history, dates, and assignments.",
+      "archival_review_priority": "high"
+    }
+  ]
+}
