@@ -79,8 +79,24 @@ A clean tracked-only worktree passed the complete local release suite:
 
 ## Deployment
 
-Pending commit, pull request, required checks, merge, Pages deployment, and
-unauthenticated verification of the exact public artifact.
+Pull request [#341](https://github.com/therealjameswilson/before-oss/pull/341)
+passed the required pre-merge Test workflow
+([run 35606318681](https://github.com/therealjameswilson/before-oss/actions/runs/35606318681))
+and merged as commit
+`9e43b92806db5d8030cedca5370c183880bc5a8e`. The post-merge Test workflow
+([run 35606831808](https://github.com/therealjameswilson/before-oss/actions/runs/35606831808))
+and GitHub Pages workflow
+([run 35606831687](https://github.com/therealjameswilson/before-oss/actions/runs/35606831687))
+both completed successfully.
+
+Unauthenticated verification of the deployed commit at
+<https://therealjameswilson.github.io/before-oss/> matched all **67**
+manifested assets totaling **98,024,897 bytes**, the manifest SHA-256 above,
+**8** core routes, and **26** paginated source-register routes. Direct live
+checks also confirmed the seven-person oil-company category and four Batch 620
+variant/conflict profiles: Frank Lindsay, Franklin A Lindsay, Stacey Lloyd,
+and Kwong W Lo. The public release is therefore verified against the exact
+merged commit rather than only a local build.
 
 ## Resume
 
