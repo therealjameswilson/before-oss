@@ -1,0 +1,8 @@
+{
+  "bundle_version": "parser-visual-review-v1",
+  "source_pdf_sha256": "7268492342ab131d3b6d2697cfa4f6856cbdcd16e0ed3877e8d6a0478f58c02b",
+  "reviewer": "Codex pages 161-170 visual audit",
+  "matching_pages_reviewed_at": "2026-09-21T05:05:00Z",
+  "matching_pages_notes": "Original PDF pages 161-170 were rendered at 180 dpi and all 460 printed rows were compared with immutable source records for row order, indexed name and initials, rank, private-identifier column occupancy, box, notes, and archive location. Pages 162 and 170 had already passed visual review and retain their earlier reviewed_after_correction and reviewed_matches decisions, rather than being overwritten. The eight newly reviewed pages are 161 and 163-169; no extraction correction was needed. Page 161 preserves the clipped 'Polish Ar' note and the indexed spellings Gano, Garat de Nedd, and Garbuny. Page 164 retains two Peter G Gavreledes rows, the Eldred D/E Gegenheimer pair, and Rachel Geise as separate printed records. Page 165 retains two Joseph A Gengerelli rows with different rank and private-identifier occupancy. Page 166 preserves two George Gerbner rows with different private identifiers, the Fred Gercke/Gerke spelling pair, and the printed 'Herbet H Gersten' spelling. Page 167 preserves the Lawrence J Gibbeney/Gibboney and Hoyt B Gibbon/Gibbons pairs. Page 168 preserves Rachel Giese as printed. Page 169 preserves the clipped 'also AS' note and Cmdr rank. The complete ten-page comparison also confirmed page 162's numeric rank-column value and page 170's two Walker F Givan rows with different private identifiers. Private identifiers are not included in this bundle or public assets.",
+  "reviewed_matching_pages": [161, 163, 164, 165, 166, 167, 168, 169]
+}

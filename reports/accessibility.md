@@ -6305,3 +6305,13 @@ possible-duplicate groups, Jerome E Demontesante's conflict, and the separation
 of Eugene W. DeMoore's Army assignment from his unnamed civil-engineering
 employment question. All 27 axe scans report no serious violations; the large
 Sources route completes in 25.8-30.7 seconds.
+
+## Batch 609 accessibility and responsive regression
+
+The bounded release suite passed **81 / 81** checks: 12 Batch 609 profile and
+boundary assertions, 33 core route and interaction checks, 6 analysis checks,
+and 30 axe scans. The matrix covers desktop, phone, and tablet widths. It
+verifies Alexander Gerschenkron's qualified earlier Federal Reserve
+affiliation, both George Gerbner profiles, the Rachel Geise/Giese variant pair,
+and the seven-person oil-company category. All 30 axe scans reported no serious
+violations.

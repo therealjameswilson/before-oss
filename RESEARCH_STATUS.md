@@ -1,5 +1,29 @@
 # Research status
 
+Batch 609 visually checked all **460** printed rows on PDF pages 161–170,
+bringing the distinct ledger to **137/522 pages**; **385** remain. Nine new
+possible-duplicate or spelling-variant groups remain separate, including three
+pairs with different private identifiers. A bounded LoC first pass completed
+**46** page-144 searches and created or revisited **14** unreviewed
+newspaper-page leads. [Alexander Gerschenkron](https://therealjameswilson.github.io/before-oss/people/36062bdb-bd0c-5653-8b7e-6b0915258619/)
+now has a high-confidence documented 1944 Federal Reserve Board affiliation,
+but the profile does not call it the immediate pre-OSS assignment because the
+online sources do not establish that transition. The top oil-company workers
+category remains **seven** people. See `research/batch-609-progress.md`. No
+authenticated NARA Catalog request was made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,940** active
+people. Research-attempt coverage is **6,823/23,940 (28.5004%)**;
+verified-employer coverage is **271/23,940 (1.1320%)**; verified-affiliation
+coverage is **619/23,940 (2.5856%)**; archival-review coverage is
+**5,828/23,940 (24.3442%)**. There are **17,117** `not_started` people and
+**306** possible-duplicate groups. SQLite retains **11,875** attempts or plans
+and **4,872** claims: 1,311 confirmed, 1,871 high, 1,373 medium, 185 low, and
+132 conflicting. It has **5,018** source/citation records and **2,345** unique
+source-document keys. The public projection has **2,208** affiliations,
+**695** organizations, **3,815** sources, and **4,683** claims. Full-index
+historical research remains unfinished.
+
 Batch 608 visually checked all **460** printed rows on PDF pages 151–160,
 bringing the distinct ledger to **129/522 pages**; **393** remain. Ten new
 possible-duplicate or spelling-variant groups remain separate, including two
