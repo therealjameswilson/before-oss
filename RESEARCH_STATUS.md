@@ -1,36 +1,36 @@
 # Research status
 
-Batch 640 visually checked all **460** printed rows on PDF pages 471-480.
-None was already in the complete-page ledger, so visual review now covers
-**398/522 pages** and **18,274/23,978 rows**, with 18,242 matching rows, 32
-reviewed corrections, and 5,704 still awaiting complete visual comparison.
-The page-310 `James A. McGuire` through `Henry D. McIntosh` queue saved a
-Library of Congress outcome for all 23 people and reviewed all 16 item
-candidates. Every newspaper lead was rejected as a conflicting name or
-initial, a postwar reference, or an unbridged common-name result. Two official
-Army bulk crosswalks received high-confidence identity decisions from
-nonshared protected identifiers and exact normalized names. Loughlin G.
-McHugh remains conflicting because the Army record prints middle initial F,
-and Thomas F. McGuire remains conflicting because his printed identifier
-points to Robert N. Durbin. The two adjacent Carolyn McIntosh rows remain
-separate entities. Army entry dates, grades, and occupation codes remain
-identity context, not employer evidence. Erie McIlhenny's blocked and timeout
-outcomes remain explicit access failures rather than negative results. The
-queue ends with 21 `in_progress` and two `conflicting_sources`. The featured
-oil-company category remains evidence-scoped to **seven** people across nine
-companies. See `research/batch-640-progress.md`. No authenticated NARA Catalog
-request was made.
+Batch 641 visually checked all **460** printed rows on PDF pages 481-490.
+Pages 481, 486, and 489 were already in the deterministic random audit, so the
+batch adds seven pages and 322 rows to the durable ledger: **405/522 pages**
+and **18,596/23,978 rows** are now reviewed, with 18,564 matching rows, 32
+reviewed corrections, and 5,382 still awaiting complete visual comparison.
+The page-311 `Eugene F. McKee` through `William F. McKiernan` queue saved a
+Library of Congress outcome for all 23 people and reviewed all 12 new
+newspaper candidates. Every newspaper lead was rejected as a conflicting
+name or initial, postwar result, spouse-form reference, or unbridged
+common-name result. Five official Army bulk crosswalks received
+high-confidence identity decisions from nonshared protected identifiers and
+exact normalized names. James A. McKenskey remains conflicting because his
+printed identifier points to Philip Cappella. The two adjacent Lieutenant
+Colonel Stewart L. McKenney rows remain separate ambiguous entities because
+their protected identifiers differ. Army entry dates, grades, and occupation
+codes remain identity context, not employer evidence. The queue ends with 20
+`in_progress`, two `needs_identity_review`, and one `conflicting_sources`.
+The featured oil-company category remains evidence-scoped to **seven** people
+across nine companies. See `research/batch-641-progress.md`. No authenticated
+NARA Catalog request was made.
 
 Current SQLite has **23,978/23,978** linked source rows and **23,939** active
-people. Research-attempt coverage is **7,832/23,939 (32.7165%)**;
+people. Research-attempt coverage is **7,855/23,939 (32.8126%)**;
 verified-employer coverage is **280/23,939 (1.1696%)**;
 verified-affiliation coverage is **628/23,939 (2.6233%)**; archival-review
-coverage is **6,331/23,939 (26.4464%)**. There are **16,102** `not_started`
-people and **488** active possible-duplicate groups. SQLite retains **12,993**
-attempts or plans and **4,966** claims: 1,311 confirmed, 1,951 high, 1,375
-medium, 187 low, and 142 conflicting. It has **5,072** source/citation records
-and **2,388** unique source-document keys. The public projection has **2,224**
-affiliations, **708** organizations, **3,865** sources, and **4,775** claims.
+coverage is **6,339/23,939 (26.4798%)**. There are **16,079** `not_started`
+people and **489** active possible-duplicate groups. SQLite retains **13,028**
+attempts or plans and **4,974** claims: 1,311 confirmed, 1,956 high, 1,377
+medium, 187 low, and 143 conflicting. It has **5,074** source/citation records
+and **2,389** unique source-document keys. The public projection has **2,224**
+affiliations, **708** organizations, **3,867** sources, and **4,783** claims.
 Full-index historical research remains unfinished.
 
 Batch 639 visually checked all **460** printed rows on PDF pages 461-470.
