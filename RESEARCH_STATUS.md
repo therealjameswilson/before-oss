@@ -1,5 +1,37 @@
 # Research status
 
+Batch 638 visually checked all **460** printed rows on PDF pages 451-460.
+Pages 453, 455, and 456 were already in the deterministic random audit, so the
+batch adds seven pages and 322 rows to the durable ledger: **380/522 pages**
+and **17,446/23,978 rows** are now reviewed, with 17,414 matching rows and 32
+reviewed corrections. The page-309 `Barry McGill` through `William M.
+McGovern` queue completed a Library of Congress search for all 23 people and
+reviewed all 11 official item candidates. Every newspaper lead was rejected
+as an initial conflict, postwar or spousal reference, or an unbridged common or
+famous-name result. Eight official Army bulk crosswalks received
+high-confidence identity decisions from nonshared protected identifiers and
+exact or explicitly preserved name variants. Leon A. McGinnis remains
+conflicting because the Army entry prints middle initial D. The two David K.
+McGinnis rows remain separate ambiguous entities across Boxes 505 and 506.
+Army grades and occupation codes remain identity context, not employer
+evidence. The queue ends with 20 `in_progress`, two
+`needs_identity_review`, and one `conflicting_sources`. The featured
+oil-company category remains evidence-scoped to **seven** people across nine
+companies. See `research/batch-638-progress.md`. No authenticated NARA
+Catalog request was made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **7,786/23,939 (32.5243%)**;
+verified-employer coverage is **280/23,939 (1.1696%)**;
+verified-affiliation coverage is **628/23,939 (2.6233%)**; archival-review
+coverage is **6,322/23,939 (26.4088%)**. There are **16,146** `not_started`
+people and **488** active possible-duplicate groups. SQLite retains **12,925**
+attempts or plans and **4,957** claims: 1,311 confirmed, 1,944 high, 1,375
+medium, 187 low, and 140 conflicting. It has **5,068** source/citation records
+and **2,386** unique source-document keys. The public projection has **2,224**
+affiliations, **708** organizations, **3,861** sources, and **4,766** claims.
+Full-index historical research remains unfinished.
+
 Batch 637 visually checked all **460** printed rows on PDF pages 441-450.
 Pages 442, 444, and 447 were already in the deterministic random audit, so the
 batch adds seven pages and 322 rows to the durable ledger: **373/522 pages**

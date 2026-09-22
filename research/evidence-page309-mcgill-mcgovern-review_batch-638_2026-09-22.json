@@ -1,0 +1,461 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 638 page 309 source and identity review",
+  "sources": [
+    {
+      "key": "nara-index-page309-b638",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 505-506",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 309, printed rows 1-23; original page image reviewed at 180 dpi; archival location 230/86/36/05",
+      "access_date": "2026-09-22",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Indexed spellings, ranks, boxes, duplicate-name rows, and variants are retained. Full protected identifiers remain private and are excluded from public output."
+    },
+    {
+      "key": "army-b580-b638",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; fixed-width name and protected-identifier crosswalk; private candidate records retain record ordinals",
+      "access_date": "2026-09-22",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "This is official bulk data, not a Catalog API response. Army grade and occupation codes are identity context, not named employers; full identifiers and raw records are excluded."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-barry-mcgill-army-b638",
+      "person_id": "a574c48c-ad3b-57a1-ae43-c985d9c94364",
+      "claim_type": "identity",
+      "claim_text": "The indexed PFC Barry McGill has a high-confidence match to an official Army enlistment entry.",
+      "evidence_paraphrase": "The full name and a nonshared protected identifier agree after normalization of fixed-width MC GILL surname spacing.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity crosswalk only. Differing grade snapshots and the Army occupation code are not converted into employment evidence.",
+      "sources": [
+        {"source_key": "nara-index-page309-b638", "locator_override": "PDF page 309, row 1, Box 505"},
+        {"source_key": "army-b580-b638", "locator_override": "Official bulk record ordinal 3736043; protected identifier and fixed-width name comparison"}
+      ]
+    },
+    {
+      "key": "identity-william-l-mcgill-army-b638",
+      "person_id": "4f730acf-788d-5f0f-b340-fae1209bf8ca",
+      "claim_type": "identity",
+      "claim_text": "The indexed William L. McGill has a high-confidence match to an official Army enlistment entry that adds the suffix Jr.",
+      "evidence_paraphrase": "The base full name and a nonshared protected identifier agree after surname-spacing normalization; the Army suffix remains a variant.",
+      "identity_match_assessment": "High confidence from normalized base-name agreement and a unique protected-identifier match; the added suffix does not contradict the index.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The indexed name remains unchanged. William L. McGill Jr. is a sourced variant; Army codes are not employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-page309-b638", "locator_override": "PDF page 309, row 3, Box 505"},
+        {"source_key": "army-b580-b638", "locator_override": "Official bulk record ordinal 5446510; protected identifier, base full-name, and suffix comparison"}
+      ]
+    },
+    {
+      "key": "identity-william-h-mcgill-army-b638",
+      "person_id": "d6d56580-d0ae-5cc5-91bb-9e52e746ba4f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Technician Fifth Grade William H. McGill has a high-confidence match to an official Army enlistment entry.",
+      "evidence_paraphrase": "The full name and a nonshared protected identifier agree after normalization of fixed-width MC GILL surname spacing.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The index and Army grades are different snapshots and require chronology review. No Army code is converted into an employer.",
+      "sources": [
+        {"source_key": "nara-index-page309-b638", "locator_override": "PDF page 309, row 4, Box 505"},
+        {"source_key": "army-b580-b638", "locator_override": "Official bulk record ordinal 1484022; protected identifier and fixed-width name comparison"}
+      ]
+    },
+    {
+      "key": "identity-edward-m-mcginnis-army-b638",
+      "person_id": "00711a15-d463-54d9-b64e-1774dcbb8b40",
+      "claim_type": "identity",
+      "claim_text": "The indexed PFC Edward M. McGinnis has a high-confidence match to an official Army enlistment entry.",
+      "evidence_paraphrase": "The full name and a nonshared protected identifier agree after normalization of fixed-width MC GINNIS surname spacing.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Two newspaper hits for Edward F. McGinnis were rejected. Army codes are not converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-page309-b638", "locator_override": "PDF page 309, row 12, Box 506"},
+        {"source_key": "army-b580-b638", "locator_override": "Official bulk record ordinal 5501409; protected identifier and fixed-width name comparison"}
+      ]
+    },
+    {
+      "key": "identity-leon-a-mcginnis-conflict-b638",
+      "person_id": "f466bb16-1781-5ad5-b65f-d35f17033d3c",
+      "claim_type": "identity",
+      "claim_text": "The protected identifier printed for indexed Private Leon A. McGinnis points to an official Army entry whose middle initial is D rather than A.",
+      "evidence_paraphrase": "The protected identifier and base name agree, but the middle initials conflict; the number is withheld from public output.",
+      "identity_match_assessment": "Conflicting: the unique identifier is strong evidence, but the explicit A/D middle-initial disagreement requires personnel-file review.",
+      "temporal_assessment": "The conflict concerns identity resolution only and supplies no reliable pre-OSS employer or affiliation chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Review Box 506 before relying on the Army crosswalk. Army grade and occupation codes are not used as employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-page309-b638", "locator_override": "PDF page 309, row 13, Box 506"},
+        {"source_key": "army-b580-b638", "locator_override": "Official bulk record ordinal 6426322; protected identifier and A/D middle-initial comparison"}
+      ]
+    },
+    {
+      "key": "identity-edward-j-mcglynn-army-b638",
+      "person_id": "5e66c7f7-38aa-567d-99cd-9c9c826932b8",
+      "claim_type": "identity",
+      "claim_text": "The indexed Corporal Edward J. McGlynn has a high-confidence match to an official Army enlistment entry that adds the suffix Jr.",
+      "evidence_paraphrase": "The base full name and a nonshared protected identifier agree after surname-spacing normalization; the Army suffix remains a variant.",
+      "identity_match_assessment": "High confidence from normalized base-name agreement and a unique protected-identifier match; the added suffix does not contradict the index.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The indexed name remains unchanged. Edward J. McGlynn Jr. is a sourced variant; an unbridged ration-book namesake was rejected.",
+      "sources": [
+        {"source_key": "nara-index-page309-b638", "locator_override": "PDF page 309, row 16, Box 506"},
+        {"source_key": "army-b580-b638", "locator_override": "Official bulk record ordinal 888846; protected identifier, base full-name, and suffix comparison"}
+      ]
+    },
+    {
+      "key": "identity-harlan-mcgonigal-army-b638",
+      "person_id": "46f824d1-5a14-57ae-88d3-edcc9bb87e04",
+      "claim_type": "identity",
+      "claim_text": "The indexed Harlan McGonigal has a high-confidence match to an official Army entry that renders the given name as HARL N.",
+      "evidence_paraphrase": "A nonshared protected identifier and surname agree; the fixed-width given-name difference is retained explicitly for review.",
+      "identity_match_assessment": "High confidence from the unique protected-identifier match and close uncommon-name agreement, with the source spelling preserved as a variant.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The indexed spelling remains unchanged. Harl N McGonigal is a sourced fixed-width variant; Army codes are not employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-page309-b638", "locator_override": "PDF page 309, row 19, Box 506"},
+        {"source_key": "army-b580-b638", "locator_override": "Official bulk record ordinal 1534690; protected identifier and fixed-width name comparison"}
+      ]
+    },
+    {
+      "key": "identity-john-j-mcgourty-army-b638",
+      "person_id": "968ba99c-f60f-51d5-a7a0-f7e4dba3c44d",
+      "claim_type": "identity",
+      "claim_text": "The indexed PFC John J. McGourty has a high-confidence match to an official Army enlistment entry.",
+      "evidence_paraphrase": "The full name and a nonshared protected identifier agree after normalization of fixed-width MC GOURTY surname spacing.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity crosswalk only. Army grade and occupation codes are not converted into employment evidence.",
+      "sources": [
+        {"source_key": "nara-index-page309-b638", "locator_override": "PDF page 309, row 20, Box 506"},
+        {"source_key": "army-b580-b638", "locator_override": "Official bulk record ordinal 2914167; protected identifier and fixed-width name comparison"}
+      ]
+    },
+    {
+      "key": "identity-william-c-mcgovern-army-b638",
+      "person_id": "770cf847-09bb-50f8-a57c-0e03d10e8a68",
+      "claim_type": "identity",
+      "claim_text": "The indexed PFC William C. McGovern has a high-confidence match to an official Army enlistment entry.",
+      "evidence_paraphrase": "The full name and a nonshared protected identifier agree after normalization of fixed-width MC GOVERN surname spacing.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Northwestern professor William M. McGovern candidate was rejected because the initial conflicts. Army codes are not employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-page309-b638", "locator_override": "PDF page 309, row 22, Box 506"},
+        {"source_key": "army-b580-b638", "locator_override": "Official bulk record ordinal 4110762; protected identifier and fixed-width name comparison"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "a574c48c-ad3b-57a1-ae43-c985d9c94364",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC GILL spacing and in a nonshared protected identifier.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 505 for chronology and a named pre-OSS employer or assignment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4f730acf-788d-5f0f-b340-fae1209bf8ca",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in base full name after normalization of fixed-width MC GILL spacing and in a nonshared protected identifier. The Army suffix Jr. is retained as a variant.",
+      "name_variants": ["William L McGill Jr."],
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 505 for chronology and a named pre-OSS employer or assignment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d6d56580-d0ae-5cc5-91bb-9e52e746ba4f",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC GILL spacing and in a nonshared protected identifier.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 505 for chronology and a named pre-OSS employer or assignment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "00711a15-d463-54d9-b64e-1774dcbb8b40",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC GINNIS spacing and in a nonshared protected identifier.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 506 for chronology and a named pre-OSS employer or assignment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f466bb16-1781-5ad5-b65f-d35f17033d3c",
+      "identity_status": "conflicting",
+      "identity_evidence": "The index and official Army bulk entry share a nonshared protected identifier and the base name Leon McGinnis, but the middle initial is A in the index and D in the Army file.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 506 and original index documentation before relying on the Army crosswalk or making employment claims.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "5e66c7f7-38aa-567d-99cd-9c9c826932b8",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in base full name after normalization of fixed-width MC GLYNN spacing and in a nonshared protected identifier. The Army suffix Jr. is retained as a variant.",
+      "name_variants": ["Edward J McGlynn Jr."],
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 506 for chronology and a named pre-OSS employer or assignment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "46f824d1-5a14-57ae-88d3-edcc9bb87e04",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and surname agree between the index and Army bulk entry. The index prints Harlan while the fixed-width Army name renders HARL N; both remain explicit.",
+      "name_variants": ["Harl N McGonigal"],
+      "manual_review_required": true,
+      "research_status": "in_progress",
+      "next_action": "Inspect Box 506 to verify the given-name rendering and continue the minimum employer protocol.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "968ba99c-f60f-51d5-a7a0-f7e4dba3c44d",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC GOURTY spacing and in a nonshared protected identifier.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 506 for chronology and a named pre-OSS employer or assignment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "770cf847-09bb-50f8-a57c-0e03d10e8a68",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC GOVERN spacing and in a nonshared protected identifier.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 506 for chronology and a named pre-OSS employer or assignment.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "batch638-barry-mcgill-army-review",
+      "person_id": "a574c48c-ad3b-57a1-ae43-c985d9c94364",
+      "source_adapter": "army_bulk_identity_review",
+      "query_text": "Review the official Army protected-identifier candidate for indexed Barry McGill",
+      "query_variant_type": "protected_identifier_identity_review",
+      "started_at": "2026-09-22T14:30:00Z",
+      "completed_at": "2026-09-22T14:47:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Exact normalized full-name and nonshared protected-identifier agreement support high-confidence identity only.",
+      "next_action": "Continue the minimum protocol and inspect Box 505 for a named employer.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch638-william-l-mcgill-army-and-loc-review",
+      "person_id": "4f730acf-788d-5f0f-b340-fae1209bf8ca",
+      "source_adapter": "army_bulk_and_loc_context_review",
+      "query_text": "Review the Army identity candidate and two LoC newspaper candidates for indexed William L McGill",
+      "query_variant_type": "identity_and_candidate_context_review",
+      "started_at": "2026-09-22T14:30:00Z",
+      "completed_at": "2026-09-22T14:47:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The newspaper items concern an unbridged postwar exact-name mention and a William E. McGill initial conflict.",
+      "research_notes": "The Army crosswalk supports identity and a Jr. variant, but no candidate establishes employment.",
+      "next_action": "Continue the minimum protocol and inspect Box 505.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch638-william-h-mcgill-army-and-loc-review",
+      "person_id": "d6d56580-d0ae-5cc5-91bb-9e52e746ba4f",
+      "source_adapter": "army_bulk_and_loc_context_review",
+      "query_text": "Review the Army identity candidate and two LoC newspaper candidates for indexed William H McGill",
+      "query_variant_type": "identity_and_candidate_context_review",
+      "started_at": "2026-09-22T14:30:00Z",
+      "completed_at": "2026-09-22T14:47:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The newspaper candidates name William L. and William E. McGill, not indexed William H. McGill.",
+      "research_notes": "The Army crosswalk supports identity only; no candidate establishes employment.",
+      "next_action": "Continue the minimum protocol and inspect Box 505.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch638-edward-f-mcginnis-loc-review",
+      "person_id": "f2ba7ece-afb3-59e6-8667-ba0d1d64a3cd",
+      "source_adapter": "loc_context_review",
+      "query_text": "Inspect the two LoC newspaper candidates returned for indexed Edward F McGinnis",
+      "query_variant_type": "candidate_context_review",
+      "started_at": "2026-09-22T14:30:00Z",
+      "completed_at": "2026-09-22T14:47:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Both references concern the postwar Senate sergeant at arms or his wife and supply no bridge to the indexed commander.",
+      "research_notes": "No identity or employer claim is supported.",
+      "next_action": "Continue the minimum protocol and inspect Box 506.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch638-edward-m-mcginnis-army-and-loc-review",
+      "person_id": "00711a15-d463-54d9-b64e-1774dcbb8b40",
+      "source_adapter": "army_bulk_and_loc_context_review",
+      "query_text": "Review the Army identity candidate and two LoC newspaper candidates for indexed Edward M McGinnis",
+      "query_variant_type": "identity_and_candidate_context_review",
+      "started_at": "2026-09-22T14:30:00Z",
+      "completed_at": "2026-09-22T14:47:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Both newspapers concern Edward F. McGinnis, whose middle initial conflicts.",
+      "research_notes": "The Army crosswalk supports identity only; no candidate establishes employment.",
+      "next_action": "Continue the minimum protocol and inspect Box 506.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch638-leon-a-mcginnis-army-review",
+      "person_id": "f466bb16-1781-5ad5-b65f-d35f17033d3c",
+      "source_adapter": "army_bulk_identity_review",
+      "query_text": "Review the official Army protected-identifier candidate for indexed Leon A McGinnis",
+      "query_variant_type": "protected_identifier_conflict_review",
+      "started_at": "2026-09-22T14:30:00Z",
+      "completed_at": "2026-09-22T14:47:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The index and Army file disagree on middle initial A versus D, so the crosswalk cannot be accepted without Box 506 review.",
+      "research_notes": "The conflict is retained without exposing the protected identifier.",
+      "next_action": "Review Box 506 and original index documentation.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch638-edward-j-mcglynn-army-and-loc-review",
+      "person_id": "5e66c7f7-38aa-567d-99cd-9c9c826932b8",
+      "source_adapter": "army_bulk_and_loc_context_review",
+      "query_text": "Review the Army identity candidate and LoC ration-book candidate for indexed Edward J McGlynn",
+      "query_variant_type": "identity_and_candidate_context_review",
+      "started_at": "2026-09-22T14:30:00Z",
+      "completed_at": "2026-09-22T14:47:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The ration-book notice supplies no OSS, Army, protected-identifier, employer, or Box bridge.",
+      "research_notes": "The Army crosswalk supports identity and a Jr. variant, not employment.",
+      "next_action": "Continue the minimum protocol and inspect Box 506.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch638-harlan-mcgonigal-army-review",
+      "person_id": "46f824d1-5a14-57ae-88d3-edcc9bb87e04",
+      "source_adapter": "army_bulk_identity_review",
+      "query_text": "Review the official Army protected-identifier candidate for indexed Harlan McGonigal",
+      "query_variant_type": "protected_identifier_identity_review",
+      "started_at": "2026-09-22T14:30:00Z",
+      "completed_at": "2026-09-22T14:47:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "research_notes": "A unique protected identifier and close uncommon-name agreement support identity, while HARL N remains an explicit variant needing file review.",
+      "next_action": "Inspect Box 506 and continue the minimum employer protocol.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch638-john-j-mcgourty-army-review",
+      "person_id": "968ba99c-f60f-51d5-a7a0-f7e4dba3c44d",
+      "source_adapter": "army_bulk_identity_review",
+      "query_text": "Review the official Army protected-identifier candidate for indexed John J McGourty",
+      "query_variant_type": "protected_identifier_identity_review",
+      "started_at": "2026-09-22T14:30:00Z",
+      "completed_at": "2026-09-22T14:47:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Exact normalized full-name and nonshared protected-identifier agreement support high-confidence identity only.",
+      "next_action": "Continue the minimum protocol and inspect Box 506.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch638-william-c-mcgovern-army-and-loc-review",
+      "person_id": "770cf847-09bb-50f8-a57c-0e03d10e8a68",
+      "source_adapter": "army_bulk_and_loc_context_review",
+      "query_text": "Review the Army identity candidate and LoC newspaper candidate for indexed William C McGovern",
+      "query_variant_type": "identity_and_candidate_context_review",
+      "started_at": "2026-09-22T14:30:00Z",
+      "completed_at": "2026-09-22T14:47:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The newspaper names William M. McGovern, whose middle initial conflicts.",
+      "research_notes": "The Army crosswalk supports identity only; no candidate establishes employment.",
+      "next_action": "Continue the minimum protocol and inspect Box 506.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch638-william-m-mcgovern-loc-review",
+      "person_id": "80e851c4-c1ae-5bd5-b591-9ec4c92a351a",
+      "source_adapter": "loc_context_review",
+      "query_text": "Inspect the LoC newspaper candidate returned for indexed William M McGovern",
+      "query_variant_type": "candidate_context_review",
+      "started_at": "2026-09-22T14:30:00Z",
+      "completed_at": "2026-09-22T14:47:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The newspaper identifies the Northwestern professor but supplies no OSS, protected-identifier, rank, or Box 506 bridge.",
+      "research_notes": "The famous biography is not assigned from a name match alone.",
+      "next_action": "Continue the minimum protocol and inspect Box 506.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    }
+  ]
+}
