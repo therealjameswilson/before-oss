@@ -1,5 +1,31 @@
 # Research status
 
+Batch 630 visually checked all **460** printed rows on PDF pages 371-380.
+Page 372 retains its earlier complete-page decision; the other nine pages match
+the immutable extraction. The durable ledger now covers **314/522 pages** and
+**14,410/23,978 rows**. The page-304 `Joseph P. McCarthy` through `Grant S.
+McClelian` queue completed 23 Library of Congress searches and reviewed all 20
+official item candidates. Nineteen were rejected. A probable John W. McClain
+newspaper lead remains private because it lacks a second identity bridge and
+names no employer. Richard D. McCarthy, Lester K. McClaflin, and William H.
+McClare received high-confidence Army identity crosswalks, while Rex H.
+McCauley's identifier/name conflict remains explicit. Three probable-duplicate
+clusters remain separate. The featured oil-company category remains
+evidence-scoped to **seven** people. See `research/batch-630-progress.md`. No
+authenticated NARA Catalog request was made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **7,607/23,939 (31.7766%)**;
+verified-employer coverage is **280/23,939 (1.1696%)**;
+verified-affiliation coverage is **628/23,939 (2.6233%)**; archival-review
+coverage is **6,300/23,939 (26.3169%)**. There are **16,311** `not_started`
+people and **488** active possible-duplicate groups. SQLite retains **12,665**
+attempts or plans and **4,906** claims: 1,311 confirmed, 1,901 high, 1,374
+medium, 187 low, and 133 conflicting. It has **5,050** source/citation records
+and **2,377** unique source-document keys. The public projection has **2,224**
+affiliations, **708** organizations, **3,843** sources, and **4,715** claims.
+Full-index historical research remains unfinished.
+
 Batch 615 visually checked all **460** printed rows on PDF pages 221–230.
 Every row matches the immutable extraction, raising the durable ledger to
 **193/522 pages**; **329** remain. Sixteen possible-duplicate or spelling-
