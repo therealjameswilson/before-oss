@@ -1,8 +1,7 @@
 # Batch 641 release status - pages 481-490 and McKee-McKiernan research
 
 Date: 2026-09-22 UTC. This report records the audited tracked-only local
-release candidate. Exact-ref public verification will be added after merge and
-GitHub Pages deployment.
+release candidate and the exact-ref public verification completed after merge.
 
 ## Historical and extraction work
 
@@ -96,9 +95,26 @@ tracked-only verification.
 
 ## Deployment
 
-The release candidate has not yet been merged or deployed. This section will
-record the pull request, merge commit, workflow runs, and exact-ref live
-verification after the public artifact succeeds.
+Pull request [#383](https://github.com/therealjameswilson/before-oss/pull/383)
+merged as commit
+[`07255851c17575c357de5a04a265d520515478a8`](https://github.com/therealjameswilson/before-oss/commit/07255851c17575c357de5a04a265d520515478a8).
+The pull-request test
+([run 35770782745](https://github.com/therealjameswilson/before-oss/actions/runs/35770782745))
+passed in 3m48s. The exact merged revision then passed the main-branch test
+([run 35771255833](https://github.com/therealjameswilson/before-oss/actions/runs/35771255833))
+in 4m13s.
+
+The exact-ref GitHub Pages workflow
+([run 35771255975](https://github.com/therealjameswilson/before-oss/actions/runs/35771255975))
+succeeded: the build job completed in 1m25s and deployment in 26s. The live
+verifier fetched the public artifact using the merged SHA and confirmed all
+**67** manifest assets (**98,493,583** bytes), the manifest SHA-256 above,
+eight core routes, all 26 source-register pages, and all eight direct Batch 641
+profiles. The evidence-scoped oil-company category remains live with seven
+people and nine historically named companies.
+
+- Public release: <https://therealjameswilson.github.io/before-oss/>
+- Oil-company category: <https://therealjameswilson.github.io/before-oss/oil-companies/>
 
 ## Resume
 
