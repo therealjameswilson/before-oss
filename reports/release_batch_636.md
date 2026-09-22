@@ -89,8 +89,21 @@ Unrelated user-owned duplicate files remain preserved and excluded.
 
 ## Deployment
 
-Pending exact-commit CI, GitHub Pages deployment, and live artifact
-verification.
+Pull request [#373](https://github.com/therealjameswilson/before-oss/pull/373)
+merged as `52015b07826846c87f16f524ae961c7293ce9b76` after its required test
+check passed in 4m29s. The exact merged commit then passed:
+
+- [Test run 35727195675](https://github.com/therealjameswilson/before-oss/actions/runs/35727195675)
+  in 4m15s; and
+- [Deploy GitHub Pages run 35727195712](https://github.com/therealjameswilson/before-oss/actions/runs/35727195712),
+  with a 1m16s build and 17s deploy job.
+
+The post-deployment verifier fetched the exact merged ref, matched all **67**
+manifest assets and **98,312,601** bytes at manifest SHA-256
+`8992bd9de02ec8d6cb5eff8b094b5b1e0dee787129cc6efe4c1e5e4869edb9fb`,
+checked eight core routes, all 26 source-register pages, and the three directly
+affected profiles. Independent HTTP checks returned 200 for the home page, the
+oil-company category, and a directly affected McFadden profile.
 
 Public site: https://therealjameswilson.github.io/before-oss/
 
