@@ -1,5 +1,35 @@
 # Research status
 
+Batch 632 visually checked all **460** printed rows on PDF pages 391-400.
+Pages 396, 397, and 398 retain earlier authoritative corrected decisions; the
+other seven pages match the immutable extraction. The durable ledger now
+covers **328/522 pages** and **15,054/23,978 rows**. The page-305 `James L. Dr.
+McConaughy` through `Charles H. McCormick` queue saved a Library of Congress
+attempt for each of 23 people and reviewed all 11 official item candidates.
+All were rejected as conflicting-initial, unrelated, insufficient common-name,
+or postwar results. Four official Army bulk crosswalks received
+high-confidence identity decisions from nonshared protected identifiers and
+strong name agreement. The McConnaughe/McConnaughey, Wallack/Hallack, and
+omitted-middle-initial differences remain visible and qualified; William M.
+McCormack agrees after fixed-width surname-spacing normalization. Army grades
+and occupation codes remain identity context, not employer evidence. The three
+Alice M. McCool rows remain separate ambiguous entities. The featured
+oil-company category remains evidence-scoped to **seven** people across nine
+companies. See `research/batch-632-progress.md`. No authenticated NARA Catalog
+request was made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **7,652/23,939 (31.9646%)**;
+verified-employer coverage is **280/23,939 (1.1696%)**;
+verified-affiliation coverage is **628/23,939 (2.6233%)**; archival-review
+coverage is **6,300/23,939 (26.3169%)**. There are **16,271** `not_started`
+people and **488** active possible-duplicate groups. SQLite retains **12,722**
+attempts or plans and **4,917** claims: 1,311 confirmed, 1,912 high, 1,374
+medium, 187 low, and 133 conflicting. It has **5,054** source/citation records
+and **2,378** unique source-document keys. The public projection has **2,224**
+affiliations, **708** organizations, **3,847** sources, and **4,726** claims.
+Full-index historical research remains unfinished.
+
 Batch 631 visually checked all **460** printed rows on PDF pages 381-390.
 Pages 381, 387, and 389 retain earlier authoritative decisions, including three
 corrected column-shift rows; the other seven pages match the immutable

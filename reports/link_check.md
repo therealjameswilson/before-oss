@@ -1,5 +1,18 @@
 # Link check
 
+Batch 632 local validation, 2026-09-22 UTC: the isolated tracked-only build
+contains **24,681** HTML files and **24,753** total artifacts. Every internal
+link resolves, and the checker inventories **50,236** unique external URLs for
+the separate live check. The public-identifier audit compares **12,926**
+normalized identifiers and **120** formatted variants against every artifact,
+with zero unexpected full-number boundary matches. The local release verifier
+matches all **67** manifest-listed assets and **98,197,781** bytes at manifest
+SHA-256 `d3e019f8766a29b091b41914b76244ef71f608f6661f0fb6816587261b196701`.
+Two consecutive clean builds reproduce the same production-tree SHA-256
+`f7b4db300268a0d4f962d60719333e7773cc7706bfac83d24c2225d3d9a6d010`.
+Unrelated untracked duplicate files in the working checkout were preserved but
+excluded from the release candidate.
+
 Batch 631 local validation, 2026-09-22 UTC: the isolated tracked-only build
 contains **24,681** HTML files and **24,753** total artifacts. Every internal
 link resolves, and the checker inventories **50,236** unique external URLs for

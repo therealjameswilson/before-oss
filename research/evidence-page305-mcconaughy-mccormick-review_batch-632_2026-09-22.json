@@ -1,0 +1,206 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 632 page 305 source and identity review",
+  "sources": [
+    {
+      "key": "nara-index-page305-b632",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 499-500",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 305, printed rows 24-46; original page image previously reviewed at 180 dpi; archival location 230/86/36/04",
+      "access_date": "2026-09-22",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Indexed spellings, ranks, blank cells, boxes, and separate rows are retained. Full protected identifiers remain private and are excluded from public output."
+    },
+    {
+      "key": "army-b580-b632",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; fixed-width name and protected-identifier crosswalk; private candidate records retain record ordinals",
+      "access_date": "2026-09-22",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "This is official bulk data, not a Catalog API response. Army grade and occupation codes are identity context, not named employers; full identifiers are excluded."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-john-n-mcconnaughe-army-b632",
+      "person_id": "bfbff01f-9da6-51ce-84bf-b9a70d5a1e24",
+      "claim_type": "identity",
+      "claim_text": "The indexed John N. McConnaughe has a high-confidence match to an official Army entry spelling the surname McConnaughey.",
+      "evidence_paraphrase": "Given name, middle initial, and a nonshared protected identifier agree; the Army surname adds a final y.",
+      "identity_match_assessment": "High confidence from a unique protected-identifier match and agreement in given name, middle initial, and near-identical surname.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "publish_qualified",
+      "match_notes": "McConnaughe remains the indexed spelling; McConnaughey is a sourced variant. Army grade and occupation codes are not converted into employment claims.",
+      "sources": [
+        {"source_key": "nara-index-page305-b632", "locator_override": "PDF page 305, row 29, Box 500"},
+        {"source_key": "army-b580-b632", "locator_override": "Official bulk record ordinal 7041326; protected identifier and spelling comparison"}
+      ]
+    },
+    {
+      "key": "identity-robert-j-mcconnachie-army-b632",
+      "person_id": "125bfabb-acda-5899-90be-19611f290c1e",
+      "claim_type": "identity",
+      "claim_text": "The indexed Robert J. McConnachie has a high-confidence match to an official Army entry that omits the middle initial.",
+      "evidence_paraphrase": "The uncommon surname, given name, and a nonshared protected identifier agree; the Army name field omits the indexed J.",
+      "identity_match_assessment": "High confidence from a unique protected-identifier match plus exact surname and given-name agreement, qualified for the omitted middle initial.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "publish_qualified",
+      "match_notes": "The index's middle initial is preserved. Army grade and occupation codes are not converted into employment claims.",
+      "sources": [
+        {"source_key": "nara-index-page305-b632", "locator_override": "PDF page 305, row 28, Box 500"},
+        {"source_key": "army-b580-b632", "locator_override": "Official bulk record ordinal 1487130; protected identifier and name-field comparison"}
+      ]
+    },
+    {
+      "key": "identity-wallack-h-mccord-army-b632",
+      "person_id": "2dea82f8-ef50-5603-821f-1f03c5f3ea0b",
+      "claim_type": "identity",
+      "claim_text": "The indexed Wallack H. McCord has a high-confidence match to an official Army entry spelling the given name Hallack.",
+      "evidence_paraphrase": "Surname, middle initial, and a nonshared protected identifier agree; the official sources differ by one initial letter in the given name.",
+      "identity_match_assessment": "High confidence from a unique protected-identifier match and near-exact name agreement, with the Wallack/Hallack discrepancy preserved.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "publish_qualified",
+      "match_notes": "Wallack remains the indexed spelling; Hallack is a sourced variant pending Box 500 review. Army codes are not employment evidence.",
+      "sources": [
+        {"source_key": "nara-index-page305-b632", "locator_override": "PDF page 305, row 42, Box 500"},
+        {"source_key": "army-b580-b632", "locator_override": "Official bulk record ordinal 1664805; protected identifier and given-name comparison"}
+      ]
+    },
+    {
+      "key": "identity-william-m-mccormack-army-b632",
+      "person_id": "b5e20e5d-89ca-55d0-8e18-04dbb0146402",
+      "claim_type": "identity",
+      "claim_text": "The indexed Private William M. McCormack has a high-confidence match to an official Army enlistment entry.",
+      "evidence_paraphrase": "The full name and a nonshared protected identifier agree after normalization of fixed-width MC CORMACK surname spacing.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity crosswalk only. Army grade and occupation codes are not converted into an employer or immediate affiliation.",
+      "sources": [
+        {"source_key": "nara-index-page305-b632", "locator_override": "PDF page 305, row 45, Box 500"},
+        {"source_key": "army-b580-b632", "locator_override": "Official bulk record ordinal 7562359; protected identifier and fixed-width name comparison"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "bfbff01f-9da6-51ce-84bf-b9a70d5a1e24",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in given name, middle initial, and a nonshared protected identifier; the Army surname adds a final y, retained as a sourced variant.",
+      "name_variants": ["John N McConnaughey"],
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 500 to verify the surname form and identify pre-OSS employment or assignment."
+    },
+    {
+      "person_id": "125bfabb-acda-5899-90be-19611f290c1e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in uncommon surname, given name, and a nonshared protected identifier; the Army fixed-width name omits the indexed middle initial J.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 500 to verify the full name and identify pre-OSS employment or assignment."
+    },
+    {
+      "person_id": "2dea82f8-ef50-5603-821f-1f03c5f3ea0b",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in surname, middle initial, and a nonshared protected identifier; Wallack and Hallack remain distinct source spellings.",
+      "name_variants": ["Hallack H McCord"],
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 500 to reconcile Wallack/Hallack and identify pre-OSS employment or assignment."
+    },
+    {
+      "person_id": "b5e20e5d-89ca-55d0-8e18-04dbb0146402",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC CORMACK spacing and in a nonshared protected identifier.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 500 for a named pre-OSS employer or assignment."
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "batch632-john-n-mcconnaughe-army-review",
+      "person_id": "bfbff01f-9da6-51ce-84bf-b9a70d5a1e24",
+      "source_adapter": "army_bulk_review",
+      "query_text": "Compare indexed John N McConnaughe with the official Army bulk identity candidate",
+      "query_variant_type": "protected_identifier_identity_review",
+      "started_at": "2026-09-22T07:20:00Z",
+      "completed_at": "2026-09-22T07:24:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Unique protected-identifier and near-exact name agreement support high-confidence identity; McConnaughe and McConnaughey remain distinct source spellings and no employer is named.",
+      "next_action": "Continue the minimum research protocol and inspect Box 500.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch632-robert-j-mcconnachie-army-review",
+      "person_id": "125bfabb-acda-5899-90be-19611f290c1e",
+      "source_adapter": "army_bulk_review",
+      "query_text": "Compare indexed Robert J McConnachie with the official Army bulk identity candidate",
+      "query_variant_type": "protected_identifier_identity_review",
+      "started_at": "2026-09-22T07:20:00Z",
+      "completed_at": "2026-09-22T07:24:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Unique protected-identifier plus uncommon surname and given-name agreement support high-confidence identity; the Army name omits the indexed middle initial and no employer is named.",
+      "next_action": "Continue the minimum research protocol and inspect Box 500.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch632-wallack-h-mccord-army-review",
+      "person_id": "2dea82f8-ef50-5603-821f-1f03c5f3ea0b",
+      "source_adapter": "army_bulk_review",
+      "query_text": "Compare indexed Wallack H McCord with the official Army bulk identity candidate",
+      "query_variant_type": "protected_identifier_identity_review",
+      "started_at": "2026-09-22T07:20:00Z",
+      "completed_at": "2026-09-22T07:24:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Unique protected-identifier and near-exact name agreement support high-confidence identity; Wallack and Hallack remain distinct source spellings and no employer is named.",
+      "next_action": "Continue the minimum research protocol and inspect Box 500.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch632-william-m-mccormack-army-review",
+      "person_id": "b5e20e5d-89ca-55d0-8e18-04dbb0146402",
+      "source_adapter": "army_bulk_review",
+      "query_text": "Compare indexed William M McCormack with the official Army bulk identity candidate",
+      "query_variant_type": "protected_identifier_identity_review",
+      "started_at": "2026-09-22T07:20:00Z",
+      "completed_at": "2026-09-22T07:24:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Unique protected-identifier and exact normalized full-name agreement support high-confidence identity; fixed-width surname spacing is normalized separately and no employer is named.",
+      "next_action": "Continue the minimum research protocol and inspect Box 500.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    }
+  ]
+}
