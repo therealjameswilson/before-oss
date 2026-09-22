@@ -1,0 +1,18 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 628 page 303 Army identity review",
+  "person_updates": [
+    {
+      "person_id": "ba27c39f-9e25-58ff-a2d7-d5e2d4b64304",
+      "identity_status": "conflicting",
+      "identity_evidence": "The index and official Army bulk entry agree in first and last name and a nonshared protected identifier, but the middle initial conflicts: indexed B versus Army P. The original personnel file is required before resolving the identity. The Army grade and bulk occupation code are not treated as a named employer or immediate pre-OSS affiliation.",
+      "manual_review_required": true
+    },
+    {
+      "person_id": "3a333fe9-a009-5306-a4d3-415c7d8b07c5",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full indexed name and a nonshared protected identifier. The Army grade and bulk occupation code are not treated as a named employer or immediate pre-OSS affiliation.",
+      "manual_review_required": false
+    }
+  ]
+}
