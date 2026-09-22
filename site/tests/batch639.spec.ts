@@ -26,7 +26,8 @@ test("Batch 639 preserves the McGown variant and archival qualification", async 
   await page.goto("./people/7e6b3058-a30c-5328-bec0-1deb39bcae80/");
   await expect(page.locator("main")).toContainText("Arthur P McGown");
   await expect(page.locator("main")).toContainText("Box 506");
-  await expect(page.locator("main")).toContainText("manual review");
+  await expect(page.locator("main")).toContainText("Personnel file reviewed");
+  await expect(page.locator("main")).toContainText("Archival-review priority");
 });
 
 test("Batch 639 keeps both John E McGowan rows separate and ambiguous", async ({ page }) => {

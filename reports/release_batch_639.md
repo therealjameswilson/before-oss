@@ -71,7 +71,27 @@ sources, and 4,771 claims. Full-index historical research remains unfinished.
 
 ## Local verification
 
-Pending on the exact tracked-only release candidate.
+The isolated tracked-only candidate passes all local release gates:
+
+- **132/132** Python unit tests;
+- **84/84** browser checks across desktop, phone, and tablet: 15 Batch 639,
+  33 core-route, six analysis, and 30 accessibility/axe checks;
+- Astro check with zero errors, warnings, or hints across **270** source files;
+- **24,681** static HTML pages and **24,753** total artifacts;
+- every internal link resolved, with **50,238** unique external URLs
+  inventoried for the separate live check;
+- all **67** manifest-listed assets matched, totaling **98,432,661** bytes at
+  manifest SHA-256
+  `eb50d81ca374947d7bb98b41cbf75f1eac00963efddf04db2e27afd9f6ffa0b2`;
+- the public-identifier audit compared **12,926** normalized identifiers and
+  **120** formatted variants with zero unexpected full-number boundary matches;
+- two clean builds reproduced production-tree SHA-256
+  `6f30956bedf93f39531984c7c0b1c530ccf1b500056c4611a73dd5b6c53e86db`.
+
+The first Batch 639 browser invocation exposed an over-specific test wording,
+not an application defect. The assertion was corrected to the profile's actual
+public archival-review fields, after which the full release suite passed.
+Unrelated user-owned duplicate files remain preserved and excluded.
 
 ## Deployment
 
