@@ -96,8 +96,26 @@ The clean tracked-only release candidate passed all local gates:
 
 ## Deployment
 
-Pending exact-commit CI, merge, Pages deployment, and unauthenticated live
-verification.
+Pull request [#357](https://github.com/therealjameswilson/before-oss/pull/357)
+passed its required test in 4m26s and merged as commit
+`4eef6c18b3106b6aefadc49dd0a7a7dd1cbcb3b9`.
+
+The exact merge commit then passed both post-merge workflows:
+
+- [Test](https://github.com/therealjameswilson/before-oss/actions/runs/35677016138)
+  passed in 4m08s, including the bounded release suite and rebuilt private-
+  identifier redaction audit.
+- [Deploy GitHub Pages](https://github.com/therealjameswilson/before-oss/actions/runs/35677016004)
+  passed and deployed the static site.
+
+The unauthenticated exact-commit verifier matched all **67** manifest assets
+and **98,106,840 bytes** at SHA-256
+`92b0dc07f509007ea96aced4c1747aad708e7ccfdce149f9b276ecdf2f6a6a9f`,
+verified all eight required core routes, and verified all 26 source-register
+pages. A separate bounded check fetched every one of the **23** affected
+person-profile routes and confirmed both the page `<main>` element and exact
+public person ID. The release is live at
+<https://therealjameswilson.github.io/before-oss/>.
 
 ## Resume
 
