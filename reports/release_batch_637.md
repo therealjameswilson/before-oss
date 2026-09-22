@@ -90,8 +90,22 @@ Unrelated user-owned duplicate files remain preserved and excluded.
 
 ## Deployment
 
-Pending commit, pull request, CI, merge, Pages deployment, and exact-ref public
-verification.
+Pull request [#375](https://github.com/therealjameswilson/before-oss/pull/375)
+merged as `2d064c8b5e3e7d30f7b733bf39448506d0f22f30` after its required test
+check passed in 4m25s. The exact merged commit then passed:
+
+- [Test run 35737356902](https://github.com/therealjameswilson/before-oss/actions/runs/35737356902)
+  in 4m16s; and
+- [Deploy GitHub Pages run 35737356916](https://github.com/therealjameswilson/before-oss/actions/runs/35737356916),
+  with a 1m30s build and 1m15s deploy job.
+
+The read-only exact-ref verifier matched all **67** manifest assets and
+**98,362,523** bytes at the expected manifest digest, checked eight core
+routes, all 26 paginated source-register routes, and 11 direct Batch 637
+profiles at `https://therealjameswilson.github.io/before-oss/`. The deployed
+oil-company category remains the evidence-scoped seven-person, nine-company
+set. The GitHub Actions notices concern the platform's future Node and Ubuntu
+runner migrations; they did not fail this release.
 
 ## Resume
 
