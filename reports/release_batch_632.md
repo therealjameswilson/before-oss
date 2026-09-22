@@ -92,8 +92,25 @@ The isolated tracked-only candidate passed all local release gates:
 
 ## Deployment
 
-Pending pull request, main-branch CI, GitHub Pages deployment, and exact live-
-artifact verification.
+Batch 632 was squash-merged through pull request 365 as commit
+`da32cb060014061ddd4e40521692668133202b18`. The main-branch Test workflow
+`35700768206` and GitHub Pages workflow `35700768180` both completed
+successfully.
+
+The exact-commit live verifier matched all **67** public-manifest assets and
+**98,197,781** bytes at manifest SHA-256
+`d3e019f8766a29b091b41914b76244ef71f608f6661f0fb6816587261b196701`.
+It also verified eight core routes, all 26 source-register pages, and all four
+direct Batch 632 profiles at
+`https://therealjameswilson.github.io/before-oss/`. The oil-company landing
+page and its filtered personnel-directory URL both returned HTTP 200; the
+landing page reports the unchanged evidence-scoped set of seven people and
+nine historically named companies.
+
+The successful workflows emitted non-blocking runner notices that Node.js 20
+actions are being forced onto Node.js 24 and that `ubuntu-latest` is scheduled
+to migrate to Ubuntu 26 beginning October 19, 2026. Those notices should be
+addressed in workflow-maintenance work; they did not affect this release.
 
 ## Resume
 
