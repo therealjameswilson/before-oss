@@ -1,8 +1,7 @@
 # Batch 639 release status - pages 461-470 and McGowan-McGuire research
 
-Date: 2026-09-22 UTC. This report records the audited local release candidate.
-Deployment fields will be completed only after the exact commit passes CI and
-the public artifact is verified.
+Date: 2026-09-22 UTC. This report records the audited local release candidate
+and the exact-ref public verification completed after merge.
 
 ## Historical and extraction work
 
@@ -95,8 +94,26 @@ Unrelated user-owned duplicate files remain preserved and excluded.
 
 ## Deployment
 
-Pending pull-request checks, merge, GitHub Pages deployment, and exact-ref live
-verification.
+Pull request [#379](https://github.com/therealjameswilson/before-oss/pull/379)
+merged as commit
+[`5faea71240c867bb23fcb9d41705a9d1dc5b6b7a`](https://github.com/therealjameswilson/before-oss/commit/5faea71240c867bb23fcb9d41705a9d1dc5b6b7a).
+The pull-request test
+([run 35754338682](https://github.com/therealjameswilson/before-oss/actions/runs/35754338682))
+passed in 4m37s. The exact merged revision then passed the main-branch test
+([run 35754926364](https://github.com/therealjameswilson/before-oss/actions/runs/35754926364))
+in 4m21s.
+
+The exact-ref GitHub Pages workflow
+([run 35754926174](https://github.com/therealjameswilson/before-oss/actions/runs/35754926174))
+succeeded: the build job completed in 1m22s and deployment in 53s. The live
+verifier fetched the public artifact using the merged SHA and confirmed all
+**67** manifest assets (**98,432,661** bytes), the manifest SHA-256 above,
+eight core routes, all 26 source-register pages, and all five direct Batch 639
+profiles. The evidence-scoped oil-company category remains live with seven
+people and nine historically named companies.
+
+- Public release: <https://therealjameswilson.github.io/before-oss/>
+- Oil-company category: <https://therealjameswilson.github.io/before-oss/oil-companies/>
 
 ## Resume
 
