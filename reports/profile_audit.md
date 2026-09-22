@@ -1,6 +1,6 @@
 # Stratified profile audit
 
-Generated: 2026-09-22T12:09:26+00:00
+Generated: 2026-09-22T13:37:57+00:00
 
 Deterministic profiles audited: **200**.
 
@@ -21,7 +21,7 @@ Deterministic profiles audited: **200**.
 - enlisted: 30
 - allied or foreign: 20
 - incomplete or initial only name: 20
-- possible duplicate group: 30
+- possible duplicate group: 31
 - confirmed or high published claim: 31
 - medium published claim: 14
 - conflicting published claim: 10

@@ -1,35 +1,36 @@
 # Research status
 
-Batch 636 visually checked all **460** printed rows on PDF pages 431-440.
-Every page matches the immutable extraction, raising the durable ledger to
-**366/522 pages** and **16,802/23,978 rows**: 16,770 reviewed rows match and
-32 retain reviewed corrections. The page-308 `Robert H. McDowell` through
-`Thomas J. McFadden` queue saved a Library of Congress attempt for each of 21
-people represented by 23 source rows and reviewed all four official item
-candidates. Every newspaper lead was rejected as unrelated, different-initial,
-historical, or insufficiently bridged. Charles W. McFadden and Stuart P.
-McFadden received high-confidence Army identity decisions from nonshared
-protected identifiers and exact normalized-name agreement. The protected
-identifier printed for Edward C. McElroy resolves to a wholly different Army
-name, so his profile is explicitly conflicting pending Box 504 review. Stuart
-and Robert D. McFadden each retain two immutable index rows linked to one
-cautious person entity. Army grades and occupation codes remain identity
-context, not employer evidence. The queue ends with 20 `in_progress` and one
-`conflicting_sources`. The featured oil-company category remains
+Batch 637 visually checked all **460** printed rows on PDF pages 441-450.
+Pages 442, 444, and 447 were already in the deterministic random audit, so the
+batch adds seven pages and 322 rows to the durable ledger: **373/522 pages**
+and **17,124/23,978 rows** are now reviewed, with 17,092 matching rows and 32
+reviewed corrections. The page-308 `Lawerence B. McFaddin` through `William
+M. McGhee` queue completed a Library of Congress search for all 23 people and
+reviewed all 11 official item candidates. Every newspaper lead was rejected
+as a conflicting-name person or an unbridged common-name result. Ten official
+Army bulk crosswalks received high-confidence identity decisions from
+nonshared protected identifiers and exact or explicitly preserved name
+variants. William C. McGaragle remains ambiguous because his protected
+identifier is also printed for William C. McAragle on page 303; the Army entry
+supports the McGaragle spelling, but no merge is made pending Boxes 496 and
+505 review. The neighboring Edward McCaughy/McGaughy cluster also remains
+ambiguous. Army grades and occupation codes remain identity context, not
+employer evidence. The queue ends with 20 `in_progress` and three
+`needs_identity_review`. The featured oil-company category remains
 evidence-scoped to **seven** people across nine companies. See
-`research/batch-636-progress.md`. No authenticated NARA Catalog request was
+`research/batch-637-progress.md`. No authenticated NARA Catalog request was
 made.
 
 Current SQLite has **23,978/23,978** linked source rows and **23,939** active
-people. Research-attempt coverage is **7,742/23,939 (32.3405%)**;
+people. Research-attempt coverage is **7,763/23,939 (32.4283%)**;
 verified-employer coverage is **280/23,939 (1.1696%)**;
 verified-affiliation coverage is **628/23,939 (2.6233%)**; archival-review
-coverage is **6,303/23,939 (26.3294%)**. There are **16,187** `not_started`
-people and **488** active possible-duplicate groups. SQLite retains **12,850**
-attempts or plans and **4,937** claims: 1,311 confirmed, 1,926 high, 1,375
-medium, 187 low, and 138 conflicting. It has **5,064** source/citation records
-and **2,384** unique source-document keys. The public projection has **2,224**
-affiliations, **708** organizations, **3,857** sources, and **4,746** claims.
+coverage is **6,313/23,939 (26.3712%)**. There are **16,167** `not_started`
+people and **488** active possible-duplicate groups. SQLite retains **12,890**
+attempts or plans and **4,948** claims: 1,311 confirmed, 1,936 high, 1,375
+medium, 187 low, and 139 conflicting. It has **5,066** source/citation records
+and **2,385** unique source-document keys. The public projection has **2,224**
+affiliations, **708** organizations, **3,859** sources, and **4,757** claims.
 Full-index historical research remains unfinished.
 
 Batch 635 visually checked all **460** printed rows on PDF pages 421-430.
