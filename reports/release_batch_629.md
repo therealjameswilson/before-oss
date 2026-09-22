@@ -73,7 +73,27 @@ sources, and 4,711 claims. Full-index historical research remains unfinished.
 
 ## Local verification
 
-Pending clean tracked-only release verification.
+The clean tracked-only release candidate passed all local gates:
+
+- Python: **132/132** tests passed.
+- Playwright: **81/81** release tests passed - 12 Batch 629 profile and
+  checkpoint tests, 33 core route/interaction tests, six analysis tests, and
+  30 accessibility tests across desktop, phone, and tablet projects.
+- Astro: zero errors, warnings, or hints.
+- Deterministic build: two successive builds each produced **24,681 HTML
+  files**, **24,753 total artifacts**, and **294,353,270 bytes**, with tree
+  SHA-256 `532e5b8e3b48487bbfbab4c11b516dff896e47cfa1e8afe4ef58627eea16a108`.
+- Link check: all internal links in 24,681 HTML files resolved; **50,236**
+  unique external URLs were inventoried for the separate live check.
+- Public-identifier audit: 12,926 normalized private identifiers, 120
+  formatted variants, and 24,753 artifacts produced zero aggregate false
+  positives, zero manifest-size false positives, and zero unexpected boundary
+  matches.
+- Public-data manifest: **67 assets**, **98,116,180 bytes**, SHA-256
+  `7fab817e96b818559a57d3ffedefac163d3aa634a3fb3ac1bce9dfaec44c2034`.
+- Ingest validation remained complete, SQLite `quick_check` returned `ok`,
+  foreign-key errors remained zero, and the 200-profile stratified audit
+  retained all seven checks.
 
 ## Deployment
 
