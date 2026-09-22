@@ -1,5 +1,39 @@
 # Research status
 
+Batch 639 visually checked all **460** printed rows on PDF pages 461-470.
+Pages 463 and 468 were already in the deterministic random audit, so the batch
+adds eight pages and 368 rows to the durable ledger: **388/522 pages** and
+**17,814/23,978 rows** are now reviewed, with 17,782 matching rows and 32
+reviewed corrections. The page-309 `Arthur P. McGowan` through `Ernest F.
+McGuire` queue saved a Library of Congress attempt for all 23 people and
+reviewed all 29 official item candidates. Every newspaper lead was rejected as
+a conflicting name or initial, deceased namesake, spousal reference, or
+unbridged common-name result. The East Liverpool pottery-union James J.
+McGowan died in 1940 and is not assigned to the OSS index row. Five official
+Army bulk crosswalks received high-confidence identity decisions from
+nonshared protected identifiers and exact or explicitly preserved name
+variants. The two John E. McGowan rows remain separate ambiguous entities
+because their grades and protected identifiers differ. Army grades and
+occupation codes remain identity context, not employer evidence. LoC requests
+for Terrence P. McGowan and Thomas H. McGrath failed again and remain explicit
+access failures rather than negative results. The queue ends with 21
+`in_progress` and two `needs_identity_review`. The featured oil-company
+category remains evidence-scoped to **seven** people across nine companies.
+See `research/batch-639-progress.md`. No authenticated NARA Catalog request was
+made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **7,809/23,939 (32.6204%)**;
+verified-employer coverage is **280/23,939 (1.1696%)**;
+verified-affiliation coverage is **628/23,939 (2.6233%)**; archival-review
+coverage is **6,327/23,939 (26.4297%)**. There are **16,125** `not_started`
+people and **488** active possible-duplicate groups. SQLite retains **12,960**
+attempts or plans and **4,962** claims: 1,311 confirmed, 1,949 high, 1,375
+medium, 187 low, and 140 conflicting. It has **5,070** source/citation records
+and **2,387** unique source-document keys. The public projection has **2,224**
+affiliations, **708** organizations, **3,863** sources, and **4,771** claims.
+Full-index historical research remains unfinished.
+
 Batch 638 visually checked all **460** printed rows on PDF pages 451-460.
 Pages 453, 455, and 456 were already in the deterministic random audit, so the
 batch adds seven pages and 322 rows to the durable ledger: **380/522 pages**
