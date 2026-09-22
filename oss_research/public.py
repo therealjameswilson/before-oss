@@ -26,6 +26,10 @@ SITE_ROOT = PROJECT_ROOT / "site"
 PUBLIC_ROOT = SITE_ROOT / "public"
 GENERATED_ROOT = SITE_ROOT / "src" / "data" / "generated"
 FULL_SERIAL_RE = re.compile(r"^[A-Z]{0,3}\d{5,10}$")
+PRIVATE_IDENTIFIER_TOKEN_RE = re.compile(
+    r"(?<![A-Za-z0-9])[A-Za-z0-9]{5,10}(?![A-Za-z0-9])"
+)
+PRIVATE_IDENTIFIER_REDACTION = "[private identifier omitted]"
 PUBLIC_TIMESTAMP_COLUMNS = {
     # These dates come from reviewed evidence bundles and research attempts.
     # Database bookkeeping timestamps such as created_at, updated_at, and
@@ -41,6 +45,73 @@ def mask_serial(value: str | None) -> str | None:
         return None
     suffix = value[-4:] if len(value) >= 4 else value
     return f"••••{suffix}"
+
+
+def _private_identifier_values(
+    connection: sqlite3.Connection,
+) -> tuple[set[str], set[str]]:
+    """Return normalized and unusually formatted private identifiers."""
+    normalized: set[str] = set()
+    formatted: set[str] = set()
+    for raw_value, normalized_value in connection.execute(
+        """
+        SELECT DISTINCT serial_number_raw, serial_number_normalized
+        FROM source_records
+        WHERE serial_number_normalized IS NOT NULL
+          AND length(serial_number_normalized) >= 5
+        """
+    ):
+        normalized.add(str(normalized_value).upper())
+        raw = str(raw_value).strip()
+        if re.sub(r"[^A-Z0-9]", "", raw.upper()) == normalized_value and (
+            raw.upper() != normalized_value
+        ):
+            formatted.add(raw)
+    return normalized, formatted
+
+
+def _redact_private_identifiers(
+    value: object,
+    normalized: set[str],
+    formatted: set[str],
+) -> object:
+    """Recursively remove complete private identifiers from public values."""
+    formatted_pattern = (
+        re.compile(
+            r"(?<![A-Za-z0-9])(?:"
+            + "|".join(
+                re.escape(item)
+                for item in sorted(formatted, key=lambda item: (-len(item), item))
+            )
+            + r")(?![A-Za-z0-9])",
+            flags=re.IGNORECASE,
+        )
+        if formatted
+        else None
+    )
+
+    def visit(item: object) -> object:
+        if isinstance(item, str):
+            redacted = PRIVATE_IDENTIFIER_TOKEN_RE.sub(
+                lambda match: (
+                    PRIVATE_IDENTIFIER_REDACTION
+                    if match.group(0).upper() in normalized
+                    else match.group(0)
+                ),
+                item,
+            )
+            if formatted_pattern is not None:
+                redacted = formatted_pattern.sub(
+                    PRIVATE_IDENTIFIER_REDACTION, redacted
+                )
+            return redacted
+        if isinstance(item, list):
+            return [visit(child) for child in item]
+        if isinstance(item, dict):
+            return {key: visit(child) for key, child in item.items()}
+        return item
+
+    return visit(value)
 
 
 def public_rank_as_indexed(
@@ -631,6 +702,25 @@ def build_public_data(
         ),
     }
 
+    private_identifiers, formatted_private_identifiers = _private_identifier_values(
+        connection
+    )
+    profiles = _redact_private_identifiers(
+        profiles, private_identifiers, formatted_private_identifiers
+    )
+    search_index = _redact_private_identifiers(
+        search_index, private_identifiers, formatted_private_identifiers
+    )
+    download_people = _redact_private_identifiers(
+        download_people, private_identifiers, formatted_private_identifiers
+    )
+    affiliations = _redact_private_identifiers(
+        affiliations, private_identifiers, formatted_private_identifiers
+    )
+    public_sources = _redact_private_identifiers(
+        public_sources, private_identifiers, formatted_private_identifiers
+    )
+
     shards: dict[str, list[dict[str, object]]] = defaultdict(list)
     for profile in profiles:
         shards[_initial(str(profile["display_name"]))].append(profile)
@@ -673,6 +763,9 @@ def build_public_data(
             """
         )
     ]
+    organizations = _redact_private_identifiers(
+        organizations, private_identifiers, formatted_private_identifiers
+    )
     _write_json(GENERATED_ROOT / "organizations.json", organizations)
     _write_json(data_root / "organizations.json", organizations)
     analytics = build_analytics(profiles, organizations, stats)

@@ -6,6 +6,7 @@ import unittest
 from pathlib import Path
 
 from oss_research.public import (
+    _redact_private_identifiers,
     _write_json,
     mask_serial,
     organization_linked_people,
@@ -81,6 +82,24 @@ class PublicProjectionTests(unittest.TestCase):
     def test_masks_service_number(self) -> None:
         self.assertEqual(mask_serial("RA3389449"), "••••9449")
         self.assertIsNone(mask_serial(None))
+
+    def test_recursively_redacts_private_identifiers_from_public_text(self) -> None:
+        public = _redact_private_identifiers(
+            {
+                "note": "Exact 12345678 match.",
+                "nested": ["Formatted AB 12-3456 match.", "X12345678Y is not exact."],
+            },
+            {"12345678", "AB123456"},
+            {"AB 12-3456"},
+        )
+        self.assertEqual(public["note"], "Exact [private identifier omitted] match.")
+        self.assertEqual(
+            public["nested"],
+            [
+                "Formatted [private identifier omitted] match.",
+                "X12345678Y is not exact.",
+            ],
+        )
 
     def test_masks_serial_number_printed_in_rank_column(self) -> None:
         self.assertEqual(
