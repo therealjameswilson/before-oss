@@ -96,7 +96,27 @@ Unrelated user-owned duplicate files were preserved and excluded.
 
 ## Deployment
 
-Deployment is pending.
+Pull request [#369](https://github.com/therealjameswilson/before-oss/pull/369)
+merged to `main` as
+`c66a286ee7c3ee3b599d6842281648f9dfcf043e` at 2026-09-22 09:47:36 UTC.
+The PR test passed in 3m54s. The merged-commit Test workflow
+[35712391157](https://github.com/therealjameswilson/before-oss/actions/runs/35712391157)
+passed in 4m12s, and Deploy GitHub Pages workflow
+[35712391174](https://github.com/therealjameswilson/before-oss/actions/runs/35712391174)
+completed successfully (1m22s build and 16s deploy). GitHub emitted
+informational Node.js 20 action-runtime deprecation and future Ubuntu runner
+migration annotations; no release check failed.
+
+The exact-ref live verifier matched all **67** manifest assets and
+**98,261,307** bytes at the local manifest digest, then verified eight core
+routes, all 26 source-register pages, and the eight profiles directly affected
+by the evidence bundle. Independent public checks returned HTTP 200 for the
+home page, the oil-company category, the filtered directory, and all eight
+affected profiles. The live home page reports **7,698 of 23,939** entities
+researched (**32.16%**); the live oil-company page reports the evidence-scoped
+set of **seven people** and **nine historically named companies**.
+
+Public site: https://therealjameswilson.github.io/before-oss/
 
 ## Resume
 
