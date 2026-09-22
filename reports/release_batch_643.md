@@ -110,9 +110,23 @@ and excluded from tracked-only verification.
 
 ## Deployment
 
-Deployment is pending merge of the Batch 643 release candidate. The final
-merged commit, GitHub Actions runs, GitHub Pages workflow, and exact-ref live
-verification will be recorded here after release.
+Pull request [#387](https://github.com/therealjameswilson/before-oss/pull/387)
+merged as commit
+[`73ff4be2f6731c6f3aa01fb010d977d7caf71391`](https://github.com/therealjameswilson/before-oss/commit/73ff4be2f6731c6f3aa01fb010d977d7caf71391).
+The pull-request test
+([run 35791457589](https://github.com/therealjameswilson/before-oss/actions/runs/35791457589))
+passed in 4m25s. The exact merged revision then passed the main-branch test
+([run 35791901159](https://github.com/therealjameswilson/before-oss/actions/runs/35791901159))
+in 4m04s, including a clean rebuilt-source identifier audit.
+
+The exact-ref GitHub Pages workflow
+([run 35791901113](https://github.com/therealjameswilson/before-oss/actions/runs/35791901113))
+succeeded: the build job completed in 1m24s and the deployment job in 19s. The
+live verifier fetched the public artifact using the merged SHA and confirmed
+all **67** manifest assets (**98,575,813** bytes), the manifest SHA-256 above,
+eight core routes, all 26 source-register pages, and 11 direct Batch 643
+profiles. The evidence-scoped oil-company category remains live with seven
+people and nine historically named companies.
 
 - Public release: <https://therealjameswilson.github.io/before-oss/>
 - Oil-company category: <https://therealjameswilson.github.io/before-oss/oil-companies/>
