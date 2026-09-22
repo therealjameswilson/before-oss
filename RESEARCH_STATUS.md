@@ -1,5 +1,38 @@
 # Research status
 
+Batch 633 visually checked all **460** printed rows on PDF pages 401-410.
+Page 402 retains its earlier authoritative random-audit decision; the other
+nine pages match the immutable extraction. The durable ledger now covers
+**337/522 pages** and **15,468/23,978 rows**. The page-306 `Howard P.
+McCormick` through `Charles McCracken Jr.` queue saved a Library of Congress
+attempt for each of 23 people and reviewed all 44 official item candidates.
+Thirty-nine were rejected as conflicting-initial, unrelated, insufficient
+common-name, or postwar results. Five contemporary items support only a
+probable identification of indexed Major General Frank R. McCoy; they do not
+establish his OSS chronology or a pre-OSS employer. Three official Army bulk
+crosswalks received high-confidence identity decisions from nonshared
+protected identifiers and exact normalized names. The protected identifier
+printed for William J. McCoy conflicts with a wholly different Army name and
+grade, so his profile is explicitly conflicting pending Box 501 review. Army
+grades and occupation codes remain identity context, not employer evidence.
+The final queue state is 19 `in_progress`, three `needs_identity_review`, and
+one `conflicting_sources`. The featured oil-company category remains
+evidence-scoped to **seven** people across nine companies. See
+`research/batch-633-progress.md`. No authenticated NARA Catalog request was
+made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **7,675/23,939 (32.0607%)**;
+verified-employer coverage is **280/23,939 (1.1696%)**;
+verified-affiliation coverage is **628/23,939 (2.6233%)**; archival-review
+coverage is **6,300/23,939 (26.3169%)**. There are **16,250** `not_started`
+people and **488** active possible-duplicate groups. SQLite retains **12,750**
+attempts or plans and **4,922** claims: 1,311 confirmed, 1,915 high, 1,375
+medium, 187 low, and 134 conflicting. It has **5,058** source/citation records
+and **2,381** unique source-document keys. The public projection has **2,224**
+affiliations, **708** organizations, **3,851** sources, and **4,731** claims.
+Full-index historical research remains unfinished.
+
 Batch 632 visually checked all **460** printed rows on PDF pages 391-400.
 Pages 396, 397, and 398 retain earlier authoritative corrected decisions; the
 other seven pages match the immutable extraction. The durable ledger now

@@ -1,0 +1,8 @@
+{
+  "bundle_version": "parser-visual-review-v1",
+  "source_pdf_sha256": "7268492342ab131d3b6d2697cfa4f6856cbdcd16e0ed3877e8d6a0478f58c02b",
+  "reviewer": "Codex pages 401-410 visual audit",
+  "matching_pages_reviewed_at": "2026-09-22T08:01:48Z",
+  "matching_pages_notes": "Original PDF pages 401-410 were rendered at 180 dpi and all 460 printed rows were compared with immutable source records for row order, indexed name and initials, rank or grade, private-identifier column occupancy, box, notes, and archive location. Page 402 retains its earlier authoritative reviewed_matches decision from the deterministic random-page audit. The other nine pages match the current extraction and require no correction. Literal source anomalies, uncommon abbreviations, apparent misspellings, duplicate-looking names, and multi-character middle-initial cells remain unchanged. Examples preserved include Clarence, Jr. Rosser; Saymour Rottenberg; Guiseppe Rossetti; Rowan, Jr. Charles; John Jr. Roward; Joseph Jr. Ryan with M F in the printed M I column; John S Russell with the Marine note; Olgo and Pirto Russo; Saliaris Theodore following Salaris Konstantine; Salowitz Neattie and Tillie; Sampatacacus A G; Sanchiomi Erie Y; Sandoe Nichol Jr.; Sato Robert with Y P in the printed M I column; Saunders G C; Saunders Tuth T; Savino Anthony with the Hollas note; Issaac Saxow; and Monteor Sayce. Private identifiers are not included in this bundle or public assets.",
+  "reviewed_matching_pages": [401, 403, 404, 405, 406, 407, 408, 409, 410]
+}
