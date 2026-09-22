@@ -1,29 +1,32 @@
 # Research status
 
-Batch 630 visually checked all **460** printed rows on PDF pages 371-380.
-Page 372 retains its earlier complete-page decision; the other nine pages match
-the immutable extraction. The durable ledger now covers **314/522 pages** and
-**14,410/23,978 rows**. The page-304 `Joseph P. McCarthy` through `Grant S.
-McClelian` queue completed 23 Library of Congress searches and reviewed all 20
-official item candidates. Nineteen were rejected. A probable John W. McClain
-newspaper lead remains private because it lacks a second identity bridge and
-names no employer. Richard D. McCarthy, Lester K. McClaflin, and William H.
-McClare received high-confidence Army identity crosswalks, while Rex H.
-McCauley's identifier/name conflict remains explicit. Three probable-duplicate
-clusters remain separate. The featured oil-company category remains
-evidence-scoped to **seven** people. See `research/batch-630-progress.md`. No
-authenticated NARA Catalog request was made.
+Batch 631 visually checked all **460** printed rows on PDF pages 381-390.
+Pages 381, 387, and 389 retain earlier authoritative decisions, including three
+corrected column-shift rows; the other seven pages match the immutable
+extraction. The durable ledger now covers **321/522 pages** and
+**14,732/23,978 rows**. The page-305 `Margaret J. McClellan` through `Oscar D.
+McCollum` queue completed 23 Library of Congress searches and reviewed all four
+official item candidates. All four were rejected as different-initial,
+unrelated, or postwar namesakes. Seven official Army bulk crosswalks received
+high-confidence identity decisions from normalized full-name and nonshared
+protected-identifier agreement. Harold C. McCollom Jr. and Oscar D. McCollum
+Jr. are retained only as sourced name variants; the index spelling is not
+silently changed. Army grades and occupation codes remain identity context,
+not employer evidence. The featured oil-company category remains
+evidence-scoped to **seven** people across nine companies. See
+`research/batch-631-progress.md`. No authenticated NARA Catalog request was
+made.
 
 Current SQLite has **23,978/23,978** linked source rows and **23,939** active
-people. Research-attempt coverage is **7,607/23,939 (31.7766%)**;
+people. Research-attempt coverage is **7,629/23,939 (31.8685%)**;
 verified-employer coverage is **280/23,939 (1.1696%)**;
 verified-affiliation coverage is **628/23,939 (2.6233%)**; archival-review
-coverage is **6,300/23,939 (26.3169%)**. There are **16,311** `not_started`
-people and **488** active possible-duplicate groups. SQLite retains **12,665**
-attempts or plans and **4,906** claims: 1,311 confirmed, 1,901 high, 1,374
-medium, 187 low, and 133 conflicting. It has **5,050** source/citation records
+coverage is **6,300/23,939 (26.3169%)**. There are **16,291** `not_started`
+people and **488** active possible-duplicate groups. SQLite retains **12,695**
+attempts or plans and **4,913** claims: 1,311 confirmed, 1,908 high, 1,374
+medium, 187 low, and 133 conflicting. It has **5,052** source/citation records
 and **2,377** unique source-document keys. The public projection has **2,224**
-affiliations, **708** organizations, **3,843** sources, and **4,715** claims.
+affiliations, **708** organizations, **3,845** sources, and **4,722** claims.
 Full-index historical research remains unfinished.
 
 Batch 615 visually checked all **460** printed rows on PDF pages 221–230.

@@ -1,0 +1,329 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 631 page 305 source and identity review",
+  "sources": [
+    {
+      "key": "nara-index-page305-b631",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 499",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 305, printed rows 1-23; original page image reviewed at 180 dpi; archival location 230/86/36/04",
+      "access_date": "2026-09-22",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Indexed spellings, ranks, suffix omissions, boxes, and separate rows are retained. Full protected identifiers remain private and are excluded from public output."
+    },
+    {
+      "key": "army-b580-b631",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; fixed-width name and protected-identifier crosswalk; private candidate records retain record ordinals",
+      "access_date": "2026-09-22",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "This is official bulk data, not a Catalog API response. Army grade and occupation codes are identity context, not named employers; full identifiers are excluded."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-douglas-t-mcclure-army-b631",
+      "person_id": "7d2e664b-6cf3-5488-9009-cacef28f868d",
+      "claim_type": "identity",
+      "claim_text": "The indexed PFC Douglas T. McClure has a high-confidence match to an official Army enlistment record.",
+      "evidence_paraphrase": "The indexed full name and a nonshared protected identifier agree with the official Army fixed-width entry. No employer is named.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity crosswalk only. The Army grade and occupation code are not converted into an employer or immediate affiliation.",
+      "sources": [
+        {"source_key": "nara-index-page305-b631"},
+        {"source_key": "army-b580-b631", "locator_override": "Official bulk record ordinal 601865; protected identifier and full-name comparison"}
+      ]
+    },
+    {
+      "key": "identity-floyd-f-mcclintock-army-b631",
+      "person_id": "15d5ee70-c60d-5dc3-a5f1-0471d0b78929",
+      "claim_type": "identity",
+      "claim_text": "The indexed Corporal Floyd F. McClintock has a high-confidence match to an official Army enlistment record.",
+      "evidence_paraphrase": "The indexed full name and a nonshared protected identifier agree with the official Army fixed-width entry. No employer is named.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity crosswalk only. Army grade and occupation codes are not employment evidence.",
+      "sources": [
+        {"source_key": "nara-index-page305-b631"},
+        {"source_key": "army-b580-b631", "locator_override": "Official bulk record ordinal 4555564; protected identifier and full-name comparison"}
+      ]
+    },
+    {
+      "key": "identity-harold-c-mccollom-army-b631",
+      "person_id": "51b951af-5498-5e4a-8fad-f116c358817a",
+      "claim_type": "identity",
+      "claim_text": "The indexed Corporal Harold C. McCollom has a high-confidence match to an official Army enlistment record that adds the suffix Jr.",
+      "evidence_paraphrase": "The indexed base full name and a nonshared protected identifier agree with the Army entry. The Army suffix is retained as a variant.",
+      "identity_match_assessment": "High confidence from normalized base-name agreement and a unique protected-identifier match; the added suffix does not contradict the index.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The indexed name remains unchanged. Harold C. McCollom Jr. is a sourced variant, and Army codes are not converted into employment claims.",
+      "sources": [
+        {"source_key": "nara-index-page305-b631"},
+        {"source_key": "army-b580-b631", "locator_override": "Official bulk record ordinal 2975072; protected identifier, base full-name, and suffix comparison"}
+      ]
+    },
+    {
+      "key": "identity-jack-m-mcclintock-army-b631",
+      "person_id": "376a2dba-15b5-5be8-8f4c-5d2de233d6c2",
+      "claim_type": "identity",
+      "claim_text": "The indexed Staff Sergeant Jack M. McClintock has a high-confidence match to an official Army enlistment record.",
+      "evidence_paraphrase": "The indexed full name and a nonshared protected identifier agree with the official Army fixed-width entry. No employer is named.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity crosswalk only. Differing grade snapshots are not treated as employment evidence.",
+      "sources": [
+        {"source_key": "nara-index-page305-b631"},
+        {"source_key": "army-b580-b631", "locator_override": "Official bulk record ordinal 1041501; protected identifier and full-name comparison"}
+      ]
+    },
+    {
+      "key": "identity-james-i-mccollum-army-b631",
+      "person_id": "2e2830de-b4c5-5f7a-abb6-f8f8d4d0bb72",
+      "claim_type": "identity",
+      "claim_text": "The indexed James I. McCollum has a high-confidence match to an official Army enlistment record.",
+      "evidence_paraphrase": "The indexed full name and a nonshared protected identifier agree with the official Army fixed-width entry. The index prints no rank.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity crosswalk only. The blank index rank is preserved and Army occupation coding is not used as employment evidence.",
+      "sources": [
+        {"source_key": "nara-index-page305-b631"},
+        {"source_key": "army-b580-b631", "locator_override": "Official bulk record ordinal 1678906; protected identifier and full-name comparison"}
+      ]
+    },
+    {
+      "key": "identity-john-j-mccole-army-b631",
+      "person_id": "70ff13d0-273c-5aaa-8d83-0d327aab6067",
+      "claim_type": "identity",
+      "claim_text": "The indexed Corporal John J. McCole has a high-confidence match to an official Army enlistment record.",
+      "evidence_paraphrase": "The indexed full name and a nonshared protected identifier agree with the official Army fixed-width MC COLE entry. No employer is named.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity crosswalk only. Fixed-width surname spacing is normalized separately from the preserved indexed spelling.",
+      "sources": [
+        {"source_key": "nara-index-page305-b631"},
+        {"source_key": "army-b580-b631", "locator_override": "Official bulk record ordinal 629754; protected identifier and full-name comparison"}
+      ]
+    },
+    {
+      "key": "identity-oscar-d-mccollum-army-b631",
+      "person_id": "24491f3b-b7bd-5973-94fd-2a0a38b14cf1",
+      "claim_type": "identity",
+      "claim_text": "The indexed Oscar D. McCollum has a high-confidence match to an official Army enlistment record that adds the suffix Jr.",
+      "evidence_paraphrase": "The indexed base full name and a nonshared protected identifier agree with the Army entry. The Army suffix is retained as a variant.",
+      "identity_match_assessment": "High confidence from normalized base-name agreement and a unique protected-identifier match; the added suffix does not contradict the index.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The indexed name and blank rank remain unchanged. Oscar D. McCollum Jr. is a sourced variant, not a silent correction.",
+      "sources": [
+        {"source_key": "nara-index-page305-b631"},
+        {"source_key": "army-b580-b631", "locator_override": "Official bulk record ordinal 7409331; protected identifier, base full-name, and suffix comparison"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "7d2e664b-6cf3-5488-9009-cacef28f868d",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC CLURE spacing and in a nonshared protected identifier. Army codes are not treated as an employer or immediate affiliation.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol with directory, obituary, institutional, and Box 499 research to identify pre-OSS employment or assignment."
+    },
+    {
+      "person_id": "15d5ee70-c60d-5dc3-a5f1-0471d0b78929",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC CLINTOCK spacing and in a nonshared protected identifier. Army codes are not employment evidence.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol with directory, obituary, institutional, and Box 499 research to identify pre-OSS employment or assignment."
+    },
+    {
+      "person_id": "51b951af-5498-5e4a-8fad-f116c358817a",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in base full name after normalization of fixed-width MC COLLOM spacing and in a nonshared protected identifier. The Army suffix Jr. is retained as a variant.",
+      "name_variants": ["Harold C McCollom Jr."],
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and compare Box 499 with directory, obituary, and institutional sources for pre-OSS employment or assignment."
+    },
+    {
+      "person_id": "376a2dba-15b5-5be8-8f4c-5d2de233d6c2",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC CLINTOCK spacing and in a nonshared protected identifier. Differing grade snapshots are not employment evidence.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol with directory, obituary, institutional, and Box 499 research to identify pre-OSS employment or assignment."
+    },
+    {
+      "person_id": "2e2830de-b4c5-5f7a-abb6-f8f8d4d0bb72",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC COLLUM spacing and in a nonshared protected identifier. The blank index rank remains unchanged.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol with directory, obituary, institutional, and Box 499 research to identify pre-OSS employment or assignment."
+    },
+    {
+      "person_id": "70ff13d0-273c-5aaa-8d83-0d327aab6067",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC COLE spacing and in a nonshared protected identifier. Army codes are not treated as a named employer.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol with directory, obituary, institutional, and Box 499 research to identify pre-OSS employment or assignment."
+    },
+    {
+      "person_id": "24491f3b-b7bd-5973-94fd-2a0a38b14cf1",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in base full name after normalization of fixed-width MC COLLUM spacing and in a nonshared protected identifier. The Army suffix Jr. is retained as a variant and the blank index rank remains unchanged.",
+      "name_variants": ["Oscar D McCollum Jr."],
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and compare Box 499 with directory, obituary, and institutional sources for pre-OSS employment or assignment."
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "batch631-douglas-t-mcclure-army-review",
+      "person_id": "7d2e664b-6cf3-5488-9009-cacef28f868d",
+      "source_adapter": "army_bulk_review",
+      "query_text": "Compare indexed Douglas T McClure with the official Army bulk identity candidate",
+      "query_variant_type": "protected_identifier_identity_review",
+      "started_at": "2026-09-22T06:10:00Z",
+      "completed_at": "2026-09-22T06:14:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Unique protected-identifier and normalized full-name agreement support a high-confidence identity; no employer is named.",
+      "next_action": "Continue the minimum research protocol and inspect Box 499.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch631-floyd-f-mcclintock-army-review",
+      "person_id": "15d5ee70-c60d-5dc3-a5f1-0471d0b78929",
+      "source_adapter": "army_bulk_review",
+      "query_text": "Compare indexed Floyd F McClintock with the official Army bulk identity candidate",
+      "query_variant_type": "protected_identifier_identity_review",
+      "started_at": "2026-09-22T06:10:00Z",
+      "completed_at": "2026-09-22T06:14:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Unique protected-identifier and normalized full-name agreement support a high-confidence identity; no employer is named.",
+      "next_action": "Continue the minimum research protocol and inspect Box 499.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch631-harold-c-mccollom-army-review",
+      "person_id": "51b951af-5498-5e4a-8fad-f116c358817a",
+      "source_adapter": "army_bulk_review",
+      "query_text": "Compare indexed Harold C McCollom with the official Army bulk identity candidate",
+      "query_variant_type": "protected_identifier_identity_review",
+      "started_at": "2026-09-22T06:10:00Z",
+      "completed_at": "2026-09-22T06:14:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Unique protected-identifier and base-name agreement support a high-confidence identity; the Army Jr. suffix is retained as a variant and no employer is named.",
+      "next_action": "Continue the minimum research protocol and inspect Box 499.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch631-jack-m-mcclintock-army-review",
+      "person_id": "376a2dba-15b5-5be8-8f4c-5d2de233d6c2",
+      "source_adapter": "army_bulk_review",
+      "query_text": "Compare indexed Jack M McClintock with the official Army bulk identity candidate",
+      "query_variant_type": "protected_identifier_identity_review",
+      "started_at": "2026-09-22T06:10:00Z",
+      "completed_at": "2026-09-22T06:14:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Unique protected-identifier and normalized full-name agreement support a high-confidence identity; no employer is named.",
+      "next_action": "Continue the minimum research protocol and inspect Box 499.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch631-james-i-mccollum-army-review",
+      "person_id": "2e2830de-b4c5-5f7a-abb6-f8f8d4d0bb72",
+      "source_adapter": "army_bulk_review",
+      "query_text": "Compare indexed James I McCollum with the official Army bulk identity candidate",
+      "query_variant_type": "protected_identifier_identity_review",
+      "started_at": "2026-09-22T06:10:00Z",
+      "completed_at": "2026-09-22T06:14:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Unique protected-identifier and normalized full-name agreement support a high-confidence identity; no employer is named.",
+      "next_action": "Continue the minimum research protocol and inspect Box 499.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch631-john-j-mccole-army-review",
+      "person_id": "70ff13d0-273c-5aaa-8d83-0d327aab6067",
+      "source_adapter": "army_bulk_review",
+      "query_text": "Compare indexed John J McCole with the official Army bulk identity candidate",
+      "query_variant_type": "protected_identifier_identity_review",
+      "started_at": "2026-09-22T06:10:00Z",
+      "completed_at": "2026-09-22T06:14:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Unique protected-identifier and normalized full-name agreement support a high-confidence identity; no employer is named.",
+      "next_action": "Continue the minimum research protocol and inspect Box 499.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch631-oscar-d-mccollum-army-review",
+      "person_id": "24491f3b-b7bd-5973-94fd-2a0a38b14cf1",
+      "source_adapter": "army_bulk_review",
+      "query_text": "Compare indexed Oscar D McCollum with the official Army bulk identity candidate",
+      "query_variant_type": "protected_identifier_identity_review",
+      "started_at": "2026-09-22T06:10:00Z",
+      "completed_at": "2026-09-22T06:14:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Unique protected-identifier and base-name agreement support a high-confidence identity; the Army Jr. suffix is retained as a variant and no employer is named.",
+      "next_action": "Continue the minimum research protocol and inspect Box 499.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    }
+  ]
+}
