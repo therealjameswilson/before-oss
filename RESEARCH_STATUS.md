@@ -1,5 +1,39 @@
 # Research status
 
+Batch 635 visually checked all **460** printed rows on PDF pages 421-430.
+Page 424 was already in the deterministic random audit, so this batch adds
+nine pages and 414 rows to the durable ledger: **356/522 pages** and
+**16,342/23,978 rows** are now reviewed, with 16,310 matching rows and 32
+reviewed corrections. The page-307 `Mary B. McDonald` through `Michael V.
+McDowell` queue saved a Library of Congress attempt for each of 23 people and
+reviewed all 28 official item candidates. Every newspaper lead was rejected
+as a different-initial person, unrelated or contextless name, postwar item, or
+common name without an indexed-person bridge. Four official Army bulk
+crosswalks received high-confidence identity decisions from nonshared
+protected identifiers and exact or carefully preserved normalized-name
+agreement. The identifiers printed for Raymond W. McDonald and Roy W.
+McDonald instead resolve to conflicting Army entries, so neither Army identity
+nor an unbridged institutional namesake was assigned. The two Robert L.
+McDougal rows remain separate ambiguous entities because one has a grade and
+the other an identifier. Army grades and occupation codes remain identity
+context, not employer evidence. The queue ends with 19 `in_progress`, two
+`needs_identity_review`, and two `conflicting_sources`. The featured
+oil-company category remains evidence-scoped to **seven** people across nine
+companies. See `research/batch-635-progress.md`. No authenticated NARA Catalog
+request was made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **7,721/23,939 (32.2528%)**;
+verified-employer coverage is **280/23,939 (1.1696%)**;
+verified-affiliation coverage is **628/23,939 (2.6233%)**; archival-review
+coverage is **6,300/23,939 (26.3169%)**. There are **16,208** `not_started`
+people and **488** active possible-duplicate groups. SQLite retains **12,823**
+attempts or plans and **4,934** claims: 1,311 confirmed, 1,924 high, 1,375
+medium, 187 low, and 137 conflicting. It has **5,062** source/citation records
+and **2,383** unique source-document keys. The public projection has **2,224**
+affiliations, **708** organizations, **3,855** sources, and **4,743** claims.
+Full-index historical research remains unfinished.
+
 Batch 634 visually checked all **460** printed rows on PDF pages 411-420.
 Every page matches the immutable extraction, raising the durable ledger to
 **347/522 pages** and **15,928/23,978 rows**: 15,896 reviewed rows match and
