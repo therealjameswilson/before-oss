@@ -1,0 +1,326 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 630 page 304 source and identity review",
+  "sources": [
+    {
+      "key": "nara-index-page304-b630",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 498-499",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 304, printed rows 24-46; original page image reviewed at 180 dpi; archival location 230/86/36/04",
+      "access_date": "2026-09-22",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Indexed spellings, ranks, boxes, and separate rows are retained. Full protected identifiers remain private and are excluded from public output."
+    },
+    {
+      "key": "nara-index-page288-b630",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 471",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 288, row 27; Robert Mackay; visually reviewed at 180 dpi; archival location 230/86/35/07",
+      "access_date": "2026-09-22",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "The Major rank, indexed spelling, box, and duplicate conflict are retained; the full protected identifier remains private."
+    },
+    {
+      "key": "nara-index-page305-b630",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 499",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 305, row 21; Elmer L McCollum; visually reviewed at 180 dpi; archival location 230/86/36/04",
+      "access_date": "2026-09-22",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "The Private rank and indexed spelling are retained; the full protected identifier remains private."
+    },
+    {
+      "key": "nara-index-page308-b630",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 505",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 308, Edward A McGaughy and Sergeant Edward McGaughy rows; original page image reviewed; archival location 230/86/36/05",
+      "access_date": "2026-09-22",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Both printed rows, column placements, and identifier-length conflict remain visible in the private database; protected identifiers are excluded from public output."
+    },
+    {
+      "key": "army-b580",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; fixed-width name and protected-identifier crosswalk; private candidate records retain record ordinals",
+      "access_date": "2026-09-22",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "This is official bulk data, not a Catalog API response. Army grade and occupation codes are not named employers; full identifiers are excluded."
+    },
+    {
+      "key": "loc-ypsilanti-john-w-mcclain-1945-b630",
+      "stable_url": "https://www.loc.gov/resource/sn97063183/1945-02-26/ed-1/?sp=4",
+      "archival_identifier": "LCCN sn97063183; 1945-02-26, edition 1, image 4",
+      "title": "The Ypsilanti Daily Press, February 26, 1945",
+      "repository_publisher": "Library of Congress, Chronicling America",
+      "publication_record_date": "1945-02-26",
+      "locator": "Image 4; wartime brief identifying Lieutenant Commander John W. McClain of Marion, Ohio, after return from Iwo Jima",
+      "access_date": "2026-09-22",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Chronicling America: Historic American Newspapers",
+      "rights_notes": "Official item-level page and OCR context inspected. The project retains only a short supporting excerpt and paraphrase."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "john-w-mcclain-former-reporter-candidate-b630",
+      "person_id": "96af3651-bce6-553d-84d7-1bdddb854c3f",
+      "role_title": "Former reporter",
+      "occupation": "reporter",
+      "relationship_type": "unknown",
+      "date_precision": "A February 1945 newspaper calls the naval officer a former reporter; the employer, employment dates, and relationship to OSS entry are not stated",
+      "city": "Marion",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "probable",
+      "claim_confidence": "low",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "withheld_low_confidence",
+      "research_notes": "The contemporary item matches the full indexed name and distinctive Lieutenant Commander rank but supplies no protected identifier or OSS/file linkage. It documents an occupation, not a named employer, and remains private pending Box 499 and Navy-record review."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-richard-d-mccarthy-army-b630",
+      "person_id": "32ac1b50-5eca-5690-94f1-5ffb7c21472f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Corporal Richard D. McCarthy has a high-confidence match to an official Army enlistment record.",
+      "evidence_paraphrase": "The indexed full name and a nonshared protected identifier agree with the official Army fixed-width entry. No employer is named.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity crosswalk only. The Army occupation code is not converted into an employer or immediate affiliation.",
+      "sources": [
+        {"source_key": "nara-index-page304-b630"},
+        {"source_key": "army-b580", "locator_override": "Official bulk record ordinal 4402748; protected identifier and full-name comparison"}
+      ]
+    },
+    {
+      "key": "identity-lester-k-mcclaflin-army-b630",
+      "person_id": "e0f4aa24-f702-52f2-a504-e8f68ff3ba2b",
+      "claim_type": "identity",
+      "claim_text": "The indexed T-5 Lester K. McClaflin has a high-confidence match to an official Army enlistment record.",
+      "evidence_paraphrase": "The indexed full name and a nonshared protected identifier agree with the official Army fixed-width entry. No employer is named.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity crosswalk only. The Army occupation code is not converted into an employer or immediate affiliation.",
+      "sources": [
+        {"source_key": "nara-index-page304-b630"},
+        {"source_key": "army-b580", "locator_override": "Official bulk record ordinal 7575268; protected identifier and full-name comparison"}
+      ]
+    },
+    {
+      "key": "identity-william-h-mcclare-army-b630",
+      "person_id": "49607110-dce1-5cc6-baa6-209fcb59625d",
+      "claim_type": "identity",
+      "claim_text": "The indexed Technical Sergeant William H. McClare has a high-confidence match to an official Army enlistment record.",
+      "evidence_paraphrase": "The indexed full name and a nonshared protected identifier agree with the official Army fixed-width entry. No employer is named.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity crosswalk only. The Army occupation code is not converted into an employer or immediate affiliation.",
+      "sources": [
+        {"source_key": "nara-index-page304-b630"},
+        {"source_key": "army-b580", "locator_override": "Official bulk record ordinal 385198; protected identifier and full-name comparison"}
+      ]
+    },
+    {
+      "key": "identity-rex-h-mccauley-army-conflict-b630",
+      "person_id": "22ad5999-7308-5fb9-bba2-018ae671ceac",
+      "claim_type": "identity",
+      "claim_text": "The identifier printed for Rex H. McCauley conflicts with an official Army entry naming Lawrence R. Chambers.",
+      "evidence_paraphrase": "The protected identifier agrees while the first, middle, and last names all conflict. No Army occupation or employer is assigned to McCauley.",
+      "identity_match_assessment": "Conflicting official evidence; the index row and Army bulk record cannot be reconciled without reviewing the original personnel and Army records.",
+      "temporal_assessment": "The conflict concerns identity only and establishes no pre-OSS chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The protected identifier is not published. Box 498 and the original Army record must be compared before any correction or occupation claim.",
+      "sources": [
+        {"source_key": "nara-index-page304-b630"},
+        {"source_key": "army-b580", "locator_override": "Official bulk record ordinal 1391361; protected identifier agrees but the name is Lawrence R. Chambers", "support_type": "contradicts"}
+      ]
+    },
+    {
+      "key": "identity-john-w-mcclain-reporter-candidate-b630",
+      "person_id": "96af3651-bce6-553d-84d7-1bdddb854c3f",
+      "claim_type": "identity",
+      "claim_text": "A 1945 newspaper item about Lieutenant Commander John W. McClain of Marion, Ohio, is a probable but unconfirmed match to the indexed naval officer.",
+      "evidence_excerpt": "Lieutenant Commander John W. McClain of Marion, O., a former reporter",
+      "evidence_paraphrase": "The full name and distinctive naval rank align, but the article supplies no protected identifier, OSS assignment, box reference, or second independent bridge.",
+      "identity_match_assessment": "Probable candidate from exact full-name and rank agreement; below the project's high-confidence threshold for a common surname without another corroborating identifier.",
+      "temporal_assessment": "The article is dated February 1945 and describes wartime naval service, but does not establish when or whether the reported occupation immediately preceded OSS.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "Private lead only. Review Box 499, Navy officer records, and Marion newspaper directories before publishing the identity or occupation.",
+      "sources": [
+        {"source_key": "nara-index-page304-b630", "support_type": "context_only"},
+        {"source_key": "loc-ypsilanti-john-w-mcclain-1945-b630", "excerpt_override": "Lieutenant Commander John W. McClain of Marion, O., a former reporter"}
+      ]
+    },
+    {
+      "key": "occupation-john-w-mcclain-former-reporter-candidate-b630",
+      "person_id": "96af3651-bce6-553d-84d7-1bdddb854c3f",
+      "affiliation_key": "john-w-mcclain-former-reporter-candidate-b630",
+      "claim_type": "occupation",
+      "claim_text": "If the newspaper subject is the indexed person, John W. McClain had previously worked as a reporter.",
+      "evidence_excerpt": "Lieutenant Commander John W. McClain of Marion, O., a former reporter",
+      "evidence_paraphrase": "The contemporary item supplies the occupation but names no newspaper employer and does not date the reporting work or connect it to OSS entry.",
+      "identity_match_assessment": "Probable candidate only; exact name and rank are insufficient for publication without another index-specific identifier.",
+      "temporal_assessment": "Pre-February 1945 occupation with uncertain relation to OSS or military entry; not marked immediate and not treated as the last civilian employer.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "No employer is inferred from the word reporter. This lead remains private and excluded from public profiles and analytics.",
+      "sources": [
+        {"source_key": "loc-ypsilanti-john-w-mcclain-1945-b630", "excerpt_override": "Lieutenant Commander John W. McClain of Marion, O., a former reporter"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "32ac1b50-5eca-5690-94f1-5ffb7c21472f",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC CARTHY spacing and in a nonshared protected identifier. Army grade and occupation coding are not treated as a named employer or immediate pre-OSS affiliation.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol with directory, obituary, institutional, and Box 498 research to identify pre-OSS employment or assignment."
+    },
+    {
+      "person_id": "e0f4aa24-f702-52f2-a504-e8f68ff3ba2b",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC CLAFLIN spacing and in a nonshared protected identifier. Army grade and occupation coding are not treated as a named employer or immediate pre-OSS affiliation.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol with directory, obituary, institutional, and Box 499 research to identify pre-OSS employment or assignment."
+    },
+    {
+      "person_id": "49607110-dce1-5cc6-baa6-209fcb59625d",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC CLARE spacing and in a nonshared protected identifier. Army grade and occupation coding are not treated as a named employer or immediate pre-OSS affiliation.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol with directory, obituary, institutional, and Box 499 research to identify pre-OSS employment or assignment."
+    },
+    {
+      "person_id": "22ad5999-7308-5fb9-bba2-018ae671ceac",
+      "identity_status": "conflicting",
+      "identity_evidence": "The protected identifier in the Rex H. McCauley index row points to an official Army bulk entry naming Lawrence R. Chambers. Because all name elements conflict, the Army entry is not attached as McCauley's identity, occupation, or employer.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect Box 498 and the original Army record to resolve the protected-identifier/name conflict before using any Army data.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "96af3651-bce6-553d-84d7-1bdddb854c3f",
+      "identity_status": "probable",
+      "identity_evidence": "A contemporary newspaper item matches the exact John W. McClain name and distinctive Lieutenant Commander rank, but the absence of a protected identifier, OSS assignment, or second independent bridge keeps the candidate below the project's publication threshold.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 499, Navy officer records, and Marion, Ohio newspaper directories to confirm the identity, reporter occupation, named employer, and chronology.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "batch630-robert-mackay-mccay-duplicate-review",
+      "person_id": "b2da3b89-0942-5b61-a402-b17d1759dc16",
+      "source_adapter": "index_review",
+      "query_text": "Compare visually reviewed pages 288 and 304 for Robert Mackay and Robert McCay duplicate evidence",
+      "query_variant_type": "duplicate_identity_review",
+      "started_at": "2026-09-22T04:48:00Z",
+      "completed_at": "2026-09-22T04:52:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "The same protected identifier and surname variation support a probable duplicate, but different boxes prevent an automatic merge.",
+      "next_action": "Compare the Box 471 and Box 499 personnel files.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch630-elmer-mcccollum-mccollum-duplicate-review",
+      "person_id": "3b715d57-6fcc-58f1-8da6-b8438bf52f62",
+      "source_adapter": "index_and_army_bulk_review",
+      "query_text": "Compare visually reviewed pages 304 and 305 with the official Army bulk identity candidate for Elmer L McCcollum or McCollum",
+      "query_variant_type": "duplicate_identity_review",
+      "started_at": "2026-09-22T04:48:00Z",
+      "completed_at": "2026-09-22T04:52:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 0,
+      "research_notes": "The name and protected identifier support a probable duplicate; the printed T-5 and Private ranks conflict and both rows remain separate.",
+      "next_action": "Compare both Box 499 personnel files.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch630-edward-a-mcgaughy-three-row-review",
+      "person_id": "806e928a-6bb1-5935-a8cc-258cb69cbdf6",
+      "source_adapter": "index_review",
+      "query_text": "Compare visually reviewed pages 304 and 308 for Edward A McCaughy, Edward A McGaughy, and Sergeant Edward McGaughy",
+      "query_variant_type": "duplicate_identity_review",
+      "started_at": "2026-09-22T04:48:00Z",
+      "completed_at": "2026-09-22T04:52:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Two rows share an identifier while the adjacent fuller-name row differs by one final identifier digit. All three remain separate.",
+      "next_action": "Compare the Box 498 and Box 505 personnel files.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch630-edward-mcgaughy-three-row-review",
+      "person_id": "73bc3437-460f-5c09-9903-82b581914e1e",
+      "source_adapter": "index_review",
+      "query_text": "Compare visually reviewed pages 304 and 308 for Edward A McCaughy, Edward A McGaughy, and Sergeant Edward McGaughy",
+      "query_variant_type": "duplicate_identity_review",
+      "started_at": "2026-09-22T04:48:00Z",
+      "completed_at": "2026-09-22T04:52:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Two rows share an identifier while the adjacent fuller-name row differs by one final identifier digit. All three remain separate.",
+      "next_action": "Compare the Box 498 and Box 505 personnel files.",
+      "attempt_number": 1,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    }
+  ]
+}

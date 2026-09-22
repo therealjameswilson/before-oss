@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T02:32:32+00:00",
+  "generated_at": "2026-09-22T05:05:41+00:00",
   "expected_source_rows": 23978,
   "actual_source_rows": 23978,
   "expected_pages": 522,
@@ -1046,14 +1046,14 @@
   },
   "rendered_page_count": 0,
   "visual_review_status_counts": {
-    "not_selected": 217,
+    "not_selected": 208,
     "reviewed_after_correction": 29,
-    "reviewed_matches": 276
+    "reviewed_matches": 285
   },
   "source_record_visual_review_status_counts": {
-    "not_reviewed": 9982,
+    "not_reviewed": 9568,
     "reviewed_corrected": 32,
-    "reviewed_matches": 13964
+    "reviewed_matches": 14378
   },
   "checks": {
     "exact_source_row_count": true,
