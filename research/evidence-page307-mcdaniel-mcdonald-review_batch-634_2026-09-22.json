@@ -1,0 +1,338 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 634 page 307 source and identity review",
+  "sources": [
+    {
+      "key": "nara-index-page307-b634",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 502-503",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 307, printed rows 1-23; original page image previously reviewed at 180 dpi; archival location 230/86/36/04",
+      "access_date": "2026-09-22",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Indexed spellings, ranks, boxes, and separate rows are retained. Full protected identifiers remain private and are excluded from public output."
+    },
+    {
+      "key": "army-b580-b634",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; fixed-width name and protected-identifier crosswalk; private candidate records retain record ordinals",
+      "access_date": "2026-09-22",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "This is official bulk data, not a Catalog API response. Army grade and occupation codes are identity context, not named employers; full identifiers and raw records are excluded."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-gene-a-mcdaniel-army-b634",
+      "person_id": "718ff7d4-e469-544e-993c-1f77cc15c5ab",
+      "claim_type": "identity",
+      "claim_text": "The indexed Gene A. McDaniel has a high-confidence match to an official Army enlistment entry.",
+      "evidence_paraphrase": "The full name and a nonshared protected identifier agree after normalization of fixed-width MC DANIEL surname spacing.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The grade differs between the Army entry and the OSS index, consistent with records from different moments; chronology still requires file review. No Army code is converted into an employer.",
+      "sources": [
+        {"source_key": "nara-index-page307-b634", "locator_override": "PDF page 307, row 2, Box 502"},
+        {"source_key": "army-b580-b634", "locator_override": "Official bulk record ordinal 6298120; protected identifier and fixed-width name comparison"}
+      ]
+    },
+    {
+      "key": "identity-dewey-e-mcdonald-army-b634",
+      "person_id": "646b8baa-726e-5da5-9373-5d3515172cad",
+      "claim_type": "identity",
+      "claim_text": "The indexed Dewey E. McDonald has a high-confidence match to an official Army enlistment entry.",
+      "evidence_paraphrase": "The full name and a nonshared protected identifier agree after normalization of fixed-width MC DONALD surname spacing.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The grade differs between the Army entry and the OSS index, so the personnel file remains necessary for chronology. Army codes are not employment evidence.",
+      "sources": [
+        {"source_key": "nara-index-page307-b634", "locator_override": "PDF page 307, row 14, Box 502"},
+        {"source_key": "army-b580-b634", "locator_override": "Official bulk record ordinal 1437812; protected identifier and fixed-width name comparison"}
+      ]
+    },
+    {
+      "key": "identity-george-s-mcdonald-army-b634",
+      "person_id": "f90d6015-81a6-5a84-9aa7-cdd915fd85d8",
+      "claim_type": "identity",
+      "claim_text": "The indexed George S. McDonald has a high-confidence match to an official Army enlistment entry.",
+      "evidence_paraphrase": "The full name and a nonshared protected identifier agree after normalization of fixed-width MC DONALD surname spacing.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Five newspaper candidates were rejected as different-initial namesakes or contextless surname hits. Army codes are not converted into an employer.",
+      "sources": [
+        {"source_key": "nara-index-page307-b634", "locator_override": "PDF page 307, row 16, Box 502"},
+        {"source_key": "army-b580-b634", "locator_override": "Official bulk record ordinal 5587414; protected identifier and fixed-width name comparison"}
+      ]
+    },
+    {
+      "key": "identity-georgie-r-mcdonald-army-b634",
+      "person_id": "71d34770-f8fd-58ce-af88-2e1ec03f3cdb",
+      "claim_type": "identity",
+      "claim_text": "The indexed Georgie R. McDonald has a high-confidence match to an official Army enlistment entry.",
+      "evidence_paraphrase": "The full name and a nonshared protected identifier agree after normalization of fixed-width MC DONALD surname spacing.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The grade differs between sources and requires chronology review; the private identifier and exact name establish the identity crosswalk. No employer is inferred.",
+      "sources": [
+        {"source_key": "nara-index-page307-b634", "locator_override": "PDF page 307, row 17, Box 502"},
+        {"source_key": "army-b580-b634", "locator_override": "Official bulk record ordinal 5426084; protected identifier and fixed-width name comparison"}
+      ]
+    },
+    {
+      "key": "identity-jasper-n-mcdonald-army-b634",
+      "person_id": "37afadbd-0cb9-57cf-bd84-3226c1cec7c6",
+      "claim_type": "identity",
+      "claim_text": "The indexed Jasper N. McDonald has a high-confidence match to an official Army enlistment entry.",
+      "evidence_paraphrase": "The full name, private grade, and a nonshared protected identifier agree after normalization of fixed-width MC DONALD surname spacing.",
+      "identity_match_assessment": "High confidence from exact normalized full-name, grade, and unique protected-identifier agreement.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity crosswalk only. Army occupation codes are not converted into an employer or immediate affiliation.",
+      "sources": [
+        {"source_key": "nara-index-page307-b634", "locator_override": "PDF page 307, row 21, Box 503"},
+        {"source_key": "army-b580-b634", "locator_override": "Official bulk record ordinal 5105681; protected identifier, grade, and fixed-width name comparison"}
+      ]
+    },
+    {
+      "key": "identity-james-e-mcdaniel-identifier-conflict-b634",
+      "person_id": "38ffc93e-398c-5040-839b-16e2d30592d7",
+      "claim_type": "identity",
+      "claim_text": "The protected identifier printed for indexed Private James E. McDaniel conflicts with the official Army bulk entry attached to that identifier.",
+      "evidence_paraphrase": "The official Army entry assigns the same protected identifier to a wholly different name; the number and other person's name are withheld from public output.",
+      "identity_match_assessment": "Conflicting: protected-identifier agreement is outweighed by complete name disagreement; the Army identity must not be assigned to McDaniel.",
+      "temporal_assessment": "The conflict concerns identity resolution only and supplies no reliable pre-OSS employer or affiliation chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Review the original Box 502 file and adjacent index documentation to determine whether the printed identifier is displaced, mistranscribed, or otherwise erroneous. No full identifier is published.",
+      "sources": [
+        {"source_key": "nara-index-page307-b634", "locator_override": "PDF page 307, row 4, Box 502"},
+        {"source_key": "army-b580-b634", "locator_override": "Official bulk record ordinal 6508659; conflicting name comparison; protected identifier withheld"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "718ff7d4-e469-544e-993c-1f77cc15c5ab",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC DANIEL spacing and in a nonshared protected identifier.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 502 for a named pre-OSS employer or assignment."
+    },
+    {
+      "person_id": "646b8baa-726e-5da5-9373-5d3515172cad",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC DONALD spacing and in a nonshared protected identifier.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 502 for a named pre-OSS employer or assignment."
+    },
+    {
+      "person_id": "f90d6015-81a6-5a84-9aa7-cdd915fd85d8",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC DONALD spacing and in a nonshared protected identifier; five newspaper candidates were rejected.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 502 for a named pre-OSS employer or assignment."
+    },
+    {
+      "person_id": "71d34770-f8fd-58ce-af88-2e1ec03f3cdb",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC DONALD spacing and in a nonshared protected identifier.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 502 for a named pre-OSS employer or assignment."
+    },
+    {
+      "person_id": "37afadbd-0cb9-57cf-bd84-3226c1cec7c6",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name and private grade after normalization of fixed-width MC DONALD spacing and in a nonshared protected identifier.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 503 for a named pre-OSS employer or assignment."
+    },
+    {
+      "person_id": "38ffc93e-398c-5040-839b-16e2d30592d7",
+      "identity_status": "conflicting",
+      "identity_evidence": "The protected identifier printed in the index resolves in the official Army bulk file to a wholly different name. The Army identity is not assigned to James E. McDaniel.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 502 and the original index documentation to resolve the protected-identifier conflict before making identity or employment claims."
+    },
+    {
+      "person_id": "24c85fe3-ff5a-5a8d-a9fd-14eeac196896",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The same protected identifier is printed for separate Dervey A. McDonald and Hervey A. McDonald rows with different ranks. The two source rows remain separate entities pending file review.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "p307-dervey-hervey-mcdonald-b623",
+      "research_status": "needs_identity_review",
+      "next_action": "Compare the Dervey and Hervey personnel files in Box 502 before merging, correcting, or assigning employment evidence."
+    },
+    {
+      "person_id": "7498979d-3069-5bd2-8ab0-748855fec83d",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The same protected identifier is printed for separate Dervey A. McDonald and Hervey A. McDonald rows with different ranks. The two source rows remain separate entities pending file review.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "p307-dervey-hervey-mcdonald-b623",
+      "research_status": "needs_identity_review",
+      "next_action": "Compare the Dervey and Hervey personnel files in Box 502 before merging, correcting, or assigning employment evidence."
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "batch634-gene-a-mcdaniel-army-review",
+      "person_id": "718ff7d4-e469-544e-993c-1f77cc15c5ab",
+      "source_adapter": "army_bulk_review",
+      "query_text": "Compare indexed Gene A McDaniel with the official Army bulk identity candidate",
+      "query_variant_type": "protected_identifier_identity_review",
+      "started_at": "2026-09-22T09:10:00Z",
+      "completed_at": "2026-09-22T09:25:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Unique protected-identifier and exact normalized full-name agreement support high-confidence identity. The grade difference is chronology context, not employment evidence.",
+      "next_action": "Continue the minimum protocol and inspect Box 502.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch634-dewey-e-mcdonald-army-review",
+      "person_id": "646b8baa-726e-5da5-9373-5d3515172cad",
+      "source_adapter": "army_bulk_review",
+      "query_text": "Compare indexed Dewey E McDonald with the official Army bulk identity candidate",
+      "query_variant_type": "protected_identifier_identity_review",
+      "started_at": "2026-09-22T09:10:00Z",
+      "completed_at": "2026-09-22T09:25:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Unique protected-identifier and exact normalized full-name agreement support high-confidence identity; the grade difference requires chronology review.",
+      "next_action": "Continue the minimum protocol and inspect Box 502.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch634-george-s-mcdonald-army-review",
+      "person_id": "f90d6015-81a6-5a84-9aa7-cdd915fd85d8",
+      "source_adapter": "army_bulk_review",
+      "query_text": "Compare indexed George S McDonald with the official Army bulk candidate after rejecting newspaper namesakes",
+      "query_variant_type": "protected_identifier_identity_review",
+      "started_at": "2026-09-22T09:10:00Z",
+      "completed_at": "2026-09-22T09:25:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Five LoC candidates had a different middle initial, only a surname, or no indexed-person bridge.",
+      "research_notes": "The official Army bulk entry supplies a unique protected-identifier and exact normalized full-name match. Army codes are not employment evidence.",
+      "next_action": "Continue the minimum protocol and inspect Box 502.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch634-georgie-r-mcdonald-army-review",
+      "person_id": "71d34770-f8fd-58ce-af88-2e1ec03f3cdb",
+      "source_adapter": "army_bulk_review",
+      "query_text": "Compare indexed Georgie R McDonald with the official Army bulk identity candidate",
+      "query_variant_type": "protected_identifier_identity_review",
+      "started_at": "2026-09-22T09:10:00Z",
+      "completed_at": "2026-09-22T09:25:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Unique protected-identifier and exact normalized full-name agreement support high-confidence identity; the grade difference requires chronology review.",
+      "next_action": "Continue the minimum protocol and inspect Box 502.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch634-jasper-n-mcdonald-army-review",
+      "person_id": "37afadbd-0cb9-57cf-bd84-3226c1cec7c6",
+      "source_adapter": "army_bulk_review",
+      "query_text": "Compare indexed Jasper N McDonald with the official Army bulk identity candidate",
+      "query_variant_type": "protected_identifier_identity_review",
+      "started_at": "2026-09-22T09:10:00Z",
+      "completed_at": "2026-09-22T09:25:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Unique protected-identifier, grade, and exact normalized full-name agreement support high-confidence identity; no employer is named.",
+      "next_action": "Continue the minimum protocol and inspect Box 503.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch634-james-e-mcdaniel-conflict-review",
+      "person_id": "38ffc93e-398c-5040-839b-16e2d30592d7",
+      "source_adapter": "army_bulk_review",
+      "query_text": "Review the official Army bulk record tied to the protected identifier printed for James E McDaniel",
+      "query_variant_type": "protected_identifier_conflict_review",
+      "started_at": "2026-09-22T09:10:00Z",
+      "completed_at": "2026-09-22T09:25:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Five LoC candidates were namesakes or different-initial people; the Army record attached to the printed identifier has a wholly different name.",
+      "research_notes": "The Army identity is not assigned to McDaniel. The original Box 502 file and index documentation are required to resolve the identifier conflict.",
+      "next_action": "Inspect Box 502 and the original index documentation.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch634-dervey-a-mcdonald-duplicate-review",
+      "person_id": "24c85fe3-ff5a-5a8d-a9fd-14eeac196896",
+      "source_adapter": "duplicate_review",
+      "query_text": "Compare the separate Dervey A McDonald and Hervey A McDonald index rows sharing a protected identifier",
+      "query_variant_type": "same_identifier_different_name_review",
+      "started_at": "2026-09-22T09:10:00Z",
+      "completed_at": "2026-09-22T09:25:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "research_notes": "The names and ranks differ despite a shared printed identifier. Both immutable source rows and both cautious person entities remain separate.",
+      "next_action": "Compare both Box 502 personnel files before any merge or correction.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch634-hervey-a-mcdonald-duplicate-review",
+      "person_id": "7498979d-3069-5bd2-8ab0-748855fec83d",
+      "source_adapter": "duplicate_review",
+      "query_text": "Compare the separate Hervey A McDonald and Dervey A McDonald index rows sharing a protected identifier",
+      "query_variant_type": "same_identifier_different_name_review",
+      "started_at": "2026-09-22T09:10:00Z",
+      "completed_at": "2026-09-22T09:25:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "research_notes": "The names and ranks differ despite a shared printed identifier. Both immutable source rows and both cautious person entities remain separate.",
+      "next_action": "Compare both Box 502 personnel files before any merge or correction.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    }
+  ]
+}

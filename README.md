@@ -13,21 +13,22 @@ is not complete, and the site reports that limitation explicitly.
 
 ## Current state
 
-- 522 PDF pages processed; 108 distinct pages visually reviewed under and beyond the documented sampling rule
+- 522 PDF pages processed; 347 pages and 15,928 rows fully visually reviewed
+  under and beyond the documented sampling rule
 - 23,978 immutable source rows
-- 23,941 stored person rows and 23,940 active person entities; one reviewed
-  duplicate supersession retains both immutable index rows for audit
+- 23,941 stored person rows and 23,939 active person entities; reviewed
+  supersessions retain every immutable index row for audit
 - 23,978 / 23,978 source rows linked to an entity
-- 280 possible duplicate groups; possible variants remain separate until reviewed
-- 75-person stratified research pilot, 6 reviewed NARA personnel files, 6,505
-  people with saved non-planned research outcomes, and 11,549 durable research
-  attempts or plans
-- 617 verified-affiliation profiles, including 271 with verified employment or
-  self-employment, and 5,767 individually assessed archival dispositions
-- 2,203 public-visible affiliations, 4,677 public-visible claims, 3,800 public
-  source records, and 2,332 unique source-document keys; 185 low-confidence
+- 488 possible-duplicate groups; possible variants remain separate until
+  direct evidence supports a merge
+- 75-person stratified pilot, 7,698 people with saved non-planned research
+  outcomes, and 12,781 durable research attempts or plans
+- 628 verified-affiliation profiles, including 280 with verified employment or
+  self-employment, and 6,300 individually assessed archival dispositions
+- 2,224 public-visible affiliations, 4,737 public-visible claims, 3,853 public
+  source records, and 2,382 unique source-document keys; 187 low-confidence
   claims remain outside default analytics
-- 17,435 active people remain `not_started`; the public site reports this
+- 16,229 active people remain `not_started`; the public site reports this
   incompleteness rather than treating an automated query as completed research
 
 See [RESEARCH_STATUS.md](RESEARCH_STATUS.md) and
