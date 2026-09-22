@@ -1,8 +1,6 @@
 # Batch 630 release status - pages 371-380 and McCarthy-McClelian research
 
-Date: 2026-09-22 UTC. This report records the audited local release candidate.
-Deployment fields will be completed only after the exact commit passes CI and
-the public artifact is verified.
+Date: 2026-09-22 UTC. This report records the audited and deployed release.
 
 ## Historical and extraction work
 
@@ -97,7 +95,32 @@ The clean tracked-only release candidate passed all local gates:
 
 ## Deployment
 
-Deployment is pending.
+Pull request [#361](https://github.com/therealjameswilson/before-oss/pull/361)
+passed its required test check and was squash-merged to `main` as commit
+`3bd0b70f83957bcb1dd0f1207dbb337008d8ff58`.
+
+The post-merge [Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/35691872742)
+passed, including the research tests, checked-in manifest check, bounded site
+release suite, regenerated private-identifier audit source, and public
+identifier-redaction audit. The post-merge
+[GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/35691872775)
+also passed and deployed the site.
+
+Read-only verification against the immutable merge commit and the public site
+confirmed all **67 manifest assets** and **98,138,968 bytes**, with manifest
+SHA-256 `d664836bd59004478131e195dcc06e6230b0dcc501459c97153345e347e32742`.
+It also confirmed eight core routes, all 26 paginated source-register routes,
+and five direct profiles affected by the Batch 630 evidence bundle. The live
+[oil-company directory](https://therealjameswilson.github.io/before-oss/oil-companies/)
+and its [personnel-directory filter](https://therealjameswilson.github.io/before-oss/people/?featured=oil_companies&sort=name_asc)
+both returned HTTP 200 and displayed the evidence-scoped total of seven people
+across nine historically named companies.
+
+The workflows emitted advance notices that GitHub-hosted actions currently
+targeting Node.js 20 are being forced to Node.js 24, and that `ubuntu-latest`
+will migrate to Ubuntu 26 in October 2026. These notices did not fail either
+release workflow, but the workflow action versions should be reviewed before
+those platform changes become mandatory.
 
 ## Resume
 
