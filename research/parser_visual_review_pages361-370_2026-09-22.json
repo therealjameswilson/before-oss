@@ -1,0 +1,8 @@
+{
+  "bundle_version": "parser-visual-review-v1",
+  "source_pdf_sha256": "7268492342ab131d3b6d2697cfa4f6856cbdcd16e0ed3877e8d6a0478f58c02b",
+  "reviewer": "Codex pages 361-370 visual audit",
+  "matching_pages_reviewed_at": "2026-09-22T02:55:00Z",
+  "matching_pages_notes": "Original PDF pages 361-370 were rendered at 180 dpi and all 460 printed rows were compared with immutable source records for row order, indexed name and initials, rank, private-identifier column occupancy, box, notes, and archive location. All ten pages match the current extraction and no correction is needed. The review preserves literal source anomalies, variants, duplicated rows, and column placements rather than silently repairing them. Examples include Perino A Flore, Pfiefer Harold M or, Phelps William L with the serial text 3.1414e+00, Phillips Richard B with 3.32848e+0, Picard Eugene O with 3.12617e+0, Picard Raymond N with 3.12906e+0, Pierce George W with 1.83214e+0, duplicated Pilley Edward F rows, separate Piekanski and Pikanski spellings with the same identifier, and consecutive duplicate or variant records. Truncated notes such as Extract fr, Also Luc, Italian Ar, Polish Ar, Also Fra, Folder al, Also 331, British N, and French are preserved exactly as printed. Private identifiers are not included in this bundle or public assets.",
+  "reviewed_matching_pages": [361, 362, 363, 364, 365, 366, 367, 368, 369, 370]
+}

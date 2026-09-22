@@ -1,0 +1,60 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 629 page 304 Army identity review",
+  "person_updates": [
+    {
+      "person_id": "4c805025-19d5-5ea8-984b-fa3aa71e7461",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in first name, middle initial, and a nonshared protected identifier. The Army fixed-width surname MC CARTY differs slightly from indexed McCarthy, so the unique identifier carries the match. The Army grade and occupation code are not treated as a named employer or immediate pre-OSS affiliation.",
+      "manual_review_required": false
+    },
+    {
+      "person_id": "d14f21e3-d3df-596d-b041-3a7879d15de4",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC CARTER spacing and in a nonshared protected identifier. The Army grade and occupation code are not treated as a named employer or immediate pre-OSS affiliation.",
+      "manual_review_required": false
+    },
+    {
+      "person_id": "5b051d63-c675-5181-bd41-9fe5d348b611",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC CARTHY spacing and in a nonshared protected identifier. The Army grade and occupation code are not treated as a named employer or immediate pre-OSS affiliation.",
+      "manual_review_required": false
+    },
+    {
+      "person_id": "51210f92-f8e8-5f4d-8243-378c3af68429",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC CARTHY spacing and in a nonshared protected identifier. The Army grade and occupation code are not treated as a named employer or immediate pre-OSS affiliation.",
+      "manual_review_required": false
+    },
+    {
+      "person_id": "f147e735-6481-508a-8361-7d017c1f40bd",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC CARTHY spacing and in a nonshared protected identifier. The Army grade and occupation code are not treated as a named employer or immediate pre-OSS affiliation.",
+      "manual_review_required": false
+    },
+    {
+      "person_id": "7e7b3872-80ac-531b-999a-ed6b12d9ac2e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC CARTHY spacing and in a nonshared protected identifier. The Army grade and occupation code are not treated as a named employer or immediate pre-OSS affiliation.",
+      "manual_review_required": false
+    },
+    {
+      "person_id": "98b57dae-121f-52b2-810c-165e26f3751a",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index's staff-sergeant John F. McCarthy row and official Army bulk entry agree in full name after normalization of fixed-width MC CARTHY spacing and in a nonshared protected identifier. That identifier distinguishes this row from the adjacent same-name index row with a different identifier. The Army grade and occupation code are not treated as a named employer or immediate pre-OSS affiliation.",
+      "manual_review_required": false
+    },
+    {
+      "person_id": "1aa37e74-b066-54a9-b781-89500217fb27",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Pages 304 and 306 print Jack L. McCarary and Jack L. McCrary with the same protected identifier, middle initial, and Box 501. The official Army fixed-width name MC CRARY JACK L supports the McCrary spelling and makes the two index rows probable duplicates, but both remain separate pending original-jacket confirmation.",
+      "manual_review_required": true
+    },
+    {
+      "person_id": "4960f431-455c-5d03-a23d-90159edbc153",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Pages 304 and 306 print Jack L. McCarary and Jack L. McCrary with the same protected identifier, middle initial, and Box 501. The official Army fixed-width name MC CRARY JACK L supports the McCrary spelling and makes the two index rows probable duplicates, but both remain separate pending original-jacket confirmation.",
+      "manual_review_required": true
+    }
+  ]
+}
