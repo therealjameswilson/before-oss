@@ -77,7 +77,22 @@ sources, and 4,737 claims. Full-index historical research remains unfinished.
 
 ## Local verification
 
-Local verification is pending.
+The exact tracked-only release candidate passed all **132** Python tests and
+all **84** bounded browser checks: 15 Batch 634 assertions, 33 core-route
+checks, six analysis checks, and 30 axe checks across desktop, phone, and
+tablet layouts. The 200-profile stratified structural audit passed all seven
+checks; it is not the required independent manual historical audit.
+
+Astro reported zero errors, warnings, or hints across **265** source files and
+built **24,681** pages. All internal links resolve across **24,753** artifacts;
+**50,238** unique external URLs were inventoried for the separate live check.
+The public-identifier audit found zero unexpected full-number boundary matches.
+The local verifier matched all **67** manifest assets and **98,261,307** bytes
+at manifest SHA-256
+`7e1001b90f36dd0a775b8189256712633c56750c1a89c93e1e1d51fe88792bf4`.
+Two consecutive clean builds reproduced production-tree SHA-256
+`0468be59ad9d7e61a7c06b3fca6600d431aac923cbb79e3b11c5610263aabc81`.
+Unrelated user-owned duplicate files were preserved and excluded.
 
 ## Deployment
 
