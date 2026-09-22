@@ -94,8 +94,28 @@ Unrelated user-owned duplicate files were preserved and excluded.
 
 ## Deployment
 
-Pending exact-commit CI, GitHub Pages deployment, and public artifact
-verification.
+Pull request [#371](https://github.com/therealjameswilson/before-oss/pull/371)
+merged to `main` as
+`32de0af8be2820f82bc264fff305e84433ea0112` at 2026-09-22 11:30:31 UTC.
+The PR test passed in 4m27s. The merged-commit Test workflow
+[35721837207](https://github.com/therealjameswilson/before-oss/actions/runs/35721837207)
+passed in 4m09s, and Deploy GitHub Pages workflow
+[35721837178](https://github.com/therealjameswilson/before-oss/actions/runs/35721837178)
+completed successfully (1m24s build and 52s deploy). GitHub emitted
+informational Node.js 20 action-runtime deprecation and future Ubuntu runner
+migration annotations; no release check failed.
+
+The exact-ref live verifier matched all **67** manifest assets and
+**98,292,743** bytes at the local manifest digest, then verified eight core
+routes, all 26 source-register pages, and the eight profiles directly affected
+by the evidence bundle. Independent public checks returned HTTP 200 for the
+home page, the oil-company category, and the affected conflict profile. The
+live home page reports **7,721 of 23,939** entities researched (**32.25%**);
+the live oil-company page renders exactly **seven** person cards. The Roy W.
+McDonald profile publishes the documented conflict while withholding the
+unrelated Army name and unbridged institutional lead.
+
+Public site: https://therealjameswilson.github.io/before-oss/
 
 ## Resume
 
