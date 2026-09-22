@@ -1,5 +1,37 @@
 # Research status
 
+Batch 636 visually checked all **460** printed rows on PDF pages 431-440.
+Every page matches the immutable extraction, raising the durable ledger to
+**366/522 pages** and **16,802/23,978 rows**: 16,770 reviewed rows match and
+32 retain reviewed corrections. The page-308 `Robert H. McDowell` through
+`Thomas J. McFadden` queue saved a Library of Congress attempt for each of 21
+people represented by 23 source rows and reviewed all four official item
+candidates. Every newspaper lead was rejected as unrelated, different-initial,
+historical, or insufficiently bridged. Charles W. McFadden and Stuart P.
+McFadden received high-confidence Army identity decisions from nonshared
+protected identifiers and exact normalized-name agreement. The protected
+identifier printed for Edward C. McElroy resolves to a wholly different Army
+name, so his profile is explicitly conflicting pending Box 504 review. Stuart
+and Robert D. McFadden each retain two immutable index rows linked to one
+cautious person entity. Army grades and occupation codes remain identity
+context, not employer evidence. The queue ends with 20 `in_progress` and one
+`conflicting_sources`. The featured oil-company category remains
+evidence-scoped to **seven** people across nine companies. See
+`research/batch-636-progress.md`. No authenticated NARA Catalog request was
+made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **7,742/23,939 (32.3405%)**;
+verified-employer coverage is **280/23,939 (1.1696%)**;
+verified-affiliation coverage is **628/23,939 (2.6233%)**; archival-review
+coverage is **6,303/23,939 (26.3294%)**. There are **16,187** `not_started`
+people and **488** active possible-duplicate groups. SQLite retains **12,850**
+attempts or plans and **4,937** claims: 1,311 confirmed, 1,926 high, 1,375
+medium, 187 low, and 138 conflicting. It has **5,064** source/citation records
+and **2,384** unique source-document keys. The public projection has **2,224**
+affiliations, **708** organizations, **3,857** sources, and **4,746** claims.
+Full-index historical research remains unfinished.
+
 Batch 635 visually checked all **460** printed rows on PDF pages 421-430.
 Page 424 was already in the deterministic random audit, so this batch adds
 nine pages and 414 rows to the durable ledger: **356/522 pages** and

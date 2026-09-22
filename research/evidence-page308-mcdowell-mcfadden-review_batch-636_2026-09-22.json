@@ -1,0 +1,219 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 636 page 308 source and identity review",
+  "sources": [
+    {
+      "key": "nara-index-page308-b636",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 503-504",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 308, printed rows 1-23; original page image reviewed at 180 dpi; archival location 230/86/36/04",
+      "access_date": "2026-09-22",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Indexed spellings, ranks, boxes, duplicate rows, and variants are retained. Full protected identifiers remain private and are excluded from public output."
+    },
+    {
+      "key": "army-b580-b636",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; fixed-width name and protected-identifier crosswalk; private candidate records retain record ordinals",
+      "access_date": "2026-09-22",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "This is official bulk data, not a Catalog API response. Army grade and occupation codes are identity context, not named employers; full identifiers and raw records are excluded."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-charles-w-mcfadden-army-b636",
+      "person_id": "43e65fcd-5b93-58f7-b693-51f0f5541fcc",
+      "claim_type": "identity",
+      "claim_text": "The indexed Charles W. McFadden has a high-confidence match to an official Army enlistment entry.",
+      "evidence_paraphrase": "The full name and a nonshared protected identifier agree after normalization of fixed-width MC FADDEN surname spacing.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The index and Army grades differ and require chronology review. A draft-list newspaper namesake was rejected; no Army occupation code is converted into an employer.",
+      "sources": [
+        {"source_key": "nara-index-page308-b636", "locator_override": "PDF page 308, row 16, Box 504"},
+        {"source_key": "army-b580-b636", "locator_override": "Official bulk record ordinal 2749031; protected identifier and fixed-width name comparison"}
+      ]
+    },
+    {
+      "key": "identity-stuart-p-mcfadden-army-b636",
+      "person_id": "bc76141a-950f-5e91-8578-a9b74be39d47",
+      "claim_type": "identity",
+      "claim_text": "The indexed Stuart P. McFadden has a high-confidence match to an official Army enlistment entry.",
+      "evidence_paraphrase": "The Army record agrees with both preserved index rows on full name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match across both source rows.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The two printed rows remain separate immutable source records linked to one cautious person entity. Rank differences require file review; no Army code is converted into an employer.",
+      "sources": [
+        {"source_key": "nara-index-page308-b636", "locator_override": "PDF page 308, rows 21-22, Box 504; duplicate rows preserved"},
+        {"source_key": "army-b580-b636", "locator_override": "Official bulk record ordinal 2252428; protected identifier and fixed-width name comparison"}
+      ]
+    },
+    {
+      "key": "identity-edward-c-mcelroy-identifier-conflict-b636",
+      "person_id": "7ab9338b-1ec0-5e60-88e6-d9d123907b4d",
+      "claim_type": "identity",
+      "claim_text": "The protected identifier printed for indexed Private Edward C. McElroy conflicts with the official Army bulk entry attached to that identifier.",
+      "evidence_paraphrase": "The official Army entry assigns the identifier to a wholly different name; the number and other person's name are withheld from public output.",
+      "identity_match_assessment": "Conflicting: protected-identifier agreement is outweighed by complete name disagreement, so the Army identity is not assigned to McElroy.",
+      "temporal_assessment": "The conflict concerns identity resolution only and supplies no reliable pre-OSS employer or affiliation chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Review the original Box 504 file and index documentation before making identity or employment claims. The Army occupation code is not used as employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-page308-b636", "locator_override": "PDF page 308, row 6, Box 504"},
+        {"source_key": "army-b580-b636", "locator_override": "Official bulk record ordinal 705454; wholly different name comparison; protected identifier withheld"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "43e65fcd-5b93-58f7-b693-51f0f5541fcc",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC FADDEN spacing and in a nonshared protected identifier.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 504 for chronology and a named pre-OSS employer or assignment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "bc76141a-950f-5e91-8578-a9b74be39d47",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC FADDEN spacing and in a nonshared protected identifier; both printed source rows remain preserved and linked to this person.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "auto:bc76141a-950f-5e91-8578-a9b74be39d47",
+      "research_status": "in_progress",
+      "next_action": "Inspect Box 504 to explain the duplicate index rows and identify a named pre-OSS employer or assignment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7ab9338b-1ec0-5e60-88e6-d9d123907b4d",
+      "identity_status": "conflicting",
+      "identity_evidence": "The protected identifier printed in the index resolves in the official Army bulk file to a wholly different name. That Army identity is not assigned to Edward C. McElroy.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 504 and the original index documentation to resolve the protected-identifier conflict before making identity or employment claims.",
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "batch636-charles-w-mcfadden-loc-context-review",
+      "person_id": "43e65fcd-5b93-58f7-b693-51f0f5541fcc",
+      "source_adapter": "loc_context_review",
+      "query_text": "Inspect the LoC newspaper candidate returned for indexed Charles W McFadden",
+      "query_variant_type": "candidate_context_review",
+      "started_at": "2026-09-22T11:59:00Z",
+      "completed_at": "2026-09-22T12:06:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The draft-registration list supplies no OSS, rank, protected-identifier, employer, or Box 504 bridge.",
+      "research_notes": "The newspaper hit is not identity proof and supports no employer claim.",
+      "next_action": "Continue the minimum protocol and inspect Box 504.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch636-charles-w-mcfadden-army-review",
+      "person_id": "43e65fcd-5b93-58f7-b693-51f0f5541fcc",
+      "source_adapter": "army_bulk_identity_review",
+      "query_text": "Review the official Army protected-identifier candidate for indexed Charles W McFadden",
+      "query_variant_type": "protected_identifier_identity_review",
+      "started_at": "2026-09-22T11:59:00Z",
+      "completed_at": "2026-09-22T12:06:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Exact normalized full-name and nonshared protected-identifier agreement support high-confidence identity only.",
+      "next_action": "Continue the minimum protocol and inspect Box 504 for a named employer.",
+      "attempt_number": 3,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch636-edward-c-mcelroy-army-review",
+      "person_id": "7ab9338b-1ec0-5e60-88e6-d9d123907b4d",
+      "source_adapter": "army_bulk_identity_review",
+      "query_text": "Review the official Army protected-identifier candidate for indexed Edward C McElroy",
+      "query_variant_type": "protected_identifier_conflict_review",
+      "started_at": "2026-09-22T11:59:00Z",
+      "completed_at": "2026-09-22T12:06:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The Army record carries a wholly different name and cannot be assigned to the indexed person.",
+      "research_notes": "The identifier conflict is preserved publicly without revealing the protected number or unrelated person's name.",
+      "next_action": "Review Box 504 and the original index documentation.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch636-george-h-mcfadden-loc-context-review",
+      "person_id": "b4da83c6-ae04-5434-a232-cab6c3ddc305",
+      "source_adapter": "loc_context_review",
+      "query_text": "Inspect the two LoC newspaper candidates returned for indexed George H McFadden",
+      "query_variant_type": "candidate_context_review",
+      "started_at": "2026-09-22T11:59:00Z",
+      "completed_at": "2026-09-22T12:06:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "One item concerns a nineteenth-century boxer and the other an 1893 deed chain; neither identifies the indexed person.",
+      "research_notes": "No candidate supports identity, occupation, or employment.",
+      "next_action": "Continue the minimum protocol and inspect Box 504.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch636-stuart-p-mcfadden-army-review",
+      "person_id": "bc76141a-950f-5e91-8578-a9b74be39d47",
+      "source_adapter": "army_bulk_identity_review",
+      "query_text": "Review the official Army protected-identifier candidates for both indexed Stuart P McFadden rows",
+      "query_variant_type": "protected_identifier_identity_review",
+      "started_at": "2026-09-22T11:59:00Z",
+      "completed_at": "2026-09-22T12:06:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Exact normalized full-name and nonshared protected-identifier agreement support one high-confidence person entity while preserving both printed rows.",
+      "next_action": "Inspect Box 504 for a named employer and an explanation of the duplicate rows.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch636-william-j-mcelroy-loc-context-review",
+      "person_id": "a72babc9-ce39-532e-97ce-888a1f71768d",
+      "source_adapter": "loc_context_review",
+      "query_text": "Inspect the LoC newspaper candidate returned for indexed William J McElroy",
+      "query_variant_type": "candidate_context_review",
+      "started_at": "2026-09-22T11:59:00Z",
+      "completed_at": "2026-09-22T12:06:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The legal notice names William T. McElroy, not William J. McElroy, and supplies no indexed-person bridge.",
+      "research_notes": "The conflicting initial rules out using the item for identity or employment.",
+      "next_action": "Continue the minimum protocol and inspect Box 504.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    }
+  ]
+}
