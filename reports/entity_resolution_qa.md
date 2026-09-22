@@ -1,6 +1,6 @@
 # Entity-resolution QA
 
-Generated: 2026-09-22T00:23:20+00:00
+Generated: 2026-09-22T01:23:43+00:00
 
 - Source rows: **23,978**.
 - Cautious person entities: **23,939**.
@@ -9,7 +9,7 @@ Generated: 2026-09-22T00:23:20+00:00
 - Narrow automatic same-name/same-service-number groups: **29**.
 - Possible duplicate groups: **488**.
 - Same-service-number/different-name groups: **164**.
-- Entities requiring manual review: **23,179**.
+- Entities requiring manual review: **23,178**.
 
 ## Checks
 
