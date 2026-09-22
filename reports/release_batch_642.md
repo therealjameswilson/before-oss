@@ -1,8 +1,8 @@
 # Batch 642 release status - pages 491-500 and McLaughlin-McMahon research
 
-Date: 2026-09-22 UTC. This report records the audited release candidate. Local
-verification and deployment fields will be finalized from the exact tracked
-revision before release.
+Date: 2026-09-22 UTC. This report records the audited tracked-only local
+release candidate. Deployment fields will be finalized from the exact merged
+revision after release.
 
 ## Historical and extraction work
 
@@ -71,7 +71,28 @@ sources, and 4,790 claims. Full-index historical research remains unfinished.
 
 ## Local verification
 
-Pending exact tracked-only release verification.
+The isolated tracked-only candidate passes all local release gates:
+
+- **132/132** Python unit tests;
+- **84/84** browser checks across desktop, phone, and tablet: 15 Batch 642,
+  33 core-route, six analysis, and 30 accessibility/axe checks;
+- Astro check with zero errors, warnings, or hints across **273** source files;
+- **24,681** static HTML pages and **24,753** total artifacts;
+- every internal link resolved, with **50,238** unique external URLs
+  inventoried for the separate live check;
+- all **67** manifest-listed assets matched, totaling **98,526,164** bytes at
+  manifest SHA-256
+  `ade9075644956c28aaec4da06fc07583fb8e7f13b4eaa2a298ac49ce5a41b98e`;
+- the public-identifier audit compared **12,926** normalized identifiers and
+  **120** formatted variants across 24,753 artifacts with zero aggregate false
+  positives, manifest-size false positives, or unexpected full-number boundary
+  matches;
+- two clean builds reproduced production-tree SHA-256
+  `125a7ac24c09eb762a7c4ff837cf4f40d417f9901ebce95b0e7c4740c2745158`
+  across 24,753 files and 294,999,089 bytes.
+
+Unrelated user-owned duplicate files remain preserved and excluded from the
+tracked-only verification.
 
 ## Deployment
 
