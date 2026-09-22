@@ -13,22 +13,22 @@ is not complete, and the site reports that limitation explicitly.
 
 ## Current state
 
-- 522 PDF pages processed; 398 pages and 18,274 rows fully visually reviewed
+- 522 PDF pages processed; 405 pages and 18,596 rows fully visually reviewed
   under and beyond the documented sampling rule
 - 23,978 immutable source rows
 - 23,941 stored person rows and 23,939 active person entities; reviewed
   supersessions retain every immutable index row for audit
 - 23,978 / 23,978 source rows linked to an entity
-- 488 possible-duplicate groups; possible variants remain separate until
+- 489 possible-duplicate groups; possible variants remain separate until
   direct evidence supports a merge
-- 75-person stratified pilot, 7,832 people with saved non-planned research
-  outcomes, and 12,993 durable research attempts or plans
+- 75-person stratified pilot, 7,855 people with saved non-planned research
+  outcomes, and 13,028 durable research attempts or plans
 - 628 verified-affiliation profiles, including 280 with verified employment or
-  self-employment, and 6,331 individually assessed archival dispositions
-- 2,224 public-visible affiliations, 4,775 public-visible claims, 3,865 public
-  source records, and 2,388 unique source-document keys; 187 low-confidence
+  self-employment, and 6,339 individually assessed archival dispositions
+- 2,224 public-visible affiliations, 4,783 public-visible claims, 3,867 public
+  source records, and 2,389 unique source-document keys; 187 low-confidence
   claims remain outside default analytics
-- 16,102 active people remain `not_started`; the public site reports this
+- 16,079 active people remain `not_started`; the public site reports this
   incompleteness rather than treating an automated query as completed research
 
 See [RESEARCH_STATUS.md](RESEARCH_STATUS.md) and

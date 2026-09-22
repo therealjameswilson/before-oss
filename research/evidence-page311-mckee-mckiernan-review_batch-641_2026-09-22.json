@@ -1,0 +1,429 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 641 page 311 source and identity review",
+  "sources": [
+    {
+      "key": "nara-index-page311-b641",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 508-509",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 311, printed rows 1-23; source page reviewed against the original index; archival location 230/86/36/05",
+      "access_date": "2026-09-22",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Indexed spellings, ranks, boxes, adjacent duplicate-name rows, and variants are retained. Full protected identifiers remain private and are excluded from public output."
+    },
+    {
+      "key": "army-b580-b641",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; fixed-width name and protected-identifier crosswalk; private candidate records retain record ordinals",
+      "access_date": "2026-09-22",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "This is official bulk data, not a Catalog API response. Army grade, entry date, and occupation codes are identity context, not named employers; full identifiers and raw records are excluded."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-howard-r-mckee-army-b641",
+      "person_id": "89b2aba3-fb16-54e8-9bff-50d0583671f5",
+      "claim_type": "identity",
+      "claim_text": "The indexed Technician Third Grade Howard R. McKee has a high-confidence match to an official Army enlistment entry.",
+      "evidence_paraphrase": "The full name and a nonshared protected identifier agree after normalization of fixed-width MC KEE surname spacing.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity crosswalk only. Differing grade snapshots and the Army occupation code are not converted into employment evidence.",
+      "sources": [
+        {"source_key": "nara-index-page311-b641", "locator_override": "PDF page 311, row 2, Box 508"},
+        {"source_key": "army-b580-b641", "locator_override": "Official bulk record ordinal 6185054; protected identifier and fixed-width name comparison"}
+      ]
+    },
+    {
+      "key": "identity-samuel-r-mckee-army-b641",
+      "person_id": "87540427-e043-5313-87cf-d48c48ed3dd8",
+      "claim_type": "identity",
+      "claim_text": "The indexed Private First Class Samuel R. McKee has a high-confidence match to an official Army enlistment entry.",
+      "evidence_paraphrase": "The full name and a nonshared protected identifier agree after normalization of fixed-width MC KEE surname spacing.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The newspaper spouse-form result was rejected. Army grade and occupation codes are not employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-page311-b641", "locator_override": "PDF page 311, row 3, Box 508"},
+        {"source_key": "army-b580-b641", "locator_override": "Official bulk record ordinal 7557254; protected identifier and fixed-width name comparison"}
+      ]
+    },
+    {
+      "key": "identity-james-a-mckenskey-conflict-b641",
+      "person_id": "dd60dccf-c3e9-531a-98fe-2e3f2a33dc09",
+      "claim_type": "identity",
+      "claim_text": "The protected identifier printed for indexed Sergeant James A. McKenskey points to an official Army entry for Philip Cappella.",
+      "evidence_paraphrase": "The protected identifier agrees, but the indexed and Army names conflict completely; the number is withheld from public output.",
+      "identity_match_assessment": "Conflicting: the nonshared identifier is specific, but the explicit full-name disagreement prevents an identity match without the personnel file.",
+      "temporal_assessment": "The conflict concerns identity resolution only and supplies no reliable pre-OSS employer or affiliation chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Review Box 509 and the original index record before relying on this identifier. Army grade and occupation codes are not used as employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-page311-b641", "locator_override": "PDF page 311, row 12, Box 509"},
+        {"source_key": "army-b580-b641", "locator_override": "Official bulk record ordinal 3083915; protected identifier and full-name conflict comparison"}
+      ]
+    },
+    {
+      "key": "identity-aq-mckenzie-army-b641",
+      "person_id": "caf52600-59af-5780-b723-63a8a5bb316f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Private A.Q. McKenzie has a high-confidence match to an official Army entry.",
+      "evidence_paraphrase": "The initials, surname, and a nonshared protected identifier agree after normalization of punctuation and fixed-width MC KENZIE spacing.",
+      "identity_match_assessment": "High confidence from exact normalized indexed-name agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry is dated in 1945 and establishes identity context only, not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Five newspaper candidates were rejected. The Army date, grade, and occupation code are not converted into predecessor employment evidence.",
+      "sources": [
+        {"source_key": "nara-index-page311-b641", "locator_override": "PDF page 311, row 13, Box 508"},
+        {"source_key": "army-b580-b641", "locator_override": "Official bulk record ordinal 9013679; protected identifier and fixed-width name comparison"}
+      ]
+    },
+    {
+      "key": "identity-francis-w-mckenzie-army-b641",
+      "person_id": "7a8902f5-3e2e-5d0a-a294-fe4fd28c68c9",
+      "claim_type": "identity",
+      "claim_text": "The indexed Technician Fifth Grade Francis W. McKenzie has a high-confidence match to an official Army enlistment entry.",
+      "evidence_paraphrase": "The full name and a nonshared protected identifier agree after normalization of fixed-width MC KENZIE surname spacing.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity crosswalk only. Differing grade snapshots and Army codes are not employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-page311-b641", "locator_override": "PDF page 311, row 14, Box 508"},
+        {"source_key": "army-b580-b641", "locator_override": "Official bulk record ordinal 3927765; protected identifier and fixed-width name comparison"}
+      ]
+    },
+    {
+      "key": "identity-louis-f-mckenzie-army-b641",
+      "person_id": "b7ded7ef-a3c0-5436-9575-c4dfba76b4a8",
+      "claim_type": "identity",
+      "claim_text": "The indexed Technical Sergeant Louis F. McKenzie has a high-confidence match to an official Army enlistment entry.",
+      "evidence_paraphrase": "The full name and a nonshared protected identifier agree after normalization of fixed-width MC KENZIE surname spacing.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity crosswalk only. Differing grade snapshots and Army codes are not employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-page311-b641", "locator_override": "PDF page 311, row 16, Box 508"},
+        {"source_key": "army-b580-b641", "locator_override": "Official bulk record ordinal 5772744; protected identifier and fixed-width name comparison"}
+      ]
+    },
+    {
+      "key": "identity-stewart-l-mckenney-row10-boundary-b641",
+      "person_id": "e7a2e42a-3dbe-59b6-8280-ef258ea7f6c1",
+      "claim_type": "identity",
+      "claim_text": "This indexed Lieutenant Colonel Stewart L. McKenney row remains separate from an adjacent identical-name and rank row.",
+      "evidence_paraphrase": "The two printed index rows share a name, rank, box, and location but carry different protected identifiers.",
+      "identity_match_assessment": "Ambiguous: the rows may represent different people, duplicate administrative files, or differing records for one person; the index alone cannot decide.",
+      "temporal_assessment": "The duplicate boundary concerns identity resolution only and establishes no pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Both Box 508 files must be compared before merging these entities. Full identifiers remain private.",
+      "sources": [
+        {"source_key": "nara-index-page311-b641", "locator_override": "PDF page 311, adjacent rows 10-11, Box 508"}
+      ]
+    },
+    {
+      "key": "identity-stewart-l-mckenney-row11-boundary-b641",
+      "person_id": "bfb5330a-d471-5fd6-8edc-be0f506d26e0",
+      "claim_type": "identity",
+      "claim_text": "This indexed Lieutenant Colonel Stewart L. McKenney row remains separate from an adjacent identical-name and rank row.",
+      "evidence_paraphrase": "The two printed index rows share a name, rank, box, and location but carry different protected identifiers.",
+      "identity_match_assessment": "Ambiguous: the rows may represent different people, duplicate administrative files, or differing records for one person; the index alone cannot decide.",
+      "temporal_assessment": "The duplicate boundary concerns identity resolution only and establishes no pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Both Box 508 files must be compared before merging these entities. Full identifiers remain private.",
+      "sources": [
+        {"source_key": "nara-index-page311-b641", "locator_override": "PDF page 311, adjacent rows 10-11, Box 508"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "89b2aba3-fb16-54e8-9bff-50d0583671f5",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC KEE spacing and in a nonshared protected identifier.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 508 for chronology and a named pre-OSS employer or assignment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "87540427-e043-5313-87cf-d48c48ed3dd8",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC KEE spacing and in a nonshared protected identifier.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 508 for chronology and a named pre-OSS employer or assignment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "dd60dccf-c3e9-531a-98fe-2e3f2a33dc09",
+      "identity_status": "conflicting",
+      "identity_evidence": "The protected identifier printed for James A. McKenskey points to an official Army entry for Philip Cappella. The names conflict completely, so the crosswalk cannot establish identity without the personnel file.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 509 and original index documentation before relying on the protected identifier or making employment claims.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "caf52600-59af-5780-b723-63a8a5bb316f",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree after normalization of A.Q. punctuation and fixed-width MC KENZIE spacing and in a nonshared protected identifier.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 508 for chronology and a named pre-OSS employer or assignment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7a8902f5-3e2e-5d0a-a294-fe4fd28c68c9",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC KENZIE spacing and in a nonshared protected identifier.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 508 for chronology and a named pre-OSS employer or assignment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b7ded7ef-a3c0-5436-9575-c4dfba76b4a8",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC KENZIE spacing and in a nonshared protected identifier.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 508 for chronology and a named pre-OSS employer or assignment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e7a2e42a-3dbe-59b6-8280-ef258ea7f6c1",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The index contains two adjacent Lieutenant Colonel Stewart L. McKenney rows with the same name, rank, box, and location but different protected identifiers. They remain separate pending file comparison.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "page311-stewart-l-mckenney",
+      "research_status": "needs_identity_review",
+      "next_action": "Compare both Stewart L. McKenney personnel files in Box 508 before merging either entity or assigning employment evidence.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "bfb5330a-d471-5fd6-8edc-be0f506d26e0",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The index contains two adjacent Lieutenant Colonel Stewart L. McKenney rows with the same name, rank, box, and location but different protected identifiers. They remain separate pending file comparison.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "page311-stewart-l-mckenney",
+      "research_status": "needs_identity_review",
+      "next_action": "Compare both Stewart L. McKenney personnel files in Box 508 before merging either entity or assigning employment evidence.",
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "batch641-howard-r-mckee-army-review",
+      "person_id": "89b2aba3-fb16-54e8-9bff-50d0583671f5",
+      "source_adapter": "army_bulk_identity_review",
+      "query_text": "Review the official Army protected-identifier candidate for indexed Howard R McKee",
+      "query_variant_type": "protected_identifier_identity_review",
+      "started_at": "2026-09-22T18:24:00Z",
+      "completed_at": "2026-09-22T18:39:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "research_notes": "A unique protected identifier and exact normalized full name support identity. Fixed-width MC KEE spacing is not an employer clue.",
+      "next_action": "Inspect Box 508 and continue the minimum employer protocol.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch641-samuel-r-mckee-army-and-loc-review",
+      "person_id": "87540427-e043-5313-87cf-d48c48ed3dd8",
+      "source_adapter": "army_bulk_and_loc_context_review",
+      "query_text": "Review the Army identity candidate and LoC newspaper candidate for indexed Samuel R McKee",
+      "query_variant_type": "identity_and_candidate_context_review",
+      "started_at": "2026-09-22T18:24:00Z",
+      "completed_at": "2026-09-22T18:39:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The newspaper listing names Mrs. Samuel A. McKee and supplies no bridge to indexed Samuel R. McKee.",
+      "research_notes": "The Army crosswalk supports identity only; the spouse-form treasurer role is not transferred.",
+      "next_action": "Inspect Box 508 and continue the minimum employer protocol.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch641-james-a-mckenskey-army-review",
+      "person_id": "dd60dccf-c3e9-531a-98fe-2e3f2a33dc09",
+      "source_adapter": "army_bulk_identity_review",
+      "query_text": "Review the official Army protected-identifier conflict for indexed James A McKenskey",
+      "query_variant_type": "protected_identifier_identity_conflict_review",
+      "started_at": "2026-09-22T18:24:00Z",
+      "completed_at": "2026-09-22T18:39:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "research_notes": "The nonshared identifier points to Philip Cappella, not James A. McKenskey. The full-name conflict requires Box 509 review.",
+      "next_action": "Inspect Box 509 and original index documentation before using the identifier.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch641-aq-mckenzie-army-and-loc-review",
+      "person_id": "caf52600-59af-5780-b723-63a8a5bb316f",
+      "source_adapter": "army_bulk_and_loc_context_review",
+      "query_text": "Review the Army identity candidate and five LoC newspaper candidates for indexed A.Q. McKenzie",
+      "query_variant_type": "identity_and_candidate_context_review",
+      "started_at": "2026-09-22T18:24:00Z",
+      "completed_at": "2026-09-22T18:39:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The pages name A.G., M., W.M., or Katheryn McKenzie, or supply no exact A.Q. person in item-level OCR.",
+      "research_notes": "The Army crosswalk supports identity only; no newspaper role is transferred to the indexed private.",
+      "next_action": "Inspect Box 508 and continue the minimum employer protocol.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch641-francis-w-mckenzie-army-review",
+      "person_id": "7a8902f5-3e2e-5d0a-a294-fe4fd28c68c9",
+      "source_adapter": "army_bulk_identity_review",
+      "query_text": "Review the official Army protected-identifier candidate for indexed Francis W McKenzie",
+      "query_variant_type": "protected_identifier_identity_review",
+      "started_at": "2026-09-22T18:24:00Z",
+      "completed_at": "2026-09-22T18:39:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "research_notes": "A unique protected identifier and exact normalized full name support identity. Army codes are not predecessor-employment evidence.",
+      "next_action": "Inspect Box 508 and continue the minimum employer protocol.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch641-louis-f-mckenzie-army-review",
+      "person_id": "b7ded7ef-a3c0-5436-9575-c4dfba76b4a8",
+      "source_adapter": "army_bulk_identity_review",
+      "query_text": "Review the official Army protected-identifier candidate for indexed Louis F McKenzie",
+      "query_variant_type": "protected_identifier_identity_review",
+      "started_at": "2026-09-22T18:24:00Z",
+      "completed_at": "2026-09-22T18:39:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "research_notes": "A unique protected identifier and exact normalized full name support identity. Army codes are not predecessor-employment evidence.",
+      "next_action": "Inspect Box 508 and continue the minimum employer protocol.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch641-william-h-mckenzie-loc-review",
+      "person_id": "f42515e7-f2a0-5cb9-bd6c-71095461cf08",
+      "source_adapter": "loc_context_review",
+      "query_text": "Inspect two LoC newspaper candidates returned for indexed William H McKenzie",
+      "query_variant_type": "candidate_context_review",
+      "started_at": "2026-09-22T18:24:00Z",
+      "completed_at": "2026-09-22T18:39:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The items name William B. or William K. McKenzie rather than indexed William H. McKenzie.",
+      "research_notes": "Neither the industrial-club role nor the traffic citation is assigned to the indexed captain.",
+      "next_action": "Continue the minimum protocol and inspect Box 509.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch641-william-s-mckenzie-loc-review",
+      "person_id": "f0f67f98-825e-5a38-8f84-5daedafd5fed",
+      "source_adapter": "loc_context_review",
+      "query_text": "Inspect two LoC newspaper candidates returned for indexed William S McKenzie",
+      "query_variant_type": "candidate_context_review",
+      "started_at": "2026-09-22T18:24:00Z",
+      "completed_at": "2026-09-22T18:39:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The items name William B. or William K. McKenzie rather than indexed William S. McKenzie.",
+      "research_notes": "Neither the industrial-club role nor the traffic citation is assigned to the indexed lieutenant.",
+      "next_action": "Continue the minimum protocol and inspect Box 509.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch641-john-b-mckeon-loc-review",
+      "person_id": "a7c00d21-8729-53b4-9bed-302b19c45902",
+      "source_adapter": "loc_context_review",
+      "query_text": "Inspect two LoC newspaper candidates returned for indexed John B McKeon",
+      "query_variant_type": "candidate_context_review",
+      "started_at": "2026-09-22T18:24:00Z",
+      "completed_at": "2026-09-22T18:39:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The items concern an 1847 district attorney without the indexed initial and postwar state senator John L. McKeon.",
+      "research_notes": "Neither legal office nor state-senate service is transferred to the indexed private.",
+      "next_action": "Continue the minimum protocol and inspect Box 509.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch641-stewart-l-mckenney-row10-duplicate-review",
+      "person_id": "e7a2e42a-3dbe-59b6-8280-ef258ea7f6c1",
+      "source_adapter": "manual_duplicate_boundary_review",
+      "query_text": "Compare the two adjacent indexed Lieutenant Colonel Stewart L McKenney rows",
+      "query_variant_type": "protected_identifier_duplicate_boundary_review",
+      "started_at": "2026-09-22T18:24:00Z",
+      "completed_at": "2026-09-22T18:39:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "research_notes": "The adjacent rows have the same indexed name, rank, box, and location but different protected identifiers; they remain separate and ambiguous.",
+      "next_action": "Compare both Box 508 personnel files before any entity merge.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch641-stewart-l-mckenney-row11-duplicate-review",
+      "person_id": "bfb5330a-d471-5fd6-8edc-be0f506d26e0",
+      "source_adapter": "manual_duplicate_boundary_review",
+      "query_text": "Compare the two adjacent indexed Lieutenant Colonel Stewart L McKenney rows",
+      "query_variant_type": "protected_identifier_duplicate_boundary_review",
+      "started_at": "2026-09-22T18:24:00Z",
+      "completed_at": "2026-09-22T18:39:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "research_notes": "The adjacent rows have the same indexed name, rank, box, and location but different protected identifiers; they remain separate and ambiguous.",
+      "next_action": "Compare both Box 508 personnel files before any entity merge.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    }
+  ]
+}
