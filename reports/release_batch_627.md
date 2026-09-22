@@ -95,8 +95,26 @@ A clean tracked-only worktree passed the complete local release suite:
 
 ## Deployment
 
-Pending exact-commit CI, merge, Pages deployment, and unauthenticated live
-verification.
+Pull request [#355](https://github.com/therealjameswilson/before-oss/pull/355)
+passed its required
+[test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/35672635931)
+in 4m42s and was merged to `main` as commit
+`c71dd03d533b94ec713aaebfabc2c830dd95d590`.
+
+The post-merge
+[Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/35672992373)
+passed in 4m14s, including the checked-in manifest and public-identifier audit.
+The corresponding
+[GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/35672992240)
+also passed and deployed the site.
+
+An unauthenticated verifier then resolved the live release to the exact merge
+commit and matched all **67** public-manifest assets totaling **98,099,730**
+bytes, all **8** core routes, and all **26** source-register pages. A separate
+bounded check opened all **23** directly affected person-profile URLs and
+confirmed both the profile `<main>` region and the exact public person ID.
+The verified public release is
+[Before OSS](https://therealjameswilson.github.io/before-oss/).
 
 ## Resume
 
