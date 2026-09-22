@@ -1,0 +1,276 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 633 page 306 source and identity review",
+  "sources": [
+    {
+      "key": "nara-index-page306-b633",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 500-501",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 306, printed rows 1-23; original page image previously reviewed at 180 dpi; archival location 230/86/36/04",
+      "access_date": "2026-09-22",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Indexed spellings, ranks, blank cells, boxes, and separate rows are retained. Full protected identifiers remain private and are excluded from public output."
+    },
+    {
+      "key": "army-b580-b633",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; fixed-width name and protected-identifier crosswalk; private candidate records retain record ordinals",
+      "access_date": "2026-09-22",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "This is official bulk data, not a Catalog API response. Army grade and occupation codes are identity context, not named employers; full identifiers and raw records are excluded."
+    },
+    {
+      "key": "loc-san-antonio-frank-r-mccoy-1936-b633",
+      "stable_url": "https://www.loc.gov/resource/sn85060004/1936-04-13/ed-1/?sp=1",
+      "archival_identifier": "LCCN sn85060004; San Antonio light, 1936-04-13, Home Edition, image 1",
+      "title": "Image 1 of San Antonio light (San Antonio, Tex.), April 13, 1936, Home Edition",
+      "author_creator": "San Antonio Light",
+      "repository_publisher": "Library of Congress, Chronicling America",
+      "publication_record_date": "1936-04-13",
+      "locator": "Image 1; official item OCR context naming Major General Frank R. McCoy in an Army command assignment",
+      "access_date": "2026-09-22",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Chronicling America",
+      "rights_notes": "Only a project-authored paraphrase and citation pointer are retained; no page image or raw API response is stored."
+    },
+    {
+      "key": "loc-atlanta-frank-r-mccoy-1942-b633",
+      "stable_url": "https://www.loc.gov/resource/sn82015425/1942-07-03/ed-1/?sp=1",
+      "archival_identifier": "LCCN sn82015425; Atlanta daily world, 1942-07-03, City Edition, image 1",
+      "title": "Image 1 of Atlanta daily world (Atlanta, Georgia), July 3, 1942, City Edition",
+      "author_creator": "Atlanta Daily World",
+      "repository_publisher": "Library of Congress, Chronicling America",
+      "publication_record_date": "1942-07-03",
+      "locator": "Image 1; official item OCR context naming Major General Frank R. McCoy as a military-commission member",
+      "access_date": "2026-09-22",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Chronicling America",
+      "rights_notes": "Only a project-authored paraphrase and citation pointer are retained; no page image or raw API response is stored."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-howard-p-mccormick-army-b633",
+      "person_id": "5086d94f-a417-54b8-ba0b-0f30e293fc43",
+      "claim_type": "identity",
+      "claim_text": "The indexed Howard P. McCormick has a high-confidence match to an official Army enlistment entry.",
+      "evidence_paraphrase": "The full name and a nonshared protected identifier agree after normalization of fixed-width MC CORMICK surname spacing.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity crosswalk only. Army grade and occupation codes are not converted into an employer or immediate affiliation.",
+      "sources": [
+        {"source_key": "nara-index-page306-b633", "locator_override": "PDF page 306, row 1, Box 500"},
+        {"source_key": "army-b580-b633", "locator_override": "Official bulk record ordinal 1437787; protected identifier and fixed-width name comparison"}
+      ]
+    },
+    {
+      "key": "identity-john-f-mccormick-army-b633",
+      "person_id": "cd75924a-d04d-5585-96c4-4f2d4d8f3841",
+      "claim_type": "identity",
+      "claim_text": "The indexed John F. McCormick has a high-confidence match to an official Army enlistment entry.",
+      "evidence_paraphrase": "The full name and a nonshared protected identifier agree after normalization of fixed-width MC CORMICK surname spacing.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Five Library of Congress discovery candidates concerned John W. or John L. McCormick and were rejected. Army codes are not employment evidence.",
+      "sources": [
+        {"source_key": "nara-index-page306-b633", "locator_override": "PDF page 306, row 2, Box 500"},
+        {"source_key": "army-b580-b633", "locator_override": "Official bulk record ordinal 6071868; protected identifier and fixed-width name comparison"}
+      ]
+    },
+    {
+      "key": "identity-charles-mccracken-jr-army-b633",
+      "person_id": "4917ebd7-ee43-5e3a-9461-7415c965375d",
+      "claim_type": "identity",
+      "claim_text": "The indexed Charles McCracken Jr. has a high-confidence match to an official Army enlistment entry.",
+      "evidence_paraphrase": "The given name, surname, suffix, and a nonshared protected identifier agree after normalization of fixed-width MC CRACKEN surname spacing.",
+      "identity_match_assessment": "High confidence from exact normalized name-and-suffix agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity crosswalk only. Army grade and occupation codes are not converted into an employer or immediate affiliation.",
+      "sources": [
+        {"source_key": "nara-index-page306-b633", "locator_override": "PDF page 306, row 23, Box 501"},
+        {"source_key": "army-b580-b633", "locator_override": "Official bulk record ordinal 1360131; protected identifier, suffix, and fixed-width name comparison"}
+      ]
+    },
+    {
+      "key": "identity-frank-r-mccoy-probable-b633",
+      "person_id": "adbb1da1-14ea-5d70-9445-9b429be33320",
+      "claim_type": "identity",
+      "claim_text": "The indexed Major General Frank R. McCoy probably corresponds to the Army major general of that name documented in contemporary newspapers.",
+      "evidence_paraphrase": "Independent 1936 and 1942 newspapers identify a Major General Frank R. McCoy in senior Army and military-commission roles, matching the index's full name and exceptional rank.",
+      "identity_match_assessment": "Probable: exact full-name and exceptional-rank agreement across the NARA index and independent contemporary sources, but no protected identifier or direct personnel-file linkage has been reviewed.",
+      "temporal_assessment": "The sources establish biographical identity context from 1936 and 1942 but do not establish when or why an OSS personnel file was created or identify an immediate pre-OSS affiliation.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "This is a qualified identity finding, not an employer claim. Box 501 is required to confirm the OSS relationship and predecessor chronology.",
+      "sources": [
+        {"source_key": "nara-index-page306-b633", "locator_override": "PDF page 306, row 12, Box 501; indexed as Maj Gen"},
+        {"source_key": "loc-san-antonio-frank-r-mccoy-1936-b633", "locator_override": "Image 1; Army command-assignment context"},
+        {"source_key": "loc-atlanta-frank-r-mccoy-1942-b633", "locator_override": "Image 1; military-commission context"}
+      ]
+    },
+    {
+      "key": "identity-william-j-mccoy-identifier-conflict-b633",
+      "person_id": "4ee3c4a3-b18c-55e5-a6ae-6605402b86de",
+      "claim_type": "identity",
+      "claim_text": "The protected identifier printed for indexed Corporal William J. McCoy conflicts with the official Army bulk entry attached to that identifier.",
+      "evidence_paraphrase": "The official Army entry assigns the same protected identifier to a wholly different name and a different grade; the number is withheld from public output.",
+      "identity_match_assessment": "Conflicting: protected-identifier agreement is outweighed by complete name disagreement and a grade conflict; the Army identity must not be assigned to McCoy.",
+      "temporal_assessment": "The conflict concerns identity resolution only and supplies no reliable pre-OSS employer or affiliation chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Review the original Box 501 file and adjacent index documentation to determine whether the printed identifier is displaced, mistranscribed, or otherwise erroneous. No full identifier is published.",
+      "sources": [
+        {"source_key": "nara-index-page306-b633", "locator_override": "PDF page 306, row 22, Box 501"},
+        {"source_key": "army-b580-b633", "locator_override": "Official bulk record ordinal 7177749; conflicting name-and-grade comparison; protected identifier withheld"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "5086d94f-a417-54b8-ba0b-0f30e293fc43",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC CORMICK spacing and in a nonshared protected identifier.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 500 for a named pre-OSS employer or assignment."
+    },
+    {
+      "person_id": "cd75924a-d04d-5585-96c4-4f2d4d8f3841",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC CORMICK spacing and in a nonshared protected identifier; five newspaper namesakes with different initials were rejected.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 500 for a named pre-OSS employer or assignment."
+    },
+    {
+      "person_id": "4917ebd7-ee43-5e3a-9461-7415c965375d",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk entry agree in name and suffix after normalization of fixed-width MC CRACKEN spacing and in a nonshared protected identifier.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 501 for a named pre-OSS employer or assignment."
+    },
+    {
+      "person_id": "adbb1da1-14ea-5d70-9445-9b429be33320",
+      "identity_status": "probable",
+      "identity_evidence": "The NARA index and independent 1936 and 1942 newspapers agree on the exact full name and exceptional Major General rank, but no protected identifier or direct personnel-file linkage has been reviewed.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 501 to confirm the identity, determine why an OSS personnel file exists, and establish the immediate pre-OSS affiliation."
+    },
+    {
+      "person_id": "4ee3c4a3-b18c-55e5-a6ae-6605402b86de",
+      "identity_status": "conflicting",
+      "identity_evidence": "The protected identifier printed in the index resolves in the official Army bulk file to a wholly different name and grade. The Army identity is not assigned to William J. McCoy.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 501 and the original index documentation to resolve the protected-identifier conflict before making identity or employment claims."
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "batch633-howard-p-mccormick-army-review",
+      "person_id": "5086d94f-a417-54b8-ba0b-0f30e293fc43",
+      "source_adapter": "army_bulk_review",
+      "query_text": "Compare indexed Howard P McCormick with the official Army bulk identity candidate",
+      "query_variant_type": "protected_identifier_identity_review",
+      "started_at": "2026-09-22T08:04:00Z",
+      "completed_at": "2026-09-22T08:12:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Unique protected-identifier and exact normalized full-name agreement support high-confidence identity; fixed-width surname spacing is normalized separately and no employer is named.",
+      "next_action": "Continue the minimum research protocol and inspect Box 500.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch633-john-f-mccormick-army-review",
+      "person_id": "cd75924a-d04d-5585-96c4-4f2d4d8f3841",
+      "source_adapter": "army_bulk_review",
+      "query_text": "Compare indexed John F McCormick with the official Army bulk identity candidate after rejecting newspaper namesakes",
+      "query_variant_type": "protected_identifier_identity_review",
+      "started_at": "2026-09-22T08:04:00Z",
+      "completed_at": "2026-09-22T08:12:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Five LoC contexts concerned John W. or John L. McCormick and lacked the protected identifier.",
+      "research_notes": "The official Army bulk entry supplies a unique protected-identifier and exact normalized full-name match. Army codes are not employment evidence.",
+      "next_action": "Continue the minimum research protocol and inspect Box 500.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch633-charles-mccracken-jr-army-review",
+      "person_id": "4917ebd7-ee43-5e3a-9461-7415c965375d",
+      "source_adapter": "army_bulk_review",
+      "query_text": "Compare indexed Charles McCracken Jr with the official Army bulk identity candidate",
+      "query_variant_type": "protected_identifier_identity_review",
+      "started_at": "2026-09-22T08:04:00Z",
+      "completed_at": "2026-09-22T08:12:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Unique protected-identifier and exact normalized name-and-suffix agreement support high-confidence identity; no employer is named.",
+      "next_action": "Continue the minimum research protocol and inspect Box 501.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch633-frank-r-mccoy-context-review",
+      "person_id": "adbb1da1-14ea-5d70-9445-9b429be33320",
+      "source_adapter": "loc_context_review",
+      "query_text": "Review contemporary newspaper contexts for indexed Major General Frank R McCoy",
+      "query_variant_type": "exact_name_rank_identity_review",
+      "started_at": "2026-09-22T08:04:00Z",
+      "completed_at": "2026-09-22T08:12:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Five official LoC contexts consistently identify a Major General Frank R. McCoy. Exact full-name and exceptional-rank agreement support probable identity, but no direct OSS-file identifier or predecessor chronology was found.",
+      "next_action": "Review Box 501 to confirm identity and establish the OSS relationship and pre-OSS chronology.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch633-william-j-mccoy-conflict-review",
+      "person_id": "4ee3c4a3-b18c-55e5-a6ae-6605402b86de",
+      "source_adapter": "army_bulk_review",
+      "query_text": "Compare indexed William J McCoy with the official Army bulk record for the printed protected identifier",
+      "query_variant_type": "protected_identifier_conflict_review",
+      "started_at": "2026-09-22T08:04:00Z",
+      "completed_at": "2026-09-22T08:12:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Five common-name newspaper contexts lacked an indexed-person bridge; the official Army record for the printed identifier has a wholly different name and grade.",
+      "research_notes": "Identity remains conflicting. The Army identity is not assigned to McCoy, and no employer claim is made.",
+      "next_action": "Review Box 501 and original index documentation to resolve the identifier conflict.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    }
+  ]
+}
