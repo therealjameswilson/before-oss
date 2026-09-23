@@ -99,8 +99,25 @@ the isolated build and remain untouched.
 
 ## Deployment
 
-Not yet deployed. Pull-request, workflow, merge-commit, manifest, and live-site
-evidence will be added after the clean tracked-only release passes.
+Research [PR #401](https://github.com/therealjameswilson/before-oss/pull/401)
+passed its required test and merged as commit
+`18357e0bb92e5ec95efb68a4bc1490164bc11378`. The post-merge
+[Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/35844764534)
+and [GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/35844764718)
+both completed successfully. The workflows emitted only GitHub-hosted runner
+migration notices about Node.js 20 actions and a future `ubuntu-latest` image
+change; no project check failed.
+
+Commit-specific live verification at
+[Before OSS](https://therealjameswilson.github.io/before-oss/) reproduced the
+expected **67 assets**, **99,293,366 bytes**, and manifest SHA-256
+`1d9f5a07d76802e7182d70b615fbb2da8600cfdd476e3134a3622ed2c89e70f2`.
+It also verified all **eight** core routes, **27** source-register pages, and
+the **22** direct profiles represented in the Batch 650 evidence bundle. Live
+spot checks confirmed the 8,054-person research-attempt count, the Mendenhall,
+Menken, Mendershause, Menzles/Menzies, Mensing, and Menengas publication
+boundaries, and the unchanged seven-person
+[oil-company category](https://therealjameswilson.github.io/before-oss/oil-companies/).
 
 ## Resume
 
