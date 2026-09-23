@@ -108,10 +108,25 @@ advisory; no runtime secret or server is used by the static site.
 
 ## Deployment
 
-Publication is pending the Batch 646 pull request, required checks, merge, and
-commit-specific GitHub Pages verification. This section will be updated with
-the immutable commit, workflow runs, live manifest result, core routes, and all
-22 direct profile checks after deployment.
+Research [PR #393](https://github.com/therealjameswilson/before-oss/pull/393)
+passed its required test and merged as commit
+`3e4588f77dfc9feddec881014237d5df75dcb251`. The post-merge
+[Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/35818752116)
+and [GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/35818752039)
+both completed successfully. The workflows emitted only GitHub-hosted runner
+migration notices about Node.js 20 actions and a future `ubuntu-latest` image
+change; no project check failed.
+
+Commit-specific live verification at
+[Before OSS](https://therealjameswilson.github.io/before-oss/) reproduced the
+expected **67 assets**, **98,816,234 bytes**, and manifest SHA-256
+`987ee32c3d8349f6de5d3a881c20fefbf751d46b6afc2316de652ba660451699`.
+It also verified all **eight** core routes, **26** source-register pages, and
+the **22** direct profiles represented in the Batch 646 evidence bundle. The
+[oil-company category](https://therealjameswilson.github.io/before-oss/oil-companies/),
+[Edwin E. Meader profile](https://therealjameswilson.github.io/before-oss/people/cd2a9ff7-13d3-5386-9652-c47686c756cb/),
+and [Thomas O. Medlicott profile](https://therealjameswilson.github.io/before-oss/people/c2f1a32f-db57-537f-91d3-e21198ed9dbd/)
+are included in that successful live check.
 
 ## Resume
 
