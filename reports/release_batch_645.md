@@ -103,8 +103,19 @@ The working release candidate passed:
   **98,675,359 bytes**, manifest SHA-256
   `3bbaf6746b3d7a97e192fb84cf67d651a4f7c4abcd56a4761262eb0a3a8e8eb8`.
 
-A tracked-only deterministic build and exact deployed-site verification remain
-release gates and will be recorded after commit and deployment.
+The committed tree was then archived into an isolated directory and rebuilt
+from the frozen source PDF plus tracked review inputs. The clean rebuild
+processed **276** Astro source files with zero errors, warnings, or hints and
+generated exactly **24,682** HTML pages. Its public projection is byte-for-byte
+identical to the committed projection: **70** artifacts containing **67**
+manifested assets, **98,675,359 bytes**, and manifest SHA-256
+`3bbaf6746b3d7a97e192fb84cf67d651a4f7c4abcd56a4761262eb0a3a8e8eb8`.
+All 24,682 clean-build internal links resolve and the clean identifier audit
+again found zero aggregate, manifest-size, or unexpected-boundary false
+positives. Two complete tracked-only builds produced the same **24,754-file,
+295,235,666-byte** tree with SHA-256
+`6993632ac3c4f73dcf92676c1fb400d5706ce9df9dff54138f06d1185cc31466`.
+Exact deployed-site verification remains the final release gate.
 
 ## Deployment
 
