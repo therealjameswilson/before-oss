@@ -102,8 +102,26 @@ previously exposed API key must be rotated before authenticated work resumes.
 
 ## Released and verified live
 
-Release identifiers will be recorded here after the reviewed commit is merged
-and the exact GitHub Pages artifact passes deployed verification.
+Pull request [#415](https://github.com/therealjameswilson/before-oss/pull/415)
+merged as commit
+[`f6c621aa6796f076ed1cc1e8ac35840c843446dd`](https://github.com/therealjameswilson/before-oss/commit/f6c621aa6796f076ed1cc1e8ac35840c843446dd).
+The pull-request test run
+[`35913129319`](https://github.com/therealjameswilson/before-oss/actions/runs/35913129319),
+post-merge test run
+[`35913741049`](https://github.com/therealjameswilson/before-oss/actions/runs/35913741049),
+and Pages deployment
+[`35913740949`](https://github.com/therealjameswilson/before-oss/actions/runs/35913740949)
+all passed.
+
+The deployed-release verifier matched **67** manifest-listed assets totaling
+**100,015,104** bytes to manifest SHA-256
+`cf2e81b2c6db9ace25da2404b56d6e2c23417a627f05e816e97f9fbd521d1b29`.
+It also verified eight core routes, 27 source-register pages, and all 22 Batch
+657 direct person-profile routes against the exact merged commit. The live
+[oil-company category](https://therealjameswilson.github.io/before-oss/oil-companies/)
+and its placement at the top of the
+[personnel directory](https://therealjameswilson.github.io/before-oss/people/)
+remain in the released build.
 
 ## Resume
 
