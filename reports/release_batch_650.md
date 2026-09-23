@@ -76,17 +76,26 @@ Full-index historical research remains unfinished.
 
 ## Local verification
 
-The working release candidate currently passes:
+The exact tracked-only release candidate passes:
 
 - **133/133** Python unit tests;
-- Astro diagnostics with zero errors, warnings, or hints;
-- **21/21** Batch 650 Playwright checks across desktop, phone, and tablet; and
-- a complete static generation of all person and organization routes.
+- Astro diagnostics across **281** source files with zero errors, warnings, or
+  hints;
+- **90/90** bounded Playwright checks: 21 Batch 650, 33 core route and
+  interaction, six analysis, and 30 accessibility checks across desktop,
+  phone, and tablet;
+- internal-link validation across **24,704** generated HTML files;
+- public-identifier redaction across **24,776** production artifacts, with
+  zero aggregate, manifest-size, or unexpected-boundary matches; and
+- local manifest verification of **67** projected assets totaling
+  **99,293,366 bytes**, manifest SHA-256
+  `1d9f5a07d76802e7182d70b615fbb2da8600cfdd476e3134a3622ed2c89e70f2`.
 
-The local working tree contains user-owned Finder-style ` 2` files. They are
-not part of this release and will be excluded from the final tracked-only build.
-Final deterministic-build, link, redaction, full Playwright, and manifest
-results are recorded before merge.
+Two complete tracked-only site builds produced the same **24,776-file,
+296,248,961-byte** tree with SHA-256
+`7f8aac4a60cc00a9100a52d05d3199d2af5132c9798933884aa69a8e66506671`.
+User-owned Finder-style ` 2` files and local SQLite sidecars were excluded from
+the isolated build and remain untouched.
 
 ## Deployment
 
