@@ -104,8 +104,22 @@ manual historical audit required by the project brief.
 
 ## Deployment
 
-Pending reviewed pull request, merge, GitHub Pages deployment, and read-only
-verification of the live site.
+Research release [PR #407](https://github.com/therealjameswilson/before-oss/pull/407)
+merged to `main` as commit
+`466d57555fed7b70d75e3f285a663f0acc668742` on 2026-09-23. The pull-request
+test run [35879448394](https://github.com/therealjameswilson/before-oss/actions/runs/35879448394)
+passed, as did the post-merge `main` test run
+[35880055574](https://github.com/therealjameswilson/before-oss/actions/runs/35880055574)
+and Pages deployment
+[35880055754](https://github.com/therealjameswilson/before-oss/actions/runs/35880055754).
+
+Read-only verification of
+[the public site](https://therealjameswilson.github.io/before-oss/) matched the
+merge commit exactly: **67** public assets and **99,558,364** bytes at manifest
+SHA-256
+`d1387c1412657ffe2e43c7746c3b9e2aebfaa1e30b6e468411be1ab25ccd59f7`.
+The verifier also confirmed all eight core routes, all 27 source-register
+pages, and the direct public profile routes for all 22 Batch 653 people.
 
 ## Resume
 
