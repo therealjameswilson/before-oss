@@ -1,5 +1,32 @@
 # Research status
 
+Batch 655 completed the page-318/319 `Jack L. Meyer` through `C. P.
+Meysereav` queue with a saved terminal outcome for all 22 people. Six official
+Army identity bridges were accepted without inferring employers. The two Hans
+Meyerhoff rows remain separate; the Norman H. Meyers/Norman M. Myers and C. P.
+Meysereav/Charles P. Mersereau/Charles P. Meserau protected-identifier
+conflicts remain explicit. Hans Meyerhoff's Army-assigned immediate pathway,
+UCLA teaching-assistant employment, and student status are modeled
+separately. Emile Meyran's Compagnie Française de Raffinage work is published
+as a qualified medium-confidence claim pending the underlying French file.
+The cohort ends with 17 `requires_archival_review`, three
+`conflicting_sources`, one `verified_employer_found`, and one
+`documented_prewar_employer_found`. The top oil-company category now contains
+**eight people across ten companies**. See `research/batch-655-progress.md`.
+No authenticated NARA Catalog request was made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **8,162/23,939 (34.0950%)**;
+verified-employer coverage is **291/23,939 (1.2156%)**;
+verified-affiliation coverage is **646/23,939 (2.6985%)**; archival-review
+coverage is **6,618/23,939 (27.6453%)**. There are **15,772** `not_started`
+people and **497** possible-duplicate groups. SQLite retains **14,166**
+attempts or plans and **5,178** claims: 1,312 confirmed, 2,092 high, 1,415
+medium, 189 low, and 170 conflicting. It has **5,169** citation records and
+**2,465** unique source documents. The public projection has **2,275**
+affiliations, **747** organizations, **3,959** sources, and **4,985** claims.
+Full-index historical research remains unfinished.
+
 Batch 649 visually checked all **460** printed rows on PDF pages 45-54. The
 322 rows not already covered by the deterministic and warning-page audit all
 match the immutable extraction. The durable ledger now covers **475/522
