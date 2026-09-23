@@ -56,6 +56,10 @@ class SourceInput(StrictModel):
 
 class OrganizationInput(StrictModel):
     key: str = Field(min_length=1)
+    organization_id: str | None = Field(
+        default=None,
+        pattern=r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
+    )
     canonical_name: str = Field(min_length=1)
     historical_name: str | None = None
     aliases: list[str] = Field(default_factory=list)
@@ -349,8 +353,14 @@ def import_reviewed_evidence(
     now = utc_now()
     source_ids = {value.key: _stable_id("source", value.key) for value in bundle.sources}
     organization_ids = {
-        value.key: _stable_id("organization", value.key)
+        value.key: value.organization_id or _stable_id("organization", value.key)
         for value in bundle.organizations
+    }
+    superseded_generated_organization_ids = {
+        _stable_id("organization", value.key)
+        for value in bundle.organizations
+        if value.organization_id
+        and value.organization_id != _stable_id("organization", value.key)
     }
     affiliation_ids = {
         value.key: _stable_id("affiliation", value.key)
@@ -520,6 +530,22 @@ def import_reviewed_evidence(
                     now,
                     now,
                 ),
+            )
+        # A reviewed bundle can redirect a formerly bundle-generated
+        # organization to an existing canonical organization. Remove only the
+        # old deterministic row and only when no affiliation still references
+        # it; no broader name-based merge is attempted here.
+        for organization_id in superseded_generated_organization_ids:
+            connection.execute(
+                """
+                DELETE FROM organizations
+                WHERE organization_id = ?
+                  AND NOT EXISTS (
+                    SELECT 1 FROM affiliations
+                    WHERE affiliations.organization_id = organizations.organization_id
+                  )
+                """,
+                (organization_id,),
             )
         for claim in bundle.claims:
             connection.execute(

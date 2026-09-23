@@ -237,6 +237,37 @@ class ReviewedEvidenceTests(unittest.TestCase):
         # expected; the assertion protects the import from inventing one.
         self.assertIsNone(link)
 
+    def test_explicit_organization_id_reuses_canonical_row_and_cleans_generated_duplicate(self) -> None:
+        path = Path(self.temp_dir.name) / "organization-remap.json"
+        bundle = self._bundle()
+        path.write_text(json.dumps(bundle), encoding="utf-8")
+        import_reviewed_evidence(self.connection, path)
+        generated_id = self.connection.execute(
+            "SELECT organization_id FROM organizations"
+        ).fetchone()[0]
+
+        canonical_id = "11111111-2222-4333-8444-555555555555"
+        bundle["organizations"][0]["organization_id"] = canonical_id
+        path.write_text(json.dumps(bundle), encoding="utf-8")
+        import_reviewed_evidence(self.connection, path)
+
+        self.assertEqual(
+            [
+                row[0]
+                for row in self.connection.execute(
+                    "SELECT organization_id FROM organizations ORDER BY organization_id"
+                )
+            ],
+            [canonical_id],
+        )
+        self.assertNotEqual(generated_id, canonical_id)
+        self.assertEqual(
+            self.connection.execute(
+                "SELECT organization_id FROM affiliations"
+            ).fetchone()[0],
+            canonical_id,
+        )
+
     def test_government_assignment_can_be_last_civilian_role(self) -> None:
         bundle = self._bundle()
         affiliation = bundle["affiliations"][0]

@@ -1,0 +1,1388 @@
+{
+  "bundle_version": "batch-655-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 655 archival review",
+  "sources": [
+    {
+      "key": "nara-index-pages318-319-b655",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 521",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 318, rows 40-46, and page 319, rows 1-15; archival location 230/86/36/07",
+      "access_date": "2026-09-23",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Full protected identifiers remain private and are excluded from public output."
+    },
+    {
+      "key": "nara-index-page317-b655",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 519",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 317, rows 33 and 37; archival location 230/86/36/07",
+      "access_date": "2026-09-23",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Used only to document the Mersereau/Meserau/Meysereav identity conflict; protected identifiers remain private."
+    },
+    {
+      "key": "nara-index-page336-b655",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 549",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 336, row 26; archival location 230/86/36/07",
+      "access_date": "2026-09-23",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Used only to document the Norman H. Meyers/Norman M. Myers identity conflict; the protected identifier remains private."
+    },
+    {
+      "key": "army-bulk-b655",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; name and protected-identifier crosswalk; private records retain ordinals",
+      "access_date": "2026-09-23",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "Official bulk data, not a Catalog API response. Protected identifiers, occupation codes, and raw records are excluded from public output."
+    },
+    {
+      "key": "ucla-in-memoriam-meyerhoff-b655",
+      "stable_url": "https://digicoll.lib.berkeley.edu/record/81424/files/inmemoriam1967.pdf",
+      "archival_identifier": "University of California In Memoriam, 1967, Hans Meyerhoff",
+      "title": "Hans Meyerhoff, Philosophy: Los Angeles, 1914-1965",
+      "author_creator": "Donald S. Piatt, Herbert Morris, and Leon Howard",
+      "repository_publisher": "University of California Academic Senate",
+      "publication_record_date": "1967",
+      "locator": "In Memoriam 1967, pages 65-68; PDF pages 27-28",
+      "access_date": "2026-09-23",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "University of California In Memoriam",
+      "rights_notes": "Project-authored paraphrases are used; no extended copyrighted text is stored."
+    },
+    {
+      "key": "wwii-museum-meyerhoff-b655",
+      "stable_url": "https://www.nationalww2museum.org/war/articles/iswd-roundtable-world-war-ii-and-present-crisis",
+      "title": "ISWD Roundtable: World War II and the Present Crisis",
+      "author_creator": "Jason Dawsey",
+      "repository_publisher": "The National WWII Museum",
+      "publication_record_date": "2020",
+      "locator": "Section by Jason Dawsey identifying Meyerhoff in the OSS Research and Analysis Branch after his 1942 UCLA Ph.D.",
+      "access_date": "2026-09-23",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "The National WWII Museum",
+      "rights_notes": "Used as institutional corroboration of the distinctive identity and OSS assignment."
+    },
+    {
+      "key": "shd-resistance-index-meyran-b655",
+      "stable_url": "https://www.servicehistorique.sga.defense.gouv.fr/sites/default/files/2019-10/SHDGR_INV_28P4_DOSSIERS_DES_AGENTS_DES_RESEAUX_0.pdf",
+      "archival_identifier": "GR 28 P 4 395/127; cross-reference GR 16 P 295561",
+      "title": "Dossiers individuels des agents des réseaux",
+      "author_creator": "Service historique de la Défense",
+      "repository_publisher": "Service historique de la Défense, Vincennes",
+      "publication_record_date": "2019",
+      "locator": "Emile Meyran individual network-agent dossier, GR 28 P 4 395/127, dated 1945-1956; cross-reference GR 16 P 295561",
+      "access_date": "2026-09-23",
+      "source_quality": "A_direct_official",
+      "collection_name": "Archives de la Résistance",
+      "rights_notes": "Finding-aid metadata only; the underlying personnel dossier has not yet been examined."
+    },
+    {
+      "key": "shd-administrative-index-meyran-b655",
+      "stable_url": "https://www.museedelaresistanceenligne.org/musee/doc/pdf/ressource_source/SHDGR_16P_M.pdf",
+      "archival_identifier": "GR 16 P 295561",
+      "title": "Dossiers administratifs de résistantes et résistants, lettre M",
+      "author_creator": "Service historique de la Défense",
+      "repository_publisher": "Service historique de la Défense; Musée de la Résistance en ligne",
+      "publication_record_date": "2015",
+      "locator": "PDF page 712: Emile Meyran, 1 August 1910, GR 16 P 295561",
+      "access_date": "2026-09-23",
+      "source_quality": "A_direct_official",
+      "collection_name": "Sous-série GR 16 P",
+      "rights_notes": "The finding aid establishes the archival person record and exposes a birth-month discrepancy in the narrative source."
+    },
+    {
+      "key": "itineraires-lisette-meyran-b655",
+      "stable_url": "https://itinerairesdememoire.com/2017/01/22/lettres-a-lisette-2/",
+      "archival_identifier": "Narrative cites French defense archive file GR 17 P 175",
+      "title": "Lettres à Lisette (2)",
+      "author_creator": "Stéphane",
+      "repository_publisher": "Itinéraires de Mémoire sur la Shoah",
+      "publication_record_date": "2017-01-22",
+      "locator": "Biographical section on Emile Meyran and creation of the NANA intelligence network",
+      "access_date": "2026-09-23",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "Itinéraires de Mémoire sur la Shoah",
+      "rights_notes": "Archive-cited narrative used with qualification. It says 1 April 1910; the official SHD finding aid says 1 August 1910."
+    },
+    {
+      "key": "itineraires-gramont-meyran-b655",
+      "stable_url": "https://itinerairesdememoire.com/2017/05/28/la-comtesse-marguerite-de-gramont-dit-margot-une-vie-aventureuse-dans-les-defiles-pyreneens/",
+      "archival_identifier": "Footnotes 15-16 in the published narrative",
+      "title": "La comtesse Marguerite de Gramont dit Margot: Une vie aventureuse dans les défilés pyrénéens",
+      "author_creator": "Stéphane",
+      "repository_publisher": "Itinéraires de Mémoire sur la Shoah",
+      "publication_record_date": "2017-05-28",
+      "locator": "Section describing Emile Meyran's oil-company work, departure from Paris, and recruitment into the OSS-affiliated NANA network",
+      "access_date": "2026-09-23",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "Itinéraires de Mémoire sur la Shoah",
+      "rights_notes": "Archive-cited narrative used as qualified evidence; full underlying French files remain the preferred next action."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "us-army-b655",
+      "organization_id": "28a26f92-78af-5a1a-9c09-a843eb5975b4",
+      "canonical_name": "United States Army",
+      "historical_name": "Army of the United States",
+      "aliases": [
+        "U.S. Army",
+        "Army of the United States"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "active_dates": "1775-present",
+      "normalization_notes": "Army service is modeled as a military assignment, not civilian employment; the wartime Army of the United States wording is preserved in the affiliation."
+    },
+    {
+      "key": "ucla-b655",
+      "organization_id": "bc75e59c-1f1e-5523-a553-f33cc0e88e44",
+      "canonical_name": "University of California, Los Angeles",
+      "historical_name": "University of California at Los Angeles",
+      "aliases": [
+        "UCLA",
+        "University of California at Los Angeles"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Los Angeles",
+      "state_or_region": "California",
+      "country": "United States",
+      "normalization_notes": "Student and employment relationships are modeled separately; the historical University of California at Los Angeles wording is preserved in the affiliation."
+    },
+    {
+      "key": "federal-government-unidentified-b655",
+      "canonical_name": "United States federal government (agency unidentified)",
+      "historical_name": "federal government",
+      "aliases": [
+        "service of the federal government"
+      ],
+      "organization_type": "government affiliation, agency unidentified",
+      "sector": "federal_government",
+      "country": "United States",
+      "normalization_notes": "The institutional source does not name an agency; no department is inferred."
+    },
+    {
+      "key": "cfr-france-b655",
+      "canonical_name": "Compagnie Française de Raffinage",
+      "historical_name": "compagnie française de raffinage (pétrole)",
+      "aliases": [
+        "CFR",
+        "Compagnie française de raffinage"
+      ],
+      "organization_type": "oil and refining company",
+      "sector": "business_and_industry",
+      "city": "Paris",
+      "country": "France",
+      "active_dates": "Documented for Meyran, 1935-1943",
+      "normalization_notes": "Historical employer name is preserved. No modern successor is substituted in the employment claim."
+    },
+    {
+      "key": "eaux-paris-b655",
+      "canonical_name": "Compagnie des Eaux de Paris",
+      "historical_name": "compagnie des Eaux de Paris",
+      "aliases": [],
+      "organization_type": "water utility",
+      "sector": "business_and_industry",
+      "city": "Paris",
+      "country": "France",
+      "active_dates": "Documented for Meyran, 1933-1935",
+      "normalization_notes": "Historical organization name as found; no modern successor substituted."
+    },
+    {
+      "key": "611-pma-b655",
+      "canonical_name": "611e compagnie du parc de munitions d’artillerie, French Army",
+      "historical_name": "611e compagnie du PMA (Parc Munitions Artillerie)",
+      "aliases": [
+        "611e compagnie du PMA"
+      ],
+      "organization_type": "military unit",
+      "sector": "military",
+      "country": "France",
+      "active_dates": "1939-1940",
+      "normalization_notes": "French unit designation is preserved from the source and is not treated as civilian employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "hans-meyerhoff-us-army-b655",
+      "person_id": "3084dc84-0ed4-599c-86ca-0d29ae0c5390",
+      "organization_key": "us-army-b655",
+      "organization_name_as_found": "Army of the United States",
+      "role_title": "Soldier assigned to the Office of Strategic Services",
+      "occupation": "Army service",
+      "relationship_type": "military_assignment",
+      "start_date": "1943",
+      "date_precision": "UCLA memorial states he entered the Army in 1943 and was assigned to OSS.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Immediate predecessor is a military assignment, not a civilian employer. The adjacent lieutenant index row remains separate."
+    },
+    {
+      "key": "hans-meyerhoff-ucla-ta-b655",
+      "person_id": "3084dc84-0ed4-599c-86ca-0d29ae0c5390",
+      "organization_key": "ucla-b655",
+      "organization_name_as_found": "University of California at Los Angeles",
+      "role_title": "Teaching Assistant for Visiting Professor Bertrand Russell",
+      "occupation": "teaching assistant",
+      "relationship_type": "employment",
+      "end_date": "1942",
+      "date_precision": "The memorial places the assistantship during graduate study before his 1942 Ph.D., followed immediately by federal service.",
+      "city": "Los Angeles",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "UCLA is the last named civilian employer before federal and Army service. The source does not identify the intervening federal agency."
+    },
+    {
+      "key": "hans-meyerhoff-ucla-student-b655",
+      "person_id": "3084dc84-0ed4-599c-86ca-0d29ae0c5390",
+      "organization_key": "ucla-b655",
+      "organization_name_as_found": "UCLA",
+      "role_title": "Undergraduate and graduate student",
+      "occupation": "student",
+      "relationship_type": "student",
+      "start_date": "1934",
+      "end_date": "1942",
+      "date_precision": "The institutional memorial lists a 1936 bachelor's degree, 1938 master's degree, and 1942 Ph.D.",
+      "city": "Los Angeles",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Education is kept separate from employment."
+    },
+    {
+      "key": "hans-meyerhoff-federal-service-b655",
+      "person_id": "3084dc84-0ed4-599c-86ca-0d29ae0c5390",
+      "organization_key": "federal-government-unidentified-b655",
+      "organization_name_as_found": "service of the federal government",
+      "role_title": "Federal government service, agency unidentified",
+      "relationship_type": "government_assignment",
+      "start_date": "1942",
+      "end_date": "1943",
+      "date_precision": "The UCLA memorial says he entered federal service immediately after his 1942 Ph.D. and the Army in 1943.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The agency and exact role are not named and are not inferred."
+    },
+    {
+      "key": "emile-meyran-cfr-b655",
+      "person_id": "d1d9176d-01d1-5421-9221-43975f5c024b",
+      "organization_key": "cfr-france-b655",
+      "organization_name_as_found": "compagnie française de raffinage (pétrole) à Paris",
+      "role_title": "Engineer",
+      "occupation": "chemical engineer",
+      "relationship_type": "employment",
+      "start_date": "1935",
+      "end_date": "1943-04",
+      "date_precision": "The narrative places this work after 1935 and still identifies Meyran as the company's engineer when he left Paris on 13 April 1943, shortly before OSS-linked recruitment in Madrid.",
+      "city": "Paris",
+      "country": "France",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "D_correlative_or_secondary",
+      "publication_status": "publish_qualified",
+      "research_notes": "Qualified pending review of the underlying French personnel files. The employer is not silently renamed as a modern successor."
+    },
+    {
+      "key": "emile-meyran-eaux-paris-b655",
+      "person_id": "d1d9176d-01d1-5421-9221-43975f5c024b",
+      "organization_key": "eaux-paris-b655",
+      "organization_name_as_found": "compagnie des Eaux de Paris",
+      "role_title": "Auxiliary employee",
+      "relationship_type": "employment",
+      "start_date": "1933",
+      "end_date": "1935",
+      "date_precision": "The archive-cited narrative gives the range 1933-1935.",
+      "city": "Paris",
+      "country": "France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "D_correlative_or_secondary",
+      "publication_status": "publish_qualified",
+      "research_notes": "Earlier documented employment, not presented as immediate."
+    },
+    {
+      "key": "emile-meyran-611-pma-b655",
+      "person_id": "d1d9176d-01d1-5421-9221-43975f5c024b",
+      "organization_key": "611-pma-b655",
+      "organization_name_as_found": "611e compagnie du PMA (Parc Munitions Artillerie)",
+      "role_title": "Officer",
+      "relationship_type": "military_assignment",
+      "start_date": "1939-09-03",
+      "end_date": "1940-08",
+      "date_precision": "The narrative gives mobilization on 3 September 1939 and demobilization in August 1940.",
+      "country": "France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "D_correlative_or_secondary",
+      "publication_status": "publish_qualified",
+      "research_notes": "Military service is separated from civilian employment."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-milton-w-meyer-army-b655",
+      "person_id": "49781ae5-8cc5-5579-9b26-2cf0631cc02e",
+      "claim_type": "identity",
+      "claim_text": "Indexed Milton W. Meyer has a high-confidence match to an official Army entry.",
+      "evidence_paraphrase": "The indexed name and a nonshared protected identifier agree; the protected value is not published.",
+      "identity_match_assessment": "High confidence from full-name alignment and a nonshared protected-identifier match.",
+      "temporal_assessment": "Identity context only; Army occupation and entry codes do not establish a named predecessor employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Official bulk record ordinal 440468; protected identifier omitted from public data.",
+      "sources": [
+        {
+          "source_key": "nara-index-pages318-319-b655",
+          "locator_override": "PDF page 318-319, indexed Box 521 row"
+        },
+        {
+          "source_key": "army-bulk-b655",
+          "locator_override": "Official bulk record ordinal 440468"
+        }
+      ]
+    },
+    {
+      "key": "identity-ralph-h-meyer-army-b655",
+      "person_id": "305afbd3-a0cc-511c-a28d-af5fd9135d1a",
+      "claim_type": "identity",
+      "claim_text": "Indexed Ralph H. Meyer has a high-confidence match to an official Army entry.",
+      "evidence_paraphrase": "The indexed name and a nonshared protected identifier agree; the protected value is not published.",
+      "identity_match_assessment": "High confidence from full-name alignment and a nonshared protected-identifier match.",
+      "temporal_assessment": "Identity context only; Army occupation and entry codes do not establish a named predecessor employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Official bulk record ordinal 3771809; protected identifier omitted from public data.",
+      "sources": [
+        {
+          "source_key": "nara-index-pages318-319-b655",
+          "locator_override": "PDF page 318-319, indexed Box 521 row"
+        },
+        {
+          "source_key": "army-bulk-b655",
+          "locator_override": "Official bulk record ordinal 3771809"
+        }
+      ]
+    },
+    {
+      "key": "identity-walter-j-meyer-army-b655",
+      "person_id": "ff09fdc9-ac8a-5d87-b497-fc23addef505",
+      "claim_type": "identity",
+      "claim_text": "Indexed Walter J. Meyer has a high-confidence match to an official Army entry.",
+      "evidence_paraphrase": "The indexed name and a nonshared protected identifier agree; the protected value is not published.",
+      "identity_match_assessment": "High confidence from full-name alignment and a nonshared protected-identifier match.",
+      "temporal_assessment": "Identity context only; Army occupation and entry codes do not establish a named predecessor employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Official bulk record ordinal 1350315; protected identifier omitted from public data.",
+      "sources": [
+        {
+          "source_key": "nara-index-pages318-319-b655",
+          "locator_override": "PDF page 318-319, indexed Box 521 row"
+        },
+        {
+          "source_key": "army-bulk-b655",
+          "locator_override": "Official bulk record ordinal 1350315"
+        }
+      ]
+    },
+    {
+      "key": "identity-walter-m-meyer-army-b655",
+      "person_id": "b5e5c8ce-6f16-5307-8e35-dd0d95776baf",
+      "claim_type": "identity",
+      "claim_text": "Indexed Walter M. Meyer has a high-confidence match to an official Army entry.",
+      "evidence_paraphrase": "The indexed name and a nonshared protected identifier agree; the protected value is not published.",
+      "identity_match_assessment": "High confidence from full-name alignment and a nonshared protected-identifier match.",
+      "temporal_assessment": "Identity context only; Army occupation and entry codes do not establish a named predecessor employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Official bulk record ordinal 8154776; protected identifier omitted from public data.",
+      "sources": [
+        {
+          "source_key": "nara-index-pages318-319-b655",
+          "locator_override": "PDF page 318-319, indexed Box 521 row"
+        },
+        {
+          "source_key": "army-bulk-b655",
+          "locator_override": "Official bulk record ordinal 8154776"
+        }
+      ]
+    },
+    {
+      "key": "identity-albert-c-meyers-army-b655",
+      "person_id": "20429821-fa18-532f-8406-d549721679d8",
+      "claim_type": "identity",
+      "claim_text": "Indexed Albert C. Meyers has a high-confidence match to an official Army entry.",
+      "evidence_paraphrase": "The indexed name and a nonshared protected identifier agree; the protected value is not published.",
+      "identity_match_assessment": "High confidence from full-name alignment and a nonshared protected-identifier match.",
+      "temporal_assessment": "Identity context only; Army occupation and entry codes do not establish a named predecessor employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Official bulk record ordinal 8431616; protected identifier omitted from public data.",
+      "sources": [
+        {
+          "source_key": "nara-index-pages318-319-b655",
+          "locator_override": "PDF page 318-319, indexed Box 521 row"
+        },
+        {
+          "source_key": "army-bulk-b655",
+          "locator_override": "Official bulk record ordinal 8431616"
+        }
+      ]
+    },
+    {
+      "key": "identity-hans-meyerhoff-msgt-army-b655",
+      "person_id": "3084dc84-0ed4-599c-86ca-0d29ae0c5390",
+      "claim_type": "identity",
+      "claim_text": "Indexed Hans Meyerhoff has a high-confidence match to an official Army entry.",
+      "evidence_paraphrase": "The indexed name and a nonshared protected identifier agree; the protected value is not published.",
+      "identity_match_assessment": "High confidence from full-name alignment and a nonshared protected-identifier match.",
+      "temporal_assessment": "Identity context only; Army occupation and entry codes do not establish a named predecessor employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Official bulk record ordinal 4578365; protected identifier omitted from public data.",
+      "sources": [
+        {
+          "source_key": "nara-index-pages318-319-b655",
+          "locator_override": "PDF page 318-319, indexed Box 521 row"
+        },
+        {
+          "source_key": "army-bulk-b655",
+          "locator_override": "Official bulk record ordinal 4578365"
+        }
+      ]
+    },
+    {
+      "key": "identity-hans-meyerhoff-duplicate-b655",
+      "person_id": "528642a1-c20d-503f-920b-f3ae01a8ff41",
+      "claim_type": "identity",
+      "claim_text": "Two adjacent Hans Meyerhoff rows have different ranks and protected identifiers and remain separate.",
+      "evidence_paraphrase": "The index prints a lieutenant row immediately before a master-sergeant row with the same name but different identifiers.",
+      "identity_match_assessment": "Conflicting: the rows could reflect separate files, a status change, or an index error; no merge is authorized.",
+      "temporal_assessment": "Identity conflict only; predecessor work documented for the independently bridged master-sergeant row is not copied to this row.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Compare both Box 521 files. The master-sergeant row has the independent Army crosswalk.",
+      "sources": [
+        {
+          "source_key": "nara-index-pages318-319-b655",
+          "locator_override": "PDF page 319, rows 3-4, Box 521"
+        }
+      ]
+    },
+    {
+      "key": "identity-norman-h-meyers-conflict-b655",
+      "person_id": "540693d9-8582-5ab3-ab67-4b9713ab5792",
+      "claim_type": "identity",
+      "claim_text": "Captain Norman H. Meyers and Lieutenant Norman M. Myers share a protected identifier but have different names, ranks, pages, and boxes.",
+      "evidence_paraphrase": "The duplicated identifier conflicts with the two separate indexed identities.",
+      "identity_match_assessment": "Conflicting; neither record is merged or chosen as canonical.",
+      "temporal_assessment": "Identity conflict only; no employer is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Compare Boxes 521 and 549 before accepting either row's identifier.",
+      "sources": [
+        {
+          "source_key": "nara-index-pages318-319-b655",
+          "locator_override": "PDF page 319, row 9, Box 521"
+        },
+        {
+          "source_key": "nara-index-page336-b655",
+          "support_type": "contradicts",
+          "locator_override": "PDF page 336, row 26, Box 549"
+        }
+      ]
+    },
+    {
+      "key": "identity-c-p-meysereav-conflict-b655",
+      "person_id": "a1bc5e98-c7ae-5a00-a319-14a479df8457",
+      "claim_type": "identity",
+      "claim_text": "C. P. Meysereav shares a protected identifier with Charles P. Mersereau and Charles P. Meserau.",
+      "evidence_paraphrase": "Three separate index rows use different spellings, pages, boxes, and grades while sharing the same protected value.",
+      "identity_match_assessment": "Conflicting; the Army crosswalk favors Mersereau, but it does not authorize silently correcting or merging the index rows.",
+      "temporal_assessment": "Identity conflict only; no predecessor employer is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Compare all three personnel files in Boxes 519 and 521.",
+      "sources": [
+        {
+          "source_key": "nara-index-pages318-319-b655",
+          "locator_override": "PDF page 319, row 15, Box 521"
+        },
+        {
+          "source_key": "nara-index-page317-b655",
+          "support_type": "contradicts",
+          "locator_override": "PDF page 317, rows 33 and 37, Box 519"
+        },
+        {
+          "source_key": "army-bulk-b655",
+          "support_type": "contradicts",
+          "locator_override": "Official bulk name aligns with Mersereau; protected identifier omitted"
+        }
+      ]
+    },
+    {
+      "key": "hans-meyerhoff-army-before-oss-b655",
+      "person_id": "3084dc84-0ed4-599c-86ca-0d29ae0c5390",
+      "affiliation_key": "hans-meyerhoff-us-army-b655",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Hans Meyerhoff's immediate pre-OSS affiliation was the Army of the United States.",
+      "evidence_paraphrase": "UCLA's memorial states that he entered the Army in 1943 and was assigned to OSS for duty in the United States and Europe.",
+      "identity_match_assessment": "High confidence from the exact-name Army crosswalk and distinctive institutional biography.",
+      "temporal_assessment": "Explicit immediate: the institutional source describes Army assignment to OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Attached to the independently bridged master-sergeant row; the adjacent lieutenant row remains separate.",
+      "sources": [
+        {
+          "source_key": "ucla-in-memoriam-meyerhoff-b655",
+          "locator_override": "In Memoriam 1967, page 66; PDF page 27"
+        },
+        {
+          "source_key": "wwii-museum-meyerhoff-b655",
+          "locator_override": "Jason Dawsey section on the OSS Central European Section"
+        }
+      ]
+    },
+    {
+      "key": "hans-meyerhoff-ucla-employment-b655",
+      "person_id": "3084dc84-0ed4-599c-86ca-0d29ae0c5390",
+      "affiliation_key": "hans-meyerhoff-ucla-ta-b655",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Hans Meyerhoff's last named civilian employer before federal and Army service was UCLA, where he served as a teaching assistant.",
+      "evidence_paraphrase": "The UCLA memorial places his teaching assistantship during graduate study, followed by his 1942 doctorate, federal service, and the Army in 1943.",
+      "identity_match_assessment": "High confidence from the distinctive name, institutional biography, and official Army identity match.",
+      "temporal_assessment": "Strongly date-bounded; UCLA is the last named civilian employer, while the intervening federal agency is unspecified.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Student status is modeled separately; the teaching assistant role is employment.",
+      "sources": [
+        {
+          "source_key": "ucla-in-memoriam-meyerhoff-b655",
+          "locator_override": "In Memoriam 1967, pages 65-66; PDF page 27"
+        }
+      ]
+    },
+    {
+      "key": "hans-meyerhoff-ucla-student-b655",
+      "person_id": "3084dc84-0ed4-599c-86ca-0d29ae0c5390",
+      "affiliation_key": "hans-meyerhoff-ucla-student-b655",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Hans Meyerhoff studied at UCLA through a 1942 Ph.D.",
+      "evidence_paraphrase": "The institutional memorial lists his 1936 bachelor's, 1938 master's, and 1942 philosophy doctorate.",
+      "identity_match_assessment": "High confidence from exact distinctive identity and corroborated OSS chronology.",
+      "temporal_assessment": "Documented prewar education; not treated as employment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Education remains distinct from the separately documented teaching assistantship.",
+      "sources": [
+        {
+          "source_key": "ucla-in-memoriam-meyerhoff-b655",
+          "locator_override": "In Memoriam 1967, page 65; PDF page 27"
+        }
+      ]
+    },
+    {
+      "key": "hans-meyerhoff-federal-service-b655",
+      "person_id": "3084dc84-0ed4-599c-86ca-0d29ae0c5390",
+      "affiliation_key": "hans-meyerhoff-federal-service-b655",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Hans Meyerhoff entered federal government service after his 1942 doctorate, but the agency is unidentified.",
+      "evidence_paraphrase": "UCLA's memorial places unnamed federal service between the 1942 doctorate and 1943 Army entry.",
+      "identity_match_assessment": "High-confidence identity; the agency and role remain unknown.",
+      "temporal_assessment": "Strongly date-bounded but institutionally incomplete.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No department or job title is inferred.",
+      "sources": [
+        {
+          "source_key": "ucla-in-memoriam-meyerhoff-b655",
+          "locator_override": "In Memoriam 1967, page 66; PDF page 27"
+        }
+      ]
+    },
+    {
+      "key": "identity-emile-meyran-b655",
+      "person_id": "d1d9176d-01d1-5421-9221-43975f5c024b",
+      "claim_type": "identity",
+      "claim_text": "Indexed Captain Emile Meyran has a high-confidence match to the French resistance figure who led the OSS-affiliated NANA network.",
+      "evidence_paraphrase": "The distinctive exact name, OSS-specific network context, indexed captain rank, and official French resistance dossier cross-reference converge.",
+      "identity_match_assessment": "High confidence, with a disclosed birth-month discrepancy between the official SHD finding aid and the secondary narrative.",
+      "temporal_assessment": "Identity evidence supports the wartime chronology; French personnel files remain unreviewed.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "publish_qualified",
+      "match_notes": "SHD gives 1 August 1910; the archive-cited narrative gives 1 April 1910. The discrepancy is preserved.",
+      "sources": [
+        {
+          "source_key": "nara-index-pages318-319-b655",
+          "locator_override": "PDF page 319, row 14, Captain, Box 521"
+        },
+        {
+          "source_key": "shd-resistance-index-meyran-b655",
+          "locator_override": "GR 28 P 4 395/127; cross-reference GR 16 P 295561"
+        },
+        {
+          "source_key": "shd-administrative-index-meyran-b655",
+          "locator_override": "PDF page 712; GR 16 P 295561"
+        },
+        {
+          "source_key": "itineraires-gramont-meyran-b655",
+          "locator_override": "Section on Meyran's 1943 NANA recruitment"
+        }
+      ]
+    },
+    {
+      "key": "emile-meyran-cfr-immediate-b655",
+      "person_id": "d1d9176d-01d1-5421-9221-43975f5c024b",
+      "affiliation_key": "emile-meyran-cfr-b655",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Emile Meyran was an engineer for Compagnie Française de Raffinage immediately before his 1943 recruitment into the OSS-affiliated NANA network.",
+      "evidence_paraphrase": "The archive-cited chronology identifies him as the company's Paris engineer when he left on 13 April 1943, shortly before recruitment in Madrid.",
+      "identity_match_assessment": "High-confidence identity with the birth-month discrepancy disclosed.",
+      "temporal_assessment": "Strongly date-bounded, but qualified until the underlying French personnel files are examined.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical employer name is retained; no modern successor is substituted.",
+      "sources": [
+        {
+          "source_key": "itineraires-gramont-meyran-b655",
+          "locator_override": "Section identifying his employer, 13 April 1943 departure, and NANA recruitment"
+        },
+        {
+          "source_key": "itineraires-lisette-meyran-b655",
+          "locator_override": "Biographical section on employment and wartime assignment"
+        },
+        {
+          "source_key": "shd-resistance-index-meyran-b655",
+          "support_type": "context_only",
+          "locator_override": "GR 28 P 4 395/127"
+        }
+      ]
+    },
+    {
+      "key": "emile-meyran-cfr-last-civilian-b655",
+      "person_id": "d1d9176d-01d1-5421-9221-43975f5c024b",
+      "affiliation_key": "emile-meyran-cfr-b655",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Compagnie Française de Raffinage is the last documented civilian employer in Emile Meyran's pre-OSS chronology.",
+      "evidence_paraphrase": "The narrative places the oil-company engineering role after his 1940 demobilization and through his April 1943 departure from Paris.",
+      "identity_match_assessment": "High-confidence identity; underlying dossier review remains pending.",
+      "temporal_assessment": "Strongly date-bounded as the last documented civilian job before OSS-linked work.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "This does not erase his intervening 1939-1940 military assignment.",
+      "sources": [
+        {
+          "source_key": "itineraires-gramont-meyran-b655",
+          "locator_override": "Section on company employment, demobilization, and April 1943 departure"
+        },
+        {
+          "source_key": "itineraires-lisette-meyran-b655",
+          "locator_override": "Biographical employment chronology"
+        }
+      ]
+    },
+    {
+      "key": "emile-meyran-eaux-paris-b655",
+      "person_id": "d1d9176d-01d1-5421-9221-43975f5c024b",
+      "affiliation_key": "emile-meyran-eaux-paris-b655",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Emile Meyran worked as an auxiliary employee for Compagnie des Eaux de Paris from 1933 to 1935.",
+      "evidence_paraphrase": "The archive-cited narrative supplies the employer, role, and date range.",
+      "identity_match_assessment": "High-confidence identity, subject to the disclosed birth-month discrepancy.",
+      "temporal_assessment": "Documented earlier prewar employment, not immediate.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Underlying French personnel files should be checked for direct confirmation.",
+      "sources": [
+        {
+          "source_key": "itineraires-lisette-meyran-b655",
+          "locator_override": "Biographical employment chronology"
+        }
+      ]
+    },
+    {
+      "key": "emile-meyran-611-pma-b655",
+      "person_id": "d1d9176d-01d1-5421-9221-43975f5c024b",
+      "affiliation_key": "emile-meyran-611-pma-b655",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Emile Meyran served as an officer in the French Army's 611e compagnie du parc de munitions d’artillerie from September 1939 until August 1940.",
+      "evidence_paraphrase": "The narrative dates his mobilization to 3 September 1939 and demobilization to August 1940.",
+      "identity_match_assessment": "High-confidence identity, with French dossier review still pending.",
+      "temporal_assessment": "Strongly date-bounded wartime military assignment before OSS-linked work.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Military assignment is not labeled as civilian employment.",
+      "sources": [
+        {
+          "source_key": "itineraires-lisette-meyran-b655",
+          "locator_override": "Biographical section on mobilization"
+        },
+        {
+          "source_key": "itineraires-gramont-meyran-b655",
+          "locator_override": "Section describing demobilization and later recruitment"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "1cfb19b2-3838-5331-8f79-d2c49818b29e",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, employment, obituary, institutional, and archival searches did not establish a reliable identity bridge or predecessor affiliation for indexed Jack L Meyer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Colonel Jack L. Meyer's indexed file in Box 521 for an identity bridge and pre-OSS chronology.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "49781ae5-8cc5-5579-9b26-2cf0631cc02e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed name aligns exactly with an official Army entry through a nonshared protected identifier. No reliable predecessor employer was located online.",
+      "manual_review_required": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Milton W. Meyer's Box 521 file for pre-Army occupation and OSS assignment records.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1f6f9224-4542-5b96-9177-e2f96d69029d",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, employment, obituary, institutional, and archival searches did not establish a reliable identity bridge or predecessor affiliation for indexed Nancy Meyer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Nancy Meyer's CAF-4 file in Box 521 for former names, employer, and recruitment chronology.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "7654d384-115e-5cb2-ac21-79731739a0f7",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, employment, obituary, institutional, and archival searches did not establish a reliable identity bridge or predecessor affiliation for indexed Orville Meyer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Orville Meyer's naval personnel file in Box 521 and compare Navy identifiers before accepting any namesake.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3ee4b1b6-07f2-5547-a264-ccb0d7ec9726",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, employment, obituary, institutional, and archival searches did not establish a reliable identity bridge or predecessor affiliation for indexed Paul W Meyer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Paul W. Meyer's Box 521 file for an identity bridge, occupation, and employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "305afbd3-a0cc-511c-a28d-af5fd9135d1a",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed name aligns exactly with an official Army entry through a nonshared protected identifier. The occupation code is not a named employer.",
+      "manual_review_required": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Ralph H. Meyer's Box 521 file for his named civilian employer and OSS transfer chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "509bd146-6970-55cc-a4ee-0ed9f7a265e7",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, employment, obituary, institutional, and archival searches did not establish a reliable identity bridge or predecessor affiliation for indexed Roberta J Meyer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Roberta J. Meyer's CAF-5 file in Box 521 for former names and a pre-OSS employer.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ff09fdc9-ac8a-5d87-b497-fc23addef505",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed name aligns exactly with an official Army entry through a nonshared protected identifier. Common-name web candidates were rejected.",
+      "manual_review_required": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Walter J. Meyer's Box 521 file for his pre-Army occupation and employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b5e5c8ce-6f16-5307-8e35-dd0d95776baf",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed name aligns exactly with an official Army entry through a nonshared protected identifier. The index still leaves rank and predecessor work unresolved.",
+      "manual_review_required": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Walter M. Meyer's Box 521 file to establish rank, OSS role, and predecessor employment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "528642a1-c20d-503f-920b-f3ae01a8ff41",
+      "identity_status": "conflicting",
+      "identity_evidence": "Two adjacent Box 521 rows have the exact name Hans Meyerhoff but different ranks and protected identifiers. The lieutenant row lacks an independent identifier bridge and remains separate.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "possible-hans-meyerhoff-page319",
+      "research_status": "conflicting_sources",
+      "next_action": "Compare both adjacent Hans Meyerhoff files in Box 521 before deciding whether the lieutenant and master-sergeant rows represent one person.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "3084dc84-0ed4-599c-86ca-0d29ae0c5390",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The master-sergeant row aligns with an official Army entry through an exact name and nonshared protected identifier, and UCLA independently documents Hans Meyerhoff's Army-assigned OSS service.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "possible-hans-meyerhoff-page319",
+      "research_status": "verified_employer_found",
+      "next_action": "Compare the adjacent lieutenant file in Box 521; preserve the master-sergeant row separately meanwhile.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "20429821-fa18-532f-8406-d549721679d8",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed name aligns exactly with an official Army entry through a nonshared protected identifier. The Army occupation code is identity evidence only.",
+      "manual_review_required": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Albert C. Meyers's Box 521 file for a named civilian employer; do not expand the Army occupation code into an employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9951dba6-c525-50ae-be8e-35e5ef17b735",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, employment, obituary, institutional, and archival searches did not establish a reliable identity bridge or predecessor affiliation for indexed Gerry P Meyers.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Gerry P. Meyers's Box 521 file and verify the unusually formatted indexed identifier before namesake research.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ed74ba42-7cbd-5f6c-9788-32721a9dcd5e",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, employment, obituary, institutional, and archival searches did not establish a reliable identity bridge or predecessor affiliation for indexed Mason G Meyers.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Lieutenant Mason G. Meyers's Box 521 file for a second identifier and pre-service chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6183293f-c0ef-5931-8df1-02bedd45f9dc",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, employment, obituary, institutional, and archival searches did not establish a reliable identity bridge or predecessor affiliation for indexed Norbert Meyers.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Corporal Norbert Meyers's Box 521 file; a same-name wartime Army memoir remains an unbridged lead.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "540693d9-8582-5ab3-ab67-4b9713ab5792",
+      "identity_status": "conflicting",
+      "identity_evidence": "Captain Norman H. Meyers and Lieutenant Norman M. Myers have different middle initials, ranks, pages, and boxes but share a protected identifier. Neither row is merged.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "duplicate-norman-meyers-myers-pages319-336",
+      "research_status": "conflicting_sources",
+      "next_action": "Compare Captain Norman H. Meyers in Box 521 with Lieutenant Norman M. Myers in Box 549 before resolving the duplicated protected identifier.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "8b06f75a-6119-54d1-a13d-71e1221d0465",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, employment, obituary, institutional, and archival searches did not establish a reliable identity bridge or predecessor affiliation for indexed Russell H Meyers.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Russell H. Meyers's Box 521 file for a protected identifier, hometown, and occupation.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "daa19225-7597-50d4-b61e-33f736947de3",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, employment, obituary, institutional, and archival searches did not establish a reliable identity bridge or predecessor affiliation for indexed Thomas D Meyers.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Thomas D. Meyers's Box 521 file for rank, branch, identity markers, and pre-OSS work.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d17beea7-7b01-53c5-ae79-1c0220a83bbc",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, employment, obituary, institutional, and archival searches did not establish a reliable identity bridge or predecessor affiliation for indexed Faye Meyerson.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Faye Meyerson's CAF-2 file in Box 521 for former names and predecessor employment.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "074578a3-6509-59cf-8eac-7665d68b49bf",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, employment, obituary, institutional, and archival searches did not establish a reliable identity bridge or predecessor affiliation for indexed Winifred A Meyerson.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Winifred A. Meyerson's Box 521 file for grade, former names, and predecessor employment.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "d1d9176d-01d1-5421-9221-43975f5c024b",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The distinctive indexed Captain Emile Meyran aligns with an official French resistance dossier and an archive-cited account of the OSS-affiliated NANA network. The secondary account gives 1 April 1910 while the official French index gives 1 August 1910; the discrepancy is retained.",
+      "manual_review_required": true,
+      "name_variants": [
+        "Milly"
+      ],
+      "allied_or_foreign_personnel": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review OSS Box 521 and French files GR 16 P 295561 and GR 28 P 4 395/127 to confirm the precise recruitment date and reconcile a secondary birth-month error.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a1bc5e98-c7ae-5a00-a319-14a479df8457",
+      "identity_status": "conflicting",
+      "identity_evidence": "C. P. Meysereav, Charles P. Mersereau, and Charles P. Meserau share a protected identifier across three separate rows. The official Army spelling favors Mersereau, but no merge or correction is authorized.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "duplicate-mersereau-meserau-meysereav",
+      "research_status": "conflicting_sources",
+      "next_action": "Compare Box 521 with both Charles P. Mersereau and Charles P. Meserau files in Box 519; no spelling correction or merge is authorized.",
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b655-jack-l-meyer-1-reviewed-search",
+      "person_id": "1cfb19b2-3838-5331-8f79-d2c49818b29e",
+      "source_adapter": "official_nara_cia_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Jack L Meyer; Office of Strategic Services; OSS; employer 1940; occupation 1940; obituary; institutional archive",
+      "query_variant_type": "exact_name_rank_employment_and_archival",
+      "started_at": "2026-09-23T16:40:00Z",
+      "completed_at": "2026-09-23T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Common-name engineering, military, and obituary results lacked the indexed colonel's OSS Box 521 bridge.",
+      "research_notes": "No reliable predecessor affiliation was found after NARA-index context, bounded CIA and Library of Congress checks, exact-name OSS searches, employment/occupation searches, and institutional or obituary review.",
+      "next_action": "Inspect Colonel Jack L. Meyer's indexed file in Box 521 for an identity bridge and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-655-v1"
+    },
+    {
+      "key": "b655-milton-w-meyer-2-reviewed-search",
+      "person_id": "49781ae5-8cc5-5579-9b26-2cf0631cc02e",
+      "source_adapter": "official_nara_cia_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Milton W Meyer; Office of Strategic Services; OSS; employer 1940; occupation 1940; obituary; institutional archive",
+      "query_variant_type": "exact_name_rank_employment_and_archival",
+      "started_at": "2026-09-23T16:40:00Z",
+      "completed_at": "2026-09-23T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The Army identity crosswalk was accepted, but employer and obituary candidates lacked corroborating wartime identifiers.",
+      "research_notes": "The official Army name and protected identifier establish a high-confidence identity, but no named employer was found after the minimum protocol.",
+      "next_action": "Inspect Milton W. Meyer's Box 521 file for pre-Army occupation and OSS assignment records.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-655-v1"
+    },
+    {
+      "key": "b655-nancy-meyer-3-reviewed-search",
+      "person_id": "1f6f9224-4542-5b96-9177-e2f96d69029d",
+      "source_adapter": "official_nara_cia_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Nancy Meyer; Office of Strategic Services; OSS; employer 1940; occupation 1940; obituary; institutional archive",
+      "query_variant_type": "exact_name_rank_employment_and_archival",
+      "started_at": "2026-09-23T16:40:00Z",
+      "completed_at": "2026-09-23T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Numerous Nancy Meyer obituaries were too young or lacked CAF-4, OSS, Box 521, or wartime context.",
+      "research_notes": "No reliable predecessor affiliation was found after NARA-index context, bounded CIA and Library of Congress checks, exact-name OSS searches, employment/occupation searches, and institutional or obituary review.",
+      "next_action": "Inspect Nancy Meyer's CAF-4 file in Box 521 for former names, employer, and recruitment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-655-v1"
+    },
+    {
+      "key": "b655-orville-meyer-4-reviewed-search",
+      "person_id": "7654d384-115e-5cb2-ac21-79731739a0f7",
+      "source_adapter": "official_nara_cia_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Orville Meyer; Office of Strategic Services; OSS; employer 1940; occupation 1940; obituary; institutional archive",
+      "query_variant_type": "exact_name_rank_employment_and_archival",
+      "started_at": "2026-09-23T16:40:00Z",
+      "completed_at": "2026-09-23T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Same-name veterans and obituaries had incompatible ages, branches, or no Navy/OSS bridge.",
+      "research_notes": "No reliable predecessor affiliation was found after NARA-index context, bounded CIA and Library of Congress checks, exact-name OSS searches, employment/occupation searches, and institutional or obituary review.",
+      "next_action": "Inspect Orville Meyer's naval personnel file in Box 521 and compare Navy identifiers before accepting any namesake.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-655-v1"
+    },
+    {
+      "key": "b655-paul-w-meyer-5-reviewed-search",
+      "person_id": "3ee4b1b6-07f2-5547-a264-ccb0d7ec9726",
+      "source_adapter": "official_nara_cia_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Paul W Meyer; Office of Strategic Services; OSS; employer 1940; occupation 1940; obituary; institutional archive",
+      "query_variant_type": "exact_name_rank_employment_and_archival",
+      "started_at": "2026-09-23T16:40:00Z",
+      "completed_at": "2026-09-23T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Same-name military and obituary results lacked the indexed Army identifier and OSS context.",
+      "research_notes": "No reliable predecessor affiliation was found after NARA-index context, bounded CIA and Library of Congress checks, exact-name OSS searches, employment/occupation searches, and institutional or obituary review.",
+      "next_action": "Inspect Paul W. Meyer's Box 521 file for an identity bridge, occupation, and employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-655-v1"
+    },
+    {
+      "key": "b655-ralph-h-meyer-6-reviewed-search",
+      "person_id": "305afbd3-a0cc-511c-a28d-af5fd9135d1a",
+      "source_adapter": "official_nara_cia_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Ralph H Meyer; Office of Strategic Services; OSS; employer 1940; occupation 1940; obituary; institutional archive",
+      "query_variant_type": "exact_name_rank_employment_and_archival",
+      "started_at": "2026-09-23T16:40:00Z",
+      "completed_at": "2026-09-23T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The Army identity crosswalk was accepted; a postwar federal official and other namesakes lacked a pre-OSS bridge.",
+      "research_notes": "The official Army name and protected identifier establish a high-confidence identity, but no named employer was found after the minimum protocol.",
+      "next_action": "Inspect Ralph H. Meyer's Box 521 file for his named civilian employer and OSS transfer chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-655-v1"
+    },
+    {
+      "key": "b655-roberta-j-meyer-7-reviewed-search",
+      "person_id": "509bd146-6970-55cc-a4ee-0ed9f7a265e7",
+      "source_adapter": "official_nara_cia_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Roberta J Meyer; Office of Strategic Services; OSS; employer 1940; occupation 1940; obituary; institutional archive",
+      "query_variant_type": "exact_name_rank_employment_and_archival",
+      "started_at": "2026-09-23T16:40:00Z",
+      "completed_at": "2026-09-23T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Roberta J. Meyer obituaries located online were born too late or lacked CAF-5 and OSS context.",
+      "research_notes": "No reliable predecessor affiliation was found after NARA-index context, bounded CIA and Library of Congress checks, exact-name OSS searches, employment/occupation searches, and institutional or obituary review.",
+      "next_action": "Inspect Roberta J. Meyer's CAF-5 file in Box 521 for former names and a pre-OSS employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-655-v1"
+    },
+    {
+      "key": "b655-walter-j-meyer-8-reviewed-search",
+      "person_id": "ff09fdc9-ac8a-5d87-b497-fc23addef505",
+      "source_adapter": "official_nara_cia_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Walter J Meyer; Office of Strategic Services; OSS; employer 1940; occupation 1940; obituary; institutional archive",
+      "query_variant_type": "exact_name_rank_employment_and_archival",
+      "started_at": "2026-09-23T16:40:00Z",
+      "completed_at": "2026-09-23T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The Army identity crosswalk was accepted, but directories and cemetery entries could not be tied to this person.",
+      "research_notes": "The official Army name and protected identifier establish a high-confidence identity, but no named employer was found after the minimum protocol.",
+      "next_action": "Inspect Walter J. Meyer's Box 521 file for his pre-Army occupation and employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-655-v1"
+    },
+    {
+      "key": "b655-walter-m-meyer-9-reviewed-search",
+      "person_id": "b5e5c8ce-6f16-5307-8e35-dd0d95776baf",
+      "source_adapter": "official_nara_cia_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Walter M Meyer; Office of Strategic Services; OSS; employer 1940; occupation 1940; obituary; institutional archive",
+      "query_variant_type": "exact_name_rank_employment_and_archival",
+      "started_at": "2026-09-23T16:40:00Z",
+      "completed_at": "2026-09-23T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The Army identity crosswalk was accepted; same-name records lacked an OSS or protected-identifier bridge.",
+      "research_notes": "The official Army name and protected identifier establish a high-confidence identity, but no named employer was found after the minimum protocol.",
+      "next_action": "Inspect Walter M. Meyer's Box 521 file to establish rank, OSS role, and predecessor employment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-655-v1"
+    },
+    {
+      "key": "b655-hans-meyerhoff-10-reviewed-search",
+      "person_id": "528642a1-c20d-503f-920b-f3ae01a8ff41",
+      "source_adapter": "official_nara_cia_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Hans Meyerhoff; Office of Strategic Services; OSS; employer 1940; occupation 1940; obituary; institutional archive",
+      "query_variant_type": "exact_name_rank_employment_and_archival",
+      "started_at": "2026-09-23T16:40:00Z",
+      "completed_at": "2026-09-23T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The adjacent master-sergeant row has the independent Army bridge; the lieutenant row remains a possible duplicate, not an assumed promotion.",
+      "research_notes": "No reliable predecessor affiliation was found after NARA-index context, bounded CIA and Library of Congress checks, exact-name OSS searches, employment/occupation searches, and institutional or obituary review.",
+      "next_action": "Compare both adjacent Hans Meyerhoff files in Box 521 before deciding whether the lieutenant and master-sergeant rows represent one person.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-655-v1"
+    },
+    {
+      "key": "b655-hans-meyerhoff-11-reviewed-search",
+      "person_id": "3084dc84-0ed4-599c-86ca-0d29ae0c5390",
+      "source_adapter": "official_nara_cia_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Hans Meyerhoff; Office of Strategic Services; OSS; employer 1940; occupation 1940; obituary; institutional archive",
+      "query_variant_type": "exact_name_rank_employment_and_archival",
+      "started_at": "2026-09-23T16:40:00Z",
+      "completed_at": "2026-09-23T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Discovery-only biographies were not used; the accepted chronology rests on official Army and UCLA institutional evidence.",
+      "research_notes": "Official Army and UCLA institutional sources support identity, Army assignment to OSS, UCLA teaching-assistant employment, and student chronology. The adjacent lieutenant row remains separate.",
+      "next_action": "Compare the adjacent lieutenant file in Box 521; preserve the master-sergeant row separately meanwhile.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-655-v1"
+    },
+    {
+      "key": "b655-albert-c-meyers-12-reviewed-search",
+      "person_id": "20429821-fa18-532f-8406-d549721679d8",
+      "source_adapter": "official_nara_cia_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Albert C Meyers; Office of Strategic Services; OSS; employer 1940; occupation 1940; obituary; institutional archive",
+      "query_variant_type": "exact_name_rank_employment_and_archival",
+      "started_at": "2026-09-23T16:40:00Z",
+      "completed_at": "2026-09-23T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The Army identity crosswalk was accepted, but memorial and namesake results did not establish employment.",
+      "research_notes": "The official Army name and protected identifier establish a high-confidence identity, but no named employer was found after the minimum protocol.",
+      "next_action": "Inspect Albert C. Meyers's Box 521 file for a named civilian employer; do not expand the Army occupation code into an employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-655-v1"
+    },
+    {
+      "key": "b655-gerry-p-meyers-13-reviewed-search",
+      "person_id": "9951dba6-c525-50ae-be8e-35e5ef17b735",
+      "source_adapter": "official_nara_cia_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Gerry P Meyers; Office of Strategic Services; OSS; employer 1940; occupation 1940; obituary; institutional archive",
+      "query_variant_type": "exact_name_rank_employment_and_archival",
+      "started_at": "2026-09-23T16:40:00Z",
+      "completed_at": "2026-09-23T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The unusually formatted indexed identifier did not support an Army bulk match; namesake searches lacked OSS context.",
+      "research_notes": "No reliable predecessor affiliation was found after NARA-index context, bounded CIA and Library of Congress checks, exact-name OSS searches, employment/occupation searches, and institutional or obituary review.",
+      "next_action": "Inspect Gerry P. Meyers's Box 521 file and verify the unusually formatted indexed identifier before namesake research.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-655-v1"
+    },
+    {
+      "key": "b655-mason-g-meyers-14-reviewed-search",
+      "person_id": "ed74ba42-7cbd-5f6c-9788-32721a9dcd5e",
+      "source_adapter": "official_nara_cia_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Mason G Meyers; Office of Strategic Services; OSS; employer 1940; occupation 1940; obituary; institutional archive",
+      "query_variant_type": "exact_name_rank_employment_and_archival",
+      "started_at": "2026-09-23T16:40:00Z",
+      "completed_at": "2026-09-23T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Common-name military results lacked the lieutenant's indexed officer identifier and Box 521 bridge.",
+      "research_notes": "No reliable predecessor affiliation was found after NARA-index context, bounded CIA and Library of Congress checks, exact-name OSS searches, employment/occupation searches, and institutional or obituary review.",
+      "next_action": "Inspect Lieutenant Mason G. Meyers's Box 521 file for a second identifier and pre-service chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-655-v1"
+    },
+    {
+      "key": "b655-norbert-meyers-15-reviewed-search",
+      "person_id": "6183293f-c0ef-5931-8df1-02bedd45f9dc",
+      "source_adapter": "official_nara_cia_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Norbert Meyers; Office of Strategic Services; OSS; employer 1940; occupation 1940; obituary; institutional archive",
+      "query_variant_type": "exact_name_rank_employment_and_archival",
+      "started_at": "2026-09-23T16:40:00Z",
+      "completed_at": "2026-09-23T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "A family memoir names a Norbert Meyers in the wartime Army but supplies no OSS, rank, or Box 521 bridge.",
+      "research_notes": "No reliable predecessor affiliation was found after NARA-index context, bounded CIA and Library of Congress checks, exact-name OSS searches, employment/occupation searches, and institutional or obituary review.",
+      "next_action": "Inspect Corporal Norbert Meyers's Box 521 file; a same-name wartime Army memoir remains an unbridged lead.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-655-v1"
+    },
+    {
+      "key": "b655-norman-h-meyers-16-reviewed-search",
+      "person_id": "540693d9-8582-5ab3-ab67-4b9713ab5792",
+      "source_adapter": "official_nara_cia_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Norman H Meyers; Office of Strategic Services; OSS; employer 1940; occupation 1940; obituary; institutional archive",
+      "query_variant_type": "exact_name_rank_employment_and_archival",
+      "started_at": "2026-09-23T16:40:00Z",
+      "completed_at": "2026-09-23T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "A duplicated protected identifier conflicts with Norman M. Myers; modern corporate results are unrelated namesakes.",
+      "research_notes": "No reliable predecessor affiliation was found after NARA-index context, bounded CIA and Library of Congress checks, exact-name OSS searches, employment/occupation searches, and institutional or obituary review.",
+      "next_action": "Compare Captain Norman H. Meyers in Box 521 with Lieutenant Norman M. Myers in Box 549 before resolving the duplicated protected identifier.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-655-v1"
+    },
+    {
+      "key": "b655-russell-h-meyers-17-reviewed-search",
+      "person_id": "8b06f75a-6119-54d1-a13d-71e1221d0465",
+      "source_adapter": "official_nara_cia_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Russell H Meyers; Office of Strategic Services; OSS; employer 1940; occupation 1940; obituary; institutional archive",
+      "query_variant_type": "exact_name_rank_employment_and_archival",
+      "started_at": "2026-09-23T16:40:00Z",
+      "completed_at": "2026-09-23T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Obituaries and cemetery records lacked a compatible age and OSS Box 521 bridge.",
+      "research_notes": "No reliable predecessor affiliation was found after NARA-index context, bounded CIA and Library of Congress checks, exact-name OSS searches, employment/occupation searches, and institutional or obituary review.",
+      "next_action": "Inspect Russell H. Meyers's Box 521 file for a protected identifier, hometown, and occupation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-655-v1"
+    },
+    {
+      "key": "b655-thomas-d-meyers-18-reviewed-search",
+      "person_id": "daa19225-7597-50d4-b61e-33f736947de3",
+      "source_adapter": "official_nara_cia_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Thomas D Meyers; Office of Strategic Services; OSS; employer 1940; occupation 1940; obituary; institutional archive",
+      "query_variant_type": "exact_name_rank_employment_and_archival",
+      "started_at": "2026-09-23T16:40:00Z",
+      "completed_at": "2026-09-23T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Postwar academic and professional namesakes lacked wartime OSS or indexed-identifier evidence.",
+      "research_notes": "No reliable predecessor affiliation was found after NARA-index context, bounded CIA and Library of Congress checks, exact-name OSS searches, employment/occupation searches, and institutional or obituary review.",
+      "next_action": "Inspect Thomas D. Meyers's Box 521 file for rank, branch, identity markers, and pre-OSS work.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-655-v1"
+    },
+    {
+      "key": "b655-faye-meyerson-19-reviewed-search",
+      "person_id": "d17beea7-7b01-53c5-ae79-1c0220a83bbc",
+      "source_adapter": "official_nara_cia_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Faye Meyerson; Office of Strategic Services; OSS; employer 1940; occupation 1940; obituary; institutional archive",
+      "query_variant_type": "exact_name_rank_employment_and_archival",
+      "started_at": "2026-09-23T16:40:00Z",
+      "completed_at": "2026-09-23T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Exact-name searches produced no reliable CAF-2, OSS, employment, directory, or obituary bridge.",
+      "research_notes": "No reliable predecessor affiliation was found after NARA-index context, bounded CIA and Library of Congress checks, exact-name OSS searches, employment/occupation searches, and institutional or obituary review.",
+      "next_action": "Inspect Faye Meyerson's CAF-2 file in Box 521 for former names and predecessor employment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-655-v1"
+    },
+    {
+      "key": "b655-winifred-a-meyerson-20-reviewed-search",
+      "person_id": "074578a3-6509-59cf-8eac-7665d68b49bf",
+      "source_adapter": "official_nara_cia_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Winifred A Meyerson; Office of Strategic Services; OSS; employer 1940; occupation 1940; obituary; institutional archive",
+      "query_variant_type": "exact_name_rank_employment_and_archival",
+      "started_at": "2026-09-23T16:40:00Z",
+      "completed_at": "2026-09-23T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Exact-name searches produced no reliable OSS, grade, employment, directory, or obituary bridge.",
+      "research_notes": "No reliable predecessor affiliation was found after NARA-index context, bounded CIA and Library of Congress checks, exact-name OSS searches, employment/occupation searches, and institutional or obituary review.",
+      "next_action": "Inspect Winifred A. Meyerson's Box 521 file for grade, former names, and predecessor employment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-655-v1"
+    },
+    {
+      "key": "b655-emile-meyran-21-reviewed-search",
+      "person_id": "d1d9176d-01d1-5421-9221-43975f5c024b",
+      "source_adapter": "official_nara_cia_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Emile Meyran; Office of Strategic Services; OSS; employer 1940; occupation 1940; obituary; institutional archive",
+      "query_variant_type": "exact_name_rank_employment_and_archival",
+      "started_at": "2026-09-23T16:40:00Z",
+      "completed_at": "2026-09-23T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The archive-backed account is retained with a birth-month correction note; unrelated Meyran records were rejected.",
+      "research_notes": "Official French finding aids and an archive-cited narrative support the NANA identity and pre-OSS oil-company employment. The secondary birth-month error is disclosed.",
+      "next_action": "Review OSS Box 521 and French files GR 16 P 295561 and GR 28 P 4 395/127 to confirm the precise recruitment date and reconcile a secondary birth-month error.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-655-v1"
+    },
+    {
+      "key": "b655-c-p-meysereav-22-reviewed-search",
+      "person_id": "a1bc5e98-c7ae-5a00-a319-14a479df8457",
+      "source_adapter": "official_nara_cia_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "C P Meysereav; Office of Strategic Services; OSS; employer 1940; occupation 1940; obituary; institutional archive",
+      "query_variant_type": "exact_name_rank_employment_and_archival",
+      "started_at": "2026-09-23T16:40:00Z",
+      "completed_at": "2026-09-23T17:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The protected identifier links three conflicting spellings; search results do not justify choosing one index row as canonical.",
+      "research_notes": "No reliable predecessor affiliation was found after NARA-index context, bounded CIA and Library of Congress checks, exact-name OSS searches, employment/occupation searches, and institutional or obituary review.",
+      "next_action": "Compare Box 521 with both Charles P. Mersereau and Charles P. Meserau files in Box 519; no spelling correction or merge is authorized.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-655-v1"
+    }
+  ]
+}
