@@ -8,7 +8,7 @@ test("Batch 652 publishes Frank Mesle's separated and qualified chronology", asy
   await expect(main).toContainText("high confidence");
   await expect(main).toContainText("Immediate pre-OSS affiliation");
   await expect(main).toContainText("United States Army Corps of Engineers");
-  await expect(main).toContainText("Probably immediate");
+  await expect(main).toContainText("probable immediate");
   await expect(main).toContainText("Last civilian employer before service");
   await expect(main).toContainText("Boy Scouts of America");
   await expect(main).toContainText("professional Boy Scout in Camden, N.J.");
