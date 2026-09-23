@@ -1,0 +1,1413 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 646 page 314 source, identity, and employment review",
+  "sources": [
+    {
+      "key": "nara-index-page314-b646",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 514-515",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 314, printed rows 25-46; source page reviewed against the original index; archival location 230/86/36/06",
+      "access_date": "2026-09-23",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Indexed spellings, ranks, notes, duplicate boundaries, and variants are retained. Full protected identifiers remain private and are excluded from public output."
+    },
+    {
+      "key": "army-b580-b646",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; fixed-width name and protected-identifier crosswalk; private candidate records retain record ordinals",
+      "access_date": "2026-09-23",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "Official bulk data, not a Catalog API response. Army grade, entry date, and occupation codes are identity context, not named employers; full identifiers and raw records are excluded."
+    },
+    {
+      "key": "mlive-edwin-meader-obituary-b646",
+      "stable_url": "https://obits.mlive.com/us/obituaries/kalamazoo/name/edwin-meader-obituary?id=13624541",
+      "title": "Edwin E. \"Ed\" Meader",
+      "author_creator": "Kalamazoo Gazette obituary notice",
+      "repository_publisher": "Kalamazoo Gazette via MLive",
+      "publication_record_date": "2007-02-04",
+      "locator": "Biographical paragraphs describing employment at Kalamazoo Vegetable Parchment Company, Army entry in 1942, and OSS service in Ghana and North Africa",
+      "access_date": "2026-09-23",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Kalamazoo Gazette obituaries",
+      "rights_notes": "A short excerpt and project-authored paraphrase are retained; the full obituary is not republished."
+    },
+    {
+      "key": "kelsey-edwin-meader-b646",
+      "stable_url": "https://exhibitions.kelsey.lsa.umich.edu/meader/about.html",
+      "title": "About the Meaders",
+      "author_creator": "Kelsey Museum of Archaeology",
+      "repository_publisher": "University of Michigan",
+      "locator": "Edwin E. Meader biographical section; photograph caption places him in Cairo in 1945 and text describes wartime Africa service and military intelligence",
+      "access_date": "2026-09-23",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Kelsey Museum of Archaeology online exhibitions",
+      "rights_notes": "Institutional biography used to corroborate identity and wartime chronology; image assets are not copied into the project."
+    },
+    {
+      "key": "csu-law-david-meck-b646",
+      "stable_url": "https://www.law.csuohio.edu/meetcsulaw/history/deans",
+      "title": "Law School Deans: David C. Meck, Jr. (1939-1946)",
+      "author_creator": "Cleveland State University College of Law",
+      "repository_publisher": "Cleveland State University College of Law",
+      "locator": "David C. Meck, Jr. biography, lines describing faculty and dean service, Federal Security Agency service, judgeship, and the American Economic Mission in the Middle East",
+      "access_date": "2026-09-23",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "CSU College of Law history",
+      "rights_notes": "The exact-name wartime biography is published as a qualified identity match because the index lacks a protected identifier."
+    },
+    {
+      "key": "afsa-fsj-september-1934-medalie-b646",
+      "stable_url": "https://afsa.org/sites/default/files/fsj-1934-09-september_0.pdf",
+      "title": "The American Foreign Service Journal, September 1934",
+      "author_creator": "American Foreign Service Association",
+      "repository_publisher": "American Foreign Service Association",
+      "publication_record_date": "1934-09",
+      "locator": "PDF page 34, Foreign Service changes: Donn Paul Medalie appointed from Stuttgart to Saigon",
+      "access_date": "2026-09-23",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "The American Foreign Service Journal",
+      "rights_notes": "Contemporary institutional personnel notice; only a short excerpt and paraphrase are published."
+    },
+    {
+      "key": "afsa-fsj-october-1940-medalie-b646",
+      "stable_url": "https://afsa.org/sites/default/files/fsj-1940-10-october_0.pdf",
+      "title": "The American Foreign Service Journal, October 1940",
+      "author_creator": "American Foreign Service Association",
+      "repository_publisher": "American Foreign Service Association",
+      "publication_record_date": "1940-10",
+      "locator": "PDF page 35, Foreign Service changes: Donn Paul Medalie appointed American Vice Consul at Manila",
+      "access_date": "2026-09-23",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "The American Foreign Service Journal",
+      "rights_notes": "Contemporary institutional personnel notice; only a short excerpt and paraphrase are published."
+    },
+    {
+      "key": "afsa-fsj-january-1945-medalie-b646",
+      "stable_url": "https://afsa.org/sites/default/files/fsj-1945-01-january_0.pdf",
+      "title": "The American Foreign Service Journal, January 1945",
+      "author_creator": "American Foreign Service Association",
+      "repository_publisher": "American Foreign Service Association",
+      "publication_record_date": "1945-01",
+      "locator": "PDF pages 63-64, Visitors list: Donn P. Medalie, Madrid, visited the Department on 15 November 1944",
+      "access_date": "2026-09-23",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "The American Foreign Service Journal",
+      "rights_notes": "Contemporary institutional visitor list used as chronology context, not as proof of an exact Madrid title or an OSS transfer."
+    },
+    {
+      "key": "cia-studies-intelligence-coast-guard-oss-bennett-2008",
+      "stable_url": "https://www.cia.gov/resources/csi/static/US-Coast-Guard-OSS.pdf",
+      "archival_identifier": "Studies in Intelligence, volume 52, number 4",
+      "title": "Guardian Spies: The US Coast Guard and OSS Maritime Operations During World War II",
+      "author_creator": "Michael Bennett, Lieutenant Commander, USCG",
+      "repository_publisher": "Central Intelligence Agency, Center for the Study of Intelligence",
+      "publication_record_date": "2008-12",
+      "locator": "Printed page 18; PDF page 6; Coast Guard officers assigned to OSS duty, including CWO Thomas Medlicott and Lieutenant John Booth",
+      "access_date": "2026-09-23",
+      "source_quality": "A_direct_official",
+      "collection_name": "Studies in Intelligence",
+      "rights_notes": "Official historical article based on declassified OSS and Coast Guard records; only concise excerpts and project-authored paraphrases are published."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "kalamazoo-vegetable-parchment-company",
+      "canonical_name": "Kalamazoo Vegetable Parchment Company",
+      "historical_name": "Kalamazoo Vegetable Parchment Company",
+      "aliases": [
+        "KVP"
+      ],
+      "organization_type": "paper manufacturer",
+      "sector": "business_and_industry",
+      "city": "Parchment",
+      "state_or_region": "Michigan",
+      "country": "United States",
+      "active_dates": "1909-2000",
+      "normalization_notes": "The historical company name in the obituary is preserved; no successor company is substituted."
+    },
+    {
+      "key": "united-states-army",
+      "canonical_name": "United States Army",
+      "historical_name": "United States Army",
+      "aliases": [
+        "U.S. Army",
+        "Army of the United States"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "active_dates": "1775-present",
+      "normalization_notes": "Army service is modeled as a military assignment, not civilian employment. A narrower pre-OSS unit is not inferred."
+    },
+    {
+      "key": "united-states-department-of-state",
+      "canonical_name": "United States Department of State",
+      "historical_name": "Department of State",
+      "aliases": [
+        "U.S. Department of State",
+        "State Department",
+        "American Foreign Service"
+      ],
+      "organization_type": "federal department",
+      "sector": "federal_government",
+      "country": "United States",
+      "normalization_notes": "Foreign Service and consular appointments are modeled as government assignments, not private employment or OSS roles."
+    },
+    {
+      "key": "john-marshall-school-of-law-cleveland",
+      "canonical_name": "John Marshall School of Law",
+      "historical_name": "John Marshall School of Law",
+      "aliases": [
+        "John Marshall School of Law, Cleveland"
+      ],
+      "organization_type": "law school",
+      "sector": "academia_and_research",
+      "city": "Cleveland",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "active_dates": "1916-1946",
+      "normalization_notes": "The historical Cleveland school remains distinct from similarly named institutions and from its 1946 successor, Cleveland-Marshall Law School."
+    },
+    {
+      "key": "federal-security-agency",
+      "canonical_name": "Federal Security Agency",
+      "historical_name": "Federal Security Agency",
+      "aliases": [
+        "FSA"
+      ],
+      "organization_type": "federal agency",
+      "sector": "federal_government",
+      "country": "United States",
+      "active_dates": "1939-1953",
+      "normalization_notes": "The historical federal agency name is retained and is not replaced by a successor department."
+    },
+    {
+      "key": "united-states-coast-guard",
+      "canonical_name": "United States Coast Guard",
+      "historical_name": "United States Coast Guard",
+      "aliases": [
+        "U.S. Coast Guard",
+        "USCG",
+        "USCGR",
+        "United States Coast Guard Reserve"
+      ],
+      "organization_type": "military and maritime service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Coast Guard Reserve service is modeled as a military assignment. Wartime Navy authority does not erase the documented Coast Guard branch."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "edwin-e-meader-kvp-b646",
+      "person_id": "cd2a9ff7-13d3-5386-9652-c47686c756cb",
+      "organization_key": "kalamazoo-vegetable-parchment-company",
+      "organization_name_as_found": "Kalamazoo Vegetable Parchment Company",
+      "role_title": "Employee",
+      "occupation": "Company employee; specific role not stated",
+      "relationship_type": "employment",
+      "start_date": "1935",
+      "end_date": "1942",
+      "date_precision": "The obituary says Meader returned to Kalamazoo in 1935, then worked for KVP until entering the Army in 1942; exact employment dates are not stated.",
+      "city": "Parchment",
+      "state_or_region": "Michigan",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "KVP is the explicitly documented last civilian employer before Army service. The intervening Army is kept separate from the immediate pre-OSS military pathway."
+    },
+    {
+      "key": "edwin-e-meader-army-b646",
+      "person_id": "cd2a9ff7-13d3-5386-9652-c47686c756cb",
+      "organization_key": "united-states-army",
+      "organization_name_as_found": "United States Army",
+      "role_title": "Army service preceding and encompassing OSS assignment",
+      "occupation": "military intelligence",
+      "relationship_type": "military_assignment",
+      "start_date": "1942",
+      "date_precision": "The obituary says Meader entered the Army in 1942 and spent most of that Army career working for OSS; the exact Army-to-OSS assignment date and prior unit are not stated.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The Army is the best-supported immediate institutional pathway into OSS, but the source does not name a narrower unit or an exact transfer date."
+    },
+    {
+      "key": "david-c-meck-john-marshall-law-b646",
+      "person_id": "70ac74b0-8618-5493-a6fa-98f29450a20d",
+      "organization_key": "john-marshall-school-of-law-cleveland",
+      "organization_name_as_found": "John Marshall School of Law",
+      "role_title": "Faculty member; dean from 1939",
+      "occupation": "law professor and dean",
+      "relationship_type": "employment",
+      "start_date": "1930",
+      "end_date": "1946",
+      "date_precision": "The institutional biography gives faculty service in 1930-1939 and deanship in 1939-1946; exact relation to OSS service is not stated.",
+      "city": "Cleveland",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Published as a qualified affiliation because the rare exact name and wartime Middle East service support, but do not conclusively prove, the index identity."
+    },
+    {
+      "key": "david-c-meck-federal-security-agency-b646",
+      "person_id": "70ac74b0-8618-5493-a6fa-98f29450a20d",
+      "organization_key": "federal-security-agency",
+      "organization_name_as_found": "Federal Security Agency",
+      "role_title": "Regional supervisor",
+      "occupation": "federal administrator",
+      "relationship_type": "government_assignment",
+      "start_date": "1942",
+      "end_date": "1944",
+      "date_precision": "The institutional biography gives years only; overlap with the judgeship and exact sequencing relative to the Middle East mission and OSS are unresolved.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "This is a documented government assignment for the probable identity, not a claim that the FSA immediately preceded OSS."
+    },
+    {
+      "key": "donn-p-medalie-state-department-b646",
+      "person_id": "e4f06177-71b0-59d9-b72d-9f36f3377345",
+      "organization_key": "united-states-department-of-state",
+      "organization_name_as_found": "American Vice Consul",
+      "role_title": "American Vice Consul",
+      "occupation": "consular officer",
+      "relationship_type": "government_assignment",
+      "start_date": "1932",
+      "date_precision": "Contemporary Foreign Service notices document appointments from Stuttgart to Saigon in 1934, Montreal to Vienna in 1938, and Manila in 1940; a November 1944 visitor list places him in Madrid. Exact end date and OSS transition are not stated.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The documented Foreign Service career is not automatically labeled the immediate pre-OSS affiliation because the accessible notices do not state the transfer or detail arrangement."
+    },
+    {
+      "key": "thomas-o-medlicott-coast-guard-b646",
+      "person_id": "c2f1a32f-db57-537f-91d3-e21198ed9dbd",
+      "organization_key": "united-states-coast-guard",
+      "organization_name_as_found": "CWO Thomas Medlicott",
+      "role_title": "Chief warrant officer assigned to OSS duty; Operational Swimmer Group II",
+      "occupation": "Coast Guard warrant officer",
+      "relationship_type": "military_assignment",
+      "date_precision": "The official history explicitly identifies Medlicott as one of the Coast Guard officers assigned to OSS duty and places him in OSG II; the exact assignment date is not stated.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The Coast Guard was the parent service from which Medlicott was assigned to OSS duty. This is a military pathway, not a civilian employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-edwin-e-meader-b646",
+      "person_id": "cd2a9ff7-13d3-5386-9652-c47686c756cb",
+      "claim_type": "identity",
+      "claim_text": "The indexed Lieutenant Edwin E. Meader is the Michigan geographer and Army intelligence veteran documented by the Kalamazoo Gazette and University of Michigan.",
+      "evidence_paraphrase": "A nonshared Army identifier and exact name connect the index to the Army entry; the obituary independently places Edwin E. Meader in Army OSS work in Ghana and North Africa, while the University of Michigan corroborates Africa service and later military intelligence.",
+      "identity_match_assessment": "High confidence from exact full-name and protected-identifier agreement plus two independent biographical sources with matching Army, Africa, and intelligence chronology.",
+      "temporal_assessment": "The sources establish Army entry in 1942 and wartime OSS work; exact assignment dates remain unreported.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The official Army record is an identity bridge only. Its occupation code is not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-page314-b646",
+          "locator_override": "PDF page 314, row 25, Box 514"
+        },
+        {
+          "source_key": "army-b580-b646",
+          "locator_override": "Official bulk record ordinal 6986414; protected identifier and fixed-width name comparison"
+        },
+        {
+          "source_key": "mlive-edwin-meader-obituary-b646",
+          "locator_override": "Biographical paragraphs on KVP, Army entry, and OSS work"
+        },
+        {
+          "source_key": "kelsey-edwin-meader-b646",
+          "locator_override": "Edwin E. Meader biographical section and Cairo 1945 photograph caption"
+        }
+      ]
+    },
+    {
+      "key": "edwin-e-meader-kvp-last-civilian-b646",
+      "person_id": "cd2a9ff7-13d3-5386-9652-c47686c756cb",
+      "affiliation_key": "edwin-e-meader-kvp-b646",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Kalamazoo Vegetable Parchment Company was Edwin E. Meader's last documented civilian employer before he entered the Army in 1942.",
+      "evidence_excerpt": "worked until entering the United States Army in 1942",
+      "evidence_paraphrase": "The obituary says Meader worked for Kalamazoo Vegetable Parchment Company until entering the Army in 1942.",
+      "identity_match_assessment": "High confidence from the Army identifier bridge and the obituary's matching name, geography, and OSS chronology.",
+      "temporal_assessment": "Explicitly immediate relative to Army entry, but not labeled immediate pre-OSS because Army service intervened.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The source does not state his KVP job title, so none is inferred.",
+      "sources": [
+        {
+          "source_key": "mlive-edwin-meader-obituary-b646",
+          "locator_override": "Biographical paragraph covering 1935-1942",
+          "excerpt_override": "worked until entering the United States Army in 1942"
+        },
+        {
+          "source_key": "nara-index-page314-b646",
+          "support_type": "context_only",
+          "locator_override": "PDF page 314, row 25, Box 514"
+        }
+      ]
+    },
+    {
+      "key": "edwin-e-meader-army-immediate-b646",
+      "person_id": "cd2a9ff7-13d3-5386-9652-c47686c756cb",
+      "affiliation_key": "edwin-e-meader-army-b646",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "The United States Army is Edwin E. Meader's best-supported immediate institutional pathway into OSS service.",
+      "evidence_excerpt": "Most of Ed's Army career was spent working for the Office of Strategic Services",
+      "evidence_paraphrase": "The obituary says he entered the Army in 1942 and spent most of his Army career working for OSS in Ghana and North Africa.",
+      "identity_match_assessment": "High confidence from the identifier-backed Army match and independent institutional wartime biography.",
+      "temporal_assessment": "Probably immediate: the source clearly places Army entry before OSS work but does not name the pre-OSS unit or transfer date.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army service is a military assignment, not a civilian employer; no narrower unit is inferred.",
+      "sources": [
+        {
+          "source_key": "mlive-edwin-meader-obituary-b646",
+          "locator_override": "Biographical paragraph on 1942 Army entry and OSS work",
+          "excerpt_override": "Most of Ed's Army career was spent working for the Office of Strategic Services"
+        },
+        {
+          "source_key": "kelsey-edwin-meader-b646",
+          "support_type": "context_only",
+          "locator_override": "Wartime Africa service and post-return military intelligence"
+        }
+      ]
+    },
+    {
+      "key": "identity-francis-meadowcraft-army-b646",
+      "person_id": "73fa35b0-22b5-538e-98d4-e484b27132fa",
+      "claim_type": "identity",
+      "claim_text": "The indexed Francis Meadowcraft has a high-confidence match to an official Army entry.",
+      "evidence_paraphrase": "The first and last names and a nonshared protected identifier agree; the Army record adds the middle initial J.",
+      "identity_match_assessment": "High confidence from an exact uncommon first-and-last-name match and a unique protected-identifier crosswalk.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not a named employer or immediate pre-OSS assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army-only middle initial remains a documented variant pending personnel-file review.",
+      "sources": [
+        {
+          "source_key": "nara-index-page314-b646",
+          "locator_override": "PDF page 314, row 30, Box 514"
+        },
+        {
+          "source_key": "army-b580-b646",
+          "locator_override": "Official bulk record ordinal 7022387; protected identifier and fixed-width name comparison"
+        }
+      ]
+    },
+    {
+      "key": "identity-bernard-c-meaton-army-b646",
+      "person_id": "025d89a8-16e4-5a8e-b8d6-b41ffd2a3d03",
+      "claim_type": "identity",
+      "claim_text": "The indexed Private Bernard C. Meaton has a high-confidence match to an official Army entry.",
+      "evidence_paraphrase": "The full name and a nonshared protected identifier agree between the index and Army bulk record.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected identifier.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not a named employer or immediate pre-OSS assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army occupation codes are not employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-page314-b646",
+          "locator_override": "PDF page 314, row 33, Box 514"
+        },
+        {
+          "source_key": "army-b580-b646",
+          "locator_override": "Official bulk record ordinal 2989125; protected identifier and fixed-width name comparison"
+        }
+      ]
+    },
+    {
+      "key": "identity-david-c-meck-b646",
+      "person_id": "70ac74b0-8618-5493-a6fa-98f29450a20d",
+      "claim_type": "identity",
+      "claim_text": "The indexed David C. Meck is probably Cleveland attorney, judge, and law dean David C. Meck Jr.",
+      "evidence_paraphrase": "The rare exact name agrees, and the institutional biography places Meck in a wartime American Economic Mission in the Middle East, but the index lacks a protected identifier or direct personnel-file bridge.",
+      "identity_match_assessment": "Probable rather than high confidence: the exact uncommon name and wartime Middle East government service corroborate the match, but a direct OSS linkage remains absent.",
+      "temporal_assessment": "The biography provides a 1930-1946 professional chronology but does not establish the exact date or relationship of OSS service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Box 514 must be reviewed before the qualified identity is promoted to high confidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-page314-b646",
+          "locator_override": "PDF page 314, row 34, Box 514; note 'also AS'"
+        },
+        {
+          "source_key": "csu-law-david-meck-b646",
+          "locator_override": "David C. Meck, Jr. biography"
+        }
+      ]
+    },
+    {
+      "key": "david-c-meck-john-marshall-law-other-b646",
+      "person_id": "70ac74b0-8618-5493-a6fa-98f29450a20d",
+      "affiliation_key": "david-c-meck-john-marshall-law-b646",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "For the probable identity, David C. Meck Jr. was employed by the John Marshall School of Law before and during the war.",
+      "evidence_excerpt": "served on the faculty of John Marshall School of Law from 1930-1939",
+      "evidence_paraphrase": "Cleveland State's institutional history says Meck served on the faculty from 1930 to 1939 and then as dean through 1946.",
+      "identity_match_assessment": "Probable identity based on the rare exact name and matching wartime Middle East service; no protected identifier is available.",
+      "temporal_assessment": "Documented prewar employment, but not shown to be the immediate predecessor to OSS and potentially overlapping with government service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "This is not marked as the last civilian employer because the chronology includes overlapping public and academic roles.",
+      "sources": [
+        {
+          "source_key": "csu-law-david-meck-b646",
+          "locator_override": "David C. Meck, Jr. biography",
+          "excerpt_override": "served on the faculty of John Marshall School of Law from 1930-1939"
+        },
+        {
+          "source_key": "nara-index-page314-b646",
+          "support_type": "context_only",
+          "locator_override": "PDF page 314, row 34, Box 514"
+        }
+      ]
+    },
+    {
+      "key": "david-c-meck-fsa-other-b646",
+      "person_id": "70ac74b0-8618-5493-a6fa-98f29450a20d",
+      "affiliation_key": "david-c-meck-federal-security-agency-b646",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "For the probable identity, David C. Meck Jr. served as a Federal Security Agency regional supervisor from 1942 to 1944.",
+      "evidence_excerpt": "regional supervisor of the Federal Security Agency from 1942-1944",
+      "evidence_paraphrase": "The institutional biography dates Meck's Federal Security Agency regional-supervisor role to 1942-1944.",
+      "identity_match_assessment": "Probable identity based on the rare exact name and wartime Middle East government service; no protected identifier is available.",
+      "temporal_assessment": "The role is date-bounded, but its exact sequence relative to the Middle East mission and OSS is unresolved.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "This is a government assignment, not a civilian-employer claim or an assertion of immediate transition to OSS.",
+      "sources": [
+        {
+          "source_key": "csu-law-david-meck-b646",
+          "locator_override": "David C. Meck, Jr. biography",
+          "excerpt_override": "regional supervisor of the Federal Security Agency from 1942-1944"
+        },
+        {
+          "source_key": "nara-index-page314-b646",
+          "support_type": "context_only",
+          "locator_override": "PDF page 314, row 34, Box 514"
+        }
+      ]
+    },
+    {
+      "key": "identity-joseph-b-medagliant-conflict-b646",
+      "person_id": "382588a9-b2e3-50ad-89fa-1c91994f3511",
+      "claim_type": "identity",
+      "claim_text": "The protected identifier printed for Joseph B. Medagliant points to two Army records with incompatible names.",
+      "evidence_paraphrase": "One Army record prints RAUSCH LEONARD; another prints MEDAGLIANI JOSEPH B. Both are linked to the same printed identifier, so neither is selected.",
+      "identity_match_assessment": "Conflicting. The close MEDAGLIANI variant is plausible, but the second wholly different Army name prevents a defensible resolution.",
+      "temporal_assessment": "The conflict concerns identity only and establishes no employer or pre-OSS assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Preserve Joseph B Medagliant exactly as indexed and inspect Box 514 plus both Army records.",
+      "sources": [
+        {
+          "source_key": "nara-index-page314-b646",
+          "locator_override": "PDF page 314, row 36, Box 514"
+        },
+        {
+          "source_key": "army-b580-b646",
+          "locator_override": "Official bulk record ordinals 3086969 and 3153879; shared protected identifier and conflicting names"
+        }
+      ]
+    },
+    {
+      "key": "identity-donn-p-medalie-b646",
+      "person_id": "e4f06177-71b0-59d9-b72d-9f36f3377345",
+      "claim_type": "identity",
+      "claim_text": "The indexed Donn P. Medalie is the Foreign Service officer Donn Paul Medalie.",
+      "evidence_paraphrase": "The rare exact name and middle initial agree across the NARA index and contemporary Foreign Service notices, which expand P to Paul and trace appointments from Stuttgart through Manila plus a 1944 Madrid visitor listing.",
+      "identity_match_assessment": "High confidence from a distinctive exact name, matching middle name, and a continuous contemporary institutional Foreign Service record.",
+      "temporal_assessment": "The notices document a prewar and wartime government career but do not state the exact OSS transition or detail.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No private identifier was printed; the high-confidence match rests on the uncommon exact name and multiple contemporary institutional records.",
+      "sources": [
+        {
+          "source_key": "nara-index-page314-b646",
+          "locator_override": "PDF page 314, row 37, Box 514"
+        },
+        {
+          "source_key": "afsa-fsj-september-1934-medalie-b646",
+          "locator_override": "PDF page 34, Foreign Service changes"
+        },
+        {
+          "source_key": "afsa-fsj-october-1940-medalie-b646",
+          "locator_override": "PDF page 35, Foreign Service changes"
+        },
+        {
+          "source_key": "afsa-fsj-january-1945-medalie-b646",
+          "locator_override": "PDF pages 63-64, November 1944 visitors list"
+        }
+      ]
+    },
+    {
+      "key": "donn-p-medalie-state-department-other-b646",
+      "person_id": "e4f06177-71b0-59d9-b72d-9f36f3377345",
+      "affiliation_key": "donn-p-medalie-state-department-b646",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Donn P. Medalie had a documented prewar and wartime affiliation with the United States Department of State's Foreign Service.",
+      "evidence_excerpt": "American Vice Consul at Stuttgart, Germany, appointed Vice Consul at Saigon",
+      "evidence_paraphrase": "Contemporary Foreign Service notices document Medalie as an American vice consul at several posts from 1934 through 1940, and a 1944 visitor list places him in Madrid.",
+      "identity_match_assessment": "High confidence from the distinctive exact name and repeated contemporary institutional notices.",
+      "temporal_assessment": "Documented prewar government service; the accessible sources do not establish that State immediately preceded OSS or name the 1944 Madrid title.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Modeled as a government assignment rather than a private employer; precise OSS transition remains an archival question.",
+      "sources": [
+        {
+          "source_key": "afsa-fsj-september-1934-medalie-b646",
+          "locator_override": "PDF page 34, Foreign Service changes",
+          "excerpt_override": "American Vice Consul at Stuttgart, Germany, appointed Vice Consul at Saigon"
+        },
+        {
+          "source_key": "afsa-fsj-october-1940-medalie-b646",
+          "locator_override": "PDF page 35, Foreign Service changes"
+        },
+        {
+          "source_key": "afsa-fsj-january-1945-medalie-b646",
+          "support_type": "context_only",
+          "locator_override": "PDF pages 63-64, November 1944 visitors list"
+        }
+      ]
+    },
+    {
+      "key": "identity-henry-j-medieros-army-b646",
+      "person_id": "22a22416-ca55-57e6-9d6d-859bf9eed047",
+      "claim_type": "identity",
+      "claim_text": "The indexed Henry J. Medieros has a high-confidence match to official Army record MEDEIROS HENRY J.",
+      "evidence_paraphrase": "The full given names and nonshared protected identifier agree; the surnames differ only by transposition of adjacent letters.",
+      "identity_match_assessment": "High confidence from the unique protected identifier and near-exact uncommon full name.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not the meaning of the index note 'British A' or a pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Medieros remains the indexed display spelling; Medeiros is retained as a documented name variant.",
+      "sources": [
+        {
+          "source_key": "nara-index-page314-b646",
+          "locator_override": "PDF page 314, row 40, Box 515; note 'British A'"
+        },
+        {
+          "source_key": "army-b580-b646",
+          "locator_override": "Official bulk record ordinal 2893246; protected identifier and name comparison"
+        }
+      ]
+    },
+    {
+      "key": "identity-manuel-medieros-army-b646",
+      "person_id": "20b7b2b4-3153-584e-b8ec-ff80023aca96",
+      "claim_type": "identity",
+      "claim_text": "The indexed Private First Class Manuel Medieros has a high-confidence match to official Army record MEDEIROS MANUEL JR.",
+      "evidence_paraphrase": "The given name and nonshared protected identifier agree; the surname differs by adjacent-letter transposition and the Army record adds Jr.",
+      "identity_match_assessment": "High confidence from the unique protected identifier and near-exact uncommon name.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not a named pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Medieros remains the indexed spelling; Medeiros and the Army-only Jr. suffix are retained as variants pending Box 515.",
+      "sources": [
+        {
+          "source_key": "nara-index-page314-b646",
+          "locator_override": "PDF page 314, row 41, Box 515"
+        },
+        {
+          "source_key": "army-b580-b646",
+          "locator_override": "Official bulk record ordinal 391718; protected identifier, surname spelling, and suffix comparison"
+        }
+      ]
+    },
+    {
+      "key": "identity-aneo-mediler-conflict-b646",
+      "person_id": "2c23d961-72ee-5252-99a1-a4e466598994",
+      "claim_type": "identity",
+      "claim_text": "The protected identifier links Aneo Mediler to an Army record whose name appears concatenated or displaced.",
+      "evidence_paraphrase": "The index prints MEDILER ANEO, while the identifier-linked Army entry prints MEDILERANEO DOMINICK.",
+      "identity_match_assessment": "Conflicting. The identifier is strong evidence of a relationship, but the name fields cannot be parsed or corrected defensibly without the personnel file.",
+      "temporal_assessment": "The conflict concerns identity only and establishes no pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Preserve Aneo Mediler exactly as indexed and do not assign the Army name before Box 515 review.",
+      "sources": [
+        {
+          "source_key": "nara-index-page314-b646",
+          "locator_override": "PDF page 314, row 42, Box 515"
+        },
+        {
+          "source_key": "army-b580-b646",
+          "locator_override": "Official bulk record ordinal 3606730; protected identifier and conflicting fixed-width name"
+        }
+      ]
+    },
+    {
+      "key": "identity-thomas-o-medlicott-b646",
+      "person_id": "c2f1a32f-db57-537f-91d3-e21198ed9dbd",
+      "claim_type": "identity",
+      "claim_text": "The indexed Thomas O. Medlicott is Coast Guard Chief Warrant Officer Thomas O. Medlicott, assigned to OSS Operational Swimmer Group II.",
+      "evidence_paraphrase": "The exact distinctive name agrees, and the official CIA historical article identifies CWO Thomas Medlicott among Coast Guard officers assigned to OSS duty in OSG II.",
+      "identity_match_assessment": "High confidence from exact full-name agreement, matching warrant-officer context, and an official source explicitly connecting him to OSS duty.",
+      "temporal_assessment": "The source establishes wartime OSS assignment but not the exact assignment date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The printed rank code C8M is preserved. It is not silently rewritten as CWO; CWO comes from the separate official history.",
+      "sources": [
+        {
+          "source_key": "nara-index-page314-b646",
+          "locator_override": "PDF page 314, row 43, Box 515; printed rank code C8M"
+        },
+        {
+          "source_key": "cia-studies-intelligence-coast-guard-oss-bennett-2008",
+          "locator_override": "Printed page 18; PDF page 6"
+        }
+      ]
+    },
+    {
+      "key": "thomas-o-medlicott-coast-guard-immediate-b646",
+      "person_id": "c2f1a32f-db57-537f-91d3-e21198ed9dbd",
+      "affiliation_key": "thomas-o-medlicott-coast-guard-b646",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Thomas O. Medlicott entered OSS duty from the United States Coast Guard as a chief warrant officer.",
+      "evidence_excerpt": "CWO Thomas Medlicott also in OSG II",
+      "evidence_paraphrase": "The official history says a small number of Coast Guard officers were assigned to OSS duty and specifically names CWO Thomas Medlicott in Operational Swimmer Group II.",
+      "identity_match_assessment": "High confidence from exact full-name agreement and the official source's explicit OSS and Coast Guard context.",
+      "temporal_assessment": "Explicitly immediate at the institutional level: the source describes Coast Guard officers assigned to OSS duty.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This is a military assignment, not a civilian employer. The source does not identify an earlier civilian employer.",
+      "sources": [
+        {
+          "source_key": "cia-studies-intelligence-coast-guard-oss-bennett-2008",
+          "locator_override": "Printed page 18; PDF page 6",
+          "excerpt_override": "CWO Thomas Medlicott also in OSG II"
+        },
+        {
+          "source_key": "nara-index-page314-b646",
+          "support_type": "context_only",
+          "locator_override": "PDF page 314, row 43, Box 515"
+        }
+      ]
+    },
+    {
+      "key": "identity-herbert-g-medric-army-b646",
+      "person_id": "fd951697-8d83-5c30-a37d-9799b02da010",
+      "claim_type": "identity",
+      "claim_text": "The indexed Technician Fifth Grade Herbert G. Medric has a high-confidence match to an official Army entry.",
+      "evidence_paraphrase": "The full name and a nonshared protected identifier agree between the index and official Army bulk record.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected identifier.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not a named pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army occupation codes are identity context, not employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-page314-b646",
+          "locator_override": "PDF page 314, row 45, Box 515"
+        },
+        {
+          "source_key": "army-b580-b646",
+          "locator_override": "Official bulk record ordinal 3324406; protected identifier and fixed-width name comparison"
+        }
+      ]
+    },
+    {
+      "key": "identity-lorraine-m-meader-duplicate-b646",
+      "person_id": "e1d3612e-1ec2-5438-8a7f-8768cad5816d",
+      "claim_type": "identity",
+      "claim_text": "Lorraine M. Meader may be the same person as the adjacent Lorraine M. Meador row, but remains a separate entity.",
+      "evidence_paraphrase": "The two adjacent Box 514 rows differ only by the final surname vowel; one carries civilian grade CAF-5 and neither prints a protected identifier.",
+      "identity_match_assessment": "Probable duplicate relationship, not a merge. Adjacency and close spelling are meaningful, but the differing grade occupancy and absent identifiers require both jackets.",
+      "temporal_assessment": "The comparison concerns identity only and establishes no pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Both source rows and person entities remain preserved pending Box 514 review.",
+      "sources": [
+        {
+          "source_key": "nara-index-page314-b646",
+          "locator_override": "PDF page 314, rows 26-27, Box 514"
+        }
+      ]
+    },
+    {
+      "key": "identity-lorraine-m-meador-duplicate-b646",
+      "person_id": "87534337-8145-51b8-bd77-c4748c6de875",
+      "claim_type": "identity",
+      "claim_text": "Lorraine M. Meador may be the same person as the adjacent Lorraine M. Meader row, but remains a separate entity.",
+      "evidence_paraphrase": "The two adjacent Box 514 rows differ only by the final surname vowel; one carries civilian grade CAF-5 and neither prints a protected identifier.",
+      "identity_match_assessment": "Probable duplicate relationship, not a merge. Adjacency and close spelling are meaningful, but the differing grade occupancy and absent identifiers require both jackets.",
+      "temporal_assessment": "The comparison concerns identity only and establishes no pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Both source rows and person entities remain preserved pending Box 514 review.",
+      "sources": [
+        {
+          "source_key": "nara-index-page314-b646",
+          "locator_override": "PDF page 314, rows 26-27, Box 514"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "cd2a9ff7-13d3-5386-9652-c47686c756cb",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact full name and a nonshared protected identifier connect the index to the Army entry; the obituary and University of Michigan biography independently corroborate Army, Africa, OSS, and military-intelligence chronology.",
+      "name_variants": [
+        "Edwin E. \"Ed\" Meader"
+      ],
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 514 for the exact Army-to-OSS assignment date, unit, and KVP job title.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e1d3612e-1ec2-5438-8a7f-8768cad5816d",
+      "identity_status": "probable",
+      "identity_evidence": "This row is adjacent to Lorraine M Meador in the same box and differs only by final surname vowel, but neither row has a protected identifier.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "adjacent-name-variant:lorraine-m-meader-meador-page314",
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect both Box 514 jackets before merging records or assigning employment evidence.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "87534337-8145-51b8-bd77-c4748c6de875",
+      "identity_status": "probable",
+      "identity_evidence": "This row is adjacent to Lorraine M Meader in the same box and differs only by final surname vowel, but neither row has a protected identifier.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "adjacent-name-variant:lorraine-m-meader-meador-page314",
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect both Box 514 jackets before merging records or assigning employment evidence.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "95ac70b7-b61c-5bd4-87fd-a83dc16d5228",
+      "identity_status": "unresolved",
+      "manual_review_required": true,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 514 for identity, warrant status, chronology, and a named pre-OSS affiliation.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0d401161-9bb7-5c26-b9d1-9669aae71ebb",
+      "identity_status": "unresolved",
+      "identity_evidence": "Targeted exact-name discovery returned a later psychiatrist namesake but no wartime or OSS bridge; the namesake was rejected.",
+      "manual_review_required": true,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 514 for identity and a named pre-OSS affiliation.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "73fa35b0-22b5-538e-98d4-e484b27132fa",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army entry share a nonshared protected identifier and agree in first and last name; the Army-only middle initial J remains a variant.",
+      "name_variants": [
+        "Francis J Meadowcraft"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 514 for chronology and a named pre-OSS employer or assignment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "72dda63e-b65e-50ac-8f14-058926c0629e",
+      "identity_status": "unresolved",
+      "manual_review_required": true,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 514 for identity, civilian-grade chronology, and a named pre-OSS employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3b2c43c1-f34f-5aff-83a1-51cd49f4d7b4",
+      "identity_status": "unresolved",
+      "identity_evidence": "Targeted searches returned wrong-generation or First World War namesakes and no defensible bridge to the indexed private.",
+      "manual_review_required": true,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 514 for identity and a named pre-OSS employer or assignment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "025d89a8-16e4-5a8e-b8d6-b41ffd2a3d03",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army entry agree in full name and a nonshared protected identifier.",
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 514 for chronology and a named pre-OSS employer or assignment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "70ac74b0-8618-5493-a6fa-98f29450a20d",
+      "identity_status": "probable",
+      "identity_evidence": "The rare exact name and the institutional biography's wartime American Economic Mission in the Middle East support the match, but no protected identifier or direct OSS linkage is available.",
+      "name_variants": [
+        "David C. Meck Jr."
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect Box 514 to confirm the identity and sequence among law-school, Federal Security Agency, court, Middle East mission, and OSS roles.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "0784a7a4-d7e1-540f-bd41-20ee44c1f5af",
+      "identity_status": "unresolved",
+      "manual_review_required": true,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 514; keep separate from Joseph B Medagliant because the initials, ranks, and protected identifiers differ.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "382588a9-b2e3-50ad-89fa-1c91994f3511",
+      "identity_status": "conflicting",
+      "identity_evidence": "The printed protected identifier points to two Army records: the close variant MEDAGLIANI JOSEPH B and the incompatible name RAUSCH LEONARD.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Inspect Box 514 and both identifier-linked Army records before correcting the name or assigning any affiliation.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e4f06177-71b0-59d9-b72d-9f36f3377345",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The distinctive exact name and middle initial agree across the NARA index and multiple contemporary Foreign Service notices that expand P to Paul and document a continuous consular career.",
+      "name_variants": [
+        "Donn Paul Medalie",
+        "Donn P. Medalie"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Review Box 514 and State Department personnel records for the exact Foreign Service-to-OSS transition and immediate pre-OSS assignment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f57c5f53-76ab-530e-aab0-c3289548228d",
+      "identity_status": "unresolved",
+      "identity_evidence": "Targeted exact-name searches produced unrelated historical namesakes and no defensible wartime or OSS bridge.",
+      "manual_review_required": true,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 514 for identity, branch, chronology, and a named pre-OSS affiliation.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5bbf4902-3433-59f9-bae3-ee31a492f572",
+      "identity_status": "unresolved",
+      "identity_evidence": "A contemporary local-paper mention of an Earl R Meddaugh lacks military, OSS, or identifier evidence and was not promoted.",
+      "manual_review_required": true,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 515 for identity and a named pre-OSS affiliation.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "22a22416-ca55-57e6-9d6d-859bf9eed047",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and matching given names support official Army MEDEIROS HENRY J despite the adjacent-letter surname transposition.",
+      "name_variants": [
+        "Henry J Medeiros"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 515 to interpret the 'British A' note and identify chronology or employment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "20b7b2b4-3153-584e-b8ec-ff80023aca96",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier supports official Army MEDEIROS MANUEL JR; the surname transposition and Army-only suffix remain variants.",
+      "name_variants": [
+        "Manuel Medeiros Jr.",
+        "Manuel Medeiros"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 515 for suffix, chronology, and a named pre-OSS employer or assignment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2c23d961-72ee-5252-99a1-a4e466598994",
+      "identity_status": "conflicting",
+      "identity_evidence": "The index and Army record share a nonshared protected identifier, but MEDILER ANEO and MEDILERANEO DOMINICK cannot be reconciled without resolving possible concatenation or displacement.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect Box 515 and the identifier-linked Army record before correcting the name or assigning employment evidence.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "c2f1a32f-db57-537f-91d3-e21198ed9dbd",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact distinctive name matches an official CIA history identifying CWO Thomas Medlicott as a Coast Guard officer assigned to OSS duty in Operational Swimmer Group II.",
+      "name_variants": [
+        "Thomas O. Medlicott",
+        "CWO Thomas Medlicott"
+      ],
+      "personnel_category": "warrant_officer",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Review Box 515 and Coast Guard records for assignment dates, prewar employment, and the meaning of the printed C8M rank code.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f059f6f0-916c-51bc-96dd-408430261469",
+      "identity_status": "unresolved",
+      "identity_evidence": "Common-name results lacked two corroborating identifiers beyond the name and no affiliation was inferred.",
+      "manual_review_required": true,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 515 for identity, branch, chronology, and a named pre-OSS affiliation.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fd951697-8d83-5c30-a37d-9799b02da010",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army entry agree in full name and a nonshared protected identifier.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": false,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol and inspect Box 515 for chronology and a named pre-OSS employer or assignment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5b67065d-48d2-5d5a-9d0f-9b19c8225cc2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The incomplete initial-only indexed name and unfamiliar spelling produced no defensible external identity bridge.",
+      "manual_review_required": true,
+      "research_status": "in_progress",
+      "next_action": "Continue the minimum protocol with marked spelling variants and inspect Box 515 for the full name, identity, and employer.",
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "batch646-edwin-e-meader-review",
+      "person_id": "cd2a9ff7-13d3-5386-9652-c47686c756cb",
+      "source_adapter": "official_army_obituary_and_institutional_review",
+      "query_text": "Edwin E Meader OSS, Army, employer, obituary, university, and archival review",
+      "query_variant_type": "identity_employment_and_service_chronology_review",
+      "started_at": "2026-09-23T03:35:00Z",
+      "completed_at": "2026-09-23T04:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 0,
+      "research_notes": "The identifier-backed Army match, obituary, and University of Michigan biography resolve identity and document KVP as the last civilian employer plus Army as the best-supported institutional pathway into OSS.",
+      "next_action": "Review Box 514 for exact assignment chronology and KVP role.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch646-lorraine-m-meader-review",
+      "person_id": "e1d3612e-1ec2-5438-8a7f-8768cad5816d",
+      "source_adapter": "index_duplicate_boundary_and_targeted_web_review",
+      "query_text": "Lorraine M Meader and Lorraine M Meador OSS, employer, obituary, directory, and archival review",
+      "query_variant_type": "adjacent_name_variant_review",
+      "started_at": "2026-09-23T03:35:00Z",
+      "completed_at": "2026-09-23T04:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "research_notes": "The adjacent near-identical rows support a probable duplicate relationship but not a merge; no reliable external identity or employer evidence was found.",
+      "next_action": "Inspect both Box 514 jackets.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch646-lorraine-m-meador-review",
+      "person_id": "87534337-8145-51b8-bd77-c4748c6de875",
+      "source_adapter": "index_duplicate_boundary_and_targeted_web_review",
+      "query_text": "Lorraine M Meador and Lorraine M Meader OSS, employer, obituary, directory, and archival review",
+      "query_variant_type": "adjacent_name_variant_review",
+      "started_at": "2026-09-23T03:35:00Z",
+      "completed_at": "2026-09-23T04:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "research_notes": "The adjacent near-identical rows support a probable duplicate relationship but not a merge; no reliable external identity or employer evidence was found.",
+      "next_action": "Inspect both Box 514 jackets.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch646-richard-m-meadors-review",
+      "person_id": "95ac70b7-b61c-5bd4-87fd-a83dc16d5228",
+      "source_adapter": "targeted_public_web_discovery",
+      "query_text": "Richard M Meadors chief warrant officer OSS, employer, obituary, military, and archival discovery",
+      "query_variant_type": "exact_name_rank_oss_and_employment",
+      "started_at": "2026-09-23T03:35:00Z",
+      "completed_at": "2026-09-23T04:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 0,
+      "candidate_sources_rejected": 0,
+      "research_notes": "No defensible identity or pre-OSS affiliation candidate was found.",
+      "next_action": "Continue the minimum protocol and inspect Box 514.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch646-arnold-meadow-review",
+      "person_id": "0d401161-9bb7-5c26-b9d1-9669aae71ebb",
+      "source_adapter": "targeted_public_web_discovery",
+      "query_text": "Arnold Meadow lieutenant OSS, employer, occupation, obituary, institutional, and archival discovery",
+      "query_variant_type": "exact_name_rank_oss_and_employment",
+      "started_at": "2026-09-23T03:35:00Z",
+      "completed_at": "2026-09-23T04:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "A later psychiatrist biography had no wartime, military, protected-identifier, or OSS bridge to the indexed lieutenant.",
+      "research_notes": "No reliable identity or affiliation was accepted.",
+      "next_action": "Continue the minimum protocol and inspect Box 514.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch646-francis-meadowcraft-review",
+      "person_id": "73fa35b0-22b5-538e-98d4-e484b27132fa",
+      "source_adapter": "army_bulk_and_targeted_web_review",
+      "query_text": "Francis Meadowcraft and Francis J Meadowcraft OSS, employer, occupation, obituary, and archival review",
+      "query_variant_type": "identity_and_exact_name_review",
+      "started_at": "2026-09-23T03:35:00Z",
+      "completed_at": "2026-09-23T04:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "research_notes": "The Army crosswalk supports identity and adds a middle initial; no reliable named employer was found.",
+      "next_action": "Continue the minimum protocol and inspect Box 514.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch646-gail-k-meadows-review",
+      "person_id": "72dda63e-b65e-50ac-8f14-058926c0629e",
+      "source_adapter": "targeted_public_web_discovery",
+      "query_text": "Gail K Meadows P-4 OSS, employer, occupation, obituary, institutional, and archival discovery",
+      "query_variant_type": "exact_name_grade_oss_and_employment",
+      "started_at": "2026-09-23T03:35:00Z",
+      "completed_at": "2026-09-23T04:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 0,
+      "candidate_sources_rejected": 0,
+      "research_notes": "No defensible identity or pre-OSS affiliation candidate was found.",
+      "next_action": "Continue the minimum protocol and inspect Box 514.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch646-frederick-mears-review",
+      "person_id": "3b2c43c1-f34f-5aff-83a1-51cd49f4d7b4",
+      "source_adapter": "targeted_public_web_discovery",
+      "query_text": "Frederick Mears private OSS, employer, occupation, obituary, newspaper, and archival discovery",
+      "query_variant_type": "common_name_rank_oss_and_employment",
+      "started_at": "2026-09-23T03:35:00Z",
+      "completed_at": "2026-09-23T04:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Searches returned First World War figures, a person deceased before OSS existed, and other namesakes without the indexed identifier.",
+      "research_notes": "No identity or employer was inferred from namesakes.",
+      "next_action": "Continue the minimum protocol and inspect Box 514.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch646-bernard-c-meaton-review",
+      "person_id": "025d89a8-16e4-5a8e-b8d6-b41ffd2a3d03",
+      "source_adapter": "army_bulk_and_targeted_web_review",
+      "query_text": "Bernard C Meaton OSS, Army, employer, occupation, obituary, and archival review",
+      "query_variant_type": "identity_and_exact_name_review",
+      "started_at": "2026-09-23T03:35:00Z",
+      "completed_at": "2026-09-23T04:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "research_notes": "The Army crosswalk supports identity only; no reliable named employer was found.",
+      "next_action": "Continue the minimum protocol and inspect Box 514.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch646-david-c-meck-review",
+      "person_id": "70ac74b0-8618-5493-a6fa-98f29450a20d",
+      "source_adapter": "institutional_biography_and_targeted_web_review",
+      "query_text": "David C Meck and David C Meck Jr OSS, Middle East mission, employer, law school, Federal Security Agency, obituary, and archival review",
+      "query_variant_type": "identity_employment_and_government_chronology_review",
+      "started_at": "2026-09-23T03:35:00Z",
+      "completed_at": "2026-09-23T04:05:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Cleveland State's institutional biography provides a rare exact-name wartime Middle East context and a detailed prewar chronology. Identity remains probable until Box 514 supplies a direct bridge.",
+      "next_action": "Inspect Box 514 before promoting the qualified identity.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch646-joseph-medaglian-review",
+      "person_id": "0784a7a4-d7e1-540f-bd41-20ee44c1f5af",
+      "source_adapter": "targeted_public_web_discovery",
+      "query_text": "Joseph Medaglian lieutenant OSS, employer, obituary, military, and spelling-variant archival discovery",
+      "query_variant_type": "exact_name_rank_and_spelling_variant_review",
+      "started_at": "2026-09-23T03:35:00Z",
+      "completed_at": "2026-09-23T04:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 0,
+      "candidate_sources_rejected": 0,
+      "research_notes": "No defensible identity or pre-OSS affiliation candidate was found; the adjacent Joseph B Medagliant has a different rank and identifier and remains separate.",
+      "next_action": "Continue the minimum protocol and inspect Box 514.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch646-joseph-b-medagliant-review",
+      "person_id": "382588a9-b2e3-50ad-89fa-1c91994f3511",
+      "source_adapter": "army_bulk_conflict_and_targeted_web_review",
+      "query_text": "Joseph B Medagliant, Joseph B Medagliani, and identifier-linked Army record conflict review",
+      "query_variant_type": "conflicting_identity_review",
+      "started_at": "2026-09-23T03:35:00Z",
+      "completed_at": "2026-09-23T04:05:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Two Army records share the printed identifier: one is a close name variant and one is wholly incompatible. Neither was selected.",
+      "next_action": "Inspect Box 514 and both Army records.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch646-donn-p-medalie-review",
+      "person_id": "e4f06177-71b0-59d9-b72d-9f36f3377345",
+      "source_adapter": "contemporary_foreign_service_and_targeted_web_review",
+      "query_text": "Donn P Medalie and Donn Paul Medalie OSS, Foreign Service, State Department, employer, obituary, and archival review",
+      "query_variant_type": "identity_and_government_chronology_review",
+      "started_at": "2026-09-23T03:35:00Z",
+      "completed_at": "2026-09-23T04:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Multiple contemporary Foreign Service notices resolve the distinctive identity and document a government career, but do not establish the exact OSS transition.",
+      "next_action": "Review Box 514 and State Department personnel records.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch646-william-medcraft-review",
+      "person_id": "f57c5f53-76ab-530e-aab0-c3289548228d",
+      "source_adapter": "targeted_public_web_discovery",
+      "query_text": "William Medcraft lieutenant OSS, employer, obituary, military, and archival discovery",
+      "query_variant_type": "exact_name_rank_oss_and_employment",
+      "started_at": "2026-09-23T03:35:00Z",
+      "completed_at": "2026-09-23T04:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Searches returned seventeenth-century and First World War namesakes without the indexed identifier or OSS context.",
+      "research_notes": "No reliable identity or affiliation was accepted.",
+      "next_action": "Continue the minimum protocol and inspect Box 514.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch646-earl-r-meddaugh-review",
+      "person_id": "5bbf4902-3433-59f9-bae3-ee31a492f572",
+      "source_adapter": "targeted_public_web_discovery",
+      "query_text": "Earl R Meddaugh OSS, employer, occupation, obituary, newspaper, and archival discovery",
+      "query_variant_type": "exact_name_oss_and_employment",
+      "started_at": "2026-09-23T03:35:00Z",
+      "completed_at": "2026-09-23T04:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "A 1942 local-newspaper social mention lacked military, OSS, or identifier evidence.",
+      "research_notes": "The local mention was retained only as a rejected lead.",
+      "next_action": "Continue the minimum protocol and inspect Box 515.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch646-henry-j-medieros-review",
+      "person_id": "22a22416-ca55-57e6-9d6d-859bf9eed047",
+      "source_adapter": "army_bulk_and_targeted_web_review",
+      "query_text": "Henry J Medieros, Henry J Medeiros, British A note, OSS, employer, and archival review",
+      "query_variant_type": "identity_spelling_variant_and_note_review",
+      "started_at": "2026-09-23T03:35:00Z",
+      "completed_at": "2026-09-23T04:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "research_notes": "The protected identifier and near-exact name support identity; the index note 'British A' remains uninterpreted and no employer was inferred.",
+      "next_action": "Inspect Box 515 and continue the minimum protocol.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch646-manuel-medieros-review",
+      "person_id": "20b7b2b4-3153-584e-b8ec-ff80023aca96",
+      "source_adapter": "army_bulk_and_targeted_web_review",
+      "query_text": "Manuel Medieros and Manuel Medeiros Jr OSS, employer, obituary, and archival review",
+      "query_variant_type": "identity_spelling_suffix_and_exact_name_review",
+      "started_at": "2026-09-23T03:35:00Z",
+      "completed_at": "2026-09-23T04:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "research_notes": "The protected identifier supports identity and adds spelling and suffix variants; no reliable named employer was found.",
+      "next_action": "Inspect Box 515 and continue the minimum protocol.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch646-aneo-mediler-review",
+      "person_id": "2c23d961-72ee-5252-99a1-a4e466598994",
+      "source_adapter": "army_bulk_conflict_and_targeted_web_review",
+      "query_text": "Aneo Mediler, Medileraneo Dominick, OSS, employer, and archival conflict review",
+      "query_variant_type": "conflicting_identity_review",
+      "started_at": "2026-09-23T03:35:00Z",
+      "completed_at": "2026-09-23T04:05:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "research_notes": "The protected identifier is strong, but the name fields appear concatenated or displaced and no correction was inferred.",
+      "next_action": "Inspect Box 515 and the Army record.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch646-thomas-o-medlicott-review",
+      "person_id": "c2f1a32f-db57-537f-91d3-e21198ed9dbd",
+      "source_adapter": "official_cia_coast_guard_and_targeted_web_review",
+      "query_text": "Thomas O Medlicott OSS, Coast Guard, Operational Swimmer Group II, employer, obituary, and archival review",
+      "query_variant_type": "identity_and_military_assignment_review",
+      "started_at": "2026-09-23T03:35:00Z",
+      "completed_at": "2026-09-23T04:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "The NARA index and official CIA history resolve identity and document Coast Guard assignment to OSS duty; no earlier civilian employer was found.",
+      "next_action": "Review Box 515 and Coast Guard personnel records.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch646-raymond-medlin-review",
+      "person_id": "f059f6f0-916c-51bc-96dd-408430261469",
+      "source_adapter": "targeted_public_web_discovery",
+      "query_text": "Raymond Medlin OSS, employer, occupation, obituary, military, and archival discovery",
+      "query_variant_type": "common_name_exact_name_oss_and_employment",
+      "started_at": "2026-09-23T03:35:00Z",
+      "completed_at": "2026-09-23T04:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Common-name military and postwar results lacked two corroborating identifiers beyond the name.",
+      "research_notes": "No identity or affiliation was inferred.",
+      "next_action": "Continue the minimum protocol and inspect Box 515.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch646-herbert-g-medric-review",
+      "person_id": "fd951697-8d83-5c30-a37d-9799b02da010",
+      "source_adapter": "army_bulk_and_targeted_web_review",
+      "query_text": "Herbert G Medric OSS, Army, employer, occupation, obituary, and archival review",
+      "query_variant_type": "identity_and_exact_name_review",
+      "started_at": "2026-09-23T03:35:00Z",
+      "completed_at": "2026-09-23T04:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "research_notes": "The Army crosswalk supports identity only; genealogy and people-finder material was rejected as final evidence and no employer was inferred.",
+      "next_action": "Continue the minimum protocol and inspect Box 515.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    },
+    {
+      "key": "batch646-d-meedsellen-review",
+      "person_id": "5b67065d-48d2-5d5a-9d0f-9b19c8225cc2",
+      "source_adapter": "targeted_public_web_discovery",
+      "query_text": "D Meedsellen Caf-4 OSS, spelling variants, employer, occupation, obituary, and archival discovery",
+      "query_variant_type": "incomplete_name_and_spelling_variant_review",
+      "started_at": "2026-09-23T03:35:00Z",
+      "completed_at": "2026-09-23T04:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 0,
+      "candidate_sources_rejected": 0,
+      "research_notes": "The incomplete name and unusual spelling produced no defensible identity or employer candidate.",
+      "next_action": "Continue the adapted minimum protocol and inspect Box 515.",
+      "attempt_number": 2,
+      "research_agent_version": "codex-reviewed-evidence-v1"
+    }
+  ]
+}
