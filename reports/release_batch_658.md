@@ -115,11 +115,28 @@ stopped after a repeated transient 503; neither access failure was treated as a
 negative research result. No authenticated NARA Catalog request was made. The
 previously exposed API key must be rotated before authenticated work resumes.
 
-## Release status
+## Released and verified live
 
-The reviewed dataset and static build are ready for the Batch 658 pull request.
-Commit, workflow, deployment, and exact live-verification identifiers will be
-recorded here after the release reaches GitHub Pages.
+Pull request [#417](https://github.com/therealjameswilson/before-oss/pull/417)
+merged as commit
+[`694e03963c31dc567de740242e95a02665fe709e`](https://github.com/therealjameswilson/before-oss/commit/694e03963c31dc567de740242e95a02665fe709e).
+The pull-request test run
+[`35924866236`](https://github.com/therealjameswilson/before-oss/actions/runs/35924866236),
+post-merge test run
+[`35925316970`](https://github.com/therealjameswilson/before-oss/actions/runs/35925316970),
+and Pages deployment
+[`35925316930`](https://github.com/therealjameswilson/before-oss/actions/runs/35925316930)
+all passed.
+
+The deployed-release verifier matched **67** manifest-listed assets totaling
+**100,118,070** bytes to manifest SHA-256
+`11b621dc778307ab5ab1ac61098002f6186c40f5cf6a4ae6e8654f2c75ee9513`.
+It also verified eight core routes, 27 source-register pages, and all 22 Batch
+658 direct person-profile routes against the exact merged commit. The live
+[oil-company category](https://therealjameswilson.github.io/before-oss/oil-companies/)
+and its placement at the top of the
+[personnel directory](https://therealjameswilson.github.io/before-oss/people/)
+remain in the released build.
 
 ## Resume
 
