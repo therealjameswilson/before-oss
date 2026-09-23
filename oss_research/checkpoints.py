@@ -81,6 +81,7 @@ def export_adapter_checkpoints(
         SELECT {', '.join(CANDIDATE_COLUMNS)}
         FROM candidate_matches
         WHERE evidence_json LIKE '%\"request_fingerprint\"%'
+           OR json_extract(evidence_json, '$.adapter_version') = 'army-bulk-identity-v1'
         ORDER BY candidate_match_id
         """
     ).fetchall()
@@ -98,7 +99,6 @@ def export_adapter_checkpoints(
             SELECT {', '.join(PERSON_UPDATE_COLUMNS)}
             FROM person_entities
             WHERE person_id IN ({placeholders})
-              AND research_status IN ('in_progress', 'candidate_found')
             ORDER BY person_id
             """,
             tuple(referenced_people),

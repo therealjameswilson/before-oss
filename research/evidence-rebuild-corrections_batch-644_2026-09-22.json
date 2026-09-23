@@ -1,0 +1,43 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 644 reproducibility review",
+  "sources": [],
+  "organizations": [
+    {
+      "key": "columbia-university",
+      "canonical_name": "Columbia University",
+      "historical_name": "Columbia University",
+      "aliases": ["Columbia University in the City of New York", "Columbia College"],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "active_dates": null,
+      "normalization_notes": "Canonical institution used across separately evidenced employment and student affiliations. Columbia College is retained as a historical unit name; student attendance is not counted as employment."
+    },
+    {
+      "key": "b603-harvard-university",
+      "canonical_name": "Harvard University",
+      "historical_name": "Harvard University",
+      "aliases": [],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "active_dates": null,
+      "normalization_notes": "Canonical institution used across separately evidenced appointments. Schools, institutes, student relationships, and employment roles remain distinct affiliations."
+    }
+  ],
+  "affiliations": [],
+  "claims": [],
+  "person_updates": [
+    {
+      "person_id": "b2da3b89-0942-5b61-a402-b17d1759dc16",
+      "research_status": "needs_identity_review",
+      "next_action": "Compare the Box 471 and Box 499 files to confirm whether Robert Mackay and Robert McCay are rank-sequence or spelling duplicates before merging."
+    }
+  ],
+  "research_attempts": []
+}

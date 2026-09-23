@@ -201,6 +201,53 @@ class AdapterCheckpointTests(unittest.TestCase):
             )
             self.connection.execute(
                 """
+                INSERT INTO candidate_matches(
+                    candidate_match_id, person_id, candidate_type,
+                    candidate_label, candidate_url, candidate_identifier,
+                    evidence_json, match_assessment, created_at, updated_at
+                ) VALUES (
+                    'army-candidate-1', 'person-1', 'identity',
+                    'Army bulk identity lead',
+                    'https://aad.archives.gov/aad/series-description.jsp?s=893',
+                    'NAID 1263923; bulk record ordinal 7', ?, 'accepted', ?, ?
+                )
+                """,
+                (
+                    json.dumps(
+                        {
+                            "adapter_version": "army-bulk-identity-v1",
+                            "bulk_record_ordinal": 7,
+                            "private_identifier_agreement": True,
+                        }
+                    ),
+                    now,
+                    now,
+                ),
+            )
+            self.connection.execute(
+                """
+                INSERT INTO candidate_matches(
+                    candidate_match_id, person_id, candidate_type,
+                    candidate_label, evidence_json, match_assessment,
+                    created_at, updated_at
+                ) VALUES (
+                    'private-duplicate-1', 'person-1', 'duplicate_person',
+                    'Private duplicate lead', ?, 'unreviewed', ?, ?
+                )
+                """,
+                (
+                    json.dumps(
+                        {
+                            "service_number": "private-test-number",
+                            "rule": "same_serial_different_name_never_auto_merge",
+                        }
+                    ),
+                    now,
+                    now,
+                ),
+            )
+            self.connection.execute(
+                """
                 INSERT INTO research_attempts(
                     research_attempt_id, person_id, source_adapter, query_text,
                     query_variant_type, request_fingerprint, started_at,
@@ -239,5 +286,9 @@ class AdapterCheckpointTests(unittest.TestCase):
         payload = json.loads(text)
         self.assertEqual(len(payload["attempts"]), 1)
         self.assertEqual(payload["attempts"][0][0], "attempt-1")
-        self.assertEqual(payload["candidates"][0][0], "candidate-1")
+        self.assertEqual(
+            {row[0] for row in payload["candidates"]},
+            {"army-candidate-1", "candidate-1"},
+        )
+        self.assertNotIn("private-test-number", text)
         self.assertEqual(payload["person_updates"][0][0], "person-1")
