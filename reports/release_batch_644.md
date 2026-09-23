@@ -1,8 +1,8 @@
 # Batch 644 release status - pages 511-520 and McPadden-McVannel research
 
-Date: 2026-09-22 UTC. This report records the audited tracked-only local
-release candidate. Deployment fields will be finalized from the exact merged
-revision after release.
+Research date: 2026-09-22 America/New_York. Deployment verified 2026-09-23
+UTC. This report records both the audited tracked-only release candidate and
+the exact public release.
 
 ## Historical and extraction work
 
@@ -109,8 +109,22 @@ was upgraded outside the lockfile in this historical-data release.
 
 ## Deployment
 
-Pending exact merged revision, CI, GitHub Pages workflow, and live artifact
-verification.
+Pull request [#389](https://github.com/therealjameswilson/before-oss/pull/389)
+merged to `main` as
+[`56dbe190d2c1da99869fdbac14eb932911bb930d`](https://github.com/therealjameswilson/before-oss/commit/56dbe190d2c1da99869fdbac14eb932911bb930d).
+The pull-request [test run](https://github.com/therealjameswilson/before-oss/actions/runs/35808688198)
+and post-merge [test run](https://github.com/therealjameswilson/before-oss/actions/runs/35809027663)
+both succeeded. The [GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/35809027651)
+completed its build and deploy jobs successfully.
+
+The commit-specific live verifier matched all **67** public assets totaling
+**98,609,376 bytes** to manifest SHA-256
+`bcec49ce657102dd9cc45143fa2d0a9f336d76b5d4699d07c2e557a652d9a9ea`.
+It also verified **eight** core routes, **26** source-register pages, and all
+**23** Batch 644 direct-profile routes at
+<https://therealjameswilson.github.io/before-oss/>. The evidence-scoped oil
+directory remains live at
+<https://therealjameswilson.github.io/before-oss/oil-companies/>.
 
 ## Resume
 
