@@ -83,8 +83,30 @@ The local release gates pass:
 
 External URLs were inventoried, not all requested. No authenticated NARA
 Catalog request was made. The previously exposed API key must be rotated before
-authenticated work resumes. CI, Pages deployment, and exact live-release
-verification remain pending until the branch is pushed and merged.
+authenticated work resumes.
+
+## Released and verified live
+
+Pull request [#413](https://github.com/therealjameswilson/before-oss/pull/413)
+merged as commit
+[`a77c7adccc0670869e6200f6f698b6fe63d33a14`](https://github.com/therealjameswilson/before-oss/commit/a77c7adccc0670869e6200f6f698b6fe63d33a14).
+The pull-request test run
+[`35905411912`](https://github.com/therealjameswilson/before-oss/actions/runs/35905411912),
+post-merge test run
+[`35906024903`](https://github.com/therealjameswilson/before-oss/actions/runs/35906024903),
+and Pages deployment
+[`35906024839`](https://github.com/therealjameswilson/before-oss/actions/runs/35906024839)
+all passed.
+
+The deployed-release verifier matched **67** manifest-listed assets totaling
+**99,935,605** bytes to manifest SHA-256
+`7f2414a19046012d3e98be1e89a1194670fd46991f49f8b2daa771c062f564f4`.
+It also verified eight core routes, 27 source-register pages, and all 22 Batch
+656 direct person-profile routes against the exact merged commit. The live
+[oil-company category](https://therealjameswilson.github.io/before-oss/oil-companies/)
+and its placement at the top of the
+[personnel directory](https://therealjameswilson.github.io/before-oss/people/)
+remain in the released build.
 
 ## Resume
 
