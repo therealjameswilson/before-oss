@@ -1,0 +1,404 @@
+{
+  "bundle_version": "batch-657-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 657 archival review",
+  "sources": [
+    {
+      "key": "nara-index-pages318-320-b657",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 520, 522, and 523",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 319, rows 38-46, Boxes 522-523; page 320, rows 1-13, Box 523; page 318, row 20, Box 520, for the Mettuhen/Miettunen identifier conflict; archival location 230/86/36/07",
+      "access_date": "2026-09-23",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Full protected identifiers remain private and are excluded from public output. Every printed row remains separately preserved."
+    },
+    {
+      "key": "army-bulk-b657",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; fixed-width name and protected-identifier review for Batch 657; private records retain ordinals",
+      "access_date": "2026-09-23",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "Official bulk data, not a Catalog API response. Protected identifiers, occupation codes, and raw records are excluded from public output; coded occupations were not treated as employers."
+    },
+    {
+      "key": "ipn-mierzejewski-b657",
+      "stable_url": "https://ipn.gov.pl/download/1/18434/1-34074.pdf",
+      "title": "‘Agenci’ SOE? Polscy spadochroniarze w okupowanej Europie",
+      "author_creator": "Waldemar Grabowski",
+      "repository_publisher": "Instytut Pamięci Narodowej",
+      "publication_record_date": "2011",
+      "locator": "Biuletyn IPN, no. 8-9/2011, printed pages 98-107; personnel list on printed page 107",
+      "access_date": "2026-09-23",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Biuletyn Instytutu Pamięci Narodowej",
+      "rights_notes": "Institutional historical article. A concise project-authored paraphrase is retained; no extended copyrighted text is reproduced."
+    },
+    {
+      "key": "det101-order-b657",
+      "stable_url": "https://www.javadc.org/java/docs/1945-03-15%20OSSSU%20Detachment%20101%20Promotions%20and%20Citations%20OCR%20P11_MA.pdf",
+      "archival_identifier": "Headquarters USAF India-Burma Theater General Orders No. 48",
+      "title": "Promotions in OSS Special Unit Detachment 101",
+      "author_creator": "Headquarters, United States Army Forces, India-Burma Theater",
+      "repository_publisher": "Java Association of the United States; JAVA Research Team",
+      "publication_record_date": "1945-03-15",
+      "locator": "PDF page 10, promotions list naming Casimir J. Migon and John L. Mihelich",
+      "access_date": "2026-09-23",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "OSS Special Unit Detachment 101 records",
+      "rights_notes": "Digital reproduction of a contemporary military order. Protected identifiers are used privately and omitted from public data."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [],
+  "claims": [
+    {
+      "key": "identity-william-mierzejewski-b657",
+      "person_id": "5f99eb07-57e9-5b14-9777-bb82e69ae1df",
+      "claim_type": "identity",
+      "claim_text": "Indexed Staff Sergeant William S. Mierzejewski is a high-confidence match to the OSS serviceman documented in Yugoslavia.",
+      "evidence_paraphrase": "The distinctive full name and staff-sergeant rank align between the index and an IPN study naming OSS personnel in special operations during 1944.",
+      "identity_match_assessment": "High confidence from a distinctive exact name, matching grade, OSS identification, and specific 1944 operational context.",
+      "temporal_assessment": "Identity evidence concerns wartime OSS activity; it does not establish pre-OSS employment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer or earlier occupation is inferred from the operational history.",
+      "sources": [
+        {"source_key": "nara-index-pages318-320-b657", "locator_override": "PDF page 319, row 38"},
+        {"source_key": "ipn-mierzejewski-b657", "locator_override": "Printed page 107"}
+      ]
+    },
+    {
+      "key": "identity-amelio-migliaccio-b657",
+      "person_id": "3c5bcb0f-830e-5358-b917-67cc80dcb6ab",
+      "claim_type": "identity",
+      "claim_text": "Indexed Amelio Migliaccio has a high-confidence match to an official Army entry recorded as Amelie Migliaccio.",
+      "evidence_paraphrase": "The protected identifier and surname align; the given-name difference is retained as a variant rather than silently corrected.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier match and close full-name agreement.",
+      "temporal_assessment": "Identity context only; the Army record does not establish a named employer or OSS-entry chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Official bulk record ordinal 3768779; protected identifier and Army occupation code are omitted publicly.",
+      "sources": [
+        {"source_key": "nara-index-pages318-320-b657", "locator_override": "PDF page 319, row 40"},
+        {"source_key": "army-bulk-b657", "locator_override": "Official bulk record ordinal 3768779"}
+      ]
+    },
+    {
+      "key": "identity-huber-migliolo-b657",
+      "person_id": "c4a2aab5-9339-5eb8-99b4-735873428b63",
+      "claim_type": "identity",
+      "claim_text": "Indexed Huber E. Migliolo has a high-confidence match to an official Army entry recorded as Huber E. Miglioli.",
+      "evidence_paraphrase": "A nonshared protected identifier and distinctive given name and initial align despite the final surname letter.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier match and close distinctive-name agreement.",
+      "temporal_assessment": "Identity context only; the Army record does not establish a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Official bulk record ordinal 2856125; Huber E. Miglioli is retained as a variant.",
+      "sources": [
+        {"source_key": "nara-index-pages318-320-b657", "locator_override": "PDF page 319, row 41"},
+        {"source_key": "army-bulk-b657", "locator_override": "Official bulk record ordinal 2856125"}
+      ]
+    },
+    {
+      "key": "identity-robert-mignone-b657",
+      "person_id": "0a7f74c4-cba5-5520-b176-5b3c15bbabbb",
+      "claim_type": "identity",
+      "claim_text": "Indexed Robert J. Mignone has a high-confidence match to an official Army entry.",
+      "evidence_paraphrase": "The indexed full name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High confidence from exact full-name alignment and a nonshared protected-identifier match.",
+      "temporal_assessment": "Identity context only; Army occupation coding is not employer evidence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Official bulk record ordinal 2708617; protected data are omitted publicly.",
+      "sources": [
+        {"source_key": "nara-index-pages318-320-b657", "locator_override": "PDF page 319, row 42"},
+        {"source_key": "army-bulk-b657", "locator_override": "Official bulk record ordinal 2708617"}
+      ]
+    },
+    {
+      "key": "identity-casimir-migon-b657",
+      "person_id": "532229af-71cd-5bcd-8446-5cbe847206ce",
+      "claim_type": "identity",
+      "claim_text": "Indexed Casimir J. Migon is a high-confidence match to the serviceman named in an official Army entry and a Detachment 101 order.",
+      "evidence_paraphrase": "The index, official Army file, and contemporary order agree in full name, protected identifier, and wartime grade.",
+      "identity_match_assessment": "High confidence from an exact official protected-identifier match independently corroborated by a contemporary unit order.",
+      "temporal_assessment": "The sources establish wartime identity and Detachment 101 service, not a pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Official bulk record ordinal 6894365; protected data are omitted publicly.",
+      "sources": [
+        {"source_key": "nara-index-pages318-320-b657", "locator_override": "PDF page 319, row 43"},
+        {"source_key": "army-bulk-b657", "locator_override": "Official bulk record ordinal 6894365"},
+        {"source_key": "det101-order-b657", "locator_override": "PDF page 10"}
+      ]
+    },
+    {
+      "key": "identity-john-l-mihelich-b657",
+      "person_id": "75ea1124-2806-5003-b53c-1e6d9e239cd2",
+      "claim_type": "identity",
+      "claim_text": "Indexed John L. Mihelich is confirmed by an official Army entry and a contemporary Detachment 101 order.",
+      "evidence_paraphrase": "The three records agree in name, protected identifier, grade, and Detachment 101 context.",
+      "identity_match_assessment": "Confirmed through a direct official protected-identifier match and an independent contemporary order naming the same person.",
+      "temporal_assessment": "Wartime identity is confirmed; the exact pre-OSS pathway and civilian employer remain unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "A separate Wallace J. Mihelich row repeats the identifier and remains conflicting; the entities are not merged.",
+      "sources": [
+        {"source_key": "nara-index-pages318-320-b657", "locator_override": "PDF page 319, row 45"},
+        {"source_key": "army-bulk-b657", "locator_override": "Official bulk record ordinal 7088083"},
+        {"source_key": "det101-order-b657", "locator_override": "PDF page 10"}
+      ]
+    },
+    {
+      "key": "conflict-rafael-miettunen-b657",
+      "person_id": "c54cc4b7-832b-5b71-b144-ff68ab899c72",
+      "claim_type": "identity",
+      "claim_text": "Rafael P. Miettunen cannot yet be resolved because a Rafael P. Mettuhen row in another box repeats the same protected identifier.",
+      "evidence_paraphrase": "The official index preserves two differently spelled names on adjacent pages, in Boxes 520 and 522, with one protected identifier.",
+      "identity_match_assessment": "Conflicting; neither row is merged or corrected before side-by-side personnel-file review.",
+      "temporal_assessment": "The conflict concerns identity and archival filing, not an employment chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Compare Boxes 520 and 522 before resolving the spelling or entity relationship.",
+      "sources": [
+        {"source_key": "nara-index-pages318-320-b657", "locator_override": "PDF page 318, row 20, and page 319, row 39"}
+      ]
+    },
+    {
+      "key": "conflict-wallace-mihelich-b657",
+      "person_id": "2c93fdfc-ac5c-5b52-8fc6-07363013c645",
+      "claim_type": "identity",
+      "claim_text": "Wallace J. Mihelich cannot yet be resolved because his index row repeats John L. Mihelich's protected identifier while official Army and unit records name John.",
+      "evidence_paraphrase": "The index prints separate John and Wallace rows, but the Army file and Detachment 101 order support John for the shared identifier.",
+      "identity_match_assessment": "Conflicting; Wallace is preserved as a separate indexed person pending both Box 523 files.",
+      "temporal_assessment": "The conflict concerns identity and filing, not a pre-OSS chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Do not merge the two Mihelich rows or transfer John's military evidence to Wallace.",
+      "sources": [
+        {"source_key": "nara-index-pages318-320-b657", "locator_override": "PDF page 319, rows 45-46"},
+        {"source_key": "army-bulk-b657", "support_type": "context_only", "locator_override": "Official bulk record ordinal 7088083"},
+        {"source_key": "det101-order-b657", "support_type": "context_only", "locator_override": "PDF page 10"}
+      ]
+    },
+    {
+      "key": "identity-paul-mihos-b657",
+      "person_id": "9548dce0-8f44-5223-96b2-76b0bded0e67",
+      "claim_type": "identity",
+      "claim_text": "Indexed Paul G. Mihos has a high-confidence match to an official Army entry.",
+      "evidence_paraphrase": "The indexed name and a nonshared protected identifier agree; a repeated initial in the fixed-width Army name is retained as a source artifact.",
+      "identity_match_assessment": "High confidence from full-name alignment and a nonshared protected-identifier match.",
+      "temporal_assessment": "Identity context only; the Army record does not establish a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Official bulk record ordinal 7553217; protected data and occupation code are omitted publicly.",
+      "sources": [
+        {"source_key": "nara-index-pages318-320-b657", "locator_override": "PDF page 320, row 1"},
+        {"source_key": "army-bulk-b657", "locator_override": "Official bulk record ordinal 7553217"}
+      ]
+    },
+    {
+      "key": "identity-isaac-mikko-b657",
+      "person_id": "8a138575-deaf-55c2-a3b6-b6e4db20aa98",
+      "claim_type": "identity",
+      "claim_text": "Indexed Isaac A. Mikko has a high-confidence match to an official Army entry.",
+      "evidence_paraphrase": "The indexed full name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High confidence from exact full-name alignment and a nonshared protected-identifier match.",
+      "temporal_assessment": "Identity context only; Army occupation coding is not employer evidence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Official bulk record ordinal 1428899; protected data are omitted publicly.",
+      "sources": [
+        {"source_key": "nara-index-pages318-320-b657", "locator_override": "PDF page 320, row 3"},
+        {"source_key": "army-bulk-b657", "locator_override": "Official bulk record ordinal 1428899"}
+      ]
+    },
+    {
+      "key": "identity-johnnie-mikolas-b657",
+      "person_id": "982efa81-5730-5688-87ec-6d18b97e9eff",
+      "claim_type": "identity",
+      "claim_text": "Indexed Johnnie K. Mikolas has a high-confidence match to an official Army entry.",
+      "evidence_paraphrase": "The indexed full name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High confidence from exact full-name alignment and a nonshared protected-identifier match.",
+      "temporal_assessment": "Identity context only; no pre-OSS employer is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Official bulk record ordinal 7846096; protected data are omitted publicly.",
+      "sources": [
+        {"source_key": "nara-index-pages318-320-b657", "locator_override": "PDF page 320, row 4"},
+        {"source_key": "army-bulk-b657", "locator_override": "Official bulk record ordinal 7846096"}
+      ]
+    },
+    {
+      "key": "identity-john-g-mikulski-b657",
+      "person_id": "8d006353-2490-5f8b-b22a-cb6c9d1e4cb7",
+      "claim_type": "identity",
+      "claim_text": "Indexed John G. Mikulski has a high-confidence match to an official Army entry.",
+      "evidence_paraphrase": "The indexed full name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High confidence from exact full-name alignment and a nonshared protected-identifier match.",
+      "temporal_assessment": "Identity context only; no named employer is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Official bulk record ordinal 8718998; protected data are omitted publicly.",
+      "sources": [
+        {"source_key": "nara-index-pages318-320-b657", "locator_override": "PDF page 320, row 7"},
+        {"source_key": "army-bulk-b657", "locator_override": "Official bulk record ordinal 8718998"}
+      ]
+    },
+    {
+      "key": "identity-richard-mikulski-b657",
+      "person_id": "9dd1eb14-5573-59c8-a2cc-e3ba9b559c96",
+      "claim_type": "identity",
+      "claim_text": "Indexed Richard M. Mikulski has a high-confidence match to an official Army entry.",
+      "evidence_paraphrase": "The indexed full name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High confidence from exact full-name alignment and a nonshared protected-identifier match.",
+      "temporal_assessment": "Identity context only; the Army record does not name an employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Official bulk record ordinal 639876; protected data are omitted publicly.",
+      "sources": [
+        {"source_key": "nara-index-pages318-320-b657", "locator_override": "PDF page 320, row 8"},
+        {"source_key": "army-bulk-b657", "locator_override": "Official bulk record ordinal 639876"}
+      ]
+    },
+    {
+      "key": "identity-james-milan-b657",
+      "person_id": "656fa27b-0048-5c1f-8570-3e210aa2d62d",
+      "claim_type": "identity",
+      "claim_text": "Indexed James Milan has a high-confidence match to an official Army entry.",
+      "evidence_paraphrase": "The indexed name and a nonshared protected identifier agree despite the index's blank rank field.",
+      "identity_match_assessment": "High confidence from exact name alignment and a nonshared protected-identifier match.",
+      "temporal_assessment": "Identity context only; rank and pre-OSS employment still require personnel-file review.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Official bulk record ordinal 1534839; no rank or employer is inferred into the original index row.",
+      "sources": [
+        {"source_key": "nara-index-pages318-320-b657", "locator_override": "PDF page 320, row 9"},
+        {"source_key": "army-bulk-b657", "locator_override": "Official bulk record ordinal 1534839"}
+      ]
+    },
+    {
+      "key": "identity-louis-milas-b657",
+      "person_id": "fd2d1fe7-e8ed-53a9-bcc6-dc683edf7a09",
+      "claim_type": "identity",
+      "claim_text": "Indexed Louis G. Milas has a high-confidence match to an official Army entry.",
+      "evidence_paraphrase": "The indexed full name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High confidence from exact full-name alignment and a nonshared protected-identifier match.",
+      "temporal_assessment": "Identity context only; no named employer is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Official bulk record ordinal 2757213; protected data and occupation code are omitted publicly.",
+      "sources": [
+        {"source_key": "nara-index-pages318-320-b657", "locator_override": "PDF page 320, row 11"},
+        {"source_key": "army-bulk-b657", "locator_override": "Official bulk record ordinal 2757213"}
+      ]
+    },
+    {
+      "key": "identity-tony-milazzo-b657",
+      "person_id": "86337551-2275-590f-a94c-9d455d674c0c",
+      "claim_type": "identity",
+      "claim_text": "Indexed Tony J. Milazzo has a high-confidence match to an official Army entry.",
+      "evidence_paraphrase": "The indexed full name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High confidence from exact full-name alignment and a nonshared protected-identifier match.",
+      "temporal_assessment": "Identity context only; no pre-OSS employer is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Official bulk record ordinal 3165526; protected data are omitted publicly.",
+      "sources": [
+        {"source_key": "nara-index-pages318-320-b657", "locator_override": "PDF page 320, row 12"},
+        {"source_key": "army-bulk-b657", "locator_override": "Official bulk record ordinal 3165526"}
+      ]
+    },
+    {
+      "key": "identity-eugene-milbauer-b657",
+      "person_id": "c52c9899-f878-583a-9272-585511b23f88",
+      "claim_type": "identity",
+      "claim_text": "Indexed Eugene Milbauer has a high-confidence match to an official Army entry.",
+      "evidence_paraphrase": "The indexed name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High confidence from exact name alignment and a nonshared protected-identifier match.",
+      "temporal_assessment": "Identity context only; no named employer is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Official bulk record ordinal 3169281; protected data and occupation code are omitted publicly.",
+      "sources": [
+        {"source_key": "nara-index-pages318-320-b657", "locator_override": "PDF page 320, row 13"},
+        {"source_key": "army-bulk-b657", "locator_override": "Official bulk record ordinal 3169281"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {"person_id": "5f99eb07-57e9-5b14-9777-bb82e69ae1df", "identity_status": "high_confidence", "identity_evidence": "A distinctive exact name, matching staff-sergeant grade, and an IPN study independently identify William S. Mierzejewski among OSS personnel in 1944 operations.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect William S. Mierzejewski's Box 522 file for pre-service occupation, employer, hometown, and recruitment chronology.", "archival_review_priority": "high"},
+    {"person_id": "c54cc4b7-832b-5b71-b144-ff68ab899c72", "identity_status": "conflicting", "identity_evidence": "The protected identifier printed for Rafael P. Miettunen is also printed for Rafael P. Mettuhen in Box 520; the rows remain separate.", "manual_review_required": true, "possible_duplicate_group": "rafael-p-mettuhen-miettunen-shared-identifier", "research_status": "conflicting_sources", "next_action": "Compare the Rafael P. Miettunen file in Box 522 with the Rafael P. Mettuhen file in Box 520 before resolving spelling, identity, or employment.", "archival_review_priority": "critical"},
+    {"person_id": "3c5bcb0f-830e-5358-b917-67cc80dcb6ab", "identity_status": "high_confidence", "identity_evidence": "A nonshared protected identifier links indexed Amelio Migliaccio to official Army Amelie Migliaccio; the given-name variation is preserved.", "name_variants": ["Amelie Migliaccio"], "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Amelio Migliaccio's Box 522 file for correct given-name spelling, pre-Army occupation, named employer, and OSS assignment.", "archival_review_priority": "high"},
+    {"person_id": "c4a2aab5-9339-5eb8-99b4-735873428b63", "identity_status": "high_confidence", "identity_evidence": "A nonshared protected identifier links indexed Huber E. Migliolo to official Army Huber E. Miglioli; the surname variation is preserved.", "name_variants": ["Huber E Miglioli"], "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Huber E. Migliolo's Box 522 file for surname spelling, civilian occupation, named employer, and OSS assignment.", "archival_review_priority": "high"},
+    {"person_id": "0a7f74c4-cba5-5520-b176-5b3c15bbabbb", "identity_status": "high_confidence", "identity_evidence": "The indexed full name and a nonshared protected identifier agree with an official Army entry; no named employer was found online.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Robert J. Mignone's Box 522 file for pre-Army employment and Army-to-OSS chronology.", "archival_review_priority": "high"},
+    {"person_id": "532229af-71cd-5bcd-8446-5cbe847206ce", "identity_status": "high_confidence", "identity_evidence": "The NARA index and official Army entry agree in full name and protected identifier, and a contemporary Detachment 101 order independently names Casimir J. Migon.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Casimir J. Migon's Box 522 file for pre-Army occupation, named employer, and OSS transfer chronology.", "archival_review_priority": "high"},
+    {"person_id": "f1620b31-615c-5703-85ca-4e09e25caff9", "identity_status": "unresolved", "identity_evidence": "Exact-name, plausible middle-initial, employment, institutional, obituary, NARA, CIA-access, and Library of Congress checks did not establish a reliable identity or employer for indexed Emil Mihatov.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Emil Mihatov's Box 522 file for full middle name, birth details, hometown, civilian occupation, employer, and OSS assignment.", "archival_review_priority": "critical"},
+    {"person_id": "75ea1124-2806-5003-b53c-1e6d9e239cd2", "identity_status": "confirmed", "identity_evidence": "The index, official Army entry, and contemporary Detachment 101 order agree in name, protected identifier, grade, and unit context.", "manual_review_required": true, "possible_duplicate_group": "john-wallace-mihelich-shared-identifier-b657", "research_status": "requires_archival_review", "next_action": "Compare both Box 523 Mihelich files, then identify John L. Mihelich's pre-Army occupation and named employer; evaluate the 1939 Cleveland namesake only with corroborating markers.", "archival_review_priority": "critical"},
+    {"person_id": "2c93fdfc-ac5c-5b52-8fc6-07363013c645", "identity_status": "conflicting", "identity_evidence": "Wallace J. Mihelich's index row repeats John L. Mihelich's protected identifier, while official Army and Detachment 101 records name John.", "manual_review_required": true, "possible_duplicate_group": "john-wallace-mihelich-shared-identifier-b657", "research_status": "conflicting_sources", "next_action": "Compare the John L. and Wallace J. Mihelich files in Box 523 before assigning any military or employment evidence to Wallace.", "archival_review_priority": "critical"},
+    {"person_id": "9548dce0-8f44-5223-96b2-76b0bded0e67", "identity_status": "high_confidence", "identity_evidence": "The indexed name and a nonshared protected identifier agree with an official Army entry; no named employer was located.", "personnel_category": "enlisted_army_personnel", "commissioned_officer": false, "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Paul G. Mihos's Box 523 file for pre-Army occupation, named employer, and OSS assignment.", "archival_review_priority": "high"},
+    {"person_id": "094ff396-dad4-5ef9-84cb-4302aadec235", "identity_status": "unresolved", "identity_evidence": "A 1940 census-index namesake in Washington lacked rank, military service, occupation context, or an OSS bridge and was rejected.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Lieutenant Wallace S. Mikel's Box 523 file for branch, birth details, hometown, occupation, employer, and OSS assignment.", "archival_review_priority": "critical"},
+    {"person_id": "8a138575-deaf-55c2-a3b6-b6e4db20aa98", "identity_status": "high_confidence", "identity_evidence": "The indexed full name and a nonshared protected identifier agree with an official Army entry; no named employer was found online.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Isaac A. Mikko's Box 523 file for pre-Army occupation, named employer, and OSS transfer chronology.", "archival_review_priority": "high"},
+    {"person_id": "982efa81-5730-5688-87ec-6d18b97e9eff", "identity_status": "high_confidence", "identity_evidence": "The indexed full name and a nonshared protected identifier agree with an official Army entry; no named employer was found online.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Johnnie K. Mikolas's Box 523 file for pre-Army occupation, named employer, and OSS assignment.", "archival_review_priority": "high"},
+    {"person_id": "4fcbfd5c-1828-5507-abe5-50f6274f0879", "identity_status": "unresolved", "identity_evidence": "An exact-name cemetery listing did not provide rank, service, OSS context, or employment evidence and could not resolve indexed Edward A. Mikos.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Edward A. Mikos's Box 523 possible-personnel file for identity markers, civilian occupation, employer, and OSS connection.", "archival_review_priority": "critical"},
+    {"person_id": "c3146eac-d1d0-553e-9d2b-e4ee5cb29156", "identity_status": "unresolved", "identity_evidence": "Exact-name, employment, institutional, obituary, and NARA checks returned unrelated family or modern namesakes and no reliable identity bridge; CIA and Library of Congress access attempts were unavailable and were not treated as negative evidence.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Frances M. Miksic's Box 523 file for former names, birth details, hometown, occupation, employer, and OSS assignment.", "archival_review_priority": "critical"},
+    {"person_id": "8d006353-2490-5f8b-b22a-cb6c9d1e4cb7", "identity_status": "high_confidence", "identity_evidence": "The indexed full name and a nonshared protected identifier agree with an official Army entry; no named employer was found online.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect John G. Mikulski's Box 523 file for pre-Army occupation, employer, and OSS transfer chronology.", "archival_review_priority": "high"},
+    {"person_id": "9dd1eb14-5573-59c8-a2cc-e3ba9b559c96", "identity_status": "high_confidence", "identity_evidence": "The indexed full name and a nonshared protected identifier agree with an official Army entry; no named employer was found online.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Richard M. Mikulski's Box 523 file for pre-Army occupation, employer, and OSS assignment.", "archival_review_priority": "high"},
+    {"person_id": "656fa27b-0048-5c1f-8570-3e210aa2d62d", "identity_status": "high_confidence", "identity_evidence": "The indexed name and a nonshared protected identifier agree with an official Army entry; the index's blank rank remains unaltered.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect James Milan's Box 523 file for rank, pre-Army occupation, named employer, and OSS assignment.", "archival_review_priority": "high"},
+    {"person_id": "a8d58a55-d093-51d4-a200-2acf19d11ec3", "identity_status": "unresolved", "identity_evidence": "Cemetery and genealogy leads for Russell S. Milanick or Milanich lacked rank, military chronology, employer evidence, and an OSS bridge and were rejected.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Lieutenant Russell S. Milanick's Box 523 file for branch, spelling variants, birth details, occupation, and employer.", "archival_review_priority": "critical"},
+    {"person_id": "fd2d1fe7-e8ed-53a9-bcc6-dc683edf7a09", "identity_status": "high_confidence", "identity_evidence": "The indexed full name and a nonshared protected identifier agree with an official Army entry; no named employer was found online.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Louis G. Milas's Box 523 file for pre-Army occupation, named employer, and OSS transfer chronology.", "archival_review_priority": "high"},
+    {"person_id": "86337551-2275-590f-a94c-9d455d674c0c", "identity_status": "high_confidence", "identity_evidence": "The indexed full name and a nonshared protected identifier agree with an official Army entry; no named employer was found online.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Tony J. Milazzo's Box 523 file for pre-Army occupation, named employer, and OSS assignment.", "archival_review_priority": "high"},
+    {"person_id": "c52c9899-f878-583a-9272-585511b23f88", "identity_status": "high_confidence", "identity_evidence": "The indexed name and a nonshared protected identifier agree with an official Army entry; no named employer was found online.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Eugene Milbauer's Box 523 file for pre-Army occupation, named employer, and OSS assignment.", "archival_review_priority": "high"}
+  ],
+  "research_attempts": [
+    {"key": "b657-william-mierzejewski-reviewed-search", "person_id": "5f99eb07-57e9-5b14-9777-bb82e69ae1df", "source_adapter": "official_nara_cia_loc_army_institutional_obituary_and_targeted_web_review", "query_text": "William S Mierzejewski; OSS; Office of Strategic Services; staff sergeant; employer; occupation; obituary; Polish archive", "query_variant_type": "distinctive_name_rank_employment_and_archival", "started_at": "2026-09-23T19:15:00Z", "completed_at": "2026-09-23T20:15:00Z", "outcome": "source_reviewed", "sources_reviewed": 6, "candidate_sources_rejected": 3, "rejection_reasons": "Genealogy and namesake results lacked rank and OSS context; no source named a predecessor employer.", "research_notes": "NARA context, an IPN institutional history, LoC, exact-name OSS and employment searches, and a cohort CIA access check established identity but no pre-OSS employer. CIA access was unavailable and was not counted as a negative result.", "next_action": "Inspect Box 522 for pre-service occupation and employer.", "attempt_number": 4, "research_agent_version": "before-oss-batch-657-v1"},
+    {"key": "b657-rafael-miettunen-reviewed-search", "person_id": "c54cc4b7-832b-5b71-b144-ff68ab899c72", "source_adapter": "official_nara_cia_loc_army_institutional_obituary_and_targeted_web_review", "query_text": "Rafael P Miettunen; Rafael P Mettuhen; OSS; Navy; employer; obituary; shared identifier", "query_variant_type": "spelling_variant_identifier_conflict_and_archival", "started_at": "2026-09-23T19:15:00Z", "completed_at": "2026-09-23T20:15:00Z", "outcome": "source_reviewed", "sources_reviewed": 4, "candidate_sources_rejected": 5, "rejection_reasons": "Exact and variant-name results supplied no independent wartime bridge; the index itself preserves two spellings in different boxes for one protected identifier.", "research_notes": "NARA context, LoC, exact-name and employment searches, and a cohort CIA access check leave a terminal online identity conflict pending archival review.", "next_action": "Compare Boxes 520 and 522.", "attempt_number": 4, "research_agent_version": "before-oss-batch-657-v1"},
+    {"key": "b657-amelio-migliaccio-reviewed-search", "person_id": "3c5bcb0f-830e-5358-b917-67cc80dcb6ab", "source_adapter": "official_nara_cia_loc_army_institutional_obituary_and_targeted_web_review", "query_text": "Amelio Migliaccio; Amelie Migliaccio; OSS; Army; employer; occupation; obituary", "query_variant_type": "indexed_and_army_name_variant_employment_and_archival", "started_at": "2026-09-23T19:15:00Z", "completed_at": "2026-09-23T20:15:00Z", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 4, "rejection_reasons": "Same-surname genealogy and obituary results lacked the protected identifier, OSS context, or employer chronology.", "research_notes": "Official Army identity is high confidence; LoC and targeted searches did not establish a named employer. CIA access was unavailable and not treated as negative evidence.", "next_action": "Inspect Box 522 for spelling and pre-Army employment.", "attempt_number": 4, "research_agent_version": "before-oss-batch-657-v1"},
+    {"key": "b657-huber-migliolo-reviewed-search", "person_id": "c4a2aab5-9339-5eb8-99b4-735873428b63", "source_adapter": "official_nara_cia_loc_army_institutional_obituary_and_targeted_web_review", "query_text": "Huber E Migliolo; Huber E Miglioli; OSS; Army; employer; occupation; obituary", "query_variant_type": "indexed_and_army_surname_variant_employment_and_archival", "started_at": "2026-09-23T19:15:00Z", "completed_at": "2026-09-23T20:15:00Z", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 4, "rejection_reasons": "Genealogy and modern namesakes lacked the protected identifier, wartime chronology, and employer evidence.", "research_notes": "Official Army identity is high confidence; no named employer found after NARA, LoC, exact-name, employment, institutional, and obituary checks.", "next_action": "Inspect Box 522 for surname spelling and pre-Army employment.", "attempt_number": 4, "research_agent_version": "before-oss-batch-657-v1"},
+    {"key": "b657-robert-mignone-reviewed-search", "person_id": "0a7f74c4-cba5-5520-b176-5b3c15bbabbb", "source_adapter": "official_nara_cia_loc_army_institutional_obituary_and_targeted_web_review", "query_text": "Robert J Mignone; OSS; Army; employer 1940; occupation; obituary; archive", "query_variant_type": "exact_name_identifier_employment_obituary_and_archival", "started_at": "2026-09-23T19:15:00Z", "completed_at": "2026-09-23T20:15:00Z", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 5, "rejection_reasons": "Common-name and obituary results lacked the protected identifier or an OSS and employer bridge.", "research_notes": "Official Army identity is high confidence; no named employer found after the bounded minimum protocol.", "next_action": "Inspect Box 522 for pre-Army employment.", "attempt_number": 4, "research_agent_version": "before-oss-batch-657-v1"},
+    {"key": "b657-casimir-migon-reviewed-search", "person_id": "532229af-71cd-5bcd-8446-5cbe847206ce", "source_adapter": "official_nara_cia_loc_army_institutional_obituary_and_targeted_web_review", "query_text": "Casimir J Migon; OSS; Detachment 101; Army; employer; occupation; obituary", "query_variant_type": "distinctive_name_identifier_unit_employment_and_archival", "started_at": "2026-09-23T19:15:00Z", "completed_at": "2026-09-23T20:15:00Z", "outcome": "source_reviewed", "sources_reviewed": 6, "candidate_sources_rejected": 3, "rejection_reasons": "Genealogy and namesake results lacked protected-identifier or unit corroboration and named no employer.", "research_notes": "NARA, official Army bulk data, and a Detachment 101 order establish high-confidence identity; LoC and employer searches found no predecessor affiliation.", "next_action": "Inspect Box 522 for pre-Army employment and OSS transfer chronology.", "attempt_number": 4, "research_agent_version": "before-oss-batch-657-v1"},
+    {"key": "b657-emil-mihatov-reviewed-search", "person_id": "f1620b31-615c-5703-85ca-4e09e25caff9", "source_adapter": "official_nara_cia_loc_army_institutional_obituary_and_targeted_web_review", "query_text": "Emil Mihatov; Emil L Mihatov; OSS; Army; employer; occupation; obituary; archive", "query_variant_type": "exact_name_middle_initial_variant_employment_and_archival", "started_at": "2026-09-23T19:15:00Z", "completed_at": "2026-09-23T20:15:00Z", "outcome": "source_reviewed", "sources_reviewed": 4, "candidate_sources_rejected": 4, "rejection_reasons": "A genealogy lead suggested Emil L. Mihatov but supplied no rank, protected identifier, OSS bridge, or employment evidence.", "research_notes": "No reliable identity or employer result after NARA, LoC, exact-name, employment, obituary, and cohort CIA-access checks.", "next_action": "Inspect Box 522 for full name and identity markers.", "attempt_number": 4, "research_agent_version": "before-oss-batch-657-v1"},
+    {"key": "b657-john-l-mihelich-reviewed-search", "person_id": "75ea1124-2806-5003-b53c-1e6d9e239cd2", "source_adapter": "official_nara_cia_loc_army_institutional_obituary_and_targeted_web_review", "query_text": "John L Mihelich; OSS; Detachment 101; Army; Cleveland claims board; employer; occupation", "query_variant_type": "exact_name_identifier_unit_employment_and_namesake_review", "started_at": "2026-09-23T19:15:00Z", "completed_at": "2026-09-23T20:15:00Z", "outcome": "source_reviewed", "sources_reviewed": 7, "candidate_sources_rejected": 3, "rejection_reasons": "A 1939 Cleveland claims-board member has the exact name but no military, hometown, or other bridge to the indexed technician; it remains an unverified namesake lead.", "research_notes": "Official Army and contemporary Detachment 101 records confirm identity. The repeated Wallace row remains conflicting, and no pre-OSS employer is accepted.", "next_action": "Compare both Box 523 files and seek corroboration before revisiting the Cleveland lead.", "attempt_number": 4, "research_agent_version": "before-oss-batch-657-v1"},
+    {"key": "b657-wallace-mihelich-reviewed-search", "person_id": "2c93fdfc-ac5c-5b52-8fc6-07363013c645", "source_adapter": "official_nara_cia_loc_army_institutional_obituary_and_targeted_web_review", "query_text": "Wallace J Mihelich; John L Mihelich; OSS; Army; Detachment 101; employer; shared identifier", "query_variant_type": "identifier_conflict_unit_employment_and_archival", "started_at": "2026-09-23T19:15:00Z", "completed_at": "2026-09-23T20:15:00Z", "outcome": "source_reviewed", "sources_reviewed": 6, "candidate_sources_rejected": 4, "rejection_reasons": "The official Army record and contemporary order identify John, not Wallace; web namesakes lacked independent wartime markers.", "research_notes": "Wallace remains a distinct conflicting index entity. John's evidence is not transferred to Wallace, and no employer is claimed.", "next_action": "Compare both Box 523 files.", "attempt_number": 4, "research_agent_version": "before-oss-batch-657-v1"},
+    {"key": "b657-paul-mihos-reviewed-search", "person_id": "9548dce0-8f44-5223-96b2-76b0bded0e67", "source_adapter": "official_nara_cia_loc_army_institutional_obituary_and_targeted_web_review", "query_text": "Paul G Mihos; OSS; Army; technical sergeant; employer; occupation; obituary", "query_variant_type": "exact_name_identifier_rank_employment_and_archival", "started_at": "2026-09-23T19:15:00Z", "completed_at": "2026-09-23T20:15:00Z", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 4, "rejection_reasons": "Namesake and obituary results lacked the protected identifier, indexed grade, or an employer chronology.", "research_notes": "Official Army identity is high confidence; no named employer was found. CIA access was unavailable and not counted as a negative result.", "next_action": "Inspect Box 523 for pre-Army employment.", "attempt_number": 4, "research_agent_version": "before-oss-batch-657-v1"},
+    {"key": "b657-wallace-mikel-reviewed-search", "person_id": "094ff396-dad4-5ef9-84cb-4302aadec235", "source_adapter": "official_nara_cia_loc_army_institutional_obituary_and_targeted_web_review", "query_text": "Wallace S Mikel; lieutenant; OSS; Army; employer; occupation 1940; obituary", "query_variant_type": "exact_name_rank_census_employment_and_archival", "started_at": "2026-09-23T19:15:00Z", "completed_at": "2026-09-23T20:15:00Z", "outcome": "source_reviewed", "sources_reviewed": 4, "candidate_sources_rejected": 4, "rejection_reasons": "A 1940 Entiat, Washington census-index namesake supplied no officer rank, military record, occupation context, or OSS bridge.", "research_notes": "No reliable identity or employer result after the minimum protocol.", "next_action": "Inspect the lieutenant's Box 523 file for branch and identity markers.", "attempt_number": 4, "research_agent_version": "before-oss-batch-657-v1"},
+    {"key": "b657-isaac-mikko-reviewed-search", "person_id": "8a138575-deaf-55c2-a3b6-b6e4db20aa98", "source_adapter": "official_nara_cia_loc_army_institutional_obituary_and_targeted_web_review", "query_text": "Isaac A Mikko; OSS; Army; employer; occupation; obituary; archive", "query_variant_type": "exact_name_identifier_employment_obituary_and_archival", "started_at": "2026-09-23T19:15:00Z", "completed_at": "2026-09-23T20:15:00Z", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 4, "rejection_reasons": "Genealogy and namesake results lacked the protected identifier, OSS context, and employer evidence.", "research_notes": "Official Army identity is high confidence; no named employer found after the bounded minimum protocol.", "next_action": "Inspect Box 523 for pre-Army employment.", "attempt_number": 4, "research_agent_version": "before-oss-batch-657-v1"},
+    {"key": "b657-johnnie-mikolas-reviewed-search", "person_id": "982efa81-5730-5688-87ec-6d18b97e9eff", "source_adapter": "official_nara_cia_loc_army_institutional_obituary_and_targeted_web_review", "query_text": "Johnnie K Mikolas; OSS; Army; employer; occupation; obituary; archive", "query_variant_type": "exact_name_identifier_employment_obituary_and_archival", "started_at": "2026-09-23T19:15:00Z", "completed_at": "2026-09-23T20:15:00Z", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 4, "rejection_reasons": "Genealogy and obituary leads lacked the protected identifier, OSS context, and employer chronology.", "research_notes": "Official Army identity is high confidence; no named employer found after the bounded minimum protocol.", "next_action": "Inspect Box 523 for pre-Army employment.", "attempt_number": 4, "research_agent_version": "before-oss-batch-657-v1"},
+    {"key": "b657-edward-mikos-reviewed-search", "person_id": "4fcbfd5c-1828-5507-abe5-50f6274f0879", "source_adapter": "official_nara_cia_loc_army_institutional_obituary_and_targeted_web_review", "query_text": "Edward A Mikos; OSS; Army; employer; occupation; obituary; cemetery", "query_variant_type": "exact_name_rank_employment_obituary_and_archival", "started_at": "2026-09-23T19:15:00Z", "completed_at": "2026-09-23T20:15:00Z", "outcome": "source_reviewed", "sources_reviewed": 4, "candidate_sources_rejected": 4, "rejection_reasons": "A cemetery listing and same-name public records lacked rank, service, protected identifier, OSS context, and employment evidence.", "research_notes": "No reliable identity or employer result; the index itself marks the row as possible.", "next_action": "Inspect the possible file in Box 523.", "attempt_number": 4, "research_agent_version": "before-oss-batch-657-v1"},
+    {"key": "b657-frances-miksic-reviewed-search", "person_id": "c3146eac-d1d0-553e-9d2b-e4ee5cb29156", "source_adapter": "official_nara_cia_loc_army_institutional_obituary_and_targeted_web_review", "query_text": "Frances M Miksic; OSS; employer 1940; occupation; obituary; directory; archive", "query_variant_type": "exact_name_employment_obituary_directory_and_archival", "started_at": "2026-09-23T19:15:00Z", "completed_at": "2026-09-23T20:15:00Z", "outcome": "source_reviewed", "sources_reviewed": 4, "candidate_sources_rejected": 5, "rejection_reasons": "Family, obituary, and modern same-name results lacked OSS context, rank or grade, and corroborating identity markers.", "research_notes": "No reliable identity or employer result after the minimum protocol.", "next_action": "Inspect Box 523 for former names and identity markers.", "attempt_number": 4, "research_agent_version": "before-oss-batch-657-v1"},
+    {"key": "b657-john-g-mikulski-reviewed-search", "person_id": "8d006353-2490-5f8b-b22a-cb6c9d1e4cb7", "source_adapter": "official_nara_cia_loc_army_institutional_obituary_and_targeted_web_review", "query_text": "John G Mikulski; OSS; Army; employer; occupation; obituary; archive", "query_variant_type": "exact_name_identifier_employment_obituary_and_archival", "started_at": "2026-09-23T19:15:00Z", "completed_at": "2026-09-23T20:15:00Z", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 6, "rejection_reasons": "Common-name veteran, genealogy, and obituary results lacked the protected identifier and employer chronology.", "research_notes": "Official Army identity is high confidence; no named employer found after the bounded minimum protocol.", "next_action": "Inspect Box 523 for pre-Army employment.", "attempt_number": 4, "research_agent_version": "before-oss-batch-657-v1"},
+    {"key": "b657-richard-mikulski-reviewed-search", "person_id": "9dd1eb14-5573-59c8-a2cc-e3ba9b559c96", "source_adapter": "official_nara_cia_loc_army_institutional_obituary_and_targeted_web_review", "query_text": "Richard M Mikulski; OSS; Army; employer; occupation; obituary; archive", "query_variant_type": "exact_name_identifier_employment_obituary_and_archival", "started_at": "2026-09-23T19:15:00Z", "completed_at": "2026-09-23T20:15:00Z", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 6, "rejection_reasons": "Common-name veteran, genealogy, and obituary results lacked the protected identifier and employer chronology.", "research_notes": "Official Army identity is high confidence; no named employer found after the bounded minimum protocol.", "next_action": "Inspect Box 523 for pre-Army employment.", "attempt_number": 4, "research_agent_version": "before-oss-batch-657-v1"},
+    {"key": "b657-james-milan-reviewed-search", "person_id": "656fa27b-0048-5c1f-8570-3e210aa2d62d", "source_adapter": "official_nara_cia_loc_army_institutional_obituary_and_targeted_web_review", "query_text": "James Milan; OSS; Army; employer; occupation; obituary; archive", "query_variant_type": "common_name_identifier_employment_obituary_and_archival", "started_at": "2026-09-23T19:15:00Z", "completed_at": "2026-09-23T20:15:00Z", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 8, "rejection_reasons": "Numerous common-name results lacked the protected identifier, rank, OSS context, or corroborating identity markers.", "research_notes": "The official Army match resolves identity at high confidence but not rank or employer.", "next_action": "Inspect Box 523 for rank and pre-Army employment.", "attempt_number": 4, "research_agent_version": "before-oss-batch-657-v1"},
+    {"key": "b657-russell-milanick-reviewed-search", "person_id": "a8d58a55-d093-51d4-a200-2acf19d11ec3", "source_adapter": "official_nara_cia_loc_army_institutional_obituary_and_targeted_web_review", "query_text": "Russell S Milanick; Russell Samuel Milanich; lieutenant; OSS; employer; obituary", "query_variant_type": "exact_name_surname_variant_rank_employment_and_archival", "started_at": "2026-09-23T19:15:00Z", "completed_at": "2026-09-23T20:15:00Z", "outcome": "source_reviewed", "sources_reviewed": 4, "candidate_sources_rejected": 4, "rejection_reasons": "Cemetery and genealogy leads lacked the indexed lieutenant rank, military chronology, employer evidence, and an OSS bridge.", "research_notes": "No reliable identity or employer result after the minimum protocol.", "next_action": "Inspect Box 523 for branch, spelling, and identity markers.", "attempt_number": 4, "research_agent_version": "before-oss-batch-657-v1"},
+    {"key": "b657-louis-milas-reviewed-search", "person_id": "fd2d1fe7-e8ed-53a9-bcc6-dc683edf7a09", "source_adapter": "official_nara_cia_loc_army_institutional_obituary_and_targeted_web_review", "query_text": "Louis G Milas; OSS; Army; employer; occupation; obituary; archive", "query_variant_type": "exact_name_identifier_employment_obituary_and_archival", "started_at": "2026-09-23T19:15:00Z", "completed_at": "2026-09-23T20:15:00Z", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 5, "rejection_reasons": "Namesake veteran, genealogy, and obituary results lacked the protected identifier and employer chronology.", "research_notes": "Official Army identity is high confidence; no named employer found after the bounded minimum protocol.", "next_action": "Inspect Box 523 for pre-Army employment.", "attempt_number": 4, "research_agent_version": "before-oss-batch-657-v1"},
+    {"key": "b657-tony-milazzo-reviewed-search", "person_id": "86337551-2275-590f-a94c-9d455d674c0c", "source_adapter": "official_nara_cia_loc_army_institutional_obituary_and_targeted_web_review", "query_text": "Tony J Milazzo; OSS; Army; employer; occupation; obituary; archive", "query_variant_type": "exact_name_identifier_employment_obituary_and_archival", "started_at": "2026-09-23T19:15:00Z", "completed_at": "2026-09-23T20:15:00Z", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 5, "rejection_reasons": "Namesake genealogy and obituary results lacked the protected identifier, OSS context, and employer evidence.", "research_notes": "Official Army identity is high confidence; no named employer found after the bounded minimum protocol.", "next_action": "Inspect Box 523 for pre-Army employment.", "attempt_number": 4, "research_agent_version": "before-oss-batch-657-v1"},
+    {"key": "b657-eugene-milbauer-reviewed-search", "person_id": "c52c9899-f878-583a-9272-585511b23f88", "source_adapter": "official_nara_cia_loc_army_institutional_obituary_and_targeted_web_review", "query_text": "Eugene Milbauer; OSS; Army; employer; occupation; obituary; archive", "query_variant_type": "distinctive_name_identifier_employment_obituary_and_archival", "started_at": "2026-09-23T19:15:00Z", "completed_at": "2026-09-23T20:15:00Z", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 4, "rejection_reasons": "Namesake and genealogy results lacked the protected identifier, OSS context, and employer evidence.", "research_notes": "Official Army identity is high confidence; no named employer found after the bounded minimum protocol.", "next_action": "Inspect Box 523 for pre-Army employment.", "attempt_number": 4, "research_agent_version": "before-oss-batch-657-v1"}
+  ]
+}
