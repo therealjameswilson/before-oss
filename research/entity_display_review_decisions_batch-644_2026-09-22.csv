@@ -1,0 +1,2 @@
+target_type,target_id,decision,rationale,reviewer,decision_version
+person_entity,8829fd35-280c-54c2-8348-ca57b8befb3d,"display_name:{""expected"":""Sergei, Dr. Elisseeff"",""replacement"":""Sergei Elisseeff""}","Move the honorific printed in the source row out of the normalized entity display name while preserving the indexed form and all documented variants. This presentation correction does not alter the immutable source record or identity assessment.",Before OSS batch 644 reproducibility review,batch-644-display-v1

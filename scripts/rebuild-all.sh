@@ -6,8 +6,18 @@ cd "$project_dir"
 
 python3 -m oss_research provenance
 python3 -m oss_research ingest --pdf data/source/personnel-database.pdf
-python3 -m oss_research import-page-reviews \
-  research/parser_visual_review_decisions.json
+for page_review_bundle in research/parser_visual_review*.json; do
+  if [[ ! -f "$page_review_bundle" ]]; then
+    continue
+  fi
+  filename="${page_review_bundle##*/}"
+  # Finder-style duplicate copies are user-owned local files, not durable
+  # review bundles. Excluding them keeps a clean rebuild deterministic.
+  if [[ "$filename" == *" 2.json" ]]; then
+    continue
+  fi
+  python3 -m oss_research import-page-reviews "$page_review_bundle"
+done
 python3 -m oss_research validate-ingest --pdf data/source/personnel-database.pdf
 python3 -m oss_research build-identities
 python3 -m oss_research create-pilot --size 75 --batch-name pilot-v1
@@ -42,6 +52,11 @@ done < <(
     printf '%04d\t%s\n' "$batch_number" "$evidence_bundle"
   done | sort -t $'\t' -k1,1n -k2,2
 )
+# Reapply the exported adapter-era person statuses after chronological evidence
+# replay. Candidate rows must exist before review decisions, while this second
+# idempotent pass makes the current queue state exactly reconstructible.
+python3 -m oss_research import-adapter-checkpoints \
+  research/adapter_attempt_checkpoints.json
 python3 -m oss_research export-derived
 python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data

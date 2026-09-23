@@ -1,0 +1,218 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 644 page 313 source and identity review",
+  "sources": [
+    {
+      "key": "nara-index-page313-b644",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 512-513",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 313, printed rows 24-46; source page reviewed against the original index; archival location 230/86/36/06",
+      "access_date": "2026-09-22",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Indexed spellings, ranks, duplicate boundaries, and variants are retained. Full protected identifiers remain private and are excluded from public output."
+    },
+    {
+      "key": "army-b580-b644",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; fixed-width name and protected-identifier crosswalk; private candidate records retain record ordinals",
+      "access_date": "2026-09-22",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "This is official bulk data, not a Catalog API response. Army grade, entry date, and occupation codes are identity context, not named employers; full identifiers and raw records are excluded."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-robert-e-mcpeek-army-b644",
+      "person_id": "bac64720-9ef7-5214-a8cc-9c9ce36f5c0b",
+      "claim_type": "identity",
+      "claim_text": "The indexed Technician Fifth Grade Robert E. McPeek has a high-confidence match to an official Army entry.",
+      "evidence_paraphrase": "The full name and a nonshared protected identifier agree after normalization of fixed-width MC PEEK surname spacing.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity crosswalk only. Army grade, entry date, and occupation code are not employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-page313-b644", "locator_override": "PDF page 313, row 29, Box 512"},
+        {"source_key": "army-b580-b644", "locator_override": "Official bulk record ordinal 3184551; protected identifier and fixed-width name comparison"}
+      ]
+    },
+    {
+      "key": "identity-james-f-mcpoil-army-b644",
+      "person_id": "aeb8dbfb-dd81-5af9-b2e6-e039657363bd",
+      "claim_type": "identity",
+      "claim_text": "The indexed Private First Class James F. McPoil has a high-confidence match to an official Army entry.",
+      "evidence_paraphrase": "The full name and a nonshared protected identifier agree after normalization of fixed-width MC POIL surname spacing.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity crosswalk only. Army grade, entry date, and occupation code are not employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-page313-b644", "locator_override": "PDF page 313, row 34, Box 512"},
+        {"source_key": "army-b580-b644", "locator_override": "Official bulk record ordinal 8284203; protected identifier and fixed-width name comparison"}
+      ]
+    },
+    {
+      "key": "identity-robert-c-mcqueen-army-b644",
+      "person_id": "f8ac2b72-b2e3-5e10-9987-0bf833536f26",
+      "claim_type": "identity",
+      "claim_text": "The indexed Private Robert C. McQueen has a high-confidence match to an official Army entry.",
+      "evidence_paraphrase": "The full name and a nonshared protected identifier agree after normalization of fixed-width MC QUEEN surname spacing; the Army grade field differs or is malformed.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match; the grade discrepancy remains review context.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The grade discrepancy does not become employment evidence and should be checked in Box 512.",
+      "sources": [
+        {"source_key": "nara-index-page313-b644", "locator_override": "PDF page 313, row 36, Box 512"},
+        {"source_key": "army-b580-b644", "locator_override": "Official bulk record ordinal 395232; protected identifier, fixed-width name, and grade-field comparison"}
+      ]
+    },
+    {
+      "key": "identity-donald-s-mcvannel-army-b644",
+      "person_id": "c8c087ec-782f-56cd-a71f-a8d7da152c27",
+      "claim_type": "identity",
+      "claim_text": "The indexed Corporal Donald S. McVannel has a high-confidence match to an official Army entry.",
+      "evidence_paraphrase": "The full name and a nonshared protected identifier agree after normalization of fixed-width MC VANNEL surname spacing; the Army grade reflects a different record date.",
+      "identity_match_assessment": "High confidence from exact normalized full-name agreement and a unique protected-identifier match.",
+      "temporal_assessment": "The Army entry establishes wartime identity context but not an immediate pre-OSS assignment or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity crosswalk only. Rank can change over time; Army codes are not employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-page313-b644", "locator_override": "PDF page 313, row 46, Box 513"},
+        {"source_key": "army-b580-b644", "locator_override": "Official bulk record ordinal 6994976; protected identifier and fixed-width name comparison"}
+      ]
+    },
+    {
+      "key": "identity-thomas-e-mcparland-probable-duplicate-b644",
+      "person_id": "baf6c6b1-c49b-5ffd-b858-514918dfce35",
+      "claim_type": "identity",
+      "claim_text": "Indexed Lieutenant Thomas E. McParland probably represents the same person as the adjacent Thomas E. McPharland row, but remains a separate person entity.",
+      "evidence_paraphrase": "The adjacent Box 512 rows share a protected identifier while surname spelling and rank occupancy differ.",
+      "identity_match_assessment": "Probable duplicate relationship, not a merge: the shared identifier is strong but the two indexed jackets require examination.",
+      "temporal_assessment": "The comparison concerns identity resolution only and establishes no pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Both source rows and person entities remain preserved under duplicate group serial-conflict:1041397; the identifier itself is private.",
+      "sources": [
+        {"source_key": "nara-index-page313-b644", "locator_override": "PDF page 313, rows 26 and 30, Box 512"}
+      ]
+    },
+    {
+      "key": "identity-thomas-e-mcpharland-probable-duplicate-b644",
+      "person_id": "5a7c2989-51bc-5df9-a02c-644959675d47",
+      "claim_type": "identity",
+      "claim_text": "Indexed Thomas E. McPharland probably represents the same person as the adjacent Lieutenant Thomas E. McParland row, but remains a separate person entity.",
+      "evidence_paraphrase": "The adjacent Box 512 rows share a protected identifier while surname spelling and rank occupancy differ.",
+      "identity_match_assessment": "Probable duplicate relationship, not a merge: the shared identifier is strong but the two indexed jackets require examination.",
+      "temporal_assessment": "The comparison concerns identity resolution only and establishes no pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Both source rows and person entities remain preserved under duplicate group serial-conflict:1041397; the identifier itself is private.",
+      "sources": [
+        {"source_key": "nara-index-page313-b644", "locator_override": "PDF page 313, rows 26 and 30, Box 512"}
+      ]
+    },
+    {
+      "key": "identity-joann-w-mcquiston-probable-duplicate-b644",
+      "person_id": "79e0abb6-1bc6-5caa-b381-a51a3a54a4a8",
+      "claim_type": "identity",
+      "claim_text": "Indexed Joann W. McQuiston may represent the same person as the adjacent Joanne W. Mcquiston P-3 row, but remains a separate person entity.",
+      "evidence_paraphrase": "The adjacent Box 513 rows differ only in final-e and capitalization, while only one row records a civilian grade.",
+      "identity_match_assessment": "Probable duplicate relationship, not a merge: close spelling and adjacency are meaningful but no shared protected identifier resolves the two jackets.",
+      "temporal_assessment": "The comparison concerns identity resolution only and establishes no pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Both source rows and person entities remain preserved pending examination of both Box 513 jackets.",
+      "sources": [
+        {"source_key": "nara-index-page313-b644", "locator_override": "PDF page 313, rows 40 and 41, Box 513"}
+      ]
+    },
+    {
+      "key": "identity-joanne-w-mcquiston-probable-duplicate-b644",
+      "person_id": "1af9856d-8712-5210-b55b-c11c6b2d64b1",
+      "claim_type": "identity",
+      "claim_text": "Indexed Joanne W. Mcquiston P-3 may represent the same person as the adjacent Joann W. McQuiston row, but remains a separate person entity.",
+      "evidence_paraphrase": "The adjacent Box 513 rows differ only in final-e and capitalization, while only this row records a civilian grade.",
+      "identity_match_assessment": "Probable duplicate relationship, not a merge: close spelling and adjacency are meaningful but no shared protected identifier resolves the two jackets.",
+      "temporal_assessment": "The comparison concerns identity resolution only and establishes no pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Both source rows and person entities remain preserved pending examination of both Box 513 jackets.",
+      "sources": [
+        {"source_key": "nara-index-page313-b644", "locator_override": "PDF page 313, rows 40 and 41, Box 513"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {"person_id": "a3a81cec-0d47-560c-a3a5-09595b868488", "identity_status": "unresolved", "manual_review_required": true, "research_status": "in_progress", "next_action": "Continue the minimum protocol and inspect Box 512 for identity, chronology, and a named pre-OSS employer or assignment.", "archival_review_priority": "high"},
+    {"person_id": "5bbe802a-dcb6-5207-a038-ecbb77f515e7", "identity_status": "unresolved", "manual_review_required": true, "research_status": "in_progress", "next_action": "Continue the minimum protocol and inspect Box 512 for identity, chronology, and a named pre-OSS employer or assignment.", "archival_review_priority": "high"},
+    {"person_id": "baf6c6b1-c49b-5ffd-b858-514918dfce35", "identity_status": "probable", "identity_evidence": "The adjacent McParland and McPharland rows share a protected identifier but differ in indexed spelling and rank occupancy; both entities remain separate.", "manual_review_required": true, "possible_duplicate_group": "serial-conflict:1041397", "research_status": "needs_identity_review", "next_action": "Inspect both Box 512 jackets before merging records or assigning employment evidence.", "archival_review_priority": "critical"},
+    {"person_id": "530efde3-45c5-5e7b-b3e1-877aeb723a22", "identity_status": "unresolved", "manual_review_required": true, "research_status": "in_progress", "next_action": "Continue the minimum protocol and inspect Box 512 for identity, chronology, and a named pre-OSS employer or assignment.", "archival_review_priority": "high"},
+    {"person_id": "f47465c8-faff-5a55-b514-928527258983", "identity_status": "unresolved", "manual_review_required": true, "research_status": "in_progress", "next_action": "Continue the minimum protocol and inspect Box 512 for identity, chronology, and a named pre-OSS employer or assignment.", "archival_review_priority": "high"},
+    {"person_id": "bac64720-9ef7-5214-a8cc-9c9ce36f5c0b", "identity_status": "high_confidence", "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC PEEK spacing and in a nonshared protected identifier.", "manual_review_required": false, "research_status": "in_progress", "next_action": "Continue the minimum protocol and inspect Box 512 for chronology and a named pre-OSS employer or assignment.", "archival_review_priority": "high"},
+    {"person_id": "5a7c2989-51bc-5df9-a02c-644959675d47", "identity_status": "probable", "identity_evidence": "The adjacent McPharland and McParland rows share a protected identifier but differ in indexed spelling and rank occupancy; both entities remain separate.", "manual_review_required": true, "possible_duplicate_group": "serial-conflict:1041397", "research_status": "needs_identity_review", "next_action": "Inspect both Box 512 jackets before merging records or assigning employment evidence.", "archival_review_priority": "critical"},
+    {"person_id": "9df1aa20-e89d-5a64-aab5-55455c13fb7b", "identity_status": "unresolved", "manual_review_required": true, "research_status": "in_progress", "next_action": "Continue the minimum protocol and inspect Box 512 for identity, chronology, and a named pre-OSS employer or assignment.", "archival_review_priority": "high"},
+    {"person_id": "131e916c-7403-5982-8d40-cf71e614c2e6", "identity_status": "unresolved", "manual_review_required": true, "research_status": "in_progress", "next_action": "Continue the minimum protocol and inspect Box 512 for identity, chronology, and a named pre-OSS employer or assignment.", "archival_review_priority": "high"},
+    {"person_id": "a400ecf6-b26a-5c00-8020-64ef702e51d7", "identity_status": "unresolved", "manual_review_required": true, "research_status": "in_progress", "next_action": "Continue the minimum protocol and inspect Box 512 for identity, chronology, and a named pre-OSS employer or assignment.", "archival_review_priority": "high"},
+    {"person_id": "aeb8dbfb-dd81-5af9-b2e6-e039657363bd", "identity_status": "high_confidence", "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC POIL spacing and in a nonshared protected identifier.", "manual_review_required": false, "research_status": "in_progress", "next_action": "Continue the minimum protocol and inspect Box 512 for chronology and a named pre-OSS employer or assignment.", "archival_review_priority": "high"},
+    {"person_id": "37fda173-2b83-5347-a547-6bdc147ed920", "identity_status": "unresolved", "manual_review_required": true, "research_status": "in_progress", "next_action": "Continue the minimum protocol and inspect Box 512 for identity, chronology, and a named pre-OSS employer or assignment.", "archival_review_priority": "high"},
+    {"person_id": "f8ac2b72-b2e3-5e10-9987-0bf833536f26", "identity_status": "high_confidence", "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC QUEEN spacing and in a nonshared protected identifier; the discrepant Army grade remains review context.", "manual_review_required": false, "research_status": "in_progress", "next_action": "Continue the minimum protocol and inspect Box 512 for the grade chronology and a named pre-OSS employer or assignment.", "archival_review_priority": "high"},
+    {"person_id": "e27aa046-5f94-560e-a96b-f394622fcf70", "identity_status": "unresolved", "manual_review_required": true, "research_status": "in_progress", "next_action": "Continue the minimum protocol and inspect Box 513 for identity, chronology, and a named pre-OSS employer or assignment.", "archival_review_priority": "high"},
+    {"person_id": "1754702d-ffc5-5766-89b3-aaa17ae8ed90", "identity_status": "unresolved", "manual_review_required": true, "research_status": "in_progress", "next_action": "Continue the minimum protocol and inspect Box 513 for identity, chronology, and a named pre-OSS employer or assignment.", "archival_review_priority": "high"},
+    {"person_id": "f56204ea-51f3-5f3e-9b15-af5f696aacd7", "identity_status": "unresolved", "manual_review_required": true, "research_status": "in_progress", "next_action": "Continue the minimum protocol and inspect Box 513 for identity, chronology, and a named pre-OSS employer or assignment.", "archival_review_priority": "high"},
+    {"person_id": "79e0abb6-1bc6-5caa-b381-a51a3a54a4a8", "identity_status": "probable", "identity_evidence": "The adjacent Joann and Joanne McQuiston rows have nearly identical names and share Box 513, but no protected identifier resolves whether they are one person.", "manual_review_required": true, "possible_duplicate_group": "adjacent-name-variant:joann-joanne-w-mcquiston-page313", "research_status": "needs_identity_review", "next_action": "Inspect both Box 513 jackets before merging records or assigning employment evidence.", "archival_review_priority": "critical"},
+    {"person_id": "1af9856d-8712-5210-b55b-c11c6b2d64b1", "identity_status": "probable", "identity_evidence": "The adjacent Joanne and Joann McQuiston rows have nearly identical names and share Box 513, but no protected identifier resolves whether they are one person.", "manual_review_required": true, "possible_duplicate_group": "adjacent-name-variant:joann-joanne-w-mcquiston-page313", "research_status": "needs_identity_review", "next_action": "Inspect both Box 513 jackets before merging records or assigning employment evidence.", "archival_review_priority": "critical"},
+    {"person_id": "c8b8cd04-de56-55ef-b93b-0f4e1dab4e38", "identity_status": "unresolved", "manual_review_required": true, "research_status": "in_progress", "next_action": "Continue the minimum protocol and inspect Box 513 for identity, chronology, and a named pre-OSS employer or assignment.", "archival_review_priority": "high"},
+    {"person_id": "5ee7e74b-004e-5762-8e5a-3f80d3ccae4e", "identity_status": "unresolved", "manual_review_required": true, "research_status": "in_progress", "next_action": "Continue the minimum protocol and inspect Box 513 for identity, chronology, and a named pre-OSS employer or assignment.", "archival_review_priority": "high"},
+    {"person_id": "71c2f9d7-2801-51c0-90a9-ea40697b7d30", "identity_status": "unresolved", "manual_review_required": true, "research_status": "in_progress", "next_action": "Continue the minimum protocol and inspect Box 513 for identity, chronology, and a named pre-OSS employer or assignment.", "archival_review_priority": "high"},
+    {"person_id": "ef9e2fbb-80d8-51e5-af75-3b794eae6752", "identity_status": "unresolved", "manual_review_required": true, "research_status": "in_progress", "next_action": "Continue the minimum protocol and inspect Box 513 for identity, chronology, and a named pre-OSS employer or assignment; discard namesake-only discovery results.", "archival_review_priority": "high"},
+    {"person_id": "c8c087ec-782f-56cd-a71f-a8d7da152c27", "identity_status": "high_confidence", "identity_evidence": "The index and official Army bulk entry agree in full name after normalization of fixed-width MC VANNEL spacing and in a nonshared protected identifier.", "manual_review_required": false, "research_status": "in_progress", "next_action": "Continue the minimum protocol and inspect Box 513 for chronology and a named pre-OSS employer or assignment.", "archival_review_priority": "high"}
+  ],
+  "research_attempts": [
+    {"key": "batch644-john-f-mcpadden-web-review", "person_id": "a3a81cec-0d47-560c-a3a5-09595b868488", "source_adapter": "targeted_public_web_discovery", "query_text": "Exact-name OSS and employment discovery searches for John F McPadden", "query_variant_type": "exact_name_oss_and_employment", "started_at": "2026-09-23T00:03:00Z", "completed_at": "2026-09-23T00:12:00Z", "outcome": "no_result", "sources_reviewed": 0, "candidate_sources_rejected": 0, "research_notes": "No reliable identity or pre-OSS affiliation candidate was found; search snippets were not treated as evidence.", "next_action": "Continue the minimum protocol and inspect Box 512.", "attempt_number": 2, "research_agent_version": "codex-reviewed-evidence-v1"},
+    {"key": "batch644-thomas-h-mcpadden-web-review", "person_id": "5bbe802a-dcb6-5207-a038-ecbb77f515e7", "source_adapter": "targeted_public_web_discovery", "query_text": "Exact-name OSS and employment discovery searches for Thomas H McPadden", "query_variant_type": "exact_name_oss_and_employment", "started_at": "2026-09-23T00:03:00Z", "completed_at": "2026-09-23T00:12:00Z", "outcome": "no_result", "sources_reviewed": 0, "candidate_sources_rejected": 0, "research_notes": "No reliable identity or pre-OSS affiliation candidate was found; search snippets were not treated as evidence.", "next_action": "Continue the minimum protocol and inspect Box 512.", "attempt_number": 2, "research_agent_version": "codex-reviewed-evidence-v1"},
+    {"key": "batch644-thomas-e-mcparland-duplicate-review", "person_id": "baf6c6b1-c49b-5ffd-b858-514918dfce35", "source_adapter": "index_duplicate_boundary_review", "query_text": "Review adjacent index rows for Thomas E McParland and Thomas E McPharland", "query_variant_type": "protected_identifier_duplicate_resolution_review", "started_at": "2026-09-23T00:03:00Z", "completed_at": "2026-09-23T00:12:00Z", "outcome": "source_reviewed", "sources_reviewed": 1, "candidate_sources_rejected": 0, "research_notes": "A shared protected identifier supports a probable duplicate relationship, but spelling and rank occupancy differ and both entities remain separate.", "next_action": "Inspect both Box 512 jackets before merging or assigning employment evidence.", "attempt_number": 2, "research_agent_version": "codex-reviewed-evidence-v1"},
+    {"key": "batch644-joan-h-mcpeak-web-review", "person_id": "530efde3-45c5-5e7b-b3e1-877aeb723a22", "source_adapter": "targeted_public_web_discovery", "query_text": "Exact-name OSS and employment discovery searches for Joan H McPeak", "query_variant_type": "exact_name_oss_and_employment", "started_at": "2026-09-23T00:03:00Z", "completed_at": "2026-09-23T00:12:00Z", "outcome": "no_result", "sources_reviewed": 0, "candidate_sources_rejected": 0, "research_notes": "No reliable identity or pre-OSS affiliation candidate was found; search snippets were not treated as evidence.", "next_action": "Continue the minimum protocol and inspect Box 512.", "attempt_number": 2, "research_agent_version": "codex-reviewed-evidence-v1"},
+    {"key": "batch644-eleanor-c-mcpeck-web-review", "person_id": "f47465c8-faff-5a55-b514-928527258983", "source_adapter": "targeted_public_web_discovery", "query_text": "Exact-name OSS and employment discovery searches for Eleanor C McPeck", "query_variant_type": "exact_name_oss_and_employment", "started_at": "2026-09-23T00:03:00Z", "completed_at": "2026-09-23T00:12:00Z", "outcome": "no_result", "sources_reviewed": 0, "candidate_sources_rejected": 0, "research_notes": "No reliable identity or pre-OSS affiliation candidate was found; search snippets were not treated as evidence.", "next_action": "Continue the minimum protocol and inspect Box 512.", "attempt_number": 2, "research_agent_version": "codex-reviewed-evidence-v1"},
+    {"key": "batch644-robert-e-mcpeek-army-web-review", "person_id": "bac64720-9ef7-5214-a8cc-9c9ce36f5c0b", "source_adapter": "army_bulk_and_targeted_web_review", "query_text": "Review the official Army protected-identifier candidate and exact-name web discovery for Robert E McPeek", "query_variant_type": "identity_and_exact_name_review", "started_at": "2026-09-23T00:03:00Z", "completed_at": "2026-09-23T00:12:00Z", "outcome": "source_reviewed", "sources_reviewed": 1, "candidate_sources_rejected": 0, "research_notes": "The Army crosswalk supports identity only; no reliable named employer was found.", "next_action": "Continue the minimum protocol and inspect Box 512.", "attempt_number": 2, "research_agent_version": "codex-reviewed-evidence-v1"},
+    {"key": "batch644-thomas-e-mcpharland-duplicate-review", "person_id": "5a7c2989-51bc-5df9-a02c-644959675d47", "source_adapter": "index_duplicate_boundary_review", "query_text": "Review adjacent index rows for Thomas E McPharland and Thomas E McParland", "query_variant_type": "protected_identifier_duplicate_resolution_review", "started_at": "2026-09-23T00:03:00Z", "completed_at": "2026-09-23T00:12:00Z", "outcome": "source_reviewed", "sources_reviewed": 1, "candidate_sources_rejected": 0, "research_notes": "A shared protected identifier supports a probable duplicate relationship, but spelling and rank occupancy differ and both entities remain separate.", "next_action": "Inspect both Box 512 jackets before merging or assigning employment evidence.", "attempt_number": 2, "research_agent_version": "codex-reviewed-evidence-v1"},
+    {"key": "batch644-william-g-mcpheat-web-review", "person_id": "9df1aa20-e89d-5a64-aab5-55455c13fb7b", "source_adapter": "targeted_public_web_discovery", "query_text": "Exact-name OSS and employment discovery searches for William G McPheat", "query_variant_type": "exact_name_oss_and_employment", "started_at": "2026-09-23T00:03:00Z", "completed_at": "2026-09-23T00:12:00Z", "outcome": "no_result", "sources_reviewed": 0, "candidate_sources_rejected": 0, "research_notes": "No reliable identity or pre-OSS affiliation candidate was found; search snippets were not treated as evidence.", "next_action": "Continue the minimum protocol and inspect Box 512.", "attempt_number": 2, "research_agent_version": "codex-reviewed-evidence-v1"},
+    {"key": "batch644-frances-p-mcpherson-web-review", "person_id": "131e916c-7403-5982-8d40-cf71e614c2e6", "source_adapter": "targeted_public_web_discovery", "query_text": "Exact-name OSS and employment discovery searches for Frances P McPherson", "query_variant_type": "exact_name_oss_and_employment", "started_at": "2026-09-23T00:03:00Z", "completed_at": "2026-09-23T00:12:00Z", "outcome": "no_result", "sources_reviewed": 0, "candidate_sources_rejected": 0, "research_notes": "No reliable identity or pre-OSS affiliation candidate was found; search snippets were not treated as evidence.", "next_action": "Continue the minimum protocol and inspect Box 512.", "attempt_number": 2, "research_agent_version": "codex-reviewed-evidence-v1"},
+    {"key": "batch644-walter-n-mcpherson-web-review", "person_id": "a400ecf6-b26a-5c00-8020-64ef702e51d7", "source_adapter": "targeted_public_web_discovery", "query_text": "Exact-name OSS and employment discovery searches for Walter N McPherson", "query_variant_type": "exact_name_oss_and_employment", "started_at": "2026-09-23T00:03:00Z", "completed_at": "2026-09-23T00:12:00Z", "outcome": "no_result", "sources_reviewed": 0, "candidate_sources_rejected": 0, "research_notes": "Search results concerned unrelated names or generic OSS context and supplied no identity bridge or pre-OSS affiliation evidence.", "next_action": "Continue the minimum protocol and inspect Box 512.", "attempt_number": 2, "research_agent_version": "codex-reviewed-evidence-v1"},
+    {"key": "batch644-james-f-mcpoil-army-web-review", "person_id": "aeb8dbfb-dd81-5af9-b2e6-e039657363bd", "source_adapter": "army_bulk_and_targeted_web_review", "query_text": "Review the official Army protected-identifier candidate and exact-name web discovery for James F McPoil", "query_variant_type": "identity_and_exact_name_review", "started_at": "2026-09-23T00:03:00Z", "completed_at": "2026-09-23T00:12:00Z", "outcome": "source_reviewed", "sources_reviewed": 1, "candidate_sources_rejected": 0, "research_notes": "The Army crosswalk supports identity only; no reliable named employer was found.", "next_action": "Continue the minimum protocol and inspect Box 512.", "attempt_number": 2, "research_agent_version": "codex-reviewed-evidence-v1"},
+    {"key": "batch644-raymond-c-mcquade-web-review", "person_id": "37fda173-2b83-5347-a547-6bdc147ed920", "source_adapter": "targeted_public_web_discovery", "query_text": "Exact-name OSS and employment discovery searches for Raymond C McQuade", "query_variant_type": "exact_name_oss_and_employment", "started_at": "2026-09-23T00:03:00Z", "completed_at": "2026-09-23T00:12:00Z", "outcome": "no_result", "sources_reviewed": 0, "candidate_sources_rejected": 0, "research_notes": "No reliable identity or pre-OSS affiliation candidate was found; search snippets were not treated as evidence.", "next_action": "Continue the minimum protocol and inspect Box 512.", "attempt_number": 2, "research_agent_version": "codex-reviewed-evidence-v1"},
+    {"key": "batch644-robert-c-mcqueen-army-web-review", "person_id": "f8ac2b72-b2e3-5e10-9987-0bf833536f26", "source_adapter": "army_bulk_and_targeted_web_review", "query_text": "Review the official Army protected-identifier candidate and exact-name web discovery for Robert C McQueen", "query_variant_type": "identity_and_exact_name_review", "started_at": "2026-09-23T00:03:00Z", "completed_at": "2026-09-23T00:12:00Z", "outcome": "source_reviewed", "sources_reviewed": 1, "candidate_sources_rejected": 0, "research_notes": "The Army crosswalk supports identity only; unrelated McQueen results were discarded and no reliable named employer was found.", "next_action": "Continue the minimum protocol and inspect Box 512.", "attempt_number": 2, "research_agent_version": "codex-reviewed-evidence-v1"},
+    {"key": "batch644-wesley-h-mcqueen-web-review", "person_id": "e27aa046-5f94-560e-a96b-f394622fcf70", "source_adapter": "targeted_public_web_discovery", "query_text": "Exact-name OSS and employment discovery searches for Wesley H McQueen", "query_variant_type": "exact_name_oss_and_employment", "started_at": "2026-09-23T00:03:00Z", "completed_at": "2026-09-23T00:12:00Z", "outcome": "no_result", "sources_reviewed": 0, "candidate_sources_rejected": 0, "research_notes": "No reliable identity or pre-OSS affiliation candidate was found; search snippets were not treated as evidence.", "next_action": "Continue the minimum protocol and inspect Box 513.", "attempt_number": 2, "research_agent_version": "codex-reviewed-evidence-v1"},
+    {"key": "batch644-robert-h-mcquilkin-web-review", "person_id": "1754702d-ffc5-5766-89b3-aaa17ae8ed90", "source_adapter": "targeted_public_web_discovery", "query_text": "Exact-name OSS and employment discovery searches for Robert H McQuilkin", "query_variant_type": "exact_name_oss_and_employment", "started_at": "2026-09-23T00:03:00Z", "completed_at": "2026-09-23T00:12:00Z", "outcome": "no_result", "sources_reviewed": 0, "candidate_sources_rejected": 0, "research_notes": "No reliable identity or pre-OSS affiliation candidate was found; search snippets were not treated as evidence.", "next_action": "Continue the minimum protocol and inspect Box 513.", "attempt_number": 2, "research_agent_version": "codex-reviewed-evidence-v1"},
+    {"key": "batch644-gerald-mcquinn-web-review", "person_id": "f56204ea-51f3-5f3e-9b15-af5f696aacd7", "source_adapter": "targeted_public_web_discovery", "query_text": "Exact-name OSS and employment discovery searches for Gerald McQuinn", "query_variant_type": "exact_name_oss_and_employment", "started_at": "2026-09-23T00:03:00Z", "completed_at": "2026-09-23T00:12:00Z", "outcome": "no_result", "sources_reviewed": 0, "candidate_sources_rejected": 0, "research_notes": "No reliable identity or pre-OSS affiliation candidate was found; search snippets were not treated as evidence.", "next_action": "Continue the minimum protocol and inspect Box 513.", "attempt_number": 2, "research_agent_version": "codex-reviewed-evidence-v1"},
+    {"key": "batch644-joann-w-mcquiston-duplicate-review", "person_id": "79e0abb6-1bc6-5caa-b381-a51a3a54a4a8", "source_adapter": "index_duplicate_boundary_review", "query_text": "Review adjacent index rows for Joann W McQuiston and Joanne W Mcquiston", "query_variant_type": "adjacent_name_variant_review", "started_at": "2026-09-23T00:03:00Z", "completed_at": "2026-09-23T00:12:00Z", "outcome": "source_reviewed", "sources_reviewed": 1, "candidate_sources_rejected": 0, "research_notes": "Nearly identical adjacent names support a probable duplicate relationship, but no protected identifier resolves the two jackets and both entities remain separate.", "next_action": "Inspect both Box 513 jackets before merging or assigning employment evidence.", "attempt_number": 2, "research_agent_version": "codex-reviewed-evidence-v1"},
+    {"key": "batch644-joanne-w-mcquiston-duplicate-review", "person_id": "1af9856d-8712-5210-b55b-c11c6b2d64b1", "source_adapter": "index_duplicate_boundary_review", "query_text": "Review adjacent index rows for Joanne W Mcquiston and Joann W McQuiston", "query_variant_type": "adjacent_name_variant_review", "started_at": "2026-09-23T00:03:00Z", "completed_at": "2026-09-23T00:12:00Z", "outcome": "source_reviewed", "sources_reviewed": 1, "candidate_sources_rejected": 0, "research_notes": "Nearly identical adjacent names support a probable duplicate relationship, but no protected identifier resolves the two jackets and both entities remain separate.", "next_action": "Inspect both Box 513 jackets before merging or assigning employment evidence.", "attempt_number": 2, "research_agent_version": "codex-reviewed-evidence-v1"},
+    {"key": "batch644-donald-g-mcrae-web-review", "person_id": "c8b8cd04-de56-55ef-b93b-0f4e1dab4e38", "source_adapter": "targeted_public_web_discovery", "query_text": "Exact-name OSS and employment discovery searches for Donald G McRae", "query_variant_type": "exact_name_oss_and_employment", "started_at": "2026-09-23T00:03:00Z", "completed_at": "2026-09-23T00:12:00Z", "outcome": "no_result", "sources_reviewed": 0, "candidate_sources_rejected": 0, "research_notes": "The LoC adapter timed out and CIA stopped at robots policy; targeted discovery returned unrelated names and no reliable identity or affiliation candidate.", "next_action": "Continue the minimum protocol and inspect Box 513.", "attempt_number": 4, "research_agent_version": "codex-reviewed-evidence-v1"},
+    {"key": "batch644-ruby-h-mcshane-web-review", "person_id": "5ee7e74b-004e-5762-8e5a-3f80d3ccae4e", "source_adapter": "targeted_public_web_discovery", "query_text": "Exact-name OSS and employment discovery searches for Ruby H McShane", "query_variant_type": "exact_name_oss_and_employment", "started_at": "2026-09-23T00:03:00Z", "completed_at": "2026-09-23T00:12:00Z", "outcome": "no_result", "sources_reviewed": 0, "candidate_sources_rejected": 0, "research_notes": "No reliable identity or pre-OSS affiliation candidate was found; search snippets were not treated as evidence.", "next_action": "Continue the minimum protocol and inspect Box 513.", "attempt_number": 2, "research_agent_version": "codex-reviewed-evidence-v1"},
+    {"key": "batch644-francis-j-mcswiggin-web-review", "person_id": "71c2f9d7-2801-51c0-90a9-ea40697b7d30", "source_adapter": "targeted_public_web_discovery", "query_text": "Exact-name OSS and employment discovery searches for Francis J McSwiggin", "query_variant_type": "exact_name_oss_and_employment", "started_at": "2026-09-23T00:03:00Z", "completed_at": "2026-09-23T00:12:00Z", "outcome": "no_result", "sources_reviewed": 0, "candidate_sources_rejected": 0, "research_notes": "No reliable identity or pre-OSS affiliation candidate was found; search snippets were not treated as evidence.", "next_action": "Continue the minimum protocol and inspect Box 513.", "attempt_number": 2, "research_agent_version": "codex-reviewed-evidence-v1"},
+    {"key": "batch644-helen-m-mcternan-web-review", "person_id": "ef9e2fbb-80d8-51e5-af75-3b794eae6752", "source_adapter": "targeted_public_web_discovery", "query_text": "Exact-name OSS and employment discovery searches for Helen M McTernan", "query_variant_type": "exact_name_oss_and_employment", "started_at": "2026-09-23T00:03:00Z", "completed_at": "2026-09-23T00:12:00Z", "outcome": "candidate_rejected", "sources_reviewed": 1, "candidate_sources_rejected": 1, "rejection_reasons": "A discovery-only page reproduced the name without an identity, date, OSS-jacket, or employer bridge.", "research_notes": "The namesake-only result is not final evidence and no affiliation was inferred.", "next_action": "Continue the minimum protocol and inspect Box 513.", "attempt_number": 2, "research_agent_version": "codex-reviewed-evidence-v1"},
+    {"key": "batch644-donald-s-mcvannel-army-web-review", "person_id": "c8c087ec-782f-56cd-a71f-a8d7da152c27", "source_adapter": "army_bulk_and_targeted_web_review", "query_text": "Review the official Army protected-identifier candidate and exact-name web discovery for Donald S McVannel", "query_variant_type": "identity_and_exact_name_review", "started_at": "2026-09-23T00:03:00Z", "completed_at": "2026-09-23T00:12:00Z", "outcome": "source_reviewed", "sources_reviewed": 1, "candidate_sources_rejected": 0, "research_notes": "The Army crosswalk supports identity only; no reliable named employer was found.", "next_action": "Continue the minimum protocol and inspect Box 513.", "attempt_number": 2, "research_agent_version": "codex-reviewed-evidence-v1"}
+  ]
+}
