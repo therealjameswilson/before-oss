@@ -104,8 +104,28 @@ sidecars remain untouched and are excluded from the release.
 
 ## Deployment
 
-The reviewed research release is committed as `5e8b0b0`; pull-request, merge,
-workflow, and live-site evidence are recorded after publication.
+The reviewed research release merged through
+[PR #403](https://github.com/therealjameswilson/before-oss/pull/403) as commit
+`408ae3d1f64eb531aaad85fbd399ab27d4f04b65`. The pull-request test passed in
+3m55s. The post-merge
+[main test](https://github.com/therealjameswilson/before-oss/actions/runs/35854543033)
+passed in 4m37s, including the full release suite, source-PDF rebuild, and
+public-identifier audit. The
+[Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/35854542994)
+built successfully in 1m37s and deployed successfully in 18s.
+
+Read-only verification against the merged commit and live Pages site confirmed
+all **67** manifest assets and **99,409,807 bytes**, the exact manifest SHA-256
+`895292d45a66aa865944ffa876d2afa67b5da7fa618bf752867cbcde763d88d0`,
+eight core routes, all 27 source-register pages, and all 22 Batch 651 profile
+URLs. Live spot checks confirmed the seven-person oil-company category,
+Meritt's separate Foreign Nationalities Branch and Institute for Advanced
+Study records, Merrick's ordered New York Post/Washington Star/Baltimore Sun
+chronology, and Mercader's qualified Guillaume-name variant.
+
+The workflows emitted non-blocking platform notices about Actions' Node 20
+transition and the future `ubuntu-latest` image migration; no project test or
+deployment step failed.
 
 ## Resume
 
