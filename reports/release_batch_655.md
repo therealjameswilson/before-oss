@@ -1,6 +1,6 @@
-# Batch 655 release candidate - Meyer-Meysereav research
+# Batch 655 release - Meyer-Meysereav research
 
-Research date: 2026-09-23 America/New_York. Deployment verification is pending.
+Research and release date: 2026-09-23 America/New_York.
 
 ## Historical work
 
@@ -83,9 +83,32 @@ The local release gates pass:
   `b73f53319e69e211074fd4e99d79e061f98a1029fda7a3616ad9c14cba6ede81`
   for `site/dist`.
 
-External URLs were inventoried, not all requested. Deployment verification is
-still pending. No authenticated NARA Catalog request was made. The previously
-exposed API key must be rotated before authenticated work resumes.
+External URLs were inventoried, not all requested. No authenticated NARA
+Catalog request was made. The previously exposed API key must be rotated before
+authenticated work resumes.
+
+## Released and verified live
+
+Pull request [#411](https://github.com/therealjameswilson/before-oss/pull/411)
+merged as commit
+[`4d0720822d21e9c19e310861da361bf88b0f872e`](https://github.com/therealjameswilson/before-oss/commit/4d0720822d21e9c19e310861da361bf88b0f872e).
+The pull-request test run
+[`35896274305`](https://github.com/therealjameswilson/before-oss/actions/runs/35896274305),
+post-merge test run
+[`35896852927`](https://github.com/therealjameswilson/before-oss/actions/runs/35896852927),
+and Pages deployment
+[`35896852988`](https://github.com/therealjameswilson/before-oss/actions/runs/35896852988)
+all passed.
+
+The deployed-release verifier matched **67** manifest-listed assets totaling
+**99,787,721** bytes to manifest SHA-256
+`81d84169dbe31018b23b2a93b07c25115e978cefdee813b7e666355dbad3f2a8`.
+It also verified eight core routes, 27 source-register pages, and all 22 Batch
+655 direct person-profile routes against the exact merged commit. The live
+[oil-company category](https://therealjameswilson.github.io/before-oss/oil-companies/)
+and its placement at the top of the
+[personnel directory](https://therealjameswilson.github.io/before-oss/people/)
+are included in that released build.
 
 ## Resume
 
