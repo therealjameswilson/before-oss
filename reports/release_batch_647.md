@@ -96,8 +96,25 @@ SHA-256
 
 ## Deployment
 
-Deployment results will be appended after the research pull request merges and
-the commit-specific GitHub Pages artifact is verified.
+Research [PR #395](https://github.com/therealjameswilson/before-oss/pull/395)
+passed its required test and merged as commit
+`cb7deb8aaf87c47ab5072262df72c4c629abb25e`. The post-merge
+[Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/35823228932)
+and [GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/35823228883)
+both completed successfully. The workflows emitted only GitHub-hosted runner
+migration notices about Node.js 20 actions and a future `ubuntu-latest` image
+change; no project check failed.
+
+Commit-specific live verification at
+[Before OSS](https://therealjameswilson.github.io/before-oss/) reproduced the
+expected **67 assets**, **98,930,596 bytes**, and manifest SHA-256
+`35b551aadb6857043cb3b266c21d094575604a83cb32a7d57bdfbb9b23710b80`.
+It also verified all **eight** core routes, **26** source-register pages, and
+the **22** direct profiles represented in the Batch 647 evidence bundle. The
+[oil-company category](https://therealjameswilson.github.io/before-oss/oil-companies/),
+[Leonard C. Meeker profile](https://therealjameswilson.github.io/before-oss/people/a5ef50b1-f406-5e62-a829-2be84a182538/),
+and [Gaudens Megaro profile](https://therealjameswilson.github.io/before-oss/people/7f5823b9-e766-5a55-9e6e-05ec39b5ad1e/)
+are included in that successful live check.
 
 ## Resume
 
