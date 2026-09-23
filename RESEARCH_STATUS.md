@@ -1,5 +1,38 @@
 # Research status
 
+Batch 649 visually checked all **460** printed rows on PDF pages 45-54. The
+322 rows not already covered by the deterministic and warning-page audit all
+match the immutable extraction. The durable ledger now covers **475/522
+pages** and **21,816/23,978 rows**: 21,784 reviewed rows match and 32 retain
+reviewed corrections. The page-315/316 `Constance L. Mellen` through `Daniel
+J. Mencoboni` queue saved a reviewed outcome for all 22 people. Ten exact
+official Army identity bridges were accepted; two spelling or name-field
+variants remain probable and one protected-identifier surname conflict remains
+explicit. Amos W. Melton's Fort Worth Star-Telegram employment is separately
+modeled as his last civilian employer before service, while the United States
+Army Air Forces is his immediate documented military affiliation before his
+1944 OSS assignment. A November 6, 1945 Office of Price Administration
+directory hit for Dolores J. Mencke is retained as a rejected post-OSS lead,
+not a pre-OSS employer claim. The queue ends with 18 `in_progress`, two
+`needs_identity_review`, one `conflicting_sources`, and one
+`verified_employer_found`. Identity statuses are 11 `high_confidence`, eight
+`unresolved`, two `probable`, and one `conflicting`. The oil-company category
+remains evidence-scoped to **seven** people across nine companies. See
+`research/batch-649-progress.md`. No authenticated NARA Catalog request was
+made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **8,032/23,939 (33.5519%)**;
+verified-employer coverage is **285/23,939 (1.1905%)**;
+verified-affiliation coverage is **637/23,939 (2.6609%)**; archival-review
+coverage is **6,490/23,939 (27.1106%)**. There are **15,902** `not_started`
+people and **492** possible-duplicate groups. SQLite retains **13,564**
+attempts or plans and **5,080** claims: 1,311 confirmed, 2,033 high, 1,394
+medium, 187 low, and 155 conflicting. It has **5,120** citation records and
+**2,424** unique source documents. The public projection has **2,243**
+affiliations, **720** organizations, **3,912** sources, and **4,889** claims.
+Full-index historical research remains unfinished.
+
 Batch 648 visually checked all **460** printed rows on PDF pages 35-44, with
 an independent 240 dpi comparison of page 43. Every row matches the immutable
 extraction, raising the durable ledger to **468/522 pages** and

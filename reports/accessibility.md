@@ -6495,3 +6495,14 @@ verifies Alexander Gerschenkron's qualified earlier Federal Reserve
 affiliation, both George Gerbner profiles, the Rachel Geise/Giese variant pair,
 and the seven-person oil-company category. All 30 axe scans reported no serious
 violations.
+
+## Batch 649 accessibility and responsive regression
+
+The bounded release suite passed **84 / 84** checks: 15 Batch 649 profile and
+evidence-boundary assertions, 33 core route and interaction checks, six
+analysis checks, and 30 axe scans. The matrix covers desktop, phone, and
+tablet widths. It verifies Amos W. Melton's split civilian and military
+pathways, the rejected Dolores J. Mencke post-OSS lead, the visible
+Menanga/Menengas conflict, Oleg Melnikoff's qualified name variant, and the
+unchanged seven-person oil-company category. All 30 axe scans reported no
+serious accessibility violations.
