@@ -1,5 +1,16 @@
 # Accessibility and responsive QA
 
+Batch 654 local validation, 2026-09-23 UTC: the bounded release suite passed
+**84/84** desktop, phone, and tablet checks: 15 Lothar Metzl, Lloyd Metzler,
+Joshua Mewborn, protected-identifier conflict, exact-coverage, and oil-category
+checks; 33 core-route checks; six analysis checks; and 30 accessibility checks
+with no serious or critical axe violations. All **133** Python unit tests
+passed. Astro reported zero errors, warnings, or hints across **285** source
+files and built **24,717** static pages. Every internal link resolves, the
+public-identifier audit found zero unexpected full-number matches, and two
+consecutive production builds reproduced the same tree digest. These local
+results do not by themselves establish CI or public deployment.
+
 Batch 653 local validation, 2026-09-23 UTC: the bounded release suite passed
 **84/84** desktop, phone, and tablet checks: 15 Walter Mess, Prentice
 Messimer, Nicholas Metal conflict, Leon Messenger separation, exact-coverage,
