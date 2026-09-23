@@ -1,5 +1,34 @@
 # Research status
 
+Batch 647 visually checked all **460** printed rows on PDF pages 18, 19, 22,
+23, 26, 27, 29, 30, 31, and 34. Every row matches the immutable extraction,
+raising the durable ledger to **458/522 pages** and **21,034/23,978 rows**:
+21,002 reviewed rows match and 32 retain reviewed corrections. The page-315
+`Jospeh Meegan` through `Richard L. Meigs` queue saved a reviewed source
+outcome for all 22 people. Seven official Army identity bridges were accepted;
+William G. Mehillos / `MEHILOS` and Eugene W. Mehner / `MOHNER` remain explicit
+conflicts. Leonard C. Meeker's Treasury, Solicitor General, and Army pathways
+are now cited separately. Gaudens Megaro's Queens College employment is
+separated from his documented immediate COI affiliation. Lincoln Mei remains
+a probable identity without an employer claim. The queue ends with 17
+`in_progress`, two `verified_employer_found`, two `conflicting_sources`, and
+one `needs_identity_review`. The oil-company category remains evidence-scoped
+to **seven** people across nine companies. See
+`research/batch-647-progress.md`. No authenticated NARA Catalog request was
+made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **7,989/23,939 (33.3723%)**;
+verified-employer coverage is **282/23,939 (1.1780%)**;
+verified-affiliation coverage is **634/23,939 (2.6484%)**; archival-review
+coverage is **6,447/23,939 (26.9309%)**. There are **15,945** `not_started`
+people and **492** possible-duplicate groups. SQLite retains **13,349**
+attempts or plans and **5,047** claims: 1,311 confirmed, 2,007 high, 1,392
+medium, 187 low, and 150 conflicting. It has **5,101** citation records and
+**2,409** unique source documents. The public projection has **2,237**
+affiliations, **714** organizations, **3,894** sources, and **4,856** claims.
+Full-index historical research remains unfinished.
+
 Batch 641 visually checked all **460** printed rows on PDF pages 481-490.
 Pages 481, 486, and 489 were already in the deterministic random audit, so the
 batch adds seven pages and 322 rows to the durable ledger: **405/522 pages**
