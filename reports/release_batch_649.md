@@ -92,8 +92,23 @@ from the isolated build and remain untouched.
 
 ## Deployment
 
-Pending merge, GitHub Actions, Pages publication, and commit-specific live
-verification.
+Research [PR #399](https://github.com/therealjameswilson/before-oss/pull/399)
+passed its required test and merged as commit
+`c79a1903ea25f2789bbeb7ade4da74a75edd3a31`. The post-merge
+[Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/35837383882)
+and [GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/35837383794)
+both completed successfully. The test workflow emitted only GitHub-hosted
+runner migration notices about Node.js 20 actions and a future
+`ubuntu-latest` image change; no project check failed.
+
+Commit-specific live verification at
+[Before OSS](https://therealjameswilson.github.io/before-oss/) reproduced the
+expected **67 assets**, **99,139,369 bytes**, and manifest SHA-256
+`257ecd79b728666f6ba2efaad08c2bd70d19780048fc06410343b32beaa7b069`.
+It also verified all **eight** core routes, **27** source-register pages, and
+the **22** direct profiles represented in the Batch 649 evidence bundle. The
+[oil-company category](https://therealjameswilson.github.io/before-oss/oil-companies/)
+remains live with its evidence-scoped seven-person set.
 
 ## Resume
 
