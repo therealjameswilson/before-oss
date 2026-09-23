@@ -1,5 +1,37 @@
 # Research status
 
+Batch 648 visually checked all **460** printed rows on PDF pages 35-44, with
+an independent 240 dpi comparison of page 43. Every row matches the immutable
+extraction, raising the durable ledger to **468/522 pages** and
+**21,494/23,978 rows**: 21,462 reviewed rows match and 32 retain reviewed
+corrections. The page-315 `John J. Meily` through `Michael Melkonian` queue
+saved a reviewed source outcome for all 21 cautious people represented by 22
+source rows. Seven official Army identity bridges were accepted; four
+identifier or spelling conflicts remain explicit. Ib Melchior's Radio City
+employment is separated from Army service as his probable immediate OSS
+pathway. Leif Meland's documented work aboard D/S Cate B is separated from his
+immediate 99th Infantry Battalion assignment. John J. Meily remains unresolved
+between a Foreign Service officer and his same-name Marine officer son. The
+two Michael Melkonian rows remain preserved and linked to one cautious entity,
+with the Army `MILKONIAN` spelling retained as a conflict. The queue ends with
+15 `in_progress`, four `conflicting_sources`, one
+`documented_prewar_employer_found`, and one `verified_employer_found`. The
+oil-company category remains evidence-scoped to **seven** people across nine
+companies. See `research/batch-648-progress.md`. No authenticated NARA Catalog
+request was made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **8,010/23,939 (33.4600%)**;
+verified-employer coverage is **284/23,939 (1.1863%)**;
+verified-affiliation coverage is **636/23,939 (2.6568%)**; archival-review
+coverage is **6,468/23,939 (27.0187%)**. There are **15,924** `not_started`
+people and **492** possible-duplicate groups. SQLite retains **13,454**
+attempts or plans and **5,064** claims: 1,311 confirmed, 2,020 high, 1,392
+medium, 187 low, and 154 conflicting. It has **5,116** citation records and
+**2,421** unique source documents. The public projection has **2,348**
+affiliations, **718** organizations, **3,909** sources, and **4,873** claims.
+Full-index historical research remains unfinished.
+
 Batch 647 visually checked all **460** printed rows on PDF pages 18, 19, 22,
 23, 26, 27, 29, 30, 31, and 34. Every row matches the immutable extraction,
 raising the durable ledger to **458/522 pages** and **21,034/23,978 rows**:
