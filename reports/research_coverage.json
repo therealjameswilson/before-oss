@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T10:43:28+00:00",
+  "generated_at": "2026-09-23T13:09:44+00:00",
   "index_coverage": {
     "source_rows": 23978,
     "source_rows_linked": 23978,
@@ -9,13 +9,13 @@
     "person_entities": 23939,
     "stored_person_entities": 23941,
     "superseded_person_entities": 2,
-    "people_with_nonplanned_attempts": 8075,
-    "percent": 33.7316
+    "people_with_nonplanned_attempts": 8097,
+    "percent": 33.8235
   },
   "verified_affiliation_coverage": {
     "person_entities": 23939,
-    "people_with_confirmed_or_high_published_affiliation": 642,
-    "percent": 2.6818
+    "people_with_confirmed_or_high_published_affiliation": 643,
+    "percent": 2.686
   },
   "verified_employer_coverage": {
     "person_entities": 23939,
@@ -24,30 +24,30 @@
   },
   "archival_review_coverage": {
     "person_entities": 23939,
-    "people_assessed": 6532,
-    "percent": 27.286
+    "people_assessed": 6553,
+    "percent": 27.3737
   },
   "research_status_counts": {
     "blocked_by_source_access": 1,
     "candidate_found": 333,
     "completed": 147,
-    "conflicting_sources": 144,
-    "documented_prewar_employer_found": 121,
-    "in_progress": 1889,
+    "conflicting_sources": 148,
+    "documented_prewar_employer_found": 122,
+    "in_progress": 1906,
     "needs_identity_review": 427,
     "needs_temporal_review": 23,
     "no_reliable_result_after_protocol": 210,
-    "not_started": 15859,
+    "not_started": 15837,
     "occupation_only_found": 1021,
     "requires_archival_review": 3500,
     "verified_employer_found": 264
   },
   "claim_confidence_counts": {
     "confirmed": 1311,
-    "conflicting": 160,
-    "high": 2056,
+    "conflicting": 164,
+    "high": 2065,
     "low": 189,
-    "medium": 1404
+    "medium": 1406
   },
   "personnel_category_counts": {
     "civilian_professional_or_administrative_grade": 1517,
@@ -64,7 +64,7 @@
     "warrant_officer": 7
   },
   "possible_duplicate_groups": 492,
-  "conflict_count": 185,
-  "citations": 5141,
-  "unique_source_documents": 2442
+  "conflict_count": 189,
+  "citations": 5145,
+  "unique_source_documents": 2445
 }
