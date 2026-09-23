@@ -70,11 +70,34 @@ The public projection contains **2,237** published affiliations, **714**
 organizations, **3,894** public sources, and **4,856** published claims.
 Full-index historical research remains unfinished.
 
-## Verification and deployment
+## Local verification
 
-Release-test, reproducibility, and deployment results will be appended after
-the tracked-only candidate passes local validation and the GitHub Pages
-artifact is verified.
+The exact tracked-only release candidate passes:
+
+- **133/133** Python unit tests;
+- Astro diagnostics across **278** tracked source files with zero errors,
+  warnings, or hints;
+- **84/84** bounded Playwright release checks: 15 Batch 647, 33 core-route
+  and interaction, six analysis, and 30 accessibility checks across desktop,
+  phone, and tablet;
+- internal-link validation across **24,687** cleanly generated HTML files;
+- public-identifier redaction across **70** public artifacts, with zero
+  aggregate, manifest-size, or unexpected-boundary false positives; and
+- local manifest verification of **67** projected assets totaling
+  **98,930,596 bytes**, manifest SHA-256
+  `35b551aadb6857043cb3b266c21d094575604a83cb32a7d57bdfbb9b23710b80`.
+
+The committed tree was archived into an isolated directory and rebuilt from
+the frozen source PDF plus tracked review inputs. Its public projection is
+byte-for-byte identical to the committed projection. Two complete tracked-only
+site builds produced the same **24,759-file, 295,633,183-byte** tree with
+SHA-256
+`e10bce61eb960e5cd93e43778ea21baa3f67a1cd13f89819601550dcc8715b62`.
+
+## Deployment
+
+Deployment results will be appended after the research pull request merges and
+the commit-specific GitHub Pages artifact is verified.
 
 ## Resume
 
