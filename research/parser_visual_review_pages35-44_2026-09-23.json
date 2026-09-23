@@ -1,0 +1,8 @@
+{
+  "bundle_version": "parser-visual-review-v1",
+  "source_pdf_sha256": "7268492342ab131d3b6d2697cfa4f6856cbdcd16e0ed3877e8d6a0478f58c02b",
+  "reviewer": "Codex Batch 648 pages 35-44 visual audit",
+  "matching_pages_reviewed_at": "2026-09-23T06:15:00Z",
+  "matching_pages_notes": "Original NARA PDF pages 35 through 44 were rendered at 180 dpi and all 460 printed rows were compared with immutable source records for row order, indexed spelling and initials, suffixes, rank or grade, private-identifier column occupancy, box, notes, and archive location. Page 43 was also rendered independently with pdftocairo at 240 dpi to resolve a display-resizing artifact; the original page and extraction agree. Every reviewed row matches the current extraction. Literal source anomalies and unfamiliar abbreviations remain unchanged, including Bethlanmy, Rapheal, Luswig, Bhasqvanich, Geopffrey, Blonttrock, the lowercase first name in Bollerman, the printed notes Polish Ar, Free Th, and Coast G, and uncommon serial formats. Private identifiers are not included in this review bundle or public assets.",
+  "reviewed_matching_pages": [35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+}
