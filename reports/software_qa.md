@@ -11158,3 +11158,29 @@ URLs are inventoried for separate live checking. The identifier audit compares
 12,926 normalized identifiers and 120 formatted variants across 24,677
 artifacts, rejects 1,101 candidate substrings, and finds zero unexpected
 boundary, aggregate or manifest-size matches.
+
+## Batch 649 software QA
+
+The reviewed source bundle validates and reimports idempotently: four sources,
+two organizations, two affiliations, sixteen claims, thirty-two claim-source
+links, twenty-two person updates, and twenty-two research attempts. Ingest
+validation passes all seven corpus checks, SQLite reports `ok` with zero
+foreign-key errors, and the 200-profile stratified audit passes every check.
+Python passes **133 / 133** tests.
+
+Astro checks **280** source files with zero errors, warnings, or hints and
+generates **24,694** HTML pages. The bounded browser suite passes **84 / 84**
+checks across desktop, phone, and tablet: 15 Batch 649 assertions, 33 core
+route and interaction checks, six analysis checks, and 30 accessibility
+checks. The regression proves that Amos W. Melton's last civilian employer and
+immediate military assignment remain separate, the Dolores J. Mencke OPA lead
+remains rejected as post-OSS, the Menanga/Menengas conflict remains visible,
+the Oleg Melnikoff variant remains qualified, and the seven-person oil-company
+category does not expand without evidence.
+
+The local public-manifest guard verifies **67 assets** and **99,139,369
+bytes** at manifest SHA-256
+`257ecd79b728666f6ba2efaad08c2bd70d19780048fc06410343b32beaa7b069`.
+Two complete tracked-only builds produced the same **24,766-file,
+295,976,336-byte** production tree with SHA-256
+`f9a75fc389b076fcec4ffce8990961b16377c7648fbcbf249d93c424e068c168`.
