@@ -208,6 +208,8 @@ def normalize_rank(value: str | None) -> str | None:
     normalized = SPACE_RE.sub(" ", normalized).strip()
     normalized = normalized.replace("1STLT", "1ST LT").replace("2NDLT", "2ND LT")
     normalized = normalized.replace("LTCOL", "LT COL")
+    normalized = re.sub(r"^([SMT])-SGT$", r"\1/SGT", normalized)
+    normalized = re.sub(r"^TEC-([345])$", r"TEC \1", normalized)
     normalized = re.sub(r"^S([123])\s+C$", r"S \1/C", normalized)
     normalized = re.sub(r"^(RM)([123])/?C$", r"\1 \2/C", normalized)
     return normalized
