@@ -95,8 +95,26 @@ from the isolated build and remain untouched.
 
 ## Deployment
 
-Pending. This section will be replaced with the merged pull request, workflow,
-commit, and live verification details after deployment.
+Research [PR #397](https://github.com/therealjameswilson/before-oss/pull/397)
+passed its required test and merged as commit
+`b58bdef6c99f08f442fd26f7dc681754213b3901`. The post-merge
+[Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/35829399281)
+and [GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/35829399286)
+both completed successfully. The test workflow emitted only GitHub-hosted
+runner migration notices about Node.js 20 actions and a future
+`ubuntu-latest` image change; no project check failed.
+
+Commit-specific live verification at
+[Before OSS](https://therealjameswilson.github.io/before-oss/) reproduced the
+expected **67 assets**, **99,054,405 bytes**, and manifest SHA-256
+`b863c01909d3265255bb720cd0d9e47008ee89a0447dc504bd1e0b0d49fb6455`.
+It also verified all **eight** core routes, **27** source-register pages, and
+the **21** direct profiles represented in the Batch 648 evidence bundle. The
+[oil-company category](https://therealjameswilson.github.io/before-oss/oil-companies/),
+[Ib Melchior profile](https://therealjameswilson.github.io/before-oss/people/09119446-f015-5b6e-b512-e2ad4104d5dc/),
+[Leif Meland profile](https://therealjameswilson.github.io/before-oss/people/24a68ddd-d4f3-5d05-a9fb-7f3b382b52a9/),
+and [John Meily conflict profile](https://therealjameswilson.github.io/before-oss/people/08962f8b-b560-5ce7-a3fc-ed9817e8f99c/)
+are included in that successful live check.
 
 ## Resume
 
