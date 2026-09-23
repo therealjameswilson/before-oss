@@ -73,26 +73,54 @@ Full-index historical research remains unfinished.
 
 ## Local verification
 
-The candidate passes **134/134 Python tests plus 75 subtests**. Playwright
-successfully discovers all **21** new Batch 652 checks across desktop, phone,
-and tablet projects; those checks cover the Mesle chronology, accepted Army
-identities without invented employers, preserved identity conflicts and source
-spellings, updated coverage, and the seven-person oil-company category at the
-top of the directory.
+The clean pull-request release candidate passes:
 
-Two isolated tracked-only Node runs stalled locally before Astro emitted a
-page or diagnostic, and were stopped without modifying the release tree. The
-local site build and browser execution are therefore **unverified**, not
-passing. GitHub Actions' independent clean build remains the required gate
-before merge.
+- **133/133** Python unit tests;
+- **90/90** Playwright checks: 21 Batch 652, 33 core release, six analysis,
+  and 30 accessibility checks across desktop, phone, and tablet;
+- Astro diagnostics across **283** source files with zero errors, warnings, or
+  hints;
+- all internal links across **24,714 HTML files**, with **50,313** unique
+  external URLs inventoried for the separate live check;
+- public-identifier redaction across **24,786** build artifacts with zero
+  aggregate false positives, manifest-size false positives, or unexpected
+  boundary matches; and
+- manifest verification of **67** projected assets totaling **99,489,263
+  bytes**, manifest SHA-256
+  `433fa188f7df74b8165fe8a013fd16af8bde969132a29d823134746c0fa91da4`.
+
+The first clean workflow exposed only a capitalization mismatch in the new
+temporal-badge assertion: the page correctly rendered `probable immediate`
+while the test expected an initial capital. The assertion was corrected, and
+the complete release suite then passed. Two isolated local Node runs had
+stalled before Astro emitted a page or diagnostic and were stopped without
+modifying the release tree; the independent clean build supplies the completed
+site and browser verification.
 
 User-owned Finder-style ` 2` files and local SQLite sidecars remain untouched
 and are excluded from the release.
 
 ## Deployment
 
-The reviewed release has not yet merged or deployed. Deployment evidence will
-be recorded after GitHub Actions and the live Pages site are verified.
+The reviewed research release merged through
+[PR #405](https://github.com/therealjameswilson/before-oss/pull/405) as commit
+`2af4aeb94100eb0d172f65bcb718a975fc882e1b`. The corrected pull-request test
+passed in 4m27s. The post-merge
+[main test](https://github.com/therealjameswilson/before-oss/actions/runs/35870513529)
+passed in 4m12s, including the full release suite, source-PDF rebuild, and
+public-identifier audit. The
+[Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/35870513766)
+built successfully in 1m27s and deployed successfully in 22s.
+
+Read-only verification of the live Pages site confirmed the updated exact
+coverage totals, the oil-company category before the directory filters, all
+seven supported names on both the personnel and dedicated category pages, and
+Frank C. Mesle's qualified Corps of Engineers, professional Scouting, and
+University of Iowa chronology with its claim-level citations.
+
+The workflows emitted non-blocking platform notices about Actions' Node 20
+transition and the future `ubuntu-latest` image migration; no project test or
+deployment step failed in the final runs.
 
 ## Resume
 
