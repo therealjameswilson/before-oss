@@ -104,10 +104,30 @@ known product failure. The bounded release suite exercises the core routes,
 Batch 706 profiles, analytics, responsive layouts, and accessibility across all
 three configured browser projects.
 
-## Deployment status
+## Released and verified live
 
-Commit, GitHub Actions, and live-site verification details will be appended
-after the audited release is pushed and the public deployment passes.
+Batch 706 was fast-forwarded to `main` as commit
+[`cba2b2a87917db7d736dd20054de0cf37327c25f`](https://github.com/therealjameswilson/before-oss/commit/cba2b2a87917db7d736dd20054de0cf37327c25f).
+The GitHub Pages build and deployment
+[`37158826110`](https://github.com/therealjameswilson/before-oss/actions/runs/37158826110)
+and independent test workflow
+[`37158825950`](https://github.com/therealjameswilson/before-oss/actions/runs/37158825950)
+passed on 2026-10-03 America/New_York. GitHub emitted advisory warnings that
+several official actions still target Node.js 20 while runners force Node.js
+24, and that `ubuntu-latest` is scheduled to migrate to Ubuntu 26; the
+workflows nevertheless completed successfully.
+
+Post-deployment verification compared the public site with that exact commit.
+All 67 manifest assets totaling 104,200,556 bytes matched, as did eight core
+routes, all 29 source-register pages, and all 23 Batch 706 profiles changed by
+the reviewed-evidence bundle. The live site reports 23,978 source rows, 23,939
+person entities, 9,277 researched people, 711 verified affiliations, 320
+verified employers, and 14,657 not-started people. Katsuma Nishimoto's
+qualified MIS pathway, Marshall H Noble's confirmed identity without an
+invented employer, Andre Noel's qualified Free French pathway, all seven
+additional identity-only decisions, both unmerged name conflicts, and the
+unresolved profiles render from their public URLs. The oil-company directory
+is visible with nine cited people across eleven historically named companies.
 
 ## Resume
 
