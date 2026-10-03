@@ -101,9 +101,24 @@ The exact rebuilt tree passed these release gates:
   302,975,457 bytes**, SHA-256
   `d499040c9024550fd1c77786fcaf26cf678b5c2865cc90ac242ba0e2f236bb23`.
 
-## Publication status
+## Released and verified live
 
-Publication to GitHub Pages and post-deployment byte verification are pending.
+Batch 692 was fast-forwarded to `main` as commit
+[`534e53be23bd9a8b3a58c57e80bdfa69323300d4`](https://github.com/therealjameswilson/before-oss/commit/534e53be23bd9a8b3a58c57e80bdfa69323300d4).
+The GitHub Pages build and deployment
+[`37093934234`](https://github.com/therealjameswilson/before-oss/actions/runs/37093934234)
+and independent test workflow
+[`37093934200`](https://github.com/therealjameswilson/before-oss/actions/runs/37093934200)
+passed on 2026-10-02 America/New_York.
+
+Post-deployment verification compared the public site with that exact commit.
+All 67 manifest assets totaling 102,952,273 bytes matched, as did eight core
+routes, all 29 source-register pages, and the 23 Batch 692 profile routes. The
+live site therefore reports 23,978 source rows, 23,939 person entities, 8,961
+researched people, 693 verified affiliations, 313 verified employers, and
+14,973 not-started people. The
+[oil-company category](https://therealjameswilson.github.io/before-oss/oil-companies/)
+continues to show nine people across 11 historically named companies.
 
 ## Resume
 
