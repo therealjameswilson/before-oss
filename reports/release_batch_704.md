@@ -105,12 +105,31 @@ known product failure. The bounded release suite exercises the core routes,
 Batch 704 profiles, analytics, responsive layouts, and accessibility across all
 three configured browser projects and passed 87 / 87.
 
-## Publication status
+## Released and verified live
 
-The reviewed Batch 704 release is locally complete and ready for a
-fast-forward publication to `main`. The exact commit, workflow runs, and live
-verification will be recorded in a follow-up audit commit after GitHub Pages
-finishes deploying.
+Batch 704 was fast-forwarded to `main` as commit
+[`53067ebaba2036a26931b57d5bde66c5cc8ea729`](https://github.com/therealjameswilson/before-oss/commit/53067ebaba2036a26931b57d5bde66c5cc8ea729).
+The GitHub Pages build and deployment
+[`37125324401`](https://github.com/therealjameswilson/before-oss/actions/runs/37125324401)
+and independent test workflow
+[`37125324407`](https://github.com/therealjameswilson/before-oss/actions/runs/37125324407)
+passed on 2026-10-03 America/New_York. GitHub emitted advisory warnings that
+several official actions still target Node.js 20 while runners force Node.js
+24, and that `ubuntu-latest` is scheduled to migrate to Ubuntu 26; the
+workflows nevertheless completed successfully.
+
+Post-deployment verification compared the public site with that exact commit.
+All 67 manifest assets totaling 104,002,900 bytes matched, as did eight core
+routes, all 29 source-register pages, and all 23 Batch 704 profiles changed by
+the reviewed-evidence bundle. The live site reports 23,978 source rows, 23,939
+person entities, 9,231 researched people, 707 verified affiliations, 319
+verified employers, and 14,703 not-started people. Emrich Nicholson's two
+qualified design affiliations, Harry G Nickles's documented OSS assignment,
+Gaspare Nicotri's occupation and professional affiliation, all five accepted
+identity-only decisions, all four unmerged identity conflicts, and the
+unresolved profiles render from their public URLs. The oil-company directory
+remains visible with nine cited people across eleven historically named
+companies.
 
 ## Resume
 
