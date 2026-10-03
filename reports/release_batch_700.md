@@ -104,10 +104,26 @@ The exact rebuilt tree passed these release gates:
   304,109,862 bytes**, SHA-256
   `ba6cdfb9a371af62481813c3feef280e521fe1d723da441b3009bcaef45a0511`.
 
-## Deployment
+## Released and verified live
 
-Publication is pending the release commit, GitHub Actions, and byte-checked
-live-site verification.
+Batch 700 was fast-forwarded to `main` as commit
+[`dc79489f37904f01e49ff2adae22f44482bc0fe8`](https://github.com/therealjameswilson/before-oss/commit/dc79489f37904f01e49ff2adae22f44482bc0fe8).
+The GitHub Pages build and deployment
+[`37114793686`](https://github.com/therealjameswilson/before-oss/actions/runs/37114793686)
+and independent test workflow
+[`37114793701`](https://github.com/therealjameswilson/before-oss/actions/runs/37114793701)
+passed on 2026-10-03 America/New_York. GitHub emitted advisory warnings that
+several official actions still target Node.js 20 while runners force Node.js
+24, and that `ubuntu-latest` is scheduled to migrate to Ubuntu 26; the
+workflows nevertheless completed successfully.
+
+Post-deployment verification compared the public site with that exact commit.
+All 67 manifest assets totaling 103,650,247 bytes matched, as did eight core
+routes, all 29 source-register pages, and all 23 Batch 700 profile routes. The
+live site reports 23,978 source rows, 23,939 person entities, 9,142 researched
+people, 704 verified affiliations, 317 verified employers, and 14,792
+not-started people. Gerhardt Neumann's direct profile and the preserved
+conflict, ambiguity, and unresolved profiles render from their public URLs.
 
 ## Resume
 
