@@ -1,5 +1,35 @@
 # Research status
 
+Batch 690 completed PDF page 335, rows 24-45, from **Helen J Murray** through
+**George S Musolin**: 22 printed rows linked to 21 active person entities
+because the two identical Walter W Muselin rows remain separate source records
+for one person. Six official Army matches establish high-confidence identities
+without converting coded occupations into employers. Percy L Muschamp is a
+probable identity with medium-confidence earlier teaching at Halifax Academy;
+the evidence does not make that role immediate or last civilian employment.
+Casimer P Musial is a high-confidence spelling variant of Casimir P. Musial,
+whose unnamed grocery is published as strongly date-bounded last civilian
+self-employment before Army induction—not as an immediate OSS predecessor.
+Henry A Murray and George S Musolin retain their earlier reviewed evidence.
+Seventeen new people have `no_reliable_result_after_protocol`, one has
+`documented_prewar_employer_found`, and one has `verified_employer_found`.
+The indexed Boxes 547-548 files remain the next archival step for unresolved
+questions. The oil-company category remains evidence-scoped to **nine people
+across 11 historically named companies**. See `research/batch-690-progress.md`.
+No authenticated NARA Catalog request was made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **8,915/23,939 (37.2405%)**;
+verified-employer coverage is **312/23,939 (1.3033%)**;
+verified-affiliation coverage is **689/23,939 (2.8781%)**; archival-review
+coverage is **7,372/23,939 (30.7949%)**. There are **15,019** `not_started`
+people and **518** possible-duplicate groups. SQLite retains **16,073**
+attempts or plans and **5,724** claims: 1,336 confirmed, 2,508 high, 1,458
+medium, 196 low, and 226 conflicting. It has **5,410** citation records and
+**2,657** unique source documents. The public projection has **2,361**
+affiliations, **791** organizations, **4,193** sources, and **5,521** claims.
+Full-index historical research remains unfinished.
+
 Batch 689 completed PDF page 335, rows 1-23, from **Daniel E Murphy** through
 **Harry A Murray**, with a saved terminal outcome for all 23 people. Six
 official Army matches establish high-confidence identities without converting
