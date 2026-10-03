@@ -1,0 +1,372 @@
+{
+  "bundle_version": "batch-680-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 680 archival review",
+  "sources": [
+    {
+      "key": "nara-index-b680",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 539",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 330, rows 24-46, visually checked",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Full service identifiers remain private and are excluded from public output."
+    },
+    {
+      "key": "army-bulk-b680",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; reviewed bulk record ordinals retained as claim locators",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; protected-identifier review for nine indexed people",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "Official bulk data, not a Catalog API response. Protected identifiers, coded occupations, and raw records are excluded from public output."
+    },
+    {
+      "key": "loc-evening-star-phoebe-b680",
+      "stable_url": "https://www.loc.gov/resource/sn83045462/1939-02-05/ed-1/?sp=21",
+      "archival_identifier": "LCCN sn83045462; 1939-02-05 edition 1, image 21",
+      "title": "Evening Star, February 5, 1939, page 21",
+      "author_creator": "Evening Star",
+      "repository_publisher": "Library of Congress, Chronicling America",
+      "publication_record_date": "1939-02-05",
+      "locator": "Page 21; notice identifying Phoebe Morrison as an assistant professor in Yale University School of Law",
+      "access_date": "2026-09-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Chronicling America",
+      "rights_notes": "The project stores a citation and paraphrase, not the newspaper page image."
+    },
+    {
+      "key": "ftc-jones-oral-history-b680",
+      "stable_url": "https://www.ftc.gov/about-ftc/our-history/oral-histories/oral-histories/oral-history-interview-mary-gardiner-jones",
+      "title": "Oral History Interview: Mary Gardiner Jones",
+      "author_creator": "Mary Gardiner Jones; Marc Winerman; Christian S. White",
+      "repository_publisher": "Federal Trade Commission",
+      "publication_record_date": "2003-10-09 and 2003-10-24",
+      "locator": "Edited transcript, lines 31-37, OSS Research and Analysis recollection",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Federal Trade Commission Oral Histories",
+      "rights_notes": "A short project-authored paraphrase is used; the transcript remains at the FTC."
+    },
+    {
+      "key": "hoover-phoebe-memo-b680",
+      "stable_url": "https://digitalcollections.hoover.org/objects/63373/phoebe-morrison-draft-memo-to-james-b-donovan-regarding-leg",
+      "archival_identifier": "Hoover Institution Library & Archives record 72013.4",
+      "title": "Phoebe Morrison draft memo to James B. Donovan regarding legal problems preliminary to drafting German surrender documents",
+      "author_creator": "Phoebe Morrison",
+      "repository_publisher": "Hoover Institution Library & Archives",
+      "publication_record_date": "1945-04-23",
+      "locator": "Item-level description; Office of Strategic Services subject",
+      "access_date": "2026-09-25",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "James B. Donovan papers",
+      "rights_notes": "The archival object description is used as identity and OSS-role context."
+    },
+    {
+      "key": "legal-problems-far-east-b680",
+      "stable_url": "https://bpb-ca-c1.wpmucdn.com/sites.uoguelph.ca/dist/5/293/files/2024/09/Legal-Problems-in-the-Far-Eastern-Conflict-1941-English.pdf",
+      "archival_identifier": "HathiTrust handle 2027/uc1.$b20199",
+      "title": "Legal Problems in the Far Eastern Conflict",
+      "author_creator": "Quincy Wright; H. Lauterpacht; Edwin M. Borchard; Phoebe Morrison",
+      "repository_publisher": "International Secretariat, Institute of Pacific Relations; HathiTrust scan",
+      "publication_record_date": "1941",
+      "locator": "Title page and foreword; Phoebe Morrison identified as Research Associate in International Law, Yale University",
+      "access_date": "2026-09-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "I.P.R. Inquiry Series",
+      "rights_notes": "The public site links to the scan and stores only a short citation paraphrase."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "yale-law-school-b680",
+      "organization_id": "779938ea-1d26-5c1f-81a8-9155c71c0a64",
+      "canonical_name": "Yale Law School",
+      "historical_name": "Yale University Law School",
+      "aliases": ["Yale University School of Law", "School of Law, Yale University"],
+      "organization_type": "university law school",
+      "sector": "academia_and_research",
+      "city": "New Haven",
+      "state_or_region": "Connecticut",
+      "country": "United States",
+      "active_dates": null,
+      "normalization_notes": "The law school is preserved as its own historical organization rather than silently collapsed into Yale University."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "phoebe-morrison-yale-law-b680",
+      "person_id": "ce2a9689-aef0-5a11-845e-3a5d6facbc4e",
+      "organization_key": "yale-law-school-b680",
+      "organization_name_as_found": "Yale University School of Law / Yale University",
+      "role_title": "Research Associate in International Law",
+      "occupation": "international lawyer and law-school faculty",
+      "relationship_type": "employment",
+      "start_date": null,
+      "end_date": null,
+      "date_precision": "Contemporary sources document an assistant professorship in 1939 and a research-associate title in 1941; exact appointment and departure dates are not established.",
+      "city": "New Haven",
+      "state_or_region": "Connecticut",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The Yale employment is directly documented before OSS, but the accessible sources do not prove it was Morrison's immediate pre-OSS affiliation or last civilian employer. A discovery-only claim of intervening OPA work was not published."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-john-e-morris-b680",
+      "person_id": "a51c279b-f60f-5a25-acd2-d69fb1258da7",
+      "claim_type": "identity",
+      "claim_text": "The indexed John E Morris is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a named pre-service employer or immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code is not employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b680", "support_type": "supports", "locator_override": "PDF page 330, row 28, Box 539"},
+        {"source_key": "army-bulk-b680", "support_type": "supports", "locator_override": "Bulk record ordinal 8940682; exact name and protected identifier"}
+      ]
+    },
+    {
+      "key": "identity-john-f-morris-b680",
+      "person_id": "8e651acd-1a9e-569d-b63d-3f8446683604",
+      "claim_type": "identity",
+      "claim_text": "The indexed John F Morris is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a named pre-service employer or immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code is not employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b680", "support_type": "supports", "locator_override": "PDF page 330, row 29, Box 539"},
+        {"source_key": "army-bulk-b680", "support_type": "supports", "locator_override": "Bulk record ordinal 434136; exact name and protected identifier"}
+      ]
+    },
+    {
+      "key": "identity-john-p-morris-b680",
+      "person_id": "714fdb95-6b2b-5e13-a6e5-901d7340790f",
+      "claim_type": "identity",
+      "claim_text": "The indexed John P Morris is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a named pre-service employer or immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code is not employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b680", "support_type": "supports", "locator_override": "PDF page 330, row 30, M/Sgt, Box 539"},
+        {"source_key": "army-bulk-b680", "support_type": "supports", "locator_override": "Bulk record ordinal 4345868; exact name and protected identifier"}
+      ]
+    },
+    {
+      "key": "identity-thomas-e-morris-b680",
+      "person_id": "6d029516-fb8d-51b4-beec-e85ef406ad1c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Thomas E Morris is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a named pre-service employer or immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code is not employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b680", "support_type": "supports", "locator_override": "PDF page 330, row 35, Box 539"},
+        {"source_key": "army-bulk-b680", "support_type": "supports", "locator_override": "Bulk record ordinal 9044872; exact name and protected identifier"}
+      ]
+    },
+    {
+      "key": "identity-donald-j-morrisey-b680",
+      "person_id": "a6cc2f60-4833-503a-af18-e8478650e319",
+      "claim_type": "identity",
+      "claim_text": "The indexed Donald J Morrisey is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a named pre-service employer or immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code is not employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b680", "support_type": "supports", "locator_override": "PDF page 330, row 37, Box 539"},
+        {"source_key": "army-bulk-b680", "support_type": "supports", "locator_override": "Bulk record ordinal 3658526; exact name and protected identifier"}
+      ]
+    },
+    {
+      "key": "identity-edward-s-morrison-b680",
+      "person_id": "e9196030-2f7b-5c6a-b880-b2da7338f973",
+      "claim_type": "identity",
+      "claim_text": "The indexed Edward S Morrison is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a named pre-service employer or immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code is not employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b680", "support_type": "supports", "locator_override": "PDF page 330, row 39, T-4, Box 539"},
+        {"source_key": "army-bulk-b680", "support_type": "supports", "locator_override": "Bulk record ordinal 613921; exact name and protected identifier"}
+      ]
+    },
+    {
+      "key": "identity-hugh-p-morrison-b680",
+      "person_id": "57d00854-be39-5521-8e7a-cc16cfa1e5de",
+      "claim_type": "identity",
+      "claim_text": "The indexed Hugh P Morrison is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a named pre-service employer or immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code is not employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b680", "support_type": "supports", "locator_override": "PDF page 330, row 44, T-5, Box 539"},
+        {"source_key": "army-bulk-b680", "support_type": "supports", "locator_override": "Bulk record ordinal 8895001; exact name and protected identifier"}
+      ]
+    },
+    {
+      "key": "identity-robert-s-morrison-b680",
+      "person_id": "228f10b9-ca71-5d01-ab38-f40aeb4c2133",
+      "claim_type": "identity",
+      "claim_text": "The indexed Robert S Morrison is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a named pre-service employer or immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code is not employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b680", "support_type": "supports", "locator_override": "PDF page 330, row 46, T-5, Box 539"},
+        {"source_key": "army-bulk-b680", "support_type": "supports", "locator_override": "Bulk record ordinal 1725115; exact name and protected identifier"}
+      ]
+    },
+    {
+      "key": "identity-conflict-hubert-hg-morrison-b680",
+      "person_id": "27b1c1cb-c448-5bfd-8bd0-e0610a34ecb8",
+      "claim_type": "identity",
+      "claim_text": "The indexed Hubert G Morrison remains in conflict with an Army record naming H G Morrison Junior and an adjacent, separately indexed H. G Morrison Jr.",
+      "evidence_paraphrase": "Hubert's protected identifier points to H G Morrison Junior, while the adjacent H. G. row carries a different rank and protected identifier.",
+      "identity_match_assessment": "Conflicting: the protected identifier supports one Army record name, but two distinct OSS index rows could be implicated.",
+      "temporal_assessment": "The records establish a wartime identity conflict and do not establish any pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The two OSS index people remain separate and require inspection of both Box 539 personnel files.",
+      "sources": [
+        {"source_key": "nara-index-b680", "support_type": "supports", "locator_override": "PDF page 330, rows 42-43; distinct ranks and protected identifiers"},
+        {"source_key": "army-bulk-b680", "support_type": "contradicts", "locator_override": "Bulk record ordinal 4583390; name recorded as H G Morrison Junior"}
+      ]
+    },
+    {
+      "key": "identity-phoebe-morrison-b680",
+      "person_id": "ce2a9689-aef0-5a11-845e-3a5d6facbc4e",
+      "claim_type": "identity",
+      "claim_text": "The indexed Phoebe Morrison is a high-confidence match to the Yale international lawyer documented in OSS Research and Analysis.",
+      "evidence_paraphrase": "An FTC oral-history witness worked for Phoebe Morrison in OSS and identified her as an international lawyer who came from Yale; Hoover preserves her 1945 OSS memo.",
+      "identity_match_assessment": "High confidence from the uncommon exact name, explicit OSS workplace testimony, Yale continuity, and an item-level OSS archival record.",
+      "temporal_assessment": "The sources establish Yale work before the documented OSS role, but not the exact recruitment date or an uninterrupted transition.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The claim does not rely on a discovery-only biographical profile or infer intervening employment.",
+      "sources": [
+        {"source_key": "nara-index-b680", "support_type": "supports", "locator_override": "PDF page 330, row 45, P-6, Box 539"},
+        {"source_key": "ftc-jones-oral-history-b680", "support_type": "supports", "locator_override": "Edited transcript lines 31-37"},
+        {"source_key": "hoover-phoebe-memo-b680", "support_type": "supports", "locator_override": "Item dated April 23, 1945; OSS subject"}
+      ]
+    },
+    {
+      "key": "affiliation-phoebe-morrison-yale-law-b680",
+      "person_id": "ce2a9689-aef0-5a11-845e-3a5d6facbc4e",
+      "affiliation_key": "phoebe-morrison-yale-law-b680",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Phoebe Morrison held documented prewar employment at Yale's law school, identified as an assistant professor in 1939 and Research Associate in International Law in 1941.",
+      "evidence_paraphrase": "A contemporary newspaper named her as a Yale law-school assistant professor; the 1941 book title page identified her as Yale's Research Associate in International Law.",
+      "identity_match_assessment": "High confidence from the uncommon exact name and independent Yale-to-OSS identity evidence.",
+      "temporal_assessment": "Documented prewar employment. The sources do not prove Yale was the immediate pre-OSS affiliation or last civilian employer.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The two contemporaneous titles are preserved; no exact start or end date is inferred.",
+      "sources": [
+        {"source_key": "loc-evening-star-phoebe-b680", "support_type": "supports", "locator_override": "February 5, 1939, page 21"},
+        {"source_key": "legal-problems-far-east-b680", "support_type": "supports", "locator_override": "1941 title page and foreword"},
+        {"source_key": "ftc-jones-oral-history-b680", "support_type": "context_only", "locator_override": "Edited transcript lines 35-37; Yale-to-OSS identity context"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {"person_id": "ee48651b-0a41-525f-b101-ddcee05d1250", "identity_status": "unresolved", "identity_evidence": "The exact-name staged protocol found no reliable identity bridge or pre-OSS employer.", "research_status": "no_reliable_result_after_protocol", "next_action": "Review Charlotte Morrill's Box 539 personnel file for identity and pre-OSS affiliation.", "archival_review_priority": "high"},
+    {"person_id": "6557df06-a8b5-5b19-9fbd-4666a96c0f88", "identity_status": "unresolved", "identity_evidence": "Three newspaper candidates were different people or OCR name collisions; no reliable identity bridge was found.", "research_status": "no_reliable_result_after_protocol", "next_action": "Review Daniel E Morris's Box 539 personnel file; common-name web results are insufficient.", "archival_review_priority": "high"},
+    {"person_id": "59f173b7-14e6-5d24-84d8-1d0ff4a0cd05", "identity_status": "unresolved", "identity_evidence": "The exact-name staged protocol found no reliable identity bridge or pre-OSS employer.", "research_status": "no_reliable_result_after_protocol", "next_action": "Review Ethel V Morris's Box 539 personnel file for identifying details and pre-OSS affiliation.", "archival_review_priority": "high"},
+    {"person_id": "ef082d99-61c0-5832-abc3-f61f415af2ca", "identity_status": "unresolved", "identity_evidence": "The exact-name staged protocol found no reliable identity bridge or pre-OSS employer.", "research_status": "no_reliable_result_after_protocol", "next_action": "Review Jacquelyn P Morris's Box 539 personnel file for identity and pre-OSS affiliation.", "archival_review_priority": "high"},
+    {"person_id": "a51c279b-f60f-5a25-acd2-d69fb1258da7", "identity_status": "high_confidence", "identity_evidence": "Exact name and a nonshared protected identifier agree across the OSS index and official Army bulk record.", "manual_review_required": false, "research_status": "no_reliable_result_after_protocol", "next_action": "Review John E Morris's Box 539 personnel file for named pre-service and immediate pre-OSS affiliations.", "archival_review_priority": "medium"},
+    {"person_id": "8e651acd-1a9e-569d-b63d-3f8446683604", "identity_status": "high_confidence", "identity_evidence": "Exact name and a nonshared protected identifier agree across the OSS index and official Army bulk record.", "manual_review_required": false, "research_status": "no_reliable_result_after_protocol", "next_action": "Review John F Morris's Box 539 personnel file for named pre-service and immediate pre-OSS affiliations.", "archival_review_priority": "medium"},
+    {"person_id": "714fdb95-6b2b-5e13-a6e5-901d7340790f", "identity_status": "high_confidence", "identity_evidence": "Exact name and a nonshared protected identifier agree across the OSS index and official Army bulk record.", "manual_review_required": false, "research_status": "no_reliable_result_after_protocol", "next_action": "Review John P Morris's Box 539 personnel file for named pre-service and immediate pre-OSS affiliations.", "archival_review_priority": "medium"},
+    {"person_id": "c7fa01df-ec55-59c4-a800-eb79624065b4", "identity_status": "unresolved", "identity_evidence": "Five newspaper candidates were namesakes or OCR collisions; the indexed protected identifier did not produce an Army bulk match.", "research_status": "no_reliable_result_after_protocol", "next_action": "Review John T Morris's Box 539 personnel file; common-name sources do not resolve the person.", "archival_review_priority": "high"},
+    {"person_id": "e95a8794-b5f3-5715-a549-7bd0d1ba7ae7", "identity_status": "unresolved", "identity_evidence": "All three newspaper candidates concerned diplomat Leland B Morris, not indexed Leland C Morris.", "research_status": "no_reliable_result_after_protocol", "next_action": "Review Leland C Morris's Box 539 personnel file for identity and pre-OSS affiliation.", "archival_review_priority": "high"},
+    {"person_id": "eba9f0e6-f7cb-5492-943a-f210e9fee0af", "identity_status": "unresolved", "identity_evidence": "The newspaper candidates concerned Louise Krey Morris or unrelated OCR fragments.", "research_status": "no_reliable_result_after_protocol", "next_action": "Review Louise P Morris's Box 539 personnel file for identity and pre-OSS affiliation.", "archival_review_priority": "high"},
+    {"person_id": "ad6bfc7f-5479-558c-be0f-e981596bc25f", "identity_status": "unresolved", "identity_evidence": "The exact-name staged protocol found no reliable identity bridge or pre-OSS employer.", "research_status": "no_reliable_result_after_protocol", "next_action": "Review Sara N Morris's Box 539 personnel file for identity and pre-OSS affiliation.", "archival_review_priority": "high"},
+    {"person_id": "6d029516-fb8d-51b4-beec-e85ef406ad1c", "identity_status": "high_confidence", "identity_evidence": "Exact name and a nonshared protected identifier agree across the OSS index and official Army bulk record.", "manual_review_required": false, "research_status": "no_reliable_result_after_protocol", "next_action": "Review Thomas E Morris's Box 539 personnel file for named pre-service and immediate pre-OSS affiliations.", "archival_review_priority": "medium"},
+    {"person_id": "59674a03-df58-5599-897c-bf60bb7e5e1d", "identity_status": "unresolved", "identity_evidence": "Two newspaper candidates were old or OCR-collided results without an identity bridge.", "research_status": "no_reliable_result_after_protocol", "next_action": "Review Virginia L Morris's Box 539 personnel file for identity and pre-OSS affiliation.", "archival_review_priority": "high"},
+    {"person_id": "a6cc2f60-4833-503a-af18-e8478650e319", "identity_status": "high_confidence", "identity_evidence": "Exact name and a nonshared protected identifier agree across the OSS index and official Army bulk record.", "manual_review_required": false, "research_status": "no_reliable_result_after_protocol", "next_action": "Review Donald J Morrisey's Box 539 personnel file for named pre-service and immediate pre-OSS affiliations.", "archival_review_priority": "medium"},
+    {"person_id": "09766766-15bc-5bd1-acbb-0396be657f79", "identity_status": "unresolved", "identity_evidence": "Two newspaper candidates concerned a different Morrison family or an OCR collision.", "research_status": "no_reliable_result_after_protocol", "next_action": "Review Donald F Morrison's Box 539 personnel file for identity and pre-OSS affiliation.", "archival_review_priority": "high"},
+    {"person_id": "e9196030-2f7b-5c6a-b880-b2da7338f973", "identity_status": "high_confidence", "identity_evidence": "Exact name and a nonshared protected identifier agree across the OSS index and official Army bulk record.", "manual_review_required": false, "research_status": "no_reliable_result_after_protocol", "next_action": "Review Edward S Morrison's Box 539 personnel file for named pre-service and immediate pre-OSS affiliations.", "archival_review_priority": "medium"},
+    {"person_id": "3d8e8919-d041-5659-a838-28f389a64a38", "identity_status": "unresolved", "identity_evidence": "The exact-name staged protocol found no reliable identity bridge or pre-OSS employer.", "research_status": "no_reliable_result_after_protocol", "next_action": "Review Elbie E Morrison's Box 539 personnel file for identity and pre-OSS affiliation.", "archival_review_priority": "high"},
+    {"person_id": "f51002b8-e7b4-527e-8539-051ddbb64b7a", "identity_status": "unresolved", "identity_evidence": "The exact-name staged protocol found no reliable identity bridge or pre-OSS employer.", "research_status": "no_reliable_result_after_protocol", "next_action": "Review Frances C Morrison's Box 539 personnel file for identity and pre-OSS affiliation.", "archival_review_priority": "high"},
+    {"person_id": "a33a0a5c-83c1-5731-8007-4628e162af41", "identity_status": "ambiguous", "identity_evidence": "Five newspaper candidates were different people. The adjacent Hubert G Morrison row points by protected identifier to an Army record naming H G Morrison Junior, but the two index rows have different ranks and identifiers.", "manual_review_required": true, "possible_duplicate_group": "p330-hg-hubert-morrison-b680", "research_status": "requires_archival_review", "next_action": "Compare both Box 539 personnel files for H. G Morrison Jr. and Hubert G Morrison; do not merge without direct evidence.", "archival_review_priority": "critical"},
+    {"person_id": "27b1c1cb-c448-5bfd-8bd0-e0610a34ecb8", "identity_status": "conflicting", "identity_evidence": "The protected identifier points to an Army record naming H G Morrison Junior, while an adjacent separate OSS index row is already H. G Morrison Jr. with a different rank and identifier.", "manual_review_required": true, "possible_duplicate_group": "p330-hg-hubert-morrison-b680", "research_status": "conflicting_sources", "next_action": "Compare both Box 539 personnel files and resolve the Hubert/H. G. name and protected-identifier conflict.", "archival_review_priority": "critical"},
+    {"person_id": "57d00854-be39-5521-8e7a-cc16cfa1e5de", "identity_status": "high_confidence", "identity_evidence": "Exact name and a nonshared protected identifier agree across the OSS index and official Army bulk record; a newspaper namesake was rejected.", "manual_review_required": false, "research_status": "no_reliable_result_after_protocol", "next_action": "Review Hugh P Morrison's Box 539 personnel file for named pre-service and immediate pre-OSS affiliations.", "archival_review_priority": "medium"},
+    {"person_id": "ce2a9689-aef0-5a11-845e-3a5d6facbc4e", "identity_status": "high_confidence", "identity_evidence": "The uncommon exact name, FTC oral-history testimony, a Hoover OSS item, and contemporary Yale sources link the indexed person to Yale and OSS.", "manual_review_required": false, "research_status": "documented_prewar_employer_found", "next_action": "Review Phoebe Morrison's Box 539 file to determine whether Yale or an intervening government assignment immediately preceded OSS.", "archival_review_priority": "medium"},
+    {"person_id": "228f10b9-ca71-5d01-ab38-f40aeb4c2133", "identity_status": "high_confidence", "identity_evidence": "Exact name and a nonshared protected identifier agree across the OSS index and official Army bulk record; two newspaper namesakes were rejected.", "manual_review_required": false, "research_status": "no_reliable_result_after_protocol", "next_action": "Review Robert S Morrison's Box 539 personnel file for named pre-service and immediate pre-OSS affiliations.", "archival_review_priority": "medium"}
+  ],
+  "research_attempts": [
+    {"key": "batch680-charlotte-morrill-review", "person_id": "ee48651b-0a41-525f-b101-ddcee05d1250", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Charlotte Morrill OSS employer occupation", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T15:00:00Z", "completed_at": "2026-09-25T18:00:00Z", "outcome": "no_result", "sources_reviewed": 0, "candidate_sources_rejected": 0, "rejection_reasons": "No reliable exact-person source emerged from the staged protocol.", "research_notes": "The official index, exact-name OSS and employment searches, CIA-domain search, Library of Congress discovery, and broader institutional, newspaper, obituary, directory, and archival searches were reviewed. The direct CIA adapter failed closed and was not treated as negative evidence.", "next_action": "Review Box 539 personnel file.", "attempt_number": 2, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch680-daniel-e-morris-review", "person_id": "6557df06-a8b5-5b19-9fbd-4666a96c0f88", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Daniel E Morris OSS employer occupation", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T15:00:00Z", "completed_at": "2026-09-25T18:00:00Z", "outcome": "candidate_rejected", "sources_reviewed": 3, "candidate_sources_rejected": 3, "rejection_reasons": "The candidates named Morris Daniel Benson, Peter Daniel MacMorris, or combined unrelated names in OCR.", "research_notes": "The staged protocol was completed; the CIA adapter failed closed and was not treated as negative evidence.", "next_action": "Review Box 539 personnel file.", "attempt_number": 2, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch680-ethel-v-morris-review", "person_id": "59f173b7-14e6-5d24-84d8-1d0ff4a0cd05", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Ethel V Morris OSS employer occupation", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T15:00:00Z", "completed_at": "2026-09-25T18:00:00Z", "outcome": "no_result", "sources_reviewed": 0, "candidate_sources_rejected": 0, "rejection_reasons": "No reliable exact-person source emerged from the staged protocol.", "research_notes": "The official index, exact-name OSS and employment searches, CIA-domain search, Library of Congress discovery, and broader source checks were completed.", "next_action": "Review Box 539 personnel file.", "attempt_number": 2, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch680-jacquelyn-p-morris-review", "person_id": "ef082d99-61c0-5832-abc3-f61f415af2ca", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Jacquelyn P Morris OSS employer occupation", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T15:00:00Z", "completed_at": "2026-09-25T18:00:00Z", "outcome": "no_result", "sources_reviewed": 0, "candidate_sources_rejected": 0, "rejection_reasons": "No reliable exact-person source emerged from the staged protocol.", "research_notes": "The staged protocol was completed; the CIA adapter failed closed and was not treated as negative evidence.", "next_action": "Review Box 539 personnel file.", "attempt_number": 2, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch680-john-e-morris-review", "person_id": "a51c279b-f60f-5a25-acd2-d69fb1258da7", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "John E Morris OSS employer occupation", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T15:00:00Z", "completed_at": "2026-09-25T18:00:00Z", "outcome": "source_reviewed", "sources_reviewed": 6, "candidate_sources_rejected": 5, "rejection_reasons": "Five newspaper results were namesakes, old material, or OCR collisions.", "research_notes": "The Army identity candidate was accepted; coded occupation was excluded from employer evidence. No reliable named employer was found.", "next_action": "Review Box 539 personnel file.", "attempt_number": 2, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch680-john-f-morris-review", "person_id": "8e651acd-1a9e-569d-b63d-3f8446683604", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "John F Morris OSS employer occupation", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T15:00:00Z", "completed_at": "2026-09-25T18:00:00Z", "outcome": "source_reviewed", "sources_reviewed": 6, "candidate_sources_rejected": 5, "rejection_reasons": "Five newspaper results were namesakes, old material, or OCR collisions.", "research_notes": "The Army identity candidate was accepted; coded occupation was excluded from employer evidence. No reliable named employer was found.", "next_action": "Review Box 539 personnel file.", "attempt_number": 2, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch680-john-p-morris-review", "person_id": "714fdb95-6b2b-5e13-a6e5-901d7340790f", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "John P Morris OSS employer occupation", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T15:00:00Z", "completed_at": "2026-09-25T18:00:00Z", "outcome": "source_reviewed", "sources_reviewed": 6, "candidate_sources_rejected": 5, "rejection_reasons": "Five newspaper results were namesakes, old material, or OCR collisions.", "research_notes": "The Army identity candidate was accepted; coded occupation was excluded from employer evidence. No reliable named employer was found.", "next_action": "Review Box 539 personnel file.", "attempt_number": 2, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch680-john-t-morris-review", "person_id": "c7fa01df-ec55-59c4-a800-eb79624065b4", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "John T Morris OSS employer occupation", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T15:00:00Z", "completed_at": "2026-09-25T18:00:00Z", "outcome": "candidate_rejected", "sources_reviewed": 5, "candidate_sources_rejected": 5, "rejection_reasons": "All five newspaper results were namesakes, old material, or OCR collisions.", "research_notes": "No Army bulk candidate matched the indexed identifier. The staged protocol found no reliable named employer.", "next_action": "Review Box 539 personnel file.", "attempt_number": 2, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch680-leland-c-morris-review", "person_id": "e95a8794-b5f3-5715-a549-7bd0d1ba7ae7", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Leland C Morris OSS employer occupation", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T15:00:00Z", "completed_at": "2026-09-25T18:00:00Z", "outcome": "candidate_rejected", "sources_reviewed": 3, "candidate_sources_rejected": 3, "rejection_reasons": "All three candidates concerned diplomat Leland B Morris.", "research_notes": "The staged protocol found no reliable identity bridge or named employer for Leland C Morris.", "next_action": "Review Box 539 personnel file.", "attempt_number": 2, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch680-louise-p-morris-review", "person_id": "eba9f0e6-f7cb-5492-943a-f210e9fee0af", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Louise P Morris OSS employer occupation", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T15:00:00Z", "completed_at": "2026-09-25T18:00:00Z", "outcome": "candidate_rejected", "sources_reviewed": 3, "candidate_sources_rejected": 3, "rejection_reasons": "Candidates concerned Louise Krey Morris or unrelated OCR fragments.", "research_notes": "The staged protocol found no reliable identity bridge or named employer.", "next_action": "Review Box 539 personnel file.", "attempt_number": 2, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch680-sara-n-morris-review", "person_id": "ad6bfc7f-5479-558c-be0f-e981596bc25f", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Sara N Morris OSS employer occupation", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T15:00:00Z", "completed_at": "2026-09-25T18:00:00Z", "outcome": "no_result", "sources_reviewed": 0, "candidate_sources_rejected": 0, "rejection_reasons": "No reliable exact-person source emerged from the staged protocol.", "research_notes": "The staged protocol was completed; the CIA adapter failed closed and was not treated as negative evidence.", "next_action": "Review Box 539 personnel file.", "attempt_number": 2, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch680-thomas-e-morris-review", "person_id": "6d029516-fb8d-51b4-beec-e85ef406ad1c", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Thomas E Morris OSS employer occupation", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T15:00:00Z", "completed_at": "2026-09-25T18:00:00Z", "outcome": "source_reviewed", "sources_reviewed": 6, "candidate_sources_rejected": 5, "rejection_reasons": "Five newspaper results were Thomas F or Thomas G Morris, old material, or unsupported common-name mentions.", "research_notes": "The Army identity candidate was accepted; coded occupation was excluded from employer evidence. No reliable named employer was found.", "next_action": "Review Box 539 personnel file.", "attempt_number": 2, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch680-virginia-l-morris-review", "person_id": "59674a03-df58-5599-897c-bf60bb7e5e1d", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Virginia L Morris OSS employer occupation", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T15:00:00Z", "completed_at": "2026-09-25T18:00:00Z", "outcome": "candidate_rejected", "sources_reviewed": 2, "candidate_sources_rejected": 2, "rejection_reasons": "Candidates were an OCR institution-name collision and a 1910 page without an identity bridge.", "research_notes": "The staged protocol found no reliable identity bridge or named employer.", "next_action": "Review Box 539 personnel file.", "attempt_number": 2, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch680-donald-j-morrisey-review", "person_id": "a6cc2f60-4833-503a-af18-e8478650e319", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Donald J Morrisey OSS employer occupation", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T15:00:00Z", "completed_at": "2026-09-25T18:00:00Z", "outcome": "source_reviewed", "sources_reviewed": 1, "candidate_sources_rejected": 0, "research_notes": "The Army identity candidate was accepted; coded occupation was excluded from employer evidence. Broader staged searches found no reliable named employer.", "next_action": "Review Box 539 personnel file.", "attempt_number": 4, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch680-donald-f-morrison-review", "person_id": "09766766-15bc-5bd1-acbb-0396be657f79", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Donald F Morrison OSS employer occupation", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T15:00:00Z", "completed_at": "2026-09-25T18:00:00Z", "outcome": "candidate_rejected", "sources_reviewed": 2, "candidate_sources_rejected": 2, "rejection_reasons": "Candidates concerned a different Morrison family or an OCR collision.", "research_notes": "The staged protocol found no reliable identity bridge or named employer.", "next_action": "Review Box 539 personnel file.", "attempt_number": 2, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch680-edward-s-morrison-review", "person_id": "e9196030-2f7b-5c6a-b880-b2da7338f973", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Edward S Morrison OSS employer occupation", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T15:00:00Z", "completed_at": "2026-09-25T18:00:00Z", "outcome": "source_reviewed", "sources_reviewed": 6, "candidate_sources_rejected": 5, "rejection_reasons": "All five newspaper candidates concerned Reverend Edward L Morrison.", "research_notes": "The Army identity candidate was accepted; coded occupation was excluded from employer evidence. No reliable named employer was found.", "next_action": "Review Box 539 personnel file.", "attempt_number": 2, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch680-elbie-e-morrison-review", "person_id": "3d8e8919-d041-5659-a838-28f389a64a38", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Elbie E Morrison OSS employer occupation", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T15:00:00Z", "completed_at": "2026-09-25T18:00:00Z", "outcome": "no_result", "sources_reviewed": 0, "candidate_sources_rejected": 0, "rejection_reasons": "No reliable exact-person source emerged from the staged protocol.", "research_notes": "The staged protocol was completed; the CIA adapter failed closed and was not treated as negative evidence.", "next_action": "Review Box 539 personnel file.", "attempt_number": 2, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch680-frances-c-morrison-review", "person_id": "f51002b8-e7b4-527e-8539-051ddbb64b7a", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Frances C Morrison OSS employer occupation", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T15:00:00Z", "completed_at": "2026-09-25T18:00:00Z", "outcome": "no_result", "sources_reviewed": 0, "candidate_sources_rejected": 0, "rejection_reasons": "No reliable exact-person source emerged from the staged protocol.", "research_notes": "The staged protocol was completed; the CIA adapter failed closed and was not treated as negative evidence.", "next_action": "Review Box 539 personnel file.", "attempt_number": 2, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch680-h-g-morrison-jr-review", "person_id": "a33a0a5c-83c1-5731-8007-4628e162af41", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "H G Morrison Jr OSS employer occupation", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T15:00:00Z", "completed_at": "2026-09-25T18:00:00Z", "outcome": "candidate_rejected", "sources_reviewed": 5, "candidate_sources_rejected": 5, "rejection_reasons": "Candidates named McDonald, F. H., or J. K. Morrison Jr., a different family, or an old namesake.", "research_notes": "An adjacent index row creates a separate identity conflict; no source justifies merging the two people.", "next_action": "Compare both Box 539 personnel files.", "attempt_number": 2, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch680-hubert-g-morrison-review", "person_id": "27b1c1cb-c448-5bfd-8bd0-e0610a34ecb8", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Hubert G Morrison OSS employer occupation", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T15:00:00Z", "completed_at": "2026-09-25T18:00:00Z", "outcome": "source_reviewed", "sources_reviewed": 1, "candidate_sources_rejected": 0, "research_notes": "The Army record creates a name conflict with the adjacent H. G Morrison Jr. index row. Both people remain separate.", "next_action": "Compare both Box 539 personnel files.", "attempt_number": 2, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch680-hugh-p-morrison-review", "person_id": "57d00854-be39-5521-8e7a-cc16cfa1e5de", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Hugh P Morrison OSS employer occupation", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T15:00:00Z", "completed_at": "2026-09-25T18:00:00Z", "outcome": "source_reviewed", "sources_reviewed": 2, "candidate_sources_rejected": 1, "rejection_reasons": "The newspaper obituary concerned dentist Hugh John Morrison, born 1870.", "research_notes": "The Army identity candidate was accepted; coded occupation was excluded from employer evidence. No reliable named employer was found.", "next_action": "Review Box 539 personnel file.", "attempt_number": 2, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch680-phoebe-morrison-review", "person_id": "ce2a9689-aef0-5a11-845e-3a5d6facbc4e", "source_adapter": "official_index_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Phoebe Morrison OSS Yale employer occupation", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T15:00:00Z", "completed_at": "2026-09-25T18:00:00Z", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 0, "research_notes": "Contemporary Yale employment and independent OSS identity sources were accepted. A discovery-only intervening OPA claim was not published.", "next_action": "Review Box 539 personnel file to establish the immediate pre-OSS chronology.", "attempt_number": 2, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch680-robert-s-morrison-review", "person_id": "228f10b9-ca71-5d01-ab38-f40aeb4c2133", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Robert S Morrison OSS employer occupation", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T15:00:00Z", "completed_at": "2026-09-25T18:00:00Z", "outcome": "source_reviewed", "sources_reviewed": 3, "candidate_sources_rejected": 2, "rejection_reasons": "The newspaper results were unrelated or named Robert A Morrison.", "research_notes": "The Army identity candidate was accepted; coded occupation was excluded from employer evidence. No reliable named employer was found.", "next_action": "Review Box 539 personnel file.", "attempt_number": 2, "research_agent_version": "before-oss-batch-review-v1"}
+  ]
+}

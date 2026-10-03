@@ -1,0 +1,1222 @@
+{
+  "bundle_version": "batch-676-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 676 archival review",
+  "sources": [
+    {
+      "key": "nara-index-b676",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 536-537",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 328, rows 25-46, visually checked",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Full service identifiers remain private and are excluded from public output."
+    },
+    {
+      "key": "army-bulk-b676",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; reviewed bulk record ordinals retained as claim locators",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; exact-name and protected-identifier review for seven indexed people",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "Official bulk data, not a Catalog API response. Protected identifiers, coded occupations, and raw records are excluded from public output."
+    },
+    {
+      "key": "czech-mod-moravec-b676",
+      "stable_url": "https://acr.mo.gov.cz/en/ministry-of-defence/newsroom/news/general-frantisek-moravec-finally-returned-to-his-homeland-235071/",
+      "title": "General František Moravec finally returned to his homeland",
+      "author_creator": "Jakub Fajnor",
+      "repository_publisher": "Ministry of Defence & Armed Forces of the Czech Republic",
+      "publication_record_date": "2022-04-29",
+      "locator": "Career summary, paragraphs 10-12",
+      "access_date": "2026-09-25",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Ministry of Defence newsroom",
+      "rights_notes": "Project-authored paraphrase and a short excerpt only."
+    },
+    {
+      "key": "cia-moravec-review-b676",
+      "stable_url": "https://www.cia.gov/readingroom/docs/CIA-RDP78T03194A000400010021-8.pdf",
+      "archival_identifier": "CIA-RDP78T03194A000400010021-8",
+      "title": "Master of Spies: The Memoirs of General Moravec",
+      "repository_publisher": "Central Intelligence Agency, Studies in Intelligence",
+      "publication_record_date": "1975",
+      "locator": "Page 61, career summary",
+      "access_date": "2026-09-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "CIA Historical Review Program",
+      "rights_notes": "Official CIA-hosted historical review; cited as secondary corroboration, not as a personnel record."
+    },
+    {
+      "key": "princeton-morck-b676",
+      "stable_url": "https://paw.princeton.edu/memorial/wesley-c-morck-25",
+      "title": "Wesley C. Morck '25",
+      "repository_publisher": "Princeton Alumni Weekly",
+      "locator": "Memorial paragraphs 2-3",
+      "access_date": "2026-09-25",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Princeton alumni memorials",
+      "rights_notes": "The Clinton Oil interest is not converted into employment or oil-category membership."
+    },
+    {
+      "key": "loc-morde-1940-b676",
+      "stable_url": "https://www.loc.gov/resource/sn83045462/1940-08-02/ed-1/?sp=5",
+      "archival_identifier": "LCCN sn83045462, 1940-08-02, edition 1, image 5",
+      "title": "Evening Star, August 2, 1940, image 5",
+      "author_creator": "Evening Star",
+      "repository_publisher": "Library of Congress, Chronicling America",
+      "publication_record_date": "1940-08-02",
+      "locator": "Image 5, article naming Theodore A. Morde as an explorer",
+      "access_date": "2026-09-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Chronicling America",
+      "rights_notes": "Only a project-authored paraphrase of the relevant context is stored."
+    },
+    {
+      "key": "heideking-mauch-morde-b676",
+      "stable_url": "https://api.pageplace.de/preview/DT0400.9780429970900_A36189740/preview-9780429970900_A36189740.pdf",
+      "title": "American Intelligence and the German Resistance to Hitler: A Documentary History",
+      "author_creator": "Jürgen Heideking and Christof Mauch, editors; Marc Frey, assistant",
+      "repository_publisher": "Routledge",
+      "publication_record_date": "1996; 2018 edition",
+      "locator": "Contents, page ix; document 24a, pages 130-142",
+      "access_date": "2026-09-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Widerstand: Dissent and Resistance in the Third Reich",
+      "rights_notes": "Citation metadata, a short excerpt, and project-authored paraphrase only."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "czechoslovak-general-staff-second-directorate-b676",
+      "canonical_name": "Czechoslovak General Staff, Second Directorate",
+      "historical_name": "Second Directorate of the Czechoslovak General Staff",
+      "aliases": [
+        "Military Intelligence and Counterintelligence",
+        "Second Directorate"
+      ],
+      "organization_type": "military intelligence directorate",
+      "sector": "military",
+      "city": "Prague",
+      "country": "Czechoslovakia",
+      "active_dates": "Interwar period",
+      "normalization_notes": "Kept distinct from the later intelligence branch of the Czechoslovak Ministry of National Defence in exile."
+    },
+    {
+      "key": "brinton-and-company-b676",
+      "canonical_name": "Brinton & Co.",
+      "historical_name": "Brinton & Co.",
+      "aliases": [
+        "Brinton & Co"
+      ],
+      "organization_type": "brokerage firm",
+      "sector": "finance_and_banking",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "Historical firm name preserved as supplied by the Princeton memorial."
+    },
+    {
+      "key": "clinton-oil-company-b676",
+      "canonical_name": "Clinton Oil Company",
+      "historical_name": "Clinton Oil Co.",
+      "aliases": [
+        "Clinton Oil Co"
+      ],
+      "organization_type": "oil and gas company",
+      "sector": "business_and_industry",
+      "country": "United States",
+      "normalization_notes": "Wesley Morck's memorial documents an ownership interest, not employment. This organization must not place him in the oil-company employee category."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "moravec-second-directorate-b676",
+      "person_id": "514b026b-79f4-5f38-8030-ff2db7e80f2b",
+      "organization_key": "czechoslovak-general-staff-second-directorate-b676",
+      "organization_name_as_found": "Second Directorate of the General Staff: Military Intelligence and Counterintelligence",
+      "role_title": "Military intelligence officer",
+      "occupation": "career military and intelligence officer",
+      "relationship_type": "military_assignment",
+      "start_date": "1928",
+      "date_precision": "Year stated in the CIA historical review; later official Czech chronology documents his continuing military-intelligence career.",
+      "city": "Prague",
+      "country": "Czechoslovakia",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "This is a military assignment, not a civilian employer. The reviewed sources do not establish when or in what capacity the indexed OSS file relationship began."
+    },
+    {
+      "key": "morck-brinton-b676",
+      "person_id": "a1a84ce0-5053-5f29-9196-c2095378e810",
+      "organization_key": "brinton-and-company-b676",
+      "organization_name_as_found": "Brinton & Co",
+      "role_title": "Wall Street employee",
+      "occupation": "finance professional",
+      "relationship_type": "employment",
+      "date_precision": "The memorial says Morck joined the firm after college and later offered his services to OSS; exact tenure and transition dates are not stated.",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The source does not establish that Brinton & Co. immediately preceded OSS or was his last civilian employer before wartime service."
+    },
+    {
+      "key": "morck-clinton-oil-interest-b676",
+      "person_id": "a1a84ce0-5053-5f29-9196-c2095378e810",
+      "organization_key": "clinton-oil-company-b676",
+      "organization_name_as_found": "Clinton Oil Co.",
+      "role_title": "Holder of a sizeable interest",
+      "occupation": "business investor",
+      "relationship_type": "professional_affiliation",
+      "date_precision": "The memorial places the interest before his WWII OSS service but gives no acquisition, disposition, or operating-role dates.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Ownership interest is not silently converted into employment or self-employment. Morck is therefore excluded from the oil-company employee category."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-james-p-moran-b676",
+      "person_id": "dc3deaad-90fc-5dac-a12d-9668a2004f11",
+      "claim_type": "identity",
+      "claim_text": "The indexed James P Moran is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact name and a nonshared protected identifier. The Army record adds a Jr. suffix absent from the index; both forms remain recoverable.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code was not used as employer evidence. The Army record adds a Jr. suffix absent from the index; both forms remain recoverable.",
+      "sources": [
+        {
+          "source_key": "nara-index-b676",
+          "support_type": "supports",
+          "locator_override": "PDF page 328, row 27, T/Sgt, Box 536"
+        },
+        {
+          "source_key": "army-bulk-b676",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 2645202; exact name and nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-lester-w-moran-b676",
+      "person_id": "06d1c901-10f9-57b1-adad-87aaf6c99d95",
+      "claim_type": "identity",
+      "claim_text": "The indexed Lester W Moran is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code was not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b676",
+          "support_type": "supports",
+          "locator_override": "PDF page 328, row 30, Pfc, Box 536"
+        },
+        {
+          "source_key": "army-bulk-b676",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 7013505; exact name and nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-william-j-moravansky-b676",
+      "person_id": "24223730-0694-556e-9011-f8814a07757c",
+      "claim_type": "identity",
+      "claim_text": "The indexed William J Moravansky is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code was not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b676",
+          "support_type": "supports",
+          "locator_override": "PDF page 328, row 35, Pvt, Box 537"
+        },
+        {
+          "source_key": "army-bulk-b676",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 3813849; exact name and nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-william-m-morcock-b676",
+      "person_id": "51d58faa-c950-5c23-9b15-e5a3e3ff57e0",
+      "claim_type": "identity",
+      "claim_text": "The indexed William M Morcock is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code was not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b676",
+          "support_type": "supports",
+          "locator_override": "PDF page 328, row 40, rank blank, Box 537"
+        },
+        {
+          "source_key": "army-bulk-b676",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 4824331; exact name and nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-daniel-a-morea-b676",
+      "person_id": "c74fe740-5b07-57e0-869f-07e5c73d03df",
+      "claim_type": "identity",
+      "claim_text": "The indexed Daniel A Morea is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code was not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b676",
+          "support_type": "supports",
+          "locator_override": "PDF page 328, row 44, T-5, Box 537"
+        },
+        {
+          "source_key": "army-bulk-b676",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 3832669; exact name and nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-gregory-l-moreau-b676",
+      "person_id": "54c3b26f-f14f-5d83-94a7-5b0961294507",
+      "claim_type": "identity",
+      "claim_text": "The indexed Gregory L Moreau is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code was not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b676",
+          "support_type": "supports",
+          "locator_override": "PDF page 328, row 45, Pvt, Box 537"
+        },
+        {
+          "source_key": "army-bulk-b676",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 2786874; exact name and nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-conflict-james-h-moran-b676",
+      "person_id": "45216897-b9ce-59ee-bb1e-0cd8f74e7a81",
+      "claim_type": "identity",
+      "claim_text": "James H Moran's identity remains conflicting because the same protected identifier is printed for a different indexed name and rank.",
+      "evidence_paraphrase": "Rows 26 and 28 print different names and ranks while sharing a protected identifier.",
+      "identity_match_assessment": "Conflicting. The rows cannot be merged or assigned to one person without evidence from the indexed personnel files.",
+      "temporal_assessment": "Identity conflict only; no employment chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The possible match to James R Moran remains visible, and both source rows and person entities stay separate.",
+      "sources": [
+        {
+          "source_key": "nara-index-b676",
+          "support_type": "supports",
+          "locator_override": "PDF page 328, rows 26 and 28, Box 536; protected-identifier conflict"
+        }
+      ]
+    },
+    {
+      "key": "identity-conflict-james-r-moran-b676",
+      "person_id": "4f081029-3fe9-5fad-b4f2-d3507619b966",
+      "claim_type": "identity",
+      "claim_text": "James R Moran's identity remains conflicting because the same protected identifier is printed for a different indexed name and rank.",
+      "evidence_paraphrase": "Rows 28 and 26 print different names and ranks while sharing a protected identifier.",
+      "identity_match_assessment": "Conflicting. The rows cannot be merged or assigned to one person without evidence from the indexed personnel files.",
+      "temporal_assessment": "Identity conflict only; no employment chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The possible match to James H Moran remains visible, and both source rows and person entities stay separate.",
+      "sources": [
+        {
+          "source_key": "nara-index-b676",
+          "support_type": "supports",
+          "locator_override": "PDF page 328, rows 26 and 28, Box 536; protected-identifier conflict"
+        }
+      ]
+    },
+    {
+      "key": "identity-conflict-william-j-moran-b676",
+      "person_id": "2bcbe463-e458-5fb4-85a9-0b71409c4ee9",
+      "claim_type": "identity",
+      "claim_text": "William J Moran's identity remains conflicting because the same protected identifier is printed for a different indexed name and rank.",
+      "evidence_paraphrase": "Rows 34 and 32 print different names and ranks while sharing a protected identifier.",
+      "identity_match_assessment": "Conflicting. The rows cannot be merged or assigned to one person without evidence from the indexed personnel files.",
+      "temporal_assessment": "Identity conflict only; no employment chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The possible match to William S Moran remains visible, and both source rows and person entities stay separate.",
+      "sources": [
+        {
+          "source_key": "nara-index-b676",
+          "support_type": "supports",
+          "locator_override": "PDF page 328, rows 32 and 34, Box 536; protected-identifier conflict"
+        }
+      ]
+    },
+    {
+      "key": "identity-conflict-william-s-moran-b676",
+      "person_id": "3e2b7fe2-2c93-5061-97bf-6ff8e7611539",
+      "claim_type": "identity",
+      "claim_text": "William S Moran's identity remains conflicting because the same protected identifier is printed for a different indexed name and rank.",
+      "evidence_paraphrase": "Rows 32 and 34 print different names and ranks while sharing a protected identifier.",
+      "identity_match_assessment": "Conflicting. The rows cannot be merged or assigned to one person without evidence from the indexed personnel files.",
+      "temporal_assessment": "Identity conflict only; no employment chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The possible match to William J Moran remains visible, and both source rows and person entities stay separate.",
+      "sources": [
+        {
+          "source_key": "nara-index-b676",
+          "support_type": "supports",
+          "locator_override": "PDF page 328, rows 32 and 34, Box 536; protected-identifier conflict"
+        }
+      ]
+    },
+    {
+      "key": "identity-herbert-t-morcom-conflict-b676",
+      "person_id": "79e4357d-a18b-548e-963c-4984a5e8991f",
+      "claim_type": "identity",
+      "claim_text": "Herbert T Morcom's identity remains conflicting because the protected identifier printed in the index retrieves an official Army record under a different name.",
+      "evidence_paraphrase": "The index and Army source agree on the private identifier but disagree completely on the person's name.",
+      "identity_match_assessment": "Conflicting. A protected identifier cannot establish Herbert T Morcom's identity when the official Army record names a different person.",
+      "temporal_assessment": "Identity conflict only; no employment chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The unrelated Army name and coded occupation are excluded from publication. The discrepancy requires critical Box 537 review.",
+      "sources": [
+        {
+          "source_key": "nara-index-b676",
+          "support_type": "supports",
+          "locator_override": "PDF page 328, row 41, Pfc, Box 537"
+        },
+        {
+          "source_key": "army-bulk-b676",
+          "support_type": "contradicts",
+          "locator_override": "Bulk record ordinal 8126088; protected identifier agrees but name conflicts"
+        }
+      ]
+    },
+    {
+      "key": "identity-frantisek-moravec-b676",
+      "person_id": "514b026b-79f4-5f38-8030-ff2db7e80f2b",
+      "claim_type": "identity",
+      "claim_text": "The indexed Frantisek Moravec is a high-confidence match to the Czechoslovak career military-intelligence officer František Moravec.",
+      "evidence_excerpt": "he started to endeavour on intelligence activities",
+      "evidence_paraphrase": "Official Czech and CIA historical accounts describe the distinctive exact-name officer's interwar military-intelligence career and wartime exile leadership.",
+      "identity_match_assessment": "High confidence based on the distinctive exact full name and consistent military-intelligence chronology across the OSS index and two authoritative sources.",
+      "temporal_assessment": "The sources establish prewar and wartime intelligence assignments but do not date the start or nature of his indexed OSS relationship.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The diacritic form František is preserved as a documented variant. The index does not itself state an OSS job title.",
+      "sources": [
+        {
+          "source_key": "nara-index-b676",
+          "support_type": "supports",
+          "locator_override": "PDF page 328, row 36, Box 537"
+        },
+        {
+          "source_key": "czech-mod-moravec-b676",
+          "support_type": "supports",
+          "locator_override": "Career summary, paragraphs 10-12"
+        },
+        {
+          "source_key": "cia-moravec-review-b676",
+          "support_type": "supports",
+          "locator_override": "Page 61, career summary"
+        }
+      ]
+    },
+    {
+      "key": "moravec-second-directorate-work-b676",
+      "person_id": "514b026b-79f4-5f38-8030-ff2db7e80f2b",
+      "affiliation_key": "moravec-second-directorate-b676",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "František Moravec served in the Czechoslovak General Staff's Second Directorate from 1928 as a military intelligence and counterintelligence officer.",
+      "evidence_excerpt": "assigned to the Second Directorate of the General Staff: Military Intelligence and Counterintelligence",
+      "evidence_paraphrase": "The CIA historical review dates the assignment to 1928; the Czech Ministry of Defence independently describes his continuing military-intelligence career.",
+      "identity_match_assessment": "High confidence based on the distinctive exact name and matching military-intelligence biography.",
+      "temporal_assessment": "Documented prewar military assignment. It is not labeled a civilian employer or asserted as the immediate predecessor to OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The later government-in-exile assignment remains distinct; Box 537 review is needed to connect the chronology to the indexed file.",
+      "sources": [
+        {
+          "source_key": "cia-moravec-review-b676",
+          "support_type": "supports",
+          "locator_override": "Page 61, career summary"
+        },
+        {
+          "source_key": "czech-mod-moravec-b676",
+          "support_type": "supports",
+          "locator_override": "Career summary, paragraphs 10-12"
+        }
+      ]
+    },
+    {
+      "key": "identity-wesley-c-morck-b676",
+      "person_id": "a1a84ce0-5053-5f29-9196-c2095378e810",
+      "claim_type": "identity",
+      "claim_text": "The indexed Wesley C Morck is a high-confidence match to Princeton's Wesley C. Morck '25 memorial.",
+      "evidence_excerpt": "Wes offered his services to the Office of Strategic Services",
+      "evidence_paraphrase": "The rare exact full name and explicit OSS service align the institutional memorial with the index.",
+      "identity_match_assessment": "High confidence based on the rare exact name and explicit Office of Strategic Services service in an authoritative institutional memorial.",
+      "temporal_assessment": "The memorial sequences business activity before wartime OSS service but does not supply exact transition dates.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The memorial supports identity and documented prewar work; the personnel file remains necessary for precise chronology.",
+      "sources": [
+        {
+          "source_key": "nara-index-b676",
+          "support_type": "supports",
+          "locator_override": "PDF page 328, row 39, Box 537"
+        },
+        {
+          "source_key": "princeton-morck-b676",
+          "support_type": "supports",
+          "locator_override": "Memorial paragraphs 2-3"
+        }
+      ]
+    },
+    {
+      "key": "morck-brinton-work-b676",
+      "person_id": "a1a84ce0-5053-5f29-9196-c2095378e810",
+      "affiliation_key": "morck-brinton-b676",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Wesley C. Morck worked for the Wall Street firm Brinton & Co. after college and before his wartime OSS service.",
+      "evidence_excerpt": "he joined the firm of Brinton & Co",
+      "evidence_paraphrase": "The Princeton memorial places Morck at Brinton & Co. after college and before its subsequent sentence about wartime OSS service.",
+      "identity_match_assessment": "High confidence based on the rare exact name and explicit OSS link in the same institutional memorial.",
+      "temporal_assessment": "Documented prewar employment, not proven to be the immediate predecessor or last civilian employer before OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No exact tenure dates or job title are supplied; neither is inferred.",
+      "sources": [
+        {
+          "source_key": "princeton-morck-b676",
+          "support_type": "supports",
+          "locator_override": "Memorial paragraph 2"
+        }
+      ]
+    },
+    {
+      "key": "morck-clinton-oil-interest-b676",
+      "person_id": "a1a84ce0-5053-5f29-9196-c2095378e810",
+      "affiliation_key": "morck-clinton-oil-interest-b676",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Princeton's memorial says Wesley C. Morck acquired a sizeable interest in Clinton Oil Company before his wartime OSS service.",
+      "evidence_excerpt": "acquired a sizeable interest in the Clinton Oil Co.",
+      "evidence_paraphrase": "The memorial documents an ownership interest but does not say Morck worked for or operated the oil company.",
+      "identity_match_assessment": "High confidence that the memorial concerns the indexed person; the relationship type itself remains deliberately narrow.",
+      "temporal_assessment": "Documented prewar professional affiliation; exact dates and relationship to OSS entry are not stated.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "This claim does not qualify Morck for the oil-company employee category because it establishes neither employment nor self-employment.",
+      "sources": [
+        {
+          "source_key": "princeton-morck-b676",
+          "support_type": "supports",
+          "locator_override": "Memorial paragraph 2"
+        }
+      ]
+    },
+    {
+      "key": "identity-theodore-a-morde-b676",
+      "person_id": "a13de9e5-a321-57cb-b821-0c448f3a1c5f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Theodore A Morde is a high-confidence match to the Theodore A. Morde identified in a scholarly documentary history as an OSS agent.",
+      "evidence_excerpt": "Report by OSS Agent Theodore A. Morde",
+      "evidence_paraphrase": "A documentary history identifies an October 1943 report by OSS agent Theodore A. Morde, matching the index's distinctive exact name.",
+      "identity_match_assessment": "High confidence based on the distinctive exact full name and explicit OSS designation in a scholarly documentary edition.",
+      "temporal_assessment": "This establishes wartime OSS identity, not a pre-OSS employer.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The personnel file remains necessary to establish his entry date and immediate predecessor affiliation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b676",
+          "support_type": "supports",
+          "locator_override": "PDF page 328, row 42, Lt, Box 537"
+        },
+        {
+          "source_key": "heideking-mauch-morde-b676",
+          "support_type": "supports",
+          "locator_override": "Contents, page ix; document 24a, pages 130-142"
+        }
+      ]
+    },
+    {
+      "key": "occupation-theodore-a-morde-explorer-b676",
+      "person_id": "a13de9e5-a321-57cb-b821-0c448f3a1c5f",
+      "claim_type": "occupation",
+      "claim_text": "A contemporary 1940 newspaper described Theodore A. Morde as an explorer associated with New Bedford.",
+      "evidence_paraphrase": "The Evening Star's exact-name context identifies Theodore A. Morde as an explorer in 1940; no employer is named.",
+      "identity_match_assessment": "High confidence when the distinctive exact name is combined with independent scholarly evidence identifying the same name in OSS service.",
+      "temporal_assessment": "Documented prewar occupation. It is not shown to have been his immediate pre-OSS role.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Explorer is an occupation, not a named employer or institutional affiliation.",
+      "sources": [
+        {
+          "source_key": "loc-morde-1940-b676",
+          "support_type": "supports",
+          "locator_override": "Image 5, exact-name explorer context"
+        },
+        {
+          "source_key": "heideking-mauch-morde-b676",
+          "support_type": "context_only",
+          "locator_override": "Contents, page ix; identity corroboration"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "8d283782-a513-5230-bdc0-364108032904",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 536 for Grover C Moran's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "45216897-b9ce-59ee-bb1e-0cd8f74e7a81",
+      "manual_review_required": true,
+      "archival_review_priority": "critical",
+      "identity_status": "conflicting",
+      "identity_evidence": "A protected identifier is printed for two different indexed names and ranks; neither row is merged or preferred.",
+      "research_status": "conflicting_sources",
+      "next_action": "Compare both linked Box 536 personnel files and resolve the protected-identifier conflict without merging the source rows."
+    },
+    {
+      "person_id": "dc3deaad-90fc-5dac-a12d-9668a2004f11",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree between the OSS index and official Army bulk record.",
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 536 for James P Moran's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "name_variants": [
+        "James P Moran Jr"
+      ]
+    },
+    {
+      "person_id": "4f081029-3fe9-5fad-b4f2-d3507619b966",
+      "manual_review_required": true,
+      "archival_review_priority": "critical",
+      "identity_status": "conflicting",
+      "identity_evidence": "A protected identifier is printed for two different indexed names and ranks; neither row is merged or preferred.",
+      "research_status": "conflicting_sources",
+      "next_action": "Compare both linked Box 536 personnel files and resolve the protected-identifier conflict without merging the source rows."
+    },
+    {
+      "person_id": "8e9fd923-844e-5085-97e6-a0470f789d02",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 536 for Lawrence J Moran's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "06d1c901-10f9-57b1-adad-87aaf6c99d95",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree between the OSS index and official Army bulk record.",
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 536 for Lester W Moran's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "43ea30c9-0f94-50ca-9693-52f076f5c04d",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 536 for Vincent P Moran's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "3e2b7fe2-2c93-5061-97bf-6ff8e7611539",
+      "manual_review_required": true,
+      "archival_review_priority": "critical",
+      "identity_status": "conflicting",
+      "identity_evidence": "A protected identifier is printed for two different indexed names and ranks; neither row is merged or preferred.",
+      "research_status": "conflicting_sources",
+      "next_action": "Compare both linked Box 536 personnel files and resolve the protected-identifier conflict without merging the source rows."
+    },
+    {
+      "person_id": "af795873-3f55-5684-b8c0-97ea7cc9bff9",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 536 for William E Moran's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "2bcbe463-e458-5fb4-85a9-0b71409c4ee9",
+      "manual_review_required": true,
+      "archival_review_priority": "critical",
+      "identity_status": "conflicting",
+      "identity_evidence": "A protected identifier is printed for two different indexed names and ranks; neither row is merged or preferred.",
+      "research_status": "conflicting_sources",
+      "next_action": "Compare both linked Box 536 personnel files and resolve the protected-identifier conflict without merging the source rows."
+    },
+    {
+      "person_id": "24223730-0694-556e-9011-f8814a07757c",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree between the OSS index and official Army bulk record.",
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 537 for William J Moravansky's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "514b026b-79f4-5f38-8030-ff2db7e80f2b",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The distinctive exact name and military-intelligence chronology align across the OSS index, Czech Ministry of Defence, and CIA historical review.",
+      "name_variants": [
+        "František Moravec"
+      ],
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 537 to determine when and in what capacity František Moravec became represented in the OSS personnel files and whether his exile-ministry assignment was the immediate predecessor affiliation."
+    },
+    {
+      "person_id": "166373e3-7e6d-53b8-9338-d5827d97e9d7",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 537 for Edwin J Morby's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "d2c2dae0-c529-5e82-9c6d-6aa81f51339e",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 537 for Paul Morch's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "a1a84ce0-5053-5f29-9196-c2095378e810",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare exact name and explicit OSS service in Princeton's institutional memorial align with the index.",
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Inspect Box 537 to determine Morck's immediate pre-OSS affiliation, last civilian employer, and whether his Clinton Oil interest involved an operating role."
+    },
+    {
+      "person_id": "51d58faa-c950-5c23-9b15-e5a3e3ff57e0",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree between the OSS index and official Army bulk record.",
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 537 for William M Morcock's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "79e4357d-a18b-548e-963c-4984a5e8991f",
+      "manual_review_required": true,
+      "archival_review_priority": "critical",
+      "identity_status": "conflicting",
+      "identity_evidence": "The protected identifier printed in the index retrieves an official Army record under a different name; the unrelated name remains private.",
+      "research_status": "conflicting_sources",
+      "next_action": "Inspect Herbert T Morcom's Box 537 personnel file and the original index context to resolve the protected-identifier/name conflict."
+    },
+    {
+      "person_id": "a13de9e5-a321-57cb-b821-0c448f3a1c5f",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The distinctive exact name and explicit OSS-agent designation in a scholarly documentary history align with the index; a contemporary newspaper corroborates the prewar explorer occupation.",
+      "research_status": "occupation_only_found",
+      "next_action": "Inspect Box 537 for Morde's personnel file and the employer or institutional affiliation immediately preceding OSS service."
+    },
+    {
+      "person_id": "3dbf9882-0ca2-5014-8279-2f113db5efab",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 537 for Robert W More's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "c74fe740-5b07-57e0-869f-07e5c73d03df",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree between the OSS index and official Army bulk record.",
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 537 for Daniel A Morea's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "54c3b26f-f14f-5d83-94a7-5b0961294507",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree between the OSS index and official Army bulk record.",
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 537 for Gregory L Moreau's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "124e850d-0794-5705-949f-2998c93d4fec",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 537 for Pierre Moreau's personnel file and last civilian employer or immediate predecessor affiliation."
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b676-grover-c-moran-reviewed-search",
+      "person_id": "8d283782-a513-5230-bdc0-364108032904",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Grover C Moran; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T09:00:00Z",
+      "completed_at": "2026-09-25T10:10:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Newspaper candidates not retained were name-only, wrong-name, term-only, or temporally unsuitable contexts lacking an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 536 for Grover C Moran's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-676-v1"
+    },
+    {
+      "key": "b676-james-h-moran-reviewed-search",
+      "person_id": "45216897-b9ce-59ee-bb1e-0cd8f74e7a81",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "James H Moran; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T09:00:00Z",
+      "completed_at": "2026-09-25T10:10:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Newspaper candidates not retained were name-only, wrong-name, term-only, or temporally unsuitable contexts lacking an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The same protected identifier is printed for two different index names and ranks. The minimum staged protocol and newspaper contexts did not resolve the conflict. Both rows and entities remain separate pending personnel-file review.",
+      "next_action": "Compare both linked Box 536 personnel files and resolve the protected-identifier conflict without merging the source rows.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-676-v1"
+    },
+    {
+      "key": "b676-james-p-moran-reviewed-search",
+      "person_id": "dc3deaad-90fc-5dac-a12d-9668a2004f11",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "James P Moran; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T09:00:00Z",
+      "completed_at": "2026-09-25T10:10:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Newspaper candidates not retained were name-only, wrong-name, term-only, or temporally unsuitable contexts lacking an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol included official NARA and Army evidence, public CIA-domain review, exact-name OSS and employment searches, live Library of Congress review, and institutional, obituary, directory, and archival checks. The official Army bulk file supplies a high-confidence identity bridge only; its coded occupation was neither published nor treated as employer evidence.",
+      "next_action": "Inspect Box 536 for James P Moran's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-676-v1"
+    },
+    {
+      "key": "b676-james-r-moran-reviewed-search",
+      "person_id": "4f081029-3fe9-5fad-b4f2-d3507619b966",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "James R Moran; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T09:00:00Z",
+      "completed_at": "2026-09-25T10:10:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Newspaper candidates not retained were name-only, wrong-name, term-only, or temporally unsuitable contexts lacking an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The same protected identifier is printed for two different index names and ranks. The minimum staged protocol and newspaper contexts did not resolve the conflict. Both rows and entities remain separate pending personnel-file review.",
+      "next_action": "Compare both linked Box 536 personnel files and resolve the protected-identifier conflict without merging the source rows.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-676-v1"
+    },
+    {
+      "key": "b676-lawrence-j-moran-reviewed-search",
+      "person_id": "8e9fd923-844e-5085-97e6-a0470f789d02",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Lawrence J Moran; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T09:00:00Z",
+      "completed_at": "2026-09-25T10:10:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Newspaper candidates not retained were name-only, wrong-name, term-only, or temporally unsuitable contexts lacking an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 536 for Lawrence J Moran's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-676-v1"
+    },
+    {
+      "key": "b676-lester-w-moran-reviewed-search",
+      "person_id": "06d1c901-10f9-57b1-adad-87aaf6c99d95",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Lester W Moran; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T09:00:00Z",
+      "completed_at": "2026-09-25T10:10:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Newspaper candidates not retained were name-only, wrong-name, term-only, or temporally unsuitable contexts lacking an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol included official NARA and Army evidence, public CIA-domain review, exact-name OSS and employment searches, live Library of Congress review, and institutional, obituary, directory, and archival checks. The official Army bulk file supplies a high-confidence identity bridge only; its coded occupation was neither published nor treated as employer evidence.",
+      "next_action": "Inspect Box 536 for Lester W Moran's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-676-v1"
+    },
+    {
+      "key": "b676-vincent-p-moran-reviewed-search",
+      "person_id": "43ea30c9-0f94-50ca-9693-52f076f5c04d",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Vincent P Moran; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T09:00:00Z",
+      "completed_at": "2026-09-25T10:10:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Newspaper candidates not retained were name-only, wrong-name, term-only, or temporally unsuitable contexts lacking an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 536 for Vincent P Moran's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-676-v1"
+    },
+    {
+      "key": "b676-william-s-moran-reviewed-search",
+      "person_id": "3e2b7fe2-2c93-5061-97bf-6ff8e7611539",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "William S Moran; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T09:00:00Z",
+      "completed_at": "2026-09-25T10:10:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Newspaper candidates not retained were name-only, wrong-name, term-only, or temporally unsuitable contexts lacking an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The same protected identifier is printed for two different index names and ranks. The minimum staged protocol and newspaper contexts did not resolve the conflict. Both rows and entities remain separate pending personnel-file review.",
+      "next_action": "Compare both linked Box 536 personnel files and resolve the protected-identifier conflict without merging the source rows.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-676-v1"
+    },
+    {
+      "key": "b676-william-e-moran-reviewed-search",
+      "person_id": "af795873-3f55-5684-b8c0-97ea7cc9bff9",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "William E Moran; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T09:00:00Z",
+      "completed_at": "2026-09-25T10:10:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Newspaper candidates not retained were name-only, wrong-name, term-only, or temporally unsuitable contexts lacking an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 536 for William E Moran's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-676-v1"
+    },
+    {
+      "key": "b676-william-j-moran-reviewed-search",
+      "person_id": "2bcbe463-e458-5fb4-85a9-0b71409c4ee9",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "William J Moran; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T09:00:00Z",
+      "completed_at": "2026-09-25T10:10:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Newspaper candidates not retained were name-only, wrong-name, term-only, or temporally unsuitable contexts lacking an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The same protected identifier is printed for two different index names and ranks. The minimum staged protocol and newspaper contexts did not resolve the conflict. Both rows and entities remain separate pending personnel-file review.",
+      "next_action": "Compare both linked Box 536 personnel files and resolve the protected-identifier conflict without merging the source rows.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-676-v1"
+    },
+    {
+      "key": "b676-william-j-moravansky-reviewed-search",
+      "person_id": "24223730-0694-556e-9011-f8814a07757c",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "William J Moravansky; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T09:00:00Z",
+      "completed_at": "2026-09-25T10:10:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Newspaper candidates not retained were name-only, wrong-name, term-only, or temporally unsuitable contexts lacking an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol included official NARA and Army evidence, public CIA-domain review, exact-name OSS and employment searches, live Library of Congress review, and institutional, obituary, directory, and archival checks. The official Army bulk file supplies a high-confidence identity bridge only; its coded occupation was neither published nor treated as employer evidence.",
+      "next_action": "Inspect Box 537 for William J Moravansky's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-676-v1"
+    },
+    {
+      "key": "b676-frantisek-moravec-reviewed-search",
+      "person_id": "514b026b-79f4-5f38-8030-ff2db7e80f2b",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Frantisek Moravec; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T09:00:00Z",
+      "completed_at": "2026-09-25T10:10:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Newspaper candidates not retained were name-only, wrong-name, term-only, or temporally unsuitable contexts lacking an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "Official Czech and CIA sources establish a high-confidence identity and interwar military-intelligence assignment. They do not establish a civilian employer or the exact start and nature of his OSS-file relationship, so Box 537 review remains necessary.",
+      "next_action": "Inspect Box 537 to determine when and in what capacity František Moravec became represented in the OSS personnel files and whether his exile-ministry assignment was the immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-676-v1"
+    },
+    {
+      "key": "b676-edwin-j-morby-reviewed-search",
+      "person_id": "166373e3-7e6d-53b8-9338-d5827d97e9d7",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Edwin J Morby; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T09:00:00Z",
+      "completed_at": "2026-09-25T10:10:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Newspaper candidates not retained were name-only, wrong-name, term-only, or temporally unsuitable contexts lacking an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 537 for Edwin J Morby's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-676-v1"
+    },
+    {
+      "key": "b676-paul-morch-reviewed-search",
+      "person_id": "d2c2dae0-c529-5e82-9c6d-6aa81f51339e",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Paul Morch; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T09:00:00Z",
+      "completed_at": "2026-09-25T10:10:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Newspaper candidates not retained were name-only, wrong-name, term-only, or temporally unsuitable contexts lacking an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 537 for Paul Morch's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-676-v1"
+    },
+    {
+      "key": "b676-wesley-c-morck-reviewed-search",
+      "person_id": "a1a84ce0-5053-5f29-9196-c2095378e810",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Wesley C Morck; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T09:00:00Z",
+      "completed_at": "2026-09-25T10:10:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Newspaper candidates not retained were name-only, wrong-name, term-only, or temporally unsuitable contexts lacking an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "Princeton's memorial establishes employment at Brinton & Co. and a separate ownership interest in Clinton Oil before OSS service. The oil interest is not converted into employment, so Morck is excluded from the oil-company employee category. Immediate and last-civilian chronology still requires the personnel file.",
+      "next_action": "Inspect Box 537 to determine Morck's immediate pre-OSS affiliation, last civilian employer, and whether his Clinton Oil interest involved an operating role.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-676-v1"
+    },
+    {
+      "key": "b676-william-m-morcock-reviewed-search",
+      "person_id": "51d58faa-c950-5c23-9b15-e5a3e3ff57e0",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "William M Morcock; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T09:00:00Z",
+      "completed_at": "2026-09-25T10:10:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Newspaper candidates not retained were name-only, wrong-name, term-only, or temporally unsuitable contexts lacking an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol included official NARA and Army evidence, public CIA-domain review, exact-name OSS and employment searches, live Library of Congress review, and institutional, obituary, directory, and archival checks. The official Army bulk file supplies a high-confidence identity bridge only; its coded occupation was neither published nor treated as employer evidence.",
+      "next_action": "Inspect Box 537 for William M Morcock's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-676-v1"
+    },
+    {
+      "key": "b676-herbert-t-morcom-reviewed-search",
+      "person_id": "79e4357d-a18b-548e-963c-4984a5e8991f",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Herbert T Morcom; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T09:00:00Z",
+      "completed_at": "2026-09-25T10:10:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Newspaper candidates not retained were name-only, wrong-name, term-only, or temporally unsuitable contexts lacking an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The protected identifier returned an official Army record under a wholly different name. That candidate was rejected, the unrelated name and occupation were withheld, and the case remains an explicit identity conflict requiring Box 537 review.",
+      "next_action": "Inspect Herbert T Morcom's Box 537 personnel file and the original index context to resolve the protected-identifier/name conflict.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-676-v1"
+    },
+    {
+      "key": "b676-theodore-a-morde-reviewed-search",
+      "person_id": "a13de9e5-a321-57cb-b821-0c448f3a1c5f",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Theodore A Morde; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T09:00:00Z",
+      "completed_at": "2026-09-25T10:10:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Newspaper candidates not retained were name-only, wrong-name, term-only, or temporally unsuitable contexts lacking an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "A contemporary newspaper and scholarly documentary history establish a high-confidence OSS identity and the prewar occupation of explorer. No named employer or immediate predecessor affiliation was found.",
+      "next_action": "Inspect Box 537 for Morde's personnel file and the employer or institutional affiliation immediately preceding OSS service.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-676-v1"
+    },
+    {
+      "key": "b676-robert-w-more-reviewed-search",
+      "person_id": "3dbf9882-0ca2-5014-8279-2f113db5efab",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Robert W More; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T09:00:00Z",
+      "completed_at": "2026-09-25T10:10:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Newspaper candidates not retained were name-only, wrong-name, term-only, or temporally unsuitable contexts lacking an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 537 for Robert W More's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-676-v1"
+    },
+    {
+      "key": "b676-daniel-a-morea-reviewed-search",
+      "person_id": "c74fe740-5b07-57e0-869f-07e5c73d03df",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Daniel A Morea; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T09:00:00Z",
+      "completed_at": "2026-09-25T10:10:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Newspaper candidates not retained were name-only, wrong-name, term-only, or temporally unsuitable contexts lacking an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol included official NARA and Army evidence, public CIA-domain review, exact-name OSS and employment searches, live Library of Congress review, and institutional, obituary, directory, and archival checks. The official Army bulk file supplies a high-confidence identity bridge only; its coded occupation was neither published nor treated as employer evidence.",
+      "next_action": "Inspect Box 537 for Daniel A Morea's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch-676-v1"
+    },
+    {
+      "key": "b676-gregory-l-moreau-reviewed-search",
+      "person_id": "54c3b26f-f14f-5d83-94a7-5b0961294507",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Gregory L Moreau; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T09:00:00Z",
+      "completed_at": "2026-09-25T10:10:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Newspaper candidates not retained were name-only, wrong-name, term-only, or temporally unsuitable contexts lacking an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol included official NARA and Army evidence, public CIA-domain review, exact-name OSS and employment searches, live Library of Congress review, and institutional, obituary, directory, and archival checks. The official Army bulk file supplies a high-confidence identity bridge only; its coded occupation was neither published nor treated as employer evidence.",
+      "next_action": "Inspect Box 537 for Gregory L Moreau's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-676-v1"
+    },
+    {
+      "key": "b676-pierre-moreau-reviewed-search",
+      "person_id": "124e850d-0794-5705-949f-2998c93d4fec",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Pierre Moreau; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T09:00:00Z",
+      "completed_at": "2026-09-25T10:10:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Newspaper candidates not retained were name-only, wrong-name, term-only, or temporally unsuitable contexts lacking an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 537 for Pierre Moreau's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-676-v1"
+    }
+  ]
+}

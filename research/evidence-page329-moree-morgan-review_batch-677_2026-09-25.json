@@ -1,0 +1,1124 @@
+{
+  "bundle_version": "batch-677-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 677 archival review",
+  "sources": [
+    {
+      "key": "nara-index-b677",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 537",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 329, rows 1-24, visually checked",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Full service identifiers remain private and are excluded from public output."
+    },
+    {
+      "key": "army-bulk-b677",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; reviewed bulk record ordinals retained as claim locators",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; protected-identifier review for nine indexed people",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "Official bulk data, not a Catalog API response. Protected identifiers, coded occupations, and raw records are excluded from public output."
+    },
+    {
+      "key": "cia-moree-b677",
+      "stable_url": "https://www.cia.gov/readingroom/docs/OSS%20LTC%20ELLERY%20HUNTINGTON%5B16182511%5D.pdf",
+      "archival_identifier": "CIA Reading Room document C02730858",
+      "title": "OSS LTC Ellery Huntington",
+      "author_creator": "Central Intelligence Agency historical records",
+      "repository_publisher": "Central Intelligence Agency Reading Room",
+      "locator": "Discussion of the spring 1942 Eifler mission and original Detachment 101 personnel",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "OSS Collection",
+      "rights_notes": "Project-authored paraphrase and a short excerpt only."
+    },
+    {
+      "key": "nps-moree-b677",
+      "stable_url": "https://www.nps.gov/parkhistory/online_books/oss/chap9.pdf",
+      "title": "OSS Training in the National Parks and Service Abroad in World War II, Chapter 9: Pacific and Far East",
+      "author_creator": "John Whiteclay Chambers II",
+      "repository_publisher": "National Park Service",
+      "locator": "Page 390, Area B trainees and Detachment 101",
+      "access_date": "2026-09-25",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "National Park Service history",
+      "rights_notes": "Official federal historical publication."
+    },
+    {
+      "key": "spokane-morelli-b677",
+      "stable_url": "https://www.uswarmemorials.org/html/monument_details.php?MemID=1811&SiteID=1378",
+      "title": "Operation Spokane OSS Monument",
+      "repository_publisher": "U.S. War Memorials Overseas, Inc.",
+      "locator": "Operation Spokane personnel roster; Bernard Morelli entry dated 21 March 1945",
+      "access_date": "2026-09-25",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "U.S. War Memorials Overseas monument inventory",
+      "rights_notes": "Used only as corroborative mission context, not as pre-OSS employment evidence."
+    },
+    {
+      "key": "shd-morere-b677",
+      "stable_url": "https://www.servicehistorique.sga.defense.gouv.fr/sites/default/files/2019-10/SHDGR_INV_28P4_DOSSIERS_DES_AGENTS_DES_RESEAUX_0.pdf",
+      "archival_identifier": "GR 28 P 4 396 / 143; cross-reference GR 16 P 295572",
+      "title": "Dossiers individuels des agents des réseaux: instrument de recherche GR 28 P 4",
+      "author_creator": "Service historique de la Défense",
+      "repository_publisher": "Service historique de la Défense, France",
+      "publication_record_date": "2017",
+      "locator": "Page 356, dossier individuel de Jean-Marie MORERE",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Dossiers individuels des agents des réseaux",
+      "rights_notes": "Archival finding aid supplies a direct identity pointer; it does not by itself prove employment chronology."
+    },
+    {
+      "key": "ventduport-morere-b677",
+      "stable_url": "https://www.ventduport.com/passages-r%C3%A9seaux/",
+      "title": "Le réseau Wi-Wi de l'OSS 1943-1944",
+      "repository_publisher": "Vent du Port",
+      "locator": "Origins and chronology sections for Jean-Marie Morère",
+      "access_date": "2026-09-25",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "Local historical research on Pyrenean wartime networks",
+      "rights_notes": "Cited with official and institutional corroboration; project-authored paraphrase and short excerpts only."
+    },
+    {
+      "key": "dachau-morere-b677",
+      "stable_url": "https://www.comiteinternationaldachau.com/pageflippdf/catalogs/AmicaleBulletinNumero763/pdf/complete.pdf",
+      "title": "Bulletin trimestriel de liaison de l'Amicale du camp de concentration de Dachau, no. 763",
+      "repository_publisher": "Amicale du camp de concentration de Dachau / Comité International de Dachau",
+      "locator": "History article on the Wi-Wi network and Jean-Marie Morère",
+      "access_date": "2026-09-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Dachau survivors and families bulletin",
+      "rights_notes": "Project-authored paraphrase and a short excerpt only."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "marseille-police-b677",
+      "canonical_name": "Marseille Police",
+      "historical_name": "police de Marseille",
+      "aliases": [
+        "Police de Marseille",
+        "Marseille police"
+      ],
+      "organization_type": "municipal police service",
+      "sector": "state_or_local_government",
+      "city": "Marseille",
+      "state_or_region": "Bouches-du-Rhône",
+      "country": "France",
+      "active_dates": "Documented for Morère, 1921-1943",
+      "normalization_notes": "Historical wording is preserved. No modern successor organization is substituted."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "morere-marseille-police-b677",
+      "person_id": "e87eba5a-b3ad-52ec-ac07-d2c5d198709f",
+      "organization_key": "marseille-police-b677",
+      "organization_name_as_found": "police de Marseille",
+      "role_title": "Gardien de la paix",
+      "occupation": "police officer",
+      "relationship_type": "employment",
+      "start_date": "1921-05-01",
+      "end_date": "1943-03",
+      "date_precision": "Start day is explicit; resignation is placed in March 1943, shortly before departure for Spain and OSS contact around 1 May.",
+      "city": "Marseille",
+      "state_or_region": "Bouches-du-Rhône",
+      "country": "France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The police employment is the last documented civilian employer before Morère entered the OSS-linked Wi-Wi network. It is not labeled immediate pre-OSS because he resigned, traveled through Spain, and sought Free French service before OSS contact."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-raymound-o-morehouse-b677",
+      "person_id": "c1ed6da3-3b64-5ed5-ba92-4cdf18638f3b",
+      "claim_type": "identity",
+      "claim_text": "The indexed Raymound O Morehouse is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The OSS index and Army bulk record agree through a nonshared protected identifier; the reviewed basis is protected identifier; spelling variant. The Army rendering 'MOREHOUSE RAYMOND O' is preserved as a variant and not silently substituted for the index spelling.",
+      "identity_match_assessment": "High confidence because a nonshared protected identifier links the two official records; any name discrepancy is explicitly preserved.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer or immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the coded occupation was not used as employer evidence. The Army rendering 'MOREHOUSE RAYMOND O' is preserved as a variant and not silently substituted for the index spelling.",
+      "sources": [
+        {
+          "source_key": "nara-index-b677",
+          "support_type": "supports",
+          "locator_override": "PDF page 329, row 2, Pvt, Box 537"
+        },
+        {
+          "source_key": "army-bulk-b677",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 3719410; protected identifier; spelling variant"
+        }
+      ]
+    },
+    {
+      "key": "identity-bernard-morelli-b677",
+      "person_id": "a74411a9-1fd9-5537-835f-3263cc6e511c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Bernard Morelli is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The OSS index and Army bulk record agree through a nonshared protected identifier; the reviewed basis is exact name and protected identifier. The Army rendering 'MORELLI BERNARD' is preserved as a variant and not silently substituted for the index spelling.",
+      "identity_match_assessment": "High confidence because a nonshared protected identifier links the two official records; any name discrepancy is explicitly preserved.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer or immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the coded occupation was not used as employer evidence. The Army rendering 'MORELLI BERNARD' is preserved as a variant and not silently substituted for the index spelling. A secondary monument inventory independently places an S/Sgt Bernard Morelli in the OSS Operation Spokane roster.",
+      "sources": [
+        {
+          "source_key": "nara-index-b677",
+          "support_type": "supports",
+          "locator_override": "PDF page 329, row 5, S/SGT, Box 537"
+        },
+        {
+          "source_key": "army-bulk-b677",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 2803321; exact name and protected identifier"
+        },
+        {
+          "source_key": "spokane-morelli-b677",
+          "support_type": "supports",
+          "locator_override": "Operation Spokane roster, 21 March 1945",
+          "excerpt_override": "S/Sgt. Bernard Morelli 21/3/45"
+        }
+      ]
+    },
+    {
+      "key": "identity-emil-s-morelli-b677",
+      "person_id": "028f4423-3632-5eed-b3d5-ac5ce4159acf",
+      "claim_type": "identity",
+      "claim_text": "The indexed Emil S Morelli is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The OSS index and Army bulk record agree through a nonshared protected identifier; the reviewed basis is protected identifier; character-loss name rendering. The Army rendering 'MOR LLI EMIL S' is preserved as a variant and not silently substituted for the index spelling.",
+      "identity_match_assessment": "High confidence because a nonshared protected identifier links the two official records; any name discrepancy is explicitly preserved.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer or immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the coded occupation was not used as employer evidence. The Army rendering 'MOR LLI EMIL S' is preserved as a variant and not silently substituted for the index spelling.",
+      "sources": [
+        {
+          "source_key": "nara-index-b677",
+          "support_type": "supports",
+          "locator_override": "PDF page 329, row 7, rank blank, Box 537"
+        },
+        {
+          "source_key": "army-bulk-b677",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 650382; protected identifier; character-loss name rendering"
+        }
+      ]
+    },
+    {
+      "key": "identity-ettore-morelli-b677",
+      "person_id": "a9c5b01d-9b11-5bf9-9e84-1c32bbc9bf10",
+      "claim_type": "identity",
+      "claim_text": "The indexed Ettore Morelli is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The OSS index and Army bulk record agree through a nonshared protected identifier; the reviewed basis is protected identifier; surname character and middle-initial discrepancy. The Army rendering 'MORELL ETTORE R' is preserved as a variant and not silently substituted for the index spelling.",
+      "identity_match_assessment": "High confidence because a nonshared protected identifier links the two official records; any name discrepancy is explicitly preserved.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer or immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the coded occupation was not used as employer evidence. The Army rendering 'MORELL ETTORE R' is preserved as a variant and not silently substituted for the index spelling.",
+      "sources": [
+        {
+          "source_key": "nara-index-b677",
+          "support_type": "supports",
+          "locator_override": "PDF page 329, row 8, rank blank, Box 537"
+        },
+        {
+          "source_key": "army-bulk-b677",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 4511707; protected identifier; surname character and middle-initial discrepancy"
+        }
+      ]
+    },
+    {
+      "key": "identity-courtland-c-morelock-b677",
+      "person_id": "ad03d7fa-5ea0-5daf-8961-f2f26bcd30fa",
+      "claim_type": "identity",
+      "claim_text": "The indexed Courtland C Morelock is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The OSS index and Army bulk record agree through a nonshared protected identifier; the reviewed basis is exact name and protected identifier. The Army rendering 'MORELOCK COURTLAND C' is preserved as a variant and not silently substituted for the index spelling.",
+      "identity_match_assessment": "High confidence because a nonshared protected identifier links the two official records; any name discrepancy is explicitly preserved.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer or immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the coded occupation was not used as employer evidence. The Army rendering 'MORELOCK COURTLAND C' is preserved as a variant and not silently substituted for the index spelling.",
+      "sources": [
+        {
+          "source_key": "nara-index-b677",
+          "support_type": "supports",
+          "locator_override": "PDF page 329, row 9, Pvt, Box 537"
+        },
+        {
+          "source_key": "army-bulk-b677",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 8599858; exact name and protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-cesare-a-moretti-b677",
+      "person_id": "1372ab39-0237-5991-8759-4f952a72209a",
+      "claim_type": "identity",
+      "claim_text": "The indexed Cesare A Moretti is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The OSS index and Army bulk record agree through a nonshared protected identifier; the reviewed basis is exact name and protected identifier. The Army rendering 'MORETTI CESARE A' is preserved as a variant and not silently substituted for the index spelling.",
+      "identity_match_assessment": "High confidence because a nonshared protected identifier links the two official records; any name discrepancy is explicitly preserved.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer or immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the coded occupation was not used as employer evidence. The Army rendering 'MORETTI CESARE A' is preserved as a variant and not silently substituted for the index spelling.",
+      "sources": [
+        {
+          "source_key": "nara-index-b677",
+          "support_type": "supports",
+          "locator_override": "PDF page 329, row 12, Sgt, Box 537"
+        },
+        {
+          "source_key": "army-bulk-b677",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 3268328; exact name and protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-benjamin-t-morgan-b677",
+      "person_id": "34c7f795-525c-5be1-8a98-340d05d3d826",
+      "claim_type": "identity",
+      "claim_text": "The indexed Benjamin T Morgan is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The OSS index and Army bulk record agree through a nonshared protected identifier; the reviewed basis is exact name and protected identifier. The Army rendering 'MORGAN BENJAMIN T' is preserved as a variant and not silently substituted for the index spelling.",
+      "identity_match_assessment": "High confidence because a nonshared protected identifier links the two official records; any name discrepancy is explicitly preserved.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer or immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the coded occupation was not used as employer evidence. The Army rendering 'MORGAN BENJAMIN T' is preserved as a variant and not silently substituted for the index spelling.",
+      "sources": [
+        {
+          "source_key": "nara-index-b677",
+          "support_type": "supports",
+          "locator_override": "PDF page 329, row 15, Cpl, Box 537"
+        },
+        {
+          "source_key": "army-bulk-b677",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 8098838; exact name and protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-elliot-w-morgan-b677",
+      "person_id": "45e51449-9a45-57b2-8291-2eaf7324ed1f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Elliot W Morgan is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The OSS index and Army bulk record agree through a nonshared protected identifier; the reviewed basis is exact name and protected identifier. The Army rendering 'MORGAN ELLIOT W' is preserved as a variant and not silently substituted for the index spelling.",
+      "identity_match_assessment": "High confidence because a nonshared protected identifier links the two official records; any name discrepancy is explicitly preserved.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer or immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the coded occupation was not used as employer evidence. The Army rendering 'MORGAN ELLIOT W' is preserved as a variant and not silently substituted for the index spelling.",
+      "sources": [
+        {
+          "source_key": "nara-index-b677",
+          "support_type": "supports",
+          "locator_override": "PDF page 329, row 17, S/Sgt, Box 537"
+        },
+        {
+          "source_key": "army-bulk-b677",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 8206553; exact name and protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-elwyn-w-morgan-b677",
+      "person_id": "6132aa89-ccf5-5f06-a19c-1e7b0d7c427c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Elwyn W Morgan is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The OSS index and Army bulk record agree through a nonshared protected identifier; the reviewed basis is exact name and protected identifier. The Army rendering 'MORGAN ELWYN W' is preserved as a variant and not silently substituted for the index spelling.",
+      "identity_match_assessment": "High confidence because a nonshared protected identifier links the two official records; any name discrepancy is explicitly preserved.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer or immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the coded occupation was not used as employer evidence. The Army rendering 'MORGAN ELWYN W' is preserved as a variant and not silently substituted for the index spelling.",
+      "sources": [
+        {
+          "source_key": "nara-index-b677",
+          "support_type": "supports",
+          "locator_override": "PDF page 329, row 18, Pvt, Box 537"
+        },
+        {
+          "source_key": "army-bulk-b677",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 4775483; exact name and protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-irby-e-moree-b677",
+      "person_id": "f9e78b94-4f1c-522e-8a96-858fd04dc896",
+      "claim_type": "identity",
+      "claim_text": "The indexed Irby E Moree is a high-confidence match to the Detachment 101 sergeant documented by CIA and National Park Service histories.",
+      "evidence_excerpt": "Among the sergeants ... were ... Irby E. Moree",
+      "evidence_paraphrase": "Two official federal histories place Irby E. Moree among the original Detachment 101 personnel and Area B trainees; one identifies his field-photo function.",
+      "identity_match_assessment": "High confidence from the distinctive exact name, matching sergeant status, OSS context, and two official sources.",
+      "temporal_assessment": "The sources establish wartime OSS assignment, not his civilian employer or the affiliation immediately before recruitment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No pre-OSS employer is inferred from his Detachment 101 or field-photo duties.",
+      "sources": [
+        {
+          "source_key": "nara-index-b677",
+          "support_type": "supports",
+          "locator_override": "PDF page 329, row 1, T/Sgt, Box 537"
+        },
+        {
+          "source_key": "cia-moree-b677",
+          "support_type": "supports",
+          "locator_override": "Original Detachment 101 personnel discussion",
+          "excerpt_override": "and Sgts. Irby E. Moree, Charles F. Bruce"
+        },
+        {
+          "source_key": "nps-moree-b677",
+          "support_type": "supports",
+          "locator_override": "Page 390, Area B trainees",
+          "excerpt_override": "Among the sergeants ... were ... Irby E. Moree"
+        }
+      ]
+    },
+    {
+      "key": "identity-jean-morere-b677",
+      "person_id": "e87eba5a-b3ad-52ec-ac07-d2c5d198709f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Jean Morere is a high-confidence match to Jean-Marie Morère, founder of the OSS-linked Wi-Wi network.",
+      "evidence_excerpt": "Dossier individuel de Jean-Marie MORERE",
+      "evidence_paraphrase": "The French military archive supplies an individual network-agent dossier, while independent histories connect Jean-Marie Morère to the OSS Wi-Wi network and Marseille police.",
+      "identity_match_assessment": "High confidence from the distinctive name, French OSS network context, archived agent dossier, and matching officer-level role; the index rank and later captain title are preserved separately.",
+      "temporal_assessment": "The sources place police service before resignation in March 1943 and OSS contact around May 1943.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The printed index spelling and Lt rank remain unchanged. Jean-Marie Morère, Mor, and Pierre Vidal are documented variants; a later history calls him captain.",
+      "sources": [
+        {
+          "source_key": "nara-index-b677",
+          "support_type": "supports",
+          "locator_override": "PDF page 329, row 11, Lt, Box 537"
+        },
+        {
+          "source_key": "shd-morere-b677",
+          "support_type": "supports",
+          "locator_override": "Page 356, GR 28 P 4 396 / 143; GR 16 P 295572",
+          "excerpt_override": "Dossier individuel de Jean-Marie MORERE"
+        },
+        {
+          "source_key": "ventduport-morere-b677",
+          "support_type": "supports",
+          "locator_override": "Origins and chronology of the Wi-Wi network"
+        }
+      ]
+    },
+    {
+      "key": "morere-marseille-police-last-civilian-b677",
+      "person_id": "e87eba5a-b3ad-52ec-ac07-d2c5d198709f",
+      "affiliation_key": "morere-marseille-police-b677",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Jean-Marie Morère served in the Marseille police from 1 May 1921 until resigning in March 1943, his last documented civilian employment before OSS contact.",
+      "evidence_excerpt": "entré dans la police de Marseille le 1er Mai 1921",
+      "evidence_paraphrase": "Two independent historical accounts state that Morère entered the Marseille police on 1 May 1921 and resigned in March 1943 before traveling to Spain and meeting American intelligence representatives.",
+      "identity_match_assessment": "High confidence through the official French agent dossier and distinctive Wi-Wi network chronology linked to the indexed name.",
+      "temporal_assessment": "Strongly date-bounded as the last documented civilian employer; not labeled immediate because resignation and travel intervened before OSS contact.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The claim distinguishes last civilian employer from immediate pre-OSS affiliation and does not infer unemployment or formal Free French assignment during the intervening weeks.",
+      "sources": [
+        {
+          "source_key": "ventduport-morere-b677",
+          "support_type": "supports",
+          "locator_override": "Origins and 28 March-1 May 1943 chronology",
+          "excerpt_override": "entré dans la police de Marseille le 1er Mai 1921"
+        },
+        {
+          "source_key": "dachau-morere-b677",
+          "support_type": "supports",
+          "locator_override": "Wi-Wi network history article",
+          "excerpt_override": "Entré le 1er mai 1921 à la police de Marseille"
+        },
+        {
+          "source_key": "shd-morere-b677",
+          "support_type": "context_only",
+          "locator_override": "GR 28 P 4 396 / 143; GR 16 P 295572"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "f9e78b94-4f1c-522e-8a96-858fd04dc896",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Distinctive exact name, matching sergeant status, and Detachment 101 context agree across the OSS index and two official federal histories.",
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 537 for Irby E Moree's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "c1ed6da3-3b64-5ed5-ba92-4cdf18638f3b",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier links the OSS index row to an official Army bulk record; any spelling discrepancy remains visible.",
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 537 for Raymound O Morehouse's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "name_variants": [
+        "Raymond O Morehouse"
+      ]
+    },
+    {
+      "person_id": "73c016fb-f962-5a4e-9cd4-62a773066a5b",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 537 for Obel Moreira Jr.'s personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "04deb36c-72fd-558c-a427-4e82796a7675",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 537 for Gerard Moreli's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "a74411a9-1fd9-5537-835f-3263cc6e511c",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier links the OSS index row to an official Army bulk record; any spelling discrepancy remains visible.",
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 537 for Bernard Morelli's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "96a30605-69c7-5653-9083-1449e4ab5104",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 537 for Betty Morelli's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "028f4423-3632-5eed-b3d5-ac5ce4159acf",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier links the OSS index row to an official Army bulk record; any spelling discrepancy remains visible.",
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 537 for Emil S Morelli's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "name_variants": [
+        "MOR LLI EMIL S"
+      ]
+    },
+    {
+      "person_id": "a9c5b01d-9b11-5bf9-9e84-1c32bbc9bf10",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier links the OSS index row to an official Army bulk record; any spelling discrepancy remains visible.",
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 537 for Ettore Morelli's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "name_variants": [
+        "MORELL ETTORE R"
+      ]
+    },
+    {
+      "person_id": "ad03d7fa-5ea0-5daf-8961-f2f26bcd30fa",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier links the OSS index row to an official Army bulk record; any spelling discrepancy remains visible.",
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 537 for Courtland C Morelock's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "07d16650-f9c8-52f2-a18d-47f56c486194",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 537 for Robert C Moreno's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "e87eba5a-b3ad-52ec-ac07-d2c5d198709f",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Distinctive name, French OSS network context, and an official French military archive dossier support the Jean-Marie Morère identity.",
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Inspect Box 537 and French dossiers GR 28 P 4 396 / 143 and GR 16 P 295572 to test immediacy and document the OSS transition.",
+      "name_variants": [
+        "Jean-Marie Morère",
+        "Jean Marie Morère",
+        "Mor",
+        "Pierre Vidal"
+      ]
+    },
+    {
+      "person_id": "1372ab39-0237-5991-8759-4f952a72209a",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier links the OSS index row to an official Army bulk record; any spelling discrepancy remains visible.",
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 537 for Cesare A Moretti's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "702707b1-d944-5652-9c0f-de762f271dd3",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 537 for John T Morey's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "4234cd66-9852-5071-9e10-ebd0f3b5715b",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 537 for Anna P Morgan's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "34c7f795-525c-5be1-8a98-340d05d3d826",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier links the OSS index row to an official Army bulk record; any spelling discrepancy remains visible.",
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 537 for Benjamin T Morgan's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "4a532ed7-0f12-5ff2-9e21-06cfb2034e2d",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 537 for Charles P Morgan's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "45e51449-9a45-57b2-8291-2eaf7324ed1f",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier links the OSS index row to an official Army bulk record; any spelling discrepancy remains visible.",
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 537 for Elliot W Morgan's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "6132aa89-ccf5-5f06-a19c-1e7b0d7c427c",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier links the OSS index row to an official Army bulk record; any spelling discrepancy remains visible.",
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 537 for Elwyn W Morgan's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "5c667566-e44e-5d04-a1ea-4eb25398f71a",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 537 for Forrest A Morgan's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "7513e5f6-f9d7-5982-9d70-fa1195a0446e",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 537 for Gabriel W Morgan's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "2765a28d-42ab-5d48-84d1-e28a05d4bb55",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 537 for George M Morgan's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "93cb2bc3-f15d-5665-acf3-be9a31f4fdb1",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 537 for Glen Morgan's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "290e2ee9-ab5f-58c6-bf45-91bfc4e48eb0",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 537 for Harry S Morgan's personnel file and last civilian employer or immediate predecessor affiliation."
+    },
+    {
+      "person_id": "3c41b7ee-ab55-5b8e-97b3-9964110dd196",
+      "manual_review_required": true,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 537 for Helen E Morgan's personnel file and last civilian employer or immediate predecessor affiliation."
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b677-irby-e-moree-reviewed-search",
+      "person_id": "f9e78b94-4f1c-522e-8a96-858fd04dc896",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Irby E Moree; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T13:00:00Z",
+      "completed_at": "2026-09-25T14:40:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Plausible results were rejected when they were name-only, wrong-name, postwar, too young, surname-only OCR, or lacked an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol reviewed the NARA index, two official federal OSS histories, exact-name OSS and employment searches, live Library of Congress query, and obituary, directory, institutional, and archival discovery sources. These establish identity and Detachment 101 duties only; no reliable pre-OSS employer was identified.",
+      "next_action": "Inspect Box 537 for Irby E Moree's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-677-v1"
+    },
+    {
+      "key": "b677-raymound-o-morehouse-reviewed-search",
+      "person_id": "c1ed6da3-3b64-5ed5-ba92-4cdf18638f3b",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Raymound O Morehouse; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T13:00:00Z",
+      "completed_at": "2026-09-25T14:40:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Plausible results were rejected when they were name-only, wrong-name, postwar, too young, surname-only OCR, or lacked an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol included official NARA and Army evidence, targeted public CIA-domain review, exact-name OSS and employment searches, live Library of Congress review, and institutional, obituary, directory, and archival checks. The Army bulk record supplies a high-confidence identity bridge only; its coded occupation was neither published nor treated as employer evidence.",
+      "next_action": "Inspect Box 537 for Raymound O Morehouse's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-677-v1"
+    },
+    {
+      "key": "b677-obel-moreira-jr-reviewed-search",
+      "person_id": "73c016fb-f962-5a4e-9cd4-62a773066a5b",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Obel Moreira Jr.; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T13:00:00Z",
+      "completed_at": "2026-09-25T14:40:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Plausible results were rejected when they were name-only, wrong-name, postwar, too young, surname-only OCR, or lacked an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 537 for Obel Moreira Jr.'s personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-677-v1"
+    },
+    {
+      "key": "b677-gerard-moreli-reviewed-search",
+      "person_id": "04deb36c-72fd-558c-a427-4e82796a7675",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Gerard Moreli; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T13:00:00Z",
+      "completed_at": "2026-09-25T14:40:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Plausible results were rejected when they were name-only, wrong-name, postwar, too young, surname-only OCR, or lacked an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 537 for Gerard Moreli's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-677-v1"
+    },
+    {
+      "key": "b677-bernard-morelli-reviewed-search",
+      "person_id": "a74411a9-1fd9-5537-835f-3263cc6e511c",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Bernard Morelli; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T13:00:00Z",
+      "completed_at": "2026-09-25T14:40:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Plausible results were rejected when they were name-only, wrong-name, postwar, too young, surname-only OCR, or lacked an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol included official NARA and Army evidence, targeted public CIA-domain review, exact-name OSS and employment searches, live Library of Congress review, and institutional, obituary, directory, and archival checks. The Army bulk record supplies a high-confidence identity bridge only; its coded occupation was neither published nor treated as employer evidence. A mission roster independently corroborates his OSS Operation Spokane service but not pre-OSS employment.",
+      "next_action": "Inspect Box 537 for Bernard Morelli's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch-677-v1"
+    },
+    {
+      "key": "b677-betty-morelli-reviewed-search",
+      "person_id": "96a30605-69c7-5653-9083-1449e4ab5104",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Betty Morelli; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T13:00:00Z",
+      "completed_at": "2026-09-25T14:40:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Plausible results were rejected when they were name-only, wrong-name, postwar, too young, surname-only OCR, or lacked an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 537 for Betty Morelli's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-677-v1"
+    },
+    {
+      "key": "b677-emil-s-morelli-reviewed-search",
+      "person_id": "028f4423-3632-5eed-b3d5-ac5ce4159acf",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Emil S Morelli; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T13:00:00Z",
+      "completed_at": "2026-09-25T14:40:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Plausible results were rejected when they were name-only, wrong-name, postwar, too young, surname-only OCR, or lacked an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol included official NARA and Army evidence, targeted public CIA-domain review, exact-name OSS and employment searches, live Library of Congress review, and institutional, obituary, directory, and archival checks. The Army bulk record supplies a high-confidence identity bridge only; its coded occupation was neither published nor treated as employer evidence.",
+      "next_action": "Inspect Box 537 for Emil S Morelli's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-677-v1"
+    },
+    {
+      "key": "b677-ettore-morelli-reviewed-search",
+      "person_id": "a9c5b01d-9b11-5bf9-9e84-1c32bbc9bf10",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Ettore Morelli; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T13:00:00Z",
+      "completed_at": "2026-09-25T14:40:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Plausible results were rejected when they were name-only, wrong-name, postwar, too young, surname-only OCR, or lacked an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol included official NARA and Army evidence, targeted public CIA-domain review, exact-name OSS and employment searches, live Library of Congress review, and institutional, obituary, directory, and archival checks. The Army bulk record supplies a high-confidence identity bridge only; its coded occupation was neither published nor treated as employer evidence.",
+      "next_action": "Inspect Box 537 for Ettore Morelli's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-677-v1"
+    },
+    {
+      "key": "b677-courtland-c-morelock-reviewed-search",
+      "person_id": "ad03d7fa-5ea0-5daf-8961-f2f26bcd30fa",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Courtland C Morelock; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T13:00:00Z",
+      "completed_at": "2026-09-25T14:40:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Plausible results were rejected when they were name-only, wrong-name, postwar, too young, surname-only OCR, or lacked an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol included official NARA and Army evidence, targeted public CIA-domain review, exact-name OSS and employment searches, live Library of Congress review, and institutional, obituary, directory, and archival checks. The Army bulk record supplies a high-confidence identity bridge only; its coded occupation was neither published nor treated as employer evidence.",
+      "next_action": "Inspect Box 537 for Courtland C Morelock's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-677-v1"
+    },
+    {
+      "key": "b677-robert-c-moreno-reviewed-search",
+      "person_id": "07d16650-f9c8-52f2-a18d-47f56c486194",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Robert C Moreno; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T13:00:00Z",
+      "completed_at": "2026-09-25T14:40:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Plausible results were rejected when they were name-only, wrong-name, postwar, too young, surname-only OCR, or lacked an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 537 for Robert C Moreno's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-677-v1"
+    },
+    {
+      "key": "b677-jean-morere-reviewed-search",
+      "person_id": "e87eba5a-b3ad-52ec-ac07-d2c5d198709f",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Jean Morere; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T13:00:00Z",
+      "completed_at": "2026-09-25T14:40:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Plausible results were rejected when they were name-only, wrong-name, postwar, too young, surname-only OCR, or lacked an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol reviewed the NARA index, French military archive finding aid, exact-name OSS and employment searches, live Library of Congress query, CIA-domain material, and institutional and local histories. The police employment is strongly date-bounded as the last documented civilian role, but is not labeled immediate because resignation and travel intervened.",
+      "next_action": "Inspect Box 537 and French dossiers GR 28 P 4 396 / 143 and GR 16 P 295572 to test immediacy and document the OSS transition.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-677-v1"
+    },
+    {
+      "key": "b677-cesare-a-moretti-reviewed-search",
+      "person_id": "1372ab39-0237-5991-8759-4f952a72209a",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Cesare A Moretti; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T13:00:00Z",
+      "completed_at": "2026-09-25T14:40:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Plausible results were rejected when they were name-only, wrong-name, postwar, too young, surname-only OCR, or lacked an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol included official NARA and Army evidence, targeted public CIA-domain review, exact-name OSS and employment searches, live Library of Congress review, and institutional, obituary, directory, and archival checks. The Army bulk record supplies a high-confidence identity bridge only; its coded occupation was neither published nor treated as employer evidence.",
+      "next_action": "Inspect Box 537 for Cesare A Moretti's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-677-v1"
+    },
+    {
+      "key": "b677-john-t-morey-reviewed-search",
+      "person_id": "702707b1-d944-5652-9c0f-de762f271dd3",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "John T Morey; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T13:00:00Z",
+      "completed_at": "2026-09-25T14:40:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Plausible results were rejected when they were name-only, wrong-name, postwar, too young, surname-only OCR, or lacked an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 537 for John T Morey's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-677-v1"
+    },
+    {
+      "key": "b677-anna-p-morgan-reviewed-search",
+      "person_id": "4234cd66-9852-5071-9e10-ebd0f3b5715b",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Anna P Morgan; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T13:00:00Z",
+      "completed_at": "2026-09-25T14:40:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Plausible results were rejected when they were name-only, wrong-name, postwar, too young, surname-only OCR, or lacked an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 537 for Anna P Morgan's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-677-v1"
+    },
+    {
+      "key": "b677-benjamin-t-morgan-reviewed-search",
+      "person_id": "34c7f795-525c-5be1-8a98-340d05d3d826",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Benjamin T Morgan; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T13:00:00Z",
+      "completed_at": "2026-09-25T14:40:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Plausible results were rejected when they were name-only, wrong-name, postwar, too young, surname-only OCR, or lacked an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol included official NARA and Army evidence, targeted public CIA-domain review, exact-name OSS and employment searches, live Library of Congress review, and institutional, obituary, directory, and archival checks. The Army bulk record supplies a high-confidence identity bridge only; its coded occupation was neither published nor treated as employer evidence.",
+      "next_action": "Inspect Box 537 for Benjamin T Morgan's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-677-v1"
+    },
+    {
+      "key": "b677-charles-p-morgan-reviewed-search",
+      "person_id": "4a532ed7-0f12-5ff2-9e21-06cfb2034e2d",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Charles P Morgan; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T13:00:00Z",
+      "completed_at": "2026-09-25T14:40:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Plausible results were rejected when they were name-only, wrong-name, postwar, too young, surname-only OCR, or lacked an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 537 for Charles P Morgan's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-677-v1"
+    },
+    {
+      "key": "b677-elliot-w-morgan-reviewed-search",
+      "person_id": "45e51449-9a45-57b2-8291-2eaf7324ed1f",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Elliot W Morgan; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T13:00:00Z",
+      "completed_at": "2026-09-25T14:40:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Plausible results were rejected when they were name-only, wrong-name, postwar, too young, surname-only OCR, or lacked an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol included official NARA and Army evidence, targeted public CIA-domain review, exact-name OSS and employment searches, live Library of Congress review, and institutional, obituary, directory, and archival checks. The Army bulk record supplies a high-confidence identity bridge only; its coded occupation was neither published nor treated as employer evidence.",
+      "next_action": "Inspect Box 537 for Elliot W Morgan's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-677-v1"
+    },
+    {
+      "key": "b677-elwyn-w-morgan-reviewed-search",
+      "person_id": "6132aa89-ccf5-5f06-a19c-1e7b0d7c427c",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Elwyn W Morgan; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T13:00:00Z",
+      "completed_at": "2026-09-25T14:40:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Plausible results were rejected when they were name-only, wrong-name, postwar, too young, surname-only OCR, or lacked an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol included official NARA and Army evidence, targeted public CIA-domain review, exact-name OSS and employment searches, live Library of Congress review, and institutional, obituary, directory, and archival checks. The Army bulk record supplies a high-confidence identity bridge only; its coded occupation was neither published nor treated as employer evidence.",
+      "next_action": "Inspect Box 537 for Elwyn W Morgan's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-677-v1"
+    },
+    {
+      "key": "b677-forrest-a-morgan-reviewed-search",
+      "person_id": "5c667566-e44e-5d04-a1ea-4eb25398f71a",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Forrest A Morgan; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T13:00:00Z",
+      "completed_at": "2026-09-25T14:40:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Plausible results were rejected when they were name-only, wrong-name, postwar, too young, surname-only OCR, or lacked an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 537 for Forrest A Morgan's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-677-v1"
+    },
+    {
+      "key": "b677-gabriel-w-morgan-reviewed-search",
+      "person_id": "7513e5f6-f9d7-5982-9d70-fa1195a0446e",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Gabriel W Morgan; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T13:00:00Z",
+      "completed_at": "2026-09-25T14:40:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Plausible results were rejected when they were name-only, wrong-name, postwar, too young, surname-only OCR, or lacked an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 537 for Gabriel W Morgan's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-677-v1"
+    },
+    {
+      "key": "b677-george-m-morgan-reviewed-search",
+      "person_id": "2765a28d-42ab-5d48-84d1-e28a05d4bb55",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "George M Morgan; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T13:00:00Z",
+      "completed_at": "2026-09-25T14:40:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Plausible results were rejected when they were name-only, wrong-name, postwar, too young, surname-only OCR, or lacked an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 537 for George M Morgan's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-677-v1"
+    },
+    {
+      "key": "b677-glen-morgan-reviewed-search",
+      "person_id": "93cb2bc3-f15d-5665-acf3-be9a31f4fdb1",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Glen Morgan; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T13:00:00Z",
+      "completed_at": "2026-09-25T14:40:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Plausible results were rejected when they were name-only, wrong-name, postwar, too young, surname-only OCR, or lacked an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 537 for Glen Morgan's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-677-v1"
+    },
+    {
+      "key": "b677-harry-s-morgan-reviewed-search",
+      "person_id": "290e2ee9-ab5f-58c6-bf45-91bfc4e48eb0",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Harry S Morgan; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T13:00:00Z",
+      "completed_at": "2026-09-25T14:40:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Plausible results were rejected when they were name-only, wrong-name, postwar, too young, surname-only OCR, or lacked an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 537 for Harry S Morgan's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-677-v1"
+    },
+    {
+      "key": "b677-helen-e-morgan-reviewed-search",
+      "person_id": "3c41b7ee-ab55-5b8e-97b3-9964110dd196",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Helen E Morgan; OSS; employer; occupation; rank; obituary; directory; archival file",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T13:00:00Z",
+      "completed_at": "2026-09-25T14:40:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Plausible results were rejected when they were name-only, wrong-name, postwar, too young, surname-only OCR, or lacked an OSS, rank, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 537 for Helen E Morgan's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-677-v1"
+    }
+  ]
+}

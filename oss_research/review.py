@@ -61,6 +61,16 @@ ARCHIVAL_PRIORITY = {
     "critical": 5,
 }
 
+PUBLICATION_STATUSES = {
+    "draft",
+    "needs_review",
+    "publish_qualified",
+    "published",
+    "withheld_low_confidence",
+    "conflicting",
+    "rejected",
+}
+
 
 def _stronger_value(first: str, second: str, weights: dict[str, int]) -> str:
     return max((first, second), key=lambda value: weights[value])
@@ -468,6 +478,34 @@ def import_review_decisions(
                     (
                         values["decision"],
                         values["rationale"],
+                        utc_now(),
+                        values["target_id"],
+                    ),
+                )
+                applied += cursor.rowcount
+            elif values["target_type"] in {"affiliation", "claim"}:
+                if values["decision"] not in PUBLICATION_STATUSES:
+                    raise ValueError(
+                        f"Invalid publication status on row {row_number}."
+                    )
+                table = (
+                    "affiliations"
+                    if values["target_type"] == "affiliation"
+                    else "claims"
+                )
+                id_column = (
+                    "affiliation_id"
+                    if values["target_type"] == "affiliation"
+                    else "claim_id"
+                )
+                cursor = connection.execute(
+                    f"""
+                    UPDATE {table}
+                    SET publication_status = ?, updated_at = ?
+                    WHERE {id_column} = ?
+                    """,
+                    (
+                        values["decision"],
                         utc_now(),
                         values["target_id"],
                     ),

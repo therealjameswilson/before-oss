@@ -1,0 +1,878 @@
+{
+  "bundle_version": "batch-684-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 684 archival review",
+  "sources": [
+    {
+      "key": "nara-index-b684",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 542-543",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 332, rows 24-46, visually checked against the rendered page",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Full service identifiers remain private and are excluded from public output. Original spellings are preserved even where other official records disagree."
+    },
+    {
+      "key": "army-bulk-b684",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; reviewed bulk record ordinals retained as claim locators",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; protected-identifier review for five indexed people",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "Official bulk data, not a Catalog API response. Protected identifiers, coded occupations, and raw records are excluded from public output."
+    },
+    {
+      "key": "nara-london-mourquet-b684",
+      "stable_url": "https://www.archives.gov/files/research/jfk/releases/104-10165-10141.pdf",
+      "archival_identifier": "NARA release 104-10165-10141; London OSS personnel file 13",
+      "title": "Battle Participation Awards",
+      "author_creator": "European Theater of Operations, United States Army; Office of Strategic Services",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1945-04-24",
+      "locator": "PDF page 5, printed page 2; Pfc Andre G. Mourquet",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "London OSS Personnel 13",
+      "document_number": "104-10165-10141",
+      "rights_notes": "The page was rendered and visually inspected. The full service identifier is retained privately and omitted from public claims."
+    },
+    {
+      "key": "usmc-mowinckel-b684",
+      "stable_url": "https://www.govinfo.gov/content/pkg/GOVPUB-D214-PURL-gpo66817/pdf/GOVPUB-D214-PURL-gpo66817.pdf",
+      "archival_identifier": "United States Marine Corps Occasional Paper",
+      "title": "Herringbone Cloak—GI Dagger: Marines of the OSS",
+      "author_creator": "Major Robert E. Mattingly, United States Marine Corps",
+      "repository_publisher": "History and Museums Division, Headquarters, U.S. Marine Corps",
+      "publication_record_date": "1989",
+      "locator": "Printed pages 190-191; chapter XIII, biographical passage on John W. and John A. Mowinckel",
+      "access_date": "2026-09-25",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "United States Marine Corps historical monographs",
+      "rights_notes": "Government historical monograph; only short excerpts and project-authored paraphrases are retained."
+    },
+    {
+      "key": "nara-rg226-mowinckel-b684",
+      "stable_url": "https://www.archives.gov/research/holocaust/finding-aid/military/rg-226.html",
+      "archival_identifier": "NARA Holocaust-Era Assets Finding Aid, Record Group 226",
+      "title": "Military Agency Records RG 226",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "locator": "Safehaven section; paragraph identifying the Economic Intelligence Collection Unit under John A. Mowinckel",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Holocaust-Era Assets Finding Aid",
+      "rights_notes": "Official finding aid used for identity and OSS-role context."
+    },
+    {
+      "key": "nara-safehaven-mowinckel-b684",
+      "stable_url": "https://text-message.blogs.archives.gov/2014/07/22/monuments-man-charles-sawyer-ii/",
+      "archival_identifier": "NARA Text Message blog; underlying RG 226 records cited in footnotes",
+      "title": "Monuments Man Charles H. Sawyer, part II: Double Duty for the Roberts Commission and the OSS",
+      "author_creator": "Greg Bradsher",
+      "repository_publisher": "National Archives and Records Administration, Textual Records Division",
+      "publication_record_date": "2014-07-22",
+      "locator": "Paragraph describing April 1945 liaison with OSS Safehaven Coordinator John A. Mowinckel",
+      "access_date": "2026-09-25",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "The Text Message",
+      "rights_notes": "Official archival essay used to corroborate the exact-name OSS identity."
+    },
+    {
+      "key": "loc-mowrer-b684",
+      "stable_url": "https://findingaids.loc.gov/exist_collections/ead3pdf/mss/2006/ms006028.pdf",
+      "archival_identifier": "MSS33803",
+      "title": "Edgar Ansel Mowrer and Lilian T. Mowrer Papers",
+      "author_creator": "Manuscript Division staff",
+      "repository_publisher": "Library of Congress, Manuscript Division",
+      "publication_record_date": "2005; revised 2023-10",
+      "locator": "PDF page 4, biographical chronology; PDF page 6, collection scope",
+      "access_date": "2026-09-25",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Edgar Ansel Mowrer and Lilian T. Mowrer Papers",
+      "rights_notes": "Finding aid used for identity and chronology; it does not establish an OSS accession date."
+    },
+    {
+      "key": "nara-donovan-mowrer-b684",
+      "stable_url": "https://text-message.blogs.archives.gov/2021/07/08/william-j-donovan-and-the-establishment-of-the-office-of-the-coordinator-of-information-july-1940-july-1941/",
+      "archival_identifier": "NARA Text Message blog; underlying RG 226 records cited in footnotes",
+      "title": "William J. Donovan and the Establishment of the Office of the Coordinator of Information, July 1940-July 1941",
+      "author_creator": "Greg Bradsher",
+      "repository_publisher": "National Archives and Records Administration, Textual Records Division",
+      "publication_record_date": "2021-07-08",
+      "locator": "Paragraph identifying Edgar A. Mowrer and his 1940 work with Donovan",
+      "access_date": "2026-09-25",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "The Text Message",
+      "rights_notes": "Official archival essay used as identity context, not proof of a later OSS employment sequence."
+    },
+    {
+      "key": "shd-resistance-agents-mouzon-b684",
+      "stable_url": "https://museedelaresistanceenligne.org/doc/pdf/ressource_source/229.pdf",
+      "archival_identifier": "Service historique de la Défense GR 28 P 11 / 79, dossier 26484",
+      "title": "Inventaire des dossiers individuels des agents des réseaux de renseignement et d'action de la France combattante",
+      "author_creator": "Service historique de la Défense",
+      "repository_publisher": "Service historique de la Défense; Musée de la Résistance en ligne",
+      "locator": "GR 28 P 11 / 79, dossier 26484; ANDRE, Thérèse / MOUZON, Thérèse; birth date and Marseille",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Dossiers individuels d'agents des réseaux",
+      "rights_notes": "Official archival inventory; used for identity and alias evidence only."
+    },
+    {
+      "key": "shd-resistance-personnel-mouzon-b684",
+      "stable_url": "https://museedelaresistanceenligne.org/musee/doc/pdf/ressource_source/249.pdf",
+      "archival_identifier": "Service historique de la Défense AC 21 P 602641",
+      "title": "Répertoire des dossiers administratifs de résistantes et résistants",
+      "author_creator": "Service historique de la Défense",
+      "repository_publisher": "Service historique de la Défense; Musée de la Résistance en ligne",
+      "locator": "AC 21 P 602641; MOUZON, Thérèse, Joséphine / ANDRE; birth date and Marseille",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Dossiers administratifs de résistantes et résistants",
+      "rights_notes": "Official archival inventory; used for corroborating identity and variant evidence only."
+    },
+    {
+      "key": "wiwi-mouzon-b684",
+      "stable_url": "https://www.ventduport.com/passages-r%C3%A9seaux/",
+      "title": "Le réseau Wi-Wi de l'OSS 1943-1944",
+      "author_creator": "Vent du Port historical project",
+      "repository_publisher": "Vent du Port",
+      "locator": "Network structure and chronology; Thérèse Mouzon, alias Madame Andrée, Marseille",
+      "access_date": "2026-09-25",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "Passages et réseaux",
+      "rights_notes": "Secondary network history used only with official French archival inventories and the NARA index."
+    },
+    {
+      "key": "legacy-clarence-moy-b684",
+      "stable_url": "https://www.legacy.com/us/obituaries/sfgate/name/clarence-moy-obituary?id=16553840",
+      "title": "Clarence Moy Obituary",
+      "author_creator": "Family obituary",
+      "repository_publisher": "San Francisco Chronicle via Legacy.com",
+      "publication_record_date": "2015-10-31",
+      "locator": "Biographical chronology from education and Hawaii employment through Army and OSS China service",
+      "access_date": "2026-09-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "San Francisco Chronicle obituaries",
+      "rights_notes": "Only short evidence excerpts and project-authored paraphrases are retained."
+    },
+    {
+      "key": "jeju-mowitz-b684",
+      "stable_url": "https://archive.jeju43.info/document/955",
+      "archival_identifier": "U.S. Embassy Seoul despatch 832, 1949-12-30; original pages 372-374",
+      "title": "Letter from KMAG Commander to Minister of National Defense",
+      "author_creator": "United States Embassy, Seoul",
+      "repository_publisher": "Jeju 4·3 U.S. Documents Digital Archive",
+      "publication_record_date": "1949-12-30",
+      "locator": "Original pages 372-374; Major Arno P. Mowitz Jr., protected officer identifier, adviser to the 2d Division",
+      "access_date": "2026-09-25",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "American Mission in Korea and American Embassy in Korea records",
+      "rights_notes": "The digitized U.S. government record is used to preserve an initial conflict; the full protected identifier is omitted publicly."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "standard-oil-new-jersey-b684",
+      "canonical_name": "Standard Oil Company of New Jersey",
+      "historical_name": "Standard Oil Company of New Jersey",
+      "aliases": ["Standard Oil of New Jersey", "Jersey Standard"],
+      "organization_type": "petroleum company",
+      "sector": "business_and_industry",
+      "country": "United States",
+      "active_dates": "1911-1972 under this name",
+      "normalization_notes": "The historical company name is retained. It is not silently replaced with the modern successor name Exxon or ExxonMobil."
+    },
+    {
+      "key": "usmcr-b684",
+      "canonical_name": "United States Marine Corps Reserve",
+      "historical_name": "United States Marine Corps Reserve",
+      "aliases": ["USMCR", "Marine Corps Reserve"],
+      "organization_type": "military reserve component",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Retained separately from civilian employment and from the regular Marine Corps."
+    },
+    {
+      "key": "princeton-b684",
+      "canonical_name": "Princeton University",
+      "historical_name": "Princeton University",
+      "aliases": ["Princeton", "Old Nassau"],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Princeton",
+      "state_or_region": "New Jersey",
+      "country": "United States",
+      "normalization_notes": "Student status is modeled separately from employment."
+    },
+    {
+      "key": "us-army-b684",
+      "canonical_name": "United States Army",
+      "historical_name": "United States Army",
+      "aliases": ["U.S. Army", "US Army"],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Military assignment is not classified as civilian employment."
+    },
+    {
+      "key": "hawaii-institutions-b684",
+      "canonical_name": "Territory of Hawaii Department of Institutions",
+      "historical_name": "Territorial Department of Institutions",
+      "aliases": ["Territory of Hawaii Department of Institutions"],
+      "organization_type": "territorial government department",
+      "sector": "state_or_local_government",
+      "city": "Honolulu",
+      "state_or_region": "Territory of Hawaii",
+      "country": "United States",
+      "normalization_notes": "The historical territorial department is retained and is not merged into a modern Hawaii agency."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "john-a-mowinckel-standard-oil-b684",
+      "person_id": "e772314b-dca8-5952-9e9c-5185264b68c1",
+      "organization_key": "standard-oil-new-jersey-b684",
+      "organization_name_as_found": "Standard Oil Company of New Jersey",
+      "role_title": "Head of European operations",
+      "occupation": "petroleum-company executive",
+      "relationship_type": "employment",
+      "date_precision": "The Marine Corps history places the role in John W. Mowinckel's prewar family background but does not supply exact employment dates.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Documented earlier employment only. The source does not establish that Standard Oil was Mowinckel's immediate predecessor to OSS service."
+    },
+    {
+      "key": "john-w-mowinckel-usmcr-b684",
+      "person_id": "055d95d7-8745-5dfd-82ec-f30575f729e5",
+      "organization_key": "usmcr-b684",
+      "organization_name_as_found": "Marine Corps Reserve",
+      "role_title": "Private, then commissioned second lieutenant",
+      "occupation": "Marine officer",
+      "relationship_type": "military_assignment",
+      "date_precision": "The source states that he joined while at Princeton, was commissioned in October 1943, and was then detailed to OSS; it does not date his Reserve enlistment.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The official Marine Corps history explicitly orders the Reserve service, commission, and OSS detail."
+    },
+    {
+      "key": "john-w-mowinckel-princeton-b684",
+      "person_id": "055d95d7-8745-5dfd-82ec-f30575f729e5",
+      "organization_key": "princeton-b684",
+      "organization_name_as_found": "Princeton",
+      "role_title": "Modern languages student",
+      "occupation": "student",
+      "relationship_type": "student",
+      "start_date": "1939",
+      "date_precision": "Entry year and major are stated; the source does not provide a graduation date.",
+      "city": "Princeton",
+      "state_or_region": "New Jersey",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Student status is not presented as employment or as a last civilian employer."
+    },
+    {
+      "key": "clarence-moy-us-army-b684",
+      "person_id": "bebf9fe5-7985-57a3-989b-66ed9cc32f03",
+      "organization_key": "us-army-b684",
+      "organization_name_as_found": "US Army",
+      "role_title": "Enlisted soldier; later OSS China translation-unit sergeant",
+      "occupation": "Army enlisted personnel",
+      "relationship_type": "military_assignment",
+      "start_date": "1942-11",
+      "date_precision": "The obituary supplies the enlistment month and then describes his OSS China service; it does not supply an exact OSS transfer date.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "Qualified because the obituary provides the sequence but not the formal transfer order. Military service is not classified as civilian employment."
+    },
+    {
+      "key": "clarence-moy-hawaii-institutions-b684",
+      "person_id": "bebf9fe5-7985-57a3-989b-66ed9cc32f03",
+      "organization_key": "hawaii-institutions-b684",
+      "organization_name_as_found": "Territorial Department of Institutions",
+      "role_title": "Social worker",
+      "occupation": "social worker",
+      "relationship_type": "employment",
+      "end_date": "1942-11",
+      "date_precision": "The obituary places this work after college and before Army enlistment in November 1942; exact start and end days are not supplied.",
+      "city": "Honolulu",
+      "state_or_region": "Territory of Hawaii",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "Published as a qualified last civilian employer before Army service, not as Clarence Moy's immediate pre-OSS affiliation."
+    }
+  ],
+  "claims": [
+    {
+      "key": "andre-mourqet-mourquet-conflict-b684",
+      "person_id": "832ac295-99ba-5899-b841-78264d9ff394",
+      "claim_type": "identity",
+      "claim_text": "The indexed Andre G Mourqet row conflicts with a 1945 OSS record that prints Andre G. Mourquet and a one-digit-different protected identifier.",
+      "evidence_paraphrase": "The two official records agree on given name, middle initial, enlisted grade, and most protected-identifier digits, but disagree on surname spelling and one digit.",
+      "identity_match_assessment": "Strongly related records, but conflicting until the Box 543 jacket resolves both discrepancies.",
+      "temporal_assessment": "The 1945 award roster establishes an OSS European Theater record but does not establish a pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Mourqet and Mourquet are both preserved. No identifier is printed publicly and the entities are not silently corrected or merged.",
+      "sources": [
+        {"source_key": "nara-index-b684", "support_type": "contradicts", "locator_override": "PDF page 332, row 27; Andre G Mourqet, Pfc, Box 543"},
+        {"source_key": "nara-london-mourquet-b684", "support_type": "contradicts", "locator_override": "PDF page 5, printed page 2; Andre G. Mourquet, Pfc; protected identifier differs by one digit"}
+      ]
+    },
+    {
+      "key": "andrew-mousilinas-mousalimas-conflict-b684",
+      "person_id": "0adc9202-0cb1-5ecb-b6cc-cfa14f8ca913",
+      "claim_type": "identity",
+      "claim_text": "The indexed Andrew S Mousilinas row conflicts with an official Army record that prints Andrew S Mousalimas under the same protected identifier.",
+      "evidence_paraphrase": "The protected identifier agrees, but the surname differs substantially between the two official records.",
+      "identity_match_assessment": "Conflicting until the Box 543 personnel jacket establishes the correct spelling and identity.",
+      "temporal_assessment": "Identity conflict only; no employer or pathway is assigned as settled fact.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Both surnames are preserved and the protected identifier remains private.",
+      "sources": [
+        {"source_key": "nara-index-b684", "support_type": "contradicts", "locator_override": "PDF page 332, row 30; Andrew S Mousilinas, Corporal, Box 543"},
+        {"source_key": "army-bulk-b684", "support_type": "contradicts", "locator_override": "Bulk record ordinal 8053604; Andrew S Mousalimas under the matching protected identifier"}
+      ]
+    },
+    {
+      "key": "frederick-moussean-mousseau-conflict-b684",
+      "person_id": "2a27781a-4c74-50c5-8ffd-a9d0551b7d79",
+      "claim_type": "identity",
+      "claim_text": "The indexed Frederick O Moussean row conflicts with an official Army record that prints Frederick O Mousseau under the same protected identifier.",
+      "evidence_paraphrase": "The protected identifier and given names agree, but the final surname letter differs.",
+      "identity_match_assessment": "Conflicting until the Box 543 personnel jacket resolves the final-letter discrepancy.",
+      "temporal_assessment": "Identity conflict only; no employer is inferred from coded Army data.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Both spellings are preserved and the protected identifier remains private.",
+      "sources": [
+        {"source_key": "nara-index-b684", "support_type": "contradicts", "locator_override": "PDF page 332, row 33; Frederick O Moussean, T-5, Box 543"},
+        {"source_key": "army-bulk-b684", "support_type": "contradicts", "locator_override": "Bulk record ordinal 373927; Frederick O Mousseau under the matching protected identifier"}
+      ]
+    },
+    {
+      "key": "identity-chin-m-mow-b684",
+      "person_id": "d6caa166-febb-5212-9cf7-6418bea8dac6",
+      "claim_type": "identity",
+      "claim_text": "The indexed Staff Sergeant Chin M Mow is a high-confidence match to the official Army record reviewed for this batch.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree across the two official records.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named employer or immediate pre-OSS unit.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private.",
+      "sources": [
+        {"source_key": "nara-index-b684", "locator_override": "PDF page 332, row 36; Staff Sergeant, Box 543"},
+        {"source_key": "army-bulk-b684", "locator_override": "Bulk record ordinal 3164736; exact name and protected identifier"}
+      ]
+    },
+    {
+      "key": "identity-john-a-mowinckel-b684",
+      "person_id": "e772314b-dca8-5952-9e9c-5185264b68c1",
+      "claim_type": "identity",
+      "claim_text": "The indexed John A Mowinckel is a high-confidence match to the Standard Oil executive who led an OSS economic-intelligence unit.",
+      "evidence_paraphrase": "NARA independently identifies John A. Mowinckel as head of an OSS Economic Intelligence Collection Unit, while the Marine Corps history identifies his prewar executive role.",
+      "identity_match_assessment": "High confidence from the uncommon exact name and an explicit official OSS leadership role, corroborated by an independent government history.",
+      "temporal_assessment": "The identity is strong; the sources do not establish Standard Oil as the immediate predecessor to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The adjacent John W. Mowinckel row is separately identified as his son and is not merged with him.",
+      "sources": [
+        {"source_key": "nara-index-b684", "locator_override": "PDF page 332, row 38; John A Mowinckel, Box 543"},
+        {"source_key": "nara-rg226-mowinckel-b684", "locator_override": "Safehaven section; Economic Intelligence Collection Unit under John A. Mowinckel"},
+        {"source_key": "nara-safehaven-mowinckel-b684", "locator_override": "April 1945 liaison with OSS Safehaven Coordinator John A. Mowinckel"},
+        {"source_key": "usmc-mowinckel-b684", "locator_override": "Printed page 190; John A. Mowinckel identified as father and Standard Oil executive"}
+      ]
+    },
+    {
+      "key": "john-a-mowinckel-standard-oil-claim-b684",
+      "person_id": "e772314b-dca8-5952-9e9c-5185264b68c1",
+      "affiliation_key": "john-a-mowinckel-standard-oil-b684",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "John A. Mowinckel worked for Standard Oil Company of New Jersey as head of European operations.",
+      "evidence_excerpt": "His father, John A. Mowinckel, was head of European operations for the Standard Oil Company of New Jersey.",
+      "evidence_paraphrase": "The official Marine Corps history identifies John W. Mowinckel's father as the company's head of European operations.",
+      "identity_match_assessment": "High-confidence uncommon-name match corroborated by NARA's exact-name OSS leadership records.",
+      "temporal_assessment": "Documented prewar employment; not shown to be the immediately preceding role before OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The claim uses the historical company name and does not transfer the father's employment to John W. Mowinckel.",
+      "sources": [
+        {"source_key": "usmc-mowinckel-b684", "locator_override": "Printed page 190; chapter XIII"},
+        {"source_key": "nara-rg226-mowinckel-b684", "support_type": "context_only", "locator_override": "Safehaven section; official OSS identity context"}
+      ]
+    },
+    {
+      "key": "identity-john-w-mowinckel-b684",
+      "person_id": "055d95d7-8745-5dfd-82ec-f30575f729e5",
+      "claim_type": "identity",
+      "claim_text": "The indexed John W Mowinckel is confirmed as Marine Second Lieutenant John Wallendahl Mowinckel, who was detailed to OSS.",
+      "evidence_paraphrase": "The Marine Corps history supplies his full middle name, Reserve service, October 1943 commission, and explicit OSS detail; the index carries a protected officer identifier.",
+      "identity_match_assessment": "Confirmed by the uncommon exact name, matching officer context, protected officer identifier, and explicit institutional OSS biography.",
+      "temporal_assessment": "The source explicitly orders Princeton study, Marine Reserve service, commission, and OSS detail.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "John Wallendahl Mowinckel is retained as a documented name variant. His father's employment remains separate.",
+      "sources": [
+        {"source_key": "nara-index-b684", "locator_override": "PDF page 332, row 39; John W Mowinckel, Box 543; protected officer identifier withheld"},
+        {"source_key": "usmc-mowinckel-b684", "locator_override": "Printed pages 190-191; chapter XIII"}
+      ]
+    },
+    {
+      "key": "john-w-mowinckel-usmcr-claim-b684",
+      "person_id": "055d95d7-8745-5dfd-82ec-f30575f729e5",
+      "affiliation_key": "john-w-mowinckel-usmcr-b684",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "John W. Mowinckel's immediate pre-OSS affiliation was the United States Marine Corps Reserve.",
+      "evidence_excerpt": "Commissioned in October 1943, he graduated from the 38th Reserve Officer Class and was detailed to OSS for duty.",
+      "evidence_paraphrase": "The Marine Corps history explicitly says that his commission and Reserve Officer Class were followed by an OSS detail.",
+      "identity_match_assessment": "Confirmed institutional match to the indexed John W. Mowinckel.",
+      "temporal_assessment": "Explicit immediate military predecessor, not a civilian employer.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The military assignment is kept separate from student status and from his father's Standard Oil employment.",
+      "sources": [
+        {"source_key": "usmc-mowinckel-b684", "locator_override": "Printed page 190; chapter XIII"}
+      ]
+    },
+    {
+      "key": "john-w-mowinckel-princeton-claim-b684",
+      "person_id": "055d95d7-8745-5dfd-82ec-f30575f729e5",
+      "affiliation_key": "john-w-mowinckel-princeton-b684",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "John W. Mowinckel entered Princeton University in 1939 as a modern languages student.",
+      "evidence_excerpt": "he entered Princeton in 1939 as a modern languages major",
+      "evidence_paraphrase": "The Marine Corps history documents his Princeton enrollment and field of study before his commission and OSS detail.",
+      "identity_match_assessment": "Confirmed institutional match.",
+      "temporal_assessment": "Documented prewar student affiliation; not an employer and not the immediate predecessor after Marine Reserve service intervened.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Princeton is not counted as an employer.",
+      "sources": [
+        {"source_key": "usmc-mowinckel-b684", "locator_override": "Printed page 190; chapter XIII"}
+      ]
+    },
+    {
+      "key": "frank-mowinski-white-conflict-b684",
+      "person_id": "0ac453d8-2b63-5d38-a573-ea42f578a568",
+      "claim_type": "identity",
+      "claim_text": "The indexed Frank Mowinski row conflicts with an official Army record for Clyde E White under the same protected identifier.",
+      "evidence_paraphrase": "The protected identifier agrees, but the full names are unrelated.",
+      "identity_match_assessment": "Conflicting; the Army record cannot be assigned to Mowinski before the Box 543 jacket is inspected.",
+      "temporal_assessment": "Identity conflict only; no Army occupation or employer is transferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The two names remain separate and the protected identifier is withheld.",
+      "sources": [
+        {"source_key": "nara-index-b684", "support_type": "contradicts", "locator_override": "PDF page 332, row 40; Frank Mowinski, T-5, Box 543"},
+        {"source_key": "army-bulk-b684", "support_type": "contradicts", "locator_override": "Bulk record ordinal 5833143; Clyde E White under the matching protected identifier"}
+      ]
+    },
+    {
+      "key": "arno-d-p-mowitz-conflict-b684",
+      "person_id": "962cbbf4-5f63-5153-8b6f-7f4fb4efb064",
+      "claim_type": "identity",
+      "claim_text": "The indexed Major Arno D Mowitz Jr. conflicts with an official postwar record that prints Major Arno P. Mowitz Jr. under the same protected officer identifier.",
+      "evidence_paraphrase": "Name, suffix, rank, and protected officer identifier agree, but the middle initial differs.",
+      "identity_match_assessment": "Conflicting until the Box 543 jacket resolves the D-P discrepancy.",
+      "temporal_assessment": "The 1949 Korea assignment is postwar identity evidence only and is not a pre-OSS affiliation.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Both middle initials are preserved; no postwar employer or assignment is promoted into pre-OSS analytics.",
+      "sources": [
+        {"source_key": "nara-index-b684", "support_type": "contradicts", "locator_override": "PDF page 332, row 41; Major Arno D Mowitz Jr., Box 543"},
+        {"source_key": "jeju-mowitz-b684", "support_type": "contradicts", "locator_override": "Original pages 372-374; Major Arno P. Mowitz Jr.; matching protected officer identifier"}
+      ]
+    },
+    {
+      "key": "identity-edgar-a-mowrer-b684",
+      "person_id": "ea849814-12a1-5d15-b640-78d9efbff2ce",
+      "claim_type": "identity",
+      "claim_text": "The indexed Edgar A Mowrer is a high-confidence match to journalist Edgar Ansel Mowrer.",
+      "evidence_paraphrase": "The exact uncommon name and civilian WAE grade align with official and institutional records documenting his 1940 collaboration with Donovan and wartime government service.",
+      "identity_match_assessment": "High confidence from the uncommon exact name, matching civilian context, and direct documented work with Donovan before COI was established.",
+      "temporal_assessment": "The accessible sources do not establish why or when his Box 543 file was created, so no role is labeled immediate pre-OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Chicago Daily News, the Office of Facts and Figures, and the Office of War Information remain identity chronology until the personnel jacket fixes their relation to OSS.",
+      "sources": [
+        {"source_key": "nara-index-b684", "locator_override": "PDF page 332, row 42; Edgar A Mowrer, WAE, Box 543"},
+        {"source_key": "loc-mowrer-b684", "locator_override": "PDF page 4, biographical chronology"},
+        {"source_key": "nara-donovan-mowrer-b684", "locator_override": "Paragraph identifying Edgar A. Mowrer as the correspondent who wrote the 1940 Donovan series"}
+      ]
+    },
+    {
+      "key": "identity-therese-mouzon-b684",
+      "person_id": "6bb57757-f7a3-5276-a2e9-a23ffd233929",
+      "claim_type": "identity",
+      "claim_text": "The indexed Therese Mouzon is a high-confidence match to French resistance member Thérèse Joséphine Mouzon, also indexed as Thérèse André.",
+      "evidence_paraphrase": "Two official French archival inventories agree on her names, birth date, Marseille origin, and resistance files; a network history explicitly places her in an OSS-linked Marseille network.",
+      "identity_match_assessment": "High confidence from the rare exact name, two matching official resistance dossiers, alias, birth data, location, and explicit OSS-network context.",
+      "temporal_assessment": "These sources establish wartime identity and resistance activity but do not name a pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Thérèse Joséphine Mouzon and Thérèse André are retained as documented variants. No home address is reproduced.",
+      "sources": [
+        {"source_key": "nara-index-b684", "locator_override": "PDF page 332, row 35; Therese Mouzon, Box 543"},
+        {"source_key": "shd-resistance-agents-mouzon-b684", "locator_override": "GR 28 P 11 / 79, dossier 26484"},
+        {"source_key": "shd-resistance-personnel-mouzon-b684", "locator_override": "AC 21 P 602641"},
+        {"source_key": "wiwi-mouzon-b684", "support_type": "context_only", "locator_override": "Network structure and chronology; Thérèse Mouzon, alias Madame Andrée"}
+      ]
+    },
+    {
+      "key": "identity-clarence-moy-b684",
+      "person_id": "bebf9fe5-7985-57a3-989b-66ed9cc32f03",
+      "claim_type": "identity",
+      "claim_text": "The indexed Corporal Clarence Moy is a high-confidence match to the Army linguist who later supervised an OSS China translation unit.",
+      "evidence_paraphrase": "The obituary gives Army enlistment, multilingual training, OSS China headquarters service, and promotion to sergeant, all consistent with the indexed corporal's wartime progression.",
+      "identity_match_assessment": "High confidence from exact name, Army enlisted status, compatible rank progression, and an explicit OSS China assignment.",
+      "temporal_assessment": "The chronology distinguishes civilian Hawaii employment, Army enlistment, and later OSS China service.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The single detailed obituary is exceptionally specific but remains insufficient to upgrade the employment claims above medium confidence without a personnel jacket or independent institutional source.",
+      "sources": [
+        {"source_key": "nara-index-b684", "locator_override": "PDF page 332, row 44; Clarence Moy, Corporal, Box 543"},
+        {"source_key": "legacy-clarence-moy-b684", "locator_override": "Biographical chronology; Army and OSS China paragraphs"}
+      ]
+    },
+    {
+      "key": "clarence-moy-us-army-claim-b684",
+      "person_id": "bebf9fe5-7985-57a3-989b-66ed9cc32f03",
+      "affiliation_key": "clarence-moy-us-army-b684",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Clarence Moy's best-supported immediate pre-OSS affiliation was the United States Army.",
+      "evidence_excerpt": "Clarence enlisted in the US Army in November 1942",
+      "evidence_paraphrase": "The obituary says he enlisted in November 1942, received language training, and subsequently supervised an OSS China translation unit.",
+      "identity_match_assessment": "High-confidence exact-name, military-status, rank-progression, and explicit OSS-unit match.",
+      "temporal_assessment": "Strongly date-bounded military predecessor, but no formal transfer order is accessible.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Presented as a qualified military assignment, never as a civilian employer.",
+      "sources": [
+        {"source_key": "legacy-clarence-moy-b684", "locator_override": "Army enlistment and OSS China paragraphs"}
+      ]
+    },
+    {
+      "key": "clarence-moy-hawaii-employer-claim-b684",
+      "person_id": "bebf9fe5-7985-57a3-989b-66ed9cc32f03",
+      "affiliation_key": "clarence-moy-hawaii-institutions-b684",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Clarence Moy's last documented civilian employer before Army service was the Territory of Hawaii Department of Institutions, where he worked as a social worker.",
+      "evidence_excerpt": "he worked for the Territorial Department of Institutions as a social worker",
+      "evidence_paraphrase": "The obituary places the social-work job after college and before Army enlistment in November 1942.",
+      "identity_match_assessment": "High-confidence exact-name and explicit OSS China biography.",
+      "temporal_assessment": "Strongly date-bounded last civilian employer before military service; not claimed as the immediate predecessor to OSS.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The single family obituary supports a qualified claim. Exact employment dates and the department's administrative records still require archival confirmation.",
+      "sources": [
+        {"source_key": "legacy-clarence-moy-b684", "locator_override": "Education, Hawaii employment, and Army enlistment paragraphs"}
+      ]
+    },
+    {
+      "key": "identity-james-t-moy-b684",
+      "person_id": "871a830a-051e-5056-9298-66c205a2d79d",
+      "claim_type": "identity",
+      "claim_text": "The indexed Private James T Moy is a high-confidence match to the official Army record reviewed for this batch.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree across the two official records.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named employer or immediate pre-OSS unit.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private.",
+      "sources": [
+        {"source_key": "nara-index-b684", "locator_override": "PDF page 332, row 45; Private, Box 543"},
+        {"source_key": "army-bulk-b684", "locator_override": "Bulk record ordinal 2976732; exact name and protected identifier"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "dc0d05b5-98dc-590a-ac4f-301bdf2e795d",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name official, CIA, Library of Congress, employment, institutional, newspaper, obituary, directory, and archival searches found no reliable identity bridge beyond the index row; Civil War and unrelated later namesakes were rejected.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Albert Moulton's Box 542 personnel file for identity, dates, and a named pre-OSS affiliation.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "49664a9e-3fb2-5677-81d2-c5b5fd993bb6",
+      "identity_status": "unresolved",
+      "identity_evidence": "The CAF-5 grade and exact name did not yield corroborating wartime identifiers or a reliable employer in the accessible sources; a modern charitable trust was rejected as unrelated.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Ruth N Moulton's Box 542 personnel file for her civil-service chronology and prior employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "99cf4545-e9d7-500f-8524-b5e3d6b78ff6",
+      "identity_status": "unresolved",
+      "identity_evidence": "Searches did not bridge the indexed NO CO row to a specific person. The prominent motion-picture sound director Thomas T. Moulton was rejected because no OSS or Box 542 identifier connects that biography to this row.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Thomas T Moulton's Box 542 personnel file to interpret the printed grade and avoid assigning the famous sound-industry namesake on name alone.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "832ac295-99ba-5899-b841-78264d9ff394",
+      "identity_status": "conflicting",
+      "identity_evidence": "The index prints Andre G Mourqet and one protected identifier, while a 1945 OSS European Theater award roster prints Andre G. Mourquet and a one-digit-different identifier.",
+      "name_variants": ["Andre G Mourquet", "André G. Mourquet"],
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Compare the Box 543 jacket with NARA release 104-10165-10141 before resolving the surname omission or identifier discrepancy.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e38b7ca7-7043-5e50-a045-83279d234d22",
+      "identity_status": "unresolved",
+      "identity_evidence": "The exact name, naval grade, and protected identifier did not yield a second reliable public record or a named pre-OSS affiliation in the accessible sources reviewed.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Cleo C Mouser's Box 543 file and Navy muster or personnel records for identity and pre-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a4270213-f53d-5479-8944-7d4e8264dbac",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and transliteration-aware searches found only an obituary index and unrelated Greek-name results; none supplied the protected identifier, OSS context, or a reliable employer.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Leonidas Mousetis's Box 543 jacket and officer records before assigning any obituary or employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0adc9202-0cb1-5ecb-b6cc-cfa14f8ca913",
+      "identity_status": "conflicting",
+      "identity_evidence": "The protected identifier agrees, but the index prints Andrew S Mousilinas while the official Army record prints Andrew S Mousalimas.",
+      "name_variants": ["Andrew S Mousalimas"],
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review the Box 543 jacket before resolving the surname conflict or assigning the Army record's coded occupation.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "4498c60c-abbd-5c9f-8e28-56159bd7d5c1",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name, French-language, military, official, obituary, and archival searches found no reliable identity bridge for the indexed lieutenant.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Fernand F Mousis's Box 543 file for nationality, military service, and pre-OSS affiliation.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "dcb0e404-3457-51f0-93f3-fd63db70c463",
+      "identity_status": "unresolved",
+      "identity_evidence": "A French prisoner-of-war result for a Gaston Mousis lacked an OSS, Box 543, birth, or service bridge and was rejected; no reliable employer was found.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Gaston Mousis's Box 543 file at archival location 230/86/37/02 before linking the French prisoner-of-war namesake.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "2a27781a-4c74-50c5-8ffd-a9d0551b7d79",
+      "identity_status": "conflicting",
+      "identity_evidence": "The protected identifier and given names agree, but the index prints Frederick O Moussean while the official Army record prints Frederick O Mousseau.",
+      "name_variants": ["Frederick O Mousseau"],
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review the Box 543 jacket before resolving the final-letter surname discrepancy or assigning an employer.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "d2b82375-a4b9-5a56-9d96-185b99791242",
+      "identity_status": "unresolved",
+      "identity_evidence": "A detailed obituary for a Navy and Marine veteran named Chris G. Moustakis lacked OSS, Box 543, or another matching identifier and was rejected as a name-only candidate.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Chris G Moustakis's Box 543 personnel file before linking the Navy-Marine veteran or any later ITT employment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6bb57757-f7a3-5276-a2e9-a23ffd233929",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Two official French archival inventories agree on Thérèse Joséphine Mouzon, alias Thérèse André, with matching birth data and Marseille origin; a secondary network history explicitly links her to the OSS-associated Wi-Wi network.",
+      "name_variants": ["Thérèse Mouzon", "Thérèse Joséphine Mouzon", "Thérèse André", "Madame Andrée"],
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Box 543 and French resistance dossier GR 28 P 11 / 79, dossier 26484, for occupation and any pre-network employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d6caa166-febb-5212-9cf7-6418bea8dac6",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree with the official Army bulk record.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Chin M Mow's Box 543 personnel file for a named civilian employer and immediate Army-to-OSS assignment; do not infer either from coded Army data.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "efc9a046-5234-5024-8f40-39772b821937",
+      "identity_status": "unresolved",
+      "identity_evidence": "Multiple Betty J Mowery cemetery and obituary results could not be distinguished and none supplied an OSS or Box 543 bridge; no employer was assigned.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Betty J Mowery's Box 543 file for birth data, name variants, and pre-OSS affiliation.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e772314b-dca8-5952-9e9c-5185264b68c1",
+      "identity_status": "high_confidence",
+      "identity_evidence": "NARA independently identifies John A. Mowinckel as head of an OSS Economic Intelligence Collection Unit and Safehaven coordinator; the Marine Corps history identifies his Standard Oil executive role and his separately indexed son.",
+      "manual_review_required": false,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 543 to determine John A. Mowinckel's last civilian role and the date he left Standard Oil Company of New Jersey for OSS work.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "055d95d7-8745-5dfd-82ec-f30575f729e5",
+      "identity_status": "confirmed",
+      "identity_evidence": "The uncommon exact name, protected officer identifier, and official Marine Corps history confirm Marine Second Lieutenant John Wallendahl Mowinckel and explicitly document his OSS detail.",
+      "name_variants": ["John Wallendahl Mowinckel"],
+      "personnel_category": "commissioned_marine_corps_officer",
+      "commissioned_officer": true,
+      "manual_review_required": false,
+      "research_status": "completed",
+      "next_action": "Review Box 543 only if finer dates are needed for Princeton, Marine Reserve enlistment, commission, and OSS detail.",
+      "archival_review_priority": "low"
+    },
+    {
+      "person_id": "0ac453d8-2b63-5d38-a573-ea42f578a568",
+      "identity_status": "conflicting",
+      "identity_evidence": "The indexed Frank Mowinski row and an official Army record for Clyde E White carry the same protected identifier despite unrelated names.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review the Box 543 jacket and Army source-image context before assigning either name or any coded occupation.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "962cbbf4-5f63-5153-8b6f-7f4fb4efb064",
+      "identity_status": "conflicting",
+      "identity_evidence": "A digitized 1949 U.S. government record agrees on Arno Mowitz Jr., major rank, and the protected officer identifier but prints middle initial P instead of the index's D.",
+      "name_variants": ["Arno P Mowitz Jr."],
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review the Box 543 jacket before resolving the D-P middle-initial discrepancy or linking any prewar lawyer namesake.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ea849814-12a1-5d15-b640-78d9efbff2ce",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The uncommon exact name and civilian WAE grade align with Library of Congress chronology and NARA documentation of journalist Edgar A. Mowrer's direct 1940 collaboration with William Donovan.",
+      "name_variants": ["Edgar Ansel Mowrer"],
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Box 543 to establish why a personnel file was created and whether Chicago Daily News, the Office of Facts and Figures, OWI, or his newspaper column immediately preceded any OSS engagement.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "21726b44-4cab-54f6-8460-a81a3934fc71",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and cautious Mowser-Mouser spelling-variant searches found no reliable identity bridge or named employer.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Orval H Mowser's Box 543 personnel file for spelling, dates, and pre-OSS affiliation.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "bebf9fe5-7985-57a3-989b-66ed9cc32f03",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A detailed obituary aligns exact name, Army enlisted status, compatible corporal-to-sergeant progression, language training, and explicit OSS China translation-unit service.",
+      "manual_review_required": false,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 543 and Hawaii territorial personnel records to confirm exact employment dates and the Army-to-OSS transfer.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "871a830a-051e-5056-9298-66c205a2d79d",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree with the official Army bulk record.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review James T Moy's Box 543 personnel file for a named civilian employer and immediate Army-to-OSS assignment; do not infer either from coded Army data.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "29e36d44-64eb-5e3c-a21a-200471da491a",
+      "identity_status": "unresolved",
+      "identity_evidence": "A 1935 Georgia State University yearbook entry for Leon L Moye at Atlanta Gas Light Company is an exact-name lead, but no service identifier, OSS context, or second corroborating identifier links it to the indexed lieutenant.",
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Leon L Moye's Box 543 jacket before accepting the Atlanta Gas Light Company candidate; the name-only employer lead remains rejected.",
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {"key":"b684-albert-moulton-reviewed-search","person_id":"dc0d05b5-98dc-590a-ac4f-301bdf2e795d","source_adapter":"official_nara_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Albert Moulton; OSS; employer; occupation; obituary; military","query_variant_type":"common_name_exact_employment_and_archival","started_at":"2026-09-25T15:00:00Z","completed_at":"2026-09-25T15:42:00Z","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":7,"rejection_reasons":"Civil War, Canadian, Australian, Maine police, and unrelated later Albert Moulton results lacked the indexed file, OSS context, and corroborating wartime identifiers.","research_notes":"The minimum official, exact-name OSS, employment, institutional, newspaper, obituary, directory, and archival protocol was completed. The CIA automated endpoint was blocked by its current robots policy and a bounded LoC adapter call timed out; accessible CIA-domain and LoC/web discovery searches were still reviewed.","next_action":"Review Box 542.","attempt_number":5,"research_agent_version":"before-oss-batch-684-v1"},
+    {"key":"b684-ruth-n-moulton-reviewed-search","person_id":"49664a9e-3fb2-5677-81d2-c5b5fd993bb6","source_adapter":"official_nara_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Ruth N Moulton; CAF-5; OSS; employer; occupation; obituary","query_variant_type":"exact_name_civilian_grade_employment_and_archival","started_at":"2026-09-25T15:00:00Z","completed_at":"2026-09-25T15:42:00Z","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":4,"rejection_reasons":"Modern trust and unrelated genealogical results lacked wartime or OSS evidence.","research_notes":"Minimum protocol completed with CIA robots and bounded LoC timeout limitations recorded; no reliable identity bridge or employer was found.","next_action":"Review Box 542.","attempt_number":5,"research_agent_version":"before-oss-batch-684-v1"},
+    {"key":"b684-thomas-t-moulton-reviewed-search","person_id":"99cf4545-e9d7-500f-8524-b5e3d6b78ff6","source_adapter":"official_nara_cia_loc_film_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Thomas T Moulton; NO CO; OSS; employer; sound director; World War II","query_variant_type":"exact_name_grade_famous_namesake_disambiguation","started_at":"2026-09-25T15:00:00Z","completed_at":"2026-09-25T15:42:00Z","outcome":"candidate_rejected","sources_reviewed":7,"candidate_sources_rejected":5,"rejection_reasons":"The film sound director shared the exact name but no OSS, Box 542, military, birth, or archival identifier linked that biography to the row.","research_notes":"The famous namesake was deliberately rejected under the no-name-only rule. CIA automated search was robots-blocked and the bounded LoC adapter attempt timed out.","next_action":"Review Box 542 and interpret NO CO.","attempt_number":5,"research_agent_version":"before-oss-batch-684-v1"},
+    {"key":"b684-andre-g-mourqet-reviewed-search","person_id":"832ac295-99ba-5899-b841-78264d9ff394","source_adapter":"official_nara_jfk_release_cia_blocked_loc_timeout_french_military_and_targeted_web_review","query_text":"Andre G Mourqet; Andre G Mourquet; Pfc; OSS; protected identifier; employer","query_variant_type":"index_spelling_variant_identifier_conflict_archival","started_at":"2026-09-25T15:00:00Z","completed_at":"2026-09-25T15:42:00Z","outcome":"source_reviewed","sources_reviewed":8,"candidate_sources_rejected":4,"rejection_reasons":"A French prisoner-of-war Andre Mourquet lacked the middle initial and U.S. service bridge. The 1945 OSS award roster was accepted as a conflict record, not a silent correction.","research_notes":"A NARA-released 1945 OSS European Theater roster supplies Mourquet and a one-digit-different protected identifier. CIA access was robots-blocked and the LoC adapter timed out; both limitations are preserved rather than treated as negative evidence.","next_action":"Compare Box 543 with NARA release 104-10165-10141.","attempt_number":7,"research_agent_version":"before-oss-batch-684-v1"},
+    {"key":"b684-cleo-c-mouser-reviewed-search","person_id":"e38b7ca7-7043-5e50-a045-83279d234d22","source_adapter":"official_nara_cia_loc_navy_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Cleo C Mouser; SC 3/c; OSS; Navy; employer; occupation","query_variant_type":"rare_exact_name_naval_grade_identifier_and_archival","started_at":"2026-09-25T15:00:00Z","completed_at":"2026-09-25T15:42:00Z","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":3,"rejection_reasons":"Name-similar cemetery and genealogy results lacked the protected identifier or OSS context.","research_notes":"Minimum protocol completed with CIA robots and LoC timeout limitations recorded; no named employer or second identity record was accessible.","next_action":"Review Box 543 and Navy records.","attempt_number":5,"research_agent_version":"before-oss-batch-684-v1"},
+    {"key":"b684-leonidas-mousetis-reviewed-search","person_id":"a4270213-f53d-5479-8944-7d4e8264dbac","source_adapter":"official_nara_cia_loc_greek_variant_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Leonidas Mousetis; Lieutenant; OSS; obituary; employer; Greek","query_variant_type":"rare_exact_name_transliteration_rank_and_archival","started_at":"2026-09-25T15:00:00Z","completed_at":"2026-09-25T15:42:00Z","outcome":"no_result","sources_reviewed":6,"candidate_sources_rejected":5,"rejection_reasons":"An obituary-index entry and Greek-name results supplied no protected identifier, OSS assignment, or employer.","research_notes":"Minimum protocol completed with foreign-name variants. CIA robots blocking and the bounded LoC timeout are recorded as source-access limitations.","next_action":"Review Box 543 and officer records.","attempt_number":5,"research_agent_version":"before-oss-batch-684-v1"},
+    {"key":"b684-andrew-s-mousilinas-reviewed-search","person_id":"0adc9202-0cb1-5ecb-b6cc-cfa14f8ca913","source_adapter":"official_nara_army_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Andrew S Mousilinas; Andrew S Mousalimas; Corporal; OSS; employer","query_variant_type":"identifier_agreement_surname_conflict_and_archival","started_at":"2026-09-25T15:00:00Z","completed_at":"2026-09-25T15:42:00Z","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":4,"rejection_reasons":"Name variants outside the identifier-matched Army record lacked an OSS or employer bridge; Army coded occupation was rejected as employer evidence.","research_notes":"The protected identifier links two substantially different surname spellings. The case remains conflicting pending Box 543; CIA and LoC adapter limitations are recorded.","next_action":"Review Box 543.","attempt_number":5,"research_agent_version":"before-oss-batch-684-v1"},
+    {"key":"b684-fernand-f-mousis-reviewed-search","person_id":"4498c60c-abbd-5c9f-8e28-56159bd7d5c1","source_adapter":"official_nara_cia_loc_french_military_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Fernand F Mousis; Lieutenant; OSS; France; employer; occupation","query_variant_type":"rare_foreign_name_rank_variants_and_archival","started_at":"2026-09-25T15:00:00Z","completed_at":"2026-09-25T15:42:00Z","outcome":"no_result","sources_reviewed":6,"candidate_sources_rejected":4,"rejection_reasons":"French and Belgian name results lacked middle initial, OSS context, and corroborating military identifiers.","research_notes":"Adapted foreign-name protocol completed; CIA robots and bounded LoC timeout limitations recorded.","next_action":"Review Box 543 for nationality and service context.","attempt_number":5,"research_agent_version":"before-oss-batch-684-v1"},
+    {"key":"b684-gaston-mousis-reviewed-search","person_id":"dcb0e404-3457-51f0-93f3-fd63db70c463","source_adapter":"official_nara_cia_loc_french_pow_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Gaston Mousis; OSS; France; prisoner of war; employer; occupation","query_variant_type":"rare_foreign_name_pow_candidate_disambiguation","started_at":"2026-09-25T15:00:00Z","completed_at":"2026-09-25T15:42:00Z","outcome":"candidate_rejected","sources_reviewed":7,"candidate_sources_rejected":5,"rejection_reasons":"A French prisoner-of-war namesake lacked an OSS, Box 543, birth, or service bridge and was rejected.","research_notes":"Adapted foreign-name minimum protocol completed; no reliable employer found. CIA robots and LoC timeout limitations were preserved.","next_action":"Review Box 543 at location 230/86/37/02.","attempt_number":5,"research_agent_version":"before-oss-batch-684-v1"},
+    {"key":"b684-frederick-o-moussean-reviewed-search","person_id":"2a27781a-4c74-50c5-8ffd-a9d0551b7d79","source_adapter":"official_nara_army_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Frederick O Moussean; Frederick O Mousseau; T-5; OSS; employer","query_variant_type":"identifier_agreement_final_letter_conflict_and_archival","started_at":"2026-09-25T15:00:00Z","completed_at":"2026-09-25T15:42:00Z","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":4,"rejection_reasons":"Army occupation code and name-only Mousseau results were rejected as employer evidence.","research_notes":"The protected identifier supports a close relationship, but the final-letter conflict remains visible pending Box 543. CIA robots and LoC timeout limitations recorded.","next_action":"Review Box 543.","attempt_number":5,"research_agent_version":"before-oss-batch-684-v1"},
+    {"key":"b684-chris-g-moustakis-reviewed-search","person_id":"d2b82375-a4b9-5a56-9d96-185b99791242","source_adapter":"official_nara_cia_loc_military_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Chris G Moustakis; OSS; Navy; Marine; employer; obituary","query_variant_type":"rare_exact_name_veteran_namesake_disambiguation","started_at":"2026-09-25T15:00:00Z","completed_at":"2026-09-25T15:42:00Z","outcome":"candidate_rejected","sources_reviewed":6,"candidate_sources_rejected":5,"rejection_reasons":"A Navy and Marine veteran's obituary lacked OSS, Box 543, or another matching identifier; later ITT work was not transferred.","research_notes":"Minimum protocol completed; the exact-name obituary remains a rejected lead. CIA robots and LoC timeout limitations recorded.","next_action":"Review Box 543.","attempt_number":5,"research_agent_version":"before-oss-batch-684-v1"},
+    {"key":"b684-therese-mouzon-reviewed-search","person_id":"6bb57757-f7a3-5276-a2e9-a23ffd233929","source_adapter":"official_nara_shd_french_resistance_cia_loc_network_history_and_targeted_web_review","query_text":"Therese Mouzon; Thérèse Joséphine Mouzon; Thérèse André; Wi-Wi; OSS; employer","query_variant_type":"rare_foreign_name_alias_resistance_files_and_archival","started_at":"2026-09-25T15:00:00Z","completed_at":"2026-09-25T15:42:00Z","outcome":"source_reviewed","sources_reviewed":9,"candidate_sources_rejected":3,"rejection_reasons":"Modern Mouzon results and name-only memorial pages lacked the archival identifiers and resistance context.","research_notes":"Two official French inventories plus an OSS-linked network history support high-confidence identity. No accessible source named a pre-network employer. CIA robots and LoC timeout limitations recorded.","next_action":"Review Box 543 and SHD dossier 26484.","attempt_number":5,"research_agent_version":"before-oss-batch-684-v1"},
+    {"key":"b684-chin-m-mow-reviewed-search","person_id":"d6caa166-febb-5212-9cf7-6418bea8dac6","source_adapter":"official_nara_army_cia_loc_chinese_american_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Chin M Mow; Staff Sergeant; OSS; employer; occupation","query_variant_type":"exact_name_identifier_chinese_american_and_archival","started_at":"2026-09-25T15:00:00Z","completed_at":"2026-09-25T15:42:00Z","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":5,"rejection_reasons":"Name-order variants and unrelated Mow results lacked the protected identifier; Army occupation code was not treated as an employer.","research_notes":"Exact name and nonshared protected identifier establish high-confidence identity, but no named employer or immediate unit was found. CIA and LoC limitations recorded.","next_action":"Review Box 543.","attempt_number":5,"research_agent_version":"before-oss-batch-684-v1"},
+    {"key":"b684-betty-j-mowery-reviewed-search","person_id":"efc9a046-5234-5024-8f40-39772b821937","source_adapter":"official_nara_cia_loc_institutional_newspaper_obituary_cemetery_directory_and_targeted_web_review","query_text":"Betty J Mowery; OSS; employer; occupation; obituary; World War II","query_variant_type":"common_name_exact_initial_namesake_disambiguation","started_at":"2026-09-25T15:00:00Z","completed_at":"2026-09-25T15:42:00Z","outcome":"no_result","sources_reviewed":7,"candidate_sources_rejected":12,"rejection_reasons":"Multiple cemetery and obituary results could not be distinguished and none supplied OSS or Box 543 evidence.","research_notes":"Enhanced common-name protocol completed. No biography or employer was assigned on name alone; CIA robots and LoC timeout limitations recorded.","next_action":"Review Box 543.","attempt_number":5,"research_agent_version":"before-oss-batch-684-v1"},
+    {"key":"b684-john-a-mowinckel-reviewed-search","person_id":"e772314b-dca8-5952-9e9c-5185264b68c1","source_adapter":"official_nara_usmc_cia_loc_corporate_history_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"John A Mowinckel; OSS; Safehaven; Econic; Standard Oil Company of New Jersey; employer","query_variant_type":"rare_exact_name_oss_role_corporate_employment_and_archival","started_at":"2026-09-25T15:00:00Z","completed_at":"2026-09-25T15:42:00Z","outcome":"source_reviewed","sources_reviewed":10,"candidate_sources_rejected":4,"rejection_reasons":"Postwar references and general family histories were excluded; SIAP presidency and Jersey meeting references were not used to overstate immediacy.","research_notes":"NARA establishes the exact-name OSS leadership identity; the official Marine Corps history supports documented prewar Standard Oil employment. No source establishes it as the immediate predecessor. CIA robots and LoC timeout limitations recorded.","next_action":"Review Box 543 for accession chronology.","attempt_number":5,"research_agent_version":"before-oss-batch-684-v1"},
+    {"key":"b684-john-w-mowinckel-reviewed-search","person_id":"055d95d7-8745-5dfd-82ec-f30575f729e5","source_adapter":"official_nara_usmc_reagan_cia_loc_princeton_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"John W Mowinckel; John Wallendahl Mowinckel; USMCR; Princeton; OSS; employer","query_variant_type":"rare_exact_name_officer_identifier_military_student_and_archival","started_at":"2026-09-25T15:00:00Z","completed_at":"2026-09-25T15:42:00Z","outcome":"source_reviewed","sources_reviewed":10,"candidate_sources_rejected":3,"rejection_reasons":"Postwar USIA and energy-agency work was excluded from pre-OSS claims; his father's Standard Oil employment was not transferred to him.","research_notes":"Official Marine Corps history confirms full identity and explicitly orders Princeton, Reserve service, commission, and OSS detail. CIA robots and LoC timeout limitations recorded.","next_action":"Box 543 only for finer dates.","attempt_number":5,"research_agent_version":"before-oss-batch-684-v1"},
+    {"key":"b684-frank-mowinski-reviewed-search","person_id":"0ac453d8-2b63-5d38-a573-ea42f578a568","source_adapter":"official_nara_army_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Frank Mowinski; Clyde E White; T-5; OSS; protected identifier; employer","query_variant_type":"identifier_agreement_unrelated_name_conflict_and_archival","started_at":"2026-09-25T15:00:00Z","completed_at":"2026-09-25T15:42:00Z","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":5,"rejection_reasons":"The Army record's unrelated name and coded occupation were not transferred to Frank Mowinski; name-only Mowinski results lacked OSS evidence.","research_notes":"The severe name conflict remains unresolved pending Box 543. CIA robots and LoC timeout limitations recorded.","next_action":"Review Box 543 and Army source-image context.","attempt_number":5,"research_agent_version":"before-oss-batch-684-v1"},
+    {"key":"b684-arno-d-mowitz-jr-reviewed-search","person_id":"962cbbf4-5f63-5153-8b6f-7f4fb4efb064","source_adapter":"official_nara_state_department_kmag_cia_loc_legal_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Arno D Mowitz Jr; Arno P Mowitz Jr; Major; OSS; employer; lawyer","query_variant_type":"officer_identifier_middle_initial_conflict_and_archival","started_at":"2026-09-25T15:00:00Z","completed_at":"2026-09-25T15:42:00Z","outcome":"source_reviewed","sources_reviewed":8,"candidate_sources_rejected":6,"rejection_reasons":"Prewar legal results could describe his father or another namesake and were rejected; the 1949 Korea assignment is postwar identity evidence only.","research_notes":"A U.S. government record matches name, suffix, rank, and protected officer identifier but prints P instead of D. CIA robots and LoC timeout limitations recorded.","next_action":"Review Box 543 for the middle initial and prewar occupation.","attempt_number":5,"research_agent_version":"before-oss-batch-684-v1"},
+    {"key":"b684-edgar-a-mowrer-reviewed-search","person_id":"ea849814-12a1-5d15-b640-78d9efbff2ce","source_adapter":"official_nara_loc_frus_cia_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Edgar A Mowrer; Edgar Ansel Mowrer; WAE; Donovan; OSS; Chicago Daily News; OWI","query_variant_type":"rare_exact_name_civilian_grade_government_journalism_chronology","started_at":"2026-09-25T15:00:00Z","completed_at":"2026-09-25T15:42:00Z","outcome":"source_reviewed","sources_reviewed":9,"candidate_sources_rejected":4,"rejection_reasons":"Postwar columns and broad biographical summaries were excluded; none fixed the date or basis of the OSS personnel file.","research_notes":"LOC and NARA establish high-confidence identity and wartime chronology, but Chicago Daily News, OFF, OWI, and column work cannot safely be labeled immediate pre-OSS without Box 543. CIA robots and LoC adapter timeout limitations recorded despite accessible LoC finding-aid review.","next_action":"Review Box 543 for accession chronology.","attempt_number":5,"research_agent_version":"before-oss-batch-684-v1"},
+    {"key":"b684-orval-h-mowser-reviewed-search","person_id":"21726b44-4cab-54f6-8460-a81a3934fc71","source_adapter":"official_nara_cia_loc_spelling_variant_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Orval H Mowser; Orval Mouser; OSS; employer; occupation; obituary","query_variant_type":"rare_exact_name_spelling_variants_and_archival","started_at":"2026-09-25T15:00:00Z","completed_at":"2026-09-25T15:42:00Z","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":5,"rejection_reasons":"Mouser and Mower variants lacked middle initial, OSS context, and corroborating identifiers.","research_notes":"Minimum protocol with spelling variants completed; CIA robots and LoC timeout limitations recorded.","next_action":"Review Box 543.","attempt_number":5,"research_agent_version":"before-oss-batch-684-v1"},
+    {"key":"b684-clarence-moy-reviewed-search","person_id":"bebf9fe5-7985-57a3-989b-66ed9cc32f03","source_adapter":"official_nara_cia_loc_chinese_american_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Clarence Moy; OSS China; translation unit; Territorial Department of Institutions; social worker","query_variant_type":"exact_name_rank_progression_language_oss_unit_employment_chronology","started_at":"2026-09-25T15:00:00Z","completed_at":"2026-09-25T15:42:00Z","outcome":"source_reviewed","sources_reviewed":8,"candidate_sources_rejected":6,"rejection_reasons":"A later San Francisco attorney and other Clarence Moy namesakes were rejected; postwar CIA and business details were excluded from pre-OSS claims.","research_notes":"A detailed obituary supplies a coherent civilian-employment, Army-enlistment, language-training, and OSS China chronology. Employment and immediate-affiliation claims remain medium and qualified pending independent records. CIA robots and LoC timeout limitations recorded.","next_action":"Review Box 543 and Hawaii territorial personnel records.","attempt_number":5,"research_agent_version":"before-oss-batch-684-v1"},
+    {"key":"b684-james-t-moy-reviewed-search","person_id":"871a830a-051e-5056-9298-66c205a2d79d","source_adapter":"official_nara_army_cia_loc_chinese_american_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"James T Moy; Private; OSS; employer; occupation","query_variant_type":"common_name_exact_initial_identifier_and_archival","started_at":"2026-09-25T15:00:00Z","completed_at":"2026-09-25T15:42:00Z","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":7,"rejection_reasons":"Name-only veteran and cemetery results lacked the protected identifier; Army coded occupation was not treated as an employer.","research_notes":"Exact name and nonshared protected identifier establish high-confidence identity, but no named employer or immediate unit was found. CIA and LoC limitations recorded.","next_action":"Review Box 543.","attempt_number":5,"research_agent_version":"before-oss-batch-684-v1"},
+    {"key":"b684-leon-l-moye-reviewed-search","person_id":"29e36d44-64eb-5e3c-a21a-200471da491a","source_adapter":"official_nara_cia_loc_yearbook_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Leon L Moye; Lieutenant; OSS; Atlanta Gas Light Company; Georgia State; employer","query_variant_type":"exact_name_yearbook_employer_candidate_disambiguation","started_at":"2026-09-25T15:00:00Z","completed_at":"2026-09-25T15:42:00Z","outcome":"candidate_rejected","sources_reviewed":7,"candidate_sources_rejected":5,"rejection_reasons":"The 1935 Georgia State yearbook supplies an exact-name Atlanta Gas Light Company lead but no officer identifier, OSS assignment, birth data, or second corroborating identifier.","research_notes":"The employer lead remains rejected rather than published on name alone. CIA robots and LoC timeout limitations recorded.","next_action":"Review Box 543 before accepting the yearbook biography.","attempt_number":5,"research_agent_version":"before-oss-batch-684-v1"}
+  ]
+}

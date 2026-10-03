@@ -268,6 +268,37 @@ class ReviewedEvidenceTests(unittest.TestCase):
             canonical_id,
         )
 
+    def test_explicit_source_id_reuses_canonical_row_and_cleans_generated_duplicate(self) -> None:
+        path = Path(self.temp_dir.name) / "source-remap.json"
+        bundle = self._bundle()
+        path.write_text(json.dumps(bundle), encoding="utf-8")
+        import_reviewed_evidence(self.connection, path)
+        generated_id = self.connection.execute(
+            "SELECT source_id FROM sources"
+        ).fetchone()[0]
+
+        canonical_id = "aaaaaaaa-bbbb-4ccc-8ddd-eeeeeeeeeeee"
+        bundle["sources"][0]["source_id"] = canonical_id
+        path.write_text(json.dumps(bundle), encoding="utf-8")
+        import_reviewed_evidence(self.connection, path)
+
+        self.assertEqual(
+            [
+                row[0]
+                for row in self.connection.execute(
+                    "SELECT source_id FROM sources ORDER BY source_id"
+                )
+            ],
+            [canonical_id],
+        )
+        self.assertNotEqual(generated_id, canonical_id)
+        self.assertEqual(
+            self.connection.execute(
+                "SELECT source_id FROM claim_sources"
+            ).fetchone()[0],
+            canonical_id,
+        )
+
     def test_government_assignment_can_be_last_civilian_role(self) -> None:
         bundle = self._bundle()
         affiliation = bundle["affiliations"][0]

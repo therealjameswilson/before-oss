@@ -1,0 +1,353 @@
+{
+  "bundle_version": "batch-669-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 669 archival review",
+  "sources": [
+    {
+      "key": "nara-index-b669",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 532",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 325, rows 26-46, and page 326, row 1, visually checked",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 22 printed rows remain separate. Full service identifiers remain private and are excluded from public output."
+    },
+    {
+      "key": "army-bulk-b669",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; fixed-width name and protected-identifier review for Batch 669",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "Official bulk data, not a Catalog API response. Protected identifiers, occupation codes, and raw records are excluded from public output; coded occupations were not treated as employers."
+    },
+    {
+      "key": "sf-directory-1938-monett-b669",
+      "stable_url": "https://library.sfgenealogy.org/directory/san-francisco-county-directory/1938/1938_1050.pdf",
+      "title": "Polk's Crocker-Langley San Francisco City Directory, 1938",
+      "author_creator": "R. L. Polk & Co.",
+      "repository_publisher": "Internet Archive scan distributed by SFgenealogy",
+      "publication_record_date": "1938",
+      "locator": "Directory page 1050, Monett entry",
+      "access_date": "2026-09-25",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "San Francisco city directories",
+      "rights_notes": "The scan was visually reviewed; only a short transcription and project-authored paraphrase are retained."
+    },
+    {
+      "key": "sf-directory-1941-monett-b669",
+      "stable_url": "https://library.sfgenealogy.org/directory/san-francisco-county-directory/1941/1941_991.pdf",
+      "title": "Polk's Crocker-Langley San Francisco City Directory, 1941",
+      "author_creator": "R. L. Polk & Co.",
+      "repository_publisher": "Internet Archive scan distributed by SFgenealogy",
+      "publication_record_date": "1941",
+      "locator": "Directory page 991, Monett entry",
+      "access_date": "2026-09-25",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "San Francisco city directories",
+      "rights_notes": "The scan was visually reviewed; only a short transcription and project-authored paraphrase are retained."
+    },
+    {
+      "key": "harvard-nuremberg-monigan-b669",
+      "stable_url": "https://nuremberg.law.harvard.edu/documents/1718-interrogation-of-sauckel-by?mode=text&q=%2A",
+      "archival_identifier": "HLSL Item No. 455979; Evidence Code PS-3721",
+      "title": "Interrogation of Sauckel (by Monigan) on the war economy labor program",
+      "author_creator": "John J. Monigan Jr.; Fritz Sauckel",
+      "repository_publisher": "Harvard Law School Library Nuremberg Trials Project",
+      "publication_record_date": "1945-09-22",
+      "locator": "Person authority entry and document header",
+      "access_date": "2026-09-25",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Nuremberg Trials Project",
+      "rights_notes": "A short authority-record excerpt and project-authored paraphrase are retained."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "san-francisco-news-b669",
+      "canonical_name": "San Francisco News",
+      "historical_name": "S F News",
+      "aliases": ["The San Francisco News", "S. F. News"],
+      "organization_type": "newspaper",
+      "sector": "journalism_and_media",
+      "city": "San Francisco",
+      "state_or_region": "California",
+      "country": "United States",
+      "normalization_notes": "The directory abbreviation S F News is preserved as found and normalized to the historical newspaper title; no modern successor is substituted."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "negley-monett-sf-news-b669",
+      "person_id": "8fb929cc-ad45-58ca-b4cd-26ee62b1e211",
+      "organization_key": "san-francisco-news-b669",
+      "organization_name_as_found": "S F News",
+      "relationship_type": "employment",
+      "start_date": "1938",
+      "end_date": "1941",
+      "date_precision": "The 1938 and 1941 directories document employment in those years; they do not establish exact start or end dates.",
+      "city": "San Francisco",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Two contemporary directories document the same rare exact name at the same newspaper. They do not prove that this was the immediate predecessor to OSS or the last civilian employer before service."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-joseph-t-molyson-b669",
+      "person_id": "243cb3b3-3f8f-56ec-aba2-7fa7e976ab23",
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph T. Molyson is a high-confidence match to the official Army enlistment record.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact full name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "Wartime identity evidence only; no employer or predecessor chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army coded occupation data remain private and are not translated into an employer claim.",
+      "sources": [
+        {"source_key":"nara-index-b669","support_type":"supports","locator_override":"PDF page 325, row 27, Box 532"},
+        {"source_key":"army-bulk-b669","support_type":"supports","locator_override":"Exact Army name and protected-identifier match"}
+      ]
+    },
+    {
+      "key": "identity-george-f-monahan-b669",
+      "person_id": "0c9e7644-515a-552f-b884-44af93cbb05d",
+      "claim_type": "identity",
+      "claim_text": "The indexed George F. Monahan is a high-confidence match to the Army record for George F. Monahan Jr.",
+      "evidence_paraphrase": "The official records agree in full name and a nonshared protected identifier; the Army record adds the suffix Jr.",
+      "identity_match_assessment": "High confidence because exact name elements and a nonshared protected identifier agree; the suffix is a compatible additional detail.",
+      "temporal_assessment": "Wartime identity evidence only; no employer or predecessor chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The suffix is preserved as a variant. Army coded occupation data remain private.",
+      "sources": [
+        {"source_key":"nara-index-b669","support_type":"supports","locator_override":"PDF page 325, row 28, Box 532"},
+        {"source_key":"army-bulk-b669","support_type":"supports","locator_override":"George F. Monahan Jr. and protected-identifier match"}
+      ]
+    },
+    {
+      "key": "identity-raymond-d-monahan-b669",
+      "person_id": "bcd1704e-9710-5136-8e4c-365756b48c3d",
+      "claim_type": "identity",
+      "claim_text": "The indexed Raymond D. Monahan is a high-confidence match to the official Army enlistment record.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact full name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "Wartime identity evidence only; no employer or predecessor chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army coded occupation data remain private and are not translated into an employer claim.",
+      "sources": [
+        {"source_key":"nara-index-b669","support_type":"supports","locator_override":"PDF page 325, row 29, Box 532"},
+        {"source_key":"army-bulk-b669","support_type":"supports","locator_override":"Exact Army name and protected-identifier match"}
+      ]
+    },
+    {
+      "key": "identity-earl-m-moncrief-b669",
+      "person_id": "9d1ed0c7-d5ce-563b-9c45-48410f89dd4e",
+      "claim_type": "identity",
+      "claim_text": "The indexed Earl M. Moncrief is a high-confidence match to the official Army enlistment record.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact full name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "Wartime identity evidence only; no employer or predecessor chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army coded occupation data remain private and are not translated into an employer claim.",
+      "sources": [
+        {"source_key":"nara-index-b669","support_type":"supports","locator_override":"PDF page 325, row 31, Box 532"},
+        {"source_key":"army-bulk-b669","support_type":"supports","locator_override":"Exact Army name and protected-identifier match"}
+      ]
+    },
+    {
+      "key": "identity-john-j-mondale-b669",
+      "person_id": "6fcabe28-1ea4-5652-8e98-da731b28916a",
+      "claim_type": "identity",
+      "claim_text": "The indexed John J. Mondale is a high-confidence match to the Army record for John J. Mondale Jr.",
+      "evidence_paraphrase": "The official records agree in full name and a nonshared protected identifier; the Army record adds the suffix Jr.",
+      "identity_match_assessment": "High confidence because exact name elements and a nonshared protected identifier agree; the suffix is a compatible additional detail.",
+      "temporal_assessment": "Wartime identity evidence only; no employer or predecessor chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The suffix is preserved as a variant. Army coded occupation data remain private.",
+      "sources": [
+        {"source_key":"nara-index-b669","support_type":"supports","locator_override":"PDF page 325, row 32, Box 532"},
+        {"source_key":"army-bulk-b669","support_type":"supports","locator_override":"John J. Mondale Jr. and protected-identifier match"}
+      ]
+    },
+    {
+      "key": "identity-negley-c-monett-b669",
+      "person_id": "8fb929cc-ad45-58ca-b4cd-26ee62b1e211",
+      "claim_type": "identity",
+      "claim_text": "The indexed Negley C. Monett is probably the San Francisco newspaper employee listed in the 1938 and 1941 city directories.",
+      "evidence_excerpt": "Negley C ... with S F News",
+      "evidence_paraphrase": "Two contemporary directories repeat the rare exact name and the same newspaper affiliation three years apart.",
+      "identity_match_assessment": "Probable. The rare exact name and consistent San Francisco newspaper chronology form a good but not conclusive bridge to the indexed CAF-7 person.",
+      "temporal_assessment": "The directories establish employment in 1938 and 1941 but do not explicitly connect the job to OSS entry.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Box 532 remains necessary to confirm the identity and the sequence into OSS.",
+      "sources": [
+        {"source_key":"nara-index-b669","support_type":"supports","locator_override":"PDF page 325, row 35, CAF-7, Box 532"},
+        {"source_key":"sf-directory-1938-monett-b669","support_type":"supports","locator_override":"Directory page 1050, Monett entry"},
+        {"source_key":"sf-directory-1941-monett-b669","support_type":"supports","locator_override":"Directory page 991, Monett entry"}
+      ]
+    },
+    {
+      "key": "negley-c-monett-sf-news-work-b669",
+      "person_id": "8fb929cc-ad45-58ca-b4cd-26ee62b1e211",
+      "affiliation_key": "negley-monett-sf-news-b669",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Negley C. Monett probably worked for the San Francisco News in 1938 and 1941.",
+      "evidence_excerpt": "Negley C (Elsie G) with S F News",
+      "evidence_paraphrase": "The 1938 directory says Monett was employed by the newspaper; the 1941 directory says he remained with it.",
+      "identity_match_assessment": "Probable identity based on the rare exact name and repeated contemporary employment context.",
+      "temporal_assessment": "Documented prewar employment, but not proven to be the immediate pre-OSS affiliation or last civilian employer before service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The profile must retain the qualification and must not imply that the newspaper immediately preceded OSS service.",
+      "sources": [
+        {"source_key":"sf-directory-1938-monett-b669","support_type":"supports","locator_override":"Directory page 1050, Monett entry"},
+        {"source_key":"sf-directory-1941-monett-b669","support_type":"supports","locator_override":"Directory page 991, Monett entry"}
+      ]
+    },
+    {
+      "key": "identity-carmine-mongelluzzo-b669",
+      "person_id": "e8c35b90-8366-50c1-9ad5-fe245cba95df",
+      "claim_type": "identity",
+      "claim_text": "The indexed Carmine Mongelluzzo is a high-confidence match to the official Army enlistment record.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "Wartime identity evidence only; no employer or predecessor chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army coded occupation data remain private and are not translated into an employer claim.",
+      "sources": [
+        {"source_key":"nara-index-b669","support_type":"supports","locator_override":"PDF page 325, row 38, Box 532"},
+        {"source_key":"army-bulk-b669","support_type":"supports","locator_override":"Exact Army name and protected-identifier match"}
+      ]
+    },
+    {
+      "key": "identity-paul-j-mongrain-b669",
+      "person_id": "eda77222-89bb-54ce-aed5-5e19afc85798",
+      "claim_type": "identity",
+      "claim_text": "The indexed Paul J. Mongrain is a high-confidence match to the official Army enlistment record.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact full name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "Wartime identity evidence only; no employer or predecessor chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army coded occupation data remain private and are not translated into an employer claim.",
+      "sources": [
+        {"source_key":"nara-index-b669","support_type":"supports","locator_override":"PDF page 325, row 40, Box 532"},
+        {"source_key":"army-bulk-b669","support_type":"supports","locator_override":"Exact Army name and protected-identifier match"}
+      ]
+    },
+    {
+      "key": "identity-john-j-monigan-b669",
+      "person_id": "f2d70507-f85e-539b-94e9-bee48b5fbbd7",
+      "claim_type": "identity",
+      "claim_text": "The indexed Major John J. Monigan is a high-confidence match to John J. Monigan Jr., the major documented by Harvard's Nuremberg archive.",
+      "evidence_excerpt": "John J., Jr. Monigan (Major, interrogator, war crimes staff)",
+      "evidence_paraphrase": "Harvard's authority record supplies the same rare full name and major rank, plus birth, education, and wartime assignment details.",
+      "identity_match_assessment": "High confidence because the rare full name and major rank agree, with the institutional record adding a compatible suffix and detailed wartime context.",
+      "temporal_assessment": "Wartime identity evidence only. The authority-record occupation field is not sufficient to date a legal employer or prove a pre-OSS job.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Jr. suffix is preserved as a variant. No law firm is inferred from postwar court materials.",
+      "sources": [
+        {"source_key":"nara-index-b669","support_type":"supports","locator_override":"PDF page 325, row 42, Major, Box 532"},
+        {"source_key":"harvard-nuremberg-monigan-b669","support_type":"supports","locator_override":"Person authority entry and 22 September 1945 document header"}
+      ]
+    },
+    {
+      "key": "identity-cecil-s-monnin-b669",
+      "person_id": "a3767902-406b-5931-97d4-0e8426410cf0",
+      "claim_type": "identity",
+      "claim_text": "The indexed Cecil S. Monnin is a high-confidence match to the official Army enlistment record.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact full name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "Wartime identity evidence only; no employer or predecessor chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army coded occupation data remain private and are not translated into an employer claim.",
+      "sources": [
+        {"source_key":"nara-index-b669","support_type":"supports","locator_override":"PDF page 325, row 46, Box 532"},
+        {"source_key":"army-bulk-b669","support_type":"supports","locator_override":"Exact Army name and protected-identifier match"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {"person_id":"c8ecdcd8-f5d8-5d47-9165-9a4c583e5a5b","identity_status":"unresolved","identity_evidence":"Exact-name OSS, government, Foreign Service, newspaper, obituary, directory, and employment searches found only postwar references and no reliable pre-OSS identity or employer bridge.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect the CAF-9 file in Box 532 for full identity, federal office, and predecessor affiliation.","archival_review_priority":"critical"},
+    {"person_id":"243cb3b3-3f8f-56ec-aba2-7fa7e976ab23","identity_status":"high_confidence","identity_evidence":"The index and official Army bulk entry agree in exact full name and a nonshared protected identifier.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 532 for a named predecessor affiliation; do not infer one from Army coded occupation data.","archival_review_priority":"high"},
+    {"person_id":"0c9e7644-515a-552f-b884-44af93cbb05d","identity_status":"high_confidence","identity_evidence":"The index and official Army entry agree in full name and a nonshared protected identifier; the Army form adds Jr.","name_variants":["George F Monahan Jr"],"manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 532 for a named predecessor affiliation and confirmation of the suffix; do not infer one from coded Army data.","archival_review_priority":"high"},
+    {"person_id":"bcd1704e-9710-5136-8e4c-365756b48c3d","identity_status":"high_confidence","identity_evidence":"The index and official Army bulk entry agree in exact full name and a nonshared protected identifier.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 532 for a named predecessor affiliation; do not infer one from Army coded occupation data.","archival_review_priority":"high"},
+    {"person_id":"f268d933-e929-59c1-9cba-119c8bd490fb","identity_status":"unresolved","identity_evidence":"Exact-name OSS, military, newspaper, obituary, directory, institutional, and employment searches produced no reliable identity bridge.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect the Sergeant file in Box 532 for full identity, unit, and predecessor affiliation.","archival_review_priority":"critical"},
+    {"person_id":"9d1ed0c7-d5ce-563b-9c45-48410f89dd4e","identity_status":"high_confidence","identity_evidence":"The index and official Army bulk entry agree in exact full name and a nonshared protected identifier.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 532 for a named predecessor affiliation; do not infer one from Army coded occupation data.","archival_review_priority":"high"},
+    {"person_id":"6fcabe28-1ea4-5652-8e98-da731b28916a","identity_status":"high_confidence","identity_evidence":"The index and official Army entry agree in full name and a nonshared protected identifier; the Army form adds Jr.","name_variants":["John J Mondale Jr"],"manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 532 for a named predecessor affiliation and confirmation of the suffix; do not infer one from coded Army data.","archival_review_priority":"high"},
+    {"person_id":"0fde19b4-5c3c-50b8-91c1-edf8622bd744","identity_status":"unresolved","identity_evidence":"Exact-name, CAF-3, government, newspaper, obituary, directory, institutional, and employment searches produced no reliable identity bridge.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect the CAF-3 file in Box 532 for full identity, federal office, and prior employer.","archival_review_priority":"critical"},
+    {"person_id":"52050d2a-7a35-5645-9280-6b702892d6d5","identity_status":"unresolved","identity_evidence":"Exact-name, CAF-3, government, newspaper, obituary, directory, institutional, and employment searches produced no reliable identity bridge.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect the CAF-3 file in Box 532 for full identity, federal office, and prior employer.","archival_review_priority":"critical"},
+    {"person_id":"8fb929cc-ad45-58ca-b4cd-26ee62b1e211","identity_status":"probable","identity_evidence":"Two contemporary directories repeat the rare exact name and San Francisco News employment in 1938 and 1941, but the index supplies no independent residence or birth detail.","manual_review_required":true,"research_status":"documented_prewar_employer_found","next_action":"Inspect Box 532 to confirm identity and determine whether the San Francisco News immediately preceded OSS or was the last civilian employer before service.","archival_review_priority":"critical"},
+    {"person_id":"d451e5f1-6df9-52f7-a567-a93dd07799fd","identity_status":"unresolved","identity_evidence":"Exact-name OSS, military, newspaper, obituary, directory, institutional, and employment searches produced no reliable identity bridge.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect the Staff Sergeant file in Box 532 for full identity, unit, and predecessor affiliation.","archival_review_priority":"critical"},
+    {"person_id":"bbbeaed0-dfbd-5908-9a05-448d5c625e41","identity_status":"ambiguous","identity_evidence":"The Army record agrees in exact name, but the protected identifier is shared by the separate indexed forms Natalene Mongello and Natelene Mengello; the records are not auto-merged.","manual_review_required":true,"research_status":"needs_identity_review","next_action":"Compare both Box 532 files to determine whether the spelling variants are one person or two records; preserve both source rows meanwhile.","archival_review_priority":"critical"},
+    {"person_id":"e8c35b90-8366-50c1-9ad5-fe245cba95df","identity_status":"high_confidence","identity_evidence":"The index and official Army bulk entry agree in exact name and a nonshared protected identifier.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 532 for a named predecessor affiliation; do not infer one from Army coded occupation data.","archival_review_priority":"high"},
+    {"person_id":"dd848c6c-63e4-5507-8a6f-bada1e1c2048","identity_status":"unresolved","identity_evidence":"An independent OSS operational-groups roster repeats the exact name and T/5 rank, but no official or second strong identifier yet bridges the roster to the indexed file or establishes pre-OSS employment.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 532 for full identity, the documented OSS assignment, and predecessor affiliation.","archival_review_priority":"critical"},
+    {"person_id":"eda77222-89bb-54ce-aed5-5e19afc85798","identity_status":"high_confidence","identity_evidence":"The index and official Army bulk entry agree in exact full name and a nonshared protected identifier.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 532 for a named predecessor affiliation; do not infer one from Army coded occupation data.","archival_review_priority":"high"},
+    {"person_id":"4baa7687-b843-5b57-badc-5ccdd8d776d2","identity_status":"conflicting","identity_evidence":"The protected-number Army hit names a different person rather than Marcel P. Monier and was rejected as a source or column-shift conflict.","manual_review_required":true,"research_status":"needs_identity_review","next_action":"Inspect the Private file in Box 532 to resolve the identifier conflict and establish the correct person and predecessor affiliation.","archival_review_priority":"critical"},
+    {"person_id":"f2d70507-f85e-539b-94e9-bee48b5fbbd7","identity_status":"high_confidence","identity_evidence":"Harvard's Nuremberg archive gives the same rare full name and Major rank, adds the suffix Jr., and supplies compatible education and wartime-assignment details.","name_variants":["John J Monigan Jr"],"manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 532 for the pre-OSS legal or military path; do not back-project postwar law-firm affiliations.","archival_review_priority":"high"},
+    {"person_id":"ab2a07c9-cb7b-5a39-9368-21c91aa15fc8","identity_status":"conflicting","identity_evidence":"A nonshared protected identifier agrees, but the Army record names Billy D. Monk while the index prints Billy B. Monk; the middle-initial disagreement prevents a confident match.","manual_review_required":true,"research_status":"needs_identity_review","next_action":"Inspect Box 532 to determine whether the middle initial is an index or Army transcription error and establish the predecessor affiliation.","archival_review_priority":"critical"},
+    {"person_id":"a09f1be0-73d6-5700-988b-e484360b223d","identity_status":"unresolved","identity_evidence":"Exact-name, CAF-5, government, newspaper, obituary, directory, institutional, and employment searches produced no reliable identity bridge.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect the CAF-5 file in Box 532 for full identity, federal office, and prior employer.","archival_review_priority":"critical"},
+    {"person_id":"101c7710-99bb-5f4c-9581-6b014fc92788","identity_status":"unresolved","identity_evidence":"The visually confirmed index spelling Monlvx and plausible Monlux search variant produced no result with an OSS, Box 532, rank, residence, or employment bridge.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 532 to confirm the spelling and establish identity and predecessor affiliation.","archival_review_priority":"critical"},
+    {"person_id":"a3767902-406b-5931-97d4-0e8426410cf0","identity_status":"high_confidence","identity_evidence":"The index and official Army bulk entry agree in exact full name and a nonshared protected identifier.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 532 for a named predecessor affiliation; do not infer one from Army coded occupation data.","archival_review_priority":"high"},
+    {"person_id":"70bfdfd3-627f-559d-a1d2-77454622e499","identity_status":"ambiguous","identity_evidence":"The Army record agrees in exact name, but the protected identifier is shared by the separate indexed forms Avary C. Monroe and Avary C. Munroe; the records are not auto-merged.","manual_review_required":true,"research_status":"needs_identity_review","next_action":"Compare both Box 532 files to determine whether the spelling variants are one person or two records; preserve both source rows meanwhile.","archival_review_priority":"critical"}
+  ],
+  "research_attempts": [
+    {"key":"b669-john-molster-reviewed-search","person_id":"c8ecdcd8-f5d8-5d47-9165-9a4c583e5a5b","source_adapter":"official_nara_cia_policy_limited_loc_government_foreign_service_newspaper_obituary_directory_and_targeted_web_review","query_text":"John S Molster; CAF-9; OSS; employer; occupation; Box 532","query_variant_type":"distinctive_name_civilian_grade_employment_and_archival","started_at":"2026-09-25T05:00:00Z","completed_at":"2026-09-25T05:47:00Z","outcome":"no_result","sources_reviewed":8,"candidate_sources_rejected":2,"rejection_reasons":"A 1954 federal private law and a 1951 Foreign Service listing are postwar and do not establish pre-OSS employment.","research_notes":"Minimum staged protocol completed. CIA automated access was robots-disallowed and was not treated as negative evidence.","next_action":"Inspect Box 532.","attempt_number":1,"research_agent_version":"before-oss-batch-669-v1"},
+    {"key":"b669-joseph-molyson-reviewed-search","person_id":"243cb3b3-3f8f-56ec-aba2-7fa7e976ab23","source_adapter":"official_nara_cia_policy_limited_loc_army_bulk_military_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Joseph T Molyson; Private; OSS; employer; occupation; protected identifier","query_variant_type":"distinctive_name_rank_identity_employment_and_archival","started_at":"2026-09-25T05:00:00Z","completed_at":"2026-09-25T05:47:00Z","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":0,"research_notes":"Official Army identity evidence accepted; no employer was inferred from coded occupation data.","next_action":"Inspect Box 532.","attempt_number":1,"research_agent_version":"before-oss-batch-669-v1"},
+    {"key":"b669-george-monahan-reviewed-search","person_id":"0c9e7644-515a-552f-b884-44af93cbb05d","source_adapter":"official_nara_cia_policy_limited_loc_army_bulk_military_loc_newspaper_obituary_directory_and_targeted_web_review","query_text":"George F Monahan; PFC; Jr; OSS; employer; protected identifier","query_variant_type":"common_name_rank_suffix_identity_employment_and_archival","started_at":"2026-09-25T05:00:00Z","completed_at":"2026-09-25T05:47:00Z","outcome":"source_reviewed","sources_reviewed":8,"candidate_sources_rejected":1,"rejection_reasons":"The Library of Congress candidate is an impossible 1873 namesake.","research_notes":"Official Army identity evidence accepted with the Jr. variant preserved; no employer was inferred.","next_action":"Inspect Box 532.","attempt_number":1,"research_agent_version":"before-oss-batch-669-v1"},
+    {"key":"b669-raymond-monahan-reviewed-search","person_id":"bcd1704e-9710-5136-8e4c-365756b48c3d","source_adapter":"official_nara_cia_policy_limited_loc_army_bulk_military_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Raymond D Monahan; T-5; OSS; employer; occupation; protected identifier","query_variant_type":"common_name_rank_identity_employment_and_archival","started_at":"2026-09-25T05:00:00Z","completed_at":"2026-09-25T05:47:00Z","outcome":"source_reviewed","sources_reviewed":7,"candidate_sources_rejected":0,"research_notes":"Official Army identity evidence accepted; no employer was inferred from coded occupation data.","next_action":"Inspect Box 532.","attempt_number":1,"research_agent_version":"before-oss-batch-669-v1"},
+    {"key":"b669-leonie-moncla-reviewed-search","person_id":"f268d933-e929-59c1-9cba-119c8bd490fb","source_adapter":"official_nara_cia_policy_limited_loc_military_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Leonie A Moncla; Sergeant; OSS; employer; occupation; Box 532","query_variant_type":"distinctive_name_rank_employment_and_archival","started_at":"2026-09-25T05:00:00Z","completed_at":"2026-09-25T05:47:00Z","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":0,"rejection_reasons":"No result supplied an OSS, rank, Box 532, residence, or predecessor-employment bridge.","research_notes":"Minimum staged protocol completed; source-access limits were not treated as negative evidence.","next_action":"Inspect Box 532.","attempt_number":1,"research_agent_version":"before-oss-batch-669-v1"},
+    {"key":"b669-earl-moncrief-reviewed-search","person_id":"9d1ed0c7-d5ce-563b-9c45-48410f89dd4e","source_adapter":"official_nara_cia_policy_limited_loc_army_bulk_military_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Earl M Moncrief; Staff Sergeant; OSS; employer; protected identifier","query_variant_type":"distinctive_name_rank_identity_employment_and_archival","started_at":"2026-09-25T05:00:00Z","completed_at":"2026-09-25T05:47:00Z","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":0,"research_notes":"Official Army identity evidence accepted; no employer was inferred from coded occupation data.","next_action":"Inspect Box 532.","attempt_number":1,"research_agent_version":"before-oss-batch-669-v1"},
+    {"key":"b669-john-mondale-reviewed-search","person_id":"6fcabe28-1ea4-5652-8e98-da731b28916a","source_adapter":"official_nara_cia_policy_limited_loc_army_bulk_military_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"John J Mondale; Jr; OSS; employer; protected identifier","query_variant_type":"distinctive_name_suffix_identity_employment_and_archival","started_at":"2026-09-25T05:00:00Z","completed_at":"2026-09-25T05:47:00Z","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":0,"research_notes":"Official Army identity evidence accepted with the Jr. variant preserved; no employer was inferred.","next_action":"Inspect Box 532.","attempt_number":1,"research_agent_version":"before-oss-batch-669-v1"},
+    {"key":"b669-bertha-mondoux-reviewed-search","person_id":"0fde19b4-5c3c-50b8-91c1-edf8622bd744","source_adapter":"official_nara_cia_policy_limited_loc_government_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Bertha C Mondoux; CAF-3; OSS; employer; occupation; Box 532","query_variant_type":"distinctive_name_civilian_grade_employment_and_archival","started_at":"2026-09-25T05:00:00Z","completed_at":"2026-09-25T05:47:00Z","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":0,"rejection_reasons":"No result supplied CAF-3, OSS, Box 532, residence, or predecessor-employment corroboration.","research_notes":"Minimum staged protocol completed.","next_action":"Inspect Box 532.","attempt_number":1,"research_agent_version":"before-oss-batch-669-v1"},
+    {"key":"b669-lucille-mondoux-reviewed-search","person_id":"52050d2a-7a35-5645-9280-6b702892d6d5","source_adapter":"official_nara_cia_policy_limited_loc_government_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Lucille H Mondoux; CAF-3; OSS; employer; occupation; Box 532","query_variant_type":"distinctive_name_civilian_grade_employment_and_archival","started_at":"2026-09-25T05:00:00Z","completed_at":"2026-09-25T05:47:00Z","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":0,"rejection_reasons":"No result supplied CAF-3, OSS, Box 532, residence, or predecessor-employment corroboration.","research_notes":"Minimum staged protocol completed.","next_action":"Inspect Box 532.","attempt_number":1,"research_agent_version":"before-oss-batch-669-v1"},
+    {"key":"b669-negley-monett-reviewed-search","person_id":"8fb929cc-ad45-58ca-b4cd-26ee62b1e211","source_adapter":"official_nara_cia_policy_limited_loc_contemporary_directory_newspaper_broadcasting_and_targeted_web_review","query_text":"Negley C Monett; CAF-7; OSS; San Francisco News; employer; Box 532","query_variant_type":"rare_name_civilian_grade_employment_and_archival","started_at":"2026-09-25T05:00:00Z","completed_at":"2026-09-25T05:47:00Z","outcome":"source_reviewed","sources_reviewed":8,"candidate_sources_rejected":1,"rejection_reasons":"A 1948 broadcasting trade article is postwar and was not used to establish pre-OSS employment.","research_notes":"Two visually reviewed city-directory pages support qualified documented-prewar San Francisco News employment; immediacy remains unproven.","next_action":"Inspect Box 532 to confirm identity and chronology.","attempt_number":1,"research_agent_version":"before-oss-batch-669-v1"},
+    {"key":"b669-mario-monfardini-reviewed-search","person_id":"d451e5f1-6df9-52f7-a567-a93dd07799fd","source_adapter":"official_nara_cia_policy_limited_loc_military_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Mario Monfardini; Staff Sergeant; OSS; employer; occupation; Box 532","query_variant_type":"distinctive_name_rank_employment_and_archival","started_at":"2026-09-25T05:00:00Z","completed_at":"2026-09-25T05:47:00Z","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":0,"rejection_reasons":"No result supplied an OSS, rank, Box 532, residence, or predecessor-employment bridge.","research_notes":"Minimum staged protocol completed.","next_action":"Inspect Box 532.","attempt_number":1,"research_agent_version":"before-oss-batch-669-v1"},
+    {"key":"b669-natalene-mongello-reviewed-search","person_id":"bbbeaed0-dfbd-5908-9a05-448d5c625e41","source_adapter":"official_nara_cia_policy_limited_loc_army_bulk_duplicate_cluster_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Natalene Mongello; Natelene Mengello; T-3; OSS; protected identifier; employer","query_variant_type":"spelling_variant_shared_identifier_duplicate_review","started_at":"2026-09-25T05:00:00Z","completed_at":"2026-09-25T05:47:00Z","outcome":"source_reviewed","sources_reviewed":7,"candidate_sources_rejected":0,"research_notes":"The shared protected identifier cannot auto-merge two separately indexed spelling forms; no employer was inferred.","next_action":"Compare both Box 532 files.","attempt_number":1,"research_agent_version":"before-oss-batch-669-v1"},
+    {"key":"b669-carmine-mongelluzzo-reviewed-search","person_id":"e8c35b90-8366-50c1-9ad5-fe245cba95df","source_adapter":"official_nara_cia_policy_limited_loc_army_bulk_military_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Carmine Mongelluzzo; T-3; OSS; employer; protected identifier","query_variant_type":"distinctive_name_rank_identity_employment_and_archival","started_at":"2026-09-25T05:00:00Z","completed_at":"2026-09-25T05:47:00Z","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":0,"research_notes":"Official Army identity evidence accepted. CIA automated access was robots-disallowed and was not treated as negative evidence.","next_action":"Inspect Box 532.","attempt_number":1,"research_agent_version":"before-oss-batch-669-v1"},
+    {"key":"b669-pasquale-mongelluzzo-reviewed-search","person_id":"dd848c6c-63e4-5507-8a6f-bada1e1c2048","source_adapter":"official_nara_cia_policy_limited_loc_military_operational_group_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Pasquale Mongelluzzo; T-5; OSS; CHOCTAW; employer; Box 532","query_variant_type":"rare_name_rank_assignment_employment_and_archival","started_at":"2026-09-25T05:00:00Z","completed_at":"2026-09-25T05:47:00Z","outcome":"no_result","sources_reviewed":7,"candidate_sources_rejected":1,"rejection_reasons":"An independent operational-groups roster is corroborative but does not supply an official second identifier or pre-OSS employment.","research_notes":"The exact-name and rank lead is preserved for archival follow-up, not promoted into an employer claim.","next_action":"Inspect Box 532.","attempt_number":1,"research_agent_version":"before-oss-batch-669-v1"},
+    {"key":"b669-paul-mongrain-reviewed-search","person_id":"eda77222-89bb-54ce-aed5-5e19afc85798","source_adapter":"official_nara_cia_policy_limited_loc_army_bulk_military_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Paul J Mongrain; T-5; OSS; employer; protected identifier","query_variant_type":"distinctive_name_rank_identity_employment_and_archival","started_at":"2026-09-25T05:00:00Z","completed_at":"2026-09-25T05:47:00Z","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":0,"research_notes":"Official Army identity evidence accepted; no employer was inferred from coded occupation data.","next_action":"Inspect Box 532.","attempt_number":1,"research_agent_version":"before-oss-batch-669-v1"},
+    {"key":"b669-marcel-monier-reviewed-search","person_id":"4baa7687-b843-5b57-badc-5ccdd8d776d2","source_adapter":"official_nara_cia_policy_limited_loc_army_bulk_identifier_conflict_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Marcel P Monier; Private; OSS; protected identifier; employer; Box 532","query_variant_type":"distinctive_name_rank_identifier_conflict_employment_and_archival","started_at":"2026-09-25T05:00:00Z","completed_at":"2026-09-25T05:47:00Z","outcome":"candidate_rejected","sources_reviewed":7,"candidate_sources_rejected":1,"rejection_reasons":"The Army protected-number hit names Clarence J. La Ferriere and cannot identify Marcel P. Monier.","research_notes":"The conflicting official hit is preserved and rejected rather than silently merged.","next_action":"Inspect Box 532 and resolve the identifier conflict.","attempt_number":1,"research_agent_version":"before-oss-batch-669-v1"},
+    {"key":"b669-john-monigan-reviewed-search","person_id":"f2d70507-f85e-539b-94e9-bee48b5fbbd7","source_adapter":"official_nara_cia_policy_limited_loc_harvard_nuremberg_legal_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"John J Monigan; Jr; Major; OSS; lawyer; employer; Box 532","query_variant_type":"rare_name_rank_suffix_identity_employment_and_archival","started_at":"2026-09-25T05:00:00Z","completed_at":"2026-09-25T05:47:00Z","outcome":"source_reviewed","sources_reviewed":9,"candidate_sources_rejected":3,"rejection_reasons":"The LoC hit is a Mayor John S. Monagan OCR false match; Rutgers education and postwar law-firm material do not establish a pre-OSS employer.","research_notes":"Harvard's institutional record supports identity only. No law firm is back-projected into pre-OSS employment.","next_action":"Inspect Box 532.","attempt_number":1,"research_agent_version":"before-oss-batch-669-v1"},
+    {"key":"b669-billy-monk-reviewed-search","person_id":"ab2a07c9-cb7b-5a39-9368-21c91aa15fc8","source_adapter":"official_nara_cia_policy_limited_loc_army_bulk_identifier_conflict_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Billy B Monk; Billy D Monk; OSS; protected identifier; employer; Box 532","query_variant_type":"middle_initial_conflict_identity_employment_and_archival","started_at":"2026-09-25T05:00:00Z","completed_at":"2026-09-25T05:47:00Z","outcome":"candidate_rejected","sources_reviewed":7,"candidate_sources_rejected":1,"rejection_reasons":"The Army record's D middle initial conflicts with the indexed B; the direct-identifier agreement alone does not resolve which source is correct.","research_notes":"The conflict remains visible and no employer was inferred from Army coded data.","next_action":"Inspect Box 532.","attempt_number":1,"research_agent_version":"before-oss-batch-669-v1"},
+    {"key":"b669-ursula-monks-reviewed-search","person_id":"a09f1be0-73d6-5700-988b-e484360b223d","source_adapter":"official_nara_cia_policy_limited_loc_government_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Ursula L Monks; CAF-5; OSS; employer; occupation; Box 532","query_variant_type":"distinctive_name_civilian_grade_employment_and_archival","started_at":"2026-09-25T05:00:00Z","completed_at":"2026-09-25T05:47:00Z","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":0,"rejection_reasons":"No result supplied CAF-5, OSS, Box 532, residence, or predecessor-employment corroboration.","research_notes":"Minimum staged protocol completed.","next_action":"Inspect Box 532.","attempt_number":1,"research_agent_version":"before-oss-batch-669-v1"},
+    {"key":"b669-robert-monlvx-reviewed-search","person_id":"101c7710-99bb-5f4c-9581-6b014fc92788","source_adapter":"official_nara_cia_policy_limited_loc_spelling_variant_military_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Robert P Monlvx; Robert P Monlux; OSS; employer; occupation; Box 532","query_variant_type":"visually_confirmed_unusual_name_search_alias_employment_and_archival","started_at":"2026-09-25T05:00:00Z","completed_at":"2026-09-25T05:47:00Z","outcome":"no_result","sources_reviewed":6,"candidate_sources_rejected":0,"rejection_reasons":"Neither the printed spelling nor the marked search alias supplied a direct identity or employment bridge.","research_notes":"Monlux was used only as a search alias; it does not overwrite the visually confirmed Monlvx spelling.","next_action":"Inspect Box 532.","attempt_number":1,"research_agent_version":"before-oss-batch-669-v1"},
+    {"key":"b669-cecil-monnin-reviewed-search","person_id":"a3767902-406b-5931-97d4-0e8426410cf0","source_adapter":"official_nara_cia_policy_limited_loc_army_bulk_military_cemetery_obituary_directory_and_targeted_web_review","query_text":"Cecil S Monnin; PFC; OSS; employer; protected identifier","query_variant_type":"distinctive_name_rank_identity_employment_and_archival","started_at":"2026-09-25T05:00:00Z","completed_at":"2026-09-25T05:47:00Z","outcome":"source_reviewed","sources_reviewed":7,"candidate_sources_rejected":2,"rejection_reasons":"Third-party genealogy and cemetery pages were corroborative only and did not establish a pre-OSS employer.","research_notes":"Official Army identity evidence accepted; no employer was inferred from coded occupation data.","next_action":"Inspect Box 532.","attempt_number":1,"research_agent_version":"before-oss-batch-669-v1"},
+    {"key":"b669-avary-monroe-reviewed-search","person_id":"70bfdfd3-627f-559d-a1d2-77454622e499","source_adapter":"official_nara_cia_policy_limited_loc_army_bulk_duplicate_cluster_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Avary C Monroe; Avary C Munroe; T-4; OSS; protected identifier; employer","query_variant_type":"spelling_variant_shared_identifier_duplicate_review","started_at":"2026-09-25T05:00:00Z","completed_at":"2026-09-25T05:47:00Z","outcome":"source_reviewed","sources_reviewed":7,"candidate_sources_rejected":0,"research_notes":"The shared protected identifier cannot auto-merge two separately indexed spelling forms; no employer was inferred.","next_action":"Compare both Box 532 files.","attempt_number":1,"research_agent_version":"before-oss-batch-669-v1"}
+  ]
+}

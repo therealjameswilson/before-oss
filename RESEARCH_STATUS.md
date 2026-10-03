@@ -1,5 +1,138 @@
 # Research status
 
+Batch 688 completed PDF page 334, rows 24-46, from **Corlyn F Munger** through
+**Catherine H Murphy**, with a saved terminal outcome for all 23 people. Tadao
+Murata and Augustine J Murphy are high-confidence identities through exact-
+name and nonshared protected-identifier agreement; the evidence does not name
+an employer. Avary C Munroe, Nick Murdick, and Joseph Muredon retain explicit
+identity conflicts. Unbridged combat-team, postwar-attorney, WRA, and
+newspaper leads were rejected rather than promoted to facts. Twenty people
+have `no_reliable_result_after_protocol` outcomes, three have
+`conflicting_sources`, and the indexed Box 546 files remain the next archival
+step. The oil-company category remains evidence-scoped to **nine people across
+11 historically named companies**. See `research/batch-688-progress.md`. No
+authenticated NARA Catalog request was made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **8,873/23,939 (37.0650%)**;
+verified-employer coverage is **310/23,939 (1.2950%)**;
+verified-affiliation coverage is **687/23,939 (2.8698%)**; archival-review
+coverage is **7,330/23,939 (30.6195%)**. There are **15,061** `not_started`
+people and **517** possible-duplicate groups. SQLite retains **16,031**
+attempts or plans and **5,666** claims: 1,336 confirmed, 2,453 high, 1,456
+medium, 196 low, and 225 conflicting. It has **5,401** citation records and
+**2,650** unique source documents. The public projection has **2,358**
+affiliations, **790** organizations, **4,184** sources, and **5,463** claims.
+Full-index historical research remains unfinished.
+
+Batch 687 completed PDF page 334, rows 1-23, from **Edward P. Mullen** through
+**Roy L. Mundy**, with a saved terminal outcome for all 23 people. Patrick A.
+Mullen, Bennie Mullins, Joseph E. Mulroy, Lewis Mumford, Van I. Mumma, and Ebbe
+Munck are high-confidence identities; Eugene G. Mulling remains probable.
+Three protected-identifier conflicts remain explicit and unmerged. Lewis
+Mumford's New Yorker work is published only as earlier documented employment;
+Ebbe Munck's Berlingske Tidende work is his strongly date-bounded last named
+civilian employer, not an immediate OSS predecessor. Team YIELD supports Van
+Mumma's identity without becoming an employer claim. Eighteen people have
+`no_reliable_result_after_protocol` outcomes, three have
+`conflicting_sources`, and the indexed Box 545 files remain the next archival
+step for unresolved questions. The oil-company category remains evidence-
+scoped to **nine people across 11 historically named companies**. See
+`research/batch-687-progress.md`. No authenticated NARA Catalog request was
+made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **8,850/23,939 (36.9690%)**;
+verified-employer coverage is **310/23,939 (1.2950%)**;
+verified-affiliation coverage is **687/23,939 (2.8698%)**; archival-review
+coverage is **7,307/23,939 (30.5234%)**. There are **15,084** `not_started`
+people and **515** possible-duplicate groups. SQLite retains **16,008**
+attempts or plans and **5,638** claims: 1,336 confirmed, 2,428 high, 1,456
+medium, 196 low, and 222 conflicting. It has **5,399** citation records and
+**2,649** unique source documents. The public projection has **2,358**
+affiliations, **790** organizations, **4,182** sources, and **5,435** claims.
+Full-index historical research remains unfinished.
+
+Batch 686 completed PDF page 333, rows 24-46, from **Gustave A. Mueller**
+through **George E. Mullaney**, with a saved terminal outcome for all 23
+people. Eight exact-name, nonshared-identifier Army matches are accepted as
+high-confidence identities without translating coded occupations into
+employers. John Louis "Jack" Mulford's obituary confirms Army and OSS service,
+but dates his tire-company ownership to 1945, so that business remains an
+explicitly rejected postwar lead. A NARA-derived roster corroborates Gust
+Mukanos's OSS unit context without establishing a predecessor affiliation.
+All 23 profiles have terminal `no_reliable_result_after_protocol` outcomes;
+fifteen identities remain unresolved and the indexed Box 544-545 files are
+identified as the next archival step. The oil-company category remains
+evidence-scoped to **nine people across 11 historically named companies**. See
+`research/batch-686-progress.md`. No authenticated NARA Catalog request was
+made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **8,827/23,939 (36.8729%)**;
+verified-employer coverage is **308/23,939 (1.2866%)**;
+verified-affiliation coverage is **685/23,939 (2.8614%)**; archival-review
+coverage is **7,284/23,939 (30.4273%)**. There are **15,107** `not_started`
+people and **514** possible-duplicate groups. SQLite retains **15,985**
+attempts or plans and **5,603** claims: 1,336 confirmed, 2,397 high, 1,455
+medium, 196 low, and 219 conflicting. It has **5,390** citation records and
+**2,641** unique source documents. The public projection has **2,356**
+affiliations, **788** organizations, **4,173** sources, and **5,400** claims.
+Full-index historical research remains unfinished.
+
+Batch 672 completed the remaining page-326 row for **Thomas N. Moon**. Exact
+name and a nonshared protected identifier link the index row to the official
+Army enlistment record; an official Army Special Operations history further
+documents T/5 Thomas N. Moon with OSS Detachment 101's KNOTHEAD group. A 1992
+direct interview explicitly says that Moon was transferred from the Engineer
+Corps in Louisiana to OSS. The site therefore publishes the U.S. Army Corps of
+Engineers as his high-confidence, explicit immediate military assignment—not
+as an employer. His last civilian employer remains unresolved, and the profile
+routes that question to Box 534 and oral-history transcript OH 2395. The index
+rank `T-3` and the history's early-1944 `T/5` remain visible rather than being
+silently reconciled. One official Army identity candidate was accepted and
+one irrelevant Library of Congress radio-listing candidate was rejected. The
+oil-company category remains evidence-scoped to **eight people across ten
+companies**. See `research/batch-672-progress.md`. No authenticated NARA
+Catalog request was made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **8,511/23,939 (35.5529%)**;
+verified-employer coverage is **302/23,939 (1.2615%)**;
+verified-affiliation coverage is **668/23,939 (2.7904%)**; archival-review
+coverage is **6,967/23,939 (29.1031%)**. There are **15,423** `not_started`
+people and **512** possible-duplicate groups. SQLite retains **15,329**
+attempts or plans and **5,397** claims: 1,326 confirmed, 2,243 high, 1,436
+medium, 196 low, and 196 conflicting. It has **5,293** citation records and
+**2,563** unique source documents. The public projection has **2,319**
+affiliations, **767** organizations, **4,076** sources, and **5,194** claims.
+Full-index historical research remains unfinished.
+
+Batch 671 completed the page-326 `James A. Montgomery` through `Lawrence H.
+Moon` queue with a saved terminal outcome for all 22 people. Five official Army
+identity bridges were accepted without inferring employers. Robert K.
+Montgomery's documented Jedburgh assignment supports his identity but not a
+predecessor employer. John J. Montouri, Tony Monti, and Maurice A. Mook remain
+qualified probable identities. Four protected-identifier, spelling, or
+middle-initial conflicts remain explicit. The cohort ends with nine
+`requires_archival_review`, nine `no_reliable_result_after_protocol`, and four
+`conflicting_sources`. No employer or affiliation claim was added. The top
+oil-company category remains evidence-scoped to **eight people across ten
+companies**. See `research/batch-671-progress.md`. No authenticated NARA
+Catalog request was made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **8,510/23,939 (35.5487%)**;
+verified-employer coverage is **302/23,939 (1.2615%)**;
+verified-affiliation coverage is **667/23,939 (2.7862%)**; archival-review
+coverage is **6,966/23,939 (29.0990%)**. There are **15,424** `not_started`
+people and **512** possible-duplicate groups. SQLite retains **15,326**
+attempts or plans and **5,395** claims: 1,326 confirmed, 2,241 high, 1,436
+medium, 196 low, and 196 conflicting. It has **5,287** citation records and
+**2,560** unique source documents. The public projection has **2,318**
+affiliations, **767** organizations, **4,070** sources, and **5,192** claims.
+Full-index historical research remains unfinished.
+
 Batch 655 completed the page-318/319 `Jack L. Meyer` through `C. P.
 Meysereav` queue with a saved terminal outcome for all 22 people. Six official
 Army identity bridges were accepted without inferring employers. The two Hans

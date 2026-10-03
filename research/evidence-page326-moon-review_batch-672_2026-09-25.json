@@ -1,0 +1,200 @@
+{
+  "bundle_version": "batch-672-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 672 archival review",
+  "sources": [
+    {
+      "key": "nara-index-b672",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 534",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 326, row 46, visually checked",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "The full service identifier remains private and is excluded from public output."
+    },
+    {
+      "key": "army-bulk-b672",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; bulk record ordinal 8459641",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; exact-name and protected-identifier review",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "Official bulk data, not a Catalog API response. The protected identifier, coded occupation, and raw record are excluded from public output; occupation code 703 was not treated as employer evidence."
+    },
+    {
+      "key": "arsof-thomas-moon-b672",
+      "stable_url": "https://arsof-history.org/articles/v4n1_myitkyina_part_1_page_1.html",
+      "title": "A Special Forces Model: OSS Detachment 101 in the Myitkyina Campaign, Part I",
+      "author_creator": "Troy J. Sacquety, PhD",
+      "repository_publisher": "U.S. Army Special Operations History Office",
+      "publication_record_date": "2008",
+      "locator": "Veritas, volume 4, number 1; KNOTHEAD discussion and early-1944 photograph caption",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Special Forces History",
+      "rights_notes": "Official Army historical article. Only a short excerpt and project-authored paraphrase are retained."
+    },
+    {
+      "key": "latimes-thomas-moon-b672",
+      "stable_url": "https://www.latimes.com/archives/la-xpm-1992-03-27-vw-4579-story.html",
+      "title": "A 'Game' Without Rules: Former OSS agent Tom Moon tells about sabotage behind enemy lines",
+      "author_creator": "Dennis McLellan",
+      "repository_publisher": "Los Angeles Times",
+      "publication_record_date": "1992-03-27",
+      "locator": "Direct interview; paragraph describing Moon's transfer from the Engineer Corps to OSS",
+      "access_date": "2026-09-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Los Angeles Times Archives",
+      "rights_notes": "Contemporary retrospective interview. The project retains a 13-word excerpt and a concise paraphrase."
+    },
+    {
+      "key": "csuf-thomas-moon-oh2395-b672",
+      "stable_url": "https://coph.fullerton.edu/collections/index.html",
+      "archival_identifier": "OH 2395",
+      "title": "OSS in World War II Oral History Project — Thomas Moon interview",
+      "author_creator": "Heidi Vion, interviewer; Thomas Moon, narrator",
+      "repository_publisher": "Lawrence de Graaf Center for Oral and Public History, California State University, Fullerton",
+      "publication_record_date": "1995-04-13",
+      "locator": "OH 2395; interview recorded in Garden Grove, California; transcript listed for reading-room consultation",
+      "access_date": "2026-09-25",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "OSS in World War II Oral History Project",
+      "rights_notes": "Collection-level pointer only. The transcript was not accessible online and was not used to infer employment."
+    },
+    {
+      "key": "cia-fighting-doctors-moon-b672",
+      "stable_url": "https://www.cia.gov/static/Fighting-Doctors-of-OSS.pdf",
+      "title": "The Fighting Doctors of the Office of Strategic Services",
+      "author_creator": "Central Intelligence Agency, Center for the Study of Intelligence",
+      "repository_publisher": "Central Intelligence Agency",
+      "publication_record_date": "2018-09",
+      "locator": "Studies in Intelligence, volume 62, number 3, page 47 endnote 8",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Studies in Intelligence",
+      "rights_notes": "The endnote identifies Thomas N. Moon's and Tom Moon's Detachment 101 books; it is context-only evidence and does not identify a predecessor employer."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "us-army-corps-engineers-b672",
+      "organization_id": "f2367526-082d-5cad-8156-c405c426f2e1",
+      "canonical_name": "United States Army Corps of Engineers",
+      "historical_name": "Army Corps of Engineers",
+      "aliases": ["Engineer Corps", "U.S. Army Corps of Engineers"],
+      "organization_type": "Army branch",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "The Los Angeles Times direct interview says Engineer Corps. The separate canonical name preserves that historical wording while identifying the Army branch."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "thomas-moon-engineer-corps-b672",
+      "person_id": "bc5ab263-1086-5109-9553-91ba2780445f",
+      "organization_key": "us-army-corps-engineers-b672",
+      "organization_name_as_found": "Engineer Corps",
+      "role_title": "Draftee assigned to the Engineer Corps",
+      "occupation": "Soldier",
+      "relationship_type": "military_assignment",
+      "start_date": null,
+      "end_date": null,
+      "date_precision": "Engineer Corps assignment and OSS transfer dates are not stated; the separate Army record gives January 15, 1943 as military entry date",
+      "city": null,
+      "state_or_region": "Louisiana",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "A direct 1992 interview says Moon was transferred from the Engineer Corps to OSS. This is a military assignment, not a civilian employer. The Army bulk record independently dates his entry into military service but its coded occupation was not used."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-thomas-n-moon-b672",
+      "person_id": "bc5ab263-1086-5109-9553-91ba2780445f",
+      "affiliation_key": null,
+      "claim_type": "identity",
+      "claim_text": "The indexed Thomas N. Moon is a high-confidence match to the Army enlistee and OSS Detachment 101 member documented as T/5 Tom Moon.",
+      "evidence_excerpt": "T/5 Thomas N. Moon, and agent “King” somewhere in Burma, early 1944.",
+      "evidence_paraphrase": "Two official records agree in exact name and a nonshared protected identifier; official Army history then gives the full name, rank, KNOTHEAD unit, and photograph.",
+      "identity_match_assessment": "High confidence because exact full name, nonshared protected identifier, T/5 rank, Detachment 101 assignment, and direct retrospective account form a consistent identity chain.",
+      "temporal_assessment": "The evidence identifies the same soldier before and during OSS service; it does not establish his civilian pre-service employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The index prints T-3 while official Army history documents T/5 in early 1944; rank change is plausible but is not silently reconciled. Box 534 remains the direct file pointer.",
+      "sources": [
+        {"source_key":"nara-index-b672","support_type":"supports","locator_override":"PDF page 326, row 46, T-3, Box 534"},
+        {"source_key":"army-bulk-b672","support_type":"supports","locator_override":"Exact Army name and nonshared protected-identifier match"},
+        {"source_key":"arsof-thomas-moon-b672","support_type":"supports","locator_override":"KNOTHEAD discussion and early-1944 photo caption"},
+        {"source_key":"latimes-thomas-moon-b672","support_type":"supports","locator_override":"Direct interview, March 27, 1992"},
+        {"source_key":"csuf-thomas-moon-oh2395-b672","support_type":"context_only","locator_override":"OH 2395"},
+        {"source_key":"cia-fighting-doctors-moon-b672","support_type":"context_only","locator_override":"Page 47, endnote 8"}
+      ]
+    },
+    {
+      "key": "thomas-moon-immediate-engineer-corps-b672",
+      "person_id": "bc5ab263-1086-5109-9553-91ba2780445f",
+      "affiliation_key": "thomas-moon-engineer-corps-b672",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Thomas N. Moon's immediate pre-OSS affiliation was the U.S. Army Engineer Corps in Louisiana.",
+      "evidence_excerpt": "plucked out of the Engineer Corps in Louisiana and transferred to the OSS",
+      "evidence_paraphrase": "A direct interview explicitly describes Moon's transfer from the Engineer Corps to OSS; the official Army enlistment record corroborates his military status and entry date.",
+      "identity_match_assessment": "The direct interview's name, Nebraska origin, age, Detachment 101 service, and authorship agree with the official identity chain.",
+      "temporal_assessment": "Explicit immediate predecessor: the source directly states that Moon moved from the Engineer Corps to OSS.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This is published as a military assignment, not as an employer or last civilian employer. No civilian pre-service employer was found.",
+      "sources": [
+        {"source_key":"latimes-thomas-moon-b672","support_type":"supports","locator_override":"Direct interview, paragraph on the Engineer Corps-to-OSS transfer"},
+        {"source_key":"army-bulk-b672","support_type":"context_only","locator_override":"Army entry date January 15, 1943"},
+        {"source_key":"arsof-thomas-moon-b672","support_type":"context_only","locator_override":"Official history documents Moon in OSS Detachment 101 by early 1944"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "bc5ab263-1086-5109-9553-91ba2780445f",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk record agree in exact full name and a nonshared protected identifier; official Army history gives T/5 Thomas N. Moon in KNOTHEAD, and a direct interview documents his Engineer Corps-to-OSS transfer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the Box 534 personnel file and CSUF oral history OH 2395 for Moon's last civilian employer before his January 1943 Army entry and for exact assignment dates.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b672-thomas-moon-reviewed-search",
+      "person_id": "bc5ab263-1086-5109-9553-91ba2780445f",
+      "source_adapter": "official_nara_cia_domain_live_loc_army_bulk_army_special_operations_history_contemporary_newspaper_institutional_oral_history_publisher_and_targeted_web_review",
+      "query_text": "Thomas N Moon; Tom Moon; T/5; T-3; OSS; Detachment 101; KNOTHEAD; Engineer Corps; employer; occupation",
+      "query_variant_type": "full_name_rank_unit_military_predecessor_employment_and_archival",
+      "started_at": "2026-09-25T07:08:24Z",
+      "completed_at": "2026-09-25T16:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The LoC candidate was an unrelated radio listing; generic directory and people-finder namesakes lacked OSS, rank, protected-identifier, or archival bridges; postwar writing and insurance work were not back-projected.",
+      "research_notes": "The CIA adapter failed closed when robots policy could not be retrieved and was not treated as negative evidence. A targeted public CIA-domain review located official Detachment 101 bibliographic context. The direct interview explicitly supports the Engineer Corps as the immediate military assignment; no last civilian employer was identified.",
+      "next_action": "Inspect Box 534 and CSUF OH 2395 for the last civilian employer and exact transfer chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch-672-v1"
+    }
+  ]
+}

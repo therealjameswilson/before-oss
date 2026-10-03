@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 
-const dist = path.resolve("dist");
+const dist = path.resolve(process.env.BEFORE_OSS_DIST_DIR ?? "dist");
 const base = "/before-oss/";
 const htmlFiles = [];
 const external = new Set();

@@ -222,6 +222,87 @@ class ReviewDecisionTests(unittest.TestCase):
         self.assertEqual(person["research_status"], "in_progress")
         self.assertEqual(person["next_action"], "Continue research")
 
+    def test_publication_review_can_reject_superseded_claims_and_affiliations(self) -> None:
+        now = "2026-07-30T00:00:00+00:00"
+        with self.connection:
+            self.connection.execute(
+                """
+                INSERT INTO affiliations(
+                    affiliation_id, person_id, organization_name_as_found,
+                    relationship_type, immediate_pre_oss,
+                    last_civilian_pre_service, pre_oss_temporal_basis,
+                    identity_confidence, claim_confidence, source_quality,
+                    publication_status, created_at, updated_at
+                ) VALUES (
+                    'affiliation-1', 'person-1', 'Example organization',
+                    'employment', 0, 0, 'documented_prewar',
+                    'high_confidence', 'high',
+                    'C_reputable_contemporary_or_scholarly', 'published', ?, ?
+                )
+                """,
+                (now, now),
+            )
+            self.connection.execute(
+                """
+                INSERT INTO claims(
+                    claim_id, person_id, affiliation_id, claim_type,
+                    claim_text, evidence_paraphrase,
+                    identity_match_assessment, temporal_assessment,
+                    source_quality, claim_confidence, publication_status,
+                    match_notes, created_at, updated_at
+                ) VALUES (
+                    'claim-1', 'person-1', 'affiliation-1',
+                    'other_pre_oss_affiliation', 'Superseded claim',
+                    'Superseded evidence.', 'Same person.',
+                    'Earlier evidence.',
+                    'C_reputable_contemporary_or_scholarly', 'high',
+                    'published', 'Replaced by a fuller reviewed claim.', ?, ?
+                )
+                """,
+                (now, now),
+            )
+        decisions = Path(self.temp_dir.name) / "publication_decisions.csv"
+        decisions.write_text(
+            "target_type,target_id,decision,rationale,reviewer,decision_version\n"
+            "affiliation,affiliation-1,rejected,Replaced by consolidated affiliation,Unit test,test-v1\n"
+            "claim,claim-1,rejected,Replaced by consolidated claim,Unit test,test-v1\n",
+            encoding="utf-8",
+        )
+
+        first = import_review_decisions(self.connection, decisions)
+        second = import_review_decisions(self.connection, decisions)
+
+        self.assertEqual(first["state_changes_applied"], 2)
+        self.assertEqual(second["duplicates_skipped"], 2)
+        self.assertEqual(second["state_changes_applied"], 2)
+        self.assertEqual(
+            self.connection.execute(
+                "SELECT publication_status FROM affiliations WHERE affiliation_id='affiliation-1'"
+            ).fetchone()[0],
+            "rejected",
+        )
+        self.assertEqual(
+            self.connection.execute(
+                "SELECT publication_status FROM claims WHERE claim_id='claim-1'"
+            ).fetchone()[0],
+            "rejected",
+        )
+
+    def test_publication_review_rejects_invalid_status_without_state_change(self) -> None:
+        decisions = Path(self.temp_dir.name) / "invalid_publication_decision.csv"
+        decisions.write_text(
+            "target_type,target_id,decision,rationale,reviewer,decision_version\n"
+            "claim,missing-claim,delete,Invalid destructive status,Unit test,test-v1\n",
+            encoding="utf-8",
+        )
+
+        with self.assertRaisesRegex(ValueError, "Invalid publication status"):
+            import_review_decisions(self.connection, decisions)
+        self.assertEqual(
+            self.connection.execute("SELECT COUNT(*) FROM review_decisions").fetchone()[0],
+            0,
+        )
+
     def test_entity_merge_preserves_rows_and_excludes_superseded_from_coverage(self) -> None:
         decisions = Path(self.temp_dir.name) / "entity_decisions.csv"
         decisions.write_text(

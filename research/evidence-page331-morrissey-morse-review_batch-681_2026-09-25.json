@@ -1,0 +1,622 @@
+{
+  "bundle_version": "batch-681-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 681 archival review",
+  "sources": [
+    {
+      "key": "nara-index-b681",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 540",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 331, rows 1-23, visually checked",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Full service identifiers remain private and are excluded from public output."
+    },
+    {
+      "key": "army-bulk-b681",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; reviewed bulk record ordinals retained as claim locators",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; protected-identifier review for thirteen indexed people",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "Official bulk data, not a Catalog API response. Protected identifiers, coded occupations, and raw records are excluded from public output."
+    },
+    {
+      "key": "dartmouth-pbk-richard-morse-b681",
+      "stable_url": "https://archive.dartmouthalumnimagazine.com/article/1943/4/1/milestones",
+      "title": "Milestones",
+      "author_creator": "Dartmouth Alumni Magazine",
+      "repository_publisher": "Dartmouth College",
+      "publication_record_date": "1943-04-01",
+      "locator": "Phi Beta Kappa list naming Richard Morse, class of 1944, Hanover",
+      "access_date": "2026-09-25",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Dartmouth Alumni Magazine Archive",
+      "rights_notes": "The project stores a citation and short paraphrase, not a reproduction of the article."
+    },
+    {
+      "key": "dartmouth-letter-richard-morse-b681",
+      "stable_url": "https://archive.dartmouthalumnimagazine.com/article/1944/11/1/letters-from-dartmouth-men-in-the-armed-forces",
+      "title": "Letters from Dartmouth Men in the Armed Forces",
+      "author_creator": "Dartmouth Alumni Magazine",
+      "repository_publisher": "Dartmouth College",
+      "publication_record_date": "1944-11-01",
+      "locator": "Letter dated July 10, 1944; Richard Morse '44 identified as an Army sergeant writing from India",
+      "access_date": "2026-09-25",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Dartmouth Alumni Magazine Archive",
+      "rights_notes": "The project stores a citation and short paraphrase, not a reproduction of the article."
+    },
+    {
+      "key": "dartmouth-obituary-richard-morse-b681",
+      "stable_url": "https://archive.dartmouthalumnimagazine.com/article/2001/7/1/deaths",
+      "title": "Deaths",
+      "author_creator": "Dartmouth Alumni Magazine",
+      "repository_publisher": "Dartmouth College",
+      "publication_record_date": "2001-07-01",
+      "locator": "Richard Morse obituary; class valedictorian, 10th Mountain Division service, and OSS liaison duty in Burma",
+      "access_date": "2026-09-25",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Dartmouth Alumni Magazine Archive",
+      "rights_notes": "The project stores a citation and short paraphrase, not the obituary text."
+    },
+    {
+      "key": "hoover-oss-personnel-review-don-mort-b681",
+      "stable_url": "https://digitalcollections.hoover.org/internal/media/dispatcher/331573/full",
+      "archival_identifier": "Hoover digital media 331573",
+      "title": "Office of Strategic Services personnel review board proceedings, Caserta",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "Hoover Institution Library & Archives",
+      "publication_record_date": "1944-05-04",
+      "locator": "PDF page 59, entry LXXVII, Don E. Mort",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Hoover Institution Digital Collections",
+      "rights_notes": "The project links to the archival scan and stores only concise project-authored paraphrases."
+    },
+    {
+      "key": "soley-radio-warfare-morwood-b681",
+      "stable_url": "https://www.worldradiohistory.com/BOOKSHELF-ARH/History/Radio-Warfare-L-Soley-1989.pdf",
+      "archival_identifier": "ISBN 0-275-93051-3; Library of Congress card 88-25187",
+      "title": "Radio Warfare: OSS and CIA Subversive Propaganda",
+      "author_creator": "Lawrence C. Soley",
+      "repository_publisher": "Praeger; digital copy hosted by World Radio History",
+      "publication_record_date": "1989",
+      "locator": "Preface and pages 160, 175; William Morwood assisted the author and is described as a prewar radio writer, Army conscript, and later lieutenant",
+      "access_date": "2026-09-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "World Radio History book collection",
+      "rights_notes": "The public data stores citation metadata and short paraphrases only."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "us-army-canonical-b681",
+      "organization_id": "28a26f92-78af-5a1a-9c09-a843eb5975b4",
+      "canonical_name": "United States Army",
+      "historical_name": "Army of the United States",
+      "aliases": ["U.S. Army", "Army of the United States"],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "active_dates": "1775-present",
+      "normalization_notes": "Army service is modeled as a military assignment, never as civilian employment."
+    },
+    {
+      "key": "dartmouth-college-canonical-b681",
+      "organization_id": "876621b2-b018-55a7-800e-242fe98b2deb",
+      "canonical_name": "Dartmouth College",
+      "historical_name": "Dartmouth College",
+      "aliases": [],
+      "organization_type": "college",
+      "sector": "academia_and_research",
+      "city": "Hanover",
+      "state_or_region": "New Hampshire",
+      "country": "United States",
+      "normalization_notes": "Student status is modeled separately from employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "richard-morse-dartmouth-student-b681",
+      "person_id": "d632456e-aca2-5700-b5c7-6de2c69111d9",
+      "organization_key": "dartmouth-college-canonical-b681",
+      "organization_name_as_found": "Dartmouth",
+      "role_title": "Class of 1944 student",
+      "occupation": "student",
+      "relationship_type": "student",
+      "date_precision": "Documented as a member of the class of 1944 and elected to Phi Beta Kappa in April 1943, before his May 1943 Army entry date.",
+      "city": "Hanover",
+      "state_or_region": "New Hampshire",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Dartmouth was Richard Morse's educational institution, not an employer. The Box 540 file is still needed to establish his immediate pre-OSS military sequence."
+    },
+    {
+      "key": "don-e-mort-us-army-b681",
+      "person_id": "9b6dbd1b-c127-5a20-a219-bd2e612047d1",
+      "organization_key": "us-army-canonical-b681",
+      "organization_name_as_found": "Army",
+      "role_title": "Army officer before OSS assignment",
+      "occupation": "infantry officer",
+      "relationship_type": "military_assignment",
+      "start_date": "1941-04-23",
+      "end_date": "1943-08-26",
+      "date_precision": "The source gives exact Army-entry and OSS-assignment dates; the Army affiliation continued after assignment to OSS.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The official OSS report states that Mort entered the Army in 1941 and was assigned to OSS in 1943. This is a military pathway, not civilian employment."
+    },
+    {
+      "key": "don-e-mort-salesman-b681",
+      "person_id": "9b6dbd1b-c127-5a20-a219-bd2e612047d1",
+      "organization_name_as_found": null,
+      "role_title": "salesman",
+      "occupation": "salesman",
+      "relationship_type": "unknown",
+      "date_precision": "The 1944 OSS report describes his civilian occupation before Army entry but does not name an employer or dates.",
+      "state_or_region": "Middle West",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Occupation only. No employer name is supplied, so this is not marked as a last civilian employer."
+    },
+    {
+      "key": "william-g-morwood-cpl-us-army-b681",
+      "person_id": "f31949e9-5456-5621-b9df-97d87e650b56",
+      "organization_key": "us-army-canonical-b681",
+      "organization_name_as_found": "Army",
+      "role_title": "Army conscript transferred to OSS Morale Operations",
+      "occupation": "Army enlisted service",
+      "relationship_type": "military_assignment",
+      "date_precision": "Soley states that Morwood had been drafted and completed basic training before OSS accepted and transferred him.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The adjacent lieutenant row remains separate. Soley's account later describes Morwood's promotion from enlisted status to lieutenant, making the pair a strong possible duplicate rather than an automatic merge."
+    },
+    {
+      "key": "william-g-morwood-cpl-radio-writer-b681",
+      "person_id": "f31949e9-5456-5621-b9df-97d87e650b56",
+      "organization_name_as_found": null,
+      "role_title": "radio writer",
+      "occupation": "radio writer",
+      "relationship_type": "unknown",
+      "date_precision": "The scholarly source explicitly describes this as Morwood's prewar work but does not name a station or employer.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Occupation only; no employer is named. The claim is attached to the protected-identifier-supported enlisted row while the adjacent lieutenant row remains in the duplicate-review group."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-thomas-t-morrison-b681",
+      "person_id": "ef2a3cbd-b171-5e28-96e4-467e89cc1e24",
+      "claim_type": "identity",
+      "claim_text": "The indexed Thomas T Morrison is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree across the two official records.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private.",
+      "sources": [
+        {"source_key": "nara-index-b681", "support_type": "supports", "locator_override": "PDF page 331, row 1, Box 540"},
+        {"source_key": "army-bulk-b681", "support_type": "supports", "locator_override": "Bulk record ordinal 361993; exact name and protected identifier"}
+      ]
+    },
+    {
+      "key": "identity-edward-f-morrissey-b681",
+      "person_id": "502cdece-efbd-5204-a028-13c6e939299d",
+      "claim_type": "identity",
+      "claim_text": "The indexed Edward F Morrissey is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree across the two official records.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private.",
+      "sources": [
+        {"source_key": "nara-index-b681", "support_type": "supports", "locator_override": "PDF page 331, row 3, Box 540"},
+        {"source_key": "army-bulk-b681", "support_type": "supports", "locator_override": "Bulk record ordinal 2885867; exact name and protected identifier"}
+      ]
+    },
+    {
+      "key": "identity-robert-h-morrissey-b681",
+      "person_id": "eba0c8df-f5a2-5c5f-a68e-6e6e90a24782",
+      "claim_type": "identity",
+      "claim_text": "The indexed Robert H Morrissey is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree across the two official records.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private.",
+      "sources": [
+        {"source_key": "nara-index-b681", "support_type": "supports", "locator_override": "PDF page 331, row 4, Box 540"},
+        {"source_key": "army-bulk-b681", "support_type": "supports", "locator_override": "Bulk record ordinal 436070; exact name and protected identifier"}
+      ]
+    },
+    {
+      "key": "identity-john-e-morrone-b681",
+      "person_id": "bc4f2425-a2b6-5ad0-bb9f-dfa2d70d96c7",
+      "claim_type": "identity",
+      "claim_text": "The indexed John E Morrone is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree across the two official records.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private.",
+      "sources": [
+        {"source_key": "nara-index-b681", "support_type": "supports", "locator_override": "PDF page 331, row 6, Box 540"},
+        {"source_key": "army-bulk-b681", "support_type": "supports", "locator_override": "Bulk record ordinal 4119384; exact name and protected identifier"}
+      ]
+    },
+    {
+      "key": "identity-charlie-b-morrow-b681",
+      "person_id": "d8d09e1d-4e35-58f1-bcf4-1024479880b6",
+      "claim_type": "identity",
+      "claim_text": "The indexed Charlie B Morrow is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree across the two official records.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Several public namesakes were rejected; the protected identifier and coded occupation remain private.",
+      "sources": [
+        {"source_key": "nara-index-b681", "support_type": "supports", "locator_override": "PDF page 331, row 8, Box 540"},
+        {"source_key": "army-bulk-b681", "support_type": "supports", "locator_override": "Bulk record ordinal 7898071; exact name and protected identifier"}
+      ]
+    },
+    {
+      "key": "identity-lloyd-j-morrow-b681",
+      "person_id": "7a7092a2-67b3-5f69-9784-f11fdd2fba10",
+      "claim_type": "identity",
+      "claim_text": "The indexed Lloyd J Morrow is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree across the two official records.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private.",
+      "sources": [
+        {"source_key": "nara-index-b681", "support_type": "supports", "locator_override": "PDF page 331, row 9, Box 540"},
+        {"source_key": "army-bulk-b681", "support_type": "supports", "locator_override": "Bulk record ordinal 5659985; exact name and protected identifier"}
+      ]
+    },
+    {
+      "key": "identity-charles-e-morse-b681",
+      "person_id": "f7c38468-5108-5e2d-95e5-6165f6cb0e87",
+      "claim_type": "identity",
+      "claim_text": "The indexed Charles E Morse is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree across the two official records.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Chronologically incompatible namesakes were rejected; the protected identifier remains private.",
+      "sources": [
+        {"source_key": "nara-index-b681", "support_type": "supports", "locator_override": "PDF page 331, row 11, Box 540"},
+        {"source_key": "army-bulk-b681", "support_type": "supports", "locator_override": "Bulk record ordinal 1657450; exact name and protected identifier"}
+      ]
+    },
+    {
+      "key": "identity-george-p-morse-b681",
+      "person_id": "62b3e35b-63f9-506c-bb3f-c3b59b8a4446",
+      "claim_type": "identity",
+      "claim_text": "The indexed George P Morse is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree across the two official records.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "A 1949 CIA schedule entry with the same name lacks an identity bridge and was not used.",
+      "sources": [
+        {"source_key": "nara-index-b681", "support_type": "supports", "locator_override": "PDF page 331, row 12, Box 540"},
+        {"source_key": "army-bulk-b681", "support_type": "supports", "locator_override": "Bulk record ordinal 4819593; exact name and protected identifier"}
+      ]
+    },
+    {
+      "key": "identity-harlie-p-morse-conflict-b681",
+      "person_id": "72a41733-b7cd-5884-9a12-6232de1532d8",
+      "claim_type": "identity",
+      "claim_text": "The protected identifier links the index row to an Army record whose middle initial conflicts with the printed index.",
+      "evidence_paraphrase": "The OSS index names Harlie P Morse; the Army record names Harlie B Morse under the same protected identifier.",
+      "identity_match_assessment": "Conflicting until the Box 540 personnel file establishes which middle initial belongs to this person.",
+      "temporal_assessment": "Both records concern wartime service; neither supplies a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The discrepancy is preserved rather than silently corrected.",
+      "sources": [
+        {"source_key": "nara-index-b681", "support_type": "supports", "locator_override": "PDF page 331, row 13, Harlie P Morse"},
+        {"source_key": "army-bulk-b681", "support_type": "contradicts", "locator_override": "Bulk record ordinal 4564609; Harlie B Morse under the protected identifier"}
+      ]
+    },
+    {
+      "key": "identity-richard-morse-b681",
+      "person_id": "d632456e-aca2-5700-b5c7-6de2c69111d9",
+      "claim_type": "identity",
+      "claim_text": "The indexed Richard Morse is a high-confidence match to Dartmouth's Richard Morse '44, an Army sergeant who served as an OSS liaison in Burma.",
+      "evidence_paraphrase": "Official identifier evidence and independent Dartmouth records align on the exact name, Army service, sergeant rank, Asian theater, and OSS duty.",
+      "identity_match_assessment": "High confidence from the protected Army identifier plus multiple independent institutional details beyond the common name.",
+      "temporal_assessment": "The sources document student and military chronology but do not prove the precise date of transfer into OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Box 540 file remains necessary to establish his exact immediate pre-OSS assignment.",
+      "sources": [
+        {"source_key": "nara-index-b681", "support_type": "supports", "locator_override": "PDF page 331, row 14, T/Sgt, Box 540"},
+        {"source_key": "army-bulk-b681", "support_type": "supports", "locator_override": "Bulk record ordinal 2798050; exact name and protected identifier"},
+        {"source_key": "dartmouth-letter-richard-morse-b681", "support_type": "supports", "locator_override": "Richard Morse '44 identified as an Army sergeant in India in July 1944"},
+        {"source_key": "dartmouth-obituary-richard-morse-b681", "support_type": "supports", "locator_override": "Obituary identifies OSS liaison service in Burma"}
+      ]
+    },
+    {
+      "key": "student-richard-morse-dartmouth-b681",
+      "person_id": "d632456e-aca2-5700-b5c7-6de2c69111d9",
+      "affiliation_key": "richard-morse-dartmouth-student-b681",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Richard Morse was a Dartmouth College student before entering the Army in May 1943.",
+      "evidence_paraphrase": "Dartmouth lists him in the class of 1944 and elected to Phi Beta Kappa in April 1943; the Army record dates entry to May 1943.",
+      "identity_match_assessment": "High confidence from the combined official identifier and Dartmouth wartime sources.",
+      "temporal_assessment": "Strongly date-bounded student status immediately before Army entry; Dartmouth is not represented as an employer.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This answers educational status only, not the identity of an immediate pre-OSS military unit.",
+      "sources": [
+        {"source_key": "dartmouth-pbk-richard-morse-b681", "support_type": "supports", "locator_override": "April 1943 Phi Beta Kappa list, Richard Morse '44"},
+        {"source_key": "army-bulk-b681", "support_type": "supports", "locator_override": "Bulk record ordinal 2798050; Army entry date in May 1943"}
+      ]
+    },
+    {
+      "key": "identity-don-e-mort-b681",
+      "person_id": "9b6dbd1b-c127-5a20-a219-bd2e612047d1",
+      "claim_type": "identity",
+      "claim_text": "The indexed Don E Mort is confirmed by a contemporaneous OSS personnel review.",
+      "evidence_paraphrase": "The official OSS report agrees on the uncommon exact name, lieutenant rank, and protected identifier.",
+      "identity_match_assessment": "Confirmed by direct official personnel evidence with a nonshared protected identifier.",
+      "temporal_assessment": "The report gives exact Army-entry and OSS-assignment dates and describes his civilian occupation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier is used privately for resolution and excluded from public output.",
+      "sources": [
+        {"source_key": "nara-index-b681", "support_type": "supports", "locator_override": "PDF page 331, row 16, Box 540"},
+        {"source_key": "hoover-oss-personnel-review-don-mort-b681", "support_type": "supports", "locator_override": "PDF page 59, entry LXXVII"}
+      ]
+    },
+    {
+      "key": "immediate-don-e-mort-army-b681",
+      "person_id": "9b6dbd1b-c127-5a20-a219-bd2e612047d1",
+      "affiliation_key": "don-e-mort-us-army-b681",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Don E Mort's immediate pre-OSS pathway was the United States Army.",
+      "evidence_paraphrase": "The OSS report says Mort entered the Army in April 1941 and was assigned to OSS in August 1943.",
+      "identity_match_assessment": "Confirmed direct match to the indexed person.",
+      "temporal_assessment": "Explicit immediate military sequence with exact dates.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "This is a military assignment, not a civilian employer.",
+      "sources": [
+        {"source_key": "hoover-oss-personnel-review-don-mort-b681", "support_type": "supports", "locator_override": "PDF page 59, entry LXXVII"}
+      ]
+    },
+    {
+      "key": "occupation-don-e-mort-salesman-b681",
+      "person_id": "9b6dbd1b-c127-5a20-a219-bd2e612047d1",
+      "affiliation_key": "don-e-mort-salesman-b681",
+      "claim_type": "occupation",
+      "claim_text": "Before Army service, Don E Mort worked as a salesman in the Midwest.",
+      "evidence_paraphrase": "A contemporaneous OSS personnel review describes him as a civilian salesman in the Middle West.",
+      "identity_match_assessment": "Confirmed direct match to the indexed person.",
+      "temporal_assessment": "Strongly date-bounded before Army entry; the employer is not named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Occupation only. No organization is inferred and the field is not marked as last civilian employer.",
+      "sources": [
+        {"source_key": "hoover-oss-personnel-review-don-mort-b681", "support_type": "supports", "locator_override": "PDF page 59, entry LXXVII"}
+      ]
+    },
+    {
+      "key": "identity-arlo-g-morton-b681",
+      "person_id": "733f6727-eb28-5eda-bb8e-baf256ef2785",
+      "claim_type": "identity",
+      "claim_text": "The indexed Arlo G Morton is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree across the two official records.",
+      "identity_match_assessment": "High confidence from exact name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private.",
+      "sources": [
+        {"source_key": "nara-index-b681", "support_type": "supports", "locator_override": "PDF page 331, row 19, Box 540"},
+        {"source_key": "army-bulk-b681", "support_type": "supports", "locator_override": "Bulk record ordinal 8197042; exact name and protected identifier"}
+      ]
+    },
+    {
+      "key": "identity-melvin-s-morton-conflict-b681",
+      "person_id": "284c9e1b-dfb3-54b4-bc60-e551648d50d2",
+      "claim_type": "identity",
+      "claim_text": "The protected identifier links the index row to an Army record whose surname conflicts with the printed index.",
+      "evidence_paraphrase": "The OSS index names Melvin S Morton; the Army record names Melvin S Mooton under the same protected identifier.",
+      "identity_match_assessment": "Conflicting until the Box 540 personnel file establishes whether either source contains a spelling error.",
+      "temporal_assessment": "Both records concern wartime service; neither supplies a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The surname discrepancy is preserved rather than silently corrected.",
+      "sources": [
+        {"source_key": "nara-index-b681", "support_type": "supports", "locator_override": "PDF page 331, row 21, Melvin S Morton"},
+        {"source_key": "army-bulk-b681", "support_type": "contradicts", "locator_override": "Bulk record ordinal 7536911; Melvin S Mooton under the protected identifier"}
+      ]
+    },
+    {
+      "key": "identity-william-g-morwood-cpl-b681",
+      "person_id": "f31949e9-5456-5621-b9df-97d87e650b56",
+      "claim_type": "identity",
+      "claim_text": "The enlisted William G Morwood row is a high-confidence match to the official Army record and the OSS Morale Operations veteran described by Lawrence Soley.",
+      "evidence_paraphrase": "A protected Army identifier confirms the enlisted row; the rare name and documented enlisted-to-officer progression align with Soley's account.",
+      "identity_match_assessment": "High confidence for the enlisted row; the adjacent lieutenant row remains a probable duplicate pending file comparison.",
+      "temporal_assessment": "The source explicitly describes prewar work, Army entry, OSS transfer, and later promotion.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The two index rows remain separate even though the narrative offers a strong explanation for their rank and identifier change.",
+      "sources": [
+        {"source_key": "nara-index-b681", "support_type": "supports", "locator_override": "PDF page 331, row 23, Cpl, Box 540"},
+        {"source_key": "army-bulk-b681", "support_type": "supports", "locator_override": "Bulk record ordinal 8764255; exact name and protected identifier"},
+        {"source_key": "soley-radio-warfare-morwood-b681", "support_type": "supports", "locator_override": "Pages 160 and 175; Army conscript later promoted to lieutenant"}
+      ]
+    },
+    {
+      "key": "identity-william-g-morwood-lt-probable-b681",
+      "person_id": "f7655acf-75e9-5fbc-81de-cb0c9d4fc47a",
+      "claim_type": "identity",
+      "claim_text": "The lieutenant William G Morwood row is probably the later officer record of the enlisted William Morwood described in the scholarly history.",
+      "evidence_paraphrase": "Soley states that OSS promoted Bill Morwood from sergeant to lieutenant, matching the rare name and adjacent enlisted and officer rows.",
+      "identity_match_assessment": "Probable, not merged: the officer and enlisted identifiers differ and the personnel files have not been compared.",
+      "temporal_assessment": "The reported promotion occurred during OSS service and explains the two ranks but does not itself prove the row-level link.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Both source rows remain visible in possible-duplicate group p331-william-g-morwood-b681.",
+      "sources": [
+        {"source_key": "nara-index-b681", "support_type": "supports", "locator_override": "PDF page 331, rows 22-23, separate lieutenant and corporal records"},
+        {"source_key": "soley-radio-warfare-morwood-b681", "support_type": "supports", "locator_override": "Page 175; Morwood promoted from sergeant to lieutenant"}
+      ]
+    },
+    {
+      "key": "immediate-william-g-morwood-cpl-army-b681",
+      "person_id": "f31949e9-5456-5621-b9df-97d87e650b56",
+      "affiliation_key": "william-g-morwood-cpl-us-army-b681",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "William Morwood's immediate pre-OSS pathway was Army enlisted service.",
+      "evidence_paraphrase": "Soley reports that Morwood was drafted, completed basic training, and then transferred to OSS Morale Operations as a conscript.",
+      "identity_match_assessment": "High confidence for the protected-identifier-supported enlisted row.",
+      "temporal_assessment": "Explicit immediate military sequence.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This is a military assignment, not civilian employment.",
+      "sources": [
+        {"source_key": "soley-radio-warfare-morwood-b681", "support_type": "supports", "locator_override": "Page 160"}
+      ]
+    },
+    {
+      "key": "occupation-william-g-morwood-radio-writer-b681",
+      "person_id": "f31949e9-5456-5621-b9df-97d87e650b56",
+      "affiliation_key": "william-g-morwood-cpl-radio-writer-b681",
+      "claim_type": "occupation",
+      "claim_text": "Before the war, William Morwood worked as a radio writer.",
+      "evidence_paraphrase": "Soley explicitly identifies Morwood's prewar occupation as radio writing and records his later Army-to-OSS sequence.",
+      "identity_match_assessment": "High confidence for the enlisted row, supported by the rare name, protected Army identifier, and matching service progression.",
+      "temporal_assessment": "Explicitly prewar; no employer or station is named.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Occupation only. No radio network, station, or employer is inferred.",
+      "sources": [
+        {"source_key": "soley-radio-warfare-morwood-b681", "support_type": "supports", "locator_override": "Page 160"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {"person_id": "ef2a3cbd-b171-5e28-96e4-467e89cc1e24", "identity_status": "high_confidence", "identity_evidence": "Exact name and nonshared protected identifier agree with the official Army bulk record.", "manual_review_required": false, "research_status": "no_reliable_result_after_protocol", "next_action": "Review Thomas T Morrison's Box 540 personnel file for pre-OSS affiliation.", "archival_review_priority": "high"},
+    {"person_id": "335c3553-b0e9-5c76-94f5-b3a88dfbfea8", "identity_status": "unresolved", "identity_evidence": "The staged protocol found no reliable identity bridge beyond the index row.", "research_status": "no_reliable_result_after_protocol", "next_action": "Review William D Morrison's Box 540 personnel file for identity and pre-OSS affiliation.", "archival_review_priority": "high"},
+    {"person_id": "502cdece-efbd-5204-a028-13c6e939299d", "identity_status": "high_confidence", "identity_evidence": "Exact name and nonshared protected identifier agree with the official Army bulk record.", "manual_review_required": false, "research_status": "no_reliable_result_after_protocol", "next_action": "Review Edward F Morrissey's Box 540 personnel file for pre-OSS affiliation.", "archival_review_priority": "high"},
+    {"person_id": "eba0c8df-f5a2-5c5f-a68e-6e6e90a24782", "identity_status": "high_confidence", "identity_evidence": "Exact name and nonshared protected identifier agree with the official Army bulk record.", "manual_review_required": false, "research_status": "no_reliable_result_after_protocol", "next_action": "Review Robert H Morrissey's Box 540 personnel file for pre-OSS affiliation.", "archival_review_priority": "high"},
+    {"person_id": "a6cf28c3-7a26-50d3-81d4-90ec2d57974d", "identity_status": "unresolved", "identity_evidence": "The staged protocol found no reliable identity bridge beyond the index row.", "research_status": "no_reliable_result_after_protocol", "next_action": "Review Billie J Morrone's Box 540 personnel file for identity and pre-OSS affiliation.", "archival_review_priority": "high"},
+    {"person_id": "bc4f2425-a2b6-5ad0-bb9f-dfa2d70d96c7", "identity_status": "high_confidence", "identity_evidence": "Exact name and nonshared protected identifier agree with the official Army bulk record.", "manual_review_required": false, "research_status": "no_reliable_result_after_protocol", "next_action": "Review John E Morrone's Box 540 personnel file for pre-OSS affiliation.", "archival_review_priority": "high"},
+    {"person_id": "58beeece-93b2-5189-9abc-0c6915cbc4dc", "identity_status": "unresolved", "identity_evidence": "The staged protocol found no reliable identity bridge beyond the index row.", "research_status": "no_reliable_result_after_protocol", "next_action": "Review Archie G Morrow's Box 540 personnel file for identity and pre-OSS affiliation.", "archival_review_priority": "high"},
+    {"person_id": "d8d09e1d-4e35-58f1-bcf4-1024479880b6", "identity_status": "high_confidence", "identity_evidence": "Exact name and nonshared protected identifier agree with the official Army bulk record; public namesakes were rejected.", "manual_review_required": false, "research_status": "no_reliable_result_after_protocol", "next_action": "Review Charlie B Morrow's Box 540 personnel file for pre-OSS affiliation.", "archival_review_priority": "high"},
+    {"person_id": "7a7092a2-67b3-5f69-9784-f11fdd2fba10", "identity_status": "high_confidence", "identity_evidence": "Exact name and nonshared protected identifier agree with the official Army bulk record.", "manual_review_required": false, "research_status": "no_reliable_result_after_protocol", "next_action": "Review Lloyd J Morrow's Box 540 personnel file for pre-OSS affiliation.", "archival_review_priority": "high"},
+    {"person_id": "f7c38468-5108-5e2d-95e5-6165f6cb0e87", "identity_status": "high_confidence", "identity_evidence": "Exact name and nonshared protected identifier agree with the official Army bulk record; chronologically incompatible namesakes were rejected.", "manual_review_required": false, "research_status": "no_reliable_result_after_protocol", "next_action": "Review Charles E Morse's Box 540 personnel file for pre-OSS affiliation.", "archival_review_priority": "high"},
+    {"person_id": "62b3e35b-63f9-506c-bb3f-c3b59b8a4446", "identity_status": "high_confidence", "identity_evidence": "Exact name and nonshared protected identifier agree with the official Army bulk record.", "manual_review_required": false, "research_status": "no_reliable_result_after_protocol", "next_action": "Review George P Morse's Box 540 personnel file for pre-OSS affiliation and assess the unbridged 1949 CIA namesake.", "archival_review_priority": "high"},
+    {"person_id": "72a41733-b7cd-5884-9a12-6232de1532d8", "identity_status": "conflicting", "identity_evidence": "The protected identifier agrees, but the Army source names Harlie B Morse while the index names Harlie P Morse.", "research_status": "conflicting_sources", "next_action": "Review the Box 540 personnel file to resolve the Harlie B/P Morse middle-initial conflict.", "archival_review_priority": "critical"},
+    {"person_id": "d632456e-aca2-5700-b5c7-6de2c69111d9", "identity_status": "high_confidence", "identity_evidence": "Official identifier evidence and Dartmouth records align on the exact name, Army service, sergeant rank, Asian theater, and OSS liaison duty in Burma.", "research_status": "completed", "next_action": "Review the Box 540 file to establish Richard Morse's precise immediate pre-OSS military assignment.", "archival_review_priority": "medium"},
+    {"person_id": "10a4d8bb-110f-52a2-a1d7-6d16b1b97867", "identity_status": "unresolved", "identity_evidence": "A crossword constructor and other public namesakes lacked an OSS or protected-identifier bridge.", "research_status": "no_reliable_result_after_protocol", "next_action": "Review Roberta H Morse's Box 540 personnel file for identity and pre-OSS affiliation.", "archival_review_priority": "high"},
+    {"person_id": "9b6dbd1b-c127-5a20-a219-bd2e612047d1", "identity_status": "confirmed", "identity_evidence": "A contemporaneous OSS personnel report agrees on the uncommon exact name, lieutenant rank, and nonshared protected identifier.", "manual_review_required": false, "research_status": "occupation_only_found", "next_action": "Review the Box 540 file or a contemporary directory to identify Don E Mort's unnamed Midwest sales employer.", "archival_review_priority": "medium"},
+    {"person_id": "35f76dd6-dac1-5a83-b304-bd734b051b5d", "identity_status": "unresolved", "identity_evidence": "A 1940 directory names Derek G Mortlock at an Orange, New Jersey residence but supplies no occupation or OSS identity bridge.", "research_status": "no_reliable_result_after_protocol", "next_action": "Review Derek G Mortlock's Box 540 personnel file and Orange, New Jersey directories with occupational listings.", "archival_review_priority": "high"},
+    {"person_id": "99f74d72-be36-58aa-b0dc-2f566d140a27", "identity_status": "unresolved", "identity_evidence": "The staged protocol found no reliable identity bridge beyond the index row.", "research_status": "no_reliable_result_after_protocol", "next_action": "Review Guy Mortner's Box 540 personnel file for identity and pre-OSS affiliation.", "archival_review_priority": "high"},
+    {"person_id": "733f6727-eb28-5eda-bb8e-baf256ef2785", "identity_status": "high_confidence", "identity_evidence": "Exact name and nonshared protected identifier agree with the official Army bulk record.", "manual_review_required": false, "research_status": "no_reliable_result_after_protocol", "next_action": "Review Arlo G Morton's Box 540 personnel file for pre-OSS affiliation.", "archival_review_priority": "high"},
+    {"person_id": "12715f08-4cb1-5b74-b7f8-27a9e5502ae2", "identity_status": "unresolved", "identity_evidence": "The staged protocol found no reliable identity bridge beyond the civilian-grade index row.", "research_status": "no_reliable_result_after_protocol", "next_action": "Review Dorothy V Morton's Box 540 personnel file at archival location 230/86/37/02.", "archival_review_priority": "high"},
+    {"person_id": "284c9e1b-dfb3-54b4-bc60-e551648d50d2", "identity_status": "conflicting", "identity_evidence": "The protected identifier agrees, but the Army source spells the surname Mooton while the index spells it Morton.", "research_status": "conflicting_sources", "next_action": "Review the Box 540 personnel file to resolve the Morton/Mooton surname conflict.", "archival_review_priority": "critical"},
+    {"person_id": "f7655acf-75e9-5fbc-81de-cb0c9d4fc47a", "identity_status": "probable", "identity_evidence": "Soley's account of William Morwood's promotion from enlisted status to lieutenant strongly suggests the adjacent rows represent one career, but their protected identifiers differ.", "possible_duplicate_group": "p331-william-g-morwood-b681", "research_status": "requires_archival_review", "next_action": "Compare both William G Morwood Box 540 files and their officer/enlisted identifier histories before merging.", "archival_review_priority": "critical"},
+    {"person_id": "f31949e9-5456-5621-b9df-97d87e650b56", "identity_status": "high_confidence", "identity_evidence": "The enlisted row has exact-name and protected-identifier agreement with the Army record; Soley's rare-name service narrative matches an enlisted-to-lieutenant progression.", "possible_duplicate_group": "p331-william-g-morwood-b681", "research_status": "occupation_only_found", "next_action": "Compare both William G Morwood Box 540 files and identify the unnamed prewar radio employer.", "archival_review_priority": "critical"}
+  ],
+  "research_attempts": [
+    {"key": "batch681-thomas-t-morrison-review", "person_id": "ef2a3cbd-b171-5e28-96e4-467e89cc1e24", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Thomas T Morrison OSS employer occupation obituary", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T18:00:00Z", "completed_at": "2026-09-25T22:00:00Z", "outcome": "source_reviewed", "sources_reviewed": 2, "candidate_sources_rejected": 2, "rejection_reasons": "Public results were unrelated common-name records without an OSS or protected-identifier bridge.", "research_notes": "The Army identity lead was accepted; coded occupation was excluded. CIA failed closed and LoC timed out without a completed query, so neither was treated as negative evidence.", "next_action": "Review Box 540 personnel file.", "attempt_number": 1, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch681-william-d-morrison-review", "person_id": "335c3553-b0e9-5c76-94f5-b3a88dfbfea8", "source_adapter": "official_index_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "William D Morrison OSS major employer occupation obituary", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T18:00:00Z", "completed_at": "2026-09-25T22:00:00Z", "outcome": "no_result", "sources_reviewed": 1, "candidate_sources_rejected": 3, "rejection_reasons": "Search results concerned other William D Morrison namesakes or unrelated later records.", "research_notes": "Exact-name OSS, employment, obituary, institutional, newspaper, and archival searches found no reliable identity bridge. Source-access failures were not counted as negative evidence.", "next_action": "Review Box 540 personnel file.", "attempt_number": 1, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch681-edward-f-morrissey-review", "person_id": "502cdece-efbd-5204-a028-13c6e939299d", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Edward F Morrissey OSS employer occupation obituary", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T18:00:00Z", "completed_at": "2026-09-25T22:00:00Z", "outcome": "source_reviewed", "sources_reviewed": 2, "candidate_sources_rejected": 4, "rejection_reasons": "Results included a Marine killed at Pearl Harbor and other incompatible namesakes.", "research_notes": "The Army identity lead was accepted; no reliable named employer was found.", "next_action": "Review Box 540 personnel file.", "attempt_number": 1, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch681-robert-h-morrissey-review", "person_id": "eba0c8df-f5a2-5c5f-a68e-6e6e90a24782", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Robert H Morrissey OSS employer occupation obituary", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T18:00:00Z", "completed_at": "2026-09-25T22:00:00Z", "outcome": "source_reviewed", "sources_reviewed": 2, "candidate_sources_rejected": 3, "rejection_reasons": "Obituary aggregations named later or differently identified people and supplied no OSS bridge.", "research_notes": "The Army identity lead was accepted; no reliable named employer was found.", "next_action": "Review Box 540 personnel file.", "attempt_number": 1, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch681-billie-j-morrone-review", "person_id": "a6cf28c3-7a26-50d3-81d4-90ec2d57974d", "source_adapter": "official_index_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Billie J Morrone OSS employer occupation obituary", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T18:00:00Z", "completed_at": "2026-09-25T22:00:00Z", "outcome": "no_result", "sources_reviewed": 1, "candidate_sources_rejected": 1, "rejection_reasons": "No exact-person source with an OSS bridge was found.", "research_notes": "The official index and staged exact-name, employment, institutional, newspaper, obituary, and archival searches were reviewed.", "next_action": "Review Box 540 personnel file.", "attempt_number": 1, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch681-john-e-morrone-review", "person_id": "bc4f2425-a2b6-5ad0-bb9f-dfa2d70d96c7", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "John E Morrone OSS employer occupation obituary", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T18:00:00Z", "completed_at": "2026-09-25T22:00:00Z", "outcome": "source_reviewed", "sources_reviewed": 2, "candidate_sources_rejected": 3, "rejection_reasons": "Modern paramedic records and other namesakes were chronologically incompatible and lacked an OSS bridge.", "research_notes": "The Army identity lead was accepted; no reliable named employer was found.", "next_action": "Review Box 540 personnel file.", "attempt_number": 1, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch681-archie-g-morrow-review", "person_id": "58beeece-93b2-5189-9abc-0c6915cbc4dc", "source_adapter": "official_index_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Archie G Morrow OSS employer occupation obituary", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T18:00:00Z", "completed_at": "2026-09-25T22:00:00Z", "outcome": "no_result", "sources_reviewed": 1, "candidate_sources_rejected": 2, "rejection_reasons": "No exact-person source with an OSS or protected-identifier bridge was found.", "research_notes": "The LoC request timed out before a query completed and was not treated as negative evidence; equivalent institutional, newspaper, obituary, directory, and archival web searches were reviewed.", "next_action": "Review Box 540 personnel file.", "attempt_number": 1, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch681-charlie-b-morrow-review", "person_id": "d8d09e1d-4e35-58f1-bcf4-1024479880b6", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Charlie B Morrow OSS employer occupation obituary", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T18:00:00Z", "completed_at": "2026-09-25T22:00:00Z", "outcome": "source_reviewed", "sources_reviewed": 2, "candidate_sources_rejected": 6, "rejection_reasons": "Multiple genealogy and obituary namesakes had incompatible birth dates or lacked an OSS and protected-identifier bridge.", "research_notes": "The Army identity lead was accepted; no reliable named employer was found.", "next_action": "Review Box 540 personnel file.", "attempt_number": 1, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch681-lloyd-j-morrow-review", "person_id": "7a7092a2-67b3-5f69-9784-f11fdd2fba10", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Lloyd J Morrow OSS employer occupation obituary", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T18:00:00Z", "completed_at": "2026-09-25T22:00:00Z", "outcome": "source_reviewed", "sources_reviewed": 2, "candidate_sources_rejected": 3, "rejection_reasons": "Cemetery aggregation results lacked matching identifiers or an OSS bridge.", "research_notes": "The Army identity lead was accepted; no reliable named employer was found.", "next_action": "Review Box 540 personnel file.", "attempt_number": 1, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch681-charles-e-morse-review", "person_id": "f7c38468-5108-5e2d-95e5-6165f6cb0e87", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Charles E Morse OSS employer occupation obituary", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T18:00:00Z", "completed_at": "2026-09-25T22:00:00Z", "outcome": "source_reviewed", "sources_reviewed": 2, "candidate_sources_rejected": 5, "rejection_reasons": "Results concerned Civil War, Korean War, and Air Force namesakes inconsistent with the indexed protected identifier.", "research_notes": "The Army identity lead was accepted; no reliable named employer was found.", "next_action": "Review Box 540 personnel file.", "attempt_number": 1, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch681-george-p-morse-review", "person_id": "62b3e35b-63f9-506c-bb3f-c3b59b8a4446", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "George P Morse OSS employer occupation obituary", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T18:00:00Z", "completed_at": "2026-09-25T22:00:00Z", "outcome": "source_reviewed", "sources_reviewed": 3, "candidate_sources_rejected": 4, "rejection_reasons": "A 1949 CIA schedule entry and other namesakes lacked a protected-identifier or biographical bridge.", "research_notes": "The Army identity lead was accepted; the later CIA name mention was not used as an employer or identity claim.", "next_action": "Review Box 540 personnel file.", "attempt_number": 1, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch681-harlie-p-morse-review", "person_id": "72a41733-b7cd-5884-9a12-6232de1532d8", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Harlie P Morse Harlie B Morse OSS employer occupation", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T18:00:00Z", "completed_at": "2026-09-25T22:00:00Z", "outcome": "source_reviewed", "sources_reviewed": 2, "candidate_sources_rejected": 1, "rejection_reasons": "No independent source resolved the middle-initial conflict.", "research_notes": "The protected identifier match is retained as conflicting rather than forced into an identity confirmation.", "next_action": "Review Box 540 personnel file.", "attempt_number": 1, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch681-richard-morse-review", "person_id": "d632456e-aca2-5700-b5c7-6de2c69111d9", "source_adapter": "official_index_army_bulk_cia_loc_dartmouth_and_targeted_web_review", "query_text": "Richard Morse Dartmouth OSS Burma employer occupation", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T18:00:00Z", "completed_at": "2026-09-25T22:00:00Z", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 3, "rejection_reasons": "Other Richard Morse biographies and military records had incompatible middle names, services, or theaters.", "research_notes": "Protected Army identity evidence plus three Dartmouth sources establish a high-confidence identity and pre-Army student status. Exact pre-OSS transfer chronology remains archival.", "next_action": "Review Box 540 personnel file for precise Army-to-OSS sequence.", "attempt_number": 1, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch681-roberta-h-morse-review", "person_id": "10a4d8bb-110f-52a2-a1d7-6d16b1b97867", "source_adapter": "official_index_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Roberta H Morse OSS employer occupation obituary", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T18:00:00Z", "completed_at": "2026-09-25T22:00:00Z", "outcome": "candidate_rejected", "sources_reviewed": 2, "candidate_sources_rejected": 2, "rejection_reasons": "The crossword constructor and cemetery record lacked an OSS or protected-identifier bridge.", "research_notes": "No namesake was promoted to a claim.", "next_action": "Review Box 540 personnel file.", "attempt_number": 1, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch681-don-e-mort-review", "person_id": "9b6dbd1b-c127-5a20-a219-bd2e612047d1", "source_adapter": "official_index_hoover_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Don E Mort OSS employer occupation", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T18:00:00Z", "completed_at": "2026-09-25T22:00:00Z", "outcome": "source_reviewed", "sources_reviewed": 2, "candidate_sources_rejected": 1, "rejection_reasons": "No reliable source named the Midwest sales employer.", "research_notes": "A contemporaneous OSS report confirms identity, Army-to-OSS chronology, and civilian occupation as salesman. No organization was inferred.", "next_action": "Review Box 540 file or contemporary directory for employer name.", "attempt_number": 1, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch681-derek-g-mortlock-review", "person_id": "35f76dd6-dac1-5a83-b304-bd734b051b5d", "source_adapter": "official_index_cia_loc_city_directory_and_targeted_web_review", "query_text": "Derek G Mortlock OSS employer occupation obituary", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T18:00:00Z", "completed_at": "2026-09-25T22:00:00Z", "outcome": "candidate_rejected", "sources_reviewed": 2, "candidate_sources_rejected": 4, "rejection_reasons": "A 1940 Orange directory provides only a residence; later legal and foreign military results do not establish identity or pre-OSS work.", "research_notes": "The uncommon name is a useful archival lead but remains unresolved without an OSS bridge.", "next_action": "Review Box 540 file and Orange directories with occupational entries.", "attempt_number": 1, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch681-guy-mortner-review", "person_id": "99f74d72-be36-58aa-b0dc-2f566d140a27", "source_adapter": "official_index_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Guy Mortner captain OSS employer occupation obituary", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T18:00:00Z", "completed_at": "2026-09-25T22:00:00Z", "outcome": "no_result", "sources_reviewed": 1, "candidate_sources_rejected": 2, "rejection_reasons": "Search results were unrelated fictional or modern name fragments.", "research_notes": "No reliable identity bridge or pre-OSS affiliation was found after the staged protocol.", "next_action": "Review Box 540 personnel file.", "attempt_number": 1, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch681-arlo-g-morton-review", "person_id": "733f6727-eb28-5eda-bb8e-baf256ef2785", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Arlo G Morton OSS employer occupation obituary", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T18:00:00Z", "completed_at": "2026-09-25T22:00:00Z", "outcome": "source_reviewed", "sources_reviewed": 2, "candidate_sources_rejected": 2, "rejection_reasons": "No independent result supplied an OSS or employer bridge.", "research_notes": "The Army identity lead was accepted; no reliable named employer was found.", "next_action": "Review Box 540 personnel file.", "attempt_number": 1, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch681-dorothy-v-morton-review", "person_id": "12715f08-4cb1-5b74-b7f8-27a9e5502ae2", "source_adapter": "official_index_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Dorothy V Morton OSS employer occupation obituary", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T18:00:00Z", "completed_at": "2026-09-25T22:00:00Z", "outcome": "candidate_rejected", "sources_reviewed": 2, "candidate_sources_rejected": 4, "rejection_reasons": "Genealogy, census-index, and modern people-search results lacked an OSS identity bridge.", "research_notes": "The civilian grade remains preserved; no employer was inferred from common-name results.", "next_action": "Review Box 540 personnel file at 230/86/37/02.", "attempt_number": 1, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch681-melvin-s-morton-review", "person_id": "284c9e1b-dfb3-54b4-bc60-e551648d50d2", "source_adapter": "official_index_army_bulk_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "Melvin S Morton Melvin S Mooton OSS employer occupation", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T18:00:00Z", "completed_at": "2026-09-25T22:00:00Z", "outcome": "source_reviewed", "sources_reviewed": 2, "candidate_sources_rejected": 4, "rejection_reasons": "Public namesakes did not resolve the Morton/Mooton surname discrepancy or establish pre-OSS work.", "research_notes": "The protected identifier match remains conflicting rather than silently corrected.", "next_action": "Review Box 540 personnel file.", "attempt_number": 1, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch681-william-g-morwood-lt-review", "person_id": "f7655acf-75e9-5fbc-81de-cb0c9d4fc47a", "source_adapter": "official_index_scholarly_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "William G Morwood OSS lieutenant radio writer employer", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T18:00:00Z", "completed_at": "2026-09-25T22:00:00Z", "outcome": "candidate_found", "sources_reviewed": 2, "candidate_sources_rejected": 3, "rejection_reasons": "Genealogy and modern occupational results lacked an OSS bridge.", "research_notes": "Soley documents the rare-name OSS veteran's promotion from enlisted status to lieutenant, making the adjacent rows probable duplicates. Distinct identifiers are preserved and no merge was performed.", "next_action": "Compare both Box 540 files.", "attempt_number": 1, "research_agent_version": "before-oss-batch-review-v1"},
+    {"key": "batch681-william-g-morwood-cpl-review", "person_id": "f31949e9-5456-5621-b9df-97d87e650b56", "source_adapter": "official_index_army_bulk_scholarly_cia_loc_institutional_newspaper_and_targeted_web_review", "query_text": "William G Morwood OSS corporal radio writer employer", "query_variant_type": "consolidated_review", "started_at": "2026-09-25T18:00:00Z", "completed_at": "2026-09-25T22:00:00Z", "outcome": "source_reviewed", "sources_reviewed": 3, "candidate_sources_rejected": 3, "rejection_reasons": "Genealogy and modern occupational results lacked an OSS bridge.", "research_notes": "The Army identity lead was accepted. Soley documents prewar radio writing, Army entry before OSS, and later promotion; no radio employer is named.", "next_action": "Compare both Box 540 files and identify the radio employer.", "attempt_number": 1, "research_agent_version": "before-oss-batch-review-v1"}
+  ]
+}

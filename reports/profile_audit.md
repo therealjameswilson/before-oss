@@ -1,6 +1,6 @@
 # Stratified profile audit
 
-Generated: 2026-09-23T21:46:26+00:00
+Generated: 2026-10-03T00:01:08+00:00
 
 Deterministic profiles audited: **200**.
 
@@ -16,16 +16,16 @@ Deterministic profiles audited: **200**.
 
 ## Special strata represented
 
-- commissioned: 28
+- commissioned: 27
 - civilian: 20
 - enlisted: 32
 - allied or foreign: 20
 - incomplete or initial only name: 20
 - possible duplicate group: 31
-- confirmed or high published claim: 31
+- confirmed or high published claim: 35
 - medium published claim: 15
 - conflicting published claim: 10
-- unresolved identity: 131
+- unresolved identity: 130
 
 ## Evidence-limited strata
 

@@ -1,5 +1,130 @@
 # Accessibility and responsive QA
 
+Batch 688 local validation, 2026-10-02 UTC: the bounded release suite passed
+**87/87** desktop, phone, and tablet checks: 18 Munger-Murphy direct-profile,
+identity, conflict, rejected-lead, redaction, exact-coverage, and oil-category
+checks; 33 core-route checks; six analysis checks; and 30 accessibility checks
+with no serious or critical axe violations. All **139** Python unit tests
+passed. Astro reported zero errors, warnings, or hints across **322** source
+files and built **24,765** static pages. Two consecutive production builds
+reproduced the same tree digest. Every internal link resolves, the 200-profile
+structural audit passes all seven checks, and the public-identifier audit found
+zero unexpected full-number matches. These local results do not by themselves
+establish CI or public deployment.
+
+Batch 687 local validation, 2026-10-02 UTC: the bounded release suite passed
+**90/90** desktop, phone, and tablet checks: 21 Mullen-Mundy direct-profile,
+identity, chronology-boundary, conflict, redaction, exact-coverage, and
+oil-category checks; 33 core-route checks; six analysis checks; and 30
+accessibility checks with no serious or critical axe violations. All **139**
+Python unit tests passed. Astro reported zero errors, warnings, or hints across
+**321** source files and built **24,765** static pages. Two consecutive
+production builds reproduced the same tree digest. Every internal link
+resolves, the 200-profile structural audit passes all seven checks, and the
+public-identifier audit found zero unexpected full-number matches. These local
+results do not by themselves establish CI or public deployment.
+
+Batch 686 local validation, 2026-10-01 UTC: the bounded release suite passed
+**84/84** desktop, phone, and tablet checks: 15 Mueller-Mullaney direct-profile,
+identity, chronology-boundary, rejected-postwar-lead, exact-coverage, and
+oil-category checks; 33 core-route checks; six analysis checks; and 30
+accessibility checks with no serious or critical axe violations. All **139**
+Python unit tests passed. Astro reported zero errors, warnings, or hints across
+**320** source files and built **24,763** static pages. Two consecutive
+production builds reproduced the same tree digest. Every internal link
+resolves, the 200-profile structural audit passes all seven checks, and the
+public-identifier audit found zero unexpected full-number matches. These local
+results do not by themselves establish CI or public deployment.
+
+Batch 684 local validation, 2026-09-25 UTC: the bounded release suite passed
+**99/99** desktop, phone, and tablet checks: 30 Moulton-Moye direct-profile,
+identity, relationship-boundary, conflict, rejected-candidate, exact-coverage,
+and oil-category checks; 33 core-route checks; six analysis checks; and 30
+accessibility checks with no serious or critical axe violations. All **139**
+Python unit tests passed. Astro reported zero errors, warnings, or hints across
+**318** source files and built **24,759** static pages. Two consecutive
+production builds reproduced the same tree digest. Every internal link
+resolves, the 200-profile structural audit passes all seven checks, and the
+public-identifier audit found zero unexpected full-number matches. These local
+results do not by themselves establish CI or public deployment.
+
+Batch 683 local validation, 2026-09-25 UTC: the bounded release suite passed
+**90/90** desktop, phone, and tablet checks: 21 Mosler-Moulder direct-profile,
+identity, relationship-boundary, conflict, rejected-namesake, exact-coverage,
+and oil-category checks; 33 core-route checks; six analysis checks; and 30
+accessibility checks with no serious or critical axe violations. All **139**
+Python unit tests passed. Astro reported zero errors, warnings, or hints across
+**317** source files and built **24,754** static pages. Two consecutive
+production builds reproduced the same tree digest. Every internal link
+resolves, the 200-profile structural audit passes all seven checks, and the
+public-identifier audit found zero unexpected full-number matches. These local
+results do not by themselves establish CI or public deployment.
+
+Batch 682 local validation, 2026-09-25 UTC: the bounded release suite passed
+**93/93** desktop, phone, and tablet checks: 24 Mory-Mosler direct-profile,
+identity, relationship-boundary, conflict, exact-coverage, and oil-category
+checks; 33 core-route checks; six analysis checks; and 30 accessibility checks
+with no serious or critical axe violations. All **139** Python unit tests
+passed. Astro reported zero errors, warnings, or hints across **316** source
+files and built **24,751** static pages. Two consecutive production builds
+reproduced the same tree digest. Every internal link resolves, the 200-profile
+structural audit passes all seven checks, and the public-identifier audit found
+zero unexpected full-number matches. These local results do not by themselves
+establish CI or public deployment.
+
+Batch 671 local validation, 2026-09-25 UTC: the bounded release suite passed
+**90/90** desktop, phone, and tablet checks: 21 Montgomery-Moon identity,
+relationship-boundary, conflict, rejected-namesake, exact-coverage, and
+oil-category checks; 33 core-route checks; six analysis checks; and 30
+accessibility checks with no serious or critical axe violations. All **139**
+Python unit tests passed. Two consecutive Astro static builds each produced
+**24,742** pages with identical tree digests. Every internal link resolves, the
+200-profile structural audit passes all seven checks, and the public-identifier
+audit found zero unexpected full-number matches. `astro check` is separately
+blocked before diagnostics because its launcher does not discover the locally
+installed `@astrojs/check` and TypeScript packages; the exact failure is
+documented in `reports/release_batch_671.md`. These local results do not by
+themselves establish CI or public deployment.
+
+Batch 670 local validation, 2026-09-25 UTC: the bounded release suite passed
+**93/93** desktop, phone, and tablet checks: 24 Monroe-Montgomery identity,
+chronology, relationship-boundary, conflict, supersession, exact-coverage, and
+oil-category checks; 33 core-route checks; six analysis checks; and 30
+accessibility checks with no serious or critical axe violations. All **139**
+Python unit tests passed. Two consecutive Astro static builds each produced
+**24,742** pages with identical tree digests. Every internal link resolves, the
+200-profile structural audit passes all seven checks, and the public-identifier
+audit found zero unexpected full-number matches. `astro check` is separately
+blocked before diagnostics because its launcher does not discover the locally
+installed `@astrojs/check` and TypeScript packages; the exact failure is
+documented in `reports/release_batch_670.md`. These local results do not by
+themselves establish CI or public deployment.
+
+Batch 667 local validation, 2026-09-25 UTC: the bounded release suite passed
+**93/93** desktop, phone, and tablet checks: 24 Mitschke-Moefred identity,
+chronology, withholding, conflict, exact-coverage, and oil-category checks; 33
+core-route checks; six analysis checks; and 30 accessibility checks with no
+serious or critical axe violations. All **136** Python unit tests passed. Two
+consecutive Astro static builds each produced **24,740** pages with identical
+tree digests. Every internal link resolves, the 200-profile structural audit
+passes all seven checks, and the public-identifier audit found zero unexpected
+full-number matches. `astro check` is separately blocked before diagnostics by
+the installed language-server dependency's runtime `TypeError`; the exact
+loader failure is documented in `reports/release_batch_667.md`. These local
+results do not by themselves establish CI or public deployment.
+
+Batch 666 local validation, 2026-09-24 UTC: the bounded release suite passed
+**93/93** desktop, phone, and tablet checks: 24 Mitchell-Mitrougenis chronology,
+identity-separation, post-OSS exclusion, exact-coverage, and oil-category
+checks; 33 core-route checks; six analysis checks; and 30 accessibility checks
+with no serious or critical axe violations. All **136** Python unit tests
+passed. Astro reported zero errors, warnings, or hints across **297** source
+files and built **24,733** static pages. Every internal link resolves, the
+200-profile structural audit passes all seven checks, the public-identifier
+audit found zero unexpected full-number matches, and two consecutive builds
+reproduced the same public and production tree digests. These local results do
+not by themselves establish CI or public deployment.
+
 Batch 659 local validation, 2026-09-23 UTC: the bounded release suite passed
 **87/87** desktop, phone, and tablet checks: 18 Miller identity-conflict,
 rejected-namesake, enhanced officer-disambiguation, exact-coverage, and
@@ -6553,3 +6678,15 @@ pathways, the rejected Dolores J. Mencke post-OSS lead, the visible
 Menanga/Menengas conflict, Oleg Melnikoff's qualified name variant, and the
 unchanged seven-person oil-company category. All 30 axe scans reported no
 serious accessibility violations.
+
+## Batch 685 accessibility and responsive regression
+
+The bounded release suite passed **93 / 93** checks: 24 Batch 685 profile and
+evidence-boundary assertions, 33 core route and interaction checks, six
+analysis checks, and 30 axe scans. The matrix covers desktop, phone, and tablet
+widths. It verifies all 23 new direct profiles, Robert Moyers's Army Dental
+Corps pathway, Daniel Mudrinich's Camp Roberts assignment, John Moynahan's
+student/employment boundary, two visible identity conflicts, six bounded Army
+identity matches, protected-identifier redaction, and the unchanged
+nine-person oil-company category. All 30 axe scans reported no serious
+accessibility violations.

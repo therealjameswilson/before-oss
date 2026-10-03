@@ -28,6 +28,10 @@ class StrictModel(BaseModel):
 
 class SourceInput(StrictModel):
     key: str = Field(min_length=1)
+    source_id: str | None = Field(
+        default=None,
+        pattern=r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
+    )
     stable_url: str | None = None
     archival_identifier: str | None = None
     title: str = Field(min_length=1)
@@ -351,7 +355,15 @@ def import_reviewed_evidence(
 ) -> dict[str, int]:
     bundle = EvidenceBundle.model_validate_json(path.read_text(encoding="utf-8"))
     now = utc_now()
-    source_ids = {value.key: _stable_id("source", value.key) for value in bundle.sources}
+    source_ids = {
+        value.key: value.source_id or _stable_id("source", value.key)
+        for value in bundle.sources
+    }
+    superseded_generated_source_ids = {
+        _stable_id("source", value.key)
+        for value in bundle.sources
+        if value.source_id and value.source_id != _stable_id("source", value.key)
+    }
     organization_ids = {
         value.key: value.organization_id or _stable_id("organization", value.key)
         for value in bundle.organizations
@@ -611,6 +623,21 @@ def import_reviewed_evidence(
                         link.excerpt_override,
                     ),
                 )
+        # A reviewed bundle can redirect a formerly bundle-generated source
+        # to an existing canonical citation row. Remove only the old
+        # deterministic row and only after every claim link has been moved.
+        for source_id in superseded_generated_source_ids:
+            connection.execute(
+                """
+                DELETE FROM sources
+                WHERE source_id = ?
+                  AND NOT EXISTS (
+                    SELECT 1 FROM claim_sources
+                    WHERE claim_sources.source_id = sources.source_id
+                  )
+                """,
+                (source_id,),
+            )
         for attempt in bundle.research_attempts:
             attempt_id = attempt.research_attempt_id or _stable_id(
                 "research-attempt", attempt.key

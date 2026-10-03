@@ -1,5 +1,21 @@
 # Software QA
 
+Run: 2026-10-02 UTC, Batch 688 local release candidate. All **139/139**
+Python tests pass; SQLite integrity, foreign-key, and 522-page/23,978-row
+extraction checks pass; the deterministic 200-profile structural audit passes
+all seven checks. Astro checks 322 source files with zero errors, warnings, or
+hints and builds 24,765 direct HTML pages. The bounded browser suite passes
+**87/87** checks across desktop, phone, and tablet, including 30 axe cases.
+Every internal link resolves; 50,506 external URLs were inventoried, not
+comprehensively visited. The public-identifier audit examines 12,926
+normalized identifiers and 120 formatted variants across 24,837 artifacts
+with zero unexpected full-number matches. The local verifier matches 67
+assets / 102,505,076 bytes. Two builds reproduce production-tree SHA-256
+`95b0ef6e2288c513a0df4f975ff45b99788dcf1fc520b60b081466b452e380a3`.
+The production dependency audit finds zero vulnerabilities. This candidate has
+not been pushed, merged, deployed, or live-verified. See
+`reports/release_batch_688.md`.
+
 Run: 2026-09-20 UTC, Batch 581 exact-verified public release. All **104/104**
 Python tests pass; SQLite integrity, foreign-key and 522-page/23,978-row
 extraction checks pass; the 200-profile structural audit passes. Astro

@@ -8,6 +8,7 @@ preview process needlessly increases local test memory use.
 from __future__ import annotations
 
 import argparse
+import os
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -37,8 +38,19 @@ class PagesHandler(SimpleHTTPRequestHandler):
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--port", type=int, default=4321)
+    parser.add_argument(
+        "--directory",
+        type=Path,
+        default=None,
+        help="Static build directory (defaults to BEFORE_OSS_DIST_DIR or site/dist)",
+    )
     args = parser.parse_args()
-    dist = Path(__file__).resolve().parents[1] / "dist"
+    configured_dist = args.directory or os.environ.get("BEFORE_OSS_DIST_DIR")
+    dist = (
+        Path(configured_dist).expanduser().resolve()
+        if configured_dist
+        else Path(__file__).resolve().parents[1] / "dist"
+    )
     if not (dist / "index.html").is_file():
         raise SystemExit("Build the static site before browser tests: npm run build")
     handler = partial(PagesHandler, directory=str(dist))

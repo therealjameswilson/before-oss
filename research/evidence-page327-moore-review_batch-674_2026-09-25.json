@@ -1,0 +1,916 @@
+{
+  "bundle_version": "batch-674-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 674 archival review",
+  "sources": [
+    {
+      "key": "nara-index-b674",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 534-535",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 327, rows 23-46, visually checked",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Full service identifiers remain private and are excluded from public output."
+    },
+    {
+      "key": "army-bulk-b674",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; reviewed bulk record ordinals retained as claim locators",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; exact-name and protected-identifier review for ten indexed people",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "Official bulk data, not a Catalog API response. Protected identifiers, coded occupations, and raw records are excluded from public output; no occupation code was treated as employer evidence."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [],
+  "claims": [
+    {
+      "key": "identity-george-r-moore-b674",
+      "person_id": "059c7686-17e6-5979-9fa9-8f06e6814c7d",
+      "claim_type": "identity",
+      "claim_text": "The indexed George R Moore is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code was not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b674",
+          "support_type": "supports",
+          "locator_override": "PDF page 327, row 23, Pfc, Box 534"
+        },
+        {
+          "source_key": "army-bulk-b674",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 4451402; exact name and nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-james-l-moore-b674",
+      "person_id": "3a6a81a9-77d8-5479-bc1f-32850ae5ae95",
+      "claim_type": "identity",
+      "claim_text": "The indexed James L Moore is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code was not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b674",
+          "support_type": "supports",
+          "locator_override": "PDF page 327, row 27, Pvt, Box 535"
+        },
+        {
+          "source_key": "army-bulk-b674",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 6694762; exact name and nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-h-moore-b674",
+      "person_id": "53508f11-4b44-5eec-8c74-f486f53efb04",
+      "claim_type": "identity",
+      "claim_text": "The indexed John H Moore is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code was not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b674",
+          "support_type": "supports",
+          "locator_override": "PDF page 327, row 30, T-4, Box 535"
+        },
+        {
+          "source_key": "army-bulk-b674",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 3963671; exact name and nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-f-moore-b674",
+      "person_id": "df5091d8-a335-539c-912e-d6f4505af7a2",
+      "claim_type": "identity",
+      "claim_text": "The indexed John F Moore is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code was not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b674",
+          "support_type": "supports",
+          "locator_override": "PDF page 327, row 31, rank blank, Box 535"
+        },
+        {
+          "source_key": "army-bulk-b674",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 680724; exact name and nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-prentis-moore-b674",
+      "person_id": "0faf554e-976b-57ab-9feb-698ea379d2a9",
+      "claim_type": "identity",
+      "claim_text": "The indexed Prentis Moore is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code was not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b674",
+          "support_type": "supports",
+          "locator_override": "PDF page 327, row 36, Pfc, Box 535"
+        },
+        {
+          "source_key": "army-bulk-b674",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 7205384; exact name and nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-price-w-moore-b674",
+      "person_id": "15e4118f-87ff-5070-845a-2796f75f4d3e",
+      "claim_type": "identity",
+      "claim_text": "The indexed Price W Moore is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code was not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b674",
+          "support_type": "supports",
+          "locator_override": "PDF page 327, row 37, Pfc, Box 535"
+        },
+        {
+          "source_key": "army-bulk-b674",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 7558408; exact name and nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-richard-h-moore-b674",
+      "person_id": "27e7d989-9ddb-5025-9f0c-d666f29c55cc",
+      "claim_type": "identity",
+      "claim_text": "The indexed Richard H Moore is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact name and a nonshared protected identifier. The Army record gives private as the entry grade while the OSS index prints Col; this sharp metadata discrepancy is preserved for personnel-file review.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code was not used as employer evidence. The Army record gives private as the entry grade while the OSS index prints Col; this sharp metadata discrepancy is preserved for personnel-file review.",
+      "sources": [
+        {
+          "source_key": "nara-index-b674",
+          "support_type": "supports",
+          "locator_override": "PDF page 327, row 39, Col, Box 535"
+        },
+        {
+          "source_key": "army-bulk-b674",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 2978153; exact name and nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-robert-d-moore-b674",
+      "person_id": "b150101e-1f27-58ac-894a-3e5b0cbb7e23",
+      "claim_type": "identity",
+      "claim_text": "The indexed Robert D Moore is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact name and a nonshared protected identifier. The Army record includes a Jr. suffix absent from the index; the protected identifier controls the identity assessment.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code was not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b674",
+          "support_type": "supports",
+          "locator_override": "PDF page 327, row 43, Pvt, Box 535"
+        },
+        {
+          "source_key": "army-bulk-b674",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 4740692; exact name and nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-ruben-e-moore-b674",
+      "person_id": "989c6c9f-7a6f-5de9-a070-2b27a5a70fdc",
+      "claim_type": "identity",
+      "claim_text": "The indexed Ruben E Moore is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code was not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b674",
+          "support_type": "supports",
+          "locator_override": "PDF page 327, row 45, Pvt, Box 535"
+        },
+        {
+          "source_key": "army-bulk-b674",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 7147834; exact name and nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-russell-c-moore-b674",
+      "person_id": "b3f021ad-1e36-5023-85e3-9c5798a275c9",
+      "claim_type": "identity",
+      "claim_text": "The indexed Russell C Moore is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code was not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b674",
+          "support_type": "supports",
+          "locator_override": "PDF page 327, row 46, Pfc, Box 535"
+        },
+        {
+          "source_key": "army-bulk-b674",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 2608375; exact name and nonshared protected identifier"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "059c7686-17e6-5979-9fa9-8f06e6814c7d",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree between the OSS index and official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 534 for George R Moore's last civilian employer and exact path into OSS.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "cb755cb4-3f05-546d-a755-c88b12fee087",
+      "identity_status": "unresolved",
+      "identity_evidence": "The reviewed online sources did not provide enough identifiers to distinguish this indexed person from namesakes.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 534; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "60c55a5f-5113-53d7-9975-171c616e62ed",
+      "identity_status": "unresolved",
+      "identity_evidence": "The reviewed online sources did not provide enough identifiers to distinguish this indexed person from namesakes.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 535; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f6441819-f535-5f8b-bed4-b9216502ca21",
+      "identity_status": "unresolved",
+      "identity_evidence": "The reviewed online sources did not provide enough identifiers to distinguish this indexed person from namesakes.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 535; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3a6a81a9-77d8-5479-bc1f-32850ae5ae95",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree between the OSS index and official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 535 for James L Moore's last civilian employer and exact path into OSS.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "820e515a-56df-5554-90bf-c5de2e3d0a95",
+      "identity_status": "unresolved",
+      "identity_evidence": "The reviewed online sources did not provide enough identifiers to distinguish this indexed person from namesakes.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 535; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "51af5943-67f7-536a-8529-a7d4cfe7c258",
+      "identity_status": "unresolved",
+      "identity_evidence": "The reviewed online sources did not provide enough identifiers to distinguish this indexed person from namesakes.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 535; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "53508f11-4b44-5eec-8c74-f486f53efb04",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree between the OSS index and official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 535 for John H Moore's last civilian employer and exact path into OSS.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "df5091d8-a335-539c-912e-d6f4505af7a2",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree between the OSS index and official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 535 for John F Moore's last civilian employer and exact path into OSS.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1cc5accc-3991-5803-906d-f6121227b930",
+      "identity_status": "unresolved",
+      "identity_evidence": "The reviewed online sources did not provide enough identifiers to distinguish this indexed person from namesakes.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 535; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "627d49d0-ac16-52d6-a8d2-cf47d19608db",
+      "identity_status": "unresolved",
+      "identity_evidence": "The reviewed online sources did not provide enough identifiers to distinguish this indexed person from namesakes.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 535; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "cd7c88e7-a225-5ff1-a458-3d0f60f13397",
+      "identity_status": "unresolved",
+      "identity_evidence": "The reviewed online sources did not provide enough identifiers to distinguish this indexed person from namesakes.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 535; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "81ff37dd-7a34-5a60-b2a9-1d5d3f3cbc95",
+      "identity_status": "unresolved",
+      "identity_evidence": "The reviewed online sources did not provide enough identifiers to distinguish this indexed person from namesakes.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 535; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0faf554e-976b-57ab-9feb-698ea379d2a9",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree between the OSS index and official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 535 for Prentis Moore's last civilian employer and exact path into OSS.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "15e4118f-87ff-5070-845a-2796f75f4d3e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree between the OSS index and official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 535 for Price W Moore's last civilian employer and exact path into OSS.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "656e2e90-6d8d-593e-b5b4-a391f2154f8e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The reviewed online sources did not provide enough identifiers to distinguish this indexed person from namesakes.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 535; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "27e7d989-9ddb-5025-9f0c-d666f29c55cc",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree between the OSS index and official Army bulk record. The Army record gives private as the entry grade while the OSS index prints Col; this sharp metadata discrepancy is preserved for personnel-file review.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Inspect Box 535 to resolve the entry-grade/index-rank conflict and identify the last civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "75418064-7006-5ab3-9feb-ac7443965ab0",
+      "identity_status": "unresolved",
+      "identity_evidence": "The reviewed online sources did not provide enough identifiers to distinguish this indexed person from namesakes.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 535; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2e6aa050-ccd2-5c55-ace8-5c328d529b4d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The reviewed online sources did not provide enough identifiers to distinguish this indexed person from namesakes.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 535; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "02077cfc-8c2b-5c79-a0cc-d6009c6458e2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The reviewed online sources did not provide enough identifiers to distinguish this indexed person from namesakes.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 535; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b150101e-1f27-58ac-894a-3e5b0cbb7e23",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree between the OSS index and official Army bulk record. The Army record includes a Jr. suffix absent from the index; the protected identifier controls the identity assessment.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 535 for Robert D Moore's last civilian employer and exact path into OSS.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a0fbfcc1-acc9-5fb9-bf8b-48d6bc96effa",
+      "identity_status": "unresolved",
+      "identity_evidence": "The reviewed online sources did not provide enough identifiers to distinguish this indexed person from namesakes.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 535; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "989c6c9f-7a6f-5de9-a070-2b27a5a70fdc",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree between the OSS index and official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 535 for Ruben E Moore's last civilian employer and exact path into OSS.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b3f021ad-1e36-5023-85e3-9c5798a275c9",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree between the OSS index and official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 535 for Russell C Moore's last civilian employer and exact path into OSS.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b674-george-r-moore-reviewed-search",
+      "person_id": "059c7686-17e6-5979-9fa9-8f06e6814c7d",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "George R Moore; Pfc; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_protected_identifier_employment_and_archival",
+      "started_at": "2026-09-25T08:06:30Z",
+      "completed_at": "2026-09-25T09:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Library of Congress discovery items were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official index, a CIA Reading Room domain check, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. Official Army bulk data supplies a high-confidence identity bridge, but its coded occupation was neither published nor used as employer evidence. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence.",
+      "next_action": "Inspect Box 534 for the personnel file and last civilian employer.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-674-v1"
+    },
+    {
+      "key": "b674-hannah-moore-reviewed-search",
+      "person_id": "cb755cb4-3f05-546d-a755-c88b12fee087",
+      "source_adapter": "official_nara_index_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Hannah Moore; Caf-5; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:06:30Z",
+      "completed_at": "2026-09-25T09:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Library of Congress discovery items were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official index, a CIA Reading Room domain check, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. No reliable identity or affiliation bridge was found. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence.",
+      "next_action": "Inspect Box 534 for the personnel file and last civilian employer.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-674-v1"
+    },
+    {
+      "key": "b674-harold-e-moore-reviewed-search",
+      "person_id": "60c55a5f-5113-53d7-9975-171c616e62ed",
+      "source_adapter": "official_nara_index_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Harold E Moore; Lt; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:06:30Z",
+      "completed_at": "2026-09-25T09:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Library of Congress discovery items were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official index, a CIA Reading Room domain check, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. No reliable identity or affiliation bridge was found. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence.",
+      "next_action": "Inspect Box 535 for the personnel file and last civilian employer.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-674-v1"
+    },
+    {
+      "key": "b674-henry-w-moore-reviewed-search",
+      "person_id": "f6441819-f535-5f8b-bed4-b9216502ca21",
+      "source_adapter": "official_nara_index_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Henry W Moore; SP-8; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:06:30Z",
+      "completed_at": "2026-09-25T09:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Library of Congress discovery items were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official index, a CIA Reading Room domain check, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. No reliable identity or affiliation bridge was found. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence.",
+      "next_action": "Inspect Box 535 for the personnel file and last civilian employer.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-674-v1"
+    },
+    {
+      "key": "b674-james-l-moore-reviewed-search",
+      "person_id": "3a6a81a9-77d8-5479-bc1f-32850ae5ae95",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "James L Moore; Pvt; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_protected_identifier_employment_and_archival",
+      "started_at": "2026-09-25T08:06:30Z",
+      "completed_at": "2026-09-25T09:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Library of Congress discovery items were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official index, a CIA Reading Room domain check, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. Official Army bulk data supplies a high-confidence identity bridge, but its coded occupation was neither published nor used as employer evidence. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence.",
+      "next_action": "Inspect Box 535 for the personnel file and last civilian employer.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-674-v1"
+    },
+    {
+      "key": "b674-james-w-moore-reviewed-search",
+      "person_id": "820e515a-56df-5554-90bf-c5de2e3d0a95",
+      "source_adapter": "official_nara_index_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "James W Moore; CIV; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:06:30Z",
+      "completed_at": "2026-09-25T09:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Library of Congress discovery items were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official index, a CIA Reading Room domain check, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. No reliable identity or affiliation bridge was found. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence.",
+      "next_action": "Inspect Box 535 for the personnel file and last civilian employer.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-674-v1"
+    },
+    {
+      "key": "b674-john-r-moore-reviewed-search",
+      "person_id": "51af5943-67f7-536a-8529-a7d4cfe7c258",
+      "source_adapter": "official_nara_index_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "John R Moore; Sgt; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:06:30Z",
+      "completed_at": "2026-09-25T09:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Library of Congress discovery items were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official index, a CIA Reading Room domain check, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. No reliable identity or affiliation bridge was found. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence.",
+      "next_action": "Inspect Box 535 for the personnel file and last civilian employer.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-674-v1"
+    },
+    {
+      "key": "b674-john-h-moore-reviewed-search",
+      "person_id": "53508f11-4b44-5eec-8c74-f486f53efb04",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "John H Moore; T-4; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_protected_identifier_employment_and_archival",
+      "started_at": "2026-09-25T08:06:30Z",
+      "completed_at": "2026-09-25T09:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Library of Congress discovery items were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official index, a CIA Reading Room domain check, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. Official Army bulk data supplies a high-confidence identity bridge, but its coded occupation was neither published nor used as employer evidence. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence.",
+      "next_action": "Inspect Box 535 for the personnel file and last civilian employer.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-674-v1"
+    },
+    {
+      "key": "b674-john-f-moore-reviewed-search",
+      "person_id": "df5091d8-a335-539c-912e-d6f4505af7a2",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "John F Moore; rank blank; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_protected_identifier_employment_and_archival",
+      "started_at": "2026-09-25T08:06:30Z",
+      "completed_at": "2026-09-25T09:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Library of Congress discovery items were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official index, a CIA Reading Room domain check, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. Official Army bulk data supplies a high-confidence identity bridge, but its coded occupation was neither published nor used as employer evidence. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence.",
+      "next_action": "Inspect Box 535 for the personnel file and last civilian employer.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-674-v1"
+    },
+    {
+      "key": "b674-justine-moore-reviewed-search",
+      "person_id": "1cc5accc-3991-5803-906d-f6121227b930",
+      "source_adapter": "official_nara_index_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Justine Moore; Caf-3; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:06:30Z",
+      "completed_at": "2026-09-25T09:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": null,
+      "research_notes": "The minimum staged protocol covered the official index, a CIA Reading Room domain check, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. No reliable identity or affiliation bridge was found. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence.",
+      "next_action": "Inspect Box 535 for the personnel file and last civilian employer.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-674-v1"
+    },
+    {
+      "key": "b674-margeret-a-moore-reviewed-search",
+      "person_id": "627d49d0-ac16-52d6-a8d2-cf47d19608db",
+      "source_adapter": "official_nara_index_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Margeret A Moore; Caf-5; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:06:30Z",
+      "completed_at": "2026-09-25T09:05:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": null,
+      "research_notes": "The minimum staged protocol covered the official index, a CIA Reading Room domain check, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. No reliable identity or affiliation bridge was found. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence.",
+      "next_action": "Inspect Box 535 for the personnel file and last civilian employer.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-674-v1"
+    },
+    {
+      "key": "b674-milton-moore-reviewed-search",
+      "person_id": "cd7c88e7-a225-5ff1-a458-3d0f60f13397",
+      "source_adapter": "official_nara_index_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Milton Moore; Capt; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:06:30Z",
+      "completed_at": "2026-09-25T09:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Library of Congress discovery items were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge. A namesake American ex-prisoner-of-war biography and the silent-film cinematographer lack protected-identifier or OSS bridges.",
+      "research_notes": "The minimum staged protocol covered the official index, a CIA Reading Room domain check, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. No reliable identity or affiliation bridge was found. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence.",
+      "next_action": "Inspect Box 535 for the personnel file and last civilian employer.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-674-v1"
+    },
+    {
+      "key": "b674-phyllis-y-moore-reviewed-search",
+      "person_id": "81ff37dd-7a34-5a60-b2a9-1d5d3f3cbc95",
+      "source_adapter": "official_nara_index_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Phyllis Y Moore; Caf-3; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:06:30Z",
+      "completed_at": "2026-09-25T09:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The surfaced Phyllis Y. Moore legal and people-directory results are decades postwar and provide no OSS bridge.",
+      "research_notes": "The minimum staged protocol covered the official index, a CIA Reading Room domain check, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. No reliable identity or affiliation bridge was found. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence.",
+      "next_action": "Inspect Box 535 for the personnel file and last civilian employer.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-674-v1"
+    },
+    {
+      "key": "b674-prentis-moore-reviewed-search",
+      "person_id": "0faf554e-976b-57ab-9feb-698ea379d2a9",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Prentis Moore; Pfc; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_protected_identifier_employment_and_archival",
+      "started_at": "2026-09-25T08:06:30Z",
+      "completed_at": "2026-09-25T09:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Modern and postwar Prentis Moore results cannot establish this wartime identity.",
+      "research_notes": "The minimum staged protocol covered the official index, a CIA Reading Room domain check, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. Official Army bulk data supplies a high-confidence identity bridge, but its coded occupation was neither published nor used as employer evidence. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence.",
+      "next_action": "Inspect Box 535 for the personnel file and last civilian employer.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-674-v1"
+    },
+    {
+      "key": "b674-price-w-moore-reviewed-search",
+      "person_id": "15e4118f-87ff-5070-845a-2796f75f4d3e",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Price W Moore; Pfc; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_protected_identifier_employment_and_archival",
+      "started_at": "2026-09-25T08:06:30Z",
+      "completed_at": "2026-09-25T09:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Library of Congress discovery items were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official index, a CIA Reading Room domain check, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. Official Army bulk data supplies a high-confidence identity bridge, but its coded occupation was neither published nor used as employer evidence. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence.",
+      "next_action": "Inspect Box 535 for the personnel file and last civilian employer.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-674-v1"
+    },
+    {
+      "key": "b674-raymond-e-moore-reviewed-search",
+      "person_id": "656e2e90-6d8d-593e-b5b4-a391f2154f8e",
+      "source_adapter": "official_nara_index_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Raymond E Moore; Capt; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:06:30Z",
+      "completed_at": "2026-09-25T09:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Library of Congress discovery items were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official index, a CIA Reading Room domain check, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. No reliable identity or affiliation bridge was found. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence.",
+      "next_action": "Inspect Box 535 for the personnel file and last civilian employer.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-674-v1"
+    },
+    {
+      "key": "b674-richard-h-moore-reviewed-search",
+      "person_id": "27e7d989-9ddb-5025-9f0c-d666f29c55cc",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Richard H Moore; Col; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_protected_identifier_employment_and_archival",
+      "started_at": "2026-09-25T08:06:30Z",
+      "completed_at": "2026-09-25T09:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Library of Congress discovery items were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official index, a CIA Reading Room domain check, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. Official Army bulk data supplies a high-confidence identity bridge, but its coded occupation was neither published nor used as employer evidence. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence.",
+      "next_action": "Inspect Box 535 for the personnel file and last civilian employer.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-674-v1"
+    },
+    {
+      "key": "b674-robert-j-moore-reviewed-search",
+      "person_id": "75418064-7006-5ab3-9feb-ac7443965ab0",
+      "source_adapter": "official_nara_index_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Robert J Moore; rank blank; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:06:30Z",
+      "completed_at": "2026-09-25T09:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Library of Congress discovery items were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official index, a CIA Reading Room domain check, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. No reliable identity or affiliation bridge was found. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence.",
+      "next_action": "Inspect Box 535 for the personnel file and last civilian employer.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-674-v1"
+    },
+    {
+      "key": "b674-robert-k-moore-reviewed-search",
+      "person_id": "2e6aa050-ccd2-5c55-ace8-5c328d529b4d",
+      "source_adapter": "official_nara_index_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Robert K Moore; Lt; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:06:30Z",
+      "completed_at": "2026-09-25T09:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Library of Congress discovery items were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official index, a CIA Reading Room domain check, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. No reliable identity or affiliation bridge was found. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence.",
+      "next_action": "Inspect Box 535 for the personnel file and last civilian employer.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-674-v1"
+    },
+    {
+      "key": "b674-robert-b-moore-reviewed-search",
+      "person_id": "02077cfc-8c2b-5c79-a0cc-d6009c6458e2",
+      "source_adapter": "official_nara_index_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Robert B Moore; Lt Col; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:06:30Z",
+      "completed_at": "2026-09-25T09:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Library of Congress discovery items were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official index, a CIA Reading Room domain check, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. No reliable identity or affiliation bridge was found. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence.",
+      "next_action": "Inspect Box 535 for the personnel file and last civilian employer.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-674-v1"
+    },
+    {
+      "key": "b674-robert-d-moore-reviewed-search",
+      "person_id": "b150101e-1f27-58ac-894a-3e5b0cbb7e23",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Robert D Moore; Pvt; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_protected_identifier_employment_and_archival",
+      "started_at": "2026-09-25T08:06:30Z",
+      "completed_at": "2026-09-25T09:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Library of Congress discovery items were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official index, a CIA Reading Room domain check, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. Official Army bulk data supplies a high-confidence identity bridge, but its coded occupation was neither published nor used as employer evidence. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence.",
+      "next_action": "Inspect Box 535 for the personnel file and last civilian employer.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-674-v1"
+    },
+    {
+      "key": "b674-roy-d-moore-reviewed-search",
+      "person_id": "a0fbfcc1-acc9-5fb9-bf8b-48d6bc96effa",
+      "source_adapter": "official_nara_index_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Roy D Moore; Cpl; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:06:30Z",
+      "completed_at": "2026-09-25T09:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Library of Congress discovery items were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge. The coach Roy Douglas Moore was described as an Army radar lieutenant, which conflicts with the indexed corporal context and lacks an identifier bridge.",
+      "research_notes": "The minimum staged protocol covered the official index, a CIA Reading Room domain check, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. No reliable identity or affiliation bridge was found. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence.",
+      "next_action": "Inspect Box 535 for the personnel file and last civilian employer.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-674-v1"
+    },
+    {
+      "key": "b674-ruben-e-moore-reviewed-search",
+      "person_id": "989c6c9f-7a6f-5de9-a070-2b27a5a70fdc",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Ruben E Moore; Pvt; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_protected_identifier_employment_and_archival",
+      "started_at": "2026-09-25T08:06:30Z",
+      "completed_at": "2026-09-25T09:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": null,
+      "research_notes": "The minimum staged protocol covered the official index, a CIA Reading Room domain check, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. Official Army bulk data supplies a high-confidence identity bridge, but its coded occupation was neither published nor used as employer evidence. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence.",
+      "next_action": "Inspect Box 535 for the personnel file and last civilian employer.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-674-v1"
+    },
+    {
+      "key": "b674-russell-c-moore-reviewed-search",
+      "person_id": "b3f021ad-1e36-5023-85e3-9c5798a275c9",
+      "source_adapter": "official_nara_index_army_bulk_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Russell C Moore; Pfc; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_protected_identifier_employment_and_archival",
+      "started_at": "2026-09-25T08:06:30Z",
+      "completed_at": "2026-09-25T09:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Library of Congress discovery items were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official index, a CIA Reading Room domain check, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. Official Army bulk data supplies a high-confidence identity bridge, but its coded occupation was neither published nor used as employer evidence. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence.",
+      "next_action": "Inspect Box 535 for the personnel file and last civilian employer.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-674-v1"
+    }
+  ]
+}

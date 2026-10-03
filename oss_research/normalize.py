@@ -208,6 +208,11 @@ def normalize_rank(value: str | None) -> str | None:
     normalized = SPACE_RE.sub(" ", normalized).strip()
     normalized = normalized.replace("1STLT", "1ST LT").replace("2NDLT", "2ND LT")
     normalized = normalized.replace("LTCOL", "LT COL")
+    # The source index uses the uncommon printed abbreviation ``Cpt`` twice.
+    # Preserve that spelling in ``rank_raw`` while normalizing it to the same
+    # Army captain form used by the index's many ``Capt`` rows.
+    if normalized == "CPT":
+        normalized = "CAPT"
     normalized = re.sub(r"^([SMT])-SGT$", r"\1/SGT", normalized)
     normalized = re.sub(r"^TEC-([345])$", r"TEC \1", normalized)
     normalized = re.sub(r"^S([123])\s+C$", r"S \1/C", normalized)

@@ -1,0 +1,378 @@
+{
+  "bundle_version": "batch-671-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 671 archival review",
+  "sources": [
+    {
+      "key": "nara-index-b671",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 533-534",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 326, rows 24-45, visually checked; comparison rows on pages 323 and 332",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 22 printed rows remain separate. Full service identifiers remain private and are excluded from public output."
+    },
+    {
+      "key": "army-bulk-b671",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; fixed-width name and protected-identifier review for Batch 671",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "Official bulk data, not a Catalog API response. Protected identifiers, occupation codes, and raw records are excluded from public output; coded occupations were not treated as employers."
+    },
+    {
+      "key": "robert-montgomery-infiltration-table-b671",
+      "stable_url": "https://polejeanmoulin.com/resources/infiltrations_en_france.pdf",
+      "title": "Historique 2ieme GM infiltrations en France",
+      "author_creator": "Pierre Tillet",
+      "repository_publisher": "Pôle Jean Moulin",
+      "publication_record_date": "2017-12-31 revision",
+      "locator": "17 August 1944 entries for Jedburgh Team Tony; source table cites NARA M1623, TNA, mission reports, and Carpetbaggers records",
+      "access_date": "2026-09-25",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "World War II infiltration chronology",
+      "rights_notes": "Project-authored paraphrase only. The compilation is used for identity corroboration, not for a pre-OSS employer claim."
+    },
+    {
+      "key": "oss-journal-tony-monti-b671",
+      "source_id": "34a99ec1-e171-542f-8daf-2a194094b3af",
+      "stable_url": "https://www.ossreborn.com/files/OSS_Sum10_Final.pdf",
+      "title": "The OSS's Eighth Army Detachment in Italy: A Few Men and Their Radio",
+      "author_creator": "Robert Young",
+      "repository_publisher": "The OSS Society Journal",
+      "publication_record_date": "2010",
+      "locator": "Summer/Fall 2010, pages 29-33; list of detachment members on page 30",
+      "access_date": "2026-09-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The OSS Society Journal",
+      "rights_notes": "The article reports extensive interviews and review of OSS operational reports. Only short excerpts and project-authored paraphrases are retained."
+    },
+    {
+      "key": "805th-roster-montouri-b671",
+      "stable_url": "https://www.tankdestroyer.net/images/stories/ArticlePDFs2/805th_TD_roster_poss_1_Feb_1943_-_2.pdf",
+      "title": "805th Tank Destroyer Battalion roster",
+      "author_creator": "805th Tank Destroyer Battalion; exact compiler unknown",
+      "repository_publisher": "TankDestroyer.net Newton Collection",
+      "publication_record_date": "circa 1943-02-01",
+      "locator": "PDF page 17, printed page 15, Company C roster",
+      "access_date": "2026-09-25",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "Newton Collection",
+      "rights_notes": "A scan of a contemporaneous typewritten roster was visually reviewed. Hosting provenance and exact compilation date remain uncertain."
+    },
+    {
+      "key": "vanderbilt-binkley-mook-b671",
+      "stable_url": "https://collections.library.vanderbilt.edu/repositories/2/resources/1221",
+      "archival_identifier": "William Campbell Binkley Papers, MOOK correspondence entries",
+      "title": "Collection: William Campbell Binkley Papers",
+      "author_creator": "Vanderbilt University Special Collections and University Archives",
+      "repository_publisher": "Vanderbilt University Libraries",
+      "publication_record_date": "Finding aid, current online edition",
+      "locator": "Name index: MOOK, Maurice A. (American University), two items dated 1942 and 1943",
+      "access_date": "2026-09-25",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "William Campbell Binkley Papers",
+      "rights_notes": "The finding aid establishes a dated institutional association but not a job title or its sequence relative to OSS."
+    },
+    {
+      "key": "mook-amish-article-b671",
+      "stable_url": "https://www.beachyam.org/librarybooks/Beachy%281954%29_Amish.pdf",
+      "title": "The Amish Community at Atlantic, Pennsylvania",
+      "author_creator": "Maurice A. Mook",
+      "repository_publisher": "The Mennonite Quarterly Review; digital copy hosted by BeachyAM.org",
+      "publication_record_date": "1954",
+      "locator": "Page 292 author note",
+      "access_date": "2026-09-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Mennonite Quarterly Review",
+      "rights_notes": "The author note documents Mook's later anthropology post only; it is not back-projected into the pre-OSS period."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [],
+  "claims": [
+    {
+      "key": "identity-anthony-monti-b671",
+      "person_id": "7fd2057d-60ab-50e3-8342-519c50c99c16",
+      "claim_type": "identity",
+      "claim_text": "The indexed Anthony Monti is a high-confidence match to the official Army enlistment record.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact full name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "Wartime identity evidence only; no employer or predecessor chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army coded occupation data remain private and are not translated into an employer claim.",
+      "sources": [
+        {"source_key":"nara-index-b671","support_type":"supports","locator_override":"PDF page 326, row 34, S/Sgt, Box 533"},
+        {"source_key":"army-bulk-b671","support_type":"supports","locator_override":"Exact Army name and nonshared protected-identifier match"}
+      ]
+    },
+    {
+      "key": "identity-john-j-montouri-b671",
+      "person_id": "36c403f0-8319-5845-8122-c7c7757374d9",
+      "claim_type": "identity",
+      "claim_text": "The indexed John J. Montouri is probably the Bradford, Pennsylvania soldier listed in the 805th Tank Destroyer Battalion roster.",
+      "evidence_excerpt": "Pfc. John J. Montouri — Co. C — R.F.D. #2, Bradford, Pa.",
+      "evidence_paraphrase": "A contemporaneous-looking roster gives the rare exact spelling and full initials, while the index later lists the same name as a staff sergeant.",
+      "identity_match_assessment": "Probable because the rare exact name, Army context, and plausible rank progression agree, but no protected identifier or personnel-file link is available.",
+      "temporal_assessment": "The roster is wartime evidence; its exact date and whether the assignment preceded OSS remain uncertain.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The roster is identity evidence only. Company C is not classified as the immediate pre-OSS assignment without a transition date.",
+      "sources": [
+        {"source_key":"nara-index-b671","support_type":"supports","locator_override":"PDF page 326, row 39, S/Sgt, Box 533"},
+        {"source_key":"805th-roster-montouri-b671","support_type":"supports","locator_override":"PDF page 17, printed page 15"}
+      ]
+    },
+    {
+      "key": "identity-john-u-montuori-conflict-b671",
+      "person_id": "a53f879d-66ef-54b8-be76-ea00b48e775d",
+      "claim_type": "identity",
+      "claim_text": "John U. Montuori's Army identity remains conflicting because the official Army record gives middle initial J.",
+      "evidence_paraphrase": "The protected identifier agrees, but the index prints John U. Montuori and the Army record prints John J. Montuori.",
+      "identity_match_assessment": "Conflicting. A protected-identifier agreement cannot silently erase a middle-initial disagreement involving another similarly named index person.",
+      "temporal_assessment": "Identity conflict only; no employment chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The Box 534 personnel file must resolve whether U, J, or another transcription is correct.",
+      "sources": [
+        {"source_key":"nara-index-b671","support_type":"supports","locator_override":"PDF page 326, row 42, S/Sgt, Box 534"},
+        {"source_key":"army-bulk-b671","support_type":"contradicts","locator_override":"Protected identifier agrees; middle initial differs"}
+      ]
+    },
+    {
+      "key": "identity-johnnie-l-montgomery-b671",
+      "person_id": "f993e747-94d1-5378-9548-93c06d6528c1",
+      "claim_type": "identity",
+      "claim_text": "The indexed Johnnie L. Montgomery is a high-confidence match to the official Army enlistment record.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact full name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "Wartime identity evidence only; no employer or predecessor chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army coded occupation data remain private and are not translated into an employer claim.",
+      "sources": [
+        {"source_key":"nara-index-b671","support_type":"supports","locator_override":"PDF page 326, row 26, T-5, Box 533"},
+        {"source_key":"army-bulk-b671","support_type":"supports","locator_override":"Exact Army name and nonshared protected-identifier match"}
+      ]
+    },
+    {
+      "key": "identity-joseph-a-montgomery-b671",
+      "person_id": "8feae46c-6bdc-54ea-80fc-21ee369d02bc",
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph A. Montgomery is a high-confidence match to the official Army enlistment record.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact full name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "Wartime identity evidence only; no employer or predecessor chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army coded occupation data remain private and are not translated into an employer claim.",
+      "sources": [
+        {"source_key":"nara-index-b671","support_type":"supports","locator_override":"PDF page 326, row 27, Cpl, Box 533"},
+        {"source_key":"army-bulk-b671","support_type":"supports","locator_override":"Exact Army name and nonshared protected-identifier match"}
+      ]
+    },
+    {
+      "key": "identity-laro-montland-conflict-b671",
+      "person_id": "29378f72-0b0c-5e48-9bec-7c2d1170e86e",
+      "claim_type": "identity",
+      "claim_text": "Laro Montland's identity remains conflicting because the same protected identifier is attached to Lars Motland elsewhere in the index.",
+      "evidence_paraphrase": "The page-326 row prints Laro Montland, the Army record prints Lars Motland, and page 332 separately indexes Lars Motland.",
+      "identity_match_assessment": "Conflicting. The name disagreement and two separately printed index rows prohibit an automatic merge.",
+      "temporal_assessment": "Identity conflict only; no employment chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Both source rows remain recoverable. Compare Boxes 533 and 542 before resolving the cluster.",
+      "sources": [
+        {"source_key":"nara-index-b671","support_type":"supports","locator_override":"PDF page 326, row 37, and page 332, row 14"},
+        {"source_key":"army-bulk-b671","support_type":"context_only","locator_override":"Army record prints Lars Motland; protected identifier is shared by two index rows"}
+      ]
+    },
+    {
+      "key": "identity-lawrence-h-moon-b671",
+      "person_id": "998e5351-d2aa-5b9c-a144-a0c516de9a5c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Lawrence H. Moon is a high-confidence match to the official Army enlistment record.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact full name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "Wartime identity evidence only; no employer or predecessor chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army coded occupation data remain private and are not translated into an employer claim.",
+      "sources": [
+        {"source_key":"nara-index-b671","support_type":"supports","locator_override":"PDF page 326, row 45, Cpl, Box 534"},
+        {"source_key":"army-bulk-b671","support_type":"supports","locator_override":"Exact Army name and nonshared protected-identifier match"}
+      ]
+    },
+    {
+      "key": "identity-maurice-a-mook-b671",
+      "person_id": "3caab889-743e-5259-ada3-321acc459372",
+      "claim_type": "identity",
+      "claim_text": "The indexed Maurice A. Mook is probably the scholar associated with American University in 1942-1943 and later documented as an anthropologist.",
+      "evidence_paraphrase": "A university finding aid and a scholarly author note repeat the rare exact name and document a coherent academic career.",
+      "identity_match_assessment": "Probable because the exact uncommon name recurs in reputable institutional and scholarly sources, but none explicitly links the scholar to the OSS personnel file.",
+      "temporal_assessment": "The 1942-1943 American University association overlaps the OSS era but is not proven to precede OSS; the 1954 anthropology post is later context only.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employer, job title, or immediate sequence is inferred from the finding-aid label. Box 534 remains necessary.",
+      "sources": [
+        {"source_key":"nara-index-b671","support_type":"supports","locator_override":"PDF page 326, row 43, Box 534"},
+        {"source_key":"vanderbilt-binkley-mook-b671","support_type":"supports","locator_override":"MOOK, Maurice A. (American University), 1942 and 1943"},
+        {"source_key":"mook-amish-article-b671","support_type":"context_only","locator_override":"Page 292 author note"}
+      ]
+    },
+    {
+      "key": "identity-ralph-a-monton-conflict-b671",
+      "person_id": "fd9fdd87-52ca-5b6d-8055-e8d26f87ef64",
+      "claim_type": "identity",
+      "claim_text": "Ralph A. Monton's identity remains conflicting because the same protected identifier is attached to Ralph A. Minton elsewhere in the index.",
+      "evidence_paraphrase": "The page-326 row prints Ralph A. Monton, the Army record prints Ralph A. Minton, and page 323 separately indexes Ralph A. Minton.",
+      "identity_match_assessment": "Conflicting. The name disagreement and two separately printed index rows prohibit an automatic merge.",
+      "temporal_assessment": "Identity conflict only; no employment chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Both source rows remain recoverable. Compare Boxes 528 and 533 before resolving the cluster.",
+      "sources": [
+        {"source_key":"nara-index-b671","support_type":"supports","locator_override":"PDF page 326, row 38, and page 323, row 30"},
+        {"source_key":"army-bulk-b671","support_type":"context_only","locator_override":"Army record prints Ralph A. Minton; protected identifier is shared by two index rows"}
+      ]
+    },
+    {
+      "key": "identity-robert-k-montgomery-b671",
+      "person_id": "f41578e0-b0ed-505b-8518-b246b5b5cb79",
+      "claim_type": "identity",
+      "claim_text": "The indexed Major Robert K. Montgomery is a high-confidence match to the Jedburgh Team Tony officer code-named Dollar.",
+      "evidence_excerpt": "Equipe Jedburgh Tony (Maj Robert K Montgomery alias Dollar",
+      "evidence_paraphrase": "The index and a mission chronology agree in the exact full name, major rank, and OSS/SOE Jedburgh context.",
+      "identity_match_assessment": "High confidence because exact name, rank, and an unusually specific wartime mission identity agree across the official index and a cited archival chronology.",
+      "temporal_assessment": "This establishes an OSS operational identity in August 1944, not a pre-OSS employer or predecessor assignment.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The cited table points to mission records but no pre-OSS affiliation. Box 533 remains necessary for the central research question.",
+      "sources": [
+        {"source_key":"nara-index-b671","support_type":"supports","locator_override":"PDF page 326, row 33, Maj, Box 533"},
+        {"source_key":"robert-montgomery-infiltration-table-b671","support_type":"supports","locator_override":"17 August 1944, Jedburgh Team Tony entries"}
+      ]
+    },
+    {
+      "key": "identity-steve-g-monti-b671",
+      "person_id": "2abb802a-153f-5c90-b659-1cc366c04017",
+      "claim_type": "identity",
+      "claim_text": "The indexed Steve G. Monti is a high-confidence match to the official Army enlistment record.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact full name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "Wartime identity evidence only; no employer or predecessor chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army coded occupation data remain private and are not translated into an employer claim.",
+      "sources": [
+        {"source_key":"nara-index-b671","support_type":"supports","locator_override":"PDF page 326, row 35, Pfc, Box 533"},
+        {"source_key":"army-bulk-b671","support_type":"supports","locator_override":"Exact Army name and nonshared protected-identifier match"}
+      ]
+    },
+    {
+      "key": "identity-tony-monti-b671",
+      "person_id": "04f7ff3b-f7c9-5347-8f97-b18fd4989453",
+      "claim_type": "identity",
+      "claim_text": "The indexed Tony Monti is probably the New Mexico member of the OSS Eighth Army Detachment documented in Italy.",
+      "evidence_excerpt": "Tony Monti from New Mexico",
+      "evidence_paraphrase": "An interview-based OSS Society history names Tony Monti from New Mexico among the detachment's personnel.",
+      "identity_match_assessment": "Probable because the exact distinctive name and explicit OSS context agree, but the index supplies no rank or protected identifier for an independent bridge.",
+      "temporal_assessment": "The source establishes wartime OSS participation but identifies no pre-OSS employer or assignment.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The unrelated 1936-1937 Minnesota newsboy was rejected; no prior employment is inferred.",
+      "sources": [
+        {"source_key":"nara-index-b671","support_type":"supports","locator_override":"PDF page 326, row 36, Box 533"},
+        {"source_key":"oss-journal-tony-monti-b671","support_type":"supports","locator_override":"Page 30 detachment list"}
+      ]
+    },
+    {
+      "key": "identity-victor-s-montrezza-conflict-b671",
+      "person_id": "d2075f4b-673a-593f-b715-09c17fcd8550",
+      "claim_type": "identity",
+      "claim_text": "Victor S. Montrezza's official Army identity remains conflicting because the protected identifier retrieves two records under different, nonmatching names.",
+      "evidence_paraphrase": "Neither Army name agrees with Victor S. Montrezza, so the apparent identifier matches cannot be accepted.",
+      "identity_match_assessment": "Conflicting. Two nonmatching Army names attached to the indexed identifier require direct personnel-file review.",
+      "temporal_assessment": "Identity conflict only; no employment chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The rejected Army candidates are preserved in the private review record; Box 534 must resolve the identifier problem.",
+      "sources": [
+        {"source_key":"nara-index-b671","support_type":"supports","locator_override":"PDF page 326, row 41, Sgt, Box 534"},
+        {"source_key":"army-bulk-b671","support_type":"contradicts","locator_override":"Two retrieved Army names do not match the indexed name"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {"person_id":"7fd2057d-60ab-50e3-8342-519c50c99c16","identity_status":"high_confidence","identity_evidence":"The index and official Army bulk record agree in exact full name and a nonshared protected identifier.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 533 for a named predecessor affiliation; do not infer one from Army coded occupation data.","archival_review_priority":"high"},
+    {"person_id":"de2b11d7-e3a6-5b6c-91c3-fc576b01d738","identity_status":"unresolved","identity_evidence":"Exact-name OSS, CIA-domain, LoC, employment, occupation, obituary, institutional, and directory searches supplied no reliable identity or predecessor-affiliation bridge.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect the CAF-4 file in Box 534 for full identity and prior employer or office.","archival_review_priority":"critical"},
+    {"person_id":"8793c41e-49fb-56b6-849b-6628c2b0e120","identity_status":"unresolved","identity_evidence":"The common name and lieutenant rank did not produce a source with sufficient identifiers to select a namesake or identify a pre-OSS affiliation.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect the lieutenant file in Box 534 for identifiers and predecessor assignment or employer.","archival_review_priority":"critical"},
+    {"person_id":"b9976367-d47a-529d-b5ca-f8432224e93f","identity_status":"unresolved","identity_evidence":"Five LoC candidates were irrelevant or unsupported, and targeted official, OSS, employment, obituary, institutional, and directory searches found no reliable identity bridge.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect the P-7 file in Box 533 for full identity and predecessor affiliation.","archival_review_priority":"critical"},
+    {"person_id":"2569020e-4190-5df0-8459-e2217d8bd038","identity_status":"unresolved","identity_evidence":"Exact-name and meaningful-variant searches found no reliable OSS identity or pre-OSS affiliation bridge.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 533 for full identity and prior employer, institution, or status.","archival_review_priority":"critical"},
+    {"person_id":"36c403f0-8319-5845-8122-c7c7757374d9","identity_status":"probable","identity_evidence":"A wartime 805th Tank Destroyer Battalion roster gives the rare exact name John J. Montouri and Army context, but no protected identifier or dated OSS transition is available.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 533 to confirm the Bradford soldier's identity and determine whether Company C preceded OSS.","archival_review_priority":"critical"},
+    {"person_id":"a53f879d-66ef-54b8-be76-ea00b48e775d","identity_status":"conflicting","identity_evidence":"The protected identifier agrees, but the index prints John U. Montuori while the Army record prints John J. Montuori.","manual_review_required":true,"research_status":"conflicting_sources","next_action":"Inspect Box 534 and compare the similarly named Montouri/Montuori files before accepting a middle initial or identity.","archival_review_priority":"critical"},
+    {"person_id":"f993e747-94d1-5378-9548-93c06d6528c1","identity_status":"high_confidence","identity_evidence":"The index and official Army bulk record agree in exact full name and a nonshared protected identifier.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 533 for a named predecessor affiliation; do not infer one from Army coded occupation data.","archival_review_priority":"high"},
+    {"person_id":"8feae46c-6bdc-54ea-80fc-21ee369d02bc","identity_status":"high_confidence","identity_evidence":"The index and official Army bulk record agree in exact full name and a nonshared protected identifier; the Joseph H. Montgomery newspaper candidate was rejected.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 533 for a named predecessor affiliation; do not infer one from Army coded occupation data.","archival_review_priority":"high"},
+    {"person_id":"8a379e7c-ea3e-5118-a671-fc4700bd02cb","identity_status":"unresolved","identity_evidence":"Two LoC candidates were false matches. A 1928-1930 Cincinnati directory entry for a same-name business proprietor lacks any OSS, location, or archival bridge and remains an unpublished lead.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect the CAF-4 file in Box 533 before assigning any Cincinnati namesake or employer.","archival_review_priority":"critical"},
+    {"person_id":"1f2e69b8-dee3-5f58-87fa-3f0936623a06","identity_status":"unresolved","identity_evidence":"Exact-name and meaningful-variant searches found only later namesakes and no reliable OSS identity or pre-OSS affiliation bridge.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 533 for full identity and prior employer, institution, or status.","archival_review_priority":"critical"},
+    {"person_id":"29378f72-0b0c-5e48-9bec-7c2d1170e86e","identity_status":"conflicting","identity_evidence":"The index prints Laro Montland, the Army record prints Lars Motland, and the protected identifier is shared with a separate Lars Motland index row.","manual_review_required":true,"research_status":"conflicting_sources","next_action":"Compare the Laro Montland file in Box 533 with the Lars Motland file in Box 542; preserve both entities until resolved.","archival_review_priority":"critical"},
+    {"person_id":"998e5351-d2aa-5b9c-a144-a0c516de9a5c","identity_status":"high_confidence","identity_evidence":"The index and official Army bulk record agree in exact full name and a nonshared protected identifier.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 534 for a named predecessor affiliation; do not infer one from Army coded occupation data.","archival_review_priority":"high"},
+    {"person_id":"9ca66033-d81d-5195-9894-9db608db0bcf","identity_status":"unresolved","identity_evidence":"All five LoC candidates were unrelated people, institutions, or geographic references, and targeted searches found no reliable identity or predecessor affiliation.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 533 for full identity and prior employer, institution, or status.","archival_review_priority":"critical"},
+    {"person_id":"3caab889-743e-5259-ada3-321acc459372","identity_status":"probable","identity_evidence":"The rare exact name recurs in an authoritative finding aid for American University correspondence in 1942-1943 and in later scholarly work, but no source explicitly links that scholar to the OSS file.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 534 to confirm the scholar's identity and determine whether American University preceded, overlapped, or followed OSS service.","archival_review_priority":"critical"},
+    {"person_id":"72a38128-a4fa-5f34-8553-cfdc169992c5","identity_status":"unresolved","identity_evidence":"Exact-name OSS, CIA-domain, LoC, employment, occupation, obituary, institutional, and directory searches supplied no reliable identity or predecessor-affiliation bridge.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect the staff-sergeant file in Box 533 for identifiers and predecessor affiliation.","archival_review_priority":"critical"},
+    {"person_id":"fd9fdd87-52ca-5b6d-8055-e8d26f87ef64","identity_status":"conflicting","identity_evidence":"The index prints Ralph A. Monton, the Army record prints Ralph A. Minton, and the protected identifier is shared with a separate Ralph A. Minton index row.","manual_review_required":true,"research_status":"conflicting_sources","next_action":"Compare the Ralph A. Monton file in Box 533 with the Ralph A. Minton file in Box 528; preserve both entities until resolved.","archival_review_priority":"critical"},
+    {"person_id":"f41578e0-b0ed-505b-8518-b246b5b5cb79","identity_status":"high_confidence","identity_evidence":"The exact name, major rank, and unusually specific Jedburgh Team Tony mission identity agree across the NARA index and a chronology citing mission and archival records.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 533 for the immediate pre-OSS assignment and last civilian employer; the Jedburgh evidence is OSS service, not predecessor employment.","archival_review_priority":"high"},
+    {"person_id":"2abb802a-153f-5c90-b659-1cc366c04017","identity_status":"high_confidence","identity_evidence":"The index and official Army bulk record agree in exact full name and a nonshared protected identifier.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 533 for a named predecessor affiliation; do not infer one from Army coded occupation data.","archival_review_priority":"high"},
+    {"person_id":"04f7ff3b-f7c9-5347-8f97-b18fd4989453","identity_status":"probable","identity_evidence":"An interview-based OSS Society history names Tony Monti from New Mexico among the OSS Eighth Army Detachment; the index supplies no rank or protected identifier for independent confirmation.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 533 to confirm the New Mexico identity and identify any predecessor employer or assignment.","archival_review_priority":"critical"},
+    {"person_id":"d2075f4b-673a-593f-b715-09c17fcd8550","identity_status":"conflicting","identity_evidence":"The protected identifier retrieves two official Army records under different names, neither of which agrees with Victor S. Montrezza.","manual_review_required":true,"research_status":"conflicting_sources","next_action":"Inspect Box 534 to resolve the protected-identifier discrepancy before accepting any Army identity or affiliation.","archival_review_priority":"critical"},
+    {"person_id":"2334c107-56e3-5ec0-97d9-cef94c64377c","identity_status":"unresolved","identity_evidence":"Both LoC candidates were unrelated or chronologically impossible, and targeted official, OSS, employment, obituary, institutional, and directory searches found no reliable identity bridge.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect the CPC-4 file in Box 533 for full identity and predecessor affiliation.","archival_review_priority":"critical"}
+  ],
+  "research_attempts": [
+    {"key":"b671-anthony-monti-reviewed-search","person_id":"7fd2057d-60ab-50e3-8342-519c50c99c16","source_adapter":"official_nara_cia_policy_limited_cia_domain_live_loc_army_bulk_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Anthony Monti; S/Sgt; OSS; employer; occupation; protected identifier","query_variant_type":"rare_name_rank_identity_employment_and_archival","started_at":"2026-09-25T10:00:00Z","completed_at":"2026-09-25T12:00:00Z","outcome":"source_reviewed","sources_reviewed":8,"candidate_sources_rejected":0,"research_notes":"The CIA adapter failed closed when robots policy could not be retrieved and was not treated as negative evidence; a targeted public CIA-domain search returned no item. Official Army identity evidence was accepted, while coded occupation remained private and was not treated as employer evidence.","next_action":"Inspect Box 533.","attempt_number":3,"research_agent_version":"before-oss-batch-671-v1"},
+    {"key":"b671-esther-moon-reviewed-search","person_id":"de2b11d7-e3a6-5b6c-91c3-fc576b01d738","source_adapter":"official_nara_cia_domain_live_loc_civilian_grade_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Esther T Moon; CAF-4; OSS; employer; occupation","query_variant_type":"full_name_civilian_grade_identity_employment_and_archival","started_at":"2026-09-25T10:00:00Z","completed_at":"2026-09-25T12:00:00Z","outcome":"no_result","sources_reviewed":6,"candidate_sources_rejected":0,"rejection_reasons":"No result supplied an exact OSS identity, dated employer, occupation, or institutional bridge.","research_notes":"NARA index context, CIA-domain search, live LoC search, exact-name OSS variants, employment/occupation, obituary, institutional, and directory searches were reviewed.","next_action":"Inspect Box 534.","attempt_number":2,"research_agent_version":"before-oss-batch-671-v1"},
+    {"key":"b671-franklin-moon-reviewed-search","person_id":"8793c41e-49fb-56b6-849b-6628c2b0e120","source_adapter":"official_nara_cia_domain_live_loc_military_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Franklin F Moon; Lieutenant; OSS; employer; occupation","query_variant_type":"common_name_rank_identity_employment_and_archival","started_at":"2026-09-25T10:00:00Z","completed_at":"2026-09-25T12:00:00Z","outcome":"no_result","sources_reviewed":7,"candidate_sources_rejected":0,"rejection_reasons":"Searches returned other F. Franklin Moon and Franklin Moon namesakes without a rank, OSS, or archival bridge.","research_notes":"No postwar lawyer, librarian, or other namesake was selected for the indexed lieutenant.","next_action":"Inspect Box 534.","attempt_number":2,"research_agent_version":"before-oss-batch-671-v1"},
+    {"key":"b671-james-montgomery-reviewed-search","person_id":"b9976367-d47a-529d-b5ca-f8432224e93f","source_adapter":"official_nara_cia_domain_live_loc_common_name_civilian_grade_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"James A Montgomery; P-7; OSS; employer; occupation","query_variant_type":"common_name_middle_initial_civilian_grade_identity_employment_and_archival","started_at":"2026-09-25T10:00:00Z","completed_at":"2026-09-25T12:00:00Z","outcome":"candidate_rejected","sources_reviewed":11,"candidate_sources_rejected":5,"rejection_reasons":"LoC candidates were county references, different middle initials, unrelated people, or unsupported page context; other namesakes lacked an OSS bridge.","research_notes":"The common-name corroboration rule was not met.","next_action":"Inspect Box 533.","attempt_number":2,"research_agent_version":"before-oss-batch-671-v1"},
+    {"key":"b671-jeanne-montgomery-reviewed-search","person_id":"2569020e-4190-5df0-8459-e2217d8bd038","source_adapter":"official_nara_cia_domain_live_loc_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Jeanne E Montgomery; OSS; employer; occupation","query_variant_type":"full_name_identity_employment_and_archival","started_at":"2026-09-25T10:00:00Z","completed_at":"2026-09-25T12:00:00Z","outcome":"no_result","sources_reviewed":6,"candidate_sources_rejected":0,"rejection_reasons":"Later and contemporary namesakes supplied no OSS, archival, or pre-OSS employment bridge.","research_notes":"Minimum staged protocol completed; no living or later namesake was selected.","next_action":"Inspect Box 533.","attempt_number":2,"research_agent_version":"before-oss-batch-671-v1"},
+    {"key":"b671-john-j-montouri-reviewed-search","person_id":"36c403f0-8319-5845-8122-c7c7757374d9","source_adapter":"official_nara_cia_domain_live_loc_805th_roster_obituary_institutional_newspaper_directory_and_targeted_web_review","query_text":"John J Montouri; S/Sgt; OSS; Bradford; 805th Tank Destroyer; employer","query_variant_type":"rare_name_rank_military_identity_temporal_and_archival","started_at":"2026-09-25T10:00:00Z","completed_at":"2026-09-25T12:00:00Z","outcome":"source_reviewed","sources_reviewed":8,"candidate_sources_rejected":1,"rejection_reasons":"A Bradford obituary index under the spelling Montuori is only a possible variant and lacks an OSS or protected-identifier bridge.","research_notes":"The scanned roster was visually reviewed and supports a probable identity only. Its date and relationship to OSS remain unproven.","next_action":"Inspect Box 533 and compare the similarly named Montuori file.","attempt_number":2,"research_agent_version":"before-oss-batch-671-v1"},
+    {"key":"b671-john-u-montuori-reviewed-search","person_id":"a53f879d-66ef-54b8-be76-ea00b48e775d","source_adapter":"official_nara_cia_domain_live_loc_army_bulk_middle_initial_conflict_obituary_institutional_newspaper_directory_and_targeted_web_review","query_text":"John U Montuori; John J Montuori; S/Sgt; OSS; employer; protected identifier","query_variant_type":"rare_name_middle_initial_conflict_and_archival","started_at":"2026-09-25T10:00:00Z","completed_at":"2026-09-25T12:00:00Z","outcome":"source_reviewed","sources_reviewed":8,"candidate_sources_rejected":0,"research_notes":"The Army middle-initial disagreement remains conflicting; coded occupation remained private and no employer was inferred.","next_action":"Inspect Box 534 and compare John J. Montouri in Box 533.","attempt_number":2,"research_agent_version":"before-oss-batch-671-v1"},
+    {"key":"b671-johnnie-montgomery-reviewed-search","person_id":"f993e747-94d1-5378-9548-93c06d6528c1","source_adapter":"official_nara_cia_domain_live_loc_army_bulk_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Johnnie L Montgomery; T-5; OSS; employer; occupation; protected identifier","query_variant_type":"full_name_rank_identity_employment_and_archival","started_at":"2026-09-25T10:00:00Z","completed_at":"2026-09-25T12:00:00Z","outcome":"source_reviewed","sources_reviewed":7,"candidate_sources_rejected":1,"rejection_reasons":"Genealogy and later public-record namesakes lacked an OSS or protected-identifier bridge.","research_notes":"Official Army identity evidence accepted; no employer was inferred from coded occupation data.","next_action":"Inspect Box 533.","attempt_number":2,"research_agent_version":"before-oss-batch-671-v1"},
+    {"key":"b671-joseph-montgomery-reviewed-search","person_id":"8feae46c-6bdc-54ea-80fc-21ee369d02bc","source_adapter":"official_nara_cia_domain_live_loc_army_bulk_common_name_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Joseph A Montgomery; Cpl; OSS; employer; occupation; protected identifier","query_variant_type":"common_name_middle_initial_rank_identity_employment_and_archival","started_at":"2026-09-25T10:00:00Z","completed_at":"2026-09-25T12:00:00Z","outcome":"source_reviewed","sources_reviewed":9,"candidate_sources_rejected":1,"rejection_reasons":"The LoC candidate named Joseph H. Montgomery, not Joseph A. Montgomery; obituary results lacked an identity bridge.","research_notes":"Official Army identity evidence accepted; coded occupation remained private and was not employer evidence.","next_action":"Inspect Box 533.","attempt_number":2,"research_agent_version":"before-oss-batch-671-v1"},
+    {"key":"b671-julia-montgomery-reviewed-search","person_id":"8a379e7c-ea3e-5118-a671-fc4700bd02cb","source_adapter":"official_nara_cia_domain_live_loc_civilian_grade_city_directory_institutional_newspaper_obituary_and_targeted_web_review","query_text":"Julia G Montgomery; CAF-4; OSS; Cincinnati proprietor; employer; occupation","query_variant_type":"full_name_civilian_grade_namesake_identity_employment_and_archival","started_at":"2026-09-25T10:00:00Z","completed_at":"2026-09-25T12:00:00Z","outcome":"candidate_rejected","sources_reviewed":9,"candidate_sources_rejected":3,"rejection_reasons":"Two LoC pages were false matches; the 1928-1930 Cincinnati proprietor entry has no OSS, location, or archival bridge.","research_notes":"The directory lead remains unpublished and is not treated as the indexed person's employer.","next_action":"Inspect Box 533.","attempt_number":2,"research_agent_version":"before-oss-batch-671-v1"},
+    {"key":"b671-kathleen-montgomery-reviewed-search","person_id":"1f2e69b8-dee3-5f58-87fa-3f0936623a06","source_adapter":"official_nara_cia_domain_live_loc_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Kathleen K Montgomery; OSS; employer; occupation","query_variant_type":"full_name_identity_employment_and_archival","started_at":"2026-09-25T10:00:00Z","completed_at":"2026-09-25T12:00:00Z","outcome":"no_result","sources_reviewed":7,"candidate_sources_rejected":2,"rejection_reasons":"Later teacher-aide and clinical-social-worker namesakes were born too late or lacked any OSS identity bridge.","research_notes":"No modern namesake was back-projected.","next_action":"Inspect Box 533.","attempt_number":2,"research_agent_version":"before-oss-batch-671-v1"},
+    {"key":"b671-laro-montland-reviewed-search","person_id":"29378f72-0b0c-5e48-9bec-7c2d1170e86e","source_adapter":"official_nara_cia_domain_live_loc_army_bulk_shared_identifier_duplicate_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Laro Montland; Lars Motland; OSS; protected identifier; employer","query_variant_type":"rare_name_shared_identifier_conflict_and_archival","started_at":"2026-09-25T10:00:00Z","completed_at":"2026-09-25T12:00:00Z","outcome":"source_reviewed","sources_reviewed":8,"candidate_sources_rejected":0,"research_notes":"The shared-identifier, different-name cluster remains visible and unmerged; Army occupation coding was not treated as employer evidence.","next_action":"Compare Boxes 533 and 542.","attempt_number":2,"research_agent_version":"before-oss-batch-671-v1"},
+    {"key":"b671-lawrence-moon-reviewed-search","person_id":"998e5351-d2aa-5b9c-a144-a0c516de9a5c","source_adapter":"official_nara_cia_domain_live_loc_army_bulk_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Lawrence H Moon; Cpl; OSS; employer; occupation; protected identifier","query_variant_type":"full_name_rank_identity_employment_and_archival","started_at":"2026-09-25T10:00:00Z","completed_at":"2026-09-25T12:00:00Z","outcome":"source_reviewed","sources_reviewed":7,"candidate_sources_rejected":1,"rejection_reasons":"Cemetery and city-directory namesakes supplied no protected-identifier, OSS, or employer bridge.","research_notes":"Official Army identity evidence accepted; coded occupation remained private and was not employer evidence.","next_action":"Inspect Box 534.","attempt_number":2,"research_agent_version":"before-oss-batch-671-v1"},
+    {"key":"b671-mary-montgomery-reviewed-search","person_id":"9ca66033-d81d-5195-9894-9db608db0bcf","source_adapter":"official_nara_cia_domain_live_loc_common_name_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Mary G Montgomery; OSS; employer; occupation","query_variant_type":"common_name_middle_initial_identity_employment_and_archival","started_at":"2026-09-25T10:00:00Z","completed_at":"2026-09-25T12:00:00Z","outcome":"candidate_rejected","sources_reviewed":11,"candidate_sources_rejected":6,"rejection_reasons":"Five LoC candidates and one cemetery/genealogy result were different people, institutions, or generic Montgomery references.","research_notes":"No candidate met the common-name corroboration rule.","next_action":"Inspect Box 533.","attempt_number":2,"research_agent_version":"before-oss-batch-671-v1"},
+    {"key":"b671-maurice-mook-reviewed-search","person_id":"3caab889-743e-5259-ada3-321acc459372","source_adapter":"official_nara_cia_domain_live_loc_vanderbilt_finding_aid_scholarly_institutional_obituary_directory_and_targeted_web_review","query_text":"Maurice A Mook; OSS; American University; anthropology; employer","query_variant_type":"rare_name_institutional_identity_temporal_and_archival","started_at":"2026-09-25T10:00:00Z","completed_at":"2026-09-25T12:00:00Z","outcome":"source_reviewed","sources_reviewed":8,"candidate_sources_rejected":0,"research_notes":"The rare exact name supports a probable scholarly identity. American University is dated 1942-1943 but the finding aid states no role or OSS sequence; the later Penn State anthropology post was not back-projected.","next_action":"Inspect Box 534.","attempt_number":2,"research_agent_version":"before-oss-batch-671-v1"},
+    {"key":"b671-mildred-montgomery-reviewed-search","person_id":"72a38128-a4fa-5f34-8553-cfdc169992c5","source_adapter":"official_nara_cia_domain_live_loc_military_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Mildred E Montgomery; S/Sgt; OSS; employer; occupation","query_variant_type":"full_name_rank_identity_employment_and_archival","started_at":"2026-09-25T10:00:00Z","completed_at":"2026-09-25T12:00:00Z","outcome":"no_result","sources_reviewed":7,"candidate_sources_rejected":1,"rejection_reasons":"A namesake obituary index and directory co-occurrences supplied no rank, OSS, protected-identifier, or employment bridge.","research_notes":"Minimum staged protocol completed.","next_action":"Inspect Box 533.","attempt_number":2,"research_agent_version":"before-oss-batch-671-v1"},
+    {"key":"b671-ralph-monton-reviewed-search","person_id":"fd9fdd87-52ca-5b6d-8055-e8d26f87ef64","source_adapter":"official_nara_cia_domain_live_loc_army_bulk_shared_identifier_duplicate_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Ralph A Monton; Ralph A Minton; OSS; protected identifier; employer","query_variant_type":"rare_name_shared_identifier_conflict_and_archival","started_at":"2026-09-25T10:00:00Z","completed_at":"2026-09-25T12:00:00Z","outcome":"source_reviewed","sources_reviewed":8,"candidate_sources_rejected":0,"research_notes":"The shared-identifier, different-name cluster remains visible and unmerged; Army occupation coding was not treated as employer evidence.","next_action":"Compare Boxes 528 and 533.","attempt_number":2,"research_agent_version":"before-oss-batch-671-v1"},
+    {"key":"b671-robert-montgomery-reviewed-search","person_id":"f41578e0-b0ed-505b-8518-b246b5b5cb79","source_adapter":"official_nara_cia_domain_live_loc_jedburgh_mission_common_name_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Robert K Montgomery; Major; OSS; Jedburgh Tony; Dollar; employer","query_variant_type":"common_name_rank_mission_identity_employment_and_archival","started_at":"2026-09-25T10:00:00Z","completed_at":"2026-09-25T12:00:00Z","outcome":"source_reviewed","sources_reviewed":13,"candidate_sources_rejected":7,"rejection_reasons":"Five LoC candidates and two postwar Robert K/E Montgomery legal-energy results lacked the indexed identity bridge or concerned different initials.","research_notes":"The exact name, rank, codename, and Jedburgh mission establish high-confidence identity; no predecessor affiliation was found.","next_action":"Inspect Box 533.","attempt_number":2,"research_agent_version":"before-oss-batch-671-v1"},
+    {"key":"b671-steve-monti-reviewed-search","person_id":"2abb802a-153f-5c90-b659-1cc366c04017","source_adapter":"official_nara_cia_domain_live_loc_army_bulk_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Steve G Monti; Pfc; OSS; employer; occupation; protected identifier","query_variant_type":"rare_name_rank_identity_employment_and_archival","started_at":"2026-09-25T10:00:00Z","completed_at":"2026-09-25T12:00:00Z","outcome":"source_reviewed","sources_reviewed":7,"candidate_sources_rejected":1,"rejection_reasons":"A later death-index lead lacked an OSS, employer, or protected-identifier bridge and was not used as employment evidence.","research_notes":"Official Army identity evidence accepted; coded occupation remained private and was not employer evidence.","next_action":"Inspect Box 533.","attempt_number":2,"research_agent_version":"before-oss-batch-671-v1"},
+    {"key":"b671-tony-monti-reviewed-search","person_id":"04f7ff3b-f7c9-5347-8f97-b18fd4989453","source_adapter":"official_nara_cia_domain_live_loc_oss_society_interview_newspaper_obituary_institutional_directory_and_targeted_web_review","query_text":"Tony Monti; OSS; Eighth Army Detachment; New Mexico; employer","query_variant_type":"rare_name_oss_unit_identity_employment_and_archival","started_at":"2026-09-25T10:00:00Z","completed_at":"2026-09-25T12:00:00Z","outcome":"source_reviewed","sources_reviewed":10,"candidate_sources_rejected":4,"rejection_reasons":"Two LoC newsboy articles and two modern Italian namesakes supplied no New Mexico OSS or archival bridge.","research_notes":"The OSS Society account supports a probable identity only; it supplies no pre-OSS employer.","next_action":"Inspect Box 533.","attempt_number":2,"research_agent_version":"before-oss-batch-671-v1"},
+    {"key":"b671-victor-montrezza-reviewed-search","person_id":"d2075f4b-673a-593f-b715-09c17fcd8550","source_adapter":"official_nara_cia_domain_live_loc_army_bulk_identifier_conflict_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Victor S Montrezza; Sgt; OSS; Waterbury; employer; protected identifier","query_variant_type":"rare_name_identifier_conflict_and_archival","started_at":"2026-09-25T10:00:00Z","completed_at":"2026-09-25T12:00:00Z","outcome":"candidate_rejected","sources_reviewed":9,"candidate_sources_rejected":3,"rejection_reasons":"Both Army candidates have nonmatching names; a Waterbury death-record lead lacks an OSS, rank, or protected-identifier bridge.","research_notes":"The identifier discrepancy remains explicit and no Army coded occupation was used as employer evidence.","next_action":"Inspect Box 534.","attempt_number":2,"research_agent_version":"before-oss-batch-671-v1"},
+    {"key":"b671-walter-montgomery-reviewed-search","person_id":"2334c107-56e3-5ec0-97d9-cef94c64377c","source_adapter":"official_nara_cia_domain_live_loc_civilian_grade_common_name_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Walter Montgomery; CPC-4; OSS; employer; occupation","query_variant_type":"common_name_civilian_grade_identity_employment_and_archival","started_at":"2026-09-25T10:00:00Z","completed_at":"2026-09-25T12:00:00Z","outcome":"candidate_rejected","sources_reviewed":10,"candidate_sources_rejected":5,"rejection_reasons":"Two LoC hits and multiple textile, insurance, medical, and nineteenth-century namesakes lacked a CPC-4, OSS, or archival bridge.","research_notes":"No prominent namesake was assigned to the index row.","next_action":"Inspect Box 533.","attempt_number":2,"research_agent_version":"before-oss-batch-671-v1"}
+  ]
+}

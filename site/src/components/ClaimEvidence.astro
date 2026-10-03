@@ -25,6 +25,10 @@ const { claim } = Astro.props as { claim: PublicClaim };
         <dt>Temporal assessment</dt>
         <dd>{claim.temporal_assessment}</dd>
       </div>
+      <div>
+        <dt>Research note</dt>
+        <dd>{claim.match_notes}</dd>
+      </div>
     </dl>
   </details>
   <h4>Sources for this claim</h4>

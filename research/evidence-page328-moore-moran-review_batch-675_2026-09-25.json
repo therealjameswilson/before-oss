@@ -1,0 +1,884 @@
+{
+  "bundle_version": "batch-675-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 675 archival review",
+  "sources": [
+    {
+      "key": "nara-index-b675",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 535-536",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 328, rows 1-24, visually checked",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Full service identifiers remain private and are excluded from public output."
+    },
+    {
+      "key": "army-bulk-b675",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; reviewed bulk record ordinals retained as claim locators",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; exact-name and protected-identifier review for seven indexed people",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "Official bulk data, not a Catalog API response. Protected identifiers, coded occupations, and raw records are excluded from public output; no occupation code was treated as employer evidence."
+    },
+    {
+      "key": "nara-entry210-b675",
+      "stable_url": "https://www.archives.gov/iwg/declassified-records/rg-226-oss/entry-210.pdf",
+      "archival_identifier": "RG 226, Entry 210, Box 201, WN#08587",
+      "title": "Records of the Office of Strategic Services (Record Group 226), Entry 210",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "locator": "PDF page 52, Box 201, WN#08587",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Collection-level archival guide; the referenced five-page item requires archival review."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [],
+  "claims": [
+    {
+      "key": "identity-wallace-j-moore-b675",
+      "person_id": "34883c78-0b17-507e-92ee-d688a478de61",
+      "claim_type": "identity",
+      "claim_text": "The indexed Wallace J Moore is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code was not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b675",
+          "support_type": "supports",
+          "locator_override": "PDF page 328, row 2, T-4, Box 535"
+        },
+        {
+          "source_key": "army-bulk-b675",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 1496379; exact name and nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-walter-a-moore-b675",
+      "person_id": "694be9e5-ca0d-51b2-8c94-b9eea9b7c98a",
+      "claim_type": "identity",
+      "claim_text": "The indexed Walter A Moore is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact name and a nonshared protected identifier. The Army record includes a Jr. suffix absent from the index.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code was not used as employer evidence. The Jr. suffix is retained as a documented variant; the Army entry-grade code is preserved without forced interpretation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b675",
+          "support_type": "supports",
+          "locator_override": "PDF page 328, row 3, T-5, Box 536"
+        },
+        {
+          "source_key": "army-bulk-b675",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 5696239; exact name and nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-gordon-a-moote-b675",
+      "person_id": "83b285b4-c6da-566c-b9dc-d0f37376bf5e",
+      "claim_type": "identity",
+      "claim_text": "The indexed Gordon A Moote is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code was not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b675",
+          "support_type": "supports",
+          "locator_override": "PDF page 328, row 12, rank blank, Box 536"
+        },
+        {
+          "source_key": "army-bulk-b675",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 1534706; exact name and nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-domenic-j-morabito-b675",
+      "person_id": "06c27b18-42da-5250-9a3c-be7b91054615",
+      "claim_type": "identity",
+      "claim_text": "The indexed Domenic J Morabito is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code was not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b675",
+          "support_type": "supports",
+          "locator_override": "PDF page 328, row 13, Sgt, Box 536"
+        },
+        {
+          "source_key": "army-bulk-b675",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 617213; exact name and nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-daniel-j-moran-b675",
+      "person_id": "fb606f68-9b21-5079-808e-fe8cb4ca1e2a",
+      "claim_type": "identity",
+      "claim_text": "The indexed Daniel J Moran is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code was not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b675",
+          "support_type": "supports",
+          "locator_override": "PDF page 328, row 21, T-4, Box 536"
+        },
+        {
+          "source_key": "army-bulk-b675",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 1360726; exact name and nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-george-b-moran-b675",
+      "person_id": "85a8e7b1-167f-5232-8b20-5730808c701a",
+      "claim_type": "identity",
+      "claim_text": "The indexed George B Moran is a high-confidence match to the official Army enlistment record reviewed for this batch.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "The Army record establishes wartime military identity but not a pre-service employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded occupation remain private; the occupation code was not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b675",
+          "support_type": "supports",
+          "locator_override": "PDF page 328, row 24, Pfc, Box 536"
+        },
+        {
+          "source_key": "army-bulk-b675",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 3856529; exact name and nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-clarence-moran-b675",
+      "person_id": "2dfd41c8-3312-5d24-9906-87502fca38fe",
+      "claim_type": "identity",
+      "claim_text": "The indexed Clarence Moran is a high-confidence match to the CHSP(P) Clarence Moran documented in the OSS Field Photo Branch.",
+      "evidence_excerpt": "Minutes or Notes on Script Conference Covering Work of CHSP(P) Clarence Moran, Field Photo Branch",
+      "evidence_paraphrase": "The official archival guide names Clarence Moran in the Field Photo Branch and uses a grade abbreviation aligning with the index's distinctive C SP-P entry.",
+      "identity_match_assessment": "High confidence because exact name and the unusually specific grade or position abbreviation agree across the index and an official OSS archival guide.",
+      "temporal_assessment": "This establishes a wartime OSS assignment, not Clarence Moran's pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The five-page WN#08587 item should be reviewed with the Box 536 personnel file before reconstructing any predecessor affiliation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b675",
+          "support_type": "supports",
+          "locator_override": "PDF page 328, row 20, C SP-P, Box 536"
+        },
+        {
+          "source_key": "nara-entry210-b675",
+          "support_type": "supports",
+          "locator_override": "PDF page 52, Box 201, WN#08587"
+        }
+      ]
+    },
+    {
+      "key": "identity-wayne-e-moore-conflict-b675",
+      "person_id": "5b531fb4-ac69-5a3a-bca4-c5b9d8acf619",
+      "claim_type": "identity",
+      "claim_text": "Wayne E Moore's identity remains conflicting because the protected identifier printed in the index retrieves an official Army record under a different name.",
+      "evidence_paraphrase": "The index and Army source agree on the private identifier but disagree completely on the person's name.",
+      "identity_match_assessment": "Conflicting. A protected identifier cannot establish Wayne E Moore's identity when the official Army record names a different person.",
+      "temporal_assessment": "Identity conflict only; no employment chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The Army candidate is rejected as Wayne E Moore. The discrepancy may reflect an index transcription or column-association error and requires Box 536 review.",
+      "sources": [
+        {
+          "source_key": "nara-index-b675",
+          "support_type": "supports",
+          "locator_override": "PDF page 328, row 4, T/Sgt, Box 536"
+        },
+        {
+          "source_key": "army-bulk-b675",
+          "support_type": "contradicts",
+          "locator_override": "Bulk record ordinal 791446; protected identifier agrees but name conflicts"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "6c6d1465-c1bb-5819-a3b0-c3de320e9d76",
+      "manual_review_required": true,
+      "next_action": "Inspect Box 535 for Springs R Moore's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol"
+    },
+    {
+      "person_id": "34883c78-0b17-507e-92ee-d688a478de61",
+      "manual_review_required": true,
+      "next_action": "Inspect Box 535 for Wallace J Moore's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree between the OSS index and official Army bulk record.",
+      "research_status": "requires_archival_review"
+    },
+    {
+      "person_id": "694be9e5-ca0d-51b2-8c94-b9eea9b7c98a",
+      "manual_review_required": true,
+      "next_action": "Inspect Box 536 for Walter A Moore's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree between the OSS index and official Army bulk record. The Army record includes a Jr. suffix absent from the index.",
+      "research_status": "requires_archival_review",
+      "name_variants": [
+        "Walter A Moore Jr",
+        "Moore, Walter A Jr"
+      ]
+    },
+    {
+      "person_id": "5b531fb4-ac69-5a3a-bca4-c5b9d8acf619",
+      "manual_review_required": true,
+      "next_action": "Inspect Box 536 to resolve the printed-identifier conflict before accepting an Army identity or predecessor affiliation for Wayne E Moore.",
+      "archival_review_priority": "critical",
+      "identity_status": "conflicting",
+      "identity_evidence": "The protected identifier printed for Wayne E Moore retrieves an official Army record under a wholly different name; the Army candidate is rejected as Wayne's identity.",
+      "research_status": "conflicting_sources"
+    },
+    {
+      "person_id": "833e896b-4ee4-5279-a3a1-ed071ea82e29",
+      "manual_review_required": true,
+      "next_action": "Inspect Box 536 for William B Moore's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol"
+    },
+    {
+      "person_id": "6e1ea084-e722-5431-b9ed-28cf0f023918",
+      "manual_review_required": true,
+      "next_action": "Inspect Box 536 for William C Moore's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol"
+    },
+    {
+      "person_id": "06ab8ad7-a135-53a3-bf9c-df5ffc0a350f",
+      "manual_review_required": true,
+      "next_action": "Inspect Box 536 for William R Moore's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol"
+    },
+    {
+      "person_id": "71b62b49-026e-5c80-9af2-7053d56f99a4",
+      "manual_review_required": true,
+      "next_action": "Inspect Box 536 for Wilson H Moore's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol"
+    },
+    {
+      "person_id": "1c6d98f2-9a13-5448-a594-3502a97e27c1",
+      "manual_review_required": true,
+      "next_action": "Inspect Box 536 for Ethel H Moorhead's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol"
+    },
+    {
+      "person_id": "8d473190-979f-539e-9e0d-960503420de6",
+      "manual_review_required": true,
+      "next_action": "Inspect Box 536 for Tommie J Moorman's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol"
+    },
+    {
+      "person_id": "66f196e5-b5a5-572c-8f39-7c5ff87118b2",
+      "manual_review_required": true,
+      "next_action": "Inspect Box 536 for Joseph L Moortgat's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol"
+    },
+    {
+      "person_id": "83b285b4-c6da-566c-b9dc-d0f37376bf5e",
+      "manual_review_required": true,
+      "next_action": "Inspect Box 536 for Gordon A Moote's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree between the OSS index and official Army bulk record.",
+      "research_status": "requires_archival_review"
+    },
+    {
+      "person_id": "06c27b18-42da-5250-9a3c-be7b91054615",
+      "manual_review_required": true,
+      "next_action": "Inspect Box 536 for Domenic J Morabito's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree between the OSS index and official Army bulk record.",
+      "research_status": "requires_archival_review"
+    },
+    {
+      "person_id": "ad3d9f60-98ab-576e-8f57-77f0c3ce95f6",
+      "manual_review_required": true,
+      "next_action": "Inspect Box 536 for Edward J Moraghan's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol"
+    },
+    {
+      "person_id": "55c2480c-fb3e-5546-9149-1c9f852576b8",
+      "manual_review_required": true,
+      "next_action": "Inspect Box 536 for Victor M Morales's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol"
+    },
+    {
+      "person_id": "580d34ef-3911-5dba-a493-f137ef4cb85d",
+      "manual_review_required": true,
+      "next_action": "Inspect Box 536 for Alfred B Moran's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol"
+    },
+    {
+      "person_id": "7a15a4ca-9cb2-5fef-8bc0-1ab242aab6c3",
+      "manual_review_required": true,
+      "next_action": "Inspect Box 536 for Avis M Moran's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol"
+    },
+    {
+      "person_id": "48b5cf53-54d6-5da2-8abc-eadb10b5fd69",
+      "manual_review_required": true,
+      "next_action": "Inspect Box 536 for Cecilia A Moran's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol"
+    },
+    {
+      "person_id": "742bea6b-8d99-5e02-b4ea-793a712b3af0",
+      "manual_review_required": true,
+      "next_action": "Inspect Box 536 for Charles Moran's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol"
+    },
+    {
+      "person_id": "2dfd41c8-3312-5d24-9906-87502fca38fe",
+      "manual_review_required": true,
+      "next_action": "Inspect Box 536 for Clarence Moran's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and the distinctive C SP-P or CHSP(P) grade or position abbreviation agree between the OSS index and official RG 226 Entry 210 guide.",
+      "research_status": "requires_archival_review"
+    },
+    {
+      "person_id": "fb606f68-9b21-5079-808e-fe8cb4ca1e2a",
+      "manual_review_required": true,
+      "next_action": "Inspect Box 536 for Daniel J Moran's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree between the OSS index and official Army bulk record.",
+      "research_status": "requires_archival_review"
+    },
+    {
+      "person_id": "82ab157c-0f23-5ff9-9e6d-bb79e308df99",
+      "manual_review_required": true,
+      "next_action": "Inspect Box 536 for Finis G Moran's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol"
+    },
+    {
+      "person_id": "dc4e984d-4335-5e1d-956b-4329775a97c3",
+      "manual_review_required": true,
+      "next_action": "Inspect Box 536 for Frank W Moran's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed external source established a reliable identity bridge beyond the preserved OSS index row.",
+      "research_status": "no_reliable_result_after_protocol"
+    },
+    {
+      "person_id": "85a8e7b1-167f-5232-8b20-5730808c701a",
+      "manual_review_required": true,
+      "next_action": "Inspect Box 536 for George B Moran's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree between the OSS index and official Army bulk record.",
+      "research_status": "requires_archival_review"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b675-springs-r-moore-reviewed-search",
+      "person_id": "6c6d1465-c1bb-5819-a3b0-c3de320e9d76",
+      "source_adapter": "official_nara_index_army_bulk_entry210_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Springs R Moore; Lt; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:15:00Z",
+      "completed_at": "2026-09-25T08:54:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Library of Congress discovery items, where returned, were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 535 for Springs R Moore's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-675-v1"
+    },
+    {
+      "key": "b675-wallace-j-moore-reviewed-search",
+      "person_id": "34883c78-0b17-507e-92ee-d688a478de61",
+      "source_adapter": "official_nara_index_army_bulk_entry210_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Wallace J Moore; T-4; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:15:00Z",
+      "completed_at": "2026-09-25T08:54:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Library of Congress discovery items, where returned, were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. Official Army bulk data supplies a high-confidence identity bridge, but its coded occupation was neither published nor used as employer evidence.",
+      "next_action": "Inspect Box 535 for Wallace J Moore's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-675-v1"
+    },
+    {
+      "key": "b675-walter-a-moore-reviewed-search",
+      "person_id": "694be9e5-ca0d-51b2-8c94-b9eea9b7c98a",
+      "source_adapter": "official_nara_index_army_bulk_entry210_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Walter A Moore; T-5; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:15:00Z",
+      "completed_at": "2026-09-25T08:54:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Library of Congress discovery items, where returned, were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. Official Army bulk data supplies a high-confidence identity bridge, but its coded occupation was neither published nor used as employer evidence.",
+      "next_action": "Inspect Box 536 for Walter A Moore's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-675-v1"
+    },
+    {
+      "key": "b675-wayne-e-moore-reviewed-search",
+      "person_id": "5b531fb4-ac69-5a3a-bca4-c5b9d8acf619",
+      "source_adapter": "official_nara_index_army_bulk_entry210_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Wayne E Moore; T/Sgt; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:15:00Z",
+      "completed_at": "2026-09-25T08:54:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Library of Congress discovery items, where returned, were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge. The different-name Army candidate was rejected and preserved as an identity conflict.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. The protected identifier leads to a wholly different Army name, so the candidate was rejected and the conflict remains public.",
+      "next_action": "Inspect Box 536 to resolve the printed-identifier conflict before accepting an Army identity or predecessor affiliation for Wayne E Moore.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-675-v1"
+    },
+    {
+      "key": "b675-william-b-moore-reviewed-search",
+      "person_id": "833e896b-4ee4-5279-a3a1-ed071ea82e29",
+      "source_adapter": "official_nara_index_army_bulk_entry210_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "William B Moore; Lt; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:15:00Z",
+      "completed_at": "2026-09-25T08:54:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Library of Congress discovery items, where returned, were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 536 for William B Moore's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-675-v1"
+    },
+    {
+      "key": "b675-william-c-moore-reviewed-search",
+      "person_id": "6e1ea084-e722-5431-b9ed-28cf0f023918",
+      "source_adapter": "official_nara_index_army_bulk_entry210_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "William C Moore; M/Sgt; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:15:00Z",
+      "completed_at": "2026-09-25T08:54:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Library of Congress discovery items, where returned, were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 536 for William C Moore's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-675-v1"
+    },
+    {
+      "key": "b675-william-r-moore-reviewed-search",
+      "person_id": "06ab8ad7-a135-53a3-bf9c-df5ffc0a350f",
+      "source_adapter": "official_nara_index_army_bulk_entry210_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "William R Moore; Capt; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:15:00Z",
+      "completed_at": "2026-09-25T08:54:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Library of Congress discovery items, where returned, were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 536 for William R Moore's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-675-v1"
+    },
+    {
+      "key": "b675-wilson-h-moore-reviewed-search",
+      "person_id": "71b62b49-026e-5c80-9af2-7053d56f99a4",
+      "source_adapter": "official_nara_index_army_bulk_entry210_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Wilson H Moore; rank blank; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:15:00Z",
+      "completed_at": "2026-09-25T08:54:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Library of Congress discovery items, where returned, were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 536 for Wilson H Moore's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-675-v1"
+    },
+    {
+      "key": "b675-ethel-h-moorhead-reviewed-search",
+      "person_id": "1c6d98f2-9a13-5448-a594-3502a97e27c1",
+      "source_adapter": "official_nara_index_army_bulk_entry210_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Ethel H Moorhead; Caf-2; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:15:00Z",
+      "completed_at": "2026-09-25T08:54:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Library of Congress discovery items, where returned, were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge. A British SOE result concerned Helen Mary Moorhead, not Ethel H Moorhead.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 536 for Ethel H Moorhead's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-675-v1"
+    },
+    {
+      "key": "b675-tommie-j-moorman-reviewed-search",
+      "person_id": "8d473190-979f-539e-9e0d-960503420de6",
+      "source_adapter": "official_nara_index_army_bulk_entry210_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Tommie J Moorman; Caf-4; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:15:00Z",
+      "completed_at": "2026-09-25T08:54:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Library of Congress discovery items, where returned, were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 536 for Tommie J Moorman's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-675-v1"
+    },
+    {
+      "key": "b675-joseph-l-moortgat-reviewed-search",
+      "person_id": "66f196e5-b5a5-572c-8f39-7c5ff87118b2",
+      "source_adapter": "official_nara_index_army_bulk_entry210_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Joseph L Moortgat; Pfc; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:15:00Z",
+      "completed_at": "2026-09-25T08:54:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Library of Congress discovery items, where returned, were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 536 for Joseph L Moortgat's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-675-v1"
+    },
+    {
+      "key": "b675-gordon-a-moote-reviewed-search",
+      "person_id": "83b285b4-c6da-566c-b9dc-d0f37376bf5e",
+      "source_adapter": "official_nara_index_army_bulk_entry210_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Gordon A Moote; rank blank; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:15:00Z",
+      "completed_at": "2026-09-25T08:54:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Library of Congress discovery items, where returned, were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. Official Army bulk data supplies a high-confidence identity bridge, but its coded occupation was neither published nor used as employer evidence.",
+      "next_action": "Inspect Box 536 for Gordon A Moote's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-675-v1"
+    },
+    {
+      "key": "b675-domenic-j-morabito-reviewed-search",
+      "person_id": "06c27b18-42da-5250-9a3c-be7b91054615",
+      "source_adapter": "official_nara_index_army_bulk_entry210_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Domenic J Morabito; Sgt; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:15:00Z",
+      "completed_at": "2026-09-25T08:54:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Library of Congress discovery items, where returned, were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. Official Army bulk data supplies a high-confidence identity bridge, but its coded occupation was neither published nor used as employer evidence.",
+      "next_action": "Inspect Box 536 for Domenic J Morabito's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-675-v1"
+    },
+    {
+      "key": "b675-edward-j-moraghan-reviewed-search",
+      "person_id": "ad3d9f60-98ab-576e-8f57-77f0c3ce95f6",
+      "source_adapter": "official_nara_index_army_bulk_entry210_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Edward J Moraghan; Lt; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:15:00Z",
+      "completed_at": "2026-09-25T08:54:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Library of Congress discovery items, where returned, were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 536 for Edward J Moraghan's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-675-v1"
+    },
+    {
+      "key": "b675-victor-m-morales-reviewed-search",
+      "person_id": "55c2480c-fb3e-5546-9149-1c9f852576b8",
+      "source_adapter": "official_nara_index_army_bulk_entry210_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Victor M Morales; Pvt; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:15:00Z",
+      "completed_at": "2026-09-25T08:54:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Library of Congress discovery items, where returned, were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 536 for Victor M Morales's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-675-v1"
+    },
+    {
+      "key": "b675-alfred-b-moran-reviewed-search",
+      "person_id": "580d34ef-3911-5dba-a493-f137ef4cb85d",
+      "source_adapter": "official_nara_index_army_bulk_entry210_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Alfred B Moran; Capt; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:15:00Z",
+      "completed_at": "2026-09-25T08:54:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Library of Congress discovery items, where returned, were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge. A Secret Service namesake lead lacked an identity or temporal bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 536 for Alfred B Moran's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-batch-675-v1"
+    },
+    {
+      "key": "b675-avis-m-moran-reviewed-search",
+      "person_id": "7a15a4ca-9cb2-5fef-8bc0-1ab242aab6c3",
+      "source_adapter": "official_nara_index_army_bulk_entry210_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Avis M Moran; Caf-5; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:15:00Z",
+      "completed_at": "2026-09-25T08:54:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Library of Congress discovery items, where returned, were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 536 for Avis M Moran's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-675-v1"
+    },
+    {
+      "key": "b675-cecilia-a-moran-reviewed-search",
+      "person_id": "48b5cf53-54d6-5da2-8abc-eadb10b5fd69",
+      "source_adapter": "official_nara_index_army_bulk_entry210_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Cecilia A Moran; Caf-3; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:15:00Z",
+      "completed_at": "2026-09-25T08:54:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Library of Congress discovery items, where returned, were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 536 for Cecilia A Moran's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-675-v1"
+    },
+    {
+      "key": "b675-charles-moran-reviewed-search",
+      "person_id": "742bea6b-8d99-5e02-b4ea-793a712b3af0",
+      "source_adapter": "official_nara_index_army_bulk_entry210_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Charles Moran; rank blank; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:15:00Z",
+      "completed_at": "2026-09-25T08:54:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Library of Congress discovery items, where returned, were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge. A CIA-domain hit was a 1955 naval-history author reference, not this indexed person.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 536 for Charles Moran's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-675-v1"
+    },
+    {
+      "key": "b675-clarence-moran-reviewed-search",
+      "person_id": "2dfd41c8-3312-5d24-9906-87502fca38fe",
+      "source_adapter": "official_nara_index_army_bulk_entry210_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Clarence Moran; C SP-P; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:15:00Z",
+      "completed_at": "2026-09-25T08:54:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Library of Congress discovery items, where returned, were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. The official RG 226 Entry 210 guide supplies a high-confidence Field Photo Branch identity bridge but no pre-OSS employer.",
+      "next_action": "Inspect Box 536 for Clarence Moran's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-675-v1"
+    },
+    {
+      "key": "b675-daniel-j-moran-reviewed-search",
+      "person_id": "fb606f68-9b21-5079-808e-fe8cb4ca1e2a",
+      "source_adapter": "official_nara_index_army_bulk_entry210_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Daniel J Moran; T-4; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:15:00Z",
+      "completed_at": "2026-09-25T08:54:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Library of Congress discovery items, where returned, were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. Official Army bulk data supplies a high-confidence identity bridge, but its coded occupation was neither published nor used as employer evidence.",
+      "next_action": "Inspect Box 536 for Daniel J Moran's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-675-v1"
+    },
+    {
+      "key": "b675-finis-g-moran-reviewed-search",
+      "person_id": "82ab157c-0f23-5ff9-9e6d-bb79e308df99",
+      "source_adapter": "official_nara_index_army_bulk_entry210_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Finis G Moran; S/Sgt; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:15:00Z",
+      "completed_at": "2026-09-25T08:54:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Library of Congress discovery items, where returned, were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 536 for Finis G Moran's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-675-v1"
+    },
+    {
+      "key": "b675-frank-w-moran-reviewed-search",
+      "person_id": "dc4e984d-4335-5e1d-956b-4329775a97c3",
+      "source_adapter": "official_nara_index_army_bulk_entry210_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "Frank W Moran; Lt; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:15:00Z",
+      "completed_at": "2026-09-25T08:54:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Library of Congress discovery items, where returned, were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. No reliable pre-OSS employer or immediate predecessor affiliation was identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 536 for Frank W Moran's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-675-v1"
+    },
+    {
+      "key": "b675-george-b-moran-reviewed-search",
+      "person_id": "85a8e7b1-167f-5232-8b20-5730808c701a",
+      "source_adapter": "official_nara_index_army_bulk_entry210_cia_domain_loc_institutional_obituary_and_targeted_web_review",
+      "query_text": "George B Moran; Pfc; OSS; employer; occupation; obituary; directory",
+      "query_variant_type": "full_name_rank_employment_and_archival",
+      "started_at": "2026-09-25T08:15:00Z",
+      "completed_at": "2026-09-25T08:54:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Library of Congress discovery items, where returned, were name-only OCR hits or postwar items without an OSS, rank or grade, protected-identifier, or archival bridge.",
+      "research_notes": "The minimum staged protocol covered the official NARA index, targeted public CIA Reading Room domain searches, exact-name OSS searches, employment and occupation searches, a live Library of Congress newspaper query, and institutional, obituary, directory, and archival discovery checks. The direct CIA adapter failed closed once; targeted public CIA-domain review substituted, and the adapter error was not treated as negative evidence. Official Army bulk data supplies a high-confidence identity bridge, but its coded occupation was neither published nor used as employer evidence.",
+      "next_action": "Inspect Box 536 for George B Moran's personnel file and last civilian employer or immediate predecessor affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-batch-675-v1"
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "bundle_version": "batch-668-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 668 archival review",
+  "sources": [
+    {
+      "key": "nara-index-b668",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 531-532",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 325, rows 4-25, visually checked",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 22 printed rows remain separate. Full service identifiers remain private and are excluded from public output."
+    },
+    {
+      "key": "army-bulk-b668",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; fixed-width name and protected-identifier review for Batch 668",
+      "access_date": "2026-09-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "Official bulk data, not a Catalog API response. Protected identifiers, occupation codes, and raw records are excluded from public output; coded occupations were not treated as employers."
+    },
+    {
+      "key": "washington-post-faye-mogin-b668",
+      "stable_url": "https://www.washingtonpost.com/archive/local/1993/03/14/surgeon-vincent-m-iovine-dies-at-82/3e6862fe-6cc3-43b0-ad38-00f82759266e/",
+      "title": "Surgeon Vincent M. Iovine Dies at 82",
+      "repository_publisher": "The Washington Post",
+      "publication_record_date": "1993-03-13",
+      "locator": "Faye K. Mogin obituary section",
+      "access_date": "2026-09-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Local obituaries",
+      "rights_notes": "Only a short evidence excerpt and project-authored paraphrase are retained."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "usda-b668",
+      "organization_id": "fe92f024-a09d-5899-b6ad-5f3edc910924",
+      "canonical_name": "United States Department of Agriculture",
+      "historical_name": "U.S. Department of Agriculture",
+      "aliases": ["Department of Agriculture", "USDA"],
+      "organization_type": "federal executive department",
+      "sector": "federal_government",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "normalization_notes": "The historical source wording Department of Agriculture is preserved; the organization is not conflated with its component bureaus."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "faye-mogin-usda-b668",
+      "person_id": "0e109114-947d-5b8d-9c73-c2b1d087a4ef",
+      "organization_key": "usda-b668",
+      "organization_name_as_found": "Department of Agriculture",
+      "role_title": "Secretary",
+      "occupation": "Secretary",
+      "relationship_type": "employment",
+      "start_date": "1941",
+      "date_precision": "The obituary says she moved to Washington in 1941 and worked there as a young woman; no end date is supplied.",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact rare name, 1941 Washington move, federal clerical role, and adjacent Mogin rows make the match probable. The obituary does not state that USDA was the immediate predecessor to OSS or the last civilian employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-anthony-n-molino-b668",
+      "person_id": "56fd7409-4cba-5cea-ac48-685bc58abb3d",
+      "claim_type": "identity",
+      "claim_text": "The indexed Anthony N. Molino is a high-confidence match to the official Army enlistment record.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact full name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "Wartime identity evidence only; no employer or predecessor chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army coded occupation data remain private and are not translated into an employer claim.",
+      "sources": [
+        {"source_key": "nara-index-b668", "support_type": "supports", "locator_override": "PDF page 325, row 20, Box 531"},
+        {"source_key": "army-bulk-b668", "support_type": "supports", "locator_override": "Exact Army name and protected-identifier match"}
+      ]
+    },
+    {
+      "key": "identity-arthur-j-mokin-b668",
+      "person_id": "cca7dafd-b924-5d51-98a2-3a5715cb4fa1",
+      "claim_type": "identity",
+      "claim_text": "The indexed Arthur J. Mokin is a high-confidence match to the official Army enlistment record.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact full name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "Wartime identity evidence only; later documentary-film and authorship material does not establish a pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army coded occupation data remain private and postwar work is not back-projected.",
+      "sources": [
+        {"source_key": "nara-index-b668", "support_type": "supports", "locator_override": "PDF page 325, row 16, Box 531"},
+        {"source_key": "army-bulk-b668", "support_type": "supports", "locator_override": "Exact Army name and protected-identifier match"}
+      ]
+    },
+    {
+      "key": "identity-bert-mogin-b668",
+      "person_id": "46f7b15f-57bb-5e76-a155-3256f693a835",
+      "claim_type": "identity",
+      "claim_text": "The indexed Bert Mogin is a high-confidence match to the official Army enlistment record.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "The Army entry predates the indexed first-lieutenant grade; no civilian employer is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Postwar government and research-institute roles are identity context only and are not presented as pre-OSS employment.",
+      "sources": [
+        {"source_key": "nara-index-b668", "support_type": "supports", "locator_override": "PDF page 325, row 10, Box 531"},
+        {"source_key": "army-bulk-b668", "support_type": "supports", "locator_override": "Exact Army name and protected-identifier match"}
+      ]
+    },
+    {
+      "key": "identity-charlie-moia-b668",
+      "person_id": "28a1efc4-3107-51ee-807c-ec2a8d6584d4",
+      "claim_type": "identity",
+      "claim_text": "The indexed Charlie Moia is a high-confidence match to the official Army enlistment record.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "Wartime identity evidence only; no employer or predecessor chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army coded occupation data remain private and are not translated into an employer claim.",
+      "sources": [
+        {"source_key": "nara-index-b668", "support_type": "supports", "locator_override": "PDF page 325, row 15, Box 531"},
+        {"source_key": "army-bulk-b668", "support_type": "supports", "locator_override": "Exact Army name and protected-identifier match"}
+      ]
+    },
+    {
+      "key": "identity-harry-j-moles-b668",
+      "person_id": "ea45267b-2c07-5168-a9c5-87c8a72e52b1",
+      "claim_type": "identity",
+      "claim_text": "The indexed Harry J. Moles is a high-confidence match to the official Army enlistment record.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact full name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "Wartime identity evidence only; no employer or predecessor chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army coded occupation data remain private and are not translated into an employer claim.",
+      "sources": [
+        {"source_key": "nara-index-b668", "support_type": "supports", "locator_override": "PDF page 325, row 18, Box 531"},
+        {"source_key": "army-bulk-b668", "support_type": "supports", "locator_override": "Exact Army name and protected-identifier match"}
+      ]
+    },
+    {
+      "key": "identity-henry-c-moll-b668",
+      "person_id": "1d42a434-5bf3-5ae3-8894-fa6599534203",
+      "claim_type": "identity",
+      "claim_text": "The indexed Henry C. Moll is a high-confidence match to the official Army enlistment record.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact full name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "Wartime identity evidence only; no employer or predecessor chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army coded occupation data remain private and are not translated into an employer claim.",
+      "sources": [
+        {"source_key": "nara-index-b668", "support_type": "supports", "locator_override": "PDF page 325, row 21, Box 531"},
+        {"source_key": "army-bulk-b668", "support_type": "supports", "locator_override": "Exact Army name and protected-identifier match"}
+      ]
+    },
+    {
+      "key": "identity-john-j-mogavero-b668",
+      "person_id": "73ea4533-bcfa-5d3e-82a6-9497e3452a8e",
+      "claim_type": "identity",
+      "claim_text": "The indexed John J. Mogavero is a high-confidence match to the official Army enlistment record.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact full name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "Wartime identity evidence only; no employer or predecessor chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "A cemetery transcription was only corroborative; the official Army record carries the identity finding.",
+      "sources": [
+        {"source_key": "nara-index-b668", "support_type": "supports", "locator_override": "PDF page 325, row 9, Box 531"},
+        {"source_key": "army-bulk-b668", "support_type": "supports", "locator_override": "Exact Army name and protected-identifier match"}
+      ]
+    },
+    {
+      "key": "identity-samuel-h-molodow-b668",
+      "person_id": "40cc09e6-d185-554f-8600-c565cfa6333b",
+      "claim_type": "identity",
+      "claim_text": "The indexed Samuel H. Molodow is a high-confidence match to the Army record for Sam H. Molodow.",
+      "evidence_paraphrase": "The rare surname, middle initial, conventional Sam/Samuel variant, and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High confidence because the direct identifier is nonshared and the first-name difference is a conventional form rather than a different person.",
+      "temporal_assessment": "Wartime identity evidence only; no employer or predecessor chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Sam H. Molodow variant is preserved; Army coded occupation data remain private.",
+      "sources": [
+        {"source_key": "nara-index-b668", "support_type": "supports", "locator_override": "PDF page 325, row 24, Box 531"},
+        {"source_key": "army-bulk-b668", "support_type": "supports", "locator_override": "Sam/Samuel variant and protected-identifier match"}
+      ]
+    },
+    {
+      "key": "identity-sigmund-l-molnar-b668",
+      "person_id": "c3ad9ef2-4c8e-5523-903e-f7034470b159",
+      "claim_type": "identity",
+      "claim_text": "The indexed Sigmund L. Molnar is a high-confidence match to the official Army enlistment record.",
+      "evidence_paraphrase": "The index and official Army bulk record agree in exact full name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence because exact name and a nonshared protected identifier agree across two official records.",
+      "temporal_assessment": "Wartime identity evidence only; no employer or predecessor chronology is inferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army coded occupation data remain private and are not translated into an employer claim.",
+      "sources": [
+        {"source_key": "nara-index-b668", "support_type": "supports", "locator_override": "PDF page 325, row 23, Box 531"},
+        {"source_key": "army-bulk-b668", "support_type": "supports", "locator_override": "Exact Army name and protected-identifier match"}
+      ]
+    },
+    {
+      "key": "identity-faye-k-mogin-b668",
+      "person_id": "0e109114-947d-5b8d-9c73-c2b1d087a4ef",
+      "claim_type": "identity",
+      "claim_text": "The indexed Faye K. Mogin is probably the Washington-area federal secretary profiled by The Washington Post.",
+      "evidence_excerpt": "She moved to the Washington area in 1941 and worked as a secretary at the Department of Agriculture as a young woman.",
+      "evidence_paraphrase": "The rare exact name, 1941 Washington move, federal clerical role, and indexed civilian grade form a good but not conclusive match.",
+      "identity_match_assessment": "Probable. The exact rare name and wartime Washington clerical chronology are the principal evidence; the adjacent Bert Mogin row is corroborative, not the primary basis.",
+      "temporal_assessment": "The obituary establishes work after a 1941 move to Washington but does not date the end of employment or explicitly link the job to OSS entry.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Box 531 remains necessary to confirm the identity and sequence. University attendance is not treated as employment.",
+      "sources": [
+        {"source_key": "nara-index-b668", "support_type": "supports", "locator_override": "PDF page 325, row 11, CAF-5, Box 531"},
+        {"source_key": "washington-post-faye-mogin-b668", "support_type": "supports", "locator_override": "Faye K. Mogin obituary section"}
+      ]
+    },
+    {
+      "key": "faye-k-mogin-usda-work-b668",
+      "person_id": "0e109114-947d-5b8d-9c73-c2b1d087a4ef",
+      "affiliation_key": "faye-mogin-usda-b668",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Faye K. Mogin probably worked as a secretary at the U.S. Department of Agriculture after moving to Washington in 1941.",
+      "evidence_excerpt": "She moved to the Washington area in 1941 and worked as a secretary at the Department of Agriculture as a young woman.",
+      "evidence_paraphrase": "A reputable obituary names the federal department, role, and 1941 Washington chronology.",
+      "identity_match_assessment": "Probable identity based principally on the rare exact name and matching wartime Washington clerical context.",
+      "temporal_assessment": "Documented prewar employment, but not proven to be the immediate pre-OSS affiliation or the last civilian employer before service.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The profile must retain the qualification and must not imply that USDA immediately preceded OSS service.",
+      "sources": [
+        {"source_key": "washington-post-faye-mogin-b668", "support_type": "supports", "locator_override": "Faye K. Mogin obituary section"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {"person_id":"c540f8a7-3faa-59d7-ae3c-c66a8f0e7c70","identity_status":"unresolved","identity_evidence":"Exact-name OSS, military, newspaper, obituary, directory, institutional, and employment searches produced no reliable identity bridge.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 531 for full identity, assignment, residence, and a named predecessor affiliation.","archival_review_priority":"critical"},
+    {"person_id":"83c3cc3c-555c-5d0b-a516-405584e20137","identity_status":"unresolved","identity_evidence":"Exact-name and spelling-variant searches produced no reliable bridge for the unusually indexed Siguardo F. Moeller.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect the lieutenant file in Box 531 for spelling, nationality, branch, assignment, and predecessor affiliation.","archival_review_priority":"critical"},
+    {"person_id":"0a4da0e4-a4f1-5ae4-8c19-4afeb10683d7","identity_status":"unresolved","identity_evidence":"A 1941 LoC newspaper hit concerns an unbridged William J. Moeller named in a false-pretenses indictment; no rank, identifier, residence, or OSS evidence connects that namesake.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect the PFC file in Box 531 for full identity and pre-OSS chronology.","archival_review_priority":"critical"},
+    {"person_id":"89d9a679-795f-5cc9-bb5e-4ba14568ac8b","identity_status":"unresolved","identity_evidence":"The protected-number Army hit names Dominic A. Centobene rather than James Moffat and was rejected as a source or column-shift conflict.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect the Private file in Box 531 to resolve the identifier conflict and establish the correct person and predecessor affiliation.","archival_review_priority":"critical"},
+    {"person_id":"b5dca909-b456-50b2-9a92-e15b512f715b","identity_status":"unresolved","identity_evidence":"Exact-name OSS, military, newspaper, obituary, directory, institutional, and employment searches produced no reliable identity bridge.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect the T-4 file in Box 531 for full identity, assignment, and predecessor affiliation.","archival_review_priority":"critical"},
+    {"person_id":"73ea4533-bcfa-5d3e-82a6-9497e3452a8e","identity_status":"high_confidence","identity_evidence":"The index and official Army bulk entry agree in exact full name and a nonshared protected identifier.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 531 for a named predecessor affiliation; do not infer one from Army coded occupation data.","archival_review_priority":"high"},
+    {"person_id":"46f7b15f-57bb-5e76-a155-3256f693a835","identity_status":"high_confidence","identity_evidence":"The index and official Army bulk entry agree in exact name and a nonshared protected identifier.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 531 for the pre-OSS path and commissioning chronology; do not back-project postwar roles or Army coded occupation data.","archival_review_priority":"high"},
+    {"person_id":"0e109114-947d-5b8d-9c73-c2b1d087a4ef","identity_status":"probable","identity_evidence":"The rare exact name, 1941 Washington move, federal clerical role, and indexed CAF-5 grade form a good but not conclusive match; the adjacent Bert Mogin row is corroborative only.","manual_review_required":true,"research_status":"documented_prewar_employer_found","next_action":"Inspect Box 531 to confirm identity and determine whether USDA immediately preceded OSS or was the last civilian employer before service.","archival_review_priority":"critical"},
+    {"person_id":"2144f442-cab1-51f6-b8ed-bd4106c1a54d","identity_status":"unresolved","identity_evidence":"Exact-name searches did not distinguish the indexed captain from other Louis Mohlers or establish a pre-OSS affiliation.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect the captain's file in Box 531 for branch, full identity, assignment, and predecessor affiliation.","archival_review_priority":"critical"},
+    {"person_id":"08bf0ddf-b6b3-5bf5-9a62-cea523613109","identity_status":"unresolved","identity_evidence":"Exact-name and grade searches found only unbridged later namesakes; no source established that their careers belonged to the indexed person.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect the C SP-P file in Box 531 to interpret the grade and establish identity and pre-OSS chronology.","archival_review_priority":"critical"},
+    {"person_id":"c5cc12bb-f4d1-5a3b-8750-c34d8d9ed78e","identity_status":"unresolved","identity_evidence":"Exact-name, CAF-4, government, newspaper, obituary, directory, and employment searches produced no reliable identity bridge.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect the CAF-4 file in Box 531 for full identity, federal office, and prior employer.","archival_review_priority":"critical"},
+    {"person_id":"28a1efc4-3107-51ee-807c-ec2a8d6584d4","identity_status":"high_confidence","identity_evidence":"The index and official Army bulk entry agree in exact name and a nonshared protected identifier.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 531 for a named predecessor affiliation; do not infer one from Army coded occupation data.","archival_review_priority":"high"},
+    {"person_id":"cca7dafd-b924-5d51-98a2-3a5715cb4fa1","identity_status":"high_confidence","identity_evidence":"The index and official Army bulk entry agree in exact full name and a nonshared protected identifier.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 531 for a named pre-OSS affiliation; later documentary-film and authorship work is not back-projected.","archival_review_priority":"high"},
+    {"person_id":"85841e79-5d6c-5c71-b77d-bc278c6ca943","identity_status":"unresolved","identity_evidence":"Common-name searches did not produce two corroborating identifiers beyond the name and captain grade.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect the captain's file in Box 531 for full identity, branch, residence, and predecessor affiliation.","archival_review_priority":"critical"},
+    {"person_id":"ea45267b-2c07-5168-a9c5-87c8a72e52b1","identity_status":"high_confidence","identity_evidence":"The index and official Army bulk entry agree in exact full name and a nonshared protected identifier.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 531 for a named predecessor affiliation; do not infer one from Army coded occupation data.","archival_review_priority":"high"},
+    {"person_id":"41ceba1f-9c1d-5646-9fd4-17c99b150313","identity_status":"unresolved","identity_evidence":"Exact-name, rank, military, newspaper, obituary, directory, and employment searches produced no reliable identity bridge.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect the Sergeant file in Box 531 for full identity, unit, and predecessor affiliation.","archival_review_priority":"critical"},
+    {"person_id":"56fd7409-4cba-5cea-ac48-685bc58abb3d","identity_status":"high_confidence","identity_evidence":"The index and official Army bulk entry agree in exact full name and a nonshared protected identifier.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 531 for a named predecessor affiliation; do not infer one from Army coded occupation data.","archival_review_priority":"high"},
+    {"person_id":"1d42a434-5bf3-5ae3-8894-fa6599534203","identity_status":"high_confidence","identity_evidence":"The index and official Army bulk entry agree in exact full name and a nonshared protected identifier.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 531 for a named predecessor affiliation; do not infer one from Army coded occupation data.","archival_review_priority":"high"},
+    {"person_id":"63850c2d-0fa9-5e13-848d-c3d421319c23","identity_status":"unresolved","identity_evidence":"Exact-name and plausible spelling-variant searches produced no reliable identity or employment bridge for the indexed captain.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect the captain's file in Box 531 for spelling, identity, branch, and predecessor affiliation.","archival_review_priority":"critical"},
+    {"person_id":"c3ad9ef2-4c8e-5523-903e-f7034470b159","identity_status":"high_confidence","identity_evidence":"The index and official Army bulk entry agree in exact full name and a nonshared protected identifier.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 531 for a named predecessor affiliation; do not infer one from Army coded occupation data.","archival_review_priority":"high"},
+    {"person_id":"40cc09e6-d185-554f-8600-c565cfa6333b","identity_status":"high_confidence","identity_evidence":"The rare surname, matching middle initial, conventional Sam/Samuel variant, and nonshared protected identifier agree.","name_variants":["Sam H Molodow"],"manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 531 for a named predecessor affiliation and confirmation of the first-name variant; do not infer an employer from Army coded data.","archival_review_priority":"high"},
+    {"person_id":"b0304562-4747-5a5f-8570-9c1798ca35ab","identity_status":"unresolved","identity_evidence":"Exact-name OSS, military, newspaper, obituary, directory, institutional, and employment searches produced no reliable identity bridge.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect the Box 532 file for full identity, rank or grade, and predecessor affiliation.","archival_review_priority":"critical"}
+  ],
+  "research_attempts": [
+    {"key":"b668-glen-moehring-reviewed-search","person_id":"c540f8a7-3faa-59d7-ae3c-c66a8f0e7c70","source_adapter":"official_nara_cia_policy_limited_loc_military_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Glen E Moehring; T-5; OSS; employer; occupation; Box 531","query_variant_type":"distinctive_name_rank_employment_and_archival","started_at":"2026-09-25T04:23:36Z","completed_at":"2026-09-25T04:44:22Z","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":0,"rejection_reasons":"No result supplied an OSS, rank, Box 531, residence, or predecessor-employment bridge.","research_notes":"Minimum staged protocol completed. CIA automated access was robots-disallowed and was not treated as negative evidence.","next_action":"Inspect Box 531.","attempt_number":1,"research_agent_version":"before-oss-batch-668-v1"},
+    {"key":"b668-siguardo-moeller-reviewed-search","person_id":"83c3cc3c-555c-5d0b-a516-405584e20137","source_adapter":"official_nara_cia_policy_limited_loc_military_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Siguardo F Moeller; spelling variants; Lieutenant; OSS; employer; Box 531","query_variant_type":"foreign_or_unusual_name_rank_employment_and_archival","started_at":"2026-09-25T04:23:36Z","completed_at":"2026-09-25T04:44:22Z","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":0,"rejection_reasons":"No exact or defensible variant result supplied a direct identity or employment bridge.","research_notes":"Protocol adapted for an unusual or possibly misspelled name. CIA automated access was robots-disallowed.","next_action":"Inspect Box 531.","attempt_number":1,"research_agent_version":"before-oss-batch-668-v1"},
+    {"key":"b668-william-moeller-reviewed-search","person_id":"0a4da0e4-a4f1-5ae4-8c19-4afeb10683d7","source_adapter":"official_nara_cia_policy_limited_loc_military_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"William J Moeller; PFC; OSS; employer; occupation; Box 531","query_variant_type":"common_name_rank_identity_employment_and_archival","started_at":"2026-09-25T04:23:36Z","completed_at":"2026-09-25T04:44:22Z","outcome":"candidate_rejected","sources_reviewed":7,"candidate_sources_rejected":1,"rejection_reasons":"The LoC newspaper hit is an unrelated false-pretenses indictment with no indexed identifiers or employment context.","research_notes":"Enhanced common-name protocol completed without selecting a convenient namesake. CIA automated access was robots-disallowed.","next_action":"Inspect Box 531.","attempt_number":1,"research_agent_version":"before-oss-batch-668-v1"},
+    {"key":"b668-james-moffat-reviewed-search","person_id":"89d9a679-795f-5cc9-bb5e-4ba14568ac8b","source_adapter":"official_nara_cia_policy_limited_loc_army_bulk_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"James Moffat; Private; OSS; protected identifier; employer; Box 531","query_variant_type":"common_name_rank_identifier_conflict_employment_and_archival","started_at":"2026-09-25T04:23:36Z","completed_at":"2026-09-25T04:44:22Z","outcome":"candidate_rejected","sources_reviewed":7,"candidate_sources_rejected":1,"rejection_reasons":"The Army protected-number hit names Dominic A. Centobene and cannot identify James Moffat.","research_notes":"The conflicting official hit is preserved and rejected rather than silently merged. CIA automated access was robots-disallowed.","next_action":"Inspect Box 531 and resolve the source identifier conflict.","attempt_number":1,"research_agent_version":"before-oss-batch-668-v1"},
+    {"key":"b668-eli-moga-reviewed-search","person_id":"b5dca909-b456-50b2-9a92-e15b512f715b","source_adapter":"official_nara_cia_policy_limited_loc_military_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Eli Moga; T-4; OSS; employer; occupation; Box 531","query_variant_type":"distinctive_name_rank_employment_and_archival","started_at":"2026-09-25T04:23:36Z","completed_at":"2026-09-25T04:44:22Z","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":0,"rejection_reasons":"No result supplied an OSS, rank, Box 531, residence, or predecessor-employment bridge.","research_notes":"Minimum staged protocol completed. CIA automated access was robots-disallowed and was not treated as negative evidence.","next_action":"Inspect Box 531.","attempt_number":1,"research_agent_version":"before-oss-batch-668-v1"},
+    {"key":"b668-john-mogavero-reviewed-search","person_id":"73ea4533-bcfa-5d3e-82a6-9497e3452a8e","source_adapter":"official_nara_cia_policy_limited_loc_army_bulk_military_cemetery_obituary_directory_and_targeted_web_review","query_text":"John J Mogavero; PFC; OSS; employer; occupation; protected identifier","query_variant_type":"distinctive_name_rank_identity_employment_and_archival","started_at":"2026-09-25T04:23:36Z","completed_at":"2026-09-25T04:44:22Z","outcome":"source_reviewed","sources_reviewed":7,"candidate_sources_rejected":1,"rejection_reasons":"A third-party cemetery transcription was corroborative only and did not establish a pre-OSS employer.","research_notes":"Official Army identity evidence accepted; no named employer was inferred from private coded occupation data. CIA automated access was robots-disallowed.","next_action":"Inspect Box 531.","attempt_number":1,"research_agent_version":"before-oss-batch-668-v1"},
+    {"key":"b668-bert-mogin-reviewed-search","person_id":"46f7b15f-57bb-5e76-a155-3256f693a835","source_adapter":"official_nara_cia_policy_limited_loc_army_bulk_government_institutional_obituary_directory_and_targeted_web_review","query_text":"Bert Mogin; First Lieutenant; OSS; employer; occupation; protected identifier","query_variant_type":"distinctive_name_rank_identity_employment_and_archival","started_at":"2026-09-25T04:23:36Z","completed_at":"2026-09-25T04:44:22Z","outcome":"source_reviewed","sources_reviewed":8,"candidate_sources_rejected":2,"rejection_reasons":"Postwar Stanford Research Institute and federal analytical roles do not establish pre-OSS employment.","research_notes":"Official Army identity evidence accepted; postwar roles were not back-projected. CIA automated access was robots-disallowed.","next_action":"Inspect Box 531.","attempt_number":1,"research_agent_version":"before-oss-batch-668-v1"},
+    {"key":"b668-faye-mogin-reviewed-search","person_id":"0e109114-947d-5b8d-9c73-c2b1d087a4ef","source_adapter":"official_nara_cia_policy_limited_loc_government_newspaper_obituary_directory_and_targeted_web_review","query_text":"Faye K Mogin; CAF-5; OSS; Department of Agriculture; secretary; Box 531","query_variant_type":"distinctive_name_civilian_grade_employment_and_archival","started_at":"2026-09-25T04:23:36Z","completed_at":"2026-09-25T04:44:22Z","outcome":"source_reviewed","sources_reviewed":7,"candidate_sources_rejected":0,"research_notes":"The Washington Post obituary supports a qualified documented-prewar USDA role. It does not prove immediate predecessor or last-civilian-employer status. CIA automated access was robots-disallowed.","next_action":"Inspect Box 531 to confirm identity and chronology.","attempt_number":1,"research_agent_version":"before-oss-batch-668-v1"},
+    {"key":"b668-louis-mohler-reviewed-search","person_id":"2144f442-cab1-51f6-b8ed-bd4106c1a54d","source_adapter":"official_nara_cia_policy_limited_loc_military_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Louis C Mohler; Captain; OSS; employer; occupation; Box 531","query_variant_type":"common_name_rank_identity_employment_and_archival","started_at":"2026-09-25T04:23:36Z","completed_at":"2026-09-25T04:44:22Z","outcome":"no_result","sources_reviewed":6,"candidate_sources_rejected":1,"rejection_reasons":"Roster-like name fragments lacked middle initial, captain grade, protected identifier, OSS context, or employment chronology.","research_notes":"Enhanced common-name protocol completed. CIA automated access was robots-disallowed.","next_action":"Inspect Box 531.","attempt_number":1,"research_agent_version":"before-oss-batch-668-v1"},
+    {"key":"b668-paul-mohn-reviewed-search","person_id":"08bf0ddf-b6b3-5bf5-9a62-cea523613109","source_adapter":"official_nara_cia_policy_limited_loc_naval_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Paul O Mohn; C SP-P; OSS; employer; occupation; Box 531","query_variant_type":"distinctive_name_unknown_grade_identity_employment_and_archival","started_at":"2026-09-25T04:23:36Z","completed_at":"2026-09-25T04:44:22Z","outcome":"no_result","sources_reviewed":7,"candidate_sources_rejected":2,"rejection_reasons":"Later legal-writing and Agriculture publication namesakes lack a grade, identifier, OSS, or prewar chronology bridge.","research_notes":"Unfamiliar grade preserved without forced classification. CIA automated access was robots-disallowed.","next_action":"Inspect Box 531.","attempt_number":1,"research_agent_version":"before-oss-batch-668-v1"},
+    {"key":"b668-dorothy-mohr-reviewed-search","person_id":"c5cc12bb-f4d1-5a3b-8750-c34d8d9ed78e","source_adapter":"official_nara_cia_policy_limited_loc_government_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Dorothy A Mohr; CAF-4; OSS; employer; occupation; Box 531","query_variant_type":"common_name_civilian_grade_identity_employment_and_archival","started_at":"2026-09-25T04:23:36Z","completed_at":"2026-09-25T04:44:22Z","outcome":"no_result","sources_reviewed":6,"candidate_sources_rejected":0,"rejection_reasons":"No result supplied CAF-4, OSS, Box 531, or other corroborating identifiers beyond the common name.","research_notes":"Enhanced common-name protocol completed. CIA automated access was robots-disallowed.","next_action":"Inspect Box 531.","attempt_number":1,"research_agent_version":"before-oss-batch-668-v1"},
+    {"key":"b668-charlie-moia-reviewed-search","person_id":"28a1efc4-3107-51ee-807c-ec2a8d6584d4","source_adapter":"official_nara_cia_policy_limited_loc_army_bulk_military_institutional_obituary_directory_and_targeted_web_review","query_text":"Charlie Moia; Sergeant; OSS; employer; occupation; protected identifier","query_variant_type":"distinctive_name_rank_identity_employment_and_archival","started_at":"2026-09-25T04:23:36Z","completed_at":"2026-09-25T04:44:22Z","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":0,"research_notes":"Official Army identity evidence accepted; no named employer was inferred from coded occupation data. CIA automated access was robots-disallowed.","next_action":"Inspect Box 531.","attempt_number":1,"research_agent_version":"before-oss-batch-668-v1"},
+    {"key":"b668-arthur-mokin-reviewed-search","person_id":"cca7dafd-b924-5d51-98a2-3a5715cb4fa1","source_adapter":"official_nara_cia_policy_limited_loc_army_bulk_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Arthur J Mokin; Arthur Mokin; OSS; employer; occupation; protected identifier","query_variant_type":"distinctive_name_identity_employment_and_archival","started_at":"2026-09-25T04:23:36Z","completed_at":"2026-09-25T04:44:22Z","outcome":"source_reviewed","sources_reviewed":8,"candidate_sources_rejected":3,"rejection_reasons":"Postwar author and documentary-filmmaker material lacks a direct pre-OSS employer or explicit bridge to the indexed file.","research_notes":"Official Army identity evidence accepted; later creative work was not back-projected. CIA automated access was robots-disallowed.","next_action":"Inspect Box 531.","attempt_number":1,"research_agent_version":"before-oss-batch-668-v1"},
+    {"key":"b668-howard-mold-reviewed-search","person_id":"85841e79-5d6c-5c71-b77d-bc278c6ca943","source_adapter":"official_nara_cia_policy_limited_loc_military_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Howard P Mold; Captain; OSS; employer; occupation; Box 531","query_variant_type":"common_name_rank_identity_employment_and_archival","started_at":"2026-09-25T04:23:36Z","completed_at":"2026-09-25T04:44:22Z","outcome":"no_result","sources_reviewed":6,"candidate_sources_rejected":0,"rejection_reasons":"No result supplied two corroborating identifiers beyond the name and captain grade.","research_notes":"Enhanced common-name protocol completed. CIA automated access was robots-disallowed.","next_action":"Inspect Box 531.","attempt_number":1,"research_agent_version":"before-oss-batch-668-v1"},
+    {"key":"b668-harry-moles-reviewed-search","person_id":"ea45267b-2c07-5168-a9c5-87c8a72e52b1","source_adapter":"official_nara_cia_policy_limited_loc_army_bulk_military_institutional_obituary_directory_and_targeted_web_review","query_text":"Harry J Moles; Private; OSS; employer; occupation; protected identifier","query_variant_type":"distinctive_name_rank_identity_employment_and_archival","started_at":"2026-09-25T04:23:36Z","completed_at":"2026-09-25T04:44:22Z","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":0,"research_notes":"Official Army identity evidence accepted; no named employer was inferred from coded occupation data. CIA automated access was robots-disallowed.","next_action":"Inspect Box 531.","attempt_number":1,"research_agent_version":"before-oss-batch-668-v1"},
+    {"key":"b668-stanley-moles-reviewed-search","person_id":"41ceba1f-9c1d-5646-9fd4-17c99b150313","source_adapter":"official_nara_cia_policy_limited_loc_military_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Stanley A Moles; Sergeant; OSS; employer; occupation; Box 531","query_variant_type":"common_name_rank_identity_employment_and_archival","started_at":"2026-09-25T04:23:36Z","completed_at":"2026-09-25T04:44:22Z","outcome":"no_result","sources_reviewed":6,"candidate_sources_rejected":0,"rejection_reasons":"No result supplied rank, protected identifier, OSS, Box 531, residence, or predecessor-employment corroboration.","research_notes":"Enhanced common-name protocol completed. CIA automated access was robots-disallowed.","next_action":"Inspect Box 531.","attempt_number":1,"research_agent_version":"before-oss-batch-668-v1"},
+    {"key":"b668-anthony-molino-reviewed-search","person_id":"56fd7409-4cba-5cea-ac48-685bc58abb3d","source_adapter":"official_nara_cia_policy_limited_loc_army_bulk_military_institutional_obituary_directory_and_targeted_web_review","query_text":"Anthony N Molino; OSS; employer; occupation; protected identifier","query_variant_type":"distinctive_name_identity_employment_and_archival","started_at":"2026-09-25T04:23:36Z","completed_at":"2026-09-25T04:44:22Z","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":0,"research_notes":"Official Army identity evidence accepted; no named employer was inferred from coded occupation data. CIA automated access was robots-disallowed.","next_action":"Inspect Box 531.","attempt_number":1,"research_agent_version":"before-oss-batch-668-v1"},
+    {"key":"b668-henry-moll-reviewed-search","person_id":"1d42a434-5bf3-5ae3-8894-fa6599534203","source_adapter":"official_nara_cia_policy_limited_loc_army_bulk_military_institutional_obituary_directory_and_targeted_web_review","query_text":"Henry C Moll; T-3; OSS; employer; occupation; protected identifier","query_variant_type":"distinctive_name_rank_identity_employment_and_archival","started_at":"2026-09-25T04:23:36Z","completed_at":"2026-09-25T04:44:22Z","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":0,"research_notes":"Official Army identity evidence accepted; no named employer was inferred from coded occupation data. CIA automated access was robots-disallowed.","next_action":"Inspect Box 531.","attempt_number":1,"research_agent_version":"before-oss-batch-668-v1"},
+    {"key":"b668-mogene-moller-reviewed-search","person_id":"63850c2d-0fa9-5e13-848d-c3d421319c23","source_adapter":"official_nara_cia_policy_limited_loc_military_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Mogene P Moller; Mogene Moller; Captain; OSS; employer; Box 531","query_variant_type":"unusual_name_spelling_variant_rank_employment_and_archival","started_at":"2026-09-25T04:23:36Z","completed_at":"2026-09-25T04:44:22Z","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":0,"rejection_reasons":"No exact or defensible spelling-variant result supplied a direct identity or employment bridge.","research_notes":"Protocol adapted for an unusual or possibly misspelled name. CIA automated access was robots-disallowed.","next_action":"Inspect Box 531.","attempt_number":1,"research_agent_version":"before-oss-batch-668-v1"},
+    {"key":"b668-sigmund-molnar-reviewed-search","person_id":"c3ad9ef2-4c8e-5523-903e-f7034470b159","source_adapter":"official_nara_cia_policy_limited_loc_army_bulk_military_institutional_obituary_directory_and_targeted_web_review","query_text":"Sigmund L Molnar; OSS; employer; occupation; protected identifier","query_variant_type":"distinctive_name_identity_employment_and_archival","started_at":"2026-09-25T04:23:36Z","completed_at":"2026-09-25T04:44:22Z","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":0,"research_notes":"Official Army identity evidence accepted; no named employer was inferred from coded occupation data. CIA automated access was robots-disallowed.","next_action":"Inspect Box 531.","attempt_number":1,"research_agent_version":"before-oss-batch-668-v1"},
+    {"key":"b668-samuel-molodow-reviewed-search","person_id":"40cc09e6-d185-554f-8600-c565cfa6333b","source_adapter":"official_nara_cia_policy_limited_loc_army_bulk_military_institutional_obituary_directory_and_targeted_web_review","query_text":"Samuel H Molodow; Sam H Molodow; Sergeant; OSS; employer; protected identifier","query_variant_type":"rare_name_first_name_variant_identity_employment_and_archival","started_at":"2026-09-25T04:23:36Z","completed_at":"2026-09-25T04:44:22Z","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":0,"research_notes":"Official Army identity evidence accepted with the Sam/Samuel variant preserved; no named employer was inferred from coded data. CIA automated access was robots-disallowed.","next_action":"Inspect Box 531.","attempt_number":1,"research_agent_version":"before-oss-batch-668-v1"},
+    {"key":"b668-kenneth-moloy-reviewed-search","person_id":"b0304562-4747-5a5f-8570-9c1798ca35ab","source_adapter":"official_nara_cia_policy_limited_loc_military_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Kenneth Moloy; OSS; employer; occupation; Box 532","query_variant_type":"distinctive_name_missing_grade_employment_and_archival","started_at":"2026-09-25T04:23:36Z","completed_at":"2026-09-25T04:44:22Z","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":0,"rejection_reasons":"No result supplied an OSS, Box 532, residence, rank, or predecessor-employment bridge.","research_notes":"Minimum staged protocol completed. CIA automated access was robots-disallowed and was not treated as negative evidence.","next_action":"Inspect Box 532.","attempt_number":1,"research_agent_version":"before-oss-batch-668-v1"}
+  ]
+}
