@@ -109,9 +109,32 @@ The exact rebuilt tree passed these release gates:
   304,588,544 bytes**, SHA-256
   `0482126407f85dc4b06c9cb976657e86bbdb5be85fb52bfae27e9cc035a00ba6`.
 
-## Release status
+## Released and verified live
 
-Publication and immutable live verification are pending the Batch 703 commit.
+Batch 703 was fast-forwarded to `main` as commit
+[`65f63a9c741a0a2d28440ace41417f34307e0aae`](https://github.com/therealjameswilson/before-oss/commit/65f63a9c741a0a2d28440ace41417f34307e0aae).
+The GitHub Pages build and deployment
+[`37122525276`](https://github.com/therealjameswilson/before-oss/actions/runs/37122525276)
+and independent test workflow
+[`37122525290`](https://github.com/therealjameswilson/before-oss/actions/runs/37122525290)
+passed on 2026-10-03 America/New_York. GitHub emitted advisory warnings that
+several official actions still target Node.js 20 while runners force Node.js
+24, and that `ubuntu-latest` is scheduled to migrate to Ubuntu 26; the
+workflows nevertheless completed successfully.
+
+Post-deployment verification compared the public site with that exact commit.
+All 67 manifest assets totaling 103,928,896 bytes matched, as did eight core
+routes, all 29 source-register pages, and the 22 Batch 703 profiles changed by
+the reviewed-evidence bundle. Edward E Nicholas Jr.'s separately reviewed and
+unchanged cohort profile also returned HTTP 200, so all 23 cohort routes were
+reachable. The live site reports 23,978 source rows, 23,939 person entities,
+9,208 researched people, 707 verified affiliations, 319 verified employers,
+and 14,726 not-started people. Frederick W Nicholls's War Office-to-SOE
+pathway, Osgood M Nichols's two qualified federal assignments, the unmerged
+Nicholich/Nicolich conflict, all six identity-only decisions, and the
+unresolved profiles render from their public URLs. The oil-company directory
+remains visible with nine cited people across eleven historically named
+companies.
 
 ## Resume
 
