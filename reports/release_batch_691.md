@@ -95,11 +95,22 @@ The exact rebuilt tree passed these release gates:
   302,771,943 bytes**, SHA-256
   `b883e1a6651328dfe580959fc739fa0aaf169d5578f15fd9fd978f462f2fef3b`.
 
-## Release status
+## Released and verified live
 
-Batch 691 is a local release candidate. It has not been pushed or deployed.
-The public GitHub Pages site continues to expose the independently verified
-Batch 689 tree at commit `df6b1917320dda7823cce8d79e89614a6f6f03f7`.
+Batches 690 and 691 were fast-forwarded to `main` as commit
+[`b7e832c5c6fe683ff179a2e5068ffbede110b0fd`](https://github.com/therealjameswilson/before-oss/commit/b7e832c5c6fe683ff179a2e5068ffbede110b0fd).
+The GitHub Pages build and deployment
+[`37091492397`](https://github.com/therealjameswilson/before-oss/actions/runs/37091492397)
+passed on 2026-10-02 America/New_York.
+
+Post-deployment checks returned HTTP 200 for the live homepage, Batch 691
+statistics, the oil-company category, and the public personnel and affiliation
+downloads. The live statistics file and both tested CSV downloads matched the
+validated release byte for byte. The public site therefore reports 23,978
+source rows, 23,939 person entities, 8,938 researched people, 692 verified
+affiliations, 312 verified employers, and 14,996 not-started people. The
+[oil-company category](https://therealjameswilson.github.io/before-oss/oil-companies/)
+continues to show nine people across 11 historically named companies.
 
 ## Resume
 
