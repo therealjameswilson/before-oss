@@ -94,10 +94,27 @@ The exact rebuilt tree passed these release gates:
   303,967,683 bytes**, SHA-256
   `dba018231ad2e7f01816bd088595026898b204778b18482512cad86351979fa5`.
 
-## Release status
+## Released and verified live
 
-Publication verification is recorded below after GitHub Pages deploys the
-reviewed commit.
+Batch 699 was fast-forwarded to `main` as commit
+[`2e47baa7f9d0f6e7880844ed8e94aa92ee222a09`](https://github.com/therealjameswilson/before-oss/commit/2e47baa7f9d0f6e7880844ed8e94aa92ee222a09).
+The GitHub Pages build and deployment
+[`37112081847`](https://github.com/therealjameswilson/before-oss/actions/runs/37112081847)
+and independent test workflow
+[`37112081845`](https://github.com/therealjameswilson/before-oss/actions/runs/37112081845)
+passed on 2026-10-03 America/New_York. GitHub emitted advisory warnings that
+several official actions still target Node.js 20 while runners force Node.js
+24, and that `ubuntu-latest` is scheduled to migrate to Ubuntu 26; the
+workflows nevertheless completed successfully.
+
+Post-deployment verification compared the public site with that exact commit.
+All 67 manifest assets totaling 103,564,274 bytes matched, as did eight core
+routes, all 29 source-register pages, and the 23 Batch 699 profile routes. The
+live site reports 23,978 source rows, 23,939 person entities, 9,121 researched
+people, 703 verified affiliations, 317 verified employers, and 14,813
+not-started people. The
+[oil-company category](https://therealjameswilson.github.io/before-oss/oil-companies/)
+continues to show nine people across 11 historically named companies.
 
 ## Resume
 
