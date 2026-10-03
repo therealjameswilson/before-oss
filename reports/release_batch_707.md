@@ -109,10 +109,31 @@ known product failure. The bounded release suite exercises the core routes,
 Batch 707 profiles, analytics, responsive layouts, and accessibility across all
 three configured browser projects.
 
-## Deployment status
+## Released and verified live
 
-Commit, GitHub Actions, and live-site verification details will be appended
-after the audited release is pushed and the public deployment passes.
+Batch 707 was fast-forwarded to `main` as commit
+[`d0b44259fb4825ac32976d03f4251afcbaeb7129`](https://github.com/therealjameswilson/before-oss/commit/d0b44259fb4825ac32976d03f4251afcbaeb7129).
+The GitHub Pages build and deployment
+[`37161208401`](https://github.com/therealjameswilson/before-oss/actions/runs/37161208401)
+and independent test workflow
+[`37161208439`](https://github.com/therealjameswilson/before-oss/actions/runs/37161208439)
+passed on 2026-10-03 America/New_York. GitHub emitted advisory warnings that
+several official actions still target Node.js 20 while runners force Node.js
+24, and that `ubuntu-latest` is scheduled to migrate to Ubuntu 26; the
+workflows nevertheless completed successfully.
+
+Post-deployment verification compared the public site with that exact commit.
+All 67 manifest assets totaling 104,280,306 bytes matched, as did eight core
+routes, all 29 source-register pages, and all 23 Batch 707 profiles changed by
+the reviewed-evidence bundle. The live site reports 23,978 source rows, 23,939
+person entities, 9,300 researched people, 711 verified affiliations, 320
+verified employers, and 14,634 not-started people. Isamu Noguchi's conditional
+identity and occupation, Joseph Noia's identity-only OSS roster evidence,
+Charles R Norberg's qualified last civilian employer, all five additional
+Army-supported identity decisions, both unmerged spelling conflicts, and the
+unresolved profiles render from their public URLs. The oil-company directory
+remains visible with nine cited people across eleven historically named
+companies.
 
 ## Resume
 
