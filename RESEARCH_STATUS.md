@@ -1,5 +1,35 @@
 # Research status
 
+Batch 693 completed the boundary row on PDF page 336 and page 337, rows 1-22,
+from **Harry C Nadler** through **Shingi Nakamura**, with a saved terminal
+outcome for all 23 people. Chiyeko Nakamura now has high-confidence immediate
+and last-civilian employment at Columbia University, dated May-September 1944
+before her September 11 OSS entry. Finn Nagell has two separately normalized
+1928-1932 publishing employers and a qualified 1941-1944 Norwegian Defence
+Intelligence Office assignment; none is labeled immediate. Yoshinao Nakada's
+Caltech class-of-1940 affiliation remains student status, not employment.
+Shingi Nakamura's prewar Okinawan-community leadership and occupations are
+published without inventing an employer. Edward S Nakamura remains a probable
+identity, while the Albin/Alvin Nagler name conflict remains explicit. Eighteen
+people have `no_reliable_result_after_protocol`, two have `completed`, and one
+each has `conflicting_sources`, `documented_prewar_employer_found`, and
+`verified_employer_found`. The oil-company category remains evidence-scoped to
+**nine people across 11 historically named companies**. See
+`research/batch-693-progress.md`. No authenticated NARA Catalog request was
+made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **8,984/23,939 (37.5287%)**;
+verified-employer coverage is **315/23,939 (1.3158%)**;
+verified-affiliation coverage is **697/23,939 (2.9116%)**; archival-review
+coverage is **7,441/23,939 (31.0832%)**. There are **14,950** `not_started`
+people and **519** possible-duplicate groups. SQLite retains **16,188**
+attempts or plans and **5,810** claims: 1,340 confirmed, 2,583 high, 1,459
+medium, 196 low, and 232 conflicting. It has **5,432** citation records and
+**2,675** unique source documents. The public projection has **2,372**
+affiliations, **799** organizations, **4,215** sources, and **5,607** claims.
+Full-index historical research remains unfinished.
+
 Batch 691 completed PDF page 335, row 46, and page 336, rows 1-22, from
 **William T Mussaeus** through **Hugh H Myers**, with a saved reviewed outcome
 for all 23 people. Louis Muti is confirmed through a 1944 OSS board record and
