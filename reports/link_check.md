@@ -1,5 +1,21 @@
 # Link check
 
+Batch 689 local validation, 2026-10-02 UTC: the release build contains
+**24,765** HTML files and **24,837** total artifacts. Every internal link
+resolves, and the checker inventories **50,508** unique external URLs for the
+separate live check. The public-identifier audit compares **12,926** normalized
+identifiers and **120** formatted variants against all **24,837** artifacts,
+rejects **1,158** candidate substrings, and finds zero unexpected boundary,
+aggregate, or manifest-size matches. The local release verifier matches all
+**67** manifest-listed assets and **102,604,062** bytes at manifest SHA-256
+`b26abd54475258332b01450189e022a55494b9e922e0489cf7893f75bebf2a55`.
+Two consecutive static builds reproduce tree SHA-256
+`d41e8575363ff421ce08b1d6926ca6ad3d6c33eaaa62b35698bc5f63b9b901a9`;
+the tracked `site/public` tree is
+`59957ffab009b685f15d11e212647c945aefb432378244b080cfb7a883753402`.
+External URLs were inventoried, not all requested; CI and live-release
+verification are separate gates.
+
 Batch 688 local validation, 2026-10-02 UTC: the release build contains
 **24,765** HTML files and **24,837** total artifacts. Every internal link
 resolves, and the checker inventories **50,506** unique external URLs for the

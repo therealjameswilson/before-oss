@@ -1,0 +1,1329 @@
+{
+  "bundle_version": "batch-689-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 689 archival review",
+  "sources": [
+    {
+      "key": "nara-index-b689",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 546-547",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 335, rows 1-23, visually checked against the rendered page",
+      "access_date": "2026-10-02",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Full service identifiers remain private. Original spellings, grades, boxes, locations, and the truncated printed notes are preserved."
+    },
+    {
+      "key": "army-bulk-b689",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; reviewed bulk record ordinals retained as claim locators",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; protected-identifier review for seven indexed people",
+      "access_date": "2026-10-02",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "Official bulk data, not a Catalog API response. Protected identifiers, coded occupations, and raw records are excluded from public output."
+    },
+    {
+      "key": "dni-ci-reader-james-r-murphy-b689",
+      "stable_url": "https://www.dni.gov/files/NCSC/documents/ci/CI_Reader_Vol2.pdf",
+      "archival_identifier": "Counterintelligence Reader, Volume 2",
+      "title": "Counterintelligence Reader, Volume 2: Counterintelligence in World War II",
+      "author_creator": "National Counterintelligence Center",
+      "repository_publisher": "Office of the Director of National Intelligence",
+      "locator": "Chapter 3, printed pages 153 and 158; PDF pages 158 and 163",
+      "access_date": "2026-10-02",
+      "source_quality": "A_direct_official",
+      "collection_name": "National Counterintelligence and Security Center counterintelligence readers",
+      "rights_notes": "Used for official OSS role and identity context; the source does not establish pre-OSS employment."
+    },
+    {
+      "key": "washington-post-james-r-murphy-b689",
+      "stable_url": "https://www.washingtonpost.com/archive/local/1986/10/09/12de9a8e-5891-4015-964b-68632829798a/",
+      "title": "James Russell Murphy, 81, Washington lawyer and OSS official",
+      "repository_publisher": "The Washington Post",
+      "publication_record_date": "1986-10-09",
+      "locator": "Obituary paragraphs describing his 1931-1941 private practice and spring 1941 move to the Coordinator of Information",
+      "access_date": "2026-10-02",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Washington Post archive",
+      "rights_notes": "Only project-authored paraphrases and one short excerpt are retained."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "self-employed-legal-practice-b689",
+      "organization_id": "b38d4d4f-f70c-5ab9-b3ac-59a5e9892f1f",
+      "canonical_name": "Self-employed legal practice",
+      "historical_name": "private law practice",
+      "aliases": [
+        "private practice"
+      ],
+      "organization_type": "self-employment",
+      "sector": "self_employed",
+      "country": "United States",
+      "normalization_notes": "Used only where sources document an individual legal practice but do not name a firm."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "james-r-murphy-private-law-b689",
+      "person_id": "c7f766eb-3d2f-5da9-a9f6-9880cfa0f1db",
+      "organization_key": "self-employed-legal-practice-b689",
+      "organization_name_as_found": "private practice in Washington",
+      "role_title": "Attorney in private practice",
+      "occupation": "Attorney",
+      "relationship_type": "self_employment",
+      "start_date": "1931",
+      "end_date": "1941",
+      "date_precision": "The obituary says Murphy entered private practice after his 1931 law degree, remained there for the next ten years, and joined Donovan in spring 1941.",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The obituary explicitly sequences ten years of private practice before his spring 1941 move to Donovan's COI. No prewar firm name is asserted, and the later law firm is not back-projected."
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "3bba56cc-ed72-5305-8236-afa131e8e952",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name and indexed sergeant grade were insufficient to distinguish several military, legal, engineering, business, cemetery, and genealogy namesakes.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Sergeant Daniel E Murphy's Box 546 jacket and original Army record for identity, occupation, and pre-service employer.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "0df768fd-3eeb-5b43-94ca-e95d6d429f73",
+      "identity_status": "unresolved",
+      "identity_evidence": "Official, exact-name OSS, employment, obituary, institutional, directory, newspaper, and archival searches found no reliable bridge to the indexed CAF-4 employee.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Dorothy C Murphy's Box 546 jacket for identifiers, prior occupation, employer, and former names.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "5e443cb2-57cb-5004-84eb-6d3fb191285d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name and indexed technician grade did not provide a reliable bridge to a reviewed Army or biographical record.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Technician Fourth Grade Edward J Murphy's Box 546 jacket and original Army record for identity and pre-service employer.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ec743fdb-8de5-55b0-8c74-3f383bb857f5",
+      "identity_status": "unresolved",
+      "identity_evidence": "Officer, official, exact-name OSS, employment, obituary, institutional, and archival searches found no reliable bridge to the indexed major.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Major Gerald R Murphy's Box 546 jacket and officer records for identity and predecessor assignment.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "a4af0bb1-fdf5-5d16-8310-77cfde04bcce",
+      "identity_status": "unresolved",
+      "identity_evidence": "The CAF-5 grade and truncated printed note 'also AS' were preserved, but accessible sources did not resolve the note or identify the person.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Ione M Murphy's Box 546 jacket and the continuation of the truncated 'also AS' note for identifiers and prior employer.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "523cba56-b1b7-5eac-8c1e-635a3556b446",
+      "identity_status": "unresolved",
+      "identity_evidence": "Several same-name military and cemetery records were reviewed, but the unranked index row lacks a corroborating identifier.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review James H Murphy's Box 546 jacket for rank, identifiers, residence, occupation, and employer.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "c7f766eb-3d2f-5da9-a9f6-9880cfa0f1db",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and senior CAF-15 grade align with an official history naming James R. Murphy as OSS X-2 chief and a reputable obituary identifying James Russell Murphy's COI and OSS leadership.",
+      "name_variants": [
+        "James Russell Murphy"
+      ],
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review James R Murphy's Box 546 jacket to confirm his COI accession date and whether his private practice had a historical firm name.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "de7cdf23-ddc9-520e-b0d1-bf8fa4f38e8d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common unranked name lacks a protected identifier; staged official and biographical searches did not distinguish the indexed person.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review John A Murphy's Box 546 jacket for identifiers, rank, occupation, and employer.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "2fafa83f-bb32-5e2d-9d18-eac12b5013e3",
+      "identity_status": "unresolved",
+      "identity_evidence": "Officer, official, exact-name OSS, employment, obituary, and archival searches found no reliable bridge to the indexed captain.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Captain John J Murphy's Box 546 jacket and officer records for identity and predecessor assignment.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "f4218c56-5ec6-53ae-8558-bce6b87773a9",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common unranked name lacks a protected identifier; exact-name and variant searches found no reliable OSS identity bridge.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review John D Murphy's Box 547 jacket for identifiers, rank, occupation, and employer.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "250c1df9-ec52-53ba-9fc3-27f2baa7b4f9",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name and protected identifier did not yield a reviewed official identity match or reliable biographical bridge.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review John R Murphy's Box 547 jacket and original service record for identity, occupation, and employer.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "21cf2b5f-13a2-53f5-adf2-88b7746a8454",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official Army bulk record adds middle initial E and agrees with the indexed name on a nonshared protected identifier.",
+      "name_variants": [
+        "Joseph E Murphy"
+      ],
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Joseph Murphy's Box 547 jacket for his Army-to-OSS path and a named civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "93f8417e-3f92-592a-abd0-4aecbb84e879",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact name and a nonshared protected identifier agree with the official Army bulk record.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Sergeant Rex R Murphy's Box 547 jacket for his Army-to-OSS path and a named civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "58585f10-8ca4-5133-83da-7eda533a94d3",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact name and a nonshared protected identifier agree with the official Army bulk record.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Private First Class Thomas R Murphy's Box 547 jacket for his Army-to-OSS path and a named civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1a149254-702b-5180-966e-e10df38cb557",
+      "identity_status": "unresolved",
+      "identity_evidence": "Official, exact-name OSS, employment, obituary, institutional, directory, newspaper, and archival searches found no reliable bridge to the indexed CAF-5 employee.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Virginia R Murphy's Box 547 jacket for identifiers, prior occupation, employer, and former names.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "5385d453-4e9e-59be-9131-cde48c34a707",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact name and a nonshared protected identifier agree with the official Army bulk record.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Warren G Murphy's Box 547 jacket for his Army-to-OSS path and a named civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f0b796c7-497e-5e7e-895f-5ec041f68b8c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The senior CAF-12 grade narrowed the context but did not bridge this common name to a reliable official or institutional biography.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review William B Murphy's Box 547 jacket for government chronology, occupation, and prior employer.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "4b08870e-4487-5c4f-82c3-8d6cd872913b",
+      "identity_status": "unresolved",
+      "identity_evidence": "Navy officer, official, exact-name OSS, employment, obituary, institutional, and archival searches found no reliable bridge to the indexed lieutenant commander.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Lieutenant Commander Willis A Murphy's Box 547 jacket and Navy officer records for identity and predecessor assignment.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "0a9cfd66-0113-5e2f-afbb-8fd68d9ed037",
+      "identity_status": "conflicting",
+      "identity_evidence": "One Army bulk record agrees on the exact name and protected identifier, while a second malformed bulk record carries the same identifier with an unrelated-looking name string and invalid-looking coded fields.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "identifier-record-conflict-albert-e-murray-page335",
+      "research_status": "conflicting_sources",
+      "next_action": "Compare Albert E Murray's Box 547 jacket, the continuation of the truncated 'Refer to' note, and both original Army records before accepting an identity or employer.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "f7f7eb5a-bc82-565c-821b-1c7a23097bf5",
+      "identity_status": "unresolved",
+      "identity_evidence": "Official, exact-name OSS, employment, obituary, institutional, directory, newspaper, and archival searches found no reliable bridge to the indexed CAF-2 employee.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Cathleen Murray's Box 547 jacket for identifiers, prior occupation, employer, and former names.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ffb7de36-8c56-5258-b2e6-a2d49d5b3773",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact name and a nonshared protected identifier agree with the official Army bulk record.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Private First Class Emmett L Murray's Box 547 jacket for his Army-to-OSS path and a named civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "18c830b0-a43c-5c8c-879d-83a110ab0e92",
+      "identity_status": "unresolved",
+      "identity_evidence": "The exact name and technician grade did not yield a reviewed official identity match or reliable biographical bridge.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Technician Fifth Grade Guy E Murray's Box 547 jacket and original Army record for identity and pre-service employer.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "2fe06c19-7390-5708-b875-65a4e7be5e90",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact name and a nonshared protected identifier agree with the official Army bulk record; unrelated Henry 'Harry' Murray psychology results were rejected.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Review Technician Fifth Grade Harry A Murray's Box 547 jacket for his Army-to-OSS path and a named civilian employer.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "b689-daniel-e-murphy-reviewed-search",
+      "person_id": "3bba56cc-ed72-5305-8236-afa131e8e952",
+      "source_adapter": "official_nara_cia_loc_army_institutional_newspaper_obituary_directory_and_targeted_web_review",
+      "query_text": "Daniel E Murphy; Sgt; OSS; Army; employer; occupation; obituary",
+      "query_variant_type": "common_name_rank_protected_identifier_and_employment",
+      "started_at": "2026-10-02T20:35:00Z",
+      "completed_at": "2026-10-03T01:00:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "Modern lawyer, government engineer, business, cemetery, and genealogy namesakes lacked an OSS or protected-identifier bridge.",
+      "research_notes": "Minimum staged protocol completed; no employer assigned.",
+      "next_action": "Review Box 546 and the original Army record.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-689-v1"
+    },
+    {
+      "key": "b689-dorothy-c-murphy-reviewed-search",
+      "person_id": "0df768fd-3eeb-5b43-94ca-e95d6d429f73",
+      "source_adapter": "official_nara_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review",
+      "query_text": "Dorothy C Murphy; CAF-4; OSS; employer; occupation; obituary",
+      "query_variant_type": "common_name_grade_and_employment",
+      "started_at": "2026-10-02T20:35:00Z",
+      "completed_at": "2026-10-03T01:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Minimum staged protocol completed; no reliable identity or employer candidate found.",
+      "next_action": "Review Box 546.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-689-v1"
+    },
+    {
+      "key": "b689-edward-j-murphy-reviewed-search",
+      "person_id": "5e443cb2-57cb-5004-84eb-6d3fb191285d",
+      "source_adapter": "official_nara_cia_loc_army_institutional_newspaper_obituary_directory_and_targeted_web_review",
+      "query_text": "Edward J Murphy; T-4; OSS; Army; employer; occupation",
+      "query_variant_type": "common_name_rank_protected_identifier_and_employment",
+      "started_at": "2026-10-02T20:35:00Z",
+      "completed_at": "2026-10-03T01:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Minimum staged protocol completed; no reliable identity or employer candidate found.",
+      "next_action": "Review Box 546 and the original Army record.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-689-v1"
+    },
+    {
+      "key": "b689-gerald-r-murphy-reviewed-search",
+      "person_id": "ec743fdb-8de5-55b0-8c74-3f383bb857f5",
+      "source_adapter": "official_nara_cia_loc_army_officer_institutional_newspaper_obituary_directory_and_targeted_web_review",
+      "query_text": "Gerald R Murphy; Major; OSS; Army; employer; occupation; obituary",
+      "query_variant_type": "common_name_officer_identifier_and_employment",
+      "started_at": "2026-10-02T20:35:00Z",
+      "completed_at": "2026-10-03T01:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Minimum staged protocol completed; no reliable identity or employer candidate found.",
+      "next_action": "Review Box 546 and officer records.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-689-v1"
+    },
+    {
+      "key": "b689-ione-m-murphy-reviewed-search",
+      "person_id": "a4af0bb1-fdf5-5d16-8310-77cfde04bcce",
+      "source_adapter": "official_nara_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review",
+      "query_text": "Ione M Murphy; CAF-5; also AS; OSS; employer; occupation",
+      "query_variant_type": "distinctive_name_grade_truncated_note_and_employment",
+      "started_at": "2026-10-02T20:35:00Z",
+      "completed_at": "2026-10-03T01:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Minimum staged protocol completed; the printed note remains unresolved and no employer was assigned.",
+      "next_action": "Review Box 546 and the full note continuation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-689-v1"
+    },
+    {
+      "key": "b689-james-h-murphy-reviewed-search",
+      "person_id": "523cba56-b1b7-5eac-8c1e-635a3556b446",
+      "source_adapter": "official_nara_cia_loc_military_institutional_newspaper_obituary_directory_and_targeted_web_review",
+      "query_text": "James H Murphy; OSS; employer; occupation; obituary; military",
+      "query_variant_type": "common_name_unranked_identity_and_employment",
+      "started_at": "2026-10-02T20:35:00Z",
+      "completed_at": "2026-10-03T01:00:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Military and grave records for same-name people lacked a Box 546, rank, identifier, or OSS bridge.",
+      "research_notes": "Minimum staged protocol completed; no employer assigned.",
+      "next_action": "Review Box 546.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-689-v1"
+    },
+    {
+      "key": "b689-james-r-murphy-reviewed-search",
+      "person_id": "c7f766eb-3d2f-5da9-a9f6-9880cfa0f1db",
+      "source_adapter": "official_nara_dni_cia_loc_newspaper_obituary_legal_directory_and_targeted_web_review",
+      "query_text": "James R Murphy; James Russell Murphy; CAF-15; OSS; X-2; lawyer; employer 1940 1941",
+      "query_variant_type": "middle_name_senior_grade_oss_role_private_practice_and_chronology",
+      "started_at": "2026-10-02T20:35:00Z",
+      "completed_at": "2026-10-03T01:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Later law-firm and postwar career details were excluded from the pre-OSS claim; no prewar firm name was back-projected.",
+      "research_notes": "Official OSS role evidence and a reputable obituary establish a high-confidence identity and an explicit private-practice-to-COI sequence.",
+      "next_action": "Review Box 546 for the COI accession date and any prewar firm name.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-689-v1"
+    },
+    {
+      "key": "b689-john-a-murphy-reviewed-search",
+      "person_id": "de7cdf23-ddc9-520e-b0d1-bf8fa4f38e8d",
+      "source_adapter": "official_nara_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review",
+      "query_text": "John A Murphy; OSS; employer; occupation; obituary",
+      "query_variant_type": "common_name_unranked_identity_and_employment",
+      "started_at": "2026-10-02T20:35:00Z",
+      "completed_at": "2026-10-03T01:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Minimum staged protocol completed; no reliable identity or employer candidate found.",
+      "next_action": "Review Box 546.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-689-v1"
+    },
+    {
+      "key": "b689-john-j-murphy-reviewed-search",
+      "person_id": "2fafa83f-bb32-5e2d-9d18-eac12b5013e3",
+      "source_adapter": "official_nara_cia_loc_army_officer_institutional_newspaper_obituary_directory_and_targeted_web_review",
+      "query_text": "John J Murphy; Captain; OSS; Army; employer; occupation",
+      "query_variant_type": "common_name_officer_identifier_and_employment",
+      "started_at": "2026-10-02T20:35:00Z",
+      "completed_at": "2026-10-03T01:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Minimum staged protocol completed; no reliable identity or employer candidate found.",
+      "next_action": "Review Box 546 and officer records.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-689-v1"
+    },
+    {
+      "key": "b689-john-d-murphy-reviewed-search",
+      "person_id": "f4218c56-5ec6-53ae-8558-bce6b87773a9",
+      "source_adapter": "official_nara_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review",
+      "query_text": "John D Murphy; OSS; employer; occupation; obituary",
+      "query_variant_type": "common_name_unranked_identity_and_employment",
+      "started_at": "2026-10-02T20:35:00Z",
+      "completed_at": "2026-10-03T01:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Minimum staged protocol completed; no reliable identity or employer candidate found.",
+      "next_action": "Review Box 547.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-689-v1"
+    },
+    {
+      "key": "b689-john-r-murphy-reviewed-search",
+      "person_id": "250c1df9-ec52-53ba-9fc3-27f2baa7b4f9",
+      "source_adapter": "official_nara_cia_loc_military_institutional_newspaper_obituary_directory_and_targeted_web_review",
+      "query_text": "John R Murphy; OSS; military; employer; occupation; obituary",
+      "query_variant_type": "common_name_protected_identifier_and_employment",
+      "started_at": "2026-10-02T20:35:00Z",
+      "completed_at": "2026-10-03T01:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Minimum staged protocol completed; no reviewed official match or reliable employer candidate found.",
+      "next_action": "Review Box 547 and the original service record.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-689-v1"
+    },
+    {
+      "key": "b689-joseph-murphy-reviewed-search",
+      "person_id": "21cf2b5f-13a2-53f5-adf2-88b7746a8454",
+      "source_adapter": "official_nara_army_cia_loc_air_force_institutional_newspaper_obituary_directory_and_targeted_web_review",
+      "query_text": "Joseph Murphy; Joseph E Murphy; OSS; Army; employer; occupation; escape and evasion",
+      "query_variant_type": "protected_identifier_added_middle_initial_and_namesake_disambiguation",
+      "started_at": "2026-10-02T20:35:00Z",
+      "completed_at": "2026-10-03T01:00:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "An Air Force Academy finding-aid lead for a Second Lieutenant Joseph Murphy and other namesakes lacked the rank and protected-identifier bridge needed for this row.",
+      "research_notes": "Official Army identity match accepted; minimum staged protocol completed and no named employer assigned.",
+      "next_action": "Review Box 547 for the Army-to-OSS path and civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-689-v1"
+    },
+    {
+      "key": "b689-rex-r-murphy-reviewed-search",
+      "person_id": "93f8417e-3f92-592a-abd0-4aecbb84e879",
+      "source_adapter": "official_nara_army_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review",
+      "query_text": "Rex R Murphy; Sgt; OSS; Army; employer; occupation",
+      "query_variant_type": "protected_identifier_exact_name_rank_and_employment",
+      "started_at": "2026-10-02T20:35:00Z",
+      "completed_at": "2026-10-03T01:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Identity match accepted; other namesake and occupation leads did not name an employer or establish the Army-to-OSS sequence.",
+      "research_notes": "Minimum staged protocol completed; Army codes are not used as employer evidence.",
+      "next_action": "Review Box 547 for the Army-to-OSS path and civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-689-v1"
+    },
+    {
+      "key": "b689-thomas-r-murphy-reviewed-search",
+      "person_id": "58585f10-8ca4-5133-83da-7eda533a94d3",
+      "source_adapter": "official_nara_army_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review",
+      "query_text": "Thomas R Murphy; Pfc; OSS; Army; employer; occupation",
+      "query_variant_type": "protected_identifier_exact_name_rank_and_employment",
+      "started_at": "2026-10-02T20:35:00Z",
+      "completed_at": "2026-10-03T01:00:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Identity match accepted; other namesake and occupation leads did not name an employer or establish the Army-to-OSS sequence.",
+      "research_notes": "Minimum staged protocol completed; Army codes are not used as employer evidence.",
+      "next_action": "Review Box 547 for the Army-to-OSS path and civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-689-v1"
+    },
+    {
+      "key": "b689-virginia-r-murphy-reviewed-search",
+      "person_id": "1a149254-702b-5180-966e-e10df38cb557",
+      "source_adapter": "official_nara_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review",
+      "query_text": "Virginia R Murphy; CAF-5; OSS; employer; occupation; obituary",
+      "query_variant_type": "common_name_grade_and_employment",
+      "started_at": "2026-10-02T20:35:00Z",
+      "completed_at": "2026-10-03T01:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Minimum staged protocol completed; no reliable identity or employer candidate found.",
+      "next_action": "Review Box 547.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-689-v1"
+    },
+    {
+      "key": "b689-warren-g-murphy-reviewed-search",
+      "person_id": "5385d453-4e9e-59be-9131-cde48c34a707",
+      "source_adapter": "official_nara_army_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review",
+      "query_text": "Warren G Murphy; OSS; Army; employer; occupation; obituary",
+      "query_variant_type": "protected_identifier_exact_name_and_employment",
+      "started_at": "2026-10-02T20:35:00Z",
+      "completed_at": "2026-10-03T01:00:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Burial leads and unrelated archival hits lacked the protected-identifier and OSS bridge needed to establish employment.",
+      "research_notes": "Official Army identity match accepted; minimum staged protocol completed and no named employer assigned.",
+      "next_action": "Review Box 547 for the Army-to-OSS path and civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-689-v1"
+    },
+    {
+      "key": "b689-william-b-murphy-reviewed-search",
+      "person_id": "f0b796c7-497e-5e7e-895f-5ec041f68b8c",
+      "source_adapter": "official_nara_cia_loc_federal_directory_institutional_newspaper_obituary_and_targeted_web_review",
+      "query_text": "William B Murphy; CAF-12; OSS; federal; employer; occupation",
+      "query_variant_type": "common_name_senior_grade_government_and_employment",
+      "started_at": "2026-10-02T20:35:00Z",
+      "completed_at": "2026-10-03T01:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Minimum staged protocol completed; no reliable identity or employer candidate found.",
+      "next_action": "Review Box 547.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-689-v1"
+    },
+    {
+      "key": "b689-willis-a-murphy-reviewed-search",
+      "person_id": "4b08870e-4487-5c4f-82c3-8d6cd872913b",
+      "source_adapter": "official_nara_cia_loc_navy_officer_register_institutional_newspaper_obituary_and_targeted_web_review",
+      "query_text": "Willis A Murphy; Lieutenant Commander; OSS; Navy; employer; assignment",
+      "query_variant_type": "common_name_naval_officer_identifier_and_predecessor_assignment",
+      "started_at": "2026-10-02T20:35:00Z",
+      "completed_at": "2026-10-03T01:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Minimum staged protocol completed; no reliable identity, predecessor assignment, or employer candidate found.",
+      "next_action": "Review Box 547 and Navy officer records.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-689-v1"
+    },
+    {
+      "key": "b689-albert-e-murray-reviewed-search",
+      "person_id": "0a9cfd66-0113-5e2f-afbb-8fd68d9ed037",
+      "source_adapter": "official_nara_army_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review",
+      "query_text": "Albert E Murray; Cpl; Refer to; OSS; Army; employer; occupation",
+      "query_variant_type": "protected_identifier_record_conflict_truncated_note_and_employment",
+      "started_at": "2026-10-02T20:35:00Z",
+      "completed_at": "2026-10-03T01:00:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 12,
+      "rejection_reasons": "One exact Army record conflicts with a second malformed record carrying the same protected identifier; numerous same-name biographies lacked an independent bridge.",
+      "research_notes": "The identity conflict is preserved. Minimum staged protocol completed; no employer assigned and Army codes are not employer evidence.",
+      "next_action": "Review Box 547, the complete index note, and both original Army records.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-689-v1"
+    },
+    {
+      "key": "b689-cathleen-murray-reviewed-search",
+      "person_id": "f7f7eb5a-bc82-565c-821b-1c7a23097bf5",
+      "source_adapter": "official_nara_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review",
+      "query_text": "Cathleen Murray; CAF-2; OSS; employer; occupation; obituary",
+      "query_variant_type": "name_variant_grade_and_employment",
+      "started_at": "2026-10-02T20:35:00Z",
+      "completed_at": "2026-10-03T01:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Minimum staged protocol completed with Cathleen and Kathleen variants; no reliable identity or employer candidate found.",
+      "next_action": "Review Box 547.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-689-v1"
+    },
+    {
+      "key": "b689-emmett-l-murray-reviewed-search",
+      "person_id": "ffb7de36-8c56-5258-b2e6-a2d49d5b3773",
+      "source_adapter": "official_nara_army_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review",
+      "query_text": "Emmett L Murray; Pfc; OSS; Army; employer; occupation; obituary",
+      "query_variant_type": "protected_identifier_exact_name_rank_and_employment",
+      "started_at": "2026-10-02T20:35:00Z",
+      "completed_at": "2026-10-03T01:00:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Cemetery, person-search, and historic-directory namesakes lacked the protected-identifier and OSS bridge needed for employment.",
+      "research_notes": "Official Army identity match accepted; minimum staged protocol completed and no named employer assigned.",
+      "next_action": "Review Box 547 for the Army-to-OSS path and civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-689-v1"
+    },
+    {
+      "key": "b689-guy-e-murray-reviewed-search",
+      "person_id": "18c830b0-a43c-5c8c-879d-83a110ab0e92",
+      "source_adapter": "official_nara_cia_loc_army_institutional_newspaper_obituary_directory_and_targeted_web_review",
+      "query_text": "Guy E Murray; T-5; OSS; Army; employer; occupation",
+      "query_variant_type": "name_rank_protected_identifier_and_employment",
+      "started_at": "2026-10-02T20:35:00Z",
+      "completed_at": "2026-10-03T01:00:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Minimum staged protocol completed; no reviewed official identity match or named employer found.",
+      "next_action": "Review Box 547 and the original Army record.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-689-v1"
+    },
+    {
+      "key": "b689-harry-a-murray-reviewed-search",
+      "person_id": "2fe06c19-7390-5708-b875-65a4e7be5e90",
+      "source_adapter": "official_nara_army_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review",
+      "query_text": "Harry A Murray; T-5; OSS; Army; employer; occupation; Henry Murray",
+      "query_variant_type": "protected_identifier_exact_name_rank_and_famous_namesake_disambiguation",
+      "started_at": "2026-10-02T20:35:00Z",
+      "completed_at": "2026-10-03T01:00:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "Search results about psychologist Henry 'Harry' Murray and other namesakes lacked the exact identity and protected-identifier bridge.",
+      "research_notes": "Official Army identity match accepted; minimum staged protocol completed and no named employer assigned.",
+      "next_action": "Review Box 547 for the Army-to-OSS path and civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-batch-689-v1"
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-james-r-murphy-b689",
+      "person_id": "c7f766eb-3d2f-5da9-a9f6-9880cfa0f1db",
+      "claim_type": "identity",
+      "claim_text": "The indexed James R Murphy is a high-confidence match to James Russell Murphy, the Washington lawyer who joined COI and later led OSS X-2.",
+      "evidence_paraphrase": "The exact name and senior CAF-15 grade align with an official OSS history and a reputable obituary describing one continuous COI and OSS career.",
+      "identity_match_assessment": "High confidence from exact middle-initial name, senior civilian grade, official X-2 leadership evidence, and the obituary's explicit COI and OSS chronology.",
+      "temporal_assessment": "The sources establish COI service from spring 1941 and OSS counterintelligence leadership during 1942-1946.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The combined professional-grade and senior OSS-role evidence supplies the corroboration required for this otherwise common name.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 7; James R Murphy, CAF-15, Box 546"
+        },
+        {
+          "source_key": "dni-ci-reader-james-r-murphy-b689",
+          "locator_override": "Chapter 3, printed pages 153 and 158"
+        },
+        {
+          "source_key": "washington-post-james-r-murphy-b689",
+          "locator_override": "Obituary paragraphs 1-7"
+        }
+      ]
+    },
+    {
+      "key": "james-r-murphy-private-law-claim-b689",
+      "person_id": "c7f766eb-3d2f-5da9-a9f6-9880cfa0f1db",
+      "affiliation_key": "james-r-murphy-private-law-b689",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "James Russell Murphy practiced law privately in Washington for ten years immediately before joining Donovan's COI in spring 1941.",
+      "evidence_excerpt": "He was in private practice in Washington for the next 10 years.",
+      "evidence_paraphrase": "The obituary dates his law degree to 1931, says he then spent ten years in private practice, and explicitly sequences his spring 1941 move to Donovan's COI.",
+      "identity_match_assessment": "High-confidence match from exact indexed name, CAF-15 grade, and independently documented COI and OSS leadership.",
+      "temporal_assessment": "Explicit immediate pre-COI affiliation and last civilian employer status; no intervening role is reported.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Private practice is modeled as self-employment. The firm he belonged to at death is postwar and is not projected backward to 1931-1941.",
+      "sources": [
+        {
+          "source_key": "washington-post-james-r-murphy-b689",
+          "locator_override": "Obituary paragraphs 4-7"
+        },
+        {
+          "source_key": "dni-ci-reader-james-r-murphy-b689",
+          "support_type": "context_only",
+          "locator_override": "Chapter 3, official OSS X-2 role"
+        }
+      ]
+    },
+    {
+      "key": "identity-joseph-e-murphy-b689",
+      "person_id": "21cf2b5f-13a2-53f5-adf2-88b7746a8454",
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph Murphy has a high-confidence Army identity match that adds middle initial E.",
+      "evidence_paraphrase": "The official Army bulk record agrees on the indexed name and a nonshared protected identifier, while adding middle initial E.",
+      "identity_match_assessment": "High confidence from name agreement and a nonshared protected identifier.",
+      "temporal_assessment": "Identity evidence only; Army codes do not establish a named employer or immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Joseph E Murphy is retained as a documented variant. An unbridged Second Lieutenant namesake was rejected.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 12; Joseph Murphy, Box 547"
+        },
+        {
+          "source_key": "army-bulk-b689",
+          "locator_override": "Reviewed Army bulk ordinal 1518493; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-rex-r-murphy-b689",
+      "person_id": "93f8417e-3f92-592a-abd0-4aecbb84e879",
+      "claim_type": "identity",
+      "claim_text": "The indexed Rex R Murphy has a high-confidence Army identity match.",
+      "evidence_paraphrase": "The official Army bulk record agrees on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact name and protected-identifier agreement.",
+      "temporal_assessment": "Identity evidence only; Army codes do not establish a named employer or immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The indexed sergeant grade and Army record establish military context, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 13; Sergeant Rex R Murphy, Box 547"
+        },
+        {
+          "source_key": "army-bulk-b689",
+          "locator_override": "Reviewed Army bulk ordinal 1948317; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-thomas-r-murphy-b689",
+      "person_id": "58585f10-8ca4-5133-83da-7eda533a94d3",
+      "claim_type": "identity",
+      "claim_text": "The indexed Thomas R Murphy has a high-confidence Army identity match.",
+      "evidence_paraphrase": "The official Army bulk record agrees on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact name and protected-identifier agreement.",
+      "temporal_assessment": "Identity evidence only; Army codes do not establish a named employer or immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The indexed private first class grade and Army record establish military context, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 14; Private First Class Thomas R Murphy, Box 547"
+        },
+        {
+          "source_key": "army-bulk-b689",
+          "locator_override": "Reviewed Army bulk ordinal 3834873; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-warren-g-murphy-b689",
+      "person_id": "5385d453-4e9e-59be-9131-cde48c34a707",
+      "claim_type": "identity",
+      "claim_text": "The indexed Warren G Murphy has a high-confidence Army identity match.",
+      "evidence_paraphrase": "The official Army bulk record agrees on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact name and protected-identifier agreement.",
+      "temporal_assessment": "Identity evidence only; Army codes do not establish a named employer or immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Burial and archival namesake leads were not used as employment evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 16; Warren G Murphy, Box 547"
+        },
+        {
+          "source_key": "army-bulk-b689",
+          "locator_override": "Reviewed Army bulk ordinal 1463735; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-albert-e-murray-b689",
+      "person_id": "0a9cfd66-0113-5e2f-afbb-8fd68d9ed037",
+      "claim_type": "identity",
+      "claim_text": "Albert E Murray remains a conflicting identity rather than an accepted Army match.",
+      "evidence_paraphrase": "One Army record agrees on name and protected identifier, while a second malformed Army record carries the same identifier with an unrelated-looking name string and invalid-looking fields.",
+      "identity_match_assessment": "Conflicting; preserve both bulk records until the original Army data and personnel jacket resolve the discrepancy.",
+      "temporal_assessment": "Identity evidence only; it does not establish employment chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The truncated printed note 'Refer to' may matter and must not be silently completed or discarded.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 19; Corporal Albert E Murray, Box 547; truncated note 'Refer to'"
+        },
+        {
+          "source_key": "army-bulk-b689",
+          "locator_override": "Reviewed Army bulk ordinals 458685 and 7320365; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-emmett-l-murray-b689",
+      "person_id": "ffb7de36-8c56-5258-b2e6-a2d49d5b3773",
+      "claim_type": "identity",
+      "claim_text": "The indexed Emmett L Murray has a high-confidence Army identity match.",
+      "evidence_paraphrase": "The official Army bulk record agrees on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact name and protected-identifier agreement.",
+      "temporal_assessment": "Identity evidence only; Army codes do not establish a named employer or immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Cemetery and directory namesakes were rejected because they lacked the official bridge.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 21; Private First Class Emmett L Murray, Box 547"
+        },
+        {
+          "source_key": "army-bulk-b689",
+          "locator_override": "Reviewed Army bulk ordinal 7287397; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-harry-a-murray-b689",
+      "person_id": "2fe06c19-7390-5708-b875-65a4e7be5e90",
+      "claim_type": "identity",
+      "claim_text": "The indexed Harry A Murray has a high-confidence Army identity match.",
+      "evidence_paraphrase": "The official Army bulk record agrees on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact name and protected-identifier agreement.",
+      "temporal_assessment": "Identity evidence only; Army codes do not establish a named employer or immediate pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Psychologist Henry 'Harry' Murray is an unbridged namesake and is not assigned to this index row.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 23; Technician Fifth Grade Harry A Murray, Box 547"
+        },
+        {
+          "source_key": "army-bulk-b689",
+          "locator_override": "Reviewed Army bulk ordinal 4582913; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "status-daniel-e-murphy-b689",
+      "person_id": "3bba56cc-ed72-5305-8236-afa131e8e952",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official, exact-name OSS, employment, institutional, newspaper, obituary, directory, cemetery, and archival searches found namesakes but no reliable identity or employer bridge.",
+      "identity_match_assessment": "Unresolved beyond the indexed sergeant row and withheld identifier.",
+      "temporal_assessment": "No verified pre-OSS chronology was found.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 546 and the original Army record; online failure is not evidence that no prior employer existed.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 1; Sergeant Daniel E Murphy, Box 546"
+        }
+      ]
+    },
+    {
+      "key": "status-dorothy-c-murphy-b689",
+      "person_id": "0df768fd-3eeb-5b43-94ca-e95d6d429f73",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official, exact-name OSS, employment, institutional, newspaper, obituary, directory, and archival searches found no reliable identity or employer bridge.",
+      "identity_match_assessment": "Unresolved beyond the indexed CAF-4 row.",
+      "temporal_assessment": "No verified pre-OSS chronology was found.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 546 for identifiers and former names.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 2; Dorothy C Murphy, CAF-4, Box 546"
+        }
+      ]
+    },
+    {
+      "key": "status-edward-j-murphy-b689",
+      "person_id": "5e443cb2-57cb-5004-84eb-6d3fb191285d",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official, exact-name OSS, employment, institutional, newspaper, obituary, directory, and archival searches found no reviewed identity or employer bridge.",
+      "identity_match_assessment": "Unresolved beyond the indexed technician row and withheld identifier.",
+      "temporal_assessment": "No verified pre-OSS chronology was found.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 546 and the original Army record.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 3; Technician Fourth Grade Edward J Murphy, Box 546"
+        }
+      ]
+    },
+    {
+      "key": "status-gerald-r-murphy-b689",
+      "person_id": "ec743fdb-8de5-55b0-8c74-3f383bb857f5",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official, officer, exact-name OSS, employment, institutional, newspaper, obituary, and archival searches found no reliable identity or employer bridge.",
+      "identity_match_assessment": "Unresolved beyond the indexed major row and withheld officer identifier.",
+      "temporal_assessment": "No verified pre-OSS chronology or predecessor assignment was found.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 546 and Army officer records.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 4; Major Gerald R Murphy, Box 546"
+        }
+      ]
+    },
+    {
+      "key": "status-ione-m-murphy-b689",
+      "person_id": "a4af0bb1-fdf5-5d16-8310-77cfde04bcce",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official, exact-name OSS, employment, institutional, newspaper, obituary, directory, and archival searches did not resolve the truncated note or establish an employer.",
+      "identity_match_assessment": "Unresolved beyond the indexed CAF-5 row and literal printed note 'also AS'.",
+      "temporal_assessment": "No verified pre-OSS chronology was found.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 546 and the complete note; the note is not silently expanded.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 5; Ione M Murphy, CAF-5, Box 546; note 'also AS'"
+        }
+      ]
+    },
+    {
+      "key": "status-james-h-murphy-b689",
+      "person_id": "523cba56-b1b7-5eac-8c1e-635a3556b446",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "Military, grave, official, exact-name OSS, employment, obituary, directory, and archival searches found same-name records but no index bridge.",
+      "identity_match_assessment": "Unresolved beyond the unranked index row.",
+      "temporal_assessment": "No verified pre-OSS chronology was found.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 546 before assigning any same-name military biography.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 6; James H Murphy, Box 546"
+        }
+      ]
+    },
+    {
+      "key": "status-john-a-murphy-b689",
+      "person_id": "de7cdf23-ddc9-520e-b0d1-bf8fa4f38e8d",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official, exact-name OSS, employment, institutional, newspaper, obituary, directory, and archival searches found no reliable identity or employer bridge.",
+      "identity_match_assessment": "Unresolved beyond the common unranked index row.",
+      "temporal_assessment": "No verified pre-OSS chronology was found.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 546 before assigning a namesake biography.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 8; John A Murphy, Box 546"
+        }
+      ]
+    },
+    {
+      "key": "status-john-j-murphy-b689",
+      "person_id": "2fafa83f-bb32-5e2d-9d18-eac12b5013e3",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official, officer, exact-name OSS, employment, institutional, newspaper, obituary, and archival searches found no reliable identity or employer bridge.",
+      "identity_match_assessment": "Unresolved beyond the indexed captain row and withheld officer identifier.",
+      "temporal_assessment": "No verified pre-OSS chronology or predecessor assignment was found.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 546 and Army officer records.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 9; Captain John J Murphy, Box 546"
+        }
+      ]
+    },
+    {
+      "key": "status-john-d-murphy-b689",
+      "person_id": "f4218c56-5ec6-53ae-8558-bce6b87773a9",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official, exact-name OSS, employment, institutional, newspaper, obituary, directory, and archival searches found no reliable identity or employer bridge.",
+      "identity_match_assessment": "Unresolved beyond the common unranked index row.",
+      "temporal_assessment": "No verified pre-OSS chronology was found.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 547 before assigning a namesake biography.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 10; John D Murphy, Box 547"
+        }
+      ]
+    },
+    {
+      "key": "status-john-r-murphy-b689",
+      "person_id": "250c1df9-ec52-53ba-9fc3-27f2baa7b4f9",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official, exact-name OSS, employment, military, obituary, directory, and archival searches found no reviewed identity or employer bridge.",
+      "identity_match_assessment": "Unresolved beyond the common index name and withheld identifier.",
+      "temporal_assessment": "No verified pre-OSS chronology was found.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 547 and the original service record.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 11; John R Murphy, Box 547"
+        }
+      ]
+    },
+    {
+      "key": "status-joseph-murphy-b689",
+      "person_id": "21cf2b5f-13a2-53f5-adf2-88b7746a8454",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official identity evidence is strong, but staged searches did not identify a named civilian employer or immediate predecessor assignment.",
+      "identity_match_assessment": "High confidence from name and protected-identifier agreement; the Army record adds middle initial E.",
+      "temporal_assessment": "No verified pre-OSS employer chronology was found; Army codes are not named-employer evidence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "An unbridged Second Lieutenant Joseph Murphy finding-aid lead was rejected; review Box 547.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 12; Joseph Murphy, Box 547"
+        }
+      ]
+    },
+    {
+      "key": "status-rex-r-murphy-b689",
+      "person_id": "93f8417e-3f92-592a-abd0-4aecbb84e879",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official identity evidence is strong, but staged searches did not identify a named civilian employer or immediate predecessor assignment.",
+      "identity_match_assessment": "High confidence from exact name and protected-identifier agreement.",
+      "temporal_assessment": "No verified pre-OSS employer chronology was found; Army codes are not named-employer evidence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 547 for the Army-to-OSS path and civilian employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 13; Sergeant Rex R Murphy, Box 547"
+        }
+      ]
+    },
+    {
+      "key": "status-thomas-r-murphy-b689",
+      "person_id": "58585f10-8ca4-5133-83da-7eda533a94d3",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official identity evidence is strong, but staged searches did not identify a named civilian employer or immediate predecessor assignment.",
+      "identity_match_assessment": "High confidence from exact name and protected-identifier agreement.",
+      "temporal_assessment": "No verified pre-OSS employer chronology was found; Army codes are not named-employer evidence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 547 for the Army-to-OSS path and civilian employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 14; Private First Class Thomas R Murphy, Box 547"
+        }
+      ]
+    },
+    {
+      "key": "status-virginia-r-murphy-b689",
+      "person_id": "1a149254-702b-5180-966e-e10df38cb557",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official, exact-name OSS, employment, institutional, newspaper, obituary, directory, and archival searches found no reliable identity or employer bridge.",
+      "identity_match_assessment": "Unresolved beyond the indexed CAF-5 row.",
+      "temporal_assessment": "No verified pre-OSS chronology was found.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 547 for identifiers and former names.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 15; Virginia R Murphy, CAF-5, Box 547"
+        }
+      ]
+    },
+    {
+      "key": "status-warren-g-murphy-b689",
+      "person_id": "5385d453-4e9e-59be-9131-cde48c34a707",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official identity evidence is strong, but staged searches did not identify a named civilian employer or immediate predecessor assignment.",
+      "identity_match_assessment": "High confidence from exact name and protected-identifier agreement.",
+      "temporal_assessment": "No verified pre-OSS employer chronology was found; Army codes are not named-employer evidence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Burial and archival leads were rejected; review Box 547 for the Army-to-OSS path.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 16; Warren G Murphy, Box 547"
+        }
+      ]
+    },
+    {
+      "key": "status-william-b-murphy-b689",
+      "person_id": "f0b796c7-497e-5e7e-895f-5ec041f68b8c",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official, exact-name OSS, federal, employment, institutional, newspaper, obituary, directory, and archival searches found no reliable identity or employer bridge.",
+      "identity_match_assessment": "Unresolved beyond the indexed CAF-12 row.",
+      "temporal_assessment": "No verified pre-OSS chronology was found.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 547 for government chronology and prior employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 17; William B Murphy, CAF-12, Box 547"
+        }
+      ]
+    },
+    {
+      "key": "status-willis-a-murphy-b689",
+      "person_id": "4b08870e-4487-5c4f-82c3-8d6cd872913b",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official, Navy officer, exact-name OSS, employment, institutional, newspaper, obituary, and archival searches found no reliable identity or predecessor bridge.",
+      "identity_match_assessment": "Unresolved beyond the indexed lieutenant commander row and withheld officer identifier.",
+      "temporal_assessment": "No verified pre-OSS chronology or predecessor assignment was found.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 547 and Navy officer records.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 18; Lieutenant Commander Willis A Murphy, Box 547"
+        }
+      ]
+    },
+    {
+      "key": "status-albert-e-murray-b689",
+      "person_id": "0a9cfd66-0113-5e2f-afbb-8fd68d9ed037",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official and targeted searches preserved a two-record Army identity conflict but found no reliable employer chronology.",
+      "identity_match_assessment": "Conflicting because two Army bulk records carry the protected identifier, and one has a malformed unrelated-looking name string.",
+      "temporal_assessment": "No verified pre-OSS chronology was found; coded Army fields are not named-employer evidence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 547, both original Army records, and the continuation of the truncated 'Refer to' note.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 19; Corporal Albert E Murray, Box 547; note 'Refer to'"
+        }
+      ]
+    },
+    {
+      "key": "status-cathleen-murray-b689",
+      "person_id": "f7f7eb5a-bc82-565c-821b-1c7a23097bf5",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official, Cathleen and Kathleen variant, exact-name OSS, employment, institutional, newspaper, obituary, directory, and archival searches found no reliable bridge.",
+      "identity_match_assessment": "Unresolved beyond the indexed CAF-2 row.",
+      "temporal_assessment": "No verified pre-OSS chronology was found.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 547 for identifiers and former names.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 20; Cathleen Murray, CAF-2, Box 547"
+        }
+      ]
+    },
+    {
+      "key": "status-emmett-l-murray-b689",
+      "person_id": "ffb7de36-8c56-5258-b2e6-a2d49d5b3773",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official identity evidence is strong, but staged searches did not identify a named civilian employer or immediate predecessor assignment.",
+      "identity_match_assessment": "High confidence from exact name and protected-identifier agreement.",
+      "temporal_assessment": "No verified pre-OSS employer chronology was found; Army codes are not named-employer evidence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Cemetery and directory namesakes were rejected; review Box 547 for the Army-to-OSS path.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 21; Private First Class Emmett L Murray, Box 547"
+        }
+      ]
+    },
+    {
+      "key": "status-guy-e-murray-b689",
+      "person_id": "18c830b0-a43c-5c8c-879d-83a110ab0e92",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official, exact-name OSS, employment, Army, institutional, newspaper, obituary, directory, and archival searches found no reviewed identity or employer bridge.",
+      "identity_match_assessment": "Unresolved beyond the indexed technician row and withheld identifier.",
+      "temporal_assessment": "No verified pre-OSS chronology was found.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Review Box 547 and the original Army record.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 22; Technician Fifth Grade Guy E Murray, Box 547"
+        }
+      ]
+    },
+    {
+      "key": "status-harry-a-murray-b689",
+      "person_id": "2fe06c19-7390-5708-b875-65a4e7be5e90",
+      "claim_type": "archival_file_status",
+      "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "evidence_paraphrase": "Official identity evidence is strong, but staged searches did not identify a named civilian employer or immediate predecessor assignment.",
+      "identity_match_assessment": "High confidence from exact name and protected-identifier agreement.",
+      "temporal_assessment": "No verified pre-OSS employer chronology was found; Army codes are not named-employer evidence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Psychologist Henry 'Harry' Murray was rejected as a namesake; review Box 547 for this person's Army-to-OSS path.",
+      "sources": [
+        {
+          "source_key": "nara-index-b689",
+          "locator_override": "PDF page 335, row 23; Technician Fifth Grade Harry A Murray, Box 547"
+        }
+      ]
+    }
+  ]
+}

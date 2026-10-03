@@ -1,5 +1,33 @@
 # Research status
 
+Batch 689 completed PDF page 335, rows 1-23, from **Daniel E Murphy** through
+**Harry A Murray**, with a saved terminal outcome for all 23 people. Six
+official Army matches establish high-confidence identities without converting
+coded occupations into employers. Albert E Murray retains an explicit
+two-record identity conflict, and the printed `Refer to` note remains
+truncated. James R Murphy is a high-confidence match to James Russell Murphy;
+official OSS-role evidence and a reputable obituary support his 1931-1941
+Washington private legal practice as both his immediate pre-COI/OSS
+affiliation and last civilian employer. Twenty-one people have
+`no_reliable_result_after_protocol` outcomes, one has `conflicting_sources`,
+and one has `verified_employer_found`. The indexed Boxes 546-547 files remain
+the next archival step for unresolved questions. The oil-company category
+remains evidence-scoped to **nine people across 11 historically named
+companies**. See `research/batch-689-progress.md`. No authenticated NARA
+Catalog request was made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **8,896/23,939 (37.1611%)**;
+verified-employer coverage is **311/23,939 (1.2991%)**;
+verified-affiliation coverage is **688/23,939 (2.8740%)**; archival-review
+coverage is **7,353/23,939 (30.7156%)**. There are **15,038** `not_started`
+people and **518** possible-duplicate groups. SQLite retains **16,054**
+attempts or plans and **5,697** claims: 1,336 confirmed, 2,483 high, 1,456
+medium, 196 low, and 226 conflicting. It has **5,405** citation records and
+**2,653** unique source documents. The public projection has **2,359**
+affiliations, **790** organizations, **4,188** sources, and **5,494** claims.
+Full-index historical research remains unfinished.
+
 Batch 688 completed PDF page 334, rows 24-46, from **Corlyn F Munger** through
 **Catherine H Murphy**, with a saved terminal outcome for all 23 people. Tadao
 Murata and Augustine J Murphy are high-confidence identities through exact-
