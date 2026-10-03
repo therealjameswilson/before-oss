@@ -1,5 +1,39 @@
 # Research status
 
+Batch 691 completed PDF page 335, row 46, and page 336, rows 1-22, from
+**William T Mussaeus** through **Hugh H Myers**, with a saved reviewed outcome
+for all 23 people. Louis Muti is confirmed through a 1944 OSS board record and
+the official Army bulk row; the board explicitly places his Army service before
+his volunteering for OSS special-operations work. Jean-Maurice Muthular
+d'Errecalde is confirmed through a NARA-released Army order and institutional
+biography; his Army-to-OSS pathway is immediate, while his 1935 legal-affairs
+occupation has no named employer. Alexander A Muzzey is a high-confidence match
+to the FBI special agent documented from 1934 and in a 1935 operation, but that
+service is published only as earlier prewar federal work because the 1934-45
+range does not establish an immediate OSS transfer. Louis and adjacent Luigi
+Muti remain separate in a visible possible-duplicate group. Frank G Myers
+retains an explicit protected-identifier conflict. Five additional Army matches
+establish identity only, not employers. Eighteen people have
+`no_reliable_result_after_protocol`, one has `needs_identity_review`, one has
+`conflicting_sources`, one has `completed`, one has
+`occupation_only_found`, and one has `documented_prewar_employer_found`.
+The indexed Boxes 547-549 files remain the next archival step for unresolved
+questions. The oil-company category remains evidence-scoped to **nine people
+across 11 historically named companies**. See `research/batch-691-progress.md`.
+No authenticated NARA Catalog request was made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **8,938/23,939 (37.3366%)**;
+verified-employer coverage is **312/23,939 (1.3033%)**;
+verified-affiliation coverage is **692/23,939 (2.8907%)**; archival-review
+coverage is **7,395/23,939 (30.8910%)**. There are **14,996** `not_started`
+people and **519** possible-duplicate groups. SQLite retains **16,096**
+attempts or plans and **5,756** claims: 1,340 confirmed, 2,535 high, 1,458
+medium, 196 low, and 227 conflicting. It has **5,417** citation records and
+**2,663** unique source documents. The public projection has **2,364**
+affiliations, **791** organizations, **4,200** sources, and **5,553** claims.
+Full-index historical research remains unfinished.
+
 Batch 690 completed PDF page 335, rows 24-45, from **Helen J Murray** through
 **George S Musolin**: 22 printed rows linked to 21 active person entities
 because the two identical Walter W Muselin rows remain separate source records

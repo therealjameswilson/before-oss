@@ -1,0 +1,490 @@
+{
+  "bundle_version": "batch-691-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 691 archival review",
+  "sources": [
+    {
+      "key": "nara-index-b691",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 547-549",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 335, row 46, and page 336, rows 1-22, visually checked against rendered pages",
+      "access_date": "2026-10-02",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Full service identifiers remain private. Original spellings, ranks or grades, boxes, locations, and truncated notes are preserved."
+    },
+    {
+      "key": "army-bulk-b691",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; reviewed bulk record ordinals retained as claim locators",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; protected-identifier review for six candidate rows",
+      "access_date": "2026-10-02",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "Official bulk data, not a Catalog API response. Protected identifiers, coded occupations, and raw records are excluded from public output."
+    },
+    {
+      "key": "hoover-oss-board-italy-b691",
+      "stable_url": "https://digitalcollections.hoover.org/internal/media/dispatcher/331573/full",
+      "archival_identifier": "Hoover Institution Library & Archives digital object 331573",
+      "title": "Office of Strategic Services board examination of personnel in Italy",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "Hoover Institution Library & Archives",
+      "publication_record_date": "1944-05-04 to 1944-05-09",
+      "locator": "PDF page 32, internal page 33, Louis Muti entry",
+      "access_date": "2026-10-02",
+      "source_quality": "A_direct_official",
+      "collection_name": "Office of Strategic Services records",
+      "rights_notes": "The project retains a short excerpt and project-authored paraphrase, not the full document or protected identifier."
+    },
+    {
+      "key": "musee-resistance-muthular-b691",
+      "stable_url": "https://www.museedelaresistanceenligne.org/media7954-Jean-Maurice-Muthular-dErrecalde",
+      "archival_identifier": "Fondation de la Résistance, AERI online museum person record",
+      "title": "Jean-Maurice Muthular d'Errecalde",
+      "author_creator": "Robert Mencherini",
+      "repository_publisher": "Fondation de la Résistance, Département AERI",
+      "publication_record_date": "2010-2025 site edition",
+      "locator": "Historical context and source note",
+      "access_date": "2026-10-02",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Musée de la Résistance en ligne",
+      "rights_notes": "The institutional account cites civil records, a USCIS naturalization dossier, French archives, and the Distinguished Service Cross citation."
+    },
+    {
+      "key": "nara-army-order-muthular-b691",
+      "stable_url": "https://www.archives.gov/files/research/jfk/releases/104-10165-10128.pdf",
+      "archival_identifier": "NARA JFK release 104-10165-10128",
+      "title": "Army orders and correspondence concerning Jean M. Muthular d'Errecalde",
+      "author_creator": "United States Army",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1943-07-26",
+      "locator": "PDF page 16, paragraph 8, visually reviewed; internal page -2",
+      "access_date": "2026-10-02",
+      "source_quality": "A_direct_official",
+      "collection_name": "John F. Kennedy Assassination Records Collection",
+      "document_number": "104-10165-10128",
+      "rights_notes": "The order supplies a full-name form, rank, address, officer-course information, and the protected identifier; public output omits the identifier and street address."
+    },
+    {
+      "key": "fbi-barker-muzzey-b691",
+      "stable_url": "https://vault.fbi.gov/barker-karpis-gang/bremer-kidnapping/Bremer%20Kidnapping%20Part%2085/at_download/file",
+      "archival_identifier": "FBI Vault, Barker-Karpis Gang, Bremer Kidnapping Part 85",
+      "title": "Bremer Kidnapping Part 85",
+      "author_creator": "Federal Bureau of Investigation",
+      "repository_publisher": "Federal Bureau of Investigation",
+      "publication_record_date": "1935",
+      "locator": "Page 35, Special Agent E. B. Campbell report on the January 8, 1935 arrest",
+      "access_date": "2026-10-02",
+      "source_quality": "A_direct_official",
+      "collection_name": "FBI Vault Barker-Karpis Gang records",
+      "rights_notes": "The official report identifies an Agent Muzzey in a 1935 FBI operation but does not print his given name."
+    },
+    {
+      "key": "former-fbi-agents-directory-1949-b691",
+      "stable_url": "https://documents.theblackvault.com/documents/fbifiles/Society_of_Former_Special_Agents_of_FBI-HQ-3_text.pdf",
+      "archival_identifier": "FBI FOIA file, Society of Former Special Agents of FBI-HQ-3",
+      "title": "Membership Directory, Society of Former Special Agents of the Federal Bureau of Investigation, Inc.",
+      "author_creator": "Society of Former Special Agents of the Federal Bureau of Investigation",
+      "repository_publisher": "Federal Bureau of Investigation FOIA release; Internet Archive / The Black Vault access copy",
+      "publication_record_date": "1949-01-01",
+      "locator": "PDF page 96, Alexander A. Muzzey entry",
+      "access_date": "2026-10-02",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "FBI FOIA files",
+      "rights_notes": "The contemporary membership entry gives Muzzey's FBI service dates; later address and employment details are not used as pre-OSS evidence."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "army-of-the-united-states-b691",
+      "organization_id": "28a26f92-78af-5a1a-9c09-a843eb5975b4",
+      "canonical_name": "United States Army",
+      "historical_name": "Army of the United States",
+      "aliases": ["U.S. Army", "Army"],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "active_dates": "1941-1946 wartime component",
+      "normalization_notes": "Reuses the dominant existing historical organization record; source wording is preserved in each affiliation."
+    },
+    {
+      "key": "fbi-b691",
+      "organization_id": "e88a4c18-5e0d-58aa-9ed4-787529fac74f",
+      "canonical_name": "Federal Bureau of Investigation",
+      "historical_name": "Federal Bureau of Investigation",
+      "aliases": ["FBI"],
+      "organization_type": "federal law-enforcement agency",
+      "sector": "federal_government",
+      "country": "United States",
+      "normalization_notes": "Reuses the existing FBI organization record."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "louis-muti-army-b691",
+      "person_id": "de11daf5-4332-57e9-857e-090c5a3dfee3",
+      "organization_key": "army-of-the-united-states-b691",
+      "organization_name_as_found": "the Army",
+      "role_title": "Corporal",
+      "relationship_type": "military_assignment",
+      "start_date": "1943-08",
+      "date_precision": "The 1944 OSS board record states only August 1943 for Army entry.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The board record matches the protected identifier and says Muti entered the Army and volunteered for OSS work. It does not name a civilian employer."
+    },
+    {
+      "key": "muthular-army-b691",
+      "person_id": "e1f1695d-814c-56a6-9bfe-f1057e50380d",
+      "organization_key": "army-of-the-united-states-b691",
+      "organization_name_as_found": "l'armée américaine",
+      "role_title": "First Lieutenant, Infantry",
+      "relationship_type": "military_assignment",
+      "start_date": "1942-10-13",
+      "date_precision": "The institutional biography gives the Army enlistment date and explicitly states that OSS recruited him as a First Lieutenant; the exact OSS accession date is not stated.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The rare name components and matching protected identifier in the Army order resolve the index's unusual first-name and surname-column arrangement."
+    },
+    {
+      "key": "alexander-muzzey-fbi-b691",
+      "person_id": "214fa0cf-cbd2-53ca-b446-252e2249be94",
+      "organization_key": "fbi-b691",
+      "organization_name_as_found": "Federal Bureau of Investigation",
+      "role_title": "Special Agent",
+      "relationship_type": "government_assignment",
+      "start_date": "1934",
+      "end_date": "1945",
+      "date_precision": "The 1949 former-agents directory prints 1934-45; an FBI operational report independently places Agent Muzzey on duty in January 1935.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "This is documented earlier federal service. Because the printed FBI dates overlap the OSS years and no OSS accession date is known, the FBI is not labeled the immediate predecessor."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-louis-muti-b691",
+      "person_id": "de11daf5-4332-57e9-857e-090c5a3dfee3",
+      "claim_type": "identity",
+      "claim_text": "The indexed Corporal Louis Muti is the Louis Muti examined by an OSS personnel board in Italy in 1944.",
+      "evidence_paraphrase": "The 1944 OSS record repeats the exact name, corporal grade, and protected identifier; the Army bulk row independently agrees on the name and identifier.",
+      "identity_match_assessment": "Confirmed by two official records that agree with the index on an exact name and nonshared protected identifier.",
+      "temporal_assessment": "The OSS board interviewed him during wartime service and dates Army entry to August 1943.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Louis and adjacent Luigi Muti remain separate entities in a visible possible-duplicate group pending Box 548 review.",
+      "sources": [
+        {"source_key": "nara-index-b691", "locator_override": "PDF page 336, row 4; Corporal Louis Muti, Box 548"},
+        {"source_key": "army-bulk-b691", "locator_override": "Bulk record ordinal 4586042"},
+        {"source_key": "hoover-oss-board-italy-b691", "locator_override": "PDF page 32, internal page 33"}
+      ]
+    },
+    {
+      "key": "louis-muti-army-claim-b691",
+      "person_id": "de11daf5-4332-57e9-857e-090c5a3dfee3",
+      "affiliation_key": "louis-muti-army-b691",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Louis Muti entered the Army in August 1943 and then volunteered for OSS special-operations work.",
+      "evidence_excerpt": "Entered the Army August 1943 and volunteered to do SO with OSS",
+      "evidence_paraphrase": "The OSS board record explicitly sequences Army entry and volunteering for OSS work.",
+      "identity_match_assessment": "Confirmed by exact name, corporal grade, and protected-identifier agreement with the NARA index.",
+      "temporal_assessment": "Explicit Army-to-OSS pathway; the precise day of transfer or assignment is not stated.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "No civilian employer is inferred from the record, and the Army bulk occupation code is not used as employer evidence.",
+      "sources": [{"source_key": "hoover-oss-board-italy-b691", "locator_override": "PDF page 32, internal page 33"}]
+    },
+    {
+      "key": "identity-nicholas-j-muza-b691",
+      "person_id": "8f27f82c-90c9-5020-a84b-0c71ecf4c515",
+      "claim_type": "identity",
+      "claim_text": "The indexed Nicholas J Muza is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The exact name and a nonshared protected identifier agree between the two official records.",
+      "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.",
+      "temporal_assessment": "The Army entry predates the wartime OSS personnel file but does not identify an employer or OSS accession date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The coded Army occupation is private research context and is not converted into a claim.",
+      "sources": [
+        {"source_key": "nara-index-b691", "locator_override": "PDF page 336, row 8; Technician Fifth Grade Nicholas J Muza, Box 548"},
+        {"source_key": "army-bulk-b691", "locator_override": "Bulk record ordinal 4350130"}
+      ]
+    },
+    {
+      "key": "identity-john-c-myer-b691",
+      "person_id": "66bb7cc8-8111-5c50-ba6c-86506fae437b",
+      "claim_type": "identity",
+      "claim_text": "The indexed John C Myer is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The exact name and a nonshared protected identifier agree between the two official records.",
+      "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.",
+      "temporal_assessment": "The Army entry predates the wartime OSS personnel file but does not identify an employer or OSS accession date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The coded Army occupation is private research context and is not converted into a claim.",
+      "sources": [
+        {"source_key": "nara-index-b691", "locator_override": "PDF page 336, row 12; Technician Fourth Grade John C Myer, Box 548"},
+        {"source_key": "army-bulk-b691", "locator_override": "Bulk record ordinal 8091523"}
+      ]
+    },
+    {
+      "key": "identity-edwin-g-myers-b691",
+      "person_id": "a5bb7a03-5f4e-5971-bf94-753023b91b9b",
+      "claim_type": "identity",
+      "claim_text": "The indexed Edwin G Myers is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The exact name and a nonshared protected identifier agree between the two official records.",
+      "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.",
+      "temporal_assessment": "The Army entry predates the wartime OSS personnel file but does not identify an employer or OSS accession date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The coded Army occupation is private research context and is not converted into a claim.",
+      "sources": [
+        {"source_key": "nara-index-b691", "locator_override": "PDF page 336, row 16; Technician Third Grade Edwin G Myers, Box 548"},
+        {"source_key": "army-bulk-b691", "locator_override": "Bulk record ordinal 4512225"}
+      ]
+    },
+    {
+      "key": "identity-gerry-r-myers-b691",
+      "person_id": "c73915f0-17f8-522e-9d22-fd5cc8b558df",
+      "claim_type": "identity",
+      "claim_text": "The indexed Gerry R Myers is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The exact name and a nonshared protected identifier agree between the two official records.",
+      "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.",
+      "temporal_assessment": "The Army entry predates the wartime OSS personnel file but does not identify an employer or OSS accession date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The index's literal truncated note remains preserved; the coded Army occupation is not converted into a claim.",
+      "sources": [
+        {"source_key": "nara-index-b691", "locator_override": "PDF page 336, row 20; Private Gerry R Myers, Box 548; literal note 'folder for'"},
+        {"source_key": "army-bulk-b691", "locator_override": "Bulk record ordinal 8218271"}
+      ]
+    },
+    {
+      "key": "identity-frank-g-myers-conflict-b691",
+      "person_id": "aa216d67-68e3-5bef-9d3f-325052646b2e",
+      "claim_type": "identity",
+      "claim_text": "The Army bulk candidate for Frank G Myers is conflicting and does not resolve his identity.",
+      "evidence_paraphrase": "The protected identifier agrees, but the bulk row contains a malformed, nonmatching name and invalid-looking date and grade codes.",
+      "identity_match_assessment": "Conflicting; identifier agreement is outweighed by corrupt or incompatible row content until the original record is checked.",
+      "temporal_assessment": "No reliable chronology can be drawn from the malformed bulk row.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The candidate remains visible and excluded from default analytics; no occupation or employer is inferred.",
+      "sources": [
+        {"source_key": "nara-index-b691", "locator_override": "PDF page 336, row 19; First Sergeant Frank G Myers, Box 548"},
+        {"source_key": "army-bulk-b691", "support_type": "contradicts", "locator_override": "Bulk record ordinal 7196088"}
+      ]
+    },
+    {
+      "key": "identity-muthular-derrecalde-b691",
+      "person_id": "e1f1695d-814c-56a6-9bfe-f1057e50380d",
+      "claim_type": "identity",
+      "claim_text": "The indexed Derrecalde J Muthular is Jean-Maurice Muthular d'Errecalde, the French-born U.S. Army officer recruited by OSS.",
+      "evidence_paraphrase": "A NARA-released Army order matches the protected identifier and full-name components; the institutional biography supplies the same rare name, Army chronology, and OSS recruitment.",
+      "identity_match_assessment": "Confirmed by rare-name alignment and a direct protected-identifier match in an official Army order.",
+      "temporal_assessment": "The sources date Army entry to October 1942, officer status in July 1943, and OSS field service in 1944.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The source-index display form remains unchanged. Full-name forms and the alias Lucas are documented variants, not silent corrections.",
+      "sources": [
+        {"source_key": "nara-index-b691", "locator_override": "PDF page 336, row 3; Lieutenant Derrecalde J Muthular, Box 548; literal note 'file conta'"},
+        {"source_key": "nara-army-order-muthular-b691", "locator_override": "PDF page 16, paragraph 8"},
+        {"source_key": "musee-resistance-muthular-b691", "locator_override": "Historical context"}
+      ]
+    },
+    {
+      "key": "muthular-army-claim-b691",
+      "person_id": "e1f1695d-814c-56a6-9bfe-f1057e50380d",
+      "affiliation_key": "muthular-army-b691",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Jean-Maurice Muthular d'Errecalde entered the U.S. Army in 1942 and was recruited by OSS as an infantry first lieutenant.",
+      "evidence_excerpt": "First Lieutenant (Infantry) ... fut recruté par l'Office of Strategic Services",
+      "evidence_paraphrase": "The institutional account explicitly links his U.S. Army officer status to OSS recruitment.",
+      "identity_match_assessment": "Confirmed by the full-name and protected-identifier match in the official Army order.",
+      "temporal_assessment": "Explicit immediate Army-to-OSS pathway; the exact OSS accession date remains unstated.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Army service is modeled as a military assignment, not a civilian employer.",
+      "sources": [
+        {"source_key": "musee-resistance-muthular-b691", "locator_override": "Historical context, paragraphs on Army entry and OSS recruitment"},
+        {"source_key": "nara-army-order-muthular-b691", "support_type": "context_only", "locator_override": "PDF page 16, paragraph 8"}
+      ]
+    },
+    {
+      "key": "muthular-litigation-director-claim-b691",
+      "person_id": "e1f1695d-814c-56a6-9bfe-f1057e50380d",
+      "claim_type": "occupation",
+      "claim_text": "In 1935, Jean-Maurice Muthular worked in Paris as a director of litigation or legal affairs.",
+      "evidence_excerpt": "alors directeur de contentieux",
+      "evidence_paraphrase": "The institutional biography gives his occupation at the time of his April 1935 marriage but does not name an employer.",
+      "identity_match_assessment": "Confirmed within the protected-identifier and rare-name match.",
+      "temporal_assessment": "Documented prewar occupation; it is not shown to be his last civilian role before Army service or OSS recruitment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No organization is inferred from the occupation alone. The profile should state that the employer remains unidentified.",
+      "sources": [{"source_key": "musee-resistance-muthular-b691", "locator_override": "Historical context, 1935 paragraph"}]
+    },
+    {
+      "key": "identity-alexander-a-muzzey-b691",
+      "person_id": "214fa0cf-cbd2-53ca-b446-252e2249be94",
+      "claim_type": "identity",
+      "claim_text": "The indexed Alexander A Muzzey is a high-confidence match to FBI Special Agent Alexander A. Muzzey.",
+      "evidence_paraphrase": "The rare exact name and middle initial in a contemporary former-agents directory align with the index, while an official FBI report independently documents Agent Muzzey on duty in 1935.",
+      "identity_match_assessment": "High confidence from an unusually distinctive exact name and two compatible FBI records, though the index has no protected identifier.",
+      "temporal_assessment": "The records place him in FBI service from 1934 and in a specific 1935 operation, before the OSS period.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "FBI service is published as documented prewar federal service, not automatically as the immediate OSS predecessor.",
+      "sources": [
+        {"source_key": "nara-index-b691", "locator_override": "PDF page 336, row 11; Alexander A Muzzey, Box 548"},
+        {"source_key": "fbi-barker-muzzey-b691", "locator_override": "Page 35"},
+        {"source_key": "former-fbi-agents-directory-1949-b691", "locator_override": "PDF page 96"}
+      ]
+    },
+    {
+      "key": "alexander-muzzey-fbi-claim-b691",
+      "person_id": "214fa0cf-cbd2-53ca-b446-252e2249be94",
+      "affiliation_key": "alexander-muzzey-fbi-b691",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Alexander A. Muzzey served as an FBI special agent beginning in 1934 and was on duty in a January 1935 federal operation.",
+      "evidence_excerpt": "MUZZEY, ALEXANDER A. (1934-45)",
+      "evidence_paraphrase": "The contemporary membership directory gives his FBI service dates, and an official FBI report records Agent Muzzey's participation in the 1935 operation.",
+      "identity_match_assessment": "High-confidence match from the rare exact name and compatible official operational record.",
+      "temporal_assessment": "Definitely documented prewar federal service, but the printed 1934-45 range overlaps the OSS years and does not establish an immediate transfer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The FBI is not labeled the immediate pre-OSS affiliation without an OSS accession date or direct transfer statement.",
+      "sources": [
+        {"source_key": "fbi-barker-muzzey-b691", "locator_override": "Page 35"},
+        {"source_key": "former-fbi-agents-directory-1949-b691", "locator_override": "PDF page 96"}
+      ]
+    },
+    {
+      "key": "status-william-t-mussaeus-b691", "person_id": "d5f49bbc-d427-5d06-ad69-4c9edceeb21c", "claim_type": "archival_file_status", "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "evidence_paraphrase": "Official, CIA, exact-name, employment, obituary, institutional, directory, newspaper, and archival searches did not resolve the indexed person.", "identity_match_assessment": "Unresolved beyond the indexed name.", "temporal_assessment": "No verified pre-OSS chronology was found.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "Review Box 548; online failure is not evidence that no prior employer existed.", "sources": [{"source_key": "nara-index-b691", "locator_override": "PDF page 335, row 46; William T Mussaeus, Box 548"}]},
+    {
+      "key": "status-mario-mussi-b691", "person_id": "dad49528-c090-5336-9cbd-6355e1ac5a00", "claim_type": "archival_file_status", "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "evidence_paraphrase": "Official, CIA, exact-name, protected-identifier, employment, obituary, institutional, directory, newspaper, and archival searches did not resolve the indexed corporal.", "identity_match_assessment": "Unresolved beyond the indexed name, grade, and private identifier.", "temporal_assessment": "No verified pre-OSS chronology was found.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "Review Box 548 and the original service record.", "sources": [{"source_key": "nara-index-b691", "locator_override": "PDF page 336, row 1; Corporal Mario Mussi, Box 548"}]},
+    {
+      "key": "status-victor-e-musso-b691", "person_id": "fe270e4a-68a8-5acc-a218-3dbdfd62930e", "claim_type": "archival_file_status", "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "evidence_paraphrase": "A same-name attorney and biographical namesakes lacked the protected identifier, commissioned-service chronology, and OSS bridge needed for acceptance.", "identity_match_assessment": "Unresolved; the indexed captain cannot be assigned to a namesake from name alone.", "temporal_assessment": "No verified pre-OSS chronology was found.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "Review Box 548 and officer records.", "sources": [{"source_key": "nara-index-b691", "locator_override": "PDF page 336, row 2; Captain Victor E Musso, Box 548"}]},
+    {
+      "key": "status-luigi-muti-b691", "person_id": "cfd56154-1a46-5efc-8e44-fc849a87b4f9", "claim_type": "archival_file_status", "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "evidence_paraphrase": "The adjacent Louis and Luigi Muti entries may be name variants or separate people; accessible sources do not justify merging them.", "identity_match_assessment": "Ambiguous and retained as a separate person in a visible possible-duplicate group.", "temporal_assessment": "No chronology can safely be transferred from Louis to Luigi.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "Compare both Box 548 entries before linking the Louis Muti evidence to Luigi.", "sources": [{"source_key": "nara-index-b691", "locator_override": "PDF page 336, row 5; Luigi Muti, Box 548"}]},
+    {
+      "key": "status-robert-h-mutrux-b691", "person_id": "a3585859-2060-5f73-bc36-999f9f50cb83", "claim_type": "archival_file_status", "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "evidence_paraphrase": "An architect with the same distinctive name was found, but no source linked that namesake to the indexed captain or protected identifier.", "identity_match_assessment": "Unresolved pending an Army or personnel-file bridge.", "temporal_assessment": "The architectural career cannot be assigned to the indexed person without corroboration.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "Review Box 548 and officer records; do not publish the architectural career as this person's fact.", "sources": [{"source_key": "nara-index-b691", "locator_override": "PDF page 336, row 6; Captain Robert H Mutrux, Box 548"}]},
+    {
+      "key": "status-lawrence-muurphy-b691", "person_id": "4a077049-1a03-5c0e-91b3-025f92a8d9c3", "claim_type": "archival_file_status", "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "evidence_paraphrase": "Searches used the literal Muurphy spelling and Murphy as an explicit search alias but found no reliable identity or employer bridge.", "identity_match_assessment": "Unresolved beyond the indexed name and private identifier.", "temporal_assessment": "No verified pre-OSS chronology was found.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "The printed double-u surname and identifier prefix remain preserved; the prefix is not interpreted as a rank.", "sources": [{"source_key": "nara-index-b691", "locator_override": "PDF page 336, row 7; Lawrence Muurphy, Box 547"}]},
+    {
+      "key": "status-nicholas-j-muza-b691", "person_id": "8f27f82c-90c9-5020-a84b-0c71ecf4c515", "claim_type": "archival_file_status", "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "evidence_paraphrase": "The official Army row confirms identity but names no employer, and staged institutional, obituary, directory, newspaper, and archival searches found no defensible organization.", "identity_match_assessment": "High-confidence identity from official name and protected-identifier agreement.", "temporal_assessment": "Army entry is documented, but the civilian-to-Army and Army-to-OSS sequences remain unresolved.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "Review Box 548; do not convert the Army occupation code into an employer.", "sources": [{"source_key": "nara-index-b691", "locator_override": "PDF page 336, row 8"}, {"source_key": "army-bulk-b691", "locator_override": "Bulk record ordinal 4350130"}]},
+    {
+      "key": "status-alex-muzard-b691", "person_id": "8fe05aee-396c-53e4-8c6d-070f472c1297", "claim_type": "archival_file_status", "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "evidence_paraphrase": "Official, CIA, exact-name, variant, employment, obituary, institutional, directory, newspaper, and archival searches found no reliable bridge.", "identity_match_assessment": "Unresolved beyond the incomplete indexed name.", "temporal_assessment": "No verified pre-OSS chronology was found.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "Review Box 548 for a full name, nationality, identifiers, and prior affiliation.", "sources": [{"source_key": "nara-index-b691", "locator_override": "PDF page 336, row 9; Alex Muzard, Box 548"}]},
+    {
+      "key": "status-anthony-j-muzukauskas-b691", "person_id": "f39a144e-c60a-5ef4-a484-b6a3f4b95162", "claim_type": "archival_file_status", "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "evidence_paraphrase": "Official, CIA, exact-name, protected-identifier, employment, obituary, institutional, directory, newspaper, and archival searches found no reliable biographical bridge.", "identity_match_assessment": "Unresolved beyond the distinctive indexed name, commissioned grade, and private identifier.", "temporal_assessment": "No verified pre-OSS chronology was found.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "Review Box 548 and officer records.", "sources": [{"source_key": "nara-index-b691", "locator_override": "PDF page 336, row 10; Captain Anthony J Muzukauskas, Box 548"}]},
+    {
+      "key": "status-john-c-myer-b691", "person_id": "66bb7cc8-8111-5c50-ba6c-86506fae437b", "claim_type": "archival_file_status", "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "evidence_paraphrase": "The official Army row confirms identity but names no employer, and staged follow-up searches found no defensible organization.", "identity_match_assessment": "High-confidence identity from official name and protected-identifier agreement.", "temporal_assessment": "Army entry is documented, but the civilian-to-Army and Army-to-OSS sequences remain unresolved.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "Review Box 548; do not convert the Army occupation code into an employer.", "sources": [{"source_key": "nara-index-b691", "locator_override": "PDF page 336, row 12"}, {"source_key": "army-bulk-b691", "locator_override": "Bulk record ordinal 8091523"}]},
+    {
+      "key": "status-ernestine-j-myerchin-b691", "person_id": "96970f24-d37b-503f-b6eb-cf58b1b7aaf5", "claim_type": "archival_file_status", "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "evidence_paraphrase": "Distinctive-name, protected-identifier, women's Army, institutional, obituary, directory, newspaper, CIA, and archival searches found no reliable bridge.", "identity_match_assessment": "Unresolved beyond the indexed name, grade, and private identifier.", "temporal_assessment": "No verified pre-OSS chronology was found.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "Review Box 548 and original women's Army personnel records.", "sources": [{"source_key": "nara-index-b691", "locator_override": "PDF page 336, row 13; Sergeant Ernestine J Myerchin, Box 548"}]},
+    {
+      "key": "status-chester-l-myers-b691", "person_id": "ad354250-d642-5a7a-825a-3a2881ce3523", "claim_type": "archival_file_status", "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "evidence_paraphrase": "A same-name World War II lieutenant was located, but the account lacked the protected identifier and a direct OSS bridge; other common-name results were also insufficient.", "identity_match_assessment": "Unresolved; name and rank alone do not distinguish the indexed officer.", "temporal_assessment": "No verified pre-OSS employer chronology was found.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "Review Box 548 and officer records before assigning the Texas military biography.", "sources": [{"source_key": "nara-index-b691", "locator_override": "PDF page 336, row 14; Lieutenant Chester L Myers, Box 548"}]},
+    {
+      "key": "status-earl-a-myers-b691", "person_id": "69a02ee4-e5a8-59a7-b186-5a528029ceda", "claim_type": "archival_file_status", "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "evidence_paraphrase": "A University of Minnesota employee with the same name was found, but no source connected that person to the indexed naval grade, private identifier, or OSS file.", "identity_match_assessment": "Unresolved; a common-name institutional listing is not enough for assignment.", "temporal_assessment": "The institutional job cannot be attached to the indexed person without identity corroboration.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "Review Box 548 and naval records.", "sources": [{"source_key": "nara-index-b691", "locator_override": "PDF page 336, row 15; Chief Storekeeper Earl A Myers, Box 548"}]},
+    {
+      "key": "status-edwin-g-myers-b691", "person_id": "a5bb7a03-5f4e-5971-bf94-753023b91b9b", "claim_type": "archival_file_status", "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "evidence_paraphrase": "The official Army row confirms identity but names no employer, and staged follow-up searches found no defensible organization.", "identity_match_assessment": "High-confidence identity from official name and protected-identifier agreement.", "temporal_assessment": "Army entry is documented, but the civilian-to-Army and Army-to-OSS sequences remain unresolved.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "Review Box 548; do not convert the Army occupation code into an employer.", "sources": [{"source_key": "nara-index-b691", "locator_override": "PDF page 336, row 16"}, {"source_key": "army-bulk-b691", "locator_override": "Bulk record ordinal 4512225"}]},
+    {
+      "key": "status-emily-g-myers-b691", "person_id": "725b9b7d-694f-5d0d-833b-74c833d13378", "claim_type": "archival_file_status", "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "evidence_paraphrase": "Official, CIA, exact-name, CAF-grade, employment, institutional, obituary, directory, newspaper, and archival searches did not distinguish the indexed employee.", "identity_match_assessment": "Unresolved beyond the common indexed name and CAF-2 grade.", "temporal_assessment": "No verified pre-OSS chronology was found.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "Review Box 548 for identifiers, former names, occupation, and employer.", "sources": [{"source_key": "nara-index-b691", "locator_override": "PDF page 336, row 17; Emily G Myers, CAF-2, Box 548"}]},
+    {
+      "key": "status-emily-l-myers-b691", "person_id": "974cce47-ab4b-54b5-9e7a-3eeba29c97a2", "claim_type": "archival_file_status", "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "evidence_paraphrase": "Official, CIA, exact-name, employment, institutional, obituary, directory, newspaper, and archival searches could not distinguish the common unranked name.", "identity_match_assessment": "Unresolved beyond the indexed name.", "temporal_assessment": "No verified pre-OSS chronology was found.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "Review Box 548 for identifiers, former names, status, and employer.", "sources": [{"source_key": "nara-index-b691", "locator_override": "PDF page 336, row 18; Emily L Myers, Box 548"}]},
+    {
+      "key": "status-frank-g-myers-b691", "person_id": "aa216d67-68e3-5bef-9d3f-325052646b2e", "claim_type": "archival_file_status", "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "evidence_paraphrase": "The only protected-identifier bulk candidate has conflicting malformed content, and staged follow-up searches found no reliable employer.", "identity_match_assessment": "Conflicting; the original Army record and personnel jacket must be compared.", "temporal_assessment": "No reliable chronology can be extracted from the conflicting candidate.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "Review Box 548 and original Army record; online failure is not evidence that no employer existed.", "sources": [{"source_key": "nara-index-b691", "locator_override": "PDF page 336, row 19"}, {"source_key": "army-bulk-b691", "support_type": "contradicts", "locator_override": "Bulk record ordinal 7196088"}]},
+    {
+      "key": "status-gerry-r-myers-b691", "person_id": "c73915f0-17f8-522e-9d22-fd5cc8b558df", "claim_type": "archival_file_status", "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "evidence_paraphrase": "The official Army row confirms identity but names no employer, and staged follow-up searches found no defensible organization.", "identity_match_assessment": "High-confidence identity from official name and protected-identifier agreement.", "temporal_assessment": "Army entry is documented, but the civilian-to-Army and Army-to-OSS sequences remain unresolved.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "Review Box 548 and the meaning of the truncated note; do not convert the Army occupation code into an employer.", "sources": [{"source_key": "nara-index-b691", "locator_override": "PDF page 336, row 20"}, {"source_key": "army-bulk-b691", "locator_override": "Bulk record ordinal 8218271"}]},
+    {
+      "key": "status-harry-myers-b691", "person_id": "4004d8c5-6b44-5b10-90fc-b9190c5d31b7", "claim_type": "archival_file_status", "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "evidence_paraphrase": "Official, CIA, exact-name, protected-identifier, employment, obituary, institutional, directory, newspaper, and archival searches did not distinguish the indexed technician.", "identity_match_assessment": "Unresolved beyond the common indexed name, grade, and private identifier.", "temporal_assessment": "No verified pre-OSS chronology was found.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "Review Box 549 and the original service record.", "sources": [{"source_key": "nara-index-b691", "locator_override": "PDF page 336, row 21; Technician Fourth Grade Harry Myers, Box 549"}]},
+    {
+      "key": "status-hugh-h-myers-b691", "person_id": "b84e9ab8-b8ca-5699-bd1f-49cf9284c19e", "claim_type": "archival_file_status", "claim_text": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "evidence_paraphrase": "Official, CIA, exact-name, employment, obituary, institutional, directory, newspaper, and archival searches found multiple namesakes but no reliable bridge.", "identity_match_assessment": "Unresolved beyond the common indexed name.", "temporal_assessment": "No verified pre-OSS chronology was found.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "Review Box 549 for identifiers, status, occupation, and employer.", "sources": [{"source_key": "nara-index-b691", "locator_override": "PDF page 336, row 22; Hugh H Myers, Box 549"}]}
+  ],
+  "person_updates": [
+    {"person_id": "d5f49bbc-d427-5d06-ad69-4c9edceeb21c", "identity_status": "unresolved", "identity_evidence": "Official, CIA, exact-name, employment, obituary, institutional, directory, newspaper, and archival searches found no reliable identity or employer bridge.", "manual_review_required": true, "research_status": "no_reliable_result_after_protocol", "next_action": "Review William T Mussaeus's Box 548 jacket for identifiers, name variants, occupation, and employer.", "archival_review_priority": "critical"},
+    {"person_id": "dad49528-c090-5336-9cbd-6355e1ac5a00", "identity_status": "unresolved", "identity_evidence": "The indexed corporal's exact name and private identifier did not produce a reviewed official identity match or reliable biographical bridge.", "manual_review_required": true, "research_status": "no_reliable_result_after_protocol", "next_action": "Review Mario Mussi's Box 548 jacket and original service record for identity and prior employment.", "archival_review_priority": "critical"},
+    {"person_id": "fe270e4a-68a8-5acc-a218-3dbdfd62930e", "identity_status": "unresolved", "identity_evidence": "A same-name attorney and other namesakes lacked the protected identifier, officer chronology, and OSS bridge required for acceptance.", "manual_review_required": true, "research_status": "no_reliable_result_after_protocol", "next_action": "Review Captain Victor E Musso's Box 548 jacket and officer records.", "archival_review_priority": "critical"},
+    {"person_id": "e1f1695d-814c-56a6-9bfe-f1057e50380d", "identity_status": "confirmed", "identity_evidence": "The rare indexed components, matching protected identifier in a NARA-released Army order, and institutional Army-to-OSS biography identify Jean-Maurice Muthular d'Errecalde.", "name_variants": ["Jean-Maurice Muthular d'Errecalde", "Jean M. Muthular D'Errecalde", "Lucas"], "personnel_category": "commissioned_army_officer", "commissioned_officer": true, "allied_or_foreign_personnel": false, "manual_review_required": false, "research_status": "occupation_only_found", "next_action": "Review Box 548 for the unnamed 1935 legal employer and exact Army-to-OSS accession date.", "archival_review_priority": "high"},
+    {"person_id": "de11daf5-4332-57e9-857e-090c5a3dfee3", "identity_status": "confirmed", "identity_evidence": "A 1944 OSS board record and the official Army bulk row both agree with the indexed exact name, corporal grade, and nonshared protected identifier.", "possible_duplicate_group": "p336-louis-luigi-muti-b691", "personnel_category": "enlisted_army_personnel", "commissioned_officer": false, "allied_or_foreign_personnel": false, "manual_review_required": true, "research_status": "completed", "next_action": "Compare the adjacent Louis and Luigi Muti Box 548 entries and seek a named civilian occupation or employer.", "archival_review_priority": "high"},
+    {"person_id": "cfd56154-1a46-5efc-8e44-fc849a87b4f9", "identity_status": "ambiguous", "identity_evidence": "Luigi may be a variant of the adjacent Louis Muti entry, but no protected identifier or direct file evidence justifies a merge.", "possible_duplicate_group": "p336-louis-luigi-muti-b691", "manual_review_required": true, "research_status": "needs_identity_review", "next_action": "Compare both Box 548 entries before linking Luigi to the confirmed Louis Muti evidence.", "archival_review_priority": "critical"},
+    {"person_id": "a3585859-2060-5f73-bc36-999f9f50cb83", "identity_status": "unresolved", "identity_evidence": "A distinctive same-name architect was located, but no source linked that person to the indexed captain or protected identifier.", "manual_review_required": true, "research_status": "no_reliable_result_after_protocol", "next_action": "Review Captain Robert H Mutrux's Box 548 jacket and officer records before assigning the architectural career.", "archival_review_priority": "critical"},
+    {"person_id": "4a077049-1a03-5c0e-91b3-025f92a8d9c3", "identity_status": "unresolved", "identity_evidence": "Searches preserved the printed double-u spelling and used Lawrence Murphy only as a search alias; no reliable bridge was found.", "name_variants": ["Lawrence Murphy"], "manual_review_required": true, "research_status": "no_reliable_result_after_protocol", "next_action": "Review Lawrence Muurphy's Box 547 jacket and original service record; do not interpret the identifier prefix as a rank.", "archival_review_priority": "critical"},
+    {"person_id": "8f27f82c-90c9-5020-a84b-0c71ecf4c515", "identity_status": "high_confidence", "identity_evidence": "The official Army bulk row agrees with the exact indexed name on a nonshared protected identifier.", "manual_review_required": false, "research_status": "no_reliable_result_after_protocol", "next_action": "Review Nicholas J Muza's Box 548 jacket for civilian occupation, employer, and Army-to-OSS chronology.", "archival_review_priority": "critical"},
+    {"person_id": "8fe05aee-396c-53e4-8c6d-070f472c1297", "identity_status": "unresolved", "identity_evidence": "The incomplete name and lack of identifiers produced no reliable official or biographical bridge.", "manual_review_required": true, "research_status": "no_reliable_result_after_protocol", "next_action": "Review Alex Muzard's Box 548 jacket for a full name, nationality, identifiers, and prior affiliation.", "archival_review_priority": "critical"},
+    {"person_id": "f39a144e-c60a-5ef4-a484-b6a3f4b95162", "identity_status": "unresolved", "identity_evidence": "The distinctive indexed name, commissioned grade, and private identifier did not yield a reliable official identity or employer bridge.", "manual_review_required": true, "research_status": "no_reliable_result_after_protocol", "next_action": "Review Captain Anthony J Muzukauskas's Box 548 jacket and officer records.", "archival_review_priority": "critical"},
+    {"person_id": "214fa0cf-cbd2-53ca-b446-252e2249be94", "identity_status": "high_confidence", "identity_evidence": "The rare exact name and middle initial align with a contemporary former-FBI-agents directory, and an official FBI report independently documents Agent Muzzey in 1935.", "manual_review_required": false, "research_status": "documented_prewar_employer_found", "next_action": "Review Box 548 to determine whether FBI service immediately preceded or overlapped an OSS assignment.", "archival_review_priority": "high"},
+    {"person_id": "66bb7cc8-8111-5c50-ba6c-86506fae437b", "identity_status": "high_confidence", "identity_evidence": "The official Army bulk row agrees with the exact indexed name on a nonshared protected identifier.", "manual_review_required": false, "research_status": "no_reliable_result_after_protocol", "next_action": "Review John C Myer's Box 548 jacket for civilian occupation, employer, and Army-to-OSS chronology.", "archival_review_priority": "critical"},
+    {"person_id": "96970f24-d37b-503f-b6eb-cf58b1b7aaf5", "identity_status": "unresolved", "identity_evidence": "Distinctive-name, protected-identifier, women's Army, institutional, obituary, directory, newspaper, CIA, and archival searches found no reliable bridge.", "manual_review_required": true, "research_status": "no_reliable_result_after_protocol", "next_action": "Review Sergeant Ernestine J Myerchin's Box 548 jacket and original women's Army records.", "archival_review_priority": "critical"},
+    {"person_id": "ad354250-d642-5a7a-825a-3a2881ce3523", "identity_status": "unresolved", "identity_evidence": "A same-name World War II lieutenant lacked the protected identifier and direct OSS bridge needed for acceptance; common-name alternatives remained unresolved.", "manual_review_required": true, "research_status": "no_reliable_result_after_protocol", "next_action": "Review Lieutenant Chester L Myers's Box 548 jacket and officer records.", "archival_review_priority": "critical"},
+    {"person_id": "69a02ee4-e5a8-59a7-b186-5a528029ceda", "identity_status": "unresolved", "identity_evidence": "A same-name University of Minnesota employee lacked a naval-grade, protected-identifier, or OSS bridge and was rejected as unverified.", "manual_review_required": true, "research_status": "no_reliable_result_after_protocol", "next_action": "Review Chief Storekeeper Earl A Myers's Box 548 jacket and naval records.", "archival_review_priority": "critical"},
+    {"person_id": "a5bb7a03-5f4e-5971-bf94-753023b91b9b", "identity_status": "high_confidence", "identity_evidence": "The official Army bulk row agrees with the exact indexed name on a nonshared protected identifier.", "manual_review_required": false, "research_status": "no_reliable_result_after_protocol", "next_action": "Review Edwin G Myers's Box 548 jacket for civilian occupation, employer, and Army-to-OSS chronology.", "archival_review_priority": "critical"},
+    {"person_id": "725b9b7d-694f-5d0d-833b-74c833d13378", "identity_status": "unresolved", "identity_evidence": "The common name and CAF-2 grade did not yield a defensible identity or employer match.", "manual_review_required": true, "research_status": "no_reliable_result_after_protocol", "next_action": "Review Emily G Myers's Box 548 jacket for identifiers, former names, occupation, and employer.", "archival_review_priority": "critical"},
+    {"person_id": "974cce47-ab4b-54b5-9e7a-3eeba29c97a2", "identity_status": "unresolved", "identity_evidence": "The common unranked name lacks corroborating identifiers; staged searches did not distinguish the indexed person.", "manual_review_required": true, "research_status": "no_reliable_result_after_protocol", "next_action": "Review Emily L Myers's Box 548 jacket for identifiers, former names, status, and employer.", "archival_review_priority": "critical"},
+    {"person_id": "aa216d67-68e3-5bef-9d3f-325052646b2e", "identity_status": "conflicting", "identity_evidence": "The protected identifier points to an official bulk row with a malformed nonmatching name and invalid-looking date and grade codes; identity remains unresolved.", "manual_review_required": true, "research_status": "conflicting_sources", "next_action": "Compare First Sergeant Frank G Myers's Box 548 jacket with the original Army record; do not use the malformed bulk row for occupation or employer.", "archival_review_priority": "critical"},
+    {"person_id": "c73915f0-17f8-522e-9d22-fd5cc8b558df", "identity_status": "high_confidence", "identity_evidence": "The official Army bulk row agrees with the exact indexed name on a nonshared protected identifier.", "manual_review_required": false, "research_status": "no_reliable_result_after_protocol", "next_action": "Review Gerry R Myers's Box 548 jacket, the truncated printed note, civilian occupation, and Army-to-OSS chronology.", "archival_review_priority": "critical"},
+    {"person_id": "4004d8c5-6b44-5b10-90fc-b9190c5d31b7", "identity_status": "unresolved", "identity_evidence": "The common name, grade, and private identifier did not yield a reviewed official identity match or reliable biographical bridge.", "manual_review_required": true, "research_status": "no_reliable_result_after_protocol", "next_action": "Review Harry Myers's Box 549 jacket and original service record.", "archival_review_priority": "critical"},
+    {"person_id": "b84e9ab8-b8ca-5699-bd1f-49cf9284c19e", "identity_status": "unresolved", "identity_evidence": "Multiple Hugh H Myers namesakes were found, but none had the identifiers or OSS bridge needed to identify the unranked index entry.", "manual_review_required": true, "research_status": "no_reliable_result_after_protocol", "next_action": "Review Hugh H Myers's Box 549 jacket for identifiers, status, occupation, and employer.", "archival_review_priority": "critical"}
+  ],
+  "research_attempts": [
+    {"key":"b691-william-t-mussaeus","person_id":"d5f49bbc-d427-5d06-ad69-4c9edceeb21c","source_adapter":"official_nara_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"William T Mussaeus; OSS; employer; occupation; obituary; directory","query_variant_type":"distinctive_name_and_employment","started_at":"2026-10-03T02:10:00Z","completed_at":"2026-10-03T03:15:00Z","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":2,"rejection_reasons":"Genealogical and surname material lacked the indexed person, chronology, and OSS bridge.","research_notes":"Minimum staged protocol completed; no employer assigned.","next_action":"Review Box 548.","attempt_number":1,"research_agent_version":"before-oss-batch-691-v1"},
+    {"key":"b691-mario-mussi","person_id":"dad49528-c090-5336-9cbd-6355e1ac5a00","source_adapter":"official_nara_army_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Mario Mussi; corporal; protected identifier; OSS; employer; occupation","query_variant_type":"exact_name_identifier_and_employment","started_at":"2026-10-03T02:10:00Z","completed_at":"2026-10-03T03:15:00Z","outcome":"no_result","sources_reviewed":6,"candidate_sources_rejected":3,"rejection_reasons":"Modern and foreign namesakes lacked the private identifier and OSS bridge.","research_notes":"Minimum staged protocol completed; no employer assigned.","next_action":"Review Box 548 and original service record.","attempt_number":1,"research_agent_version":"before-oss-batch-691-v1"},
+    {"key":"b691-victor-e-musso","person_id":"fe270e4a-68a8-5acc-a218-3dbdfd62930e","source_adapter":"official_nara_cia_loc_legal_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Victor E Musso; captain; OSS; attorney; employer; obituary","query_variant_type":"exact_name_rank_and_employment","started_at":"2026-10-03T02:10:00Z","completed_at":"2026-10-03T03:15:00Z","outcome":"candidate_rejected","sources_reviewed":7,"candidate_sources_rejected":4,"rejection_reasons":"An attorney and several biographical namesakes lacked the protected identifier, officer chronology, and OSS bridge.","research_notes":"Minimum staged protocol completed; no employer assigned.","next_action":"Review Box 548 and officer records.","attempt_number":1,"research_agent_version":"before-oss-batch-691-v1"},
+    {"key":"b691-muthular-derrecalde","person_id":"e1f1695d-814c-56a6-9bfe-f1057e50380d","source_adapter":"official_nara_army_institutional_resistance_cia_loc_and_targeted_web_review","query_text":"Derrecalde J Muthular; Jean-Maurice Muthular d'Errecalde; protected identifier; OSS; employer","query_variant_type":"rare_name_identifier_alias_and_chronology","started_at":"2026-10-03T02:10:00Z","completed_at":"2026-10-03T03:15:00Z","outcome":"source_reviewed","sources_reviewed":8,"candidate_sources_rejected":1,"rejection_reasons":"Uncorroborated name-only results were excluded.","research_notes":"Confirmed identity, explicit Army-to-OSS pathway, and unnamed 1935 occupation; no named civilian employer.","next_action":"Review Box 548 for the legal employer and exact OSS accession date.","attempt_number":1,"research_agent_version":"before-oss-batch-691-v1"},
+    {"key":"b691-louis-muti","person_id":"de11daf5-4332-57e9-857e-090c5a3dfee3","source_adapter":"official_nara_army_oss_hoover_cia_loc_and_targeted_web_review","query_text":"Louis Muti; corporal; protected identifier; OSS; employer; occupation","query_variant_type":"exact_name_identifier_and_oss_assignment","started_at":"2026-10-03T02:10:00Z","completed_at":"2026-10-03T03:15:00Z","outcome":"source_reviewed","sources_reviewed":8,"candidate_sources_rejected":2,"rejection_reasons":"Unbridged namesakes and coded Army occupation data were excluded from employer claims.","research_notes":"Confirmed identity and explicit Army-to-OSS pathway; no named civilian employer.","next_action":"Compare Louis and Luigi entries and review Box 548.","attempt_number":1,"research_agent_version":"before-oss-batch-691-v1"},
+    {"key":"b691-luigi-muti","person_id":"cfd56154-1a46-5efc-8e44-fc849a87b4f9","source_adapter":"official_nara_oss_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Luigi Muti; Louis Muti; OSS; employer; occupation; Box 548","query_variant_type":"adjacent_variant_and_duplicate_review","started_at":"2026-10-03T02:10:00Z","completed_at":"2026-10-03T03:15:00Z","outcome":"candidate_found","sources_reviewed":6,"candidate_sources_rejected":2,"rejection_reasons":"The confirmed Louis evidence cannot be transferred to Luigi without direct file evidence.","research_notes":"Possible duplicate retained visibly; no merge or employer assignment.","next_action":"Compare both Box 548 entries.","attempt_number":1,"research_agent_version":"before-oss-batch-691-v1"},
+    {"key":"b691-robert-h-mutrux","person_id":"a3585859-2060-5f73-bc36-999f9f50cb83","source_adapter":"official_nara_cia_loc_aia_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Robert H Mutrux; captain; OSS; architect; employer; obituary","query_variant_type":"distinctive_name_rank_and_employment","started_at":"2026-10-03T02:10:00Z","completed_at":"2026-10-03T03:15:00Z","outcome":"candidate_rejected","sources_reviewed":7,"candidate_sources_rejected":3,"rejection_reasons":"The AIA architect entry lacked the protected identifier, military chronology, and OSS bridge.","research_notes":"Minimum staged protocol completed; architectural career withheld.","next_action":"Review Box 548 and officer records.","attempt_number":1,"research_agent_version":"before-oss-batch-691-v1"},
+    {"key":"b691-lawrence-muurphy","person_id":"4a077049-1a03-5c0e-91b3-025f92a8d9c3","source_adapter":"official_nara_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Lawrence Muurphy; Lawrence Murphy; protected identifier; OSS; employer","query_variant_type":"literal_spelling_search_alias_and_identifier","started_at":"2026-10-03T02:10:00Z","completed_at":"2026-10-03T03:15:00Z","outcome":"no_result","sources_reviewed":6,"candidate_sources_rejected":4,"rejection_reasons":"Common-name Murphy results lacked the private identifier and OSS bridge.","research_notes":"Printed double-u spelling and identifier prefix preserved; no employer assigned.","next_action":"Review Box 547 and original service record.","attempt_number":1,"research_agent_version":"before-oss-batch-691-v1"},
+    {"key":"b691-nicholas-j-muza","person_id":"8f27f82c-90c9-5020-a84b-0c71ecf4c515","source_adapter":"official_nara_army_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Nicholas J Muza; technician fifth grade; protected identifier; OSS; employer","query_variant_type":"exact_name_identifier_and_employment","started_at":"2026-10-03T02:10:00Z","completed_at":"2026-10-03T03:15:00Z","outcome":"source_reviewed","sources_reviewed":7,"candidate_sources_rejected":4,"rejection_reasons":"Death-index and namesake results lacked a direct employer or OSS bridge; coded Army occupation was not used.","research_notes":"Identity accepted; no reliable employer found.","next_action":"Review Box 548.","attempt_number":1,"research_agent_version":"before-oss-batch-691-v1"},
+    {"key":"b691-alex-muzard","person_id":"8fe05aee-396c-53e4-8c6d-070f472c1297","source_adapter":"official_nara_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Alex Muzard; OSS; employer; occupation; obituary; variants","query_variant_type":"incomplete_name_and_employment","started_at":"2026-10-03T02:10:00Z","completed_at":"2026-10-03T03:15:00Z","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":4,"rejection_reasons":"Modern and foreign results did not identify the index entry.","research_notes":"Minimum staged protocol completed; no employer assigned.","next_action":"Review Box 548.","attempt_number":1,"research_agent_version":"before-oss-batch-691-v1"},
+    {"key":"b691-anthony-j-muzukauskas","person_id":"f39a144e-c60a-5ef4-a484-b6a3f4b95162","source_adapter":"official_nara_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Anthony J Muzukauskas; captain; protected identifier; OSS; employer","query_variant_type":"distinctive_name_rank_identifier_and_employment","started_at":"2026-10-03T02:10:00Z","completed_at":"2026-10-03T03:15:00Z","outcome":"no_result","sources_reviewed":6,"candidate_sources_rejected":2,"rejection_reasons":"No candidate supplied the private identifier, commissioned chronology, and OSS bridge.","research_notes":"Minimum staged protocol completed; no employer assigned.","next_action":"Review Box 548 and officer records.","attempt_number":1,"research_agent_version":"before-oss-batch-691-v1"},
+    {"key":"b691-alexander-a-muzzey","person_id":"214fa0cf-cbd2-53ca-b446-252e2249be94","source_adapter":"official_nara_fbi_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Alexander A Muzzey; FBI; OSS; employer; 1934; 1935","query_variant_type":"rare_name_agency_and_employment","started_at":"2026-10-03T02:10:00Z","completed_at":"2026-10-03T03:15:00Z","outcome":"source_reviewed","sources_reviewed":8,"candidate_sources_rejected":3,"rejection_reasons":"Unsourced web retellings and unrelated namesakes were excluded.","research_notes":"High-confidence identity and documented prewar FBI service; immediate relation to OSS remains unresolved.","next_action":"Review Box 548 for transfer or liaison chronology.","attempt_number":1,"research_agent_version":"before-oss-batch-691-v1"},
+    {"key":"b691-john-c-myer","person_id":"66bb7cc8-8111-5c50-ba6c-86506fae437b","source_adapter":"official_nara_army_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"John C Myer; technician fourth grade; protected identifier; OSS; employer","query_variant_type":"exact_name_identifier_and_employment","started_at":"2026-10-03T02:10:00Z","completed_at":"2026-10-03T03:15:00Z","outcome":"source_reviewed","sources_reviewed":7,"candidate_sources_rejected":5,"rejection_reasons":"Common-name results lacked the private identifier and OSS bridge; coded Army occupation was not used.","research_notes":"Identity accepted; no reliable employer found.","next_action":"Review Box 548.","attempt_number":1,"research_agent_version":"before-oss-batch-691-v1"},
+    {"key":"b691-ernestine-j-myerchin","person_id":"96970f24-d37b-503f-b6eb-cf58b1b7aaf5","source_adapter":"official_nara_womens_army_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Ernestine J Myerchin; sergeant; protected identifier; OSS; employer","query_variant_type":"distinctive_name_womens_army_and_employment","started_at":"2026-10-03T02:10:00Z","completed_at":"2026-10-03T03:15:00Z","outcome":"no_result","sources_reviewed":7,"candidate_sources_rejected":3,"rejection_reasons":"Family-name and regional genealogy results lacked the indexed person and wartime bridge.","research_notes":"Minimum staged protocol completed; no employer assigned.","next_action":"Review Box 548 and original women's Army records.","attempt_number":1,"research_agent_version":"before-oss-batch-691-v1"},
+    {"key":"b691-chester-l-myers","person_id":"ad354250-d642-5a7a-825a-3a2881ce3523","source_adapter":"official_nara_cia_loc_military_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Chester L Myers; lieutenant; protected identifier; OSS; employer","query_variant_type":"common_name_rank_identifier_and_employment","started_at":"2026-10-03T02:10:00Z","completed_at":"2026-10-03T03:15:00Z","outcome":"candidate_rejected","sources_reviewed":8,"candidate_sources_rejected":6,"rejection_reasons":"A same-name lieutenant and other namesakes lacked protected-identifier and OSS corroboration.","research_notes":"Minimum staged protocol completed; no employer assigned.","next_action":"Review Box 548 and officer records.","attempt_number":1,"research_agent_version":"before-oss-batch-691-v1"},
+    {"key":"b691-earl-a-myers","person_id":"69a02ee4-e5a8-59a7-b186-5a528029ceda","source_adapter":"official_nara_naval_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Earl A Myers; chief storekeeper; protected identifier; OSS; employer","query_variant_type":"common_name_naval_grade_and_employment","started_at":"2026-10-03T02:10:00Z","completed_at":"2026-10-03T03:15:00Z","outcome":"candidate_rejected","sources_reviewed":8,"candidate_sources_rejected":6,"rejection_reasons":"A University of Minnesota employee and other namesakes lacked a naval or OSS bridge.","research_notes":"Minimum staged protocol completed; no employer assigned.","next_action":"Review Box 548 and naval records.","attempt_number":1,"research_agent_version":"before-oss-batch-691-v1"},
+    {"key":"b691-edwin-g-myers","person_id":"a5bb7a03-5f4e-5971-bf94-753023b91b9b","source_adapter":"official_nara_army_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Edwin G Myers; technician third grade; protected identifier; OSS; employer","query_variant_type":"exact_name_identifier_and_employment","started_at":"2026-10-03T02:10:00Z","completed_at":"2026-10-03T03:15:00Z","outcome":"source_reviewed","sources_reviewed":7,"candidate_sources_rejected":6,"rejection_reasons":"Common-name results lacked the private identifier and OSS bridge; coded Army occupation was not used.","research_notes":"Identity accepted; no reliable employer found.","next_action":"Review Box 548.","attempt_number":1,"research_agent_version":"before-oss-batch-691-v1"},
+    {"key":"b691-emily-g-myers","person_id":"725b9b7d-694f-5d0d-833b-74c833d13378","source_adapter":"official_nara_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Emily G Myers; CAF-2; OSS; employer; occupation; obituary","query_variant_type":"common_name_grade_and_employment","started_at":"2026-10-03T02:10:00Z","completed_at":"2026-10-03T03:15:00Z","outcome":"no_result","sources_reviewed":7,"candidate_sources_rejected":7,"rejection_reasons":"Common-name professional and genealogical results lacked a CAF-2 or OSS bridge.","research_notes":"Minimum staged protocol completed; no employer assigned.","next_action":"Review Box 548.","attempt_number":1,"research_agent_version":"before-oss-batch-691-v1"},
+    {"key":"b691-emily-l-myers","person_id":"974cce47-ab4b-54b5-9e7a-3eeba29c97a2","source_adapter":"official_nara_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Emily L Myers; OSS; employer; occupation; obituary; 1940","query_variant_type":"common_unranked_name_and_employment","started_at":"2026-10-03T02:10:00Z","completed_at":"2026-10-03T03:15:00Z","outcome":"no_result","sources_reviewed":7,"candidate_sources_rejected":8,"rejection_reasons":"Historical and modern common-name results lacked identifiers and an OSS bridge.","research_notes":"Minimum staged protocol completed; no employer assigned.","next_action":"Review Box 548.","attempt_number":1,"research_agent_version":"before-oss-batch-691-v1"},
+    {"key":"b691-frank-g-myers","person_id":"aa216d67-68e3-5bef-9d3f-325052646b2e","source_adapter":"official_nara_army_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Frank G Myers; first sergeant; protected identifier; OSS; employer","query_variant_type":"identifier_conflict_and_employment","started_at":"2026-10-03T02:10:00Z","completed_at":"2026-10-03T03:15:00Z","outcome":"source_reviewed","sources_reviewed":7,"candidate_sources_rejected":6,"rejection_reasons":"The bulk candidate's malformed name and invalid-looking codes prevent identity acceptance; other namesakes lacked the identifier.","research_notes":"Conflict preserved; no occupation or employer assigned.","next_action":"Compare Box 548 with original Army record.","attempt_number":1,"research_agent_version":"before-oss-batch-691-v1"},
+    {"key":"b691-gerry-r-myers","person_id":"c73915f0-17f8-522e-9d22-fd5cc8b558df","source_adapter":"official_nara_army_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Gerry R Myers; private; protected identifier; OSS; employer; folder for","query_variant_type":"exact_name_identifier_note_and_employment","started_at":"2026-10-03T02:10:00Z","completed_at":"2026-10-03T03:15:00Z","outcome":"source_reviewed","sources_reviewed":7,"candidate_sources_rejected":6,"rejection_reasons":"Namesakes lacked the private identifier and OSS bridge; coded Army occupation was not used.","research_notes":"Identity accepted; truncated note preserved; no reliable employer found.","next_action":"Review Box 548 and note context.","attempt_number":1,"research_agent_version":"before-oss-batch-691-v1"},
+    {"key":"b691-harry-myers","person_id":"4004d8c5-6b44-5b10-90fc-b9190c5d31b7","source_adapter":"official_nara_army_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Harry Myers; technician fourth grade; protected identifier; OSS; employer","query_variant_type":"common_name_identifier_and_employment","started_at":"2026-10-03T02:10:00Z","completed_at":"2026-10-03T03:15:00Z","outcome":"no_result","sources_reviewed":7,"candidate_sources_rejected":8,"rejection_reasons":"Common-name military, obituary, directory, and genealogy results lacked the private identifier and OSS bridge.","research_notes":"Minimum staged protocol completed; no employer assigned.","next_action":"Review Box 549 and original service record.","attempt_number":1,"research_agent_version":"before-oss-batch-691-v1"},
+    {"key":"b691-hugh-h-myers","person_id":"b84e9ab8-b8ca-5699-bd1f-49cf9284c19e","source_adapter":"official_nara_cia_loc_institutional_newspaper_obituary_directory_and_targeted_web_review","query_text":"Hugh H Myers; OSS; employer; occupation; obituary; 1940","query_variant_type":"common_unranked_name_and_employment","started_at":"2026-10-03T02:10:00Z","completed_at":"2026-10-03T03:15:00Z","outcome":"candidate_rejected","sources_reviewed":7,"candidate_sources_rejected":8,"rejection_reasons":"Multiple death-index and biographical namesakes lacked identifiers and an OSS bridge.","research_notes":"Minimum staged protocol completed; no employer assigned.","next_action":"Review Box 549.","attempt_number":1,"research_agent_version":"before-oss-batch-691-v1"}
+  ]
+}
