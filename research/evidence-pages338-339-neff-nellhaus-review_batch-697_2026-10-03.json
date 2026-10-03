@@ -1,0 +1,1394 @@
+{
+  "bundle_version": "batch-697-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 697 review, 2026-10-03",
+  "sources": [
+    {
+      "key": "nara-index-b697",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 553",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 338, row 46 and page 339, rows 1-22; visually checked against rendered pages",
+      "access_date": "2026-10-03",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Full service identifiers remain private. Original spellings, ranks or grades, box numbers, notes, and archival locations are preserved."
+    },
+    {
+      "key": "army-bulk-b697",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; reviewed bulk record ordinals retained as claim locators",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; protected-identifier review for twelve candidate rows",
+      "access_date": "2026-10-03",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "Official bulk data, not a Catalog API response. Protected identifiers, coded occupations, and raw records are excluded from public output."
+    },
+    {
+      "key": "nehmer-wapo-b697",
+      "stable_url": "https://www.washingtonpost.com/archive/local/2000/02/04/obituaries/b75bb719-4f4a-49b3-a501-99e0cc7e99b8/",
+      "archival_identifier": "Washington Post obituary, February 4, 2000",
+      "title": "Obituaries: Stanley Nehmer",
+      "author_creator": "The Washington Post",
+      "repository_publisher": "The Washington Post",
+      "publication_record_date": "2000-02-04",
+      "locator": "Obituary noting City College graduation, Columbia graduate study, Army service, and OSS as the start of his federal career",
+      "access_date": "2026-10-03",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Washington Post obituaries",
+      "rights_notes": "Only project-authored paraphrase is retained."
+    },
+    {
+      "key": "nehmer-journal-b697",
+      "stable_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/7B67B109BB26AF2FEF68F5E696918F63/S0021911800121588a.pdf/french_interests_and_policies_in_the_far_east_by_roger_levy_guy_lacam_and_andrew_roth_new_york_institute_of_pacific_relations_1941_xii_209_p_200.pdf",
+      "archival_identifier": "Journal of Asian Studies, May 1942, pages 297-299; DOI 10.2307/2049196",
+      "title": "Review of French Interests and Policies in the Far East",
+      "author_creator": "Stanley Nehmer",
+      "repository_publisher": "The Far Eastern Association; Cambridge University Press",
+      "publication_record_date": "1942-05",
+      "locator": "Author line and affiliation, City College of New York",
+      "access_date": "2026-10-03",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Journal of Asian Studies",
+      "rights_notes": "Only the short institutional affiliation and project-authored paraphrase are retained."
+    },
+    {
+      "key": "nehring-wapo-b697",
+      "stable_url": "https://www.washingtonpost.com/archive/1994/05/07/john-roche-70-dies/d693caa7-eba5-4dd2-b495-52bed8b6c976/",
+      "archival_identifier": "Washington Post obituary, May 7, 1994",
+      "title": "John Roche, 70, Dies; Bernard R. Nehring notice",
+      "author_creator": "The Washington Post",
+      "repository_publisher": "The Washington Post",
+      "publication_record_date": "1994-05-07",
+      "locator": "Bernard R. Nehring obituary notice; OSS service in the Middle East",
+      "access_date": "2026-10-03",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Washington Post obituaries",
+      "rights_notes": "Postwar education and employment are not used as pre-OSS evidence."
+    },
+    {
+      "key": "nps-nehring-b697",
+      "stable_url": "https://home.nps.gov/articles/instructing-for-dangerous-missions.htm",
+      "archival_identifier": "National Park Service article, Instructing for Dangerous Missions",
+      "title": "Instructing for Dangerous Missions",
+      "author_creator": "National Park Service",
+      "repository_publisher": "National Park Service",
+      "publication_record_date": null,
+      "locator": "Captain Eldon Nehring as Area A-3 chief instructor, July-November 1944, and later chief instructor in China",
+      "access_date": "2026-10-03",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Office of Strategic Services history",
+      "rights_notes": "Used to establish an OSS namesake and role, not a pre-OSS employer."
+    },
+    {
+      "key": "niemczyk-loc-b697",
+      "stable_url": "https://tile.loc.gov/storage-services/service/mss/mfdip/2004/2004nie02/2004nie02.pdf",
+      "archival_identifier": "Association for Diplomatic Studies and Training Foreign Affairs Oral History Collection; Library of Congress manuscript service",
+      "title": "Ambassador Julian Martin Niemczyk Oral History Interview",
+      "author_creator": "Charles Stuart Kennedy; Julian Martin Niemczyk",
+      "repository_publisher": "Association for Diplomatic Studies and Training; Library of Congress",
+      "publication_record_date": "1998 interview; 2004 file",
+      "locator": "Pages 1-3: University of Oklahoma, 45th Division induction, artillery command, and War Department transfer to OSS",
+      "access_date": "2026-10-03",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Foreign Affairs Oral History Collection",
+      "rights_notes": "Short excerpts and project-authored paraphrases only."
+    },
+    {
+      "key": "niemczyk-cia-b697",
+      "stable_url": "https://www.cia.gov/readingroom/docs/CIA-RDP89G00643R001000100012-2.pdf",
+      "archival_identifier": "CIA-RDP89G00643R001000100012-2",
+      "title": "Veterans of OSS roster and executive committee list",
+      "author_creator": "Veterans of OSS",
+      "repository_publisher": "Central Intelligence Agency FOIA Electronic Reading Room",
+      "publication_record_date": null,
+      "locator": "Executive committee listing for Hon. Julian M. Niemczyk",
+      "access_date": "2026-10-03",
+      "source_quality": "A_direct_official",
+      "collection_name": "OSS Collection",
+      "document_number": "CIA-RDP89G00643R001000100012-2",
+      "rights_notes": "Used to corroborate the Niemczyk spelling and OSS association."
+    },
+    {
+      "key": "nellhaus-99bg-1987-b697",
+      "stable_url": "https://www.99bombgroup.org/newsletters/198706-WWII-99th-Bomb-Group-Newsletter-Nov-1-1987.pdf",
+      "archival_identifier": "99th Bomb Group Newsletter, November 1, 1987",
+      "title": "World War II 99th Bomb Group Newsletter",
+      "author_creator": "99th Bomb Group Historical Society",
+      "repository_publisher": "99th Bomb Group Historical Society",
+      "publication_record_date": "1987-11-01",
+      "locator": "Gerhard Nellhaus, protected identifier matching the index, German radio-message intercept work, 348th Squadron, and battlefield commission",
+      "access_date": "2026-10-03",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "99th Bomb Group Historical Society newsletters",
+      "rights_notes": "The protected identifier is retained only as a private match key and is not exposed publicly."
+    },
+    {
+      "key": "nellhaus-99bg-2002-b697",
+      "stable_url": "https://www.99bombgroup.org/newsletters/200208-WWII-99th-Bomb-Group-Newsletter-Aug-1-2002.pdf",
+      "archival_identifier": "99th Bomb Group Newsletter, August 1, 2002",
+      "title": "World War II 99th Bomb Group Newsletter",
+      "author_creator": "99th Bomb Group Historical Society",
+      "repository_publisher": "99th Bomb Group Historical Society",
+      "publication_record_date": "2002-08-01",
+      "locator": "Gerhard Nellhaus listed among intercept operators with 23 missions; last mission April 20, 1945",
+      "access_date": "2026-10-03",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "99th Bomb Group Historical Society newsletters",
+      "rights_notes": "Used to corroborate the wartime assignment and spelling."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "us-army-b697",
+      "organization_id": "28a26f92-78af-5a1a-9c09-a843eb5975b4",
+      "canonical_name": "United States Army",
+      "historical_name": "Army of the United States",
+      "aliases": [
+        "U.S. Army",
+        "Army"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "active_dates": "1941-1946 wartime component",
+      "normalization_notes": "Wartime Army affiliations are modeled as military assignments, not civilian employment."
+    },
+    {
+      "key": "ccny-b697",
+      "organization_id": "712fb18c-4920-5bec-ba7f-c4736c829bb7",
+      "canonical_name": "City College of New York",
+      "historical_name": "City College of New York",
+      "aliases": [
+        "CCNY",
+        "City College"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "active_dates": null,
+      "normalization_notes": "Student relationships are modeled separately from employment."
+    },
+    {
+      "key": "oklahoma-b697",
+      "canonical_name": "University of Oklahoma",
+      "historical_name": "Oklahoma University",
+      "aliases": [
+        "Oklahoma University",
+        "OU"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Norman",
+      "state_or_region": "Oklahoma",
+      "country": "United States",
+      "active_dates": null,
+      "normalization_notes": "The oral history's historical wording is preserved. Student status is not employment."
+    },
+    {
+      "key": "nellhaus-unit-b697",
+      "canonical_name": "348th Bombardment Squadron, 99th Bombardment Group, United States Army Air Forces",
+      "historical_name": "348th Squadron, 99th Bomb Group, U.S. Army Air Forces",
+      "aliases": [
+        "348th Squadron",
+        "99th Bomb Group"
+      ],
+      "organization_type": "Army Air Forces bombardment squadron",
+      "sector": "military",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "active_dates": "World War II",
+      "normalization_notes": "The squadron, group, and service are kept together because the reviewed historical source identifies Nellhaus at those nested levels."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "stanley-nehmer-ccny-b697",
+      "person_id": "24a36966-0f89-5bd1-b312-d04c3ea5a710",
+      "organization_key": "ccny-b697",
+      "organization_name_as_found": "City College of New York",
+      "role_title": "Student and graduate",
+      "occupation": null,
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "before 1942",
+      "date_precision": "The obituary says Nehmer graduated from City College; a May 1942 journal review carries the City College of New York affiliation.",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "This is education, not employment, and the sources do not establish it as the immediate predecessor to OSS."
+    },
+    {
+      "key": "julian-niemczyk-army-b697",
+      "person_id": "caa08125-eae0-5cde-8682-01d3ad6ee141",
+      "organization_key": "us-army-b697",
+      "organization_name_as_found": "artillery battalion",
+      "role_title": "Battery commander; second lieutenant",
+      "occupation": null,
+      "relationship_type": "military_assignment",
+      "start_date": "1940",
+      "end_date": null,
+      "date_precision": "The oral history places National Guard induction in fall 1940, artillery service and battery command, then a War Department transfer to OSS.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The Army-to-OSS sequence is explicit, but the identity remains probable because the index spelling is damaged and lacks a protected identifier."
+    },
+    {
+      "key": "julian-niemczyk-oklahoma-b697",
+      "person_id": "caa08125-eae0-5cde-8682-01d3ad6ee141",
+      "organization_key": "oklahoma-b697",
+      "organization_name_as_found": "Oklahoma University",
+      "role_title": "Student",
+      "occupation": null,
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "1940",
+      "date_precision": "The oral history says Niemczyk attended Oklahoma University and was then inducted with his National Guard unit in fall 1940.",
+      "city": "Norman",
+      "state_or_region": "Oklahoma",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "This is the best-supported last civilian institutional status before military service, not an employer."
+    },
+    {
+      "key": "gerhard-nellhaus-99bg-b697",
+      "person_id": "90501879-599f-5f4b-84b5-d2f872ef0318",
+      "organization_key": "nellhaus-unit-b697",
+      "organization_name_as_found": "348th Squadron, 99th Bomb Group",
+      "role_title": "German radio-message intercept operator; later second lieutenant",
+      "occupation": null,
+      "relationship_type": "military_assignment",
+      "start_date": null,
+      "end_date": "1945-04-20",
+      "date_precision": "The historical-society newsletters identify Nellhaus in the 348th Squadron and give April 20, 1945 as his last of 23 missions.",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The wartime assignment is documented, but the reviewed sources do not establish whether it preceded, overlapped, or followed OSS service."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-stanley-nehmer-b697",
+      "person_id": "24a36966-0f89-5bd1-b312-d04c3ea5a710",
+      "claim_type": "identity",
+      "claim_text": "The indexed Stanley Nehmer is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "Exact uncommon name and a nonshared protected identifier agree; obituary and contemporary academic evidence independently align.",
+      "identity_match_assessment": "High confidence. Exact uncommon name and a nonshared protected identifier agree; obituary and contemporary academic evidence independently align.",
+      "temporal_assessment": "The Army entry establishes identity but neither a named employer nor an OSS accession date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No coded Army occupation is converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b697",
+          "support_type": "supports",
+          "locator_override": "PDF page 339, row 6"
+        },
+        {
+          "source_key": "army-bulk-b697",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 4583464"
+        },
+        {
+          "source_key": "nehmer-wapo-b697",
+          "support_type": "supports",
+          "locator_override": "Biographical chronology"
+        }
+      ]
+    },
+    {
+      "key": "identity-ralph-r-neff-b697",
+      "person_id": "322de5c7-9673-5520-8233-2846e966e49f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Ralph R Neff is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "Exact name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High confidence. Exact name and a nonshared protected identifier agree.",
+      "temporal_assessment": "The Army entry establishes identity but neither a named employer nor an OSS accession date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No coded Army occupation is converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b697",
+          "support_type": "supports",
+          "locator_override": "PDF page 339, row 1"
+        },
+        {
+          "source_key": "army-bulk-b697",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 4539536"
+        }
+      ]
+    },
+    {
+      "key": "identity-robert-p-r-neff-b697",
+      "person_id": "3edab7e3-c67a-59f0-8aa5-2fed5942bfcf",
+      "claim_type": "identity",
+      "claim_text": "The indexed Robert P/R Neff is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "A nonshared protected identifier, surname, first name, and middle initial agree; the index's P/R ambiguity is preserved.",
+      "identity_match_assessment": "High confidence. A nonshared protected identifier, surname, first name, and middle initial agree; the index's P/R ambiguity is preserved.",
+      "temporal_assessment": "The Army entry establishes identity but neither a named employer nor an OSS accession date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No coded Army occupation is converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b697",
+          "support_type": "supports",
+          "locator_override": "PDF page 339, row 2"
+        },
+        {
+          "source_key": "army-bulk-b697",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 2260039"
+        }
+      ]
+    },
+    {
+      "key": "identity-nicholas-nefopulas-b697",
+      "person_id": "7016f44e-d2f4-59f7-b631-26599fd88f61",
+      "claim_type": "identity",
+      "claim_text": "The indexed Nicholas Nefopulas is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "Exact uncommon name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High confidence. Exact uncommon name and a nonshared protected identifier agree.",
+      "temporal_assessment": "The Army entry establishes identity but neither a named employer nor an OSS accession date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No coded Army occupation is converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b697",
+          "support_type": "supports",
+          "locator_override": "PDF page 339, row 3"
+        },
+        {
+          "source_key": "army-bulk-b697",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 4535916"
+        }
+      ]
+    },
+    {
+      "key": "identity-bernard-r-nehring-b697",
+      "person_id": "8223d1f9-be6e-5220-ace6-cddc102968ff",
+      "claim_type": "identity",
+      "claim_text": "The indexed Bernard R Nehring is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "Exact name and a nonshared protected identifier agree; a reputable obituary independently confirms OSS service.",
+      "identity_match_assessment": "High confidence. Exact name and a nonshared protected identifier agree; a reputable obituary independently confirms OSS service.",
+      "temporal_assessment": "The Army entry establishes identity but neither a named employer nor an OSS accession date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No coded Army occupation is converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b697",
+          "support_type": "supports",
+          "locator_override": "PDF page 339, row 7"
+        },
+        {
+          "source_key": "army-bulk-b697",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 1485860"
+        },
+        {
+          "source_key": "nehring-wapo-b697",
+          "support_type": "supports",
+          "locator_override": "Bernard R. Nehring obituary notice"
+        }
+      ]
+    },
+    {
+      "key": "identity-leroy-a-neigh-b697",
+      "person_id": "e86b2679-1d5f-5ead-af99-631e823f6174",
+      "claim_type": "identity",
+      "claim_text": "The indexed Leroy A Neigh is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "Exact name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High confidence. Exact name and a nonshared protected identifier agree.",
+      "temporal_assessment": "The Army entry establishes identity but neither a named employer nor an OSS accession date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No coded Army occupation is converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b697",
+          "support_type": "supports",
+          "locator_override": "PDF page 339, row 11"
+        },
+        {
+          "source_key": "army-bulk-b697",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 4561036"
+        }
+      ]
+    },
+    {
+      "key": "identity-malcolm-w-neill-b697",
+      "person_id": "4b548f93-3c2b-5e7a-acf6-df71520c992b",
+      "claim_type": "identity",
+      "claim_text": "The indexed Malcolm W Neill is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "Exact name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High confidence. Exact name and a nonshared protected identifier agree.",
+      "temporal_assessment": "The Army entry establishes identity but neither a named employer nor an OSS accession date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No coded Army occupation is converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b697",
+          "support_type": "supports",
+          "locator_override": "PDF page 339, row 14"
+        },
+        {
+          "source_key": "army-bulk-b697",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 2065150"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-w-neilson-b697",
+      "person_id": "61cb539b-5293-5078-b5df-1173bd7b9c6e",
+      "claim_type": "identity",
+      "claim_text": "The indexed John W Neilson is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "Exact name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High confidence. Exact name and a nonshared protected identifier agree.",
+      "temporal_assessment": "The Army entry establishes identity but neither a named employer nor an OSS accession date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No coded Army occupation is converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b697",
+          "support_type": "supports",
+          "locator_override": "PDF page 339, row 16"
+        },
+        {
+          "source_key": "army-bulk-b697",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 4876643"
+        }
+      ]
+    },
+    {
+      "key": "identity-ben-neivert-b697",
+      "person_id": "9df4e3e3-d98a-5e21-90e6-23ed1e277b75",
+      "claim_type": "identity",
+      "claim_text": "The indexed Ben Neivert is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "Exact uncommon name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High confidence. Exact uncommon name and a nonshared protected identifier agree.",
+      "temporal_assessment": "The Army entry establishes identity but neither a named employer nor an OSS accession date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No coded Army occupation is converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b697",
+          "support_type": "supports",
+          "locator_override": "PDF page 339, row 20"
+        },
+        {
+          "source_key": "army-bulk-b697",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 630786"
+        }
+      ]
+    },
+    {
+      "key": "identity-harold-nelchin-b697",
+      "person_id": "b3ab5776-1ed5-59c6-9223-829fb262dc2c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Harold Nelchin is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "Exact uncommon name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High confidence. Exact uncommon name and a nonshared protected identifier agree.",
+      "temporal_assessment": "The Army entry establishes identity but neither a named employer nor an OSS accession date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No coded Army occupation is converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b697",
+          "support_type": "supports",
+          "locator_override": "PDF page 339, row 21"
+        },
+        {
+          "source_key": "army-bulk-b697",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 3532372"
+        }
+      ]
+    },
+    {
+      "key": "stanley-nehmer-ccny-b697",
+      "person_id": "24a36966-0f89-5bd1-b312-d04c3ea5a710",
+      "affiliation_key": "stanley-nehmer-ccny-b697",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Stanley Nehmer was a City College of New York graduate and carried a City College affiliation in 1942.",
+      "evidence_excerpt": "City College of New York",
+      "evidence_paraphrase": "A contemporary 1942 journal review lists City College of New York; a later obituary says Nehmer graduated there before beginning his federal career in OSS.",
+      "identity_match_assessment": "High confidence from the uncommon name, protected identifier, and consistent biographical chronology.",
+      "temporal_assessment": "Documented prewar education; not shown to be employment or the immediate predecessor to OSS.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "City College is classified as a school attended, not an employer.",
+      "sources": [
+        {
+          "source_key": "nehmer-journal-b697",
+          "support_type": "supports",
+          "locator_override": "Author affiliation",
+          "excerpt_override": "City College of New York"
+        },
+        {
+          "source_key": "nehmer-wapo-b697",
+          "support_type": "supports",
+          "locator_override": "Education and wartime-career chronology"
+        }
+      ]
+    },
+    {
+      "key": "identity-conflict-eldon-nehring-b697",
+      "person_id": "cf6773ae-48ad-5ee4-98c9-be76da24f924",
+      "claim_type": "identity",
+      "claim_text": "Official sources conflict over the protected identifier printed for Captain Eldon N Nehring.",
+      "evidence_paraphrase": "The OSS index and NPS history identify Captain Eldon Nehring, while the printed identifier reaches an Army bulk row with a different name and grade.",
+      "identity_match_assessment": "Conflicting; an official OSS namesake is well supported, but the identifier cannot be assigned to him.",
+      "temporal_assessment": "No pre-OSS affiliation or employer is accepted from the conflicting Army row.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Keep the conflict visible and inspect Box 553 and the original source card.",
+      "sources": [
+        {
+          "source_key": "nara-index-b697",
+          "support_type": "contradicts",
+          "locator_override": "PDF page 339, row 8"
+        },
+        {
+          "source_key": "army-bulk-b697",
+          "support_type": "contradicts",
+          "locator_override": "Bulk record ordinal 342408"
+        },
+        {
+          "source_key": "nps-nehring-b697",
+          "support_type": "context_only",
+          "locator_override": "Captain Eldon Nehring's 1944 OSS training role"
+        }
+      ]
+    },
+    {
+      "key": "identity-conflict-lester-neimann-b697",
+      "person_id": "a1d13119-3b9d-5d07-b786-0f89027b80f8",
+      "claim_type": "identity",
+      "claim_text": "Lester C Neimann's protected identifier conflicts with surname spellings in the official Army bulk file and another OSS index entity.",
+      "evidence_paraphrase": "The identifier reaches Army surname NIEMANN and is shared by a separate OSS index entity spelled NIEMAN; the present row reads NEIMANN.",
+      "identity_match_assessment": "Conflicting; a shared identifier and materially different surname spellings cannot justify an automatic merge.",
+      "temporal_assessment": "No employment or pre-OSS affiliation is accepted from the conflicting Army row.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Keep the entities separate until direct personnel-file evidence resolves the duplicate cluster.",
+      "sources": [
+        {
+          "source_key": "nara-index-b697",
+          "support_type": "contradicts",
+          "locator_override": "PDF page 339, row 17"
+        },
+        {
+          "source_key": "army-bulk-b697",
+          "support_type": "contradicts",
+          "locator_override": "Bulk record ordinal 6877006"
+        }
+      ]
+    },
+    {
+      "key": "identity-julian-niemczyk-b697",
+      "person_id": "caa08125-eae0-5cde-8682-01d3ad6ee141",
+      "claim_type": "identity",
+      "claim_text": "The indexed Julian M Neimczylc is probably Julian Martin Niemczyk.",
+      "evidence_paraphrase": "The rare first-and-middle-name combination and close surname spelling align with a detailed Army-to-OSS oral history and an official CIA-hosted OSS veterans roster.",
+      "identity_match_assessment": "Probable; the match is distinctive and context-rich but lacks a protected identifier or direct personnel-file link.",
+      "temporal_assessment": "The oral history explicitly sequences university attendance, Army service, and transfer to OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Preserve Neimczylc as the indexed spelling and Niemczyk as a qualified documented variant.",
+      "sources": [
+        {
+          "source_key": "nara-index-b697",
+          "support_type": "supports",
+          "locator_override": "PDF page 339, row 18"
+        },
+        {
+          "source_key": "niemczyk-loc-b697",
+          "support_type": "supports",
+          "locator_override": "Pages 1-3"
+        },
+        {
+          "source_key": "niemczyk-cia-b697",
+          "support_type": "supports",
+          "locator_override": "Executive committee roster"
+        }
+      ]
+    },
+    {
+      "key": "julian-niemczyk-army-b697",
+      "person_id": "caa08125-eae0-5cde-8682-01d3ad6ee141",
+      "affiliation_key": "julian-niemczyk-army-b697",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "The United States Army is Julian Martin Niemczyk's best-supported immediate pre-OSS affiliation.",
+      "evidence_excerpt": "They asked me if I would like to join the OSS.",
+      "evidence_paraphrase": "Niemczyk describes Army artillery service and battery command followed by a War Department transfer after an OSS recruitment interview.",
+      "identity_match_assessment": "Probable identity because of the damaged index surname and absent protected identifier.",
+      "temporal_assessment": "Explicit immediate sequence from an Army artillery battalion to OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "This is a military assignment, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "niemczyk-loc-b697",
+          "support_type": "supports",
+          "locator_override": "Pages 1-3",
+          "excerpt_override": "They asked me if I would like to join the OSS."
+        }
+      ]
+    },
+    {
+      "key": "julian-niemczyk-oklahoma-b697",
+      "person_id": "caa08125-eae0-5cde-8682-01d3ad6ee141",
+      "affiliation_key": "julian-niemczyk-oklahoma-b697",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Julian Martin Niemczyk attended the University of Oklahoma before Army service.",
+      "evidence_paraphrase": "The oral history says he attended Oklahoma University and was then inducted with his National Guard unit in fall 1940.",
+      "identity_match_assessment": "Probable identity because of the damaged index surname and absent protected identifier.",
+      "temporal_assessment": "Strongly date-bounded before fall 1940 military induction; no employer is named.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The university is classified as a school attended, not an employer.",
+      "sources": [
+        {
+          "source_key": "niemczyk-loc-b697",
+          "support_type": "supports",
+          "locator_override": "Pages 1-2"
+        }
+      ]
+    },
+    {
+      "key": "identity-gerhard-nellhaus-b697",
+      "person_id": "90501879-599f-5f4b-84b5-d2f872ef0318",
+      "claim_type": "identity",
+      "claim_text": "The indexed Gerhardt Nellhaus is a high-confidence match to Gerhard Nellhaus of the 99th Bomb Group.",
+      "evidence_paraphrase": "The uncommon surname, rank, and protected identifier agree; two historical-society newsletters independently use the Gerhard spelling and document the same wartime assignment.",
+      "identity_match_assessment": "High confidence from protected-identifier, rank, and uncommon-name agreement.",
+      "temporal_assessment": "The sources document wartime Army Air Forces service but do not establish its sequence relative to OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Gerhardt remains the indexed spelling; Gerhard is published as a documented variant.",
+      "sources": [
+        {
+          "source_key": "nara-index-b697",
+          "support_type": "supports",
+          "locator_override": "PDF page 339, row 22"
+        },
+        {
+          "source_key": "nellhaus-99bg-1987-b697",
+          "support_type": "supports",
+          "locator_override": "Gerhard Nellhaus entry with matching protected identifier"
+        },
+        {
+          "source_key": "nellhaus-99bg-2002-b697",
+          "support_type": "supports",
+          "locator_override": "Intercept-operator roster"
+        }
+      ]
+    },
+    {
+      "key": "gerhard-nellhaus-99bg-b697",
+      "person_id": "90501879-599f-5f4b-84b5-d2f872ef0318",
+      "affiliation_key": "gerhard-nellhaus-99bg-b697",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Gerhard Nellhaus served as a German radio-message intercept operator with the 348th Squadron, 99th Bomb Group.",
+      "evidence_paraphrase": "Historical-society records place Nellhaus aboard B-17 missions as an intercept operator, return him to the 348th Squadron, and document 23 missions through April 20, 1945.",
+      "identity_match_assessment": "High confidence from protected-identifier, rank, and uncommon-name agreement.",
+      "temporal_assessment": "Documented wartime assignment; its relation to OSS service remains uncertain.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "This is a military assignment, not a civilian employer or claimed immediate predecessor to OSS.",
+      "sources": [
+        {
+          "source_key": "nellhaus-99bg-1987-b697",
+          "support_type": "supports",
+          "locator_override": "Gerhard Nellhaus entry"
+        },
+        {
+          "source_key": "nellhaus-99bg-2002-b697",
+          "support_type": "supports",
+          "locator_override": "Intercept-operator roster and mission count"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "5f1db816-c3e7-5dda-92d6-ce3fbf8ca14c",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, CIA Reading Room, occupation, obituary, and archival searches did not produce a sufficiently specific match.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 553 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "322de5c7-9673-5520-8233-2846e966e49f",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree with official Army bulk ordinal 4539536; no employer is inferred from coded fields.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 553 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "3edab7e3-c67a-59f0-8aa5-2fed5942bfcf",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier agrees with official Army bulk ordinal 2260039; the index's P/R character ambiguity is preserved.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 553 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "7016f44e-d2f4-59f7-b631-26599fd88f61",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact uncommon name and a nonshared protected identifier agree with official Army bulk ordinal 4535916.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 553 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "e57ad6f3-ce63-520d-a267-6193ff6c306a",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name, rank-variant, OSS, CIA Reading Room, occupation, obituary, and archival searches did not identify the indexed person.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 553 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "24a36966-0f89-5bd1-b312-d04c3ea5a710",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact uncommon name and a nonshared protected identifier agree with the Army bulk record; obituary and contemporary academic evidence independently align.",
+      "manual_review_required": false,
+      "research_status": "completed",
+      "next_action": "Inspect Box 553 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "8223d1f9-be6e-5220-ace6-cddc102968ff",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree with the Army bulk record; a reputable obituary independently confirms OSS service in the Middle East.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 553 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "cf6773ae-48ad-5ee4-98c9-be76da24f924",
+      "identity_status": "conflicting",
+      "identity_evidence": "Official NPS history documents Captain Eldon Nehring in OSS training, but the protected identifier printed in the index reaches a different Army name and grade.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Inspect Box 553 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer and resolve the recorded conflict.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "decae704-05e0-5097-8c8f-3f636c4b08a3",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, CIA Reading Room, occupation, obituary, and archival searches did not identify the indexed person.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 553 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e3b4ae0e-2157-5c4f-a335-31716c212bdd",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name, rank, OSS, CIA Reading Room, occupation, obituary, and archival searches did not identify the indexed captain.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 553 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e86b2679-1d5f-5ead-af99-631e823f6174",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree with official Army bulk ordinal 4561036; no employer is inferred from coded fields.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 553 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "03299284-849c-5bbd-91c0-acc79403af77",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name and absent public corroborators left exact-name, rank, OSS, CIA, occupation, obituary, and archival results insufficient.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 553 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5b3ace80-ed17-5fec-a5f2-7d7880badd47",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact indexed-spelling and likely Lenore variants in OSS, CIA, occupation, obituary, and archival searches produced no reliable match.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 553 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4b548f93-3c2b-5e7a-acf6-df71520c992b",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree with official Army bulk ordinal 2065150; no employer is inferred from coded fields.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 553 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "b48fce54-ec82-5a8f-b90e-60ce3469e747",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, CIA Reading Room, occupation, obituary, and archival searches did not identify the indexed person.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 553 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "61cb539b-5293-5078-b5df-1173bd7b9c6e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree with official Army bulk ordinal 4876643; no employer is inferred from coded fields.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 553 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "a1d13119-3b9d-5d07-b786-0f89027b80f8",
+      "identity_status": "conflicting",
+      "identity_evidence": "The printed identifier reaches an Army NIEMANN record and is also shared with a separate OSS index entity spelled NIEMAN; no automatic merge is permitted.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Inspect Box 553 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer and resolve the recorded conflict.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "caa08125-eae0-5cde-8682-01d3ad6ee141",
+      "identity_status": "probable",
+      "identity_evidence": "The rare indexed spelling is a close match to Julian Martin Niemczyk, whose Library of Congress oral history and CIA OSS-veterans roster document a detailed Army-to-OSS chronology.",
+      "manual_review_required": true,
+      "research_status": "completed",
+      "next_action": "Inspect Box 553 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "medium",
+      "name_variants": [
+        "Julian Martin Niemczyk"
+      ],
+      "replace_name_variants": false
+    },
+    {
+      "person_id": "e7f87b64-20ef-502c-b9e3-f4d8d8d28890",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name, rank, OSS, CIA Reading Room, occupation, obituary, and archival searches did not identify the indexed captain.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 553 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9df4e3e3-d98a-5e21-90e6-23ed1e277b75",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact uncommon name and a nonshared protected identifier agree with official Army bulk ordinal 630786.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 553 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "b3ab5776-1ed5-59c6-9223-829fb262dc2c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact uncommon name and a nonshared protected identifier agree with official Army bulk ordinal 3532372.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 553 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "8b761a35-58e5-5da0-97b3-1936b360dfc0",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name, rank, OSS, CIA Reading Room, occupation, obituary, and archival searches did not identify the indexed captain.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 553 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "90501879-599f-5f4b-84b5-d2f872ef0318",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed name, rank, and protected identifier agree with 99th Bomb Group records for Gerhard Nellhaus; the one-letter first-name variation is independently documented.",
+      "manual_review_required": false,
+      "research_status": "completed",
+      "next_action": "Inspect Box 553 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "medium",
+      "name_variants": [
+        "Gerhard Nellhaus"
+      ],
+      "replace_name_variants": false
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "jacqueline-h-neff-protocol-b697",
+      "person_id": "5f1db816-c3e7-5dda-92d6-ce3fbf8ca14c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official-source and candidate review where available; exact-name and variant OSS searches; CIA Reading Room; employer occupation obituary institutional and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T14:00:00+00:00",
+      "completed_at": "2026-10-03T16:30:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "No reliable candidate appeared in accessible sources.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 553.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b697-v1"
+    },
+    {
+      "key": "ralph-r-neff-protocol-b697",
+      "person_id": "322de5c7-9673-5520-8233-2846e966e49f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official-source and candidate review where available; exact-name and variant OSS searches; CIA Reading Room; employer occupation obituary institutional and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T14:00:00+00:00",
+      "completed_at": "2026-10-03T16:30:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Identity resolved from official records, but no source named a pre-OSS employer or affiliation; the Army occupation code was excluded.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 553.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b697-v1"
+    },
+    {
+      "key": "robert-p-r-neff-protocol-b697",
+      "person_id": "3edab7e3-c67a-59f0-8aa5-2fed5942bfcf",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official-source and candidate review where available; exact-name and variant OSS searches; CIA Reading Room; employer occupation obituary institutional and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T14:00:00+00:00",
+      "completed_at": "2026-10-03T16:30:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Identity resolved from official records, but no source named a pre-OSS employer or affiliation; the Army occupation code was excluded.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 553.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b697-v1"
+    },
+    {
+      "key": "nicholas-nefopulas-protocol-b697",
+      "person_id": "7016f44e-d2f4-59f7-b631-26599fd88f61",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official-source and candidate review where available; exact-name and variant OSS searches; CIA Reading Room; employer occupation obituary institutional and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T14:00:00+00:00",
+      "completed_at": "2026-10-03T16:30:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Identity resolved from official records; family-history and directory leads did not establish a reliable pre-OSS employer, and the Army occupation code was excluded.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 553.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b697-v1"
+    },
+    {
+      "key": "leonard-negre-protocol-b697",
+      "person_id": "e57ad6f3-ce63-520d-a267-6193ff6c306a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official-source and candidate review where available; exact-name and variant OSS searches; CIA Reading Room; employer occupation obituary institutional and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T14:00:00+00:00",
+      "completed_at": "2026-10-03T16:30:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "No reliable namesake match appeared in accessible sources.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 553.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b697-v1"
+    },
+    {
+      "key": "stanley-nehmer-protocol-b697",
+      "person_id": "24a36966-0f89-5bd1-b312-d04c3ea5a710",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official-source and candidate review where available; exact-name and variant OSS searches; CIA Reading Room; employer occupation obituary institutional and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T14:00:00+00:00",
+      "completed_at": "2026-10-03T16:30:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "City College student status is documented before OSS, but no source named a pre-OSS employer; postwar federal employment and the Army occupation code were excluded.",
+      "research_notes": "A reviewable qualified research outcome was documented; missing employer evidence remains explicit.",
+      "next_action": "Inspect Box 553.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b697-v1"
+    },
+    {
+      "key": "bernard-r-nehring-protocol-b697",
+      "person_id": "8223d1f9-be6e-5220-ace6-cddc102968ff",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official-source and candidate review where available; exact-name and variant OSS searches; CIA Reading Room; employer occupation obituary institutional and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T14:00:00+00:00",
+      "completed_at": "2026-10-03T16:30:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The obituary's Georgetown education and CIA and real-estate work are postwar, so no pre-OSS employer or affiliation is asserted.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 553.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b697-v1"
+    },
+    {
+      "key": "eldon-n-nehring-protocol-b697",
+      "person_id": "cf6773ae-48ad-5ee4-98c9-be76da24f924",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official-source and candidate review where available; exact-name and variant OSS searches; CIA Reading Room; employer occupation obituary institutional and archival searches",
+      "query_variant_type": "conflict_protocol",
+      "started_at": "2026-10-03T14:00:00+00:00",
+      "completed_at": "2026-10-03T16:30:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The protected-identifier conflict prevents a settled identity; the official NPS material confirms an OSS namesake but supplies no pre-OSS employer.",
+      "research_notes": "Conflict preserved without merging records or importing coded occupation data.",
+      "next_action": "Inspect Box 553.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b697-v1"
+    },
+    {
+      "key": "bert-d-neiber-protocol-b697",
+      "person_id": "decae704-05e0-5097-8c8f-3f636c4b08a3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official-source and candidate review where available; exact-name and variant OSS searches; CIA Reading Room; employer occupation obituary institutional and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T14:00:00+00:00",
+      "completed_at": "2026-10-03T16:30:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Modern regulatory and directory namesakes lacked wartime identifiers or OSS context.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 553.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b697-v1"
+    },
+    {
+      "key": "jack-s-neidorff-protocol-b697",
+      "person_id": "e3b4ae0e-2157-5c4f-a335-31716c212bdd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official-source and candidate review where available; exact-name and variant OSS searches; CIA Reading Room; employer occupation obituary institutional and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T14:00:00+00:00",
+      "completed_at": "2026-10-03T16:30:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Discovery-only death-index material lacked direct OSS or employment evidence.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 553.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b697-v1"
+    },
+    {
+      "key": "leroy-a-neigh-protocol-b697",
+      "person_id": "e86b2679-1d5f-5ead-af99-631e823f6174",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official-source and candidate review where available; exact-name and variant OSS searches; CIA Reading Room; employer occupation obituary institutional and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T14:00:00+00:00",
+      "completed_at": "2026-10-03T16:30:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Identity resolved from official records, but no source named a pre-OSS employer or affiliation; the Army occupation code was excluded.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 553.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b697-v1"
+    },
+    {
+      "key": "charles-l-neil-protocol-b697",
+      "person_id": "03299284-849c-5bbd-91c0-acc79403af77",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official-source and candidate review where available; exact-name and variant OSS searches; CIA Reading Room; employer occupation obituary institutional and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T14:00:00+00:00",
+      "completed_at": "2026-10-03T16:30:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Common-name results lacked two corroborating identifiers beyond the name.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 553.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b697-v1"
+    },
+    {
+      "key": "lenoore-m-neil-protocol-b697",
+      "person_id": "5b3ace80-ed17-5fec-a5f2-7d7880badd47",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official-source and candidate review where available; exact-name and variant OSS searches; CIA Reading Room; employer occupation obituary institutional and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T14:00:00+00:00",
+      "completed_at": "2026-10-03T16:30:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Spelling-variant results lacked direct OSS, grade, box, or employment evidence.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 553.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b697-v1"
+    },
+    {
+      "key": "malcolm-w-neill-protocol-b697",
+      "person_id": "4b548f93-3c2b-5e7a-acf6-df71520c992b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official-source and candidate review where available; exact-name and variant OSS searches; CIA Reading Room; employer occupation obituary institutional and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T14:00:00+00:00",
+      "completed_at": "2026-10-03T16:30:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Identity resolved from official records, but no source named a pre-OSS employer or affiliation; the Army occupation code was excluded.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 553.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b697-v1"
+    },
+    {
+      "key": "eugene-a-neilson-protocol-b697",
+      "person_id": "b48fce54-ec82-5a8f-b90e-60ce3469e747",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official-source and candidate review where available; exact-name and variant OSS searches; CIA Reading Room; employer occupation obituary institutional and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T14:00:00+00:00",
+      "completed_at": "2026-10-03T16:30:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Namesake results lacked wartime identifiers and direct OSS context.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 553.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b697-v1"
+    },
+    {
+      "key": "john-w-neilson-protocol-b697",
+      "person_id": "61cb539b-5293-5078-b5df-1173bd7b9c6e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official-source and candidate review where available; exact-name and variant OSS searches; CIA Reading Room; employer occupation obituary institutional and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T14:00:00+00:00",
+      "completed_at": "2026-10-03T16:30:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Identity resolved from official records, but no source named a pre-OSS employer or affiliation; the Army occupation code was excluded.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 553.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b697-v1"
+    },
+    {
+      "key": "lester-c-neimann-protocol-b697",
+      "person_id": "a1d13119-3b9d-5d07-b786-0f89027b80f8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official-source and candidate review where available; exact-name and variant OSS searches; CIA Reading Room; employer occupation obituary institutional and archival searches",
+      "query_variant_type": "conflict_protocol",
+      "started_at": "2026-10-03T14:00:00+00:00",
+      "completed_at": "2026-10-03T16:30:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The surname and duplicate-entity conflicts remain unresolved; no Army occupation data or employer was imported.",
+      "research_notes": "Conflict preserved without merging records or importing coded occupation data.",
+      "next_action": "Inspect Box 553.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b697-v1"
+    },
+    {
+      "key": "julian-m-neimczylc-protocol-b697",
+      "person_id": "caa08125-eae0-5cde-8682-01d3ad6ee141",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official-source and candidate review where available; exact-name and variant OSS searches; CIA Reading Room; employer occupation obituary institutional and archival searches",
+      "query_variant_type": "full_protocol_with_spelling_variant",
+      "started_at": "2026-10-03T14:00:00+00:00",
+      "completed_at": "2026-10-03T16:30:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Qualified identity and two pre-OSS pathway affiliations are published; the index spelling remains primary and the personnel file should confirm the variant.",
+      "research_notes": "A reviewable qualified research outcome was documented; missing employer evidence remains explicit.",
+      "next_action": "Inspect Box 553.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b697-v1"
+    },
+    {
+      "key": "gabrielle-neiss-protocol-b697",
+      "person_id": "e7f87b64-20ef-502c-b9e3-f4d8d8d28890",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official-source and candidate review where available; exact-name and variant OSS searches; CIA Reading Room; employer occupation obituary institutional and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T14:00:00+00:00",
+      "completed_at": "2026-10-03T16:30:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Modern namesakes lacked wartime identifiers or OSS context.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 553.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b697-v1"
+    },
+    {
+      "key": "ben-neivert-protocol-b697",
+      "person_id": "9df4e3e3-d98a-5e21-90e6-23ed1e277b75",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official-source and candidate review where available; exact-name and variant OSS searches; CIA Reading Room; employer occupation obituary institutional and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T14:00:00+00:00",
+      "completed_at": "2026-10-03T16:30:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Identity resolved from official records, but no source named a pre-OSS employer or affiliation; the Army occupation code was excluded.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 553.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b697-v1"
+    },
+    {
+      "key": "harold-nelchin-protocol-b697",
+      "person_id": "b3ab5776-1ed5-59c6-9223-829fb262dc2c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official-source and candidate review where available; exact-name and variant OSS searches; CIA Reading Room; employer occupation obituary institutional and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T14:00:00+00:00",
+      "completed_at": "2026-10-03T16:30:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Identity resolved from official records, but no source named a pre-OSS employer or affiliation; the Army occupation code was excluded.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 553.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b697-v1"
+    },
+    {
+      "key": "jack-f-neller-protocol-b697",
+      "person_id": "8b761a35-58e5-5da0-97b3-1936b360dfc0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official-source and candidate review where available; exact-name and variant OSS searches; CIA Reading Room; employer occupation obituary institutional and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T14:00:00+00:00",
+      "completed_at": "2026-10-03T16:30:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Namesake results lacked corroborating identifiers and direct OSS context.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 553.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b697-v1"
+    },
+    {
+      "key": "gerhardt-nellhaus-protocol-b697",
+      "person_id": "90501879-599f-5f4b-84b5-d2f872ef0318",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official-source and candidate review where available; exact-name and variant OSS searches; CIA Reading Room; employer occupation obituary institutional and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T14:00:00+00:00",
+      "completed_at": "2026-10-03T16:30:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "A wartime Army Air Forces assignment is published with uncertain temporal relation to OSS; no civilian employer or immediate OSS predecessor is asserted.",
+      "research_notes": "A reviewable qualified research outcome was documented; missing employer evidence remains explicit.",
+      "next_action": "Inspect Box 553.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b697-v1"
+    }
+  ]
+}
