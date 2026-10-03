@@ -1,0 +1,949 @@
+{
+  "bundle_version": "batch-698-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 698 review, 2026-10-03",
+  "sources": [
+    {
+      "key": "nara-index-b698",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 554-555",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 339, rows 23-45; visually checked against the rendered page",
+      "access_date": "2026-10-03",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Full service identifiers remain private. Original spellings, ranks or grades, box numbers, notes, and archival locations are preserved."
+    },
+    {
+      "key": "army-bulk-b698",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; reviewed bulk record ordinals retained as claim locators",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; protected-identifier review for ten candidate rows",
+      "access_date": "2026-10-03",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "Official bulk data, not a Catalog API response. Protected identifiers, coded occupations, and raw records are excluded from public output."
+    },
+    {
+      "key": "harold-nelson-special-orders-b698",
+      "stable_url": "https://www.archives.gov/files/research/jfk/releases/104-10165-10121.pdf",
+      "archival_identifier": "Record number 104-10165-10121",
+      "title": "Operational Group Command Special Orders Number 9",
+      "author_creator": "Office of Strategic Services, Operational Group Command",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1945-05-09",
+      "locator": "PDF image 7, original page 1: assignment to Company B, Special Reconnaissance Battalion",
+      "access_date": "2026-10-03",
+      "source_quality": "A_direct_official",
+      "collection_name": "John F. Kennedy Assassination Records Collection",
+      "document_number": "104-10165-10121",
+      "rights_notes": "The protected identifier is retained only as a private match key and is not exposed publicly."
+    },
+    {
+      "key": "ingolv-nelson-arsof-b698",
+      "stable_url": "https://arsof-history.org/pdf/v5n1.pdf",
+      "archival_identifier": "Veritas, Vol. 5, No. 1 (2009), page 10",
+      "title": "Operation BOSTON: An OSS Combined Operation in the Indian Ocean",
+      "author_creator": "Troy J. Sacquety",
+      "repository_publisher": "U.S. Army Special Operations Command History Office",
+      "publication_record_date": "2009",
+      "locator": "PDF page 14, journal page 10: P-101 crew list naming Sgt Ingolv Nelson",
+      "access_date": "2026-10-03",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Veritas: Journal of Army Special Operations History",
+      "rights_notes": "Only a concise project-authored paraphrase is retained."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [],
+  "claims": [
+    {
+      "key": "identity-james-g-nelligan-b698",
+      "person_id": "86cab551-d9c2-593b-ad8b-363e01a3b88f",
+      "claim_type": "identity",
+      "claim_text": "The indexed James G Nelligan is a high-confidence match to the reviewed official record.",
+      "evidence_paraphrase": "Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 2673078.",
+      "identity_match_assessment": "High confidence. Exact name and a nonshared protected identifier agree in official records.",
+      "temporal_assessment": "The Army entry establishes identity but neither a named employer nor an OSS accession date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No coded Army occupation is converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b698",
+          "support_type": "supports",
+          "locator_override": "PDF page 339, row 23"
+        },
+        {
+          "source_key": "army-bulk-b698",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 2673078"
+        }
+      ]
+    },
+    {
+      "key": "identity-andrew-e-nelson-b698",
+      "person_id": "d63a0190-43c2-5855-9102-e3179e3356c2",
+      "claim_type": "identity",
+      "claim_text": "The indexed Andrew E Nelson is a high-confidence match to the reviewed official record.",
+      "evidence_paraphrase": "Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 8672685.",
+      "identity_match_assessment": "High confidence. Exact name and a nonshared protected identifier agree in official records.",
+      "temporal_assessment": "The Army entry establishes identity but neither a named employer nor an OSS accession date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No coded Army occupation is converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b698",
+          "support_type": "supports",
+          "locator_override": "PDF page 339, row 25"
+        },
+        {
+          "source_key": "army-bulk-b698",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 8672685"
+        }
+      ]
+    },
+    {
+      "key": "identity-conflict-charles-h-nelson-b698",
+      "person_id": "994ab371-0b3d-529d-a88f-8c0a11cb5ff7",
+      "claim_type": "identity",
+      "claim_text": "The protected identifier printed for Charles H Nelson conflicts with the name in the official Army bulk file.",
+      "evidence_paraphrase": "The index identifies Charles H Nelson, while the same protected identifier reaches Army bulk name THOMALLA EMANUEL V.",
+      "identity_match_assessment": "Conflicting; the identifier cannot be assigned to the indexed person without direct personnel-file evidence.",
+      "temporal_assessment": "No employment or pre-OSS affiliation is accepted from the conflicting Army row.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Keep the conflict visible and inspect Box 555 and the original personnel file.",
+      "sources": [
+        {
+          "source_key": "nara-index-b698",
+          "support_type": "contradicts",
+          "locator_override": "PDF page 339, row 30"
+        },
+        {
+          "source_key": "army-bulk-b698",
+          "support_type": "contradicts",
+          "locator_override": "Bulk record ordinal 7183775"
+        }
+      ]
+    },
+    {
+      "key": "identity-conflict-charles-w-nelson-b698",
+      "person_id": "d0ff415b-5cf5-57a2-8055-8182021f4625",
+      "claim_type": "identity",
+      "claim_text": "The protected identifier printed for Charles W Nelson conflicts with the name in the official Army bulk file.",
+      "evidence_paraphrase": "The index identifies Charles W Nelson, while the same protected identifier reaches Army bulk name NELSENJCHARLES W.",
+      "identity_match_assessment": "Conflicting; the identifier cannot be assigned to the indexed person without direct personnel-file evidence.",
+      "temporal_assessment": "No employment or pre-OSS affiliation is accepted from the conflicting Army row.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Keep the conflict visible and inspect Box 555 and the original personnel file.",
+      "sources": [
+        {
+          "source_key": "nara-index-b698",
+          "support_type": "contradicts",
+          "locator_override": "PDF page 339, row 31"
+        },
+        {
+          "source_key": "army-bulk-b698",
+          "support_type": "contradicts",
+          "locator_override": "Bulk record ordinal 6879286"
+        }
+      ]
+    },
+    {
+      "key": "identity-clifford-r-nelson-b698",
+      "person_id": "f16c16f2-556d-56de-a3a8-a41d45313538",
+      "claim_type": "identity",
+      "claim_text": "The indexed Clifford R Nelson is a high-confidence match to the reviewed official record.",
+      "evidence_paraphrase": "Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 8110379.",
+      "identity_match_assessment": "High confidence. Exact name and a nonshared protected identifier agree in official records.",
+      "temporal_assessment": "The Army entry establishes identity but neither a named employer nor an OSS accession date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No coded Army occupation is converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b698",
+          "support_type": "supports",
+          "locator_override": "PDF page 339, row 33"
+        },
+        {
+          "source_key": "army-bulk-b698",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 8110379"
+        }
+      ]
+    },
+    {
+      "key": "identity-franklin-nelson-b698",
+      "person_id": "f344723a-f9bd-5a06-89f4-7d1c5f5a8d90",
+      "claim_type": "identity",
+      "claim_text": "The indexed Franklin Nelson is a high-confidence match to the reviewed official record.",
+      "evidence_paraphrase": "Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 2330314.",
+      "identity_match_assessment": "High confidence. Exact name and a nonshared protected identifier agree in official records.",
+      "temporal_assessment": "The Army entry establishes identity but neither a named employer nor an OSS accession date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No coded Army occupation is converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b698",
+          "support_type": "supports",
+          "locator_override": "PDF page 339, row 38"
+        },
+        {
+          "source_key": "army-bulk-b698",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 2330314"
+        }
+      ]
+    },
+    {
+      "key": "identity-gilmer-h-nelson-b698",
+      "person_id": "dd7ee40f-24e4-5302-a9ae-09407f13025a",
+      "claim_type": "identity",
+      "claim_text": "The indexed Gilmer H Nelson is a high-confidence match to the reviewed official record.",
+      "evidence_paraphrase": "Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 7862598.",
+      "identity_match_assessment": "High confidence. Exact name and a nonshared protected identifier agree in official records.",
+      "temporal_assessment": "The Army entry establishes identity but neither a named employer nor an OSS accession date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No coded Army occupation is converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b698",
+          "support_type": "supports",
+          "locator_override": "PDF page 339, row 39"
+        },
+        {
+          "source_key": "army-bulk-b698",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 7862598"
+        }
+      ]
+    },
+    {
+      "key": "identity-harold-g-nelson-b698",
+      "person_id": "9b1de10b-3695-5649-8bd3-a9018680bd70",
+      "claim_type": "identity",
+      "claim_text": "The indexed Harold G Nelson is a high-confidence match to the reviewed official records.",
+      "evidence_paraphrase": "The indexed name, Technician Third Grade rank, and nonshared protected identifier agree with a 9 May 1945 OSS Operational Group special order.",
+      "identity_match_assessment": "High confidence. Exact name, rank, and a nonshared protected identifier agree in two official records.",
+      "temporal_assessment": "The order documents an OSS Special Reconnaissance Battalion assignment on 9 May 1945 but does not identify the immediately preceding assignment or a civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The operational assignment is identity context only; it is not converted into a pre-OSS employer or immediate predecessor claim.",
+      "sources": [
+        {
+          "source_key": "nara-index-b698",
+          "support_type": "supports",
+          "locator_override": "PDF page 339, row 41"
+        },
+        {
+          "source_key": "harold-nelson-special-orders-b698",
+          "support_type": "supports",
+          "locator_override": "PDF image 7, original page 1"
+        }
+      ]
+    },
+    {
+      "key": "identity-herman-nelson-b698",
+      "person_id": "a044bf3c-65dc-54d1-b089-50f483ffff3e",
+      "claim_type": "identity",
+      "claim_text": "The indexed Herman Nelson is a high-confidence match to the reviewed official record.",
+      "evidence_paraphrase": "Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 8519163.",
+      "identity_match_assessment": "High confidence. Exact name and a nonshared protected identifier agree in official records.",
+      "temporal_assessment": "The bulk row's coded entry date is after the war and cannot establish pre-OSS chronology; no named employer is supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The anomalous coded date is preserved as a reason not to infer chronology; no coded occupation is converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b698",
+          "support_type": "supports",
+          "locator_override": "PDF page 339, row 42"
+        },
+        {
+          "source_key": "army-bulk-b698",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 8519163"
+        }
+      ]
+    },
+    {
+      "key": "identity-ingolv-nelson-b698",
+      "person_id": "56168bc1-46e8-5a16-8d27-942e1c170f52",
+      "claim_type": "identity",
+      "claim_text": "The indexed Ingolv Nelson is a high-confidence match to the reviewed official records.",
+      "evidence_paraphrase": "Exact name and a nonshared protected identifier agree with the official Army bulk record; an Army Special Operations history independently names Sgt Ingolv Nelson on the OSS Maritime Unit P-101 crew.",
+      "identity_match_assessment": "High confidence. The official identifier match and uncommon-name OSS crew record independently align.",
+      "temporal_assessment": "The sources establish Army and OSS Maritime Unit context but do not identify the immediately preceding assignment or a civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No coded Army occupation is converted into employer evidence, and the 1945 crew record is not labeled as pre-OSS.",
+      "sources": [
+        {
+          "source_key": "nara-index-b698",
+          "support_type": "supports",
+          "locator_override": "PDF page 339, row 43"
+        },
+        {
+          "source_key": "army-bulk-b698",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 6934925"
+        },
+        {
+          "source_key": "ingolv-nelson-arsof-b698",
+          "support_type": "supports",
+          "locator_override": "PDF page 14, journal page 10"
+        }
+      ]
+    },
+    {
+      "key": "identity-isadore-nelson-b698",
+      "person_id": "04f30f74-d102-59cb-bc23-aaa435d669cf",
+      "claim_type": "identity",
+      "claim_text": "The indexed Isadore Nelson is a high-confidence match to the reviewed official record.",
+      "evidence_paraphrase": "Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 4617432.",
+      "identity_match_assessment": "High confidence. Exact name and a nonshared protected identifier agree in official records.",
+      "temporal_assessment": "The Army entry establishes identity but neither a named employer nor an OSS accession date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No coded Army occupation is converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b698",
+          "support_type": "supports",
+          "locator_override": "PDF page 339, row 45"
+        },
+        {
+          "source_key": "army-bulk-b698",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 4617432"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "86cab551-d9c2-593b-ad8b-363e01a3b88f",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree with official Army bulk ordinal 2673078; no employer is inferred from coded fields.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 554 at 230/86/37/05 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "05a852f2-a003-521e-b637-f8cddfd0740c",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and variant OSS searches, the CIA Reading Room check, current Library of Congress candidate review, employment and occupation searches, obituary searches, and archival discovery did not produce a sufficiently specific match.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 554 at 230/86/37/05 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d63a0190-43c2-5855-9102-e3179e3356c2",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree with official Army bulk ordinal 8672685; no employer is inferred from coded fields.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 554 at 230/86/37/05 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "f863d315-95a5-59ff-88b3-09889ff0d610",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and variant OSS searches, the CIA Reading Room check, current Library of Congress candidate review, employment and occupation searches, obituary searches, and archival discovery did not produce a sufficiently specific match.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 554 at 230/86/37/05 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5d66834d-80cb-5ac2-9e90-7f1609c6befc",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and variant OSS searches, the CIA Reading Room check, current Library of Congress candidate review, employment and occupation searches, obituary searches, and archival discovery did not produce a sufficiently specific match.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 554 at 230/86/37/05 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "524a02a4-33c6-5645-bf25-ab1d86c8b178",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and variant OSS searches, the CIA Reading Room check, current Library of Congress candidate review, employment and occupation searches, obituary searches, and archival discovery did not produce a sufficiently specific match.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 555 at 230/86/37/05 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1b18f78c-aaf3-5693-a899-edeb5533fc54",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and variant OSS searches, the CIA Reading Room check, current Library of Congress candidate review, employment and occupation searches, obituary searches, and archival discovery did not produce a sufficiently specific match.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 555 at 230/86/37/05 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "994ab371-0b3d-529d-a88f-8c0a11cb5ff7",
+      "identity_status": "conflicting",
+      "identity_evidence": "The protected identifier printed in the index reaches Army bulk name THOMALLA EMANUEL V; the conflict is preserved without transferring coded occupation data.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Inspect Box 555 at 230/86/37/05 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d0ff415b-5cf5-57a2-8055-8182021f4625",
+      "identity_status": "conflicting",
+      "identity_evidence": "The protected identifier printed in the index reaches Army bulk name NELSENJCHARLES W; the conflict is preserved without transferring coded occupation data.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Inspect Box 555 at 230/86/37/05 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "dc7bbdc1-9433-5570-bf8c-1d4023e4780e",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and variant OSS searches, the CIA Reading Room check, current Library of Congress candidate review, employment and occupation searches, obituary searches, and archival discovery did not produce a sufficiently specific match.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 555 at 230/86/37/05 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f16c16f2-556d-56de-a3a8-a41d45313538",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree with official Army bulk ordinal 8110379; no employer is inferred from coded fields.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 555 at 230/86/37/05 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "e46d7412-66ca-5b25-a9c3-c037fbf6a2bb",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and variant OSS searches, the CIA Reading Room check, current Library of Congress candidate review, employment and occupation searches, obituary searches, and archival discovery did not produce a sufficiently specific match.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 555 at 230/86/37/05 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "77b61c17-a3a5-50b2-a2c3-e23f29805807",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and variant OSS searches, the CIA Reading Room check, current Library of Congress candidate review, employment and occupation searches, obituary searches, and archival discovery did not produce a sufficiently specific match.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 555 at 230/86/37/05 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "eec63e89-f798-5e97-a467-7c53f5c25ec5",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and variant OSS searches, the CIA Reading Room check, current Library of Congress candidate review, employment and occupation searches, obituary searches, and archival discovery did not produce a sufficiently specific match.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 555 at 230/86/37/05 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d212f11d-df04-5581-a2d9-c7d770597ff1",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and variant OSS searches, the CIA Reading Room check, current Library of Congress candidate review, employment and occupation searches, obituary searches, and archival discovery did not produce a sufficiently specific match.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 555 at 230/86/37/05 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f344723a-f9bd-5a06-89f4-7d1c5f5a8d90",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree with official Army bulk ordinal 2330314; no employer is inferred from coded fields.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 555 at 230/86/37/04 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "dd7ee40f-24e4-5302-a9ae-09407f13025a",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree with official Army bulk ordinal 7862598; no employer is inferred from coded fields.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 555 at 230/86/37/05 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "28ba6048-8675-5295-b65e-789b552098bd",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and variant OSS searches, the CIA Reading Room check, current Library of Congress candidate review, employment and occupation searches, obituary searches, and archival discovery did not produce a sufficiently specific match.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 555 at 230/86/37/05 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9b1de10b-3695-5649-8bd3-a9018680bd70",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name, rank, and a nonshared protected identifier agree with a 9 May 1945 OSS Operational Group special order.",
+      "manual_review_required": false,
+      "research_status": "completed",
+      "next_action": "Inspect Box 555 at 230/86/37/05 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "a044bf3c-65dc-54d1-b089-50f483ffff3e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree with official Army bulk ordinal 8519163; its anomalous coded entry date is not used for chronology.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 555 at 230/86/37/05 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "56168bc1-46e8-5a16-8d27-942e1c170f52",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree with the Army bulk record; Army Special Operations history independently names Sgt Ingolv Nelson on the OSS Maritime Unit P-101 crew.",
+      "manual_review_required": false,
+      "research_status": "completed",
+      "next_action": "Inspect Box 555 at 230/86/37/05 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "d96ca83a-99dd-5526-808b-710aa72f0323",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and variant OSS searches, the CIA Reading Room check, current Library of Congress candidate review, employment and occupation searches, obituary searches, and archival discovery did not produce a sufficiently specific match.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 555 at 230/86/37/05 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "04f30f74-d102-59cb-bc23-aaa435d669cf",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and a nonshared protected identifier agree with official Army bulk ordinal 4617432; no employer is inferred from coded fields.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 555 at 230/86/37/05 for direct identity evidence and the immediate pre-OSS affiliation or last civilian employer.",
+      "archival_review_priority": "medium"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "james-g-nelligan-protocol-b698",
+      "person_id": "86cab551-d9c2-593b-ad8b-363e01a3b88f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official Army or OSS evidence where available; exact-name and variant OSS searches; CIA Reading Room search and robots-respecting adapter check; employer and occupation searches; obituary, institutional, newspaper, Library of Congress API, and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T16:30:00+00:00",
+      "completed_at": "2026-10-03T19:30:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Identity resolves from official records; 0 Library of Congress discovery candidates were rejected after page-context review, and no source named a pre-OSS employer or affiliation.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 554.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b698-v1"
+    },
+    {
+      "key": "adeline-m-nelson-protocol-b698",
+      "person_id": "05a852f2-a003-521e-b637-f8cddfd0740c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official Army or OSS evidence where available; exact-name and variant OSS searches; CIA Reading Room search and robots-respecting adapter check; employer and occupation searches; obituary, institutional, newspaper, Library of Congress API, and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T16:30:00+00:00",
+      "completed_at": "2026-10-03T19:30:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "No reliable candidate appeared in the accessible official, institutional, obituary, occupation, or archival sources reviewed.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 554.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b698-v1"
+    },
+    {
+      "key": "andrew-e-nelson-protocol-b698",
+      "person_id": "d63a0190-43c2-5855-9102-e3179e3356c2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official Army or OSS evidence where available; exact-name and variant OSS searches; CIA Reading Room search and robots-respecting adapter check; employer and occupation searches; obituary, institutional, newspaper, Library of Congress API, and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T16:30:00+00:00",
+      "completed_at": "2026-10-03T19:30:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Identity resolves from official records; 2 Library of Congress discovery candidates were rejected after page-context review, and no source named a pre-OSS employer or affiliation.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 554.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b698-v1"
+    },
+    {
+      "key": "aubrey-w-nelson-protocol-b698",
+      "person_id": "f863d315-95a5-59ff-88b3-09889ff0d610",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official Army or OSS evidence where available; exact-name and variant OSS searches; CIA Reading Room search and robots-respecting adapter check; employer and occupation searches; obituary, institutional, newspaper, Library of Congress API, and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T16:30:00+00:00",
+      "completed_at": "2026-10-03T19:30:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "No reliable candidate appeared in the accessible official, institutional, obituary, occupation, or archival sources reviewed.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 554.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b698-v1"
+    },
+    {
+      "key": "b-m-nelson-protocol-b698",
+      "person_id": "5d66834d-80cb-5ac2-9e90-7f1609c6befc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official Army or OSS evidence where available; exact-name and variant OSS searches; CIA Reading Room search and robots-respecting adapter check; employer and occupation searches; obituary, institutional, newspaper, Library of Congress API, and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T16:30:00+00:00",
+      "completed_at": "2026-10-03T19:30:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "5 Library of Congress discovery candidates were rejected after page-context review as namesakes, wrong initials or ranks, postwar material, or OCR collisions; no reliable identity or employer candidate remained.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 554.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b698-v1"
+    },
+    {
+      "key": "carl-g-nelson-protocol-b698",
+      "person_id": "524a02a4-33c6-5645-bf25-ab1d86c8b178",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official Army or OSS evidence where available; exact-name and variant OSS searches; CIA Reading Room search and robots-respecting adapter check; employer and occupation searches; obituary, institutional, newspaper, Library of Congress API, and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T16:30:00+00:00",
+      "completed_at": "2026-10-03T19:30:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "5 Library of Congress discovery candidates were rejected after page-context review as namesakes, wrong initials or ranks, postwar material, or OCR collisions; no reliable identity or employer candidate remained.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 555.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b698-v1"
+    },
+    {
+      "key": "carl-w-nelson-protocol-b698",
+      "person_id": "1b18f78c-aaf3-5693-a899-edeb5533fc54",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official Army or OSS evidence where available; exact-name and variant OSS searches; CIA Reading Room search and robots-respecting adapter check; employer and occupation searches; obituary, institutional, newspaper, Library of Congress API, and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T16:30:00+00:00",
+      "completed_at": "2026-10-03T19:30:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "5 Library of Congress discovery candidates were rejected after page-context review as namesakes, wrong initials or ranks, postwar material, or OCR collisions; no reliable identity or employer candidate remained.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 555.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b698-v1"
+    },
+    {
+      "key": "charles-h-nelson-protocol-b698",
+      "person_id": "994ab371-0b3d-529d-a88f-8c0a11cb5ff7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official Army or OSS evidence where available; exact-name and variant OSS searches; CIA Reading Room search and robots-respecting adapter check; employer and occupation searches; obituary, institutional, newspaper, Library of Congress API, and archival searches",
+      "query_variant_type": "conflict_protocol",
+      "started_at": "2026-10-03T16:30:00+00:00",
+      "completed_at": "2026-10-03T19:30:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The protected-identifier conflict remains unresolved; 5 Library of Congress discovery candidates were rejected after page-context review, and no occupation data or employer was imported.",
+      "research_notes": "Conflict preserved without merging records or importing coded occupation data.",
+      "next_action": "Inspect Box 555.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b698-v1"
+    },
+    {
+      "key": "charles-w-nelson-protocol-b698",
+      "person_id": "d0ff415b-5cf5-57a2-8055-8182021f4625",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official Army or OSS evidence where available; exact-name and variant OSS searches; CIA Reading Room search and robots-respecting adapter check; employer and occupation searches; obituary, institutional, newspaper, Library of Congress API, and archival searches",
+      "query_variant_type": "conflict_protocol",
+      "started_at": "2026-10-03T16:30:00+00:00",
+      "completed_at": "2026-10-03T19:30:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The protected-identifier conflict remains unresolved; 5 Library of Congress discovery candidates were rejected after page-context review, and no occupation data or employer was imported.",
+      "research_notes": "Conflict preserved without merging records or importing coded occupation data.",
+      "next_action": "Inspect Box 555.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b698-v1"
+    },
+    {
+      "key": "charles-r-nelson-protocol-b698",
+      "person_id": "dc7bbdc1-9433-5570-bf8c-1d4023e4780e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official Army or OSS evidence where available; exact-name and variant OSS searches; CIA Reading Room search and robots-respecting adapter check; employer and occupation searches; obituary, institutional, newspaper, Library of Congress API, and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T16:30:00+00:00",
+      "completed_at": "2026-10-03T19:30:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "5 Library of Congress discovery candidates were rejected after page-context review as namesakes, wrong initials or ranks, postwar material, or OCR collisions; no reliable identity or employer candidate remained.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 555.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b698-v1"
+    },
+    {
+      "key": "clifford-r-nelson-protocol-b698",
+      "person_id": "f16c16f2-556d-56de-a3a8-a41d45313538",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official Army or OSS evidence where available; exact-name and variant OSS searches; CIA Reading Room search and robots-respecting adapter check; employer and occupation searches; obituary, institutional, newspaper, Library of Congress API, and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T16:30:00+00:00",
+      "completed_at": "2026-10-03T19:30:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Identity resolves from official records; 2 Library of Congress discovery candidates were rejected after page-context review, and no source named a pre-OSS employer or affiliation.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 555.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b698-v1"
+    },
+    {
+      "key": "donald-s-nelson-protocol-b698",
+      "person_id": "e46d7412-66ca-5b25-a9c3-c037fbf6a2bb",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official Army or OSS evidence where available; exact-name and variant OSS searches; CIA Reading Room search and robots-respecting adapter check; employer and occupation searches; obituary, institutional, newspaper, Library of Congress API, and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T16:30:00+00:00",
+      "completed_at": "2026-10-03T19:30:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "5 Library of Congress discovery candidates were rejected after page-context review as namesakes, wrong initials or ranks, postwar material, or OCR collisions; no reliable identity or employer candidate remained.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 555.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b698-v1"
+    },
+    {
+      "key": "edward-nelson-protocol-b698",
+      "person_id": "77b61c17-a3a5-50b2-a2c3-e23f29805807",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official Army or OSS evidence where available; exact-name and variant OSS searches; CIA Reading Room search and robots-respecting adapter check; employer and occupation searches; obituary, institutional, newspaper, Library of Congress API, and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T16:30:00+00:00",
+      "completed_at": "2026-10-03T19:30:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "5 Library of Congress discovery candidates were rejected after page-context review as namesakes, wrong initials or ranks, postwar material, or OCR collisions; no reliable identity or employer candidate remained.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 555.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b698-v1"
+    },
+    {
+      "key": "florence-v-nelson-protocol-b698",
+      "person_id": "eec63e89-f798-5e97-a467-7c53f5c25ec5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official Army or OSS evidence where available; exact-name and variant OSS searches; CIA Reading Room search and robots-respecting adapter check; employer and occupation searches; obituary, institutional, newspaper, Library of Congress API, and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T16:30:00+00:00",
+      "completed_at": "2026-10-03T19:30:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "No reliable candidate appeared in the accessible official, institutional, obituary, occupation, or archival sources reviewed.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 555.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b698-v1"
+    },
+    {
+      "key": "frank-g-nelson-protocol-b698",
+      "person_id": "d212f11d-df04-5581-a2d9-c7d770597ff1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official Army or OSS evidence where available; exact-name and variant OSS searches; CIA Reading Room search and robots-respecting adapter check; employer and occupation searches; obituary, institutional, newspaper, Library of Congress API, and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T16:30:00+00:00",
+      "completed_at": "2026-10-03T19:30:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "5 Library of Congress discovery candidates were rejected after page-context review as namesakes, wrong initials or ranks, postwar material, or OCR collisions; no reliable identity or employer candidate remained.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 555.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b698-v1"
+    },
+    {
+      "key": "franklin-nelson-protocol-b698",
+      "person_id": "f344723a-f9bd-5a06-89f4-7d1c5f5a8d90",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official Army or OSS evidence where available; exact-name and variant OSS searches; CIA Reading Room search and robots-respecting adapter check; employer and occupation searches; obituary, institutional, newspaper, Library of Congress API, and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T16:30:00+00:00",
+      "completed_at": "2026-10-03T19:30:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Identity resolves from official records; 0 Library of Congress discovery candidates were rejected after page-context review, and no source named a pre-OSS employer or affiliation.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 555.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b698-v1"
+    },
+    {
+      "key": "gilmer-h-nelson-protocol-b698",
+      "person_id": "dd7ee40f-24e4-5302-a9ae-09407f13025a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official Army or OSS evidence where available; exact-name and variant OSS searches; CIA Reading Room search and robots-respecting adapter check; employer and occupation searches; obituary, institutional, newspaper, Library of Congress API, and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T16:30:00+00:00",
+      "completed_at": "2026-10-03T19:30:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Identity resolves from official records; 0 Library of Congress discovery candidates were rejected after page-context review, and no source named a pre-OSS employer or affiliation.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 555.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b698-v1"
+    },
+    {
+      "key": "gladys-e-nelson-protocol-b698",
+      "person_id": "28ba6048-8675-5295-b65e-789b552098bd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official Army or OSS evidence where available; exact-name and variant OSS searches; CIA Reading Room search and robots-respecting adapter check; employer and occupation searches; obituary, institutional, newspaper, Library of Congress API, and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T16:30:00+00:00",
+      "completed_at": "2026-10-03T19:30:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "No reliable candidate appeared in the accessible official, institutional, obituary, occupation, or archival sources reviewed.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 555.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b698-v1"
+    },
+    {
+      "key": "harold-g-nelson-protocol-b698",
+      "person_id": "9b1de10b-3695-5649-8bd3-a9018680bd70",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official Army or OSS evidence where available; exact-name and variant OSS searches; CIA Reading Room search and robots-respecting adapter check; employer and occupation searches; obituary, institutional, newspaper, Library of Congress API, and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T16:30:00+00:00",
+      "completed_at": "2026-10-03T19:30:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The official order resolves identity and an OSS assignment; 1 Library of Congress namesake was rejected, and no source named a pre-OSS employer or immediate predecessor.",
+      "research_notes": "A reviewable official-source identity and OSS-role outcome was documented; missing pre-OSS employer evidence remains explicit.",
+      "next_action": "Inspect Box 555.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b698-v1"
+    },
+    {
+      "key": "herman-nelson-protocol-b698",
+      "person_id": "a044bf3c-65dc-54d1-b089-50f483ffff3e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official Army or OSS evidence where available; exact-name and variant OSS searches; CIA Reading Room search and robots-respecting adapter check; employer and occupation searches; obituary, institutional, newspaper, Library of Congress API, and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T16:30:00+00:00",
+      "completed_at": "2026-10-03T19:30:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Identity resolves from official records; 5 Library of Congress discovery candidates were rejected after page-context review, and no source named a pre-OSS employer or affiliation.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 555.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b698-v1"
+    },
+    {
+      "key": "ingolv-nelson-protocol-b698",
+      "person_id": "56168bc1-46e8-5a16-8d27-942e1c170f52",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official Army or OSS evidence where available; exact-name and variant OSS searches; CIA Reading Room search and robots-respecting adapter check; employer and occupation searches; obituary, institutional, newspaper, Library of Congress API, and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T16:30:00+00:00",
+      "completed_at": "2026-10-03T19:30:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Official sources resolve identity and OSS Maritime Unit context; unrelated docket and genealogy leads were rejected, and no source named a pre-OSS employer or immediate predecessor.",
+      "research_notes": "A reviewable official-source identity and OSS-role outcome was documented; missing pre-OSS employer evidence remains explicit.",
+      "next_action": "Inspect Box 555.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b698-v1"
+    },
+    {
+      "key": "irene-r-nelson-protocol-b698",
+      "person_id": "d96ca83a-99dd-5526-808b-710aa72f0323",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official Army or OSS evidence where available; exact-name and variant OSS searches; CIA Reading Room search and robots-respecting adapter check; employer and occupation searches; obituary, institutional, newspaper, Library of Congress API, and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T16:30:00+00:00",
+      "completed_at": "2026-10-03T19:30:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "3 Library of Congress discovery candidates were rejected after page-context review as namesakes, wrong initials or ranks, postwar material, or OCR collisions; no reliable identity or employer candidate remained.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 555.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b698-v1"
+    },
+    {
+      "key": "isadore-nelson-protocol-b698",
+      "person_id": "04f30f74-d102-59cb-bc23-aaa435d669cf",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; official Army or OSS evidence where available; exact-name and variant OSS searches; CIA Reading Room search and robots-respecting adapter check; employer and occupation searches; obituary, institutional, newspaper, Library of Congress API, and archival searches",
+      "query_variant_type": "full_protocol",
+      "started_at": "2026-10-03T16:30:00+00:00",
+      "completed_at": "2026-10-03T19:30:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Identity resolves from official records; 0 Library of Congress discovery candidates were rejected after page-context review, and no source named a pre-OSS employer or affiliation.",
+      "research_notes": "No reliable pre-OSS employer or affiliation was found after the staged protocol.",
+      "next_action": "Inspect Box 555.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b698-v1"
+    }
+  ]
+}

@@ -16,12 +16,30 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from collections.abc import Callable
 from pathlib import Path
 
 ITEM_HOSTS = {"loc.gov", "www.loc.gov"}
 TEXT_SERVICE = "https://tile.loc.gov/text-services/word-coordinates-service"
 USER_AGENT = "BeforeOSS/loc-context-review archival-research (read-only)"
 BATCH_NAME_RE = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
+DEFAULT_REQUEST_INTERVAL_SECONDS = 3.2
+
+
+class RequestPacer:
+    """Keep every LoC request below the documented 20-per-minute ceiling."""
+
+    def __init__(self, minimum_interval_seconds: float) -> None:
+        self.minimum_interval_seconds = minimum_interval_seconds
+        self._last_request_at: float | None = None
+
+    def wait(self) -> None:
+        now = time.monotonic()
+        if self._last_request_at is not None:
+            remaining = self.minimum_interval_seconds - (now - self._last_request_at)
+            if remaining > 0:
+                time.sleep(remaining)
+        self._last_request_at = time.monotonic()
 
 
 def item_json_url(candidate_url: str) -> str:
@@ -58,8 +76,16 @@ def full_text_service_url(segment: str) -> str:
     return f"{TEXT_SERVICE}?{query}"
 
 
-def fetch_json(url: str, *, timeout: float, retries: int = 3) -> dict:
+def fetch_json(
+    url: str,
+    *,
+    timeout: float,
+    retries: int = 3,
+    before_request: Callable[[], None] | None = None,
+) -> dict:
     for attempt in range(retries + 1):
+        if before_request is not None:
+            before_request()
         request = urllib.request.Request(
             url, method="GET", headers={"Accept": "application/json", "User-Agent": USER_AGENT}
         )
@@ -161,7 +187,12 @@ def main() -> int:
     parser.add_argument("--batch", required=True)
     parser.add_argument("--max-candidates", type=int, default=20)
     parser.add_argument("--timeout", type=float, default=20.0)
-    parser.add_argument("--delay", type=float, default=0.75)
+    parser.add_argument(
+        "--delay",
+        type=float,
+        default=DEFAULT_REQUEST_INTERVAL_SECONDS,
+        help="minimum seconds between every LoC HTTP request",
+    )
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
     if len(args.batch) > 128 or BATCH_NAME_RE.fullmatch(args.batch) is None:
@@ -175,7 +206,11 @@ def main() -> int:
         rows = candidates(connection, args.batch, args.max_candidates)
     finally:
         connection.close()
-    for position, row in enumerate(rows):
+    pacer = RequestPacer(args.delay)
+    item_cache: dict[str, dict] = {}
+    snippet_cache: dict[tuple[str, str], dict] = {}
+    full_text_cache: dict[str, dict] = {}
+    for row in rows:
         result = {
             "candidate_match_id": row["candidate_match_id"],
             "indexed_name": row["display_name"],
@@ -187,24 +222,47 @@ def main() -> int:
             surname = str(row["indexed_surname"] or "").split(",", 1)[0].strip()
             if not surname:
                 raise ValueError("Indexed row has no usable surname")
-            result["ocr_query"] = surname
+            indexed_name = str(row["display_name"] or "").strip()
+            if not indexed_name:
+                raise ValueError("Indexed row has no usable display name")
+            result["ocr_query"] = indexed_name
             if args.dry_run:
                 result["planned_item_url"] = item_url
             else:
-                item = fetch_json(item_url, timeout=args.timeout)
+                item = item_cache.get(item_url)
+                if item is None:
+                    item = fetch_json(
+                        item_url,
+                        timeout=args.timeout,
+                        before_request=pacer.wait,
+                    )
+                    item_cache[item_url] = item
                 segment = item.get("segment_id")
                 if not isinstance(segment, str):
                     raise ValueError("LoC item has no OCR segment_id")
-                text_payload = fetch_json(text_service_url(segment, surname), timeout=args.timeout)
-                context = relevant_snippet(text_payload, segment)[:1200]
-                context_source = "server_relevant_snippet"
-                if not context:
-                    full_payload = fetch_json(
-                        full_text_service_url(segment), timeout=args.timeout
+                snippet_key = (segment, indexed_name.casefold())
+                text_payload = snippet_cache.get(snippet_key)
+                if text_payload is None:
+                    text_payload = fetch_json(
+                        text_service_url(segment, indexed_name),
+                        timeout=args.timeout,
+                        before_request=pacer.wait,
                     )
+                    snippet_cache[snippet_key] = text_payload
+                context = relevant_snippet(text_payload, segment)[:1200]
+                context_source = "server_full_name_snippet"
+                if not context:
+                    full_payload = full_text_cache.get(segment)
+                    if full_payload is None:
+                        full_payload = fetch_json(
+                            full_text_service_url(segment),
+                            timeout=args.timeout,
+                            before_request=pacer.wait,
+                        )
+                        full_text_cache[segment] = full_payload
                     context = bounded_ocr_context(
                         full_text(full_payload, segment),
-                        [str(row["display_name"]), surname],
+                        [indexed_name, surname],
                     )
                     context_source = (
                         "bounded_full_text_fallback"
@@ -217,8 +275,6 @@ def main() -> int:
         except (ValueError, urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
             result["review_error"] = f"{type(exc).__name__}: {exc}"
         print(json.dumps(result, ensure_ascii=False), flush=True)
-        if not args.dry_run and position < len(rows) - 1:
-            time.sleep(args.delay)
     return 0
 
 

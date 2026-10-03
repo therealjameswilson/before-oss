@@ -1,6 +1,6 @@
 # Stratified profile audit
 
-Generated: 2026-10-03T07:06:43+00:00
+Generated: 2026-10-03T07:59:59+00:00
 
 Deterministic profiles audited: **200**.
 
@@ -22,10 +22,10 @@ Deterministic profiles audited: **200**.
 - allied or foreign: 20
 - incomplete or initial only name: 20
 - possible duplicate group: 31
-- confirmed or high published claim: 35
+- confirmed or high published claim: 36
 - medium published claim: 15
 - conflicting published claim: 10
-- unresolved identity: 130
+- unresolved identity: 129
 
 ## Evidence-limited strata
 
