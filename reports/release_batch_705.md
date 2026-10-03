@@ -111,11 +111,31 @@ known product failure. The bounded release suite exercises the core routes,
 Batch 705 profiles, analytics, responsive layouts, and accessibility across all
 three configured browser projects and passed 90 / 90.
 
-## Publication
+## Released and verified live
 
-The reviewed Batch 705 release is ready for publication. This section will be
-updated with the immutable commit, workflow runs, and post-deployment byte
-verification after GitHub Pages completes.
+Batch 705 was fast-forwarded to `main` as commit
+[`4706a30724ea62677cb4b324b6bb8418ecbad4cf`](https://github.com/therealjameswilson/before-oss/commit/4706a30724ea62677cb4b324b6bb8418ecbad4cf).
+The GitHub Pages build and deployment
+[`37128752492`](https://github.com/therealjameswilson/before-oss/actions/runs/37128752492)
+and independent test workflow
+[`37128752449`](https://github.com/therealjameswilson/before-oss/actions/runs/37128752449)
+passed on 2026-10-03 America/New_York. GitHub emitted advisory warnings that
+several official actions still target Node.js 20 while runners force Node.js
+24, and that `ubuntu-latest` is scheduled to migrate to Ubuntu 26; the
+workflows nevertheless completed successfully.
+
+Post-deployment verification compared the public site with that exact commit.
+All 67 manifest assets totaling 104,124,446 bytes matched, as did eight core
+routes, all 29 source-register pages, and all 23 Batch 705 profiles changed by
+the reviewed-evidence bundle. The live site reports 23,978 source rows, 23,939
+person entities, 9,254 researched people, 711 verified affiliations, 320
+verified employers, and 14,680 not-started people. Julian M Niemczyk's
+immediate military pathway, Henry R Nigrelli's last civilian employer,
+Boonyong Nikrodananda's student and qualified volunteer relationships, Halvor
+H Nipe's immediate Army assignment, all five additional identity-only
+decisions, the unmerged Lester C Nieman conflict, and the unresolved profiles
+render from their public URLs. The oil-company directory remains visible with
+nine cited people across eleven historically named companies.
 
 ## Resume
 
