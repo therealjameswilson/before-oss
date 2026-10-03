@@ -95,10 +95,26 @@ The exact rebuilt tree passed these release gates:
   304,371,693 bytes**, SHA-256
   `c29f73f861cebcfc542d5705d28d691b9fe51edda066b5358dc20601c628850d`.
 
-## Deployment status
+## Released and verified live
 
-Publication details will be appended after the exact commit is deployed and
-verified against GitHub Pages.
+Batch 701 was fast-forwarded to `main` as commit
+[`155b954f48a1b0a0e9c8488897749bec3856e158`](https://github.com/therealjameswilson/before-oss/commit/155b954f48a1b0a0e9c8488897749bec3856e158).
+The GitHub Pages build and deployment
+[`37118142156`](https://github.com/therealjameswilson/before-oss/actions/runs/37118142156)
+and independent test workflow
+[`37118142184`](https://github.com/therealjameswilson/before-oss/actions/runs/37118142184)
+passed on 2026-10-03 America/New_York. GitHub emitted advisory warnings that
+several official actions still target Node.js 20 while runners force Node.js
+24, and that `ubuntu-latest` is scheduled to migrate to Ubuntu 26; the
+workflows nevertheless completed successfully.
+
+Post-deployment verification compared the public site with that exact commit.
+All 67 manifest assets totaling 103,801,592 bytes matched, as did eight core
+routes, all 29 source-register pages, and all 23 Batch 701 profile routes. The
+live site reports 23,978 source rows, 23,939 person entities, 9,165 researched
+people, 706 verified affiliations, 319 verified employers, and 14,769
+not-started people. Ilhan New's direct profile and the qualified, conflict,
+identity-only, and unresolved profiles render from their public URLs.
 
 ## Resume
 
