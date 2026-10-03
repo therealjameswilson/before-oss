@@ -94,10 +94,29 @@ The exact rebuilt tree passed these release gates:
   304,461,095 bytes**, SHA-256
   `d3dc5c13e46fa35b95b10d615e973d3e18526e78e63a42c0bb594c0bf5bd281e`.
 
-## Release status
+## Released and verified live
 
-The Batch 702 release commit, GitHub workflows, and exact live verification
-are recorded below after deployment.
+Batch 702 was fast-forwarded to `main` as commit
+[`030daa2c2e09240eedf1907d2507108fd3f8cdaa`](https://github.com/therealjameswilson/before-oss/commit/030daa2c2e09240eedf1907d2507108fd3f8cdaa).
+The GitHub Pages build and deployment
+[`37120430565`](https://github.com/therealjameswilson/before-oss/actions/runs/37120430565)
+and independent test workflow
+[`37120430488`](https://github.com/therealjameswilson/before-oss/actions/runs/37120430488)
+passed on 2026-10-03 America/New_York. GitHub emitted advisory warnings that
+several official actions still target Node.js 20 while runners force Node.js
+24, and that `ubuntu-latest` is scheduled to migrate to Ubuntu 26; the
+workflows nevertheless completed successfully.
+
+Post-deployment verification compared the public site with that exact commit.
+All 67 manifest assets totaling 103,855,029 bytes matched, as did eight core
+routes, all 29 source-register pages, and all 22 Batch 702 profile routes. The
+live site reports 23,978 source rows, 23,939 person entities, 9,187 researched
+people, 706 verified affiliations, 319 verified employers, and 14,747
+not-started people. Lester J Newquist's qualified Brown Brothers Harriman
+affiliation, the Nichelson/Nicholson unmerged duplicate review, all six
+identity-only decisions, and the unresolved profiles render from their public
+URLs. The oil-company directory remains visible with nine cited people across
+eleven historically named companies.
 
 ## Resume
 
