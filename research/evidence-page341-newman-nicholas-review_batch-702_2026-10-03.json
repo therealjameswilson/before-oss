@@ -1,0 +1,323 @@
+{
+  "bundle_version": "batch-702-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 702 review, 2026-10-03",
+  "sources": [
+    {
+      "key": "nara-index-b702",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 558-560",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 341, rows 23-45, plus page 342, row 24 for the unmerged Nichelson/Nicholson duplicate review; page 341 visually checked against a fresh 170 dpi render",
+      "access_date": "2026-10-03",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Full service identifiers remain private. Original spellings, ranks or grades, box numbers, notes, and archival locations are preserved."
+    },
+    {
+      "key": "army-bulk-b702",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; reviewed bulk record ordinals retained as claim locators",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; protected-identifier review for six exact-name candidate rows",
+      "access_date": "2026-10-03",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "Official bulk data, not a Catalog API response. Protected identifiers, coded occupations, and raw records are excluded from public output."
+    },
+    {
+      "key": "banking-newquist-b702",
+      "stable_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Banking_1960-01-_Vol_52_Iss_7_%28IA_sim_american-bankers-association-aba-banking-journal_1960-01_52_7%29.pdf",
+      "archival_identifier": "Banking, volume 52, issue 7, January 1960",
+      "title": "Banking, January 1960: About People",
+      "author_creator": "Marguerite Beck, compiler",
+      "repository_publisher": "American Bankers Association; Internet Archive and Wikimedia Commons digital copy",
+      "publication_record_date": "1960-01",
+      "locator": "Magazine page 16, PDF page 17, About People column",
+      "access_date": "2026-10-03",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Banking magazine",
+      "rights_notes": "Only a short excerpt and project-authored paraphrase are retained."
+    },
+    {
+      "key": "uchicago-newquist-b702",
+      "stable_url": "https://www.lib.uchicago.edu/ead/pdf/botminutes-0060-001-02.pdf",
+      "archival_identifier": "University of Chicago Board of Trustees minutes, report of gifts, grants and bequests, December 1969",
+      "title": "University of Chicago Board of Trustees Minutes",
+      "author_creator": "University of Chicago Board of Trustees",
+      "repository_publisher": "University of Chicago Library",
+      "publication_record_date": "1969-12",
+      "locator": "Report of gifts, page 24: Lester J. Newquist '36, New York",
+      "access_date": "2026-10-03",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "University of Chicago Board of Trustees minutes",
+      "rights_notes": "Used as corroborating identity and chronology context, not as evidence of employment."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "brown-brothers-harriman-b702",
+      "canonical_name": "Brown Brothers Harriman & Co.",
+      "historical_name": "Brown Brothers Harriman & Co.",
+      "aliases": ["Brown Brothers Harriman"],
+      "organization_type": "private bank and investment firm",
+      "sector": "finance_and_banking",
+      "city": "New York City",
+      "state_or_region": "New York",
+      "country": "United States",
+      "active_dates": "Historical name in use from 1931",
+      "normalization_notes": "The firm is kept distinct from predecessor partnerships and later corporate affiliates."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "lester-newquist-bbh-b702",
+      "person_id": "3d150347-863e-56ed-952f-b61a74499d57",
+      "organization_key": "brown-brothers-harriman-b702",
+      "organization_name_as_found": "Brown Brothers Harriman & Co.",
+      "role_title": null,
+      "occupation": "banker",
+      "relationship_type": "employment",
+      "start_date": "1936",
+      "end_date": null,
+      "date_precision": "year",
+      "city": "New York City",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The distinctive exact name, University of Chicago class year, and 1936 employment chronology support a probable match. The accessible sources do not state that Brown Brothers Harriman was the immediate pre-OSS employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-martin-d-newman-b702",
+      "person_id": "2814f676-90bb-5655-adb7-3964e5529060",
+      "claim_type": "identity",
+      "claim_text": "The indexed Martin D Newman is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 678791.",
+      "identity_match_assessment": "High confidence. Exact name and a nonshared protected identifier agree in official records.",
+      "temporal_assessment": "The Army entry establishes identity but neither a named employer nor an OSS accession date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No coded Army occupation is converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b702", "support_type": "supports", "locator_override": "PDF page 341, row 23"},
+        {"source_key": "army-bulk-b702", "support_type": "supports", "locator_override": "Bulk record ordinal 678791"}
+      ]
+    },
+    {
+      "key": "identity-morton-newman-b702",
+      "person_id": "a30567d7-fefd-53c6-bd3d-a7c99ad78a14",
+      "claim_type": "identity",
+      "claim_text": "The indexed Morton Newman is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 4613925.",
+      "identity_match_assessment": "High confidence. Exact name and a nonshared protected identifier agree in official records.",
+      "temporal_assessment": "The Army entry establishes identity but neither a named employer nor an OSS accession date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No coded Army occupation is converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b702", "support_type": "supports", "locator_override": "PDF page 341, row 24"},
+        {"source_key": "army-bulk-b702", "support_type": "supports", "locator_override": "Bulk record ordinal 4613925"}
+      ]
+    },
+    {
+      "key": "identity-howard-t-newsom-b702",
+      "person_id": "b6b02b42-7e65-5805-a167-bd267453c520",
+      "claim_type": "identity",
+      "claim_text": "The indexed Howard T Newsom is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 7562364.",
+      "identity_match_assessment": "High confidence. Exact name and a nonshared protected identifier agree in official records.",
+      "temporal_assessment": "The Army entry establishes identity but neither a named employer nor an OSS accession date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "A postwar oil-tool employer lead is not treated as pre-OSS evidence; coded Army occupation is also excluded.",
+      "sources": [
+        {"source_key": "nara-index-b702", "support_type": "supports", "locator_override": "PDF page 341, row 35"},
+        {"source_key": "army-bulk-b702", "support_type": "supports", "locator_override": "Bulk record ordinal 7562364"}
+      ]
+    },
+    {
+      "key": "identity-grover-r-newton-b702",
+      "person_id": "c475f9f1-8e07-5bba-a60b-8c259df4e45f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Grover R Newton is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 7973631.",
+      "identity_match_assessment": "High confidence. Exact name and a nonshared protected identifier agree in official records.",
+      "temporal_assessment": "The Army entry establishes identity but neither a named employer nor an OSS accession date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No coded Army occupation is converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b702", "support_type": "supports", "locator_override": "PDF page 341, row 40"},
+        {"source_key": "army-bulk-b702", "support_type": "supports", "locator_override": "Bulk record ordinal 7973631"}
+      ]
+    },
+    {
+      "key": "identity-vidma-newton-b702",
+      "person_id": "bfbc5982-821f-5743-945b-c7c2ecc8f804",
+      "claim_type": "identity",
+      "claim_text": "The indexed Vidma Newton is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 5420447.",
+      "identity_match_assessment": "High confidence. Exact name and a nonshared protected identifier agree in official records.",
+      "temporal_assessment": "The Army entry establishes identity but neither a named employer nor an OSS accession date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No coded Army occupation is converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b702", "support_type": "supports", "locator_override": "PDF page 341, row 41"},
+        {"source_key": "army-bulk-b702", "support_type": "supports", "locator_override": "Bulk record ordinal 5420447"}
+      ]
+    },
+    {
+      "key": "identity-blake-h-nicholas-b702",
+      "person_id": "612a1f0a-55ac-5054-88fe-f4e1b82078d8",
+      "claim_type": "identity",
+      "claim_text": "The indexed Blake H Nicholas is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 4348175.",
+      "identity_match_assessment": "High confidence. Exact name and a nonshared protected identifier agree in official records.",
+      "temporal_assessment": "The Army entry establishes identity but neither a named employer nor an OSS accession date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No coded Army occupation is converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b702", "support_type": "supports", "locator_override": "PDF page 341, row 45"},
+        {"source_key": "army-bulk-b702", "support_type": "supports", "locator_override": "Bulk record ordinal 4348175"}
+      ]
+    },
+    {
+      "key": "identity-william-l-newman-source-link-b702",
+      "person_id": "fe6f15c6-72f7-5059-a752-d41cadd25a7d",
+      "claim_type": "identity",
+      "claim_text": "The two William L Newman index rows are linked to one high-confidence person entity while both printed rows remain preserved.",
+      "evidence_paraphrase": "The adjacent rows repeat the same exact name, protected identifier, box, and archival location; one row supplies the First Lieutenant rank.",
+      "identity_match_assessment": "High confidence for linking the two source rows, not for assigning an external biography.",
+      "temporal_assessment": "The source-row linkage establishes no employer chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Both immutable rows remain visible; the protected identifier is masked in public data.",
+      "sources": [
+        {"source_key": "nara-index-b702", "support_type": "supports", "locator_override": "PDF page 341, rows 27-28"}
+      ]
+    },
+    {
+      "key": "identity-earl-j-nichelson-duplicate-b702",
+      "person_id": "a9ca12a9-aa4e-5fe3-b3c1-0ca0a6a8b7a8",
+      "claim_type": "identity",
+      "claim_text": "Earl J Nichelson may be the same person as Earl J Nicholson, but the records remain unmerged pending direct evidence.",
+      "evidence_paraphrase": "The same protected identifier appears with a one-letter surname difference, Second and First Lieutenant ranks, different boxes, and adjacent index pages.",
+      "identity_match_assessment": "Ambiguous. The shared identifier strongly suggests duplication, but conflicting printed names and file locations require personnel-file review.",
+      "temporal_assessment": "A plausible promotion sequence does not establish employment or prove that the two file entries are one person.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Both person entities and both immutable source rows remain visible; no silent merge is performed.",
+      "sources": [
+        {"source_key": "nara-index-b702", "support_type": "supports", "locator_override": "PDF page 341, row 43, and page 342, row 24"}
+      ]
+    },
+    {
+      "key": "identity-lester-j-newquist-b702",
+      "person_id": "3d150347-863e-56ed-952f-b61a74499d57",
+      "claim_type": "identity",
+      "claim_text": "The indexed Lester J Newquist is a probable match to the University of Chicago alumnus and Brown Brothers Harriman banker.",
+      "evidence_paraphrase": "The distinctive exact name appears with a 1936 University of Chicago class year and a contemporary banking chronology beginning at Brown Brothers Harriman in 1936.",
+      "identity_match_assessment": "Probable. Name, middle initial, education year, and employment chronology align, but the accessible sources do not explicitly name OSS service.",
+      "temporal_assessment": "The 1936 employment predates OSS; the exact wartime departure date remains unlocated.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The personnel file should confirm the identity and wartime transition before default analytics include the employer.",
+      "sources": [
+        {"source_key": "nara-index-b702", "support_type": "supports", "locator_override": "PDF page 341, row 32"},
+        {"source_key": "uchicago-newquist-b702", "support_type": "supports", "locator_override": "Report of gifts, page 24"},
+        {"source_key": "banking-newquist-b702", "support_type": "supports", "locator_override": "Magazine page 16, About People"}
+      ]
+    },
+    {
+      "key": "prewar-lester-j-newquist-bbh-b702",
+      "person_id": "3d150347-863e-56ed-952f-b61a74499d57",
+      "affiliation_key": "lester-newquist-bbh-b702",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A probable identity match places Lester J Newquist at Brown Brothers Harriman & Co. from 1936.",
+      "evidence_excerpt": "Lester J. Newquist, who joined the firm in 1936",
+      "evidence_paraphrase": "A contemporary American Bankers Association personnel notice says Newquist joined Brown Brothers Harriman in 1936 and later became a manager and partner.",
+      "identity_match_assessment": "Probable rather than high confidence because the employment source does not explicitly name OSS service.",
+      "temporal_assessment": "Documented prewar employment; not established as the immediate pre-OSS affiliation or last civilian employer.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Excluded from default verified-employer analytics until the personnel file confirms identity and wartime sequence.",
+      "sources": [
+        {"source_key": "banking-newquist-b702", "support_type": "supports", "locator_override": "Magazine page 16, PDF page 17"},
+        {"source_key": "uchicago-newquist-b702", "support_type": "context_only", "locator_override": "Report of gifts, page 24"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {"person_id":"2814f676-90bb-5655-adb7-3964e5529060","identity_status":"high_confidence","identity_evidence":"Exact name and a nonshared protected identifier agree with official Army bulk ordinal 678791; no employer is inferred from coded fields.","manual_review_required":false,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 558 for the immediate pre-OSS affiliation or last civilian employer.","archival_review_priority":"medium"},
+    {"person_id":"a30567d7-fefd-53c6-bd3d-a7c99ad78a14","identity_status":"high_confidence","identity_evidence":"Exact name and a nonshared protected identifier agree with official Army bulk ordinal 4613925; no employer is inferred from coded fields.","manual_review_required":false,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 558 for the immediate pre-OSS affiliation or last civilian employer.","archival_review_priority":"medium"},
+    {"person_id":"edf5ad9f-771d-509c-8910-5efb298f0d0b","identity_status":"unresolved","identity_evidence":"The index row is verified, but accessible exact-name and institutional searches did not establish a unique identity or pre-OSS employer.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 558 for identity and pre-OSS affiliation evidence.","archival_review_priority":"high"},
+    {"person_id":"b86d99db-0389-580c-b509-2208e4a7a696","identity_status":"unresolved","identity_evidence":"The index row is verified, but accessible results did not distinguish this Sarah Newman from namesakes or establish pre-OSS work.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 558 for identity and pre-OSS affiliation evidence.","archival_review_priority":"high"},
+    {"person_id":"fe6f15c6-72f7-5059-a752-d41cadd25a7d","identity_status":"high_confidence","identity_evidence":"Two adjacent index rows repeat the exact name, protected identifier, box, and archival location; both immutable rows remain linked to one entity.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 558 to verify the source-row duplication and identify pre-OSS work.","archival_review_priority":"high"},
+    {"person_id":"2c6a2b66-1dc7-52b4-bfa7-f736437bbf9d","identity_status":"unresolved","identity_evidence":"The index row is verified, but exact-name OSS, occupation, institutional, and archival searches found no reliable identity bridge.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 558 for identity and pre-OSS affiliation evidence.","archival_review_priority":"high"},
+    {"person_id":"32686d09-a3bb-537a-b78d-4d42e83bf9cd","identity_status":"unresolved","identity_evidence":"The index spelling is verified; academic results for a similarly named political scientist did not establish that they are the indexed person.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 558 for identity and pre-OSS affiliation evidence.","archival_review_priority":"high"},
+    {"person_id":"f072c29e-3a6c-55fe-9020-42c8fc7b5aae","identity_status":"unresolved","identity_evidence":"The Lieutenant Junior Grade index row is verified, but accessible Navy, OSS, obituary, and institutional searches produced no reliable biographical match.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 558 for identity and pre-OSS affiliation evidence.","archival_review_priority":"high"},
+    {"person_id":"3d150347-863e-56ed-952f-b61a74499d57","identity_status":"probable","identity_evidence":"The distinctive exact name, University of Chicago class year, and Brown Brothers Harriman chronology align, but no accessible source explicitly connects that biography to OSS.","manual_review_required":true,"research_status":"documented_prewar_employer_found","next_action":"Inspect Box 558 to confirm identity and whether Brown Brothers Harriman was the immediate pre-OSS or last civilian employer.","archival_review_priority":"high"},
+    {"person_id":"f26d435d-c072-5f6e-9cca-8e79177cebfd","identity_status":"unresolved","identity_evidence":"The index row is verified, but accessible exact-name, employment, obituary, and archival searches did not establish identity or pre-OSS work.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 558 for identity and pre-OSS affiliation evidence.","archival_review_priority":"high"},
+    {"person_id":"6c884311-ce1f-5b6e-a6d5-9e816ebf4101","identity_status":"unresolved","identity_evidence":"A distinctive exact-name lead describes a later CIA geographer, but accessible sources do not directly bridge that biography to the indexed OSS record or document pre-OSS work.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 558 for identity and pre-OSS affiliation evidence.","archival_review_priority":"high"},
+    {"person_id":"b6b02b42-7e65-5805-a167-bd267453c520","identity_status":"high_confidence","identity_evidence":"Exact name and a nonshared protected identifier agree with official Army bulk ordinal 7562364; postwar oil-tool work is not treated as pre-OSS evidence.","manual_review_required":false,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 558 for the immediate pre-OSS affiliation or last civilian employer.","archival_review_priority":"medium"},
+    {"person_id":"de554a5e-8416-5641-9576-313c035fc7ea","identity_status":"unresolved","identity_evidence":"The index row is verified; a cemetery lead and name collisions supplied no OSS bridge or pre-OSS employment evidence.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 558 for identity and pre-OSS affiliation evidence.","archival_review_priority":"high"},
+    {"person_id":"92559e51-db2e-59ce-9164-afbcb0f9ea95","identity_status":"unresolved","identity_evidence":"Modern legal and directory namesakes were rejected; no accessible result established the indexed William S Newsome or pre-OSS work.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 558 for identity and pre-OSS affiliation evidence.","archival_review_priority":"high"},
+    {"person_id":"d04089e6-376c-52d8-ba5c-da8b5c8f70f0","identity_status":"unresolved","identity_evidence":"A census name match lacked middle-initial, OSS, and employment corroboration and was not accepted.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 558 for identity and pre-OSS affiliation evidence.","archival_review_priority":"high"},
+    {"person_id":"2f4105db-5faf-524c-80eb-6a4a5d077772","identity_status":"unresolved","identity_evidence":"The index row is verified; genealogy and census namesakes did not establish the indexed person or pre-OSS work.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 558 for identity and pre-OSS affiliation evidence.","archival_review_priority":"high"},
+    {"person_id":"c475f9f1-8e07-5bba-a60b-8c259df4e45f","identity_status":"high_confidence","identity_evidence":"Exact name and a nonshared protected identifier agree with official Army bulk ordinal 7973631; no employer is inferred from coded fields.","manual_review_required":false,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 558 for the immediate pre-OSS affiliation or last civilian employer.","archival_review_priority":"medium"},
+    {"person_id":"bfbc5982-821f-5743-945b-c7c2ecc8f804","identity_status":"high_confidence","identity_evidence":"Exact name and a nonshared protected identifier agree with official Army bulk ordinal 5420447; no employer is inferred from coded fields.","manual_review_required":false,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 558 for the immediate pre-OSS affiliation or last civilian employer.","archival_review_priority":"medium"},
+    {"person_id":"87a07727-aa70-5475-8321-c52e1bd0745e","identity_status":"unresolved","identity_evidence":"A burial transcription supplied only a name and dates; it did not establish a protected identifier, OSS service, or pre-OSS work.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 558 for identity and pre-OSS affiliation evidence.","archival_review_priority":"high"},
+    {"person_id":"a9ca12a9-aa4e-5fe3-b3c1-0ca0a6a8b7a8","identity_status":"ambiguous","identity_evidence":"The same protected identifier appears with Earl J Nichelson and Earl J Nicholson, different ranks, and different boxes. The entities remain unmerged pending direct file evidence.","name_variants":["Earl J Nicholson"],"manual_review_required":true,"possible_duplicate_group":"serial-conflict:1647205","research_status":"needs_identity_review","next_action":"Compare Boxes 559 and 560 and the two personnel files before merging or transferring evidence.","archival_review_priority":"critical"},
+    {"person_id":"ba301451-9f92-51ad-9827-ef6593d39180","identity_status":"unresolved","identity_evidence":"The uncommon index spelling is preserved; spelling-variant, obituary, institutional, and archival searches found no reliable identity bridge.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 559 for identity and pre-OSS affiliation evidence.","archival_review_priority":"high"},
+    {"person_id":"612a1f0a-55ac-5054-88fe-f4e1b82078d8","identity_status":"high_confidence","identity_evidence":"Exact name and a nonshared protected identifier agree with official Army bulk ordinal 4348175; a modern commercial namesake was rejected.","manual_review_required":false,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 559 for the immediate pre-OSS affiliation or last civilian employer.","archival_review_priority":"medium"}
+  ],
+  "research_attempts": [
+    {"key":"martin-d-newman-protocol-b702","person_id":"2814f676-90bb-5655-adb7-3964e5529060","source_adapter":"manual_staged_protocol","query_text":"NARA index context; official Army evidence; exact-name and variant OSS searches; CIA, employer, occupation, obituary, institutional, newspaper, and archival searches","query_variant_type":"full_protocol","started_at":"2026-10-03T14:00:00+00:00","completed_at":"2026-10-03T22:00:00+00:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":2,"rejection_reasons":"Search results concerned later namesakes or unrelated historical directory entries.","research_notes":"Identity resolved from official records. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 558.","attempt_number":1,"research_agent_version":"before-oss-b702-v1"},
+    {"key":"morton-newman-protocol-b702","person_id":"a30567d7-fefd-53c6-bd3d-a7c99ad78a14","source_adapter":"manual_staged_protocol","query_text":"NARA index context; official Army evidence; exact-name and variant OSS searches; CIA, employer, occupation, obituary, institutional, newspaper, and archival searches","query_variant_type":"full_protocol","started_at":"2026-10-03T14:00:00+00:00","completed_at":"2026-10-03T22:00:00+00:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":4,"rejection_reasons":"Results concerned a postwar defendant, an art collector, a veterans-post name, and other unbridged namesakes.","research_notes":"Identity resolved from official records. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 558.","attempt_number":1,"research_agent_version":"before-oss-b702-v1"},
+    {"key":"richard-r-newman-protocol-b702","person_id":"edf5ad9f-771d-509c-8910-5efb298f0d0b","source_adapter":"manual_staged_protocol","query_text":"NARA index context; exact-name and variant OSS searches; CIA, employer, occupation, obituary, military, institutional, newspaper, and archival searches","query_variant_type":"full_protocol","started_at":"2026-10-03T14:00:00+00:00","completed_at":"2026-10-03T22:00:00+00:00","outcome":"no_result","sources_reviewed":2,"candidate_sources_rejected":3,"rejection_reasons":"Modern business, War of 1812, and 1912 fire-association results were unrelated namesakes.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 558.","attempt_number":1,"research_agent_version":"before-oss-b702-v1"},
+    {"key":"sarah-newman-protocol-b702","person_id":"b86d99db-0389-580c-b509-2208e4a7a696","source_adapter":"manual_staged_protocol","query_text":"NARA index context; exact-name, P-2 grade, and OSS searches; CIA, employer, occupation, obituary, institutional, newspaper, directory, and archival searches","query_variant_type":"full_protocol","started_at":"2026-10-03T14:00:00+00:00","completed_at":"2026-10-03T22:00:00+00:00","outcome":"no_result","sources_reviewed":2,"candidate_sources_rejected":2,"rejection_reasons":"Newspaper results were later namesakes and did not supply an OSS or wartime identity bridge.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 558.","attempt_number":1,"research_agent_version":"before-oss-b702-v1"},
+    {"key":"william-l-newman-protocol-b702","person_id":"fe6f15c6-72f7-5059-a752-d41cadd25a7d","source_adapter":"manual_staged_protocol","query_text":"NARA duplicate-row context; exact-name, First Lieutenant, Army, and OSS searches; CIA, employer, occupation, obituary, institutional, and archival searches","query_variant_type":"full_protocol","started_at":"2026-10-03T14:00:00+00:00","completed_at":"2026-10-03T22:00:00+00:00","outcome":"source_reviewed","sources_reviewed":1,"candidate_sources_rejected":2,"rejection_reasons":"Cemetery and military-result namesakes did not match the protected wartime record.","research_notes":"The two index rows are linked without deduplicating the source. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 558.","attempt_number":1,"research_agent_version":"before-oss-b702-v1"},
+    {"key":"zelda-r-newman-protocol-b702","person_id":"2c6a2b66-1dc7-52b4-bfa7-f736437bbf9d","source_adapter":"manual_staged_protocol","query_text":"NARA index context; exact-name, CAF-2 grade, and OSS searches; CIA, employer, occupation, obituary, institutional, newspaper, and archival searches","query_variant_type":"full_protocol","started_at":"2026-10-03T14:00:00+00:00","completed_at":"2026-10-03T22:00:00+00:00","outcome":"no_result","sources_reviewed":2,"candidate_sources_rejected":1,"rejection_reasons":"No exact-name result established the indexed identity or pre-OSS work.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 558.","attempt_number":1,"research_agent_version":"before-oss-b702-v1"},
+    {"key":"franz-l-newmann-protocol-b702","person_id":"32686d09-a3bb-537a-b78d-4d42e83bf9cd","source_adapter":"manual_staged_protocol","query_text":"NARA index context; exact-name and spelling-variant OSS searches; CIA, employer, occupation, biography, academic, institutional, and archival searches","query_variant_type":"full_protocol","started_at":"2026-10-03T14:00:00+00:00","completed_at":"2026-10-03T22:00:00+00:00","outcome":"no_result","sources_reviewed":3,"candidate_sources_rejected":2,"rejection_reasons":"Academic references to a similarly named political scientist lacked an OSS or personnel-file bridge.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 558.","attempt_number":1,"research_agent_version":"before-oss-b702-v1"},
+    {"key":"stephen-m-newmark-protocol-b702","person_id":"f072c29e-3a6c-55fe-9020-42c8fc7b5aae","source_adapter":"manual_staged_protocol","query_text":"NARA index context; exact-name, Lieutenant Junior Grade, Navy, and OSS searches; CIA, employer, occupation, obituary, institutional, and archival searches","query_variant_type":"full_protocol","started_at":"2026-10-03T14:00:00+00:00","completed_at":"2026-10-03T22:00:00+00:00","outcome":"no_result","sources_reviewed":2,"candidate_sources_rejected":2,"rejection_reasons":"Results concerned modern or differently named people and did not identify the naval officer.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 558.","attempt_number":1,"research_agent_version":"before-oss-b702-v1"},
+    {"key":"lester-j-newquist-protocol-b702","person_id":"3d150347-863e-56ed-952f-b61a74499d57","source_adapter":"manual_staged_protocol","query_text":"NARA index context; exact-name and OSS searches; CIA, employer, occupation, obituary, banking, university, institutional, newspaper, and archival searches","query_variant_type":"full_protocol","started_at":"2026-10-03T14:00:00+00:00","completed_at":"2026-10-03T22:00:00+00:00","outcome":"source_reviewed","sources_reviewed":4,"candidate_sources_rejected":1,"rejection_reasons":"A spouse's obituary was not used as the principal identity or employment evidence.","research_notes":"A probable identity match has documented 1936 Brown Brothers Harriman employment, but immediacy and wartime sequence remain unverified.","next_action":"Inspect Box 558.","attempt_number":1,"research_agent_version":"before-oss-b702-v1"},
+    {"key":"barbara-w-newsham-protocol-b702","person_id":"f26d435d-c072-5f6e-9cca-8e79177cebfd","source_adapter":"manual_staged_protocol","query_text":"NARA index context; exact-name, CAF-3 grade, and OSS searches; CIA, employer, occupation, obituary, institutional, newspaper, and archival searches","query_variant_type":"full_protocol","started_at":"2026-10-03T14:00:00+00:00","completed_at":"2026-10-03T22:00:00+00:00","outcome":"no_result","sources_reviewed":2,"candidate_sources_rejected":2,"rejection_reasons":"Search results were phrase collisions or unrelated family names.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 558.","attempt_number":1,"research_agent_version":"before-oss-b702-v1"},
+    {"key":"richard-a-newsham-protocol-b702","person_id":"6c884311-ce1f-5b6e-a6d5-9e816ebf4101","source_adapter":"manual_staged_protocol","query_text":"NARA index context; exact-name, P-5 grade, OSS, CIA, and Air America searches; employer, occupation, obituary, geography, institutional, and archival searches","query_variant_type":"full_protocol","started_at":"2026-10-03T14:00:00+00:00","completed_at":"2026-10-03T22:00:00+00:00","outcome":"no_result","sources_reviewed":4,"candidate_sources_rejected":1,"rejection_reasons":"Postwar CIA and family evidence did not directly bridge the biography to the indexed OSS record or document pre-OSS work.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 558.","attempt_number":1,"research_agent_version":"before-oss-b702-v1"},
+    {"key":"howard-t-newsom-protocol-b702","person_id":"b6b02b42-7e65-5805-a167-bd267453c520","source_adapter":"manual_staged_protocol","query_text":"NARA index context; official Army evidence; exact-name and OSS searches; CIA, employer, occupation, obituary, oil-tool, institutional, newspaper, and archival searches","query_variant_type":"full_protocol","started_at":"2026-10-03T14:00:00+00:00","completed_at":"2026-10-03T22:00:00+00:00","outcome":"source_reviewed","sources_reviewed":3,"candidate_sources_rejected":1,"rejection_reasons":"A postwar Camco Oil Tool Supply career does not establish the immediate pre-OSS or last pre-service employer.","research_notes":"Identity resolved from official records. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 558.","attempt_number":1,"research_agent_version":"before-oss-b702-v1"},
+    {"key":"rubye-newsome-protocol-b702","person_id":"de554a5e-8416-5641-9576-313c035fc7ea","source_adapter":"manual_staged_protocol","query_text":"NARA index context; exact-name, spelling-variant, CAF-2 grade, and OSS searches; CIA, employer, occupation, obituary, cemetery, institutional, and archival searches","query_variant_type":"full_protocol","started_at":"2026-10-03T14:00:00+00:00","completed_at":"2026-10-03T22:00:00+00:00","outcome":"no_result","sources_reviewed":3,"candidate_sources_rejected":2,"rejection_reasons":"Cemetery and modern-name results lacked an OSS, grade, or employment bridge.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 558.","attempt_number":1,"research_agent_version":"before-oss-b702-v1"},
+    {"key":"william-s-newsome-protocol-b702","person_id":"92559e51-db2e-59ce-9164-afbcb0f9ea95","source_adapter":"manual_staged_protocol","query_text":"NARA index context; exact-name and OSS searches; CIA, employer, occupation, obituary, cemetery, institutional, newspaper, and archival searches","query_variant_type":"full_protocol","started_at":"2026-10-03T14:00:00+00:00","completed_at":"2026-10-03T22:00:00+00:00","outcome":"no_result","sources_reviewed":3,"candidate_sources_rejected":3,"rejection_reasons":"Modern judicial, business, and cemetery namesakes supplied no wartime bridge.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 558.","attempt_number":1,"research_agent_version":"before-oss-b702-v1"},
+    {"key":"margaret-j-newson-protocol-b702","person_id":"d04089e6-376c-52d8-ba5c-da8b5c8f70f0","source_adapter":"manual_staged_protocol","query_text":"NARA index context; exact-name, CAF-4 grade, and OSS searches; CIA, employer, occupation, obituary, census, institutional, newspaper, and archival searches","query_variant_type":"full_protocol","started_at":"2026-10-03T14:00:00+00:00","completed_at":"2026-10-03T22:00:00+00:00","outcome":"no_result","sources_reviewed":3,"candidate_sources_rejected":2,"rejection_reasons":"A 1940 census name lacked middle-initial, occupation, and OSS corroboration; a Canadian military result was unrelated.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 558.","attempt_number":1,"research_agent_version":"before-oss-b702-v1"},
+    {"key":"doris-c-newton-protocol-b702","person_id":"2f4105db-5faf-524c-80eb-6a4a5d077772","source_adapter":"manual_staged_protocol","query_text":"NARA index context; exact-name, CAF-4 grade, and OSS searches; CIA, employer, occupation, obituary, census, institutional, newspaper, and archival searches","query_variant_type":"full_protocol","started_at":"2026-10-03T14:00:00+00:00","completed_at":"2026-10-03T22:00:00+00:00","outcome":"no_result","sources_reviewed":3,"candidate_sources_rejected":2,"rejection_reasons":"Genealogy and directory namesakes lacked wartime or OSS corroboration.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 558.","attempt_number":1,"research_agent_version":"before-oss-b702-v1"},
+    {"key":"grover-r-newton-protocol-b702","person_id":"c475f9f1-8e07-5bba-a60b-8c259df4e45f","source_adapter":"manual_staged_protocol","query_text":"NARA index context; official Army evidence; exact-name and OSS searches; CIA, employer, occupation, obituary, institutional, newspaper, directory, and archival searches","query_variant_type":"full_protocol","started_at":"2026-10-03T14:00:00+00:00","completed_at":"2026-10-03T22:00:00+00:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":2,"rejection_reasons":"Directory and phrase-collision results referred to different names or supplied no wartime bridge.","research_notes":"Identity resolved from official records. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 558.","attempt_number":1,"research_agent_version":"before-oss-b702-v1"},
+    {"key":"vidma-newton-protocol-b702","person_id":"bfbc5982-821f-5743-945b-c7c2ecc8f804","source_adapter":"manual_staged_protocol","query_text":"NARA index context; official Army evidence; exact-name and spelling-variant OSS searches; CIA, employer, occupation, obituary, institutional, newspaper, and archival searches","query_variant_type":"full_protocol","started_at":"2026-10-03T14:00:00+00:00","completed_at":"2026-10-03T22:00:00+00:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":1,"rejection_reasons":"No independent exact-name source supplied a pre-OSS employer or affiliation.","research_notes":"Identity resolved from official records. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 558.","attempt_number":1,"research_agent_version":"before-oss-b702-v1"},
+    {"key":"harry-h-nexhip-protocol-b702","person_id":"87a07727-aa70-5475-8321-c52e1bd0745e","source_adapter":"manual_staged_protocol","query_text":"NARA index context; exact-name and spelling-variant OSS searches; CIA, employer, occupation, obituary, military, cemetery, institutional, and archival searches","query_variant_type":"full_protocol","started_at":"2026-10-03T14:00:00+00:00","completed_at":"2026-10-03T22:00:00+00:00","outcome":"no_result","sources_reviewed":3,"candidate_sources_rejected":1,"rejection_reasons":"A discovery-only burial transcription lacked a protected identifier, wartime assignment, and employment history.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 558.","attempt_number":1,"research_agent_version":"before-oss-b702-v1"},
+    {"key":"earl-j-nichelson-protocol-b702","person_id":"a9ca12a9-aa4e-5fe3-b3c1-0ca0a6a8b7a8","source_adapter":"manual_staged_protocol","query_text":"NARA index and duplicate-row context; Nichelson and Nicholson exact-name variants; ranks, OSS, CIA, employer, occupation, obituary, military, institutional, and archival searches","query_variant_type":"full_protocol","started_at":"2026-10-03T14:00:00+00:00","completed_at":"2026-10-03T22:00:00+00:00","outcome":"candidate_found","sources_reviewed":2,"candidate_sources_rejected":2,"rejection_reasons":"Genealogy results and unrelated surname references supplied no direct identity evidence.","research_notes":"The shared protected identifier makes the duplicate plausible, but conflicting spellings, ranks, and boxes require direct file review; no merge was made.","next_action":"Compare Boxes 559 and 560.","attempt_number":1,"research_agent_version":"before-oss-b702-v1"},
+    {"key":"estelle-k-nichnowiitz-protocol-b702","person_id":"ba301451-9f92-51ad-9827-ef6593d39180","source_adapter":"manual_staged_protocol","query_text":"NARA index context; exact-name and likely spelling-variant OSS searches; CIA, employer, occupation, obituary, institutional, newspaper, directory, and archival searches","query_variant_type":"full_protocol","started_at":"2026-10-03T14:00:00+00:00","completed_at":"2026-10-03T22:00:00+00:00","outcome":"no_result","sources_reviewed":2,"candidate_sources_rejected":1,"rejection_reasons":"No reliable exact or variant-name result supplied an identity bridge.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 559.","attempt_number":1,"research_agent_version":"before-oss-b702-v1"},
+    {"key":"blake-h-nicholas-protocol-b702","person_id":"612a1f0a-55ac-5054-88fe-f4e1b82078d8","source_adapter":"manual_staged_protocol","query_text":"NARA index context; official Army evidence; exact-name and OSS searches; CIA, employer, occupation, obituary, military, institutional, newspaper, and archival searches","query_variant_type":"full_protocol","started_at":"2026-10-03T14:00:00+00:00","completed_at":"2026-10-03T22:00:00+00:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":2,"rejection_reasons":"A modern commercial professional-license result and other namesakes lacked a wartime bridge.","research_notes":"Identity resolved from official records. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 559.","attempt_number":1,"research_agent_version":"before-oss-b702-v1"}
+  ]
+}
