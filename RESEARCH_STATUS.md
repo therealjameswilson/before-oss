@@ -1,5 +1,36 @@
 # Research status
 
+Batch 694 completed PDF page 337, rows 23-45, from **Errol M Nakao** through
+**John S Nash**, with a saved terminal outcome for all 23 people. Ann Nash is a
+high-confidence match to E. Ann Nash, later Ann Nash Bottorff. Three visually
+reviewed Cornell alumni notices identify her as a Vogue staff member, a former
+Vogue editorial assistant then serving with a federal agency in China, and an
+explicit 1945 OSS employee in China. Vogue is published at high claim
+confidence as both her strongly date-bounded immediate pre-OSS affiliation and
+last named civilian employer. Gust Nanos is a high-confidence match to T/5 Gus
+Nanos in OSS Greek Operational Group VII; that roster confirms service but not
+an employer. Eleven official Army matches establish identity only and do not
+convert coded occupations into employers. George K Nakashima, A Napombejara,
+Chok Naranong, Charles P Nash, Herman T Nash, and Colonel John Nash remain
+unresolved rather than inheriting unbridged namesake biographies. Twenty-two
+people have `no_reliable_result_after_protocol`; one has
+`verified_employer_found`. The oil-company category remains evidence-scoped to
+**nine people across 11 historically named companies**. See
+`research/batch-694-progress.md`. No authenticated NARA Catalog request was
+made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **9,007/23,939 (37.6248%)**;
+verified-employer coverage is **316/23,939 (1.3200%)**;
+verified-affiliation coverage is **698/23,939 (2.9157%)**; archival-review
+coverage is **7,464/23,939 (31.1792%)**. There are **14,927** `not_started`
+people and **519** possible-duplicate groups. SQLite retains **16,211**
+attempts or plans and **5,825** claims: 1,340 confirmed, 2,598 high, 1,459
+medium, 196 low, and 232 conflicting. It has **5,438** citation records and
+**2,680** unique source documents. The public projection has **2,373**
+affiliations, **800** organizations, **4,221** sources, and **5,622** claims.
+Full-index historical research remains unfinished.
+
 Batch 693 completed the boundary row on PDF page 336 and page 337, rows 1-22,
 from **Harry C Nadler** through **Shingi Nakamura**, with a saved terminal
 outcome for all 23 people. Chiyeko Nakamura now has high-confidence immediate
