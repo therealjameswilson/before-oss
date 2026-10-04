@@ -1,0 +1,1319 @@
+{
+  "bundle_version": "batch-733-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 733 archival review",
+  "sources": [
+    {
+      "key": "nara-index-b733",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 584-585",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 357, rows 1-23; visually checked against a 300 dpi render",
+      "access_date": "2026-10-04",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Every printed row remains separate. Full protected identifiers are retained only in the private database and excluded from public output."
+    },
+    {
+      "key": "army-bulk-b733",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department. Adjutant General's Office",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946",
+      "locator": "Bulk ordinals 4183013, 3493297, 2818028, 600574, 3072121, 4279068, and 3698459",
+      "access_date": "2026-10-04",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Selective Service System, Record Group 147",
+      "rights_notes": "Official bulk data, not a Catalog API response. Protected identifiers, coded occupations, and raw records are not published or retained."
+    },
+    {
+      "key": "elia-greek-roster-b733",
+      "stable_url": "https://www.elia.org.gr/userfiles/pdf_archieve/1944%209-1544%20Date%20Estimated%2C%20OSS%20Missions%2C%20SOE%2C%20Train%20Sabotage%2C%20Katerini%2C%20Tsirmulas%2C%20226-99-45-5%20%28Admin%29.pdf",
+      "archival_identifier": "RG 226, Entry 99, Box 45, Folder 5",
+      "title": "OSS missions and personnel roster for Greece",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "Hellenic Literary and Historical Archive",
+      "publication_record_date": "1944",
+      "locator": "PDF pages 14 and 17; entries for Nicholas G Pappas and George J Pappas; page images visually checked",
+      "access_date": "2026-10-04",
+      "source_quality": "A_direct_official",
+      "collection_name": "Hellenic Literary and Historical Archive digitized OSS records",
+      "document_number": "226-99-45-5 (Admin)",
+      "rights_notes": "Declassified official record hosted by an archival institution. Full protected identifiers are omitted from public evidence."
+    },
+    {
+      "key": "ossog-roster-b733",
+      "stable_url": "https://ossog.info/personnel.html",
+      "title": "Office of Strategic Services Operational Groups personnel roster",
+      "author_creator": "OSS Operational Groups",
+      "repository_publisher": "OSS Operational Groups",
+      "publication_record_date": "undated",
+      "locator": "Greek Groups II and III entries for Nicholas G Pappas and Greek Group III entry for George J Pappas",
+      "access_date": "2026-10-04",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "OSS Operational Groups personnel rosters",
+      "rights_notes": "Used as corroborative wartime identity and assignment evidence, not as sole employer evidence."
+    },
+    {
+      "key": "us-war-memorials-b733",
+      "stable_url": "https://www.uswarmemorials.org/html/monument_details.php?MemID=1865&SiteID=1414&file=monument_details.php&page=4",
+      "title": "Greek Operational Group (OSS) Soldier Monument",
+      "author_creator": "U.S. War Memorials Overseas",
+      "repository_publisher": "U.S. War Memorials Overseas",
+      "publication_record_date": "undated",
+      "locator": "122nd Infantry Battalion recruitment narrative and roster entries for Nicholas G Pappas and George J Pappas",
+      "access_date": "2026-10-04",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "U.S. War Memorials Overseas monument records",
+      "rights_notes": "Corroborative unit history and roster transcription only. Individual transfer orders remain unlocated."
+    },
+    {
+      "key": "us-war-memorials-frixos-b733",
+      "stable_url": "https://www.uswarmemorials.org/html/people_details.php?PeopleID=24780",
+      "title": "Pappitsas, Frixos P.",
+      "author_creator": "U.S. War Memorials Overseas",
+      "repository_publisher": "U.S. War Memorials Overseas",
+      "publication_record_date": "undated",
+      "locator": "Person record for Frixos P Pappitsas, OSS Operational Group Greece",
+      "access_date": "2026-10-04",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "U.S. War Memorials Overseas people records",
+      "rights_notes": "Corroborates identity and wartime assignment; does not establish a pre-OSS employer."
+    },
+    {
+      "key": "jewish-herald-papurt-b733",
+      "stable_url": "https://rijha.org/wp-content/uploads/voiceandherald/volumes-1941/1941-12-26.pdf",
+      "archival_identifier": "The Jewish Herald, Providence, Rhode Island, 26 December 1941",
+      "title": "The Jewish Herald, December 26, 1941",
+      "author_creator": "The Jewish Herald",
+      "repository_publisher": "Rhode Island Jewish Historical Association",
+      "publication_record_date": "1941-12-26",
+      "locator": "PDF page 2",
+      "access_date": "2026-10-04",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Rhode Island Jewish Historical Association newspaper archive",
+      "rights_notes": "Contemporary newspaper evidence. Only short excerpts are published."
+    },
+    {
+      "key": "nara-oss-sci-papurt-b733",
+      "stable_url": "https://www.archives.gov/files/research/jfk/releases/104-10165-10120.pdf",
+      "archival_identifier": "104-10165-10120",
+      "title": "OSS/SCI detachment personnel roster",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "undated wartime record",
+      "locator": "Entry for Maj Maxwell J Papurt",
+      "access_date": "2026-10-04",
+      "source_quality": "A_direct_official",
+      "collection_name": "JFK Assassination Records Collection",
+      "document_number": "104-10165-10120",
+      "rights_notes": "Used to corroborate the rare indexed identity and OSS assignment, not to infer pre-OSS employment."
+    },
+    {
+      "key": "shd-resistance-index-b733",
+      "stable_url": "https://museedelaresistanceenligne.org/musee/doc/pdf/ressource_source/SHDGR_16P_P.pdf",
+      "archival_identifier": "SHD GR 16 P 295600",
+      "title": "Service historique de la Défense resistance dossier index, surnames beginning P",
+      "author_creator": "Service historique de la Défense",
+      "repository_publisher": "Musée de la Résistance en ligne",
+      "publication_record_date": "undated",
+      "locator": "PDF page 71, entry for Pardimene, Jean Lucien",
+      "access_date": "2026-10-04",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Dossiers administratifs de résistants, sous-série GR 16 P",
+      "rights_notes": "Identity lead only; the source does not connect the French dossier directly to the OSS index row."
+    },
+    {
+      "key": "pole-jean-moulin-networks-b733",
+      "stable_url": "https://www.polejeanmoulin.com/resources/Re%CC%81seaux-de-la-France-combattante-en-Bretagne.pdf",
+      "title": "Réseaux de la France combattante en Bretagne",
+      "author_creator": "Pôle Jean Moulin",
+      "repository_publisher": "Pôle Jean Moulin",
+      "publication_record_date": "undated",
+      "locator": "PDF page 4, Nana network entry for Jean Pardimene",
+      "access_date": "2026-10-04",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "French Resistance network research resources",
+      "rights_notes": "Corroborative identity lead; sequence relative to OSS service remains unproved."
+    },
+    {
+      "key": "italian-state-archives-pardo-b733",
+      "stable_url": "https://imagoarchiviodistatoroma.cultura.gov.it/discriminazioni/scheda.php?busta=43&fondo=Questura&serie=0",
+      "archival_identifier": "Archivio di Stato di Roma, Questura, busta 43",
+      "title": "Pardo Gastone",
+      "author_creator": "Archivio di Stato di Roma",
+      "repository_publisher": "Ministero della Cultura, Archivio di Stato di Roma",
+      "publication_record_date": "1939-1943",
+      "locator": "Record for Gastone Pardo, born Padua 3 September 1899",
+      "access_date": "2026-10-04",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Discriminazioni razziali",
+      "rights_notes": "Rare-name identity lead only; no protected identifier or direct OSS linkage was found."
+    },
+    {
+      "key": "vespucci-commanders-pardo-b733",
+      "stable_url": "https://www.congedativespucci.it/comandanti.html",
+      "title": "Comandanti",
+      "author_creator": "Associazione Nazionale Marinai d'Italia, Gruppo Francesco Morosini",
+      "repository_publisher": "Congedati Vespucci",
+      "publication_record_date": "undated",
+      "locator": "Entry for C.C. Gastone Pardo",
+      "access_date": "2026-10-04",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "Amerigo Vespucci historical commander list",
+      "rights_notes": "Corroborative lead only; it does not establish that the naval officer is the indexed person."
+    },
+    {
+      "key": "us-war-memorials-angelo-b733",
+      "stable_url": "https://uswarmemorials.org/html/people_details.php?PeopleID=24777",
+      "title": "Pappas, Angelo",
+      "author_creator": "U.S. War Memorials Overseas",
+      "repository_publisher": "U.S. War Memorials Overseas",
+      "publication_record_date": "undated",
+      "locator": "Person record for Angelo Pappas, OSS Operational Group Greece",
+      "access_date": "2026-10-04",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "U.S. War Memorials Overseas people records",
+      "rights_notes": "Rejected as an identity resolution because the common name is not accompanied by the indexed rank or protected identifier."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "122nd-infantry-battalion-b733",
+      "organization_id": "2405baa3-705e-5fce-9a65-25d343587817",
+      "canonical_name": "122nd Infantry Battalion (Separate)",
+      "historical_name": "122nd Infantry Battalion (Separate)",
+      "aliases": [
+        "Greek Battalion",
+        "122nd Infantry Battalion"
+      ],
+      "organization_type": "United States Army infantry battalion",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "The battalion and later OSS Operational Groups remain distinct organizations. These affiliations record a qualified recruiting pathway, not civilian employment."
+    },
+    {
+      "key": "pride-of-judea-b733",
+      "canonical_name": "Pride of Judea Children's Home",
+      "historical_name": "Pride of Judea Children's Home",
+      "aliases": [
+        "Pride of Judea Home"
+      ],
+      "organization_type": "Jewish children's home",
+      "sector": "labor_nonprofit_and_religion",
+      "city": "Brooklyn",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "Historical name preserved from the contemporary source; no modern successor is substituted."
+    },
+    {
+      "key": "ny-state-department-correction-b733",
+      "canonical_name": "New York State Department of Correction",
+      "historical_name": "New York State Department of Correction",
+      "aliases": [],
+      "organization_type": "State corrections department",
+      "sector": "state_or_local_government",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "Historical department name preserved exactly as reported in the 1941 newspaper."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "george-j-pappas-122nd-b733",
+      "person_id": "454e193b-d221-53fe-8680-6fbe12c0dd9a",
+      "organization_key": "122nd-infantry-battalion-b733",
+      "organization_name_as_found": "122nd Infantry Battalion (Separate), Greek Battalion",
+      "role_title": "Technician fourth grade",
+      "occupation": "United States Army soldier",
+      "relationship_type": "military_assignment",
+      "date_precision": "Unit-level history documents recruitment from the 122nd, and the declassified roster places Pappas in the OSS Greek Operational Group; no individual transfer order was found.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "Qualified military pathway only; it is not a civilian-employer claim."
+    },
+    {
+      "key": "nicholas-g-pappas-122nd-b733",
+      "person_id": "63986759-1000-5747-849c-bceafe0c8262",
+      "organization_key": "122nd-infantry-battalion-b733",
+      "organization_name_as_found": "122nd Infantry Battalion (Separate), Greek Battalion",
+      "role_title": "First lieutenant",
+      "occupation": "United States Army officer",
+      "relationship_type": "military_assignment",
+      "date_precision": "Unit-level history documents recruitment from the 122nd, and the declassified roster places Pappas in the OSS Greek Operational Groups; no individual transfer order was found.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "Qualified military pathway only; it is not a civilian-employer claim."
+    },
+    {
+      "key": "maxwell-papurt-pride-judea-b733",
+      "person_id": "88de4be2-b6c6-5025-836a-0297f16642d9",
+      "organization_key": "pride-of-judea-b733",
+      "organization_name_as_found": "Pride of Judea Children's Home",
+      "role_title": "Executive director",
+      "occupation": "Social-work administrator",
+      "relationship_type": "employment",
+      "date_precision": "Documented as executive director on 26 December 1941; the source does not establish start, end, or immediate succession to OSS service.",
+      "city": "Brooklyn",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "A directly stated late-1941 job, published as documented prewar employment rather than as the proven immediate or last civilian employer."
+    },
+    {
+      "key": "maxwell-papurt-ny-correction-b733",
+      "person_id": "88de4be2-b6c6-5025-836a-0297f16642d9",
+      "organization_key": "ny-state-department-correction-b733",
+      "organization_name_as_found": "New York State Department of Correction",
+      "role_title": "Chief psychologist",
+      "occupation": "Psychologist",
+      "relationship_type": "employment",
+      "date_precision": "The 26 December 1941 source describes this as a former position; exact dates and sequence relative to OSS service are not supplied.",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Published only as earlier documented pre-OSS employment."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-charles-papouschek-b733",
+      "person_id": "b56adc90-31ed-54fc-8183-e0a71c1bcbb7",
+      "claim_type": "identity",
+      "claim_text": "The indexed Charles A Papouschek is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PAPOUSCHEK CHARLES A",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers are masked publicly; coded Army occupation data are not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b733",
+          "locator_override": "PDF page 357, row 1"
+        },
+        {
+          "source_key": "army-bulk-b733",
+          "locator_override": "Bulk record ordinal 4183013",
+          "excerpt_override": "PAPOUSCHEK CHARLES A"
+        }
+      ]
+    },
+    {
+      "key": "identity-spiro-pappas-b733",
+      "person_id": "7cba064b-ea8c-5caf-b620-f4fce4ce8834",
+      "claim_type": "identity",
+      "claim_text": "The indexed Spiro V Pappas is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PAPPAS SPIRO V",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers are masked publicly; coded Army occupation data are not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b733",
+          "locator_override": "PDF page 357, row 10"
+        },
+        {
+          "source_key": "army-bulk-b733",
+          "locator_override": "Bulk record ordinal 3072121",
+          "excerpt_override": "PAPPAS SPIRO V"
+        }
+      ]
+    },
+    {
+      "key": "identity-zeff-pappas-b733",
+      "person_id": "8e506640-20e4-5b9c-aecf-0660bc1d3bee",
+      "claim_type": "identity",
+      "claim_text": "The indexed Zeff Pappas is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PAPPAS ZEFF",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers are masked publicly; coded Army occupation data are not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b733",
+          "locator_override": "PDF page 357, row 11"
+        },
+        {
+          "source_key": "army-bulk-b733",
+          "locator_override": "Bulk record ordinal 3698459",
+          "excerpt_override": "PAPPAS ZEFF"
+        }
+      ]
+    },
+    {
+      "key": "identity-frixos-pappitsas-b733",
+      "person_id": "1a35569e-6795-5b67-abba-cd6ef2e8f355",
+      "claim_type": "identity",
+      "claim_text": "The indexed Frixos P Pappitsas is linked at high confidence to the official Army record and a wartime memorial record.",
+      "evidence_excerpt": "PAPPITSAS FRIXOS P",
+      "evidence_paraphrase": "The index and official Army record agree on the exact name and protected identifier; the memorial record independently corroborates the distinctive identity.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement plus independent corroboration.",
+      "temporal_assessment": "The sources establish wartime identity and OSS Greek Operational Group service, not a civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The memorial record does not establish a 122nd Battalion transfer or a civilian employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b733",
+          "locator_override": "PDF page 357, row 12"
+        },
+        {
+          "source_key": "army-bulk-b733",
+          "locator_override": "Bulk record ordinal 3493297",
+          "excerpt_override": "PAPPITSAS FRIXOS P"
+        },
+        {
+          "source_key": "us-war-memorials-frixos-b733",
+          "locator_override": "Person record"
+        }
+      ]
+    },
+    {
+      "key": "identity-roland-papucci-b733",
+      "person_id": "4d01f2a7-7ee9-55a8-8459-a9c9cf0a1ea8",
+      "claim_type": "identity",
+      "claim_text": "The indexed Roland A Papucci is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PAPUCCI ROLAND A",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers are masked publicly; coded Army occupation data are not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b733",
+          "locator_override": "PDF page 357, row 13"
+        },
+        {
+          "source_key": "army-bulk-b733",
+          "locator_override": "Bulk record ordinal 600574",
+          "excerpt_override": "PAPUCCI ROLAND A"
+        }
+      ]
+    },
+    {
+      "key": "identity-stephen-papula-b733",
+      "person_id": "29d31886-9a65-59aa-9ac0-962025abd028",
+      "claim_type": "identity",
+      "claim_text": "The indexed Stephen F Papula is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PAPULA STEPHEN F",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers are masked publicly; coded Army occupation data are not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b733",
+          "locator_override": "PDF page 357, row 14"
+        },
+        {
+          "source_key": "army-bulk-b733",
+          "locator_override": "Bulk record ordinal 4279068",
+          "excerpt_override": "PAPULA STEPHEN F"
+        }
+      ]
+    },
+    {
+      "key": "identity-gaston-paquette-b733",
+      "person_id": "dfd0689a-204e-583a-bfa8-de72896fb728",
+      "claim_type": "identity",
+      "claim_text": "The indexed Gaston J Paquette is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PAQUETTE GASTON J",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers are masked publicly; coded Army occupation data are not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b733",
+          "locator_override": "PDF page 357, row 18"
+        },
+        {
+          "source_key": "army-bulk-b733",
+          "locator_override": "Bulk record ordinal 2818028",
+          "excerpt_override": "PAQUETTE GASTON J"
+        }
+      ]
+    },
+    {
+      "key": "identity-george-j-pappas-b733",
+      "person_id": "454e193b-d221-53fe-8680-6fbe12c0dd9a",
+      "claim_type": "identity",
+      "claim_text": "The indexed George J Pappas is confirmed in a declassified OSS Greek Operational Group roster.",
+      "evidence_excerpt": "Tec 4 George J Pappas",
+      "evidence_paraphrase": "The primary roster agrees on full name, rank, and protected identifier with the indexed row; an independent roster corroborates the assignment.",
+      "identity_match_assessment": "Confirmed by a declassified OSS record matching three indexed identifiers.",
+      "temporal_assessment": "The sources establish OSS wartime identity and assignment; the individual transfer order and civilian employer remain unlocated.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Full protected identifiers remain private and are masked from public downloads.",
+      "sources": [
+        {
+          "source_key": "nara-index-b733",
+          "locator_override": "PDF page 357, row 7"
+        },
+        {
+          "source_key": "elia-greek-roster-b733",
+          "locator_override": "PDF page 17",
+          "excerpt_override": "Tec 4 George J Pappas"
+        },
+        {
+          "source_key": "ossog-roster-b733",
+          "locator_override": "Greek Group III roster"
+        }
+      ]
+    },
+    {
+      "key": "identity-nicholas-g-pappas-b733",
+      "person_id": "63986759-1000-5747-849c-bceafe0c8262",
+      "claim_type": "identity",
+      "claim_text": "The indexed Nicholas G Pappas is confirmed in a declassified OSS Greek Operational Group roster.",
+      "evidence_excerpt": "1 LT NICHOLAS G PAPPAS",
+      "evidence_paraphrase": "The primary roster agrees on full name, rank, and protected identifier with the indexed row; an independent roster corroborates the assignment.",
+      "identity_match_assessment": "Confirmed by a declassified OSS record matching three indexed identifiers.",
+      "temporal_assessment": "The sources establish OSS wartime identity and assignment; the individual transfer order and civilian employer remain unlocated.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Full protected identifiers remain private and are masked from public downloads.",
+      "sources": [
+        {
+          "source_key": "nara-index-b733",
+          "locator_override": "PDF page 357, row 8"
+        },
+        {
+          "source_key": "elia-greek-roster-b733",
+          "locator_override": "PDF page 14",
+          "excerpt_override": "1 LT NICHOLAS G PAPPAS"
+        },
+        {
+          "source_key": "ossog-roster-b733",
+          "locator_override": "Greek Groups II and III rosters"
+        }
+      ]
+    },
+    {
+      "key": "george-j-pappas-122nd-claim-b733",
+      "person_id": "454e193b-d221-53fe-8680-6fbe12c0dd9a",
+      "affiliation_key": "george-j-pappas-122nd-b733",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "George J Pappas probably entered the OSS Greek Operational Group through the 122nd Infantry Battalion recruiting pathway.",
+      "evidence_excerpt": "Tec 4 George J Pappas",
+      "evidence_paraphrase": "The unit history explains recruitment from the 122nd, and the declassified roster names George J Pappas in the OSS Greek Operational Group.",
+      "identity_match_assessment": "Confirmed identity from the primary roster's name, rank, and protected identifier.",
+      "temporal_assessment": "Probable immediate military pathway; no individual transfer order was located.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "This is a military assignment, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "us-war-memorials-b733",
+          "locator_override": "Recruitment narrative and roster"
+        },
+        {
+          "source_key": "elia-greek-roster-b733",
+          "locator_override": "PDF page 17",
+          "excerpt_override": "Tec 4 George J Pappas"
+        },
+        {
+          "source_key": "ossog-roster-b733",
+          "locator_override": "Greek Group III roster"
+        }
+      ]
+    },
+    {
+      "key": "nicholas-g-pappas-122nd-claim-b733",
+      "person_id": "63986759-1000-5747-849c-bceafe0c8262",
+      "affiliation_key": "nicholas-g-pappas-122nd-b733",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Nicholas G Pappas probably entered the OSS Greek Operational Groups through the 122nd Infantry Battalion recruiting pathway.",
+      "evidence_excerpt": "1 LT NICHOLAS G PAPPAS",
+      "evidence_paraphrase": "The unit history explains recruitment from the 122nd, and the declassified roster names Nicholas G Pappas in the OSS Greek Operational Groups.",
+      "identity_match_assessment": "Confirmed identity from the primary roster's name, rank, and protected identifier.",
+      "temporal_assessment": "Probable immediate military pathway; no individual transfer order was located.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "This is a military assignment, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "us-war-memorials-b733",
+          "locator_override": "Recruitment narrative and roster"
+        },
+        {
+          "source_key": "elia-greek-roster-b733",
+          "locator_override": "PDF page 14",
+          "excerpt_override": "1 LT NICHOLAS G PAPPAS"
+        },
+        {
+          "source_key": "ossog-roster-b733",
+          "locator_override": "Greek Groups II and III rosters"
+        }
+      ]
+    },
+    {
+      "key": "identity-maxwell-papurt-b733",
+      "person_id": "88de4be2-b6c6-5025-836a-0297f16642d9",
+      "claim_type": "identity",
+      "claim_text": "The indexed Major Maxwell J Papurt is confirmed in an official OSS/SCI detachment record.",
+      "evidence_excerpt": "Maj Maxwell J Papurt",
+      "evidence_paraphrase": "The rare full name and rank agree between the NARA personnel index and an official wartime OSS/SCI record.",
+      "identity_match_assessment": "Confirmed by two official OSS sources matching the rare full name and commissioned rank.",
+      "temporal_assessment": "The official sources establish wartime OSS identity; the contemporary newspaper separately documents prewar employment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The claim does not rely on a search-result snippet or postwar biography.",
+      "sources": [
+        {
+          "source_key": "nara-index-b733",
+          "locator_override": "PDF page 357, row 15"
+        },
+        {
+          "source_key": "nara-oss-sci-papurt-b733",
+          "locator_override": "Personnel roster entry",
+          "excerpt_override": "Maj Maxwell J Papurt"
+        }
+      ]
+    },
+    {
+      "key": "maxwell-papurt-pride-judea-claim-b733",
+      "person_id": "88de4be2-b6c6-5025-836a-0297f16642d9",
+      "affiliation_key": "maxwell-papurt-pride-judea-b733",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Maxwell J Papurt was executive director of the Pride of Judea Children's Home in Brooklyn in December 1941.",
+      "evidence_excerpt": "executive director of the Pride of Judea Children's Home in Brooklyn",
+      "evidence_paraphrase": "A contemporary newspaper identified Dr. Maxwell J. Papurt as the home's executive director on 26 December 1941.",
+      "identity_match_assessment": "High confidence: rare full name and middle initial agree with the confirmed OSS identity.",
+      "temporal_assessment": "Directly documented prewar employment; the source does not prove it was the immediate or last civilian job before OSS service.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Published as other documented pre-OSS employment, not as a proven immediate predecessor.",
+      "sources": [
+        {
+          "source_key": "jewish-herald-papurt-b733",
+          "locator_override": "PDF page 2",
+          "excerpt_override": "executive director of the Pride of Judea Children's Home in Brooklyn"
+        }
+      ]
+    },
+    {
+      "key": "maxwell-papurt-ny-correction-claim-b733",
+      "person_id": "88de4be2-b6c6-5025-836a-0297f16642d9",
+      "affiliation_key": "maxwell-papurt-ny-correction-b733",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Maxwell J Papurt had earlier served as chief psychologist of the New York State Department of Correction.",
+      "evidence_excerpt": "formerly chief psychologist of the New York State Department of Correction",
+      "evidence_paraphrase": "The same contemporary newspaper described Papurt as the former chief psychologist of the state corrections department.",
+      "identity_match_assessment": "High confidence: rare full name and middle initial agree with the confirmed OSS identity.",
+      "temporal_assessment": "Directly documented earlier prewar employment; exact dates and succession to OSS service are not established.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Published as earlier documented pre-OSS employment only.",
+      "sources": [
+        {
+          "source_key": "jewish-herald-papurt-b733",
+          "locator_override": "PDF page 2",
+          "excerpt_override": "formerly chief psychologist of the New York State Department of Correction"
+        }
+      ]
+    },
+    {
+      "key": "conflict-charles-pappageorge-b733",
+      "person_id": "dc88a935-db79-5e2b-b38a-79936682efb7",
+      "claim_type": "identity",
+      "claim_text": "Charles S Pappageorge remains in an unresolved duplicate cluster with George L Pappageorge.",
+      "evidence_paraphrase": "Two separately printed index rows have different given names and ranks but share one protected identifier.",
+      "identity_match_assessment": "Conflicting; the shared identifier cannot resolve whether the rows are duplicates or distinct people.",
+      "temporal_assessment": "No reliable pre-OSS employer can be assigned until identity is resolved.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Both source rows and person entities remain separate pending Box 584 review.",
+      "sources": [
+        {
+          "source_key": "nara-index-b733",
+          "locator_override": "PDF page 357, rows 2-3"
+        }
+      ]
+    },
+    {
+      "key": "conflict-george-pappageorge-b733",
+      "person_id": "47aa016e-343b-5fc2-9c96-7bfa2f31cb75",
+      "claim_type": "identity",
+      "claim_text": "George L Pappageorge remains in an unresolved duplicate cluster with Charles S Pappageorge.",
+      "evidence_paraphrase": "Two separately printed index rows have different given names and ranks but share one protected identifier.",
+      "identity_match_assessment": "Conflicting; the shared identifier cannot resolve whether the rows are duplicates or distinct people.",
+      "temporal_assessment": "No reliable pre-OSS employer can be assigned until identity is resolved.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Both source rows and person entities remain separate pending Box 584 review.",
+      "sources": [
+        {
+          "source_key": "nara-index-b733",
+          "locator_override": "PDF page 357, rows 2-3"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "b56adc90-31ed-54fc-8183-e0a71c1bcbb7",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed name and nonshared protected identifier agree with official Army bulk ordinal 4183013.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 584 for pre-OSS employment and recruitment chronology.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "dc88a935-db79-5e2b-b38a-79936682efb7",
+      "identity_status": "conflicting",
+      "identity_evidence": "A separately printed George L Pappageorge row shares this protected identifier; the entities remain separate.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "batch733-pappageorge-shared-identifier",
+      "research_status": "conflicting_sources",
+      "next_action": "Compare both Pappageorge files in Box 584 and determine whether the rows are duplicates or distinct people.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "47aa016e-343b-5fc2-9c96-7bfa2f31cb75",
+      "identity_status": "conflicting",
+      "identity_evidence": "A separately printed Charles S Pappageorge row shares this protected identifier; the entities remain separate.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "batch733-pappageorge-shared-identifier",
+      "research_status": "conflicting_sources",
+      "next_action": "Compare both Pappageorge files in Box 584 and determine whether the rows are duplicates or distinct people.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "da80029d-8d84-505d-b3fd-e0113b276a51",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and variant searches produced no source with corroborating identifiers.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 584 for full name, nationality, assignment, and pre-OSS affiliation.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "956dcebc-4bcd-5515-9af8-64f419282839",
+      "identity_status": "unresolved",
+      "identity_evidence": "A memorial page names an Angelo Pappas in the Greek Operational Group, but the common name lacks the indexed rank and protected identifier.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 584 and compare the personnel-file identifiers with Greek Operational Group records.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3d1df980-a0b8-5357-a738-0a075219107e",
+      "identity_status": "unresolved",
+      "identity_evidence": "Common-name searches did not produce two corroborating identifiers beyond the name.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 584 for birthplace, hometown, unit, and pre-OSS employment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "454e193b-d221-53fe-8680-6fbe12c0dd9a",
+      "identity_status": "confirmed",
+      "identity_evidence": "A declassified OSS Greek roster matches full name, T-4 rank, and protected identifier; an independent operational-group roster corroborates the assignment.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 584 for an individual transfer order and last civilian employer.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "63986759-1000-5747-849c-bceafe0c8262",
+      "identity_status": "confirmed",
+      "identity_evidence": "A declassified OSS Greek roster matches full name, first-lieutenant rank, and protected identifier; an independent operational-group roster corroborates the assignment.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 584 for an individual transfer order and last civilian employer.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "4baabb08-9065-51f1-8eb8-3b8a6b38c2ea",
+      "identity_status": "unresolved",
+      "identity_evidence": "The civilian-grade name did not resolve to a source with sufficient date and identity evidence.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 584 for full name, grade chronology, and prior civilian employment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7cba064b-ea8c-5caf-b620-f4fce4ce8834",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed name and nonshared protected identifier agree with official Army bulk ordinal 3072121.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 584 for pre-OSS employment and recruitment chronology.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "8e506640-20e4-5b9c-aecf-0660bc1d3bee",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed name and nonshared protected identifier agree with official Army bulk ordinal 3698459.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 584 for pre-OSS employment and recruitment chronology.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "1a35569e-6795-5b67-abba-cd6ef2e8f355",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed name and nonshared protected identifier agree with official Army bulk ordinal 3493297; an independent memorial record corroborates the identity.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 584 for the path into the Greek Operational Group and last civilian employer.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "4d01f2a7-7ee9-55a8-8459-a9c9cf0a1ea8",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed name and nonshared protected identifier agree with official Army bulk ordinal 600574.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 584 for pre-OSS employment and recruitment chronology.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "29d31886-9a65-59aa-9ac0-962025abd028",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed name and nonshared protected identifier agree with official Army bulk ordinal 4279068.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 584 for pre-OSS employment and recruitment chronology.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "88de4be2-b6c6-5025-836a-0297f16642d9",
+      "identity_status": "confirmed",
+      "identity_evidence": "The rare full name and major rank agree between the index and an official OSS/SCI record; a contemporary newspaper documents two prewar jobs.",
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Inspect Box 584 to determine whether the Pride of Judea role was the immediate or last civilian position before OSS service.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "4b78ea5c-88c9-5267-aef3-ae9c230532f7",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and employment searches did not produce a source with corroborating identifiers.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 584 for full name, grade, and prior affiliation.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "eec203c0-aac5-5375-b59c-2bd9b5a17f04",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and employment searches did not produce a source with corroborating identifiers.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 585 for full name, grade, and prior affiliation.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "dfd0689a-204e-583a-bfa8-de72896fb728",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed name and nonshared protected identifier agree with official Army bulk ordinal 2818028.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 585 for pre-OSS employment and recruitment chronology.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "be621a4d-8360-5f87-85e1-d1bc4ab98d5e",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and employment searches did not produce a source with corroborating identifiers.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 585 for full name, personnel status, and prior affiliation.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2f9e6403-eef7-5475-92b3-8ea6d4bfd558",
+      "identity_status": "probable",
+      "identity_evidence": "The rare surname and middle initial fit Jean Lucien Pardimene in two French resistance sources, but no protected identifier or direct OSS link confirms the match.",
+      "name_variants": [
+        "Jean Lucien Pardimene"
+      ],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Compare Box 585 with SHD file GR 16 P 295600 and the Nana network record before publishing the identity as settled.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2d7f7afa-cc8d-55c6-93dd-c04ec24eaecd",
+      "identity_status": "probable",
+      "identity_evidence": "Italian archival and naval sources identify a wartime naval officer named Gastone Pardo, but the index row supplies no corroborating identifier or rank.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 585 for birth details, nationality, naval rank, and the sequence into OSS service.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "401f4fbf-3495-5820-a409-a53862d5c2ee",
+      "identity_status": "unresolved",
+      "identity_evidence": "Common-name searches did not produce two corroborating identifiers beyond the name.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 585 for birthplace, branch, unit, and pre-OSS employment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4e45762e-bf38-51f4-b77d-15548af0f11c",
+      "identity_status": "unresolved",
+      "identity_evidence": "Common-name naval searches did not produce two corroborating identifiers beyond the name.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 585 for naval record, hometown, and last civilian employer.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "charles-papouschek-protocol-b733",
+      "person_id": "b56adc90-31ed-54fc-8183-e0a71c1bcbb7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_733",
+      "started_at": "2026-10-04T13:30:00-04:00",
+      "completed_at": "2026-10-04T15:10:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Official Army bulk evidence resolves identity, but no reviewed source names a pre-OSS employer.",
+      "research_notes": "The staged protocol was completed. Search-result snippets and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 584.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b733-v1"
+    },
+    {
+      "key": "charles-pappageorge-protocol-b733",
+      "person_id": "dc88a935-db79-5e2b-b38a-79936682efb7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_733",
+      "started_at": "2026-10-04T13:30:00-04:00",
+      "completed_at": "2026-10-04T15:10:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The shared protected identifier does not resolve the separately printed Charles and George Pappageorge rows.",
+      "research_notes": "The staged protocol was completed. Search-result snippets and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Compare both Pappageorge files in Box 584.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b733-v1"
+    },
+    {
+      "key": "george-pappageorge-protocol-b733",
+      "person_id": "47aa016e-343b-5fc2-9c96-7bfa2f31cb75",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_733",
+      "started_at": "2026-10-04T13:30:00-04:00",
+      "completed_at": "2026-10-04T15:10:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The shared protected identifier does not resolve the separately printed Charles and George Pappageorge rows.",
+      "research_notes": "The staged protocol was completed. Search-result snippets and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Compare both Pappageorge files in Box 584.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b733-v1"
+    },
+    {
+      "key": "lazar-pappapostoli-protocol-b733",
+      "person_id": "da80029d-8d84-505d-b3fd-e0113b276a51",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_733",
+      "started_at": "2026-10-04T13:30:00-04:00",
+      "completed_at": "2026-10-04T15:10:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Exact, variant, OSS, occupation, obituary, newspaper, and archival searches produced no candidate with corroborating identifiers or dated employment.",
+      "research_notes": "The staged protocol was completed. Search-result snippets and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 584.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b733-v1"
+    },
+    {
+      "key": "angelo-pappas-protocol-b733",
+      "person_id": "956dcebc-4bcd-5515-9af8-64f419282839",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_733",
+      "started_at": "2026-10-04T13:30:00-04:00",
+      "completed_at": "2026-10-04T15:10:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "A Greek Operational Group memorial page was rejected for identity resolution because the common name lacks the indexed rank and protected identifier; other results did not establish employment.",
+      "research_notes": "The staged protocol was completed. Search-result snippets and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 584 and compare Greek Operational Group records.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss-b733-v1"
+    },
+    {
+      "key": "anthony-pappas-protocol-b733",
+      "person_id": "3d1df980-a0b8-5357-a738-0a075219107e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_733",
+      "started_at": "2026-10-04T13:30:00-04:00",
+      "completed_at": "2026-10-04T15:10:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Common-name results lacked two corroborating identifiers and did not establish a dated employer.",
+      "research_notes": "The staged protocol was completed. Search-result snippets and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 584.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b733-v1"
+    },
+    {
+      "key": "george-j-pappas-protocol-b733",
+      "person_id": "454e193b-d221-53fe-8680-6fbe12c0dd9a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_733",
+      "started_at": "2026-10-04T13:30:00-04:00",
+      "completed_at": "2026-10-04T15:10:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Primary roster evidence confirms identity and a unit-level recruiting pathway, but no individual transfer order or civilian employer was found.",
+      "research_notes": "The staged protocol was completed. Search-result snippets and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 584.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b733-v1"
+    },
+    {
+      "key": "nicholas-g-pappas-protocol-b733",
+      "person_id": "63986759-1000-5747-849c-bceafe0c8262",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_733",
+      "started_at": "2026-10-04T13:30:00-04:00",
+      "completed_at": "2026-10-04T15:10:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Primary roster evidence confirms identity and a unit-level recruiting pathway, but no individual transfer order or civilian employer was found.",
+      "research_notes": "The staged protocol was completed. Search-result snippets and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 584.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b733-v1"
+    },
+    {
+      "key": "sallie-pappas-protocol-b733",
+      "person_id": "4baabb08-9065-51f1-8eb8-3b8a6b38c2ea",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_733",
+      "started_at": "2026-10-04T13:30:00-04:00",
+      "completed_at": "2026-10-04T15:10:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The civilian-grade name did not resolve to a dated employer or institutional record with sufficient identity evidence.",
+      "research_notes": "The staged protocol was completed. Search-result snippets and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 584.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b733-v1"
+    },
+    {
+      "key": "spiro-pappas-protocol-b733",
+      "person_id": "7cba064b-ea8c-5caf-b620-f4fce4ce8834",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_733",
+      "started_at": "2026-10-04T13:30:00-04:00",
+      "completed_at": "2026-10-04T15:10:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Official Army bulk evidence resolves identity, but no reviewed source names a pre-OSS employer.",
+      "research_notes": "The staged protocol was completed. Search-result snippets and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 584.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b733-v1"
+    },
+    {
+      "key": "zeff-pappas-protocol-b733",
+      "person_id": "8e506640-20e4-5b9c-aecf-0660bc1d3bee",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_733",
+      "started_at": "2026-10-04T13:30:00-04:00",
+      "completed_at": "2026-10-04T15:10:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Official Army bulk evidence resolves identity, but no reviewed source names a pre-OSS employer.",
+      "research_notes": "The staged protocol was completed. Search-result snippets and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 584.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b733-v1"
+    },
+    {
+      "key": "frixos-pappitsas-protocol-b733",
+      "person_id": "1a35569e-6795-5b67-abba-cd6ef2e8f355",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_733",
+      "started_at": "2026-10-04T13:30:00-04:00",
+      "completed_at": "2026-10-04T15:10:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Official and memorial evidence resolve identity and wartime assignment, but no source establishes the immediate prior affiliation or a civilian employer.",
+      "research_notes": "The staged protocol was completed. Search-result snippets and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 584.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b733-v1"
+    },
+    {
+      "key": "roland-papucci-protocol-b733",
+      "person_id": "4d01f2a7-7ee9-55a8-8459-a9c9cf0a1ea8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_733",
+      "started_at": "2026-10-04T13:30:00-04:00",
+      "completed_at": "2026-10-04T15:10:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Official Army bulk evidence resolves identity, but no reviewed source names a pre-OSS employer.",
+      "research_notes": "The staged protocol was completed. Search-result snippets and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 584.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b733-v1"
+    },
+    {
+      "key": "stephen-papula-protocol-b733",
+      "person_id": "29d31886-9a65-59aa-9ac0-962025abd028",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_733",
+      "started_at": "2026-10-04T13:30:00-04:00",
+      "completed_at": "2026-10-04T15:10:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Official Army bulk evidence resolves identity, but no reviewed source names a pre-OSS employer.",
+      "research_notes": "The staged protocol was completed. Search-result snippets and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 584.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b733-v1"
+    },
+    {
+      "key": "maxwell-papurt-protocol-b733",
+      "person_id": "88de4be2-b6c6-5025-836a-0297f16642d9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_733",
+      "started_at": "2026-10-04T13:30:00-04:00",
+      "completed_at": "2026-10-04T15:10:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Official OSS sources confirm identity and a contemporary newspaper documents two prewar jobs; their exact succession to OSS remains unproved.",
+      "research_notes": "The staged protocol was completed. Search-result snippets and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 584 to establish immediate and last civilian affiliation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b733-v1"
+    },
+    {
+      "key": "georgia-papworth-protocol-b733",
+      "person_id": "4b78ea5c-88c9-5267-aef3-ae9c230532f7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_733",
+      "started_at": "2026-10-04T13:30:00-04:00",
+      "completed_at": "2026-10-04T15:10:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Exact-name, OSS, employment, obituary, newspaper, and archival searches produced no candidate with corroborating identifiers.",
+      "research_notes": "The staged protocol was completed. Search-result snippets and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 584.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b733-v1"
+    },
+    {
+      "key": "alice-paquette-protocol-b733",
+      "person_id": "eec203c0-aac5-5375-b59c-2bd9b5a17f04",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_733",
+      "started_at": "2026-10-04T13:30:00-04:00",
+      "completed_at": "2026-10-04T15:10:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name and employment searches produced no candidate with corroborating identifiers and dated employment.",
+      "research_notes": "The staged protocol was completed. Search-result snippets and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 585.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b733-v1"
+    },
+    {
+      "key": "gaston-paquette-protocol-b733",
+      "person_id": "dfd0689a-204e-583a-bfa8-de72896fb728",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_733",
+      "started_at": "2026-10-04T13:30:00-04:00",
+      "completed_at": "2026-10-04T15:10:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Official Army bulk evidence resolves identity, but no reviewed source names a pre-OSS employer.",
+      "research_notes": "The staged protocol was completed. Search-result snippets and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 585.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b733-v1"
+    },
+    {
+      "key": "joseph-r-paquette-protocol-b733",
+      "person_id": "be621a4d-8360-5f87-85e1-d1bc4ab98d5e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_733",
+      "started_at": "2026-10-04T13:30:00-04:00",
+      "completed_at": "2026-10-04T15:10:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Common-name searches produced no candidate with sufficient identity, temporal, and employment evidence.",
+      "research_notes": "The staged protocol was completed. Search-result snippets and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 585.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b733-v1"
+    },
+    {
+      "key": "jean-pardimene-protocol-b733",
+      "person_id": "2f9e6403-eef7-5475-92b3-8ea6d4bfd558",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_733",
+      "started_at": "2026-10-04T13:30:00-04:00",
+      "completed_at": "2026-10-04T15:10:00-04:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Two French resistance sources support a rare-name lead, but no protected identifier or direct OSS link confirms it is the indexed person.",
+      "research_notes": "The staged protocol was completed. Search-result snippets and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Compare Box 585 with SHD file GR 16 P 295600.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b733-v1"
+    },
+    {
+      "key": "gastone-pardo-protocol-b733",
+      "person_id": "2d7f7afa-cc8d-55c6-93dd-c04ec24eaecd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_733",
+      "started_at": "2026-10-04T13:30:00-04:00",
+      "completed_at": "2026-10-04T15:10:00-04:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Italian archival and naval sources support a rare-name lead, but the index supplies no corroborating identifier or rank.",
+      "research_notes": "The staged protocol was completed. Search-result snippets and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Compare Box 585 with Italian naval and state-archive records.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b733-v1"
+    },
+    {
+      "key": "joseph-pare-protocol-b733",
+      "person_id": "401f4fbf-3495-5820-a409-a53862d5c2ee",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_733",
+      "started_at": "2026-10-04T13:30:00-04:00",
+      "completed_at": "2026-10-04T15:10:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Common-name officer searches produced no candidate with two corroborating identifiers or reliable employment evidence.",
+      "research_notes": "The staged protocol was completed. Search-result snippets and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 585.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b733-v1"
+    },
+    {
+      "key": "jean-parent-protocol-b733",
+      "person_id": "4e45762e-bf38-51f4-b77d-15548af0f11c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_733",
+      "started_at": "2026-10-04T13:30:00-04:00",
+      "completed_at": "2026-10-04T15:10:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Common-name naval searches produced no candidate with two corroborating identifiers or reliable employment evidence.",
+      "research_notes": "The staged protocol was completed. Search-result snippets and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 585.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b733-v1"
+    }
+  ]
+}

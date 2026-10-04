@@ -1,5 +1,39 @@
 # Research status
 
+Batch 733 completed PDF page 357, rows 1-23, from **Charles A Papouschek**
+through **Jean P Parent**, with a saved terminal outcome for all 23 people.
+George J Pappas and Nicholas G Pappas are confirmed through a declassified OSS
+Greece roster matching full names, ranks, and protected identifiers; each has
+a qualified, medium-confidence 122nd Infantry Battalion military pathway that
+is not labeled civilian employment. Maxwell J Papurt is confirmed through an
+official OSS/SCI record, and a contemporary December 1941 newspaper documents
+his executive-director role at the Pride of Judea Children's Home and earlier
+chief-psychologist role at the New York State Department of Correction. Those
+jobs are published as earlier prewar employment, not as proven immediate or
+last civilian affiliations. Seven official Army matches establish identity
+only. Charles S and George L Pappageorge remain separate in a shared-identifier
+conflict. Jean Lucien Pardimene and the Italian naval officer Gastone Pardo
+remain probable identity leads without published affiliations. Twenty people
+have `requires_archival_review`, two have `conflicting_sources`, and one has
+`documented_prewar_employer_found`. The oil-company category remains
+evidence-scoped to **nine people across 11 historically named companies**. See
+`research/batch-733-progress.md`. No authenticated NARA Catalog request was
+made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **9,895/23,939 (41.3342%)**;
+verified-employer coverage is **334/23,939 (1.3952%)**;
+verified-affiliation coverage is **744/23,939 (3.1079%)**; archival-review
+coverage is **8,353/23,939 (34.8929%)**. There are **14,039** `not_started`
+people and **523** possible-duplicate groups. SQLite retains **18,083**
+attempts or plans and **6,347** claims: 1,381 confirmed, 2,938 high, 1,537
+medium, 198 low, 291 conflicting, and two unresolved. It has **5,707**
+citation records and **2,885** unique source documents. The public projection
+has **2,489** affiliations, **863** organizations, **4,483** sources, and
+**6,140** claims. Full-index historical research remains unfinished. The next
+boundary is PDF page 357, rows 24-46, from Robert E Parent through Hilda B
+Parker.
+
 Batch 728 completed PDF page 354, rows 24-46, from **Charles H Padden** through
 **Wellman Page**, with a saved terminal outcome for all 23 people. Henry M
 Paechter is linked at high confidence to Henry M. Pachter, born Heinz
