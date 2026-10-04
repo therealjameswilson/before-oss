@@ -89,7 +89,8 @@ python3 -m oss_research build-public-data
 
 Adapter checkpoints must be imported before final reviewed decisions and
 evidence so temporary discovery states cannot supersede reviewed dispositions.
-The next research boundary begins at PDF page 352, row 47.
+The next research boundary begins at PDF page 353, row 1. A later full-page
+visual recount confirmed that page 352 contains exactly 46 printed rows.
 
 No API key, full service or officer number, raw Catalog or LoC API response,
 copyrighted page image, street address, living-relative detail, modern

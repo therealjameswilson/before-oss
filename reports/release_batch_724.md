@@ -128,7 +128,8 @@ python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
 
-The next research boundary begins at PDF page 352, row 47. No API key, raw API
+The next research boundary begins at PDF page 353, row 1; a later full-page
+visual recount confirmed that page 352 contains exactly 46 printed rows. No API key, raw API
 response, full service or officer number, copyrighted page image, unrelated
 Army coded occupation, street address, modern people-finder record, or private
 reviewer note is committed or published. No authenticated NARA Catalog API
