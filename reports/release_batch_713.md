@@ -114,10 +114,27 @@ The exact rebuilt tree passed these local release gates:
   305,872,390 bytes**, SHA-256
   `512b42af4f12dc684c94fc4e88b7445c7cc54f9623899b99ee2198cf8e09bc80`.
 
-Publication verification will be appended after the immutable content commit
-has passed the independent GitHub Actions test and Pages workflows and the
-deployed manifest, routes, source register, and direct profile URLs have been
-checked against that commit.
+Release commit
+[`957b25480495067f57728cce93ff23fd38c129b9`](https://github.com/therealjameswilson/before-oss/commit/957b25480495067f57728cce93ff23fd38c129b9)
+was published to `main`. The independent
+[Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/37174493598)
+and
+[GitHub Pages deployment](https://github.com/therealjameswilson/before-oss/actions/runs/37174493575)
+both completed successfully. GitHub reported only prospective runner/action
+deprecation notices: selected actions are being forced from Node.js 20 to 24,
+and `ubuntu-latest` is scheduled to migrate to Ubuntu 26. Neither notice
+affected this release.
+
+The read-only live verifier compared the deployed site with that immutable
+commit and verified **67 assets / 104,724,189 bytes**, the same manifest
+SHA-256 shown above, **eight core routes**, **30 source-register pages**, and
+all **23 Batch 713 direct profile URLs** at
+<https://therealjameswilson.github.io/before-oss/>. Targeted live checks also
+confirmed the exact home-page coverage figures; the nine-person,
+eleven-company oil directory; Miyoji Oda's high-confidence WRA and family
+evidence; Gabriel Odalovich's qualified probable identity and archival-review
+status; and Joseph F Ochnat's visible unresolved name conflict and critical
+Box 567 pull instruction.
 
 ## Resume
 
