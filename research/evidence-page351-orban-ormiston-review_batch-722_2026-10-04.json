@@ -1,0 +1,1169 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 722 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b722",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 575-576",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 351, rows 24-46; visually checked against a 300 dpi render",
+      "access_date": "2026-10-04",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Original spellings, ranks, notes, boxes, and locations are preserved. Full service identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b722",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department. Adjutant General's Office",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946",
+      "locator": "Bulk ordinals 462766, 678346, 1132453, 1534663, 2880163, 3969861, 4198176, 5776320, 7085642, and 8703332",
+      "access_date": "2026-10-04",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Selective Service System, Record Group 147",
+      "rights_notes": "Protected identifiers, coded occupations, and raw bulk rows are not published or retained."
+    },
+    {
+      "key": "ukr-weekly-1936-orlan-b722",
+      "stable_url": "https://archive.ukrweekly.com/wp-content/uploads/The_Ukrainian_Weekly_1936-07.pdf",
+      "title": "The Ukrainian Weekly, No. 7",
+      "author_creator": "Ukrainian National Association",
+      "repository_publisher": "The Ukrainian Weekly Archive",
+      "publication_record_date": "1936-02-15",
+      "locator": "PDF page 4, The Hobby Column, Amateur Radio; page image visually inspected",
+      "access_date": "2026-10-04",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Ukrainian Weekly Archive",
+      "rights_notes": "Contemporary newspaper. A street address printed with the contribution is excluded from public data."
+    },
+    {
+      "key": "ukr-weekly-1946-orlan-b722",
+      "stable_url": "https://archive.ukrweekly.com/wp-content/uploads/The_Ukrainian_Weekly_1946-10.pdf",
+      "title": "The Ukrainian Weekly, No. 10",
+      "author_creator": "Ukrainian National Association",
+      "repository_publisher": "The Ukrainian Weekly Archive",
+      "publication_record_date": "1946-03-09",
+      "locator": "PDF page 1, Decorated For Role in German Capitulation; page image visually inspected",
+      "access_date": "2026-10-04",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Ukrainian Weekly Archive",
+      "rights_notes": "Contemporary memorial article. Private family details and the home address are excluded."
+    },
+    {
+      "key": "rg226-orkoulas-b722",
+      "stable_url": "https://www.elia.org.gr/userfiles/pdf_archieve/1944%209-1544%20Date%20Estimated%2C%20OSS%20Missions%2C%20SOE%2C%20Train%20Sabotage%2C%20Katerini%2C%20Tsirmulas%2C%20226-99-45-5%20%28Admin%29.pdf",
+      "archival_identifier": "RG 226, Entry 99, Box 45, Folder 5",
+      "title": "OSS missions administrative file and personnel roster",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "Hellenic Literary and Historical Archive",
+      "publication_record_date": "1944",
+      "locator": "PDF page 16, roster entry for Tec 5 Alekos X Orkoulas; page image visually inspected",
+      "access_date": "2026-10-04",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Digitized image of a declassified RG 226 file. The protected identifier is used privately for identity resolution and not published."
+    },
+    {
+      "key": "nara-orisek-orders-b722",
+      "stable_url": "https://www.archives.gov/files/research/jfk/releases/2022/104-10165-10121.pdf",
+      "archival_identifier": "104-10165-10121",
+      "title": "Headquarters, Operational Group Command, Office of Strategic Services, Special Orders No. 9",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1945-05-09",
+      "locator": "PDF page 7, paragraph 3, Company B assignment; page image visually inspected",
+      "access_date": "2026-10-04",
+      "source_quality": "A_direct_official",
+      "collection_name": "John F. Kennedy Assassination Records Collection",
+      "rights_notes": "The protected identifier is used privately for identity resolution and not published. The order documents an OSS assignment, not a pre-OSS employer."
+    },
+    {
+      "key": "previte-orlich-b722",
+      "stable_url": "https://www.weihsien-paintings.org/Mprevite/MARY%28total%29WEB.pdf",
+      "title": "Mary Taylor Previte collection on the Weihsien rescue mission",
+      "author_creator": "Mary Taylor Previte",
+      "repository_publisher": "Weihsien-Paintings",
+      "locator": "PDF pages 4-7; mission-member biography and T/5 Peter C. Orlich identification; pages 4, 5, and 7 visually inspected",
+      "access_date": "2026-10-04",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Weihsien civilian assembly center historical collections",
+      "rights_notes": "Direct-witness compilation used for identity and role context only. The note that his family needed him to work does not identify an employer."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "signal-corps-b722",
+      "organization_id": "37fe0e48-9745-5a0a-8e04-6be9bc7c5c91",
+      "canonical_name": "United States Army Signal Corps",
+      "historical_name": "Signal Corps",
+      "aliases": [
+        "U.S. Army Signal Corps",
+        "Army Signal Corps"
+      ],
+      "organization_type": "military branch",
+      "sector": "military",
+      "country": "United States",
+      "active_dates": "1860-present",
+      "normalization_notes": "The historical Signal Corps name is preserved; this is a military assignment, not a civilian employer."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "orlan-amateur-radio-b722",
+      "person_id": "706ea654-2b09-57fb-be4b-2183b2fe28b1",
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "amateur radio work",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1936-02-15",
+      "date_precision": "attested_on_date",
+      "city": "Richmond Hill",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "A 1936 signed contribution says amateur radio had become his vocation. It supplies no employer, job title, start date, or evidence that this was his final role before OSS."
+    },
+    {
+      "key": "orlan-signal-corps-b722",
+      "person_id": "706ea654-2b09-57fb-be4b-2183b2fe28b1",
+      "organization_key": "signal-corps-b722",
+      "organization_name_as_found": "Signal Corps",
+      "role_title": null,
+      "occupation": null,
+      "relationship_type": "military_assignment",
+      "start_date": "1940",
+      "end_date": null,
+      "date_precision": "year_start",
+      "city": "Pearl Harbor",
+      "state_or_region": "Hawaii",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "A contemporary memorial reports that Orlan volunteered in 1940 and was assigned to the Signal Corps at Pearl Harbor. It does not say this was his immediate pre-OSS assignment."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-orban-b722",
+      "person_id": "3c47f06a-2731-5736-8551-afd363f9fe5e",
+      "claim_type": "identity",
+      "claim_text": "The indexed John Orban is linked at high confidence to the same person in the official Army bulk record.",
+      "evidence_paraphrase": "The indexed row and Army bulk ordinal 5776320 agree on the full indexed name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact indexed-name alignment and a nonshared protected identifier in two official NARA sources.",
+      "temporal_assessment": "The Army bulk record documents wartime Army entry but does not identify an immediate pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity only. The Army occupation code is not converted into an occupation or employer claim.",
+      "sources": [
+        {
+          "source_key": "nara-index-b722",
+          "support_type": "supports",
+          "locator_override": "PDF page 351, row 24"
+        },
+        {
+          "source_key": "army-bulk-b722",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 5776320"
+        }
+      ]
+    },
+    {
+      "key": "identity-orchard-b722",
+      "person_id": "759b91ad-0591-5abd-b43f-928442b710b3",
+      "claim_type": "identity",
+      "claim_text": "The indexed Melvin E Orchard is linked at high confidence to the same person in the official Army bulk record.",
+      "evidence_paraphrase": "The indexed row and Army bulk ordinal 1534663 agree on the full indexed name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact indexed-name alignment and a nonshared protected identifier in two official NARA sources.",
+      "temporal_assessment": "The Army bulk record documents wartime Army entry but does not identify an immediate pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity only. The Army occupation code is not converted into an occupation or employer claim.",
+      "sources": [
+        {
+          "source_key": "nara-index-b722",
+          "support_type": "supports",
+          "locator_override": "PDF page 351, row 25"
+        },
+        {
+          "source_key": "army-bulk-b722",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 1534663"
+        }
+      ]
+    },
+    {
+      "key": "identity-ordynowicz-b722",
+      "person_id": "13a387ee-6cc7-59de-b6d9-f61999dbbace",
+      "claim_type": "identity",
+      "claim_text": "The indexed Edward Ordynowicz is linked at high confidence to the same person in the official Army bulk record.",
+      "evidence_paraphrase": "The indexed row and Army bulk ordinal 2880163 agree on the full indexed name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact indexed-name alignment and a nonshared protected identifier in two official NARA sources.",
+      "temporal_assessment": "The Army bulk record documents wartime Army entry but does not identify an immediate pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity only. The Army occupation code is not converted into an occupation or employer claim.",
+      "sources": [
+        {
+          "source_key": "nara-index-b722",
+          "support_type": "supports",
+          "locator_override": "PDF page 351, row 26"
+        },
+        {
+          "source_key": "army-bulk-b722",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 2880163"
+        }
+      ]
+    },
+    {
+      "key": "identity-orefice-b722",
+      "person_id": "0e73e29c-d957-5860-8495-5010cedecbbf",
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph Orefice is linked at high confidence to the same person in the official Army bulk record.",
+      "evidence_paraphrase": "The indexed row and Army bulk ordinal 678346 agree on the full indexed name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact indexed-name alignment and a nonshared protected identifier in two official NARA sources.",
+      "temporal_assessment": "The Army bulk record documents wartime Army entry but does not identify an immediate pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity only. The Army occupation code is not converted into an occupation or employer claim.",
+      "sources": [
+        {
+          "source_key": "nara-index-b722",
+          "support_type": "supports",
+          "locator_override": "PDF page 351, row 28"
+        },
+        {
+          "source_key": "army-bulk-b722",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 678346"
+        }
+      ]
+    },
+    {
+      "key": "identity-orgeron-b722",
+      "person_id": "951aa690-d22b-5e92-a360-0211eeab7d49",
+      "claim_type": "identity",
+      "claim_text": "The indexed Julien A Orgeron is linked at high confidence to the same person in the official Army bulk record.",
+      "evidence_paraphrase": "The indexed row and Army bulk ordinal 1132453 agree on the full indexed name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact indexed-name alignment and a nonshared protected identifier in two official NARA sources.",
+      "temporal_assessment": "The Army bulk record documents wartime Army entry but does not identify an immediate pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity only. The Army occupation code is not converted into an occupation or employer claim.",
+      "sources": [
+        {
+          "source_key": "nara-index-b722",
+          "support_type": "supports",
+          "locator_override": "PDF page 351, row 31"
+        },
+        {
+          "source_key": "army-bulk-b722",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 1132453"
+        }
+      ]
+    },
+    {
+      "key": "identity-orlowski-b722",
+      "person_id": "858fa1d5-24db-5c06-8f65-0a9801b19063",
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph S Orlowski is linked at high confidence to the same person in the official Army bulk record.",
+      "evidence_paraphrase": "The indexed row and Army bulk ordinal 3969861 agree on the full indexed name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact indexed-name alignment and a nonshared protected identifier in two official NARA sources.",
+      "temporal_assessment": "The Army bulk record documents wartime Army entry but does not identify an immediate pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity only. The Army occupation code is not converted into an occupation or employer claim.",
+      "sources": [
+        {
+          "source_key": "nara-index-b722",
+          "support_type": "supports",
+          "locator_override": "PDF page 351, row 44"
+        },
+        {
+          "source_key": "army-bulk-b722",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 3969861"
+        }
+      ]
+    },
+    {
+      "key": "identity-orme-b722",
+      "person_id": "a0416fee-bea4-5c2b-a6ba-ee54e9b81241",
+      "claim_type": "identity",
+      "claim_text": "The indexed Jesse M Orme is linked at high confidence to the same person in the official Army bulk record.",
+      "evidence_paraphrase": "The indexed row and Army bulk ordinal 8703332 agree on the full indexed name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact indexed-name alignment and a nonshared protected identifier in two official NARA sources.",
+      "temporal_assessment": "The Army bulk record documents wartime Army entry but does not identify an immediate pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity only. The Army occupation code is not converted into an occupation or employer claim.",
+      "sources": [
+        {
+          "source_key": "nara-index-b722",
+          "support_type": "supports",
+          "locator_override": "PDF page 351, row 45"
+        },
+        {
+          "source_key": "army-bulk-b722",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 8703332"
+        }
+      ]
+    },
+    {
+      "key": "identity-ormiston-b722",
+      "person_id": "5dc2d83e-1c1b-5eea-99c5-ddda312cdcf5",
+      "claim_type": "identity",
+      "claim_text": "The indexed David Ormiston is linked at high confidence to the official Army bulk record naming David K Ormiston.",
+      "evidence_paraphrase": "The indexed row and Army bulk ordinal 7085642 agree on the full indexed name and a nonshared protected identifier. The Army record supplies a compatible middle initial.",
+      "identity_match_assessment": "High confidence from exact indexed-name alignment and a nonshared protected identifier in two official NARA sources.",
+      "temporal_assessment": "The Army bulk record documents wartime Army entry but does not identify an immediate pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity only. The Army occupation code is not converted into an occupation or employer claim.",
+      "sources": [
+        {
+          "source_key": "nara-index-b722",
+          "support_type": "supports",
+          "locator_override": "PDF page 351, row 46"
+        },
+        {
+          "source_key": "army-bulk-b722",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 7085642"
+        }
+      ]
+    },
+    {
+      "key": "identity-conflict-liberio-orlando-b722",
+      "person_id": "b39c17d4-cda4-5342-9e37-41c72aa3ec33",
+      "claim_type": "identity",
+      "claim_text": "The protected identifier links the indexed Liberio Orlando to an Army bulk row rendered ORLANDO LIBORIO, but the incompatible given-name spelling remains unresolved.",
+      "evidence_paraphrase": "Two official NARA sources agree on the protected identifier while disagreeing on the printed name.",
+      "identity_match_assessment": "Conflicting. Protected-identifier agreement is strong, but the name difference requires review of the indexed personnel file.",
+      "temporal_assessment": "Both sources concern the wartime person, but neither establishes a pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The index form remains authoritative for display. No Army name, coded occupation, or other metadata is transferred.",
+      "sources": [
+        {
+          "source_key": "nara-index-b722",
+          "support_type": "supports",
+          "locator_override": "PDF page 351, row 38"
+        },
+        {
+          "source_key": "army-bulk-b722",
+          "support_type": "contradicts",
+          "locator_override": "Bulk record ordinal 462766"
+        }
+      ]
+    },
+    {
+      "key": "identity-conflict-john-orlowsci-b722",
+      "person_id": "ce51cfd3-7880-521f-bc0f-d503c5547794",
+      "claim_type": "identity",
+      "claim_text": "The protected identifier links the indexed John Orlowsci to an Army bulk row rendered ORLOWSKI JOHN, but the incompatible surname spelling remains unresolved.",
+      "evidence_paraphrase": "Two official NARA sources agree on the protected identifier while disagreeing on the printed name.",
+      "identity_match_assessment": "Conflicting. Protected-identifier agreement is strong, but the name difference requires review of the indexed personnel file.",
+      "temporal_assessment": "Both sources concern the wartime person, but neither establishes a pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The index form remains authoritative for display. No Army name, coded occupation, or other metadata is transferred.",
+      "sources": [
+        {
+          "source_key": "nara-index-b722",
+          "support_type": "supports",
+          "locator_override": "PDF page 351, row 43"
+        },
+        {
+          "source_key": "army-bulk-b722",
+          "support_type": "contradicts",
+          "locator_override": "Bulk record ordinal 4198176"
+        }
+      ]
+    },
+    {
+      "key": "identity-orlan-b722",
+      "person_id": "706ea654-2b09-57fb-be4b-2183b2fe28b1",
+      "claim_type": "identity",
+      "claim_text": "The indexed Lieutenant Joseph J Orlan is linked at high confidence to the Joseph Orlan documented as an OSS communications officer killed in 1945.",
+      "evidence_paraphrase": "A contemporary memorial supplies the exact name, lieutenant rank, OSS communications role, Signal Corps pathway, and wartime death chronology.",
+      "identity_match_assessment": "High confidence from the uncommon exact name, compatible lieutenant rank, direct OSS role, and coherent wartime chronology.",
+      "temporal_assessment": "The memorial was published in 1946 and describes service from 1940 through his death on 27 May 1945.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The article independently connects Joseph Orlan to OSS; it does not publish or repeat the private officer number.",
+      "sources": [
+        {
+          "source_key": "nara-index-b722",
+          "support_type": "supports",
+          "locator_override": "PDF page 351, row 35"
+        },
+        {
+          "source_key": "ukr-weekly-1946-orlan-b722",
+          "support_type": "supports",
+          "locator_override": "PDF page 1",
+          "excerpt_override": "Lt. Joseph Orlan ... a communications officer of the O.S.S."
+        }
+      ]
+    },
+    {
+      "key": "occupation-orlan-b722",
+      "person_id": "706ea654-2b09-57fb-be4b-2183b2fe28b1",
+      "affiliation_key": "orlan-amateur-radio-b722",
+      "claim_type": "occupation",
+      "claim_text": "By February 1936, Joseph J. Orlan described amateur radio as a hobby that had become his vocation.",
+      "evidence_excerpt": "my hobby (which, incidentally, has become my vocation)",
+      "evidence_paraphrase": "A signed contemporary contribution by Joseph J. Orlan says amateur radio had become his vocation.",
+      "identity_match_assessment": "Medium claim confidence within a high-confidence identity: exact name and compatible radio expertise, but no private identifier appears in the 1936 item.",
+      "temporal_assessment": "Explicitly documented on 15 February 1936, before the United States entered World War II; not shown to be his immediate pre-OSS occupation.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as an occupation only. No employer, job title, start date, or immediate temporal relationship is inferred.",
+      "sources": [
+        {
+          "source_key": "ukr-weekly-1936-orlan-b722",
+          "support_type": "supports",
+          "locator_override": "PDF page 4, Amateur Radio"
+        }
+      ]
+    },
+    {
+      "key": "signal-corps-orlan-b722",
+      "person_id": "706ea654-2b09-57fb-be4b-2183b2fe28b1",
+      "affiliation_key": "orlan-signal-corps-b722",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Joseph Orlan volunteered for service in 1940 and was assigned to the United States Army Signal Corps at Pearl Harbor.",
+      "evidence_excerpt": "Lt. Orlan entered service as a volunteer in 1940 and was assigned to the Signal Corps at Pearl Harbor.",
+      "evidence_paraphrase": "The 1946 memorial describes Orlan's 1940 enlistment and Signal Corps assignment before recounting his later OSS communications work.",
+      "identity_match_assessment": "High confidence from the same contemporary account that names his OSS role and wartime death.",
+      "temporal_assessment": "Documented as beginning in 1940, before OSS was established; the source does not state that Signal Corps was his immediate predecessor assignment.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Military assignment, not civilian employment. Immediate-pre-OSS status remains unproven.",
+      "sources": [
+        {
+          "source_key": "ukr-weekly-1946-orlan-b722",
+          "support_type": "supports",
+          "locator_override": "PDF page 1"
+        }
+      ]
+    },
+    {
+      "key": "identity-orkoulas-b722",
+      "person_id": "e3277f61-c842-562d-ae40-a98cfbd6428f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Technician Fifth Grade Alekos X Orkoulas is the same person listed in a declassified OSS roster.",
+      "evidence_excerpt": "Tec 5 Alekos X Orkoulas",
+      "evidence_paraphrase": "The index and declassified roster agree on the rare exact name, grade, and protected identifier.",
+      "identity_match_assessment": "Confirmed by exact name, exact grade, and a matching protected identifier in two official RG 226 records.",
+      "temporal_assessment": "The roster is a wartime OSS record and supplies identity context, not a pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The index note 'also AS' is preserved without expansion. No postwar restaurant work is treated as pre-OSS evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b722",
+          "support_type": "supports",
+          "locator_override": "PDF page 351, row 34"
+        },
+        {
+          "source_key": "rg226-orkoulas-b722",
+          "support_type": "supports",
+          "locator_override": "PDF page 16, roster"
+        }
+      ]
+    },
+    {
+      "key": "identity-orisek-b722",
+      "person_id": "17b58857-a1c3-5080-a05a-1397161d2a55",
+      "claim_type": "identity",
+      "claim_text": "The indexed Technician Fourth Grade John Orisek is the same person assigned by OSS Special Orders No. 9 in May 1945.",
+      "evidence_excerpt": "Tec 4 John Orisek",
+      "evidence_paraphrase": "The index and OSS order agree on the exact name, technician grade, and protected identifier.",
+      "identity_match_assessment": "Confirmed by exact name, grade, and protected identifier in the official index and a contemporary OSS order.",
+      "temporal_assessment": "The order documents an OSS assignment on 9 May 1945; it does not identify pre-OSS employment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The order is used for identity and OSS assignment context only.",
+      "sources": [
+        {
+          "source_key": "nara-index-b722",
+          "support_type": "supports",
+          "locator_override": "PDF page 351, row 33"
+        },
+        {
+          "source_key": "nara-orisek-orders-b722",
+          "support_type": "supports",
+          "locator_override": "PDF page 7, paragraph 3"
+        }
+      ]
+    },
+    {
+      "key": "identity-orlich-b722",
+      "person_id": "45d865da-2ae1-5b26-9367-278da73e2882",
+      "claim_type": "identity",
+      "claim_text": "The indexed Technician Fifth Grade Peter C Orlich is linked at high confidence to the radio operator on the OSS Weihsien rescue mission.",
+      "evidence_excerpt": "T/5 Peter C. Orlich, radio operator",
+      "evidence_paraphrase": "A direct-witness historical compilation gives the exact name, grade, and radio-operator role on the mission.",
+      "identity_match_assessment": "High confidence from exact uncommon name, exact technician grade, and specific OSS mission role.",
+      "temporal_assessment": "The material documents wartime OSS service and recalls that he worked before college, but it names no pre-OSS employer or occupation.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "A Columbia scholarship and a family need for him to work are not converted into student status or an unnamed employer claim.",
+      "sources": [
+        {
+          "source_key": "nara-index-b722",
+          "support_type": "supports",
+          "locator_override": "PDF page 351, row 41"
+        },
+        {
+          "source_key": "previte-orlich-b722",
+          "support_type": "supports",
+          "locator_override": "PDF pages 4-7"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "3c47f06a-2731-5736-8551-afd363f9fe5e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed-name and nonshared protected-identifier agreement with official Army bulk ordinal 5776320; identity only. No coded Army occupation is transferred.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 575-576 for identity chronology and a named pre-OSS employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "759b91ad-0591-5abd-b43f-928442b710b3",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed-name and nonshared protected-identifier agreement with official Army bulk ordinal 1534663; identity only. No coded Army occupation is transferred.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 575-576 for identity chronology and a named pre-OSS employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "13a387ee-6cc7-59de-b6d9-f61999dbbace",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed-name and nonshared protected-identifier agreement with official Army bulk ordinal 2880163; identity only. No coded Army occupation is transferred.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 575-576 for identity chronology and a named pre-OSS employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0e73e29c-d957-5860-8495-5010cedecbbf",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed-name and nonshared protected-identifier agreement with official Army bulk ordinal 678346; identity only. No coded Army occupation is transferred.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 575-576 for identity chronology and a named pre-OSS employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "951aa690-d22b-5e92-a360-0211eeab7d49",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed-name and nonshared protected-identifier agreement with official Army bulk ordinal 1132453; identity only. No coded Army occupation is transferred.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 575-576 for identity chronology and a named pre-OSS employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "858fa1d5-24db-5c06-8f65-0a9801b19063",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed-name and nonshared protected-identifier agreement with official Army bulk ordinal 3969861; identity only. No coded Army occupation is transferred.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 575-576 for identity chronology and a named pre-OSS employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a0416fee-bea4-5c2b-a6ba-ee54e9b81241",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed-name and nonshared protected-identifier agreement with official Army bulk ordinal 8703332; identity only. No coded Army occupation is transferred.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 575-576 for identity chronology and a named pre-OSS employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5dc2d83e-1c1b-5eea-99c5-ddda312cdcf5",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index and official Army bulk ordinal 7085642 agree on a nonshared protected identifier; the Army row supplies the compatible fuller name David K Ormiston. Identity only.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 576 for identity chronology and a named pre-OSS employer.",
+      "archival_review_priority": "high",
+      "name_variants": [
+        "David K Ormiston"
+      ]
+    },
+    {
+      "person_id": "fb8cab26-a314-5f91-b63f-1fadcb2a4647",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, employment, occupation, obituary, institutional, directory, and archival searches did not establish a unique external identity.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 575 for identity, civilian-grade duties, and pre-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d84ffc67-1b57-5daa-8b0d-b17e71f30839",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and punctuation-variant searches did not establish a unique external identity for the indexed captain.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 576 for branch, officer identity, and pre-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "323c2405-bb58-5d49-9d7a-8447bd15748a",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, civilian-grade, employment, directory, obituary, and archival searches did not establish a unique external identity.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 576 for identity, civilian-grade duties, and pre-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d83acd15-3919-51b5-a29e-eafdcba0cced",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and spelling-variant searches produced only unbridged names and death-index leads, not a reliable OSS identity or employer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 576 for identity and pre-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "17b58857-a1c3-5080-a05a-1397161d2a55",
+      "identity_status": "confirmed",
+      "identity_evidence": "The official OSS Special Orders No. 9 agrees with the index on John Orisek's exact name, technician grade, and protected identifier. It supplies no pre-OSS employer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 576 for pre-OSS employment or military chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e3277f61-c842-562d-ae40-a98cfbd6428f",
+      "identity_status": "confirmed",
+      "identity_evidence": "A declassified RG 226 roster agrees with the index on the rare exact name, technician grade, and protected identifier. The printed note 'also AS' remains unexplained.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 576 to resolve the 'also AS' note and document pre-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "706ea654-2b09-57fb-be4b-2183b2fe28b1",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A 1946 contemporary memorial links Lieutenant Joseph Orlan to OSS communications work and a coherent wartime chronology; a 1936 signed contribution supplies compatible radio expertise.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Inspect Box 576 to determine whether a named civilian employer or immediate predecessor assignment is documented.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7cba9b92-4ad2-5e3a-82df-f65985501261",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, officer, employment, obituary, military, directory, and archival searches did not establish a unique external identity.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 576 for branch, officer identity, and pre-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4f6ebe80-9fee-591b-a613-ee34f213297c",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name searches produced only unbridged modern and people-finder results, which were rejected as sensitive or discovery-only.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 576 for identity, personnel status, and pre-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b39c17d4-cda4-5342-9e37-41c72aa3ec33",
+      "identity_status": "conflicting",
+      "identity_evidence": "The protected identifier agrees with official Army bulk ordinal 462766, but that record renders the given name LIBORIO rather than the index's Liberio. No Army metadata is transferred.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Inspect Box 576 to resolve Liberio versus Liborio and establish pre-OSS chronology.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "52b43c13-5bf3-5706-b162-92ac6bed2ddc",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and likely spelling-variant searches did not establish an external identity. The unusual printed form Pampeil is preserved.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 576 to verify the given name, branch, and pre-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1ef96ff0-c33a-5e78-b5f1-3bc2e0851a1f",
+      "identity_status": "unresolved",
+      "identity_evidence": "Modern namesakes and a World War II soldier with a different protected identifier were rejected; no reliable external identity was established.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 576 for identity, civilian-grade duties, and pre-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "45d865da-2ae1-5b26-9367-278da73e2882",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A direct-witness historical compilation supplies Peter C. Orlich's exact name, technician grade, radio-operator role, and OSS rescue-mission context. It names no pre-OSS employer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 576 to identify the work he performed before military service and any named employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "41da9570-412e-5a50-ac93-b12270bdc169",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name, transliteration-variant, OSS, occupation, obituary, and archival searches did not establish a unique external identity.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 576 for identity, nationality, and pre-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ce51cfd3-7880-521f-bc0f-d503c5547794",
+      "identity_status": "conflicting",
+      "identity_evidence": "The protected identifier agrees with official Army bulk ordinal 4198176, but that record renders the surname ORLOWSKI rather than the index's Orlowsci. No Army metadata is transferred.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Inspect Box 576 to resolve Orlowsci versus Orlowski and establish pre-OSS chronology.",
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "orban-protocol-b722",
+      "person_id": "3c47f06a-2731-5736-8551-afd363f9fe5e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variant OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "protocol_complete_batch_722",
+      "started_at": "2026-10-04T10:00:00-04:00",
+      "completed_at": "2026-10-04T11:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Exact-name and Army-identity searches produced no named pre-OSS employer.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 575 for identity chronology and a named pre-OSS employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b722-v1"
+    },
+    {
+      "key": "orchard-protocol-b722",
+      "person_id": "759b91ad-0591-5abd-b43f-928442b710b3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variant OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "protocol_complete_batch_722",
+      "started_at": "2026-10-04T10:00:00-04:00",
+      "completed_at": "2026-10-04T11:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Exact-name and Army-identity searches produced no named pre-OSS employer.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 575 for identity chronology and a named pre-OSS employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b722-v1"
+    },
+    {
+      "key": "ordynowicz-protocol-b722",
+      "person_id": "13a387ee-6cc7-59de-b6d9-f61999dbbace",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variant OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "protocol_complete_batch_722",
+      "started_at": "2026-10-04T10:00:00-04:00",
+      "completed_at": "2026-10-04T11:30:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "A same-name Massachusetts man and a 1972 municipal custodian reference lacked a bridge to the indexed Army record.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 575 for identity chronology and a named pre-OSS employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b722-v1"
+    },
+    {
+      "key": "oreckovsky-protocol-b722",
+      "person_id": "fb8cab26-a314-5f91-b63f-1fadcb2a4647",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variant OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "protocol_complete_batch_722",
+      "started_at": "2026-10-04T10:00:00-04:00",
+      "completed_at": "2026-10-04T11:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "No source established a unique identity or pre-OSS employer.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 575 for identity, civilian-grade duties, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b722-v1"
+    },
+    {
+      "key": "orefice-protocol-b722",
+      "person_id": "0e73e29c-d957-5860-8495-5010cedecbbf",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variant OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "protocol_complete_batch_722",
+      "started_at": "2026-10-04T10:00:00-04:00",
+      "completed_at": "2026-10-04T11:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The official Army identity match supplied no named pre-OSS employer.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 575 for identity chronology and a named pre-OSS employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b722-v1"
+    },
+    {
+      "key": "oregan-protocol-b722",
+      "person_id": "d84ffc67-1b57-5daa-8b0d-b17e71f30839",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variant OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "protocol_complete_batch_722",
+      "started_at": "2026-10-04T10:00:00-04:00",
+      "completed_at": "2026-10-04T11:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Exact-name and O'Regan punctuation variants did not establish a unique indexed officer.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 576 for branch, officer identity, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b722-v1"
+    },
+    {
+      "key": "oreilly-protocol-b722",
+      "person_id": "323c2405-bb58-5d49-9d7a-8447bd15748a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variant OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "protocol_complete_batch_722",
+      "started_at": "2026-10-04T10:00:00-04:00",
+      "completed_at": "2026-10-04T11:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Exact-name and O'Reilly punctuation variants did not establish a unique civilian employee.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 576 for identity, civilian-grade duties, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b722-v1"
+    },
+    {
+      "key": "orgeron-protocol-b722",
+      "person_id": "951aa690-d22b-5e92-a360-0211eeab7d49",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variant OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "protocol_complete_batch_722",
+      "started_at": "2026-10-04T10:00:00-04:00",
+      "completed_at": "2026-10-04T11:30:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "A burial lead for Julien A. 'Speedy' Orgeron lacked an employer and a reliable bridge beyond the name.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 576 for identity chronology and a named pre-OSS employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b722-v1"
+    },
+    {
+      "key": "oriniak-protocol-b722",
+      "person_id": "d83acd15-3919-51b5-a29e-eafdcba0cced",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variant OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "protocol_complete_batch_722",
+      "started_at": "2026-10-04T10:00:00-04:00",
+      "completed_at": "2026-10-04T11:30:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Death-index and namesake leads lacked an OSS or protected-identifier bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 576 for identity and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b722-v1"
+    },
+    {
+      "key": "orisek-protocol-b722",
+      "person_id": "17b58857-a1c3-5080-a05a-1397161d2a55",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variant OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "protocol_complete_batch_722",
+      "started_at": "2026-10-04T10:00:00-04:00",
+      "completed_at": "2026-10-04T11:30:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "An official OSS order confirmed identity but did not supply pre-OSS employment.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 576 for pre-OSS employment or military chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b722-v1"
+    },
+    {
+      "key": "orkoulas-protocol-b722",
+      "person_id": "e3277f61-c842-562d-ae40-a98cfbd6428f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variant OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "protocol_complete_batch_722",
+      "started_at": "2026-10-04T10:00:00-04:00",
+      "completed_at": "2026-10-04T11:30:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "A declassified OSS roster confirmed identity; a postwar restaurant-owner lead was excluded from pre-OSS analysis.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 576 to resolve the 'also AS' note and document pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b722-v1"
+    },
+    {
+      "key": "orlan-protocol-b722",
+      "person_id": "706ea654-2b09-57fb-be4b-2183b2fe28b1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variant OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "protocol_complete_batch_722",
+      "started_at": "2026-10-04T10:00:00-04:00",
+      "completed_at": "2026-10-04T11:30:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Contemporary sources established a 1936 radio vocation and a 1940 Signal Corps pathway, but no named civilian employer or explicit immediate predecessor.",
+      "research_notes": "A documented radio vocation and earlier military pathway were found, but no named civilian employer or explicitly immediate pre-OSS affiliation.",
+      "next_action": "Inspect Box 576 to determine whether a named civilian employer or immediate predecessor assignment is documented.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b722-v1"
+    },
+    {
+      "key": "orlandi-protocol-b722",
+      "person_id": "7cba9b92-4ad2-5e3a-82df-f65985501261",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variant OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "protocol_complete_batch_722",
+      "started_at": "2026-10-04T10:00:00-04:00",
+      "completed_at": "2026-10-04T11:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "No source established a unique identity or pre-OSS employer for the indexed captain.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 576 for branch, officer identity, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b722-v1"
+    },
+    {
+      "key": "carmel-protocol-b722",
+      "person_id": "4f6ebe80-9fee-591b-a613-ee34f213297c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variant OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "protocol_complete_batch_722",
+      "started_at": "2026-10-04T10:00:00-04:00",
+      "completed_at": "2026-10-04T11:30:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Modern people-finder and unbridged namesake results were rejected as sensitive or discovery-only.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 576 for identity, personnel status, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b722-v1"
+    },
+    {
+      "key": "liberio-protocol-b722",
+      "person_id": "b39c17d4-cda4-5342-9e37-41c72aa3ec33",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variant OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "protocol_complete_batch_722",
+      "started_at": "2026-10-04T10:00:00-04:00",
+      "completed_at": "2026-10-04T11:30:00-04:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The Army record conflicts on Liberio versus Liborio; no metadata is transferred.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 576 to resolve the given-name conflict and establish pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b722-v1"
+    },
+    {
+      "key": "pampeil-protocol-b722",
+      "person_id": "52b43c13-5bf3-5706-b162-92ac6bed2ddc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variant OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "protocol_complete_batch_722",
+      "started_at": "2026-10-04T10:00:00-04:00",
+      "completed_at": "2026-10-04T11:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "No reliable result established an external identity; the unusual printed form remains unchanged.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 576 to verify the given name, branch, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b722-v1"
+    },
+    {
+      "key": "orler-protocol-b722",
+      "person_id": "1ef96ff0-c33a-5e78-b5f1-3bc2e0851a1f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variant OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "protocol_complete_batch_722",
+      "started_at": "2026-10-04T10:00:00-04:00",
+      "completed_at": "2026-10-04T11:30:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Modern namesakes and a different WWII service identifier were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 576 for identity, civilian-grade duties, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b722-v1"
+    },
+    {
+      "key": "orlich-protocol-b722",
+      "person_id": "45d865da-2ae1-5b26-9367-278da73e2882",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variant OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "protocol_complete_batch_722",
+      "started_at": "2026-10-04T10:00:00-04:00",
+      "completed_at": "2026-10-04T11:30:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The mission history confirmed identity and an unnamed pre-service work lead but supplied no employer or occupation.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 576 to identify the work he performed before military service and any named employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b722-v1"
+    },
+    {
+      "key": "orlowicz-protocol-b722",
+      "person_id": "41da9570-412e-5a50-ac93-b12270bdc169",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variant OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "protocol_complete_batch_722",
+      "started_at": "2026-10-04T10:00:00-04:00",
+      "completed_at": "2026-10-04T11:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Exact and transliteration-variant searches did not establish a unique identity or employer.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 576 for identity, nationality, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b722-v1"
+    },
+    {
+      "key": "orlowsci-protocol-b722",
+      "person_id": "ce51cfd3-7880-521f-bc0f-d503c5547794",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variant OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "protocol_complete_batch_722",
+      "started_at": "2026-10-04T10:00:00-04:00",
+      "completed_at": "2026-10-04T11:30:00-04:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The Army record conflicts on Orlowsci versus Orlowski; no metadata is transferred.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 576 to resolve the surname conflict and establish pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b722-v1"
+    },
+    {
+      "key": "orlowski-protocol-b722",
+      "person_id": "858fa1d5-24db-5c06-8f65-0a9801b19063",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variant OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "protocol_complete_batch_722",
+      "started_at": "2026-10-04T10:00:00-04:00",
+      "completed_at": "2026-10-04T11:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The official Army identity match supplied no named pre-OSS employer.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 576 for identity chronology and a named pre-OSS employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b722-v1"
+    },
+    {
+      "key": "orme-protocol-b722",
+      "person_id": "a0416fee-bea4-5c2b-a6ba-ee54e9b81241",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variant OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "protocol_complete_batch_722",
+      "started_at": "2026-10-04T10:00:00-04:00",
+      "completed_at": "2026-10-04T11:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The official Army identity match supplied no named pre-OSS employer.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 576 for identity chronology and a named pre-OSS employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b722-v1"
+    },
+    {
+      "key": "ormiston-protocol-b722",
+      "person_id": "5dc2d83e-1c1b-5eea-99c5-ddda312cdcf5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variant OSS, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "protocol_complete_batch_722",
+      "started_at": "2026-10-04T10:00:00-04:00",
+      "completed_at": "2026-10-04T11:30:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "The Army identity match supplied a compatible middle initial, while cemetery and postwar leads did not establish a pre-OSS employer.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 576 for identity chronology and a named pre-OSS employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b722-v1"
+    }
+  ]
+}
