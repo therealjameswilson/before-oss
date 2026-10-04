@@ -6842,3 +6842,14 @@ Detachment 101 identity-only evidence, Serge Obolensky's retained chronology,
 unresolved common-name outcomes, private-identifier masking, exact coverage,
 and the unchanged nine-person oil-company category. All 30 axe scans reported
 no serious accessibility violations.
+
+## Batch 736 accessibility and responsive regression
+
+The bounded release suite passed **84 / 84** checks: 15 Batch 736 profile and
+evidence-boundary assertions, 33 core route and interaction checks, six
+analysis checks, and 30 axe scans. The matrix covers desktop, phone, and tablet
+widths. It verifies all 23 direct profiles, seven reviewed Army identity
+matches, two visible conflicts, preservation of unusual printed notes and
+grades, protected-identifier masking, exact coverage, and the unchanged
+nine-person oil-company category. All 30 axe scans reported no serious
+accessibility violations.

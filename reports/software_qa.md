@@ -11263,3 +11263,30 @@ formatted variants, 24,880 artifacts, and 1,163 candidate substrings with zero
 unexpected matches. Production dependencies have zero known vulnerabilities.
 Two complete builds produce the same **24,880-file, 305,804,002-byte** tree at
 SHA-256 `da959d1c14e9e80170c7759d37de5ecf1dad82836a2ec0d2aa3a95490c1a1f37`.
+
+## Batch 736 software QA
+
+The reviewed source bundle validates and imports two sources, nine claims, 18
+claim-source links, 23 person updates, and 23 research attempts. Ten
+identity-review decisions accept seven exact Army matches and preserve three
+conflicting candidates. Ingest validation passes all corpus checks, SQLite
+reports `ok` with zero foreign-key errors, and the 200-profile stratified audit
+passes every structural check. Python passes **139 / 139 tests**.
+
+Astro checks **370 source files** with zero errors, warnings, or hints and
+generates **24,840 HTML pages**. The bounded browser suite passes **84 / 84**
+checks across desktop, phone, and tablet. It proves that identity evidence is
+not converted into employer claims, incomplete and unusual printed notes
+remain recoverable, the two Army-name conflicts remain visible, protected
+identifiers remain masked, and the oil-company category does not expand
+without evidence.
+
+Every internal link resolves, and 50,745 unique external URLs are inventoried
+for separate live checking. The local public-manifest guard verifies **67
+assets** and **106,426,910 bytes** at manifest SHA-256
+`8ecba51ab99db461454cb0812350680952b89d9e07acd7b2453885e32ece19e1`.
+The boundary-aware identifier audit checks 12,926 normalized identifiers, 120
+formatted variants, 24,912 artifacts, and 1,207 candidate substrings with zero
+unexpected matches. Two complete builds produce the same **24,912-file,
+308,630,039-byte** tree at SHA-256
+`b917c1677589c8779484a15a1a3141e7928ebf2d1f507901948f6447e57cc11c`.

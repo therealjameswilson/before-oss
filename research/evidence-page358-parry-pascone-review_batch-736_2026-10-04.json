@@ -1,0 +1,250 @@
+{
+  "bundle_version": "batch-736-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 736 archival review",
+  "sources": [
+    {
+      "key": "nara-index-b736",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 587-588",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 358, rows 24-46; visually checked against a 300 dpi render",
+      "access_date": "2026-10-04",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Every printed row remains separate. Full protected identifiers are retained only in the private database and excluded from public output."
+    },
+    {
+      "key": "army-bulk-b736",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department. Adjutant General's Office",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946",
+      "locator": "Bulk ordinals 1494637, 2715259, 3771496, 4325656, 4589605, 4775179, 4974949, 6104938, 7820959, and 7820979",
+      "access_date": "2026-10-04",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Selective Service System, Record Group 147",
+      "rights_notes": "Official bulk data, not a Catalog API response. Protected identifiers, coded occupations, and raw records are not published or retained."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [],
+  "claims": [
+    {
+      "key": "identity-arthur-parry-b736",
+      "person_id": "2be4cd30-69a7-52ad-877c-6ea8c8226c4b",
+      "claim_type": "identity",
+      "claim_text": "The indexed Arthur J Parry is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PARRY ARTHUR J",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers are masked publicly; coded Army occupation data are not used as employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b736", "locator_override": "PDF page 358, row 24"},
+        {"source_key": "army-bulk-b736", "locator_override": "Bulk record ordinal 4775179", "excerpt_override": "PARRY ARTHUR J"}
+      ]
+    },
+    {
+      "key": "identity-edward-parsen-b736",
+      "person_id": "c08b2012-ce37-58df-9155-4314bc554f8e",
+      "claim_type": "identity",
+      "claim_text": "The indexed Edward M Parsen is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PARSEN EDWARD M",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The printed Belgian note is preserved as indexed; no nationality or employer is inferred beyond it.",
+      "sources": [
+        {"source_key": "nara-index-b736", "locator_override": "PDF page 358, row 28"},
+        {"source_key": "army-bulk-b736", "locator_override": "Bulk record ordinal 1494637", "excerpt_override": "PARSEN EDWARD M"}
+      ]
+    },
+    {
+      "key": "identity-edwin-parsons-b736",
+      "person_id": "1ee99623-479e-5efb-96bd-bb45fae47a65",
+      "claim_type": "identity",
+      "claim_text": "The indexed Edwin O Parsons is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PARSONS EDWIN O",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers are masked publicly; coded Army occupation data are not used as employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b736", "locator_override": "PDF page 358, row 30"},
+        {"source_key": "army-bulk-b736", "locator_override": "Bulk record ordinal 6104938", "excerpt_override": "PARSONS EDWIN O"}
+      ]
+    },
+    {
+      "key": "identity-ira-parsons-b736",
+      "person_id": "60668860-890c-52fa-b35a-a59c2dd22ce0",
+      "claim_type": "identity",
+      "claim_text": "The indexed Ira H Parsons is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PARSONS IRA H",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers are masked publicly; coded Army occupation data are not used as employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b736", "locator_override": "PDF page 358, row 33"},
+        {"source_key": "army-bulk-b736", "locator_override": "Bulk record ordinal 3771496", "excerpt_override": "PARSONS IRA H"}
+      ]
+    },
+    {
+      "key": "identity-allen-partington-b736",
+      "person_id": "642e6ea1-27b5-500b-86df-15a04c703dd9",
+      "claim_type": "identity",
+      "claim_text": "The indexed Allen V Partington is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PARTINGTON ALLEN V",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers are masked publicly; coded Army occupation data are not used as employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b736", "locator_override": "PDF page 358, row 38"},
+        {"source_key": "army-bulk-b736", "locator_override": "Bulk record ordinal 4589605", "excerpt_override": "PARTINGTON ALLEN V"}
+      ]
+    },
+    {
+      "key": "identity-norman-pascal-b736",
+      "person_id": "31e184a6-485e-5c10-8df3-f416d6dc6db5",
+      "claim_type": "identity",
+      "claim_text": "The indexed Norman S Pascal is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PASCAL NORMAN S",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers are masked publicly; coded Army occupation data are not used as employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b736", "locator_override": "PDF page 358, row 43"},
+        {"source_key": "army-bulk-b736", "locator_override": "Bulk record ordinal 4325656", "excerpt_override": "PASCAL NORMAN S"}
+      ]
+    },
+    {
+      "key": "identity-john-pascone-b736",
+      "person_id": "0205dfb9-117e-5744-a3fa-83b37aef7966",
+      "claim_type": "identity",
+      "claim_text": "The indexed John Pascone is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PASCONE JOHN",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The index note ends with the incomplete text 'Refer to'; Box 588 is required to identify the intended cross-reference.",
+      "sources": [
+        {"source_key": "nara-index-b736", "locator_override": "PDF page 358, row 46"},
+        {"source_key": "army-bulk-b736", "locator_override": "Bulk record ordinal 2715259", "excerpt_override": "PASCONE JOHN"}
+      ]
+    },
+    {
+      "key": "identity-conflict-william-parry-b736",
+      "person_id": "cd417b85-a1c5-59ac-987d-10de32ad61b3",
+      "claim_type": "identity",
+      "claim_text": "The indexed William E Parry record has a protected-identifier conflict with an Army record under another name.",
+      "evidence_excerpt": "WILSON DEMPSEY F",
+      "evidence_paraphrase": "The protected identifier printed for William E Parry points to an official Army bulk record named WILSON DEMPSEY F.",
+      "identity_match_assessment": "Conflicting official name-and-identifier evidence; no Army identity is accepted.",
+      "temporal_assessment": "The conflict must be resolved from the personnel file before employment evidence can be attributed safely.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The source row remains unchanged and no coded Army data are transferred.",
+      "sources": [
+        {"source_key": "nara-index-b736", "locator_override": "PDF page 358, row 27"},
+        {"source_key": "army-bulk-b736", "support_type": "contradicts", "locator_override": "Bulk record ordinal 4974949", "excerpt_override": "WILSON DEMPSEY F"}
+      ]
+    },
+    {
+      "key": "identity-conflict-marvin-partain-b736",
+      "person_id": "cfbb437e-b3de-526c-9036-c727a8ca83fe",
+      "claim_type": "identity",
+      "claim_text": "The indexed Marvin F Partain record has protected-identifier conflicts with two Army records under other names.",
+      "evidence_excerpt": "SIMPSON ARVEL J; LYANCDALE F",
+      "evidence_paraphrase": "The protected identifier printed for Marvin F Partain reaches two official Army bulk records, neither bearing the indexed name.",
+      "identity_match_assessment": "Conflicting official name-and-identifier evidence; no Army identity is accepted.",
+      "temporal_assessment": "The conflict must be resolved from the personnel file before employment evidence can be attributed safely.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The source row remains unchanged and no coded Army data are transferred.",
+      "sources": [
+        {"source_key": "nara-index-b736", "locator_override": "PDF page 358, row 36"},
+        {"source_key": "army-bulk-b736", "support_type": "contradicts", "locator_override": "Bulk record ordinals 7820959 and 7820979", "excerpt_override": "SIMPSON ARVEL J; LYANCDALE F"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {"person_id":"2be4cd30-69a7-52ad-877c-6ea8c8226c4b","identity_status":"high_confidence","identity_evidence":"Exact indexed name and nonshared protected identifier agree with official Army bulk ordinal 4775179.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 587 for pre-OSS employment and recruitment chronology.","archival_review_priority":"medium"},
+    {"person_id":"cc5a259c-b5f4-5464-8796-eec57f8a343e","identity_status":"unresolved","identity_evidence":"No reviewed candidate supplied corroborating identifiers beyond the indexed lieutenant-commander row.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 587 for naval service, identity, and pre-OSS chronology.","archival_review_priority":"high"},
+    {"person_id":"08726339-45a4-543d-843b-e2d5c5e2bdd7","identity_status":"unresolved","identity_evidence":"Common-name results lacked the identifiers needed to connect a specific Richard Parry to this indexed lieutenant.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 587 for identity and pre-OSS employment chronology.","archival_review_priority":"high"},
+    {"person_id":"cd417b85-a1c5-59ac-987d-10de32ad61b3","identity_status":"conflicting","identity_evidence":"The printed protected identifier points to Army bulk ordinal 4974949, which names WILSON DEMPSEY F rather than William E Parry.","manual_review_required":true,"research_status":"conflicting_sources","next_action":"Inspect Box 587 and the affected Army record before accepting an identity or employer.","archival_review_priority":"critical"},
+    {"person_id":"c08b2012-ce37-58df-9155-4314bc554f8e","identity_status":"high_confidence","identity_evidence":"Exact indexed name and nonshared protected identifier agree with official Army bulk ordinal 1494637.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 587 for the meaning of the Belgian note and pre-OSS chronology.","archival_review_priority":"medium"},
+    {"person_id":"d8655c37-f95b-5520-976d-908229e4354b","identity_status":"unresolved","identity_evidence":"Searches returned incompatible modern and historical namesakes; none supplied an OSS bridge or matching identifiers.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 587 for identity and pre-OSS employment chronology.","archival_review_priority":"high"},
+    {"person_id":"1ee99623-479e-5efb-96bd-bb45fae47a65","identity_status":"high_confidence","identity_evidence":"Exact indexed name and nonshared protected identifier agree with official Army bulk ordinal 6104938.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 587 for pre-OSS employment and recruitment chronology.","archival_review_priority":"medium"},
+    {"person_id":"307410fb-a218-5c63-9853-96724d627fb1","identity_status":"unresolved","identity_evidence":"A Gustav A Parsons in cemetery sources was a World War I officer, but no reviewed source connects him to this OSS index row.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 587 to test the World War I officer lead and establish pre-OSS chronology.","archival_review_priority":"high"},
+    {"person_id":"4d290966-e6db-565a-870b-0f708178e7fe","identity_status":"unresolved","identity_evidence":"The index note is visibly truncated as 'Norwegi'; searches did not identify a corroborated Norwegian namesake.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 587 to recover the full note, nationality context, identity, and pre-OSS chronology.","archival_review_priority":"high"},
+    {"person_id":"60668860-890c-52fa-b35a-a59c2dd22ce0","identity_status":"high_confidence","identity_evidence":"Exact indexed name and nonshared protected identifier agree with official Army bulk ordinal 3771496.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 587 for pre-OSS employment and recruitment chronology.","archival_review_priority":"medium"},
+    {"person_id":"ac843848-e217-5b90-a9f8-f0a346949865","identity_status":"unresolved","identity_evidence":"Searches produced unsupported and later namesakes without an OSS bridge or corroborating wartime identifiers.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 587 for identity and pre-OSS employment chronology.","archival_review_priority":"high"},
+    {"person_id":"7d9c1e22-2bcc-5c60-9b29-1dfab1cfe08f","identity_status":"unresolved","identity_evidence":"No reviewed candidate supplied sufficient identifiers beyond the indexed row.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 587 for identity and pre-OSS employment chronology.","archival_review_priority":"high"},
+    {"person_id":"cfbb437e-b3de-526c-9036-c727a8ca83fe","identity_status":"conflicting","identity_evidence":"The printed protected identifier reaches Army bulk ordinals 7820959 and 7820979, whose names differ from Marvin F Partain and from each other.","manual_review_required":true,"research_status":"conflicting_sources","next_action":"Inspect Box 587 and the two affected Army records before accepting an identity or employer.","archival_review_priority":"critical"},
+    {"person_id":"3f39a037-7d05-593a-8af9-c61dde232586","identity_status":"unresolved","identity_evidence":"Searches produced no candidate with an OSS bridge or corroborating identifiers for the indexed T-4.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 587 for identity and pre-OSS employment chronology.","archival_review_priority":"high"},
+    {"person_id":"642e6ea1-27b5-500b-86df-15a04c703dd9","identity_status":"high_confidence","identity_evidence":"Exact indexed name and nonshared protected identifier agree with official Army bulk ordinal 4589605.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 587 for pre-OSS employment and recruitment chronology.","archival_review_priority":"medium"},
+    {"person_id":"5c8089ad-74c0-5fd8-aa41-b45700e0358d","identity_status":"unresolved","identity_evidence":"No reviewed candidate supplied an OSS bridge or corroborating identifiers for the indexed CAF-4.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 587 for identity, civilian-grade context, and pre-OSS employment chronology.","archival_review_priority":"high"},
+    {"person_id":"8079dba3-d014-5410-b581-01adb44ee6c0","identity_status":"unresolved","identity_evidence":"The rare printed surname Partnon may be accurate or erroneous; no reviewed source authorizes a correction.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 587 to verify the spelling, WAE status, identity, and pre-OSS chronology.","archival_review_priority":"high"},
+    {"person_id":"00739bc1-093a-5699-96ca-d88e3b13a9b5","identity_status":"unresolved","identity_evidence":"A Moluccan Dominggus Pasalbessy biographical lead has compatible age and a rare name, but no reviewed source connects it to OSS service.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 587 to test the Moluccan lead and establish pre-OSS affiliation.","archival_review_priority":"high"},
+    {"person_id":"97fbe94e-09b6-57e3-bb08-5166b862746d","identity_status":"unresolved","identity_evidence":"No reviewed candidate supplied an OSS bridge or corroborating identifiers for the indexed P-2.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 587 for identity, civilian-grade context, and pre-OSS employment chronology.","archival_review_priority":"high"},
+    {"person_id":"31e184a6-485e-5c10-8df3-f416d6dc6db5","identity_status":"high_confidence","identity_evidence":"Exact indexed name and nonshared protected identifier agree with official Army bulk ordinal 4325656.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 587 for pre-OSS employment and recruitment chronology.","archival_review_priority":"medium"},
+    {"person_id":"1bb66f7c-fda1-56f6-b305-fc16f10f32d4","identity_status":"unresolved","identity_evidence":"The printed French and S/Lt notes are preserved, but reviewed searches supplied no corroborating identity or pre-OSS affiliation.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 587 for French service, identity, and pre-OSS chronology.","archival_review_priority":"high"},
+    {"person_id":"f73b8021-c972-5247-8858-d6f7a3f71bff","identity_status":"unresolved","identity_evidence":"A 1943 newspaper namesake was a private promoted to corporal and formerly employed by Thomas J Sirphy Co.; rank and service context do not match this indexed second lieutenant.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 587 before attributing the newspaper namesake or any employer.","archival_review_priority":"high"},
+    {"person_id":"0205dfb9-117e-5744-a3fa-83b37aef7966","identity_status":"high_confidence","identity_evidence":"Exact indexed name and nonshared protected identifier agree with official Army bulk ordinal 2715259.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 588 to recover the incomplete 'Refer to' cross-reference and establish pre-OSS chronology.","archival_review_priority":"high"}
+  ],
+  "research_attempts": [
+    {"key":"arthur-parry-protocol-b736","person_id":"2be4cd30-69a7-52ad-877c-6ea8c8226c4b","source_adapter":"manual_staged_protocol","query_text":"NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches","query_variant_type":"protocol_complete_batch_736","started_at":"2026-10-04T21:30:00-04:00","completed_at":"2026-10-04T23:10:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":5,"rejection_reasons":"Official Army bulk evidence resolves identity, but no reviewed source names a pre-OSS employer.","research_notes":"The staged protocol was completed. Discovery-only snippets, genealogy pages, modern directories, relatives, and unsupported namesakes were not used as evidence. Coded Army occupation data were not converted into an employer.","next_action":"Inspect Box 587.","attempt_number":2,"research_agent_version":"before-oss-b736-v1"},
+    {"key":"george-parry-protocol-b736","person_id":"cc5a259c-b5f4-5464-8796-eec57f8a343e","source_adapter":"manual_staged_protocol","query_text":"NARA index and official-record context; CIA and Library of Congress access attempts; exact-name OSS and Lt COM variants; occupation, employer, obituary, newspaper, naval, institutional, directory, and archival searches","query_variant_type":"protocol_complete_batch_736","started_at":"2026-10-04T21:30:00-04:00","completed_at":"2026-10-04T23:10:00-04:00","outcome":"no_result","sources_reviewed":4,"candidate_sources_rejected":6,"rejection_reasons":"Searches produced no candidate with corroborating naval or OSS identifiers.","research_notes":"The staged protocol was completed; irrelevant naval glossaries, casualty lists, and namesakes were rejected.","next_action":"Inspect Box 587.","attempt_number":2,"research_agent_version":"before-oss-b736-v1"},
+    {"key":"richard-parry-protocol-b736","person_id":"08726339-45a4-543d-843b-e2d5c5e2bdd7","source_adapter":"manual_staged_protocol","query_text":"NARA index and official-record context; CIA and Library of Congress access attempts; exact-name OSS and lieutenant searches; occupation, employer, obituary, newspaper, institutional, directory, and archival searches","query_variant_type":"protocol_complete_batch_736","started_at":"2026-10-04T21:30:00-04:00","completed_at":"2026-10-04T23:10:00-04:00","outcome":"candidate_rejected","sources_reviewed":4,"candidate_sources_rejected":7,"rejection_reasons":"Numerous Richard Parry namesakes lacked compatible wartime chronology, rank, or an OSS bridge.","research_notes":"The common name requires identifiers from the personnel file; later careers and unrelated biographies were not attributed.","next_action":"Inspect Box 587.","attempt_number":2,"research_agent_version":"before-oss-b736-v1"},
+    {"key":"william-parry-protocol-b736","person_id":"cd417b85-a1c5-59ac-987d-10de32ad61b3","source_adapter":"manual_staged_protocol","query_text":"NARA index and official-record context; Army protected-identifier review; CIA and Library of Congress access attempts; exact-name OSS, employer, occupation, obituary, newspaper, institutional, directory, and archival searches","query_variant_type":"protocol_complete_batch_736","started_at":"2026-10-04T21:30:00-04:00","completed_at":"2026-10-04T23:10:00-04:00","outcome":"candidate_rejected","sources_reviewed":2,"candidate_sources_rejected":6,"rejection_reasons":"The protected identifier resolves to WILSON DEMPSEY F in the Army bulk file; no Army metadata is transferred.","research_notes":"The official conflict is preserved and employer research remains unattributed pending file review.","next_action":"Inspect Box 587 and the conflicting Army record.","attempt_number":2,"research_agent_version":"before-oss-b736-v1"},
+    {"key":"edward-parsen-protocol-b736","person_id":"c08b2012-ce37-58df-9155-4314bc554f8e","source_adapter":"manual_staged_protocol","query_text":"NARA index and official-record context; Army protected-identifier review; CIA and Library of Congress access attempts; exact-name, Belgian, OSS, employer, occupation, obituary, newspaper, institutional, directory, and archival searches","query_variant_type":"protocol_complete_batch_736","started_at":"2026-10-04T21:30:00-04:00","completed_at":"2026-10-04T23:10:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":5,"rejection_reasons":"Official Army bulk evidence resolves identity, but no reviewed source explains the Belgian note or names a pre-OSS employer.","research_notes":"The printed note is preserved without expanding it into a nationality or assignment claim.","next_action":"Inspect Box 587.","attempt_number":2,"research_agent_version":"before-oss-b736-v1"},
+    {"key":"edward-parsons-protocol-b736","person_id":"d8655c37-f95b-5520-976d-908229e4354b","source_adapter":"manual_staged_protocol","query_text":"NARA index and official-record context; CIA and Library of Congress access attempts; exact-name major and OSS searches; occupation, employer, obituary, newspaper, institutional, directory, and archival searches","query_variant_type":"protocol_complete_batch_736","started_at":"2026-10-04T21:30:00-04:00","completed_at":"2026-10-04T23:10:00-04:00","outcome":"candidate_rejected","sources_reviewed":4,"candidate_sources_rejected":7,"rejection_reasons":"Modern Marine, hotel-manager, and other namesakes lacked compatible identifiers or an OSS bridge.","research_notes":"No employment claim was made from name similarity alone.","next_action":"Inspect Box 587.","attempt_number":2,"research_agent_version":"before-oss-b736-v1"},
+    {"key":"edwin-parsons-protocol-b736","person_id":"1ee99623-479e-5efb-96bd-bb45fae47a65","source_adapter":"manual_staged_protocol","query_text":"NARA index and official-record context; Army protected-identifier review; CIA and Library of Congress access attempts; exact-name OSS, employer, occupation, obituary, newspaper, institutional, directory, and archival searches","query_variant_type":"protocol_complete_batch_736","started_at":"2026-10-04T21:30:00-04:00","completed_at":"2026-10-04T23:10:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":5,"rejection_reasons":"Official Army bulk evidence resolves identity, but no reviewed source names a pre-OSS employer.","research_notes":"Coded Army occupation data were not converted into an employer.","next_action":"Inspect Box 587.","attempt_number":2,"research_agent_version":"before-oss-b736-v1"},
+    {"key":"gustav-parsons-protocol-b736","person_id":"307410fb-a218-5c63-9853-96724d627fb1","source_adapter":"manual_staged_protocol","query_text":"NARA index and official-record context; CIA and Library of Congress access attempts; exact-name OSS, World War I, employer, occupation, obituary, cemetery, institutional, directory, and archival searches","query_variant_type":"protocol_complete_batch_736","started_at":"2026-10-04T21:30:00-04:00","completed_at":"2026-10-04T23:10:00-04:00","outcome":"candidate_rejected","sources_reviewed":4,"candidate_sources_rejected":6,"rejection_reasons":"A World War I officer with the exact name lacks a direct bridge to the OSS index row.","research_notes":"The lead is retained for archival testing, not published as an identity fact.","next_action":"Inspect Box 587.","attempt_number":2,"research_agent_version":"before-oss-b736-v1"},
+    {"key":"harvey-parsons-protocol-b736","person_id":"4d290966-e6db-565a-870b-0f708178e7fe","source_adapter":"manual_staged_protocol","query_text":"NARA index and official-record context; CIA and Library of Congress access attempts; exact-name, Norwegi and Norwegian variants, OSS, employer, occupation, obituary, newspaper, institutional, directory, and archival searches","query_variant_type":"protocol_complete_batch_736","started_at":"2026-10-04T21:30:00-04:00","completed_at":"2026-10-04T23:10:00-04:00","outcome":"candidate_rejected","sources_reviewed":4,"candidate_sources_rejected":7,"rejection_reasons":"Modern Canadian and other namesakes did not fit the wartime chronology; the printed note is truncated.","research_notes":"No expansion of the truncated note or employer inference was made.","next_action":"Inspect Box 587.","attempt_number":2,"research_agent_version":"before-oss-b736-v1"},
+    {"key":"ira-parsons-protocol-b736","person_id":"60668860-890c-52fa-b35a-a59c2dd22ce0","source_adapter":"manual_staged_protocol","query_text":"NARA index and official-record context; Army protected-identifier review; CIA and Library of Congress access attempts; exact-name OSS, employer, occupation, obituary, newspaper, institutional, directory, and archival searches","query_variant_type":"protocol_complete_batch_736","started_at":"2026-10-04T21:30:00-04:00","completed_at":"2026-10-04T23:10:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":5,"rejection_reasons":"Official Army bulk evidence resolves identity, but no reviewed source names a pre-OSS employer.","research_notes":"Coded Army occupation data were not converted into an employer.","next_action":"Inspect Box 587.","attempt_number":2,"research_agent_version":"before-oss-b736-v1"},
+    {"key":"mimi-parsons-protocol-b736","person_id":"ac843848-e217-5b90-a9f8-f0a346949865","source_adapter":"manual_staged_protocol","query_text":"NARA index and official-record context; CIA and Library of Congress access attempts; exact-name OSS, employer, occupation, obituary, newspaper, institutional, directory, and archival searches","query_variant_type":"protocol_complete_batch_736","started_at":"2026-10-04T21:30:00-04:00","completed_at":"2026-10-04T23:10:00-04:00","outcome":"candidate_rejected","sources_reviewed":4,"candidate_sources_rejected":7,"rejection_reasons":"Results concerned later people known by Mimi or relatives' obituaries and supplied no OSS bridge.","research_notes":"A nickname and relatives were not used to resolve identity.","next_action":"Inspect Box 587.","attempt_number":2,"research_agent_version":"before-oss-b736-v1"},
+    {"key":"james-partain-protocol-b736","person_id":"7d9c1e22-2bcc-5c60-9b29-1dfab1cfe08f","source_adapter":"manual_staged_protocol","query_text":"NARA index and official-record context; CIA and Library of Congress access attempts; exact-name OSS, employer, occupation, obituary, newspaper, institutional, directory, and archival searches","query_variant_type":"protocol_complete_batch_736","started_at":"2026-10-04T21:30:00-04:00","completed_at":"2026-10-04T23:10:00-04:00","outcome":"no_result","sources_reviewed":4,"candidate_sources_rejected":6,"rejection_reasons":"Searches produced no candidate with corroborating identifiers or an OSS bridge.","research_notes":"No employer was inferred from unsupported namesakes.","next_action":"Inspect Box 587.","attempt_number":2,"research_agent_version":"before-oss-b736-v1"},
+    {"key":"marvin-partain-protocol-b736","person_id":"cfbb437e-b3de-526c-9036-c727a8ca83fe","source_adapter":"manual_staged_protocol","query_text":"NARA index and official-record context; Army protected-identifier review; CIA and Library of Congress access attempts; exact-name OSS, employer, occupation, obituary, newspaper, institutional, directory, and archival searches","query_variant_type":"protocol_complete_batch_736","started_at":"2026-10-04T21:30:00-04:00","completed_at":"2026-10-04T23:10:00-04:00","outcome":"candidate_rejected","sources_reviewed":2,"candidate_sources_rejected":7,"rejection_reasons":"The printed identifier reaches two Army bulk records named SIMPSON ARVEL J and LYANCDALE F; neither is accepted.","research_notes":"Both conflicts are preserved; no coded data or employer is transferred.","next_action":"Inspect Box 587 and both conflicting Army records.","attempt_number":2,"research_agent_version":"before-oss-b736-v1"},
+    {"key":"joe-partin-protocol-b736","person_id":"3f39a037-7d05-593a-8af9-c61dde232586","source_adapter":"manual_staged_protocol","query_text":"NARA index and official-record context; CIA and Library of Congress access attempts; exact-name T-4 and OSS searches; employer, occupation, obituary, newspaper, institutional, directory, and archival searches","query_variant_type":"protocol_complete_batch_736","started_at":"2026-10-04T21:30:00-04:00","completed_at":"2026-10-04T23:10:00-04:00","outcome":"candidate_rejected","sources_reviewed":4,"candidate_sources_rejected":6,"rejection_reasons":"Genealogical and modern results lacked matching wartime identifiers or an OSS bridge.","research_notes":"No employer was inferred from approximate names or family entries.","next_action":"Inspect Box 587.","attempt_number":2,"research_agent_version":"before-oss-b736-v1"},
+    {"key":"allen-partington-protocol-b736","person_id":"642e6ea1-27b5-500b-86df-15a04c703dd9","source_adapter":"manual_staged_protocol","query_text":"NARA index and official-record context; Army protected-identifier review; CIA and Library of Congress access attempts; exact-name OSS, employer, occupation, obituary, newspaper, institutional, directory, and archival searches","query_variant_type":"protocol_complete_batch_736","started_at":"2026-10-04T21:30:00-04:00","completed_at":"2026-10-04T23:10:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":5,"rejection_reasons":"Official Army bulk evidence resolves identity, but no reviewed source names a pre-OSS employer.","research_notes":"Coded Army occupation data were not converted into an employer.","next_action":"Inspect Box 587.","attempt_number":2,"research_agent_version":"before-oss-b736-v1"},
+    {"key":"yvette-partington-protocol-b736","person_id":"5c8089ad-74c0-5fd8-aa41-b45700e0358d","source_adapter":"manual_staged_protocol","query_text":"NARA index and official-record context; CIA and Library of Congress access attempts; exact-name CAF-4 and OSS searches; employer, occupation, obituary, newspaper, institutional, directory, and archival searches","query_variant_type":"protocol_complete_batch_736","started_at":"2026-10-04T21:30:00-04:00","completed_at":"2026-10-04T23:10:00-04:00","outcome":"no_result","sources_reviewed":4,"candidate_sources_rejected":6,"rejection_reasons":"Searches produced no candidate with corroborating identifiers or an OSS bridge.","research_notes":"CAF-4 was preserved as a grade and not treated as an employer.","next_action":"Inspect Box 587.","attempt_number":2,"research_agent_version":"before-oss-b736-v1"},
+    {"key":"herman-partnon-protocol-b736","person_id":"8079dba3-d014-5410-b581-01adb44ee6c0","source_adapter":"manual_staged_protocol","query_text":"NARA index and official-record context; CIA and Library of Congress access attempts; exact-name, likely spelling variants, WAE, OSS, employer, occupation, obituary, newspaper, institutional, directory, and archival searches","query_variant_type":"protocol_complete_batch_736","started_at":"2026-10-04T21:30:00-04:00","completed_at":"2026-10-04T23:10:00-04:00","outcome":"no_result","sources_reviewed":4,"candidate_sources_rejected":6,"rejection_reasons":"No searched spelling variant supplied evidence sufficient to correct the printed surname or establish identity.","research_notes":"The printed form Partnon remains authoritative pending file inspection.","next_action":"Inspect Box 587.","attempt_number":2,"research_agent_version":"before-oss-b736-v1"},
+    {"key":"dominggus-pasalbessy-protocol-b736","person_id":"00739bc1-093a-5699-96ca-d88e3b13a9b5","source_adapter":"manual_staged_protocol","query_text":"NARA index and official-record context; CIA and Library of Congress access attempts; exact-name, Moluccan, OSS, employer, occupation, obituary, newspaper, institutional, directory, and archival searches","query_variant_type":"protocol_complete_batch_736","started_at":"2026-10-04T21:30:00-04:00","completed_at":"2026-10-04T23:10:00-04:00","outcome":"candidate_rejected","sources_reviewed":5,"candidate_sources_rejected":6,"rejection_reasons":"A rare-name Moluccan biographical lead has compatible age but no reviewed OSS or personnel-file bridge.","research_notes":"The lead may aid archival identification, but it does not establish an employer or confirm the indexed identity.","next_action":"Inspect Box 587.","attempt_number":2,"research_agent_version":"before-oss-b736-v1"},
+    {"key":"jacintha-pascal-protocol-b736","person_id":"97fbe94e-09b6-57e3-bb08-5166b862746d","source_adapter":"manual_staged_protocol","query_text":"NARA index and official-record context; CIA and Library of Congress access attempts; exact-name P-2 and OSS searches; employer, occupation, obituary, newspaper, institutional, directory, and archival searches","query_variant_type":"protocol_complete_batch_736","started_at":"2026-10-04T21:30:00-04:00","completed_at":"2026-10-04T23:10:00-04:00","outcome":"no_result","sources_reviewed":4,"candidate_sources_rejected":6,"rejection_reasons":"Searches produced no candidate with corroborating identifiers or an OSS bridge.","research_notes":"P-2 was preserved as a civilian grade and not treated as an employer.","next_action":"Inspect Box 587.","attempt_number":2,"research_agent_version":"before-oss-b736-v1"},
+    {"key":"norman-pascal-protocol-b736","person_id":"31e184a6-485e-5c10-8df3-f416d6dc6db5","source_adapter":"manual_staged_protocol","query_text":"NARA index and official-record context; Army protected-identifier review; CIA and Library of Congress access attempts; exact-name OSS, employer, occupation, obituary, newspaper, institutional, directory, and archival searches","query_variant_type":"protocol_complete_batch_736","started_at":"2026-10-04T21:30:00-04:00","completed_at":"2026-10-04T23:10:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":5,"rejection_reasons":"Official Army bulk evidence resolves identity, but no reviewed source names a pre-OSS employer.","research_notes":"Coded Army occupation data were not converted into an employer.","next_action":"Inspect Box 587.","attempt_number":2,"research_agent_version":"before-oss-b736-v1"},
+    {"key":"paul-pasco-protocol-b736","person_id":"1bb66f7c-fda1-56f6-b305-fc16f10f32d4","source_adapter":"manual_staged_protocol","query_text":"NARA index and official-record context; CIA and Library of Congress access attempts; exact-name, French, S/Lt, OSS, employer, occupation, obituary, newspaper, institutional, directory, and archival searches","query_variant_type":"protocol_complete_batch_736","started_at":"2026-10-04T21:30:00-04:00","completed_at":"2026-10-04T23:10:00-04:00","outcome":"candidate_rejected","sources_reviewed":4,"candidate_sources_rejected":7,"rejection_reasons":"A Dartmouth archival name string and unrelated modern results did not establish this French sub-lieutenant's identity or chronology.","research_notes":"The printed French and S/Lt notes are preserved without inferring a branch, employer, or modern identity.","next_action":"Inspect Box 587.","attempt_number":2,"research_agent_version":"before-oss-b736-v1"},
+    {"key":"john-pascoe-protocol-b736","person_id":"f73b8021-c972-5247-8858-d6f7a3f71bff","source_adapter":"manual_staged_protocol","query_text":"NARA index and official-record context; CIA and Library of Congress access attempts; exact-name, protected-identifier, second lieutenant, OSS, employer, occupation, obituary, newspaper, institutional, directory, and archival searches","query_variant_type":"protocol_complete_batch_736","started_at":"2026-10-04T21:30:00-04:00","completed_at":"2026-10-04T23:10:00-04:00","outcome":"candidate_rejected","sources_reviewed":5,"candidate_sources_rejected":7,"rejection_reasons":"A 1943 Newport newspaper namesake was a private promoted to corporal, not the indexed second lieutenant; its former employer is not attributed.","research_notes":"The namesake's Thomas J Sirphy Co. employment remains rejected pending direct identifier evidence.","next_action":"Inspect Box 587.","attempt_number":2,"research_agent_version":"before-oss-b736-v1"},
+    {"key":"john-pascone-protocol-b736","person_id":"0205dfb9-117e-5744-a3fa-83b37aef7966","source_adapter":"manual_staged_protocol","query_text":"NARA index and official-record context; Army protected-identifier review; CIA and Library of Congress access attempts; exact-name OSS, employer, occupation, obituary, newspaper, Rhode Island, institutional, directory, and archival searches","query_variant_type":"protocol_complete_batch_736","started_at":"2026-10-04T21:30:00-04:00","completed_at":"2026-10-04T23:10:00-04:00","outcome":"source_reviewed","sources_reviewed":3,"candidate_sources_rejected":6,"rejection_reasons":"Official Army bulk evidence resolves identity, but reviewed discovery leads do not name a reliable pre-OSS employer.","research_notes":"A genealogy page repeats the protected identifier but is not final evidence. The incomplete printed note requires Box 588 review.","next_action":"Inspect Box 588.","attempt_number":2,"research_agent_version":"before-oss-b736-v1"}
+  ]
+}

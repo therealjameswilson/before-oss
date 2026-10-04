@@ -1,5 +1,30 @@
 # Research status
 
+Batch 736 completed PDF page 358, rows 24-46, from **Arthur J Parry** through
+**John Pascone**, with a terminal disposition for all 23 people. Seven exact
+official Army matches establish identity only. William E Parry and Marvin F
+Partain retain explicit Army-name conflicts; no mismatched Army metadata is
+transferred. No defensible pre-OSS employer was found for the cohort, and
+unbridged, chronologically conflicting, or discovery-only namesakes remain
+unpublished. Twenty-one people have requires_archival_review and two have
+conflicting_sources. The oil-company category remains evidence-scoped to
+**nine people across 11 historically named companies**. See
+research/batch-736-progress.md. No authenticated NARA Catalog request was made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **9,962/23,939 (41.6141%)**;
+verified-employer coverage is **334/23,939 (1.3952%)**;
+verified-affiliation coverage is **745/23,939 (3.1121%)**; archival-review
+coverage is **8,420/23,939 (35.1727%)**. There are **13,972** not_started
+people and **523** possible-duplicate groups. SQLite retains **18,225**
+attempts or plans and **6,373** claims: 1,382 confirmed, 2,959 high, 1,537
+medium, 198 low, 295 conflicting, and two unresolved. It has **5,716**
+citation records and **2,890** unique source documents. The public projection
+has **2,490** affiliations, **863** organizations, **4,492** sources, and
+**6,166** claims. Full-index historical research remains unfinished. The next
+boundary is PDF page 359, rows 1-23, from Angeline Pascuzzi through Jane
+Paterson.
+
 Batch 735 completed PDF page 358, rows 1-23, from **James C Parker** through
 **Marian A Parrott**, with a terminal disposition for all 23 people. Six exact
 official Army matches establish identity only. Lester Parkes retains an
