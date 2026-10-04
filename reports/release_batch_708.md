@@ -113,11 +113,33 @@ known product failure. The bounded release suite exercises the core routes,
 Batch 708 profiles, analytics, responsive layouts, and accessibility across
 all three configured browser projects.
 
-## Release status
+## Released and verified live
 
-The reviewed Batch 708 release is locally verified and ready to fast-forward
-to `main`. GitHub Pages deployment and byte-for-byte live verification will be
-recorded here after the workflows complete.
+Batch 708 was fast-forwarded to `main` as commit
+[`80ea3a42f669d94602101c3ad9dc4a30436304b3`](https://github.com/therealjameswilson/before-oss/commit/80ea3a42f669d94602101c3ad9dc4a30436304b3).
+The GitHub Pages build and deployment
+[`37163985142`](https://github.com/therealjameswilson/before-oss/actions/runs/37163985142)
+and independent test workflow
+[`37163985147`](https://github.com/therealjameswilson/before-oss/actions/runs/37163985147)
+passed on 2026-10-03 America/New_York. GitHub emitted advisory warnings that
+several official actions still target Node.js 20 while runners force Node.js
+24, and that `ubuntu-latest` is scheduled to migrate to Ubuntu 26; the
+workflows nevertheless completed successfully.
+
+Post-deployment verification compared the public site with that exact commit.
+All 67 manifest assets totaling 104,388,435 bytes matched, as did eight core
+routes, all 29 source-register pages, and all 24 Batch 708 profiles changed by
+the reviewed-evidence bundle. The live site reports 23,978 source rows, 23,939
+person entities, 9,323 researched people, 713 verified affiliations, 322
+verified employers, and 14,611 not-started people. Christopher Norborg's dated
+university employment, Jens Nordlie's strongly date-bounded civilian employer,
+Johan Nordentoft's military-only pathway, Harold Nordblom's identity-only OSS
+duty, all additional high-confidence identities, the unresolved profiles, and
+the unmerged name and duplicate conflicts render from their public URLs.
+Nordentoft's page does not carry an employer-found status, and the Karl H
+Noris/Norris pages expose only masked serial suffixes. The oil-company directory
+remains visible with nine cited people across eleven historically named
+companies.
 
 ## Resume
 
