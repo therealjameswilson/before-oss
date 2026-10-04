@@ -11200,3 +11200,30 @@ bytes** at manifest SHA-256
 Two complete tracked-only builds produced the same **24,766-file,
 295,976,336-byte** production tree with SHA-256
 `f9a75fc389b076fcec4ffce8990961b16377c7648fbcbf249d93c424e068c168`.
+
+## Batch 712 software QA
+
+The reviewed source bundle validates and imports three sources, nine claims,
+18 claim-source links, 23 person updates, and 23 research attempts. Eighteen
+identity-review decisions resolve eight Army candidates and reject ten LoC
+newspaper candidates. Ingest validation passes all corpus checks, SQLite
+reports `ok` with zero foreign-key errors, and the 200-profile stratified
+audit passes every structural check. Python passes **139 / 139 tests**, plus
+78 generated subtests.
+
+Astro checks **346 source files** with zero errors, warnings, or hints and
+generates **24,808 HTML pages**. The bounded browser suite passes **87 / 87**
+checks across desktop, phone, and tablet. It proves that identity evidence is
+not converted into employer claims, the Micheal/Michael variant is preserved,
+John M Obereiner's unit record is used only for identity, rejected common-name
+leads remain unpublished, and protected identifiers remain masked.
+
+Every internal link resolves, and 50,646 unique external URLs are inventoried
+for separate live checking. The local public-manifest guard verifies **67
+assets** and **104,683,101 bytes** at manifest SHA-256
+`7736918610acd7d176c6fd60e61a78aa9d4c30341a1b436d0bf0f4dcfd038569`.
+The boundary-aware identifier audit checks 12,926 normalized identifiers, 120
+formatted variants, 24,880 artifacts, and 1,163 candidate substrings with zero
+unexpected matches. Production dependencies have zero known vulnerabilities.
+Two complete builds produce the same **24,880-file, 305,804,002-byte** tree at
+SHA-256 `da959d1c14e9e80170c7759d37de5ecf1dad82836a2ec0d2aa3a95490c1a1f37`.

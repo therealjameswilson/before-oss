@@ -1,0 +1,888 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 712 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b712",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 566-567",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 346, rows 24-46; visually checked against a fresh 300 dpi render",
+      "access_date": "2026-10-03",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Original spellings are preserved. Full service identifiers remain private and are excluded from public exports."
+    },
+    {
+      "key": "army-bulk-b712",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department. Adjutant General's Office",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946",
+      "locator": "Project-local official bulk-file ordinals 1684721, 2189995, 2624013, 2804901, 3240927, 3641483, 8122888, and 8348397",
+      "access_date": "2026-10-03",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Selective Service System, Record Group 147",
+      "rights_notes": "Only stable record pointers and project-authored assessments are retained; protected identifiers, coded occupations, and raw bulk records are not published."
+    },
+    {
+      "key": "detachment-101-obereiner-b712",
+      "stable_url": "https://www.javadc.org/java/docs/1945-03-15%20OSSSU%20Detachment%20101%20Promotions%20and%20Citations%20OCR%20P11_MA.pdf",
+      "archival_identifier": "OSS Special Unit Detachment 101, Promotions and Citations, 15 March 1945, page 11",
+      "title": "OSS Special Unit Detachment 101 Promotions and Citations",
+      "author_creator": "Office of Strategic Services Special Unit Detachment 101",
+      "repository_publisher": "Japanese American Veterans Association Research Archive",
+      "publication_record_date": "1945-03-15",
+      "locator": "OCR page 11, promotion entry for John M Obereiner",
+      "access_date": "2026-10-03",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "OSS Detachment 101 records",
+      "rights_notes": "Contemporary unit record hosted by a veterans historical archive; used for identity corroboration, not pre-OSS employment."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [],
+  "claims": [
+    {
+      "key": "identity-donald-w-obenshain-b712",
+      "person_id": "ca4c211e-8323-5b31-92c7-a7e0040f7388",
+      "claim_type": "identity",
+      "claim_text": "The indexed Donald W Obenshain is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The indexed record and official Army bulk ordinal 8348397 share a nonpublic identifier; the reviewed names agree exactly.",
+      "identity_match_assessment": "High confidence from exact indexed-name agreement and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes identity and an Army entry date, but not a named pre-OSS employer or immediate assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The identity decision does not convert coded Army occupation data into employer or occupation evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b712",
+          "support_type": "supports",
+          "locator_override": "PDF page 346, row 24"
+        },
+        {
+          "source_key": "army-bulk-b712",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 8348397"
+        }
+      ]
+    },
+    {
+      "key": "identity-roger-w-oberg-b712",
+      "person_id": "3f6d7afb-9e1b-5369-884c-effd44d25ea6",
+      "claim_type": "identity",
+      "claim_text": "The indexed Roger W Oberg is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The indexed record and official Army bulk ordinal 1684721 share a nonpublic identifier; the reviewed names agree exactly.",
+      "identity_match_assessment": "High confidence from exact indexed-name agreement and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes identity and an Army entry date, but not a named pre-OSS employer or immediate assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The identity decision does not convert coded Army occupation data into employer or occupation evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b712",
+          "support_type": "supports",
+          "locator_override": "PDF page 346, row 27"
+        },
+        {
+          "source_key": "army-bulk-b712",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 1684721"
+        }
+      ]
+    },
+    {
+      "key": "identity-herbert-j-obrien-b712",
+      "person_id": "cef2f476-9e8b-546f-ab80-46cb92f60072",
+      "claim_type": "identity",
+      "claim_text": "The indexed Herbert J Obrien is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The indexed record and official Army bulk ordinal 2189995 share a nonpublic identifier; the reviewed names agree exactly.",
+      "identity_match_assessment": "High confidence from exact indexed-name agreement and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes identity and an Army entry date, but not a named pre-OSS employer or immediate assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The identity decision does not convert coded Army occupation data into employer or occupation evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b712",
+          "support_type": "supports",
+          "locator_override": "PDF page 346, row 32"
+        },
+        {
+          "source_key": "army-bulk-b712",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 2189995"
+        }
+      ]
+    },
+    {
+      "key": "identity-joseph-p-obrien-b712",
+      "person_id": "90a0e07b-595f-5347-8197-9200ff5e7a04",
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph P Obrien is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The indexed record and official Army bulk ordinal 2804901 share a nonpublic identifier; the reviewed names agree exactly.",
+      "identity_match_assessment": "High confidence from exact indexed-name agreement and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes identity and an Army entry date, but not a named pre-OSS employer or immediate assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The identity decision does not convert coded Army occupation data into employer or occupation evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b712",
+          "support_type": "supports",
+          "locator_override": "PDF page 346, row 37"
+        },
+        {
+          "source_key": "army-bulk-b712",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 2804901"
+        }
+      ]
+    },
+    {
+      "key": "identity-richard-obrien-b712",
+      "person_id": "c9d6f837-a688-5153-9229-8117d9a3bf7e",
+      "claim_type": "identity",
+      "claim_text": "The indexed Richard Obrien is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The indexed record and official Army bulk ordinal 3240927 share a nonpublic identifier; the reviewed names agree exactly.",
+      "identity_match_assessment": "High confidence from exact indexed-name agreement and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes identity and an Army entry date, but not a named pre-OSS employer or immediate assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The identity decision does not convert coded Army occupation data into employer or occupation evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b712",
+          "support_type": "supports",
+          "locator_override": "PDF page 346, row 41"
+        },
+        {
+          "source_key": "army-bulk-b712",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 3240927"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-c-obrien-b712",
+      "person_id": "570491ac-ad3a-5c2a-b126-fe1ba5419af3",
+      "claim_type": "identity",
+      "claim_text": "The indexed John C Obrien is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The indexed record and official Army bulk ordinal 3641483 share a nonpublic identifier; the reviewed names agree exactly.",
+      "identity_match_assessment": "High confidence from exact indexed-name agreement and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes identity and an Army entry date, but not a named pre-OSS employer or immediate assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The identity decision does not convert coded Army occupation data into employer or occupation evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b712",
+          "support_type": "supports",
+          "locator_override": "PDF page 346, row 36"
+        },
+        {
+          "source_key": "army-bulk-b712",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 3641483"
+        }
+      ]
+    },
+    {
+      "key": "identity-george-m-obrien-b712",
+      "person_id": "3e3ffd8b-91bc-50ca-913a-33caa202f3bd",
+      "claim_type": "identity",
+      "claim_text": "The indexed George M Obrien is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The indexed record and official Army bulk ordinal 8122888 share a nonpublic identifier; the reviewed names agree exactly.",
+      "identity_match_assessment": "High confidence from exact indexed-name agreement and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes identity and an Army entry date, but not a named pre-OSS employer or immediate assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The identity decision does not convert coded Army occupation data into employer or occupation evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b712",
+          "support_type": "supports",
+          "locator_override": "PDF page 346, row 31"
+        },
+        {
+          "source_key": "army-bulk-b712",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 8122888"
+        }
+      ]
+    },
+    {
+      "key": "identity-michael-j-obrien-b712",
+      "person_id": "522de6e8-b95d-58af-aa08-7ae9bc365721",
+      "claim_type": "identity",
+      "claim_text": "The indexed Michael J Obrien is a high-confidence match to the reviewed official Army record, which transposes the spelling to Micheal J Obrien.",
+      "evidence_paraphrase": "The indexed record and official Army bulk ordinal 2624013 share a nonpublic identifier; the reviewed names differ only by the Michael/Micheal spelling.",
+      "identity_match_assessment": "High confidence from a nonshared protected identifier and a close given-name spelling variant; the spelling difference is preserved rather than silently corrected.",
+      "temporal_assessment": "The Army record establishes identity and an Army entry date, but not a named pre-OSS employer or immediate assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The identity decision accepts the protected-identifier match while retaining Micheal J Obrien as a documented variant.",
+      "sources": [
+        {
+          "source_key": "nara-index-b712",
+          "support_type": "supports",
+          "locator_override": "PDF page 346, row 40"
+        },
+        {
+          "source_key": "army-bulk-b712",
+          "support_type": "supports",
+          "locator_override": "Bulk record ordinal 2624013"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-m-obereiner-b712",
+      "person_id": "2d3293b9-93a2-5cf9-8d48-e6822da458e2",
+      "claim_type": "identity",
+      "claim_text": "The indexed John M Obereiner is a high-confidence match to the John M Obereiner documented in an OSS Detachment 101 promotion record.",
+      "evidence_excerpt": "Obereiner, John M",
+      "evidence_paraphrase": "A contemporary Detachment 101 record lists the same uncommon full name and documents a promotion from private first class to corporal.",
+      "identity_match_assessment": "High confidence from the uncommon exact full name and a direct contemporary OSS unit record.",
+      "temporal_assessment": "The record documents OSS service in March 1945 but gives no pre-OSS employer or preceding assignment.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The unit document corroborates identity only; Box 566 is still needed for the pre-OSS chronology.",
+      "sources": [
+        {
+          "source_key": "nara-index-b712",
+          "support_type": "supports",
+          "locator_override": "PDF page 346, row 25"
+        },
+        {
+          "source_key": "detachment-101-obereiner-b712",
+          "support_type": "supports",
+          "locator_override": "OCR page 11",
+          "excerpt_override": "Obereiner, John M"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "ca4c211e-8323-5b31-92c7-a7e0040f7388",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 8348397.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 566 for a named employer or military assignment immediately preceding OSS service.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2d3293b9-93a2-5cf9-8d48-e6822da458e2",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The uncommon exact full name appears in a contemporary OSS Detachment 101 promotion record, directly corroborating OSS identity without establishing pre-OSS employment.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 566 to identify his pre-OSS employer or assignment and corroborate the Detachment 101 personnel chronology.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "5cb189c1-d69d-5a2d-bb28-08988f56593f",
+      "identity_status": "unresolved",
+      "identity_evidence": "Accessible staged official, OSS, employer, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a unique identity for Julian F Oberg.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 566 for identity and pre-OSS affiliation evidence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3f6d7afb-9e1b-5369-884c-effd44d25ea6",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 1684721.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 566 for a named employer or military assignment immediately preceding OSS service.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ee764727-602e-5393-99eb-70cc01b61ad3",
+      "identity_status": "unresolved",
+      "identity_evidence": "Accessible staged official, OSS, employer, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a unique identity for Henry E Obermanns.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 566 for identity and pre-OSS affiliation evidence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7bee69f7-b984-5850-96e1-38253676750e",
+      "identity_status": "confirmed",
+      "identity_evidence": "Existing reviewed CIA and National Park Service evidence confirms the indexed lieutenant colonel as the Russian-born New York hotel executive and New York National Guard officer.",
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Inspect Box 566 for the personnel-file chronology and any named last civilian employer before National Guard service.",
+      "archival_review_priority": "medium",
+      "name_variants": [
+        "Prince Serge Obolensky",
+        "Sergei Platonovich Obolensky"
+      ]
+    },
+    {
+      "person_id": "ef674efa-f051-596a-b285-5b2160d119f2",
+      "identity_status": "unresolved",
+      "identity_evidence": "Accessible staged official, OSS, employer, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a unique identity for Frank J Obrien.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 566 for identity and pre-OSS affiliation evidence; do not use the rejected common-name newspaper hits.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3e3ffd8b-91bc-50ca-913a-33caa202f3bd",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 8122888.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 566 for a named employer or military assignment immediately preceding OSS service.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "cef2f476-9e8b-546f-ab80-46cb92f60072",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 2189995.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 566 for a named employer or military assignment immediately preceding OSS service.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "67519d90-bd92-53ec-9201-053dbb81bde5",
+      "identity_status": "unresolved",
+      "identity_evidence": "Accessible staged official, OSS, employer, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a unique identity for John J Obrien.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 567 for identity and pre-OSS affiliation evidence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "27f06bd5-c7ef-5ed3-9aba-be2f15459470",
+      "identity_status": "unresolved",
+      "identity_evidence": "A journalist biography is a plausible namesake lead, but the common name and lack of corroborating OSS identifiers prevent attribution to this index row.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 567 before associating the row with the uncorroborated journalist lead.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "d7dcecb7-f8d4-59f3-b192-e5fe0956de44",
+      "identity_status": "unresolved",
+      "identity_evidence": "Accessible staged official, OSS, employer, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a unique identity for John L Obrien.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 567 for identity and pre-OSS affiliation evidence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "570491ac-ad3a-5c2a-b126-fe1ba5419af3",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 3641483.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 567 for a named employer or military assignment immediately preceding OSS service.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "90a0e07b-595f-5347-8197-9200ff5e7a04",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 2804901.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 567 for a named employer or military assignment immediately preceding OSS service.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "bc3b37f8-19e6-5b83-bc53-bc7a444c4307",
+      "identity_status": "unresolved",
+      "identity_evidence": "Accessible staged official, OSS, employer, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a unique identity for Justin M Obrien.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 567 for identity and pre-OSS affiliation evidence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7d1f8cff-c081-523b-abe7-45e4e2177f60",
+      "identity_status": "unresolved",
+      "identity_evidence": "Accessible staged official, OSS, employer, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a unique identity for Lewis C Obrien.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 567 for identity and pre-OSS affiliation evidence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "522de6e8-b95d-58af-aa08-7ae9bc365721",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier links the index row to official Army bulk ordinal 2624013; the Micheal/Michael spelling difference is preserved as a variant.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 567 for a named employer or military assignment immediately preceding OSS service and confirm the Micheal/Michael spelling variant.",
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Micheal J Obrien"
+      ]
+    },
+    {
+      "person_id": "c9d6f837-a688-5153-9229-8117d9a3bf7e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 3240927.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 567 for a named employer or military assignment immediately preceding OSS service.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c350f9f6-db83-560e-988f-200550b96b0e",
+      "identity_status": "unresolved",
+      "identity_evidence": "Accessible staged official, OSS, employer, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a unique identity for Richard G Obrien.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 567 for identity and pre-OSS affiliation evidence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b99c1ce8-c0ac-543a-92b0-b3693b1101be",
+      "identity_status": "unresolved",
+      "identity_evidence": "A military casualty namesake has a different officer identifier; accessible staged searches did not establish the indexed person's identity.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 567 for identity and pre-OSS affiliation evidence; the reviewed casualty lead has a different officer identifier.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "657bc7a2-1e87-5c1c-93a5-eb2cb7a43579",
+      "identity_status": "unresolved",
+      "identity_evidence": "Accessible staged official, OSS, employer, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a unique identity for William G Obrien.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 567 for identity and pre-OSS affiliation evidence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9e63ba89-6c6f-5ba4-8bf6-094b9926dbee",
+      "identity_status": "unresolved",
+      "identity_evidence": "Accessible staged official, OSS, employer, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a unique identity for Elinor E Obryan.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 567 for identity, spelling variants, and pre-OSS affiliation evidence.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "3101af51-9d73-5808-bbc3-9e7f7c04a0a8",
+      "identity_status": "unresolved",
+      "identity_evidence": "Accessible staged official, OSS, employer, occupation, obituary, institutional, newspaper, directory, and archival searches did not establish a unique identity for Joseph D Obucina.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 567 for identity and pre-OSS affiliation evidence.",
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "donald-w-obenshain-protocol-b712",
+      "person_id": "ca4c211e-8323-5b31-92c7-a7e0040f7388",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches",
+      "query_variant_type": "full_protocol_distinctive",
+      "started_at": "2026-10-04T01:58:00+00:00",
+      "completed_at": "2026-10-04T02:36:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The official Army identity match is accepted; other accessible results lacked a named employer, corroborating identifiers, or relevant pre-OSS chronology.",
+      "research_notes": "Identity established; no reliable pre-OSS employer has yet been identified. Army occupation codes were not used as employment evidence.",
+      "next_action": "Inspect Box 566 for a named employer or military assignment immediately preceding OSS service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b712-v1"
+    },
+    {
+      "key": "john-m-obereiner-protocol-b712",
+      "person_id": "2d3293b9-93a2-5cf9-8d48-e6822da458e2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches",
+      "query_variant_type": "full_protocol_distinctive",
+      "started_at": "2026-10-04T01:58:00+00:00",
+      "completed_at": "2026-10-04T02:36:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "A contemporary Detachment 101 record supports identity. Postwar banking material and uncorroborated obituary leads do not establish pre-OSS employment.",
+      "research_notes": "High-confidence OSS identity; no reliable pre-OSS employer has yet been identified.",
+      "next_action": "Inspect Box 566 to identify his pre-OSS employer or assignment and corroborate the Detachment 101 personnel chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b712-v1"
+    },
+    {
+      "key": "julian-f-oberg-protocol-b712",
+      "person_id": "5cb189c1-d69d-5a2d-bb28-08988f56593f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches",
+      "query_variant_type": "full_protocol_common_or_incomplete",
+      "started_at": "2026-10-04T01:58:00+00:00",
+      "completed_at": "2026-10-04T02:36:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Accessible candidates lacked corroborating identifiers, a direct OSS link, or relevant pre-OSS chronology.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 566 for identity and pre-OSS affiliation evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b712-v1"
+    },
+    {
+      "key": "roger-w-oberg-protocol-b712",
+      "person_id": "3f6d7afb-9e1b-5369-884c-effd44d25ea6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches",
+      "query_variant_type": "full_protocol_distinctive",
+      "started_at": "2026-10-04T01:58:00+00:00",
+      "completed_at": "2026-10-04T02:36:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The official Army identity match is accepted; other accessible results lacked a named employer, corroborating identifiers, or relevant pre-OSS chronology.",
+      "research_notes": "Identity established; no reliable pre-OSS employer has yet been identified. Army occupation codes were not used as employment evidence.",
+      "next_action": "Inspect Box 566 for a named employer or military assignment immediately preceding OSS service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b712-v1"
+    },
+    {
+      "key": "henry-e-obermanns-protocol-b712",
+      "person_id": "ee764727-602e-5393-99eb-70cc01b61ad3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches",
+      "query_variant_type": "full_protocol_common_or_incomplete",
+      "started_at": "2026-10-04T01:58:00+00:00",
+      "completed_at": "2026-10-04T02:36:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Accessible candidates lacked corroborating identifiers, a direct OSS link, or relevant pre-OSS chronology.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 566 for identity and pre-OSS affiliation evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b712-v1"
+    },
+    {
+      "key": "serge-obolensky-protocol-b712",
+      "person_id": "7bee69f7-b984-5850-96e1-38253676750e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches",
+      "query_variant_type": "full_protocol_distinctive",
+      "started_at": "2026-10-04T01:58:00+00:00",
+      "completed_at": "2026-10-04T02:36:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Existing NPS and CIA evidence confirms the published National Guard, St. Regis Hotel, banking, and real-estate chronology; unrelated namesakes and unsourced repetitions were rejected.",
+      "research_notes": "Previously published evidence remains the best-supported result; this batch did not create duplicate claims.",
+      "next_action": "Inspect Box 566 for the personnel-file chronology and any named last civilian employer before National Guard service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b712-v1"
+    },
+    {
+      "key": "frank-j-obrien-protocol-b712",
+      "person_id": "ef674efa-f051-596a-b285-5b2160d119f2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches",
+      "query_variant_type": "full_protocol_common_or_incomplete",
+      "started_at": "2026-10-04T01:58:00+00:00",
+      "completed_at": "2026-10-04T02:36:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Five LoC newspaper-page candidates and other common-name results lacked corroborating identifiers, a direct OSS link, and a defensible pre-OSS chronology.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 566 for identity and pre-OSS affiliation evidence; do not use the rejected common-name newspaper hits.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b712-v1"
+    },
+    {
+      "key": "george-m-obrien-protocol-b712",
+      "person_id": "3e3ffd8b-91bc-50ca-913a-33caa202f3bd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches",
+      "query_variant_type": "full_protocol_distinctive",
+      "started_at": "2026-10-04T01:58:00+00:00",
+      "completed_at": "2026-10-04T02:36:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The official Army identity match is accepted. Five LoC newspaper pages were common-name discovery noise without matching identifiers or pre-OSS chronology.",
+      "research_notes": "Identity established; no reliable pre-OSS employer has yet been identified. Army occupation codes were not used as employment evidence.",
+      "next_action": "Inspect Box 566 for a named employer or military assignment immediately preceding OSS service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b712-v1"
+    },
+    {
+      "key": "herbert-j-obrien-protocol-b712",
+      "person_id": "cef2f476-9e8b-546f-ab80-46cb92f60072",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches",
+      "query_variant_type": "full_protocol_distinctive",
+      "started_at": "2026-10-04T01:58:00+00:00",
+      "completed_at": "2026-10-04T02:36:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The official Army identity match is accepted; other accessible results lacked a named employer, corroborating identifiers, or relevant pre-OSS chronology.",
+      "research_notes": "Identity established; no reliable pre-OSS employer has yet been identified. Army occupation codes were not used as employment evidence.",
+      "next_action": "Inspect Box 566 for a named employer or military assignment immediately preceding OSS service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b712-v1"
+    },
+    {
+      "key": "john-j-obrien-protocol-b712",
+      "person_id": "67519d90-bd92-53ec-9201-053dbb81bde5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches",
+      "query_variant_type": "full_protocol_common_or_incomplete",
+      "started_at": "2026-10-04T01:58:00+00:00",
+      "completed_at": "2026-10-04T02:36:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Accessible candidates lacked corroborating identifiers, a direct OSS link, or relevant pre-OSS chronology.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 567 for identity and pre-OSS affiliation evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b712-v1"
+    },
+    {
+      "key": "john-r-obrien-protocol-b712",
+      "person_id": "27f06bd5-c7ef-5ed3-9aba-be2f15459470",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches",
+      "query_variant_type": "full_protocol_common_or_incomplete",
+      "started_at": "2026-10-04T01:58:00+00:00",
+      "completed_at": "2026-10-04T02:36:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "A postwar diplomatic oral-history lead describes a prewar journalist, but the common name and absence of an OSS identifier or second corroborating fact prevent attribution.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 567 before associating the row with the uncorroborated journalist lead.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b712-v1"
+    },
+    {
+      "key": "john-l-obrien-protocol-b712",
+      "person_id": "d7dcecb7-f8d4-59f3-b192-e5fe0956de44",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches",
+      "query_variant_type": "full_protocol_common_or_incomplete",
+      "started_at": "2026-10-04T01:58:00+00:00",
+      "completed_at": "2026-10-04T02:36:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Accessible candidates lacked corroborating identifiers, a direct OSS link, or relevant pre-OSS chronology.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 567 for identity and pre-OSS affiliation evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b712-v1"
+    },
+    {
+      "key": "john-c-obrien-protocol-b712",
+      "person_id": "570491ac-ad3a-5c2a-b126-fe1ba5419af3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches",
+      "query_variant_type": "full_protocol_distinctive",
+      "started_at": "2026-10-04T01:58:00+00:00",
+      "completed_at": "2026-10-04T02:36:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The official Army identity match is accepted; other accessible results lacked a named employer, corroborating identifiers, or relevant pre-OSS chronology.",
+      "research_notes": "Identity established; no reliable pre-OSS employer has yet been identified. Army occupation codes were not used as employment evidence.",
+      "next_action": "Inspect Box 567 for a named employer or military assignment immediately preceding OSS service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b712-v1"
+    },
+    {
+      "key": "joseph-p-obrien-protocol-b712",
+      "person_id": "90a0e07b-595f-5347-8197-9200ff5e7a04",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches",
+      "query_variant_type": "full_protocol_distinctive",
+      "started_at": "2026-10-04T01:58:00+00:00",
+      "completed_at": "2026-10-04T02:36:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The official Army identity match is accepted; other accessible results lacked a named employer, corroborating identifiers, or relevant pre-OSS chronology.",
+      "research_notes": "Identity established; no reliable pre-OSS employer has yet been identified. Army occupation codes were not used as employment evidence.",
+      "next_action": "Inspect Box 567 for a named employer or military assignment immediately preceding OSS service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b712-v1"
+    },
+    {
+      "key": "justin-m-obrien-protocol-b712",
+      "person_id": "bc3b37f8-19e6-5b83-bc53-bc7a444c4307",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches",
+      "query_variant_type": "full_protocol_common_or_incomplete",
+      "started_at": "2026-10-04T01:58:00+00:00",
+      "completed_at": "2026-10-04T02:36:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Accessible candidates lacked corroborating identifiers, a direct OSS link, or relevant pre-OSS chronology.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 567 for identity and pre-OSS affiliation evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b712-v1"
+    },
+    {
+      "key": "lewis-c-obrien-protocol-b712",
+      "person_id": "7d1f8cff-c081-523b-abe7-45e4e2177f60",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches",
+      "query_variant_type": "full_protocol_common_or_incomplete",
+      "started_at": "2026-10-04T01:58:00+00:00",
+      "completed_at": "2026-10-04T02:36:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Accessible candidates lacked corroborating identifiers, a direct OSS link, or relevant pre-OSS chronology.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 567 for identity and pre-OSS affiliation evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b712-v1"
+    },
+    {
+      "key": "michael-j-obrien-protocol-b712",
+      "person_id": "522de6e8-b95d-58af-aa08-7ae9bc365721",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches",
+      "query_variant_type": "full_protocol_distinctive",
+      "started_at": "2026-10-04T01:58:00+00:00",
+      "completed_at": "2026-10-04T02:36:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The official Army identity match is accepted; other accessible results lacked a named employer, corroborating identifiers, or relevant pre-OSS chronology.",
+      "research_notes": "Identity established; no reliable pre-OSS employer has yet been identified. Army occupation codes were not used as employment evidence.",
+      "next_action": "Inspect Box 567 for a named employer or military assignment immediately preceding OSS service and confirm the Micheal/Michael spelling variant.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b712-v1"
+    },
+    {
+      "key": "richard-obrien-protocol-b712",
+      "person_id": "c9d6f837-a688-5153-9229-8117d9a3bf7e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches",
+      "query_variant_type": "full_protocol_distinctive",
+      "started_at": "2026-10-04T01:58:00+00:00",
+      "completed_at": "2026-10-04T02:36:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The official Army identity match is accepted; other accessible results lacked a named employer, corroborating identifiers, or relevant pre-OSS chronology.",
+      "research_notes": "Identity established; no reliable pre-OSS employer has yet been identified. Army occupation codes were not used as employment evidence.",
+      "next_action": "Inspect Box 567 for a named employer or military assignment immediately preceding OSS service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b712-v1"
+    },
+    {
+      "key": "richard-g-obrien-protocol-b712",
+      "person_id": "c350f9f6-db83-560e-988f-200550b96b0e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches",
+      "query_variant_type": "full_protocol_common_or_incomplete",
+      "started_at": "2026-10-04T01:58:00+00:00",
+      "completed_at": "2026-10-04T02:36:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Accessible candidates lacked corroborating identifiers, a direct OSS link, or relevant pre-OSS chronology.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 567 for identity and pre-OSS affiliation evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b712-v1"
+    },
+    {
+      "key": "walter-e-obrien-protocol-b712",
+      "person_id": "b99c1ce8-c0ac-543a-92b0-b3693b1101be",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches",
+      "query_variant_type": "full_protocol_common_or_incomplete",
+      "started_at": "2026-10-04T01:58:00+00:00",
+      "completed_at": "2026-10-04T02:36:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "A Walter E O'Brien military casualty lead carries a different officer identifier; other results lacked sufficient identifying evidence.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 567 for identity and pre-OSS affiliation evidence; the reviewed casualty lead has a different officer identifier.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b712-v1"
+    },
+    {
+      "key": "william-g-obrien-protocol-b712",
+      "person_id": "657bc7a2-1e87-5c1c-93a5-eb2cb7a43579",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches",
+      "query_variant_type": "full_protocol_common_or_incomplete",
+      "started_at": "2026-10-04T01:58:00+00:00",
+      "completed_at": "2026-10-04T02:36:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Accessible candidates lacked corroborating identifiers, a direct OSS link, or relevant pre-OSS chronology.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 567 for identity and pre-OSS affiliation evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b712-v1"
+    },
+    {
+      "key": "elinor-e-obryan-protocol-b712",
+      "person_id": "9e63ba89-6c6f-5ba4-8bf6-094b9926dbee",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches",
+      "query_variant_type": "full_protocol_common_or_incomplete",
+      "started_at": "2026-10-04T01:58:00+00:00",
+      "completed_at": "2026-10-04T02:36:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Accessible candidates lacked corroborating identifiers, a direct OSS link, or relevant pre-OSS chronology.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 567 for identity, spelling variants, and pre-OSS affiliation evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b712-v1"
+    },
+    {
+      "key": "joseph-d-obucina-protocol-b712",
+      "person_id": "3101af51-9d73-5808-bbc3-9e7f7c04a0a8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and meaningful variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches",
+      "query_variant_type": "full_protocol_common_or_incomplete",
+      "started_at": "2026-10-04T01:58:00+00:00",
+      "completed_at": "2026-10-04T02:36:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Accessible candidates lacked corroborating identifiers, a direct OSS link, or relevant pre-OSS chronology.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 567 for identity and pre-OSS affiliation evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b712-v1"
+    }
+  ]
+}

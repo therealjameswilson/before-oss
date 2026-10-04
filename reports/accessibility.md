@@ -6779,3 +6779,15 @@ student/employment boundary, two visible identity conflicts, six bounded Army
 identity matches, protected-identifier redaction, and the unchanged
 nine-person oil-company category. All 30 axe scans reported no serious
 accessibility violations.
+
+## Batch 712 accessibility and responsive regression
+
+The bounded release suite passed **87 / 87** checks: 18 Batch 712 profile and
+evidence-boundary assertions, 33 core route and interaction checks, six
+analysis checks, and 30 axe scans. The matrix covers desktop, phone, and
+tablet widths. It verifies all 23 direct profiles, eight reviewed Army
+identity matches, the Michael/Micheal spelling variant, John M Obereiner's
+Detachment 101 identity-only evidence, Serge Obolensky's retained chronology,
+unresolved common-name outcomes, private-identifier masking, exact coverage,
+and the unchanged nine-person oil-company category. All 30 axe scans reported
+no serious accessibility violations.
