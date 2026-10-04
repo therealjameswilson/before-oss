@@ -110,10 +110,29 @@ known product failure. The bounded release suite exercises the core routes,
 Batch 711 profiles, analytics, responsive layouts, and accessibility across
 all three configured browser projects.
 
-## Release status
+## Released and verified live
 
-This release candidate passed every local gate. GitHub Pages deployment and
-post-deployment byte and route verification are still pending.
+Batch 711 was fast-forwarded to `main` as commit
+[`704a2b18a19511f8b4857843622b4e12c4d9c63d`](https://github.com/therealjameswilson/before-oss/commit/704a2b18a19511f8b4857843622b4e12c4d9c63d).
+The GitHub Pages build and deployment
+[`37170441827`](https://github.com/therealjameswilson/before-oss/actions/runs/37170441827)
+and independent test workflow
+[`37170441855`](https://github.com/therealjameswilson/before-oss/actions/runs/37170441855)
+passed on 2026-10-03 America/New_York. GitHub emitted advisory warnings that
+several official actions still target Node.js 20 while runners force Node.js
+24, and that `ubuntu-latest` is scheduled to migrate to Ubuntu 26; the
+workflows nevertheless completed successfully.
+
+The first post-deployment request encountered a transient GitHub Pages 503
+during edge propagation. A clean retry compared the public site with the exact
+release commit: all 67 manifest assets totaling 104,641,947 bytes matched, as
+did eight core routes, all 29 source-register pages, and all 23 Batch 711
+profiles. Targeted live checks also confirmed the new home-page totals, the
+nine-person oil-company category, Nusbaum's Army and Harvard distinctions,
+Oakes's Washington Post and Trenton Times chronology, Nyholm's Royal Danish
+Navy affiliation, and Obata's Berkeley role. The live site reports 23,978
+source rows, 23,939 person entities, 9,392 researched people, 720 verified
+affiliations, 325 verified employers, and 14,542 not-started people.
 
 ## Resume
 
