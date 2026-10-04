@@ -1,38 +1,33 @@
 # Research status
 
-Batch 733 completed PDF page 357, rows 1-23, from **Charles A Papouschek**
-through **Jean P Parent**, with a saved terminal outcome for all 23 people.
-George J Pappas and Nicholas G Pappas are confirmed through a declassified OSS
-Greece roster matching full names, ranks, and protected identifiers; each has
-a qualified, medium-confidence 122nd Infantry Battalion military pathway that
-is not labeled civilian employment. Maxwell J Papurt is confirmed through an
-official OSS/SCI record, and a contemporary December 1941 newspaper documents
-his executive-director role at the Pride of Judea Children's Home and earlier
-chief-psychologist role at the New York State Department of Correction. Those
-jobs are published as earlier prewar employment, not as proven immediate or
-last civilian affiliations. Seven official Army matches establish identity
-only. Charles S and George L Pappageorge remain separate in a shared-identifier
-conflict. Jean Lucien Pardimene and the Italian naval officer Gastone Pardo
-remain probable identity leads without published affiliations. Twenty people
-have `requires_archival_review`, two have `conflicting_sources`, and one has
-`documented_prewar_employer_found`. The oil-company category remains
-evidence-scoped to **nine people across 11 historically named companies**. See
-`research/batch-733-progress.md`. No authenticated NARA Catalog request was
-made.
+Batch 734 completed PDF page 357, rows 24-46, from **Robert E Parent** through
+**Hilda B Parker**, with a saved terminal outcome for all 23 people. Nelson B
+Paris is confirmed as the OSS Dawes Mission naval photographer through an
+official National Park Service history. Evan J Parker Jr. is linked at high
+confidence through a Texas Tech archival interview and Cornell institutional
+class notes; Cornell is published as a documented prewar **student**
+affiliation, never as employment or an immediate predecessor. Six exact
+official Army matches establish identity only. Jesse Paris retains an explicit
+official-name conflict because his indexed protected identifier points to an
+Army record named TRUITT GEORGE S. Twenty-two people have
+`requires_archival_review`, and Jesse has `conflicting_sources`. The
+oil-company category remains evidence-scoped to **nine people across 11
+historically named companies**. See `research/batch-734-progress.md`. No
+authenticated NARA Catalog request was made.
 
 Current SQLite has **23,978/23,978** linked source rows and **23,939** active
-people. Research-attempt coverage is **9,895/23,939 (41.3342%)**;
+people. Research-attempt coverage is **9,918/23,939 (41.4303%)**;
 verified-employer coverage is **334/23,939 (1.3952%)**;
-verified-affiliation coverage is **744/23,939 (3.1079%)**; archival-review
-coverage is **8,353/23,939 (34.8929%)**. There are **14,039** `not_started`
-people and **523** possible-duplicate groups. SQLite retains **18,083**
-attempts or plans and **6,347** claims: 1,381 confirmed, 2,938 high, 1,537
-medium, 198 low, 291 conflicting, and two unresolved. It has **5,707**
-citation records and **2,885** unique source documents. The public projection
-has **2,489** affiliations, **863** organizations, **4,483** sources, and
-**6,140** claims. Full-index historical research remains unfinished. The next
-boundary is PDF page 357, rows 24-46, from Robert E Parent through Hilda B
-Parker.
+verified-affiliation coverage is **745/23,939 (3.1121%)**; archival-review
+coverage is **8,376/23,939 (34.9889%)**. There are **14,016** `not_started`
+people and **523** possible-duplicate groups. SQLite retains **18,131**
+attempts or plans and **6,357** claims: 1,382 confirmed, 2,946 high, 1,537
+medium, 198 low, 292 conflicting, and two unresolved. It has **5,712**
+citation records and **2,888** unique source documents. The public projection
+has **2,490** affiliations, **863** organizations, **4,488** sources, and
+**6,150** claims. Full-index historical research remains unfinished. The next
+boundary is PDF page 358, rows 1-23, from James C Parker through Marian A
+Parrott.
 
 Batch 728 completed PDF page 354, rows 24-46, from **Charles H Padden** through
 **Wellman Page**, with a saved terminal outcome for all 23 people. Henry M

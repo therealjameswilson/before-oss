@@ -1,0 +1,975 @@
+{
+  "bundle_version": "batch-734-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 734 archival review",
+  "sources": [
+    {
+      "key": "nara-index-b734",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 585-586",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 357, rows 24-46; visually checked against a 300 dpi render",
+      "access_date": "2026-10-04",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Every printed row remains separate. Full protected identifiers are retained only in the private database and excluded from public output."
+    },
+    {
+      "key": "army-bulk-b734",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department. Adjutant General's Office",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946",
+      "locator": "Bulk ordinals 5341448, 2201967, 6768078, 6076264, 8470051, 4592549, and 4569439",
+      "access_date": "2026-10-04",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Selective Service System, Record Group 147",
+      "rights_notes": "Official bulk data, not a Catalog API response. Protected identifiers, coded occupations, and raw records are not published or retained."
+    },
+    {
+      "key": "nps-nelson-paris-b734",
+      "stable_url": "https://home.nps.gov/articles/oss-in-action-the-mediterranean-and-european-theaters.htm",
+      "title": "OSS in Action: The Mediterranean and European Theaters",
+      "author_creator": "National Park Service",
+      "repository_publisher": "National Park Service",
+      "publication_record_date": "undated",
+      "locator": "Dawes Mission section; companion Chapter 8 PDF",
+      "access_date": "2026-10-04",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "OSS in Action",
+      "rights_notes": "Official institutional history used to confirm the distinctive wartime identity and role, not a pre-OSS employer."
+    },
+    {
+      "key": "ttu-evan-parker-b734",
+      "stable_url": "https://www.vietnam.ttu.edu/virtualarchive/items.php?item=2506AU2575",
+      "archival_identifier": "Item 2506AU2575",
+      "title": "Evan J Parker, Jr., Interview",
+      "author_creator": "Douglas Valentine Collection",
+      "repository_publisher": "Vietnam Center and Archive, Texas Tech University",
+      "publication_record_date": "undated",
+      "locator": "Virtual Archive item 2506AU2575",
+      "access_date": "2026-10-04",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Douglas Valentine Collection",
+      "rights_notes": "Archival item metadata used for identity resolution and OSS service context; it does not establish a pre-OSS employer."
+    },
+    {
+      "key": "cornell-alumni-evan-parker-b734",
+      "stable_url": "https://ecommons.cornell.edu/bitstream/1813/28022/1/088_10.pdf",
+      "archival_identifier": "Cornell Alumni News, volume 88, number 10",
+      "title": "Cornell Alumni News, June 1986",
+      "author_creator": "Cornell Alumni News",
+      "repository_publisher": "Cornell University eCommons",
+      "publication_record_date": "1986-06",
+      "locator": "Class of 1941 notes, printed page 41",
+      "access_date": "2026-10-04",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Cornell Alumni News",
+      "rights_notes": "Institutional alumni record used to document student affiliation and class year, not employment."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "cornell-university-b734",
+      "organization_id": "e1357e85-f9f9-5409-b56d-a75b4c3326fa",
+      "canonical_name": "Cornell University",
+      "historical_name": "Cornell University",
+      "aliases": [],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Ithaca",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused. Evan J. Parker Jr.'s relationship is student, not employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "evan-parker-cornell-student-b734",
+      "person_id": "0ef8fbe7-f19c-510c-8072-05ebc9d34900",
+      "organization_key": "cornell-university-b734",
+      "organization_name_as_found": "Cornell University",
+      "role_title": "Class of 1941",
+      "occupation": "Student",
+      "relationship_type": "student",
+      "end_date": "1941",
+      "date_precision": "Cornell institutional class notes place Evan J Parker in the Class of 1941; attendance dates and degree details were not separately verified.",
+      "city": "Ithaca",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Published as a prewar student affiliation only. Cornell is not classified as his employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-robert-parent-b734",
+      "person_id": "d95fe6b3-1129-5bea-b1af-dacaea755ec0",
+      "claim_type": "identity",
+      "claim_text": "The indexed Robert E Parent is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PARENT ROBERT E",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers are masked publicly; coded Army occupation data are not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b734",
+          "locator_override": "PDF page 357, row 24"
+        },
+        {
+          "source_key": "army-bulk-b734",
+          "locator_override": "Bulk record ordinal 5341448",
+          "excerpt_override": "PARENT ROBERT E"
+        }
+      ]
+    },
+    {
+      "key": "identity-ernest-paris-b734",
+      "person_id": "2e16caca-06fa-5a26-971c-7ee0401bc667",
+      "claim_type": "identity",
+      "claim_text": "The indexed Ernest L Paris is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PARIS ERNEST L",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers are masked publicly; coded Army occupation data are not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b734",
+          "locator_override": "PDF page 357, row 28"
+        },
+        {
+          "source_key": "army-bulk-b734",
+          "locator_override": "Bulk record ordinal 2201967",
+          "excerpt_override": "PARIS ERNEST L"
+        }
+      ]
+    },
+    {
+      "key": "identity-bernard-parisky-b734",
+      "person_id": "04518ec0-84ed-573a-9f8b-7b0a5e49259f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Bernard H Parisky is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PARISKY BERNARD H",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers are masked publicly; coded Army occupation data are not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b734",
+          "locator_override": "PDF page 357, row 32"
+        },
+        {
+          "source_key": "army-bulk-b734",
+          "locator_override": "Bulk record ordinal 6076264",
+          "excerpt_override": "PARISKY BERNARD H"
+        }
+      ]
+    },
+    {
+      "key": "identity-ki-park-b734",
+      "person_id": "d112c0c6-0dbf-50bd-bf73-11c3c45cb740",
+      "claim_type": "identity",
+      "claim_text": "The indexed Ki B Park is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PARK KI B",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers are masked publicly; coded Army occupation data are not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b734",
+          "locator_override": "PDF page 357, row 33"
+        },
+        {
+          "source_key": "army-bulk-b734",
+          "locator_override": "Bulk record ordinal 8470051",
+          "excerpt_override": "PARK KI B"
+        }
+      ]
+    },
+    {
+      "key": "identity-franklin-parker-b734",
+      "person_id": "a7eeb5ae-cfe6-53a1-b99d-97b290fbd2c2",
+      "claim_type": "identity",
+      "claim_text": "The indexed Franklin P Parker is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PARKER FRANKLIN P",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers are masked publicly; coded Army occupation data are not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b734",
+          "locator_override": "PDF page 357, row 43"
+        },
+        {
+          "source_key": "army-bulk-b734",
+          "locator_override": "Bulk record ordinal 4592549",
+          "excerpt_override": "PARKER FRANKLIN P"
+        }
+      ]
+    },
+    {
+      "key": "identity-henry-parker-b734",
+      "person_id": "c6a29ecf-a8ef-5f1c-89d6-f4c5c825d609",
+      "claim_type": "identity",
+      "claim_text": "The indexed Henry S Parker is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PARKER HENRY S",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Protected identifiers are masked publicly; coded Army occupation data are not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b734",
+          "locator_override": "PDF page 357, row 45"
+        },
+        {
+          "source_key": "army-bulk-b734",
+          "locator_override": "Bulk record ordinal 4569439",
+          "excerpt_override": "PARKER HENRY S"
+        }
+      ]
+    },
+    {
+      "key": "identity-conflict-jesse-paris-b734",
+      "person_id": "9a4d9cf7-7e92-5c66-8d9e-44adeb5b1998",
+      "claim_type": "identity",
+      "claim_text": "The indexed Jesse Paris conflicts with the official Army name attached to the same protected identifier.",
+      "evidence_excerpt": "TRUITT GEORGE S",
+      "evidence_paraphrase": "The protected identifier printed for Jesse Paris maps to an Army record with a different full name.",
+      "identity_match_assessment": "Conflicting official names; no Army identity is accepted.",
+      "temporal_assessment": "The conflict must be resolved from the indexed personnel file before employment research can be attributed safely.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The source rows remain separate and no Army metadata is transferred to Jesse Paris.",
+      "sources": [
+        {
+          "source_key": "nara-index-b734",
+          "locator_override": "PDF page 357, row 29"
+        },
+        {
+          "source_key": "army-bulk-b734",
+          "support_type": "contradicts",
+          "locator_override": "Bulk record ordinal 6768078",
+          "excerpt_override": "TRUITT GEORGE S"
+        }
+      ]
+    },
+    {
+      "key": "identity-nelson-paris-b734",
+      "person_id": "fa26ee39-1e10-5373-99ce-1f9b991bc13d",
+      "claim_type": "identity",
+      "claim_text": "The indexed Nelson B Paris is confirmed as the OSS Dawes Mission naval photographer.",
+      "evidence_excerpt": "Naval photographer Nelson B. Paris came along to record the historic mission.",
+      "evidence_paraphrase": "The official history names the rare full name and a naval photographic role consistent with the indexed rating.",
+      "identity_match_assessment": "Confirmed by exact rare name plus a directly matching naval photographic role in an official institutional OSS history.",
+      "temporal_assessment": "The source establishes wartime OSS role, not the affiliation immediately before OSS service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "No pre-OSS employer or Navy transfer chronology is inferred from the mission account.",
+      "sources": [
+        {
+          "source_key": "nara-index-b734",
+          "locator_override": "PDF page 357, row 30"
+        },
+        {
+          "source_key": "nps-nelson-paris-b734",
+          "locator_override": "Dawes Mission section",
+          "excerpt_override": "Naval photographer Nelson B. Paris came along to record the historic mission."
+        }
+      ]
+    },
+    {
+      "key": "identity-evan-parker-b734",
+      "person_id": "0ef8fbe7-f19c-510c-8072-05ebc9d34900",
+      "claim_type": "identity",
+      "claim_text": "The indexed Evan J Parker Jr. is linked at high confidence to the archival interview of the OSS Jedburgh veteran.",
+      "evidence_excerpt": "Evan J Parker, Jr., Interview",
+      "evidence_paraphrase": "The archival item supplies the same distinctive full name and suffix in an OSS context; Cornell's Class of 1941 record corroborates the identity.",
+      "identity_match_assessment": "High confidence from the rare full name and suffix, direct OSS archival context, and independent Cornell record.",
+      "temporal_assessment": "The evidence establishes identity and prewar student status but not the immediate predecessor to OSS service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Cornell record is not used as employment evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b734",
+          "locator_override": "PDF page 357, row 41"
+        },
+        {
+          "source_key": "ttu-evan-parker-b734",
+          "locator_override": "Virtual Archive item 2506AU2575",
+          "excerpt_override": "Evan J Parker, Jr., Interview"
+        },
+        {
+          "source_key": "cornell-alumni-evan-parker-b734",
+          "locator_override": "Class of 1941 notes, printed page 41"
+        }
+      ]
+    },
+    {
+      "key": "evan-parker-cornell-student-claim-b734",
+      "person_id": "0ef8fbe7-f19c-510c-8072-05ebc9d34900",
+      "affiliation_key": "evan-parker-cornell-student-b734",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Evan J Parker Jr. was a member of Cornell University's Class of 1941.",
+      "evidence_excerpt": "41 It's Our 45th ... Evan J Parker (Potomac, Md.)",
+      "evidence_paraphrase": "Cornell's institutional alumni magazine lists Evan J Parker in the Class of 1941 column.",
+      "identity_match_assessment": "High confidence from the distinctive name, Cornell class record, and independent OSS archival interview with the same full name and suffix.",
+      "temporal_assessment": "Documented prewar student affiliation; it is not established as immediate pre-OSS or as employment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Relationship type is student. Cornell is not counted as an employer in analytics.",
+      "sources": [
+        {
+          "source_key": "cornell-alumni-evan-parker-b734",
+          "locator_override": "Class of 1941 notes, printed page 41",
+          "excerpt_override": "41 It's Our 45th ... Evan J Parker (Potomac, Md.)"
+        },
+        {
+          "source_key": "ttu-evan-parker-b734",
+          "support_type": "context_only",
+          "locator_override": "Virtual Archive item 2506AU2575"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "d95fe6b3-1129-5bea-b1af-dacaea755ec0",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed name and nonshared protected identifier agree with official Army bulk ordinal 5341448.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 585 for pre-OSS employment and recruitment chronology.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "c6ecdd1c-7241-533c-949b-09e2f9a6705d",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed candidate supplied sufficient evidence beyond the indexed row.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 585 for pre-OSS employment and recruitment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "da00ca96-e018-5e45-b1d3-20ef3dad124b",
+      "identity_status": "unresolved",
+      "identity_evidence": "A rare-name genealogy lead lacked a reliable OSS bridge and was not accepted.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 585 for pre-OSS employment and recruitment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2129e85b-bd54-5f82-875e-bb7e7fc55732",
+      "identity_status": "unresolved",
+      "identity_evidence": "Namesake results lacked two corroborating identifiers and were not resolved to the indexed row.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 585 for pre-OSS employment and recruitment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2e16caca-06fa-5a26-971c-7ee0401bc667",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed name and nonshared protected identifier agree with official Army bulk ordinal 2201967.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 585 for pre-OSS employment and recruitment chronology.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "9a4d9cf7-7e92-5c66-8d9e-44adeb5b1998",
+      "identity_status": "conflicting",
+      "identity_evidence": "The indexed protected identifier points to an official Army record named TRUITT GEORGE S; the conflict is unresolved.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Inspect Box 585 to resolve the official identifier/name conflict before attributing any employment evidence.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "fa26ee39-1e10-5373-99ce-1f9b991bc13d",
+      "identity_status": "confirmed",
+      "identity_evidence": "An official National Park Service OSS history names naval photographer Nelson B. Paris on the Dawes Mission, matching the indexed rare name and naval photographic rating.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 585 for pre-OSS employment and recruitment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c4d22d8b-b55f-5303-a521-09a22d842841",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed candidate supplied sufficient identifiers for this civilian-grade index row.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 585 for pre-OSS employment and recruitment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "04518ec0-84ed-573a-9f8b-7b0a5e49259f",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed name and nonshared protected identifier agree with official Army bulk ordinal 6076264.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 585 for pre-OSS employment and recruitment chronology.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "d112c0c6-0dbf-50bd-bf73-11c3c45cb740",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed name and nonshared protected identifier agree with official Army bulk ordinal 8470051.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 585 for pre-OSS employment and recruitment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3be57eb6-2f96-5bf4-a73f-5488f2deb8e8",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed candidate supplied sufficient identifiers for the unranked index row.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 585 for pre-OSS employment and recruitment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6aa16dc4-b198-55fd-8732-c48c4a1705cc",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed candidate supplied sufficient identifiers for this civilian-grade index row.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 585 for pre-OSS employment and recruitment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b0e2bf61-27b9-56c7-bd9c-fba915061adf",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed candidate supplied sufficient identifiers for this civilian-grade index row.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 585 for pre-OSS employment and recruitment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a90836a6-c62d-58e4-9130-16900a3ca45e",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed candidate supplied sufficient identifiers for this civilian-grade index row.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 585 for pre-OSS employment and recruitment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ee3e85ab-12cc-5270-ac4c-84c540299de6",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed candidate supplied sufficient identifiers for the unranked index row.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 585 for pre-OSS employment and recruitment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3e283de6-e29a-5439-bb29-342e3accf790",
+      "identity_status": "unresolved",
+      "identity_evidence": "A prominent academic namesake was rejected because the evidence did not match the indexed enlisted Army context.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 585 for pre-OSS employment and recruitment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d92b2998-72af-5f44-bbb2-66878b854b42",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed candidate supplied sufficient identifiers for this civilian-grade index row.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 585 for pre-OSS employment and recruitment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0ef8fbe7-f19c-510c-8072-05ebc9d34900",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A Texas Tech archival interview identifies Evan J. Parker Jr. as an OSS Jedburgh veteran, while Cornell's Class of 1941 notes corroborate the rare full name and chronology.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 585 for pre-OSS employment and recruitment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c4affa7e-9e45-5583-b998-373ac6d4642e",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed candidate supplied sufficient identifiers for this common-name enlisted row.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 586 for pre-OSS employment and recruitment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a7eeb5ae-cfe6-53a1-b99d-97b290fbd2c2",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed name and nonshared protected identifier agree with official Army bulk ordinal 4592549.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 586 for pre-OSS employment and recruitment chronology.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "f9ebe2fa-00c1-5367-b1ca-88b25823d08b",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed candidate supplied two corroborating identifiers for this common-name commissioned officer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 586 for pre-OSS employment and recruitment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c6a29ecf-a8ef-5f1c-89d6-f4c5c825d609",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed name and nonshared protected identifier agree with official Army bulk ordinal 4569439.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 586 for pre-OSS employment and recruitment chronology.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "3d5ca3cd-75c9-526e-8f77-624cbabaeffc",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reviewed candidate supplied sufficient identifiers for this civilian-grade index row.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 586 for pre-OSS employment and recruitment chronology.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "robert-parent-protocol-b734",
+      "person_id": "d95fe6b3-1129-5bea-b1af-dacaea755ec0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_734",
+      "started_at": "2026-10-04T15:20:00-04:00",
+      "completed_at": "2026-10-04T17:30:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Official Army bulk evidence resolves identity, but no reviewed source names a pre-OSS employer.",
+      "research_notes": "The staged protocol was completed. Search-result snippets, genealogy entries, and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 585.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b734-v1"
+    },
+    {
+      "key": "dominick-parenta-protocol-b734",
+      "person_id": "c6ecdd1c-7241-533c-949b-09e2f9a6705d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_734",
+      "started_at": "2026-10-04T15:20:00-04:00",
+      "completed_at": "2026-10-04T17:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Exact-name, OSS, employment, obituary, newspaper, and archival searches produced no candidate with corroborating identifiers.",
+      "research_notes": "The staged protocol was completed. Search-result snippets, genealogy entries, and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 585.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b734-v1"
+    },
+    {
+      "key": "aurelius-parenti-protocol-b734",
+      "person_id": "da00ca96-e018-5e45-b1d3-20ef3dad124b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_734",
+      "started_at": "2026-10-04T15:20:00-04:00",
+      "completed_at": "2026-10-04T17:30:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Discovery-only genealogy results did not provide an official OSS link, reliable employer evidence, or sufficient identifiers.",
+      "research_notes": "The staged protocol was completed. Search-result snippets, genealogy entries, and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 585.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b734-v1"
+    },
+    {
+      "key": "rufus-paret-protocol-b734",
+      "person_id": "2129e85b-bd54-5f82-875e-bb7e7fc55732",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_734",
+      "started_at": "2026-10-04T15:20:00-04:00",
+      "completed_at": "2026-10-04T17:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Namesake, obituary, and directory results did not establish the indexed identity or a dated pre-OSS employer.",
+      "research_notes": "The staged protocol was completed. Search-result snippets, genealogy entries, and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 585.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b734-v1"
+    },
+    {
+      "key": "ernest-paris-protocol-b734",
+      "person_id": "2e16caca-06fa-5a26-971c-7ee0401bc667",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_734",
+      "started_at": "2026-10-04T15:20:00-04:00",
+      "completed_at": "2026-10-04T17:30:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Official Army bulk evidence resolves identity, but no reviewed source names a pre-OSS employer.",
+      "research_notes": "The staged protocol was completed. Search-result snippets, genealogy entries, and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 585.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b734-v1"
+    },
+    {
+      "key": "jesse-paris-protocol-b734",
+      "person_id": "9a4d9cf7-7e92-5c66-8d9e-44adeb5b1998",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_734",
+      "started_at": "2026-10-04T15:20:00-04:00",
+      "completed_at": "2026-10-04T17:30:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "The official Army name conflicts with the indexed name, so no Army identity or metadata is accepted.",
+      "research_notes": "The staged protocol was completed. Search-result snippets, genealogy entries, and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 585 to resolve the identifier conflict.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b734-v1"
+    },
+    {
+      "key": "nelson-paris-protocol-b734",
+      "person_id": "fa26ee39-1e10-5373-99ce-1f9b991bc13d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_734",
+      "started_at": "2026-10-04T15:20:00-04:00",
+      "completed_at": "2026-10-04T17:30:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Official institutional evidence confirms the distinctive OSS identity and wartime role, but it does not name a pre-OSS employer or transfer chronology.",
+      "research_notes": "The staged protocol was completed. Search-result snippets, genealogy entries, and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 585.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b734-v1"
+    },
+    {
+      "key": "johnny-parish-protocol-b734",
+      "person_id": "c4d22d8b-b55f-5303-a521-09a22d842841",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_734",
+      "started_at": "2026-10-04T15:20:00-04:00",
+      "completed_at": "2026-10-04T17:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Common-name searches did not establish identity, dated employment, or an OSS bridge.",
+      "research_notes": "The staged protocol was completed. Search-result snippets, genealogy entries, and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 585.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b734-v1"
+    },
+    {
+      "key": "bernard-parisky-protocol-b734",
+      "person_id": "04518ec0-84ed-573a-9f8b-7b0a5e49259f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_734",
+      "started_at": "2026-10-04T15:20:00-04:00",
+      "completed_at": "2026-10-04T17:30:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Official Army bulk evidence resolves identity, but no reviewed source names a pre-OSS employer.",
+      "research_notes": "The staged protocol was completed. Search-result snippets, genealogy entries, and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 585.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b734-v1"
+    },
+    {
+      "key": "ki-park-protocol-b734",
+      "person_id": "d112c0c6-0dbf-50bd-bf73-11c3c45cb740",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_734",
+      "started_at": "2026-10-04T15:20:00-04:00",
+      "completed_at": "2026-10-04T17:30:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Official Army bulk evidence resolves identity, but no reviewed source names a pre-OSS employer.",
+      "research_notes": "The staged protocol was completed. Search-result snippets, genealogy entries, and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 585.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b734-v1"
+    },
+    {
+      "key": "susan-park-protocol-b734",
+      "person_id": "3be57eb6-2f96-5bf4-a73f-5488f2deb8e8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_734",
+      "started_at": "2026-10-04T15:20:00-04:00",
+      "completed_at": "2026-10-04T17:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Common-name searches produced namesakes but no candidate with sufficient identity and temporal evidence.",
+      "research_notes": "The staged protocol was completed. Search-result snippets, genealogy entries, and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 585.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b734-v1"
+    },
+    {
+      "key": "alton-parker-protocol-b734",
+      "person_id": "6aa16dc4-b198-55fd-8732-c48c4a1705cc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_734",
+      "started_at": "2026-10-04T15:20:00-04:00",
+      "completed_at": "2026-10-04T17:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Namesake and institutional results did not establish the indexed identity or a dated pre-OSS affiliation.",
+      "research_notes": "The staged protocol was completed. Search-result snippets, genealogy entries, and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 585.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b734-v1"
+    },
+    {
+      "key": "ann-parker-protocol-b734",
+      "person_id": "b0e2bf61-27b9-56c7-bd9c-fba915061adf",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_734",
+      "started_at": "2026-10-04T15:20:00-04:00",
+      "completed_at": "2026-10-04T17:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Common-name searches produced no candidate with sufficient identity, temporal, and employment evidence.",
+      "research_notes": "The staged protocol was completed. Search-result snippets, genealogy entries, and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 585.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b734-v1"
+    },
+    {
+      "key": "barbara-parker-protocol-b734",
+      "person_id": "a90836a6-c62d-58e4-9130-16900a3ca45e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_734",
+      "started_at": "2026-10-04T15:20:00-04:00",
+      "completed_at": "2026-10-04T17:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Common-name searches produced no candidate with sufficient identity, temporal, and employment evidence.",
+      "research_notes": "The staged protocol was completed. Search-result snippets, genealogy entries, and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 585.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b734-v1"
+    },
+    {
+      "key": "blanche-parker-protocol-b734",
+      "person_id": "ee3e85ab-12cc-5270-ac4c-84c540299de6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_734",
+      "started_at": "2026-10-04T15:20:00-04:00",
+      "completed_at": "2026-10-04T17:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Genealogy and namesake results lacked an official OSS bridge and reliable dated employment evidence.",
+      "research_notes": "The staged protocol was completed. Search-result snippets, genealogy entries, and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 585.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b734-v1"
+    },
+    {
+      "key": "charles-parker-protocol-b734",
+      "person_id": "3e283de6-e29a-5439-bb29-342e3accf790",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_734",
+      "started_at": "2026-10-04T15:20:00-04:00",
+      "completed_at": "2026-10-04T17:30:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The botanist and professor namesake lacked an OSS bridge and was incompatible with the indexed technical-sergeant context.",
+      "research_notes": "The staged protocol was completed. Search-result snippets, genealogy entries, and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 585.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b734-v1"
+    },
+    {
+      "key": "dema-parker-protocol-b734",
+      "person_id": "d92b2998-72af-5f44-bbb2-66878b854b42",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_734",
+      "started_at": "2026-10-04T15:20:00-04:00",
+      "completed_at": "2026-10-04T17:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Exact-name and employment searches produced no candidate with corroborating identifiers and dated employment.",
+      "research_notes": "The staged protocol was completed. Search-result snippets, genealogy entries, and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 585.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b734-v1"
+    },
+    {
+      "key": "evan-parker-protocol-b734",
+      "person_id": "0ef8fbe7-f19c-510c-8072-05ebc9d34900",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_734",
+      "started_at": "2026-10-04T15:20:00-04:00",
+      "completed_at": "2026-10-04T17:30:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Archival and Cornell sources establish the distinctive identity and documented prewar student affiliation, but not the immediate predecessor or last civilian employer.",
+      "research_notes": "The staged protocol was completed. Search-result snippets, genealogy entries, and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 585.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b734-v1"
+    },
+    {
+      "key": "frank-parker-protocol-b734",
+      "person_id": "c4affa7e-9e45-5583-b998-373ac6d4642e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_734",
+      "started_at": "2026-10-04T15:20:00-04:00",
+      "completed_at": "2026-10-04T17:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Common-name military and obituary searches did not produce two corroborating identifiers or reliable pre-OSS employment evidence.",
+      "research_notes": "The staged protocol was completed. Search-result snippets, genealogy entries, and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 586.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b734-v1"
+    },
+    {
+      "key": "franklin-parker-protocol-b734",
+      "person_id": "a7eeb5ae-cfe6-53a1-b99d-97b290fbd2c2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_734",
+      "started_at": "2026-10-04T15:20:00-04:00",
+      "completed_at": "2026-10-04T17:30:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Official Army bulk evidence resolves identity, but no reviewed source names a pre-OSS employer.",
+      "research_notes": "The staged protocol was completed. Search-result snippets, genealogy entries, and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 586.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b734-v1"
+    },
+    {
+      "key": "harold-parker-protocol-b734",
+      "person_id": "f9ebe2fa-00c1-5367-b1ca-88b25823d08b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_734",
+      "started_at": "2026-10-04T15:20:00-04:00",
+      "completed_at": "2026-10-04T17:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Common-name officer searches did not produce two corroborating identifiers or reliable pre-OSS employment evidence.",
+      "research_notes": "The staged protocol was completed. Search-result snippets, genealogy entries, and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 586.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b734-v1"
+    },
+    {
+      "key": "henry-parker-protocol-b734",
+      "person_id": "c6a29ecf-a8ef-5f1c-89d6-f4c5c825d609",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_734",
+      "started_at": "2026-10-04T15:20:00-04:00",
+      "completed_at": "2026-10-04T17:30:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Official Army bulk evidence resolves identity, but no reviewed source names a pre-OSS employer.",
+      "research_notes": "The staged protocol was completed. Search-result snippets, genealogy entries, and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 586.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b734-v1"
+    },
+    {
+      "key": "hilda-parker-protocol-b734",
+      "person_id": "3d5ca3cd-75c9-526e-8f77-624cbabaeffc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index and official-record context; CIA and Library of Congress access attempts; exact-name and meaningful variant OSS searches; rank or protected-identifier searches where available; employer 1940, occupation, obituary, newspaper, institutional, directory, and archival searches",
+      "query_variant_type": "protocol_complete_batch_734",
+      "started_at": "2026-10-04T15:20:00-04:00",
+      "completed_at": "2026-10-04T17:30:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Common-name and genealogy results did not establish the indexed identity or a dated pre-OSS employer.",
+      "research_notes": "The staged protocol was completed. Search-result snippets, genealogy entries, and namesake pages were treated as discovery leads only; CIA and LoC adapter limitations are preserved in separate attempts. No employer is inferred from education, rank, coded Army fields, or later careers.",
+      "next_action": "Inspect Box 586.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b734-v1"
+    }
+  ]
+}
