@@ -109,10 +109,30 @@ known product failure. The bounded release suite exercises the core routes,
 Batch 710 profiles, analytics, responsive layouts, and accessibility across
 all three configured browser projects.
 
-## Publication status
+## Released and verified live
 
-Local release gates passed. GitHub Pages deployment and independent live-byte
-verification are pending the release commit.
+Batch 710 was fast-forwarded to `main` as commit
+[`fe052d6e2f83c192823e196f49efe490220e068f`](https://github.com/therealjameswilson/before-oss/commit/fe052d6e2f83c192823e196f49efe490220e068f).
+The GitHub Pages build and deployment
+[`37168336849`](https://github.com/therealjameswilson/before-oss/actions/runs/37168336849)
+and independent test workflow
+[`37168336759`](https://github.com/therealjameswilson/before-oss/actions/runs/37168336759)
+passed on 2026-10-03 America/New_York. GitHub emitted advisory warnings that
+several official actions still target Node.js 20 while runners force Node.js
+24, and that `ubuntu-latest` is scheduled to migrate to Ubuntu 26; the
+workflows nevertheless completed successfully.
+
+Post-deployment verification compared the public site with that exact commit.
+All 67 manifest assets totaling 104,533,107 bytes matched, as did eight core
+routes, all 29 source-register pages, and all 23 Batch 710 profiles changed by
+the reviewed-evidence bundle. The live site reports 23,978 source rows, 23,939
+person entities, 9,369 researched people, 716 verified affiliations, 323
+verified employers, and 14,565 not-started people. Novosel's military pathway,
+Nupen's qualified identity, all six additional identifier-backed identities,
+the withheld Dorothy Noyes lead, the four distinct shared-identifier profiles,
+and the unresolved and archival-review dispositions render from their public
+URLs. The oil-company directory remains visible with nine cited people across
+eleven historically named companies.
 
 ## Resume
 
