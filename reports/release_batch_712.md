@@ -128,8 +128,8 @@ python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
 
-The next research boundary begins at PDF page 346, row 47 (Bernard F
-O'Connell). No API key, raw API response, full service number, copyrighted
+Correction: PDF page 346 ends at row 46. The next research boundary begins at
+PDF page 347, row 1 (Joseph P Obuckley). No API key, raw API response, full service number, copyrighted
 page image, unrelated Army coded occupation, street address, modern
 people-finder record, or private reviewer note is committed or published. No
 authenticated NARA Catalog API request was made for this batch.

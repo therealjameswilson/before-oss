@@ -1,0 +1,250 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 713 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b713",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 567-568",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 347, rows 1-23; visually checked against a fresh 300 dpi render",
+      "access_date": "2026-10-03",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Original spellings are preserved. Full service identifiers remain private and are excluded from public exports."
+    },
+    {
+      "key": "army-bulk-b713",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department. Adjutant General's Office",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946",
+      "locator": "Official bulk-file ordinals 646053, 3599782, 4039579, 4438206, 5828797, and 8194387",
+      "access_date": "2026-10-03",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Selective Service System, Record Group 147",
+      "rights_notes": "Only stable record pointers and project-authored assessments are retained; protected identifiers, coded occupations, and raw bulk records are not published."
+    },
+    {
+      "key": "berkeley-wra-roster-oda-b713",
+      "stable_url": "https://digicoll.lib.berkeley.edu/nanna/record/171891/files/cubanc6714_b316w2_0421_1.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0",
+      "archival_identifier": "BANC MSS 67/14 c; digital record 171891; roster entry 3277",
+      "title": "Evacuee roster, name-by-name list, part 1",
+      "author_creator": "United States War Relocation Authority",
+      "repository_publisher": "The Bancroft Library, University of California, Berkeley",
+      "publication_record_date": "1942-1946",
+      "locator": "Roster entry 3277; Miyoji Oda, age 19, block 53, unit 10B; adjacent Oda family entries 3275-3280",
+      "access_date": "2026-10-03",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Japanese American Evacuation and Resettlement Records",
+      "rights_notes": "Used only to establish identity context and a documented wartime status; it does not establish an employer."
+    },
+    {
+      "key": "latimes-miyoji-oda-obituary-b713",
+      "stable_url": "https://www.legacy.com/us/obituaries/latimes/name/miyoji-oda-obituary?id=26253148",
+      "archival_identifier": "Los Angeles Times obituary, November 23-24, 2005",
+      "title": "Miyoji Oda Obituary",
+      "author_creator": "Los Angeles Times obituary notice",
+      "repository_publisher": "Los Angeles Times via Legacy.com",
+      "publication_record_date": "2005-11-23",
+      "locator": "Obituary text naming siblings Kazume, Frank, and Lillian",
+      "access_date": "2026-10-03",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Los Angeles Times obituaries",
+      "rights_notes": "Only a short project-authored paraphrase is retained; no unrelated family details are published."
+    },
+    {
+      "key": "va-derived-odalovich-burial-b713",
+      "stable_url": "https://www.interment.net/data/us/ny/suffolk/national/records-od-ok.htm",
+      "archival_identifier": "Long Island National Cemetery, section 2S, site 5174F",
+      "title": "Long Island National Cemetery Burial Records: Surnames Od-Ok",
+      "author_creator": "Transcription derived from U.S. Department of Veterans Affairs records",
+      "repository_publisher": "Interment.net",
+      "publication_record_date": "2017-09-09",
+      "locator": "Gabriel Odalovich entry; source page states records were acquired from the Department of Veterans Affairs on September 4, 2017",
+      "access_date": "2026-10-03",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "Long Island National Cemetery burial records",
+      "rights_notes": "Derivative burial transcription used only as qualified identity corroboration, not as employer evidence."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [],
+  "claims": [
+    {
+      "key": "identity-daniel-j-oconnell-b713",
+      "person_id": "517a5d9d-d610-5d14-8d85-48674c83c325",
+      "claim_type": "identity",
+      "claim_text": "The indexed Daniel J Oconnell is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The indexed record and official Army bulk ordinal 646053 share a nonpublic identifier; the reviewed names agree exactly.",
+      "identity_match_assessment": "High confidence from exact indexed-name agreement and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes identity and an Army entry date, but not a named pre-OSS employer or immediate assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The identity decision does not convert coded Army occupation data into employer or occupation evidence.",
+      "sources": [
+        {"source_key": "nara-index-b713", "support_type": "supports", "locator_override": "PDF page 347, row 6"},
+        {"source_key": "army-bulk-b713", "support_type": "supports", "locator_override": "Bulk record ordinal 646053"}
+      ]
+    },
+    {
+      "key": "identity-joseph-s-ochranek-b713",
+      "person_id": "365e5b7c-2aac-59a3-bd5b-18ad359c205a",
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph S Ochranek is a high-confidence match to the reviewed official Army record, which records him as Joseph S Ochranek Jr.",
+      "evidence_paraphrase": "The indexed record and official Army bulk ordinal 4039579 share a nonpublic identifier and the same full name; the Army file adds the suffix Jr.",
+      "identity_match_assessment": "High confidence from full-name agreement and a nonshared protected identifier; the suffix is preserved as a documented variant.",
+      "temporal_assessment": "The Army record establishes identity and an Army entry date, but not a named pre-OSS employer or immediate assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The identity decision does not convert coded Army occupation data into employer or occupation evidence.",
+      "sources": [
+        {"source_key": "nara-index-b713", "support_type": "supports", "locator_override": "PDF page 347, row 4"},
+        {"source_key": "army-bulk-b713", "support_type": "supports", "locator_override": "Bulk record ordinal 4039579"}
+      ]
+    },
+    {
+      "key": "identity-john-a-oconnor-b713",
+      "person_id": "d8748527-cbbd-52e5-9d63-5b2c28e08d70",
+      "claim_type": "identity",
+      "claim_text": "The indexed John A Oconnor is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The indexed record and official Army bulk ordinal 4438206 share a nonpublic identifier; the reviewed names agree exactly.",
+      "identity_match_assessment": "High confidence from exact indexed-name agreement and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes identity and an Army entry date, but not a named pre-OSS employer or immediate assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The identity decision does not convert coded Army occupation data into employer or occupation evidence.",
+      "sources": [
+        {"source_key": "nara-index-b713", "support_type": "supports", "locator_override": "PDF page 347, row 11"},
+        {"source_key": "army-bulk-b713", "support_type": "supports", "locator_override": "Bulk record ordinal 4438206"}
+      ]
+    },
+    {
+      "key": "identity-joseph-j-oddo-b713",
+      "person_id": "028a8bc0-8b5c-5157-9a39-62c7c3fb21dd",
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph J Oddo is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The indexed record and official Army bulk ordinal 3599782 share a nonpublic identifier; the reviewed names agree exactly.",
+      "identity_match_assessment": "High confidence from exact indexed-name agreement and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes identity and an Army entry date, but not a named pre-OSS employer or immediate assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The identity decision does not convert coded Army occupation data into employer or occupation evidence.",
+      "sources": [
+        {"source_key": "nara-index-b713", "support_type": "supports", "locator_override": "PDF page 347, row 20"},
+        {"source_key": "army-bulk-b713", "support_type": "supports", "locator_override": "Bulk record ordinal 3599782"}
+      ]
+    },
+    {
+      "key": "identity-william-k-odell-b713",
+      "person_id": "7c6a0a4a-8430-5344-b608-9a0d70d7c2bf",
+      "claim_type": "identity",
+      "claim_text": "The indexed William K Odell is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The indexed record and official Army bulk ordinal 8194387 share a nonpublic identifier; the reviewed names agree exactly.",
+      "identity_match_assessment": "High confidence from exact indexed-name agreement and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record's 1946 entry date is later than the OSS period and is identity evidence only; it cannot establish a pre-OSS employer or pathway.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No postwar Army data are presented as a pre-OSS affiliation.",
+      "sources": [
+        {"source_key": "nara-index-b713", "support_type": "supports", "locator_override": "PDF page 347, row 22"},
+        {"source_key": "army-bulk-b713", "support_type": "supports", "locator_override": "Bulk record ordinal 8194387"}
+      ]
+    },
+    {
+      "key": "identity-miyoji-oda-b713",
+      "person_id": "eccc8f25-7ae0-5acd-a069-4b974f2c1c3c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Miyoji Oda is a high-confidence match to the Miyoji Oda documented in a wartime War Relocation Authority roster and a later Los Angeles Times obituary.",
+      "evidence_paraphrase": "The distinctive exact name is corroborated across the OSS index, a wartime roster, and an obituary; the roster and obituary independently name the same siblings Frank, Kazume, and Lillian.",
+      "identity_match_assessment": "High confidence from the distinctive exact name and three matching sibling identifiers across two independent reputable sources.",
+      "temporal_assessment": "The roster documents Miyoji Oda, age 19, in a wartime relocation-center household. It does not identify an employer or establish the immediate transition into OSS service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The project records the identity context without treating confinement, residence, or family association as employment.",
+      "sources": [
+        {"source_key": "nara-index-b713", "support_type": "supports", "locator_override": "PDF page 347, row 18"},
+        {"source_key": "berkeley-wra-roster-oda-b713", "support_type": "supports", "locator_override": "Roster entries 3275-3280"},
+        {"source_key": "latimes-miyoji-oda-obituary-b713", "support_type": "supports", "locator_override": "Obituary text naming siblings Kazume, Frank, and Lillian"}
+      ]
+    },
+    {
+      "key": "identity-gabriel-odalovich-b713",
+      "person_id": "121df7ce-e69c-5858-ba2e-f1519903167f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Gabriel Odalovich is probably the World War II Army first lieutenant documented in a Veterans Affairs-derived national-cemetery transcription.",
+      "evidence_paraphrase": "The unusual exact name and Army lieutenant status agree; the derivative burial record supplies a birth date and cemetery locator but no OSS or employment evidence.",
+      "identity_match_assessment": "Probable, not settled: an unusual exact name and compatible rank agree, but no protected identifier or direct OSS linkage is available in the accessible source.",
+      "temporal_assessment": "The burial transcription establishes World War II Army service only; it does not establish a pre-OSS employer or immediate assignment.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "published",
+      "match_notes": "This qualified identity should be tested against Box 568 before elevation to high confidence.",
+      "sources": [
+        {"source_key": "nara-index-b713", "support_type": "supports", "locator_override": "PDF page 347, row 19"},
+        {"source_key": "va-derived-odalovich-burial-b713", "support_type": "supports", "locator_override": "Section 2S, site 5174F"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {"person_id":"7d95f3f8-0360-5a17-8c08-1dc61ea872e0","identity_status":"unresolved","identity_evidence":"The accessible staged protocol found no source that uniquely bridges Joseph P Obuckley to a documented pre-OSS employer or affiliation.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 567 for identity and pre-OSS affiliation evidence.","archival_review_priority":"critical"},
+    {"person_id":"fc8d882c-7344-5547-9e79-ecabaff9ee84","identity_status":"unresolved","identity_evidence":"The indexed civilian-grade row for Elvera A Obusen remains unlinked to a unique external identity after staged official, OSS, employer, occupation, obituary, institutional, newspaper, directory, and archival searches.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 567 for identity, grade context, and pre-OSS affiliation evidence.","archival_review_priority":"critical"},
+    {"person_id":"864538f2-12c9-58ac-9dc0-f34006ac0b25","identity_status":"conflicting","identity_evidence":"The visually verified index prints Joseph F Ochnat, while the exact protected identifier points to an Army record for Joseph F OCHWAT. The surname conflict is preserved and the candidate is rejected pending archival review.","manual_review_required":true,"research_status":"conflicting_sources","next_action":"Inspect Box 567 to determine whether Ochnat is a source spelling, an index transcription error, or a different person; do not merge with OCHWAT without direct evidence.","archival_review_priority":"critical"},
+    {"person_id":"365e5b7c-2aac-59a3-bd5b-18ad359c205a","identity_status":"high_confidence","identity_evidence":"The indexed name and a nonshared protected identifier agree with official Army bulk ordinal 4039579; the Army file adds Jr.","manual_review_required":false,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 567 for a named employer or military assignment immediately preceding OSS service.","archival_review_priority":"high","name_variants":["Joseph S Ochranek Jr"]},
+    {"person_id":"94a59f88-05e6-5dc3-b920-42bef32ef74b","identity_status":"unresolved","identity_evidence":"Accessible staged searches did not establish a unique identity for Blanche Oconnell.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 567 for identity and pre-OSS affiliation evidence.","archival_review_priority":"high"},
+    {"person_id":"517a5d9d-d610-5d14-8d85-48674c83c325","identity_status":"high_confidence","identity_evidence":"Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 646053.","manual_review_required":false,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 567 for a named employer or military assignment immediately preceding OSS service.","archival_review_priority":"high"},
+    {"person_id":"15c36921-39f8-50b2-a0f2-b97920b4a0d5","identity_status":"unresolved","identity_evidence":"The common name and officer rank did not yield two corroborating identifiers beyond the name in the accessible sources reviewed.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 567 for officer identifiers, identity, and pre-OSS chronology.","archival_review_priority":"high"},
+    {"person_id":"7f07d6dd-4bb0-5970-af12-a9f7ee736ddc","identity_status":"unresolved","identity_evidence":"Accessible staged searches did not establish a unique identity for Peter R Oconnell.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 567 for identity and pre-OSS affiliation evidence.","archival_review_priority":"high"},
+    {"person_id":"34cdf085-875d-5708-8a35-b603cf016489","identity_status":"unresolved","identity_evidence":"The uncommon CSP rank and index note 'also AS' were preserved, but accessible searches did not establish a unique external identity or pre-OSS affiliation for Edward V Oconnor.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 568 to interpret CSP and 'also AS' and establish identity and chronology.","archival_review_priority":"critical"},
+    {"person_id":"2332e9f0-5855-528b-b27e-8eea50b1f5d6","identity_status":"unresolved","identity_evidence":"A beautician and cosmetics-sales obituary lead was rejected because the common name lacked a direct OSS bridge and the employment chronology was not established.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 568 for identity and pre-OSS affiliation evidence; do not attribute the rejected obituary namesake.","archival_review_priority":"critical"},
+    {"person_id":"d8748527-cbbd-52e5-9d63-5b2c28e08d70","identity_status":"high_confidence","identity_evidence":"Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 4438206.","manual_review_required":false,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 568 for a named employer or military assignment immediately preceding OSS service.","archival_review_priority":"high"},
+    {"person_id":"28b22932-80fb-52b2-b933-d9ff78eb1186","identity_status":"unresolved","identity_evidence":"The common name and civilian-grade row did not yield a unique external identity in the accessible sources reviewed.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 568 for identity, grade context, and pre-OSS affiliation evidence.","archival_review_priority":"high"},
+    {"person_id":"7937e743-492d-5d36-b618-df8cff99982c","identity_status":"unresolved","identity_evidence":"A Veterans Affairs memorial lead for a World War II staff sergeant was rejected because the common name, incompatible rank detail, and lack of a second identifier did not bridge it to the indexed technical sergeant.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 568 for identity and service evidence; do not merge the rejected memorial namesake.","archival_review_priority":"critical"},
+    {"person_id":"98277239-aeb3-5cec-8996-ba5dcae55162","identity_status":"unresolved","identity_evidence":"The common name and officer rank did not yield two corroborating identifiers beyond the name in accessible sources.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 568 for officer identifiers and pre-OSS chronology.","archival_review_priority":"high"},
+    {"person_id":"44d6bc85-ab48-5d31-87e2-d0aa2709d71a","identity_status":"unresolved","identity_evidence":"Accessible staged searches did not establish a unique identity for Vincent Oconnor.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 568 for identity and pre-OSS affiliation evidence.","archival_review_priority":"high"},
+    {"person_id":"b59c8731-6e90-5845-9f50-80ef38dce6a5","identity_status":"unresolved","identity_evidence":"Accessible staged searches did not establish a unique identity for William F Oconnor.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 568 for identity and pre-OSS affiliation evidence.","archival_review_priority":"high"},
+    {"person_id":"7932ac0e-b256-52ec-90da-fa1dd8fe92b8","identity_status":"unresolved","identity_evidence":"The visually verified index spelling Oconor and abbreviated officer identifier were preserved, but accessible sources did not establish a unique external identity.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 568 for the colonel's full officer identifier, spelling variants, and pre-OSS chronology.","archival_review_priority":"critical"},
+    {"person_id":"eccc8f25-7ae0-5acd-a069-4b974f2c1c3c","identity_status":"high_confidence","identity_evidence":"The distinctive exact name is corroborated across the OSS index, a wartime War Relocation Authority roster, and a Los Angeles Times obituary; the roster and obituary independently name siblings Frank, Kazume, and Lillian.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 568 for the path from the documented wartime relocation-center household to OSS service and for any named pre-OSS employer or assignment.","archival_review_priority":"critical","name_variants":["Miyoji Moe Oda"]},
+    {"person_id":"121df7ce-e69c-5858-ba2e-f1519903167f","identity_status":"probable","identity_evidence":"The unusual exact name and Army lieutenant status agree with a Veterans Affairs-derived national-cemetery transcription, but no protected identifier or direct OSS linkage was available.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 568 to test the probable cemetery identity and establish pre-OSS employment or military chronology.","archival_review_priority":"critical"},
+    {"person_id":"028a8bc0-8b5c-5157-9a39-62c7c3fb21dd","identity_status":"high_confidence","identity_evidence":"Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 3599782.","manual_review_required":false,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 568 for a named employer or military assignment immediately preceding OSS service.","archival_review_priority":"high"},
+    {"person_id":"42f2b3d0-7b9d-595a-958c-f0f3ba2e48fd","identity_status":"unresolved","identity_evidence":"The common name and officer rank did not yield two corroborating identifiers beyond the name in the accessible sources reviewed.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 568 for officer identifiers, identity, and pre-OSS chronology.","archival_review_priority":"high"},
+    {"person_id":"7c6a0a4a-8430-5344-b608-9a0d70d7c2bf","identity_status":"high_confidence","identity_evidence":"Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 8194387; the Army record's 1946 entry date is identity evidence only.","manual_review_required":false,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 568 for the pre-OSS chronology; do not treat the post-OSS 1946 Army entry as a prior affiliation.","archival_review_priority":"high"},
+    {"person_id":"5a6b917e-fe32-5c71-bb87-806e3404e619","identity_status":"unresolved","identity_evidence":"A rare-name 1941 Gloucester directory lead identifies a John F Odeneal as a student, and a later library authority record gives a matching 1920 birth year for an author, but neither source directly bridges the indexed OSS row to that person.","manual_review_required":true,"research_status":"no_reliable_result_after_protocol","next_action":"Inspect Box 568 before attributing the 1941 student-status lead or later authorship to the indexed person.","archival_review_priority":"critical"}
+  ],
+  "research_attempts": [
+    {"key":"joseph-p-obuckley-protocol-b713","person_id":"7d95f3f8-0360-5a17-8c08-1dc61ea872e0","source_adapter":"manual_staged_protocol","query_text":"NARA index; CIA and Library of Congress checks; exact-name and meaningful variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches","query_variant_type":"full_protocol_common_or_incomplete","started_at":"2026-10-03T22:20:00-04:00","completed_at":"2026-10-03T23:45:00-04:00","outcome":"no_result","sources_reviewed":4,"candidate_sources_rejected":3,"rejection_reasons":"Genealogy and common-name results lacked authoritative identity evidence, an OSS bridge, and relevant employment chronology.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 567 for identity and pre-OSS affiliation evidence.","attempt_number":1,"research_agent_version":"before-oss-b713-v1"},
+    {"key":"elvera-a-obusen-protocol-b713","person_id":"fc8d882c-7344-5547-9e79-ecabaff9ee84","source_adapter":"manual_staged_protocol","query_text":"NARA index; CIA and Library of Congress checks; exact-name and meaningful variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches","query_variant_type":"full_protocol_common_or_incomplete","started_at":"2026-10-03T22:20:00-04:00","completed_at":"2026-10-03T23:45:00-04:00","outcome":"no_result","sources_reviewed":4,"candidate_sources_rejected":3,"rejection_reasons":"Accessible results did not provide a unique identity, direct OSS link, or named pre-OSS employer.","research_notes":"The Caf-2 grade is preserved but not expanded into an employer claim.","next_action":"Inspect Box 567 for identity, grade context, and pre-OSS affiliation evidence.","attempt_number":1,"research_agent_version":"before-oss-b713-v1"},
+    {"key":"joseph-f-ochnat-protocol-b713","person_id":"864538f2-12c9-58ac-9dc0-f34006ac0b25","source_adapter":"manual_staged_protocol","query_text":"NARA index; official Army bulk file; CIA and Library of Congress checks; exact-name, identifier, OCR-variant, employer, occupation, obituary, institutional, newspaper, directory, and archival searches","query_variant_type":"full_protocol_conflicting_identity","started_at":"2026-10-03T22:20:00-04:00","completed_at":"2026-10-03T23:45:00-04:00","outcome":"source_reviewed","sources_reviewed":5,"candidate_sources_rejected":4,"rejection_reasons":"The exact protected identifier maps to OCHWAT JOSEPH F rather than indexed Ochnat Joseph F; the material surname conflict prevents merger.","research_notes":"Terminal outcome: conflicting_sources. No employer claim is published.","next_action":"Inspect Box 567 to resolve Ochnat versus OCHWAT.","attempt_number":1,"research_agent_version":"before-oss-b713-v1"},
+    {"key":"joseph-s-ochranek-protocol-b713","person_id":"365e5b7c-2aac-59a3-bd5b-18ad359c205a","source_adapter":"manual_staged_protocol","query_text":"NARA index; official Army bulk file; CIA and Library of Congress checks; exact-name and suffix variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches","query_variant_type":"full_protocol_distinctive","started_at":"2026-10-03T22:20:00-04:00","completed_at":"2026-10-03T23:45:00-04:00","outcome":"source_reviewed","sources_reviewed":5,"candidate_sources_rejected":3,"rejection_reasons":"The official Army identity match is accepted; a Maryland death-index corroboration and other results supplied no named pre-OSS employer or defensible immediate chronology.","research_notes":"Army occupation codes were not used as employment evidence.","next_action":"Inspect Box 567 for a named employer or military assignment immediately preceding OSS service.","attempt_number":1,"research_agent_version":"before-oss-b713-v1"},
+    {"key":"blanche-oconnell-protocol-b713","person_id":"94a59f88-05e6-5dc3-b920-42bef32ef74b","source_adapter":"manual_staged_protocol","query_text":"NARA index; CIA and Library of Congress checks; exact-name, apostrophe, and punctuation variants; OSS, employer, occupation, obituary, institutional, newspaper, directory, and archival searches","query_variant_type":"full_protocol_common_or_incomplete","started_at":"2026-10-03T22:20:00-04:00","completed_at":"2026-10-03T23:45:00-04:00","outcome":"no_result","sources_reviewed":4,"candidate_sources_rejected":4,"rejection_reasons":"Common-name results lacked corroborating identifiers, a direct OSS link, and relevant chronology.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 567 for identity and pre-OSS affiliation evidence.","attempt_number":1,"research_agent_version":"before-oss-b713-v1"},
+    {"key":"daniel-j-oconnell-protocol-b713","person_id":"517a5d9d-d610-5d14-8d85-48674c83c325","source_adapter":"manual_staged_protocol","query_text":"NARA index; official Army bulk file; CIA and Library of Congress checks; exact-name and punctuation variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches","query_variant_type":"full_protocol_distinctive","started_at":"2026-10-03T22:20:00-04:00","completed_at":"2026-10-03T23:45:00-04:00","outcome":"source_reviewed","sources_reviewed":5,"candidate_sources_rejected":4,"rejection_reasons":"The official Army identity match is accepted. An obituary lead for a person born in 1930 is chronologically impossible for this OSS row and was rejected.","research_notes":"No reliable pre-OSS employer has yet been identified. Army occupation codes were not used as employment evidence.","next_action":"Inspect Box 567 for a named employer or military assignment immediately preceding OSS service.","attempt_number":1,"research_agent_version":"before-oss-b713-v1"},
+    {"key":"james-l-oconnell-protocol-b713","person_id":"15c36921-39f8-50b2-a0f2-b97920b4a0d5","source_adapter":"manual_staged_protocol","query_text":"NARA index; CIA and Library of Congress checks; exact-name, rank, identifier, and punctuation variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches","query_variant_type":"full_protocol_common_or_incomplete","started_at":"2026-10-03T22:20:00-04:00","completed_at":"2026-10-03T23:45:00-04:00","outcome":"no_result","sources_reviewed":4,"candidate_sources_rejected":5,"rejection_reasons":"Common-name officer candidates lacked two corroborating identifiers beyond the name and rank.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 567 for officer identifiers, identity, and pre-OSS chronology.","attempt_number":1,"research_agent_version":"before-oss-b713-v1"},
+    {"key":"peter-r-oconnell-protocol-b713","person_id":"7f07d6dd-4bb0-5970-af12-a9f7ee736ddc","source_adapter":"manual_staged_protocol","query_text":"NARA index; CIA and Library of Congress checks; exact-name, rank, identifier, and punctuation variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches","query_variant_type":"full_protocol_common_or_incomplete","started_at":"2026-10-03T22:20:00-04:00","completed_at":"2026-10-03T23:45:00-04:00","outcome":"no_result","sources_reviewed":4,"candidate_sources_rejected":4,"rejection_reasons":"Accessible results lacked corroborating identifiers, a direct OSS link, and relevant chronology.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 567 for identity and pre-OSS affiliation evidence.","attempt_number":1,"research_agent_version":"before-oss-b713-v1"},
+    {"key":"edward-v-oconnor-protocol-b713","person_id":"34cdf085-875d-5708-8a35-b603cf016489","source_adapter":"manual_staged_protocol","query_text":"NARA index; CIA and Library of Congress checks; exact-name, CSP, AS, identifier, and punctuation variants; OSS, employer, occupation, military, institutional, newspaper, directory, and archival searches","query_variant_type":"full_protocol_common_or_incomplete","started_at":"2026-10-03T22:20:00-04:00","completed_at":"2026-10-03T23:45:00-04:00","outcome":"no_result","sources_reviewed":4,"candidate_sources_rejected":5,"rejection_reasons":"Searches did not establish the meaning of CSP or 'also AS' for this person, and common-name results lacked unique identifiers.","research_notes":"The source abbreviations remain unexpanded and no employer is inferred.","next_action":"Inspect Box 568 to interpret CSP and 'also AS' and establish identity and chronology.","attempt_number":1,"research_agent_version":"before-oss-b713-v1"},
+    {"key":"evelyn-f-oconnor-protocol-b713","person_id":"2332e9f0-5855-528b-b27e-8eea50b1f5d6","source_adapter":"manual_staged_protocol","query_text":"NARA index; CIA and Library of Congress checks; exact-name, grade, and punctuation variants; OSS, employer, occupation, obituary, institutional, newspaper, directory, and archival searches","query_variant_type":"full_protocol_common_or_incomplete","started_at":"2026-10-03T22:20:00-04:00","completed_at":"2026-10-03T23:45:00-04:00","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":5,"rejection_reasons":"A beautician and cosmetics-sales obituary lead lacked an OSS bridge and defensible employment chronology; other candidates were common-name noise.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 568 for identity and pre-OSS affiliation evidence.","attempt_number":1,"research_agent_version":"before-oss-b713-v1"},
+    {"key":"john-a-oconnor-protocol-b713","person_id":"d8748527-cbbd-52e5-9d63-5b2c28e08d70","source_adapter":"manual_staged_protocol","query_text":"NARA index; official Army bulk file; CIA and Library of Congress checks; exact-name and punctuation variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches","query_variant_type":"full_protocol_distinctive","started_at":"2026-10-03T22:20:00-04:00","completed_at":"2026-10-03T23:45:00-04:00","outcome":"source_reviewed","sources_reviewed":5,"candidate_sources_rejected":4,"rejection_reasons":"The official Army identity match is accepted; other accessible results did not establish a named employer or immediate pre-OSS chronology.","research_notes":"Army occupation codes were not used as employment evidence.","next_action":"Inspect Box 568 for a named employer or military assignment immediately preceding OSS service.","attempt_number":1,"research_agent_version":"before-oss-b713-v1"},
+    {"key":"joseph-a-oconnor-protocol-b713","person_id":"28b22932-80fb-52b2-b933-d9ff78eb1186","source_adapter":"manual_staged_protocol","query_text":"NARA index; CIA and Library of Congress checks; exact-name, grade, and punctuation variants; OSS, employer, occupation, obituary, institutional, newspaper, directory, and archival searches","query_variant_type":"full_protocol_common_or_incomplete","started_at":"2026-10-03T22:20:00-04:00","completed_at":"2026-10-03T23:45:00-04:00","outcome":"no_result","sources_reviewed":4,"candidate_sources_rejected":4,"rejection_reasons":"Common-name results lacked corroborating identifiers, a direct OSS link, and relevant chronology.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 568 for identity, grade context, and pre-OSS affiliation evidence.","attempt_number":1,"research_agent_version":"before-oss-b713-v1"},
+    {"key":"raymond-r-oconnor-protocol-b713","person_id":"7937e743-492d-5d36-b618-df8cff99982c","source_adapter":"manual_staged_protocol","query_text":"NARA index; CIA and Library of Congress checks; exact-name, rank, and punctuation variants; OSS, employer, occupation, obituary, Veterans Affairs, institutional, newspaper, directory, and archival searches","query_variant_type":"full_protocol_common_or_incomplete","started_at":"2026-10-03T22:20:00-04:00","completed_at":"2026-10-03T23:45:00-04:00","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":5,"rejection_reasons":"A Veterans Affairs memorial namesake carried staff-sergeant rather than technical-sergeant detail and no second identifier; other results were common-name noise.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 568 for identity and service evidence.","attempt_number":1,"research_agent_version":"before-oss-b713-v1"},
+    {"key":"robert-c-oconnor-protocol-b713","person_id":"98277239-aeb3-5cec-8996-ba5dcae55162","source_adapter":"manual_staged_protocol","query_text":"NARA index; CIA and Library of Congress checks; exact-name, rank, identifier, and punctuation variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches","query_variant_type":"full_protocol_common_or_incomplete","started_at":"2026-10-03T22:20:00-04:00","completed_at":"2026-10-03T23:45:00-04:00","outcome":"no_result","sources_reviewed":4,"candidate_sources_rejected":5,"rejection_reasons":"Common-name officer candidates lacked two corroborating identifiers beyond the name and rank.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 568 for officer identifiers and pre-OSS chronology.","attempt_number":1,"research_agent_version":"before-oss-b713-v1"},
+    {"key":"vincent-oconnor-protocol-b713","person_id":"44d6bc85-ab48-5d31-87e2-d0aa2709d71a","source_adapter":"manual_staged_protocol","query_text":"NARA index; CIA and Library of Congress checks; exact-name and punctuation variants; OSS, employer, occupation, obituary, institutional, newspaper, directory, and archival searches","query_variant_type":"full_protocol_common_or_incomplete","started_at":"2026-10-03T22:20:00-04:00","completed_at":"2026-10-03T23:45:00-04:00","outcome":"no_result","sources_reviewed":4,"candidate_sources_rejected":4,"rejection_reasons":"Accessible results lacked corroborating identifiers, a direct OSS link, and relevant chronology.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 568 for identity and pre-OSS affiliation evidence.","attempt_number":1,"research_agent_version":"before-oss-b713-v1"},
+    {"key":"william-f-oconnor-protocol-b713","person_id":"b59c8731-6e90-5845-9f50-80ef38dce6a5","source_adapter":"manual_staged_protocol","query_text":"NARA index; CIA and Library of Congress checks; exact-name and punctuation variants; OSS, employer, occupation, obituary, institutional, newspaper, directory, and archival searches","query_variant_type":"full_protocol_common_or_incomplete","started_at":"2026-10-03T22:20:00-04:00","completed_at":"2026-10-03T23:45:00-04:00","outcome":"no_result","sources_reviewed":4,"candidate_sources_rejected":4,"rejection_reasons":"Accessible results lacked corroborating identifiers, a direct OSS link, and relevant chronology.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 568 for identity and pre-OSS affiliation evidence.","attempt_number":1,"research_agent_version":"before-oss-b713-v1"},
+    {"key":"james-g-oconor-protocol-b713","person_id":"7932ac0e-b256-52ec-90da-fa1dd8fe92b8","source_adapter":"manual_staged_protocol","query_text":"NARA index; CIA and Library of Congress checks; exact indexed spelling, O'Connor variants, rank, and officer-identifier searches; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches","query_variant_type":"full_protocol_common_or_incomplete","started_at":"2026-10-03T22:20:00-04:00","completed_at":"2026-10-03T23:45:00-04:00","outcome":"no_result","sources_reviewed":4,"candidate_sources_rejected":5,"rejection_reasons":"Officer-name candidates lacked a full identifier or two corroborating facts; the six-digit private value was not padded or forced into an enlisted-file search.","research_notes":"The index spelling Oconor is preserved and no namesake biography is assigned.","next_action":"Inspect Box 568 for the colonel's full identifier, spelling variants, and pre-OSS chronology.","attempt_number":1,"research_agent_version":"before-oss-b713-v1"},
+    {"key":"miyoji-oda-protocol-b713","person_id":"eccc8f25-7ae0-5acd-a069-4b974f2c1c3c","source_adapter":"manual_staged_protocol","query_text":"NARA index; CIA and Library of Congress checks; exact-name OSS, employer, occupation, obituary, War Relocation Authority, institutional, newspaper, directory, and archival searches","query_variant_type":"full_protocol_distinctive","started_at":"2026-10-03T22:20:00-04:00","completed_at":"2026-10-03T23:45:00-04:00","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":3,"rejection_reasons":"The WRA roster and obituary establish identity through matching siblings but neither establishes an employer or the immediate transition into OSS; unrelated Oda results were rejected.","research_notes":"Identity is high confidence. The documented relocation-center status is not converted into employment.","next_action":"Inspect Box 568 for the path into OSS and any named pre-OSS employer or assignment.","attempt_number":1,"research_agent_version":"before-oss-b713-v1"},
+    {"key":"gabriel-odalovich-protocol-b713","person_id":"121df7ce-e69c-5858-ba2e-f1519903167f","source_adapter":"manual_staged_protocol","query_text":"NARA index; CIA and Library of Congress checks; exact-name, rank, identifier, Veterans Affairs, obituary, employer, occupation, institutional, newspaper, directory, and archival searches","query_variant_type":"full_protocol_distinctive","started_at":"2026-10-03T22:20:00-04:00","completed_at":"2026-10-03T23:45:00-04:00","outcome":"source_reviewed","sources_reviewed":5,"candidate_sources_rejected":3,"rejection_reasons":"A VA-derived cemetery transcription gives the unusual exact name and compatible rank but no protected identifier, OSS link, employer, or transition chronology.","research_notes":"Identity remains probable and visibly qualified; no employer claim is made.","next_action":"Inspect Box 568 to test the probable cemetery identity and establish pre-OSS chronology.","attempt_number":1,"research_agent_version":"before-oss-b713-v1"},
+    {"key":"joseph-j-oddo-protocol-b713","person_id":"028a8bc0-8b5c-5157-9a39-62c7c3fb21dd","source_adapter":"manual_staged_protocol","query_text":"NARA index; official Army bulk file; CIA and Library of Congress checks; exact-name and identifier variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches","query_variant_type":"full_protocol_distinctive","started_at":"2026-10-03T22:20:00-04:00","completed_at":"2026-10-03T23:45:00-04:00","outcome":"source_reviewed","sources_reviewed":5,"candidate_sources_rejected":4,"rejection_reasons":"The official Army identity match is accepted; obituary and genealogy leads supplied no attributable pre-OSS employer or immediate chronology.","research_notes":"Army occupation codes were not used as employment evidence.","next_action":"Inspect Box 568 for a named employer or military assignment immediately preceding OSS service.","attempt_number":1,"research_agent_version":"before-oss-b713-v1"},
+    {"key":"john-a-odea-protocol-b713","person_id":"42f2b3d0-7b9d-595a-958c-f0f3ba2e48fd","source_adapter":"manual_staged_protocol","query_text":"NARA index; CIA and Library of Congress checks; exact-name, rank, identifier, O'Dea, and punctuation variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches","query_variant_type":"full_protocol_common_or_incomplete","started_at":"2026-10-03T22:20:00-04:00","completed_at":"2026-10-03T23:45:00-04:00","outcome":"no_result","sources_reviewed":4,"candidate_sources_rejected":5,"rejection_reasons":"Common-name officer candidates lacked two corroborating identifiers beyond the name and rank.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 568 for officer identifiers, identity, and pre-OSS chronology.","attempt_number":1,"research_agent_version":"before-oss-b713-v1"},
+    {"key":"william-k-odell-protocol-b713","person_id":"7c6a0a4a-8430-5344-b608-9a0d70d7c2bf","source_adapter":"manual_staged_protocol","query_text":"NARA index; official Army bulk file; CIA and Library of Congress checks; exact-name and identifier variants; OSS, employer, occupation, obituary, military, institutional, newspaper, directory, and archival searches","query_variant_type":"full_protocol_distinctive","started_at":"2026-10-03T22:20:00-04:00","completed_at":"2026-10-03T23:45:00-04:00","outcome":"source_reviewed","sources_reviewed":5,"candidate_sources_rejected":4,"rejection_reasons":"The official Army identity match is accepted. Its 1946 entry date is post-OSS and supplies no pre-OSS employer or pathway evidence.","research_notes":"Postwar Army data are used only for identity; occupation codes were not used as employment evidence.","next_action":"Inspect Box 568 for the actual pre-OSS chronology.","attempt_number":1,"research_agent_version":"before-oss-b713-v1"},
+    {"key":"john-f-odeneal-protocol-b713","person_id":"5a6b917e-fe32-5c71-bb87-806e3404e619","source_adapter":"manual_staged_protocol","query_text":"NARA index; CIA and Library of Congress checks; exact-name OSS, employer, occupation, obituary, Gloucester directory, library authority, institutional, newspaper, and archival searches","query_variant_type":"full_protocol_distinctive","started_at":"2026-10-03T22:20:00-04:00","completed_at":"2026-10-03T23:45:00-04:00","outcome":"no_result","sources_reviewed":6,"candidate_sources_rejected":4,"rejection_reasons":"A 1941 Gloucester directory student entry and a later author authority record with birth year 1920 are plausible rare-name leads, but neither directly links that person to the OSS index row.","research_notes":"The student lead remains unpublished pending direct identity evidence; no institution or employer is inferred.","next_action":"Inspect Box 568 before attributing the 1941 student lead or later authorship.","attempt_number":1,"research_agent_version":"before-oss-b713-v1"}
+  ]
+}
