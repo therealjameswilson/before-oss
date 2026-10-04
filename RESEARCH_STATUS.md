@@ -1,34 +1,34 @@
 # Research status
 
-Batch 727 completed PDF page 354, rows 1-23, from **Emily L Owens** through
-**Don S Packer**, with a saved terminal outcome for all 23 people. Axel H
-Oxholm has a qualified medium-confidence last-civilian-employer claim at
-Pacific Forest Industries in June 1942. Ned K Owyang is linked at high
-confidence to Ned Ke-Hung Owyang and has documented 1942 student status at
-Tri-State College, not employment. André Pacatte has a qualified prewar
-Berlitz affiliation while the Washington/Cleveland role discrepancy and the
-Pacatte/Pagatte shared-identifier conflict remain explicit. Henry S Pachowicz
-and George J Packard Jr retain separate official-record conflicts; no
-mismatched metadata is transferred. Eighteen people have
-`requires_archival_review`, two have `documented_prewar_employer_found`, two
-have `conflicting_sources`, and one has `occupation_only_found`. The
-oil-company category remains evidence-scoped to **nine people across 11
-historically named companies**. See `research/batch-727-progress.md`. No
-authenticated NARA Catalog request was made.
+Batch 728 completed PDF page 354, rows 24-46, from **Charles H Padden** through
+**Wellman Page**, with a saved terminal outcome for all 23 people. Henry M
+Paechter is linked at high confidence to Henry M. Pachter, born Heinz
+Maximilian Paechter, and has high-confidence documented 1930-1933
+self-employment as a freelance writer and lecturer. Joseph Padula is linked at
+high confidence through exact official records and an independent OSS Simcol
+roster, but that wartime assignment is not treated as a pre-OSS employer. Saul
+K Padover retains his previously reviewed Department of the Interior
+affiliation. The Vincent A Pado/Pade Jr and Andre R Pagatte/Pacatte conflicts
+remain explicit, while seven accepted Army matches establish identity only.
+Nineteen people have `requires_archival_review`, two have
+`conflicting_sources`, one has `documented_prewar_employer_found`, and one
+retains `verified_employer_found`. The oil-company category remains
+evidence-scoped to **nine people across 11 historically named companies**. See
+`research/batch-728-progress.md`. No authenticated NARA Catalog request was
+made.
 
 Current SQLite has **23,978/23,978** linked source rows and **23,939** active
-people. Research-attempt coverage is **9,758/23,939 (40.7619%)**;
-verified-employer coverage is **330/23,939 (1.3785%)**;
-verified-affiliation coverage is **738/23,939 (3.0828%)**; archival-review
-coverage is **8,216/23,939 (34.3206%)**. There are **14,176** `not_started`
-people and **523** possible-duplicate groups. SQLite retains **17,792**
-attempts or plans and **6,260** claims: 1,370 confirmed, 2,887 high, 1,524
-medium, 198 low, 279 conflicting, and two unresolved. It has **5,661**
-citation records and **2,857** unique source documents. The public projection
-has **2,471** affiliations, **858** organizations, **4,442** sources, and
-**6,053** claims. Full-index historical research remains unfinished. The next
-boundary is PDF page 354, rows 24-46, from Charles H Padden through Wellman
-Page.
+people. Research-attempt coverage is **9,780/23,939 (40.8538%)**;
+verified-employer coverage is **331/23,939 (1.3827%)**;
+verified-affiliation coverage is **739/23,939 (3.0870%)**; archival-review
+coverage is **8,238/23,939 (34.4125%)**. There are **14,154** `not_started`
+people and **523** possible-duplicate groups. SQLite retains **17,840**
+attempts or plans and **6,271** claims: 1,370 confirmed, 2,896 high, 1,524
+medium, 198 low, 281 conflicting, and two unresolved. It has **5,665**
+citation records and **2,859** unique source documents. The public projection
+has **2,472** affiliations, **858** organizations, **4,446** sources, and
+**6,064** claims. Full-index historical research remains unfinished. The next
+boundary is PDF page 355, rows 1-23, from William R Page through George Pallay.
 
 Batch 694 completed PDF page 337, rows 23-45, from **Errol M Nakao** through
 **John S Nash**, with a saved terminal outcome for all 23 people. Ann Nash is a

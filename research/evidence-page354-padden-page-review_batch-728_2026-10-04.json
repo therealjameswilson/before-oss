@@ -1,0 +1,339 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 728 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b728",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 580",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 354, rows 24-46; visually checked against a 300 dpi render",
+      "access_date": "2026-10-04",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Original spellings, ranks, notes, box, and locations are preserved. Full service and officer identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b728",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department. Adjutant General's Office",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946",
+      "locator": "Bulk ordinals 679616, 979315, 1528812, 2786789, 3449939, 3508252, 4587471, and 8606967",
+      "access_date": "2026-10-04",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Selective Service System, Record Group 147",
+      "rights_notes": "Protected identifiers, coded occupations, and raw bulk rows are not published or retained."
+    },
+    {
+      "key": "ualbany-pachter-b728",
+      "stable_url": "https://archives.albany.edu/description/catalog/ger071",
+      "archival_identifier": "Collection ger071",
+      "title": "Henry M. Pachter (Heinz Paechter) Papers, 1907-1987",
+      "author_creator": "M.E. Grenander Department of Special Collections and Archives",
+      "repository_publisher": "University at Albany, State University of New York",
+      "locator": "Biographical/historical note and chronology, lines for 1930-1933 and 1941-1945",
+      "access_date": "2026-10-04",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Henry M. Pachter Papers, 1907-1987",
+      "rights_notes": "Only short supporting excerpts and project-authored paraphrases are published."
+    },
+    {
+      "key": "ossog-simcol-b728",
+      "stable_url": "https://ossog.info/italy/simcol.html",
+      "archival_identifier": "NARA RG 226, Entry 143, Box 9, pages 35-66",
+      "title": "Office of Strategic Services Operational Groups: Simcol",
+      "author_creator": "Summary compiled by Albert Materazzi",
+      "repository_publisher": "OSS Operational Groups",
+      "publication_record_date": "undated",
+      "locator": "Simcol mission summary and personnel roster; Joseph Padula entry",
+      "access_date": "2026-10-04",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "OSS Operational Groups: Italian missions",
+      "rights_notes": "The roster points to the final reports in NARA RG 226, Entry 143, Box 9; it is used for identity corroboration, not employment."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "self-employed-b728",
+      "organization_id": "2d0f4eae-d528-5d59-8b11-6660b1e4fa4a",
+      "canonical_name": "Self-employed",
+      "historical_name": "Self-employed",
+      "aliases": [],
+      "organization_type": "self-employment",
+      "sector": "self_employed",
+      "normalization_notes": "Used only when a source documents independent work without a named employing organization."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "henry-pachter-freelance-b728",
+      "person_id": "b02ffee4-39ee-5f1d-ac26-9d5166780ac6",
+      "organization_key": "self-employed-b728",
+      "organization_name_as_found": "free-lance writer",
+      "role_title": "Freelance writer and lecturer",
+      "occupation": "writer and lecturer",
+      "relationship_type": "self_employment",
+      "start_date": "1930",
+      "end_date": "1933",
+      "date_precision": "The institutional finding aid dates freelance writing and lecturing to 1930-1933; later exile and wartime affiliations intervene before OSS service.",
+      "city": "Berlin",
+      "country": "Germany",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Published only as earlier documented pre-OSS self-employment. The overlapping OWI and OSS chronology does not establish an immediate predecessor."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-fred-m-padgett-b728",
+      "person_id": "9e4a04bf-4c6f-52cc-9de0-ca3f41b0a783",
+      "claim_type": "identity",
+      "claim_text": "The indexed Fred M Padgett is linked at high confidence to the same person in the official Army bulk record.",
+      "evidence_paraphrase": "The indexed and Army rows agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact name and nonshared protected-identifier agreement in two official NARA sources.",
+      "temporal_assessment": "The Army row documents wartime entry but not a named employer or OSS transfer chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity only; coded occupation data are not converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b728", "support_type": "supports", "locator_override": "PDF page 354, row 25"},
+        {"source_key": "army-bulk-b728", "support_type": "supports", "locator_override": "Bulk record ordinal 1528812"}
+      ]
+    },
+    {
+      "key": "identity-harold-e-padgett-b728",
+      "person_id": "dd88d672-eb28-53b4-9d05-24088248e78e",
+      "claim_type": "identity",
+      "claim_text": "The indexed Harold E Padgett is linked at high confidence to the same person in the official Army bulk record.",
+      "evidence_paraphrase": "The indexed and Army rows agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact name and nonshared protected-identifier agreement in two official NARA sources.",
+      "temporal_assessment": "The Army row documents wartime entry but not a named employer or OSS transfer chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity only; a 1937 directory namesake is rejected because it lacks a corroborating identifier.",
+      "sources": [
+        {"source_key": "nara-index-b728", "support_type": "supports", "locator_override": "PDF page 354, row 26"},
+        {"source_key": "army-bulk-b728", "support_type": "supports", "locator_override": "Bulk record ordinal 8606967"}
+      ]
+    },
+    {
+      "key": "conflict-vincent-a-pado-b728",
+      "person_id": "caaea89e-a840-5780-8121-fddff9a32e81",
+      "claim_type": "identity",
+      "claim_text": "The official Army row associated with the indexed identifier names Vincent A Pade Jr rather than Vincent A Pado.",
+      "evidence_paraphrase": "The protected identifier agrees, but the surname spelling and suffix differ; the records remain in conflict pending file review.",
+      "identity_match_assessment": "Conflicting because official sources disagree on surname spelling and the Army row adds a suffix.",
+      "temporal_assessment": "No employment or chronology is transferred from the conflicted Army row.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The full identifier and coded occupation remain private.",
+      "sources": [
+        {"source_key": "nara-index-b728", "support_type": "supports", "locator_override": "PDF page 354, row 28"},
+        {"source_key": "army-bulk-b728", "support_type": "contradicts", "locator_override": "Bulk record ordinal 679616"}
+      ]
+    },
+    {
+      "key": "identity-joseph-padula-b728",
+      "person_id": "6bc751d1-53ad-5d76-a08c-c71392748fb3",
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph Padula is linked at high confidence to the Army record and the T5 Joseph Padula on the OSS Simcol roster.",
+      "evidence_excerpt": "T5 Joseph Padula",
+      "evidence_paraphrase": "Official name-and-identifier agreement is independently corroborated by a wartime OSS operational-groups roster.",
+      "identity_match_assessment": "High confidence from exact official name and nonshared identifier agreement plus matching T5 rank in the distinctive OSS roster context.",
+      "temporal_assessment": "The sources establish wartime identity and OSS assignment, not a pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Simcol roster points to NARA final reports; no operational assignment is mislabeled as prior employment.",
+      "sources": [
+        {"source_key": "nara-index-b728", "support_type": "supports", "locator_override": "PDF page 354, row 30; T-4 as indexed"},
+        {"source_key": "army-bulk-b728", "support_type": "supports", "locator_override": "Bulk record ordinal 3508252"},
+        {"source_key": "ossog-simcol-b728", "support_type": "supports", "locator_override": "Personnel roster; T5 Joseph Padula", "excerpt_override": "T5 Joseph Padula"}
+      ]
+    },
+    {
+      "key": "identity-henry-m-paechter-b728",
+      "person_id": "b02ffee4-39ee-5f1d-ac26-9d5166780ac6",
+      "claim_type": "identity",
+      "claim_text": "The indexed Henry M Paechter is linked at high confidence to historian Henry M. Pachter, born Heinz Maximilian Paechter.",
+      "evidence_excerpt": "Henry M. Pachter was born Heinz Maximilian Paechter",
+      "evidence_paraphrase": "The institutional finding aid supplies the exact birth name and states that Pachter worked for the OSS in the early 1940s.",
+      "identity_match_assessment": "High confidence from the exact original surname, matching given name and middle initial, and explicit OSS association in an authoritative archival finding aid.",
+      "temporal_assessment": "The finding aid places his OWI and OSS work in 1941-1945 but does not order the overlapping appointments precisely.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Henry M. Pachter and Heinz Maximilian Paechter are published as documented variants; the index spelling remains primary source wording.",
+      "sources": [
+        {"source_key": "nara-index-b728", "support_type": "supports", "locator_override": "PDF page 354, row 31"},
+        {"source_key": "ualbany-pachter-b728", "support_type": "supports", "locator_override": "Biographical note and chronology", "excerpt_override": "Henry M. Pachter was born Heinz Maximilian Paechter"}
+      ]
+    },
+    {
+      "key": "freelance-henry-pachter-b728",
+      "person_id": "b02ffee4-39ee-5f1d-ac26-9d5166780ac6",
+      "affiliation_key": "henry-pachter-freelance-b728",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Henry M. Pachter worked as a freelance writer and lecturer in Berlin from 1930 through 1933.",
+      "evidence_excerpt": "Worked as a free-lance writer and lectured",
+      "evidence_paraphrase": "The University at Albany finding aid dates Pachter's independent writing and lecturing to 1930-1933.",
+      "identity_match_assessment": "High confidence from the exact birth-name and OSS identity bridge in the same institutional finding aid.",
+      "temporal_assessment": "Documented prewar work, but not the immediate pre-OSS affiliation because exile and later wartime work intervened.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Modeled as self-employment because no employing organization is named; not marked immediate or last civilian employment.",
+      "sources": [
+        {"source_key": "ualbany-pachter-b728", "support_type": "supports", "locator_override": "Chronology entry for 1930-1933", "excerpt_override": "Worked as a free-lance writer and lectured"}
+      ]
+    },
+    {
+      "key": "identity-joseph-m-pagano-b728",
+      "person_id": "2766b9e4-b2fc-5a24-95f1-ed9476b80fc4",
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph M Pagano is linked at high confidence to the same person in the official Army bulk record.",
+      "evidence_paraphrase": "The indexed and Army rows agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact name and nonshared protected-identifier agreement in two official NARA sources.",
+      "temporal_assessment": "The Army row documents wartime entry but not a named employer or OSS transfer chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity only; common-name biographies and coded occupation data are not transferred.",
+      "sources": [
+        {"source_key": "nara-index-b728", "support_type": "supports", "locator_override": "PDF page 354, row 33"},
+        {"source_key": "army-bulk-b728", "support_type": "supports", "locator_override": "Bulk record ordinal 3449939"}
+      ]
+    },
+    {
+      "key": "conflict-andre-r-pagatte-b728",
+      "person_id": "57c9d8fc-59dc-533f-9652-b2f7f0705b7a",
+      "claim_type": "identity",
+      "claim_text": "The private identifier printed for Andre R Pagatte is also printed for the separate Andre R Pacatte index row.",
+      "evidence_paraphrase": "Adjacent official index rows have different surnames but the same protected identifier; they remain separate pending Box 580 review.",
+      "identity_match_assessment": "Conflicting official index evidence; Pacatte's independent biography cannot be transferred to Pagatte.",
+      "temporal_assessment": "No employment chronology is assigned to Pagatte from Pacatte's sources.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The conflict is published without disclosing the full identifier.",
+      "sources": [
+        {"source_key": "nara-index-b728", "support_type": "supports", "locator_override": "PDF page 354, rows 14 and 34"}
+      ]
+    },
+    {
+      "key": "identity-george-k-page-b728",
+      "person_id": "86f1278a-d139-5436-8e0d-c1725ad6573f",
+      "claim_type": "identity",
+      "claim_text": "The indexed George K Page is linked at high confidence to the same person in the official Army bulk record.",
+      "evidence_paraphrase": "The indexed and Army rows agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact name and nonshared protected-identifier agreement in two official NARA sources.",
+      "temporal_assessment": "The Army row documents wartime entry but not a named employer or OSS transfer chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity only; unrelated banking and other namesake biographies are rejected.",
+      "sources": [
+        {"source_key": "nara-index-b728", "support_type": "supports", "locator_override": "PDF page 354, row 38"},
+        {"source_key": "army-bulk-b728", "support_type": "supports", "locator_override": "Bulk record ordinal 4587471"}
+      ]
+    },
+    {
+      "key": "identity-jimmie-page-b728",
+      "person_id": "5beee1c2-facd-550b-bc07-5675126780ad",
+      "claim_type": "identity",
+      "claim_text": "The indexed Jimmie Page is linked at high confidence to the same person in the official Army bulk record.",
+      "evidence_paraphrase": "The indexed and Army rows agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact name and nonshared protected-identifier agreement in two official NARA sources.",
+      "temporal_assessment": "The Army row documents wartime entry but not a named employer or OSS transfer chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity only; modern and unbridged namesake results are rejected.",
+      "sources": [
+        {"source_key": "nara-index-b728", "support_type": "supports", "locator_override": "PDF page 354, row 41"},
+        {"source_key": "army-bulk-b728", "support_type": "supports", "locator_override": "Bulk record ordinal 979315"}
+      ]
+    },
+    {
+      "key": "identity-keith-a-page-b728",
+      "person_id": "b914d48c-035a-5b64-98f1-29f818fcd966",
+      "claim_type": "identity",
+      "claim_text": "The indexed Keith A Page is linked at high confidence to the same person in the official Army bulk record.",
+      "evidence_paraphrase": "The indexed and Army rows agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact name and nonshared protected-identifier agreement in two official NARA sources.",
+      "temporal_assessment": "The Army row documents wartime entry but not a named employer or OSS transfer chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity only; genealogy and modern people-finder results are not used.",
+      "sources": [
+        {"source_key": "nara-index-b728", "support_type": "supports", "locator_override": "PDF page 354, row 42"},
+        {"source_key": "army-bulk-b728", "support_type": "supports", "locator_override": "Bulk record ordinal 2786789"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {"person_id":"58d5b8dd-fbf7-5304-94a5-d0ce242d5b56","identity_status":"unresolved","identity_evidence":"Exact-name, CAF-5, OSS, employer, occupation, obituary, directory, newspaper, and archival searches did not establish a unique identity.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 580 for full name, civilian-grade duties, and pre-OSS chronology.","archival_review_priority":"high"},
+    {"person_id":"9e4a04bf-4c6f-52cc-9de0-ca3f41b0a783","identity_status":"high_confidence","identity_evidence":"Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 1528812.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 580 for last civilian employer and OSS accession chronology.","archival_review_priority":"medium"},
+    {"person_id":"dd88d672-eb28-53b4-9d05-24088248e78e","identity_status":"high_confidence","identity_evidence":"Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 8606967; a 1937 directory namesake is not accepted.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 580 for last civilian employer and OSS accession chronology.","archival_review_priority":"medium"},
+    {"person_id":"1990c01d-a751-5014-a2cb-a37e7b540a66","identity_status":"unresolved","identity_evidence":"Census and genealogy results for the uncommon name lacked a direct OSS bridge and reliable employment chronology.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 580 for identifying evidence and pre-OSS affiliation.","archival_review_priority":"high"},
+    {"person_id":"caaea89e-a840-5780-8121-fddff9a32e81","identity_status":"conflicting","identity_evidence":"The protected identifier agrees with an Army row for Vincent A Pade Jr, but surname spelling and suffix conflict with the indexed Vincent A Pado.","manual_review_required":true,"research_status":"conflicting_sources","next_action":"Inspect Box 580 before transferring any Army metadata.","archival_review_priority":"critical"},
+    {"person_id":"6c04259d-0aaf-5c19-87e9-6fb1d7000112","identity_status":"high_confidence","identity_evidence":"Existing reviewed evidence identifies Saul Kussiel Padover and documents his Department of the Interior employment before OSS.","manual_review_required":true,"research_status":"verified_employer_found","next_action":"Review Box 580 for the exact transfer or appointment date from the Department of the Interior to OSS.","archival_review_priority":"medium"},
+    {"person_id":"6bc751d1-53ad-5d76-a08c-c71392748fb3","identity_status":"high_confidence","identity_evidence":"Exact indexed name and protected identifier agree with the official Army record; an independent OSS roster lists T5 Joseph Padula on the Simcol mission.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 580 and the Simcol final reports for pre-OSS employment and accession chronology.","archival_review_priority":"high"},
+    {"person_id":"b02ffee4-39ee-5f1d-ac26-9d5166780ac6","identity_status":"high_confidence","identity_evidence":"The University at Albany finding aid identifies Henry M. Pachter as Heinz Maximilian Paechter and explicitly documents OSS work.","name_variants":["Henry M. Pachter","Heinz Maximilian Paechter","Henry Maximilian Pachter"],"manual_review_required":true,"research_status":"documented_prewar_employer_found","next_action":"Inspect Box 580 to establish the order and dates of the overlapping OWI and OSS appointments.","archival_review_priority":"high"},
+    {"person_id":"19ec2a67-0ab2-50dc-a7c5-bda7e75a6300","identity_status":"unresolved","identity_evidence":"Rare-name and likely spelling-variant searches did not locate a reliable OSS bridge or named prewar employer.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 580 for spelling variants, identifiers, and pre-OSS chronology.","archival_review_priority":"high"},
+    {"person_id":"2766b9e4-b2fc-5a24-95f1-ed9476b80fc4","identity_status":"high_confidence","identity_evidence":"Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 3449939.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 580 for last civilian employer and OSS accession chronology.","archival_review_priority":"medium"},
+    {"person_id":"57c9d8fc-59dc-533f-9652-b2f7f0705b7a","identity_status":"conflicting","identity_evidence":"The same private identifier appears on separate Andre R Pacatte and Andre R Pagatte index rows; Pacatte evidence is not transferred.","manual_review_required":true,"research_status":"conflicting_sources","next_action":"Inspect both Box 580 files to resolve the shared identifier.","archival_review_priority":"critical"},
+    {"person_id":"8f25077d-d682-55d8-a4a0-fdd6c413c59c","identity_status":"unresolved","identity_evidence":"Exact-name and CAF-7 searches did not establish a unique identity or named pre-OSS employer.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 580 for identifiers, duties, and pre-OSS chronology.","archival_review_priority":"high"},
+    {"person_id":"e3901033-75e4-5ff6-a93a-af997218ef92","identity_status":"unresolved","identity_evidence":"Common-name searches did not establish a unique identity or pre-OSS affiliation.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 580 for identifiers and pre-OSS affiliation.","archival_review_priority":"high"},
+    {"person_id":"3f3c3891-8220-560a-8ccd-78c3a0718da5","identity_status":"unresolved","identity_evidence":"Common-name results and a Pennsylvania death-index entry lacked an OSS bridge and corroborating identifiers.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 580 for identifiers and pre-OSS affiliation.","archival_review_priority":"high"},
+    {"person_id":"86f1278a-d139-5436-8e0d-c1725ad6573f","identity_status":"high_confidence","identity_evidence":"Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 4587471.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 580 for last civilian employer and OSS accession chronology.","archival_review_priority":"medium"},
+    {"person_id":"eb6d5855-c956-5ead-88fc-2448c1deb61c","identity_status":"unresolved","identity_evidence":"The unqualified common name produced numerous unrelated biographies without a direct OSS bridge.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 580 for middle name, identifiers, and pre-OSS affiliation.","archival_review_priority":"critical"},
+    {"person_id":"af69675f-6af8-5235-bbfc-8813641c6ad9","identity_status":"unresolved","identity_evidence":"Common-name and P-1 searches did not establish a unique identity or named pre-OSS employer.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 580 for identifiers, civilian-grade duties, and pre-OSS chronology.","archival_review_priority":"high"},
+    {"person_id":"5beee1c2-facd-550b-bc07-5675126780ad","identity_status":"high_confidence","identity_evidence":"Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 979315.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 580 for last civilian employer and OSS accession chronology.","archival_review_priority":"medium"},
+    {"person_id":"b914d48c-035a-5b64-98f1-29f818fcd966","identity_status":"high_confidence","identity_evidence":"Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 2786789.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 580 for last civilian employer and OSS accession chronology.","archival_review_priority":"medium"},
+    {"person_id":"e693205d-3e8f-5770-9706-f52131bd921e","identity_status":"unresolved","identity_evidence":"Exact-name and alias searches preserved the truncated source note 'aka Silvi' but did not establish a defensible identity.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 580 to recover the complete alias and pre-OSS history.","archival_review_priority":"critical"},
+    {"person_id":"6d6fe81f-257b-5a2d-9abd-968171f89f3e","identity_status":"unresolved","identity_evidence":"Common-name searches returned modern and unbridged namesakes without a direct OSS connection.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 580 for identifying evidence and pre-OSS affiliation.","archival_review_priority":"critical"},
+    {"person_id":"decfb5d6-4408-5030-a104-e6b432dc2eb0","identity_status":"unresolved","identity_evidence":"Common-name lieutenant searches were dominated by the ambassador namesake and did not establish this OSS person's identity.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 580 for the officer identifier, identity, and last civilian employer.","archival_review_priority":"high"},
+    {"person_id":"fa0857b9-fa64-5be4-8e56-a368038b1fe3","identity_status":"unresolved","identity_evidence":"Exact-name, naval-rate, OSS, employer, occupation, obituary, and archival searches did not establish a reliable identity bridge.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 580 for naval identifiers and pre-OSS affiliation.","archival_review_priority":"high"}
+  ],
+  "research_attempts": [
+    {"key":"charles-h-padden-protocol-b728","person_id":"58d5b8dd-fbf7-5304-94a5-d0ce242d5b56","source_adapter":"manual_staged_protocol","query_text":"NARA index context; CIA and Library of Congress access attempts; exact-name, CAF-5, OSS, employer, occupation, obituary, directory, newspaper, and archival searches","query_variant_type":"protocol_complete_batch_728","started_at":"2026-10-04T13:00:00-04:00","completed_at":"2026-10-04T15:30:00-04:00","outcome":"no_result","sources_reviewed":6,"candidate_sources_rejected":4,"rejection_reasons":"Results lacked a direct OSS bridge and corroborating identifiers.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 580.","attempt_number":1,"research_agent_version":"before-oss-b728-v1"},
+    {"key":"fred-m-padgett-protocol-b728","person_id":"9e4a04bf-4c6f-52cc-9de0-ca3f41b0a783","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk context; CIA and Library of Congress access attempts; exact-name, protected identifier, OSS, employer, occupation, obituary, and archival searches","query_variant_type":"protocol_complete_batch_728","started_at":"2026-10-04T13:00:00-04:00","completed_at":"2026-10-04T15:30:00-04:00","outcome":"source_reviewed","sources_reviewed":7,"candidate_sources_rejected":4,"rejection_reasons":"Army occupation coding is not a named employer; namesakes lacked the protected identifier.","research_notes":"Identity is high confidence; pre-OSS employment remains unresolved.","next_action":"Inspect Box 580.","attempt_number":1,"research_agent_version":"before-oss-b728-v1"},
+    {"key":"harold-e-padgett-protocol-b728","person_id":"dd88d672-eb28-53b4-9d05-24088248e78e","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk context; CIA and Library of Congress access attempts; exact-name, protected identifier, OSS, employer, occupation, 1937 directory, obituary, and archival searches","query_variant_type":"protocol_complete_batch_728","started_at":"2026-10-04T13:00:00-04:00","completed_at":"2026-10-04T15:30:00-04:00","outcome":"candidate_rejected","sources_reviewed":8,"candidate_sources_rejected":5,"rejection_reasons":"A 1937 San Diego salesman namesake lacks corroborating identifiers and is not accepted.","research_notes":"Identity is high confidence from official records; pre-OSS employment remains unresolved.","next_action":"Inspect Box 580.","attempt_number":1,"research_agent_version":"before-oss-b728-v1"},
+    {"key":"sosteno-padilla-protocol-b728","person_id":"1990c01d-a751-5014-a2cb-a37e7b540a66","source_adapter":"manual_staged_protocol","query_text":"NARA index context; CIA and Library of Congress access attempts; exact rare name, Pfc, OSS, employer, occupation, census, genealogy, obituary, and archival searches","query_variant_type":"protocol_complete_batch_728","started_at":"2026-10-04T13:00:00-04:00","completed_at":"2026-10-04T15:30:00-04:00","outcome":"candidate_rejected","sources_reviewed":7,"candidate_sources_rejected":5,"rejection_reasons":"Census and genealogy entries lack a direct OSS bridge and documentary employment chronology.","research_notes":"No reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 580.","attempt_number":1,"research_agent_version":"before-oss-b728-v1"},
+    {"key":"vincent-a-pado-protocol-b728","person_id":"caaea89e-a840-5780-8121-fddff9a32e81","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk context; CIA and Library of Congress access attempts; Pado and Pade Jr variants, protected identifier, OSS, employer, occupation, and archival searches","query_variant_type":"protocol_complete_batch_728","started_at":"2026-10-04T13:00:00-04:00","completed_at":"2026-10-04T15:30:00-04:00","outcome":"candidate_rejected","sources_reviewed":8,"candidate_sources_rejected":4,"rejection_reasons":"Official sources conflict on surname spelling and suffix; no external source resolves the identity.","research_notes":"No Army metadata or employer is transferred.","next_action":"Inspect Box 580.","attempt_number":1,"research_agent_version":"before-oss-b728-v1"},
+    {"key":"saul-k-padover-protocol-b728","person_id":"6c04259d-0aaf-5c19-87e9-6fb1d7000112","source_adapter":"manual_staged_protocol","query_text":"Re-review of durable NARA, institutional, and official-register evidence; exact-name, Interior Department, OSS, transfer chronology, and archival searches","query_variant_type":"protocol_reuse_reviewed_evidence_batch_728","started_at":"2026-10-04T13:00:00-04:00","completed_at":"2026-10-04T15:30:00-04:00","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":1,"rejection_reasons":"Accessible sources do not establish the exact appointment or transfer date.","research_notes":"Existing high-confidence Department of the Interior affiliation remains the verified pre-OSS employer; no duplicate claim is added.","next_action":"Inspect Box 580 for exact transfer date.","attempt_number":1,"research_agent_version":"before-oss-b728-v1"},
+    {"key":"joseph-padula-protocol-b728","person_id":"6bc751d1-53ad-5d76-a08c-c71392748fb3","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk context; CIA and Library of Congress access attempts; exact-name, T-4 and T5, OSS, Simcol, employer, occupation, obituary, and archival searches","query_variant_type":"protocol_complete_batch_728","started_at":"2026-10-04T13:00:00-04:00","completed_at":"2026-10-04T15:30:00-04:00","outcome":"source_reviewed","sources_reviewed":9,"candidate_sources_rejected":6,"rejection_reasons":"Obituaries were namesakes or postwar-only; the Simcol assignment is not pre-OSS employment.","research_notes":"Identity is high confidence; no reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 580 and the Simcol final reports.","attempt_number":1,"research_agent_version":"before-oss-b728-v1"},
+    {"key":"henry-m-paechter-protocol-b728","person_id":"b02ffee4-39ee-5f1d-ac26-9d5166780ac6","source_adapter":"manual_staged_protocol","query_text":"NARA index context; CIA and Library of Congress access attempts; Paechter, Pachter, and Heinz Maximilian variants; OWI, OSS, employer, occupation, biography, and archival searches","query_variant_type":"protocol_complete_batch_728","started_at":"2026-10-04T13:00:00-04:00","completed_at":"2026-10-04T15:30:00-04:00","outcome":"source_reviewed","sources_reviewed":10,"candidate_sources_rejected":1,"rejection_reasons":"Overlapping 1941-1945 OWI and OSS appointments do not prove which was immediately prior.","research_notes":"Identity and 1930-1933 freelance work are high confidence; the affiliation is published only as documented prewar self-employment.","next_action":"Inspect Box 580 for wartime appointment chronology.","attempt_number":1,"research_agent_version":"before-oss-b728-v1"},
+    {"key":"salvatore-c-pagand-protocol-b728","person_id":"19ec2a67-0ab2-50dc-a7c5-bda7e75a6300","source_adapter":"manual_staged_protocol","query_text":"NARA index context; CIA and Library of Congress access attempts; exact rare name and likely spelling variants, OSS, employer, occupation, obituary, newspaper, and archival searches","query_variant_type":"protocol_complete_batch_728","started_at":"2026-10-04T13:00:00-04:00","completed_at":"2026-10-04T15:30:00-04:00","outcome":"no_result","sources_reviewed":6,"candidate_sources_rejected":4,"rejection_reasons":"No result supplied a direct OSS bridge or reliable prewar affiliation.","research_notes":"No reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 580.","attempt_number":1,"research_agent_version":"before-oss-b728-v1"},
+    {"key":"joseph-m-pagano-protocol-b728","person_id":"2766b9e4-b2fc-5a24-95f1-ed9476b80fc4","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk context; CIA and Library of Congress access attempts; exact-name, protected identifier, T-5, OSS, employer, occupation, obituary, and archival searches","query_variant_type":"protocol_complete_batch_728","started_at":"2026-10-04T13:00:00-04:00","completed_at":"2026-10-04T15:30:00-04:00","outcome":"source_reviewed","sources_reviewed":8,"candidate_sources_rejected":6,"rejection_reasons":"Common-name biographies lacked the protected identifier and OSS chronology; coded occupation is not a named employer.","research_notes":"Identity is high confidence; pre-OSS employment remains unresolved.","next_action":"Inspect Box 580.","attempt_number":1,"research_agent_version":"before-oss-b728-v1"},
+    {"key":"andre-r-pagatte-protocol-b728","person_id":"57c9d8fc-59dc-533f-9652-b2f7f0705b7a","source_adapter":"manual_staged_protocol","query_text":"NARA index context; CIA and Library of Congress access attempts; Pagatte and Pacatte variants, shared identifier, OSS, employer, occupation, obituary, and archival searches","query_variant_type":"protocol_complete_batch_728","started_at":"2026-10-04T13:00:00-04:00","completed_at":"2026-10-04T15:30:00-04:00","outcome":"candidate_rejected","sources_reviewed":8,"candidate_sources_rejected":5,"rejection_reasons":"Pacatte's independent evidence cannot resolve or be transferred to the separate Pagatte row.","research_notes":"The shared identifier remains an explicit conflict.","next_action":"Inspect both Box 580 files.","attempt_number":1,"research_agent_version":"before-oss-b728-v1"},
+    {"key":"alicia-e-page-protocol-b728","person_id":"8f25077d-d682-55d8-a4a0-fdd6c413c59c","source_adapter":"manual_staged_protocol","query_text":"NARA index context; CIA and Library of Congress access attempts; exact-name, CAF-7, OSS, employer, occupation, obituary, directory, newspaper, and archival searches","query_variant_type":"protocol_complete_batch_728","started_at":"2026-10-04T13:00:00-04:00","completed_at":"2026-10-04T15:30:00-04:00","outcome":"no_result","sources_reviewed":6,"candidate_sources_rejected":5,"rejection_reasons":"Results lacked a direct OSS bridge and corroborating identifiers.","research_notes":"No reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 580.","attempt_number":1,"research_agent_version":"before-oss-b728-v1"},
+    {"key":"eloise-e-page-protocol-b728","person_id":"e3901033-75e4-5ff6-a93a-af997218ef92","source_adapter":"manual_staged_protocol","query_text":"NARA index context; CIA and Library of Congress access attempts; exact-name, OSS, employer, occupation, obituary, directory, newspaper, and archival searches","query_variant_type":"protocol_complete_batch_728","started_at":"2026-10-04T13:00:00-04:00","completed_at":"2026-10-04T15:30:00-04:00","outcome":"no_result","sources_reviewed":6,"candidate_sources_rejected":5,"rejection_reasons":"Common-name results lacked a direct OSS bridge and corroborating identifiers.","research_notes":"No reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 580.","attempt_number":1,"research_agent_version":"before-oss-b728-v1"},
+    {"key":"emma-j-page-protocol-b728","person_id":"3f3c3891-8220-560a-8ccd-78c3a0718da5","source_adapter":"manual_staged_protocol","query_text":"NARA index context; CIA and Library of Congress access attempts; exact-name, OSS, employer, occupation, obituary, death index, directory, newspaper, and archival searches","query_variant_type":"protocol_complete_batch_728","started_at":"2026-10-04T13:00:00-04:00","completed_at":"2026-10-04T15:30:00-04:00","outcome":"candidate_rejected","sources_reviewed":7,"candidate_sources_rejected":6,"rejection_reasons":"A Pennsylvania death-index namesake and modern results lack an OSS bridge and corroborating identifiers.","research_notes":"No reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 580.","attempt_number":1,"research_agent_version":"before-oss-b728-v1"},
+    {"key":"george-k-page-protocol-b728","person_id":"86f1278a-d139-5436-8e0d-c1725ad6573f","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk context; CIA and Library of Congress access attempts; exact-name, protected identifier, corporal, OSS, employer, occupation, obituary, and archival searches","query_variant_type":"protocol_complete_batch_728","started_at":"2026-10-04T13:00:00-04:00","completed_at":"2026-10-04T15:30:00-04:00","outcome":"source_reviewed","sources_reviewed":8,"candidate_sources_rejected":7,"rejection_reasons":"Banking and other namesake biographies lacked the protected identifier; coded occupation is not a named employer.","research_notes":"Identity is high confidence; pre-OSS employment remains unresolved.","next_action":"Inspect Box 580.","attempt_number":1,"research_agent_version":"before-oss-b728-v1"},
+    {"key":"henry-page-protocol-b728","person_id":"eb6d5855-c956-5ead-88fc-2448c1deb61c","source_adapter":"manual_staged_protocol","query_text":"NARA index context; CIA and Library of Congress access attempts; common-name, OSS, employer, occupation, obituary, directory, newspaper, and archival searches","query_variant_type":"protocol_complete_batch_728","started_at":"2026-10-04T13:00:00-04:00","completed_at":"2026-10-04T15:30:00-04:00","outcome":"candidate_rejected","sources_reviewed":8,"candidate_sources_rejected":8,"rejection_reasons":"Numerous unrelated biographies cannot be connected to the unqualified index name.","research_notes":"No reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 580.","attempt_number":1,"research_agent_version":"before-oss-b728-v1"},
+    {"key":"jean-b-page-protocol-b728","person_id":"af69675f-6af8-5235-bbfc-8813641c6ad9","source_adapter":"manual_staged_protocol","query_text":"NARA index context; CIA and Library of Congress access attempts; exact-name, P-1, OSS, employer, occupation, obituary, directory, and archival searches","query_variant_type":"protocol_complete_batch_728","started_at":"2026-10-04T13:00:00-04:00","completed_at":"2026-10-04T15:30:00-04:00","outcome":"candidate_rejected","sources_reviewed":7,"candidate_sources_rejected":6,"rejection_reasons":"Death-index and common-name results lacked a direct OSS bridge and corroborating identifiers.","research_notes":"No reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 580.","attempt_number":1,"research_agent_version":"before-oss-b728-v1"},
+    {"key":"jimmie-page-protocol-b728","person_id":"5beee1c2-facd-550b-bc07-5675126780ad","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk context; CIA and Library of Congress access attempts; exact-name, protected identifier, OSS, employer, occupation, obituary, and archival searches","query_variant_type":"protocol_complete_batch_728","started_at":"2026-10-04T13:00:00-04:00","completed_at":"2026-10-04T15:30:00-04:00","outcome":"source_reviewed","sources_reviewed":8,"candidate_sources_rejected":7,"rejection_reasons":"Modern and obituary namesakes lacked the protected identifier; coded occupation is not a named employer.","research_notes":"Identity is high confidence; pre-OSS employment remains unresolved.","next_action":"Inspect Box 580.","attempt_number":1,"research_agent_version":"before-oss-b728-v1"},
+    {"key":"keith-a-page-protocol-b728","person_id":"b914d48c-035a-5b64-98f1-29f818fcd966","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk context; CIA and Library of Congress access attempts; exact-name, protected identifier, T-3, OSS, employer, occupation, obituary, and archival searches","query_variant_type":"protocol_complete_batch_728","started_at":"2026-10-04T13:00:00-04:00","completed_at":"2026-10-04T15:30:00-04:00","outcome":"source_reviewed","sources_reviewed":8,"candidate_sources_rejected":6,"rejection_reasons":"Genealogy and modern people-finder results lack an OSS bridge; coded occupation is not a named employer.","research_notes":"Identity is high confidence; pre-OSS employment remains unresolved.","next_action":"Inspect Box 580.","attempt_number":1,"research_agent_version":"before-oss-b728-v1"},
+    {"key":"lewis-w-page-protocol-b728","person_id":"e693205d-3e8f-5770-9706-f52131bd921e","source_adapter":"manual_staged_protocol","query_text":"NARA index context; CIA and Library of Congress access attempts; exact-name, OSS, employer, occupation, obituary, and the source alias fragment 'aka Silvi'","query_variant_type":"protocol_adapted_alias_fragment_batch_728","started_at":"2026-10-04T13:00:00-04:00","completed_at":"2026-10-04T15:30:00-04:00","outcome":"blocked","sources_reviewed":6,"candidate_sources_rejected":5,"rejection_reasons":"The alias is truncated in the source and exact-name results lack a direct OSS bridge.","research_notes":"The printed fragment is preserved without guessing its completion.","next_action":"Inspect Box 580 to recover the full alias.","attempt_number":1,"research_agent_version":"before-oss-b728-v1"},
+    {"key":"shelby-page-protocol-b728","person_id":"6d6fe81f-257b-5a2d-9abd-968171f89f3e","source_adapter":"manual_staged_protocol","query_text":"NARA index context; CIA and Library of Congress access attempts; exact-name, OSS, employer, occupation, obituary, directory, newspaper, and archival searches","query_variant_type":"protocol_complete_batch_728","started_at":"2026-10-04T13:00:00-04:00","completed_at":"2026-10-04T15:30:00-04:00","outcome":"candidate_rejected","sources_reviewed":7,"candidate_sources_rejected":7,"rejection_reasons":"Modern people-finder and obituary results are unrelated namesakes without an OSS bridge.","research_notes":"No reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 580.","attempt_number":1,"research_agent_version":"before-oss-b728-v1"},
+    {"key":"walter-h-page-protocol-b728","person_id":"decfb5d6-4408-5030-a104-e6b432dc2eb0","source_adapter":"manual_staged_protocol","query_text":"NARA index context; CIA and Library of Congress access attempts; exact-name, lieutenant, OSS, employer, occupation, obituary, military, and archival searches","query_variant_type":"protocol_complete_batch_728","started_at":"2026-10-04T13:00:00-04:00","completed_at":"2026-10-04T15:30:00-04:00","outcome":"candidate_rejected","sources_reviewed":8,"candidate_sources_rejected":7,"rejection_reasons":"Ambassador-related and other common-name results do not identify the indexed lieutenant.","research_notes":"No reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 580.","attempt_number":1,"research_agent_version":"before-oss-b728-v1"},
+    {"key":"wellman-page-protocol-b728","person_id":"fa0857b9-fa64-5be4-8e56-a368038b1fe3","source_adapter":"manual_staged_protocol","query_text":"NARA index context; CIA and Library of Congress access attempts; exact-name, FM 1/c, naval, OSS, employer, occupation, obituary, and archival searches","query_variant_type":"protocol_complete_batch_728","started_at":"2026-10-04T13:00:00-04:00","completed_at":"2026-10-04T15:30:00-04:00","outcome":"no_result","sources_reviewed":7,"candidate_sources_rejected":5,"rejection_reasons":"Exact-name results returned the index or unrelated modern material without an OSS identity bridge.","research_notes":"No reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 580.","attempt_number":1,"research_agent_version":"before-oss-b728-v1"}
+  ]
+}

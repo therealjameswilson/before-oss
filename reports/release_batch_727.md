@@ -126,8 +126,8 @@ python3 -m oss_research coverage-report
 python3 -m oss_research build-public-data
 ```
 
-The next research boundary is PDF page 354, rows 24-46, from Pat H Packer
-through Griffith S Palmer. No API key, raw API response, full service or
+The next research boundary is PDF page 354, rows 24-46, from Charles H Padden
+through Wellman Page. No API key, raw API response, full service or
 officer number, copyrighted page image, unrelated Army coded occupation,
 street address, modern people-finder record, or private reviewer note is
 committed or published. No authenticated NARA Catalog API request was made for
