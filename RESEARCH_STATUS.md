@@ -1,5 +1,32 @@
 # Research status
 
+Batch 735 completed PDF page 358, rows 1-23, from **James C Parker** through
+**Marian A Parrott**, with a terminal disposition for all 23 people. Six exact
+official Army matches establish identity only. Lester Parkes retains an
+explicit protected-identifier conflict and three conflicting candidate
+decisions; no Army metadata is transferred. Charles M Parkin Jr. and Robert R
+Parrish reuse stronger earlier reviewed outcomes instead of receiving
+duplicate claims. Parkin retains his confirmed immediate Fort Belvoir Army
+assignment and Parrish retains a documented prewar film-editing occupation
+without an inferred studio employer. Twenty people have
+requires_archival_review; one each has completed, occupation_only_found, and
+conflicting_sources. The oil-company category remains evidence-scoped to
+**nine people across 11 historically named companies**. See
+research/batch-735-progress.md. No authenticated NARA Catalog request was made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **9,939/23,939 (41.5180%)**;
+verified-employer coverage is **334/23,939 (1.3952%)**;
+verified-affiliation coverage is **745/23,939 (3.1121%)**; archival-review
+coverage is **8,397/23,939 (35.0767%)**. There are **13,995** not_started
+people and **523** possible-duplicate groups. SQLite retains **18,177**
+attempts or plans and **6,364** claims: 1,382 confirmed, 2,952 high, 1,537
+medium, 198 low, 293 conflicting, and two unresolved. It has **5,714**
+citation records and **2,889** unique source documents. The public projection
+has **2,490** affiliations, **863** organizations, **4,490** sources, and
+**6,157** claims. Full-index historical research remains unfinished. The next
+boundary is PDF page 358, rows 24-46, from Arthur J Parry through John Pascone.
+
 Batch 734 completed PDF page 357, rows 24-46, from **Robert E Parent** through
 **Hilda B Parker**, with a saved terminal outcome for all 23 people. Nelson B
 Paris is confirmed as the OSS Dawes Mission naval photographer through an
