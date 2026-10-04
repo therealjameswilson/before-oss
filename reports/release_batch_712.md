@@ -89,8 +89,27 @@ The exact rebuilt tree passed these local release gates:
   305,804,002 bytes**, SHA-256
   `da959d1c14e9e80170c7759d37de5ecf1dad82836a2ec0d2aa3a95490c1a1f37`.
 
-Exact commit metadata, GitHub Actions runs, and live deployment verification
-will be recorded after the release is pushed.
+Release commit
+[`11124d9a5a38fea2463d8c7c6eff0c7b25e1824e`](https://github.com/therealjameswilson/before-oss/commit/11124d9a5a38fea2463d8c7c6eff0c7b25e1824e)
+was published to `main`. The independent
+[Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/37172328385)
+and
+[GitHub Pages deployment](https://github.com/therealjameswilson/before-oss/actions/runs/37172328387)
+both completed successfully. GitHub reported only prospective runner/action
+deprecation notices: selected actions are being forced from Node.js 20 to 24,
+and `ubuntu-latest` is scheduled to migrate to Ubuntu 26. Neither notice
+affected this release.
+
+The read-only live verifier compared the deployed site with that immutable
+commit and verified **67 assets / 104,683,101 bytes**, the same manifest
+SHA-256 shown above, **eight core routes**, **29 source-register pages**, and
+all **23 Batch 712 direct profile URLs** at
+<https://therealjameswilson.github.io/before-oss/>. Targeted live checks also
+confirmed the exact home-page coverage figures; the nine-person,
+eleven-company oil directory; the new Army identities; John M Obereiner's
+Detachment 101 evidence; the preserved `Micheal` spelling variant; Serge
+Obolensky's published chronology; and the explicitly unresolved Frank J,
+John R, and Walter E Obrien profiles.
 
 ## Resume
 
