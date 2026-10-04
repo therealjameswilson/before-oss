@@ -13,8 +13,10 @@ formatted variants across 24,912 artifacts with zero unexpected full-number
 matches. The local verifier matches 67 assets / 106,360,198 bytes. Two builds
 reproduce production-tree SHA-256
 `94a2e89a3bc5d514cbec3d900e4fe06840d44ed89c388110fa4ef859b0da7328`.
-This candidate has not yet been pushed, deployed, or live-verified. See
-`reports/release_batch_734.md`.
+GitHub Actions test and Pages workflows completed successfully for release
+commit `509ed5bb20edcba0ace3f5d9900c40c6568cd12f`; the immutable live verifier
+matched all 67 manifest assets, eight core routes, 30 source-register pages,
+and 23 directly affected profiles. See `reports/release_batch_734.md`.
 
 Run: 2026-10-02 UTC, Batch 688 local release candidate. All **139/139**
 Python tests pass; SQLite integrity, foreign-key, and 522-page/23,978-row
