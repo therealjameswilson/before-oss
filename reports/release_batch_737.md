@@ -90,9 +90,25 @@ The exact rebuilt tree passed these local release gates:
   308,788,468-byte output tree at SHA-256
   `d7f404bd7f8af4668275a379e04ce0e8f296997167c0f8ff87be7f12081220a4`.
 
-## Publication status
+## Publication verification
 
-Publication and immutable live verification are pending the release commit.
+Release commit
+[258badc555e34a73894f7a64e84979904476e6b9](https://github.com/therealjameswilson/before-oss/commit/258badc555e34a73894f7a64e84979904476e6b9)
+was pushed to main. The
+[Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/37238196451)
+and
+[GitHub Pages deployment](https://github.com/therealjameswilson/before-oss/actions/runs/37238196469)
+both completed successfully.
+
+The immutable live verifier confirmed the deployment at
+<https://therealjameswilson.github.io/before-oss/> against that exact commit:
+
+* 67 public assets / 106,522,368 bytes matched the checked-in release
+  manifest;
+* the verified manifest SHA-256 was
+  `cb2628ceea98dcb48877ed9ba1a1350102c600e119383c7678a65586f7ec4627`;
+* eight core routes, 31 source-register pages, and all 23 directly affected
+  profiles resolved successfully.
 
 ## Resume
 
