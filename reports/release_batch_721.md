@@ -142,8 +142,21 @@ The exact rebuilt tree passed these local release gates:
   bytes, SHA-256
   `875bee50a37bf6be231a3bd4c7b6bad3bec536cb88881bc7a75e7ee50e2cece8`.
 
-Publication to GitHub Pages and read-only verification against the immutable
-pushed commit are pending at this checkpoint.
+Release commit
+[`285948797991ffb0b4d3ad17c8c7c3ad74ec989e`](https://github.com/therealjameswilson/before-oss/commit/285948797991ffb0b4d3ad17c8c7c3ad74ec989e)
+was published to `main`. Its
+[Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/37189333383)
+and
+[GitHub Pages deployment](https://github.com/therealjameswilson/before-oss/actions/runs/37189333296)
+both completed successfully. GitHub reported only prospective runner/action
+deprecation notices: selected actions are being forced from Node.js 20 to 24,
+and `ubuntu-latest` is scheduled to migrate to Ubuntu 26. Neither notice
+affected this release.
+
+The read-only live verifier compared the deployed site with that immutable
+commit and verified 67 assets / 105,346,091 bytes, the same manifest SHA-256,
+eight core routes, 30 source-register pages, and all 23 Batch 721 direct
+profile URLs at <https://therealjameswilson.github.io/before-oss/>.
 
 ## Resume
 
