@@ -1,0 +1,442 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 730 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b730",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 581-582",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 355, rows 24-46; visually checked against a 300 dpi render",
+      "access_date": "2026-10-04",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Original spellings, ranks, notes, box, and locations are preserved. Full service and officer identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b730",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department. Adjutant General's Office",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946",
+      "locator": "Bulk ordinals 441572, 443961, 444962, 645367, 2431071, 2890187, 3545442, 3680633, 7530342, and 8863727",
+      "access_date": "2026-10-04",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Selective Service System, Record Group 147",
+      "rights_notes": "Protected identifiers, coded occupations, and raw bulk rows are not published or retained."
+    },
+    {
+      "key": "ossog-personnel-b730",
+      "stable_url": "https://ossog.info/personnel.html",
+      "title": "Office of Strategic Services Operational Groups personnel roster",
+      "author_creator": "OSS Operational Groups",
+      "repository_publisher": "OSS Operational Groups",
+      "publication_record_date": "undated",
+      "locator": "Choctaw mission roster; Peter D. Pallescki entry",
+      "access_date": "2026-10-04",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "OSS Operational Groups personnel rosters",
+      "rights_notes": "Used only as corroborative wartime identity and assignment evidence."
+    },
+    {
+      "key": "gamecock-palles-b730",
+      "stable_url": "https://historicnewspapers.sc.edu/lccn/2012218660/1940-10-18/ed-1/seq-4/",
+      "archival_identifier": "LCCN 2012218660, 1940-10-18, edition 1, page 4",
+      "title": "The Gamecock",
+      "author_creator": "University of South Carolina student newspaper staff",
+      "repository_publisher": "Historical Newspapers of South Carolina, University of South Carolina Libraries",
+      "publication_record_date": "1940-10-18",
+      "locator": "Page 4, Question of the Week responses",
+      "access_date": "2026-10-04",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Historical Newspapers of South Carolina",
+      "rights_notes": "The contemporary campus newspaper establishes student context; the identity linkage remains qualified."
+    },
+    {
+      "key": "dee-hazel-palmer-b730",
+      "stable_url": "https://www.deefuneralhome.com/obituaries/dr-hazel-palmer",
+      "title": "Dr. Hazel Palmer obituary",
+      "author_creator": "Dee Funeral Home & Cremation Service",
+      "repository_publisher": "Dee Funeral Home & Cremation Service",
+      "publication_record_date": "2014-06",
+      "locator": "Obituary biographical paragraph",
+      "access_date": "2026-10-04",
+      "source_quality": "D_correlative_or_secondary",
+      "rights_notes": "Used with an institutional degree record. The obituary's Museum of Fine Arts role is not treated as pre-OSS employment."
+    },
+    {
+      "key": "jhu-commencement-hazel-b730",
+      "stable_url": "https://jscholarship.library.jhu.edu/bitstreams/0712edab-6825-4ece-b69e-e5620b3b533b/download",
+      "title": "The Johns Hopkins University commencement program",
+      "author_creator": "The Johns Hopkins University",
+      "repository_publisher": "Johns Hopkins University Sheridan Libraries",
+      "publication_record_date": "1944",
+      "locator": "Doctors of Philosophy with Titles of Dissertations, Hazel Palmer entry",
+      "access_date": "2026-10-04",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Johns Hopkins University circulars and annual reports",
+      "rights_notes": "Used for institutional degree chronology; only the shortest supporting excerpt is published."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "usc-b730",
+      "canonical_name": "University of South Carolina",
+      "historical_name": "University of South Carolina",
+      "aliases": ["U.S.C.", "Carolina"],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Columbia",
+      "state_or_region": "South Carolina",
+      "country": "United States",
+      "normalization_notes": "The relationship is student status, not employment."
+    },
+    {
+      "key": "radcliffe-b730",
+      "organization_id": "8b718239-988a-55f0-a231-decd01eb0642",
+      "canonical_name": "Radcliffe College",
+      "historical_name": "Radcliffe College",
+      "aliases": [],
+      "organization_type": "Women's liberal arts college",
+      "sector": "academia_and_research",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "active_dates": "1879-1999",
+      "normalization_notes": "Canonical reuse; this is student status, not employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "mitchell-palles-usc-b730",
+      "person_id": "ac561d5a-8d8a-5639-b6ea-cbfec243675f",
+      "organization_key": "usc-b730",
+      "organization_name_as_found": "University of South Carolina",
+      "role_title": "Student",
+      "occupation": "student",
+      "relationship_type": "student",
+      "start_date": "1940",
+      "end_date": "1940",
+      "date_precision": "A campus-newspaper question published 18 October 1940 identifies Mitchell Palles among University students; enrollment dates are otherwise unknown.",
+      "city": "Columbia",
+      "state_or_region": "South Carolina",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The exact rare name and plausible chronology support a probable, not confirmed, link. Student status is not employment."
+    },
+    {
+      "key": "hazel-palmer-radcliffe-b730",
+      "person_id": "d8d3f950-78c4-5b87-889c-721bdc583a6c",
+      "organization_key": "radcliffe-b730",
+      "organization_name_as_found": "Radcliffe College",
+      "role_title": "Student",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1941",
+      "date_precision": "The Johns Hopkins commencement program records an A.B. from Radcliffe College in 1941.",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "A detailed obituary supplies the OSS bridge, but the common indexed name lacks a protected identifier; this educational claim remains qualified and is not employment."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-mitchell-d-palles-b730",
+      "person_id": "ac561d5a-8d8a-5639-b6ea-cbfec243675f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Mitchell D Palles is probably the Mitchell Palles identified in a 1940 University of South Carolina student newspaper.",
+      "evidence_excerpt": "Mitchell Palles--By trying to break down the barrier between professor and student.",
+      "evidence_paraphrase": "A contemporary campus paper includes the rare exact first-and-surname combination in a question directed to students.",
+      "identity_match_assessment": "Probable from the distinctive exact name and compatible prewar university chronology, but no middle initial, protected identifier, or direct OSS bridge appears in the newspaper.",
+      "temporal_assessment": "The newspaper dates the campus association to 18 October 1940, before U.S. entry into the war and creation of the OSS.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The profile visibly qualifies the linkage and requires Box 581 review before promotion to high confidence.",
+      "sources": [
+        {"source_key": "nara-index-b730", "support_type": "supports", "locator_override": "PDF page 355, row 25"},
+        {"source_key": "gamecock-palles-b730", "support_type": "supports", "locator_override": "Page 4, Question of the Week", "excerpt_override": "Mitchell Palles--By trying to break down the barrier between professor and student."}
+      ]
+    },
+    {
+      "key": "student-mitchell-d-palles-b730",
+      "person_id": "ac561d5a-8d8a-5639-b6ea-cbfec243675f",
+      "affiliation_key": "mitchell-palles-usc-b730",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Mitchell Palles appears in a University of South Carolina campus question in October 1940, supporting a qualified student affiliation.",
+      "evidence_excerpt": "Mitchell Palles--By trying to break down the barrier between professor and student.",
+      "evidence_paraphrase": "The newspaper's student-oriented question and named response place Mitchell Palles in the university community in 1940.",
+      "identity_match_assessment": "Probable rather than confirmed because the article omits the indexed middle initial and supplies no direct OSS identifier.",
+      "temporal_assessment": "Documented prewar student affiliation; it is neither employment nor shown to be the immediate predecessor to OSS service.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "University of South Carolina is classified as an educational institution, not an employer.",
+      "sources": [
+        {"source_key": "gamecock-palles-b730", "support_type": "supports", "locator_override": "Page 4, Question of the Week", "excerpt_override": "Mitchell Palles--By trying to break down the barrier between professor and student."}
+      ]
+    },
+    {
+      "key": "identity-peter-d-pallescki-b730",
+      "person_id": "93c92a2e-fd4c-5c2d-a852-8cc54713d29e",
+      "claim_type": "identity",
+      "claim_text": "The indexed Peter D Pallescki is linked at high confidence to the official Army record and T/5 Peter D. Pallescki on the Choctaw roster.",
+      "evidence_excerpt": "T/5 Peter D. Pallescki",
+      "evidence_paraphrase": "Exact official name-and-identifier agreement is independently corroborated by an OSS operational-groups roster.",
+      "identity_match_assessment": "High confidence from exact indexed and Army names, a nonshared protected identifier, and a matching name and grade in the Choctaw mission roster.",
+      "temporal_assessment": "The sources establish wartime Army and OSS identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The assignment is not mislabeled as pre-OSS employment, and coded Army occupation data are not converted into an employer.",
+      "sources": [
+        {"source_key": "nara-index-b730", "support_type": "supports", "locator_override": "PDF page 355, row 26"},
+        {"source_key": "army-bulk-b730", "support_type": "supports", "locator_override": "Bulk record ordinal 3545442"},
+        {"source_key": "ossog-personnel-b730", "support_type": "supports", "locator_override": "Choctaw mission roster", "excerpt_override": "T/5 Peter D. Pallescki"}
+      ]
+    },
+    {
+      "key": "identity-augustine-n-palluccio-b730",
+      "person_id": "9da295cb-9cdb-5be5-9e23-58842d51d02f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Augustine N Palluccio is linked at high confidence to the same person in the official Army bulk record.",
+      "evidence_paraphrase": "The indexed and Army rows agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact name and nonshared protected-identifier agreement in two official NARA sources.",
+      "temporal_assessment": "The Army row documents wartime entry but not a named employer or OSS transfer chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity only; the truncated note folder se is preserved without expansion and coded occupation data are not published.",
+      "sources": [
+        {"source_key": "nara-index-b730", "support_type": "supports", "locator_override": "PDF page 355, row 29"},
+        {"source_key": "army-bulk-b730", "support_type": "supports", "locator_override": "Bulk record ordinal 2890187"}
+      ]
+    },
+    {
+      "key": "identity-arthur-e-palmer-b730",
+      "person_id": "fb512fa5-dd73-55fa-82fd-d0a91d8a9335",
+      "claim_type": "identity",
+      "claim_text": "The indexed Arthur E Palmer is linked at high confidence to the same person in the official Army bulk record.",
+      "evidence_paraphrase": "The indexed and Army rows agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact name and nonshared protected-identifier agreement in two official NARA sources.",
+      "temporal_assessment": "The Army row documents wartime entry but not a named employer or OSS transfer chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity only; coded Army occupation data are not converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b730", "support_type": "supports", "locator_override": "PDF page 355, row 31"},
+        {"source_key": "army-bulk-b730", "support_type": "supports", "locator_override": "Bulk record ordinal 7530342"}
+      ]
+    },
+    {
+      "key": "conflict-carter-palmer-b730",
+      "person_id": "9b08433f-62e5-5337-8211-6a788b56c6fc",
+      "claim_type": "identity",
+      "claim_text": "Carter Palmer's protected identifier produces conflicting official Army bulk names and does not yet support a resolved identity.",
+      "evidence_paraphrase": "One Army row names Carter Palmer, while another row reached by the same protected identifier names Howard R Krampitz.",
+      "identity_match_assessment": "Conflicting official evidence; exact-name agreement in one candidate does not erase the second incompatible official candidate.",
+      "temporal_assessment": "No occupation or employer claim is transferred from either Army row.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The full identifier remains private; Box 582 must be inspected to resolve the discrepancy.",
+      "sources": [
+        {"source_key": "nara-index-b730", "support_type": "supports", "locator_override": "PDF page 355, row 32"},
+        {"source_key": "army-bulk-b730", "support_type": "contradicts", "locator_override": "Bulk record ordinals 443961 and 444962"}
+      ]
+    },
+    {
+      "key": "identity-glenn-e-palmer-b730",
+      "person_id": "2bdd20a7-2a6d-5c1a-9bf6-24d5d7cf2133",
+      "claim_type": "identity",
+      "claim_text": "The indexed Glenn E Palmer is linked at high confidence to the same person in the official Army bulk record.",
+      "evidence_paraphrase": "The indexed and Army rows agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact name and nonshared protected-identifier agreement in two official NARA sources.",
+      "temporal_assessment": "The Army row documents wartime entry but not a named employer or OSS transfer chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity only; coded Army occupation data are not converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b730", "support_type": "supports", "locator_override": "PDF page 355, row 36"},
+        {"source_key": "army-bulk-b730", "support_type": "supports", "locator_override": "Bulk record ordinal 2431071"}
+      ]
+    },
+    {
+      "key": "identity-hazel-palmer-b730",
+      "person_id": "d8d3f950-78c4-5b87-889c-721bdc583a6c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Hazel Palmer is probably the archaeologist whose obituary records recruitment by the OSS and service in Italy, Austria, and Greece.",
+      "evidence_excerpt": "Palmer was recruited by the OSS during the Second World War",
+      "evidence_paraphrase": "The obituary gives the exact name, detailed academic history, explicit OSS recruitment, language qualifications, and three wartime theaters.",
+      "identity_match_assessment": "Probable rather than high confidence because the index supplies no middle initial or protected identifier and the direct OSS link comes from one retrospective source.",
+      "temporal_assessment": "The obituary establishes wartime OSS service; the 1941 Radcliffe degree is independently dated by a Johns Hopkins institutional record.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The profile requires Box 582 confirmation. The Museum of Fine Arts position is omitted from pre-OSS claims because institutional evidence places it postwar.",
+      "sources": [
+        {"source_key": "nara-index-b730", "support_type": "supports", "locator_override": "PDF page 355, row 37"},
+        {"source_key": "dee-hazel-palmer-b730", "support_type": "supports", "locator_override": "Obituary biographical paragraph", "excerpt_override": "Palmer was recruited by the OSS during the Second World War"},
+        {"source_key": "jhu-commencement-hazel-b730", "support_type": "context_only", "locator_override": "Hazel Palmer doctoral entry"}
+      ]
+    },
+    {
+      "key": "student-hazel-palmer-radcliffe-b730",
+      "person_id": "d8d3f950-78c4-5b87-889c-721bdc583a6c",
+      "affiliation_key": "hazel-palmer-radcliffe-b730",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Hazel Palmer received an A.B. from Radcliffe College in 1941, a qualified documented prewar student affiliation.",
+      "evidence_excerpt": "Hazel Palmer, of Massachusetts, A.B. Radcliffe College 1941",
+      "evidence_paraphrase": "A Johns Hopkins institutional degree record identifies her Radcliffe bachelor's degree and year.",
+      "identity_match_assessment": "Probable linkage to the indexed Hazel Palmer based on the obituary's explicit OSS service and matching academic chronology; Box 582 confirmation remains necessary.",
+      "temporal_assessment": "The 1941 degree predates the OSS; it is educational affiliation, not employment or proven immediate pre-OSS status.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Radcliffe College is not labeled an employer. Later Johns Hopkins study and Museum of Fine Arts work are not promoted to immediate pre-OSS claims.",
+      "sources": [
+        {"source_key": "jhu-commencement-hazel-b730", "support_type": "supports", "locator_override": "Doctors of Philosophy, Hazel Palmer entry", "excerpt_override": "Hazel Palmer, of Massachusetts, A.B. Radcliffe College 1941"},
+        {"source_key": "dee-hazel-palmer-b730", "support_type": "supports", "locator_override": "Obituary biographical paragraph"}
+      ]
+    },
+    {
+      "key": "identity-henry-j-palmer-b730",
+      "person_id": "226acb7b-b882-57f1-b297-3b5d6c94fa45",
+      "claim_type": "identity",
+      "claim_text": "The indexed Henry J Palmer is linked at high confidence to the same person in the official Army bulk record.",
+      "evidence_paraphrase": "The indexed and Army rows agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact name and nonshared protected-identifier agreement in two official NARA sources.",
+      "temporal_assessment": "The Army row documents wartime entry but not a named employer or OSS transfer chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity only; coded Army occupation data are not converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b730", "support_type": "supports", "locator_override": "PDF page 355, row 38"},
+        {"source_key": "army-bulk-b730", "support_type": "supports", "locator_override": "Bulk record ordinal 3680633"}
+      ]
+    },
+    {
+      "key": "identity-howard-v-palmer-b730",
+      "person_id": "c2cd8138-9237-5c51-881e-db9965bc30d0",
+      "claim_type": "identity",
+      "claim_text": "The indexed Howard V Palmer is linked at high confidence to the same person in the official Army bulk record.",
+      "evidence_paraphrase": "The indexed and Army rows agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact name and nonshared protected-identifier agreement in two official NARA sources.",
+      "temporal_assessment": "The Army row documents wartime entry but not a named employer or OSS transfer chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity only; coded Army occupation data are not converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b730", "support_type": "supports", "locator_override": "PDF page 355, row 39"},
+        {"source_key": "army-bulk-b730", "support_type": "supports", "locator_override": "Bulk record ordinal 645367"}
+      ]
+    },
+    {
+      "key": "identity-james-w-palmer-b730",
+      "person_id": "32d548c9-e4db-518b-892f-a0f0acbd1478",
+      "claim_type": "identity",
+      "claim_text": "The indexed James W Palmer is linked at high confidence to the same person in the official Army bulk record.",
+      "evidence_paraphrase": "The indexed and Army rows agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact name and nonshared protected-identifier agreement in two official NARA sources.",
+      "temporal_assessment": "The Army row documents wartime entry but not a named employer or OSS transfer chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity only; coded Army occupation data are not converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b730", "support_type": "supports", "locator_override": "PDF page 355, row 41"},
+        {"source_key": "army-bulk-b730", "support_type": "supports", "locator_override": "Bulk record ordinal 8863727"}
+      ]
+    },
+    {
+      "key": "identity-quentin-s-palmer-b730",
+      "person_id": "80b519cd-e52b-557d-927b-d60d7f284504",
+      "claim_type": "identity",
+      "claim_text": "The indexed Quentin S Palmer is linked at high confidence to the same person in the official Army bulk record.",
+      "evidence_paraphrase": "The indexed and Army rows agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact name and nonshared protected-identifier agreement in two official NARA sources.",
+      "temporal_assessment": "The Army row documents wartime entry but not a named employer or OSS transfer chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity only; coded Army occupation data are not converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b730", "support_type": "supports", "locator_override": "PDF page 355, row 46"},
+        {"source_key": "army-bulk-b730", "support_type": "supports", "locator_override": "Bulk record ordinal 441572"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {"person_id": "c46fa8c6-9a31-5c11-b5b6-66fef601fe06", "identity_status": "unresolved", "identity_evidence": "Exact-name, OSS, employer, occupation, directory, obituary, newspaper, and archival searches did not establish a unique identity.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Box 581 for identifiers and pre-OSS chronology.", "archival_review_priority": "high"},
+    {"person_id": "ac561d5a-8d8a-5639-b6ea-cbfec243675f", "identity_status": "probable", "identity_evidence": "A contemporary University of South Carolina newspaper names Mitchell Palles in a student context in October 1940; the rare exact name and chronology are compatible, but the article omits the middle initial and a direct OSS bridge.", "name_variants": ["Mitchell Palles"], "manual_review_required": true, "research_status": "needs_identity_review", "next_action": "Inspect Box 581 to confirm the University of South Carolina linkage and identify intervening service or employment.", "archival_review_priority": "high"},
+    {"person_id": "93c92a2e-fd4c-5c2d-a852-8cc54713d29e", "identity_status": "high_confidence", "identity_evidence": "Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 3545442; the Choctaw roster independently lists T/5 Peter D. Pallescki.", "name_variants": ["Peter D. Pallescki Sr."], "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Box 582 for last civilian employer and Army-to-OSS chronology.", "archival_review_priority": "medium"},
+    {"person_id": "8d657093-f603-555d-9da7-14b4a4e7b951", "identity_status": "unresolved", "identity_evidence": "Exact-name, variant, OSS, employer, occupation, obituary, directory, and archival searches produced no reliable identity bridge.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Box 582 for full identifiers and pre-OSS chronology.", "archival_review_priority": "high"},
+    {"person_id": "7fee759f-d62e-5025-ac94-c33070724dab", "identity_status": "unresolved", "identity_evidence": "Distinctive-name and likely spelling-variant searches found no source with a direct OSS or archival bridge.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Box 582 for original spelling, aliases, and pre-OSS chronology.", "archival_review_priority": "high"},
+    {"person_id": "9da295cb-9cdb-5be5-9e23-58842d51d02f", "identity_status": "high_confidence", "identity_evidence": "Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 2890187; the truncated note folder se remains uninterpreted.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Box 582 for last civilian employer, OSS chronology, and the complete note.", "archival_review_priority": "high"},
+    {"person_id": "074fed85-700b-556d-8784-864278366cc1", "identity_status": "unresolved", "identity_evidence": "The index supplies only the surname Palmbaum and the truncated note no first n; targeted surname and OSS searches cannot resolve a unique person.", "manual_review_required": true, "research_status": "needs_identity_review", "next_action": "Inspect Box 582 for the original folder label, any first name or alias, and pre-OSS chronology.", "archival_review_priority": "critical"},
+    {"person_id": "fb512fa5-dd73-55fa-82fd-d0a91d8a9335", "identity_status": "high_confidence", "identity_evidence": "Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 7530342.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Box 582 for last civilian employer and Army-to-OSS chronology.", "archival_review_priority": "medium"},
+    {"person_id": "9b08433f-62e5-5337-8211-6a788b56c6fc", "identity_status": "conflicting", "identity_evidence": "The protected identifier produces two incompatible official Army bulk names, Carter Palmer and Howard R Krampitz; neither candidate is accepted and no occupation data are transferred.", "manual_review_required": true, "research_status": "conflicting_sources", "next_action": "Inspect Box 582 and compare the original Army identifier evidence to resolve the Carter Palmer/Howard R Krampitz conflict.", "archival_review_priority": "critical"},
+    {"person_id": "4c22c3a2-447c-5102-a2ef-8f746b1e87e5", "identity_status": "unresolved", "identity_evidence": "Exact-name, OSS, employer, occupation, obituary, directory, newspaper, and archival searches did not distinguish this person from namesakes.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Box 582 for full identifiers and civilian chronology.", "archival_review_priority": "high"},
+    {"person_id": "61217254-0088-587f-9e03-4311e41cccc3", "identity_status": "unresolved", "identity_evidence": "Exact-name, CAF-5, OSS, employer, occupation, obituary, directory, newspaper, and archival searches did not establish a unique identity.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Box 582 for civilian-grade duties and pre-OSS chronology.", "archival_review_priority": "high"},
+    {"person_id": "70768090-d654-5b2e-aed0-f296cb7cb68d", "identity_status": "unresolved", "identity_evidence": "Common-name searches and the protected identifier context produced no reviewed official match or direct OSS bridge.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Box 582 for identity, branch, and pre-OSS employment evidence.", "archival_review_priority": "high"},
+    {"person_id": "2bdd20a7-2a6d-5c1a-9bf6-24d5d7cf2133", "identity_status": "high_confidence", "identity_evidence": "Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 2431071.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Box 582 for last civilian employer and Army-to-OSS chronology.", "archival_review_priority": "medium"},
+    {"person_id": "d8d3f950-78c4-5b87-889c-721bdc583a6c", "identity_status": "probable", "identity_evidence": "A detailed obituary names Hazel Palmer, documents Radcliffe and Johns Hopkins education, and explicitly records OSS recruitment and service in Italy, Austria, and Greece; the index lacks a protected identifier, so the common-name link remains probable.", "manual_review_required": true, "research_status": "needs_identity_review", "next_action": "Inspect Box 582 to confirm the archaeological biography and determine the immediate pre-OSS affiliation.", "archival_review_priority": "high"},
+    {"person_id": "226acb7b-b882-57f1-b297-3b5d6c94fa45", "identity_status": "high_confidence", "identity_evidence": "Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 3680633.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Box 582 for last civilian employer and Army-to-OSS chronology.", "archival_review_priority": "medium"},
+    {"person_id": "c2cd8138-9237-5c51-881e-db9965bc30d0", "identity_status": "high_confidence", "identity_evidence": "Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 645367.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Box 582 for last civilian employer and Army-to-OSS chronology.", "archival_review_priority": "medium"},
+    {"person_id": "6fd18e93-f218-5670-9ced-83ac0257a799", "identity_status": "unresolved", "identity_evidence": "Exact-name, Captain, OSS, employer, occupation, obituary, directory, and archival searches did not establish a unique identity.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Box 582 for the officer identifier, branch, and pre-OSS chronology.", "archival_review_priority": "high"},
+    {"person_id": "32d548c9-e4db-518b-892f-a0f0acbd1478", "identity_status": "high_confidence", "identity_evidence": "Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 8863727.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Box 582 for last civilian employer and Army-to-OSS chronology.", "archival_review_priority": "medium"},
+    {"person_id": "c652bf6f-9979-5fdb-80f6-8bdd4604cfc7", "identity_status": "unresolved", "identity_evidence": "Exact-name, OSS, employer, occupation, obituary, directory, newspaper, and archival searches produced only unbridged namesakes.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Box 582 for full name, identifiers, and pre-OSS chronology.", "archival_review_priority": "high"},
+    {"person_id": "95782bbb-493e-5b46-a1aa-1d50057c5d97", "identity_status": "unresolved", "identity_evidence": "Exact-name, suffix, Navy grade, OSS, employer, obituary, roster, and archival searches did not establish a unique identity.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Box 582 for the Navy identifier, assignment, and last civilian employer.", "archival_review_priority": "high"},
+    {"person_id": "16c3c9f2-fc9a-586c-84c8-6c33ebcae15b", "identity_status": "unresolved", "identity_evidence": "Exact-name, Navy grade, protected identifier, OSS, employer, obituary, roster, and archival searches did not establish a reviewed identity bridge.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Box 582 for the Navy identifier, assignment, and pre-OSS chronology.", "archival_review_priority": "high"},
+    {"person_id": "eb9a2868-9542-56d0-b32d-9463d8fcfc94", "identity_status": "unresolved", "identity_evidence": "Exact-name, CAF-4, OSS, employer, occupation, obituary, directory, newspaper, and archival searches did not establish a unique identity.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Box 582 for civilian-grade duties and pre-OSS chronology.", "archival_review_priority": "high"},
+    {"person_id": "80b519cd-e52b-557d-927b-d60d7f284504", "identity_status": "high_confidence", "identity_evidence": "Exact indexed name and a nonshared protected identifier agree with official Army bulk ordinal 441572.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "Inspect Box 582 for last civilian employer and Army-to-OSS chronology.", "archival_review_priority": "medium"}
+  ],
+  "research_attempts": [
+    {"key": "leonard-m-pallen-protocol-b730", "person_id": "c46fa8c6-9a31-5c11-b5b6-66fef601fe06", "source_adapter": "manual_staged_protocol", "query_text": "NARA index context; CIA and Library of Congress access attempts; exact-name, OSS, employer, occupation, obituary, directory, newspaper, and archival searches", "query_variant_type": "protocol_complete_batch_730", "started_at": "2026-10-04T12:05:00-04:00", "completed_at": "2026-10-04T12:50:00-04:00", "outcome": "no_result", "sources_reviewed": 4, "candidate_sources_rejected": 4, "rejection_reasons": "Search results lacked corroborating identifiers and a direct OSS bridge.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 581.", "attempt_number": 1, "research_agent_version": "before-oss-b730-v1"},
+    {"key": "mitchell-d-palles-protocol-b730", "person_id": "ac561d5a-8d8a-5639-b6ea-cbfec243675f", "source_adapter": "manual_staged_protocol", "query_text": "NARA index context; CIA and Library of Congress access attempts; exact-name and middle-name variants; 2nd Lt, OSS, University of South Carolina, employer, occupation, obituary, newspaper, and archival searches", "query_variant_type": "protocol_complete_batch_730", "started_at": "2026-10-04T12:05:00-04:00", "completed_at": "2026-10-04T12:50:00-04:00", "outcome": "candidate_found", "sources_reviewed": 7, "candidate_sources_rejected": 4, "rejection_reasons": "Postwar legal records and genealogy leads do not establish the OSS identity or prewar employment.", "research_notes": "A 1940 campus newspaper supports a qualified University of South Carolina student affiliation; identity remains probable and no employer is established.", "next_action": "Inspect Box 581 to confirm the student linkage and chronology.", "attempt_number": 1, "research_agent_version": "before-oss-b730-v1"},
+    {"key": "peter-d-pallescki-protocol-b730", "person_id": "93c92a2e-fd4c-5c2d-a852-8cc54713d29e", "source_adapter": "manual_staged_protocol", "query_text": "NARA index and Army bulk context; CIA and Library of Congress access attempts; exact-name, protected identifier, T-5, Choctaw, OSS, employer, occupation, obituary, school, and archival searches", "query_variant_type": "protocol_complete_batch_730", "started_at": "2026-10-04T12:05:00-04:00", "completed_at": "2026-10-04T12:50:00-04:00", "outcome": "source_reviewed", "sources_reviewed": 7, "candidate_sources_rejected": 3, "rejection_reasons": "An obituary documents schooling and wartime service but does not date a civilian employer or establish an immediate pre-OSS affiliation.", "research_notes": "Identity is high confidence and the Choctaw assignment is corroborated; pre-OSS employment remains unresolved.", "next_action": "Inspect Box 582.", "attempt_number": 1, "research_agent_version": "before-oss-b730-v1"},
+    {"key": "george-palley-protocol-b730", "person_id": "8d657093-f603-555d-9da7-14b4a4e7b951", "source_adapter": "manual_staged_protocol", "query_text": "NARA index context; CIA and Library of Congress access attempts; exact-name and spelling variants; OSS, employer, occupation, obituary, directory, newspaper, and archival searches", "query_variant_type": "protocol_complete_batch_730", "started_at": "2026-10-04T12:05:00-04:00", "completed_at": "2026-10-04T12:50:00-04:00", "outcome": "no_result", "sources_reviewed": 4, "candidate_sources_rejected": 4, "rejection_reasons": "Namesakes and variant spellings lacked a direct OSS or archival bridge.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 582.", "attempt_number": 1, "research_agent_version": "before-oss-b730-v1"},
+    {"key": "james-l-pallord-protocol-b730", "person_id": "7fee759f-d62e-5025-ac94-c33070724dab", "source_adapter": "manual_staged_protocol", "query_text": "NARA index context; CIA and Library of Congress access attempts; exact-name and likely spelling variants; OSS, employer, occupation, obituary, directory, newspaper, and archival searches", "query_variant_type": "protocol_complete_batch_730", "started_at": "2026-10-04T12:05:00-04:00", "completed_at": "2026-10-04T12:50:00-04:00", "outcome": "no_result", "sources_reviewed": 4, "candidate_sources_rejected": 3, "rejection_reasons": "No result supplied a direct identity bridge and the printed spelling is retained.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 582.", "attempt_number": 1, "research_agent_version": "before-oss-b730-v1"},
+    {"key": "augustine-n-palluccio-protocol-b730", "person_id": "9da295cb-9cdb-5be5-9e23-58842d51d02f", "source_adapter": "manual_staged_protocol", "query_text": "NARA index and Army bulk context; CIA and Library of Congress access attempts; exact-name, protected identifier, Pfc, truncated note, OSS, employer, occupation, obituary, and archival searches", "query_variant_type": "protocol_complete_batch_730", "started_at": "2026-10-04T12:05:00-04:00", "completed_at": "2026-10-04T12:50:00-04:00", "outcome": "source_reviewed", "sources_reviewed": 6, "candidate_sources_rejected": 3, "rejection_reasons": "Army occupation coding is not a named employer; the truncated index note cannot be expanded safely.", "research_notes": "Identity is high confidence; pre-OSS employment remains unresolved.", "next_action": "Inspect Box 582.", "attempt_number": 1, "research_agent_version": "before-oss-b730-v1"},
+    {"key": "palmbaum-no-first-name-protocol-b730", "person_id": "074fed85-700b-556d-8784-864278366cc1", "source_adapter": "manual_staged_protocol", "query_text": "NARA index context; CIA and Library of Congress access attempts; Palmbaum surname, OSS, employer, occupation, directory, obituary, newspaper, and archival searches adapted for missing first name", "query_variant_type": "protocol_complete_batch_730", "started_at": "2026-10-04T12:05:00-04:00", "completed_at": "2026-10-04T12:50:00-04:00", "outcome": "no_result", "sources_reviewed": 5, "candidate_sources_rejected": 5, "rejection_reasons": "Surname-only results cannot identify the indexed person, and the note no first n is not silently expanded.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 582 for the original folder label and identity.", "attempt_number": 1, "research_agent_version": "before-oss-b730-v1"},
+    {"key": "arthur-e-palmer-protocol-b730", "person_id": "fb512fa5-dd73-55fa-82fd-d0a91d8a9335", "source_adapter": "manual_staged_protocol", "query_text": "NARA index and Army bulk context; CIA and Library of Congress access attempts; exact-name, protected identifier, T-5, OSS, employer, occupation, obituary, and archival searches", "query_variant_type": "protocol_complete_batch_730", "started_at": "2026-10-04T12:05:00-04:00", "completed_at": "2026-10-04T12:50:00-04:00", "outcome": "source_reviewed", "sources_reviewed": 6, "candidate_sources_rejected": 4, "rejection_reasons": "Army occupation coding is not a named employer; common-name web results lacked a direct OSS bridge.", "research_notes": "Identity is high confidence; pre-OSS employment remains unresolved.", "next_action": "Inspect Box 582.", "attempt_number": 1, "research_agent_version": "before-oss-b730-v1"},
+    {"key": "carter-palmer-protocol-b730", "person_id": "9b08433f-62e5-5337-8211-6a788b56c6fc", "source_adapter": "manual_staged_protocol", "query_text": "NARA index and Army bulk context; CIA and Library of Congress access attempts; Carter Palmer and Howard R Krampitz; protected identifier, Cpl, OSS, employer, occupation, obituary, and archival searches", "query_variant_type": "protocol_complete_batch_730", "started_at": "2026-10-04T12:05:00-04:00", "completed_at": "2026-10-04T12:50:00-04:00", "outcome": "source_reviewed", "sources_reviewed": 8, "candidate_sources_rejected": 6, "rejection_reasons": "The same protected identifier produces incompatible official Army names; neither candidate can be accepted without the personnel file.", "research_notes": "Official-source identity conflict preserved; no employer or occupation is published.", "next_action": "Inspect Box 582 to resolve the identifier conflict.", "attempt_number": 1, "research_agent_version": "before-oss-b730-v1"},
+    {"key": "constance-b-palmer-protocol-b730", "person_id": "4c22c3a2-447c-5102-a2ef-8f746b1e87e5", "source_adapter": "manual_staged_protocol", "query_text": "NARA index context; CIA and Library of Congress access attempts; exact-name, OSS, employer, occupation, obituary, directory, newspaper, and archival searches", "query_variant_type": "protocol_complete_batch_730", "started_at": "2026-10-04T12:05:00-04:00", "completed_at": "2026-10-04T12:50:00-04:00", "outcome": "no_result", "sources_reviewed": 5, "candidate_sources_rejected": 5, "rejection_reasons": "Namesakes lacked two corroborating identifiers and a direct OSS bridge.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 582.", "attempt_number": 1, "research_agent_version": "before-oss-b730-v1"},
+    {"key": "dixie-s-palmer-protocol-b730", "person_id": "61217254-0088-587f-9e03-4311e41cccc3", "source_adapter": "manual_staged_protocol", "query_text": "NARA index context; CIA and Library of Congress access attempts; exact-name, CAF-5, OSS, employer, occupation, obituary, directory, newspaper, and archival searches", "query_variant_type": "protocol_complete_batch_730", "started_at": "2026-10-04T12:05:00-04:00", "completed_at": "2026-10-04T12:50:00-04:00", "outcome": "no_result", "sources_reviewed": 5, "candidate_sources_rejected": 4, "rejection_reasons": "No result tied the exact name and civilian grade to the indexed OSS file.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 582.", "attempt_number": 1, "research_agent_version": "before-oss-b730-v1"},
+    {"key": "donald-d-palmer-protocol-b730", "person_id": "70768090-d654-5b2e-aed0-f296cb7cb68d", "source_adapter": "manual_staged_protocol", "query_text": "NARA index and protected-identifier context; CIA and Library of Congress access attempts; exact-name, OSS, employer, occupation, obituary, directory, newspaper, and archival searches", "query_variant_type": "protocol_complete_batch_730", "started_at": "2026-10-04T12:05:00-04:00", "completed_at": "2026-10-04T12:50:00-04:00", "outcome": "no_result", "sources_reviewed": 5, "candidate_sources_rejected": 5, "rejection_reasons": "Common-name results lacked corroborating identifiers and no reviewed official bulk match was available.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 582.", "attempt_number": 1, "research_agent_version": "before-oss-b730-v1"},
+    {"key": "glenn-e-palmer-protocol-b730", "person_id": "2bdd20a7-2a6d-5c1a-9bf6-24d5d7cf2133", "source_adapter": "manual_staged_protocol", "query_text": "NARA index and Army bulk context; CIA and Library of Congress access attempts; exact-name, protected identifier, OSS, employer, occupation, obituary, and archival searches", "query_variant_type": "protocol_complete_batch_730", "started_at": "2026-10-04T12:05:00-04:00", "completed_at": "2026-10-04T12:50:00-04:00", "outcome": "source_reviewed", "sources_reviewed": 6, "candidate_sources_rejected": 4, "rejection_reasons": "Army occupation coding is not a named employer; namesakes lacked a direct OSS bridge.", "research_notes": "Identity is high confidence; pre-OSS employment remains unresolved.", "next_action": "Inspect Box 582.", "attempt_number": 1, "research_agent_version": "before-oss-b730-v1"},
+    {"key": "hazel-palmer-protocol-b730", "person_id": "d8d3f950-78c4-5b87-889c-721bdc583a6c", "source_adapter": "manual_staged_protocol", "query_text": "NARA index context; CIA and Library of Congress access attempts; exact-name, CAF-5, OSS, archaeologist, Radcliffe, Johns Hopkins, Museum of Fine Arts, employer, obituary, institutional, and archival searches", "query_variant_type": "protocol_complete_batch_730", "started_at": "2026-10-04T12:05:00-04:00", "completed_at": "2026-10-04T12:50:00-04:00", "outcome": "candidate_found", "sources_reviewed": 9, "candidate_sources_rejected": 4, "rejection_reasons": "The common indexed name lacks a protected identifier; Museum of Fine Arts employment is postwar and is not published as pre-OSS.", "research_notes": "Probable identity and a qualified 1941 Radcliffe student affiliation are published; the immediate pre-OSS affiliation remains unresolved.", "next_action": "Inspect Box 582 to confirm identity and recruitment chronology.", "attempt_number": 1, "research_agent_version": "before-oss-b730-v1"},
+    {"key": "henry-j-palmer-protocol-b730", "person_id": "226acb7b-b882-57f1-b297-3b5d6c94fa45", "source_adapter": "manual_staged_protocol", "query_text": "NARA index and Army bulk context; CIA and Library of Congress access attempts; exact-name, protected identifier, Pfc, OSS, employer, occupation, obituary, and archival searches", "query_variant_type": "protocol_complete_batch_730", "started_at": "2026-10-04T12:05:00-04:00", "completed_at": "2026-10-04T12:50:00-04:00", "outcome": "source_reviewed", "sources_reviewed": 6, "candidate_sources_rejected": 4, "rejection_reasons": "Army occupation coding is not a named employer; common-name results lacked a direct OSS bridge.", "research_notes": "Identity is high confidence; pre-OSS employment remains unresolved.", "next_action": "Inspect Box 582.", "attempt_number": 1, "research_agent_version": "before-oss-b730-v1"},
+    {"key": "howard-v-palmer-protocol-b730", "person_id": "c2cd8138-9237-5c51-881e-db9965bc30d0", "source_adapter": "manual_staged_protocol", "query_text": "NARA index and Army bulk context; CIA and Library of Congress access attempts; exact-name, protected identifier, M/Sgt, OSS, employer, occupation, obituary, and archival searches", "query_variant_type": "protocol_complete_batch_730", "started_at": "2026-10-04T12:05:00-04:00", "completed_at": "2026-10-04T12:50:00-04:00", "outcome": "source_reviewed", "sources_reviewed": 6, "candidate_sources_rejected": 4, "rejection_reasons": "Army occupation coding is not a named employer; common-name results lacked a direct OSS bridge.", "research_notes": "Identity is high confidence; pre-OSS employment remains unresolved.", "next_action": "Inspect Box 582.", "attempt_number": 1, "research_agent_version": "before-oss-b730-v1"},
+    {"key": "howard-m-palmer-protocol-b730", "person_id": "6fd18e93-f218-5670-9ced-83ac0257a799", "source_adapter": "manual_staged_protocol", "query_text": "NARA index and officer-identifier context; CIA and Library of Congress access attempts; exact-name, Captain, OSS, employer, occupation, obituary, roster, and archival searches", "query_variant_type": "protocol_complete_batch_730", "started_at": "2026-10-04T12:05:00-04:00", "completed_at": "2026-10-04T12:50:00-04:00", "outcome": "no_result", "sources_reviewed": 5, "candidate_sources_rejected": 5, "rejection_reasons": "Common-name officer results lacked agreement on the indexed identifier and a direct Box 582 bridge.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 582.", "attempt_number": 1, "research_agent_version": "before-oss-b730-v1"},
+    {"key": "james-w-palmer-protocol-b730", "person_id": "32d548c9-e4db-518b-892f-a0f0acbd1478", "source_adapter": "manual_staged_protocol", "query_text": "NARA index and Army bulk context; CIA and Library of Congress access attempts; exact-name, protected identifier, Pvt, OSS, employer, occupation, obituary, and archival searches", "query_variant_type": "protocol_complete_batch_730", "started_at": "2026-10-04T12:05:00-04:00", "completed_at": "2026-10-04T12:50:00-04:00", "outcome": "source_reviewed", "sources_reviewed": 6, "candidate_sources_rejected": 4, "rejection_reasons": "Army occupation coding is not a named employer; common-name results lacked a direct OSS bridge.", "research_notes": "Identity is high confidence; pre-OSS employment remains unresolved.", "next_action": "Inspect Box 582.", "attempt_number": 1, "research_agent_version": "before-oss-b730-v1"},
+    {"key": "jenny-palmer-protocol-b730", "person_id": "c652bf6f-9979-5fdb-80f6-8bdd4604cfc7", "source_adapter": "manual_staged_protocol", "query_text": "NARA index context; CIA and Library of Congress access attempts; exact-name and Jennifer variants; OSS, employer, occupation, obituary, directory, newspaper, and archival searches", "query_variant_type": "protocol_complete_batch_730", "started_at": "2026-10-04T12:05:00-04:00", "completed_at": "2026-10-04T12:50:00-04:00", "outcome": "no_result", "sources_reviewed": 5, "candidate_sources_rejected": 5, "rejection_reasons": "Common-name and expanded-name results lacked a direct OSS or archival bridge; Jenny is not silently expanded.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 582.", "attempt_number": 1, "research_agent_version": "before-oss-b730-v1"},
+    {"key": "luther-r-palmer-jr-protocol-b730", "person_id": "95782bbb-493e-5b46-a1aa-1d50057c5d97", "source_adapter": "manual_staged_protocol", "query_text": "NARA index context; CIA and Library of Congress access attempts; exact-name and suffix variants; EM 1/c, Navy, OSS, employer, occupation, obituary, roster, and archival searches", "query_variant_type": "protocol_complete_batch_730", "started_at": "2026-10-04T12:05:00-04:00", "completed_at": "2026-10-04T12:50:00-04:00", "outcome": "no_result", "sources_reviewed": 5, "candidate_sources_rejected": 5, "rejection_reasons": "Namesakes lacked corroborating Navy identifiers and a direct OSS bridge.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 582.", "attempt_number": 1, "research_agent_version": "before-oss-b730-v1"},
+    {"key": "norman-r-palmer-protocol-b730", "person_id": "16c3c9f2-fc9a-586c-84c8-6c33ebcae15b", "source_adapter": "manual_staged_protocol", "query_text": "NARA index and Navy-identifier context; CIA and Library of Congress access attempts; exact-name, SP 1/c, Navy, OSS, employer, occupation, obituary, roster, and archival searches", "query_variant_type": "protocol_complete_batch_730", "started_at": "2026-10-04T12:05:00-04:00", "completed_at": "2026-10-04T12:50:00-04:00", "outcome": "no_result", "sources_reviewed": 5, "candidate_sources_rejected": 5, "rejection_reasons": "Namesakes lacked agreement on the protected Navy identifier and a direct OSS bridge.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 582.", "attempt_number": 1, "research_agent_version": "before-oss-b730-v1"},
+    {"key": "pauline-palmer-protocol-b730", "person_id": "eb9a2868-9542-56d0-b32d-9463d8fcfc94", "source_adapter": "manual_staged_protocol", "query_text": "NARA index context; CIA and Library of Congress access attempts; exact-name, CAF-4, OSS, employer, occupation, obituary, directory, newspaper, and archival searches", "query_variant_type": "protocol_complete_batch_730", "started_at": "2026-10-04T12:05:00-04:00", "completed_at": "2026-10-04T12:50:00-04:00", "outcome": "no_result", "sources_reviewed": 5, "candidate_sources_rejected": 5, "rejection_reasons": "Common-name results lacked corroborating identifiers and a direct OSS bridge.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 582.", "attempt_number": 1, "research_agent_version": "before-oss-b730-v1"},
+    {"key": "quentin-s-palmer-protocol-b730", "person_id": "80b519cd-e52b-557d-927b-d60d7f284504", "source_adapter": "manual_staged_protocol", "query_text": "NARA index and Army bulk context; CIA and Library of Congress access attempts; exact-name, protected identifier, Cpl, OSS, employer, occupation, obituary, and archival searches", "query_variant_type": "protocol_complete_batch_730", "started_at": "2026-10-04T12:05:00-04:00", "completed_at": "2026-10-04T12:50:00-04:00", "outcome": "source_reviewed", "sources_reviewed": 6, "candidate_sources_rejected": 4, "rejection_reasons": "Army occupation coding is not a named employer; web results lacked an independently corroborated employer.", "research_notes": "Identity is high confidence; pre-OSS employment remains unresolved.", "next_action": "Inspect Box 582.", "attempt_number": 1, "research_agent_version": "before-oss-b730-v1"}
+  ]
+}
