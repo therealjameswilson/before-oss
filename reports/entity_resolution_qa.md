@@ -1,13 +1,13 @@
 # Entity-resolution QA
 
-Generated: 2026-10-04T21:49:55+00:00
+Generated: 2026-10-04T22:28:27+00:00
 
 - Source rows: **23,978**.
 - Cautious person entities: **23,939**.
 - Superseded person entities retained for audit: **2** of **23,941** stored rows.
 - Source rows linked: **23,978**.
 - Narrow automatic same-name/same-service-number groups: **23**.
-- Possible duplicate groups: **524**.
+- Possible duplicate groups: **525**.
 - Same-service-number/different-name groups: **164**.
 - Entities requiring manual review: **22,660**.
 

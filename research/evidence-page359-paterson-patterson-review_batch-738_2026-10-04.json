@@ -1,0 +1,455 @@
+{
+  "bundle_version": "batch-738-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 738 archival review",
+  "sources": [
+    {
+      "key": "nara-index-b738",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 588-589",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 359, rows 24-46; visually checked against a 300 dpi render",
+      "access_date": "2026-10-04",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Every printed row remains separate. Full protected identifiers are retained only in the private database and excluded from public output."
+    },
+    {
+      "key": "army-bulk-b738",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department. Adjutant General's Office",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946",
+      "locator": "Bulk ordinals 879422, 1135128, 1488113, 1534876, 2621474, 3759738, 4306324, 4677465, 4787286, 6087326, and 9190065",
+      "access_date": "2026-10-04",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Selective Service System, Record Group 147",
+      "rights_notes": "Official bulk data, not a Catalog API response. Protected identifiers, coded occupations, and raw records are not published or retained."
+    },
+    {
+      "key": "cornell-alumni-index-pises-b738",
+      "stable_url": "https://blogs.cornell.edu/earlyasianalumni/alumni-index/",
+      "title": "Alumni Index - Early Asian Alumni",
+      "author_creator": "Cornell University Library",
+      "repository_publisher": "Cornell University",
+      "publication_record_date": null,
+      "locator": "Pattabongse, Pises; 1938-1940; Engineering; BME 1940",
+      "access_date": "2026-10-04",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Early Asian Alumni",
+      "rights_notes": "Used for a student affiliation, not employment."
+    },
+    {
+      "key": "cornell-register-pises-b738",
+      "stable_url": "https://ecommons.cornell.edu/bitstreams/47cd27d1-0a0a-4949-95c8-ddedbccdec50/download",
+      "title": "Register of the University, 1939-40",
+      "author_creator": "Cornell University",
+      "repository_publisher": "Cornell University Library eCommons",
+      "publication_record_date": "1939-1940",
+      "locator": "Student register entry for Pattabongse, Pises, class of 1940",
+      "access_date": "2026-10-04",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Cornell University Registers",
+      "rights_notes": "Used to corroborate contemporaneous enrollment, not employment."
+    },
+    {
+      "key": "cornell-alumni-news-pises-b738",
+      "stable_url": "https://ecommons.cornell.edu/bitstream/1813/27474/1/048_09.pdf",
+      "title": "Siamese Fight Japs",
+      "author_creator": "Cornell Alumni News",
+      "repository_publisher": "Cornell University Library eCommons",
+      "publication_record_date": "1945-12-15",
+      "locator": "Cornell Alumni News, volume 48, number 9, printed page 202; PDF page 16",
+      "access_date": "2026-10-04",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Cornell Alumni News",
+      "rights_notes": "Contemporary institutional account of Pattabongse's Free Thai service."
+    },
+    {
+      "key": "cambridge-pises-b738",
+      "stable_url": "https://assets.cambridge.org/97805218/36012/index/9780521836012_index.pdf",
+      "title": "Thailand's Secret War: The Free Thai, OSS, and SOE During World War II - Index",
+      "author_creator": "E. Bruce Reynolds",
+      "repository_publisher": "Cambridge University Press",
+      "publication_record_date": "2005",
+      "locator": "Index page 459; Phiset Pattaphong (Pises Pattabongse)",
+      "access_date": "2026-10-04",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Used to corroborate the historical transliteration; the index alone does not establish a pre-OSS employer."
+    },
+    {
+      "key": "pivovarov-larissa-b738",
+      "stable_url": "https://history.ru/uploads/media/default/0001/08/050db2dd3758805f203fbb6a1f77b49df481af41.pdf",
+      "title": "History of the Russian Book at the Library of Congress",
+      "author_creator": "Evgenii G. Pivovarov",
+      "repository_publisher": "Nestor-Istoriia",
+      "publication_record_date": "2013",
+      "locator": "Printed page 196, note 1042",
+      "access_date": "2026-10-04",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "The postwar Library of Congress role is identity context only and is not projected backward into the pre-OSS period."
+    },
+    {
+      "key": "presidency-gardner-namesake-b738",
+      "stable_url": "https://www.presidency.ucsb.edu/documents/united-states-international-trade-commission-nomination-gardner-patterson-be-member",
+      "title": "United States International Trade Commission Nomination of Gardner Patterson To Be a Member",
+      "author_creator": "Jimmy Carter",
+      "repository_publisher": "The American Presidency Project, University of California Santa Barbara",
+      "publication_record_date": "1978-10-16",
+      "locator": "Biographical paragraph describing Treasury and Navy wartime service",
+      "access_date": "2026-10-04",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Used as contradictory context to reject a prominent exact-name namesake, not as evidence about the indexed Army private."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "cornell-university-b738",
+      "canonical_name": "Cornell University",
+      "historical_name": "Cornell University",
+      "aliases": [],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Ithaca",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "Pises Pattabongse's attendance is modeled as a student relationship, never employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "pises-cornell-student-b738",
+      "person_id": "1c9b9153-2216-5e2c-9587-a197107b6829",
+      "organization_key": "cornell-university-b738",
+      "organization_name_as_found": "Cornell University",
+      "role_title": "Mechanical engineering student",
+      "occupation": null,
+      "relationship_type": "student",
+      "start_date": "1938",
+      "end_date": "1940",
+      "date_precision": "year",
+      "city": "Ithaca",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Cornell's index and 1939-40 register document study and a 1940 BME. Neither source identifies Cornell as an employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-lewis-paterson-enlisted-b738",
+      "person_id": "898ac3fb-3a7a-5ca4-bcb5-55b92ba2126f",
+      "claim_type": "identity",
+      "claim_text": "The indexed enlisted Lewis C Paterson is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PATERSON LEWIS C",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The nearby officer row remains a separate probable entity pending file comparison.",
+      "sources": [
+        {"source_key": "nara-index-b738", "locator_override": "PDF page 359, row 25"},
+        {"source_key": "army-bulk-b738", "locator_override": "Bulk record ordinal 879422", "excerpt_override": "PATERSON LEWIS C"}
+      ]
+    },
+    {
+      "key": "identity-lewis-paterson-officer-b738",
+      "person_id": "7dbfb86e-161a-5410-b181-a39c004c0355",
+      "claim_type": "identity",
+      "claim_text": "The officer and enlisted Lewis C Paterson rows may represent the same person, but the link remains probable.",
+      "evidence_excerpt": "Lewis C Paterson",
+      "evidence_paraphrase": "The adjacent same-name Box 588 rows show a compatible enlisted-to-officer sequence, but carry different protected identifiers.",
+      "identity_match_assessment": "Probable; the rare exact name, shared box, and compatible progression support a link, but the files have not been compared.",
+      "temporal_assessment": "The evidence concerns wartime identity and says nothing about a pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The source rows and person entities remain separate; no affiliation is copied between them.",
+      "sources": [
+        {"source_key": "nara-index-b738", "locator_override": "PDF page 359, rows 24-25"},
+        {"source_key": "army-bulk-b738", "locator_override": "Bulk record ordinal 879422", "support_type": "context_only"}
+      ]
+    },
+    {
+      "key": "identity-john-patoch-b738",
+      "person_id": "ea5394ce-2882-5f93-be6a-a47fb7ff5a9c",
+      "claim_type": "identity",
+      "claim_text": "The indexed John F Patoch Jr. is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PATOCH JOHN F JR",
+      "evidence_paraphrase": "The exact name, suffix, and a nonshared protected identifier agree between the index and official Army data.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army occupation data are not used as employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b738", "locator_override": "PDF page 359, row 29"},
+        {"source_key": "army-bulk-b738", "locator_override": "Bulk record ordinal 1488113", "excerpt_override": "PATOCH JOHN F JR"}
+      ]
+    },
+    {
+      "key": "identity-fred-patrone-b738",
+      "person_id": "985b354a-0030-5103-8df9-04d22bd70162",
+      "claim_type": "identity",
+      "claim_text": "The indexed Fred F Patrone is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PATRONE FRED F",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army occupation data are not used as employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b738", "locator_override": "PDF page 359, row 33"},
+        {"source_key": "army-bulk-b738", "locator_override": "Bulk record ordinal 2621474", "excerpt_override": "PATRONE FRED F"}
+      ]
+    },
+    {
+      "key": "identity-paul-patsoros-b738",
+      "person_id": "d73b8cc0-e2b7-56c9-a836-1e5f68cab678",
+      "claim_type": "identity",
+      "claim_text": "The indexed Paul Patsoros is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PATSOROS PAUL",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "A postwar restaurant-directory lead is not projected backward into the pre-OSS period.",
+      "sources": [
+        {"source_key": "nara-index-b738", "locator_override": "PDF page 359, row 34"},
+        {"source_key": "army-bulk-b738", "locator_override": "Bulk record ordinal 4306324", "excerpt_override": "PATSOROS PAUL"}
+      ]
+    },
+    {
+      "key": "identity-pises-pattaborgse-b738",
+      "person_id": "1c9b9153-2216-5e2c-9587-a197107b6829",
+      "claim_type": "identity",
+      "claim_text": "The indexed Pises Pattaborgse is linked at high confidence to Pises Pattabongse, also rendered Phiset Pattaphong.",
+      "evidence_excerpt": "Phiset Pattaphong (Pises Pattabongse)",
+      "evidence_paraphrase": "Cornell identifies Pises Pattabongse as a 1940 alumnus and Free Thai officer; a scholarly index supplies the alternate transliteration in OSS context.",
+      "identity_match_assessment": "High confidence from the distinctive given name, close transliteration, compatible officer status, Cornell chronology, and scholarly OSS context.",
+      "temporal_assessment": "The sources establish prewar study and wartime Free Thai service, not a civilian employer immediately before OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The printed Pattaborgse spelling remains authoritative for the index row; variants are additive, not silent corrections.",
+      "sources": [
+        {"source_key": "nara-index-b738", "locator_override": "PDF page 359, row 35"},
+        {"source_key": "cornell-alumni-news-pises-b738", "locator_override": "Printed page 202; PDF page 16", "excerpt_override": "Pises Pattabongse '40 ... were commissioned officers in the Free Thai Military Unit"},
+        {"source_key": "cambridge-pises-b738", "locator_override": "Index page 459", "excerpt_override": "Phiset Pattaphong (Pises Pattabongse)"}
+      ]
+    },
+    {
+      "key": "student-pises-cornell-b738",
+      "person_id": "1c9b9153-2216-5e2c-9587-a197107b6829",
+      "affiliation_key": "pises-cornell-student-b738",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Pises Pattabongse studied mechanical engineering at Cornell University from 1938 to 1940 and received a BME in 1940.",
+      "evidence_excerpt": "Pattabongse | Pises | 1938-1940 | Eng | BME | 1940",
+      "evidence_paraphrase": "Cornell's alumni index and contemporaneous register document Pattabongse's enrollment and 1940 mechanical-engineering degree.",
+      "identity_match_assessment": "High confidence from the distinctive name, documented Free Thai officer service, and scholarly transliteration evidence.",
+      "temporal_assessment": "Documented prewar student affiliation; not employment and not shown to be immediately pre-OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Cornell appears under education and other affiliations, never as an employer.",
+      "sources": [
+        {"source_key": "cornell-alumni-index-pises-b738", "locator_override": "Pattabongse, Pises row"},
+        {"source_key": "cornell-register-pises-b738", "locator_override": "1939-40 student register entry"}
+      ]
+    },
+    {
+      "key": "identity-paul-pattee-b738",
+      "person_id": "19cbec33-b76e-5f48-bb2a-1969eb8aafba",
+      "claim_type": "identity",
+      "claim_text": "The indexed Paul B Pattee is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PATTEE PAUL B",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army occupation data are not used as employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b738", "locator_override": "PDF page 359, row 36"},
+        {"source_key": "army-bulk-b738", "locator_override": "Bulk record ordinal 6087326", "excerpt_override": "PATTEE PAUL B"}
+      ]
+    },
+    {
+      "key": "identity-larissa-patrekeyeva-b738",
+      "person_id": "ffb188b7-7cd4-5534-b4e4-4b3bd1e72dfc",
+      "claim_type": "identity",
+      "claim_text": "The indexed Larissa Patrekeyeva is probably the later Library of Congress research analyst of the same distinctive romanized name.",
+      "evidence_excerpt": "Larissa Patrekeyeva ... research analyst in Air Inf. Div.",
+      "evidence_paraphrase": "A scholarly history identifies a postwar Library of Congress analyst using the exact distinctive romanization found in the OSS index.",
+      "identity_match_assessment": "Probable from the distinctive exact romanization and compatible later research context; no service identifier bridge was found.",
+      "temporal_assessment": "The 1951 role is postwar identity context only and cannot establish pre-OSS employment.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The profile remains qualified and requires comparison with the indexed Box 588 file.",
+      "sources": [
+        {"source_key": "nara-index-b738", "locator_override": "PDF page 359, row 31"},
+        {"source_key": "pivovarov-larissa-b738", "locator_override": "Printed page 196, note 1042"}
+      ]
+    },
+    {
+      "key": "identity-alexander-r-patterson-b738",
+      "person_id": "040c2591-ed93-5837-8527-23a9994e0e28",
+      "claim_type": "identity",
+      "claim_text": "The indexed Alexander R Patterson is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PATTERSON ALEXANDER R",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "CIA and Library of Congress adapter failures were treated as access failures, never negative evidence.",
+      "sources": [
+        {"source_key": "nara-index-b738", "locator_override": "PDF page 359, row 38"},
+        {"source_key": "army-bulk-b738", "locator_override": "Bulk record ordinal 3759738", "excerpt_override": "PATTERSON ALEXANDER R"}
+      ]
+    },
+    {
+      "key": "identity-gardner-patterson-b738",
+      "person_id": "952afbad-9eec-5ce2-b900-7573ef7cdc17",
+      "claim_type": "identity",
+      "claim_text": "The indexed Gardner Patterson is linked at high confidence to the official Army record, not to the prominent economist and Navy namesake.",
+      "evidence_excerpt": "PATTERSON GARDNER",
+      "evidence_paraphrase": "The Army record agrees on name and protected identifier; an official biography gives the economist namesake an incompatible Navy and Treasury chronology.",
+      "identity_match_assessment": "High confidence for the Army identity; the exact-name public figure is affirmatively rejected as a namesake.",
+      "temporal_assessment": "The Army evidence establishes wartime identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer from the famous namesake is transferred to this profile.",
+      "sources": [
+        {"source_key": "nara-index-b738", "locator_override": "PDF page 359, row 41"},
+        {"source_key": "army-bulk-b738", "locator_override": "Bulk record ordinal 4677465", "excerpt_override": "PATTERSON GARDNER"},
+        {"source_key": "presidency-gardner-namesake-b738", "support_type": "contradicts", "locator_override": "Biographical paragraph"}
+      ]
+    },
+    {
+      "key": "identity-james-l-patterson-b738",
+      "person_id": "2f37ce6f-0ab2-5770-a0c8-3f1387ebe033",
+      "claim_type": "identity",
+      "claim_text": "The indexed James L Patterson is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PATTERSON JAMES L",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Common-name biographical leads lacking the protected identifier were rejected.",
+      "sources": [
+        {"source_key": "nara-index-b738", "locator_override": "PDF page 359, row 43"},
+        {"source_key": "army-bulk-b738", "locator_override": "Bulk record ordinal 1534876", "excerpt_override": "PATTERSON JAMES L"}
+      ]
+    },
+    {
+      "key": "identity-james-p-patterson-b738",
+      "person_id": "3163ae69-a99c-5ffe-8a99-8c0a3f3ae474",
+      "claim_type": "identity",
+      "claim_text": "The indexed James P Patterson is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PATTERSON JAMES P",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army occupation data are not used as employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b738", "locator_override": "PDF page 359, row 44"},
+        {"source_key": "army-bulk-b738", "locator_override": "Bulk record ordinal 1135128", "excerpt_override": "PATTERSON JAMES P"}
+      ]
+    },
+    {
+      "key": "identity-jere-w-patterson-b738",
+      "person_id": "e4cdc7ec-89e6-584c-9dad-c9537689e80e",
+      "claim_type": "identity",
+      "claim_text": "The indexed Jere W Patterson is linked at high confidence to two duplicate entries in the official Army bulk file.",
+      "evidence_excerpt": "PATTERSON JERE W",
+      "evidence_paraphrase": "Both official bulk rows agree with the indexed name and the same nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement; the duplicate bulk rows describe one identity.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Postwar Parker Pen and advertising records do not establish his immediate pre-OSS employer and remain research leads only.",
+      "sources": [
+        {"source_key": "nara-index-b738", "locator_override": "PDF page 359, row 46"},
+        {"source_key": "army-bulk-b738", "locator_override": "Bulk record ordinals 4787286 and 9190065", "excerpt_override": "PATTERSON JERE W"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {"person_id":"7dbfb86e-161a-5410-b181-a39c004c0355","identity_status":"probable","identity_evidence":"The adjacent same-name Box 588 enlisted and officer rows show a compatible progression, but different protected identifiers require file comparison.","manual_review_required":true,"possible_duplicate_group":"batch738-lewis-c-paterson-box588","research_status":"requires_archival_review","next_action":"Compare both Lewis C Paterson files in Box 588 and establish pre-OSS chronology.","archival_review_priority":"high"},
+    {"person_id":"898ac3fb-3a7a-5ca4-bcb5-55b92ba2126f","identity_status":"high_confidence","identity_evidence":"Exact indexed name and nonshared protected identifier agree with official Army bulk ordinal 879422.","personnel_category":"enlisted_army_personnel","commissioned_officer":false,"manual_review_required":true,"possible_duplicate_group":"batch738-lewis-c-paterson-box588","research_status":"requires_archival_review","next_action":"Compare both Lewis C Paterson files in Box 588 and identify pre-OSS employment.","archival_review_priority":"high"},
+    {"person_id":"17d184fe-d445-5d05-b5a8-09f1abfc7662","identity_status":"unresolved","identity_evidence":"A later corporate executive with this name lacks an OSS or wartime identifier bridge and was rejected.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 588 for identity and pre-OSS chronology.","archival_review_priority":"high"},
+    {"person_id":"876117f5-f6df-5e75-9d99-8ad08f2792f7","identity_status":"unresolved","identity_evidence":"Common-name searches produced no candidate with corroborating OSS identifiers.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 588 for identity and pre-OSS chronology.","archival_review_priority":"high"},
+    {"person_id":"094ef662-c09b-5087-bb2a-522fb2926498","identity_status":"unresolved","identity_evidence":"The rare-name physician and university records lack a service-number or direct OSS bridge and were not adopted.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 588 for identity and determine whether the education lead belongs to this soldier.","archival_review_priority":"high"},
+    {"person_id":"ea5394ce-2882-5f93-be6a-a47fb7ff5a9c","identity_status":"high_confidence","identity_evidence":"Exact name, Jr. suffix, and nonshared protected identifier agree with official Army bulk ordinal 1488113.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 588 for pre-OSS employment and assignment chronology.","archival_review_priority":"medium"},
+    {"person_id":"8a2e0f3c-7dab-5641-b623-a7092ff748d7","identity_status":"unresolved","identity_evidence":"Exact-name CAF-11 and occupation searches yielded no corroborated identity candidate.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 588 for identity and civilian employment chronology.","archival_review_priority":"high"},
+    {"person_id":"ffb188b7-7cd4-5534-b4e4-4b3bd1e72dfc","identity_status":"probable","identity_evidence":"A scholarly history identifies a postwar Library of Congress analyst using the exact distinctive romanization, but no service identifier bridge was found.","name_variants":["Larissa Patrikeeva","Лариса Патрикеева"],"manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 588 to confirm identity and establish pre-OSS employment.","archival_review_priority":"high"},
+    {"person_id":"416844e7-c4d5-59d8-ba01-f82be5056ddd","identity_status":"unresolved","identity_evidence":"Exact-name and likely spelling-variant searches produced no corroborated officer candidate.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 588 for identity, name spelling, and pre-OSS chronology.","archival_review_priority":"high"},
+    {"person_id":"985b354a-0030-5103-8df9-04d22bd70162","identity_status":"high_confidence","identity_evidence":"Exact indexed name and nonshared protected identifier agree with official Army bulk ordinal 2621474.","personnel_category":"enlisted_army_personnel","commissioned_officer":false,"manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 588 for pre-OSS employment and assignment chronology.","archival_review_priority":"medium"},
+    {"person_id":"d73b8cc0-e2b7-56c9-a836-1e5f68cab678","identity_status":"high_confidence","identity_evidence":"Exact indexed name and nonshared protected identifier agree with official Army bulk ordinal 4306324.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 588 for pre-OSS employment; do not project the postwar restaurant lead backward.","archival_review_priority":"medium"},
+    {"person_id":"1c9b9153-2216-5e2c-9587-a197107b6829","identity_status":"high_confidence","identity_evidence":"The distinctive name, compatible commissioned Free Thai service, Cornell chronology, and scholarly alternate transliteration link the indexed Pattaborgse to Pises Pattabongse.","name_variants":["Pises Pattabongse","Phiset Pattaphong"],"personnel_category":"foreign_or_allied_military_personnel","commissioned_officer":true,"allied_or_foreign_personnel":true,"manual_review_required":true,"research_status":"completed","next_action":"Personnel file review could clarify his immediate pre-OSS affiliation; Cornell is documented only as earlier student status.","archival_review_priority":"medium"},
+    {"person_id":"19cbec33-b76e-5f48-bb2a-1969eb8aafba","identity_status":"high_confidence","identity_evidence":"Exact indexed name and nonshared protected identifier agree with official Army bulk ordinal 6087326.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 588 for pre-OSS employment and assignment chronology.","archival_review_priority":"medium"},
+    {"person_id":"209cb8fb-609e-5f61-a0cf-7290705fb167","identity_status":"unresolved","identity_evidence":"Exact-name searches did not yield a source tied to the indexed sergeant's protected identifier.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 588 for identity and pre-OSS chronology.","archival_review_priority":"high"},
+    {"person_id":"040c2591-ed93-5837-8527-23a9994e0e28","identity_status":"high_confidence","identity_evidence":"Exact indexed name and nonshared protected identifier agree with official Army bulk ordinal 3759738.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 589 for pre-OSS employment and assignment chronology.","archival_review_priority":"medium"},
+    {"person_id":"3f0c035d-f54c-526e-a3ef-3d0cf352598e","identity_status":"unresolved","identity_evidence":"The indexed P-1 civilian-grade row could not be connected to a corroborated exact-name source.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 589 for identity and civilian employment chronology.","archival_review_priority":"high"},
+    {"person_id":"79a99f12-559c-5036-a0b0-624063963786","identity_status":"unresolved","identity_evidence":"Common-name results did not distinguish the indexed person from numerous namesakes.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 589 for identity and pre-OSS chronology.","archival_review_priority":"high"},
+    {"person_id":"952afbad-9eec-5ce2-b900-7573ef7cdc17","identity_status":"high_confidence","identity_evidence":"Exact indexed name and nonshared protected identifier agree with official Army bulk ordinal 4677465; the prominent economist's Navy chronology is incompatible.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 589 for pre-OSS employment; do not merge the economist namesake.","archival_review_priority":"medium"},
+    {"person_id":"bdbd09a2-a84a-5742-8bcd-8729068cf6ba","identity_status":"unresolved","identity_evidence":"Common-name directory and death-record leads lacked the indexed protected identifier and were rejected.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 589 for identity and pre-OSS chronology.","archival_review_priority":"high"},
+    {"person_id":"2f37ce6f-0ab2-5770-a0c8-3f1387ebe033","identity_status":"high_confidence","identity_evidence":"Exact indexed name and nonshared protected identifier agree with official Army bulk ordinal 1534876.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 589 for pre-OSS employment and assignment chronology.","archival_review_priority":"medium"},
+    {"person_id":"3163ae69-a99c-5ffe-8a99-8c0a3f3ae474","identity_status":"high_confidence","identity_evidence":"Exact indexed name and nonshared protected identifier agree with official Army bulk ordinal 1135128.","personnel_category":"enlisted_army_personnel","commissioned_officer":false,"manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 589 for pre-OSS employment and assignment chronology.","archival_review_priority":"medium"},
+    {"person_id":"31d07208-430d-5e41-87a1-2a2acda7d3d6","identity_status":"unresolved","identity_evidence":"Common-name searches produced multiple military namesakes and no candidate linked to the indexed major's officer number.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 589 for identity and pre-OSS chronology.","archival_review_priority":"high"},
+    {"person_id":"e4cdc7ec-89e6-584c-9dad-c9537689e80e","identity_status":"high_confidence","identity_evidence":"Exact indexed name and nonshared protected identifier agree with duplicate official Army bulk ordinals 4787286 and 9190065.","personnel_category":"enlisted_army_personnel","commissioned_officer":false,"manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 589 for pre-OSS chronology; verify whether Parker Pen preceded wartime service.","archival_review_priority":"medium"}
+  ],
+  "research_attempts": [
+    {"key":"lewis-paterson-officer-protocol-b738","person_id":"7dbfb86e-161a-5410-b181-a39c004c0355","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army context; CIA and Library of Congress access attempts; exact-name OSS, employer, occupation, obituary, directory, and archival searches","query_variant_type":"protocol_complete_batch_738","started_at":"2026-10-04T18:00:00-04:00","completed_at":"2026-10-04T22:30:00-04:00","outcome":"source_reviewed","sources_reviewed":4,"candidate_sources_rejected":6,"rejection_reasons":"The second index row and Army record support a probable duplicate, but no reviewed source names a pre-OSS employer.","research_notes":"The officer and enlisted rows remain separate pending file comparison.","next_action":"Compare both Box 588 files.","attempt_number":2,"research_agent_version":"before-oss-b738-v1"},
+    {"key":"lewis-paterson-enlisted-protocol-b738","person_id":"898ac3fb-3a7a-5ca4-bcb5-55b92ba2126f","source_adapter":"manual_staged_protocol","query_text":"NARA index and official Army context; CIA and Library of Congress access attempts; exact-name OSS, employer, occupation, obituary, directory, and archival searches","query_variant_type":"protocol_complete_batch_738","started_at":"2026-10-04T18:00:00-04:00","completed_at":"2026-10-04T22:30:00-04:00","outcome":"source_reviewed","sources_reviewed":4,"candidate_sources_rejected":6,"rejection_reasons":"Official Army evidence resolves identity, but no reviewed source names a pre-OSS employer.","research_notes":"Coded Army data were not converted into employer evidence.","next_action":"Compare both Box 588 files.","attempt_number":2,"research_agent_version":"before-oss-b738-v1"},
+    {"key":"alexander-pathy-protocol-b738","person_id":"17d184fe-d445-5d05-b5a8-09f1abfc7662","source_adapter":"manual_staged_protocol","query_text":"NARA index context; CIA and Library of Congress access attempts; exact-name OSS, employer, occupation, obituary, corporate, and archival searches","query_variant_type":"protocol_complete_batch_738","started_at":"2026-10-04T18:00:00-04:00","completed_at":"2026-10-04T22:30:00-04:00","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":8,"rejection_reasons":"Later corporate records lack an OSS identity bridge and cannot establish pre-OSS employment.","research_notes":"Later career evidence was not projected backward.","next_action":"Inspect Box 588.","attempt_number":2,"research_agent_version":"before-oss-b738-v1"},
+    {"key":"henry-patin-protocol-b738","person_id":"876117f5-f6df-5e75-9d99-8ad08f2792f7","source_adapter":"manual_staged_protocol","query_text":"NARA index context; CIA and Library of Congress access attempts; exact-name and officer-number OSS, employer, occupation, obituary, directory, and archival searches","query_variant_type":"protocol_complete_batch_738","started_at":"2026-10-04T18:00:00-04:00","completed_at":"2026-10-04T22:30:00-04:00","outcome":"no_result","sources_reviewed":4,"candidate_sources_rejected":9,"rejection_reasons":"No result supplied corroborating OSS identifiers or a defensible pre-OSS chronology.","research_notes":"Common-name military results were rejected.","next_action":"Inspect Box 588.","attempt_number":2,"research_agent_version":"before-oss-b738-v1"},
+    {"key":"erwin-patlak-protocol-b738","person_id":"094ef662-c09b-5087-bb2a-522fb2926498","source_adapter":"manual_staged_protocol","query_text":"NARA index context; CIA and Library of Congress access attempts; exact-name OSS, employer, occupation, university, physician, obituary, and archival searches","query_variant_type":"protocol_complete_batch_738","started_at":"2026-10-04T18:00:00-04:00","completed_at":"2026-10-04T22:30:00-04:00","outcome":"no_result","sources_reviewed":7,"candidate_sources_rejected":7,"rejection_reasons":"The rare-name physician and university sources lack a service or OSS identity bridge.","research_notes":"Postwar medical records were not treated as pre-OSS evidence.","next_action":"Inspect Box 588.","attempt_number":2,"research_agent_version":"before-oss-b738-v1"},
+    {"key":"john-patoch-protocol-b738","person_id":"ea5394ce-2882-5f93-be6a-a47fb7ff5a9c","source_adapter":"manual_staged_protocol","query_text":"NARA index and official Army context; CIA and Library of Congress access attempts; exact-name OSS, employer, occupation, obituary, newspaper, and archival searches","query_variant_type":"protocol_complete_batch_738","started_at":"2026-10-04T18:00:00-04:00","completed_at":"2026-10-04T22:30:00-04:00","outcome":"source_reviewed","sources_reviewed":4,"candidate_sources_rejected":5,"rejection_reasons":"Official Army evidence resolves identity, but no reviewed source names a pre-OSS employer.","research_notes":"The suffix is corroborated; coded occupation data remain private.","next_action":"Inspect Box 588.","attempt_number":2,"research_agent_version":"before-oss-b738-v1"},
+    {"key":"gustav-paton-protocol-b738","person_id":"8a2e0f3c-7dab-5641-b623-a7092ff748d7","source_adapter":"manual_staged_protocol","query_text":"NARA index context; CIA and Library of Congress access attempts; exact-name CAF-11, OSS, employer, occupation, obituary, directory, and archival searches","query_variant_type":"protocol_complete_batch_738","started_at":"2026-10-04T18:00:00-04:00","completed_at":"2026-10-04T22:30:00-04:00","outcome":"no_result","sources_reviewed":4,"candidate_sources_rejected":7,"rejection_reasons":"No reviewed source connected a namesake to the indexed civilian-grade row.","research_notes":"The unfamiliar grade is preserved without inventing an occupation.","next_action":"Inspect Box 588.","attempt_number":2,"research_agent_version":"before-oss-b738-v1"},
+    {"key":"larissa-patrekeyeva-protocol-b738","person_id":"ffb188b7-7cd4-5534-b4e4-4b3bd1e72dfc","source_adapter":"manual_staged_protocol","query_text":"NARA index context; CIA and Library of Congress access attempts; exact-name and transliteration-variant OSS, employer, occupation, Library of Congress, obituary, and archival searches","query_variant_type":"protocol_complete_batch_738","started_at":"2026-10-04T18:00:00-04:00","completed_at":"2026-10-04T22:30:00-04:00","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":5,"rejection_reasons":"Postwar exact-name evidence supports only a probable identity and does not establish pre-OSS employment.","research_notes":"The later research role is identity context only.","next_action":"Inspect Box 588.","attempt_number":2,"research_agent_version":"before-oss-b738-v1"},
+    {"key":"flay-patrick-protocol-b738","person_id":"416844e7-c4d5-59d8-ba01-f82be5056ddd","source_adapter":"manual_staged_protocol","query_text":"NARA index context; CIA and Library of Congress access attempts; exact-name and likely OCR-variant OSS, employer, occupation, obituary, directory, and archival searches","query_variant_type":"protocol_complete_batch_738","started_at":"2026-10-04T18:00:00-04:00","completed_at":"2026-10-04T22:30:00-04:00","outcome":"no_result","sources_reviewed":4,"candidate_sources_rejected":8,"rejection_reasons":"No spelling variant was supported by a source tied to the indexed officer.","research_notes":"Search aliases were not adopted as corrections.","next_action":"Inspect Box 588.","attempt_number":2,"research_agent_version":"before-oss-b738-v1"},
+    {"key":"fred-patrone-protocol-b738","person_id":"985b354a-0030-5103-8df9-04d22bd70162","source_adapter":"manual_staged_protocol","query_text":"NARA index and official Army context; CIA and Library of Congress access attempts; exact-name OSS, employer, occupation, obituary, directory, and archival searches","query_variant_type":"protocol_complete_batch_738","started_at":"2026-10-04T18:00:00-04:00","completed_at":"2026-10-04T22:30:00-04:00","outcome":"source_reviewed","sources_reviewed":4,"candidate_sources_rejected":6,"rejection_reasons":"Official Army evidence resolves identity, but no reviewed source names a pre-OSS employer.","research_notes":"Coded Army data were not converted into employer evidence.","next_action":"Inspect Box 588.","attempt_number":2,"research_agent_version":"before-oss-b738-v1"},
+    {"key":"paul-patsoros-protocol-b738","person_id":"d73b8cc0-e2b7-56c9-a836-1e5f68cab678","source_adapter":"manual_staged_protocol","query_text":"NARA index and official Army context; CIA and Library of Congress access attempts; exact-name and spelling-variant OSS, employer, occupation, obituary, cemetery, directory, and archival searches","query_variant_type":"protocol_complete_batch_738","started_at":"2026-10-04T18:00:00-04:00","completed_at":"2026-10-04T22:30:00-04:00","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":8,"rejection_reasons":"Official Army evidence resolves identity; postwar restaurant and cemetery leads do not establish pre-OSS employment.","research_notes":"Later records were not projected backward.","next_action":"Inspect Box 588.","attempt_number":2,"research_agent_version":"before-oss-b738-v1"},
+    {"key":"pises-pattaborgse-protocol-b738","person_id":"1c9b9153-2216-5e2c-9587-a197107b6829","source_adapter":"manual_staged_protocol","query_text":"NARA index context; CIA and Library of Congress access attempts; exact-name and transliteration-variant OSS, Free Thai, employer, occupation, university, newspaper, and archival searches","query_variant_type":"protocol_complete_batch_738","started_at":"2026-10-04T18:00:00-04:00","completed_at":"2026-10-04T22:30:00-04:00","outcome":"source_reviewed","sources_reviewed":7,"candidate_sources_rejected":3,"rejection_reasons":"Cornell is documented as student status, not employment; no source establishes the immediate pre-OSS affiliation.","research_notes":"Institutional and scholarly evidence resolves the principal transliterations and documents prewar study.","next_action":"Review Box 588 for immediate pre-OSS chronology.","attempt_number":2,"research_agent_version":"before-oss-b738-v1"},
+    {"key":"paul-pattee-protocol-b738","person_id":"19cbec33-b76e-5f48-bb2a-1969eb8aafba","source_adapter":"manual_staged_protocol","query_text":"NARA index and official Army context; CIA and Library of Congress access attempts; exact-name OSS, employer, occupation, obituary, directory, and archival searches","query_variant_type":"protocol_complete_batch_738","started_at":"2026-10-04T18:00:00-04:00","completed_at":"2026-10-04T22:30:00-04:00","outcome":"source_reviewed","sources_reviewed":4,"candidate_sources_rejected":6,"rejection_reasons":"Official Army evidence resolves identity, but no reviewed source names a pre-OSS employer.","research_notes":"Coded Army data were not converted into employer evidence.","next_action":"Inspect Box 588.","attempt_number":2,"research_agent_version":"before-oss-b738-v1"},
+    {"key":"carl-patten-protocol-b738","person_id":"209cb8fb-609e-5f61-a0cf-7290705fb167","source_adapter":"manual_staged_protocol","query_text":"NARA index context; CIA and Library of Congress access attempts; exact-name and protected-identifier OSS, employer, occupation, obituary, military, and archival searches","query_variant_type":"protocol_complete_batch_738","started_at":"2026-10-04T18:00:00-04:00","completed_at":"2026-10-04T22:30:00-04:00","outcome":"no_result","sources_reviewed":4,"candidate_sources_rejected":8,"rejection_reasons":"No reviewed source linked an exact-name result to the indexed sergeant's protected identifier.","research_notes":"A Vietnam-era namesake was rejected on chronology.","next_action":"Inspect Box 588.","attempt_number":2,"research_agent_version":"before-oss-b738-v1"},
+    {"key":"alexander-r-patterson-protocol-b738","person_id":"040c2591-ed93-5837-8527-23a9994e0e28","source_adapter":"manual_staged_protocol","query_text":"NARA index and official Army context; CIA and Library of Congress access attempts; exact-name OSS, employer, occupation, obituary, directory, and archival searches","query_variant_type":"protocol_complete_batch_738","started_at":"2026-10-04T18:00:00-04:00","completed_at":"2026-10-04T22:30:00-04:00","outcome":"source_reviewed","sources_reviewed":4,"candidate_sources_rejected":9,"rejection_reasons":"Official Army evidence resolves identity, but no reviewed source names a pre-OSS employer.","research_notes":"CIA robots and LoC network failures were logged as access failures, not negative evidence.","next_action":"Inspect Box 589.","attempt_number":3,"research_agent_version":"before-oss-b738-v1"},
+    {"key":"analee-patterson-protocol-b738","person_id":"3f0c035d-f54c-526e-a3ef-3d0cf352598e","source_adapter":"manual_staged_protocol","query_text":"NARA index context; CIA and Library of Congress access attempts; exact-name P-1, OSS, employer, occupation, obituary, directory, and archival searches","query_variant_type":"protocol_complete_batch_738","started_at":"2026-10-04T18:00:00-04:00","completed_at":"2026-10-04T22:30:00-04:00","outcome":"no_result","sources_reviewed":4,"candidate_sources_rejected":7,"rejection_reasons":"No reviewed source connected a namesake to the indexed civilian-grade row.","research_notes":"The original spelling and grade remain preserved.","next_action":"Inspect Box 589.","attempt_number":2,"research_agent_version":"before-oss-b738-v1"},
+    {"key":"benjamin-patterson-protocol-b738","person_id":"79a99f12-559c-5036-a0b0-624063963786","source_adapter":"manual_staged_protocol","query_text":"NARA index context; CIA and Library of Congress access attempts; exact-name OSS, employer, occupation, obituary, cemetery, directory, and archival searches","query_variant_type":"protocol_complete_batch_738","started_at":"2026-10-04T18:00:00-04:00","completed_at":"2026-10-04T22:30:00-04:00","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":12,"rejection_reasons":"Numerous common-name results lacked any corroborating OSS identifier.","research_notes":"Genealogy and people-finder results were rejected.","next_action":"Inspect Box 589.","attempt_number":2,"research_agent_version":"before-oss-b738-v1"},
+    {"key":"gardner-patterson-protocol-b738","person_id":"952afbad-9eec-5ce2-b900-7573ef7cdc17","source_adapter":"manual_staged_protocol","query_text":"NARA index and official Army context; CIA and Library of Congress access attempts; exact-name OSS, employer, occupation, obituary, economist, Navy, and archival searches","query_variant_type":"protocol_complete_batch_738","started_at":"2026-10-04T18:00:00-04:00","completed_at":"2026-10-04T22:30:00-04:00","outcome":"source_reviewed","sources_reviewed":7,"candidate_sources_rejected":10,"rejection_reasons":"Official Army evidence resolves identity; the famous economist's Treasury and Navy chronology is incompatible.","research_notes":"No employer from the famous namesake was transferred.","next_action":"Inspect Box 589.","attempt_number":2,"research_agent_version":"before-oss-b738-v1"},
+    {"key":"harry-patterson-protocol-b738","person_id":"bdbd09a2-a84a-5742-8bcd-8729068cf6ba","source_adapter":"manual_staged_protocol","query_text":"NARA index context; CIA and Library of Congress access attempts; exact-name OSS, employer, occupation, obituary, state record, directory, and archival searches","query_variant_type":"protocol_complete_batch_738","started_at":"2026-10-04T18:00:00-04:00","completed_at":"2026-10-04T22:30:00-04:00","outcome":"no_result","sources_reviewed":6,"candidate_sources_rejected":11,"rejection_reasons":"Common-name directory and death-record leads lack the indexed protected identifier.","research_notes":"A 1937 lineman lead was not adopted without identity corroboration.","next_action":"Inspect Box 589.","attempt_number":2,"research_agent_version":"before-oss-b738-v1"},
+    {"key":"james-l-patterson-protocol-b738","person_id":"2f37ce6f-0ab2-5770-a0c8-3f1387ebe033","source_adapter":"manual_staged_protocol","query_text":"NARA index and official Army context; CIA and Library of Congress access attempts; exact-name OSS, employer, occupation, obituary, directory, and archival searches","query_variant_type":"protocol_complete_batch_738","started_at":"2026-10-04T18:00:00-04:00","completed_at":"2026-10-04T22:30:00-04:00","outcome":"source_reviewed","sources_reviewed":4,"candidate_sources_rejected":12,"rejection_reasons":"Official Army evidence resolves identity, but common-name results do not establish a pre-OSS employer.","research_notes":"Coded Army data were not converted into employer evidence.","next_action":"Inspect Box 589.","attempt_number":2,"research_agent_version":"before-oss-b738-v1"},
+    {"key":"james-p-patterson-protocol-b738","person_id":"3163ae69-a99c-5ffe-8a99-8c0a3f3ae474","source_adapter":"manual_staged_protocol","query_text":"NARA index and official Army context; CIA and Library of Congress access attempts; exact-name OSS, employer, occupation, obituary, directory, and archival searches","query_variant_type":"protocol_complete_batch_738","started_at":"2026-10-04T18:00:00-04:00","completed_at":"2026-10-04T22:30:00-04:00","outcome":"source_reviewed","sources_reviewed":4,"candidate_sources_rejected":12,"rejection_reasons":"Official Army evidence resolves identity, but common-name results do not establish a pre-OSS employer.","research_notes":"Coded Army data were not converted into employer evidence.","next_action":"Inspect Box 589.","attempt_number":2,"research_agent_version":"before-oss-b738-v1"},
+    {"key":"james-t-patterson-protocol-b738","person_id":"31d07208-430d-5e41-87a1-2a2acda7d3d6","source_adapter":"manual_staged_protocol","query_text":"NARA index context; CIA and Library of Congress access attempts; exact-name, rank, and officer-number OSS, employer, occupation, obituary, military, and archival searches","query_variant_type":"protocol_complete_batch_738","started_at":"2026-10-04T18:00:00-04:00","completed_at":"2026-10-04T22:30:00-04:00","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":14,"rejection_reasons":"No common-name result matched the indexed officer number or established pre-OSS chronology.","research_notes":"Famous and unrelated military namesakes were rejected.","next_action":"Inspect Box 589.","attempt_number":2,"research_agent_version":"before-oss-b738-v1"},
+    {"key":"jere-patterson-protocol-b738","person_id":"e4cdc7ec-89e6-584c-9dad-c9537689e80e","source_adapter":"manual_staged_protocol","query_text":"NARA index and official Army context; CIA and Library of Congress access attempts; exact-name OSS, employer, occupation, obituary, Parker Pen, advertising, newspaper, and archival searches","query_variant_type":"protocol_complete_batch_738","started_at":"2026-10-04T18:00:00-04:00","completed_at":"2026-10-04T22:30:00-04:00","outcome":"source_reviewed","sources_reviewed":8,"candidate_sources_rejected":9,"rejection_reasons":"Official Army evidence resolves identity; 1947-48 Parker Pen and advertising records do not establish employment before wartime service.","research_notes":"Duplicate bulk rows describe one identity; postwar chronology was not projected backward.","next_action":"Inspect Box 589 and test the Parker Pen lead against the personnel file.","attempt_number":2,"research_agent_version":"before-oss-b738-v1"}
+  ]
+}
