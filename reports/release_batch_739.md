@@ -88,8 +88,15 @@ The exact rebuilt tree passed these local release gates:
 
 ## Publication verification
 
-Publication is pending the Batch 739 commit, GitHub Actions test and Pages
-workflows, and immutable live verification against that exact commit.
+Batch 739 was published from commit
+[`8a95808`](https://github.com/therealjameswilson/before-oss/commit/8a9580839f63686cb85ce5dec3d20277d260b05b).
+The [Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/37243543233)
+and [GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/37243543217)
+both completed successfully. Immutable live verification against that commit
+confirmed 67 assets totaling 106,612,503 bytes at manifest SHA-256
+`1101ac345e844486bdf37c78a545bd8665b157df8b744b0ce1741ea2cea15337`,
+eight core routes, 31 source-register pages, and all 23 affected profiles at
+<https://therealjameswilson.github.io/before-oss/>.
 
 ## Resume
 
