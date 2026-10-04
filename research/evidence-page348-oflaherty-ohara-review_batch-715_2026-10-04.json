@@ -1,0 +1,1201 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 715 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b715",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 569-570",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 348, rows 1-23; visually checked against a 300 dpi render",
+      "access_date": "2026-10-04",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Original spellings and the source note for Marbury B Ogle are preserved. Full service identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b715",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department. Adjutant General's Office",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946",
+      "locator": "Bulk ordinals 673785, 1474388, 1496386, 2253032, 2253033, 3557784, and 4621618; ordinal 1835800 reviewed as a surname conflict",
+      "access_date": "2026-10-04",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Selective Service System, Record Group 147",
+      "rights_notes": "Protected identifiers, coded occupations, and raw bulk rows are not published or retained."
+    },
+    {
+      "key": "hayashi-ogata-b715",
+      "stable_url": "https://www.konan-u.ac.jp/souken/wp-content/uploads/2015/02/c862d92851678fdb21da1dbafe00cdc9.pdf",
+      "archival_identifier": "Konan University Research Institute Series 131",
+      "title": "Asian American Mata Hari: Gender, Race, and the OSS during World War II",
+      "author_creator": "Brian Masaru Hayashi",
+      "repository_publisher": "Konan University Research Institute",
+      "publication_record_date": "2018-02-23",
+      "locator": "PDF pages 55-56 of 106; article begins on page 51",
+      "access_date": "2026-10-04",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Movements of Women across Nations and Their Effects on Nation-States & International Relationships",
+      "rights_notes": "Used only as qualified identity context; it does not supply Dorothy Ogata's middle initial or pre-OSS employer."
+    },
+    {
+      "key": "ogle-in-memoriam-b715",
+      "stable_url": "https://www.cambridge.org/core/journals/ps-political-science-and-politics/article/george-d-mccune/528F403EF29E47F8E97234E816D81D5C",
+      "archival_identifier": "DOI 10.1017/S1049096500053026",
+      "title": "In Memoriam: Marbury B. Ogle",
+      "author_creator": "David A. Caputo; Myron Q. Hale; Leon E. Trachtman; Frank L. Wilson",
+      "repository_publisher": "PS: Political Science & Politics / Cambridge University Press",
+      "publication_record_date": "1991-03",
+      "locator": "Volume 24, issue 1, page 79",
+      "access_date": "2026-10-04",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "People in Political Science",
+      "rights_notes": "Purdue University colleagues supplied the obituary; only project-authored paraphrases are retained."
+    },
+    {
+      "key": "osu-minutes-oglevee-b715",
+      "stable_url": "https://trustees.osu.edu/sites/default/files/documents/2018/11/archived_minutes_1943-1946.pdf",
+      "archival_identifier": "Ohio State University Board of Trustees minutes, 1943-1946",
+      "title": "Record of Proceedings of the Board of Trustees of the Ohio State University, 1943-1946",
+      "author_creator": "Board of Trustees of the Ohio State University",
+      "repository_publisher": "The Ohio State University",
+      "publication_record_date": "1944-02-14",
+      "locator": "PDF page 143; proceedings page 141; History appointments",
+      "access_date": "2026-10-04",
+      "source_quality": "A_direct_official",
+      "collection_name": "Archived Board of Trustees minutes",
+      "rights_notes": "The appointment establishes a 1944 role but not when Oglevee entered OSS."
+    },
+    {
+      "key": "london-gazette-ohanlon-b715",
+      "stable_url": "https://www.thegazette.co.uk/London/issue/37909/supplement/1313/data.pdf",
+      "archival_identifier": "London Gazette issue 37909, supplement, page 1313",
+      "title": "Supplement to The London Gazette, 20 March 1947",
+      "author_creator": "The London Gazette",
+      "repository_publisher": "The National Archives (United Kingdom)",
+      "publication_record_date": "1947-03-20",
+      "locator": "Page 1313, Medal of Freedom with Bronze Palm",
+      "access_date": "2026-10-04",
+      "source_quality": "A_direct_official",
+      "collection_name": "The London Gazette",
+      "rights_notes": "The notice establishes name, rank, Intelligence Corps affiliation, and award, but not an OSS recruitment date."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "doj-special-war-policy-unit-b715",
+      "canonical_name": "U.S. Department of Justice, Special War Policy Unit",
+      "historical_name": "special war policy unit with the Department of Justice",
+      "aliases": [
+        "Special War Policy Unit"
+      ],
+      "organization_type": "federal government wartime policy unit",
+      "sector": "federal_government",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "active_dates": "1943-1944",
+      "normalization_notes": "The obituary's wording is preserved. The unit remains distinct from OSS."
+    },
+    {
+      "key": "western-reserve-university-b715",
+      "canonical_name": "Western Reserve University",
+      "historical_name": "Western Reserve University",
+      "aliases": [
+        "Western Reserve"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Cleveland",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "active_dates": "1826-1967",
+      "normalization_notes": "The historical institution is preserved; modern Case Western Reserve University is only a documented successor."
+    },
+    {
+      "key": "ohio-state-university-b715",
+      "canonical_name": "The Ohio State University",
+      "historical_name": "Ohio State University",
+      "aliases": [
+        "Ohio State"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Columbus",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "normalization_notes": "Historical source wording is retained separately from the canonical contemporary styling."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "marbury-ogle-doj-b715",
+      "person_id": "eb1f55e1-c295-53d3-b476-8e9cd0ac7ba9",
+      "organization_key": "doj-special-war-policy-unit-b715",
+      "organization_name_as_found": "special war policy unit with the Department of Justice",
+      "role_title": "Senior organizational analyst",
+      "occupation": "organizational analyst",
+      "relationship_type": "government_assignment",
+      "start_date": "1943",
+      "end_date": "1944",
+      "date_precision": "year",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The obituary states that Ogle served in this unit in 1943-44 and then joined the OSS Analysis Branch."
+    },
+    {
+      "key": "marbury-ogle-western-reserve-b715",
+      "person_id": "eb1f55e1-c295-53d3-b476-8e9cd0ac7ba9",
+      "organization_key": "western-reserve-university-b715",
+      "organization_name_as_found": "Western Reserve",
+      "role_title": "Teacher",
+      "occupation": "university teacher",
+      "relationship_type": "employment",
+      "start_date": "1937",
+      "end_date": "1942",
+      "date_precision": "year",
+      "city": "Cleveland",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "This teaching employment immediately precedes Ogle's named wartime government assignment."
+    },
+    {
+      "key": "marbury-ogle-ohio-state-b715",
+      "person_id": "eb1f55e1-c295-53d3-b476-8e9cd0ac7ba9",
+      "organization_key": "ohio-state-university-b715",
+      "organization_name_as_found": "Ohio State University",
+      "role_title": "Instructor of political science",
+      "occupation": "political science instructor",
+      "relationship_type": "employment",
+      "end_date": "1937",
+      "date_precision": "end year",
+      "city": "Columbus",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The obituary documents this earlier employment before Western Reserve."
+    },
+    {
+      "key": "john-oglevee-ohio-state-b715",
+      "person_id": "329cecba-b627-5f37-a4d2-08593ca5fba1",
+      "organization_key": "ohio-state-university-b715",
+      "organization_name_as_found": "Ohio State University",
+      "role_title": "Reader in History",
+      "occupation": "history reader",
+      "relationship_type": "employment",
+      "start_date": "1944-01-01",
+      "date_precision": "effective date; winter period",
+      "city": "Columbus",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The rare exact name aligns, but the minutes do not establish whether the appointment preceded or overlapped OSS service."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-dorothy-ogata-b715",
+      "person_id": "87b4e66f-86a1-5699-ad82-6465b760be4a",
+      "claim_type": "identity",
+      "claim_text": "The indexed Dorothy T Ogata is probably the Dorothy Ogata identified in a scholarly study as a female OSS colleague.",
+      "evidence_paraphrase": "Hayashi names Dorothy Ogata as a younger female OSS colleague in the same wartime propaganda-work context.",
+      "identity_match_assessment": "Probable from the rare exact first and surname plus direct OSS context; the source omits the indexed middle initial.",
+      "temporal_assessment": "The source establishes wartime OSS context but no pre-OSS affiliation or entry date.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No internment, education, or employer result is assigned without a direct bridge.",
+      "sources": [
+        {
+          "source_key": "nara-index-b715",
+          "support_type": "supports",
+          "locator_override": "PDF page 348, row 3"
+        },
+        {
+          "source_key": "hayashi-ogata-b715",
+          "support_type": "supports",
+          "locator_override": "PDF pages 55-56 of 106"
+        }
+      ]
+    },
+    {
+      "key": "identity-edward-ogden-conflict-b715",
+      "person_id": "1f5dd951-1ba3-5b4e-838d-faad8208cd27",
+      "claim_type": "identity",
+      "claim_text": "The indexed Edward Ogden record conflicts with an official Army row carrying the same protected identifier but the surname OGDEE.",
+      "evidence_paraphrase": "The index prints Edward Ogden; official Army bulk ordinal 1835800 gives OGDEE EDWARD for the same nonpublic identifier.",
+      "identity_match_assessment": "Conflicting: the protected identifier is strong evidence, but the surname difference is material.",
+      "temporal_assessment": "Neither source resolves the surname conflict or establishes a named pre-OSS affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The candidate is rejected pending Box 569 review; neither spelling replaces the other.",
+      "sources": [
+        {
+          "source_key": "nara-index-b715",
+          "support_type": "supports",
+          "locator_override": "PDF page 348, row 4"
+        },
+        {
+          "source_key": "army-bulk-b715",
+          "support_type": "contradicts",
+          "locator_override": "Bulk ordinal 1835800"
+        }
+      ]
+    },
+    {
+      "key": "identity-thomas-a-ogden-b715",
+      "person_id": "0bc4cc82-4bac-5d01-94f2-3241189aa7fb",
+      "claim_type": "identity",
+      "claim_text": "The indexed Thomas A Ogden is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The indexed record and official Army bulk ordinal 4621618 share a nonpublic identifier; the names agree exactly.",
+      "identity_match_assessment": "High confidence from exact name agreement and a nonshared protected identifier.",
+      "temporal_assessment": "The Army row establishes identity but not a named pre-OSS employer or immediate assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army occupation data are not converted into employment evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b715",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-bulk-b715",
+          "support_type": "supports",
+          "locator_override": "Bulk ordinal 4621618"
+        }
+      ]
+    },
+    {
+      "key": "identity-ezra-g-ogletree-b715",
+      "person_id": "06a807ce-3b19-59d9-9860-c1d657622371",
+      "claim_type": "identity",
+      "claim_text": "The indexed Ezra G Ogletree is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The indexed record and official Army bulk ordinal 1474388 share a nonpublic identifier; the names agree exactly.",
+      "identity_match_assessment": "High confidence from exact name agreement and a nonshared protected identifier.",
+      "temporal_assessment": "The Army row establishes identity but not a named pre-OSS employer or immediate assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army occupation data are not converted into employment evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b715",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-bulk-b715",
+          "support_type": "supports",
+          "locator_override": "Bulk ordinal 1474388"
+        }
+      ]
+    },
+    {
+      "key": "identity-warren-a-ogren-b715",
+      "person_id": "47fb69d3-a0b2-5719-818f-7417d1f379c0",
+      "claim_type": "identity",
+      "claim_text": "The indexed Warren A Ogren is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The indexed record and official Army bulk ordinal 1496386 share a nonpublic identifier; the names agree exactly.",
+      "identity_match_assessment": "High confidence from exact name agreement and a nonshared protected identifier.",
+      "temporal_assessment": "The Army row establishes identity but not a named pre-OSS employer or immediate assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army occupation data are not converted into employment evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b715",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-bulk-b715",
+          "support_type": "supports",
+          "locator_override": "Bulk ordinal 1496386"
+        }
+      ]
+    },
+    {
+      "key": "identity-edward-c-ohara-b715",
+      "person_id": "90b8f7f2-f3fd-5aac-a3d0-c8208b8ce0ac",
+      "claim_type": "identity",
+      "claim_text": "The indexed Edward C Ohara is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The indexed record and official Army bulk ordinal 3557784 share a nonpublic identifier; the names agree exactly.",
+      "identity_match_assessment": "High confidence from exact name agreement and a nonshared protected identifier.",
+      "temporal_assessment": "The Army row establishes identity but not a named pre-OSS employer or immediate assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army occupation data are not converted into employment evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b715",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-bulk-b715",
+          "support_type": "supports",
+          "locator_override": "Bulk ordinal 3557784"
+        }
+      ]
+    },
+    {
+      "key": "identity-james-f-ohara-b715",
+      "person_id": "1a9f2a73-b2a2-5926-9a96-d0978dff7048",
+      "claim_type": "identity",
+      "claim_text": "The indexed James F Ohara is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The indexed record and official Army bulk ordinal 673785 share a nonpublic identifier; the names agree exactly.",
+      "identity_match_assessment": "High confidence from exact name agreement and a nonshared protected identifier.",
+      "temporal_assessment": "The Army row establishes identity but not a named pre-OSS employer or immediate assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army occupation data are not converted into employment evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b715",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-bulk-b715",
+          "support_type": "supports",
+          "locator_override": "Bulk ordinal 673785"
+        }
+      ]
+    },
+    {
+      "key": "identity-louis-oguss-b715",
+      "person_id": "c628754b-a341-515a-93db-ef93b040d660",
+      "claim_type": "identity",
+      "claim_text": "The indexed Louis Oguss is a high-confidence match to two duplicate official Army bulk rows.",
+      "evidence_paraphrase": "Army bulk ordinals 2253032 and 2253033 repeat the exact name and same nonpublic identifier.",
+      "identity_match_assessment": "High confidence; the two official rows are duplicate source entries, not two people.",
+      "temporal_assessment": "The rows establish identity only and disagree on coded entry dates; neither names an employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Both rows remain in the private audit trail; no union correspondence lead is converted into employment evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b715",
+          "support_type": "supports",
+          "locator_override": "PDF page 348, row 19"
+        },
+        {
+          "source_key": "army-bulk-b715",
+          "support_type": "supports",
+          "locator_override": "Bulk ordinals 2253032 and 2253033"
+        }
+      ]
+    },
+    {
+      "key": "identity-marbury-b-ogle-b715",
+      "person_id": "eb1f55e1-c295-53d3-b476-8e9cd0ac7ba9",
+      "claim_type": "identity",
+      "claim_text": "The indexed Marbury B Ogle is a high-confidence match to political scientist Marbury Bladen Ogle Jr.",
+      "evidence_paraphrase": "A Purdue-authored obituary gives the distinctive full name and an explicit Justice Department-to-OSS Analysis Branch chronology compatible with the P-6 row.",
+      "identity_match_assessment": "High confidence from the rare exact name, middle-name expansion, explicit OSS service, and compatible grade.",
+      "temporal_assessment": "The obituary supplies a continuous 1937-1945 institutional and wartime chronology.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The index note 'possibly' remains visible; the external chronology independently supports the identity.",
+      "sources": [
+        {
+          "source_key": "nara-index-b715",
+          "support_type": "supports",
+          "locator_override": "PDF page 348, row 12; source note: possibly"
+        },
+        {
+          "source_key": "ogle-in-memoriam-b715",
+          "support_type": "supports",
+          "locator_override": "Volume 24, issue 1, page 79"
+        }
+      ]
+    },
+    {
+      "key": "immediate-marbury-ogle-doj-b715",
+      "person_id": "eb1f55e1-c295-53d3-b476-8e9cd0ac7ba9",
+      "affiliation_key": "marbury-ogle-doj-b715",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Marbury B Ogle's immediate pre-OSS affiliation was the U.S. Department of Justice's special war policy unit.",
+      "evidence_paraphrase": "The obituary states that Ogle was a senior organizational analyst in the Justice Department unit in 1943-44 and then joined OSS Analysis.",
+      "identity_match_assessment": "High confidence from the distinctive identity and explicit OSS chronology.",
+      "temporal_assessment": "Explicit immediate: the source directly sequences the Justice Department role before OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This is a government assignment, not a civilian company employer.",
+      "sources": [
+        {
+          "source_key": "ogle-in-memoriam-b715",
+          "support_type": "supports",
+          "locator_override": "Page 79, Marbury B. Ogle section"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-marbury-ogle-western-reserve-b715",
+      "person_id": "eb1f55e1-c295-53d3-b476-8e9cd0ac7ba9",
+      "affiliation_key": "marbury-ogle-western-reserve-b715",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Marbury B Ogle's last documented civilian employer before his wartime government assignment was Western Reserve University.",
+      "evidence_paraphrase": "The obituary places Ogle teaching at Western Reserve from 1937 through 1942, followed by his 1943-44 Justice Department role.",
+      "identity_match_assessment": "High confidence from the distinctive identity and continuous chronology.",
+      "temporal_assessment": "Strongly date-bounded as the final documented civilian employment before the named wartime assignment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The historical Western Reserve name is preserved.",
+      "sources": [
+        {
+          "source_key": "ogle-in-memoriam-b715",
+          "support_type": "supports",
+          "locator_override": "Page 79, Marbury B. Ogle section"
+        }
+      ]
+    },
+    {
+      "key": "earlier-marbury-ogle-ohio-state-b715",
+      "person_id": "eb1f55e1-c295-53d3-b476-8e9cd0ac7ba9",
+      "affiliation_key": "marbury-ogle-ohio-state-b715",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Marbury B Ogle was an instructor of political science at Ohio State University until 1937.",
+      "evidence_paraphrase": "The obituary states the instructor role separately from Ogle's Ohio State education.",
+      "identity_match_assessment": "High confidence from the distinctive identity and chronology.",
+      "temporal_assessment": "Documented prewar employment, earlier than Western Reserve and the Justice Department.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Education alone is not used as employment evidence.",
+      "sources": [
+        {
+          "source_key": "ogle-in-memoriam-b715",
+          "support_type": "supports",
+          "locator_override": "Page 79, Marbury B. Ogle section"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-f-oglevee-b715",
+      "person_id": "329cecba-b627-5f37-a4d2-08593ca5fba1",
+      "claim_type": "identity",
+      "claim_text": "The indexed John F Oglevee is probably the John F. Oglevee appointed Reader in History at Ohio State University in 1944.",
+      "evidence_paraphrase": "Official Board minutes record the rare exact name and middle initial as a History reader effective January 1, 1944.",
+      "identity_match_assessment": "Probable; the university record does not directly mention OSS or the P-2 grade.",
+      "temporal_assessment": "The appointment is precisely dated, but its sequence relative to OSS is unknown.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The nineteenth-century John Finley Oglevee is rejected as a namesake.",
+      "sources": [
+        {
+          "source_key": "nara-index-b715",
+          "support_type": "supports",
+          "locator_override": "PDF page 348, row 15"
+        },
+        {
+          "source_key": "osu-minutes-oglevee-b715",
+          "support_type": "supports",
+          "locator_override": "PDF page 143; proceedings page 141"
+        }
+      ]
+    },
+    {
+      "key": "other-pre-oss-john-oglevee-ohio-state-b715",
+      "person_id": "329cecba-b627-5f37-a4d2-08593ca5fba1",
+      "affiliation_key": "john-oglevee-ohio-state-b715",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A probable identity match documents John F Oglevee as a Reader in History at Ohio State University effective January 1, 1944.",
+      "evidence_paraphrase": "Ohio State's Board minutes list John F. Oglevee under History as a Reader for the winter period.",
+      "identity_match_assessment": "Probable from the rare exact name and middle initial but without a direct OSS-file bridge.",
+      "temporal_assessment": "Temporal relation uncertain; the source does not show whether the appointment preceded or overlapped OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The role is not labeled immediate pre-OSS or last civilian employment.",
+      "sources": [
+        {
+          "source_key": "osu-minutes-oglevee-b715",
+          "support_type": "supports",
+          "locator_override": "PDF page 143; proceedings page 141"
+        }
+      ]
+    },
+    {
+      "key": "identity-patrick-ohanlon-b715",
+      "person_id": "16976be7-cfc0-5b4b-bb9d-18d0e8c53d02",
+      "claim_type": "identity",
+      "claim_text": "The indexed Patrick Ohanlon is a high-confidence match to British Intelligence Corps lieutenant-colonel Patrick Hudson O'Hanlon.",
+      "evidence_paraphrase": "The London Gazette records the uncommon name, matching rank, Intelligence Corps affiliation, and a U.S. Medal of Freedom with Bronze Palm.",
+      "identity_match_assessment": "High confidence from the uncommon name, matching rank, allied intelligence affiliation, and U.S. recognition.",
+      "temporal_assessment": "The notice documents wartime status but not the exact OSS liaison chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Intelligence Corps is identity evidence, not a claimed immediate pre-OSS assignment.",
+      "sources": [
+        {
+          "source_key": "nara-index-b715",
+          "support_type": "supports",
+          "locator_override": "PDF page 348, row 20"
+        },
+        {
+          "source_key": "london-gazette-ohanlon-b715",
+          "support_type": "supports",
+          "locator_override": "Page 1313"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "58b33c15-31ea-5166-b549-30be0e004b92",
+      "identity_status": "unresolved",
+      "identity_evidence": "No source uniquely bridged Julian A Oflaherty to an external identity or named affiliation.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 569 for identity, Caf-4 context, and pre-OSS evidence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "69fe4ea3-dfc2-5d79-91ec-325f2b6432e9",
+      "identity_status": "unresolved",
+      "identity_evidence": "Staged searches did not establish a unique identity or named affiliation for Douglas N Ogan.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 569 for identity and Caf-12 context.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "87b4e66f-86a1-5699-ad82-6465b760be4a",
+      "identity_status": "probable",
+      "identity_evidence": "A scholarly study identifies a Dorothy Ogata as an OSS colleague, but omits the indexed middle initial and pre-OSS chronology.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 569 to confirm identity and pre-OSS affiliation.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1f5dd951-1ba3-5b4e-838d-faad8208cd27",
+      "identity_status": "conflicting",
+      "identity_evidence": "The index prints Edward Ogden while the protected identifier points to OGDEE EDWARD.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Inspect Box 569 before any merge with OGDEE EDWARD.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "c365d76b-f880-5e41-89ff-b4d77af9be79",
+      "identity_status": "unresolved",
+      "identity_evidence": "Officer-name results lacked two corroborating identifiers beyond the name.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 569 for the officer identifier and chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0bc4cc82-4bac-5d01-94f2-3241189aa7fb",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed name and a nonshared protected identifier agree with Army bulk ordinal 4621618.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 569 for a named employer or assignment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "93ffbe19-b195-5336-9a98-24b1d47d7960",
+      "identity_status": "unresolved",
+      "identity_evidence": "Common-name results did not clarify the indexed PD notation or establish a unique identity.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 569 for identity, PD context, and chronology.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "4eb5d817-6141-5eff-b10d-406fd0497543",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and identifier searches did not establish a reliable external identity.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 569 for identity and chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7eb5508f-edce-5ce6-9743-5e2b2f05452e",
+      "identity_status": "unresolved",
+      "identity_evidence": "No reliable source uniquely linked Martha C Ogilvie to a pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 569 for identity and P-1 context.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "982b8c68-565d-5739-a15e-71691572c593",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and grade searches did not establish Carla Ogle's external identity.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 569 for identity and Caf-5 context.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "21fc0746-dd8c-51b9-8b93-33ccf747b163",
+      "identity_status": "unresolved",
+      "identity_evidence": "Rare-name and officer searches yielded no source with two corroborating identifiers.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 569 for the full name, identifier, and chronology.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "eb1f55e1-c295-53d3-b476-8e9cd0ac7ba9",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare name, expanded middle name, compatible P-6 grade, and explicit Justice Department-to-OSS chronology establish identity; the index note 'possibly' remains visible.",
+      "manual_review_required": false,
+      "research_status": "completed",
+      "next_action": "Review Box 569 to confirm chronology and any 1942-43 gap.",
+      "archival_review_priority": "medium",
+      "name_variants": [
+        "Marbury Bladen Ogle Jr.",
+        "Marbury B. Ogle"
+      ]
+    },
+    {
+      "person_id": "9230aff7-aafc-5b94-ad4a-6040b286028a",
+      "identity_status": "unresolved",
+      "identity_evidence": "Namesake results lacked an OSS bridge; the letter-prefixed value was not forced into an incompatible Army search.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 569 for identity and affiliation evidence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "06a807ce-3b19-59d9-9860-c1d657622371",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed name and protected identifier agree with Army bulk ordinal 1474388, which adds Jr.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 569 for a named employer or assignment.",
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Ezra G Ogletree Jr.",
+        "Ezra G. Ogletree, Jr."
+      ]
+    },
+    {
+      "person_id": "329cecba-b627-5f37-a4d2-08593ca5fba1",
+      "identity_status": "probable",
+      "identity_evidence": "A rare exact name aligns with a 1944 Ohio State appointment, but no source directly bridges it to the OSS file.",
+      "manual_review_required": true,
+      "research_status": "needs_temporal_review",
+      "next_action": "Inspect Box 569 to confirm identity and sequence the appointment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2356b15c-9b3d-513e-a350-b11c314da867",
+      "identity_status": "unresolved",
+      "identity_evidence": "A postwar Phyllis M Ogrean directory entry lacked an identity and pre-OSS bridge.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 570 for identity and affiliation evidence.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2b2525d3-9adc-5e42-af3c-baa9d125ddcf",
+      "identity_status": "unresolved",
+      "identity_evidence": "A younger namesake whose 1944 schooling conflicts with the Caf-5 role was rejected.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 570 for identity and Caf-5 context.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "47fb69d3-a0b2-5719-818f-7417d1f379c0",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed name and a nonshared protected identifier agree with Army bulk ordinal 1496386.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 570 for a named employer or assignment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c628754b-a341-515a-93db-ef93b040d660",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact name and protected identifier agree with duplicate Army bulk ordinals 2253032 and 2253033.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 570 for the authoritative chronology and affiliation.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "16976be7-cfc0-5b4b-bb9d-18d0e8c53d02",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The uncommon name, matching lieutenant-colonel rank, Intelligence Corps, and U.S. award align with Patrick Hudson O'Hanlon.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 570 and Intelligence Corps records for OSS chronology.",
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Patrick Hudson O'Hanlon",
+        "Patrick Hudson Ohanlon"
+      ],
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": true
+    },
+    {
+      "person_id": "90b8f7f2-f3fd-5aac-a3d0-c8208b8ce0ac",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed name and a nonshared protected identifier agree with Army bulk ordinal 3557784.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 570 for a named employer or assignment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1a9f2a73-b2a2-5926-9a96-d0978dff7048",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed name and a nonshared protected identifier agree with Army bulk ordinal 673785.",
+      "manual_review_required": false,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 570 for a named employer or assignment.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "65cfac05-eef6-52ff-a167-68e71c6d89c1",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common officer name and seven-digit value did not yield two corroborating identifiers.",
+      "manual_review_required": true,
+      "research_status": "no_reliable_result_after_protocol",
+      "next_action": "Inspect Box 570 for the full officer identifier and chronology.",
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "julian-a-oflaherty-protocol-b715",
+      "person_id": "58b33c15-31ea-5166-b549-30be0e004b92",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and useful variants; OSS, rank or grade, eligible identifier, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "full_protocol_distinctive_civilian_grade",
+      "started_at": "2026-10-04T00:20:00-04:00",
+      "completed_at": "2026-10-04T01:20:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Namesakes lacked an OSS bridge or chronology.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 569 for identity and Caf-4 context.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b715-v1"
+    },
+    {
+      "key": "douglas-n-ogan-protocol-b715",
+      "person_id": "69fe4ea3-dfc2-5d79-91ec-325f2b6432e9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and useful variants; OSS, rank or grade, eligible identifier, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "full_protocol_distinctive_civilian_grade",
+      "started_at": "2026-10-04T00:20:00-04:00",
+      "completed_at": "2026-10-04T01:20:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "No unique identity or affiliation was established.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 569 for identity and Caf-12 context.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b715-v1"
+    },
+    {
+      "key": "dorothy-t-ogata-protocol-b715",
+      "person_id": "87b4e66f-86a1-5699-ad82-6465b760be4a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and useful variants; OSS, rank or grade, eligible identifier, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "full_protocol_distinctive",
+      "started_at": "2026-10-04T00:20:00-04:00",
+      "completed_at": "2026-10-04T01:20:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Namesakes were rejected; Hayashi was retained only as qualified identity context.",
+      "research_notes": "Only evidence meeting the stated threshold is published; unresolved employer questions remain explicit.",
+      "next_action": "Inspect Box 569 for the middle-initial bridge and chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b715-v1"
+    },
+    {
+      "key": "edward-ogden-protocol-b715",
+      "person_id": "1f5dd951-1ba3-5b4e-838d-faad8208cd27",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and useful variants; OSS, rank or grade, eligible identifier, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "full_protocol_identifier_conflict",
+      "started_at": "2026-10-04T00:20:00-04:00",
+      "completed_at": "2026-10-04T01:20:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The identifier points to OGDEE EDWARD while the index prints Edward Ogden.",
+      "research_notes": "Only evidence meeting the stated threshold is published; unresolved employer questions remain explicit.",
+      "next_action": "Inspect Box 569 before any merge.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b715-v1"
+    },
+    {
+      "key": "marcus-r-ogden-protocol-b715",
+      "person_id": "c365d76b-f880-5e41-89ff-b4d77af9be79",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and useful variants; OSS, rank or grade, eligible identifier, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "full_protocol_officer",
+      "started_at": "2026-10-04T00:20:00-04:00",
+      "completed_at": "2026-10-04T01:20:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Officer candidates lacked two corroborating identifiers.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 569 for identity and chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b715-v1"
+    },
+    {
+      "key": "thomas-a-ogden-protocol-b715",
+      "person_id": "0bc4cc82-4bac-5d01-94f2-3241189aa7fb",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and useful variants; OSS, rank or grade, eligible identifier, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "full_protocol_exact_identifier",
+      "started_at": "2026-10-04T00:20:00-04:00",
+      "completed_at": "2026-10-04T01:20:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The Army identity is accepted; no named affiliation was found.",
+      "research_notes": "Only evidence meeting the stated threshold is published; unresolved employer questions remain explicit.",
+      "next_action": "Inspect Box 569 for a named employer or assignment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b715-v1"
+    },
+    {
+      "key": "william-l-ogden-protocol-b715",
+      "person_id": "93ffbe19-b195-5336-9a98-24b1d47d7960",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and useful variants; OSS, rank or grade, eligible identifier, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "full_protocol_common_special_grade",
+      "started_at": "2026-10-04T00:20:00-04:00",
+      "completed_at": "2026-10-04T01:20:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Results did not clarify PD or supply an OSS bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 569 for identity and PD context.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b715-v1"
+    },
+    {
+      "key": "robert-e-ogg-protocol-b715",
+      "person_id": "4eb5d817-6141-5eff-b10d-406fd0497543",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and useful variants; OSS, rank or grade, eligible identifier, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "full_protocol_exact_identifier",
+      "started_at": "2026-10-04T00:20:00-04:00",
+      "completed_at": "2026-10-04T01:20:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Exact-name and identifier results established no reliable identity.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 569 for identity and chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b715-v1"
+    },
+    {
+      "key": "martha-c-ogilvie-protocol-b715",
+      "person_id": "7eb5508f-edce-5ce6-9743-5e2b2f05452e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and useful variants; OSS, rank or grade, eligible identifier, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "full_protocol_distinctive_special_grade",
+      "started_at": "2026-10-04T00:20:00-04:00",
+      "completed_at": "2026-10-04T01:20:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Namesakes lacked an OSS bridge and chronology.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 569 for identity and P-1 context.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b715-v1"
+    },
+    {
+      "key": "carla-ogle-protocol-b715",
+      "person_id": "982b8c68-565d-5739-a15e-71691572c593",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and useful variants; OSS, rank or grade, eligible identifier, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "full_protocol_distinctive_civilian_grade",
+      "started_at": "2026-10-04T00:20:00-04:00",
+      "completed_at": "2026-10-04T01:20:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "No unique identity or affiliation was established.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 569 for identity and Caf-5 context.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b715-v1"
+    },
+    {
+      "key": "lairo-m-ogle-protocol-b715",
+      "person_id": "21fc0746-dd8c-51b9-8b93-33ccf747b163",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and useful variants; OSS, rank or grade, eligible identifier, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "full_protocol_foreign_or_variant_officer",
+      "started_at": "2026-10-04T00:20:00-04:00",
+      "completed_at": "2026-10-04T01:20:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "No source supplied two corroborating identifiers.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 569 for full name, identifier, and chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b715-v1"
+    },
+    {
+      "key": "marbury-b-ogle-protocol-b715",
+      "person_id": "eb1f55e1-c295-53d3-b476-8e9cd0ac7ba9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and useful variants; OSS, rank or grade, eligible identifier, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "full_protocol_distinctive",
+      "started_at": "2026-10-04T00:20:00-04:00",
+      "completed_at": "2026-10-04T01:20:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The Purdue obituary supplies direct OSS and employment chronology.",
+      "research_notes": "Only evidence meeting the stated threshold is published; unresolved employer questions remain explicit.",
+      "next_action": "Review Box 569 for personnel-file confirmation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b715-v1"
+    },
+    {
+      "key": "mildred-e-ogle-protocol-b715",
+      "person_id": "9230aff7-aafc-5b94-ad4a-6040b286028a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and useful variants; OSS, rank or grade, eligible identifier, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "full_protocol_letter_identifier",
+      "started_at": "2026-10-04T00:20:00-04:00",
+      "completed_at": "2026-10-04T01:20:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Namesakes lacked an OSS bridge; the lettered value was not forced into an Army match.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 569 for identity and affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b715-v1"
+    },
+    {
+      "key": "ezra-g-ogletree-protocol-b715",
+      "person_id": "06a807ce-3b19-59d9-9860-c1d657622371",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and useful variants; OSS, rank or grade, eligible identifier, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "full_protocol_exact_identifier",
+      "started_at": "2026-10-04T00:20:00-04:00",
+      "completed_at": "2026-10-04T01:20:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The Army identity and Jr suffix are accepted; no employer was found.",
+      "research_notes": "Only evidence meeting the stated threshold is published; unresolved employer questions remain explicit.",
+      "next_action": "Inspect Box 569 for a named employer or assignment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b715-v1"
+    },
+    {
+      "key": "john-f-oglevee-protocol-b715",
+      "person_id": "329cecba-b627-5f37-a4d2-08593ca5fba1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and useful variants; OSS, rank or grade, eligible identifier, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "full_protocol_distinctive",
+      "started_at": "2026-10-04T00:20:00-04:00",
+      "completed_at": "2026-10-04T01:20:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "A nineteenth-century namesake was rejected; 1944 Ohio State minutes were retained with qualification.",
+      "research_notes": "Only evidence meeting the stated threshold is published; unresolved employer questions remain explicit.",
+      "next_action": "Inspect Box 569 to confirm identity and sequence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b715-v1"
+    },
+    {
+      "key": "phyllis-ogrean-protocol-b715",
+      "person_id": "2356b15c-9b3d-513e-a350-b11c314da867",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and useful variants; OSS, rank or grade, eligible identifier, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "full_protocol_distinctive",
+      "started_at": "2026-10-04T00:20:00-04:00",
+      "completed_at": "2026-10-04T01:20:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "A postwar directory lead lacked an identity and pre-OSS bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 570 for identity and affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b715-v1"
+    },
+    {
+      "key": "shirley-d-ogren-protocol-b715",
+      "person_id": "2b2525d3-9adc-5e42-af3c-baa9d125ddcf",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and useful variants; OSS, rank or grade, eligible identifier, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "full_protocol_distinctive_civilian_grade",
+      "started_at": "2026-10-04T00:20:00-04:00",
+      "completed_at": "2026-10-04T01:20:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "A younger namesake with conflicting 1944 schooling was rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 570 for identity and Caf-5 context.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b715-v1"
+    },
+    {
+      "key": "warren-a-ogren-protocol-b715",
+      "person_id": "47fb69d3-a0b2-5719-818f-7417d1f379c0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and useful variants; OSS, rank or grade, eligible identifier, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "full_protocol_exact_identifier",
+      "started_at": "2026-10-04T00:20:00-04:00",
+      "completed_at": "2026-10-04T01:20:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "The Army identity is accepted; postwar leads lacked a pre-OSS bridge.",
+      "research_notes": "Only evidence meeting the stated threshold is published; unresolved employer questions remain explicit.",
+      "next_action": "Inspect Box 570 for a named employer or assignment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b715-v1"
+    },
+    {
+      "key": "louis-oguss-protocol-b715",
+      "person_id": "c628754b-a341-515a-93db-ef93b040d660",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and useful variants; OSS, rank or grade, eligible identifier, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "full_protocol_duplicate_identifier",
+      "started_at": "2026-10-04T00:20:00-04:00",
+      "completed_at": "2026-10-04T01:20:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Duplicate Army rows are retained; union correspondence did not establish employment.",
+      "research_notes": "Only evidence meeting the stated threshold is published; unresolved employer questions remain explicit.",
+      "next_action": "Inspect Box 570 for chronology and affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b715-v1"
+    },
+    {
+      "key": "patrick-ohanlon-protocol-b715",
+      "person_id": "16976be7-cfc0-5b4b-bb9d-18d0e8c53d02",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and useful variants; OSS, rank or grade, eligible identifier, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "full_protocol_foreign_officer",
+      "started_at": "2026-10-04T00:20:00-04:00",
+      "completed_at": "2026-10-04T01:20:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Postwar leads were excluded; the London Gazette notice was retained for identity.",
+      "research_notes": "Only evidence meeting the stated threshold is published; unresolved employer questions remain explicit.",
+      "next_action": "Inspect Box 570 and Intelligence Corps records.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b715-v1"
+    },
+    {
+      "key": "edward-c-ohara-protocol-b715",
+      "person_id": "90b8f7f2-f3fd-5aac-a3d0-c8208b8ce0ac",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and useful variants; OSS, rank or grade, eligible identifier, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "full_protocol_exact_identifier_common_name",
+      "started_at": "2026-10-04T00:20:00-04:00",
+      "completed_at": "2026-10-04T01:20:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The Army identity is accepted; common namesakes established no affiliation.",
+      "research_notes": "Only evidence meeting the stated threshold is published; unresolved employer questions remain explicit.",
+      "next_action": "Inspect Box 570 for a named employer or assignment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b715-v1"
+    },
+    {
+      "key": "james-f-ohara-protocol-b715",
+      "person_id": "1a9f2a73-b2a2-5926-9a96-d0978dff7048",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and useful variants; OSS, rank or grade, eligible identifier, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "full_protocol_exact_identifier_common_name",
+      "started_at": "2026-10-04T00:20:00-04:00",
+      "completed_at": "2026-10-04T01:20:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The Army identity is accepted; common namesakes established no affiliation.",
+      "research_notes": "Only evidence meeting the stated threshold is published; unresolved employer questions remain explicit.",
+      "next_action": "Inspect Box 570 for a named employer or assignment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b715-v1"
+    },
+    {
+      "key": "james-w-ohara-protocol-b715",
+      "person_id": "65cfac05-eef6-52ff-a167-68e71c6d89c1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; CIA and Library of Congress checks; exact-name and useful variants; OSS, rank or grade, eligible identifier, employer, occupation, obituary, institutional, newspaper, directory, military, and archival searches",
+      "query_variant_type": "full_protocol_officer_common_name",
+      "started_at": "2026-10-04T00:20:00-04:00",
+      "completed_at": "2026-10-04T01:20:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Common officer candidates lacked two corroborating facts.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 570 for the full identifier and chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b715-v1"
+    }
+  ]
+}
