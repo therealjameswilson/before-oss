@@ -1,5 +1,34 @@
 # Research status
 
+Batch 726 completed PDF page 353, rows 24-46, from **Betty N Otwell** through
+**David A Owens**, with a saved terminal outcome for all 23 people. Jose R
+Oural is confirmed as José Ramón Oural López through exact official name and
+private-identifier agreement plus independent institutional and historical
+corroboration. His June 17, 1943 Army entry is published as documented
+military service before a May 1944 OSS mission, not as a civilian employer or
+an explicitly immediate predecessor. Six additional Army matches establish
+identity only. Carla R Overly remains a visible Carla/Carl official-record
+conflict; the printed `Oaul Ouer` and `Adrien Outellett` forms are preserved.
+Fifteen people have `requires_archival_review`, six have
+`no_reliable_result_after_protocol`, one has `conflicting_sources`, and one
+has `occupation_only_found`. The oil-company category remains evidence-scoped
+to **nine people across 11 historically named companies**. See
+`research/batch-726-progress.md`. No authenticated NARA Catalog request was
+made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **9,735/23,939 (40.6659%)**;
+verified-employer coverage is **330/23,939 (1.3785%)**;
+verified-affiliation coverage is **738/23,939 (3.0828%)**; archival-review
+coverage is **8,193/23,939 (34.2245%)**. There are **14,199** `not_started`
+people and **523** possible-duplicate groups. SQLite retains **17,744**
+attempts or plans and **6,247** claims: 1,370 confirmed, 2,880 high, 1,521
+medium, 198 low, 276 conflicting, and two unresolved. It has **5,654**
+citation records and **2,851** unique source documents. The public projection
+has **2,468** affiliations, **855** organizations, **4,435** sources, and
+**6,040** claims. Full-index historical research remains unfinished. The next
+boundary is PDF page 354, rows 1-23, from Emily L Owens through Don S Packer.
+
 Batch 694 completed PDF page 337, rows 23-45, from **Errol M Nakao** through
 **John S Nash**, with a saved terminal outcome for all 23 people. Ann Nash is a
 high-confidence match to E. Ann Nash, later Ann Nash Bottorff. Three visually
