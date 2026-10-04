@@ -1,5 +1,18 @@
 # Accessibility and responsive QA
 
+Batch 710 local validation, 2026-10-03 America/New_York: the bounded release
+suite passed **90/90** desktop, phone, and tablet checks: 21 Novak-Nupen
+direct-profile, identity, chronology, relationship-boundary, conflict,
+duplicate-separation, withheld-lead, redaction, exact-coverage, and
+oil-category checks; 33 core-route checks; six analysis checks; and 30
+accessibility checks with no serious or critical axe violations. All **139**
+Python unit tests passed. Astro reported zero errors, warnings, or hints across
+**344** source files and built **24,806** static pages. Every internal link
+resolves, the 200-profile structural audit passes all seven checks, the public-
+identifier audit found zero unexpected full-number matches, and two
+consecutive builds reproduced the same output-tree digest. These local results
+do not by themselves establish CI or public deployment.
+
 Batch 709 local validation, 2026-10-03 America/New_York: the bounded release
 suite passed **87/87** desktop, phone, and tablet checks: 18 Norris-Novak
 direct-profile, identity, educational-versus-employment, banking chronology,
