@@ -1,0 +1,232 @@
+{
+  "bundle_version": "batch-741-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 741 archival review",
+  "sources": [
+    {
+      "key": "nara-index-b741",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 591-592",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 361, rows 1-23; visually checked against a 300 dpi render",
+      "access_date": "2026-10-04",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Every printed row remains separate. Full protected identifiers remain private. Pcheny, first name *, note no first n, and Hollingsworth, Pearce are preserved as printed."
+    },
+    {
+      "key": "army-bulk-b741",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department. Adjutant General's Office",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946",
+      "locator": "Bulk ordinals 777951, 1952111, 2439762, 4333520, 4597086, 6777535, 8015004, and 8766966",
+      "access_date": "2026-10-04",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Selective Service System, Record Group 147",
+      "rights_notes": "Official bulk data, not a Catalog API response. Protected identifiers, coded occupations, and raw records are not published or retained."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [],
+  "claims": [
+    {
+      "key": "identity-willard-e-paxton-b741",
+      "person_id": "1e6fadb9-0dad-5264-a12a-33ce642001e9",
+      "claim_type": "identity",
+      "claim_text": "The indexed Willard E Paxton is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PAXTON WILLARD E",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army entry grade and coded occupation are not converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b741", "locator_override": "PDF page 361, row 1"},
+        {"source_key": "army-bulk-b741", "locator_override": "Bulk record ordinal 2439762", "excerpt_override": "PAXTON WILLARD E"}
+      ]
+    },
+    {
+      "key": "identity-oliver-paxton-paxson-conflict-b741",
+      "person_id": "afa7f700-3f06-5b70-90f8-044c2127a539",
+      "claim_type": "identity",
+      "claim_text": "The indexed Oliver H Paxton III has a protected-identifier match to an Army record spelling the surname Paxson.",
+      "evidence_excerpt": "PAXSON OLIVER H",
+      "evidence_paraphrase": "The protected identifier and given names agree, but the index prints Paxton, III while the Army record reads Paxson and omits the suffix.",
+      "identity_match_assessment": "Conflicting spelling: strong identifier evidence is preserved without silently replacing the indexed surname or suffix.",
+      "temporal_assessment": "The records establish a wartime identity lead but no named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Box 591 review is required before resolving Paxton versus Paxson; coded occupation data are withheld.",
+      "sources": [
+        {"source_key": "nara-index-b741", "locator_override": "PDF page 361, row 2"},
+        {"source_key": "army-bulk-b741", "locator_override": "Bulk record ordinal 4333520", "excerpt_override": "PAXSON OLIVER H"}
+      ]
+    },
+    {
+      "key": "identity-clarence-e-peacock-b741",
+      "person_id": "111009ae-00e8-5b98-a666-5b80c2e06160",
+      "claim_type": "identity",
+      "claim_text": "The indexed Clarence E Peacock is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PEACOCK CLARENCE E",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The coded Army occupation is not used as employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b741", "locator_override": "PDF page 361, row 12"},
+        {"source_key": "army-bulk-b741", "locator_override": "Bulk record ordinal 4597086", "excerpt_override": "PEACOCK CLARENCE E"}
+      ]
+    },
+    {
+      "key": "identity-charles-a-pearce-b741",
+      "person_id": "d1e98661-446c-5b22-9fb4-be910e28c4cc",
+      "claim_type": "identity",
+      "claim_text": "The indexed Charles A Pearce is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PEARCE CHARLES A",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army entry grade predates the indexed PFC grade; coded occupation data are not used as employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b741", "locator_override": "PDF page 361, row 14"},
+        {"source_key": "army-bulk-b741", "locator_override": "Bulk record ordinal 8766966", "excerpt_override": "PEARCE CHARLES A"}
+      ]
+    },
+    {
+      "key": "identity-frank-j-pearce-b741",
+      "person_id": "8d55a75a-8341-5e08-bc4c-d64220b0ceaf",
+      "claim_type": "identity",
+      "claim_text": "The indexed Frank J Pearce is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PEARCE FRANK J",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army entry grade predates the indexed T-4 grade; coded occupation data are not used as employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b741", "locator_override": "PDF page 361, row 16"},
+        {"source_key": "army-bulk-b741", "locator_override": "Bulk record ordinal 8015004", "excerpt_override": "PEARCE FRANK J"}
+      ]
+    },
+    {
+      "key": "identity-george-w-pearce-b741",
+      "person_id": "0e463550-b8cf-5b6c-96fd-f2dfe1127687",
+      "claim_type": "identity",
+      "claim_text": "The indexed George W Pearce is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PEARCE GEORGE W",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity; the bulk record's entry grade does not establish the later promotion sequence or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army entry grade predates the indexed 1st Lt grade; coded occupation data are not used as employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b741", "locator_override": "PDF page 361, row 17"},
+        {"source_key": "army-bulk-b741", "locator_override": "Bulk record ordinal 1952111", "excerpt_override": "PEARCE GEORGE W"}
+      ]
+    },
+    {
+      "key": "identity-joseph-t-pearce-b741",
+      "person_id": "4b94dc56-43cb-5baf-aab7-6b31e1d8b845",
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph T Pearce is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PEARCE JOSEPH T",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The coded Army occupation is not used as employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b741", "locator_override": "PDF page 361, row 19"},
+        {"source_key": "army-bulk-b741", "locator_override": "Bulk record ordinal 777951", "excerpt_override": "PEARCE JOSEPH T"}
+      ]
+    },
+    {
+      "key": "identity-eric-e-pearson-b741",
+      "person_id": "e3f0634d-11c6-5b14-8097-a44ef4c79f5e",
+      "claim_type": "identity",
+      "claim_text": "The indexed Eric E Pearson is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PEARSON ERIC E",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The coded Army occupation is not used as employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b741", "locator_override": "PDF page 361, row 23"},
+        {"source_key": "army-bulk-b741", "locator_override": "Bulk record ordinal 6777535", "excerpt_override": "PEARSON ERIC E"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {"person_id":"1e6fadb9-0dad-5264-a12a-33ce642001e9","identity_status":"high_confidence","identity_evidence":"The visually verified index and official Army bulk record agree on Willard E Paxton and a nonshared protected identifier. The Army record establishes identity only, not a named employer.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 591 for Willard E Paxton's pre-OSS chronology and named civilian employer, if documented.","archival_review_priority":"high"},
+    {"person_id":"afa7f700-3f06-5b70-90f8-044c2127a539","identity_status":"conflicting","identity_evidence":"The protected identifier agrees, but the visually verified index prints Oliver H Paxton III while the official Army bulk record reads Oliver H Paxson and omits the suffix.","name_variants":["Oliver H Paxson"],"manual_review_required":true,"research_status":"conflicting_sources","next_action":"Inspect Box 591 and compare the original personnel file with Army bulk ordinal 4333520 before resolving Paxton versus Paxson or the suffix.","archival_review_priority":"critical"},
+    {"person_id":"5c5382b0-402f-56f7-8316-95c6af207937","identity_status":"unresolved","identity_evidence":"Exact-name and accented-name searches found a French railway worker and resistance member named Francisque Paye or Paye, but no source links that person to the indexed S/Lt, OSS, Box 591, or another corroborating identifier.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 591 for Francisque Paye's full name, nationality, unit, OSS relationship, and any documented pre-OSS occupation or employer.","archival_review_priority":"critical"},
+    {"person_id":"9399b141-2fb8-5372-a25e-386586b9757a","identity_status":"unresolved","identity_evidence":"Exact-name OSS, military, obituary, employment, directory, and archival searches returned several George A Payne namesakes but no Captain, protected-identifier, Box 591, or OSS bridge.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 591 for George A Payne's identity, military chronology, and last civilian employer before wartime service.","archival_review_priority":"critical"},
+    {"person_id":"6e3021c3-2224-5ea8-98b8-728607c72a46","identity_status":"unresolved","identity_evidence":"Exact-name OSS, obituary, employment, directory, newspaper, and archival searches did not distinguish June W Payne from namesakes or establish pre-OSS chronology.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 591 for June W Payne's identity, personnel status, occupation, and pre-OSS employer or affiliation.","archival_review_priority":"critical"},
+    {"person_id":"4946949b-9158-56b9-82f9-080959706cc7","identity_status":"unresolved","identity_evidence":"A cemetery-derived result names a U.S. Army Captain Valentine Payne, but it supplies no protected identifier, OSS reference, Box 591 link, or pre-OSS chronology; the candidate remains unverified.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 591 to determine whether the indexed Captain is the cemetery candidate and document military and civilian chronology.","archival_review_priority":"critical"},
+    {"person_id":"1a138590-8168-59e1-9994-558f4a83d906","identity_status":"unresolved","identity_evidence":"Exact-name OSS, federal employment, obituary, directory, newspaper, and archival searches did not uniquely identify the indexed CAF-4 employee.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 591 for Virginia A Payne's civilian personnel records, pre-OSS employer, and recruitment chronology.","archival_review_priority":"high"},
+    {"person_id":"0b2ce3e3-f43d-5543-8fa4-d6cb0e8fcda2","identity_status":"unresolved","identity_evidence":"The prominent MIT engineer Henry M Paynter was born in 1923, graduated in 1944, and worked for Puget Power in 1944-1946; that chronology does not bridge him to the indexed Major and the namesake is rejected.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 591 for Major Henry M Paynter's full identity, unit, age, and pre-OSS chronology before considering any namesake biography.","archival_review_priority":"critical"},
+    {"person_id":"a30eca4a-bf65-553d-9c58-e432482ef941","identity_status":"unresolved","identity_evidence":"Exact-name OSS, federal employment, obituary, directory, newspaper, and archival searches did not uniquely identify the indexed P-3 employee.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 591 for Jane Payson's identity, P-3 duties, prior employer or student status, and recruitment chronology.","archival_review_priority":"high"},
+    {"person_id":"7b544df0-5a09-51a8-b9fe-278df90fedd2","identity_status":"unresolved","identity_evidence":"The index supplies only surname Pcheny, an asterisk as the first-name field, and the note no first n. Exact and variant searches cannot safely resolve a person from that incomplete record.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 591 to recover Pcheny's full indexed identity, nationality, personnel status, and pre-OSS chronology without treating the asterisk as a name.","archival_review_priority":"critical"},
+    {"person_id":"6ccbeed7-f468-5314-af1f-cffe55c1d5ce","identity_status":"unresolved","identity_evidence":"Exact-name searches did not establish Natica Peabody's identity. Natica Satterthwaite and other rare-given-name results use different surnames and lack an OSS or Box 591 bridge.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 591 for Natica Peabody's identity, name history, wartime status, and pre-OSS employer or affiliation.","archival_review_priority":"critical"},
+    {"person_id":"111009ae-00e8-5b98-a666-5b80c2e06160","identity_status":"high_confidence","identity_evidence":"The visually verified index and official Army bulk record agree on Clarence E Peacock and a nonshared protected identifier. The Army record establishes identity only, not a named employer.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 591 for Clarence E Peacock's pre-OSS chronology and named civilian employer, if documented.","archival_review_priority":"high"},
+    {"person_id":"d4281dfe-3c68-5f00-8e56-f325a178d664","identity_status":"unresolved","identity_evidence":"Exact-name OSS, federal employment, obituary, directory, newspaper, and archival searches did not uniquely identify the indexed CAF-9 employee; people-finder results were rejected.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 591 for Bryant O Pearce's civilian grade history, duties, and immediate pre-OSS employer or government assignment.","archival_review_priority":"high"},
+    {"person_id":"d1e98661-446c-5b22-9fb4-be910e28c4cc","identity_status":"high_confidence","identity_evidence":"The visually verified index and official Army bulk record agree on Charles A Pearce and a nonshared protected identifier. The Army entry grade predates the indexed PFC grade and establishes no named employer.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 591 for Charles A Pearce's Army-to-OSS chronology and last civilian employer before service.","archival_review_priority":"high"},
+    {"person_id":"b98b6881-0482-5db8-a69c-869f7ea72c24","identity_status":"unresolved","identity_evidence":"Exact-name and likely spelling-variant searches did not establish Dorois C Pearce's identity. The unusual printed first name is preserved rather than silently corrected to Doris.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 591 to verify Dorois C Pearce's printed name, personnel status, and pre-OSS employer or affiliation.","archival_review_priority":"critical"},
+    {"person_id":"8d55a75a-8341-5e08-bc4c-d64220b0ceaf","identity_status":"high_confidence","identity_evidence":"The visually verified index and official Army bulk record agree on Frank J Pearce and a nonshared protected identifier. The Army entry grade predates the indexed T-4 grade and establishes no named employer.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 592 for Frank J Pearce's Army-to-OSS chronology and last civilian employer before service.","archival_review_priority":"high"},
+    {"person_id":"0e463550-b8cf-5b6c-96fd-f2dfe1127687","identity_status":"high_confidence","identity_evidence":"The visually verified index and official Army bulk record agree on George W Pearce and a nonshared protected identifier. The bulk record records Army entry as a private; it does not establish the later promotion sequence or a named employer.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 592 for George W Pearce's promotion and Army-to-OSS chronology and last civilian employer before service.","archival_review_priority":"high"},
+    {"person_id":"fe689d05-94a6-5441-b927-1b5d329b6df1","identity_status":"unresolved","identity_evidence":"The visually verified row prints the first-name field as Hollingsworth, including a trailing comma. A Philadelphia namesake born in 1878 died in 1936 and is chronologically incompatible; no OSS identity bridge was found.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 592 to resolve the printed Hollingsworth, Pearce wording, full name, identity, and pre-OSS chronology.","archival_review_priority":"critical"},
+    {"person_id":"4b94dc56-43cb-5baf-aab7-6b31e1d8b845","identity_status":"high_confidence","identity_evidence":"The visually verified index and official Army bulk record agree on Joseph T Pearce and a nonshared protected identifier. The Army record establishes identity only, not a named employer.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 592 for Joseph T Pearce's pre-OSS chronology and last civilian employer before service.","archival_review_priority":"high"},
+    {"person_id":"f621205f-65b7-5ad3-858a-034390182f66","identity_status":"unresolved","identity_evidence":"Exact-name searches found an Air Forces escape-and-evasion society roster entry and several burial candidates, but none supplies Major rank, a protected identifier, an OSS reference, or a Box 592 bridge.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 592 for Major Ronald H Pearce's full identity, military unit, Army-to-OSS chronology, and last civilian employer.","archival_review_priority":"critical"},
+    {"person_id":"b03dcfb4-8a50-50f0-920e-df4ebf1da327","identity_status":"unresolved","identity_evidence":"Exact-name OSS, federal employment, obituary, directory, newspaper, and archival searches did not uniquely identify the indexed CAF-5 employee.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 592 for Stanley R Pearce's civilian grade history, duties, and immediate pre-OSS employer or government assignment.","archival_review_priority":"high"},
+    {"person_id":"232f256d-3e77-593c-8843-1349703579af","identity_status":"unresolved","identity_evidence":"Exact-name OSS, obituary, directory, newspaper, and archival searches did not distinguish Dorothy N Pearson from numerous namesakes or establish pre-OSS chronology.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 592 for Dorothy N Pearson's identity, personnel status, occupation, and pre-OSS employer or affiliation.","archival_review_priority":"critical"},
+    {"person_id":"e3f0634d-11c6-5b14-8097-a44ef4c79f5e","identity_status":"high_confidence","identity_evidence":"The visually verified index and official Army bulk record agree on Eric E Pearson and a nonshared protected identifier. The Army record establishes identity only, not a named employer.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 592 for Eric E Pearson's pre-OSS chronology and last civilian employer before service.","archival_review_priority":"high"}
+  ],
+  "research_attempts": [
+    {"key":"willard-e-paxton-protocol-b741","person_id":"1e6fadb9-0dad-5264-a12a-33ce642001e9","source_adapter":"manual_staged_protocol","query_text":"NARA index and official Army bulk review; CIA and Library of Congress access attempts; exact-name OSS, employer, occupation, obituary, directory, newspaper, and archival searches","query_variant_type":"protocol_complete_batch_741","started_at":"2026-10-04T20:15:00-04:00","completed_at":"2026-10-04T22:10:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":4,"rejection_reasons":"Namesake and directory results lacked the protected identifier or OSS context.","research_notes":"Exact Army identity accepted; coded occupation is not employer evidence. CIA and LoC adapter failures were treated as access failures, not negative evidence.","next_action":"Inspect Box 591.","attempt_number":1,"research_agent_version":"before-oss-b741-v1"},
+    {"key":"oliver-h-paxton-protocol-b741","person_id":"afa7f700-3f06-5b70-90f8-044c2127a539","source_adapter":"manual_staged_protocol","query_text":"NARA index and official Army bulk review; Paxton and Paxson variants; suffix; CIA, Library of Congress, OSS, employer, occupation, obituary, directory, newspaper, and archival searches","query_variant_type":"full_protocol_name_conflict","started_at":"2026-10-04T20:15:00-04:00","completed_at":"2026-10-04T22:10:00-04:00","outcome":"candidate_found","sources_reviewed":2,"candidate_sources_rejected":5,"rejection_reasons":"No independent source resolved Paxton versus Paxson or confirmed the suffix.","research_notes":"Protected-identifier match preserved as a conflicting identity lead; no employer claim is published.","next_action":"Compare Box 591 with Army bulk ordinal 4333520.","attempt_number":1,"research_agent_version":"before-oss-b741-v1"},
+    {"key":"francisque-paye-protocol-b741","person_id":"5c5382b0-402f-56f7-8316-95c6af207937","source_adapter":"manual_staged_protocol","query_text":"NARA index; Francisque Paye and Paye variants; French S/Lt; CIA, Library of Congress, OSS, resistance, railway, employer, obituary, newspaper, and archival searches","query_variant_type":"protocol_complete_batch_741","started_at":"2026-10-04T20:15:00-04:00","completed_at":"2026-10-04T22:10:00-04:00","outcome":"candidate_rejected","sources_reviewed":2,"candidate_sources_rejected":6,"rejection_reasons":"The French railway-worker and resistance namesake lacks an S/Lt, OSS, Box 591, or other identity bridge.","research_notes":"The namesake's occupation is not transferred to the indexed person.","next_action":"Inspect Box 591.","attempt_number":1,"research_agent_version":"before-oss-b741-v1"},
+    {"key":"george-a-payne-protocol-b741","person_id":"9399b141-2fb8-5372-a25e-386586b9757a","source_adapter":"manual_staged_protocol","query_text":"NARA index; CIA and Library of Congress access attempts; George A Payne, Captain, OSS, Army, employer, occupation, obituary, directory, cemetery, newspaper, and archival searches","query_variant_type":"protocol_complete_batch_741","started_at":"2026-10-04T20:15:00-04:00","completed_at":"2026-10-04T22:10:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":8,"rejection_reasons":"Multiple same-name military and cemetery candidates lacked the indexed rank-and-identifier combination or OSS context.","research_notes":"No employer or external identity is assigned to the common name.","next_action":"Inspect Box 591.","attempt_number":1,"research_agent_version":"before-oss-b741-v1"},
+    {"key":"june-w-payne-protocol-b741","person_id":"6e3021c3-2224-5ea8-98b8-728607c72a46","source_adapter":"manual_staged_protocol","query_text":"NARA index; CIA and Library of Congress access attempts; June W Payne, OSS, employer, occupation, obituary, directory, newspaper, and archival searches","query_variant_type":"protocol_complete_batch_741","started_at":"2026-10-04T20:15:00-04:00","completed_at":"2026-10-04T22:10:00-04:00","outcome":"source_reviewed","sources_reviewed":1,"candidate_sources_rejected":5,"rejection_reasons":"Same-name and near-name results lacked wartime identifiers or OSS context.","research_notes":"No reliable external identity or employer was found in accessible sources.","next_action":"Inspect Box 591.","attempt_number":1,"research_agent_version":"before-oss-b741-v1"},
+    {"key":"valentine-payne-protocol-b741","person_id":"4946949b-9158-56b9-82f9-080959706cc7","source_adapter":"manual_staged_protocol","query_text":"NARA index; CIA and Library of Congress access attempts; Valentine Payne, Captain, OSS, Army, employer, occupation, obituary, cemetery, newspaper, and archival searches","query_variant_type":"protocol_complete_batch_741","started_at":"2026-10-04T20:15:00-04:00","completed_at":"2026-10-04T22:10:00-04:00","outcome":"candidate_found","sources_reviewed":2,"candidate_sources_rejected":5,"rejection_reasons":"A cemetery-derived U.S. Army Captain result lacks a protected identifier, OSS reference, and Box 591 bridge.","research_notes":"The rare-name/rank lead remains unverified and is not published as settled identity or employer evidence.","next_action":"Inspect Box 591.","attempt_number":1,"research_agent_version":"before-oss-b741-v1"},
+    {"key":"virginia-a-payne-protocol-b741","person_id":"1a138590-8168-59e1-9994-558f4a83d906","source_adapter":"manual_staged_protocol","query_text":"NARA index; CIA and Library of Congress access attempts; Virginia A Payne, CAF-4, OSS, federal employment, employer, occupation, obituary, directory, newspaper, and archival searches","query_variant_type":"protocol_complete_batch_741","started_at":"2026-10-04T20:15:00-04:00","completed_at":"2026-10-04T22:10:00-04:00","outcome":"source_reviewed","sources_reviewed":1,"candidate_sources_rejected":6,"rejection_reasons":"Common-name results lacked the CAF-4 grade, wartime context, or OSS identifiers.","research_notes":"Civilian grade is preserved but no employer is inferred from it.","next_action":"Inspect Box 591.","attempt_number":1,"research_agent_version":"before-oss-b741-v1"},
+    {"key":"henry-m-paynter-protocol-b741","person_id":"0b2ce3e3-f43d-5543-8fa4-d6cb0e8fcda2","source_adapter":"manual_staged_protocol","query_text":"NARA index; CIA and Library of Congress access attempts; Henry M Paynter, Major, OSS, Army, MIT, Puget Power, employer, occupation, obituary, institutional, and archival searches","query_variant_type":"protocol_complete_batch_741","started_at":"2026-10-04T20:15:00-04:00","completed_at":"2026-10-04T22:10:00-04:00","outcome":"candidate_rejected","sources_reviewed":3,"candidate_sources_rejected":5,"rejection_reasons":"The MIT engineer was born in 1923, graduated in 1944, and worked for Puget Power during 1944-1946; no source bridges him to the indexed Major.","research_notes":"Puget Power is not transferred to the index record because the namesake identity is unproved and chronologically implausible.","next_action":"Inspect Box 591.","attempt_number":1,"research_agent_version":"before-oss-b741-v1"},
+    {"key":"jane-payson-protocol-b741","person_id":"a30eca4a-bf65-553d-9c58-e432482ef941","source_adapter":"manual_staged_protocol","query_text":"NARA index; CIA and Library of Congress access attempts; Jane Payson, P-3, OSS, federal employment, employer, occupation, obituary, directory, newspaper, and archival searches","query_variant_type":"protocol_complete_batch_741","started_at":"2026-10-04T20:15:00-04:00","completed_at":"2026-10-04T22:10:00-04:00","outcome":"source_reviewed","sources_reviewed":1,"candidate_sources_rejected":6,"rejection_reasons":"Historic and modern namesakes lacked P-3, OSS, or Box 591 identifiers.","research_notes":"Civilian grade is preserved but no employer is inferred from it.","next_action":"Inspect Box 591.","attempt_number":1,"research_agent_version":"before-oss-b741-v1"},
+    {"key":"pcheny-protocol-b741","person_id":"7b544df0-5a09-51a8-b9fe-278df90fedd2","source_adapter":"manual_staged_protocol","query_text":"NARA index; Pcheny and spacing variants; no first name; CIA, Library of Congress, OSS, foreign personnel, directory, newspaper, and archival searches","query_variant_type":"incomplete_name_protocol_batch_741","started_at":"2026-10-04T20:15:00-04:00","completed_at":"2026-10-04T22:10:00-04:00","outcome":"source_reviewed","sources_reviewed":1,"candidate_sources_rejected":3,"rejection_reasons":"Surname-only and modern surname-distribution results cannot identify the person.","research_notes":"The asterisk and note no first n are preserved; no first name is invented.","next_action":"Inspect Box 591.","attempt_number":1,"research_agent_version":"before-oss-b741-v1"},
+    {"key":"natica-peabody-protocol-b741","person_id":"6ccbeed7-f468-5314-af1f-cffe55c1d5ce","source_adapter":"manual_staged_protocol","query_text":"NARA index; CIA and Library of Congress access attempts; Natica Peabody, OSS, Navy, employer, occupation, obituary, institutional, newspaper, directory, and archival searches","query_variant_type":"protocol_complete_batch_741","started_at":"2026-10-04T20:15:00-04:00","completed_at":"2026-10-04T22:10:00-04:00","outcome":"candidate_rejected","sources_reviewed":2,"candidate_sources_rejected":6,"rejection_reasons":"Rare-given-name results for Natica Satterthwaite, Natica Bates, and others use different surnames and lack an OSS or Box 591 bridge.","research_notes":"No namesake biography is assigned to Natica Peabody.","next_action":"Inspect Box 591.","attempt_number":1,"research_agent_version":"before-oss-b741-v1"},
+    {"key":"clarence-e-peacock-protocol-b741","person_id":"111009ae-00e8-5b98-a666-5b80c2e06160","source_adapter":"manual_staged_protocol","query_text":"NARA index and official Army bulk review; CIA and Library of Congress access attempts; Clarence E Peacock, OSS, employer, occupation, obituary, cemetery, directory, newspaper, and archival searches","query_variant_type":"protocol_complete_batch_741","started_at":"2026-10-04T20:15:00-04:00","completed_at":"2026-10-04T22:10:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":6,"rejection_reasons":"Burial and genealogy namesakes lacked the protected identifier or OSS context.","research_notes":"Exact Army identity accepted; coded occupation is not employer evidence.","next_action":"Inspect Box 591.","attempt_number":1,"research_agent_version":"before-oss-b741-v1"},
+    {"key":"bryant-o-pearce-protocol-b741","person_id":"d4281dfe-3c68-5f00-8e56-f325a178d664","source_adapter":"manual_staged_protocol","query_text":"NARA index; CIA and Library of Congress access attempts; Bryant O Pearce, CAF-9, OSS, federal employment, employer, occupation, obituary, directory, newspaper, and archival searches","query_variant_type":"protocol_complete_batch_741","started_at":"2026-10-04T20:15:00-04:00","completed_at":"2026-10-04T22:10:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":5,"rejection_reasons":"A people-finder death entry supplies no CAF-9, OSS, wartime, or Box 591 bridge.","research_notes":"Civilian grade is preserved but no employer is inferred from it.","next_action":"Inspect Box 591.","attempt_number":1,"research_agent_version":"before-oss-b741-v1"},
+    {"key":"charles-a-pearce-protocol-b741","person_id":"d1e98661-446c-5b22-9fb4-be910e28c4cc","source_adapter":"manual_staged_protocol","query_text":"NARA index and official Army bulk review; CIA and Library of Congress access attempts; Charles A Pearce, PFC, OSS, employer, occupation, obituary, cemetery, directory, newspaper, and archival searches","query_variant_type":"protocol_complete_batch_741","started_at":"2026-10-04T20:15:00-04:00","completed_at":"2026-10-04T22:10:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":7,"rejection_reasons":"Same-name military and banking results lacked the protected identifier or OSS context.","research_notes":"Exact Army identity accepted; entry grade does not conflict with later PFC rank and coded occupation is not employer evidence. Adapter errors remain recorded separately.","next_action":"Inspect Box 591.","attempt_number":3,"research_agent_version":"before-oss-b741-v1"},
+    {"key":"dorois-c-pearce-protocol-b741","person_id":"b98b6881-0482-5db8-a69c-869f7ea72c24","source_adapter":"manual_staged_protocol","query_text":"NARA index; Dorois and Doris Pearce variants; CIA, Library of Congress, OSS, employer, occupation, obituary, directory, newspaper, and archival searches","query_variant_type":"unusual_name_protocol_batch_741","started_at":"2026-10-04T20:15:00-04:00","completed_at":"2026-10-04T22:10:00-04:00","outcome":"source_reviewed","sources_reviewed":1,"candidate_sources_rejected":5,"rejection_reasons":"Variant-name results lacked an OSS or Box 591 bridge and cannot justify correcting Dorois to Doris.","research_notes":"Original index spelling remains authoritative pending file review.","next_action":"Inspect Box 591.","attempt_number":1,"research_agent_version":"before-oss-b741-v1"},
+    {"key":"frank-j-pearce-protocol-b741","person_id":"8d55a75a-8341-5e08-bc4c-d64220b0ceaf","source_adapter":"manual_staged_protocol","query_text":"NARA index and official Army bulk review; CIA and Library of Congress access attempts; Frank J Pearce, T-4, OSS, employer, occupation, obituary, directory, newspaper, and archival searches","query_variant_type":"protocol_complete_batch_741","started_at":"2026-10-04T20:15:00-04:00","completed_at":"2026-10-04T22:10:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":6,"rejection_reasons":"Same-name obituary and directory results lacked the protected identifier or OSS context.","research_notes":"Exact Army identity accepted; entry grade does not conflict with later T-4 rank and coded occupation is not employer evidence.","next_action":"Inspect Box 592.","attempt_number":1,"research_agent_version":"before-oss-b741-v1"},
+    {"key":"george-w-pearce-protocol-b741","person_id":"0e463550-b8cf-5b6c-96fd-f2dfe1127687","source_adapter":"manual_staged_protocol","query_text":"NARA index and official Army bulk review; CIA and Library of Congress access attempts; George W Pearce, 1st Lt, OSS, employer, occupation, obituary, military, directory, newspaper, and archival searches","query_variant_type":"protocol_complete_batch_741","started_at":"2026-10-04T20:15:00-04:00","completed_at":"2026-10-04T22:10:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":8,"rejection_reasons":"Historic directory, cemetery, and military namesakes lacked the protected identifier or OSS context.","research_notes":"Exact Army identity accepted; Army entry grade is not the later indexed rank and coded occupation is not employer evidence.","next_action":"Inspect Box 592.","attempt_number":1,"research_agent_version":"before-oss-b741-v1"},
+    {"key":"hollingsworth-pearce-protocol-b741","person_id":"fe689d05-94a6-5441-b927-1b5d329b6df1","source_adapter":"manual_staged_protocol","query_text":"NARA index; Hollingsworth Pearce and punctuation variants; CIA, Library of Congress, OSS, Sergeant, employer, occupation, obituary, genealogy, directory, newspaper, and archival searches","query_variant_type":"unusual_name_protocol_batch_741","started_at":"2026-10-04T20:15:00-04:00","completed_at":"2026-10-04T22:10:00-04:00","outcome":"candidate_rejected","sources_reviewed":2,"candidate_sources_rejected":5,"rejection_reasons":"The Philadelphia Hollingsworth Pearce died in 1936 and is incompatible; other results do not resolve the printed trailing comma or identify the Sergeant.","research_notes":"Printed first-name punctuation remains visible and no correction is made.","next_action":"Inspect Box 592.","attempt_number":1,"research_agent_version":"before-oss-b741-v1"},
+    {"key":"joseph-t-pearce-protocol-b741","person_id":"4b94dc56-43cb-5baf-aab7-6b31e1d8b845","source_adapter":"manual_staged_protocol","query_text":"NARA index and official Army bulk review; CIA and Library of Congress access attempts; Joseph T Pearce, OSS, employer, occupation, obituary, directory, newspaper, and archival searches","query_variant_type":"protocol_complete_batch_741","started_at":"2026-10-04T20:15:00-04:00","completed_at":"2026-10-04T22:10:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":6,"rejection_reasons":"Same-name obituary, directory, and commercial results lacked the protected identifier or OSS context.","research_notes":"Exact Army identity accepted; coded occupation is not employer evidence.","next_action":"Inspect Box 592.","attempt_number":1,"research_agent_version":"before-oss-b741-v1"},
+    {"key":"ronald-h-pearce-protocol-b741","person_id":"f621205f-65b7-5ad3-858a-034390182f66","source_adapter":"manual_staged_protocol","query_text":"NARA index; CIA and Library of Congress access attempts; Ronald H Pearce, Major, OSS, Army Air Forces, escape and evasion, employer, occupation, obituary, cemetery, and archival searches","query_variant_type":"protocol_complete_batch_741","started_at":"2026-10-04T20:15:00-04:00","completed_at":"2026-10-04T22:10:00-04:00","outcome":"candidate_rejected","sources_reviewed":2,"candidate_sources_rejected":7,"rejection_reasons":"An escape-and-evasion society roster and burial candidates lack Major rank, a protected identifier, OSS context, or Box 592 linkage.","research_notes":"No military or employer claim is transferred from namesake results.","next_action":"Inspect Box 592.","attempt_number":1,"research_agent_version":"before-oss-b741-v1"},
+    {"key":"stanley-r-pearce-protocol-b741","person_id":"b03dcfb4-8a50-50f0-920e-df4ebf1da327","source_adapter":"manual_staged_protocol","query_text":"NARA index; CIA and Library of Congress access attempts; Stanley R Pearce, CAF-5, OSS, federal employment, employer, occupation, obituary, directory, newspaper, and archival searches","query_variant_type":"protocol_complete_batch_741","started_at":"2026-10-04T20:15:00-04:00","completed_at":"2026-10-04T22:10:00-04:00","outcome":"source_reviewed","sources_reviewed":1,"candidate_sources_rejected":6,"rejection_reasons":"Modern and historical same-name results lacked CAF-5, OSS, or Box 592 identifiers.","research_notes":"Civilian grade is preserved but no employer is inferred from it.","next_action":"Inspect Box 592.","attempt_number":1,"research_agent_version":"before-oss-b741-v1"},
+    {"key":"dorothy-n-pearson-protocol-b741","person_id":"232f256d-3e77-593c-8843-1349703579af","source_adapter":"manual_staged_protocol","query_text":"NARA index; CIA and Library of Congress access attempts; Dorothy N Pearson, OSS, employer, occupation, obituary, directory, newspaper, and archival searches","query_variant_type":"protocol_complete_batch_741","started_at":"2026-10-04T20:15:00-04:00","completed_at":"2026-10-04T22:10:00-04:00","outcome":"source_reviewed","sources_reviewed":1,"candidate_sources_rejected":7,"rejection_reasons":"Common-name modern, genealogical, and directory results lacked wartime identifiers or OSS context.","research_notes":"No reliable external identity or employer was found in accessible sources.","next_action":"Inspect Box 592.","attempt_number":1,"research_agent_version":"before-oss-b741-v1"},
+    {"key":"eric-e-pearson-protocol-b741","person_id":"e3f0634d-11c6-5b14-8097-a44ef4c79f5e","source_adapter":"manual_staged_protocol","query_text":"NARA index and official Army bulk review; CIA and Library of Congress access attempts; Eric E Pearson, OSS, employer, occupation, obituary, directory, newspaper, and archival searches","query_variant_type":"protocol_complete_batch_741","started_at":"2026-10-04T20:15:00-04:00","completed_at":"2026-10-04T22:10:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":7,"rejection_reasons":"Same-name death, license, and directory results lacked the protected identifier or OSS context.","research_notes":"Exact Army identity accepted; coded occupation is not employer evidence.","next_action":"Inspect Box 592.","attempt_number":1,"research_agent_version":"before-oss-b741-v1"}
+  ]
+}
