@@ -114,8 +114,17 @@ The exact rebuilt tree passed these local release gates:
 
 ## Publication verification
 
-Publication verification will be appended after the user-requested push and
-the GitHub Actions Test and Pages workflows complete.
+Batch 743 was published from commit
+[`e2b713c`](https://github.com/therealjameswilson/before-oss/commit/e2b713c783b685346a2bd3bf2e8187fe2d074105).
+The [Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/37259802372)
+and [GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/37259802486)
+both completed successfully. Immutable live verification against that commit
+confirmed 67 assets totaling 106,890,816 bytes at manifest SHA-256
+`490c640c7f2d05a5207a040f0057dbe4c079a90af7dcd35bc48d3648dd4883a7`,
+eight core routes, 31 source-register pages, and the 22 directly updated
+profiles at <https://therealjameswilson.github.io/before-oss/>. William R
+Peers' preserved profile, the twenty-third profile reviewed in the batch,
+separately returned HTTP 200 after deployment.
 
 ## Resume
 
