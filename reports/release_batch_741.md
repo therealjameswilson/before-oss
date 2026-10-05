@@ -104,8 +104,15 @@ The exact rebuilt tree passed these local release gates:
 
 ## Publication verification
 
-Publication verification will be appended after GitHub Actions completes and
-the immutable commit-scoped build is checked against the live site.
+Batch 741 was published from commit
+[`3b5187f`](https://github.com/therealjameswilson/before-oss/commit/3b5187fc166635e39eb11626188746dcb11c54aa).
+The [Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/37248646079)
+and [GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/37248646177)
+both completed successfully. Immutable live verification against that commit
+confirmed 67 assets totaling 106,760,923 bytes at manifest SHA-256
+`c51d4ca614c7fd4b3e24b44575d5b186c1dcc627c1a738da688308a6551561e5`,
+eight core routes, 31 source-register pages, and all 23 affected profiles at
+<https://therealjameswilson.github.io/before-oss/>.
 
 ## Resume
 
