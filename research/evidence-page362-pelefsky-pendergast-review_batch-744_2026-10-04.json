@@ -1,0 +1,340 @@
+{
+  "bundle_version": "batch-744-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 744 archival review",
+  "sources": [
+    {
+      "key": "nara-index-b744",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 594",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 362, rows 24-46; visually checked against a 300 dpi render",
+      "access_date": "2026-10-04",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Every printed row remains separate. Full protected identifiers remain private. Scientific-notation serial renderings, the Mallby spelling, One fold, Also 088, Folder tr, and Folder e are preserved exactly as indexed."
+    },
+    {
+      "key": "army-bulk-b744",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department. Adjutant General's Office",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946",
+      "locator": "Bulk ordinals 2235580, 2801597, 2824399, 2917798, 3115016, 3142994, 6220231, 6269747, and 8464242",
+      "access_date": "2026-10-04",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Selective Service System, Record Group 147",
+      "rights_notes": "Official unrestricted bulk data, not a Catalog API response. Protected identifiers, coded occupations, and raw records are not published or retained."
+    },
+    {
+      "key": "frus-casablanca-pendar-b744",
+      "stable_url": "https://history.state.gov/historicaldocuments/frus1941-43/d450",
+      "archival_identifier": "FRUS 1941-1943, Conferences at Washington and Casablanca, Document 396",
+      "title": "Notes by the President's Special Assistant (Hopkins)",
+      "author_creator": "Harry L. Hopkins",
+      "repository_publisher": "United States Department of State, Office of the Historian",
+      "publication_record_date": "1943-01-24",
+      "locator": "Document 396, text and footnote 9",
+      "access_date": "2026-10-04",
+      "source_quality": "A_direct_official",
+      "collection_name": "Foreign Relations of the United States",
+      "document_number": "396",
+      "rights_notes": "The official documentary edition identifies Kenneth W. Pendar as an American vice consul and dates his Casablanca post before the November 1942 landings. It does not establish the exact date he entered OSS service."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "department-of-state-b744",
+      "organization_id": "4d2fbb5f-218d-5445-b7b3-4c2fd22f0286",
+      "canonical_name": "United States Department of State",
+      "historical_name": "Department of State",
+      "aliases": ["State Department", "U.S. Department of State"],
+      "organization_type": "federal department",
+      "sector": "federal_government",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "active_dates": null,
+      "normalization_notes": "Kenneth W. Pendar's vice-consular post is modeled as a government assignment, not a private employer."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "kenneth-pendar-state-vice-consul-b744",
+      "person_id": "6e85e460-a5b1-5e91-a53c-be15fe60f958",
+      "organization_key": "department-of-state-b744",
+      "organization_name_as_found": "American Vice Consul in Casablanca",
+      "role_title": "American Vice Consul",
+      "occupation": "diplomat",
+      "relationship_type": "government_assignment",
+      "start_date": null,
+      "end_date": "1942-11-08",
+      "date_precision": "day",
+      "city": "Casablanca",
+      "state_or_region": null,
+      "country": "Morocco",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The exact distinctive name, civilian federal grade, and official wartime diplomatic and clandestine context support the identity match. The source dates the Casablanca assignment before the Allied landings but does not prove it was the immediate predecessor to OSS service."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-anthony-b-pelliccia-b744",
+      "person_id": "418b5db6-9cd3-5cee-beca-652c8e6b637a",
+      "claim_type": "identity",
+      "claim_text": "The indexed Anthony B Pelliccia is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PELLICCIA ANTHONY B",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army entry data and coded occupation are not converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b744", "locator_override": "PDF page 362, row 32"},
+        {"source_key": "army-bulk-b744", "locator_override": "Bulk record ordinal 3142994", "excerpt_override": "PELLICCIA ANTHONY B"}
+      ]
+    },
+    {
+      "key": "identity-cornelius-h-pelton-b744",
+      "person_id": "993dd304-355e-541f-8286-1213d9523e7f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Cornelius H Pelton is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PELTON CORNELIUS H",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army entry data and coded occupation are not converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b744", "locator_override": "PDF page 362, row 35"},
+        {"source_key": "army-bulk-b744", "locator_override": "Bulk record ordinal 3115016", "excerpt_override": "PELTON CORNELIUS H"}
+      ]
+    },
+    {
+      "key": "identity-edward-sh-pendergast-b744",
+      "person_id": "c9ebdb96-df11-5dc7-9c4b-18074b35a533",
+      "claim_type": "identity",
+      "claim_text": "The Army candidate for Edward S. H. Pendergast remains a probable identity match because the Army record adds Jr.",
+      "evidence_excerpt": "PENDERGAST EDWARD S H JR",
+      "evidence_paraphrase": "The protected identifier and base name agree, but the official Army row includes a suffix absent from the printed index.",
+      "identity_match_assessment": "Probable pending direct Box 594 evidence resolving the suffix.",
+      "temporal_assessment": "The records establish a wartime Army lead only and do not identify a pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The suffix difference remains visible and the candidate is not treated as confirmed.",
+      "sources": [
+        {"source_key": "nara-index-b744", "locator_override": "PDF page 362, row 46"},
+        {"source_key": "army-bulk-b744", "locator_override": "Bulk record ordinal 2235580", "excerpt_override": "PENDERGAST EDWARD S H JR"}
+      ]
+    },
+    {
+      "key": "identity-francis-w-peloquin-b744",
+      "person_id": "a4f0168a-1a90-5279-930a-9341988f97b2",
+      "claim_type": "identity",
+      "claim_text": "The indexed Francis W Peloquin is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PELOQUIN FRANCIS W",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army entry data and coded occupation are not converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b744", "locator_override": "PDF page 362, row 34"},
+        {"source_key": "army-bulk-b744", "locator_override": "Bulk record ordinal 2824399", "excerpt_override": "PELOQUIN FRANCIS W"}
+      ]
+    },
+    {
+      "key": "identity-john-r-pemberton-b744",
+      "person_id": "28a399b5-4a61-5ec2-b0c4-9102da128bbd",
+      "claim_type": "identity",
+      "claim_text": "The Army candidate for John R Pemberton remains a probable identity match because the Army record adds Jr.",
+      "evidence_excerpt": "PEMBERTON JOHN R JR",
+      "evidence_paraphrase": "The protected identifier and base name agree, but the official Army row includes a suffix absent from the printed index.",
+      "identity_match_assessment": "Probable pending direct Box 594 evidence resolving the suffix.",
+      "temporal_assessment": "The records establish a wartime Army lead only and do not identify a pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The suffix difference remains visible and the candidate is not treated as confirmed.",
+      "sources": [
+        {"source_key": "nara-index-b744", "locator_override": "PDF page 362, row 38"},
+        {"source_key": "army-bulk-b744", "locator_override": "Bulk record ordinal 6220231", "excerpt_override": "PEMBERTON JOHN R JR"}
+      ]
+    },
+    {
+      "key": "identity-joseph-j-pellecchia-b744",
+      "person_id": "9ae53621-cacd-5e9e-b163-7e61cf628380",
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph J Pellecchia is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PELLECCHIA JOSEPH J",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army entry data and coded occupation are not converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b744", "locator_override": "PDF page 362, row 27"},
+        {"source_key": "army-bulk-b744", "locator_override": "Bulk record ordinal 2917798", "excerpt_override": "PELLECCHIA JOSEPH J"}
+      ]
+    },
+    {
+      "key": "identity-lucien-p-pelletier-b744",
+      "person_id": "0f6b990a-ede2-5cca-9333-74822aa920d9",
+      "claim_type": "identity",
+      "claim_text": "The indexed Lucien P Pelletier is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PELLETIER LUCIEN P",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army entry data and coded occupation are not converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b744", "locator_override": "PDF page 362, row 29"},
+        {"source_key": "army-bulk-b744", "locator_override": "Bulk record ordinal 2801597", "excerpt_override": "PELLETIER LUCIEN P"}
+      ]
+    },
+    {
+      "key": "identity-mallby-k-pelletreau-b744",
+      "person_id": "2aad2534-e457-5bd7-a78f-b89c583f0704",
+      "claim_type": "identity",
+      "claim_text": "The Army candidate for Mallby K Pelletreau remains probable because the official Army record spells the first name Maltby.",
+      "evidence_excerpt": "PELLETREAU MALTBY K",
+      "evidence_paraphrase": "The protected identifier agrees, but the printed index and official Army row differ between Mallby and Maltby.",
+      "identity_match_assessment": "Probable pending direct Box 594 evidence resolving the spelling conflict.",
+      "temporal_assessment": "The records establish a wartime Army lead only and do not identify a pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The indexed spelling remains primary; Maltby K Pelletreau is retained only as a documented variant.",
+      "sources": [
+        {"source_key": "nara-index-b744", "locator_override": "PDF page 362, row 31"},
+        {"source_key": "army-bulk-b744", "locator_override": "Bulk record ordinal 8464242", "excerpt_override": "PELLETREAU MALTBY K"}
+      ]
+    },
+    {
+      "key": "identity-robert-j-pence-b744",
+      "person_id": "89a5de53-3cf5-5350-8ccb-cc141a9aec82",
+      "claim_type": "identity",
+      "claim_text": "The indexed Robert J Pence is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PENCE ROBERT J",
+      "evidence_paraphrase": "The index and official Army bulk record agree on the exact name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army entry data and coded occupation are not converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b744", "locator_override": "PDF page 362, row 41"},
+        {"source_key": "army-bulk-b744", "locator_override": "Bulk record ordinal 6269747", "excerpt_override": "PENCE ROBERT J"}
+      ]
+    },
+    {
+      "key": "identity-kenneth-w-pendar-b744",
+      "person_id": "6e85e460-a5b1-5e91-a53c-be15fe60f958",
+      "claim_type": "identity",
+      "claim_text": "The indexed Kenneth W Pendar is linked at high confidence to the American vice consul documented in the official FRUS edition.",
+      "evidence_excerpt": "Kenneth W. Pendar, American Vice Consul in Algiers",
+      "evidence_paraphrase": "An official wartime note identifies the same distinctive full name in North African diplomatic and clandestine work.",
+      "identity_match_assessment": "High confidence from the distinctive exact name, civilian federal grade, and wartime North African clandestine context.",
+      "temporal_assessment": "The source dates Pendar's Casablanca vice-consular service before the November 1942 landings but does not date his OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The identity is strong, while the exact transition from State Department post to OSS service remains unresolved.",
+      "sources": [
+        {"source_key": "nara-index-b744", "locator_override": "PDF page 362, row 44"},
+        {"source_key": "frus-casablanca-pendar-b744", "locator_override": "Document 396, footnote 9", "excerpt_override": "Kenneth W. Pendar, American Vice Consul in Algiers"}
+      ]
+    },
+    {
+      "key": "kenneth-w-pendar-state-affiliation-b744",
+      "person_id": "6e85e460-a5b1-5e91-a53c-be15fe60f958",
+      "affiliation_key": "kenneth-pendar-state-vice-consul-b744",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Kenneth W. Pendar served as an American vice consul in Casablanca before the November 1942 Allied landings.",
+      "evidence_excerpt": "Pendar had been Vice Consul in Casablanca",
+      "evidence_paraphrase": "The official documentary edition dates Pendar's Casablanca vice-consular assignment before the landings of November 8, 1942.",
+      "identity_match_assessment": "High-confidence match to the distinctive indexed civilian federal employee.",
+      "temporal_assessment": "Documented pre-OSS-era government assignment; the evidence does not prove it was the immediate predecessor to OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The State Department relationship is not labeled a private employer, and its possible overlap with clandestine service is left explicit.",
+      "sources": [
+        {"source_key": "frus-casablanca-pendar-b744", "locator_override": "Document 396, footnote 9", "excerpt_override": "Pendar had been Vice Consul in Casablanca"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {"person_id":"acbe9efe-13d3-502c-9c5a-c4cea072a89b","identity_status":"unresolved","identity_evidence":"The index identifies Dorothy Pelefsky as CAF-2, but the accessible official, exact-name, employment, institutional, newspaper, obituary, and archival searches did not uniquely identify her.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect the Dorothy Pelefsky personnel file in Box 594 for biographical identifiers and pre-OSS chronology.","archival_review_priority":"high"},
+    {"person_id":"ec26af35-2cce-534e-8f5b-0e9fe4edadc3","identity_status":"unresolved","identity_evidence":"The common surname and indexed rank did not yield a source that uniquely bridges Reed Pelfray to a pre-OSS affiliation.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect the Reed Pelfray personnel file in Box 594 and reconcile the indexed spelling against service records.","archival_review_priority":"critical"},
+    {"person_id":"46abdbcf-cc74-5c48-b4bb-c163817fff0d","identity_status":"unresolved","identity_evidence":"Accessible exact-name, military, employer, obituary, directory, newspaper, and archival searches did not uniquely identify Frank J Pellacore.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect the Frank J Pellacore personnel file in Box 594 for identity and pre-OSS employment evidence.","archival_review_priority":"high"},
+    {"person_id":"9ae53621-cacd-5e9e-b163-7e61cf628380","identity_status":"high_confidence","identity_evidence":"The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 594, including the indexed One fold note, to establish Joseph J Pellecchia's immediate pre-OSS chronology.","archival_review_priority":"high"},
+    {"person_id":"2026a124-58fc-5a97-9230-430f3970d32a","identity_status":"unresolved","identity_evidence":"Joseph J Pelletier is too common a name for name-only results to establish identity, and no accessible source supplied sufficient corroborating identifiers.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect the Joseph J Pelletier personnel file in Box 594 for service and civilian identifiers.","archival_review_priority":"critical"},
+    {"person_id":"0f6b990a-ede2-5cca-9333-74822aa920d9","identity_status":"high_confidence","identity_evidence":"The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 594 and the indexed Also 088 cross-reference to establish Lucien P Pelletier's pre-OSS chronology.","archival_review_priority":"high"},
+    {"person_id":"7d7c83e4-92ed-50ed-a062-4e8e1cfa1505","identity_status":"unresolved","identity_evidence":"The index preserves Raoul Pelletier's serial field as 3.12821e+0; the malformed printed value cannot safely disambiguate common-name search results.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect the Raoul Pelletier personnel file in Box 594 to recover identifiers and pre-OSS chronology.","archival_review_priority":"critical"},
+    {"person_id":"2aad2534-e457-5bd7-a78f-b89c583f0704","identity_status":"probable","identity_evidence":"The protected identifier agrees, but the printed index reads Mallby while the official Army bulk record reads Maltby.","name_variants":["Maltby K Pelletreau"],"manual_review_required":true,"research_status":"needs_identity_review","next_action":"Inspect Box 594 to resolve the Mallby/Maltby spelling conflict before establishing pre-OSS chronology.","archival_review_priority":"critical"},
+    {"person_id":"418b5db6-9cd3-5cee-beca-652c8e6b637a","identity_status":"high_confidence","identity_evidence":"The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect the Anthony B Pelliccia personnel file in Box 594 for immediate pre-OSS affiliation evidence.","archival_review_priority":"high"},
+    {"person_id":"6e7a4c9c-7e23-58ae-8043-30daccf32fcd","identity_status":"unresolved","identity_evidence":"The indexed initials, unfamiliar Pellizary spelling, blank rank, and truncated Folder tr note did not produce a unique identity bridge.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect the Joseph M.C. Pellizary personnel file in Box 594 and clarify the Folder tr note.","archival_review_priority":"critical"},
+    {"person_id":"a4f0168a-1a90-5279-930a-9341988f97b2","identity_status":"high_confidence","identity_evidence":"The exact indexed name and a nonshared protected identifier agree with the official Army bulk record despite the blank index rank.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect the Francis W Peloquin personnel file in Box 594 for immediate pre-OSS affiliation evidence.","archival_review_priority":"high"},
+    {"person_id":"993dd304-355e-541f-8286-1213d9523e7f","identity_status":"high_confidence","identity_evidence":"The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect the Cornelius H Pelton personnel file in Box 594 for immediate pre-OSS affiliation evidence.","archival_review_priority":"high"},
+    {"person_id":"876e2701-6e0e-5d52-bd5b-5619a9c83ca1","identity_status":"unresolved","identity_evidence":"The index identifies Jane B Pelton as P-1, but accessible searches did not provide a unique official or institutional identity bridge.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect the Jane B Pelton personnel file in Box 594 for biographical identifiers and pre-OSS employment evidence.","archival_review_priority":"high"},
+    {"person_id":"9a7e63db-6dfa-5a00-8162-5541a93e1b5e","identity_status":"unresolved","identity_evidence":"The index preserves Anthony Peluso's serial field as 3.26592e+0; the malformed printed value and common name prevent safe disambiguation.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect the Anthony Peluso personnel file in Box 594 to recover identifiers and pre-OSS chronology.","archival_review_priority":"critical"},
+    {"person_id":"28a399b5-4a61-5ec2-b0c4-9102da128bbd","identity_status":"probable","identity_evidence":"The base name and protected identifier agree, but the official Army record adds Jr. while the index does not.","name_variants":["John R Pemberton Jr."],"manual_review_required":true,"research_status":"needs_identity_review","next_action":"Inspect Box 594 to resolve the suffix before establishing John R Pemberton's pre-OSS chronology.","archival_review_priority":"critical"},
+    {"person_id":"ae3503c6-884b-53a8-a68c-ab10abf20fa1","identity_status":"unresolved","identity_evidence":"Accessible exact-name, military, employer, obituary, directory, newspaper, and archival searches did not uniquely identify Edward F Penak.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect the Edward F Penak personnel file in Box 594 for identity and pre-OSS employment evidence.","archival_review_priority":"high"},
+    {"person_id":"dcfb8286-9cd4-536a-8e78-69eeefa3044c","identity_status":"unresolved","identity_evidence":"The indexed first-lieutenant rank was insufficient to distinguish William Pencak from namesakes in accessible sources.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect the William Pencak personnel file in Box 594 for branch, unit, and pre-OSS chronology.","archival_review_priority":"critical"},
+    {"person_id":"89a5de53-3cf5-5350-8ccb-cc141a9aec82","identity_status":"high_confidence","identity_evidence":"The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect the Robert J Pence personnel file in Box 594 for immediate pre-OSS affiliation evidence.","archival_review_priority":"high"},
+    {"person_id":"bdf138fb-c6f0-5168-bd57-3b63debdb180","identity_status":"unresolved","identity_evidence":"The blank rank and truncated Folder e note did not yield enough context to identify Clayton C Pend in accessible sources.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect the Clayton C Pend personnel file in Box 594 and clarify the Folder e note.","archival_review_priority":"critical"},
+    {"person_id":"4042d7e9-f997-5b9b-aaa3-ccf1eb77243d","identity_status":"unresolved","identity_evidence":"The index identifies Carolyn D Pendar as CAF-4, but accessible exact-name and institutional searches did not uniquely identify her.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect the Carolyn D Pendar personnel file in Box 594 for biographical identifiers and pre-OSS employment evidence.","archival_review_priority":"high"},
+    {"person_id":"6e85e460-a5b1-5e91-a53c-be15fe60f958","identity_status":"high_confidence","identity_evidence":"The distinctive exact name, civilian federal grade, and official FRUS account of North African diplomatic and clandestine work support the identity match.","manual_review_required":true,"research_status":"completed","next_action":"Inspect Box 594 to determine the exact OSS entry date and whether the State Department post preceded or overlapped OSS service.","archival_review_priority":"medium"},
+    {"person_id":"dfd6bb52-5646-5695-9c4c-c0d248216751","identity_status":"unresolved","identity_evidence":"The blank index rank and common name did not yield a source with enough corroborating identifiers to resolve James R Pender.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect the James R Pender personnel file in Box 594 for identity and pre-OSS chronology.","archival_review_priority":"critical"},
+    {"person_id":"c9ebdb96-df11-5dc7-9c4b-18074b35a533","identity_status":"probable","identity_evidence":"The base name and protected identifier agree, but the official Army record adds Jr. while the printed index does not.","name_variants":["Edward S. H. Pendergast Jr."],"manual_review_required":true,"research_status":"needs_identity_review","next_action":"Inspect Box 594 to resolve the suffix before establishing Edward S. H. Pendergast's pre-OSS chronology.","archival_review_priority":"critical"}
+  ],
+  "research_attempts": [
+    {"key":"dorothy-pelefsky-protocol-b744","person_id":"acbe9efe-13d3-502c-9c5a-c4cea072a89b","source_adapter":"manual_staged_protocol","query_text":"NARA index review; exact-name OSS and CIA-domain searches; Dorothy Pelefsky employer, occupation, obituary, institutional, directory, newspaper, and archival searches; cohort CIA and Library of Congress adapter attempts","query_variant_type":"minimum_completed_protocol_batch_744","started_at":"2026-10-04T23:30:00-04:00","completed_at":"2026-10-04T23:55:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":6,"rejection_reasons":"Search results lacked corroborating identifiers or a dated pre-OSS employer; source adapters were inaccessible for the cohort.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 594.","attempt_number":1,"research_agent_version":"before-oss-b744-v1"},
+    {"key":"reed-pelfray-protocol-b744","person_id":"ec26af35-2cce-534e-8f5b-0e9fe4edadc3","source_adapter":"manual_staged_protocol","query_text":"NARA index review; exact-name and spelling-variant OSS searches; Reed Pelfray first lieutenant, employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches; cohort CIA and Library of Congress adapter attempts","query_variant_type":"minimum_completed_protocol_batch_744","started_at":"2026-10-04T23:30:00-04:00","completed_at":"2026-10-04T23:55:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":7,"rejection_reasons":"Common-name and spelling-variant results did not supply two corroborating identifiers or employer chronology.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 594 and reconcile the indexed spelling.","attempt_number":1,"research_agent_version":"before-oss-b744-v1"},
+    {"key":"frank-j-pellacore-protocol-b744","person_id":"46abdbcf-cc74-5c48-b4bb-c163817fff0d","source_adapter":"manual_staged_protocol","query_text":"NARA index review; exact-name OSS and CIA-domain searches; Frank J Pellacore employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches; cohort Library of Congress adapter attempt","query_variant_type":"minimum_completed_protocol_batch_744","started_at":"2026-10-04T23:30:00-04:00","completed_at":"2026-10-04T23:55:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":6,"rejection_reasons":"Plausible military and namesake results lacked a direct index or Box 594 bridge.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 594.","attempt_number":1,"research_agent_version":"before-oss-b744-v1"},
+    {"key":"joseph-j-pellecchia-protocol-b744","person_id":"9ae53621-cacd-5e9e-b163-7e61cf628380","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk review; exact-name OSS and CIA-domain searches; Joseph J Pellecchia employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches; cohort Library of Congress adapter attempt","query_variant_type":"official_identity_protocol_batch_744","started_at":"2026-10-04T23:30:00-04:00","completed_at":"2026-10-04T23:55:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":6,"rejection_reasons":"Official identity evidence was accepted; other results did not establish a named pre-OSS employer.","research_notes":"High-confidence Army identity only; coded occupation was not converted into employer evidence.","next_action":"Inspect Box 594 and the One fold material.","attempt_number":1,"research_agent_version":"before-oss-b744-v1"},
+    {"key":"joseph-j-pelletier-protocol-b744","person_id":"2026a124-58fc-5a97-9230-430f3970d32a","source_adapter":"manual_staged_protocol","query_text":"NARA index review; exact-name and rank OSS searches; Joseph J Pelletier sergeant, employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches; cohort CIA and Library of Congress adapter attempts","query_variant_type":"common_name_protocol_batch_744","started_at":"2026-10-04T23:30:00-04:00","completed_at":"2026-10-04T23:55:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":8,"rejection_reasons":"Common-name results lacked two corroborating identifiers beyond the name.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 594.","attempt_number":1,"research_agent_version":"before-oss-b744-v1"},
+    {"key":"lucien-p-pelletier-protocol-b744","person_id":"0f6b990a-ede2-5cca-9333-74822aa920d9","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk review; exact-name OSS and CIA-domain searches; Lucien P Pelletier employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches; cohort Library of Congress adapter attempt","query_variant_type":"official_identity_protocol_batch_744","started_at":"2026-10-04T23:30:00-04:00","completed_at":"2026-10-04T23:55:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":6,"rejection_reasons":"Official identity evidence was accepted; other results did not establish a named pre-OSS employer.","research_notes":"High-confidence Army identity only; the indexed Also 088 cross-reference remains for archival review.","next_action":"Inspect Box 594 and the Also 088 cross-reference.","attempt_number":1,"research_agent_version":"before-oss-b744-v1"},
+    {"key":"raoul-pelletier-protocol-b744","person_id":"7d7c83e4-92ed-50ed-a062-4e8e1cfa1505","source_adapter":"manual_staged_protocol","query_text":"NARA index review; exact-name and rank OSS searches; Raoul Pelletier staff sergeant, employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches; cohort CIA and Library of Congress adapter attempts","query_variant_type":"malformed_identifier_protocol_batch_744","started_at":"2026-10-04T23:30:00-04:00","completed_at":"2026-10-04T23:55:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":8,"rejection_reasons":"Common-name results could not be disambiguated because the printed serial field is malformed.","research_notes":"The source value 3.12821e+0 is preserved and not silently repaired.","next_action":"Inspect Box 594 to recover the identifier.","attempt_number":1,"research_agent_version":"before-oss-b744-v1"},
+    {"key":"mallby-k-pelletreau-protocol-b744","person_id":"2aad2534-e457-5bd7-a78f-b89c583f0704","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk review; Mallby and Maltby K Pelletreau OSS searches; employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches; cohort CIA and Library of Congress adapter attempts","query_variant_type":"name_conflict_protocol_batch_744","started_at":"2026-10-04T23:30:00-04:00","completed_at":"2026-10-04T23:55:00-04:00","outcome":"candidate_found","sources_reviewed":2,"candidate_sources_rejected":6,"rejection_reasons":"The official Army candidate is useful but conflicts with the printed first-name spelling; other results did not establish employer chronology.","research_notes":"The candidate remains probable and the printed Mallby spelling remains recoverable.","next_action":"Inspect Box 594 to resolve Mallby versus Maltby.","attempt_number":1,"research_agent_version":"before-oss-b744-v1"},
+    {"key":"anthony-b-pelliccia-protocol-b744","person_id":"418b5db6-9cd3-5cee-beca-652c8e6b637a","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk review; exact-name OSS and CIA-domain searches; Anthony B Pelliccia employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches; cohort Library of Congress adapter attempt","query_variant_type":"official_identity_protocol_batch_744","started_at":"2026-10-04T23:30:00-04:00","completed_at":"2026-10-04T23:55:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":6,"rejection_reasons":"Official identity evidence was accepted; other results did not establish a named pre-OSS employer.","research_notes":"High-confidence Army identity only; coded occupation was not converted into employer evidence.","next_action":"Inspect Box 594.","attempt_number":2,"research_agent_version":"before-oss-b744-v1"},
+    {"key":"joseph-mc-pellizary-protocol-b744","person_id":"6e7a4c9c-7e23-58ae-8043-30daccf32fcd","source_adapter":"manual_staged_protocol","query_text":"NARA index review; exact-name, initials, and spelling-variant OSS searches; Joseph M.C. Pellizary employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches; cohort CIA and Library of Congress adapter attempts","query_variant_type":"incomplete_name_protocol_batch_744","started_at":"2026-10-04T23:30:00-04:00","completed_at":"2026-10-04T23:55:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":7,"rejection_reasons":"Initial-only and spelling-variant results lacked a direct index or Box 594 bridge.","research_notes":"The truncated Folder tr note is preserved and requires direct file review.","next_action":"Inspect Box 594 and clarify Folder tr.","attempt_number":1,"research_agent_version":"before-oss-b744-v1"},
+    {"key":"francis-w-peloquin-protocol-b744","person_id":"a4f0168a-1a90-5279-930a-9341988f97b2","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk review; exact-name OSS and CIA-domain searches; Francis W Peloquin employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches; cohort Library of Congress adapter attempt","query_variant_type":"official_identity_protocol_batch_744","started_at":"2026-10-04T23:30:00-04:00","completed_at":"2026-10-04T23:55:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":6,"rejection_reasons":"Official identity evidence was accepted; other results did not establish a named pre-OSS employer.","research_notes":"High-confidence Army identity only; the blank index rank remains preserved.","next_action":"Inspect Box 594.","attempt_number":1,"research_agent_version":"before-oss-b744-v1"},
+    {"key":"cornelius-h-pelton-protocol-b744","person_id":"993dd304-355e-541f-8286-1213d9523e7f","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk review; exact-name OSS and CIA-domain searches; Cornelius H Pelton employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches; cohort Library of Congress adapter attempt","query_variant_type":"official_identity_protocol_batch_744","started_at":"2026-10-04T23:30:00-04:00","completed_at":"2026-10-04T23:55:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":6,"rejection_reasons":"Official identity evidence was accepted; other results did not establish a named pre-OSS employer.","research_notes":"High-confidence Army identity only; coded occupation was not converted into employer evidence.","next_action":"Inspect Box 594.","attempt_number":1,"research_agent_version":"before-oss-b744-v1"},
+    {"key":"jane-b-pelton-protocol-b744","person_id":"876e2701-6e0e-5d52-bd5b-5619a9c83ca1","source_adapter":"manual_staged_protocol","query_text":"NARA index review; exact-name OSS and CIA-domain searches; Jane B Pelton P-1, employer, occupation, obituary, institutional, directory, newspaper, and archival searches; cohort Library of Congress adapter attempt","query_variant_type":"civilian_grade_protocol_batch_744","started_at":"2026-10-04T23:30:00-04:00","completed_at":"2026-10-04T23:55:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":7,"rejection_reasons":"Namesake and institutional results lacked a direct federal-grade or Box 594 bridge.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 594.","attempt_number":1,"research_agent_version":"before-oss-b744-v1"},
+    {"key":"anthony-peluso-protocol-b744","person_id":"9a7e63db-6dfa-5a00-8162-5541a93e1b5e","source_adapter":"manual_staged_protocol","query_text":"NARA index review; exact-name and rank OSS searches; Anthony Peluso T/4, employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches; cohort CIA and Library of Congress adapter attempts","query_variant_type":"malformed_identifier_protocol_batch_744","started_at":"2026-10-04T23:30:00-04:00","completed_at":"2026-10-04T23:55:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":8,"rejection_reasons":"Common-name results could not be disambiguated because the printed serial field is malformed.","research_notes":"The source value 3.26592e+0 is preserved and not silently repaired.","next_action":"Inspect Box 594 to recover the identifier.","attempt_number":1,"research_agent_version":"before-oss-b744-v1"},
+    {"key":"john-r-pemberton-protocol-b744","person_id":"28a399b5-4a61-5ec2-b0c4-9102da128bbd","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk review; John R Pemberton and Jr. variant OSS searches; employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches; cohort CIA and Library of Congress adapter attempts","query_variant_type":"suffix_conflict_protocol_batch_744","started_at":"2026-10-04T23:30:00-04:00","completed_at":"2026-10-04T23:55:00-04:00","outcome":"candidate_found","sources_reviewed":2,"candidate_sources_rejected":7,"rejection_reasons":"The official Army candidate adds Jr.; other results did not resolve the suffix or establish employer chronology.","research_notes":"The candidate remains probable pending direct file review.","next_action":"Inspect Box 594 to resolve the suffix.","attempt_number":1,"research_agent_version":"before-oss-b744-v1"},
+    {"key":"edward-f-penak-protocol-b744","person_id":"ae3503c6-884b-53a8-a68c-ab10abf20fa1","source_adapter":"manual_staged_protocol","query_text":"NARA index review; exact-name OSS and CIA-domain searches; Edward F Penak employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches; cohort Library of Congress adapter attempt","query_variant_type":"minimum_completed_protocol_batch_744","started_at":"2026-10-04T23:30:00-04:00","completed_at":"2026-10-04T23:55:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":7,"rejection_reasons":"Search results lacked corroborating identifiers or a dated pre-OSS employer.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 594.","attempt_number":1,"research_agent_version":"before-oss-b744-v1"},
+    {"key":"william-pencak-protocol-b744","person_id":"dcfb8286-9cd4-536a-8e78-69eeefa3044c","source_adapter":"manual_staged_protocol","query_text":"NARA index review; exact-name and rank OSS searches; William Pencak first lieutenant, employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches; cohort CIA and Library of Congress adapter attempts","query_variant_type":"common_name_protocol_batch_744","started_at":"2026-10-04T23:30:00-04:00","completed_at":"2026-10-04T23:55:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":8,"rejection_reasons":"Military and obituary namesakes lacked two corroborating identifiers beyond the name.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 594.","attempt_number":1,"research_agent_version":"before-oss-b744-v1"},
+    {"key":"robert-j-pence-protocol-b744","person_id":"89a5de53-3cf5-5350-8ccb-cc141a9aec82","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk review; exact-name OSS and CIA-domain searches; Robert J Pence employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches; cohort Library of Congress adapter attempt","query_variant_type":"official_identity_protocol_batch_744","started_at":"2026-10-04T23:30:00-04:00","completed_at":"2026-10-04T23:55:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":7,"rejection_reasons":"Official identity evidence was accepted; other results did not establish a named pre-OSS employer.","research_notes":"High-confidence Army identity only; coded occupation was not converted into employer evidence.","next_action":"Inspect Box 594.","attempt_number":1,"research_agent_version":"before-oss-b744-v1"},
+    {"key":"clayton-c-pend-protocol-b744","person_id":"bdf138fb-c6f0-5168-bd57-3b63debdb180","source_adapter":"manual_staged_protocol","query_text":"NARA index review; exact-name and spelling-variant OSS searches; Clayton C Pend employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches; cohort CIA and Library of Congress adapter attempts","query_variant_type":"incomplete_name_protocol_batch_744","started_at":"2026-10-04T23:30:00-04:00","completed_at":"2026-10-04T23:55:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":7,"rejection_reasons":"The blank rank and truncated note left no reliable way to distinguish namesake or OCR-variant results.","research_notes":"The Folder e note is preserved exactly and requires file review.","next_action":"Inspect Box 594 and clarify Folder e.","attempt_number":1,"research_agent_version":"before-oss-b744-v1"},
+    {"key":"carolyn-d-pendar-protocol-b744","person_id":"4042d7e9-f997-5b9b-aaa3-ccf1eb77243d","source_adapter":"manual_staged_protocol","query_text":"NARA index review; exact-name OSS and CIA-domain searches; Carolyn D Pendar CAF-4, employer, occupation, obituary, institutional, directory, newspaper, and archival searches; cohort Library of Congress adapter attempt","query_variant_type":"civilian_grade_protocol_batch_744","started_at":"2026-10-04T23:30:00-04:00","completed_at":"2026-10-04T23:55:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":6,"rejection_reasons":"Search results lacked a direct CAF-4, OSS, or Box 594 identity bridge.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 594.","attempt_number":1,"research_agent_version":"before-oss-b744-v1"},
+    {"key":"kenneth-w-pendar-protocol-b744","person_id":"6e85e460-a5b1-5e91-a53c-be15fe60f958","source_adapter":"manual_staged_protocol","query_text":"NARA index and official FRUS review; exact-name OSS and CIA-domain searches; Kenneth W Pendar employer, occupation, obituary, State Department, institutional, newspaper, diplomatic, and archival searches; cohort Library of Congress adapter attempt","query_variant_type":"official_affiliation_protocol_batch_744","started_at":"2026-10-04T23:30:00-04:00","completed_at":"2026-10-04T23:55:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":5,"rejection_reasons":"Official FRUS evidence establishes the vice-consular assignment; other results did not establish the exact OSS entry date or an immediate predecessor relationship.","research_notes":"Published only as a documented pre-OSS-era government assignment, not as a private employer or proven immediate predecessor.","next_action":"Inspect Box 594 for the State-to-OSS transition.","attempt_number":1,"research_agent_version":"before-oss-b744-v1"},
+    {"key":"james-r-pender-protocol-b744","person_id":"dfd6bb52-5646-5695-9c4c-c0d248216751","source_adapter":"manual_staged_protocol","query_text":"NARA index review; exact-name and military OSS searches; James R Pender employer, occupation, obituary, institutional, directory, newspaper, and archival searches; cohort CIA and Library of Congress adapter attempts","query_variant_type":"common_name_protocol_batch_744","started_at":"2026-10-04T23:30:00-04:00","completed_at":"2026-10-04T23:55:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":8,"rejection_reasons":"Common-name results and the blank index rank did not provide two corroborating identifiers.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 594.","attempt_number":1,"research_agent_version":"before-oss-b744-v1"},
+    {"key":"edward-sh-pendergast-protocol-b744","person_id":"c9ebdb96-df11-5dc7-9c4b-18074b35a533","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk review; Edward S H Pendergast and Jr. variant OSS searches; employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches; cohort CIA and Library of Congress adapter attempts","query_variant_type":"suffix_conflict_protocol_batch_744","started_at":"2026-10-04T23:30:00-04:00","completed_at":"2026-10-04T23:55:00-04:00","outcome":"candidate_found","sources_reviewed":2,"candidate_sources_rejected":7,"rejection_reasons":"The official Army candidate adds Jr.; other results did not resolve the suffix or establish employer chronology.","research_notes":"The candidate remains probable pending direct file review.","next_action":"Inspect Box 594 to resolve the suffix.","attempt_number":1,"research_agent_version":"before-oss-b744-v1"}
+  ]
+}
