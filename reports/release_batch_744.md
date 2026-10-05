@@ -103,7 +103,15 @@ The exact rebuilt tree passed these local release gates:
 
 ## Publication verification
 
-Pending commit, GitHub Actions, deployment, and immutable live verification.
+Batch 744 was published from commit
+[`294a14c`](https://github.com/therealjameswilson/before-oss/commit/294a14c1863f67de4cfa39b521ab2c15c4a850f5).
+The [Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/37261583441)
+and [GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/37261583468)
+both completed successfully. Immutable live verification against that commit
+confirmed 67 assets totaling 106,944,485 bytes at manifest SHA-256
+`1529c4750c382aa653cce501e7b42900f742b9be908d31729624659243c548fa`,
+eight core routes, 31 source-register pages, and all 23 directly updated
+profiles at <https://therealjameswilson.github.io/before-oss/>.
 
 ## Resume
 
