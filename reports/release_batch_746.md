@@ -110,8 +110,25 @@ The exact rebuilt tree passed these local release gates:
 
 ## Publication verification
 
-Publication, workflow, and immutable live-site verification are pending the
-release commit.
+Batch 746's reviewed data and public assets were published from commit
+[`76f33f7`](https://github.com/therealjameswilson/before-oss/commit/76f33f745e78177c6cb84b8a7723902109701b5c).
+The first test run exposed a stale Ubuntu package index while installing the
+source-rebuild dependencies; it did not fail a research, site, or redaction
+assertion. Commit
+[`33dc0bd`](https://github.com/therealjameswilson/before-oss/commit/33dc0bde3a1234ce6de07442e703f75af59c39c2)
+adds an explicit package-index refresh. The replacement
+[Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38173849690)
+and [GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38173849766)
+both completed successfully, including the rebuilt source-based private-
+identifier audit.
+
+Immutable live verification against `33dc0bd` confirmed 67 assets totaling
+107,189,653 bytes at manifest SHA-256
+`6a630200e1a99e490dad26c8fdd4cd5d805edea76b3e60da7da948765ec40fa1`,
+eight core routes, 31 source-register pages, and all 23 directly updated
+profiles at <https://therealjameswilson.github.io/before-oss/>. A separate
+live check of the oil-company category confirmed the displayed total of 10
+people and the new Nick Perica / Standard Oil Barge Line entry.
 
 ## Resume
 
