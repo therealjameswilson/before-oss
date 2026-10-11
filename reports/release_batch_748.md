@@ -104,8 +104,34 @@ The exact rebuilt tree passed these local release gates:
 
 ## Publication verification
 
-This section is completed after the GitHub Actions test and Pages workflows
-finish and the cache-busted public site is checked against the release commit.
+Release commit
+[`f2c4463f352f33e60beac7c16efff5a739cef496`](https://github.com/therealjameswilson/before-oss/commit/f2c4463f352f33e60beac7c16efff5a739cef496)
+was pushed to `main` on 2026-10-11. The independent
+[Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38178469840)
+and
+[GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38178469881)
+both completed successfully.
+
+The immutable deployed-release verifier checked the public site against that
+commit: 67 assets and 107,318,961 bytes matched manifest SHA-256
+`05e9f066227058535937d7368ece9090bd988a4eea2493d9813a09ecc155f3f2`.
+It also verified eight core routes, 31 source-register pages, and all 24 direct
+profiles referenced by the evidence bundle. Cache-busted live checks confirmed
+23,978 source rows, 23,939 people, 764 verified-affiliation people, 340
+verified-employer people, 8,693 archival-review dispositions, and 13,700
+not-started people.
+
+The live Hart Perry profile displays the qualified University of Chicago
+Master of Arts student affiliation and AM'39 evidence. The live Homer L Perry
+and James B Perry profiles display the official-record name conflicts. The two
+Robert Perry URLs remain separate and preserve their distinct `Extract fr` and
+`Also in B` notes. The published site is
+<https://therealjameswilson.github.io/before-oss/>.
+
+GitHub emitted non-blocking platform notices that the selected actions are
+being forced from deprecated Node.js 20 to Node.js 24 and that the
+`ubuntu-latest` label is scheduled to move to Ubuntu 26. Neither notice caused
+a test or deployment failure.
 
 ## Resume
 
