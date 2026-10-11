@@ -1,0 +1,368 @@
+{
+  "bundle_version": "batch-748-evidence-v1",
+  "reviewer": "Before OSS batch 748 manual review",
+  "sources": [
+    {
+      "key": "nara-index-b748",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 597-598",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 364, rows 24-46; visually checked against a 300 dpi render",
+      "access_date": "2026-10-11",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Every printed row remains separate. Full protected identifiers remain private. The printed C or middle field, Remove note, 1st/2nd rank, two Robert Perry rows, Extract fr notes, and Also in B note are preserved without silent expansion or correction."
+    },
+    {
+      "key": "army-bulk-b748",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department. Adjutant General's Office",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946",
+      "locator": "Bulk ordinals 695903, 813075, 1488702, 2784146, 4372229, 4681369, 6576786, 7043879, and 7519047",
+      "access_date": "2026-10-11",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Selective Service System, Record Group 147",
+      "rights_notes": "Official unrestricted bulk data, not a Catalog API response. Protected identifiers, coded occupations, and raw records are not published or retained. Two candidate records are preserved as conflicts rather than accepted identities."
+    },
+    {
+      "key": "doew-hart-perry-b748",
+      "stable_url": "https://www.doew.at/cms/download/anarh/web_Jahrbuch_1992.pdf",
+      "archival_identifier": "DÖW Jahrbuch 1992, pp. 107-123",
+      "title": "Inspection of Mauthausen Concentration Camp: Ein früher Bericht des amerikanischen Geheimdienstes OSS aus dem befreiten Österreich",
+      "author_creator": "Siegfried Beer",
+      "repository_publisher": "Dokumentationsarchiv des österreichischen Widerstandes",
+      "publication_record_date": "1992",
+      "locator": "PDF page 56, printed page 109; PDF page 57, printed page 110, note 12",
+      "access_date": "2026-10-11",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "DÖW Jahrbuch 1992",
+      "rights_notes": "The relevant pages were extracted and visually reviewed. The article cites OSS records in NARA Record Group 226 and identifies Hart Perry as a lieutenant in OSS-Austria."
+    },
+    {
+      "key": "uchicago-class-news-hart-perry-b748",
+      "stable_url": "https://magazine.uchicago.edu/9708/9708BOBClassnews3.html",
+      "title": "Class News: 1940s",
+      "author_creator": "University of Chicago Magazine",
+      "repository_publisher": "University of Chicago Magazine",
+      "publication_record_date": "1997-08",
+      "locator": "Class of 1942 note for Beatrice Gaidzik Perry",
+      "access_date": "2026-10-11",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "University of Chicago Magazine Archive",
+      "rights_notes": "The institutional class note identifies Hart Perry as AM'39 and as Beatrice Gaidzik Perry's husband. Student status is not treated as employment."
+    },
+    {
+      "key": "uchicago-photo-hart-perry-b748",
+      "stable_url": "https://photoarchive.lib.uchicago.edu/db.xqy?one=apf1-06772.xml",
+      "archival_identifier": "Image Identifier apf1-06772",
+      "title": "Perry, Hart",
+      "author_creator": "Stephen Lewellyn",
+      "repository_publisher": "University of Chicago Library, Special Collections Research Center",
+      "publication_record_date": "1951",
+      "locator": "Archival Photographic Files, record apf1-06772",
+      "access_date": "2026-10-11",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Archival Photographic Files",
+      "rights_notes": "The record identifies Hart Perry, 1918-1991, as a University of Chicago alumnus and names his wife Beatrice, corroborating the institutional class note. The postwar Budget role is not used as pre-OSS employment evidence."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "university-of-chicago-b748",
+      "organization_id": "f2c878b0-ee44-573d-ab30-7e4282bc85e5",
+      "canonical_name": "University of Chicago",
+      "historical_name": "University of Chicago",
+      "aliases": ["U of C"],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Chicago",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "active_dates": null,
+      "normalization_notes": "Existing canonical organization reused. Hart Perry's relationship is student status, not employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "hart-perry-uchicago-student-b748",
+      "person_id": "f732a621-5a6f-5646-8300-d83126505d95",
+      "organization_key": "university-of-chicago-b748",
+      "organization_name_as_found": "University of Chicago",
+      "role_title": "Master of Arts student",
+      "occupation": "student",
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "1939",
+      "date_precision": "year",
+      "city": "Chicago",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "University records identify Hart Perry as AM'39. Separate scholarly OSS evidence identifies the indexed first lieutenant in OSS-Austria. The university is published only as documented prewar student affiliation; no immediate pre-OSS employer is inferred."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-harold-c-perry-b748",
+      "person_id": "249b45ef-bd24-533c-b9f7-d238e095d9be",
+      "claim_type": "identity",
+      "claim_text": "The indexed Harold C or Perry row is linked at high confidence to the official Army record for Harold C Perry.",
+      "evidence_excerpt": "PERRY HAROLD C",
+      "evidence_paraphrase": "The official Army name and a nonshared protected identifier agree with the row while the unusual printed middle field is preserved verbatim.",
+      "identity_match_assessment": "High confidence from official protected-identifier agreement; Harold C Perry is retained only as a documented search variant, not a silent correction.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The coded Army occupation is not converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b748", "locator_override": "PDF page 364, row 24"},
+        {"source_key": "army-bulk-b748", "locator_override": "Bulk record ordinal 695903", "excerpt_override": "PERRY HAROLD C"}
+      ]
+    },
+    {
+      "key": "identity-homer-l-perry-conflict-b748",
+      "person_id": "77458b2f-ada9-54e3-87df-8c4b820e42df",
+      "claim_type": "identity",
+      "claim_text": "The indexed Homer L Perry row has a protected-identifier match to an Army record for a different name.",
+      "evidence_excerpt": "YAGER MELVIN C",
+      "evidence_paraphrase": "The protected identifier agrees, but the official Army bulk record names Melvin C Yager rather than Homer L Perry.",
+      "identity_match_assessment": "Conflicting official identifiers; the Army candidate is not accepted as Homer L Perry.",
+      "temporal_assessment": "The conflict establishes no reliable identity, occupation, or pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Box 597 review is required before resolving the identifier conflict; coded occupation data are withheld.",
+      "sources": [
+        {"source_key": "nara-index-b748", "locator_override": "PDF page 364, row 26"},
+        {"source_key": "army-bulk-b748", "locator_override": "Bulk record ordinal 7043879", "excerpt_override": "YAGER MELVIN C"}
+      ]
+    },
+    {
+      "key": "identity-james-b-perry-peery-conflict-b748",
+      "person_id": "7200d6d1-9460-5f33-9957-dd960dfedc0f",
+      "claim_type": "identity",
+      "claim_text": "The indexed James B Perry row conflicts with an Army record spelling the surname Peery and a separate James B Peery index row.",
+      "evidence_excerpt": "PEERY JAMES B",
+      "evidence_paraphrase": "The protected identifier is shared by separate Perry and Peery index rows, while the Army record uses Peery.",
+      "identity_match_assessment": "Conflicting shared identifier; neither indexed person is merged or selected as the Army record without file evidence.",
+      "temporal_assessment": "The conflict establishes no reliable pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Boxes 593 and 597 must be compared. The printed Remove note is preserved without interpretation and the full identifier remains private.",
+      "sources": [
+        {"source_key": "nara-index-b748", "locator_override": "PDF page 364, row 27; compare page 362, row 17"},
+        {"source_key": "army-bulk-b748", "locator_override": "Bulk record ordinal 7519047", "excerpt_override": "PEERY JAMES B"}
+      ]
+    },
+    {
+      "key": "identity-john-s-perry-b748",
+      "person_id": "b2c6f43e-c5c6-5dab-8620-938102ce046b",
+      "claim_type": "identity",
+      "claim_text": "The indexed John S Perry is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PERRY JOHN S",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The coded Army occupation is not converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b748", "locator_override": "PDF page 364, row 29"},
+        {"source_key": "army-bulk-b748", "locator_override": "Bulk record ordinal 1488702", "excerpt_override": "PERRY JOHN S"}
+      ]
+    },
+    {
+      "key": "identity-manuel-s-perry-b748",
+      "person_id": "6c664959-e91d-5ec7-b35b-536ab4578f92",
+      "claim_type": "identity",
+      "claim_text": "The indexed Manuel S Perry is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PERRY MANUEL S",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "An early directory namesake was rejected because it lacked an OSS or identifier bridge. The Army occupation code is not employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b748", "locator_override": "PDF page 364, row 33"},
+        {"source_key": "army-bulk-b748", "locator_override": "Bulk record ordinal 813075", "excerpt_override": "PERRY MANUEL S"}
+      ]
+    },
+    {
+      "key": "identity-phillip-p-perry-b748",
+      "person_id": "44d836de-8a45-56ef-897f-8cc4b4404452",
+      "claim_type": "identity",
+      "claim_text": "The indexed Phillip P Perry is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PERRY PHILLIP P",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The coded Army occupation is not converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b748", "locator_override": "PDF page 364, row 35"},
+        {"source_key": "army-bulk-b748", "locator_override": "Bulk record ordinal 4372229", "excerpt_override": "PERRY PHILLIP P"}
+      ]
+    },
+    {
+      "key": "identity-william-r-perry-b748",
+      "person_id": "8972240e-d175-538c-b541-09a9ecd98062",
+      "claim_type": "identity",
+      "claim_text": "The indexed William R Perry is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PERRY WILLIAM R",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The coded Army occupation is not converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b748", "locator_override": "PDF page 364, row 41"},
+        {"source_key": "army-bulk-b748", "locator_override": "Bulk record ordinal 4681369", "excerpt_override": "PERRY WILLIAM R"}
+      ]
+    },
+    {
+      "key": "identity-anthony-perseo-b748",
+      "person_id": "e1ac3273-6a7f-57b0-989f-2a05a53abb1c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Anthony Perseo is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PERSEO ANTHONY",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The printed Extract fr note remains truncated and unexplained. The Army occupation code is not employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b748", "locator_override": "PDF page 364, row 43"},
+        {"source_key": "army-bulk-b748", "locator_override": "Bulk record ordinal 2784146", "excerpt_override": "PERSEO ANTHONY"}
+      ]
+    },
+    {
+      "key": "identity-william-r-pershing-b748",
+      "person_id": "fd1265a7-8efd-5ed5-b718-1174c522cef7",
+      "claim_type": "identity",
+      "claim_text": "The indexed William R Pershing is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PERSHING WILLIAM R",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "identity_match_assessment": "High confidence from exact official name-and-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The coded Army occupation is not converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b748", "locator_override": "PDF page 364, row 45"},
+        {"source_key": "army-bulk-b748", "locator_override": "Bulk record ordinal 6576786", "excerpt_override": "PERSHING WILLIAM R"}
+      ]
+    },
+    {
+      "key": "identity-hart-perry-b748",
+      "person_id": "f732a621-5a6f-5646-8300-d83126505d95",
+      "claim_type": "identity",
+      "claim_text": "The indexed First Lieutenant Hart Perry is linked at high confidence to the Hart Perry documented in OSS-Austria.",
+      "evidence_excerpt": "Leutnant Hart Perry (Codename: Pleurisy)",
+      "evidence_paraphrase": "A scholarly archival study identifies Lieutenant Hart Perry as an OSS-Austria member at Mauthausen in May 1945 and cites RG 226 records.",
+      "identity_match_assessment": "High confidence from the uncommon exact name, matching lieutenant rank, wartime date, and direct OSS context.",
+      "temporal_assessment": "The source establishes OSS identity and assignment, not a pre-OSS employer.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The codename and Austria assignment are identity context only. No immediate pre-OSS employer is inferred.",
+      "sources": [
+        {"source_key": "nara-index-b748", "locator_override": "PDF page 364, row 25"},
+        {"source_key": "doew-hart-perry-b748", "locator_override": "PDF page 56, printed page 109", "excerpt_override": "Leutnant Hart Perry (Codename: Pleurisy)"}
+      ]
+    },
+    {
+      "key": "hart-perry-uchicago-student-claim-b748",
+      "person_id": "f732a621-5a6f-5646-8300-d83126505d95",
+      "affiliation_key": "hart-perry-uchicago-student-b748",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Hart Perry received a Master of Arts degree from the University of Chicago in 1939.",
+      "evidence_excerpt": "Hart Perry, AM'39",
+      "evidence_paraphrase": "University class news identifies Hart Perry as a 1939 Master of Arts graduate; the photo archive independently identifies him as an alumnus and names the same spouse.",
+      "identity_match_assessment": "High confidence from the uncommon exact name, institutional spouse cross-reference, 1918-1991 dates, and separately established wartime OSS identity.",
+      "temporal_assessment": "The 1939 degree is documented prewar student status; it is not an employer and is not shown to be immediately pre-OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The later Budget and ITT career is excluded from pre-OSS claims. University of Chicago is classified only as student affiliation.",
+      "sources": [
+        {"source_key": "uchicago-class-news-hart-perry-b748", "locator_override": "Class of 1942 note", "excerpt_override": "Hart Perry, AM'39"},
+        {"source_key": "uchicago-photo-hart-perry-b748", "locator_override": "Image record apf1-06772", "excerpt_override": "Hart Perry, alumnus of the University of Chicago"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {"person_id":"249b45ef-bd24-533c-b9f7-d238e095d9be","identity_status":"high_confidence","identity_evidence":"The official Army bulk record agrees on a nonshared protected identifier and gives the name Harold C Perry; the index's literal C or field remains preserved.","name_variants":["Harold C Perry"],"manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 597 to resolve the printed C or field and establish Harold Perry's pre-OSS chronology and named employer.","archival_review_priority":"high"},
+    {"person_id":"f732a621-5a6f-5646-8300-d83126505d95","identity_status":"high_confidence","identity_evidence":"A scholarly archival study identifies Lieutenant Hart Perry in OSS-Austria; University of Chicago records identify Hart Perry, 1918-1991, as a 1939 graduate and preserve the same spouse identity.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 597 for Hart Perry's chronology between his 1939 University of Chicago degree, military service, and OSS-Austria assignment, including any named civilian employer.","archival_review_priority":"medium"},
+    {"person_id":"77458b2f-ada9-54e3-87df-8c4b820e42df","identity_status":"conflicting","identity_evidence":"The protected identifier points to an official Army record for Yager Melvin C rather than Homer L Perry. The Army candidate is not accepted.","manual_review_required":true,"research_status":"conflicting_sources","next_action":"Inspect Box 597 and the underlying Army record to resolve the Homer L Perry versus Yager Melvin C identifier conflict before assigning employment evidence.","archival_review_priority":"critical"},
+    {"person_id":"7200d6d1-9460-5f33-9957-dd960dfedc0f","identity_status":"conflicting","identity_evidence":"The protected identifier is shared with a separate James B Peery row in Box 593, while the Army record uses Peery. The rows remain separate.","manual_review_required":true,"possible_duplicate_group":"james-b-peery-perry-box593-597","research_status":"conflicting_sources","next_action":"Compare Boxes 593 and 597 and the official Army record before resolving Perry versus Peery or assigning employment evidence.","archival_review_priority":"critical"},
+    {"person_id":"d52d2286-aec0-55bb-a463-46eb79a8df76","identity_status":"conflicting","identity_evidence":"The protected identifier is shared by the separate James B Peery and James B Perry index rows. The Army record uses Peery, but the duplicate conflict prevents acceptance.","manual_review_required":true,"possible_duplicate_group":"james-b-peery-perry-box593-597","research_status":"needs_identity_review","next_action":"Compare Boxes 593 and 597 and the official Army record before resolving Perry versus Peery or assigning employment evidence.","archival_review_priority":"critical"},
+    {"person_id":"ed1163b6-873b-58ff-b1ad-256a6059aebf","identity_status":"unresolved","identity_evidence":"The common name and CPC-3 grade did not yield a unique OSS identity bridge or reliable pre-OSS affiliation in accessible sources.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect the James E Perry personnel file in Box 597 for biographical identifiers, CPC-3 duties, and pre-OSS employment chronology.","archival_review_priority":"critical"},
+    {"person_id":"b2c6f43e-c5c6-5dab-8620-938102ce046b","identity_status":"high_confidence","identity_evidence":"The exact indexed name and nonshared protected identifier agree with the official Army bulk record.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 597 to establish John S Perry's Army-to-OSS chronology and named civilian employer.","archival_review_priority":"high"},
+    {"person_id":"c040e52a-cc77-551f-8b1c-b3a560fd00e1","identity_status":"unresolved","identity_evidence":"The common name and unusual printed rank 1st/2nd did not yield a unique identity bridge or reliable pre-OSS affiliation.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect the John T Perry file in Box 597 to interpret the 1st/2nd rank, establish branch and unit, and identify pre-OSS employment.","archival_review_priority":"critical"},
+    {"person_id":"9f83b2f4-f13c-5459-99d8-5b2dc828cdb8","identity_status":"unresolved","identity_evidence":"The CAF-4 grade and exact-name searches did not establish two corroborating identifiers or a reliable pre-OSS affiliation for Josephine V Perry.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect the Josephine V Perry personnel file in Box 597 for full name, CAF-4 duties, and prior employer or student status.","archival_review_priority":"critical"},
+    {"person_id":"46eb9c0b-00af-5047-a367-3cc215e30d6a","identity_status":"unresolved","identity_evidence":"The common name and CPC-2 grade did not yield a unique identity bridge or reliable pre-OSS affiliation.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect the Lizzie Perry personnel file in Box 597 for complete name, CPC-2 duties, and pre-OSS employment chronology.","archival_review_priority":"critical"},
+    {"person_id":"6c664959-e91d-5ec7-b35b-536ab4578f92","identity_status":"high_confidence","identity_evidence":"The exact indexed name and nonshared protected identifier agree with the official Army bulk record.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 597 to establish Manuel S Perry's Army-to-OSS chronology and named civilian employer; do not use unbridged early directory namesakes.","archival_review_priority":"high"},
+    {"person_id":"8768f3dc-7129-5efb-a40b-6fbd03268f25","identity_status":"unresolved","identity_evidence":"The common name and blank rank and identifier did not yield a unique OSS identity bridge or reliable pre-OSS affiliation.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect the Margaret Perry personnel file in Box 597 for personnel status, biographical identifiers, and pre-OSS chronology.","archival_review_priority":"critical"},
+    {"person_id":"44d836de-8a45-56ef-897f-8cc4b4404452","identity_status":"high_confidence","identity_evidence":"The exact indexed name and nonshared protected identifier agree with the official Army bulk record.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 597 to establish Phillip P Perry's Army-to-OSS chronology and named civilian employer.","archival_review_priority":"high"},
+    {"person_id":"6f4b22a5-e704-5f3d-a838-8d3e6a89d5c4","identity_status":"unresolved","identity_evidence":"The common name, blank rank and identifier, and truncated Extract fr note did not yield a unique identity bridge.","manual_review_required":true,"possible_duplicate_group":"robert-perry-box598-b748","research_status":"requires_archival_review","next_action":"Inspect the first Robert Perry file in Box 598 to expand Extract fr, distinguish it from the second Robert Perry row, and establish pre-OSS chronology.","archival_review_priority":"critical"},
+    {"person_id":"a67b64e1-e2b5-5039-8ca4-9ce765fa8abd","identity_status":"unresolved","identity_evidence":"The common name, corporal rank, and protected identifier did not yield a corroborated public identity or pre-OSS affiliation.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect the Robert L Perry personnel file in Box 598 for branch, unit, hometown, and pre-OSS employer evidence.","archival_review_priority":"critical"},
+    {"person_id":"a34626aa-c744-5ef5-be5c-82331cb0b31b","identity_status":"unresolved","identity_evidence":"The second Robert Perry row remains separate; its blank rank and identifier and truncated Also in B note did not yield a unique identity bridge.","manual_review_required":true,"possible_duplicate_group":"robert-perry-box598-b748","research_status":"requires_archival_review","next_action":"Inspect the second Robert Perry file in Box 598 to expand Also in B, distinguish it from the first Robert Perry row, and establish pre-OSS chronology.","archival_review_priority":"critical"},
+    {"person_id":"fa6a6f7c-a329-5bc0-a7b8-f185da40f2b8","identity_status":"unresolved","identity_evidence":"The common name and blank rank and identifier did not yield a unique OSS identity bridge or reliable pre-OSS affiliation.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect the Thomas F Perry personnel file in Box 598 for personnel status, biographical identifiers, and pre-OSS chronology.","archival_review_priority":"critical"},
+    {"person_id":"f1a3dedc-80c3-57d8-afef-724333e57dbc","identity_status":"unresolved","identity_evidence":"The common name, captain rank, officer identifier, and truncated Extract fr note did not yield two corroborating public identifiers or a reliable pre-OSS affiliation.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect the William E Perry personnel file in Box 598 to expand Extract fr, confirm branch and OSS assignment, and establish pre-OSS chronology.","archival_review_priority":"critical"},
+    {"person_id":"8972240e-d175-538c-b541-09a9ecd98062","identity_status":"high_confidence","identity_evidence":"The exact indexed name and nonshared protected identifier agree with the official Army bulk record.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 598 to establish William R Perry's Army-to-OSS chronology and named civilian employer.","archival_review_priority":"high"},
+    {"person_id":"05147dd2-b5d4-5502-b577-0246d8422905","identity_status":"unresolved","identity_evidence":"The distinctive but punctuation-sensitive name, blank rank, and blank identifier did not yield a direct OSS identity bridge or reliable pre-OSS affiliation.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect the Albert O. J. Persechino personnel file in Box 598 for full name, nationality, personnel status, and pre-OSS chronology.","archival_review_priority":"critical"},
+    {"person_id":"e1ac3273-6a7f-57b0-989f-2a05a53abb1c","identity_status":"high_confidence","identity_evidence":"The exact indexed name and nonshared protected identifier agree with the official Army bulk record.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 598 to expand the printed Extract fr note and establish Anthony Perseo's Army-to-OSS and civilian chronology.","archival_review_priority":"high"},
+    {"person_id":"0ce35006-2528-5f80-9cbf-c6e5f12ce7c2","identity_status":"unresolved","identity_evidence":"The distinctive exact name but blank rank and identifier did not produce a reliable OSS identity bridge; postwar advertising namesakes were rejected.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect the James R Pershall personnel file in Box 598 for biographical identifiers, OSS assignment, and pre-OSS employment chronology.","archival_review_priority":"critical"},
+    {"person_id":"fd1265a7-8efd-5ed5-b718-1174c522cef7","identity_status":"high_confidence","identity_evidence":"The exact indexed name and nonshared protected identifier agree with the official Army bulk record.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 598 to establish William R Pershing's Army-to-OSS chronology and named civilian employer.","archival_review_priority":"high"},
+    {"person_id":"fdcb0d50-8031-5109-bcb2-660529e5b05c","identity_status":"unresolved","identity_evidence":"The CAF-7 grade and exact-name searches did not establish two corroborating identifiers or a reliable pre-OSS affiliation; an unbridged Helen Persky Fisher lead was rejected.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect the Helen Persky personnel file in Box 598 for full name, CAF-7 duties, biographical identifiers, and prior employer or student status.","archival_review_priority":"critical"}
+  ],
+  "research_attempts": [
+    {"key":"harold-c-perry-protocol-b748","person_id":"249b45ef-bd24-533c-b9f7-d238e095d9be","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk review; literal C or field and Harold C Perry variant; exact-name OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches; cohort CIA and Library of Congress adapter attempts","query_variant_type":"official_identity_source_artifact_protocol_batch_748","started_at":"2026-10-11T20:58:00-04:00","completed_at":"2026-10-11T21:48:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":7,"rejection_reasons":"Official identity evidence was accepted; other results did not establish a named pre-OSS employer or explain the printed C or field.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The CIA cohort endpoint was robots-blocked before a request and the Library of Congress cohort run was partial after a timeout.","next_action":"Inspect Box 597.","attempt_number":2,"research_agent_version":"before-oss-b748-v1"},
+    {"key":"hart-perry-protocol-b748","person_id":"f732a621-5a6f-5646-8300-d83126505d95","source_adapter":"manual_staged_protocol","query_text":"NARA index; exact-name and rank OSS searches; DÖW scholarly archival article; University of Chicago class news and photo archive; employer, occupation, obituary, institutional, newspaper, military, and archival searches","query_variant_type":"oss_identity_and_student_protocol_batch_748","started_at":"2026-10-11T20:58:00-04:00","completed_at":"2026-10-11T21:48:00-04:00","outcome":"source_reviewed","sources_reviewed":5,"candidate_sources_rejected":5,"rejection_reasons":"OSS identity and 1939 student evidence were accepted. Later Bureau of the Budget, ITT, and development-finance roles are postwar and were excluded from pre-OSS claims.","research_notes":"University of Chicago is published as student status only. No reliable immediate pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 597 for the 1939-1945 chronology.","attempt_number":2,"research_agent_version":"before-oss-b748-v1"},
+    {"key":"homer-l-perry-protocol-b748","person_id":"77458b2f-ada9-54e3-87df-8c4b820e42df","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk review; Homer L Perry and Yager Melvin C conflict; exact-name OSS, CIA-domain, employer, occupation, obituary, directory, newspaper, military, and archival searches","query_variant_type":"identifier_name_conflict_protocol_batch_748","started_at":"2026-10-11T20:58:00-04:00","completed_at":"2026-10-11T21:48:00-04:00","outcome":"candidate_found","sources_reviewed":2,"candidate_sources_rejected":7,"rejection_reasons":"The protected identifier maps to a differently named Army record; accessible searches did not resolve the conflict.","research_notes":"Identity remains conflicting and no employer or occupation is assigned.","next_action":"Inspect Box 597 and the underlying Army record.","attempt_number":2,"research_agent_version":"before-oss-b748-v1"},
+    {"key":"james-b-perry-protocol-b748","person_id":"7200d6d1-9460-5f33-9957-dd960dfedc0f","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk review; Perry and Peery variants; exact-name OSS, CIA-domain, employer, occupation, obituary, directory, newspaper, military, and archival searches","query_variant_type":"shared_identifier_conflict_protocol_batch_748","started_at":"2026-10-11T20:58:00-04:00","completed_at":"2026-10-11T21:48:00-04:00","outcome":"candidate_found","sources_reviewed":2,"candidate_sources_rejected":8,"rejection_reasons":"The protected identifier is shared between separate Perry and Peery index rows, and accessible results did not resolve which file belongs to the Army record.","research_notes":"The rows remain separate; the printed Remove note is not interpreted and no employer is assigned.","next_action":"Compare Boxes 593 and 597.","attempt_number":2,"research_agent_version":"before-oss-b748-v1"},
+    {"key":"james-e-perry-protocol-b748","person_id":"ed1163b6-873b-58ff-b1ad-256a6059aebf","source_adapter":"manual_staged_protocol","query_text":"NARA index; exact-name, CPC-3, OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, government, and archival searches","query_variant_type":"civilian_grade_common_name_protocol_batch_748","started_at":"2026-10-11T20:58:00-04:00","completed_at":"2026-10-11T21:48:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":9,"rejection_reasons":"Namesakes and civilian-service results lacked a direct Box 597 or OSS identity bridge.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 597.","attempt_number":2,"research_agent_version":"before-oss-b748-v1"},
+    {"key":"john-s-perry-protocol-b748","person_id":"b2c6f43e-c5c6-5dab-8620-938102ce046b","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk review; exact-name and rank OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches","query_variant_type":"official_identity_common_name_protocol_batch_748","started_at":"2026-10-11T20:58:00-04:00","completed_at":"2026-10-11T21:48:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":9,"rejection_reasons":"Official identity evidence was accepted; common-name results did not establish a named pre-OSS employer.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 597.","attempt_number":2,"research_agent_version":"before-oss-b748-v1"},
+    {"key":"john-t-perry-protocol-b748","person_id":"c040e52a-cc77-551f-8b1c-b3a560fd00e1","source_adapter":"manual_staged_protocol","query_text":"NARA index; exact-name and 1st/2nd rank variants; OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches","query_variant_type":"rank_ambiguity_common_name_protocol_batch_748","started_at":"2026-10-11T20:58:00-04:00","completed_at":"2026-10-11T21:48:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":10,"rejection_reasons":"Common-name officer results did not explain the unusual rank or provide a direct Box 597 identity bridge.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 597.","attempt_number":2,"research_agent_version":"before-oss-b748-v1"},
+    {"key":"josephine-v-perry-protocol-b748","person_id":"9f83b2f4-f13c-5459-99d8-5b2dc828cdb8","source_adapter":"manual_staged_protocol","query_text":"NARA index; exact-name, CAF-4, OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, government, and archival searches","query_variant_type":"civilian_grade_protocol_batch_748","started_at":"2026-10-11T20:58:00-04:00","completed_at":"2026-10-11T21:48:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":7,"rejection_reasons":"Results lacked a direct OSS, CAF-4, or Box 597 identity bridge.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 597.","attempt_number":2,"research_agent_version":"before-oss-b748-v1"},
+    {"key":"lizzie-perry-protocol-b748","person_id":"46eb9c0b-00af-5047-a367-3cc215e30d6a","source_adapter":"manual_staged_protocol","query_text":"NARA index; Lizzie and Elizabeth variants; CPC-2, OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, government, and archival searches","query_variant_type":"civilian_grade_name_variant_protocol_batch_748","started_at":"2026-10-11T20:58:00-04:00","completed_at":"2026-10-11T21:48:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":10,"rejection_reasons":"Common-name and Elizabeth variant results lacked a direct OSS, CPC-2, or Box 597 bridge.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 597.","attempt_number":2,"research_agent_version":"before-oss-b748-v1"},
+    {"key":"manuel-s-perry-protocol-b748","person_id":"6c664959-e91d-5ec7-b35b-536ab4578f92","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk review; exact-name OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches","query_variant_type":"official_identity_protocol_batch_748","started_at":"2026-10-11T20:58:00-04:00","completed_at":"2026-10-11T21:48:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":8,"rejection_reasons":"Official identity evidence was accepted; a much earlier directory namesake and other results lacked a wartime identity bridge or reliable chronology.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 597.","attempt_number":2,"research_agent_version":"before-oss-b748-v1"},
+    {"key":"margaret-perry-protocol-b748","person_id":"8768f3dc-7129-5efb-a40b-6fbd03268f25","source_adapter":"manual_staged_protocol","query_text":"NARA index; exact-name OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, government, and archival searches","query_variant_type":"incomplete_common_name_protocol_batch_748","started_at":"2026-10-11T20:58:00-04:00","completed_at":"2026-10-11T21:48:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":11,"rejection_reasons":"Numerous namesakes lacked a direct OSS or Box 597 bridge.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 597.","attempt_number":2,"research_agent_version":"before-oss-b748-v1"},
+    {"key":"phillip-p-perry-protocol-b748","person_id":"44d836de-8a45-56ef-897f-8cc4b4404452","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk review; Phillip and Philip variants; exact-name OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches","query_variant_type":"official_identity_spelling_variant_protocol_batch_748","started_at":"2026-10-11T20:58:00-04:00","completed_at":"2026-10-11T21:48:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":8,"rejection_reasons":"Official identity evidence was accepted; spelling-variant results did not establish a named pre-OSS employer.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 597.","attempt_number":2,"research_agent_version":"before-oss-b748-v1"},
+    {"key":"robert-perry-first-protocol-b748","person_id":"6f4b22a5-e704-5f3d-a838-8d3e6a89d5c4","source_adapter":"manual_staged_protocol","query_text":"NARA index; first Robert Perry row; Extract fr note; exact-name OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches","query_variant_type":"duplicate_common_name_truncated_note_protocol_batch_748","started_at":"2026-10-11T20:58:00-04:00","completed_at":"2026-10-11T21:48:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":12,"rejection_reasons":"Common-name results could not distinguish this first Box 598 row from the second Robert Perry row or other namesakes.","research_notes":"The two printed rows remain separate. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect the first Robert Perry file in Box 598.","attempt_number":2,"research_agent_version":"before-oss-b748-v1"},
+    {"key":"robert-l-perry-protocol-b748","person_id":"a67b64e1-e2b5-5039-8ca4-9ce765fa8abd","source_adapter":"manual_staged_protocol","query_text":"NARA index; exact-name, corporal rank, protected-number, OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches","query_variant_type":"common_name_enlisted_protocol_batch_748","started_at":"2026-10-11T20:58:00-04:00","completed_at":"2026-10-11T21:48:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":11,"rejection_reasons":"Common-name military and obituary results lacked a direct protected-number or Box 598 bridge.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 598.","attempt_number":2,"research_agent_version":"before-oss-b748-v1"},
+    {"key":"robert-perry-second-protocol-b748","person_id":"a34626aa-c744-5ef5-be5c-82331cb0b31b","source_adapter":"manual_staged_protocol","query_text":"NARA index; second Robert Perry row; Also in B note; exact-name OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches","query_variant_type":"duplicate_common_name_cross_reference_protocol_batch_748","started_at":"2026-10-11T20:58:00-04:00","completed_at":"2026-10-11T21:48:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":12,"rejection_reasons":"Common-name results could not expand the cross-reference or distinguish this second Box 598 row from the first Robert Perry row.","research_notes":"The two printed rows remain separate. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect the second Robert Perry file in Box 598.","attempt_number":2,"research_agent_version":"before-oss-b748-v1"},
+    {"key":"thomas-f-perry-protocol-b748","person_id":"fa6a6f7c-a329-5bc0-a7b8-f185da40f2b8","source_adapter":"manual_staged_protocol","query_text":"NARA index; exact-name OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches","query_variant_type":"common_name_incomplete_record_protocol_batch_748","started_at":"2026-10-11T20:58:00-04:00","completed_at":"2026-10-11T21:48:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":10,"rejection_reasons":"Namesakes lacked a direct OSS or Box 598 identity bridge.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 598.","attempt_number":2,"research_agent_version":"before-oss-b748-v1"},
+    {"key":"william-e-perry-protocol-b748","person_id":"f1a3dedc-80c3-57d8-afef-724333e57dbc","source_adapter":"manual_staged_protocol","query_text":"NARA index; captain rank; Extract fr note; exact-name OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches","query_variant_type":"common_name_officer_truncated_note_protocol_batch_748","started_at":"2026-10-11T20:58:00-04:00","completed_at":"2026-10-11T21:48:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":11,"rejection_reasons":"Officer namesakes lacked two corroborating identifiers beyond the index and did not expand the truncated note.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 598.","attempt_number":2,"research_agent_version":"before-oss-b748-v1"},
+    {"key":"william-r-perry-protocol-b748","person_id":"8972240e-d175-538c-b541-09a9ecd98062","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk review; exact-name OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches","query_variant_type":"official_identity_common_name_protocol_batch_748","started_at":"2026-10-11T20:58:00-04:00","completed_at":"2026-10-11T21:48:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":10,"rejection_reasons":"Official identity evidence was accepted; common-name results did not establish a named pre-OSS employer.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 598.","attempt_number":2,"research_agent_version":"before-oss-b748-v1"},
+    {"key":"albert-persechino-protocol-b748","person_id":"05147dd2-b5d4-5502-b577-0246d8422905","source_adapter":"manual_staged_protocol","query_text":"NARA index; exact-name and punctuation variants; OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, military, immigration, and archival searches; live Library of Congress attempt","query_variant_type":"distinctive_incomplete_name_protocol_batch_748","started_at":"2026-10-11T20:58:00-04:00","completed_at":"2026-10-11T21:48:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":6,"rejection_reasons":"Exact-name and punctuation-variant searches, including the completed Library of Congress query, produced no direct OSS identity bridge.","research_notes":"The CIA adapter was robots-blocked before a search request. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 598.","attempt_number":2,"research_agent_version":"before-oss-b748-v1"},
+    {"key":"anthony-perseo-protocol-b748","person_id":"e1ac3273-6a7f-57b0-989f-2a05a53abb1c","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk review; Extract fr note; exact-name OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, military, immigration, and archival searches; live Library of Congress attempt","query_variant_type":"official_identity_truncated_note_protocol_batch_748","started_at":"2026-10-11T20:58:00-04:00","completed_at":"2026-10-11T21:48:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":6,"rejection_reasons":"Official identity evidence was accepted; the Library of Congress request timed out and other results did not establish a named pre-OSS employer or expand the note.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 598.","attempt_number":2,"research_agent_version":"before-oss-b748-v1"},
+    {"key":"james-r-pershall-protocol-b748","person_id":"0ce35006-2528-5f80-9cbf-c6e5f12ce7c2","source_adapter":"manual_staged_protocol","query_text":"NARA index; exact-name OSS, CIA-domain, employer, occupation, advertising, obituary, institutional, directory, newspaper, military, and archival searches","query_variant_type":"distinctive_name_postwar_namesake_protocol_batch_748","started_at":"2026-10-11T20:58:00-04:00","completed_at":"2026-10-11T21:48:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":8,"rejection_reasons":"Advertising and other postwar results lacked a direct OSS or Box 598 identity bridge and were excluded from pre-OSS claims.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 598.","attempt_number":2,"research_agent_version":"before-oss-b748-v1"},
+    {"key":"william-r-pershing-protocol-b748","person_id":"fd1265a7-8efd-5ed5-b718-1174c522cef7","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk review; exact-name OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches","query_variant_type":"official_identity_distinctive_name_protocol_batch_748","started_at":"2026-10-11T20:58:00-04:00","completed_at":"2026-10-11T21:48:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":7,"rejection_reasons":"Official identity evidence was accepted; other results did not establish a named pre-OSS employer.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 598.","attempt_number":2,"research_agent_version":"before-oss-b748-v1"},
+    {"key":"helen-persky-protocol-b748","person_id":"fdcb0d50-8031-5109-bcb2-660529e5b05c","source_adapter":"manual_staged_protocol","query_text":"NARA index; exact-name, CAF-7, OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, government, and archival searches","query_variant_type":"civilian_grade_identity_protocol_batch_748","started_at":"2026-10-11T20:58:00-04:00","completed_at":"2026-10-11T21:48:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":8,"rejection_reasons":"A Helen R Persky Fisher lead and other namesakes lacked the indexed middle evidence, CAF-7 context, or a direct OSS and Box 598 bridge.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 598.","attempt_number":2,"research_agent_version":"before-oss-b748-v1"}
+  ]
+}
