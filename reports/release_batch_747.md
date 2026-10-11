@@ -107,7 +107,24 @@ The exact rebuilt tree passed these local release gates:
 
 ## Publication verification
 
-Publication and immutable live verification are pending.
+Batch 747's reviewed data and public assets were published from commit
+[`9caa449`](https://github.com/therealjameswilson/before-oss/commit/9caa44973e2873026fb480661d466e07979428c9).
+The [Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38176452479)
+and [GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38176452478)
+both completed successfully. The test workflow independently rebuilt the
+private-identifier audit source and passed the public redaction audit.
+
+Cache-busted, unauthenticated live verification against `9caa449` confirmed
+the public counts of 23,939 people, 10,211 research attempts, 763 verified
+affiliations, 340 verified employers, 8,670 archival-review assessments, and
+13,723 not-started records. The live 67-asset manifest totals 107,256,824
+bytes at SHA-256
+`926c52a6a9444f1ad3e110d2f0d7969b8467779b4d89572117b87e0f2fbf96a8`.
+The Henry G Perley profile displays the qualified Dartmouth student evidence;
+the Francis Perry profile displays the Dawes Team identification and qualified
+knit-goods occupation evidence. The oil-company category remains available
+with 10 people and 12 historically named companies at
+<https://therealjameswilson.github.io/before-oss/>.
 
 ## Resume
 
