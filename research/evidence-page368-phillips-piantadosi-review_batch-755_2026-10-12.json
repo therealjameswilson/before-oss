@@ -1,0 +1,972 @@
+{
+  "bundle_version": "batch-755-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 755 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b755",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 603",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 368, rows 1-23; visually checked against a 300 dpi render",
+      "access_date": "2026-10-12",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Every printed row remains separate. Full protected identifiers remain private. Wallace B Phillips's 'Polish Ar' and Wayman F Phillips's 'Also 348' notes remain literal where printed."
+    },
+    {
+      "key": "army-bulk-b755",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department. Adjutant General's Office",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946",
+      "locator": "Nine reviewed exact-name, nonshared protected-identifier matches",
+      "access_date": "2026-10-12",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Selective Service System, Record Group 147",
+      "rights_notes": "Official unrestricted bulk data, not a Catalog API response. Full protected identifiers, coded occupations, and raw records are not published or retained. Coded occupation values are identity aids only, never employer evidence."
+    },
+    {
+      "key": "uswm-greek-og-b755",
+      "stable_url": "https://www.uswarmemorials.org/html/monument_details.php?MemID=1865&SiteID=1414&file=monument_details.php&page=4",
+      "title": "Greek Operational Group (OSS) Soldier Monument",
+      "author_creator": "American War Memorials Overseas, Inc.",
+      "repository_publisher": "American War Memorials Overseas, Inc.",
+      "publication_record_date": "2005-05-26",
+      "locator": "Monument description and 224-name plaque transcription, including Perecles P. Phillips and Peter C. Photis",
+      "access_date": "2026-10-12",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "American War Memorials Overseas database",
+      "rights_notes": "Used only to corroborate wartime identity and Greek Operational Group service after an official protected-identifier match; not used as employer evidence."
+    },
+    {
+      "key": "snyder-photis-b755",
+      "stable_url": "https://www.snyderfuneralhome.com/obituaries/peter-photis",
+      "title": "Peter C. Photis Obituary 2011",
+      "author_creator": "Charles F. Snyder Funeral Homes & Crematory",
+      "repository_publisher": "Charles F. Snyder Funeral Homes & Crematory",
+      "publication_record_date": "2011-04-11",
+      "locator": "Obituary paragraphs on U.S. Army, OSS commando, and Greek-U.S. Operational Group service",
+      "access_date": "2026-10-12",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Obituaries",
+      "rights_notes": "The obituary directly links this distinctive person to OSS service. Its 1953-1995 business ownership is postwar and is not used as pre-OSS employment evidence."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [],
+  "claims": [
+    {
+      "key": "identity-kenneth-h-phillips-b755",
+      "person_id": "dd652d06-032b-5e4a-8851-e3a5d791fde7",
+      "claim_type": "identity",
+      "claim_text": "The indexed Kenneth H Phillips row is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PHILLIPS KENNETH H",
+      "evidence_paraphrase": "The exact name and a nonshared protected identifier agree across the official records.",
+      "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army occupation data are not converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b755",
+          "locator_override": "PDF page 368, row 1"
+        },
+        {
+          "source_key": "army-bulk-b755",
+          "excerpt_override": "PHILLIPS KENNETH H"
+        }
+      ]
+    },
+    {
+      "key": "identity-paul-a-phillips-b755",
+      "person_id": "9d891299-cffb-5459-8ce3-3345970a08ef",
+      "claim_type": "identity",
+      "claim_text": "The indexed Paul A Phillips row is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PHILLIPS PAUL A",
+      "evidence_paraphrase": "The exact name and a nonshared protected identifier agree across the official records.",
+      "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army occupation data are not converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b755",
+          "locator_override": "PDF page 368, row 4"
+        },
+        {
+          "source_key": "army-bulk-b755",
+          "excerpt_override": "PHILLIPS PAUL A"
+        }
+      ]
+    },
+    {
+      "key": "identity-perecles-p-phillips-b755",
+      "person_id": "75324529-d0bb-5770-af3b-93cce98c7497",
+      "claim_type": "identity",
+      "claim_text": "The indexed Perecles P Phillips row is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PHILLIPS PERECLES P",
+      "evidence_paraphrase": "The exact name and a nonshared protected identifier agree across the official records.",
+      "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army occupation data are not converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b755",
+          "locator_override": "PDF page 368, row 5"
+        },
+        {
+          "source_key": "army-bulk-b755",
+          "excerpt_override": "PHILLIPS PERECLES P"
+        },
+        {
+          "source_key": "uswm-greek-og-b755",
+          "support_type": "context_only",
+          "locator_override": "Plaque transcription and linked personnel entry"
+        }
+      ]
+    },
+    {
+      "key": "identity-william-r-phillips-b755",
+      "person_id": "888ba408-6781-5296-a7f9-979b73b59c72",
+      "claim_type": "identity",
+      "claim_text": "The indexed William R Phillips row is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PHILLIPS WILLIAM R",
+      "evidence_paraphrase": "The exact name and a nonshared protected identifier agree across the official records.",
+      "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army occupation data are not converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b755",
+          "locator_override": "PDF page 368, row 15"
+        },
+        {
+          "source_key": "army-bulk-b755",
+          "excerpt_override": "PHILLIPS WILLIAM R"
+        }
+      ]
+    },
+    {
+      "key": "identity-robert-l-philpot-b755",
+      "person_id": "dd60bd38-8733-5f4e-91d8-d9c81bf238d6",
+      "claim_type": "identity",
+      "claim_text": "The indexed Robert L Philpot row is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PHILPOT ROBERT L",
+      "evidence_paraphrase": "The exact name and a nonshared protected identifier agree across the official records.",
+      "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army occupation data are not converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b755",
+          "locator_override": "PDF page 368, row 16"
+        },
+        {
+          "source_key": "army-bulk-b755",
+          "excerpt_override": "PHILPOT ROBERT L"
+        }
+      ]
+    },
+    {
+      "key": "identity-charles-h-phipps-b755",
+      "person_id": "a76b834b-4022-5a7c-b591-df5a6247c2b7",
+      "claim_type": "identity",
+      "claim_text": "The indexed Charles H Phipps row is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PHIPPS CHARLES H",
+      "evidence_paraphrase": "The exact name and a nonshared protected identifier agree across the official records.",
+      "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army occupation data are not converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b755",
+          "locator_override": "PDF page 368, row 17"
+        },
+        {
+          "source_key": "army-bulk-b755",
+          "excerpt_override": "PHIPPS CHARLES H"
+        }
+      ]
+    },
+    {
+      "key": "identity-edward-a-phipps-b755",
+      "person_id": "ca0c9320-f7d7-5032-b6f1-60432d91ca90",
+      "claim_type": "identity",
+      "claim_text": "The indexed Edward A Phipps row is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PHIPPS EDWARD A",
+      "evidence_paraphrase": "The exact name and a nonshared protected identifier agree across the official records.",
+      "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army occupation data are not converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b755",
+          "locator_override": "PDF page 368, row 18"
+        },
+        {
+          "source_key": "army-bulk-b755",
+          "excerpt_override": "PHIPPS EDWARD A"
+        }
+      ]
+    },
+    {
+      "key": "identity-peter-c-photis-b755",
+      "person_id": "f50fb8de-3aa7-5b29-8e72-8f8a73de8823",
+      "claim_type": "identity",
+      "claim_text": "The indexed Peter C Photis row is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PHOTIS PETER C",
+      "evidence_paraphrase": "The exact name and a nonshared protected identifier agree across the official records.",
+      "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army occupation data are not converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b755",
+          "locator_override": "PDF page 368, row 20"
+        },
+        {
+          "source_key": "army-bulk-b755",
+          "excerpt_override": "PHOTIS PETER C"
+        },
+        {
+          "source_key": "uswm-greek-og-b755",
+          "support_type": "context_only",
+          "locator_override": "Plaque transcription and linked personnel entry"
+        },
+        {
+          "source_key": "snyder-photis-b755",
+          "support_type": "context_only",
+          "locator_override": "Wartime service paragraphs"
+        }
+      ]
+    },
+    {
+      "key": "identity-arthur-r-piantadosi-b755",
+      "person_id": "a75265a2-8500-5af0-9321-593cf52cf008",
+      "claim_type": "identity",
+      "claim_text": "The indexed Arthur R Piantadosi row is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PIANTADOSI ARTHUR R",
+      "evidence_paraphrase": "The exact name and a nonshared protected identifier agree across the official records.",
+      "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army occupation data are not converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b755",
+          "locator_override": "PDF page 368, row 22"
+        },
+        {
+          "source_key": "army-bulk-b755",
+          "excerpt_override": "PIANTADOSI ARTHUR R"
+        }
+      ]
+    },
+    {
+      "key": "identity-perecles-phillips-greek-og-b755",
+      "person_id": "75324529-d0bb-5770-af3b-93cce98c7497",
+      "claim_type": "identity",
+      "claim_text": "A historical memorial roster corroborates Perecles P. Phillips's service in the OSS Greek Operational Group.",
+      "evidence_excerpt": "Perecles Peter ‘Perry’ Phillips",
+      "evidence_paraphrase": "The monument database names Perecles P. Phillips on the 224-soldier plaque and expands his middle name as Peter.",
+      "identity_match_assessment": "High confidence when combined with the exact official Army protected-identifier match.",
+      "temporal_assessment": "The source documents wartime operational-group service, not a pre-OSS employer.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The expanded name is published as a documented variant; no civilian occupation is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-index-b755",
+          "locator_override": "PDF page 368, row 5"
+        },
+        {
+          "source_key": "army-bulk-b755",
+          "support_type": "context_only",
+          "locator_override": "Reviewed protected-identifier match"
+        },
+        {
+          "source_key": "uswm-greek-og-b755",
+          "locator_override": "Plaque list and Perecles Peter 'Perry' Phillips entry"
+        }
+      ]
+    },
+    {
+      "key": "identity-peter-photis-oss-b755",
+      "person_id": "f50fb8de-3aa7-5b29-8e72-8f8a73de8823",
+      "claim_type": "identity",
+      "claim_text": "Peter C. Photis is linked at high confidence to an OSS commando in the Greek-U.S. Operational Group.",
+      "evidence_excerpt": "volunteered his services as a commando with the OSS",
+      "evidence_paraphrase": "The obituary names Peter C. Photis, his wartime Army service, OSS commando role, and Company C, 2671st Special Reconnaissance Battalion.",
+      "identity_match_assessment": "High confidence from the distinctive exact name, official protected-identifier match, and two corroborating wartime sources.",
+      "temporal_assessment": "The sources establish wartime OSS service but do not identify his civilian employer immediately before service.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The obituary's postwar nightclub ownership is excluded from pre-OSS claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b755",
+          "locator_override": "PDF page 368, row 20"
+        },
+        {
+          "source_key": "army-bulk-b755",
+          "support_type": "context_only",
+          "locator_override": "Reviewed protected-identifier match"
+        },
+        {
+          "source_key": "snyder-photis-b755",
+          "locator_override": "Wartime service paragraphs"
+        },
+        {
+          "source_key": "uswm-greek-og-b755",
+          "support_type": "supports",
+          "locator_override": "Plaque transcription naming Peter C. Photis"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "dd652d06-032b-5e4a-8851-e3a5d791fde7",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 603 for civilian occupation and pre-OSS assignment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2069b215-2161-55ea-a02a-ef33949909b3",
+      "identity_status": "ambiguous",
+      "identity_evidence": "This common name has no protected identifier or corroborating biographical detail in the index row.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect Box 603 for identifiers, name variants, and pre-OSS chronology.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e8ceef98-bd3c-5b8f-8d18-911345715faf",
+      "identity_status": "ambiguous",
+      "identity_evidence": "A 1936 federal newsletter names a Marion E. Phillips, but no independent identifier links that namesake to this OSS row.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect Box 603 before considering the 1936 federal employment lead.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "9d891299-cffb-5459-8ce3-3345970a08ef",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 603 for civilian occupation and pre-OSS assignment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "75324529-d0bb-5770-af3b-93cce98c7497",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Official Army identity evidence and a Greek Operational Group memorial roster agree on this distinctive person.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 603 for pre-Army civilian occupation and the chronology of OSS recruitment.",
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Perecles Peter Phillips",
+        "Perry Phillips"
+      ]
+    },
+    {
+      "person_id": "4afb2052-2862-5ccb-9f25-fe51a2c7952a",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The common name and staff-sergeant rank do not distinguish among multiple wartime namesakes.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect Box 603 for the protected identifier and assignment history.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "a40da12d-6c8f-56c4-a381-5fdde3a98433",
+      "identity_status": "probable",
+      "identity_evidence": "An official CIA Reading Room search lead names a Captain Robert S. Phillips in an OSS Middle East parachute unit, but the underlying document could not be directly inspected in this session.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 603 and the CIA memo before accepting the identity or researching prior employment.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "cf726735-916c-5f68-9189-3c58aafaf4c8",
+      "identity_status": "ambiguous",
+      "identity_evidence": "This common name has no protected identifier or corroborating biographical detail in the index row.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect Box 603 for identifiers and pre-OSS chronology.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "69b617a9-aed9-55b8-9441-798e4f100ca8",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The index supplies no middle initial, rank, or protected identifier for this common name.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect Box 603 for a full name, identifiers, and pre-OSS chronology.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "86d6dd84-3459-5696-aa6d-a8b16f7e8575",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The common name and first-lieutenant rank did not produce a uniquely corroborated OSS officer.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect Box 603 for officer identifiers and prior assignment history.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "d845d2ba-7c3a-585f-acfc-16178981ce40",
+      "identity_status": "unresolved",
+      "identity_evidence": "Distinctive-name, OSS, employer, occupation, obituary, directory, and archival searches produced no reliable person-specific source.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 603 for identifiers, hometown, and pre-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7499f0e1-eb1a-57d3-8051-a0b214032d6f",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The printed 'Polish Ar' note is truncated and cannot safely establish nationality, unit, or identity.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect Box 603 and resolve the literal 'Polish Ar' note before assigning any biography.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "97647744-820b-5544-9428-c01540d1c71c",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and variant searches did not explain the printed 'Also 348' cross-reference or establish a prior employer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 603 and trace the 'Also 348' cross-reference.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e8b3dda2-5d71-56c6-823a-898a5e8f6436",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The index row's CAF-5 grade is useful context but the name lacks an initial or other unique identifier.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect Box 603 for civilian personnel records and prior employer.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "888ba408-6781-5296-a7f9-979b73b59c72",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 603 for civilian occupation and pre-OSS assignment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "dd60bd38-8733-5f4e-91d8-d9c81bf238d6",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 603 for civilian occupation and pre-OSS assignment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a76b834b-4022-5a7c-b591-df5a6247c2b7",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 603 for civilian occupation and pre-OSS assignment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ca0c9320-f7d7-5032-b6f1-60432d91ca90",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 603 for civilian occupation and pre-OSS assignment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5260f46c-2b07-5509-bc4a-e858d83e2697",
+      "identity_status": "unresolved",
+      "identity_evidence": "The highly distinctive name produced no accessible source beyond the NARA personnel index.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 603 for transliteration variants, nationality, role, and pre-OSS affiliation.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "f50fb8de-3aa7-5b29-8e72-8f8a73de8823",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Official Army identity evidence, a historical memorial roster, and a detailed obituary agree on Peter C. Photis's OSS Greek Operational Group service.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 603 for his civilian occupation before Army and OSS service.",
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Pete Photis",
+        "Peter Fotis"
+      ]
+    },
+    {
+      "person_id": "ee7618c2-d0ee-59d8-a117-d4b5506457a9",
+      "identity_status": "unresolved",
+      "identity_evidence": "A funeral-home page matches the distinctive name and gives life dates, but it supplies no military or OSS bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 603 for officer identifiers, biographical details, and pre-OSS chronology.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "a75265a2-8500-5af0-9321-593cf52cf008",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 603 and reliable film-industry archives to establish his employment immediately before OSS.",
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Arthur Piantadosi",
+        "Art Piantadosi"
+      ]
+    },
+    {
+      "person_id": "dd059ef0-ded2-5514-9343-3480d3ffe8b7",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name searches produced several later namesakes but no independently corroborated wartime OSS identity.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 603 for full name, identifiers, hometown, and pre-OSS chronology.",
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "kenneth-h-phillips-protocol-b755",
+      "person_id": "dd652d06-032b-5e4a-8851-e3a5d791fde7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Kenneth H Phillips exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "army_identifier_protocol_batch_755",
+      "started_at": "2026-10-12T19:45:00-04:00",
+      "completed_at": "2026-10-12T22:05:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Official identity evidence accepted; same-name web results lacked employer and OSS corroboration.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The accepted official Army match establishes identity only. CIA and LoC cohort adapter checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 603 for civilian occupation and pre-OSS assignment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b755-v1"
+    },
+    {
+      "key": "margaret-k-phillips-protocol-b755",
+      "person_id": "2069b215-2161-55ea-a02a-ef33949909b3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Margaret K Phillips exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "common_name_protocol_batch_755",
+      "started_at": "2026-10-12T19:45:00-04:00",
+      "completed_at": "2026-10-12T22:05:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Search results returned multiple namesakes without a direct OSS bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA and LoC cohort adapter checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 603 for identifiers, name variants, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b755-v1"
+    },
+    {
+      "key": "marion-e-phillips-protocol-b755",
+      "person_id": "e8ceef98-bd3c-5b8f-8d18-911345715faf",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Marion E Phillips exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "common_name_candidate_protocol_batch_755",
+      "started_at": "2026-10-12T19:45:00-04:00",
+      "completed_at": "2026-10-12T22:05:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "The federal namesake lacks rank, service, hometown, or OSS corroboration.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA and LoC cohort adapter checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 603 before considering the 1936 federal employment lead.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b755-v1"
+    },
+    {
+      "key": "paul-a-phillips-protocol-b755",
+      "person_id": "9d891299-cffb-5459-8ce3-3345970a08ef",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Paul A Phillips exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "army_identifier_protocol_batch_755",
+      "started_at": "2026-10-12T19:45:00-04:00",
+      "completed_at": "2026-10-12T22:05:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Official identity evidence accepted; common namesakes did not establish an employer.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The accepted official Army match establishes identity only. CIA and LoC cohort adapter checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 603 for civilian occupation and pre-OSS assignment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b755-v1"
+    },
+    {
+      "key": "perecles-p-phillips-protocol-b755",
+      "person_id": "75324529-d0bb-5770-af3b-93cce98c7497",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Perecles P Phillips exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "army_identifier_operational_group_protocol_batch_755",
+      "started_at": "2026-10-12T19:45:00-04:00",
+      "completed_at": "2026-10-12T22:05:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Army and operational-group identity evidence accepted; neither establishes a civilian employer.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The accepted official Army match establishes identity only. A memorial roster corroborates Greek Operational Group service and the Peter/Perry variants. CIA and LoC cohort adapter checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 603 for pre-Army civilian occupation and the chronology of OSS recruitment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b755-v1"
+    },
+    {
+      "key": "richard-b-phillips-protocol-b755",
+      "person_id": "4afb2052-2862-5ccb-9f25-fe51a2c7952a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Richard B Phillips exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "common_enlisted_protocol_batch_755",
+      "started_at": "2026-10-12T19:45:00-04:00",
+      "completed_at": "2026-10-12T22:05:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "No candidate supplied two corroborating identifiers beyond the name.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA and LoC cohort adapter checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 603 for the protected identifier and assignment history.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b755-v1"
+    },
+    {
+      "key": "robert-s-phillips-protocol-b755",
+      "person_id": "a40da12d-6c8f-56c4-a381-5fdde3a98433",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Robert S Phillips exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "common_officer_source_access_protocol_batch_755",
+      "started_at": "2026-10-12T19:45:00-04:00",
+      "completed_at": "2026-10-12T22:05:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The highly specific official lead remains unpublished because direct source access could not be verified.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A specific official-source lead remains unpublished pending direct document inspection. CIA and LoC cohort adapter checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 603 and the CIA memo before accepting the identity or researching prior employment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b755-v1"
+    },
+    {
+      "key": "ruth-m-phillips-protocol-b755",
+      "person_id": "cf726735-916c-5f68-9189-3c58aafaf4c8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Ruth M Phillips exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "common_name_protocol_batch_755",
+      "started_at": "2026-10-12T19:45:00-04:00",
+      "completed_at": "2026-10-12T22:05:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "No reviewed result established a unique OSS identity.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA and LoC cohort adapter checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 603 for identifiers and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b755-v1"
+    },
+    {
+      "key": "sally-phillips-protocol-b755",
+      "person_id": "69b617a9-aed9-55b8-9441-798e4f100ca8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Sally Phillips exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "incomplete_common_name_protocol_batch_755",
+      "started_at": "2026-10-12T19:45:00-04:00",
+      "completed_at": "2026-10-12T22:05:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Same-name results lacked a direct archival or OSS bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA and LoC cohort adapter checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 603 for a full name, identifiers, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b755-v1"
+    },
+    {
+      "key": "sam-b-phillips-protocol-b755",
+      "person_id": "86d6dd84-3459-5696-aa6d-a8b16f7e8575",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Sam B Phillips exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "common_officer_protocol_batch_755",
+      "started_at": "2026-10-12T19:45:00-04:00",
+      "completed_at": "2026-10-12T22:05:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Military namesakes lacked a direct index or OSS bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA and LoC cohort adapter checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 603 for officer identifiers and prior assignment history.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b755-v1"
+    },
+    {
+      "key": "ulva-j-phillips-protocol-b755",
+      "person_id": "d845d2ba-7c3a-585f-acfc-16178981ce40",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Ulva J Phillips exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "distinctive_name_protocol_batch_755",
+      "started_at": "2026-10-12T19:45:00-04:00",
+      "completed_at": "2026-10-12T22:05:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "No result supplied an identity or employer bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA and LoC cohort adapter checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 603 for identifiers, hometown, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b755-v1"
+    },
+    {
+      "key": "wallace-b-phillips-protocol-b755",
+      "person_id": "7499f0e1-eb1a-57d3-8051-a0b214032d6f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Wallace B Phillips exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "foreign_note_common_name_protocol_batch_755",
+      "started_at": "2026-10-12T19:45:00-04:00",
+      "completed_at": "2026-10-12T22:05:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Foreign and military namesakes lacked two corroborating identifiers.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA and LoC cohort adapter checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 603 and resolve the literal 'Polish Ar' note before assigning any biography.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b755-v1"
+    },
+    {
+      "key": "wayman-f-phillips-protocol-b755",
+      "person_id": "97647744-820b-5544-9428-c01540d1c71c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Wayman F Phillips exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "cross_reference_protocol_batch_755",
+      "started_at": "2026-10-12T19:45:00-04:00",
+      "completed_at": "2026-10-12T22:05:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "No accessible result supplied a direct identity or archival cross-reference bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA and LoC cohort adapter checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 603 and trace the 'Also 348' cross-reference.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b755-v1"
+    },
+    {
+      "key": "william-phillips-protocol-b755",
+      "person_id": "e8b3dda2-5d71-56c6-823a-898a5e8f6436",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; William Phillips exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "civilian_grade_common_name_protocol_batch_755",
+      "started_at": "2026-10-12T19:45:00-04:00",
+      "completed_at": "2026-10-12T22:05:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Common-name results lacked a CAF-5 and OSS bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA and LoC cohort adapter checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 603 for civilian personnel records and prior employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b755-v1"
+    },
+    {
+      "key": "william-r-phillips-protocol-b755",
+      "person_id": "888ba408-6781-5296-a7f9-979b73b59c72",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; William R Phillips exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "army_identifier_common_name_protocol_batch_755",
+      "started_at": "2026-10-12T19:45:00-04:00",
+      "completed_at": "2026-10-12T22:05:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Official identity evidence accepted; common namesakes did not establish an employer.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The accepted official Army match establishes identity only. CIA and LoC cohort adapter checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 603 for civilian occupation and pre-OSS assignment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b755-v1"
+    },
+    {
+      "key": "robert-l-philpot-protocol-b755",
+      "person_id": "dd60bd38-8733-5f4e-91d8-d9c81bf238d6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Robert L Philpot exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "army_identifier_protocol_batch_755",
+      "started_at": "2026-10-12T19:45:00-04:00",
+      "completed_at": "2026-10-12T22:05:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Official identity evidence accepted; no named employer was documented.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The accepted official Army match establishes identity only. CIA and LoC cohort adapter checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 603 for civilian occupation and pre-OSS assignment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b755-v1"
+    },
+    {
+      "key": "charles-h-phipps-protocol-b755",
+      "person_id": "a76b834b-4022-5a7c-b591-df5a6247c2b7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Charles H Phipps exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "army_identifier_protocol_batch_755",
+      "started_at": "2026-10-12T19:45:00-04:00",
+      "completed_at": "2026-10-12T22:05:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Official identity evidence accepted; namesake results added no employer evidence.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The accepted official Army match establishes identity only. CIA and LoC cohort adapter checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 603 for civilian occupation and pre-OSS assignment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b755-v1"
+    },
+    {
+      "key": "edward-a-phipps-protocol-b755",
+      "person_id": "ca0c9320-f7d7-5032-b6f1-60432d91ca90",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Edward A Phipps exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "army_identifier_protocol_batch_755",
+      "started_at": "2026-10-12T19:45:00-04:00",
+      "completed_at": "2026-10-12T22:05:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Official identity evidence accepted; no reliable employer source was found.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The accepted official Army match establishes identity only. CIA and LoC cohort adapter checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 603 for civilian occupation and pre-OSS assignment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b755-v1"
+    },
+    {
+      "key": "amnuay-phoonphiphut-protocol-b755",
+      "person_id": "5260f46c-2b07-5509-bc4a-e858d83e2697",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Amnuay Phoonphiphut exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "foreign_distinctive_name_protocol_batch_755",
+      "started_at": "2026-10-12T19:45:00-04:00",
+      "completed_at": "2026-10-12T22:05:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Exact and transliteration-oriented searches returned no independent person-specific source.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA and LoC cohort adapter checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 603 for transliteration variants, nationality, role, and pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b755-v1"
+    },
+    {
+      "key": "peter-c-photis-protocol-b755",
+      "person_id": "f50fb8de-3aa7-5b29-8e72-8f8a73de8823",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Peter C Photis exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "army_identifier_obituary_operational_group_protocol_batch_755",
+      "started_at": "2026-10-12T19:45:00-04:00",
+      "completed_at": "2026-10-12T22:05:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Wartime identity evidence accepted; the obituary's 1953-1995 business ownership is postwar and excluded.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The accepted official Army match establishes identity only. Independent historical and obituary sources corroborate OSS Greek Operational Group service. CIA and LoC cohort adapter checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 603 for his civilian occupation before Army and OSS service.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b755-v1"
+    },
+    {
+      "key": "john-u-physioc-protocol-b755",
+      "person_id": "ee7618c2-d0ee-59d8-a117-d4b5506457a9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; John U Physioc exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "distinctive_officer_protocol_batch_755",
+      "started_at": "2026-10-12T19:45:00-04:00",
+      "completed_at": "2026-10-12T22:05:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The obituary page contains dates and funeral information only; another officer namesake could not be safely merged.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA and LoC cohort adapter checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 603 for officer identifiers, biographical details, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b755-v1"
+    },
+    {
+      "key": "arthur-r-piantadosi-protocol-b755",
+      "person_id": "a75265a2-8500-5af0-9321-593cf52cf008",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Arthur R Piantadosi exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "army_identifier_notable_namesake_protocol_batch_755",
+      "started_at": "2026-10-12T19:45:00-04:00",
+      "completed_at": "2026-10-12T22:05:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Official identity evidence accepted; later film credits and discovery-only biographies do not prove the immediate pre-OSS employer.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The accepted official Army match establishes identity only. CIA and LoC cohort adapter checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 603 and reliable film-industry archives to establish his employment immediately before OSS.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b755-v1"
+    },
+    {
+      "key": "louis-piantadosi-protocol-b755",
+      "person_id": "dd059ef0-ded2-5514-9343-3480d3ffe8b7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Louis Piantadosi exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "distinctive_name_protocol_batch_755",
+      "started_at": "2026-10-12T19:45:00-04:00",
+      "completed_at": "2026-10-12T22:05:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Obituary, genealogy, newspaper, and legal results lacked a direct wartime OSS bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA and LoC cohort adapter checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 603 for full name, identifiers, hometown, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b755-v1"
+    }
+  ]
+}
