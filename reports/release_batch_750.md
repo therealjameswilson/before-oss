@@ -109,8 +109,29 @@ The exact rebuilt tree passed these local release gates:
 
 ## Publication verification
 
-Publication verification is pending the release commit, GitHub Actions Test
-and Pages workflows, and the immutable deployed-release comparison.
+Release commit
+[`c9cf09a124c511745d93ea688fc16b2d2378cc33`](https://github.com/therealjameswilson/before-oss/commit/c9cf09a124c511745d93ea688fc16b2d2378cc33)
+was pushed to `main` on 2026-10-12. The independent
+[Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38302291399)
+and
+[GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38302291460)
+both completed successfully.
+
+The immutable deployed-release verifier checked the public site against that
+commit: 67 assets and 107,407,064 bytes matched manifest SHA-256
+`201294866311b2e9859b1e7370e3b75933131c6d3d2bfc2ba6adc86c76aaf7c4`.
+It also verified eight core routes, 31 source-register pages, and all 23 direct
+profiles referenced by the evidence bundle. A cache-busted live read confirmed
+23,978 source rows, 23,939 people, 10,279 people with research attempts, 764
+verified-affiliation people, 340 verified-employer people, 8,738
+archival-review dispositions, and 13,655 not-started people.
+
+The live Glenn R Petersen, Henry Petersen, John H Petersen, and Ross T
+Petersen profiles display the qualified official identity evidence without
+turning Army occupation codes into employment claims. The live John A
+Petersen / John A Peterson and Chester E Peterson profile pairs remain
+separate and expose their identity conflicts. The published site is
+<https://therealjameswilson.github.io/before-oss/>.
 
 ## Resume
 
