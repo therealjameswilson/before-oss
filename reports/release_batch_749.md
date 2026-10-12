@@ -116,9 +116,28 @@ The exact rebuilt tree passed these local release gates:
 
 ## Publication verification
 
-Publication verification is pending the release commit, successful GitHub
-Actions Test and Pages workflows, and immutable deployed-release comparison.
-Local completion is not reported as publication.
+Release commit
+[`dee663fdc82b42f65e4508697a84fae35da374e3`](https://github.com/therealjameswilson/before-oss/commit/dee663fdc82b42f65e4508697a84fae35da374e3)
+was pushed to `main` on 2026-10-12. The independent
+[Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38252634502)
+and
+[GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38252634055)
+both completed successfully.
+
+The immutable deployed-release verifier checked the public site against that
+commit: 67 assets and 107,383,422 bytes matched manifest SHA-256
+`d47e8ea92933a0294c4a2e538825a5d566d7cfa9d958116b3f8cecb51571f6c2`.
+It also verified eight core routes, 31 source-register pages, and all 22 direct
+profiles referenced by the evidence bundle. Cache-busted live checks confirmed
+23,978 source rows, 23,939 people, 10,256 people with research attempts, 764
+verified-affiliation people, 340 verified-employer people, 8,715 archival-review
+dispositions, and 13,678 not-started people.
+
+The live Victor C Petchul profile displays the qualified Tilden Technical High
+School student affiliation. The live George Petemezas profile displays the
+qualified Army-to-OSS pathway, while the Albert Perz profile preserves the
+Perez/Perz conflict and the Fred W Peters profile preserves both source rows.
+The published site is <https://therealjameswilson.github.io/before-oss/>.
 
 ## Resume
 
