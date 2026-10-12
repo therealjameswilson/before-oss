@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T19:58:08+00:00",
+  "generated_at": "2026-10-12T20:43:39+00:00",
   "index_coverage": {
     "source_rows": 23978,
     "source_rows_linked": 23978,
@@ -9,13 +9,13 @@
     "person_entities": 23939,
     "stored_person_entities": 23941,
     "superseded_person_entities": 2,
-    "people_with_nonplanned_attempts": 10279,
-    "percent": 42.9383
+    "people_with_nonplanned_attempts": 10302,
+    "percent": 43.0344
   },
   "verified_affiliation_coverage": {
     "person_entities": 23939,
-    "people_with_confirmed_or_high_published_affiliation": 764,
-    "percent": 3.1914
+    "people_with_confirmed_or_high_published_affiliation": 766,
+    "percent": 3.1998
   },
   "verified_employer_coverage": {
     "person_entities": 23939,
@@ -24,8 +24,8 @@
   },
   "archival_review_coverage": {
     "person_entities": 23939,
-    "people_assessed": 8738,
-    "percent": 36.5011
+    "people_assessed": 8761,
+    "percent": 36.5972
   },
   "research_status_counts": {
     "blocked_by_source_access": 1,
@@ -34,20 +34,20 @@
     "conflicting_sources": 294,
     "documented_prewar_employer_found": 171,
     "in_progress": 1902,
-    "needs_identity_review": 487,
+    "needs_identity_review": 491,
     "needs_temporal_review": 24,
     "no_reliable_result_after_protocol": 1156,
-    "not_started": 13655,
+    "not_started": 13632,
     "occupation_only_found": 1050,
-    "requires_archival_review": 4378,
+    "requires_archival_review": 4397,
     "verified_employer_found": 294
   },
   "claim_confidence_counts": {
     "confirmed": 1392,
-    "conflicting": 299,
-    "high": 3092,
+    "conflicting": 301,
+    "high": 3104,
     "low": 198,
-    "medium": 1554,
+    "medium": 1556,
     "unresolved": 2
   },
   "personnel_category_counts": {
@@ -65,7 +65,7 @@
     "warrant_officer": 7
   },
   "possible_duplicate_groups": 531,
-  "conflict_count": 344,
-  "citations": 5795,
-  "unique_source_documents": 2948
+  "conflict_count": 346,
+  "citations": 5803,
+  "unique_source_documents": 2955
 }

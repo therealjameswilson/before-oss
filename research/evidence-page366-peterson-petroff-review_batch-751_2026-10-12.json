@@ -1,0 +1,329 @@
+{
+  "bundle_version": "batch-751-evidence-v1",
+  "reviewer": "Before OSS batch 751 manual review",
+  "sources": [
+    {
+      "key": "nara-index-b751",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 599-600",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 366, rows 1-23; visually checked against a 300 dpi render",
+      "access_date": "2026-10-12",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Every printed row remains separate. Full protected identifiers remain private. The CAF-5 and CAF-6 grades, Extract fr note, Petievich/Corvin conflict, and Petitt/Pettit conflict are preserved without silent expansion, correction, or merger."
+    },
+    {
+      "key": "army-bulk-b751",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department. Adjutant General's Office",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946",
+      "locator": "Bulk record ordinals 1488841, 2395714, 2551702, 3415605, 3535403, 4520507, 6035318, 7317808, 8096878, and 8264209",
+      "access_date": "2026-10-12",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Selective Service System, Record Group 147",
+      "rights_notes": "Official unrestricted bulk data, not a Catalog API response. Protected identifiers, coded occupations, and raw records are not published or retained. Conflicting shared-identifier candidates remain unresolved."
+    },
+    {
+      "key": "oac-petris-b751",
+      "stable_url": "https://oac.cdlib.org/findaid/ark:/13030/c8mw2jt6",
+      "archival_identifier": "LP318",
+      "title": "Inventory of the Nicholas C. Petris Papers, 1959-1996",
+      "author_creator": "Patricia C. Gregory and Rebecca Weisberg",
+      "repository_publisher": "California State Archives; Online Archive of California",
+      "publication_record_date": "2013",
+      "locator": "Biographical / historical note",
+      "access_date": "2026-10-12",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Nicholas C. Petris Papers",
+      "rights_notes": "The finding aid documents the 1943 journalism degree and ensuing wartime Army service. Student status is not treated as employment."
+    },
+    {
+      "key": "latimes-petris-b751",
+      "stable_url": "https://www.latimes.com/local/obituaries/la-me-nicholas-petris-20130322-story.html",
+      "title": "Nicholas Petris dies at 90; liberal California lawmaker",
+      "author_creator": "Rebecca Trounson",
+      "repository_publisher": "Los Angeles Times",
+      "publication_record_date": "2013-03-21",
+      "locator": "Biographical paragraph",
+      "access_date": "2026-10-12",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Los Angeles Times obituaries",
+      "rights_notes": "The obituary independently links the full name, UC Berkeley journalism degree, and OSS service."
+    },
+    {
+      "key": "enr-petkoff-b751",
+      "stable_url": "https://www.enr.com/articles/41243-structural-engineer-peter-petkoff-dies-at-98",
+      "title": "Prominent Structural Engineer Peter Petkoff Dies at 98",
+      "author_creator": "Blair Kamin",
+      "repository_publisher": "Engineering News-Record",
+      "publication_record_date": "2017-01-13",
+      "locator": "Biographical paragraph",
+      "access_date": "2026-10-12",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Engineering News-Record obituaries",
+      "rights_notes": "The obituary sequences a 1942 University of Michigan engineering degree, Army enlistment, and OSS service. Postwar employment is excluded from pre-OSS claims."
+    },
+    {
+      "key": "cms-petkoff-b751",
+      "stable_url": "https://www.cms.gov/Regulations-and-Guidance/Guidance/FACA/downloads/id24a.pdf",
+      "title": "Medicare Coverage Advisory Committee Meeting Transcript",
+      "author_creator": "Centers for Medicare & Medicaid Services",
+      "repository_publisher": "Centers for Medicare & Medicaid Services",
+      "publication_record_date": "2004-07-14",
+      "locator": "PDF page 138, lines 9-15; visually checked against a 200 dpi render",
+      "access_date": "2026-10-12",
+      "source_quality": "A_direct_official",
+      "collection_name": "Medicare Coverage Advisory Committee records",
+      "rights_notes": "The official transcript introduces Peter Petkoff as an original OSS member and records his own name and age. Medical testimony is neither retained nor published."
+    },
+    {
+      "key": "ui-petkoff-b751",
+      "stable_url": "https://www.trustees.uillinois.edu/trustees/minutes/1947/1947-02-27-uibot.pdf",
+      "title": "Meeting of the Board of Trustees of the University of Illinois",
+      "author_creator": "University of Illinois Board of Trustees",
+      "repository_publisher": "University of Illinois",
+      "publication_record_date": "1947-02-27",
+      "locator": "PDF page 38, printed page 290; visually checked against a 200 dpi render",
+      "access_date": "2026-10-12",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "University of Illinois Board of Trustees minutes",
+      "rights_notes": "The degree-candidate list names Peter Pavloff Petkoff and his 1942 University of Michigan B.S.; this corroborates student history, not employment."
+    },
+    {
+      "key": "theta-petroff-b751",
+      "stable_url": "https://www.thetatauarchives.org/wp-content/uploads/2016/06/1948-Fall-Vol-38-No-1.pdf",
+      "title": "Boris B. Petroff Named Highway Economist for the Public Roads Administration",
+      "author_creator": "North Carolina State College News",
+      "repository_publisher": "The Gear of Theta Tau",
+      "publication_record_date": "1948",
+      "locator": "PDF page 18, printed page 16; visually checked against a 200 dpi render",
+      "access_date": "2026-10-12",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Gear of Theta Tau, volume 38, number 1",
+      "rights_notes": "The alumni publication gives a dated work chronology and wartime Army service for the distinctive full name. The index-to-biography identity remains probable rather than confirmed."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "uc-berkeley-b751",
+      "organization_id": "dd5d0a44-0368-5e91-a5d3-074de36840ed",
+      "canonical_name": "University of California, Berkeley",
+      "historical_name": "University of California at Berkeley",
+      "aliases": ["UC Berkeley", "University of California at Berkeley"],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Berkeley",
+      "state_or_region": "California",
+      "country": "United States",
+      "active_dates": null,
+      "normalization_notes": "Existing canonical organization reused. Nicholas C. Petris's relationship is student status, not employment."
+    },
+    {
+      "key": "university-michigan-b751",
+      "organization_id": "4ee8a858-3cd1-5a2d-94a7-0d3c7a3fdb3a",
+      "canonical_name": "University of Michigan",
+      "historical_name": "University of Michigan",
+      "aliases": ["University of Michigan, Ann Arbor"],
+      "organization_type": "public university",
+      "sector": "academia_and_research",
+      "city": "Ann Arbor",
+      "state_or_region": "Michigan",
+      "country": "United States",
+      "active_dates": null,
+      "normalization_notes": "Existing canonical organization reused. Peter P. Petkoff's relationship is student status, not employment."
+    },
+    {
+      "key": "nc-highway-commission-b751",
+      "canonical_name": "North Carolina State Highway Commission",
+      "historical_name": "North Carolina State Highway Commission",
+      "aliases": ["Highway Commission", "N.C. State Highway Commission"],
+      "organization_type": "state transportation agency",
+      "sector": "state_or_local_government",
+      "city": "Raleigh",
+      "state_or_region": "North Carolina",
+      "country": "United States",
+      "active_dates": null,
+      "normalization_notes": "Historical agency name preserved. No modern successor name is substituted."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "nicholas-petris-ucb-student-b751",
+      "person_id": "dd0dbb16-381d-5ffa-a92b-fb9a23b49ec6",
+      "organization_key": "uc-berkeley-b751",
+      "organization_name_as_found": "University of California at Berkeley",
+      "role_title": "Bachelor's student in journalism",
+      "occupation": "student",
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "1943",
+      "date_precision": "year",
+      "city": "Berkeley",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The 1943 journalism degree immediately precedes documented wartime Army service. The available sources do not establish that the university was his immediate predecessor to OSS, and it is not an employer."
+    },
+    {
+      "key": "peter-petkoff-michigan-student-b751",
+      "person_id": "32cc187a-71e3-5138-9434-c8d03f0aeaf8",
+      "organization_key": "university-michigan-b751",
+      "organization_name_as_found": "University of Michigan",
+      "role_title": "Bachelor of Science student in engineering",
+      "occupation": "student",
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "1942",
+      "date_precision": "year",
+      "city": "Ann Arbor",
+      "state_or_region": "Michigan",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The 1942 engineering degree precedes Army enlistment and OSS service. The university is a student affiliation, not an employer, and the available sources do not establish the exact Army-to-OSS transfer chronology."
+    },
+    {
+      "key": "boris-petroff-nc-highway-b751",
+      "person_id": "745d0f3b-1117-55e3-b6dc-96de8ac08cd7",
+      "organization_key": "nc-highway-commission-b751",
+      "organization_name_as_found": "North Carolina State Highway Commission",
+      "role_title": "Assistant manager of Traffic Survey",
+      "occupation": "traffic survey manager",
+      "relationship_type": "employment",
+      "start_date": null,
+      "end_date": "1942",
+      "date_precision": "year",
+      "city": "Raleigh",
+      "state_or_region": "North Carolina",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "A 1948 alumni publication says the distinctive Boris B. Petroff worked five years in this role before serving as an Army private in 1942-1943. The source does not mention OSS, so the index-to-biography match remains probable and the claim is visibly qualified."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-kenneth-n-peterson-b751", "person_id": "fbc11b9c-3d3c-50aa-a348-2baec56cb5d2", "claim_type": "identity", "claim_text": "The indexed Kenneth N Peterson row is linked at high confidence to the official Army record for Kenneth N Peterson.", "evidence_excerpt": "PETERSON KENNETH N", "evidence_paraphrase": "The exact name and a nonshared protected identifier agree across the official records.", "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.", "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "The coded Army occupation is not converted into an employer or role.", "sources": [{"source_key": "nara-index-b751", "locator_override": "PDF page 366, row 3"}, {"source_key": "army-bulk-b751", "locator_override": "Bulk record ordinal 2395714", "excerpt_override": "PETERSON KENNETH N"}]
+    },
+    {
+      "key": "identity-marvin-k-peterson-b751", "person_id": "96817071-a78b-5b50-bc1e-80bd74eada82", "claim_type": "identity", "claim_text": "The indexed Marvin K Peterson row is linked at high confidence to the official Army record for Marvin K Peterson.", "evidence_excerpt": "PETERSON MARVIN K", "evidence_paraphrase": "The exact name and a nonshared protected identifier agree across the official records.", "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.", "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "The coded Army occupation is not converted into an employer or role.", "sources": [{"source_key": "nara-index-b751", "locator_override": "PDF page 366, row 4"}, {"source_key": "army-bulk-b751", "locator_override": "Bulk record ordinal 1488841", "excerpt_override": "PETERSON MARVIN K"}]
+    },
+    {
+      "key": "identity-norman-e-peterson-b751", "person_id": "a57aa553-933c-5f9e-88a3-da71ba6fd11a", "claim_type": "identity", "claim_text": "The indexed Norman E Peterson row is linked at high confidence to the official Army record for Norman E Peterson.", "evidence_excerpt": "PETERSON NORMAN E", "evidence_paraphrase": "The exact name, technician grade, and nonshared protected identifier agree across the official records.", "identity_match_assessment": "High confidence from exact-name, grade, and protected-identifier agreement.", "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "The coded Army occupation is not converted into an employer or role.", "sources": [{"source_key": "nara-index-b751", "locator_override": "PDF page 366, row 6"}, {"source_key": "army-bulk-b751", "locator_override": "Bulk record ordinal 3415605", "excerpt_override": "PETERSON NORMAN E"}]
+    },
+    {
+      "key": "identity-william-g-peterson-b751", "person_id": "8a9cb80f-3552-5070-a3a6-89ca33e85f1f", "claim_type": "identity", "claim_text": "The indexed William G Peterson row is linked at high confidence to the official Army record for William G Peterson.", "evidence_excerpt": "PETERSON WILLIAM G", "evidence_paraphrase": "The exact name and a nonshared protected identifier agree across the official records.", "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.", "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "The coded Army occupation is not converted into an employer or role.", "sources": [{"source_key": "nara-index-b751", "locator_override": "PDF page 366, row 10"}, {"source_key": "army-bulk-b751", "locator_override": "Bulk record ordinal 8264209", "excerpt_override": "PETERSON WILLIAM G"}]
+    },
+    {
+      "key": "identity-ross-l-pethtel-b751", "person_id": "9cae1ec5-6243-5267-b24e-72924f557ff1", "claim_type": "identity", "claim_text": "The indexed Ross L Pethtel row is linked at high confidence to the official Army record for Ross L Pethtel.", "evidence_excerpt": "PETHTEL ROSS L", "evidence_paraphrase": "The exact distinctive name and a nonshared protected identifier agree across the official records.", "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.", "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "The printed Extract fr note remains truncated; the coded Army occupation is not employer evidence.", "sources": [{"source_key": "nara-index-b751", "locator_override": "PDF page 366, row 11"}, {"source_key": "army-bulk-b751", "locator_override": "Bulk record ordinal 4520507", "excerpt_override": "PETHTEL ROSS L"}]
+    },
+    {
+      "key": "identity-joseph-e-petitpas-b751", "person_id": "8fd36aaa-23c4-5208-bdf8-390e922b5b50", "claim_type": "identity", "claim_text": "The indexed Joseph E Petitpas row is linked at high confidence to the official Army record for Joseph E Petitpas.", "evidence_excerpt": "PETITPAS JOSEPH E", "evidence_paraphrase": "The exact name and a nonshared protected identifier agree across the official records.", "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.", "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "The coded Army occupation is not converted into an employer or role.", "sources": [{"source_key": "nara-index-b751", "locator_override": "PDF page 366, row 15"}, {"source_key": "army-bulk-b751", "locator_override": "Bulk record ordinal 2551702", "excerpt_override": "PETITPAS JOSEPH E"}]
+    },
+    {
+      "key": "identity-angelo-s-petraglia-b751", "person_id": "b76c052d-7bfd-5135-b8a0-f13ad150130a", "claim_type": "identity", "claim_text": "The indexed Angelo S Petraglia row is linked at high confidence to the official Army record for Angelo S Petraglia.", "evidence_excerpt": "PETRAGLIA ANGELO S", "evidence_paraphrase": "The exact name and a nonshared protected identifier agree across the official records.", "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.", "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "The coded Army occupation is not converted into an employer or role.", "sources": [{"source_key": "nara-index-b751", "locator_override": "PDF page 366, row 18"}, {"source_key": "army-bulk-b751", "locator_override": "Bulk record ordinal 3535403", "excerpt_override": "PETRAGLIA ANGELO S"}]
+    },
+    {
+      "key": "identity-edward-a-petro-b751", "person_id": "234038eb-54fd-55c9-bafc-d3f0cd2d8b89", "claim_type": "identity", "claim_text": "The indexed Edward A Petro row is linked at high confidence to the official Army record for Edward A Petro.", "evidence_excerpt": "PETRO EDWARD A", "evidence_paraphrase": "The exact name and a nonshared protected identifier agree across the official records.", "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.", "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "The coded Army occupation is not converted into an employer or role.", "sources": [{"source_key": "nara-index-b751", "locator_override": "PDF page 366, row 22"}, {"source_key": "army-bulk-b751", "locator_override": "Bulk record ordinal 6035318", "excerpt_override": "PETRO EDWARD A"}]
+    },
+    {
+      "key": "identity-melvin-petievich-conflict-b751", "person_id": "6b56c569-17a4-5805-ac78-5f0c32d4e68f", "claim_type": "identity", "claim_text": "The indexed Melvin Petievich row conflicts with an Army record and separate index row naming Melvin Corvin.", "evidence_excerpt": "CORVIN MELVIN", "evidence_paraphrase": "The protected identifier is shared, but the official Army record and a separate index entity use the Corvin surname.", "identity_match_assessment": "Conflicting official names and a shared identifier; the entities remain separate.", "temporal_assessment": "The conflict establishes no reliable identity, occupation, or pre-OSS employer for Petievich.", "source_quality": "A_direct_official", "claim_confidence": "conflicting", "publication_status": "conflicting", "match_notes": "Compare Boxes 146 and 600; coded occupation data are withheld.", "sources": [{"source_key": "nara-index-b751", "locator_override": "PDF page 366, row 12; compare page 94, row 2"}, {"source_key": "army-bulk-b751", "locator_override": "Bulk record ordinal 8096878", "excerpt_override": "CORVIN MELVIN"}]
+    },
+    {
+      "key": "identity-robert-l-petitt-conflict-b751", "person_id": "412b4531-961a-5861-8bd7-76f18d99df4f", "claim_type": "identity", "claim_text": "The indexed Robert L Petitt row conflicts with an Army record and separate index row spelling the surname Pettit.", "evidence_excerpt": "PETTIT ROBERT L JR", "evidence_paraphrase": "The protected identifier is shared by separate Petitt and Pettit index rows, while the Army record uses Pettit Jr.", "identity_match_assessment": "Conflicting spelling and shared identifier; neither indexed entity is merged or selected without file evidence.", "temporal_assessment": "The conflict establishes no reliable pre-OSS employer.", "source_quality": "A_direct_official", "claim_confidence": "conflicting", "publication_status": "conflicting", "match_notes": "Compare Boxes 600 and 601; coded occupation data are withheld.", "sources": [{"source_key": "nara-index-b751", "locator_override": "PDF page 366, row 16; compare row 40"}, {"source_key": "army-bulk-b751", "locator_override": "Bulk record ordinal 7317808", "excerpt_override": "PETTIT ROBERT L JR"}]
+    },
+    {
+      "key": "identity-nicholas-c-petris-b751", "person_id": "dd0dbb16-381d-5ffa-a92b-fb9a23b49ec6", "claim_type": "identity", "claim_text": "The indexed First Lieutenant Nicholas C Petris is linked at high confidence to Nicholas Christos Petris, the UC Berkeley graduate who served with OSS.", "evidence_excerpt": "served with the Office of Strategic Services during World War II", "evidence_paraphrase": "The full name, middle initial, Oakland biography, 1943 degree, wartime Army service, and explicit OSS service agree.", "identity_match_assessment": "High confidence from distinctive full-name agreement, explicit OSS service, and compatible Army/officer chronology.", "temporal_assessment": "The sources document 1943 graduation followed by wartime Army and OSS service.", "source_quality": "B_authoritative_institutional", "claim_confidence": "high", "publication_status": "published", "match_notes": "The inaccessible Berkeley oral-history PDF was not bypassed; the accessible finding aid and obituary support the published identity.", "sources": [{"source_key": "nara-index-b751", "locator_override": "PDF page 366, row 21"}, {"source_key": "oac-petris-b751", "locator_override": "Biographical / historical note"}, {"source_key": "latimes-petris-b751", "locator_override": "Biographical paragraph", "excerpt_override": "served with the Office of Strategic Services during World War II"}]
+    },
+    {
+      "key": "nicholas-petris-ucb-student-claim-b751", "person_id": "dd0dbb16-381d-5ffa-a92b-fb9a23b49ec6", "affiliation_key": "nicholas-petris-ucb-student-b751", "claim_type": "other_pre_oss_affiliation", "claim_text": "Nicholas C. Petris graduated from the University of California at Berkeley with a journalism degree in 1943.", "evidence_excerpt": "graduated in 1943 with a degree in Journalism", "evidence_paraphrase": "The California State Archives finding aid documents the degree, and the obituary independently corroborates UC Berkeley journalism study.", "identity_match_assessment": "High confidence from the distinctive name and independently established OSS identity.", "temporal_assessment": "Documented prewar student status before wartime Army and OSS service; not an employer and not proven immediately pre-OSS.", "source_quality": "B_authoritative_institutional", "claim_confidence": "high", "publication_status": "published", "match_notes": "UC Berkeley is excluded from employer analytics.", "sources": [{"source_key": "oac-petris-b751", "locator_override": "Biographical / historical note", "excerpt_override": "graduated in 1943 with a degree in Journalism"}, {"source_key": "latimes-petris-b751", "locator_override": "Biographical paragraph"}]
+    },
+    {
+      "key": "identity-peter-p-petkoff-b751", "person_id": "32cc187a-71e3-5138-9434-c8d03f0aeaf8", "claim_type": "identity", "claim_text": "The indexed Peter P Petkoff is linked at high confidence to engineer Peter Pavloff Petkoff, who enlisted in the Army and served with OSS.", "evidence_excerpt": "one of the original members of the OSS", "evidence_paraphrase": "The distinctive name, middle initial, 1942 engineering degree, Army enlistment, and explicit OSS references agree across three sources.", "identity_match_assessment": "High confidence from a distinctive exact name, middle-name expansion, and independent official and professional OSS evidence.", "temporal_assessment": "The sources sequence the 1942 degree before Army and OSS service.", "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "Postwar Smith, Hinchman & Grylls employment is excluded from pre-OSS claims.", "sources": [{"source_key": "nara-index-b751", "locator_override": "PDF page 366, row 17"}, {"source_key": "cms-petkoff-b751", "locator_override": "PDF page 138, lines 9-15", "excerpt_override": "one of the original members of the OSS"}, {"source_key": "enr-petkoff-b751", "locator_override": "Biographical paragraph"}]
+    },
+    {
+      "key": "peter-petkoff-michigan-student-claim-b751", "person_id": "32cc187a-71e3-5138-9434-c8d03f0aeaf8", "affiliation_key": "peter-petkoff-michigan-student-b751", "claim_type": "other_pre_oss_affiliation", "claim_text": "Peter P. Petkoff graduated from the University of Michigan with a Bachelor of Science in engineering in 1942.", "evidence_excerpt": "PETER PAVLOFF PETKOFF, B.S., University of Michigan, 1942", "evidence_paraphrase": "University records and a professional obituary independently document the 1942 engineering degree.", "identity_match_assessment": "High confidence from the distinctive full name and independently established OSS identity.", "temporal_assessment": "Documented prewar student status before Army enlistment and OSS service; not an employer and not proven immediately pre-OSS.", "source_quality": "B_authoritative_institutional", "claim_confidence": "high", "publication_status": "published", "match_notes": "University of Michigan is excluded from employer analytics.", "sources": [{"source_key": "ui-petkoff-b751", "locator_override": "PDF page 38, printed page 290", "excerpt_override": "PETER PAVLOFF PETKOFF, B.S., University of Michigan, 1942"}, {"source_key": "enr-petkoff-b751", "locator_override": "Biographical paragraph"}]
+    },
+    {
+      "key": "identity-boris-b-petroff-b751", "person_id": "745d0f3b-1117-55e3-b6dc-96de8ac08cd7", "claim_type": "identity", "claim_text": "The indexed Boris B Petroff is probably the highway professional Boris B. Petroff who served as an Army private in 1942-1943.", "evidence_excerpt": "In 1942 and 1943 he served as a private", "evidence_paraphrase": "A contemporary alumni publication gives the distinctive exact name and compatible wartime Army service.", "identity_match_assessment": "Probable from the distinctive exact name and compatible Army chronology, but no source directly bridges this biography to OSS.", "temporal_assessment": "The publication dates civilian work before Army service in 1942-1943.", "source_quality": "C_reputable_contemporary_or_scholarly", "claim_confidence": "medium", "publication_status": "publish_qualified", "match_notes": "The identity and employment remain visibly qualified pending Box 600 review.", "sources": [{"source_key": "nara-index-b751", "locator_override": "PDF page 366, row 23"}, {"source_key": "theta-petroff-b751", "locator_override": "PDF page 18, printed page 16", "excerpt_override": "In 1942 and 1943 he served as a private"}]
+    },
+    {
+      "key": "boris-petroff-nc-highway-claim-b751", "person_id": "745d0f3b-1117-55e3-b6dc-96de8ac08cd7", "affiliation_key": "boris-petroff-nc-highway-b751", "claim_type": "last_civilian_pre_service", "claim_text": "Boris B. Petroff's best-supported last civilian employer before Army service was the North Carolina State Highway Commission.", "evidence_excerpt": "five years as assistant manager of Traffic Survey", "evidence_paraphrase": "The 1948 biography places five years at the commission before Army service in 1942-1943.", "identity_match_assessment": "Probable identity; the exact distinctive name and wartime Army chronology align, but no direct OSS bridge was found.", "temporal_assessment": "Strongly date-bounded as the final civilian role named before Army service, but not the immediate pre-OSS affiliation.", "source_quality": "C_reputable_contemporary_or_scholarly", "claim_confidence": "medium", "publication_status": "publish_qualified", "match_notes": "Qualified publication; excluded from high-confidence default analytics until archival confirmation.", "sources": [{"source_key": "theta-petroff-b751", "locator_override": "PDF page 18, printed page 16", "excerpt_override": "five years as assistant manager of Traffic Survey"}]
+    }
+  ],
+  "person_updates": [
+    {"person_id":"48739bd5-d126-56d3-ae80-cfeee11d81f3","identity_status":"unresolved","identity_evidence":"Common-name OSS, employer, obituary, institutional, newspaper, and archival searches did not establish a unique identity bridge.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 599 for biographical identifiers and pre-OSS employment.","archival_review_priority":"critical"},
+    {"person_id":"312482b0-564b-55eb-8be1-b4b8474ad6fb","identity_status":"unresolved","identity_evidence":"Common-name and middle-initial searches returned namesakes without an OSS or Box 599 identity bridge.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 599 for biographical identifiers and pre-OSS employment.","archival_review_priority":"critical"},
+    {"person_id":"fbc11b9c-3d3c-50aa-a348-2baec56cb5d2","identity_status":"high_confidence","identity_evidence":"The exact name and a nonshared protected identifier agree with official Army data.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 599 for the chronology before Army entry and the named civilian employer.","archival_review_priority":"high"},
+    {"person_id":"96817071-a78b-5b50-bc1e-80bd74eada82","identity_status":"high_confidence","identity_evidence":"The exact name and a nonshared protected identifier agree with official Army data.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 599 for the chronology before Army entry and the named civilian employer.","archival_review_priority":"high"},
+    {"person_id":"12e56298-9073-579b-8b83-b0abc9e1631b","identity_status":"unresolved","identity_evidence":"Common-name searches did not produce two corroborating identifiers beyond the index.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 600 for military chronology and the last civilian employer.","archival_review_priority":"critical"},
+    {"person_id":"a57aa553-933c-5f9e-88a3-da71ba6fd11a","identity_status":"high_confidence","identity_evidence":"The exact name, technician grade, and nonshared protected identifier agree with official Army data.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 599 for the chronology before Army entry and the named civilian employer.","archival_review_priority":"high"},
+    {"person_id":"de2631cd-a5f8-555a-9633-5aa8bb161ea2","identity_status":"unresolved","identity_evidence":"The CAF-6 grade and common name did not produce a direct OSS identity bridge or reliable prior employer.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 600 for civilian-service duties, identity, and pre-OSS employer.","archival_review_priority":"critical"},
+    {"person_id":"2f94c430-3343-5767-b1c0-9155d9329f50","identity_status":"unresolved","identity_evidence":"Captain-rank and common-name searches produced multiple military namesakes without the indexed officer identifier or OSS bridge.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 600 for officer identifiers, unit chronology, and last civilian employer.","archival_review_priority":"critical"},
+    {"person_id":"05e97bd5-ca62-5fa5-8fa1-c58892654246","identity_status":"unresolved","identity_evidence":"The CAF-5 grade and exact-name variants did not establish a unique wartime identity or prior employer.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 600 for civilian-service duties and pre-OSS employer.","archival_review_priority":"critical"},
+    {"person_id":"8a9cb80f-3552-5070-a3a6-89ca33e85f1f","identity_status":"high_confidence","identity_evidence":"The exact name and a nonshared protected identifier agree with official Army data.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 600 for the chronology before Army entry and the named civilian employer.","archival_review_priority":"high"},
+    {"person_id":"9cae1ec5-6243-5267-b24e-72924f557ff1","identity_status":"high_confidence","identity_evidence":"The exact distinctive name and a nonshared protected identifier agree with official Army data.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 600 and resolve the printed Extract fr note for pre-service employment.","archival_review_priority":"high"},
+    {"person_id":"6b56c569-17a4-5805-ac78-5f0c32d4e68f","identity_status":"conflicting","identity_evidence":"The protected identifier leads to an official Army record and separate index row for Melvin Corvin, not Melvin Petievich. The entities remain separate.","manual_review_required":true,"possible_duplicate_group":"melvin-corvin-petievich-shared-identifier-b751","research_status":"needs_identity_review","next_action":"Compare Boxes 146 and 600 before resolving identity or employment.","archival_review_priority":"critical"},
+    {"person_id":"c71d0c5e-7239-51b4-b187-13a49ee265d9","identity_status":"ambiguous","identity_evidence":"A biography for French resistance leader Henri Romans-Petit is a plausible lead, but the index supplies only Henri Petit and lieutenant-colonel rank, with no direct OSS or file identifier bridge.","name_variants":["Henri Romans-Petit"],"manual_review_required":true,"research_status":"needs_identity_review","next_action":"Inspect Box 600 for nationality, full name, branch, and a direct bridge before considering the Romans-Petit biography.","archival_review_priority":"critical"},
+    {"person_id":"89097cbc-d399-5f33-aa6f-eb10c1e39091","identity_status":"unresolved","identity_evidence":"Exact-name, captain-rank, OSS, employer, obituary, and institutional searches did not establish a unique identity bridge.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 600 for officer identifiers, unit chronology, and last civilian employer.","archival_review_priority":"critical"},
+    {"person_id":"8fd36aaa-23c4-5208-bdf8-390e922b5b50","identity_status":"high_confidence","identity_evidence":"The exact name and a nonshared protected identifier agree with official Army data.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 600 for the chronology before Army entry and the named civilian employer.","archival_review_priority":"high"},
+    {"person_id":"412b4531-961a-5861-8bd7-76f18d99df4f","identity_status":"conflicting","identity_evidence":"The Army spelling is Robert L Pettit Jr, while this row reads Petitt and shares its protected identifier with a separate Pettit row. The entities remain separate.","manual_review_required":true,"possible_duplicate_group":"robert-l-petitt-pettit-shared-identifier-b751","research_status":"needs_identity_review","next_action":"Compare Boxes 600 and 601 before resolving spelling, identity, or employment.","archival_review_priority":"critical"},
+    {"person_id":"32cc187a-71e3-5138-9434-c8d03f0aeaf8","identity_status":"high_confidence","identity_evidence":"The distinctive name, middle-name expansion, 1942 engineering degree, Army enlistment, and explicit OSS evidence agree.","name_variants":["Peter Pavloff Petkoff"],"manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 600 for the exact Army-to-OSS transfer chronology and any pre-service employer beyond documented student status.","archival_review_priority":"high"},
+    {"person_id":"b76c052d-7bfd-5135-b8a0-f13ad150130a","identity_status":"high_confidence","identity_evidence":"The exact name and a nonshared protected identifier agree with official Army data.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 600 for the chronology before Army entry and the named civilian employer.","archival_review_priority":"high"},
+    {"person_id":"4dff71d8-1fcb-5f81-bba6-4c3c0845420b","identity_status":"unresolved","identity_evidence":"Common-name searches were dominated by unrelated British intelligence and scholarly namesakes; no direct OSS identity bridge was found.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 600 for nationality, full identifiers, and pre-OSS affiliation.","archival_review_priority":"critical"},
+    {"person_id":"008fcdc9-a1a7-5287-89c8-93ae809a5425","identity_status":"unresolved","identity_evidence":"Exact-name, second-lieutenant, OSS, employer, obituary, directory, and institutional searches did not establish a unique identity bridge.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 600 for officer identifiers, branch chronology, and last civilian employer.","archival_review_priority":"critical"},
+    {"person_id":"dd0dbb16-381d-5ffa-a92b-fb9a23b49ec6","identity_status":"high_confidence","identity_evidence":"The distinctive full name, middle initial, 1943 journalism degree, wartime Army service, and explicit OSS service agree across institutional and reputable sources.","name_variants":["Nicholas Christos Petris","Nick Petris"],"manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 600 for the exact Army-to-OSS transfer chronology and any civilian employer before service.","archival_review_priority":"high"},
+    {"person_id":"234038eb-54fd-55c9-bafc-d3f0cd2d8b89","identity_status":"high_confidence","identity_evidence":"The exact name and a nonshared protected identifier agree with official Army data.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 600 for the chronology before Army entry and the named civilian employer.","archival_review_priority":"high"},
+    {"person_id":"745d0f3b-1117-55e3-b6dc-96de8ac08cd7","identity_status":"probable","identity_evidence":"A contemporary biography gives the distinctive exact name, wartime Army-private chronology, and detailed pre-service work history, but it does not directly mention OSS.","manual_review_required":true,"research_status":"needs_identity_review","next_action":"Inspect Box 600 to confirm the highway professional is the indexed OSS person and verify the transition chronology.","archival_review_priority":"critical"},
+    {"person_id":"98c3c478-3380-5141-83ae-9cd6b8ddfe33","possible_duplicate_group":"melvin-corvin-petievich-shared-identifier-b751"},
+    {"person_id":"fd2c4ed7-4d9c-5287-9b69-3774642121fa","possible_duplicate_group":"robert-l-petitt-pettit-shared-identifier-b751"}
+  ],
+  "research_attempts": [
+    {"key":"josephine-s-peterson-protocol-b751","person_id":"48739bd5-d126-56d3-ae80-cfeee11d81f3","source_adapter":"manual_staged_protocol","query_text":"NARA index review; Josephine S Peterson exact-name and punctuation variants; OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, and archival searches","query_variant_type":"common_name_protocol_batch_751","started_at":"2026-10-12T15:55:00-04:00","completed_at":"2026-10-12T16:35:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":8,"rejection_reasons":"Common-name results lacked a direct OSS or Box 599 identity bridge.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA and Library of Congress cohort adapters ended on source-access errors before person-level results.","next_action":"Inspect Box 599.","attempt_number":1,"research_agent_version":"before-oss-b751-v1"},
+    {"key":"kathleen-j-peterson-protocol-b751","person_id":"312482b0-564b-55eb-8be1-b4b8474ad6fb","source_adapter":"manual_staged_protocol","query_text":"NARA index review; Kathleen J Peterson exact-name variants; OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, and archival searches","query_variant_type":"common_name_protocol_batch_751","started_at":"2026-10-12T15:55:00-04:00","completed_at":"2026-10-12T16:35:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":8,"rejection_reasons":"Results were namesakes without wartime OSS identifiers.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 599.","attempt_number":1,"research_agent_version":"before-oss-b751-v1"},
+    {"key":"kenneth-n-peterson-protocol-b751","person_id":"fbc11b9c-3d3c-50aa-a348-2baec56cb5d2","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk review; Kenneth N Peterson exact-name OSS, CIA-domain, employer, occupation, obituary, institutional, newspaper, and archival searches","query_variant_type":"official_identity_protocol_batch_751","started_at":"2026-10-12T15:55:00-04:00","completed_at":"2026-10-12T16:35:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":8,"rejection_reasons":"Official identity evidence was accepted; other results did not establish a named pre-OSS employer.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 599.","attempt_number":1,"research_agent_version":"before-oss-b751-v1"},
+    {"key":"marvin-k-peterson-protocol-b751","person_id":"96817071-a78b-5b50-bc1e-80bd74eada82","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk review; Marvin K Peterson exact-name OSS, CIA-domain, employer, occupation, obituary, institutional, newspaper, and archival searches","query_variant_type":"official_identity_protocol_batch_751","started_at":"2026-10-12T15:55:00-04:00","completed_at":"2026-10-12T16:35:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":8,"rejection_reasons":"Official identity evidence was accepted; other results did not establish a named pre-OSS employer.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 599.","attempt_number":1,"research_agent_version":"before-oss-b751-v1"},
+    {"key":"norman-h-peterson-protocol-b751","person_id":"12e56298-9073-579b-8b83-b0abc9e1631b","source_adapter":"manual_staged_protocol","query_text":"NARA index review; Norman H Peterson exact-name, OSS, CIA-domain, employer, occupation, obituary, institutional, military, newspaper, and archival searches","query_variant_type":"common_name_protocol_batch_751","started_at":"2026-10-12T15:55:00-04:00","completed_at":"2026-10-12T16:35:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":10,"rejection_reasons":"Multiple namesakes lacked two identifiers beyond the index.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 600.","attempt_number":1,"research_agent_version":"before-oss-b751-v1"},
+    {"key":"norman-e-peterson-protocol-b751","person_id":"a57aa553-933c-5f9e-88a3-da71ba6fd11a","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk review; Norman E Peterson with T/5 context; exact-name OSS, CIA-domain, employer, occupation, obituary, institutional, military, and archival searches","query_variant_type":"official_identity_protocol_batch_751","started_at":"2026-10-12T15:55:00-04:00","completed_at":"2026-10-12T16:35:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":9,"rejection_reasons":"Official identity evidence was accepted; a military-class namesake and other results did not establish a prior employer.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 599.","attempt_number":1,"research_agent_version":"before-oss-b751-v1"},
+    {"key":"ross-t-peterson-protocol-b751","person_id":"de2631cd-a5f8-555a-9633-5aa8bb161ea2","source_adapter":"manual_staged_protocol","query_text":"NARA index review; Ross T Peterson with CAF-6 context; exact-name OSS, CIA-domain, employer, occupation, obituary, government, institutional, and archival searches","query_variant_type":"civilian_grade_protocol_batch_751","started_at":"2026-10-12T15:55:00-04:00","completed_at":"2026-10-12T16:35:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":9,"rejection_reasons":"Namesakes lacked a CAF-6 or direct OSS identity bridge.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 600.","attempt_number":1,"research_agent_version":"before-oss-b751-v1"},
+    {"key":"roy-c-peterson-protocol-b751","person_id":"2f94c430-3343-5767-b1c0-9155d9329f50","source_adapter":"manual_staged_protocol","query_text":"NARA index review; Captain Roy C Peterson exact-name, officer, OSS, CIA-domain, employer, occupation, obituary, institutional, military-roster, and archival searches","query_variant_type":"common_officer_protocol_batch_751","started_at":"2026-10-12T15:55:00-04:00","completed_at":"2026-10-12T16:35:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":11,"rejection_reasons":"Military namesakes lacked the indexed officer identifier or direct OSS bridge.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 600.","attempt_number":1,"research_agent_version":"before-oss-b751-v1"},
+    {"key":"vivian-a-peterson-protocol-b751","person_id":"05e97bd5-ca62-5fa5-8fa1-c58892654246","source_adapter":"manual_staged_protocol","query_text":"NARA index review; Vivian A Peterson with CAF-5 context; exact-name OSS, CIA-domain, employer, occupation, obituary, government, institutional, newspaper, and archival searches","query_variant_type":"civilian_grade_protocol_batch_751","started_at":"2026-10-12T15:55:00-04:00","completed_at":"2026-10-12T16:35:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":9,"rejection_reasons":"Results lacked a CAF-5, OSS, or Box 600 identity bridge.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 600.","attempt_number":1,"research_agent_version":"before-oss-b751-v1"},
+    {"key":"william-g-peterson-protocol-b751","person_id":"8a9cb80f-3552-5070-a3a6-89ca33e85f1f","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk review; William G Peterson exact-name OSS, CIA-domain, employer, occupation, obituary, institutional, newspaper, and archival searches","query_variant_type":"official_identity_protocol_batch_751","started_at":"2026-10-12T15:55:00-04:00","completed_at":"2026-10-12T16:35:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":10,"rejection_reasons":"Official identity evidence was accepted; common-name results did not establish a named pre-OSS employer.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 600.","attempt_number":1,"research_agent_version":"before-oss-b751-v1"},
+    {"key":"ross-l-pethtel-protocol-b751","person_id":"9cae1ec5-6243-5267-b24e-72924f557ff1","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk review; Ross L Pethtel exact-name variants, Extract fr note, OSS, CIA-domain, employer, occupation, obituary, burial, institutional, and archival searches","query_variant_type":"distinctive_identifier_protocol_batch_751","started_at":"2026-10-12T15:55:00-04:00","completed_at":"2026-10-12T16:35:00-04:00","outcome":"source_reviewed","sources_reviewed":4,"candidate_sources_rejected":6,"rejection_reasons":"Official identity evidence was accepted; obituary-index and burial leads added no named pre-service employer.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 600 and the Extract fr cross-reference.","attempt_number":1,"research_agent_version":"before-oss-b751-v1"},
+    {"key":"melvin-petievich-protocol-b751","person_id":"6b56c569-17a4-5805-ac78-5f0c32d4e68f","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk review; Melvin Petievich and Melvin Corvin variants; shared-identifier, exact-name OSS, employer, obituary, institutional, newspaper, military, and archival searches","query_variant_type":"name_identifier_conflict_protocol_batch_751","started_at":"2026-10-12T15:55:00-04:00","completed_at":"2026-10-12T16:35:00-04:00","outcome":"candidate_found","sources_reviewed":2,"candidate_sources_rejected":10,"rejection_reasons":"The Army name and separate index entity identify Melvin Corvin; no evidence reassigns that identity to Petievich.","research_notes":"Identity remains conflicting. No reliable pre-OSS employer has yet been identified.","next_action":"Compare Boxes 146 and 600.","attempt_number":1,"research_agent_version":"before-oss-b751-v1"},
+    {"key":"henri-petit-protocol-b751","person_id":"c71d0c5e-7239-51b4-b187-13a49ee265d9","source_adapter":"manual_staged_protocol","query_text":"NARA index review; Lieutenant Colonel Henri Petit, Henri Romans-Petit, OSS, resistance, employer, occupation, obituary, official French biography, military, and archival searches","query_variant_type":"foreign_officer_disambiguation_protocol_batch_751","started_at":"2026-10-12T15:55:00-04:00","completed_at":"2026-10-12T16:35:00-04:00","outcome":"candidate_found","sources_reviewed":2,"candidate_sources_rejected":8,"rejection_reasons":"The Henri Romans-Petit biography is plausible but lacks a direct OSS, Box 600, or full-name bridge to the indexed row.","research_notes":"A famous biography is not assigned on name and rank alone. No reliable pre-OSS affiliation is published.","next_action":"Inspect Box 600 for full name and nationality.","attempt_number":1,"research_agent_version":"before-oss-b751-v1"},
+    {"key":"frank-a-petito-protocol-b751","person_id":"89097cbc-d399-5f33-aa6f-eb10c1e39091","source_adapter":"manual_staged_protocol","query_text":"NARA index review; Captain Frank A Petito exact-name, officer, OSS, CIA-domain, employer, occupation, obituary, institutional, military-roster, and archival searches","query_variant_type":"officer_protocol_batch_751","started_at":"2026-10-12T15:55:00-04:00","completed_at":"2026-10-12T16:35:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":9,"rejection_reasons":"Results lacked the indexed officer identifier or a direct OSS bridge.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 600.","attempt_number":1,"research_agent_version":"before-oss-b751-v1"},
+    {"key":"joseph-e-petitpas-protocol-b751","person_id":"8fd36aaa-23c4-5208-bdf8-390e922b5b50","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk review; Joseph E Petitpas exact-name, first-sergeant, OSS, CIA-domain, employer, occupation, obituary, institutional, newspaper, and archival searches","query_variant_type":"official_identity_protocol_batch_751","started_at":"2026-10-12T15:55:00-04:00","completed_at":"2026-10-12T16:35:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":8,"rejection_reasons":"Official identity evidence was accepted; other results did not establish a named pre-OSS employer.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 600.","attempt_number":1,"research_agent_version":"before-oss-b751-v1"},
+    {"key":"robert-l-petitt-protocol-b751","person_id":"412b4531-961a-5861-8bd7-76f18d99df4f","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk review; Robert L Petitt and Robert L Pettit Jr variants; shared-identifier, exact-name OSS, employer, obituary, institutional, military, and archival searches","query_variant_type":"spelling_identifier_conflict_protocol_batch_751","started_at":"2026-10-12T15:55:00-04:00","completed_at":"2026-10-12T16:35:00-04:00","outcome":"candidate_found","sources_reviewed":2,"candidate_sources_rejected":10,"rejection_reasons":"The Army record uses Pettit Jr and the identifier appears on a separate Pettit index row; no merge is justified.","research_notes":"Identity remains conflicting. No reliable pre-OSS employer has yet been identified.","next_action":"Compare Boxes 600 and 601.","attempt_number":1,"research_agent_version":"before-oss-b751-v1"},
+    {"key":"peter-p-petkoff-protocol-b751","person_id":"32cc187a-71e3-5138-9434-c8d03f0aeaf8","source_adapter":"manual_staged_protocol","query_text":"NARA index review; Peter P Petkoff and Peter Pavloff Petkoff variants; OSS, Army, University of Michigan, employer, occupation, obituary, institutional, official CMS, and archival searches","query_variant_type":"distinctive_documented_oss_protocol_batch_751","started_at":"2026-10-12T15:55:00-04:00","completed_at":"2026-10-12T16:35:00-04:00","outcome":"source_reviewed","sources_reviewed":4,"candidate_sources_rejected":4,"rejection_reasons":"A postwar engineering employer was excluded; accessible sources do not establish a pre-service employer or exact Army-to-OSS transfer date.","research_notes":"High-confidence identity and 1942 University of Michigan student affiliation documented. No reliable pre-service employer has yet been identified.","next_action":"Inspect Box 600 for transfer chronology and pre-service employer.","attempt_number":1,"research_agent_version":"before-oss-b751-v1"},
+    {"key":"angelo-s-petraglia-protocol-b751","person_id":"b76c052d-7bfd-5135-b8a0-f13ad150130a","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk review; Angelo S Petraglia exact-name, private, OSS, CIA-domain, employer, occupation, obituary, institutional, newspaper, and archival searches","query_variant_type":"official_identity_protocol_batch_751","started_at":"2026-10-12T15:55:00-04:00","completed_at":"2026-10-12T16:35:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":8,"rejection_reasons":"Official identity evidence was accepted; other results did not establish a named pre-OSS employer.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 600.","attempt_number":1,"research_agent_version":"before-oss-b751-v1"},
+    {"key":"david-petrie-protocol-b751","person_id":"4dff71d8-1fcb-5f81-bba6-4c3c0845420b","source_adapter":"manual_staged_protocol","query_text":"NARA index review; David Petrie exact-name, OSS, CIA-domain, employer, occupation, obituary, institutional, British intelligence, newspaper, and archival searches","query_variant_type":"common_foreign_name_protocol_batch_751","started_at":"2026-10-12T15:55:00-04:00","completed_at":"2026-10-12T16:35:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":11,"rejection_reasons":"Results concerned unrelated British intelligence figures or authors and lacked an indexed-file bridge.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 600.","attempt_number":1,"research_agent_version":"before-oss-b751-v1"},
+    {"key":"albert-m-petrilli-protocol-b751","person_id":"008fcdc9-a1a7-5287-89c8-93ae809a5425","source_adapter":"manual_staged_protocol","query_text":"NARA index review; Second Lieutenant Albert M Petrilli exact-name, officer, OSS, CIA-domain, employer, occupation, obituary, institutional, military-roster, and archival searches","query_variant_type":"officer_protocol_batch_751","started_at":"2026-10-12T15:55:00-04:00","completed_at":"2026-10-12T16:35:00-04:00","outcome":"candidate_rejected","sources_reviewed":1,"candidate_sources_rejected":9,"rejection_reasons":"Results lacked the indexed officer identifier or direct OSS bridge.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 600.","attempt_number":1,"research_agent_version":"before-oss-b751-v1"},
+    {"key":"nicholas-c-petris-protocol-b751","person_id":"dd0dbb16-381d-5ffa-a92b-fb9a23b49ec6","source_adapter":"manual_staged_protocol","query_text":"NARA index review; First Lieutenant Nicholas C Petris and Nicholas Christos Petris variants; OSS, Army, UC Berkeley, employer, occupation, obituary, institutional, newspaper, and archival searches","query_variant_type":"distinctive_documented_oss_protocol_batch_751","started_at":"2026-10-12T15:55:00-04:00","completed_at":"2026-10-12T16:35:00-04:00","outcome":"source_reviewed","sources_reviewed":3,"candidate_sources_rejected":3,"rejection_reasons":"The UC Berkeley oral-history PDF returned an access challenge and was not bypassed; accessible sources did not identify a civilian employer before service.","research_notes":"High-confidence identity and 1943 UC Berkeley student affiliation documented. No reliable civilian employer has yet been identified.","next_action":"Inspect Box 600 for Army-to-OSS chronology and any pre-service employer.","attempt_number":1,"research_agent_version":"before-oss-b751-v1"},
+    {"key":"edward-a-petro-protocol-b751","person_id":"234038eb-54fd-55c9-bafc-d3f0cd2d8b89","source_adapter":"manual_staged_protocol","query_text":"NARA index and Army bulk review; Edward A Petro exact-name, OSS, CIA-domain, employer, occupation, obituary, institutional, newspaper, and archival searches","query_variant_type":"official_identity_protocol_batch_751","started_at":"2026-10-12T15:55:00-04:00","completed_at":"2026-10-12T16:35:00-04:00","outcome":"source_reviewed","sources_reviewed":2,"candidate_sources_rejected":9,"rejection_reasons":"Official identity evidence was accepted; other results did not establish a named pre-OSS employer.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 600.","attempt_number":1,"research_agent_version":"before-oss-b751-v1"},
+    {"key":"boris-b-petroff-protocol-b751","person_id":"745d0f3b-1117-55e3-b6dc-96de8ac08cd7","source_adapter":"manual_staged_protocol","query_text":"NARA index review; Boris B Petroff exact-name, OSS, Army, North Carolina State Highway Commission, Public Roads Administration, employer, obituary, institutional, professional, and archival searches","query_variant_type":"distinctive_probable_identity_protocol_batch_751","started_at":"2026-10-12T15:55:00-04:00","completed_at":"2026-10-12T16:35:00-04:00","outcome":"candidate_found","sources_reviewed":3,"candidate_sources_rejected":3,"rejection_reasons":"The detailed biography lacks a direct OSS or Box 600 bridge, so identity and employment remain qualified.","research_notes":"A probable identity and medium-confidence last civilian employer are published with visible qualification and excluded from default high-confidence analytics.","next_action":"Inspect Box 600 for direct identity and chronology confirmation.","attempt_number":1,"research_agent_version":"before-oss-b751-v1"}
+  ]
+}
