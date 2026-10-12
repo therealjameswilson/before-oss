@@ -1,0 +1,395 @@
+{
+  "bundle_version": "batch-750-evidence-v1",
+  "reviewer": "Before OSS batch 750 manual review",
+  "sources": [
+    {
+      "key": "nara-index-b750",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 598-599",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 365, rows 24-46; visually checked against a 300 dpi render",
+      "access_date": "2026-10-12",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Every printed row remains separate. Full protected identifiers remain private. The CAF-3 and CAF-4 grades, Charlotta Peterson's Also 120 note, the two Chester E Peterson rows, and the Petersen/Peterson spelling conflict are preserved without silent expansion, correction, or merger."
+    },
+    {
+      "key": "army-bulk-b750",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department. Adjutant General's Office",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946",
+      "locator": "Bulk record ordinals 1457879, 1487145, 2192133, 2673950, 3854375, and 4552752",
+      "access_date": "2026-10-12",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Selective Service System, Record Group 147",
+      "rights_notes": "Official unrestricted bulk data, not a Catalog API response. Protected identifiers, coded occupations, and raw records are not published or retained. The John A Petersen/Peterson and Chester E Peterson/Andrew D Pedersen conflicts remain qualified and unresolved."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [],
+  "claims": [
+    {
+      "key": "identity-glenn-r-petersen-b750",
+      "person_id": "113943ff-6cc9-5a32-9d0c-b9d783891239",
+      "claim_type": "identity",
+      "claim_text": "The indexed Glenn R Petersen row is linked at high confidence to the official Army record for Glenn R Petersen.",
+      "evidence_excerpt": "PETERSEN GLENN R",
+      "evidence_paraphrase": "The exact name and a nonshared protected identifier agree across the official records.",
+      "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The coded Army occupation is not converted into an employer or role.",
+      "sources": [
+        {"source_key": "nara-index-b750", "locator_override": "PDF page 365, row 31"},
+        {"source_key": "army-bulk-b750", "locator_override": "Bulk record ordinal 1457879", "excerpt_override": "PETERSEN GLENN R"}
+      ]
+    },
+    {
+      "key": "identity-henry-petersen-b750",
+      "person_id": "1871e1ad-ee88-5246-b3a2-57839b2f80bd",
+      "claim_type": "identity",
+      "claim_text": "The indexed Henry Petersen row is linked at high confidence to the official Army record for Henry Petersen.",
+      "evidence_excerpt": "PETERSEN HENRY",
+      "evidence_paraphrase": "The exact name and a nonshared protected identifier agree across the official records.",
+      "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The coded Army occupation is not converted into an employer or role.",
+      "sources": [
+        {"source_key": "nara-index-b750", "locator_override": "PDF page 365, row 32"},
+        {"source_key": "army-bulk-b750", "locator_override": "Bulk record ordinal 1487145", "excerpt_override": "PETERSEN HENRY"}
+      ]
+    },
+    {
+      "key": "identity-john-h-petersen-b750",
+      "person_id": "f0a96bf7-6bd0-506c-b5b7-89700dff56f7",
+      "claim_type": "identity",
+      "claim_text": "The indexed John H Petersen row is linked at high confidence to the official Army record for John H Petersen.",
+      "evidence_excerpt": "PETERSEN JOHN H",
+      "evidence_paraphrase": "The exact name and a nonshared protected identifier agree across the official records.",
+      "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The coded Army occupation is not converted into an employer or role.",
+      "sources": [
+        {"source_key": "nara-index-b750", "locator_override": "PDF page 365, row 34"},
+        {"source_key": "army-bulk-b750", "locator_override": "Bulk record ordinal 4552752", "excerpt_override": "PETERSEN JOHN H"}
+      ]
+    },
+    {
+      "key": "identity-ross-t-petersen-b750",
+      "person_id": "435fe6be-3df8-5d24-9e10-34dea6732834",
+      "claim_type": "identity",
+      "claim_text": "The indexed Ross T Petersen row is linked at high confidence to the official Army record for Ross T Petersen.",
+      "evidence_excerpt": "PETERSEN ROSS T",
+      "evidence_paraphrase": "The exact name and a nonshared protected identifier agree across the official records.",
+      "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The coded Army occupation is not converted into an employer or role.",
+      "sources": [
+        {"source_key": "nara-index-b750", "locator_override": "PDF page 365, row 36"},
+        {"source_key": "army-bulk-b750", "locator_override": "Bulk record ordinal 2673950", "excerpt_override": "PETERSEN ROSS T"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "906584da-834a-54d8-84fc-3fcc669aee65",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name and middle initial did not yield two corroborating identifiers or a reliable pre-OSS affiliation in accessible sources.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 598 for biographical identifiers and pre-OSS employment.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e35d621d-ed45-57a2-9c13-97b6a4cbde68",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and spacing-variant searches found only the personnel index and an unsourced postwar namesake lead; neither establishes identity or employment.",
+      "name_variants": ["Lemoyne Peters"],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 599 for full biographical identifiers, CAF-4 duties, and the employer immediately before OSS.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "4e7dcdd4-137b-563a-a229-3ee62cc5b5bc",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed master-sergeant rank and protected identifier did not produce a matching official bulk record or a unique external identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 599 for Army unit history, identity, and pre-service civilian employment.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "1d3c195e-6be1-5a7d-8d3e-0cb4cf57170d",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name, OSS, civilian-service, obituary, directory, and institutional searches did not establish a unique identity or prior employer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 599 for Virginia D Peters's CAF-3 duties and pre-OSS employer.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "1e6c948c-bec5-5332-b4c6-5de36d0c3407",
+      "identity_status": "unresolved",
+      "identity_evidence": "The protected identifier did not produce a matching official bulk record, and common-name searches did not establish a unique OSS identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 599 for branch, wartime assignment, and pre-service employment.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "51e64e52-963b-59c5-838c-b8bd74ce00c3",
+      "identity_status": "unresolved",
+      "identity_evidence": "The protected identifier did not produce a matching official bulk record, and common-name searches did not establish a unique OSS identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 599 for full identity, military chronology, and pre-service employment.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "a2b021c3-8a94-5a04-a6a5-6e7acbd9484a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The protected identifier did not produce a matching official bulk record, and exact-name results lacked a direct OSS or Box 599 identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 599 for biographical identifiers and the civilian chronology before OSS.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "113943ff-6cc9-5a32-9d0c-b9d783891239",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact name and a nonshared protected identifier agree with official Army data.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 599 for the chronology before Army entry and the named civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1871e1ad-ee88-5246-b3a2-57839b2f80bd",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact name and a nonshared protected identifier agree with official Army data.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 599 for the chronology before Army entry and the named civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1122ff2f-71ef-5dc6-bec9-6e11a5e06540",
+      "identity_status": "probable",
+      "identity_evidence": "The official Army name and protected identifier agree with John A Petersen, but the same identifier is printed on a separate John A Peterson row. Both index entities remain separate.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "john-a-petersen-peterson-shared-identifier-b750",
+      "research_status": "needs_identity_review",
+      "next_action": "Compare the two Box 599 source files with the official Army record before accepting either spelling or reconstructing employment.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "f0a96bf7-6bd0-506c-b5b7-89700dff56f7",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact name and a nonshared protected identifier agree with official Army data.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 599 for the chronology before Army entry and the named civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "221753d9-24ab-5547-ab2d-35c324648e04",
+      "identity_status": "unresolved",
+      "identity_evidence": "Common-name OSS, obituary, military, directory, and employment searches did not establish a unique identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 599 for biographical identifiers and pre-OSS employment.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "435fe6be-3df8-5d24-9e10-34dea6732834",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact name and a nonshared protected identifier agree with official Army data.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 599 for the chronology before Army entry and the named civilian employer.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ec2fd7dc-9041-5406-972d-bf64efa6b17a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name and middle initial did not yield two corroborating identifiers or a reliable pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 599 for full identity and pre-OSS employment.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "28e49e84-a95b-5787-bcb0-73641a8a185b",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name searches did not expand the printed Also 120 note or establish a direct OSS identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 599 and the material referenced by Also 120 for identity and pre-OSS employment.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "3ddaf3c4-8912-5402-919c-553089eb7d41",
+      "identity_status": "conflicting",
+      "identity_evidence": "The protected identifier leads to an official Army record for Andrew D Pedersen, not Chester E Peterson. A second Chester E Peterson row carries a different identifier; neither record is merged or selected as canonical.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "chester-e-peterson-different-identifiers-b750",
+      "research_status": "needs_identity_review",
+      "next_action": "Compare both Chester E Peterson Box 599 files and the Andrew D Pedersen Army record before resolving identity.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "832939e5-de6a-59ae-be14-5c8fde41bb47",
+      "identity_status": "ambiguous",
+      "identity_evidence": "A separate Chester E Peterson source row in the same box carries a different protected identifier and a Pfc rank. The identical names are not merged.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "chester-e-peterson-different-identifiers-b750",
+      "research_status": "needs_identity_review",
+      "next_action": "Compare both Chester E Peterson Box 599 files before accepting any external biography or employment evidence.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "0736b5fb-371d-5d6a-85b1-d70e510fbb65",
+      "identity_status": "unresolved",
+      "identity_evidence": "Common-name OSS, obituary, directory, institutional, and employment searches did not establish a unique identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 599 for biographical identifiers and pre-OSS employment.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "358a6c61-4263-5b76-85a4-108b539f1cd0",
+      "identity_status": "unresolved",
+      "identity_evidence": "The protected identifier did not produce a matching official bulk record, and exact-name results lacked a direct OSS identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 599 for Army unit history, identity, and pre-service employment.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "360ea1b0-a896-51dc-9c66-d49b39122012",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name results were modern namesakes or lacked an OSS and wartime identity bridge; no reliable pre-OSS employer was established.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 599 for full identity and pre-OSS employment.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "df55b498-14a7-50c3-8c73-e7d1565be088",
+      "identity_status": "unresolved",
+      "identity_evidence": "The protected identifier did not produce a matching official bulk record, and common-name searches did not establish a unique identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 599 for Army unit history and pre-service civilian employment.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "fd2fcfab-412a-59eb-94f2-1b163dc02d49",
+      "identity_status": "conflicting",
+      "identity_evidence": "The official Army spelling is John A Petersen while this index row reads John A Peterson, and the protected identifier is also printed on the separate Petersen row. The entities remain unmerged.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "john-a-petersen-peterson-shared-identifier-b750",
+      "research_status": "needs_identity_review",
+      "next_action": "Compare the two Box 599 files with the Army record before resolving spelling, identity, or prior employment.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "936d00ec-1073-51b4-82b9-c8778f5e2eea",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name, major rank, and officer identifier did not produce two corroborating identifiers or a defensible pre-OSS chronology. Air Corps and postwar Army namesakes were rejected.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 599 for branch, unit history, officer chronology, and last civilian employer before wartime service.",
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "joseph-c-peters-protocol-b750", "person_id": "906584da-834a-54d8-84fc-3fcc669aee65", "source_adapter": "manual_staged_protocol", "query_text": "NARA index review; Joseph C Peters exact-name and punctuation variants; OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches", "query_variant_type": "common_name_protocol_batch_750", "started_at": "2026-10-12T15:00:00-04:00", "completed_at": "2026-10-12T15:50:00-04:00", "outcome": "candidate_rejected", "sources_reviewed": 1, "candidate_sources_rejected": 7, "rejection_reasons": "Common-name results lacked two corroborating identifiers beyond the index.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The CIA and Library of Congress cohort adapters ended on source-access errors before person-level results.", "next_action": "Inspect Box 598.", "attempt_number": 1, "research_agent_version": "before-oss-b750-v1"
+    },
+    {
+      "key": "le-moyne-peters-protocol-b750", "person_id": "e35d621d-ed45-57a2-9c13-97b6a4cbde68", "source_adapter": "manual_staged_protocol", "query_text": "NARA index review; Le Moyne Peters, Lemoyne Peters, and LeMoyne Peters variants; CAF-4, OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, and archival searches", "query_variant_type": "distinctive_civilian_grade_protocol_batch_750", "started_at": "2026-10-12T15:00:00-04:00", "completed_at": "2026-10-12T15:50:00-04:00", "outcome": "candidate_rejected", "sources_reviewed": 1, "candidate_sources_rejected": 8, "rejection_reasons": "An unsourced genealogy lead and unrelated Le Moyne results lacked an OSS, CAF-4, or Box 599 identity bridge.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 599.", "attempt_number": 1, "research_agent_version": "before-oss-b750-v1"
+    },
+    {
+      "key": "stephen-peters-protocol-b750", "person_id": "4e7dcdd4-137b-563a-a229-3ee62cc5b5bc", "source_adapter": "manual_staged_protocol", "query_text": "NARA index and complete Army bulk review; Stephen Peters with M/Sgt and protected-identifier context; exact-name OSS, CIA-domain, employer, occupation, obituary, institutional, newspaper, military, and archival searches", "query_variant_type": "common_enlisted_protocol_batch_750", "started_at": "2026-10-12T15:00:00-04:00", "completed_at": "2026-10-12T15:50:00-04:00", "outcome": "candidate_rejected", "sources_reviewed": 2, "candidate_sources_rejected": 8, "rejection_reasons": "No matching official Army bulk row was recovered and common-name results lacked the indexed rank and identifier.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 599.", "attempt_number": 1, "research_agent_version": "before-oss-b750-v1"
+    },
+    {
+      "key": "virginia-d-peters-protocol-b750", "person_id": "1d3c195e-6be1-5a7d-8d3e-0cb4cf57170d", "source_adapter": "manual_staged_protocol", "query_text": "NARA index review; Virginia D Peters exact-name and punctuation variants; CAF-3, OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, government, and archival searches", "query_variant_type": "civilian_grade_protocol_batch_750", "started_at": "2026-10-12T15:00:00-04:00", "completed_at": "2026-10-12T15:50:00-04:00", "outcome": "candidate_rejected", "sources_reviewed": 1, "candidate_sources_rejected": 8, "rejection_reasons": "Results were modern namesakes or lacked a direct wartime identity bridge.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 599.", "attempt_number": 1, "research_agent_version": "before-oss-b750-v1"
+    },
+    {
+      "key": "charles-r-petersen-protocol-b750", "person_id": "1e6c948c-bec5-5332-b4c6-5de36d0c3407", "source_adapter": "manual_staged_protocol", "query_text": "NARA index and complete Army bulk review; Charles R Petersen exact-name and protected-identifier context; OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches", "query_variant_type": "common_identifier_protocol_batch_750", "started_at": "2026-10-12T15:00:00-04:00", "completed_at": "2026-10-12T15:50:00-04:00", "outcome": "candidate_rejected", "sources_reviewed": 2, "candidate_sources_rejected": 7, "rejection_reasons": "No matching Army bulk row was recovered and namesakes lacked the index identifiers.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 599.", "attempt_number": 1, "research_agent_version": "before-oss-b750-v1"
+    },
+    {
+      "key": "elmer-a-petersen-protocol-b750", "person_id": "51e64e52-963b-59c5-838c-b8bd74ce00c3", "source_adapter": "manual_staged_protocol", "query_text": "NARA index and complete Army bulk review; Elmer A Petersen exact-name and protected-identifier context; OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches", "query_variant_type": "common_identifier_protocol_batch_750", "started_at": "2026-10-12T15:00:00-04:00", "completed_at": "2026-10-12T15:50:00-04:00", "outcome": "candidate_rejected", "sources_reviewed": 2, "candidate_sources_rejected": 7, "rejection_reasons": "No matching Army bulk row was recovered and namesakes lacked the index identifiers.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 599.", "attempt_number": 1, "research_agent_version": "before-oss-b750-v1"
+    },
+    {
+      "key": "emil-petersen-protocol-b750", "person_id": "a2b021c3-8a94-5a04-a6a5-6e7acbd9484a", "source_adapter": "manual_staged_protocol", "query_text": "NARA index and complete Army bulk review; Emil Petersen exact-name and protected-identifier context; OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches", "query_variant_type": "common_identifier_protocol_batch_750", "started_at": "2026-10-12T15:00:00-04:00", "completed_at": "2026-10-12T15:50:00-04:00", "outcome": "candidate_rejected", "sources_reviewed": 2, "candidate_sources_rejected": 8, "rejection_reasons": "No matching Army bulk row was recovered and exact-name results lacked the index identifiers.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 599.", "attempt_number": 1, "research_agent_version": "before-oss-b750-v1"
+    },
+    {
+      "key": "glenn-r-petersen-protocol-b750", "person_id": "113943ff-6cc9-5a32-9d0c-b9d783891239", "source_adapter": "manual_staged_protocol", "query_text": "NARA index and Army bulk review; Glenn R Petersen exact-name OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches", "query_variant_type": "official_identity_protocol_batch_750", "started_at": "2026-10-12T15:00:00-04:00", "completed_at": "2026-10-12T15:50:00-04:00", "outcome": "source_reviewed", "sources_reviewed": 2, "candidate_sources_rejected": 8, "rejection_reasons": "Official identity evidence was accepted; genealogy, people-finder, property, and obituary-index namesakes did not establish a pre-OSS employer.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 599.", "attempt_number": 1, "research_agent_version": "before-oss-b750-v1"
+    },
+    {
+      "key": "henry-petersen-protocol-b750", "person_id": "1871e1ad-ee88-5246-b3a2-57839b2f80bd", "source_adapter": "manual_staged_protocol", "query_text": "NARA index and Army bulk review; Henry Petersen exact-name OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches", "query_variant_type": "official_identity_protocol_batch_750", "started_at": "2026-10-12T15:00:00-04:00", "completed_at": "2026-10-12T15:50:00-04:00", "outcome": "source_reviewed", "sources_reviewed": 2, "candidate_sources_rejected": 8, "rejection_reasons": "Official identity evidence was accepted; common-name results did not establish a named pre-OSS employer.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 599.", "attempt_number": 1, "research_agent_version": "before-oss-b750-v1"
+    },
+    {
+      "key": "john-a-petersen-protocol-b750", "person_id": "1122ff2f-71ef-5dc6-bec9-6e11a5e06540", "source_adapter": "manual_staged_protocol", "query_text": "NARA index and Army bulk review; John A Petersen and John A Peterson variants; shared-identifier, exact-name OSS, CIA-domain, employer, occupation, obituary, institutional, newspaper, military, and archival searches", "query_variant_type": "shared_identifier_protocol_batch_750", "started_at": "2026-10-12T15:00:00-04:00", "completed_at": "2026-10-12T15:50:00-04:00", "outcome": "candidate_found", "sources_reviewed": 2, "candidate_sources_rejected": 10, "rejection_reasons": "The official Army candidate remains probable because the same identifier appears on the separate Peterson spelling; namesakes did not resolve the duplicate or employer chronology.", "research_notes": "Identity remains probable and no reliable pre-OSS employer has yet been identified.", "next_action": "Compare both Box 599 files with the Army record.", "attempt_number": 1, "research_agent_version": "before-oss-b750-v1"
+    },
+    {
+      "key": "john-h-petersen-protocol-b750", "person_id": "f0a96bf7-6bd0-506c-b5b7-89700dff56f7", "source_adapter": "manual_staged_protocol", "query_text": "NARA index and Army bulk review; John H Petersen exact-name OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches", "query_variant_type": "official_identity_protocol_batch_750", "started_at": "2026-10-12T15:00:00-04:00", "completed_at": "2026-10-12T15:50:00-04:00", "outcome": "source_reviewed", "sources_reviewed": 2, "candidate_sources_rejected": 9, "rejection_reasons": "Official identity evidence was accepted; a cemetery namesake had a different identifier and other results did not establish a pre-OSS employer.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 599.", "attempt_number": 1, "research_agent_version": "before-oss-b750-v1"
+    },
+    {
+      "key": "robert-w-petersen-protocol-b750", "person_id": "221753d9-24ab-5547-ab2d-35c324648e04", "source_adapter": "manual_staged_protocol", "query_text": "NARA index review; Robert W Petersen exact-name OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches", "query_variant_type": "common_name_protocol_batch_750", "started_at": "2026-10-12T15:00:00-04:00", "completed_at": "2026-10-12T15:50:00-04:00", "outcome": "candidate_rejected", "sources_reviewed": 1, "candidate_sources_rejected": 10, "rejection_reasons": "Common-name results lacked two corroborating identifiers beyond the index.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 599.", "attempt_number": 1, "research_agent_version": "before-oss-b750-v1"
+    },
+    {
+      "key": "ross-t-petersen-protocol-b750", "person_id": "435fe6be-3df8-5d24-9e10-34dea6732834", "source_adapter": "manual_staged_protocol", "query_text": "NARA index and Army bulk review; Ross T Petersen exact-name OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches", "query_variant_type": "official_identity_protocol_batch_750", "started_at": "2026-10-12T15:00:00-04:00", "completed_at": "2026-10-12T15:50:00-04:00", "outcome": "source_reviewed", "sources_reviewed": 2, "candidate_sources_rejected": 8, "rejection_reasons": "Official identity evidence was accepted; other results did not establish a named pre-OSS employer.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 599.", "attempt_number": 1, "research_agent_version": "before-oss-b750-v1"
+    },
+    {
+      "key": "ann-b-peterson-protocol-b750", "person_id": "ec2fd7dc-9041-5406-972d-bf64efa6b17a", "source_adapter": "manual_staged_protocol", "query_text": "NARA index review; Ann B Peterson exact-name and punctuation variants; OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, and archival searches", "query_variant_type": "common_name_protocol_batch_750", "started_at": "2026-10-12T15:00:00-04:00", "completed_at": "2026-10-12T15:50:00-04:00", "outcome": "candidate_rejected", "sources_reviewed": 1, "candidate_sources_rejected": 10, "rejection_reasons": "Common-name results lacked a direct OSS or Box 599 identity bridge.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 599.", "attempt_number": 1, "research_agent_version": "before-oss-b750-v1"
+    },
+    {
+      "key": "charlotta-peterson-protocol-b750", "person_id": "28e49e84-a95b-5787-bcb0-73641a8a185b", "source_adapter": "manual_staged_protocol", "query_text": "NARA index review; Charlotta Peterson exact-name and Charlotte spelling variants with Also 120 context; OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, and archival searches", "query_variant_type": "cross_reference_protocol_batch_750", "started_at": "2026-10-12T15:00:00-04:00", "completed_at": "2026-10-12T15:50:00-04:00", "outcome": "candidate_rejected", "sources_reviewed": 1, "candidate_sources_rejected": 9, "rejection_reasons": "Cemetery and modern foreign namesakes lacked an OSS, Box 599, or Also 120 identity bridge.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 599 and referenced 120 material.", "attempt_number": 1, "research_agent_version": "before-oss-b750-v1"
+    },
+    {
+      "key": "chester-e-peterson-pfc-protocol-b750", "person_id": "3ddaf3c4-8912-5402-919c-553089eb7d41", "source_adapter": "manual_staged_protocol", "query_text": "NARA index and Army bulk review; both Chester E Peterson rows plus Andrew D Pedersen; identifier conflict, exact-name OSS, CIA-domain, employer, occupation, obituary, institutional, newspaper, military, and archival searches", "query_variant_type": "name_identifier_conflict_protocol_batch_750", "started_at": "2026-10-12T15:00:00-04:00", "completed_at": "2026-10-12T15:50:00-04:00", "outcome": "candidate_found", "sources_reviewed": 2, "candidate_sources_rejected": 10, "rejection_reasons": "The Army name conflicts with the index and a separate same-name index row has a different identifier; other results did not resolve either person.", "research_notes": "Identity remains conflicting. No reliable pre-OSS employer has yet been identified.", "next_action": "Compare both Box 599 files and the Army record.", "attempt_number": 1, "research_agent_version": "before-oss-b750-v1"
+    },
+    {
+      "key": "chester-e-peterson-officer-id-protocol-b750", "person_id": "832939e5-de6a-59ae-be14-5c8fde41bb47", "source_adapter": "manual_staged_protocol", "query_text": "NARA index review; both Chester E Peterson rows and their different identifiers; exact-name OSS, CIA-domain, employer, occupation, obituary, institutional, newspaper, military, and archival searches", "query_variant_type": "duplicate_name_different_identifier_protocol_batch_750", "started_at": "2026-10-12T15:00:00-04:00", "completed_at": "2026-10-12T15:50:00-04:00", "outcome": "candidate_found", "sources_reviewed": 1, "candidate_sources_rejected": 10, "rejection_reasons": "Identical-name results could not be assigned to either index row and the two protected identifiers prohibit an automatic merge.", "research_notes": "Identity remains ambiguous. No reliable pre-OSS employer has yet been identified.", "next_action": "Compare both Box 599 files.", "attempt_number": 1, "research_agent_version": "before-oss-b750-v1"
+    },
+    {
+      "key": "edward-r-peterson-protocol-b750", "person_id": "0736b5fb-371d-5d6a-85b1-d70e510fbb65", "source_adapter": "manual_staged_protocol", "query_text": "NARA index review; Edward R Peterson exact-name and punctuation variants; OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, military, and archival searches", "query_variant_type": "common_name_protocol_batch_750", "started_at": "2026-10-12T15:00:00-04:00", "completed_at": "2026-10-12T15:50:00-04:00", "outcome": "candidate_rejected", "sources_reviewed": 1, "candidate_sources_rejected": 11, "rejection_reasons": "Common-name results lacked two corroborating identifiers beyond the index.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 599.", "attempt_number": 1, "research_agent_version": "before-oss-b750-v1"
+    },
+    {
+      "key": "edwin-i-peterson-protocol-b750", "person_id": "358a6c61-4263-5b76-85a4-108b539f1cd0", "source_adapter": "manual_staged_protocol", "query_text": "NARA index and complete Army bulk review; Edwin I Peterson with T/4 and protected-identifier context; exact-name OSS, CIA-domain, employer, occupation, obituary, institutional, newspaper, military, and archival searches", "query_variant_type": "enlisted_identifier_protocol_batch_750", "started_at": "2026-10-12T15:00:00-04:00", "completed_at": "2026-10-12T15:50:00-04:00", "outcome": "candidate_rejected", "sources_reviewed": 2, "candidate_sources_rejected": 8, "rejection_reasons": "No matching Army bulk row was recovered and namesakes lacked the indexed rank and identifier.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 599.", "attempt_number": 1, "research_agent_version": "before-oss-b750-v1"
+    },
+    {
+      "key": "elizabeth-k-peterson-protocol-b750", "person_id": "360ea1b0-a896-51dc-9c66-d49b39122012", "source_adapter": "manual_staged_protocol", "query_text": "NARA index review; Elizabeth K Peterson exact-name and punctuation variants; OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, and archival searches", "query_variant_type": "common_name_protocol_batch_750", "started_at": "2026-10-12T15:00:00-04:00", "completed_at": "2026-10-12T15:50:00-04:00", "outcome": "candidate_rejected", "sources_reviewed": 1, "candidate_sources_rejected": 9, "rejection_reasons": "Modern professional and genealogy namesakes lacked an OSS or wartime identity bridge.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 599.", "attempt_number": 1, "research_agent_version": "before-oss-b750-v1"
+    },
+    {
+      "key": "harold-e-peterson-protocol-b750", "person_id": "df55b498-14a7-50c3-8c73-e7d1565be088", "source_adapter": "manual_staged_protocol", "query_text": "NARA index and complete Army bulk review; Harold E Peterson with T/Sgt and protected-identifier context; exact-name OSS, CIA-domain, employer, occupation, obituary, institutional, newspaper, military, and archival searches", "query_variant_type": "enlisted_identifier_protocol_batch_750", "started_at": "2026-10-12T15:00:00-04:00", "completed_at": "2026-10-12T15:50:00-04:00", "outcome": "candidate_rejected", "sources_reviewed": 2, "candidate_sources_rejected": 9, "rejection_reasons": "No matching Army bulk row was recovered and namesakes lacked the indexed rank and identifier.", "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 599.", "attempt_number": 1, "research_agent_version": "before-oss-b750-v1"
+    },
+    {
+      "key": "john-a-peterson-protocol-b750", "person_id": "fd2fcfab-412a-59eb-94f2-1b163dc02d49", "source_adapter": "manual_staged_protocol", "query_text": "NARA index and Army bulk review; John A Peterson and John A Petersen variants; shared-identifier, exact-name OSS, CIA-domain, employer, occupation, obituary, institutional, newspaper, military, and archival searches", "query_variant_type": "shared_identifier_protocol_batch_750", "started_at": "2026-10-12T15:00:00-04:00", "completed_at": "2026-10-12T15:50:00-04:00", "outcome": "candidate_found", "sources_reviewed": 2, "candidate_sources_rejected": 10, "rejection_reasons": "The official Army spelling is Petersen and the same identifier appears on the separate Petersen row; namesakes did not resolve the duplicate or employer chronology.", "research_notes": "Identity remains conflicting. No reliable pre-OSS employer has yet been identified.", "next_action": "Compare both Box 599 files with the Army record.", "attempt_number": 1, "research_agent_version": "before-oss-b750-v1"
+    },
+    {
+      "key": "john-r-peterson-protocol-b750", "person_id": "936d00ec-1073-51b4-82b9-c8778f5e2eea", "source_adapter": "manual_staged_protocol", "query_text": "NARA index review; Major John R Peterson exact-name, officer, OSS, CIA-domain, employer, occupation, obituary, institutional, directory, newspaper, Army Air Corps, military-roster, and archival searches", "query_variant_type": "common_officer_protocol_batch_750", "started_at": "2026-10-12T15:00:00-04:00", "completed_at": "2026-10-12T15:50:00-04:00", "outcome": "candidate_rejected", "sources_reviewed": 1, "candidate_sources_rejected": 12, "rejection_reasons": "Air Corps and postwar Army namesakes lacked the indexed officer identifier or an OSS/Box 599 bridge; rank alone is insufficient.", "research_notes": "No reliable pre-OSS military assignment or civilian employer has yet been identified in the accessible sources reviewed.", "next_action": "Inspect Box 599.", "attempt_number": 1, "research_agent_version": "before-oss-b750-v1"
+    }
+  ]
+}
