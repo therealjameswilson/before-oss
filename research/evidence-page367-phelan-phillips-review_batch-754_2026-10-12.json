@@ -1,0 +1,1120 @@
+{
+  "bundle_version": "batch-754-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 754 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b754",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 602-603",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 367, rows 24-46; visually checked against a 300 dpi render",
+      "access_date": "2026-10-12",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Every printed row remains separate. Full protected identifiers remain private. Flora Phelps's 'Also in B' and Julia Phelps's and John Phillips's 'Extract fr' notes remain literal and truncated where printed; William L Phelps's identifier is preserved privately as printed."
+    },
+    {
+      "key": "army-bulk-b754",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department. Adjutant General's Office",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946",
+      "locator": "Seven reviewed bulk-record candidates: six accepted identities and one unresolved conflict",
+      "access_date": "2026-10-12",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Selective Service System, Record Group 147",
+      "rights_notes": "Official unrestricted bulk data, not a Catalog API response. Full protected identifiers, coded occupations, and raw records are not published or retained. The name conflict remains unresolved."
+    },
+    {
+      "key": "harvard-phelps-b754",
+      "stable_url": "https://news.harvard.edu/gazette/story/2006/10/gsas-dean-head-of-extension-school-german-lecturer-phelps-dies-at-97/",
+      "title": "GSAS dean, head of Extension School, German lecturer Phelps dies at 97",
+      "author_creator": "Harvard Gazette",
+      "repository_publisher": "Harvard University",
+      "publication_record_date": "2006-10-12",
+      "locator": "Biographical paragraphs on Harvard teaching, Julia Gray Sears, and September 1944 OSS entry",
+      "access_date": "2026-10-12",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Harvard Gazette",
+      "rights_notes": "The institutional obituary directly links Reginald and Julia Phelps to OSS. It supports Reginald's 1931-1944 Harvard employment and Julia's earlier Radcliffe student status; it does not establish Julia's immediate pre-OSS occupation."
+    },
+    {
+      "key": "goettingen-wiesner-b754",
+      "stable_url": "https://www.sub.uni-goettingen.de/fileadmin/media/texte/fachreferate/fachreferat_geschichte/gok_p_2000_4.pdf",
+      "archival_identifier": "ISBN 1-88927-404-6",
+      "title": "Geschichte: Neuerwerbungen 4/2000",
+      "author_creator": "Niedersächsische Staats- und Universitätsbibliothek Göttingen",
+      "repository_publisher": "Niedersächsische Staats- und Universitätsbibliothek Göttingen",
+      "publication_record_date": "2000",
+      "locator": "Bibliographic entry for Elizabeth Phenix Wiesner, Between the Lines",
+      "access_date": "2026-10-12",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Library acquisitions bibliography",
+      "rights_notes": "The library record confirms the author and memoir title linking Red Cross and OSS service. It does not establish the sequence needed for a pre-OSS affiliation claim."
+    },
+    {
+      "key": "auburn-wiesner-b754",
+      "stable_url": "https://etd.auburn.edu/bitstream/handle/10415/2616/ramsey_julia_ma_thesis_history_post_defense_and_AUETD_check_5.9.11.pdf?isAllowed=y&sequence=3",
+      "title": "Doughnuts and Diplomacy: American Red Cross Clubmobile Women in World War II",
+      "author_creator": "Julia Ramsey",
+      "repository_publisher": "Auburn University",
+      "publication_record_date": "2011",
+      "locator": "Page 69 and note 36, citing Elizabeth Phenix Wiesner's wartime account",
+      "access_date": "2026-10-12",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Auburn University electronic theses",
+      "rights_notes": "The thesis quotes Wiesner's first-person account of Red Cross work and supplies a full memoir citation. It corroborates wartime Red Cross service but not its sequence relative to OSS."
+    },
+    {
+      "key": "nomos-phiebig-b754",
+      "stable_url": "https://www.nomos-elibrary.de/399234.pdf",
+      "archival_identifier": "DOI 10.5771/0023-4834-1999-3-463",
+      "title": "Die Zählebigkeit des Kalten Krieges: Zu den neuen Verdächtigungen gegen Franz L. Neumann",
+      "author_creator": "Matthias Stoffregen",
+      "repository_publisher": "Kritische Justiz; Nomos",
+      "publication_record_date": "1999",
+      "locator": "Pages 463-472; passage naming Albert J. Phiebig as an OSS colleague in the same division",
+      "access_date": "2026-10-12",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Kritische Justiz, volume 32, issue 3",
+      "rights_notes": "The scholarly article directly identifies Albert J. Phiebig as a former OSS colleague. It supplies identity evidence only; no employer is inferred from later bookselling activity."
+    },
+    {
+      "key": "ossog-greek-groups-b754",
+      "stable_url": "https://ossog.info/personnel.html",
+      "title": "Office of Strategic Services Operational Groups: Personnel",
+      "author_creator": "OSS Operational Groups research project",
+      "repository_publisher": "ossog.info",
+      "publication_record_date": null,
+      "locator": "Greek Group II and Greek Group IV rosters",
+      "access_date": "2026-10-12",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "OSS Operational Groups personnel rosters",
+      "rights_notes": "Used only as corroboration for Stephanos J. Philippides and Alexander P. Phillips after official protected-identifier matches. It is not used as employer evidence."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "harvard-college-b754",
+      "organization_id": "45ddf347-21c6-59f5-a8ae-517418adf941",
+      "canonical_name": "Harvard University",
+      "historical_name": "Harvard College",
+      "aliases": [
+        "Harvard"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "active_dates": "1636-present",
+      "normalization_notes": "Existing historical organization reused. The source's Harvard wording is preserved in the affiliation."
+    },
+    {
+      "key": "radcliffe-college-b754",
+      "organization_id": "8b718239-988a-55f0-a231-decd01eb0642",
+      "canonical_name": "Radcliffe College",
+      "historical_name": "Radcliffe College",
+      "aliases": [],
+      "organization_type": "women's college",
+      "sector": "academia_and_research",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "active_dates": "1879-1999",
+      "normalization_notes": "Existing historical organization reused; student status is not treated as employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "reginald-phelps-harvard-b754",
+      "person_id": "1f389fd8-012b-5c3c-b061-27bd3355aeea",
+      "organization_key": "harvard-college-b754",
+      "organization_name_as_found": "Harvard",
+      "role_title": "German instructor and administrator",
+      "occupation": "teacher and academic administrator",
+      "relationship_type": "employment",
+      "start_date": "1931",
+      "end_date": "1944-09",
+      "date_precision": "year; OSS entry documented as September 1944",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Harvard states that Phelps taught German there until 1944 and that he joined OSS in September 1944. No intervening affiliation is identified."
+    },
+    {
+      "key": "julia-phelps-radcliffe-b754",
+      "person_id": "0710a8ff-887f-5165-a253-6d2f7479cd20",
+      "organization_key": "radcliffe-college-b754",
+      "organization_name_as_found": "Radcliffe",
+      "role_title": "undergraduate student",
+      "occupation": null,
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "1938",
+      "date_precision": "before her April 1938 marriage",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Harvard identifies Julia Gray Sears as a Radcliffe undergraduate and directly states that she and Reginald joined OSS in 1944. Student status is not classified as employment."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-reginald-phelps-b754",
+      "person_id": "1f389fd8-012b-5c3c-b061-27bd3355aeea",
+      "claim_type": "identity",
+      "claim_text": "The indexed Reginald H Phelps is linked at high confidence to Harvard's Reginald Henry Phelps biography.",
+      "evidence_excerpt": "In September 1944, he and Julia joined the OSS",
+      "evidence_paraphrase": "Harvard names Reginald Henry Phelps, documents his 1931-1944 Harvard career, and explicitly states that he joined OSS in September 1944.",
+      "identity_match_assessment": "High confidence from the distinctive full name, expanded middle name, Harvard chronology, and direct OSS statement.",
+      "temporal_assessment": "The institutional biography gives a continuous Harvard chronology through his September 1944 OSS entry.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The evidence directly links this distinctive person to OSS; no fame-only namesake assignment is used.",
+      "sources": [
+        {
+          "source_key": "nara-index-b754",
+          "locator_override": "PDF page 367, row 28"
+        },
+        {
+          "source_key": "harvard-phelps-b754",
+          "locator_override": "Biographical paragraphs 1-5"
+        }
+      ]
+    },
+    {
+      "key": "affiliation-reginald-phelps-harvard-b754",
+      "person_id": "1f389fd8-012b-5c3c-b061-27bd3355aeea",
+      "affiliation_key": "reginald-phelps-harvard-b754",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Immediately before joining OSS in September 1944, Reginald Henry Phelps taught German and held administrative posts at Harvard.",
+      "evidence_excerpt": "he taught German at Harvard until 1944, while serving in a variety of administrative positions",
+      "evidence_paraphrase": "Harvard dates Phelps's teaching through 1944 and then places his OSS entry in September of that year.",
+      "identity_match_assessment": "High-confidence identity from the same institutional biography's direct OSS linkage.",
+      "temporal_assessment": "Strongly date-bounded: Harvard teaching continued until 1944 and OSS entry occurred in September 1944, with no intervening role identified.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Published as both immediate pre-OSS affiliation and last civilian employer; the precise administrative title at departure is not inferred.",
+      "sources": [
+        {
+          "source_key": "harvard-phelps-b754",
+          "locator_override": "Paragraphs 4-5"
+        }
+      ]
+    },
+    {
+      "key": "identity-julia-phelps-b754",
+      "person_id": "0710a8ff-887f-5165-a253-6d2f7479cd20",
+      "claim_type": "identity",
+      "claim_text": "The indexed Julia G Phelps is linked at high confidence to Julia Gray Sears Phelps.",
+      "evidence_excerpt": "In September 1944, he and Julia joined the OSS",
+      "evidence_paraphrase": "Harvard names Julia Gray Sears, documents her marriage to Reginald Phelps, and directly states that Julia joined OSS in September 1944.",
+      "identity_match_assessment": "High confidence from the exact surname, matching middle initial expansion, given name, adjacent indexed spouse, and direct institutional OSS statement.",
+      "temporal_assessment": "The biography dates the marriage to 1938 and OSS entry to September 1944.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The spouse relationship is corroborative rather than principal; the direct statement that Julia joined OSS supplies the principal bridge.",
+      "sources": [
+        {
+          "source_key": "nara-index-b754",
+          "locator_override": "PDF page 367, row 27"
+        },
+        {
+          "source_key": "harvard-phelps-b754",
+          "locator_override": "Paragraphs 4-5"
+        }
+      ]
+    },
+    {
+      "key": "affiliation-julia-phelps-radcliffe-b754",
+      "person_id": "0710a8ff-887f-5165-a253-6d2f7479cd20",
+      "affiliation_key": "julia-phelps-radcliffe-b754",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Before her 1938 marriage and later OSS service, Julia Gray Sears Phelps was a Radcliffe undergraduate.",
+      "evidence_excerpt": "Julia Gray Sears, a Radcliffe undergraduate he met in Munich",
+      "evidence_paraphrase": "Harvard identifies Julia as a Radcliffe undergraduate before her 1938 marriage and September 1944 OSS entry.",
+      "identity_match_assessment": "High-confidence identity from the biography's direct OSS statement and matching middle-name initial.",
+      "temporal_assessment": "Documented before 1938; the source does not show that student status immediately preceded OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as student status, not employment and not the immediate pre-OSS affiliation.",
+      "sources": [
+        {
+          "source_key": "harvard-phelps-b754",
+          "locator_override": "Paragraph 4"
+        }
+      ]
+    },
+    {
+      "key": "identity-elizabeth-phenix-b754",
+      "person_id": "f7f657b5-27c5-585a-8049-f93d9876079c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Elizabeth Q Phenix is probably memoirist Elizabeth Phenix Wiesner.",
+      "evidence_excerpt": "Between the lines: overseas with the Red Cross and OSS in World War II",
+      "evidence_paraphrase": "A university library record identifies Elizabeth Phenix Wiesner as author of a memoir explicitly covering Red Cross and OSS service.",
+      "identity_match_assessment": "Probable because the distinctive maiden name and OSS service align, but the accessible sources omit the indexed middle initial.",
+      "temporal_assessment": "The memoir covers wartime Red Cross and OSS service, but the accessible bibliographic evidence does not establish their sequence.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No pre-OSS employer or immediate affiliation is published; the middle-initial omission keeps the identity below high confidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b754",
+          "locator_override": "PDF page 367, row 31"
+        },
+        {
+          "source_key": "goettingen-wiesner-b754",
+          "locator_override": "Bibliographic entry for ISBN 1-88927-404-6"
+        },
+        {
+          "source_key": "auburn-wiesner-b754",
+          "support_type": "context_only",
+          "locator_override": "Page 69 and note 36"
+        }
+      ]
+    },
+    {
+      "key": "identity-albert-phiebig-b754",
+      "person_id": "119c9d09-b590-5439-b8c4-1aff574c75e4",
+      "claim_type": "identity",
+      "claim_text": "The indexed Albert J Phiebig is linked at high confidence to the OSS colleague discussed in a scholarly article.",
+      "evidence_excerpt": "zwei ehemalige Kollegen Neumanns am OSS ... Albert J. Phiebig und John H. Herz",
+      "evidence_paraphrase": "The article identifies Albert J. Phiebig as a German émigré and former OSS colleague who worked in the same division as Franz Neumann.",
+      "identity_match_assessment": "High confidence from the distinctive exact name and direct scholarly OSS linkage.",
+      "temporal_assessment": "The article establishes wartime OSS service but does not document Phiebig's immediately prior employer.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Discovery-only biographical sites were excluded as final employer evidence; postwar bookselling is not projected backward.",
+      "sources": [
+        {
+          "source_key": "nara-index-b754",
+          "locator_override": "PDF page 367, row 33"
+        },
+        {
+          "source_key": "nomos-phiebig-b754",
+          "locator_override": "Article passage discussing Neumann's OSS colleagues"
+        }
+      ]
+    },
+    {
+      "key": "identity-alexander-p-phillips-b754",
+      "person_id": "c9949871-bc62-5639-bb3d-a93c3705997f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Alexander P Phillips row is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PHILLIPS ALEXANDER P",
+      "evidence_paraphrase": "The exact name and a nonshared protected identifier agree across the official records.",
+      "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army occupation data are not converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b754",
+          "locator_override": "PDF page 367, row 39"
+        },
+        {
+          "source_key": "army-bulk-b754",
+          "excerpt_override": "PHILLIPS ALEXANDER P"
+        },
+        {
+          "source_key": "ossog-greek-groups-b754",
+          "support_type": "context_only",
+          "locator_override": "Greek operational-group roster"
+        }
+      ]
+    },
+    {
+      "key": "identity-earl-l-phillips-b754",
+      "person_id": "1efafd71-6387-5ba5-b731-469586069bd1",
+      "claim_type": "identity",
+      "claim_text": "The indexed Earl L Phillips row is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PHILLIPS EARL L",
+      "evidence_paraphrase": "The exact name and a nonshared protected identifier agree across the official records.",
+      "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army occupation data are not converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b754",
+          "locator_override": "PDF page 367, row 41"
+        },
+        {
+          "source_key": "army-bulk-b754",
+          "excerpt_override": "PHILLIPS EARL L"
+        }
+      ]
+    },
+    {
+      "key": "identity-frederick-l-phillips-b754",
+      "person_id": "7f52a572-3194-5d82-a503-27c6007eb25d",
+      "claim_type": "identity",
+      "claim_text": "The indexed Frederick L Phillips row is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PHILLIPS FREDERICK L",
+      "evidence_paraphrase": "The exact name and a nonshared protected identifier agree across the official records.",
+      "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army occupation data are not converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b754",
+          "locator_override": "PDF page 367, row 42"
+        },
+        {
+          "source_key": "army-bulk-b754",
+          "excerpt_override": "PHILLIPS FREDERICK L"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-m-phillips-b754",
+      "person_id": "ab0ca33f-84bc-50f0-8fb9-0f44d399c9d8",
+      "claim_type": "identity",
+      "claim_text": "The indexed John M Phillips row is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PHILLIPS JOHN M",
+      "evidence_paraphrase": "The exact name and a nonshared protected identifier agree across the official records.",
+      "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army occupation data are not converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b754",
+          "locator_override": "PDF page 367, row 45"
+        },
+        {
+          "source_key": "army-bulk-b754",
+          "excerpt_override": "PHILLIPS JOHN M"
+        }
+      ]
+    },
+    {
+      "key": "identity-karl-philippi-b754",
+      "person_id": "fa19cb0a-fb2c-5c23-b2b8-7d9ff235ee39",
+      "claim_type": "identity",
+      "claim_text": "The indexed Karl Philippi row is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PHILIPPI KARL",
+      "evidence_paraphrase": "The exact name and a nonshared protected identifier agree across the official records.",
+      "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army occupation data are not converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b754",
+          "locator_override": "PDF page 367, row 36"
+        },
+        {
+          "source_key": "army-bulk-b754",
+          "excerpt_override": "PHILIPPI KARL"
+        }
+      ]
+    },
+    {
+      "key": "identity-stephanos-philippides-b754",
+      "person_id": "46ac8731-354f-5472-a80f-15341aea2637",
+      "claim_type": "identity",
+      "claim_text": "The indexed Stephanos J Philippides row is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PHILIPPIDES STEPHANOS J",
+      "evidence_paraphrase": "The exact name and a nonshared protected identifier agree across the official records.",
+      "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army occupation data are not converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b754",
+          "locator_override": "PDF page 367, row 37"
+        },
+        {
+          "source_key": "army-bulk-b754",
+          "excerpt_override": "PHILIPPIDES STEPHANOS J"
+        },
+        {
+          "source_key": "ossog-greek-groups-b754",
+          "support_type": "context_only",
+          "locator_override": "Greek operational-group roster"
+        }
+      ]
+    },
+    {
+      "key": "identity-conflict-jacques-philippot-b754",
+      "person_id": "a261de56-3f4d-5405-b89d-d7b796e34e81",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk candidate for Jacques L Philippot conflicts with the indexed name.",
+      "evidence_excerpt": "Jacques L Philippot",
+      "evidence_paraphrase": "A protected identifier agrees, but the official Army record names a different person, so the records are not merged.",
+      "identity_match_assessment": "Conflicting; protected-identifier agreement is outweighed by a completely different official name.",
+      "temporal_assessment": "The records are wartime, but identity must be resolved before any affiliation can be assigned.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The conflicting official name and full identifier remain private; Box 602 comparison is required.",
+      "sources": [
+        {
+          "source_key": "nara-index-b754",
+          "locator_override": "PDF page 367, row 38"
+        },
+        {
+          "source_key": "army-bulk-b754",
+          "support_type": "contradicts",
+          "locator_override": "Reviewed protected-identifier candidate"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "b9779493-18f0-5771-9a91-992b08658189",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name, CAF-2, OSS, employer, occupation, obituary, institutional, newspaper, and archival searches did not establish a unique person or prior employer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 602 for civilian-grade records, identifiers, and pre-OSS chronology.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ff22f73a-03ec-5cd1-811a-1faa5b139199",
+      "identity_status": "unresolved",
+      "identity_evidence": "Common-name, lieutenant commander, Navy, OSS, employer, obituary, institutional, and archival searches did not identify a unique officer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 602 for Navy identifiers, assignment history, and last civilian employer.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "c11c0a26-3124-5372-ace2-edb43456236d",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and variant searches did not establish identity or explain the literal truncated 'Also in B' note.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 602 and trace the 'Also in B' cross-reference.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "0710a8ff-887f-5165-a253-6d2f7479cd20",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Harvard directly identifies Julia Gray Sears Phelps and states that she joined OSS in September 1944; the G initial, exact indexed name, and chronology agree.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 602 and the printed extract note to identify her immediate pre-OSS occupation.",
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Julia Gray Sears Phelps",
+        "Julia Gray Phelps"
+      ]
+    },
+    {
+      "person_id": "1f389fd8-012b-5c3c-b061-27bd3355aeea",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Harvard identifies Reginald Henry Phelps, documents teaching and administration through 1944, and states that he joined OSS in September 1944.",
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Inspect Box 602 to confirm his precise administrative title at OSS entry.",
+      "archival_review_priority": "medium",
+      "name_variants": [
+        "Reginald Henry Phelps"
+      ]
+    },
+    {
+      "person_id": "88bed4b5-c2f7-59bc-b32a-f76dfb802bc2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The printed identifier is malformed or spreadsheet-rendered; common-name military leads could not be safely linked without exposing or normalizing it.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 602 and reconcile the literal private identifier before identity resolution.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "82a95c9e-559d-5c31-b577-c46efc24cc7d",
+      "identity_status": "unresolved",
+      "identity_evidence": "Common-name exact, OSS, employer, occupation, obituary, military, institutional, newspaper, and archival searches did not establish a unique identity.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 602 for identifiers and pre-OSS chronology.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "f7f657b5-27c5-585a-8049-f93d9876079c",
+      "identity_status": "probable",
+      "identity_evidence": "The distinctive maiden name and memoir title link Elizabeth Phenix Wiesner to OSS, but accessible sources omit the indexed middle initial and do not establish the Red Cross-to-OSS sequence.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 602 and the memoir to confirm the middle initial and immediate pre-OSS affiliation.",
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Elizabeth Phenix Wiesner"
+      ]
+    },
+    {
+      "person_id": "a3f926c6-d13d-588a-af01-dd3996d143c5",
+      "identity_status": "unresolved",
+      "identity_evidence": "Common-name captain, OSS, military, employer, occupation, obituary, institutional, and archival searches did not establish a unique person.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 602 for officer identifiers and pre-OSS chronology.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "119c9d09-b590-5439-b8c4-1aff574c75e4",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A scholarly article directly identifies the distinctive Albert J. Phiebig as a German émigré and OSS colleague in the same division as Franz Neumann.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 602 and the Albert Phiebig archival collections for his immediate pre-OSS employment chronology.",
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Albert Jakob Phiebig"
+      ]
+    },
+    {
+      "person_id": "105f93d6-e3c7-5feb-8e80-d31d0ed3c4e7",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name, OSS, military, employer, occupation, obituary, institutional, and archival searches produced several namesakes but no direct bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 602 for identifiers and pre-OSS chronology.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "9983706b-352a-59be-8ee2-374f571e5c58",
+      "identity_status": "unresolved",
+      "identity_evidence": "Distinctive-name and variant searches produced no reliable person-specific wartime source.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 602 for identifiers, name variants, and pre-OSS chronology.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "fa19cb0a-fb2c-5c23-b2b8-7d9ff235ee39",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 602 for civilian occupation and pre-OSS assignment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "46ac8731-354f-5472-a80f-15341aea2637",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army record; a secondary OSS roster corroborates Greek Group II service.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 602 for his pre-Army civilian occupation and recruitment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a261de56-3f4d-5405-b89d-d7b796e34e81",
+      "identity_status": "conflicting",
+      "identity_evidence": "A protected identifier agrees with an official Army bulk record bearing a completely different name; the records remain separate.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare Box 602 against the official Army record before resolving identity or employment.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "c9949871-bc62-5639-bb3d-a93c3705997f",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army record; a secondary OSS roster corroborates Greek Group IV service.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 602 for his pre-Army civilian occupation and recruitment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "56255a53-016a-52ea-846d-deabda4e026f",
+      "identity_status": "unresolved",
+      "identity_evidence": "A Harvard archival lead concerns a diplomat's daughter but does not directly establish that namesake as the indexed OSS person.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 602 for identifiers before considering any Beatrice Phillips biography.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "1efafd71-6387-5ba5-b731-469586069bd1",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 602 for civilian occupation and pre-OSS assignment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7f52a572-3194-5d82-a503-27c6007eb25d",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 602 for civilian occupation and pre-OSS assignment chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8f5250c8-2556-5305-8ce3-5b6c763fb74a",
+      "identity_status": "unresolved",
+      "identity_evidence": "Common-name CAF-11, OSS, employer, occupation, obituary, institutional, and archival searches did not establish a unique civilian employee.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 602 for civilian-grade records and prior employer.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "8e20a25c-4582-5388-9166-b4c9c46a74dd",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The common name and French note produced multiple military and foreign-operation leads without enough corroborators to select one.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect Box 603 and the French note for nationality, service identifiers, and prior occupation.",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ab0ca33f-84bc-50f0-8fb9-0f44d399c9d8",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 603 and the printed extract note for civilian occupation and pre-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "497fd6ab-0158-5158-990b-62087a760631",
+      "identity_status": "unresolved",
+      "identity_evidence": "Common-name exact, OSS, military, employer, occupation, obituary, institutional, and archival searches did not establish a unique person.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 603 for identifiers and pre-OSS chronology.",
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "agnes-g-phelan-protocol-b754",
+      "person_id": "b9779493-18f0-5771-9a91-992b08658189",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Agnes G Phelan exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "civilian_grade_protocol_batch_754",
+      "started_at": "2026-10-12T19:00:00-04:00",
+      "completed_at": "2026-10-12T20:25:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Searches produced no source with a direct identity or employer bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA and LoC cohort checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 602 for civilian-grade records, identifiers, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b754-v1"
+    },
+    {
+      "key": "charles-e-phelps-protocol-b754",
+      "person_id": "ff22f73a-03ec-5cd1-811a-1faa5b139199",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Charles E Phelps exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "common_naval_officer_protocol_batch_754",
+      "started_at": "2026-10-12T19:00:00-04:00",
+      "completed_at": "2026-10-12T20:25:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Same-name military and burial results lacked the indexed lieutenant-commander and OSS bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA and LoC cohort checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 602 for Navy identifiers, assignment history, and last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b754-v1"
+    },
+    {
+      "key": "flora-l-phelps-protocol-b754",
+      "person_id": "c11c0a26-3124-5372-ace2-edb43456236d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Flora L Phelps exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "incomplete_note_protocol_batch_754",
+      "started_at": "2026-10-12T19:00:00-04:00",
+      "completed_at": "2026-10-12T20:25:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "No result supplied a direct OSS or archival cross-reference bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA and LoC cohort checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 602 and trace the 'Also in B' cross-reference.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b754-v1"
+    },
+    {
+      "key": "julia-g-phelps-protocol-b754",
+      "person_id": "0710a8ff-887f-5165-a253-6d2f7479cd20",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Julia G Phelps exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "institutional_identity_student_protocol_batch_754",
+      "started_at": "2026-10-12T19:00:00-04:00",
+      "completed_at": "2026-10-12T20:25:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Radcliffe student status accepted; postwar teaching and museum roles excluded from pre-OSS employment.",
+      "research_notes": "Radcliffe student status is documented prewar; no reliable immediate pre-OSS employer has yet been identified. CIA and LoC cohort checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 602 and the printed extract note to identify her immediate pre-OSS occupation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b754-v1"
+    },
+    {
+      "key": "reginald-h-phelps-protocol-b754",
+      "person_id": "1f389fd8-012b-5c3c-b061-27bd3355aeea",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Reginald H Phelps exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "institutional_immediate_employer_protocol_batch_754",
+      "started_at": "2026-10-12T19:00:00-04:00",
+      "completed_at": "2026-10-12T20:25:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Harvard evidence accepted; unrelated same-name and commercial results excluded.",
+      "research_notes": "Harvard is strongly date-bounded as the immediate pre-OSS affiliation and last civilian employer. CIA and LoC cohort checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 602 to confirm his precise administrative title at OSS entry.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b754-v1"
+    },
+    {
+      "key": "william-l-phelps-protocol-b754",
+      "person_id": "88bed4b5-c2f7-59bc-b32a-f76dfb802bc2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; William L Phelps exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "malformed_identifier_protocol_batch_754",
+      "started_at": "2026-10-12T19:00:00-04:00",
+      "completed_at": "2026-10-12T20:25:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "A same-name rescue-squadron lead lacked identifier and OSS corroboration.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA and LoC cohort checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 602 and reconcile the literal private identifier before identity resolution.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b754-v1"
+    },
+    {
+      "key": "william-r-phelps-protocol-b754",
+      "person_id": "82a95c9e-559d-5c31-b577-c46efc24cc7d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; William R Phelps exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "common_name_protocol_batch_754",
+      "started_at": "2026-10-12T19:00:00-04:00",
+      "completed_at": "2026-10-12T20:25:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Modern and genealogy namesakes lacked a direct wartime OSS bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA and LoC cohort checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 602 for identifiers and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b754-v1"
+    },
+    {
+      "key": "elizabeth-q-phenix-protocol-b754",
+      "person_id": "f7f657b5-27c5-585a-8049-f93d9876079c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Elizabeth Q Phenix exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "memoir_identity_protocol_batch_754",
+      "started_at": "2026-10-12T19:00:00-04:00",
+      "completed_at": "2026-10-12T20:25:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Memoir and scholarly references accepted for identity context; commercial genealogy and bookseller pages excluded.",
+      "research_notes": "A probable memoir identity is documented, but Red Cross-to-OSS sequence and any employer relationship remain unresolved. CIA and LoC cohort checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 602 and the memoir to confirm the middle initial and immediate pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b754-v1"
+    },
+    {
+      "key": "richard-phenix-protocol-b754",
+      "person_id": "a3f926c6-d13d-588a-af01-dd3996d143c5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Richard Phenix exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "common_officer_protocol_batch_754",
+      "started_at": "2026-10-12T19:00:00-04:00",
+      "completed_at": "2026-10-12T20:25:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Searches returned modern namesakes and unrelated historical uses of Phenix.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA and LoC cohort checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 602 for officer identifiers and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b754-v1"
+    },
+    {
+      "key": "albert-j-phiebig-protocol-b754",
+      "person_id": "119c9d09-b590-5439-b8c4-1aff574c75e4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Albert J Phiebig exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "distinctive_scholarly_identity_protocol_batch_754",
+      "started_at": "2026-10-12T19:00:00-04:00",
+      "completed_at": "2026-10-12T20:25:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Scholarly OSS identity evidence accepted; discovery-only biography and postwar bookselling excluded as employer proof.",
+      "research_notes": "A high-confidence OSS identity is documented; discovery-only prewar employment leads remain unpublished pending archival confirmation. CIA and LoC cohort checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 602 and the Albert Phiebig archival collections for his immediate pre-OSS employment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b754-v1"
+    },
+    {
+      "key": "george-f-philip-protocol-b754",
+      "person_id": "105f93d6-e3c7-5feb-8e80-d31d0ed3c4e7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; George F Philip exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "common_name_protocol_batch_754",
+      "started_at": "2026-10-12T19:00:00-04:00",
+      "completed_at": "2026-10-12T20:25:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Genealogy and burial leads lacked OSS corroboration.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA and LoC cohort checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 602 for identifiers and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b754-v1"
+    },
+    {
+      "key": "hallie-l-philippi-protocol-b754",
+      "person_id": "9983706b-352a-59be-8ee2-374f571e5c58",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Hallie L Philippi exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "distinctive_name_protocol_batch_754",
+      "started_at": "2026-10-12T19:00:00-04:00",
+      "completed_at": "2026-10-12T20:25:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Search results confused the surname with the West Virginia place name.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA and LoC cohort checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 602 for identifiers, name variants, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b754-v1"
+    },
+    {
+      "key": "karl-philippi-protocol-b754",
+      "person_id": "fa19cb0a-fb2c-5c23-b2b8-7d9ff235ee39",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Karl Philippi exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "army_identifier_protocol_batch_754",
+      "started_at": "2026-10-12T19:00:00-04:00",
+      "completed_at": "2026-10-12T20:25:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Official identity evidence accepted; German military namesakes rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The official Army match establishes identity only. CIA and LoC cohort checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 602 for civilian occupation and pre-OSS assignment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b754-v1"
+    },
+    {
+      "key": "stephanos-j-philippides-protocol-b754",
+      "person_id": "46ac8731-354f-5472-a80f-15341aea2637",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Stephanos J Philippides exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "army_identifier_operational_group_protocol_batch_754",
+      "started_at": "2026-10-12T19:00:00-04:00",
+      "completed_at": "2026-10-12T20:25:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Identity and operational-group corroboration accepted; neither establishes a pre-OSS employer.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The official Army match establishes identity only. CIA and LoC cohort checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 602 for his pre-Army civilian occupation and recruitment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b754-v1"
+    },
+    {
+      "key": "jacques-l-philippot-protocol-b754",
+      "person_id": "a261de56-3f4d-5405-b89d-d7b796e34e81",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Jacques L Philippot exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "protected_identifier_conflict_protocol_batch_754",
+      "started_at": "2026-10-12T19:00:00-04:00",
+      "completed_at": "2026-10-12T20:25:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "The name conflict prevents assignment despite identifier agreement.",
+      "research_notes": "Identity conflict preserved; no employer claim is permitted until the records are reconciled. CIA and LoC cohort checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Compare Box 602 against the official Army record before resolving identity or employment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b754-v1"
+    },
+    {
+      "key": "alexander-p-phillips-protocol-b754",
+      "person_id": "c9949871-bc62-5639-bb3d-a93c3705997f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Alexander P Phillips exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "army_identifier_operational_group_protocol_batch_754",
+      "started_at": "2026-10-12T19:00:00-04:00",
+      "completed_at": "2026-10-12T20:25:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Identity and operational-group corroboration accepted; no employer evidence found.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The official Army match establishes identity only. CIA and LoC cohort checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 602 for his pre-Army civilian occupation and recruitment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b754-v1"
+    },
+    {
+      "key": "beatrice-phillips-protocol-b754",
+      "person_id": "56255a53-016a-52ea-846d-deabda4e026f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Beatrice Phillips exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "common_name_protocol_batch_754",
+      "started_at": "2026-10-12T19:00:00-04:00",
+      "completed_at": "2026-10-12T20:25:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "The plausible Harvard family lead lacked a direct personal OSS bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA and LoC cohort checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 602 for identifiers before considering any Beatrice Phillips biography.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b754-v1"
+    },
+    {
+      "key": "earl-l-phillips-protocol-b754",
+      "person_id": "1efafd71-6387-5ba5-b731-469586069bd1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Earl L Phillips exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "army_identifier_protocol_batch_754",
+      "started_at": "2026-10-12T19:00:00-04:00",
+      "completed_at": "2026-10-12T20:25:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Official identity evidence accepted; burial and namesake results added no employer evidence.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The official Army match establishes identity only. CIA and LoC cohort checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 602 for civilian occupation and pre-OSS assignment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b754-v1"
+    },
+    {
+      "key": "frederick-l-phillips-protocol-b754",
+      "person_id": "7f52a572-3194-5d82-a503-27c6007eb25d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Frederick L Phillips exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "army_identifier_protocol_batch_754",
+      "started_at": "2026-10-12T19:00:00-04:00",
+      "completed_at": "2026-10-12T20:25:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Official identity evidence accepted; genealogy namesakes were excluded.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The official Army match establishes identity only. CIA and LoC cohort checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 602 for civilian occupation and pre-OSS assignment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b754-v1"
+    },
+    {
+      "key": "george-c-phillips-protocol-b754",
+      "person_id": "8f5250c8-2556-5305-8ce3-5b6c763fb74a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; George C Phillips exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "civilian_grade_protocol_batch_754",
+      "started_at": "2026-10-12T19:00:00-04:00",
+      "completed_at": "2026-10-12T20:25:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Searches produced unrelated namesakes without an OSS or CAF-11 bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA and LoC cohort checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 602 for civilian-grade records and prior employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b754-v1"
+    },
+    {
+      "key": "harry-p-phillips-protocol-b754",
+      "person_id": "8e20a25c-4582-5388-9166-b4c9c46a74dd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Harry P Phillips exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "foreign_note_common_name_protocol_batch_754",
+      "started_at": "2026-10-12T19:00:00-04:00",
+      "completed_at": "2026-10-12T20:25:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "No candidate had two corroborating identifiers beyond the name.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA and LoC cohort checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 603 and the French note for nationality, service identifiers, and prior occupation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b754-v1"
+    },
+    {
+      "key": "john-m-phillips-protocol-b754",
+      "person_id": "ab0ca33f-84bc-50f0-8fb9-0f44d399c9d8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; John M Phillips exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "army_identifier_incomplete_note_protocol_batch_754",
+      "started_at": "2026-10-12T19:00:00-04:00",
+      "completed_at": "2026-10-12T20:25:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Official identity evidence accepted; common namesakes and postwar records excluded.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The official Army match establishes identity only. CIA and LoC cohort checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 603 and the printed extract note for civilian occupation and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b754-v1"
+    },
+    {
+      "key": "john-s-phillips-protocol-b754",
+      "person_id": "497fd6ab-0158-5158-990b-62087a760631",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; John S Phillips exact-name and variants; OSS; CIA-domain; employer; occupation; obituary; military; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "common_name_protocol_batch_754",
+      "started_at": "2026-10-12T19:00:00-04:00",
+      "completed_at": "2026-10-12T20:25:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "World War I, Navy award, cemetery, legal-directory, and other namesakes lacked a direct OSS bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA and LoC cohort checks encountered source-access errors and were not counted as successful searches.",
+      "next_action": "Inspect Box 603 for identifiers and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b754-v1"
+    }
+  ]
+}
