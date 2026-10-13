@@ -1,5 +1,37 @@
 # Research status
 
+Batch 764 completed PDF page 372, rows 1-28, from **Theadfield L Poehl**
+through **Robert E Pollack**, with terminal dispositions for all 28 separately
+preserved people and rows. The printed page was visually checked at 300 dpi;
+the unusual indexed spelling Julian Pokrwyka is preserved, while Pokrywka is
+recorded only as a search alias. Fourteen exact or core-name official Army
+matches establish identity at high confidence only. Cornelius Poillon's
+unexplained Army-source token, Demetrios J Polemis's omitted middle initial,
+and Leonid Polevoy's Army-added middle initial remain visible source
+discrepancies; Army occupation and grade codes are excluded. An official CIA
+history establishes Thomas Polgar at high identity confidence, and a reputable
+biographical chronology supports a qualified, medium-confidence immediate
+pre-OSS **military assignment** with the U.S. Army. No civilian employer is
+claimed. The Jessie J Poesch art historian and the later Admiral John D
+Poindexter are withheld as unbridged or age-incompatible namesakes. All 28
+people have `requires_archival_review`. The oil-company category remains
+evidence-scoped to **nine people across 11 historically named companies**.
+The CIA and Library of Congress cohort adapters recorded source-access
+failures; no authenticated NARA Catalog request was made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **10,581/23,939 (44.1998%)**;
+verified-employer coverage is **347/23,939 (1.4495%)**;
+verified-affiliation coverage is **783/23,939 (3.2708%)**; archival-review
+coverage is **9,039/23,939 (37.7585%)**. There are **13,353** `not_started`
+people and **536** possible-duplicate groups. SQLite retains **19,431**
+attempts or plans and **6,727** claims: 1,402 confirmed, 3,235 high, 1,578
+medium, 198 low, 312 conflicting, and two unresolved. It has **5,887**
+citation records and **3,022** unique source documents. The public projection
+has **2,558** affiliations, **900** organizations, **4,663** sources, and
+**6,520** claims. Full-index historical research remains unfinished. The next
+boundary is PDF page 372, row 29, **Rose S Pollack**.
+
 Batch 763 completed PDF page 371, rows 19-46, from **Karl J Platz**
 through **Ophelia Poe**, with terminal dispositions for all 27 people
 represented by 28 separately preserved rows. The printed page was visually
