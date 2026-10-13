@@ -1,5 +1,40 @@
 # Research status
 
+Batch 763 completed PDF page 371, rows 19-46, from **Karl J Platz**
+through **Ophelia Poe**, with terminal dispositions for all 27 people
+represented by 28 separately preserved rows. The printed page was visually
+checked at 300 dpi. Richard F Plunkett's two rows remain separately
+recoverable while linked to one high-confidence person entity. Official NARA
+and institutional sources establish James S Plaut's immediate pre-OSS
+military assignment with the Office of Naval Intelligence and his last
+civilian employment as director of the Boston Institute of Modern Art.
+Frederick R Pleasants has high-confidence immediate and last-civilian
+employment as Assistant to the Director of Harvard's Peabody Museum in
+1940-1942. An official OSS War Report establishes Delia T Pleasants at high
+identity confidence without being converted into pre-OSS employment. Seven
+people receive accepted official Army identity matches only. Karl J Platz,
+Henry P Plourde, Andy N Podolak, and Charles M Poe retain explicit identity
+conflicts; no mismatched Army metadata is transferred. Twenty-one people have
+`requires_archival_review`, four have `conflicting_sources`, and two have
+`verified_employer_found`. The oil-company category remains evidence-scoped
+to **nine people across 11 historically named companies**. The CIA and
+Library of Congress cohort adapters recorded source-access failures; no
+authenticated NARA Catalog request was made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **10,553/23,939 (44.0829%)**;
+verified-employer coverage is **347/23,939 (1.4495%)**;
+verified-affiliation coverage is **783/23,939 (3.2708%)**; archival-review
+coverage is **9,011/23,939 (37.6415%)**. There are **13,381** `not_started`
+people and **536** possible-duplicate groups. SQLite retains **19,401**
+attempts or plans and **6,711** claims: 1,402 confirmed, 3,220 high, 1,577
+medium, 198 low, 312 conflicting, and two unresolved. It has **5,883**
+citation records and **3,019** unique source documents. The public projection
+has **2,557** affiliations, **899** organizations, **4,659** sources, and
+**6,504** claims. Full-index historical research remains unfinished. The next
+boundary is PDF page 372, row 1, **Theadfield L Poehl**, pending visual
+confirmation of that page.
+
 Batch 762 completed PDF page 371, rows 1-18, from **Vincent Pizutto**
 through **Robert S Platt**, with a terminal disposition for all 18 people. The
 printed page was visually checked at 300 dpi and confirms that its first row
