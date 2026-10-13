@@ -71,7 +71,16 @@ is page 376, row 25, Philip P Pratt.
 
 ## Publication
 
-Publication is pending the release commit, hosted Test and Deploy GitHub Pages
-workflows, and immutable live verification. This section will be replaced with
-the exact commit, workflow URLs, completion times, manifest digest, and verified
-route counts after deployment succeeds.
+Release commit `2a058b58e74555aa5de69a54589b3ac632ac3dc9` was pushed to
+`main` on 2026-10-13. The hosted
+[Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38385021828)
+completed successfully at 2026-10-13T10:45:41Z, and the
+[Deploy GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38385022006)
+completed successfully at 2026-10-13T10:43:00Z.
+
+The immutable live verifier checked the public site against that exact commit:
+all 67 manifest assets and 109,029,191 bytes matched SHA-256 manifest digest
+`85042250f81995675852fbc36997b1f955fd2bae705bf61990c3365649212e5a`;
+all eight core routes, all 32 source-register pages, and all 24 Batch 772
+profile routes returned their expected public content. The verified public URL
+is <https://therealjameswilson.github.io/before-oss/>.
