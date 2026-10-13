@@ -1,0 +1,266 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 779 historical and identity review",
+  "sources": [
+    {
+      "key": "nara-index-b779",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 624",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 379, rows 24-46; visually checked against a 300 dpi render",
+      "access_date": "2026-10-13",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. The literal notes 'Ind. Arm' and 'French' are preserved without expansion. Full service or officer numbers remain private and are excluded from public claims and downloads."
+    },
+    {
+      "key": "army-bulk-b779",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department. Adjutant General's Office",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946",
+      "locator": "Ten reviewed protected-identifier identity matches",
+      "access_date": "2026-10-13",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Selective Service System, Record Group 147",
+      "rights_notes": "Official unrestricted bulk data, not a Catalog API response. Full protected identifiers, coded occupations, grade codes, and raw records are not published or retained."
+    },
+    {
+      "key": "nps-psoinos-b779",
+      "stable_url": "https://home.nps.gov/articles/oss-in-action-the-pacific-and-the-far-east.htm",
+      "title": "OSS in Action: The Pacific and the Far East",
+      "author_creator": "National Park Service",
+      "repository_publisher": "U.S. National Park Service",
+      "locator": "China, Peking mission discussion",
+      "access_date": "2026-10-13",
+      "source_quality": "A_direct_official",
+      "collection_name": "OSS Training in the National Parks and Service Abroad in World War II",
+      "rights_notes": "The official history identifies George N. Psoinos as a Greek-American radio operator in the Peking mission. It does not document a pre-OSS employer."
+    },
+    {
+      "key": "notre-dame-puhpadhana-b779",
+      "stable_url": "https://archives.nd.edu/Scholastic/VOL_0077/VOL_0077_ISSUE_0003.pdf",
+      "archival_identifier": "The Notre Dame Scholastic, vol. 77, no. 3",
+      "title": "The Notre Dame Scholastic",
+      "repository_publisher": "University of Notre Dame Archives",
+      "publication_record_date": "1942-10-09",
+      "locator": "College Parade, profile of Udom Puhpadhana, printed page 4",
+      "access_date": "2026-10-13",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "University of Notre Dame Scholastic archive",
+      "rights_notes": "The contemporary institutional publication identifies the distinctively named Thai student at Miami University. Student status is not employment."
+    },
+    {
+      "key": "minnesota-puhpadhana-b779",
+      "stable_url": "https://conservancy.umn.edu/bitstreams/103feb0e-ce0c-4089-93f1-cbdbaf0573dc/download",
+      "archival_identifier": "Minnesota Alumni, February 1946",
+      "title": "Minnesota Alumni",
+      "repository_publisher": "University of Minnesota",
+      "publication_record_date": "1946-02",
+      "locator": "Alumni news item for Udom Puhpadhana",
+      "access_date": "2026-10-13",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "University of Minnesota Digital Conservancy",
+      "rights_notes": "The institutional alumni report identifies Udom Puhpadhana and describes his Free Thai military service. It is used to corroborate identity, not to infer employment."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "miami-university-b779",
+      "canonical_name": "Miami University",
+      "historical_name": "Miami University",
+      "aliases": ["Miami University of Ohio"],
+      "organization_type": "university",
+      "sector": "student",
+      "city": "Oxford",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "normalization_notes": "The contemporary institutional name is preserved. Udom Puhpadhana's relationship was student status, not employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "udom-puhpadhana-miami-b779",
+      "person_id": "ec85969c-7715-5b56-b275-fd2ecce5e352",
+      "organization_key": "miami-university-b779",
+      "organization_name_as_found": "Miami University",
+      "role_title": "student",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1942",
+      "date_precision": "A contemporary October 1942 institutional profile identifies him as a Miami University student; enrollment dates are not supplied.",
+      "city": "Oxford",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The distinctive exact name, Thai background, and independent University of Minnesota account of later Free Thai service support the identity. The source does not establish that student status immediately preceded OSS service."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-alvin-g-psinas-b779", "person_id": "969b2dca-6878-535c-825c-b30431c25aa9", "claim_type": "identity",
+      "claim_text": "The official Army bulk record supports a high-confidence identity match for indexed Alvin G Psinas.",
+      "evidence_excerpt": "PSINAS ALVIN G", "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High-confidence official name and nonshared protected-identifier match.", "temporal_assessment": "Identity and Army service only; the coded occupation is not employer evidence.",
+      "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "No employer is inferred from the Army occupation code.",
+      "sources": [{"source_key":"nara-index-b779","locator_override":"PDF page 379, row 24"},{"source_key":"army-bulk-b779","excerpt_override":"PSINAS ALVIN G"}]
+    },
+    {
+      "key": "identity-alexander-psomas-b779", "person_id": "ec019661-ce81-5240-a139-d758bc66769a", "claim_type": "identity",
+      "claim_text": "The official Army bulk record supports a high-confidence identity match for indexed Alexander Psomas.",
+      "evidence_excerpt": "PSOMAS ALEXANDER", "evidence_paraphrase": "The indexed surname and given name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High-confidence official name and nonshared protected-identifier match.", "temporal_assessment": "Identity and Army service only; the coded occupation is not employer evidence.",
+      "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "No employer is inferred from the Army occupation code.",
+      "sources": [{"source_key":"nara-index-b779","locator_override":"PDF page 379, row 26"},{"source_key":"army-bulk-b779","excerpt_override":"PSOMAS ALEXANDER"}]
+    },
+    {
+      "key": "identity-alexander-l-puccinelli-b779", "person_id": "70017483-ee7a-5488-9f22-881fede30712", "claim_type": "identity",
+      "claim_text": "The official Army bulk record supports a high-confidence identity match for indexed Alexander L Puccinelli.",
+      "evidence_excerpt": "PUCCINELLI ALEXANDER L", "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High-confidence official name and nonshared protected-identifier match.", "temporal_assessment": "Identity and Army service only; a postwar district-attorney record is not pre-OSS employer evidence.",
+      "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "No employer is inferred from the Army occupation code or postwar office.",
+      "sources": [{"source_key":"nara-index-b779","locator_override":"PDF page 379, row 29"},{"source_key":"army-bulk-b779","excerpt_override":"PUCCINELLI ALEXANDER L"}]
+    },
+    {
+      "key": "identity-edward-w-pucel-b779", "person_id": "05e4c0c0-b0e9-56b7-bdf7-38ebf335c841", "claim_type": "identity",
+      "claim_text": "The official Army bulk record supports a high-confidence identity match for indexed Edward W Pucel.",
+      "evidence_excerpt": "PUCEL EDWARD W", "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High-confidence official name and nonshared protected-identifier match.", "temporal_assessment": "Identity and Army service only; the coded occupation is not employer evidence.",
+      "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "No employer is inferred from the Army occupation code.",
+      "sources": [{"source_key":"nara-index-b779","locator_override":"PDF page 379, row 30"},{"source_key":"army-bulk-b779","excerpt_override":"PUCEL EDWARD W"}]
+    },
+    {
+      "key": "identity-tode-puchovich-b779", "person_id": "87acebde-5eb2-5027-95ab-0aeb429c38cc", "claim_type": "identity",
+      "claim_text": "The official Army bulk record supports a high-confidence identity match for indexed Tode Puchovich.",
+      "evidence_excerpt": "PUCHOVICH TODE", "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High-confidence official name and nonshared protected-identifier match.", "temporal_assessment": "Identity and Army service only; the coded occupation is not employer evidence.",
+      "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "No employer is inferred from the Army occupation code.",
+      "sources": [{"source_key":"nara-index-b779","locator_override":"PDF page 379, row 32"},{"source_key":"army-bulk-b779","excerpt_override":"PUCHOVICH TODE"}]
+    },
+    {
+      "key": "identity-arthur-pugh-b779", "person_id": "c593a385-853a-5a83-8f0c-619914db0e8f", "claim_type": "identity",
+      "claim_text": "The official Army bulk record supports a high-confidence identity match for indexed Arthur Pugh.",
+      "evidence_excerpt": "PUGH ARTHUR", "evidence_paraphrase": "The indexed surname and given name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High-confidence official name and nonshared protected-identifier match.", "temporal_assessment": "Identity and Army service only; the coded occupation is not employer evidence.",
+      "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "No employer is inferred from the Army occupation code.",
+      "sources": [{"source_key":"nara-index-b779","locator_override":"PDF page 379, row 36"},{"source_key":"army-bulk-b779","excerpt_override":"PUGH ARTHUR"}]
+    },
+    {
+      "key": "identity-leon-l-pugh-b779", "person_id": "a9485e71-de64-5e2e-8588-04f7bec3d790", "claim_type": "identity",
+      "claim_text": "The official Army bulk record supports a high-confidence identity match for indexed Leon L Pugh.",
+      "evidence_excerpt": "PUGH LEON L", "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High-confidence official name and nonshared protected-identifier match.", "temporal_assessment": "Identity and Army service only; the coded occupation is not employer evidence.",
+      "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "No employer is inferred from the Army occupation code.",
+      "sources": [{"source_key":"nara-index-b779","locator_override":"PDF page 379, row 37"},{"source_key":"army-bulk-b779","excerpt_override":"PUGH LEON L"}]
+    },
+    {
+      "key": "identity-vincent-puglisi-b779", "person_id": "bc513fee-afb1-5a5a-a314-d38135a50cff", "claim_type": "identity",
+      "claim_text": "The official Army bulk record supports a high-confidence identity match for indexed Vincent Puglisi.",
+      "evidence_excerpt": "PUGLISI VINCENT", "evidence_paraphrase": "The indexed surname and given name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High-confidence official name and nonshared protected-identifier match.", "temporal_assessment": "Identity and Army service only; the coded occupation is not employer evidence.",
+      "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "No employer is inferred from the Army occupation code.",
+      "sources": [{"source_key":"nara-index-b779","locator_override":"PDF page 379, row 42"},{"source_key":"army-bulk-b779","excerpt_override":"PUGLISI VINCENT"}]
+    },
+    {
+      "key": "identity-chester-j-pulaski-b779", "person_id": "d0887e38-4f39-51b8-a6fc-5828b2b8474c", "claim_type": "identity",
+      "claim_text": "The official Army bulk record supports a high-confidence identity match for indexed Chester J Pulaski.",
+      "evidence_excerpt": "PULASKI CHESTER J", "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High-confidence official name and nonshared protected-identifier match.", "temporal_assessment": "Identity and Army service only; the coded occupation is not employer evidence.",
+      "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "No employer is inferred from the Army occupation code.",
+      "sources": [{"source_key":"nara-index-b779","locator_override":"PDF page 379, row 45"},{"source_key":"army-bulk-b779","excerpt_override":"PULASKI CHESTER J"}]
+    },
+    {
+      "key": "identity-michael-c-puleo-b779", "person_id": "879ead91-5471-59f4-a470-766b0ba3c6a5", "claim_type": "identity",
+      "claim_text": "The official Army bulk record supports a high-confidence identity match for indexed Michael C Puleo.",
+      "evidence_excerpt": "PULEO MICHAEL C", "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High-confidence official name and nonshared protected-identifier match.", "temporal_assessment": "Identity and Army service only; the printed note 'French' is not employer evidence.",
+      "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "The literal note is preserved without interpreting it as nationality or employer.",
+      "sources": [{"source_key":"nara-index-b779","locator_override":"PDF page 379, row 46"},{"source_key":"army-bulk-b779","excerpt_override":"PULEO MICHAEL C"}]
+    },
+    {
+      "key": "identity-george-n-psoinos-b779", "person_id": "e9eff6f1-1c20-55bd-bc98-3c6e6520a54a", "claim_type": "identity",
+      "claim_text": "National Park Service history supports a high-confidence match for indexed George N Psoinos as the Greek-American radio operator on an OSS mission to Peking.",
+      "evidence_excerpt": "radio operators George N. Psoinos and Michael T. Angelos", "evidence_paraphrase": "The official history gives the distinctive exact name, OSS mission, and radio role.",
+      "identity_match_assessment": "High-confidence distinctive exact-name and direct OSS-assignment match in an official history.", "temporal_assessment": "Wartime OSS role only; no pre-OSS employer is established.",
+      "source_quality": "A_direct_official", "claim_confidence": "high", "publication_status": "published", "match_notes": "Radio operator is a wartime role, not evidence of a pre-OSS employer.",
+      "sources": [{"source_key":"nara-index-b779","locator_override":"PDF page 379, row 25"},{"source_key":"nps-psoinos-b779"}]
+    },
+    {
+      "key": "identity-udom-puhpadhana-b779", "person_id": "ec85969c-7715-5b56-b275-fd2ecce5e352", "claim_type": "identity",
+      "claim_text": "Two institutional publications support a high-confidence match for indexed Udom Puhpadhana, a Thai student who later served with the Free Thai movement.",
+      "evidence_excerpt": "Udom (call me George) Puhpadhana", "evidence_paraphrase": "The distinctive exact name, Thai background, U.S. education, and later Free Thai service form a coherent chronology.",
+      "identity_match_assessment": "High-confidence distinctive exact-name, nationality, education, and wartime-service match across two institutional sources.", "temporal_assessment": "The sources document student status in 1942 and later wartime service; they do not establish the exact OSS entry date.",
+      "source_quality": "B_authoritative_institutional", "claim_confidence": "high", "publication_status": "published", "match_notes": "Student attendance and military service are kept separate from employment.",
+      "sources": [{"source_key":"nara-index-b779","locator_override":"PDF page 379, row 43"},{"source_key":"notre-dame-puhpadhana-b779"},{"source_key":"minnesota-puhpadhana-b779"}]
+    },
+    {
+      "key": "udom-puhpadhana-miami-claim-b779", "person_id": "ec85969c-7715-5b56-b275-fd2ecce5e352", "affiliation_key": "udom-puhpadhana-miami-b779", "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Udom Puhpadhana was a student at Miami University in 1942.",
+      "evidence_excerpt": "Udom ... Puhpadhana, a Miami University student", "evidence_paraphrase": "A contemporary university publication identifies Puhpadhana's student relationship and institution.",
+      "identity_match_assessment": "The distinctive exact name and independent wartime chronology support a high-confidence match.", "temporal_assessment": "Documented prewar student affiliation; not shown to be immediate pre-OSS and not employment.",
+      "source_quality": "B_authoritative_institutional", "claim_confidence": "high", "publication_status": "published", "match_notes": "Miami University is not classified as an employer.",
+      "sources": [{"source_key":"notre-dame-puhpadhana-b779","locator_override":"Printed page 4"}]
+    }
+  ],
+  "person_updates": [
+    {"person_id":"969b2dca-6878-535c-825c-b30431c25aa9","identity_status":"high_confidence","identity_evidence":"The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.","personnel_category":"enlisted_army_personnel","commissioned_officer":false,"manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 624 for recruitment chronology and last civilian employer; do not treat the Army occupation code as employer evidence.","personnel_file_digitized":false,"personnel_file_reviewed":false,"nara_catalog_id":"1263923","archival_review_priority":"critical"},
+    {"person_id":"e9eff6f1-1c20-55bd-bc98-3c6e6520a54a","identity_status":"high_confidence","identity_evidence":"National Park Service history gives the distinctive exact name, Greek-American background, radio role, and OSS Peking mission.","personnel_category":"enlisted_naval_personnel","commissioned_officer":false,"manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 624 for naval status, recruitment chronology, and last civilian employer.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"ec019661-ce81-5240-a139-d758bc66769a","identity_status":"high_confidence","identity_evidence":"The indexed surname and given name and a nonshared protected identifier agree with the official Army bulk record.","personnel_category":"enlisted_army_personnel","commissioned_officer":false,"manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 624 for recruitment chronology and last civilian employer; do not treat the Army occupation code as employer evidence.","personnel_file_digitized":false,"personnel_file_reviewed":false,"nara_catalog_id":"1263923","archival_review_priority":"critical"},
+    {"person_id":"4c1e411f-4c25-5533-b3a4-7b52f23d7bfa","identity_status":"unresolved","identity_evidence":"Exact-name, OSS, employer, occupation, obituary, institutional, newspaper, and archival searches produced no reliable identity bridge beyond the index.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 624 for identity, personnel status, recruitment chronology, and employer.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"6cd5a2dd-cb25-51f1-bc6d-30dc4bd8ed5b","identity_status":"unresolved","identity_evidence":"A postwar Signal Oil directory entry could not be bridged to the OSS row and is temporally irrelevant to the pre-OSS question.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 624 for identity, recruitment chronology, and last civilian employer; do not backdate the postwar Signal Oil namesake.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"70017483-ee7a-5488-9f22-881fede30712","identity_status":"high_confidence","identity_evidence":"The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.","personnel_category":"enlisted_army_personnel","commissioned_officer":false,"manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 624 for recruitment chronology and pre-enlistment employer; the 1946 district-attorney record is postwar.","personnel_file_digitized":false,"personnel_file_reviewed":false,"nara_catalog_id":"1263923","archival_review_priority":"critical"},
+    {"person_id":"05e4c0c0-b0e9-56b7-bdf7-38ebf335c841","identity_status":"high_confidence","identity_evidence":"The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.","personnel_category":"enlisted_army_personnel","commissioned_officer":false,"manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 624 for recruitment chronology and last civilian employer; operational rosters do not establish an employer.","personnel_file_digitized":false,"personnel_file_reviewed":false,"nara_catalog_id":"1263923","archival_review_priority":"critical"},
+    {"person_id":"88a1a123-000c-5aca-a576-e8c3b8c05d88","identity_status":"unresolved","identity_evidence":"Exact-name, civilian-grade, OSS, employer, occupation, obituary, institutional, newspaper, and archival searches produced no reliable identity bridge.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 624 for civilian identity, role, recruitment chronology, and employer.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"87acebde-5eb2-5027-95ab-0aeb429c38cc","identity_status":"high_confidence","identity_evidence":"The distinctive indexed name and a nonshared protected identifier agree with the official Army bulk record.","personnel_category":"enlisted_army_personnel","commissioned_officer":false,"manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 624 for rank, recruitment chronology, and last civilian employer.","personnel_file_digitized":false,"personnel_file_reviewed":false,"nara_catalog_id":"1263923","archival_review_priority":"critical"},
+    {"person_id":"9a5afad3-5177-5887-8717-7946077bdee2","identity_status":"unresolved","identity_evidence":"Common-name and spelling-variant searches produced no reliable OSS identity bridge or dated pre-OSS employer evidence.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 624 for identity, Army classification, recruitment chronology, and employer.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"16284af6-2fdf-5f9f-9338-ca1cc9f7ed00","identity_status":"unresolved","identity_evidence":"Exact-name, civilian-grade, OSS, employer, occupation, obituary, institutional, newspaper, and archival searches produced no reliable identity bridge.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 624 for civilian identity, role, recruitment chronology, and employer.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"d802aefb-d40b-5d23-b953-b8b2a64f222d","identity_status":"unresolved","identity_evidence":"Exact-name and spelling-variant searches produced no reliable OSS identity bridge or dated pre-OSS employer evidence.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 624 for identity, personnel status, recruitment chronology, and employer.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"c593a385-853a-5a83-8f0c-619914db0e8f","identity_status":"high_confidence","identity_evidence":"The indexed surname and given name and a nonshared protected identifier agree with the official Army bulk record.","personnel_category":"enlisted_army_personnel","commissioned_officer":false,"manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 624 for recruitment chronology and last civilian employer; common-name alternatives remain possible without the protected match.","personnel_file_digitized":false,"personnel_file_reviewed":false,"nara_catalog_id":"1263923","archival_review_priority":"critical"},
+    {"person_id":"a9485e71-de64-5e2e-8588-04f7bec3d790","identity_status":"high_confidence","identity_evidence":"The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.","personnel_category":"enlisted_army_personnel","commissioned_officer":false,"manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 624 for recruitment chronology and last civilian employer.","personnel_file_digitized":false,"personnel_file_reviewed":false,"nara_catalog_id":"1263923","archival_review_priority":"critical"},
+    {"person_id":"884bdc6c-451b-52c0-8fc7-e339e6e62a38","identity_status":"unresolved","identity_evidence":"Common-name, civilian-grade, OSS, employer, occupation, obituary, institutional, newspaper, and archival searches produced no reliable identity bridge.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 624 for civilian identity, role, recruitment chronology, and employer.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"7f547fe4-2311-5f04-ae79-1182857afa4c","identity_status":"unresolved","identity_evidence":"The reviewed protected-identifier candidate resolved to a wholly different official Army name and was rejected. The printed note 'Ind. Arm' remains uninterpreted.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 624 to establish identity, interpret the literal note in context, and document recruitment chronology and employer.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"202d94eb-e39a-5c71-8f66-30852a9c79b5","identity_status":"unresolved","identity_evidence":"The protected-identifier candidate resolved to Peter F Pugliese, who has a separate index row, and was rejected to prevent conflation.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 624 to distinguish Peter N Pugliese from the separate Peter F Pugliese row and document employer chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"b3333944-0241-5a8f-9ec9-12d72f68ee1a","identity_status":"unresolved","identity_evidence":"Officer-name, OSS, military, employer, obituary, institutional, and archival searches did not establish a reliable identity bridge to the separate Peter F Pugliese row.","personnel_category":"commissioned_army_officer","commissioned_officer":true,"manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 624 for officer identity, military assignment, recruitment chronology, and last civilian employer.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"bc513fee-afb1-5a5a-a314-d38135a50cff","identity_status":"high_confidence","identity_evidence":"The indexed surname and given name and a nonshared protected identifier agree with the official Army bulk record.","personnel_category":"enlisted_army_personnel","commissioned_officer":false,"manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 624 for recruitment chronology and last civilian employer; operational-group references do not establish employment.","personnel_file_digitized":false,"personnel_file_reviewed":false,"nara_catalog_id":"1263923","archival_review_priority":"critical"},
+    {"person_id":"ec85969c-7715-5b56-b275-fd2ecce5e352","identity_status":"high_confidence","identity_evidence":"Two institutional publications match the distinctive exact name, Thai background, U.S. education, and later Free Thai service.","name_variants":["George Puhpadhana"],"personnel_category":"foreign_or_allied_military_personnel","commissioned_officer":true,"manual_review_required":true,"research_status":"occupation_only_found","next_action":"Inspect Box 624 for OSS entry chronology and any civilian employment before wartime service; student status is not employment.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"a8c83267-d6e5-5db4-8acf-c19d61607457","identity_status":"probable","identity_evidence":"A compiled wartime infiltration chronology names OSS member Jacques Pujol in the HoHo network, but accessible evidence does not yet supply a direct personnel-file bridge.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 624 and cited French service file GR16P43628 to confirm identity, role, recruitment chronology, and pre-OSS affiliation.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"d0887e38-4f39-51b8-a6fc-5828b2b8474c","identity_status":"high_confidence","identity_evidence":"The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.","personnel_category":"enlisted_army_personnel","commissioned_officer":false,"manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 624 for recruitment chronology and last civilian employer.","personnel_file_digitized":false,"personnel_file_reviewed":false,"nara_catalog_id":"1263923","archival_review_priority":"critical"},
+    {"person_id":"879ead91-5471-59f4-a470-766b0ba3c6a5","identity_status":"high_confidence","identity_evidence":"The exact indexed name and a nonshared protected identifier agree with the official Army bulk record. The literal note 'French' is preserved without interpretation.","personnel_category":"enlisted_army_personnel","commissioned_officer":false,"manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 624 for French-section or language context, recruitment chronology, and last civilian employer.","personnel_file_digitized":false,"personnel_file_reviewed":false,"nara_catalog_id":"1263923","archival_review_priority":"critical"}
+  ],
+  "research_attempts": [
+    {"key":"alvin-g-psinas-protocol-b779","person_id":"969b2dca-6878-535c-825c-b30431c25aa9","source_adapter":"manual_staged_protocol","query_text":"NARA index context; Alvin G Psinas; OSS; Army; Greek Operational Group; employer; occupation; obituary; institutional; archival","query_variant_type":"army_identity_distinctive_name_protocol_batch_779","started_at":"2026-10-13T23:20:00+00:00","completed_at":"2026-10-14T01:05:00+00:00","outcome":"source_reviewed","sources_reviewed":7,"candidate_sources_rejected":3,"rejection_reasons":"Operational-group lists corroborated service but did not establish a pre-OSS employer. The Army occupation code was not treated as employer evidence.","research_notes":"High-confidence Army identity established; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA access failure and partial Library of Congress completion were limitations, not negative evidence.","next_action":"Inspect Box 624.","attempt_number":4,"research_agent_version":"before-oss-b779-v1"},
+    {"key":"george-n-psoinos-protocol-b779","person_id":"e9eff6f1-1c20-55bd-bc98-3c6e6520a54a","source_adapter":"manual_staged_protocol","query_text":"NARA index context; George N Psoinos; OSS; USNR; radio operator; Peking; employer; occupation; obituary; archival","query_variant_type":"official_history_distinctive_name_protocol_batch_779","started_at":"2026-10-13T23:20:00+00:00","completed_at":"2026-10-14T01:05:00+00:00","outcome":"source_reviewed","sources_reviewed":8,"candidate_sources_rejected":3,"rejection_reasons":"Postwar business references and unsourced biographies did not establish pre-OSS employment.","research_notes":"Official NPS history establishes a high-confidence wartime OSS identity and radio role; no reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 624.","attempt_number":3,"research_agent_version":"before-oss-b779-v1"},
+    {"key":"alexander-psomas-protocol-b779","person_id":"ec019661-ce81-5240-a139-d758bc66769a","source_adapter":"manual_staged_protocol","query_text":"NARA index context; Alexander Psomas; OSS; Army; Greek Operational Group; employer; occupation; obituary; archival","query_variant_type":"army_identity_distinctive_name_protocol_batch_779","started_at":"2026-10-13T23:20:00+00:00","completed_at":"2026-10-14T01:05:00+00:00","outcome":"source_reviewed","sources_reviewed":7,"candidate_sources_rejected":3,"rejection_reasons":"Operational histories corroborated wartime service but did not document an employer. The Army occupation code was not used.","research_notes":"High-confidence Army identity established; no reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 624.","attempt_number":4,"research_agent_version":"before-oss-b779-v1"},
+    {"key":"charles-k-ptacek-protocol-b779","person_id":"4c1e411f-4c25-5533-b3a4-7b52f23d7bfa","source_adapter":"manual_staged_protocol","query_text":"NARA index context; Charles K Ptacek; OSS; employer; occupation; obituary; institutional; newspaper; archival","query_variant_type":"common_name_protocol_batch_779","started_at":"2026-10-13T23:20:00+00:00","completed_at":"2026-10-14T01:05:00+00:00","outcome":"candidate_rejected","sources_reviewed":5,"candidate_sources_rejected":8,"rejection_reasons":"Common-name results and discovery-only genealogy lacked an OSS bridge or matching identifiers.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 624.","attempt_number":3,"research_agent_version":"before-oss-b779-v1"},
+    {"key":"leo-f-ptacek-protocol-b779","person_id":"6cd5a2dd-cb25-51f1-bc6d-30dc4bd8ed5b","source_adapter":"manual_staged_protocol","query_text":"NARA index context; Leo F Ptacek; corporal; OSS; Army; Signal Oil; employer; occupation; city directory; obituary; archival","query_variant_type":"common_name_temporal_rejection_protocol_batch_779","started_at":"2026-10-13T23:20:00+00:00","completed_at":"2026-10-14T01:05:00+00:00","outcome":"candidate_rejected","sources_reviewed":7,"candidate_sources_rejected":7,"rejection_reasons":"A 1958 Signal Oil directory entry was postwar and could not be bridged to the index row; it was rejected rather than backdated.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 624.","attempt_number":3,"research_agent_version":"before-oss-b779-v1"},
+    {"key":"alexander-l-puccinelli-protocol-b779","person_id":"70017483-ee7a-5488-9f22-881fede30712","source_adapter":"manual_staged_protocol","query_text":"NARA index context; Alexander L Puccinelli; OSS; Army; attorney; district attorney; employer; occupation; obituary; archival","query_variant_type":"army_identity_postwar_rejection_protocol_batch_779","started_at":"2026-10-13T23:20:00+00:00","completed_at":"2026-10-14T01:05:00+00:00","outcome":"source_reviewed","sources_reviewed":8,"candidate_sources_rejected":4,"rejection_reasons":"An official 1946 district-attorney record was postwar and could not establish a pre-OSS employer. The Army occupation code was not used.","research_notes":"High-confidence Army identity established; no reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 624.","attempt_number":4,"research_agent_version":"before-oss-b779-v1"},
+    {"key":"edward-w-pucel-protocol-b779","person_id":"05e4c0c0-b0e9-56b7-bdf7-38ebf335c841","source_adapter":"manual_staged_protocol","query_text":"NARA index context; Edward W Pucel; technician fifth grade; OSS; Army; French Operational Group; Rangers; employer; obituary; archival","query_variant_type":"army_identity_operational_roster_protocol_batch_779","started_at":"2026-10-13T23:20:00+00:00","completed_at":"2026-10-14T01:05:00+00:00","outcome":"source_reviewed","sources_reviewed":8,"candidate_sources_rejected":4,"rejection_reasons":"Operational rosters and memorial entries did not establish pre-OSS employment. The Army occupation code was not used.","research_notes":"High-confidence Army identity established; no reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 624.","attempt_number":4,"research_agent_version":"before-oss-b779-v1"},
+    {"key":"margaret-r-puchner-protocol-b779","person_id":"88a1a123-000c-5aca-a576-e8c3b8c05d88","source_adapter":"manual_staged_protocol","query_text":"NARA index context; Margaret R Puchner; P-1; OSS; employer; occupation; obituary; institutional; newspaper; archival","query_variant_type":"civilian_grade_common_name_protocol_batch_779","started_at":"2026-10-13T23:20:00+00:00","completed_at":"2026-10-14T01:05:00+00:00","outcome":"candidate_rejected","sources_reviewed":5,"candidate_sources_rejected":7,"rejection_reasons":"Common-name and modern results lacked an OSS bridge or matching identifiers.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 624.","attempt_number":3,"research_agent_version":"before-oss-b779-v1"},
+    {"key":"tode-puchovich-protocol-b779","person_id":"87acebde-5eb2-5027-95ab-0aeb429c38cc","source_adapter":"manual_staged_protocol","query_text":"NARA index context; Tode Puchovich; OSS; Army; Ohio; employer; occupation; obituary; institutional; archival","query_variant_type":"army_identity_distinctive_name_protocol_batch_779","started_at":"2026-10-13T23:20:00+00:00","completed_at":"2026-10-14T01:05:00+00:00","outcome":"source_reviewed","sources_reviewed":7,"candidate_sources_rejected":3,"rejection_reasons":"Discovery-only genealogy did not establish an employer and was not used as final evidence. The Army occupation code was not used.","research_notes":"High-confidence Army identity established; no reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 624.","attempt_number":4,"research_agent_version":"before-oss-b779-v1"},
+    {"key":"frankie-b-puckett-protocol-b779","person_id":"9a5afad3-5177-5887-8717-7946077bdee2","source_adapter":"manual_staged_protocol","query_text":"NARA index context; Frankie B Puckett; technician fifth grade; OSS; Army; employer; occupation; obituary; archival","query_variant_type":"army_common_name_protocol_batch_779","started_at":"2026-10-13T23:20:00+00:00","completed_at":"2026-10-14T01:05:00+00:00","outcome":"candidate_rejected","sources_reviewed":5,"candidate_sources_rejected":9,"rejection_reasons":"Common-name military and obituary results lacked a protected identifier or OSS bridge.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 624.","attempt_number":3,"research_agent_version":"before-oss-b779-v1"},
+    {"key":"anna-p-puett-protocol-b779","person_id":"16284af6-2fdf-5f9f-9338-ca1cc9f7ed00","source_adapter":"manual_staged_protocol","query_text":"NARA index context; Anna P Puett; CAF-2; OSS; employer; occupation; obituary; institutional; newspaper; archival","query_variant_type":"civilian_grade_common_name_protocol_batch_779","started_at":"2026-10-13T23:20:00+00:00","completed_at":"2026-10-14T01:05:00+00:00","outcome":"candidate_rejected","sources_reviewed":5,"candidate_sources_rejected":8,"rejection_reasons":"Common-name results lacked an OSS bridge or matching civilian-grade context.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 624.","attempt_number":3,"research_agent_version":"before-oss-b779-v1"},
+    {"key":"gerald-f-puetz-protocol-b779","person_id":"d802aefb-d40b-5d23-b953-b8b2a64f222d","source_adapter":"manual_staged_protocol","query_text":"NARA index context; Gerald F Puetz; OSS; employer; occupation; obituary; spelling variants; institutional; archival","query_variant_type":"common_name_variant_protocol_batch_779","started_at":"2026-10-13T23:20:00+00:00","completed_at":"2026-10-14T01:05:00+00:00","outcome":"candidate_rejected","sources_reviewed":5,"candidate_sources_rejected":8,"rejection_reasons":"Namesakes and spelling variants lacked an OSS bridge or matching identifiers.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 624.","attempt_number":3,"research_agent_version":"before-oss-b779-v1"},
+    {"key":"arthur-pugh-protocol-b779","person_id":"c593a385-853a-5a83-8f0c-619914db0e8f","source_adapter":"manual_staged_protocol","query_text":"NARA index context; Arthur Pugh; private first class; OSS; Army; employer; occupation; obituary; archival","query_variant_type":"army_identity_common_name_protocol_batch_779","started_at":"2026-10-13T23:20:00+00:00","completed_at":"2026-10-14T01:05:00+00:00","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":10,"rejection_reasons":"Numerous common-name alternatives lacked the protected identifier or OSS bridge. The Army occupation code was not used.","research_notes":"High-confidence protected-identifier identity established; no reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 624.","attempt_number":4,"research_agent_version":"before-oss-b779-v1"},
+    {"key":"leon-l-pugh-protocol-b779","person_id":"a9485e71-de64-5e2e-8588-04f7bec3d790","source_adapter":"manual_staged_protocol","query_text":"NARA index context; Leon L Pugh; technician fifth grade; OSS; Army; employer; occupation; obituary; archival","query_variant_type":"army_identity_common_name_protocol_batch_779","started_at":"2026-10-13T23:20:00+00:00","completed_at":"2026-10-14T01:05:00+00:00","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":8,"rejection_reasons":"Namesakes lacked the protected identifier or OSS bridge. The Army occupation code was not used.","research_notes":"High-confidence Army identity established; no reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 624.","attempt_number":4,"research_agent_version":"before-oss-b779-v1"},
+    {"key":"robert-e-pugh-protocol-b779","person_id":"884bdc6c-451b-52c0-8fc7-e339e6e62a38","source_adapter":"manual_staged_protocol","query_text":"NARA index context; Robert E Pugh; CAF-3; OSS; employer; occupation; obituary; institutional; newspaper; archival","query_variant_type":"civilian_grade_common_name_protocol_batch_779","started_at":"2026-10-13T23:20:00+00:00","completed_at":"2026-10-14T01:05:00+00:00","outcome":"candidate_rejected","sources_reviewed":5,"candidate_sources_rejected":11,"rejection_reasons":"Common-name results lacked a protected identifier or direct OSS bridge.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 624.","attempt_number":3,"research_agent_version":"before-oss-b779-v1"},
+    {"key":"george-j-pugliese-protocol-b779","person_id":"7f547fe4-2311-5f04-ae79-1182857afa4c","source_adapter":"manual_staged_protocol","query_text":"NARA index context; George J Pugliese; corporal; Ind. Arm; OSS; Army; employer; occupation; obituary; archival","query_variant_type":"identifier_conflict_literal_note_protocol_batch_779","started_at":"2026-10-13T23:20:00+00:00","completed_at":"2026-10-14T01:05:00+00:00","outcome":"candidate_rejected","sources_reviewed":7,"candidate_sources_rejected":8,"rejection_reasons":"The protected identifier pointed to a wholly different official Army name. The literal note 'Ind. Arm' was not expanded or used to infer an employer.","research_notes":"Identity remains unresolved; no reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 624.","attempt_number":4,"research_agent_version":"before-oss-b779-v1"},
+    {"key":"peter-n-pugliese-protocol-b779","person_id":"202d94eb-e39a-5c71-8f66-30852a9c79b5","source_adapter":"manual_staged_protocol","query_text":"NARA index context; Peter N Pugliese; OSS; employer; occupation; obituary; military; archival","query_variant_type":"duplicate_name_conflict_protocol_batch_779","started_at":"2026-10-13T23:20:00+00:00","completed_at":"2026-10-14T01:05:00+00:00","outcome":"candidate_rejected","sources_reviewed":7,"candidate_sources_rejected":8,"rejection_reasons":"The Army candidate resolved to Peter F Pugliese, represented by a separate index row, and was rejected to prevent conflation.","research_notes":"Identity remains unresolved; no reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 624 and compare both Pugliese files.","attempt_number":4,"research_agent_version":"before-oss-b779-v1"},
+    {"key":"peter-f-pugliese-protocol-b779","person_id":"b3333944-0241-5a8f-9ec9-12d72f68ee1a","source_adapter":"manual_staged_protocol","query_text":"NARA index context; Peter F Pugliese; captain; OSS; Army; military assignment; employer; occupation; obituary; archival","query_variant_type":"officer_duplicate_name_protocol_batch_779","started_at":"2026-10-13T23:20:00+00:00","completed_at":"2026-10-14T01:05:00+00:00","outcome":"candidate_rejected","sources_reviewed":6,"candidate_sources_rejected":8,"rejection_reasons":"Officer and Army namesakes could not be bridged to this exact index row without conflating the separate Peter N Pugliese file.","research_notes":"No reliable pre-OSS employer or prior military assignment has yet been identified.","next_action":"Inspect Box 624 and compare both Pugliese files.","attempt_number":3,"research_agent_version":"before-oss-b779-v1"},
+    {"key":"vincent-puglisi-protocol-b779","person_id":"bc513fee-afb1-5a5a-a314-d38135a50cff","source_adapter":"manual_staged_protocol","query_text":"NARA index context; Vincent Puglisi; technical sergeant; OSS; Army; Lafayette mission; employer; occupation; obituary; archival","query_variant_type":"army_identity_operational_roster_protocol_batch_779","started_at":"2026-10-13T23:20:00+00:00","completed_at":"2026-10-14T01:05:00+00:00","outcome":"source_reviewed","sources_reviewed":8,"candidate_sources_rejected":6,"rejection_reasons":"Operational-group references supported wartime service but not a pre-OSS employer. The Army occupation code was not used.","research_notes":"High-confidence Army identity established; no reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 624.","attempt_number":4,"research_agent_version":"before-oss-b779-v1"},
+    {"key":"udom-puhpadhana-protocol-b779","person_id":"ec85969c-7715-5b56-b275-fd2ecce5e352","source_adapter":"manual_staged_protocol","query_text":"NARA index context; Udom Puhpadhana; George Puhpadhana; Miami University; Thailand; Free Thai; OSS; employer; student; institutional; archival","query_variant_type":"foreign_officer_institutional_protocol_batch_779","started_at":"2026-10-13T23:20:00+00:00","completed_at":"2026-10-14T01:05:00+00:00","outcome":"source_reviewed","sources_reviewed":9,"candidate_sources_rejected":3,"rejection_reasons":"University attendance was not treated as employment. General Free Thai histories did not by themselves prove his individual chronology.","research_notes":"High-confidence identity and documented 1942 Miami University student affiliation established; no reliable civilian employer has yet been identified.","next_action":"Inspect Box 624 for OSS entry chronology and any civilian employment.","attempt_number":3,"research_agent_version":"before-oss-b779-v1"},
+    {"key":"jacques-pujol-protocol-b779","person_id":"a8c83267-d6e5-5db4-8acf-c19d61607457","source_adapter":"manual_staged_protocol","query_text":"NARA index context; Jacques Pujol; OSS; HoHo Network; France; employer; occupation; French archive; obituary; archival","query_variant_type":"foreign_network_distinctive_name_protocol_batch_779","started_at":"2026-10-13T23:20:00+00:00","completed_at":"2026-10-14T01:05:00+00:00","outcome":"candidate_found","sources_reviewed":7,"candidate_sources_rejected":4,"rejection_reasons":"A compiled infiltration chronology is useful but does not replace the cited French personnel file or NARA file for identity and pre-OSS chronology.","research_notes":"Probable OSS HoHo network identity; no reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 624 and French file GR16P43628.","attempt_number":3,"research_agent_version":"before-oss-b779-v1"},
+    {"key":"chester-j-pulaski-protocol-b779","person_id":"d0887e38-4f39-51b8-a6fc-5828b2b8474c","source_adapter":"manual_staged_protocol","query_text":"NARA index context; Chester J Pulaski; corporal; OSS; Army; employer; occupation; obituary; archival","query_variant_type":"army_identity_common_name_protocol_batch_779","started_at":"2026-10-13T23:20:00+00:00","completed_at":"2026-10-14T01:05:00+00:00","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":8,"rejection_reasons":"Namesakes lacked the protected identifier or OSS bridge. The Army occupation code was not used.","research_notes":"High-confidence Army identity established; no reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 624.","attempt_number":4,"research_agent_version":"before-oss-b779-v1"},
+    {"key":"michael-c-puleo-protocol-b779","person_id":"879ead91-5471-59f4-a470-766b0ba3c6a5","source_adapter":"manual_staged_protocol","query_text":"NARA index context; Michael C Puleo; technician third grade; French; OSS; Army; employer; occupation; obituary; archival","query_variant_type":"army_identity_literal_note_protocol_batch_779","started_at":"2026-10-13T23:20:00+00:00","completed_at":"2026-10-14T01:05:00+00:00","outcome":"source_reviewed","sources_reviewed":7,"candidate_sources_rejected":6,"rejection_reasons":"The literal note 'French' was not expanded into a nationality, unit, or employer. The Army occupation code was not used.","research_notes":"High-confidence Army identity established; no reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 624.","attempt_number":4,"research_agent_version":"before-oss-b779-v1"}
+  ]
+}
