@@ -69,5 +69,20 @@ indexed boundary is page 377, row 1, Daniel A Preston.
 
 ## Publication
 
-Publication is pending the release commit, GitHub Actions, and immutable live
-verification. Do not treat the clean local build as proof of deployment.
+- Release commit:
+  `b2a7e8540753daa215f52ecf79f78cbb8221ba92`.
+- The [Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38390745339)
+  completed successfully at 2026-10-13T11:35:51Z.
+- The [Deploy GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38390745359)
+  completed successfully at 2026-10-13T11:33:06Z.
+- Immutable live verification against the release commit confirmed all 67
+  manifest assets and 109,045,103 bytes, all eight core routes, all 32 source
+  register pages, and all 22 Batch 773 profile routes. The deployed manifest
+  SHA-256 is
+  `8234ed632345793a03e809ece1351b5a0a21ed9472eb79f54d3858f83276643c`.
+- Live site: <https://therealjameswilson.github.io/before-oss/>.
+
+Both workflows emitted maintenance notices that selected GitHub actions still
+target Node.js 20 and that `ubuntu-latest` is scheduled to migrate to Ubuntu 26.
+GitHub ran the affected actions on Node.js 24; neither notice failed or altered
+this release.
