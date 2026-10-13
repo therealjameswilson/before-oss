@@ -1,0 +1,1272 @@
+{
+  "bundle_version": "batch-757-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 757 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b757",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 604-605",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 369, rows 2-28; visually checked against a 300 dpi render",
+      "access_date": "2026-10-12",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Every printed row remains separate. Full protected identifiers remain private. George W Pierce's damaged scientific-notation value, Guy R Pierce's literal 'Folder al' note, Esther Pierson's 'Also 331,' both William H Pietsch rows, and the Piekanski/Pikanski spelling conflict remain visible and unresolved."
+    },
+    {
+      "key": "army-bulk-b757",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department. Adjutant General's Office",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946",
+      "locator": "Eight accepted row-specific identity matches, one probable spelling-conflict match, and three preserved conflict candidates",
+      "access_date": "2026-10-12",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Selective Service System, Record Group 147",
+      "rights_notes": "Official unrestricted bulk data, not a Catalog API response. Full protected identifiers, coded occupations, and raw records are not published or retained. Coded fields are identity aids only, never employer evidence."
+    },
+    {
+      "key": "arsof-maritime-b757",
+      "stable_url": "https://mail.arsof-history.org/articles/v1n2_oss_maritime_page_1.html",
+      "archival_identifier": "Veritas, Vol. 1, No. 2, 2005, printed page 3",
+      "title": "The Office of Strategic Services (OSS) Maritime Unit on the Arakan Coast of Burma",
+      "author_creator": "Kenn Finlayson",
+      "repository_publisher": "U.S. Army Special Operations History Office",
+      "publication_record_date": "2005",
+      "locator": "Veritas Vol. 1, No. 2, printed page 3; PDF page 5; visually inspected",
+      "access_date": "2026-10-12",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Veritas: Journal of Army Special Operations History",
+      "rights_notes": "The article and official issue PDF were reviewed. Only citation metadata and short supporting excerpts are published."
+    },
+    {
+      "key": "pierson-obituary-b757",
+      "stable_url": "https://www.clayberry.org/funerals.html",
+      "title": "Robert (Bob) Clarence Pierson, Jr. obituary",
+      "author_creator": "Wilson Smith Funeral Home",
+      "repository_publisher": "Wilson Smith Funeral Home",
+      "publication_record_date": "2021-10-26",
+      "locator": "Obituary entry dated October 26, 2021",
+      "access_date": "2026-10-12",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Clay County, West Virginia obituaries",
+      "rights_notes": "Used only for education and Army-to-OSS chronology. Unrelated relatives, addresses, and postwar personal details are excluded."
+    },
+    {
+      "key": "cia-pietsch-b757",
+      "stable_url": "https://www.cia.gov/legacy/museum/artifact/uniform-of-oss-col-william-h-pietsch-jr/",
+      "title": "Uniform of OSS Col. William H. Pietsch, Jr.",
+      "author_creator": "Central Intelligence Agency Museum",
+      "repository_publisher": "Central Intelligence Agency",
+      "locator": "Artifact Details",
+      "access_date": "2026-10-12",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "CIA Museum",
+      "rights_notes": "Used only as a qualified identity lead. The two adjacent William H Pietsch index rows remain separate and are not merged without direct personnel-file evidence."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "navy-field-photo-b757",
+      "canonical_name": "U.S. Navy Field Photographic Office",
+      "historical_name": "Navy's Field Photographic Office",
+      "aliases": [
+        "Field Photographic Office",
+        "Navy Field Photographic Office"
+      ],
+      "organization_type": "military photographic office",
+      "sector": "military",
+      "country": "United States",
+      "active_dates": "World War II",
+      "normalization_notes": "The source wording is preserved. No silent merger with the OSS Field Photographic Branch or a modern successor is made."
+    },
+    {
+      "key": "united-states-army-existing-b757",
+      "organization_id": "28a26f92-78af-5a1a-9c09-a843eb5975b4",
+      "canonical_name": "United States Army",
+      "historical_name": "Army of the United States",
+      "aliases": [
+        "U.S. Army",
+        "AUS"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "The canonical organization is the United States Army; historical wording is preserved on each affiliation."
+    },
+    {
+      "key": "west-virginia-university-existing-b757",
+      "organization_id": "8bb3f722-3833-57af-96ae-fff355780dfc",
+      "canonical_name": "West Virginia University",
+      "historical_name": "West Virginia University",
+      "aliases": [
+        "WVU"
+      ],
+      "organization_type": "public university",
+      "sector": "academia_and_research",
+      "city": "Morgantown",
+      "state_or_region": "West Virginia",
+      "country": "United States",
+      "active_dates": "1867-present",
+      "normalization_notes": "Modeled as a student affiliation unless a separate source establishes employment; university attendance is never silently converted into an employer."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "kenneth-pier-field-photo-b757",
+      "person_id": "1cf55845-ec2e-5bc4-aaaf-b5c4d77a8b2c",
+      "organization_key": "navy-field-photo-b757",
+      "organization_name_as_found": "the Navy's Field Photographic Office",
+      "role_title": "U.S. Naval Reserve officer",
+      "occupation": "naval officer",
+      "relationship_type": "military_assignment",
+      "end_date": "1944-07",
+      "date_precision": "Before July 1944; exact start date unknown",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The institutional history places Pier in this Navy assignment before he replaced Fisher Howe as OSS Maritime Unit commander in July 1944. It does not establish a civilian employer."
+    },
+    {
+      "key": "robert-pierson-army-b757",
+      "person_id": "247c1b7b-a8ca-57e7-8f2c-12a07db18d4c",
+      "organization_key": "united-states-army-existing-b757",
+      "organization_name_as_found": "the United States Army",
+      "role_title": "soldier",
+      "relationship_type": "military_assignment",
+      "date_precision": "Immediately before OSS assignment; exact dates unknown",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The obituary explicitly states that the Army assigned Pierson to the OSS. This is a military assignment, not a civilian employer."
+    },
+    {
+      "key": "robert-pierson-wvu-student-b757",
+      "person_id": "247c1b7b-a8ca-57e7-8f2c-12a07db18d4c",
+      "organization_key": "west-virginia-university-existing-b757",
+      "organization_name_as_found": "West Virginia University",
+      "role_title": "student",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1942",
+      "date_precision": "After 1941 high-school graduation and before Army active duty; exact dates unknown",
+      "city": "Morgantown",
+      "state_or_region": "West Virginia",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The obituary says Pierson attended West Virginia University until called to Army active duty. This is educational status and is not classified as employment."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-bernard-pietrowiak-b757",
+      "person_id": "1539d17f-4a77-52cf-8554-049e4b306131",
+      "claim_type": "identity",
+      "claim_text": "The indexed Bernard M Pietrowiak row is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PIETROWIAK BERNARD M",
+      "evidence_paraphrase": "The indexed identity and a nonshared protected identifier agree with the official Army record.",
+      "identity_match_assessment": "High confidence from name, protected-identifier, and row-specific official-record agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army fields are not converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b757"
+        },
+        {
+          "source_key": "army-bulk-b757",
+          "excerpt_override": "PIETROWIAK BERNARD M"
+        }
+      ]
+    },
+    {
+      "key": "identity-donald-s-pierce-b757",
+      "person_id": "567ade6d-718a-5244-a55b-461a26448c08",
+      "claim_type": "identity",
+      "claim_text": "The indexed Donald S Pierce row is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PIERCE DONALD S",
+      "evidence_paraphrase": "The indexed identity and a nonshared protected identifier agree with the official Army record.",
+      "identity_match_assessment": "High confidence from name, protected-identifier, and row-specific official-record agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army fields are not converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b757"
+        },
+        {
+          "source_key": "army-bulk-b757",
+          "excerpt_override": "PIERCE DONALD S"
+        }
+      ]
+    },
+    {
+      "key": "identity-emmanuel-pietromartire-b757",
+      "person_id": "af984cb1-71cc-5416-9e81-893067f9a431",
+      "claim_type": "identity",
+      "claim_text": "The indexed Emmanuel Pietromartire row is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PIETROMARTIRE EMMANUEL",
+      "evidence_paraphrase": "The indexed identity and a nonshared protected identifier agree with the official Army record.",
+      "identity_match_assessment": "High confidence from name, protected-identifier, and row-specific official-record agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army fields are not converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b757"
+        },
+        {
+          "source_key": "army-bulk-b757",
+          "excerpt_override": "PIETROMARTIRE EMMANUEL"
+        }
+      ]
+    },
+    {
+      "key": "identity-glen-pierson-b757",
+      "person_id": "e9430935-ce25-5cf4-a88d-bdb151cf5084",
+      "claim_type": "identity",
+      "claim_text": "The indexed Glen Pierson row is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PIERSON GLEN",
+      "evidence_paraphrase": "The indexed identity and a nonshared protected identifier agree with the official Army record.",
+      "identity_match_assessment": "High confidence from name, protected-identifier, and row-specific official-record agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army fields are not converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b757"
+        },
+        {
+          "source_key": "army-bulk-b757",
+          "excerpt_override": "PIERSON GLEN"
+        }
+      ]
+    },
+    {
+      "key": "identity-hubert-b-pierce-b757",
+      "person_id": "9897a524-bbfe-536c-bf27-f48df65031ac",
+      "claim_type": "identity",
+      "claim_text": "The indexed Hubert B Pierce row is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "P RCE HUBERT B",
+      "evidence_paraphrase": "The indexed identity and a nonshared protected identifier agree with the official Army record.",
+      "identity_match_assessment": "High confidence from name, protected-identifier, and row-specific official-record agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army surname field is visibly damaged, but Hubert B and the nonshared protected identifier agree. The damaged spelling is preserved.",
+      "sources": [
+        {
+          "source_key": "nara-index-b757"
+        },
+        {
+          "source_key": "army-bulk-b757",
+          "excerpt_override": "P RCE HUBERT B"
+        }
+      ]
+    },
+    {
+      "key": "identity-robert-c-pierson-b757",
+      "person_id": "247c1b7b-a8ca-57e7-8f2c-12a07db18d4c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Robert C Pierson row is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PIERSON ROBERT C JR",
+      "evidence_paraphrase": "The indexed identity and a nonshared protected identifier agree with the official Army record.",
+      "identity_match_assessment": "High confidence from name, protected-identifier, and row-specific official-record agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army Jr suffix, protected identifier, Army-to-OSS chronology, and West Virginia University detail reinforce the match. No Army coded occupation is used.",
+      "sources": [
+        {
+          "source_key": "nara-index-b757"
+        },
+        {
+          "source_key": "army-bulk-b757",
+          "excerpt_override": "PIERSON ROBERT C JR"
+        }
+      ]
+    },
+    {
+      "key": "identity-roger-l-pierre-b757",
+      "person_id": "312aeb6c-9f16-57d1-a6c9-dcd364d8a266",
+      "claim_type": "identity",
+      "claim_text": "The indexed Roger L Pierre row is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PIERRE ROGER L",
+      "evidence_paraphrase": "The indexed identity and a nonshared protected identifier agree with the official Army record.",
+      "identity_match_assessment": "High confidence from name, protected-identifier, and row-specific official-record agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army fields are not converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b757"
+        },
+        {
+          "source_key": "army-bulk-b757",
+          "excerpt_override": "PIERRE ROGER L"
+        }
+      ]
+    },
+    {
+      "key": "identity-spiros-d-pieratos-b757",
+      "person_id": "c7276c33-f457-573d-b8bc-9d2730be76b6",
+      "claim_type": "identity",
+      "claim_text": "The indexed Spiros D Pieratos row is linked at high confidence to the official Army record.",
+      "evidence_excerpt": "PIERATOS SPIROS D",
+      "evidence_paraphrase": "The indexed identity and a nonshared protected identifier agree with the official Army record.",
+      "identity_match_assessment": "High confidence from name, protected-identifier, and row-specific official-record agreement.",
+      "temporal_assessment": "The records establish wartime Army identity, not a named pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army fields are not converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b757"
+        },
+        {
+          "source_key": "army-bulk-b757",
+          "excerpt_override": "PIERATOS SPIROS D"
+        }
+      ]
+    },
+    {
+      "key": "identity-kenneth-m-pier-b757",
+      "person_id": "1cf55845-ec2e-5bc4-aaaf-b5c4d77a8b2c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Kenneth M Pier row is linked at high confidence to the U.S. Naval Reserve officer who commanded the OSS Maritime Unit in Southeast Asia.",
+      "evidence_excerpt": "LT Kenneth Pier, USNR, replaced him.",
+      "evidence_paraphrase": "The uncommon exact name, U.S. Naval Reserve status, officer rank, and direct OSS Maritime Unit context agree with the indexed row.",
+      "identity_match_assessment": "High confidence from exact name plus naval rank, reserve status, theater, and OSS Maritime Unit command.",
+      "temporal_assessment": "The source identifies Pier's Navy assignment and July 1944 assumption of OSS Maritime Unit command.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The institutional history supplies multiple corroborating identifiers beyond the name. The private officer number is not published.",
+      "sources": [
+        {
+          "source_key": "nara-index-b757",
+          "locator_override": "PDF page 369, row 6"
+        },
+        {
+          "source_key": "arsof-maritime-b757",
+          "locator_override": "Printed page 3; PDF page 5"
+        }
+      ]
+    },
+    {
+      "key": "immediate-kenneth-m-pier-b757",
+      "person_id": "1cf55845-ec2e-5bc4-aaaf-b5c4d77a8b2c",
+      "affiliation_key": "kenneth-pier-field-photo-b757",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Before assuming command of the OSS Maritime Unit in July 1944, Kenneth Pier was assigned to the U.S. Navy Field Photographic Office.",
+      "evidence_excerpt": "assigned to the Navy's Field Photographic Office",
+      "evidence_paraphrase": "The U.S. Army Special Operations history places Pier in the Navy office before he replaced the OSS Maritime Unit commander.",
+      "identity_match_assessment": "High-confidence identity from exact name, U.S. Naval Reserve status, officer rank, theater, and OSS Maritime Unit command.",
+      "temporal_assessment": "Strongly date-bounded as the assignment immediately preceding his July 1944 Maritime Unit command; exact transfer date is not stated.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The source's historical office name is preserved. This is a military assignment, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "arsof-maritime-b757",
+          "locator_override": "Printed page 3; PDF page 5"
+        }
+      ]
+    },
+    {
+      "key": "immediate-robert-c-pierson-b757",
+      "person_id": "247c1b7b-a8ca-57e7-8f2c-12a07db18d4c",
+      "affiliation_key": "robert-pierson-army-b757",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Robert C. Pierson Jr.'s immediate pre-OSS affiliation was the United States Army, which assigned him to the OSS.",
+      "evidence_excerpt": "The army assigned him to the Office of Strategic Services",
+      "evidence_paraphrase": "The obituary explicitly says the Army assigned Pierson to the OSS after he entered active duty.",
+      "identity_match_assessment": "High-confidence identity from the official Army match plus full-name, university, Army, and OSS details in the obituary.",
+      "temporal_assessment": "Explicitly immediate: the source describes the Army-to-OSS assignment.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army is modeled as a military assignment and is not described as a civilian employer.",
+      "sources": [
+        {
+          "source_key": "pierson-obituary-b757",
+          "locator_override": "Obituary entry dated October 26, 2021"
+        },
+        {
+          "source_key": "army-bulk-b757",
+          "support_type": "context_only",
+          "excerpt_override": "PIERSON ROBERT C JR"
+        }
+      ]
+    },
+    {
+      "key": "student-robert-c-pierson-b757",
+      "person_id": "247c1b7b-a8ca-57e7-8f2c-12a07db18d4c",
+      "affiliation_key": "robert-pierson-wvu-student-b757",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Before Army active duty, Robert C. Pierson Jr. was a student at West Virginia University.",
+      "evidence_excerpt": "he attended West Virginia University until called to active duty",
+      "evidence_paraphrase": "The obituary places Pierson at West Virginia University between high school and Army active duty.",
+      "identity_match_assessment": "High-confidence identity from the official Army match plus the obituary's full name and Army-to-OSS chronology.",
+      "temporal_assessment": "Strongly date-bounded as pre-service education; it is not an employer claim.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "West Virginia University is deliberately modeled as a student relationship, not as a civilian employer.",
+      "sources": [
+        {
+          "source_key": "pierson-obituary-b757",
+          "locator_override": "Obituary entry dated October 26, 2021"
+        }
+      ]
+    },
+    {
+      "key": "identity-william-h-pietsch-row24-b757",
+      "person_id": "a9b80f7f-8285-5170-8106-8ee19150f6fd",
+      "claim_type": "identity",
+      "claim_text": "This indexed William H Pietsch row probably refers to OSS officer William Hiram Pietsch Jr., but the adjacent duplicate row prevents a definitive row-level assignment.",
+      "evidence_excerpt": "Colonel William H. Pietsch, Jr. completed many successful OSS missions",
+      "evidence_paraphrase": "The CIA Museum documents an OSS officer with the same uncommon full name and middle initial; two adjacent index rows remain unresolved.",
+      "identity_match_assessment": "Probable from the uncommon exact name, officer context, and OSS service, but not high confidence because two adjacent rows share the same name and rank.",
+      "temporal_assessment": "The source establishes OSS identity context, not a pre-OSS employer or a definitive source-row linkage.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Both source rows remain separate in one possible-duplicate group. No affiliation is counted until direct personnel-file evidence resolves the duplication.",
+      "sources": [
+        {
+          "source_key": "nara-index-b757",
+          "locator_override": "PDF page 369, row 24"
+        },
+        {
+          "source_key": "cia-pietsch-b757",
+          "locator_override": "Artifact Details"
+        }
+      ]
+    },
+    {
+      "key": "identity-william-h-pietsch-row25-b757",
+      "person_id": "01e210c8-374a-5564-b330-5aecbd56e0b3",
+      "claim_type": "identity",
+      "claim_text": "This indexed William H Pietsch row probably refers to OSS officer William Hiram Pietsch Jr., but the adjacent duplicate row prevents a definitive row-level assignment.",
+      "evidence_excerpt": "Colonel William H. Pietsch, Jr. completed many successful OSS missions",
+      "evidence_paraphrase": "The CIA Museum documents an OSS officer with the same uncommon full name and middle initial; two adjacent index rows remain unresolved.",
+      "identity_match_assessment": "Probable from the uncommon exact name, officer context, and OSS service, but not high confidence because two adjacent rows share the same name and rank.",
+      "temporal_assessment": "The source establishes OSS identity context, not a pre-OSS employer or a definitive source-row linkage.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Both source rows remain separate in one possible-duplicate group. No affiliation is counted until direct personnel-file evidence resolves the duplication.",
+      "sources": [
+        {
+          "source_key": "nara-index-b757",
+          "locator_override": "PDF page 369, row 25"
+        },
+        {
+          "source_key": "cia-pietsch-b757",
+          "locator_override": "Artifact Details"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "43dbed37-7e56-5645-85e1-7d1f04ba9279",
+      "identity_status": "unresolved",
+      "identity_evidence": "The distinctive indexed name produced no accessible corroborating identity source in the staged protocol.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 604 for identifiers, spelling variants, and pre-OSS chronology.",
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "60b85b90-9779-5082-8586-94c87af93e7d",
+      "identity_status": "probable",
+      "identity_evidence": "The exact-name Army candidate is strong, but the same protected identifier is printed for Edward J Pikanski in Box 605. No automatic merge is made.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Compare the Edward J Piekanski file in Box 604 with Edward J Pikanski in Box 605 before resolving identity or employment.",
+      "archival_review_priority": "critical",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "possible_duplicate_group": "b757-piekanski-pikanski-shared-identifier"
+    },
+    {
+      "person_id": "d354f911-cca0-5a98-a887-911ea1825fa8",
+      "identity_status": "ambiguous",
+      "identity_evidence": "An exact-name burial lead documents a World War II Army private but lacks an identifier or OSS link sufficient for this row.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect Box 604 for hometown, dates, Army identifier, and civilian occupation before using the burial lead.",
+      "archival_review_priority": "critical",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false
+    },
+    {
+      "person_id": "4cd22f0c-3d9a-5393-b446-8f77f3d34310",
+      "identity_status": "unresolved",
+      "identity_evidence": "The distinctive indexed civilian-grade name produced no accessible corroborating identity or employment source.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 604 for full identity, employing office, and pre-OSS chronology.",
+      "archival_review_priority": "high",
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false
+    },
+    {
+      "person_id": "1cf55845-ec2e-5bc4-aaaf-b5c4d77a8b2c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact name, U.S. Naval Reserve status, officer rank, theater, and OSS Maritime Unit command agree across the index and U.S. Army Special Operations history.",
+      "manual_review_required": true,
+      "research_status": "completed",
+      "next_action": "Inspect Box 605 for the last civilian employer and exact transfer date from the Navy Field Photographic Office.",
+      "archival_review_priority": "high",
+      "personnel_category": "commissioned_naval_officer",
+      "commissioned_officer": true
+    },
+    {
+      "person_id": "c7276c33-f457-573d-b8bc-9d2730be76b6",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 605 for civilian occupation and pre-OSS assignment chronology.",
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false
+    },
+    {
+      "person_id": "ff6d6d2a-31af-5a12-9ef6-e413ea94e8e9",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The indexed civilian-grade name has no accessible corroborating identifier or employment source.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect Box 605 for full identity, employing office, and pre-OSS chronology.",
+      "archival_review_priority": "critical",
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false
+    },
+    {
+      "person_id": "567ade6d-718a-5244-a55b-461a26448c08",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 605 for civilian occupation and pre-OSS assignment chronology.",
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false
+    },
+    {
+      "person_id": "35088b49-20f5-5259-80f0-dcea1f5d4963",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The common name and captain's rank were not independently linked to an accessible OSS biography or military record.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect Box 605 for branch, officer identifier, hometown, and pre-OSS chronology.",
+      "archival_review_priority": "critical",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true
+    },
+    {
+      "person_id": "a4d0d342-4d4d-544b-8c5f-371aee29f703",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The printed identifier is damaged as scientific notation and cannot safely support an identity match.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect Box 605 to recover the original identifier, confirm identity, and establish civilian occupation.",
+      "archival_review_priority": "critical",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false
+    },
+    {
+      "person_id": "11b65116-afa0-5feb-b007-5c7250fb2971",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The common name, absent rank, and literal truncated 'Folder al' note do not establish identity.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect Box 605 and resolve the literal 'Folder al' note before assigning identity or employment.",
+      "archival_review_priority": "critical",
+      "personnel_category": "unknown_or_indeterminate"
+    },
+    {
+      "person_id": "9897a524-bbfe-536c-bf27-f48df65031ac",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The nonshared protected identifier and Hubert B agree with an official Army row whose fixed-width surname is visibly damaged as P RCE.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 605 for civilian occupation and confirm the damaged Army surname against the personnel file.",
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false
+    },
+    {
+      "person_id": "8fd4d85c-804c-5316-bbbb-bd2a277e927a",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The index prints first-name cell W and middle-name cell Ruth with a civilian grade, but no accessible source resolves the name structure or employment.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect Box 605 for the full name, employing office, and pre-OSS chronology.",
+      "archival_review_priority": "critical",
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false
+    },
+    {
+      "person_id": "312aeb6c-9f16-57d1-a6c9-dcd364d8a266",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 605 for rank, civilian occupation, and pre-OSS assignment chronology.",
+      "archival_review_priority": "high",
+      "personnel_category": "unknown_or_indeterminate"
+    },
+    {
+      "person_id": "acdb754c-da44-51b4-98d3-5616303399fe",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed French-language rank and distinctive name produced no accessible source that establishes nationality, branch, or identity.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 605 for nationality, service branch, identifiers, and pre-OSS chronology.",
+      "archival_review_priority": "critical",
+      "personnel_category": "foreign_or_allied_military_personnel"
+    },
+    {
+      "person_id": "b9419cee-247e-56d6-9b7d-735abae167f5",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The index has no rank or protected identifier, and the literal 'Also 331' cross-reference requires archival resolution.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect Boxes 605 and 331 for identity, cross-reference meaning, and pre-OSS affiliation.",
+      "archival_review_priority": "critical",
+      "personnel_category": "unknown_or_indeterminate"
+    },
+    {
+      "person_id": "e9430935-ce25-5cf4-a88d-bdb151cf5084",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 605 for rank, civilian occupation, and pre-OSS assignment chronology.",
+      "archival_review_priority": "high",
+      "personnel_category": "unknown_or_indeterminate"
+    },
+    {
+      "person_id": "247c1b7b-a8ca-57e7-8f2c-12a07db18d4c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact official Army record, Jr suffix, and protected identifier align with an obituary documenting West Virginia University, Army service, and assignment to OSS.",
+      "manual_review_required": true,
+      "research_status": "completed",
+      "next_action": "Inspect Box 605 for the exact Army-to-OSS transfer date and any named civilian employer before university study.",
+      "archival_review_priority": "medium",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "name_variants": [
+        "Robert Clarence Pierson Jr.",
+        "Robert C. Pierson Jr."
+      ]
+    },
+    {
+      "person_id": "5ac5eca1-a440-5d4b-b984-8aa933c5f9d6",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed name produced no accessible corroborating identifier or OSS biography in the staged protocol.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 605 for identifiers, rank, and pre-OSS chronology.",
+      "archival_review_priority": "high",
+      "personnel_category": "unknown_or_indeterminate"
+    },
+    {
+      "person_id": "0b627837-9fe2-5bdd-a708-832ade849f96",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed civilian-grade name produced no accessible source that establishes identity or employing office.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 605 for full identity, employing office, and pre-OSS chronology.",
+      "archival_review_priority": "high",
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false
+    },
+    {
+      "person_id": "af984cb1-71cc-5416-9e81-893067f9a431",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 605 for civilian occupation and pre-OSS assignment chronology.",
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false
+    },
+    {
+      "person_id": "1539d17f-4a77-52cf-8554-049e4b306131",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 605 for rank, civilian occupation, and pre-OSS assignment chronology.",
+      "archival_review_priority": "high",
+      "personnel_category": "unknown_or_indeterminate"
+    },
+    {
+      "person_id": "a9b80f7f-8285-5170-8106-8ee19150f6fd",
+      "identity_status": "probable",
+      "identity_evidence": "An official CIA biography documents an OSS officer with the same uncommon name and middle initial, but two adjacent index rows share the same name, rank, and box.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare both William H Pietsch entries in Box 605 and determine whether the blank-identifier row is a duplicate.",
+      "archival_review_priority": "critical",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "possible_duplicate_group": "b757-william-h-pietsch-adjacent-rows",
+      "name_variants": [
+        "William Hiram Pietsch Jr.",
+        "William H. Pietsch Jr."
+      ]
+    },
+    {
+      "person_id": "01e210c8-374a-5564-b330-5aecbd56e0b3",
+      "identity_status": "probable",
+      "identity_evidence": "An official CIA biography documents an OSS officer with the same uncommon name and middle initial, but two adjacent index rows share the same name, rank, and box.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Compare both William H Pietsch entries in Box 605 and determine whether the identified row and blank-identifier row are duplicates.",
+      "archival_review_priority": "critical",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "possible_duplicate_group": "b757-william-h-pietsch-adjacent-rows",
+      "name_variants": [
+        "William Hiram Pietsch Jr.",
+        "William H. Pietsch Jr."
+      ]
+    },
+    {
+      "person_id": "96ae9209-72b9-5a07-a49f-55513004edb8",
+      "identity_status": "unresolved",
+      "identity_evidence": "Search results for the indexed name were dominated by unrelated titled namesakes and did not establish this OSS identity.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 605 for full identity, nationality, identifiers, and pre-OSS chronology.",
+      "archival_review_priority": "critical",
+      "personnel_category": "unknown_or_indeterminate"
+    },
+    {
+      "person_id": "5f8b1dda-289c-570e-ac37-3065d20b6bf1",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The indexed name and protected identifier were not independently linked to an accessible official or biographical source.",
+      "manual_review_required": true,
+      "research_status": "needs_identity_review",
+      "next_action": "Inspect Box 605 for rank, branch, hometown, and pre-OSS chronology.",
+      "archival_review_priority": "critical",
+      "personnel_category": "unknown_or_indeterminate"
+    },
+    {
+      "person_id": "096dbd4b-4b7c-5f82-a1aa-507f93312857",
+      "identity_status": "conflicting",
+      "identity_evidence": "The indexed spelling shares a protected identifier with Edward J Piekanski, while the official Army row uses Piekanski. The rows remain separate.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Compare Box 605 with the Edward J Piekanski file in Box 604 before resolving spelling, duplication, or employment.",
+      "archival_review_priority": "critical",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "possible_duplicate_group": "b757-piekanski-pikanski-shared-identifier"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "george-l-piday-protocol-b757",
+      "person_id": "43dbed37-7e56-5645-85e1-7d1f04ba9279",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; George L Piday exact-name and variants; OSS; CIA-domain; employer; occupation; military; obituary; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "staged_web_protocol_batch_757",
+      "started_at": "2026-10-12T20:05:00-04:00",
+      "completed_at": "2026-10-12T20:48:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Accessible exact-name, OSS, employment, occupation, obituary, institutional, newspaper, directory, and archival results did not establish a publishable employer claim.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The personnel file may require archival examination.",
+      "next_action": "Inspect Box 604 for identifiers, spelling variants, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b757-v1"
+    },
+    {
+      "key": "edward-j-piekanski-protocol-b757",
+      "person_id": "60b85b90-9779-5082-8586-94c87af93e7d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Edward J Piekanski exact-name and variants; OSS; CIA-domain; employer; occupation; military; obituary; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "identity_disambiguation_protocol_batch_757",
+      "started_at": "2026-10-12T20:05:00-04:00",
+      "completed_at": "2026-10-12T20:48:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "The exact Army-name candidate favors Piekanski, but the cross-box spelling conflict defeats an automatic merge or settled row-level identity.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified. One protected identifier appears under Piekanski and Pikanski spellings; both rows remain separate pending archival comparison.",
+      "next_action": "Compare the Edward J Piekanski file in Box 604 with Edward J Pikanski in Box 605 before resolving identity or employment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b757-v1"
+    },
+    {
+      "key": "frank-w-piekarczyk-protocol-b757",
+      "person_id": "d354f911-cca0-5a98-a887-911ea1825fa8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Frank W Piekarczyk exact-name and variants; OSS; CIA-domain; employer; occupation; military; obituary; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "staged_web_protocol_batch_757",
+      "started_at": "2026-10-12T20:05:00-04:00",
+      "completed_at": "2026-10-12T20:48:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Accessible exact-name, OSS, employment, occupation, obituary, institutional, newspaper, directory, and archival results did not establish a publishable employer claim.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The personnel file may require archival examination.",
+      "next_action": "Inspect Box 604 for hometown, dates, Army identifier, and civilian occupation before using the burial lead.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b757-v1"
+    },
+    {
+      "key": "rosemond-m-pielke-protocol-b757",
+      "person_id": "4cd22f0c-3d9a-5393-b446-8f77f3d34310",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Rosemond M Pielke exact-name and variants; OSS; CIA-domain; employer; occupation; military; obituary; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "staged_web_protocol_batch_757",
+      "started_at": "2026-10-12T20:05:00-04:00",
+      "completed_at": "2026-10-12T20:48:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Accessible exact-name, OSS, employment, occupation, obituary, institutional, newspaper, directory, and archival results did not establish a publishable employer claim.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The personnel file may require archival examination.",
+      "next_action": "Inspect Box 604 for full identity, employing office, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b757-v1"
+    },
+    {
+      "key": "kenneth-m-pier-protocol-b757",
+      "person_id": "1cf55845-ec2e-5bc4-aaaf-b5c4d77a8b2c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Kenneth M Pier exact-name and variants; OSS; CIA-domain; employer; occupation; military; obituary; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "identity_disambiguation_protocol_batch_757",
+      "started_at": "2026-10-12T20:05:00-04:00",
+      "completed_at": "2026-10-12T20:48:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "The U.S. Army Special Operations history supports identity and the immediate Navy assignment; other leads did not establish a civilian employer.",
+      "research_notes": "A high-confidence immediate pre-OSS military assignment was identified at the U.S. Navy Field Photographic Office. No reliable civilian employer has yet been identified.",
+      "next_action": "Inspect Box 605 for the last civilian employer and exact transfer date from the Navy Field Photographic Office.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b757-v1"
+    },
+    {
+      "key": "spiros-d-pieratos-protocol-b757",
+      "person_id": "c7276c33-f457-573d-b8bc-9d2730be76b6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Spiros D Pieratos exact-name and variants; OSS; CIA-domain; employer; occupation; military; obituary; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "identity_disambiguation_protocol_batch_757",
+      "started_at": "2026-10-12T20:05:00-04:00",
+      "completed_at": "2026-10-12T20:48:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Official identity evidence was accepted; other results lacked a reliable named employer and defensible pre-OSS chronology.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The accepted official Army evidence establishes identity only; coded Army fields are not employer evidence.",
+      "next_action": "Inspect Box 605 for civilian occupation and pre-OSS assignment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b757-v1"
+    },
+    {
+      "key": "christian-j-pierce-protocol-b757",
+      "person_id": "ff6d6d2a-31af-5a12-9ef6-e413ea94e8e9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Christian J Pierce exact-name and variants; OSS; CIA-domain; employer; occupation; military; obituary; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "staged_web_protocol_batch_757",
+      "started_at": "2026-10-12T20:05:00-04:00",
+      "completed_at": "2026-10-12T20:48:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Accessible exact-name, OSS, employment, occupation, obituary, institutional, newspaper, directory, and archival results did not establish a publishable employer claim.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The personnel file may require archival examination.",
+      "next_action": "Inspect Box 605 for full identity, employing office, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b757-v1"
+    },
+    {
+      "key": "donald-s-pierce-protocol-b757",
+      "person_id": "567ade6d-718a-5244-a55b-461a26448c08",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Donald S Pierce exact-name and variants; OSS; CIA-domain; employer; occupation; military; obituary; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "identity_disambiguation_protocol_batch_757",
+      "started_at": "2026-10-12T20:05:00-04:00",
+      "completed_at": "2026-10-12T20:48:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Official identity evidence was accepted; other results lacked a reliable named employer and defensible pre-OSS chronology.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The accepted official Army evidence establishes identity only; coded Army fields are not employer evidence.",
+      "next_action": "Inspect Box 605 for civilian occupation and pre-OSS assignment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b757-v1"
+    },
+    {
+      "key": "frederick-s-pierce-protocol-b757",
+      "person_id": "35088b49-20f5-5259-80f0-dcea1f5d4963",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Frederick S Pierce exact-name and variants; OSS; CIA-domain; employer; occupation; military; obituary; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "staged_web_protocol_batch_757",
+      "started_at": "2026-10-12T20:05:00-04:00",
+      "completed_at": "2026-10-12T20:48:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Accessible exact-name, OSS, employment, occupation, obituary, institutional, newspaper, directory, and archival results did not establish a publishable employer claim.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The personnel file may require archival examination.",
+      "next_action": "Inspect Box 605 for branch, officer identifier, hometown, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b757-v1"
+    },
+    {
+      "key": "george-w-pierce-protocol-b757",
+      "person_id": "a4d0d342-4d4d-544b-8c5f-371aee29f703",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; George W Pierce exact-name and variants; OSS; CIA-domain; employer; occupation; military; obituary; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "staged_web_protocol_batch_757",
+      "started_at": "2026-10-12T20:05:00-04:00",
+      "completed_at": "2026-10-12T20:48:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Accessible exact-name, OSS, employment, occupation, obituary, institutional, newspaper, directory, and archival results did not establish a publishable employer claim.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The personnel file may require archival examination.",
+      "next_action": "Inspect Box 605 to recover the original identifier, confirm identity, and establish civilian occupation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b757-v1"
+    },
+    {
+      "key": "guy-r-pierce-protocol-b757",
+      "person_id": "11b65116-afa0-5feb-b007-5c7250fb2971",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Guy R Pierce exact-name and variants; OSS; CIA-domain; employer; occupation; military; obituary; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "staged_web_protocol_batch_757",
+      "started_at": "2026-10-12T20:05:00-04:00",
+      "completed_at": "2026-10-12T20:48:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Accessible exact-name, OSS, employment, occupation, obituary, institutional, newspaper, directory, and archival results did not establish a publishable employer claim.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The personnel file may require archival examination.",
+      "next_action": "Inspect Box 605 and resolve the literal 'Folder al' note before assigning identity or employment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b757-v1"
+    },
+    {
+      "key": "hubert-b-pierce-protocol-b757",
+      "person_id": "9897a524-bbfe-536c-bf27-f48df65031ac",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Hubert B Pierce exact-name and variants; OSS; CIA-domain; employer; occupation; military; obituary; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "identity_disambiguation_protocol_batch_757",
+      "started_at": "2026-10-12T20:05:00-04:00",
+      "completed_at": "2026-10-12T20:48:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Official identity evidence was accepted; other results lacked a reliable named employer and defensible pre-OSS chronology.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The accepted official Army evidence establishes identity only; coded Army fields are not employer evidence.",
+      "next_action": "Inspect Box 605 for civilian occupation and confirm the damaged Army surname against the personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b757-v1"
+    },
+    {
+      "key": "w-ruth-pierce-protocol-b757",
+      "person_id": "8fd4d85c-804c-5316-bbbb-bd2a277e927a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; W Ruth Pierce exact-name and variants; OSS; CIA-domain; employer; occupation; military; obituary; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "staged_web_protocol_batch_757",
+      "started_at": "2026-10-12T20:05:00-04:00",
+      "completed_at": "2026-10-12T20:48:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Accessible exact-name, OSS, employment, occupation, obituary, institutional, newspaper, directory, and archival results did not establish a publishable employer claim.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The personnel file may require archival examination.",
+      "next_action": "Inspect Box 605 for the full name, employing office, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b757-v1"
+    },
+    {
+      "key": "roger-l-pierre-protocol-b757",
+      "person_id": "312aeb6c-9f16-57d1-a6c9-dcd364d8a266",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Roger L Pierre exact-name and variants; OSS; CIA-domain; employer; occupation; military; obituary; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "identity_disambiguation_protocol_batch_757",
+      "started_at": "2026-10-12T20:05:00-04:00",
+      "completed_at": "2026-10-12T20:48:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Official identity evidence was accepted; other results lacked a reliable named employer and defensible pre-OSS chronology.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The accepted official Army evidence establishes identity only; coded Army fields are not employer evidence.",
+      "next_action": "Inspect Box 605 for rank, civilian occupation, and pre-OSS assignment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b757-v1"
+    },
+    {
+      "key": "gilbert-pierrel-protocol-b757",
+      "person_id": "acdb754c-da44-51b4-98d3-5616303399fe",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Gilbert Pierrel exact-name and variants; OSS; CIA-domain; employer; occupation; military; obituary; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "staged_web_protocol_batch_757",
+      "started_at": "2026-10-12T20:05:00-04:00",
+      "completed_at": "2026-10-12T20:48:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Accessible exact-name, OSS, employment, occupation, obituary, institutional, newspaper, directory, and archival results did not establish a publishable employer claim.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The personnel file may require archival examination.",
+      "next_action": "Inspect Box 605 for nationality, service branch, identifiers, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b757-v1"
+    },
+    {
+      "key": "esther-pierson-protocol-b757",
+      "person_id": "b9419cee-247e-56d6-9b7d-735abae167f5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Esther Pierson exact-name and variants; OSS; CIA-domain; employer; occupation; military; obituary; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "staged_web_protocol_batch_757",
+      "started_at": "2026-10-12T20:05:00-04:00",
+      "completed_at": "2026-10-12T20:48:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Accessible exact-name, OSS, employment, occupation, obituary, institutional, newspaper, directory, and archival results did not establish a publishable employer claim.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The personnel file may require archival examination.",
+      "next_action": "Inspect Boxes 605 and 331 for identity, cross-reference meaning, and pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b757-v1"
+    },
+    {
+      "key": "glen-pierson-protocol-b757",
+      "person_id": "e9430935-ce25-5cf4-a88d-bdb151cf5084",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Glen Pierson exact-name and variants; OSS; CIA-domain; employer; occupation; military; obituary; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "identity_disambiguation_protocol_batch_757",
+      "started_at": "2026-10-12T20:05:00-04:00",
+      "completed_at": "2026-10-12T20:48:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Official identity evidence was accepted; other results lacked a reliable named employer and defensible pre-OSS chronology.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The accepted official Army evidence establishes identity only; coded Army fields are not employer evidence.",
+      "next_action": "Inspect Box 605 for rank, civilian occupation, and pre-OSS assignment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b757-v1"
+    },
+    {
+      "key": "robert-c-pierson-protocol-b757",
+      "person_id": "247c1b7b-a8ca-57e7-8f2c-12a07db18d4c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Robert C Pierson exact-name and variants; OSS; CIA-domain; employer; occupation; military; obituary; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "identity_disambiguation_protocol_batch_757",
+      "started_at": "2026-10-12T20:05:00-04:00",
+      "completed_at": "2026-10-12T20:48:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The official Army record and obituary support identity and chronology; the university is educational status, not employment.",
+      "research_notes": "The Army-to-OSS assignment and West Virginia University student status are supported. No named civilian employer before service has yet been identified.",
+      "next_action": "Inspect Box 605 for the exact Army-to-OSS transfer date and any named civilian employer before university study.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b757-v1"
+    },
+    {
+      "key": "walter-r-pierson-protocol-b757",
+      "person_id": "5ac5eca1-a440-5d4b-b984-8aa933c5f9d6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Walter R Pierson exact-name and variants; OSS; CIA-domain; employer; occupation; military; obituary; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "staged_web_protocol_batch_757",
+      "started_at": "2026-10-12T20:05:00-04:00",
+      "completed_at": "2026-10-12T20:48:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Accessible exact-name, OSS, employment, occupation, obituary, institutional, newspaper, directory, and archival results did not establish a publishable employer claim.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The personnel file may require archival examination.",
+      "next_action": "Inspect Box 605 for identifiers, rank, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b757-v1"
+    },
+    {
+      "key": "anna-v-pietri-protocol-b757",
+      "person_id": "0b627837-9fe2-5bdd-a708-832ade849f96",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Anna V Pietri exact-name and variants; OSS; CIA-domain; employer; occupation; military; obituary; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "staged_web_protocol_batch_757",
+      "started_at": "2026-10-12T20:05:00-04:00",
+      "completed_at": "2026-10-12T20:48:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Accessible exact-name, OSS, employment, occupation, obituary, institutional, newspaper, directory, and archival results did not establish a publishable employer claim.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The personnel file may require archival examination.",
+      "next_action": "Inspect Box 605 for full identity, employing office, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b757-v1"
+    },
+    {
+      "key": "emmanuel-pietromartire-protocol-b757",
+      "person_id": "af984cb1-71cc-5416-9e81-893067f9a431",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Emmanuel Pietromartire exact-name and variants; OSS; CIA-domain; employer; occupation; military; obituary; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "identity_disambiguation_protocol_batch_757",
+      "started_at": "2026-10-12T20:05:00-04:00",
+      "completed_at": "2026-10-12T20:48:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Official identity evidence was accepted; other results lacked a reliable named employer and defensible pre-OSS chronology.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The accepted official Army evidence establishes identity only; coded Army fields are not employer evidence.",
+      "next_action": "Inspect Box 605 for civilian occupation and pre-OSS assignment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b757-v1"
+    },
+    {
+      "key": "bernard-m-pietrowiak-protocol-b757",
+      "person_id": "1539d17f-4a77-52cf-8554-049e4b306131",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Bernard M Pietrowiak exact-name and variants; OSS; CIA-domain; employer; occupation; military; obituary; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "identity_disambiguation_protocol_batch_757",
+      "started_at": "2026-10-12T20:05:00-04:00",
+      "completed_at": "2026-10-12T20:48:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Official identity evidence was accepted; other results lacked a reliable named employer and defensible pre-OSS chronology.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The accepted official Army evidence establishes identity only; coded Army fields are not employer evidence. Direct CIA and Library of Congress adapter attempts encountered robots-policy and HTTP 503 access failures; those failures are not negative evidence.",
+      "next_action": "Inspect Box 605 for rank, civilian occupation, and pre-OSS assignment chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b757-v1"
+    },
+    {
+      "key": "william-h-pietsch-row24-protocol-b757",
+      "person_id": "a9b80f7f-8285-5170-8106-8ee19150f6fd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; William H Pietsch exact-name and variants; OSS; CIA-domain; employer; occupation; military; obituary; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "identity_disambiguation_protocol_batch_757",
+      "started_at": "2026-10-12T20:05:00-04:00",
+      "completed_at": "2026-10-12T20:48:00-04:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The uncommon name and OSS officer context support a probable match, but direct personnel-file evidence is needed to assign the biography to one or both rows.",
+      "research_notes": "An official CIA biography is a strong identity lead, but two adjacent William H Pietsch index rows remain separate. No affiliation is counted until the duplication is resolved.",
+      "next_action": "Compare both William H Pietsch entries in Box 605 and determine whether the blank-identifier row is a duplicate.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b757-v1"
+    },
+    {
+      "key": "william-h-pietsch-row25-protocol-b757",
+      "person_id": "01e210c8-374a-5564-b330-5aecbd56e0b3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; William H Pietsch exact-name and variants; OSS; CIA-domain; employer; occupation; military; obituary; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "identity_disambiguation_protocol_batch_757",
+      "started_at": "2026-10-12T20:05:00-04:00",
+      "completed_at": "2026-10-12T20:48:00-04:00",
+      "outcome": "candidate_found",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The uncommon name and OSS officer context support a probable match, but direct personnel-file evidence is needed to assign the biography to one or both rows.",
+      "research_notes": "An official CIA biography is a strong identity lead, but two adjacent William H Pietsch index rows remain separate. No affiliation is counted until the duplication is resolved.",
+      "next_action": "Compare both William H Pietsch entries in Box 605 and determine whether the identified row and blank-identifier row are duplicates.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b757-v1"
+    },
+    {
+      "key": "guido-pignatelli-protocol-b757",
+      "person_id": "96ae9209-72b9-5a07-a49f-55513004edb8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Guido Pignatelli exact-name and variants; OSS; CIA-domain; employer; occupation; military; obituary; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "staged_web_protocol_batch_757",
+      "started_at": "2026-10-12T20:05:00-04:00",
+      "completed_at": "2026-10-12T20:48:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Accessible exact-name, OSS, employment, occupation, obituary, institutional, newspaper, directory, and archival results did not establish a publishable employer claim.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The personnel file may require archival examination.",
+      "next_action": "Inspect Box 605 for full identity, nationality, identifiers, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b757-v1"
+    },
+    {
+      "key": "joseph-w-pignatelli-protocol-b757",
+      "person_id": "5f8b1dda-289c-570e-ac37-3065d20b6bf1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Joseph W Pignatelli exact-name and variants; OSS; CIA-domain; employer; occupation; military; obituary; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "staged_web_protocol_batch_757",
+      "started_at": "2026-10-12T20:05:00-04:00",
+      "completed_at": "2026-10-12T20:48:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Accessible exact-name, OSS, employment, occupation, obituary, institutional, newspaper, directory, and archival results did not establish a publishable employer claim.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The personnel file may require archival examination.",
+      "next_action": "Inspect Box 605 for rank, branch, hometown, and pre-OSS chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b757-v1"
+    },
+    {
+      "key": "edward-j-pikanski-protocol-b757",
+      "person_id": "096dbd4b-4b7c-5f82-a1aa-507f93312857",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index; Edward J Pikanski exact-name and variants; OSS; CIA-domain; employer; occupation; military; obituary; institutional; newspaper; directory; and archival searches",
+      "query_variant_type": "identity_disambiguation_protocol_batch_757",
+      "started_at": "2026-10-12T20:05:00-04:00",
+      "completed_at": "2026-10-12T20:48:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The exact Army-name candidate favors Piekanski, but the cross-box spelling conflict defeats an automatic merge or settled row-level identity.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified. One protected identifier appears under Piekanski and Pikanski spellings; both rows remain separate pending archival comparison.",
+      "next_action": "Compare Box 605 with the Edward J Piekanski file in Box 604 before resolving spelling, duplication, or employment.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b757-v1"
+    }
+  ]
+}
