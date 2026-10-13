@@ -1,5 +1,36 @@
 # Research status
 
+Batch 761 completed PDF page 370, rows 37-46, from **Murcil M Pittard**
+through **James P Pizor**, with a terminal disposition for all ten people.
+Three qualified, medium-confidence prewar student affiliations are published:
+Murcil Monroe Pittard at Wake Forest College in 1923-1924, Felicetta Pittaro
+as a Hunter College Bachelor of Arts candidate in 1933, and probable James P.
+Pizor as Grove City College class of 1940. None is labeled employment or an
+immediate pre-OSS affiliation. Exact official Army name-and-identifier matches
+establish Frank S. Pittillo and Lawrence R. Pitts at high identity confidence
+only. An official Congressional Record entry establishes Colonel Otto G.
+Pitz's full name and Coast Artillery context, but its July 1942 date is not
+misrepresented as proof of a pre-OSS sequence. Robert F. Pitts retains an
+explicit conflict because the official Army record at his indexed identifier
+names Dovidio Alfonso; no mismatched Army metadata is transferred. Nine people
+have \`requires_archival_review\`, and Robert has \`conflicting_sources\`. The
+oil-company category remains evidence-scoped to **nine people across 11
+historically named companies**. No authenticated NARA Catalog request was
+made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **10,508/23,939 (43.8949%)**;
+verified-employer coverage is **345/23,939 (1.4412%)**;
+verified-affiliation coverage is **781/23,939 (3.2625%)**; archival-review
+coverage is **8,966/23,939 (37.4535%)**. There are **13,426** \`not_started\`
+people and **536** possible-duplicate groups. SQLite retains **19,352**
+attempts or plans and **6,685** claims: 1,400 confirmed, 3,203 high, 1,575
+medium, 198 low, 307 conflicting, and two unresolved. It has **5,873**
+citation records and **3,011** unique source documents. The public projection
+has **2,553** affiliations, **895** organizations, **4,649** sources, and
+**6,478** claims. Full-index historical research remains unfinished. The next
+boundary is PDF page 371, row 1, **Olga Pizzorno**.
+
 Batch 736 completed PDF page 358, rows 24-46, from **Arthur J Parry** through
 **John Pascone**, with a terminal disposition for all 23 people. Seven exact
 official Army matches establish identity only. William E Parry and Marvin F
