@@ -59,6 +59,15 @@ completed outcome. The next boundary is page 373, row 23, Charles A Pooler.
 
 ## Publication
 
-This is a local release candidate. GitHub Actions, Pages publication, and an
-immutable live-release verification against the exact release commit remain
-required before this record may describe Batch 766 as publicly released.
+Batch 766 was published from release commit
+`f5e4b31ef2d194424350f2a8380cfb02b3b5f594` to
+<https://therealjameswilson.github.io/before-oss/>.
+
+- Deploy GitHub Pages run `38356235633` completed successfully at
+  `2026-10-13T06:23:20Z`.
+- Test run `38356235634` completed successfully at `2026-10-13T06:26:00Z`.
+- The immutable live verifier matched **67** assets totaling **108,625,680**
+  bytes at manifest SHA-256
+  `0e22276f09c6697c0779f0888d0cc157513938e40befcc4baf769ce50f489480`.
+- It verified eight core routes, 32 source-register pages, and all 21 profiles
+  directly changed by this evidence bundle against the exact release commit.
