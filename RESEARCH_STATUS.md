@@ -1,5 +1,38 @@
 # Research status
 
+Batch 768 completed PDF page 374, rows 1-24, from **Menelaos N Porfiris**
+through **Monan M Posey**, preserving all 24 printed rows as separate source
+records. The printed page was visually checked at 300 dpi. All 24 people
+received new terminal research attempts. Eleven official Army identity
+decisions were accepted and two remain conflicting. A declassified OSS roster,
+visually checked at 200 dpi, independently confirms **Georgios P Portolos**,
+the documented **Bill Portolos** variant for indexed William, and **Alexander
+C Poryzees** through matching protected identifiers; no full identifier is
+published. An institutional World War II roster supports a probable identity
+and qualified 10th Mountain Division assignment for **Karl G Porges**, and a
+qualified assignment for Bill Portolos, but neither assignment is presented as
+immediately pre-OSS because the sequence remains unknown. An official North
+Dakota roster supplies a probable lead for **James A Poseley** but not a shared
+identifier or OSS-specific bridge. **Lee Porter/PORZER** and **Monan/Norman M
+Posey** remain visible official-source conflicts. No new employer is claimed.
+The oil-company category remains **10 people across 12 historically named
+companies**. The CIA and Library of Congress adapters failed closed because of
+source-access restrictions; NARA was used in dry-run mode only and no
+authenticated Catalog API request was made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **10,667/23,939 (44.5591%)**;
+verified-employer coverage is **349/23,939 (1.4579%)**;
+verified-affiliation coverage is **786/23,939 (3.2833%)**; archival-review
+coverage is **9,125/23,939 (38.1177%)**. There are **13,267** `not_started`
+people, **537** possible-duplicate groups, and **362** conflicts. SQLite retains
+**19,598** attempts or plans and **6,777** claims: 1,405 confirmed, 3,270 high,
+1,584 medium, 201 low, 315 conflicting, and two unresolved. It has **5,908**
+citation records and **3,037** unique source documents. The public projection
+has **2,570** affiliations, **905** organizations, **4,684** sources, and
+**6,570** claims. Full-index historical research remains unfinished. The next
+indexed boundary is PDF page 374, row 25, **Philip Poskanzer**.
+
 Batch 767 completed PDF page 373, rows 23-46, from **Charles A Pooler**
 through **Armando Poretta**, preserving all 24 printed rows as separate source
 records. The printed page was visually checked at 300 dpi. Twenty-three people
