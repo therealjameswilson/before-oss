@@ -67,5 +67,16 @@ Philip Poskanzer.
 
 ## Publication
 
-Publication is pending the GitHub Pages and test workflows. This section will
-be updated from the immutable live verifier after the release commit is live.
+Release commit `009925362e0532dc9c6246f1f37b472e2fd476f4` was pushed to
+`main` on 2026-10-13. The hosted
+[Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38364437610)
+completed successfully at 2026-10-13T07:47:40Z, and the
+[Deploy GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38364437591)
+completed successfully at 2026-10-13T07:44:44Z.
+
+The immutable live verifier checked the public site against that exact commit:
+all 67 manifest assets and 108,771,674 bytes matched SHA-256 manifest digest
+`c393b0a84d42731b118f45b03f6a67062123c345cae68ca4c51f3d5ce44864d4`;
+all eight core routes, all 32 source-register pages, and all 24 Batch 768
+profile routes returned their expected public content. The verified public URL
+is <https://therealjameswilson.github.io/before-oss/>.
