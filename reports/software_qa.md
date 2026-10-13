@@ -1,6 +1,6 @@
 # Software QA
 
-Run: 2026-10-13 America/New_York, Batch 765 local release candidate. All
+Run: 2026-10-13 America/New_York, Batch 765 exact-verified public release. All
 **139/139** Python tests and 78 subtests pass; SQLite integrity, foreign-key,
 and 522-page/23,978-row extraction checks remain covered; the deterministic
 200-profile structural audit passes all seven checks. Astro checks 399 source
@@ -13,8 +13,10 @@ formatted variants across 24,954 artifacts with zero unexpected full-number
 matches. The local verifier matches 67 assets / 108,571,133 bytes. Two builds
 reproduce production-tree SHA-256
 `7fb23eb1b9f522cbab6a1538922ca5bbfe259e1c1f659802d54dd7709232990e`.
-CI and live deployment verification remain separate publication gates. See
-reports/release_batch_765.md.
+GitHub Actions test and Pages workflows completed successfully for release
+commit `b9c31a9ed5ba1ab5acea023c0e7f1cbce8dbac38`; the immutable live verifier
+matched all 67 manifest assets, eight core routes, 32 source-register pages,
+and 18 directly affected profiles. See reports/release_batch_765.md.
 
 Run: 2026-10-13 America/New_York, Batch 764 exact-verified public release. All
 **139/139** Python tests pass; SQLite integrity, foreign-key, and

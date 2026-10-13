@@ -107,9 +107,20 @@ The exact rebuilt tree passed these local release gates:
 
 ## Publication status
 
-Pending publication from the Batch 765 release commit. GitHub Actions test and
-Pages results and an unauthenticated immutable live verification will be added
-only after they complete.
+Published from release commit
+`b9c31a9ed5ba1ab5acea023c0e7f1cbce8dbac38` on 2026-10-13.
+
+* GitHub Pages workflow
+  [38353116128](https://github.com/therealjameswilson/before-oss/actions/runs/38353116128)
+  completed successfully at 2026-10-13 05:48:19 UTC.
+* Test workflow
+  [38353116066](https://github.com/therealjameswilson/before-oss/actions/runs/38353116066)
+  completed successfully at 2026-10-13 05:50:58 UTC.
+* An unauthenticated immutable verification of
+  <https://therealjameswilson.github.io/before-oss/> matched the release
+  commit: 67 assets / 108,571,133 bytes, eight core routes, 32 source-register
+  pages, and all 18 Batch 765 profiles. The deployed manifest SHA-256 is
+  `d5f5f49cd921f502c72af1a527ccba388d8f86cfd0833e941cd9451731ccfe05`.
 
 ## Resume
 
