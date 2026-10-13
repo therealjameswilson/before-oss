@@ -1,5 +1,42 @@
 # Research status
 
+Batch 762 completed PDF page 371, rows 1-18, from **Vincent Pizutto**
+through **Robert S Platt**, with a terminal disposition for all 18 people. The
+printed page was visually checked at 300 dpi and confirms that its first row
+is Vincent Pizutto; the Batch 761 next-boundary note naming Olga Pizzorno was
+incorrect and is superseded by this verified reading. Five exact or
+core-name official Army matches establish Alexander J Pizzi, John
+Pizzoferrato, Alfred D Plamondon, Gerard A Plante, and Frank P Platnick at
+high identity confidence only. Army coded occupations are excluded. William
+G Plaetti retains an explicit conflict because his protected identifier is
+shared with a separate William G Paletti row and the Army record uses the
+Paletti spelling; no Army metadata is transferred. A historian's report of
+direct personnel-file review supports probable Rade Plan alias Robert Perry
+and a qualified, medium-confidence earlier military affiliation with the
+Yugoslav Battalion at Haifa. A contemporaneous official OSS memorandum,
+visually inspected at 300 dpi, establishes Gardiner S Platt at high identity
+confidence without being converted into employer evidence. Robert S Platt
+remains unresolved: strong institutional sources for geographer Robert
+Swanton Platt were rejected for this profile because no direct OSS or
+personnel-file bridge was found. Seventeen people have
+`requires_archival_review`, William Plaetti has `conflicting_sources`, and no
+named employer was added. The oil-company category remains evidence-scoped
+to **nine people across 11 historically named companies**. No authenticated
+NARA Catalog request was made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **10,526/23,939 (43.9701%)**;
+verified-employer coverage is **345/23,939 (1.4412%)**;
+verified-affiliation coverage is **781/23,939 (3.2625%)**; archival-review
+coverage is **8,984/23,939 (37.5287%)**. There are **13,408** `not_started`
+people and **536** possible-duplicate groups. SQLite retains **19,372**
+attempts or plans and **6,694** claims: 1,400 confirmed, 3,209 high, 1,577
+medium, 198 low, 308 conflicting, and two unresolved. It has **5,877**
+citation records and **3,014** unique source documents. The public projection
+has **2,554** affiliations, **896** organizations, **4,653** sources, and
+**6,487** claims. Full-index historical research remains unfinished. The next
+boundary is PDF page 371, row 19, **Karl J Platz**.
+
 Batch 761 completed PDF page 370, rows 37-46, from **Murcil M Pittard**
 through **James P Pizor**, with a terminal disposition for all ten people.
 Three qualified, medium-confidence prewar student affiliations are published:
@@ -28,8 +65,9 @@ attempts or plans and **6,685** claims: 1,400 confirmed, 3,203 high, 1,575
 medium, 198 low, 307 conflicting, and two unresolved. It has **5,873**
 citation records and **3,011** unique source documents. The public projection
 has **2,553** affiliations, **895** organizations, **4,649** sources, and
-**6,478** claims. Full-index historical research remains unfinished. The next
-boundary is PDF page 371, row 1, **Olga Pizzorno**.
+**6,478** claims. Full-index historical research remains unfinished. Its
+reported next-boundary name was later corrected by Batch 762's 300 dpi page
+review: PDF page 371 begins with **Vincent Pizutto**, not Olga Pizzorno.
 
 Batch 736 completed PDF page 358, rows 24-46, from **Arthur J Parry** through
 **John Pascone**, with a terminal disposition for all 23 people. Seven exact
