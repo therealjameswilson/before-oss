@@ -8,7 +8,7 @@ Batch 779 covers PDF page 379, rows 24-46, Alvin G Psinas through
 Michael C Puleo. All 23 printed rows remain preserved as distinct source
 records and are linked to 23 distinct person entities. Page 379 was inspected
 against a 300 dpi render before research. The next unresearched boundary is PDF
-page 379, row 47.
+page 380, row 1.
 
 George J Pugliese's printed note `Ind. Arm` and Michael C Puleo's printed note
 `French` remain exactly as printed. Neither note was expanded or used to infer
@@ -82,5 +82,5 @@ in
 `research/evidence-page379-psinas-puleo-review_batch-779_2026-10-13.json`.
 Both files validate and import idempotently through the normal pipeline.
 
-Resume new-person research at PDF page 379, row 47. Full-index historical
+Resume new-person research at PDF page 380, row 1. Full-index historical
 research remains unfinished; 13,017 active people are still `not_started`.

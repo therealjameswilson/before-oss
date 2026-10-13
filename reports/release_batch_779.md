@@ -7,7 +7,7 @@ Date: 2026-10-13 America/New_York
 Batch 779 covers PDF page 379, rows 24-46, Alvin G Psinas through Michael C
 Puleo. All 23 printed rows remain preserved and linked to 23 distinct person
 entities. Every person received a saved, terminal research outcome. The next
-indexed boundary is page 379, row 47.
+indexed boundary is page 380, row 1.
 
 ## Research outcome
 
@@ -100,4 +100,4 @@ GitHub ran the affected actions on Node.js 24; neither notice failed or altered
 this release.
 
 The full project remains unfinished. Batch 779 is published, but 13,017 active
-person entities remain `not_started`; work resumes at page 379, row 47.
+person entities remain `not_started`; work resumes at page 380, row 1.
