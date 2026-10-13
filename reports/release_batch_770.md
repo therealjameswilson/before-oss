@@ -75,5 +75,16 @@ indexed boundary is page 375, row 25, Eleanor A Powell.
 
 ## Publication
 
-Publication pending commit, GitHub Actions completion, and immutable live-site
-verification.
+Release commit `b20328151a88f631b5bedf1908d7cdbe96be7656` was pushed to
+`main` on 2026-10-13. The hosted
+[Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38373473204)
+completed successfully at 2026-10-13T09:07:24Z, and the
+[Deploy GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38373473227)
+completed successfully at 2026-10-13T09:04:25Z.
+
+The immutable live verifier checked the public site against that exact commit:
+all 67 manifest assets and 108,899,271 bytes matched SHA-256 manifest digest
+`341275f89fed7e14af7238f988886227654333e17b889365d4abdf63a16b83c4`;
+all eight core routes, all 32 source-register pages, and all 24 Batch 770
+profile routes returned their expected public content. The verified public URL
+is <https://therealjameswilson.github.io/before-oss/>.
