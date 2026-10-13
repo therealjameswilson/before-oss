@@ -1,5 +1,39 @@
 # Research status
 
+Batch 767 completed PDF page 373, rows 23-46, from **Charles A Pooler**
+through **Armando Poretta**, preserving all 24 printed rows as separate source
+records. The printed page was visually checked at 300 dpi. Twenty-three people
+received new terminal research attempts; **Arthur A Pope** retains the
+previously documented conflict in his three-row Batch 732 cluster. Six exact
+official Army identity matches were accepted. **Armando Poretta** remains
+probable because the Army source renders the surname `PORRETTA`. **Eva M
+Popovich** has a high-confidence identity and a documented immediate pre-OSS
+student status, but the source does not name her university and no employer is
+inferred. **Eli Popovich**, also documented as Ilija (Eli) Popovic, has a
+high-confidence identity, an official engineer occupation, a qualified
+medium-confidence U.S. Army military-road pathway immediately before OSS, and
+earlier steel-mill work for which no employer is named. **Charles G Poore**
+remains ambiguous because the New York Times critic namesake lacks an OSS
+bridge. **Edmund S Porada** and **Edward S Porada** remain separate people in a
+visible possible-duplicate group. The oil-company category remains **10 people
+across 12 historically named companies**. The CIA and Library of Congress
+adapters failed closed because of source-access restrictions; NARA was used in
+dry-run mode only and no authenticated Catalog API request was made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **10,643/23,939 (44.4588%)**;
+verified-employer coverage is **349/23,939 (1.4579%)**;
+verified-affiliation coverage is **786/23,939 (3.2833%)**; archival-review
+coverage is **9,101/23,939 (38.0175%)**. There are **13,291** `not_started`
+people, **537** possible-duplicate groups, and **360** conflicts. SQLite retains
+**19,524** attempts or plans and **6,760** claims: 1,402 confirmed, 3,262 high,
+1,581 medium, 200 low, 313 conflicting, and two unresolved. It has **5,903**
+citation records and **3,034** unique source documents. The public projection
+has **2,566** affiliations, **905** organizations, **4,679** sources, and
+**6,551** claims. Full-index historical research remains unfinished. The next
+indexed boundary is PDF page 374, row 1, **Menelaos N Porfiris**; page 374 has
+not yet received the batch visual audit.
+
 Batch 766 completed PDF page 373, rows 1-22, from **Seymour J Pomrenze**
 through **Margeret C Poole**, with terminal dispositions for all 22 separately
 preserved people and rows. The printed page was visually checked at 300 dpi.
