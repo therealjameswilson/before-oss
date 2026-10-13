@@ -77,5 +77,20 @@ indexed boundary is page 377, row 24, Isma L Price.
 
 ## Publication
 
-Publication is pending the release commit, GitHub Actions checks, Pages deploy,
-and immutable live-manifest verification.
+- Release commit:
+  `d6df7eb602a890e32212fce51eb1874e00786310`.
+- The [Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38395092993)
+  completed successfully at 2026-10-13T12:13:06Z.
+- The [Deploy GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38395093090)
+  completed successfully at 2026-10-13T12:10:21Z.
+- Immutable live verification against the release commit confirmed all 67
+  manifest assets and 109,117,041 bytes, all eight core routes, all 32 source
+  register pages, and all 23 Batch 774 profile routes. The deployed manifest
+  SHA-256 is
+  `6dd6c5282d7f6aba36284ea3d0d5952727e001f1b04f76feb2d57dff3388bad2`.
+- Live site: <https://therealjameswilson.github.io/before-oss/>.
+
+Both workflows emitted maintenance notices that selected GitHub actions still
+target Node.js 20 and that `ubuntu-latest` is scheduled to migrate to Ubuntu 26.
+GitHub ran the affected actions on Node.js 24; neither notice failed or altered
+this release.
