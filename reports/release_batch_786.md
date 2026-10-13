@@ -74,9 +74,27 @@ The next indexed boundary is page 383, row 25, Tommie I Rammage.
 
 ## Publication
 
-Publication is pending the release commit, GitHub Pages workflow, test workflow,
-and immutable live verification.
+- Release commit:
+  `9524a9a65ea66dd378c591f151364ebf1738cf2d`.
+- The [Deploy GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38457119791)
+  completed successfully. Its first deploy attempt encountered a transient
+  GitHub ID-token request timeout after the build and artifact upload passed;
+  the failed deploy job was retried without rebuilding or changing content and
+  succeeded.
+- The [Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38457119579)
+  completed successfully.
+- Immutable live verification against the release commit confirmed all 67
+  manifest assets and 109,908,100 bytes, all eight core routes, all 32 source
+  register pages, and all 24 directly affected profile routes. The deployed
+  manifest SHA-256 is
+  `9e545d71e0f2019dad82d14ce618e887ddc3d8dbc08932cfe3b17040155fedc6`.
+- Live site: <https://therealjameswilson.github.io/before-oss/>.
 
-The full project remains unfinished. Batch 786 is release-ready, but 12,856
+Both workflows emitted maintenance notices that selected GitHub actions still
+target Node.js 20 and that `ubuntu-latest` is scheduled to migrate to Ubuntu 26.
+GitHub ran the affected actions on Node.js 24; neither notice failed or altered
+this release.
+
+The full project remains unfinished. Batch 786 is published, but 12,856
 active person entities remain `not_started`; work resumes at page 383, row 25,
 Tommie I Rammage.
