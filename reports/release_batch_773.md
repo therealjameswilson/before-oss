@@ -7,7 +7,7 @@ Date: 2026-10-13 America/New_York
 Batch 773 covers PDF page 376, rows 25-46, Philip P Pratt through Julia J
 Preston. All 22 printed rows remain preserved and linked to 22 distinct person
 entities. Each person received a new terminal manual research attempt. The next
-indexed boundary is page 377, row 1, Daniel A Preston.
+indexed boundary is page 377, row 1, Thomas G Presutti.
 
 ## Research outcome
 

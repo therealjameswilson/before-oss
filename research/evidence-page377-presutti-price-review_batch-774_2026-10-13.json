@@ -1,0 +1,1155 @@
+{
+  "bundle_version": "batch-774-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 774 identity and source review",
+  "sources": [
+    {
+      "key": "nara-index-b774",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 618-619",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 377, rows 1-23; visually checked against a 300 dpi render",
+      "access_date": "2026-10-13",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Full service or officer numbers remain private and are excluded from public claims and downloads."
+    },
+    {
+      "key": "army-bulk-b774",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department. Adjutant General's Office",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946",
+      "locator": "Eleven reviewed exact-name and protected-identifier matches; one adjacent different-name protected-identifier conflict",
+      "access_date": "2026-10-13",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Selective Service System, Record Group 147",
+      "rights_notes": "Official unrestricted bulk data, not a Catalog API response. Full protected identifiers, coded occupations, grade codes, and raw records are not published or retained."
+    },
+    {
+      "key": "nps-prevost-b774",
+      "stable_url": "https://www.nps.gov/articles/daily-life-in-camp-park-and-town.htm",
+      "title": "Daily Life in Camp Park and Town",
+      "repository_publisher": "U.S. National Park Service",
+      "publication_record_date": "2017-07-27",
+      "locator": "Espionage and Sabotage Exercises in the Region; lines describing the June 1942 Advanced SO class",
+      "access_date": "2026-10-13",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "OSS Training in the National Parks and Service Abroad in World War II",
+      "rights_notes": "The NPS page calls Roger Prevost a Free French Army lieutenant; the Army bulk record reports an entry grade of private. The status conflict is retained."
+    },
+    {
+      "key": "fdr-price-b774",
+      "stable_url": "https://www.lexisnexis.com/documents/academic/upa_cis/2179_fdrofficefilespt1.pdf",
+      "archival_identifier": "President's Secretary's File, Safe and Confidential Files, OSS folder, reel 7 frame 0397",
+      "title": "President Franklin Roosevelt's Office Files, 1933-1945, Part 1: Safe and Confidential Files",
+      "repository_publisher": "University Publications of America; records held by the Franklin D. Roosevelt Presidential Library",
+      "locator": "Guide page 15, biographical index; guide page 26, OSS file description",
+      "access_date": "2026-10-13",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "President Franklin Roosevelt's Office Files, 1933-1945",
+      "rights_notes": "The guide identifies Ernest B. Price as OSS China Desk staff and as a principal correspondent in the February 1942-April 1944 OSS file."
+    },
+    {
+      "key": "uchicago-photo-price-b774",
+      "stable_url": "https://photoarchive.lib.uchicago.edu/db.xqy?one=apf1-06894.xml",
+      "archival_identifier": "Image Identifier apf1-06894",
+      "title": "Price, Ernest Batson",
+      "repository_publisher": "University of Chicago Library, Special Collections Research Center",
+      "publication_record_date": "1935-01-14",
+      "locator": "Archival Photographic Files, Series I: Individuals and Groups",
+      "access_date": "2026-10-13",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "University of Chicago Photographic Archive",
+      "rights_notes": "Institutional metadata identifies Price as a diplomat, professor, and director of International House. The photograph date is not treated as a complete employment range."
+    },
+    {
+      "key": "uchicago-echo-price-b774",
+      "stable_url": "https://campub.lib.uchicago.edu/text/?docId=mvol-0001-0042-0000",
+      "archival_identifier": "ECHO, volume 3, number 1",
+      "title": "ECHO, June 1938",
+      "repository_publisher": "University of Chicago Library",
+      "publication_record_date": "1938-06",
+      "locator": "Foreign News, International House Again, page 14",
+      "access_date": "2026-10-13",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "University of Chicago Campus Publications",
+      "rights_notes": "A contemporary campus publication explicitly identifies Ernest Batson Price as director of International House."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "university-chicago-b774",
+      "canonical_name": "University of Chicago",
+      "historical_name": "University of Chicago",
+      "aliases": [
+        "International House at the University of Chicago",
+        "International House"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Chicago",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "normalization_notes": "The employing university is canonicalized separately; International House is preserved in the name-as-found and role fields rather than silently collapsed."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "ernest-price-uchicago-b774",
+      "person_id": "bfbcedc1-eded-5e06-abfe-389c2a429229",
+      "organization_key": "university-chicago-b774",
+      "organization_name_as_found": "International House at the University of Chicago",
+      "role_title": "director of International House and professor",
+      "occupation": "university administrator and professor",
+      "relationship_type": "employment",
+      "start_date": "1938",
+      "end_date": "1938",
+      "date_precision": "Documented in a June 1938 contemporary campus publication; these dates establish presence, not the full tenure.",
+      "city": "Chicago",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "This is a documented prewar university role. The reviewed sources do not establish it as the immediate pre-OSS affiliation or the last civilian employer before wartime service."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-samuel-j-prete-b774",
+      "person_id": "24eb8a43-9348-564b-b252-2321ae1883a4",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record supports a high-confidence identity match for indexed Samuel J Prete.",
+      "evidence_excerpt": "PRETE SAMUEL J",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High-confidence official name and nonshared protected-identifier match.",
+      "temporal_assessment": "Identity and Army service only; the coded occupation is not employer evidence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer is inferred from the Army occupation code.",
+      "sources": [
+        {
+          "source_key": "nara-index-b774",
+          "locator_override": "PDF page 377, row 2"
+        },
+        {
+          "source_key": "army-bulk-b774",
+          "excerpt_override": "PRETE SAMUEL J"
+        }
+      ]
+    },
+    {
+      "key": "identity-walter-pretzat-b774",
+      "person_id": "0ac1d76a-6ec3-58dc-afa1-f61a49e8897f",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record supports a high-confidence identity match for indexed Walter Pretzat.",
+      "evidence_excerpt": "PRETZAT WALTER",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High-confidence official name and nonshared protected-identifier match.",
+      "temporal_assessment": "Identity and Army service only; the coded occupation is not employer evidence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer is inferred from the Army occupation code.",
+      "sources": [
+        {
+          "source_key": "nara-index-b774",
+          "locator_override": "PDF page 377, row 3"
+        },
+        {
+          "source_key": "army-bulk-b774",
+          "excerpt_override": "PRETZAT WALTER"
+        }
+      ]
+    },
+    {
+      "key": "identity-joseph-j-previte-b774",
+      "person_id": "8d9cf9f1-220b-544e-b554-fe0336ec23dc",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record supports a high-confidence identity match for indexed Joseph J Previte.",
+      "evidence_excerpt": "PREVITE JOSEPH J",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High-confidence official name and nonshared protected-identifier match.",
+      "temporal_assessment": "Identity and Army service only; the coded occupation is not employer evidence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer is inferred from the Army occupation code.",
+      "sources": [
+        {
+          "source_key": "nara-index-b774",
+          "locator_override": "PDF page 377, row 4"
+        },
+        {
+          "source_key": "army-bulk-b774",
+          "excerpt_override": "PREVITE JOSEPH J"
+        }
+      ]
+    },
+    {
+      "key": "identity-francis-h-prevost-b774",
+      "person_id": "5342ffd6-a5b1-51f6-ab66-32e1cb3d347b",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record supports a high-confidence identity match for indexed Francis H Prevost.",
+      "evidence_excerpt": "PREVOST FRANCIS H",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High-confidence official name and nonshared protected-identifier match.",
+      "temporal_assessment": "Identity and Army service only; the coded occupation is not employer evidence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer is inferred from the Army occupation code.",
+      "sources": [
+        {
+          "source_key": "nara-index-b774",
+          "locator_override": "PDF page 377, row 5"
+        },
+        {
+          "source_key": "army-bulk-b774",
+          "excerpt_override": "PREVOST FRANCIS H"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-c-prevost-b774",
+      "person_id": "704233e7-be52-58bd-9c45-d4f0c5b27c34",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record supports a high-confidence identity match for indexed John C Prevost.",
+      "evidence_excerpt": "PREVOST JOHN C",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High-confidence official name and nonshared protected-identifier match.",
+      "temporal_assessment": "Identity and Army service only; the coded occupation is not employer evidence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer is inferred from the Army occupation code.",
+      "sources": [
+        {
+          "source_key": "nara-index-b774",
+          "locator_override": "PDF page 377, row 6"
+        },
+        {
+          "source_key": "army-bulk-b774",
+          "excerpt_override": "PREVOST JOHN C"
+        }
+      ]
+    },
+    {
+      "key": "identity-roger-prevost-b774",
+      "person_id": "ee95457e-77fe-5618-8cb2-797cadbf93d3",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record supports a high-confidence identity match for indexed Roger Prevost.",
+      "evidence_excerpt": "PREVOST ROGER",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High-confidence official name and nonshared protected-identifier match.",
+      "temporal_assessment": "Identity and Army service only; the coded occupation is not employer evidence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The official identity match is accepted, but the NPS description of a Free French Army lieutenant and the Army entry-grade field remain a visible status conflict.",
+      "sources": [
+        {
+          "source_key": "nara-index-b774",
+          "locator_override": "PDF page 377, row 7"
+        },
+        {
+          "source_key": "army-bulk-b774",
+          "excerpt_override": "PREVOST ROGER"
+        }
+      ]
+    },
+    {
+      "key": "identity-george-d-prewitt-b774",
+      "person_id": "0f40043f-5852-5c99-a601-55972f49cfa2",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record supports a high-confidence identity match for indexed George D Prewitt.",
+      "evidence_excerpt": "PREWITT GEORGE D",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High-confidence official name and nonshared protected-identifier match.",
+      "temporal_assessment": "Identity and Army service only; the coded occupation is not employer evidence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer is inferred from the Army occupation code.",
+      "sources": [
+        {
+          "source_key": "nara-index-b774",
+          "locator_override": "PDF page 377, row 8"
+        },
+        {
+          "source_key": "army-bulk-b774",
+          "excerpt_override": "PREWITT GEORGE D"
+        }
+      ]
+    },
+    {
+      "key": "identity-barney-l-priar-b774",
+      "person_id": "d355c9e1-add4-593c-b6d3-8b0b35daff15",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record supports a high-confidence identity match for indexed Barney L Priar.",
+      "evidence_excerpt": "PRIAR BARNEY L",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High-confidence official name and nonshared protected-identifier match.",
+      "temporal_assessment": "Identity and Army service only; the coded occupation is not employer evidence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer is inferred from the Army occupation code.",
+      "sources": [
+        {
+          "source_key": "nara-index-b774",
+          "locator_override": "PDF page 377, row 10"
+        },
+        {
+          "source_key": "army-bulk-b774",
+          "excerpt_override": "PRIAR BARNEY L"
+        }
+      ]
+    },
+    {
+      "key": "identity-venda-a-pribramsky-b774",
+      "person_id": "51e712c2-632e-5ca3-8fc0-44432b173289",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record supports a high-confidence identity match for indexed Venda A Pribramsky.",
+      "evidence_excerpt": "PRIBRAMSKY VENDA A JR",
+      "evidence_paraphrase": "The indexed core name and a nonshared protected identifier agree; the Army record adds the suffix Jr.",
+      "identity_match_assessment": "High-confidence official name and nonshared protected-identifier match.",
+      "temporal_assessment": "Identity and Army service only; the coded occupation is not employer evidence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army record adds Jr as a source-supported variant. No employer is inferred from the Army occupation code.",
+      "sources": [
+        {
+          "source_key": "nara-index-b774",
+          "locator_override": "PDF page 377, row 11"
+        },
+        {
+          "source_key": "army-bulk-b774",
+          "excerpt_override": "PRIBRAMSKY VENDA A JR"
+        }
+      ]
+    },
+    {
+      "key": "identity-arnold-h-price-b774",
+      "person_id": "ef399d65-e4d1-5e24-8ed6-338e5f7c6e5e",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record supports a high-confidence identity match for indexed Arnold H Price.",
+      "evidence_excerpt": "PRICE ARNOLD H",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree.",
+      "identity_match_assessment": "High-confidence official name and nonshared protected-identifier match.",
+      "temporal_assessment": "Identity and Army service only; the coded occupation is not employer evidence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer is inferred from the Army occupation code.",
+      "sources": [
+        {
+          "source_key": "nara-index-b774",
+          "locator_override": "PDF page 377, row 15"
+        },
+        {
+          "source_key": "army-bulk-b774",
+          "excerpt_override": "PRICE ARNOLD H"
+        }
+      ]
+    },
+    {
+      "key": "roger-prevost-status-conflict-b774",
+      "person_id": "ee95457e-77fe-5618-8cb2-797cadbf93d3",
+      "claim_type": "occupation",
+      "claim_text": "A National Park Service history describes Roger Prevost as a Free French Army lieutenant during June 1942 OSS training, while the official Army bulk record reports an entry grade of private.",
+      "evidence_excerpt": "Roger Prevost, a lieutenant in the Free French Army",
+      "evidence_paraphrase": "The NPS account places an exact-name Roger Prevost in an Advanced Special Operations class in June 1942 and describes his Free French rank.",
+      "identity_match_assessment": "The exact uncommon name and OSS training context strongly connect the NPS account to the indexed person, but the military-status disagreement remains unresolved.",
+      "temporal_assessment": "The source describes status during OSS training, not an explicitly immediate pre-OSS assignment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Do not silently reconcile the NPS lieutenant description with the Army bulk entry grade. Review Box 619 and the underlying service records.",
+      "sources": [
+        {
+          "source_key": "nps-prevost-b774",
+          "support_type": "supports",
+          "locator_override": "Espionage and Sabotage Exercises in the Region",
+          "excerpt_override": "Roger Prevost, a lieutenant in the Free French Army"
+        },
+        {
+          "source_key": "army-bulk-b774",
+          "support_type": "contradicts",
+          "excerpt_override": "PREVOST ROGER; entry grade PVT"
+        }
+      ]
+    },
+    {
+      "key": "identity-ernest-b-price-b774",
+      "person_id": "bfbcedc1-eded-5e06-abfe-389c2a429229",
+      "claim_type": "identity",
+      "claim_text": "An official-record guide and University of Chicago sources support a high-confidence identity match for indexed Ernest B Price.",
+      "evidence_excerpt": "Price, Ernest B. Staff, China Desk, Office of Strategic Services",
+      "evidence_paraphrase": "The FDR-file guide gives the exact name in an OSS China Desk context; University sources supply the distinctive full name and prewar institutional role.",
+      "identity_match_assessment": "High-confidence exact-name and OSS-context match, independently corroborated by institutional sources using the full name Ernest Batson Price.",
+      "temporal_assessment": "The FDR guide establishes wartime OSS service; the University sources independently establish a prewar role.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Postwar oil-company employment was excluded from the pre-OSS claim.",
+      "sources": [
+        {
+          "source_key": "nara-index-b774",
+          "locator_override": "PDF page 377, row 20"
+        },
+        {
+          "source_key": "fdr-price-b774",
+          "locator_override": "Guide pages 15 and 26",
+          "excerpt_override": "Price, Ernest B. Staff, China Desk, Office of Strategic Services"
+        },
+        {
+          "source_key": "uchicago-photo-price-b774",
+          "excerpt_override": "Ernest Batson Price, diplomat, professor, and director of International House"
+        }
+      ]
+    },
+    {
+      "key": "ernest-price-uchicago-employment-b774",
+      "person_id": "bfbcedc1-eded-5e06-abfe-389c2a429229",
+      "affiliation_key": "ernest-price-uchicago-b774",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Ernest Batson Price was director of International House at the University of Chicago and a professor before his OSS service.",
+      "evidence_excerpt": "House director Ernest Batson Price",
+      "evidence_paraphrase": "A contemporary 1938 University of Chicago publication names Price as International House director; archival metadata also identifies him as a professor.",
+      "identity_match_assessment": "High-confidence identity supported by the exact OSS-context name and the distinctive full-name institutional record.",
+      "temporal_assessment": "Explicitly documented in 1938, before OSS existed; the sources do not prove this was his immediate predecessor role.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Classified as documented prewar employment, not immediate pre-OSS and not the last civilian employer before wartime service.",
+      "sources": [
+        {
+          "source_key": "uchicago-echo-price-b774",
+          "locator_override": "ECHO, June 1938, page 14",
+          "excerpt_override": "House director Ernest Batson Price"
+        },
+        {
+          "source_key": "uchicago-photo-price-b774",
+          "excerpt_override": "professor, and director of International House at the University of Chicago"
+        }
+      ]
+    },
+    {
+      "key": "identity-francis-b-price-conflict-b774",
+      "person_id": "a5904ca7-4a85-5d3c-883d-173a9452513f",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk file contains an exact-name Francis B Price record and an adjacent Clark Roland E record tied to the same protected identifier.",
+      "evidence_excerpt": "PRICE FRANCIS B",
+      "evidence_paraphrase": "One candidate exactly agrees with the index, while a second adjacent official record gives a materially different name for the same protected identifier.",
+      "identity_match_assessment": "Conflicting official records; no settled identity is published.",
+      "temporal_assessment": "Identity conflict only; neither record is employer evidence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Review Box 619 and the two Army source records before resolving the identity or assigning an occupation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b774",
+          "locator_override": "PDF page 377, row 21"
+        },
+        {
+          "source_key": "army-bulk-b774",
+          "support_type": "contradicts",
+          "excerpt_override": "PRICE FRANCIS B; CLARK ROLAND E"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "09110d0e-9c6c-55c4-816f-5954904d77ef",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name, OSS, employment, occupation, obituary, institutional, and archival searches produced no reliable identity bridge. A 1952 alumni item about a same-name lawyer is postwar and was rejected as pre-OSS evidence.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 618 for identity, pre-OSS chronology, and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "24eb8a43-9348-564b-b252-2321ae1883a4",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record. This establishes identity and Army service only.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 618 for the recruitment path and last civilian employer; do not treat the Army occupation code as employer evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "nara_catalog_id": "1263923",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "0ac1d76a-6ec3-58dc-afa1-f61a49e8897f",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record. This establishes identity and Army service only.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 618 for the recruitment path and last civilian employer; do not treat the Army occupation code as employer evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "nara_catalog_id": "1263923",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "8d9cf9f1-220b-544e-b554-fe0336ec23dc",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record. This establishes identity and Army service only.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 619 for the recruitment path and last civilian employer; do not treat the Army occupation code as employer evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "nara_catalog_id": "1263923",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "5342ffd6-a5b1-51f6-ab66-32e1cb3d347b",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record. This establishes identity and Army service only.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 619 for the recruitment path and last civilian employer; do not treat the Army occupation code as employer evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "nara_catalog_id": "1263923",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "704233e7-be52-58bd-9c45-d4f0c5b27c34",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record. This establishes identity and Army service only.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 619 for the recruitment path and last civilian employer; do not treat the Army occupation code as employer evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "nara_catalog_id": "1263923",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ee95457e-77fe-5618-8cb2-797cadbf93d3",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and nonshared protected identifier agree with the official Army bulk record. A National Park Service OSS-training history independently identifies an exact-name Roger Prevost but describes him as a Free French Army lieutenant, creating an unresolved personnel-status conflict.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Inspect Box 619 and underlying Army/Free French records to resolve the PVT/lieutenant status conflict and establish the pre-OSS pathway.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "nara_catalog_id": "1263923",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "0f40043f-5852-5c99-a601-55972f49cfa2",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record. This establishes identity and Army service only.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 619 for the recruitment path and last civilian employer; do not treat the Army occupation code as employer evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "nara_catalog_id": "1263923",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "fb9e56f3-bfe8-530b-9308-fb658fc3a162",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name, OSS, employment, occupation, obituary, institutional, and archival searches produced no reliable identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 619 for identity, pre-OSS chronology, and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "d355c9e1-add4-593c-b6d3-8b0b35daff15",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record. This establishes identity and Army service only.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 619 for the recruitment path and last civilian employer; do not treat the Army occupation code as employer evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "nara_catalog_id": "1263923",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "51e712c2-632e-5ca3-8fc0-44432b173289",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed core name and a nonshared protected identifier agree with the official Army bulk record, which adds the suffix Jr. This establishes identity and Army service only.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 619 for the recruitment path and last civilian employer; do not treat the Army occupation code as employer evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "nara_catalog_id": "1263923",
+      "archival_review_priority": "critical",
+      "name_variants": [
+        "Venda A Pribramsky Jr"
+      ]
+    },
+    {
+      "person_id": "9aef9e41-0ff5-5b56-bc24-b4b9f8b290bd",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name, OSS, employment, occupation, obituary, institutional, and archival searches produced no reliable identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 619 for identity, pre-OSS chronology, and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "0b1e74da-dbc6-5af6-b26c-1bc55f08bdd4",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name, OSS, employment, occupation, obituary, institutional, and archival searches produced no reliable identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 619 for identity, pre-OSS chronology, and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "84661f42-adec-533b-a8c3-e66f25af9510",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name, OSS, employment, occupation, obituary, institutional, and archival searches produced no reliable identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 619 for identity, pre-OSS chronology, and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ef399d65-e4d1-5e24-8ed6-338e5f7c6e5e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record. This establishes identity and Army service only.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 619 for the recruitment path and last civilian employer; do not treat the Army occupation code as employer evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "nara_catalog_id": "1263923",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "c523dbb2-c8f8-55bb-8dc9-b0ee9b8925cd",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and employer searches found institutional records for a namesake, but no protected identifier or OSS bridge establishes that the records belong to the indexed person.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 619 for identity, pre-OSS chronology, and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "72db0814-2850-5d61-b5d6-62a1f7dada69",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name, OSS, employment, occupation, obituary, institutional, and archival searches produced no reliable identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 619 for identity, pre-OSS chronology, and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "8d881d39-2019-5fbd-ab94-819260ba4238",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name, OSS, employment, occupation, obituary, institutional, and archival searches produced no reliable identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 619 for identity, pre-OSS chronology, and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "93022574-242d-5d6f-90d5-032ac5158bd1",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name, OSS, employment, occupation, obituary, institutional, and archival searches produced no reliable identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 619 for identity, pre-OSS chronology, and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "bfbcedc1-eded-5e06-abfe-389c2a429229",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact name appears in an official-record guide as OSS China Desk staff, and University of Chicago sources independently identify Ernest Batson Price and his prewar institutional role.",
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Inspect Box 619 to determine the immediate pre-OSS affiliation and last civilian employer; preserve the University of Chicago role as documented prewar employment only.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a5904ca7-4a85-5d3c-883d-173a9452513f",
+      "identity_status": "conflicting",
+      "identity_evidence": "The official Army bulk file contains both an exact-name Francis B Price record and an adjacent Clark Roland E record tied to the same protected identifier. The conflict is unresolved.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Inspect Box 619 and both Army source records before resolving identity or publishing any employer claim.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "nara_catalog_id": "1263923",
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "4d97bbc7-2317-551b-8de3-8ccc57d3592c",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name, OSS, employment, occupation, obituary, institutional, and archival searches produced no reliable identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 619 for identity, pre-OSS chronology, and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "49bf7b84-0980-5ea6-8473-537ef7e05b04",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name, OSS, employment, occupation, obituary, institutional, and archival searches produced no reliable identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 619 for identity, pre-OSS chronology, and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "thomas-g-presutti-protocol-b774",
+      "person_id": "09110d0e-9c6c-55c4-816f-5954904d77ef",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Thomas G Presutti; OSS; CIA; employer 1940; occupation 1940; obituary; institutional; archival",
+      "query_variant_type": "distinctive_name_protocol_batch_774",
+      "started_at": "2026-10-13T11:45:00+00:00",
+      "completed_at": "2026-10-13T12:40:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "A 1952 University of Rochester alumni item describes a same-name lawyer and a newly formed firm, but it is postwar and supplies no protected-identifier or OSS bridge. Other results were namesakes.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 618.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b774-v1"
+    },
+    {
+      "key": "samuel-j-prete-protocol-b774",
+      "person_id": "24eb8a43-9348-564b-b252-2321ae1883a4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Samuel J Prete; OSS; CIA; employer 1940; occupation 1940; obituary; institutional; archival",
+      "query_variant_type": "distinctive_name_protocol_batch_774",
+      "started_at": "2026-10-13T11:45:00+00:00",
+      "completed_at": "2026-10-13T12:40:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Namesake and temporally irrelevant web results were rejected. The official Army exact-name and protected-identifier match establishes identity and Army service only; coded occupation data was not treated as employer evidence.",
+      "research_notes": "High-confidence Army identity established; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 618 for recruitment path and last civilian employer.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b774-v1"
+    },
+    {
+      "key": "walter-pretzat-protocol-b774",
+      "person_id": "0ac1d76a-6ec3-58dc-afa1-f61a49e8897f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Walter Pretzat; OSS; CIA; employer 1940; occupation 1940; obituary; institutional; archival",
+      "query_variant_type": "distinctive_name_protocol_batch_774",
+      "started_at": "2026-10-13T11:45:00+00:00",
+      "completed_at": "2026-10-13T12:40:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Namesake and temporally irrelevant web results were rejected. The official Army exact-name and protected-identifier match establishes identity and Army service only; coded occupation data was not treated as employer evidence.",
+      "research_notes": "High-confidence Army identity established; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 618 for recruitment path and last civilian employer.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b774-v1"
+    },
+    {
+      "key": "joseph-j-previte-protocol-b774",
+      "person_id": "8d9cf9f1-220b-544e-b554-fe0336ec23dc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Joseph J Previte; OSS; CIA; employer 1940; occupation 1940; obituary; institutional; archival",
+      "query_variant_type": "distinctive_name_protocol_batch_774",
+      "started_at": "2026-10-13T11:45:00+00:00",
+      "completed_at": "2026-10-13T12:40:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Namesake and temporally irrelevant web results were rejected. The official Army exact-name and protected-identifier match establishes identity and Army service only; coded occupation data was not treated as employer evidence.",
+      "research_notes": "High-confidence Army identity established; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 619 for recruitment path and last civilian employer.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b774-v1"
+    },
+    {
+      "key": "francis-h-prevost-protocol-b774",
+      "person_id": "5342ffd6-a5b1-51f6-ab66-32e1cb3d347b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Francis H Prevost; OSS; CIA; employer 1940; occupation 1940; obituary; institutional; archival",
+      "query_variant_type": "distinctive_name_protocol_batch_774",
+      "started_at": "2026-10-13T11:45:00+00:00",
+      "completed_at": "2026-10-13T12:40:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Namesake and temporally irrelevant web results were rejected. The official Army exact-name and protected-identifier match establishes identity and Army service only; coded occupation data was not treated as employer evidence.",
+      "research_notes": "High-confidence Army identity established; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 619 for recruitment path and last civilian employer.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b774-v1"
+    },
+    {
+      "key": "john-c-prevost-protocol-b774",
+      "person_id": "704233e7-be52-58bd-9c45-d4f0c5b27c34",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; John C Prevost; OSS; CIA; employer 1940; occupation 1940; obituary; institutional; archival",
+      "query_variant_type": "distinctive_name_protocol_batch_774",
+      "started_at": "2026-10-13T11:45:00+00:00",
+      "completed_at": "2026-10-13T12:40:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Namesake and temporally irrelevant web results were rejected. The official Army exact-name and protected-identifier match establishes identity and Army service only; coded occupation data was not treated as employer evidence.",
+      "research_notes": "High-confidence Army identity established; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 619 for recruitment path and last civilian employer.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b774-v1"
+    },
+    {
+      "key": "roger-prevost-protocol-b774",
+      "person_id": "ee95457e-77fe-5618-8cb2-797cadbf93d3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Roger Prevost; OSS; CIA; employer 1940; occupation 1940; obituary; institutional; archival",
+      "query_variant_type": "distinctive_name_protocol_batch_774",
+      "started_at": "2026-10-13T11:45:00+00:00",
+      "completed_at": "2026-10-13T12:40:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unbridged obituaries and namesakes were rejected. The Army identity match is strong, but the NPS Free French lieutenant description conflicts with the Army entry grade and is not treated as an immediate pre-OSS assignment.",
+      "research_notes": "Identity is high-confidence; personnel status and pre-OSS chronology remain conflicting and require archival review.",
+      "next_action": "Inspect Box 619 and underlying Army/Free French records.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b774-v1"
+    },
+    {
+      "key": "george-d-prewitt-protocol-b774",
+      "person_id": "0f40043f-5852-5c99-a601-55972f49cfa2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; George D Prewitt; OSS; CIA; employer 1940; occupation 1940; obituary; institutional; archival",
+      "query_variant_type": "distinctive_name_protocol_batch_774",
+      "started_at": "2026-10-13T11:45:00+00:00",
+      "completed_at": "2026-10-13T12:40:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Namesake and temporally irrelevant web results were rejected. The official Army exact-name and protected-identifier match establishes identity and Army service only; coded occupation data was not treated as employer evidence.",
+      "research_notes": "High-confidence Army identity established; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 619 for recruitment path and last civilian employer.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b774-v1"
+    },
+    {
+      "key": "michele-p-priano-protocol-b774",
+      "person_id": "fb9e56f3-bfe8-530b-9308-fb658fc3a162",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Michele P Priano; OSS; CIA; employer 1940; occupation 1940; obituary; institutional; archival",
+      "query_variant_type": "distinctive_name_protocol_batch_774",
+      "started_at": "2026-10-13T11:45:00+00:00",
+      "completed_at": "2026-10-13T12:40:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Exact-name, OSS, employment, occupation, obituary, institutional, and archival searches produced no protected-identifier or OSS-specific identity bridge. NARA was dry-run only; CIA and LoC access failures were recorded as limitations, not negative evidence.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 619.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b774-v1"
+    },
+    {
+      "key": "barney-l-priar-protocol-b774",
+      "person_id": "d355c9e1-add4-593c-b6d3-8b0b35daff15",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Barney L Priar; OSS; CIA; employer 1940; occupation 1940; obituary; institutional; archival",
+      "query_variant_type": "distinctive_name_protocol_batch_774",
+      "started_at": "2026-10-13T11:45:00+00:00",
+      "completed_at": "2026-10-13T12:40:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Namesake and temporally irrelevant web results were rejected. The official Army exact-name and protected-identifier match establishes identity and Army service only; coded occupation data was not treated as employer evidence.",
+      "research_notes": "High-confidence Army identity established; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 619 for recruitment path and last civilian employer.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b774-v1"
+    },
+    {
+      "key": "venda-a-pribramsky-protocol-b774",
+      "person_id": "51e712c2-632e-5ca3-8fc0-44432b173289",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Venda A Pribramsky; OSS; CIA; employer 1940; occupation 1940; obituary; institutional; archival",
+      "query_variant_type": "distinctive_name_protocol_batch_774",
+      "started_at": "2026-10-13T11:45:00+00:00",
+      "completed_at": "2026-10-13T12:40:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Namesake and temporally irrelevant web results were rejected. The official Army exact-name and protected-identifier match establishes identity and Army service only; coded occupation data was not treated as employer evidence.",
+      "research_notes": "High-confidence Army identity established; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 619 for recruitment path and last civilian employer.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b774-v1"
+    },
+    {
+      "key": "allan-b-price-protocol-b774",
+      "person_id": "9aef9e41-0ff5-5b56-bc24-b4b9f8b290bd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Allan B Price; OSS; CIA; employer 1940; occupation 1940; obituary; institutional; archival",
+      "query_variant_type": "common_name_protocol_batch_774",
+      "started_at": "2026-10-13T11:45:00+00:00",
+      "completed_at": "2026-10-13T12:40:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Exact-name, OSS, employment, occupation, obituary, institutional, and archival searches produced no protected-identifier or OSS-specific identity bridge. NARA was dry-run only; CIA and LoC access failures were recorded as limitations, not negative evidence.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 619.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-b774-v1"
+    },
+    {
+      "key": "alvina-m-price-protocol-b774",
+      "person_id": "0b1e74da-dbc6-5af6-b26c-1bc55f08bdd4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Alvina M Price; OSS; CIA; employer 1940; occupation 1940; obituary; institutional; archival",
+      "query_variant_type": "common_name_protocol_batch_774",
+      "started_at": "2026-10-13T11:45:00+00:00",
+      "completed_at": "2026-10-13T12:40:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Exact-name, OSS, employment, occupation, obituary, institutional, and archival searches produced no protected-identifier or OSS-specific identity bridge. NARA was dry-run only; CIA and LoC access failures were recorded as limitations, not negative evidence.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 619.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b774-v1"
+    },
+    {
+      "key": "analouise-c-price-protocol-b774",
+      "person_id": "84661f42-adec-533b-a8c3-e66f25af9510",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Analouise C Price; OSS; CIA; employer 1940; occupation 1940; obituary; institutional; archival",
+      "query_variant_type": "common_name_protocol_batch_774",
+      "started_at": "2026-10-13T11:45:00+00:00",
+      "completed_at": "2026-10-13T12:40:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Exact-name, OSS, employment, occupation, obituary, institutional, and archival searches produced no protected-identifier or OSS-specific identity bridge. NARA was dry-run only; CIA and LoC access failures were recorded as limitations, not negative evidence.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 619.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b774-v1"
+    },
+    {
+      "key": "arnold-h-price-protocol-b774",
+      "person_id": "ef399d65-e4d1-5e24-8ed6-338e5f7c6e5e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Arnold H Price; OSS; CIA; employer 1940; occupation 1940; obituary; institutional; archival",
+      "query_variant_type": "common_name_protocol_batch_774",
+      "started_at": "2026-10-13T11:45:00+00:00",
+      "completed_at": "2026-10-13T12:40:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Namesake and temporally irrelevant web results were rejected. The official Army exact-name and protected-identifier match establishes identity and Army service only; coded occupation data was not treated as employer evidence.",
+      "research_notes": "High-confidence Army identity established; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 619 for recruitment path and last civilian employer.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b774-v1"
+    },
+    {
+      "key": "blanche-e-price-protocol-b774",
+      "person_id": "c523dbb2-c8f8-55bb-8dc9-b0ee9b8925cd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Blanche E Price; OSS; CIA; employer 1940; occupation 1940; obituary; institutional; archival",
+      "query_variant_type": "common_name_protocol_batch_774",
+      "started_at": "2026-10-13T11:45:00+00:00",
+      "completed_at": "2026-10-13T12:40:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Institutional records for a same-name university administrator and teacher lack a protected identifier or OSS bridge. The common-name candidate is withheld rather than assigned to the indexed person.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 619.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b774-v1"
+    },
+    {
+      "key": "brenizer-l-price-protocol-b774",
+      "person_id": "72db0814-2850-5d61-b5d6-62a1f7dada69",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Brenizer L Price; OSS; CIA; employer 1940; occupation 1940; obituary; institutional; archival",
+      "query_variant_type": "common_name_protocol_batch_774",
+      "started_at": "2026-10-13T11:45:00+00:00",
+      "completed_at": "2026-10-13T12:40:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Exact-name, OSS, employment, occupation, obituary, institutional, and archival searches produced no protected-identifier or OSS-specific identity bridge. NARA was dry-run only; CIA and LoC access failures were recorded as limitations, not negative evidence.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 619.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b774-v1"
+    },
+    {
+      "key": "elizabeth-m-price-protocol-b774",
+      "person_id": "8d881d39-2019-5fbd-ab94-819260ba4238",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Elizabeth M Price; OSS; CIA; employer 1940; occupation 1940; obituary; institutional; archival",
+      "query_variant_type": "common_name_protocol_batch_774",
+      "started_at": "2026-10-13T11:45:00+00:00",
+      "completed_at": "2026-10-13T12:40:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Exact-name, OSS, employment, occupation, obituary, institutional, and archival searches produced no protected-identifier or OSS-specific identity bridge. NARA was dry-run only; CIA and LoC access failures were recorded as limitations, not negative evidence.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 619.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b774-v1"
+    },
+    {
+      "key": "elizabeth-w-price-protocol-b774",
+      "person_id": "93022574-242d-5d6f-90d5-032ac5158bd1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Elizabeth W Price; OSS; CIA; employer 1940; occupation 1940; obituary; institutional; archival",
+      "query_variant_type": "common_name_protocol_batch_774",
+      "started_at": "2026-10-13T11:45:00+00:00",
+      "completed_at": "2026-10-13T12:40:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Exact-name, OSS, employment, occupation, obituary, institutional, and archival searches produced no protected-identifier or OSS-specific identity bridge. NARA was dry-run only; CIA and LoC access failures were recorded as limitations, not negative evidence.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 619.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b774-v1"
+    },
+    {
+      "key": "ernest-b-price-protocol-b774",
+      "person_id": "bfbcedc1-eded-5e06-abfe-389c2a429229",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Ernest B Price; OSS; CIA; employer 1940; occupation 1940; obituary; institutional; archival",
+      "query_variant_type": "common_name_protocol_batch_774",
+      "started_at": "2026-10-13T11:45:00+00:00",
+      "completed_at": "2026-10-13T12:40:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Postwar Standard-Vacuum employment and temporally ambiguous 1943 Brookings research were excluded. The FDR guide and University of Chicago sources establish OSS identity and a documented 1938 university role, but not immediacy.",
+      "research_notes": "A high-confidence documented prewar University of Chicago employment claim is published; the immediate pre-OSS affiliation and last civilian employer remain unresolved.",
+      "next_action": "Inspect Box 619 for the immediate pre-OSS chronology.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b774-v1"
+    },
+    {
+      "key": "francis-b-price-protocol-b774",
+      "person_id": "a5904ca7-4a85-5d3c-883d-173a9452513f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Francis B Price; OSS; CIA; employer 1940; occupation 1940; obituary; institutional; archival",
+      "query_variant_type": "common_name_protocol_batch_774",
+      "started_at": "2026-10-13T11:45:00+00:00",
+      "completed_at": "2026-10-13T12:40:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Web namesakes were rejected. The Army file contains an exact-name record and an adjacent materially different-name record sharing the protected identifier, so identity remains conflicting.",
+      "research_notes": "No employer claim is published while the official-record identity conflict remains unresolved.",
+      "next_action": "Inspect Box 619 and both Army source records.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b774-v1"
+    },
+    {
+      "key": "frederick-e-price-protocol-b774",
+      "person_id": "4d97bbc7-2317-551b-8de3-8ccc57d3592c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Frederick E Price; OSS; CIA; employer 1940; occupation 1940; obituary; institutional; archival",
+      "query_variant_type": "common_name_protocol_batch_774",
+      "started_at": "2026-10-13T11:45:00+00:00",
+      "completed_at": "2026-10-13T12:40:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Exact-name, OSS, employment, occupation, obituary, institutional, and archival searches produced no protected-identifier or OSS-specific identity bridge. NARA was dry-run only; CIA and LoC access failures were recorded as limitations, not negative evidence.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 619.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b774-v1"
+    },
+    {
+      "key": "harvey-o-price-protocol-b774",
+      "person_id": "49bf7b84-0980-5ea6-8473-537ef7e05b04",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Harvey O Price; OSS; CIA; employer 1940; occupation 1940; obituary; institutional; archival",
+      "query_variant_type": "common_name_protocol_batch_774",
+      "started_at": "2026-10-13T11:45:00+00:00",
+      "completed_at": "2026-10-13T12:40:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Exact-name, OSS, employment, occupation, obituary, institutional, and archival searches produced no protected-identifier or OSS-specific identity bridge. NARA was dry-run only; CIA and LoC access failures were recorded as limitations, not negative evidence.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 619.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b774-v1"
+    }
+  ]
+}

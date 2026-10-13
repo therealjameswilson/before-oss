@@ -8,7 +8,7 @@ Batch 773 covers PDF page 376, rows 25-46, Philip P Pratt through Julia J
 Preston. All 22 printed rows remain preserved as distinct source records and
 are linked to 22 distinct person entities. Page 376 was inspected against a
 300 dpi render before the batch was researched. The next unresearched boundary
-is PDF page 377, row 1, Daniel A Preston.
+is PDF page 377, row 1, Thomas G Presutti.
 
 The printed scientific-notation-like serial value for Thomas M Preen remains
 preserved literally in the private source record and masked in public output.
@@ -71,6 +71,6 @@ claims, source metadata, person updates, and manual attempts are stored in
 `research/evidence-page376-pratt-preston-review_batch-773_2026-10-13.json`.
 Both files validate and import idempotently through the normal pipeline.
 
-Resume new-person research at PDF page 377, row 1, Daniel A Preston. Full-index
+Resume new-person research at PDF page 377, row 1, Thomas G Presutti. Full-index
 historical research remains unfinished; 13,153 active people are still
 `not_started`.
