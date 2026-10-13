@@ -76,5 +76,16 @@ boundary is page 376, row 1, Steele Powers.
 
 ## Publication
 
-Publication is pending the release commit, successful GitHub Test and Deploy
-workflows, and immutable verification of the public files and Batch 771 routes.
+Release commit `3713cfc2758fd7a348975b49590230113f18a0eb` was pushed to
+`main` on 2026-10-13. The hosted
+[Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38381438546)
+completed successfully at 2026-10-13T10:13:16Z, and the
+[Deploy GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38381438515)
+completed successfully at 2026-10-13T10:11:39Z.
+
+The immutable live verifier checked the public site against that exact commit:
+all 67 manifest assets and 108,962,613 bytes matched SHA-256 manifest digest
+`ad3beb9b5726823729b23902bfdcac2e020be9e42b53e9da67233df41df2c063`;
+all eight core routes, all 32 source-register pages, and all 22 Batch 771
+profile routes returned their expected public content. The verified public URL
+is <https://therealjameswilson.github.io/before-oss/>.
