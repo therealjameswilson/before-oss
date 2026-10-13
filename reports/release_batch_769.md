@@ -74,5 +74,16 @@ John M Potter.
 
 ## Publication
 
-Publication is pending the remaining local release gates, a scoped release
-commit, successful hosted workflows, and immutable live-site verification.
+Release commit `001d5749fc0c0638a96c68e031e5f234a3936ab6` was pushed to
+`main` on 2026-10-13. The hosted
+[Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38368978724)
+completed successfully at 2026-10-13T08:28:33Z, and the
+[Deploy GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38368978645)
+completed successfully at 2026-10-13T08:25:27Z.
+
+The immutable live verifier checked the public site against that exact commit:
+all 67 manifest assets and 108,820,432 bytes matched SHA-256 manifest digest
+`db3e349bfcf4b96a4ddcbec419bfcaf206a0f09e22d4b5197544c8095f19b48f`;
+all eight core routes, all 32 source-register pages, and all 22 Batch 769
+profile routes returned their expected public content. The verified public URL
+is <https://therealjameswilson.github.io/before-oss/>.
