@@ -1,5 +1,36 @@
 # Research status
 
+Batch 766 completed PDF page 373, rows 1-22, from **Seymour J Pomrenze**
+through **Margeret C Poole**, with terminal dispositions for all 22 separately
+preserved people and rows. The printed page was visually checked at 300 dpi.
+Twenty-one people received new staged research attempts; **DeWitt C Poole**
+retains his previously completed, cited outcome. Official NARA evidence
+establishes Seymour J Pomrenze's immediate pre-OSS affiliation as a U.S. Army
+military assignment, his last civilian employer as the National Archives, and
+his earlier WPA Historic Records Survey government assignment. A separate
+official NARA report corroborates Curt L Ponger's former OSS-officer identity
+and U.S. Army intelligence service but does not establish a civilian employer.
+Four identity decisions are accepted, Clayton C Pond remains probable because
+the official Army rendering reads `PONF`, and Floyd S Pool remains conflicting
+because the candidate Army record instead names Charles A Beinhorn Jr. The
+remaining profiles preserve unresolved outcomes and archival-review guidance.
+The oil-company category remains **10 people across 12 historically named
+companies**. The CIA and Library of Congress adapters failed closed because of
+source-access restrictions; no authenticated NARA Catalog request was made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **10,620/23,939 (44.3628%)**;
+verified-employer coverage is **349/23,939 (1.4579%)**;
+verified-affiliation coverage is **785/23,939 (3.2792%)**; archival-review
+coverage is **9,078/23,939 (37.9214%)**. There are **13,314** `not_started`
+people, **536** possible-duplicate groups, and **360** conflicts. SQLite retains
+**19,474** attempts or plans and **6,747** claims: 1,402 confirmed, 3,252 high,
+1,579 medium, 199 low, 313 conflicting, and two unresolved. It has **5,898**
+citation records and **3,030** unique source documents. The public projection
+has **2,564** affiliations, **905** organizations, **4,674** sources, and
+**6,539** claims. Full-index historical research remains unfinished. The next
+boundary is PDF page 373, row 23, **Charles A Pooler**.
+
 Batch 765 completed PDF page 372, rows 29-46, from **Rose S Pollack**
 through **Edward C Pomme**, with terminal dispositions for all 18 separately
 preserved people and rows. The printed page was visually checked at 300 dpi;
