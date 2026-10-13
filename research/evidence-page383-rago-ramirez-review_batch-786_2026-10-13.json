@@ -1,0 +1,905 @@
+{
+  "bundle_version": "3",
+  "reviewer": "Before OSS batch 786 archival and identity review",
+  "sources": [
+    {
+      "key": "nara-index-b786",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 630-631",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 383, rows 1-24; visually checked against a 300 dpi render",
+      "access_date": "2026-10-13",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 24 printed rows remain separate. The clipped notes 'Polish Ar', 'Also Ann', and 'Also Par' and the note 'French' are preserved exactly without expansion. Full identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b786",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department. Adjutant General's Office",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946",
+      "locator": "Seven reviewed exact-name, nonshared protected-identifier candidates",
+      "access_date": "2026-10-13",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Selective Service System, Record Group 147",
+      "rights_notes": "Official unrestricted bulk data, not a Catalog API response. Full protected identifiers and coded fields are not published or retained. Coded Army fields are not employer evidence."
+    },
+    {
+      "key": "nara-rajacich-b786",
+      "stable_url": "https://nara-media.s3.amazonaws.com/dc-metro/rg-498/5701212/5701212_Box626_Folder6/5701212_Box626_Folder6.pdf",
+      "archival_identifier": "RG 498, NAID 5701212, Box 626, Folder 6",
+      "title": "Dossier of Zvonimir Vuckovic",
+      "author_creator": "United States Forces, European Theater, 7709 MIS-X Detachment",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1946-11-16",
+      "locator": "PDF pages 14-15 (viewer pages 15-16), attestation and Strategic Services Unit context",
+      "access_date": "2026-10-13",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of U.S. Occupation Headquarters, World War II, Record Group 498",
+      "rights_notes": "A declassified official record. Only a short project-authored citation pointer and excerpt are retained."
+    },
+    {
+      "key": "dvids-rajacich-b786",
+      "stable_url": "https://www.dvidshub.net/news/printable/482057",
+      "title": "10th Special Forces Group (Airborne) Green Berets and Serbian counterparts conduct airborne jump to honor Operation Halyard anniversary",
+      "author_creator": "Pfc. Kristel Cordero",
+      "repository_publisher": "Defense Visual Information Distribution Service; U.S. Special Operations Command Europe",
+      "publication_record_date": "2024-09-24",
+      "locator": "Paragraph describing the Operation Halyard team",
+      "access_date": "2026-10-13",
+      "source_quality": "A_direct_official",
+      "collection_name": "DVIDS News",
+      "rights_notes": "Official Department of Defense historical account used to corroborate identity and OSS service, not pre-OSS employment."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [],
+  "claims": [
+    {
+      "key": "identity-peter-rago-b786",
+      "person_id": "4b1af7ee-d7ff-5225-b1e1-6079853e41c8",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed Peter Rago.",
+      "evidence_excerpt": "PETER RAGO",
+      "evidence_paraphrase": "The official Army bulk row has the same full indexed name and agrees with a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on exact full-name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or the timing of OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b786",
+          "locator_override": "PDF page 383, row 1"
+        },
+        {
+          "source_key": "army-bulk-b786",
+          "locator_override": "Reviewed exact-name candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-maurice-t-ragsdale-b786",
+      "person_id": "768e3ee8-c08d-5704-b3ee-8e1ba1de9ff1",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed Maurice T Ragsdale.",
+      "evidence_excerpt": "MAURICE T RAGSDALE",
+      "evidence_paraphrase": "The official Army bulk row has the same full indexed name and agrees with a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on exact full-name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or the timing of OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b786",
+          "locator_override": "PDF page 383, row 2"
+        },
+        {
+          "source_key": "army-bulk-b786",
+          "locator_override": "Reviewed exact-name candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-charles-e-rahn-b786",
+      "person_id": "38b1ec58-c8d5-52aa-bc02-a7fa8294f22b",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed Charles E Rahn.",
+      "evidence_excerpt": "CHARLES E RAHN",
+      "evidence_paraphrase": "The official Army bulk row has the same full indexed name and agrees with a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on exact full-name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or the timing of OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b786",
+          "locator_override": "PDF page 383, row 3"
+        },
+        {
+          "source_key": "army-bulk-b786",
+          "locator_override": "Reviewed exact-name candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-milton-e-raichle-b786",
+      "person_id": "0a78a4e8-195f-56fa-9df1-9317ff165972",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed Milton E Raichle.",
+      "evidence_excerpt": "MILTON E RAICHLE",
+      "evidence_paraphrase": "The official Army bulk row has the same full indexed name and agrees with a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on exact full-name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or the timing of OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b786",
+          "locator_override": "PDF page 383, row 5"
+        },
+        {
+          "source_key": "army-bulk-b786",
+          "locator_override": "Reviewed exact-name candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-archie-b-rainey-b786",
+      "person_id": "5a62773e-c17b-593b-b5cb-70a6ac621a58",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed Archie B Rainey.",
+      "evidence_excerpt": "ARCHIE B RAINEY",
+      "evidence_paraphrase": "The official Army bulk row has the same full indexed name and agrees with a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on exact full-name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or the timing of OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b786",
+          "locator_override": "PDF page 383, row 9"
+        },
+        {
+          "source_key": "army-bulk-b786",
+          "locator_override": "Reviewed exact-name candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-matti-raivio-b786",
+      "person_id": "ccd3f40d-2c5d-5d27-ae36-44b18adf99aa",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed Matti Raivio.",
+      "evidence_excerpt": "MATTI RAIVIO",
+      "evidence_paraphrase": "The official Army bulk row has the same full indexed name and agrees with a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on exact full-name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or the timing of OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b786",
+          "locator_override": "PDF page 383, row 12"
+        },
+        {
+          "source_key": "army-bulk-b786",
+          "locator_override": "Reviewed exact-name candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-floyd-b-rambin-b786",
+      "person_id": "851f3a78-78ab-5f47-bbca-99ef2dddb3e5",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed Floyd B Rambin.",
+      "evidence_excerpt": "FLOYD B RAMBIN",
+      "evidence_paraphrase": "The official Army bulk row has the same full indexed name and agrees with a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on exact full-name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or the timing of OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b786",
+          "locator_override": "PDF page 383, row 22"
+        },
+        {
+          "source_key": "army-bulk-b786",
+          "locator_override": "Reviewed exact-name candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-michael-rajacich-b786",
+      "person_id": "8501b5ca-81a8-55eb-b7cc-2fb990ea0446",
+      "claim_type": "identity",
+      "claim_text": "Official records support a high-confidence match between indexed 1st Lt Michael Rajacich and the U.S. lieutenant and Operation Halyard team member of that name.",
+      "evidence_excerpt": "Attestation from U.S. Lieutenant MICHAEL RAJACICH, Military Intelligence",
+      "evidence_paraphrase": "A 1946 U.S. Army document identifies Lieutenant Michael Rajacich in military-intelligence context; a Department of Defense account identifies him on the OSS Operation Halyard team.",
+      "identity_match_assessment": "High-confidence match based on an uncommon exact name, compatible lieutenant rank in the contemporary official record, and independently corroborated OSS service.",
+      "temporal_assessment": "Both sources document wartime or postwar service context. Neither establishes a civilian employer before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The official sources resolve identity and OSS context only; they do not support the discovery-only claim that Rajacich worked for the War Department before OSS.",
+      "sources": [
+        {
+          "source_key": "nara-index-b786",
+          "locator_override": "PDF page 383, row 14"
+        },
+        {
+          "source_key": "nara-rajacich-b786",
+          "locator_override": "PDF page 15, lines naming U.S. Lieutenant Michael Rajacich"
+        },
+        {
+          "source_key": "dvids-rajacich-b786",
+          "locator_override": "Operation Halyard team paragraph"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "4b1af7ee-d7ff-5225-b1e1-6079853e41c8",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 630 to establish the immediate pre-OSS affiliation and last civilian employer; preserve unresolved identity questions where no official corroboration is available.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed full name and a nonshared protected identifier agree with the official Army bulk record; coded Army fields are not employer evidence."
+    },
+    {
+      "person_id": "768e3ee8-c08d-5704-b3ee-8e1ba1de9ff1",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 631 to establish the immediate pre-OSS affiliation and last civilian employer; preserve unresolved identity questions where no official corroboration is available.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed full name and a nonshared protected identifier agree with the official Army bulk record; coded Army fields are not employer evidence."
+    },
+    {
+      "person_id": "38b1ec58-c8d5-52aa-bc02-a7fa8294f22b",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 631 to establish the immediate pre-OSS affiliation and last civilian employer; preserve unresolved identity questions where no official corroboration is available.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed full name and a nonshared protected identifier agree with the official Army bulk record; coded Army fields are not employer evidence."
+    },
+    {
+      "person_id": "8cc496d1-c999-5b8b-87e2-392a8930510c",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 631 to establish the immediate pre-OSS affiliation and last civilian employer; preserve unresolved identity questions where no official corroboration is available.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0a78a4e8-195f-56fa-9df1-9317ff165972",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 631 to establish the immediate pre-OSS affiliation and last civilian employer; preserve unresolved identity questions where no official corroboration is available.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed full name and a nonshared protected identifier agree with the official Army bulk record; coded Army fields are not employer evidence."
+    },
+    {
+      "person_id": "97d73e65-0ce9-5534-afc3-c2294ee09ca9",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 631 to establish the immediate pre-OSS affiliation and last civilian employer; preserve unresolved identity questions where no official corroboration is available.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f05a8ab2-21b5-5dab-8881-952356ff59c3",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 631 to establish the immediate pre-OSS affiliation and last civilian employer; preserve unresolved identity questions where no official corroboration is available.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "cf7f3bc4-f9b1-578d-9c33-8d70cd56b5bd",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 631 to establish the immediate pre-OSS affiliation and last civilian employer; preserve unresolved identity questions where no official corroboration is available.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5a62773e-c17b-593b-b5cb-70a6ac621a58",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 631 to establish the immediate pre-OSS affiliation and last civilian employer; preserve unresolved identity questions where no official corroboration is available.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed full name and a nonshared protected identifier agree with the official Army bulk record; coded Army fields are not employer evidence."
+    },
+    {
+      "person_id": "ded086e3-ba8c-59cb-a423-8e4bba8300bc",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 631 to establish the immediate pre-OSS affiliation and last civilian employer; preserve unresolved identity questions where no official corroboration is available.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0ffccbb5-8496-5d9c-b5ba-02a72a21f8d2",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 631 to establish the immediate pre-OSS affiliation and last civilian employer; preserve unresolved identity questions where no official corroboration is available.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ccd3f40d-2c5d-5d27-ae36-44b18adf99aa",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 631 to establish the immediate pre-OSS affiliation and last civilian employer; preserve unresolved identity questions where no official corroboration is available.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed full name and a nonshared protected identifier agree with the official Army bulk record; coded Army fields are not employer evidence."
+    },
+    {
+      "person_id": "880836ae-f6f2-59a4-ad01-b27c1af18580",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 631 to establish the immediate pre-OSS affiliation and last civilian employer; preserve unresolved identity questions where no official corroboration is available.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8501b5ca-81a8-55eb-b7cc-2fb990ea0446",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 631 to establish the immediate pre-OSS affiliation and last civilian employer; preserve unresolved identity questions where no official corroboration is available.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A contemporary official U.S. Army record names Lieutenant Michael Rajacich in military-intelligence context, and a Department of Defense account independently places Michael Rajacich on the OSS Operation Halyard team."
+    },
+    {
+      "person_id": "8192bd50-45e2-5e96-8534-bc8651df1e93",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 631 to establish the immediate pre-OSS affiliation and last civilian employer; preserve unresolved identity questions where no official corroboration is available.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d6be728a-be08-5fa9-bee2-ab2dd6c7a6cc",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 631 to establish the immediate pre-OSS affiliation and last civilian employer; preserve unresolved identity questions where no official corroboration is available.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a617ac7e-ebf1-50b5-9192-8e139acba093",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 631 to establish the immediate pre-OSS affiliation and last civilian employer; preserve unresolved identity questions where no official corroboration is available.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "87d74908-03e5-5fb2-8046-49ddf182154c",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 631 to establish the immediate pre-OSS affiliation and last civilian employer; preserve unresolved identity questions where no official corroboration is available.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9fba784c-5938-5b7e-9082-94d4e0c88f3f",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 631 to establish the immediate pre-OSS affiliation and last civilian employer; preserve unresolved identity questions where no official corroboration is available.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "715aa774-2008-5dcb-9c2c-40787605b067",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 631 to establish the immediate pre-OSS affiliation and last civilian employer; preserve unresolved identity questions where no official corroboration is available.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "53bfb7c1-3487-5aba-93b3-545cffb3e59b",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 631 to establish the immediate pre-OSS affiliation and last civilian employer; preserve unresolved identity questions where no official corroboration is available.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "851f3a78-78ab-5f47-bbca-99ef2dddb3e5",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 631 to establish the immediate pre-OSS affiliation and last civilian employer; preserve unresolved identity questions where no official corroboration is available.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed full name and a nonshared protected identifier agree with the official Army bulk record; coded Army fields are not employer evidence."
+    },
+    {
+      "person_id": "a2ed27f6-b4af-5b46-abe6-d04fc66074fe",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 631 to establish the immediate pre-OSS affiliation and last civilian employer; preserve unresolved identity questions where no official corroboration is available.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "30979b38-d4f9-577c-80ad-60cae16d3da6",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 631 to establish the immediate pre-OSS affiliation and last civilian employer; preserve unresolved identity questions where no official corroboration is available.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "peter-rago-protocol-b786",
+      "person_id": "4b1af7ee-d7ff-5225-b1e1-6079853e41c8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Peter Rago; OSS; employer; occupation 1940; obituary; institutional; newspaper; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_786",
+      "started_at": "2026-10-14T01:00:00+00:00",
+      "completed_at": "2026-10-14T03:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 630 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b786-v1"
+    },
+    {
+      "key": "maurice-t-ragsdale-protocol-b786",
+      "person_id": "768e3ee8-c08d-5704-b3ee-8e1ba1de9ff1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Maurice T Ragsdale; OSS; employer; occupation 1940; obituary; institutional; newspaper; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_786",
+      "started_at": "2026-10-14T01:00:00+00:00",
+      "completed_at": "2026-10-14T03:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 631 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b786-v1"
+    },
+    {
+      "key": "charles-e-rahn-protocol-b786",
+      "person_id": "38b1ec58-c8d5-52aa-bc02-a7fa8294f22b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Charles E Rahn; OSS; employer; occupation 1940; obituary; institutional; newspaper; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_786",
+      "started_at": "2026-10-14T01:00:00+00:00",
+      "completed_at": "2026-10-14T03:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 631 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b786-v1"
+    },
+    {
+      "key": "joseph-l-raichle-protocol-b786",
+      "person_id": "8cc496d1-c999-5b8b-87e2-392a8930510c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Joseph L Raichle; OSS; employer; occupation 1940; obituary; institutional; newspaper; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_786",
+      "started_at": "2026-10-14T01:00:00+00:00",
+      "completed_at": "2026-10-14T03:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 631 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b786-v1"
+    },
+    {
+      "key": "milton-e-raichle-protocol-b786",
+      "person_id": "0a78a4e8-195f-56fa-9df1-9317ff165972",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Milton E Raichle; OSS; employer; occupation 1940; obituary; institutional; newspaper; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_786",
+      "started_at": "2026-10-14T01:00:00+00:00",
+      "completed_at": "2026-10-14T03:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 631 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b786-v1"
+    },
+    {
+      "key": "renato-raimondi-protocol-b786",
+      "person_id": "97d73e65-0ce9-5534-afc3-c2294ee09ca9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Renato Raimondi; OSS; employer; occupation 1940; obituary; institutional; newspaper; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_786",
+      "started_at": "2026-10-14T01:00:00+00:00",
+      "completed_at": "2026-10-14T03:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 631 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b786-v1"
+    },
+    {
+      "key": "alice-l-raine-protocol-b786",
+      "person_id": "f05a8ab2-21b5-5dab-8881-952356ff59c3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Alice L Raine; OSS; employer; occupation 1940; obituary; institutional; newspaper; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_786",
+      "started_at": "2026-10-14T01:00:00+00:00",
+      "completed_at": "2026-10-14T03:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 631 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b786-v1"
+    },
+    {
+      "key": "richard-f-rainer-protocol-b786",
+      "person_id": "cf7f3bc4-f9b1-578d-9c33-8d70cd56b5bd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Richard F Rainer; OSS; employer; occupation 1940; obituary; institutional; newspaper; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_786",
+      "started_at": "2026-10-14T01:00:00+00:00",
+      "completed_at": "2026-10-14T03:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 631 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b786-v1"
+    },
+    {
+      "key": "archie-b-rainey-protocol-b786",
+      "person_id": "5a62773e-c17b-593b-b5cb-70a6ac621a58",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Archie B Rainey; OSS; employer; occupation 1940; obituary; institutional; newspaper; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_786",
+      "started_at": "2026-10-14T01:00:00+00:00",
+      "completed_at": "2026-10-14T03:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 631 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b786-v1"
+    },
+    {
+      "key": "john-raiss-protocol-b786",
+      "person_id": "ded086e3-ba8c-59cb-a423-8e4bba8300bc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; John Raiss; OSS; employer; occupation 1940; obituary; institutional; newspaper; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_786",
+      "started_at": "2026-10-14T01:00:00+00:00",
+      "completed_at": "2026-10-14T03:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "A Burma account naming only Major Raiss lacked a first name and pre-OSS employment chronology, so it was not used as an identity or employer source.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 631 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b786-v1"
+    },
+    {
+      "key": "james-b-raiter-protocol-b786",
+      "person_id": "0ffccbb5-8496-5d9c-b5ba-02a72a21f8d2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; James B Raiter; OSS; employer; occupation 1940; obituary; institutional; newspaper; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_786",
+      "started_at": "2026-10-14T01:00:00+00:00",
+      "completed_at": "2026-10-14T03:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 631 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b786-v1"
+    },
+    {
+      "key": "matti-raivio-protocol-b786",
+      "person_id": "ccd3f40d-2c5d-5d27-ae36-44b18adf99aa",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Matti Raivio; OSS; employer; occupation 1940; obituary; institutional; newspaper; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_786",
+      "started_at": "2026-10-14T01:00:00+00:00",
+      "completed_at": "2026-10-14T03:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The Operation RYPE roster corroborates OSS service but is a secondary compilation and does not establish pre-OSS employment.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 631 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b786-v1"
+    },
+    {
+      "key": "joe-rajacic-protocol-b786",
+      "person_id": "880836ae-f6f2-59a4-ad01-b27c1af18580",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Joe Rajacic; OSS; employer; occupation 1940; obituary; institutional; newspaper; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_786",
+      "started_at": "2026-10-14T01:00:00+00:00",
+      "completed_at": "2026-10-14T03:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 631 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b786-v1"
+    },
+    {
+      "key": "michael-rajacich-protocol-b786",
+      "person_id": "8501b5ca-81a8-55eb-b7cc-2fb990ea0446",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Michael Rajacich; OSS; employer; occupation 1940; obituary; institutional; newspaper; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_786",
+      "started_at": "2026-10-14T01:00:00+00:00",
+      "completed_at": "2026-10-14T03:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Official sources establish the uncommon-name identity and OSS Operation Halyard service. Discovery-only material alleging pre-OSS War Department employment was rejected because the underlying source was not directly inspected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 631 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b786-v1"
+    },
+    {
+      "key": "robert-rajacich-protocol-b786",
+      "person_id": "8192bd50-45e2-5e96-8534-bc8651df1e93",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Robert Rajacich; OSS; employer; occupation 1940; obituary; institutional; newspaper; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_786",
+      "started_at": "2026-10-14T01:00:00+00:00",
+      "completed_at": "2026-10-14T03:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 631 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b786-v1"
+    },
+    {
+      "key": "hardy-l-raley-protocol-b786",
+      "person_id": "d6be728a-be08-5fa9-bee2-ab2dd6c7a6cc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Hardy L Raley; OSS; employer; occupation 1940; obituary; institutional; newspaper; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_786",
+      "started_at": "2026-10-14T01:00:00+00:00",
+      "completed_at": "2026-10-14T03:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 631 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b786-v1"
+    },
+    {
+      "key": "mary-s-raley-protocol-b786",
+      "person_id": "a617ac7e-ebf1-50b5-9192-8e139acba093",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Mary S Raley; OSS; employer; occupation 1940; obituary; institutional; newspaper; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_786",
+      "started_at": "2026-10-14T01:00:00+00:00",
+      "completed_at": "2026-10-14T03:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 631 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b786-v1"
+    },
+    {
+      "key": "vincent-p-ralph-protocol-b786",
+      "person_id": "87d74908-03e5-5fb2-8046-49ddf182154c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Vincent P Ralph; OSS; employer; occupation 1940; obituary; institutional; newspaper; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_786",
+      "started_at": "2026-10-14T01:00:00+00:00",
+      "completed_at": "2026-10-14T03:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 631 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b786-v1"
+    },
+    {
+      "key": "william-f-w-ram-protocol-b786",
+      "person_id": "9fba784c-5938-5b7e-9082-94d4e0c88f3f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; William F. W. Ram; OSS; employer; occupation 1940; obituary; institutional; newspaper; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_786",
+      "started_at": "2026-10-14T01:00:00+00:00",
+      "completed_at": "2026-10-14T03:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 631 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b786-v1"
+    },
+    {
+      "key": "waitman-m-ramage-protocol-b786",
+      "person_id": "715aa774-2008-5dcb-9c2c-40787605b067",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Waitman M Ramage; OSS; employer; occupation 1940; obituary; institutional; newspaper; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_786",
+      "started_at": "2026-10-14T01:00:00+00:00",
+      "completed_at": "2026-10-14T03:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 631 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b786-v1"
+    },
+    {
+      "key": "ralph-l-ramberg-protocol-b786",
+      "person_id": "53bfb7c1-3487-5aba-93b3-545cffb3e59b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Ralph L Ramberg; OSS; employer; occupation 1940; obituary; institutional; newspaper; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_786",
+      "started_at": "2026-10-14T01:00:00+00:00",
+      "completed_at": "2026-10-14T03:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 631 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b786-v1"
+    },
+    {
+      "key": "floyd-b-rambin-protocol-b786",
+      "person_id": "851f3a78-78ab-5f47-bbca-99ef2dddb3e5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Floyd B Rambin; OSS; employer; occupation 1940; obituary; institutional; newspaper; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_786",
+      "started_at": "2026-10-14T01:00:00+00:00",
+      "completed_at": "2026-10-14T03:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 631 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b786-v1"
+    },
+    {
+      "key": "emile-d-ramel-protocol-b786",
+      "person_id": "a2ed27f6-b4af-5b46-abe6-d04fc66074fe",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Emile D Ramel; OSS; employer; occupation 1940; obituary; institutional; newspaper; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_786",
+      "started_at": "2026-10-14T01:00:00+00:00",
+      "completed_at": "2026-10-14T03:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 631 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b786-v1"
+    },
+    {
+      "key": "angelo-ramirez-protocol-b786",
+      "person_id": "30979b38-d4f9-577c-80ad-60cae16d3da6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; Angelo Ramirez; OSS; employer; occupation 1940; obituary; institutional; newspaper; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_786",
+      "started_at": "2026-10-14T01:00:00+00:00",
+      "completed_at": "2026-10-14T03:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 631 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b786-v1"
+    }
+  ]
+}
