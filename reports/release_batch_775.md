@@ -81,6 +81,20 @@ from an earlier cross-index batch. The next indexed boundary is page 378, row
 
 ## Publication
 
-Publication details are recorded after the immutable release commit passes the
-GitHub test and Pages deployment workflows and the unauthenticated live site is
-verified against that commit.
+- Release commit:
+  `aa4ac81a0060976038bc70635c0a2473b7d96e76`.
+- The [Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38400213589)
+  completed successfully at 2026-10-13T12:54:34Z.
+- The [Deploy GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38400213482)
+  completed successfully at 2026-10-13T12:52:04Z.
+- Immutable live verification against the release commit confirmed all 67
+  manifest assets and 109,184,287 bytes, all eight core routes, all 32 source
+  register pages, and all 23 Batch 775 profile routes. The deployed manifest
+  SHA-256 is
+  `8f588272d89935954b05f9ff74e95eb5cab53664af00288b191667fcfcfc5440`.
+- Live site: <https://therealjameswilson.github.io/before-oss/>.
+
+Both workflows emitted maintenance notices that selected GitHub actions still
+target Node.js 20 and that `ubuntu-latest` is scheduled to migrate to Ubuntu 26.
+GitHub ran the affected actions on Node.js 24; neither notice failed or altered
+this release.
