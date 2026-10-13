@@ -1,0 +1,1189 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 788 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b788",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 633; conflict comparison rows in Boxes 124 and 803",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 384, rows 1-23; page 80, row 41; and page 482, row 40; visually checked against 300 dpi renders",
+      "access_date": "2026-10-13",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All printed rows remain separate. The clipped notes 'photogra', 'Record', 'Honorab', and 'no first n' are preserved exactly. Full identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b788",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department. Adjutant General's Office",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946",
+      "locator": "Seven accepted exact or normalized-name, nonshared protected-identifier candidates; two reviewed identifier conflicts",
+      "access_date": "2026-10-13",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Selective Service System, Record Group 147",
+      "rights_notes": "Official unrestricted bulk data, not a Catalog API response. Full protected identifiers and coded fields are not published. Coded Army fields are not employer evidence."
+    },
+    {
+      "key": "dartmouth-ransmeier-1951-b788",
+      "stable_url": "https://archive.dartmouthalumnimagazine.com/article/1951/12/1/the-faculty",
+      "title": "The Faculty",
+      "repository_publisher": "Dartmouth Alumni Magazine",
+      "publication_record_date": "1951-12",
+      "locator": "Joseph S. Ransmeier paragraph, article text corresponding to issue pages; archived text lines 53-55",
+      "access_date": "2026-10-13",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Dartmouth Alumni Magazine Archive",
+      "rights_notes": "Institutional faculty biography used for concise, project-authored chronology; no article page is republished."
+    },
+    {
+      "key": "dartmouth-ransmeier-1947-b788",
+      "stable_url": "https://archive.dartmouthalumnimagazine.com/article/1947/2/1/with-the-faculty",
+      "title": "With the Faculty",
+      "repository_publisher": "Dartmouth Alumni Magazine",
+      "publication_record_date": "1947-02",
+      "locator": "Joseph S. Ransmeier faculty biography, archived text lines 39-46",
+      "access_date": "2026-10-13",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Dartmouth Alumni Magazine Archive",
+      "rights_notes": "Institutional faculty biography corroborates prewar affiliations and wartime OSS service; excerpting remains under 25 words."
+    },
+    {
+      "key": "archives-france-raoul-duval-b788",
+      "stable_url": "https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_054523",
+      "archival_identifier": "Archives nationales (France), sous-serie 72AJ, 72AJ/1941",
+      "title": "Guerre de 1939-1945: Archives du Comite d'histoire de la Deuxieme Guerre mondiale et fonds d'origine privee",
+      "author_creator": "Patricia Gillet",
+      "repository_publisher": "Archives nationales (France)",
+      "publication_record_date": "2021",
+      "locator": "Finding aid page 161, 72AJ/1941, OSS agent activity reports for Region R 6",
+      "access_date": "2026-10-13",
+      "source_quality": "A_direct_official",
+      "collection_name": "Sous-serie 72AJ",
+      "rights_notes": "Official finding aid; the project stores only a citation pointer and concise evidence note."
+    },
+    {
+      "key": "sf-directory-raoul-duval-1938-b788",
+      "stable_url": "https://library.sfgenealogy.org/telephone/san-francisco-county/1938a/1938a%2020.pdf",
+      "title": "Classified Telephone Directory: Attorneys",
+      "repository_publisher": "San Francisco Genealogy",
+      "publication_record_date": "1938",
+      "locator": "Directory pages 22-23, Attorneys column, entry for Richard Raoul-Duval",
+      "access_date": "2026-10-13",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "San Francisco Classified Telephone Directory, 1938",
+      "rights_notes": "Contemporary directory page visually reviewed. The Hibernia Bank Building is treated as an office address, not as evidence that the bank employed him."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "vanderbilt-existing-b788",
+      "organization_id": "b80a1725-aae0-5e08-8125-ce629dd89a60",
+      "canonical_name": "Vanderbilt University",
+      "historical_name": "Vanderbilt University",
+      "aliases": [],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Nashville",
+      "state_or_region": "Tennessee",
+      "country": "United States",
+      "active_dates": null,
+      "normalization_notes": "Student status is modeled separately from employment."
+    },
+    {
+      "key": "brookings-existing-b788",
+      "organization_id": "e2ef9b04-bb92-5209-8318-ed7ff5b7b067",
+      "canonical_name": "Brookings Institution",
+      "historical_name": "Brookings Institution",
+      "aliases": [],
+      "organization_type": "research institution",
+      "sector": "academia_and_research",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "active_dates": "1927-present",
+      "normalization_notes": "Existing organization reused. A fellowship is modeled as a professional affiliation, not assumed employment."
+    },
+    {
+      "key": "self-employed-legal-existing-b788",
+      "organization_id": "b38d4d4f-f70c-5ab9-b3ac-59a5e9892f1f",
+      "canonical_name": "Self-employed legal practice",
+      "historical_name": "private law practice",
+      "aliases": [],
+      "organization_type": "self-employment",
+      "sector": "self_employed",
+      "city": null,
+      "state_or_region": null,
+      "country": "United States",
+      "active_dates": null,
+      "normalization_notes": "Used only where sources document an individual legal practice but do not name a firm."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "joseph-ransmeier-vanderbilt-b788",
+      "person_id": "d789c031-c056-5bd1-8684-fd427f2487a1",
+      "organization_key": "vanderbilt-existing-b788",
+      "organization_name_as_found": "Vanderbilt University",
+      "role_title": "Instructor in economics",
+      "occupation": "economics instructor",
+      "relationship_type": "employment",
+      "start_date": "1940",
+      "end_date": "1948",
+      "date_precision": "years stated by the 1951 institutional biography; active teaching preceded Army enlistment in 1943 and the appointment extended through wartime leave",
+      "city": "Nashville",
+      "state_or_region": "Tennessee",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The biography dates the Vanderbilt appointment from 1940 and Army enlistment to 1943. It therefore supports Vanderbilt as the last documented civilian employer before wartime service, while not proving the immediate organizational step into OSS."
+    },
+    {
+      "key": "joseph-ransmeier-brookings-b788",
+      "person_id": "d789c031-c056-5bd1-8684-fd427f2487a1",
+      "organization_key": "brookings-existing-b788",
+      "organization_name_as_found": "Brookings Institution",
+      "role_title": "Research Fellow",
+      "occupation": "research fellow",
+      "relationship_type": "professional_affiliation",
+      "start_date": "1939",
+      "end_date": "1940",
+      "date_precision": "years stated by the 1951 institutional biography",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The source calls this a research fellowship. It is preserved as an earlier professional affiliation rather than silently recast as employment."
+    },
+    {
+      "key": "richard-raoul-duval-private-law-b788",
+      "person_id": "2a6391b9-a8e6-5e82-849f-2cb39f49cd9f",
+      "organization_key": "self-employed-legal-existing-b788",
+      "organization_name_as_found": "Raoul-Duval Richard",
+      "role_title": "Attorney",
+      "occupation": "attorney in private practice",
+      "relationship_type": "self_employment",
+      "start_date": "1938",
+      "end_date": null,
+      "date_precision": "directory year only",
+      "city": "San Francisco",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The 1938 directory lists the uncommon name under Attorneys with an office in the Hibernia Bank Building. The building is an address, not an employer. The record predates the Army entry date but does not prove immediacy before OSS."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-joseph-j-randazza-b788",
+      "person_id": "91ce54fe-df5b-5ae8-9895-1180dd092913",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed Joseph J Randazza.",
+      "evidence_excerpt": "RANDAZZA JOSEPH J JR",
+      "evidence_paraphrase": "The official Army bulk row agrees with the indexed name and a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or OSS-entry timing.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer. The Army suffix is retained as a sourced variant, not substituted for the index spelling.",
+      "sources": [
+        {
+          "source_key": "nara-index-b788",
+          "locator_override": "PDF page 384, row 1"
+        },
+        {
+          "source_key": "army-bulk-b788",
+          "locator_override": "Reviewed name-aligned candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-stephen-t-randolph-b788",
+      "person_id": "744e54c0-a7e7-5704-8559-603c8e448466",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed Stephen T Randolph.",
+      "evidence_excerpt": "RANDOLPH STEPHEN T",
+      "evidence_paraphrase": "The official Army bulk row agrees with the indexed name and a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or OSS-entry timing.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b788",
+          "locator_override": "PDF page 384, row 4"
+        },
+        {
+          "source_key": "army-bulk-b788",
+          "locator_override": "Reviewed name-aligned candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-joseph-s-ransmeier-b788",
+      "person_id": "d789c031-c056-5bd1-8684-fd427f2487a1",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed Joseph S Ransmeier.",
+      "evidence_excerpt": "RANSMEIER JOSEPH S",
+      "evidence_paraphrase": "The official Army bulk row agrees with the indexed name and a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or OSS-entry timing.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b788",
+          "locator_override": "PDF page 384, row 10"
+        },
+        {
+          "source_key": "army-bulk-b788",
+          "locator_override": "Reviewed name-aligned candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-robert-e-ransom-b788",
+      "person_id": "cac14657-3aba-5a7f-addf-96b0fcb7b36d",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed Robert E Ransom.",
+      "evidence_excerpt": "RANSOM ROBERT E",
+      "evidence_paraphrase": "The official Army bulk row agrees with the indexed name and a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or OSS-entry timing.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer. A second same-identifier bulk row bearing a different name was rejected as a source anomaly; the exact-name row remains the stronger match.",
+      "sources": [
+        {
+          "source_key": "nara-index-b788",
+          "locator_override": "PDF page 384, row 12"
+        },
+        {
+          "source_key": "army-bulk-b788",
+          "locator_override": "Reviewed name-aligned candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-thomas-j-ranson-b788",
+      "person_id": "28c5023e-2399-5699-b21a-5dd0b885ce6b",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed Thomas J Ranson.",
+      "evidence_excerpt": "RANSON THOMAS J",
+      "evidence_paraphrase": "The official Army bulk row agrees with the indexed name and a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or OSS-entry timing.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b788",
+          "locator_override": "PDF page 384, row 14"
+        },
+        {
+          "source_key": "army-bulk-b788",
+          "locator_override": "Reviewed name-aligned candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-richard-raoul-duval-b788",
+      "person_id": "2a6391b9-a8e6-5e82-849f-2cb39f49cd9f",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed Richard Raoul-Duval.",
+      "evidence_excerpt": "RAOULIDUVAL RICHARD",
+      "evidence_paraphrase": "The official Army bulk row agrees with the indexed name and a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or OSS-entry timing.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer. The fixed-width bulk file collapses the indexed hyphen; normalized tokens agree.",
+      "sources": [
+        {
+          "source_key": "nara-index-b788",
+          "locator_override": "PDF page 384, row 20"
+        },
+        {
+          "source_key": "army-bulk-b788",
+          "locator_override": "Reviewed name-aligned candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-bergen-b-rapalyea-b788",
+      "person_id": "c53c3115-c159-5671-b4b1-9225df05854f",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed Bergen B Rapalyea.",
+      "evidence_excerpt": "RAPALYEA BERGEN B JR",
+      "evidence_paraphrase": "The official Army bulk row agrees with the indexed name and a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or OSS-entry timing.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer. The Army suffix is retained as a sourced variant, not substituted for the index spelling.",
+      "sources": [
+        {
+          "source_key": "nara-index-b788",
+          "locator_override": "PDF page 384, row 21"
+        },
+        {
+          "source_key": "army-bulk-b788",
+          "locator_override": "Reviewed name-aligned candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-richard-raoul-duval-lieutenant-b788",
+      "person_id": "86fd0d8c-ca23-5721-a58c-c0dd426e5325",
+      "claim_type": "identity",
+      "claim_text": "The indexed Second Lieutenant Richard Raoul-Duval is a high-confidence match to the lieutenant named in an official French archival finding aid for OSS mission Freelance.",
+      "evidence_excerpt": "lieutenant Richard Raoul-Duval, alias Dorsay",
+      "evidence_paraphrase": "The official finding aid names Lieutenant Richard Raoul-Duval, alias Dorsay, among OSS agents on mission Freelance in September-November 1944.",
+      "identity_match_assessment": "High confidence from the uncommon exact name, matching lieutenant rank, and explicit OSS context; a separate same-name index row remains unmerged.",
+      "temporal_assessment": "The finding aid documents an OSS mission in late 1944 but does not identify a pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This resolves the officer row strongly while preserving the adjacent same-name row and its different protected identifier as a possible duplicate.",
+      "sources": [
+        {
+          "source_key": "nara-index-b788",
+          "locator_override": "PDF page 384, row 19"
+        },
+        {
+          "source_key": "archives-france-raoul-duval-b788",
+          "locator_override": "Finding aid page 161, 72AJ/1941"
+        }
+      ]
+    },
+    {
+      "key": "identity-thomas-j-ransom-conflict-b788",
+      "person_id": "25e6c91e-b982-5fd2-aa26-1a6c3f4a22b2",
+      "claim_type": "identity",
+      "claim_text": "The protected identifier printed for Thomas J Ransom conflicts with the name in the official Army bulk file and with a separate indexed person; identity remains conflicting.",
+      "evidence_excerpt": "RANSOM THOMAS J ... CHRISTOPHER PAUL P",
+      "evidence_paraphrase": "The index repeats the private identifier under Thomas J Ransom and Paul P Christopher, while the Army bulk row names Christopher Paul P.",
+      "identity_match_assessment": "Conflicting: the protected identifier points to a different indexed and Army-named person, so no merge or biography assignment is justified.",
+      "temporal_assessment": "The records establish a wartime identifier conflict but no pre-OSS employment chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The public record describes the conflict without revealing the full protected identifier. Box 633 and the comparison file in Box 124 require archival review.",
+      "sources": [
+        {
+          "source_key": "nara-index-b788",
+          "locator_override": "PDF page 384, row 13, and page 80, row 41"
+        },
+        {
+          "source_key": "army-bulk-b788",
+          "locator_override": "Reviewed conflicting-name, shared-identifier candidate"
+        }
+      ]
+    },
+    {
+      "key": "identity-vincent-p-rao-conflict-b788",
+      "person_id": "a30ab6fd-8bf8-5498-81bf-15e7ee7d2c1a",
+      "claim_type": "identity",
+      "claim_text": "The protected identifier printed for Vincent P Rao also appears for Joseph Veselinovich in a separate index row; identity remains conflicting.",
+      "evidence_excerpt": "RAO VINCENT P ... VESELINOVICH JOSEPH",
+      "evidence_paraphrase": "Visual and database checks found the same private identifier on two separately printed names in Boxes 633 and 803.",
+      "identity_match_assessment": "Conflicting: the shared identifier across unrelated names is a source anomaly and cannot support a merge or namesake biography.",
+      "temporal_assessment": "The index establishes a wartime identifier conflict but supplies no pre-OSS chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The public record describes the conflict without revealing the full protected identifier. Both physical personnel files require comparison.",
+      "sources": [
+        {
+          "source_key": "nara-index-b788",
+          "locator_override": "PDF page 384, row 17, and page 482, row 40"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-joseph-ransmeier-vanderbilt-b788",
+      "person_id": "d789c031-c056-5bd1-8684-fd427f2487a1",
+      "affiliation_key": "joseph-ransmeier-vanderbilt-b788",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Joseph S. Ransmeier's last documented civilian employer before Army service was Vanderbilt University, where he taught economics.",
+      "evidence_excerpt": "an instructor in economics at Vanderbilt University, 1940-48",
+      "evidence_paraphrase": "Dartmouth's institutional biography dates Ransmeier's Vanderbilt appointment from 1940 and his Army enlistment to 1943.",
+      "identity_match_assessment": "High confidence from the exact uncommon name, Army identifier agreement, and the 1947 institutional biography's explicit OSS and Army service.",
+      "temporal_assessment": "Strongly date-bounded as the civilian appointment immediately preceding 1943 Army enlistment; the source does not prove direct recruitment from Vanderbilt into OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Published as last civilian employer before wartime service, not as an immediate pre-OSS affiliation. The appointment's nominal end date includes wartime leave.",
+      "sources": [
+        {
+          "source_key": "nara-index-b788",
+          "locator_override": "PDF page 384, row 10"
+        },
+        {
+          "source_key": "army-bulk-b788",
+          "locator_override": "Reviewed exact-name candidate with nonshared protected identifier"
+        },
+        {
+          "source_key": "dartmouth-ransmeier-1951-b788",
+          "locator_override": "Joseph S. Ransmeier paragraph"
+        },
+        {
+          "source_key": "dartmouth-ransmeier-1947-b788",
+          "locator_override": "Joseph S. Ransmeier faculty biography"
+        }
+      ]
+    },
+    {
+      "key": "other-pre-oss-joseph-ransmeier-brookings-b788",
+      "person_id": "d789c031-c056-5bd1-8684-fd427f2487a1",
+      "affiliation_key": "joseph-ransmeier-brookings-b788",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Joseph S. Ransmeier was a Research Fellow at the Brookings Institution in 1939-40, before his Vanderbilt appointment.",
+      "evidence_excerpt": "Research Fellow with the Brookings Institution in Washington, 1939-40",
+      "evidence_paraphrase": "The institutional biography explicitly dates his Brookings research fellowship to 1939-40.",
+      "identity_match_assessment": "High confidence from the same uncommon-name and wartime-service evidence supporting the Vanderbilt chronology.",
+      "temporal_assessment": "Documented prewar and earlier than Vanderbilt; not immediate before OSS or Army service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Modeled as a professional affiliation because the source says Research Fellow and does not independently establish an employment relationship.",
+      "sources": [
+        {
+          "source_key": "nara-index-b788",
+          "locator_override": "PDF page 384, row 10"
+        },
+        {
+          "source_key": "dartmouth-ransmeier-1951-b788",
+          "locator_override": "Joseph S. Ransmeier paragraph"
+        },
+        {
+          "source_key": "dartmouth-ransmeier-1947-b788",
+          "locator_override": "Joseph S. Ransmeier faculty biography"
+        }
+      ]
+    },
+    {
+      "key": "other-pre-oss-richard-raoul-duval-attorney-b788",
+      "person_id": "2a6391b9-a8e6-5e82-849f-2cb39f49cd9f",
+      "affiliation_key": "richard-raoul-duval-private-law-b788",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Richard Raoul-Duval was listed as an attorney with a San Francisco office in 1938; the evidence does not establish that this was his immediate pre-OSS work.",
+      "evidence_excerpt": "Raoul-Duval Richard Hibernia Bk Bldg",
+      "evidence_paraphrase": "The 1938 classified directory lists Richard Raoul-Duval under Attorneys with an office in the Hibernia Bank Building.",
+      "identity_match_assessment": "High confidence from the uncommon exact name, the accepted fixed-width Army name match, and official French archival corroboration of OSS service.",
+      "temporal_assessment": "Documented in 1938, four years before the accepted Army entry record; no source closes the gap or proves immediate sequence into OSS.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The bank building is treated only as an address. No inference is made that Hibernia Bank employed him.",
+      "sources": [
+        {
+          "source_key": "nara-index-b788",
+          "locator_override": "PDF page 384, row 20"
+        },
+        {
+          "source_key": "army-bulk-b788",
+          "locator_override": "Reviewed normalized-name candidate with nonshared protected identifier"
+        },
+        {
+          "source_key": "archives-france-raoul-duval-b788",
+          "locator_override": "Finding aid page 161, 72AJ/1941"
+        },
+        {
+          "source_key": "sf-directory-raoul-duval-1938-b788",
+          "locator_override": "Directory pages 22-23, Attorneys column"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "91ce54fe-df5b-5ae8-9895-1180dd092913",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed full name and a nonshared protected identifier agree with the official Army bulk record; coded Army fields are not employer evidence.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the indexed Box 633 personnel file for Joseph J Randazza to establish the immediate pre-OSS affiliation and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Joseph J Randazza Jr."
+      ]
+    },
+    {
+      "person_id": "3c8ff0a4-1b43-58d2-814c-487d239281b3",
+      "identity_status": "unresolved",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_evidence": "The visually verified index row is preserved, but accessible official, institutional, directory, newspaper, obituary, and archival searches did not produce enough corroborating identifiers for a reliable namesake match.",
+      "next_action": "Inspect the indexed Box 633 personnel file for James L Randles and seek a dated personnel history or employer document."
+    },
+    {
+      "person_id": "e87ece59-9b78-5655-9765-59e12451773d",
+      "identity_status": "unresolved",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_evidence": "The visually verified index row is preserved, but accessible official, institutional, directory, newspaper, obituary, and archival searches did not produce enough corroborating identifiers for a reliable namesake match.",
+      "next_action": "Inspect the indexed Box 633 personnel file for Dorothy G Randolph and seek a dated personnel history or employer document."
+    },
+    {
+      "person_id": "744e54c0-a7e7-5704-8559-603c8e448466",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed full name and a nonshared protected identifier agree with the official Army bulk record; coded Army fields are not employer evidence.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the indexed Box 633 personnel file for Stephen T Randolph to establish the immediate pre-OSS affiliation and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "917d511f-6d8e-550c-a370-8eb55568ff60",
+      "identity_status": "unresolved",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_evidence": "The visually verified index row is preserved, but accessible official, institutional, directory, newspaper, obituary, and archival searches did not produce enough corroborating identifiers for a reliable namesake match.",
+      "next_action": "Inspect the indexed Box 633 personnel file for Richard A Rankin and seek a dated personnel history or employer document."
+    },
+    {
+      "person_id": "f4887f88-5b29-5975-beb5-09370cb58b0c",
+      "identity_status": "high_confidence",
+      "manual_review_required": true,
+      "research_status": "completed",
+      "next_action": "Review Box 632 and contemporary Youngstown broadcasting records to identify the radio station and establish the last civilian-employer dates.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "92aeba29-2a13-56d0-96ae-2e8092d80330",
+      "identity_status": "unresolved",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_evidence": "The visually verified index row is preserved, but accessible official, institutional, directory, newspaper, obituary, and archival searches did not produce enough corroborating identifiers for a reliable namesake match.",
+      "next_action": "Inspect the indexed Box 633 personnel file for Filomena C Rano and seek a dated personnel history or employer document."
+    },
+    {
+      "person_id": "938d9600-399b-560a-a5c1-e678ab4fa976",
+      "identity_status": "unresolved",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_evidence": "The visually verified index row is preserved, but accessible official, institutional, directory, newspaper, obituary, and archival searches did not produce enough corroborating identifiers for a reliable namesake match.",
+      "next_action": "Inspect the indexed Box 633 personnel file for Josephine E Ransburg and seek a dated personnel history or employer document."
+    },
+    {
+      "person_id": "3549f90b-7090-5e79-a073-194e009491f4",
+      "identity_status": "unresolved",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_evidence": "The visually verified index row is preserved, but accessible official, institutional, directory, newspaper, obituary, and archival searches did not produce enough corroborating identifiers for a reliable namesake match.",
+      "next_action": "Inspect the indexed Box 633 personnel file for Paul B Ranslow and seek a dated personnel history or employer document."
+    },
+    {
+      "person_id": "d789c031-c056-5bd1-8684-fd427f2487a1",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact uncommon indexed name and nonshared Army identifier agree; Dartmouth's institutional biography explicitly documents Army service with OSS and later promotion to captain.",
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 633 for the exact transfer or recruitment sequence between Army service, OSS, and the Army Service Forces.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "1acde04e-13d0-5539-bb90-5db18906feab",
+      "identity_status": "unresolved",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_evidence": "The visually verified index row is preserved, but accessible official, institutional, directory, newspaper, obituary, and archival searches did not produce enough corroborating identifiers for a reliable namesake match.",
+      "next_action": "Inspect the indexed Box 633 personnel file for Robert C Ransom and seek a dated personnel history or employer document."
+    },
+    {
+      "person_id": "cac14657-3aba-5a7f-addf-96b0fcb7b36d",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An exact-name Army bulk row agrees with the nonshared indexed identifier. A second same-identifier row naming Granaman Arthur R was rejected as a name-conflicting source anomaly and remains documented for review.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 633 to confirm the exact-name Army match and explain the adjacent name-conflicting bulk row before pursuing employment evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "25e6c91e-b982-5fd2-aa26-1a6c3f4a22b2",
+      "identity_status": "conflicting",
+      "identity_evidence": "The private identifier is shared with indexed Paul P Christopher, and the official Army bulk row names Christopher Paul P rather than Thomas J Ransom. No merge is permitted.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Compare Box 633 with the Paul P Christopher file in Box 124 and resolve the source-number conflict before assigning any biography or employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "28c5023e-2399-5699-b21a-5dd0b885ce6b",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed full name and a nonshared protected identifier agree with the official Army bulk record; coded Army fields are not employer evidence.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the indexed Box 633 personnel file for Thomas J Ranson to establish the immediate pre-OSS affiliation and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fc0fc9a9-2c37-5725-bfd1-32a4c897cad4",
+      "identity_status": "unresolved",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_evidence": "The visually verified index row is preserved, but accessible official, institutional, directory, newspaper, obituary, and archival searches did not produce enough corroborating identifiers for a reliable namesake match.",
+      "next_action": "Inspect the indexed Box 633 personnel file for Wesley E Ranta and seek a dated personnel history or employer document."
+    },
+    {
+      "person_id": "9d2f3941-71f2-5d43-953f-c03498eb741a",
+      "identity_status": "unresolved",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_evidence": "The visually verified index row is preserved, but accessible official, institutional, directory, newspaper, obituary, and archival searches did not produce enough corroborating identifiers for a reliable namesake match.",
+      "next_action": "Inspect the indexed Box 633 personnel file for Charlotte M Rantoul and seek a dated personnel history or employer document."
+    },
+    {
+      "person_id": "a30ab6fd-8bf8-5498-81bf-15e7ee7d2c1a",
+      "identity_status": "conflicting",
+      "identity_evidence": "The private identifier is shared with indexed Joseph Veselinovich on page 482. The unrelated names must remain separate pending comparison of Boxes 633 and 803.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Compare the Vincent P Rao file in Box 633 with the Joseph Veselinovich file in Box 803 before assigning any external identity or employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "0601485f-c5b3-5824-a874-96935e394e09",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index preserves only '* Raoul' with the clipped note 'no first n'. Proximity to Raoul-Duval is not sufficient evidence of identity.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 633 for the incomplete '* Raoul' entry; do not link it to either Raoul-Duval row without direct file evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "86fd0d8c-ca23-5721-a58c-c0dd426e5325",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An official French archival finding aid names Lieutenant Richard Raoul-Duval, alias Dorsay, in explicit OSS mission context, matching the uncommon name and indexed second-lieutenant rank.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "possible-richard-raoul-duval-page384",
+      "research_status": "requires_archival_review",
+      "next_action": "Compare both same-name Box 633 personnel files and their different protected identifiers; preserve the two source-derived entities until direct evidence resolves duplication.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "2a6391b9-a8e6-5e82-849f-2cb39f49cd9f",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official Army bulk fixed-width name RAOULIDUVAL RICHARD normalizes to the indexed hyphenated name and agrees with a nonshared protected identifier; the adjacent officer row remains a possible duplicate.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "possible-richard-raoul-duval-page384",
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Compare both same-name Box 633 files and seek a 1939-42 legal directory or personnel history to determine whether private practice immediately preceded OSS service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "c53c3115-c159-5671-b4b1-9225df05854f",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed base name and a nonshared protected identifier agree with the Army bulk record, which adds the suffix Jr.; the adjacent same-name officer-style row remains unmerged.",
+      "name_variants": [
+        "Bergen B Rapalyea Jr."
+      ],
+      "manual_review_required": true,
+      "possible_duplicate_group": "possible-bergen-b-rapalyea-page384",
+      "research_status": "requires_archival_review",
+      "next_action": "Compare both same-name Box 633 files and establish whether the two protected identifiers represent duplicate records or different people.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "9d85ee60-f05b-5d2b-94ff-7ef20b720d60",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The rare name and shared box align with the adjacent Bergen B Rapalyea row, but the different officer-style protected identifier prevents a name-only merge.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "possible-bergen-b-rapalyea-page384",
+      "research_status": "requires_archival_review",
+      "next_action": "Compare both same-name Box 633 files; do not transfer the Jr. suffix or Army bulk match to this row without direct linkage.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "05e018e5-6dd8-528f-b252-358aabaa3a39",
+      "identity_status": "unresolved",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_evidence": "The visually verified index row is preserved, but accessible official, institutional, directory, newspaper, obituary, and archival searches did not produce enough corroborating identifiers for a reliable namesake match.",
+      "next_action": "Inspect the indexed Box 633 personnel file for Michel Rapaport and seek a dated personnel history or employer document."
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "joseph-j-randazza-91ce54fe-protocol-b788",
+      "person_id": "91ce54fe-df5b-5ae8-9895-1180dd092913",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Joseph J Randazza; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_788",
+      "started_at": "2026-10-13T22:00:00+00:00",
+      "completed_at": "2026-10-13T22:55:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Common-name, snippet-only, modern namesake, education-only, postwar, and undated results lacked the identity or temporal evidence required for a pre-OSS claim.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Official-context, exact-name, employment, obituary, institutional, newspaper, directory, and archival query families were reviewed; access failures were treated as source limitations, not negative evidence.",
+      "next_action": "Inspect the indexed Box 633 personnel file for Joseph J Randazza to establish the immediate pre-OSS affiliation and last civilian employer.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b788-v1"
+    },
+    {
+      "key": "james-l-randles-3c8ff0a4-protocol-b788",
+      "person_id": "3c8ff0a4-1b43-58d2-814c-487d239281b3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; James L Randles; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_788",
+      "started_at": "2026-10-13T22:00:00+00:00",
+      "completed_at": "2026-10-13T22:55:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Common-name, snippet-only, modern namesake, education-only, postwar, and undated results lacked the identity or temporal evidence required for a pre-OSS claim.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Official-context, exact-name, employment, obituary, institutional, newspaper, directory, and archival query families were reviewed; access failures were treated as source limitations, not negative evidence.",
+      "next_action": "Inspect the indexed Box 633 personnel file for James L Randles and seek a dated personnel history or employer document.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b788-v1"
+    },
+    {
+      "key": "dorothy-g-randolph-e87ece59-protocol-b788",
+      "person_id": "e87ece59-9b78-5655-9765-59e12451773d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Dorothy G Randolph; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_788",
+      "started_at": "2026-10-13T22:00:00+00:00",
+      "completed_at": "2026-10-13T22:55:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Common-name, snippet-only, modern namesake, education-only, postwar, and undated results lacked the identity or temporal evidence required for a pre-OSS claim.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Official-context, exact-name, employment, obituary, institutional, newspaper, directory, and archival query families were reviewed; access failures were treated as source limitations, not negative evidence.",
+      "next_action": "Inspect the indexed Box 633 personnel file for Dorothy G Randolph and seek a dated personnel history or employer document.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b788-v1"
+    },
+    {
+      "key": "stephen-t-randolph-744e54c0-protocol-b788",
+      "person_id": "744e54c0-a7e7-5704-8559-603c8e448466",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Stephen T Randolph; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_788",
+      "started_at": "2026-10-13T22:00:00+00:00",
+      "completed_at": "2026-10-13T22:55:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Common-name, snippet-only, modern namesake, education-only, postwar, and undated results lacked the identity or temporal evidence required for a pre-OSS claim.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Official-context, exact-name, employment, obituary, institutional, newspaper, directory, and archival query families were reviewed; access failures were treated as source limitations, not negative evidence.",
+      "next_action": "Inspect the indexed Box 633 personnel file for Stephen T Randolph to establish the immediate pre-OSS affiliation and last civilian employer.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b788-v1"
+    },
+    {
+      "key": "richard-a-rankin-917d511f-protocol-b788",
+      "person_id": "917d511f-6d8e-550c-a370-8eb55568ff60",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Richard A Rankin; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_788",
+      "started_at": "2026-10-13T22:00:00+00:00",
+      "completed_at": "2026-10-13T22:55:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Common-name, snippet-only, modern namesake, education-only, postwar, and undated results lacked the identity or temporal evidence required for a pre-OSS claim.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Official-context, exact-name, employment, obituary, institutional, newspaper, directory, and archival query families were reviewed; access failures were treated as source limitations, not negative evidence.",
+      "next_action": "Inspect the indexed Box 633 personnel file for Richard A Rankin and seek a dated personnel history or employer document.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b788-v1"
+    },
+    {
+      "key": "james-f-ranney-f4887f88-protocol-b788",
+      "person_id": "f4887f88-5b29-5975-beb5-09370cb58b0c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; James F Ranney; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_788",
+      "started_at": "2026-10-13T22:00:00+00:00",
+      "completed_at": "2026-10-13T22:55:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Namesake, radio-history, and snippet-only results did not name the pre-draft Youngstown station or close the chronology.",
+      "research_notes": "The prior high-confidence Ranney identity and documented Signal Corps School pathway were audited and preserved. No accessible source named the Youngstown radio station; CIA and Library of Congress adapter failures remain source-access limitations, not negative evidence.",
+      "next_action": "Review Box 632 and contemporary Youngstown broadcasting records to identify the radio station and establish the last civilian-employer dates.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b788-v1"
+    },
+    {
+      "key": "filomena-c-rano-92aeba29-protocol-b788",
+      "person_id": "92aeba29-2a13-56d0-96ae-2e8092d80330",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Filomena C Rano; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_788",
+      "started_at": "2026-10-13T22:00:00+00:00",
+      "completed_at": "2026-10-13T22:55:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Common-name, snippet-only, modern namesake, education-only, postwar, and undated results lacked the identity or temporal evidence required for a pre-OSS claim.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Official-context, exact-name, employment, obituary, institutional, newspaper, directory, and archival query families were reviewed; access failures were treated as source limitations, not negative evidence.",
+      "next_action": "Inspect the indexed Box 633 personnel file for Filomena C Rano and seek a dated personnel history or employer document.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b788-v1"
+    },
+    {
+      "key": "josephine-e-ransburg-938d9600-protocol-b788",
+      "person_id": "938d9600-399b-560a-a5c1-e678ab4fa976",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Josephine E Ransburg; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_788",
+      "started_at": "2026-10-13T22:00:00+00:00",
+      "completed_at": "2026-10-13T22:55:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Common-name, snippet-only, modern namesake, education-only, postwar, and undated results lacked the identity or temporal evidence required for a pre-OSS claim.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Official-context, exact-name, employment, obituary, institutional, newspaper, directory, and archival query families were reviewed; access failures were treated as source limitations, not negative evidence.",
+      "next_action": "Inspect the indexed Box 633 personnel file for Josephine E Ransburg and seek a dated personnel history or employer document.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b788-v1"
+    },
+    {
+      "key": "paul-b-ranslow-3549f90b-protocol-b788",
+      "person_id": "3549f90b-7090-5e79-a073-194e009491f4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Paul B Ranslow; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_788",
+      "started_at": "2026-10-13T22:00:00+00:00",
+      "completed_at": "2026-10-13T22:55:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The 1947-born college president is temporally impossible; a coded Army occupation derivative lacked identifier agreement and a named employer.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. A prominent later Paul B Ranslow born in 1947 is a different person, and an enlistment derivative with a different identifier cannot be linked by name alone.",
+      "next_action": "Inspect the indexed Box 633 personnel file for Paul B Ranslow and seek a dated personnel history or employer document.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b788-v1"
+    },
+    {
+      "key": "joseph-s-ransmeier-d789c031-protocol-b788",
+      "person_id": "d789c031-c056-5bd1-8684-fd427f2487a1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Joseph S Ransmeier; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_788",
+      "started_at": "2026-10-13T22:00:00+00:00",
+      "completed_at": "2026-10-13T22:55:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Later-career and duplicate biography results added no better pre-OSS sequence; the Office of Price Administration reference lacked a clear date relative to Army and OSS service.",
+      "research_notes": "Two Dartmouth institutional biographies, the NARA index, and the official Army bulk record establish a high-confidence identity, Vanderbilt as the last civilian employer before Army service, and an earlier Brookings fellowship. Immediate OSS-entry sequence remains unproven.",
+      "next_action": "Review Box 633 for the exact transfer or recruitment sequence between Army service, OSS, and the Army Service Forces.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b788-v1"
+    },
+    {
+      "key": "robert-c-ransom-1acde04e-protocol-b788",
+      "person_id": "1acde04e-13d0-5539-bb90-5db18906feab",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Robert C Ransom; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_788",
+      "started_at": "2026-10-13T22:00:00+00:00",
+      "completed_at": "2026-10-13T22:55:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Common-name, snippet-only, modern namesake, education-only, postwar, and undated results lacked the identity or temporal evidence required for a pre-OSS claim.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Official-context, exact-name, employment, obituary, institutional, newspaper, directory, and archival query families were reviewed; access failures were treated as source limitations, not negative evidence.",
+      "next_action": "Inspect the indexed Box 633 personnel file for Robert C Ransom and seek a dated personnel history or employer document.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b788-v1"
+    },
+    {
+      "key": "robert-e-ransom-cac14657-protocol-b788",
+      "person_id": "cac14657-3aba-5a7f-addf-96b0fcb7b36d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Robert E Ransom; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_788",
+      "started_at": "2026-10-13T22:00:00+00:00",
+      "completed_at": "2026-10-13T22:55:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "The unrelated Granaman Arthur R bulk name and common-name web results cannot be assigned to indexed Robert E Ransom.",
+      "research_notes": "The exact-name Army bulk candidate was accepted. A second same-identifier candidate bearing an unrelated name was rejected as a source anomaly but preserved for critical archival review. No reliable pre-OSS employer was found.",
+      "next_action": "Inspect Box 633 to confirm the exact-name Army match and explain the adjacent name-conflicting bulk row before pursuing employment evidence.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b788-v1"
+    },
+    {
+      "key": "thomas-j-ransom-25e6c91e-protocol-b788",
+      "person_id": "25e6c91e-b982-5fd2-aa26-1a6c3f4a22b2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Thomas J Ransom; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_788",
+      "started_at": "2026-10-13T22:00:00+00:00",
+      "completed_at": "2026-10-13T22:55:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Namesake results and the Army row fail the required identity test; the conflict must be resolved from the physical files.",
+      "research_notes": "Official records conflict: the index identifier is also printed for Paul P Christopher, and the Army bulk row names Christopher. No external identity or employer was assigned to Thomas J Ransom.",
+      "next_action": "Compare Box 633 with the Paul P Christopher file in Box 124 and resolve the source-number conflict before assigning any biography or employer.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b788-v1"
+    },
+    {
+      "key": "thomas-j-ranson-28c5023e-protocol-b788",
+      "person_id": "28c5023e-2399-5699-b21a-5dd0b885ce6b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Thomas J Ranson; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_788",
+      "started_at": "2026-10-13T22:00:00+00:00",
+      "completed_at": "2026-10-13T22:55:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Common-name, snippet-only, modern namesake, education-only, postwar, and undated results lacked the identity or temporal evidence required for a pre-OSS claim.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Official-context, exact-name, employment, obituary, institutional, newspaper, directory, and archival query families were reviewed; access failures were treated as source limitations, not negative evidence.",
+      "next_action": "Inspect the indexed Box 633 personnel file for Thomas J Ranson to establish the immediate pre-OSS affiliation and last civilian employer.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b788-v1"
+    },
+    {
+      "key": "wesley-e-ranta-fc0fc9a9-protocol-b788",
+      "person_id": "fc0fc9a9-2c37-5725-bfd1-32a4c897cad4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Wesley E Ranta; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_788",
+      "started_at": "2026-10-13T22:00:00+00:00",
+      "completed_at": "2026-10-13T22:55:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Common-name, snippet-only, modern namesake, education-only, postwar, and undated results lacked the identity or temporal evidence required for a pre-OSS claim.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Official-context, exact-name, employment, obituary, institutional, newspaper, directory, and archival query families were reviewed; access failures were treated as source limitations, not negative evidence.",
+      "next_action": "Inspect the indexed Box 633 personnel file for Wesley E Ranta and seek a dated personnel history or employer document.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b788-v1"
+    },
+    {
+      "key": "charlotte-m-rantoul-9d2f3941-protocol-b788",
+      "person_id": "9d2f3941-71f2-5d43-953f-c03498eb741a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Charlotte M Rantoul; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_788",
+      "started_at": "2026-10-13T22:00:00+00:00",
+      "completed_at": "2026-10-13T22:55:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Common-name, snippet-only, modern namesake, education-only, postwar, and undated results lacked the identity or temporal evidence required for a pre-OSS claim.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Official-context, exact-name, employment, obituary, institutional, newspaper, directory, and archival query families were reviewed; access failures were treated as source limitations, not negative evidence.",
+      "next_action": "Inspect the indexed Box 633 personnel file for Charlotte M Rantoul and seek a dated personnel history or employer document.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b788-v1"
+    },
+    {
+      "key": "vincent-p-rao-a30ab6fd-protocol-b788",
+      "person_id": "a30ab6fd-8bf8-5498-81bf-15e7ee7d2c1a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Vincent P Rao; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_788",
+      "started_at": "2026-10-13T22:00:00+00:00",
+      "completed_at": "2026-10-13T22:55:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Name-only and profession-only candidates were rejected because the protected identifier is duplicated across unrelated names.",
+      "research_notes": "The index identifier conflicts with a separately printed Joseph Veselinovich row. No namesake biography or employer was admitted; the physical files require comparison.",
+      "next_action": "Compare the Vincent P Rao file in Box 633 with the Joseph Veselinovich file in Box 803 before assigning any external identity or employer.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b788-v1"
+    },
+    {
+      "key": "star-raoul-0601485f-protocol-b788",
+      "person_id": "0601485f-c5b3-5824-a874-96935e394e09",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; * Raoul; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_788",
+      "started_at": "2026-10-13T22:00:00+00:00",
+      "completed_at": "2026-10-13T22:55:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Raoul-Duval results were rejected for this incomplete record because no direct source links the rows.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The incomplete '* Raoul' entry cannot be linked to Richard Raoul-Duval from proximity alone.",
+      "next_action": "Inspect Box 633 for the incomplete '* Raoul' entry; do not link it to either Raoul-Duval row without direct file evidence.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b788-v1"
+    },
+    {
+      "key": "richard-raoul-duval-86fd0d8c-protocol-b788",
+      "person_id": "86fd0d8c-ca23-5721-a58c-c0dd426e5325",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Richard Raoul-Duval; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_788",
+      "started_at": "2026-10-13T22:00:00+00:00",
+      "completed_at": "2026-10-13T22:55:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Hibernia Bank employment was not inferred from an office address; family genealogy and later summaries were not used as sole evidence.",
+      "research_notes": "The Archives nationales finding aid strongly identifies the indexed officer as Lieutenant Richard Raoul-Duval, alias Dorsay, on OSS mission Freelance. The adjacent same-name row remains a possible duplicate; prewar legal evidence is attached only to the separately Army-linked row to avoid duplicate analytics.",
+      "next_action": "Compare both same-name Box 633 personnel files and their different protected identifiers; preserve the two source-derived entities until direct evidence resolves duplication.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b788-v1"
+    },
+    {
+      "key": "richard-raoul-duval-2a6391b9-protocol-b788",
+      "person_id": "2a6391b9-a8e6-5e82-849f-2cb39f49cd9f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Richard Raoul-Duval; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_788",
+      "started_at": "2026-10-13T22:00:00+00:00",
+      "completed_at": "2026-10-13T22:55:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Hibernia Bank was rejected as an employer inference because the directory supplies only a building address; genealogy and snippet-only leads were not treated as final evidence.",
+      "research_notes": "The Army fixed-width name and protected identifier support this row. A contemporary 1938 directory documents legal practice in San Francisco, while the official French finding aid corroborates OSS service. The four-year gap prevents an immediate-pre-OSS claim.",
+      "next_action": "Compare both same-name Box 633 files and seek a 1939-42 legal directory or personnel history to determine whether private practice immediately preceded OSS service.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b788-v1"
+    },
+    {
+      "key": "bergen-b-rapalyea-c53c3115-protocol-b788",
+      "person_id": "c53c3115-c159-5671-b4b1-9225df05854f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Bergen B Rapalyea; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_788",
+      "started_at": "2026-10-13T22:00:00+00:00",
+      "completed_at": "2026-10-13T22:55:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Pan American World Airways evidence is postwar or undated and cannot establish a pre-OSS employer; the adjacent same-name row remains unmerged.",
+      "research_notes": "The Army bulk match supports the enlisted-style row and adds Jr. as a sourced variant. A Library of Congress finding aid links the name to Pan American World Airways without a prewar date; 1950s directories make that lead postwar, so it was rejected for this project question.",
+      "next_action": "Compare both same-name Box 633 files and establish whether the two protected identifiers represent duplicate records or different people.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b788-v1"
+    },
+    {
+      "key": "bergen-b-rapalyea-9d85ee60-protocol-b788",
+      "person_id": "9d85ee60-f05b-5d2b-94ff-7ef20b720d60",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Bergen B Rapalyea; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_788",
+      "started_at": "2026-10-13T22:00:00+00:00",
+      "completed_at": "2026-10-13T22:55:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The Jr. Army match belongs to the adjacent enlisted-style row; postwar Pan American sources do not answer the pre-OSS question.",
+      "research_notes": "The rare same-name adjacent record is a plausible duplicate but carries a different officer-style protected identifier. Postwar Pan American evidence was rejected as temporally irrelevant, and no reliable pre-OSS employer was found.",
+      "next_action": "Compare both same-name Box 633 files; do not transfer the Jr. suffix or Army bulk match to this row without direct linkage.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b788-v1"
+    },
+    {
+      "key": "michel-rapaport-05e018e5-protocol-b788",
+      "person_id": "05e018e5-6dd8-528f-b252-358aabaa3a39",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Michel Rapaport; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_788",
+      "started_at": "2026-10-13T22:00:00+00:00",
+      "completed_at": "2026-10-13T22:55:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Common-name, snippet-only, modern namesake, education-only, postwar, and undated results lacked the identity or temporal evidence required for a pre-OSS claim.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Official-context, exact-name, employment, obituary, institutional, newspaper, directory, and archival query families were reviewed; access failures were treated as source limitations, not negative evidence.",
+      "next_action": "Inspect the indexed Box 633 personnel file for Michel Rapaport and seek a dated personnel history or employer document.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b788-v1"
+    }
+  ]
+}
