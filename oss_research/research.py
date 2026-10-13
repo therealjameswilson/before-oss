@@ -33,6 +33,7 @@ def assign_page_batch(
     source_page: int,
     first_row: int,
     last_row: int,
+    reassign_from_batches: tuple[str, ...] = (),
 ) -> dict[str, object]:
     """Assign a complete printed row range to a resumable research batch.
 
@@ -42,6 +43,17 @@ def assign_page_batch(
     """
     if not re.fullmatch(r"[a-z][a-z0-9_-]{0,63}", batch_name):
         raise ValueError("Batch name must be a short lowercase slug.")
+    invalid_reassignment_batches = sorted(
+        prior_batch
+        for prior_batch in reassign_from_batches
+        if not re.fullmatch(r"[a-z][a-z0-9_-]{0,63}", prior_batch)
+        or prior_batch == batch_name
+    )
+    if invalid_reassignment_batches:
+        raise ValueError(
+            "Reassignment source batches must be distinct lowercase slugs: "
+            f"{invalid_reassignment_batches}."
+        )
     if source_page < 1 or first_row < 1 or last_row < first_row:
         raise ValueError("Page and row numbers must be positive and ordered.")
     if last_row - first_row + 1 > 100:
@@ -88,7 +100,8 @@ def assign_page_batch(
     conflicting_people = [
         person_id
         for person_id in person_ids
-        if assigned[person_id] not in (None, batch_name)
+        if assigned[person_id]
+        not in (None, batch_name, *reassign_from_batches)
     ]
     if conflicting_people:
         raise ValueError(
@@ -105,16 +118,26 @@ def assign_page_batch(
         )
 
     now = utc_now()
+    newly_assigned_people = sum(assigned[person_id] is None for person_id in person_ids)
+    reassigned_people = sum(
+        assigned[person_id] in reassign_from_batches for person_id in person_ids
+    )
     with connection:
         connection.executemany(
             """
             UPDATE research_queue
             SET assigned_batch = ?, protocol_version = ?, updated_at = ?
-            WHERE person_id = ? AND assigned_batch IS NULL
+            WHERE person_id = ?
             """,
             (
-                (batch_name, RESEARCH_PROTOCOL_VERSION, now, person_id)
+                (
+                    batch_name,
+                    RESEARCH_PROTOCOL_VERSION,
+                    now,
+                    person_id,
+                )
                 for person_id in person_ids
+                if assigned[person_id] != batch_name
             ),
         )
     return {
@@ -124,7 +147,8 @@ def assign_page_batch(
         "last_row": last_row,
         "source_rows": len(found_rows),
         "person_entities": len(person_ids),
-        "newly_assigned_people": sum(assigned[person_id] is None for person_id in person_ids),
+        "newly_assigned_people": newly_assigned_people,
+        "reassigned_people": reassigned_people,
         "person_ids": person_ids,
     }
 

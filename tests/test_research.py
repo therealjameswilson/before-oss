@@ -138,6 +138,44 @@ class PageBatchAssignmentTests(unittest.TestCase):
                 last_row=2,
             )
 
+    def test_explicitly_reassigns_from_named_prior_batch_only(self) -> None:
+        self.connection.execute(
+            "UPDATE research_queue SET assigned_batch='pilot-v1' "
+            "WHERE person_id='person-2'"
+        )
+        result = assign_page_batch(
+            self.connection,
+            batch_name="batch-580",
+            source_page=117,
+            first_row=1,
+            last_row=2,
+            reassign_from_batches=("pilot-v1",),
+        )
+        self.assertEqual(result["newly_assigned_people"], 1)
+        self.assertEqual(result["reassigned_people"], 1)
+        assignments = dict(
+            self.connection.execute(
+                "SELECT person_id, assigned_batch FROM research_queue"
+            )
+        )
+        self.assertEqual(assignments["person-1"], "batch-580")
+        self.assertEqual(assignments["person-2"], "batch-580")
+        self.assertIsNone(assignments["person-3"])
+
+    def test_reassignment_source_must_be_a_distinct_batch_slug(self) -> None:
+        for source_batch in ("batch-580", "../pilot", "Pilot"):
+            with self.subTest(source_batch=source_batch), self.assertRaisesRegex(
+                ValueError, "distinct lowercase slugs"
+            ):
+                assign_page_batch(
+                    self.connection,
+                    batch_name="batch-580",
+                    source_page=117,
+                    first_row=1,
+                    last_row=2,
+                    reassign_from_batches=(source_batch,),
+                )
+
     def test_superseded_row_routes_to_canonical_person(self) -> None:
         self.connection.execute(
             "INSERT INTO entity_supersessions VALUES ('person-2', 'person-1')"

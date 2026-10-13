@@ -82,6 +82,15 @@ def parser() -> argparse.ArgumentParser:
     page_batch.add_argument("--page", type=int, required=True)
     page_batch.add_argument("--first-row", type=int, required=True)
     page_batch.add_argument("--last-row", type=int, required=True)
+    page_batch.add_argument(
+        "--reassign-from-batch",
+        action="append",
+        default=[],
+        help=(
+            "Explicitly permit migration from this named prior batch; repeat "
+            "for multiple source batches"
+        ),
+    )
 
     nara_check = sub.add_parser("nara-check")
     nara_check.add_argument("--dry-run", action="store_true")
@@ -252,6 +261,7 @@ def main(argv: list[str] | None = None) -> int:
                 source_page=args.page,
                 first_row=args.first_row,
                 last_row=args.last_row,
+                reassign_from_batches=tuple(args.reassign_from_batch),
             )
             finish_run(
                 connection,
@@ -262,6 +272,7 @@ def main(argv: list[str] | None = None) -> int:
                 checkpoint={
                     "batch_name": result["batch_name"],
                     "person_entities": result["person_entities"],
+                    "reassigned_people": result["reassigned_people"],
                 },
             )
         elif args.command == "research":
