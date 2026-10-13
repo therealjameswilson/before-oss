@@ -1,5 +1,40 @@
 # Research status
 
+Batch 765 completed PDF page 372, rows 29-46, from **Rose S Pollack**
+through **Edward C Pomme**, with terminal dispositions for all 18 separately
+preserved people and rows. The printed page was visually checked at 300 dpi;
+the unusual indexed spelling Peter Polychronopo is preserved, while the Army
+variant Peter Polychronopoules is recorded separately. Official Army evidence
+establishes Joseph F Polony, Peter Polychronopo, Demetrios N Polyzos, and
+Robert L Pomeroy at high identity confidence only. The damaged Army rendering
+`POLYZOS DE ETRIOS` remains documented alongside an OSS Greek Group VIII
+roster that corroborates Demetrios N Polyzos. Army occupation and grade codes
+are excluded. A Bryn Mawr institutional biography establishes Magda Pollaczek's
+one-year employment teaching French and German at Dana Hall immediately before
+her 1944 OSS work; Bryn Mawr College remains separately modeled as student
+status, not employment. A reputable biographical source supports Paramount as
+Abraham Polonsky's qualified, medium-confidence last civilian employer before
+OSS overseas service, but not as an immediate affiliation because the exact
+contract and OSS-entry dates remain unresolved. Frederick Pollock's possible
+identity as Friedrich Pollock is withheld pending Box 610 review. The remaining
+people are unresolved and routed to archival review. The oil-company category
+now contains **10 people across 12 historically named companies**. The CIA and
+Library of Congress cohort adapters recorded source-access failures; no
+authenticated NARA Catalog request was made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **10,599/23,939 (44.2750%)**;
+verified-employer coverage is **348/23,939 (1.4537%)**;
+verified-affiliation coverage is **784/23,939 (3.2750%)**; archival-review
+coverage is **9,057/23,939 (37.8337%)**. There are **13,335** `not_started`
+people and **536** possible-duplicate groups. SQLite retains **19,451**
+attempts or plans and **6,737** claims: 1,402 confirmed, 3,244 high, 1,579
+medium, 198 low, 312 conflicting, and two unresolved. It has **5,894**
+citation records and **3,028** unique source documents. The public projection
+has **2,561** affiliations, **903** organizations, **4,670** sources, and
+**6,530** claims. Full-index historical research remains unfinished. The next
+boundary is PDF page 373, row 1, **Seymour J Pomrenze**.
+
 Batch 764 completed PDF page 372, rows 1-28, from **Theadfield L Poehl**
 through **Robert E Pollack**, with terminal dispositions for all 28 separately
 preserved people and rows. The printed page was visually checked at 300 dpi;
