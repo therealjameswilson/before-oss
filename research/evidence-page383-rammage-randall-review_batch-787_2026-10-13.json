@@ -1,0 +1,1016 @@
+{
+  "bundle_version": "3",
+  "reviewer": "Before OSS batch 787 archival, identity, and employment review",
+  "sources": [
+    {
+      "key": "nara-index-b787",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 632 and 639",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 383, rows 25-46, and page 388, row 29; visually checked against 300 dpi renders",
+      "access_date": "2026-10-13",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All printed rows remain separate. The clipped notes 'One fold', 'Record', and 'Certificat' are preserved exactly. Full identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b787",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department. Adjutant General's Office",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946",
+      "locator": "Eight reviewed exact-name, nonshared protected-identifier candidates",
+      "access_date": "2026-10-13",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Selective Service System, Record Group 147",
+      "rights_notes": "Official unrestricted bulk data, not a Catalog API response. Full protected identifiers and coded fields are not published. Coded Army fields are not employer evidence."
+    },
+    {
+      "key": "churchill-ramsbotham-b787",
+      "stable_url": "https://oa-churchillarchives.libnova.com/view/1739",
+      "archival_identifier": "Churchill Archives Centre, British Diplomatic Oral History Programme, DOHP 44",
+      "title": "British Diplomatic Oral History Programme: Sir Peter Ramsbotham",
+      "author_creator": "Sir Peter Ramsbotham; Malcolm McBain, interviewer",
+      "repository_publisher": "Churchill Archives Centre",
+      "publication_record_date": "2001-01-09",
+      "locator": "Transcript pages 2-4 of 47",
+      "access_date": "2026-10-13",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "British Diplomatic Oral History Programme",
+      "rights_notes": "First-person institutional oral-history transcript. The reviewed pages document wartime assignments but do not state when or how Ramsbotham became connected to OSS."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "british-war-office-existing-b787",
+      "organization_id": "6230da57-0578-50a0-bec7-c3b2a208c70d",
+      "canonical_name": "British War Office",
+      "historical_name": "War Office",
+      "aliases": [
+        "War Office"
+      ],
+      "organization_type": "British government military department",
+      "sector": "military",
+      "city": "London",
+      "state_or_region": null,
+      "country": "United Kingdom",
+      "active_dates": "1704-1964",
+      "normalization_notes": "The wartime department is preserved under its historical name and is not silently replaced by a modern successor."
+    },
+    {
+      "key": "british-army-intelligence-corps-existing-b787",
+      "organization_id": "470644fd-e3dc-5a3c-b930-314c43f92b42",
+      "canonical_name": "British Army Intelligence Corps",
+      "historical_name": "Intelligence Corps",
+      "aliases": [
+        "Intelligence Corps"
+      ],
+      "organization_type": "military corps",
+      "sector": "military",
+      "city": null,
+      "state_or_region": null,
+      "country": "United Kingdom",
+      "active_dates": "1940-present",
+      "normalization_notes": "The historically named Intelligence Corps is kept distinct from the British Army as a whole. Its parent-service relationship remains descriptive until the organization model supports parent links in reviewed imports."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "peter-ramsbotham-war-office-b787",
+      "person_id": "2e9471ca-9e4c-5f43-9426-7166fff63dd9",
+      "organization_key": "british-war-office-existing-b787",
+      "organization_name_as_found": "security part of the War Office",
+      "role_title": "Security work",
+      "occupation": "government security work",
+      "relationship_type": "government_assignment",
+      "start_date": "1939",
+      "end_date": "1942-1943",
+      "date_precision": "approximate years; the transcript says the War Office period preceded Army entry in 1942 or 1943",
+      "city": "London",
+      "state_or_region": null,
+      "country": "United Kingdom",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Ramsbotham directly recalled security work at the War Office before entering the Army. The accessible transcript does not establish the sequence relative to his OSS-indexed connection, so this is neither an immediate-pre-OSS nor a civilian-employer claim."
+    },
+    {
+      "key": "peter-ramsbotham-intelligence-corps-b787",
+      "person_id": "2e9471ca-9e4c-5f43-9426-7166fff63dd9",
+      "organization_key": "british-army-intelligence-corps-existing-b787",
+      "organization_name_as_found": "Intelligence Corps",
+      "role_title": "Captain, later major and GSOII at army headquarters",
+      "occupation": "British Army intelligence officer",
+      "relationship_type": "military_assignment",
+      "start_date": "1943",
+      "end_date": "1945",
+      "date_precision": "approximate wartime years reconstructed from the oral-history sequence; exact dates are not stated on the reviewed pages",
+      "city": null,
+      "state_or_region": null,
+      "country": "United Kingdom",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The first-person transcript documents Intelligence Corps service and a rise from captain to major, matching the index's uncommon name and major rank. It does not establish whether this assignment preceded, overlapped, or followed the indexed OSS relationship."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-nick-e-ramoundos-b787",
+      "person_id": "8fe8be03-6d86-574c-98b8-a8ff28cf7285",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed Nick E Ramoundos.",
+      "evidence_excerpt": "NICK E RAMOUNDOS",
+      "evidence_paraphrase": "The official Army bulk row has the same full indexed name and agrees with a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on exact full-name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or the timing of OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b787",
+          "locator_override": "PDF page 383, row 28"
+        },
+        {
+          "source_key": "army-bulk-b787",
+          "locator_override": "Reviewed exact-name candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-charles-f-ramsdell-b787",
+      "person_id": "13c940b2-0be7-5754-8673-fea80853d6c0",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed Charles F Ramsdell.",
+      "evidence_excerpt": "CHARLES F RAMSDELL",
+      "evidence_paraphrase": "The official Army bulk row has the same full indexed name and agrees with a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on exact full-name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or the timing of OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b787",
+          "locator_override": "PDF page 383, row 31"
+        },
+        {
+          "source_key": "army-bulk-b787",
+          "locator_override": "Reviewed exact-name candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-kenneth-s-ramsey-b787",
+      "person_id": "079f8263-afc0-54d5-bd7a-a6c5c26e1623",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed Kenneth S Ramsey.",
+      "evidence_excerpt": "KENNETH S RAMSEY",
+      "evidence_paraphrase": "The official Army bulk row has the same full indexed name and agrees with a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on exact full-name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or the timing of OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b787",
+          "locator_override": "PDF page 383, row 34"
+        },
+        {
+          "source_key": "army-bulk-b787",
+          "locator_override": "Reviewed exact-name candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-winters-p-ramsey-b787",
+      "person_id": "709268fb-bb3c-5c59-a7e3-f28bc6da9228",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed Winters P Ramsey.",
+      "evidence_excerpt": "WINTERS P RAMSEY",
+      "evidence_paraphrase": "The official Army bulk row has the same full indexed name and agrees with a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on exact full-name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or the timing of OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b787",
+          "locator_override": "PDF page 383, row 36"
+        },
+        {
+          "source_key": "army-bulk-b787",
+          "locator_override": "Reviewed exact-name candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-philip-l-rancourt-b787",
+      "person_id": "2115d277-ed00-5309-973a-726f6177e26d",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed Philip L Rancourt.",
+      "evidence_excerpt": "PHILIP L RANCOURT",
+      "evidence_paraphrase": "The official Army bulk row has the same full indexed name and agrees with a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on exact full-name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or the timing of OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b787",
+          "locator_override": "PDF page 383, row 38"
+        },
+        {
+          "source_key": "army-bulk-b787",
+          "locator_override": "Reviewed exact-name candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-frank-j-randall-b787",
+      "person_id": "40b0b870-4f28-568a-b17f-ee4716c57f0f",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed Frank J Randall.",
+      "evidence_excerpt": "FRANK J RANDALL",
+      "evidence_paraphrase": "The official Army bulk row has the same full indexed name and agrees with a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on exact full-name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or the timing of OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b787",
+          "locator_override": "PDF page 383, row 41"
+        },
+        {
+          "source_key": "army-bulk-b787",
+          "locator_override": "Reviewed exact-name candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-gale-m-randall-b787",
+      "person_id": "cf444fa1-a29f-59b7-81a0-5830692d2f30",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed Gale M Randall.",
+      "evidence_excerpt": "GALE M RANDALL",
+      "evidence_paraphrase": "The official Army bulk row has the same full indexed name and agrees with a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on exact full-name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or the timing of OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b787",
+          "locator_override": "PDF page 383, row 42"
+        },
+        {
+          "source_key": "army-bulk-b787",
+          "locator_override": "Reviewed exact-name candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-kenneth-c-randall-b787",
+      "person_id": "2f848019-cf10-590e-a7f4-3dc9f928aa7b",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed Kenneth C Randall.",
+      "evidence_excerpt": "KENNETH C RANDALL",
+      "evidence_paraphrase": "The official Army bulk row has the same full indexed name and agrees with a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on exact full-name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or the timing of OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b787",
+          "locator_override": "PDF page 383, row 44"
+        },
+        {
+          "source_key": "army-bulk-b787",
+          "locator_override": "Reviewed exact-name candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-tommie-i-rammage-conflict-b787",
+      "person_id": "34867d63-ed99-5b06-814e-07a95c3ea588",
+      "claim_type": "identity",
+      "claim_text": "The index contains two separately printed Tommie I records with variant surnames and different boxes but the same protected identifier; their relationship remains conflicting pending archival review.",
+      "evidence_excerpt": "Rammage Tommie I ... Remmage Tommie I",
+      "evidence_paraphrase": "Visual review confirmed Rammage on page 383 and Remmage on page 388. The shared private identifier creates a strong duplication signal but does not justify silently merging the rows.",
+      "identity_match_assessment": "Conflicting: the identifier suggests one person, while the printed surname spelling and box placement differ. Both source records remain separate.",
+      "temporal_assessment": "The index establishes wartime personnel-file entries but supplies no pre-OSS chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The public profile discloses the duplicate conflict without displaying the protected identifier. Boxes 632 and 639 require comparison.",
+      "sources": [
+        {
+          "source_key": "nara-index-b787",
+          "locator_override": "PDF page 383, row 25, and page 388, row 29"
+        }
+      ]
+    },
+    {
+      "key": "identity-peter-e-ramsbotham-b787",
+      "person_id": "2e9471ca-9e4c-5f43-9426-7166fff63dd9",
+      "claim_type": "identity",
+      "claim_text": "The indexed Major Peter E Ramsbotham is a high-confidence match to Sir Peter Edward Ramsbotham, who recalled wartime British intelligence service and promotion to major.",
+      "evidence_excerpt": "captain, then major GSOII at army HQ",
+      "evidence_paraphrase": "The first-person oral history expands the uncommon indexed name and describes wartime intelligence duties at a rank compatible with the index.",
+      "identity_match_assessment": "High confidence based on the rare exact name, middle-name expansion, compatible major rank, and documented wartime intelligence context.",
+      "temporal_assessment": "The transcript documents wartime assignments but does not establish when or how Ramsbotham entered the OSS index.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The institutional first-person source resolves identity strongly; it does not authorize an immediate-pre-OSS or civilian-employer inference.",
+      "sources": [
+        {
+          "source_key": "nara-index-b787",
+          "locator_override": "PDF page 383, row 30"
+        },
+        {
+          "source_key": "churchill-ramsbotham-b787",
+          "locator_override": "Transcript pages 2-4"
+        }
+      ]
+    },
+    {
+      "key": "other-pre-oss-peter-ramsbotham-war-office-b787",
+      "person_id": "2e9471ca-9e4c-5f43-9426-7166fff63dd9",
+      "affiliation_key": "peter-ramsbotham-war-office-b787",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Peter Ramsbotham recalled security work in the British War Office before Army service; its relationship to his OSS-indexed connection is uncertain.",
+      "evidence_excerpt": "I went for some time to the security part of the War Office",
+      "evidence_paraphrase": "Ramsbotham said he moved into War Office security work after war began and before he entered the Army in 1942 or 1943.",
+      "identity_match_assessment": "High-confidence identity based on the uncommon name, expanded middle name, major rank, and wartime intelligence context.",
+      "temporal_assessment": "Explicitly before Army service, but the accessible source does not establish its sequence relative to the indexed OSS relationship.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Published as a qualified government assignment only. It is not labeled a civilian employer or immediate pre-OSS affiliation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b787",
+          "locator_override": "PDF page 383, row 30"
+        },
+        {
+          "source_key": "churchill-ramsbotham-b787",
+          "locator_override": "Transcript page 2"
+        }
+      ]
+    },
+    {
+      "key": "other-pre-oss-peter-ramsbotham-intelligence-corps-b787",
+      "person_id": "2e9471ca-9e4c-5f43-9426-7166fff63dd9",
+      "affiliation_key": "peter-ramsbotham-intelligence-corps-b787",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Peter Ramsbotham recalled wartime service in the British Army Intelligence Corps, including work as a captain and later major; its OSS sequence is uncertain.",
+      "evidence_excerpt": "I went back then into the Intelligence Corps",
+      "evidence_paraphrase": "His oral history describes Intelligence Corps service, special counter-intelligence work after D-Day, and work as captain then major at army headquarters.",
+      "identity_match_assessment": "High-confidence identity based on the uncommon name, expanded middle name, compatible major rank, and wartime intelligence context.",
+      "temporal_assessment": "The assignment is documented during the war, but the accessible source does not establish whether it preceded, overlapped, or followed the indexed OSS relationship.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Published as a qualified military assignment only, with temporal uncertainty visible and no immediate-pre-OSS inference.",
+      "sources": [
+        {
+          "source_key": "nara-index-b787",
+          "locator_override": "PDF page 383, row 30"
+        },
+        {
+          "source_key": "churchill-ramsbotham-b787",
+          "locator_override": "Transcript pages 2-4"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "34867d63-ed99-5b06-814e-07a95c3ea588",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Compare the indexed personnel files in Boxes 632 and 639 to determine whether Rammage and Remmage are variant records for one person.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "conflicting",
+      "identity_evidence": "The same protected identifier appears in separately printed Rammage and Remmage index rows with different boxes; both rows remain separate pending archival comparison."
+    },
+    {
+      "person_id": "9c6621e1-3844-5dd4-9182-279e358734a1",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 632 to establish the immediate pre-OSS affiliation and last civilian employer; compare variant or duplicate files where flagged.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6a06f29e-8dce-5ee0-9ea4-301847068c90",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 632 to establish the immediate pre-OSS affiliation and last civilian employer; compare variant or duplicate files where flagged.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8fe8be03-6d86-574c-98b8-a8ff28cf7285",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 632 to establish the immediate pre-OSS affiliation and last civilian employer; compare variant or duplicate files where flagged.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed full name and a nonshared protected identifier agree with the official Army bulk record; coded Army fields are not employer evidence."
+    },
+    {
+      "person_id": "b4ddff87-9574-5379-b6bb-e3fa71659cb3",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 632 to establish the immediate pre-OSS affiliation and last civilian employer; compare variant or duplicate files where flagged.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2e9471ca-9e4c-5f43-9426-7166fff63dd9",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 632 to establish the immediate pre-OSS affiliation and last civilian employer; compare variant or duplicate files where flagged.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A first-person Churchill Archives oral history expands the rare name to Peter Edward Ramsbotham and documents compatible major rank and wartime intelligence service."
+    },
+    {
+      "person_id": "13c940b2-0be7-5754-8673-fea80853d6c0",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 632 to establish the immediate pre-OSS affiliation and last civilian employer; compare variant or duplicate files where flagged.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed full name and a nonshared protected identifier agree with the official Army bulk record; coded Army fields are not employer evidence."
+    },
+    {
+      "person_id": "c9c17b29-fce9-52ac-8241-fb9d00eff92a",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 632 to establish the immediate pre-OSS affiliation and last civilian employer; compare variant or duplicate files where flagged.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "80f9ad1d-653f-5b32-ad01-2e9130a2ab6e",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 632 to establish the immediate pre-OSS affiliation and last civilian employer; compare variant or duplicate files where flagged.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "079f8263-afc0-54d5-bd7a-a6c5c26e1623",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 632 to establish the immediate pre-OSS affiliation and last civilian employer; compare variant or duplicate files where flagged.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed full name and a nonshared protected identifier agree with the official Army bulk record; coded Army fields are not employer evidence."
+    },
+    {
+      "person_id": "11e5f223-02d3-531b-b6ef-ec19f69021ef",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 632 to establish the immediate pre-OSS affiliation and last civilian employer; compare variant or duplicate files where flagged.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "709268fb-bb3c-5c59-a7e3-f28bc6da9228",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 632 to establish the immediate pre-OSS affiliation and last civilian employer; compare variant or duplicate files where flagged.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed full name and a nonshared protected identifier agree with the official Army bulk record; coded Army fields are not employer evidence."
+    },
+    {
+      "person_id": "bbaeb33b-8ee6-5e41-bf9a-e8784f0f3be7",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 632 to establish the immediate pre-OSS affiliation and last civilian employer; compare variant or duplicate files where flagged.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2115d277-ed00-5309-973a-726f6177e26d",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Compare both Box 632 Philip L Rancourt files before any merge; establish whether the sergeant and second-lieutenant rows represent one person or namesakes.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed full name and a nonshared protected identifier agree with the official Army bulk record; coded Army fields are not employer evidence.",
+      "possible_duplicate_group": "possible-philip-l-rancourt-page383"
+    },
+    {
+      "person_id": "191be3f4-c81a-56a7-a452-ac9ff9dd9207",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Compare both Box 632 Philip L Rancourt files before any merge; establish whether the sergeant and second-lieutenant rows represent one person or namesakes.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "possible_duplicate_group": "possible-philip-l-rancourt-page383"
+    },
+    {
+      "person_id": "cc2a0147-219f-5cfb-93f7-ca5c977a612d",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 632 to establish the immediate pre-OSS affiliation and last civilian employer; compare variant or duplicate files where flagged.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "40b0b870-4f28-568a-b17f-ee4716c57f0f",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 632 to establish the immediate pre-OSS affiliation and last civilian employer; compare variant or duplicate files where flagged.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed full name and a nonshared protected identifier agree with the official Army bulk record; coded Army fields are not employer evidence."
+    },
+    {
+      "person_id": "cf444fa1-a29f-59b7-81a0-5830692d2f30",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 632 to establish the immediate pre-OSS affiliation and last civilian employer; compare variant or duplicate files where flagged.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed full name and a nonshared protected identifier agree with the official Army bulk record; coded Army fields are not employer evidence."
+    },
+    {
+      "person_id": "2d8c9373-80ee-54f5-84eb-107ba0eb163f",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 632 to establish the immediate pre-OSS affiliation and last civilian employer; compare variant or duplicate files where flagged.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2f848019-cf10-590e-a7f4-3dc9f928aa7b",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 632 to establish the immediate pre-OSS affiliation and last civilian employer; compare variant or duplicate files where flagged.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed full name and a nonshared protected identifier agree with the official Army bulk record; coded Army fields are not employer evidence."
+    },
+    {
+      "person_id": "354d45fe-82d3-5fa2-84b0-dd85ef0253a1",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 632 to establish the immediate pre-OSS affiliation and last civilian employer; compare variant or duplicate files where flagged.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "cc206484-6a17-5239-8092-352a9f07705f",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 632 to establish the immediate pre-OSS affiliation and last civilian employer; compare variant or duplicate files where flagged.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "tommie-i-rammage-34867d63-protocol-b787",
+      "person_id": "34867d63-ed99-5b06-814e-07a95c3ea588",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Tommie I Rammage; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_787",
+      "started_at": "2026-10-14T04:00:00+00:00",
+      "completed_at": "2026-10-14T06:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "A cemetery transcription lacked an employment chronology and could not resolve the Rammage/Remmage index conflict; namesake and discovery-only results were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter access failures were recorded as source limitations, not negative evidence.",
+      "next_action": "Inspect Box 632 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b787-v1"
+    },
+    {
+      "key": "regina-t-ramold-9c6621e1-protocol-b787",
+      "person_id": "9c6621e1-3844-5dd4-9182-279e358734a1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Regina T Ramold; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_787",
+      "started_at": "2026-10-14T04:00:00+00:00",
+      "completed_at": "2026-10-14T06:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter access failures were recorded as source limitations, not negative evidence.",
+      "next_action": "Inspect Box 632 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b787-v1"
+    },
+    {
+      "key": "rosa-c-ramos-6a06f29e-protocol-b787",
+      "person_id": "6a06f29e-8dce-5ee0-9ea4-301847068c90",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Rosa C Ramos; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_787",
+      "started_at": "2026-10-14T04:00:00+00:00",
+      "completed_at": "2026-10-14T06:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter access failures were recorded as source limitations, not negative evidence.",
+      "next_action": "Inspect Box 632 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b787-v1"
+    },
+    {
+      "key": "nick-e-ramoundos-8fe8be03-protocol-b787",
+      "person_id": "8fe8be03-6d86-574c-98b8-a8ff28cf7285",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Nick E Ramoundos; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_787",
+      "started_at": "2026-10-14T04:00:00+00:00",
+      "completed_at": "2026-10-14T06:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Institutional and secondary sources corroborated military and OSS context but did not establish a pre-OSS employer or defensible immediate chronology.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter access failures were recorded as source limitations, not negative evidence.",
+      "next_action": "Inspect Box 632 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b787-v1"
+    },
+    {
+      "key": "jack-e-ramsberger-b4ddff87-protocol-b787",
+      "person_id": "b4ddff87-9574-5379-b6bb-e3fa71659cb3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Jack E Ramsberger; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_787",
+      "started_at": "2026-10-14T04:00:00+00:00",
+      "completed_at": "2026-10-14T06:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter access failures were recorded as source limitations, not negative evidence.",
+      "next_action": "Inspect Box 632 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b787-v1"
+    },
+    {
+      "key": "peter-e-ramsbotham-2e9471ca-protocol-b787",
+      "person_id": "2e9471ca-9e4c-5f43-9426-7166fff63dd9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Peter E Ramsbotham; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_787",
+      "started_at": "2026-10-14T04:00:00+00:00",
+      "completed_at": "2026-10-14T06:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "The Churchill Archives oral history supports identity and two wartime affiliations, but no reviewed source establishes a civilian employer or immediate pre-OSS sequence.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter access failures were recorded as source limitations, not negative evidence.",
+      "next_action": "Inspect Box 632 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b787-v1"
+    },
+    {
+      "key": "charles-f-ramsdell-13c940b2-protocol-b787",
+      "person_id": "13c940b2-0be7-5754-8673-fea80853d6c0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Charles F Ramsdell; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_787",
+      "started_at": "2026-10-14T04:00:00+00:00",
+      "completed_at": "2026-10-14T06:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter access failures were recorded as source limitations, not negative evidence.",
+      "next_action": "Inspect Box 632 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b787-v1"
+    },
+    {
+      "key": "howard-h-ramsey-c9c17b29-protocol-b787",
+      "person_id": "c9c17b29-fce9-52ac-8241-fb9d00eff92a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Howard H Ramsey; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_787",
+      "started_at": "2026-10-14T04:00:00+00:00",
+      "completed_at": "2026-10-14T06:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter access failures were recorded as source limitations, not negative evidence.",
+      "next_action": "Inspect Box 632 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b787-v1"
+    },
+    {
+      "key": "james-w-ramsey-80f9ad1d-protocol-b787",
+      "person_id": "80f9ad1d-653f-5b32-ad01-2e9130a2ab6e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; James W Ramsey; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_787",
+      "started_at": "2026-10-14T04:00:00+00:00",
+      "completed_at": "2026-10-14T06:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter access failures were recorded as source limitations, not negative evidence.",
+      "next_action": "Inspect Box 632 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b787-v1"
+    },
+    {
+      "key": "kenneth-s-ramsey-079f8263-protocol-b787",
+      "person_id": "079f8263-afc0-54d5-bd7a-a6c5c26e1623",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Kenneth S Ramsey; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_787",
+      "started_at": "2026-10-14T04:00:00+00:00",
+      "completed_at": "2026-10-14T06:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter access failures were recorded as source limitations, not negative evidence.",
+      "next_action": "Inspect Box 632 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b787-v1"
+    },
+    {
+      "key": "marie-e-ramsey-11e5f223-protocol-b787",
+      "person_id": "11e5f223-02d3-531b-b6ef-ec19f69021ef",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Marie E Ramsey; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_787",
+      "started_at": "2026-10-14T04:00:00+00:00",
+      "completed_at": "2026-10-14T06:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter access failures were recorded as source limitations, not negative evidence.",
+      "next_action": "Inspect Box 632 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b787-v1"
+    },
+    {
+      "key": "winters-p-ramsey-709268fb-protocol-b787",
+      "person_id": "709268fb-bb3c-5c59-a7e3-f28bc6da9228",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Winters P Ramsey; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_787",
+      "started_at": "2026-10-14T04:00:00+00:00",
+      "completed_at": "2026-10-14T06:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter access failures were recorded as source limitations, not negative evidence.",
+      "next_action": "Inspect Box 632 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b787-v1"
+    },
+    {
+      "key": "elvira-l-ramthum-bbaeb33b-protocol-b787",
+      "person_id": "bbaeb33b-8ee6-5e41-bf9a-e8784f0f3be7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Elvira L Ramthum; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_787",
+      "started_at": "2026-10-14T04:00:00+00:00",
+      "completed_at": "2026-10-14T06:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter access failures were recorded as source limitations, not negative evidence.",
+      "next_action": "Inspect Box 632 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b787-v1"
+    },
+    {
+      "key": "philip-l-rancourt-2115d277-protocol-b787",
+      "person_id": "2115d277-ed00-5309-973a-726f6177e26d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Philip L Rancourt; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_787",
+      "started_at": "2026-10-14T04:00:00+00:00",
+      "completed_at": "2026-10-14T06:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter access failures were recorded as source limitations, not negative evidence.",
+      "next_action": "Inspect Box 632 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b787-v1"
+    },
+    {
+      "key": "philip-l-rancourt-191be3f4-protocol-b787",
+      "person_id": "191be3f4-c81a-56a7-a452-ac9ff9dd9207",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Philip L Rancourt; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_787",
+      "started_at": "2026-10-14T04:00:00+00:00",
+      "completed_at": "2026-10-14T06:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter access failures were recorded as source limitations, not negative evidence.",
+      "next_action": "Inspect Box 632 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b787-v1"
+    },
+    {
+      "key": "henry-j-rand-cc2a0147-protocol-b787",
+      "person_id": "cc2a0147-219f-5cfb-93f7-ca5c977a612d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Henry J Rand; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_787",
+      "started_at": "2026-10-14T04:00:00+00:00",
+      "completed_at": "2026-10-14T06:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter access failures were recorded as source limitations, not negative evidence.",
+      "next_action": "Inspect Box 632 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b787-v1"
+    },
+    {
+      "key": "frank-j-randall-40b0b870-protocol-b787",
+      "person_id": "40b0b870-4f28-568a-b17f-ee4716c57f0f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Frank J Randall; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_787",
+      "started_at": "2026-10-14T04:00:00+00:00",
+      "completed_at": "2026-10-14T06:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter access failures were recorded as source limitations, not negative evidence.",
+      "next_action": "Inspect Box 632 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b787-v1"
+    },
+    {
+      "key": "gale-m-randall-cf444fa1-protocol-b787",
+      "person_id": "cf444fa1-a29f-59b7-81a0-5830692d2f30",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Gale M Randall; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_787",
+      "started_at": "2026-10-14T04:00:00+00:00",
+      "completed_at": "2026-10-14T06:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter access failures were recorded as source limitations, not negative evidence.",
+      "next_action": "Inspect Box 632 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b787-v1"
+    },
+    {
+      "key": "john-r-randall-2d8c9373-protocol-b787",
+      "person_id": "2d8c9373-80ee-54f5-84eb-107ba0eb163f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; John R Randall; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_787",
+      "started_at": "2026-10-14T04:00:00+00:00",
+      "completed_at": "2026-10-14T06:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter access failures were recorded as source limitations, not negative evidence.",
+      "next_action": "Inspect Box 632 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b787-v1"
+    },
+    {
+      "key": "kenneth-c-randall-2f848019-protocol-b787",
+      "person_id": "2f848019-cf10-590e-a7f4-3dc9f928aa7b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Kenneth C Randall; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_787",
+      "started_at": "2026-10-14T04:00:00+00:00",
+      "completed_at": "2026-10-14T06:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "A 1941 Ithaca directory lead for a same-name business proprietor lacked a geographic or identity bridge to the indexed soldier and was rejected as a namesake lead.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter access failures were recorded as source limitations, not negative evidence.",
+      "next_action": "Inspect Box 632 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b787-v1"
+    },
+    {
+      "key": "margaret-a-randall-354d45fe-protocol-b787",
+      "person_id": "354d45fe-82d3-5fa2-84b0-dd85ef0253a1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Margaret A Randall; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_787",
+      "started_at": "2026-10-14T04:00:00+00:00",
+      "completed_at": "2026-10-14T06:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter access failures were recorded as source limitations, not negative evidence.",
+      "next_action": "Inspect Box 632 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b787-v1"
+    },
+    {
+      "key": "ruth-e-randall-cc206484-protocol-b787",
+      "person_id": "cc206484-6a17-5239-8092-352a9f07705f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Ruth E Randall; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_787",
+      "started_at": "2026-10-14T04:00:00+00:00",
+      "completed_at": "2026-10-14T06:00:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Search results lacking an OSS bridge, corroborating identifiers, a named employer, or defensible pre-OSS chronology were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter access failures were recorded as source limitations, not negative evidence.",
+      "next_action": "Inspect Box 632 and seek a direct personnel-history or dated institutional record.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b787-v1"
+    }
+  ]
+}
