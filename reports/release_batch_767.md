@@ -64,5 +64,15 @@ Menelaos N Porfiris; page 374 has not yet received the batch visual audit.
 
 ## Publication
 
-Publication is pending the release commit, GitHub Actions gates, Pages
-deployment, and immutable live verification.
+Batch 767 was published from release commit
+`e47b208d3d8693de6ae217fac813c6b7e47b7751` to
+<https://therealjameswilson.github.io/before-oss/>.
+
+- Deploy GitHub Pages run `38359705658` completed successfully at
+  `2026-10-13T06:59:03Z`.
+- Test run `38359705587` completed successfully at `2026-10-13T07:02:19Z`.
+- The immutable live verifier matched **67** assets totaling **108,680,384**
+  bytes at manifest SHA-256
+  `f1a4030d4e358f1b3e30586eb6c68b630ebd430d44293d3d0caefa8a04d6275f`.
+- It verified eight core routes, 32 source-register pages, and all 23 profiles
+  directly changed by this evidence bundle against the exact release commit.
