@@ -73,8 +73,18 @@ outcomes. The next indexed boundary is page 391, row 24, Roy K Richerson.
 
 ## Publication
 
-Publication evidence will be appended after the immutable commit is deployed
-and verified over HTTPS.
+- Published from commit
+  `a0856b5462b495f6664f6c172520d9e0338dea03` to
+  <https://therealjameswilson.github.io/before-oss/>.
+- GitHub Pages deployment run 38646489245 completed successfully:
+  <https://github.com/therealjameswilson/before-oss/actions/runs/38646489245>.
+- GitHub Actions test run 38646489428 completed successfully in 4m45s:
+  <https://github.com/therealjameswilson/before-oss/actions/runs/38646489428>.
+- Immutable HTTPS verification matched all 67 manifest assets byte-for-byte
+  (111,121,454 bytes; manifest SHA-256
+  `568f9ef98b46597a9c0f96075c4857896167795092ecf0e7b6ccb565a92078da`),
+  rendered all eight core routes, all 33 source-register pages, and all 23
+  Batch 802 direct profile URLs.
 
 The full project remains unfinished: 12,500 active person entities remain
 `not_started`. Research resumes at page 391, row 24, Roy K Richerson.
