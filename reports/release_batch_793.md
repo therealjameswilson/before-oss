@@ -74,6 +74,20 @@ The next indexed boundary is page 387, row 1, Harold J Regan.
 
 ## Publication
 
-Publication and immutable live verification are pending. The full project
-remains unfinished: 12,700 active person entities remain `not_started`.
-Research resumes at page 387, row 1, Harold J Regan.
+Batch 793 was committed as
+`11073672ad4c31eb28b942942923e4ebcb99ef8f` and pushed to `main` on
+2026-10-14. The GitHub Actions Test workflow
+([run 38606948809](https://github.com/therealjameswilson/before-oss/actions/runs/38606948809))
+completed successfully, and the Pages workflow
+([run 38606948755](https://github.com/therealjameswilson/before-oss/actions/runs/38606948755))
+completed successfully.
+
+An immutable HTTPS verification against that exact commit passed all 67
+manifest assets (110,378,268 bytes; manifest SHA-256
+`9db490ea0337630356acec10239cb052fca81b2cda8931db092daf02b793e458`),
+eight core routes, 33 source-register pages, and all 23 Batch 793 direct
+profile URLs. The verified public release is
+<https://therealjameswilson.github.io/before-oss/>.
+
+The full project remains unfinished: 12,700 active person entities remain
+`not_started`. Research resumes at page 387, row 1, Harold J Regan.
