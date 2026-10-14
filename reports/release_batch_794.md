@@ -81,8 +81,18 @@ The next indexed boundary is page 387, row 24, Lesta L Reid.
 
 ## Publication
 
-Publication commit, GitHub Actions run identifiers, and immutable live-site
-verification will be recorded after the release is pushed and deployed.
+- Published from commit
+  `5cdc021a3227d56919f975916059876b754542ba` to
+  <https://therealjameswilson.github.io/before-oss/>.
+- GitHub Pages deployment run 38610922964 completed successfully:
+  <https://github.com/therealjameswilson/before-oss/actions/runs/38610922964>.
+- GitHub Actions test run 38610922989 completed successfully in 3m31s:
+  <https://github.com/therealjameswilson/before-oss/actions/runs/38610922989>.
+- Immutable HTTPS verification matched all 67 manifest assets byte-for-byte
+  (110,461,295 bytes; manifest SHA-256
+  `a822519ae3f0823ded237c45698682a46b775d2b4e89049efa0fd5fd8bf1bab1`),
+  rendered all eight core routes, all 33 source-register pages, and all 23
+  Batch 794 direct profile URLs.
 
 The full project remains unfinished: 12,679 active person entities remain
 `not_started`. Research resumes at page 387, row 24, Lesta L Reid.
