@@ -75,7 +75,18 @@ The next indexed boundary is page 388, row 1, Arthur F Reinhardt.
 
 ## Publication
 
-Pending commit, push, GitHub Actions, and immutable HTTPS verification.
+- Published from commit
+  `ffa68420a5941978428b0689825abd01293924ff` to
+  <https://therealjameswilson.github.io/before-oss/>.
+- GitHub Pages deployment run 38614797970 completed successfully:
+  <https://github.com/therealjameswilson/before-oss/actions/runs/38614797970>.
+- GitHub Actions test run 38614797692 completed successfully in 6m42s:
+  <https://github.com/therealjameswilson/before-oss/actions/runs/38614797692>.
+- Immutable HTTPS verification matched all 67 manifest assets byte-for-byte
+  (110,517,608 bytes; manifest SHA-256
+  `c348f794cdc8f4dcc0f54b6a1ea70e2972bde9899accea5fbf5619125ba1ea1d`),
+  rendered all eight core routes, all 33 source-register pages, and all 23
+  Batch 795 direct profile URLs.
 
 The full project remains unfinished: 12,656 active person entities remain
 `not_started`. Research resumes at page 388, row 1, Arthur F Reinhardt.
