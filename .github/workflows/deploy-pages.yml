@@ -50,6 +50,6 @@ jobs:
         uses: actions/deploy-pages@v4
         with:
           # The site contains tens of thousands of static routes. GitHub's
-          # Pages backend can occasionally need longer than the action's
-          # 10-minute default while it is updating those files.
-          timeout: 1800000
+          # Pages backend can need nearly the action's 10-minute maximum while
+          # it is updating those files.
+          timeout: 600000

@@ -84,11 +84,11 @@ outcome. The next indexed boundary is page 386, row 1.
 - The [Test workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38596805158)
   completed successfully, including the independent public-identifier audit.
 - The [Deploy GitHub Pages workflow](https://github.com/therealjameswilson/before-oss/actions/runs/38596805230)
-  built and uploaded the release successfully. After GitHub Pages published the
-  new artifact, its deployment polling step continued to report
-  `in_progress`; the workflow timeout was extended from ten to 30 minutes so
-  GitHub can finish recording the deployment of the tens-of-thousands-of-files
-  static site. This workflow-status delay did not change the release payload.
+  completed successfully. The Pages deployment step took 9 minutes 24 seconds,
+  within the action's ten-minute maximum, after two earlier workflow attempts
+  timed out or were cancelled while the backend was updating the
+  tens-of-thousands-of-files static site. Those workflow-status delays did not
+  change the release payload.
 - Immutable live verification against the deployment-resilience commit
   confirmed all 67 manifest assets and 110,254,628 bytes, all eight core
   routes, all 33 source-register pages, and all 23 directly affected profile
