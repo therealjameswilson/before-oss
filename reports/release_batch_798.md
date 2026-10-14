@@ -82,9 +82,20 @@ outcomes. The next indexed boundary is page 389, row 24, Benjamin P Reyes.
 
 ## Publication
 
-Publication is pending. Record the immutable commit, successful GitHub Actions
-test and Pages deployment runs, and byte-for-byte HTTPS verification here only
-after those external checks succeed.
+- Published from commit
+  `3781f055d7a9e2445ffac2648fdfb2b26dde2e4a` to
+  <https://therealjameswilson.github.io/before-oss/>.
+- GitHub Pages deployment run 38630611979 completed successfully:
+  <https://github.com/therealjameswilson/before-oss/actions/runs/38630611979>.
+- GitHub Actions test run 38630612379 completed successfully in 5m23s:
+  <https://github.com/therealjameswilson/before-oss/actions/runs/38630612379>.
+- Immutable HTTPS verification matched all 67 manifest assets byte-for-byte
+  (110,844,322 bytes; manifest SHA-256
+  `592feaf3b30179a636c1014ac858c84fa05acfebe9c1f745a55599297c482b3e`),
+  rendered all eight core routes, all 33 source-register pages, and all 23
+  Batch 798 direct profile URLs. One initial asset request returned a transient
+  GitHub Pages HTTP 503; a retry of the same immutable verifier completed
+  without mismatch.
 
 The full project remains unfinished: 12,590 active person entities remain
 `not_started`. Research resumes at page 389, row 24, Benjamin P Reyes.
