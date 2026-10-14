@@ -1,6 +1,6 @@
 # Parser QA
 
-Generated: 2026-10-14T00:01:47+00:00
+Generated: 2026-10-14T15:16:51+00:00
 
 ## Gate summary
 
@@ -8,7 +8,7 @@ Generated: 2026-10-14T00:01:47+00:00
 - PDF pages represented: **522** of **522**.
 - Parser-warning rows: **32**.
 - Pages selected for visual QA: **92**.
-- Page images rendered in this run: **92**.
+- Page images rendered in this run: **0**.
 - Pages visually reviewed as matching: **493**.
 - Pages visually reviewed after a normalized-field correction: **29**.
 - Parser-warning rows visually reviewed and corrected: **32**.
