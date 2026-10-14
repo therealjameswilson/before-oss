@@ -1,5 +1,37 @@
 # Research status
 
+Batch 791 completed PDF page 385, rows 24-46, from **Francis R. M. Rea**
+through **Cornelia Reck**, preserving all 23 printed rows as separate source
+records linked to 23 person entities. The printed page was visually checked at
+300 dpi. All 23 people received saved terminal research outcomes. A direct May
+1944 OSS interview preserved by the Hoover Institution confirms **Constantino
+Reboa** and identifies his civilian role as radio officer in the Italian
+Merchant Marine. Because the same record places an internment camp between
+that work and his August 1943 induction through OSS, the Merchant Marine is
+published as his best-supported last civilian affiliation, not as an immediate
+pre-OSS affiliation; no shipping company is inferred. A National Park Service
+history identifies **Louis M Ream** as OSS deputy director for administrative
+services but does not establish a pre-OSS employer. Four official Army
+identity decisions were accepted; coded Army fields remain excluded from
+employer claims. The existing **Conyers Read** evidence was reaudited without
+duplication. The CIA adapter failed closed and the Library of Congress adapter
+timed out; NARA was used in dry-run mode only and no authenticated Catalog API
+request was made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,939** active
+people. Research-attempt coverage is **11,189/23,939 (46.7396%)**;
+verified-employer coverage is **362/23,939 (1.5122%)**;
+verified-affiliation coverage is **808/23,939 (3.3752%)**; archival-review
+coverage is **9,649/23,939 (40.3066%)**. There are **12,745** `not_started`
+people, **550** possible-duplicate groups, and **381** conflicts. SQLite
+retains **21,278** attempts or plans and **7,032** claims: 1,413 confirmed,
+3,476 high, 1,608 medium, 202 low, 331 conflicting, and two unresolved. It has
+**6,029** citation records and **3,125** unique source documents. The public
+projection has **2,610** affiliations, **931** organizations, **4,804**
+sources, and **6,824** claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 386, row 1, **Margot F
+Reck**.
+
 Batch 768 completed PDF page 374, rows 1-24, from **Menelaos N Porfiris**
 through **Monan M Posey**, preserving all 24 printed rows as separate source
 records. The printed page was visually checked at 300 dpi. All 24 people
