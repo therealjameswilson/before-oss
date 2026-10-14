@@ -82,6 +82,20 @@ indexed boundary is page 386, row 24, Dean E Reed.
 
 ## Publication
 
-Publication and immutable live verification are pending. The full project
-remains unfinished: 12,723 active person entities remain `not_started`.
-Research resumes at page 386, row 24, Dean E Reed.
+Batch 792 was committed as
+`9aa00b2dc09bade3109324f824ad51aa29755b3e` and pushed to `main` on
+2026-10-14. The GitHub Actions Test workflow
+([run 38602840298](https://github.com/therealjameswilson/before-oss/actions/runs/38602840298))
+completed successfully, and the Pages workflow
+([run 38602840291](https://github.com/therealjameswilson/before-oss/actions/runs/38602840291))
+completed successfully.
+
+An immutable HTTPS verification against that exact commit passed all 67
+manifest assets (110,346,250 bytes; manifest SHA-256
+`92144392e33e3b2abbadbc2f66325947b9fa2fc64589d34b12c268824ac82a61`),
+eight core routes, 33 source-register pages, and all 22 Batch 792 direct
+profile URLs. The verified public release is
+<https://therealjameswilson.github.io/before-oss/>.
+
+The full project remains unfinished: 12,723 active person entities remain
+`not_started`. Research resumes at page 386, row 24, Dean E Reed.
