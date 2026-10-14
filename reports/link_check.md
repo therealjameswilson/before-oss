@@ -14339,3 +14339,17 @@ The boundary-aware audit compared **12,926** normalized private identifiers
 and **120** formatted variants across all **24,880** production artifacts,
 rejected **1,163** candidate substrings, and found zero unexpected boundary,
 aggregate, or manifest-size matches.
+
+## Batch 789 local link, manifest and redaction check
+
+The static build contains **24,909 HTML files**, including direct pages for all
+**23,939 active person entities** and the 23 Batch 789 profiles. Every internal
+link resolves; **50,975** unique external URLs were inventoried for separate
+live checking. The public-manifest guard verified **67 assets** and
+**110,148,453 bytes** at manifest SHA-256
+`8ef230abed82cb2f9b7ff6cc88e53b568b8704676a1422c397720f5b52b1ab69`.
+
+The boundary-aware audit compared **12,926** normalized private identifiers and
+**120** formatted variants across all **24,981** production artifacts,
+rejected **1,235** candidate substrings, and found zero unexpected boundary,
+aggregate, or manifest-size matches.

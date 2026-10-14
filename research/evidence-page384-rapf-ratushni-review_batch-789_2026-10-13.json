@@ -1,0 +1,1143 @@
+{
+  "bundle_version": "3",
+  "reviewer": "Before OSS batch 789 archival, identity, and employment review",
+  "sources": [
+    {
+      "key": "nara-index-b789",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 633, 634, and 663",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 384, rows 24-46, and page 401, row 46; visually checked against 300 dpi renders",
+      "access_date": "2026-10-13",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All printed rows remain separate. The clipped notes 'see file', 'Record', and 'photogra' and the printed scientific-notation identifier are preserved exactly. Full identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b789",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department. Adjutant General's Office",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946",
+      "locator": "Nine reviewed exact-name, nonshared protected-identifier candidates and one spelling-conflict candidate",
+      "access_date": "2026-10-13",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Selective Service System, Record Group 147",
+      "rights_notes": "Official unrestricted bulk data, not a Catalog API response. Full protected identifiers and coded fields are not published. Coded Army fields are not employer evidence."
+    },
+    {
+      "key": "dartmouth-rapf-b789",
+      "stable_url": "https://archives-manuscripts.dartmouth.edu/agents/people/930",
+      "archival_identifier": "Dartmouth Libraries, Maurice Rapf papers, MS-1021",
+      "title": "Rapf, Maurice, 1914-2003",
+      "author_creator": "Dartmouth Libraries Archives & Manuscripts",
+      "repository_publisher": "Dartmouth Libraries",
+      "locator": "Biographical note and collection abstract",
+      "access_date": "2026-10-13",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Maurice Rapf papers",
+      "rights_notes": "Institutional archival authority record. It documents Rapf's name and career chronology but does not itself state that he served in OSS."
+    },
+    {
+      "key": "skidmore-rathbun-b789",
+      "stable_url": "https://www.skidmore.edu/news/2019/0307-virginia-stuart.php",
+      "title": "Skidmore alumna was unsung hero in WWII",
+      "author_creator": "Skidmore College",
+      "repository_publisher": "Skidmore College",
+      "publication_record_date": "2019-03-11",
+      "locator": "Paragraphs describing 1943 graduation and November 1943 OSS entry",
+      "access_date": "2026-10-13",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Skidmore College News",
+      "rights_notes": "Institutional alumni account. Student status is kept distinct from employment."
+    },
+    {
+      "key": "nara-rathbun-photo-b789",
+      "stable_url": "https://catalog.archives.gov/id/542171",
+      "archival_identifier": "NAID 542171; local identifier 336-H-17-E-8671",
+      "title": "War Correspondents and Personnel of the Office of Strategic Services, Leaving from the Railhead, Camp Patrick Henry, Virginia, En route Overseas",
+      "author_creator": "U.S. Army Signal Corps",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1944-07-09",
+      "locator": "Official caption naming Virginia Rathbun of Providence, Rhode Island",
+      "access_date": "2026-10-13",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of the Chief Signal Officer, Record Group 111",
+      "rights_notes": "Only the stable Catalog pointer and a concise project-authored note are retained; no Catalog response body is stored."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "self-employed-existing-b789",
+      "organization_id": "2d0f4eae-d528-5d59-8b11-6660b1e4fa4a",
+      "canonical_name": "Self-employed",
+      "historical_name": "Self-employed",
+      "aliases": [
+        "Freelance screenwriter",
+        "own business"
+      ],
+      "organization_type": "self-employment",
+      "sector": "self_employed",
+      "country": "United States",
+      "normalization_notes": "Canonical bucket for documented self-employment when no separate employing organization is supported. Person-specific wording and locations remain on affiliations."
+    },
+    {
+      "key": "skidmore-college-b789",
+      "canonical_name": "Skidmore College",
+      "historical_name": "Skidmore College",
+      "aliases": [],
+      "organization_type": "college",
+      "sector": "academia_and_research",
+      "city": "Saratoga Springs",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "The institution is recorded as an educational affiliation. Virginia Rathbun Stuart's relationship was student status, not employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "maurice-rapf-freelance-screenwriter-b789",
+      "person_id": "31195a09-7e84-57fe-bf00-ab0888dbc5af",
+      "organization_key": "self-employed-existing-b789",
+      "organization_name_as_found": "freelance screenwriter in Hollywood",
+      "role_title": "Freelance screenwriter",
+      "occupation": "screenwriter",
+      "relationship_type": "self_employment",
+      "start_date": "1935",
+      "date_precision": "The Dartmouth authority record says Rapf became a freelance Hollywood screenwriter after graduating in 1935, then served as a wartime federal screenwriter; it does not date the transition or OSS connection.",
+      "city": "Hollywood",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The distinctive indexed name and middle initial probably match Maurice Harry Rapf, but the reviewed institutional source does not directly bridge him to the OSS index. This is earlier documented self-employment, not an asserted immediate predecessor role."
+    },
+    {
+      "key": "virginia-rathbun-skidmore-student-b789",
+      "person_id": "45440588-5c05-5ed1-b1f9-dda58b5adbae",
+      "organization_key": "skidmore-college-b789",
+      "organization_name_as_found": "Skidmore College",
+      "role_title": "Student; English major",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1943",
+      "date_precision": "Skidmore says Rathbun Stuart graduated in 1943 and joined OSS in November, just months after graduation; it does not give the graduation date or exclude every possible short intervening activity.",
+      "city": "Saratoga Springs",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Student status immediately preceded OSS within months. Skidmore is not classified as an employer, and no last civilian employer is inferred."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-erwin-e-raphael-b789",
+      "person_id": "f76514ea-6bb9-5fd9-abda-8cd35aa65da3",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed Erwin E Raphael.",
+      "evidence_excerpt": "ERWIN E RAPHAEL",
+      "evidence_paraphrase": "The official Army bulk row agrees with the indexed name and a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on full-name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or the timing of OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b789",
+          "locator_override": "PDF page 384, row 25"
+        },
+        {
+          "source_key": "army-bulk-b789",
+          "locator_override": "Reviewed exact-name candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-milton-j-raport-b789",
+      "person_id": "85915b4f-be7f-534d-b316-de90f7a4e2a0",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed Milton J Raport.",
+      "evidence_excerpt": "MILTON J RAPORT",
+      "evidence_paraphrase": "The official Army bulk row agrees with the indexed name and a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on full-name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or the timing of OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b789",
+          "locator_override": "PDF page 384, row 29"
+        },
+        {
+          "source_key": "army-bulk-b789",
+          "locator_override": "Reviewed exact-name candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-manuel-c-raposa-b789",
+      "person_id": "00fde3b6-0829-5395-91c9-fefdded91513",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed Manuel C Raposa.",
+      "evidence_excerpt": "MANUEL C RAPOSA",
+      "evidence_paraphrase": "The official Army bulk row agrees with the indexed name and a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on full-name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or the timing of OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b789",
+          "locator_override": "PDF page 384, row 30"
+        },
+        {
+          "source_key": "army-bulk-b789",
+          "locator_override": "Reviewed exact-name candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-alfred-m-rasero-b789",
+      "person_id": "da09ace6-f204-5103-a1aa-7444f0c6c6e6",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed Alfred M Rasero.",
+      "evidence_excerpt": "ALFRED M RASERO",
+      "evidence_paraphrase": "The official Army bulk row agrees with the indexed name and a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on full-name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or the timing of OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b789",
+          "locator_override": "PDF page 384, row 33"
+        },
+        {
+          "source_key": "army-bulk-b789",
+          "locator_override": "Reviewed exact-name candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-dale-m-raska-b789",
+      "person_id": "df16618a-fcbd-5f52-9d2a-92c9af2a9100",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed Dale M Raska.",
+      "evidence_excerpt": "DALE M RASKA",
+      "evidence_paraphrase": "The official Army bulk row agrees with the indexed name and a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on full-name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or the timing of OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b789",
+          "locator_override": "PDF page 384, row 35"
+        },
+        {
+          "source_key": "army-bulk-b789",
+          "locator_override": "Reviewed exact-name candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-george-p-rasmussen-b789",
+      "person_id": "85218c2f-c141-5f48-b693-39e154fdddf1",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed George P Rasmussen.",
+      "evidence_excerpt": "GEORGE P RASMUSSEN",
+      "evidence_paraphrase": "The official Army bulk row agrees with the indexed name and a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on full-name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or the timing of OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b789",
+          "locator_override": "PDF page 384, row 36"
+        },
+        {
+          "source_key": "army-bulk-b789",
+          "locator_override": "Reviewed exact-name candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-charles-rata-b789",
+      "person_id": "ffc6389f-d99e-5491-943a-9895f5fbbf0f",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed Charles Rata.",
+      "evidence_excerpt": "CHARLES RATA",
+      "evidence_paraphrase": "The official Army bulk row agrees with the indexed name and a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on full-name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or the timing of OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b789",
+          "locator_override": "PDF page 384, row 38"
+        },
+        {
+          "source_key": "army-bulk-b789",
+          "locator_override": "Reviewed exact-name candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-william-h-rath-b789",
+      "person_id": "e04f251a-30e5-5a79-927b-0f46ea841720",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed William H Rath.",
+      "evidence_excerpt": "WILLIAM H RATH",
+      "evidence_paraphrase": "The official Army bulk row agrees with the indexed name and a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on full-name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or the timing of OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b789",
+          "locator_override": "PDF page 384, row 41"
+        },
+        {
+          "source_key": "army-bulk-b789",
+          "locator_override": "Reviewed exact-name candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-michael-ratushni-b789",
+      "person_id": "29abdc48-6e58-5960-a696-16cce602107b",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk evidence supports a high-confidence match to indexed Michael Ratushni.",
+      "evidence_excerpt": "MICHAEL RATUSHNI",
+      "evidence_paraphrase": "The official Army bulk row agrees with the indexed name and a nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence identity match based on full-name alignment and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record is wartime identity evidence; its coded fields do not establish a pre-OSS employer or the timing of OSS entry.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Identity and Army service only. No coded Army occupation or grade field is treated as an employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b789",
+          "locator_override": "PDF page 384, row 46"
+        },
+        {
+          "source_key": "army-bulk-b789",
+          "locator_override": "Reviewed exact-name candidate with nonshared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-seymour-rattenberg-conflict-b789",
+      "person_id": "b6f96b15-470b-5833-ba07-ed8c06e9a68d",
+      "claim_type": "identity",
+      "claim_text": "The indexed Seymour A Rattenberg row conflicts with a separately printed Saymour A Rottenberg row and an official Army spelling.",
+      "evidence_excerpt": "Rattenberg; Rottenberg",
+      "evidence_paraphrase": "The two index rows have different spellings and boxes but share a protected identifier; the Army bulk name follows the Rottenberg spelling.",
+      "identity_match_assessment": "Conflicting. The records are linked by a protected identifier but cannot be safely merged without inspecting both personnel files.",
+      "temporal_assessment": "Wartime identity evidence only; no employer chronology is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Both printed source rows and both person entities remain separate. The protected identifier is omitted from public text and downloads.",
+      "sources": [
+        {
+          "source_key": "nara-index-b789",
+          "locator_override": "PDF page 384, row 43, and page 401, row 46"
+        },
+        {
+          "source_key": "army-bulk-b789",
+          "locator_override": "Reviewed spelling-conflict candidate with shared protected identifier"
+        }
+      ]
+    },
+    {
+      "key": "identity-maurice-h-rapf-b789",
+      "person_id": "31195a09-7e84-57fe-bf00-ab0888dbc5af",
+      "claim_type": "identity",
+      "claim_text": "The indexed Maurice H Rapf probably matches screenwriter Maurice Harry Rapf.",
+      "evidence_excerpt": "Maurice Harry Rapf",
+      "evidence_paraphrase": "Dartmouth's archival authority record expands the distinctive indexed name and documents a compatible wartime chronology.",
+      "identity_match_assessment": "Probable based on the uncommon full name and matching middle initial; no direct reviewed source yet links the Dartmouth subject to this OSS index row.",
+      "temporal_assessment": "The biography spans prewar freelance work and wartime federal screenwriting but does not date an OSS connection.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Kept qualified to avoid assigning a prominent biography on a name match alone. Box 633 remains necessary for confirmation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b789",
+          "locator_override": "PDF page 384, row 24"
+        },
+        {
+          "source_key": "dartmouth-rapf-b789",
+          "locator_override": "Biographical note and Maurice Rapf papers authority record"
+        }
+      ]
+    },
+    {
+      "key": "maurice-rapf-freelance-screenwriter-claim-b789",
+      "person_id": "31195a09-7e84-57fe-bf00-ab0888dbc5af",
+      "affiliation_key": "maurice-rapf-freelance-screenwriter-b789",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Maurice Harry Rapf worked as a freelance screenwriter in Hollywood after graduating from Dartmouth in 1935.",
+      "evidence_excerpt": "After graduating, he became a freelance screenwriter in Hollywood",
+      "evidence_paraphrase": "Dartmouth documents Rapf's freelance Hollywood screenwriting after his 1935 graduation and before or during the wartime period.",
+      "identity_match_assessment": "Probable match to the indexed Maurice H Rapf; the institutional biography does not directly cite OSS service.",
+      "temporal_assessment": "Documented prewar self-employment, but neither the ending date nor immediacy before OSS is established.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The profile visibly qualifies both identity and temporal limits. No studio employer is inferred from freelance work.",
+      "sources": [
+        {
+          "source_key": "dartmouth-rapf-b789",
+          "locator_override": "Biographical note"
+        }
+      ]
+    },
+    {
+      "key": "identity-virginia-rathbun-stuart-b789",
+      "person_id": "45440588-5c05-5ed1-b1f9-dda58b5adbae",
+      "claim_type": "identity",
+      "claim_text": "Official and institutional sources confirm that indexed Virginia Rathbun is Virginia Rathbun Stuart, a 1943 Skidmore graduate who served in OSS.",
+      "evidence_excerpt": "Virginia Rathbun, Providence, Rhode Island",
+      "evidence_paraphrase": "An official 1944 caption names Virginia Rathbun among OSS personnel, while Skidmore identifies the same woman by her later surname and 1943 class year.",
+      "identity_match_assessment": "Confirmed by an exact official OSS caption and a strong institutional account using both her indexed and married names.",
+      "temporal_assessment": "The records place her in OSS by November 1943 and on an overseas journey in July 1944.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The index name, official caption, Providence association, Skidmore class year, and later full name align. The later surname is published as a documented variant.",
+      "sources": [
+        {
+          "source_key": "nara-rathbun-photo-b789",
+          "locator_override": "Official caption; 1944-07-09"
+        },
+        {
+          "source_key": "skidmore-rathbun-b789",
+          "locator_override": "1943 graduation and November 1943 OSS entry"
+        }
+      ]
+    },
+    {
+      "key": "virginia-rathbun-skidmore-student-claim-b789",
+      "person_id": "45440588-5c05-5ed1-b1f9-dda58b5adbae",
+      "affiliation_key": "virginia-rathbun-skidmore-student-b789",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Virginia Rathbun Stuart was a Skidmore College student shortly before joining OSS in November 1943.",
+      "evidence_excerpt": "Just months after graduation, Virginia Rathbun Stuart '43 joined the Office of Strategic Services",
+      "evidence_paraphrase": "Skidmore places graduation and OSS entry only months apart in 1943.",
+      "identity_match_assessment": "Confirmed by the paired official OSS caption and institutional alumni account.",
+      "temporal_assessment": "Strongly date-bounded immediate-pre-OSS status: 1943 graduation followed by November 1943 OSS entry.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Skidmore is recorded as a student affiliation, not an employer; no civilian employer is inferred.",
+      "sources": [
+        {
+          "source_key": "skidmore-rathbun-b789",
+          "locator_override": "Paragraphs on 1943 graduation and November OSS entry"
+        },
+        {
+          "source_key": "nara-rathbun-photo-b789",
+          "support_type": "context_only",
+          "locator_override": "Official 1944 OSS personnel caption"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "31195a09-7e84-57fe-bf00-ab0888dbc5af",
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Inspect the Box 633 personnel file to confirm identity and determine the sequence among freelance Hollywood work, the Navy Office of Inter-American Affairs, and OSS.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "probable",
+      "identity_evidence": "The distinctive indexed name and middle initial probably match Dartmouth's Maurice Harry Rapf, but a direct OSS bridge has not yet been reviewed.",
+      "name_variants": [
+        "Maurice Harry Rapf"
+      ]
+    },
+    {
+      "person_id": "f76514ea-6bb9-5fd9-abda-8cd35aa65da3",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the indexed personnel file in Box 633 for a dated personnel history establishing the immediate pre-OSS affiliation and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed full name agrees with an official Army bulk row and a nonshared protected identifier. Army coded fields are identity evidence only."
+    },
+    {
+      "person_id": "f3865880-7729-5333-aa4c-4d8fedf71b2d",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the indexed personnel file in Box 633 for identity anchors and a dated personnel history establishing pre-OSS work or affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row is preserved, but the completed online protocol did not establish a sufficiently corroborated external identity match."
+    },
+    {
+      "person_id": "85acd027-7030-558d-b00b-085e6f7c75da",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the indexed personnel file in Box 633 for identity anchors and a dated personnel history establishing pre-OSS work or affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row is preserved, but the completed online protocol did not establish a sufficiently corroborated external identity match."
+    },
+    {
+      "person_id": "2bec1157-57e7-5536-af40-57d9f2265341",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the indexed personnel file in Box 633 for identity anchors and a dated personnel history establishing pre-OSS work or affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row is preserved, but the completed online protocol did not establish a sufficiently corroborated external identity match."
+    },
+    {
+      "person_id": "85915b4f-be7f-534d-b316-de90f7a4e2a0",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the indexed personnel file in Box 633 for a dated personnel history establishing the immediate pre-OSS affiliation and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed full name agrees with an official Army bulk row and a nonshared protected identifier. Army coded fields are identity evidence only."
+    },
+    {
+      "person_id": "00fde3b6-0829-5395-91c9-fefdded91513",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the indexed personnel file in Box 633 for a dated personnel history establishing the immediate pre-OSS affiliation and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed full name agrees with an official Army bulk row and a nonshared protected identifier. Army coded fields are identity evidence only.",
+      "name_variants": [
+        "Manuel C Raposa Jr."
+      ]
+    },
+    {
+      "person_id": "bb45ddfb-4138-5809-84c2-8d6c72cca13e",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the indexed personnel file in Box 633 for identity anchors and a dated personnel history establishing pre-OSS work or affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row is preserved, but the completed online protocol did not establish a sufficiently corroborated external identity match."
+    },
+    {
+      "person_id": "1105144a-1f16-581a-b420-39d9fe575620",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the indexed personnel file in Box 633 for identity anchors and a dated personnel history establishing pre-OSS work or affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row is preserved, but the completed online protocol did not establish a sufficiently corroborated external identity match."
+    },
+    {
+      "person_id": "da09ace6-f204-5103-a1aa-7444f0c6c6e6",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the indexed personnel file in Box 634 for a dated personnel history establishing the immediate pre-OSS affiliation and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed full name agrees with an official Army bulk row and a nonshared protected identifier. Army coded fields are identity evidence only."
+    },
+    {
+      "person_id": "5b32cb57-45c6-5e24-bf07-d925fc1ce0a5",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the indexed personnel file in Box 634 for identity anchors and a dated personnel history establishing pre-OSS work or affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row is preserved, but the completed online protocol did not establish a sufficiently corroborated external identity match."
+    },
+    {
+      "person_id": "df16618a-fcbd-5f52-9d2a-92c9af2a9100",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the indexed personnel file in Box 634 for a dated personnel history establishing the immediate pre-OSS affiliation and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed full name agrees with an official Army bulk row and a nonshared protected identifier. Army coded fields are identity evidence only."
+    },
+    {
+      "person_id": "85218c2f-c141-5f48-b693-39e154fdddf1",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the indexed personnel file in Box 634 for a dated personnel history establishing the immediate pre-OSS affiliation and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed full name agrees with an official Army bulk row and a nonshared protected identifier. Army coded fields are identity evidence only."
+    },
+    {
+      "person_id": "9dc8c96b-b03b-5930-bffe-697b197935e9",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the indexed personnel file in Box 634 for identity anchors and a dated personnel history establishing pre-OSS work or affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row is preserved, but the completed online protocol did not establish a sufficiently corroborated external identity match."
+    },
+    {
+      "person_id": "ffc6389f-d99e-5491-943a-9895f5fbbf0f",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the indexed personnel file in Box 634 for a dated personnel history establishing the immediate pre-OSS affiliation and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed full name agrees with an official Army bulk row and a nonshared protected identifier. Army coded fields are identity evidence only."
+    },
+    {
+      "person_id": "cdd7844d-2e52-53dc-88e3-8dcc3c4a5a5f",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the indexed personnel file in Box 634 for identity anchors and a dated personnel history establishing pre-OSS work or affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row is preserved, but the completed online protocol did not establish a sufficiently corroborated external identity match."
+    },
+    {
+      "person_id": "5bec7833-ed18-5e99-b6b6-e72f26fc384f",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the indexed personnel file in Box 634 for identity anchors and a dated personnel history establishing pre-OSS work or affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row is preserved, but the completed online protocol did not establish a sufficiently corroborated external identity match."
+    },
+    {
+      "person_id": "e04f251a-30e5-5a79-927b-0f46ea841720",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the indexed personnel file in Box 634 for a dated personnel history establishing the immediate pre-OSS affiliation and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed full name agrees with an official Army bulk row and a nonshared protected identifier. Army coded fields are identity evidence only."
+    },
+    {
+      "person_id": "45440588-5c05-5ed1-b1f9-dda58b5adbae",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Inspect the Box 634 personnel file to confirm recruitment details and determine whether any civilian employment intervened between Skidmore graduation and OSS entry.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium",
+      "identity_status": "confirmed",
+      "identity_evidence": "An official 1944 caption names Virginia Rathbun of Providence among OSS personnel, and Skidmore identifies Virginia Rathbun Stuart '43 as entering OSS in November 1943.",
+      "name_variants": [
+        "Virginia Rathbun Stuart",
+        "Virginia Stuart"
+      ]
+    },
+    {
+      "person_id": "b6f96b15-470b-5833-ba07-ed8c06e9a68d",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Compare the personnel files in Boxes 634 and 663 to resolve the Rattenberg/Rottenberg spelling and determine whether the rows represent one person or two files.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "conflicting",
+      "identity_evidence": "The same protected identifier appears on separately printed Rattenberg and Rottenberg rows in different boxes; the official Army record follows the Rottenberg spelling. Both person entities remain separate."
+    },
+    {
+      "person_id": "90072d44-985d-5904-8661-90ffe10beece",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the indexed personnel file in Box 634 for identity anchors and a dated personnel history establishing pre-OSS work or affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row is preserved, but the completed online protocol did not establish a sufficiently corroborated external identity match."
+    },
+    {
+      "person_id": "43caee00-93f6-5914-8404-4a7e93020e19",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the indexed personnel file in Box 634 for identity anchors and a dated personnel history establishing pre-OSS work or affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index row is preserved, but the completed online protocol did not establish a sufficiently corroborated external identity match."
+    },
+    {
+      "person_id": "29abdc48-6e58-5960-a696-16cce602107b",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the indexed personnel file in Box 634 for a dated personnel history establishing the immediate pre-OSS affiliation and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed full name agrees with an official Army bulk row and a nonshared protected identifier. Army coded fields are identity evidence only."
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "maurice-h-rapf-31195a09-protocol-b789",
+      "person_id": "31195a09-7e84-57fe-bf00-ab0888dbc5af",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Maurice H Rapf; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_789",
+      "started_at": "2026-10-13T17:00:00-04:00",
+      "completed_at": "2026-10-13T21:00:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Generic and discovery-only biographies were rejected; Dartmouth's archival authority record was retained with an explicit identity limitation because it lacks a direct OSS bridge.",
+      "research_notes": "A qualified probable identity and documented prewar self-employment were found. No source establishes the immediate predecessor affiliation or a last civilian employer before wartime federal work.",
+      "next_action": "Inspect the Box 633 personnel file to confirm identity and determine the sequence among freelance Hollywood work, the Navy Office of Inter-American Affairs, and OSS.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b789-v1"
+    },
+    {
+      "key": "erwin-e-raphael-f76514ea-protocol-b789",
+      "person_id": "f76514ea-6bb9-5fd9-abda-8cd35aa65da3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Erwin E Raphael; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_789",
+      "started_at": "2026-10-13T17:00:00-04:00",
+      "completed_at": "2026-10-13T21:00:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Namesake, snippet-only, and temporally unsupported results were rejected; only the official Army identity match was accepted.",
+      "research_notes": "Official Army evidence supports identity and wartime service only. No coded Army field was converted into an employer or affiliation claim.",
+      "next_action": "Inspect the indexed personnel file in Box 633 for a dated personnel history establishing the immediate pre-OSS affiliation and last civilian employer.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b789-v1"
+    },
+    {
+      "key": "andre-l-rapicault-f3865880-protocol-b789",
+      "person_id": "f3865880-7729-5333-aa4c-4d8fedf71b2d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Andre L Rapicault; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_789",
+      "started_at": "2026-10-13T17:00:00-04:00",
+      "completed_at": "2026-10-13T21:00:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "A French civil-registry namesake had a conflicting middle name and no bridge to the indexed OSS row; unrelated namesakes were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter failures were recorded as source-access limits, not negative evidence.",
+      "next_action": "Inspect the indexed personnel file in Box 633 for identity anchors and a dated personnel history establishing pre-OSS work or affiliation.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b789-v1"
+    },
+    {
+      "key": "anastas-d-rapoff-85acd027-protocol-b789",
+      "person_id": "85acd027-7030-558d-b00b-085e6f7c75da",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Anastas D Rapoff; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_789",
+      "started_at": "2026-10-13T17:00:00-04:00",
+      "completed_at": "2026-10-13T21:00:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Discovery-only genealogy results pointed to different possible people and supplied no authoritative OSS or employment bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter failures were recorded as source-access limits, not negative evidence.",
+      "next_action": "Inspect the indexed personnel file in Box 633 for identity anchors and a dated personnel history establishing pre-OSS work or affiliation.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b789-v1"
+    },
+    {
+      "key": "robert-n-rapoport-2bec1157-protocol-b789",
+      "person_id": "2bec1157-57e7-5536-af40-57d9f2265341",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Robert N Rapoport; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_789",
+      "started_at": "2026-10-13T17:00:00-04:00",
+      "completed_at": "2026-10-13T21:00:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Namesake, snippet-only, discovery-only, postwar-only, or temporally unsupported results lacked enough corroborating identifiers and were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter failures were recorded as source-access limits, not negative evidence.",
+      "next_action": "Inspect the indexed personnel file in Box 633 for identity anchors and a dated personnel history establishing pre-OSS work or affiliation.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b789-v1"
+    },
+    {
+      "key": "milton-j-raport-85915b4f-protocol-b789",
+      "person_id": "85915b4f-be7f-534d-b316-de90f7a4e2a0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Milton J Raport; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_789",
+      "started_at": "2026-10-13T17:00:00-04:00",
+      "completed_at": "2026-10-13T21:00:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Namesake, snippet-only, and temporally unsupported results were rejected; only the official Army identity match was accepted.",
+      "research_notes": "Official Army evidence supports identity and wartime service only. No coded Army field was converted into an employer or affiliation claim.",
+      "next_action": "Inspect the indexed personnel file in Box 633 for a dated personnel history establishing the immediate pre-OSS affiliation and last civilian employer.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b789-v1"
+    },
+    {
+      "key": "manuel-c-raposa-00fde3b6-protocol-b789",
+      "person_id": "00fde3b6-0829-5395-91c9-fefdded91513",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Manuel C Raposa; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_789",
+      "started_at": "2026-10-13T17:00:00-04:00",
+      "completed_at": "2026-10-13T21:00:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Namesake, snippet-only, and temporally unsupported results were rejected; only the official Army identity match was accepted.",
+      "research_notes": "Official Army evidence supports identity and wartime service only. No coded Army field was converted into an employer or affiliation claim.",
+      "next_action": "Inspect the indexed personnel file in Box 633 for a dated personnel history establishing the immediate pre-OSS affiliation and last civilian employer.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b789-v1"
+    },
+    {
+      "key": "arthur-f-rapp-bb45ddfb-protocol-b789",
+      "person_id": "bb45ddfb-4138-5809-84c2-8d6c72cca13e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Arthur F Rapp; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_789",
+      "started_at": "2026-10-13T17:00:00-04:00",
+      "completed_at": "2026-10-13T21:00:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Namesake, snippet-only, discovery-only, postwar-only, or temporally unsupported results lacked enough corroborating identifiers and were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter failures were recorded as source-access limits, not negative evidence.",
+      "next_action": "Inspect the indexed personnel file in Box 633 for identity anchors and a dated personnel history establishing pre-OSS work or affiliation.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b789-v1"
+    },
+    {
+      "key": "milton-a-rapp-1105144a-protocol-b789",
+      "person_id": "1105144a-1f16-581a-b420-39d9fe575620",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Milton A Rapp; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_789",
+      "started_at": "2026-10-13T17:00:00-04:00",
+      "completed_at": "2026-10-13T21:00:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Namesake, snippet-only, discovery-only, postwar-only, or temporally unsupported results lacked enough corroborating identifiers and were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter failures were recorded as source-access limits, not negative evidence.",
+      "next_action": "Inspect the indexed personnel file in Box 633 for identity anchors and a dated personnel history establishing pre-OSS work or affiliation.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b789-v1"
+    },
+    {
+      "key": "alfred-m-rasero-da09ace6-protocol-b789",
+      "person_id": "da09ace6-f204-5103-a1aa-7444f0c6c6e6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Alfred M Rasero; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_789",
+      "started_at": "2026-10-13T17:00:00-04:00",
+      "completed_at": "2026-10-13T21:00:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Namesake, snippet-only, and temporally unsupported results were rejected; only the official Army identity match was accepted.",
+      "research_notes": "Official Army evidence supports identity and wartime service only. No coded Army field was converted into an employer or affiliation claim.",
+      "next_action": "Inspect the indexed personnel file in Box 634 for a dated personnel history establishing the immediate pre-OSS affiliation and last civilian employer.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-b789-v1"
+    },
+    {
+      "key": "lee-rashall-5b32cb57-protocol-b789",
+      "person_id": "5b32cb57-45c6-5e24-bf07-d925fc1ce0a5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Lee Rashall; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_789",
+      "started_at": "2026-10-13T17:00:00-04:00",
+      "completed_at": "2026-10-13T21:00:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Exact-name and variant searches produced no authoritative identity or employment source tied to the indexed row.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter failures were recorded as source-access limits, not negative evidence.",
+      "next_action": "Inspect the indexed personnel file in Box 634 for identity anchors and a dated personnel history establishing pre-OSS work or affiliation.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b789-v1"
+    },
+    {
+      "key": "dale-m-raska-df16618a-protocol-b789",
+      "person_id": "df16618a-fcbd-5f52-9d2a-92c9af2a9100",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Dale M Raska; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_789",
+      "started_at": "2026-10-13T17:00:00-04:00",
+      "completed_at": "2026-10-13T21:00:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Namesake, snippet-only, and temporally unsupported results were rejected; only the official Army identity match was accepted.",
+      "research_notes": "Official Army evidence supports identity and wartime service only. No coded Army field was converted into an employer or affiliation claim.",
+      "next_action": "Inspect the indexed personnel file in Box 634 for a dated personnel history establishing the immediate pre-OSS affiliation and last civilian employer.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b789-v1"
+    },
+    {
+      "key": "george-p-rasmussen-85218c2f-protocol-b789",
+      "person_id": "85218c2f-c141-5f48-b693-39e154fdddf1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; George P Rasmussen; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_789",
+      "started_at": "2026-10-13T17:00:00-04:00",
+      "completed_at": "2026-10-13T21:00:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Namesake, snippet-only, and temporally unsupported results were rejected; only the official Army identity match was accepted.",
+      "research_notes": "Official Army evidence supports identity and wartime service only. No coded Army field was converted into an employer or affiliation claim.",
+      "next_action": "Inspect the indexed personnel file in Box 634 for a dated personnel history establishing the immediate pre-OSS affiliation and last civilian employer.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b789-v1"
+    },
+    {
+      "key": "wilton-m-rasmussen-9dc8c96b-protocol-b789",
+      "person_id": "9dc8c96b-b03b-5930-bffe-697b197935e9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Wilton M Rasmussen; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_789",
+      "started_at": "2026-10-13T17:00:00-04:00",
+      "completed_at": "2026-10-13T21:00:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Namesake, snippet-only, discovery-only, postwar-only, or temporally unsupported results lacked enough corroborating identifiers and were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter failures were recorded as source-access limits, not negative evidence.",
+      "next_action": "Inspect the indexed personnel file in Box 634 for identity anchors and a dated personnel history establishing pre-OSS work or affiliation.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b789-v1"
+    },
+    {
+      "key": "charles-rata-ffc6389f-protocol-b789",
+      "person_id": "ffc6389f-d99e-5491-943a-9895f5fbbf0f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Charles Rata; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_789",
+      "started_at": "2026-10-13T17:00:00-04:00",
+      "completed_at": "2026-10-13T21:00:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Namesake, snippet-only, and temporally unsupported results were rejected; only the official Army identity match was accepted.",
+      "research_notes": "Official Army evidence supports identity and wartime service only. No coded Army field was converted into an employer or affiliation claim.",
+      "next_action": "Inspect the indexed personnel file in Box 634 for a dated personnel history establishing the immediate pre-OSS affiliation and last civilian employer.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b789-v1"
+    },
+    {
+      "key": "charles-b-ratchford-cdd7844d-protocol-b789",
+      "person_id": "cdd7844d-2e52-53dc-88e3-8dcc3c4a5a5f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Charles B Ratchford; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_789",
+      "started_at": "2026-10-13T17:00:00-04:00",
+      "completed_at": "2026-10-13T21:00:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Namesake, snippet-only, discovery-only, postwar-only, or temporally unsupported results lacked enough corroborating identifiers and were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter failures were recorded as source-access limits, not negative evidence.",
+      "next_action": "Inspect the indexed personnel file in Box 634 for identity anchors and a dated personnel history establishing pre-OSS work or affiliation.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b789-v1"
+    },
+    {
+      "key": "edward-g-ratcliffe-5bec7833-protocol-b789",
+      "person_id": "5bec7833-ed18-5e99-b6b6-e72f26fc384f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Edward G Ratcliffe; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_789",
+      "started_at": "2026-10-13T17:00:00-04:00",
+      "completed_at": "2026-10-13T21:00:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Namesake, snippet-only, discovery-only, postwar-only, or temporally unsupported results lacked enough corroborating identifiers and were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter failures were recorded as source-access limits, not negative evidence.",
+      "next_action": "Inspect the indexed personnel file in Box 634 for identity anchors and a dated personnel history establishing pre-OSS work or affiliation.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b789-v1"
+    },
+    {
+      "key": "william-h-rath-e04f251a-protocol-b789",
+      "person_id": "e04f251a-30e5-5a79-927b-0f46ea841720",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; William H Rath; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_789",
+      "started_at": "2026-10-13T17:00:00-04:00",
+      "completed_at": "2026-10-13T21:00:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Namesake, snippet-only, and temporally unsupported results were rejected; only the official Army identity match was accepted.",
+      "research_notes": "Official Army evidence supports identity and wartime service only. No coded Army field was converted into an employer or affiliation claim.",
+      "next_action": "Inspect the indexed personnel file in Box 634 for a dated personnel history establishing the immediate pre-OSS affiliation and last civilian employer.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b789-v1"
+    },
+    {
+      "key": "virginia-rathbun-45440588-protocol-b789",
+      "person_id": "45440588-5c05-5ed1-b1f9-dda58b5adbae",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Virginia Rathbun; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_789",
+      "started_at": "2026-10-13T17:00:00-04:00",
+      "completed_at": "2026-10-13T21:00:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Namesake and derivative results were rejected; the official NARA caption and Skidmore institutional account supplied the accepted identity and student-pathway evidence.",
+      "research_notes": "Confirmed identity and strongly date-bounded pre-OSS student status were found. Student status is not employment, and no civilian employer was inferred.",
+      "next_action": "Inspect the Box 634 personnel file to confirm recruitment details and determine whether any civilian employment intervened between Skidmore graduation and OSS entry.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b789-v1"
+    },
+    {
+      "key": "seymour-a-rattenberg-b6f96b15-protocol-b789",
+      "person_id": "b6f96b15-470b-5833-ba07-ed8c06e9a68d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Seymour A Rattenberg; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_789",
+      "started_at": "2026-10-13T17:00:00-04:00",
+      "completed_at": "2026-10-13T21:00:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Namesake results could not resolve the separately printed Rattenberg and Rottenberg rows; no employer lead was accepted.",
+      "research_notes": "The cross-page spelling and shared protected-identifier conflict was verified. Both person entities remain separate pending comparison of Boxes 634 and 663.",
+      "next_action": "Compare the personnel files in Boxes 634 and 663 to resolve the Rattenberg/Rottenberg spelling and determine whether the rows represent one person or two files.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b789-v1"
+    },
+    {
+      "key": "eleanor-m-rattigan-90072d44-protocol-b789",
+      "person_id": "90072d44-985d-5904-8661-90ffe10beece",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Eleanor M Rattigan; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_789",
+      "started_at": "2026-10-13T17:00:00-04:00",
+      "completed_at": "2026-10-13T21:00:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Namesake, snippet-only, discovery-only, postwar-only, or temporally unsupported results lacked enough corroborating identifiers and were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter failures were recorded as source-access limits, not negative evidence.",
+      "next_action": "Inspect the indexed personnel file in Box 634 for identity anchors and a dated personnel history establishing pre-OSS work or affiliation.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b789-v1"
+    },
+    {
+      "key": "joan-l-rattner-43caee00-protocol-b789",
+      "person_id": "43caee00-93f6-5914-8404-4a7e93020e19",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Joan L Rattner; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_789",
+      "started_at": "2026-10-13T17:00:00-04:00",
+      "completed_at": "2026-10-13T21:00:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Namesake, snippet-only, discovery-only, postwar-only, or temporally unsupported results lacked enough corroborating identifiers and were rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. CIA Reading Room and Library of Congress adapter failures were recorded as source-access limits, not negative evidence.",
+      "next_action": "Inspect the indexed personnel file in Box 634 for identity anchors and a dated personnel history establishing pre-OSS work or affiliation.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b789-v1"
+    },
+    {
+      "key": "michael-ratushni-29abdc48-protocol-b789",
+      "person_id": "29abdc48-6e58-5960-a696-16cce602107b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index context; CIA Reading Room check; Michael Ratushni; OSS; employer 1940; occupation 1940; obituary; institutional; newspaper; directory; archival",
+      "query_variant_type": "staged_exact_name_employment_archival_protocol_batch_789",
+      "started_at": "2026-10-13T17:00:00-04:00",
+      "completed_at": "2026-10-13T21:00:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Namesake, snippet-only, and temporally unsupported results were rejected; only the official Army identity match was accepted.",
+      "research_notes": "Official Army evidence supports identity and wartime service only. No coded Army field was converted into an employer or affiliation claim.",
+      "next_action": "Inspect the indexed personnel file in Box 634 for a dated personnel history establishing the immediate pre-OSS affiliation and last civilian employer.",
+      "attempt_number": 3,
+      "research_agent_version": "before-oss-b789-v1"
+    }
+  ]
+}
