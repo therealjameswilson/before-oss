@@ -1,0 +1,1186 @@
+{
+  "bundle_version": "batch-797-v1",
+  "reviewer": "Before OSS batch 797 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b797",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 625, 639, and 640",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 388, rows 24-46; Tommie I Rammage comparison at page 383, row 1; visually checked against a 300 dpi render",
+      "access_date": "2026-10-14",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All printed rows remain separate. The clipped note 'photogra' remains unexpanded and 'Record' remains verbatim. Protected identifiers are not published."
+    },
+    {
+      "key": "army-bulk-b797",
+      "source_id": "a5a11034-14cb-51e4-983f-49d652cc4b2d",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department. Adjutant General's Office",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946",
+      "locator": "Official bulk dataset; reviewed record ordinals are recorded on individual claims",
+      "access_date": "2026-10-14",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Selective Service System, Record Group 147",
+      "rights_notes": "Official unrestricted bulk data, not a Catalog API response. Full protected identifiers and coded occupation fields are not published; coded occupations are not employer evidence."
+    },
+    {
+      "key": "ire-yearbook-remley-b797",
+      "stable_url": "https://www.worldradiohistory.com/Archive-IRE/30s/IRE-1937-Year-Book.pdf",
+      "archival_identifier": "Institute of Radio Engineers Year Book 1937",
+      "title": "Year Book of the Institute of Radio Engineers, 1937",
+      "author_creator": "Institute of Radio Engineers",
+      "repository_publisher": "Institute of Radio Engineers",
+      "publication_record_date": "1937",
+      "locator": "PDF page 146; printed page 145; Hilton L. Remley directory entry",
+      "access_date": "2026-10-14",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Institute of Radio Engineers Year Books",
+      "rights_notes": "Contemporary professional directory. The project retains only a short excerpt and citation metadata."
+    },
+    {
+      "key": "broadcasting-yearbook-remley-b797",
+      "stable_url": "https://www.worldradiohistory.com/Archive-BC-YB/1944/1944-BC-YB.pdf",
+      "archival_identifier": "1944 Broadcasting Yearbook Number",
+      "title": "1944 Broadcasting Yearbook Number",
+      "author_creator": "Broadcasting Publications, Inc.",
+      "repository_publisher": "Broadcasting Publications, Inc.",
+      "publication_record_date": "1944",
+      "locator": "Printed page 50; wartime station-and-service roster entry for Hilton Remley",
+      "access_date": "2026-10-14",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Broadcasting Yearbook",
+      "rights_notes": "Contemporary trade directory. The WGN listing is published at qualified confidence because the entry does not state exact employment dates."
+    },
+    {
+      "key": "wgn-family-remley-b797",
+      "stable_url": "https://www.worldradiohistory.com/Archive-Station-Albums/WGN/PDF-Album/WGN%20Family%20Letter%20October%204%201946.pdf",
+      "archival_identifier": "WGN Family Letter, Volume I",
+      "title": "WGN Family Letter",
+      "author_creator": "WGN",
+      "repository_publisher": "WGN",
+      "publication_record_date": "1946-10-04",
+      "locator": "PDF page 8; Engineering Department organization chart",
+      "access_date": "2026-10-14",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "WGN station publications",
+      "rights_notes": "Postwar organization chart used only to corroborate Hilton L. Remley's identity and engineering occupation, not to infer a prewar title."
+    },
+    {
+      "key": "tna-rentse-b797",
+      "stable_url": "https://www.nationalarchives.gov.uk/accessions/2015/15returns/15ac102.htm",
+      "archival_identifier": "MS 381246",
+      "title": "Major Accessions to London University: School of Oriental and African Studies (SOAS), 2015",
+      "author_creator": "The National Archives (United Kingdom)",
+      "repository_publisher": "The National Archives (United Kingdom)",
+      "publication_record_date": "2015",
+      "locator": "Anker Rentse papers entry, MS 381246",
+      "access_date": "2026-10-14",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Major Accessions to Repositories",
+      "rights_notes": "Archive finding-aid description used for identity and repository routing; no unpublished personal content is reproduced."
+    },
+    {
+      "key": "archipel-rentse-b797",
+      "stable_url": "https://revue-archipel.fr/pdfnumeros/HORS_SERIE_2(2022).pdf",
+      "archival_identifier": "Archipel Hors-Série no. 2",
+      "title": "Patani Through Foreign Eyes: Sixteenth and Seventeenth Centuries",
+      "author_creator": "Daniel Perret and Jorge Santos Alves, editors",
+      "repository_publisher": "Archipel",
+      "publication_record_date": "2022",
+      "locator": "PDF page 27; printed page 27; footnote 60",
+      "access_date": "2026-10-14",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Archipel Hors-Série",
+      "rights_notes": "Scholarly biographical chronology. Only a short excerpt and project-authored paraphrase are retained."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "new-mexico-power-b797",
+      "canonical_name": "New Mexico Power Company",
+      "historical_name": "New Mexico Power Company",
+      "aliases": [],
+      "organization_type": "electric utility",
+      "sector": "business_and_industry",
+      "city": "Santa Fe",
+      "state_or_region": "New Mexico",
+      "country": "United States",
+      "active_dates": "documented in 1937",
+      "normalization_notes": "Historical employer name preserved exactly as listed in the 1937 Institute of Radio Engineers directory; no successor is inferred."
+    },
+    {
+      "key": "wgn-b797",
+      "canonical_name": "WGN",
+      "historical_name": "WGN",
+      "aliases": [
+        "WGN Radio"
+      ],
+      "organization_type": "radio station",
+      "sector": "journalism_and_media",
+      "city": "Chicago",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "active_dates": "documented before, during, and after World War II",
+      "normalization_notes": "The station name is preserved as cited. The profile does not infer a corporate parent or modern successor."
+    },
+    {
+      "key": "kelantan-government-b797",
+      "canonical_name": "Kelantan Government",
+      "historical_name": "Kelantan Government",
+      "aliases": [
+        "Government of Kelantan"
+      ],
+      "organization_type": "colonial state administration",
+      "sector": "state_or_local_government",
+      "city": "Kota Bharu",
+      "state_or_region": "Kelantan",
+      "country": "British Malaya",
+      "active_dates": "documented before the 1941 Japanese invasion",
+      "normalization_notes": "Historical government name is preserved; no modern successor administration is substituted."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "hilton-remley-new-mexico-power-b797",
+      "person_id": "255b0a0e-86ac-5575-8788-8cd4b129f91d",
+      "organization_key": "new-mexico-power-b797",
+      "organization_name_as_found": "New Mexico Power Company",
+      "role_title": "Meterman",
+      "occupation": "electric-utility meterman",
+      "relationship_type": "employment",
+      "start_date": "1937",
+      "end_date": "1937",
+      "date_precision": "listed in the 1937 directory; exact start and end dates are not established",
+      "city": "Santa Fe",
+      "state_or_region": "New Mexico",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "This is documented earlier employment. Later WGN evidence prevents labeling it the last civilian employer."
+    },
+    {
+      "key": "hilton-remley-wgn-b797",
+      "person_id": "255b0a0e-86ac-5575-8788-8cd4b129f91d",
+      "organization_key": "wgn-b797",
+      "organization_name_as_found": "WGN",
+      "role_title": "station employee; exact prewar title not established",
+      "occupation": "radio engineering",
+      "relationship_type": "employment",
+      "start_date": null,
+      "end_date": "1944",
+      "date_precision": "a 1944 wartime roster associates Remley with WGN and Army private status; exact employment and Army-entry dates are not stated",
+      "city": "Chicago",
+      "state_or_region": "Illinois",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "WGN is the best-supported last civilian employer before Army service. A 1946 WGN organization chart corroborates the identity and engineering occupation but is not used to back-project a prewar title."
+    },
+    {
+      "key": "anker-rentse-kelantan-government-b797",
+      "person_id": "91e90843-c4eb-58ca-b242-ecb48222e4d9",
+      "organization_key": "kelantan-government-b797",
+      "organization_name_as_found": "Kelantan Government",
+      "role_title": "officer",
+      "occupation": "colonial administrator",
+      "relationship_type": "employment",
+      "start_date": "1924",
+      "end_date": "1941",
+      "date_precision": "arrived in Malaya in 1924, first worked on plantation estates, then served the Kelantan Government until the Japanese invasion; exact appointment year is not stated",
+      "city": "Kota Bharu",
+      "state_or_region": "Kelantan",
+      "country": "British Malaya",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The source explicitly places Kelantan Government service immediately before wartime displacement. It does not establish the organization as Rentse's immediate pre-OSS affiliation."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-anton-remenih-b797",
+      "person_id": "8cd1b5ed-4052-5b1f-b4dd-ab0939a5a045",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk data supports a high-confidence identification of indexed Anton H Remenih.",
+      "evidence_excerpt": "REMENIH ANTON H",
+      "evidence_paraphrase": "The Army record has the exact indexed name and the same nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence match from exact full-name and nonshared protected-identifier agreement across two official records.",
+      "temporal_assessment": "The Army record corroborates wartime service but does not establish an immediate pre-OSS affiliation or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army coded occupation is not interpreted as an employer or named occupation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b797",
+          "locator_override": "PDF page 388; indexed Anton H Remenih row"
+        },
+        {
+          "source_key": "army-bulk-b797",
+          "locator_override": "Bulk record ordinal 1507387"
+        }
+      ]
+    },
+    {
+      "key": "identity-george-remetta-b797",
+      "person_id": "7d93d571-76db-5260-b9fc-8dd9460ee80f",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk data supports a high-confidence identification of indexed George Remetta Jr.",
+      "evidence_excerpt": "REMETTA GEORGE JR",
+      "evidence_paraphrase": "The Army record has the exact indexed name and the same nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence match from exact full-name and nonshared protected-identifier agreement across two official records.",
+      "temporal_assessment": "The Army record corroborates wartime service but does not establish an immediate pre-OSS affiliation or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army coded occupation is not interpreted as an employer or named occupation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b797",
+          "locator_override": "PDF page 388; indexed George Remetta Jr. row"
+        },
+        {
+          "source_key": "army-bulk-b797",
+          "locator_override": "Bulk record ordinal 2845423"
+        }
+      ]
+    },
+    {
+      "key": "identity-raymond-rene-b797",
+      "person_id": "468743f0-a31b-5513-8a3e-5f29829412a2",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk data supports a high-confidence identification of indexed Raymond A Rene.",
+      "evidence_excerpt": "RENE RAYMOND A",
+      "evidence_paraphrase": "The Army record has the exact indexed name and the same nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence match from exact full-name and nonshared protected-identifier agreement across two official records.",
+      "temporal_assessment": "The Army record corroborates wartime service but does not establish an immediate pre-OSS affiliation or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army coded occupation is not interpreted as an employer or named occupation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b797",
+          "locator_override": "PDF page 388; indexed Raymond A Rene row"
+        },
+        {
+          "source_key": "army-bulk-b797",
+          "locator_override": "Bulk record ordinal 2716060"
+        }
+      ]
+    },
+    {
+      "key": "identity-rosendo-rendon-b797",
+      "person_id": "06cd1ba6-6b20-55d4-86fe-bc925b9e5d25",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk data supports a high-confidence identification of indexed Rosendo F Rendon.",
+      "evidence_excerpt": "RENDON ROSENDO F",
+      "evidence_paraphrase": "The Army record has the exact indexed name and the same nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence match from exact full-name and nonshared protected-identifier agreement across two official records.",
+      "temporal_assessment": "The Army record corroborates wartime service but does not establish an immediate pre-OSS affiliation or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army coded occupation is not interpreted as an employer or named occupation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b797",
+          "locator_override": "PDF page 388; indexed Rosendo F Rendon row"
+        },
+        {
+          "source_key": "army-bulk-b797",
+          "locator_override": "Bulk record ordinal 7928830"
+        }
+      ]
+    },
+    {
+      "key": "identity-stephen-rendulic-b797",
+      "person_id": "08b4d830-fec5-51aa-a09d-939dc2dcb782",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk data supports a high-confidence identification of indexed Stephen G Rendulic.",
+      "evidence_excerpt": "RENDULIC STEPHEN G",
+      "evidence_paraphrase": "The Army record has the exact indexed name and the same nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence match from exact full-name and nonshared protected-identifier agreement across two official records.",
+      "temporal_assessment": "The Army record corroborates wartime service but does not establish an immediate pre-OSS affiliation or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army coded occupation is not interpreted as an employer or named occupation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b797",
+          "locator_override": "PDF page 388; indexed Stephen G Rendulic row"
+        },
+        {
+          "source_key": "army-bulk-b797",
+          "locator_override": "Bulk record ordinal 8034086"
+        }
+      ]
+    },
+    {
+      "key": "identity-william-d-rennie-b797",
+      "person_id": "c17a5d26-3333-5db5-9dc4-1a1061e12c45",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk data supports a high-confidence identification of indexed William D Rennie.",
+      "evidence_excerpt": "RENNIE WILLIAM D",
+      "evidence_paraphrase": "The Army record has the exact indexed name and the same nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence match from exact full-name and nonshared protected-identifier agreement across two official records.",
+      "temporal_assessment": "The Army record corroborates wartime service but does not establish an immediate pre-OSS affiliation or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army coded occupation is not interpreted as an employer or named occupation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b797",
+          "locator_override": "PDF page 388; indexed William D Rennie row"
+        },
+        {
+          "source_key": "army-bulk-b797",
+          "locator_override": "Bulk record ordinal 1489343"
+        }
+      ]
+    },
+    {
+      "key": "identity-william-s-renehan-b797",
+      "person_id": "d66ce189-8176-5626-8e9f-36a1b3f4043f",
+      "claim_type": "identity",
+      "claim_text": "Official Army bulk data supports a high-confidence identification of indexed William S Renehan.",
+      "evidence_excerpt": "RENEHAN WILLIAM S",
+      "evidence_paraphrase": "The Army record has the exact indexed name and the same nonshared protected identifier.",
+      "identity_match_assessment": "High-confidence match from exact full-name and nonshared protected-identifier agreement across two official records.",
+      "temporal_assessment": "The Army record corroborates wartime service but does not establish an immediate pre-OSS affiliation or civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army coded occupation is not interpreted as an employer or named occupation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b797",
+          "locator_override": "PDF page 388; indexed William S Renehan row"
+        },
+        {
+          "source_key": "army-bulk-b797",
+          "locator_override": "Bulk record ordinal 1352447"
+        }
+      ]
+    },
+    {
+      "key": "identity-hilton-remley-b797",
+      "person_id": "255b0a0e-86ac-5575-8788-8cd4b129f91d",
+      "claim_type": "identity",
+      "claim_text": "Contemporary professional and broadcasting directories support a high-confidence identification of indexed Hilton Remley as radio engineer Hilton L. Remley.",
+      "evidence_excerpt": "REMLEY, HILTON L.",
+      "evidence_paraphrase": "A rare full name with middle initial appears in a 1937 engineering directory and a 1946 WGN engineering chart; a 1944 WGN roster lists Hilton Remley as an Army private.",
+      "identity_match_assessment": "High-confidence match from the distinctive name, compatible Army enlisted status, and a continuous radio-engineering chronology across three contemporary sources.",
+      "temporal_assessment": "The sources span 1937, wartime 1944, and postwar 1946; they support identity and employment chronology without establishing the date of OSS transfer.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The 1946 title is not back-projected into the prewar period.",
+      "sources": [
+        {
+          "source_key": "nara-index-b797",
+          "locator_override": "PDF page 388, row 28"
+        },
+        {
+          "source_key": "ire-yearbook-remley-b797",
+          "locator_override": "PDF page 146; printed page 145"
+        },
+        {
+          "source_key": "broadcasting-yearbook-remley-b797",
+          "locator_override": "Printed page 50"
+        },
+        {
+          "source_key": "wgn-family-remley-b797",
+          "locator_override": "PDF page 8; Engineering Department organization chart"
+        }
+      ]
+    },
+    {
+      "key": "other-hilton-remley-new-mexico-power-b797",
+      "person_id": "255b0a0e-86ac-5575-8788-8cd4b129f91d",
+      "affiliation_key": "hilton-remley-new-mexico-power-b797",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Hilton L. Remley worked as a meterman for New Mexico Power Company in Santa Fe in 1937.",
+      "evidence_excerpt": "Meterman, New Mexico Power Company, Santa Fe, N.M.",
+      "evidence_paraphrase": "The 1937 Institute of Radio Engineers directory names Remley's job, employer, and city.",
+      "identity_match_assessment": "High-confidence identity from the distinctive full name with middle initial and corroborating later WGN sources.",
+      "temporal_assessment": "Explicitly documented in 1937, well before OSS service, but later WGN evidence means it is not the last known civilian employer.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The historical employer name is preserved; no successor company is inferred.",
+      "sources": [
+        {
+          "source_key": "ire-yearbook-remley-b797",
+          "locator_override": "PDF page 146; printed page 145"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-hilton-remley-wgn-b797",
+      "person_id": "255b0a0e-86ac-5575-8788-8cd4b129f91d",
+      "affiliation_key": "hilton-remley-wgn-b797",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "WGN is Hilton Remley's best-supported last civilian employer before Army service.",
+      "evidence_excerpt": "Remley, Hilton (WGN) Pvt. -A",
+      "evidence_paraphrase": "A 1944 broadcasting directory associates Hilton Remley with WGN while identifying him as an Army private.",
+      "identity_match_assessment": "High-confidence identity from the distinctive name and independent 1937 and 1946 engineering-directory corroboration.",
+      "temporal_assessment": "Probable immediate civilian predecessor to Army service; the roster does not state exact employment or enlistment dates.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The claim is visibly qualified and is not treated as an immediate pre-OSS affiliation.",
+      "sources": [
+        {
+          "source_key": "broadcasting-yearbook-remley-b797",
+          "locator_override": "Printed page 50"
+        },
+        {
+          "source_key": "wgn-family-remley-b797",
+          "support_type": "context_only",
+          "locator_override": "PDF page 8; postwar Engineering Department organization chart"
+        }
+      ]
+    },
+    {
+      "key": "identity-anker-rentse-b797",
+      "person_id": "91e90843-c4eb-58ca-b242-ecb48222e4d9",
+      "claim_type": "identity",
+      "claim_text": "Institutional archival and scholarly sources support a high-confidence identification of indexed Captain Anker Rentse as the colonial administrator and military intelligence officer.",
+      "evidence_excerpt": "colonial administrator and military intelligence officer",
+      "evidence_paraphrase": "The UK National Archives finding aid identifies Rentse's papers and intelligence role; the scholarly chronology supplies the distinctive Malaya career.",
+      "identity_match_assessment": "High-confidence match from a rare exact name, compatible captaincy and military-intelligence description, and a detailed Kelantan chronology.",
+      "temporal_assessment": "The sources establish a prewar-to-wartime career but do not directly date Rentse's OSS entry.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No inference is made from his postwar civil-affairs position to the pre-OSS period.",
+      "sources": [
+        {
+          "source_key": "nara-index-b797",
+          "locator_override": "PDF page 388, row 45"
+        },
+        {
+          "source_key": "tna-rentse-b797",
+          "locator_override": "Anker Rentse papers, MS 381246"
+        },
+        {
+          "source_key": "archipel-rentse-b797",
+          "locator_override": "PDF page 27; footnote 60"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-anker-rentse-kelantan-b797",
+      "person_id": "91e90843-c4eb-58ca-b242-ecb48222e4d9",
+      "affiliation_key": "anker-rentse-kelantan-government-b797",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Anker Rentse's last documented civilian employer before wartime displacement was the Kelantan Government.",
+      "evidence_excerpt": "officer of the Kelantan Government until the Japanese invasion",
+      "evidence_paraphrase": "The scholarly chronology places Rentse in Kelantan Government service until the Japanese invasion, followed by Singapore and Australia.",
+      "identity_match_assessment": "High-confidence identity from the rare exact name, archival finding aid, and compatible military-intelligence chronology.",
+      "temporal_assessment": "Strongly date-bounded as the last named civilian role before wartime displacement; the immediate pre-OSS step remains unestablished.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Earlier work on unnamed plantation estates is not converted into a named employer claim.",
+      "sources": [
+        {
+          "source_key": "archipel-rentse-b797",
+          "locator_override": "PDF page 27; footnote 60"
+        }
+      ]
+    },
+    {
+      "key": "identity-conflict-tommie-remmage-b797",
+      "person_id": "ab8b66fa-4bd0-5bc6-8a46-0d0f86617c19",
+      "claim_type": "identity",
+      "claim_text": "The index prints separate TOMMIE I RAMMAGE and TOMMIE I REMMAGE rows with the same protected identifier; the records remain separate and conflicting.",
+      "evidence_excerpt": "RAMMAGE, TOMMIE I.; REMMAGE, TOMMIE I.",
+      "evidence_paraphrase": "The two official index rows have different surnames and boxes but share the same private service identifier.",
+      "identity_match_assessment": "Conflicting; same identifier is strong duplication evidence, but the spelling and box differences require personnel-file comparison before any merge.",
+      "temporal_assessment": "The index conflict establishes no pre-OSS employer or chronological relationship.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Neither spelling is privileged, and neither entity is merged into the other.",
+      "sources": [
+        {
+          "source_key": "nara-index-b797",
+          "locator_override": "PDF page 383, row 1 and page 388, row 30"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "8cd1b5ed-4052-5b1f-b4dd-ab0939a5a045",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record. This establishes wartime Army identity only.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the Box 639 personnel file for the pre-OSS employer or assignment and the meaning of the clipped note 'photogra'.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2da25f0d-1148-57f0-b356-810e445c281b",
+      "identity_status": "confirmed",
+      "identity_evidence": "The existing confirmed profile links the indexed P-8 Charles F Remer to the University of Michigan economist who led COI and OSS Far East research and to NARA personnel file NAID 2184121.",
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Inspect the personnel file associated with NAID 2184121 to refine dates and assignment detail.",
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "7d93d571-76db-5260-b9fc-8dd9460ee80f",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The indexed name, suffix, and a nonshared protected identifier agree with the official Army bulk record. This establishes wartime Army identity only.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the Box 639 personnel file for the pre-OSS employer or assignment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0ab40307-8b07-55bd-94b3-47b4a56e9105",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and variant searches produced genealogy and namesake leads but no source that links a specific Char-Anne Remington to the indexed CAF-3 record and a pre-OSS employer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the Box 639 personnel file to establish identity, civilian grade context, and pre-OSS affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "255b0a0e-86ac-5575-8788-8cd4b129f91d",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A distinctive Hilton L. Remley appears in a 1937 engineering directory, a 1944 WGN wartime roster, and WGN's 1946 engineering organization chart; the chronology and Army-private designation support the indexed Pfc.",
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Inspect the Box 639 personnel file to confirm the WGN-to-Army-to-OSS chronology and exact engineering title.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ab8b66fa-4bd0-5bc6-8a46-0d0f86617c19",
+      "identity_status": "conflicting",
+      "identity_evidence": "The same protected identifier is printed for separately indexed TOMMIE I RAMMAGE and TOMMIE I REMMAGE rows in different boxes. The rows and person entities remain separate pending archival comparison.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "serial-conflict:38693434",
+      "research_status": "conflicting_sources",
+      "next_action": "Compare the Box 625 Rammage file with the Box 639 Remmage file and the underlying service record.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "aa341465-b6fb-5e7d-8a9e-64dae1335859",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name and absence of rank or protected identifier left multiple plausible namesakes; no reviewed source provided two corroborating identifiers or a pre-OSS chronology.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the Box 639 personnel file for identifying details and pre-OSS affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "06cd1ba6-6b20-55d4-86fe-bc925b9e5d25",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record. This establishes wartime Army identity only.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the Box 639 personnel file for the pre-OSS employer or assignment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "08b4d830-fec5-51aa-a09d-939dc2dcb782",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record. This establishes wartime Army identity only.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the Box 639 personnel file for the pre-OSS employer or assignment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "468743f0-a31b-5513-8a3e-5f29829412a2",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record. This establishes wartime Army identity only.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the Box 639 personnel file for the pre-OSS employer or assignment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "aae86a18-cf69-5db7-adc1-23f537db49bc",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name and absence of rank or protected identifier prevented a safe match; exact-name and employment searches did not provide two corroborating identifiers.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the Box 639 personnel file for identifying details and pre-OSS affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d66ce189-8176-5626-8e9f-36a1b3f4043f",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record. A 1947 government record is postwar context only and is not used as pre-OSS employer evidence.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the Box 640 personnel file for the pre-OSS employer or assignment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ffd7aad3-bac1-5101-b874-9e9ccdba8a3a",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name, civilian-grade, institutional, obituary, and archival searches did not yield a candidate with a sufficient OSS and chronological bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the Box 640 personnel file to establish identity, CAF-7 role, and pre-OSS affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d297726b-4199-5d97-8588-6b04496bd1a3",
+      "identity_status": "unresolved",
+      "identity_evidence": "The distinctive surname produced no source with a defensible OSS, identifier, and employment chronology for indexed Fred Renganeschi.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the Box 640 personnel file for identifying details and pre-OSS affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c03d50f9-7e04-5cc5-af7c-7bb88a05cb13",
+      "identity_status": "unresolved",
+      "identity_evidence": "An Italian archival finding aid contains the same rare name in a 1941-1942 correspondence folder, but it supplies no OSS or protected-identifier bridge and was not adopted as this person.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the Box 640 personnel file and compare it with the 1941-1942 Italian correspondence lead.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "51d60b55-2fc8-50de-848e-4d334ac6dfbc",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and service-context searches did not establish a candidate with sufficient corroborating identifiers or a pre-OSS chronology.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the Box 640 personnel file for identifying details and pre-OSS affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f1f6d4ed-8635-5c2c-b8dc-65782c81470b",
+      "identity_status": "unresolved",
+      "identity_evidence": "A same-name OSS mission roster supports an OSS-service lead, but no protected identifier, biographical bridge, or pre-OSS employer was found; the identity remains unresolved.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the Box 640 personnel file and compare assignment details with the same-name mission roster.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c17a5d26-3333-5db5-9dc4-1a1061e12c45",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and a nonshared protected identifier agree with the official Army bulk record. This establishes wartime Army identity only.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the Box 640 personnel file for the pre-OSS employer or assignment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b8ced6c3-6602-53c9-8b4f-2db3f0fedfce",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name and insufficient public identifiers left multiple plausible candidates; no reviewed source safely connected one to the indexed T-4 record and a pre-OSS employer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the Box 640 personnel file for identifying details and pre-OSS affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4d4c525f-3a54-5b33-99d2-f00ab75d3fbc",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name, CAF-6, institutional, newspaper, obituary, and archival searches did not yield a candidate with a sufficient OSS and chronological bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the Box 640 personnel file to establish identity, CAF-6 role, and pre-OSS affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "66c3f35f-ef00-5c3e-9647-e11ef642155d",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name and Army-context searches did not yield a candidate with a sufficient protected-identifier or biographical bridge to the indexed technical sergeant.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the Box 640 personnel file for identifying details and pre-OSS affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "91e90843-c4eb-58ca-b242-ecb48222e4d9",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare exact name, indexed captaincy, a National Archives finding-aid description of a colonial administrator and military intelligence officer, and a scholarly Malaya chronology support a high-confidence identification.",
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Inspect the Box 640 personnel file and Anker Rentse papers MS 381246 to establish the precise military-intelligence and OSS transition.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "435e14f2-9f91-55de-a663-9579ce0aa4bf",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Searches produced at least two consequential namesakes: Navy chaplain George Snavely Rentz, who died in 1942, and Arabist George S. Rentz Jr. Neither candidate has a reviewed OSS or protected-identifier bridge to this index row.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect the Box 640 personnel file for a middle name, birth information, education, nationality, and pre-OSS affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "anton-remenih-b797",
+      "person_id": "8cd1b5ed-4052-5b1f-b4dd-ab0939a5a045",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA and Army context; CIA and LoC discovery checks; Anton H Remenih; OSS; employer; occupation; institutional; newspaper; obituary; archival; Box 639",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_797",
+      "started_at": "2026-10-14T15:45:00-04:00",
+      "completed_at": "2026-10-14T17:05:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Discovery-only, namesake, postwar-only, or temporally insufficient candidates were rejected.",
+      "research_notes": "Official Army identity evidence was accepted; no reliable named pre-OSS employer was found. CIA and Library of Congress discovery checks yielded no additional publishable pre-OSS employer evidence; access limits and failed searches are not treated as evidence of absence.",
+      "next_action": "Inspect the Box 639 personnel file for the pre-OSS employer or assignment and the meaning of the clipped note 'photogra'.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b797-v1"
+    },
+    {
+      "key": "charles-remer-b797",
+      "person_id": "2da25f0d-1148-57f0-b356-810e445c281b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA and Army context; CIA and LoC discovery checks; Charles F Remer; OSS; employer; occupation; institutional; newspaper; obituary; archival; Box 639",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_797",
+      "started_at": "2026-10-14T15:45:00-04:00",
+      "completed_at": "2026-10-14T17:05:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Discovery-only, namesake, postwar-only, or temporally insufficient candidates were rejected.",
+      "research_notes": "The existing confirmed profile and employer claims were rechecked and preserved without duplication. CIA and Library of Congress discovery checks yielded no additional publishable pre-OSS employer evidence; access limits and failed searches are not treated as evidence of absence.",
+      "next_action": "Inspect the personnel file associated with NAID 2184121 to refine dates and assignment detail.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b797-v1"
+    },
+    {
+      "key": "george-remetta-b797",
+      "person_id": "7d93d571-76db-5260-b9fc-8dd9460ee80f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA and Army context; CIA and LoC discovery checks; George Remetta Jr.; OSS; employer; occupation; institutional; newspaper; obituary; archival; Box 639",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_797",
+      "started_at": "2026-10-14T15:45:00-04:00",
+      "completed_at": "2026-10-14T17:05:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Discovery-only, namesake, postwar-only, or temporally insufficient candidates were rejected.",
+      "research_notes": "Official Army identity evidence was accepted; local memorial material did not establish a pre-OSS employer. CIA and Library of Congress discovery checks yielded no additional publishable pre-OSS employer evidence; access limits and failed searches are not treated as evidence of absence.",
+      "next_action": "Inspect the Box 639 personnel file for the pre-OSS employer or assignment.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b797-v1"
+    },
+    {
+      "key": "char-anne-remington-b797",
+      "person_id": "0ab40307-8b07-55bd-94b3-47b4a56e9105",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA and Army context; CIA and LoC discovery checks; Char-Anne Remington; OSS; employer; occupation; institutional; newspaper; obituary; archival; Box 639",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_797",
+      "started_at": "2026-10-14T15:45:00-04:00",
+      "completed_at": "2026-10-14T17:05:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "No candidate supplied the identity, OSS, and employment chronology required for publication.",
+      "research_notes": "No candidate supplied the identity, OSS, and employment chronology required for publication. CIA and Library of Congress discovery checks yielded no additional publishable pre-OSS employer evidence; access limits and failed searches are not treated as evidence of absence.",
+      "next_action": "Inspect the Box 639 personnel file to establish identity, civilian grade context, and pre-OSS affiliation.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b797-v1"
+    },
+    {
+      "key": "hilton-remley-b797",
+      "person_id": "255b0a0e-86ac-5575-8788-8cd4b129f91d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA and Army context; CIA and LoC discovery checks; Hilton Remley; OSS; employer; occupation; institutional; newspaper; obituary; archival; Box 639",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_797",
+      "started_at": "2026-10-14T15:45:00-04:00",
+      "completed_at": "2026-10-14T17:05:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Discovery-only, namesake, postwar-only, or temporally insufficient candidates were rejected.",
+      "research_notes": "New Mexico Power Company is documented in 1937. WGN is the best-supported last civilian employer before Army service, published at medium confidence because the exact transition date is not stated. CIA and Library of Congress discovery checks yielded no additional publishable pre-OSS employer evidence; access limits and failed searches are not treated as evidence of absence.",
+      "next_action": "Inspect the Box 639 personnel file to confirm the WGN-to-Army-to-OSS chronology and exact engineering title.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b797-v1"
+    },
+    {
+      "key": "tommie-remmage-b797",
+      "person_id": "ab8b66fa-4bd0-5bc6-8a46-0d0f86617c19",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA and Army context; CIA and LoC discovery checks; Tommie I Remmage; OSS; employer; occupation; institutional; newspaper; obituary; archival; Box 639",
+      "query_variant_type": "staged_conflict_identity_employment_archival_protocol_batch_797",
+      "started_at": "2026-10-14T15:45:00-04:00",
+      "completed_at": "2026-10-14T17:05:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The duplicate candidate is marked conflicting rather than merged; no employer is assigned.",
+      "research_notes": "The duplicate candidate is marked conflicting rather than merged; no employer is assigned. CIA and Library of Congress discovery checks yielded no additional publishable pre-OSS employer evidence; access limits and failed searches are not treated as evidence of absence.",
+      "next_action": "Compare the Box 625 Rammage file with the Box 639 Remmage file and the underlying service record.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b797-v1"
+    },
+    {
+      "key": "jane-renard-b797",
+      "person_id": "aa341465-b6fb-5e7d-8a9e-64dae1335859",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA and Army context; CIA and LoC discovery checks; Jane Renard; OSS; employer; occupation; institutional; newspaper; obituary; archival; Box 639",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_797",
+      "started_at": "2026-10-14T15:45:00-04:00",
+      "completed_at": "2026-10-14T17:05:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Discovery-only, namesake, postwar-only, or temporally insufficient candidates were rejected.",
+      "research_notes": "Namesake results were rejected; no reliable pre-OSS employer was found. CIA and Library of Congress discovery checks yielded no additional publishable pre-OSS employer evidence; access limits and failed searches are not treated as evidence of absence.",
+      "next_action": "Inspect the Box 639 personnel file for identifying details and pre-OSS affiliation.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b797-v1"
+    },
+    {
+      "key": "rosendo-rendon-b797",
+      "person_id": "06cd1ba6-6b20-55d4-86fe-bc925b9e5d25",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA and Army context; CIA and LoC discovery checks; Rosendo F Rendon; OSS; employer; occupation; institutional; newspaper; obituary; archival; Box 639",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_797",
+      "started_at": "2026-10-14T15:45:00-04:00",
+      "completed_at": "2026-10-14T17:05:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Discovery-only, namesake, postwar-only, or temporally insufficient candidates were rejected.",
+      "research_notes": "Official Army identity evidence was accepted; no reliable named pre-OSS employer was found. CIA and Library of Congress discovery checks yielded no additional publishable pre-OSS employer evidence; access limits and failed searches are not treated as evidence of absence.",
+      "next_action": "Inspect the Box 639 personnel file for the pre-OSS employer or assignment.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b797-v1"
+    },
+    {
+      "key": "stephen-rendulic-b797",
+      "person_id": "08b4d830-fec5-51aa-a09d-939dc2dcb782",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA and Army context; CIA and LoC discovery checks; Stephen G Rendulic; OSS; employer; occupation; institutional; newspaper; obituary; archival; Box 639",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_797",
+      "started_at": "2026-10-14T15:45:00-04:00",
+      "completed_at": "2026-10-14T17:05:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Discovery-only, namesake, postwar-only, or temporally insufficient candidates were rejected.",
+      "research_notes": "Official Army identity evidence was accepted; modern property and directory namesakes did not establish a pre-OSS employer. CIA and Library of Congress discovery checks yielded no additional publishable pre-OSS employer evidence; access limits and failed searches are not treated as evidence of absence.",
+      "next_action": "Inspect the Box 639 personnel file for the pre-OSS employer or assignment.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b797-v1"
+    },
+    {
+      "key": "raymond-rene-b797",
+      "person_id": "468743f0-a31b-5513-8a3e-5f29829412a2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA and Army context; CIA and LoC discovery checks; Raymond A Rene; OSS; employer; occupation; institutional; newspaper; obituary; archival; Box 639",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_797",
+      "started_at": "2026-10-14T15:45:00-04:00",
+      "completed_at": "2026-10-14T17:05:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Discovery-only, namesake, postwar-only, or temporally insufficient candidates were rejected.",
+      "research_notes": "Official Army identity evidence was accepted; no reliable named pre-OSS employer was found. CIA and Library of Congress discovery checks yielded no additional publishable pre-OSS employer evidence; access limits and failed searches are not treated as evidence of absence.",
+      "next_action": "Inspect the Box 639 personnel file for the pre-OSS employer or assignment.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b797-v1"
+    },
+    {
+      "key": "peter-renehan-b797",
+      "person_id": "aae86a18-cf69-5db7-adc1-23f537db49bc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA and Army context; CIA and LoC discovery checks; Peter Renehan; OSS; employer; occupation; institutional; newspaper; obituary; archival; Box 639",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_797",
+      "started_at": "2026-10-14T15:45:00-04:00",
+      "completed_at": "2026-10-14T17:05:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Discovery-only, namesake, postwar-only, or temporally insufficient candidates were rejected.",
+      "research_notes": "Plausible namesakes were rejected; no reliable pre-OSS employer was found. CIA and Library of Congress discovery checks yielded no additional publishable pre-OSS employer evidence; access limits and failed searches are not treated as evidence of absence.",
+      "next_action": "Inspect the Box 639 personnel file for identifying details and pre-OSS affiliation.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b797-v1"
+    },
+    {
+      "key": "william-renehan-b797",
+      "person_id": "d66ce189-8176-5626-8e9f-36a1b3f4043f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA and Army context; CIA and LoC discovery checks; William S Renehan; OSS; employer; occupation; institutional; newspaper; obituary; archival; Box 640",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_797",
+      "started_at": "2026-10-14T15:45:00-04:00",
+      "completed_at": "2026-10-14T17:05:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Discovery-only, namesake, postwar-only, or temporally insufficient candidates were rejected.",
+      "research_notes": "Official Army identity evidence was accepted; postwar communications work was not back-projected into the pre-OSS period. CIA and Library of Congress discovery checks yielded no additional publishable pre-OSS employer evidence; access limits and failed searches are not treated as evidence of absence.",
+      "next_action": "Inspect the Box 640 personnel file for the pre-OSS employer or assignment.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b797-v1"
+    },
+    {
+      "key": "melton-renfrew-b797",
+      "person_id": "ffd7aad3-bac1-5101-b874-9e9ccdba8a3a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA and Army context; CIA and LoC discovery checks; Melton S Renfrew; OSS; employer; occupation; institutional; newspaper; obituary; archival; Box 640",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_797",
+      "started_at": "2026-10-14T15:45:00-04:00",
+      "completed_at": "2026-10-14T17:05:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "No reliable identity or pre-OSS employer was found after the staged protocol.",
+      "research_notes": "No reliable identity or pre-OSS employer was found after the staged protocol. CIA and Library of Congress discovery checks yielded no additional publishable pre-OSS employer evidence; access limits and failed searches are not treated as evidence of absence.",
+      "next_action": "Inspect the Box 640 personnel file to establish identity, CAF-7 role, and pre-OSS affiliation.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b797-v1"
+    },
+    {
+      "key": "fred-renganeschi-b797",
+      "person_id": "d297726b-4199-5d97-8588-6b04496bd1a3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA and Army context; CIA and LoC discovery checks; Fred Renganeschi; OSS; employer; occupation; institutional; newspaper; obituary; archival; Box 640",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_797",
+      "started_at": "2026-10-14T15:45:00-04:00",
+      "completed_at": "2026-10-14T17:05:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "No reliable identity or pre-OSS employer was found after the staged protocol.",
+      "research_notes": "No reliable identity or pre-OSS employer was found after the staged protocol. CIA and Library of Congress discovery checks yielded no additional publishable pre-OSS employer evidence; access limits and failed searches are not treated as evidence of absence.",
+      "next_action": "Inspect the Box 640 personnel file for identifying details and pre-OSS affiliation.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b797-v1"
+    },
+    {
+      "key": "lory-renganeschi-b797",
+      "person_id": "c03d50f9-7e04-5cc5-af7c-7bb88a05cb13",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA and Army context; CIA and LoC discovery checks; Lory Renganeschi; OSS; employer; occupation; institutional; newspaper; obituary; archival; Box 640",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_797",
+      "started_at": "2026-10-14T15:45:00-04:00",
+      "completed_at": "2026-10-14T17:05:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Discovery-only, namesake, postwar-only, or temporally insufficient candidates were rejected.",
+      "research_notes": "The same-name Italian archival lead remains a lead only; no employer claim is published. CIA and Library of Congress discovery checks yielded no additional publishable pre-OSS employer evidence; access limits and failed searches are not treated as evidence of absence.",
+      "next_action": "Inspect the Box 640 personnel file and compare it with the 1941-1942 Italian correspondence lead.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b797-v1"
+    },
+    {
+      "key": "melvin-rennie-b797",
+      "person_id": "51d60b55-2fc8-50de-848e-4d334ac6dfbc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA and Army context; CIA and LoC discovery checks; Melvin H Rennie; OSS; employer; occupation; institutional; newspaper; obituary; archival; Box 640",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_797",
+      "started_at": "2026-10-14T15:45:00-04:00",
+      "completed_at": "2026-10-14T17:05:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "No reliable identity or pre-OSS employer was found after the staged protocol.",
+      "research_notes": "No reliable identity or pre-OSS employer was found after the staged protocol. CIA and Library of Congress discovery checks yielded no additional publishable pre-OSS employer evidence; access limits and failed searches are not treated as evidence of absence.",
+      "next_action": "Inspect the Box 640 personnel file for identifying details and pre-OSS affiliation.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b797-v1"
+    },
+    {
+      "key": "norbert-rennie-b797",
+      "person_id": "f1f6d4ed-8635-5c2c-b8dc-65782c81470b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA and Army context; CIA and LoC discovery checks; Norbert F Rennie; OSS; employer; occupation; institutional; newspaper; obituary; archival; Box 640",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_797",
+      "started_at": "2026-10-14T15:45:00-04:00",
+      "completed_at": "2026-10-14T17:05:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Discovery-only, namesake, postwar-only, or temporally insufficient candidates were rejected.",
+      "research_notes": "The mission-roster lead was retained only as research context; it does not establish a pre-OSS employer. CIA and Library of Congress discovery checks yielded no additional publishable pre-OSS employer evidence; access limits and failed searches are not treated as evidence of absence.",
+      "next_action": "Inspect the Box 640 personnel file and compare assignment details with the same-name mission roster.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b797-v1"
+    },
+    {
+      "key": "william-rennie-b797",
+      "person_id": "c17a5d26-3333-5db5-9dc4-1a1061e12c45",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA and Army context; CIA and LoC discovery checks; William D Rennie; OSS; employer; occupation; institutional; newspaper; obituary; archival; Box 640",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_797",
+      "started_at": "2026-10-14T15:45:00-04:00",
+      "completed_at": "2026-10-14T17:05:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Discovery-only, namesake, postwar-only, or temporally insufficient candidates were rejected.",
+      "research_notes": "Official Army identity evidence was accepted; no reliable named pre-OSS employer was found. CIA and Library of Congress discovery checks yielded no additional publishable pre-OSS employer evidence; access limits and failed searches are not treated as evidence of absence.",
+      "next_action": "Inspect the Box 640 personnel file for the pre-OSS employer or assignment.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b797-v1"
+    },
+    {
+      "key": "john-reno-b797",
+      "person_id": "b8ced6c3-6602-53c9-8b4f-2db3f0fedfce",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA and Army context; CIA and LoC discovery checks; John H Reno; OSS; employer; occupation; institutional; newspaper; obituary; archival; Box 640",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_797",
+      "started_at": "2026-10-14T15:45:00-04:00",
+      "completed_at": "2026-10-14T17:05:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Discovery-only, namesake, postwar-only, or temporally insufficient candidates were rejected.",
+      "research_notes": "Namesake candidates were rejected; no reliable pre-OSS employer was found. CIA and Library of Congress discovery checks yielded no additional publishable pre-OSS employer evidence; access limits and failed searches are not treated as evidence of absence.",
+      "next_action": "Inspect the Box 640 personnel file for identifying details and pre-OSS affiliation.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b797-v1"
+    },
+    {
+      "key": "virginia-renshaw-b797",
+      "person_id": "4d4c525f-3a54-5b33-99d2-f00ab75d3fbc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA and Army context; CIA and LoC discovery checks; Virginia R Renshaw; OSS; employer; occupation; institutional; newspaper; obituary; archival; Box 640",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_797",
+      "started_at": "2026-10-14T15:45:00-04:00",
+      "completed_at": "2026-10-14T17:05:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "No reliable identity or pre-OSS employer was found after the staged protocol.",
+      "research_notes": "No reliable identity or pre-OSS employer was found after the staged protocol. CIA and Library of Congress discovery checks yielded no additional publishable pre-OSS employer evidence; access limits and failed searches are not treated as evidence of absence.",
+      "next_action": "Inspect the Box 640 personnel file to establish identity, CAF-6 role, and pre-OSS affiliation.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b797-v1"
+    },
+    {
+      "key": "james-rentfro-b797",
+      "person_id": "66c3f35f-ef00-5c3e-9647-e11ef642155d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA and Army context; CIA and LoC discovery checks; James D Rentfro; OSS; employer; occupation; institutional; newspaper; obituary; archival; Box 640",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_797",
+      "started_at": "2026-10-14T15:45:00-04:00",
+      "completed_at": "2026-10-14T17:05:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "No reliable identity or pre-OSS employer was found after the staged protocol.",
+      "research_notes": "No reliable identity or pre-OSS employer was found after the staged protocol. CIA and Library of Congress discovery checks yielded no additional publishable pre-OSS employer evidence; access limits and failed searches are not treated as evidence of absence.",
+      "next_action": "Inspect the Box 640 personnel file for identifying details and pre-OSS affiliation.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b797-v1"
+    },
+    {
+      "key": "anker-rentse-b797",
+      "person_id": "91e90843-c4eb-58ca-b242-ecb48222e4d9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA and Army context; CIA and LoC discovery checks; Anker Rentse; OSS; employer; occupation; institutional; newspaper; obituary; archival; Box 640",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_797",
+      "started_at": "2026-10-14T15:45:00-04:00",
+      "completed_at": "2026-10-14T17:05:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Discovery-only, namesake, postwar-only, or temporally insufficient candidates were rejected.",
+      "research_notes": "Kelantan Government is the best-supported last civilian employer before the Japanese invasion and Rentse's subsequent wartime movement. No source reviewed establishes it as the immediate pre-OSS affiliation. CIA and Library of Congress discovery checks yielded no additional publishable pre-OSS employer evidence; access limits and failed searches are not treated as evidence of absence.",
+      "next_action": "Inspect the Box 640 personnel file and Anker Rentse papers MS 381246 to establish the precise military-intelligence and OSS transition.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b797-v1"
+    },
+    {
+      "key": "george-rentz-b797",
+      "person_id": "435e14f2-9f91-55de-a663-9579ce0aa4bf",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA and Army context; CIA and LoC discovery checks; George S Rentz; OSS; employer; occupation; institutional; newspaper; obituary; archival; Box 640",
+      "query_variant_type": "staged_conflict_identity_employment_archival_protocol_batch_797",
+      "started_at": "2026-10-14T15:45:00-04:00",
+      "completed_at": "2026-10-14T17:05:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "Both prominent namesake pathways were rejected rather than assigned to the index row.",
+      "research_notes": "Both prominent namesake pathways were rejected rather than assigned to the index row. CIA and Library of Congress discovery checks yielded no additional publishable pre-OSS employer evidence; access limits and failed searches are not treated as evidence of absence.",
+      "next_action": "Inspect the Box 640 personnel file for a middle name, birth information, education, nationality, and pre-OSS affiliation.",
+      "attempt_number": 6,
+      "research_agent_version": "before-oss-b797-v1"
+    }
+  ]
+}
