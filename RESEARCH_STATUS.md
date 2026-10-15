@@ -1,5 +1,37 @@
 # Research status
 
+Batch 826 completed PDF page 403, rows 1-23, from **Howard L Ruble** through
+**David F Ruf**, preserving all 23 printed rows as separate source records
+linked to 23 active person entities. The printed page was visually checked at
+300 dpi. All 23 people have saved terminal research outcomes. National Park
+Service history establishes **Lucius O. Rucker Jr.** as a career Army officer
+who moved Fort Benning parachute personnel into the OSS training program in
+June 1942. An official CIA history plus a contemporary broadcasting notice
+document **Merritt K. Ruddock** at WRNL and the Mutual Broadcasting System in
+1941 without claiming either job immediately preceded OSS. **Jack M. Rudolph**
+is linked to Kimberly-Clark as his last civilian employer before Army and OSS
+service. Official evidence corroborates **Gilbert J. Ruest** while leaving the
+sequence of his Seventh Army assignment unresolved; a distinctive-name 1941
+letter supplies only a qualified identity lead for **Eryl Rudlin**. Four Army
+identities were accepted without publishing coded occupations. The protected
+identifier shared by **John B Rudd** and the separate **John B Rodd** row was
+treated as a conflict, not a merge. NARA and web work used dry-run queries; CIA
+and Library of Congress access failures were not treated as negative evidence.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,938** active
+people. Research-attempt coverage is **11,978/23,938 (50.0376%)**;
+verified-employer coverage is **390/23,938 (1.6292%)**;
+verified-affiliation coverage is **863/23,938 (3.6051%)**; archival-review
+coverage is **10,442/23,938 (43.6210%)**. There are **11,955** `not_started`
+people, **553** possible-duplicate groups, and **409** conflicts. SQLite
+retains **23,591** attempts or plans and **7,453** claims: 1,544 confirmed,
+3,704 high, 1,649 medium, 202 low, 352 conflicting, and two unresolved. It has
+**6,250** citation records and **3,296** unique source documents. The public
+projection has **2,726** affiliations, **993** organizations, **5,024**
+sources, and **7,245** claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 403, row 24, **Ferdinand M
+Ruff**. See `research/batch-826-progress.md` for the source-by-source audit.
+
 Batch 825 completed PDF page 402, rows 24-46, from **Earl G Rowell** through
 **Christopher Rubio**, preserving all 23 printed rows as separate source
 records linked to 23 active person entities. The printed page was visually
