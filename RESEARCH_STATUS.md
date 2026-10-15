@@ -1,5 +1,36 @@
 # Research status
 
+Batch 822 completed PDF page 401, rows 1-23, from **E P Ross** through
+**Harold T Rossman**, preserving all 23 printed rows as separate source
+records linked to 23 active person entities. The printed page was visually
+checked at 300 dpi. All 23 people have saved terminal research outcomes.
+Seven exact official Army identifier matches were accepted for identity and
+Army-entry chronology only; coded occupations were not published as employers.
+The official Veterans Legacy Memorial provides a qualified probable identity
+match for **Stephen O Rossetti**, but it does not identify a pre-OSS employer.
+The protected-identifier candidate attached to **Lawrence F Rossi** names a
+different person and was explicitly rejected. A Brooklyn College and World
+Bank economist lead for **Murray Ross** remains unassigned because accessible
+sources do not connect that person to the indexed OSS captain. The printed
+**Guiseppe Rossetti** spelling remains authoritative while `Giuseppe` is kept
+only as a search alias. NARA was used in dry-run mode; CIA and Library of
+Congress access limitations were not treated as negative historical evidence.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,938** active
+people. Research-attempt coverage is **11,887/23,938 (49.6574%)**;
+verified-employer coverage is **386/23,938 (1.6125%)**;
+verified-affiliation coverage is **853/23,938 (3.5634%)**; archival-review
+coverage is **10,351/23,938 (43.2409%)**. There are **12,046** `not_started`
+people, **553** possible-duplicate groups, and **403** conflicts. SQLite
+retains **23,284** attempts or plans and **7,403** claims: 1,528 confirmed,
+3,681 high, 1,643 medium, 202 low, 347 conflicting, and two unresolved. It has
+**6,217** citation records and **3,273** unique source documents. The public
+projection has **2,710** affiliations, **977** organizations, **4,992**
+sources, and **7,195** claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 401, row 24, **Otto
+Rossmeyer**. See `research/batch-822-progress.md` for the source-by-source
+audit.
+
 Batch 821 completed PDF page 400, rows 24-46, from **Franz W Rosenthal**
 through **Darrell E Ross**, preserving all 23 printed rows as separate source
 records linked to 23 active person entities. The printed page was visually

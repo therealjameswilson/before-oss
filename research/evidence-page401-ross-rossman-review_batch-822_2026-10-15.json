@@ -1,0 +1,236 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 822 review",
+  "sources": [
+    {
+      "key": "nara-index-b822",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 661-662",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 401, rows 1-23; visually checked against a 300 dpi render",
+      "access_date": "2026-10-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Original spelling and blank fields are preserved; full private service identifiers are excluded from public outputs."
+    },
+    {
+      "key": "army-bulk-b822",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; RG 64; ASNEF.FIN.DAT",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department; electronic conversion by National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2002",
+      "locator": "Official unrestricted bulk file; seven accepted protected-identifier identities and one rejected conflict; full identifiers withheld",
+      "access_date": "2026-10-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "rights_notes": "Used for identity resolution and Army-entry chronology only. Coded occupations are not named employers or proof of an immediate pre-OSS affiliation."
+    },
+    {
+      "key": "va-stephen-rossetti-b822",
+      "stable_url": "https://www.vlm.cem.va.gov/STEPHENOROSSETTI/209DC",
+      "title": "Stephen O Rossetti",
+      "author_creator": "National Cemetery Administration",
+      "repository_publisher": "U.S. Department of Veterans Affairs, Veterans Legacy Memorial",
+      "locator": "Official memorial profile; Army service, lieutenant-colonel rank, life dates, and Arlington burial",
+      "access_date": "2026-10-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "Veterans Legacy Memorial",
+      "rights_notes": "Used only as qualified identity evidence. The memorial does not document a pre-OSS employer or the exact OSS assignment chronology."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [],
+  "claims": [
+    {
+      "key": "identity-henry-h-ross-b822",
+      "person_id": "4bfed8ea-9c2c-5ae3-b320-c368aa4c69ba",
+      "claim_type": "identity",
+      "claim_text": "An official Army bulk record confirms the identity of indexed Henry H. Ross.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree between the OSS index and official Army record.",
+      "identity_match_assessment": "Confirmed from exact-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "The evidence establishes Army identity and entry chronology only, not an employer or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier and coded occupation remain private and are not converted into employment claims.",
+      "sources": [
+        {"source_key": "nara-index-b822", "locator_override": "PDF page 401, row 4; PVT; Box 661"},
+        {"source_key": "army-bulk-b822", "locator_override": "Official Army entry; protected identifier compared privately"}
+      ]
+    },
+    {
+      "key": "identity-michael-j-ross-b822",
+      "person_id": "3109dbb0-00d4-5875-803a-0e7304130404",
+      "claim_type": "identity",
+      "claim_text": "An official Army bulk record confirms the identity of indexed Michael J. Ross.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree between the OSS index and official Army record.",
+      "identity_match_assessment": "Confirmed from exact-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "The evidence establishes Army identity and entry chronology only, not an employer or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier and coded occupation remain private and are not converted into employment claims.",
+      "sources": [
+        {"source_key": "nara-index-b822", "locator_override": "PDF page 401, row 8; CPL; Box 661"},
+        {"source_key": "army-bulk-b822", "locator_override": "Official Army entry; protected identifier compared privately"}
+      ]
+    },
+    {
+      "key": "identity-otto-h-ross-b822",
+      "person_id": "c75ad316-c527-5880-8d1e-71c3e992ac58",
+      "claim_type": "identity",
+      "claim_text": "An official Army bulk record confirms the identity of indexed Otto H. Ross.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree between the OSS index and official Army record.",
+      "identity_match_assessment": "Confirmed from exact-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "The evidence establishes Army identity and entry chronology only, not an employer or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier and coded occupation remain private and are not converted into employment claims.",
+      "sources": [
+        {"source_key": "nara-index-b822", "locator_override": "PDF page 401, row 11; T SGT; Box 661"},
+        {"source_key": "army-bulk-b822", "locator_override": "Official Army entry; protected identifier compared privately"}
+      ]
+    },
+    {
+      "key": "identity-robert-t-ross-b822",
+      "person_id": "1a4f7539-3aef-53fd-9511-da68ddf74797",
+      "claim_type": "identity",
+      "claim_text": "An official Army bulk record confirms the identity of indexed Robert T. Ross.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree between the OSS index and official Army record.",
+      "identity_match_assessment": "Confirmed from exact-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "The evidence establishes Army identity and entry chronology only, not an employer or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier and coded occupation remain private and are not converted into employment claims.",
+      "sources": [
+        {"source_key": "nara-index-b822", "locator_override": "PDF page 401, row 12; S SGT; Box 661"},
+        {"source_key": "army-bulk-b822", "locator_override": "Official Army entry; protected identifier compared privately"}
+      ]
+    },
+    {
+      "key": "identity-victor-h-ross-b822",
+      "person_id": "58d75375-cb03-5af7-b4a7-6af19e6e6989",
+      "claim_type": "identity",
+      "claim_text": "An official Army bulk record confirms the identity of indexed Victor H. Ross.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree between the OSS index and official Army record.",
+      "identity_match_assessment": "Confirmed from exact-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "The evidence establishes Army identity and entry chronology only, not an employer or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier and coded occupation remain private and are not converted into employment claims.",
+      "sources": [
+        {"source_key": "nara-index-b822", "locator_override": "PDF page 401, row 14; Cpl; Box 661"},
+        {"source_key": "army-bulk-b822", "locator_override": "Official Army entry; protected identifier compared privately"}
+      ]
+    },
+    {
+      "key": "identity-peter-s-rossello-b822",
+      "person_id": "5b0bb232-ad3c-5907-ae88-ae5fdb4cdf5c",
+      "claim_type": "identity",
+      "claim_text": "An official Army bulk record confirms the identity of indexed Peter S. Rossello.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree between the OSS index and official Army record.",
+      "identity_match_assessment": "Confirmed from exact-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "The evidence establishes Army identity and entry chronology only, not an employer or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier and coded occupation remain private and are not converted into employment claims.",
+      "sources": [
+        {"source_key": "nara-index-b822", "locator_override": "PDF page 401, row 16; PVT; Box 662"},
+        {"source_key": "army-bulk-b822", "locator_override": "Official Army entry; protected identifier compared privately"}
+      ]
+    },
+    {
+      "key": "identity-thomas-g-rossi-b822",
+      "person_id": "348e5eb8-7baf-53a9-b1d1-e2811c2ffd32",
+      "claim_type": "identity",
+      "claim_text": "An official Army bulk record confirms the identity of indexed Thomas G. Rossi.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree between the OSS index and official Army record.",
+      "identity_match_assessment": "Confirmed from exact-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "The evidence establishes Army identity and entry chronology only, not an employer or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full identifier and coded occupation remain private and are not converted into employment claims.",
+      "sources": [
+        {"source_key": "nara-index-b822", "locator_override": "PDF page 401, row 22; T SGT; Box 662"},
+        {"source_key": "army-bulk-b822", "locator_override": "Official Army entry; protected identifier compared privately"}
+      ]
+    },
+    {
+      "key": "identity-stephen-o-rossetti-b822",
+      "person_id": "30e03df1-a3df-52af-b43a-333c3dc1355a",
+      "claim_type": "identity",
+      "claim_text": "The official Veterans Legacy Memorial is a probable identity match for indexed Stephen O. Rossetti.",
+      "evidence_paraphrase": "The distinctive exact name and compatible Army field-grade progression connect the indexed major to the official memorial, but no private identifier is available.",
+      "identity_match_assessment": "Probable, not confirmed; the exact distinctive name and compatible rank support the match, while the personnel file remains unreviewed.",
+      "temporal_assessment": "The memorial confirms Army service but does not establish the pre-OSS chronology or a civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The profile keeps the match qualified and directs researchers to Box 662 for confirmation.",
+      "sources": [
+        {"source_key": "nara-index-b822", "locator_override": "PDF page 401, row 20; MAJ; Box 662"},
+        {"source_key": "va-stephen-rossetti-b822", "locator_override": "Official memorial profile; U.S. Army; lieutenant colonel"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {"person_id":"49a4a27d-2da8-5150-90b4-7f6d0000b17f","identity_status":"unresolved","identity_evidence":"Initials-only civilian-grade index entry did not produce a reliable OSS-linked identity in accessible sources.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 661 for E. P. Ross's full name, civilian appointment and prior affiliation.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"d7e8bdeb-cad6-5b23-8d33-3e6fdbf37e30","identity_status":"unresolved","identity_evidence":"The common name and T-5 grade did not yield two corroborating identifiers beyond the name.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 661 for Edward J. Ross's identity, Army chronology and pre-OSS affiliation.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"91711b75-29f9-5a40-b3d6-557168ed4aaf","identity_status":"unresolved","identity_evidence":"A Minnesota namesake lead lacked an OSS, rank or protected-identifier bridge and was not adopted.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 661 for Harlow N. Ross's identity, first-sergeant service and civilian work.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"4bfed8ea-9c2c-5ae3-b320-c368aa4c69ba","identity_status":"confirmed","identity_evidence":"The official Army bulk record agrees on Henry H. Ross's exact name and nonshared protected identifier.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 661 for Henry H. Ross's pre-Army occupation and Army-to-OSS sequence.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"d54aba0a-9afc-52e9-88e8-fe2a2d9faf7f","identity_status":"unresolved","identity_evidence":"The common name and Marine Corps grade did not yield a reliable identity bridge in accessible sources.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 661 for James E. Ross's Marine Corps identity and pre-OSS affiliation.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"f750af6c-8824-5387-ac13-af8b78833a73","identity_status":"unresolved","identity_evidence":"The distinctive name and CAF-4 grade produced no reliable OSS-linked biographical source.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 661 for Lonella B. Ross's civilian appointment and prior employer.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"d9371bd0-8175-53dc-b7c2-7a492464e59b","identity_status":"unresolved","identity_evidence":"The common name and corporal grade did not yield two corroborating identifiers beyond the name.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 661 for Martin B. Ross's identity, military chronology and civilian work.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"3109dbb0-00d4-5875-803a-0e7304130404","identity_status":"confirmed","identity_evidence":"The official Army bulk record agrees on Michael J. Ross's exact name and nonshared protected identifier.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 661 for Michael J. Ross's pre-Army occupation and Army-to-OSS sequence.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"d1e9d23f-1bf8-5d7e-a16a-e2791fdf19aa","identity_status":"unresolved","identity_evidence":"The common name, middle initial and blank grade did not yield a reliable OSS-linked identity.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 661 for Muriel I. Ross's identity, personnel status and pre-OSS affiliation.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"1b2f94b4-925f-5cec-8acf-2f13b6ccc754","identity_status":"unresolved","identity_evidence":"An economist named Murray Ross had documented 1941 Brooklyn College activity, but no source connected him to the indexed OSS captain.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 661 to identify Captain Murray Ross before evaluating the Brooklyn College economist lead.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"c75ad316-c527-5880-8d1e-71c3e992ac58","identity_status":"confirmed","identity_evidence":"The official Army bulk record agrees on Otto H. Ross's exact name and nonshared protected identifier.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 661 for Otto H. Ross's pre-Army occupation and Army-to-OSS sequence.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"1a4f7539-3aef-53fd-9511-da68ddf74797","identity_status":"confirmed","identity_evidence":"The official Army bulk record agrees on Robert T. Ross's exact name and nonshared protected identifier.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 661 for Robert T. Ross's pre-Army occupation and Army-to-OSS sequence.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"a8391786-a95c-5114-83c8-6448ee75966e","identity_status":"unresolved","identity_evidence":"The common name, missing middle initial and private rank context were insufficient for a reliable match.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 661 for Stanley Ross's full identity, Army chronology and prior occupation.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"58d75375-cb03-5af7-b4a7-6af19e6e6989","identity_status":"confirmed","identity_evidence":"The official Army bulk record agrees on Victor H. Ross's exact name and nonshared protected identifier.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 661 for Victor H. Ross's pre-Army occupation and Army-to-OSS sequence.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"95a2c567-2004-5899-8028-832670ec9bff","identity_status":"unresolved","identity_evidence":"Exact-name officer searches did not establish which Walter M. Ross was the indexed lieutenant colonel.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 661 for Lieutenant Colonel Walter M. Ross's branch, identity and pre-OSS assignment.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"5b0bb232-ad3c-5907-ae88-ae5fdb4cdf5c","identity_status":"confirmed","identity_evidence":"The official Army bulk record agrees on Peter S. Rossello's exact name and nonshared protected identifier.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 662 for Peter S. Rossello's pre-Army occupation and Army-to-OSS sequence.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"d2200214-683e-55ec-9172-d3a8d6d1aabb","identity_status":"unresolved","identity_evidence":"The distinctive name and junior suffix did not yield an authoritative source linking a candidate to the indexed second lieutenant.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 662 for Clarence B. Rosser Jr.'s officer identity and pre-OSS affiliation.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"2e9b8aa5-4ed1-5673-982e-69828c9d2b72","identity_status":"unresolved","identity_evidence":"The distinctive name but blank grade produced no reliable OSS-linked identity or employer source.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 662 for Garnet L. Rosset's identity, personnel status and pre-OSS affiliation.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"ac8aecbf-2feb-5de1-a40f-4e664b8ee757","identity_status":"unresolved","identity_evidence":"Searches retained the printed Guiseppe spelling and tested Giuseppe as an alias, but sports namesakes lacked OSS corroboration.","name_variants":["Giuseppe Rossetti"],"manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 662 for Guiseppe Rossetti's full identity, nationality and pre-OSS affiliation.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"30e03df1-a3df-52af-b43a-333c3dc1355a","identity_status":"probable","identity_evidence":"An official VA memorial has the exact distinctive name and compatible Army field-grade progression, but lacks the index identifier needed for confirmation.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 662 to confirm Stephen O. Rossetti and identify his immediate pre-OSS assignment or civilian employer.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"61c52c2c-4105-55b5-ba1c-a0b764357bb0","identity_status":"unresolved","identity_evidence":"The Army candidate attached to the protected identifier resolves to Jesse A. Carvalho rather than Lawrence F. Rossi and was rejected.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 662 to resolve Lawrence F. Rossi's identifier conflict and pre-OSS affiliation.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"348e5eb8-7baf-53a9-b1d1-e2811c2ffd32","identity_status":"confirmed","identity_evidence":"The official Army bulk record agrees on Thomas G. Rossi's exact name and nonshared protected identifier.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Inspect Box 662 for Thomas G. Rossi's pre-Army occupation and Army-to-OSS sequence.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"daaa336d-552e-5404-83c1-f72b6bf90304","identity_status":"unresolved","identity_evidence":"The distinctive full name did not produce an authoritative OSS-linked biography or employer chronology in accessible sources.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Inspect Box 662 for Harold T. Rossman's identity, Army chronology and pre-OSS affiliation.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"}
+  ],
+  "research_attempts": [
+    {"key":"e-p-ross-b822","person_id":"49a4a27d-2da8-5150-90b4-7f6d0000b17f","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 401; E P Ross; P-1; exact initials and variants; OSS, CIA, NARA, employer, occupation, directory and archival sources; Box 661","query_variant_type":"staged_identity_employment_archival_protocol_batch_822","started_at":"2026-10-15T17:00:00-04:00","completed_at":"2026-10-15T19:30:00-04:00","outcome":"no_result","sources_reviewed":7,"candidate_sources_rejected":12,"rejection_reasons":"Initials-only namesakes lacked full-name, grade, OSS, archival or chronological corroboration.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 661 for the full name and civilian chronology.","attempt_number":1,"research_agent_version":"before-oss-b822-v1"},
+    {"key":"edward-j-ross-b822","person_id":"d7e8bdeb-cad6-5b23-8d33-3e6fdbf37e30","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 401; Edward J Ross; T-5; exact-name OSS, CIA, NARA, Army, employer, occupation, obituary, directory and archival sources; Box 661","query_variant_type":"staged_identity_employment_archival_protocol_batch_822","started_at":"2026-10-15T17:00:00-04:00","completed_at":"2026-10-15T19:30:00-04:00","outcome":"no_result","sources_reviewed":8,"candidate_sources_rejected":14,"rejection_reasons":"Common-name military and obituary results lacked two corroborating identifiers beyond the name.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 661 for identity and pre-OSS affiliation.","attempt_number":1,"research_agent_version":"before-oss-b822-v1"},
+    {"key":"harlow-n-ross-b822","person_id":"91711b75-29f9-5a40-b3d6-557168ed4aaf","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 401; Harlow N Ross; 1/SGT; exact-name OSS, CIA, NARA, Army, employer, census, obituary and archival sources; Box 661","query_variant_type":"staged_identity_employment_archival_protocol_batch_822","started_at":"2026-10-15T17:00:00-04:00","completed_at":"2026-10-15T19:30:00-04:00","outcome":"candidate_rejected","sources_reviewed":9,"candidate_sources_rejected":6,"rejection_reasons":"A Minnesota census-like result supplied neither an OSS link, matching rank nor protected identifier.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 661 for identity and civilian chronology.","attempt_number":1,"research_agent_version":"before-oss-b822-v1"},
+    {"key":"henry-h-ross-b822","person_id":"4bfed8ea-9c2c-5ae3-b320-c368aa4c69ba","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 401; Henry H Ross; PVT; protected identifier; exact-name OSS, CIA, NARA, Army, employer, occupation and archival sources; Box 661","query_variant_type":"staged_identity_employment_archival_protocol_batch_822","started_at":"2026-10-15T17:00:00-04:00","completed_at":"2026-10-15T19:30:00-04:00","outcome":"source_reviewed","sources_reviewed":9,"candidate_sources_rejected":11,"rejection_reasons":"Namesake results lacked the protected-identifier bridge; Army occupation code 993 was not treated as a named employer.","research_notes":"The official Army match confirms identity and entry chronology only; no reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 661 for the pre-Army occupation and OSS transfer.","attempt_number":1,"research_agent_version":"before-oss-b822-v1"},
+    {"key":"james-e-ross-b822","person_id":"d54aba0a-9afc-52e9-88e8-fe2a2d9faf7f","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 401; James E Ross; PFC MC; exact-name OSS, CIA, NARA, Marine Corps, employer, occupation and archival sources; Box 661","query_variant_type":"staged_identity_employment_archival_protocol_batch_822","started_at":"2026-10-15T17:00:00-04:00","completed_at":"2026-10-15T19:30:00-04:00","outcome":"no_result","sources_reviewed":8,"candidate_sources_rejected":15,"rejection_reasons":"Common-name Marine and military results lacked OSS, box, identifier or civilian-chronology corroboration.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 661 for Marine identity and pre-OSS chronology.","attempt_number":1,"research_agent_version":"before-oss-b822-v1"},
+    {"key":"lonella-b-ross-b822","person_id":"f750af6c-8824-5387-ac13-af8b78833a73","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 401; Lonella B Ross; CAF-4; exact-name OSS, CIA, NARA, employer, occupation, obituary, directory and archival sources; Box 661","query_variant_type":"staged_identity_employment_archival_protocol_batch_822","started_at":"2026-10-15T17:00:00-04:00","completed_at":"2026-10-15T19:30:00-04:00","outcome":"no_result","sources_reviewed":8,"candidate_sources_rejected":3,"rejection_reasons":"No result established an OSS-linked identity or named pre-service employer.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 661 for the civilian appointment and prior employer.","attempt_number":1,"research_agent_version":"before-oss-b822-v1"},
+    {"key":"martin-b-ross-b822","person_id":"d9371bd0-8175-53dc-b7c2-7a492464e59b","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 401; Martin B Ross; CPL; exact-name OSS, CIA, NARA, Army, employer, occupation, obituary and archival sources; Box 661","query_variant_type":"staged_identity_employment_archival_protocol_batch_822","started_at":"2026-10-15T17:00:00-04:00","completed_at":"2026-10-15T19:30:00-04:00","outcome":"no_result","sources_reviewed":8,"candidate_sources_rejected":13,"rejection_reasons":"Common-name military and obituary results lacked two corroborating identifiers beyond the name.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 661 for identity and pre-OSS chronology.","attempt_number":1,"research_agent_version":"before-oss-b822-v1"},
+    {"key":"michael-j-ross-b822","person_id":"3109dbb0-00d4-5875-803a-0e7304130404","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 401; Michael J Ross; CPL; protected identifier; exact-name OSS, CIA, NARA, Army, employer, occupation and archival sources; Box 661","query_variant_type":"staged_identity_employment_archival_protocol_batch_822","started_at":"2026-10-15T17:00:00-04:00","completed_at":"2026-10-15T19:30:00-04:00","outcome":"source_reviewed","sources_reviewed":9,"candidate_sources_rejected":13,"rejection_reasons":"Namesake results lacked the protected-identifier bridge; Army occupation code 993 was not treated as a named employer.","research_notes":"The official Army match confirms identity and entry chronology only; no reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 661 for the pre-Army occupation and OSS transfer.","attempt_number":1,"research_agent_version":"before-oss-b822-v1"},
+    {"key":"muriel-i-ross-b822","person_id":"d1e9d23f-1bf8-5d7e-a16a-e2791fdf19aa","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 401; Muriel I Ross; exact-name OSS, CIA, NARA, employer, occupation, obituary, directory and archival sources; Box 661","query_variant_type":"staged_identity_employment_archival_protocol_batch_822","started_at":"2026-10-15T17:00:00-04:00","completed_at":"2026-10-15T19:30:00-04:00","outcome":"no_result","sources_reviewed":8,"candidate_sources_rejected":9,"rejection_reasons":"Namesake and genealogical results lacked OSS, archival and employment-chronology corroboration.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 661 for identity, status and pre-OSS affiliation.","attempt_number":1,"research_agent_version":"before-oss-b822-v1"},
+    {"key":"murray-ross-b822","person_id":"1b2f94b4-925f-5cec-8acf-2f13b6ccc754","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 401; Captain Murray Ross; exact-name OSS, CIA, NARA, Army, Brooklyn College, economist, employer and archival sources; Box 661","query_variant_type":"staged_identity_employment_archival_protocol_batch_822","started_at":"2026-10-15T17:00:00-04:00","completed_at":"2026-10-15T19:30:00-04:00","outcome":"candidate_rejected","sources_reviewed":12,"candidate_sources_rejected":8,"rejection_reasons":"Brooklyn College and World Bank records document an economist named Murray Ross but do not link him to the indexed OSS captain.","research_notes":"The economist lead remains unassigned. No reliable pre-OSS employer has yet been identified for the indexed person.","next_action":"Inspect Box 661 to establish identity before reconsidering the economist lead.","attempt_number":1,"research_agent_version":"before-oss-b822-v1"},
+    {"key":"otto-h-ross-b822","person_id":"c75ad316-c527-5880-8d1e-71c3e992ac58","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 401; Otto H Ross; T SGT; protected identifier; exact-name OSS, CIA, NARA, Army, employer, occupation and archival sources; Box 661","query_variant_type":"staged_identity_employment_archival_protocol_batch_822","started_at":"2026-10-15T17:00:00-04:00","completed_at":"2026-10-15T19:30:00-04:00","outcome":"source_reviewed","sources_reviewed":9,"candidate_sources_rejected":7,"rejection_reasons":"Namesake results lacked the protected-identifier bridge; Army occupation code 127 was not treated as a named employer.","research_notes":"The official Army match confirms identity and entry chronology only; no reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 661 for the pre-Army occupation and OSS transfer.","attempt_number":1,"research_agent_version":"before-oss-b822-v1"},
+    {"key":"robert-t-ross-b822","person_id":"1a4f7539-3aef-53fd-9511-da68ddf74797","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 401; Robert T Ross; S SGT; protected identifier; exact-name OSS, CIA, NARA, Army, employer, occupation and archival sources; Box 661","query_variant_type":"staged_identity_employment_archival_protocol_batch_822","started_at":"2026-10-15T17:00:00-04:00","completed_at":"2026-10-15T19:30:00-04:00","outcome":"source_reviewed","sources_reviewed":9,"candidate_sources_rejected":17,"rejection_reasons":"Common-name results lacked the protected-identifier bridge; Army occupation code 175 was not treated as a named employer.","research_notes":"The official Army match confirms identity and entry chronology only; no reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 661 for the pre-Army occupation and OSS transfer.","attempt_number":1,"research_agent_version":"before-oss-b822-v1"},
+    {"key":"stanley-ross-b822","person_id":"a8391786-a95c-5114-83c8-6448ee75966e","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 401; Stanley Ross; PVT; exact-name OSS, CIA, NARA, Army, employer, occupation, obituary and archival sources; Box 661","query_variant_type":"staged_identity_employment_archival_protocol_batch_822","started_at":"2026-10-15T17:00:00-04:00","completed_at":"2026-10-15T19:30:00-04:00","outcome":"no_result","sources_reviewed":8,"candidate_sources_rejected":18,"rejection_reasons":"Common-name results and postwar namesakes lacked middle-name, identifier, OSS and temporal corroboration.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 661 for the full identity and pre-OSS chronology.","attempt_number":1,"research_agent_version":"before-oss-b822-v1"},
+    {"key":"victor-h-ross-b822","person_id":"58d75375-cb03-5af7-b4a7-6af19e6e6989","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 401; Victor H Ross; CPL; protected identifier; exact-name OSS, CIA, NARA, Army, employer, occupation and archival sources; Box 661","query_variant_type":"staged_identity_employment_archival_protocol_batch_822","started_at":"2026-10-15T17:00:00-04:00","completed_at":"2026-10-15T19:30:00-04:00","outcome":"source_reviewed","sources_reviewed":9,"candidate_sources_rejected":10,"rejection_reasons":"Namesake results lacked the protected-identifier bridge; Army occupation code 097 was not treated as a named employer.","research_notes":"The official Army match confirms identity and entry chronology only; no reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 661 for the pre-Army occupation and OSS transfer.","attempt_number":1,"research_agent_version":"before-oss-b822-v1"},
+    {"key":"walter-m-ross-b822","person_id":"95a2c567-2004-5899-8028-832670ec9bff","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 401; Lieutenant Colonel Walter M Ross; exact-name OSS, CIA, NARA, Army, officer roster, employer, obituary and archival sources; Box 661","query_variant_type":"staged_identity_employment_archival_protocol_batch_822","started_at":"2026-10-15T17:00:00-04:00","completed_at":"2026-10-15T19:30:00-04:00","outcome":"no_result","sources_reviewed":10,"candidate_sources_rejected":12,"rejection_reasons":"Officer and professional namesakes lacked a matching middle initial, OSS linkage and service identifier.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 661 for branch, identity and immediate pre-OSS assignment.","attempt_number":1,"research_agent_version":"before-oss-b822-v1"},
+    {"key":"peter-s-rossello-b822","person_id":"5b0bb232-ad3c-5907-ae88-ae5fdb4cdf5c","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 401; Peter S Rossello; PVT; protected identifier; exact-name OSS, CIA, NARA, Army, employer, occupation and archival sources; Box 662","query_variant_type":"staged_identity_employment_archival_protocol_batch_822","started_at":"2026-10-15T17:00:00-04:00","completed_at":"2026-10-15T19:30:00-04:00","outcome":"source_reviewed","sources_reviewed":9,"candidate_sources_rejected":4,"rejection_reasons":"Namesake results lacked the protected-identifier bridge; Army occupation code 432 was not treated as a named employer.","research_notes":"The official Army match confirms identity and entry chronology only; no reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 662 for the pre-Army occupation and OSS transfer.","attempt_number":1,"research_agent_version":"before-oss-b822-v1"},
+    {"key":"clarence-b-rosser-jr-b822","person_id":"d2200214-683e-55ec-9172-d3a8d6d1aabb","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 401; Clarence B Rosser Jr; 2D LT; exact-name OSS, CIA, NARA, Army officer, employer, obituary and archival sources; Box 662","query_variant_type":"staged_identity_employment_archival_protocol_batch_822","started_at":"2026-10-15T17:00:00-04:00","completed_at":"2026-10-15T19:30:00-04:00","outcome":"no_result","sources_reviewed":9,"candidate_sources_rejected":7,"rejection_reasons":"Rosser namesakes and officer results lacked exact middle initial, junior suffix, OSS and identifier corroboration.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 662 for officer identity and pre-OSS chronology.","attempt_number":1,"research_agent_version":"before-oss-b822-v1"},
+    {"key":"garnet-l-rosset-b822","person_id":"2e9b8aa5-4ed1-5673-982e-69828c9d2b72","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 401; Garnet L Rosset; exact-name OSS, CIA, NARA, employer, occupation, obituary, directory and archival sources; Box 662","query_variant_type":"staged_identity_employment_archival_protocol_batch_822","started_at":"2026-10-15T17:00:00-04:00","completed_at":"2026-10-15T19:30:00-04:00","outcome":"no_result","sources_reviewed":7,"candidate_sources_rejected":2,"rejection_reasons":"No result established an OSS-linked identity or pre-service chronology.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 662 for identity, status and prior affiliation.","attempt_number":1,"research_agent_version":"before-oss-b822-v1"},
+    {"key":"guiseppe-rossetti-b822","person_id":"ac8aecbf-2feb-5de1-a40f-4e664b8ee757","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 401; Guiseppe Rossetti and Giuseppe Rossetti search alias; exact-name OSS, CIA, NARA, foreign personnel, employer and archival sources; Box 662","query_variant_type":"staged_identity_employment_archival_protocol_batch_822","started_at":"2026-10-15T17:00:00-04:00","completed_at":"2026-10-15T19:30:00-04:00","outcome":"candidate_rejected","sources_reviewed":9,"candidate_sources_rejected":11,"rejection_reasons":"Italian sports and biographical namesakes lacked OSS, wartime, box and identifier corroboration.","research_notes":"The printed spelling remains authoritative; Giuseppe is retained only as a search alias. No reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 662 for full identity, nationality and prior affiliation.","attempt_number":1,"research_agent_version":"before-oss-b822-v1"},
+    {"key":"stephen-o-rossetti-b822","person_id":"30e03df1-a3df-52af-b43a-333c3dc1355a","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 401; Major Stephen O Rossetti; exact-name OSS, CIA, NARA, Army, VA memorial, employer, obituary and archival sources; Box 662","query_variant_type":"staged_identity_employment_archival_protocol_batch_822","started_at":"2026-10-15T17:00:00-04:00","completed_at":"2026-10-15T19:30:00-04:00","outcome":"candidate_found","sources_reviewed":10,"candidate_sources_rejected":6,"rejection_reasons":"Results for Stephen O. Rossetti Jr. were rejected as a later-generation namesake; postwar records did not establish pre-OSS employment.","research_notes":"The official VA memorial is a probable identity match based on exact distinctive name and compatible Army rank, but it supplies no pre-OSS employer.","next_action":"Inspect Box 662 to confirm identity and recover the immediate pre-OSS chronology.","attempt_number":1,"research_agent_version":"before-oss-b822-v1"},
+    {"key":"lawrence-f-rossi-b822","person_id":"61c52c2c-4105-55b5-ba1c-a0b764357bb0","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 401; Lawrence F Rossi; T-5; protected identifier; exact-name OSS, CIA, NARA, Army, employer and archival sources; Box 662","query_variant_type":"staged_identity_employment_archival_protocol_batch_822","started_at":"2026-10-15T17:00:00-04:00","completed_at":"2026-10-15T19:30:00-04:00","outcome":"candidate_rejected","sources_reviewed":9,"candidate_sources_rejected":12,"rejection_reasons":"The protected-identifier Army candidate names Jesse A. Carvalho, not Lawrence F. Rossi; other namesakes lacked corroboration.","research_notes":"The incompatible Army record was explicitly rejected. No reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 662 to resolve the identifier conflict and civilian chronology.","attempt_number":1,"research_agent_version":"before-oss-b822-v1"},
+    {"key":"thomas-g-rossi-b822","person_id":"348e5eb8-7baf-53a9-b1d1-e2811c2ffd32","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 401; Thomas G Rossi; T SGT; protected identifier; exact-name OSS, CIA, NARA, Army, employer, occupation and archival sources; Box 662","query_variant_type":"staged_identity_employment_archival_protocol_batch_822","started_at":"2026-10-15T17:00:00-04:00","completed_at":"2026-10-15T19:30:00-04:00","outcome":"source_reviewed","sources_reviewed":9,"candidate_sources_rejected":10,"rejection_reasons":"Namesake results lacked the protected-identifier bridge; Army occupation code 175 was not treated as a named employer.","research_notes":"The official Army match confirms identity and entry chronology only; no reliable pre-OSS employer has yet been identified.","next_action":"Inspect Box 662 for the pre-Army occupation and OSS transfer.","attempt_number":1,"research_agent_version":"before-oss-b822-v1"},
+    {"key":"harold-t-rossman-b822","person_id":"daaa336d-552e-5404-83c1-f72b6bf90304","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 401; Harold T Rossman; SGT; exact-name OSS, CIA, NARA, Army, employer, occupation, obituary and archival sources; Box 662","query_variant_type":"staged_identity_employment_archival_protocol_batch_822","started_at":"2026-10-15T17:00:00-04:00","completed_at":"2026-10-15T19:30:00-04:00","outcome":"no_result","sources_reviewed":8,"candidate_sources_rejected":5,"rejection_reasons":"Exact-name and obituary results lacked OSS, rank, identifier and pre-service chronology corroboration.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Inspect Box 662 for identity, Army chronology and pre-OSS affiliation.","attempt_number":1,"research_agent_version":"before-oss-b822-v1"}
+  ]
+}
