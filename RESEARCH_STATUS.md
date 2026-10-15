@@ -1,5 +1,38 @@
 # Research status
 
+Batch 823 completed PDF page 401, rows 24-46, from **Otto Rossmeyer** through
+the printed **Saymour A Rottenberg**, preserving all 23 printed rows as
+separate source records linked to 23 active person entities. The printed page
+was visually checked at 300 dpi. All 23 people have saved terminal research
+outcomes. Official Army data confirms **Otto Rossmeyer**, **Joseph A Rost**,
+**Walter Rothschild**, and **Paul Rothstein** for identity and Army-entry
+chronology only; coded occupations were not published as employers. A 1937
+institutional thesis supports a qualified student affiliation between
+**Harold R Rossmiller** and the University of Nebraska medical school. Two
+contemporary Foreign Service journals establish **Robert Rossow Jr.** as a
+Foreign Service officer from 1940 and at Panama in 1943, modeled as a
+government assignment rather than an immediate predecessor to OSS. Three
+incompatible Army candidates were rejected. The printed **Saymour A
+Rottenberg** remains separate from **Seymour A Rattenberg** and is marked as a
+conflicting case pending comparison of the Box 663 files. NARA was used in
+dry-run mode; CIA and Library of Congress access limitations were not treated
+as negative historical evidence.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,938** active
+people. Research-attempt coverage is **11,909/23,938 (49.7494%)**;
+verified-employer coverage is **386/23,938 (1.6125%)**;
+verified-affiliation coverage is **854/23,938 (3.5675%)**; archival-review
+coverage is **10,373/23,938 (43.3328%)**. There are **12,024** `not_started`
+people, **553** possible-duplicate groups, and **404** conflicts. SQLite
+retains **23,355** attempts or plans and **7,411** claims: 1,532 confirmed,
+3,683 high, 1,645 medium, 202 low, 347 conflicting, and two unresolved. It has
+**6,223** citation records and **3,277** unique source documents. The public
+projection has **2,712** affiliations, **979** organizations, **4,998**
+sources, and **7,203** claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 402, row 1, **Maurice H
+Rottersmann**. See `research/batch-823-progress.md` for the source-by-source
+audit.
+
 Batch 822 completed PDF page 401, rows 1-23, from **E P Ross** through
 **Harold T Rossman**, preserving all 23 printed rows as separate source
 records linked to 23 active person entities. The printed page was visually
