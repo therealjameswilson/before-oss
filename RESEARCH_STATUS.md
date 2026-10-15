@@ -1,5 +1,36 @@
 # Research status
 
+Batch 816 completed PDF page 398, rows 1-23, from **Camden L Rogers** through
+**William G Rogers**, preserving all 23 printed rows as separate source records
+linked to 23 active person entities. The printed page was visually checked at
+300 dpi. All 23 people have saved terminal research outcomes. Four exact
+official Army identifier matches were accepted for identity only; coded Army
+occupations were not published as employers. The candidates tied to **George A
+Rogers Jr.** and **Robert M Rogers** carry matching private identifiers but name
+different people, so both remain explicit public conflicts with no merge. The
+two **Martin R Rogers** rows remain separate people because the index records
+different ranks and no direct evidence supports a merge. Plausible employment
+leads for **Stanwood N Rogers** and **William W Rogers** remain private and
+unassigned because the accessible sources lack the required identifier,
+military chronology, and direct OSS bridge. NARA was used in dry-run mode; the
+CIA adapter's access limitation and a Library of Congress timeout were not
+treated as negative historical evidence.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,938** active
+people. Research-attempt coverage is **11,751/23,938 (49.0893%)**;
+verified-employer coverage is **377/23,938 (1.5749%)**;
+verified-affiliation coverage is **839/23,938 (3.5049%)**; archival-review
+coverage is **10,215/23,938 (42.6727%)**. There are **12,182** `not_started`
+people, **553** possible-duplicate groups, and **400** conflicts. SQLite
+retains **22,921** attempts or plans and **7,311** claims: 1,482 confirmed,
+3,644 high, 1,637 medium, 202 low, 344 conflicting, and two unresolved. It has
+**6,174** citation records and **3,236** unique source documents. The public
+projection has **2,680** affiliations, **960** organizations, **4,949**
+sources, and **7,103** claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 398, row 24, **Howard B
+Rogers, Jr.** See `research/batch-816-progress.md` for the source-by-source
+audit.
+
 Batch 815 completed PDF page 397, rows 24-46, from **Elizabeth A Rodnick**
 through **Bruce Rogers**, preserving all 23 printed rows as separate source
 records linked to 23 active person entities. The printed page was visually
