@@ -82,11 +82,22 @@ Robertson.
 
 ## Publication
 
-- Research commit: pending.
+- Research commit:
+  `ee3b48416f8c137333dfe749d4d2d602e5edd8e9` (`Publish OSS research batch
+  810`).
 - Public site: <https://therealjameswilson.github.io/before-oss/>.
-- GitHub Pages deployment: pending.
-- GitHub test workflow: pending.
-- Immutable HTTPS verification: pending.
+- GitHub Pages run
+  [38767503422](https://github.com/therealjameswilson/before-oss/actions/runs/38767503422)
+  succeeded. Its build completed in 1 minute 46 seconds and its deploy job in
+  43 seconds.
+- Test run
+  [38767503393](https://github.com/therealjameswilson/before-oss/actions/runs/38767503393)
+  succeeded in 5 minutes 16 seconds, including the bounded release browser
+  suite and the private-identifier redaction audit.
+- Immutable HTTPS verification against the research commit passed for 67
+  assets (111,693,465 bytes), all eight core routes, 33 source-register pages,
+  and all 23 Batch 810 person profiles. The deployed manifest SHA-256 was
+  `2c2af42e81ed282e6d3578410908887476d13ed625ec41006ea85eed9f105e81`.
 
 The full project remains unfinished: 12,316 active person entities remain
 `not_started`. Research resumes at page 395, row 24, Elizabeth A Robertson.
