@@ -77,8 +77,18 @@ outcomes. The next indexed boundary is page 393, row 24, Ove A Rise.
 
 ## Publication
 
-Publication is pending the final commit, GitHub Actions checks, Pages
-deployment, and immutable HTTPS verification.
+- Published from commit
+  `55620aa29b0bd096fd6ca5746d9f82555ba3d273` to
+  <https://therealjameswilson.github.io/before-oss/>.
+- GitHub Pages deployment run 38749605222 completed successfully:
+  <https://github.com/therealjameswilson/before-oss/actions/runs/38749605222>.
+- GitHub Actions test run 38749605331 completed successfully in 5m03s:
+  <https://github.com/therealjameswilson/before-oss/actions/runs/38749605331>.
+- Immutable HTTPS verification matched all 67 manifest assets byte-for-byte
+  (111,446,297 bytes; manifest SHA-256
+  `e69abbcd210e4ba1582fa9caef048f210a71c36a21d58c3edd116e5904227e1e`),
+  rendered all eight core routes, all 33 source-register pages, and all 23
+  Batch 806 direct profile URLs.
 
 The full project remains unfinished: 12,408 active person entities remain
 `not_started`. Research resumes at page 393, row 24, Ove A Rise.
