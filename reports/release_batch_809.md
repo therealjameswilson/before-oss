@@ -81,8 +81,22 @@ outcomes. The next indexed boundary is page 395, row 1, Henry B Roberts.
 
 ## Publication
 
-Publication evidence will be added after the research commit, GitHub Pages
-deployment, CI run, and immutable HTTPS verification all complete.
+- Research commit:
+  `0370f994d26b852d49fd43b241d8529835ff1bad` (`Publish OSS research batch
+  809`).
+- Public site: <https://therealjameswilson.github.io/before-oss/>.
+- GitHub Pages run
+  [38763821154](https://github.com/therealjameswilson/before-oss/actions/runs/38763821154)
+  succeeded. Its build completed in 1 minute 30 seconds and its deploy job in
+  33 seconds.
+- Test run
+  [38763821107](https://github.com/therealjameswilson/before-oss/actions/runs/38763821107)
+  succeeded in 4 minutes 18 seconds, including the bounded release browser
+  suite and the private-identifier redaction audit.
+- Immutable HTTPS verification against the research commit passed for 67
+  assets (111,648,118 bytes), all eight core routes, 33 source-register pages,
+  and all 23 Batch 809 person profiles. The deployed manifest SHA-256 was
+  `aabc428393dce2598a7b6d747d7bf2d69c5a494c60a94c9710b8833ee2af6129`.
 
 The full project remains unfinished: 12,339 active person entities remain
 `not_started`. Research resumes at page 395, row 1, Henry B Roberts.
