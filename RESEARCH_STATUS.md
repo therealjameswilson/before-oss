@@ -1,5 +1,36 @@
 # Research status
 
+Batch 818 completed PDF page 399, rows 1-23, from **Howard E Roman** through
+**Archibald B Roosevelt**, preserving all 23 printed rows as separate source
+records linked to 23 active person entities. The printed page was visually
+checked at 300 dpi. All 23 people have saved terminal research outcomes.
+Cornell, OCLC, scholarly, and NARA evidence documents **Serafino Romualdi** at
+the Office of the Coordinator of Inter-American Affairs immediately before OSS
+and at the International Ladies' Garment Workers' Union as his last civilian
+employer before intervening wartime roles. A contemporary newspaper establishes
+**Kenneth Romney Jr.**'s pre-service radio occupation but does not name his
+employer, so no network is inferred. Nine Army identifier matches were accepted
+for identity only; three mismatching candidates remain explicit public
+conflicts. The printed `2D LT` variant now classifies transparently as second
+lieutenant while preserving the raw rank. NARA was used in dry-run mode; CIA
+and Library of Congress access limitations were not treated as negative
+historical evidence.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,938** active
+people. Research-attempt coverage is **11,796/23,938 (49.2773%)**;
+verified-employer coverage is **380/23,938 (1.5874%)**;
+verified-affiliation coverage is **842/23,938 (3.5174%)**; archival-review
+coverage is **10,260/23,938 (42.8607%)**. There are **12,137** `not_started`
+people, **553** possible-duplicate groups, and **403** conflicts. SQLite
+retains **23,020** attempts or plans and **7,348** claims: 1,502 confirmed,
+3,658 high, 1,637 medium, 202 low, 347 conflicting, and two unresolved. It has
+**6,187** citation records and **3,247** unique source documents. The public
+projection has **2,689** affiliations, **967** organizations, **4,962**
+sources, and **7,140** claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 399, row 24, **James F
+Roosevelt**. See `research/batch-818-progress.md` for the source-by-source
+audit.
+
 Batch 817 completed PDF page 398, rows 24-46, from **Howard B Rogers Jr.**
 through **Albert G Roloff**, preserving all 23 printed rows as separate source
 records linked to 23 active person entities. The printed page was visually

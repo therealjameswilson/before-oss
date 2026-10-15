@@ -207,7 +207,11 @@ def normalize_rank(value: str | None) -> str | None:
         return None
     normalized = value.upper().replace(".", "")
     normalized = SPACE_RE.sub(" ", normalized).strip()
-    normalized = normalized.replace("1STLT", "1ST LT").replace("2NDLT", "2ND LT")
+    normalized = (
+        normalized.replace("1STLT", "1ST LT")
+        .replace("2NDLT", "2ND LT")
+        .replace("2D LT", "2ND LT")
+    )
     normalized = normalized.replace("LTCOL", "LT COL")
     # The source index uses the uncommon printed abbreviation ``Cpt`` twice.
     # Preserve that spelling in ``rank_raw`` while normalizing it to the same
