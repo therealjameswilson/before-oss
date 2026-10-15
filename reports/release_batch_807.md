@@ -79,9 +79,18 @@ outcomes. The next indexed boundary is page 394, row 1, Mildred B Rivkin.
 
 ## Publication
 
-Publication verification is pending. This section will be updated only after
-the immutable commit has deployed and its manifest, core routes, source pages,
-and all 23 Batch 807 profile URLs have been checked over HTTPS.
+- Published from commit
+  `a5b4b01d9c905de3d2afeafeef29b3f077cfa827` to
+  <https://therealjameswilson.github.io/before-oss/>.
+- GitHub Pages deployment run 38755421866 completed successfully:
+  <https://github.com/therealjameswilson/before-oss/actions/runs/38755421866>.
+- GitHub Actions test run 38755421957 completed successfully in 5m02s:
+  <https://github.com/therealjameswilson/before-oss/actions/runs/38755421957>.
+- Immutable HTTPS verification matched all 67 manifest assets byte-for-byte
+  (111,529,147 bytes; manifest SHA-256
+  `fe0e0deb836e23e2acdeb03fa6d3e740951ef7ee9189059e600e579bbef8bb5d`),
+  rendered all eight core routes, all 33 source-register pages, and all 23
+  Batch 807 direct profile URLs.
 
 The full project remains unfinished: 12,385 active person entities remain
 `not_started`. Research resumes at page 394, row 1, Mildred B Rivkin.
