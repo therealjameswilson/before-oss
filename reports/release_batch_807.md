@@ -7,7 +7,7 @@ Date: 2026-10-15 America/New_York
 Batch 807 covers PDF page 393, rows 24-46, Ove A Rise through Fred R
 Riveglia. All 23 printed rows remain preserved as source records and map to 23
 active person entities. All 23 profiles have terminal attempted research
-outcomes. The next indexed boundary is page 394, row 1, Mildred B Rivkin.
+outcomes. The next indexed boundary is page 394, row 1, Antolino Rivera.
 
 ## Research outcome
 
@@ -93,4 +93,4 @@ outcomes. The next indexed boundary is page 394, row 1, Mildred B Rivkin.
   Batch 807 direct profile URLs.
 
 The full project remains unfinished: 12,385 active person entities remain
-`not_started`. Research resumes at page 394, row 1, Mildred B Rivkin.
+`not_started`. Research resumes at page 394, row 1, Antolino Rivera.

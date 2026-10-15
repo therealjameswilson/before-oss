@@ -8,7 +8,7 @@ Batch 807 covers PDF page 393, rows 24-46, Ove A Rise through Fred R
 Riveglia. All 23 printed rows remain preserved as immutable source records and
 map to 23 active person entities. Page 393 was inspected against a 300 dpi
 render before research. The next unresearched boundary is PDF page 394, row 1,
-Mildred B Rivkin.
+Antolino Rivera.
 
 The clipped notes `British A`, `extract fr`, `Record`, `photogra`, and `also
 1st` remain intact. None was silently expanded into a nationality, branch,
@@ -85,6 +85,6 @@ stored in
 `research/evidence-page393-rise-riveglia-review_batch-807_2026-10-15.json`.
 Its import was replayed with identical counts, confirming idempotent outcomes.
 
-Resume new-person research at PDF page 394, row 1, Mildred B Rivkin. Full-index
+Resume new-person research at PDF page 394, row 1, Antolino Rivera. Full-index
 historical research remains unfinished; 12,385 active people are still
 `not_started`.
