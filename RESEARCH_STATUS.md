@@ -1,5 +1,37 @@
 # Research status
 
+Batch 820 completed PDF page 400, rows 1-23, from **Ronald E Rosen** through
+**Alvin Rosenthal**, preserving all 23 printed rows as separate source records
+linked to 23 active person entities. The printed page was visually checked at
+300 dpi. All 23 people have saved terminal research outcomes. USC and Princeton
+institutional memorials document **James N Rosenau** as a University of
+Wisconsin student who entered OSS through the Army as a cryptographer.
+Official Army data plus Harvard and Smithsonian biographies confirm **John M
+Rosenfield III**, also documented as John Max Rosenfield; his University of
+Texas study is separated from his qualified Military Intelligence assignment.
+A contemporary authorized OSS account and an RG 226-based scholarly history
+support **Alfred Rosenhal** as Alfred Rosenthal and establish his immediate
+Army reconnaissance-battalion transfer while preserving the index spelling.
+Four exact Army identifier matches were accepted for identity only, two
+incompatible candidates were rejected, and coded occupations were not
+published as employers. NARA was used in dry-run mode; CIA and Library of
+Congress access limitations were not treated as negative historical evidence.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,938** active
+people. Research-attempt coverage is **11,841/23,938 (49.4653%)**;
+verified-employer coverage is **383/23,938 (1.6000%)**;
+verified-affiliation coverage is **850/23,938 (3.5508%)**; archival-review
+coverage is **10,305/23,938 (43.0487%)**. There are **12,092** `not_started`
+people, **553** possible-duplicate groups, and **403** conflicts. SQLite
+retains **23,142** attempts or plans and **7,377** claims: 1,514 confirmed,
+3,673 high, 1,639 medium, 202 low, 347 conflicting, and two unresolved. It has
+**6,205** citation records and **3,263** unique source documents. The public
+projection has **2,703** affiliations, **976** organizations, **4,980**
+sources, and **7,169** claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 400, row 24, **Franz W
+Rosenthal**. See `research/batch-820-progress.md` for the source-by-source
+audit.
+
 Batch 819 completed PDF page 399, rows 24-46, from **James F Roosevelt**
 through **David V Rosen**, preserving all 23 printed rows as separate source
 records linked to 23 active person entities. The printed page was visually
