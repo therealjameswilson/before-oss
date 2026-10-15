@@ -81,8 +81,18 @@ outcomes. The next indexed boundary is page 394, row 24, Warren D Robbins.
 
 ## Publication
 
-Publication evidence will be added after the research commit, GitHub Pages
-deployment, CI run, and immutable HTTPS verification all complete.
+- Published from commit
+  `8a47a50dc49dd9087a0db841d1d8108153dbbee8` to
+  <https://therealjameswilson.github.io/before-oss/>.
+- GitHub Pages deployment run 38759466204 completed successfully:
+  <https://github.com/therealjameswilson/before-oss/actions/runs/38759466204>.
+- GitHub Actions test run 38759466283 completed successfully in 4m51s:
+  <https://github.com/therealjameswilson/before-oss/actions/runs/38759466283>.
+- Immutable HTTPS verification matched all 67 manifest assets byte-for-byte
+  (111,622,119 bytes; manifest SHA-256
+  `2d420740b334638e01b0ecefd1dfee950a5768df86d311cd22cb388e265cc6f4`),
+  rendered all eight core routes, all 33 source-register pages, and all 23
+  Batch 808 direct profile URLs.
 
 The full project remains unfinished: 12,362 active person entities remain
 `not_started`. Research resumes at page 394, row 24, Warren D Robbins.
