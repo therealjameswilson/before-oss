@@ -1,5 +1,35 @@
 # Research status
 
+Batch 817 completed PDF page 398, rows 24-46, from **Howard B Rogers Jr.**
+through **Albert G Roloff**, preserving all 23 printed rows as separate source
+records linked to 23 active person entities. The printed page was visually
+checked at 300 dpi. All 23 people have saved terminal research outcomes.
+Authoritative Norwegian and Denver records identify **Sverre B Rogne** as a
+Norwegian merchant seaman aboard M/S Pleasantville and later a member of
+Company C, 99th Infantry Battalion (Separate); the vessel work is his latest
+documented civilian work before Army service, not a proven immediate pre-OSS
+affiliation. Contemporary scholarly records document **George F Rohrlich** at
+the Brookings Institution and as a Sweet Briar College instructor during
+1942-1944, but the immediate OSS sequence remains unresolved. Twelve official
+Army identifier matches were accepted for identity only, and coded Army
+occupations were not published as employers. NARA was used in dry-run mode;
+the CIA adapter's access limitation and a Library of Congress timeout were not
+treated as negative historical evidence.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,938** active
+people. Research-attempt coverage is **11,774/23,938 (49.1854%)**;
+verified-employer coverage is **379/23,938 (1.5833%)**;
+verified-affiliation coverage is **841/23,938 (3.5132%)**; archival-review
+coverage is **10,238/23,938 (42.7688%)**. There are **12,159** `not_started`
+people, **553** possible-duplicate groups, and **400** conflicts. SQLite
+retains **22,969** attempts or plans and **7,329** claims: 1,494 confirmed,
+3,650 high, 1,637 medium, 202 low, 344 conflicting, and two unresolved. It has
+**6,180** citation records and **3,241** unique source documents. The public
+projection has **2,684** affiliations, **962** organizations, **4,955**
+sources, and **7,121** claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 399, row 1, **Howard E
+Roman**. See `research/batch-817-progress.md` for the source-by-source audit.
+
 Batch 816 completed PDF page 398, rows 1-23, from **Camden L Rogers** through
 **William G Rogers**, preserving all 23 printed rows as separate source records
 linked to 23 active person entities. The printed page was visually checked at
