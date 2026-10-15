@@ -1,0 +1,331 @@
+{
+  "bundle_version": "before-oss-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 825 research review",
+  "sources": [
+    {
+      "key": "nara-index-b825",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 664-665",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 402, rows 24-46; visually checked against a 300 dpi render",
+      "access_date": "2026-10-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Original spelling and blank fields are preserved; full private service identifiers are excluded from public outputs."
+    },
+    {
+      "key": "army-bulk-b825",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; RG 64; ASNEF.FIN.DAT",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department; electronic conversion by National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2002",
+      "locator": "Official unrestricted bulk file; three accepted protected-identifier identities and three rejected conflicts; full identifiers withheld",
+      "access_date": "2026-10-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "rights_notes": "Used for identity resolution and Army-entry chronology only. Coded occupations are not named employers or proof of an immediate pre-OSS affiliation."
+    },
+    {
+      "key": "oss-royse-crete-b825",
+      "stable_url": "https://www.elia.org.gr/userfiles/pdf_archieve/1944%2011-1544%20Crete%2C%20Archanes%2C%20OSS%20Missions%2C%20Royce%2C%20British%2C%20German%20Morale%2C%20SOE%2C%20Plevris%2C%20%5B39%20pgs%5D%20226-210-WN7865%20%28Admin%29.pdf",
+      "archival_identifier": "RG 226 microfilm copy, 226-210-WN7865 (Admin)",
+      "title": "Projects - MO - Royse in Crete: Final Report",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "Hellenic Literary and Historical Archive",
+      "publication_record_date": "1944-11-15",
+      "locator": "Final report; career chronology page naming M. W. Royse and April 1942 Foreign Nationalities Branch entry",
+      "access_date": "2026-10-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "Declassified Records of the Office of Strategic Services",
+      "rights_notes": "Direct wartime OSS record used to establish identity and OSS chronology; OCR variants were checked in context."
+    },
+    {
+      "key": "oup-fwp-royse-b825",
+      "stable_url": "https://blog.oup.com/2017/08/federal-writers-project-oral-history/",
+      "title": "That someone else: finding a new oral history ancestor",
+      "author_creator": "Oxford University Press blog",
+      "repository_publisher": "Oxford University Press",
+      "publication_record_date": "2017-08",
+      "locator": "Discussion of the Federal Writers' Project leadership identifies Morton Royse as social-ethnic studies editor",
+      "access_date": "2026-10-15",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "OUPblog",
+      "rights_notes": "Used with the direct wartime OSS report to bridge the uncommon name and document an earlier prewar role."
+    },
+    {
+      "key": "loc-roye-photo-b825",
+      "stable_url": "https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/pp021034/pp021034.pdf",
+      "archival_identifier": "Library of Congress finding aid pp021034",
+      "title": "New York World-Telegram and the Sun Newspaper Photograph Collection, Biographical File, M to Z",
+      "author_creator": "Library of Congress, Prints and Photographs Division",
+      "repository_publisher": "Library of Congress",
+      "publication_record_date": "2025",
+      "locator": "Biographical file entry: Roye, Herbert F., Major--U.S.A.",
+      "access_date": "2026-10-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "New York World-Telegram and the Sun Newspaper Photograph Collection",
+      "rights_notes": "The finding aid confirms an Army Major of the same uncommon full name; it does not identify a pre-Army employer."
+    },
+    {
+      "key": "congress-roye-b825",
+      "stable_url": "https://www.congress.gov/88/crecb/1964/09/17/GPO-CRECB-1964-pt17-7-2.pdf",
+      "archival_identifier": "Congressional Record, 88th Congress, September 17, 1964, page 22335",
+      "title": "Congressional Record - House",
+      "author_creator": "United States Congress",
+      "repository_publisher": "Congress.gov",
+      "publication_record_date": "1964-09-17",
+      "locator": "Page 22335; Colonel Herbert F. Roye of Richmond, commander of the 5th Special Forces Group",
+      "access_date": "2026-10-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "Congressional Record",
+      "rights_notes": "Postwar source used only to corroborate the Army career and uncommon identity, not to reconstruct a pre-OSS employer."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "federal-writers-project-b825",
+      "canonical_name": "Federal Writers' Project",
+      "historical_name": "Federal Writers' Project",
+      "aliases": ["Federal Writers' Project of the Works Progress Administration", "FWP"],
+      "organization_type": "New Deal federal employment and cultural program",
+      "sector": "federal_government",
+      "country": "United States",
+      "active_dates": "1935-1943",
+      "normalization_notes": "The historical Federal Writers' Project name is preserved; it is not replaced with a later agency name."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "morton-royse-fwp-b825",
+      "person_id": "7235ed9e-6b23-5081-bcda-78b787ab7bd8",
+      "organization_key": "federal-writers-project-b825",
+      "organization_name_as_found": "Federal Writers' Project",
+      "role_title": "social-ethnic studies editor",
+      "occupation": "sociologist and editor",
+      "relationship_type": "government_assignment",
+      "start_date": "1937",
+      "date_precision": "year",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The Oxford University Press essay documents the role; the 1944 OSS report independently identifies the indexed Morton W. Royse and dates his Foreign Nationalities Branch entry to April 1942. The intervening chronology is incomplete, so this is not labeled immediate or last civilian employment."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-morton-royse-b825",
+      "person_id": "7235ed9e-6b23-5081-bcda-78b787ab7bd8",
+      "claim_type": "identity",
+      "claim_text": "A direct 1944 OSS report identifies indexed Morton W. Royse and records his April 1942 entry into the Foreign Nationalities Branch.",
+      "evidence_paraphrase": "The report names M. W. Royse, summarizes his Foreign Nationalities Branch chronology, and describes his wartime assignment in Crete.",
+      "identity_match_assessment": "High confidence from the uncommon exact name, direct OSS context, and compatible wartime chronology.",
+      "temporal_assessment": "The source establishes OSS-era identity and an April 1942 organizational entry but does not identify the immediately preceding employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The source's Royce/Royse OCR variation is not treated as a silent correction; the report itself repeatedly identifies the same individual in context.",
+      "sources": [
+        {"source_key": "nara-index-b825", "locator_override": "PDF page 402, row 35; Box 664"},
+        {"source_key": "oss-royse-crete-b825", "locator_override": "Final report career chronology and Crete assignment"}
+      ]
+    },
+    {
+      "key": "affiliation-morton-royse-fwp-b825",
+      "person_id": "7235ed9e-6b23-5081-bcda-78b787ab7bd8",
+      "affiliation_key": "morton-royse-fwp-b825",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Morton W. Royse served as social-ethnic studies editor for the Federal Writers' Project before his documented wartime OSS service.",
+      "evidence_paraphrase": "A scholarly Oxford University Press essay identifies Royse among the Federal Writers' Project leaders as its social-ethnic studies editor.",
+      "identity_match_assessment": "High confidence when combined with the direct OSS report and the uncommon full name.",
+      "temporal_assessment": "Documented prewar work beginning in 1937; available sources do not establish that it was the immediate pre-OSS affiliation.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The role is published as earlier documented pre-OSS work, not as an immediate predecessor or last civilian employer.",
+      "sources": [
+        {"source_key": "oup-fwp-royse-b825", "locator_override": "Discussion of Federal Writers' Project leadership"},
+        {"source_key": "oss-royse-crete-b825", "support_type": "context_only", "locator_override": "April 1942 Foreign Nationalities Branch entry"}
+      ]
+    },
+    {
+      "key": "identity-herbert-roye-b825",
+      "person_id": "fe3b30b8-77b6-599a-add3-b6034f7ce288",
+      "claim_type": "identity",
+      "claim_text": "The indexed Captain Herbert F. Roye is a high-confidence match to the U.S. Army officer later documented as Major and Colonel Herbert F. Roye.",
+      "evidence_paraphrase": "The index prints the uncommon exact name and Captain rank; Library of Congress and Congressional records document a compatible Army rank progression.",
+      "identity_match_assessment": "High confidence from exact uncommon name, consistent Army branch, and compatible Captain-to-Major-to-Colonel progression.",
+      "temporal_assessment": "The sources establish a career Army identity but do not identify Roye's exact unit immediately before OSS or any earlier civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The later records are used only for identity corroboration; the Box 664 file remains necessary for the pre-OSS question.",
+      "sources": [
+        {"source_key": "nara-index-b825", "locator_override": "PDF page 402, row 33; Captain; Box 664"},
+        {"source_key": "loc-roye-photo-b825", "locator_override": "Biographical file entry for Major Herbert F. Roye"},
+        {"source_key": "congress-roye-b825", "locator_override": "Congressional Record page 22335"}
+      ]
+    },
+    {
+      "key": "identity-emile-roy-b825",
+      "person_id": "7b7d07b2-36b8-518b-a56c-c8fe865d132a",
+      "claim_type": "identity",
+      "claim_text": "Official Army data confirm indexed Emile G. Roy for identity and Army-entry chronology.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree across the OSS index and official Army bulk file.",
+      "identity_match_assessment": "Confirmed from exact-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "The Army source establishes entry chronology but not a named civilian employer or immediate OSS transfer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "No protected identifier or coded occupation is published.",
+      "sources": [
+        {"source_key": "nara-index-b825", "locator_override": "PDF page 402, row 29; T-5; Box 664"},
+        {"source_key": "army-bulk-b825", "locator_override": "Official Army entry; protected identifier compared privately"}
+      ]
+    },
+    {
+      "key": "identity-anthony-rua-b825",
+      "person_id": "7d19a893-a458-5ace-9036-08ee76dd65e9",
+      "claim_type": "identity",
+      "claim_text": "Official Army data confirm indexed Anthony P. Rua for identity and Army-entry chronology.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree across the OSS index and official Army bulk file.",
+      "identity_match_assessment": "Confirmed from exact-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "The Army source establishes entry chronology but not a named civilian employer or immediate OSS transfer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "No protected identifier or coded occupation is published.",
+      "sources": [
+        {"source_key": "nara-index-b825", "locator_override": "PDF page 402, row 38; Sergeant; Box 664"},
+        {"source_key": "army-bulk-b825", "locator_override": "Official Army entry; protected identifier compared privately"}
+      ]
+    },
+    {
+      "key": "identity-herbert-rubin-b825",
+      "person_id": "ffed5d7e-8807-5755-b1ad-bde1ceae8b12",
+      "claim_type": "identity",
+      "claim_text": "Official Army data confirm indexed Herbert Rubin for identity and Army-entry chronology.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree across the OSS index and official Army bulk file.",
+      "identity_match_assessment": "Confirmed from exact-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "The Army source establishes entry chronology but not a named civilian employer or immediate OSS transfer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "No protected identifier or coded occupation is published.",
+      "sources": [
+        {"source_key": "nara-index-b825", "locator_override": "PDF page 402, row 42; Private First Class; Box 664"},
+        {"source_key": "army-bulk-b825", "locator_override": "Official Army entry; protected identifier compared privately"}
+      ]
+    },
+    {
+      "key": "conflict-alexander-rozanoff-b825",
+      "person_id": "04862878-1777-5d5f-bf00-a84f37f347fe",
+      "claim_type": "identity",
+      "claim_text": "The Army candidate attached to Alexander M. Rozanoff names Stratton Earl E and is rejected as an identity match.",
+      "evidence_paraphrase": "The protected identifier points to an official Army row whose printed name is incompatible with the OSS index name.",
+      "identity_match_assessment": "Conflicting; the candidate is rejected pending direct Box 664 evidence.",
+      "temporal_assessment": "No Army chronology or employment evidence from the rejected candidate is assigned to Rozanoff.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The incompatible Army name remains visible; no silent merge is made.",
+      "sources": [
+        {"source_key": "nara-index-b825", "locator_override": "PDF page 402, row 36; Box 664"},
+        {"source_key": "army-bulk-b825", "support_type": "contradicts", "locator_override": "Rejected official Army candidate; protected identifier compared privately"}
+      ]
+    },
+    {
+      "key": "conflict-wilmo-roy-b825",
+      "person_id": "abb89ac5-094f-57f0-a4db-ffe17ac73eeb",
+      "claim_type": "identity",
+      "claim_text": "The Army candidate attached to Wilmo R. Roy names Herbert W. Kuelling and is rejected as an identity match.",
+      "evidence_paraphrase": "The protected identifier points to an official Army row whose printed name is incompatible with the OSS index name.",
+      "identity_match_assessment": "Conflicting; the candidate is rejected pending direct Box 664 evidence.",
+      "temporal_assessment": "No Army chronology or employment evidence from the rejected candidate is assigned to Roy.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The incompatible Army name remains visible; no silent merge is made.",
+      "sources": [
+        {"source_key": "nara-index-b825", "locator_override": "PDF page 402, row 32; Box 664"},
+        {"source_key": "army-bulk-b825", "support_type": "contradicts", "locator_override": "Rejected official Army candidate; protected identifier compared privately"}
+      ]
+    },
+    {
+      "key": "conflict-stanley-rubini-b825",
+      "person_id": "581beeca-5acb-5f1c-ae41-4e8aa20f9ede",
+      "claim_type": "identity",
+      "claim_text": "The Army candidate prints Rubint Stanley rather than indexed Stanley Rubini and is rejected as an identity match.",
+      "evidence_paraphrase": "The protected identifier points to an official Army row with a materially incompatible printed name.",
+      "identity_match_assessment": "Conflicting; the candidate is rejected pending direct Box 664 evidence.",
+      "temporal_assessment": "No Army chronology or employment evidence from the rejected candidate is assigned to Rubini.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Neither surname is silently corrected; the source index form remains recoverable.",
+      "sources": [
+        {"source_key": "nara-index-b825", "locator_override": "PDF page 402, row 44; Box 664"},
+        {"source_key": "army-bulk-b825", "support_type": "contradicts", "locator_override": "Rejected official Army candidate; protected identifier compared privately"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {"person_id":"9b6ebdeb-3d1b-5e18-ad62-84818e61e306","identity_status":"unresolved","identity_evidence":"The indexed name and Sergeant rank did not produce a source-specific identity bridge among reviewed official, military, obituary, institutional, newspaper, directory, and archival results.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 664 for Earl G Rowell's full identity, Army unit, occupation, employer, and OSS transfer chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"7b25d150-d285-5d30-92f9-9bc46e4aa9ce","identity_status":"unresolved","identity_evidence":"The index supplies a common name without rank or protected identifier; reviewed sources did not establish a unique OSS-era identity.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 664 for Betty S Rower's complete name, personnel status, employer, occupation, and OSS appointment chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"f5ec02b6-02d3-570f-bd31-d7d4d2ae0f1e","identity_status":"unresolved","identity_evidence":"The common name lacks a rank or protected identifier; modern namesakes and undated results were rejected.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 664 for Diana Rowland's complete identity, employer, occupation, and OSS appointment chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"3603b522-fde8-5542-9e44-22c03249549b","identity_status":"unresolved","identity_evidence":"The initials, common surname, and unfamiliar CSP grade do not establish a unique namesake; the grade is preserved without forced expansion.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 664 for Edward J Roy's full name, service branch, meaning of CSP, occupation, and pre-OSS affiliation.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"483156b0-e0b4-5380-b2c5-6977bdeb0b88","identity_status":"unresolved","identity_evidence":"The common name and missing rank or identifier did not permit a defensible match.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 664 for Elaine G Roy's complete identity, personnel status, employer, occupation, and OSS chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"7b7d07b2-36b8-518b-a56c-c8fe865d132a","identity_status":"confirmed","identity_evidence":"Official Army data agree on the exact indexed name and a nonshared protected identifier.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Review Box 664 for Emile G Roy's named civilian employer, occupation, Army unit, and transfer to OSS.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"6a51b632-fd5a-5de0-b01c-dc8987c145c4","identity_status":"unresolved","identity_evidence":"The common name lacks rank and identifying detail; reviewed results did not establish an OSS-era identity bridge.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 664 for Jean E Roy's complete identity, personnel status, employer, occupation, and OSS chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"38281b2b-39e0-52c5-bd32-671aea48e833","identity_status":"unresolved","identity_evidence":"The common name and First Lieutenant rank were insufficient to distinguish military namesakes.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 664 for Robert F Roy's Army unit, full identity, civilian employer, and OSS transfer chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"abb89ac5-094f-57f0-a4db-ffe17ac73eeb","identity_status":"conflicting","identity_evidence":"The protected-identifier Army candidate names Herbert W. Kuelling rather than indexed Wilmo R. Roy and was rejected.","manual_review_required":true,"research_status":"conflicting_sources","next_action":"Inspect Box 664 and compare the source identifier before assigning any Army chronology or employer to Wilmo R Roy.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"fe3b30b8-77b6-599a-add3-b6034f7ce288","identity_status":"high_confidence","identity_evidence":"The uncommon exact name, Army branch, and Captain-to-Major-to-Colonel rank progression agree across the NARA index, a Library of Congress finding aid, and the Congressional Record.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Review Box 664 for Herbert F Roye's exact pre-OSS Army unit, commissioning path, and any earlier civilian employer.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"2b9dcdba-a28c-55e1-8bc1-18c7f8392ab7","identity_status":"unresolved","identity_evidence":"A postwar marriage notice matches the exact name but supplies no wartime identifier or pre-OSS chronology, so it is insufficient for resolution.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 664 for Howard E Roylance's Army identity, unit, occupation, employer, and OSS transfer chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"7235ed9e-6b23-5081-bcda-78b787ab7bd8","identity_status":"high_confidence","identity_evidence":"A direct 1944 OSS report identifies M. W. Royse and his April 1942 Foreign Nationalities Branch entry; scholarly evidence independently documents Morton W. Royse's uncommon name and prewar Federal Writers' Project role.","name_variants":["Morton William Royse","M. W. Royse"],"manual_review_required":false,"research_status":"documented_prewar_employer_found","next_action":"Review Box 664 to determine Royse's immediate pre-OSS affiliation and whether another government assignment intervened after the Federal Writers' Project.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"04862878-1777-5d5f-bf00-a84f37f347fe","identity_status":"conflicting","identity_evidence":"The protected-identifier Army candidate names Stratton Earl E rather than indexed Alexander M. Rozanoff and was rejected.","manual_review_required":true,"research_status":"conflicting_sources","next_action":"Inspect Box 664 and compare the source identifier before assigning any Army chronology or employer to Alexander M Rozanoff.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"38fb02d5-2bef-514f-a766-19859efff436","identity_status":"unresolved","identity_evidence":"The indexed name and Private rank did not distinguish plausible military namesakes in accessible sources.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 664 for Joseph Rozman's full identity, Army unit, occupation, employer, and OSS chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"7d19a893-a458-5ace-9036-08ee76dd65e9","identity_status":"confirmed","identity_evidence":"Official Army data agree on the exact indexed name and a nonshared protected identifier.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Review Box 664 for Anthony P Rua's named civilian employer, occupation, Army unit, and transfer to OSS.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"7c54dd6d-0130-52dc-9b21-4853fc687992","identity_status":"unresolved","identity_evidence":"The index gives a common surname, first name, and PFC rank without a unique external identifier.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 664 for Ernest Ruben's full identity, Army unit, occupation, employer, and OSS chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"b372409f-ec23-5c84-9ee8-212e8d145227","identity_status":"unresolved","identity_evidence":"Exact-name and Lieutenant Colonel searches did not establish a source-specific identity or employment chronology.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 664 for Sidney S Rubenstein's branch, unit, civilian employer, and path into OSS.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"6265606f-e13b-5b7f-a274-9c7cc25633de","identity_status":"unresolved","identity_evidence":"The common name has no printed rank or protected identifier; accessible results did not establish a unique OSS-era identity.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 664 for Hannah Rubin's complete identity, personnel status, occupation, employer, and OSS chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"ffed5d7e-8807-5755-b1ad-bde1ceae8b12","identity_status":"confirmed","identity_evidence":"Official Army data agree on the exact indexed name and a nonshared protected identifier.","manual_review_required":false,"research_status":"requires_archival_review","next_action":"Review Box 664 for Herbert Rubin's named civilian employer, occupation, Army unit, and transfer to OSS.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"c31c6042-10aa-5769-88ae-c8d734676715","identity_status":"unresolved","identity_evidence":"The common name and First Lieutenant rank were insufficient to distinguish military namesakes.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 664 for Robert H Rubin's branch, unit, civilian employer, and OSS transfer chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"581beeca-5acb-5f1c-ae41-4e8aa20f9ede","identity_status":"conflicting","identity_evidence":"The protected-identifier Army candidate prints Rubint Stanley rather than indexed Stanley Rubini and was rejected.","manual_review_required":true,"research_status":"conflicting_sources","next_action":"Inspect Box 664 and compare the source identifier before assigning any Army chronology or employer to Stanley Rubini.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"77732183-1bd6-53ad-a817-3ac8da82359e","identity_status":"unresolved","identity_evidence":"The distinctive Croatian-form name produced surname and genealogy leads but no reliable OSS-era identity or employment bridge.","name_variants":["Josip Rubinić"],"manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 664 for Josip Rubinic's nationality, complete identity, occupation, employer, and OSS relationship.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"3adfc247-b00c-5907-aac4-67b7b3853d09","identity_status":"unresolved","identity_evidence":"The exact name has many modern namesakes and the SP 1C grade alone did not supply a reliable wartime identity bridge.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 665 for Christopher Rubio's full identity, service branch, exact grade, occupation, employer, and OSS chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"}
+  ],
+  "research_attempts": [
+    {"key":"earl-g-rowell-b825","person_id":"9b6ebdeb-3d1b-5e18-ad62-84818e61e306","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 402; Earl G Rowell; Sergeant; OSS exact-name variants; CIA, Army, employer, occupation, obituary, institutional, newspaper, directory and archival sources; Box 664","query_variant_type":"staged_identity_employment_archival_protocol_batch_825","started_at":"2026-10-15T21:00:00-04:00","completed_at":"2026-10-15T22:20:00-04:00","outcome":"no_result","sources_reviewed":7,"candidate_sources_rejected":6,"rejection_reasons":"Namesake and genealogy results lacked an OSS, rank, identifier, or employment bridge.","research_notes":"The NARA Catalog query was dry-run only; the CIA adapter failed closed; a bounded Library of Congress query and manual web checks produced no defensible match. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 664.","attempt_number":3,"research_agent_version":"before-oss-b825-v1"},
+    {"key":"betty-s-rower-b825","person_id":"7b25d150-d285-5d30-92f9-9bc46e4aa9ce","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 402; Betty S Rower; OSS exact-name variants; CIA, employer, occupation, obituary, institutional, newspaper, directory and archival sources; Box 664","query_variant_type":"staged_identity_employment_archival_protocol_batch_825","started_at":"2026-10-15T21:00:00-04:00","completed_at":"2026-10-15T22:20:00-04:00","outcome":"no_result","sources_reviewed":7,"candidate_sources_rejected":6,"rejection_reasons":"Searches returned unrelated names, business-name OCR, or undated people without an OSS identity bridge.","research_notes":"Official-source and exact-name stages were completed or recorded as source-access limitations. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 664.","attempt_number":3,"research_agent_version":"before-oss-b825-v1"},
+    {"key":"diana-rowland-b825","person_id":"f5ec02b6-02d3-570f-bd31-d7d4d2ae0f1e","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 402; Diana Rowland; OSS exact-name variants; CIA, employer, occupation, obituary, institutional, newspaper, directory and archival sources; Box 664","query_variant_type":"staged_identity_employment_archival_protocol_batch_825","started_at":"2026-10-15T21:00:00-04:00","completed_at":"2026-10-15T22:20:00-04:00","outcome":"no_result","sources_reviewed":8,"candidate_sources_rejected":7,"rejection_reasons":"Modern author, business, medical, and other namesakes lacked wartime chronology or OSS corroboration.","research_notes":"No modern namesake was merged into the index record. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 664.","attempt_number":3,"research_agent_version":"before-oss-b825-v1"},
+    {"key":"edward-j-roy-b825","person_id":"3603b522-fde8-5542-9e44-22c03249549b","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 402; Edward J Roy; CSP; OSS exact-name variants; CIA, Navy, Army, employer, occupation, obituary, newspaper, directory and archival sources; Box 664","query_variant_type":"staged_identity_employment_archival_protocol_batch_825","started_at":"2026-10-15T21:00:00-04:00","completed_at":"2026-10-15T22:20:00-04:00","outcome":"no_result","sources_reviewed":8,"candidate_sources_rejected":7,"rejection_reasons":"Common-name military and civilian candidates lacked the indexed grade, OSS context, or another identifier.","research_notes":"CSP is preserved exactly and not forcibly expanded. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 664.","attempt_number":3,"research_agent_version":"before-oss-b825-v1"},
+    {"key":"elaine-g-roy-b825","person_id":"483156b0-e0b4-5380-b2c5-6977bdeb0b88","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 402; Elaine G Roy; OSS exact-name variants; CIA, employer, occupation, obituary, institutional, newspaper, directory and archival sources; Box 664","query_variant_type":"staged_identity_employment_archival_protocol_batch_825","started_at":"2026-10-15T21:00:00-04:00","completed_at":"2026-10-15T22:20:00-04:00","outcome":"no_result","sources_reviewed":7,"candidate_sources_rejected":6,"rejection_reasons":"Common-name and modern results lacked an OSS-era identity or chronology bridge.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 664.","attempt_number":3,"research_agent_version":"before-oss-b825-v1"},
+    {"key":"emile-g-roy-b825","person_id":"7b7d07b2-36b8-518b-a56c-c8fe865d132a","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 402; Emile G Roy; T-5; protected identifier; OSS exact-name variants; CIA, Army, employer, occupation, obituary, newspaper, directory and archival sources; Box 664","query_variant_type":"staged_identity_employment_archival_protocol_batch_825","started_at":"2026-10-15T21:00:00-04:00","completed_at":"2026-10-15T22:20:00-04:00","outcome":"source_reviewed","sources_reviewed":9,"candidate_sources_rejected":5,"rejection_reasons":"Namesakes and coded occupations were rejected as employer evidence.","research_notes":"Official Army identity accepted; coded occupation not published. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 664.","attempt_number":3,"research_agent_version":"before-oss-b825-v1"},
+    {"key":"jean-e-roy-b825","person_id":"6a51b632-fd5a-5de0-b01c-dc8987c145c4","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 402; Jean E Roy; OSS exact-name variants; CIA, employer, occupation, obituary, institutional, newspaper, directory and archival sources; Box 664","query_variant_type":"staged_identity_employment_archival_protocol_batch_825","started_at":"2026-10-15T21:00:00-04:00","completed_at":"2026-10-15T22:20:00-04:00","outcome":"no_result","sources_reviewed":7,"candidate_sources_rejected":6,"rejection_reasons":"Common-name results lacked wartime or OSS corroboration.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 664.","attempt_number":3,"research_agent_version":"before-oss-b825-v1"},
+    {"key":"robert-f-roy-b825","person_id":"38281b2b-39e0-52c5-bd32-671aea48e833","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 402; Robert F Roy; First Lieutenant; OSS exact-name variants; CIA, Army, employer, occupation, obituary, newspaper, directory and archival sources; Box 664","query_variant_type":"staged_identity_employment_archival_protocol_batch_825","started_at":"2026-10-15T21:00:00-04:00","completed_at":"2026-10-15T22:20:00-04:00","outcome":"no_result","sources_reviewed":8,"candidate_sources_rejected":7,"rejection_reasons":"Multiple military namesakes lacked a second corroborating identifier.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 664.","attempt_number":3,"research_agent_version":"before-oss-b825-v1"},
+    {"key":"wilmo-r-roy-b825","person_id":"abb89ac5-094f-57f0-a4db-ffe17ac73eeb","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 402; Wilmo R Roy; Sergeant; protected identifier conflict; OSS exact-name variants; CIA, Army, employer, occupation and archival sources; Box 664","query_variant_type":"staged_identity_employment_archival_protocol_batch_825","started_at":"2026-10-15T21:00:00-04:00","completed_at":"2026-10-15T22:20:00-04:00","outcome":"candidate_rejected","sources_reviewed":8,"candidate_sources_rejected":6,"rejection_reasons":"The Army candidate prints Herbert W. Kuelling, an incompatible name; other results lacked direct file evidence.","research_notes":"The identity conflict is preserved without transferring candidate data. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Compare Box 664 with the protected identifier source.","attempt_number":3,"research_agent_version":"before-oss-b825-v1"},
+    {"key":"herbert-f-roye-b825","person_id":"fe3b30b8-77b6-599a-add3-b6034f7ce288","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 402; Herbert F Roye; Captain; OSS exact-name variants; CIA, Army, Special Forces, employer, occupation, obituary, Library of Congress, Congressional and archival sources; Box 664","query_variant_type":"staged_identity_employment_archival_protocol_batch_825","started_at":"2026-10-15T21:00:00-04:00","completed_at":"2026-10-15T22:20:00-04:00","outcome":"source_reviewed","sources_reviewed":12,"candidate_sources_rejected":4,"rejection_reasons":"Genealogy and derivative military pages were rejected; later official records do not establish the pre-OSS affiliation.","research_notes":"The Army career identity is high confidence, but neither exact pre-OSS unit nor civilian employer is documented in accessible sources. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 664.","attempt_number":3,"research_agent_version":"before-oss-b825-v1"},
+    {"key":"howard-e-roylance-b825","person_id":"2b9dcdba-a28c-55e1-8bc1-18c7f8392ab7","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 402; Howard E Roylance; T-5; OSS exact-name variants; CIA, Army, employer, occupation, obituary, alumni, newspaper, directory and archival sources; Box 664","query_variant_type":"staged_identity_employment_archival_protocol_batch_825","started_at":"2026-10-15T21:00:00-04:00","completed_at":"2026-10-15T22:20:00-04:00","outcome":"no_result","sources_reviewed":8,"candidate_sources_rejected":6,"rejection_reasons":"A postwar marriage notice lacked wartime corroboration; other results did not establish the indexed identity.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 664.","attempt_number":3,"research_agent_version":"before-oss-b825-v1"},
+    {"key":"morton-w-royse-b825","person_id":"7235ed9e-6b23-5081-bcda-78b787ab7bd8","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 402; Morton W Royse and Morton William Royse; OSS, Foreign Nationalities Branch, Crete, Federal Writers' Project, employer, occupation, obituary, institutional, newspaper and archival sources; Box 664","query_variant_type":"staged_identity_employment_archival_protocol_batch_825","started_at":"2026-10-15T21:00:00-04:00","completed_at":"2026-10-15T22:20:00-04:00","outcome":"source_reviewed","sources_reviewed":14,"candidate_sources_rejected":5,"rejection_reasons":"Discovery-only genealogy and social-media narratives were rejected; later lobbying records were outside scope; claims not supported by direct or scholarly sources were excluded.","research_notes":"Direct OSS evidence establishes identity and wartime chronology; scholarly evidence supports the earlier Federal Writers' Project role. Immediacy is not claimed.","next_action":"Review Box 664 for the 1940-1942 transition and immediate predecessor affiliation.","attempt_number":3,"research_agent_version":"before-oss-b825-v1"},
+    {"key":"alexander-m-rozanoff-b825","person_id":"04862878-1777-5d5f-bf00-a84f37f347fe","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 402; Alexander M Rozanoff; Sergeant; protected identifier conflict; OSS exact-name variants; CIA, Army, employer, occupation and archival sources; Box 664","query_variant_type":"staged_identity_employment_archival_protocol_batch_825","started_at":"2026-10-15T21:00:00-04:00","completed_at":"2026-10-15T22:20:00-04:00","outcome":"candidate_rejected","sources_reviewed":8,"candidate_sources_rejected":7,"rejection_reasons":"The Army candidate prints Stratton Earl E, an incompatible name; other results lacked direct file evidence.","research_notes":"The identity conflict is preserved without transferring candidate data. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Compare Box 664 with the protected identifier source.","attempt_number":5,"research_agent_version":"before-oss-b825-v1"},
+    {"key":"joseph-rozman-b825","person_id":"38fb02d5-2bef-514f-a766-19859efff436","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 402; Joseph Rozman; Private; OSS exact-name variants; CIA, Army, employer, occupation, obituary, newspaper, directory and archival sources; Box 664","query_variant_type":"staged_identity_employment_archival_protocol_batch_825","started_at":"2026-10-15T21:00:00-04:00","completed_at":"2026-10-15T22:20:00-04:00","outcome":"no_result","sources_reviewed":8,"candidate_sources_rejected":7,"rejection_reasons":"Military and civilian namesakes lacked a second corroborating identifier.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 664.","attempt_number":3,"research_agent_version":"before-oss-b825-v1"},
+    {"key":"anthony-p-rua-b825","person_id":"7d19a893-a458-5ace-9036-08ee76dd65e9","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 402; Anthony P Rua; Sergeant; protected identifier; OSS exact-name variants; CIA, Army, employer, occupation, obituary, newspaper, directory and archival sources; Box 664","query_variant_type":"staged_identity_employment_archival_protocol_batch_825","started_at":"2026-10-15T21:00:00-04:00","completed_at":"2026-10-15T22:20:00-04:00","outcome":"source_reviewed","sources_reviewed":9,"candidate_sources_rejected":5,"rejection_reasons":"Namesakes and coded occupations were rejected as employer evidence.","research_notes":"Official Army identity accepted; coded occupation not published. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 664.","attempt_number":3,"research_agent_version":"before-oss-b825-v1"},
+    {"key":"ernest-ruben-b825","person_id":"7c54dd6d-0130-52dc-9b21-4853fc687992","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 402; Ernest Ruben; PFC; OSS exact-name variants; CIA, Army, employer, occupation, obituary, newspaper, directory and archival sources; Box 664","query_variant_type":"staged_identity_employment_archival_protocol_batch_825","started_at":"2026-10-15T21:00:00-04:00","completed_at":"2026-10-15T22:20:00-04:00","outcome":"no_result","sources_reviewed":8,"candidate_sources_rejected":7,"rejection_reasons":"Common-name and spelling-variant results lacked direct OSS or identifier corroboration.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 664.","attempt_number":3,"research_agent_version":"before-oss-b825-v1"},
+    {"key":"sidney-s-rubenstein-b825","person_id":"b372409f-ec23-5c84-9ee8-212e8d145227","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 402; Sidney S Rubenstein; Lieutenant Colonel; OSS exact-name variants; CIA, Army, employer, occupation, obituary, newspaper, directory and archival sources; Box 664","query_variant_type":"staged_identity_employment_archival_protocol_batch_825","started_at":"2026-10-15T21:00:00-04:00","completed_at":"2026-10-15T22:20:00-04:00","outcome":"no_result","sources_reviewed":9,"candidate_sources_rejected":8,"rejection_reasons":"Death-index and namesake results lacked a military, OSS, or employment bridge to the indexed Lieutenant Colonel.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 664.","attempt_number":3,"research_agent_version":"before-oss-b825-v1"},
+    {"key":"hannah-rubin-b825","person_id":"6265606f-e13b-5b7f-a274-9c7cc25633de","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 402; Hannah Rubin; OSS exact-name variants; CIA, employer, occupation, obituary, institutional, newspaper, directory and archival sources; Box 664","query_variant_type":"staged_identity_employment_archival_protocol_batch_825","started_at":"2026-10-15T21:00:00-04:00","completed_at":"2026-10-15T22:20:00-04:00","outcome":"no_result","sources_reviewed":8,"candidate_sources_rejected":7,"rejection_reasons":"Common-name candidates lacked OSS-era identifying evidence.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 664.","attempt_number":3,"research_agent_version":"before-oss-b825-v1"},
+    {"key":"herbert-rubin-b825","person_id":"ffed5d7e-8807-5755-b1ad-bde1ceae8b12","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 402; Herbert Rubin; PFC; protected identifier; OSS exact-name variants; CIA, Army, employer, occupation, obituary, newspaper, directory and archival sources; Box 664","query_variant_type":"staged_identity_employment_archival_protocol_batch_825","started_at":"2026-10-15T21:00:00-04:00","completed_at":"2026-10-15T22:20:00-04:00","outcome":"source_reviewed","sources_reviewed":9,"candidate_sources_rejected":6,"rejection_reasons":"Namesakes and coded occupations were rejected as employer evidence.","research_notes":"Official Army identity accepted; coded occupation not published. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 664.","attempt_number":3,"research_agent_version":"before-oss-b825-v1"},
+    {"key":"robert-h-rubin-b825","person_id":"c31c6042-10aa-5769-88ae-c8d734676715","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 402; Robert H Rubin; First Lieutenant; OSS exact-name variants; CIA, Army, employer, occupation, obituary, newspaper, directory and archival sources; Box 664","query_variant_type":"staged_identity_employment_archival_protocol_batch_825","started_at":"2026-10-15T21:00:00-04:00","completed_at":"2026-10-15T22:20:00-04:00","outcome":"no_result","sources_reviewed":9,"candidate_sources_rejected":8,"rejection_reasons":"Common military namesakes lacked two corroborating identifiers beyond the name.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 664.","attempt_number":3,"research_agent_version":"before-oss-b825-v1"},
+    {"key":"stanley-rubini-b825","person_id":"581beeca-5acb-5f1c-ae41-4e8aa20f9ede","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 402; Stanley Rubini; PFC; protected identifier conflict; OSS exact-name variants; CIA, Army, employer, occupation and archival sources; Box 664","query_variant_type":"staged_identity_employment_archival_protocol_batch_825","started_at":"2026-10-15T21:00:00-04:00","completed_at":"2026-10-15T22:20:00-04:00","outcome":"candidate_rejected","sources_reviewed":8,"candidate_sources_rejected":7,"rejection_reasons":"The Army candidate prints Rubint Stanley, an incompatible name; other results lacked direct file evidence.","research_notes":"The identity conflict is preserved without transferring candidate data. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Compare Box 664 with the protected identifier source.","attempt_number":3,"research_agent_version":"before-oss-b825-v1"},
+    {"key":"josip-rubinic-b825","person_id":"77732183-1bd6-53ad-a817-3ac8da82359e","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 402; Josip Rubinic and Josip Rubinić; OSS transliteration variants; CIA, employer, occupation, obituary, Croatian institutional, newspaper, directory and archival sources; Box 664","query_variant_type":"staged_identity_employment_archival_protocol_batch_825","started_at":"2026-10-15T21:00:00-04:00","completed_at":"2026-10-15T22:20:00-04:00","outcome":"no_result","sources_reviewed":8,"candidate_sources_rejected":7,"rejection_reasons":"Surname-distribution and genealogy leads did not identify the indexed individual or an OSS-era affiliation.","research_notes":"The diacritic variant is retained as a search alias, not a correction. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 664.","attempt_number":3,"research_agent_version":"before-oss-b825-v1"},
+    {"key":"christopher-rubio-b825","person_id":"3adfc247-b00c-5907-aac4-67b7b3853d09","source_adapter":"manual_staged_protocol","query_text":"NARA OSS index page 402; Christopher Rubio; SP 1C; OSS exact-name variants; CIA, Navy, employer, occupation, obituary, newspaper, directory and archival sources; Box 665","query_variant_type":"staged_identity_employment_archival_protocol_batch_825","started_at":"2026-10-15T21:00:00-04:00","completed_at":"2026-10-15T22:20:00-04:00","outcome":"no_result","sources_reviewed":9,"candidate_sources_rejected":8,"rejection_reasons":"Modern naval, merchant-marine, professional, and social-media namesakes lacked WWII chronology or OSS corroboration.","research_notes":"SP 1C is preserved exactly and not forcibly expanded. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 665.","attempt_number":3,"research_agent_version":"before-oss-b825-v1"}
+  ]
+}

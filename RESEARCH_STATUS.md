@@ -1,5 +1,37 @@
 # Research status
 
+Batch 825 completed PDF page 402, rows 24-46, from **Earl G Rowell** through
+**Christopher Rubio**, preserving all 23 printed rows as separate source
+records linked to 23 active person entities. The printed page was visually
+checked at 300 dpi. All 23 people have saved terminal research outcomes. A
+direct wartime OSS report and a scholarly institutional source identify
+**Morton W. Royse** and document his earlier work as social-ethnic studies
+editor for the Federal Writers' Project; the role is intentionally not labeled
+his immediate pre-OSS affiliation because the intervening chronology remains
+incomplete. A Library of Congress finding aid and the Congressional Record
+corroborate the career-Army identity of **Herbert F. Roye**, but do not supply
+his exact pre-OSS unit or a civilian employer. Official Army data confirm
+**Emile G Roy**, **Anthony P Rua**, and **Herbert Rubin** for identity and
+Army-entry chronology only; coded occupations were not published as
+employers. Three incompatible Army name leads were rejected and remain visible
+as conflicts. NARA was used in dry-run mode; a CIA access failure and a bounded
+Library of Congress search without a candidate were not treated as negative
+historical evidence.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,938** active
+people. Research-attempt coverage is **11,955/23,938 (49.9415%)**;
+verified-employer coverage is **388/23,938 (1.6209%)**;
+verified-affiliation coverage is **860/23,938 (3.5926%)**; archival-review
+coverage is **10,419/23,938 (43.5249%)**. There are **11,978** `not_started`
+people, **553** possible-duplicate groups, and **408** conflicts. SQLite
+retains **23,497** attempts or plans and **7,439** claims: 1,540 confirmed,
+3,696 high, 1,648 medium, 202 low, 351 conflicting, and two unresolved. It has
+**6,241** citation records and **3,289** unique source documents. The public
+projection has **2,722** affiliations, **989** organizations, **5,015**
+sources, and **7,231** claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 403, row 1, **Howard L
+Ruble**. See `research/batch-825-progress.md` for the source-by-source audit.
+
 Batch 824 completed PDF page 402, rows 1-23, from **Maurice H Rottersmann**
 through **Thora H Rowe**, preserving all 23 printed rows as separate source
 records linked to 23 active person entities. The printed page was visually
