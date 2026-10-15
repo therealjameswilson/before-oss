@@ -1,0 +1,930 @@
+{
+  "bundle_version": "reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 805 review",
+  "sources": [
+    {
+      "key": "nara-index-b805",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 645",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 392, rows 24-46; visually checked against a 300 dpi render",
+      "access_date": "2026-10-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain preserved. The clipped notes photogra, Honorab, Record, and also AS are retained exactly. Protected identifiers are excluded from public outputs."
+    },
+    {
+      "key": "army-bulk-b805",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "NAID 604357; data file NAID 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "War Department. Adjutant General's Office",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946",
+      "locator": "Transient private-identifier checks for Ivan B. Rigby, Walter M. Riggs Jr., Edward F. Rijos, James A. Riley, James L. Riley, and two separately indexed John E. Riley people; no raw rows retained",
+      "access_date": "2026-10-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Adjutant General's Office, Record Group 407",
+      "rights_notes": "The project retains only the selected NAID, project-authored identity assessment, and audit pointer. Coded Army occupation fields are not treated as named employers."
+    },
+    {
+      "key": "arsof-rigot-b805",
+      "stable_url": "https://arsof-history.org/articles/v3n2_brucker_pt4_page_1.html",
+      "archival_identifier": "Veritas, Vol. 3, No. 2 (2007)",
+      "title": "Major Herbert R. Brucker, SF Pioneer: Part IV: Special Operations Team HERMIT in France",
+      "author_creator": "Charles H. Briscoe, PhD",
+      "repository_publisher": "U.S. Army Special Operations Command History Office / ARSOF History",
+      "publication_record_date": "2007",
+      "locator": "Print version, page 8; Sussex Teams section",
+      "access_date": "2026-10-15",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Veritas",
+      "rights_notes": "Used for the narrow identity and wartime Team FILAN context. The article does not document a pre-OSS employer."
+    },
+    {
+      "key": "nara-rigsbee-1946-b805",
+      "stable_url": "https://www.archives.gov/files/research/jfk/releases/2022/104-10165-10132.pdf",
+      "archival_identifier": "JFK Record Number 104-10165-10132",
+      "title": "CIA File on Lucien Conein",
+      "author_creator": "United States Government",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1946-11",
+      "locator": "PDF page 184, travel voucher naming F. Catherine Rigsbee as Admin. Asst.; order dated October 20, 1946",
+      "access_date": "2026-10-15",
+      "source_quality": "A_direct_official",
+      "collection_name": "John F. Kennedy Assassination Records Collection",
+      "document_number": "104-10165-10132",
+      "rights_notes": "The postwar voucher is used only as a probable identity bridge. It does not establish a pre-OSS employer, an immediate affiliation, or an OSS-to-successor sequence."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [],
+  "claims": [
+    {
+      "key": "identity-ivan-b-rigby-b805",
+      "person_id": "3371dba6-d74a-5c54-ab0a-013b6937153e",
+      "claim_type": "identity",
+      "claim_text": "An official Army bulk record supports a high-confidence identification of indexed Ivan B. Rigby.",
+      "evidence_paraphrase": "The indexed name and a nonshared protected identifier agree between the personnel index and official Army bulk file.",
+      "identity_match_assessment": "High-confidence from name alignment and nonshared protected-identifier agreement.",
+      "temporal_assessment": "The evidence establishes Army identity and wartime entry only, not an employer or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army occupation data is excluded from the public claim and is not decoded into a named employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b805",
+          "locator_override": "PDF page 392, row 24"
+        },
+        {
+          "source_key": "army-bulk-b805",
+          "locator_override": "NAID 1263923; reviewed identity match"
+        }
+      ]
+    },
+    {
+      "key": "identity-walter-m-riggs-jr-b805",
+      "person_id": "70932905-062f-57f4-b85b-95121a9e920e",
+      "claim_type": "identity",
+      "claim_text": "An official Army bulk record supports a high-confidence identification of indexed Walter M. Riggs Jr..",
+      "evidence_paraphrase": "The indexed name and a nonshared protected identifier agree between the personnel index and official Army bulk file.",
+      "identity_match_assessment": "High-confidence from name alignment and nonshared protected-identifier agreement.",
+      "temporal_assessment": "The evidence establishes Army identity and wartime entry only, not an employer or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army occupation data is excluded from the public claim and is not decoded into a named employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b805",
+          "locator_override": "PDF page 392, row 31"
+        },
+        {
+          "source_key": "army-bulk-b805",
+          "locator_override": "NAID 1263923; reviewed identity match"
+        }
+      ]
+    },
+    {
+      "key": "identity-edward-f-rijos-b805",
+      "person_id": "bfac956b-637e-5d42-a400-8d11467877e5",
+      "claim_type": "identity",
+      "claim_text": "An official Army bulk record supports a high-confidence identification of indexed Edward F. Rijos.",
+      "evidence_paraphrase": "The indexed name and a nonshared protected identifier agree between the personnel index and official Army bulk file.",
+      "identity_match_assessment": "High-confidence from name alignment and nonshared protected-identifier agreement.",
+      "temporal_assessment": "The evidence establishes Army identity and wartime entry only, not an employer or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army occupation data is excluded from the public claim and is not decoded into a named employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b805",
+          "locator_override": "PDF page 392, row 34"
+        },
+        {
+          "source_key": "army-bulk-b805",
+          "locator_override": "NAID 1263923; reviewed identity match"
+        }
+      ]
+    },
+    {
+      "key": "identity-james-a-riley-b805",
+      "person_id": "edc281c7-f01a-5135-9727-a1990e5237b8",
+      "claim_type": "identity",
+      "claim_text": "An official Army bulk record supports a high-confidence identification of indexed James A. Riley.",
+      "evidence_paraphrase": "The indexed name and a nonshared protected identifier agree between the personnel index and official Army bulk file.",
+      "identity_match_assessment": "High-confidence from name alignment and nonshared protected-identifier agreement.",
+      "temporal_assessment": "The evidence establishes Army identity and wartime entry only, not an employer or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army occupation data is excluded from the public claim and is not decoded into a named employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b805",
+          "locator_override": "PDF page 392, row 40"
+        },
+        {
+          "source_key": "army-bulk-b805",
+          "locator_override": "NAID 1263923; reviewed identity match"
+        }
+      ]
+    },
+    {
+      "key": "identity-james-l-riley-b805",
+      "person_id": "d32914ba-ab78-57ad-b165-26e9946d9785",
+      "claim_type": "identity",
+      "claim_text": "An official Army bulk record supports a high-confidence identification of indexed James L. Riley.",
+      "evidence_paraphrase": "The indexed name and a nonshared protected identifier agree between the personnel index and official Army bulk file.",
+      "identity_match_assessment": "High-confidence from name alignment and nonshared protected-identifier agreement.",
+      "temporal_assessment": "The evidence establishes Army identity and wartime entry only, not an employer or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army occupation data is excluded from the public claim and is not decoded into a named employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b805",
+          "locator_override": "PDF page 392, row 41"
+        },
+        {
+          "source_key": "army-bulk-b805",
+          "locator_override": "NAID 1263923; reviewed identity match"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-e-riley-t5-b805",
+      "person_id": "107f1b74-8dad-5d18-b3d6-9078a85e02b1",
+      "claim_type": "identity",
+      "claim_text": "An official Army bulk record supports a high-confidence identification of indexed John E. Riley (T-5 row).",
+      "evidence_paraphrase": "The indexed name and a nonshared protected identifier agree between the personnel index and official Army bulk file.",
+      "identity_match_assessment": "High-confidence from name alignment and nonshared protected-identifier agreement.",
+      "temporal_assessment": "The evidence establishes Army identity and wartime entry only, not an employer or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The other John E. Riley source row has a different protected identifier and remains a separate entity. Coded Army occupation data is excluded.",
+      "sources": [
+        {
+          "source_key": "nara-index-b805",
+          "locator_override": "PDF page 392, row 42"
+        },
+        {
+          "source_key": "army-bulk-b805",
+          "locator_override": "NAID 1263923; reviewed identity match"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-e-riley-pfc-b805",
+      "person_id": "cf31c546-63a2-5077-867b-3fc8250e9f7a",
+      "claim_type": "identity",
+      "claim_text": "An official Army bulk record supports a high-confidence identification of indexed John E. Riley (Pfc row).",
+      "evidence_paraphrase": "The indexed name and a nonshared protected identifier agree between the personnel index and official Army bulk file.",
+      "identity_match_assessment": "High-confidence from name alignment and nonshared protected-identifier agreement.",
+      "temporal_assessment": "The evidence establishes Army identity and wartime entry only, not an employer or Army-to-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The other John E. Riley source row has a different protected identifier and remains a separate entity. Coded Army occupation data is excluded.",
+      "sources": [
+        {
+          "source_key": "nara-index-b805",
+          "locator_override": "PDF page 392, row 43"
+        },
+        {
+          "source_key": "army-bulk-b805",
+          "locator_override": "NAID 1263923; reviewed identity match"
+        }
+      ]
+    },
+    {
+      "key": "identity-andre-rigot-b805",
+      "person_id": "f6a1b183-9afd-59e7-918d-8ebb311dd9b0",
+      "claim_type": "identity",
+      "claim_text": "Authoritative institutional history identifies indexed French sub-lieutenant André Rigot as the observer of OSS-linked Team FILAN.",
+      "evidence_excerpt": "Andre Rigot, the “observer” of Team FILAN",
+      "evidence_paraphrase": "A U.S. Army Special Operations history identifies Rigot as the FILAN observer and describes his escape after the team was captured.",
+      "identity_match_assessment": "High-confidence from the rare exact name, French status, sub-lieutenant rank, and specific OSS-linked FILAN assignment.",
+      "temporal_assessment": "The evidence documents wartime service in 1944 but does not establish a pre-OSS employer or the affiliation immediately before recruitment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The claim is limited to identity and wartime service context; no civilian employer is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-index-b805",
+          "locator_override": "PDF page 392, row 32"
+        },
+        {
+          "source_key": "arsof-rigot-b805",
+          "locator_override": "Print version, page 8, Sussex Teams section"
+        }
+      ]
+    },
+    {
+      "key": "identity-catherine-rigsbee-b805",
+      "person_id": "5d874ace-7c03-554d-8772-e9baba464833",
+      "claim_type": "identity",
+      "claim_text": "Indexed Catherine Rigsbee is probably the F. Catherine Rigsbee named as an administrative assistant on a 1946 government travel voucher.",
+      "evidence_excerpt": "F. Catherine Rigsbee — Position: Admin. Asst.",
+      "evidence_paraphrase": "A NARA-released voucher names F. Catherine Rigsbee as an administrative assistant shortly after the war.",
+      "identity_match_assessment": "Probable from the exact distinctive name and comparable administrative role; the middle initial is absent from the index and no direct OSS bridge was found.",
+      "temporal_assessment": "The voucher is postwar identity evidence only and does not document the person's pre-OSS employment or immediate predecessor affiliation.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The project does not publish the 1946 position as a pre-OSS affiliation and does not infer an employer from the containing file.",
+      "sources": [
+        {
+          "source_key": "nara-index-b805",
+          "locator_override": "PDF page 392, row 33"
+        },
+        {
+          "source_key": "nara-rigsbee-1946-b805",
+          "locator_override": "PDF page 184, travel voucher"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "3371dba6-d74a-5c54-ab0a-013b6937153e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official Army bulk record agrees on the exact indexed name and a nonshared protected identifier. This establishes identity and Army service only; the coded occupation field is not employer evidence.",
+      "manual_review_required": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 645 for Ivan B. Rigby's Army-to-OSS chronology and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "be13f981-ee54-5bab-8d8b-146c014f7ea5",
+      "identity_status": "unresolved",
+      "identity_evidence": "The exact name and clipped photogra note did not bridge accessible official, OSS, photography, employer, obituary, directory, newspaper, or archival sources to a namesake-safe identity.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 645 for Horace A. Rigg's full note, identity, OSS file type, and pre-OSS photography employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "288a215b-85ca-54a9-9ca3-3b0f6422c3ba",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name and CAF-4 civilian grade did not establish a namesake-safe identity or employer in accessible official, directory, obituary, newspaper, or institutional sources.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 645 for Elizabeth S. Riggin's civilian appointment papers and immediate pre-OSS employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "01067f2b-5ec0-552d-b183-d85c4eca8578",
+      "identity_status": "unresolved",
+      "identity_evidence": "The name and major rank did not safely distinguish George B. Riggin from military and postwar namesakes or establish a pre-service employer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 645 for George B. Riggin's branch, commissioning history, OSS assignment, and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d50118c9-bfda-51e0-b663-d320fb90d699",
+      "identity_status": "unresolved",
+      "identity_evidence": "The exact name, CAF-3 grade, and clipped Honorab note did not establish a namesake-safe identity or employer in accessible sources.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 645 for Jewell W. Riggin's full note, civilian appointment papers, and immediate pre-OSS affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "3aab60d7-ff5e-53ee-80bd-37fbe20bcebf",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name, CAF-4 grade, and French note did not establish a unique identity, nationality, or pre-OSS employer in accessible sources.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 645 for Elizabeth P. Riggs's nationality, full identity, civilian appointment, and pre-OSS employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "3c92b33e-da9b-5970-ad6b-b0014fc52360",
+      "identity_status": "unresolved",
+      "identity_evidence": "The name, first-lieutenant rank, and clipped Record note did not safely distinguish Lawrence S. Riggs from military namesakes or document a pre-service employer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 645 and the indexed Record item for Lawrence S. Riggs's branch, OSS assignment, and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "70932905-062f-57f4-b85b-95121a9e920e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official Army bulk record agrees on the exact indexed name, suffix, and a nonshared protected identifier. This establishes identity and Army service only.",
+      "manual_review_required": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 645 for Walter M. Riggs Jr.'s Army-to-OSS chronology and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f6a1b183-9afd-59e7-918d-8ebb311dd9b0",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare exact name, French sub-lieutenant classification, and an authoritative U.S. Army Special Operations history identifying Andre Rigot as Team FILAN's observer establish a high-confidence identity and OSS-related service context.",
+      "manual_review_required": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 645 and relevant French service files for André Rigot's birth data, recruitment chronology, and immediate pre-OSS military or civilian affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "André Rigot"
+      ]
+    },
+    {
+      "person_id": "5d874ace-7c03-554d-8772-e9baba464833",
+      "identity_status": "probable",
+      "identity_evidence": "A NARA-released 1946 government travel voucher names F. Catherine Rigsbee as an administrative assistant. The exact distinctive name and comparable administrative role support a probable identity bridge, but no direct OSS link or second wartime identifier was found.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 645 to confirm F. Catherine Rigsbee's name chain, OSS role, and immediate pre-OSS employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "F. Catherine Rigsbee"
+      ]
+    },
+    {
+      "person_id": "bfac956b-637e-5d42-a400-8d11467877e5",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official Army bulk record agrees on the rare exact indexed name and a nonshared protected identifier. This establishes identity and Army service only.",
+      "manual_review_required": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 645 for Edward F. Rijos's Army-to-OSS chronology and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b8ae6cb1-a993-529b-ab0e-2b0eaf398a1b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name and technical-sergeant rank did not establish a namesake-safe identity or pre-service employer; a later Pennsylvania real-estate namesake lacked an OSS bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 645 for Alvin F. Riley's Army entry records, OSS assignment, and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "536ef296-40cc-5404-80c9-332655403514",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name, CAF-4 grade, and clipped photogra note did not bridge accessible official, photography, employer, obituary, directory, newspaper, or archival sources to a unique identity.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 645 for Anne J. Riley's full note, civilian appointment, and pre-OSS photography employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "0ec48c03-c28a-5f2b-8f50-3f596418db97",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name and CAF-5 civilian grade did not establish a namesake-safe identity or employer among numerous directory, obituary, and genealogy candidates.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 645 for Elizabeth A. Riley's civilian appointment papers and immediate pre-OSS employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "57359d60-29e0-5171-8aed-95b59750892c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name and first-lieutenant rank did not safely distinguish Henry D. Riley from military and historical namesakes or establish a pre-service employer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 645 for Henry D. Riley's branch, commissioning history, OSS assignment, and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e88e52a8-d928-50f6-ab56-4c1aa1f948b6",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies no rank or protected identifier, and exact-name, employer, obituary, directory, newspaper, and archival searches did not establish a namesake-safe identity.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 645 for Horace B. Riley's full identity, OSS file type, and pre-OSS affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "edc281c7-f01a-5135-9727-a1990e5237b8",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official Army bulk record agrees on the exact indexed name and a nonshared protected identifier. This establishes identity and Army service only.",
+      "manual_review_required": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 645 for James A. Riley's Army-to-OSS chronology and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d32914ba-ab78-57ad-b165-26e9946d9785",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official Army bulk record agrees on the exact indexed name and a nonshared protected identifier. This establishes identity and Army service only.",
+      "manual_review_required": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 645 for James L. Riley's Army-to-OSS chronology and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "107f1b74-8dad-5d18-b3d6-9078a85e02b1",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official Army bulk record agrees on the indexed name and a nonshared protected identifier for the T-5 row. The separately printed Pfc row has a different protected identifier and remains a separate person.",
+      "manual_review_required": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 645 and the indexed also AS item for the T-5 John E. Riley's Army-to-OSS chronology and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "cf31c546-63a2-5077-867b-3fc8250e9f7a",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official Army bulk record agrees on the indexed name and a nonshared protected identifier for the Pfc row. The separately printed T-5 row has a different protected identifier and remains a separate person.",
+      "manual_review_required": false,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 645 for the Pfc John E. Riley's Army-to-OSS chronology and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1fc69565-d515-5696-8077-172fb082c198",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name, T-4 rank, and indexed identifier did not bridge accessible official, military, employer, obituary, directory, or archival sources to a unique identity or employer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 645 for Leonard C. Riley's Army entry records, OSS assignment, and last civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "01ad5a5d-5edd-5288-a7dc-a82d13488462",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name, CAF-4 grade, and clipped photogra note did not bridge accessible official, photography, employer, obituary, directory, newspaper, or archival sources to a unique identity.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 645 for Lois A. Riley's full note, civilian appointment, and pre-OSS photography employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "6e16e728-7c48-5704-a292-a0d38d7cdd99",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name and CAF-5 civilian grade did not establish a namesake-safe identity or employer among numerous directory, obituary, cemetery, and death-index candidates.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Inspect Box 645 for Margaret R. Riley's civilian appointment papers and immediate pre-OSS employer or institution.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "ivan-b-rigby-b805",
+      "person_id": "3371dba6-d74a-5c54-ab0a-013b6937153e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA OSS index page 392; CIA Reading Room policy check; Ivan B Rigby; exact-name OSS variants; employer 1940; occupation; obituary; directory; newspaper; institutional and archival sources; Box 645",
+      "query_variant_type": "staged_identity_employment_newspaper_archival_protocol_batch_805",
+      "started_at": "2026-10-15T08:50:00-04:00",
+      "completed_at": "2026-10-15T09:05:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Uncorroborated obituary and directory namesakes were rejected; the coded Army occupation field was excluded because it neither names an employer nor establishes immediacy.",
+      "research_notes": "The official Army bulk record supports identity and Army service only. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 645 for Ivan B. Rigby's Army-to-OSS chronology and last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b805-v1"
+    },
+    {
+      "key": "horace-a-rigg-b805",
+      "person_id": "be13f981-ee54-5bab-8d8b-146c014f7ea5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA OSS index page 392; CIA Reading Room policy check; Horace A Rigg; exact-name OSS variants; employer 1940; occupation; obituary; directory; newspaper; institutional and archival sources; Box 645",
+      "query_variant_type": "staged_identity_employment_newspaper_archival_protocol_batch_805",
+      "started_at": "2026-10-15T08:51:00-04:00",
+      "completed_at": "2026-10-15T09:06:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Photography and directory results lacked an OSS bridge or corroborating identifier; the clipped photogra note was preserved rather than expanded.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 645 for Horace A. Rigg's full note, identity, OSS file type, and pre-OSS photography employer or institution.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b805-v1"
+    },
+    {
+      "key": "elizabeth-s-riggin-b805",
+      "person_id": "288a215b-85ca-54a9-9ca3-3b0f6422c3ba",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA OSS index page 392; CIA Reading Room policy check; Elizabeth S Riggin; exact-name OSS variants; employer 1940; occupation; obituary; directory; newspaper; institutional and archival sources; Box 645",
+      "query_variant_type": "staged_identity_employment_newspaper_archival_protocol_batch_805",
+      "started_at": "2026-10-15T08:52:00-04:00",
+      "completed_at": "2026-10-15T09:07:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Common-name and directory candidates lacked an OSS bridge, matching grade, or corroborating identifiers.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 645 for Elizabeth S. Riggin's civilian appointment papers and immediate pre-OSS employer or institution.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b805-v1"
+    },
+    {
+      "key": "george-b-riggin-b805",
+      "person_id": "01067f2b-5ec0-552d-b183-d85c4eca8578",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA OSS index page 392; CIA Reading Room policy check; George B Riggin; exact-name OSS variants; employer 1940; occupation; obituary; directory; newspaper; institutional and archival sources; Box 645",
+      "query_variant_type": "staged_identity_employment_newspaper_archival_protocol_batch_805",
+      "started_at": "2026-10-15T08:53:00-04:00",
+      "completed_at": "2026-10-15T09:08:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Burial, judicial, and genealogy candidates either had incompatible dates or lacked the indexed military identifier and an OSS bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 645 for George B. Riggin's branch, commissioning history, OSS assignment, and last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b805-v1"
+    },
+    {
+      "key": "jewell-w-riggin-b805",
+      "person_id": "d50118c9-bfda-51e0-b663-d320fb90d699",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA OSS index page 392; CIA Reading Room policy check; Jewell W Riggin; exact-name OSS variants; employer 1940; occupation; obituary; directory; newspaper; institutional and archival sources; Box 645",
+      "query_variant_type": "staged_identity_employment_newspaper_archival_protocol_batch_805",
+      "started_at": "2026-10-15T08:54:00-04:00",
+      "completed_at": "2026-10-15T09:09:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Exact-name results lacked an OSS bridge or corroborating identifier; the clipped Honorab note was preserved without interpretation.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 645 for Jewell W. Riggin's full note, civilian appointment papers, and immediate pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b805-v1"
+    },
+    {
+      "key": "elizabeth-p-riggs-b805",
+      "person_id": "3aab60d7-ff5e-53ee-80bd-37fbe20bcebf",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA OSS index page 392; CIA Reading Room policy check; Elizabeth P Riggs; exact-name OSS variants; employer 1940; occupation; obituary; directory; newspaper; institutional and archival sources; Box 645",
+      "query_variant_type": "staged_identity_employment_newspaper_archival_protocol_batch_805",
+      "started_at": "2026-10-15T08:55:00-04:00",
+      "completed_at": "2026-10-15T09:10:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Historical and modern namesakes lacked an OSS bridge, matching nationality context, or two corroborating identifiers.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 645 for Elizabeth P. Riggs's nationality, full identity, civilian appointment, and pre-OSS employer or institution.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b805-v1"
+    },
+    {
+      "key": "lawrence-s-riggs-b805",
+      "person_id": "3c92b33e-da9b-5970-ad6b-b0014fc52360",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA OSS index page 392; CIA Reading Room policy check; Lawrence S Riggs; exact-name OSS variants; employer 1940; occupation; obituary; directory; newspaper; institutional and archival sources; Box 645",
+      "query_variant_type": "staged_identity_employment_newspaper_archival_protocol_batch_805",
+      "started_at": "2026-10-15T08:56:00-04:00",
+      "completed_at": "2026-10-15T09:11:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Genealogy, burial, and military namesakes lacked the indexed identifier or an OSS assignment; the Record note was not interpreted.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 645 and the indexed Record item for Lawrence S. Riggs's branch, OSS assignment, and last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b805-v1"
+    },
+    {
+      "key": "walter-m-riggs-jr-b805",
+      "person_id": "70932905-062f-57f4-b85b-95121a9e920e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA OSS index page 392; CIA Reading Room policy check; Walter M Riggs Jr.; exact-name OSS variants; employer 1940; occupation; obituary; directory; newspaper; institutional and archival sources; Box 645",
+      "query_variant_type": "staged_identity_employment_newspaper_archival_protocol_batch_805",
+      "started_at": "2026-10-15T08:57:00-04:00",
+      "completed_at": "2026-10-15T09:12:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Cemetery and people-directory namesakes lacked the matching protected identifier; coded Army occupation data was excluded.",
+      "research_notes": "The official Army bulk record supports identity and Army service only. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 645 for Walter M. Riggs Jr.'s Army-to-OSS chronology and last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b805-v1"
+    },
+    {
+      "key": "andre-rigot-b805",
+      "person_id": "f6a1b183-9afd-59e7-918d-8ebb311dd9b0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA OSS index page 392; CIA Reading Room policy check; Andre Rigot; exact-name OSS variants; employer 1940; occupation; obituary; directory; newspaper; institutional and archival sources; Box 645",
+      "query_variant_type": "staged_identity_employment_newspaper_archival_protocol_batch_805",
+      "started_at": "2026-10-15T08:58:00-04:00",
+      "completed_at": "2026-10-15T09:13:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 11,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Modern French namesakes, commercial registries, an unrelated René André Rigot file, and the Alfred Rigot alias used by Ernest Floege were rejected. Operational sources did not name a pre-OSS employer.",
+      "research_notes": "Authoritative institutional evidence identifies Rigot's Team FILAN service and escape in 1944. No reliable pre-OSS employer has yet been identified.",
+      "next_action": "Inspect Box 645 and relevant French service files for André Rigot's birth data, recruitment chronology, and immediate pre-OSS military or civilian affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b805-v1"
+    },
+    {
+      "key": "catherine-rigsbee-b805",
+      "person_id": "5d874ace-7c03-554d-8772-e9baba464833",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA OSS index page 392; CIA Reading Room policy check; Catherine Rigsbee; exact-name OSS variants; employer 1940; occupation; obituary; directory; newspaper; institutional and archival sources; Box 645",
+      "query_variant_type": "staged_identity_employment_newspaper_archival_protocol_batch_805",
+      "started_at": "2026-10-15T08:59:00-04:00",
+      "completed_at": "2026-10-15T09:14:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Modern namesakes and unrelated Rigsbee records were rejected. The 1946 voucher is postwar and supports only a probable identity, not a pre-OSS employer or immediate affiliation.",
+      "research_notes": "The postwar official record is retained only as identity evidence. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 645 to confirm F. Catherine Rigsbee's name chain, OSS role, and immediate pre-OSS employer or institution.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b805-v1"
+    },
+    {
+      "key": "edward-f-rijos-b805",
+      "person_id": "bfac956b-637e-5d42-a400-8d11467877e5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA OSS index page 392; CIA Reading Room policy check; Edward F Rijos; exact-name OSS variants; employer 1940; occupation; obituary; directory; newspaper; institutional and archival sources; Box 645",
+      "query_variant_type": "staged_identity_employment_newspaper_archival_protocol_batch_805",
+      "started_at": "2026-10-15T09:00:00-04:00",
+      "completed_at": "2026-10-15T09:15:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "A cemetery record is consistent with the name and grade but was not needed for identification; coded Army occupation data was excluded from employer research.",
+      "research_notes": "The official Army bulk record supports identity and Army service only. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 645 for Edward F. Rijos's Army-to-OSS chronology and last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b805-v1"
+    },
+    {
+      "key": "alvin-f-riley-b805",
+      "person_id": "b8ae6cb1-a993-529b-ab0e-2b0eaf398a1b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA OSS index page 392; CIA Reading Room policy check; Alvin F Riley; exact-name OSS variants; employer 1940; occupation; obituary; directory; newspaper; institutional and archival sources; Box 645",
+      "query_variant_type": "staged_identity_employment_newspaper_archival_protocol_batch_805",
+      "started_at": "2026-10-15T09:01:00-04:00",
+      "completed_at": "2026-10-15T09:16:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "A later real-estate listing and genealogy records lacked the indexed military identifier and wartime chronology. The LoC API timed out and the CIA automated search route was disallowed by robots policy; neither failure was treated as a negative result.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 645 for Alvin F. Riley's Army entry records, OSS assignment, and last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b805-v1"
+    },
+    {
+      "key": "anne-j-riley-b805",
+      "person_id": "536ef296-40cc-5404-80c9-332655403514",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA OSS index page 392; CIA Reading Room policy check; Anne J Riley; exact-name OSS variants; employer 1940; occupation; obituary; directory; newspaper; institutional and archival sources; Box 645",
+      "query_variant_type": "staged_identity_employment_newspaper_archival_protocol_batch_805",
+      "started_at": "2026-10-15T09:02:00-04:00",
+      "completed_at": "2026-10-15T09:17:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Photography and directory candidates lacked an OSS bridge or corroborating identifier; the clipped photogra note was not expanded.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 645 for Anne J. Riley's full note, civilian appointment, and pre-OSS photography employer or institution.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b805-v1"
+    },
+    {
+      "key": "elizabeth-a-riley-b805",
+      "person_id": "0ec48c03-c28a-5f2b-8f50-3f596418db97",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA OSS index page 392; CIA Reading Room policy check; Elizabeth A Riley; exact-name OSS variants; employer 1940; occupation; obituary; directory; newspaper; institutional and archival sources; Box 645",
+      "query_variant_type": "staged_identity_employment_newspaper_archival_protocol_batch_805",
+      "started_at": "2026-10-15T09:03:00-04:00",
+      "completed_at": "2026-10-15T09:18:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Numerous same-name candidates lacked an OSS bridge, matching grade, or two corroborating identifiers; people-search records were discovery-only and rejected.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 645 for Elizabeth A. Riley's civilian appointment papers and immediate pre-OSS employer or institution.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b805-v1"
+    },
+    {
+      "key": "henry-d-riley-b805",
+      "person_id": "57359d60-29e0-5171-8aed-95b59750892c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA OSS index page 392; CIA Reading Room policy check; Henry D Riley; exact-name OSS variants; employer 1940; occupation; obituary; directory; newspaper; institutional and archival sources; Box 645",
+      "query_variant_type": "staged_identity_employment_newspaper_archival_protocol_batch_805",
+      "started_at": "2026-10-15T09:04:00-04:00",
+      "completed_at": "2026-10-15T09:19:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Historical, military, directory, and property-record namesakes had incompatible dates or lacked the indexed identifier and an OSS bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 645 for Henry D. Riley's branch, commissioning history, OSS assignment, and last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b805-v1"
+    },
+    {
+      "key": "horace-b-riley-b805",
+      "person_id": "e88e52a8-d928-50f6-ab56-4c1aa1f948b6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA OSS index page 392; CIA Reading Room policy check; Horace B Riley; exact-name OSS variants; employer 1940; occupation; obituary; directory; newspaper; institutional and archival sources; Box 645",
+      "query_variant_type": "staged_identity_employment_newspaper_archival_protocol_batch_805",
+      "started_at": "2026-10-15T09:05:00-04:00",
+      "completed_at": "2026-10-15T09:20:00-04:00",
+      "outcome": "no_result",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Search results supplied no matching wartime role, OSS bridge, or corroborating identifier.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 645 for Horace B. Riley's full identity, OSS file type, and pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b805-v1"
+    },
+    {
+      "key": "james-a-riley-b805",
+      "person_id": "edc281c7-f01a-5135-9727-a1990e5237b8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA OSS index page 392; CIA Reading Room policy check; James A Riley; exact-name OSS variants; employer 1940; occupation; obituary; directory; newspaper; institutional and archival sources; Box 645",
+      "query_variant_type": "staged_identity_employment_newspaper_archival_protocol_batch_805",
+      "started_at": "2026-10-15T09:06:00-04:00",
+      "completed_at": "2026-10-15T09:21:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Common-name obituary and military candidates lacked the matching protected identifier; coded Army occupation data was excluded.",
+      "research_notes": "The official Army bulk record supports identity and Army service only. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 645 for James A. Riley's Army-to-OSS chronology and last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b805-v1"
+    },
+    {
+      "key": "james-l-riley-b805",
+      "person_id": "d32914ba-ab78-57ad-b165-26e9946d9785",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA OSS index page 392; CIA Reading Room policy check; James L Riley; exact-name OSS variants; employer 1940; occupation; obituary; directory; newspaper; institutional and archival sources; Box 645",
+      "query_variant_type": "staged_identity_employment_newspaper_archival_protocol_batch_805",
+      "started_at": "2026-10-15T09:07:00-04:00",
+      "completed_at": "2026-10-15T09:22:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Common-name obituary and military candidates lacked the matching protected identifier; coded Army occupation data was excluded.",
+      "research_notes": "The official Army bulk record supports identity and Army service only. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 645 for James L. Riley's Army-to-OSS chronology and last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b805-v1"
+    },
+    {
+      "key": "john-e-riley-t5-b805",
+      "person_id": "107f1b74-8dad-5d18-b3d6-9078a85e02b1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA OSS index page 392; CIA Reading Room policy check; John E Riley; exact-name OSS variants; employer 1940; occupation; obituary; directory; newspaper; institutional and archival sources; Box 645",
+      "query_variant_type": "staged_identity_employment_newspaper_archival_protocol_batch_805",
+      "started_at": "2026-10-15T09:08:00-04:00",
+      "completed_at": "2026-10-15T09:23:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Common-name military, cemetery, obituary, and directory candidates could not distinguish the two indexed John E. Riley people; coded Army occupation data was excluded.",
+      "research_notes": "The official Army bulk record supports identity and Army service only. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 645 and the indexed also AS item for the T-5 John E. Riley's Army-to-OSS chronology and last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b805-v1"
+    },
+    {
+      "key": "john-e-riley-pfc-b805",
+      "person_id": "cf31c546-63a2-5077-867b-3fc8250e9f7a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA OSS index page 392; CIA Reading Room policy check; John E Riley; exact-name OSS variants; employer 1940; occupation; obituary; directory; newspaper; institutional and archival sources; Box 645",
+      "query_variant_type": "staged_identity_employment_newspaper_archival_protocol_batch_805",
+      "started_at": "2026-10-15T09:09:00-04:00",
+      "completed_at": "2026-10-15T09:24:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Common-name military, cemetery, obituary, and directory candidates could not distinguish the two indexed John E. Riley people; coded Army occupation data was excluded.",
+      "research_notes": "The official Army bulk record supports identity and Army service only. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 645 for the Pfc John E. Riley's Army-to-OSS chronology and last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b805-v1"
+    },
+    {
+      "key": "leonard-c-riley-b805",
+      "person_id": "1fc69565-d515-5696-8077-172fb082c198",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA OSS index page 392; CIA Reading Room policy check; Leonard C Riley; exact-name OSS variants; employer 1940; occupation; obituary; directory; newspaper; institutional and archival sources; Box 645",
+      "query_variant_type": "staged_identity_employment_newspaper_archival_protocol_batch_805",
+      "started_at": "2026-10-15T09:10:00-04:00",
+      "completed_at": "2026-10-15T09:25:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Postwar trust, people-directory, and common-name military results lacked the indexed wartime identifier and an OSS bridge.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 645 for Leonard C. Riley's Army entry records, OSS assignment, and last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b805-v1"
+    },
+    {
+      "key": "lois-a-riley-b805",
+      "person_id": "01ad5a5d-5edd-5288-a7dc-a82d13488462",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA OSS index page 392; CIA Reading Room policy check; Lois A Riley; exact-name OSS variants; employer 1940; occupation; obituary; directory; newspaper; institutional and archival sources; Box 645",
+      "query_variant_type": "staged_identity_employment_newspaper_archival_protocol_batch_805",
+      "started_at": "2026-10-15T09:11:00-04:00",
+      "completed_at": "2026-10-15T09:26:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Numerous cemetery and obituary namesakes lacked an OSS bridge or matching civilian context; the clipped photogra note was not expanded.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 645 for Lois A. Riley's full note, civilian appointment, and pre-OSS photography employer or institution.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b805-v1"
+    },
+    {
+      "key": "margaret-r-riley-b805",
+      "person_id": "6e16e728-7c48-5704-a292-a0d38d7cdd99",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA OSS index page 392; CIA Reading Room policy check; Margaret R Riley; exact-name OSS variants; employer 1940; occupation; obituary; directory; newspaper; institutional and archival sources; Box 645",
+      "query_variant_type": "staged_identity_employment_newspaper_archival_protocol_batch_805",
+      "started_at": "2026-10-15T09:12:00-04:00",
+      "completed_at": "2026-10-15T09:27:00-04:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Same-name Pennsylvania and other candidates lacked an OSS bridge, matching grade, or two corroborating identifiers.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "next_action": "Inspect Box 645 for Margaret R. Riley's civilian appointment papers and immediate pre-OSS employer or institution.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b805-v1"
+    }
+  ]
+}
