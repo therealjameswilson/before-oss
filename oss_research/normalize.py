@@ -62,6 +62,7 @@ ARMY_ENLISTED_RANKS = {
     "TEC 5",
 }
 NAVAL_ENLISTED_PREFIXES = (
+    "CSK",
     "S 1/C",
     "S 2/C",
     "S 3/C",
@@ -213,7 +214,7 @@ def normalize_rank(value: str | None) -> str | None:
     # Army captain form used by the index's many ``Capt`` rows.
     if normalized == "CPT":
         normalized = "CAPT"
-    normalized = re.sub(r"^([SMT])-SGT$", r"\1/SGT", normalized)
+    normalized = re.sub(r"^([SMT])[- /]SGT$", r"\1/SGT", normalized)
     normalized = re.sub(r"^TEC-([345])$", r"TEC \1", normalized)
     normalized = re.sub(r"^S([123])\s+C$", r"S \1/C", normalized)
     normalized = re.sub(r"^(RM)([123])/?C$", r"\1 \2/C", normalized)

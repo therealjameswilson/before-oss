@@ -1,5 +1,39 @@
 # Research status
 
+Batch 815 completed PDF page 397, rows 24-46, from **Elizabeth A Rodnick**
+through **Bruce Rogers**, preserving all 23 printed rows as separate source
+records linked to 23 active person entities. The printed page was visually
+checked at 300 dpi. All 23 people have saved terminal research outcomes. A
+contemporary Farm Credit Administration periodical supports **Joseph Rodrigo**
+at high identity confidence and identifies the Federal Intermediate Credit Bank
+of Berkeley as his strongly date-bounded last civilian employer before wartime
+military service; the site does not label it the immediate pre-OSS affiliation.
+University, contemporary press, and scholarly evidence triangulate **Bruce
+Rogers** through a distinctive Oregon-Japan-Osaka-OSS path. His University of
+Oregon relationship is modeled as student status, while the U.S. consulate in
+Osaka is a qualified documented prewar government assignment, not an asserted
+immediate predecessor. Five official Army identifier matches were accepted for
+identity only. The candidate for **Delmar M Roeder** carries the matching
+private identifier but a completely different name and therefore remains an
+explicit conflict with no merge. The CIA adapter's access limitation and a
+Library of Congress timeout were not treated as negative historical evidence;
+NARA was used in dry-run mode only and no authenticated Catalog API request was
+made.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,938** active
+people. Research-attempt coverage is **11,729/23,938 (48.9974%)**;
+verified-employer coverage is **377/23,938 (1.5749%)**;
+verified-affiliation coverage is **839/23,938 (3.5049%)**; archival-review
+coverage is **10,192/23,938 (42.5767%)**. There are **12,204** `not_started`
+people, **553** possible-duplicate groups, and **398** conflicts. SQLite
+retains **22,874** attempts or plans and **7,305** claims: 1,478 confirmed,
+3,644 high, 1,637 medium, 202 low, 342 conflicting, and two unresolved. It has
+**6,172** citation records and **3,235** unique source documents. The public
+projection has **2,680** affiliations, **960** organizations, **4,947**
+sources, and **7,097** claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 398, row 1, **Camden L
+Rogers**. See `research/batch-815-progress.md` for the source-by-source audit.
+
 Batch 791 completed PDF page 385, rows 24-46, from **Francis R. M. Rea**
 through **Cornelia Reck**, preserving all 23 printed rows as separate source
 records linked to 23 person entities. The printed page was visually checked at
