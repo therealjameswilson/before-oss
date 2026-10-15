@@ -1,5 +1,39 @@
 # Research status
 
+Batch 821 completed PDF page 400, rows 24-46, from **Franz W Rosenthal**
+through **Darrell E Ross**, preserving all 23 printed rows as separate source
+records linked to 23 active person entities. The printed page was visually
+checked at 300 dpi. All 23 people have saved terminal research outcomes. Yale
+and official Army evidence establish **Franz W Rosenthal** at Hebrew Union
+College as his last civilian employer before Army induction and explicitly
+place Army basic training immediately before OSS service. UW-Stevens Point's
+archival biography distinguishes **Malcolm L Rosholt**'s earlier China Press
+employment from China News Service, his last documented civilian employer
+before a 1942 Army Air Forces commission; his Fourteenth Air Force assignment
+is qualified because its exact relation to OSS remains unknown. Contemporary,
+official, and obituary evidence identifies the University of Rochester as
+**Harry A Rositzke**'s last documented civilian employer. **Barbara B
+Rositzke**'s directory-based University of Rochester news-bureau role is
+published only as a qualified medium-confidence match. Six exact Army
+identifier matches were accepted for identity only, two incompatible
+candidates were rejected, and coded occupations were not published as
+employers. NARA was used in dry-run mode; CIA and Library of Congress access
+limitations were not treated as negative historical evidence.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,938** active
+people. Research-attempt coverage is **11,864/23,938 (49.5614%)**;
+verified-employer coverage is **386/23,938 (1.6125%)**;
+verified-affiliation coverage is **853/23,938 (3.5634%)**; archival-review
+coverage is **10,328/23,938 (43.1448%)**. There are **12,069** `not_started`
+people, **553** possible-duplicate groups, and **403** conflicts. SQLite
+retains **23,213** attempts or plans and **7,395** claims: 1,521 confirmed,
+3,681 high, 1,642 medium, 202 low, 347 conflicting, and two unresolved. It has
+**6,214** citation records and **3,271** unique source documents. The public
+projection has **2,710** affiliations, **977** organizations, **4,989**
+sources, and **7,187** claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 401, row 1, **E P Ross**.
+See `research/batch-821-progress.md` for the source-by-source audit.
+
 Batch 820 completed PDF page 400, rows 1-23, from **Ronald E Rosen** through
 **Alvin Rosenthal**, preserving all 23 printed rows as separate source records
 linked to 23 active person entities. The printed page was visually checked at
