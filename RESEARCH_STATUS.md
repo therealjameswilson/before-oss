@@ -1,5 +1,38 @@
 # Research status
 
+Batch 819 completed PDF page 399, rows 24-46, from **James F Roosevelt**
+through **David V Rosen**, preserving all 23 printed rows as separate source
+records linked to 23 active person entities. The printed page was visually
+checked at 300 dpi. All 23 people have saved terminal research outcomes.
+Official CIA and Marine Corps sources establish **James F Roosevelt**'s
+immediate pre-COI Marine Corps assignment and separately identify Samuel
+Goldwyn's production company as his last named civilian employer before
+extended active duty. Cornell's Roper Center documents **Elmo Roper**'s polling
+company and earlier firms, with the immediate corporate style visibly
+qualified. Library of Congress and NARA records model **Quentin Roosevelt**'s
+Harvard attendance as student status and preserve the unresolved Army-to-OSS
+transfer sequence. Direct 1944 Goodfellow Board interviews identify War
+Department Ordnance in Detroit for **Krisanthe Rose** and finance work at New
+York's Gotham Hotel for **Telphi Rose**, while preserving the transcript's
+`Telpi` spelling. Three exact Army identifier matches were accepted for
+identity only. The printed `1/SGT` variant now classifies transparently as
+first sergeant while preserving the raw rank. NARA was used in dry-run mode;
+source-access limitations were not treated as negative historical evidence.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,938** active
+people. Research-attempt coverage is **11,818/23,938 (49.3692%)**;
+verified-employer coverage is **383/23,938 (1.6000%)**;
+verified-affiliation coverage is **847/23,938 (3.5383%)**; archival-review
+coverage is **10,282/23,938 (42.9526%)**. There are **12,115** `not_started`
+people, **553** possible-duplicate groups, and **403** conflicts. SQLite
+retains **23,067** attempts or plans and **7,366** claims: 1,510 confirmed,
+3,667 high, 1,638 medium, 202 low, 347 conflicting, and two unresolved. It has
+**6,197** citation records and **3,256** unique source documents. The public
+projection has **2,698** affiliations, **976** organizations, **4,972**
+sources, and **7,158** claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 400, row 1. See
+`research/batch-819-progress.md` for the source-by-source audit.
+
 Batch 818 completed PDF page 399, rows 1-23, from **Howard E Roman** through
 **Archibald B Roosevelt**, preserving all 23 printed rows as separate source
 records linked to 23 active person entities. The printed page was visually

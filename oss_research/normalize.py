@@ -212,6 +212,11 @@ def normalize_rank(value: str | None) -> str | None:
         .replace("2NDLT", "2ND LT")
         .replace("2D LT", "2ND LT")
     )
+    # Two index rows print first sergeant as ``1/SGT``. Preserve that exact
+    # source form in ``rank_raw`` while mapping it to the established Army
+    # enlisted rank used for personnel classification.
+    if normalized == "1/SGT":
+        normalized = "1ST SGT"
     normalized = normalized.replace("LTCOL", "LT COL")
     # The source index uses the uncommon printed abbreviation ``Cpt`` twice.
     # Preserve that spelling in ``rank_raw`` while normalizing it to the same

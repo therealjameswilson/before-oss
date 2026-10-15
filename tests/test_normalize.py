@@ -86,6 +86,12 @@ class NormalizeTests(unittest.TestCase):
         self.assertEqual(result.category, "enlisted_army_personnel")
         self.assertFalse(result.commissioned_officer)
 
+    def test_printed_first_sergeant_slash_variant_is_army_enlisted(self) -> None:
+        result = classify_personnel("1/SGT", None)
+        self.assertEqual(result.rank_normalized, "1ST SGT")
+        self.assertEqual(result.category, "enlisted_army_personnel")
+        self.assertFalse(result.commissioned_officer)
+
     def test_compact_lieutenant_colonel_is_army_officer(self) -> None:
         result = classify_personnel("LtCol", None)
         self.assertEqual(result.rank_normalized, "LT COL")
