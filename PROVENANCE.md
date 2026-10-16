@@ -5428,6 +5428,50 @@ unrelated namesake biography or full copyrighted page is stored or published.
 The durable evidence is in
 `research/evidence-page419-seitz-selvig-review_batch-858_2026-10-16.json`.
 
+## Page 419 Selvig through Serao review, Batch 859
+
+The 23 contiguous source rows from William W Selvig through Anthony Serao were
+checked against the reviewed page 419 table and retained as separate immutable
+records. Names, printed ranks, Boxes 695-696 and archive location
+230/86/40/04 remain recoverable; public outputs mask full identifiers. John W
+Senter's unfamiliar printed `CAMDR` abbreviation remains verbatim rather than
+being silently normalized to a rank or branch.
+
+The checksum-verified NARA Army merged file was searched transiently under its
+official fixed-width documentation. Nonshared private identifiers support
+identity bridges for Alfonso A Senatore, Antonino J Seminara, August V
+Sepetauc, Frank J Senft (spelled `Senfft` in the Army record), Frederick A
+Senger, Hercules J Sembrakis, Lester L Seng, Mario V Semolich and Royal F
+Sengstacken Jr. Army entry-grade and occupation codes were not converted into
+OSS ranks, employers or affiliations.
+
+A 1944 OSS board report directly identifies Mario V. Semolich and names the
+Palmer House in Chicago as his last civilian employer before Army and OSS
+service, where he worked as a cook. The chronology is strongly date-bounded
+but does not establish that the Palmer House immediately preceded OSS. A
+second 1944 board report directly identifies Amos E. Sentman and states that
+his Regular Army service continued from November 1917 until his assignment to
+OSS in September 1942. The Army is modeled as an explicit immediate military
+affiliation, not as civilian employment.
+
+A Smithsonian Archives of American Art finding aid identifies Peter Howard
+Selz and documents Columbia University attendance in 1937-1938. Columbia is
+modeled only as a documented prewar student affiliation. The official
+Congressional Record supports the uncommon Amato A. Semenza identity and his
+32d Signal Center Team/Psychological Warfare Branch context, but does not
+establish a pre-OSS employer or predecessor assignment. An OSS Operational
+Groups roster corroborates Hercules J. Sembrakis in Greek Operational Group
+II. A secondary Greek Army lead was not published because it lacked the
+source quality needed for a pre-OSS affiliation claim.
+
+CIA and Library of Congress automated discovery failed at their first bounded
+requests. Those failures are recorded as access limitations rather than
+negative evidence. No authenticated Catalog request, credential, raw API
+response, full private identifier, raw Army row, unsupported employer,
+unrelated namesake biography or full copyrighted page is stored or published.
+The durable evidence is in
+`research/evidence-page419-selvig-serao-review_batch-859_2026-10-16.json`.
+
 ## Official reference material
 
 - NARA OSS personnel records:

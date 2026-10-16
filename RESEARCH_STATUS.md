@@ -1,5 +1,29 @@
 # Research status
 
+Batch 859 completed PDF page 419, rows 24-46, from **William W Selvig** through
+**Anthony Serao**, preserving all 23 printed rows as separate source records
+linked to 23 active person entities. All 23 have saved terminal research
+outcomes. A direct OSS board report supports **Mario V Semolich**'s Palmer
+House work as his last civilian employment before Army and OSS service. A
+second direct report documents **Amos E Sentman**'s explicit Regular
+Army-to-OSS pathway. **Peter H Selz**'s Columbia University attendance is
+correctly modeled as student affiliation. Official evidence supports the
+wartime identities of **Amato A Semenza** and **Hercules J Sembrakis** without
+inventing pre-OSS employers. Nine official Army crosswalks support identity
+decisions only, and **John W Senter**'s unfamiliar printed `CAMDR`
+abbreviation remains verbatim and unforced.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **12,726/23,937 (53.1646%)**;
+verified-employer coverage is **419/23,937 (1.7504%)**;
+verified-affiliation coverage is **924/23,937 (3.8601%)**; archival-review
+coverage is **11,193/23,937 (46.7602%)**. There are **11,206** `not_started`
+people, **572** possible-duplicate groups and **447** conflicts. The public
+projection contains **2,851** affiliations, **1,063** organizations, **5,265**
+sources and **7,697** published claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 420, row 1, **Walter
+Sereda**. See `research/batch-859-progress.md` for the source-by-source audit.
+
 Batch 858 completed PDF page 419, rows 1-23, from **Albert B Seitz** through
 **Helen M Selvig**, preserving all 23 printed rows as separate source records
 linked to 23 active person entities. All 23 have saved terminal research
