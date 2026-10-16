@@ -1,0 +1,574 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 845 archival research review",
+  "sources": [
+    {
+      "key": "nara-index-b845",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 683-684",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 412, rows 24-46; visually checked against a 180 dpi page render",
+      "access_date": "2026-10-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Original spellings, ranks or grades, boxes, locations and private identifiers remain recoverable in the research database; full private identifiers are excluded from public outputs."
+    },
+    {
+      "key": "army-bulk-b845",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; reviewed bulk record ordinals retained as private claim locators",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; protected-identifier review for twelve candidate rows",
+      "access_date": "2026-10-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "Official bulk data, not a Catalog API response. Protected identifiers, coded occupations, alternate conflicting names and raw records are excluded from public output."
+    },
+    {
+      "key": "loc-schlesinger-1940-b845",
+      "stable_url": "https://www.loc.gov/resource/sn83020847/1940-04-04/ed-1/?sp=8",
+      "archival_identifier": "Chronicling America; sn83020847; 1940-04-04; edition 1; page 8",
+      "title": "Springfield Weekly Republican, April 4, 1940, page 8",
+      "repository_publisher": "Springfield Weekly Republican; Library of Congress",
+      "publication_record_date": "1940-04-04",
+      "locator": "Page 8 review identifying Arthur M. Schlesinger Jr. through his 1939 Orestes A. Brownson book",
+      "access_date": "2026-10-16",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Chronicling America: Historic American Newspapers",
+      "rights_notes": "Item-level OCR and page context reviewed. The item supports scholar and author status only and is not evidence that Harvard was his employer."
+    },
+    {
+      "key": "nps-schlangen-b845",
+      "source_id": "aea16f9e-c0ed-5228-9d71-519db0686a68",
+      "stable_url": "https://www.nps.gov/articles/daily-life-in-camp-park-and-town.htm",
+      "title": "Daily Life in Camp Park and Town",
+      "repository_publisher": "U.S. National Park Service",
+      "publication_record_date": "2017-07-27",
+      "locator": "Espionage and Sabotage Exercises in the Region; lines describing the June 1942 Advanced SO class",
+      "access_date": "2026-10-16",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "OSS Training in the National Parks and Service Abroad in World War II",
+      "rights_notes": "The National Park Service history identifies Robert Schlangen as coming from the State Department in a June 1942 Advanced Special Operations class; its note 81 cites Edgar Prichard's 1991 address, pages 5-6, in the Prince William Forest Park Archives."
+    },
+    {
+      "key": "nara-donovan-schley-b845",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/directors-microfilm-roll-list.pdf",
+      "archival_identifier": "Record Group 226; General William J. Donovan selected OSS documents; Roll 8, frames 78-79",
+      "title": "General William J. Donovan: Selected OSS Documents, 1941-1945, Microfilm Roll List and Index",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "Undated finding aid; PDF modified 2010-12-23",
+      "locator": "Roll 8, frames 78-79; February 3, 1944 report by Reeve Schley Jr. on agents recruited in Washington",
+      "access_date": "2026-10-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "Selected OSS Documents, 1941-1945",
+      "rights_notes": "The finding aid supplies a direct OSS identity and archival locator, not a pre-OSS civilian employer."
+    },
+    {
+      "key": "usmc-germinal-schley-b845",
+      "stable_url": "https://www.govinfo.gov/content/pkg/GOVPUB-D214-PURL-gpo66817/pdf/GOVPUB-D214-PURL-gpo66817.pdf",
+      "archival_identifier": "GOVPUB-D214-PURL-gpo66817",
+      "title": "Herringbone Cloak—GI Dagger: Marines of the OSS",
+      "author_creator": "Major Robert E. Mattingly, United States Marine Corps",
+      "repository_publisher": "History and Museums Division, Headquarters, U.S. Marine Corps; GovInfo digital copy",
+      "publication_record_date": "1989",
+      "locator": "Printed page 291; Germinal Mission log identifying Captain Reeve Schley Jr. as a Cavalry officer",
+      "access_date": "2026-10-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "U.S. Marine Corps Occasional Papers",
+      "rights_notes": "Official military history. The protected identifier printed in the mission log remains excluded from public excerpts and downloads."
+    },
+    {
+      "key": "nyt-schley-family-b845",
+      "stable_url": "https://www.legacy.com/us/obituaries/nytimes/name/john-schley-obituary?id=57954716",
+      "archival_identifier": "New York Times death notice for John Prentice Schley",
+      "title": "John Prentice Schley obituary",
+      "repository_publisher": "The New York Times via Legacy.com",
+      "publication_record_date": "2025",
+      "locator": "Opening biographical paragraph describing Reeve Schley Jr.'s Cavalry service at Fort Riley and later OSS mission in France",
+      "access_date": "2026-10-16",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The New York Times death notices",
+      "rights_notes": "Family-authored notice used only to qualify the earlier Cavalry assignment. Official NARA and Marine Corps sources independently establish the OSS identity."
+    },
+    {
+      "key": "cia-schluter-b845",
+      "stable_url": "https://www.cia.gov/readingroom/docs/BISHOP%2C%20ROBERT%20%20%20VOL.%202_0030.pdf",
+      "archival_identifier": "CIA Reading Room document BISHOP, ROBERT VOL. 2_0030",
+      "title": "8 August 1949 memorandum: Interviews with Subject",
+      "author_creator": "Central Intelligence Agency",
+      "repository_publisher": "CIA Freedom of Information Act Electronic Reading Room",
+      "publication_record_date": "1949-08-08",
+      "locator": "Memorandum page 13, paragraph 36; Claymer Schluter identified with CIC Germany and SSU context",
+      "access_date": "2026-10-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "OSS Collection; Robert Bishop personnel file, Volume 2",
+      "rights_notes": "Used for identity and service continuity only. The passage is post-OSS and does not establish a pre-OSS employer."
+    },
+    {
+      "key": "nypl-edmond-schlesinger-b845",
+      "stable_url": "https://nyplorg-data-archives.s3.amazonaws.com/uploads/collection/generated_finding_aids/mss922.pdf",
+      "archival_identifier": "New York Public Library MssCol 922; Box 112, folder 27",
+      "title": "Guide to the Emergency Committee in Aid of Displaced Foreign Scholars records",
+      "author_creator": "New York Public Library, Manuscripts and Archives Division",
+      "repository_publisher": "The New York Public Library",
+      "publication_record_date": "Finding aid current through 2026",
+      "locator": "PDF page 120; Box 112, folder 27; Schlesinger, Edmond Robert, 1941-1943",
+      "access_date": "2026-10-16",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Emergency Committee in Aid of Displaced Foreign Scholars records",
+      "rights_notes": "The finding aid provides a full-name and wartime archival lead but does not itself link the person to OSS or name an employer."
+    },
+    {
+      "key": "louisville-edmond-schlesinger-b845",
+      "stable_url": "https://digital.library.louisville.edu/concern/images/ulua_2008_123_0236?locale=en",
+      "archival_identifier": "University of Louisville Archives and Records Center item ULUA 2008_123_0236",
+      "title": "Edmond R. Schlesinger with Alumni Office staff outside University College Building, 1960",
+      "repository_publisher": "University of Louisville Archives and Records Center",
+      "publication_record_date": "1960-04 photograph; modern catalog description",
+      "locator": "Catalog description identifying Edmond Schlesinger as a former law student, soldier and journalist who immigrated during World War II",
+      "access_date": "2026-10-16",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "University of Louisville Digital Collections",
+      "rights_notes": "Used as biographical corroboration only. The catalog description does not explicitly identify OSS service or establish immediate pre-OSS employment."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "state-department-b845",
+      "organization_id": "4d2fbb5f-218d-5445-b7b3-4c2fd22f0286",
+      "canonical_name": "United States Department of State",
+      "historical_name": "Department of State",
+      "aliases": ["U.S. Department of State", "State Department", "Foreign Service"],
+      "organization_type": "federal department",
+      "sector": "federal_government",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused; State Department affiliation is modeled as a government assignment rather than a civilian employer."
+    },
+    {
+      "key": "us-army-b845",
+      "organization_id": "28a26f92-78af-5a1a-9c09-a843eb5975b4",
+      "canonical_name": "United States Army",
+      "historical_name": "United States Army",
+      "aliases": ["U.S. Army", "Army"],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused; no unit is inferred where the reviewed sources do not name one."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "robert-schlangen-state-b845",
+      "person_id": "ba63cec6-967a-5539-8d31-314b46b2740a",
+      "organization_key": "state-department-b845",
+      "organization_name_as_found": "State Department",
+      "relationship_type": "government_assignment",
+      "end_date": "1942-06",
+      "date_precision": "month",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The NPS history places Schlangen in a June 1942 Advanced SO class and explicitly describes him as coming from the State Department. This establishes the immediate government affiliation, not a private-sector employer."
+    },
+    {
+      "key": "reeve-schley-army-cavalry-b845",
+      "person_id": "96f4df4d-2b15-54c6-a423-69683cefa21c",
+      "organization_key": "us-army-b845",
+      "organization_name_as_found": "US Cavalry",
+      "role_title": "Cavalry officer at Fort Riley",
+      "relationship_type": "military_assignment",
+      "start_date": "1941",
+      "date_precision": "approximate year",
+      "city": "Fort Riley",
+      "state_or_region": "Kansas",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "A family death notice places Schley in the U.S. Cavalry at Fort Riley at the beginning of World War II. Official NARA and Marine Corps sources independently establish his OSS identity and Captain/Cavalry status, but the precise Army-to-OSS transfer date remains archival."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-marcus-a-schillace-b845",
+      "person_id": "49e5cc7b-2445-5559-afe9-92636212076a",
+      "claim_type": "identity",
+      "claim_text": "Indexed Corporal Marcus A. Schillace is strongly linked to the same-named official Army record through a protected identifier.",
+      "evidence_paraphrase": "The indexed and Army records agree in exact full name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact full-name agreement and a unique private official Army crosswalk.",
+      "temporal_assessment": "The Army source establishes identity at entry but not a named employer or the exact route into OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded civilian occupation remain private; no employer is inferred from the occupation code.",
+      "sources": [
+        {"source_key": "nara-index-b845", "support_type": "supports", "locator_override": "PDF page 412, row 24; Box 683"},
+        {"source_key": "army-bulk-b845", "support_type": "supports", "locator_override": "Private protected-identifier crosswalk; exact name match"}
+      ]
+    },
+    {
+      "key": "identity-hollis-r-schilt-b845",
+      "person_id": "a6feb4e2-f139-55df-9ba4-0dac0fa9a14f",
+      "claim_type": "identity",
+      "claim_text": "Indexed Technician Fifth Grade Hollis R. Schilt is strongly linked to the same-named official Army record through a protected identifier.",
+      "evidence_paraphrase": "The indexed and Army records agree in exact full name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact full-name agreement and a unique private official Army crosswalk.",
+      "temporal_assessment": "The Army source establishes identity at entry but not a named employer or the exact route into OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army grade and occupation codes remain private and are not substituted for the printed OSS index grade or an employer.",
+      "sources": [
+        {"source_key": "nara-index-b845", "support_type": "supports", "locator_override": "PDF page 412, row 26; Box 683"},
+        {"source_key": "army-bulk-b845", "support_type": "supports", "locator_override": "Private protected-identifier crosswalk; exact name match"}
+      ]
+    },
+    {
+      "key": "identity-stuart-b-schimmel-b845",
+      "person_id": "335d4855-21cb-5088-95b0-b11833a4ae41",
+      "claim_type": "identity",
+      "claim_text": "Indexed Stuart B. Schimmel is strongly linked to the same-named official Army record through a protected identifier.",
+      "evidence_paraphrase": "The indexed and Army records agree in exact full name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact full-name agreement and a unique private official Army crosswalk.",
+      "temporal_assessment": "The Army source establishes identity at entry but not a named employer or the exact route into OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded civilian occupation remain private; no employer is inferred.",
+      "sources": [
+        {"source_key": "nara-index-b845", "support_type": "supports", "locator_override": "PDF page 412, row 27; Box 683"},
+        {"source_key": "army-bulk-b845", "support_type": "supports", "locator_override": "Private protected-identifier crosswalk; exact name match"}
+      ]
+    },
+    {
+      "key": "identity-charles-j-schimpf-b845",
+      "person_id": "b90c27e8-f865-540c-9359-19ae5ab520dc",
+      "claim_type": "identity",
+      "claim_text": "Indexed Charles J. Schimpf is strongly linked to the same-named official Army record through a protected identifier.",
+      "evidence_paraphrase": "The indexed and Army records agree in exact full name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact full-name agreement and a unique private official Army crosswalk.",
+      "temporal_assessment": "The Army source establishes identity at entry but not a named employer or the exact route into OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded civilian occupation remain private; no employer is inferred.",
+      "sources": [
+        {"source_key": "nara-index-b845", "support_type": "supports", "locator_override": "PDF page 412, row 28; Box 683"},
+        {"source_key": "army-bulk-b845", "support_type": "supports", "locator_override": "Private protected-identifier crosswalk; exact name match"}
+      ]
+    },
+    {
+      "key": "identity-peter-f-schinchirimini-conflict-b845",
+      "person_id": "745bcc8f-e823-5ee9-b10c-a189e64c6596",
+      "claim_type": "identity",
+      "claim_text": "The protected identifier on indexed Technician Fifth Grade Peter F. Schinchirimini conflicts with the materially different name in the corresponding official Army row.",
+      "evidence_paraphrase": "The same private identifier points to two incompatible full names, so neither identity nor occupation is assigned publicly.",
+      "identity_match_assessment": "Conflicting. A unique identifier agrees, but the names do not; direct personnel-file review is required.",
+      "temporal_assessment": "No pre-OSS affiliation or employer chronology can be assigned until the identity conflict is resolved.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The alternate Army name, private identifier, coded occupation and raw row remain withheld. The index remains the public display authority pending Box 683 review.",
+      "sources": [
+        {"source_key": "nara-index-b845", "support_type": "supports", "locator_override": "PDF page 412, row 30; Box 683"},
+        {"source_key": "army-bulk-b845", "support_type": "contradicts", "locator_override": "Private protected-identifier conflict; alternate name withheld"}
+      ]
+    },
+    {
+      "key": "identity-james-c-schindler-b845",
+      "person_id": "ac61e02f-2e7d-5359-b0a3-1fdab0134f61",
+      "claim_type": "identity",
+      "claim_text": "Indexed James C. Schindler is strongly linked to the same-named official Army record through a protected identifier.",
+      "evidence_paraphrase": "The indexed and Army records agree in exact full name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact full-name agreement and a unique private official Army crosswalk.",
+      "temporal_assessment": "The Army source establishes identity at entry but not a named employer or the exact route into OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded civilian occupation remain private; no employer is inferred.",
+      "sources": [
+        {"source_key": "nara-index-b845", "support_type": "supports", "locator_override": "PDF page 412, row 31; Box 683"},
+        {"source_key": "army-bulk-b845", "support_type": "supports", "locator_override": "Private protected-identifier crosswalk; exact name match"}
+      ]
+    },
+    {
+      "key": "identity-francis-j-schlack-b845",
+      "person_id": "584856d4-71c7-51c1-a1a9-e0dd1aa6ce44",
+      "claim_type": "identity",
+      "claim_text": "Indexed Francis J. Schlack is strongly linked to the same-named official Army record through a protected identifier.",
+      "evidence_paraphrase": "The indexed and Army records agree in exact full name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact full-name agreement and a unique private official Army crosswalk.",
+      "temporal_assessment": "The Army source establishes identity at entry but not a named employer or the exact route into OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded civilian occupation remain private; no employer is inferred.",
+      "sources": [
+        {"source_key": "nara-index-b845", "support_type": "supports", "locator_override": "PDF page 412, row 34; Box 683"},
+        {"source_key": "army-bulk-b845", "support_type": "supports", "locator_override": "Private protected-identifier crosswalk; exact name match"}
+      ]
+    },
+    {
+      "key": "identity-louis-a-schlafani-b845",
+      "person_id": "42f4688e-a1ab-5ecd-a7a4-35e11dce4c6c",
+      "claim_type": "identity",
+      "claim_text": "Indexed Louis A. Schlafani is strongly linked to the Army record printed as Louis A. Sclafani.",
+      "evidence_paraphrase": "A nonshared protected identifier and exact given names and middle initial align; the surnames differ by one letter.",
+      "identity_match_assessment": "High confidence from the unique official identifier and the distinctive near-exact name.",
+      "temporal_assessment": "The Army source establishes identity at entry but not a named employer or the exact route into OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Schlafani remains the indexed display form; Sclafani is a documented source variant rather than a silent correction. The occupation code remains private.",
+      "sources": [
+        {"source_key": "nara-index-b845", "support_type": "supports", "locator_override": "PDF page 412, row 35; Box 683"},
+        {"source_key": "army-bulk-b845", "support_type": "supports", "locator_override": "Private protected-identifier crosswalk; Sclafani surname variant"}
+      ]
+    },
+    {
+      "key": "identity-adrian-a-schlaht-b845",
+      "person_id": "bc18d8a4-a651-5a89-bf67-c6c04ca1e500",
+      "claim_type": "identity",
+      "claim_text": "Indexed Adrian A. Schlaht is strongly linked to the same-named official Army record through a protected identifier.",
+      "evidence_paraphrase": "The indexed and Army records agree in exact full name and a nonshared protected identifier.",
+      "identity_match_assessment": "High confidence from exact full-name agreement and a unique private official Army crosswalk.",
+      "temporal_assessment": "The Army source establishes identity at entry but not a named employer or the exact route into OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded civilian occupation remain private; no employer is inferred.",
+      "sources": [
+        {"source_key": "nara-index-b845", "support_type": "supports", "locator_override": "PDF page 412, row 36; Box 683"},
+        {"source_key": "army-bulk-b845", "support_type": "supports", "locator_override": "Private protected-identifier crosswalk; exact name match"}
+      ]
+    },
+    {
+      "key": "identity-robert-schlangen-b845",
+      "person_id": "ba63cec6-967a-5539-8d31-314b46b2740a",
+      "claim_type": "identity",
+      "claim_text": "The indexed Robert Schlangen is the same person whom the National Park Service places in a June 1942 Advanced OSS Special Operations class.",
+      "evidence_excerpt": "Robert Schlangen from the State Department",
+      "evidence_paraphrase": "An authoritative NPS history names the uncommon exact name in an early OSS training class and identifies his source organization.",
+      "identity_match_assessment": "High confidence from the uncommon exact name, direct OSS training context and compatible page-412 index record.",
+      "temporal_assessment": "The NPS history dates the OSS class to June 1942 and names the State Department as Schlangen's prior affiliation.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "A family-recollection discovery lead was not used; the claim rests on the institutional NPS history and its archived Prichard address citation.",
+      "sources": [
+        {"source_key": "nara-index-b845", "support_type": "supports", "locator_override": "PDF page 412, row 38; Box 683"},
+        {"source_key": "nps-schlangen-b845", "support_type": "supports", "locator_override": "Espionage and Sabotage Exercises in the Region; June 1942 Advanced SO class; note 81"}
+      ]
+    },
+    {
+      "key": "immediate-robert-schlangen-state-b845",
+      "person_id": "ba63cec6-967a-5539-8d31-314b46b2740a",
+      "affiliation_key": "robert-schlangen-state-b845",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Robert Schlangen came to the June 1942 Advanced OSS Special Operations class from the U.S. Department of State.",
+      "evidence_excerpt": "Robert Schlangen from the State Department",
+      "evidence_paraphrase": "The NPS history explicitly describes Schlangen as coming from the State Department when listing members of the June 1942 class.",
+      "identity_match_assessment": "High confidence from the uncommon exact name and direct OSS training context.",
+      "temporal_assessment": "Explicit immediate: the source identifies the organization from which Schlangen entered the early OSS training class.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This is a government assignment, not a private employer or last civilian-employer finding.",
+      "sources": [
+        {"source_key": "nps-schlangen-b845", "support_type": "supports", "locator_override": "June 1942 Advanced SO class paragraph; archived Prichard address cited at note 81"}
+      ]
+    },
+    {
+      "key": "occupation-arthur-m-schlesinger-1940-b845",
+      "person_id": "7f111cc6-d046-5eac-93ab-63f6387c204b",
+      "claim_type": "occupation",
+      "claim_text": "A contemporary April 1940 newspaper described Arthur M. Schlesinger Jr. as a young Harvard scholar and author.",
+      "evidence_excerpt": "a young Harvard scholar, and son of the historian",
+      "evidence_paraphrase": "The review identifies Schlesinger through his 1939 Brownson book and characterizes his contemporary scholarly and authorial status.",
+      "identity_match_assessment": "High confidence because the item names Arthur M. Schlesinger Jr., identifies his father, and discusses his specifically titled 1939 book.",
+      "temporal_assessment": "Documented prewar context in April 1940; the item does not show that Harvard employed him or that this was immediately before OSS.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The claim is occupation and intellectual context only. Harvard is not converted into an employer; the existing Society of Fellows affiliation remains separate.",
+      "sources": [
+        {"source_key": "loc-schlesinger-1940-b845", "support_type": "supports", "locator_override": "Springfield Weekly Republican, April 4, 1940, page 8"}
+      ]
+    },
+    {
+      "key": "identity-edmond-schlesinger-b845",
+      "person_id": "62efddb6-4cb5-566b-8141-1af088bf3041",
+      "claim_type": "identity",
+      "claim_text": "The indexed Edmond Schlesinger probably represents Edmond Robert Schlesinger, a European émigré whom institutional records describe as a wartime soldier and journalist.",
+      "evidence_excerpt": "former law student, soldier and journalist",
+      "evidence_paraphrase": "NYPL records place Edmond Robert Schlesinger in a displaced-scholars file from 1941-1943, while Louisville's archive describes the same full-name émigré as a former soldier and journalist.",
+      "identity_match_assessment": "Probable, not high confidence: the uncommon name and compatible wartime migration and soldier context align, but neither institutional source explicitly links him to OSS or the Box 683 file.",
+      "temporal_assessment": "The institutional evidence is wartime and compatible with OSS service, but the precise pre-OSS sequence remains unresolved.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The candidate is published only as qualified identity context and is excluded from default employer analytics. Box 683 must be reviewed before assigning Cornell, journalism or another employer.",
+      "sources": [
+        {"source_key": "nara-index-b845", "support_type": "supports", "locator_override": "PDF page 412, row 41; Box 683"},
+        {"source_key": "nypl-edmond-schlesinger-b845", "support_type": "supports", "locator_override": "PDF page 120; Box 112, folder 27; 1941-1943"},
+        {"source_key": "louisville-edmond-schlesinger-b845", "support_type": "supports", "locator_override": "Item ULUA 2008_123_0236 catalog description"}
+      ]
+    },
+    {
+      "key": "identity-reeve-schley-jr-b845",
+      "person_id": "96f4df4d-2b15-54c6-a423-69683cefa21c",
+      "claim_type": "identity",
+      "claim_text": "Indexed Captain Reeve Schley is Reeve Schley Jr., the OSS Cavalry officer documented in the Germinal Mission and NARA director's records.",
+      "evidence_excerpt": "Report of Reeve Schley Jr. on last 9 agents recruited in Washington",
+      "evidence_paraphrase": "NARA identifies an OSS report by Reeve Schley Jr.; an official Marine Corps history lists Captain Reeve Schley Jr. as a Cavalry officer on the Germinal Mission.",
+      "identity_match_assessment": "High confidence from the exact uncommon name, Captain grade, protected identifier agreement and two official OSS sources that supply the Jr. suffix.",
+      "temporal_assessment": "The official records establish OSS service by February 1944 and the September 1944 Germinal Mission, but not a civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The senior Reeve Schley's banking career is not assigned to this person. The protected service identifier remains private.",
+      "sources": [
+        {"source_key": "nara-index-b845", "support_type": "supports", "locator_override": "PDF page 412, row 43; Box 684; Captain"},
+        {"source_key": "nara-donovan-schley-b845", "support_type": "supports", "locator_override": "Roll 8, frames 78-79; February 3, 1944"},
+        {"source_key": "usmc-germinal-schley-b845", "support_type": "supports", "locator_override": "Printed page 291; Germinal Mission personnel list; protected identifier omitted"}
+      ]
+    },
+    {
+      "key": "other-preoss-reeve-schley-cavalry-b845",
+      "person_id": "96f4df4d-2b15-54c6-a423-69683cefa21c",
+      "affiliation_key": "reeve-schley-army-cavalry-b845",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A family death notice places Reeve Schley Jr. in the U.S. Cavalry at Fort Riley at the beginning of World War II, before his OSS mission in France.",
+      "evidence_excerpt": "his father had enlisted in the US Cavalry at the beginning of WWII",
+      "evidence_paraphrase": "The notice describes his son's early schooling at Fort Riley while Schley served in the Cavalry, then separately notes Schley's OSS parachute mission in France.",
+      "identity_match_assessment": "High confidence in the person from the two independent official OSS sources; the family notice supplies the Fort Riley detail.",
+      "temporal_assessment": "Documented wartime assignment before the described OSS mission, but not proven to be the immediate transfer point into OSS.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "This is a qualified military-assignment claim. The senior Reeve Schley's Chase National Bank position is excluded, and no civilian employer is assigned to Reeve Jr.",
+      "sources": [
+        {"source_key": "nyt-schley-family-b845", "support_type": "supports", "locator_override": "Opening biographical paragraph"},
+        {"source_key": "usmc-germinal-schley-b845", "support_type": "supports", "locator_override": "Printed page 291; Captain Reeve Schley Jr. identified as Cavalry on Germinal Mission"}
+      ]
+    },
+    {
+      "key": "identity-herbert-w-schlickenmaie-b845",
+      "person_id": "b1685556-2f90-53f4-bff3-bde745f8dd47",
+      "claim_type": "identity",
+      "claim_text": "Indexed Staff Sergeant Herbert W. Schlickenmaie is strongly linked to the Army record printed as H. W. Schlickenmaier.",
+      "evidence_paraphrase": "A nonshared protected identifier agrees, and the printed index surname is the Army surname without its final letter.",
+      "identity_match_assessment": "High confidence from the unique official identifier, distinctive surname and compatible initials.",
+      "temporal_assessment": "The Army source establishes identity at entry but not a named employer or the exact route into OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Schlickenmaie remains the visibly indexed display form; Schlickenmaier is a documented variant rather than a silent correction. The occupation code remains private.",
+      "sources": [
+        {"source_key": "nara-index-b845", "support_type": "supports", "locator_override": "PDF page 412, row 44; Box 684"},
+        {"source_key": "army-bulk-b845", "support_type": "supports", "locator_override": "Private protected-identifier crosswalk; Schlickenmaier surname variant"}
+      ]
+    },
+    {
+      "key": "identity-frederick-c-schlien-conflict-b845",
+      "person_id": "6232e29f-d11d-5d9e-a459-7d8af28d2395",
+      "claim_type": "identity",
+      "claim_text": "The protected identifier on indexed Staff Sergeant Frederick C. Schlien conflicts with the materially different name in the corresponding official Army row.",
+      "evidence_paraphrase": "The same private identifier points to two incompatible full names, so neither identity nor occupation is assigned publicly.",
+      "identity_match_assessment": "Conflicting. A unique identifier agrees, but the names do not; direct personnel-file review is required.",
+      "temporal_assessment": "No pre-OSS affiliation or employer chronology can be assigned until the identity conflict is resolved.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The alternate Army name, private identifier, coded occupation and raw row remain withheld. The index remains the public display authority pending Box 684 review.",
+      "sources": [
+        {"source_key": "nara-index-b845", "support_type": "supports", "locator_override": "PDF page 412, row 45; Box 684"},
+        {"source_key": "army-bulk-b845", "support_type": "contradicts", "locator_override": "Private protected-identifier conflict; alternate name withheld"}
+      ]
+    },
+    {
+      "key": "identity-claymer-schluter-b845",
+      "person_id": "8eb9c90a-0c92-5bb2-a6fe-17144b49774d",
+      "claim_type": "identity",
+      "claim_text": "The indexed Claymer Schluter is the same distinctive-named OSS veteran whom a 1949 CIA memorandum identifies as a Captain associated with CIC Germany and SSU.",
+      "evidence_excerpt": "Captain Claymer Schluter (CIC Germany, then SSU in civilian capacity)",
+      "evidence_paraphrase": "A direct CIA record names Captain Claymer Schluter in an OSS-to-SSU personnel context after the war.",
+      "identity_match_assessment": "High confidence from the extremely distinctive exact name and direct official OSS, CIC and SSU context.",
+      "temporal_assessment": "The 1949 account describes post-OSS continuity and cannot establish his employer or assignment before OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The source confirms identity and service continuity only. No pre-OSS affiliation is inferred from later CIC or SSU work.",
+      "sources": [
+        {"source_key": "nara-index-b845", "support_type": "supports", "locator_override": "PDF page 412, row 46; Box 684"},
+        {"source_key": "cia-schluter-b845", "support_type": "supports", "locator_override": "Memorandum page 13, paragraph 36"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {"person_id":"49e5cc7b-2445-5559-afe9-92636212076a","identity_status":"high_confidence","identity_evidence":"Exact name and a nonshared protected identifier agree between the index and official Army bulk record; the Army record supports identity only.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 683 for Marcus A. Schillace's pre-Army occupation, employer and Army-to-OSS chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"fbec618c-1471-53cb-a3a1-b69469bc5ac5","identity_status":"unresolved","identity_evidence":"Exact-name, CAF-5, federal-employment, OSS, obituary, directory and institutional searches produced no source with corroborating identifiers or a pre-OSS chronology.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 683 for Marian M. Schillinger's identity, CAF-5 employment history and immediate pre-OSS affiliation.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"a6feb4e2-f139-55df-9ba4-0dac0fa9a14f","identity_status":"high_confidence","identity_evidence":"Exact name and a nonshared protected identifier agree between the index and official Army bulk record; the Army record supports identity only.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 683 for Hollis R. Schilt's pre-Army occupation, employer and Army-to-OSS chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"335d4855-21cb-5088-95b0-b11833a4ae41","identity_status":"high_confidence","identity_evidence":"Exact name and a nonshared protected identifier agree between the index and official Army bulk record; the Army record supports identity only.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 683 for Stuart B. Schimmel's pre-Army occupation, employer and Army-to-OSS chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"b90c27e8-f865-540c-9359-19ae5ab520dc","identity_status":"high_confidence","identity_evidence":"Exact name and a nonshared protected identifier agree between the index and official Army bulk record; the Army record supports identity only.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 683 for Charles J. Schimpf's pre-Army occupation, employer and Army-to-OSS chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"3f1cf07b-c1c5-5798-be83-a4d9342a7240","identity_status":"unresolved","identity_evidence":"Initials-only and spelling-variant OSS, obituary, directory and institutional searches yielded no candidate with enough corroborating evidence to identify B. P. Schinchirimini.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 683 for B. P. Schinchirimini's full name, identifiers, nationality and pre-OSS affiliation.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"745bcc8f-e823-5ee9-b10c-a189e64c6596","identity_status":"conflicting","identity_evidence":"The protected identifier on the index row points to an official Army row with a materially different full name. The alternate identity remains private and unassigned.","manual_review_required":true,"research_status":"conflicting_sources","next_action":"Review Box 683 and the original Army context to resolve Peter F. Schinchirimini's protected-identifier/name conflict.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"ac61e02f-2e7d-5359-b0a3-1fdab0134f61","identity_status":"high_confidence","identity_evidence":"Exact name and a nonshared protected identifier agree between the index and official Army bulk record; the Army record supports identity only.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 683 for James C. Schindler's pre-Army occupation, employer and Army-to-OSS chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"d4e2ee7a-8d50-5e78-9fe9-0d6a0eee6d62","identity_status":"unresolved","identity_evidence":"Exact-name, spelling-variant, OSS, obituary, directory and institutional searches yielded no sufficiently specific identity or employer evidence.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 683 for Harold H. Schiowitz's identifiers, nationality and pre-OSS affiliation.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"5c3ea8a0-f94b-585e-8b5b-35d6ef90c123","identity_status":"unresolved","identity_evidence":"Exact-name, military, OSS, obituary, directory and institutional searches returned namesakes without corroborating OSS identifiers or employment chronology.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 683 for Charles N. Schirone's identity, service history and pre-OSS affiliation.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"584856d4-71c7-51c1-a1a9-e0dd1aa6ce44","identity_status":"high_confidence","identity_evidence":"Exact name and a nonshared protected identifier agree between the index and official Army bulk record; the Army record supports identity only.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 683 for Francis J. Schlack's pre-Army occupation, employer and Army-to-OSS chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"42f4688e-a1ab-5ecd-a7a4-35e11dce4c6c","identity_status":"high_confidence","identity_evidence":"A nonshared protected identifier, exact given names and middle initial connect indexed Louis A. Schlafani to the official Army spelling Louis A. Sclafani.","name_variants":["Louis A Sclafani"],"manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 683 for Louis A. Schlafani/Sclafani's pre-Army occupation, employer and Army-to-OSS chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"bc18d8a4-a651-5a89-bf67-c6c04ca1e500","identity_status":"high_confidence","identity_evidence":"Exact name and a nonshared protected identifier agree between the index and official Army bulk record; the Army record supports identity only.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 683 for Adrian A. Schlaht's pre-Army occupation, employer and Army-to-OSS chronology; retry CIA only if access policy changes.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"d4dcd64c-80c4-5004-b48b-f9984fdaf48a","identity_status":"unresolved","identity_evidence":"Exact-name, military, OSS, obituary, directory and institutional searches yielded no candidate with corroborating identifiers or a reliable employment chronology.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 683 for Kermit F. Schlamb's identifiers, service path and pre-OSS affiliation.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"ba63cec6-967a-5539-8d31-314b46b2740a","identity_status":"high_confidence","identity_evidence":"The uncommon exact name appears in an authoritative NPS history of a June 1942 Advanced OSS Special Operations class, with the State Department named as his source organization.","manual_review_required":false,"research_status":"completed","next_action":"Review Box 683 to identify Robert Schlangen's specific State Department role and any earlier civilian employer.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"medium"},
+    {"person_id":"6f2d4d43-bd2b-5c2c-a259-0dddc752028f","identity_status":"unresolved","identity_evidence":"Exact-name, middle-initial, OSS, military, newspaper, obituary and institutional searches produced no candidate with corroborating identifiers beyond the index row.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 683 for Frederick C. Schlein's identity, the unusual printed identifier and pre-OSS affiliation.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"7f111cc6-d046-5eac-93ab-63f6387c204b","identity_status":"high_confidence","identity_evidence":"Existing official biographical evidence establishes Arthur M. Schlesinger Jr.; the official Army crosswalk and 1940 newspaper item add corroboration without changing the published OWI chronology.","name_variants":["Arthur M Schlesinger Jr","Arthur Meier Schlesinger Jr"],"manual_review_required":false,"research_status":"verified_employer_found","next_action":"Review Box 683 for his OWI departure and OSS appointment records and for any earlier compensated Harvard role.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"medium"},
+    {"person_id":"62efddb6-4cb5-566b-8141-1af088bf3041","identity_status":"probable","identity_evidence":"The uncommon Edmond Schlesinger name, NYPL's wartime Edmond Robert Schlesinger file and Louisville's émigré soldier/journalist description align, but no reviewed source directly bridges him to the Box 683 OSS file.","name_variants":["Edmond Robert Schlesinger","Edmund Schlesinger"],"manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 683 and NYPL Box 112 folder 27 before assigning Cornell, journalism or another pre-OSS affiliation.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"3a26cde1-e749-53d5-98c1-0c6acf60c267","identity_status":"unresolved","identity_evidence":"Exact-name, middle-initial, female-personnel, OSS, obituary, directory and institutional searches yielded no candidate with corroborating identifiers beyond the index row.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 683 for Aline B. Schletter's identity, the A-prefixed private identifier and pre-OSS employment history.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"96f4df4d-2b15-54c6-a423-69683cefa21c","identity_status":"high_confidence","identity_evidence":"The exact uncommon name, Captain grade, protected identifier and two official OSS sources identify the indexed person as Reeve Schley Jr.; his father's banking career is excluded.","name_variants":["Reeve Schley Jr"],"personnel_category":"commissioned_army_officer","commissioned_officer":true,"manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 684 for Reeve Schley Jr.'s civilian career, exact Cavalry assignment and Army-to-OSS transfer chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"b1685556-2f90-53f4-bff3-bde745f8dd47","identity_status":"high_confidence","identity_evidence":"A nonshared protected identifier and distinctive surname connect the visibly indexed Schlickenmaie form to the official Army spelling Schlickenmaier.","name_variants":["Herbert W Schlickenmaier"],"manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 684 for Herbert W. Schlickenmaie/Schlickenmaier's pre-Army occupation, employer and Army-to-OSS chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"6232e29f-d11d-5d9e-a459-7d8af28d2395","identity_status":"conflicting","identity_evidence":"The protected identifier on the index row points to an official Army row with a materially different full name. The alternate identity remains private and unassigned.","manual_review_required":true,"research_status":"conflicting_sources","next_action":"Review Box 684 and the original Army context to resolve Frederick C. Schlien's protected-identifier/name conflict.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"8eb9c90a-0c92-5bb2-a6fe-17144b49774d","identity_status":"high_confidence","identity_evidence":"A direct CIA memorandum uses the extremely distinctive exact name Claymer Schluter in OSS, CIC and SSU personnel context.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 684 for Claymer Schluter's pre-OSS occupation and assignment; the CIA memorandum documents only post-OSS continuity.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"}
+  ],
+  "research_attempts": [
+    {"key":"marcus-a-schillace-b845","person_id":"49e5cc7b-2445-5559-afe9-92636212076a","source_adapter":"manual_staged_protocol","query_text":"NARA page 412 row 24; Marcus A Schillace; CPL; official Army crosswalk; exact-name OSS; CIA access check; LoC; employer, occupation, obituary, institutional and archival searches; Box 683","query_variant_type":"staged_identity_employment_archival_protocol_batch_845","started_at":"2026-10-16T10:30:00+00:00","completed_at":"2026-10-16T11:03:00+00:00","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":2,"rejection_reasons":"Same-name military and genealogy leads lacked independent OSS linkage or named-employer chronology.","research_notes":"Official Army identity evidence was accepted, but no reliable pre-OSS employer or affiliation was found. CIA automated access failed and was not treated as negative evidence.","next_action":"Review Box 683 for pre-Army employment and Army-to-OSS chronology.","attempt_number":5,"research_agent_version":"before-oss-b845-v1"},
+    {"key":"marian-m-schillinger-b845","person_id":"fbec618c-1471-53cb-a3a1-b69469bc5ac5","source_adapter":"manual_staged_protocol","query_text":"NARA page 412 row 25; Marian M Schillinger; CAF-5; exact-name OSS and federal employment; CIA access check; LoC; employer, obituary, directory, institutional and archival searches; Box 683","query_variant_type":"staged_identity_employment_archival_protocol_batch_845","started_at":"2026-10-16T10:30:00+00:00","completed_at":"2026-10-16T11:03:00+00:00","outcome":"candidate_rejected","sources_reviewed":5,"candidate_sources_rejected":3,"rejection_reasons":"Name-only directory, genealogy and later-career results lacked OSS linkage, identifying details and relevant chronology.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 683 for identity and CAF-5 employment chronology.","attempt_number":5,"research_agent_version":"before-oss-b845-v1"},
+    {"key":"hollis-r-schilt-b845","person_id":"a6feb4e2-f139-55df-9ba4-0dac0fa9a14f","source_adapter":"manual_staged_protocol","query_text":"NARA page 412 row 26; Hollis R Schilt; T-5; official Army crosswalk; exact-name OSS; CIA access check; LoC; employer, occupation, obituary and archival searches; Box 683","query_variant_type":"staged_identity_employment_archival_protocol_batch_845","started_at":"2026-10-16T10:30:00+00:00","completed_at":"2026-10-16T11:03:00+00:00","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":2,"rejection_reasons":"Same-name veteran and obituary leads supplied no named pre-OSS employer or independent OSS bridge.","research_notes":"Official Army identity evidence was accepted; the coded occupation was not converted into an employer.","next_action":"Review Box 683 for pre-Army employment and service chronology.","attempt_number":5,"research_agent_version":"before-oss-b845-v1"},
+    {"key":"stuart-b-schimmel-b845","person_id":"335d4855-21cb-5088-95b0-b11833a4ae41","source_adapter":"manual_staged_protocol","query_text":"NARA page 412 row 27; Stuart B Schimmel; official Army crosswalk; exact-name OSS; CIA access check; LoC; employer, occupation, obituary, institutional and archival searches; Box 683","query_variant_type":"staged_identity_employment_archival_protocol_batch_845","started_at":"2026-10-16T10:30:00+00:00","completed_at":"2026-10-16T11:03:00+00:00","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":3,"rejection_reasons":"Common-name business, veteran and obituary results lacked the protected identifier, OSS linkage or pre-service chronology.","research_notes":"Official Army identity evidence was accepted, but no reliable pre-OSS employer was found.","next_action":"Review Box 683 for pre-Army employment and service chronology.","attempt_number":5,"research_agent_version":"before-oss-b845-v1"},
+    {"key":"charles-j-schimpf-b845","person_id":"b90c27e8-f865-540c-9359-19ae5ab520dc","source_adapter":"manual_staged_protocol","query_text":"NARA page 412 row 28; Charles J Schimpf; official Army crosswalk; exact-name OSS; CIA access check; LoC; employer, occupation, obituary, institutional and archival searches; Box 683","query_variant_type":"staged_identity_employment_archival_protocol_batch_845","started_at":"2026-10-16T10:30:00+00:00","completed_at":"2026-10-16T11:03:00+00:00","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":3,"rejection_reasons":"Namesake military, directory and obituary results lacked corroborating OSS identifiers and employment chronology.","research_notes":"Official Army identity evidence was accepted, but no reliable pre-OSS employer was found.","next_action":"Review Box 683 for pre-Army employment and service chronology.","attempt_number":5,"research_agent_version":"before-oss-b845-v1"},
+    {"key":"b-p-schinchirimini-b845","person_id":"3f1cf07b-c1c5-5798-be83-a4d9342a7240","source_adapter":"manual_staged_protocol","query_text":"NARA page 412 row 29; B P Schinchirimini; initials-only and surname variants; exact-name OSS; CIA access check; LoC; employer, obituary, directory and archival searches; Box 683","query_variant_type":"staged_identity_employment_archival_protocol_batch_845","started_at":"2026-10-16T10:30:00+00:00","completed_at":"2026-10-16T11:03:00+00:00","outcome":"candidate_rejected","sources_reviewed":5,"candidate_sources_rejected":2,"rejection_reasons":"Initials-only and spelling-variant results could not establish a full name, OSS bridge or employment chronology.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 683 for full name, identifiers, nationality and pre-OSS affiliation.","attempt_number":5,"research_agent_version":"before-oss-b845-v1"},
+    {"key":"peter-f-schinchirimini-b845","person_id":"745bcc8f-e823-5ee9-b10c-a189e64c6596","source_adapter":"manual_staged_protocol","query_text":"NARA page 412 row 30; Peter F Schinchirimini; T-5; official Army protected-identifier conflict; exact-name OSS; CIA access check; LoC; employer, obituary and archival searches; Box 683","query_variant_type":"staged_identity_employment_archival_protocol_batch_845","started_at":"2026-10-16T10:30:00+00:00","completed_at":"2026-10-16T11:03:00+00:00","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":3,"rejection_reasons":"The Army row has a materially different full name; namesake searches cannot resolve the conflict and the alternate identity remains private.","research_notes":"Identity is conflicting; no employer or biography is published until the personnel file resolves the discrepancy.","next_action":"Review Box 683 and original Army context to resolve the conflict.","attempt_number":5,"research_agent_version":"before-oss-b845-v1"},
+    {"key":"james-c-schindler-b845","person_id":"ac61e02f-2e7d-5359-b0a3-1fdab0134f61","source_adapter":"manual_staged_protocol","query_text":"NARA page 412 row 31; James C Schindler; official Army crosswalk; exact-name OSS; CIA access check; LoC; employer, occupation, obituary, directory and archival searches; Box 683","query_variant_type":"staged_identity_employment_archival_protocol_batch_845","started_at":"2026-10-16T10:30:00+00:00","completed_at":"2026-10-16T11:03:00+00:00","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":4,"rejection_reasons":"Common-name military, directory and obituary candidates lacked the protected identifier, direct OSS linkage or reliable employment chronology.","research_notes":"Official Army identity evidence was accepted, but no reliable pre-OSS employer was found.","next_action":"Review Box 683 for pre-Army employment and service chronology.","attempt_number":5,"research_agent_version":"before-oss-b845-v1"},
+    {"key":"harold-h-schiowitz-b845","person_id":"d4e2ee7a-8d50-5e78-9fe9-0d6a0eee6d62","source_adapter":"manual_staged_protocol","query_text":"NARA page 412 row 32; Harold H Schiowitz; exact-name and spelling variants; OSS; CIA access check; LoC; employer, obituary, directory, institutional and archival searches; Box 683","query_variant_type":"staged_identity_employment_archival_protocol_batch_845","started_at":"2026-10-16T10:30:00+00:00","completed_at":"2026-10-16T11:03:00+00:00","outcome":"candidate_rejected","sources_reviewed":5,"candidate_sources_rejected":2,"rejection_reasons":"Namesake and spelling-variant results lacked corroborating OSS identifiers, nationality evidence and employment chronology.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 683 for identity, nationality and pre-OSS affiliation.","attempt_number":5,"research_agent_version":"before-oss-b845-v1"},
+    {"key":"charles-n-schirone-b845","person_id":"5c3ea8a0-f94b-585e-8b5b-35d6ef90c123","source_adapter":"manual_staged_protocol","query_text":"NARA page 412 row 33; Charles N Schirone; exact-name OSS; CIA access check; LoC; military, employer, obituary, directory and archival searches; Box 683","query_variant_type":"staged_identity_employment_archival_protocol_batch_845","started_at":"2026-10-16T10:30:00+00:00","completed_at":"2026-10-16T11:03:00+00:00","outcome":"candidate_rejected","sources_reviewed":5,"candidate_sources_rejected":3,"rejection_reasons":"Same-name military, directory and obituary results lacked corroborating OSS evidence and relevant chronology.","research_notes":"No sufficiently specific identity-and-employment match was found.","next_action":"Review Box 683 for identity, service history and pre-OSS affiliation.","attempt_number":5,"research_agent_version":"before-oss-b845-v1"},
+    {"key":"francis-j-schlack-b845","person_id":"584856d4-71c7-51c1-a1a9-e0dd1aa6ce44","source_adapter":"manual_staged_protocol","query_text":"NARA page 412 row 34; Francis J Schlack; official Army crosswalk; exact-name OSS; CIA access check; LoC; employer, occupation, obituary, institutional and archival searches; Box 683","query_variant_type":"staged_identity_employment_archival_protocol_batch_845","started_at":"2026-10-16T10:30:00+00:00","completed_at":"2026-10-16T11:03:00+00:00","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":3,"rejection_reasons":"Same-name military and obituary candidates lacked independent OSS linkage or named-employer chronology.","research_notes":"Official Army identity evidence was accepted, but no reliable pre-OSS employer was found.","next_action":"Review Box 683 for pre-Army employment and service chronology.","attempt_number":5,"research_agent_version":"before-oss-b845-v1"},
+    {"key":"louis-a-schlafani-b845","person_id":"42f4688e-a1ab-5ecd-a7a4-35e11dce4c6c","source_adapter":"manual_staged_protocol","query_text":"NARA page 412 row 35; Louis A Schlafani and Sclafani variant; official Army crosswalk; exact-name OSS; CIA access check; LoC; employer, obituary and archival searches; Box 683","query_variant_type":"staged_identity_employment_archival_protocol_batch_845","started_at":"2026-10-16T10:30:00+00:00","completed_at":"2026-10-16T11:03:00+00:00","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":3,"rejection_reasons":"Namesake and genealogy results did not add a direct OSS bridge or reliable pre-service employer chronology.","research_notes":"The Sclafani Army spelling is accepted as a high-confidence variant; no employer is inferred from its occupation code.","next_action":"Review Box 683 for pre-Army employment and service chronology.","attempt_number":5,"research_agent_version":"before-oss-b845-v1"},
+    {"key":"adrian-a-schlaht-b845","person_id":"bc18d8a4-a651-5a89-bf67-c6c04ca1e500","source_adapter":"manual_staged_protocol","query_text":"NARA page 412 row 36; Adrian A Schlaht; official Army crosswalk; exact-name OSS; CIA access check; LoC; employer, occupation, obituary, institutional and archival searches; Box 683","query_variant_type":"staged_identity_employment_archival_protocol_batch_845","started_at":"2026-10-16T10:30:00+00:00","completed_at":"2026-10-16T11:03:00+00:00","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":2,"rejection_reasons":"Name-only military and genealogy leads did not establish a pre-OSS employer or independent service chronology.","research_notes":"Official Army identity evidence was accepted. CIA automated access was blocked by the site's robots policy and was not treated as negative evidence.","next_action":"Review Box 683 for pre-Army employment; retry CIA only if access policy changes.","attempt_number":6,"research_agent_version":"before-oss-b845-v1"},
+    {"key":"kermit-f-schlamb-b845","person_id":"d4dcd64c-80c4-5004-b48b-f9984fdaf48a","source_adapter":"manual_staged_protocol","query_text":"NARA page 412 row 37; Kermit F Schlamb; exact-name OSS; CIA access check; LoC; military, employer, obituary, directory and archival searches; Box 683","query_variant_type":"staged_identity_employment_archival_protocol_batch_845","started_at":"2026-10-16T10:30:00+00:00","completed_at":"2026-10-16T11:03:00+00:00","outcome":"candidate_rejected","sources_reviewed":5,"candidate_sources_rejected":2,"rejection_reasons":"Rare-name military and genealogy leads still lacked corroborating OSS identifiers and a pre-OSS employment sequence.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 683 for identifiers, service path and pre-OSS affiliation.","attempt_number":5,"research_agent_version":"before-oss-b845-v1"},
+    {"key":"robert-schlangen-b845","person_id":"ba63cec6-967a-5539-8d31-314b46b2740a","source_adapter":"manual_staged_protocol","query_text":"NARA page 412 row 38; Robert Schlangen; National Park Service OSS training history; exact-name OSS; CIA access check; LoC; State Department, employer, obituary and archival searches; Box 683","query_variant_type":"staged_identity_employment_archival_protocol_batch_845","started_at":"2026-10-16T10:30:00+00:00","completed_at":"2026-10-16T11:03:00+00:00","outcome":"source_reviewed","sources_reviewed":7,"candidate_sources_rejected":1,"rejection_reasons":"A family-recollection OSS Society lead was not used as principal evidence because the NPS institutional source directly supports the finding.","research_notes":"High-confidence identity and immediate State Department government affiliation were found. No separate last civilian employer was established.","next_action":"Review Box 683 for his specific State Department role and any earlier civilian employer.","attempt_number":5,"research_agent_version":"before-oss-b845-v1"},
+    {"key":"frederick-c-schlein-b845","person_id":"6f2d4d43-bd2b-5c2c-a259-0dddc752028f","source_adapter":"manual_staged_protocol","query_text":"NARA page 412 row 39; Frederick C Schlein; unusual printed identifier; exact-name OSS; CIA access check; LoC; military, employer, obituary, directory and archival searches; Box 683","query_variant_type":"staged_identity_employment_archival_protocol_batch_845","started_at":"2026-10-16T10:30:00+00:00","completed_at":"2026-10-16T11:03:00+00:00","outcome":"candidate_rejected","sources_reviewed":5,"candidate_sources_rejected":4,"rejection_reasons":"Common-name results could not be tied to the unusual index identifier or to OSS and supplied no reliable pre-OSS chronology.","research_notes":"No sufficiently specific identity-and-employment match was found.","next_action":"Review Box 683 for identity, identifier interpretation and pre-OSS affiliation.","attempt_number":5,"research_agent_version":"before-oss-b845-v1"},
+    {"key":"arthur-m-schlesinger-b845","person_id":"7f111cc6-d046-5eac-93ab-63f6387c204b","source_adapter":"manual_staged_protocol","query_text":"NARA page 412 row 40; Arthur M Schlesinger Jr; LBJ Library biography; official Army crosswalk; 1940 Chronicling America item; exact-name OSS; CIA and NPS official checks; Harvard and Office of War Information chronology; Box 683","query_variant_type":"staged_identity_employment_archival_protocol_batch_845","started_at":"2026-10-16T10:30:00+00:00","completed_at":"2026-10-16T11:03:00+00:00","outcome":"source_reviewed","sources_reviewed":8,"candidate_sources_rejected":1,"rejection_reasons":"A 1963 newspaper book roundup was postwar and irrelevant to the pre-OSS question.","research_notes":"Existing high-confidence OWI and Harvard Society of Fellows claims remain unchanged. The 1940 item adds scholar and author context only and does not make Harvard an employer.","next_action":"Review Box 683 for OWI departure, OSS appointment and any compensated Harvard role.","attempt_number":6,"research_agent_version":"before-oss-b845-v1"},
+    {"key":"edmond-schlesinger-b845","person_id":"62efddb6-4cb5-566b-8141-1af088bf3041","source_adapter":"manual_staged_protocol","query_text":"NARA page 412 row 41; Edmond, Edmund and Edmond Robert Schlesinger; NYPL displaced-scholars file; University of Louisville archive; exact-name OSS; CIA access check; Cornell, journalism, employer and archival searches; Box 683","query_variant_type":"staged_identity_employment_archival_protocol_batch_845","started_at":"2026-10-16T10:30:00+00:00","completed_at":"2026-10-16T11:03:00+00:00","outcome":"candidate_found","sources_reviewed":7,"candidate_sources_rejected":2,"rejection_reasons":"Discovery-only biographies and genealogy records were not used; the institutional sources do not directly bridge the candidate to OSS or Box 683.","research_notes":"A probable identity is published with qualification. Cornell, journalism and other possible affiliations remain unassigned until direct archival evidence connects the candidate to the index row.","next_action":"Review Box 683 and NYPL Box 112 folder 27 before assigning a pre-OSS affiliation.","attempt_number":5,"research_agent_version":"before-oss-b845-v1"},
+    {"key":"aline-b-schletter-b845","person_id":"3a26cde1-e749-53d5-98c1-0c6acf60c267","source_adapter":"manual_staged_protocol","query_text":"NARA page 412 row 42; Aline B Schletter; A-prefixed private identifier; exact-name OSS; CIA access check; LoC; women personnel, employer, obituary, directory and archival searches; Box 683","query_variant_type":"staged_identity_employment_archival_protocol_batch_845","started_at":"2026-10-16T10:30:00+00:00","completed_at":"2026-10-16T11:03:00+00:00","outcome":"candidate_rejected","sources_reviewed":5,"candidate_sources_rejected":3,"rejection_reasons":"Modern namesakes, directories and genealogy results lacked an OSS bridge, matching identifier and employment chronology.","research_notes":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.","next_action":"Review Box 683 for identity and pre-OSS employment history.","attempt_number":5,"research_agent_version":"before-oss-b845-v1"},
+    {"key":"reeve-schley-b845","person_id":"96f4df4d-2b15-54c6-a423-69683cefa21c","source_adapter":"manual_staged_protocol","query_text":"NARA page 412 row 43; Captain Reeve Schley Jr; Donovan microfilm roll list; Germinal Mission; Fort Riley Cavalry; exact-name OSS; CIA access check; Yale, employer, obituary and archival searches; Box 684","query_variant_type":"staged_identity_employment_archival_protocol_batch_845","started_at":"2026-10-16T10:30:00+00:00","completed_at":"2026-10-16T11:03:00+00:00","outcome":"source_reviewed","sources_reviewed":9,"candidate_sources_rejected":3,"rejection_reasons":"The senior Reeve Schley's Chase National Bank career was rejected as belonging to his father; postwar racing and civic roles were excluded.","research_notes":"Official sources establish high-confidence identity and OSS service. A family notice supports a qualified earlier Cavalry assignment; no civilian employer is assigned.","next_action":"Review Box 684 for civilian career, exact Cavalry assignment and Army-to-OSS transfer.","attempt_number":5,"research_agent_version":"before-oss-b845-v1"},
+    {"key":"herbert-w-schlickenmaie-b845","person_id":"b1685556-2f90-53f4-bff3-bde745f8dd47","source_adapter":"manual_staged_protocol","query_text":"NARA page 412 row 44; Herbert W Schlickenmaie and Schlickenmaier; S/SGT; official Army crosswalk; exact-name OSS; CIA access check; LoC; employer, obituary and archival searches; Box 684","query_variant_type":"staged_identity_employment_archival_protocol_batch_845","started_at":"2026-10-16T10:30:00+00:00","completed_at":"2026-10-16T11:03:00+00:00","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":4,"rejection_reasons":"Later NASA, Maryland municipal and family namesakes lacked compatible age, OSS identifiers and pre-service chronology.","research_notes":"The Schlickenmaier Army spelling is accepted as a high-confidence variant; no employer is inferred from the occupation code.","next_action":"Review Box 684 for pre-Army employment and service chronology.","attempt_number":5,"research_agent_version":"before-oss-b845-v1"},
+    {"key":"frederick-c-schlien-b845","person_id":"6232e29f-d11d-5d9e-a459-7d8af28d2395","source_adapter":"manual_staged_protocol","query_text":"NARA page 412 row 45; Frederick C Schlien; S/SGT; official Army protected-identifier conflict; exact-name OSS; CIA access check; LoC; employer, obituary and archival searches; Box 684","query_variant_type":"staged_identity_employment_archival_protocol_batch_845","started_at":"2026-10-16T10:30:00+00:00","completed_at":"2026-10-16T11:03:00+00:00","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":4,"rejection_reasons":"The Army row has a materially different full name; namesake searches cannot resolve the conflict and the alternate identity remains private.","research_notes":"Identity is conflicting; no employer or biography is published until the personnel file resolves the discrepancy.","next_action":"Review Box 684 and original Army context to resolve the conflict.","attempt_number":5,"research_agent_version":"before-oss-b845-v1"},
+    {"key":"claymer-schluter-b845","person_id":"8eb9c90a-0c92-5bb2-a6fe-17144b49774d","source_adapter":"manual_staged_protocol","query_text":"NARA page 412 row 46; Claymer Schluter; CIA Reading Room Bishop file; exact-name OSS; CIC Germany and SSU context; LoC; employer, obituary, institutional and archival searches; Box 684","query_variant_type":"staged_identity_employment_archival_protocol_batch_845","started_at":"2026-10-16T10:30:00+00:00","completed_at":"2026-10-16T11:03:00+00:00","outcome":"source_reviewed","sources_reviewed":7,"candidate_sources_rejected":2,"rejection_reasons":"Postwar intelligence references were not treated as evidence of pre-OSS employment; unrelated Schluter namesakes lacked the distinctive given name.","research_notes":"A direct CIA record establishes high-confidence identity and post-OSS continuity, but no reliable pre-OSS employer or affiliation was found.","next_action":"Review Box 684 for pre-OSS occupation and assignment.","attempt_number":5,"research_agent_version":"before-oss-b845-v1"}
+  ]
+}
