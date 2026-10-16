@@ -1,5 +1,33 @@
 # Research status
 
+Batch 852 completed PDF page 416, rows 1-23, from **Ernest C Schulz** through
+**Esther A Schwarts**, preserving all 23 printed rows as separate source
+records linked to 23 active person entities. All 23 have saved terminal
+research outcomes. Contemporary and institutional sources identify **Sam H
+Schurr** at high confidence and support the National Bureau of Economic
+Research as both his strongly date-bounded immediate pre-OSS affiliation and
+last civilian employer. **Joseph R Schurman** is confirmed as an OSS
+cryptographer while Cornell remains student status, not employment. **Leopold
+Schwarsschild** remains a qualified probable identity; authoritative sources
+document Leopold Schwarzschild's *Das Neue Tage-Buch* editorship and expose a
+date discrepancy without inventing an OSS assignment. Yale and Wesleyan are
+likewise kept as qualified student affiliations for **Hermann C Schwab** and
+**Charles Schwanda**. Six official Army crosswalks support identity decisions
+only. The two Albert H Schuster rows remain separate because they have
+different private identifiers, and the first preserves a material name
+conflict.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **12,567/23,937 (52.5003%)**;
+verified-employer coverage is **413/23,937 (1.7254%)**;
+verified-affiliation coverage is **911/23,937 (3.8058%)**; archival-review
+coverage is **11,032/23,937 (46.0876%)**. There are **11,365** `not_started`
+people, **565** possible-duplicate groups and **444** conflicts. The public
+projection contains **2,830** affiliations, **1,052** organizations, **5,212**
+sources and **7,598** claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 416, row 24, **Adolf
+Schwartz**. See `research/batch-852-progress.md` for the source-by-source audit.
+
 Batch 851 completed PDF page 415, rows 24-46, from **Ann M Schuetz** through
 **Bernard G Schulz**, preserving all 23 printed rows as separate source records
 linked to 23 active person entities. All 23 have saved terminal research
