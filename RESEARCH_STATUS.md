@@ -1,5 +1,37 @@
 # Research status
 
+Batch 828 completed PDF page 404, rows 1-23, from **Arthur A Ruozzi** through
+**John P Russell**, preserving all 23 printed rows as separate source records
+linked to 23 active person entities. The printed page was visually checked at
+300 dpi. All 23 people have saved terminal research outcomes. Contemporary
+broadcasting notices establish **Louis Ruppel** at Crowell-Collier immediately
+before Marine Corps service; civilian employment and military service remain
+separate affiliations. An official OSS record and an archival newspaper report
+identify **Robert F Rushin** as head of the X-2 Insurance Unit and support Home
+Insurance Company as his probable-immediate civilian employer. Official OSS,
+Army, and scholarly evidence identifies **Tom Rusdal** with the Tosten and
+Torsten variants and documents a prewar tree-topper occupation without
+inventing an employer. Five exact Army identities were accepted without
+publishing coded occupations. Three incompatible Army name leads for **Horace
+E Rupert Jr.**, **Donald E Russell**, and **Donald W Russell** were rejected
+and remain visible as conflicts. NARA and web work used dry-run queries; CIA
+and Library of Congress access failures were not treated as negative
+historical evidence.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,938** active
+people. Research-attempt coverage is **12,024/23,938 (50.2298%)**;
+verified-employer coverage is **392/23,938 (1.6376%)**;
+verified-affiliation coverage is **868/23,938 (3.6260%)**; archival-review
+coverage is **10,488/23,938 (43.8132%)**. There are **11,909** `not_started`
+people, **553** possible-duplicate groups, and **415** conflicts. SQLite
+retains **23,733** attempts or plans and **7,481** claims: 1,553 confirmed,
+3,714 high, 1,652 medium, 202 low, 358 conflicting, and two unresolved. It has
+**6,264** citation records and **3,307** unique source documents. The public
+projection has **2,733** affiliations, **998** organizations, **5,038**
+sources, and **7,273** claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 404, row 24, **John S
+Russell**. See `research/batch-828-progress.md` for the source-by-source audit.
+
 Batch 827 completed PDF page 403, rows 24-46, from **Ferdinand M Ruff**
 through **Dorothy E Runyon**, preserving all 23 printed rows as separate
 source records linked to 23 active person entities. The printed page was
