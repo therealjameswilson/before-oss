@@ -1,5 +1,34 @@
 # Research status
 
+Batch 832 completed PDF page 406, rows 1-23, from **Harriet W Sabine** through
+**George M Saharov**, preserving all 23 printed rows as separate source records
+linked to 23 active person entities. The printed page was visually checked at
+300 dpi. All 23 people have saved, reviewable research outcomes. A contemporary
+profile separates **Alexander Sachs**'s probable-immediate independent
+consulting from his earlier Lehman Corporation vice-presidency. Official 1941
+and 1944 sources document **George M Saharov** at the Interstate Commerce
+Commission and later in OSS without claiming an unproven immediate transfer.
+Official Army data and a Washington Post obituary corroborate **Philip H
+Sagon** but do not establish a prewar employer. **Bernard Sachs** retains a
+protected-identifier given-name conflict; no Army biography or coded
+occupation was assigned. **Jerry M Sage**'s previously verified Army and
+Procter and Gamble pathway remains intact. Four Army identities were accepted
+without publishing coded occupations. NARA work remained in dry-run mode.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,938** active
+people. Research-attempt coverage is **12,115/23,938 (50.6099%)**;
+verified-employer coverage is **396/23,938 (1.6543%)**;
+verified-affiliation coverage is **876/23,938 (3.6595%)**; archival-review
+coverage is **10,579/23,938 (44.1933%)**. There are **11,818** `not_started`
+people, **554** possible-duplicate groups, and **421** conflicts. SQLite
+retains **24,035** attempts or plans and **7,530** claims: 1,571 confirmed,
+3,737 high, 1,654 medium, 202 low, 364 conflicting, and two unresolved. It has
+**6,288** citation records and **3,326** unique source documents. The public
+projection has **2,748** affiliations, **1,006** organizations, **5,060**
+sources, and **7,322** claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 406, row 24, **Hans Sahl**.
+See `research/batch-832-progress.md` for the source-by-source audit.
+
 Batch 831 completed PDF page 405, rows 24-46, from **Joseph M F Ryan Jr**
 through **Gerald V Sabatino**, preserving all 23 printed rows as separate source
 records linked to 23 active person entities. The printed page was visually
