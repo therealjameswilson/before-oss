@@ -1,5 +1,34 @@
 # Research status
 
+Batch 849 completed PDF page 414, rows 24-46, from **Norman B Schofield**
+through **Dale F Schreckengost**, preserving all 23 printed rows as separate
+source records linked to 23 active person entities. All 23 have saved terminal
+research outcomes. First-person and institutional evidence identifies
+**Herman F Scholtz** at high confidence and documents International Engineering
+Company as his last civilian business; intervening internment prevents an
+immediate-affiliation claim. Institutional and contemporary sources identify
+**Frank Schoonmaker** and explicitly document Frank Schoonmaker Selections as
+both his immediate affiliation and last civilian employer. Museum records
+confirm **Anton B Schrader** and document the Dutch wartime food-supply bureau
+as his last civilian government assignment. **Elizabeth P-I Schorske** remains
+a qualified probable identity, while **Henri Schouler** and **Emile Schouwer**
+gain high-confidence wartime identity evidence without invented employers. Six
+official Army candidates were accepted for identity only and one materially
+conflicting candidate was rejected. The Marcel Schonaers/Schovaers and two Otto
+Schonfield pairs remain separate, visibly flagged entities.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **12,501/23,937 (52.2246%)**;
+verified-employer coverage is **412/23,937 (1.7212%)**;
+verified-affiliation coverage is **906/23,937 (3.7849%)**; archival-review
+coverage is **10,966/23,937 (45.8119%)**. There are **11,431** `not_started`
+people, **561** possible-duplicate groups and **443** conflicts. The public
+projection contains **2,822** affiliations, **1,046** organizations, **5,194**
+sources and **7,565** claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 415, row 1, **Joseph
+Schreiber**. See `research/batch-849-progress.md` for the source-by-source
+audit.
+
 Batch 848 completed PDF page 414, rows 1-23, from **Louis Schneider** through
 **LA Vonne L Schofield**, preserving all 23 printed rows as separate source
 records linked to 23 active person entities. All 23 now have saved terminal
