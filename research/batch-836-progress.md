@@ -85,9 +85,12 @@ reports no foreign-key violations.
 
 ## Release status
 
-The database and generated public assets were rebuilt. Python, Astro,
-Playwright, internal-link, public-identifier, manifest, and deterministic
-double-build checks all passed locally. Publication and immutable live
-verification are pending.
+The database and generated public assets were rebuilt and published. Python,
+Astro, Playwright, internal-link, public-identifier, manifest, and deterministic
+double-build checks all passed. Commit
+`2a8fcddea33bede30ed0e94dd89d33cbc4e33fb1` was published by GitHub Pages run
+38854007623, and Test run 38854007632 passed. Immutable live verification
+matched all 67 public assets, eight core routes, 34 source-register pages, and
+all 23 Batch 836 profile URLs without authentication.
 
 Resume new-person research at PDF page 408, row 24, Fillmore H. Sanford.
