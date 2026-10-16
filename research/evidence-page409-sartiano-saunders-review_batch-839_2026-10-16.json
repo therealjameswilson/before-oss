@@ -1,0 +1,1275 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 839 archival research review",
+  "sources": [
+    {
+      "key": "nara-index-b839",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 678-679",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 409, rows 24-46; visually checked against a 180 dpi render",
+      "access_date": "2026-10-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Original spelling, rank or grade, blank fields, box and location are preserved; full private service identifiers are excluded from public outputs."
+    },
+    {
+      "key": "army-bulk-b839",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; reviewed bulk record ordinals retained as private claim locators",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; protected-identifier review for six candidate rows",
+      "access_date": "2026-10-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "Electronic Army Serial Number Merged File",
+      "rights_notes": "Official bulk data, not a Catalog API response. Protected identifiers, alternate conflicting names, coded occupations and raw records are excluded from public output."
+    },
+    {
+      "key": "sartiano-obituary-b839",
+      "stable_url": "https://www.legacy.com/us/obituaries/washingtonpost/name/joseph-sartiano-obituary?id=6079563",
+      "archival_identifier": "Washington Post obituary, published March 12, 2017",
+      "title": "Colonel Joseph Frank ‘Joe’ Sartiano OSS/CIA, Ret.",
+      "author_creator": "Sartiano family obituary",
+      "repository_publisher": "The Washington Post via Legacy.com",
+      "publication_record_date": "2017-03-12",
+      "locator": "Early-years and World War II chronology paragraphs",
+      "access_date": "2026-10-16",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The Washington Post obituaries",
+      "rights_notes": "Project-authored paraphrase only. The obituary explicitly links the exact full name to OSS service and describes his music work before Army enlistment."
+    },
+    {
+      "key": "ku-psychology-faculty-b839",
+      "stable_url": "https://psychology.ku.edu/faculty-1938-1948",
+      "archival_identifier": "University of Kansas Department of Psychology faculty history, 1938-1948",
+      "title": "Faculty: 1938 - 1948",
+      "author_creator": "Department of Psychology",
+      "repository_publisher": "University of Kansas",
+      "publication_record_date": "Historical faculty lists for academic years 1938-1948; web edition current",
+      "locator": "Academic years 1938-1939 through 1945-1946; entries for Byron Sarvis and wartime-service leave",
+      "access_date": "2026-10-16",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "University of Kansas Department of Psychology history",
+      "rights_notes": "Project-authored paraphrase only. The page varies the middle initial and once spells the forename Bryon; those discrepancies remain explicit."
+    },
+    {
+      "key": "ku-degree-list-b839",
+      "stable_url": "https://kuscholarworks.ku.edu/bitstream/1808/5846/1/libseries.num2.pdf",
+      "archival_identifier": "KU ScholarWorks library series number 2",
+      "title": "Theses Presented for Advanced Degrees at the University of Kansas",
+      "author_creator": "University of Kansas Libraries",
+      "repository_publisher": "KU ScholarWorks, University of Kansas",
+      "publication_record_date": "Historical degree list through 1960",
+      "locator": "Page 116, entry for Byron Charles Sarvis; M.A. Psychology 1931 and Ph.D. Psychology 1939",
+      "access_date": "2026-10-16",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "KU ScholarWorks",
+      "rights_notes": "The institutional index supplies the full middle name and degree years. It is identity context, not employment evidence."
+    },
+    {
+      "key": "ku-rotc-b839",
+      "stable_url": "https://armyrotc.ku.edu/rotc-alumni-year",
+      "archival_identifier": "University of Kansas Jayhawk Battalion alumni by year",
+      "title": "Jayhawk Battalion Alumni by Year",
+      "author_creator": "University of Kansas Army ROTC",
+      "repository_publisher": "University of Kansas",
+      "publication_record_date": "1928 cohort; web edition current",
+      "locator": "1928 alumni list, Byron Sarvis, Coastal Artillery",
+      "access_date": "2026-10-16",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "University of Kansas Army ROTC alumni",
+      "rights_notes": "The roster corroborates the Kansas and military context but does not establish the timing or employer immediately before OSS."
+    },
+    {
+      "key": "nara-jfk-sarvis-b839",
+      "stable_url": "https://www.archives.gov/files/research/jfk/releases/2022/104-10219-10000.pdf",
+      "archival_identifier": "JFK record 104-10219-10000",
+      "title": "Miler, Newton S., OSS Files, Loose Documents",
+      "author_creator": "Strategic Services Unit and predecessor/successor personnel offices",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1946; released 2022-12-15",
+      "locator": "PDF image page 74; letter dated August 9, 1946, signed Byron C. Sarvis, Chief, Procurement and Placement Section",
+      "access_date": "2026-10-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "JFK Assassination Records Collection; OSS files",
+      "document_number": "104-10219-10000",
+      "rights_notes": "The image-only page was rendered at 180 dpi and visually inspected. It supports rare-name identity and post-OSS personnel-office continuity, not a prewar employer."
+    },
+    {
+      "key": "west-point-register-saul-b839",
+      "stable_url": "https://www.west-point.org/wp/ring_recovery/RRP/RingPix/2010ROG_1932-2010LivingClassesRegisterofGraduatesROGAOGAlumni.pdf",
+      "archival_identifier": "2010 Register of Graduates and Former Cadets, class of 1980 entry for John E. Saul",
+      "title": "2010 Register of Graduates and Former Cadets",
+      "author_creator": "Association of Graduates, United States Military Academy",
+      "repository_publisher": "West-Point.org",
+      "publication_record_date": "2010; alphabetical locator updated 2011-02-11",
+      "locator": "Class of 1980 entry identifies John E. Saul as son of Francis W. Saul, Cullum 13688, Class of 1943",
+      "access_date": "2026-10-16",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Register of Graduates and Former Cadets",
+      "rights_notes": "The institutional register provides class context. Private addresses and contact details elsewhere on the page are excluded."
+    },
+    {
+      "key": "west-point-cemetery-saul-b839",
+      "stable_url": "https://interment.net/data/us/ny/orange/west-point/surnames-l-z.htm",
+      "archival_identifier": "West Point Military Academy Cemetery transcription, Section XX, Site A-001C",
+      "title": "West Point Military Academy Cemetery, Surnames L-Z",
+      "author_creator": "Cemetery record transcribers",
+      "repository_publisher": "Interment.net",
+      "publication_record_date": "Web transcription current; death recorded 2005-01-20",
+      "locator": "Francis W. Saul entry, U.S. Army captain",
+      "access_date": "2026-10-16",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "West Point Military Academy Cemetery transcriptions",
+      "rights_notes": "Corroborative burial transcription only; it is not used alone to establish OSS identity or an employer."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "united-states-army-b839",
+      "organization_id": "28a26f92-78af-5a1a-9c09-a843eb5975b4",
+      "canonical_name": "United States Army",
+      "historical_name": "United States Army",
+      "aliases": [
+        "U.S. Army"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Reuses the established Army organization. Military service is modeled as an assignment, not as civilian employment."
+    },
+    {
+      "key": "united-states-military-academy-b839",
+      "organization_id": "a6458663-2447-50ce-aa34-4a72ffa79348",
+      "canonical_name": "United States Military Academy",
+      "historical_name": "United States Military Academy at West Point",
+      "aliases": [
+        "West Point",
+        "Military Academy"
+      ],
+      "organization_type": "military academy",
+      "sector": "academia_and_research",
+      "city": "West Point",
+      "state_or_region": "New York",
+      "country": "United States",
+      "active_dates": "1802-present",
+      "normalization_notes": "Cadet or student status is modeled separately and is not classified as employment."
+    },
+    {
+      "key": "university-of-kansas-b839",
+      "canonical_name": "University of Kansas",
+      "historical_name": "University of Kansas",
+      "aliases": [
+        "KU"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Lawrence",
+      "state_or_region": "Kansas",
+      "country": "United States",
+      "active_dates": "1865-present",
+      "normalization_notes": "Historical university name preserved. Faculty employment, degrees and ROTC participation are modeled as distinct relationships."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "joseph-sartiano-army-b839",
+      "person_id": "c9f76929-cf52-573a-a464-41148eda08ea",
+      "organization_key": "united-states-army-b839",
+      "organization_name_as_found": "United States Army",
+      "role_title": "officer candidate and second lieutenant",
+      "occupation": "Army officer",
+      "relationship_type": "military_assignment",
+      "end_date": "1943",
+      "date_precision": "The obituary states that he enlisted after the war began, completed Officer Candidate School, and was then recruited into OSS; the exact OSS accession date is not supplied.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The source explicitly sequences Army enlistment, OCS and recruitment into OSS, making the Army the documented immediate pre-OSS affiliation."
+    },
+    {
+      "key": "joseph-sartiano-music-b839",
+      "person_id": "c9f76929-cf52-573a-a464-41148eda08ea",
+      "organization_name_as_found": "his accordion school and The Silver Strings",
+      "role_title": "accordion instructor and bandleader",
+      "occupation": "music instructor and bandleader",
+      "relationship_type": "self_employment",
+      "end_date": "1941",
+      "date_precision": "The obituary describes this work in his early years and then states that he enlisted at the onset of World War II; the exact closing date is not given.",
+      "city": "Johnstown",
+      "state_or_region": "Pennsylvania",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The source describes his own accordion school and band before Army enlistment. No corporate employer is inferred, and the year is approximate."
+    },
+    {
+      "key": "byron-sarvis-ku-b839",
+      "person_id": "3f39b1a3-b47e-54c0-bd11-1a9ef2416aa2",
+      "organization_key": "university-of-kansas-b839",
+      "organization_name_as_found": "University of Kansas Department of Psychology",
+      "role_title": "assistant professor of psychology",
+      "occupation": "psychologist and university professor",
+      "relationship_type": "employment",
+      "start_date": "1938",
+      "end_date": "1945",
+      "date_precision": "Institutional faculty lists place Sarvis on the faculty from 1938 through 1945-1946 and explicitly note wartime-service leave; the exact departure and OSS accession dates are not supplied.",
+      "city": "Lawrence",
+      "state_or_region": "Kansas",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The rare name, full-name degree record, 1928 ROTC roster and 1946 federal Sarvis signature support identity. The faculty page's E middle initial and Bryon spelling are preserved as discrepancies."
+    },
+    {
+      "key": "francis-saul-usma-b839",
+      "person_id": "8fc94009-045e-5386-8582-98c1725b2589",
+      "organization_key": "united-states-military-academy-b839",
+      "organization_name_as_found": "United States Military Academy",
+      "role_title": "cadet",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1943",
+      "date_precision": "An institutional register identifies Francis W. Saul, Cullum 13688, as Class of 1943; the index supplies first-lieutenant rank but no accession date.",
+      "city": "West Point",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Exact name, 1943 class timing, Army rank and a corroborative captain burial record support a probable match. Student status is not an employer claim."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-joseph-sartiano-b839",
+      "person_id": "c9f76929-cf52-573a-a464-41148eda08ea",
+      "claim_type": "identity",
+      "claim_text": "Indexed captain Joseph F. Sartiano is identified at high confidence as Colonel Joseph Frank Sartiano, an OSS officer.",
+      "evidence_paraphrase": "The rare exact name, matching officer status and obituary's explicit OSS chronology align with the indexed captain.",
+      "identity_match_assessment": "High-confidence rare-name, middle-initial, officer-rank and explicit OSS-service match.",
+      "temporal_assessment": "The obituary gives a continuous sequence from prewar music work through Army enlistment, OCS and OSS recruitment.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No private identifier is used. Box 678 remains necessary for precise accession dates.",
+      "sources": [
+        {
+          "source_key": "nara-index-b839",
+          "support_type": "supports",
+          "locator_override": "PDF page 409, row 24; CAPT; Box 678"
+        },
+        {
+          "source_key": "sartiano-obituary-b839",
+          "support_type": "supports",
+          "locator_override": "Title and early-years/World War II chronology paragraphs"
+        }
+      ]
+    },
+    {
+      "key": "immediate-joseph-sartiano-army-b839",
+      "person_id": "c9f76929-cf52-573a-a464-41148eda08ea",
+      "affiliation_key": "joseph-sartiano-army-b839",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Sartiano's immediate documented affiliation before OSS recruitment was the United States Army, including Officer Candidate School and commissioning.",
+      "evidence_paraphrase": "The obituary states that he enlisted, completed Officer Candidate School and was then recruited into OSS as a second lieutenant.",
+      "identity_match_assessment": "High-confidence exact-person match through rare name, middle initial, officer status and explicit OSS service.",
+      "temporal_assessment": "Explicit sequence immediately into OSS, although exact dates are absent.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army service is classified as a military assignment, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "sartiano-obituary-b839",
+          "support_type": "supports",
+          "locator_override": "World War II chronology paragraphs"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-joseph-sartiano-b839",
+      "person_id": "c9f76929-cf52-573a-a464-41148eda08ea",
+      "affiliation_key": "joseph-sartiano-music-b839",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Before Army service, Sartiano taught at his accordion school and led the band The Silver Strings in Johnstown, Pennsylvania.",
+      "evidence_paraphrase": "The obituary places the accordion school and band in his early Johnstown years before describing wartime Army enlistment.",
+      "identity_match_assessment": "High-confidence exact-person match through the same continuous obituary chronology.",
+      "temporal_assessment": "Strongly date-bounded before Army service, but the source does not give exact start or end dates.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Modeled as self-employment because the source describes his own school; no unnamed corporate employer is invented.",
+      "sources": [
+        {
+          "source_key": "sartiano-obituary-b839",
+          "support_type": "supports",
+          "locator_override": "Early-years paragraph followed by Army-enlistment paragraph"
+        }
+      ]
+    },
+    {
+      "key": "occupation-joseph-sartiano-b839",
+      "person_id": "c9f76929-cf52-573a-a464-41148eda08ea",
+      "affiliation_key": "joseph-sartiano-music-b839",
+      "claim_type": "occupation",
+      "claim_text": "Sartiano's documented pre-service civilian occupations were accordion instructor and bandleader.",
+      "evidence_paraphrase": "The obituary describes teaching young people at his accordion school and leading The Silver Strings.",
+      "identity_match_assessment": "High-confidence exact-person match through the same continuous obituary chronology.",
+      "temporal_assessment": "Documented before wartime Army enlistment; exact dates are absent.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The occupations are distinct from his immediate pre-OSS Army affiliation.",
+      "sources": [
+        {
+          "source_key": "sartiano-obituary-b839",
+          "support_type": "supports",
+          "locator_override": "Early-years paragraph"
+        }
+      ]
+    },
+    {
+      "key": "identity-byron-sarvis-b839",
+      "person_id": "3f39b1a3-b47e-54c0-bd11-1a9ef2416aa2",
+      "claim_type": "identity",
+      "claim_text": "Indexed captain Byron C. Sarvis is identified at high confidence with the Kansas psychologist and 1946 OSS-successor personnel official.",
+      "evidence_paraphrase": "A rare exact full name appears in the index and a 1946 federal personnel letter; Kansas institutional records connect the name to psychology and military training.",
+      "identity_match_assessment": "High-confidence rare-name and exact-middle-initial match, reinforced by officer and personnel-office context.",
+      "temporal_assessment": "The federal record is post-OSS identity evidence; Kansas records document education and employment before and during wartime service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The KU faculty page's E middle initial and Bryon spelling are preserved rather than silently corrected.",
+      "sources": [
+        {
+          "source_key": "nara-index-b839",
+          "support_type": "supports",
+          "locator_override": "PDF page 409, row 28; CAPT; Box 678"
+        },
+        {
+          "source_key": "nara-jfk-sarvis-b839",
+          "support_type": "supports",
+          "locator_override": "PDF image page 74, signature and official title"
+        },
+        {
+          "source_key": "ku-degree-list-b839",
+          "support_type": "context_only",
+          "locator_override": "Page 116, Byron Charles Sarvis degree entries"
+        },
+        {
+          "source_key": "ku-rotc-b839",
+          "support_type": "context_only",
+          "locator_override": "1928 cohort, Byron Sarvis, Coastal Artillery"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-byron-sarvis-b839",
+      "person_id": "3f39b1a3-b47e-54c0-bd11-1a9ef2416aa2",
+      "affiliation_key": "byron-sarvis-ku-b839",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Byron Sarvis was an assistant professor of psychology at the University of Kansas before wartime-service leave.",
+      "evidence_paraphrase": "KU's faculty history lists Sarvis as an assistant professor across 1938-1946 and explicitly notes leave for war service.",
+      "identity_match_assessment": "High-confidence rare-name match supported by full-name degree, ROTC and federal personnel records.",
+      "temporal_assessment": "Strongly date-bounded as the last documented civilian employer before wartime-service leave; exact OSS accession remains unknown.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The source supports a pre-service employer but not an unqualified claim that KU immediately preceded OSS.",
+      "sources": [
+        {
+          "source_key": "ku-psychology-faculty-b839",
+          "support_type": "supports",
+          "locator_override": "Academic years 1938-1939 through 1945-1946"
+        },
+        {
+          "source_key": "ku-degree-list-b839",
+          "support_type": "context_only",
+          "locator_override": "Page 116, full-name and psychology degree entries"
+        },
+        {
+          "source_key": "nara-jfk-sarvis-b839",
+          "support_type": "context_only",
+          "locator_override": "PDF image page 74, exact full-name signature"
+        }
+      ]
+    },
+    {
+      "key": "identity-francis-saul-b839",
+      "person_id": "8fc94009-045e-5386-8582-98c1725b2589",
+      "claim_type": "identity",
+      "claim_text": "Indexed first lieutenant Francis W. Saul is probably the 1943 West Point graduate later recorded as a U.S. Army captain.",
+      "evidence_paraphrase": "The exact name, West Point Class of 1943, Army context and later captain burial record fit the indexed wartime first lieutenant.",
+      "identity_match_assessment": "Probable exact-name, chronology, branch and rank-progression match; no unique identifier has yet linked the records.",
+      "temporal_assessment": "The 1943 class aligns with wartime junior-officer service but does not establish the OSS accession date.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The profile remains qualified and requires Box 678 review before identity can be raised to high confidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b839",
+          "support_type": "supports",
+          "locator_override": "PDF page 409, row 42; 1ST LT; Box 678"
+        },
+        {
+          "source_key": "west-point-register-saul-b839",
+          "support_type": "supports",
+          "locator_override": "Class of 1980 entry identifying Francis W. Saul, Cullum 13688, Class of 1943"
+        },
+        {
+          "source_key": "west-point-cemetery-saul-b839",
+          "support_type": "context_only",
+          "locator_override": "Francis W. Saul, U.S. Army captain"
+        }
+      ]
+    },
+    {
+      "key": "student-francis-saul-b839",
+      "person_id": "8fc94009-045e-5386-8582-98c1725b2589",
+      "affiliation_key": "francis-saul-usma-b839",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A probable match documents Francis W. Saul as a member of the United States Military Academy Class of 1943.",
+      "evidence_paraphrase": "The institutional register identifies Francis W. Saul, Cullum 13688, as Class of 1943.",
+      "identity_match_assessment": "Probable exact-name and military-chronology match, pending personnel-jacket corroboration.",
+      "temporal_assessment": "Documented prewar or wartime student status; it is not classified as employment or as the immediate pre-OSS affiliation.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Student status remains analytically separate from employment.",
+      "sources": [
+        {
+          "source_key": "west-point-register-saul-b839",
+          "support_type": "supports",
+          "locator_override": "Francis W. Saul, Cullum 13688, Class of 1943"
+        }
+      ]
+    },
+    {
+      "key": "identity-charles-l-sarver-b839",
+      "person_id": "dd3c47cf-e59e-5feb-bae2-8b49ac4778cd",
+      "claim_type": "identity",
+      "claim_text": "Indexed Charles L Sarver is identified at high confidence with the exact-name official Army bulk record tied by the same nonshared protected identifier.",
+      "evidence_paraphrase": "The NARA index and official Army bulk file agree in exact name and a nonshared protected identifier; coded occupations are not used as employment evidence.",
+      "identity_match_assessment": "High-confidence identity crosswalk from exact name plus a unique protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named civilian employer or the sequence into OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded Army fields remain private; the indexed personnel jacket is required for employment chronology.",
+      "sources": [
+        {
+          "source_key": "nara-index-b839",
+          "support_type": "supports",
+          "locator_override": "PDF page 409, row 27; PFC; Box 678"
+        },
+        {
+          "source_key": "army-bulk-b839",
+          "support_type": "supports",
+          "locator_override": "Private exact-name and nonshared-identifier crosswalk; identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-dwight-g-sartwell-b839",
+      "person_id": "12a7b69f-89e3-5048-9f2b-94c37a5c2210",
+      "claim_type": "identity",
+      "claim_text": "Indexed Dwight G Sartwell is identified at high confidence with the exact-name official Army bulk record tied by the same nonshared protected identifier.",
+      "evidence_paraphrase": "The NARA index and official Army bulk file agree in exact name and a nonshared protected identifier; coded occupations are not used as employment evidence.",
+      "identity_match_assessment": "High-confidence identity crosswalk from exact name plus a unique protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named civilian employer or the sequence into OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded Army fields remain private; the indexed personnel jacket is required for employment chronology.",
+      "sources": [
+        {
+          "source_key": "nara-index-b839",
+          "support_type": "supports",
+          "locator_override": "PDF page 409, row 26; SGT; Box 678"
+        },
+        {
+          "source_key": "army-bulk-b839",
+          "support_type": "supports",
+          "locator_override": "Private exact-name and nonshared-identifier crosswalk; identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-francis-j-sartorio-b839",
+      "person_id": "d7e00713-8e36-5ace-abcb-6ce9e318b83b",
+      "claim_type": "identity",
+      "claim_text": "Indexed Francis J Sartorio is identified at high confidence with the exact-name official Army bulk record tied by the same nonshared protected identifier.",
+      "evidence_paraphrase": "The NARA index and official Army bulk file agree in exact name and a nonshared protected identifier; coded occupations are not used as employment evidence.",
+      "identity_match_assessment": "High-confidence identity crosswalk from exact name plus a unique protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named civilian employer or the sequence into OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded Army fields remain private; the indexed personnel jacket is required for employment chronology.",
+      "sources": [
+        {
+          "source_key": "nara-index-b839",
+          "support_type": "supports",
+          "locator_override": "PDF page 409, row 25; T-5; Box 678"
+        },
+        {
+          "source_key": "army-bulk-b839",
+          "support_type": "supports",
+          "locator_override": "Private exact-name and nonshared-identifier crosswalk; identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-frankie-w-sass-b839",
+      "person_id": "d0a70f62-9ba6-5f9b-b386-55f0f52cb7ad",
+      "claim_type": "identity",
+      "claim_text": "Indexed Frankie W Sass is identified at high confidence with the exact-name official Army bulk record tied by the same nonshared protected identifier.",
+      "evidence_paraphrase": "The NARA index and official Army bulk file agree in exact name and a nonshared protected identifier; coded occupations are not used as employment evidence.",
+      "identity_match_assessment": "High-confidence identity crosswalk from exact name plus a unique protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named civilian employer or the sequence into OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded Army fields remain private; the indexed personnel jacket is required for employment chronology.",
+      "sources": [
+        {
+          "source_key": "nara-index-b839",
+          "support_type": "supports",
+          "locator_override": "PDF page 409, row 32; PFC; Box 678"
+        },
+        {
+          "source_key": "army-bulk-b839",
+          "support_type": "supports",
+          "locator_override": "Private exact-name and nonshared-identifier crosswalk; identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-michael-f-sasko-b839",
+      "person_id": "1b2cc918-dad1-59be-979d-0dee6dcee5be",
+      "claim_type": "identity",
+      "claim_text": "Indexed Michael F Sasko is identified at high confidence with the exact-name official Army bulk record tied by the same nonshared protected identifier.",
+      "evidence_paraphrase": "The NARA index and official Army bulk file agree in exact name and a nonshared protected identifier; coded occupations are not used as employment evidence.",
+      "identity_match_assessment": "High-confidence identity crosswalk from exact name plus a unique protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named civilian employer or the sequence into OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier and coded Army fields remain private; the indexed personnel jacket is required for employment chronology.",
+      "sources": [
+        {
+          "source_key": "nara-index-b839",
+          "support_type": "supports",
+          "locator_override": "PDF page 409, row 30; S SGT; Box 678"
+        },
+        {
+          "source_key": "army-bulk-b839",
+          "support_type": "supports",
+          "locator_override": "Private exact-name and nonshared-identifier crosswalk; identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-joseph-sascavitz-conflict-b839",
+      "person_id": "3b383dda-6380-571a-a0ed-9db053918a38",
+      "claim_type": "identity",
+      "claim_text": "Joseph J. Sascavitz has a protected-identifier conflict between the printed OSS index and the official Army bulk record.",
+      "evidence_paraphrase": "The protected identifier points to a materially different Army name, so neither alternate identity nor occupation is assigned publicly.",
+      "identity_match_assessment": "Conflicting identity evidence requiring examination of the indexed personnel jacket.",
+      "temporal_assessment": "The wartime Army crosswalk cannot support any employer chronology until the identity conflict is resolved.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The alternate name, identifier and coded Army fields remain private. The printed index spelling remains authoritative for the source record.",
+      "sources": [
+        {
+          "source_key": "nara-index-b839",
+          "support_type": "supports",
+          "locator_override": "PDF page 409, row 29; PFC; Box 678"
+        },
+        {
+          "source_key": "army-bulk-b839",
+          "support_type": "contradicts",
+          "locator_override": "Private protected-identifier conflict; alternate name withheld"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "c9f76929-cf52-573a-a464-41148eda08ea",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare exact name, indexed captain rank and obituary explicitly linking Joseph Frank Sartiano to Army-to-OSS recruitment establish a high-confidence identity.",
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 678 for exact music-work dates, Army accession, OCS completion and OSS recruitment chronology."
+    },
+    {
+      "person_id": "d7e00713-8e36-5ace-abcb-6ce9e318b83b",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The NARA index and official Army bulk file agree through an exact name and a nonshared protected identifier. Coded occupations are not employment evidence.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 678 for Francis J Sartorio's named civilian employer, wartime assignment and OSS transfer chronology."
+    },
+    {
+      "person_id": "12a7b69f-89e3-5048-9f2b-94c37a5c2210",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The NARA index and official Army bulk file agree through an exact name and a nonshared protected identifier. Coded occupations are not employment evidence.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 678 for Dwight G Sartwell's named civilian employer, wartime assignment and OSS transfer chronology."
+    },
+    {
+      "person_id": "dd3c47cf-e59e-5feb-bae2-8b49ac4778cd",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The NARA index and official Army bulk file agree through an exact name and a nonshared protected identifier. Coded occupations are not employment evidence.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 678 for Charles L Sarver's named civilian employer, wartime assignment and OSS transfer chronology."
+    },
+    {
+      "person_id": "3f39b1a3-b47e-54c0-bd11-1a9ef2416aa2",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare exact full name and indexed captain align with a 1946 federal personnel letter signed Byron C. Sarvis; Kansas records connect the name to psychology and Army ROTC.",
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 678 to establish the exact University of Kansas leave date, military assignment and OSS accession sequence."
+    },
+    {
+      "person_id": "3b383dda-6380-571a-a0ed-9db053918a38",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "conflicting",
+      "identity_evidence": "The printed NARA index remains authoritative, but the official Army bulk row associated with its protected identifier prints a materially different name. Alternate identity and coded fields are withheld.",
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 678 to resolve the protected-identifier conflict before assigning any biography, occupation or employer."
+    },
+    {
+      "person_id": "1b2cc918-dad1-59be-979d-0dee6dcee5be",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The NARA index and official Army bulk file agree through an exact name and a nonshared protected identifier. Coded occupations are not employment evidence.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 678 for Michael F Sasko's named civilian employer, wartime assignment and OSS transfer chronology."
+    },
+    {
+      "person_id": "32ab199b-4226-5566-b7e0-078083063563",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Exact-name searches produced multiple plausible namesakes, including a court reporter and a physician, without a unique identifier tying either to the index row.",
+      "research_status": "needs_identity_review",
+      "next_action": "Review Box 678 for identifiers that distinguish the indexed Samuel K Saslaw from exact-name civilian and military candidates."
+    },
+    {
+      "person_id": "d0a70f62-9ba6-5f9b-b386-55f0f52cb7ad",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The NARA index and official Army bulk file agree through an exact name and a nonshared protected identifier. Coded occupations are not employment evidence.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 678 for Frankie W Sass's named civilian employer, wartime assignment and OSS transfer chronology."
+    },
+    {
+      "person_id": "acc74166-5d54-50c1-96f9-3c8f28b089f1",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, CIA Reading Room, employment, occupation, obituary, institutional, newspaper and archival searches did not yield a sufficiently corroborated pre-OSS identity. Namesake and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 678; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed."
+    },
+    {
+      "person_id": "d1342f43-0948-5c2f-839b-534a3a08c003",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The two separately printed T-5 rows on the same page have similar given and surnames, but accessible sources do not establish whether they are distinct people, variants or an index duplication.",
+      "research_status": "needs_identity_review",
+      "next_action": "Review both Box 678 personnel jackets side by side; preserve the two source rows unless direct evidence establishes duplication.",
+      "possible_duplicate_group": "page409-earl-satagofiel-saterfield"
+    },
+    {
+      "person_id": "bbff6a92-aac1-5885-bf96-1fbafdee74fc",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, CIA Reading Room, employment, occupation, obituary, institutional, newspaper and archival searches did not yield a sufficiently corroborated pre-OSS identity. Namesake and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 678; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed."
+    },
+    {
+      "person_id": "a6ad86d6-8780-514a-9e6c-0bcc1f9d49a0",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The two separately printed T-5 rows on the same page have similar given and surnames, but accessible sources do not establish whether they are distinct people, variants or an index duplication.",
+      "research_status": "needs_identity_review",
+      "next_action": "Review both Box 678 personnel jackets side by side; preserve the two source rows unless direct evidence establishes duplication.",
+      "possible_duplicate_group": "page409-earl-satagofiel-saterfield"
+    },
+    {
+      "person_id": "7598a315-5856-55c8-b6d4-041244f19663",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, CIA Reading Room, employment, occupation, obituary, institutional, newspaper and archival searches did not yield a sufficiently corroborated pre-OSS identity. Namesake and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 678; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed."
+    },
+    {
+      "person_id": "23681031-4f23-574d-87ad-bd932a87655c",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, CIA Reading Room, employment, occupation, obituary, institutional, newspaper and archival searches did not yield a sufficiently corroborated pre-OSS identity. Namesake and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 678; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed."
+    },
+    {
+      "person_id": "52b8472a-870a-50ca-ab5d-a6294a026f50",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, CIA Reading Room, employment, occupation, obituary, institutional, newspaper and archival searches did not yield a sufficiently corroborated pre-OSS identity. Namesake and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 678; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed."
+    },
+    {
+      "person_id": "914c7272-9aab-5716-a2cf-12775cc91e7d",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, CIA Reading Room, employment, occupation, obituary, institutional, newspaper and archival searches did not yield a sufficiently corroborated pre-OSS identity. Namesake and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 678; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed."
+    },
+    {
+      "person_id": "f0fb6249-ba23-54ae-b2d8-efda432b8580",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, CIA Reading Room, employment, occupation, obituary, institutional, newspaper and archival searches did not yield a sufficiently corroborated pre-OSS identity. Namesake and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 678; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed."
+    },
+    {
+      "person_id": "8fc94009-045e-5386-8582-98c1725b2589",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "probable",
+      "identity_evidence": "The exact name, West Point Class of 1943, Army context and later captain burial record fit the indexed first lieutenant, but no unique identifier has linked them.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 678 to confirm the West Point identity and document Saul's immediate pre-OSS military assignment."
+    },
+    {
+      "person_id": "7987e57b-abc9-57c7-8385-2e926b655ed7",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, CIA Reading Room, employment, occupation, obituary, institutional, newspaper and archival searches did not yield a sufficiently corroborated pre-OSS identity. Namesake and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 678; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed."
+    },
+    {
+      "person_id": "f4dba175-31ea-59d4-97c9-cc8eb553cbf4",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, CIA Reading Room, employment, occupation, obituary, institutional, newspaper and archival searches did not yield a sufficiently corroborated pre-OSS identity. Namesake and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 678; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed."
+    },
+    {
+      "person_id": "c3359fd1-4122-57aa-a1bd-015cdabc4ef2",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, CIA Reading Room, employment, occupation, obituary, institutional, newspaper and archival searches did not yield a sufficiently corroborated pre-OSS identity. Namesake and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 679; no reliable pre-OSS employer has yet been identified in the accessible sources reviewed."
+    },
+    {
+      "person_id": "b8e66bcf-b420-5bf4-8fa2-4f45d5258a03",
+      "manual_review_required": true,
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name OSS, CIA Reading Room, employment, occupation, obituary, institutional, newspaper and archival searches did not yield a sufficiently corroborated pre-OSS identity. Namesake and postwar-only leads were rejected.",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 679 because initials alone are insufficient to distinguish namesakes or assign a pre-OSS employer."
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "joseph-f-sartiano-b839",
+      "person_id": "c9f76929-cf52-573a-a464-41148eda08ea",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index page 409; Joseph F Sartiano; CAPT; exact-name and variant OSS searches; CIA Reading Room; LoC attempt; employer, occupation, obituary, institutional, newspaper and archival searches; Box 678",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_839",
+      "started_at": "2026-10-16T02:10:00-04:00",
+      "completed_at": "2026-10-16T02:55:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 14,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Uncorroborated namesakes and postwar-only CIA material were rejected; the family obituary was accepted only where it explicitly supplies the Army-to-OSS and pre-service chronology.",
+      "research_notes": "The obituary supports high-confidence identity, an explicit immediate Army affiliation and qualified pre-service self-employment. No corporate employer was inferred from the accordion school. Exact-name CIA Reading Room site searches returned no candidates; the LoC adapter preserved a redacted URLError.",
+      "next_action": "Review Box 678 for exact dates and any business name used by the accordion school.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-b839-v1"
+    },
+    {
+      "key": "francis-j-sartorio-b839",
+      "person_id": "d7e00713-8e36-5ace-abcb-6ce9e318b83b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index page 409; Francis J Sartorio; T-5; exact-name and variant OSS searches; CIA Reading Room; LoC attempt; employer, occupation, obituary, institutional, newspaper and archival searches; Box 678",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_839",
+      "started_at": "2026-10-16T02:10:00-04:00",
+      "completed_at": "2026-10-16T02:55:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Army coded occupations were excluded as employer evidence; namesakes and postwar-only records lacked the required corroborating identifiers.",
+      "research_notes": "The official Army bulk file supplies a high-confidence identity crosswalk only. No named pre-OSS employer was established. Exact-name CIA Reading Room site searches returned no candidates; the LoC adapter preserved a redacted URLError.",
+      "next_action": "Review Box 678.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-b839-v1"
+    },
+    {
+      "key": "dwight-g-sartwell-b839",
+      "person_id": "12a7b69f-89e3-5048-9f2b-94c37a5c2210",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index page 409; Dwight G Sartwell; SGT; exact-name and variant OSS searches; CIA Reading Room; LoC attempt; employer, occupation, obituary, institutional, newspaper and archival searches; Box 678",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_839",
+      "started_at": "2026-10-16T02:10:00-04:00",
+      "completed_at": "2026-10-16T02:55:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Army coded occupations were excluded as employer evidence; namesakes and postwar-only records lacked the required corroborating identifiers.",
+      "research_notes": "The official Army bulk file supplies a high-confidence identity crosswalk only. No named pre-OSS employer was established. Exact-name CIA Reading Room site searches returned no candidates; the LoC adapter preserved a redacted URLError.",
+      "next_action": "Review Box 678.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-b839-v1"
+    },
+    {
+      "key": "charles-l-sarver-b839",
+      "person_id": "dd3c47cf-e59e-5feb-bae2-8b49ac4778cd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index page 409; Charles L Sarver; PFC; exact-name and variant OSS searches; CIA Reading Room; LoC attempt; employer, occupation, obituary, institutional, newspaper and archival searches; Box 678",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_839",
+      "started_at": "2026-10-16T02:10:00-04:00",
+      "completed_at": "2026-10-16T02:55:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Army coded occupations were excluded as employer evidence; namesakes and postwar-only records lacked the required corroborating identifiers.",
+      "research_notes": "The official Army bulk file supplies a high-confidence identity crosswalk only. No named pre-OSS employer was established. Exact-name CIA Reading Room site searches returned no candidates; the LoC adapter preserved a redacted URLError.",
+      "next_action": "Review Box 678.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-b839-v1"
+    },
+    {
+      "key": "byron-c-sarvis-b839",
+      "person_id": "3f39b1a3-b47e-54c0-bd11-1a9ef2416aa2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index page 409; Byron C Sarvis; CAPT; exact-name and variant OSS searches; CIA Reading Room; LoC attempt; employer, occupation, obituary, institutional, newspaper and archival searches; Box 678",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_839",
+      "started_at": "2026-10-16T02:10:00-04:00",
+      "completed_at": "2026-10-16T02:55:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 14,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The KU faculty page's E middle initial and Bryon spelling were treated as discrepancies, not silently corrected; postwar personnel-office evidence was not misclassified as prewar employment.",
+      "research_notes": "University and federal sources support high-confidence identity and a qualified last civilian employer. The source does not prove that KU immediately preceded OSS. Exact-name CIA Reading Room site searches returned no candidates; the LoC adapter preserved a redacted URLError.",
+      "next_action": "Review Box 678 for exact leave, military and OSS accession dates.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-b839-v1"
+    },
+    {
+      "key": "joseph-j-sascavitz-b839",
+      "person_id": "3b383dda-6380-571a-a0ed-9db053918a38",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index page 409; Joseph J Sascavitz; PFC; exact-name and variant OSS searches; CIA Reading Room; LoC attempt; employer, occupation, obituary, institutional, newspaper and archival searches; Box 678",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_839",
+      "started_at": "2026-10-16T02:10:00-04:00",
+      "completed_at": "2026-10-16T02:55:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 9,
+      "rejection_reasons": "A Trenton obituary-index hit supplied no identity or employment link. The protected Army candidate has a materially different name, so all attached biographical and occupation data were withheld.",
+      "research_notes": "The printed index remains authoritative pending jacket review. Exact-name CIA Reading Room site searches returned no candidates; the LoC adapter preserved a redacted URLError.",
+      "next_action": "Resolve the protected-identifier conflict in Box 678.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-b839-v1"
+    },
+    {
+      "key": "michael-f-sasko-b839",
+      "person_id": "1b2cc918-dad1-59be-979d-0dee6dcee5be",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index page 409; Michael F Sasko; S SGT; exact-name and variant OSS searches; CIA Reading Room; LoC attempt; employer, occupation, obituary, institutional, newspaper and archival searches; Box 678",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_839",
+      "started_at": "2026-10-16T02:10:00-04:00",
+      "completed_at": "2026-10-16T02:55:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Army coded occupations were excluded as employer evidence; namesakes and postwar-only records lacked the required corroborating identifiers.",
+      "research_notes": "The official Army bulk file supplies a high-confidence identity crosswalk only. No named pre-OSS employer was established. Exact-name CIA Reading Room site searches returned no candidates; the LoC adapter preserved a redacted URLError.",
+      "next_action": "Review Box 678.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-b839-v1"
+    },
+    {
+      "key": "samuel-k-saslaw-b839",
+      "person_id": "32ab199b-4226-5566-b7e0-078083063563",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index page 409; Samuel K Saslaw; blank; exact-name and variant OSS searches; CIA Reading Room; LoC attempt; employer, occupation, obituary, institutional, newspaper and archival searches; Box 678",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_839",
+      "started_at": "2026-10-16T02:10:00-04:00",
+      "completed_at": "2026-10-16T02:55:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 10,
+      "rejection_reasons": "A court-reporter obituary and a physician biography describe different plausible namesakes; neither has two corroborating identifiers tying it to the index row.",
+      "research_notes": "No candidate was selected. Exact-name CIA Reading Room site searches returned no candidates; the LoC adapter preserved a redacted URLError.",
+      "next_action": "Review Box 678 for a birth year, hometown, branch, assignment or other distinguishing identifier.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-b839-v1"
+    },
+    {
+      "key": "frankie-w-sass-b839",
+      "person_id": "d0a70f62-9ba6-5f9b-b386-55f0f52cb7ad",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index page 409; Frankie W Sass; PFC; exact-name and variant OSS searches; CIA Reading Room; LoC attempt; employer, occupation, obituary, institutional, newspaper and archival searches; Box 678",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_839",
+      "started_at": "2026-10-16T02:10:00-04:00",
+      "completed_at": "2026-10-16T02:55:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Army coded occupations were excluded as employer evidence; namesakes and postwar-only records lacked the required corroborating identifiers.",
+      "research_notes": "The official Army bulk file supplies a high-confidence identity crosswalk only. No named pre-OSS employer was established. Exact-name CIA Reading Room site searches returned no candidates; the LoC adapter preserved a redacted URLError.",
+      "next_action": "Review Box 678.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-b839-v1"
+    },
+    {
+      "key": "agnes-l-sassoer-b839",
+      "person_id": "acc74166-5d54-50c1-96f9-3c8f28b089f1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index page 409; Agnes L Sassoer; CAF-2; exact-name and variant OSS searches; CIA Reading Room; LoC attempt; employer, occupation, obituary, institutional, newspaper and archival searches; Box 678",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_839",
+      "started_at": "2026-10-16T02:10:00-04:00",
+      "completed_at": "2026-10-16T02:55:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Namesakes, postwar-only careers, directory fragments without identity corroboration, and search-result summaries were rejected; military occupation codes were not treated as named employers.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The indexed personnel file may require archival examination. Exact-name CIA Reading Room site searches returned no candidates; the LoC adapter preserved a redacted URLError.",
+      "next_action": "Review Box 678.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-b839-v1"
+    },
+    {
+      "key": "earl-satagofiel-b839",
+      "person_id": "d1342f43-0948-5c2f-839b-534a3a08c003",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index page 409; Earl Satagofiel; T-5; exact-name and variant OSS searches; CIA Reading Room; LoC attempt; employer, occupation, obituary, institutional, newspaper and archival searches; Box 678",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_839",
+      "started_at": "2026-10-16T02:10:00-04:00",
+      "completed_at": "2026-10-16T02:55:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "No corroborating source was found, and similarity to the separately printed Earl Saterfield row is not enough to merge them.",
+      "research_notes": "The possible duplicate relationship is recorded for review only. Exact-name CIA Reading Room site searches returned no candidates; the LoC adapter preserved a redacted URLError.",
+      "next_action": "Compare the two Box 678 jackets side by side.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-b839-v1"
+    },
+    {
+      "key": "james-h-satcher-b839",
+      "person_id": "bbff6a92-aac1-5885-bf96-1fbafdee74fc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index page 409; James H Satcher; SP X 3C; exact-name and variant OSS searches; CIA Reading Room; LoC attempt; employer, occupation, obituary, institutional, newspaper and archival searches; Box 678",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_839",
+      "started_at": "2026-10-16T02:10:00-04:00",
+      "completed_at": "2026-10-16T02:55:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Namesakes, postwar-only careers, directory fragments without identity corroboration, and search-result summaries were rejected; military occupation codes were not treated as named employers.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The indexed personnel file may require archival examination. Exact-name CIA Reading Room site searches returned no candidates; the LoC adapter preserved a redacted URLError.",
+      "next_action": "Review Box 678.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-b839-v1"
+    },
+    {
+      "key": "earl-saterfield-b839",
+      "person_id": "a6ad86d6-8780-514a-9e6c-0bcc1f9d49a0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index page 409; Earl Saterfield; T-5; exact-name and variant OSS searches; CIA Reading Room; LoC attempt; employer, occupation, obituary, institutional, newspaper and archival searches; Box 678",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_839",
+      "started_at": "2026-10-16T02:10:00-04:00",
+      "completed_at": "2026-10-16T02:55:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "No corroborating source was found, and similarity to the separately printed Earl Satagofiel row is not enough to merge them.",
+      "research_notes": "The possible duplicate relationship is recorded for review only. Exact-name CIA Reading Room site searches returned no candidates; the LoC adapter preserved a redacted URLError.",
+      "next_action": "Compare the two Box 678 jackets side by side.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-b839-v1"
+    },
+    {
+      "key": "eve-satner-b839",
+      "person_id": "7598a315-5856-55c8-b6d4-041244f19663",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index page 409; Eve Satner; CAF-5; exact-name and variant OSS searches; CIA Reading Room; LoC attempt; employer, occupation, obituary, institutional, newspaper and archival searches; Box 678",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_839",
+      "started_at": "2026-10-16T02:10:00-04:00",
+      "completed_at": "2026-10-16T02:55:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Namesakes, postwar-only careers, directory fragments without identity corroboration, and search-result summaries were rejected; military occupation codes were not treated as named employers.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The indexed personnel file may require archival examination. Exact-name CIA Reading Room site searches returned no candidates; the LoC adapter preserved a redacted URLError.",
+      "next_action": "Review Box 678.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-b839-v1"
+    },
+    {
+      "key": "tom-satner-b839",
+      "person_id": "23681031-4f23-574d-87ad-bd932a87655c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index page 409; Tom Satner; CAPT; exact-name and variant OSS searches; CIA Reading Room; LoC attempt; employer, occupation, obituary, institutional, newspaper and archival searches; Box 678",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_839",
+      "started_at": "2026-10-16T02:10:00-04:00",
+      "completed_at": "2026-10-16T02:55:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Namesakes, postwar-only careers, directory fragments without identity corroboration, and search-result summaries were rejected; military occupation codes were not treated as named employers.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The indexed personnel file may require archival examination. Exact-name CIA Reading Room site searches returned no candidates; the LoC adapter preserved a redacted URLError.",
+      "next_action": "Review Box 678.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-b839-v1"
+    },
+    {
+      "key": "robert-y-p-sato-b839",
+      "person_id": "52b8472a-870a-50ca-ab5d-a6294a026f50",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index page 409; Robert Y P Sato; P-2; exact-name and variant OSS searches; CIA Reading Room; LoC attempt; employer, occupation, obituary, institutional, newspaper and archival searches; Box 678",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_839",
+      "started_at": "2026-10-16T02:10:00-04:00",
+      "completed_at": "2026-10-16T02:55:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Namesakes, postwar-only careers, directory fragments without identity corroboration, and search-result summaries were rejected; military occupation codes were not treated as named employers.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The indexed personnel file may require archival examination. Exact-name CIA Reading Room site searches returned no candidates; the LoC adapter preserved a redacted URLError.",
+      "next_action": "Review Box 678.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-b839-v1"
+    },
+    {
+      "key": "takashi-t-sato-b839",
+      "person_id": "914c7272-9aab-5716-a2cf-12775cc91e7d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index page 409; Takashi T Sato; P-1; exact-name and variant OSS searches; CIA Reading Room; LoC attempt; employer, occupation, obituary, institutional, newspaper and archival searches; Box 678",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_839",
+      "started_at": "2026-10-16T02:10:00-04:00",
+      "completed_at": "2026-10-16T02:55:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Namesakes, postwar-only careers, directory fragments without identity corroboration, and search-result summaries were rejected; military occupation codes were not treated as named employers.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The indexed personnel file may require archival examination. Exact-name CIA Reading Room site searches returned no candidates; the LoC adapter preserved a redacted URLError.",
+      "next_action": "Review Box 678.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-b839-v1"
+    },
+    {
+      "key": "elizabeth-w-sauer-b839",
+      "person_id": "f0fb6249-ba23-54ae-b2d8-efda432b8580",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index page 409; Elizabeth W Sauer; P-1; exact-name and variant OSS searches; CIA Reading Room; LoC attempt; employer, occupation, obituary, institutional, newspaper and archival searches; Box 678",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_839",
+      "started_at": "2026-10-16T02:10:00-04:00",
+      "completed_at": "2026-10-16T02:55:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Namesakes, postwar-only careers, directory fragments without identity corroboration, and search-result summaries were rejected; military occupation codes were not treated as named employers.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The indexed personnel file may require archival examination. Exact-name CIA Reading Room site searches returned no candidates; the LoC adapter preserved a redacted URLError.",
+      "next_action": "Review Box 678.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-b839-v1"
+    },
+    {
+      "key": "francis-w-saul-b839",
+      "person_id": "8fc94009-045e-5386-8582-98c1725b2589",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index page 409; Francis W Saul; 1ST LT; exact-name and variant OSS searches; CIA Reading Room; LoC attempt; employer, occupation, obituary, institutional, newspaper and archival searches; Box 678",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_839",
+      "started_at": "2026-10-16T02:10:00-04:00",
+      "completed_at": "2026-10-16T02:55:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Postwar directory entries and unrelated namesakes were rejected. The West Point match remains probable because no unique identifier has yet linked the graduate to the indexed row.",
+      "research_notes": "The institutional register supports qualified student status, not employment. Exact-name CIA Reading Room site searches returned no candidates; the LoC adapter preserved a redacted URLError.",
+      "next_action": "Review Box 678 to confirm the West Point identity and immediate military assignment.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-b839-v1"
+    },
+    {
+      "key": "edith-j-saull-b839",
+      "person_id": "7987e57b-abc9-57c7-8385-2e926b655ed7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index page 409; Edith J Saull; CAF-4; exact-name and variant OSS searches; CIA Reading Room; LoC attempt; employer, occupation, obituary, institutional, newspaper and archival searches; Box 678",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_839",
+      "started_at": "2026-10-16T02:10:00-04:00",
+      "completed_at": "2026-10-16T02:55:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Namesakes, postwar-only careers, directory fragments without identity corroboration, and search-result summaries were rejected; military occupation codes were not treated as named employers.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The indexed personnel file may require archival examination. Exact-name CIA Reading Room site searches returned no candidates; the LoC adapter preserved a redacted URLError.",
+      "next_action": "Review Box 678.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-b839-v1"
+    },
+    {
+      "key": "bruce-e-saunders-b839",
+      "person_id": "f4dba175-31ea-59d4-97c9-cc8eb553cbf4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index page 409; Bruce E Saunders; 2ND LT; exact-name and variant OSS searches; CIA Reading Room; LoC attempt; employer, occupation, obituary, institutional, newspaper and archival searches; Box 678",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_839",
+      "started_at": "2026-10-16T02:10:00-04:00",
+      "completed_at": "2026-10-16T02:55:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Namesakes, postwar-only careers, directory fragments without identity corroboration, and search-result summaries were rejected; military occupation codes were not treated as named employers.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The indexed personnel file may require archival examination. Exact-name CIA Reading Room site searches returned no candidates; the LoC adapter preserved a redacted URLError.",
+      "next_action": "Review Box 678.",
+      "attempt_number": 7,
+      "research_agent_version": "before-oss-b839-v1"
+    },
+    {
+      "key": "edward-r-saunders-b839",
+      "person_id": "c3359fd1-4122-57aa-a1bd-015cdabc4ef2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index page 409; Edward R Saunders; CAF-12; exact-name and variant OSS searches; CIA Reading Room; LoC attempt; employer, occupation, obituary, institutional, newspaper and archival searches; Box 679",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_839",
+      "started_at": "2026-10-16T02:10:00-04:00",
+      "completed_at": "2026-10-16T02:55:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Namesakes, postwar-only careers, directory fragments without identity corroboration, and search-result summaries were rejected; military occupation codes were not treated as named employers.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The indexed personnel file may require archival examination. Exact-name CIA Reading Room site searches returned no candidates; the LoC adapter preserved a redacted URLError.",
+      "next_action": "Review Box 679.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-b839-v1"
+    },
+    {
+      "key": "g-c-saunders-b839",
+      "person_id": "b8e66bcf-b420-5bf4-8fa2-4f45d5258a03",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA index page 409; G C Saunders; blank; exact-name and variant OSS searches; CIA Reading Room; LoC attempt; employer, occupation, obituary, institutional, newspaper and archival searches; Box 679",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_839",
+      "started_at": "2026-10-16T02:10:00-04:00",
+      "completed_at": "2026-10-16T02:55:00-04:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 8,
+      "rejection_reasons": "Namesakes, postwar-only careers, directory fragments without identity corroboration, and search-result summaries were rejected; military occupation codes were not treated as named employers.",
+      "research_notes": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. The indexed personnel file may require archival examination. Exact-name CIA Reading Room site searches returned no candidates; the LoC adapter preserved a redacted URLError.",
+      "next_action": "Review Box 679.",
+      "attempt_number": 5,
+      "research_agent_version": "before-oss-b839-v1"
+    }
+  ]
+}
