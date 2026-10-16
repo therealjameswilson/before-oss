@@ -5472,6 +5472,44 @@ unrelated namesake biography or full copyrighted page is stored or published.
 The durable evidence is in
 `research/evidence-page419-selvig-serao-review_batch-859_2026-10-16.json`.
 
+## Page 420 Sereda through Sevcik review, Batch 860
+
+The 23 contiguous source rows from Walter Sereda through Paul D Sevcik were
+checked against the reviewed page 420 table and retained as separate immutable
+records. Names, printed ranks, Boxes 696-697 and archive location
+230/86/40/04 remain recoverable; public outputs mask full identifiers.
+
+The checksum-verified NARA Army merged file was searched transiently under its
+official fixed-width documentation. Nonshared private identifiers support
+identity bridges for Walter Sereda, Anthony J Serelis, William Seremitis,
+Edwin P Serian, Edison C Serna, John J Sersen, Harry M Servis and Raymond P
+Sessions. William G. Seremetis is retained as a source-supported spelling
+variant. Army entry-grade and occupation codes were not converted into OSS
+ranks, employers or affiliations.
+
+An American-Turkish Society of Indiana memorial explicitly documents Beurt R.
+SerVaas teaching chemistry and Spanish at Shortridge High School immediately
+before joining OSS; the Congressional Record independently corroborates his
+service. A contemporary *New Yorker* article and the Smithsonian National Air
+and Space Museum document Boris Sergievsky's prewar progression from Sikorsky
+Aircraft chief test pilot to vice-president of the Helicopter Corporation of
+America. The latter sources do not close the interval to OSS, so neither
+employer is labeled immediate.
+
+Paul Paillole's AASSDN biography and linked chronology identify André Sérot and
+document French military-intelligence and Air Force security assignments.
+Those are modeled as Allied military assignments rather than employers. Rhode
+Island Historical Society and Alfred de Grazia sources support a probable
+Renzo Sereno identity and his University of Chicago research-assistant work;
+the medium-confidence result remains visibly qualified. Operational Group
+sources corroborate Anthony J. Serelis and John J. Sersen without supplying
+pre-OSS employers.
+
+No authenticated Catalog request, credential, raw API response, full private
+identifier, raw Army row, unsupported employer, unrelated namesake biography
+or full copyrighted page is stored or published. The durable evidence is in
+`research/evidence-page420-sereda-sevcik-review_batch-860_2026-10-16.json`.
+
 ## Official reference material
 
 - NARA OSS personnel records:

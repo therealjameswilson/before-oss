@@ -1,5 +1,30 @@
 # Research status
 
+Batch 860 completed PDF page 420, rows 1-23, from **Walter Sereda** through
+**Paul D Sevcik**, preserving all 23 printed rows as separate source records
+linked to 23 active person entities. All 23 have saved terminal research
+outcomes. **Beurt R SerVaas**'s Shortridge High School teaching is published as
+both his explicit immediate pre-OSS affiliation and last civilian employment.
+**Boris Sergievsky**'s work for Sikorsky Aircraft and the Helicopter
+Corporation of America is published as earlier prewar employment without
+inventing an immediate predecessor. **André Sérot** is correctly classified as
+foreign or Allied military personnel, and his French assignments remain
+military rather than civilian-employer claims. **Renzo Sereno**'s University of
+Chicago research work remains a visibly qualified medium-confidence result.
+Eight official Army crosswalks support identity decisions only.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **12,749/23,937 (53.2606%)**;
+verified-employer coverage is **421/23,937 (1.7588%)**;
+verified-affiliation coverage is **927/23,937 (3.8727%)**; archival-review
+coverage is **11,216/23,937 (46.8563%)**. There are **11,183** `not_started`
+people, **572** possible-duplicate groups and **447** conflicts. The public
+projection contains **2,857** affiliations, **1,068** organizations, **5,278**
+sources and **7,716** published claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 420, row 24, **Francis D
+Severance**. See `research/batch-860-progress.md` for the source-by-source
+audit.
+
 Batch 859 completed PDF page 419, rows 24-46, from **William W Selvig** through
 **Anthony Serao**, preserving all 23 printed rows as separate source records
 linked to 23 active person entities. All 23 have saved terminal research
