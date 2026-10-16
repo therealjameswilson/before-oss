@@ -1,0 +1,422 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 854 archival research review",
+  "sources": [
+    {
+      "key": "nara-index-b854",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 691-692",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 417, rows 1-23; visually checked against a 180 dpi page render",
+      "access_date": "2026-10-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Full service numbers are retained only in the private database and excluded from public outputs."
+    },
+    {
+      "key": "army-bulk-b854",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Department of Defense; Department of the Army",
+      "repository_publisher": "National Archives and Records Administration",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; seven protected-identifier candidate rows reviewed for Batch 854",
+      "access_date": "2026-10-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "rights_notes": "Seven candidate rows were accepted as identity bridges. Full identifiers, raw rows, entry-date codes and occupation codes are not published."
+    },
+    {
+      "key": "buffalo-tech-scofield-b854",
+      "stable_url": "https://dspace.sunyconnect.suny.edu/server/api/core/bitstreams/05ddc970-9923-43ce-9c82-5d34864db3f8/content",
+      "title": "Buffalo Technical Institute News",
+      "author_creator": "New York State Institute of Applied Arts and Sciences at Buffalo",
+      "repository_publisher": "SUNY Digital Repository",
+      "publication_record_date": "1947-11-14",
+      "locator": "Volume 1, number 2, page 1, column headed 'Dr. Scofield of U. B. To Speak Wednesday'",
+      "access_date": "2026-10-16",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "SUNY Erie institutional publications",
+      "rights_notes": "The single-page issue was rendered and visually inspected. Only a short excerpt and project-authored paraphrase are retained."
+    },
+    {
+      "key": "openalex-scofield-b854",
+      "stable_url": "https://openalex.org/W2063056922",
+      "archival_identifier": "DOI 10.1080/00221309.1935.9920094; OpenAlex W2063056922",
+      "title": "A Study of the Relative Neuromuscular Efficiency of the Dominant and Non-Dominant Eye in Binocular Vision",
+      "author_creator": "Z. J. Schoen and Carleton F. Scofield",
+      "repository_publisher": "The Journal of General Psychology; bibliographic metadata via OpenAlex",
+      "publication_record_date": "1935-01-01",
+      "locator": "Volume 12, issue 1, pages 156-181; author affiliation metadata",
+      "access_date": "2026-10-16",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "OpenAlex scholarly works metadata",
+      "rights_notes": "Bibliographic and affiliation metadata only; no paywalled article text is stored or republished."
+    },
+    {
+      "key": "yale-scofield-b854",
+      "stable_url": "https://psychology.yale.edu/graduate/history/psychology-dept-phd-graduates",
+      "title": "Psychology Department Ph.D. Graduates",
+      "author_creator": "Yale University Department of Psychology",
+      "repository_publisher": "Yale University",
+      "publication_record_date": "1928",
+      "locator": "1928 graduates: Carleton F. Scofield",
+      "access_date": "2026-10-16",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Used only as identity corroboration. Education is not treated as employment."
+    },
+    {
+      "key": "nara-sclater-b854",
+      "stable_url": "https://www.archives.gov/files/research/jfk/releases/104-10165-10120.pdf",
+      "archival_identifier": "NARA record number 104-10165-10120",
+      "title": "OSS Awards and Decorations Board minutes and attachments",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1945-07-19",
+      "locator": "PDF page 154, printed page 36, SO-2 Bronze Star Medal table; visually verified against the official NARA PDF",
+      "access_date": "2026-10-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "John F. Kennedy Assassination Records Collection",
+      "document_number": "104-10165-10120",
+      "rights_notes": "The record identifies Major Arthur Sclater as British and describes his SFHQ commands. It does not identify his civilian employer before service."
+    },
+    {
+      "key": "provincetown-sciarrotta-b854",
+      "stable_url": "https://provincetownindependent.org/home/makers/2026/03/11/enameling-that-fuses-glass-metal-and-history/",
+      "title": "Enameling That Fuses Glass, Metal, and History",
+      "author_creator": "Molly Jane Quinn",
+      "repository_publisher": "The Provincetown Independent",
+      "publication_record_date": "2026-03-11",
+      "locator": "Paragraphs describing Alfredo Sciarrotta's engineering work in Naples, OSS extraction in 1943 and Naval Torpedo Station work",
+      "access_date": "2026-10-16",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "The article supports a qualified occupation-only result. It does not name the Naples employer, and only a short excerpt is retained."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "university-of-buffalo-b854",
+      "canonical_name": "University of Buffalo",
+      "historical_name": "University of Buffalo",
+      "aliases": [
+        "University at Buffalo",
+        "U. B."
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Buffalo",
+      "state_or_region": "New York",
+      "country": "United States",
+      "active_dates": "Historical name used during the 1930s and 1940s",
+      "normalization_notes": "The historical employer name is preserved. The institution later became the State University of New York at Buffalo; the modern name is retained only as an alias."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "carleton-scofield-university-buffalo-b854",
+      "person_id": "735f36f8-6e94-5d23-a384-7fd215c2f381",
+      "organization_key": "university-of-buffalo-b854",
+      "organization_name_as_found": "University of Buffalo",
+      "role_title": "psychologist; faculty affiliation",
+      "occupation": "psychologist",
+      "relationship_type": "employment",
+      "start_date": "1935",
+      "date_precision": "Documented in a 1935 scholarly publication; continuity to OSS entry is not established",
+      "city": "Buffalo",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The 1935 article metadata affiliates Scofield with the University of Buffalo. A 1947 institutional newspaper independently identifies the same psychologist and his OSS service. Neither source proves this was his immediate pre-OSS affiliation."
+    },
+    {
+      "key": "alfredo-sciarrotta-naples-engineer-b854",
+      "person_id": "7db289b8-b71b-5a1b-8aca-e40ef94bea54",
+      "organization_name_as_found": "Unnamed organization in Naples",
+      "role_title": "engineer working on undersea weapons",
+      "occupation": "engineer",
+      "relationship_type": "employment",
+      "end_date": "1943",
+      "date_precision": "Before OSS extraction from Italy in 1943; exact dates and employer are not stated",
+      "city": "Naples",
+      "country": "Italy",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "A reputable newspaper identifies Alfredo Sciarrotta as an engineer working on undersea weapons in Naples before OSS removed him from Italy in 1943. The indexed first name is Alfred, no service number is present, and the employer is unnamed, so the identity and occupation remain qualified."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-edward-a-scigliano-b854",
+      "person_id": "d7d9ce20-f063-59ea-906d-471f7fc838c6",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record is a high-confidence identity match for indexed Edward A. Scigliano.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree; the Army entry grade and index rank differ and are preserved separately.",
+      "identity_match_assessment": "High confidence from exact-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "Identity crosswalk only; the Army record does not establish a pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army entry grade PVT is not substituted for the index rank PFC, and coded occupation is not employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b854", "locator_override": "PDF page 417, row 4; PFC; Box 691"},
+        {"source_key": "army-bulk-b854", "locator_override": "Exact-name and nonshared protected-identifier comparison; entry-grade discrepancy retained"}
+      ]
+    },
+    {
+      "key": "identity-phillip-scinto-b854",
+      "person_id": "f618c22d-7c9d-501a-b07b-ad43bedb94a4",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record is a high-confidence identity match for indexed Phillip Scinto.",
+      "evidence_paraphrase": "A nonshared protected identifier agrees; the Army record spells the given name Philip rather than the indexed Phillip.",
+      "identity_match_assessment": "High confidence from the unique protected-identifier bridge and otherwise matching name.",
+      "temporal_assessment": "Identity crosswalk only; the Army record does not establish a pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Both spellings are preserved. Coded occupation and entry-grade fields are not employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b854", "locator_override": "PDF page 417, row 5; Phillip Scinto; Box 691"},
+        {"source_key": "army-bulk-b854", "locator_override": "Nonshared protected-identifier comparison; Army spelling Philip Scinto"}
+      ]
+    },
+    {
+      "key": "identity-frank-sciortino-b854",
+      "person_id": "d42eb106-8aa0-577a-acd8-d23a689b5629",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record is a high-confidence identity match for indexed Frank Sciortino.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from exact-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "Identity crosswalk only; the Army record does not establish a pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army coded fields are not converted into an OSS rank, named employer or affiliation.",
+      "sources": [
+        {"source_key": "nara-index-b854", "locator_override": "PDF page 417, row 6; PVT; Box 691"},
+        {"source_key": "army-bulk-b854", "locator_override": "Exact-name and nonshared protected-identifier comparison"}
+      ]
+    },
+    {
+      "key": "identity-richard-g-scoffone-b854",
+      "person_id": "18865885-fc6d-568d-abab-c89384919fd0",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record is a high-confidence identity match for indexed Richard G. Scoffone.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from exact-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "Identity crosswalk only; the Army record does not establish a pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army coded fields are not converted into an OSS rank, named employer or affiliation.",
+      "sources": [
+        {"source_key": "nara-index-b854", "locator_override": "PDF page 417, row 9; PVT; Box 691"},
+        {"source_key": "army-bulk-b854", "locator_override": "Exact-name and nonshared protected-identifier comparison"}
+      ]
+    },
+    {
+      "key": "identity-john-w-scoggin-b854",
+      "person_id": "c70b52a1-9ac9-511d-9441-a65b2ade1298",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record is a high-confidence identity match for indexed John W. Scoggin.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree; the Army entry grade and index rank differ and are preserved separately.",
+      "identity_match_assessment": "High confidence from exact-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "Identity crosswalk only; the Army record does not establish a pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army entry grade PVT is not substituted for the index rank SGT, and coded occupation is not employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b854", "locator_override": "PDF page 417, row 14; SGT; Box 692"},
+        {"source_key": "army-bulk-b854", "locator_override": "Exact-name and nonshared protected-identifier comparison; entry-grade discrepancy retained"}
+      ]
+    },
+    {
+      "key": "identity-patrick-e-scoleri-b854",
+      "person_id": "f85cd6e5-e667-5cb9-9fee-8c062162afbe",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record is a high-confidence identity match for indexed Patrick E. Scoleri.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from exact-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "Identity crosswalk only; the Army record does not establish a pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army coded fields are not converted into an OSS rank, named employer or affiliation.",
+      "sources": [
+        {"source_key": "nara-index-b854", "locator_override": "PDF page 417, row 15; Box 692"},
+        {"source_key": "army-bulk-b854", "locator_override": "Exact-name and nonshared protected-identifier comparison"}
+      ]
+    },
+    {
+      "key": "identity-carl-a-scott-b854",
+      "person_id": "3e7d71b8-78c2-52e3-80da-f0b37288ffbd",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record is a high-confidence identity match for indexed Carl A. Scott.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier distinguish this common-name row from other possible Carl Scott records.",
+      "identity_match_assessment": "High confidence from exact-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "Identity crosswalk only; the Army record does not establish a pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier remains private. Army coded fields are not employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b854", "locator_override": "PDF page 417, row 20; Box 692"},
+        {"source_key": "army-bulk-b854", "locator_override": "Exact-name and nonshared protected-identifier comparison"}
+      ]
+    },
+    {
+      "key": "identity-arthur-sclater-b854",
+      "person_id": "e845d1a5-e8e4-5c22-8d8d-75275a7952cb",
+      "claim_type": "identity",
+      "claim_text": "Indexed Major Arthur Sclater is confirmed as the British officer commanding the Shetland Base and later the British Danish Section at SFHQ.",
+      "evidence_excerpt": "(Major) Arthur Sclater (Brit)",
+      "evidence_paraphrase": "An official OSS awards table supplies the same uncommon name and major rank, identifies him as British, and records his two SFHQ commands.",
+      "identity_match_assessment": "Confirmed by exact uncommon name, rank and direct official OSS assignment evidence.",
+      "temporal_assessment": "The record confirms wartime Allied service and OSS-linked command assignments but does not identify Sclater's civilian employer before service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "No public employer claim is made from discovery-only obituary summaries. Box 691 remains necessary for the pre-service chronology.",
+      "sources": [
+        {"source_key": "nara-index-b854", "locator_override": "PDF page 417, row 7; MAJ; Box 691"},
+        {"source_key": "nara-sclater-b854", "locator_override": "PDF page 154, printed page 36, SO-2 Bronze Star Medal table"}
+      ]
+    },
+    {
+      "key": "identity-carleton-f-scofield-b854",
+      "person_id": "735f36f8-6e94-5d23-a384-7fd215c2f381",
+      "claim_type": "identity",
+      "claim_text": "Indexed Carleton F. Scofield is confirmed as the University of Buffalo psychologist who served with OSS.",
+      "evidence_excerpt": "Dr. Scofield served during the war with OSS",
+      "evidence_paraphrase": "A 1947 institutional newspaper names Carleton F. Scofield, his psychology role at the University of Buffalo and his OSS service locations.",
+      "identity_match_assessment": "Confirmed by an uncommon exact full name and a direct institutional statement of OSS service, corroborated by Yale and scholarly records.",
+      "temporal_assessment": "The institutional article confirms wartime OSS service; it does not by itself prove that the university role immediately preceded OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Yale doctoral education is identity corroboration only and is not treated as employment.",
+      "sources": [
+        {"source_key": "nara-index-b854", "locator_override": "PDF page 417, row 10; P-7; Box 691"},
+        {"source_key": "buffalo-tech-scofield-b854", "locator_override": "Page 1, 'Dr. Scofield of U. B. To Speak Wednesday'"},
+        {"source_key": "yale-scofield-b854", "support_type": "context_only", "locator_override": "1928 Psychology Ph.D. graduates"}
+      ]
+    },
+    {
+      "key": "prewar-carleton-f-scofield-b854",
+      "person_id": "735f36f8-6e94-5d23-a384-7fd215c2f381",
+      "affiliation_key": "carleton-scofield-university-buffalo-b854",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Carleton F. Scofield had a documented 1935 affiliation with the University of Buffalo as a psychologist.",
+      "evidence_paraphrase": "The 1935 scholarly record lists Scofield as an author affiliated with the University of Buffalo; a later institutional article identifies him as its psychology department head.",
+      "identity_match_assessment": "Confirmed identity from the uncommon full-name and OSS bridge in the 1947 institutional article.",
+      "temporal_assessment": "Documented prewar affiliation in 1935; the sources do not establish that it was immediately before OSS entry.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The affiliation is published as an earlier documented pre-OSS role, not as the immediate predecessor or last civilian employer before service.",
+      "sources": [
+        {"source_key": "openalex-scofield-b854", "locator_override": "1935 article author-affiliation metadata"},
+        {"source_key": "buffalo-tech-scofield-b854", "locator_override": "Page 1, psychology department and OSS service description"}
+      ]
+    },
+    {
+      "key": "identity-alfred-sciarrotta-b854",
+      "person_id": "7db289b8-b71b-5a1b-8aca-e40ef94bea54",
+      "claim_type": "identity",
+      "claim_text": "Indexed Alfred Sciarrotta is a probable match to engineer Alfredo Sciarrotta, whom OSS removed from Italy in 1943.",
+      "evidence_paraphrase": "A reputable newspaper describes the rare-name Alfredo Sciarrotta as an engineer taken out of Italy by OSS and assigned to undersea-weapons work in Newport.",
+      "identity_match_assessment": "Probable, not confirmed: the rare surname and direct OSS context align, but the indexed first name is Alfred and the row lacks a service number.",
+      "temporal_assessment": "The source explicitly places his Naples engineering work before the 1943 OSS extraction.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The Alfredo spelling is preserved as a documented variant. Box 691 must confirm the indexed identity.",
+      "sources": [
+        {"source_key": "nara-index-b854", "locator_override": "PDF page 417, row 3; Alfred Sciarrotta; Box 691"},
+        {"source_key": "provincetown-sciarrotta-b854", "locator_override": "Paragraphs on Naples engineering and OSS extraction in 1943"}
+      ]
+    },
+    {
+      "key": "occupation-alfredo-sciarrotta-b854",
+      "person_id": "7db289b8-b71b-5a1b-8aca-e40ef94bea54",
+      "affiliation_key": "alfredo-sciarrotta-naples-engineer-b854",
+      "claim_type": "occupation",
+      "claim_text": "The probable Alfredo Sciarrotta match worked as an engineer on undersea weapons in Naples immediately before OSS removed him from Italy in 1943.",
+      "evidence_excerpt": "an engineer who worked on undersea weapons in Naples",
+      "evidence_paraphrase": "The newspaper provides an explicit before-OSS sequence but does not name the Naples employer.",
+      "identity_match_assessment": "Probable because the first-name spelling differs and the index row has no unique identifier.",
+      "temporal_assessment": "Explicitly immediate to the documented OSS extraction in 1943, with no named employer.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as a qualified occupation-only finding. No organization is inferred from the engineering work or later Naval Torpedo Station assignment.",
+      "sources": [
+        {"source_key": "provincetown-sciarrotta-b854", "locator_override": "Paragraphs on Naples engineering and OSS extraction in 1943"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {"person_id": "c46cc34f-f27f-5935-9f92-bf78efa84cd2", "identity_status": "unresolved", "identity_evidence": "Exact-name, CAF-5, OSS, employer, occupation, obituary, institutional and archival searches did not identify a defensible Anna F. Schwiebert match.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 691 for Anna F. Schwiebert's identity and civilian chronology.", "personnel_file_digitized": false, "personnel_file_reviewed": false, "archival_review_priority": "critical"},
+    {"person_id": "46d03926-66da-5b04-adf7-336c426cd4ec", "identity_status": "unresolved", "identity_evidence": "The distinctive indexed name and private identifier produced no corroborating official or institutional source beyond the NARA index; genealogy-only leads were rejected.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 691 for Jerry Sciales's identity, occupation and OSS assignment.", "personnel_file_digitized": false, "personnel_file_reviewed": false, "archival_review_priority": "high"},
+    {"person_id": "7db289b8-b71b-5a1b-8aca-e40ef94bea54", "identity_status": "probable", "identity_evidence": "Rare surname and direct OSS context support a probable match to engineer Alfredo Sciarrotta, but the indexed first name is Alfred and no unique identifier is present.", "name_variants": ["Alfredo Sciarrotta"], "manual_review_required": true, "research_status": "occupation_only_found", "next_action": "Review Box 691 to confirm the Alfred/Alfredo identity and identify the Naples employer or institutional affiliation before the 1943 OSS extraction.", "personnel_file_digitized": false, "personnel_file_reviewed": false, "archival_review_priority": "high"},
+    {"person_id": "d7d9ce20-f063-59ea-906d-471f7fc838c6", "identity_status": "high_confidence", "identity_evidence": "Exact full-name and nonshared protected-identifier agreement with the official Army bulk record; the PVT entry grade and PFC index rank are preserved as a documented discrepancy.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 691 for Edward A. Scigliano's civilian occupation and OSS assignment; preserve the Army/index grade discrepancy.", "personnel_file_digitized": false, "personnel_file_reviewed": false, "archival_review_priority": "high"},
+    {"person_id": "f618c22d-7c9d-501a-b07b-ad43bedb94a4", "identity_status": "high_confidence", "identity_evidence": "Nonshared protected-identifier agreement with the official Army record; its Philip spelling is retained as a variant of indexed Phillip.", "name_variants": ["Philip Scinto"], "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 691 for Phillip Scinto's civilian occupation and OSS assignment.", "personnel_file_digitized": false, "personnel_file_reviewed": false, "archival_review_priority": "high"},
+    {"person_id": "d42eb106-8aa0-577a-acd8-d23a689b5629", "identity_status": "high_confidence", "identity_evidence": "Exact indexed-name and nonshared protected-identifier agreement with the official Army bulk record.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 691 for Frank Sciortino's civilian occupation and OSS assignment.", "personnel_file_digitized": false, "personnel_file_reviewed": false, "archival_review_priority": "high"},
+    {"person_id": "e845d1a5-e8e4-5c22-8d8d-75275a7952cb", "identity_status": "confirmed", "identity_evidence": "Exact uncommon name and major rank agree with a direct official OSS awards record identifying Arthur Sclater as British and recording his SFHQ commands.", "name_variants": ["Arthur William Sclater"], "personnel_category": "foreign_or_allied_military_personnel", "commissioned_officer": true, "allied_or_foreign_personnel": true, "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "No admissible source has yet established Sclater's immediate pre-service employer. Review Box 691 for his civilian-employment chronology and Royal Marines-to-SFHQ sequence.", "personnel_file_digitized": false, "personnel_file_reviewed": false, "archival_review_priority": "high"},
+    {"person_id": "e1103626-50c2-5679-ab0f-324c8705233c", "identity_status": "unresolved", "identity_evidence": "Exact-name, CAF-2, OSS, employer, occupation, obituary and archival searches produced no corroborating historical record; modern namesakes were rejected.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 691 for Kenneth Scoca's identity and civilian chronology.", "personnel_file_digitized": false, "personnel_file_reviewed": false, "archival_review_priority": "critical"},
+    {"person_id": "18865885-fc6d-568d-abab-c89384919fd0", "identity_status": "high_confidence", "identity_evidence": "Exact full-name and nonshared protected-identifier agreement with the official Army bulk record.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 691 for Richard G. Scoffone's civilian occupation and OSS assignment.", "personnel_file_digitized": false, "personnel_file_reviewed": false, "archival_review_priority": "high"},
+    {"person_id": "735f36f8-6e94-5d23-a384-7fd215c2f381", "identity_status": "confirmed", "identity_evidence": "An uncommon exact name and direct 1947 institutional statement confirm the University of Buffalo psychologist's OSS service; Yale and scholarly records corroborate the identity.", "manual_review_required": true, "research_status": "documented_prewar_employer_found", "next_action": "Review Box 691 to determine whether the documented 1935 University of Buffalo affiliation continued immediately to OSS entry and whether it was the last civilian employer before service.", "personnel_file_digitized": false, "personnel_file_reviewed": false, "archival_review_priority": "medium"},
+    {"person_id": "b99e6289-13f5-598b-a061-93ad8e6a6f7c", "identity_status": "ambiguous", "identity_evidence": "Name-only OSS, employer, obituary and archival searches produced multiple Charles Scofield namesakes without a middle name, rank, protected identifier or direct Box 691 bridge.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 691 to distinguish Charles Scofield from same-name military and civilian records.", "personnel_file_digitized": false, "personnel_file_reviewed": false, "archival_review_priority": "critical"},
+    {"person_id": "5f57190d-4987-50b0-9c84-b53f366065db", "identity_status": "unresolved", "identity_evidence": "Exact-name, OSS, employer, occupation, obituary, institutional and archival searches did not identify a defensible Isabelle A. Scofield match.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 692 for Isabelle A. Scofield's identity and civilian chronology.", "personnel_file_digitized": false, "personnel_file_reviewed": false, "archival_review_priority": "critical"},
+    {"person_id": "c559bc10-2e25-55d5-a08e-1466de6bfaec", "identity_status": "unresolved", "identity_evidence": "The indexed name and private identifier did not produce a corroborating official or institutional historical source beyond the NARA index.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 692 for Melvin W. Scofield's identity, civilian occupation and OSS assignment.", "personnel_file_digitized": false, "personnel_file_reviewed": false, "archival_review_priority": "high"},
+    {"person_id": "c70b52a1-9ac9-511d-9441-a65b2ade1298", "identity_status": "high_confidence", "identity_evidence": "Exact full-name and nonshared protected-identifier agreement with the official Army bulk record; the PVT entry grade and SGT index rank are preserved as a documented discrepancy.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 692 for John W. Scoggin's civilian occupation and OSS assignment; preserve the Army/index grade discrepancy.", "personnel_file_digitized": false, "personnel_file_reviewed": false, "archival_review_priority": "high"},
+    {"person_id": "f85cd6e5-e667-5cb9-9fee-8c062162afbe", "identity_status": "high_confidence", "identity_evidence": "Exact full-name and nonshared protected-identifier agreement with the official Army bulk record.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 692 for Patrick E. Scoleri's civilian occupation and OSS assignment.", "personnel_file_digitized": false, "personnel_file_reviewed": false, "archival_review_priority": "high"},
+    {"person_id": "6fdf1d8d-0c01-5648-8d6e-f47b4199746b", "identity_status": "unresolved", "identity_evidence": "Exact-name, OSS, employer, occupation, obituary and archival searches did not produce a corroborating historical record tied to the indexed private identifier.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 692 for Glenn R. Scoles's identity, civilian occupation and OSS assignment.", "personnel_file_digitized": false, "personnel_file_reviewed": false, "archival_review_priority": "high"},
+    {"person_id": "e494b964-f3c3-5612-904e-549d71d03302", "identity_status": "unresolved", "identity_evidence": "The printed row supplies only surname Scory and rank LT. Variant and archival searches cannot safely resolve a person without a first name or another identifier.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "The indexed personnel file requires archival examination. Review Box 692 to recover Scory's first name, nationality, assignment and pre-OSS chronology.", "personnel_file_digitized": false, "personnel_file_reviewed": false, "archival_review_priority": "critical"},
+    {"person_id": "5657736e-f8ad-5314-b76a-6d377200c8ce", "identity_status": "unresolved", "identity_evidence": "The printed row supplies only surname Scott and explicitly notes that no first name is present. Name-only searches cannot distinguish this person from the many indexed Scott records.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "The indexed personnel file requires archival examination. Review Box 692 to recover this Scott record's first name, identity and pre-OSS chronology.", "personnel_file_digitized": false, "personnel_file_reviewed": false, "archival_review_priority": "critical"},
+    {"person_id": "2eb1abba-67af-5540-bbb0-f81a6053c33f", "identity_status": "ambiguous", "identity_evidence": "The common name and private identifier produced no corroborating official or institutional bridge; name-only results could not distinguish the indexed person.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 692 for Beverly Scott's identity, role and pre-OSS chronology.", "personnel_file_digitized": false, "personnel_file_reviewed": false, "archival_review_priority": "critical"},
+    {"person_id": "3e7d71b8-78c2-52e3-80da-f0b37288ffbd", "identity_status": "high_confidence", "identity_evidence": "Exact full-name and nonshared protected-identifier agreement with the official Army bulk record distinguish this common-name row.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 692 for Carl A. Scott's civilian occupation and OSS assignment.", "personnel_file_digitized": false, "personnel_file_reviewed": false, "archival_review_priority": "high"},
+    {"person_id": "f03cb6c6-fb09-507f-aed0-9831b887e51a", "identity_status": "ambiguous", "identity_evidence": "The common name lacks a middle initial, rank or protected identifier. Exact-name and OSS searches produced multiple namesakes without a direct archival bridge.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 692 to distinguish Caroline Scott and establish her pre-OSS chronology.", "personnel_file_digitized": false, "personnel_file_reviewed": false, "archival_review_priority": "critical"},
+    {"person_id": "d553649e-7be0-58e0-a3e3-81bf54dd2d4c", "identity_status": "ambiguous", "identity_evidence": "The common name and private identifier did not produce a corroborating official or institutional bridge; search results could not safely distinguish the indexed Charles B. Scott.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 692 for Charles B. Scott's identity, occupation and OSS assignment.", "personnel_file_digitized": false, "personnel_file_reviewed": false, "archival_review_priority": "critical"},
+    {"person_id": "461de58f-1ab5-5240-8a48-62eb0d455b7d", "identity_status": "ambiguous", "identity_evidence": "The common name and private identifier did not produce a corroborating official or institutional bridge; name-only results could not safely distinguish the indexed Clarence E. Scott.", "manual_review_required": true, "research_status": "requires_archival_review", "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 692 for Clarence E. Scott's identity, occupation and OSS assignment.", "personnel_file_digitized": false, "personnel_file_reviewed": false, "archival_review_priority": "critical"}
+  ],
+  "research_attempts": [
+    {"key": "anna-f-schwiebert-b854", "person_id": "c46cc34f-f27f-5935-9f92-bf78efa84cd2", "source_adapter": "manual_staged_protocol", "query_text": "NARA page 417 row 1; Anna F Schwiebert; CAF-5; exact-name OSS, employer, occupation, obituary, institutional, CIA-domain, LoC-domain and archival searches; Box 691", "query_variant_type": "staged_identity_employment_archival_protocol_batch_854", "started_at": "2026-10-16T16:20:00+00:00", "completed_at": "2026-10-16T16:55:00+00:00", "outcome": "no_result", "sources_reviewed": 4, "candidate_sources_rejected": 2, "rejection_reasons": "Family and modern namesake results did not establish the indexed CAF-5 identity or pre-OSS chronology.", "research_notes": "The NARA index was checked. Site-restricted CIA Reading Room and Library of Congress discovery searches returned no indexed exact-name result; absence from search results is not treated as proof of no record.", "next_action": "Review Box 691 for identity and civilian chronology.", "attempt_number": 1, "research_agent_version": "before-oss-b854-v1"},
+    {"key": "jerry-sciales-b854", "person_id": "46d03926-66da-5b04-adf7-336c426cd4ec", "source_adapter": "manual_staged_protocol", "query_text": "NARA page 417 row 2; Jerry Sciales; private identifier; exact-name OSS, employer, occupation, obituary, CIA-domain, LoC-domain and archival searches; Box 691", "query_variant_type": "staged_identity_employment_archival_protocol_batch_854", "started_at": "2026-10-16T16:21:00+00:00", "completed_at": "2026-10-16T16:55:00+00:00", "outcome": "source_reviewed", "sources_reviewed": 4, "candidate_sources_rejected": 2, "rejection_reasons": "Genealogy-only and modern alumni results lacked the indexed protected identifier or employment chronology.", "research_notes": "No official or institutional identity bridge was found beyond the index. CIA-domain and LoC-domain searches returned no indexed exact-name result and are not treated as negative evidence.", "next_action": "Review Box 691 for identity, occupation and OSS assignment.", "attempt_number": 1, "research_agent_version": "before-oss-b854-v1"},
+    {"key": "alfred-sciarrotta-b854", "person_id": "7db289b8-b71b-5a1b-8aca-e40ef94bea54", "source_adapter": "manual_staged_protocol", "query_text": "NARA page 417 row 3; Alfred and Alfredo Sciarrotta; OSS extraction Italy 1943; engineer undersea weapons Naples; employer, obituary, CIA-domain, LoC-domain and archival searches; Box 691", "query_variant_type": "staged_identity_employment_archival_protocol_batch_854", "started_at": "2026-10-16T16:22:00+00:00", "completed_at": "2026-10-16T16:55:00+00:00", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 3, "rejection_reasons": "Auction listings, Wikipedia and unsourced biographical repeats were discovery leads only and did not name a pre-OSS employer.", "research_notes": "A reputable newspaper supports a probable identity and immediate occupation-only finding. The Naples employer remains unnamed. CIA-domain and LoC-domain discovery searches returned no indexed exact-name result.", "next_action": "Review Box 691 to confirm Alfred/Alfredo and identify the Naples employer.", "attempt_number": 1, "research_agent_version": "before-oss-b854-v1"},
+    {"key": "edward-a-scigliano-b854", "person_id": "d7d9ce20-f063-59ea-906d-471f7fc838c6", "source_adapter": "manual_staged_protocol", "query_text": "NARA page 417 row 4; Edward A Scigliano; protected Army comparison; exact-name OSS, employer, occupation, obituary, CIA-domain, LoC-domain and archival searches; Box 691", "query_variant_type": "staged_identity_employment_archival_protocol_batch_854", "started_at": "2026-10-16T16:23:00+00:00", "completed_at": "2026-10-16T16:55:00+00:00", "outcome": "source_reviewed", "sources_reviewed": 6, "candidate_sources_rejected": 4, "rejection_reasons": "An older Massachusetts politician and modern same-name relatives lacked the indexed protected identifier and were rejected as namesakes.", "research_notes": "The official Army record is accepted only as an identity bridge. Entry grade PVT and index rank PFC remain distinct; occupation code is not employer evidence. CIA-domain and LoC-domain searches returned no indexed exact-name result.", "next_action": "Review Box 691 for civilian occupation and OSS assignment.", "attempt_number": 1, "research_agent_version": "before-oss-b854-v1"},
+    {"key": "phillip-scinto-b854", "person_id": "f618c22d-7c9d-501a-b07b-ad43bedb94a4", "source_adapter": "manual_staged_protocol", "query_text": "NARA page 417 row 5; Phillip and Philip Scinto; protected Army comparison; exact-name OSS, employer, occupation, obituary, CIA-domain, LoC-domain and archival searches; Box 691", "query_variant_type": "staged_identity_employment_archival_protocol_batch_854", "started_at": "2026-10-16T16:24:00+00:00", "completed_at": "2026-10-16T16:55:00+00:00", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 2, "rejection_reasons": "Modern legal and people-search results were unrelated and did not establish wartime identity or employment.", "research_notes": "The nonshared protected identifier supports the Army bridge despite the Philip/Phillip spelling difference. Coded Army fields are not employer evidence. CIA-domain and LoC-domain searches returned no indexed exact-name result.", "next_action": "Review Box 691 for civilian occupation and OSS assignment.", "attempt_number": 1, "research_agent_version": "before-oss-b854-v1"},
+    {"key": "frank-sciortino-b854", "person_id": "d42eb106-8aa0-577a-acd8-d23a689b5629", "source_adapter": "manual_staged_protocol", "query_text": "NARA page 417 row 6; Frank Sciortino; protected Army comparison; exact-name OSS, employer, occupation, obituary, CIA-domain, LoC-domain and archival searches; Box 691", "query_variant_type": "staged_identity_employment_archival_protocol_batch_854", "started_at": "2026-10-16T16:25:00+00:00", "completed_at": "2026-10-16T16:55:00+00:00", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 3, "rejection_reasons": "Sicilian and crime-history surname mentions did not match the protected identifier or document a named employer for this person.", "research_notes": "The official Army record is accepted only as an identity bridge. Coded Army occupation is not employer evidence. CIA-domain and LoC-domain searches returned no indexed exact-name result.", "next_action": "Review Box 691 for civilian occupation and OSS assignment.", "attempt_number": 1, "research_agent_version": "before-oss-b854-v1"},
+    {"key": "arthur-sclater-b854", "person_id": "e845d1a5-e8e4-5c22-8d8d-75275a7952cb", "source_adapter": "manual_staged_protocol", "query_text": "NARA page 417 row 7; Arthur and Arthur William Sclater; official OSS award record 104-10165-10120; employer, wood-pulp agent, SOE, Royal Marines, obituary, CIA-domain, LoC-domain and archival searches; Box 691", "query_variant_type": "staged_identity_employment_archival_protocol_batch_854", "started_at": "2026-10-16T16:26:00+00:00", "completed_at": "2026-10-16T16:55:00+00:00", "outcome": "source_reviewed", "sources_reviewed": 6, "candidate_sources_rejected": 3, "rejection_reasons": "Wikipedia and derivative company-history pages were discovery leads for a wood-pulp employer but were not admitted as sole employment evidence.", "research_notes": "Official NARA PDF page 154 was rendered and visually inspected. It confirms the indexed major as British and documents SFHQ commands, but supplies no pre-service employer. CIA-domain and LoC-domain searches returned no additional indexed exact-name result.", "next_action": "Review Box 691 for admissible pre-service employment evidence and the Royal Marines-to-SFHQ sequence.", "attempt_number": 1, "research_agent_version": "before-oss-b854-v1"},
+    {"key": "kenneth-scoca-b854", "person_id": "e1103626-50c2-5679-ab0f-324c8705233c", "source_adapter": "manual_staged_protocol", "query_text": "NARA page 417 row 8; Kenneth Scoca; CAF-2; exact-name OSS, employer, occupation, obituary, institutional, CIA-domain, LoC-domain and archival searches; Box 691", "query_variant_type": "staged_identity_employment_archival_protocol_batch_854", "started_at": "2026-10-16T16:27:00+00:00", "completed_at": "2026-10-16T16:55:00+00:00", "outcome": "no_result", "sources_reviewed": 4, "candidate_sources_rejected": 3, "rejection_reasons": "People-search pages and modern namesakes were rejected; no historical source linked the name to the indexed CAF-2 row.", "research_notes": "The NARA index was checked. CIA-domain and LoC-domain searches returned no indexed exact-name result and are not treated as proof of no record.", "next_action": "Review Box 691 for identity and civilian chronology.", "attempt_number": 1, "research_agent_version": "before-oss-b854-v1"},
+    {"key": "richard-g-scoffone-b854", "person_id": "18865885-fc6d-568d-abab-c89384919fd0", "source_adapter": "manual_staged_protocol", "query_text": "NARA page 417 row 9; Richard G Scoffone; protected Army comparison; exact-name OSS, employer, occupation, obituary, CIA-domain, LoC-domain and archival searches; Box 691", "query_variant_type": "staged_identity_employment_archival_protocol_batch_854", "started_at": "2026-10-16T16:28:00+00:00", "completed_at": "2026-10-16T16:55:00+00:00", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 3, "rejection_reasons": "People-search, genealogy and commercial record pages did not establish pre-OSS employment and were rejected as evidence.", "research_notes": "The official Army record is accepted only as an identity bridge. CIA-domain and LoC-domain searches returned no indexed exact-name result; coded Army occupation is not employer evidence.", "next_action": "Review Box 691 for civilian occupation and OSS assignment.", "attempt_number": 1, "research_agent_version": "before-oss-b854-v1"},
+    {"key": "carleton-f-scofield-b854", "person_id": "735f36f8-6e94-5d23-a384-7fd215c2f381", "source_adapter": "manual_staged_protocol", "query_text": "NARA page 417 row 10; Carleton F Scofield; University of Buffalo psychology; Yale PhD; OSS Burma Ceylon India; employer, obituary, CIA-domain, LoC-domain and archival searches; Box 691", "query_variant_type": "staged_identity_employment_archival_protocol_batch_854", "started_at": "2026-10-16T16:29:00+00:00", "completed_at": "2026-10-16T16:55:00+00:00", "outcome": "source_reviewed", "sources_reviewed": 7, "candidate_sources_rejected": 2, "rejection_reasons": "Later University of Kansas City material was not used to infer a pre-OSS employer; education was kept separate from employment.", "research_notes": "A 1935 scholarly affiliation and 1947 institutional newspaper support a confirmed identity and documented prewar University of Buffalo employment. The evidence does not prove immediacy. CIA-domain and LoC-domain searches returned no additional indexed exact-name result.", "next_action": "Review Box 691 to determine continuity and immediate-pre-OSS status.", "attempt_number": 1, "research_agent_version": "before-oss-b854-v1"},
+    {"key": "charles-scofield-b854", "person_id": "b99e6289-13f5-598b-a061-93ad8e6a6f7c", "source_adapter": "manual_staged_protocol", "query_text": "NARA page 417 row 11; Charles Scofield; exact-name OSS, military, employer, occupation, obituary, CIA-domain, LoC-domain and archival searches; Box 691", "query_variant_type": "staged_identity_employment_archival_protocol_batch_854", "started_at": "2026-10-16T16:30:00+00:00", "completed_at": "2026-10-16T16:55:00+00:00", "outcome": "candidate_rejected", "sources_reviewed": 5, "candidate_sources_rejected": 4, "rejection_reasons": "Multiple military and civilian namesakes lacked a middle name, rank, protected identifier or direct OSS personnel-file bridge.", "research_notes": "Common-name results were preserved as rejected candidates rather than merged. CIA-domain and LoC-domain searches returned no result that distinguished the indexed row.", "next_action": "Review Box 691 to resolve identity before any employer research can be published.", "attempt_number": 1, "research_agent_version": "before-oss-b854-v1"},
+    {"key": "isabelle-a-scofield-b854", "person_id": "5f57190d-4987-50b0-9c84-b53f366065db", "source_adapter": "manual_staged_protocol", "query_text": "NARA page 417 row 12; Isabelle A Scofield; exact-name OSS, employer, occupation, obituary, institutional, CIA-domain, LoC-domain and archival searches; Box 692", "query_variant_type": "staged_identity_employment_archival_protocol_batch_854", "started_at": "2026-10-16T16:31:00+00:00", "completed_at": "2026-10-16T16:55:00+00:00", "outcome": "no_result", "sources_reviewed": 4, "candidate_sources_rejected": 2, "rejection_reasons": "Modern and incomplete namesake results did not establish the indexed identity or wartime chronology.", "research_notes": "The NARA index was checked. CIA-domain and LoC-domain searches returned no indexed exact-name result and are not treated as proof of no record.", "next_action": "Review Box 692 for identity and civilian chronology.", "attempt_number": 1, "research_agent_version": "before-oss-b854-v1"},
+    {"key": "melvin-w-scofield-b854", "person_id": "c559bc10-2e25-55d5-a08e-1466de6bfaec", "source_adapter": "manual_staged_protocol", "query_text": "NARA page 417 row 13; Melvin W Scofield; private identifier; exact-name OSS, employer, occupation, obituary, CIA-domain, LoC-domain and archival searches; Box 692", "query_variant_type": "staged_identity_employment_archival_protocol_batch_854", "started_at": "2026-10-16T16:32:00+00:00", "completed_at": "2026-10-16T16:55:00+00:00", "outcome": "no_result", "sources_reviewed": 4, "candidate_sources_rejected": 2, "rejection_reasons": "Partial-name patent and directory results referred to different initials or lacked the indexed identifier.", "research_notes": "No official identity bridge was found beyond the index. CIA-domain and LoC-domain searches returned no indexed exact-name result.", "next_action": "Review Box 692 for identity, occupation and OSS assignment.", "attempt_number": 1, "research_agent_version": "before-oss-b854-v1"},
+    {"key": "john-w-scoggin-b854", "person_id": "c70b52a1-9ac9-511d-9441-a65b2ade1298", "source_adapter": "manual_staged_protocol", "query_text": "NARA page 417 row 14; John W Scoggin; protected Army comparison; exact-name OSS, employer, occupation, obituary, CIA-domain, LoC-domain and archival searches; Box 692", "query_variant_type": "staged_identity_employment_archival_protocol_batch_854", "started_at": "2026-10-16T16:33:00+00:00", "completed_at": "2026-10-16T16:55:00+00:00", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 3, "rejection_reasons": "Naval casualty and similarly spelled Scoggins records did not match the indexed protected identifier.", "research_notes": "The official Army record is accepted only as an identity bridge. Entry grade PVT and index rank SGT remain distinct; occupation code is not employer evidence. CIA-domain and LoC-domain searches returned no indexed exact-name result.", "next_action": "Review Box 692 for civilian occupation and OSS assignment.", "attempt_number": 1, "research_agent_version": "before-oss-b854-v1"},
+    {"key": "patrick-e-scoleri-b854", "person_id": "f85cd6e5-e667-5cb9-9fee-8c062162afbe", "source_adapter": "manual_staged_protocol", "query_text": "NARA page 417 row 15; Patrick E Scoleri; protected Army comparison; exact-name OSS, employer, occupation, obituary, CIA-domain, LoC-domain and archival searches; Box 692", "query_variant_type": "staged_identity_employment_archival_protocol_batch_854", "started_at": "2026-10-16T16:34:00+00:00", "completed_at": "2026-10-16T16:55:00+00:00", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 2, "rejection_reasons": "Trapshooting and partial-name results referred to other people and supplied no OSS or identifier bridge.", "research_notes": "The official Army record is accepted only as an identity bridge. CIA-domain and LoC-domain searches returned no indexed exact-name result; coded Army occupation is not employer evidence.", "next_action": "Review Box 692 for civilian occupation and OSS assignment.", "attempt_number": 1, "research_agent_version": "before-oss-b854-v1"},
+    {"key": "glenn-r-scoles-b854", "person_id": "6fdf1d8d-0c01-5648-8d6e-f47b4199746b", "source_adapter": "manual_staged_protocol", "query_text": "NARA page 417 row 16; Glenn R Scoles; private identifier; exact-name OSS, employer, occupation, obituary, directory, CIA-domain, LoC-domain and archival searches; Box 692", "query_variant_type": "staged_identity_employment_archival_protocol_batch_854", "started_at": "2026-10-16T16:35:00+00:00", "completed_at": "2026-10-16T16:55:00+00:00", "outcome": "no_result", "sources_reviewed": 5, "candidate_sources_rejected": 4, "rejection_reasons": "OCR fragments, similarly named technical-college alumni and modern results did not match the indexed identifier or establish a wartime identity.", "research_notes": "The NARA index was checked. CIA-domain and LoC-domain searches returned no indexed exact-name result and are not treated as proof of no record.", "next_action": "Review Box 692 for identity, occupation and OSS assignment.", "attempt_number": 1, "research_agent_version": "before-oss-b854-v1"},
+    {"key": "unknown-scory-b854", "person_id": "e494b964-f3c3-5612-904e-549d71d03302", "source_adapter": "manual_staged_protocol", "query_text": "NARA page 417 row 17; surname Scory; LT; note no first name; spelling variants; OSS, officer roster, CIA-domain, LoC-domain and archival searches; Box 692", "query_variant_type": "staged_incomplete_name_archival_protocol_batch_854", "started_at": "2026-10-16T16:36:00+00:00", "completed_at": "2026-10-16T16:55:00+00:00", "outcome": "no_result", "sources_reviewed": 4, "candidate_sources_rejected": 5, "rejection_reasons": "Without a first name or identifier, Scory and likely spelling variants could not be distinguished from unrelated military records.", "research_notes": "The source-row note explicitly says no first name. CIA-domain and LoC-domain searches did not produce a defensible unique match; archival examination is mandatory.", "next_action": "Review Box 692 to recover the first name, nationality and chronology.", "attempt_number": 1, "research_agent_version": "before-oss-b854-v1"},
+    {"key": "unknown-scott-b854", "person_id": "5657736e-f8ad-5314-b76a-6d377200c8ce", "source_adapter": "manual_staged_protocol", "query_text": "NARA page 417 row 18; surname Scott; note no first name; adjacent Scott rows; OSS, CIA-domain, LoC-domain and archival searches; Box 692", "query_variant_type": "staged_incomplete_name_archival_protocol_batch_854", "started_at": "2026-10-16T16:37:00+00:00", "completed_at": "2026-10-16T16:55:00+00:00", "outcome": "no_result", "sources_reviewed": 4, "candidate_sources_rejected": 8, "rejection_reasons": "The surname-only row cannot be distinguished from many OSS-indexed Scott records or public namesakes.", "research_notes": "The source-row note explicitly says no first name. CIA-domain and LoC-domain searches cannot resolve a surname-only record; archival examination is mandatory.", "next_action": "Review Box 692 to recover the first name and chronology.", "attempt_number": 1, "research_agent_version": "before-oss-b854-v1"},
+    {"key": "beverly-scott-b854", "person_id": "2eb1abba-67af-5540-bbb0-f81a6053c33f", "source_adapter": "manual_staged_protocol", "query_text": "NARA page 417 row 19; Beverly Scott; private identifier; exact-name OSS, employer, occupation, obituary, CIA-domain, LoC-domain and archival searches; Box 692", "query_variant_type": "staged_common_name_disambiguation_protocol_batch_854", "started_at": "2026-10-16T16:38:00+00:00", "completed_at": "2026-10-16T16:55:00+00:00", "outcome": "candidate_rejected", "sources_reviewed": 5, "candidate_sources_rejected": 6, "rejection_reasons": "Common-name results lacked the indexed private identifier, OSS context or two corroborating identifiers.", "research_notes": "No namesake was accepted on name alone. CIA-domain and LoC-domain searches returned no result that distinguished the indexed row.", "next_action": "Review Box 692 for identity, role and pre-OSS chronology.", "attempt_number": 1, "research_agent_version": "before-oss-b854-v1"},
+    {"key": "carl-a-scott-b854", "person_id": "3e7d71b8-78c2-52e3-80da-f0b37288ffbd", "source_adapter": "manual_staged_protocol", "query_text": "NARA page 417 row 20; Carl A Scott; protected Army comparison; exact-name OSS, employer, occupation, obituary, CIA-domain, LoC-domain and archival searches; Box 692", "query_variant_type": "staged_common_name_disambiguation_protocol_batch_854", "started_at": "2026-10-16T16:39:00+00:00", "completed_at": "2026-10-16T16:55:00+00:00", "outcome": "source_reviewed", "sources_reviewed": 5, "candidate_sources_rejected": 5, "rejection_reasons": "Common-name results without the protected identifier were rejected; no reliable named employer was found.", "research_notes": "The exact-name, nonshared protected-identifier Army bridge distinguishes this indexed row. Coded Army occupation is not employer evidence. CIA-domain and LoC-domain searches returned no additional indexed result.", "next_action": "Review Box 692 for civilian occupation and OSS assignment.", "attempt_number": 1, "research_agent_version": "before-oss-b854-v1"},
+    {"key": "caroline-scott-b854", "person_id": "f03cb6c6-fb09-507f-aed0-9831b887e51a", "source_adapter": "manual_staged_protocol", "query_text": "NARA page 417 row 21; Caroline Scott; exact-name OSS, employer, occupation, obituary, CIA-domain, LoC-domain and archival searches; Box 692", "query_variant_type": "staged_common_name_disambiguation_protocol_batch_854", "started_at": "2026-10-16T16:40:00+00:00", "completed_at": "2026-10-16T16:55:00+00:00", "outcome": "candidate_rejected", "sources_reviewed": 5, "candidate_sources_rejected": 7, "rejection_reasons": "Multiple writers, modern professionals and historical namesakes lacked a middle initial, OSS context or corroborating identifier.", "research_notes": "No namesake was accepted on name alone. CIA-domain and LoC-domain searches returned no result that distinguished the indexed row.", "next_action": "Review Box 692 to resolve identity and chronology.", "attempt_number": 1, "research_agent_version": "before-oss-b854-v1"},
+    {"key": "charles-b-scott-b854", "person_id": "d553649e-7be0-58e0-a3e3-81bf54dd2d4c", "source_adapter": "manual_staged_protocol", "query_text": "NARA page 417 row 22; Charles B Scott; private identifier; exact-name OSS, military intelligence, employer, occupation, obituary, CIA-domain, LoC-domain and archival searches; Box 692", "query_variant_type": "staged_common_name_disambiguation_protocol_batch_854", "started_at": "2026-10-16T16:41:00+00:00", "completed_at": "2026-10-16T16:55:00+00:00", "outcome": "candidate_rejected", "sources_reviewed": 6, "candidate_sources_rejected": 6, "rejection_reasons": "An OSS-related Yale obituary fragment and other Charles Scott records did not expose the indexed private identifier or supply two corroborating identifiers.", "research_notes": "A common-name OSS lead was rejected rather than assigned by convenience. CIA-domain and LoC-domain searches returned no result that established the indexed row's identity.", "next_action": "Review Box 692 for identity, occupation and OSS assignment.", "attempt_number": 1, "research_agent_version": "before-oss-b854-v1"},
+    {"key": "clarence-e-scott-b854", "person_id": "461de58f-1ab5-5240-8a48-62eb0d455b7d", "source_adapter": "manual_staged_protocol", "query_text": "NARA page 417 row 23; Clarence E Scott; private identifier; exact-name OSS, employer, occupation, obituary, CIA-domain, LoC-domain and archival searches; Box 692", "query_variant_type": "staged_common_name_disambiguation_protocol_batch_854", "started_at": "2026-10-16T16:42:00+00:00", "completed_at": "2026-10-16T16:55:00+00:00", "outcome": "candidate_rejected", "sources_reviewed": 5, "candidate_sources_rejected": 6, "rejection_reasons": "Common-name military, obituary and directory results lacked the indexed private identifier or two corroborating identifiers.", "research_notes": "No namesake was accepted on name alone. CIA-domain and LoC-domain searches returned no result that distinguished the indexed row.", "next_action": "Review Box 692 for identity, occupation and OSS assignment.", "attempt_number": 1, "research_agent_version": "before-oss-b854-v1"}
+  ]
+}

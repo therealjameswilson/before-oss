@@ -1,5 +1,34 @@
 # Research status
 
+Batch 854 completed PDF page 417, rows 1-23, from **Anna F Schwiebert**
+through **Clarence E Scott**, preserving all 23 printed rows as separate source
+records linked to 23 active person entities. All 23 have saved terminal
+research outcomes. Contemporary institutional and scholarly evidence confirms
+**Carleton F Scofield** as the University of Buffalo psychologist who served
+with OSS; his 1935 university employment is published as documented prewar
+work, not as an immediate predecessor or last civilian employer. A direct
+official OSS awards record confirms **Arthur Sclater** as a British major and
+SFHQ commander, but Box 691 remains necessary for his pre-service chronology.
+**Alfred Sciarrotta** remains a qualified probable match to engineer Alfredo
+Sciarrotta: the source explicitly places unnamed undersea-weapons engineering
+in Naples before his 1943 OSS extraction, so the result is occupation-only and
+does not invent an employer. Seven official Army crosswalks support
+high-confidence identity decisions only; protected identifiers and coded
+occupations remain private, and spelling or rank differences are preserved.
+The common-name and incomplete-name rows retain explicit archival-review
+outcomes rather than unsupported affiliations.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **12,613/23,937 (52.6925%)**;
+verified-employer coverage is **414/23,937 (1.7295%)**;
+verified-affiliation coverage is **912/23,937 (3.8100%)**; archival-review
+coverage is **11,078/23,937 (46.2798%)**. There are **11,319** `not_started`
+people, **567** possible-duplicate groups and **445** conflicts. The public
+projection contains **2,834** affiliations, **1,055** organizations, **5,232**
+sources and **7,628** claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 417, row 24, **Dagmar S
+Scott**. See `research/batch-854-progress.md` for the source-by-source audit.
+
 Batch 853 completed PDF page 416, rows 24-46, from **Adolf Schwartz** through
 **Ruth M Schwenn**, preserving all 23 printed rows as separate source records
 linked to 23 active person entities. All 23 have saved terminal research
