@@ -1,5 +1,35 @@
 # Research status
 
+Batch 830 completed PDF page 405, rows 1-23, from **William J Rust** through
+**Joseph A Ryan**, preserving all 23 printed rows as separate source records
+linked to 23 active person entities. The printed page was visually checked at
+300 dpi. All 23 people have saved terminal research outcomes. A Phi Kappa Psi
+biographical article separates **Ellis W Ryan**'s Army Air Corps service
+immediately before OSS from the Toledo Ice House as his last civilian work and
+from two earlier civilian affiliations. Independent accounts corroborate
+**Louis Ruzich**, including the Louie variant, and support a qualified Army
+Corps of Engineers assignment without calling it civilian employment. An
+official Marine Corps bibliography corroborates **Winthrop Rutherford**;
+**John P Rutherford** is classified as a commissioned naval officer. Four
+exact Army identities were accepted without publishing coded occupations.
+NARA work remained in dry-run mode; a CIA robots denial, a Library of Congress
+timeout, and a no-result search were not treated as historical negative
+evidence.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,938** active
+people. Research-attempt coverage is **12,070/23,938 (50.4219%)**;
+verified-employer coverage is **394/23,938 (1.6459%)**;
+verified-affiliation coverage is **872/23,938 (3.6427%)**; archival-review
+coverage is **10,534/23,938 (44.0053%)**. There are **11,863** `not_started`
+people, **553** possible-duplicate groups, and **417** conflicts. SQLite
+retains **23,897** attempts or plans and **7,506** claims: 1,563 confirmed,
+3,726 high, 1,653 medium, 202 low, 360 conflicting, and two unresolved. It has
+**6,275** citation records and **3,315** unique source documents. The public
+projection has **2,742** affiliations, **1,002** organizations, **5,049**
+sources, and **7,298** claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 405, row 24, **Joseph M F
+Ryan Jr**. See `research/batch-830-progress.md` for the source-by-source audit.
+
 Batch 829 completed PDF page 404, rows 24-46, from **John S Russell** through
 **Vincent J Russo**, preserving all 23 printed rows as separate source records
 linked to 23 active person entities. The printed page was visually checked at
