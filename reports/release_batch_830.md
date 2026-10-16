@@ -44,5 +44,9 @@ Army occupations remain private.
 
 ## Publication status
 
-Publication and immutable live verification are pending. The public site
-remains available at https://therealjameswilson.github.io/before-oss/.
+GitHub Pages run 38837901932 published commit
+`a9b02bbcc9c6f613fd60b7250a1b098c7eb7327b` successfully. The immutable live
+verifier matched all 67 public assets (113,407,833 bytes), the release manifest,
+eight core routes, 34 source-register pages, and all 23 Batch 830 profile URLs
+without authentication. Public URL:
+https://therealjameswilson.github.io/before-oss/
