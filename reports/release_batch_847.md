@@ -47,5 +47,9 @@ Army occupations remain private and are not used to infer employers.
 
 ## Publication status
 
-Release candidate validated locally; publication and independent live
-verification are pending.
+GitHub Pages run 38906576101 published content commit
+`8ff055a7378c4d730fea57c79c5e4e350e8ab9bb` successfully, and Test run
+38906576004 passed. The immutable unauthenticated verifier matched all 67
+public assets (114,994,827 bytes), the release manifest, eight core routes, 35
+source-register pages and all 23 directly affected profile URLs. Public URL:
+https://therealjameswilson.github.io/before-oss/.
