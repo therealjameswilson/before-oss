@@ -47,7 +47,9 @@ retain archival guidance.
 
 ## Publication status
 
-The Batch 838 content is locally validated and ready for publication. GitHub
-Pages and Test workflow run identifiers, followed by immutable live-release
-verification, are still pending. Public URL:
-https://therealjameswilson.github.io/before-oss/.
+GitHub Pages run 38861203523 published commit
+`98351d7456902e1d87327dd54f394bc847286c64` successfully, and Test run
+38861203541 passed. The immutable live verifier matched all 67 public assets
+(114,124,491 bytes), the release manifest, eight core routes, 35
+source-register pages, and all 23 Batch 838 profile URLs without
+authentication. Public URL: https://therealjameswilson.github.io/before-oss/.
