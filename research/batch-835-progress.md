@@ -87,9 +87,12 @@ foreign-key violations.
 
 ## Release status
 
-The database and generated public assets have been rebuilt locally. Python,
+The database and generated public assets were rebuilt and published. Python,
 Astro, Playwright, internal-link, public-identifier, manifest, and deterministic
-double-build checks all pass. GitHub Pages publication and immutable live
-verification are pending.
+double-build checks all passed. Commit
+`412e241de9b21bc6aac75c5915e38c0af8ffc458` was published by GitHub Pages run
+38851774493, and Test run 38851774462 passed. Immutable live verification
+matched all 67 public assets, eight core routes, 34 source-register pages, and
+all 23 Batch 835 profile URLs without authentication.
 
 Resume new-person research at PDF page 408, row 1.
