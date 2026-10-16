@@ -111,7 +111,11 @@ Local release verification passed:
 - Two clean production builds produced the same 25,051-file tree hash,
   `bd5e0e863d2338502f089c7d811826c3b62a8043290e9d8e033c9e94d30e4170`.
 
-GitHub Pages publication and unauthenticated live verification are pending.
+GitHub Pages run 38835192362 published commit
+`b161dc3364dde6e1e8fae359e7c4c62854d00652` successfully. The immutable live
+verifier matched all 67 public assets (113,317,973 bytes), the release manifest,
+eight core routes, 34 source-register pages, and all 23 Batch 829 profile URLs
+without authentication.
 
 Resume new-person research at PDF page 405, row 1. Full-index historical
 research remains unfinished; 11,886 active people are still `not_started`.

@@ -44,5 +44,9 @@ occupations remain private.
 
 ## Publication status
 
-Local release verification passed. GitHub Pages publication and unauthenticated
-live verification remain pending.
+GitHub Pages run 38835192362 published commit
+`b161dc3364dde6e1e8fae359e7c4c62854d00652` successfully. The immutable live
+verifier matched all 67 public assets (113,317,973 bytes), the release manifest,
+eight core routes, 34 source-register pages, and all 23 Batch 829 profile URLs
+without authentication. Public URL:
+https://therealjameswilson.github.io/before-oss/
