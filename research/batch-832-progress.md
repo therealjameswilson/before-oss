@@ -105,6 +105,12 @@ Local release verification passed:
 - Two clean production builds produced the same 25,058-file tree hash,
   `0bcc9e798a1c6f3cb6f382468373ab82753112dfe78432a5a8066400139bc135`.
 
-Publication verification is pending the Batch 832 GitHub Pages run. Resume
-new-person research at PDF page 406, row 24. Full-index historical research
-remains unfinished; 11,818 active people are still `not_started`.
+GitHub Pages run 38842994263 published commit
+`e2b694d7242d74248e24fc8b06fc901c56ce08af` successfully, and Test run
+38842994273 passed. The immutable live verifier matched all 67 public assets
+(113,579,621 bytes), the release manifest, eight core routes, 34
+source-register pages, and all 23 Batch 832 profile URLs without
+authentication.
+
+Resume new-person research at PDF page 406, row 24. Full-index historical
+research remains unfinished; 11,818 active people are still `not_started`.

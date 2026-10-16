@@ -46,5 +46,9 @@ remain private.
 
 ## Publication status
 
-Publication verification is pending the Batch 832 GitHub Pages run. Public
-URL: https://therealjameswilson.github.io/before-oss/.
+GitHub Pages run 38842994263 published commit
+`e2b694d7242d74248e24fc8b06fc901c56ce08af` successfully, and Test run
+38842994273 passed. The immutable live verifier matched all 67 public assets
+(113,579,621 bytes), the release manifest, eight core routes, 34
+source-register pages, and all 23 Batch 832 profile URLs without
+authentication. Public URL: https://therealjameswilson.github.io/before-oss/.
