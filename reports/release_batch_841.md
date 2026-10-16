@@ -47,6 +47,9 @@ archival guidance.
 
 ## Publication status
 
-Publication is pending the Batch 841 content commit, GitHub Actions test and
-Pages workflows, and immutable unauthenticated release verification. Public
-URL: https://therealjameswilson.github.io/before-oss/.
+GitHub Pages run 38874379247 published content commit
+`350035349e4430f74bc4897fe0e1ead44ee0b559` successfully, and Test run
+38874379230 passed. The immutable unauthenticated verifier matched all 67
+public assets (114,411,771 bytes), the release manifest, eight core routes, 35
+source-register pages, and all 23 Batch 841 profile URLs. Public URL:
+https://therealjameswilson.github.io/before-oss/.
