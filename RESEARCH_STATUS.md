@@ -1,5 +1,44 @@
 # Research status
 
+Batch 843 completed PDF page 411, rows 24-46, from **Mack J Schaefer**
+through **Franklin O Scheiber**, preserving all 23 printed rows as separate
+source records linked to 23 active person entities. The rows were visually
+checked at 180 dpi and all 23 assigned people now have saved, reviewable
+terminal outcomes. Institutional and scholarly sources identify **Francis
+Schehl** at high confidence and explicitly document Portsmouth Priory School
+as both his immediate pre-OSS affiliation and last civilian employer.
+Contemporary and institutional sources identify **Joseph B Schechtmann** as
+Joseph B. Schechtman at high confidence and document the Research Bureau on
+Population Movements as his immediate and last civilian affiliation, with the
+Institute of Jewish Affairs retained separately. **Franklin J Schaffner** gains
+a high-confidence Navy-to-OSS pathway and separately modeled Franklin &
+Marshall student status. Official NARA finding aids establish journalist
+**Paul Scheffer** at high confidence, while his freelance work remains
+temporally qualified. **Kurt P Schaffenberge** is identified as Kurt P.
+Schaffenberger at high confidence; Binder Studio is published as a qualified
+last civilian employer and his Army pathway remains probable. **Hildegarde R
+Scheibe** remains a visibly qualified probable identity because her obituary
+prints a different middle initial. Five official Army candidates were accepted
+for identity only, one protected-identifier/name conflict remains private and
+visible as a conflict, and a Tacoma newspaper namesake was rejected after
+item-level OCR review. CIA automated access failed closed; LoC completed 23
+queries. NARA Catalog work remains disabled pending safe credential rotation.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,938** active
+people. Research-attempt coverage is **12,366/23,938 (51.6585%)**;
+verified-employer coverage is **407/23,938 (1.7002%)**;
+verified-affiliation coverage is **895/23,938 (3.7388%)**; archival-review
+coverage is **10,831/23,938 (45.2461%)**. There are **11,567** `not_started`
+people, **558** possible-duplicate groups, and **440** conflicts. SQLite
+retains **25,076** research attempts or plans and **7,673** claims: 1,588
+confirmed, 3,837 high, 1,674 medium, 202 low, 370 conflicting, and two
+unresolved. It has **6,375** citation records and **3,399** unique source
+documents. The public projection has **2,799** affiliations, **1,033**
+organizations, **5,145** sources, and **7,465** claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 412, row 1,
+**Henry Scheiber III**. See `research/batch-843-progress.md` for the
+source-by-source audit.
+
 Batch 842 completed PDF page 411, rows 1-23, from **Edward F Scannell**
 through **Leland L Schaefer**, preserving all 23 printed rows as separate
 source records linked to 23 active person entities. The printed rows were

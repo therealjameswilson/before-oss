@@ -81,17 +81,19 @@ test("accepted Batch 842 Army crosswalks publish identity but no coded occupatio
   }
 });
 
-test("Scantz and Schantz remain separate in one visible duplicate group", async ({ page }) => {
-  for (const [id, name] of [
-    ["69377883-6216-5861-8d19-b4ab9c3e20db", "Raymond B Scantz"],
-    ["9aa9b60a-3337-5305-a27d-a4f65cbe3252", "Raymond B Schantz"],
-  ] as const) {
-    await page.goto(`./people/${id}/`);
-    const main = page.locator("main");
-    await expect(page.getByRole("heading", { name, level: 1 })).toBeVisible();
-    await expect(main).toContainText("Identity statusambiguous");
-    await expect(main).toContainText("Duplicate groupduplicate-b2ef441ee385");
-  }
+test("Scantz and Schantz remain separate after the later Army identity review", async ({ page }) => {
+  await page.goto("./people/69377883-6216-5861-8d19-b4ab9c3e20db/");
+  let main = page.locator("main");
+  await expect(page.getByRole("heading", { name: "Raymond B Scantz", level: 1 })).toBeVisible();
+  await expect(main).toContainText("Identity statusambiguous");
+  await expect(main).toContainText("Duplicate groupduplicate-b2ef441ee385");
+
+  await page.goto("./people/9aa9b60a-3337-5305-a27d-a4f65cbe3252/");
+  main = page.locator("main");
+  await expect(page.getByRole("heading", { name: "Raymond B Schantz", level: 1 })).toBeVisible();
+  await expect(main).toContainText("Identity statushigh confidence");
+  await expect(main).toContainText("Duplicate groupduplicate-b2ef441ee385");
+  await expect(main).toContainText("Compare the Box 681 Schantz file with the Box 680 Scantz file");
 });
 
 test("Scaravelaci and Scarveliaci remain separate and reviewable", async ({ page }) => {
