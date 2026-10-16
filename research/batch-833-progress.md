@@ -100,5 +100,11 @@ Local release verification passed:
 - Two clean production builds produced the same 25,063-file tree hash,
   `03247edc1671d55819c545e7c2ed26068ae3e1478338f11a19c9ff2071033906`.
 
-GitHub Pages publication is pending. Resume new-person research at PDF page
-407, row 1, Edgar Salinger, after the Batch 833 release is verified.
+GitHub Pages run 38846173661 published commit
+`c279a45b6b5dd73bd93fe651c5112c0a28a7b84a` successfully, and Test run
+38846173670 passed. The immutable live verifier matched all 67 public assets
+(113,711,988 bytes), the release manifest, eight core routes, 34
+source-register pages, and all 23 Batch 833 profile URLs without
+authentication.
+
+Resume new-person research at PDF page 407, row 1, Edgar Salinger.
