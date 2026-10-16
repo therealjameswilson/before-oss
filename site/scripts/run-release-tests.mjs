@@ -38,18 +38,37 @@ const suites = [
 ];
 
 const npx = process.platform === "win32" ? "npx.cmd" : "npx";
+const releaseBasePort = Number(
+  process.env.BEFORE_OSS_RELEASE_TEST_PORT ?? "4421",
+);
+
+if (!Number.isInteger(releaseBasePort) || releaseBasePort < 1024 || releaseBasePort > 65531) {
+  console.error(
+    "BEFORE_OSS_RELEASE_TEST_PORT must be an integer from 1024 through 65531.",
+  );
+  process.exit(1);
+}
 
 console.log(
   `Running bounded release suite with ${latestBatchSpec}; ` +
     `${batchSpecs.length} historical batch specifications remain available through npm run test:e2e.`,
 );
 
-for (const suite of suites) {
+for (const [suiteIndex, suite] of suites.entries()) {
   console.log(`\n=== ${suite.label} ===`);
   const result = spawnSync(
     npx,
     ["--no-install", "playwright", "test", ...suite.args],
-    { stdio: "inherit" },
+    {
+      stdio: "inherit",
+      env: {
+        ...process.env,
+        // A separate port prevents the next Playwright invocation from
+        // reusing a static server that the preceding invocation is tearing
+        // down. That race otherwise appears as mid-suite connection refusals.
+        BEFORE_OSS_TEST_PORT: String(releaseBasePort + suiteIndex),
+      },
+    },
   );
 
   if (result.error) {
@@ -61,4 +80,3 @@ for (const suite of suites) {
     process.exit(result.status ?? 1);
   }
 }
-

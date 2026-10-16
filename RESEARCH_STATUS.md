@@ -1,5 +1,36 @@
 # Research status
 
+Batch 827 completed PDF page 403, rows 24-46, from **Ferdinand M Ruff**
+through **Dorothy E Runyon**, preserving all 23 printed rows as separate
+source records linked to 23 active person entities. The printed page was
+visually checked at 300 dpi. All 23 people have saved terminal research
+outcomes. Yale institutional sources establish **Richard F. Ruggles** as a
+Harvard economics student immediately before OSS service; Harvard is not
+classified as his employer. Dartmouth evidence establishes **Scott F.
+Runkle** on General Omar Bradley's Army staff before later OSS operations in
+Germany and separately documents his earlier Sorbonne study. Contemporary
+and corroborative sources support a qualified occupation-only result for
+**Melville J. Ruggles** without naming an employer. Three exact Army identities
+were accepted without publishing coded occupations. Three incompatible Army
+name leads for **Ferdinand M. Ruff**, **John F. Ruhat**, and **Stefan J. Rundt**
+were rejected and remain visible as conflicts. NARA and web work used dry-run
+queries; CIA and Library of Congress access failures were not treated as
+negative historical evidence.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,938** active
+people. Research-attempt coverage is **12,001/23,938 (50.1337%)**;
+verified-employer coverage is **390/23,938 (1.6292%)**;
+verified-affiliation coverage is **865/23,938 (3.6135%)**; archival-review
+coverage is **10,465/23,938 (43.7171%)**. There are **11,932** `not_started`
+people, **553** possible-duplicate groups, and **412** conflicts. SQLite
+retains **23,662** attempts or plans and **7,466** claims: 1,547 confirmed,
+3,709 high, 1,651 medium, 202 low, 355 conflicting, and two unresolved. It has
+**6,257** citation records and **3,302** unique source documents. The public
+projection has **2,729** affiliations, **996** organizations, **5,031**
+sources, and **7,258** claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 404, row 1, **Arthur A
+Ruozzi**. See `research/batch-827-progress.md` for the source-by-source audit.
+
 Batch 826 completed PDF page 403, rows 1-23, from **Howard L Ruble** through
 **David F Ruf**, preserving all 23 printed rows as separate source records
 linked to 23 active person entities. The printed page was visually checked at
