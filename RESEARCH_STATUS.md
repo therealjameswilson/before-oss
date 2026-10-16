@@ -1,5 +1,33 @@
 # Research status
 
+Batch 850 completed PDF page 415, rows 1-23, from **Joseph Schreiber** through
+**Gloria M Schuette**, preserving all 23 printed rows as separate source
+records linked to 23 active person entities. All 23 have saved terminal
+research outcomes. An official CIA History Staff study confirms **George A
+Schriever** and directly documents Officer Candidate School at Fort Benning as
+his immediate military predecessor to OSS, while his University of Missouri
+degree remains student status and his last civilian employer remains unknown.
+Institutional evidence identifies **Elliott W Schryver** at high confidence
+and documents University of Chicago student status without turning undated
+publishing work into a pre-OSS employer. Five additional official Army
+crosswalks support high-confidence identity decisions, while coded occupations
+remain private and are not treated as employers. The three Samuel A Schreiner
+rows remain separate, and **Kenneth D Schuckers** remains a qualified probable
+identity in a visible Schuckers/Shuckers duplicate group. **Richard E
+Schrunk** retains the unfamiliar printed `1ST ST` abbreviation without
+unsupported expansion.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **12,524/23,937 (52.3207%)**;
+verified-employer coverage is **412/23,937 (1.7212%)**;
+verified-affiliation coverage is **908/23,937 (3.7933%)**; archival-review
+coverage is **10,989/23,937 (45.9080%)**. There are **11,408** `not_started`
+people, **562** possible-duplicate groups and **443** conflicts. The public
+projection contains **2,825** affiliations, **1,047** organizations, **5,198**
+sources and **7,576** claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 415, row 24, **Ann M
+Schuetz**. See `research/batch-850-progress.md` for the source-by-source audit.
+
 Batch 849 completed PDF page 414, rows 24-46, from **Norman B Schofield**
 through **Dale F Schreckengost**, preserving all 23 printed rows as separate
 source records linked to 23 active person entities. All 23 have saved terminal
