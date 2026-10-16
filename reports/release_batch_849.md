@@ -52,6 +52,15 @@ Date: 2026-10-16
 
 ## Publication state
 
-Publication is pending the Batch 849 content commit, GitHub Pages deployment,
-test workflow and immutable unauthenticated verification. The previously
-verified Batch 848 release remains public until those gates complete.
+Published from content commit
+`c0715255c1081cd2dd81a92cf98bc41904c71bbb`. GitHub Pages run
+`38914541424` and test run `38914541100` completed successfully. The
+unauthenticated immutable verifier checked all 67 manifested assets
+(115,253,995 bytes), eight core routes, 35 source-register pages and all 23
+Batch 849 person profiles at
+`https://therealjameswilson.github.io/before-oss/`. The live manifest SHA-256
+is `c550b130ba12cdbb21807567341557c4014ed218a46edc0868de6e0280441853`,
+matching the reviewed release. Live statistics report generation time
+`2026-10-16T18:30:00Z`, 12,501 research-attempted people, 412 verified
+employer profiles, 906 verified-affiliation profiles and 10,966 people with
+archival-review assessment.
