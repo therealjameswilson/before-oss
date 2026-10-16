@@ -86,6 +86,9 @@ proof that the remaining LoC searches found nothing.
 
 ## Publication status
 
-The reviewed data and static release are ready for publication. GitHub Actions
-and unauthenticated production verification remain pending until the content
-commit is pushed.
+GitHub Pages run 38856540221 published content commit
+`fbe9f88def92e0c2e812a42a3cc2f036ec020c9b` successfully, and Test run
+38856540263 passed. The immutable unauthenticated verifier matched all 67
+public assets (114,013,520 bytes), the release manifest, eight core routes, 34
+source-register pages, and all 23 Batch 837 profile URLs. Public URL:
+https://therealjameswilson.github.io/before-oss/.

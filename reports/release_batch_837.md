@@ -41,5 +41,9 @@ unassigned.
 
 ## Publication status
 
-Pending content commit, GitHub Actions, and immutable unauthenticated live
-verification.
+GitHub Pages run 38856540221 published commit
+`fbe9f88def92e0c2e812a42a3cc2f036ec020c9b` successfully, and Test run
+38856540263 passed. The immutable live verifier matched all 67 public assets
+(114,013,520 bytes), the release manifest, eight core routes, 34
+source-register pages, and all 23 Batch 837 profile URLs without
+authentication. Public URL: https://therealjameswilson.github.io/before-oss/.
