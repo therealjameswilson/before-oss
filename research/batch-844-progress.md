@@ -96,6 +96,9 @@ Two clean builds produced the identical 25,085-file tree hash
 
 ## Publication status
 
-The Batch 844 release candidate has passed local validation and is ready for
-publication. Deployment and immutable unauthenticated verification remain the
-next release steps. Public URL: https://therealjameswilson.github.io/before-oss/.
+Published. GitHub Pages run 38888300816 deployed content commit
+`48f7443930bf2eed8320b5d15dfcf362543e08cc` successfully, and Test run
+38888298899 passed. The immutable unauthenticated verifier matched all 67
+public assets (114,677,467 bytes), the release manifest, eight core routes, 35
+source-register pages, and all 22 directly affected active profile URLs. Public
+URL: https://therealjameswilson.github.io/before-oss/.
