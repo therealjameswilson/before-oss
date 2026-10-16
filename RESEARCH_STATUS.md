@@ -1,5 +1,36 @@
 # Research status
 
+Batch 829 completed PDF page 404, rows 24-46, from **John S Russell** through
+**Vincent J Russo**, preserving all 23 printed rows as separate source records
+linked to 23 active person entities. The printed page was visually checked at
+300 dpi. All 23 people have saved terminal research outcomes. Official Air
+Force history documents **Charles J Russhon** as a pre-Pearl Harbor sound
+engineer for NBC and Republic Pictures without establishing which job came
+last. Archived official Navy history identifies **Alexander P Russo** as a
+Pratt Institute art student before 1942 Naval Reserve enlistment; student
+status is not employment, and the specialist-class discrepancy remains
+visible. A contemporary OSS report confirms **Theodore W Russell** and his
+explicit Army-to-OSS Operational Group pathway without inventing a civilian
+employer. Four exact Army identities were accepted without publishing coded
+occupations. Two incompatible Army-name leads for **John M Russo** and **Pirto
+Russo** were rejected and remain visible as conflicts. NARA and web work used
+dry-run queries; a CIA access failure was not treated as historical negative
+evidence.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,938** active
+people. Research-attempt coverage is **12,047/23,938 (50.3258%)**;
+verified-employer coverage is **393/23,938 (1.6417%)**;
+verified-affiliation coverage is **871/23,938 (3.6386%)**; archival-review
+coverage is **10,511/23,938 (43.9093%)**. There are **11,886** `not_started`
+people, **553** possible-duplicate groups, and **417** conflicts. SQLite
+retains **23,804** attempts or plans and **7,494** claims: 1,559 confirmed,
+3,719 high, 1,652 medium, 202 low, 360 conflicting, and two unresolved. It has
+**6,269** citation records and **3,310** unique source documents. The public
+projection has **2,737** affiliations, **999** organizations, **5,043**
+sources, and **7,286** claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 405, row 1, **William J
+Rust**. See `research/batch-829-progress.md` for the source-by-source audit.
+
 Batch 828 completed PDF page 404, rows 1-23, from **Arthur A Ruozzi** through
 **John P Russell**, preserving all 23 printed rows as separate source records
 linked to 23 active person entities. The printed page was visually checked at
