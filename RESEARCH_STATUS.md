@@ -1,5 +1,32 @@
 # Research status
 
+Batch 848 completed PDF page 414, rows 1-23, from **Louis Schneider** through
+**LA Vonne L Schofield**, preserving all 23 printed rows as separate source
+records linked to 23 active person entities. All 23 now have saved terminal
+research outcomes. Official OSS and Hamilton College evidence identifies
+**John R Schoemer Jr** at high confidence and documents Townley & Updike as
+both his strongly date-bounded immediate affiliation and last civilian
+employer. Official OSS, municipal and scholarly sources identify commissioned
+USNR officer **Thomas Daniel Schocken** and keep three European architectural
+and planning affiliations separate from the still-unknown immediate employer.
+Institutional evidence identifies **Eddie William Schodt** and preserves two
+schools as student affiliations rather than employers. **Solomon Schneyer**'s
+Temple student link and **Richard T Schoenberger**'s Quartermaster Corps
+pathway remain visibly qualified. Ten official Army candidates were accepted
+for identity only; protected identifiers and coded occupations remain private.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **12,479/23,937 (52.1327%)**;
+verified-employer coverage is **410/23,937 (1.7128%)**;
+verified-affiliation coverage is **903/23,937 (3.7724%)**; archival-review
+coverage is **10,944/23,937 (45.7200%)**. There are **11,453** `not_started`
+people, **559** possible-duplicate groups and **443** conflicts. The public
+projection contains **2,819** affiliations, **1,043** organizations, **5,183**
+sources and **7,549** claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 414, row 24, **Norman B
+Schofield**. See `research/batch-848-progress.md` for the source-by-source
+audit.
+
 Batch 843 completed PDF page 411, rows 24-46, from **Mack J Schaefer**
 through **Franklin O Scheiber**, preserving all 23 printed rows as separate
 source records linked to 23 active person entities. The rows were visually

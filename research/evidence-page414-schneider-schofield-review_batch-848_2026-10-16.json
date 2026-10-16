@@ -1,0 +1,891 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 848 archival research review",
+  "sources": [
+    {
+      "key": "nara-index-b848",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 686",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 414, rows 1-23; visually checked against a 180 dpi page render",
+      "access_date": "2026-10-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Full service numbers are retained only in the private database and are excluded from public outputs."
+    },
+    {
+      "key": "army-bulk-b848",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Department of Defense; Department of the Army",
+      "repository_publisher": "National Archives and Records Administration",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; ten exact-name and nonshared protected-identifier comparisons reviewed for Batch 848",
+      "access_date": "2026-10-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "rights_notes": "The private research database retains the minimum record pointers needed for audit. Full protected identifiers, raw bulk rows and occupation codes are not published."
+    },
+    {
+      "key": "cia-schocken-field-reports-b848",
+      "stable_url": "https://www.cia.gov/readingroom/docs/CIA-RDP13X00001R000100060006-2.pdf",
+      "archival_identifier": "CIA-RDP13X00001R000100060006-2",
+      "title": "Field Reports - Volume XI",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "Central Intelligence Agency Freedom of Information Act Electronic Reading Room",
+      "publication_record_date": "Approved for release 2013-09-27",
+      "locator": "Continuation table, Thomas D. Schocken entry: field-report number 16,868; Strategic Intelligence Branch; European Theater of Operations; file page 21",
+      "access_date": "2026-10-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "OSS Collection",
+      "document_number": "CIA-RDP13X00001R000100060006-2",
+      "rights_notes": "Only project-authored paraphrases and the stable declassified document pointer are retained."
+    },
+    {
+      "key": "cia-schocken-labor-b848",
+      "stable_url": "https://www.cia.gov/readingroom/docs/OSS%20SECRET%20INTELLIGENCE%20W%5B16153971%5D.pdf",
+      "archival_identifier": "C00026664",
+      "title": "OSS Secret Intelligence War Diary: Labor Division, Volume 6",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "Central Intelligence Agency Freedom of Information Act Electronic Reading Room",
+      "publication_record_date": "Approved for release 2022-11-14",
+      "locator": "Printed page 316, Field Base C Personnel, Intelligence Staff",
+      "access_date": "2026-10-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "OSS Collection",
+      "document_number": "C00026664",
+      "rights_notes": "The personnel list identifies Thomas Schocken as a U.S. Naval Reserve lieutenant junior grade."
+    },
+    {
+      "key": "bilbao-segurola-b848",
+      "stable_url": "https://www.bilbao.eus/jspui/bitstream/123456789/28316/1/20-21.pdf",
+      "title": "Estanislao Seguróla Solazabal",
+      "author_creator": "Elías Mas Serra",
+      "repository_publisher": "Bilbao municipal digital repository",
+      "locator": "Magazine pages 20-21; passage on Thomas Schocken's 1933-1936 collaboration and the 1934 German School kindergarten",
+      "access_date": "2026-10-16",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "A two-page municipal historical article; only short paraphrases are retained."
+    },
+    {
+      "key": "joch-schocken-b848",
+      "stable_url": "https://doi.org/10.1080/02665433.2013.873732",
+      "archival_identifier": "DOI 10.1080/02665433.2013.873732",
+      "title": "'Must our cities remain ugly?' - America's urban crisis and the European city: transatlantic perspectives on urban development, 1945-1970",
+      "author_creator": "Andreas Joch",
+      "repository_publisher": "Planning Perspectives, Taylor & Francis",
+      "publication_record_date": "2014-01-24",
+      "locator": "Volume 29, issue 2, pages 165-187; biographical paragraph and note 3",
+      "access_date": "2026-10-16",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "The article provides a sourced chronology of Schocken's European architectural and planning work before U.S. emigration."
+    },
+    {
+      "key": "cia-schoemer-personnel-b848",
+      "stable_url": "https://www.cia.gov/readingroom/docs/CIA-RDP13X00001R000100140011-7.pdf",
+      "archival_identifier": "CIA-RDP13X00001R000100140011-7",
+      "title": "Personnel Changes and Appointments for the Month of September 1944",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "Central Intelligence Agency Freedom of Information Act Electronic Reading Room",
+      "publication_record_date": "1944-09; approved for release 2013-09-05",
+      "locator": "September 1944 appointments; John R. Schoemer Jr. entry effective 1944-09-08",
+      "access_date": "2026-10-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "OSS Collection",
+      "document_number": "CIA-RDP13X00001R000100140011-7",
+      "rights_notes": "The bulletin appoints Schoemer assistant general counsel responsible for the Advisory and Research Division."
+    },
+    {
+      "key": "hamilton-schoemer-b848",
+      "stable_url": "https://www.hamilton.edu/about/history/half-century-annalists-letters/1935",
+      "title": "1935 Class Annalist's Letter",
+      "author_creator": "John R. Schoemer Jr.",
+      "repository_publisher": "Hamilton College",
+      "publication_record_date": "Delivered at Reunions 1985",
+      "locator": "Biographical note for John R. Schoemer Jr., Class of 1935",
+      "access_date": "2026-10-16",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "The institutional note documents law-library work, Fordham Law study, 1939 bar admission and the continuing Townley & Updike association."
+    },
+    {
+      "key": "colorado-schodt-b848",
+      "stable_url": "https://www.colorado.edu/alumni/events/alumni-weekend/awards/george-norlin",
+      "title": "George Norlin Award: Eddie W. Schodt (MA '40, PhD '51)",
+      "author_creator": "University of Colorado Boulder Alumni Association",
+      "repository_publisher": "University of Colorado Boulder",
+      "locator": "1975 award entry for Eddie W. Schodt",
+      "access_date": "2026-10-16",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "The alumni profile documents Schodt's education, 1942 OSS work and subsequent Army Counter Intelligence Corps service."
+    },
+    {
+      "key": "legacy-schodt-b848",
+      "stable_url": "https://www.legacy.com/us/obituaries/name/eddie-schodt-obituary?id=29377140",
+      "title": "Eddie W. Schodt obituary",
+      "author_creator": "The Daily Progress",
+      "repository_publisher": "The Daily Progress via Legacy.com",
+      "publication_record_date": "2008-05-31",
+      "locator": "Biographical paragraphs covering education and 1942 wartime service",
+      "access_date": "2026-10-16",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Only project-authored paraphrases are retained; postwar employment is not repurposed as prewar evidence."
+    },
+    {
+      "key": "tempodian-schneyer-b848",
+      "stable_url": "https://www.e-yearbook.com/yearbooks/Temple_University_School_Chiropody_Tempodian_Yearbook/1941/Page_70.html",
+      "title": "Tempodian, Class of 1941",
+      "author_creator": "Temple University School of Chiropody",
+      "repository_publisher": "E-Yearbook.com reproduction of the Temple University School of Chiropody yearbook",
+      "publication_record_date": "1941",
+      "locator": "Viewer page 70; printed page 64; Solomon Schneyer senior profile",
+      "access_date": "2026-10-16",
+      "source_quality": "D_correlative_or_secondary",
+      "rights_notes": "The image-backed contemporary yearbook reproduction is used only for a qualified student-affiliation claim."
+    },
+    {
+      "key": "legacy-schoenberger-b848",
+      "stable_url": "https://www.legacy.com/us/obituaries/mcall/name/richard-schoenberger-obituary?id=18099397",
+      "title": "Richard T. Schoenberger obituary",
+      "author_creator": "The Morning Call",
+      "repository_publisher": "The Morning Call via Legacy.com",
+      "publication_record_date": "2015-01-18",
+      "locator": "Biographical paragraph covering high-school graduation, Army Quartermaster Corps service and OSS special duty",
+      "access_date": "2026-10-16",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "The postwar Sears career is not treated as pre-OSS employment."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "segurola-studio-b848",
+      "canonical_name": "Estanislao Seguróla's architectural studio",
+      "historical_name": "estudio de Estanislao Seguróla",
+      "aliases": ["Estanislao Seguróla Solazabal studio"],
+      "organization_type": "architectural practice",
+      "sector": "engineering_science_and_technology",
+      "city": "Bilbao",
+      "state_or_region": "Biscay",
+      "country": "Spain",
+      "active_dates": "active by 1933-1936",
+      "normalization_notes": "The historical studio is represented separately from the Bilbao municipal architecture department; the evidence describes Schocken assisting Seguróla in his studio."
+    },
+    {
+      "key": "ernst-may-group-b848",
+      "canonical_name": "Ernst May planning group in the Soviet Union",
+      "historical_name": "Ernst May planning group",
+      "aliases": ["May Brigade"],
+      "organization_type": "urban-planning group",
+      "sector": "engineering_science_and_technology",
+      "country": "Soviet Union",
+      "active_dates": "1930-1933",
+      "normalization_notes": "A project grouping rather than a modern corporate successor; Schocken's relationship is recorded as a professional collaboration."
+    },
+    {
+      "key": "tcpa-b848",
+      "canonical_name": "Town and Country Planning Association",
+      "historical_name": "British Town and Country Planning Association",
+      "aliases": ["TCPA"],
+      "organization_type": "professional association",
+      "sector": "labor_nonprofit_and_religion",
+      "city": "London",
+      "country": "United Kingdom",
+      "normalization_notes": "The historical wording in the scholarly source is preserved; membership is not represented as employment."
+    },
+    {
+      "key": "townley-updike-b848",
+      "canonical_name": "Townley & Updike",
+      "historical_name": "Townley & Updike",
+      "aliases": ["Townley, Updike & Carter", "Townley, Updike, Carter & Rodgers"],
+      "organization_type": "law firm",
+      "sector": "law",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "The 1939 historical firm name is retained; later variants are aliases and are not silently substituted."
+    },
+    {
+      "key": "valley-city-teachers-b848",
+      "canonical_name": "Valley City State Teachers College",
+      "historical_name": "State Teachers College, Valley City",
+      "aliases": ["Valley City State Teachers College"],
+      "organization_type": "college",
+      "sector": "academia_and_research",
+      "city": "Valley City",
+      "state_or_region": "North Dakota",
+      "country": "United States",
+      "normalization_notes": "The institution's historical name is preserved; no modern successor name is substituted in the claim."
+    },
+    {
+      "key": "university-colorado-b848",
+      "organization_id": "a8b04832-946d-527b-9c16-854d9052f157",
+      "canonical_name": "University of Colorado",
+      "historical_name": "University of Colorado at Boulder",
+      "aliases": ["University of Colorado Boulder"],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Boulder",
+      "state_or_region": "Colorado",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused; student status is kept separate from employment."
+    },
+    {
+      "key": "temple-chiropody-b848",
+      "canonical_name": "Temple University School of Chiropody",
+      "historical_name": "Temple University School of Chiropody",
+      "aliases": ["Temple School of Chiropody"],
+      "organization_type": "professional school",
+      "sector": "academia_and_research",
+      "city": "Philadelphia",
+      "state_or_region": "Pennsylvania",
+      "country": "United States",
+      "active_dates": "closed 1960",
+      "normalization_notes": "Historical school name retained. The institution is a student affiliation, not an employer."
+    },
+    {
+      "key": "quartermaster-corps-b848",
+      "organization_id": "66963819-ea87-5a6c-9410-638d7d46882c",
+      "canonical_name": "United States Army Quartermaster Corps",
+      "historical_name": "Army Quartermaster Corps",
+      "aliases": ["U.S. Army Quartermaster Corps"],
+      "organization_type": "military branch",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused. The affiliation is a military pathway, not a civilian employer."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "thomas-schocken-segurola-b848",
+      "person_id": "2c47e158-0bbe-5824-a09b-26d8173429f4",
+      "organization_key": "segurola-studio-b848",
+      "organization_name_as_found": "estudio de Estanislao Seguróla",
+      "role_title": "Architectural assistant and collaborator",
+      "occupation": "architect",
+      "relationship_type": "professional_affiliation",
+      "start_date": "1933",
+      "end_date": "1936",
+      "date_precision": "year",
+      "city": "Bilbao",
+      "state_or_region": "Biscay",
+      "country": "Spain",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The Bilbao municipal article dates the collaboration to 1933-1936 and identifies a jointly signed 1934 school project. It does not establish the immediate pre-OSS employer."
+    },
+    {
+      "key": "thomas-schocken-may-b848",
+      "person_id": "2c47e158-0bbe-5824-a09b-26d8173429f4",
+      "organization_key": "ernst-may-group-b848",
+      "organization_name_as_found": "Neues Bauen pioneer Ernst May in the Soviet Union",
+      "role_title": "Architectural and planning collaborator",
+      "occupation": "architect and planner",
+      "relationship_type": "professional_affiliation",
+      "end_date": "1933",
+      "date_precision": "before 1933; exact dates not stated",
+      "country": "Soviet Union",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The scholarly chronology places this collaboration before Schocken's 1933 move to Bilbao; it is not treated as a named employer."
+    },
+    {
+      "key": "thomas-schocken-tcpa-b848",
+      "person_id": "2c47e158-0bbe-5824-a09b-26d8173429f4",
+      "organization_key": "tcpa-b848",
+      "organization_name_as_found": "British Town and Country Planning Association",
+      "role_title": "Member",
+      "occupation": "architect and planner",
+      "relationship_type": "professional_affiliation",
+      "date_precision": "between 1936 and 1940; exact dates not stated",
+      "city": "London",
+      "country": "United Kingdom",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The source says Schocken joined the association during a short London stay after Spain and before U.S. emigration; membership is not employment."
+    },
+    {
+      "key": "john-schoemer-townley-b848",
+      "person_id": "cb250c15-143e-5b77-b166-66fc7f874ea8",
+      "organization_key": "townley-updike-b848",
+      "organization_name_as_found": "Townley & Updike",
+      "role_title": "Attorney",
+      "occupation": "lawyer",
+      "relationship_type": "employment",
+      "start_date": "1939",
+      "date_precision": "year; the institutional note describes an association continuing more than 30 years",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Hamilton dates the firm association from 1939 and describes it as continuing for more than 30 years; an official OSS bulletin dates his assistant-general-counsel appointment to September 8, 1944. The source does not say he was recruited from the firm or whether he was on leave."
+    },
+    {
+      "key": "eddie-schodt-valley-city-b848",
+      "person_id": "4e1df07a-0cbc-5866-9b88-543840172f87",
+      "organization_key": "valley-city-teachers-b848",
+      "organization_name_as_found": "State Teachers College, Valley City",
+      "role_title": "Bachelor's student in history",
+      "relationship_type": "student",
+      "end_date": "1938",
+      "date_precision": "graduation year",
+      "city": "Valley City",
+      "state_or_region": "North Dakota",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The institutional profile dates Schodt's history degree to 1938. This is education, not employment."
+    },
+    {
+      "key": "eddie-schodt-colorado-b848",
+      "person_id": "4e1df07a-0cbc-5866-9b88-543840172f87",
+      "organization_key": "university-colorado-b848",
+      "organization_name_as_found": "University of Colorado Boulder",
+      "role_title": "Master's student in American history",
+      "relationship_type": "student",
+      "end_date": "1940",
+      "date_precision": "degree year",
+      "city": "Boulder",
+      "state_or_region": "Colorado",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The institutional profile dates Schodt's master's degree to 1940. The evidence does not prove continuous enrollment through his 1942 OSS work."
+    },
+    {
+      "key": "solomon-schneyer-temple-b848",
+      "person_id": "6b53cba0-b03b-562d-a54c-5830e8f908bc",
+      "organization_key": "temple-chiropody-b848",
+      "organization_name_as_found": "Temple University School of Chiropody",
+      "role_title": "Senior student; class historian",
+      "relationship_type": "student",
+      "end_date": "1941",
+      "date_precision": "yearbook class year",
+      "city": "Philadelphia",
+      "state_or_region": "Pennsylvania",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "D_correlative_or_secondary",
+      "publication_status": "publish_qualified",
+      "research_notes": "The rare exact name, Philadelphia context and 1941-to-wartime chronology support a probable match, but the yearbook supplies no protected identifier or OSS link."
+    },
+    {
+      "key": "richard-schoenberger-quartermaster-b848",
+      "person_id": "01af2a86-6ad2-5882-bd2b-fa9abaf5bbbb",
+      "organization_key": "quartermaster-corps-b848",
+      "organization_name_as_found": "Army's Quarter Master Corps",
+      "role_title": "Enlisted soldier; corporal; OSS special duty in California",
+      "relationship_type": "military_assignment",
+      "date_precision": "World War II; exact dates not stated",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "probable_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The obituary says Schoenberger served nearly four years in the Quartermaster Corps and had OSS special duty in California. It supports a military pathway but does not supply the transfer date or last civilian employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-horace-schnelzer-b848",
+      "person_id": "85439eee-e88d-5573-8794-a8b8c619f755",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record is a high-confidence identity match for indexed Horace J. Schnelzer.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from exact full-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "Identity crosswalk only; the Army record does not establish a pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army entry-grade and occupation fields were not converted into an OSS rank, named employer or affiliation.",
+      "sources": [
+        {"source_key": "nara-index-b848", "support_type": "supports", "locator_override": "PDF page 414, row 3; Box 686"},
+        {"source_key": "army-bulk-b848", "support_type": "supports", "locator_override": "Exact-name and protected-identifier comparison"}
+      ]
+    },
+    {
+      "key": "identity-solomon-schneyer-b848",
+      "person_id": "6b53cba0-b03b-562d-a54c-5830e8f908bc",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record is a high-confidence identity match for indexed Solomon Schneyer.",
+      "evidence_paraphrase": "The exact name and a nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from exact-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "Identity crosswalk only; the Army record does not establish a pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army entry-grade and occupation fields were not converted into an OSS rank, named employer or affiliation.",
+      "sources": [
+        {"source_key": "nara-index-b848", "support_type": "supports", "locator_override": "PDF page 414, row 5; Box 686"},
+        {"source_key": "army-bulk-b848", "support_type": "supports", "locator_override": "Exact-name and protected-identifier comparison"}
+      ]
+    },
+    {
+      "key": "identity-walter-schnyder-b848",
+      "person_id": "a7db35a9-093c-52ae-82aa-9558928b846f",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record is a high-confidence identity match for indexed Walter O. Schnyder.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from exact full-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "Identity crosswalk only; the Army record does not establish a pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army occupation code was not treated as a named employer or affiliation.",
+      "sources": [
+        {"source_key": "nara-index-b848", "support_type": "supports", "locator_override": "PDF page 414, row 6; PVT; Box 686"},
+        {"source_key": "army-bulk-b848", "support_type": "supports", "locator_override": "Exact-name and protected-identifier comparison"}
+      ]
+    },
+    {
+      "key": "identity-robert-schoen-b848",
+      "person_id": "314b65db-796e-5a6d-85d1-ee0deb5fb945",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record is a high-confidence identity match for indexed Robert J. Schoen.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from exact full-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "Identity crosswalk only; the Army record does not establish a pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army entry-grade and occupation fields were not converted into an OSS rank, named employer or affiliation.",
+      "sources": [
+        {"source_key": "nara-index-b848", "support_type": "supports", "locator_override": "PDF page 414, row 12; Box 686"},
+        {"source_key": "army-bulk-b848", "support_type": "supports", "locator_override": "Exact-name and protected-identifier comparison"}
+      ]
+    },
+    {
+      "key": "identity-jerry-schoenbaum-b848",
+      "person_id": "73aa55d7-c4e7-555d-b229-47d89bf37c60",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record is a high-confidence identity match for indexed Jerry Schoenbaum.",
+      "evidence_paraphrase": "The exact name and a nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from exact-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "Identity crosswalk only; the Army record does not establish a pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Later music-industry references are postwar and were not used as pre-OSS evidence.",
+      "sources": [
+        {"source_key": "nara-index-b848", "support_type": "supports", "locator_override": "PDF page 414, row 14; PVT; Box 686"},
+        {"source_key": "army-bulk-b848", "support_type": "supports", "locator_override": "Exact-name and protected-identifier comparison"}
+      ]
+    },
+    {
+      "key": "identity-richard-schoenberger-b848",
+      "person_id": "01af2a86-6ad2-5882-bd2b-fa9abaf5bbbb",
+      "claim_type": "identity",
+      "claim_text": "Official Army data and a biographical service chronology identify indexed Richard T. Schoenberger with high confidence.",
+      "evidence_paraphrase": "The exact full name and protected identifier match the Army record; the obituary adds Quartermaster Corps and OSS special-duty service.",
+      "identity_match_assessment": "High confidence from official protected-identifier agreement, exact full name and a compatible service chronology.",
+      "temporal_assessment": "The obituary places Quartermaster Corps service before or during OSS special duty but does not state a transfer date.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The obituary supplies no last civilian employer; the postwar Sears career is excluded.",
+      "sources": [
+        {"source_key": "nara-index-b848", "support_type": "supports", "locator_override": "PDF page 414, row 15; Box 686"},
+        {"source_key": "army-bulk-b848", "support_type": "supports", "locator_override": "Exact-name and protected-identifier comparison"},
+        {"source_key": "legacy-schoenberger-b848", "support_type": "supports", "locator_override": "World War II service paragraph"}
+      ]
+    },
+    {
+      "key": "identity-milton-schoenheim-b848",
+      "person_id": "4ae3b426-c5e4-5991-8742-9185838baec8",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record is a high-confidence identity match for indexed Milton C. Schoenheim.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from exact full-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "Identity crosswalk only; the Army record does not establish a pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army entry-grade and occupation fields were not converted into an OSS rank, named employer or affiliation.",
+      "sources": [
+        {"source_key": "nara-index-b848", "support_type": "supports", "locator_override": "PDF page 414, row 17; Box 686"},
+        {"source_key": "army-bulk-b848", "support_type": "supports", "locator_override": "Exact-name and protected-identifier comparison"}
+      ]
+    },
+    {
+      "key": "identity-william-schoepper-b848",
+      "person_id": "dedcadfe-9052-509b-975c-7c8e9cb92bb9",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record is a high-confidence identity match for indexed William A. Schoepper.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from exact full-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "Identity crosswalk only; the Army record does not establish a pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army occupation code was not treated as a named employer or affiliation.",
+      "sources": [
+        {"source_key": "nara-index-b848", "support_type": "supports", "locator_override": "PDF page 414, row 19; S/SGT; Box 686"},
+        {"source_key": "army-bulk-b848", "support_type": "supports", "locator_override": "Exact-name and protected-identifier comparison"}
+      ]
+    },
+    {
+      "key": "identity-donald-schofield-b848",
+      "person_id": "75ea5d89-25df-5f47-b92b-cb9deb5ed521",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record is a high-confidence identity match for indexed Donald R. Schofield.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from exact full-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "Identity crosswalk only; the Army record does not establish a pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "An unbridged Navy casualty namesake was rejected because the official branch and identifiers do not align.",
+      "sources": [
+        {"source_key": "nara-index-b848", "support_type": "supports", "locator_override": "PDF page 414, row 21; PVT; Box 686"},
+        {"source_key": "army-bulk-b848", "support_type": "supports", "locator_override": "Exact-name and protected-identifier comparison"}
+      ]
+    },
+    {
+      "key": "identity-george-schofield-b848",
+      "person_id": "b4b63d34-b449-503a-ae5e-6bd8ee42cb45",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record is a high-confidence identity match for indexed George Schofield.",
+      "evidence_paraphrase": "The exact name and a nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from exact-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "Identity crosswalk only; the Army record does not establish a pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army occupation code was not treated as a named employer or affiliation.",
+      "sources": [
+        {"source_key": "nara-index-b848", "support_type": "supports", "locator_override": "PDF page 414, row 22; CPL; Box 686"},
+        {"source_key": "army-bulk-b848", "support_type": "supports", "locator_override": "Exact-name and protected-identifier comparison"}
+      ]
+    },
+    {
+      "key": "identity-thomas-schocken-b848",
+      "person_id": "2c47e158-0bbe-5824-a09b-26d8173429f4",
+      "claim_type": "identity",
+      "claim_text": "Indexed Thomas D. Schocken is Thomas Daniel Schocken, the U.S. Naval Reserve lieutenant documented in official OSS records.",
+      "evidence_paraphrase": "Two official OSS documents place Lieutenant Thomas D. Schocken in Strategic Intelligence and identify Thomas Schocken as a USNR lieutenant junior grade.",
+      "identity_match_assessment": "High confidence from the distinctive exact name, middle initial, officer status and mutually reinforcing official OSS records.",
+      "temporal_assessment": "The official records establish wartime OSS service; scholarly and municipal sources document earlier European architectural work.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Naval Reserve grade is documented directly; no civilian employer immediately before OSS is inferred.",
+      "sources": [
+        {"source_key": "nara-index-b848", "support_type": "supports", "locator_override": "PDF page 414, row 7; Box 686"},
+        {"source_key": "cia-schocken-field-reports-b848", "support_type": "supports", "locator_override": "Thomas D. Schocken entry; file page 21"},
+        {"source_key": "cia-schocken-labor-b848", "support_type": "supports", "locator_override": "Printed page 316; Field Base C personnel"}
+      ]
+    },
+    {
+      "key": "prewar-thomas-schocken-segurola-b848",
+      "person_id": "2c47e158-0bbe-5824-a09b-26d8173429f4",
+      "affiliation_key": "thomas-schocken-segurola-b848",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Thomas Schocken assisted and collaborated in Estanislao Seguróla's Bilbao architectural studio from 1933 to 1936.",
+      "evidence_paraphrase": "The Bilbao municipal article dates the studio collaboration to 1933-1936 and identifies a jointly signed 1934 school project.",
+      "identity_match_assessment": "High-confidence identity based on the distinctive name and official OSS records.",
+      "temporal_assessment": "Explicitly documented before wartime OSS service, but not established as the immediate predecessor affiliation.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This is represented as a professional architectural affiliation, not silently normalized into municipal employment.",
+      "sources": [{"source_key": "bilbao-segurola-b848", "support_type": "supports", "locator_override": "Magazine pages 20-21"}]
+    },
+    {
+      "key": "prewar-thomas-schocken-may-b848",
+      "person_id": "2c47e158-0bbe-5824-a09b-26d8173429f4",
+      "affiliation_key": "thomas-schocken-may-b848",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Before moving to Bilbao, Thomas Schocken collaborated with Ernst May's planning group in the Soviet Union.",
+      "evidence_paraphrase": "A scholarly biographical chronology places Schocken with Ernst May in the Soviet Union before his 1933 move to Spain.",
+      "identity_match_assessment": "High-confidence identity based on the distinctive name and official OSS records.",
+      "temporal_assessment": "Documented prewar affiliation; exact dates and any employment terms are not supplied.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The planning group is treated as a professional collaboration rather than a corporate employer.",
+      "sources": [{"source_key": "joch-schocken-b848", "support_type": "supports", "locator_override": "Biographical paragraph and note 3"}]
+    },
+    {
+      "key": "prewar-thomas-schocken-tcpa-b848",
+      "person_id": "2c47e158-0bbe-5824-a09b-26d8173429f4",
+      "affiliation_key": "thomas-schocken-tcpa-b848",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Thomas Schocken joined the British Town and Country Planning Association during a prewar London stay.",
+      "evidence_paraphrase": "A scholarly chronology places the association membership after Spain and before Schocken's emigration to the United States.",
+      "identity_match_assessment": "High-confidence identity based on the distinctive name and official OSS records.",
+      "temporal_assessment": "Documented prewar professional affiliation; exact dates and immediate relation to OSS service are not established.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Membership is not represented as employment.",
+      "sources": [{"source_key": "joch-schocken-b848", "support_type": "supports", "locator_override": "Biographical paragraph and note 3"}]
+    },
+    {
+      "key": "identity-eddie-schodt-b848",
+      "person_id": "4e1df07a-0cbc-5866-9b88-543840172f87",
+      "claim_type": "identity",
+      "claim_text": "Indexed Eddie W. Schodt is Eddie William Schodt, whose institutional biography documents brief 1942 OSS service.",
+      "evidence_paraphrase": "The university profile expands the exact name, supplies the education chronology and explicitly describes several months of OSS work in 1942.",
+      "identity_match_assessment": "High confidence from an uncommon exact name, expanded middle name and explicit OSS service in an authoritative institutional profile.",
+      "temporal_assessment": "The profile dates education through 1940 and OSS service to 1942 but does not fill the intervening employment gap.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The obituary independently corroborates the education and wartime chronology; postwar work is excluded.",
+      "sources": [
+        {"source_key": "nara-index-b848", "support_type": "supports", "locator_override": "PDF page 414, row 8; Box 686"},
+        {"source_key": "colorado-schodt-b848", "support_type": "supports", "locator_override": "1975 George Norlin Award entry"},
+        {"source_key": "legacy-schodt-b848", "support_type": "supports", "locator_override": "Education and wartime-service paragraphs"}
+      ]
+    },
+    {
+      "key": "prewar-eddie-schodt-valley-city-b848",
+      "person_id": "4e1df07a-0cbc-5866-9b88-543840172f87",
+      "affiliation_key": "eddie-schodt-valley-city-b848",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Eddie W. Schodt earned a history bachelor's degree from State Teachers College, Valley City, in 1938.",
+      "evidence_paraphrase": "The University of Colorado alumni profile identifies the institution, field and 1938 degree year.",
+      "identity_match_assessment": "High-confidence identity based on the uncommon exact name and explicit OSS service.",
+      "temporal_assessment": "Documented prewar student status; not an employer and not shown to be immediate before OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The college is classified as education only.",
+      "sources": [{"source_key": "colorado-schodt-b848", "support_type": "supports", "locator_override": "1975 George Norlin Award entry"}]
+    },
+    {
+      "key": "prewar-eddie-schodt-colorado-b848",
+      "person_id": "4e1df07a-0cbc-5866-9b88-543840172f87",
+      "affiliation_key": "eddie-schodt-colorado-b848",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Eddie W. Schodt earned a master's degree in American history from the University of Colorado in 1940.",
+      "evidence_paraphrase": "The university alumni profile supplies the institution, field and 1940 degree year.",
+      "identity_match_assessment": "High-confidence identity based on the uncommon exact name and explicit OSS service.",
+      "temporal_assessment": "Documented prewar student status; the source does not prove continuous enrollment through 1942.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The university is classified as education only, not as an employer.",
+      "sources": [{"source_key": "colorado-schodt-b848", "support_type": "supports", "locator_override": "1975 George Norlin Award entry"}]
+    },
+    {
+      "key": "identity-john-schoemer-b848",
+      "person_id": "cb250c15-143e-5b77-b166-66fc7f874ea8",
+      "claim_type": "identity",
+      "claim_text": "Indexed John R. Schoemer is John R. Schoemer Jr., appointed OSS assistant general counsel in September 1944.",
+      "evidence_paraphrase": "An official OSS personnel bulletin gives the exact name, legal appointment, division and effective date; Hamilton supplies the compatible legal career.",
+      "identity_match_assessment": "High confidence from the rare exact name, matching legal profession and direct official OSS appointment.",
+      "temporal_assessment": "The official bulletin dates OSS entry to September 8, 1944; Hamilton dates the law-firm association from 1939.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The suffix is preserved as a documented name variant; the source does not state recruitment or leave terms.",
+      "sources": [
+        {"source_key": "nara-index-b848", "support_type": "supports", "locator_override": "PDF page 414, row 10; Box 686"},
+        {"source_key": "cia-schoemer-personnel-b848", "support_type": "supports", "locator_override": "September 1944 appointments; effective September 8"},
+        {"source_key": "hamilton-schoemer-b848", "support_type": "supports", "locator_override": "John R. Schoemer Jr. biographical note"}
+      ]
+    },
+    {
+      "key": "immediate-john-schoemer-townley-b848",
+      "person_id": "cb250c15-143e-5b77-b166-66fc7f874ea8",
+      "affiliation_key": "john-schoemer-townley-b848",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "John R. Schoemer Jr.'s Townley & Updike association continued through his September 1944 OSS appointment.",
+      "evidence_paraphrase": "Hamilton dates the association from 1939 for more than thirty years, while the official OSS bulletin dates his appointment to September 8, 1944.",
+      "identity_match_assessment": "High-confidence identity based on the rare exact name, legal profession and official OSS appointment.",
+      "temporal_assessment": "Strongly date-bounded overlap supports a continuing immediate affiliation; direct recruitment or formal leave is not asserted.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The historical 1939 firm name is retained rather than silently replaced with a later variant.",
+      "sources": [
+        {"source_key": "hamilton-schoemer-b848", "support_type": "supports", "locator_override": "John R. Schoemer Jr. biographical note"},
+        {"source_key": "cia-schoemer-personnel-b848", "support_type": "supports", "locator_override": "Appointment effective September 8, 1944"}
+      ]
+    },
+    {
+      "key": "last-civilian-john-schoemer-townley-b848",
+      "person_id": "cb250c15-143e-5b77-b166-66fc7f874ea8",
+      "affiliation_key": "john-schoemer-townley-b848",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Townley & Updike is the best-supported last civilian employer for John R. Schoemer Jr. before his OSS appointment.",
+      "evidence_paraphrase": "The institutional chronology begins the law-firm association in 1939 and extends it across the official September 1944 OSS appointment date.",
+      "identity_match_assessment": "High-confidence identity based on the rare exact name, legal profession and official OSS appointment.",
+      "temporal_assessment": "Strongly date-bounded; no intervening civilian employer is documented, but direct recruitment is not claimed.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The claim remains distinct from the immediate-affiliation claim even though both use the same dated employment evidence.",
+      "sources": [
+        {"source_key": "hamilton-schoemer-b848", "support_type": "supports", "locator_override": "John R. Schoemer Jr. biographical note"},
+        {"source_key": "cia-schoemer-personnel-b848", "support_type": "supports", "locator_override": "Appointment effective September 8, 1944"}
+      ]
+    },
+    {
+      "key": "prewar-solomon-schneyer-temple-b848",
+      "person_id": "6b53cba0-b03b-562d-a54c-5830e8f908bc",
+      "affiliation_key": "solomon-schneyer-temple-b848",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Solomon Schneyer was probably a senior student at Temple University School of Chiropody in 1941.",
+      "evidence_paraphrase": "An image-backed contemporary yearbook has a senior profile for the rare exact name Solomon Schneyer and identifies him with Philadelphia.",
+      "identity_match_assessment": "Probable for this affiliation: rare exact name and chronology align, but the yearbook has no protected identifier or OSS link.",
+      "temporal_assessment": "Documented prewar student status if the match is correct; it is neither employment nor demonstrably immediate before OSS.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The Army record confirms the indexed person's identity separately; Box 686 should test the yearbook linkage.",
+      "sources": [{"source_key": "tempodian-schneyer-b848", "support_type": "supports", "locator_override": "Viewer page 70; printed page 64"}]
+    },
+    {
+      "key": "pathway-richard-schoenberger-quartermaster-b848",
+      "person_id": "01af2a86-6ad2-5882-bd2b-fa9abaf5bbbb",
+      "affiliation_key": "richard-schoenberger-quartermaster-b848",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Richard T. Schoenberger probably reached OSS special duty through the U.S. Army Quartermaster Corps.",
+      "evidence_paraphrase": "His obituary reports nearly four years in the Quartermaster Corps, corporal rank and OSS special duty in California.",
+      "identity_match_assessment": "High-confidence identity from official protected-identifier agreement and the exact full name.",
+      "temporal_assessment": "Probable immediate military pathway; the source does not state the transfer date or exact administrative sequence.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "This is a military assignment, not a civilian employer; his later Sears career is excluded.",
+      "sources": [{"source_key": "legacy-schoenberger-b848", "support_type": "supports", "locator_override": "World War II service paragraph"}]
+    }
+  ],
+  "person_updates": [
+    {"person_id":"fe9fff7c-798c-55c7-9d51-ee3e062b6d9f","identity_status":"unresolved","identity_evidence":"Exact-name searches produced multiple Louis Schneider namesakes and no reliable bridge to the Box 686 index row.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 686 to identify Louis Schneider and document his pre-OSS chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"5775e2a1-a9a6-57e8-9d7e-268516846f93","identity_status":"unresolved","identity_evidence":"The common name and middle initial produced multiple unbridged candidates; none tied William E. Schneider to Box 686 or OSS service.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 686 for William E. Schneider's identity and employment history.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"85439eee-e88d-5573-8794-a8b8c619f755","identity_status":"high_confidence","identity_evidence":"Exact full-name and nonshared protected-identifier agreement between the index and official Army bulk record.","personnel_category":"enlisted_army_personnel","commissioned_officer":false,"manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 686 for Horace J. Schnelzer's pre-Army occupation and OSS assignment.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"c1231d59-eab2-59b2-b564-5a87ceb70c15","identity_status":"unresolved","identity_evidence":"An Artillery Officer Candidate School roster is a plausible same-name lead, but it lacks a protected identifier or Box 686 linkage and provides no employer evidence.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 686 to confirm Herbert W. Schnetzky's identity, Army chronology and civilian background.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"6b53cba0-b03b-562d-a54c-5830e8f908bc","identity_status":"high_confidence","identity_evidence":"Exact name and nonshared protected-identifier agreement between the index and official Army bulk record; the 1941 Temple yearbook is a qualified affiliation lead.","personnel_category":"enlisted_army_personnel","commissioned_officer":false,"manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 686 to test the Temple student linkage and identify Solomon Schneyer's immediate pre-Army or pre-OSS affiliation.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"a7db35a9-093c-52ae-82aa-9558928b846f","identity_status":"high_confidence","identity_evidence":"Exact full-name and nonshared protected-identifier agreement between the index and official Army bulk record.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 686 for Walter O. Schnyder's civilian occupation and Army-to-OSS chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"2c47e158-0bbe-5824-a09b-26d8173429f4","identity_status":"high_confidence","identity_evidence":"Distinctive exact name and middle initial plus two official OSS documents identify Thomas Daniel Schocken as a U.S. Naval Reserve lieutenant in Strategic Intelligence.","name_variants":["Thomas Daniel Schocken"],"personnel_category":"commissioned_naval_officer","commissioned_officer":true,"manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 686 for Schocken's 1940-OSS chronology and the immediate civilian or naval affiliation preceding OSS.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"4e1df07a-0cbc-5866-9b88-543840172f87","identity_status":"high_confidence","identity_evidence":"An authoritative university profile expands the uncommon exact name to Eddie William Schodt and explicitly documents several months of OSS work in 1942; an obituary corroborates the chronology.","name_variants":["Eddie William Schodt"],"manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 686 to identify Eddie W. Schodt's occupation or employer between his 1940 master's degree and 1942 OSS service.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"e5d33182-4089-58d6-9f53-9174e037ae72","identity_status":"unresolved","identity_evidence":"Exact-name and employment searches did not produce a candidate tied by identifier, rank or OSS context to the indexed Eugene Schoemann.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 686 for Eugene Schoemann's identity and pre-Army history.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"cb250c15-143e-5b77-b166-66fc7f874ea8","identity_status":"high_confidence","identity_evidence":"The rare exact name, legal profession and official September 1944 OSS assistant-general-counsel appointment link the index row to John R. Schoemer Jr.","name_variants":["John R. Schoemer Jr.","John R Schoemer Jr"],"personnel_category":"civilian_professional_or_administrative_grade","commissioned_officer":false,"manual_review_required":true,"research_status":"verified_employer_found","next_action":"Review Box 686 to confirm whether Schoemer entered OSS directly from Townley & Updike and whether he retained a formal firm affiliation during service.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"90c75815-d07f-54aa-946f-4c8d7c09e602","identity_status":"unresolved","identity_evidence":"The common surname and initial produced multiple officer candidates; no source linked one to the Box 686 first-lieutenant row.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 686 for Herbert V. Schoen's full identity, branch and pre-OSS assignment.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"314b65db-796e-5a6d-85d1-ee0deb5fb945","identity_status":"high_confidence","identity_evidence":"Exact full-name and nonshared protected-identifier agreement between the index and official Army bulk record.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 686 for Robert J. Schoen's rank, pre-Army occupation and OSS assignment.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"c7e2cd6f-ff48-599e-a238-cfaef19b5c03","identity_status":"unresolved","identity_evidence":"A Coast Artillery transcription is a plausible same-name lead but lacks a direct identifier or OSS bridge and cannot support an identity or employer claim.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 686 to confirm John F. Schoenack's identity and pre-commission chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"73aa55d7-c4e7-555d-b229-47d89bf37c60","identity_status":"high_confidence","identity_evidence":"Exact name and nonshared protected-identifier agreement between the index and official Army bulk record.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 686 for Jerry Schoenbaum's pre-Army occupation and OSS chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"01af2a86-6ad2-5882-bd2b-fa9abaf5bbbb","identity_status":"high_confidence","identity_evidence":"Exact full-name and protected-identifier agreement in official Army data, corroborated by an obituary describing Quartermaster Corps and OSS special-duty service.","personnel_category":"enlisted_army_personnel","commissioned_officer":false,"manual_review_required":true,"research_status":"requires_archival_review","next_action":"Review Box 686 to establish Richard T. Schoenberger's Army-to-OSS transfer date and last civilian employer.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"6742852b-3539-5f84-a687-3708b2b6238d","identity_status":"unresolved","identity_evidence":"Exact-name searches produced unbridged namesakes and no source tied Marion R. Schoenfeld to the indexed CAF-4 civilian row.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 686 for Marion R. Schoenfeld's identity, civilian grade and prior employment.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"4ae3b426-c5e4-5991-8742-9185838baec8","identity_status":"high_confidence","identity_evidence":"Exact full-name and nonshared protected-identifier agreement between the index and official Army bulk record.","personnel_category":"enlisted_army_personnel","commissioned_officer":false,"manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 686 for Milton C. Schoenheim's pre-Army occupation and OSS assignment.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"b27d8d4c-7e77-549b-9507-a9347f63adb0","identity_status":"unresolved","identity_evidence":"Exact-name and occupation searches did not produce a candidate securely linked to Box 686 or the OSS index.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 686 to identify Elmer H. Schoening and his pre-OSS affiliation.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"dedcadfe-9052-509b-975c-7c8e9cb92bb9","identity_status":"high_confidence","identity_evidence":"Exact full-name and nonshared protected-identifier agreement between the index and official Army bulk record.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 686 for William A. Schoepper's pre-Army occupation and Army-to-OSS chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"5abbf57e-30a6-58bd-a7d1-6dde7ff5b6a0","identity_status":"unresolved","identity_evidence":"Exact-name searches returned multiple Ralph Schoff candidates without a rank, identifier or OSS link sufficient for resolution.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 686 for Ralph A. Schoff's identity and pre-OSS chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"75ea5d89-25df-5f47-b92b-cb9deb5ed521","identity_status":"high_confidence","identity_evidence":"Exact full-name and nonshared protected-identifier agreement between the index and official Army bulk record; a conflicting Navy namesake was rejected.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 686 for Donald R. Schofield's pre-Army occupation and OSS assignment.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"b4b63d34-b449-503a-ae5e-6bd8ee42cb45","identity_status":"high_confidence","identity_evidence":"Exact name and nonshared protected-identifier agreement between the index and official Army bulk record.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 686 for George Schofield's full middle name, pre-Army occupation and OSS assignment.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"eef09759-80e1-52fb-bb9c-e4a612009a22","identity_status":"unresolved","identity_evidence":"The unusual indexed spacing and initials produced no authoritative source tied to the Box 686 CAF-5 civilian row.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 686 to confirm LA Vonne L. Schofield's name and prior employment.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"}
+  ],
+  "research_attempts": [
+    {
+      "key":"louis-schneider-b848","person_id":"fe9fff7c-798c-55c7-9d51-ee3e062b6d9f","source_adapter":"manual_staged_protocol","query_text":"NARA page 414 row 1; Louis Schneider; exact-name OSS; CIA, employer, occupation, institutional, newspaper, obituary, directory and archival searches; Box 686","query_variant_type":"staged_identity_employment_archival_protocol_batch_848","started_at":"2026-10-16T14:00:00+00:00","completed_at":"2026-10-16T18:30:00+00:00","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":6,"rejection_reasons":"Common-name candidates lacked a protected identifier, rank, Box 686 link or documented OSS service.","research_notes":"No reliable identity, employer or affiliation was established. CIA automated-access and Library of Congress timeout limitations were recorded as access limits, not negative evidence.","next_action":"Review Box 686 to identify Louis Schneider and document his pre-OSS chronology.","attempt_number":1,"research_agent_version":"before-oss-b848-v1"
+    },
+    {
+      "key":"william-e-schneider-b848","person_id":"5775e2a1-a9a6-57e8-9d7e-268516846f93","source_adapter":"manual_staged_protocol","query_text":"NARA page 414 row 2; William E Schneider; exact-name and middle-name variants; OSS, CIA, employer, occupation, institutional, newspaper, obituary, directory and archival searches; Box 686","query_variant_type":"staged_identity_employment_archival_protocol_batch_848","started_at":"2026-10-16T14:00:00+00:00","completed_at":"2026-10-16T18:30:00+00:00","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":6,"rejection_reasons":"Multiple namesakes lacked a protected identifier or direct OSS and Box 686 linkage.","research_notes":"The middle initial did not provide sufficient disambiguation. Access limitations were not treated as negative evidence.","next_action":"Review Box 686 for William E. Schneider's identity and employment history.","attempt_number":1,"research_agent_version":"before-oss-b848-v1"
+    },
+    {
+      "key":"horace-j-schnelzer-b848","person_id":"85439eee-e88d-5573-8794-a8b8c619f755","source_adapter":"manual_staged_protocol","query_text":"NARA page 414 row 3; Horace J Schnelzer; official Army bulk; exact-name OSS; CIA, employer, occupation, institutional, newspaper, obituary and archival searches; Box 686","query_variant_type":"staged_identity_employment_archival_protocol_batch_848","started_at":"2026-10-16T14:00:00+00:00","completed_at":"2026-10-16T18:30:00+00:00","outcome":"source_reviewed","sources_reviewed":5,"candidate_sources_rejected":3,"rejection_reasons":"Nonofficial candidates lacked the protected identifier or a documented employment chronology; Army codes were not interpreted as employers.","research_notes":"Official Army data supplies a high-confidence identity crosswalk only. No reliable pre-OSS employer or assignment was found.","next_action":"Review Box 686 for pre-Army occupation and OSS assignment evidence.","attempt_number":1,"research_agent_version":"before-oss-b848-v1"
+    },
+    {
+      "key":"herbert-w-schnetzky-b848","person_id":"c1231d59-eab2-59b2-b564-5a87ceb70c15","source_adapter":"manual_staged_protocol","query_text":"NARA page 414 row 4; Herbert W Schnetzky; MAJ; Artillery OCS roster; exact-name OSS; CIA, employer, occupation, institutional, newspaper, obituary and archival searches; Box 686","query_variant_type":"staged_identity_employment_archival_protocol_batch_848","started_at":"2026-10-16T14:00:00+00:00","completed_at":"2026-10-16T18:30:00+00:00","outcome":"no_result","sources_reviewed":6,"candidate_sources_rejected":4,"rejection_reasons":"The Artillery Officer Candidate School roster lacks a protected identifier or Box 686 bridge; other namesakes lacked OSS linkage.","research_notes":"The roster remains a private identity lead and provides no employer evidence. Access limitations were not treated as negative evidence.","next_action":"Review Box 686 to confirm identity, Army chronology and civilian background.","attempt_number":1,"research_agent_version":"before-oss-b848-v1"
+    },
+    {
+      "key":"solomon-schneyer-b848","person_id":"6b53cba0-b03b-562d-a54c-5830e8f908bc","source_adapter":"manual_staged_protocol","query_text":"NARA page 414 row 5; Solomon Schneyer; official Army bulk; 1941 Temple chiropody yearbook; exact-name OSS; CIA, employer, occupation, newspaper, obituary and archival searches; Box 686","query_variant_type":"staged_identity_employment_archival_protocol_batch_848","started_at":"2026-10-16T14:00:00+00:00","completed_at":"2026-10-16T18:30:00+00:00","outcome":"source_reviewed","sources_reviewed":7,"candidate_sources_rejected":3,"rejection_reasons":"The yearbook lacks a protected identifier or OSS link, so its student affiliation is qualified; no named employer was documented.","research_notes":"Official Army data confirms the indexed identity. The rare-name 1941 Temple student profile is published only as a medium-confidence prewar student affiliation.","next_action":"Review Box 686 to test the Temple linkage and establish the immediate pre-service affiliation.","attempt_number":1,"research_agent_version":"before-oss-b848-v1"
+    },
+    {
+      "key":"walter-o-schnyder-b848","person_id":"a7db35a9-093c-52ae-82aa-9558928b846f","source_adapter":"manual_staged_protocol","query_text":"NARA page 414 row 6; Walter O Schnyder; PVT; official Army bulk; exact-name OSS; CIA, employer, occupation, institutional, newspaper, obituary and archival searches; Box 686","query_variant_type":"staged_identity_employment_archival_protocol_batch_848","started_at":"2026-10-16T14:00:00+00:00","completed_at":"2026-10-16T18:30:00+00:00","outcome":"source_reviewed","sources_reviewed":5,"candidate_sources_rejected":3,"rejection_reasons":"Namesake sources lacked the protected identifier or employment chronology; the Army occupation code was not treated as an employer.","research_notes":"Official Army data establishes a high-confidence identity crosswalk only.","next_action":"Review Box 686 for civilian occupation and Army-to-OSS chronology.","attempt_number":1,"research_agent_version":"before-oss-b848-v1"
+    },
+    {
+      "key":"thomas-d-schocken-b848","person_id":"2c47e158-0bbe-5824-a09b-26d8173429f4","source_adapter":"manual_staged_protocol","query_text":"NARA page 414 row 7; Thomas D Schocken and Thomas Daniel Schocken; official OSS field reports and War Diary; Bilbao architecture; scholarly planning history; CIA, employer, occupation, newspaper, obituary and archival searches; Box 686","query_variant_type":"staged_identity_employment_archival_protocol_batch_848","started_at":"2026-10-16T14:00:00+00:00","completed_at":"2026-10-16T18:30:00+00:00","outcome":"source_reviewed","sources_reviewed":9,"candidate_sources_rejected":2,"rejection_reasons":"Later-career references and derivative biographies added no stronger immediate pre-OSS chronology; no unsupported employer inference was made.","research_notes":"Two official OSS records establish a high-confidence commissioned USNR identity. Municipal and scholarly sources document three distinct prewar professional affiliations, none proven immediate.","next_action":"Review Box 686 for the 1940-to-OSS chronology and immediate predecessor affiliation.","attempt_number":1,"research_agent_version":"before-oss-b848-v1"
+    },
+    {
+      "key":"eddie-w-schodt-b848","person_id":"4e1df07a-0cbc-5866-9b88-543840172f87","source_adapter":"manual_staged_protocol","query_text":"NARA page 414 row 8; Eddie W Schodt and Eddie William Schodt; University of Colorado; exact-name OSS; CIA, employer, occupation, institutional, newspaper, obituary and archival searches; Box 686","query_variant_type":"staged_identity_employment_archival_protocol_batch_848","started_at":"2026-10-16T14:00:00+00:00","completed_at":"2026-10-16T18:30:00+00:00","outcome":"source_reviewed","sources_reviewed":7,"candidate_sources_rejected":2,"rejection_reasons":"Postwar employment was excluded, and the 1940-1942 gap prevents an immediate-affiliation claim.","research_notes":"An authoritative university profile and corroborating obituary establish a high-confidence identity and two prewar student affiliations, not employers.","next_action":"Review Box 686 for occupation or employer between the 1940 master's degree and 1942 OSS service.","attempt_number":1,"research_agent_version":"before-oss-b848-v1"
+    },
+    {
+      "key":"eugene-schoemann-b848","person_id":"e5d33182-4089-58d6-9f53-9174e037ae72","source_adapter":"manual_staged_protocol","query_text":"NARA page 414 row 9; Eugene Schoemann; PVT; exact-name and spelling-variant OSS; CIA, employer, occupation, institutional, newspaper, obituary, directory and archival searches; Box 686","query_variant_type":"staged_identity_employment_archival_protocol_batch_848","started_at":"2026-10-16T14:00:00+00:00","completed_at":"2026-10-16T18:30:00+00:00","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":5,"rejection_reasons":"Spelling-variant and exact-name candidates lacked identifier, rank or direct OSS linkage.","research_notes":"No reliable identity or employer was established; access limitations were not treated as negative evidence.","next_action":"Review Box 686 for identity and pre-Army history.","attempt_number":1,"research_agent_version":"before-oss-b848-v1"
+    },
+    {
+      "key":"john-r-schoemer-b848","person_id":"cb250c15-143e-5b77-b166-66fc7f874ea8","source_adapter":"manual_staged_protocol","query_text":"NARA page 414 row 10; John R Schoemer and John R Schoemer Jr; official OSS personnel appointments; Hamilton College; Townley & Updike; CIA, employer, occupation, newspaper, obituary and archival searches; Box 686","query_variant_type":"staged_identity_employment_archival_protocol_batch_848","started_at":"2026-10-16T14:00:00+00:00","completed_at":"2026-10-16T18:30:00+00:00","outcome":"source_reviewed","sources_reviewed":7,"candidate_sources_rejected":2,"rejection_reasons":"Later firm-name variants and postwar references were not substituted for the historical employer; no direct recruitment or leave claim was found.","research_notes":"An official OSS appointment dated September 8, 1944 and Hamilton's 1939-plus Townley & Updike chronology support a high-confidence identity and employer pathway.","next_action":"Review Box 686 to confirm direct entry from the firm and formal affiliation status during service.","attempt_number":1,"research_agent_version":"before-oss-b848-v1"
+    },
+    {
+      "key":"herbert-v-schoen-b848","person_id":"90c75815-d07f-54aa-946f-4c8d7c09e602","source_adapter":"manual_staged_protocol","query_text":"NARA page 414 row 11; Herbert V Schoen; 1ST LT; exact-name and middle-name OSS; CIA, employer, occupation, military roster, institutional, newspaper, obituary and archival searches; Box 686","query_variant_type":"staged_identity_employment_archival_protocol_batch_848","started_at":"2026-10-16T14:00:00+00:00","completed_at":"2026-10-16T18:30:00+00:00","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":5,"rejection_reasons":"Officer candidates shared the name or initials but lacked a service identifier, OSS assignment or Box 686 bridge.","research_notes":"No reliable identity or employer was established. Access limitations were not treated as negative evidence.","next_action":"Review Box 686 for full identity, branch and pre-OSS assignment.","attempt_number":1,"research_agent_version":"before-oss-b848-v1"
+    },
+    {
+      "key":"robert-j-schoen-b848","person_id":"314b65db-796e-5a6d-85d1-ee0deb5fb945","source_adapter":"manual_staged_protocol","query_text":"NARA page 414 row 12; Robert J Schoen; official Army bulk; exact-name OSS; CIA, employer, occupation, institutional, newspaper, obituary and archival searches; Box 686","query_variant_type":"staged_identity_employment_archival_protocol_batch_848","started_at":"2026-10-16T14:00:00+00:00","completed_at":"2026-10-16T18:30:00+00:00","outcome":"source_reviewed","sources_reviewed":5,"candidate_sources_rejected":4,"rejection_reasons":"Common-name candidates lacked the protected identifier or a reliable OSS and employment chronology; Army codes were not treated as employers.","research_notes":"Official Army data supplies a high-confidence identity crosswalk only.","next_action":"Review Box 686 for rank, pre-Army occupation and OSS assignment.","attempt_number":1,"research_agent_version":"before-oss-b848-v1"
+    },
+    {
+      "key":"john-f-schoenack-b848","person_id":"c7e2cd6f-ff48-599e-a238-cfaef19b5c03","source_adapter":"manual_staged_protocol","query_text":"NARA page 414 row 13; John F Schoenack; 2ND LT; Coast Artillery candidate; exact-name OSS; CIA, employer, occupation, institutional, newspaper, obituary and archival searches; Box 686","query_variant_type":"staged_identity_employment_archival_protocol_batch_848","started_at":"2026-10-16T14:00:00+00:00","completed_at":"2026-10-16T18:30:00+00:00","outcome":"no_result","sources_reviewed":6,"candidate_sources_rejected":4,"rejection_reasons":"A genealogy-based Coast Artillery transcription lacks a direct identifier or OSS bridge; other candidates were uncorroborated.","research_notes":"The Coast Artillery item remains a rejected or unaccepted lead and provides no employer evidence.","next_action":"Review Box 686 to confirm identity and pre-commission chronology.","attempt_number":1,"research_agent_version":"before-oss-b848-v1"
+    },
+    {
+      "key":"jerry-schoenbaum-b848","person_id":"73aa55d7-c4e7-555d-b229-47d89bf37c60","source_adapter":"manual_staged_protocol","query_text":"NARA page 414 row 14; Jerry Schoenbaum; PVT; official Army bulk; exact-name OSS; wartime roster; employer, occupation, institutional, newspaper, obituary and archival searches; Box 686","query_variant_type":"staged_identity_employment_archival_protocol_batch_848","started_at":"2026-10-16T14:00:00+00:00","completed_at":"2026-10-16T18:30:00+00:00","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":4,"rejection_reasons":"Postwar music-executive references were not sufficiently bridged and were temporally irrelevant; the wartime roster added no employer.","research_notes":"Official Army data establishes a high-confidence identity crosswalk only. No pre-OSS employer was found.","next_action":"Review Box 686 for pre-Army occupation and OSS chronology.","attempt_number":1,"research_agent_version":"before-oss-b848-v1"
+    },
+    {
+      "key":"richard-t-schoenberger-b848","person_id":"01af2a86-6ad2-5882-bd2b-fa9abaf5bbbb","source_adapter":"manual_staged_protocol","query_text":"NARA page 414 row 15; Richard T Schoenberger; official Army bulk; Quartermaster Corps; OSS special duty California; employer, occupation, institutional, newspaper, obituary and archival searches; Box 686","query_variant_type":"staged_identity_employment_archival_protocol_batch_848","started_at":"2026-10-16T14:00:00+00:00","completed_at":"2026-10-16T18:30:00+00:00","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":2,"rejection_reasons":"Postwar Sears employment was excluded; no source stated the Army-to-OSS transfer date or a prewar civilian employer.","research_notes":"Official Army data confirms identity. A reputable obituary supports a qualified Quartermaster Corps-to-OSS military pathway.","next_action":"Review Box 686 for the transfer date and last civilian employer.","attempt_number":1,"research_agent_version":"before-oss-b848-v1"
+    },
+    {
+      "key":"marion-r-schoenfeld-b848","person_id":"6742852b-3539-5f84-a687-3708b2b6238d","source_adapter":"manual_staged_protocol","query_text":"NARA page 414 row 16; Marion R Schoenfeld; CAF-4; exact-name OSS; CIA, employer, occupation, institutional, newspaper, obituary, directory and archival searches; Box 686","query_variant_type":"staged_identity_employment_archival_protocol_batch_848","started_at":"2026-10-16T14:00:00+00:00","completed_at":"2026-10-16T18:30:00+00:00","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":5,"rejection_reasons":"Namesake candidates lacked a civilian-grade, identifier, OSS assignment or Box 686 connection.","research_notes":"No reliable identity or employer was established; the CAF grade was not converted into an occupation.","next_action":"Review Box 686 for identity, civilian grade and prior employment.","attempt_number":1,"research_agent_version":"before-oss-b848-v1"
+    },
+    {
+      "key":"milton-c-schoenheim-b848","person_id":"4ae3b426-c5e4-5991-8742-9185838baec8","source_adapter":"manual_staged_protocol","query_text":"NARA page 414 row 17; Milton C Schoenheim; official Army bulk; exact-name OSS; CIA, employer, occupation, institutional, newspaper, obituary and archival searches; Box 686","query_variant_type":"staged_identity_employment_archival_protocol_batch_848","started_at":"2026-10-16T14:00:00+00:00","completed_at":"2026-10-16T18:30:00+00:00","outcome":"source_reviewed","sources_reviewed":5,"candidate_sources_rejected":3,"rejection_reasons":"Other references lacked the protected identifier or a documented employment chronology; Army codes were not treated as employers.","research_notes":"Official Army data establishes a high-confidence identity crosswalk only.","next_action":"Review Box 686 for pre-Army occupation and OSS assignment.","attempt_number":1,"research_agent_version":"before-oss-b848-v1"
+    },
+    {
+      "key":"elmer-h-schoening-b848","person_id":"b27d8d4c-7e77-549b-9507-a9347f63adb0","source_adapter":"manual_staged_protocol","query_text":"NARA page 414 row 18; Elmer H Schoening; exact-name OSS; CIA, employer, occupation, institutional, newspaper, obituary, directory and archival searches; Box 686","query_variant_type":"staged_identity_employment_archival_protocol_batch_848","started_at":"2026-10-16T14:00:00+00:00","completed_at":"2026-10-16T18:30:00+00:00","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":5,"rejection_reasons":"Exact-name and spelling-variant candidates lacked a protected identifier, OSS context or Box 686 linkage.","research_notes":"No reliable identity, employer or occupation was established.","next_action":"Review Box 686 to identify Elmer H. Schoening and his pre-OSS affiliation.","attempt_number":1,"research_agent_version":"before-oss-b848-v1"
+    },
+    {
+      "key":"william-a-schoepper-b848","person_id":"dedcadfe-9052-509b-975c-7c8e9cb92bb9","source_adapter":"manual_staged_protocol","query_text":"NARA page 414 row 19; William A Schoepper; S/SGT; official Army bulk; exact-name OSS; CIA, employer, occupation, institutional, newspaper, obituary and archival searches; Box 686","query_variant_type":"staged_identity_employment_archival_protocol_batch_848","started_at":"2026-10-16T14:00:00+00:00","completed_at":"2026-10-16T18:30:00+00:00","outcome":"source_reviewed","sources_reviewed":5,"candidate_sources_rejected":3,"rejection_reasons":"Namesake results lacked the protected identifier or a pre-OSS employment chronology; Army occupation codes were not used as employers.","research_notes":"Official Army data establishes a high-confidence identity crosswalk only.","next_action":"Review Box 686 for pre-Army occupation and Army-to-OSS chronology.","attempt_number":1,"research_agent_version":"before-oss-b848-v1"
+    },
+    {
+      "key":"ralph-a-schoff-b848","person_id":"5abbf57e-30a6-58bd-a7d1-6dde7ff5b6a0","source_adapter":"manual_staged_protocol","query_text":"NARA page 414 row 20; Ralph A Schoff; exact-name OSS; CIA, employer, occupation, institutional, newspaper, obituary, directory and archival searches; Box 686","query_variant_type":"staged_identity_employment_archival_protocol_batch_848","started_at":"2026-10-16T14:00:00+00:00","completed_at":"2026-10-16T18:30:00+00:00","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":5,"rejection_reasons":"Multiple candidates lacked a service identifier, OSS assignment or Box 686 connection.","research_notes":"No reliable identity or employer was established; access limitations were not treated as negative evidence.","next_action":"Review Box 686 for identity and pre-OSS chronology.","attempt_number":1,"research_agent_version":"before-oss-b848-v1"
+    },
+    {
+      "key":"donald-r-schofield-b848","person_id":"75ea5d89-25df-5f47-b92b-cb9deb5ed521","source_adapter":"manual_staged_protocol","query_text":"NARA page 414 row 21; Donald R Schofield; PVT; official Army bulk; exact-name OSS; Navy casualty candidate; CIA, employer, occupation, newspaper, obituary and archival searches; Box 686","query_variant_type":"staged_identity_employment_archival_protocol_batch_848","started_at":"2026-10-16T14:00:00+00:00","completed_at":"2026-10-16T18:30:00+00:00","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":4,"rejection_reasons":"A Navy casualty namesake conflicts with the indexed Army private and protected identifier; other candidates lacked an employment chronology.","research_notes":"Official Army data establishes a high-confidence identity crosswalk. No reliable pre-OSS employer was found.","next_action":"Review Box 686 for pre-Army occupation and OSS assignment.","attempt_number":1,"research_agent_version":"before-oss-b848-v1"
+    },
+    {
+      "key":"george-schofield-b848","person_id":"b4b63d34-b449-503a-ae5e-6bd8ee42cb45","source_adapter":"manual_staged_protocol","query_text":"NARA page 414 row 22; George Schofield; CPL; official Army bulk; exact-name OSS; CIA, employer, occupation, institutional, newspaper, obituary and archival searches; Box 686","query_variant_type":"staged_identity_employment_archival_protocol_batch_848","started_at":"2026-10-16T14:00:00+00:00","completed_at":"2026-10-16T18:30:00+00:00","outcome":"source_reviewed","sources_reviewed":5,"candidate_sources_rejected":5,"rejection_reasons":"Common-name candidates lacked the protected identifier or a reliable OSS and employment chronology; Army codes were not treated as employers.","research_notes":"Official Army data establishes a high-confidence identity crosswalk only.","next_action":"Review Box 686 for full middle name, pre-Army occupation and OSS assignment.","attempt_number":1,"research_agent_version":"before-oss-b848-v1"
+    },
+    {
+      "key":"la-vonne-l-schofield-b848","person_id":"eef09759-80e1-52fb-bb9c-e4a612009a22","source_adapter":"manual_staged_protocol","query_text":"NARA page 414 row 23; LA Vonne L Schofield; CAF-5; LaVonne and La Vonne variants; exact-name OSS; CIA, employer, occupation, institutional, newspaper, obituary, directory and archival searches; Box 686","query_variant_type":"staged_identity_employment_archival_protocol_batch_848","started_at":"2026-10-16T14:00:00+00:00","completed_at":"2026-10-16T18:30:00+00:00","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":5,"rejection_reasons":"Name-spacing and spelling-variant candidates lacked a civilian-grade, identifier, OSS assignment or Box 686 connection.","research_notes":"No reliable identity or employer was established; the CAF grade was not converted into an occupation.","next_action":"Review Box 686 to confirm the indexed name and prior employment.","attempt_number":1,"research_agent_version":"before-oss-b848-v1"
+    }
+  ]
+}
