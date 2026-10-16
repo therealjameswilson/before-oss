@@ -5333,6 +5333,59 @@ full copyrighted page or access-challenge body is stored or published. The
 durable evidence is in
 `research/evidence-page418-scott-seeman-review_batch-856_2026-10-16.json`.
 
+## Page 418 Seerley through Seitelman review, Batch 857
+
+The 23 contiguous source rows from Catherine C Seerley through Max Seitelman
+were checked against the reviewed page 418 table and retained as separate
+immutable records. The two Robert N Seiple rows carry different protected
+identifiers and remain separate person entities in an opaque possible-duplicate
+group. Names, printed ranks, Boxes 694-695 and archive location
+230/86/40/04 remain recoverable; public outputs mask full identifiers.
+
+The checksum-verified NARA Army merged file was searched transiently under its
+official fixed-width documentation. Nonshared private identifiers support
+identity bridges for Alf Seierstad, Allen J Seilheimer, Francis Seidler, Guy E
+Seiber, Harry Segen, Herbert H Seidell, Manuel Segal, Maurice J Segal, Max
+Seitelman, one Robert N Seiple row and Steven F Segeti Jr. Army entry-grade and
+occupation codes were not converted into OSS ranks, employers or affiliations.
+
+A contemporary May 1943 radio-industry article places Manuel Segal among
+National Broadcasting sound engineers. Lawrence C. Soley's scholarly history
+independently identifies the same uncommon name and specialty on the OSS
+Soldatensender staff. Together with later official Army entry, these sources
+support NBC as Segal's strongly date-bounded last civilian employer, not as an
+explicit immediate predecessor. Brian Masaru Hayashi's scholarship explicitly
+places Fumiko Segawa among the WAAC privates recruited from the Third Training
+Center at Fort Oglethorpe; that claim is modeled as a military assignment, not
+employment.
+
+A February 1941 *Sozialistische Mitteilungen* supplement documents Gerhart
+Seger's Neue Volkszeitung editorship in New York. It is earlier prewar
+employment, not an immediate-affiliation claim. Florian Traussnig's documented
+biographical chronology, including source notes to the RG 226 personnel file,
+confirms Francis Seidler as Franz von Seidler. It supports the 7th Photographic
+Intelligence Detachment of the Army Air Forces as his explicit immediate
+pre-OSS military assignment and the Austrian Federal Chancellery press service
+as an earlier government assignment. Unnamed Washington journalism is not
+converted into a named employer.
+
+University of Bath scholarship and Terence Renaud's source-linked research
+support David F. Seiferheld's OSS identity, textile-executive occupation and
+treasurer roles with American Friends of German Freedom and the Emergency
+Rescue Committee. The two organizations are published only as medium-confidence
+professional affiliations; neither is assumed to be paid employment. An OSS
+Operational Groups roster corroborates Steven F. Segeti Jr.'s Greek Group VII
+identity but supplies no pre-OSS pathway.
+
+CIA discovery was closed by the site's robots policy, and bounded Library of
+Congress checks produced no usable result or exhausted retries. These are
+recorded as access limitations, not evidence that a prior affiliation did not
+exist. No authenticated Catalog request, credential, raw API response, full
+private identifier, raw Army row, unsupported employer, unrelated namesake
+biography or full copyrighted page is stored or published. The durable evidence
+is in
+`research/evidence-page418-seerley-seitelman-review_batch-857_2026-10-16.json`.
+
 ## Official reference material
 
 - NARA OSS personnel records:

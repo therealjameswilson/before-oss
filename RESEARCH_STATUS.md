@@ -1,5 +1,32 @@
 # Research status
 
+Batch 857 completed PDF page 418, rows 24-46, from **Catherine C Seerley**
+through **Max Seitelman**, preserving all 23 printed rows as separate source
+records linked to 23 active person entities. All 23 have saved terminal
+research outcomes. Contemporary radio evidence supports **Manuel Segal**'s
+National Broadcasting Company sound-effects work as his last civilian
+employment before Army service, without claiming NBC immediately preceded
+OSS. Scholarly evidence documents **Fumiko Segawa**'s explicit WAAC-to-OSS
+pathway and confirms **Francis Seidler** as Franz von Seidler, whose immediate
+pre-OSS assignment was the Army Air Forces' 7th Photographic Intelligence
+Detachment. **Gerhart Seger**'s Neue Volkszeitung editorship remains earlier
+documented employment, while **David Seiferheld**'s nonprofit treasurer roles
+and generic textile-executive occupation remain qualified rather than invented
+employers. Eleven official Army crosswalks support identity decisions only.
+The two Robert N Seiple source rows remain separate in one opaque
+possible-duplicate group because their protected identifiers differ.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **12,680/23,937 (52.9724%)**;
+verified-employer coverage is **418/23,937 (1.7463%)**;
+verified-affiliation coverage is **920/23,937 (3.8434%)**; archival-review
+coverage is **11,147/23,937 (46.5681%)**. There are **11,252** `not_started`
+people, **571** possible-duplicate groups and **446** conflicts. The public
+projection contains **2,846** affiliations, **1,062** organizations, **5,252**
+sources and **7,669** published claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 419, row 1, **Albert B
+Seitz**. See `research/batch-857-progress.md` for the source-by-source audit.
+
 Batch 856 completed PDF page 418, rows 1-23, from **Robert Scott** through
 **Helen Seeman**, preserving all 23 printed rows as separate source records
 linked to 23 active person entities. All 23 have saved terminal research
