@@ -1,5 +1,40 @@
 # Research status
 
+Batch 842 completed PDF page 411, rows 1-23, from **Edward F Scannell**
+through **Leland L Schaefer**, preserving all 23 printed rows as separate
+source records linked to 23 active person entities. The printed rows were
+visually checked at 180 dpi. All 23 assigned people have saved, reviewable
+terminal outcomes. Official Illinois resolutions and a University of Illinois
+Springfield oral history identify **Anthony Scariano** at high confidence and
+document George Washington University through his 1942 graduation. The
+university is published only as qualified student status—not an employer or an
+unproved immediate predecessor to OSS. Official Army data plus an obituary
+support **Chester A Scerra** at high confidence, and a Washington Post obituary
+supports **Martin Schadi** at high confidence; neither source supplies a
+reliable prewar employer. Seven official Army candidates were accepted for
+identity only without publishing identifiers or coded occupations. Raymond B
+Scantz/Schantz and Pantelli/Pateli Scaravelaci remain separate in two visible
+possible-duplicate groups pending review of Boxes 680-681. The later Schantz
+row on page 411 was cross-referenced for duplicate review but remains outside
+the assigned Batch 842 cohort. NARA Catalog work remained disabled pending safe
+credential rotation; CIA and repeated LoC access failures were recorded as
+source limitations, not negative historical evidence.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,938** active
+people. Research-attempt coverage is **12,343/23,938 (51.5624%)**;
+verified-employer coverage is **404/23,938 (1.6877%)**;
+verified-affiliation coverage is **891/23,938 (3.7221%)**; archival-review
+coverage is **10,809/23,938 (45.1541%)**. There are **11,589** `not_started`
+people, **558** possible-duplicate groups, and **439** conflicts. SQLite
+retains **25,029** research attempts or plans and **7,654** claims: 1,588
+confirmed, 3,824 high, 1,668 medium, 202 low, 370 conflicting, and two
+unresolved. It has **6,360** citation records and **3,385** unique source
+documents. The public projection has **2,788** affiliations, **1,026**
+organizations, **5,131** sources, and **7,446** claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 411, row
+24, **Mack J Schaefer**. See `research/batch-842-progress.md` for the
+source-by-source audit.
+
 Batch 841 completed PDF page 410, rows 24-46, from **Thomas N Savino** through
 **Frank Scanlin Jr.**, preserving all 23 printed rows as separate source
 records linked to 23 active person entities. The printed rows were visually
