@@ -96,7 +96,10 @@ foreign-key check returned no rows, and integrity check returned `ok`.
 
 ## Publication status
 
-Publication is pending commit, push, GitHub Actions completion, and immutable
-unauthenticated verification. The previously published Batch 841 release
-remains live at https://therealjameswilson.github.io/before-oss/ until those
-steps succeed.
+GitHub Pages run 38878133722 published content commit
+`69325d9101894dbccc3c5a1d4dd4105b49f08098` successfully, and Test run
+38878134052 passed. The immutable unauthenticated verifier matched all 67
+public assets (114,454,553 bytes), the release manifest, eight core routes, 35
+source-register pages, and all 24 directly affected profile URLs (the 23-person
+assignment plus the later Schantz duplicate cross-reference). Public URL:
+https://therealjameswilson.github.io/before-oss/.
