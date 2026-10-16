@@ -105,7 +105,16 @@ Two production builds produced the identical 25,106-file tree hash
 
 ## Publication status
 
-The reviewed Batch 853 release is ready for commit and GitHub Pages deployment.
-Publication is not claimed until the CI workflows finish and the unauthenticated
-live manifest, routes, statistics and representative profile content match the
-reviewed release.
+Published from content commit
+`7fdcf2ffbd8b7a247e07d34509c7a8ed70843ae6`. GitHub Pages run
+`38932708029` and test run `38932708041` completed successfully. The
+unauthenticated immutable verifier checked all 67 manifested assets
+(115,587,992 bytes), eight core routes, 35 source-register pages and 24 direct
+profile routes (the 23 Batch 853 people plus the updated earlier Sanford
+Schwars profile) at `https://therealjameswilson.github.io/before-oss/`. The
+live manifest SHA-256 is
+`51849904d784ef42a3da075fa216a63e9bd7100f18b5c9fa942f06af4c631112`,
+matching the reviewed release. Live statistics report 12,590
+research-attempted people, 413 verified-employer profiles, 911
+verified-affiliation profiles and 11,055 people with archival-review
+assessment. The live oil-company category also returned HTTP 200.

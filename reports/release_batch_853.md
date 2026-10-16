@@ -61,7 +61,16 @@ Date: 2026-10-16
 
 ## Publication state
 
-Ready for commit and deployment. Publication will be recorded only after the
-GitHub Pages and test workflows succeed and the unauthenticated immutable
-verifier confirms the live manifest, all public assets, core routes,
-source-register pages and the 23 Batch 853 profile routes.
+Published from content commit
+`7fdcf2ffbd8b7a247e07d34509c7a8ed70843ae6`. GitHub Pages run
+`38932708029` and test run `38932708041` completed successfully. The
+unauthenticated immutable verifier checked all 67 manifested assets
+(115,587,992 bytes), eight core routes, 35 source-register pages and 24 direct
+profile routes (the 23 Batch 853 people plus the updated earlier Sanford
+Schwars profile) at `https://therealjameswilson.github.io/before-oss/`. The
+live manifest SHA-256 is
+`51849904d784ef42a3da075fa216a63e9bd7100f18b5c9fa942f06af4c631112`,
+matching the reviewed release. Live statistics report generation time
+`2026-10-16T19:42:00Z`, 12,590 research-attempted people, 413 verified-employer
+profiles, 911 verified-affiliation profiles and 11,055 people with
+archival-review assessment. The live oil-company category returned HTTP 200.
