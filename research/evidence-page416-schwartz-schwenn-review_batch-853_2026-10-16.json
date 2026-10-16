@@ -1,0 +1,1342 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 853 archival research review",
+  "sources": [
+    {
+      "key": "nara-index-b853",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 690-691",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 416, rows 24-46; visually checked against a 180 dpi page render",
+      "access_date": "2026-10-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Full service numbers are retained only in the private database and excluded from public outputs."
+    },
+    {
+      "key": "army-bulk-b853",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Department of Defense; Department of the Army",
+      "repository_publisher": "National Archives and Records Administration",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; twelve protected-identifier candidate rows reviewed for Batch 853",
+      "access_date": "2026-10-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "rights_notes": "Eleven candidate rows representing ten indexed people were accepted as identity bridges and one material name conflict was rejected. Full identifiers, raw rows and occupation codes are not published."
+    },
+    {
+      "key": "assessment-men-b853",
+      "stable_url": "https://wellcomecollection.org/works/z9va5p3c",
+      "archival_identifier": "Wellcome Collection K41420; digital item b32174317",
+      "title": "Assessment of Men: Selection of Personnel for the Office of Strategic Services",
+      "author_creator": "Office of Strategic Services Assessment Staff",
+      "repository_publisher": "Rinehart; digitized by Wellcome Collection",
+      "publication_record_date": "1948",
+      "locator": "Staff Members, printed page vi (digital PDF page 13): Bert D. Schwartz and Bernard R. Schweid",
+      "access_date": "2026-10-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "Wellcome Collection",
+      "rights_notes": "Public Domain Mark. The staff list confirms OSS assessment work and grade, but supplies no parenthetical pre-government institution for either man."
+    },
+    {
+      "key": "aha-klarman-b853",
+      "stable_url": "https://www.aha.org/system/files/media/file/2022/05/Klarman.pdf",
+      "title": "Herbert Elias Klarman: In First Person, An Oral History",
+      "author_creator": "Herbert Elias Klarman; interviewed by Duncan Neuhauser",
+      "repository_publisher": "American Hospital Association and Hospital Research and Educational Trust",
+      "publication_record_date": "1997",
+      "locator": "PDF page 32, oral-history page 12: Harry Schwartz at the Office of Strategic Services",
+      "access_date": "2026-10-16",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Hospital Administration Oral History Collection",
+      "rights_notes": "Only a short supporting excerpt and project-authored paraphrase are retained."
+    },
+    {
+      "key": "nlm-klarman-b853",
+      "stable_url": "https://digirepo.nlm.nih.gov/master/oralhist/101548136X19/101548136X19.pdf",
+      "title": "Interview with Herbert Klarman",
+      "author_creator": "Herbert Klarman; interviewer Edward D. Berkowitz",
+      "repository_publisher": "U.S. National Library of Medicine Digital Collections",
+      "publication_record_date": "1998-06-10",
+      "locator": "Interview pages 8-9: Harry Schwartz, Columbia Pulitzer scholar, present at OSS",
+      "access_date": "2026-10-16",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "National Library of Medicine Oral Histories",
+      "rights_notes": "Only citation metadata and a short supporting excerpt are retained."
+    },
+    {
+      "key": "weizmann-schwartz-b853",
+      "stable_url": "https://ecwis.org/compass/vera-and-dr-john-schwartz/",
+      "title": "Vera and Dr. John Schwartz",
+      "author_creator": "Tamar Morad",
+      "repository_publisher": "European Committee of the Weizmann Institute of Science",
+      "publication_record_date": "2021-11-02",
+      "locator": "Continuity and legacy section: John Schwartz's economist father was recruited by OSS and later taught at Syracuse and joined The New York Times editorial board",
+      "access_date": "2026-10-16",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "The article corroborates the family and career chain but does not identify an Army service number."
+    },
+    {
+      "key": "nmi-houseboat-b853",
+      "stable_url": "https://www.upn.gov.sk/en/zacek-pavel-target-area-slovakia-preparation-and-deployment-of-ossmedto-operational-teams-in-september-and-october-1944/",
+      "title": "Target area: Slovakia. Preparation and deployment of OSS/MEDTO operational teams in September and October 1944",
+      "author_creator": "Pavel Zacek",
+      "repository_publisher": "Nation's Memory Institute, Slovak Republic",
+      "publication_record_date": "2025-07-24",
+      "locator": "HOUSEBOAT team description naming John Schwartz and Charles Heller",
+      "access_date": "2026-10-16",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Used to corroborate the OSS assignment after a protected-identifier bridge; no operational detail beyond what is necessary for identity resolution is republished."
+    },
+    {
+      "key": "angleton-transcription-b853",
+      "stable_url": "https://wartimearchive.com/document/james-jesus-angleton-oss-personnel-file",
+      "title": "James Jesus Angleton OSS Personnel File",
+      "repository_publisher": "Wartime Archive",
+      "locator": "Transcribed personnel-file page naming Corporal John Schwartz in the OSS Washington-to-Germany assignment sequence",
+      "access_date": "2026-10-16",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "Transcribed OSS personnel-file material",
+      "rights_notes": "The transcription supplied a protected identifier used only in the private comparison. The identifier and raw transcription are not republished."
+    },
+    {
+      "key": "cambridge-sanford-schwarz-b853",
+      "stable_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/46A6B1B12CCF845B90A3D40833DE4DB2/S0030826900623123a.pdf/div-class-title-jasper-berry-shannon-div.pdf",
+      "archival_identifier": "DOI 10.1017/S0030826900623123",
+      "title": "People in Political Science: Sanford Schwarz",
+      "author_creator": "Oscar Schachter",
+      "repository_publisher": "PS: Political Science & Politics; Cambridge University Press",
+      "publication_record_date": "1985",
+      "locator": "Winter 1985, printed page 114: Sanford Schwarz obituary",
+      "access_date": "2026-10-16",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "The adjacent right-column University of Kentucky and Transylvania University chronology belongs to Jasper Berry Shannon and is explicitly excluded from Schwarz's record."
+    },
+    {
+      "key": "fbi-myrtil-schwartz-b853",
+      "stable_url": "https://vault.fbi.gov/rosenberg-case/klaus-fuchs/Klaus%20Fuchs%20Part%2079",
+      "title": "Klaus Fuchs Part 79",
+      "author_creator": "Federal Bureau of Investigation",
+      "repository_publisher": "Federal Bureau of Investigation, The Vault",
+      "locator": "PDF pages 5-6: Immigration and Naturalization Service manifest summary for Myrtil Schwartz, March 1945",
+      "access_date": "2026-10-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "FBI Records: The Vault, Rosenberg Case / Klaus Fuchs",
+      "rights_notes": "The manifest summary establishes a rare-name French government-official candidate but does not establish OSS service or a pre-OSS employer."
+    },
+    {
+      "key": "aac-myrtil-schwartz-b853",
+      "stable_url": "https://publications.americanalpineclub.org/articles/12194315902/Mont-Blanc",
+      "title": "Mont Blanc",
+      "repository_publisher": "American Alpine Journal; American Alpine Club",
+      "publication_record_date": "1943",
+      "locator": "Account of John Barrymore's September 1, 1921 ascent with M. Myrtil Schwartz of Strasbourg",
+      "access_date": "2026-10-16",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Used as contemporary corroboration of the rare name, Strasbourg connection and prewar mountaineering activity."
+    },
+    {
+      "key": "ddb-myrtil-schwartz-b853",
+      "stable_url": "https://www.deutsche-digitale-bibliothek.de/person/gnd/12729063X",
+      "archival_identifier": "GND 12729063X",
+      "title": "Myrtil Schwartz",
+      "repository_publisher": "Deutsche Digitale Bibliothek",
+      "locator": "Authority record and works entry for Drei Giganten des Hochgebirges",
+      "access_date": "2026-10-16",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Authority and bibliographic metadata only; no full work is stored or republished."
+    },
+    {
+      "key": "alde-myrtil-schwartz-b853",
+      "stable_url": "https://alde.fr/fr/livres-anciens/montagne/vers-l-ideal-par-la-montagne-ed940",
+      "title": "Vers l'ideal par la montagne",
+      "repository_publisher": "Alde",
+      "publication_record_date": "2025",
+      "locator": "Lot 236 description of Myrtil Schwartz's 1924 and 1931 mountaineering books and wartime emigration",
+      "access_date": "2026-10-16",
+      "source_quality": "D_correlative_or_secondary",
+      "rights_notes": "Auction-catalog metadata is used only with the institutional authority record and contemporary American Alpine Journal corroboration."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "us-mexican-claims-commission-b853",
+      "canonical_name": "United States-Mexican Claims Commission",
+      "historical_name": "U.S. Mexican Claims Commission",
+      "aliases": [
+        "United States-Mexico Claims Commission"
+      ],
+      "organization_type": "international claims commission",
+      "sector": "federal_government",
+      "country": "United States and Mexico",
+      "active_dates": "Interwar period",
+      "normalization_notes": "The obituary's historical wording is preserved. No modern successor is substituted."
+    },
+    {
+      "key": "carnegie-endowment-b853",
+      "canonical_name": "Carnegie Endowment for International Peace",
+      "historical_name": "Carnegie Endowment for International Peace",
+      "aliases": [
+        "Carnegie Endowment"
+      ],
+      "organization_type": "nonprofit research institution",
+      "sector": "academia_and_research",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "active_dates": "Founded 1910",
+      "normalization_notes": "Schwarz's source wording says he assisted James Shotwell at the Endowment; the relationship is not silently upgraded to salaried employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "sanford-schwarz-claims-commission-b853",
+      "person_id": "a9a10897-8506-56a8-9318-88bfaf75f8c3",
+      "organization_key": "us-mexican-claims-commission-b853",
+      "organization_name_as_found": "U.S. Mexican Claims Commission",
+      "relationship_type": "government_assignment",
+      "date_precision": "During the 1930s; exact dates and role were not stated",
+      "country": "United States and Mexico",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The obituary says Schwarz worked first for the commission during the 1930s. It does not state that this immediately preceded OSS or identify a salaried title."
+    },
+    {
+      "key": "sanford-schwarz-carnegie-b853",
+      "person_id": "a9a10897-8506-56a8-9318-88bfaf75f8c3",
+      "organization_key": "carnegie-endowment-b853",
+      "organization_name_as_found": "Carnegie Endowment for International Peace",
+      "role_title": "assistant to James T. Shotwell",
+      "relationship_type": "professional_affiliation",
+      "date_precision": "During the 1930s, after the claims-commission work; exact dates not stated",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The source says Schwarz assisted Shotwell on a history of World War I. Because it does not establish payroll status, this remains a professional affiliation rather than an employer claim."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-adolf-schwartz-b853",
+      "person_id": "d630b25d-c7ab-5600-8f22-dcbf3ff32694",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record is a high-confidence identity match for indexed Adolf Schwartz.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from exact-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "Identity crosswalk only; the Army record does not establish a pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army entry-grade and occupation fields are not converted into OSS rank, named employer or affiliation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b853",
+          "locator_override": "PDF page 416, row 24; PVT; Box 690"
+        },
+        {
+          "source_key": "army-bulk-b853",
+          "locator_override": "Exact-name and nonshared protected-identifier comparison"
+        }
+      ]
+    },
+    {
+      "key": "identity-bert-d-schwartz-b853",
+      "person_id": "cf2008c6-45ca-512d-a71f-20d5d5971741",
+      "claim_type": "identity",
+      "claim_text": "Indexed Bert D. Schwartz is confirmed as the T/4 listed among the OSS assessment staff.",
+      "evidence_excerpt": "Bert D. Schwartz, B.S., T/4 S",
+      "evidence_paraphrase": "The 1948 OSS staff list supplies the same uncommon full name and grade, while the official Army record shares the protected identifier.",
+      "identity_match_assessment": "Confirmed by exact full-name, grade and protected-identifier agreement across the index, Army record and direct OSS publication.",
+      "temporal_assessment": "The staff list confirms wartime OSS assessment work but does not name a pre-government institution for Schwartz.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The B.S. degree is not treated as an employer or institution. The staff-list code S is preserved only as OSS assignment context.",
+      "sources": [
+        {
+          "source_key": "nara-index-b853",
+          "locator_override": "PDF page 416, row 25; T 4; Box 690"
+        },
+        {
+          "source_key": "army-bulk-b853",
+          "locator_override": "Exact-name and nonshared protected-identifier comparison"
+        },
+        {
+          "source_key": "assessment-men-b853",
+          "locator_override": "Staff Members, printed page vi; Bert D. Schwartz entry"
+        }
+      ]
+    },
+    {
+      "key": "identity-harry-schwartz-officer-b853",
+      "person_id": "82395afc-fdfa-57a3-b1a9-d75b8f3368cb",
+      "claim_type": "identity",
+      "claim_text": "The commissioned Harry Schwartz row is a probable match to the Columbia-trained economist later associated with The New York Times.",
+      "evidence_excerpt": "Harry Schwartz was there from my college days, also a Pulitzer scholar.",
+      "evidence_paraphrase": "Two institutional oral-history versions place Columbia Pulitzer scholar Harry Schwartz at OSS; a Weizmann Institute profile independently links the same economist and later newspaper career to OSS recruitment.",
+      "identity_match_assessment": "Probable, not confirmed: the name, commissioned grade and documented OSS economist career align, but the sources do not supply the indexed officer number and an adjacent enlisted namesake remains separate.",
+      "temporal_assessment": "The sources establish OSS presence or recruitment but do not reliably identify the immediate pre-OSS employer for this indexed row.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The adjacent T 5 Harry Schwartz row has a distinct protected identifier and is not merged. Box 691 must confirm which row belongs to the economist.",
+      "sources": [
+        {
+          "source_key": "nara-index-b853",
+          "locator_override": "PDF page 416, row 31; 2ND LT; Box 691"
+        },
+        {
+          "source_key": "aha-klarman-b853",
+          "locator_override": "PDF page 32, oral-history page 12"
+        },
+        {
+          "source_key": "nlm-klarman-b853",
+          "locator_override": "Interview pages 8-9"
+        },
+        {
+          "source_key": "weizmann-schwartz-b853",
+          "locator_override": "Continuity and legacy section"
+        }
+      ]
+    },
+    {
+      "key": "identity-harry-schwartz-enlisted-b853",
+      "person_id": "0bb7195f-21ce-5420-8215-d22e51e3f323",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record is a high-confidence identity match for the enlisted Harry Schwartz row.",
+      "evidence_paraphrase": "The indexed name and a nonshared protected identifier agree; the adjacent commissioned Harry Schwartz row carries a different identifier.",
+      "identity_match_assessment": "High confidence for this source row from protected-identifier agreement, while the two Harry Schwartz entities remain separate.",
+      "temporal_assessment": "Identity crosswalk only; no pre-OSS employer or assignment is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No career evidence for the commissioned namesake is assigned to this enlisted row.",
+      "sources": [
+        {
+          "source_key": "nara-index-b853",
+          "locator_override": "PDF page 416, row 32; T 5; Box 691"
+        },
+        {
+          "source_key": "army-bulk-b853",
+          "locator_override": "Exact indexed-name and nonshared protected-identifier comparison"
+        }
+      ]
+    },
+    {
+      "key": "identity-irving-s-schwartz-b853",
+      "person_id": "60d2b1f2-c4ae-5194-ad59-b2db06fe23c7",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record is a high-confidence identity match for indexed Irving S. Schwartz.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from exact full-name and protected-identifier agreement.",
+      "temporal_assessment": "Identity crosswalk only; no pre-OSS employer or assignment is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army fields are not published as employers.",
+      "sources": [
+        {
+          "source_key": "nara-index-b853",
+          "locator_override": "PDF page 416, row 33; T 4; Box 691"
+        },
+        {
+          "source_key": "army-bulk-b853",
+          "locator_override": "Exact-name and nonshared protected-identifier comparison"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-schwartz-b853",
+      "person_id": "43a85e68-95ee-53cc-a4d4-c3ff0ebfef8a",
+      "claim_type": "identity",
+      "claim_text": "Indexed John Schwartz is a high-confidence match to the OSS Secret Intelligence member assigned to the HOUSEBOAT team.",
+      "evidence_excerpt": "HOUSEBOAT operations team, consisting of John Schwartz and Charles Heller",
+      "evidence_paraphrase": "A protected identifier bridges the index and a transcribed personnel-file assignment; an institutional history independently names John Schwartz on the OSS HOUSEBOAT intelligence team.",
+      "identity_match_assessment": "High confidence from the protected-identifier bridge, exact name and independent OSS operational corroboration.",
+      "temporal_assessment": "The sources establish an OSS assignment, not a pre-OSS employer.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The full identifier remains private. Operational evidence is used only to resolve identity and is not recast as pre-OSS employment.",
+      "sources": [
+        {
+          "source_key": "nara-index-b853",
+          "locator_override": "PDF page 416, row 34; PVT; Box 691"
+        },
+        {
+          "source_key": "army-bulk-b853",
+          "locator_override": "Exact indexed-name and nonshared protected-identifier comparison"
+        },
+        {
+          "source_key": "angleton-transcription-b853",
+          "locator_override": "Protected identifier and Washington-to-Germany assignment comparison; identifier withheld"
+        },
+        {
+          "source_key": "nmi-houseboat-b853",
+          "locator_override": "HOUSEBOAT team paragraphs"
+        }
+      ]
+    },
+    {
+      "key": "identity-joseph-k-schwartz-b853",
+      "person_id": "b0300104-093e-527e-a5f6-179bdfebc689",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record is a high-confidence identity match for indexed Joseph K. Schwartz.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from exact full-name and protected-identifier agreement.",
+      "temporal_assessment": "Identity crosswalk only; no pre-OSS employer or assignment is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army fields are not published as employers.",
+      "sources": [
+        {
+          "source_key": "nara-index-b853",
+          "locator_override": "PDF page 416, row 35; S/SGT; Box 691"
+        },
+        {
+          "source_key": "army-bulk-b853",
+          "locator_override": "Exact-name and nonshared protected-identifier comparison"
+        }
+      ]
+    },
+    {
+      "key": "identity-myrtil-schwartz-b853",
+      "person_id": "05a0c398-ff7a-5078-bf66-ead7196c351a",
+      "claim_type": "identity",
+      "claim_text": "Indexed Myrtil Schwartz is a probable match to the French author and alpinist who entered the United States during the war.",
+      "evidence_paraphrase": "The exceptionally rare exact name, French origin, Strasbourg connection, wartime U.S. presence and documented government-official occupation align across independent sources.",
+      "identity_match_assessment": "Probable because the rare-name biographical chain is strong, but no source supplies an OSS identifier or explicitly links the man to the indexed file.",
+      "temporal_assessment": "The sources document prewar mountaineering authorship and a March 1945 occupation, but not the date of any OSS relationship.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The physical file in Box 691 is required before upgrading identity confidence or identifying an immediate pre-OSS employer.",
+      "sources": [
+        {
+          "source_key": "nara-index-b853",
+          "locator_override": "PDF page 416, row 37; Box 691"
+        },
+        {
+          "source_key": "fbi-myrtil-schwartz-b853",
+          "locator_override": "PDF pages 5-6, INS manifest summary"
+        },
+        {
+          "source_key": "aac-myrtil-schwartz-b853",
+          "locator_override": "1921 Mont Blanc ascent account"
+        },
+        {
+          "source_key": "ddb-myrtil-schwartz-b853",
+          "locator_override": "GND 12729063X authority and works record"
+        },
+        {
+          "source_key": "alde-myrtil-schwartz-b853",
+          "locator_override": "Lot 236 biographical and bibliographic description"
+        }
+      ]
+    },
+    {
+      "key": "myrtil-schwartz-author-b853",
+      "person_id": "05a0c398-ff7a-5078-bf66-ead7196c351a",
+      "claim_type": "occupation",
+      "claim_text": "The probable match Myrtil Schwartz was a prewar mountaineering author and active alpinist.",
+      "evidence_paraphrase": "Institutional authority metadata records a mountaineering work; independent bibliographic and contemporary alpine sources document his 1924 and 1931 books and 1921 climbing activity.",
+      "identity_match_assessment": "Medium-confidence attribution to the indexed person because the exact name is exceptionally rare and the French and wartime-emigration chronology aligns.",
+      "temporal_assessment": "Explicitly prewar, but not shown to be an employer or the immediate predecessor to OSS service.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Authorship and alpinism are published as occupations or activities, not as a named employer.",
+      "sources": [
+        {
+          "source_key": "ddb-myrtil-schwartz-b853",
+          "locator_override": "Authority and works entry"
+        },
+        {
+          "source_key": "aac-myrtil-schwartz-b853",
+          "locator_override": "Publication year 1943; 1921 Mont Blanc ascent"
+        },
+        {
+          "source_key": "alde-myrtil-schwartz-b853",
+          "locator_override": "1924 and 1931 book descriptions"
+        }
+      ]
+    },
+    {
+      "key": "myrtil-schwartz-government-official-b853",
+      "person_id": "05a0c398-ff7a-5078-bf66-ead7196c351a",
+      "claim_type": "occupation",
+      "claim_text": "A March 1945 manifest described the probable match Myrtil Schwartz as a government official.",
+      "evidence_excerpt": "occupation was listed as Government official",
+      "evidence_paraphrase": "An FBI-recorded Immigration and Naturalization Service manifest summary lists Myrtil Schwartz's occupation as government official.",
+      "identity_match_assessment": "Probable rare-name match, supported by French origin and wartime U.S. chronology, without an OSS identifier.",
+      "temporal_assessment": "March 1945; the source does not establish whether this occupation preceded, overlapped or was unrelated to OSS service.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No employing agency is inferred from the generic occupation, and the claim is excluded from default employer analytics.",
+      "sources": [
+        {
+          "source_key": "fbi-myrtil-schwartz-b853",
+          "locator_override": "PDF pages 5-6, INS manifest summary"
+        }
+      ]
+    },
+    {
+      "key": "identity-stanley-c-schwartz-b853",
+      "person_id": "7daf9a7d-c613-5832-8e3e-3f88d5c3fdf9",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record is a high-confidence identity match for indexed Stanley C. Schwartz.",
+      "evidence_paraphrase": "Two Army bulk rows repeat the exact name and same nonshared protected identifier, supporting one indexed identity rather than two OSS people.",
+      "identity_match_assessment": "High confidence from exact full-name and protected-identifier agreement; the duplicated Army rows were reviewed as one identity bridge.",
+      "temporal_assessment": "Identity crosswalk only; no pre-OSS employer or assignment is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Duplicate bulk rows are not converted into duplicate person entities. Coded fields are not employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b853",
+          "locator_override": "PDF page 416, row 38; PFC; Box 691"
+        },
+        {
+          "source_key": "army-bulk-b853",
+          "locator_override": "Two duplicate bulk rows with exact-name and shared protected-identifier agreement"
+        }
+      ]
+    },
+    {
+      "key": "identity-nathan-schwartzapfel-b853",
+      "person_id": "bc5a9959-386b-57e5-a380-7e671d8c4e2a",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record is a high-confidence identity match for indexed Nathan Schwartzapfel.",
+      "evidence_paraphrase": "The exact uncommon indexed name and a nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from exact-name and protected-identifier agreement.",
+      "temporal_assessment": "Identity crosswalk only; no pre-OSS employer or assignment is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army fields are not published as employers.",
+      "sources": [
+        {
+          "source_key": "nara-index-b853",
+          "locator_override": "PDF page 416, row 39; SGT; Box 691"
+        },
+        {
+          "source_key": "army-bulk-b853",
+          "locator_override": "Exact indexed-name and nonshared protected-identifier comparison"
+        }
+      ]
+    },
+    {
+      "key": "identity-sanford-schwarz-b853",
+      "person_id": "a9a10897-8506-56a8-9318-88bfaf75f8c3",
+      "claim_type": "identity",
+      "claim_text": "Indexed Sanford Schwarz is a probable match to the international lawyer and civil servant described by Oscar Schachter.",
+      "evidence_excerpt": "During the second World War Dr. Schwarz worked in U.S. government agencies",
+      "evidence_paraphrase": "The exact name, professional civilian grade and wartime U.S.-government work on postwar Germany align; an adjacent misspelled P-6 row may represent the same person.",
+      "identity_match_assessment": "Probable, not confirmed, because the obituary gives no OSS identifier and the index contains a possible misspelled duplicate in the preceding box.",
+      "temporal_assessment": "The obituary documents 1930s roles and wartime government work but does not identify which agency immediately preceded or constituted the OSS relationship.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The page 416 Sanford Schwars and Sanford Schwarz rows remain separate and are placed in a visible possible-duplicate group pending review of Boxes 690-691.",
+      "sources": [
+        {
+          "source_key": "nara-index-b853",
+          "locator_override": "PDF page 416, rows 21 and 41; both P-6; Boxes 690-691"
+        },
+        {
+          "source_key": "cambridge-sanford-schwarz-b853",
+          "locator_override": "Printed page 114, left-column Sanford Schwarz obituary"
+        }
+      ]
+    },
+    {
+      "key": "sanford-schwarz-claims-commission-b853",
+      "person_id": "a9a10897-8506-56a8-9318-88bfaf75f8c3",
+      "affiliation_key": "sanford-schwarz-claims-commission-b853",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "During the 1930s, the probable match Sanford Schwarz worked for the U.S. Mexican Claims Commission.",
+      "evidence_excerpt": "During the 1930s he worked first for the U.S. Mexican Claims Commission",
+      "evidence_paraphrase": "Schachter's obituary places commission work before Schwarz's Carnegie Endowment role and later wartime government service.",
+      "identity_match_assessment": "Medium-confidence attribution to the exact-name P-6 index row; the personnel file remains necessary for confirmation.",
+      "temporal_assessment": "Documented prewar affiliation; not shown to be the immediate pre-OSS role or a named civilian employer in the sense required for default employer analytics.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical commission name is preserved and no role title is invented.",
+      "sources": [
+        {
+          "source_key": "cambridge-sanford-schwarz-b853",
+          "locator_override": "Printed page 114, left column"
+        }
+      ]
+    },
+    {
+      "key": "sanford-schwarz-carnegie-b853",
+      "person_id": "a9a10897-8506-56a8-9318-88bfaf75f8c3",
+      "affiliation_key": "sanford-schwarz-carnegie-b853",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Later in the 1930s, the probable match Sanford Schwarz assisted James T. Shotwell at the Carnegie Endowment for International Peace.",
+      "evidence_excerpt": "later he assisted James Shotwell at the Carnegie Endowment for International Peace",
+      "evidence_paraphrase": "Schachter's obituary says Schwarz assisted Shotwell on his extensive history of World War I.",
+      "identity_match_assessment": "Medium-confidence attribution to the exact-name P-6 index row; Boxes 690-691 must resolve the possible duplicate.",
+      "temporal_assessment": "Documented prewar professional affiliation; the source does not establish immediacy before OSS or salaried employment.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The relationship remains professional affiliation, not employment, because the source only says assisted.",
+      "sources": [
+        {
+          "source_key": "cambridge-sanford-schwarz-b853",
+          "locator_override": "Printed page 114, left column"
+        }
+      ]
+    },
+    {
+      "key": "sanford-schwarz-law-practice-b853",
+      "person_id": "a9a10897-8506-56a8-9318-88bfaf75f8c3",
+      "claim_type": "occupation",
+      "claim_text": "Before his doctorate and 1930s institutional work, the probable match Sanford Schwarz briefly practiced law.",
+      "evidence_excerpt": "After receiving his law degree from Columbia he practiced law for a short period",
+      "evidence_paraphrase": "The obituary places a short period of law practice after Columbia law school and before a doctorate in international relations and economics.",
+      "identity_match_assessment": "Medium-confidence exact-name and professional-grade match; no firm or employer is named.",
+      "temporal_assessment": "Documented prewar occupation, clearly earlier than the claims-commission and Carnegie roles and not immediate to OSS.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The project does not infer self-employment or a law firm from the phrase practiced law.",
+      "sources": [
+        {
+          "source_key": "cambridge-sanford-schwarz-b853",
+          "locator_override": "Printed page 114, left column"
+        }
+      ]
+    },
+    {
+      "key": "identity-bernard-r-schweid-b853",
+      "person_id": "74b2fc0a-e4a6-54bd-a750-da9f10805c58",
+      "claim_type": "identity",
+      "claim_text": "Indexed Bernard R. Schweid is confirmed as the M/Sgt. listed among the OSS assessment staff.",
+      "evidence_excerpt": "Bernard R. Schweid, A.B., M/Sgt. S, W",
+      "evidence_paraphrase": "The 1948 OSS staff list supplies the same uncommon full name and grade, while the official Army record shares the protected identifier.",
+      "identity_match_assessment": "Confirmed by exact full-name, grade and protected-identifier agreement across the index, Army record and direct OSS publication.",
+      "temporal_assessment": "The staff list confirms wartime OSS assessment work but names no pre-government institution for Schweid.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The A.B. degree is not treated as an employer or institution. The staff-list codes S and W are preserved only as OSS assignment context.",
+      "sources": [
+        {
+          "source_key": "nara-index-b853",
+          "locator_override": "PDF page 416, row 43; M SGT; Box 691"
+        },
+        {
+          "source_key": "army-bulk-b853",
+          "locator_override": "Exact-name and nonshared protected-identifier comparison"
+        },
+        {
+          "source_key": "assessment-men-b853",
+          "locator_override": "Staff Members, printed page vi; Bernard R. Schweid entry"
+        }
+      ]
+    },
+    {
+      "key": "identity-raymond-g-schweiker-b853",
+      "person_id": "02c24c70-6f63-5c90-9fdd-8050129d7554",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record is a high-confidence identity match for indexed Raymond G. Schweiker.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from exact full-name and protected-identifier agreement.",
+      "temporal_assessment": "Identity crosswalk only; no pre-OSS employer or assignment is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Coded Army fields are not published as employers.",
+      "sources": [
+        {
+          "source_key": "nara-index-b853",
+          "locator_override": "PDF page 416, row 44; Box 691"
+        },
+        {
+          "source_key": "army-bulk-b853",
+          "locator_override": "Exact-name and nonshared protected-identifier comparison"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "d630b25d-c7ab-5600-8f22-dcbf3ff32694",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed-name and nonshared protected-identifier agreement between the index and official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 690 for Adolf Schwartz's civilian occupation and OSS assignment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "cf2008c6-45ca-512d-a71f-20d5d5971741",
+      "identity_status": "confirmed",
+      "identity_evidence": "Exact full-name, T/4 grade and protected-identifier agreement across the index, official Army record and 1948 OSS assessment-staff list.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 690 for Bert D. Schwartz's civilian occupation and the institution, if any, preceding his OSS assessment work.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "92c27ba7-53a8-51b4-af2c-192db0da8f46",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name, CAF-4, occupation, obituary and archival searches produced multiple namesakes without a protected identifier or OSS bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 690 for Charlotte H. Schwartz's identity and civilian chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "0f6ef492-f759-586d-8746-e665c1e8e081",
+      "identity_status": "ambiguous",
+      "identity_evidence": "Common-name major and officer searches produced several Edward Schwartz candidates without a source matching the indexed officer number or OSS file.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 690 for Major Edward Schwartz's branch, full name and pre-service occupation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "762321fc-7031-561f-acc1-98b5dc5cd790",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name, CAF-4, occupation, obituary and archival searches produced incompatible or undated namesakes without an OSS bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 690 for Evelyn Schwartz's full identity and civilian chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e77c8954-8cbd-5e9f-ab19-4ed56b79a9af",
+      "identity_status": "unresolved",
+      "identity_evidence": "The unusual indexed given name may be incomplete or erroneous; exact and variant searches produced no reliable wartime identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 690 to verify Gare Schwartz's given name, nationality and prior affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "d13d2214-2135-5e5c-89c3-c56b5289f777",
+      "identity_status": "unresolved",
+      "identity_evidence": "Common-name, T 5, obituary, occupation and archival searches produced multiple George Schwartz candidates without a protected-identifier match.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 690 for George Schwartz's middle name, birth details and civilian occupation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "82395afc-fdfa-57a3-b1a9-d75b8f3368cb",
+      "identity_status": "probable",
+      "identity_evidence": "Institutional oral histories and a Weizmann profile identify Columbia economist Harry Schwartz in OSS and trace his later Syracuse and New York Times career; the commissioned grade is compatible, but no source supplies the indexed officer number.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "page416-harry-schwartz",
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable immediate pre-OSS employer has yet been established for this row. Review both Harry Schwartz files in Box 691 to confirm which record belongs to the economist and to reconstruct his pre-OSS sequence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0bb7195f-21ce-5420-8215-d22e51e3f323",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact indexed-name and nonshared protected-identifier agreement between the enlisted row and official Army record; the adjacent commissioned namesake has a different identifier.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "page416-harry-schwartz",
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified. Review both Harry Schwartz files in Box 691 without merging the enlisted and commissioned records.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "60d2b1f2-c4ae-5194-ad59-b2db06fe23c7",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact full-name and nonshared protected-identifier agreement between the index and official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 691 for Irving S. Schwartz's civilian occupation and OSS assignment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "43a85e68-95ee-53cc-a4d4-c3ff0ebfef8a",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A protected identifier bridges the index, official Army identity record and transcribed personnel-file assignment; an institutional history independently names John Schwartz on the OSS HOUSEBOAT team.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 691 for John Schwartz's civilian occupation and Army-to-OSS transfer chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b0300104-093e-527e-a5f6-179bdfebc689",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact full-name and nonshared protected-identifier agreement between the index and official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 691 for Joseph K. Schwartz's civilian occupation and OSS assignment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f02f0c65-70c5-5b5a-9188-704a406a3f6c",
+      "identity_status": "conflicting",
+      "identity_evidence": "The indexed protected identifier points to the materially different Army transcription CHW R Z MARTIN V, defeating the proposed exact-person match.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 691 to resolve Martin V. Schwartz's protected-identifier/name conflict before assigning any external biography.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "05a0c398-ff7a-5078-bf66-ead7196c351a",
+      "identity_status": "probable",
+      "identity_evidence": "The exceptionally rare exact name, French origin, Strasbourg connection, wartime U.S. presence and documented government-official occupation align, but no source supplies an OSS identifier.",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Prewar authorship and alpinism and a March 1945 government-official occupation are documented, but no reliable immediate pre-OSS employer has been identified. Review Box 691 for the employing agency and OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7daf9a7d-c613-5832-8e3e-3f88d5c3fdf9",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact full-name and protected-identifier agreement; two official Army bulk rows repeat the same identity and are not treated as two people.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 691 for Stanley C. Schwartz's civilian occupation and OSS assignment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "bc5a9959-386b-57e5-a380-7e671d8c4e2a",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact uncommon indexed-name and nonshared protected-identifier agreement between the index and official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 691 for Nathan Schwartzapfel's civilian occupation and OSS assignment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b0c187ac-a4e1-55ec-8060-3dfb377c8bba",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name, occupation, obituary and archival searches produced multiple Dorothy Schwarz namesakes without an OSS identifier or reliable wartime chronology.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 691 for Dorothy Schwarz's full identity and civilian chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "a9a10897-8506-56a8-9318-88bfaf75f8c3",
+      "identity_status": "probable",
+      "identity_evidence": "The exact name, P-6 civilian grade and wartime U.S.-government work align with Oscar Schachter's obituary; a same-page misspelled Sanford Schwars P-6 row may represent the same person.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "page416-sanford-schwars-schwarz",
+      "research_status": "requires_archival_review",
+      "next_action": "Documented prewar roles include brief law practice, the U.S. Mexican Claims Commission and assistance at the Carnegie Endowment, but no reliable immediate pre-OSS employer has been identified. Compare Boxes 690-691 and resolve the possible duplicate.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "60a0953e-0221-56dc-80f9-e4d2f8bcd69b",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name, T-3, occupation and obituary searches produced no reliable identity bridge; genealogy and modern people-search results were rejected.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 691 for Anthon F. Schweer's spelling, full identity and civilian occupation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "74b2fc0a-e4a6-54bd-a750-da9f10805c58",
+      "identity_status": "confirmed",
+      "identity_evidence": "Exact full-name, M/Sgt. grade and protected-identifier agreement across the index, official Army record and 1948 OSS assessment-staff list.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified. Review Box 691 for Bernard R. Schweid's civilian occupation and the institution, if any, preceding his OSS assessment work.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "02c24c70-6f63-5c90-9fdd-8050129d7554",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact full-name and nonshared protected-identifier agreement between the index and official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 691 for Raymond G. Schweiker's civilian occupation and OSS assignment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9ed31d6b-9826-5a52-a21e-e85b6b7c02a7",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name, CAF-4, occupation, directory, obituary and archival searches produced postwar and incompatible Murray Schweitzer namesakes without an OSS bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 691 for Murray Schweitzer's full identity and civilian chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ee6b746a-616b-586e-9f33-a0b868e0d5a8",
+      "identity_status": "unresolved",
+      "identity_evidence": "Exact-name, CAF-5, occupation, directory and obituary searches produced only postwar or insufficiently identified Ruth M. Schwenn candidates.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 691 for Ruth M. Schwenn's full identity and civilian chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ba02d5d6-531c-5d07-95e2-5c68c926bee8",
+      "manual_review_required": true,
+      "possible_duplicate_group": "page416-sanford-schwars-schwarz"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "adolf-schwartz-b853",
+      "person_id": "d630b25d-c7ab-5600-8f22-dcbf3ff32694",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 416 row 24; Adolf Schwartz; protected Army comparison; exact-name OSS, employer, occupation, obituary, directory and archival searches; Box 690",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_853",
+      "started_at": "2026-10-16T15:40:00+00:00",
+      "completed_at": "2026-10-16T16:16:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Partial-name and postwar results lacked the protected identifier or reliable wartime chronology.",
+      "research_notes": "Accepted the official Army record only as an identity bridge. CIA automated access failed under the source's robots policy and the LoC adapter timed out; neither access failure is treated as a negative result.",
+      "next_action": "Review Box 690 for civilian occupation and OSS assignment.",
+      "attempt_number": 4,
+      "research_agent_version": "before-oss-b853-v1"
+    },
+    {
+      "key": "bert-d-schwartz-b853",
+      "person_id": "cf2008c6-45ca-512d-a71f-20d5d5971741",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 416 row 25; Bert D Schwartz; protected Army comparison; Assessment of Men staff list; exact-name OSS, employer, occupation and archival searches; Box 690",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_853",
+      "started_at": "2026-10-16T15:41:00+00:00",
+      "completed_at": "2026-10-16T16:16:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Unidentified namesakes and degree-only references did not establish a pre-government institution or employer.",
+      "research_notes": "The direct OSS staff list and Army bridge confirm identity. The B.S. degree and staff code S are not employer evidence. Batch-level CIA and LoC access failures were recorded and not treated as negative evidence.",
+      "next_action": "Review Box 690 for the institution or occupation preceding OSS assessment work.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b853-v1"
+    },
+    {
+      "key": "charlotte-h-schwartz-b853",
+      "person_id": "92c27ba7-53a8-51b4-af2c-192db0da8f46",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 416 row 26; Charlotte H Schwartz; CAF-4; exact-name OSS, employer, occupation, obituary, directory and archival searches; Box 690",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_853",
+      "started_at": "2026-10-16T15:42:00+00:00",
+      "completed_at": "2026-10-16T16:16:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "People-finder, directory and postwar namesake results lacked CAF-4, OSS or protected-identifier context.",
+      "research_notes": "No reliable independent identity or employer was established. Batch-level CIA and LoC access failures are not negative evidence.",
+      "next_action": "Review Box 690 for full identity and civilian chronology.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b853-v1"
+    },
+    {
+      "key": "edward-schwartz-b853",
+      "person_id": "0f6ef492-f759-586d-8746-e665c1e8e081",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 416 row 27; Major Edward Schwartz; officer-number context; exact-name OSS, employer, occupation, obituary, military roster and archival searches; Box 690",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_853",
+      "started_at": "2026-10-16T15:43:00+00:00",
+      "completed_at": "2026-10-16T16:16:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Common-name officer candidates lacked the indexed officer number, compatible OSS context or two corroborating identifiers.",
+      "research_notes": "No famous or military namesake was accepted on name and rank alone.",
+      "next_action": "Review Box 690 for branch, full name and pre-service occupation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b853-v1"
+    },
+    {
+      "key": "evelyn-schwartz-b853",
+      "person_id": "762321fc-7031-561f-acc1-98b5dc5cd790",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 416 row 28; Evelyn Schwartz; CAF-4; exact-name OSS, employer, occupation, obituary, directory and archival searches; Box 690",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_853",
+      "started_at": "2026-10-16T15:44:00+00:00",
+      "completed_at": "2026-10-16T16:16:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Common-name and postwar results lacked CAF-4, OSS, wartime chronology or an identifying archival pointer.",
+      "research_notes": "No independent identity or employer was established.",
+      "next_action": "Review Box 690 for full identity and civilian chronology.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b853-v1"
+    },
+    {
+      "key": "gare-schwartz-b853",
+      "person_id": "e77c8954-8cbd-5e9f-ab19-4ed56b79a9af",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 416 row 29; Gare Schwartz and likely OCR or spelling variants; exact-name OSS, employer, occupation, obituary and archival searches; Box 690",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_853",
+      "started_at": "2026-10-16T15:45:00+00:00",
+      "completed_at": "2026-10-16T16:16:00+00:00",
+      "outcome": "no_result",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Sparse results did not establish whether Gare is a full given name, alias or index error and supplied no OSS context.",
+      "research_notes": "Search variants were treated as discovery aliases, not silent corrections.",
+      "next_action": "Review Box 690 to verify the given name and nationality.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b853-v1"
+    },
+    {
+      "key": "george-schwartz-b853",
+      "person_id": "d13d2214-2135-5e5c-89c3-c56b5289f777",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 416 row 30; George Schwartz; T 5; exact-name OSS, employer, occupation, obituary, military and archival searches; Box 690",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_853",
+      "started_at": "2026-10-16T15:46:00+00:00",
+      "completed_at": "2026-10-16T16:16:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Common-name military and obituary candidates lacked the indexed protected identifier or corroborating OSS context.",
+      "research_notes": "No name-only candidate was accepted.",
+      "next_action": "Review Box 690 for middle name, birth details and civilian occupation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b853-v1"
+    },
+    {
+      "key": "harry-schwartz-officer-b853",
+      "person_id": "82395afc-fdfa-57a3-b1a9-d75b8f3368cb",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 416 row 31; Harry Schwartz; 2ND LT; Columbia Pulitzer scholar; economist; exact-name OSS, employer, occupation, obituary, institutional and archival searches; Box 691",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_853",
+      "started_at": "2026-10-16T15:47:00+00:00",
+      "completed_at": "2026-10-16T16:16:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Discovery-only biographies and search snippets were not used as sole evidence; none of the institutional sources supplied the indexed officer number.",
+      "research_notes": "AHA and NLM oral histories plus the Weizmann profile support a probable economist identity, but the adjacent enlisted namesake remains separate and no pre-OSS employer is published.",
+      "next_action": "Review both Box 691 Harry Schwartz files for officer-number confirmation and pre-OSS chronology.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b853-v1"
+    },
+    {
+      "key": "harry-schwartz-enlisted-b853",
+      "person_id": "0bb7195f-21ce-5420-8215-d22e51e3f323",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 416 row 32; enlisted Harry Schwartz; T 5; protected Army comparison; exact-name OSS, employer, occupation and archival searches; Box 691",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_853",
+      "started_at": "2026-10-16T15:48:00+00:00",
+      "completed_at": "2026-10-16T16:16:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "The Columbia economist evidence could not be assigned to the enlisted row and was retained only with the commissioned probable candidate.",
+      "research_notes": "The Army bridge confirms this separate enlisted identity. No employer or external biography is assigned.",
+      "next_action": "Review both Box 691 Harry Schwartz files without merging them.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b853-v1"
+    },
+    {
+      "key": "irving-s-schwartz-b853",
+      "person_id": "60d2b1f2-c4ae-5194-ad59-b2db06fe23c7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 416 row 33; Irving S Schwartz; protected Army comparison; exact-name OSS, employer, occupation, obituary and archival searches; Box 691",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_853",
+      "started_at": "2026-10-16T15:49:00+00:00",
+      "completed_at": "2026-10-16T16:16:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "External namesakes lacked the protected identifier or reliable wartime sequence.",
+      "research_notes": "Accepted the Army record only as an identity bridge; coded occupation data were not converted into employer claims.",
+      "next_action": "Review Box 691 for civilian occupation and OSS assignment.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b853-v1"
+    },
+    {
+      "key": "john-schwartz-b853",
+      "person_id": "43a85e68-95ee-53cc-a4d4-c3ff0ebfef8a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 416 row 34; John Schwartz; protected identifier; HOUSEBOAT; OSS MEDTO; exact-name employer, occupation, obituary and archival searches; Box 691",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_853",
+      "started_at": "2026-10-16T15:50:00+00:00",
+      "completed_at": "2026-10-16T16:16:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Common-name candidates without the protected identifier or HOUSEBOAT context were rejected; operational evidence did not name a pre-OSS employer.",
+      "research_notes": "The protected bridge and Nation's Memory Institute article resolve the OSS identity at high confidence. Full identifier remains private.",
+      "next_action": "Review Box 691 for civilian occupation and Army-to-OSS transfer chronology.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b853-v1"
+    },
+    {
+      "key": "joseph-k-schwartz-b853",
+      "person_id": "b0300104-093e-527e-a5f6-179bdfebc689",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 416 row 35; Joseph K Schwartz; protected Army comparison; exact-name OSS, employer, occupation, obituary and archival searches; Box 691",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_853",
+      "started_at": "2026-10-16T15:51:00+00:00",
+      "completed_at": "2026-10-16T16:16:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Namesakes and partial-name results lacked the protected identifier or reliable wartime chronology.",
+      "research_notes": "Accepted the Army record only as an identity bridge.",
+      "next_action": "Review Box 691 for civilian occupation and OSS assignment.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b853-v1"
+    },
+    {
+      "key": "martin-v-schwartz-b853",
+      "person_id": "f02f0c65-70c5-5b5a-9188-704a406a3f6c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 416 row 36; Martin V Schwartz; protected Army comparison; exact-name OSS, employer, occupation and archival searches; Box 691",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_853",
+      "started_at": "2026-10-16T15:52:00+00:00",
+      "completed_at": "2026-10-16T16:16:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "The protected identifier points to the materially different Army transcription CHW R Z MARTIN V; unrelated Martin Schwartz namesakes lacked corrective evidence.",
+      "research_notes": "The identifier conflict is preserved rather than forcing a match. Army coded fields are not employer evidence.",
+      "next_action": "Review Box 691 to resolve the protected-identifier/name conflict.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b853-v1"
+    },
+    {
+      "key": "myrtil-schwartz-b853",
+      "person_id": "05a0c398-ff7a-5078-bf66-ead7196c351a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 416 row 37; Myrtil Schwartz; French and Strasbourg variants; author, alpinist, government official; exact-name OSS, employer, occupation, immigration, obituary and archival searches; Box 691",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_853",
+      "started_at": "2026-10-16T15:53:00+00:00",
+      "completed_at": "2026-10-16T16:16:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Modern legal-author and unrelated surname results were incompatible; no source supplied an OSS identifier or employing government agency.",
+      "research_notes": "Official manifest evidence and independent alpine sources support a probable rare-name identity and occupation-only outcome. Temporal uncertainty around the 1945 government role is explicit.",
+      "next_action": "Review Box 691 for the employing agency and OSS chronology.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b853-v1"
+    },
+    {
+      "key": "stanley-c-schwartz-b853",
+      "person_id": "7daf9a7d-c613-5832-8e3e-3f88d5c3fdf9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 416 row 38; Stanley C Schwartz; two duplicate Army candidate rows; exact-name OSS, employer, occupation, obituary and archival searches; Box 691",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_853",
+      "started_at": "2026-10-16T15:54:00+00:00",
+      "completed_at": "2026-10-16T16:16:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "External namesakes lacked the protected identifier; the two Army bulk rows were duplicates of one identity rather than separate people.",
+      "research_notes": "Both bulk candidates were reviewed and accepted as one identity bridge. No coded field was treated as employer evidence.",
+      "next_action": "Review Box 691 for civilian occupation and OSS assignment.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b853-v1"
+    },
+    {
+      "key": "nathan-schwartzapfel-b853",
+      "person_id": "bc5a9959-386b-57e5-a380-7e671d8c4e2a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 416 row 39; Nathan Schwartzapfel; protected Army comparison; exact-name OSS, employer, occupation, obituary and archival searches; Box 691",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_853",
+      "started_at": "2026-10-16T15:55:00+00:00",
+      "completed_at": "2026-10-16T16:16:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Modern people-finder and undated namesake results lacked the protected identifier or wartime chronology.",
+      "research_notes": "Accepted the exact uncommon-name Army bridge only for identity.",
+      "next_action": "Review Box 691 for civilian occupation and OSS assignment.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b853-v1"
+    },
+    {
+      "key": "dorothy-schwarz-b853",
+      "person_id": "b0c187ac-a4e1-55ec-8060-3dfb377c8bba",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 416 row 40; Dorothy Schwarz; exact-name OSS, employer, occupation, obituary, directory and archival searches; Box 691",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_853",
+      "started_at": "2026-10-16T15:56:00+00:00",
+      "completed_at": "2026-10-16T16:16:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Common-name directory and obituary candidates supplied no OSS context, protected identifier or reliable wartime sequence.",
+      "research_notes": "No name-only candidate was accepted.",
+      "next_action": "Review Box 691 for full identity and civilian chronology.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b853-v1"
+    },
+    {
+      "key": "sanford-schwarz-b853",
+      "person_id": "a9a10897-8506-56a8-9318-88bfaf75f8c3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 416 row 41 and possible row 21 duplicate; Sanford Schwarz, Schwars and Schwartz variants; P-6; lawyer, claims commission, Carnegie Endowment; exact-name OSS, employer, occupation, obituary and archival searches; Boxes 690-691",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_853",
+      "started_at": "2026-10-16T15:57:00+00:00",
+      "completed_at": "2026-10-16T16:16:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Namesakes and the adjacent Jasper Berry Shannon column were excluded; no source named the immediate pre-OSS agency or established whether the two index rows are duplicates.",
+      "research_notes": "The Cambridge page was visually and textually checked column by column. University of Kentucky and Transylvania University belong to Shannon, not Schwarz. The two Sanford rows remain separate in a possible-duplicate group.",
+      "next_action": "Compare Boxes 690-691 and identify the wartime agency immediately preceding or constituting the OSS relationship.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b853-v1"
+    },
+    {
+      "key": "anthon-f-schweer-b853",
+      "person_id": "60a0953e-0221-56dc-80f9-e4d2f8bcd69b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 416 row 42; Anthon F Schweer and Anthony variants; T-3; exact-name OSS, employer, occupation, obituary and archival searches; Box 691",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_853",
+      "started_at": "2026-10-16T15:58:00+00:00",
+      "completed_at": "2026-10-16T16:16:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Genealogy, modern directory and spelling-variant results lacked the indexed identifier, T-3 or OSS context.",
+      "research_notes": "Anthon is preserved as indexed; Anthony was used only as a search alias.",
+      "next_action": "Review Box 691 to verify spelling, full identity and civilian occupation.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b853-v1"
+    },
+    {
+      "key": "bernard-r-schweid-b853",
+      "person_id": "74b2fc0a-e4a6-54bd-a750-da9f10805c58",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 416 row 43; Bernard R Schweid; protected Army comparison; Assessment of Men staff list; exact-name OSS, employer, occupation and archival searches; Box 691",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_853",
+      "started_at": "2026-10-16T15:59:00+00:00",
+      "completed_at": "2026-10-16T16:16:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Social Security and other namesakes lacked the protected identifier or OSS assessment context; the A.B. degree did not name an institution.",
+      "research_notes": "The direct OSS staff list and Army bridge confirm identity. Staff codes and degree are not employer evidence.",
+      "next_action": "Review Box 691 for the institution or occupation preceding OSS assessment work.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b853-v1"
+    },
+    {
+      "key": "raymond-g-schweiker-b853",
+      "person_id": "02c24c70-6f63-5c90-9fdd-8050129d7554",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 416 row 44; Raymond G Schweiker; protected Army comparison; exact-name OSS, employer, occupation, obituary and archival searches; Box 691",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_853",
+      "started_at": "2026-10-16T16:00:00+00:00",
+      "completed_at": "2026-10-16T16:16:00+00:00",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "External candidates lacked the protected identifier or reliable OSS chronology.",
+      "research_notes": "Accepted the Army record only as an identity bridge.",
+      "next_action": "Review Box 691 for civilian occupation and OSS assignment.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b853-v1"
+    },
+    {
+      "key": "murray-schweitzer-b853",
+      "person_id": "9ed31d6b-9826-5a52-a21e-e85b6b7c02a7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 416 row 45; Murray Schweitzer; CAF-4; exact-name OSS, employer, occupation, obituary, directory and archival searches; Box 691",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_853",
+      "started_at": "2026-10-16T16:01:00+00:00",
+      "completed_at": "2026-10-16T16:16:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 7,
+      "candidate_sources_rejected": 6,
+      "rejection_reasons": "Postwar Greenbelt, media and family-record candidates lacked CAF-4, wartime OSS context or a protected identifier; a younger television producer was incompatible.",
+      "research_notes": "Postwar residence or career evidence was not back-projected into a pre-OSS employer.",
+      "next_action": "Review Box 691 for full identity and civilian chronology.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b853-v1"
+    },
+    {
+      "key": "ruth-m-schwenn-b853",
+      "person_id": "ee6b746a-616b-586e-9f33-a0b868e0d5a8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 416 row 46; Ruth M Schwenn; CAF-5; exact-name OSS, employer, occupation, obituary, directory and archival searches; Box 691",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_853",
+      "started_at": "2026-10-16T16:02:00+00:00",
+      "completed_at": "2026-10-16T16:16:00+00:00",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "A 1964 city-directory candidate and other postwar results did not establish wartime identity, CAF-5 context or a pre-OSS employer.",
+      "research_notes": "Later directory evidence was not treated as proof of the indexed person's identity or earlier employment.",
+      "next_action": "Review Box 691 for full identity and civilian chronology.",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b853-v1"
+    }
+  ]
+}

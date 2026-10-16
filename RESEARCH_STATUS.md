@@ -1,5 +1,35 @@
 # Research status
 
+Batch 853 completed PDF page 416, rows 24-46, from **Adolf Schwartz** through
+**Ruth M Schwenn**, preserving all 23 printed rows as separate source records
+linked to 23 active person entities. All 23 have saved terminal research
+outcomes. The official OSS assessment-staff volume and Army data confirm **Bert
+D Schwartz** and **Bernard R Schweid** without turning degree abbreviations
+into employers. The two **Harry Schwartz** rows remain separate: the
+commissioned economist is probable while the protected-identifier-matched T/5
+namesake is high confidence, and later career evidence is not copied between
+them. **John Schwartz** is identified at high confidence through an official
+crosswalk and independent HOUSEBOAT-team evidence, but no employer is inferred.
+**Martin V Schwartz** preserves a material Army name conflict. **Myrtil
+Schwartz** retains qualified prewar author and alpinist evidence plus a generic
+1945 government-official occupation. **Sanford Schwarz** has two
+medium-confidence documented-prewar affiliations, while adjacent obituary text
+about the University of Kentucky and Transylvania University is excluded. The
+same-page **Sanford Schwars** row remains a separate unresolved entity in a
+visible possible-duplicate group.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **12,590/23,937 (52.5964%)**;
+verified-employer coverage is **413/23,937 (1.7254%)**;
+verified-affiliation coverage is **911/23,937 (3.8058%)**; archival-review
+coverage is **11,055/23,937 (46.1837%)**. There are **11,342** `not_started`
+people, **567** possible-duplicate groups and **445** conflicts. The public
+projection contains **2,832** affiliations, **1,054** organizations, **5,225**
+sources and **7,616** claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 417, row 1, **Anna F
+Schwiebert**. See `research/batch-853-progress.md` for the source-by-source
+audit.
+
 Batch 852 completed PDF page 416, rows 1-23, from **Ernest C Schulz** through
 **Esther A Schwarts**, preserving all 23 printed rows as separate source
 records linked to 23 active person entities. All 23 have saved terminal
