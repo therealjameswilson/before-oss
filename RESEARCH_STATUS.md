@@ -1,5 +1,46 @@
 # Research status
 
+Batch 856 completed PDF page 418, rows 1-23, from **Robert Scott** through
+**Helen Seeman**, preserving all 23 printed rows as separate source records
+linked to 23 active person entities. All 23 have saved terminal research
+outcomes. CIA-published evidence separates **Winston M Scott**'s immediate FBI
+government assignment from his University of Alabama last civilian employment.
+An official OSS Cairo report and Richard Clogg's scholarship confirm **Jay
+Seeley** and document his earlier Anatolia College teaching without claiming it
+was immediate. The same Cairo report and Amherst College evidence confirm
+**Dorothea C Seelye**, while the Washington Post supports **Theodora
+Sedgwick**; Bryn Mawr and Radcliffe remain student affiliations rather than
+employers. Seven official Army crosswalks support high-confidence identity
+decisions only. The James Securanza conflict and Jay Seeley/Jay S Seely
+possible duplicate remain visible, separate and represented by opaque group
+labels.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **12,657/23,937 (52.8763%)**;
+verified-employer coverage is **416/23,937 (1.7379%)**;
+verified-affiliation coverage is **916/23,937 (3.8267%)**; archival-review
+coverage is **11,124/23,937 (46.4720%)**. There are **11,275** `not_started`
+people, **570** possible-duplicate groups and **446** conflicts. The public
+projection contains **2,839** affiliations, **1,057** organizations, **5,241**
+sources and **7,647** published claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 418, row 24, **Catherine C
+Seerley**. See `research/batch-856-progress.md` for the source-by-source audit.
+
+Batch 855 completed PDF page 417, rows 24-46, from **Dagmar S Scott** through
+**Robert F Scott**, preserving all 23 printed rows as separate source records
+linked to 23 active person entities. All 23 have saved terminal archival-review
+outcomes. Official Army data supplies identity-only bridges for Delbert Scott,
+George H Scott and James M Scott. Three Edward F Scott rows and two Marianne
+Scott rows remain separate and visibly ambiguous; incompatible or unbridged
+namesakes were rejected rather than becoming employer claims.
+
+At Batch 855 publication, research-attempt coverage was **12,635/23,937
+(52.7844%)**; verified-employer coverage was **414/23,937 (1.7295%)**;
+verified-affiliation coverage was **912/23,937 (3.8100%)**; and archival-review
+coverage was **11,101/23,937 (46.3759%)**. There were **11,297** `not_started`
+people and **569** possible-duplicate groups. See
+`research/batch-855-progress.md` for the detailed audit.
+
 Batch 854 completed PDF page 417, rows 1-23, from **Anna F Schwiebert**
 through **Clarence E Scott**, preserving all 23 printed rows as separate source
 records linked to 23 active person entities. All 23 have saved terminal

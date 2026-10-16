@@ -5293,6 +5293,46 @@ full obituary, or full copyrighted article is stored or published. The durable
 evidence is in
 `research/evidence-page-seventy-six-john-champe-through-mary-chan-pathways_batch-393_2026-08-31.json`.
 
+## Page 418 Scott through Seeman review, Batch 856
+
+The 23 contiguous source rows from Robert Scott through Helen Seeman were
+checked against a 180-dpi render of PDF page 418 rows 1-23. The immutable
+records preserve every printed name, initial, rank, private identifier, box and
+archive location. Public outputs continue to mask full identifiers.
+
+The checksum-verified NARA Army merged file was searched transiently under the
+official fixed-width documentation. Nonshared private identifiers support
+high-confidence identity bridges for Antonio Sechi, Fred R. Sechler, Peter A.
+Seckan, Walter A. Seder, Wilfred E. Sederholm, Thomas I. Sedgwick and Robert G.
+Seeley. Army entry-grade and occupation codes were not converted into OSS
+ranks, named employers or affiliations. The James Securanza candidate was
+rejected because the official record's surname and middle initial align with a
+separate James P. Sicuranza index row that shares the protected identifier.
+Both rows remain separate pending Boxes 694 and 709 review.
+
+Hayden B. Peake's CIA-published review of Jefferson Morley's Winston Scott
+biography was inspected as institutional scholarly evidence. Its chronology
+supports the University of Alabama as Scott's best-supported last civilian
+employer and the FBI as his explicit immediate pre-OSS government assignment.
+The FBI Vault subject page was located, but the file download returned an
+access challenge rather than the PDF and was not used for claims.
+
+The official OSS Cairo report with archival handle RG 226-210-WN2336 was
+reviewed for Jay Seeley and Dorothea Seelye. Richard Clogg's Palgrave chapter
+independently documents Seeley's earlier Anatolia College teaching; it does not
+establish that the college was his immediate predecessor or last civilian
+employer. Amherst College's finding aid supplies Dorothea Chambers Seelye
+Franck's full name, Bryn Mawr graduation and OSS Egypt service. The Washington
+Post obituary for Theodora Sedgwick Bond records Radcliffe attendance and OSS
+service. Bryn Mawr and Radcliffe are modeled as student affiliations, not
+employment.
+
+No authenticated Catalog request, credential, raw API response, full private
+identifier, raw Army row, unsupported employer, unrelated namesake biography,
+full copyrighted page or access-challenge body is stored or published. The
+durable evidence is in
+`research/evidence-page418-scott-seeman-review_batch-856_2026-10-16.json`.
+
 ## Official reference material
 
 - NARA OSS personnel records:
