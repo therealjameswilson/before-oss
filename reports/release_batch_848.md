@@ -51,5 +51,15 @@ Date: 2026-10-16
 
 ## Publication state
 
-Local release candidate verified. GitHub Pages publication and immutable
-unauthenticated verification are pending.
+Published from content commit
+`9b51a8fef47ae911e153af3fa195ee71977f63a3`. GitHub Pages run
+`38910570804` and test run `38910570806` completed successfully. The
+unauthenticated immutable verifier checked all 67 manifested assets
+(115,144,480 bytes), eight core routes, 35 source-register pages and all 23
+Batch 848 person profiles at
+`https://therealjameswilson.github.io/before-oss/`. The live manifest SHA-256
+is `30ddf134d4bf90a747e295c76511fdd9653e8abd145b422356b542eae9c68116`,
+matching the reviewed release. Live statistics report generation time
+`2026-10-16T18:30:00Z`, 12,479 research-attempted people, 410 verified
+employer profiles, 903 verified-affiliation profiles and 10,944 people with
+archival-review assessment.
