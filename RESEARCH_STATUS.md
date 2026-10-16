@@ -1,5 +1,35 @@
 # Research status
 
+Batch 834 completed PDF page 407, rows 1-23, from **Edgar Salinger** through
+**Faling K Salvesek**, preserving all 23 printed rows as separate source
+records linked to 23 active person entities. The printed page was visually
+checked at 300 dpi. All 23 people have saved, reviewable terminal outcomes.
+Institutional archival evidence confirms **Richard G Salomon** and documents
+his concurrent Kenyon College and Bexley Hall Seminary professorships from
+1939 without choosing an unproved immediate predecessor. Official and archival
+sources support qualified earlier translation and civic affiliations for
+**Edgar Salinger**. An official Senate report and an independent obituary
+confirm **Robert A Saltzstein**'s Milwaukee and OSS identity but not a pre-OSS
+employer. Official Army and New York State records confirm **Joseph W Salvage
+Jr.** and his 258th Field Artillery assignment while leaving the transfer
+sequence unresolved. Three Army candidates were accepted for identity only;
+four materially different Army-name candidates remain private conflicts. NARA
+Catalog work remained in dry-run mode.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,938** active
+people. Research-attempt coverage is **12,160/23,938 (50.7979%)**;
+verified-employer coverage is **399/23,938 (1.6668%)**;
+verified-affiliation coverage is **881/23,938 (3.6803%)**; archival-review
+coverage is **10,625/23,938 (44.3855%)**. There are **11,773** `not_started`
+people, **554** possible-duplicate groups, and **425** conflicts. SQLite
+retains **24,263** attempts or plans and **7,558** claims: 1,578 confirmed,
+3,754 high, 1,658 medium, 202 low, 364 conflicting, and two unresolved. It has
+**6,307** citation records and **3,343** unique source documents. The public
+projection has **2,764** affiliations, **1,015** organizations, **5,079**
+sources, and **7,350** claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 407, row 24, **Lily Salz**.
+See `research/batch-834-progress.md` for the source-by-source audit.
+
 Batch 833 completed PDF page 406, rows 24-46, from **Hans Sahl** through
 **Theodore S Saliaris**, preserving all 23 printed rows as separate source
 records linked to 23 active person entities. The printed page was visually
