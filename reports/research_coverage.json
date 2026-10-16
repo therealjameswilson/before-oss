@@ -1,53 +1,53 @@
 {
-  "generated_at": "2026-10-16T09:43:10+00:00",
+  "generated_at": "2026-10-16T10:26:01+00:00",
   "index_coverage": {
     "source_rows": 23978,
     "source_rows_linked": 23978,
     "percent_linked": 100.0
   },
   "research_attempt_coverage": {
-    "person_entities": 23938,
+    "person_entities": 23937,
     "stored_person_entities": 23941,
-    "superseded_person_entities": 3,
-    "people_with_nonplanned_attempts": 12366,
-    "percent": 51.6585
+    "superseded_person_entities": 4,
+    "people_with_nonplanned_attempts": 12388,
+    "percent": 51.7525
   },
   "verified_affiliation_coverage": {
-    "person_entities": 23938,
+    "person_entities": 23937,
     "people_with_confirmed_or_high_published_affiliation": 895,
-    "percent": 3.7388
+    "percent": 3.739
   },
   "verified_employer_coverage": {
-    "person_entities": 23938,
+    "person_entities": 23937,
     "people_with_confirmed_or_high_published_employer": 407,
-    "percent": 1.7002
+    "percent": 1.7003
   },
   "archival_review_coverage": {
-    "person_entities": 23938,
-    "people_assessed": 10831,
-    "percent": 45.2461
+    "person_entities": 23937,
+    "people_assessed": 10853,
+    "percent": 45.3399
   },
   "research_status_counts": {
     "blocked_by_source_access": 1,
     "candidate_found": 333,
     "completed": 221,
-    "conflicting_sources": 361,
+    "conflicting_sources": 362,
     "documented_prewar_employer_found": 212,
     "in_progress": 1895,
     "needs_identity_review": 564,
     "needs_temporal_review": 28,
     "no_reliable_result_after_protocol": 1156,
-    "not_started": 11567,
+    "not_started": 11544,
     "occupation_only_found": 1079,
-    "requires_archival_review": 6182,
+    "requires_archival_review": 6203,
     "verified_employer_found": 339
   },
   "claim_confidence_counts": {
     "confirmed": 1588,
-    "conflicting": 370,
-    "high": 3837,
+    "conflicting": 371,
+    "high": 3844,
     "low": 202,
-    "medium": 1674,
+    "medium": 1675,
     "unresolved": 2
   },
   "personnel_category_counts": {
@@ -56,7 +56,7 @@
     "commissioned_coast_guard_officer": 1,
     "commissioned_marine_corps_officer": 15,
     "commissioned_naval_officer": 103,
-    "enlisted_army_personnel": 4602,
+    "enlisted_army_personnel": 4601,
     "enlisted_marine_corps_personnel": 8,
     "enlisted_naval_personnel": 72,
     "foreign_or_allied_military_personnel": 277,
@@ -64,8 +64,8 @@
     "unknown_or_indeterminate": 15171,
     "warrant_officer": 7
   },
-  "possible_duplicate_groups": 558,
-  "conflict_count": 440,
-  "citations": 6375,
-  "unique_source_documents": 3399
+  "possible_duplicate_groups": 559,
+  "conflict_count": 441,
+  "citations": 6379,
+  "unique_source_documents": 3402
 }
