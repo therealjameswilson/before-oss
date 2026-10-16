@@ -88,7 +88,10 @@ violations.
 
 The database and generated public assets have been rebuilt locally. Python,
 Astro, Playwright, internal-link, public-identifier, manifest, and deterministic
-double-build checks all pass. Commit, GitHub Pages publication, and immutable
-live verification remain pending at the time of this progress record.
+double-build checks all pass. Commit
+`a0c30e4d2a39482f188c5638cef55f4720a7441b` was published by GitHub Pages run
+38849623818, and Test run 38849623823 passed. Immutable live verification
+matched all 67 public assets, eight core routes, 34 source-register pages, and
+all 23 Batch 834 profile URLs.
 
 Resume new-person research at PDF page 407, row 24, Lily Salz.

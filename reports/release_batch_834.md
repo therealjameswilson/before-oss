@@ -41,4 +41,9 @@ candidates remain private conflicts. Protected identifiers remain private.
 
 ## Publication status
 
-Commit, GitHub Pages publication, and immutable live verification are pending.
+GitHub Pages run 38849623818 published commit
+`a0c30e4d2a39482f188c5638cef55f4720a7441b` successfully, and Test run
+38849623823 passed. The immutable live verifier matched all 67 public assets
+(113,814,838 bytes), the release manifest, eight core routes, 34
+source-register pages, and all 23 Batch 834 profile URLs without
+authentication. Public URL: https://therealjameswilson.github.io/before-oss/.
