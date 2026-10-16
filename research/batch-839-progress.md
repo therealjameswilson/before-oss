@@ -90,5 +90,9 @@ SQLite's foreign-key check returned no rows.
 
 ## Publication status
 
-Publication is pending commit, GitHub Pages deployment, and immutable live
-verification. Public URL: https://therealjameswilson.github.io/before-oss/.
+GitHub Pages run 38864188263 published content commit
+`5e59c8f9daca82025e6572497bd1377d125b0948` successfully, and Test run
+38864188279 passed. The immutable unauthenticated verifier matched all 67
+public assets (114,222,526 bytes), the release manifest, eight core routes, 35
+source-register pages, and all 23 Batch 839 profile URLs. Public URL:
+https://therealjameswilson.github.io/before-oss/.
