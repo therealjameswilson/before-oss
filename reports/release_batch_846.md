@@ -45,7 +45,9 @@ occupation codes are not converted into employers.
 
 ## Publication status
 
-Candidate release validated locally. GitHub Pages deployment, the independent
-GitHub Actions test workflow and immutable unauthenticated verification remain
-pending. Public URL after successful deployment:
+GitHub Pages run 38899127402 published content commit
+`829d6b8322707d30d3330f60e648bcd0bab67e66` successfully, and Test run
+38899127503 passed. The immutable unauthenticated verifier matched all 67
+public assets (114,889,466 bytes), the release manifest, eight core routes, 35
+source-register pages and all 23 directly affected profile URLs. Public URL:
 https://therealjameswilson.github.io/before-oss/.

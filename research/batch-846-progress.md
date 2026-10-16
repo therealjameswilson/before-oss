@@ -93,6 +93,10 @@ Two production builds produced the identical 25,088-file tree hash
 
 ## Publication status
 
-Candidate release validated locally; publication and immutable unauthenticated
-verification are pending. Public URL after a successful GitHub Pages deployment:
+Published. GitHub Pages run 38899127402 deployed content commit
+`829d6b8322707d30d3330f60e648bcd0bab67e66` successfully, and Test run
+38899127503 passed the independent pipeline, browser and public-identifier
+checks. The immutable unauthenticated verifier matched all 67 public assets
+(114,889,466 bytes), the release manifest, eight core routes, 35
+source-register pages and all 23 directly affected profile URLs. Public URL:
 https://therealjameswilson.github.io/before-oss/.
