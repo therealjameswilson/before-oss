@@ -1,5 +1,35 @@
 # Research status
 
+Batch 841 completed PDF page 410, rows 24-46, from **Thomas N Savino** through
+**Frank Scanlin Jr.**, preserving all 23 printed rows as separate source
+records linked to 23 active person entities. The printed rows were visually
+checked at 180 dpi. All 23 people have saved, reviewable terminal outcomes.
+A NARA personnel-file biography confirms **Charles H Sawyer** and separately
+documents his immediate Army assignment, last civilian employment at Worcester
+Art Museum, and earlier Phillips Academy work. Official and institutional
+sources support qualified occupation-only pathways for **Joseph Savoldi Jr.**
+and **Vincent J Scamporino** without inventing employers. Contemporary sources
+identify indexed **Alan M Scaiff** as Alan Magee Scaife at high confidence and
+document Gulf Oil Corporation as his last civilian employer before Army
+service; he now appears in the cited oil-company category. Six exact Army
+identities were accepted without publishing identifiers or coded occupations;
+four material Army-name conflicts remain visible. NARA Catalog work remained
+disabled pending safe credential rotation.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,938** active
+people. Research-attempt coverage is **12,320/23,938 (51.4663%)**;
+verified-employer coverage is **404/23,938 (1.6877%)**;
+verified-affiliation coverage is **891/23,938 (3.7221%)**; archival-review
+coverage is **10,785/23,938 (45.0539%)**. There are **11,613** `not_started`
+people, **556** possible-duplicate groups, and **439** conflicts. SQLite
+retains **25,002** research attempts or plans and **7,650** claims: 1,588
+confirmed, 3,821 high, 1,667 medium, 202 low, 370 conflicting, and two
+unresolved. It has **6,353** citation records and **3,379** unique source
+documents. The public projection has **2,787** affiliations, **1,025**
+organizations, **5,124** sources, and **7,442** claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 411, row 1.
+See `research/batch-841-progress.md` for the source-by-source audit.
+
 Batch 834 completed PDF page 407, rows 1-23, from **Edgar Salinger** through
 **Faling K Salvesek**, preserving all 23 printed rows as separate source
 records linked to 23 active person entities. The printed page was visually
