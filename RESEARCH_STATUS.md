@@ -1,5 +1,35 @@
 # Research status
 
+Batch 831 completed PDF page 405, rows 24-46, from **Joseph M F Ryan Jr**
+through **Gerald V Sabatino**, preserving all 23 printed rows as separate source
+records linked to 23 active person entities. The printed page was visually
+checked at 300 dpi. All 23 people have saved, reviewable research outcomes.
+The Washington Post establishes **Joseph M F Ryan Jr**'s Army Air Forces
+assignment immediately before his OSS detail without inventing a civilian
+employer. Official CIA history and the Cranbrook Archives support the rare
+**Egro Saarinew** index entry as architect **Eero Saarinen**, with Saarinen and
+Swanson as his strongly date-bounded pre-OSS enterprise and Cranbrook retained
+as an earlier professional affiliation. Two adjacent Theodore Ryan rows remain
+ambiguous: the strong Aspen biography and employer lead is withheld from both
+profiles pending direct evidence from Boxes 669 and 670. Five exact Army
+identities were accepted without publishing coded occupations; three
+incompatible Army-name candidates remain visible as conflicts. NARA work
+remained in dry-run mode.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,938** active
+people. Research-attempt coverage is **12,093/23,938 (50.5180%)**;
+verified-employer coverage is **395/23,938 (1.6501%)**;
+verified-affiliation coverage is **874/23,938 (3.6511%)**; archival-review
+coverage is **10,557/23,938 (44.1014%)**. There are **11,840** `not_started`
+people, **554** possible-duplicate groups, and **420** conflicts. SQLite
+retains **23,966** attempts or plans and **7,520** claims: 1,568 confirmed,
+3,732 high, 1,653 medium, 202 low, 363 conflicting, and two unresolved. It has
+**6,282** citation records and **3,321** unique source documents. The public
+projection has **2,745** affiliations, **1,004** organizations, **5,054**
+sources, and **7,312** claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 406, row 1, **Harriet W
+Sabine**. See `research/batch-831-progress.md` for the source-by-source audit.
+
 Batch 830 completed PDF page 405, rows 1-23, from **William J Rust** through
 **Joseph A Ryan**, preserving all 23 printed rows as separate source records
 linked to 23 active person entities. The printed page was visually checked at
