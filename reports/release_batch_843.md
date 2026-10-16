@@ -48,5 +48,9 @@ private identity.
 
 ## Publication status
 
-Pending. All local release gates passed. No deployment claim will be made until
-GitHub Pages and the immutable unauthenticated verifier succeed.
+GitHub Pages run 38883687680 published content commit
+`25ab24eda24169852789e80fac7c00c5fab609a1` successfully, and Test run
+38883687577 passed. The immutable unauthenticated verifier matched all 67
+public assets (114,630,416 bytes), the release manifest, eight core routes, 35
+source-register pages, and all 23 directly affected profile URLs. Public URL:
+https://therealjameswilson.github.io/before-oss/.

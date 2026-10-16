@@ -107,6 +107,9 @@ Two clean builds produced the identical 25,086-file tree hash
 
 ## Publication status
 
-Pending. Batch 843 has passed every local release gate but has not yet been
-claimed as public. This section will be replaced only after the GitHub Pages
-run and immutable unauthenticated asset verifier succeed.
+Published. GitHub Pages run 38883687680 deployed content commit
+`25ab24eda24169852789e80fac7c00c5fab609a1` successfully, and Test run
+38883687577 passed. The immutable unauthenticated verifier matched all 67
+public assets (114,630,416 bytes), the release manifest, eight core routes, 35
+source-register pages, and all 23 directly affected profile URLs. Public URL:
+https://therealjameswilson.github.io/before-oss/.
