@@ -1,5 +1,29 @@
 # Research status
 
+Batch 858 completed PDF page 419, rows 1-23, from **Albert B Seitz** through
+**Helen M Selvig**, preserving all 23 printed rows as separate source records
+linked to 23 active person entities. All 23 have saved terminal research
+outcomes. **Marguerite Seitzer**'s State Department work is published as a
+qualified government pathway into OSS rather than as civilian employment.
+Official evidence confirms **Joseph P Seliquini**'s OSS Italian Operational
+Group radio role and **George C Selvig**'s OSS Yugoslavia context, while
+leaving their pre-OSS employers unresolved. **Helen M Selvig**'s University of
+Minnesota record is correctly modeled as student affiliation. Eight official
+Army crosswalks support identity decisions only. The George/Conrad Selvig and
+Harvey Selee/Harvy Solee review issues remain separate and visible through
+opaque public labels.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **12,703/23,937 (53.0685%)**;
+verified-employer coverage is **418/23,937 (1.7463%)**;
+verified-affiliation coverage is **921/23,937 (3.8476%)**; archival-review
+coverage is **11,170/23,937 (46.6642%)**. There are **11,229** `not_started`
+people, **572** possible-duplicate groups and **447** conflicts. The public
+projection contains **2,848** affiliations, **1,062** organizations, **5,259**
+sources and **7,682** published claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 419, row 24, **William W
+Selvig**. See `research/batch-858-progress.md` for the source-by-source audit.
+
 Batch 857 completed PDF page 418, rows 24-46, from **Catherine C Seerley**
 through **Max Seitelman**, preserving all 23 printed rows as separate source
 records linked to 23 active person entities. All 23 have saved terminal

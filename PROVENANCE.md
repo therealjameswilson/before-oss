@@ -5386,6 +5386,48 @@ biography or full copyrighted page is stored or published. The durable evidence
 is in
 `research/evidence-page418-seerley-seitelman-review_batch-857_2026-10-16.json`.
 
+## Page 419 Seitz through Selvig review, Batch 858
+
+The 23 contiguous source rows from Albert B Seitz through Helen M Selvig were
+checked against the reviewed page 419 table and retained as separate immutable
+records. George C Selvig and Conrad G Selvig remain separate possible matches;
+Harvey T Selee also remains separate from the Harvy T Solee row implicated by
+a protected-identifier collision. Public outputs expose only opaque duplicate
+labels and mask all full identifiers.
+
+The checksum-verified NARA Army merged file was searched transiently under its
+official fixed-width documentation. Nonshared private identifiers support
+identity bridges for Donald C Sellman, George J Seleno, George R Selby, Harold
+S Seligmann, Harry G Sells, Joseph M Self Jr., Joseph P Seliquini and Lyle E
+Selix. Army entry-grade and occupation codes were not converted into OSS
+ranks, employers or affiliations. The Harvey T Selee collision was explicitly
+rejected rather than used to merge separate people.
+
+The Washington Post obituary for Marguerite Osborne Seitzer documents State
+Department work followed by OSS cryptographic service in the Mediterranean.
+The State Department is therefore modeled as a qualified probable-immediate
+government assignment, not a civilian employer. National Park Service history
+identifies Joseph P. Seliquini as an OSS Italian Operational Group radio
+operator but supplies no pre-OSS employer or predecessor assignment.
+
+The official Marine Corps history *Herringbone Cloak--GI Dagger* confirms
+George C. Selvig's OSS Yugoslavia context through the aligned uncommon name and
+captain rank. It does not resolve the possible Conrad/George name-order issue
+or establish a pre-OSS affiliation. Minnesota Historical Society and
+University of Minnesota records support Helen Marion Selvig's identity and
+prewar student status; the university is not treated as her employer. A New
+York Public Library description produced a journalism namesake lead for
+Herbert Seligmann, but no identity bridge was found, so no affiliation was
+published.
+
+CIA and Library of Congress automated discovery failed at their first bounded
+requests. Those failures are recorded as access limitations rather than
+negative evidence. No authenticated Catalog request, credential, raw API
+response, full private identifier, raw Army row, unsupported employer,
+unrelated namesake biography or full copyrighted page is stored or published.
+The durable evidence is in
+`research/evidence-page419-seitz-selvig-review_batch-858_2026-10-16.json`.
+
 ## Official reference material
 
 - NARA OSS personnel records:
