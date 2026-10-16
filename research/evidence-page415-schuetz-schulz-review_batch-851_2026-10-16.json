@@ -1,0 +1,287 @@
+{
+  "bundle_version": "1.0",
+  "reviewer": "Before OSS batch 851 archival research review",
+  "sources": [
+    {
+      "key": "nara-index-b851",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 688-689",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 415, rows 24-46; visually checked against a 180 dpi page render",
+      "access_date": "2026-10-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain separate. Full service numbers are retained only in the private database and are excluded from public outputs."
+    },
+    {
+      "key": "army-bulk-b851",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Department of Defense; Department of the Army",
+      "repository_publisher": "National Archives and Records Administration",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; seven protected-identifier comparisons reviewed for Batch 851",
+      "access_date": "2026-10-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "rights_notes": "Six identity bridges were accepted and one material name conflict was rejected. Full identifiers, raw rows and occupation codes are not published."
+    },
+    {
+      "key": "congress-schukraft-b851",
+      "stable_url": "https://www.ibiblio.org/pha/congress/Vol35.pdf",
+      "archival_identifier": "79th Congress, Joint Committee on the Investigation of the Pearl Harbor Attack, volume 35",
+      "title": "Pearl Harbor Attack: Hearings Before the Joint Committee on the Investigation of the Pearl Harbor Attack, Part 35",
+      "author_creator": "United States Congress, Joint Committee on the Investigation of the Pearl Harbor Attack",
+      "repository_publisher": "United States Government Printing Office; scan hosted by the Pearl Harbor Attack collection at ibiblio.org",
+      "publication_record_date": "1946",
+      "locator": "Clausen investigation, transcript page 201, affidavit of Colonel Robert E. Schukraft, sworn 1945-06-26",
+      "access_date": "2026-10-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "Pearl Harbor attack congressional investigation",
+      "rights_notes": "Official sworn testimony is paraphrased and linked; only one excerpt of fewer than 25 words is retained."
+    },
+    {
+      "key": "nsa-schukraft-b851",
+      "stable_url": "https://www.nsa.gov/portals/75/documents/news-features/declassified-documents/army-security-agency/asa-and-subordinate-units-history-1962.pdf",
+      "archival_identifier": "NSA Doc ID 657912",
+      "title": "History of the Army Security Agency and Its Subordinate Units, Fiscal Year 1962",
+      "author_creator": "United States Army Security Agency",
+      "repository_publisher": "National Security Agency",
+      "publication_record_date": "1962",
+      "locator": "Europe section, page 15; Colonel Robert E. Schukraft entry",
+      "access_date": "2026-10-16",
+      "source_quality": "A_direct_official",
+      "collection_name": "NSA declassified Army Security Agency histories",
+      "rights_notes": "Used only to corroborate the exact career officer and protected identifier. The full identifier is not reproduced in project public data."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "signal-intelligence-service-b851",
+      "canonical_name": "U.S. Army Signal Intelligence Service",
+      "historical_name": "Signal Intelligence Service, War Department",
+      "aliases": ["SIS", "Signal Intelligence Service, Office of the Chief Signal Officer"],
+      "organization_type": "military signals-intelligence organization",
+      "sector": "military",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "active_dates": "Named organization documented before and during World War II",
+      "normalization_notes": "Preserved as the historical Signal Corps organization named in the congressional record; it is not collapsed into OSS or the modern NSA."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "robert-schukraft-sis-b851",
+      "person_id": "14276c8d-2681-5443-9655-c0c160fc3cda",
+      "organization_key": "signal-intelligence-service-b851",
+      "organization_name_as_found": "Signal Intelligence Service, War Department",
+      "role_title": "Officer in charge of radio intercepts",
+      "occupation": "U.S. Army Signal Corps officer",
+      "relationship_type": "military_assignment",
+      "start_date": null,
+      "end_date": null,
+      "date_precision": "Attested on 1941-12-07 and for some time prior; exact beginning and end dates are not stated",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Schukraft's sworn affidavit explicitly documents this regular-Army assignment before Pearl Harbor. The accessible source does not date his OSS relationship or prove that this was his immediate predecessor to OSS."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-john-schuetz-b851",
+      "person_id": "6311b1e5-dcf9-58df-8f12-2a69a2a7515b",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record is a high-confidence identity match for indexed John G. Schuetz.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from exact full-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "Identity crosswalk only; the Army record does not establish a pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army entry-grade and occupation fields are not converted into OSS rank, named employer or affiliation.",
+      "sources": [
+        {"source_key": "nara-index-b851", "locator_override": "PDF page 415, row 25; T 4; Box 688"},
+        {"source_key": "army-bulk-b851", "locator_override": "Exact-name and nonshared protected-identifier comparison"}
+      ]
+    },
+    {
+      "key": "identity-robert-schukraft-b851",
+      "person_id": "14276c8d-2681-5443-9655-c0c160fc3cda",
+      "claim_type": "identity",
+      "claim_text": "The indexed Lieutenant Colonel Robert E. Schukraft is confirmed as the career Signal Corps officer documented in official congressional and Army Security Agency records.",
+      "evidence_paraphrase": "The uncommon exact name, compatible wartime rank, Signal Corps chronology and protected officer identifier agree across official records.",
+      "identity_match_assessment": "Confirmed by exact uncommon name, compatible rank, direct wartime testimony and protected officer-identifier agreement with the later official history.",
+      "temporal_assessment": "The congressional affidavit documents his Army assignment before Pearl Harbor and his June 1945 Signal Intelligence assignment; it does not date entry into OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The protected officer identifier is retained privately and masked in public data. No civilian employer is inferred for this career officer.",
+      "sources": [
+        {"source_key": "nara-index-b851", "locator_override": "PDF page 415, row 27; LT COL; Box 689"},
+        {"source_key": "congress-schukraft-b851", "locator_override": "Transcript page 201, sworn affidavit of Robert E. Schukraft"},
+        {"source_key": "nsa-schukraft-b851", "locator_override": "Europe section, page 15; exact-name and protected officer-identifier corroboration"}
+      ]
+    },
+    {
+      "key": "robert-schukraft-sis-prewar-b851",
+      "person_id": "14276c8d-2681-5443-9655-c0c160fc3cda",
+      "affiliation_key": "robert-schukraft-sis-b851",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "On December 7, 1941 and for an unspecified period beforehand, Robert E. Schukraft was the Army Signal Intelligence Service officer in charge of radio intercepts in Washington.",
+      "evidence_excerpt": "On 7 December 1941, and for some time prior thereto, I was stationed at Washington, D. C., in charge of radio intercepts",
+      "evidence_paraphrase": "Schukraft's sworn 1945 affidavit directly describes his pre-Pearl Harbor post and responsibilities.",
+      "identity_match_assessment": "Confirmed exact person in sworn official testimony, corroborated by the indexed rank and protected officer identifier.",
+      "temporal_assessment": "Explicitly in place on December 7, 1941 and for some time beforehand; definitely pre-OSS-era evidence, but not proved to be immediately before his OSS relationship.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Modeled as a military assignment, not a civilian employer. The last civilian employer and exact OSS transfer sequence remain unknown.",
+      "sources": [
+        {"source_key": "congress-schukraft-b851", "locator_override": "Transcript page 201, first paragraph of the affidavit"}
+      ]
+    },
+    {
+      "key": "identity-preston-schuler-b851",
+      "person_id": "5873cfb2-69e9-5d78-80a1-02fa4f7f422c",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record is a high-confidence identity match for indexed Preston R. Schuler.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from exact full-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "Identity crosswalk only; the Army record does not establish a pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army entry-grade and occupation fields are not converted into OSS rank, named employer or affiliation.",
+      "sources": [
+        {"source_key": "nara-index-b851", "locator_override": "PDF page 415, row 32; T/5; Box 689"},
+        {"source_key": "army-bulk-b851", "locator_override": "Exact-name and nonshared protected-identifier comparison"}
+      ]
+    },
+    {
+      "key": "identity-ira-schulman-b851",
+      "person_id": "c35ebe23-f76b-5f74-a5f1-183ecb1361a1",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record is a high-confidence identity match for indexed Ira J. Schulman.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from exact full-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "Identity crosswalk only; the Army record does not establish a pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army entry-grade and occupation fields are not converted into OSS rank, named employer or affiliation.",
+      "sources": [
+        {"source_key": "nara-index-b851", "locator_override": "PDF page 415, row 34; T 5; Box 689"},
+        {"source_key": "army-bulk-b851", "locator_override": "Exact-name and nonshared protected-identifier comparison"}
+      ]
+    },
+    {
+      "key": "identity-curtis-schultz-row38-b851",
+      "person_id": "0222b518-60e4-59b3-b3f5-5aed76819510",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record is a high-confidence identity match for the first indexed Curtis C. Schultz row.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree for this row; the adjacent same-name row carries a different identifier and remains separate.",
+      "identity_match_assessment": "High confidence for this source row from exact full-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "Identity crosswalk only; no employer or immediate pre-OSS assignment is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Both Curtis C. Schultz rows remain visible in a possible-duplicate group. No coded occupation is published as an employer.",
+      "sources": [
+        {"source_key": "nara-index-b851", "locator_override": "PDF page 415, row 38; T/4; Box 689"},
+        {"source_key": "army-bulk-b851", "locator_override": "Exact-name and nonshared protected-identifier comparison for row 38"}
+      ]
+    },
+    {
+      "key": "identity-robert-schultz-b851",
+      "person_id": "69ecbdb8-0662-5599-86c7-9104c752e4ce",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record is a high-confidence identity match for indexed Robert A. Schultz.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from exact full-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "Identity crosswalk only; the Army record does not establish a pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army entry-grade and occupation fields are not converted into OSS rank, named employer or affiliation.",
+      "sources": [
+        {"source_key": "nara-index-b851", "locator_override": "PDF page 415, row 42; PVT; Box 689"},
+        {"source_key": "army-bulk-b851", "locator_override": "Exact-name and nonshared protected-identifier comparison"}
+      ]
+    },
+    {
+      "key": "identity-william-schultz-b851",
+      "person_id": "35c9d96c-52c7-51ad-98fc-1005f48974b0",
+      "claim_type": "identity",
+      "claim_text": "The official Army bulk record is a high-confidence identity match for indexed William J. Schultz.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from exact full-name and nonshared protected-identifier agreement.",
+      "temporal_assessment": "Identity crosswalk only; the Army record does not establish a pre-OSS employer or assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army entry-grade and occupation fields are not converted into OSS rank, named employer or affiliation.",
+      "sources": [
+        {"source_key": "nara-index-b851", "locator_override": "PDF page 415, row 44; PVT; Box 689"},
+        {"source_key": "army-bulk-b851", "locator_override": "Exact-name and nonshared protected-identifier comparison"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {"person_id":"2c3a7f23-5a24-587a-8b96-9445a7b19575","identity_status":"unresolved","identity_evidence":"Exact-name and variant searches did not produce a reliable bridge from Ann M. Schuetz's CAF-3 row to an independent identity or pre-OSS employer.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 688 for Ann M. Schuetz's identity and civilian chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"6311b1e5-dcf9-58df-8f12-2a69a2a7515b","identity_status":"high_confidence","identity_evidence":"Exact full-name and nonshared protected-identifier agreement between the index and official Army bulk record.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 688 for John G. Schuetz's civilian occupation and OSS assignment.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"b1934483-f9fb-5d1c-b401-dab96d48bdcc","identity_status":"unresolved","identity_evidence":"A 1932 local newspaper names an Ellsworth F. Schug in a youth civic activity, but it lacks a wartime identifier, military context or employment chronology tying that person to the indexed Staff Sergeant.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified. Review Box 689 for Ellsworth F. Schug's identity, hometown and pre-Army occupation before assessing the 1932 namesake.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"14276c8d-2681-5443-9655-c0c160fc3cda","identity_status":"confirmed","identity_evidence":"The uncommon exact name, compatible wartime rank, sworn Signal Corps chronology and protected officer identifier agree across the NARA index, congressional record and official Army Security Agency history.","manual_review_required":false,"research_status":"completed","next_action":"Review Box 689 to date Schukraft's relationship to OSS and determine whether another military assignment intervened after his pre-Pearl Harbor Signal Intelligence Service post.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"dd816399-3cdf-5218-b783-52be66bf8380","identity_status":"unresolved","identity_evidence":"Common-name and obituary searches produced multiple Charles J. Schuler candidates without a protected identifier, OSS context or documented pre-OSS chronology.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 689 for Charles J. Schuler's identity, status and prior occupation.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"503bcd27-ba09-59dd-8244-5aa75a3d26c7","identity_status":"unresolved","identity_evidence":"Ithaca city directories list an exact-name Eric T. Schuler in 1938-1942, but the entries supply neither occupation nor an identifier linking that resident to the indexed P-3 person.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified. Review Box 689 for Eric T. Schuler's identity and locality before using or rejecting the Ithaca directory candidate.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"5873cfb2-69e9-5d78-80a1-02fa4f7f422c","identity_status":"high_confidence","identity_evidence":"Exact full-name and nonshared protected-identifier agreement between the index and official Army bulk record.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 689 for Preston R. Schuler's civilian occupation and OSS assignment.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"75f1164c-ce8a-57c6-852b-ccf5ae535ac5","identity_status":"unresolved","identity_evidence":"Exact-name searches did not produce a reliable independent identity or pre-OSS employment source for Beatrice B. Schulman's CAF-3 row.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 689 for Beatrice B. Schulman's identity and civilian chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"c35ebe23-f76b-5f74-a5f1-183ecb1361a1","identity_status":"high_confidence","identity_evidence":"Exact full-name and nonshared protected-identifier agreement between the index and official Army bulk record.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 689 for Ira J. Schulman's civilian occupation and OSS assignment.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"85b1bce4-11ca-57b0-ba6f-3d8885f6efb3","identity_status":"unresolved","identity_evidence":"An obituary-index result for a Walter F. L. Schulte born about 1927 is chronologically incompatible with the indexed wartime corporal and was rejected as a likely namesake.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified. Review Box 689 for Walter F. L. Schulte's birth data, identity and pre-Army occupation.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"6babdb66-f05b-5acb-bfdc-6ddaff49238b","identity_status":"unresolved","identity_evidence":"This unranked Audrey B. Schultz row and the later Audrey B. Schulz CAF-3 row share first name, middle initial and box but lack service identifiers; the spelling variant is insufficient for a merge.","manual_review_required":true,"possible_duplicate_group":"page415-audrey-b-schultz-schulz","research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified. Compare both Audrey B. Schultz/Schulz files in Box 689 before resolving the spelling variant or merging records.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"a7aa6b6b-2f7a-504c-a4e8-41e0c060b77c","identity_status":"unresolved","identity_evidence":"Common-name searches and a timed-out Library of Congress query did not produce a candidate with a protected identifier, T/4 context or reliable employment chronology.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 689 for Carl W. Schultz's identity and pre-Army occupation.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"0222b518-60e4-59b3-b3f5-5aed76819510","identity_status":"high_confidence","identity_evidence":"The first indexed Curtis C. Schultz row matches an official Army bulk entry by exact full name and a nonshared protected identifier. The adjacent same-name row has a different identifier and remains separate.","manual_review_required":true,"possible_duplicate_group":"page415-curtis-c-schultz","research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified. Review both Curtis C. Schultz files in Box 689 and document why the index contains separate T/4 and T/5 rows.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"b41af879-a52d-58c4-83e8-9b3cb24dc972","identity_status":"unresolved","identity_evidence":"This second Curtis C. Schultz row has a different rank and protected identifier from the adjacent row. Its identifier points to an Army bulk entry with the materially conflicting name Kenneth C. Nelson, so that proposed match was rejected.","manual_review_required":true,"possible_duplicate_group":"page415-curtis-c-schultz","research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified. Review both Curtis C. Schultz files in Box 689 and resolve the second row's protected-identifier/name conflict without merging the records prematurely.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"e87090bc-7fac-5a3b-845b-5fbbd9fc5a85","identity_status":"unresolved","identity_evidence":"Searches using Ignac, Ignatz and Ignacy variants did not produce a reliable wartime identity bridge or a documented pre-OSS affiliation.","name_variants":["Ignatz G Schultz","Ignacy G Schultz"],"manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified. Review Box 689 for Ignac G. Schultz's nationality, full given name, identity and prior affiliation.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"7688537f-5bfa-5999-8e0c-02f057c3663a","identity_status":"unresolved","identity_evidence":"The common name and private-rank context did not yield an official crosswalk or independently documented pre-OSS employment chronology for indexed Private John W. Schultz.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 689 for John W. Schultz's identity and pre-Army occupation.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"69ecbdb8-0662-5599-86c7-9104c752e4ce","identity_status":"high_confidence","identity_evidence":"Exact full-name and nonshared protected-identifier agreement between the index and official Army bulk record.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 689 for Robert A. Schultz's civilian occupation and OSS assignment.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"599b91f4-7d2a-5b1c-a845-4965b80096da","identity_status":"unresolved","identity_evidence":"Exact-name and variant searches did not produce a reliable bridge from Thelma C. Schultz's CAF-4 row to an independent identity or pre-OSS employer.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 689 for Thelma C. Schultz's identity and civilian chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"35c9d96c-52c7-51ad-98fc-1005f48974b0","identity_status":"high_confidence","identity_evidence":"Exact full-name and nonshared protected-identifier agreement between the index and official Army bulk record.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 689 for William J. Schultz's civilian occupation and OSS assignment.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"df1ecaf7-2b09-564b-9b8c-35436b547003","identity_status":"unresolved","identity_evidence":"This Audrey B. Schulz CAF-3 row and the earlier unranked Audrey B. Schultz row share first name, middle initial and box but lack service identifiers; the spelling variant is insufficient for a merge.","manual_review_required":true,"possible_duplicate_group":"page415-audrey-b-schultz-schulz","research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified. Compare both Audrey B. Schultz/Schulz files in Box 689 before resolving the spelling variant or merging records.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"7977e41c-7967-5085-83c6-43aadc2a2ba6","identity_status":"unresolved","identity_evidence":"Common-name and obituary searches produced multiple Bernard G. Schulz candidates without a protected identifier, OSS context or reliable wartime chronology.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 689 for Bernard G. Schulz's identity, status and pre-OSS affiliation.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"}
+  ],
+  "research_attempts": [
+    {"key":"ann-m-schuetz-b851","person_id":"2c3a7f23-5a24-587a-8b96-9445a7b19575","source_adapter":"manual_staged_protocol","query_text":"NARA page 415 row 24; Ann M Schuetz; exact-name OSS; CIA, employer, occupation, obituary, directory and archival searches; Box 688","query_variant_type":"staged_identity_employment_archival_protocol_batch_851","started_at":"2026-10-16T14:50:00+00:00","completed_at":"2026-10-16T15:09:00+00:00","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":4,"rejection_reasons":"Modern and partial-name results lacked CAF-3, protected-identifier, wartime or OSS context.","research_notes":"No reliable independent identity or employer was established. CIA automated access remained unavailable under the source's robots policy; the LoC batch produced a timeout, both treated as access limits.","next_action":"Review Box 688 for identity and civilian chronology.","attempt_number":1,"research_agent_version":"before-oss-b851-v1"},
+    {"key":"john-g-schuetz-b851","person_id":"6311b1e5-dcf9-58df-8f12-2a69a2a7515b","source_adapter":"manual_staged_protocol","query_text":"NARA page 415 row 25; John G Schuetz; official Army bulk; exact-name OSS; CIA, employer, occupation, obituary, directory and archival searches; Box 688","query_variant_type":"staged_identity_employment_archival_protocol_batch_851","started_at":"2026-10-16T14:50:00+00:00","completed_at":"2026-10-16T15:09:00+00:00","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":3,"rejection_reasons":"Namesakes lacked the protected identifier or employment chronology; Army occupation coding was not interpreted as an employer.","research_notes":"Official Army data supplies a high-confidence identity crosswalk only. No reliable pre-OSS employer or assignment was found.","next_action":"Review Box 688 for civilian occupation and OSS assignment evidence.","attempt_number":1,"research_agent_version":"before-oss-b851-v1"},
+    {"key":"ellsworth-f-schug-b851","person_id":"b1934483-f9fb-5d1c-b401-dab96d48bdcc","source_adapter":"manual_staged_protocol","query_text":"NARA page 415 row 26; Ellsworth F Schug; exact-name OSS; CIA, employer, occupation, obituary, newspaper, directory and archival searches; Box 689","query_variant_type":"staged_identity_employment_archival_protocol_batch_851","started_at":"2026-10-16T14:50:00+00:00","completed_at":"2026-10-16T15:09:00+00:00","outcome":"candidate_rejected","sources_reviewed":6,"candidate_sources_rejected":4,"rejection_reasons":"A 1932 youth-civic newspaper mention lacked a wartime identifier, military context and employment chronology; other results were unrelated namesakes.","research_notes":"The newspaper lead is too weak to identify the indexed Staff Sergeant and supports no employer claim.","next_action":"Review Box 689 for identity, hometown and pre-Army occupation.","attempt_number":1,"research_agent_version":"before-oss-b851-v1"},
+    {"key":"robert-e-schukraft-b851","person_id":"14276c8d-2681-5443-9655-c0c160fc3cda","source_adapter":"manual_staged_protocol","query_text":"NARA page 415 row 27; Robert E Schukraft; official congressional Pearl Harbor record; NSA Army Security Agency history; exact-name OSS; CIA, employer, occupation, obituary and archival searches; Box 689","query_variant_type":"staged_identity_employment_archival_protocol_batch_851","started_at":"2026-10-16T14:50:00+00:00","completed_at":"2026-10-16T15:09:00+00:00","outcome":"source_reviewed","sources_reviewed":8,"candidate_sources_rejected":2,"rejection_reasons":"Postwar command references were used only for identity corroboration; no source dated an OSS transfer or named a civilian employer.","research_notes":"Official congressional testimony confirms the pre-Pearl Harbor Signal Intelligence Service assignment. The protected officer identifier and later official history confirm identity. This is military assignment evidence, not civilian employment.","next_action":"Review Box 689 to date the OSS relationship and determine whether another military assignment intervened.","attempt_number":1,"research_agent_version":"before-oss-b851-v1"},
+    {"key":"charles-j-schuler-b851","person_id":"dd816399-3cdf-5218-b783-52be66bf8380","source_adapter":"manual_staged_protocol","query_text":"NARA page 415 row 30; Charles J Schuler; exact-name OSS; CIA, employer, occupation, obituary, directory and archival searches; Box 689","query_variant_type":"staged_identity_employment_archival_protocol_batch_851","started_at":"2026-10-16T14:50:00+00:00","completed_at":"2026-10-16T15:09:00+00:00","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":6,"rejection_reasons":"Multiple obituary and genealogy namesakes lacked an identifier, OSS context and reliable wartime chronology.","research_notes":"No reliable identity or employer was established; discovery-only genealogy was not used as evidence.","next_action":"Review Box 689 for identity, personnel status and prior occupation.","attempt_number":1,"research_agent_version":"before-oss-b851-v1"},
+    {"key":"eric-t-schuler-b851","person_id":"503bcd27-ba09-59dd-8244-5aa75a3d26c7","source_adapter":"manual_staged_protocol","query_text":"NARA page 415 row 31; Eric T Schuler; exact-name OSS; CIA, employer, occupation 1940, Ithaca directory, obituary and archival searches; Box 689","query_variant_type":"staged_identity_employment_archival_protocol_batch_851","started_at":"2026-10-16T14:50:00+00:00","completed_at":"2026-10-16T15:09:00+00:00","outcome":"candidate_rejected","sources_reviewed":7,"candidate_sources_rejected":4,"rejection_reasons":"Ithaca directories contain the exact name but no occupation, wartime identifier or link to the indexed P-3 row; other results were namesakes.","research_notes":"The directory candidate remains a locality lead only and is not published as identity or employment evidence.","next_action":"Review Box 689 for identity and locality before revisiting Ithaca directories.","attempt_number":1,"research_agent_version":"before-oss-b851-v1"},
+    {"key":"preston-r-schuler-b851","person_id":"5873cfb2-69e9-5d78-80a1-02fa4f7f422c","source_adapter":"manual_staged_protocol","query_text":"NARA page 415 row 32; Preston R Schuler; official Army bulk; exact-name OSS; CIA, employer, occupation, obituary, directory and archival searches; Box 689","query_variant_type":"staged_identity_employment_archival_protocol_batch_851","started_at":"2026-10-16T14:50:00+00:00","completed_at":"2026-10-16T15:09:00+00:00","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":3,"rejection_reasons":"Namesakes lacked the protected identifier or employment chronology; Army occupation coding was not interpreted as an employer.","research_notes":"Official Army data supplies a high-confidence identity crosswalk only. No reliable pre-OSS employer or assignment was found.","next_action":"Review Box 689 for civilian occupation and OSS assignment evidence.","attempt_number":1,"research_agent_version":"before-oss-b851-v1"},
+    {"key":"beatrice-b-schulman-b851","person_id":"75f1164c-ce8a-57c6-852b-ccf5ae535ac5","source_adapter":"manual_staged_protocol","query_text":"NARA page 415 row 33; Beatrice B Schulman; exact-name OSS; CIA, employer, occupation, obituary, directory and archival searches; Box 689","query_variant_type":"staged_identity_employment_archival_protocol_batch_851","started_at":"2026-10-16T14:50:00+00:00","completed_at":"2026-10-16T15:09:00+00:00","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":4,"rejection_reasons":"Results lacked the middle initial, CAF-3 context, protected identifier, OSS linkage or employment chronology.","research_notes":"No reliable independent identity or employer was established.","next_action":"Review Box 689 for identity and civilian chronology.","attempt_number":1,"research_agent_version":"before-oss-b851-v1"},
+    {"key":"ira-j-schulman-b851","person_id":"c35ebe23-f76b-5f74-a5f1-183ecb1361a1","source_adapter":"manual_staged_protocol","query_text":"NARA page 415 row 34; Ira J Schulman; official Army bulk; exact-name OSS; CIA, employer, occupation, obituary, directory and archival searches; Box 689","query_variant_type":"staged_identity_employment_archival_protocol_batch_851","started_at":"2026-10-16T14:50:00+00:00","completed_at":"2026-10-16T15:09:00+00:00","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":3,"rejection_reasons":"Namesakes lacked the protected identifier or employment chronology; Army occupation coding was not interpreted as an employer.","research_notes":"Official Army data supplies a high-confidence identity crosswalk only. No reliable pre-OSS employer or assignment was found.","next_action":"Review Box 689 for civilian occupation and OSS assignment evidence.","attempt_number":1,"research_agent_version":"before-oss-b851-v1"},
+    {"key":"walter-f-l-schulte-b851","person_id":"85b1bce4-11ca-57b0-ba6f-3d8885f6efb3","source_adapter":"manual_staged_protocol","query_text":"NARA page 415 row 35; Walter F L Schulte; exact-name OSS; CIA, employer, occupation, obituary, directory and archival searches; Box 689","query_variant_type":"staged_identity_employment_archival_protocol_batch_851","started_at":"2026-10-16T14:50:00+00:00","completed_at":"2026-10-16T15:09:00+00:00","outcome":"candidate_rejected","sources_reviewed":6,"candidate_sources_rejected":4,"rejection_reasons":"The exact-initial obituary-index candidate was born about 1927 and is chronologically incompatible with the indexed wartime corporal; other results lacked identifiers.","research_notes":"The too-young namesake was explicitly rejected. No reliable identity or employer was established.","next_action":"Review Box 689 for birth data, identity and pre-Army occupation.","attempt_number":1,"research_agent_version":"before-oss-b851-v1"},
+    {"key":"audrey-b-schultz-b851","person_id":"6babdb66-f05b-5acb-bfdc-6ddaff49238b","source_adapter":"manual_staged_protocol","query_text":"NARA page 415 rows 36 and 45; Audrey B Schultz and Audrey B Schulz; exact-name and spelling-variant OSS; CIA, employer, occupation, obituary, directory and archival searches; Box 689","query_variant_type":"staged_identity_employment_archival_protocol_batch_851","started_at":"2026-10-16T14:50:00+00:00","completed_at":"2026-10-16T15:09:00+00:00","outcome":"candidate_found","sources_reviewed":6,"candidate_sources_rejected":4,"rejection_reasons":"External results lacked CAF-3, protected identifiers or OSS context; the index-internal one-letter surname variant alone cannot justify a merge.","research_notes":"Both source rows remain separate in a possible-duplicate group pending review of the two Box 689 files.","next_action":"Compare both Audrey B. Schultz/Schulz personnel files.","attempt_number":1,"research_agent_version":"before-oss-b851-v1"},
+    {"key":"carl-w-schultz-b851","person_id":"a7aa6b6b-2f7a-504c-a4e8-41e0c060b77c","source_adapter":"manual_staged_protocol","query_text":"NARA page 415 row 37; Carl W Schultz; exact-name OSS; CIA, employer, occupation, obituary, Library of Congress and archival searches; Box 689","query_variant_type":"staged_identity_employment_archival_protocol_batch_851","started_at":"2026-10-16T14:50:00+00:00","completed_at":"2026-10-16T15:09:00+00:00","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":5,"rejection_reasons":"Common-name candidates lacked a protected identifier, T/4 context or reliable employment chronology.","research_notes":"No reliable identity or employer was established. The bounded LoC adapter timed out after retries; that access failure is logged separately and is not treated as a negative result.","next_action":"Review Box 689 for identity and pre-Army occupation.","last_error_redacted":"Library of Congress API TimeoutError; no response body stored.","attempt_number":1,"research_agent_version":"before-oss-b851-v1"},
+    {"key":"curtis-c-schultz-row38-b851","person_id":"0222b518-60e4-59b3-b3f5-5aed76819510","source_adapter":"manual_staged_protocol","query_text":"NARA page 415 row 38; first Curtis C Schultz row; official Army bulk; exact-name OSS; CIA, employer, occupation, obituary and archival searches; Box 689","query_variant_type":"staged_identity_employment_archival_protocol_batch_851","started_at":"2026-10-16T14:50:00+00:00","completed_at":"2026-10-16T15:09:00+00:00","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":4,"rejection_reasons":"Other same-name results lacked the protected identifier; the adjacent index row carries a different identifier and remains separate.","research_notes":"Official Army data identifies this source row at high confidence only. No employer is inferred from coded fields.","next_action":"Review both Curtis C. Schultz files and document the T/4 versus T/5 distinction.","attempt_number":1,"research_agent_version":"before-oss-b851-v1"},
+    {"key":"curtis-c-schultz-row39-b851","person_id":"b41af879-a52d-58c4-83e8-9b3cb24dc972","source_adapter":"manual_staged_protocol","query_text":"NARA page 415 row 39; second Curtis C Schultz row; official Army bulk conflict review; exact-name OSS; CIA, employer, occupation, obituary and archival searches; Box 689","query_variant_type":"staged_identity_employment_archival_protocol_batch_851","started_at":"2026-10-16T14:50:00+00:00","completed_at":"2026-10-16T15:09:00+00:00","outcome":"candidate_found","sources_reviewed":6,"candidate_sources_rejected":5,"rejection_reasons":"The protected identifier points to an Army entry named Kenneth C Nelson, a material name conflict; other same-name results lacked a bridge.","research_notes":"The proposed Army match was rejected. This row and the adjacent Curtis C. Schultz row remain separate in a possible-duplicate group.","next_action":"Review both Box 689 files and resolve the name/identifier conflict.","attempt_number":1,"research_agent_version":"before-oss-b851-v1"},
+    {"key":"ignac-g-schultz-b851","person_id":"e87090bc-7fac-5a3b-845b-5fbbd9fc5a85","source_adapter":"manual_staged_protocol","query_text":"NARA page 415 row 40; Ignac G Schultz, Ignatz G Schultz and Ignacy G Schultz; exact-name OSS; CIA, employer, occupation, obituary, foreign-language and archival searches; Box 689","query_variant_type":"staged_identity_employment_archival_protocol_batch_851","started_at":"2026-10-16T14:50:00+00:00","completed_at":"2026-10-16T15:09:00+00:00","outcome":"no_result","sources_reviewed":6,"candidate_sources_rejected":5,"rejection_reasons":"Variant-name results lacked an OSS bridge, protected identifier and reliable wartime chronology.","research_notes":"No reliable identity or pre-OSS affiliation was established after transliteration and spelling-variant searches.","next_action":"Review Box 689 for nationality, full given name and prior affiliation.","attempt_number":1,"research_agent_version":"before-oss-b851-v1"},
+    {"key":"john-w-schultz-b851","person_id":"7688537f-5bfa-5999-8e0c-02f057c3663a","source_adapter":"manual_staged_protocol","query_text":"NARA page 415 row 41; John W Schultz; exact-name OSS; CIA, employer, occupation, obituary, military and archival searches; Box 689","query_variant_type":"staged_identity_employment_archival_protocol_batch_851","started_at":"2026-10-16T14:50:00+00:00","completed_at":"2026-10-16T15:09:00+00:00","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":6,"rejection_reasons":"Common-name military and obituary candidates lacked the protected identifier, matching OSS context or employment chronology.","research_notes":"No reliable identity or employer was established.","next_action":"Review Box 689 for identity and pre-Army occupation.","attempt_number":1,"research_agent_version":"before-oss-b851-v1"},
+    {"key":"robert-a-schultz-b851","person_id":"69ecbdb8-0662-5599-86c7-9104c752e4ce","source_adapter":"manual_staged_protocol","query_text":"NARA page 415 row 42; Robert A Schultz; official Army bulk; exact-name OSS; CIA, employer, occupation, obituary, directory and archival searches; Box 689","query_variant_type":"staged_identity_employment_archival_protocol_batch_851","started_at":"2026-10-16T14:50:00+00:00","completed_at":"2026-10-16T15:09:00+00:00","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":5,"rejection_reasons":"Common-name results lacked the protected identifier or employment chronology; Army occupation coding was not interpreted as an employer.","research_notes":"Official Army data supplies a high-confidence identity crosswalk only. No reliable pre-OSS employer or assignment was found.","next_action":"Review Box 689 for civilian occupation and OSS assignment evidence.","attempt_number":1,"research_agent_version":"before-oss-b851-v1"},
+    {"key":"thelma-c-schultz-b851","person_id":"599b91f4-7d2a-5b1c-a845-4965b80096da","source_adapter":"manual_staged_protocol","query_text":"NARA page 415 row 43; Thelma C Schultz; exact-name OSS; CIA, employer, occupation, obituary, directory and archival searches; Box 689","query_variant_type":"staged_identity_employment_archival_protocol_batch_851","started_at":"2026-10-16T14:50:00+00:00","completed_at":"2026-10-16T15:09:00+00:00","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":6,"rejection_reasons":"Genealogy and obituary candidates lacked the middle initial, CAF-4 context, protected identifier or employment chronology.","research_notes":"No reliable identity or employer was established; discovery-only records were not admitted as evidence.","next_action":"Review Box 689 for identity and civilian chronology.","attempt_number":1,"research_agent_version":"before-oss-b851-v1"},
+    {"key":"william-j-schultz-b851","person_id":"35c9d96c-52c7-51ad-98fc-1005f48974b0","source_adapter":"manual_staged_protocol","query_text":"NARA page 415 row 44; William J Schultz; official Army bulk; exact-name OSS; CIA, employer, occupation, obituary, directory and archival searches; Box 689","query_variant_type":"staged_identity_employment_archival_protocol_batch_851","started_at":"2026-10-16T14:50:00+00:00","completed_at":"2026-10-16T15:09:00+00:00","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":5,"rejection_reasons":"Common-name results lacked the protected identifier or employment chronology; Army occupation coding was not interpreted as an employer.","research_notes":"Official Army data supplies a high-confidence identity crosswalk only. No reliable pre-OSS employer or assignment was found.","next_action":"Review Box 689 for civilian occupation and OSS assignment evidence.","attempt_number":1,"research_agent_version":"before-oss-b851-v1"},
+    {"key":"audrey-b-schulz-b851","person_id":"df1ecaf7-2b09-564b-9b8c-35436b547003","source_adapter":"manual_staged_protocol","query_text":"NARA page 415 rows 45 and 36; Audrey B Schulz and Audrey B Schultz; exact-name and spelling-variant OSS; CIA, employer, occupation, obituary, directory and archival searches; Box 689","query_variant_type":"staged_identity_employment_archival_protocol_batch_851","started_at":"2026-10-16T14:50:00+00:00","completed_at":"2026-10-16T15:09:00+00:00","outcome":"candidate_found","sources_reviewed":6,"candidate_sources_rejected":4,"rejection_reasons":"External results lacked CAF-3, protected identifiers or OSS context; the index-internal one-letter surname variant alone cannot justify a merge.","research_notes":"Both source rows remain separate in a possible-duplicate group pending review of the two Box 689 files.","next_action":"Compare both Audrey B. Schultz/Schulz personnel files.","attempt_number":1,"research_agent_version":"before-oss-b851-v1"},
+    {"key":"bernard-g-schulz-b851","person_id":"7977e41c-7967-5085-83c6-43aadc2a2ba6","source_adapter":"manual_staged_protocol","query_text":"NARA page 415 row 46; Bernard G Schulz; exact-name OSS; CIA, employer, occupation, obituary, genealogy and archival searches; Box 689","query_variant_type":"staged_identity_employment_archival_protocol_batch_851","started_at":"2026-10-16T14:50:00+00:00","completed_at":"2026-10-16T15:09:00+00:00","outcome":"no_result","sources_reviewed":5,"candidate_sources_rejected":7,"rejection_reasons":"Multiple same-name genealogy and obituary candidates lacked an identifier, OSS context and reliable wartime chronology.","research_notes":"No reliable identity or employer was established; discovery-only genealogy was not used as evidence.","next_action":"Review Box 689 for identity, personnel status and pre-OSS affiliation.","attempt_number":1,"research_agent_version":"before-oss-b851-v1"}
+  ]
+}

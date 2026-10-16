@@ -1,5 +1,31 @@
 # Research status
 
+Batch 851 completed PDF page 415, rows 24-46, from **Ann M Schuetz** through
+**Bernard G Schulz**, preserving all 23 printed rows as separate source records
+linked to 23 active person entities. All 23 have saved terminal research
+outcomes. Official congressional testimony and an NSA history confirm **Robert
+E Schukraft** and document his pre-Pearl Harbor Signal Intelligence Service
+assignment without upgrading it to an immediate OSS predecessor or civilian
+employer. Six official Army crosswalks support high-confidence identities only;
+protected identifiers and coded occupations remain private. The two Curtis C
+Schultz rows remain separate because they carry different ranks and identifiers,
+and the second points to a materially conflicting Army name. The Audrey B
+Schultz/Schulz spelling variants also remain separate pending examination of
+both Box 689 files. **Seymour W Schulberg** and **Stuart H Schulberg** retain
+their earlier verified-employer outcomes; no unsupported namesake was converted
+into a pre-OSS claim.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **12,545/23,937 (52.4084%)**;
+verified-employer coverage is **412/23,937 (1.7212%)**;
+verified-affiliation coverage is **909/23,937 (3.7975%)**; archival-review
+coverage is **11,010/23,937 (45.9957%)**. There are **11,387** `not_started`
+people, **564** possible-duplicate groups and **443** conflicts. The public
+projection contains **2,826** affiliations, **1,048** organizations, **5,202**
+sources and **7,584** claims. Full-index historical research remains
+unfinished. The next indexed boundary is PDF page 416, row 1, **Ernest C
+Schulz**. See `research/batch-851-progress.md` for the source-by-source audit.
+
 Batch 850 completed PDF page 415, rows 1-23, from **Joseph Schreiber** through
 **Gloria M Schuette**, preserving all 23 printed rows as separate source
 records linked to 23 active person entities. All 23 have saved terminal
