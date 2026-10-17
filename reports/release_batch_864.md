@@ -60,6 +60,11 @@ Date: 2026-10-17
 
 ## Publication state
 
-The Batch 864 release candidate is locally verified but not yet published.
-The immutable content commit, GitHub Actions runs and live manifest verification
-will be recorded here after deployment.
+Batch 864 is published at
+<https://therealjameswilson.github.io/before-oss/> from immutable content
+commit `08b386119bac8ea328fc44b68b87e9d9ca89255d`. GitHub Actions test run
+`39040513001` and Pages deployment run `39040512937` both completed
+successfully. The immutable live verifier checked 67 assets totaling
+116,551,397 bytes, manifest SHA-256
+`5ec272cba9fa314f76488d9f26d9fb6d198aeb30b2f84ae7290b57567323557c`,
+eight core routes, 36 source-register pages and 23 direct Batch 864 profiles.
