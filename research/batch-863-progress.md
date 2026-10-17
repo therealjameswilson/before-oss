@@ -104,8 +104,18 @@ Two production builds produced the identical 25,125-file static-site hash
 
 ## Publication status
 
-Local release gates are complete. Publication and unauthenticated live
-verification are pending.
+Published from content commit
+`b2657badbac2d12dfcfc2412efd72d0f48421058`. GitHub Pages run
+`39038466789` and Test run `39038466806` completed successfully. The
+unauthenticated immutable verifier checked all 67 manifested assets
+(116,488,321 bytes), eight core routes, 36 source-register pages and all 23
+direct profile routes referenced by the evidence bundle at
+`https://therealjameswilson.github.io/before-oss/`. The live manifest SHA-256
+is `c5eb292a751bc4f3ad87e0e7c0a9bcd45cc8b79c2738a854d22ab3f762d8bdca`,
+matching the reviewed release. Live statistics report generation time
+`2026-10-17T15:32:00Z`, 12,817 research-attempted people, 423 verified-
+employer profiles, 932 verified-affiliation profiles and 11,284 people with
+archival-review assessment.
 
 ## Resume commands
 
