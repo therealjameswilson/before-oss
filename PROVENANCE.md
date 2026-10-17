@@ -5510,6 +5510,42 @@ identifier, raw Army row, unsupported employer, unrelated namesake biography
 or full copyrighted page is stored or published. The durable evidence is in
 `research/evidence-page420-sereda-sevcik-review_batch-860_2026-10-16.json`.
 
+## Page 423 Sheeks through Shepard review, Batch 866
+
+The 23 contiguous source rows from R B Sheeks through Hubert L Shepard were
+checked against the reviewed page 423 table and retained as separate immutable
+records. Names, printed ranks, Boxes 701-703 and archive location 230/86/40/05
+remain recoverable; public outputs mask full identifiers.
+
+The checksum-verified NARA Army merged file was searched transiently under its
+official fixed-width documentation. Nonshared private identifiers support
+identity bridges for Willard D Sheeler, Henry W Sheinwold, Arnold H Sheldon,
+George F Sheldon and James G Shelley. Army entry-grade and occupation codes
+were not converted into OSS ranks, employers or affiliations.
+
+Harvard Law School and United Press International support Paul Cushing
+Sheeline's Army Air Forces liaison-to-OSS sequence. The liaison role with the
+French Air Force is modeled as a military assignment, not civilian employment.
+A *Washington Post* obituary documents Willard DeMont Sheeler's linguistic
+study at Harvard immediately before OSS; Harvard is modeled as student status.
+
+American Contract Bridge League and *Los Angeles Times* sources support Alfred
+Sheinwold's identity, *The Bridge World* editorship and wartime OSS
+cryptographic-security service. His later prewar newspaper is left unnamed
+rather than assigned to a guessed organization. Two Ramsey County Historical
+Society histories support Gordon Shepard's 1939 employment at Oppenheimer,
+Woolf & Donnelly immediately before wartime service and his return in 1945.
+
+A NARA-hosted postwar history names Colonel Henry G. Sheen, but supplies no
+direct bridge to the indexed Captain. That candidate remains private and low
+confidence. A later Hubert L. Shepard directory entry is rejected as an
+unbridged namesake. CIA robots restrictions and a bounded LoC adapter timeout
+are recorded as access limitations, not negative evidence. No authenticated
+Catalog request, credential, raw API response, full private identifier, raw
+Army row, unsupported employer, unrelated namesake biography or full
+copyrighted page is stored or published. The durable evidence is in
+`research/evidence-page423-sheeks-shepard-review_batch-866_2026-10-17.json`.
+
 ## Official reference material
 
 - NARA OSS personnel records:

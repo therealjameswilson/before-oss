@@ -1,5 +1,37 @@
 # Research status
 
+Batch 866 completed PDF page 423, rows 1-23, from **R B Sheeks** through
+**Hubert L Shepard**, preserving all 23 printed rows as separate source records
+linked to 23 active people. Five nonshared protected identifiers support
+high-confidence official Army identity bridges for **Willard D Sheeler**,
+**Henry W Sheinwold**, **Arnold H Sheldon**, **George F Sheldon** and **James G
+Shelley**; Army-coded fields remain private and were not converted into
+employers or OSS ranks.
+
+Four source-supported pre-OSS pathways were added. **Paul Cushing Sheeline**
+served in the U.S. Army Air Forces as a liaison officer with the French Air
+Force immediately before OSS. **Willard DeMont Sheeler** undertook further
+linguistic study at Harvard before joining OSS; Harvard is correctly modeled
+as student status, not employment. **Alfred Sheinwold** was editor of *The
+Bridge World* from 1934, while the more immediate New York newspaper remains
+unnamed. **Gordon Shepard** joined Oppenheimer, Woolf & Donnelly in 1939; the
+firm is both his strongly date-bounded immediate affiliation and last civilian
+employer before wartime service. A postwar Henry G Sheen lead remains withheld
+at low confidence pending archival review.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **12,885/23,937 (53.8288%)**;
+verified-employer coverage is **425/23,937 (1.7755%)**;
+verified-affiliation coverage is **937/23,937 (3.9144%)**; archival-review
+coverage is **11,352/23,937 (47.4245%)**. There are **11,047** `not_started`
+people, **578** possible-duplicate groups and **447** conflicts. The public
+projection contains **2,871** affiliations, **1,075** organizations, **5,315**
+sources and **7,780** published or qualified claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 423, row
+24, **John M Shepard**. See `research/batch-866-progress.md` for the
+source-by-source audit. Batch 866 is locally rebuilt and awaiting release QA
+and publication.
+
 Batch 865 completed PDF page 422, rows 24-46, from **Jerome W Shay** through
 **Nellie M Sheehy**, preserving all 23 printed rows and linking them to 22
 active person entities. The two Charles W Shearer rows repeat the same exact
