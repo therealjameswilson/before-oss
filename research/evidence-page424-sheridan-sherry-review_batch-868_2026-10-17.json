@@ -1,0 +1,1262 @@
+{
+  "bundle_version": "batch-868-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 868 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b868",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 703-704",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 424, rows 1-23; checked against extracted layout text and parser audit",
+      "access_date": "2026-10-17",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain preserved. Protected identifiers are retained only in the private database and are masked from public data."
+    },
+    {
+      "key": "army-bulk-b868",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Department of Defense; Department of the Army",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; five candidates reviewed and accepted for identity only",
+      "access_date": "2026-10-17",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "rights_notes": "Full identifiers, raw rows, entry-grade codes and occupation codes are not published. Army-coded fields are not treated as named employers or OSS ranks."
+    },
+    {
+      "key": "time-eugene-sherman-1986",
+      "stable_url": "https://time.com/archive/6706396/honoring-the-loyalists/",
+      "title": "Honoring the Loyalists",
+      "author_creator": "Frank Trippett",
+      "repository_publisher": "TIME",
+      "publication_record_date": "1986-06-09",
+      "locator": "OSS veterans reunion account; paragraph describing a Eugene Sherman in China",
+      "access_date": "2026-10-17",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Candidate OSS-context source only. The common name lacks a protected-identifier or personnel-file bridge to the indexed person."
+    },
+    {
+      "key": "nara-entry210-irving-sherman",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/entry-210.pdf",
+      "archival_identifier": "RG 226, Entry 210, WN#14753",
+      "title": "Records of the Office of Strategic Services (Record Group 226), Entry 210",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "locator": "PDF page 119; records relating to and by Irving Sherman, including an Istanbul trip report, ca. May 1942-October 1945",
+      "access_date": "2026-10-17",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Official series inventory used as an identity and OSS-service bridge; the described records were not represented as reviewed personnel-file contents."
+    },
+    {
+      "key": "agbecker-war-irving-sherman",
+      "stable_url": "https://agbecker.us/war-years-1940-to-1945/",
+      "title": "War Years - 1940 to 1945",
+      "author_creator": "Paul R. Judy",
+      "repository_publisher": "A.G. Becker & Co., Inc. - The Chronicle",
+      "locator": "Section 'Irving Sherman - OSS'; corporate-history narrative based on firm archives and the recollections of Sherman's stepson",
+      "access_date": "2026-10-17",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Project-authored paraphrase retained; no page reproduction."
+    },
+    {
+      "key": "agbecker-bio-irving-sherman",
+      "stable_url": "https://agbecker.us/biography/irving-h-sherman/",
+      "title": "Irving H. Sherman",
+      "author_creator": "Paul R. Judy",
+      "repository_publisher": "A.G. Becker & Co., Inc. - The Chronicle",
+      "locator": "Employee biography; joined Becker in 1926, vice-president from 1935, New York office, recruited for OSS at the start of World War II",
+      "access_date": "2026-10-17",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Corporate-history biography by a former Becker chief executive drawing on firm archives."
+    },
+    {
+      "key": "wesleyan-florence-sherriff-1944",
+      "stable_url": "https://archives.wesleyancollege.edu/files/original/caf1d9084c6143c3402acfbe4609593d.pdf",
+      "archival_identifier": "Wesleyan Alumnae, February 1944",
+      "title": "Two New Teachers Join Faculty at Wesleyan",
+      "repository_publisher": "Wesleyan College Archives",
+      "publication_record_date": "1944-02",
+      "locator": "Printed pages 2 and 5; Florence Janson Sherriff's Shanghai teaching, internment, repatriation and February 1944 Wesleyan appointment",
+      "access_date": "2026-10-17",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Wesleyan Alumnae",
+      "rights_notes": "Citation and project-authored paraphrase retained; no page reproduction."
+    },
+    {
+      "key": "afsa-victor-sheronas-1934",
+      "stable_url": "https://afsa.org/sites/default/files/fsj-1934-03-march_0.pdf",
+      "archival_identifier": "American Foreign Service Journal, Vol. XI, No. 3",
+      "title": "Russian Notes",
+      "repository_publisher": "American Foreign Service Association",
+      "publication_record_date": "1934-03",
+      "locator": "Printed page 132; Department of State announcement of personnel selected for the American Embassy and Consulate General in Moscow",
+      "access_date": "2026-10-17",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "The American Foreign Service Journal",
+      "rights_notes": "Contemporary periodical evidence; Victor F. Sheronas is listed under 'Other Personnel' without a job title."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "ag-becker-b868",
+      "canonical_name": "A. G. Becker & Co.",
+      "historical_name": "A. G. Becker & Co., Inc.",
+      "aliases": [
+        "A.G. Becker & Co.",
+        "A.G. Becker"
+      ],
+      "organization_type": "investment bank",
+      "sector": "finance_and_banking",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "active_dates": "1893-1984",
+      "normalization_notes": "The historical corporate form is retained; no modern successor is substituted."
+    },
+    {
+      "key": "university-shanghai-b868",
+      "canonical_name": "University of Shanghai",
+      "historical_name": "University of Shanghai",
+      "aliases": [
+        "Shanghai University (historical Christian institution)"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Shanghai",
+      "country": "Republic of China",
+      "normalization_notes": "This historical institution is not silently equated with a modern university of similar name."
+    },
+    {
+      "key": "st-johns-shanghai-b868",
+      "canonical_name": "St. John's University, Shanghai",
+      "historical_name": "St. John's University",
+      "aliases": [
+        "St. John's University in Shanghai"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Shanghai",
+      "country": "Republic of China",
+      "normalization_notes": "The Shanghai institution is distinguished from unrelated St. John's colleges and universities."
+    },
+    {
+      "key": "shanghai-american-school-b868",
+      "canonical_name": "Shanghai American School",
+      "historical_name": "Shanghai American School",
+      "aliases": [],
+      "organization_type": "school",
+      "sector": "academia_and_research",
+      "city": "Shanghai",
+      "country": "Republic of China",
+      "normalization_notes": "Historical source wording retained."
+    },
+    {
+      "key": "us-embassy-moscow-b868",
+      "organization_id": "45ccae2a-67ff-52f7-9719-8740a552117b",
+      "canonical_name": "Embassy of the United States, Moscow",
+      "historical_name": "American Embassy and Consulate General in Moscow",
+      "aliases": [
+        "U.S. Embassy Moscow",
+        "American Embassy in Moscow"
+      ],
+      "organization_type": "embassy",
+      "sector": "federal_government",
+      "city": "Moscow",
+      "country": "Soviet Union",
+      "normalization_notes": "The 1934 historical mission name is retained separately from the canonical organization name."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "irving-sherman-agbecker-b868",
+      "person_id": "91e3e442-b31e-5359-9e6e-e87c2a080845",
+      "organization_key": "ag-becker-b868",
+      "organization_name_as_found": "A. G. Becker & Co., Inc.",
+      "role_title": "Vice-President",
+      "relationship_type": "employment",
+      "start_date": "1926",
+      "end_date": "1941",
+      "date_precision": "year",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The corporate biography documents employment from 1926 and vice-presidency from 1935; the war history explicitly says Donovan recruited Sherman while he was still connected to Becker. The exact recruitment date is given only as the start of World War II/1941 context."
+    },
+    {
+      "key": "florence-sherriff-university-shanghai-b868",
+      "person_id": "65c9654c-3d56-578c-9dbd-f30b6e5bc6f4",
+      "organization_key": "university-shanghai-b868",
+      "organization_name_as_found": "University of Shanghai",
+      "role_title": "teacher",
+      "relationship_type": "employment",
+      "city": "Shanghai",
+      "country": "Republic of China",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Wesleyan's contemporary institutional bulletin says Florence Janson Sherriff taught at three Shanghai institutions before wartime internment. It does not establish which was last or when her OSS service began."
+    },
+    {
+      "key": "florence-sherriff-stjohns-b868",
+      "person_id": "65c9654c-3d56-578c-9dbd-f30b6e5bc6f4",
+      "organization_key": "st-johns-shanghai-b868",
+      "organization_name_as_found": "St. John's University in Shanghai",
+      "role_title": "teacher",
+      "relationship_type": "employment",
+      "city": "Shanghai",
+      "country": "Republic of China",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The bulletin documents teaching before wartime internment but does not identify the final pre-OSS employer."
+    },
+    {
+      "key": "florence-sherriff-shanghai-american-school-b868",
+      "person_id": "65c9654c-3d56-578c-9dbd-f30b6e5bc6f4",
+      "organization_key": "shanghai-american-school-b868",
+      "organization_name_as_found": "Shanghai American School",
+      "role_title": "teacher",
+      "relationship_type": "employment",
+      "city": "Shanghai",
+      "country": "Republic of China",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The bulletin documents teaching before wartime internment but does not identify the final pre-OSS employer."
+    },
+    {
+      "key": "victor-sheronas-moscow-embassy-b868",
+      "person_id": "50769b2d-82e1-50d4-8ba4-6ae1e2d52f0d",
+      "organization_key": "us-embassy-moscow-b868",
+      "organization_name_as_found": "American Embassy and Consulate General in Moscow",
+      "relationship_type": "government_assignment",
+      "start_date": "1934",
+      "date_precision": "year",
+      "city": "Moscow",
+      "country": "Soviet Union",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "A contemporary Foreign Service periodical lists Victor F. Sheronas among personnel selected for Moscow but provides no job title or later chronology. The personnel file is needed to confirm the bridge to the indexed person."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-william-t-sheridan-b868",
+      "person_id": "c2f02ebb-93b2-54a7-9dca-3c023c1609e0",
+      "claim_type": "identity",
+      "claim_text": "The indexed William T Sheridan is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army file.",
+      "identity_match_assessment": "High confidence from an exact-name, unique protected-identifier bridge.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named employer or Army-to-OSS chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army-coded fields remain private and are not converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b868",
+          "locator_override": "PDF page 424, row 3; Box 703; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b868",
+          "locator_override": "Accepted reviewed identity bridge; bulk record ordinal 3719504; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-eugene-sherman-b868",
+      "person_id": "f829cb6e-b7ca-5044-87e8-f8175ae5650c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Eugene Sherman is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army file.",
+      "identity_match_assessment": "High confidence from an exact-name, unique protected-identifier bridge.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named employer or Army-to-OSS chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army-coded fields remain private and are not converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b868",
+          "locator_override": "PDF page 424, row 7; Box 704; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b868",
+          "locator_override": "Accepted reviewed identity bridge; bulk record ordinal 698514; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-james-r-sherrill-b868",
+      "person_id": "e3dd4466-23b1-50fb-bd1e-5de229396d5b",
+      "claim_type": "identity",
+      "claim_text": "The indexed James R Sherrill is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army file.",
+      "identity_match_assessment": "High confidence from an exact-name, unique protected-identifier bridge.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named employer or Army-to-OSS chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army-coded fields remain private and are not converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b868",
+          "locator_override": "PDF page 424, row 19; Box 704; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b868",
+          "locator_override": "Accepted reviewed identity bridge; bulk record ordinal 1341524; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-bowden-sherrod-b868",
+      "person_id": "5cd1c35e-6d36-5924-b56d-ee9bc4bf5144",
+      "claim_type": "identity",
+      "claim_text": "The indexed Bowden Sherrod is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army file.",
+      "identity_match_assessment": "High confidence from an exact-name, unique protected-identifier bridge.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named employer or Army-to-OSS chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army-coded fields remain private and are not converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b868",
+          "locator_override": "PDF page 424, row 22; Box 704; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b868",
+          "locator_override": "Accepted reviewed identity bridge; bulk record ordinal 7576005; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-byron-p-sherry-b868",
+      "person_id": "c894e1c9-d2b6-5666-8664-389a0b0d561b",
+      "claim_type": "identity",
+      "claim_text": "The indexed Byron P Sherry is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army file.",
+      "identity_match_assessment": "High confidence from an exact-name, unique protected-identifier bridge.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named employer or Army-to-OSS chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army-coded fields remain private and are not converted into employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b868",
+          "locator_override": "PDF page 424, row 23; Box 704; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b868",
+          "locator_override": "Accepted reviewed identity bridge; bulk record ordinal 4478312; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "candidate-eugene-sherman-time-b868",
+      "person_id": "f829cb6e-b7ca-5044-87e8-f8175ae5650c",
+      "claim_type": "identity",
+      "claim_text": "A TIME account of an OSS veteran named Eugene Sherman is a plausible but unconfirmed candidate for the indexed Eugene Sherman.",
+      "evidence_paraphrase": "The 1986 reunion account places a Eugene Sherman, age nineteen, on an OSS-related journey toward a guerrilla base near Canton.",
+      "identity_match_assessment": "Low confidence because the common name is not linked to the protected identifier or Box 704.",
+      "temporal_assessment": "The account supplies OSS context but no pre-OSS employment chronology.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "low",
+      "publication_status": "withheld_low_confidence",
+      "match_notes": "Retained as an archival-review lead; it is not published as an established fact about the indexed person.",
+      "sources": [
+        {
+          "source_key": "nara-index-b868",
+          "locator_override": "PDF page 424, row 7; Box 704"
+        },
+        {
+          "source_key": "time-eugene-sherman-1986",
+          "locator_override": "OSS veterans reunion paragraph naming Eugene Sherman"
+        }
+      ]
+    },
+    {
+      "key": "identity-irving-sherman-b868",
+      "person_id": "91e3e442-b31e-5359-9e6e-e87c2a080845",
+      "claim_type": "identity",
+      "claim_text": "The indexed Irving Sherman is a high-confidence match to investment banker and OSS officer Irving H. Sherman.",
+      "evidence_paraphrase": "The corporate history explicitly describes his recruitment into OSS, and NARA's Entry 210 inventory identifies wartime records relating to and by Irving Sherman.",
+      "identity_match_assessment": "High confidence from concordant official OSS records and a detailed corporate biography that expands the middle initial.",
+      "temporal_assessment": "The sources supply a continuous Becker-to-OSS chronology beginning in 1941.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Irving H. Sherman is retained as a documented name variant; the index spelling remains primary.",
+      "sources": [
+        {
+          "source_key": "nara-index-b868",
+          "locator_override": "PDF page 424, row 9; Box 704"
+        },
+        {
+          "source_key": "nara-entry210-irving-sherman",
+          "locator_override": "PDF page 119; WN#14753"
+        },
+        {
+          "source_key": "agbecker-bio-irving-sherman",
+          "locator_override": "Employee biography and wartime recruitment summary"
+        }
+      ]
+    },
+    {
+      "key": "immediate-irving-sherman-b868",
+      "person_id": "91e3e442-b31e-5359-9e6e-e87c2a080845",
+      "affiliation_key": "irving-sherman-agbecker-b868",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Irving H. Sherman's immediate pre-OSS affiliation was A. G. Becker & Co., where he worked in corporate finance and was a vice-president.",
+      "evidence_paraphrase": "The company chronicle says Sherman joined Becker in 1926, became vice-president in 1935, and was recruited directly by Donovan in 1941.",
+      "identity_match_assessment": "High-confidence exact-person match supported by NARA's OSS record inventory and the detailed Becker biography.",
+      "temporal_assessment": "Explicit immediate chronology: the company history says Donovan recruited Sherman while he was connected to Becker.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The employer and title are documented; no more precise recruitment date is inferred.",
+      "sources": [
+        {
+          "source_key": "agbecker-war-irving-sherman",
+          "locator_override": "Section 'Irving Sherman - OSS'"
+        },
+        {
+          "source_key": "agbecker-bio-irving-sherman",
+          "locator_override": "Joined 1926; vice-president 1935; primary office New York; OSS recruitment"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-irving-sherman-b868",
+      "person_id": "91e3e442-b31e-5359-9e6e-e87c2a080845",
+      "affiliation_key": "irving-sherman-agbecker-b868",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "A. G. Becker & Co. is Irving H. Sherman's last documented civilian employer before OSS service.",
+      "evidence_paraphrase": "The corporate history places his Becker career immediately before Donovan recruited him and records his return to the firm after the war.",
+      "identity_match_assessment": "High-confidence exact-person match supported by official OSS records and the company history.",
+      "temporal_assessment": "Explicit immediate sequence with no documented intervening civilian employer.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The profile distinguishes civilian investment-banking employment from OSS service.",
+      "sources": [
+        {
+          "source_key": "agbecker-war-irving-sherman",
+          "locator_override": "Becker-to-OSS recruitment narrative and 1946 return"
+        },
+        {
+          "source_key": "agbecker-bio-irving-sherman",
+          "locator_override": "Corporate career and wartime recruitment summary"
+        }
+      ]
+    },
+    {
+      "key": "identity-florence-j-sherriff-b868",
+      "person_id": "65c9654c-3d56-578c-9dbd-f30b6e5bc6f4",
+      "claim_type": "identity",
+      "claim_text": "Florence Janson Sherriff is the probable identity of the indexed Florence J. Sherriff.",
+      "evidence_paraphrase": "A contemporary Wesleyan bulletin gives the same distinctive first name, middle name, and surname and documents her wartime repatriation from China.",
+      "identity_match_assessment": "Probable: the name is highly distinctive and fully expanded, but no protected identifier or direct personnel-file citation bridges the sources.",
+      "temporal_assessment": "The bulletin documents Shanghai employment before wartime internment and a February 1944 Wesleyan appointment, but not the date she entered OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The expanded name is published as a probable variant, not as a confirmed identity.",
+      "sources": [
+        {
+          "source_key": "nara-index-b868",
+          "locator_override": "PDF page 424, row 17; Box 704"
+        },
+        {
+          "source_key": "wesleyan-florence-sherriff-1944",
+          "locator_override": "Printed pages 2 and 5"
+        }
+      ]
+    },
+    {
+      "key": "prewar-florence-sherriff-university-shanghai-b868",
+      "person_id": "65c9654c-3d56-578c-9dbd-f30b6e5bc6f4",
+      "affiliation_key": "florence-sherriff-university-shanghai-b868",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Florence Janson Sherriff taught at the University of Shanghai before wartime internment.",
+      "evidence_paraphrase": "Wesleyan's February 1944 bulletin says she taught for more than ten years across three Shanghai institutions before repatriation.",
+      "identity_match_assessment": "Probable exact-person match from the distinctive fully expanded name; a direct personnel-file bridge remains absent.",
+      "temporal_assessment": "Documented prewar employment, but not shown to be the immediate pre-OSS role.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The source does not provide separate dates or titles for each Shanghai institution.",
+      "sources": [
+        {
+          "source_key": "wesleyan-florence-sherriff-1944",
+          "locator_override": "Printed pages 2 and 5; Shanghai teaching summary"
+        }
+      ]
+    },
+    {
+      "key": "prewar-florence-sherriff-stjohns-b868",
+      "person_id": "65c9654c-3d56-578c-9dbd-f30b6e5bc6f4",
+      "affiliation_key": "florence-sherriff-stjohns-b868",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Florence Janson Sherriff taught at St. John's University in Shanghai before wartime internment.",
+      "evidence_paraphrase": "Wesleyan's February 1944 bulletin names St. John's among the Shanghai institutions where she taught.",
+      "identity_match_assessment": "Probable exact-person match from the distinctive fully expanded name; a direct personnel-file bridge remains absent.",
+      "temporal_assessment": "Documented prewar employment, but not shown to be the immediate pre-OSS role.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The source does not provide separate dates or titles for each Shanghai institution.",
+      "sources": [
+        {
+          "source_key": "wesleyan-florence-sherriff-1944",
+          "locator_override": "Printed pages 2 and 5; Shanghai teaching summary"
+        }
+      ]
+    },
+    {
+      "key": "prewar-florence-sherriff-shanghai-school-b868",
+      "person_id": "65c9654c-3d56-578c-9dbd-f30b6e5bc6f4",
+      "affiliation_key": "florence-sherriff-shanghai-american-school-b868",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Florence Janson Sherriff taught at Shanghai American School before wartime internment.",
+      "evidence_paraphrase": "Wesleyan's February 1944 bulletin names Shanghai American School among the institutions where she taught.",
+      "identity_match_assessment": "Probable exact-person match from the distinctive fully expanded name; a direct personnel-file bridge remains absent.",
+      "temporal_assessment": "Documented prewar employment, but not shown to be the immediate pre-OSS role.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The source does not provide separate dates or titles for each Shanghai institution.",
+      "sources": [
+        {
+          "source_key": "wesleyan-florence-sherriff-1944",
+          "locator_override": "Printed page 5; Shanghai teaching summary"
+        }
+      ]
+    },
+    {
+      "key": "identity-victor-f-sheronas-b868",
+      "person_id": "50769b2d-82e1-50d4-8ba4-6ae1e2d52f0d",
+      "claim_type": "identity",
+      "claim_text": "The Victor F. Sheronas selected for the 1934 U.S. mission in Moscow is a probable match to the indexed Victor F. Sheronas.",
+      "evidence_paraphrase": "The uncommon exact full name appears in a contemporary Foreign Service announcement, but no protected identifier or explicit OSS link is supplied.",
+      "identity_match_assessment": "Probable from an uncommon exact full name; confirmation still requires the personnel file.",
+      "temporal_assessment": "The 1934 government assignment is definitely prewar, but its distance from OSS service prevents an immediate-affiliation inference.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The profile preserves the remaining identity uncertainty.",
+      "sources": [
+        {
+          "source_key": "nara-index-b868",
+          "locator_override": "PDF page 424, row 15; Box 704"
+        },
+        {
+          "source_key": "afsa-victor-sheronas-1934",
+          "locator_override": "Printed page 132; 'Other Personnel'"
+        }
+      ]
+    },
+    {
+      "key": "prewar-victor-sheronas-moscow-b868",
+      "person_id": "50769b2d-82e1-50d4-8ba4-6ae1e2d52f0d",
+      "affiliation_key": "victor-sheronas-moscow-embassy-b868",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A probable match for Victor F. Sheronas was selected for the American Embassy and Consulate General in Moscow in 1934.",
+      "evidence_paraphrase": "The Foreign Service Journal reproduced the State Department's personnel announcement and listed Victor F. Sheronas among other personnel.",
+      "identity_match_assessment": "Probable exact-name match; no direct personnel-file bridge is available.",
+      "temporal_assessment": "Documented 1934 government assignment; not shown to be immediate before OSS.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No role title is inferred from the source's 'Other Personnel' heading.",
+      "sources": [
+        {
+          "source_key": "afsa-victor-sheronas-1934",
+          "locator_override": "Printed page 132; Moscow personnel announcement"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "da3cda0f-5cfa-5fa5-a77d-957806008db7",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed Thomas J Sheridan produced no reliable exact-person source with a direct OSS, personnel-file, or corroborating-identifier bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 703 to establish Thomas J Sheridan's identity and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "3b4ea3ce-1cb4-5b09-834d-66ccaf50d21b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed William B Sheridan produced no reliable exact-person source with a direct OSS, personnel-file, or corroborating-identifier bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 703 to establish William B Sheridan's identity and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "c2f02ebb-93b2-54a7-9dca-3c023c1609e0",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact full name and a nonshared protected identifier link the index to official Army source form SHERIDAN WILLIAM T.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 703 for William T Sheridan's civilian chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "36b08d43-3894-5709-addd-97168128674d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed Arthur Sherman produced no reliable exact-person source with a direct OSS, personnel-file, or corroborating-identifier bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 704 to establish Arthur Sherman's identity and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "71988779-8020-5131-9736-214d37a567a7",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed Carlton A Sherman produced no reliable exact-person source with a direct OSS, personnel-file, or corroborating-identifier bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 704 to establish Carlton A Sherman's identity and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "c453e83b-fb93-53d0-8e2b-6f5f1e6056b7",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed David H Sherman produced no reliable exact-person source with a direct OSS, personnel-file, or corroborating-identifier bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 704 to establish David H Sherman's identity and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "f829cb6e-b7ca-5044-87e8-f8175ae5650c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact full name and a nonshared protected identifier link the index to official Army source form SHERMAN EUGENE.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 704 for Eugene Sherman's civilian chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a3f7a944-1eea-5187-a97b-96028ae16f3c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed George H Sherman produced no reliable exact-person source with a direct OSS, personnel-file, or corroborating-identifier bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 704 to establish George H Sherman's identity and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "91e3e442-b31e-5359-9e6e-e87c2a080845",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Official NARA Entry 210 records relating to and by Irving Sherman align with the indexed name; A. G. Becker's detailed corporate history identifies Irving H. Sherman and explicitly documents his OSS recruitment.",
+      "name_variants": [
+        "Irving H Sherman"
+      ],
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 704 to confirm the exact recruitment date and any intervening federal or military status.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "4e555325-b107-540b-afc3-64838502e204",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed Mabel H Sherman produced no reliable exact-person source with a direct OSS, personnel-file, or corroborating-identifier bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 704 to establish Mabel H Sherman's identity and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "fbc54b79-5c6e-512f-bc7c-bc3c41fbb912",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed Miriam R Sherman produced no reliable exact-person source with a direct OSS, personnel-file, or corroborating-identifier bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 704 to establish Miriam R Sherman's identity and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b072546f-072d-50c1-bf36-9fbbe632a751",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed Philip H Sherman produced no reliable exact-person source with a direct OSS, personnel-file, or corroborating-identifier bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 704 to establish Philip H Sherman's identity and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e1f99af1-43c9-5738-a2f8-6dd69ac18552",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed Captain Richard T Sherman produced no reliable exact-person source with a direct OSS, personnel-file, or corroborating-identifier bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 704 to establish Richard T Sherman's identity and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "3d7ed0e3-f244-510f-89a4-b8661cf88dfb",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed William Sherman produced no reliable exact-person source with a direct OSS, personnel-file, or corroborating-identifier bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 704 to establish William Sherman's identity and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "50769b2d-82e1-50d4-8ba4-6ae1e2d52f0d",
+      "identity_status": "probable",
+      "identity_evidence": "A 1934 Foreign Service announcement names the uncommon exact form Victor F. Sheronas among personnel selected for the U.S. mission in Moscow; no direct Box 704 or protected-identifier bridge has been located.",
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 704 to confirm the identity match and reconstruct the chronology between the 1934 Moscow assignment and OSS.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7f85f1ee-6821-537c-87b3-d892ad5ba07e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed Alfred Sherrard produced no reliable exact-person source with a direct OSS, personnel-file, or corroborating-identifier bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 704 to establish Alfred Sherrard's identity and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "65c9654c-3d56-578c-9dbd-f30b6e5bc6f4",
+      "identity_status": "probable",
+      "identity_evidence": "A contemporary Wesleyan institutional bulletin identifies Florence Janson Sherriff, a distinctive fully expanded match, and documents her wartime China chronology; a direct Box 704 or protected-identifier bridge remains absent.",
+      "name_variants": [
+        "Florence Janson Sherriff"
+      ],
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 704 to confirm the identity bridge, determine her OSS entry date, and establish whether Wesleyan or another role immediately preceded OSS.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7e3cf9fa-9583-5657-b644-f321a34d460a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed David D Sherrill produced no reliable exact-person source with a direct OSS, personnel-file, or corroborating-identifier bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 704 to establish David D Sherrill's identity and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e3dd4466-23b1-50fb-bd1e-5de229396d5b",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact full name and a nonshared protected identifier link the index to official Army source form SHERRILL JAMES R.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 704 for James R Sherrill's civilian chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a4bd35e9-5c0e-541e-b3a6-e56bbe08c2df",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed Lucy Sherrill produced no reliable exact-person source with a direct OSS, personnel-file, or corroborating-identifier bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 704 to establish Lucy Sherrill's identity and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "5acf6ba2-46d2-530f-af69-e07b960859fb",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed Margaret S Sherrill produced no reliable exact-person source with a direct OSS, personnel-file, or corroborating-identifier bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 704 to establish Margaret S Sherrill's identity and pre-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "5cd1c35e-6d36-5924-b56d-ee9bc4bf5144",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact full name and a nonshared protected identifier link the index to official Army source form SHERROD BOWDEN.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 704 for Bowden Sherrod's civilian chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c894e1c9-d2b6-5666-8664-389a0b0d561b",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact full name and a nonshared protected identifier link the index to official Army source form SHERRY BYRON P.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 704 for Byron P Sherry's civilian chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "thomas-j-sheridan-b868",
+      "person_id": "da3cda0f-5cfa-5fa5-a77d-957806008db7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 424 row 1; Thomas J Sheridan; official NARA and CIA-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; institutional and archival searches; Box 703",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_868",
+      "started_at": "2026-10-17T18:10:00Z",
+      "completed_at": "2026-10-17T18:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "research_notes": "No reliable exact-person identity or pre-OSS employer has yet been identified. Common-name and discovery-only candidates were not accepted.",
+      "next_action": "Review Box 703.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b868-v1",
+      "rejection_reasons": "Search results either concerned namesakes, lacked an OSS bridge, were discovery-only, or supplied no usable chronology."
+    },
+    {
+      "key": "william-b-sheridan-b868",
+      "person_id": "3b4ea3ce-1cb4-5b09-834d-66ccaf50d21b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 424 row 2; William B Sheridan; official NARA and CIA-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; institutional and archival searches; Box 703",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_868",
+      "started_at": "2026-10-17T18:11:00Z",
+      "completed_at": "2026-10-17T18:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "research_notes": "No reliable exact-person identity or pre-OSS employer has yet been identified. Common-name and discovery-only candidates were not accepted.",
+      "next_action": "Review Box 703.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b868-v1",
+      "rejection_reasons": "Search results either concerned namesakes, lacked an OSS bridge, were discovery-only, or supplied no usable chronology."
+    },
+    {
+      "key": "william-t-sheridan-b868",
+      "person_id": "c2f02ebb-93b2-54a7-9dca-3c023c1609e0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 424 row 3; William T Sheridan; protected identifier; official Army; official NARA and CIA-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; institutional and archival searches; Box 703",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_868",
+      "started_at": "2026-10-17T18:12:00Z",
+      "completed_at": "2026-10-17T18:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Official Army identity bridge accepted; no reliable pre-OSS employer identified.",
+      "next_action": "Review Box 703.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b868-v1"
+    },
+    {
+      "key": "arthur-sherman-b868",
+      "person_id": "36b08d43-3894-5709-addd-97168128674d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 424 row 4; Arthur Sherman; official NARA and CIA-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; institutional and archival searches; Box 704",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_868",
+      "started_at": "2026-10-17T18:13:00Z",
+      "completed_at": "2026-10-17T18:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "research_notes": "No reliable exact-person identity or pre-OSS employer has yet been identified. Common-name and discovery-only candidates were not accepted.",
+      "next_action": "Review Box 704.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b868-v1",
+      "rejection_reasons": "Search results either concerned namesakes, lacked an OSS bridge, were discovery-only, or supplied no usable chronology."
+    },
+    {
+      "key": "carlton-a-sherman-b868",
+      "person_id": "71988779-8020-5131-9736-214d37a567a7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 424 row 5; Carlton A Sherman; official NARA and CIA-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; institutional and archival searches; Box 704",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_868",
+      "started_at": "2026-10-17T18:14:00Z",
+      "completed_at": "2026-10-17T18:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "research_notes": "No reliable exact-person identity or pre-OSS employer has yet been identified. Common-name and discovery-only candidates were not accepted.",
+      "next_action": "Review Box 704.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b868-v1",
+      "rejection_reasons": "Search results either concerned namesakes, lacked an OSS bridge, were discovery-only, or supplied no usable chronology."
+    },
+    {
+      "key": "david-h-sherman-b868",
+      "person_id": "c453e83b-fb93-53d0-8e2b-6f5f1e6056b7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 424 row 6; David H Sherman; official NARA and CIA-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; institutional and archival searches; Box 704",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_868",
+      "started_at": "2026-10-17T18:15:00Z",
+      "completed_at": "2026-10-17T18:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "research_notes": "No reliable exact-person identity or pre-OSS employer has yet been identified. Common-name and discovery-only candidates were not accepted.",
+      "next_action": "Review Box 704.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b868-v1",
+      "rejection_reasons": "Search results either concerned namesakes, lacked an OSS bridge, were discovery-only, or supplied no usable chronology."
+    },
+    {
+      "key": "eugene-sherman-b868",
+      "person_id": "f829cb6e-b7ca-5044-87e8-f8175ae5650c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 424 row 7; Eugene Sherman; protected identifier; official Army; official NARA and CIA-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; institutional and archival searches; Box 704",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_868",
+      "started_at": "2026-10-17T18:16:00Z",
+      "completed_at": "2026-10-17T18:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 1,
+      "research_notes": "Official Army identity bridge accepted. A TIME namesake in an OSS China account remains a low-confidence lead; no employer was inferred.",
+      "next_action": "Review Box 704.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b868-v1",
+      "rejection_reasons": "The TIME account supplies only a common-name match and lacks the protected identifier or Box 704 bridge."
+    },
+    {
+      "key": "george-h-sherman-b868",
+      "person_id": "a3f7a944-1eea-5187-a97b-96028ae16f3c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 424 row 8; George H Sherman; official NARA and CIA-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; institutional and archival searches; Box 704",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_868",
+      "started_at": "2026-10-17T18:17:00Z",
+      "completed_at": "2026-10-17T18:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "research_notes": "No reliable exact-person identity or pre-OSS employer has yet been identified. Common-name and discovery-only candidates were not accepted.",
+      "next_action": "Review Box 704.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b868-v1",
+      "rejection_reasons": "Search results either concerned namesakes, lacked an OSS bridge, were discovery-only, or supplied no usable chronology."
+    },
+    {
+      "key": "irving-sherman-b868",
+      "person_id": "91e3e442-b31e-5359-9e6e-e87c2a080845",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 424 row 9; Irving Sherman; official NARA and CIA-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; institutional and archival searches; Box 704",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_868",
+      "started_at": "2026-10-17T18:18:00Z",
+      "completed_at": "2026-10-17T18:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Official NARA OSS inventory and A. G. Becker corporate history reviewed; immediate and last civilian employer supported.",
+      "next_action": "Review Box 704 to refine the recruitment date.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b868-v1"
+    },
+    {
+      "key": "mabel-h-sherman-b868",
+      "person_id": "4e555325-b107-540b-afc3-64838502e204",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 424 row 10; Mabel H Sherman; official NARA and CIA-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; institutional and archival searches; Box 704",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_868",
+      "started_at": "2026-10-17T18:19:00Z",
+      "completed_at": "2026-10-17T18:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "research_notes": "No reliable exact-person identity or pre-OSS employer has yet been identified. Common-name and discovery-only candidates were not accepted.",
+      "next_action": "Review Box 704.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b868-v1",
+      "rejection_reasons": "Search results either concerned namesakes, lacked an OSS bridge, were discovery-only, or supplied no usable chronology."
+    },
+    {
+      "key": "miriam-r-sherman-b868",
+      "person_id": "fbc54b79-5c6e-512f-bc7c-bc3c41fbb912",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 424 row 11; Miriam R Sherman; official NARA and CIA-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; institutional and archival searches; Box 704",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_868",
+      "started_at": "2026-10-17T18:20:00Z",
+      "completed_at": "2026-10-17T18:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "research_notes": "No reliable exact-person identity or pre-OSS employer has yet been identified. Common-name and discovery-only candidates were not accepted.",
+      "next_action": "Review Box 704.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b868-v1",
+      "rejection_reasons": "Search results either concerned namesakes, lacked an OSS bridge, were discovery-only, or supplied no usable chronology."
+    },
+    {
+      "key": "philip-h-sherman-b868",
+      "person_id": "b072546f-072d-50c1-bf36-9fbbe632a751",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 424 row 12; Philip H Sherman; official NARA and CIA-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; institutional and archival searches; Box 704",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_868",
+      "started_at": "2026-10-17T18:21:00Z",
+      "completed_at": "2026-10-17T18:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "research_notes": "No reliable exact-person identity or pre-OSS employer has yet been identified. Common-name and discovery-only candidates were not accepted.",
+      "next_action": "Review Box 704.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b868-v1",
+      "rejection_reasons": "Search results either concerned namesakes, lacked an OSS bridge, were discovery-only, or supplied no usable chronology."
+    },
+    {
+      "key": "richard-t-sherman-b868",
+      "person_id": "e1f99af1-43c9-5738-a2f8-6dd69ac18552",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 424 row 13; Captain Richard T Sherman; official NARA and CIA-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; institutional and archival searches; Box 704",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_868",
+      "started_at": "2026-10-17T18:22:00Z",
+      "completed_at": "2026-10-17T18:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "research_notes": "No reliable exact-person identity or pre-OSS employer has yet been identified. Common-name and discovery-only candidates were not accepted.",
+      "next_action": "Review Box 704.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b868-v1",
+      "rejection_reasons": "Search results either concerned namesakes, lacked an OSS bridge, were discovery-only, or supplied no usable chronology."
+    },
+    {
+      "key": "william-sherman-b868",
+      "person_id": "3d7ed0e3-f244-510f-89a4-b8661cf88dfb",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 424 row 14; William Sherman; official NARA and CIA-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; institutional and archival searches; Box 704",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_868",
+      "started_at": "2026-10-17T18:23:00Z",
+      "completed_at": "2026-10-17T18:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "research_notes": "No reliable exact-person identity or pre-OSS employer has yet been identified. Common-name and discovery-only candidates were not accepted.",
+      "next_action": "Review Box 704.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b868-v1",
+      "rejection_reasons": "Search results either concerned namesakes, lacked an OSS bridge, were discovery-only, or supplied no usable chronology."
+    },
+    {
+      "key": "victor-f-sheronas-b868",
+      "person_id": "50769b2d-82e1-50d4-8ba4-6ae1e2d52f0d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 424 row 15; Victor F Sheronas; official NARA and CIA-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; institutional and archival searches; Box 704",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_868",
+      "started_at": "2026-10-17T18:24:00Z",
+      "completed_at": "2026-10-17T18:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Contemporary Foreign Service evidence supports a qualified 1934 government assignment; identity and later chronology require archival confirmation.",
+      "next_action": "Review Box 704 to confirm identity and temporal sequence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b868-v1"
+    },
+    {
+      "key": "alfred-sherrard-b868",
+      "person_id": "7f85f1ee-6821-537c-87b3-d892ad5ba07e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 424 row 16; Alfred Sherrard; official NARA and CIA-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; institutional and archival searches; Box 704",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_868",
+      "started_at": "2026-10-17T18:25:00Z",
+      "completed_at": "2026-10-17T18:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "research_notes": "No reliable exact-person identity or pre-OSS employer has yet been identified. Common-name and discovery-only candidates were not accepted.",
+      "next_action": "Review Box 704.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b868-v1",
+      "rejection_reasons": "Search results either concerned namesakes, lacked an OSS bridge, were discovery-only, or supplied no usable chronology."
+    },
+    {
+      "key": "florence-j-sherriff-b868",
+      "person_id": "65c9654c-3d56-578c-9dbd-f30b6e5bc6f4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 424 row 17; Florence J Sherriff; official NARA and CIA-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; institutional and archival searches; Box 704",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_868",
+      "started_at": "2026-10-17T18:26:00Z",
+      "completed_at": "2026-10-17T18:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Wesleyan institutional evidence supports three qualified documented-prewar teaching affiliations; immediate predecessor remains unresolved.",
+      "next_action": "Review Box 704 to confirm identity and temporal sequence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b868-v1"
+    },
+    {
+      "key": "david-d-sherrill-b868",
+      "person_id": "7e3cf9fa-9583-5657-b644-f321a34d460a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 424 row 18; David D Sherrill; official NARA and CIA-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; institutional and archival searches; Box 704",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_868",
+      "started_at": "2026-10-17T18:27:00Z",
+      "completed_at": "2026-10-17T18:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "research_notes": "No reliable exact-person identity or pre-OSS employer has yet been identified. Common-name and discovery-only candidates were not accepted.",
+      "next_action": "Review Box 704.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b868-v1",
+      "rejection_reasons": "Search results either concerned namesakes, lacked an OSS bridge, were discovery-only, or supplied no usable chronology."
+    },
+    {
+      "key": "james-r-sherrill-b868",
+      "person_id": "e3dd4466-23b1-50fb-bd1e-5de229396d5b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 424 row 19; James R Sherrill; protected identifier; official Army; official NARA and CIA-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; institutional and archival searches; Box 704",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_868",
+      "started_at": "2026-10-17T18:28:00Z",
+      "completed_at": "2026-10-17T18:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Official Army identity bridge accepted; no reliable pre-OSS employer identified.",
+      "next_action": "Review Box 704.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b868-v1"
+    },
+    {
+      "key": "lucy-sherrill-b868",
+      "person_id": "a4bd35e9-5c0e-541e-b3a6-e56bbe08c2df",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 424 row 20; Lucy Sherrill; official NARA and CIA-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; institutional and archival searches; Box 704",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_868",
+      "started_at": "2026-10-17T18:29:00Z",
+      "completed_at": "2026-10-17T18:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "research_notes": "No reliable exact-person identity or pre-OSS employer has yet been identified. Common-name and discovery-only candidates were not accepted.",
+      "next_action": "Review Box 704.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b868-v1",
+      "rejection_reasons": "Search results either concerned namesakes, lacked an OSS bridge, were discovery-only, or supplied no usable chronology."
+    },
+    {
+      "key": "margaret-s-sherrill-b868",
+      "person_id": "5acf6ba2-46d2-530f-af69-e07b960859fb",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 424 row 21; Margaret S Sherrill; official NARA and CIA-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; institutional and archival searches; Box 704",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_868",
+      "started_at": "2026-10-17T18:30:00Z",
+      "completed_at": "2026-10-17T18:45:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "research_notes": "No reliable exact-person identity or pre-OSS employer has yet been identified. Common-name and discovery-only candidates were not accepted.",
+      "next_action": "Review Box 704.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b868-v1",
+      "rejection_reasons": "Search results either concerned namesakes, lacked an OSS bridge, were discovery-only, or supplied no usable chronology."
+    },
+    {
+      "key": "bowden-sherrod-b868",
+      "person_id": "5cd1c35e-6d36-5924-b56d-ee9bc4bf5144",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 424 row 22; Bowden Sherrod; protected identifier; official Army; official NARA and CIA-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; institutional and archival searches; Box 704",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_868",
+      "started_at": "2026-10-17T18:31:00Z",
+      "completed_at": "2026-10-17T18:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Official Army identity bridge accepted; no reliable pre-OSS employer identified.",
+      "next_action": "Review Box 704.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b868-v1"
+    },
+    {
+      "key": "byron-p-sherry-b868",
+      "person_id": "c894e1c9-d2b6-5666-8664-389a0b0d561b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "NARA page 424 row 23; Byron P Sherry; protected identifier; official Army; official NARA and CIA-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; institutional and archival searches; Box 704",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_868",
+      "started_at": "2026-10-17T18:32:00Z",
+      "completed_at": "2026-10-17T18:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "research_notes": "Official Army identity bridge accepted; no reliable pre-OSS employer identified.",
+      "next_action": "Review Box 704.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b868-v1"
+    }
+  ]
+}
