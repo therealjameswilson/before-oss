@@ -1,5 +1,29 @@
 # Research status
 
+Batch 865 completed PDF page 422, rows 24-46, from **Jerome W Shay** through
+**Nellie M Sheehy**, preserving all 23 printed rows and linking them to 22
+active person entities. The two Charles W Shearer rows repeat the same exact
+name, protected identifier, box and location; both source rows remain visible
+on one high-confidence entity. **John J Shea** has a high-confidence official
+Army identity bridge through a nonshared protected identifier, while the Army
+form's omitted middle initial remains explicit. Two Clyde Shearer people and
+two Douglas G Shearer people remain separate in visible duplicate groups.
+Incompatible or unbridged William L Shea and Thomas C Sheehan candidates were
+not accepted as the indexed people. No employer or affiliation claim met the
+batch's identity and temporal thresholds.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **12,862/23,937 (53.7327%)**;
+verified-employer coverage is **423/23,937 (1.7671%)**;
+verified-affiliation coverage is **933/23,937 (3.8977%)**; archival-review
+coverage is **11,329/23,937 (47.3284%)**. There are **11,070** `not_started`
+people, **578** possible-duplicate groups and **447** conflicts. The public
+projection contains **2,867** affiliations, **1,073** organizations, **5,305**
+sources and **7,766** published or qualified claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 423, row
+1, **R B Sheeks**. See `research/batch-865-progress.md` for the
+source-by-source audit. Batch 865 remains unpublished pending release QA.
+
 Batch 864 completed PDF page 422, rows 1-23, from **George Shaskan** through
 **Robert J Shaw**, preserving all 23 printed rows as separate source records
 linked to 23 active person entities. All 23 now have saved terminal research
