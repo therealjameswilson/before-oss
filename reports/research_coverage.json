@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T17:47:30+00:00",
+  "generated_at": "2026-10-17T18:14:03+00:00",
   "index_coverage": {
     "source_rows": 23978,
     "source_rows_linked": 23978,
@@ -9,43 +9,43 @@
     "person_entities": 23937,
     "stored_person_entities": 23941,
     "superseded_person_entities": 4,
-    "people_with_nonplanned_attempts": 12975,
-    "percent": 54.2048
+    "people_with_nonplanned_attempts": 12998,
+    "percent": 54.3009
   },
   "verified_affiliation_coverage": {
     "person_entities": 23937,
-    "people_with_confirmed_or_high_published_affiliation": 941,
-    "percent": 3.9312
+    "people_with_confirmed_or_high_published_affiliation": 946,
+    "percent": 3.952
   },
   "verified_employer_coverage": {
     "person_entities": 23937,
-    "people_with_confirmed_or_high_published_employer": 428,
-    "percent": 1.788
+    "people_with_confirmed_or_high_published_employer": 430,
+    "percent": 1.7964
   },
   "archival_review_coverage": {
     "person_entities": 23937,
-    "people_assessed": 11442,
-    "percent": 47.8005
+    "people_assessed": 11465,
+    "percent": 47.8966
   },
   "research_status_counts": {
     "blocked_by_source_access": 1,
     "candidate_found": 333,
     "completed": 231,
     "conflicting_sources": 371,
-    "documented_prewar_employer_found": 224,
+    "documented_prewar_employer_found": 225,
     "in_progress": 1893,
-    "needs_identity_review": 563,
+    "needs_identity_review": 565,
     "needs_temporal_review": 28,
     "no_reliable_result_after_protocol": 1156,
-    "not_started": 10957,
-    "occupation_only_found": 1084,
-    "requires_archival_review": 6741,
-    "verified_employer_found": 355
+    "not_started": 10934,
+    "occupation_only_found": 1085,
+    "requires_archival_review": 6758,
+    "verified_employer_found": 357
   },
   "claim_confidence_counts": {
-    "confirmed": 1614,
+    "confirmed": 1617,
     "conflicting": 376,
-    "high": 4127,
+    "high": 4139,
     "low": 206,
     "medium": 1725,
     "unresolved": 2
@@ -64,8 +64,8 @@
     "unknown_or_indeterminate": 15151,
     "warrant_officer": 7
   },
-  "possible_duplicate_groups": 579,
+  "possible_duplicate_groups": 581,
   "conflict_count": 450,
-  "citations": 6577,
-  "unique_source_documents": 3556
+  "citations": 6587,
+  "unique_source_documents": 3563
 }
