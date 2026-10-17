@@ -1,5 +1,36 @@
 # Research status
 
+Batch 870 completed PDF page 425, rows 1-23, from **Naotada Shimomura**
+through **Clifton B Shoemaker**, preserving all 23 printed rows as separate
+source records linked to 23 active people. All 23 now have terminal research
+outcomes. Official NARA OSS evidence confirms **Ezra Shine** and supports a
+high-confidence identity assessment for **Maurice Shire**, while retaining the
+one-digit protected-identifier discrepancy. Army crosswalks support **Harry
+Shiomos**, **Kenneth O Shirley** and **William E Shockley** for identity only.
+The incompatible middle initial for **John L Shimondle** and surname mismatch
+for **Jack E Shine** remain visible identity conflicts.
+
+Institutional evidence documents **Julius Shiskin** as a Rutgers instructor,
+National Bureau of Economic Research staff assistant and War Production Board
+head economist before the end of the war. These are qualified, documented
+pre-OSS or wartime affiliations; the evidence does not establish that any was
+his immediate predecessor to OSS service. **Clayton L Shirey**'s Penn State
+attendance is correctly published as student status rather than employment.
+Postwar Maurice Shire business activity and unbridged James Shiozaki and
+Saikichi Shirasawa leads were not recast as pre-OSS employers.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **12,975/23,937 (54.2048%)**;
+verified-employer coverage is **428/23,937 (1.7880%)**;
+verified-affiliation coverage is **941/23,937 (3.9312%)**; archival-review
+coverage is **11,442/23,937 (47.8005%)**. There are **10,957** `not_started`
+people, **579** possible-duplicate groups and **450** conflicts. The public
+projection contains **2,886** affiliations, **1,083** organizations, **5,342**
+sources and **7,838** published or qualified claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 425, row
+24. See `research/batch-870-progress.md` for the source-by-source audit.
+
+
 Batch 866 completed PDF page 423, rows 1-23, from **R B Sheeks** through
 **Hubert L Shepard**, preserving all 23 printed rows as separate source records
 linked to 23 active people. Five nonshared protected identifiers support
