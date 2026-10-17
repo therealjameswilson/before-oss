@@ -58,6 +58,13 @@ Date: 2026-10-17
 
 ## Publication state
 
-Batch 869 has passed every local gate and is ready for publication. GitHub
-Actions run identifiers and immutable live verification will be recorded here
-after deployment.
+Batch 869 is published at
+<https://therealjameswilson.github.io/before-oss/> from immutable content
+commit `b5674bdd8a01b088d096540e09eeb2665d0f745c`. GitHub Actions test run
+`39054095697` and Pages deployment run `39054095633` both completed
+successfully. The immutable live verifier checked 67 assets totaling
+116,942,304 bytes, manifest SHA-256
+`87e9ff47717ac829c484f81b355b7e76f067af7eaaff5bd03e996e919e4b5a62`,
+eight core routes, 36 source-register pages and all 22 newly updated direct
+profiles from the evidence bundle. The preserved Edward A. Shils route was
+checked separately, completing live verification of all 23 Batch 869 profiles.
