@@ -22,7 +22,9 @@ projection contains **2,867** affiliations, **1,073** organizations, **5,305**
 sources and **7,766** published or qualified claims. Full-index historical
 research remains unfinished. The next indexed boundary is PDF page 423, row
 1, **R B Sheeks**. See `research/batch-865-progress.md` for the
-source-by-source audit. Batch 865 remains unpublished pending release QA.
+source-by-source audit. Batch 865 is published from immutable content commit
+`b31b279dfbef0f203a26972f4f101fa7c674cdf5`; both GitHub Actions release
+workflows and the post-deployment verifier passed.
 
 Batch 864 completed PDF page 422, rows 1-23, from **George Shaskan** through
 **Robert J Shaw**, preserving all 23 printed rows as separate source records

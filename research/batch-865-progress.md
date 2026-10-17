@@ -103,9 +103,15 @@ Two production builds produced the identical 25,126-file static-site hash
 
 ## Publication status
 
-Batch 865 is not yet published. All local gates pass; the current public site
-remains the verified Batch 864 release until GitHub Actions and immutable
-post-deployment verification pass.
+Batch 865 is published at
+<https://therealjameswilson.github.io/before-oss/> from immutable content
+commit `b31b279dfbef0f203a26972f4f101fa7c674cdf5`. GitHub Actions test run
+`39042052088` and Pages deployment run `39042052118` both completed
+successfully. The post-deployment verifier checked 67 assets totaling
+116,569,249 bytes against manifest SHA-256
+`494a3feef8147dd9f685cd4c68f79d7501623f18c37286be14c10e86c7545457`,
+eight core routes, 36 source-register pages and all 22 Batch 865 direct
+profiles.
 
 ## Resume commands
 

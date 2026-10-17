@@ -58,5 +58,11 @@ Date: 2026-10-17
 
 ## Publication state
 
-Batch 865 is not yet published. All local gates pass; the public site remains
-on Batch 864 until GitHub Actions and immutable deployment verification pass.
+Batch 865 is published at
+<https://therealjameswilson.github.io/before-oss/> from immutable content
+commit `b31b279dfbef0f203a26972f4f101fa7c674cdf5`. GitHub Actions test run
+`39042052088` and Pages deployment run `39042052118` both completed
+successfully. The immutable live verifier checked 67 assets totaling
+116,569,249 bytes, manifest SHA-256
+`494a3feef8147dd9f685cd4c68f79d7501623f18c37286be14c10e86c7545457`,
+eight core routes, 36 source-register pages and 22 direct Batch 865 profiles.
