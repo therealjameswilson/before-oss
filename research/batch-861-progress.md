@@ -100,9 +100,18 @@ Two production builds produced the identical 25,122-file tree hash
 
 ## Publication status
 
-Ready for publication after all local data, redaction, software, link and
-deterministic-build gates passed. The prior public release remains Batch 860
-until the reviewed content commit is deployed and verified unauthenticated.
+Published from content commit
+`5199680264b561bf031aafa3c24f026c00170545`. GitHub Pages run
+`39035599959` and Test run `39035599964` completed successfully. The
+unauthenticated immutable verifier checked all 67 manifested assets
+(116,338,637 bytes), eight core routes, 36 source-register pages and all 23
+direct profile routes referenced by the evidence bundle at
+`https://therealjameswilson.github.io/before-oss/`. The live manifest SHA-256
+is `fc6f9af1cd318a363f67b4db75f92afb4d1ce1fb171097543f866db59a95229b`,
+matching the reviewed release. Live statistics report 12,772
+research-attempted people, 422 verified-employer profiles, 929
+verified-affiliation profiles and 11,239 people with archival-review
+assessment. The overall every-person research goal remains active.
 
 ## Resume commands
 
