@@ -29,8 +29,9 @@ projection contains **2,871** affiliations, **1,075** organizations, **5,315**
 sources and **7,780** published or qualified claims. Full-index historical
 research remains unfinished. The next indexed boundary is PDF page 423, row
 24, **John M Shepard**. See `research/batch-866-progress.md` for the
-source-by-source audit. Batch 866 is locally rebuilt and awaiting release QA
-and publication.
+source-by-source audit. Batch 866 is published from immutable content commit
+`ce0795827ce2b21ac0a1a1be6db8c53c42721f6f`; both GitHub Actions release
+workflows and the post-deployment verifier passed.
 
 Batch 865 completed PDF page 422, rows 24-46, from **Jerome W Shay** through
 **Nellie M Sheehy**, preserving all 23 printed rows and linking them to 22

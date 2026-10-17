@@ -108,8 +108,15 @@ Two production builds produced the identical 25,128-file static-site hash
 
 ## Publication status
 
-Batch 866 is not yet published. The current public site still reflects Batch
-865 until the full local and GitHub Pages release gates pass.
+Batch 866 is published at
+<https://therealjameswilson.github.io/before-oss/> from immutable content
+commit `ce0795827ce2b21ac0a1a1be6db8c53c42721f6f`. GitHub Actions test run
+`39044008840` and Pages deployment run `39044008876` both completed
+successfully. The post-deployment verifier checked 67 assets totaling
+116,667,402 bytes against manifest SHA-256
+`76c20cb1919e4393c016906395819fd248371ccce932935f990a6c2c66181953`,
+eight core routes, 36 source-register pages and all 23 Batch 866 direct
+profiles.
 
 ## Resume commands
 
