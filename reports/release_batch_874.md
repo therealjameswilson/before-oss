@@ -64,14 +64,24 @@ Date: 2026-10-17
   `ccc188058d34ce536c304e13f8bec12871df78323c9ee4fe3ca3e5a19e8b32ed`.
 - Deterministic production build: two 25,142-file builds matched at SHA-256
   `bf49eb59f5b9102247ccf3d08d7c7c13c4d9bb25d3b59fe5e2ae8829540137e1`.
-- GitHub Actions and live-site gates remain in progress.
+- GitHub Actions test run `39064601349`: successful in 4 minutes 20 seconds.
+- Pages deployment run `39064601372`: successful.
+- Immutable live verification: 67 assets, 117,323,615 bytes, manifest SHA-256
+  `ccc188058d34ce536c304e13f8bec12871df78323c9ee4fe3ca3e5a19e8b32ed`,
+  eight core routes, 36 source-register pages and all 23 Batch 874 profiles.
 
 ## Publication state
 
-Batch 874 is not yet published. The public site remains Batch 873 at
-<https://therealjameswilson.github.io/before-oss/>. An immutable content commit,
-successful GitHub Actions test and Pages deployment, and unauthenticated live
-verification are required before this report can call the batch published.
+Batch 874 is published at
+<https://therealjameswilson.github.io/before-oss/> from immutable content
+commit `95ece7bdd3bd8d6cbab15b19e118acf2bf7bd39f`. GitHub Actions test run
+`39064601349` and Pages deployment run `39064601372` completed successfully.
+The immutable live verifier matched the committed manifest and verified every
+direct profile in the new evidence bundle.
+
+The GitHub Actions annotations were non-failing platform notices: selected
+actions are being forced from Node.js 20 to Node.js 24, and `ubuntu-latest` is
+scheduled to migrate to Ubuntu 26. Neither annotation affected this release.
 
 ## Current blocker
 
