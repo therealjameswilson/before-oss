@@ -57,5 +57,12 @@ Date: 2026-10-17
 
 ## Publication state
 
-Batch 868 is a locally validated release candidate. Publication and immutable
-live verification are still pending.
+Batch 868 is published at
+<https://therealjameswilson.github.io/before-oss/> from immutable content
+commit `78ff86bb391f002f61a4f3182d85cf0bfba4c87f`. GitHub Actions test run
+`39047532736` and Pages deployment run `39047532545` both completed
+successfully. The immutable live verifier checked 67 assets totaling
+116,842,725 bytes, manifest SHA-256
+`841b27a5d04449170bfbcb23e45c5472fd97bf3cb61f54710e700391875ffee3`,
+eight core routes, 36 source-register pages and all 23 direct profiles from the
+evidence bundle.
