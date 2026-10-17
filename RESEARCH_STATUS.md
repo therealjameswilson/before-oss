@@ -1,5 +1,30 @@
 # Research status
 
+Batch 861 completed PDF page 420, rows 24-46, from **Francis D Severance**
+through **Andrew W Shaffer**, preserving all 23 printed rows as separate source
+records linked to 23 active person entities. All 23 have saved terminal
+research outcomes. **Kurt Schaffenberger**'s Jack Binder Studio employment is
+published as his last civilian employer before Army service, while his Army
+art assignment is separately modeled as the immediate pre-OSS military
+affiliation. **Marjorie Severyns Ravenholt**'s University of Washington and
+Fletcher School attendance remain student affiliations rather than employers.
+**Felizia Seyd**'s prewar authorship is visibly qualified at medium confidence,
+and her publisher is not treated as an employer. **Daniel Shacter**'s postwar
+mission evidence remains identity context only. Eight official Army
+crosswalks support identity decisions without converting coded fields into
+employers.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **12,772/23,937 (53.3567%)**;
+verified-employer coverage is **422/23,937 (1.7630%)**;
+verified-affiliation coverage is **929/23,937 (3.8810%)**; archival-review
+coverage is **11,239/23,937 (46.9524%)**. There are **11,160** `not_started`
+people, **572** possible-duplicate groups and **447** conflicts. The public
+projection contains **2,861** affiliations, **1,069** organizations, **5,285**
+sources and **7,733** published or qualified claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 421, row 1.
+See `research/batch-861-progress.md` for the source-by-source audit.
+
 Batch 860 completed PDF page 420, rows 1-23, from **Walter Sereda** through
 **Paul D Sevcik**, preserving all 23 printed rows as separate source records
 linked to 23 active person entities. All 23 have saved terminal research
