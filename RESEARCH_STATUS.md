@@ -1,5 +1,35 @@
 # Research status
 
+Batch 877 completed PDF page 428, rows 24-46, from **Irimie Simion** through
+**Frederick J Simon**, preserving all 23 printed rows as separate source
+records linked to 23 active people. All 23 now have terminal research outcomes.
+Official Army data support seven exact name-and-identifier bridges, including
+two separately indexed Alfred Simon people whose different protected
+identifiers keep them distinct. The two Arthur Simon rows also remain separate.
+
+An official congressional history confirms **Semeon “Sam” Simollari** and
+explicitly documents his Army enlistment before OSS recruitment. The U.S. Army
+is published as his immediate pre-OSS military assignment; his postwar
+business is excluded. An ABMC-derived 15th Infantry register supports **James U
+Simmons** at high confidence but does not establish the sequence between his
+conventional Army and OSS service. A different-identifier Clarence Simms
+biography and an unbridged Bessie Simon Peace Now lead remain rejected rather
+than being converted into employment facts.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **13,134/23,937 (54.8690%)**;
+verified-employer coverage is **431/23,937 (1.8006%)**;
+verified-affiliation coverage is **951/23,937 (3.9729%)**; archival-review
+coverage is **11,601/23,937 (48.4647%)**. There are **10,798** `not_started`
+people, **583** possible-duplicate groups and **455** conflicts. The public
+projection contains **2,899** affiliations, **1,089** organizations, **5,384**
+sources and **7,922** published or qualified claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 429, row 1,
+**Harland Simon**. See `research/batch-877-progress.md` for the source-by-source
+audit. Publication remains pending until the content commit, CI, Pages and live
+verification gates pass.
+
+
 Batch 870 completed PDF page 425, rows 1-23, from **Naotada Shimomura**
 through **Clifton B Shoemaker**, preserving all 23 printed rows as separate
 source records linked to 23 active people. All 23 now have terminal research

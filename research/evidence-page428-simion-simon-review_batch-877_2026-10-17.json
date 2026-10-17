@@ -1,0 +1,1036 @@
+{
+  "bundle_version": "batch-877-v1",
+  "reviewer": "Before OSS Batch 877 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b877",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 712-713",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 428, rows 24-46; checked against extracted layout text and a rendered page image",
+      "access_date": "2026-10-17",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain preserved. Protected identifiers are retained only in the private database and are masked from public data."
+    },
+    {
+      "key": "army-bulk-b877",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Department of Defense; Department of the Army",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; seven exact name-and-identifier matches reviewed",
+      "access_date": "2026-10-17",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "rights_notes": "Full identifiers, raw rows, Army entry-grade codes and occupation codes are not published. Army-coded fields are not treated as named employers or OSS ranks."
+    },
+    {
+      "key": "simollari-lynch-b877",
+      "stable_url": "https://lynch.house.gov/2019/5/rep-lynch-presents-oss-congressional-gold-medal-us-army-private-semeon-sam-simollari",
+      "title": "Rep. Lynch Presents OSS Congressional Gold Medal To U.S. Army Private Semeon ‘Sam’ Simollari",
+      "author_creator": "Office of U.S. Representative Stephen F. Lynch",
+      "repository_publisher": "U.S. House of Representatives",
+      "publication_record_date": "2019-05-01",
+      "locator": "Press release paragraphs identifying Simollari as a U.S. Army private, describing his Army enlistment and explicit OSS recruitment, and documenting his Albanian-unit radio service",
+      "access_date": "2026-10-17",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Press Releases",
+      "rights_notes": "Only the explicit Army-to-OSS sequence and wartime role are retained. The page's postwar foreign-car business is excluded from pre-OSS employment fields."
+    },
+    {
+      "key": "james-u-simmons-15inf-b877",
+      "stable_url": "https://www.15thinfantry.org/documents/interments/Interments-15thInfantry-ABMC.pdf",
+      "title": "Interments—15th Infantry—ABMC",
+      "author_creator": "15th Infantry Regiment Association",
+      "repository_publisher": "15th Infantry Regiment Association",
+      "locator": "PDF page 12, James U. Simmons entry; exact protected identifier, Technical Sergeant rank, California entry, 23 December 1944 death, Epinal burial and Purple Heart reviewed",
+      "access_date": "2026-10-17",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "15th Infantry interments compiled from American Battle Monuments Commission data",
+      "rights_notes": "The protected identifier is used only for private identity resolution and is not reproduced in public project data. The conventional unit context is not inferred to be an immediate pre-OSS affiliation."
+    },
+    {
+      "key": "clarence-simms-bataan-rejected-b877",
+      "stable_url": "https://bataanproject.com/simms-pvt-clarence-e/",
+      "title": "Simms, Pvt. Clarence E.",
+      "author_creator": "Steve Gibson",
+      "repository_publisher": "Bataan Project",
+      "publication_record_date": "2019-04-30; modified 2025-09-26",
+      "locator": "Biographical opening and reproduced War Department notice; the namesake's service identifier differs from the indexed person's protected identifier",
+      "access_date": "2026-10-17",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "Provisional Tank Group",
+      "rights_notes": "Retained only as a rejected identity lead. The article's Booster Produce Company employment cannot be transferred to the indexed Clarence E. Simms."
+    },
+    {
+      "key": "bessie-simon-tricollege-rejected-b877",
+      "stable_url": "https://archives.tricolib.brynmawr.edu/resources/scpc-cdg-a-peace_now_movement",
+      "archival_identifier": "SCPC-CDG-A-Peace Now Movement",
+      "title": "Peace Now Movement Collected Records",
+      "author_creator": "Swarthmore College Peace Collection",
+      "repository_publisher": "TriCollege Libraries Archives & Manuscripts",
+      "publication_record_date": "Collection dates 1941-1949; majority 1943-1945",
+      "locator": "Biographical/Historical note identifying a Bessie Simon as executive secretary and formerly associated with the America First Committee",
+      "access_date": "2026-10-17",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Peace Now Movement Collected Records",
+      "rights_notes": "Retained only as a rejected identity lead. No protected identifier, OSS assignment or Box 713 personnel-file link establishes that this is the indexed Bessie Simon."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "united-states-army-existing-b877",
+      "organization_id": "28a26f92-78af-5a1a-9c09-a843eb5975b4",
+      "canonical_name": "United States Army",
+      "historical_name": "Army of the United States",
+      "aliases": [
+        "U.S. Army",
+        "Army"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused for the explicit Army-to-OSS sequence; no narrower pre-recruitment unit is invented."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "simollari-us-army-immediate-b877",
+      "person_id": "3ce317ad-0c2a-5aa2-b654-0056318b7409",
+      "organization_key": "united-states-army-existing-b877",
+      "organization_name_as_found": "U.S. Army",
+      "role_title": "Private",
+      "occupation": "U.S. Army soldier",
+      "relationship_type": "military_assignment",
+      "end_date": "before recruitment by OSS during World War II",
+      "date_precision": "The congressional history gives an explicit Army-enlistment-to-OSS-recruitment sequence but no exact recruitment date.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The official congressional history states that Simollari enlisted in the U.S. Army and was recruited there by OSS for his Albanian language and cultural knowledge. It later describes his radio duties in the Albanian OSS unit. No pre-Army civilian employer is identified."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-harry-c-simmons-b877",
+      "person_id": "07f43751-ae0b-5cd6-b94e-16c08202a9ad",
+      "claim_type": "identity",
+      "claim_text": "The indexed Harry C Simmons is a high-confidence match to the official Army bulk file.",
+      "evidence_paraphrase": "The exact full name and nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from the exact indexed name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but does not identify a named pre-OSS employer or prove the person's immediate pre-OSS assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army entry-grade and occupation codes remain private and are not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b877",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-bulk-b877",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-howard-e-simmons-b877",
+      "person_id": "67960699-bde4-5ed5-88aa-7cd0365da9eb",
+      "claim_type": "identity",
+      "claim_text": "The indexed Howard E Simmons is a high-confidence match to the official Army bulk file.",
+      "evidence_paraphrase": "The exact full name and nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from the exact indexed name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but does not identify a named pre-OSS employer or prove the person's immediate pre-OSS assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army entry-grade and occupation codes remain private and are not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b877",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-bulk-b877",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-clarence-e-simms-b877",
+      "person_id": "d4d50f65-0385-5941-8e12-50a35f4b31ac",
+      "claim_type": "identity",
+      "claim_text": "The indexed Clarence E Simms is a high-confidence match to the official Army bulk file.",
+      "evidence_paraphrase": "The exact full name and nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from the exact indexed name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but does not identify a named pre-OSS employer or prove the person's immediate pre-OSS assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "A different Clarence Edward Simms with a different service identifier is rejected; his employment is not transferred. Army coded fields remain private.",
+      "sources": [
+        {
+          "source_key": "nara-index-b877",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-bulk-b877",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-semeon-simollari-b877",
+      "person_id": "3ce317ad-0c2a-5aa2-b654-0056318b7409",
+      "claim_type": "identity",
+      "claim_text": "The indexed Semeon Simollari is confirmed as U.S. Army Private Semeon ‘Sam’ Simollari, who was recruited by OSS for the Albanian unit.",
+      "evidence_paraphrase": "The uncommon exact name and nonshared protected identifier agree across the index and Army record; an official congressional history independently links the same Army private to OSS.",
+      "identity_match_assessment": "Confirmed by the uncommon exact name, a nonshared protected identifier, and an independent official narrative documenting Army and OSS service.",
+      "temporal_assessment": "The Army record establishes wartime identity; the congressional source explicitly orders Army enlistment before OSS recruitment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The later foreign-car business described on the congressional page is postwar and is excluded from pre-OSS employment fields.",
+      "sources": [
+        {
+          "source_key": "nara-index-b877",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-bulk-b877",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "simollari-lynch-b877",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-alfred-simon-a-b877",
+      "person_id": "866e4bc5-0439-535a-8f85-8827eaf0a4ef",
+      "claim_type": "identity",
+      "claim_text": "The indexed Alfred Simon is a high-confidence match to the official Army bulk file.",
+      "evidence_paraphrase": "The exact full name and nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from the exact indexed name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but does not identify a named pre-OSS employer or prove the person's immediate pre-OSS assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier distinguishes this person from the other indexed Alfred Simon. The entities remain separate, and Army coded fields are not employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b877",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-bulk-b877",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-alfred-simon-b-b877",
+      "person_id": "cb86bafe-d0da-56cf-81c0-4726696b7f85",
+      "claim_type": "identity",
+      "claim_text": "The indexed Alfred Simon is a high-confidence match to the official Army bulk file.",
+      "evidence_paraphrase": "The exact full name and nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from the exact indexed name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but does not identify a named pre-OSS employer or prove the person's immediate pre-OSS assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The protected identifier distinguishes this person from the other indexed Alfred Simon. The entities remain separate, and Army coded fields are not employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b877",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-bulk-b877",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-charles-e-simon-b877",
+      "person_id": "58378aa0-c1b4-5d2c-8e5d-bf98b20ebf68",
+      "claim_type": "identity",
+      "claim_text": "The indexed Charles E Simon is a high-confidence match to the official Army bulk file.",
+      "evidence_paraphrase": "The exact full name and nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from the exact indexed name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but does not identify a named pre-OSS employer or prove the person's immediate pre-OSS assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army entry-grade and occupation codes remain private and are not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b877",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-bulk-b877",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-james-u-simmons-b877",
+      "person_id": "b400f02a-cd59-593f-9c09-9edb100eb5cd",
+      "claim_type": "identity",
+      "claim_text": "The indexed James U Simmons is a high-confidence match to Technical Sergeant James U. Simmons in the 15th Infantry ABMC-derived interment register.",
+      "evidence_paraphrase": "The exact full name and protected identifier agree; the register adds Technical Sergeant rank, California entry, wartime death, Epinal burial and Purple Heart.",
+      "identity_match_assessment": "High confidence from the exact name and a matching protected identifier in a regiment association register compiled from ABMC data.",
+      "temporal_assessment": "The register establishes wartime Army identity and death on 23 December 1944, but it does not establish the sequence between conventional Army service and OSS.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The 15th Infantry context is not labeled an immediate pre-OSS affiliation because the accessible sources do not establish that chronology.",
+      "sources": [
+        {
+          "source_key": "nara-index-b877",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "james-u-simmons-15inf-b877",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "immediate-army-semeon-simollari-b877",
+      "person_id": "3ce317ad-0c2a-5aa2-b654-0056318b7409",
+      "affiliation_key": "simollari-us-army-immediate-b877",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Semeon ‘Sam’ Simollari enlisted in the United States Army and was recruited from the Army by OSS.",
+      "evidence_paraphrase": "The congressional history explicitly states that Simollari enlisted in the Army and was recruited there by OSS for his Albanian language and cultural knowledge.",
+      "identity_match_assessment": "Confirmed identity from the exact uncommon name, nonshared protected identifier and official Army-to-OSS narrative.",
+      "temporal_assessment": "Explicit immediate sequence; the exact recruitment date and pre-recruitment Army unit are not supplied.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This is a military assignment, not a civilian employer. Simollari's postwar foreign-car business is excluded, and his last civilian employer before Army service remains unresolved.",
+      "sources": [
+        {
+          "source_key": "simollari-lynch-b877",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "rejected-clarence-simms-namesake-b877",
+      "person_id": "d4d50f65-0385-5941-8e12-50a35f4b31ac",
+      "claim_type": "identity",
+      "claim_text": "The Clarence Edward Simms profiled by the Bataan Project is rejected as the indexed Clarence E Simms.",
+      "evidence_paraphrase": "The Bataan biography reproduces a service identifier different from the protected identifier printed for the indexed person.",
+      "identity_match_assessment": "The names agree, but the conflicting unique identifiers establish that the biography cannot be assigned to this index row.",
+      "temporal_assessment": "The Bataan biography includes pre-Army employment, but that evidence belongs to the rejected namesake and is not transferred.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "low",
+      "publication_status": "rejected",
+      "match_notes": "The indexed person instead has a separate exact-name and identifier match in the official Army bulk file.",
+      "sources": [
+        {
+          "source_key": "nara-index-b877",
+          "support_type": "contradicts"
+        },
+        {
+          "source_key": "clarence-simms-bataan-rejected-b877",
+          "support_type": "contradicts"
+        }
+      ]
+    },
+    {
+      "key": "rejected-bessie-simon-peace-now-b877",
+      "person_id": "ea571cc7-f709-5573-8b54-2809e120c94a",
+      "claim_type": "identity",
+      "claim_text": "The Peace Now Movement executive secretary Bessie Simon is not accepted as the Bessie Simon indexed in Box 713.",
+      "evidence_paraphrase": "The finding aid documents a historically relevant Bessie Simon but supplies no identifier, OSS assignment or personnel-file reference connecting her to the index row.",
+      "identity_match_assessment": "Name-only agreement is insufficient for this incomplete index entry.",
+      "temporal_assessment": "The documented Peace Now and America First affiliations are pre-OSS-era leads, but their relation to the indexed person is unestablished.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "low",
+      "publication_status": "rejected",
+      "match_notes": "The lead remains available for future archival comparison but is not published as this person's employment or affiliation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b877",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "bessie-simon-tricollege-rejected-b877",
+          "support_type": "context_only"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "fbac1d5b-2d40-5e03-b759-58733997cda6",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed name Irimie Simion is preserved, but accessible exact-name, OSS, employment, obituary, directory and archival searches did not establish a corroborated identity.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 712.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6cc327c5-99b9-5488-803b-adcdac33dd67",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed name, middle initial and first-lieutenant rank are preserved, but no accessible source reviewed supplied two corroborating identifiers or a personnel-file bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 712.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "bede3114-a627-50da-9656-b6c01c411818",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed name Aubrey E Simmons is preserved, but accessible exact-name, OSS, employment, obituary, directory and archival searches did not establish a corroborated identity.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 712.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0823a9b9-d275-5460-9774-e48ca47ba2f1",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed name Clara A Simmons is preserved, but accessible exact-name, OSS, employment, obituary, directory and archival searches did not establish a corroborated identity.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 712.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f09be7f9-262d-571c-8c8b-9ee6b0112b08",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed name David H Simmons is preserved, but accessible exact-name, OSS, employment, obituary, directory and archival searches did not establish a corroborated identity.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 712.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9b587470-30a3-5a56-93af-efa519bed8d0",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed name Frederick R Simmons is preserved, but accessible exact-name, OSS, employment, obituary, directory and archival searches did not establish a corroborated identity.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 712.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "07f43751-ae0b-5cd6-b94e-16c08202a9ad",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact full name and nonshared protected identifier agree with the official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 712.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "33611393-112d-5977-925e-b28f0d582cf2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The printed spelling Henerson B Simmons is preserved. Searches also tested Henderson only as a search alias, not as a correction, but no corroborating identity or employment bridge was found.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 712.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "67960699-bde4-5ed5-88aa-7cd0365da9eb",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact full name and nonshared protected identifier agree with the official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 712.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b400f02a-cd59-593f-9c09-9edb100eb5cd",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact full name and protected identifier agree with the 15th Infantry Regiment Association's ABMC-derived interment register, which identifies Technical Sergeant James U. Simmons.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 712 to establish James U. Simmons's OSS chronology and last civilian employer before wartime service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false
+    },
+    {
+      "person_id": "72890b84-5f5b-577f-8e03-47fac57c288c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed name Theodore M Simmons is preserved, but accessible exact-name, OSS, employment, obituary, directory and archival searches did not establish a corroborated identity.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 712.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d4d50f65-0385-5941-8e12-50a35f4b31ac",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact full name and nonshared protected identifier agree with the official Army bulk record. A Bataan Project namesake has a different service identifier and is explicitly rejected.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 712.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7cb0dfda-1090-5565-879f-444547c4e1a0",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed name Louis T Simms is preserved, but accessible exact-name, OSS, employment, obituary, directory and archival searches did not establish a corroborated identity.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 712.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3ce317ad-0c2a-5aa2-b654-0056318b7409",
+      "identity_status": "confirmed",
+      "identity_evidence": "The uncommon exact name and nonshared protected identifier agree with the official Army bulk record; an official congressional history independently identifies Army Private Semeon ‘Sam’ Simollari and explicitly documents his recruitment by OSS.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 712 to identify Simollari's last civilian employer before Army service and the exact Army and OSS recruitment chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Semeon ‘Sam’ Simollari",
+        "Sam Simollari"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false
+    },
+    {
+      "person_id": "866e4bc5-0439-535a-8f85-8827eaf0a4ef",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and this person's nonshared protected identifier agree with one official Army bulk record. The other indexed Alfred Simon has a different nonshared identifier and remains a separate entity.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "cb86bafe-d0da-56cf-81c0-4726696b7f85",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and this person's nonshared protected identifier agree with one official Army bulk record. The other indexed Alfred Simon has a different nonshared identifier and remains a separate entity.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "53833694-69ae-5b69-8a5d-4497da8b67aa",
+      "identity_status": "unresolved",
+      "identity_evidence": "This indexed Arthur Simon remains separate from the other same-name row because the protected identifiers differ and no direct evidence establishes duplication; no corroborated identity was found.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b29bd8cf-a36a-51e6-b72c-aaaf46ce57aa",
+      "identity_status": "unresolved",
+      "identity_evidence": "This indexed Arthur Simon remains separate from the other same-name row because the protected identifiers differ and no direct evidence establishes duplication; no corroborated identity was found.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ad9ddd0d-bd6d-5ce7-b795-176e1cbed2bb",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed name Bertram Simon is preserved, but accessible exact-name, OSS, employment, obituary, directory and archival searches did not establish a corroborated identity.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ea571cc7-f709-5573-8b54-2809e120c94a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The index supplies only the name and box. A strong institutional finding aid documents a Bessie Simon associated with the Peace Now Movement and America First Committee, but no identifier or OSS personnel-file bridge connects her to this row.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "58378aa0-c1b4-5d2c-8e5d-bf98b20ebf68",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact full name and nonshared protected identifier agree with the official Army bulk record.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "29747340-7f13-58ae-be10-db002df19c65",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed name Edward Simon is preserved, but accessible exact-name, OSS, employment, obituary, directory and archival searches did not establish a corroborated identity.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c6c0038d-f035-5446-8ef6-12dae4a24dbc",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed name Frederick J Simon is preserved, but accessible exact-name, OSS, employment, obituary, directory and archival searches did not establish a corroborated identity.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "irimie-simion-fbac1d5b-b877",
+      "person_id": "fbac1d5b-2d40-5e03-b759-58733997cda6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Irimie Simion; NARA OSS/index context; CIA Reading Room context; exact-name and meaningful variant OSS searches; employer and occupation around 1940; institutional, newspaper, obituary, directory and archival sources; indexed Box 712",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_877",
+      "started_at": "2026-10-17T23:25:00Z",
+      "completed_at": "2026-10-17T23:43:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Namesake results lacked a protected identifier, OSS assignment or Box 712 personnel-file bridge and were rejected.",
+      "research_notes": "The staged accessible-source protocol produced no reliable pre-OSS employer or sufficiently corroborated identity.",
+      "next_action": "Review Box 712 for identity and pre-OSS employment evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b877-v1"
+    },
+    {
+      "key": "arthur-t-simmons-6cc327c5-b877",
+      "person_id": "6cc327c5-99b9-5488-803b-adcdac33dd67",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Arthur T Simmons; NARA OSS/index context; CIA Reading Room context; exact-name and meaningful variant OSS searches; employer and occupation around 1940; institutional, newspaper, obituary, directory and archival sources; indexed Box 712",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_877",
+      "started_at": "2026-10-17T23:25:00Z",
+      "completed_at": "2026-10-17T23:43:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Common-name results and a 1923 directory lead lacked a wartime, OSS, rank or protected-identifier bridge; the CIA adapter failed closed and the Library of Congress adapter timed out.",
+      "research_notes": "The staged accessible-source protocol produced no reliable pre-OSS employer or sufficiently corroborated identity. The direct CIA adapter failed closed on robots policy and the Library of Congress adapter timed out; neither failure was treated as negative evidence.",
+      "next_action": "Review Box 712 for identity and pre-OSS employment evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b877-v1"
+    },
+    {
+      "key": "aubrey-e-simmons-bede3114-b877",
+      "person_id": "bede3114-a627-50da-9656-b6c01c411818",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Aubrey E Simmons; NARA OSS/index context; CIA Reading Room context; exact-name and meaningful variant OSS searches; employer and occupation around 1940; institutional, newspaper, obituary, directory and archival sources; indexed Box 712",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_877",
+      "started_at": "2026-10-17T23:25:00Z",
+      "completed_at": "2026-10-17T23:43:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Namesake results lacked a protected identifier, OSS assignment or Box 712 personnel-file bridge and were rejected.",
+      "research_notes": "The staged accessible-source protocol produced no reliable pre-OSS employer or sufficiently corroborated identity.",
+      "next_action": "Review Box 712 for identity and pre-OSS employment evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b877-v1"
+    },
+    {
+      "key": "clara-a-simmons-0823a9b9-b877",
+      "person_id": "0823a9b9-d275-5460-9774-e48ca47ba2f1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Clara A Simmons; NARA OSS/index context; CIA Reading Room context; exact-name and meaningful variant OSS searches; employer and occupation around 1940; institutional, newspaper, obituary, directory and archival sources; indexed Box 712",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_877",
+      "started_at": "2026-10-17T23:25:00Z",
+      "completed_at": "2026-10-17T23:43:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Namesake results lacked a protected identifier, OSS assignment or Box 712 personnel-file bridge and were rejected.",
+      "research_notes": "The staged accessible-source protocol produced no reliable pre-OSS employer or sufficiently corroborated identity.",
+      "next_action": "Review Box 712 for identity and pre-OSS employment evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b877-v1"
+    },
+    {
+      "key": "david-h-simmons-f09be7f9-b877",
+      "person_id": "f09be7f9-262d-571c-8c8b-9ee6b0112b08",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "David H Simmons; NARA OSS/index context; CIA Reading Room context; exact-name and meaningful variant OSS searches; employer and occupation around 1940; institutional, newspaper, obituary, directory and archival sources; indexed Box 712",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_877",
+      "started_at": "2026-10-17T23:25:00Z",
+      "completed_at": "2026-10-17T23:43:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Namesake results lacked a protected identifier, OSS assignment or Box 712 personnel-file bridge and were rejected.",
+      "research_notes": "The staged accessible-source protocol produced no reliable pre-OSS employer or sufficiently corroborated identity.",
+      "next_action": "Review Box 712 for identity and pre-OSS employment evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b877-v1"
+    },
+    {
+      "key": "frederick-r-simmons-9b587470-b877",
+      "person_id": "9b587470-30a3-5a56-93af-efa519bed8d0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Frederick R Simmons; NARA OSS/index context; CIA Reading Room context; exact-name and meaningful variant OSS searches; employer and occupation around 1940; institutional, newspaper, obituary, directory and archival sources; indexed Box 712",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_877",
+      "started_at": "2026-10-17T23:25:00Z",
+      "completed_at": "2026-10-17T23:43:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Namesake results lacked a protected identifier, OSS assignment or Box 712 personnel-file bridge and were rejected.",
+      "research_notes": "The staged accessible-source protocol produced no reliable pre-OSS employer or sufficiently corroborated identity.",
+      "next_action": "Review Box 712 for identity and pre-OSS employment evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b877-v1"
+    },
+    {
+      "key": "harry-c-simmons-07f43751-b877",
+      "person_id": "07f43751-ae0b-5cd6-b94e-16c08202a9ad",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Harry C Simmons; NARA OSS/index context; CIA Reading Room context; exact-name and meaningful variant OSS searches; employer and occupation around 1940; institutional, newspaper, obituary, directory and archival sources; indexed Box 712",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_877",
+      "started_at": "2026-10-17T23:25:00Z",
+      "completed_at": "2026-10-17T23:43:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Searches did not identify a reliable named pre-OSS employer; Army coded fields are not employer evidence.",
+      "research_notes": "Official Army identity accepted. No reliable named pre-OSS employer or immediate affiliation was established.",
+      "next_action": "Review Box 712 for identity and pre-OSS employment evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b877-v1"
+    },
+    {
+      "key": "henerson-b-simmons-33611393-b877",
+      "person_id": "33611393-112d-5977-925e-b28f0d582cf2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Henerson B Simmons; NARA OSS/index context; CIA Reading Room context; exact-name and meaningful variant OSS searches; employer and occupation around 1940; institutional, newspaper, obituary, directory and archival sources; indexed Box 712",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_877",
+      "started_at": "2026-10-17T23:25:00Z",
+      "completed_at": "2026-10-17T23:43:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Results for both the printed spelling and the Henderson search alias lacked OSS, archival or protected-identifier corroboration.",
+      "research_notes": "The staged accessible-source protocol produced no reliable pre-OSS employer or sufficiently corroborated identity.",
+      "next_action": "Review Box 712 for identity and pre-OSS employment evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b877-v1"
+    },
+    {
+      "key": "howard-e-simmons-67960699-b877",
+      "person_id": "67960699-bde4-5ed5-88aa-7cd0365da9eb",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Howard E Simmons; NARA OSS/index context; CIA Reading Room context; exact-name and meaningful variant OSS searches; employer and occupation around 1940; institutional, newspaper, obituary, directory and archival sources; indexed Box 712",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_877",
+      "started_at": "2026-10-17T23:25:00Z",
+      "completed_at": "2026-10-17T23:43:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Searches did not identify a reliable named pre-OSS employer; Army coded fields are not employer evidence.",
+      "research_notes": "Official Army identity accepted. No reliable named pre-OSS employer or immediate affiliation was established.",
+      "next_action": "Review Box 712 for identity and pre-OSS employment evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b877-v1"
+    },
+    {
+      "key": "james-u-simmons-b400f02a-b877",
+      "person_id": "b400f02a-cd59-593f-9c09-9edb100eb5cd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James U Simmons; NARA OSS/index context; CIA Reading Room context; exact-name and meaningful variant OSS searches; employer and occupation around 1940; institutional, newspaper, obituary, directory and archival sources; indexed Box 712",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_877",
+      "started_at": "2026-10-17T23:25:00Z",
+      "completed_at": "2026-10-17T23:43:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "The conventional Army interment record establishes identity but not the person's sequence into or out of OSS and not a pre-service employer.",
+      "research_notes": "Wartime identity is high confidence, but the source does not establish an immediate pre-OSS affiliation or civilian employer.",
+      "next_action": "Review Box 712 for OSS chronology and the last civilian employer.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b877-v1"
+    },
+    {
+      "key": "theodore-m-simmons-72890b84-b877",
+      "person_id": "72890b84-5f5b-577f-8e03-47fac57c288c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Theodore M Simmons; NARA OSS/index context; CIA Reading Room context; exact-name and meaningful variant OSS searches; employer and occupation around 1940; institutional, newspaper, obituary, directory and archival sources; indexed Box 712",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_877",
+      "started_at": "2026-10-17T23:25:00Z",
+      "completed_at": "2026-10-17T23:43:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Namesake results lacked a protected identifier, OSS assignment or Box 712 personnel-file bridge and were rejected.",
+      "research_notes": "The staged accessible-source protocol produced no reliable pre-OSS employer or sufficiently corroborated identity.",
+      "next_action": "Review Box 712 for identity and pre-OSS employment evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b877-v1"
+    },
+    {
+      "key": "clarence-e-simms-d4d50f65-b877",
+      "person_id": "d4d50f65-0385-5941-8e12-50a35f4b31ac",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Clarence E Simms; NARA OSS/index context; CIA Reading Room context; exact-name and meaningful variant OSS searches; employer and occupation around 1940; institutional, newspaper, obituary, directory and archival sources; indexed Box 712",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_877",
+      "started_at": "2026-10-17T23:25:00Z",
+      "completed_at": "2026-10-17T23:43:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "A Bataan Project biography names a different service identifier; its Booster Produce Company employment belongs to that rejected namesake and is not transferred.",
+      "research_notes": "Official Army identity accepted. No reliable named pre-OSS employer or immediate affiliation was established.",
+      "next_action": "Review Box 712 for identity and pre-OSS employment evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b877-v1"
+    },
+    {
+      "key": "louis-t-simms-7cb0dfda-b877",
+      "person_id": "7cb0dfda-1090-5565-879f-444547c4e1a0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Louis T Simms; NARA OSS/index context; CIA Reading Room context; exact-name and meaningful variant OSS searches; employer and occupation around 1940; institutional, newspaper, obituary, directory and archival sources; indexed Box 712",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_877",
+      "started_at": "2026-10-17T23:25:00Z",
+      "completed_at": "2026-10-17T23:43:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Namesake results lacked a protected identifier, OSS assignment or Box 712 personnel-file bridge and were rejected.",
+      "research_notes": "The staged accessible-source protocol produced no reliable pre-OSS employer or sufficiently corroborated identity.",
+      "next_action": "Review Box 712 for identity and pre-OSS employment evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b877-v1"
+    },
+    {
+      "key": "semeon-simollari-3ce317ad-b877",
+      "person_id": "3ce317ad-0c2a-5aa2-b654-0056318b7409",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Semeon Simollari; NARA OSS/index context; CIA Reading Room context; exact-name and meaningful variant OSS searches; employer and occupation around 1940; institutional, newspaper, obituary, directory and archival sources; indexed Box 712",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_877",
+      "started_at": "2026-10-17T23:25:00Z",
+      "completed_at": "2026-10-17T23:43:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Searches did not identify a reliable named pre-OSS employer; Army coded fields are not employer evidence.",
+      "research_notes": "Identity confirmed and immediate Army affiliation documented. No reliable last civilian employer before Army service was identified; the postwar foreign-car shop was excluded.",
+      "next_action": "Review Box 712 for the last civilian employer and exact recruitment chronology.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b877-v1"
+    },
+    {
+      "key": "alfred-simon-866e4bc5-b877",
+      "person_id": "866e4bc5-0439-535a-8f85-8827eaf0a4ef",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Alfred Simon; NARA OSS/index context; CIA Reading Room context; exact-name and meaningful variant OSS searches; employer and occupation around 1940; institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_877",
+      "started_at": "2026-10-17T23:25:00Z",
+      "completed_at": "2026-10-17T23:43:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Searches did not identify a reliable named pre-OSS employer; Army coded fields are not employer evidence.",
+      "research_notes": "Official Army identity accepted. No reliable named pre-OSS employer or immediate affiliation was established.",
+      "next_action": "Review Box 713 for identity and pre-OSS employment evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b877-v1"
+    },
+    {
+      "key": "alfred-simon-cb86bafe-b877",
+      "person_id": "cb86bafe-d0da-56cf-81c0-4726696b7f85",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Alfred Simon; NARA OSS/index context; CIA Reading Room context; exact-name and meaningful variant OSS searches; employer and occupation around 1940; institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_877",
+      "started_at": "2026-10-17T23:25:00Z",
+      "completed_at": "2026-10-17T23:43:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Searches did not identify a reliable named pre-OSS employer; Army coded fields are not employer evidence.",
+      "research_notes": "Official Army identity accepted. No reliable named pre-OSS employer or immediate affiliation was established.",
+      "next_action": "Review Box 713 for identity and pre-OSS employment evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b877-v1"
+    },
+    {
+      "key": "arthur-simon-53833694-b877",
+      "person_id": "53833694-69ae-5b69-8a5d-4497da8b67aa",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Arthur Simon; NARA OSS/index context; CIA Reading Room context; exact-name and meaningful variant OSS searches; employer and occupation around 1940; institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_877",
+      "started_at": "2026-10-17T23:25:00Z",
+      "completed_at": "2026-10-17T23:43:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Common-name results lacked a matching identifier, OSS assignment or Box 713 bridge; no evidence was transferred between the two separate Arthur Simon entities.",
+      "research_notes": "The staged accessible-source protocol produced no reliable pre-OSS employer or sufficiently corroborated identity.",
+      "next_action": "Review Box 713 for identity and pre-OSS employment evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b877-v1"
+    },
+    {
+      "key": "arthur-simon-b29bd8cf-b877",
+      "person_id": "b29bd8cf-a36a-51e6-b72c-aaaf46ce57aa",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Arthur Simon; NARA OSS/index context; CIA Reading Room context; exact-name and meaningful variant OSS searches; employer and occupation around 1940; institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_877",
+      "started_at": "2026-10-17T23:25:00Z",
+      "completed_at": "2026-10-17T23:43:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Common-name results lacked a matching identifier, OSS assignment or Box 713 bridge; no evidence was transferred between the two separate Arthur Simon entities.",
+      "research_notes": "The staged accessible-source protocol produced no reliable pre-OSS employer or sufficiently corroborated identity.",
+      "next_action": "Review Box 713 for identity and pre-OSS employment evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b877-v1"
+    },
+    {
+      "key": "bertram-simon-ad9ddd0d-b877",
+      "person_id": "ad9ddd0d-bd6d-5ce7-b795-176e1cbed2bb",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Bertram Simon; NARA OSS/index context; CIA Reading Room context; exact-name and meaningful variant OSS searches; employer and occupation around 1940; institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_877",
+      "started_at": "2026-10-17T23:25:00Z",
+      "completed_at": "2026-10-17T23:43:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Namesake results lacked a protected identifier, OSS assignment or Box 713 personnel-file bridge and were rejected.",
+      "research_notes": "The staged accessible-source protocol produced no reliable pre-OSS employer or sufficiently corroborated identity.",
+      "next_action": "Review Box 713 for identity and pre-OSS employment evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b877-v1"
+    },
+    {
+      "key": "bessie-simon-ea571cc7-b877",
+      "person_id": "ea571cc7-f709-5573-8b54-2809e120c94a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Bessie Simon; NARA OSS/index context; CIA Reading Room context; exact-name and meaningful variant OSS searches; employer and occupation around 1940; institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_877",
+      "started_at": "2026-10-17T23:25:00Z",
+      "completed_at": "2026-10-17T23:43:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The Peace Now Movement lead is historically credible but remains an unlinked namesake; its affiliations are not assigned to the indexed person.",
+      "research_notes": "A historically credible Bessie Simon lead was reviewed and rejected for this index row because identity remains name-only.",
+      "next_action": "Review Box 713 for identity and pre-OSS employment evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b877-v1"
+    },
+    {
+      "key": "charles-e-simon-58378aa0-b877",
+      "person_id": "58378aa0-c1b4-5d2c-8e5d-bf98b20ebf68",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles E Simon; NARA OSS/index context; CIA Reading Room context; exact-name and meaningful variant OSS searches; employer and occupation around 1940; institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_877",
+      "started_at": "2026-10-17T23:25:00Z",
+      "completed_at": "2026-10-17T23:43:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Searches did not identify a reliable named pre-OSS employer; Army coded fields are not employer evidence.",
+      "research_notes": "Official Army identity accepted. No reliable named pre-OSS employer or immediate affiliation was established.",
+      "next_action": "Review Box 713 for identity and pre-OSS employment evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b877-v1"
+    },
+    {
+      "key": "edward-simon-29747340-b877",
+      "person_id": "29747340-7f13-58ae-be10-db002df19c65",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edward Simon; NARA OSS/index context; CIA Reading Room context; exact-name and meaningful variant OSS searches; employer and occupation around 1940; institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_877",
+      "started_at": "2026-10-17T23:25:00Z",
+      "completed_at": "2026-10-17T23:43:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Namesake results lacked a protected identifier, OSS assignment or Box 713 personnel-file bridge and were rejected.",
+      "research_notes": "The staged accessible-source protocol produced no reliable pre-OSS employer or sufficiently corroborated identity.",
+      "next_action": "Review Box 713 for identity and pre-OSS employment evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b877-v1"
+    },
+    {
+      "key": "frederick-j-simon-c6c0038d-b877",
+      "person_id": "c6c0038d-f035-5446-8ef6-12dae4a24dbc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Frederick J Simon; NARA OSS/index context; CIA Reading Room context; exact-name and meaningful variant OSS searches; employer and occupation around 1940; institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_877",
+      "started_at": "2026-10-17T23:25:00Z",
+      "completed_at": "2026-10-17T23:43:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Namesake results lacked a protected identifier, OSS assignment or Box 713 personnel-file bridge and were rejected.",
+      "research_notes": "The staged accessible-source protocol produced no reliable pre-OSS employer or sufficiently corroborated identity.",
+      "next_action": "Review Box 713 for identity and pre-OSS employment evidence.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b877-v1"
+    }
+  ]
+}
