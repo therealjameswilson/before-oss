@@ -1,5 +1,29 @@
 # Research status
 
+Batch 863 completed PDF page 421, rows 24-46, from **Eli Shapiro** through
+**Lee M Sharrar**, preserving all 23 printed rows as separate source records
+linked to 23 active person entities. All 23 have saved terminal research
+outcomes. Official NARA records confirm **Lee M Sharrar**; a contemporary
+Texas General Land Office record documents his Humble Oil & Refining Company
+legal work as the latest identifiable civilian employment before service, and
+a 1933 newspaper documents earlier Rice Institute teaching. **Karl J
+Shapiro**'s Enoch Pratt Library School attendance is correctly modeled as
+student status rather than employment. The John B Sharp, Samuel L Sharp and
+Doris Sharrai/Sharrar possible duplicates remain separate and visible. Six
+official Army identity bridges were accepted and one incompatible candidate
+was rejected without transferring namesake evidence.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **12,817/23,937 (53.5447%)**;
+verified-employer coverage is **423/23,937 (1.7671%)**;
+verified-affiliation coverage is **932/23,937 (3.8936%)**; archival-review
+coverage is **11,284/23,937 (47.1404%)**. There are **11,115** `not_started`
+people, **575** possible-duplicate groups and **447** conflicts. The public
+projection contains **2,866** affiliations, **1,072** organizations, **5,298**
+sources and **7,754** published or qualified claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 422, row
+1. See `research/batch-863-progress.md` for the source-by-source audit.
+
 Batch 862 completed PDF page 421, rows 1-23, from **Eugene Shaffer** through
 **John A Shannon**, preserving all 23 printed rows as separate source records
 linked to 23 active person entities. All 23 have saved terminal archival-review
