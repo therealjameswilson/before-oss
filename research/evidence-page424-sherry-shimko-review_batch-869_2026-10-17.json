@@ -1,0 +1,576 @@
+{
+  "bundle_version": "batch-869-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 869 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b869",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 704-705",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 424, rows 24-46; checked against extracted layout text and rendered page image",
+      "access_date": "2026-10-17",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain preserved. Protected identifiers are retained only in the private database and are masked from public data."
+    },
+    {
+      "key": "army-bulk-b869",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Department of Defense; Department of the Army",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; ten candidates reviewed and accepted for identity only",
+      "access_date": "2026-10-17",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "rights_notes": "Full identifiers, raw rows, entry-grade codes and occupation codes are not published. Army-coded fields are not treated as named employers or OSS ranks."
+    },
+    {
+      "key": "uc-memorial-shibutani-b869",
+      "stable_url": "https://senate.universityofcalifornia.edu/_files/inmemoriam/html/tamotsushibutani.html",
+      "title": "Tamotsu Shibutani, Professor of Sociology, UC Santa Barbara, 1920-2004",
+      "author_creator": "John D. Baldwin",
+      "repository_publisher": "University of California Academic Senate",
+      "publication_record_date": "2004",
+      "locator": "Biographical paragraphs covering Stockton Junior College, UC Berkeley, two years in the Army, and postwar University of Chicago study",
+      "access_date": "2026-10-17",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Institutional memorial used for identity and chronology; postwar career details were not treated as pre-OSS employment."
+    },
+    {
+      "key": "densho-shibutani-b869",
+      "stable_url": "https://encyclopedia.densho.org/Tamotsu%20Shibutani",
+      "title": "Tamotsu Shibutani",
+      "author_creator": "Karen Inouye",
+      "repository_publisher": "Densho Encyclopedia",
+      "publication_record_date": "updated 2024-01-16",
+      "locator": "Early Life and Descriptions of Wartime Experience and JERS sections",
+      "access_date": "2026-10-17",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Densho Encyclopedia",
+      "rights_notes": "Project-authored paraphrase retained; no page reproduction."
+    },
+    {
+      "key": "discover-nikkei-shibutani-b869",
+      "stable_url": "https://discovernikkei.org/en/resources/military/search/?page=473&service_branch=army",
+      "title": "Japanese American Military Experience Database",
+      "repository_publisher": "Discover Nikkei, Japanese American National Museum",
+      "locator": "Army search results, page 473; Tamotsu Shibutani entry for MISLS F-1, graduated Fort Snelling July 1945",
+      "access_date": "2026-10-17",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Used as a military-chronology bridge, not as proof of OSS employment or a civilian employer."
+    },
+    {
+      "key": "broadcasting-shilzony-b869",
+      "stable_url": "https://www.worldradiohistory.com/Archive-BC/BC-1942/1942-02-16-BC.pdf",
+      "archival_identifier": "Broadcasting, Vol. 22, No. 7",
+      "title": "Broadcasting: Broadcast Advertising",
+      "repository_publisher": "Broadcasting Publications, Inc.; digitized by World Radio History",
+      "publication_record_date": "1942-02-16",
+      "locator": "PDF and printed page 46, 'In the Control Room' personnel column",
+      "access_date": "2026-10-17",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Broadcasting magazine archive",
+      "rights_notes": "Contemporary trade-periodical evidence; citation and project-authored paraphrase retained."
+    },
+    {
+      "key": "nara-haldor-shields-award-b869",
+      "stable_url": "https://www.archives.gov/files/research/jfk/releases/104-10165-10120.pdf",
+      "archival_identifier": "NARA JFK release 104-10165-10120",
+      "title": "Award of Unit Certificate of Merit",
+      "author_creator": "Office of Strategic Services, Mission to France",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1945-07-19",
+      "locator": "PDF page 81, internal page 3; S Sgt Haldor G Shields citation",
+      "access_date": "2026-10-17",
+      "source_quality": "A_direct_official",
+      "collection_name": "JFK Assassination Records Collection",
+      "document_number": "104-10165-10120",
+      "rights_notes": "The protected identifier shown in the record is retained privately and omitted from public text."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "jers-b869",
+      "canonical_name": "Japanese American Evacuation and Resettlement Study",
+      "historical_name": "Japanese American Evacuation and Resettlement Study",
+      "aliases": [
+        "JERS",
+        "Evacuation and Resettlement Study"
+      ],
+      "organization_type": "research project",
+      "sector": "academia_and_research",
+      "city": "Berkeley",
+      "state_or_region": "California",
+      "country": "United States",
+      "active_dates": "1942-1948",
+      "normalization_notes": "The wartime University of California research project is preserved as its own historical organization; its institutional base at UC Berkeley is documented separately."
+    },
+    {
+      "key": "uc-berkeley-b869",
+      "organization_id": "dd5d0a44-0368-5e91-a5d3-074de36840ed",
+      "canonical_name": "University of California, Berkeley",
+      "historical_name": "University of California at Berkeley",
+      "aliases": [
+        "UC Berkeley",
+        "University of California"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Berkeley",
+      "state_or_region": "California",
+      "country": "United States",
+      "normalization_notes": "Student status is kept separate from employment by the affiliated JERS research project."
+    },
+    {
+      "key": "rca-communications-b869",
+      "organization_id": "5dff25ac-68a2-57f5-8913-bedd7524bbdb",
+      "canonical_name": "RCA Communications, Inc.",
+      "historical_name": "RCA Communications, Inc.",
+      "aliases": [
+        "RCA Communications"
+      ],
+      "organization_type": "telecommunications company",
+      "sector": "business_and_industry",
+      "country": "United States",
+      "normalization_notes": "Historical company wording is retained; no modern successor is substituted."
+    },
+    {
+      "key": "twentieth-century-fox-b869",
+      "canonical_name": "Twentieth Century-Fox Film Corporation",
+      "historical_name": "20th Century Fox Studios",
+      "aliases": [
+        "20th Century Fox Studios",
+        "20th Century-Fox"
+      ],
+      "organization_type": "film studio",
+      "sector": "arts_and_culture",
+      "city": "Los Angeles",
+      "state_or_region": "California",
+      "country": "United States",
+      "active_dates": "1935-1985 under the Twentieth Century-Fox name",
+      "normalization_notes": "The historical studio name is retained; no modern successor name is substituted."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "shibutani-jers-b869",
+      "person_id": "db07cc9b-4624-59dc-a0ed-812a14d3978d",
+      "organization_key": "jers-b869",
+      "organization_name_as_found": "Japanese American Evacuation and Resettlement Study",
+      "role_title": "research assistant and participant observer",
+      "occupation": "research assistant",
+      "relationship_type": "employment",
+      "start_date": "1942",
+      "end_date": "1944",
+      "date_precision": "year",
+      "city": "Tule Lake",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Densho documents JERS work from 1942 through 1944; an institutional military database places Shibutani at the Military Intelligence Service Language School by July 1945. The sequence supports last civilian employment before Army service, but does not establish the immediate pre-OSS assignment."
+    },
+    {
+      "key": "shibutani-uc-berkeley-student-b869",
+      "person_id": "db07cc9b-4624-59dc-a0ed-812a14d3978d",
+      "organization_key": "uc-berkeley-b869",
+      "organization_name_as_found": "University of California at Berkeley",
+      "role_title": "undergraduate student",
+      "relationship_type": "student",
+      "end_date": "1942",
+      "date_precision": "year",
+      "city": "Berkeley",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The university relationship is classified as student status, not employment."
+    },
+    {
+      "key": "shilzony-rca-b869",
+      "person_id": "5f0e480d-aab6-5d26-b2a0-dbd748d5033f",
+      "organization_key": "rca-communications-b869",
+      "organization_name_as_found": "RCA",
+      "role_title": "communications engineer",
+      "occupation": "communications engineer",
+      "relationship_type": "employment",
+      "end_date": "1942",
+      "date_precision": "year",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "A February 1942 trade report describes Frederick Shilzony as an RCA communications engineer. The uncommon name strongly suggests the indexed person, but the middle initial and direct OSS bridge are absent."
+    },
+    {
+      "key": "shilzony-fox-b869",
+      "person_id": "5f0e480d-aab6-5d26-b2a0-dbd748d5033f",
+      "organization_key": "twentieth-century-fox-b869",
+      "organization_name_as_found": "20th Century Fox Studios",
+      "role_title": "technical advisor for Manila Calling",
+      "occupation": "technical advisor",
+      "relationship_type": "employment",
+      "start_date": "1942",
+      "date_precision": "year",
+      "city": "Los Angeles",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The contemporary source says he was engaged by the studio as technical advisor. The project does not infer whether this was permanent, temporary, or contract employment."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-john-sherry-b869",
+      "person_id": "ad3bb53e-309f-5eb6-b467-3892cfbe03e4",
+      "claim_type": "identity",
+      "claim_text": "The indexed John Sherry is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army file.",
+      "identity_match_assessment": "High confidence from an exact-name, unique protected-identifier bridge.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named employer or Army-to-OSS chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army-coded fields remain private and are not converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b869", "locator_override": "PDF page 424, row 24; Box 704; protected identifier withheld"},
+        {"source_key": "army-bulk-b869", "locator_override": "Accepted reviewed identity bridge; bulk record ordinal 3803290; protected identifier withheld"}
+      ]
+    },
+    {
+      "key": "identity-david-a-sherwood-b869",
+      "person_id": "0f22c2ea-6577-5dc4-af08-6e5150ed100e",
+      "claim_type": "identity",
+      "claim_text": "The indexed David A Sherwood is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army file.",
+      "identity_match_assessment": "High confidence from an exact-name, unique protected-identifier bridge.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named employer or Army-to-OSS chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army-coded fields remain private and are not converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b869", "locator_override": "PDF page 424, row 25; Box 704; protected identifier withheld"},
+        {"source_key": "army-bulk-b869", "locator_override": "Accepted reviewed identity bridge; bulk record ordinal 8097225; protected identifier withheld"}
+      ]
+    },
+    {
+      "key": "identity-david-h-sherwood-b869",
+      "person_id": "19747177-bf65-5a25-980e-4f742a4a885a",
+      "claim_type": "identity",
+      "claim_text": "The indexed David H Sherwood is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army file.",
+      "identity_match_assessment": "High confidence from an exact-name, unique protected-identifier bridge.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named employer or Army-to-OSS chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army-coded fields remain private and are not converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b869", "locator_override": "PDF page 424, row 26; Box 704; protected identifier withheld"},
+        {"source_key": "army-bulk-b869", "locator_override": "Accepted reviewed identity bridge; bulk record ordinal 4614900; protected identifier withheld"}
+      ]
+    },
+    {
+      "key": "identity-gerard-v-shields-b869",
+      "person_id": "2d6a51a7-7d2a-55f8-b290-b1c3ca676509",
+      "claim_type": "identity",
+      "claim_text": "The indexed Gerard V Shields is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army file.",
+      "identity_match_assessment": "High confidence from an exact-name, unique protected-identifier bridge.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named employer or Army-to-OSS chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army-coded fields remain private and are not converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b869", "locator_override": "PDF page 424, row 36; Box 705; protected identifier withheld"},
+        {"source_key": "army-bulk-b869", "locator_override": "Accepted reviewed identity bridge; bulk record ordinal 2235139; protected identifier withheld"}
+      ]
+    },
+    {
+      "key": "identity-haldor-g-shields-b869",
+      "person_id": "4b830826-f6e0-5464-87f0-667e9bb64a5a",
+      "claim_type": "identity",
+      "claim_text": "The indexed Haldor G Shields is confirmed as the OSS staff sergeant named in the official Unit Certificate of Merit record.",
+      "evidence_paraphrase": "The NARA index, official Army file, and OSS award record agree on his name, rank, and protected identifier.",
+      "identity_match_assessment": "Confirmed by concordant direct official sources using a protected identifier and matching rank.",
+      "temporal_assessment": "The July 1945 OSS citation confirms wartime service but does not identify a pre-OSS employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The public claim omits the full protected identifier.",
+      "sources": [
+        {"source_key": "nara-index-b869", "locator_override": "PDF page 424, row 37; Box 705; rank S/SGT; protected identifier withheld"},
+        {"source_key": "army-bulk-b869", "locator_override": "Accepted reviewed identity bridge; bulk record ordinal 5958084; protected identifier withheld"},
+        {"source_key": "nara-haldor-shields-award-b869", "locator_override": "PDF page 81, internal page 3; name, rank, protected identifier, and citation"}
+      ]
+    },
+    {
+      "key": "identity-john-f-shields-b869",
+      "person_id": "049bc775-6e28-57a0-afec-f798c76b268b",
+      "claim_type": "identity",
+      "claim_text": "The indexed John F Shields is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army file.",
+      "identity_match_assessment": "High confidence from an exact-name, unique protected-identifier bridge.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named employer or Army-to-OSS chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army-coded fields remain private and are not converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b869", "locator_override": "PDF page 424, row 38; Box 705; protected identifier withheld"},
+        {"source_key": "army-bulk-b869", "locator_override": "Accepted reviewed identity bridge; bulk record ordinal 4619499; protected identifier withheld"}
+      ]
+    },
+    {
+      "key": "identity-john-j-shields-b869",
+      "person_id": "f46f2ff7-44a9-591d-b7ba-c4605f17e3a5",
+      "claim_type": "identity",
+      "claim_text": "The indexed John J Shields is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army file.",
+      "identity_match_assessment": "High confidence from an exact-name, unique protected-identifier bridge.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named employer or Army-to-OSS chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army-coded fields remain private and are not converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b869", "locator_override": "PDF page 424, row 39; Box 705; protected identifier withheld"},
+        {"source_key": "army-bulk-b869", "locator_override": "Accepted reviewed identity bridge; bulk record ordinal 4431378; protected identifier withheld"}
+      ]
+    },
+    {
+      "key": "identity-nathan-shiffman-b869",
+      "person_id": "2155ea9e-faaa-5c7d-9726-668aeac2fe65",
+      "claim_type": "identity",
+      "claim_text": "The indexed Nathan Shiffman is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army file.",
+      "identity_match_assessment": "High confidence from an exact-name, unique protected-identifier bridge.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named employer or Army-to-OSS chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army-coded fields remain private and are not converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b869", "locator_override": "PDF page 424, row 42; Box 705; protected identifier withheld"},
+        {"source_key": "army-bulk-b869", "locator_override": "Accepted reviewed identity bridge; bulk record ordinal 9188359; protected identifier withheld"}
+      ]
+    },
+    {
+      "key": "identity-harold-s-shiles-b869",
+      "person_id": "11da5f98-21d4-59bf-bc76-7882437019c0",
+      "claim_type": "identity",
+      "claim_text": "The indexed Harold S Shiles is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army file.",
+      "identity_match_assessment": "High confidence from an exact-name, unique protected-identifier bridge.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named employer or Army-to-OSS chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army-coded fields remain private and are not converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b869", "locator_override": "PDF page 424, row 43; Box 705; protected identifier withheld"},
+        {"source_key": "army-bulk-b869", "locator_override": "Accepted reviewed identity bridge; bulk record ordinal 4726674; protected identifier withheld"}
+      ]
+    },
+    {
+      "key": "identity-william-l-shimko-b869",
+      "person_id": "0c6f9b05-ad23-588d-bfa3-6820fe78cdf1",
+      "claim_type": "identity",
+      "claim_text": "The indexed William L Shimko is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The exact full name and a nonshared protected identifier agree across the OSS index and official Army file.",
+      "identity_match_assessment": "High confidence from an exact-name, unique protected-identifier bridge.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named employer or Army-to-OSS chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army-coded fields remain private and are not converted into employer evidence.",
+      "sources": [
+        {"source_key": "nara-index-b869", "locator_override": "PDF page 424, row 46; Box 705; protected identifier withheld"},
+        {"source_key": "army-bulk-b869", "locator_override": "Accepted reviewed identity bridge; bulk record ordinal 3817565; protected identifier withheld"}
+      ]
+    },
+    {
+      "key": "identity-tamotsu-shibutani-b869",
+      "person_id": "db07cc9b-4624-59dc-a0ed-812a14d3978d",
+      "claim_type": "identity",
+      "claim_text": "The indexed Tamotsu Shibutani is a high-confidence match to the Japanese American sociologist and Army Military Intelligence Service graduate.",
+      "evidence_paraphrase": "The highly distinctive exact name is supported by institutional sources documenting his 1920 birth, UC Berkeley study, JERS work, and wartime Army service.",
+      "identity_match_assessment": "High confidence from a distinctive exact name plus concordant birth, education, research, and Army-intelligence chronology across independent institutional sources.",
+      "temporal_assessment": "The sources place JERS work in 1942-1944 and Army language-school graduation in July 1945; the exact OSS entry date remains unverified.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The personnel file is still needed to document the precise Army-to-OSS relationship.",
+      "sources": [
+        {"source_key": "nara-index-b869", "locator_override": "PDF page 424, row 34; Box 705"},
+        {"source_key": "uc-memorial-shibutani-b869", "locator_override": "Biographical paragraphs on UC Berkeley and two years in the Army"},
+        {"source_key": "densho-shibutani-b869", "locator_override": "Early Life and JERS sections"},
+        {"source_key": "discover-nikkei-shibutani-b869", "locator_override": "Page 473; MISLS F-1, graduated Fort Snelling July 1945"}
+      ]
+    },
+    {
+      "key": "last-civilian-shibutani-jers-b869",
+      "person_id": "db07cc9b-4624-59dc-a0ed-812a14d3978d",
+      "affiliation_key": "shibutani-jers-b869",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Tamotsu Shibutani's last documented civilian affiliation before Army service was research work for the Japanese American Evacuation and Resettlement Study.",
+      "evidence_paraphrase": "Densho documents his JERS work through 1944; an institutional military database records his Army language-school graduation in July 1945.",
+      "identity_match_assessment": "High-confidence exact-person match from the distinctive name and corroborating institutional chronology.",
+      "temporal_assessment": "Strongly date-bounded as 1942-1944 research followed by documented Army service by 1945; no intervening civilian employer has been identified.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This is a last-civilian-before-service claim, not an immediate pre-OSS affiliation claim.",
+      "sources": [
+        {"source_key": "densho-shibutani-b869", "locator_override": "JERS section; work at Tule Lake through 1944"},
+        {"source_key": "discover-nikkei-shibutani-b869", "locator_override": "MISLS F-1, graduated Fort Snelling July 1945"},
+        {"source_key": "uc-memorial-shibutani-b869", "locator_override": "Institutional biography documenting two years in the Army"}
+      ]
+    },
+    {
+      "key": "prewar-shibutani-uc-berkeley-b869",
+      "person_id": "db07cc9b-4624-59dc-a0ed-812a14d3978d",
+      "affiliation_key": "shibutani-uc-berkeley-student-b869",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Tamotsu Shibutani studied at the University of California, Berkeley before wartime Army service.",
+      "evidence_paraphrase": "The University of California memorial and Densho biography document his transfer to Berkeley and undergraduate study there.",
+      "identity_match_assessment": "High-confidence exact-person match from distinctive name and continuous institutional biography.",
+      "temporal_assessment": "Documented prewar student status; it is not classified as employment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Student status is kept separate from JERS employment.",
+      "sources": [
+        {"source_key": "uc-memorial-shibutani-b869", "locator_override": "Paragraphs on Stockton Junior College and UC Berkeley"},
+        {"source_key": "densho-shibutani-b869", "locator_override": "Early Life section"}
+      ]
+    },
+    {
+      "key": "identity-frederick-n-shilzony-b869",
+      "person_id": "5f0e480d-aab6-5d26-b2a0-dbd748d5033f",
+      "claim_type": "identity",
+      "claim_text": "The Frederick Shilzony described in a February 1942 broadcasting trade journal is a probable match to the indexed Frederick N Shilzony.",
+      "evidence_paraphrase": "A contemporary source uses the same uncommon first name and surname and places him in communications engineering before OSS service.",
+      "identity_match_assessment": "Probable: the name is highly distinctive and the technical field is relevant, but the source omits the middle initial and an explicit OSS bridge.",
+      "temporal_assessment": "The report is dated February 1942, but the indexed person's OSS entry date is not yet documented.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The finding remains visibly qualified until the Box 705 personnel file is reviewed.",
+      "sources": [
+        {"source_key": "nara-index-b869", "locator_override": "PDF page 424, row 45; Box 705"},
+        {"source_key": "broadcasting-shilzony-b869", "locator_override": "PDF and printed page 46; 'In the Control Room'"}
+      ]
+    },
+    {
+      "key": "prewar-shilzony-rca-b869",
+      "person_id": "5f0e480d-aab6-5d26-b2a0-dbd748d5033f",
+      "affiliation_key": "shilzony-rca-b869",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A probable match for Frederick N Shilzony was an RCA communications engineer in February 1942.",
+      "evidence_paraphrase": "Broadcasting described Frederick Shilzony as an RCA communications engineer when reporting his studio engagement.",
+      "identity_match_assessment": "Probable exact-person match from the uncommon name; the missing middle initial and absent OSS bridge prevent a high-confidence identity finding.",
+      "temporal_assessment": "Documented prewar employment, but not shown to be the immediate pre-OSS role or final civilian employer.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "RCA is retained as the employer named in the source; no corporate successor is substituted.",
+      "sources": [
+        {"source_key": "broadcasting-shilzony-b869", "locator_override": "PDF and printed page 46; personnel column"}
+      ]
+    },
+    {
+      "key": "prewar-shilzony-fox-b869",
+      "person_id": "5f0e480d-aab6-5d26-b2a0-dbd748d5033f",
+      "affiliation_key": "shilzony-fox-b869",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A probable match for Frederick N Shilzony was engaged by 20th Century Fox Studios as technical advisor for Manila Calling in 1942.",
+      "evidence_paraphrase": "The contemporary trade report identifies the studio, advisory role, and motion picture.",
+      "identity_match_assessment": "Probable exact-person match from the uncommon name; a personnel-file bridge is still needed.",
+      "temporal_assessment": "Documented prewar affiliation; the source does not establish duration or sequence relative to OSS service.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The source's verb 'engaged' is preserved in the claim; the project does not infer a permanent job.",
+      "sources": [
+        {"source_key": "broadcasting-shilzony-b869", "locator_override": "PDF and printed page 46; personnel column"}
+      ]
+    }
+  ],
+  "person_updates": [
+    {"person_id":"ad3bb53e-309f-5eb6-b467-3892cfbe03e4","identity_status":"high_confidence","identity_evidence":"The exact full name and a nonshared protected identifier link the index to official Army source form SHERRY JOHN.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 704 for John Sherry's civilian chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"0f22c2ea-6577-5dc4-af08-6e5150ed100e","identity_status":"high_confidence","identity_evidence":"The exact full name and a nonshared protected identifier link the index to official Army source form SHERWOOD DAVID A.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 704 for David A Sherwood's civilian chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"19747177-bf65-5a25-980e-4f742a4a885a","identity_status":"high_confidence","identity_evidence":"The exact full name and a nonshared protected identifier link the index to official Army source form SHERWOOD DAVID H.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 704 for David H Sherwood's civilian chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"ef4bf234-c28c-5bd7-a852-8296b82d9bc9","identity_status":"unresolved","identity_evidence":"The indexed Henrietta H Sherwood produced no reliable exact-person source with a direct OSS, personnel-file, or corroborating-identifier bridge.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 704 to establish Henrietta H Sherwood's identity and chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"184d9662-fd07-5a9f-80bf-dedaf6f06056","identity_status":"unresolved","identity_evidence":"The index identifies William F Sherwood as a British Army sergeant, but no reliable source yet establishes a fuller identity or pre-OSS chronology.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 704 and British Army records for William F Sherwood.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"31f93097-22e6-582c-b717-d4fc16c63d5c","identity_status":"unresolved","identity_evidence":"The indexed William H Sherwood produced no reliable exact-person source with a direct OSS, personnel-file, or corroborating-identifier bridge.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 704 to establish William H Sherwood's identity and chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"13b10031-f321-5480-a334-61af96397b63","identity_status":"unresolved","identity_evidence":"A postwar loyalty-investigation reference to a Suzanne Shestople lacks a protected identifier, an employment fact, and a demonstrated bridge to the indexed person.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 704 to establish Suzanne Shestople's identity and pre-OSS chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"96691036-4a89-5abc-9157-9a0821f13cf7","identity_status":"unresolved","identity_evidence":"Searches found possible postwar namesakes but no source with a direct OSS, personnel-file, or corroborating-identifier bridge to Gertrude M Sheva.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 704 to establish Gertrude M Sheva's identity and chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"6998c051-1c2b-5974-acf4-8e47c12a156f","identity_status":"unresolved","identity_evidence":"The indexed Edward Shevick produced no reliable exact-person source with a direct OSS, personnel-file, or corroborating-identifier bridge.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 705 to establish Edward Shevick's identity and chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"e254962a-e82c-5f28-b864-ec90ad0d8f9d","identity_status":"unresolved","identity_evidence":"Discovery-only references did not establish Newson H Shewitz's identity, pre-OSS employment, or a reliable chronology.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 705 to establish Newson H Shewitz's identity and chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"db07cc9b-4624-59dc-a0ed-812a14d3978d","identity_status":"high_confidence","identity_evidence":"The highly distinctive exact name aligns with independent institutional sources documenting a 1920 birth, UC Berkeley study, JERS research work, and wartime Army Military Intelligence Service training.","name_variants":["Tamotsu (Tom) Shibutani","Tom Shibutani"],"manual_review_required":true,"research_status":"verified_employer_found","next_action":"Review Box 705 to confirm the OSS entry date and determine whether an Army assignment immediately preceded OSS service.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"medium"},
+    {"person_id":"29939c06-bc66-5d6c-ae17-3189c15cf607","identity_status":"unresolved","identity_evidence":"The indexed Daniel C Shields produced no reliable exact-person source with a direct OSS, personnel-file, or corroborating-identifier bridge.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 705 to establish Daniel C Shields's identity and chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"2d6a51a7-7d2a-55f8-b290-b1c3ca676509","identity_status":"high_confidence","identity_evidence":"The exact full name and a nonshared protected identifier link the index to official Army source form SHIELDS GERARD V.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 705 for Gerard V Shields's civilian chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"4b830826-f6e0-5464-87f0-667e9bb64a5a","identity_status":"confirmed","identity_evidence":"The NARA index, official Army bulk file, and a July 1945 OSS Unit Certificate of Merit record agree on Haldor G Shields's name, staff-sergeant rank, and protected identifier.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 705 for Haldor G Shields's civilian and Army-to-OSS chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"049bc775-6e28-57a0-afec-f798c76b268b","identity_status":"high_confidence","identity_evidence":"The exact full name and a nonshared protected identifier link the index to official Army source form SHIELDS JOHN F.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 705 for John F Shields's civilian chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"f46f2ff7-44a9-591d-b7ba-c4605f17e3a5","identity_status":"high_confidence","identity_evidence":"The exact full name and a nonshared protected identifier link the index to official Army source form SHIELDS JOHN J.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 705 for John J Shields's civilian chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"071b9733-074a-5784-b2e7-98bade9c5c7a","identity_status":"unresolved","identity_evidence":"The indexed Justine L Shields produced no reliable exact-person source with a direct OSS, personnel-file, or corroborating-identifier bridge.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 705 to establish Justine L Shields's identity and chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"09f8a452-c835-5a6a-a6a2-958a990ac869","identity_status":"unresolved","identity_evidence":"The indexed William H Shields produced no reliable exact-person source with a direct OSS, personnel-file, or corroborating-identifier bridge.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 705 to establish William H Shields's identity and chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"critical"},
+    {"person_id":"2155ea9e-faaa-5c7d-9726-668aeac2fe65","identity_status":"high_confidence","identity_evidence":"The exact full name and a nonshared protected identifier link the index to official Army source form SHIFFMAN NATHAN.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 705 for Nathan Shiffman's civilian chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"11da5f98-21d4-59bf-bc76-7882437019c0","identity_status":"high_confidence","identity_evidence":"The exact full name and a nonshared protected identifier link the index to official Army source form SHILES HAROLD S.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 705 and the Salisbury World War II veterans oral-history materials for Harold S Shiles's civilian chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"5f0e480d-aab6-5d26-b2a0-dbd748d5033f","identity_status":"probable","identity_evidence":"A February 1942 broadcasting trade journal identifies the uncommon exact form Frederick Shilzony as an RCA communications engineer engaged by 20th Century Fox; the middle initial and direct OSS bridge remain absent.","manual_review_required":true,"research_status":"documented_prewar_employer_found","next_action":"Review Box 705 to confirm the identity bridge and establish whether RCA, the studio engagement, or another affiliation immediately preceded OSS.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"},
+    {"person_id":"0c6f9b05-ad23-588d-bfa3-6820fe78cdf1","identity_status":"high_confidence","identity_evidence":"The exact full name and a nonshared protected identifier link the index to official Army source form SHIMKO WILLIAM L.","manual_review_required":true,"research_status":"requires_archival_review","next_action":"No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 705 for William L Shimko's civilian chronology.","personnel_file_digitized":false,"personnel_file_reviewed":false,"archival_review_priority":"high"}
+  ],
+  "research_attempts": [
+    {"key":"john-sherry-b869","person_id":"ad3bb53e-309f-5eb6-b467-3892cfbe03e4","source_adapter":"manual_staged_protocol","query_text":"NARA page 424 row 24; John Sherry; protected identifier; Army bulk; official NARA, CIA-domain and LoC-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; archival searches; Box 704","query_variant_type":"staged_identity_employment_archival_protocol_batch_869","started_at":"2026-10-17T16:12:00Z","completed_at":"2026-10-17T17:20:00Z","outcome":"source_reviewed","sources_reviewed":3,"candidate_sources_rejected":1,"research_notes":"Official Army identity bridge accepted; no reliable named pre-OSS employer identified. Namesake results were not used.","next_action":"Review Box 704.","attempt_number":1,"research_agent_version":"before-oss-b869-v1","rejection_reasons":"Common-name results lacked the protected-identifier or personnel-file bridge and supplied no defensible chronology."},
+    {"key":"david-a-sherwood-b869","person_id":"0f22c2ea-6577-5dc4-af08-6e5150ed100e","source_adapter":"manual_staged_protocol","query_text":"NARA page 424 row 25; David A Sherwood; protected identifier; Army bulk; official NARA, CIA-domain and LoC-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; archival searches; Box 704","query_variant_type":"staged_identity_employment_archival_protocol_batch_869","started_at":"2026-10-17T16:13:00Z","completed_at":"2026-10-17T17:20:00Z","outcome":"source_reviewed","sources_reviewed":3,"candidate_sources_rejected":1,"research_notes":"Official Army identity bridge accepted; no reliable named pre-OSS employer identified. The CIA adapter was blocked by robots policy and the LoC adapter timed out; neither failure was counted as negative evidence.","next_action":"Review Box 704.","attempt_number":3,"research_agent_version":"before-oss-b869-v1","rejection_reasons":"Namesake results lacked the protected-identifier or personnel-file bridge and supplied no defensible chronology."},
+    {"key":"david-h-sherwood-b869","person_id":"19747177-bf65-5a25-980e-4f742a4a885a","source_adapter":"manual_staged_protocol","query_text":"NARA page 424 row 26; David H Sherwood; protected identifier; Army bulk; official NARA, CIA-domain and LoC-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; archival searches; Box 704","query_variant_type":"staged_identity_employment_archival_protocol_batch_869","started_at":"2026-10-17T16:14:00Z","completed_at":"2026-10-17T17:20:00Z","outcome":"source_reviewed","sources_reviewed":3,"candidate_sources_rejected":1,"research_notes":"Official Army identity bridge accepted; no reliable named pre-OSS employer identified.","next_action":"Review Box 704.","attempt_number":1,"research_agent_version":"before-oss-b869-v1","rejection_reasons":"Namesake results lacked the protected-identifier or personnel-file bridge and supplied no defensible chronology."},
+    {"key":"henrietta-h-sherwood-b869","person_id":"ef4bf234-c28c-5bd7-a852-8296b82d9bc9","source_adapter":"manual_staged_protocol","query_text":"NARA page 424 row 27; Henrietta H Sherwood; official NARA, CIA-domain and LoC-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; institutional and archival searches; Box 704","query_variant_type":"staged_identity_employment_archival_protocol_batch_869","started_at":"2026-10-17T16:15:00Z","completed_at":"2026-10-17T17:20:00Z","outcome":"no_result","sources_reviewed":2,"candidate_sources_rejected":1,"research_notes":"No reliable exact-person identity or pre-OSS employer has yet been identified.","next_action":"Review Box 704.","attempt_number":1,"research_agent_version":"before-oss-b869-v1","rejection_reasons":"Search results were namesakes, discovery-only, or lacked an OSS and temporal bridge."},
+    {"key":"william-f-sherwood-b869","person_id":"184d9662-fd07-5a9f-80bf-dedaf6f06056","source_adapter":"manual_staged_protocol","query_text":"NARA page 424 row 28; William F Sherwood; SGT; Br. Army; official NARA, CIA-domain and LoC-domain checks; exact-name OSS; British Army; employer; occupation; obituary; archival searches; Box 704","query_variant_type":"staged_identity_employment_archival_protocol_batch_869","started_at":"2026-10-17T16:16:00Z","completed_at":"2026-10-17T17:20:00Z","outcome":"no_result","sources_reviewed":2,"candidate_sources_rejected":2,"research_notes":"The printed index establishes a British Army notation only. No reliable fuller identity or pre-OSS employer was located.","next_action":"Review Box 704 and British Army records.","attempt_number":1,"research_agent_version":"before-oss-b869-v1","rejection_reasons":"Common-name military and biographical results lacked a direct Box 704 or corroborating-identifier bridge."},
+    {"key":"william-h-sherwood-b869","person_id":"31f93097-22e6-582c-b717-d4fc16c63d5c","source_adapter":"manual_staged_protocol","query_text":"NARA page 424 row 29; William H Sherwood; official NARA, CIA-domain and LoC-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; institutional and archival searches; Box 704","query_variant_type":"staged_identity_employment_archival_protocol_batch_869","started_at":"2026-10-17T16:17:00Z","completed_at":"2026-10-17T17:20:00Z","outcome":"no_result","sources_reviewed":2,"candidate_sources_rejected":2,"research_notes":"No reliable exact-person identity or pre-OSS employer has yet been identified.","next_action":"Review Box 704.","attempt_number":1,"research_agent_version":"before-oss-b869-v1","rejection_reasons":"Common-name results could not be tied to the indexed person or a defensible pre-OSS chronology."},
+    {"key":"suzanne-shestople-b869","person_id":"13b10031-f321-5480-a334-61af96397b63","source_adapter":"manual_staged_protocol","query_text":"NARA page 424 row 30; Suzanne Shestople; official NARA, FBI, CIA-domain and LoC-domain checks; exact-name OSS; employer; occupation; loyalty investigation; obituary; archival searches; Box 704","query_variant_type":"staged_identity_employment_archival_protocol_batch_869","started_at":"2026-10-17T16:18:00Z","completed_at":"2026-10-17T17:20:00Z","outcome":"candidate_rejected","sources_reviewed":3,"candidate_sources_rejected":1,"research_notes":"A postwar FBI loyalty-investigation reference names Suzanne Shestople but supplies neither pre-OSS employment nor a sufficient bridge to the indexed person.","next_action":"Review Box 704.","attempt_number":1,"research_agent_version":"before-oss-b869-v1","rejection_reasons":"The 1950 reference is postwar, non-employment evidence and lacks a protected identifier or direct personnel-file link."},
+    {"key":"gertrude-m-sheva-b869","person_id":"96691036-4a89-5abc-9157-9a0821f13cf7","source_adapter":"manual_staged_protocol","query_text":"NARA page 424 row 31; Gertrude M Sheva; Gertrude Sheva; official NARA, CIA-domain and LoC-domain checks; exact-name OSS; employer; occupation; obituary; institutional and archival searches; Box 704","query_variant_type":"staged_identity_employment_archival_protocol_batch_869","started_at":"2026-10-17T16:19:00Z","completed_at":"2026-10-17T17:20:00Z","outcome":"candidate_rejected","sources_reviewed":2,"candidate_sources_rejected":2,"research_notes":"Possible postwar namesakes were reviewed but did not establish identity or pre-OSS employment.","next_action":"Review Box 704.","attempt_number":1,"research_agent_version":"before-oss-b869-v1","rejection_reasons":"Candidates lacked an OSS bridge, a corroborating identifier, and usable wartime chronology."},
+    {"key":"edward-shevick-b869","person_id":"6998c051-1c2b-5974-acf4-8e47c12a156f","source_adapter":"manual_staged_protocol","query_text":"NARA page 424 row 32; Edward Shevick; official NARA, CIA-domain and LoC-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; institutional and archival searches; Box 705","query_variant_type":"staged_identity_employment_archival_protocol_batch_869","started_at":"2026-10-17T16:20:00Z","completed_at":"2026-10-17T17:20:00Z","outcome":"no_result","sources_reviewed":2,"candidate_sources_rejected":1,"research_notes":"No reliable exact-person identity or pre-OSS employer has yet been identified.","next_action":"Review Box 705.","attempt_number":1,"research_agent_version":"before-oss-b869-v1","rejection_reasons":"Results lacked a direct OSS, personnel-file, or corroborating-identifier bridge."},
+    {"key":"newson-h-shewitz-b869","person_id":"e254962a-e82c-5f28-b864-ec90ad0d8f9d","source_adapter":"manual_staged_protocol","query_text":"NARA page 424 row 33; Newson H Shewitz; Newson Shewitz; official NARA, CIA-domain and LoC-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; archival searches; Box 705","query_variant_type":"staged_identity_employment_archival_protocol_batch_869","started_at":"2026-10-17T16:21:00Z","completed_at":"2026-10-17T17:20:00Z","outcome":"candidate_rejected","sources_reviewed":2,"candidate_sources_rejected":2,"research_notes":"Discovery-only genealogy and modern donor-list references did not establish identity or pre-OSS employment.","next_action":"Review Box 705.","attempt_number":1,"research_agent_version":"before-oss-b869-v1","rejection_reasons":"Candidates were discovery-only, undated for the relevant period, or lacked an OSS bridge."},
+    {"key":"tamotsu-shibutani-b869","person_id":"db07cc9b-4624-59dc-a0ed-812a14d3978d","source_adapter":"manual_staged_protocol","query_text":"NARA page 424 row 34; Tamotsu Shibutani; Tom Shibutani; official NARA, CIA-domain and LoC-domain checks; JERS; UC Berkeley; Army; MISLS; employer; occupation; biography; institutional archives; Box 705","query_variant_type":"staged_identity_employment_archival_protocol_batch_869","started_at":"2026-10-17T16:22:00Z","completed_at":"2026-10-17T17:20:00Z","outcome":"source_reviewed","sources_reviewed":6,"candidate_sources_rejected":1,"research_notes":"Independent institutional sources support a high-confidence identity, UC Berkeley student status, JERS research employment through 1944, and Army MIS language-school training by July 1945. JERS is recorded as the last documented civilian affiliation before military service, not as a proven immediate pre-OSS assignment.","next_action":"Review Box 705 for the Army-to-OSS sequence.","attempt_number":1,"research_agent_version":"before-oss-b869-v1","rejection_reasons":"Postwar academic appointments were excluded from the pre-OSS employment claim."},
+    {"key":"daniel-c-shields-b869","person_id":"29939c06-bc66-5d6c-ae17-3189c15cf607","source_adapter":"manual_staged_protocol","query_text":"NARA page 424 row 35; Daniel C Shields; official NARA, CIA-domain and LoC-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; institutional and archival searches; Box 705","query_variant_type":"staged_identity_employment_archival_protocol_batch_869","started_at":"2026-10-17T16:23:00Z","completed_at":"2026-10-17T17:20:00Z","outcome":"no_result","sources_reviewed":2,"candidate_sources_rejected":2,"research_notes":"No reliable exact-person identity or pre-OSS employer has yet been identified.","next_action":"Review Box 705.","attempt_number":1,"research_agent_version":"before-oss-b869-v1","rejection_reasons":"Common-name results lacked an OSS bridge and usable pre-OSS chronology."},
+    {"key":"gerard-v-shields-b869","person_id":"2d6a51a7-7d2a-55f8-b290-b1c3ca676509","source_adapter":"manual_staged_protocol","query_text":"NARA page 424 row 36; Gerard V Shields; protected identifier; Army bulk; official NARA, CIA-domain and LoC-domain checks; exact-name OSS; employer; occupation; obituary; archival searches; Box 705","query_variant_type":"staged_identity_employment_archival_protocol_batch_869","started_at":"2026-10-17T16:24:00Z","completed_at":"2026-10-17T17:20:00Z","outcome":"source_reviewed","sources_reviewed":3,"candidate_sources_rejected":1,"research_notes":"Official Army identity bridge accepted; no reliable named pre-OSS employer identified.","next_action":"Review Box 705.","attempt_number":1,"research_agent_version":"before-oss-b869-v1","rejection_reasons":"Namesake results lacked the protected-identifier or personnel-file bridge and supplied no defensible chronology."},
+    {"key":"haldor-g-shields-b869","person_id":"4b830826-f6e0-5464-87f0-667e9bb64a5a","source_adapter":"manual_staged_protocol","query_text":"NARA page 424 row 37; Haldor G Shields; S/SGT; protected identifier; Army bulk; NARA 104-10165-10120; official NARA, CIA-domain and LoC-domain checks; employer; occupation; Box 705","query_variant_type":"staged_identity_employment_archival_protocol_batch_869","started_at":"2026-10-17T16:25:00Z","completed_at":"2026-10-17T17:20:00Z","outcome":"source_reviewed","sources_reviewed":4,"candidate_sources_rejected":0,"research_notes":"Direct official sources confirm the indexed identity and OSS Unit Certificate of Merit citation. No reliable pre-OSS employer was identified.","next_action":"Review Box 705 for civilian and Army-to-OSS chronology.","attempt_number":1,"research_agent_version":"before-oss-b869-v1"},
+    {"key":"john-f-shields-b869","person_id":"049bc775-6e28-57a0-afec-f798c76b268b","source_adapter":"manual_staged_protocol","query_text":"NARA page 424 row 38; John F Shields; protected identifier; Army bulk; official NARA, CIA-domain and LoC-domain checks; exact-name OSS; employer; occupation; obituary; archival searches; Box 705","query_variant_type":"staged_identity_employment_archival_protocol_batch_869","started_at":"2026-10-17T16:26:00Z","completed_at":"2026-10-17T17:20:00Z","outcome":"source_reviewed","sources_reviewed":3,"candidate_sources_rejected":2,"research_notes":"Official Army identity bridge accepted; no reliable named pre-OSS employer identified.","next_action":"Review Box 705.","attempt_number":1,"research_agent_version":"before-oss-b869-v1","rejection_reasons":"Common-name candidates lacked the protected-identifier or personnel-file bridge."},
+    {"key":"john-j-shields-b869","person_id":"f46f2ff7-44a9-591d-b7ba-c4605f17e3a5","source_adapter":"manual_staged_protocol","query_text":"NARA page 424 row 39; John J Shields; protected identifier; Army bulk; official NARA, CIA-domain and LoC-domain checks; exact-name OSS; employer; occupation; obituary; archival searches; Box 705","query_variant_type":"staged_identity_employment_archival_protocol_batch_869","started_at":"2026-10-17T16:27:00Z","completed_at":"2026-10-17T17:20:00Z","outcome":"source_reviewed","sources_reviewed":3,"candidate_sources_rejected":2,"research_notes":"Official Army identity bridge accepted; no reliable named pre-OSS employer identified.","next_action":"Review Box 705.","attempt_number":1,"research_agent_version":"before-oss-b869-v1","rejection_reasons":"Common-name candidates lacked the protected-identifier or personnel-file bridge."},
+    {"key":"justine-l-shields-b869","person_id":"071b9733-074a-5784-b2e7-98bade9c5c7a","source_adapter":"manual_staged_protocol","query_text":"NARA page 424 row 40; Justine L Shields; official NARA, CIA-domain and LoC-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; institutional and archival searches; Box 705","query_variant_type":"staged_identity_employment_archival_protocol_batch_869","started_at":"2026-10-17T16:28:00Z","completed_at":"2026-10-17T17:20:00Z","outcome":"no_result","sources_reviewed":2,"candidate_sources_rejected":2,"research_notes":"No reliable exact-person identity or pre-OSS employer has yet been identified.","next_action":"Review Box 705.","attempt_number":1,"research_agent_version":"before-oss-b869-v1","rejection_reasons":"Results lacked an OSS or personnel-file bridge and usable chronology."},
+    {"key":"william-h-shields-b869","person_id":"09f8a452-c835-5a6a-a6a2-958a990ac869","source_adapter":"manual_staged_protocol","query_text":"NARA page 424 row 41; William H Shields; official NARA, CIA-domain and LoC-domain checks; exact-name OSS; employer; occupation; obituary; newspaper; institutional and archival searches; Box 705","query_variant_type":"staged_identity_employment_archival_protocol_batch_869","started_at":"2026-10-17T16:29:00Z","completed_at":"2026-10-17T17:20:00Z","outcome":"no_result","sources_reviewed":2,"candidate_sources_rejected":3,"research_notes":"No reliable exact-person identity or pre-OSS employer has yet been identified.","next_action":"Review Box 705.","attempt_number":1,"research_agent_version":"before-oss-b869-v1","rejection_reasons":"Common-name results could not be tied to the indexed person or a defensible pre-OSS chronology."},
+    {"key":"nathan-shiffman-b869","person_id":"2155ea9e-faaa-5c7d-9726-668aeac2fe65","source_adapter":"manual_staged_protocol","query_text":"NARA page 424 row 42; Nathan Shiffman; T/3 DEM; protected identifier; Army bulk; official NARA, CIA-domain and LoC-domain checks; exact-name OSS; employer; occupation; obituary; archival searches; Box 705","query_variant_type":"staged_identity_employment_archival_protocol_batch_869","started_at":"2026-10-17T16:30:00Z","completed_at":"2026-10-17T17:20:00Z","outcome":"source_reviewed","sources_reviewed":3,"candidate_sources_rejected":1,"research_notes":"Official Army identity bridge accepted; no reliable named pre-OSS employer identified. The index rank abbreviation is preserved and not expanded speculatively.","next_action":"Review Box 705.","attempt_number":1,"research_agent_version":"before-oss-b869-v1","rejection_reasons":"Namesake results lacked the protected-identifier or personnel-file bridge."},
+    {"key":"harold-s-shiles-b869","person_id":"11da5f98-21d4-59bf-bc76-7882437019c0","source_adapter":"manual_staged_protocol","query_text":"NARA page 424 row 43; Harold S Shiles; CPL; protected identifier; Army bulk; Salisbury World War II veterans project; official NARA, CIA-domain and LoC-domain checks; employer; occupation; Box 705","query_variant_type":"staged_identity_employment_archival_protocol_batch_869","started_at":"2026-10-17T16:31:00Z","completed_at":"2026-10-17T17:20:00Z","outcome":"source_reviewed","sources_reviewed":4,"candidate_sources_rejected":1,"research_notes":"Official Army identity bridge accepted. A local veterans-project finding aid is retained as an archival lead but does not itself document a pre-OSS employer.","next_action":"Review Box 705 and the veterans-project oral-history materials.","attempt_number":1,"research_agent_version":"before-oss-b869-v1","rejection_reasons":"Cemetery and biographical snippets did not supply reliable pre-OSS employment evidence."},
+    {"key":"frederick-n-shilzony-b869","person_id":"5f0e480d-aab6-5d26-b2a0-dbd748d5033f","source_adapter":"manual_staged_protocol","query_text":"NARA page 424 row 45; Frederick N Shilzony; Frederick Shilzony; RCA communications engineer; 20th Century Fox; Manila Calling; official NARA, CIA-domain and LoC-domain checks; employer; occupation; Box 705","query_variant_type":"staged_identity_employment_archival_protocol_batch_869","started_at":"2026-10-17T16:32:00Z","completed_at":"2026-10-17T17:20:00Z","outcome":"source_reviewed","sources_reviewed":3,"candidate_sources_rejected":1,"research_notes":"A contemporary February 1942 trade journal documents an uncommon-name probable match as an RCA communications engineer engaged by 20th Century Fox as technical advisor. Both affiliations remain qualified and are not marked immediate.","next_action":"Review Box 705 for identity confirmation and exact chronology.","attempt_number":1,"research_agent_version":"before-oss-b869-v1","rejection_reasons":"Postwar radio-directory references were not used to establish pre-OSS employment."},
+    {"key":"william-l-shimko-b869","person_id":"0c6f9b05-ad23-588d-bfa3-6820fe78cdf1","source_adapter":"manual_staged_protocol","query_text":"NARA page 424 row 46; William L Shimko; protected identifier; Army bulk; official NARA, CIA-domain and LoC-domain checks; exact-name OSS; employer; occupation; obituary; archival searches; Box 705","query_variant_type":"staged_identity_employment_archival_protocol_batch_869","started_at":"2026-10-17T16:33:00Z","completed_at":"2026-10-17T17:20:00Z","outcome":"source_reviewed","sources_reviewed":3,"candidate_sources_rejected":1,"research_notes":"Official Army identity bridge accepted; no reliable named pre-OSS employer identified.","next_action":"Review Box 705.","attempt_number":1,"research_agent_version":"before-oss-b869-v1","rejection_reasons":"Namesake results lacked the protected-identifier or personnel-file bridge and supplied no defensible chronology."}
+  ]
+}
