@@ -1,5 +1,30 @@
 # Research status
 
+Batch 864 completed PDF page 422, rows 1-23, from **George Shaskan** through
+**Robert J Shaw**, preserving all 23 printed rows as separate source records
+linked to 23 active person entities. All 23 now have saved terminal research
+outcomes. Official OSS award evidence and the London Gazette support **Cautley
+Nasmyth Shaw** at high confidence and document his 1931 Royal Air Force Special
+Reserve commission as a prewar military assignment, not a civilian employer or
+an asserted immediate predecessor to OSS-related service. A 1946 official Army
+Military Government order confirms **Lieutenant Colonel Lyman A Shaw** through
+his exact officer number, but remains postwar identity evidence only. Seven
+official Army identity bridges were accepted and one incompatible Kline
+candidate was rejected. The two William H Shaul rows remain separate in a
+visible possible-duplicate group.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **12,840/23,937 (53.6408%)**;
+verified-employer coverage is **423/23,937 (1.7671%)**;
+verified-affiliation coverage is **933/23,937 (3.8977%)**; archival-review
+coverage is **11,307/23,937 (47.2365%)**. There are **11,092** `not_started`
+people, **576** possible-duplicate groups and **447** conflicts. The public
+projection contains **2,867** affiliations, **1,073** organizations, **5,303**
+sources and **7,764** published or qualified claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 422, row
+24, **Jerome W Shay**. See `research/batch-864-progress.md` for the
+source-by-source audit.
+
 Batch 863 completed PDF page 421, rows 24-46, from **Eli Shapiro** through
 **Lee M Sharrar**, preserving all 23 printed rows as separate source records
 linked to 23 active person entities. All 23 have saved terminal research
