@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T20:17:22+00:00",
+  "generated_at": "2026-10-17T20:52:16+00:00",
   "index_coverage": {
     "source_rows": 23978,
     "source_rows_linked": 23978,
@@ -9,13 +9,13 @@
     "person_entities": 23937,
     "stored_person_entities": 23941,
     "superseded_person_entities": 4,
-    "people_with_nonplanned_attempts": 13088,
-    "percent": 54.6769
+    "people_with_nonplanned_attempts": 13111,
+    "percent": 54.7729
   },
   "verified_affiliation_coverage": {
     "person_entities": 23937,
-    "people_with_confirmed_or_high_published_affiliation": 949,
-    "percent": 3.9646
+    "people_with_confirmed_or_high_published_affiliation": 950,
+    "percent": 3.9688
   },
   "verified_employer_coverage": {
     "person_entities": 23937,
@@ -24,28 +24,28 @@
   },
   "archival_review_coverage": {
     "person_entities": 23937,
-    "people_assessed": 11555,
-    "percent": 48.2725
+    "people_assessed": 11578,
+    "percent": 48.3686
   },
   "research_status_counts": {
     "blocked_by_source_access": 1,
     "candidate_found": 333,
     "completed": 231,
-    "conflicting_sources": 374,
+    "conflicting_sources": 375,
     "documented_prewar_employer_found": 227,
     "in_progress": 1893,
     "needs_identity_review": 570,
     "needs_temporal_review": 28,
     "no_reliable_result_after_protocol": 1156,
-    "not_started": 10844,
+    "not_started": 10821,
     "occupation_only_found": 1086,
-    "requires_archival_review": 6835,
+    "requires_archival_review": 6857,
     "verified_employer_found": 359
   },
   "claim_confidence_counts": {
-    "confirmed": 1621,
-    "conflicting": 382,
-    "high": 4167,
+    "confirmed": 1622,
+    "conflicting": 383,
+    "high": 4179,
     "low": 206,
     "medium": 1733,
     "unresolved": 2
@@ -65,7 +65,7 @@
     "warrant_officer": 7
   },
   "possible_duplicate_groups": 583,
-  "conflict_count": 454,
-  "citations": 6613,
-  "unique_source_documents": 3584
+  "conflict_count": 455,
+  "citations": 6618,
+  "unique_source_documents": 3588
 }
