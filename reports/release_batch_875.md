@@ -64,13 +64,26 @@ Date: 2026-10-17
   `e37b3b8b6f9ee95382e9cabd35071a7cd8d5c9b00c6df35fb29240c8c146f39a`.
 - Deterministic production build: two 25,142-file builds matched at SHA-256
   `23f182bcd8bec12bf8a26366df8fa54cacb00d2035b6966f08011d1a18360801`.
+- GitHub Actions test run `39066522863`: successful in 5 minutes 2 seconds.
+- Pages deployment run `39066522962`: successful.
+- Immutable live verification: 67 assets, 117,391,651 bytes, manifest SHA-256
+  `e37b3b8b6f9ee95382e9cabd35071a7cd8d5c9b00c6df35fb29240c8c146f39a`,
+  eight core routes, 36 source-register pages and 24 directly affected
+  profiles.
 
 ## Publication state
 
-Batch 875 has passed every local release gate. Publication remains pending
-until the content commit is pushed to `main`, the GitHub Actions test and Pages
-deployment runs succeed, and the unauthenticated immutable live verifier
-matches the committed manifest and all 23 direct profiles.
+Batch 875 is published at
+<https://therealjameswilson.github.io/before-oss/> from immutable content
+commit `50bec0727fa49efc7822f688ee501e55c17b75ba`. GitHub Actions test run
+`39066522863` and Pages deployment run `39066522962` completed successfully.
+The immutable live verifier matched the committed manifest and verified every
+direct profile changed by the evidence bundle: the 23-person batch plus the
+earlier Steve Sidianoff profile linked by the duplicate-review update.
+
+The GitHub Actions annotations were non-failing platform notices: selected
+actions are being forced from Node.js 20 to Node.js 24, and `ubuntu-latest` is
+scheduled to migrate to Ubuntu 26. Neither annotation affected this release.
 
 ## Current blocker
 

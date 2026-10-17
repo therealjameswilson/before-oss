@@ -123,10 +123,16 @@ Two production builds produced the identical 25,142-file static-site hash
 
 ## Publication status
 
-Batch 875 has passed all local release gates but is not described as published
-until the content commit is pushed, the GitHub Actions test and Pages runs
-succeed, and the unauthenticated immutable live verifier matches the committed
-manifest.
+Batch 875 is published at
+<https://therealjameswilson.github.io/before-oss/> from immutable content
+commit `50bec0727fa49efc7822f688ee501e55c17b75ba`. GitHub Actions test run
+`39066522863` completed successfully in 5 minutes 2 seconds, and Pages
+deployment run `39066522962` completed successfully. The unauthenticated
+immutable live verifier checked 67 assets totaling 117,391,651 bytes, manifest
+SHA-256 `e37b3b8b6f9ee95382e9cabd35071a7cd8d5c9b00c6df35fb29240c8c146f39a`,
+eight core routes, 36 source-register pages and 24 directly affected profiles:
+the 23 Batch 875 people plus the earlier Steve Sidianoff profile linked by this
+batch's duplicate review.
 
 ## Resume commands
 
