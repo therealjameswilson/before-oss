@@ -67,10 +67,19 @@ Date: 2026-10-17
 
 ## Publication state
 
-Batch 872 is release-ready locally but is not yet public. Publication requires
-an immutable content commit, successful GitHub Actions test and Pages runs, and
-an unauthenticated live verification against the immutable manifest. Until all
-of those checks pass, the verified public site remains Batch 871.
+Batch 872 is published at
+<https://therealjameswilson.github.io/before-oss/> from immutable content
+commit `758852752651ad9b9aec8c08d2d31b3f22ba2604`. GitHub Actions test run
+`39059916300` completed successfully in 4 minutes 12 seconds, and Pages
+deployment run `39059916318` completed successfully. The immutable live
+verifier checked 67 assets totaling 117,201,448 bytes, manifest SHA-256
+`71d95da3e8641020da9792e5fe6fe011cfc4fe18eec524e00f8b662cdcdc56e4`,
+eight core routes, 36 source-register pages and all 23 direct profiles in the
+Batch 872 evidence bundle.
+
+The GitHub Actions annotations were non-failing platform notices: GitHub is
+forcing selected actions from Node.js 20 to Node.js 24, and `ubuntu-latest` is
+scheduled to migrate to Ubuntu 26. Neither annotation affected this release.
 
 ## Current blocker
 

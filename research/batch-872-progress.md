@@ -113,10 +113,15 @@ Two production builds produced the identical 25,141-file static-site hash
 
 ## Publication status
 
-Batch 872 is release-ready locally but not yet published. The current public
-site remains the verified Batch 871 release until the Batch 872 content commit,
-GitHub Actions test workflow, Pages deployment and immutable live verification
-all succeed.
+Batch 872 is published at
+<https://therealjameswilson.github.io/before-oss/> from immutable content
+commit `758852752651ad9b9aec8c08d2d31b3f22ba2604`. GitHub Actions test run
+`39059916300` and Pages deployment run `39059916318` both completed
+successfully. The unauthenticated immutable live verifier checked 67 assets
+totaling 117,201,448 bytes, manifest SHA-256
+`71d95da3e8641020da9792e5fe6fe011cfc4fe18eec524e00f8b662cdcdc56e4`,
+eight core routes, 36 source-register pages and all 23 direct profiles in the
+Batch 872 evidence bundle.
 
 ## Resume commands
 
