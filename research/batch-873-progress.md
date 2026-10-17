@@ -115,10 +115,17 @@ Two production builds produced the identical 25,142-file static-site hash
 
 ## Publication status
 
-Batch 873 has passed every local release gate and is ready to publish to the
-existing site at <https://therealjameswilson.github.io/before-oss/>. The
-immutable content commit, GitHub Actions results and unauthenticated live
-verification will be recorded here after deployment.
+Batch 873 is published at
+<https://therealjameswilson.github.io/before-oss/> from immutable content
+commit `f52f251cb0d048f711d8d8aa08bad8ce7c8c4bd2`. GitHub Actions test run
+`39061840546` completed successfully in 5 minutes 15 seconds, and Pages
+deployment run `39061840480` completed successfully. The unauthenticated
+immutable live verifier checked 67 assets totaling 117,264,357 bytes, manifest
+SHA-256 `bf9dbf0228a62ce4c514d47d7d26c391566dacdcad70c1c663d1da988997accd`,
+eight core routes, 36 source-register pages and all 21 direct profiles in the
+new evidence bundle. The two already-terminal Peter Sichel profiles in the
+23-row cohort returned HTTP 200 and their distinct profile headings were
+confirmed separately, completing live route verification for all 23 people.
 
 ## Resume commands
 
