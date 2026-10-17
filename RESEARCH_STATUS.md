@@ -28,7 +28,11 @@ people, **579** possible-duplicate groups and **450** conflicts. The public
 projection contains **2,886** affiliations, **1,083** organizations, **5,342**
 sources and **7,838** published or qualified claims. Full-index historical
 research remains unfinished. The next indexed boundary is PDF page 425, row
-24. See `research/batch-870-progress.md` for the source-by-source audit.
+24. See `research/batch-870-progress.md` for the source-by-source audit. Batch
+870 is published from immutable content commit
+`ce9ff2cf0b79f2d241172584084a594beaf11ca5`; GitHub Actions test run
+`39055785347`, Pages run `39055785334`, and the post-deployment verifier all
+passed.
 
 
 Batch 866 completed PDF page 423, rows 1-23, from **R B Sheeks** through

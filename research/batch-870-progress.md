@@ -101,9 +101,15 @@ Two production builds produced the identical 25,136-file static-site hash
 
 ## Publication status
 
-Batch 870 has passed all local release gates and is awaiting publication to the
-existing GitHub Pages site. The immutable content commit, GitHub Actions runs
-and post-deployment verification will be recorded here after deployment.
+Batch 870 is published at
+<https://therealjameswilson.github.io/before-oss/> from immutable content
+commit `ce9ff2cf0b79f2d241172584084a594beaf11ca5`. GitHub Actions test run
+`39055785347` and Pages deployment run `39055785334` both completed
+successfully. The post-deployment verifier checked 67 assets totaling
+117,019,452 bytes against manifest SHA-256
+`e4ab5fb64dcf850280e6e1c1cb1966a33938b0613799a9fa57b89763211e703f`,
+eight core routes, 36 source-register pages and all 23 Batch 870 direct
+profiles.
 
 ## Resume commands
 
