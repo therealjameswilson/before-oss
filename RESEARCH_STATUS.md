@@ -1,5 +1,31 @@
 # Research status
 
+Batch 862 completed PDF page 421, rows 1-23, from **Eugene Shaffer** through
+**John A Shannon**, preserving all 23 printed rows as separate source records
+linked to 23 active person entities. All 23 have saved terminal archival-review
+outcomes. Official National Park Service evidence confirms **John M
+Shaheen**'s OSS identity and documents his earlier work as publicity director
+for the Republican Party in Illinois; the relationship is modeled as a
+professional affiliation rather than an invented employer, and his postwar
+oil career is not recast as pre-OSS work. An official OSS Mission to France
+record confirms **Lawrence B Shallcross**'s identity without supplying a
+pre-OSS employer. A postwar United Nations roster provides qualified identity
+context for **Muddassir A Shamsee**, not a pre-OSS affiliation. **Jack T
+Shannon** has a visibly qualified probable Army-to-OSS pathway. Five official
+Army crosswalks support identity decisions only, while the two adjacent Julius
+Shanker rows remain separate.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **12,795/23,937 (53.4528%)**;
+verified-employer coverage is **422/23,937 (1.7630%)**;
+verified-affiliation coverage is **930/23,937 (3.8852%)**; archival-review
+coverage is **11,262/23,937 (47.0485%)**. There are **11,137** `not_started`
+people, **572** possible-duplicate groups and **447** conflicts. The public
+projection contains **2,863** affiliations, **1,070** organizations, **5,291**
+sources and **7,744** published or qualified claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 421, row
+24. See `research/batch-862-progress.md` for the source-by-source audit.
+
 Batch 861 completed PDF page 420, rows 24-46, from **Francis D Severance**
 through **Andrew W Shaffer**, preserving all 23 printed rows as separate source
 records linked to 23 active person entities. All 23 have saved terminal
