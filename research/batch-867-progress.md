@@ -106,9 +106,16 @@ Two production builds produced the identical 25,129-file static-site hash
 
 ## Publication status
 
-Batch 867 has passed local release gates but has not yet been published. The
-current public site remains Batch 866 at
-<https://therealjameswilson.github.io/before-oss/>.
+Batch 867 is published at
+<https://therealjameswilson.github.io/before-oss/> from immutable content
+commit `5b87fc77126b038086c6eb9011308eb591304a31`. GitHub Actions test run
+`39045974765` and Pages deployment run `39045974754` both completed
+successfully. The post-deployment verifier checked 67 assets totaling
+116,746,847 bytes against manifest SHA-256
+`4ab4f074fc6e8e850cc55a5818629916f97592d436e65908fdedf47dc4ced83f`,
+eight core routes, 36 source-register pages and the 22 newly updated profiles
+listed in the evidence bundle. Whitney Shepardson's preexisting terminal
+profile, the twenty-third Batch 867 person, was separately confirmed HTTP 200.
 
 ## Resume commands
 
