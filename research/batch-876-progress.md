@@ -106,14 +106,17 @@ Two production renders produced the identical 25,142-file static-site hash
 
 The local Astro diagnostic pass stalled without emitting an error on the
 current macOS/Node runtime and was terminated after a bounded retry. GitHub's
-clean Linux test workflow remains the independent release gate for type
-checking; publication is not considered verified until that workflow passes.
+clean Linux test workflow independently completed the full test and release
+gate successfully in 3m36s (run `39077612048`).
 
 ## Publication status
 
-Batch 876 is staged locally and has not yet replaced the Batch 875 public
-release. Publication requires the content commit, a successful GitHub Actions
-test run, a successful Pages deployment and an immutable live-manifest check.
+Batch 876 is published at <https://therealjameswilson.github.io/before-oss/>.
+Content commit `7b1001988eb2e9751409ec53f135f2c8253b29aa` passed the GitHub
+Actions test workflow (run `39077612048`) and GitHub Pages deployment (run
+`39077612032`). An unauthenticated immutable verification matched all 67 assets
+and 117,460,018 bytes to the committed manifest, then checked all eight core
+routes, all 36 source-register pages and all 23 Batch 876 person profiles.
 
 ## Resume commands
 

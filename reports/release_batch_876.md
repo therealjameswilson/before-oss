@@ -58,14 +58,17 @@ Date: 2026-10-17
 - Deterministic production render: two 25,142-file builds matched at SHA-256
   `2d1e40507debe0ee3875f8a0544f20d8ae74cacc9c2836a0c0b357baa49b14f5`.
 - Local Astro diagnostics stalled without an error on the current macOS/Node
-  runtime. GitHub's clean Linux test workflow remains the required independent
-  type-check gate before this release is considered published.
+  runtime. GitHub's clean Linux test workflow independently completed the full
+  test and release gate successfully in 3m36s (run `39077612048`).
 
 ## Publication state
 
-Batch 876 is staged locally. The public site remains on Batch 875 until the
-content commit passes GitHub Actions, deploys through GitHub Pages and matches
-the committed manifest under unauthenticated live verification.
+Batch 876 is published at <https://therealjameswilson.github.io/before-oss/>.
+Content commit `7b1001988eb2e9751409ec53f135f2c8253b29aa` passed the GitHub
+Actions test workflow (run `39077612048`) and GitHub Pages deployment (run
+`39077612032`). An unauthenticated immutable verification matched all 67 assets
+and 117,460,018 bytes to the committed manifest, then checked all eight core
+routes, all 36 source-register pages and all 23 Batch 876 person profiles.
 
 ## Current blocker
 
