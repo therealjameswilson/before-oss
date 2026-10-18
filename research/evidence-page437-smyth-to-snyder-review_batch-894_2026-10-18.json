@@ -1,0 +1,1298 @@
+{
+  "bundle_version": "batch-894-v1",
+  "reviewer": "Before OSS Batch 894 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b894",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 726-727",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 437, rows 1-23; checked against layout-preserving text and a rendered page image",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain preserved. Full protected identifiers remain private and are masked from public data."
+    },
+    {
+      "key": "army-bulk-b894",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; protected-identifier fields checked, four identity matches accepted after review",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full private identifier is retained in public assets. The file is incomplete and a non-hit is not negative proof."
+    },
+    {
+      "key": "army-tech-b894",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; fixed-width identifier, name, DD/MM/YY Army-entry-date, grade and civilian-occupation fields visually checked",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, alternate layouts, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b894",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 170-174; categories 003, 240 and 688 visually checked; 195 is unassigned",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical labels name neither employers nor workplaces. Code 195 is not converted into an occupation."
+    },
+    {
+      "key": "cmh-howard-mcgaw-smyth-b894",
+      "stable_url": "https://history.army.mil/Publications/Publications-Catalog/Sicily-and-the-Surrender-of-Italy/",
+      "archival_identifier": "CMH Pub 6-2",
+      "title": "Sicily and the Surrender of Italy",
+      "author_creator": "Albert N. Garland and Howard McGaw Smyth",
+      "repository_publisher": "U.S. Army Center of Military History",
+      "publication_record_date": "1965",
+      "locator": "The Authors, page viii; visually checked in the publication PDF",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "United States Army in World War II: The Mediterranean Theater of Operations",
+      "rights_notes": "Used for identity, teaching history and OSS chronology; postwar career details are not reconstructed."
+    },
+    {
+      "key": "aha-howard-mcgaw-smyth-b894",
+      "stable_url": "https://www.govinfo.gov/content/pkg/SERIALSET-10651_00_00-002-0012-0000/pdf/SERIALSET-10651_00_00-002-0012-0000.pdf",
+      "archival_identifier": "United States Congressional Serial Set 10651; American Historical Association Annual Report for 1940",
+      "title": "Proceedings of the Thirty-Sixth Annual Meeting of the Pacific Coast Branch of the American Historical Association",
+      "author_creator": "American Historical Association",
+      "repository_publisher": "U.S. Government Publishing Office",
+      "publication_record_date": "1942",
+      "locator": "Report page 89; PDF physical page 113; meeting held 29-31 December 1940",
+      "access_date": "2026-10-18",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "The contemporary proceedings identify Smyth with the University of California, Berkeley."
+    },
+    {
+      "key": "google-play-howard-mcgaw-smyth-b894",
+      "stable_url": "https://play.google.com/store/info/name/Howard_McGaw_Smyth?id=12nxdlzr9",
+      "title": "Books by Howard McGaw Smyth on Google Play",
+      "author_creator": "Google Play Books",
+      "repository_publisher": "Google",
+      "locator": "Author biography; teaching dates and subsequent OSS/State Department service",
+      "access_date": "2026-10-18",
+      "source_quality": "D_correlative_or_secondary",
+      "rights_notes": "Used only with contemporary and official corroboration; the shortest supporting excerpt is retained."
+    },
+    {
+      "key": "kansas-city-star-william-snower-b894",
+      "stable_url": "https://www.legacy.com/us/obituaries/kansascity/name/william-snower-obituary?id=4348865",
+      "title": "William Snower Jr. obituary",
+      "repository_publisher": "The Kansas City Star",
+      "publication_record_date": "2008-06-07",
+      "locator": "Biographical paragraph on Harvard graduation, Army service, Swedish Area and Language training and OSS work",
+      "access_date": "2026-10-18",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Only concise evidence excerpts and project-authored paraphrases are retained; unrelated family details are excluded."
+    },
+    {
+      "key": "harvard-crimson-william-snower-b894",
+      "stable_url": "https://www.thecrimson.com/article/1943/5/27/degrees-for-1943-pjohn-lee-barber/",
+      "title": "Degrees for 1943",
+      "author_creator": "The Harvard Crimson",
+      "repository_publisher": "The Harvard Crimson",
+      "publication_record_date": "1943-05-27",
+      "locator": "A.B. Magna cum Laude; alumni records as Class of 1944",
+      "access_date": "2026-10-18",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Contemporary degree list used to corroborate the rare-name student identity and field of study."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "uc-berkeley-b894",
+      "organization_id": "dd5d0a44-0368-5e91-a5d3-074de36840ed",
+      "canonical_name": "University of California, Berkeley",
+      "historical_name": "University of California at Berkeley",
+      "aliases": [
+        "UC Berkeley",
+        "University of California"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Berkeley",
+      "state_or_region": "California",
+      "country": "United States",
+      "normalization_notes": "The Berkeley campus named in the contemporary sources is retained; student and employment relationships remain separate, and no modern system-wide employer inference is made."
+    },
+    {
+      "key": "army-specialized-training-program-b894",
+      "canonical_name": "U.S. Army Specialized Training Program",
+      "historical_name": "Army Specialized Training Program",
+      "aliases": [
+        "ASTP"
+      ],
+      "organization_type": "military training program",
+      "sector": "military",
+      "country": "United States",
+      "active_dates": "1942-1944",
+      "normalization_notes": "The Swedish Area and Language course location at the University of Minnesota is preserved in the affiliation; the university is not mislabeled as an employer."
+    },
+    {
+      "key": "harvard-college-b894",
+      "organization_id": "4b0261ed-1fe7-58cf-bbf3-c521c0b84164",
+      "canonical_name": "Harvard College",
+      "historical_name": "Harvard",
+      "aliases": [
+        "Harvard University undergraduate college"
+      ],
+      "organization_type": "undergraduate college",
+      "sector": "academia_and_research",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "active_dates": "1636-present",
+      "normalization_notes": "Modeled as student status, not employment; the undergraduate college remains distinct from other Harvard units."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "william-k-snedecker-occupation-b894",
+      "person_id": "588e8538-2277-57fa-83ec-c593c7117126",
+      "relationship_type": "unknown",
+      "occupation": "Architects",
+      "end_date": "1942-03-06",
+      "date_precision": "Historical civilian-occupation code 003 was recorded at Army entry on 1942-03-06; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical occupation category is not converted into a named employer, workplace or exact job title."
+    },
+    {
+      "key": "roy-l-snodgrass-occupation-b894",
+      "person_id": "52d2c58c-e260-58e4-8273-f1a613ef14bc",
+      "relationship_type": "unknown",
+      "occupation": "Occupations in mechanical treatment of metals (rolling, stamping, forging, pressing, etc.), n.e.c.",
+      "end_date": "1942-05-04",
+      "date_precision": "Historical civilian-occupation code 688 was recorded at Army entry on 1942-05-04; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical occupation category is not converted into a named employer, workplace or exact job title."
+    },
+    {
+      "key": "arthur-l-snyder-occupation-b894",
+      "person_id": "98a5e40a-df4f-52fb-a468-123d29002ab1",
+      "relationship_type": "unknown",
+      "occupation": "Attendants, recreation and amusement, n.e.c.",
+      "end_date": "1942-03-05",
+      "date_precision": "Historical civilian-occupation code 240 was recorded at Army entry on 1942-03-05; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical occupation category is not converted into a named employer, workplace or exact job title."
+    },
+    {
+      "key": "howard-mcgaw-smyth-uc-berkeley-b894",
+      "person_id": "70ffc830-4c39-57aa-9acb-d6b30487a942",
+      "organization_key": "uc-berkeley-b894",
+      "organization_name_as_found": "University of California, Berkeley",
+      "role_title": "professor of modern European history",
+      "occupation": "historian and university teacher",
+      "relationship_type": "employment",
+      "start_date": "1936",
+      "end_date": "1942",
+      "date_precision": "A publisher biography dates University of California teaching to 1936-1942 and places OSS service thereafter; contemporary and official sources corroborate both affiliations.",
+      "city": "Berkeley",
+      "state_or_region": "California",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "The chronology strongly supports this as the final civilian employer before OSS, although no exact recruitment date is supplied."
+    },
+    {
+      "key": "william-snower-army-astp-b894",
+      "person_id": "84ea25db-f77e-55db-ad7d-b373fe898f2c",
+      "organization_key": "army-specialized-training-program-b894",
+      "organization_name_as_found": "Army Specialized Training Program Swedish Area and Language at the University of Minnesota",
+      "role_title": "Swedish Area and Language trainee",
+      "occupation": "Army language trainee",
+      "relationship_type": "military_assignment",
+      "start_date": "1943",
+      "end_date": "1944",
+      "date_precision": "The obituary places this first in Snower's 1943-1946 Army service and immediately before two years with OSS; exact course dates are not supplied.",
+      "city": "Minneapolis",
+      "state_or_region": "Minnesota",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "This is a military training assignment, not University of Minnesota employment."
+    },
+    {
+      "key": "william-snower-harvard-college-b894",
+      "person_id": "84ea25db-f77e-55db-ad7d-b373fe898f2c",
+      "organization_key": "harvard-college-b894",
+      "organization_name_as_found": "Harvard College",
+      "role_title": "student",
+      "occupation": "student of government",
+      "relationship_type": "student",
+      "end_date": "1943",
+      "date_precision": "The contemporary degree list is dated 27 May 1943; the obituary says he received the A.B. in 1943 before Army service.",
+      "city": "Cambridge",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Student status immediately preceded Army service but is not employment and is not counted as a civilian employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-page437-row6-b894",
+      "person_id": "588e8538-2277-57fa-83ec-c593c7117126",
+      "claim_type": "identity",
+      "claim_text": "The indexed William K Snedecker row on PDF page 437 is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The reviewed name evidence and a nonshared protected identifier agree with the indexed row.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge plus compatible name evidence.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed. The Army form SNEDEKER omits one letter from the indexed surname Snedecker.",
+      "sources": [
+        {
+          "source_key": "nara-index-b894",
+          "locator_override": "PDF page 437 row 6; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b894",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-page437-row13-b894",
+      "person_id": "52d2c58c-e260-58e4-8273-f1a613ef14bc",
+      "claim_type": "identity",
+      "claim_text": "The indexed Roy L Snodgrass row on PDF page 437 is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The reviewed name evidence and a nonshared protected identifier agree with the indexed row.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge plus compatible name evidence.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed. No same-name row is merged.",
+      "sources": [
+        {
+          "source_key": "nara-index-b894",
+          "locator_override": "PDF page 437 row 13; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b894",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-page437-row21-b894",
+      "person_id": "4c1e2c3f-ba2a-5337-becf-fea5a67c8f84",
+      "claim_type": "identity",
+      "claim_text": "The indexed Andrew J Snyder row on PDF page 437 is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The reviewed name evidence and a nonshared protected identifier agree with the indexed row.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge plus compatible name evidence.",
+      "temporal_assessment": "The matched Army entry is dated after the OSS period and supports identity only.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed. The exact indexed name agrees; the November 1945 Army entry is post-OSS and supports identity only.",
+      "sources": [
+        {
+          "source_key": "nara-index-b894",
+          "locator_override": "PDF page 437 row 21; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b894",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-page437-row22-b894",
+      "person_id": "98a5e40a-df4f-52fb-a468-123d29002ab1",
+      "claim_type": "identity",
+      "claim_text": "The indexed Arthur L Snyder row on PDF page 437 is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The reviewed name evidence and a nonshared protected identifier agree with the indexed row.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge plus compatible name evidence.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed. The Army form ARTHRU is treated as a damaged or transposed form of Arthur.",
+      "sources": [
+        {
+          "source_key": "nara-index-b894",
+          "locator_override": "PDF page 437 row 22; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b894",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-william-k-snedecker-b894",
+      "person_id": "588e8538-2277-57fa-83ec-c593c7117126",
+      "affiliation_key": "william-k-snedecker-occupation-b894",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-03-06, William K Snedecker was recorded in the historical architects category; no employer is identified.",
+      "evidence_excerpt": "Architects",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 003, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation category belongs only to the accepted protected-identifier match for this index row.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical occupation category is reported as a qualified lead, not as an employer or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b894",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 003; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b894",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b894",
+          "locator_override": "PDF physical page 170; civilian occupation category 0-03",
+          "excerpt_override": "Architects"
+        }
+      ]
+    },
+    {
+      "key": "occupation-roy-l-snodgrass-b894",
+      "person_id": "52d2c58c-e260-58e4-8273-f1a613ef14bc",
+      "affiliation_key": "roy-l-snodgrass-occupation-b894",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-05-04, Roy L Snodgrass was recorded in the historical occupations in mechanical treatment of metals (rolling, stamping, forging, pressing, etc.), n.e.c. category; no employer is identified.",
+      "evidence_excerpt": "Occupations in mechanical treatment of metals (rolling, stamping, forging, pressing, etc.), n.e.c.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 688, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation category belongs only to the accepted protected-identifier match for this index row.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical occupation category is reported as a qualified lead, not as an employer or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b894",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 688; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b894",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b894",
+          "locator_override": "PDF physical page 174; civilian occupation category 6-88",
+          "excerpt_override": "Occupations in mechanical treatment of metals (rolling, stamping, forging, pressing, etc.), n.e.c."
+        }
+      ]
+    },
+    {
+      "key": "occupation-arthur-l-snyder-b894",
+      "person_id": "98a5e40a-df4f-52fb-a468-123d29002ab1",
+      "affiliation_key": "arthur-l-snyder-occupation-b894",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-03-05, Arthur L Snyder was recorded in the historical attendants, recreation and amusement, n.e.c. category; no employer is identified.",
+      "evidence_excerpt": "Attendants, recreation and amusement, n.e.c.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 240, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation category belongs only to the accepted protected-identifier match for this index row.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical occupation category is reported as a qualified lead, not as an employer or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b894",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 240; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b894",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b894",
+          "locator_override": "PDF physical page 172; civilian occupation category 2-40",
+          "excerpt_override": "Attendants, recreation and amusement, n.e.c."
+        }
+      ]
+    },
+    {
+      "key": "identity-howard-mcgaw-smyth-b894",
+      "person_id": "70ffc830-4c39-57aa-9acb-d6b30487a942",
+      "claim_type": "identity",
+      "claim_text": "The indexed Howard M Smyth is a high-confidence match to historian and OSS veteran Howard McGaw Smyth.",
+      "evidence_paraphrase": "The rare full name, middle initial, documented OSS service and University of California chronology align across official, contemporary and publisher sources.",
+      "identity_match_assessment": "High confidence from rare-name agreement plus independent OSS-specific and dated institutional evidence.",
+      "temporal_assessment": "The sources place University of California teaching before OSS service and State Department work after OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "McGaw is retained as a documented middle-name variant; no unrelated postwar career is reconstructed.",
+      "sources": [
+        {
+          "source_key": "nara-index-b894",
+          "locator_override": "PDF page 437 row 1"
+        },
+        {
+          "source_key": "cmh-howard-mcgaw-smyth-b894",
+          "locator_override": "The Authors, page viii",
+          "excerpt_override": "During World War II he served for a time in the Office of Strategic Services"
+        },
+        {
+          "source_key": "aha-howard-mcgaw-smyth-b894",
+          "locator_override": "Report page 89; PDF physical page 113",
+          "excerpt_override": "Howard McGaw Smyth of the University of California, Berkeley"
+        },
+        {
+          "source_key": "google-play-howard-mcgaw-smyth-b894",
+          "locator_override": "Author biography",
+          "excerpt_override": "taught at the University of California, 1936-42"
+        }
+      ]
+    },
+    {
+      "key": "employment-howard-mcgaw-smyth-uc-berkeley-b894",
+      "person_id": "70ffc830-4c39-57aa-9acb-d6b30487a942",
+      "affiliation_key": "howard-mcgaw-smyth-uc-berkeley-b894",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Howard McGaw Smyth taught at the University of California, Berkeley, through 1942 before entering OSS service.",
+      "evidence_excerpt": "taught at the University of California, 1936-42",
+      "evidence_paraphrase": "A dated publisher biography places University of California teaching in 1936-1942 and OSS service thereafter; contemporary AHA proceedings and an official Army history corroborate the institutional and OSS links.",
+      "identity_match_assessment": "High confidence from the rare full name and corroborating OSS service.",
+      "temporal_assessment": "Strongly date-bounded as the immediate pre-OSS affiliation and last identified civilian employer; the exact transition date is not supplied.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "University teaching is treated as employment; earlier educational institutions are not mislabeled as employers.",
+      "sources": [
+        {
+          "source_key": "cmh-howard-mcgaw-smyth-b894",
+          "locator_override": "The Authors, page viii",
+          "excerpt_override": "During World War II he served for a time in the Office of Strategic Services"
+        },
+        {
+          "source_key": "aha-howard-mcgaw-smyth-b894",
+          "locator_override": "Report page 89; PDF physical page 113",
+          "excerpt_override": "Howard McGaw Smyth of the University of California, Berkeley"
+        },
+        {
+          "source_key": "google-play-howard-mcgaw-smyth-b894",
+          "locator_override": "Author biography",
+          "excerpt_override": "taught at the University of California, 1936-42"
+        }
+      ]
+    },
+    {
+      "person_id": "84ea25db-f77e-55db-ad7d-b373fe898f2c",
+      "identity_match_assessment": "High confidence from the rare exact surname and first name, matching middle-initial absence, contemporary Harvard degree evidence and an obituary explicitly documenting OSS service.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The suffix Jr. is retained as a documented variant. Student and military-training affiliations are not presented as civilian employment.",
+      "key": "identity-william-snower-b894",
+      "claim_type": "identity",
+      "claim_text": "The indexed William Snower is a high-confidence match to William Snower Jr., a 1943 Harvard graduate who served in OSS.",
+      "evidence_paraphrase": "A contemporary Harvard list and a Kansas City Star obituary agree on the rare name, 1943 degree and government field; the obituary explicitly places him in OSS.",
+      "temporal_assessment": "The evidence dates Harvard graduation to 1943 and sequences Army training before two years in OSS.",
+      "sources": [
+        {
+          "source_key": "nara-index-b894",
+          "locator_override": "PDF page 437 row 19"
+        },
+        {
+          "source_key": "harvard-crimson-william-snower-b894",
+          "locator_override": "A.B. Magna cum Laude; Class of 1944 alumni records",
+          "excerpt_override": "William Snower, Jr. (Government)"
+        },
+        {
+          "source_key": "kansas-city-star-william-snower-b894",
+          "locator_override": "Biographical paragraph on wartime service",
+          "excerpt_override": "then for two years as a paraphraser in the Office of Strategic Services"
+        }
+      ]
+    },
+    {
+      "person_id": "84ea25db-f77e-55db-ad7d-b373fe898f2c",
+      "identity_match_assessment": "High confidence from the rare exact surname and first name, matching middle-initial absence, contemporary Harvard degree evidence and an obituary explicitly documenting OSS service.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The suffix Jr. is retained as a documented variant. Student and military-training affiliations are not presented as civilian employment.",
+      "key": "military-william-snower-army-astp-b894",
+      "affiliation_key": "william-snower-army-astp-b894",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "During Army service, William Snower trained in the Swedish Area and Language program at the University of Minnesota before serving in OSS.",
+      "evidence_excerpt": "first in the Army Specialized Training Program Swedish Area and Language",
+      "evidence_paraphrase": "The obituary explicitly sequences the Army language program before two years as an OSS paraphraser.",
+      "temporal_assessment": "Explicitly immediate in the source's wartime sequence, but exact course and transfer dates are not supplied.",
+      "sources": [
+        {
+          "source_key": "kansas-city-star-william-snower-b894",
+          "locator_override": "Biographical paragraph on 1943-1946 Army and OSS service",
+          "excerpt_override": "first in the Army Specialized Training Program Swedish Area and Language"
+        },
+        {
+          "source_key": "harvard-crimson-william-snower-b894",
+          "support_type": "context_only",
+          "excerpt_override": "William Snower, Jr. (Government)"
+        }
+      ]
+    },
+    {
+      "person_id": "84ea25db-f77e-55db-ad7d-b373fe898f2c",
+      "identity_match_assessment": "High confidence from the rare exact surname and first name, matching middle-initial absence, contemporary Harvard degree evidence and an obituary explicitly documenting OSS service.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The suffix Jr. is retained as a documented variant. Student and military-training affiliations are not presented as civilian employment.",
+      "key": "student-william-snower-harvard-b894",
+      "affiliation_key": "william-snower-harvard-college-b894",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "William Snower received an A.B. magna cum laude in government from Harvard College in 1943 before entering Army service.",
+      "evidence_excerpt": "William Snower, Jr. (Government)",
+      "evidence_paraphrase": "The contemporary degree list and obituary independently identify the degree, field and year.",
+      "temporal_assessment": "Strongly date-bounded immediately before Army service, but student status is not civilian employment.",
+      "sources": [
+        {
+          "source_key": "harvard-crimson-william-snower-b894",
+          "locator_override": "A.B. Magna cum Laude; Class of 1944 alumni records",
+          "excerpt_override": "William Snower, Jr. (Government)"
+        },
+        {
+          "source_key": "kansas-city-star-william-snower-b894",
+          "locator_override": "Education and wartime-service paragraph",
+          "excerpt_override": "received an A.B. magna cum laude in government from Harvard College in 1943"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "70ffc830-4c39-57aa-9acb-d6b30487a942",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare indexed name matches historian Howard McGaw Smyth across a contemporary AHA record, an official Army history and a publisher biography that explicitly documents OSS service.",
+      "name_variants": [
+        "Howard McGaw Smyth"
+      ],
+      "manual_review_required": false,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 726 to obtain the exact OSS recruitment or entry date and test whether any short intervening assignment followed University of California teaching.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "84ea25db-f77e-55db-ad7d-b373fe898f2c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare exact name, a contemporary 1943 Harvard degree list and a Kansas City Star obituary explicitly documenting OSS service identify William Snower Jr.",
+      "name_variants": [
+        "William Snower Jr."
+      ],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 727 for the exact Army-program-to-OSS transfer date and any civilian employment before Harvard or military service. Student status is not an employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "588e8538-2277-57fa-83ec-c593c7117126",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier, first name and middle initial bridge the index to Army form SNEDEKER; the minor surname difference remains visible as a documented variant.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 727 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "William K Snedeker"
+      ]
+    },
+    {
+      "person_id": "52d2c58c-e260-58e4-8273-f1a613ef14bc",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and compatible name evidence connect the visually verified index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 727 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "98a5e40a-df4f-52fb-a468-123d29002ab1",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier, surname and middle initial bridge the index to damaged Army form ARTHRU L; the transposition is documented and not silently corrected.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 727 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4c1e2c3f-ba2a-5337-becf-fea5a67c8f84",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact-name agreement plus a nonshared protected identifier connect the index row to a November 1945 Army record. The post-OSS date supports identity only, and unassigned code 195 is not interpreted.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 727 for wartime status and pre-OSS affiliation; the accepted postwar Army record supplies no usable pre-OSS occupation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "7a9e1465-aa07-5da7-87f7-8ead85a2a699",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Edith W Smythe, Box 726 or 727 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Exact-name searches produced unbridged namesakes and no official OSS, Box 726 or employment evidence.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "46d0bea3-2039-5f4d-80fe-6a7f327720ab",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Sarah E Smythe, Box 726 or 727 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Exact-name searches produced unbridged namesakes and no official OSS, Box 726 or employment evidence.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "23e71660-bee2-5b09-ada1-08fcb84081fa",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies James F Snapp, Box 726 or 727 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Common-name results lacked a protected-identifier, OSS or Box 727 bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "009fc40d-571f-51d1-834f-3cf74c0eebfe",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Paul A Snearline, Box 726 or 727 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. The rare surname produced no defensible identity or employment source in the accessible staged searches.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "a07b88d3-1d00-5c82-81f5-3eeb117ca320",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Daniel T Snell, Box 726 or 727 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Common-name results lacked corroborating identifiers beyond the indexed name.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "efb448dd-013b-51c2-8572-908ab3600127",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Harry D Snell, Box 726 or 727 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Common-name results lacked corroborating identifiers beyond the indexed name.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ae79fec5-d504-5791-b253-83db22d26886",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies William M Snelling, Box 726 or 727 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. A PT-boat officer namesake is an unbridged lead; the available page does not connect him to this Box 727 row.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ffbbc250-a298-5be6-b425-083547a2b306",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Charles C Snider, Box 726 or 727 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Exact-name and occupation searches produced multiple unbridged namesakes.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "47c2c0ee-c331-58e3-a496-e78a3fd6033c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies R H Snider, Box 726 or 727 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. The initials-only record is highly ambiguous and no accessible result supplied two corroborating identifiers.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "fd5ad97f-872a-5629-bd4d-31971b1d49a8",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Paul C Snodgrass, Box 726 or 727 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. The Snodgrass spelling remains separate from the indexed Paul C Snodgress row; neither has a defensible external identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "p437-paul-c-snodgrass-snodgress-b894"
+    },
+    {
+      "person_id": "4a6a9e7b-838e-57a0-a381-55b376b47b6f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Paul C Snodgress, Box 726 or 727 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. The Snodgress spelling remains separate from the indexed Paul C Snodgrass row; neither has a defensible external identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "p437-paul-c-snodgrass-snodgress-b894"
+    },
+    {
+      "person_id": "8a4528ee-354f-50af-8161-4413b20f914f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Davis W Snow, Box 726 or 727 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Exact-name, obituary, institutional, directory and archival searches did not establish this indexed person.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b32e47b5-ed21-56b4-871c-bc7372ea14da",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Harold C Snow, Box 726 or 727 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Exact-name, obituary, institutional, directory and archival searches did not establish this indexed person.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e3820167-e0ea-50db-a59f-6756b5570508",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Charles R Snowden, Box 726 or 727 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. The first same-name Charles R Snowden row has no independent bridge; evidence is not transferred between the two rows.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "p437-charles-r-snowden-b894"
+    },
+    {
+      "person_id": "dc5f0a30-4c3f-50f2-83cf-49381bf44c4f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Charles R Snowden, Box 726 or 727 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. The second same-name Charles R Snowden row remains separate; its protected identifier produced no accepted Army bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "p437-charles-r-snowden-b894"
+    },
+    {
+      "person_id": "3d9eb348-dee6-5edf-ae6c-e5257697248b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Joseph Snoy, Box 726 or 727 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. The rare surname produced no reliable identity or pre-OSS affiliation in accessible sources.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "926c80b5-ab2a-54e4-8262-16d0daf34b56",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Clarke C Snyder, Box 726 or 727 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Exact-name OSS, occupation, obituary and institutional searches produced no defensible identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page437-row1-howard-m-smyth-b894",
+      "person_id": "70ffc830-4c39-57aa-9acb-d6b30487a942",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Howard M Smyth; NARA/index context; CIA Reading Room discovery check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726 or 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_894",
+      "started_at": "2026-10-18T15:45:00Z",
+      "completed_at": "2026-10-18T17:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes and chronologically incompatible candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a high-confidence identity; public affiliation claims are limited to what the cited sources support. Reviewed evidence established an identity bridge and, where supported, a carefully bounded affiliation or occupation claim. Search-result snippets were not used as final evidence, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 726 or 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b894-v1"
+    },
+    {
+      "key": "page437-row2-edith-w-smythe-b894",
+      "person_id": "7a9e1465-aa07-5da7-87f7-8ead85a2a699",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edith W Smythe; NARA/index context; CIA Reading Room discovery check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726 or 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_894",
+      "started_at": "2026-10-18T15:45:00Z",
+      "completed_at": "2026-10-18T17:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name searches produced unbridged namesakes and no official OSS, Box 726 or employment evidence.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. Exact-name searches produced unbridged namesakes and no official OSS, Box 726 or employment evidence. Search-result snippets were not used as final evidence, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 726 or 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b894-v1"
+    },
+    {
+      "key": "page437-row3-sarah-e-smythe-b894",
+      "person_id": "46d0bea3-2039-5f4d-80fe-6a7f327720ab",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Sarah E Smythe; NARA/index context; CIA Reading Room discovery check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726 or 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_894",
+      "started_at": "2026-10-18T15:45:00Z",
+      "completed_at": "2026-10-18T17:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name searches produced unbridged namesakes and no official OSS, Box 726 or employment evidence.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. Exact-name searches produced unbridged namesakes and no official OSS, Box 726 or employment evidence. Search-result snippets were not used as final evidence, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 726 or 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b894-v1"
+    },
+    {
+      "key": "page437-row4-james-f-snapp-b894",
+      "person_id": "23e71660-bee2-5b09-ada1-08fcb84081fa",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James F Snapp; NARA/index context; CIA Reading Room discovery check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726 or 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_894",
+      "started_at": "2026-10-18T15:45:00Z",
+      "completed_at": "2026-10-18T17:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Common-name results lacked a protected-identifier, OSS or Box 727 bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. Common-name results lacked a protected-identifier, OSS or Box 727 bridge. Search-result snippets were not used as final evidence, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 726 or 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b894-v1"
+    },
+    {
+      "key": "page437-row5-paul-a-snearline-b894",
+      "person_id": "009fc40d-571f-51d1-834f-3cf74c0eebfe",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Paul A Snearline; NARA/index context; CIA Reading Room discovery check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726 or 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_894",
+      "started_at": "2026-10-18T15:45:00Z",
+      "completed_at": "2026-10-18T17:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The rare surname produced no defensible identity or employment source in the accessible staged searches.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. The rare surname produced no defensible identity or employment source in the accessible staged searches. Search-result snippets were not used as final evidence, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 726 or 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b894-v1"
+    },
+    {
+      "key": "page437-row6-william-k-snedecker-b894",
+      "person_id": "588e8538-2277-57fa-83ec-c593c7117126",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William K Snedecker; NARA/index context; CIA Reading Room discovery check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726 or 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_894",
+      "started_at": "2026-10-18T15:45:00Z",
+      "completed_at": "2026-10-18T17:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes and chronologically incompatible candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a high-confidence identity; public affiliation claims are limited to what the cited sources support. Reviewed evidence established an identity bridge and, where supported, a carefully bounded affiliation or occupation claim. Search-result snippets were not used as final evidence, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 726 or 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b894-v1"
+    },
+    {
+      "key": "page437-row7-daniel-t-snell-b894",
+      "person_id": "a07b88d3-1d00-5c82-81f5-3eeb117ca320",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Daniel T Snell; NARA/index context; CIA Reading Room discovery check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726 or 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_894",
+      "started_at": "2026-10-18T15:45:00Z",
+      "completed_at": "2026-10-18T17:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Common-name results lacked corroborating identifiers beyond the indexed name.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. Common-name results lacked corroborating identifiers beyond the indexed name. Search-result snippets were not used as final evidence, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 726 or 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b894-v1"
+    },
+    {
+      "key": "page437-row8-harry-d-snell-b894",
+      "person_id": "efb448dd-013b-51c2-8572-908ab3600127",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Harry D Snell; NARA/index context; CIA Reading Room discovery check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726 or 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_894",
+      "started_at": "2026-10-18T15:45:00Z",
+      "completed_at": "2026-10-18T17:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Common-name results lacked corroborating identifiers beyond the indexed name.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. Common-name results lacked corroborating identifiers beyond the indexed name. Search-result snippets were not used as final evidence, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 726 or 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b894-v1"
+    },
+    {
+      "key": "page437-row9-william-m-snelling-b894",
+      "person_id": "ae79fec5-d504-5791-b253-83db22d26886",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William M Snelling; NARA/index context; CIA Reading Room discovery check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726 or 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_894",
+      "started_at": "2026-10-18T15:45:00Z",
+      "completed_at": "2026-10-18T17:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "A PT-boat officer namesake is an unbridged lead; the available page does not connect him to this Box 727 row.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. A PT-boat officer namesake is an unbridged lead; the available page does not connect him to this Box 727 row. Search-result snippets were not used as final evidence, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 726 or 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b894-v1"
+    },
+    {
+      "key": "page437-row10-charles-c-snider-b894",
+      "person_id": "ffbbc250-a298-5be6-b425-083547a2b306",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles C Snider; NARA/index context; CIA Reading Room discovery check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726 or 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_894",
+      "started_at": "2026-10-18T15:45:00Z",
+      "completed_at": "2026-10-18T17:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name and occupation searches produced multiple unbridged namesakes.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. Exact-name and occupation searches produced multiple unbridged namesakes. Search-result snippets were not used as final evidence, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 726 or 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b894-v1"
+    },
+    {
+      "key": "page437-row11-r-h-snider-b894",
+      "person_id": "47c2c0ee-c331-58e3-a496-e78a3fd6033c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "R H Snider; NARA/index context; CIA Reading Room discovery check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726 or 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_894",
+      "started_at": "2026-10-18T15:45:00Z",
+      "completed_at": "2026-10-18T17:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The initials-only record is highly ambiguous and no accessible result supplied two corroborating identifiers.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. The initials-only record is highly ambiguous and no accessible result supplied two corroborating identifiers. Search-result snippets were not used as final evidence, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 726 or 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b894-v1"
+    },
+    {
+      "key": "page437-row12-paul-c-snodgrass-b894",
+      "person_id": "fd5ad97f-872a-5629-bd4d-31971b1d49a8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Paul C Snodgrass; NARA/index context; CIA Reading Room discovery check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726 or 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_894",
+      "started_at": "2026-10-18T15:45:00Z",
+      "completed_at": "2026-10-18T17:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The Snodgrass spelling remains separate from the indexed Paul C Snodgress row; neither has a defensible external identity bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. The Snodgrass spelling remains separate from the indexed Paul C Snodgress row; neither has a defensible external identity bridge. Search-result snippets were not used as final evidence, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 726 or 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b894-v1"
+    },
+    {
+      "key": "page437-row13-roy-l-snodgrass-b894",
+      "person_id": "52d2c58c-e260-58e4-8273-f1a613ef14bc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Roy L Snodgrass; NARA/index context; CIA Reading Room discovery check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726 or 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_894",
+      "started_at": "2026-10-18T15:45:00Z",
+      "completed_at": "2026-10-18T17:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes and chronologically incompatible candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a high-confidence identity; public affiliation claims are limited to what the cited sources support. Reviewed evidence established an identity bridge and, where supported, a carefully bounded affiliation or occupation claim. Search-result snippets were not used as final evidence, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 726 or 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b894-v1"
+    },
+    {
+      "key": "page437-row14-paul-c-snodgress-b894",
+      "person_id": "4a6a9e7b-838e-57a0-a381-55b376b47b6f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Paul C Snodgress; NARA/index context; CIA Reading Room discovery check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726 or 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_894",
+      "started_at": "2026-10-18T15:45:00Z",
+      "completed_at": "2026-10-18T17:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The Snodgress spelling remains separate from the indexed Paul C Snodgrass row; neither has a defensible external identity bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. The Snodgress spelling remains separate from the indexed Paul C Snodgrass row; neither has a defensible external identity bridge. Search-result snippets were not used as final evidence, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 726 or 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b894-v1"
+    },
+    {
+      "key": "page437-row15-davis-w-snow-b894",
+      "person_id": "8a4528ee-354f-50af-8161-4413b20f914f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Davis W Snow; NARA/index context; CIA Reading Room discovery check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726 or 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_894",
+      "started_at": "2026-10-18T15:45:00Z",
+      "completed_at": "2026-10-18T17:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name, obituary, institutional, directory and archival searches did not establish this indexed person.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. Exact-name, obituary, institutional, directory and archival searches did not establish this indexed person. Search-result snippets were not used as final evidence, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 726 or 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b894-v1"
+    },
+    {
+      "key": "page437-row16-harold-c-snow-b894",
+      "person_id": "b32e47b5-ed21-56b4-871c-bc7372ea14da",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Harold C Snow; NARA/index context; CIA Reading Room discovery check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726 or 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_894",
+      "started_at": "2026-10-18T15:45:00Z",
+      "completed_at": "2026-10-18T17:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name, obituary, institutional, directory and archival searches did not establish this indexed person.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. Exact-name, obituary, institutional, directory and archival searches did not establish this indexed person. Search-result snippets were not used as final evidence, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 726 or 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b894-v1"
+    },
+    {
+      "key": "page437-row17-charles-r-snowden-b894",
+      "person_id": "e3820167-e0ea-50db-a59f-6756b5570508",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles R Snowden; NARA/index context; CIA Reading Room discovery check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726 or 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_894",
+      "started_at": "2026-10-18T15:45:00Z",
+      "completed_at": "2026-10-18T17:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The first same-name Charles R Snowden row has no independent bridge; evidence is not transferred between the two rows.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. The first same-name Charles R Snowden row has no independent bridge; evidence is not transferred between the two rows. Search-result snippets were not used as final evidence, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 726 or 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b894-v1"
+    },
+    {
+      "key": "page437-row18-charles-r-snowden-b894",
+      "person_id": "dc5f0a30-4c3f-50f2-83cf-49381bf44c4f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles R Snowden; NARA/index context; CIA Reading Room discovery check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726 or 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_894",
+      "started_at": "2026-10-18T15:45:00Z",
+      "completed_at": "2026-10-18T17:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The second same-name Charles R Snowden row remains separate; its protected identifier produced no accepted Army bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. The second same-name Charles R Snowden row remains separate; its protected identifier produced no accepted Army bridge. Search-result snippets were not used as final evidence, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 726 or 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b894-v1"
+    },
+    {
+      "key": "page437-row19-william-snower-b894",
+      "person_id": "84ea25db-f77e-55db-ad7d-b373fe898f2c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William Snower; NARA/index context; CIA Reading Room discovery check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726 or 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_894",
+      "started_at": "2026-10-18T15:45:00Z",
+      "completed_at": "2026-10-18T17:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes and chronologically incompatible candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a high-confidence identity; public affiliation claims are limited to what the cited sources support. Reviewed evidence established an identity bridge and, where supported, a carefully bounded affiliation or occupation claim. Search-result snippets were not used as final evidence, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 726 or 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b894-v1"
+    },
+    {
+      "key": "page437-row20-joseph-snoy-b894",
+      "person_id": "3d9eb348-dee6-5edf-ae6c-e5257697248b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph Snoy; NARA/index context; CIA Reading Room discovery check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726 or 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_894",
+      "started_at": "2026-10-18T15:45:00Z",
+      "completed_at": "2026-10-18T17:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The rare surname produced no reliable identity or pre-OSS affiliation in accessible sources.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. The rare surname produced no reliable identity or pre-OSS affiliation in accessible sources. Search-result snippets were not used as final evidence, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 726 or 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b894-v1"
+    },
+    {
+      "key": "page437-row21-andrew-j-snyder-b894",
+      "person_id": "4c1e2c3f-ba2a-5337-becf-fea5a67c8f84",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Andrew J Snyder; NARA/index context; CIA Reading Room discovery check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726 or 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_894",
+      "started_at": "2026-10-18T15:45:00Z",
+      "completed_at": "2026-10-18T17:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes and chronologically incompatible candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a high-confidence identity; public affiliation claims are limited to what the cited sources support. Reviewed evidence established an identity bridge and, where supported, a carefully bounded affiliation or occupation claim. Search-result snippets were not used as final evidence, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 726 or 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b894-v1"
+    },
+    {
+      "key": "page437-row22-arthur-l-snyder-b894",
+      "person_id": "98a5e40a-df4f-52fb-a468-123d29002ab1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Arthur L Snyder; NARA/index context; CIA Reading Room discovery check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726 or 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_894",
+      "started_at": "2026-10-18T15:45:00Z",
+      "completed_at": "2026-10-18T17:45:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes and chronologically incompatible candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a high-confidence identity; public affiliation claims are limited to what the cited sources support. Reviewed evidence established an identity bridge and, where supported, a carefully bounded affiliation or occupation claim. Search-result snippets were not used as final evidence, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 726 or 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b894-v1"
+    },
+    {
+      "key": "page437-row23-clarke-c-snyder-b894",
+      "person_id": "926c80b5-ab2a-54e4-8262-16d0daf34b56",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Clarke C Snyder; NARA/index context; CIA Reading Room discovery check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726 or 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_894",
+      "started_at": "2026-10-18T15:45:00Z",
+      "completed_at": "2026-10-18T17:45:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name OSS, occupation, obituary and institutional searches produced no defensible identity bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. Exact-name OSS, occupation, obituary and institutional searches produced no defensible identity bridge. Search-result snippets were not used as final evidence, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 726 or 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b894-v1"
+    }
+  ]
+}

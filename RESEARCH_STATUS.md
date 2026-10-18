@@ -1,5 +1,42 @@
 # Research status
 
+Batch 894 completed PDF page 437, rows 1-23, from **Howard M Smyth** through
+**Clarke C Snyder**, preserving all 23 printed rows as separate source records
+linked to 23 active people. All 23 have terminal research outcomes. Four
+official Army identity bridges are accepted with protected identifiers kept
+private. Paul C Snodgrass/Snodgress and the two Charles R Snowden rows remain
+separate and are visibly grouped for duplicate review.
+
+Howard M Smyth is identified with high confidence as historian Howard McGaw
+Smyth. UC Berkeley is published as his strongly date-bounded immediate pre-OSS
+affiliation and last civilian employer. William Snower's Army Specialized
+Training Program language assignment is published separately from his Harvard
+College student status; neither university attendance nor Army training is
+mislabeled as civilian employment. Three historical Army occupation categories
+remain qualified, and Andrew J Snyder's later Army record supports identity
+only. The remaining 17 unresolved identities receive explicit archival-review
+outcomes rather than invented employers.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **13,520/23,937 (56.4816%)**;
+verified-employer coverage is **436/23,937 (1.8214%)**;
+verified-affiliation coverage is **968/23,937 (4.0439%)**; archival-review
+coverage is **11,990/23,937 (50.0898%)**. There are **10,412** not-started
+people, **598** possible-duplicate groups and **462** conflicts. The public
+projection contains **2,994** affiliations, **1,110** organizations, **5,501**
+sources and **8,179** published or qualified claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 437, row 24,
+**Edwin N Snyder**. See `research/batch-894-progress.md` for the source-by-
+source audit. Batch 894 has passed isolated and canonical idempotency imports,
+database integrity checks, extraction validation, derived export regeneration,
+public-data redaction, all 146 Python tests and 84 parameterized parser subtests,
+the deterministic 200-profile audit, the 93/93 browser and accessibility matrix,
+the complete 25,092-page internal-link check, the private-identifier scan, local
+manifest verification, the zero-warning 25,092-page Astro build, the dependency
+audit and two deterministic builds. Publication remains pending a content
+commit, independent Test and Pages runs and unauthenticated deployed-release
+verification.
+
 Batch 893 completed PDF page 436, rows 24-46, from **William M Smith** through
 **Richard D Smyser**, preserving all 23 printed rows as separate source records
 linked to 23 active people. All 23 have terminal research outcomes. Seven
