@@ -224,6 +224,10 @@ def normalize_rank(value: str | None) -> str | None:
     if normalized == "CPT":
         normalized = "CAPT"
     normalized = re.sub(r"^([SMT])[- /]SGT$", r"\1/SGT", normalized)
+    # The index commonly prints Army technician grades with a slash (T/3,
+    # T/4, T/5), while the existing canonical rank set uses hyphens. Keep
+    # the printed form in ``rank_raw`` and normalize only the derived value.
+    normalized = re.sub(r"^T/([345])$", r"T-\1", normalized)
     normalized = re.sub(r"^TEC-([345])$", r"TEC \1", normalized)
     normalized = re.sub(r"^S([123])\s+C$", r"S \1/C", normalized)
     normalized = re.sub(r"^(RM)([123])/?C$", r"\1 \2/C", normalized)

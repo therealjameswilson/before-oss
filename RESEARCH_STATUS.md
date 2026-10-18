@@ -1,5 +1,41 @@
 # Research status
 
+Batch 889 completed PDF page 434, rows 24-46, from **Jesse L Smith** through
+**Marie A Smith**, preserving all 23 printed rows as separate source records
+linked to 23 active people. All 23 have terminal research outcomes. Four
+official Army identity bridges are accepted with protected identifiers kept
+private. The two exact **Marian J Smith** rows remain separate and are flagged
+as a possible duplicate group rather than merged.
+
+Four medium-confidence Army-entry occupations are published: Jesse L Smith as
+a chauffeur or driver; John D Smith as a bookkeeper or cashier other than a
+bank cashier; Leslie J Smith as a general-farm hand; and Lewis Y Smith as an
+insurance salesman. None of these categories names an employer or establishes
+the immediate pre-OSS affiliation. A Raleigh directory lead for a Judson B
+Smith at General Motors Acceptance Corporation and sources about anthropologist
+Marian Wesley Smith lack an OSS, box or protected-identifier bridge and remain
+rejected rather than published as facts.
+
+The batch also repaired a project-wide derived-classification gap for printed
+Army technician grades `T/3`, `T/4` and `T/5`. The original rank strings remain
+unchanged, while canonical slash forms now normalize to their enlisted Army
+equivalents. The refresh reclassified 142 source rows and 111 person entities;
+Leonard L Smith's printed `T/4` is now correctly classified as enlisted and is
+excluded from commissioned-officer results.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **13,408/23,937 (56.0137%)**;
+verified-employer coverage is **435/23,937 (1.8173%)**;
+verified-affiliation coverage is **964/23,937 (4.0272%)**; archival-review
+coverage is **11,876/23,937 (49.6136%)**. There are **10,524** not-started
+people, **590** possible-duplicate groups and **462** conflicts. The public
+projection contains **2,957** affiliations, **1,104** organizations, **5,468**
+sources and **8,105** published or qualified claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 435, row 1,
+**Martha F Smith**. See `research/batch-889-progress.md` for the source-by-
+source audit. Batch 889 has passed canonical import and data validation; public
+release verification is pending.
+
 Batch 888 completed PDF page 434, rows 1-23, from **Harley E Smith** through
 **Jeanne M Smith**, preserving all 23 printed rows as separate source records
 linked to 23 active people. All 23 now have terminal research outcomes. Seven
