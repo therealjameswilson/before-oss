@@ -28,8 +28,11 @@ projection contains **2,910** affiliations, **1,092** organizations, **5,413**
 sources and **7,982** published or qualified claims. Full-index historical
 research remains unfinished. The next indexed boundary is PDF page 431, row
 1, **Arthur A Skiathitis**. See `research/batch-881-progress.md` for the
-source-by-source audit. Batch 881 passed local release QA and is awaiting
-publication and unauthenticated live verification.
+source-by-source audit. Batch 881 is published at content commit
+`fcb603cd2f0db67bb869e068618a1e97728b12f9`: the clean Linux Test workflow and
+Pages deployment succeeded, and the unauthenticated verifier confirmed all 67
+public assets, eight core routes, 37 source-register pages and 23 direct Batch
+881 profiles at `https://therealjameswilson.github.io/before-oss/`.
 
 
 Batch 880 completed PDF page 430, rows 1-23, from **William A Sincek** through

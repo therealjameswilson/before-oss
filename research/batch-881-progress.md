@@ -117,10 +117,18 @@ The dependency audit reports zero vulnerabilities.
 
 ## Publication status
 
-Batch 881 passed local release QA and the tested SQLite file was promoted to
-the canonical research database after a recoverable Batch 880 backup was saved
-at `/private/tmp/beforeoss-pre-batch881-research.sqlite`. Publication and
-unauthenticated live-site verification are the remaining release steps.
+Batch 881 is published at content commit
+`fcb603cd2f0db67bb869e068618a1e97728b12f9`. The clean Linux Test workflow
+passed in [run 39090244921](https://github.com/therealjameswilson/before-oss/actions/runs/39090244921),
+and the GitHub Pages build and deploy passed in
+[run 39090244822](https://github.com/therealjameswilson/before-oss/actions/runs/39090244822).
+The unauthenticated release verifier confirmed all 67 manifest assets, eight
+core routes, 37 source-register pages and all 23 direct Batch 881 profiles at
+`https://therealjameswilson.github.io/before-oss/`.
+
+The tested SQLite file was promoted to the canonical research database after
+a recoverable Batch 880 backup was saved at
+`/private/tmp/beforeoss-pre-batch881-research.sqlite`.
 
 ## Resume commands
 
