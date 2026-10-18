@@ -132,8 +132,13 @@ but do not by themselves establish public deployment.
 
 ## Publication status
 
-Publication is pending the independent GitHub Actions Test and Pages workflows
-and an unauthenticated verification of the deployed immutable content commit.
+Batch 893 is public from immutable content commit
+`a35a53ba5822a6a07eb0ccb8d8f7b4ba1a0cf8cd`. GitHub Actions Test run
+`39118699117` and Pages deployment run `39118699122` both completed
+successfully. The unauthenticated deployed-release verifier matched all 67
+public assets (119,086,141 bytes), eight core routes, 37 source-register pages
+and all 23 directly affected profiles. The deployed manifest SHA-256 is
+`3a6622e202f39856a8c2d11aee30633e078585610a1afbcac36b37d0d3da21d0`.
 
 Public site:
 <https://therealjameswilson.github.io/before-oss/>
