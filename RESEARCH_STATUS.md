@@ -1,5 +1,34 @@
 # Research status
 
+Batch 888 completed PDF page 434, rows 1-23, from **Harley E Smith** through
+**Jeanne M Smith**, preserving all 23 printed rows as separate source records
+linked to 23 active people. All 23 now have terminal research outcomes. Seven
+official Army identity bridges are accepted with protected identifiers kept
+private. The two exact Howard E Smith rows remain distinct and are flagged as
+a possible duplicate group rather than merged.
+
+Five medium-confidence Army-entry occupation categories are published, but no
+named employer is inferred from them. In particular, **Jack C Smith**'s
+petroleum and coal-products production category does not establish oil-company
+employment and does not place him in the site's oil-company category. Two
+undefined Army values remain uninterpreted. Common-name obituary, directory,
+newspaper and institutional leads without an OSS, box or protected-identifier
+bridge remain rejected.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **13,385/23,937 (55.9176%)**;
+verified-employer coverage is **435/23,937 (1.8173%)**;
+verified-affiliation coverage is **964/23,937 (4.0272%)**; archival-review
+coverage is **11,853/23,937 (49.5175%)**. There are **10,547** not-started
+people, **589** possible-duplicate groups and **462** conflicts. The public
+projection contains **2,953** affiliations, **1,104** organizations, **5,464**
+sources and **8,097** published or qualified claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 434, row
+24, **Jesse L Smith**. See `research/batch-888-progress.md` for the source-by-
+source audit. Batch 888 has passed local release validation and is awaiting its
+content commit, clean Linux Test workflow, Pages deployment and unauthenticated
+verification at <https://therealjameswilson.github.io/before-oss/>.
+
 Batch 883 completed PDF page 431, rows 24-46, from **Peter J Skurla** through
 **Edward Sliwa**, preserving all 23 printed rows as separate source records
 linked to 23 active people. All 23 now have terminal research outcomes. Eleven
