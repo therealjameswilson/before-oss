@@ -1,5 +1,45 @@
 # Research status
 
+Batch 892 completed PDF page 436, rows 1-23, from **Susan Smith** through
+**William W Smith**, preserving all 23 printed rows as separate source records
+linked to 23 active people. All 23 have terminal research outcomes. Seven
+official Army identity bridges are accepted and one materially conflicting
+candidate is rejected, with protected identifiers kept private. The three
+Thomas R Smith rows remain separate and are visibly grouped for duplicate
+review.
+
+Seven medium-confidence historical occupation or student-status findings are
+published as qualified non-employer evidence: chauffeurs and drivers;
+secondary-school teachers and principals; photoengravers; student; student;
+secondary-school teachers and principals; and chauffeurs and drivers. None
+names an employer, workplace, school or immediate OSS predecessor. An official
+OSS order independently corroborates Warren J Smith's identity and 9 May 1945
+assignment to Company B, Special Reconnaissance Battalion; it is not presented
+as pre-OSS employment. The damaged Army source form for the second Thomas R
+Smith row and the rejected Warren D Smith candidate remain explicitly
+qualified.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **13,474/23,937 (56.2894%)**;
+verified-employer coverage is **435/23,937 (1.8173%)**;
+verified-affiliation coverage is **964/23,937 (4.0272%)**; archival-review
+coverage is **11,944/23,937 (49.8976%)**. There are **10,458** not-started
+people, **595** possible-duplicate groups and **462** conflicts. The public
+projection contains **2,978** affiliations, **1,104** organizations, **5,481**
+sources and **8,147** published or qualified claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 436, row 24,
+**William M Smith**. See `research/batch-892-progress.md` for the source-by-
+source audit. Batch 892 has passed isolated and canonical idempotency imports,
+database integrity checks, extraction validation, derived export regeneration,
+public-data redaction, all 146 Python tests and 84 parameterized parser
+subtests, the deterministic 200-profile audit, the 93/93 browser and
+accessibility matrix, the complete 25,086-page internal-link check, the
+private-identifier scan, local manifest verification, the zero-warning
+25,086-page Astro build, the dependency audit and two deterministic builds.
+Publication verification is pending; the latest verified public release remains
+Batch 891 until the Batch 892 content commit passes CI, Pages deployment and
+unauthenticated verification.
+
 Batch 891 completed PDF page 435, rows 24-46, from **Robert W Smith** through
 **Sunday B Smith**, preserving all 23 printed rows as separate source records
 linked to 23 active people. All 23 have terminal research outcomes. Nine
@@ -25,7 +65,7 @@ people, **594** possible-duplicate groups and **462** conflicts. The public
 projection contains **2,971** affiliations, **1,104** organizations, **5,476**
 sources and **8,133** published or qualified claims. Full-index historical
 research remains unfinished. The next indexed boundary is PDF page 436, row 1,
-**William B Smith**. See `research/batch-891-progress.md` for the source-by-
+**Susan Smith**. See `research/batch-891-progress.md` for the source-by-
 source audit. Batch 891 has passed isolated and canonical idempotency imports,
 database integrity checks, extraction validation, derived export regeneration,
 public-data redaction, all 146 Python tests and 84 parameterized parser

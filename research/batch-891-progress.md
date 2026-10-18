@@ -19,7 +19,7 @@ protected identifiers are not merged or transferred. The indexed M/Sgt rank
 for the first Robert B Smith remains preserved. His Army source records private
 grade at Army entry, which is earlier evidence rather than a contradiction.
 
-The next unresearched boundary is page 436, row 1, William B Smith. It must be
+The next unresearched boundary is page 436, row 1, Susan Smith. It must be
 checked against a rendered page image before assignment.
 
 ## Research outcomes
@@ -142,7 +142,7 @@ Public site:
 - `research/army_review_decisions_2026-10-18_batch891.csv`
 - `research/evidence-page435-smith-continuation-review_batch-891_2026-10-18.json`
 
-Resume Batch 892 at page 436, row 1, William B Smith, after visually confirming
+Resume Batch 892 at page 436, row 1, Susan Smith, after visually confirming
 the page boundary and exact row range.
 
 ## Current blocker
