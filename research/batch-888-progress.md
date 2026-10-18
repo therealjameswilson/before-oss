@@ -124,9 +124,14 @@ The dependency audit reports zero vulnerabilities.
 
 ## Publication status
 
-Batch 888 has passed local release validation and is ready for content commit,
-GitHub Actions testing, Pages deployment and immutable unauthenticated release
-verification. Publication is not claimed until those checks complete.
+Batch 888 was published in content commit
+`3dd87736a7e989c9d1750a2efd92a79325ddbef6`. GitHub Actions Test run
+`39104915341` and Deploy GitHub Pages run `39104915353` both completed
+successfully. Unauthenticated verification against the immutable content
+commit passed for all 67 release assets (118,583,433 bytes), eight core routes,
+37 source-register pages and all 23 Batch 888 profiles. The deployed manifest
+SHA-256 is
+`bd98d734085b767519ef1f843187992be70fcd75623024b6a9af07ed964b3b82`.
 
 Public site: <https://therealjameswilson.github.io/before-oss/>
 
