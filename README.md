@@ -21,14 +21,14 @@ is not complete, and the site reports that limitation explicitly.
 - 23,978 / 23,978 source rows linked to an entity
 - 584 possible-duplicate groups; possible variants remain separate until
   direct evidence supports a merge
-- 75-person stratified pilot, 13,202 people with saved non-planned research
-  outcomes, and 26,873 durable research attempts or plans
-- 956 verified-affiliation profiles, including 433 with verified employment or
-  self-employment, and 11,669 individually assessed archival dispositions
-- 2,907 public-visible affiliations, 7,969 public-visible claims, 5,404 public
-  source records, and 3,612 unique source-document keys; 212 low-confidence
+- 75-person stratified pilot, 13,225 people with saved non-planned research
+  outcomes, and 26,898 durable research attempts or plans
+- 959 verified-affiliation profiles, including 433 with verified employment or
+  self-employment, and 11,692 individually assessed archival dispositions
+- 2,910 public-visible affiliations, 7,982 public-visible claims, 5,413 public
+  source records, and 3,619 unique source-document keys; 212 low-confidence
   claims remain outside default analytics
-- 10,730 active people remain `not_started`; the public site reports this
+- 10,707 active people remain `not_started`; the public site reports this
   incompleteness rather than treating an automated query as completed research
 
 See [RESEARCH_STATUS.md](RESEARCH_STATUS.md) and

@@ -1,5 +1,37 @@
 # Research status
 
+Batch 881 completed PDF page 430, rows 24-46, from **Anne Sirotenko** through
+**H Skgolsvik**, preserving all 23 printed rows as separate source records
+linked to 23 active people. All 23 now have terminal research outcomes. Six
+official Army identity bridges are accepted with protected identifiers kept
+private. The identifier shared by the H Skgolsvik and Hakon A Skjolsvik index
+rows conflicts with a third, unrelated Army name; both index people therefore
+remain separate and the conflict is published without the identifier.
+
+An official OSS awards memorandum and a scholarly account citing the
+underlying NARA mission file document **Youri Skarzynski** as a stateless
+civilian who served in the French Army before OSS recruited him in Paris. The
+French Army is published as an explicit immediate military assignment, not a
+civilian employer. Contemporary Indiana rosters document **Hans H Skabo** as
+an engineer officer in the Indiana National Guard in 1922 and 1938, but do not
+prove that Guard service immediately preceded OSS. **Alfred A Skerpan**'s
+Harvard record is published as student status rather than employment; his
+later Air University biography supplies the identity and OSS chronology.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **13,225/23,937 (55.2492%)**;
+verified-employer coverage is **433/23,937 (1.8089%)**;
+verified-affiliation coverage is **959/23,937 (4.0064%)**; archival-review
+coverage is **11,692/23,937 (48.8449%)**. There are **10,707** `not_started`
+people, **584** possible-duplicate groups and **459** conflicts. The public
+projection contains **2,910** affiliations, **1,092** organizations, **5,413**
+sources and **7,982** published or qualified claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 431, row
+1, **Arthur A Skiathitis**. See `research/batch-881-progress.md` for the
+source-by-source audit. Batch 881 passed local release QA and is awaiting
+publication and unauthenticated live verification.
+
+
 Batch 880 completed PDF page 430, rows 1-23, from **William A Sincek** through
 **Angelo Sirico**, preserving all 23 printed rows as separate source records
 linked to 23 active people. All 23 now have terminal research outcomes. Ten
