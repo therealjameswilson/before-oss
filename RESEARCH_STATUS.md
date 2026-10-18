@@ -29,9 +29,11 @@ projection contains **2,919** affiliations, **1,098** organizations, **5,424**
 sources and **8,008** published or qualified claims. Full-index historical
 research remains unfinished. The next indexed boundary is PDF page 431, row
 24, **Peter J Skurla**. See research/batch-882-progress.md for the
-source-by-source audit. Batch 882 is a locally verified release candidate;
-publication awaits clean CI, Pages deployment and exact unauthenticated
-verification.
+source-by-source audit. Batch 882 is published at content commit
+19af3ca713d1bb90122270c12b364cc8d6fd106e: the clean Linux Test workflow and
+Pages deployment succeeded, and the unauthenticated verifier confirmed all 67
+public assets, eight core routes, 37 source-register pages and 23 direct Batch
+882 profiles at https://therealjameswilson.github.io/before-oss/.
 
 
 Batch 881 completed PDF page 430, rows 24-46, from **Anne Sirotenko** through

@@ -121,10 +121,12 @@ The dependency audit reports zero vulnerabilities.
 
 ## Publication status
 
-The locally verified Batch 882 release candidate is not a public release until
-its immutable content commit passes GitHub's clean Linux Test workflow, the
-Pages workflow completes, and the unauthenticated verifier matches that exact
-commit.
+Batch 882 is published at content commit
+19af3ca713d1bb90122270c12b364cc8d6fd106e. The clean Linux Test workflow passed
+in run 39091880913, and the GitHub Pages build and deploy passed in run
+39091880875. The unauthenticated release verifier confirmed all 67 manifest
+assets, eight core routes, 37 source-register pages and all 23 direct Batch 882
+profiles at https://therealjameswilson.github.io/before-oss/.
 
 ## Resume commands
 

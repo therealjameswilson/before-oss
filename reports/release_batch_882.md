@@ -51,6 +51,18 @@ Date: 2026-10-17 America/New_York
 
 ## Publication verification
 
-Pending: local QA has passed. The release is not yet reported as public until
-the immutable content commit passes both GitHub Actions workflows and the
-unauthenticated verifier matches that exact commit.
+- Content commit:
+  19af3ca713d1bb90122270c12b364cc8d6fd106e.
+- Clean Linux Test workflow: passed in run 39091880913:
+  https://github.com/therealjameswilson/before-oss/actions/runs/39091880913
+- GitHub Pages build and deploy: passed in run 39091880875:
+  https://github.com/therealjameswilson/before-oss/actions/runs/39091880875
+- Unauthenticated verification: all 67 manifest assets, eight core routes, 37
+  source-register pages and all 23 direct Batch 882 profiles matched the
+  immutable content commit at
+  https://therealjameswilson.github.io/before-oss/.
+
+GitHub emitted non-failing maintenance annotations that its Node 20-based
+actions are currently being forced onto Node 24 and that ubuntu-latest is
+scheduled to migrate to Ubuntu 26. Neither annotation changed the successful
+release result.
