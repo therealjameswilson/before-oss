@@ -36,8 +36,13 @@ public-data redaction, all 146 Python tests and 84 parameterized parser subtests
 the deterministic 200-profile audit, the 93/93 browser and accessibility matrix,
 the complete 25,092-page internal-link check, the private-identifier scan, local
 manifest verification, the zero-warning 25,092-page Astro build, the dependency
-audit and two deterministic builds. It remains a local release candidate until
-the clean GitHub workflows and unauthenticated deployed-release verifier pass.
+audit and two deterministic builds. Batch 895 is public from immutable content
+commit `05c54f08c5486a61fc19369cf7734a8178f1ba2a`. GitHub Actions Test run
+`39124776443` and Pages deployment run `39124776462` both completed
+successfully. The unauthenticated deployed-release verifier matched all 67
+public assets (119,347,137 bytes), eight core routes, 37 source-register pages
+and all 23 directly affected profiles. The deployed manifest SHA-256 is
+`2379f1dd75b14c7ff7ef00b4d90d53c2b124c10a13bb4adaa25aa872a4c3defa`.
 
 Batch 894 completed PDF page 437, rows 1-23, from **Howard M Smyth** through
 **Clarke C Snyder**, preserving all 23 printed rows as separate source records

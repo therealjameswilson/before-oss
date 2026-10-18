@@ -55,5 +55,18 @@ Date: 2026-10-18 America/New_York
 
 ## Publication verification
 
-Not yet public. The clean GitHub Test workflow, Pages deployment and
-unauthenticated deployed-release comparison remain release gates.
+- Content commit:
+  `05c54f08c5486a61fc19369cf7734a8178f1ba2a`.
+- Clean Linux Test workflow: passed in run `39124776443`:
+  https://github.com/therealjameswilson/before-oss/actions/runs/39124776443
+- GitHub Pages build and deploy: passed in run `39124776462`:
+  https://github.com/therealjameswilson/before-oss/actions/runs/39124776462
+- Unauthenticated verification: all 67 manifest assets, eight core routes, 37
+  source-register pages and all 23 directly affected profiles matched the
+  immutable content commit at
+  https://therealjameswilson.github.io/before-oss/.
+
+GitHub emitted non-failing maintenance annotations that its Node 20-based
+actions are currently being forced onto Node 24 and that `ubuntu-latest` is
+scheduled to migrate to Ubuntu 26. Neither annotation changed the successful
+release result.
