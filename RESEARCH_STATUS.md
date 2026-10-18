@@ -1,5 +1,37 @@
 # Research status
 
+Batch 883 completed PDF page 431, rows 24-46, from **Peter J Skurla** through
+**Edward Sliwa**, preserving all 23 printed rows as separate source records
+linked to 23 active people. All 23 now have terminal research outcomes. Eleven
+official Army identity bridges are accepted with protected identifiers kept
+private. Initial-only, namesake, postwar and discovery-only leads remain
+rejected where the accessible evidence does not establish identity and timing.
+
+Obituaries document **Gertrude W Sladek** as a Czechoslovak specialist at the
+Library of Congress before her OSS work; the library is published at high
+confidence as her probable immediate affiliation and last civilian employer.
+Institutional records place **Peter J Skurla** at Newark College of Engineering
+and then in the Navy, but his identity remains probable and both relationships
+are visibly qualified. Official Army history identifies **Michael Slauta** as
+a first lieutenant and Quartermaster specialist, supporting a commissioned-
+officer classification without backdating the assignment before OSS. **Conrad
+H Sletta**'s high-school affiliation is correctly modeled as student status,
+not employment.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **13,271/23,937 (55.4414%)**;
+verified-employer coverage is **434/23,937 (1.8131%)**;
+verified-affiliation coverage is **962/23,937 (4.0189%)**; archival-review
+coverage is **11,738/23,937 (49.0371%)**. There are **10,661** not-started
+people, **585** possible-duplicate groups and **460** conflicts. The public
+projection contains **2,923** affiliations, **1,100** organizations, **5,433**
+sources and **8,026** published or qualified claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 432, row
+1, **Joseph R Sliwa**. See research/batch-883-progress.md for the source-by-
+source audit. Batch 883 has passed every local release gate and awaits its
+content commit, clean Linux workflow, Pages deployment and unauthenticated live
+verification.
+
 Batch 882 completed PDF page 431, rows 1-23, from **Arthur A Skiathitis**
 through **Clarence W Skupic**, preserving all 23 printed rows as separate
 source records linked to 23 active people. All 23 now have terminal research
