@@ -30,7 +30,11 @@ projection contains **2,904** affiliations, **1,090** organizations, **5,399**
 sources and **7,952** published or qualified claims. Full-index historical
 research remains unfinished. The next indexed boundary is PDF page 430, row 1,
 **William A Sincek**. See `research/batch-879-progress.md` for the source-by-
-source audit. Batch 879 is locally release-ready and awaiting publication.
+source audit. Batch 879 is published at commit
+`36386f3fa5d4b8a34cabc860060fa72339595ca8`: the clean Linux Test workflow and
+Pages deployment succeeded, and the unauthenticated verifier confirmed all 67
+public assets, eight core routes, 36 source-register pages and 23 direct Batch
+879 profiles at `https://therealjameswilson.github.io/before-oss/`.
 
 
 Batch 878 completed PDF page 429, rows 1-23, from **Harland Simon** through

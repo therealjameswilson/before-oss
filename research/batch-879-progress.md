@@ -119,9 +119,14 @@ The production dependency audit reports zero vulnerabilities.
 
 ## Publication status
 
-Batch 879 is locally release-ready and awaiting publication. Commit, workflow
-and unauthenticated deployment-verification evidence will be recorded here
-after GitHub Pages publishes the immutable release.
+Batch 879 is published at commit
+`36386f3fa5d4b8a34cabc860060fa72339595ca8`. The clean Linux Test workflow
+passed in [run 39085003393](https://github.com/therealjameswilson/before-oss/actions/runs/39085003393),
+and the GitHub Pages build and deploy passed in
+[run 39085003381](https://github.com/therealjameswilson/before-oss/actions/runs/39085003381).
+The unauthenticated release verifier confirmed all 67 manifest assets, eight
+core routes, 36 source-register pages and all 23 direct Batch 879 profiles at
+`https://therealjameswilson.github.io/before-oss/`.
 
 ## Resume commands
 
