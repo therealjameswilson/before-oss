@@ -34,7 +34,12 @@ sources and **8,105** published or qualified claims. Full-index historical
 research remains unfinished. The next indexed boundary is PDF page 435, row 1,
 **Martha F Smith**. See `research/batch-889-progress.md` for the source-by-
 source audit. Batch 889 has passed canonical import and data validation; public
-release verification is pending.
+release is verified from immutable content commit
+`765e22c0920ff59bf36a0acdf322596ea89e11e7`. GitHub Actions Test run
+`39107282508` and Pages deployment run `39107282705` succeeded. The
+unauthenticated verifier matched all 67 public assets, eight core routes, 37
+source-register pages and all 23 direct Batch 889 profiles at
+<https://therealjameswilson.github.io/before-oss/>.
 
 Batch 888 completed PDF page 434, rows 1-23, from **Harley E Smith** through
 **Jeanne M Smith**, preserving all 23 printed rows as separate source records

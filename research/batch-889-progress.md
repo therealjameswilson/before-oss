@@ -130,11 +130,15 @@ The dependency audit reports zero vulnerabilities.
 
 ## Publication status
 
-Batch 889 is not yet public. Publication requires the complete local release
-suite, a successful GitHub Actions test run and Pages deployment, and
-unauthenticated verification of the immutable content commit.
+Batch 889 is public from immutable content commit
+`765e22c0920ff59bf36a0acdf322596ea89e11e7`. GitHub Actions Test run
+`39107282508` and Pages deployment run `39107282705` both completed
+successfully. The unauthenticated deployed-release verifier matched all 67
+public assets (118,643,361 bytes), eight core routes, 37 source-register pages
+and all 23 direct Batch 889 profiles. The deployed manifest SHA-256 is
+`270db30f570ab45c72a430f4331e986679e5d245cffd56ee122d9c7a601dd44f`.
 
-Public site for the currently released Batch 888 dataset:
+Public site:
 <https://therealjameswilson.github.io/before-oss/>
 
 ## Resume inputs
@@ -142,9 +146,8 @@ Public site for the currently released Batch 888 dataset:
 - `research/army_review_decisions_2026-10-18_batch889.csv`
 - `research/evidence-page434-smith-review_batch-889_2026-10-18.json`
 
-After publication verification, resume Batch 890 at page 435, row 1 and
-confirm the exact row range and names from the rendered source page before
-assignment.
+Resume Batch 890 at page 435, row 1 and confirm the exact row range and names
+from the rendered source page before assignment.
 
 ## Current blocker
 
