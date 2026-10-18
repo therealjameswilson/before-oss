@@ -120,9 +120,16 @@ The dependency audit reports zero vulnerabilities.
 
 ## Publication status
 
-The Batch 886 release candidate is validated locally but is not described as
-published until the content commit, GitHub Actions Test workflow, GitHub Pages
-deployment and unauthenticated deployed-release verification all pass.
+Batch 886 was published in content commit
+`ccee1c98273f4366c6b06b4806ff80106ec43261`. GitHub Actions Test run
+`39100209694` and Deploy GitHub Pages run `39100209633` both completed
+successfully. Unauthenticated verification against the immutable content
+commit passed for all 67 release assets (118,422,101 bytes), eight core routes,
+37 source-register pages and all 23 Batch 886 profiles. The deployed manifest
+SHA-256 is
+`218e8202c71b88fc511f3539911555a66ef7fc440055003ede4d7c60a16917a9`.
+
+Public site: <https://therealjameswilson.github.io/before-oss/>
 
 ## Resume inputs
 
