@@ -26,8 +26,11 @@ projection contains **2,899** affiliations, **1,089** organizations, **5,384**
 sources and **7,922** published or qualified claims. Full-index historical
 research remains unfinished. The next indexed boundary is PDF page 429, row 1,
 **Harland Simon**. See `research/batch-877-progress.md` for the source-by-source
-audit. Publication remains pending until the content commit, CI, Pages and live
-verification gates pass.
+audit. Batch 877 is published at commit
+`ff42179c897d335428666c0deb9ddcbfefa394f4`: the clean Linux test workflow and
+Pages deployment succeeded, and the unauthenticated verifier confirmed all 67
+public assets, eight core routes, 36 source-register pages and 23 direct Batch
+877 profiles at `https://therealjameswilson.github.io/before-oss/`.
 
 
 Batch 870 completed PDF page 425, rows 1-23, from **Naotada Shimomura**

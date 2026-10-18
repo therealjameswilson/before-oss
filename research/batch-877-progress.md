@@ -118,9 +118,15 @@ Two production renders produced the identical 25,142-file static-site hash
 
 ## Publication status
 
-Batch 877 is a locally verified release candidate. It is not recorded as
-published until the immutable content commit, clean Linux workflow, Pages
-deployment and unauthenticated live verifier all pass.
+Batch 877 is published at immutable content commit
+`ff42179c897d335428666c0deb9ddcbfefa394f4`. The clean Linux test workflow
+([run 39081042267](https://github.com/therealjameswilson/before-oss/actions/runs/39081042267))
+and Pages workflow
+([run 39081042278](https://github.com/therealjameswilson/before-oss/actions/runs/39081042278))
+both succeeded. The unauthenticated live verifier matched the commit and public
+manifest, checking all 67 assets and 117,511,267 bytes, eight core routes, 36
+source-register pages and all 23 Batch 877 direct profiles at
+`https://therealjameswilson.github.io/before-oss/`.
 
 ## Resume commands
 
