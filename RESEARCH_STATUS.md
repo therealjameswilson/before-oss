@@ -1,5 +1,44 @@
 # Research status
 
+Batch 895 completed PDF page 437, rows 24-46, from **Edwin N Snyder** through
+**John Soha**, preserving all 23 printed rows and linking them to 23 active
+people. All 23 have terminal research outcomes. Six official Army identity
+bridges are accepted and one materially conflicting candidate is rejected, with
+protected identifiers kept private.
+
+Jacques F Snyder's Army Air Corps language-training assignment is published as
+the explicit immediate pathway into OSS; his earlier Canadian armed-forces
+service and historical teaching occupation remain distinct. Franciszek Sobecki
+is confirmed in a contemporaneous OSS record as a Polish Army major, but that
+record does not establish his pre-OSS sequence. Vincent J Sofiano's Royal Air
+Force pathway is high confidence with the exact OSS attachment date unresolved.
+Heinrich C Soffner and the separately indexed Henry C Sutton row are confirmed
+as one person by a matching protected identifier and explicit alias evidence;
+both immutable rows remain preserved. The adjacent Heirich C Soffner row and
+another Henry Sutton row remain separate. Soffner/Sutton's U.S. Army pathway is
+published separately from qualified earlier union and refugee-organization
+roles. Four historical occupation categories remain qualified and name no
+employer or workplace.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **13,542/23,936 (56.5759%)**;
+verified-employer coverage is **436/23,936 (1.8215%)**;
+verified-affiliation coverage is **971/23,936 (4.0567%)**; archival-review
+coverage is **12,013/23,936 (50.1880%)**. There are **10,389** not-started
+people, **598** possible-duplicate groups and **462** conflicts. The public
+projection contains **3,005** affiliations, **1,111** organizations, **5,511**
+sources and **8,197** published or qualified claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 438, row 1,
+**Herbert K Sokoloff**. See `research/batch-895-progress.md` for the source-by-
+source audit. Batch 895 has passed isolated and canonical idempotency imports,
+database integrity checks, extraction validation, derived export regeneration,
+public-data redaction, all 146 Python tests and 84 parameterized parser subtests,
+the deterministic 200-profile audit, the 93/93 browser and accessibility matrix,
+the complete 25,092-page internal-link check, the private-identifier scan, local
+manifest verification, the zero-warning 25,092-page Astro build, the dependency
+audit and two deterministic builds. It remains a local release candidate until
+the clean GitHub workflows and unauthenticated deployed-release verifier pass.
+
 Batch 894 completed PDF page 437, rows 1-23, from **Howard M Smyth** through
 **Clarke C Snyder**, preserving all 23 printed rows as separate source records
 linked to 23 active people. All 23 have terminal research outcomes. Four

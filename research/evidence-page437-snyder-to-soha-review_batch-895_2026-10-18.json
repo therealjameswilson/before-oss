@@ -1,0 +1,1569 @@
+{
+  "bundle_version": "batch-895-v1",
+  "reviewer": "Before OSS Batch 895 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b895",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 727-728 and 759",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 437 rows 24-46; PDF page 456 rows 32-33 for the separately indexed Henry C Sutton records; checked against layout-preserving text and rendered page images",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All printed rows remain immutable. A matching protected identifier resolves one Soffner/Sutton alias pair; the identifier is withheld from public data, and the other same-name rows remain separate."
+    },
+    {
+      "key": "army-bulk-b895",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; protected-identifier fields checked; six identity candidates accepted and one rejected after review",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full private identifier is retained in public assets. The file is incomplete and a non-hit is not negative proof."
+    },
+    {
+      "key": "army-tech-b895",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; fixed-width identifier, name, DD/MM/YY Army-entry-date, grade and civilian-occupation fields visually checked",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, alternate layouts, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b895",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171 and 174; categories 031, 072, 105, 521 and 735 visually checked",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical labels name neither employers nor workplaces and are published only as qualified occupation evidence."
+    },
+    {
+      "key": "nps-jacques-snyder-b895",
+      "stable_url": "https://home.nps.gov/articles/daily-life-in-camp-park-and-town.htm",
+      "title": "Daily Life in Camp Park and Town",
+      "repository_publisher": "U.S. National Park Service",
+      "publication_record_date": "2017-07-27",
+      "locator": "Jacques F. Snyder biographical passage in the recruitment discussion",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "OSS Training in the National Parks and Service Abroad in World War II",
+      "rights_notes": "Only two concise excerpts totaling fewer than 25 words are retained; postwar details are not reconstructed."
+    },
+    {
+      "key": "nara-oss-awards-104-10165-10120-b895",
+      "stable_url": "https://www.archives.gov/files/research/jfk/releases/104-10165-10120.pdf",
+      "archival_identifier": "104-10165-10120",
+      "title": "OSS awards and decorations records",
+      "author_creator": "Office of Strategic Services, U.S. Forces European Theater",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1945-07-19 and 1945-08-22",
+      "locator": "PDF physical page 79, Award of Unit Certificate of Merit; pages 130 and 132-133, Awards and Decorations Board minutes and SI Branch survey",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "John F. Kennedy Assassination Records Collection; declassified OSS records",
+      "document_number": "104-10165-10120",
+      "rights_notes": "Target pages were rendered and visually checked. Full record images are not republished in public data."
+    },
+    {
+      "key": "london-gazette-sofiano-1925-b895",
+      "stable_url": "https://www.thegazette.co.uk/London/issue/33080/page/5770/data.pdf",
+      "archival_identifier": "London Gazette Issue 33080, page 5770",
+      "title": "The London Gazette, Issue 33080",
+      "author_creator": "Air Ministry",
+      "repository_publisher": "The Gazette, United Kingdom",
+      "publication_record_date": "1925-09-01",
+      "locator": "Page 5770; permanent commissions effective 31 July 1925",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "The London Gazette",
+      "rights_notes": "Used for Vincent John Sofiano's full name and RAF commission chronology."
+    },
+    {
+      "key": "london-gazette-sofiano-1946-b895",
+      "stable_url": "https://www.thegazette.co.uk/London/issue/37827/supplement/6245/data.pdf",
+      "archival_identifier": "London Gazette Issue 37827, supplement page 6245",
+      "title": "Supplement to The London Gazette, Issue 37827",
+      "author_creator": "Air Ministry",
+      "repository_publisher": "The Gazette, United Kingdom",
+      "publication_record_date": "1946-12-24",
+      "locator": "Supplement page 6245; entry records 26 May 1940 reserve transfer and wartime call-up",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "The London Gazette",
+      "rights_notes": "The notice was published after the war but explicitly records the 1940 RAF event."
+    },
+    {
+      "key": "washington-post-henry-sutton-b895",
+      "stable_url": "https://www.washingtonpost.com/archive/local/1977/05/25/henry-sutton-retired-cia-aide-fled-austria-paris-before-nazis/249b9437-0e88-45f5-bc63-1db2f3054a36/",
+      "title": "Henry Sutton, Retired CIA Aide, Fled Austria, Paris Before Nazis",
+      "repository_publisher": "The Washington Post",
+      "publication_record_date": "1977-05-25",
+      "locator": "Biographical paragraphs on Austrian union activity, refugee work, Army enlistment and OSS assignment",
+      "access_date": "2026-10-18",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "The obituary supplies explicit chronology but not an exact OSS assignment date. Excerpts total fewer than 25 words; unrelated family and medical details are excluded."
+    },
+    {
+      "key": "cia-reading-room-henry-sutton-b895",
+      "stable_url": "https://www.cia.gov/readingroom/docs/CIA-RDP88-01350R000200230019-9.pdf",
+      "archival_identifier": "CIA-RDP88-01350R000200230019-9",
+      "title": "Article Appeared: profile of OSS veterans including Henry Sutton",
+      "repository_publisher": "CIA Freedom of Information Act Electronic Reading Room",
+      "locator": "Profile passage identifying Henry Sutton's birth name and Austrian union background",
+      "access_date": "2026-10-18",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "CIA FOIA Electronic Reading Room",
+      "document_number": "CIA-RDP88-01350R000200230019-9",
+      "rights_notes": "The Reading Room holds a periodical clipping rather than a CIA-authored biography. It is used with the index identifier crosswalk and not as sole evidence."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "army-air-corps-b895",
+      "organization_id": "27378252-f855-504f-b916-d3fb6fb40fd0",
+      "canonical_name": "United States Army Air Corps",
+      "historical_name": "U.S. Army Air Corps",
+      "aliases": [
+        "Army Air Corps"
+      ],
+      "organization_type": "military air arm",
+      "sector": "military",
+      "country": "United States",
+      "active_dates": "1926-1941; name retained colloquially after reorganization",
+      "normalization_notes": "The National Park Service uses the historical wording Army Air Corps; it is not silently modernized to the U.S. Air Force."
+    },
+    {
+      "key": "us-army-b895",
+      "organization_id": "0c4e35ec-7297-5e38-a871-3742b6eac546",
+      "canonical_name": "United States Army",
+      "historical_name": "United States Army",
+      "aliases": [
+        "U.S. Army"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Army service is modeled as a military assignment, never as civilian employment."
+    },
+    {
+      "key": "royal-air-force-b895",
+      "organization_id": "48ee5835-b4bd-58f5-8be5-99e6928decea",
+      "canonical_name": "Royal Air Force",
+      "historical_name": "Royal Air Force",
+      "aliases": [
+        "RAF"
+      ],
+      "organization_type": "military air force",
+      "sector": "military",
+      "country": "United Kingdom",
+      "active_dates": "1918-present",
+      "normalization_notes": "The Gazette and OSS board both identify Sofiano with the RAF; no civilian-employer inference is made."
+    },
+    {
+      "key": "carinthia-white-collar-union-b895",
+      "canonical_name": "White Collar Workers Union in Carinthia province",
+      "historical_name": "White Collar Workers Union in Corinthia province",
+      "aliases": [
+        "Austrian white-collar workers' union"
+      ],
+      "organization_type": "trade union",
+      "sector": "labor_nonprofit_and_religion",
+      "state_or_region": "Carinthia",
+      "country": "Austria",
+      "normalization_notes": "The Washington Post spells the province 'Corinthia.' The source wording is preserved in the historical field; the organization is not silently equated with a broader national union."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "edwin-n-snyder-occupation-b895",
+      "person_id": "a0eb56fc-94e0-5d7a-94d0-620cb727a61b",
+      "relationship_type": "unknown",
+      "occupation": "Routemen",
+      "end_date": "1942-06-17",
+      "date_precision": "Historical civilian-occupation code 735 was recorded at Army entry on 1942-06-17; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical occupation category is not converted into a named employer, workplace or exact job title."
+    },
+    {
+      "key": "fred-r-snyder-occupation-b895",
+      "person_id": "3de98a54-5732-59c6-b6b5-675e49475a74",
+      "relationship_type": "unknown",
+      "occupation": "Miners and mining-machine operators",
+      "end_date": "1943-07-08",
+      "date_precision": "Historical civilian-occupation code 521 was recorded at Army entry on 1943-07-08; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical occupation category is not converted into a named employer, workplace or exact job title."
+    },
+    {
+      "key": "jacques-f-snyder-occupation-b895",
+      "person_id": "c688e6ed-7a90-5040-b025-a560d83f814a",
+      "relationship_type": "unknown",
+      "occupation": "Teachers (secondary school) and principals",
+      "end_date": "1942-09-18",
+      "date_precision": "Historical civilian-occupation code 031 was recorded at Army entry on 1942-09-18; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical occupation category is not converted into a named employer, workplace or exact job title."
+    },
+    {
+      "key": "leonard-f-soares-occupation-b895",
+      "person_id": "725f8e08-fc9a-53ee-a009-1a103df5cf27",
+      "relationship_type": "unknown",
+      "occupation": "Retail managers",
+      "end_date": "1943-05-15",
+      "date_precision": "Historical civilian-occupation code 072 was recorded at Army entry on 1943-05-15; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical occupation category is not converted into a named employer, workplace or exact job title."
+    },
+    {
+      "key": "heinrich-soffner-henry-sutton-occupation-b895",
+      "person_id": "09426597-aa08-5f50-8bae-68a0a068d0fb",
+      "relationship_type": "unknown",
+      "occupation": "Clerks, general office",
+      "end_date": "1943-12-06",
+      "date_precision": "Historical civilian-occupation code 105 was recorded at Army entry on 1943-12-06; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical occupation category is not converted into a named employer, workplace or exact job title."
+    },
+    {
+      "key": "jacques-snyder-army-air-corps-language-school-b895",
+      "person_id": "c688e6ed-7a90-5040-b025-a560d83f814a",
+      "organization_key": "army-air-corps-b895",
+      "organization_name_as_found": "U.S. Army Air Corps language training school in Tennessee",
+      "role_title": "French-language trainee",
+      "occupation": "military language trainee",
+      "relationship_type": "military_assignment",
+      "start_date": "1942",
+      "end_date": "1943",
+      "date_precision": "The NPS account places Army Air Corps enlistment and Tennessee language training after U.S. entry into the war and immediately before an OSS recruiter approached Snyder in the hospital; exact dates are not supplied.",
+      "state_or_region": "Tennessee",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "This is a military training assignment, not a civilian employer or identified school."
+    },
+    {
+      "key": "jacques-snyder-canadian-forces-b895",
+      "person_id": "c688e6ed-7a90-5040-b025-a560d83f814a",
+      "organization_name_as_found": "Canadian armed forces",
+      "role_title": "service member",
+      "relationship_type": "military_assignment",
+      "end_date": "1942",
+      "date_precision": "The NPS account places this before Snyder enlisted in the U.S. Army Air Corps after U.S. entry into the war; the branch and exact dates are not named.",
+      "country": "Canada",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The institution is preserved exactly as described because the source does not identify a Canadian service branch."
+    },
+    {
+      "key": "heinrich-soffner-us-army-b895",
+      "person_id": "09426597-aa08-5f50-8bae-68a0a068d0fb",
+      "organization_key": "us-army-b895",
+      "organization_name_as_found": "U.S. Army",
+      "role_title": "private",
+      "relationship_type": "military_assignment",
+      "start_date": "1943-12-06",
+      "date_precision": "The Army record dates entry to 6 December 1943; the obituary explicitly sequences Army enlistment before assignment to OSS but supplies no transfer date.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Army service is the explicit immediate OSS pathway. It is not civilian employment."
+    },
+    {
+      "key": "heinrich-soffner-white-collar-union-b895",
+      "person_id": "09426597-aa08-5f50-8bae-68a0a068d0fb",
+      "organization_key": "carinthia-white-collar-union-b895",
+      "organization_name_as_found": "White Collar Workers Union in Corinthia province",
+      "role_title": "head",
+      "occupation": "trade-union official",
+      "relationship_type": "professional_affiliation",
+      "start_date": "1928",
+      "end_date": "1933",
+      "date_precision": "The obituary says late 1920s and early 1930s; year bounds are approximate and do not imply continuous service for the entire range.",
+      "state_or_region": "Carinthia",
+      "country": "Austria",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The source establishes union leadership but does not establish salaried employment, so the relationship is not counted as an employer."
+    },
+    {
+      "key": "heinrich-soffner-austrian-refugee-organization-b895",
+      "person_id": "09426597-aa08-5f50-8bae-68a0a068d0fb",
+      "organization_name_as_found": "an Austrian refugee organization in Paris",
+      "role_title": "head",
+      "relationship_type": "professional_affiliation",
+      "start_date": "1938",
+      "end_date": "1940",
+      "date_precision": "The obituary places the Paris role after flight from Austria in the late 1930s and before flight to Portugal ahead of the German invasion of France; the organization and exact dates are unnamed.",
+      "city": "Paris",
+      "country": "France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The organization remains unnamed; no canonical institution or employer is invented."
+    },
+    {
+      "key": "vincent-sofiano-royal-air-force-b895",
+      "person_id": "d014b325-de84-5e57-9b29-5be897a3f4b8",
+      "organization_key": "royal-air-force-b895",
+      "organization_name_as_found": "Royal Air Force",
+      "role_title": "Group Captain",
+      "relationship_type": "military_assignment",
+      "start_date": "1925-07-31",
+      "end_date": "1945-08-21",
+      "date_precision": "The Gazette confirms the 1925 permanent commission and 26 May 1940 wartime call-up; an OSS SI Branch awards survey identifies Group Captain V. J. Sofiano as RAF on 21 August 1945. The exact OSS attachment date is not supplied.",
+      "country": "United Kingdom",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The evidence supports an RAF pathway or attachment into OSS, not civilian employment or an exact transfer date."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-page437-row24-b895",
+      "person_id": "a0eb56fc-94e0-5d7a-94d0-620cb727a61b",
+      "claim_type": "identity",
+      "claim_text": "The indexed Edwin N Snyder row on PDF page 437 is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree with the reviewed Army record.",
+      "identity_match_assessment": "High confidence from exact-name agreement and a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no same-name entity is merged by name alone.",
+      "sources": [
+        {
+          "source_key": "nara-index-b895",
+          "locator_override": "PDF page 437 row 24; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b895",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-page437-row25-b895",
+      "person_id": "3de98a54-5732-59c6-b6b5-675e49475a74",
+      "claim_type": "identity",
+      "claim_text": "The indexed Fred R Snyder row on PDF page 437 is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree with the reviewed Army record.",
+      "identity_match_assessment": "High confidence from exact-name agreement and a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no same-name entity is merged by name alone.",
+      "sources": [
+        {
+          "source_key": "nara-index-b895",
+          "locator_override": "PDF page 437 row 25; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b895",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-page437-row36-b895",
+      "person_id": "725f8e08-fc9a-53ee-a009-1a103df5cf27",
+      "claim_type": "identity",
+      "claim_text": "The indexed Leonard F Soares row on PDF page 437 is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree with the reviewed Army record.",
+      "identity_match_assessment": "High confidence from exact-name agreement and a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no same-name entity is merged by name alone.",
+      "sources": [
+        {
+          "source_key": "nara-index-b895",
+          "locator_override": "PDF page 437 row 36; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b895",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-edwin-n-snyder-b895",
+      "person_id": "a0eb56fc-94e0-5d7a-94d0-620cb727a61b",
+      "affiliation_key": "edwin-n-snyder-occupation-b895",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-06-17, Edwin N Snyder was recorded in the historical routemen category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 735, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not an employer, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b895",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 735; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b895",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b895",
+          "locator_override": "PDF physical page 174; transportation category 7-35",
+          "excerpt_override": "Routemen"
+        }
+      ]
+    },
+    {
+      "key": "occupation-fred-r-snyder-b895",
+      "person_id": "3de98a54-5732-59c6-b6b5-675e49475a74",
+      "affiliation_key": "fred-r-snyder-occupation-b895",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-07-08, Fred R Snyder was recorded in the historical miners and mining-machine operators category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 521, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not an employer, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b895",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 521; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b895",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b895",
+          "locator_override": "PDF physical page 174; extraction-of-minerals category 5-21",
+          "excerpt_override": "Miners and mining-machine operators"
+        }
+      ]
+    },
+    {
+      "key": "occupation-jacques-f-snyder-b895",
+      "person_id": "c688e6ed-7a90-5040-b025-a560d83f814a",
+      "affiliation_key": "jacques-f-snyder-occupation-b895",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-09-18, Jacques F Snyder was recorded in the historical teachers (secondary school) and principals category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 031, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not an employer, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b895",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 031; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b895",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b895",
+          "locator_override": "PDF physical page 171; professional category 0-31",
+          "excerpt_override": "Teachers (secondary school) and principals"
+        }
+      ]
+    },
+    {
+      "key": "occupation-leonard-f-soares-b895",
+      "person_id": "725f8e08-fc9a-53ee-a009-1a103df5cf27",
+      "affiliation_key": "leonard-f-soares-occupation-b895",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-05-15, Leonard F Soares was recorded in the historical retail managers category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 072, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not an employer, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b895",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 072; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b895",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b895",
+          "locator_override": "PDF physical page 171; managerial category 0-72",
+          "excerpt_override": "Retail managers"
+        }
+      ]
+    },
+    {
+      "key": "occupation-heinrich-soffner-henry-sutton-b895",
+      "person_id": "09426597-aa08-5f50-8bae-68a0a068d0fb",
+      "affiliation_key": "heinrich-soffner-henry-sutton-occupation-b895",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-12-06, Heinrich C Soffner was recorded in the historical clerks, general office category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 105, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not an employer, workplace or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b895",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 105; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b895",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b895",
+          "locator_override": "PDF physical page 171; clerical category 1-05",
+          "excerpt_override": "Clerks, general office"
+        }
+      ]
+    },
+    {
+      "key": "identity-jacques-f-snyder-b895",
+      "person_id": "c688e6ed-7a90-5040-b025-a560d83f814a",
+      "claim_type": "identity",
+      "claim_text": "The indexed Jacques F Snyder is a high-confidence match to the Army Air Corps serviceman whom an OSS recruiter approached during hospitalization.",
+      "evidence_paraphrase": "The rare exact name, index rank, reviewed Army identifier and NPS account of Army Air Corps and OSS service align.",
+      "identity_match_assessment": "High confidence from an exact protected-identifier Army bridge plus an independent official biography using the rare full name and documenting OSS recruitment.",
+      "temporal_assessment": "The NPS account explicitly sequences Canadian service, U.S. Army Air Corps language training and OSS recruitment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army record shows private at entry and the index later shows first lieutenant; the ranks are chronologically compatible rather than conflicting.",
+      "sources": [
+        {
+          "source_key": "nara-index-b895",
+          "locator_override": "PDF page 437 row 27; First Lieutenant; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b895",
+          "locator_override": "Accepted reviewed identity bridge; Army entry 18 September 1942; protected identifier withheld"
+        },
+        {
+          "source_key": "nps-jacques-snyder-b895",
+          "locator_override": "Jacques F. Snyder biographical passage"
+        }
+      ]
+    },
+    {
+      "key": "military-jacques-snyder-air-corps-b895",
+      "person_id": "c688e6ed-7a90-5040-b025-a560d83f814a",
+      "affiliation_key": "jacques-snyder-army-air-corps-language-school-b895",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Jacques F. Snyder was in an Army Air Corps language-training school in Tennessee immediately before an OSS recruiter approached him in the hospital.",
+      "evidence_paraphrase": "The NPS biography explicitly connects Snyder's fluent French, Tennessee military language training, hospitalization and OSS recruitment.",
+      "identity_match_assessment": "High confidence from the rare exact name, accepted Army bridge and OSS-specific official biography.",
+      "temporal_assessment": "Explicitly immediate in the source sequence; exact school, course and recruitment dates are not given.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The school is not named, and neither it nor the Army Air Corps is described as a civilian employer.",
+      "sources": [
+        {
+          "source_key": "nps-jacques-snyder-b895",
+          "locator_override": "Jacques F. Snyder biographical passage",
+          "excerpt_override": "because of his fluent French, he was put in a language training school in Tennessee"
+        },
+        {
+          "source_key": "army-bulk-b895",
+          "support_type": "context_only",
+          "locator_override": "Army entry 18 September 1942; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "military-jacques-snyder-canadian-forces-b895",
+      "person_id": "c688e6ed-7a90-5040-b025-a560d83f814a",
+      "affiliation_key": "jacques-snyder-canadian-forces-b895",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Before U.S. Army Air Corps service, Jacques F. Snyder served in the Canadian armed forces; the source does not name a branch.",
+      "evidence_paraphrase": "The NPS account explicitly places Canadian military service before U.S. entry into the war and Snyder's later U.S. enlistment.",
+      "identity_match_assessment": "High confidence from the same rare-name, Army and OSS evidence.",
+      "temporal_assessment": "Documented pre-OSS military service, but not the immediate affiliation and not a civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The generic source wording is preserved; no Canadian branch is inferred.",
+      "sources": [
+        {
+          "source_key": "nps-jacques-snyder-b895",
+          "locator_override": "Jacques F. Snyder biographical passage",
+          "excerpt_override": "He joined the Canadian armed forces"
+        }
+      ]
+    },
+    {
+      "key": "identity-franciszek-sobecki-b895",
+      "person_id": "64973a5c-cdd2-5fb4-bb7c-2580a953bcbb",
+      "claim_type": "identity",
+      "claim_text": "The indexed Major Franciszek Sobecki is confirmed in a contemporaneous OSS record as a Polish Army major who contributed to OSS operations.",
+      "evidence_paraphrase": "A 19 July 1945 OSS Mission to France award record names Major Franciszek Sobecki, Polish Army, and describes his contribution to OSS operations.",
+      "identity_match_assessment": "Confirmed by the rare exact full name, matching major rank and Polish Army note in both the index and a contemporaneous OSS record.",
+      "temporal_assessment": "The record establishes wartime identity and Allied military status in July 1945; it does not establish the pre-OSS sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "No immediate pre-OSS affiliation or civilian employer is inferred from the award record.",
+      "sources": [
+        {
+          "source_key": "nara-index-b895",
+          "locator_override": "PDF page 437 row 37; Major; note 'Polish Ar'"
+        },
+        {
+          "source_key": "nara-oss-awards-104-10165-10120-b895",
+          "locator_override": "PDF physical page 79; 19 July 1945 Unit Certificate of Merit",
+          "excerpt_override": "his invaluable contribution to the successful operations of the Office of Strategic Services"
+        }
+      ]
+    },
+    {
+      "key": "identity-heinrich-soffner-henry-sutton-b895",
+      "person_id": "09426597-aa08-5f50-8bae-68a0a068d0fb",
+      "claim_type": "identity",
+      "claim_text": "Heinrich C. Soffner and the separately indexed Henry C. Sutton record with the same protected identifier represent one confirmed person.",
+      "evidence_paraphrase": "The official index repeats one protected identifier under both names; the CIA-held article independently says Henry Sutton was born Heinrich Sofner, and the Army record uses Henry C Sutton.",
+      "identity_match_assessment": "Confirmed by the unique protected-identifier crosswalk across two immutable index rows plus independent explicit alias evidence.",
+      "temporal_assessment": "The alias evidence and Army entry are wartime identity evidence; they do not by themselves establish civilian employment chronology.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Both index rows remain preserved. The other Henry C Sutton row with a different identifier and the adjacent Heirich C Soffner row remain separate.",
+      "sources": [
+        {
+          "source_key": "nara-index-b895",
+          "locator_override": "PDF page 437 row 43 and page 456 row 33; matching protected identifier withheld"
+        },
+        {
+          "source_key": "cia-reading-room-henry-sutton-b895",
+          "locator_override": "Henry Sutton profile passage",
+          "excerpt_override": "he was born Heinrich Sofner"
+        },
+        {
+          "source_key": "army-bulk-b895",
+          "locator_override": "Accepted Henry C Sutton Army record; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "military-heinrich-soffner-us-army-b895",
+      "person_id": "09426597-aa08-5f50-8bae-68a0a068d0fb",
+      "affiliation_key": "heinrich-soffner-us-army-b895",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Henry C. Sutton, born Heinrich Soffner, entered the U.S. Army and was then assigned to OSS and sent to London.",
+      "evidence_paraphrase": "The Washington Post explicitly sequences Army enlistment before OSS assignment; the reviewed Army record dates entry and records private grade.",
+      "identity_match_assessment": "Confirmed through the protected-identifier alias crosswalk and explicit independent alias evidence.",
+      "temporal_assessment": "Explicit immediate military pathway, although the exact OSS assignment date is not supplied.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "U.S. Army service is a military assignment, not civilian employment.",
+      "sources": [
+        {
+          "source_key": "washington-post-henry-sutton-b895",
+          "locator_override": "Wartime chronology paragraph",
+          "excerpt_override": "He enlisted in the U.S. Army ... and was assigned to the OSS"
+        },
+        {
+          "source_key": "army-bulk-b895",
+          "locator_override": "Army entry 6 December 1943; private grade; protected identifier withheld"
+        },
+        {
+          "source_key": "nara-index-b895",
+          "support_type": "context_only",
+          "locator_override": "Matching Soffner and Sutton protected identifiers withheld"
+        }
+      ]
+    },
+    {
+      "key": "union-heinrich-soffner-b895",
+      "person_id": "09426597-aa08-5f50-8bae-68a0a068d0fb",
+      "affiliation_key": "heinrich-soffner-white-collar-union-b895",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "In the late 1920s and early 1930s, Henry Sutton was head of a white-collar workers' union in Carinthia province, Austria.",
+      "evidence_paraphrase": "The Washington Post obituary explicitly identifies Sutton as an Austrian Social Democrat and provincial white-collar union leader.",
+      "identity_match_assessment": "Confirmed identity from the independent alias bridge and matching protected identifier.",
+      "temporal_assessment": "Documented prewar professional affiliation; the source does not establish salaried employment or immediacy before OSS.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The source's 'Corinthia' spelling is preserved; the relationship is not counted as an employer.",
+      "sources": [
+        {
+          "source_key": "washington-post-henry-sutton-b895",
+          "locator_override": "Austrian political and union biography",
+          "excerpt_override": "head of the White Collar Workers Union in Corinthia province"
+        },
+        {
+          "source_key": "cia-reading-room-henry-sutton-b895",
+          "support_type": "context_only",
+          "locator_override": "Austrian union-background passage"
+        }
+      ]
+    },
+    {
+      "key": "refugee-organization-heinrich-soffner-b895",
+      "person_id": "09426597-aa08-5f50-8bae-68a0a068d0fb",
+      "affiliation_key": "heinrich-soffner-austrian-refugee-organization-b895",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "In the late 1930s, Henry Sutton headed an unnamed Austrian refugee organization in Paris before fleeing to Portugal.",
+      "evidence_paraphrase": "The obituary places the Paris refugee-organization role between flight from Austria and flight to Portugal before the German invasion of France.",
+      "identity_match_assessment": "Confirmed identity from the protected-identifier alias crosswalk and explicit alias evidence.",
+      "temporal_assessment": "Strongly date-bounded pre-OSS professional affiliation; it is not shown to be employment or the immediate predecessor.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The organization remains unnamed and is not normalized to an invented institution.",
+      "sources": [
+        {
+          "source_key": "washington-post-henry-sutton-b895",
+          "locator_override": "Late-1930s refugee chronology paragraph"
+        }
+      ]
+    },
+    {
+      "key": "identity-vincent-john-sofiano-b895",
+      "person_id": "d014b325-de84-5e57-9b29-5be897a3f4b8",
+      "claim_type": "identity",
+      "claim_text": "The indexed Captain Vincent J Sofiano is a high-confidence match to RAF officer Vincent John Sofiano, listed by an OSS SI Branch awards board.",
+      "evidence_paraphrase": "Official Gazette notices establish the exact full name and RAF chronology; the contemporaneous OSS board lists Gp Capt V. J. Sofiano (RAF) in its SI Branch survey.",
+      "identity_match_assessment": "High confidence from rare surname, matching initials, compatible officer ranks and independent official RAF and OSS records.",
+      "temporal_assessment": "The official records span the 1925 commission, 1940 wartime call-up and August 1945 OSS SI Branch award action.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The index's captain rank and the 1945 group-captain rank are chronologically compatible; no civilian career is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-index-b895",
+          "locator_override": "PDF page 437 row 45; Captain"
+        },
+        {
+          "source_key": "london-gazette-sofiano-1925-b895",
+          "locator_override": "Page 5770; RAF permanent commission list",
+          "excerpt_override": "Vincent John SOFIANO"
+        },
+        {
+          "source_key": "nara-oss-awards-104-10165-10120-b895",
+          "locator_override": "PDF physical pages 130 and 132-133; SI Branch survey approved 21 August 1945",
+          "excerpt_override": "Gp Capt V. J. Sofiano (RAF)"
+        }
+      ]
+    },
+    {
+      "key": "military-vincent-sofiano-royal-air-force-b895",
+      "person_id": "d014b325-de84-5e57-9b29-5be897a3f4b8",
+      "affiliation_key": "vincent-sofiano-royal-air-force-b895",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Vincent John Sofiano's documented wartime pathway into OSS was through the Royal Air Force; the exact attachment date is not available.",
+      "evidence_paraphrase": "The Gazette records wartime RAF call-up on 26 May 1940, while the OSS SI Branch survey identifies him as an RAF group captain in August 1945.",
+      "identity_match_assessment": "High confidence from the rare full name, initials, officer ranks and direct official records.",
+      "temporal_assessment": "Strongly date-bounded military continuity into the OSS context, but the precise recruitment or attachment sequence remains unproven.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The RAF is modeled as a military assignment, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "london-gazette-sofiano-1925-b895",
+          "support_type": "context_only",
+          "locator_override": "Page 5770; permanent commission"
+        },
+        {
+          "source_key": "london-gazette-sofiano-1946-b895",
+          "locator_override": "Supplement page 6245; event dated 26 May 1940",
+          "excerpt_override": "and called up for Air Force service"
+        },
+        {
+          "source_key": "nara-oss-awards-104-10165-10120-b895",
+          "locator_override": "PDF physical pages 130 and 132-133; OSS SI Branch survey"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "a0eb56fc-94e0-5d7a-94d0-620cb727a61b",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact-name agreement plus a nonshared protected identifier connects the visually verified index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 727 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3de98a54-5732-59c6-b6b5-675e49475a74",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact-name agreement plus a nonshared protected identifier connects the visually verified index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 727 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "725f8e08-fc9a-53ee-a009-1a103df5cf27",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact-name agreement plus a nonshared protected identifier connects the visually verified index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 727 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c688e6ed-7a90-5040-b025-a560d83f814a",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare exact name, a nonshared protected Army identifier and an official National Park Service biography explicitly documenting Army Air Corps and OSS service identify Jacques F. Snyder.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 727 for the exact Army-Air-Corps-to-OSS transfer date, the Tennessee school and the last civilian employer before Canadian or U.S. military service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "64973a5c-cdd2-5fb4-bb7c-2580a953bcbb",
+      "identity_status": "confirmed",
+      "identity_evidence": "A contemporaneous OSS Mission to France record names Major Franciszek Sobecki, Polish Army, exactly matching the rare indexed name, rank and Polish Army note.",
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 727 and Polish military records for Sobecki's pre-OSS assignment, civilian occupation and exact OSS relationship; the 1945 award does not establish chronology before OSS.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "09426597-aa08-5f50-8bae-68a0a068d0fb",
+      "identity_status": "confirmed",
+      "identity_evidence": "The same nonshared protected identifier appears under Heinrich C Soffner and Henry C Sutton in separate immutable index rows; a CIA Reading Room-held article explicitly says Sutton was born Heinrich Sofner, and the official Army record uses Henry C Sutton.",
+      "name_variants": [
+        "Henry C. Sutton",
+        "Henry Sutton",
+        "Heinz Soffner",
+        "Heinrich Sofner"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "possible_duplicate_group": "p437-heinrich-heirich-soffner-b895",
+      "research_status": "requires_archival_review",
+      "next_action": "Review Boxes 728 and 759 together for the exact OSS assignment date, Austrian union records and any last civilian employer. The adjacent Heirich row remains a separate possible duplicate.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d014b325-de84-5e57-9b29-5be897a3f4b8",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare surname, matching initials, compatible officer ranks, official Gazette notices for Vincent John Sofiano and a contemporaneous OSS SI Branch awards survey identify the indexed person.",
+      "name_variants": [
+        "Vincent John Sofiano",
+        "V. J. Sofiano"
+      ],
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 728 and RAF service records for the exact attachment or recruitment date and any last civilian employer before wartime RAF service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "81846ed3-29e1-5a6a-9b7d-c91bff9e6105",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Horace Snyder, Box 727 or 728 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. The common name produced no official OSS, Box 727 or prewar-employment bridge with corroborating identifiers.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "0d52f2fb-07cb-5351-9fef-b17b9f36a125",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies John C Snyder, Box 727 or 728 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Multiple namesakes remained unbridged; none supplied two corroborating identifiers beyond the indexed name.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "79f26601-d2c7-587f-9751-674bd8810456",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies John T Snyder, Box 727 or 728 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. The only protected-identifier Army candidate names Carmon Donald F and is formally rejected; no alias evidence resolves the conflict.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b4bafedb-05f7-5804-9d4b-d55b5a88eb20",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Kinsley D Snyder, Box 727 or 728 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Exact-name, occupation, obituary, institutional and archival searches produced no defensible identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "0a9138af-4eeb-535f-a40f-27356379b953",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Mary J Snyder, Box 727 or 728 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Common-name results lacked a protected identifier, OSS assignment or Box 727 bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "fc6928ae-ec6f-5fc8-92ae-158bbcedca2d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Robert P Snyder, Box 727 or 728 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Earlier newspaper candidates carried incompatible middle initials M or W and remain rejected; no supported P-initial identity was found.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "dd583670-17a6-5fa3-9b22-9b61a0d1c0c5",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Robert M Snyder, Box 727 or 728 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Common-name results did not distinguish this Robert M Snyder from unrelated namesakes.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "66ba5ebe-29d9-5d0e-b96d-0f32d9a03012",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies William T Snyder, Box 727 or 728 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Exact-name OSS, occupation, obituary and institutional searches produced no defensible identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e9ecdc74-486b-5081-b7e8-6f733753c4c8",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies John N Soares, Box 727 or 728 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Exact-name and Portuguese-name variants produced no reliable OSS or prewar-affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "5cee0934-c05e-52df-afa4-1a7b4462b635",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The visually verified index row supplies Julian Sobiechowski, Box 727 or 728 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. A Project Eagle alias lead remains discovery-only and lacks an inspectable item-level source tying it to this indexed Polish Army row.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 727 and the NARA Project Eagle/OLD FASHIONED files for an item-level alias bridge and pre-OSS Polish military chronology. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "f5db58ba-c46b-57dc-b190-6b3d79769c5c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Amato D Soccorsy, Box 727 or 728 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Modern property and memorial name matches are chronologically irrelevant or uncorroborated and were rejected.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "57200a17-49a2-506a-98b8-c979c6f8ae0f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Gloria H Soderberg, Box 727 or 728 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Exact-name official-domain, occupation, obituary and institutional searches returned only the index or unbridged namesakes.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "75b19183-870f-57e8-bf4e-9375b3d0825c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies M Soegihadji, Box 727 or 728 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. The initials-only foreign-name row remains highly ambiguous; transliteration and institutional searches produced no corroborating identifiers.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "8d32f609-60a0-5dce-a87f-158e9509f57a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Louis T Sofa, Box 727 or 728 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. A paywalled Navy muster-roll name lead could not be inspected or bridged to OSS, Box 727 or a prewar affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "00262806-355a-5598-bce4-f1b49140ed5b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Heirich C Soffner, Box 727 or 728 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. The adjacent Heirich spelling may duplicate Heinrich C Soffner, but this row lacks the protected identifier that independently links Heinrich to Henry Sutton, so it remains separate.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "p437-heinrich-heirich-soffner-b895"
+    },
+    {
+      "person_id": "56563af8-16d1-5c82-9893-320aaa316b5b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies John Soha, Box 727 or 728 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Exact-name OSS, occupation, obituary, directory and archival searches produced no defensible identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page437-row24-edwin-n-snyder-b895",
+      "person_id": "a0eb56fc-94e0-5d7a-94d0-620cb727a61b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edwin N Snyder; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_895",
+      "started_at": "2026-10-18T19:30:00Z",
+      "completed_at": "2026-10-18T22:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported identity; public affiliation claims are limited to what the cited sources prove. Reviewed evidence established an identity bridge and, where supported, a carefully bounded military affiliation or occupation claim. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b895-v1"
+    },
+    {
+      "key": "page437-row25-fred-r-snyder-b895",
+      "person_id": "3de98a54-5732-59c6-b6b5-675e49475a74",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Fred R Snyder; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_895",
+      "started_at": "2026-10-18T19:30:00Z",
+      "completed_at": "2026-10-18T22:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported identity; public affiliation claims are limited to what the cited sources prove. Reviewed evidence established an identity bridge and, where supported, a carefully bounded military affiliation or occupation claim. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b895-v1"
+    },
+    {
+      "key": "page437-row26-horace-snyder-b895",
+      "person_id": "81846ed3-29e1-5a6a-9b7d-c91bff9e6105",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Horace Snyder; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_895",
+      "started_at": "2026-10-18T19:30:00Z",
+      "completed_at": "2026-10-18T22:30:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The common name produced no official OSS, Box 727 or prewar-employment bridge with corroborating identifiers.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. The common name produced no official OSS, Box 727 or prewar-employment bridge with corroborating identifiers. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b895-v1"
+    },
+    {
+      "key": "page437-row27-jacques-f-snyder-b895",
+      "person_id": "c688e6ed-7a90-5040-b025-a560d83f814a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Jacques F Snyder; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_895",
+      "started_at": "2026-10-18T19:30:00Z",
+      "completed_at": "2026-10-18T22:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported identity; public affiliation claims are limited to what the cited sources prove. Reviewed evidence established an identity bridge and, where supported, a carefully bounded military affiliation or occupation claim. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b895-v1"
+    },
+    {
+      "key": "page437-row28-john-c-snyder-b895",
+      "person_id": "0d52f2fb-07cb-5351-9fef-b17b9f36a125",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John C Snyder; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_895",
+      "started_at": "2026-10-18T19:30:00Z",
+      "completed_at": "2026-10-18T22:30:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Multiple namesakes remained unbridged; none supplied two corroborating identifiers beyond the indexed name.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Multiple namesakes remained unbridged; none supplied two corroborating identifiers beyond the indexed name. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b895-v1"
+    },
+    {
+      "key": "page437-row29-john-t-snyder-b895",
+      "person_id": "79f26601-d2c7-587f-9751-674bd8810456",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John T Snyder; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_895",
+      "started_at": "2026-10-18T19:30:00Z",
+      "completed_at": "2026-10-18T22:30:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The only protected-identifier Army candidate names Carmon Donald F and is formally rejected; no alias evidence resolves the conflict.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. The only protected-identifier Army candidate names Carmon Donald F and is formally rejected; no alias evidence resolves the conflict. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b895-v1"
+    },
+    {
+      "key": "page437-row30-kinsley-d-snyder-b895",
+      "person_id": "b4bafedb-05f7-5804-9d4b-d55b5a88eb20",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Kinsley D Snyder; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_895",
+      "started_at": "2026-10-18T19:30:00Z",
+      "completed_at": "2026-10-18T22:30:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name, occupation, obituary, institutional and archival searches produced no defensible identity bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Exact-name, occupation, obituary, institutional and archival searches produced no defensible identity bridge. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b895-v1"
+    },
+    {
+      "key": "page437-row31-mary-j-snyder-b895",
+      "person_id": "0a9138af-4eeb-535f-a40f-27356379b953",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Mary J Snyder; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_895",
+      "started_at": "2026-10-18T19:30:00Z",
+      "completed_at": "2026-10-18T22:30:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Common-name results lacked a protected identifier, OSS assignment or Box 727 bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Common-name results lacked a protected identifier, OSS assignment or Box 727 bridge. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b895-v1"
+    },
+    {
+      "key": "page437-row32-robert-p-snyder-b895",
+      "person_id": "fc6928ae-ec6f-5fc8-92ae-158bbcedca2d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert P Snyder; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_895",
+      "started_at": "2026-10-18T19:30:00Z",
+      "completed_at": "2026-10-18T22:30:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Earlier newspaper candidates carried incompatible middle initials M or W and remain rejected; no supported P-initial identity was found.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Earlier newspaper candidates carried incompatible middle initials M or W and remain rejected; no supported P-initial identity was found. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b895-v1"
+    },
+    {
+      "key": "page437-row33-robert-m-snyder-b895",
+      "person_id": "dd583670-17a6-5fa3-9b22-9b61a0d1c0c5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert M Snyder; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_895",
+      "started_at": "2026-10-18T19:30:00Z",
+      "completed_at": "2026-10-18T22:30:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Common-name results did not distinguish this Robert M Snyder from unrelated namesakes.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Common-name results did not distinguish this Robert M Snyder from unrelated namesakes. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b895-v1"
+    },
+    {
+      "key": "page437-row34-william-t-snyder-b895",
+      "person_id": "66ba5ebe-29d9-5d0e-b96d-0f32d9a03012",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William T Snyder; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_895",
+      "started_at": "2026-10-18T19:30:00Z",
+      "completed_at": "2026-10-18T22:30:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name OSS, occupation, obituary and institutional searches produced no defensible identity bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Exact-name OSS, occupation, obituary and institutional searches produced no defensible identity bridge. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b895-v1"
+    },
+    {
+      "key": "page437-row35-john-n-soares-b895",
+      "person_id": "e9ecdc74-486b-5081-b7e8-6f733753c4c8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John N Soares; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_895",
+      "started_at": "2026-10-18T19:30:00Z",
+      "completed_at": "2026-10-18T22:30:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name and Portuguese-name variants produced no reliable OSS or prewar-affiliation bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Exact-name and Portuguese-name variants produced no reliable OSS or prewar-affiliation bridge. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b895-v1"
+    },
+    {
+      "key": "page437-row36-leonard-f-soares-b895",
+      "person_id": "725f8e08-fc9a-53ee-a009-1a103df5cf27",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Leonard F Soares; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_895",
+      "started_at": "2026-10-18T19:30:00Z",
+      "completed_at": "2026-10-18T22:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported identity; public affiliation claims are limited to what the cited sources prove. Reviewed evidence established an identity bridge and, where supported, a carefully bounded military affiliation or occupation claim. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b895-v1"
+    },
+    {
+      "key": "page437-row37-franciszek-sobecki-b895",
+      "person_id": "64973a5c-cdd2-5fb4-bb7c-2580a953bcbb",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Franciszek Sobecki; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_895",
+      "started_at": "2026-10-18T19:30:00Z",
+      "completed_at": "2026-10-18T22:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported identity; public affiliation claims are limited to what the cited sources prove. Reviewed evidence established an identity bridge and, where supported, a carefully bounded military affiliation or occupation claim. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b895-v1"
+    },
+    {
+      "key": "page437-row38-julian-sobiechowski-b895",
+      "person_id": "5cee0934-c05e-52df-afa4-1a7b4462b635",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Julian Sobiechowski; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_895",
+      "started_at": "2026-10-18T19:30:00Z",
+      "completed_at": "2026-10-18T22:30:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "A Project Eagle alias lead remains discovery-only and lacks an inspectable item-level source tying it to this indexed Polish Army row.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. A Project Eagle alias lead remains discovery-only and lacks an inspectable item-level source tying it to this indexed Polish Army row. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b895-v1"
+    },
+    {
+      "key": "page437-row39-amato-d-soccorsy-b895",
+      "person_id": "f5db58ba-c46b-57dc-b190-6b3d79769c5c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Amato D Soccorsy; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_895",
+      "started_at": "2026-10-18T19:30:00Z",
+      "completed_at": "2026-10-18T22:30:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Modern property and memorial name matches are chronologically irrelevant or uncorroborated and were rejected.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Modern property and memorial name matches are chronologically irrelevant or uncorroborated and were rejected. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b895-v1"
+    },
+    {
+      "key": "page437-row40-gloria-h-soderberg-b895",
+      "person_id": "57200a17-49a2-506a-98b8-c979c6f8ae0f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Gloria H Soderberg; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_895",
+      "started_at": "2026-10-18T19:30:00Z",
+      "completed_at": "2026-10-18T22:30:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name official-domain, occupation, obituary and institutional searches returned only the index or unbridged namesakes.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Exact-name official-domain, occupation, obituary and institutional searches returned only the index or unbridged namesakes. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b895-v1"
+    },
+    {
+      "key": "page437-row41-m-soegihadji-b895",
+      "person_id": "75b19183-870f-57e8-bf4e-9375b3d0825c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "M Soegihadji; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_895",
+      "started_at": "2026-10-18T19:30:00Z",
+      "completed_at": "2026-10-18T22:30:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The initials-only foreign-name row remains highly ambiguous; transliteration and institutional searches produced no corroborating identifiers.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. The initials-only foreign-name row remains highly ambiguous; transliteration and institutional searches produced no corroborating identifiers. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b895-v1"
+    },
+    {
+      "key": "page437-row42-louis-t-sofa-b895",
+      "person_id": "8d32f609-60a0-5dce-a87f-158e9509f57a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Louis T Sofa; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 727; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_895",
+      "started_at": "2026-10-18T19:30:00Z",
+      "completed_at": "2026-10-18T22:30:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "A paywalled Navy muster-roll name lead could not be inspected or bridged to OSS, Box 727 or a prewar affiliation.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. A paywalled Navy muster-roll name lead could not be inspected or bridged to OSS, Box 727 or a prewar affiliation. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 727 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b895-v1"
+    },
+    {
+      "key": "page437-row43-heinrich-c-soffner-b895",
+      "person_id": "09426597-aa08-5f50-8bae-68a0a068d0fb",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Heinrich C Soffner; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 728; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_895",
+      "started_at": "2026-10-18T19:30:00Z",
+      "completed_at": "2026-10-18T22:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported identity; public affiliation claims are limited to what the cited sources prove. Reviewed evidence established an identity bridge and, where supported, a carefully bounded military affiliation or occupation claim. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 728 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b895-v1"
+    },
+    {
+      "key": "page437-row44-heirich-c-soffner-b895",
+      "person_id": "00262806-355a-5598-bce4-f1b49140ed5b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Heirich C Soffner; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 728; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_895",
+      "started_at": "2026-10-18T19:30:00Z",
+      "completed_at": "2026-10-18T22:30:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The adjacent Heirich spelling may duplicate Heinrich C Soffner, but this row lacks the protected identifier that independently links Heinrich to Henry Sutton, so it remains separate.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. The adjacent Heirich spelling may duplicate Heinrich C Soffner, but this row lacks the protected identifier that independently links Heinrich to Henry Sutton, so it remains separate. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 728 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b895-v1"
+    },
+    {
+      "key": "page437-row45-vincent-j-sofiano-b895",
+      "person_id": "d014b325-de84-5e57-9b29-5be897a3f4b8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Vincent J Sofiano; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 728; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_895",
+      "started_at": "2026-10-18T19:30:00Z",
+      "completed_at": "2026-10-18T22:30:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported identity; public affiliation claims are limited to what the cited sources prove. Reviewed evidence established an identity bridge and, where supported, a carefully bounded military affiliation or occupation claim. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 728 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b895-v1"
+    },
+    {
+      "key": "page437-row46-john-soha-b895",
+      "person_id": "56563af8-16d1-5c82-9893-320aaa316b5b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John Soha; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 728; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_895",
+      "started_at": "2026-10-18T19:30:00Z",
+      "completed_at": "2026-10-18T22:30:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name OSS, occupation, obituary, directory and archival searches produced no defensible identity bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Exact-name OSS, occupation, obituary, directory and archival searches produced no defensible identity bridge. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 728 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b895-v1"
+    }
+  ]
+}
