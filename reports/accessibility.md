@@ -1,5 +1,16 @@
 # Accessibility and responsive QA
 
+Batch 896 local validation, 2026-10-18 America/New_York: the bounded release
+suite passed **93/93** desktop, phone and tablet checks, including 30 axe scans
+with no serious or critical violations. All **146** Python tests and 84
+parameterized subtests passed. Astro reported zero errors,
+warnings or hints across **527** source files and built **25,095** static pages.
+Every internal link resolves, the 200-profile structural audit passes all seven
+checks, the public-identifier audit found zero unexpected full-number matches,
+the dependency audit found zero vulnerabilities, and two consecutive builds
+reproduced identical public and output tree digests. These local results do not
+by themselves establish CI or public deployment.
+
 Batch 895 local validation, 2026-10-18 America/New_York: the bounded release
 suite passed **93/93** desktop, phone and tablet checks: 24 Batch 895 direct-
 profile, military-versus-civilian, alias-merge, duplicate-withholding,

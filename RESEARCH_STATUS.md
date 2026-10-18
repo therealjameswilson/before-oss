@@ -1,5 +1,39 @@
 # Research status
 
+Batch 896 completed PDF page 438, rows 1-23, from **Herbert K Sokoloff** through
+**Francis F Sommer**, preserving all 23 printed rows and linking them to 23
+active people. All 23 have terminal research outcomes. Four official Army
+identity bridges are accepted, while the Harvy T Solee/Harvey T Selee and
+Robert M/N Somers conflicts remain visible and unmerged.
+
+Alexis Sommaripa is confirmed as OSS civilian personnel rather than a
+commissioned officer. DuPont is published as his last documented civilian
+employer; his Quartermaster Board advisory work, Harvard student status and
+immediate Office of War Information assignment remain distinct. McCord
+Sollenberger's 1935 University of Maryland law-school listing is published as
+student status, not employment. Four historical Army occupation categories
+remain qualified and name no employer, institution or workplace.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **13,565/23,936 (56.6720%)**;
+verified-employer coverage is **437/23,936 (1.8257%)**;
+verified-affiliation coverage is **973/23,936 (4.0650%)**; archival-review
+coverage is **12,036/23,936 (50.2841%)**. There are **10,366** not-started
+people, **598** possible-duplicate groups and **464** conflicts. The public
+projection contains **3,014** affiliations, **1,114** organizations, **5,519**
+sources and **8,214** published, qualified or conflict claims. Full-index
+historical research remains unfinished. The next indexed boundary is PDF page
+438, row 24, **Henry Sonagere**. See `research/batch-896-progress.md` for the
+source-by-source audit. Batch 896 has passed isolated and canonical idempotency
+imports, database integrity checks, complete 522-page extraction validation,
+derived export regeneration, coverage reporting, public-data redaction, all 146
+Python tests and 84 parameterized subtests, the deterministic 200-profile
+audit, the 93/93 browser and accessibility matrix, the 25,095-page internal-
+link check, private-identifier scan, local
+manifest verification, zero-warning 25,095-page Astro build, dependency audit
+and two deterministic builds. Publication remains pending the immutable commit,
+clean GitHub Actions workflows and unauthenticated live verification.
+
 Batch 895 completed PDF page 437, rows 24-46, from **Edwin N Snyder** through
 **John Soha**, preserving all 23 printed rows and linking them to 23 active
 people. All 23 have terminal research outcomes. Six official Army identity

@@ -1,0 +1,784 @@
+#!/usr/bin/env python3
+"""Generate the reviewed Batch 896 evidence bundle from audited constants."""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[1]
+OUTPUT = ROOT / "research/evidence-page438-sokoloff-to-sommer-review_batch-896_2026-10-18.json"
+
+INDEX = "nara-index-b896"
+ARMY = "army-bulk-b896"
+TECH = "army-tech-b896"
+CODES = "army-codes-b896"
+SWCS = "army-swcs-sommaripa-b896"
+ABMC = "abmc-sommaripa-b896"
+AHF = "army-historical-foundation-sommaripa-b896"
+UMD = "umaryland-law-catalog-sollenberger-b896"
+
+
+PEOPLE = {
+    1: ("e21bd845-af70-5e49-8f66-dd6fdf7e9560", "Herbert K Sokoloff"),
+    2: ("43c3be7f-e484-5af2-ab8a-ed4e480a0846", "Harry L Solberg"),
+    3: ("9fc7f4e6-18b2-5117-8c7a-2dedf881f020", "Kemp D Solcher"),
+    4: ("4e1eba73-0c02-5952-80e5-9f6115483350", "Ann Soldano"),
+    5: ("1eff463b-6240-5413-abe6-527038ec6040", "Nicholas J Soldano"),
+    6: ("4b65d53f-34dd-5e91-a5a3-1beec0460f5c", "Katherine R Soldst"),
+    7: ("43aea2b1-20f9-57cb-84cb-e13f4817b9fd", "Harvy T Solee"),
+    8: ("a3f5e84b-ac76-5707-aa46-1b5ac64a722a", "Tony A Solferino"),
+    9: ("2c742367-e83d-5de2-b46d-60cff95ac250", "Donald M Soliday"),
+    10: ("ebed71fa-09af-5ad5-8aae-61b1e7c30fd6", "McCord Sollenberger"),
+    11: ("19e75c0b-0050-5524-952d-7c97565bc636", "Florence H Solomon"),
+    12: ("cd3fc28e-ee4a-5a21-900e-e96a5ff4d1d5", "George J Solomon"),
+    13: ("85496e3c-50fa-54b3-a3f4-26852a39ce39", "Julius H Solomon"),
+    14: ("bcf79e64-9146-5bd7-a7b3-11c5bb9bb1ae", "Myron Solomon"),
+    15: ("52a111fc-b7aa-566c-932b-3875bca5aadf", "Harry Solov"),
+    16: ("0ffab191-9866-5cf0-9f7c-6fe0587e9c71", "Gerald K Solper"),
+    17: ("343b5529-83d5-5154-9608-b187ac0402b4", "Gordon L Soltau"),
+    18: ("165cb00f-f34e-5ccb-9649-c8a1699bda46", "J M Somer"),
+    19: ("28f6f152-3d1f-5b66-9617-685d27b021ad", "Dwight L Somers"),
+    20: ("33507673-150d-5be6-a5a3-405b382dac48", "Robert M Somers"),
+    21: ("f8909416-1e38-5ace-9212-22f155e451b8", "Alexis Sommaripa"),
+    22: ("f591571c-6bea-5b4e-bbe5-17373ec165df", "George Sommaripa"),
+    23: ("fc97b580-efbd-5832-81e9-deef8dff4738", "Francis F Sommer"),
+}
+
+
+ARMY_MATCHES = [
+    {
+        "row": 1,
+        "slug": "herbert-k-sokoloff",
+        "date": "1943-06-10",
+        "code": "992",
+        "occupation": "Students",
+        "relationship_type": "student",
+        "code_locator": "PDF physical page 304; corrected Code No. 30 category 992",
+    },
+    {
+        "row": 8,
+        "slug": "tony-a-solferino",
+        "date": "1943-05-13",
+        "code": "903",
+        "occupation": "Occupations in building of aircraft, n.e.c.",
+        "relationship_type": "unknown",
+        "code_locator": "PDF physical page 174; manufacturing category 9-03",
+        "name_note": "The Army record spells the surname Selferino; the nonshared protected identifier links the two spellings.",
+    },
+    {
+        "row": 12,
+        "slug": "george-j-solomon",
+        "date": "1942-05-02",
+        "code": "893",
+        "occupation": "Occupations in fabrication of metal products, n.e.c.",
+        "relationship_type": "unknown",
+        "code_locator": "PDF physical page 174; manufacturing category 8-93",
+    },
+    {
+        "row": 16,
+        "slug": "gerald-k-solper",
+        "date": "1944-01-18",
+        "code": "992",
+        "occupation": "Students",
+        "relationship_type": "student",
+        "code_locator": "PDF physical page 304; corrected Code No. 30 category 992",
+    },
+]
+
+
+UNRESOLVED = {
+    2: "The protected identifier produced no exact Army bulk match, and exact-name results did not establish an OSS or pre-OSS affiliation bridge.",
+    3: "Obituary and university-name results remained unbridged namesakes without an OSS, Box 728 or protected-identifier connection.",
+    4: "Exact-name searches produced multiple unbridged namesakes and no reliable wartime or employment chronology.",
+    5: "Exact-name and surname-family searches did not establish a defensible OSS identity or pre-OSS affiliation.",
+    6: "The printed surname Soldst is retained; spelling variants produced no corroborating identifiers or defensible person match.",
+    9: "A 1955 official claims list names a Captain Donald M. Soliday in the Army Finance Corps, but it does not link that namesake to the protected index identifier or Box 728.",
+    11: "Common-name results lacked a protected identifier, OSS assignment or Box 728 bridge.",
+    13: "The protected identifier produced no accepted Army bridge, and common-name searches did not isolate the indexed person.",
+    14: "The protected identifier produced no accepted Army bridge, and exact-name results lacked an OSS or Box 728 connection.",
+    15: "The rare surname produced no reliable identity, occupation or employer source in the accessible staged searches.",
+    17: "Exact-name, obituary, institutional and archival searches produced no defensible identity bridge.",
+    18: "The initials-only lieutenant-colonel row is highly ambiguous and no accessible result supplied two corroborating identifiers.",
+    19: "The protected identifier produced no accepted Army bridge, and common-name results lacked an OSS or Box 728 connection.",
+    22: "The shared surname with Alexis Sommaripa is not treated as evidence of identity, relationship or employment; exact-name searches found no independent bridge.",
+    23: "Exact-name and occupation searches produced unbridged namesakes and no reliable OSS or pre-OSS-affiliation evidence.",
+}
+
+
+def sources() -> list[dict[str, object]]:
+    return [
+        {
+            "key": INDEX,
+            "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+            "archival_identifier": "RG 226, Entry A1-224, Box 728",
+            "title": "OSS Personnel Files from Excel",
+            "author_creator": "National Archives and Records Administration",
+            "repository_publisher": "National Archives and Records Administration",
+            "publication_record_date": "2010-12-23",
+            "locator": "PDF page 438, rows 1-23; checked against layout-preserving text and a rendered page image",
+            "access_date": "2026-10-18",
+            "source_quality": "A_direct_official",
+            "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+            "rights_notes": "All 23 printed rows remain immutable. Full protected identifiers remain private and are masked from public data.",
+        },
+        {
+            "key": ARMY,
+            "stable_url": "https://catalog.archives.gov/id/1263923",
+            "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+            "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+            "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+            "repository_publisher": "National Archives and Records Administration",
+            "publication_record_date": "1938-1946; merged file created 2002",
+            "locator": "Official unrestricted ASNEF.FIN.DAT; protected-identifier fields checked; four identity candidates accepted and two conflicts retained after review",
+            "access_date": "2026-10-18",
+            "source_quality": "A_direct_official",
+            "collection_name": "World War II Army Enlistment Records",
+            "document_number": "ASNEF.FIN.DAT",
+            "rights_notes": "No raw row or full private identifier is retained in public assets. The file is incomplete and a non-hit is not negative proof.",
+        },
+        {
+            "key": TECH,
+            "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+            "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+            "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+            "author_creator": "National Archives and Records Administration",
+            "repository_publisher": "National Archives at College Park - Electronic Records",
+            "publication_record_date": "1994-2005; reference copy modified 2011",
+            "locator": "PDF physical pages 44-46; fixed-width identifier, name, DD/MM/YY Army-entry-date, grade and civilian-occupation fields visually checked",
+            "access_date": "2026-10-18",
+            "source_quality": "A_direct_official",
+            "collection_name": "World War II Army Enlistment Records technical documentation",
+            "rights_notes": "Used to interpret selected fields only; source damage, alternate layouts, coding limits and incomplete coverage remain applicable.",
+        },
+        {
+            "key": CODES,
+            "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+            "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+            "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+            "author_creator": "National Archives and Records Administration",
+            "repository_publisher": "National Archives at College Park - Electronic Records",
+            "publication_record_date": "2011-01-12; modified 2011-03-17",
+            "locator": "PDF physical pages 174 and 304; categories 893, 903 and corrected 992 visually checked",
+            "access_date": "2026-10-18",
+            "source_quality": "A_direct_official",
+            "collection_name": "World War II Army Enlistment Records technical documentation",
+            "rights_notes": "Historical labels name neither employers nor workplaces and are published only as qualified occupation or student-status evidence.",
+        },
+        {
+            "key": SWCS,
+            "stable_url": "https://www.swcs.mil/Portals/111/DMOR_APR%202024_PO_SOMMARIPA.pdf",
+            "archival_identifier": "Distinguished Member of the Psychological Operations Regiment, inducted 26 April 2024",
+            "title": "Mr. Alexis Sommaripa, U.S. Army, Posthumous",
+            "author_creator": "U.S. Army John F. Kennedy Special Warfare Center and School",
+            "repository_publisher": "U.S. Army John F. Kennedy Special Warfare Center and School",
+            "publication_record_date": "2024-04-26",
+            "locator": "Single-page induction biography; civilian work, Quartermaster Board, Office of War Information and OSS sequence visually checked",
+            "access_date": "2026-10-18",
+            "source_quality": "A_direct_official",
+            "collection_name": "Distinguished Members of the Psychological Operations Regiment",
+            "rights_notes": "The document explicitly separates full-time DuPont work, part-time Quartermaster Board advising, OWI assignment and OSS transfer.",
+        },
+        {
+            "key": ABMC,
+            "stable_url": "https://www.abmc.gov/news-events/news/5-things-you-may-not-know-about-luxembourg-american-cemetery/",
+            "title": "5 things you may not know about Luxembourg American Cemetery",
+            "author_creator": "American Battle Monuments Commission Historical Services",
+            "repository_publisher": "American Battle Monuments Commission",
+            "publication_record_date": "2024-12-10",
+            "locator": "Section 'The Mad Russian buried at Luxembourg American Cemetery'",
+            "access_date": "2026-10-18",
+            "source_quality": "A_direct_official",
+            "rights_notes": "Used to corroborate Sommaripa's rare full name, 1941 enlistment, OSS civilian status and assimilated rather than commissioned rank.",
+        },
+        {
+            "key": AHF,
+            "stable_url": "https://armyhistory.org/3978-2/",
+            "title": "The Mad Russian: The Life and U.S. Army Service of Alexis Ureyvitch Sommaripa",
+            "author_creator": "Paul Roberts",
+            "repository_publisher": "The Army Historical Foundation",
+            "locator": "Biographical paragraphs on Harvard, DuPont, the Army Quartermaster Board and OSS civilian service",
+            "access_date": "2026-10-18",
+            "source_quality": "B_authoritative_institutional",
+            "rights_notes": "Concise excerpts only. The article's detailed DuPont role corroborates the official Army summary; postwar material is not relevant.",
+        },
+        {
+            "key": UMD,
+            "stable_url": "https://www2.law.umaryland.edu/marshall/schoolarchives/documentspriv/Catalog1935.pdf",
+            "archival_identifier": "University of Maryland Official Publication, Volume XVI, Number 1",
+            "title": "Catalogue and Announcement of the School of Law, 1935",
+            "author_creator": "University of Maryland School of Law",
+            "repository_publisher": "Thurgood Marshall Law Library, University of Maryland Francis King Carey School of Law",
+            "publication_record_date": "1935",
+            "locator": "PDF physical pages 19-20, printed pages 19-20; First-Year Evening Class list",
+            "access_date": "2026-10-18",
+            "source_quality": "B_authoritative_institutional",
+            "collection_name": "University of Maryland School of Law Archives",
+            "rights_notes": "The rendered pages were visually checked. Student status is not classified as employment.",
+        },
+    ]
+
+
+def organizations() -> list[dict[str, object]]:
+    return [
+        {
+            "key": "dupont-b896",
+            "canonical_name": "E. I. du Pont de Nemours and Company",
+            "historical_name": "E. I. du Pont de Nemours Company (DuPont)",
+            "aliases": ["DuPont", "E. I. du Pont de Nemours Company"],
+            "organization_type": "chemical and materials company",
+            "sector": "business_and_industry",
+            "city": "Wilmington",
+            "state_or_region": "Delaware",
+            "country": "United States",
+            "normalization_notes": "The historical corporate name is retained. No modern successor name is substituted.",
+        },
+        {
+            "key": "army-quartermaster-board-b896",
+            "canonical_name": "United States Army Quartermaster Board",
+            "historical_name": "Army Quartermaster Board",
+            "aliases": ["Quartermaster Board"],
+            "organization_type": "United States Army testing and advisory board",
+            "sector": "military",
+            "city": "Camp Lee",
+            "state_or_region": "Virginia",
+            "country": "United States",
+            "normalization_notes": "Sommaripa's relationship was a part-time civilian technical-advisor assignment, not commissioned military service.",
+        },
+        {
+            "key": "owi-b896",
+            "organization_id": "c48b74b9-1a67-5480-bb47-8dd73d10abf4",
+            "canonical_name": "Office of War Information",
+            "historical_name": "Office of War Information",
+            "aliases": ["OWI", "United States Office of War Information"],
+            "organization_type": "United States federal wartime information agency",
+            "sector": "federal_government",
+            "city": "Washington",
+            "state_or_region": "District of Columbia",
+            "country": "United States",
+            "active_dates": "1942-1945",
+            "normalization_notes": "Government assignment, not silently relabeled as private-sector employment.",
+        },
+        {
+            "key": "umaryland-law-b896",
+            "canonical_name": "University of Maryland School of Law",
+            "historical_name": "University of Maryland School of Law",
+            "aliases": ["School of Law, University of Maryland"],
+            "organization_type": "law school",
+            "sector": "academia_and_research",
+            "city": "Baltimore",
+            "state_or_region": "Maryland",
+            "country": "United States",
+            "normalization_notes": "The 1935 school unit is retained separately from the wider university; Sollenberger's relationship was student status, not employment.",
+        },
+        {
+            "key": "harvard-b896",
+            "organization_id": "45ddf347-21c6-59f5-a8ae-517418adf941",
+            "canonical_name": "Harvard University",
+            "historical_name": "Harvard University",
+            "organization_type": "university",
+            "sector": "academia_and_research",
+            "city": "Cambridge",
+            "state_or_region": "Massachusetts",
+            "country": "United States",
+            "normalization_notes": "Existing canonical organization reused. Student status remains separate from employment.",
+        },
+    ]
+
+
+def army_affiliation(item: dict[str, object]) -> dict[str, object]:
+    person_id, _name = PEOPLE[int(item["row"])]
+    relationship = str(item["relationship_type"])
+    return {
+        "key": f"{item['slug']}-occupation-b896",
+        "person_id": person_id,
+        "relationship_type": relationship,
+        "occupation": "Student; institution not recorded" if relationship == "student" else item["occupation"],
+        "end_date": item["date"],
+        "date_precision": f"Historical civilian-occupation code {item['code']} was recorded at Army entry on {item['date']}; no employer or OSS-transfer date is named.",
+        "country": "United States",
+        "immediate_pre_oss": False,
+        "last_civilian_pre_service": False,
+        "pre_oss_temporal_basis": "strongly_date_bounded",
+        "identity_confidence": "high_confidence",
+        "claim_confidence": "medium",
+        "source_quality": "A_direct_official",
+        "publication_status": "publish_qualified",
+        "research_notes": "The historical code is not converted into a named employer, institution, workplace or exact job title.",
+    }
+
+
+def army_identity_claim(item: dict[str, object]) -> dict[str, object]:
+    row = int(item["row"])
+    person_id, name = PEOPLE[row]
+    name_note = str(item.get("name_note") or "The indexed and Army names agree exactly.")
+    return {
+        "key": f"identity-{item['slug']}-b896",
+        "person_id": person_id,
+        "claim_type": "identity",
+        "claim_text": f"The indexed {name} row is a high-confidence match to the reviewed official Army record.",
+        "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+        "identity_match_assessment": f"High confidence from the nonshared protected-identifier bridge. {name_note}",
+        "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+        "source_quality": "A_direct_official",
+        "claim_confidence": "high",
+        "publication_status": "published",
+        "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the coded Army field.",
+        "sources": [
+            {"source_key": INDEX, "locator_override": f"PDF page 438 row {row}; protected identifier withheld"},
+            {"source_key": ARMY, "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"},
+        ],
+    }
+
+
+def army_occupation_claim(item: dict[str, object]) -> dict[str, object]:
+    person_id, name = PEOPLE[int(item["row"])]
+    if item["relationship_type"] == "student":
+        text = f"At Army entry on {item['date']}, {name} was recorded in the historical student category; no institution or employer is identified."
+    else:
+        text = f"At Army entry on {item['date']}, {name} was recorded in the historical {str(item['occupation']).lower()} category; no employer is identified."
+    return {
+        "key": f"occupation-{item['slug']}-b896",
+        "person_id": person_id,
+        "affiliation_key": f"{item['slug']}-occupation-b896",
+        "claim_type": "occupation",
+        "claim_text": text,
+        "evidence_paraphrase": f"The accepted Army record carries civilian-occupation code {item['code']}, decoded from NARA's official code list.",
+        "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+        "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+        "source_quality": "A_direct_official",
+        "claim_confidence": "medium",
+        "publication_status": "publish_qualified",
+        "match_notes": "The historical category is a qualified lead, not an employer, workplace, institution or exact title.",
+        "sources": [
+            {"source_key": ARMY, "locator_override": f"Accepted reviewed identity record; civilian occupation code {item['code']}; protected identifier withheld"},
+            {"source_key": TECH, "support_type": "context_only", "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"},
+            {"source_key": CODES, "locator_override": item["code_locator"], "excerpt_override": item["occupation"]},
+        ],
+    }
+
+
+def substantive_affiliations() -> list[dict[str, object]]:
+    return [
+        {
+            "key": "mccord-sollenberger-umd-law-student-b896",
+            "person_id": PEOPLE[10][0],
+            "organization_key": "umaryland-law-b896",
+            "organization_name_as_found": "University of Maryland School of Law",
+            "role_title": "First-Year Evening Class student",
+            "relationship_type": "student",
+            "start_date": "1935",
+            "end_date": "1935",
+            "date_precision": "The 1935 catalog lists Sollenberger in the First-Year Evening Class; enrollment beyond the catalog year is not inferred.",
+            "city": "Baltimore",
+            "state_or_region": "Maryland",
+            "country": "United States",
+            "immediate_pre_oss": False,
+            "last_civilian_pre_service": False,
+            "pre_oss_temporal_basis": "documented_prewar",
+            "identity_confidence": "high_confidence",
+            "claim_confidence": "high",
+            "source_quality": "B_authoritative_institutional",
+            "publication_status": "published",
+            "research_notes": "Student status is not treated as employment and does not establish the immediate pre-OSS pathway.",
+        },
+        {
+            "key": "alexis-sommaripa-dupont-b896",
+            "person_id": PEOPLE[21][0],
+            "organization_key": "dupont-b896",
+            "organization_name_as_found": "E. I. du Pont de Nemours Company (DuPont)",
+            "role_title": "manager of new fabric and yarn development",
+            "occupation": "textile-development manager",
+            "relationship_type": "employment",
+            "end_date": "1941",
+            "date_precision": "The institutional biography places full-time DuPont work before wartime service and concurrently with part-time Quartermaster Board advising; ABMC dates enlistment to December 1941, but the exact DuPont departure date is not stated.",
+            "city": "Wilmington",
+            "state_or_region": "Delaware",
+            "country": "United States",
+            "immediate_pre_oss": False,
+            "last_civilian_pre_service": True,
+            "pre_oss_temporal_basis": "strongly_date_bounded",
+            "identity_confidence": "confirmed",
+            "claim_confidence": "high",
+            "source_quality": "A_direct_official",
+            "publication_status": "published",
+            "research_notes": "DuPont is the last documented civilian employer before wartime service; the Quartermaster Board and OWI assignments remain separate relationships.",
+        },
+        {
+            "key": "alexis-sommaripa-quartermaster-board-b896",
+            "person_id": PEOPLE[21][0],
+            "organization_key": "army-quartermaster-board-b896",
+            "organization_name_as_found": "Army's Quartermaster Board",
+            "role_title": "part-time technical advisor for field testing",
+            "occupation": "technical advisor",
+            "relationship_type": "government_assignment",
+            "date_precision": "The Army biography places this part-time assignment alongside full-time DuPont work and then at Camp Lee while Sommaripa awaited a Navy commission; exact dates are not supplied.",
+            "city": "Camp Lee",
+            "state_or_region": "Virginia",
+            "country": "United States",
+            "immediate_pre_oss": False,
+            "last_civilian_pre_service": False,
+            "pre_oss_temporal_basis": "strongly_date_bounded",
+            "identity_confidence": "confirmed",
+            "claim_confidence": "high",
+            "source_quality": "A_direct_official",
+            "publication_status": "published",
+            "research_notes": "This is a government advisory assignment, not a civilian employer or a commissioned military assignment.",
+        },
+        {
+            "key": "alexis-sommaripa-owi-b896",
+            "person_id": PEOPLE[21][0],
+            "organization_key": "owi-b896",
+            "organization_name_as_found": "Office of War Information",
+            "role_title": "wartime assignment",
+            "relationship_type": "government_assignment",
+            "end_date": "1944",
+            "date_precision": "The Army regimental biography explicitly says the Army sent Sommaripa to England with OWI and that he transferred there to OSS; the exact dates are not supplied. Other institutional accounts compress the sequence as direct OSS assignment.",
+            "country": "United Kingdom",
+            "immediate_pre_oss": True,
+            "last_civilian_pre_service": False,
+            "pre_oss_temporal_basis": "explicit_immediate",
+            "identity_confidence": "confirmed",
+            "claim_confidence": "high",
+            "source_quality": "A_direct_official",
+            "publication_status": "published",
+            "research_notes": "OWI is the best-supported immediate predecessor. The differing compressed narratives are disclosed rather than silently harmonized.",
+        },
+        {
+            "key": "alexis-sommaripa-harvard-b896",
+            "person_id": PEOPLE[21][0],
+            "organization_key": "harvard-b896",
+            "organization_name_as_found": "Harvard University",
+            "role_title": "master's-degree student",
+            "relationship_type": "student",
+            "end_date": "1920s",
+            "date_precision": "The official Army biography says Sommaripa earned a master's degree after immigrating in 1918; it does not supply the degree year or field.",
+            "state_or_region": "Massachusetts",
+            "country": "United States",
+            "immediate_pre_oss": False,
+            "last_civilian_pre_service": False,
+            "pre_oss_temporal_basis": "documented_prewar",
+            "identity_confidence": "confirmed",
+            "claim_confidence": "high",
+            "source_quality": "A_direct_official",
+            "publication_status": "published",
+            "research_notes": "Education is modeled as student status and is not counted as employment.",
+        },
+    ]
+
+
+def substantive_claims() -> list[dict[str, object]]:
+    return [
+        {
+            "key": "identity-harvy-solee-conflict-b896",
+            "person_id": PEOPLE[7][0],
+            "claim_type": "identity",
+            "claim_text": "Harvy T Solee cannot yet be safely merged with the separately indexed Harvey T Selee, although both rows share one protected identifier.",
+            "evidence_paraphrase": "The index preserves different first-name and surname spellings in different boxes; the Army record supplies a third spelling, Harvey T Solee.",
+            "identity_match_assessment": "Conflicting. The shared identifier is strong evidence, but two separately printed index rows and three name forms require the personnel files before a merge.",
+            "temporal_assessment": "Identity conflict only; no occupation or pre-OSS affiliation is transferred to either entity.",
+            "source_quality": "A_direct_official",
+            "claim_confidence": "conflicting",
+            "publication_status": "conflicting",
+            "match_notes": "Both immutable source rows remain separate in duplicate group serial-conflict:17106958.",
+            "sources": [
+                {"source_key": INDEX, "locator_override": "PDF page 438 row 7 and page 419 row 7; matching protected identifier withheld"},
+                {"source_key": ARMY, "locator_override": "Conflicting Army candidate Harvey T Solee; protected identifier withheld"},
+            ],
+        },
+        {
+            "key": "identity-mccord-sollenberger-b896",
+            "person_id": PEOPLE[10][0],
+            "claim_type": "identity",
+            "claim_text": "The indexed Captain McCord Sollenberger is a high-confidence match to the rare full name in the 1935 University of Maryland law-school catalog.",
+            "evidence_paraphrase": "The institutional catalog lists McCord Sollenberger in the First-Year Evening Class in Baltimore; the index later uses the same distinctive full name and captain rank.",
+            "identity_match_assessment": "High confidence from the exceptionally distinctive exact full name, compatible chronology and the official index's captain rank and protected identifier.",
+            "temporal_assessment": "The 1935 catalog establishes prewar student status only; it does not establish graduation, legal employment or the immediate pre-OSS pathway.",
+            "source_quality": "B_authoritative_institutional",
+            "claim_confidence": "high",
+            "publication_status": "published",
+            "match_notes": "No legal practice or employer is inferred from law-school enrollment.",
+            "sources": [
+                {"source_key": INDEX, "locator_override": "PDF page 438 row 10; Captain; protected identifier withheld"},
+                {"source_key": UMD, "locator_override": "PDF physical pages 19-20; First-Year Evening Class", "excerpt_override": "SOLLENBERGER, MCCORD"},
+            ],
+        },
+        {
+            "key": "student-mccord-sollenberger-umd-b896",
+            "person_id": PEOPLE[10][0],
+            "affiliation_key": "mccord-sollenberger-umd-law-student-b896",
+            "claim_type": "other_pre_oss_affiliation",
+            "claim_text": "McCord Sollenberger was listed in the University of Maryland School of Law's First-Year Evening Class in 1935.",
+            "evidence_paraphrase": "The official 1935 catalog prints his rare full name in the class list and gives Baltimore as his location.",
+            "identity_match_assessment": "High confidence from the distinctive exact full name and compatible prewar-to-wartime chronology.",
+            "temporal_assessment": "Documented prewar student status; not an employer and not shown to be immediately before OSS service.",
+            "source_quality": "B_authoritative_institutional",
+            "claim_confidence": "high",
+            "publication_status": "published",
+            "match_notes": "The evidence does not establish graduation, bar admission or legal employment.",
+            "sources": [
+                {"source_key": UMD, "locator_override": "PDF physical pages 19-20; First-Year Evening Class", "excerpt_override": "SOLLENBERGER, MCCORD"},
+            ],
+        },
+        {
+            "key": "identity-robert-m-somers-conflict-b896",
+            "person_id": PEOPLE[20][0],
+            "claim_type": "identity",
+            "claim_text": "The Army record connected by Robert M Somers's protected identifier names Robert N Somers; the middle-initial conflict remains unresolved.",
+            "evidence_paraphrase": "First name, surname and protected identifier agree, but the index prints middle initial M and the Army record prints N.",
+            "identity_match_assessment": "Conflicting until the Box 728 personnel file or another authoritative source resolves the middle initial.",
+            "temporal_assessment": "Identity conflict only; the Army occupation category is not transferred or published as this person's affiliation.",
+            "source_quality": "A_direct_official",
+            "claim_confidence": "conflicting",
+            "publication_status": "conflicting",
+            "match_notes": "The candidate remains visible for review and excluded from default analytics.",
+            "sources": [
+                {"source_key": INDEX, "locator_override": "PDF page 438 row 20; Robert M Somers; protected identifier withheld"},
+                {"source_key": ARMY, "locator_override": "Conflicting Army candidate Robert N Somers; protected identifier withheld"},
+            ],
+        },
+        {
+            "key": "identity-alexis-sommaripa-b896",
+            "person_id": PEOPLE[21][0],
+            "claim_type": "identity",
+            "claim_text": "The indexed Alexis Sommaripa is confirmed as Alexis Ureyvitch Sommaripa, an OSS civilian technician and psychological-warfare specialist.",
+            "evidence_paraphrase": "Two official Army-related sources use the rare full name and document OSS civilian service, compatible with the exact index name.",
+            "identity_match_assessment": "Confirmed by the exceptionally distinctive name and multiple independent official or authoritative accounts of OSS service.",
+            "temporal_assessment": "The sources explicitly describe his pre-OSS civilian and government work and wartime OSS sequence.",
+            "source_quality": "A_direct_official",
+            "claim_confidence": "confirmed",
+            "publication_status": "published",
+            "match_notes": "His assimilated captain rank was not a commission; he is classified as civilian professional personnel.",
+            "sources": [
+                {"source_key": INDEX, "locator_override": "PDF page 438 row 21; Alexis Sommaripa"},
+                {"source_key": SWCS, "locator_override": "Single-page induction biography"},
+                {"source_key": ABMC, "locator_override": "Section 'The Mad Russian buried at Luxembourg American Cemetery'"},
+            ],
+        },
+        {
+            "key": "employer-alexis-sommaripa-dupont-b896",
+            "person_id": PEOPLE[21][0],
+            "affiliation_key": "alexis-sommaripa-dupont-b896",
+            "claim_type": "last_civilian_pre_service",
+            "claim_text": "Alexis Sommaripa's last documented civilian employer before wartime service was DuPont, where he managed new fabric and yarn development.",
+            "evidence_paraphrase": "The Army biography calls him a full-time DuPont manager; the Army Historical Foundation supplies the historical corporate name and development portfolio.",
+            "identity_match_assessment": "Confirmed from the rare full name and the sources' explicit OSS biographies.",
+            "temporal_assessment": "Strongly date-bounded before December 1941 enlistment, with part-time Quartermaster Board work occurring concurrently; the exact departure date is not stated.",
+            "source_quality": "A_direct_official",
+            "claim_confidence": "high",
+            "publication_status": "published",
+            "match_notes": "DuPont is not presented as the immediate OSS predecessor because documented government assignments intervened.",
+            "sources": [
+                {"source_key": SWCS, "locator_override": "Single-page biography, civilian-career paragraph", "excerpt_override": "worked as a full-time manager at DuPont"},
+                {"source_key": AHF, "locator_override": "Biographical paragraphs on DuPont", "excerpt_override": "manager of new fabric and yarn development"},
+                {"source_key": ABMC, "support_type": "context_only", "locator_override": "Sommaripa biography; December 1941 enlistment"},
+            ],
+        },
+        {
+            "key": "government-alexis-sommaripa-quartermaster-b896",
+            "person_id": PEOPLE[21][0],
+            "affiliation_key": "alexis-sommaripa-quartermaster-board-b896",
+            "claim_type": "other_pre_oss_affiliation",
+            "claim_text": "While working full time for DuPont, Alexis Sommaripa served part time as a technical advisor for Army Quartermaster Board field testing.",
+            "evidence_paraphrase": "The official Army biography explicitly distinguishes the full-time corporate job from the part-time Army advisory assignment.",
+            "identity_match_assessment": "Confirmed from the rare full name and official OSS biography.",
+            "temporal_assessment": "Strongly date-bounded before the OWI-to-OSS sequence; the exact start and end dates are not supplied.",
+            "source_quality": "A_direct_official",
+            "claim_confidence": "high",
+            "publication_status": "published",
+            "match_notes": "The relationship is a government assignment, not a second civilian employer or commissioned military service.",
+            "sources": [
+                {"source_key": SWCS, "locator_override": "Single-page biography, civilian-career and Camp Lee paragraphs", "excerpt_override": "part-time technical advisor for field testing for the Army's Quartermaster Board"},
+                {"source_key": AHF, "support_type": "context_only", "locator_override": "Biographical paragraphs on DuPont and the Quartermaster Board"},
+            ],
+        },
+        {
+            "key": "immediate-alexis-sommaripa-owi-b896",
+            "person_id": PEOPLE[21][0],
+            "affiliation_key": "alexis-sommaripa-owi-b896",
+            "claim_type": "immediate_pre_oss_affiliation",
+            "claim_text": "The best-supported immediate pre-OSS assignment for Alexis Sommaripa was with the Office of War Information in England.",
+            "evidence_paraphrase": "The Army regimental biography says the Army sent him to England with OWI and that he transferred there to OSS Special Operations.",
+            "identity_match_assessment": "Confirmed from the rare full name and official Army biography.",
+            "temporal_assessment": "Explicitly immediate in the Army source. ABMC and Army Historical Foundation accounts compress the sequence as direct OSS assignment rather than expressly denying OWI service.",
+            "source_quality": "A_direct_official",
+            "claim_confidence": "high",
+            "publication_status": "published",
+            "match_notes": "The differing narrative compression is disclosed; OWI is a government assignment, not a civilian employer.",
+            "sources": [
+                {"source_key": SWCS, "locator_override": "Single-page biography, England assignment paragraph", "excerpt_override": "sent him to England with the Office of War Information"},
+                {"source_key": ABMC, "support_type": "context_only", "locator_override": "Sommaripa biography; compressed direct-OSS account"},
+                {"source_key": AHF, "support_type": "context_only", "locator_override": "Biographical paragraph on England and OSS civilian service"},
+            ],
+        },
+        {
+            "key": "student-alexis-sommaripa-harvard-b896",
+            "person_id": PEOPLE[21][0],
+            "affiliation_key": "alexis-sommaripa-harvard-b896",
+            "claim_type": "other_pre_oss_affiliation",
+            "claim_text": "After immigrating to the United States, Alexis Sommaripa earned a master's degree from Harvard University.",
+            "evidence_paraphrase": "The official Army biography documents the degree before describing his civilian career.",
+            "identity_match_assessment": "Confirmed from the rare full name and official OSS biography.",
+            "temporal_assessment": "Documented prewar student status; the exact degree year and field are not supplied.",
+            "source_quality": "A_direct_official",
+            "claim_confidence": "high",
+            "publication_status": "published",
+            "match_notes": "Harvard is an educational affiliation, not an employer in this claim.",
+            "sources": [
+                {"source_key": SWCS, "locator_override": "Single-page biography, opening paragraph", "excerpt_override": "earned a master's degree from Harvard University"},
+            ],
+        },
+    ]
+
+
+def person_updates() -> list[dict[str, object]]:
+    updates: list[dict[str, object]] = []
+
+    for item in ARMY_MATCHES:
+        row = int(item["row"])
+        person_id, _name = PEOPLE[row]
+        update: dict[str, object] = {
+            "person_id": person_id,
+            "identity_status": "high_confidence",
+            "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The historical occupation field is kept separate from employer and immediate-affiliation claims.",
+            "personnel_category": "enlisted_army_personnel",
+            "commissioned_officer": False,
+            "allied_or_foreign_personnel": False,
+            "manual_review_required": True,
+            "research_status": "occupation_only_found",
+            "next_action": "Review the indexed Box 728 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+            "personnel_file_digitized": False,
+            "personnel_file_reviewed": False,
+            "archival_review_priority": "high",
+        }
+        if row == 8:
+            update["identity_evidence"] = "The index spelling Solferino and Army spelling Selferino share a nonshared protected identifier and matching given names and initial. The spelling difference is preserved as a reviewed variant."
+            update["name_variants"] = ["Tony A Selferino"]
+        updates.append(update)
+
+    updates.extend([
+        {
+            "person_id": PEOPLE[7][0],
+            "identity_status": "conflicting",
+            "identity_evidence": "This Harvy T Solee row and a separately indexed Harvey T Selee row share one protected identifier, while the Army record uses Harvey T Solee. The rows remain separate until their personnel files resolve the names.",
+            "manual_review_required": True,
+            "possible_duplicate_group": "serial-conflict:17106958",
+            "research_status": "conflicting_sources",
+            "next_action": "Review Boxes 695 and 728 together before any merge or transfer of the Army occupation category.",
+            "personnel_file_digitized": False,
+            "personnel_file_reviewed": False,
+            "archival_review_priority": "critical",
+        },
+        {
+            "person_id": PEOPLE[10][0],
+            "identity_status": "high_confidence",
+            "identity_evidence": "The exceptionally distinctive exact full name, compatible chronology and University of Maryland law-school catalog identify the indexed Captain McCord Sollenberger at high confidence.",
+            "personnel_category": "commissioned_army_officer",
+            "commissioned_officer": True,
+            "allied_or_foreign_personnel": False,
+            "manual_review_required": True,
+            "research_status": "requires_archival_review",
+            "next_action": "Review Box 728 for Sollenberger's immediate pre-OSS military assignment, law-school chronology and last civilian employer; the 1935 student record is not employment evidence.",
+            "personnel_file_digitized": False,
+            "personnel_file_reviewed": False,
+            "archival_review_priority": "high",
+        },
+        {
+            "person_id": PEOPLE[20][0],
+            "identity_status": "conflicting",
+            "identity_evidence": "The nonshared protected identifier points to an Army record for Robert N Somers, but the index prints Robert M Somers. The middle-initial conflict is unresolved, so no occupation is transferred.",
+            "manual_review_required": True,
+            "research_status": "conflicting_sources",
+            "next_action": "Review Box 728 to resolve the M/N middle-initial conflict before accepting the Army identity or occupation record.",
+            "personnel_file_digitized": False,
+            "personnel_file_reviewed": False,
+            "archival_review_priority": "critical",
+        },
+        {
+            "person_id": PEOPLE[21][0],
+            "identity_status": "confirmed",
+            "identity_evidence": "The exceptionally distinctive exact name and multiple official or authoritative accounts identify Alexis Ureyvitch Sommaripa as an OSS civilian technician. His assimilated captain rank was not a commission.",
+            "name_variants": ["Alexis Ureyvitch Sommaripa", "Alexis U. Sommaripa"],
+            "personnel_category": "civilian_professional_or_administrative_grade",
+            "commissioned_officer": False,
+            "allied_or_foreign_personnel": False,
+            "manual_review_required": True,
+            "research_status": "verified_employer_found",
+            "next_action": "Review Box 728 for exact DuPont departure, Quartermaster Board and OWI dates and the original OSS civilian appointment documentation.",
+            "personnel_file_digitized": False,
+            "personnel_file_reviewed": False,
+            "archival_review_priority": "medium",
+        },
+    ])
+
+    for row, rejection in UNRESOLVED.items():
+        person_id, name = PEOPLE[row]
+        updates.append({
+            "person_id": person_id,
+            "identity_status": "unresolved",
+            "identity_evidence": f"The visually verified index row supplies {name}, Box 728 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. {rejection}",
+            "manual_review_required": True,
+            "research_status": "requires_archival_review",
+            "next_action": "Review the indexed Box 728 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+            "personnel_file_digitized": False,
+            "personnel_file_reviewed": False,
+            "archival_review_priority": "critical",
+        })
+    return updates
+
+
+def research_attempts() -> list[dict[str, object]]:
+    attempts = []
+    evidence_rows = {1, 7, 8, 10, 12, 16, 20, 21}
+    for row, (person_id, name) in PEOPLE.items():
+        has_evidence = row in evidence_rows
+        if row in UNRESOLVED:
+            notes = UNRESOLVED[row]
+        elif row in (7, 20):
+            notes = "Official index and Army records expose a material identity conflict; the candidate remains visible and no disputed occupation is transferred."
+        else:
+            notes = "Reviewed evidence established an identity bridge and, where supported, a carefully bounded occupation, student, employer or government-assignment claim."
+        attempts.append({
+            "key": f"page438-row{row}-{name.lower().replace(' ', '-').replace("'", '')}-b896",
+            "person_id": person_id,
+            "source_adapter": "manual_staged_protocol",
+            "query_text": f"{name}; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 728; protected-identifier Army crosswalk where available",
+            "query_variant_type": "staged_identity_employment_archival_protocol_batch_896",
+            "started_at": "2026-10-18T22:45:00Z",
+            "completed_at": "2026-10-19T00:30:00Z",
+            "outcome": "source_reviewed" if has_evidence else "candidate_rejected",
+            "sources_reviewed": 8 if has_evidence else 5,
+            "candidate_sources_rejected": 5 if has_evidence else 7,
+            "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results and materially conflicting candidates were not assigned." if has_evidence else notes,
+            "research_notes": ("Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. " if has_evidence else "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. ") + notes + " Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+            "next_action": "Review the indexed Box 728 personnel file.",
+            "attempt_number": 1,
+            "research_agent_version": "before-oss-b896-v1",
+        })
+    return attempts
+
+
+def main() -> None:
+    affiliations = [army_affiliation(item) for item in ARMY_MATCHES]
+    affiliations.extend(substantive_affiliations())
+
+    claims = [army_identity_claim(item) for item in ARMY_MATCHES]
+    claims.extend(army_occupation_claim(item) for item in ARMY_MATCHES)
+    claims.extend(substantive_claims())
+
+    bundle = {
+        "bundle_version": "batch-896-v1",
+        "reviewer": "Before OSS Batch 896 evidence review",
+        "sources": sources(),
+        "organizations": organizations(),
+        "affiliations": affiliations,
+        "claims": claims,
+        "person_updates": person_updates(),
+        "research_attempts": research_attempts(),
+    }
+    OUTPUT.write_text(json.dumps(bundle, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
+if __name__ == "__main__":
+    main()
