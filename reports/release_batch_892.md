@@ -49,6 +49,18 @@ Date: 2026-10-18 America/New_York
 
 ## Publication verification
 
-Publication verification is pending. This section will record the immutable
-content commit, independent Test and Pages workflow runs, and unauthenticated
-deployed-release verification after publication succeeds.
+- Content commit:
+  c9e3ec08c8f9ba2a391ff3f1b7e836cd9605a85e.
+- Clean Linux Test workflow: passed in run 39115957124:
+  https://github.com/therealjameswilson/before-oss/actions/runs/39115957124
+- GitHub Pages build and deploy: passed in run 39115957138:
+  https://github.com/therealjameswilson/before-oss/actions/runs/39115957138
+- Unauthenticated verification: all 67 manifest assets, eight core routes, 37
+  source-register pages and all 23 directly affected profiles matched the
+  immutable content commit at
+  https://therealjameswilson.github.io/before-oss/.
+
+GitHub emitted non-failing maintenance annotations that its Node 20-based
+actions are currently being forced onto Node 24 and that ubuntu-latest is
+scheduled to migrate to Ubuntu 26. Neither annotation changed the successful
+release result.

@@ -36,9 +36,13 @@ subtests, the deterministic 200-profile audit, the 93/93 browser and
 accessibility matrix, the complete 25,086-page internal-link check, the
 private-identifier scan, local manifest verification, the zero-warning
 25,086-page Astro build, the dependency audit and two deterministic builds.
-Publication verification is pending; the latest verified public release remains
-Batch 891 until the Batch 892 content commit passes CI, Pages deployment and
-unauthenticated verification.
+Batch 892 is public from immutable content commit
+`c9e3ec08c8f9ba2a391ff3f1b7e836cd9605a85e`. GitHub Actions Test run
+`39115957124` and Pages deployment run `39115957138` both completed
+successfully. The unauthenticated deployed-release verifier matched all 67
+public assets (118,927,505 bytes), eight core routes, 37 source-register pages
+and all 23 directly affected profiles. The deployed manifest SHA-256 is
+`6572aea17382d89bf728b39fb6ca355dbe1b1ecabee383db7a395f0375f886dd`.
 
 Batch 891 completed PDF page 435, rows 24-46, from **Robert W Smith** through
 **Sunday B Smith**, preserving all 23 printed rows as separate source records
