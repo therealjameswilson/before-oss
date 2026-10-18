@@ -1,5 +1,37 @@
 # Research status
 
+Batch 878 completed PDF page 429, rows 1-23, from **Harland Simon** through
+**Hans Simons**, preserving all 23 printed rows as separate source records
+linked to 23 active people. All 23 now have terminal research outcomes. Ten
+reviewed Army identity bridges are accepted with protected identifiers kept
+private. The five Joseph Simon rows remain separate within one possible-
+duplicate group; an official M Sgt commendation creates a visible one-digit
+identifier conflict rather than a silent merge.
+
+Institutional and scholarly evidence documents **Hans Simons** at the New
+School from 1935, as Graduate Faculty dean in 1943, and briefly working for OSS
+as a Germany expert. The New School is published as a strongly date-bounded
+immediate civilian affiliation and last civilian employer. **Pierre Simon**'s
+Army and OSS/French Resistance liaison service is supported at high confidence,
+but the exact sequence remains uncertain and his 1948 company is excluded as
+postwar. A wartime chart naming Major **Theodore Simon** at Pontarlier remains
+a qualified identity lead because no identifier bridge proves it belongs to
+the indexed row. Unbridged Martin Sebastian Simon and Julius M. Simon
+employment leads remain rejected.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **13,157/23,937 (54.9651%)**;
+verified-employer coverage is **432/23,937 (1.8047%)**;
+verified-affiliation coverage is **952/23,937 (3.9771%)**; archival-review
+coverage is **11,624/23,937 (48.5608%)**. There are **10,775** `not_started`
+people, **584** possible-duplicate groups and **458** conflicts. The public
+projection contains **2,901** affiliations, **1,089** organizations, **5,392**
+sources and **7,939** published or qualified claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 429, row
+24, **Rose A Simons**. See `research/batch-878-progress.md` for the source-by-
+source audit. Batch 878 is locally validated but not yet published.
+
+
 Batch 877 completed PDF page 428, rows 24-46, from **Irimie Simion** through
 **Frederick J Simon**, preserving all 23 printed rows as separate source
 records linked to 23 active people. All 23 now have terminal research outcomes.

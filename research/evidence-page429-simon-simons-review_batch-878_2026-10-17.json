@@ -1,0 +1,1350 @@
+{
+  "bundle_version": "batch-878-v1",
+  "reviewer": "Before OSS Batch 878 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b878",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 713",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 429, rows 1-23; checked against extracted layout text and a rendered page image",
+      "access_date": "2026-10-17",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain preserved. Protected identifiers are private and masked from public data."
+    },
+    {
+      "key": "army-bulk-b878",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Department of Defense; Department of the Army",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted bulk file ASNEF.FIN.DAT; ten nonshared protected-identifier matches reviewed",
+      "access_date": "2026-10-17",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the National Archives and Records Administration, Record Group 64",
+      "rights_notes": "Full identifiers, raw rows, grade codes and occupation codes are not published or treated as employer evidence."
+    },
+    {
+      "key": "joseph-simon-commendation-b878",
+      "stable_url": "https://www.archives.gov/files/research/jfk/releases/104-10165-10120.pdf",
+      "archival_identifier": "NARA JFK release 104-10165-10120",
+      "title": "OSS commendations and citations",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "Undated wartime document; released by NARA",
+      "locator": "PDF page 80, underlying document page 2; M Sgt Joseph Simon commendation visually inspected",
+      "access_date": "2026-10-17",
+      "source_quality": "A_direct_official",
+      "collection_name": "JFK Assassination Records Collection",
+      "document_number": "104-10165-10120",
+      "rights_notes": "The protected identifier is used only for private comparison. Public notes state only that it differs by one digit from an index row."
+    },
+    {
+      "key": "hans-simons-new-school-b878",
+      "stable_url": "https://histories.newschool.edu/people/hans-simons",
+      "title": "Hans Simons",
+      "author_creator": "Histories of The New School editorial project",
+      "repository_publisher": "The New School Archives and Special Collections",
+      "publication_record_date": "2018-06-01",
+      "locator": "Biographical paragraphs covering his 1935 appointment, Graduate Faculty teaching, and 1943 deanship",
+      "access_date": "2026-10-17",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Histories of The New School",
+      "rights_notes": "Project-authored paraphrases and a short excerpt only; no image is reproduced."
+    },
+    {
+      "key": "hans-simons-hsozkult-b878",
+      "stable_url": "https://www.hsozkult.de/publicationreview/id/reb-25459",
+      "title": "Review of Philipp Heß, Ein deutscher Amerikaner",
+      "author_creator": "Benno Nietzel",
+      "repository_publisher": "H-Soz-Kult / Clio-online",
+      "publication_record_date": "2019-03-15",
+      "locator": "Paragraph describing Simons's New School wartime work and short service as an OSS Germany expert",
+      "access_date": "2026-10-17",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "H-Soz-Kult book reviews",
+      "rights_notes": "Only a concise project-authored paraphrase and a short evidence excerpt are retained."
+    },
+    {
+      "key": "pierre-simon-multiparts-b878",
+      "stable_url": "https://www.multiparts.com/about-us/",
+      "title": "About Us: History",
+      "author_creator": "Multiparts Inc.",
+      "repository_publisher": "Multiparts Inc.",
+      "locator": "Company history distinguishing Pierre Simon's World War II Army/OSS relationships from his 1948 company founding",
+      "access_date": "2026-10-17",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Multiparts company history",
+      "rights_notes": "The 1948 company is postwar and is explicitly excluded from pre-OSS employment fields."
+    },
+    {
+      "key": "pierre-simon-mansion-global-b878",
+      "stable_url": "https://www.mansionglobal.com/articles/grand-manhattan-home-of-wwii-french-resistance-liaison-lists-for-18-8-million-226952",
+      "title": "Grand Manhattan Home of WWII French Resistance Liaison Lists for $18.8 Million",
+      "author_creator": "Liz Lucking",
+      "repository_publisher": "Mansion Global",
+      "locator": "Opening biographical description of Pierre Simon's OSS/French Resistance liaison service",
+      "access_date": "2026-10-17",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "collection_name": "Mansion Global news archive",
+      "rights_notes": "Used only as independent biographical corroboration; real-estate and family details are excluded."
+    },
+    {
+      "key": "theodore-simon-oss-chart-b878",
+      "stable_url": "https://warfarehistorynetwork.com/wp-content/uploads/2022/08/WWII-History-December-2014.pdf",
+      "title": "Colonel Giblin OSS field book auction advertisement",
+      "author_creator": "Bonhams",
+      "repository_publisher": "World War II History",
+      "publication_record_date": "2014-12",
+      "locator": "Reproduction of Organization of OSS in the European Theater, dated 6 December 1944; Pontarlier box",
+      "access_date": "2026-10-17",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "World War II History, December 2014",
+      "rights_notes": "The reproduced chart is a candidate identity lead. It does not display the index's protected identifier."
+    },
+    {
+      "key": "martin-simon-obituary-rejected-b878",
+      "stable_url": "https://www.brown-forward.com/obituaries/martin-simon",
+      "title": "Martin Simon obituary",
+      "author_creator": "Brown-Forward Funeral Service",
+      "repository_publisher": "Brown-Forward Funeral Service",
+      "publication_record_date": "2020-04-05",
+      "locator": "Biographical paragraphs on Martin Sebastian Simon's music training and conventional Army intelligence service",
+      "access_date": "2026-10-17",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "Brown-Forward obituaries",
+      "rights_notes": "Retained only as a rejected namesake lead; no OSS or protected-identifier bridge was found."
+    },
+    {
+      "key": "julius-simon-obituary-rejected-b878",
+      "stable_url": "https://www.legacy.com/us/obituaries/legacyremembers/julius-simon-obituary?id=21973219",
+      "title": "Julius Simon obituary",
+      "author_creator": "Legacy Remembers",
+      "repository_publisher": "Legacy.com",
+      "publication_record_date": "2011-07-04",
+      "locator": "Obituary identifying Julius M. Simon, World War II Army service, and later scrap-metal industry work",
+      "access_date": "2026-10-17",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "Legacy Remembers obituaries",
+      "rights_notes": "Retained only as a rejected employment lead because no protected-identifier or OSS bridge links it to the indexed person."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "united-states-army-existing-b878",
+      "organization_id": "28a26f92-78af-5a1a-9c09-a843eb5975b4",
+      "canonical_name": "United States Army",
+      "historical_name": "Army of the United States",
+      "aliases": [
+        "U.S. Army",
+        "Army"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused; no narrower pre-OSS unit is invented."
+    },
+    {
+      "key": "new-school-existing-b878",
+      "organization_id": "5cbf2d4f-39f8-51e5-8e1c-5b7a61682346",
+      "canonical_name": "New School for Social Research",
+      "historical_name": "Graduate Faculty of the New School for Social Research",
+      "aliases": [
+        "The New School",
+        "University in Exile",
+        "Graduate Faculty"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "Existing organization reused; the historical Graduate Faculty wording is preserved separately from the canonical name."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "hans-simons-new-school-b878",
+      "person_id": "8dc403c5-f442-581c-9112-2a9dba40f025",
+      "organization_key": "new-school-existing-b878",
+      "organization_name_as_found": "Graduate Faculty at the New School",
+      "role_title": "Professor of political science and international relations; Dean of the Graduate Faculty",
+      "occupation": "Political scientist and university administrator",
+      "relationship_type": "employment",
+      "start_date": "1935",
+      "date_precision": "Joined the Graduate Faculty in 1935 and was appointed dean in 1943 while undertaking brief wartime OSS work.",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Institutional chronology places Simons at the New School from 1935 and as dean in 1943; the scholarly review says he briefly worked for OSS as a Germany expert. It does not say 'recruited from,' so the claim is strongly date-bounded rather than explicit-immediate."
+    },
+    {
+      "key": "pierre-simon-us-army-b878",
+      "person_id": "1fedfd07-ff3c-56ed-b7d1-c988d988cdc8",
+      "organization_key": "united-states-army-existing-b878",
+      "organization_name_as_found": "US Army",
+      "role_title": "Army serviceman and OSS/French Resistance liaison",
+      "occupation": "Military service",
+      "relationship_type": "military_assignment",
+      "date_precision": "World War II; the accessible sources do not establish the exact Army-to-OSS sequence or unit.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Multiparts says Simon served in the Army during World War II and formed OSS relationships; Mansion Global independently calls him an OSS/French Resistance liaison. Neither supplies a transfer date. His 1948 company is postwar and excluded."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-army-1520673e-b878",
+      "person_id": "1520673e-0135-5526-8218-2d9a02a23b56",
+      "claim_type": "identity",
+      "claim_text": "The indexed Roy L Simonds is a high-confidence match to the official Army bulk file.",
+      "evidence_paraphrase": "The exact indexed name and nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from the exact indexed name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named pre-OSS employer or immediate assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army entry-grade and occupation codes remain private and are not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b878",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-bulk-b878",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-army-1fedfd07-b878",
+      "person_id": "1fedfd07-ff3c-56ed-b7d1-c988d988cdc8",
+      "claim_type": "identity",
+      "claim_text": "The indexed Pierre Simon is a high-confidence match to the Army record and independently documented U.S. Army and OSS/French Resistance liaison.",
+      "evidence_paraphrase": "A nonshared protected identifier agrees despite a corrupted Army name field; two independent public sources identify Pierre Simon's Army and OSS liaison service.",
+      "identity_match_assessment": "High confidence from the nonshared protected identifier plus independent exact-name Army and OSS liaison evidence; the corrupted Army name field prevents confirmation.",
+      "temporal_assessment": "World War II Army and OSS liaison service is documented, but the precise sequence is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Army bulk name field is preserved as a conflict rather than silently corrected. Machine & Products began in 1948 and is excluded.",
+      "sources": [
+        {
+          "source_key": "nara-index-b878",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-bulk-b878",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "pierre-simon-multiparts-b878",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "pierre-simon-mansion-global-b878",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-army-41c851f3-b878",
+      "person_id": "41c851f3-5842-5fdd-aac3-40ee833471df",
+      "claim_type": "identity",
+      "claim_text": "The indexed Swils Simon is a high-confidence match to the official Army bulk file.",
+      "evidence_paraphrase": "The exact indexed name and nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from the exact indexed name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named pre-OSS employer or immediate assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army entry-grade and occupation codes remain private and are not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b878",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-bulk-b878",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-army-61684b52-b878",
+      "person_id": "61684b52-729c-5e1b-886a-d5e6694671ab",
+      "claim_type": "identity",
+      "claim_text": "The indexed Fred W Simons is a high-confidence match to the official Army bulk file.",
+      "evidence_paraphrase": "The exact indexed name and nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from the exact indexed name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named pre-OSS employer or immediate assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army entry-grade and occupation codes remain private and are not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b878",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-bulk-b878",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-army-63142618-b878",
+      "person_id": "63142618-27b1-5bdf-b58d-0cfdf31456fc",
+      "claim_type": "identity",
+      "claim_text": "The indexed Salim I Simon is a high-confidence match to the official Army bulk file.",
+      "evidence_paraphrase": "The exact indexed name and nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from the exact indexed name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named pre-OSS employer or immediate assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army entry-grade and occupation codes remain private and are not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b878",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-bulk-b878",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-army-6e84229d-b878",
+      "person_id": "6e84229d-c02e-5c8e-a75d-16d18303c00f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph Simon is a high-confidence match to the official Army bulk file.",
+      "evidence_paraphrase": "The exact indexed name and nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from the exact indexed name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named pre-OSS employer or immediate assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army entry-grade and occupation codes remain private and are not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b878",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-bulk-b878",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-army-92eaa7a4-b878",
+      "person_id": "92eaa7a4-c385-5b86-a5b9-0ba2f0dd9524",
+      "claim_type": "identity",
+      "claim_text": "The indexed Daniel J Simonelli is a high-confidence match to the official Army bulk file.",
+      "evidence_paraphrase": "The exact indexed name and nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from the exact indexed name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named pre-OSS employer or immediate assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army entry-grade and occupation codes remain private and are not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b878",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-bulk-b878",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-army-95421ec2-b878",
+      "person_id": "95421ec2-7bde-5ba0-9f28-4f84545283ae",
+      "claim_type": "identity",
+      "claim_text": "The indexed Philip Simon is a high-confidence match to the official Army bulk file.",
+      "evidence_paraphrase": "The exact indexed name and nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from the exact indexed name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named pre-OSS employer or immediate assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army entry-grade and occupation codes remain private and are not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b878",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-bulk-b878",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-army-b8395528-b878",
+      "person_id": "b8395528-a214-5759-be2c-6d0ff77123db",
+      "claim_type": "identity",
+      "claim_text": "The indexed Julius Simon is a high-confidence match to the official Army bulk file.",
+      "evidence_paraphrase": "The exact indexed name and nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from the exact indexed name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named pre-OSS employer or immediate assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army entry-grade and occupation codes remain private and are not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b878",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-bulk-b878",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-army-d7cc2615-b878",
+      "person_id": "d7cc2615-652f-50c6-9c30-e3e0a29eef4f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Henry J Simoneau is a high-confidence match to the official Army bulk file.",
+      "evidence_paraphrase": "The exact indexed name and nonshared protected identifier agree across the OSS index and official Army record.",
+      "identity_match_assessment": "High confidence from the exact indexed name and a nonshared protected identifier.",
+      "temporal_assessment": "The Army record establishes wartime identity but not a named pre-OSS employer or immediate assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Army entry-grade and occupation codes remain private and are not used as employer evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b878",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "army-bulk-b878",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "identity-hans-simons-b878",
+      "person_id": "8dc403c5-f442-581c-9112-2a9dba40f025",
+      "claim_type": "identity",
+      "claim_text": "The indexed Hans Simons is a high-confidence match to the New School dean who briefly worked for OSS as a Germany expert.",
+      "evidence_paraphrase": "The distinctive exact name, continuous New School chronology, and scholarly account's direct OSS identification converge on the same person.",
+      "identity_match_assessment": "High confidence from the distinctive name and a source explicitly linking the full biography to OSS service.",
+      "temporal_assessment": "The New School appointment began in 1935; he became dean in 1943 and briefly undertook OSS work during the war.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No service number or direct personnel-file image was available, so the identity remains high confidence rather than confirmed.",
+      "sources": [
+        {
+          "source_key": "nara-index-b878",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "hans-simons-new-school-b878",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "hans-simons-hsozkult-b878",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "immediate-new-school-hans-simons-b878",
+      "person_id": "8dc403c5-f442-581c-9112-2a9dba40f025",
+      "affiliation_key": "hans-simons-new-school-b878",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Hans Simons was employed by the New School as a political scientist and Graduate Faculty dean when he briefly worked for OSS as a Germany expert.",
+      "evidence_excerpt": "Kurzzeitig war Simons auch als Deutschlandexperte für das Office of Strategic Services tätig",
+      "evidence_paraphrase": "The institutional history dates his New School faculty work from 1935 and deanship from 1943; the scholarly review places brief OSS work in that wartime academic chronology.",
+      "identity_match_assessment": "High confidence from the distinctive exact name and direct biographical OSS linkage.",
+      "temporal_assessment": "Strongly date-bounded and overlapping wartime employment; the sources do not use an explicit 'recruited from' formulation or supply an OSS start date.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The New School is treated as both the immediate documented civilian affiliation and last civilian employer before the brief OSS work; earlier German posts remain earlier affiliations.",
+      "sources": [
+        {
+          "source_key": "hans-simons-new-school-b878",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "hans-simons-hsozkult-b878",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "wartime-army-pierre-simon-b878",
+      "person_id": "1fedfd07-ff3c-56ed-b7d1-c988d988cdc8",
+      "affiliation_key": "pierre-simon-us-army-b878",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Pierre Simon served in the United States Army during World War II and was documented as an OSS/French Resistance liaison.",
+      "evidence_excerpt": "served as a liaison officer between the U.S. Office of Strategic Services and the French Resistance",
+      "evidence_paraphrase": "The company history documents Army service and OSS relationships; an independent news account describes his OSS/French Resistance liaison role.",
+      "identity_match_assessment": "High confidence from the nonshared protected identifier and independent exact-name Army/OSS biographies.",
+      "temporal_assessment": "Documented wartime affiliation, but the exact Army-to-OSS sequence and immediate predecessor status remain uncertain.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "This is a military assignment, not a civilian employer. The company founded in 1948 is explicitly excluded as postwar.",
+      "sources": [
+        {
+          "source_key": "pierre-simon-multiparts-b878",
+          "support_type": "supports"
+        },
+        {
+          "source_key": "pierre-simon-mansion-global-b878",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "candidate-major-theodore-simon-b878",
+      "person_id": "2fef1dc1-17c1-5d5f-a433-60b537e76cf0",
+      "claim_type": "identity",
+      "claim_text": "A wartime OSS organizational chart identifies a Major Theodore Simon at Pontarlier, but the accessible source does not prove that he is the indexed Theodore Simon.",
+      "evidence_excerpt": "PONTARLIER — C.O.: MAJOR THEODORE SIMON",
+      "evidence_paraphrase": "A reproduced OSS European Theater chart dated 6 December 1944 names Major Theodore Simon as the Pontarlier commanding officer.",
+      "identity_match_assessment": "Probable exact-name OSS lead; no protected identifier, Box 713 reference, or second corroborating identifier is available.",
+      "temporal_assessment": "The chart is wartime and directly within OSS, but it does not document a pre-OSS employer or pathway.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The Major rank is not copied into the person's normalized index classification until the personnel file or another identifier-bearing source confirms the match.",
+      "sources": [
+        {
+          "source_key": "nara-index-b878",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "theodore-simon-oss-chart-b878",
+          "support_type": "supports"
+        }
+      ]
+    },
+    {
+      "key": "rejected-martin-sebastian-simon-b878",
+      "person_id": "44c3d56e-0b8d-5df7-ab0e-5b2d9ce8747c",
+      "claim_type": "identity",
+      "claim_text": "Martin Sebastian Simon's Army intelligence biography is not accepted as the Martin Simon indexed in Box 713.",
+      "evidence_paraphrase": "The obituary documents Fort Ritchie training, Third Army service, and a music career but contains no OSS or protected-identifier bridge.",
+      "identity_match_assessment": "Name-only agreement is insufficient for this unnumbered common-name index row.",
+      "temporal_assessment": "The obituary describes wartime Army service, but its relationship to the indexed OSS file is unestablished.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "low",
+      "publication_status": "rejected",
+      "match_notes": "The obituary's student status and music career are not transferred to the indexed person.",
+      "sources": [
+        {
+          "source_key": "nara-index-b878",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "martin-simon-obituary-rejected-b878",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "rejected-julius-m-simon-obituary-b878",
+      "person_id": "b8395528-a214-5759-be2c-6d0ff77123db",
+      "claim_type": "identity",
+      "claim_text": "The Julius M. Simon obituary is not accepted as employment evidence for the indexed Julius Simon.",
+      "evidence_paraphrase": "The obituary documents World War II Army service and Royal Green Corp. work, but it supplies no protected identifier or OSS-file link.",
+      "identity_match_assessment": "The indexed person's separate Army bulk identity is high confidence; the obituary remains an unlinked same-name lead.",
+      "temporal_assessment": "The obituary does not date the scrap-metal employment closely enough or connect it to the indexed person's OSS chronology.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "low",
+      "publication_status": "rejected",
+      "match_notes": "Royal Green Corp. is not added as an employer for the indexed person.",
+      "sources": [
+        {
+          "source_key": "nara-index-b878",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "julius-simon-obituary-rejected-b878",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "conflict-joseph-simon-row-6-b878",
+      "person_id": "11f08ff7-b791-59c1-ae63-8a140ea8dd8b",
+      "claim_type": "identity",
+      "claim_text": "An official OSS commendation names an M Sgt Joseph Simon, but the index contains two indistinguishable unnumbered M/SGT rows and a nearby one-digit identifier conflict.",
+      "evidence_paraphrase": "The commendation confirms an OSS master sergeant named Joseph Simon; page 429 does not provide a unique, agreeing bridge to this source row.",
+      "identity_match_assessment": "Conflicting or ambiguous. Name and rank context agree, but the unique identifier does not, or is absent from this row.",
+      "temporal_assessment": "The commendation documents OSS service but no pre-OSS employment and does not resolve which Box 713 row it belongs to.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "All five Joseph Simon source rows remain separate; the public record states only that a one-digit discrepancy exists and does not expose full identifiers.",
+      "sources": [
+        {
+          "source_key": "nara-index-b878",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "joseph-simon-commendation-b878",
+          "support_type": "context_only"
+        }
+      ]
+    },
+    {
+      "key": "conflict-joseph-simon-row-5-b878",
+      "person_id": "4c772fa4-b323-550a-b9d5-980f23d8d555",
+      "claim_type": "identity",
+      "claim_text": "An official OSS commendation names an M Sgt Joseph Simon, but its protected identifier differs by one digit from this Joseph T Simon row.",
+      "evidence_paraphrase": "The commendation confirms an OSS master sergeant named Joseph Simon; page 429 does not provide a unique, agreeing bridge to this source row.",
+      "identity_match_assessment": "Conflicting or ambiguous. Name and rank context agree, but the unique identifier does not, or is absent from this row.",
+      "temporal_assessment": "The commendation documents OSS service but no pre-OSS employment and does not resolve which Box 713 row it belongs to.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "All five Joseph Simon source rows remain separate; the public record states only that a one-digit discrepancy exists and does not expose full identifiers.",
+      "sources": [
+        {
+          "source_key": "nara-index-b878",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "joseph-simon-commendation-b878",
+          "support_type": "contradicts"
+        }
+      ]
+    },
+    {
+      "key": "conflict-joseph-simon-row-4-b878",
+      "person_id": "d1aba175-815d-58e9-9a33-e52c68d97e83",
+      "claim_type": "identity",
+      "claim_text": "An official OSS commendation names an M Sgt Joseph Simon, but the index contains two indistinguishable unnumbered M/SGT rows and a nearby one-digit identifier conflict.",
+      "evidence_paraphrase": "The commendation confirms an OSS master sergeant named Joseph Simon; page 429 does not provide a unique, agreeing bridge to this source row.",
+      "identity_match_assessment": "Conflicting or ambiguous. Name and rank context agree, but the unique identifier does not, or is absent from this row.",
+      "temporal_assessment": "The commendation documents OSS service but no pre-OSS employment and does not resolve which Box 713 row it belongs to.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "All five Joseph Simon source rows remain separate; the public record states only that a one-digit discrepancy exists and does not expose full identifiers.",
+      "sources": [
+        {
+          "source_key": "nara-index-b878",
+          "support_type": "context_only"
+        },
+        {
+          "source_key": "joseph-simon-commendation-b878",
+          "support_type": "context_only"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "0a133d53-f392-51a2-9b38-7358ff6b50b2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed name Harland Simon is preserved. Exact-name OSS, CIA FOIA, Library of Congress, employment, occupation, obituary, directory and archival searches did not establish a corroborated identity or reliable pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6e84229d-c02e-5c8e-a75d-16d18303c00f",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact indexed name and nonshared protected identifier agree with one official Army bulk record. Adjacent Joseph Simon rows have different or missing identifiers and remain separate pending Box 713 review.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 713 to resolve the five Joseph Simon entries and the one-digit discrepancy without merging any row by name alone.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "possible_duplicate_group": "p429-joseph-simon-box713-b878",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false
+    },
+    {
+      "person_id": "27cd5567-f240-5d50-aaeb-5851a1567f17",
+      "identity_status": "ambiguous",
+      "identity_evidence": "This Joseph T Simon row has a distinct protected officer identifier. The adjacent Joseph Simon rows and the M Sgt commendation do not establish that they are the same person; the five source rows remain separate.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 713 to resolve the five Joseph Simon entries and the one-digit discrepancy without merging any row by name alone.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "possible_duplicate_group": "p429-joseph-simon-box713-b878"
+    },
+    {
+      "person_id": "d1aba175-815d-58e9-9a33-e52c68d97e83",
+      "identity_status": "conflicting",
+      "identity_evidence": "An official OSS commendation names an M Sgt Joseph Simon, but page 429 contains two indistinguishable unnumbered M/SGT rows and a numbered Joseph T Simon row with a one-digit identifier discrepancy. The evidence does not identify this row.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 713 to resolve the five Joseph Simon entries and the one-digit discrepancy without merging any row by name alone.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "possible_duplicate_group": "p429-joseph-simon-box713-b878",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false
+    },
+    {
+      "person_id": "4c772fa4-b323-550a-b9d5-980f23d8d555",
+      "identity_status": "conflicting",
+      "identity_evidence": "An official OSS commendation names an M Sgt Joseph Simon, but its protected identifier differs by one digit from this numbered Joseph T Simon row. Two adjacent unnumbered M/SGT rows create additional ambiguity. No merge is justified.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 713 to resolve the five Joseph Simon entries and the one-digit discrepancy without merging any row by name alone.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "possible_duplicate_group": "p429-joseph-simon-box713-b878"
+    },
+    {
+      "person_id": "11f08ff7-b791-59c1-ae63-8a140ea8dd8b",
+      "identity_status": "conflicting",
+      "identity_evidence": "An official OSS commendation names an M Sgt Joseph Simon, but page 429 contains two indistinguishable unnumbered M/SGT rows and a numbered Joseph T Simon row with a one-digit identifier discrepancy. The evidence does not identify this row.",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 713 to resolve the five Joseph Simon entries and the one-digit discrepancy without merging any row by name alone.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "possible_duplicate_group": "p429-joseph-simon-box713-b878",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false
+    },
+    {
+      "person_id": "b8395528-a214-5759-be2c-6d0ff77123db",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact full indexed name and nonshared protected identifier agree with the official Army bulk record. This establishes wartime identity but not a named pre-OSS employer or immediate assignment.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false
+    },
+    {
+      "person_id": "44c3d56e-0b8d-5df7-ab0e-5b2d9ce8747c",
+      "identity_status": "unresolved",
+      "identity_evidence": "A Martin Sebastian Simon obituary documents Army intelligence training and a music career, but supplies no OSS or Box 713 bridge. The namesake is retained only as a rejected lead and none of his employment is transferred.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "95421ec2-7bde-5ba0-9f28-4f84545283ae",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact full indexed name and nonshared protected identifier agree with the official Army bulk record. This establishes wartime identity but not a named pre-OSS employer or immediate assignment.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false
+    },
+    {
+      "person_id": "1fedfd07-ff3c-56ed-b7d1-c988d988cdc8",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier agrees with the official Army bulk record even though its name field is visibly corrupted. Independent company history and a reputable news account identify Pierre Simon as a U.S. Army serviceman and an OSS/French Resistance liaison. This supports high confidence, not confirmation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 713 for the exact Army-to-OSS chronology and last civilian employer; keep the 1948 company excluded.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "name_variants": [
+        "Pierre F. Simon"
+      ]
+    },
+    {
+      "person_id": "63142618-27b1-5bdf-b58d-0cfdf31456fc",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact full indexed name and nonshared protected identifier agree with the official Army bulk record. This establishes wartime identity but not a named pre-OSS employer or immediate assignment.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false
+    },
+    {
+      "person_id": "41c851f3-5842-5fdd-aac3-40ee833471df",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact full indexed name and nonshared protected identifier agree with the official Army bulk record. This establishes wartime identity but not a named pre-OSS employer or immediate assignment.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false
+    },
+    {
+      "person_id": "2fef1dc1-17c1-5d5f-a433-60b537e76cf0",
+      "identity_status": "probable",
+      "identity_evidence": "A reproduced wartime OSS organizational chart names Major Theodore Simon as the Pontarlier commanding officer. The exact name and OSS context are suggestive, but the source does not connect the chart entry to the protected identifier in Box 713.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Compare the Box 713 personnel file with the 6 December 1944 OSS chart before accepting the Major Theodore Simon identity.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1520673e-0135-5526-8218-2d9a02a23b56",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact full indexed name and nonshared protected identifier agree with the official Army bulk record. This establishes wartime identity but not a named pre-OSS employer or immediate assignment.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false
+    },
+    {
+      "person_id": "2a3bb9f6-ad23-5e87-9ff4-63d6fc89e8e5",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed name Philip Simone is preserved. Exact-name OSS, CIA FOIA, Library of Congress, employment, occupation, obituary, directory and archival searches did not establish a corroborated identity or reliable pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3e2a786d-7f6d-5d60-a429-897eaf6e17e1",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed name Yseulte W Simone is preserved. Exact-name OSS, CIA FOIA, Library of Congress, employment, occupation, obituary, directory and archival searches did not establish a corroborated identity or reliable pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d7cc2615-652f-50c6-9c30-e3e0a29eef4f",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact full indexed name and nonshared protected identifier agree with the official Army bulk record. This establishes wartime identity but not a named pre-OSS employer or immediate assignment.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false
+    },
+    {
+      "person_id": "92eaa7a4-c385-5b86-a5b9-0ba2f0dd9524",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact full indexed name and nonshared protected identifier agree with the official Army bulk record. This establishes wartime identity but not a named pre-OSS employer or immediate assignment.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false
+    },
+    {
+      "person_id": "354b14b6-3b32-5a86-a3cd-3f0302cc7482",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed name Johnnie S Simoni is preserved. Exact-name OSS, CIA FOIA, Library of Congress, employment, occupation, obituary, directory and archival searches did not establish a corroborated identity or reliable pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "99d12010-75b9-56da-bebd-12c998d8a971",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed name Arthur Simons is preserved. Exact-name OSS, CIA FOIA, Library of Congress, employment, occupation, obituary, directory and archival searches did not establish a corroborated identity or reliable pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "38d387bf-956d-57e0-9212-a9ddda078fbb",
+      "identity_status": "unresolved",
+      "identity_evidence": "The indexed name Eliza J Simons is preserved. Exact-name OSS, CIA FOIA, Library of Congress, employment, occupation, obituary, directory and archival searches did not establish a corroborated identity or reliable pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "61684b52-729c-5e1b-886a-d5e6694671ab",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact full indexed name and nonshared protected identifier agree with the official Army bulk record. This establishes wartime identity but not a named pre-OSS employer or immediate assignment.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false
+    },
+    {
+      "person_id": "8dc403c5-f442-581c-9112-2a9dba40f025",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The distinctive exact name, New School chronology, and scholarly account explicitly identifying Hans Simons as a short-term OSS Germany expert support a high-confidence match to the indexed person.",
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 713 for Hans Simons's exact OSS start date and any earlier civilian-employment transition.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "harland-simon-0a133d53-b878",
+      "person_id": "0a133d53-f392-51a2-9b38-7358ff6b50b2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Harland Simon; NARA OSS/index context; CIA FOIA exact-name grouped site search; exact-name and meaningful variant OSS searches; employer and occupation around 1940; Library of Congress, institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_878",
+      "started_at": "2026-10-18T00:05:00Z",
+      "completed_at": "2026-10-18T00:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Results for Harland Simon lacked a protected identifier, direct OSS assignment, or Box 713 personnel-file bridge and were rejected or left unassigned.",
+      "research_notes": "The staged accessible-source protocol produced no reliable pre-OSS employer or sufficiently corroborated identity.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b878-v1"
+    },
+    {
+      "key": "joseph-simon-6e84229d-b878",
+      "person_id": "6e84229d-c02e-5c8e-a75d-16d18303c00f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph Simon; NARA OSS/index context; CIA FOIA exact-name grouped site search; exact-name and meaningful variant OSS searches; employer and occupation around 1940; Library of Congress, institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_878",
+      "started_at": "2026-10-18T00:05:00Z",
+      "completed_at": "2026-10-18T00:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Official Army identity evidence does not identify a named pre-OSS employer. Army entry-grade and occupation codes remain private and are not employer evidence.",
+      "research_notes": "Official Army identity accepted. No reliable named pre-OSS employer or immediate affiliation was established; coded Army fields remain private.",
+      "next_action": "Review Box 713 to resolve the five Joseph Simon entries and the one-digit discrepancy without merging any row by name alone.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b878-v1"
+    },
+    {
+      "key": "joseph-t-simon-27cd5567-b878",
+      "person_id": "27cd5567-f240-5d50-aaeb-5851a1567f17",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph T Simon; NARA OSS/index context; CIA FOIA exact-name grouped site search; exact-name and meaningful variant OSS searches; employer and occupation around 1940; Library of Congress, institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_878",
+      "started_at": "2026-10-18T00:05:00Z",
+      "completed_at": "2026-10-18T00:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Results for Joseph T Simon lacked a protected identifier, direct OSS assignment, or Box 713 personnel-file bridge and were rejected or left unassigned.",
+      "research_notes": "The staged accessible-source protocol produced no reliable pre-OSS employer or sufficiently corroborated identity.",
+      "next_action": "Review Box 713 to resolve the five Joseph Simon entries and the one-digit discrepancy without merging any row by name alone.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b878-v1"
+    },
+    {
+      "key": "joseph-simon-d1aba175-b878",
+      "person_id": "d1aba175-815d-58e9-9a33-e52c68d97e83",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph Simon; NARA OSS/index context; CIA FOIA exact-name grouped site search; exact-name and meaningful variant OSS searches; employer and occupation around 1940; Library of Congress, institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_878",
+      "started_at": "2026-10-18T00:05:00Z",
+      "completed_at": "2026-10-18T00:35:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "The official commendation agrees on name and M/SGT rank but cannot distinguish the two unnumbered rows or resolve the adjacent one-digit identifier conflict.",
+      "research_notes": "The official commendation was compared with all five Joseph Simon rows. The mismatch and duplicate uncertainty are preserved without merging or exposing identifiers.",
+      "next_action": "Review Box 713 to resolve the five Joseph Simon entries and the one-digit discrepancy without merging any row by name alone.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b878-v1"
+    },
+    {
+      "key": "joseph-t-simon-4c772fa4-b878",
+      "person_id": "4c772fa4-b323-550a-b9d5-980f23d8d555",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph T Simon; NARA OSS/index context; CIA FOIA exact-name grouped site search; exact-name and meaningful variant OSS searches; employer and occupation around 1940; Library of Congress, institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_878",
+      "started_at": "2026-10-18T00:05:00Z",
+      "completed_at": "2026-10-18T00:35:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "The official commendation's protected identifier differs by one digit, while two unnumbered M/SGT rows remain plausible alternatives; all five Joseph rows stay separate.",
+      "research_notes": "The official commendation was compared with all five Joseph Simon rows. The mismatch and duplicate uncertainty are preserved without merging or exposing identifiers.",
+      "next_action": "Review Box 713 to resolve the five Joseph Simon entries and the one-digit discrepancy without merging any row by name alone.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b878-v1"
+    },
+    {
+      "key": "joseph-simon-11f08ff7-b878",
+      "person_id": "11f08ff7-b791-59c1-ae63-8a140ea8dd8b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph Simon; NARA OSS/index context; CIA FOIA exact-name grouped site search; exact-name and meaningful variant OSS searches; employer and occupation around 1940; Library of Congress, institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_878",
+      "started_at": "2026-10-18T00:05:00Z",
+      "completed_at": "2026-10-18T00:35:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "The official commendation agrees on name and M/SGT rank but cannot distinguish the two unnumbered rows or resolve the adjacent one-digit identifier conflict.",
+      "research_notes": "The official commendation was compared with all five Joseph Simon rows. The mismatch and duplicate uncertainty are preserved without merging or exposing identifiers.",
+      "next_action": "Review Box 713 to resolve the five Joseph Simon entries and the one-digit discrepancy without merging any row by name alone.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b878-v1"
+    },
+    {
+      "key": "julius-simon-b8395528-b878",
+      "person_id": "b8395528-a214-5759-be2c-6d0ff77123db",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Julius Simon; NARA OSS/index context; CIA FOIA exact-name grouped site search; exact-name and meaningful variant OSS searches; employer and occupation around 1940; Library of Congress, institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_878",
+      "started_at": "2026-10-18T00:05:00Z",
+      "completed_at": "2026-10-18T00:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The Julius M. Simon obituary lacks the protected identifier and OSS-file bridge; its Royal Green Corp. employment is not transferred to the indexed Army identity.",
+      "research_notes": "Official Army identity accepted. No reliable named pre-OSS employer or immediate affiliation was established; coded Army fields remain private. A same-name obituary employer lead was rejected for lack of an identifier bridge.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b878-v1"
+    },
+    {
+      "key": "martin-simon-44c3d56e-b878",
+      "person_id": "44c3d56e-0b8d-5df7-ab0e-5b2d9ce8747c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Martin Simon; NARA OSS/index context; CIA FOIA exact-name grouped site search; exact-name and meaningful variant OSS searches; employer and occupation around 1940; Library of Congress, institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_878",
+      "started_at": "2026-10-18T00:05:00Z",
+      "completed_at": "2026-10-18T00:35:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "The Martin Sebastian Simon obituary documents Army intelligence service but no OSS, protected-identifier, or Box 713 link; his music education and employment are not transferred.",
+      "research_notes": "A plausible Army-intelligence namesake was reviewed and rejected because no OSS or protected-identifier bridge was found.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b878-v1"
+    },
+    {
+      "key": "philip-simon-95421ec2-b878",
+      "person_id": "95421ec2-7bde-5ba0-9f28-4f84545283ae",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Philip Simon; NARA OSS/index context; CIA FOIA exact-name grouped site search; exact-name and meaningful variant OSS searches; employer and occupation around 1940; Library of Congress, institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_878",
+      "started_at": "2026-10-18T00:05:00Z",
+      "completed_at": "2026-10-18T00:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Official Army identity evidence does not identify a named pre-OSS employer. Army entry-grade and occupation codes remain private and are not employer evidence.",
+      "research_notes": "Official Army identity accepted. No reliable named pre-OSS employer or immediate affiliation was established; coded Army fields remain private.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b878-v1"
+    },
+    {
+      "key": "pierre-simon-1fedfd07-b878",
+      "person_id": "1fedfd07-ff3c-56ed-b7d1-c988d988cdc8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Pierre Simon; NARA OSS/index context; CIA FOIA exact-name grouped site search; exact-name and meaningful variant OSS searches; employer and occupation around 1940; Library of Congress, institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_878",
+      "started_at": "2026-10-18T00:05:00Z",
+      "completed_at": "2026-10-18T00:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Official Army identity evidence does not identify a named pre-OSS employer. Army entry-grade and occupation codes remain private and are not employer evidence.",
+      "research_notes": "Army and OSS/French Resistance liaison evidence was reviewed. The wartime Army affiliation is published with uncertain sequence; no civilian employer was identified and the 1948 company is excluded.",
+      "next_action": "Review Box 713 for the exact Army-to-OSS chronology and last civilian employer; keep the 1948 company excluded.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b878-v1"
+    },
+    {
+      "key": "salim-i-simon-63142618-b878",
+      "person_id": "63142618-27b1-5bdf-b58d-0cfdf31456fc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Salim I Simon; NARA OSS/index context; CIA FOIA exact-name grouped site search; exact-name and meaningful variant OSS searches; employer and occupation around 1940; Library of Congress, institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_878",
+      "started_at": "2026-10-18T00:05:00Z",
+      "completed_at": "2026-10-18T00:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Official Army identity evidence does not identify a named pre-OSS employer. Army entry-grade and occupation codes remain private and are not employer evidence.",
+      "research_notes": "Official Army identity accepted. No reliable named pre-OSS employer or immediate affiliation was established; coded Army fields remain private.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b878-v1"
+    },
+    {
+      "key": "swils-simon-41c851f3-b878",
+      "person_id": "41c851f3-5842-5fdd-aac3-40ee833471df",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Swils Simon; NARA OSS/index context; CIA FOIA exact-name grouped site search; exact-name and meaningful variant OSS searches; employer and occupation around 1940; Library of Congress, institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_878",
+      "started_at": "2026-10-18T00:05:00Z",
+      "completed_at": "2026-10-18T00:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Official Army identity evidence does not identify a named pre-OSS employer. Army entry-grade and occupation codes remain private and are not employer evidence.",
+      "research_notes": "Official Army identity accepted. No reliable named pre-OSS employer or immediate affiliation was established; coded Army fields remain private.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b878-v1"
+    },
+    {
+      "key": "theodore-simon-2fef1dc1-b878",
+      "person_id": "2fef1dc1-17c1-5d5f-a433-60b537e76cf0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Theodore Simon; NARA OSS/index context; CIA FOIA exact-name grouped site search; exact-name and meaningful variant OSS searches; employer and occupation around 1940; Library of Congress, institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_878",
+      "started_at": "2026-10-18T00:05:00Z",
+      "completed_at": "2026-10-18T00:35:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "The OSS chart candidate is retained as probable and visibly qualified because no accessible source links its Major Theodore Simon to the indexed protected identifier.",
+      "research_notes": "A probable exact-name OSS chart lead was retained as visibly qualified, but no identifier bridge or pre-OSS affiliation was established.",
+      "next_action": "Compare the Box 713 personnel file with the 6 December 1944 OSS chart before accepting the Major Theodore Simon identity.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b878-v1"
+    },
+    {
+      "key": "roy-l-simonds-1520673e-b878",
+      "person_id": "1520673e-0135-5526-8218-2d9a02a23b56",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Roy L Simonds; NARA OSS/index context; CIA FOIA exact-name grouped site search; exact-name and meaningful variant OSS searches; employer and occupation around 1940; Library of Congress, institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_878",
+      "started_at": "2026-10-18T00:05:00Z",
+      "completed_at": "2026-10-18T00:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Official Army identity evidence does not identify a named pre-OSS employer. Army entry-grade and occupation codes remain private and are not employer evidence.",
+      "research_notes": "Official Army identity accepted. No reliable named pre-OSS employer or immediate affiliation was established; coded Army fields remain private.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b878-v1"
+    },
+    {
+      "key": "philip-simone-2a3bb9f6-b878",
+      "person_id": "2a3bb9f6-ad23-5e87-9ff4-63d6fc89e8e5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Philip Simone; NARA OSS/index context; CIA FOIA exact-name grouped site search; exact-name and meaningful variant OSS searches; employer and occupation around 1940; Library of Congress, institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_878",
+      "started_at": "2026-10-18T00:05:00Z",
+      "completed_at": "2026-10-18T00:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Results for Philip Simone lacked a protected identifier, direct OSS assignment, or Box 713 personnel-file bridge and were rejected or left unassigned.",
+      "research_notes": "The staged accessible-source protocol produced no reliable pre-OSS employer or sufficiently corroborated identity.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b878-v1"
+    },
+    {
+      "key": "yseulte-w-simone-3e2a786d-b878",
+      "person_id": "3e2a786d-7f6d-5d60-a429-897eaf6e17e1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Yseulte W Simone; NARA OSS/index context; CIA FOIA exact-name grouped site search; exact-name and meaningful variant OSS searches; employer and occupation around 1940; Library of Congress, institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_878",
+      "started_at": "2026-10-18T00:05:00Z",
+      "completed_at": "2026-10-18T00:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Results for Yseulte W Simone lacked a protected identifier, direct OSS assignment, or Box 713 personnel-file bridge and were rejected or left unassigned.",
+      "research_notes": "The staged accessible-source protocol produced no reliable pre-OSS employer or sufficiently corroborated identity.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b878-v1"
+    },
+    {
+      "key": "henry-j-simoneau-d7cc2615-b878",
+      "person_id": "d7cc2615-652f-50c6-9c30-e3e0a29eef4f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Henry J Simoneau; NARA OSS/index context; CIA FOIA exact-name grouped site search; exact-name and meaningful variant OSS searches; employer and occupation around 1940; Library of Congress, institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_878",
+      "started_at": "2026-10-18T00:05:00Z",
+      "completed_at": "2026-10-18T00:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Official Army identity evidence does not identify a named pre-OSS employer. Army entry-grade and occupation codes remain private and are not employer evidence.",
+      "research_notes": "Official Army identity accepted. No reliable named pre-OSS employer or immediate affiliation was established; coded Army fields remain private.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b878-v1"
+    },
+    {
+      "key": "daniel-j-simonelli-92eaa7a4-b878",
+      "person_id": "92eaa7a4-c385-5b86-a5b9-0ba2f0dd9524",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Daniel J Simonelli; NARA OSS/index context; CIA FOIA exact-name grouped site search; exact-name and meaningful variant OSS searches; employer and occupation around 1940; Library of Congress, institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_878",
+      "started_at": "2026-10-18T00:05:00Z",
+      "completed_at": "2026-10-18T00:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Official Army identity evidence does not identify a named pre-OSS employer. Army entry-grade and occupation codes remain private and are not employer evidence.",
+      "research_notes": "Official Army identity accepted. No reliable named pre-OSS employer or immediate affiliation was established; coded Army fields remain private. The direct CIA adapter failed closed on robots policy and the Library of Congress adapter returned a network error; grouped browser searches were still completed and the failures were not treated as negative evidence.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b878-v1"
+    },
+    {
+      "key": "johnnie-s-simoni-354b14b6-b878",
+      "person_id": "354b14b6-3b32-5a86-a3cd-3f0302cc7482",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Johnnie S Simoni; NARA OSS/index context; CIA FOIA exact-name grouped site search; exact-name and meaningful variant OSS searches; employer and occupation around 1940; Library of Congress, institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_878",
+      "started_at": "2026-10-18T00:05:00Z",
+      "completed_at": "2026-10-18T00:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Results for Johnnie S Simoni lacked a protected identifier, direct OSS assignment, or Box 713 personnel-file bridge and were rejected or left unassigned.",
+      "research_notes": "The staged accessible-source protocol produced no reliable pre-OSS employer or sufficiently corroborated identity.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b878-v1"
+    },
+    {
+      "key": "arthur-simons-99d12010-b878",
+      "person_id": "99d12010-75b9-56da-bebd-12c998d8a971",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Arthur Simons; NARA OSS/index context; CIA FOIA exact-name grouped site search; exact-name and meaningful variant OSS searches; employer and occupation around 1940; Library of Congress, institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_878",
+      "started_at": "2026-10-18T00:05:00Z",
+      "completed_at": "2026-10-18T00:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Results for Arthur Simons lacked a protected identifier, direct OSS assignment, or Box 713 personnel-file bridge and were rejected or left unassigned.",
+      "research_notes": "The staged accessible-source protocol produced no reliable pre-OSS employer or sufficiently corroborated identity.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b878-v1"
+    },
+    {
+      "key": "eliza-j-simons-38d387bf-b878",
+      "person_id": "38d387bf-956d-57e0-9212-a9ddda078fbb",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Eliza J Simons; NARA OSS/index context; CIA FOIA exact-name grouped site search; exact-name and meaningful variant OSS searches; employer and occupation around 1940; Library of Congress, institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_878",
+      "started_at": "2026-10-18T00:05:00Z",
+      "completed_at": "2026-10-18T00:35:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 1,
+      "rejection_reasons": "Results for Eliza J Simons lacked a protected identifier, direct OSS assignment, or Box 713 personnel-file bridge and were rejected or left unassigned.",
+      "research_notes": "The staged accessible-source protocol produced no reliable pre-OSS employer or sufficiently corroborated identity.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b878-v1"
+    },
+    {
+      "key": "fred-w-simons-61684b52-b878",
+      "person_id": "61684b52-729c-5e1b-886a-d5e6694671ab",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Fred W Simons; NARA OSS/index context; CIA FOIA exact-name grouped site search; exact-name and meaningful variant OSS searches; employer and occupation around 1940; Library of Congress, institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_878",
+      "started_at": "2026-10-18T00:05:00Z",
+      "completed_at": "2026-10-18T00:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "Official Army identity evidence does not identify a named pre-OSS employer. Army entry-grade and occupation codes remain private and are not employer evidence.",
+      "research_notes": "Official Army identity accepted. No reliable named pre-OSS employer or immediate affiliation was established; coded Army fields remain private.",
+      "next_action": "No reliable pre-OSS employer has yet been identified in the accessible sources reviewed. Review Box 713.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b878-v1"
+    },
+    {
+      "key": "hans-simons-8dc403c5-b878",
+      "person_id": "8dc403c5-f442-581c-9112-2a9dba40f025",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Hans Simons; NARA OSS/index context; CIA FOIA exact-name grouped site search; exact-name and meaningful variant OSS searches; employer and occupation around 1940; Library of Congress, institutional, newspaper, obituary, directory and archival sources; indexed Box 713",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_878",
+      "started_at": "2026-10-18T00:05:00Z",
+      "completed_at": "2026-10-18T00:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 0,
+      "rejection_reasons": "No earlier civilian employer is substituted for the documented New School employment; the accessible sources do not provide an exact OSS start date.",
+      "research_notes": "New School employment and a direct scholarly OSS linkage were reviewed. The evidence supports a strongly date-bounded immediate civilian affiliation and last civilian employer.",
+      "next_action": "Review Box 713 for Hans Simons's exact OSS start date and any earlier civilian-employment transition.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b878-v1"
+    }
+  ]
+}
