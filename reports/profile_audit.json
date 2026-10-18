@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T02:19:55+00:00",
+  "generated_at": "2026-10-18T02:47:00+00:00",
   "selection_version": "profile-audit-v2",
   "sample_size": 200,
   "checks": {
@@ -33,9 +33,9 @@
   },
   "identity_status_counts": {
     "ambiguous": 23,
-    "confirmed": 9,
+    "confirmed": 10,
     "conflicting": 12,
-    "high_confidence": 32,
+    "high_confidence": 31,
     "probable": 7,
     "unresolved": 117
   },
@@ -61,7 +61,7 @@
     "incomplete_or_initial_only_name": 20,
     "possible_duplicate_group": 30,
     "confirmed_or_high_published_claim": 44,
-    "medium_published_claim": 17,
+    "medium_published_claim": 18,
     "conflicting_published_claim": 10,
     "unresolved_identity": 117
   },
@@ -103,9 +103,9 @@
     "2998b40c-5285-58d6-bf7c-ae665d14182b",
     "000282d2-345f-5f0e-bc72-a9bdd37c2ea3",
     "3177bbf8-1643-5ef3-8fae-75c3a9dbc515",
+    "463fca81-940f-5324-96b6-fe87f8f73e04",
     "c02d5bb2-1bf7-5b38-b0b5-b6ed428ef0ba",
     "9fb11c29-98ac-5b82-813b-59bbc1efaed1",
-    "4a513641-7753-5dac-b1e5-b4d11d915fc3",
     "b1763bd5-7915-5240-83e1-2668f5a7cb64",
     "58dee0d5-c3fd-5bc2-8ee2-167c5c1aa76c",
     "2332bb8a-b5e4-53a7-99ab-280283049f83",

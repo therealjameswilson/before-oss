@@ -1,5 +1,39 @@
 # Research status
 
+Batch 882 completed PDF page 431, rows 1-23, from **Arthur A Skiathitis**
+through **Clarence W Skupic**, preserving all 23 printed rows as separate
+source records linked to 23 active people. All 23 now have terminal research
+outcomes. Ten official Army identity bridges are accepted with protected
+identifiers kept private. The identifier shared by the Hakon A Skjolsvik and H
+Skgolsvik index rows conflicts with a third, unrelated Army name; both index
+people remain separate and the conflict is published without the identifier.
+
+Institutional evidence documents **Einar Skinnarland** leaving Mårvatn dam
+work in March 1942 for Britain and Norwegian Independent Company No. 1. The
+work site is his explicit immediate affiliation, but its unnamed legal
+employer is not invented. U.S. Army Special Operations history confirms
+**Frank J Skokoski**'s 79th Infantry Division and 541st Parachute Infantry
+Regiment assignments before OSS BARDSEA. **George P Skouras** is confirmed by
+official OSS records; a 1940 theater-chain ownership interest is published
+only as a medium-confidence latest known civilian affiliation. Academic and
+journalism histories for **Folke K Skoog** and **Sibilla Skidelsky** remain
+visibly qualified because no direct OSS identity bridge was found.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **13,248/23,937 (55.3453%)**;
+verified-employer coverage is **433/23,937 (1.8089%)**;
+verified-affiliation coverage is **961/23,937 (4.0147%)**; archival-review
+coverage is **11,715/23,937 (48.9410%)**. There are **10,684** not-started
+people, **585** possible-duplicate groups and **460** conflicts. The public
+projection contains **2,919** affiliations, **1,098** organizations, **5,424**
+sources and **8,008** published or qualified claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 431, row
+24, **Peter J Skurla**. See research/batch-882-progress.md for the
+source-by-source audit. Batch 882 is a locally verified release candidate;
+publication awaits clean CI, Pages deployment and exact unauthenticated
+verification.
+
+
 Batch 881 completed PDF page 430, rows 24-46, from **Anne Sirotenko** through
 **H Skgolsvik**, preserving all 23 printed rows as separate source records
 linked to 23 active people. All 23 now have terminal research outcomes. Six
