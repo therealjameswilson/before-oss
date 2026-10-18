@@ -53,5 +53,18 @@ Date: 2026-10-18 America/New_York
 
 ## Publication verification
 
-Pending a content commit, independent Test and Pages runs, and unauthenticated
-deployed-release verification. Local checks do not establish publication.
+- Content commit:
+  6769eb579c9a507d2881a7e0648a5f97d30b21a7.
+- Clean Linux Test workflow: passed in run 39121265473:
+  https://github.com/therealjameswilson/before-oss/actions/runs/39121265473
+- GitHub Pages build and deploy: passed in run 39121265496:
+  https://github.com/therealjameswilson/before-oss/actions/runs/39121265496
+- Unauthenticated verification: all 67 manifest assets, eight core routes, 37
+  source-register pages and all 23 directly affected profiles matched the
+  immutable content commit at
+  https://therealjameswilson.github.io/before-oss/.
+
+GitHub emitted non-failing maintenance annotations that its Node 20-based
+actions are currently being forced onto Node 24 and that ubuntu-latest is
+scheduled to migrate to Ubuntu 26. Neither annotation changed the successful
+release result.
