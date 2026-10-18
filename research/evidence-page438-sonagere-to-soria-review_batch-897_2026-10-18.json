@@ -1,0 +1,1965 @@
+{
+  "bundle_version": "batch-897-v1",
+  "reviewer": "Before OSS Batch 897 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b897",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 729",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 438, rows 24-46; checked against layout-preserving text and a rendered page image",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain immutable. Full protected identifiers remain private and are masked from public data."
+    },
+    {
+      "key": "army-bulk-b897",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; protected-identifier fields checked; five identity candidates accepted and three conflicts retained after review",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full private identifier is retained in public assets. The file is incomplete and a non-hit is not negative proof."
+    },
+    {
+      "key": "army-tech-b897",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; fixed-width identifier, name, Army-entry-date, grade and civilian-occupation fields visually checked",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, alternate layouts, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b897",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 174 and 304 plus numeric list; categories 002, 138, 525, 686 and corrected 992 visually checked",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical labels name neither employers nor workplaces and are published only as qualified occupation or student-status evidence."
+    },
+    {
+      "key": "mariner-sands-sonagere-b897",
+      "stable_url": "https://www.marinersands.com/files/June%202018%20Final%20Compass.pdf",
+      "title": "The Compass, June 2018",
+      "author_creator": "Mariner Sands Country Club",
+      "repository_publisher": "Mariner Sands Country Club",
+      "publication_record_date": "2018-06",
+      "locator": "PDF physical pages 3-4; Henry 'Hank' Sonagere resident profile",
+      "access_date": "2026-10-18",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Only concise paraphrases and excerpts are retained. Postwar business details are not used as pre-OSS evidence."
+    },
+    {
+      "key": "snl-sonsteby-b897",
+      "stable_url": "https://snl.no/Gunnar_S%C3%B8nsteby",
+      "title": "Gunnar Sønsteby",
+      "author_creator": "Frode Færøy and Arnfinn Moland",
+      "repository_publisher": "Store norske leksikon",
+      "publication_record_date": "updated biographical article",
+      "locator": "Sections on education, audit work, Rjukan, Milorg and 1942 SOE recruitment",
+      "access_date": "2026-10-18",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "The article documents Norwegian and SOE chronology, not a direct OSS transfer; that distinction is preserved."
+    },
+    {
+      "key": "dartmouth-sorg-b897",
+      "stable_url": "https://archive.dartmouthalumnimagazine.com/article/1943/8/1/dartmouth-war-directory",
+      "title": "Dartmouth War Directory",
+      "author_creator": "Dartmouth Alumni Magazine",
+      "repository_publisher": "Dartmouth College",
+      "publication_record_date": "1943-08-01",
+      "locator": "Class of 1944 wartime directory entry for Karl G. Sorg",
+      "access_date": "2026-10-18",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Student status is kept separate from employment and Army service."
+    },
+    {
+      "key": "register-guard-sorg-b897",
+      "stable_url": "https://www.legacy.com/us/obituaries/registerguard/name/karl-sorg-obituary?id=18265253",
+      "title": "Karl Sorg Obituary",
+      "author_creator": "The Register-Guard",
+      "repository_publisher": "Legacy.com",
+      "publication_record_date": "2013",
+      "locator": "Biographical paragraphs on Western High School, Dartmouth and 1942-1946 Army service",
+      "access_date": "2026-10-18",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Used to corroborate the chronology of interrupted Dartmouth study; postwar career details are excluded."
+    },
+    {
+      "key": "altreitalie-soria-b897",
+      "stable_url": "https://www.altreitalie.it/pubblicazioni/rivista/n-61/acquista-versione-digitale/un-ebreo-fortunato-a-new-york-dario-soria-dagli-spaghetti-ai-long-playing-1939-1958-.kl",
+      "title": "Un ebreo fortunato a New York: Dario Soria dagli spaghetti ai long playing (1939-1958)",
+      "author_creator": "Eugenia Scarzanella",
+      "repository_publisher": "Altreitalie",
+      "publication_record_date": "2020",
+      "locator": "Issue 61; paragraphs on 1939 emigration, commercial activity, food venture, broadcasting and advertising",
+      "access_date": "2026-10-18",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "The article establishes prewar and wartime work but not the exact sequence relative to the OSS index file."
+    },
+    {
+      "key": "intellettualinfuga-soria-b897",
+      "stable_url": "https://intellettualinfuga.com/en/Funaro/Giorgio/66",
+      "title": "Dario Pellegrino Soria",
+      "author_creator": "Intellettuali in fuga dall'Italia fascista",
+      "repository_publisher": "Firenze University Press",
+      "publication_record_date": "project biographical profile",
+      "locator": "Profile paragraphs on 1939 emigration, Raxor Trading Company, food service, Voice of America and CBS",
+      "access_date": "2026-10-18",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "The page's separate statement about OSS cooperation concerns cousin Guido Soria, not Dario, and is not attributed to Dario here."
+    },
+    {
+      "key": "nypl-dorle-soria-b897",
+      "stable_url": "https://archives.nypl.org/mus/18993",
+      "archival_identifier": "JPB 13-16",
+      "title": "Dorle Soria papers",
+      "author_creator": "Compiled by Matthew Snyder",
+      "repository_publisher": "The New York Public Library",
+      "locator": "Biographical note on Dario Soria's Italian origin, 1939 immigration and 1942 marriage",
+      "access_date": "2026-10-18",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Music Division archival collections",
+      "rights_notes": "Used only as identity and chronology corroboration; the finding aid does not mention OSS service."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "82nd-airborne-b897",
+      "organization_id": "f0133687-d4bd-5cf5-ab49-d2b155920f3d",
+      "canonical_name": "82nd Airborne Division",
+      "historical_name": "82nd Airborne Division",
+      "aliases": [
+        "U.S. 82nd Airborne Division"
+      ],
+      "organization_type": "United States Army division",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "Existing canonical military organization reused; the source describes the division as the assignment before OSS recruitment."
+    },
+    {
+      "key": "gjensidige-b897",
+      "canonical_name": "Gjensidige",
+      "historical_name": "Gjensidige",
+      "organization_type": "insurance company",
+      "sector": "finance_and_banking",
+      "city": "Oslo",
+      "country": "Norway",
+      "normalization_notes": "The historical name is preserved as printed by the Norwegian biographical source; no modern corporate structure is inferred."
+    },
+    {
+      "key": "rjukan-salpeter-b897",
+      "canonical_name": "Rjukan Salpeterfabrikker",
+      "historical_name": "Rjukan Salpeterfabrikker",
+      "organization_type": "industrial nitrate works",
+      "sector": "business_and_industry",
+      "city": "Rjukan",
+      "country": "Norway",
+      "normalization_notes": "The source-era plant name is retained; no successor organization is substituted."
+    },
+    {
+      "key": "milorg-b897",
+      "canonical_name": "Milorg",
+      "historical_name": "Milorg",
+      "aliases": [
+        "Norwegian military resistance organization"
+      ],
+      "organization_type": "Norwegian resistance organization",
+      "sector": "military",
+      "country": "Norway",
+      "active_dates": "1940-1945",
+      "normalization_notes": "Volunteer resistance affiliation, not civilian employment and not relabeled as OSS service."
+    },
+    {
+      "key": "dartmouth-b897",
+      "organization_id": "876621b2-b018-55a7-800e-242fe98b2deb",
+      "canonical_name": "Dartmouth College",
+      "historical_name": "Dartmouth College",
+      "aliases": [
+        "Dartmouth"
+      ],
+      "organization_type": "college",
+      "sector": "academia_and_research",
+      "city": "Hanover",
+      "state_or_region": "New Hampshire",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused. Karl Sorg's relationship was student status, not employment."
+    },
+    {
+      "key": "raxor-b897",
+      "canonical_name": "Raxor Trading Company",
+      "historical_name": "Raxor Trading Company",
+      "aliases": [
+        "Raxor Trading Co."
+      ],
+      "organization_type": "trading company",
+      "sector": "business_and_industry",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "The project source identifies Soria as founder; the company is not silently merged with later food or record ventures."
+    },
+    {
+      "key": "voa-b897",
+      "canonical_name": "Voice of America",
+      "historical_name": "Voice of America",
+      "aliases": [
+        "VOA"
+      ],
+      "organization_type": "United States government broadcaster",
+      "sector": "federal_government",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "active_dates": "1942-present",
+      "normalization_notes": "Modeled as a federal government broadcasting assignment, not a private employer."
+    },
+    {
+      "key": "cbs-b897",
+      "organization_id": "8ca1ac9d-d2bb-52be-8317-b871153e531f",
+      "canonical_name": "Columbia Broadcasting System",
+      "historical_name": "Columbia Broadcasting System",
+      "aliases": [
+        "CBS",
+        "Columbia Broadcasting System, Inc."
+      ],
+      "organization_type": "broadcasting network",
+      "sector": "journalism_and_media",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "Existing historical CBS organization reused; no modern corporate successor is substituted."
+    },
+    {
+      "key": "darcy-b897",
+      "canonical_name": "D'Arcy Advertising Company",
+      "historical_name": "D'Arcy Advertising Company",
+      "aliases": [
+        "D'Arcy",
+        "D'Arcy Advertising"
+      ],
+      "organization_type": "advertising agency",
+      "sector": "advertising_and_public_relations",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "The historical agency name is retained; the Coca-Cola account does not make Coca-Cola Soria's employer."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "eddie-o-sondeno-occupation-b897",
+      "person_id": "d7666c7d-28f6-5cb3-a4bb-c95eb7d63ec9",
+      "relationship_type": "employment",
+      "occupation": "Carpenters",
+      "end_date": "1942-12-12",
+      "date_precision": "Historical civilian-occupation code 525 was recorded at Army entry on 1942-12-12; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical code is not converted into a named employer, institution, workplace or exact job title."
+    },
+    {
+      "key": "yook-l-soo-hoo-occupation-b897",
+      "person_id": "dc35d48f-b507-5254-a731-8b07ebb1c9ef",
+      "relationship_type": "student",
+      "occupation": "Student; institution not recorded",
+      "end_date": "1942-10-07",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1942-10-07; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical code is not converted into a named employer, institution, workplace or exact job title."
+    },
+    {
+      "key": "salvatore-sorbella-occupation-b897",
+      "person_id": "9abc9082-7d2d-537a-b98f-9ba6d5fa1852",
+      "relationship_type": "employment",
+      "occupation": "Blacksmiths, forgemen, and hammermen",
+      "end_date": "1942-11-30",
+      "date_precision": "Historical civilian-occupation code 686 was recorded at Army entry on 1942-11-30; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical code is not converted into a named employer, institution, workplace or exact job title."
+    },
+    {
+      "key": "karl-g-sorg-occupation-b897",
+      "person_id": "d6bf9abb-5bef-5887-b188-df9930ef13e3",
+      "relationship_type": "employment",
+      "occupation": "Actors and actresses",
+      "end_date": "1942-08-07",
+      "date_precision": "Historical civilian-occupation code 002 was recorded at Army entry on 1942-08-07; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical code is not converted into a named employer, institution, workplace or exact job title."
+    },
+    {
+      "key": "jack-a-sorgenfrei-occupation-b897",
+      "person_id": "4feea52b-18ad-589f-aff7-d2fd608a06e0",
+      "relationship_type": "employment",
+      "occupation": "Stock clerks",
+      "end_date": "1943-01-26",
+      "date_precision": "Historical civilian-occupation code 138 was recorded at Army entry on 1943-01-26; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical code is not converted into a named employer, institution, workplace or exact job title."
+    },
+    {
+      "key": "henry-sonagere-82nd-b897",
+      "person_id": "8c8efd33-2060-5c04-87f5-09599b422571",
+      "organization_key": "82nd-airborne-b897",
+      "organization_name_as_found": "82nd Airborne",
+      "role_title": "enlisted soldier",
+      "relationship_type": "military_assignment",
+      "end_date": "1942",
+      "date_precision": "The resident profile says Sonagere was in uniform with the 82nd Airborne and then volunteered after an OSS recruiting presentation; the exact transfer date is not supplied.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Military assignment is kept separate from civilian employment."
+    },
+    {
+      "key": "henry-sonagere-carpentry-b897",
+      "person_id": "8c8efd33-2060-5c04-87f5-09599b422571",
+      "role_title": "carpentry trainee",
+      "occupation": "carpenter",
+      "relationship_type": "unknown",
+      "end_date": "1941",
+      "date_precision": "The profile places Detroit carpentry training with his uncles before he entered uniform by age 21; no firm, payroll relationship or exact dates are named.",
+      "city": "Detroit",
+      "state_or_region": "Michigan",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "published",
+      "research_notes": "Occupation and training only; the uncles or an unnamed family concern are not invented as an employer."
+    },
+    {
+      "key": "gunnar-sonsteby-gjensidige-b897",
+      "person_id": "cf853711-8d0e-57db-9b23-2b0d101d5211",
+      "organization_key": "gjensidige-b897",
+      "organization_name_as_found": "Gjensidige",
+      "role_title": "audit assistant",
+      "occupation": "audit assistant",
+      "relationship_type": "employment",
+      "end_date": "1940",
+      "date_precision": "The biography places this job in Oslo before the German invasion and before the later Rjukan and Oslo audit positions; exact dates are not supplied.",
+      "city": "Oslo",
+      "country": "Norway",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "A documented employer, but not the final job before British SOE recruitment and not labeled immediate pre-OSS."
+    },
+    {
+      "key": "gunnar-sonsteby-rjukan-b897",
+      "person_id": "cf853711-8d0e-57db-9b23-2b0d101d5211",
+      "organization_key": "rjukan-salpeter-b897",
+      "organization_name_as_found": "Rjukan Salpeterfabrikker",
+      "role_title": "audit assistant",
+      "occupation": "audit assistant",
+      "relationship_type": "employment",
+      "start_date": "1940",
+      "end_date": "1941",
+      "date_precision": "The biography places the Rjukan job in winter 1940-1941 and says he returned to Oslo in spring 1941.",
+      "city": "Rjukan",
+      "country": "Norway",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "The source-era plant name is preserved; later Esso employment is postwar and excluded."
+    },
+    {
+      "key": "gunnar-sonsteby-oslo-audit-b897",
+      "person_id": "cf853711-8d0e-57db-9b23-2b0d101d5211",
+      "role_title": "audit assistant",
+      "occupation": "audit assistant",
+      "relationship_type": "employment",
+      "start_date": "1941",
+      "date_precision": "The biography says he obtained a new job at an unnamed Oslo accounting or audit firm in spring 1941; no employer name or end date is supplied.",
+      "city": "Oslo",
+      "country": "Norway",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "A real but unnamed employer; no organization record is fabricated."
+    },
+    {
+      "key": "gunnar-sonsteby-milorg-b897",
+      "person_id": "cf853711-8d0e-57db-9b23-2b0d101d5211",
+      "organization_key": "milorg-b897",
+      "organization_name_as_found": "Milorg",
+      "role_title": "contact and courier work",
+      "relationship_type": "volunteer",
+      "start_date": "1941",
+      "end_date": "1942",
+      "date_precision": "The biography places Milorg contact work from summer 1941 before British SOE recruitment in 1942; it does not describe an OSS transfer.",
+      "city": "Oslo",
+      "country": "Norway",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Volunteer resistance affiliation, not employment and not relabeled as OSS service."
+    },
+    {
+      "key": "karl-sorg-dartmouth-b897",
+      "person_id": "d6bf9abb-5bef-5887-b188-df9930ef13e3",
+      "organization_key": "dartmouth-b897",
+      "organization_name_as_found": "Dartmouth College",
+      "role_title": "student",
+      "relationship_type": "student",
+      "start_date": "1940",
+      "end_date": "1942",
+      "date_precision": "The obituary places Sorg at Dartmouth after his 1940 high-school graduation and says Army service interrupted his studies in 1942; Dartmouth's wartime directory corroborates his class affiliation.",
+      "city": "Hanover",
+      "state_or_region": "New Hampshire",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Student status is not counted as employment; the Army occupation code remains a separate qualified record."
+    },
+    {
+      "key": "dario-soria-raxor-b897",
+      "person_id": "31ea8aa4-b33f-5c5a-b2d4-2f3d6b75145a",
+      "organization_key": "raxor-b897",
+      "organization_name_as_found": "Raxor Trading Co.",
+      "role_title": "founder",
+      "occupation": "businessman",
+      "relationship_type": "self_employment",
+      "start_date": "1939",
+      "date_precision": "The institutional profile places the founding after Soria's March 1939 arrival in New York; no end date or sequence relative to later wartime work is established.",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Published as a qualified probable-identity affiliation, excluded from default verified-employer analytics."
+    },
+    {
+      "key": "dario-soria-food-venture-b897",
+      "person_id": "31ea8aa4-b33f-5c5a-b2d4-2f3d6b75145a",
+      "role_title": "restaurant and pasta-sauce venture partner",
+      "occupation": "food entrepreneur",
+      "relationship_type": "self_employment",
+      "start_date": "1941",
+      "date_precision": "The scholarly article dates a restaurant and spaghetti-and-sauce factory venture with his father and Giovanni Buitoni to 1941; no formal company name or end date is supplied.",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "No organization is fabricated and the relationship is not selected as the last civilian employer."
+    },
+    {
+      "key": "dario-soria-voa-b897",
+      "person_id": "31ea8aa4-b33f-5c5a-b2d4-2f3d6b75145a",
+      "organization_key": "voa-b897",
+      "organization_name_as_found": "Voice of America",
+      "role_title": "assistant director and program director",
+      "relationship_type": "government_assignment",
+      "start_date": "1942",
+      "date_precision": "The sources place Soria at Voice of America during the wartime New York period but do not establish its exact order relative to CBS, D'Arcy or any OSS association.",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Government broadcasting assignment; not presented as the immediate pre-OSS affiliation."
+    },
+    {
+      "key": "dario-soria-cbs-b897",
+      "person_id": "31ea8aa4-b33f-5c5a-b2d4-2f3d6b75145a",
+      "organization_key": "cbs-b897",
+      "organization_name_as_found": "CBS",
+      "role_title": "broadcasting work",
+      "relationship_type": "employment",
+      "date_precision": "The scholarly and institutional profiles document CBS work during the wartime New York period but do not supply exact dates or the sequence relative to OSS.",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Documented work, but neither immediate-pre-OSS nor last-civilian status is inferred."
+    },
+    {
+      "key": "dario-soria-darcy-b897",
+      "person_id": "31ea8aa4-b33f-5c5a-b2d4-2f3d6b75145a",
+      "organization_key": "darcy-b897",
+      "organization_name_as_found": "D'Arcy",
+      "role_title": "advertising work on the Coca-Cola account",
+      "occupation": "advertising",
+      "relationship_type": "employment",
+      "date_precision": "The scholarly article documents D'Arcy advertising work in the wartime period but gives no exact dates or sequence relative to OSS.",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "D'Arcy is the employer; Coca-Cola is the client and is not relabeled as Soria's employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-eddie-o-sondeno-b897",
+      "person_id": "d7666c7d-28f6-5cb3-a4bb-c95eb7d63ec9",
+      "claim_type": "identity",
+      "claim_text": "The indexed Eddie O Sondeno row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the nonshared protected-identifier bridge. The indexed and Army names agree exactly.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the coded Army field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b897",
+          "locator_override": "PDF page 438 row 25; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b897",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-yook-l-soo-hoo-b897",
+      "person_id": "dc35d48f-b507-5254-a731-8b07ebb1c9ef",
+      "claim_type": "identity",
+      "claim_text": "The indexed Yook L Soo Hoo row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the nonshared protected-identifier bridge. The indexed and Army names agree exactly.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the coded Army field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b897",
+          "locator_override": "PDF page 438 row 32; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b897",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-salvatore-sorbella-b897",
+      "person_id": "9abc9082-7d2d-537a-b98f-9ba6d5fa1852",
+      "claim_type": "identity",
+      "claim_text": "The indexed Salvatore Sorbella row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the nonshared protected-identifier bridge. The index spells the surname Sorbella and the Army record spells it Sorbello; the one-letter variant is retained.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the coded Army field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b897",
+          "locator_override": "PDF page 438 row 34; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b897",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-karl-g-sorg-b897",
+      "person_id": "d6bf9abb-5bef-5887-b188-df9930ef13e3",
+      "claim_type": "identity",
+      "claim_text": "The indexed Karl G Sorg row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the nonshared protected-identifier bridge. The indexed and Army names agree exactly.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the coded Army field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b897",
+          "locator_override": "PDF page 438 row 44; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b897",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-jack-a-sorgenfrei-b897",
+      "person_id": "4feea52b-18ad-589f-aff7-d2fd608a06e0",
+      "claim_type": "identity",
+      "claim_text": "The indexed Jack A Sorgenfrei row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the nonshared protected-identifier bridge. The indexed and Army names agree exactly.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the coded Army field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b897",
+          "locator_override": "PDF page 438 row 45; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b897",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-eddie-o-sondeno-b897",
+      "person_id": "d7666c7d-28f6-5cb3-a4bb-c95eb7d63ec9",
+      "affiliation_key": "eddie-o-sondeno-occupation-b897",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-12-12, Eddie O Sondeno was recorded in the historical carpenters category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 525, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not an employer, workplace, institution or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b897",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 525; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b897",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b897",
+          "locator_override": "PDF physical page 174; category 525",
+          "excerpt_override": "Carpenters"
+        }
+      ]
+    },
+    {
+      "key": "occupation-yook-l-soo-hoo-b897",
+      "person_id": "dc35d48f-b507-5254-a731-8b07ebb1c9ef",
+      "affiliation_key": "yook-l-soo-hoo-occupation-b897",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-10-07, Yook L Soo Hoo was recorded in the historical student category; no institution or employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 992, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not an employer, workplace, institution or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b897",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 992; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b897",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b897",
+          "locator_override": "PDF physical page 304; corrected Code No. 30 category 992",
+          "excerpt_override": "Students"
+        }
+      ]
+    },
+    {
+      "key": "occupation-salvatore-sorbella-b897",
+      "person_id": "9abc9082-7d2d-537a-b98f-9ba6d5fa1852",
+      "affiliation_key": "salvatore-sorbella-occupation-b897",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-11-30, Salvatore Sorbella was recorded in the historical blacksmiths, forgemen, and hammermen category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 686, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not an employer, workplace, institution or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b897",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 686; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b897",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b897",
+          "locator_override": "PDF physical page 174; category 686",
+          "excerpt_override": "Blacksmiths, forgemen, and hammermen"
+        }
+      ]
+    },
+    {
+      "key": "occupation-karl-g-sorg-b897",
+      "person_id": "d6bf9abb-5bef-5887-b188-df9930ef13e3",
+      "affiliation_key": "karl-g-sorg-occupation-b897",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-08-07, Karl G Sorg was recorded in the historical actors and actresses category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 002, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not an employer, workplace, institution or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b897",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 002; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b897",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b897",
+          "locator_override": "Code No. 30 numeric listing; category 002",
+          "excerpt_override": "Actors and actresses"
+        }
+      ]
+    },
+    {
+      "key": "occupation-jack-a-sorgenfrei-b897",
+      "person_id": "4feea52b-18ad-589f-aff7-d2fd608a06e0",
+      "affiliation_key": "jack-a-sorgenfrei-occupation-b897",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-01-26, Jack A Sorgenfrei was recorded in the historical stock clerks category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 138, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not an employer, workplace, institution or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b897",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 138; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b897",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b897",
+          "locator_override": "PDF physical page 304; category 138",
+          "excerpt_override": "Stock clerks"
+        }
+      ]
+    },
+    {
+      "key": "identity-henry-sonagere-b897",
+      "person_id": "8c8efd33-2060-5c04-87f5-09599b422571",
+      "claim_type": "identity",
+      "claim_text": "The indexed Henry Sonagere is a high-confidence match to the detailed Mariner Sands profile of OSS veteran Henry 'Hank' Sonagere.",
+      "evidence_paraphrase": "The rare exact name, compatible Army chronology and explicit account of OSS recruitment identify the same person.",
+      "identity_match_assessment": "High confidence from the distinctive name and an exceptionally specific institutional profile describing his OSS recruitment and wartime service.",
+      "temporal_assessment": "The profile directly sequences Detroit carpentry training, 82nd Airborne service and OSS volunteering.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Postwar career details are excluded from the pre-OSS claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b897",
+          "locator_override": "PDF page 438 row 24; T/5; Box 729"
+        },
+        {
+          "source_key": "mariner-sands-sonagere-b897",
+          "locator_override": "PDF physical pages 3-4; Henry Sonagere profile"
+        }
+      ]
+    },
+    {
+      "key": "immediate-henry-sonagere-82nd-b897",
+      "person_id": "8c8efd33-2060-5c04-87f5-09599b422571",
+      "affiliation_key": "henry-sonagere-82nd-b897",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Henry Sonagere's best-supported immediate pre-OSS assignment was with the 82nd Airborne Division.",
+      "evidence_paraphrase": "The profile says he was in uniform with the 82nd Airborne and volunteered after an OSS officer's recruiting presentation.",
+      "identity_match_assessment": "High confidence from the rare name and detailed OSS biography.",
+      "temporal_assessment": "Explicitly immediate in the narrative sequence, although no transfer date is given.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "A military assignment, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "mariner-sands-sonagere-b897",
+          "locator_override": "PDF physical page 4; Army and OSS sequence",
+          "excerpt_override": "After attending the meeting, Hank said, 'I can do that' and volunteered."
+        }
+      ]
+    },
+    {
+      "key": "occupation-henry-sonagere-carpentry-b897",
+      "person_id": "8c8efd33-2060-5c04-87f5-09599b422571",
+      "affiliation_key": "henry-sonagere-carpentry-b897",
+      "claim_type": "occupation",
+      "claim_text": "Before entering military service, Henry Sonagere trained in carpentry with his uncles in Detroit; no employer is named.",
+      "evidence_paraphrase": "The profile says he joined his uncles in Detroit to learn the carpentry trade before he was in uniform at age 21.",
+      "identity_match_assessment": "High confidence from the same detailed rare-name biography.",
+      "temporal_assessment": "Strongly date-bounded before Army and OSS service, but not proved to be formal employment.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No company or family employer is invented.",
+      "sources": [
+        {
+          "source_key": "mariner-sands-sonagere-b897",
+          "locator_override": "PDF physical page 3; pre-service chronology",
+          "excerpt_override": "joined his uncles in Detroit to learn the carpentry trade"
+        }
+      ]
+    },
+    {
+      "key": "identity-edgar-sonnanstine-conflict-b897",
+      "person_id": "064b5404-1961-558c-99bb-43fcd530dac5",
+      "claim_type": "identity",
+      "claim_text": "The Army record connected by this Edgar H Sonnanstine row's protected identifier names Brown Owen L; the material conflict remains unresolved.",
+      "evidence_paraphrase": "The protected identifier agrees, but every name element conflicts; a second Edgar H Sonnanstine row is also printed separately without an identifier.",
+      "identity_match_assessment": "Conflicting until Box 729 establishes whether the identifier is a transcription error and whether the two printed rows duplicate one person.",
+      "temporal_assessment": "Identity conflict only; the Army occupation category is not transferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Both immutable index rows remain separate in a manual duplicate group.",
+      "sources": [
+        {
+          "source_key": "nara-index-b897",
+          "locator_override": "PDF page 438 rows 28-29; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b897",
+          "locator_override": "Conflicting Army candidate Brown Owen L; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-daniel-sorensen-conflict-b897",
+      "person_id": "86e51692-30de-58b0-85b0-f832b109cabf",
+      "claim_type": "identity",
+      "claim_text": "Daniel A Sorensen shares a protected identifier with Robert W Sorenson, while the Army record names Daniel A Sorenson; the conflict remains unresolved.",
+      "evidence_paraphrase": "Two separately printed index names share one identifier, and the Army surname uses the Sorenson spelling.",
+      "identity_match_assessment": "Conflicting until Box 729 resolves the shared identifier and surname spelling.",
+      "temporal_assessment": "Identity conflict only; the Army upholstery occupation is not transferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "No merge is performed; both rows remain in serial-conflict:31326668.",
+      "sources": [
+        {
+          "source_key": "nara-index-b897",
+          "locator_override": "PDF page 438 rows 37 and 40; shared protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b897",
+          "locator_override": "Conflicting Army candidate Daniel A Sorenson; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-robert-w-sorenson-conflict-b897",
+      "person_id": "c3679746-d14b-5907-8ba4-79a0be4db1ce",
+      "claim_type": "identity",
+      "claim_text": "This Robert W Sorenson row shares a protected identifier with Daniel A Sorensen, and the Army record names Daniel A Sorenson; the conflict remains unresolved.",
+      "evidence_paraphrase": "The protected identifier is shared across two materially different index names and the Army record aligns only with Daniel's name form.",
+      "identity_match_assessment": "Conflicting until Box 729 resolves the shared identifier.",
+      "temporal_assessment": "Identity conflict only; the Army upholstery occupation is not transferred.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "A second Robert W Sorenson row with a different protected identifier remains a separate unresolved entity.",
+      "sources": [
+        {
+          "source_key": "nara-index-b897",
+          "locator_override": "PDF page 438 rows 37, 40 and 42; protected identifiers withheld"
+        },
+        {
+          "source_key": "army-bulk-b897",
+          "locator_override": "Conflicting Army candidate Daniel A Sorenson; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-gunnar-sonsteby-b897",
+      "person_id": "cf853711-8d0e-57db-9b23-2b0d101d5211",
+      "claim_type": "identity",
+      "claim_text": "The indexed Gunnar Sonsteby is a high-confidence match to Norwegian resistance leader Gunnar Sønsteby.",
+      "evidence_paraphrase": "The exceptionally distinctive unaccented index name matches the authoritative biography's name, wartime chronology and foreign resistance context.",
+      "identity_match_assessment": "High confidence from the rare name and compatible wartime biography; the index file's exact relationship to OSS still requires archival review.",
+      "temporal_assessment": "The biography documents Norwegian employment, Milorg and 1942 British SOE recruitment, not a direct OSS transfer.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The Norwegian spelling Gunnar Sønsteby is retained as a documented variant.",
+      "sources": [
+        {
+          "source_key": "nara-index-b897",
+          "locator_override": "PDF page 438 row 31; Box 729"
+        },
+        {
+          "source_key": "snl-sonsteby-b897",
+          "locator_override": "Biographical article; education, employment and resistance sections"
+        }
+      ]
+    },
+    {
+      "key": "employer-gunnar-sonsteby-gjensidige-b897",
+      "person_id": "cf853711-8d0e-57db-9b23-2b0d101d5211",
+      "affiliation_key": "gunnar-sonsteby-gjensidige-b897",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Gunnar Sønsteby worked as an audit assistant at Gjensidige in Oslo before the German invasion.",
+      "evidence_paraphrase": "The biography places this audit job before his later Rjukan and Oslo positions.",
+      "identity_match_assessment": "High confidence from the distinctive name and authoritative Norwegian biography.",
+      "temporal_assessment": "Documented prewar employment; not shown as immediate to OSS or SOE.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The source's Norwegian-to-SOE chronology is preserved without relabeling it as direct OSS recruitment.",
+      "sources": [
+        {
+          "source_key": "snl-sonsteby-b897",
+          "locator_override": "Biographical employment and resistance chronology"
+        }
+      ]
+    },
+    {
+      "key": "employer-gunnar-sonsteby-rjukan-b897",
+      "person_id": "cf853711-8d0e-57db-9b23-2b0d101d5211",
+      "affiliation_key": "gunnar-sonsteby-rjukan-b897",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "In winter 1940-1941, Gunnar Sønsteby worked as an audit assistant at Rjukan Salpeterfabrikker.",
+      "evidence_paraphrase": "The biography names the industrial plant and places the job before his spring 1941 return to Oslo.",
+      "identity_match_assessment": "High confidence from the distinctive name and authoritative Norwegian biography.",
+      "temporal_assessment": "Documented wartime employment before SOE recruitment; not selected as immediate pre-OSS.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The source's Norwegian-to-SOE chronology is preserved without relabeling it as direct OSS recruitment.",
+      "sources": [
+        {
+          "source_key": "snl-sonsteby-b897",
+          "locator_override": "Biographical employment and resistance chronology"
+        }
+      ]
+    },
+    {
+      "key": "employer-gunnar-sonsteby-oslo-audit-b897",
+      "person_id": "cf853711-8d0e-57db-9b23-2b0d101d5211",
+      "affiliation_key": "gunnar-sonsteby-oslo-audit-b897",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "In spring 1941, Gunnar Sønsteby obtained audit work at an unnamed Oslo accounting firm.",
+      "evidence_paraphrase": "The biography documents the role and city but does not name the firm.",
+      "identity_match_assessment": "High confidence from the distinctive name and authoritative Norwegian biography.",
+      "temporal_assessment": "Documented pre-SOE employment; no organization is fabricated and no immediate-OSS status is inferred.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The source's Norwegian-to-SOE chronology is preserved without relabeling it as direct OSS recruitment.",
+      "sources": [
+        {
+          "source_key": "snl-sonsteby-b897",
+          "locator_override": "Biographical employment and resistance chronology"
+        }
+      ]
+    },
+    {
+      "key": "affiliation-gunnar-sonsteby-milorg-b897",
+      "person_id": "cf853711-8d0e-57db-9b23-2b0d101d5211",
+      "affiliation_key": "gunnar-sonsteby-milorg-b897",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Gunnar Sønsteby performed contact work for Milorg before British SOE recruited him in 1942.",
+      "evidence_paraphrase": "The biography dates Milorg activity from summer 1941 and describes the later SOE recruitment.",
+      "identity_match_assessment": "High confidence from the distinctive name and authoritative Norwegian biography.",
+      "temporal_assessment": "Strongly date-bounded before SOE recruitment; volunteer resistance work, not employment or a proven OSS predecessor.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The source's Norwegian-to-SOE chronology is preserved without relabeling it as direct OSS recruitment.",
+      "sources": [
+        {
+          "source_key": "snl-sonsteby-b897",
+          "locator_override": "Biographical employment and resistance chronology"
+        }
+      ]
+    },
+    {
+      "key": "student-karl-sorg-dartmouth-b897",
+      "person_id": "d6bf9abb-5bef-5887-b188-df9930ef13e3",
+      "affiliation_key": "karl-sorg-dartmouth-b897",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Karl G. Sorg attended Dartmouth College until Army service interrupted his studies in 1942.",
+      "evidence_paraphrase": "Dartmouth's wartime directory lists him with the Class of 1944, and his obituary dates the interruption to Army entry in 1942.",
+      "identity_match_assessment": "High confidence from the exact name, Dartmouth chronology and the accepted protected-identifier Army bridge.",
+      "temporal_assessment": "Strongly date-bounded immediately before Army service, but student status is not employment.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer is inferred from college attendance.",
+      "sources": [
+        {
+          "source_key": "dartmouth-sorg-b897",
+          "locator_override": "Class of 1944 wartime directory entry"
+        },
+        {
+          "source_key": "register-guard-sorg-b897",
+          "locator_override": "Obituary paragraphs on education and 1942 Army entry"
+        }
+      ]
+    },
+    {
+      "key": "identity-dario-soria-b897",
+      "person_id": "31ea8aa4-b33f-5c5a-b2d4-2f3d6b75145a",
+      "claim_type": "identity",
+      "claim_text": "The indexed Dario Soria is probably the Italian émigré businessman and broadcaster Dario Pellegrino Soria, but the identity is not yet confirmed.",
+      "evidence_paraphrase": "Three institutional or scholarly sources describe one rare exact-name New York resident with a compatible wartime chronology; none directly links him to Box 729.",
+      "identity_match_assessment": "Probable, not high confidence. The rare name and chronology are strong, but an OSS, protected-identifier or personnel-file bridge is missing.",
+      "temporal_assessment": "The sources document 1939-1940s work but do not establish which affiliation immediately preceded any OSS relationship.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "A statement about OSS cooperation on the institutional page concerns cousin Guido Soria and is not attributed to Dario.",
+      "sources": [
+        {
+          "source_key": "nara-index-b897",
+          "locator_override": "PDF page 438 row 46; Box 729"
+        },
+        {
+          "source_key": "altreitalie-soria-b897",
+          "locator_override": "Issue 61 biographical article"
+        },
+        {
+          "source_key": "intellettualinfuga-soria-b897",
+          "locator_override": "Dario Pellegrino Soria profile"
+        },
+        {
+          "source_key": "nypl-dorle-soria-b897",
+          "support_type": "context_only",
+          "locator_override": "Dorle Soria papers biographical note"
+        }
+      ]
+    },
+    {
+      "key": "affiliation-dario-soria-raxor-b897",
+      "person_id": "31ea8aa4-b33f-5c5a-b2d4-2f3d6b75145a",
+      "affiliation_key": "dario-soria-raxor-b897",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Dario Soria founded Raxor Trading Company after arriving in New York in 1939.",
+      "evidence_paraphrase": "The institutional profile identifies the company and founder relationship.",
+      "identity_match_assessment": "Probable identity from the rare exact name and compatible New York wartime chronology; Box 729 has not been reviewed.",
+      "temporal_assessment": "Documented prewar self-employment; its end date and relation to later wartime work remain uncertain.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified evidence and excluded from default confirmed/high-confidence employer analytics.",
+      "sources": [
+        {
+          "source_key": "intellettualinfuga-soria-b897",
+          "locator_override": "Biographical paragraphs on Soria's New York commercial and broadcasting work"
+        }
+      ]
+    },
+    {
+      "key": "affiliation-dario-soria-food-b897",
+      "person_id": "31ea8aa4-b33f-5c5a-b2d4-2f3d6b75145a",
+      "affiliation_key": "dario-soria-food-venture-b897",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "In 1941, Dario Soria participated in a New York restaurant and spaghetti-and-sauce factory venture.",
+      "evidence_paraphrase": "The scholarly article names his father and Giovanni Buitoni as partners but gives no formal company name.",
+      "identity_match_assessment": "Probable identity from the rare exact name and compatible New York wartime chronology; Box 729 has not been reviewed.",
+      "temporal_assessment": "Documented prewar activity; not proved to be his last civilian employment.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified evidence and excluded from default confirmed/high-confidence employer analytics.",
+      "sources": [
+        {
+          "source_key": "altreitalie-soria-b897",
+          "locator_override": "Biographical paragraphs on Soria's New York commercial and broadcasting work"
+        }
+      ]
+    },
+    {
+      "key": "affiliation-dario-soria-voa-b897",
+      "person_id": "31ea8aa4-b33f-5c5a-b2d4-2f3d6b75145a",
+      "affiliation_key": "dario-soria-voa-b897",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Dario Soria held broadcasting roles at Voice of America during the wartime New York period.",
+      "evidence_paraphrase": "The institutional and scholarly profiles document the government broadcasting work.",
+      "identity_match_assessment": "Probable identity from the rare exact name and compatible New York wartime chronology; Box 729 has not been reviewed.",
+      "temporal_assessment": "Temporal relation to CBS, D'Arcy and OSS remains uncertain.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified evidence and excluded from default confirmed/high-confidence employer analytics.",
+      "sources": [
+        {
+          "source_key": "intellettualinfuga-soria-b897",
+          "locator_override": "Biographical paragraphs on Soria's New York commercial and broadcasting work"
+        },
+        {
+          "source_key": "altreitalie-soria-b897",
+          "support_type": "supports",
+          "locator_override": "Wartime employment chronology"
+        }
+      ]
+    },
+    {
+      "key": "affiliation-dario-soria-cbs-b897",
+      "person_id": "31ea8aa4-b33f-5c5a-b2d4-2f3d6b75145a",
+      "affiliation_key": "dario-soria-cbs-b897",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Dario Soria worked for the Columbia Broadcasting System during the wartime New York period.",
+      "evidence_paraphrase": "Two sources document CBS work but do not supply exact dates or sequence.",
+      "identity_match_assessment": "Probable identity from the rare exact name and compatible New York wartime chronology; Box 729 has not been reviewed.",
+      "temporal_assessment": "Temporal relation to VOA, D'Arcy and OSS remains uncertain.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified evidence and excluded from default confirmed/high-confidence employer analytics.",
+      "sources": [
+        {
+          "source_key": "altreitalie-soria-b897",
+          "locator_override": "Biographical paragraphs on Soria's New York commercial and broadcasting work"
+        },
+        {
+          "source_key": "intellettualinfuga-soria-b897",
+          "support_type": "supports",
+          "locator_override": "Wartime employment chronology"
+        }
+      ]
+    },
+    {
+      "key": "affiliation-dario-soria-darcy-b897",
+      "person_id": "31ea8aa4-b33f-5c5a-b2d4-2f3d6b75145a",
+      "affiliation_key": "dario-soria-darcy-b897",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Dario Soria performed advertising work for D'Arcy on the Coca-Cola account.",
+      "evidence_paraphrase": "The scholarly article identifies D'Arcy as the agency and Coca-Cola as the client.",
+      "identity_match_assessment": "Probable identity from the rare exact name and compatible New York wartime chronology; Box 729 has not been reviewed.",
+      "temporal_assessment": "Temporal relation to his broadcasting work and OSS remains uncertain.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Published as qualified evidence and excluded from default confirmed/high-confidence employer analytics.",
+      "sources": [
+        {
+          "source_key": "altreitalie-soria-b897",
+          "locator_override": "Biographical paragraphs on Soria's New York commercial and broadcasting work"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "d7666c7d-28f6-5cb3-a4bb-c95eb7d63ec9",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The historical occupation field is kept separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 729 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "dc35d48f-b507-5254-a731-8b07ebb1c9ef",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The historical occupation field is kept separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 729 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9abc9082-7d2d-537a-b98f-9ba6d5fa1852",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The index spelling Sorbella and Army spelling Sorbello share a nonshared protected identifier and matching given name. The one-letter variant is preserved.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 729 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Salvatore Sorbello"
+      ]
+    },
+    {
+      "person_id": "d6bf9abb-5bef-5887-b188-df9930ef13e3",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The historical occupation field is kept separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 729 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4feea52b-18ad-589f-aff7-d2fd608a06e0",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The historical occupation field is kept separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 729 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8c8efd33-2060-5c04-87f5-09599b422571",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare exact name and detailed institutional resident profile identify Henry 'Hank' Sonagere and explicitly describe his OSS recruitment from the 82nd Airborne.",
+      "name_variants": [
+        "Henry 'Hank' Sonagere",
+        "Hank Sonagere"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 729 for exact Army-to-OSS transfer dates and any named Detroit carpentry employer. The accessible source establishes occupation but not a firm.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e7d70d1f-3767-5c0e-95e8-422fb9f2838d",
+      "identity_status": "unresolved",
+      "identity_evidence": "Two separate index rows print the exact name Edgar H Sonnanstine in Box 729. This row has no protected identifier, and no evidence establishes whether the rows duplicate one person.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "name-duplicate:edgar-h-sonnanstine-page438",
+      "research_status": "requires_archival_review",
+      "next_action": "Review both Edgar H Sonnanstine files in Box 729 together; do not merge the rows or transfer the other row's conflicting Army lead.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "064b5404-1961-558c-99bb-43fcd530dac5",
+      "identity_status": "conflicting",
+      "identity_evidence": "This row's protected identifier points to an Army record for Brown Owen L, while a second Edgar H Sonnanstine row is printed separately without an identifier. No identity or occupation is transferred.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "name-duplicate:edgar-h-sonnanstine-page438",
+      "research_status": "conflicting_sources",
+      "next_action": "Review both Edgar H Sonnanstine files in Box 729 and resolve the Brown Owen L identifier conflict before any merge or occupation claim.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "cf853711-8d0e-57db-9b23-2b0d101d5211",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exceptionally distinctive unaccented index name, compatible wartime chronology and authoritative Norwegian biography identify resistance leader Gunnar Sønsteby at high confidence; the Box 729 relationship still requires review.",
+      "name_variants": [
+        "Gunnar Sønsteby"
+      ],
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 729 to establish why Sønsteby appears in the OSS index and whether any Norwegian, SOE or OSS affiliation is the immediate predecessor; do not use postwar Esso employment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "86e51692-30de-58b0-85b0-f832b109cabf",
+      "identity_status": "conflicting",
+      "identity_evidence": "Daniel A Sorensen and Robert W Sorenson share one protected identifier. The Army record names Daniel A Sorenson, introducing a surname spelling difference; no occupation is transferred.",
+      "name_variants": [
+        "Daniel A Sorenson"
+      ],
+      "manual_review_required": true,
+      "possible_duplicate_group": "serial-conflict:31326668",
+      "research_status": "conflicting_sources",
+      "next_action": "Review the Daniel A Sorensen and Robert W Sorenson files in Box 729 together before accepting any Army identity or occupation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "c3679746-d14b-5907-8ba4-79a0be4db1ce",
+      "identity_status": "conflicting",
+      "identity_evidence": "This Robert W Sorenson row shares a protected identifier with Daniel A Sorensen, while the Army record names Daniel A Sorenson. The names materially conflict and no occupation is transferred.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "serial-conflict:31326668",
+      "research_status": "conflicting_sources",
+      "next_action": "Review the Daniel A Sorensen and Robert W Sorenson files in Box 729 together before any merge or Army occupation transfer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "31ea8aa4-b33f-5c5a-b2d4-2f3d6b75145a",
+      "identity_status": "probable",
+      "identity_evidence": "The rare exact name and compatible 1939-1940s New York chronology probably identify émigré businessman and broadcaster Dario Pellegrino Soria, but no OSS, protected-identifier or Box 729 bridge confirms the match.",
+      "name_variants": [
+        "Dario Pellegrino Soria"
+      ],
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 729 for a direct identity bridge and chronology establishing which, if any, of Raxor, the food venture, Voice of America, CBS or D'Arcy immediately preceded OSS.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "10149fe1-e3ed-5e1c-9270-ee541143d978",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Hun Y Song, Box 729 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Exact-name and spelling-variant searches produced no defensible identity or pre-OSS affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 729 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "aa915e34-3cbf-50d1-88dd-fbcdb9f9e524",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Guy S Songy, Box 729 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. A French resistance finding-aid lead documents a namesake lieutenant's wartime activity but no reliable pre-OSS employer or direct Box 729 bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 729 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "a1b9e306-7701-5be7-a5ac-ca4cfbaabb42",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies R Sonnenburg, Box 729 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. The initial-only row remained ambiguous after official-context, exact-name and archival searches.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 729 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e081fd1c-ceb2-5092-96c0-590540c16b05",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Louis Soos, Box 729 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. The protected identifier produced no accepted Army bridge, and exact-name searches did not isolate the indexed person.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 729 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "447531c8-82a3-5723-bd41-49c31491f117",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Victor S Sordan, Box 729 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Exact-name, obituary, institutional and archival searches produced no defensible identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 729 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e3d434c4-9a4b-5f81-b011-b0a2dc92eb8a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Abel R Sorensen, Box 729 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Common-name results lacked a protected identifier, OSS assignment or Box 729 connection.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 729 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "3f8709f2-c28c-5cd9-9c07-a7dc267b09e3",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Hobart H Sorensen, Box 729 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. The protected identifier produced no accepted Army bridge, and exact-name results lacked an OSS or Box 729 connection.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 729 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "108c39e4-b6c3-5b84-afc8-0242bbc80ccd",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Elsie M Sorenson, Box 729 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Exact-name and variant searches produced multiple unbridged namesakes and no reliable wartime chronology.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 729 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e933f2d3-3614-58e0-9a3c-799554549255",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Robert J Sorenson, Box 729 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Common-name results did not supply two corroborating identifiers beyond the name.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 729 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "7f610304-9c29-5dc7-b4de-d5be0b5d443d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Robert W Sorenson, Box 729 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. This separately indexed Robert W Sorenson carries a different protected identifier from the disputed row 40 and remains unbridged.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 729 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "fdf2916f-eb18-55ba-8313-8fdeb82b628d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Ruby E Sorenson, Box 729 and archive location, but staged official-context, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Exact-name, institutional, obituary and directory searches produced no defensible OSS identity or pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 729 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page438-row24-henry-sonagere-b897",
+      "person_id": "8c8efd33-2060-5c04-87f5-09599b422571",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Henry Sonagere; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 729; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_897",
+      "started_at": "2026-10-18T15:30:00Z",
+      "completed_at": "2026-10-18T18:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. Reviewed evidence established an identity bridge and, where supported, a carefully bounded occupation, student, employer, military or government-assignment claim. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b897-v1"
+    },
+    {
+      "key": "page438-row25-eddie-o-sondeno-b897",
+      "person_id": "d7666c7d-28f6-5cb3-a4bb-c95eb7d63ec9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Eddie O Sondeno; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 729; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_897",
+      "started_at": "2026-10-18T15:30:00Z",
+      "completed_at": "2026-10-18T18:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. Reviewed evidence established an identity bridge and, where supported, a carefully bounded occupation, student, employer, military or government-assignment claim. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b897-v1"
+    },
+    {
+      "key": "page438-row26-hun-y-song-b897",
+      "person_id": "10149fe1-e3ed-5e1c-9270-ee541143d978",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Hun Y Song; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 729; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_897",
+      "started_at": "2026-10-18T15:30:00Z",
+      "completed_at": "2026-10-18T18:55:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name and spelling-variant searches produced no defensible identity or pre-OSS affiliation bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Exact-name and spelling-variant searches produced no defensible identity or pre-OSS affiliation bridge. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b897-v1"
+    },
+    {
+      "key": "page438-row27-guy-s-songy-b897",
+      "person_id": "aa915e34-3cbf-50d1-88dd-fbcdb9f9e524",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Guy S Songy; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 729; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_897",
+      "started_at": "2026-10-18T15:30:00Z",
+      "completed_at": "2026-10-18T18:55:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "A French resistance finding-aid lead documents a namesake lieutenant's wartime activity but no reliable pre-OSS employer or direct Box 729 bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. A French resistance finding-aid lead documents a namesake lieutenant's wartime activity but no reliable pre-OSS employer or direct Box 729 bridge. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b897-v1"
+    },
+    {
+      "key": "page438-row28-edgar-h-sonnanstine-b897",
+      "person_id": "e7d70d1f-3767-5c0e-95e8-422fb9f2838d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edgar H Sonnanstine; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 729; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_897",
+      "started_at": "2026-10-18T15:30:00Z",
+      "completed_at": "2026-10-18T18:55:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "A second identically printed index row exists, but no protected identifier or external source establishes whether the rows represent one person.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. A second identically printed index row exists, but no protected identifier or external source establishes whether the rows represent one person. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b897-v1"
+    },
+    {
+      "key": "page438-row29-edgar-h-sonnanstine-b897",
+      "person_id": "064b5404-1961-558c-99bb-43fcd530dac5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edgar H Sonnanstine; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 729; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_897",
+      "started_at": "2026-10-18T15:30:00Z",
+      "completed_at": "2026-10-18T18:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. Official index and Army records expose a material identity conflict; the candidate remains visible and no disputed occupation is transferred. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b897-v1"
+    },
+    {
+      "key": "page438-row30-r-sonnenburg-b897",
+      "person_id": "a1b9e306-7701-5be7-a5ac-ca4cfbaabb42",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "R Sonnenburg; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 729; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_897",
+      "started_at": "2026-10-18T15:30:00Z",
+      "completed_at": "2026-10-18T18:55:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The initial-only row remained ambiguous after official-context, exact-name and archival searches.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. The initial-only row remained ambiguous after official-context, exact-name and archival searches. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b897-v1"
+    },
+    {
+      "key": "page438-row31-gunnar-sonsteby-b897",
+      "person_id": "cf853711-8d0e-57db-9b23-2b0d101d5211",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Gunnar Sonsteby; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 729; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_897",
+      "started_at": "2026-10-18T15:30:00Z",
+      "completed_at": "2026-10-18T18:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. Reviewed evidence established an identity bridge and, where supported, a carefully bounded occupation, student, employer, military or government-assignment claim. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b897-v1"
+    },
+    {
+      "key": "page438-row32-yook-l-soo-hoo-b897",
+      "person_id": "dc35d48f-b507-5254-a731-8b07ebb1c9ef",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Yook L Soo Hoo; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 729; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_897",
+      "started_at": "2026-10-18T15:30:00Z",
+      "completed_at": "2026-10-18T18:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. Reviewed evidence established an identity bridge and, where supported, a carefully bounded occupation, student, employer, military or government-assignment claim. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b897-v1"
+    },
+    {
+      "key": "page438-row33-louis-soos-b897",
+      "person_id": "e081fd1c-ceb2-5092-96c0-590540c16b05",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Louis Soos; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 729; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_897",
+      "started_at": "2026-10-18T15:30:00Z",
+      "completed_at": "2026-10-18T18:55:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The protected identifier produced no accepted Army bridge, and exact-name searches did not isolate the indexed person.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. The protected identifier produced no accepted Army bridge, and exact-name searches did not isolate the indexed person. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b897-v1"
+    },
+    {
+      "key": "page438-row34-salvatore-sorbella-b897",
+      "person_id": "9abc9082-7d2d-537a-b98f-9ba6d5fa1852",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Salvatore Sorbella; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 729; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_897",
+      "started_at": "2026-10-18T15:30:00Z",
+      "completed_at": "2026-10-18T18:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. Reviewed evidence established an identity bridge and, where supported, a carefully bounded occupation, student, employer, military or government-assignment claim. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b897-v1"
+    },
+    {
+      "key": "page438-row35-victor-s-sordan-b897",
+      "person_id": "447531c8-82a3-5723-bd41-49c31491f117",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Victor S Sordan; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 729; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_897",
+      "started_at": "2026-10-18T15:30:00Z",
+      "completed_at": "2026-10-18T18:55:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name, obituary, institutional and archival searches produced no defensible identity bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Exact-name, obituary, institutional and archival searches produced no defensible identity bridge. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b897-v1"
+    },
+    {
+      "key": "page438-row36-abel-r-sorensen-b897",
+      "person_id": "e3d434c4-9a4b-5f81-b011-b0a2dc92eb8a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Abel R Sorensen; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 729; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_897",
+      "started_at": "2026-10-18T15:30:00Z",
+      "completed_at": "2026-10-18T18:55:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Common-name results lacked a protected identifier, OSS assignment or Box 729 connection.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Common-name results lacked a protected identifier, OSS assignment or Box 729 connection. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b897-v1"
+    },
+    {
+      "key": "page438-row37-daniel-a-sorensen-b897",
+      "person_id": "86e51692-30de-58b0-85b0-f832b109cabf",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Daniel A Sorensen; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 729; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_897",
+      "started_at": "2026-10-18T15:30:00Z",
+      "completed_at": "2026-10-18T18:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. Official index and Army records expose a material identity conflict; the candidate remains visible and no disputed occupation is transferred. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b897-v1"
+    },
+    {
+      "key": "page438-row38-hobart-h-sorensen-b897",
+      "person_id": "3f8709f2-c28c-5cd9-9c07-a7dc267b09e3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Hobart H Sorensen; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 729; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_897",
+      "started_at": "2026-10-18T15:30:00Z",
+      "completed_at": "2026-10-18T18:55:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The protected identifier produced no accepted Army bridge, and exact-name results lacked an OSS or Box 729 connection.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. The protected identifier produced no accepted Army bridge, and exact-name results lacked an OSS or Box 729 connection. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b897-v1"
+    },
+    {
+      "key": "page438-row39-elsie-m-sorenson-b897",
+      "person_id": "108c39e4-b6c3-5b84-afc8-0242bbc80ccd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Elsie M Sorenson; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 729; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_897",
+      "started_at": "2026-10-18T15:30:00Z",
+      "completed_at": "2026-10-18T18:55:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name and variant searches produced multiple unbridged namesakes and no reliable wartime chronology.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Exact-name and variant searches produced multiple unbridged namesakes and no reliable wartime chronology. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b897-v1"
+    },
+    {
+      "key": "page438-row40-robert-w-sorenson-b897",
+      "person_id": "c3679746-d14b-5907-8ba4-79a0be4db1ce",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert W Sorenson; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 729; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_897",
+      "started_at": "2026-10-18T15:30:00Z",
+      "completed_at": "2026-10-18T18:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. Official index and Army records expose a material identity conflict; the candidate remains visible and no disputed occupation is transferred. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b897-v1"
+    },
+    {
+      "key": "page438-row41-robert-j-sorenson-b897",
+      "person_id": "e933f2d3-3614-58e0-9a3c-799554549255",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert J Sorenson; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 729; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_897",
+      "started_at": "2026-10-18T15:30:00Z",
+      "completed_at": "2026-10-18T18:55:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Common-name results did not supply two corroborating identifiers beyond the name.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Common-name results did not supply two corroborating identifiers beyond the name. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b897-v1"
+    },
+    {
+      "key": "page438-row42-robert-w-sorenson-b897",
+      "person_id": "7f610304-9c29-5dc7-b4de-d5be0b5d443d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert W Sorenson; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 729; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_897",
+      "started_at": "2026-10-18T15:30:00Z",
+      "completed_at": "2026-10-18T18:55:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "This separately indexed Robert W Sorenson carries a different protected identifier from the disputed row 40 and remains unbridged.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. This separately indexed Robert W Sorenson carries a different protected identifier from the disputed row 40 and remains unbridged. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b897-v1"
+    },
+    {
+      "key": "page438-row43-ruby-e-sorenson-b897",
+      "person_id": "fdf2916f-eb18-55ba-8313-8fdeb82b628d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ruby E Sorenson; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 729; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_897",
+      "started_at": "2026-10-18T15:30:00Z",
+      "completed_at": "2026-10-18T18:55:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name, institutional, obituary and directory searches produced no defensible OSS identity or pre-OSS affiliation.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Exact-name, institutional, obituary and directory searches produced no defensible OSS identity or pre-OSS affiliation. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b897-v1"
+    },
+    {
+      "key": "page438-row44-karl-g-sorg-b897",
+      "person_id": "d6bf9abb-5bef-5887-b188-df9930ef13e3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Karl G Sorg; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 729; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_897",
+      "started_at": "2026-10-18T15:30:00Z",
+      "completed_at": "2026-10-18T18:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. Reviewed evidence established an identity bridge and, where supported, a carefully bounded occupation, student, employer, military or government-assignment claim. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b897-v1"
+    },
+    {
+      "key": "page438-row45-jack-a-sorgenfrei-b897",
+      "person_id": "4feea52b-18ad-589f-aff7-d2fd608a06e0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Jack A Sorgenfrei; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 729; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_897",
+      "started_at": "2026-10-18T15:30:00Z",
+      "completed_at": "2026-10-18T18:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. Reviewed evidence established an identity bridge and, where supported, a carefully bounded occupation, student, employer, military or government-assignment claim. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b897-v1"
+    },
+    {
+      "key": "page438-row46-dario-soria-b897",
+      "person_id": "31ea8aa4-b33f-5c5a-b2d4-2f3d6b75145a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Dario Soria; NARA/index context; CIA Reading Room or equivalent official-source check; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 729; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_897",
+      "started_at": "2026-10-18T15:30:00Z",
+      "completed_at": "2026-10-18T18:55:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. Reviewed evidence established an identity bridge and, where supported, a carefully bounded occupation, student, employer, military or government-assignment claim. Search-result snippets were discovery aids only, no paywall or access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b897-v1"
+    }
+  ]
+}

@@ -1,5 +1,44 @@
 # Research status
 
+Batch 897 completed PDF page 438, rows 24-46, from **Henry Sonagere** through
+**Dario Soria**, preserving all 23 printed rows and linking them to 23 active
+people. All 23 have terminal research outcomes. Five official Army identity
+bridges are accepted. The two Edgar H Sonnanstine rows remain separate, and the
+Edgar/Brown and Daniel A Sorensen/Robert W Sorenson identifier conflicts remain
+visible without transferring disputed occupations.
+
+Henry Sonagere's 82nd Airborne assignment is published as his explicit
+immediate pre-OSS pathway, while his unnamed Detroit carpentry training remains
+occupation evidence rather than an invented employer. Gunnar Sønsteby's
+Gjensidige, Rjukan Salpeterfabrikker, unnamed Oslo audit-firm and Milorg roles
+are published with the Norwegian-to-SOE chronology intact; his postwar Esso
+career is excluded. Karl G Sorg's Dartmouth student status remains separate
+from his qualified Army occupation code. Dario Soria's Raxor, food-venture,
+Voice of America, CBS and D'Arcy affiliations are published only as
+medium-confidence, temporally qualified evidence because Box 729 has not yet
+confirmed the identity or immediate sequence.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **13,588/23,936 (56.7680%)**;
+verified-employer coverage is **438/23,936 (1.8299%)**;
+verified-affiliation coverage is **976/23,936 (4.0775%)**; archival-review
+coverage is **12,059/23,936 (50.3802%)**. There are **10,343** not-started
+people, **599** possible-duplicate groups and **467** conflicts. The public
+projection contains **3,031** affiliations, **1,120** organizations, **5,530**
+sources and **8,242** published, qualified or conflict claims. Full-index
+historical research remains unfinished. The next indexed boundary is PDF page
+439, row 1, **Gene Sorisi**, visually confirmed in Box 730. See
+`research/batch-897-progress.md` for the source-by-source audit. Batch 897 has
+passed isolated and canonical idempotency imports, database integrity checks,
+complete 522-page extraction validation, derived export regeneration, coverage
+reporting, public-data redaction, all 146 Python tests and 84 parameterized
+subtests, the deterministic 200-profile audit, the 96/96 browser and
+accessibility matrix, the 25,101-page internal-link check, private-identifier
+scan, local manifest verification, zero-warning 25,101-page Astro build,
+dependency audit and two deterministic builds. CI, deployment and
+unauthenticated live verification remain separate release gates until the
+content commit is published.
+
 Batch 896 completed PDF page 438, rows 1-23, from **Herbert K Sokoloff** through
 **Francis F Sommer**, preserving all 23 printed rows and linking them to 23
 active people. All 23 have terminal research outcomes. Four official Army
