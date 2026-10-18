@@ -48,5 +48,18 @@ Date: 2026-10-17 America/New_York
 
 ## Publication verification
 
-Pending the content commit, clean Linux Test workflow, Pages deployment and
-unauthenticated verification of the live GitHub Pages release.
+- Content commit:
+  `87da302097ed4613cb91de734ce67013feb96a4d`.
+- Clean Linux Test workflow: passed in
+  [run 39088412522](https://github.com/therealjameswilson/before-oss/actions/runs/39088412522).
+- GitHub Pages build and deploy: passed in
+  [run 39088412676](https://github.com/therealjameswilson/before-oss/actions/runs/39088412676).
+- Unauthenticated verification: all 67 manifest assets, eight core routes, 37
+  source-register pages and all 23 direct Batch 880 profiles matched the
+  immutable content commit at
+  `https://therealjameswilson.github.io/before-oss/`.
+
+GitHub emitted non-failing maintenance annotations that its Node 20-based
+actions are currently being forced onto Node 24 and that `ubuntu-latest` is
+scheduled to migrate to Ubuntu 26. Neither annotation changed the successful
+release result.

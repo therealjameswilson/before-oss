@@ -27,8 +27,11 @@ projection contains **2,907** affiliations, **1,091** organizations, **5,404**
 sources and **7,969** published or qualified claims. Full-index historical
 research remains unfinished. The next indexed boundary is PDF page 430, row
 24, **Anne Sirotenko**. See `research/batch-880-progress.md` for the source-by-
-source audit. Batch 880 is locally release-ready; publication verification is
-pending.
+source audit. Batch 880 is published at content commit
+`87da302097ed4613cb91de734ce67013feb96a4d`: the clean Linux Test workflow and
+Pages deployment succeeded, and the unauthenticated verifier confirmed all 67
+public assets, eight core routes, 37 source-register pages and 23 direct Batch
+880 profiles at `https://therealjameswilson.github.io/before-oss/`.
 
 
 Batch 879 completed PDF page 429, rows 24-46, from **Rose A Simons** through

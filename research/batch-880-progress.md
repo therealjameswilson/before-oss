@@ -113,8 +113,14 @@ retested, and the current audit reports zero vulnerabilities.
 
 ## Publication status
 
-Batch 880 is locally release-ready. Publication and unauthenticated live-site
-verification are the remaining release steps.
+Batch 880 is published at content commit
+`87da302097ed4613cb91de734ce67013feb96a4d`. The clean Linux Test workflow
+passed in [run 39088412522](https://github.com/therealjameswilson/before-oss/actions/runs/39088412522),
+and the GitHub Pages build and deploy passed in
+[run 39088412676](https://github.com/therealjameswilson/before-oss/actions/runs/39088412676).
+The unauthenticated release verifier confirmed all 67 manifest assets, eight
+core routes, 37 source-register pages and all 23 direct Batch 880 profiles at
+`https://therealjameswilson.github.io/before-oss/`.
 
 ## Resume commands
 
