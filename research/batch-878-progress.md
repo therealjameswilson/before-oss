@@ -129,9 +129,14 @@ The production dependency audit reports zero vulnerabilities.
 
 ## Publication status
 
-Batch 878 is locally validated but not yet published. Public totals remain
-those of Batch 877 until the release is committed, deployed, and independently
-verified.
+Batch 878 is published at commit
+`2d990fc0c395d135dcece498cd20aa9b7206d4e7`. The clean Linux Test workflow
+passed in [run 39083222731](https://github.com/therealjameswilson/before-oss/actions/runs/39083222731),
+and the GitHub Pages build and deploy passed in
+[run 39083222717](https://github.com/therealjameswilson/before-oss/actions/runs/39083222717).
+The unauthenticated release verifier confirmed all 67 manifest assets, eight
+core routes, 36 source-register pages and all 23 direct Batch 878 profiles at
+`https://therealjameswilson.github.io/before-oss/`.
 
 ## Resume commands
 
