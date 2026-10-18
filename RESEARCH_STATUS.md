@@ -1,5 +1,42 @@
 # Research status
 
+Batch 890 completed PDF page 435, rows 1-23, from **Martha F Smith** through
+the first **Robert F Smith** entry, preserving all 23 printed rows as separate
+source records linked to 23 active people. All 23 have terminal research
+outcomes. Five official Army identity bridges are accepted with protected
+identifiers kept private. The two exact **Martin E Smith** rows remain separate
+and are flagged as a possible duplicate group rather than merged; Army evidence
+for the first row is not transferred to the second.
+
+Five medium-confidence findings are published as qualified non-employer
+evidence: Martin E Smith in the historical machine-shop category; Noble M
+Smith in the paymaster, payroll-clerk and timekeeper category; Paul L Smith in
+the chauffeur and driver category; and Philip J Smith and Ralph L Smith as
+students. Noble's Army date field is malformed, so no calendar date or pre-OSS
+sequence is invented. The student records name no school, and none of the five
+findings is marked as an immediate affiliation or last civilian employer.
+Nicol Smith's previously verified self-employed travel-writing history remains
+unchanged and is not counted as a new Batch 890 finding.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **13,430/23,937 (56.1056%)**;
+verified-employer coverage is **435/23,937 (1.8173%)**;
+verified-affiliation coverage is **964/23,937 (4.0272%)**; archival-review
+coverage is **11,898/23,937 (49.7055%)**. There are **10,502** not-started
+people, **591** possible-duplicate groups and **462** conflicts. The public
+projection contains **2,962** affiliations, **1,104** organizations, **5,472**
+sources and **8,115** published or qualified claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 435, rows
+24-46, from **Robert W Smith** through **Sunday B Smith**. See
+`research/batch-890-progress.md` for the source-by-source audit. Batch 890 has
+passed isolated and canonical idempotency imports, database integrity checks,
+derived export regeneration and public-data redaction. All 146 Python tests,
+the deterministic 200-profile audit, the 96/96 browser and accessibility
+matrix, the complete 25,086-page internal-link check, the private-identifier
+scan, local manifest verification, the zero-warning 25,086-page Astro build,
+the dependency audit and two deterministic builds pass locally. Public
+deployment verification is pending.
+
 Batch 889 completed PDF page 434, rows 24-46, from **Jesse L Smith** through
 **Marie A Smith**, preserving all 23 printed rows as separate source records
 linked to 23 active people. All 23 have terminal research outcomes. Four
