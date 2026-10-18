@@ -34,8 +34,11 @@ derived export regeneration and public-data redaction. All 146 Python tests,
 the deterministic 200-profile audit, the 96/96 browser and accessibility
 matrix, the complete 25,086-page internal-link check, the private-identifier
 scan, local manifest verification, the zero-warning 25,086-page Astro build,
-the dependency audit and two deterministic builds pass locally. Public
-deployment verification is pending.
+the dependency audit and two deterministic builds pass locally. Batch 890 is
+public from content commit `250b6fc6d8f9118171f769e4397f8c3cea526ca4`;
+independent Test run `39109637157` and Pages run `39109637108` passed, and the
+unauthenticated verifier matched all 67 public assets, eight core routes, 37
+source-register pages and all 22 directly updated profiles.
 
 Batch 889 completed PDF page 434, rows 24-46, from **Jesse L Smith** through
 **Marie A Smith**, preserving all 23 printed rows as separate source records

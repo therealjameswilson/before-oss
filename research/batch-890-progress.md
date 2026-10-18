@@ -136,8 +136,16 @@ deployment.
 
 ## Publication status
 
-Batch 890 is not yet published. The latest verified public release remains
-Batch 889 at <https://therealjameswilson.github.io/before-oss/>.
+Batch 890 is public from immutable content commit
+`250b6fc6d8f9118171f769e4397f8c3cea526ca4`. GitHub Actions Test run
+`39109637157` and Pages deployment run `39109637108` both completed
+successfully. The unauthenticated deployed-release verifier matched all 67
+public assets (118,713,154 bytes), eight core routes, 37 source-register pages
+and all 22 directly updated Batch 890 profiles. The deployed manifest SHA-256
+is `e3a3f2099497ab074fafe425d7250adaa105056dc4f1a94657f672d5ec80d5ba`.
+
+Public site:
+<https://therealjameswilson.github.io/before-oss/>
 
 ## Resume inputs
 

@@ -49,6 +49,18 @@ Date: 2026-10-18 America/New_York
 
 ## Publication verification
 
-Pending content commit, independent GitHub Test, Pages deployment and
-unauthenticated live-release verification. The latest verified public release
-remains Batch 889 until all four gates pass.
+- Content commit:
+  250b6fc6d8f9118171f769e4397f8c3cea526ca4.
+- Clean Linux Test workflow: passed in run 39109637157:
+  https://github.com/therealjameswilson/before-oss/actions/runs/39109637157
+- GitHub Pages build and deploy: passed in run 39109637108:
+  https://github.com/therealjameswilson/before-oss/actions/runs/39109637108
+- Unauthenticated verification: all 67 manifest assets, eight core routes, 37
+  source-register pages and all 22 directly updated Batch 890 profiles matched
+  the immutable content commit at
+  https://therealjameswilson.github.io/before-oss/.
+
+GitHub emitted non-failing maintenance annotations that its Node 20-based
+actions are currently being forced onto Node 24 and that ubuntu-latest is
+scheduled to migrate to Ubuntu 26. Neither annotation changed the successful
+release result.
