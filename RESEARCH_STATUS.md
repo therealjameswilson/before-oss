@@ -1,5 +1,38 @@
 # Research status
 
+Batch 879 completed PDF page 429, rows 24-46, from **Rose A Simons** through
+**Nathan Sinai**, preserving all 23 printed rows as separate source records
+linked to 23 active people. All 23 now have terminal research outcomes. Eight
+official Army identity bridges are accepted with protected identifiers kept
+private. Deurell C Simpson's middle-initial disagreement and Wendel K.
+Simpson's first-name spelling difference remain explicit rather than being
+silently harmonized.
+
+Institutional and scholarly evidence documents **Nathan Sinai** as a University
+of Michigan professor of hygiene and public health whose academic duties
+continued during his OSS Research and Analysis work. Michigan is published as
+a strongly date-bounded immediate affiliation and last civilian employer, not
+as an explicit recruited-from claim. **Lee Simonson** is a high-confidence
+match to the theatrical designer and OSS contracted consultant; his Theatre
+Guild work is correctly modeled as a documented prewar professional
+affiliation, not employment. An official New York roster supports **Ronald S
+Simpson**'s Troop E, 101st Cavalry service, but the Army-to-OSS chronology
+remains uncertain. Unbridged Wendell Kohl Simpson and Marie L Sinaguglia
+occupation leads remain rejected.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **13,180/23,937 (55.0612%)**;
+verified-employer coverage is **433/23,937 (1.8089%)**;
+verified-affiliation coverage is **954/23,937 (3.9855%)**; archival-review
+coverage is **11,647/23,937 (48.6569%)**. There are **10,752** `not_started`
+people, **584** possible-duplicate groups and **458** conflicts. The public
+projection contains **2,904** affiliations, **1,090** organizations, **5,399**
+sources and **7,952** published or qualified claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 430, row 1,
+**William A Sincek**. See `research/batch-879-progress.md` for the source-by-
+source audit. Batch 879 is locally release-ready and awaiting publication.
+
+
 Batch 878 completed PDF page 429, rows 1-23, from **Harland Simon** through
 **Hans Simons**, preserving all 23 printed rows as separate source records
 linked to 23 active people. All 23 now have terminal research outcomes. Ten
