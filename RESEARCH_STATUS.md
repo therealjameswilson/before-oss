@@ -1,5 +1,36 @@
 # Research status
 
+Batch 880 completed PDF page 430, rows 1-23, from **William A Sincek** through
+**Angelo Sirico**, preserving all 23 printed rows as separate source records
+linked to 23 active people. All 23 now have terminal research outcomes. Ten
+official Army identity bridges are accepted with protected identifiers kept
+private. Nick Sineveck's reviewed suffix and the Aristotle/Aristole spelling
+difference remain explicit rather than being silently harmonized.
+
+Official evidence documents **Charles Siragusa** at the Federal Bureau of
+Narcotics before his 1944 OSS assignment, after earlier Immigration and
+Naturalization Service work. The bureau is published as a strongly
+date-bounded immediate government affiliation and last civilian employer, not
+as an explicit recruited-from claim. Filmportal documents **Curt Siodmak**'s
+1942 RKO screenplay and 1943 OSS volunteering; RKO remains a documented prewar
+professional affiliation rather than inferred employment. The famous Henry E
+Singleton and Irving Singer namesakes remain rejected as unbridged leads, and
+the two Martin Singer rows remain distinct.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **13,202/23,937 (55.1531%)**;
+verified-employer coverage is **433/23,937 (1.8089%)**;
+verified-affiliation coverage is **956/23,937 (3.9938%)**; archival-review
+coverage is **11,669/23,937 (48.7488%)**. There are **10,730** `not_started`
+people, **584** possible-duplicate groups and **458** conflicts. The public
+projection contains **2,907** affiliations, **1,091** organizations, **5,404**
+sources and **7,969** published or qualified claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 430, row
+24, **Anne Sirotenko**. See `research/batch-880-progress.md` for the source-by-
+source audit. Batch 880 is locally release-ready; publication verification is
+pending.
+
+
 Batch 879 completed PDF page 429, rows 24-46, from **Rose A Simons** through
 **Nathan Sinai**, preserving all 23 printed rows as separate source records
 linked to 23 active people. All 23 now have terminal research outcomes. Eight
