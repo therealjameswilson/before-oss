@@ -1,0 +1,1440 @@
+{
+  "bundle_version": "batch-885-reviewed-evidence-v1",
+  "reviewer": "Before OSS batch 885 source, identity and occupation review",
+  "sources": [
+    {
+      "key": "nara-index-b885",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 720-721",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 432, rows 24-46; checked against layout-preserving text and a rendered page image",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain preserved. Full protected identifiers remain private and are masked from public data."
+    },
+    {
+      "key": "army-bulk-b885",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; seven exact protected-identifier matches reviewed",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full private identifier is retained in public assets. The file is incomplete and a non-hit is not negative proof."
+    },
+    {
+      "key": "army-tech-b885",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; fixed-width identifier, name, Army-entry-date and civilian-occupation fields",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; documentation warnings about source damage, alternate layouts, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b885",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 170-178; civilian-occupation codes 097, 098, 101, 340, 497, 553 and 992 visually and textually checked",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical occupation labels name neither employers nor workplaces and do not establish chronology relative to OSS service."
+    },
+    {
+      "key": "loc-hart-b885",
+      "stable_url": "https://www.loc.gov/item/mfdipbib000483/",
+      "archival_identifier": "Library of Congress item mfdipbib000483",
+      "title": "Interview with Jane Smiley Hart",
+      "author_creator": "Penne Laingen; Association for Diplomatic Studies and Training",
+      "repository_publisher": "Library of Congress",
+      "publication_record_date": "1988-03-30",
+      "locator": "Editorial summary on transcript PDF page 1; lost opening recording summarized by the oral-history editors",
+      "access_date": "2026-10-18",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Foreign Affairs Oral History Collection",
+      "rights_notes": "The editorial summary identifies Cornell, one year teaching English in a public school in Alfred, New York, and later OSS editorial work in Cairo."
+    },
+    {
+      "key": "anera-hart-b885",
+      "stable_url": "https://www.anera.org/wp-content/uploads/2013/03/24_July-to-October-1973.pdf",
+      "title": "ANERA News Letter, Number 24",
+      "author_creator": "American Near East Refugee Aid",
+      "repository_publisher": "American Near East Refugee Aid",
+      "publication_record_date": "1973-07/10",
+      "locator": "PDF page 2, New Board Members: Jane Smiley Hart",
+      "access_date": "2026-10-18",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "ANERA newsletters",
+      "rights_notes": "A selective OCR check was required because the eight-page bulletin is image-only. The notice sequences Cornell, school teaching and OSS Cairo service."
+    },
+    {
+      "key": "dartmouth-hart-b885",
+      "stable_url": "https://archive.dartmouthalumnimagazine.com/article/1959/4/1/1933",
+      "title": "1933",
+      "author_creator": "Wesley H. Beattie and Sidney Stoneman",
+      "repository_publisher": "Dartmouth Alumni Magazine",
+      "publication_record_date": "1959-04",
+      "locator": "Class notes, Parker T. Hart profile",
+      "access_date": "2026-10-18",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Dartmouth Alumni Magazine Archive",
+      "rights_notes": "The institutional class note identifies Jane Smiley of Ithaca, New York, as an OSS agent in Cairo; the wording is used only as identity corroboration."
+    },
+    {
+      "key": "smets-infiltration-b885",
+      "stable_url": "https://www.resistance-brest.net/IMG/pdf/infiltrations_en_francedec2024.pdf",
+      "title": "Tentative de reconstitution des infiltrations et exfiltrations d'agents en France de 1940 à 1945",
+      "author_creator": "Plan Sussex research compilation",
+      "repository_publisher": "Plan Sussex; mirrored by Résistance Brest",
+      "publication_record_date": "2024-12-31",
+      "locator": "PDF page 219, March 23, 1945 mission Doctor entry",
+      "access_date": "2026-10-18",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "Plan Sussex mission chronology",
+      "rights_notes": "The compilation explicitly warns that some transmitted information is not always reliable. It is used only as qualified identity and mission corroboration."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "unnamed-alfred-public-school-b885",
+      "canonical_name": "Unnamed public school in Alfred, New York",
+      "historical_name": "a public school in Alfred, New York",
+      "aliases": [
+        "Public school in Alfred, New York"
+      ],
+      "organization_type": "public school (unnamed)",
+      "sector": "state_or_local_government",
+      "city": "Alfred",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "The sources do not name the school. This descriptive placeholder preserves that uncertainty and must not be merged with a specific Alfred school without documentary evidence."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "joe-r-small-occupation-b885",
+      "person_id": "641a6fb4-ac9a-5073-99d3-e09b7a6884b8",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Student",
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "1942-10-08",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1942-10-08; no employer, workplace, exact role, start date or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The record describes student status without naming an institution; it is not treated as employment."
+    },
+    {
+      "key": "thomas-w-smart-occupation-b885",
+      "person_id": "ddb80dd6-e08f-5dc4-864c-7e6fb0d3d6cd",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Managers and officials, n.e.c.",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-12-15",
+      "date_precision": "Historical civilian-occupation code 097 was recorded at Army entry on 1942-12-15; no employer, workplace, exact role, start date or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical occupation category is not converted into a named employer or exact job title."
+    },
+    {
+      "key": "john-c-smeltzer-occupation-b885",
+      "person_id": "9929c280-0260-5e6e-a365-ee60866bec6d",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Electricians",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-12-29",
+      "date_precision": "Historical civilian-occupation code 497 was recorded at Army entry on 1942-12-29; no employer, workplace, exact role, start date or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical occupation category is not converted into a named employer or exact job title."
+    },
+    {
+      "key": "wiliam-c-smiley-occupation-b885",
+      "person_id": "15f6dd16-2a26-5774-a914-c310d8e0fa42",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Managers and officials, n.e.c.",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-08-25",
+      "date_precision": "Historical civilian-occupation code 098 was recorded at Army entry on 1942-08-25; no employer, workplace, exact role, start date or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical occupation category is not converted into a named employer or exact job title."
+    },
+    {
+      "key": "thomas-t-smillie-occupation-b885",
+      "person_id": "cf2e2c53-08f4-5fd1-9f88-6abb27f71263",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Gardeners and grounds keepers, parks, cemeteries, etc.",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-06-02",
+      "date_precision": "Historical civilian-occupation code 340 was recorded at Army entry on 1943-06-02; no employer, workplace, exact role, start date or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical occupation category is not converted into a named employer or exact job title."
+    },
+    {
+      "key": "walter-w-smirnow-occupation-b885",
+      "person_id": "0d105701-e78d-52df-a417-025d97ef579c",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Linemen and servicemen, telegraph, telephone, and power",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-03-04",
+      "date_precision": "Historical civilian-occupation code 553 was recorded at Army entry on 1942-03-04; no employer, workplace, exact role, start date or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical occupation category is not converted into a named employer or exact job title."
+    },
+    {
+      "key": "asa-a-smith-occupation-b885",
+      "person_id": "4d8a9986-57fa-5f98-b938-df6b0956883c",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Bookkeepers and cashiers, except bank cashiers",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-07-22",
+      "date_precision": "Historical civilian-occupation code 101 was recorded at Army entry on 1943-07-22; no employer, workplace, exact role, start date or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical occupation category is not converted into a named employer or exact job title."
+    },
+    {
+      "key": "jane-smiley-alfred-school-b885",
+      "person_id": "50e0c432-19dc-5712-bdb5-87e3fa9366e6",
+      "organization_key": "unnamed-alfred-public-school-b885",
+      "organization_name_as_found": "a public school in Alfred, New York",
+      "role_title": "English teacher",
+      "occupation": "Teacher",
+      "relationship_type": "employment",
+      "start_date": null,
+      "end_date": null,
+      "date_precision": "The Library of Congress oral-history summary says she taught English for one year; ANERA sequences teaching before OSS service but supplies no dates.",
+      "city": "Alfred",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "The school is unnamed. The adjacent Jane C Smiley index row remains separate, so the identity and employment are visibly qualified."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-joe-r-small-b885",
+      "person_id": "641a6fb4-ac9a-5073-99d3-e09b7a6884b8",
+      "claim_type": "identity",
+      "claim_text": "The indexed Joe R Small is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The OSS index and Army entry agree on the person through a nonshared protected identifier; the identifier is retained privately.",
+      "identity_match_assessment": "High confidence from protected-identifier agreement plus compatible name; spelling or suffix differences remain documented where present.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated status, not a particular employer or OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer is inferred from the Army record, and no protected identifier is exposed.",
+      "sources": [
+        {
+          "source_key": "nara-index-b885"
+        },
+        {
+          "source_key": "army-bulk-b885"
+        }
+      ]
+    },
+    {
+      "key": "occupation-joe-r-small-b885",
+      "person_id": "641a6fb4-ac9a-5073-99d3-e09b7a6884b8",
+      "affiliation_key": "joe-r-small-occupation-b885",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-10-08, Joe R Small was recorded as a student; the record does not name a school or employer.",
+      "evidence_excerpt": "Student",
+      "evidence_paraphrase": "The exact-identifier Army row carries civilian-occupation code 992, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation or status belongs to the exact protected-identifier match.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Student status is not presented as employment, and no institution is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b885",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 992; identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b885",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; civilian occupation and Army-entry-date fields"
+        },
+        {
+          "source_key": "army-codes-b885",
+          "support_type": "supports",
+          "locator_override": "Civilian occupation code 992",
+          "excerpt_override": "Student"
+        }
+      ]
+    },
+    {
+      "key": "identity-thomas-w-smart-b885",
+      "person_id": "ddb80dd6-e08f-5dc4-864c-7e6fb0d3d6cd",
+      "claim_type": "identity",
+      "claim_text": "The indexed Thomas W Smart is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The OSS index and Army entry agree on the person through a nonshared protected identifier; the identifier is retained privately.",
+      "identity_match_assessment": "High confidence from protected-identifier agreement plus compatible name; spelling or suffix differences remain documented where present.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated status, not a particular employer or OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer is inferred from the Army record, and no protected identifier is exposed.",
+      "sources": [
+        {
+          "source_key": "nara-index-b885"
+        },
+        {
+          "source_key": "army-bulk-b885"
+        }
+      ]
+    },
+    {
+      "key": "occupation-thomas-w-smart-b885",
+      "person_id": "ddb80dd6-e08f-5dc4-864c-7e6fb0d3d6cd",
+      "affiliation_key": "thomas-w-smart-occupation-b885",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-12-15, Thomas W Smart was recorded in the historical occupation category “Managers and officials, n.e.c.”; no employer is identified.",
+      "evidence_excerpt": "Managers and officials, n.e.c.",
+      "evidence_paraphrase": "The exact-identifier Army row carries civilian-occupation code 097, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation or status belongs to the exact protected-identifier match.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Occupation remains distinct from employer; no workplace, organization, industry or immediate predecessor is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b885",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 097; identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b885",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; civilian occupation and Army-entry-date fields"
+        },
+        {
+          "source_key": "army-codes-b885",
+          "support_type": "supports",
+          "locator_override": "Civilian occupation code 097",
+          "excerpt_override": "Managers and officials, n.e.c."
+        }
+      ]
+    },
+    {
+      "key": "identity-john-c-smeltzer-b885",
+      "person_id": "9929c280-0260-5e6e-a365-ee60866bec6d",
+      "claim_type": "identity",
+      "claim_text": "The indexed John C Smeltzer is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The OSS index and Army entry agree on the person through a nonshared protected identifier; the identifier is retained privately.",
+      "identity_match_assessment": "High confidence from protected-identifier agreement plus compatible name; spelling or suffix differences remain documented where present.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated status, not a particular employer or OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer is inferred from the Army record, and no protected identifier is exposed.",
+      "sources": [
+        {
+          "source_key": "nara-index-b885"
+        },
+        {
+          "source_key": "army-bulk-b885"
+        }
+      ]
+    },
+    {
+      "key": "occupation-john-c-smeltzer-b885",
+      "person_id": "9929c280-0260-5e6e-a365-ee60866bec6d",
+      "affiliation_key": "john-c-smeltzer-occupation-b885",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-12-29, John C Smeltzer was recorded in the historical occupation category “Electricians”; no employer is identified.",
+      "evidence_excerpt": "Electricians",
+      "evidence_paraphrase": "The exact-identifier Army row carries civilian-occupation code 497, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation or status belongs to the exact protected-identifier match.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Occupation remains distinct from employer; no workplace, organization, industry or immediate predecessor is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b885",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 497; identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b885",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; civilian occupation and Army-entry-date fields"
+        },
+        {
+          "source_key": "army-codes-b885",
+          "support_type": "supports",
+          "locator_override": "Civilian occupation code 497",
+          "excerpt_override": "Electricians"
+        }
+      ]
+    },
+    {
+      "key": "identity-wiliam-c-smiley-b885",
+      "person_id": "15f6dd16-2a26-5774-a914-c310d8e0fa42",
+      "claim_type": "identity",
+      "claim_text": "The indexed Wiliam C Smiley is a high-confidence match to the official Army bulk record. The official Army file spells the given name William.",
+      "evidence_paraphrase": "The OSS index and Army entry agree on the person through a nonshared protected identifier; the identifier is retained privately.",
+      "identity_match_assessment": "High confidence from protected-identifier agreement plus compatible name; spelling or suffix differences remain documented where present.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated status, not a particular employer or OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer is inferred from the Army record, and no protected identifier is exposed.",
+      "sources": [
+        {
+          "source_key": "nara-index-b885"
+        },
+        {
+          "source_key": "army-bulk-b885"
+        }
+      ]
+    },
+    {
+      "key": "occupation-wiliam-c-smiley-b885",
+      "person_id": "15f6dd16-2a26-5774-a914-c310d8e0fa42",
+      "affiliation_key": "wiliam-c-smiley-occupation-b885",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-08-25, Wiliam C Smiley was recorded in the historical occupation category “Managers and officials, n.e.c.”; no employer is identified.",
+      "evidence_excerpt": "Managers and officials, n.e.c.",
+      "evidence_paraphrase": "The exact-identifier Army row carries civilian-occupation code 098, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation or status belongs to the exact protected-identifier match.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Occupation remains distinct from employer; no workplace, organization, industry or immediate predecessor is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b885",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 098; identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b885",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; civilian occupation and Army-entry-date fields"
+        },
+        {
+          "source_key": "army-codes-b885",
+          "support_type": "supports",
+          "locator_override": "Civilian occupation code 098",
+          "excerpt_override": "Managers and officials, n.e.c."
+        }
+      ]
+    },
+    {
+      "key": "identity-thomas-t-smillie-b885",
+      "person_id": "cf2e2c53-08f4-5fd1-9f88-6abb27f71263",
+      "claim_type": "identity",
+      "claim_text": "The indexed Thomas T Smillie is a high-confidence match to the official Army bulk record. The official Army file adds the suffix Jr.",
+      "evidence_paraphrase": "The OSS index and Army entry agree on the person through a nonshared protected identifier; the identifier is retained privately.",
+      "identity_match_assessment": "High confidence from protected-identifier agreement plus compatible name; spelling or suffix differences remain documented where present.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated status, not a particular employer or OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer is inferred from the Army record, and no protected identifier is exposed.",
+      "sources": [
+        {
+          "source_key": "nara-index-b885"
+        },
+        {
+          "source_key": "army-bulk-b885"
+        }
+      ]
+    },
+    {
+      "key": "occupation-thomas-t-smillie-b885",
+      "person_id": "cf2e2c53-08f4-5fd1-9f88-6abb27f71263",
+      "affiliation_key": "thomas-t-smillie-occupation-b885",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-06-02, Thomas T Smillie was recorded in the historical occupation category “Gardeners and grounds keepers, parks, cemeteries, etc.”; no employer is identified.",
+      "evidence_excerpt": "Gardeners and grounds keepers, parks, cemeteries, etc.",
+      "evidence_paraphrase": "The exact-identifier Army row carries civilian-occupation code 340, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation or status belongs to the exact protected-identifier match.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Occupation remains distinct from employer; no workplace, organization, industry or immediate predecessor is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b885",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 340; identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b885",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; civilian occupation and Army-entry-date fields"
+        },
+        {
+          "source_key": "army-codes-b885",
+          "support_type": "supports",
+          "locator_override": "Civilian occupation code 340",
+          "excerpt_override": "Gardeners and grounds keepers, parks, cemeteries, etc."
+        }
+      ]
+    },
+    {
+      "key": "identity-walter-w-smirnow-b885",
+      "person_id": "0d105701-e78d-52df-a417-025d97ef579c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Walter W Smirnow is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The OSS index and Army entry agree on the person through a nonshared protected identifier; the identifier is retained privately.",
+      "identity_match_assessment": "High confidence from protected-identifier agreement plus compatible name; spelling or suffix differences remain documented where present.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated status, not a particular employer or OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer is inferred from the Army record, and no protected identifier is exposed.",
+      "sources": [
+        {
+          "source_key": "nara-index-b885"
+        },
+        {
+          "source_key": "army-bulk-b885"
+        }
+      ]
+    },
+    {
+      "key": "occupation-walter-w-smirnow-b885",
+      "person_id": "0d105701-e78d-52df-a417-025d97ef579c",
+      "affiliation_key": "walter-w-smirnow-occupation-b885",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-03-04, Walter W Smirnow was recorded in the historical occupation category “Linemen and servicemen, telegraph, telephone, and power”; no employer is identified.",
+      "evidence_excerpt": "Linemen and servicemen, telegraph, telephone, and power",
+      "evidence_paraphrase": "The exact-identifier Army row carries civilian-occupation code 553, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation or status belongs to the exact protected-identifier match.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Occupation remains distinct from employer; no workplace, organization, industry or immediate predecessor is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b885",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 553; identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b885",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; civilian occupation and Army-entry-date fields"
+        },
+        {
+          "source_key": "army-codes-b885",
+          "support_type": "supports",
+          "locator_override": "Civilian occupation code 553",
+          "excerpt_override": "Linemen and servicemen, telegraph, telephone, and power"
+        }
+      ]
+    },
+    {
+      "key": "identity-asa-a-smith-b885",
+      "person_id": "4d8a9986-57fa-5f98-b938-df6b0956883c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Asa A Smith is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The OSS index and Army entry agree on the person through a nonshared protected identifier; the identifier is retained privately.",
+      "identity_match_assessment": "High confidence from protected-identifier agreement plus compatible name; spelling or suffix differences remain documented where present.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated status, not a particular employer or OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No employer is inferred from the Army record, and no protected identifier is exposed.",
+      "sources": [
+        {
+          "source_key": "nara-index-b885"
+        },
+        {
+          "source_key": "army-bulk-b885"
+        }
+      ]
+    },
+    {
+      "key": "occupation-asa-a-smith-b885",
+      "person_id": "4d8a9986-57fa-5f98-b938-df6b0956883c",
+      "affiliation_key": "asa-a-smith-occupation-b885",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-07-22, Asa A Smith was recorded in the historical occupation category “Bookkeepers and cashiers, except bank cashiers”; no employer is identified.",
+      "evidence_excerpt": "Bookkeepers and cashiers, except bank cashiers",
+      "evidence_paraphrase": "The exact-identifier Army row carries civilian-occupation code 101, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation or status belongs to the exact protected-identifier match.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Occupation remains distinct from employer; no workplace, organization, industry or immediate predecessor is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b885",
+          "support_type": "supports",
+          "locator_override": "Exact private-identifier record; civilian occupation code 101; identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b885",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; civilian occupation and Army-entry-date fields"
+        },
+        {
+          "source_key": "army-codes-b885",
+          "support_type": "supports",
+          "locator_override": "Civilian occupation code 101",
+          "excerpt_override": "Bookkeepers and cashiers, except bank cashiers"
+        }
+      ]
+    },
+    {
+      "key": "identity-jane-smiley-hart-b885",
+      "person_id": "50e0c432-19dc-5712-bdb5-87e3fa9366e6",
+      "claim_type": "identity",
+      "claim_text": "The no-middle-initial Jane Smiley index row is a probable match to Jane Smiley Hart, an Ithaca-born Cornell graduate who served with OSS in Cairo.",
+      "evidence_paraphrase": "Three institutional sources identify Jane Smiley or Jane Smiley Hart with Cornell or Ithaca and OSS Cairo service.",
+      "identity_match_assessment": "Probable rather than high confidence because the index places a distinct Jane C Smiley row immediately adjacent and accessible sources supply no protected identifier.",
+      "temporal_assessment": "The sources independently place Hart in wartime OSS Cairo service; the exact personnel-file link still requires Box 720 review.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "This evidence is assigned only to the index row printed Jane Smiley. It is not copied to Jane C Smiley.",
+      "sources": [
+        {
+          "source_key": "nara-index-b885"
+        },
+        {
+          "source_key": "loc-hart-b885"
+        },
+        {
+          "source_key": "anera-hart-b885"
+        },
+        {
+          "source_key": "dartmouth-hart-b885"
+        }
+      ]
+    },
+    {
+      "key": "employment-jane-smiley-school-b885",
+      "person_id": "50e0c432-19dc-5712-bdb5-87e3fa9366e6",
+      "affiliation_key": "jane-smiley-alfred-school-b885",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "Institutional accounts say Jane Smiley Hart taught school before OSS service; an oral-history summary specifies one year teaching English at a public school in Alfred, New York.",
+      "evidence_excerpt": "taught school, worked for OSS in Cairo during WWII",
+      "evidence_paraphrase": "ANERA places school teaching before OSS Cairo work; the Library of Congress summary supplies the subject, one-year duration and Alfred location.",
+      "identity_match_assessment": "Medium confidence because Jane Smiley Hart is only a probable match to the no-middle-initial index row.",
+      "temporal_assessment": "Documented pre-OSS employment and the last identifiable civilian employer in the reviewed sources; immediacy is not proven and no school name is supplied.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The public school is not named, Cornell is not treated as an employer, and this claim is not assigned to Jane C Smiley.",
+      "sources": [
+        {
+          "source_key": "anera-hart-b885",
+          "support_type": "supports",
+          "locator_override": "PDF page 2, Jane Smiley Hart board biography",
+          "excerpt_override": "taught school, worked for OSS in Cairo during WWII"
+        },
+        {
+          "source_key": "loc-hart-b885",
+          "support_type": "supports",
+          "locator_override": "Transcript PDF page 1, editorial summary",
+          "excerpt_override": "taught English for one year in a public school in Alfred, New York"
+        }
+      ]
+    },
+    {
+      "key": "identity-jan-smets-b885",
+      "person_id": "3dca509c-5d97-55d8-bf3b-d2167dcd1935",
+      "claim_type": "identity",
+      "claim_text": "The indexed Belgian Jan Smets is a probable match to the Belgian SOE participant named in the March 1945 Doctor mission chronology.",
+      "evidence_paraphrase": "The index labels Jan Smets Belgian; a mission compilation independently names Belgian Jan Smets, alias Blocks Jan, on the Doctor mission.",
+      "identity_match_assessment": "Probable from the uncommon exact name, matching Belgian nationality and wartime clandestine-service context; no protected identifier or personnel-file link was found.",
+      "temporal_assessment": "The mission source documents March 23, 1945 activity but does not establish a pre-OSS employer or whether this assignment preceded the indexed OSS file.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The compilation warns that some information may be unreliable, so the match remains qualified and excluded from default employer analytics.",
+      "sources": [
+        {
+          "source_key": "nara-index-b885"
+        },
+        {
+          "source_key": "smets-infiltration-b885"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "641a6fb4-ac9a-5073-99d3-e09b7a6884b8",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact or compatible-name agreement plus a nonshared protected identifier connect the index row to the official Army bulk record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 720 to identify the last civilian employer and establish the Army-to-OSS sequence; the Army occupation category is not an employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "aae930ee-a4a7-50df-9021-905debf82046",
+      "identity_status": "unresolved",
+      "identity_evidence": "Targeted official-domain, exact-name OSS, occupation, obituary, institutional and archival searches produced no reliable identity or employment candidate.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 720 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5e7aa2ae-6021-56a1-889f-0b1732d83e64",
+      "identity_status": "unresolved",
+      "identity_evidence": "Targeted official-domain, exact-name OSS, occupation, obituary, institutional and archival searches produced no reliable identity or employment candidate.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 720 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ddb80dd6-e08f-5dc4-864c-7e6fb0d3d6cd",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact or compatible-name agreement plus a nonshared protected identifier connect the index row to the official Army bulk record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 720 to identify the last civilian employer and establish the Army-to-OSS sequence; the Army occupation category is not an employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "1af2fc03-7251-5e9c-acd8-e6ed7d4f3ae8",
+      "identity_status": "unresolved",
+      "identity_evidence": "Targeted official-domain, exact-name OSS, occupation, obituary, institutional and archival searches produced no reliable identity or employment candidate.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 720 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ffb749b7-4786-5850-a02f-72b712b13202",
+      "identity_status": "unresolved",
+      "identity_evidence": "A postwar San Diego directory lead and modern namesakes lacked an OSS bridge and could not establish pre-OSS employment.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 720 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6b03a5e4-8063-5476-a64f-96c5f5195096",
+      "identity_status": "unresolved",
+      "identity_evidence": "A California namesake and genealogy references lacked an OSS bridge, protected identifier and reliable employment chronology.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 720 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9929c280-0260-5e6e-a365-ee60866bec6d",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact or compatible-name agreement plus a nonshared protected identifier connect the index row to the official Army bulk record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 720 to identify the last civilian employer and establish the Army-to-OSS sequence; the Army occupation category is not an employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "3dca509c-5d97-55d8-bf3b-d2167dcd1935",
+      "identity_status": "probable",
+      "identity_evidence": "The uncommon exact name, printed Belgian note and secondary mission chronology support a probable Belgian clandestine-service identity, but no protected identifier or direct personnel-file link was found.",
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 720 and Belgian or British SOE personnel records to confirm the Doctor mission identity and establish the pre-service occupation or employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "50e0c432-19dc-5712-bdb5-87e3fa9366e6",
+      "identity_status": "probable",
+      "identity_evidence": "Institutional sources connect Jane Smiley Hart to Ithaca or Cornell and wartime OSS editorial work in Cairo, but the adjacent Jane C Smiley index row prevents an unqualified assignment without the personnel file.",
+      "name_variants": [
+        "Jane Smiley Hart"
+      ],
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 720 to confirm which Jane Smiley row belongs to Jane Smiley Hart and to identify the exact Alfred public school and OSS-entry chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "6a6a3b03-be44-5024-ad9b-f3727125a02b",
+      "identity_status": "unresolved",
+      "identity_evidence": "A distinct adjacent Jane Smiley row has probable evidence for Jane Smiley Hart; no source reviewed connects that biography to the printed Jane C Smiley row, so the records remain separate.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 720 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "15f6dd16-2a26-5774-a914-c310d8e0fa42",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact or compatible-name agreement plus a nonshared protected identifier connect the index row to the official Army bulk record; the Army file spells the given name William.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 720 to identify the last civilian employer and establish the Army-to-OSS sequence; the Army occupation category is not an employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "William C Smiley"
+      ]
+    },
+    {
+      "person_id": "cf2e2c53-08f4-5fd1-9f88-6abb27f71263",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact or compatible-name agreement plus a nonshared protected identifier connect the index row to the official Army bulk record; the Army file adds Jr.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 720 to identify the last civilian employer and establish the Army-to-OSS sequence; the Army occupation category is not an employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Thomas T Smillie Jr."
+      ]
+    },
+    {
+      "person_id": "0d105701-e78d-52df-a417-025d97ef579c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact or compatible-name agreement plus a nonshared protected identifier connect the index row to the official Army bulk record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 720 to identify the last civilian employer and establish the Army-to-OSS sequence; the Army occupation category is not an employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "f5b40785-1b54-51ac-9b9f-7253490327c0",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name produced multiple namesakes; exact-name, OSS, official-domain, occupation, obituary and institutional searches supplied no reliable identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 720 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6aa50b1b-d1b4-5433-a59f-e1af47e6db7e",
+      "identity_status": "unresolved",
+      "identity_evidence": "Results for OSS figure Aline Griffith and other Aline Smith namesakes do not identify the indexed person and were rejected.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 720 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e0ea0d84-0d8b-59a3-a5e7-d8bbc4784fe5",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name produced multiple namesakes; exact-name, OSS, official-domain, occupation, obituary and institutional searches supplied no reliable identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 720 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "f078df23-27c7-5d63-b5be-20990582319f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name produced multiple namesakes; exact-name, OSS, official-domain, occupation, obituary and institutional searches supplied no reliable identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 720 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8edab9f2-9efb-5fa0-a7b5-678b62d53567",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name produced multiple namesakes; exact-name, OSS, official-domain, occupation, obituary and institutional searches supplied no reliable identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 720 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5f8839b9-b84b-5a74-b169-00e195f5e296",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name produced multiple namesakes; exact-name, OSS, official-domain, occupation, obituary and institutional searches supplied no reliable identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 720 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4d8a9986-57fa-5f98-b938-df6b0956883c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact or compatible-name agreement plus a nonshared protected identifier connect the index row to the official Army bulk record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": false,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 720 to identify the last civilian employer and establish the Army-to-OSS sequence; the Army occupation category is not an employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "ea0ac3b0-5b13-558c-85ea-a988f57905aa",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name plus printed first-lieutenant rank was insufficient; exact-name, rank, OSS, official-domain, obituary and institutional searches supplied no two corroborating identifiers.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 721 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "600ca71b-9671-529d-9fc1-dd6555cf6975",
+      "identity_status": "unresolved",
+      "identity_evidence": "The common name produced multiple namesakes; exact-name, OSS, official-domain, occupation, obituary and institutional searches supplied no reliable identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 721 for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "joe-r-small-b885",
+      "person_id": "641a6fb4-ac9a-5073-99d3-e09b7a6884b8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joe R Small; NARA OSS/index context; CIA Reading Room and NARA official-domain checks; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches; Box 720",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_885",
+      "started_at": "2026-10-18T14:05:00Z",
+      "completed_at": "2026-10-18T15:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Web and genealogy namesakes lacked the private identifier or OSS chronology; the historical Army occupation category does not name an employer.",
+      "research_notes": "High-confidence Army identity and qualified occupation or student-status evidence established; no named employer found.",
+      "next_action": "Review Box 720.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b885-v1"
+    },
+    {
+      "key": "robert-g-smalley-b885",
+      "person_id": "aae930ee-a4a7-50df-9021-905debf82046",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert G Smalley; NARA OSS/index context; CIA Reading Room and NARA official-domain checks; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches; Box 720",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_885",
+      "started_at": "2026-10-18T14:05:00Z",
+      "completed_at": "2026-10-18T15:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Modern namesakes, discovery-only genealogy pages and undated references lacked OSS linkage, corroborating identifiers or relevant pre-OSS chronology.",
+      "research_notes": "No reliable identity or pre-OSS employer found after the staged protocol.",
+      "next_action": "Review Box 720.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b885-v1"
+    },
+    {
+      "key": "jessica-m-smart-b885",
+      "person_id": "5e7aa2ae-6021-56a1-889f-0b1732d83e64",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Jessica M Smart; NARA OSS/index context; CIA Reading Room and NARA official-domain checks; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches; Box 720",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_885",
+      "started_at": "2026-10-18T14:05:00Z",
+      "completed_at": "2026-10-18T15:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Modern namesakes, discovery-only genealogy pages and undated references lacked OSS linkage, corroborating identifiers or relevant pre-OSS chronology.",
+      "research_notes": "No reliable identity or pre-OSS employer found after the staged protocol.",
+      "next_action": "Review Box 720.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b885-v1"
+    },
+    {
+      "key": "thomas-w-smart-b885",
+      "person_id": "ddb80dd6-e08f-5dc4-864c-7e6fb0d3d6cd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Thomas W Smart; NARA OSS/index context; CIA Reading Room and NARA official-domain checks; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches; Box 720",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_885",
+      "started_at": "2026-10-18T14:05:00Z",
+      "completed_at": "2026-10-18T15:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Web and genealogy namesakes lacked the private identifier or OSS chronology; the historical Army occupation category does not name an employer.",
+      "research_notes": "High-confidence Army identity and qualified occupation or student-status evidence established; no named employer found.",
+      "next_action": "Review Box 720.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b885-v1"
+    },
+    {
+      "key": "mary-e-smathers-b885",
+      "person_id": "1af2fc03-7251-5e9c-acd8-e6ed7d4f3ae8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Mary E Smathers; NARA OSS/index context; CIA Reading Room and NARA official-domain checks; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches; Box 720",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_885",
+      "started_at": "2026-10-18T14:05:00Z",
+      "completed_at": "2026-10-18T15:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Modern namesakes, discovery-only genealogy pages and undated references lacked OSS linkage, corroborating identifiers or relevant pre-OSS chronology.",
+      "research_notes": "No reliable identity or pre-OSS employer found after the staged protocol.",
+      "next_action": "Review Box 720.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b885-v1"
+    },
+    {
+      "key": "alvin-l-smay-b885",
+      "person_id": "ffb749b7-4786-5850-a02f-72b712b13202",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Alvin L Smay; NARA OSS/index context; CIA Reading Room and NARA official-domain checks; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches; Box 720",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_885",
+      "started_at": "2026-10-18T14:05:00Z",
+      "completed_at": "2026-10-18T15:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "A 1956 San Diego directory lead is postwar and lacked an OSS identity bridge; modern namesakes were unrelated.",
+      "research_notes": "No reliable identity or pre-OSS employer found after the staged protocol.",
+      "next_action": "Review Box 720.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b885-v1"
+    },
+    {
+      "key": "stanley-smeeton-b885",
+      "person_id": "6b03a5e4-8063-5476-a64f-96c5f5195096",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Stanley Smeeton; NARA OSS/index context; CIA Reading Room and NARA official-domain checks; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches; Box 720",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_885",
+      "started_at": "2026-10-18T14:05:00Z",
+      "completed_at": "2026-10-18T15:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "A Stanley G Smeeton California namesake and genealogy results lacked an OSS bridge and could not establish the indexed identity.",
+      "research_notes": "No reliable identity or pre-OSS employer found after the staged protocol.",
+      "next_action": "Review Box 720.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b885-v1"
+    },
+    {
+      "key": "john-c-smeltzer-b885",
+      "person_id": "9929c280-0260-5e6e-a365-ee60866bec6d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John C Smeltzer; NARA OSS/index context; CIA Reading Room and NARA official-domain checks; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches; Box 720",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_885",
+      "started_at": "2026-10-18T14:05:00Z",
+      "completed_at": "2026-10-18T15:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Web and genealogy namesakes lacked the private identifier or OSS chronology; the historical Army occupation category does not name an employer.",
+      "research_notes": "High-confidence Army identity and qualified occupation or student-status evidence established; no named employer found.",
+      "next_action": "Review Box 720.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b885-v1"
+    },
+    {
+      "key": "jan-smets-b885",
+      "person_id": "3dca509c-5d97-55d8-bf3b-d2167dcd1935",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Jan Smets Belgian; Blocks Jan; Doctor mission; NARA OSS/index context; CIA Reading Room and NARA official-domain checks; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches; Box 720",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_885",
+      "started_at": "2026-10-18T14:05:00Z",
+      "completed_at": "2026-10-18T15:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 2,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Modern Belgian namesakes and uncorroborated snippets were rejected; official NARA and CIA domain searches returned no additional exact match.",
+      "research_notes": "Probable Belgian Doctor-mission identity found; pre-OSS employer remains unresolved and the physical file is required.",
+      "next_action": "Review Box 720.",
+      "attempt_number": 14,
+      "research_agent_version": "before-oss-b885-v1"
+    },
+    {
+      "key": "jane-smiley-b885",
+      "person_id": "50e0c432-19dc-5712-bdb5-87e3fa9366e6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Jane Smiley; Jane Smiley Hart; Cornell; Alfred New York; OSS Cairo; NARA OSS/index context; CIA Reading Room and NARA official-domain checks; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches; Box 720",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_885",
+      "started_at": "2026-10-18T14:05:00Z",
+      "completed_at": "2026-10-18T15:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 4,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The adjacent Jane C Smiley row was not merged; modern novelist and mathematician namesakes were rejected.",
+      "research_notes": "Probable Jane Smiley Hart identity and documented pre-OSS school employment found; the adjacent Jane C row requires personnel-file review.",
+      "next_action": "Review Box 720.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b885-v1"
+    },
+    {
+      "key": "jane-c-smiley-b885",
+      "person_id": "6a6a3b03-be44-5024-ad9b-f3727125a02b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Jane C Smiley; exact-name OSS, employer, occupation, obituary and institutional searches; NARA OSS/index context; CIA Reading Room and NARA official-domain checks; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches; Box 720",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_885",
+      "started_at": "2026-10-18T14:05:00Z",
+      "completed_at": "2026-10-18T15:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "The Jane Smiley Hart biography belongs provisionally to the distinct no-middle-initial row; no evidence justified merging or reassigning it to Jane C Smiley.",
+      "research_notes": "No reliable identity or pre-OSS employer found after the staged protocol.",
+      "next_action": "Review Box 720.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b885-v1"
+    },
+    {
+      "key": "wiliam-c-smiley-b885",
+      "person_id": "15f6dd16-2a26-5774-a914-c310d8e0fa42",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Wiliam C Smiley; William C Smiley; NARA OSS/index context; CIA Reading Room and NARA official-domain checks; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches; Box 720",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_885",
+      "started_at": "2026-10-18T14:05:00Z",
+      "completed_at": "2026-10-18T15:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Web and genealogy namesakes lacked the private identifier or OSS chronology; the historical Army occupation category does not name an employer.",
+      "research_notes": "High-confidence Army identity and qualified occupation or student-status evidence established; no named employer found.",
+      "next_action": "Review Box 720.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b885-v1"
+    },
+    {
+      "key": "thomas-t-smillie-b885",
+      "person_id": "cf2e2c53-08f4-5fd1-9f88-6abb27f71263",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Thomas T Smillie; Thomas T Smillie Jr.; NARA OSS/index context; CIA Reading Room and NARA official-domain checks; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches; Box 720",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_885",
+      "started_at": "2026-10-18T14:05:00Z",
+      "completed_at": "2026-10-18T15:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Web and genealogy namesakes lacked the private identifier or OSS chronology; the historical Army occupation category does not name an employer.",
+      "research_notes": "High-confidence Army identity and qualified occupation or student-status evidence established; no named employer found.",
+      "next_action": "Review Box 720.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b885-v1"
+    },
+    {
+      "key": "walter-w-smirnow-b885",
+      "person_id": "0d105701-e78d-52df-a417-025d97ef579c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Walter W Smirnow; NARA OSS/index context; CIA Reading Room and NARA official-domain checks; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches; Box 720",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_885",
+      "started_at": "2026-10-18T14:05:00Z",
+      "completed_at": "2026-10-18T15:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Web and genealogy namesakes lacked the private identifier or OSS chronology; the historical Army occupation category does not name an employer.",
+      "research_notes": "High-confidence Army identity and qualified occupation or student-status evidence established; no named employer found.",
+      "next_action": "Review Box 720.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b885-v1"
+    },
+    {
+      "key": "alfred-g-smith-b885",
+      "person_id": "f5b40785-1b54-51ac-9b9f-7253490327c0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Alfred G Smith; NARA OSS/index context; CIA Reading Room and NARA official-domain checks; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches; Box 720",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_885",
+      "started_at": "2026-10-18T14:05:00Z",
+      "completed_at": "2026-10-18T15:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Modern namesakes, discovery-only genealogy pages and undated references lacked OSS linkage, corroborating identifiers or relevant pre-OSS chronology.",
+      "research_notes": "No reliable identity or pre-OSS employer found after the staged protocol.",
+      "next_action": "Review Box 720.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b885-v1"
+    },
+    {
+      "key": "aline-smith-b885",
+      "person_id": "6aa50b1b-d1b4-5433-a59f-e1af47e6db7e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Aline Smith; NARA OSS/index context; CIA Reading Room and NARA official-domain checks; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches; Box 720",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_885",
+      "started_at": "2026-10-18T14:05:00Z",
+      "completed_at": "2026-10-18T15:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Aline Griffith and other namesakes were rejected; name similarity alone cannot identify the indexed Aline Smith.",
+      "research_notes": "No reliable identity or pre-OSS employer found after the staged protocol.",
+      "next_action": "Review Box 720.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b885-v1"
+    },
+    {
+      "key": "amy-e-smith-b885",
+      "person_id": "e0ea0d84-0d8b-59a3-a5e7-d8bbc4784fe5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Amy E Smith; NARA OSS/index context; CIA Reading Room and NARA official-domain checks; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches; Box 720",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_885",
+      "started_at": "2026-10-18T14:05:00Z",
+      "completed_at": "2026-10-18T15:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Modern namesakes, discovery-only genealogy pages and undated references lacked OSS linkage, corroborating identifiers or relevant pre-OSS chronology.",
+      "research_notes": "No reliable identity or pre-OSS employer found after the staged protocol.",
+      "next_action": "Review Box 720.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b885-v1"
+    },
+    {
+      "key": "anne-c-smith-b885",
+      "person_id": "f078df23-27c7-5d63-b5be-20990582319f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Anne C Smith; NARA OSS/index context; CIA Reading Room and NARA official-domain checks; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches; Box 720",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_885",
+      "started_at": "2026-10-18T14:05:00Z",
+      "completed_at": "2026-10-18T15:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Modern namesakes, discovery-only genealogy pages and undated references lacked OSS linkage, corroborating identifiers or relevant pre-OSS chronology.",
+      "research_notes": "No reliable identity or pre-OSS employer found after the staged protocol.",
+      "next_action": "Review Box 720.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b885-v1"
+    },
+    {
+      "key": "arline-smith-b885",
+      "person_id": "8edab9f2-9efb-5fa0-a7b5-678b62d53567",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Arline Smith; NARA OSS/index context; CIA Reading Room and NARA official-domain checks; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches; Box 720",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_885",
+      "started_at": "2026-10-18T14:05:00Z",
+      "completed_at": "2026-10-18T15:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Modern namesakes, discovery-only genealogy pages and undated references lacked OSS linkage, corroborating identifiers or relevant pre-OSS chronology.",
+      "research_notes": "No reliable identity or pre-OSS employer found after the staged protocol.",
+      "next_action": "Review Box 720.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b885-v1"
+    },
+    {
+      "key": "arthur-e-smith-b885",
+      "person_id": "5f8839b9-b84b-5a74-b169-00e195f5e296",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Arthur E Smith; NARA OSS/index context; CIA Reading Room and NARA official-domain checks; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches; Box 720",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_885",
+      "started_at": "2026-10-18T14:05:00Z",
+      "completed_at": "2026-10-18T15:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Modern namesakes, discovery-only genealogy pages and undated references lacked OSS linkage, corroborating identifiers or relevant pre-OSS chronology.",
+      "research_notes": "No reliable identity or pre-OSS employer found after the staged protocol.",
+      "next_action": "Review Box 720.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b885-v1"
+    },
+    {
+      "key": "asa-a-smith-b885",
+      "person_id": "4d8a9986-57fa-5f98-b938-df6b0956883c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Asa A Smith; NARA OSS/index context; CIA Reading Room and NARA official-domain checks; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches; Box 720",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_885",
+      "started_at": "2026-10-18T14:05:00Z",
+      "completed_at": "2026-10-18T15:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 2,
+      "rejection_reasons": "Web and genealogy namesakes lacked the private identifier or OSS chronology; the historical Army occupation category does not name an employer.",
+      "research_notes": "High-confidence Army identity and qualified occupation or student-status evidence established; no named employer found.",
+      "next_action": "Review Box 720.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b885-v1"
+    },
+    {
+      "key": "benjamin-p-smith-b885",
+      "person_id": "ea0ac3b0-5b13-558c-85ea-a988f57905aa",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Benjamin P Smith; First Lieutenant; NARA OSS/index context; CIA Reading Room and NARA official-domain checks; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches; Box 721",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_885",
+      "started_at": "2026-10-18T14:05:00Z",
+      "completed_at": "2026-10-18T15:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Modern namesakes, discovery-only genealogy pages and undated references lacked OSS linkage, corroborating identifiers or relevant pre-OSS chronology.",
+      "research_notes": "No reliable identity or pre-OSS employer found after the staged protocol.",
+      "next_action": "Review Box 721.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b885-v1"
+    },
+    {
+      "key": "bernarda-c-smith-b885",
+      "person_id": "600ca71b-9671-529d-9fc1-dd6555cf6975",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Bernarda C Smith; NARA OSS/index context; CIA Reading Room and NARA official-domain checks; exact-name OSS, employer, occupation, obituary, institutional, newspaper and archival searches; Box 721",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_885",
+      "started_at": "2026-10-18T14:05:00Z",
+      "completed_at": "2026-10-18T15:20:00Z",
+      "outcome": "no_result",
+      "sources_reviewed": 1,
+      "candidate_sources_rejected": 3,
+      "rejection_reasons": "Modern namesakes, discovery-only genealogy pages and undated references lacked OSS linkage, corroborating identifiers or relevant pre-OSS chronology.",
+      "research_notes": "No reliable identity or pre-OSS employer found after the staged protocol.",
+      "next_action": "Review Box 721.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b885-v1"
+    }
+  ]
+}
