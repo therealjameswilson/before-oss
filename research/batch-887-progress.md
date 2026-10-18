@@ -127,10 +127,14 @@ The dependency audit reports zero vulnerabilities.
 
 ## Publication status
 
-Batch 887 is present in the canonical local database and generated site, but it
-is not yet committed, pushed or verified on the public GitHub Pages site. The
-currently public site remains the Batch 886 release until the remaining gates
-pass and deployment is verified.
+Batch 887 was published in content commit
+`b14fee56ab4f04f68028d4ef48a737b76dfabfa9`. GitHub Actions Test run
+`39101928191` and Deploy GitHub Pages run `39101928422` both completed
+successfully. Unauthenticated verification against the immutable content
+commit passed for all 67 release assets (118,502,759 bytes), eight core routes,
+37 source-register pages and all 23 Batch 887 profiles. The deployed manifest
+SHA-256 is
+`07fd47a6005816e150c7f72d46182251b4142b5f86be1e3fdc59c27bf8f0a687`.
 
 Public site: <https://therealjameswilson.github.io/before-oss/>
 
