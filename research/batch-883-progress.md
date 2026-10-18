@@ -114,9 +114,12 @@ The dependency audit reports zero vulnerabilities.
 
 ## Publication status
 
-Batch 883 has passed every local release gate. Publication commit, clean Linux
-workflow, GitHub Pages deployment and unauthenticated live verification remain
-to be recorded after the content commit is pushed.
+Batch 883 is published at content commit
+7c1276e902496c41030d91d49011133017b28d81. The clean Linux Test workflow passed
+in run 39095165558, and the GitHub Pages build and deploy passed in run
+39095165511. The unauthenticated release verifier confirmed all 67 manifest
+assets, eight core routes, 37 source-register pages and all 23 direct Batch 883
+profiles at https://therealjameswilson.github.io/before-oss/.
 
 ## Resume commands
 
