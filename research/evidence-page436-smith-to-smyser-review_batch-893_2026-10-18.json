@@ -1,0 +1,1654 @@
+{
+  "bundle_version": "batch-893-v1",
+  "reviewer": "Before OSS Batch 893 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b893",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Box 726",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 436, rows 24-46; checked against layout-preserving text and a rendered page image",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain preserved. Full protected identifiers remain private and are masked from public data."
+    },
+    {
+      "key": "army-bulk-b893",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; protected-identifier fields checked, seven matches accepted and two conflicts rejected after review",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full private identifier is retained in public assets. The file is incomplete and a non-hit is not negative proof."
+    },
+    {
+      "key": "army-tech-b893",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; fixed-width identifier, name, DD/MM/YY Army-entry-date, grade and civilian-occupation fields visually checked",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, alternate layouts, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b893",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171-175 and 304; categories 044, 316, 592, 721, 736 and 992 visually checked; 345 is unassigned",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical labels name neither employers nor workplaces. Code 345 is not converted into an occupation."
+    },
+    {
+      "key": "william-arthur-smith-biography-b893",
+      "stable_url": "https://www.weihsien-paintings.org/StanleyFairchild/Sketches/text/WilliamSmith.htm",
+      "title": "William A. Smith Biography",
+      "author_creator": "David Leopold",
+      "repository_publisher": "Weihsien Paintings; biography prepared for the Studio of Ben Solowey",
+      "publication_record_date": "1996",
+      "locator": "Biographical essay; paragraphs on newspaper work, Manhattan freelance illustration and OSS recruitment",
+      "access_date": "2026-10-18",
+      "source_quality": "D_correlative_or_secondary",
+      "collection_name": "Stanley Fairchild Sketches",
+      "rights_notes": "Only short evidence excerpts and project-authored paraphrases are retained."
+    },
+    {
+      "key": "mdta-william-arthur-smith-b893",
+      "stable_url": "https://www.mdta.maryland.gov/FormerMarylandHouseMurals",
+      "title": "Former Maryland House Murals",
+      "author_creator": "Maryland Transportation Authority",
+      "repository_publisher": "Maryland Transportation Authority",
+      "locator": "Section identifying mural artist William Arthur Smith (1918-1989)",
+      "access_date": "2026-10-18",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Used to corroborate the full name and illustrator identity; it does not establish pre-OSS employment."
+    },
+    {
+      "key": "uaa-richard-d-smyser-b893",
+      "stable_url": "https://www.uaa.alaska.edu/academics/college-of-arts-and-sciences/departments/journalism-and-communication/atwood-chair-of-journalism/our-past-chairs.cshtml",
+      "title": "Our Past Chairs: Richard D. 'Dick' Smyser",
+      "author_creator": "University of Alaska Anchorage",
+      "repository_publisher": "University of Alaska Anchorage",
+      "locator": "Richard D. Smyser biographical entry; identifies 1944 Pennsylvania State University graduation",
+      "access_date": "2026-10-18",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Used with the official Army student record to identify the institution; postwar career details are not reconstructed."
+    },
+    {
+      "key": "london-gazette-smith-ross-1936-b893",
+      "stable_url": "https://www.thegazette.co.uk/London/issue/34281/page/2899/data.pdf",
+      "archival_identifier": "The London Gazette, issue 34281, page 2899",
+      "title": "The London Gazette, 5 May 1936",
+      "author_creator": "Air Ministry",
+      "repository_publisher": "The Gazette",
+      "publication_record_date": "1936-05-05",
+      "locator": "Page 2899; Royal Air Force promotion effective 1 April 1936",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Official notice used to establish the full name, RAF affiliation and dated rank."
+    },
+    {
+      "key": "london-gazette-smith-ross-1946-b893",
+      "stable_url": "https://www.thegazette.co.uk/London/issue/37534/supplement/1903/data.pdf",
+      "archival_identifier": "The London Gazette, issue 37534, supplement page 1903",
+      "title": "The London Gazette, 16 April 1946",
+      "author_creator": "Central Chancery of the Orders of Knighthood",
+      "repository_publisher": "The Gazette",
+      "publication_record_date": "1946-04-16",
+      "locator": "Supplement page 1903; Wing Commander Edward Charles Smith-Ross, OBE, RAFO, listed with the United States Legion of Merit",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "rights_notes": "Used as identity and rank-continuity corroboration, not as pre-OSS employment evidence."
+    },
+    {
+      "key": "hoover-oss-smolianinoff-b893",
+      "stable_url": "https://digitalcollections.hoover.org/internal/media/dispatcher/266796/full",
+      "title": "By Oct., 127 agents trained and landed in occupied countries",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "Hoover Institution Library & Archives",
+      "locator": "PDF page 47; Special Operations recruiting desk for Yugoslavia, Albania and Greece",
+      "access_date": "2026-10-18",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "Hoover Institution Digital Collections",
+      "rights_notes": "Used only to corroborate identity and wartime U.S. Navy lieutenant status; it does not establish a pre-OSS affiliation."
+    },
+    {
+      "key": "georgetown-jane-smith-hutton-b893",
+      "stable_url": "https://findingaids.library.georgetown.edu/repositories/15/archival_objects/1453338",
+      "archival_identifier": "GTM-220705, Box 1, Folder 13",
+      "title": "Miscellaneous: OSS Oral History Project, 1945-1996",
+      "author_creator": "OSS Oral History Project",
+      "repository_publisher": "Georgetown University Manuscripts, Booth Family Center for Special Collections",
+      "publication_record_date": "1945-1996",
+      "locator": "Box 1, Folder 13; finding-aid description names biographical information on Jane Smith-Hutton",
+      "access_date": "2026-10-18",
+      "source_quality": "B_authoritative_institutional",
+      "collection_name": "OSS Oral History Project Records",
+      "rights_notes": "The finding aid corroborates identity and OSS research context but does not establish an assignment or pre-OSS employer."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "scripps-howard-b893",
+      "canonical_name": "Scripps-Howard Newspapers",
+      "historical_name": "Scripps-Howard Newspapers",
+      "aliases": [
+        "Scripps-Howard"
+      ],
+      "organization_type": "newspaper chain",
+      "sector": "journalism_and_media",
+      "country": "United States",
+      "normalization_notes": "The historical name in the source is preserved; no modern successor is substituted."
+    },
+    {
+      "key": "san-francisco-examiner-b893",
+      "canonical_name": "San Francisco Examiner",
+      "historical_name": "San Francisco Examiner",
+      "aliases": [],
+      "organization_type": "newspaper",
+      "sector": "journalism_and_media",
+      "city": "San Francisco",
+      "state_or_region": "California",
+      "country": "United States",
+      "normalization_notes": "The newspaper named by the biographical source is retained without corporate-parent inference."
+    },
+    {
+      "key": "self-employed-illustrator-b893",
+      "canonical_name": "Self-employed illustrator",
+      "historical_name": "Freelance illustrator",
+      "aliases": [
+        "Freelance artist"
+      ],
+      "organization_type": "self-employment",
+      "sector": "self_employed",
+      "city": "New York City",
+      "state_or_region": "New York",
+      "country": "United States",
+      "normalization_notes": "A separate self-employment entity prevents magazine clients from being mislabeled as employers."
+    },
+    {
+      "key": "royal-air-force-b893",
+      "canonical_name": "Royal Air Force",
+      "historical_name": "Royal Air Force",
+      "aliases": [
+        "RAF"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United Kingdom",
+      "normalization_notes": "The official historical service name is preserved."
+    },
+    {
+      "key": "penn-state-b893",
+      "canonical_name": "Pennsylvania State University",
+      "historical_name": "Pennsylvania State University",
+      "aliases": [
+        "Penn State"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "State College",
+      "state_or_region": "Pennsylvania",
+      "country": "United States",
+      "normalization_notes": "Student status is kept distinct from employment."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "william-c-smith-occupation-b893",
+      "person_id": "c1c4e791-d7db-5424-a3c2-9f9b15a14021",
+      "relationship_type": "unknown",
+      "occupation": "Chauffeurs and drivers, bus, taxi, truck, and tractor",
+      "end_date": "1943-04-13",
+      "date_precision": "Historical civilian-occupation code 736 was recorded at Army entry on 1943-04-13; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical occupation category is not converted into a named employer or exact job title."
+    },
+    {
+      "key": "william-a-smith-occupation-b893",
+      "person_id": "157e35dc-5ebf-54d0-ab54-17c138da29c4",
+      "relationship_type": "unknown",
+      "occupation": "Commercial artists",
+      "end_date": "1944-05-29",
+      "date_precision": "Historical civilian-occupation code 044 was recorded at Army entry on 1944-05-29; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical occupation category is not converted into a named employer or exact job title."
+    },
+    {
+      "key": "frank-g-smolinski-occupation-b893",
+      "person_id": "588469b6-d7eb-51ba-97fe-739fa48a9e66",
+      "relationship_type": "unknown",
+      "occupation": "Farm hands, general farms",
+      "end_date": "1943-04-20",
+      "date_precision": "Historical civilian-occupation code 316 was recorded at Army entry on 1943-04-20; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical occupation category is not converted into a named employer or exact job title."
+    },
+    {
+      "key": "carl-a-smollar-row41-occupation-b893",
+      "person_id": "2d2f5d8d-dbd9-5be0-baa0-3e2276a8de58",
+      "relationship_type": "unknown",
+      "occupation": "Miners and mining-machine operators",
+      "end_date": "1942-01-30",
+      "date_precision": "Historical civilian-occupation code 721 was recorded at Army entry on 1942-01-30; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical occupation category is not converted into a named employer or exact job title."
+    },
+    {
+      "key": "rost-r-smylie-occupation-b893",
+      "person_id": "6d81be1b-1aa6-5a9c-b710-6201005ad163",
+      "relationship_type": "unknown",
+      "occupation": "Foremen, manufacturing",
+      "end_date": "1943-02-11",
+      "date_precision": "Historical civilian-occupation code 592 was recorded at Army entry on 1943-02-11; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical occupation category is not converted into a named employer or exact job title."
+    },
+    {
+      "person_id": "157e35dc-5ebf-54d0-ab54-17c138da29c4",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "D_correlative_or_secondary",
+      "publication_status": "publish_qualified",
+      "key": "william-a-smith-scripps-howard-b893",
+      "organization_key": "scripps-howard-b893",
+      "organization_name_as_found": "Scripps-Howard Newspapers",
+      "role_title": "sketch artist",
+      "occupation": "commercial artist",
+      "relationship_type": "employment",
+      "start_date": "1932",
+      "end_date": "1932",
+      "date_precision": "The biography places the work at the 1932 Los Angeles Olympics; it does not supply exact employment dates.",
+      "city": "Los Angeles",
+      "state_or_region": "California",
+      "research_notes": "Earlier documented prewar work; not shown to be the immediate pre-OSS affiliation."
+    },
+    {
+      "person_id": "157e35dc-5ebf-54d0-ab54-17c138da29c4",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "D_correlative_or_secondary",
+      "publication_status": "publish_qualified",
+      "key": "william-a-smith-examiner-b893",
+      "organization_key": "san-francisco-examiner-b893",
+      "organization_name_as_found": "San Francisco Examiner",
+      "role_title": "sketch artist",
+      "occupation": "commercial artist",
+      "relationship_type": "employment",
+      "end_date": "1937",
+      "date_precision": "The biography places this work before Smith moved to Manhattan at age nineteen, approximately 1937.",
+      "city": "San Francisco",
+      "state_or_region": "California",
+      "research_notes": "Earlier documented prewar work; not shown to be the immediate pre-OSS affiliation."
+    },
+    {
+      "person_id": "157e35dc-5ebf-54d0-ab54-17c138da29c4",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "D_correlative_or_secondary",
+      "publication_status": "publish_qualified",
+      "key": "william-a-smith-freelance-b893",
+      "organization_key": "self-employed-illustrator-b893",
+      "organization_name_as_found": "freelance illustrator",
+      "role_title": "freelance illustrator",
+      "occupation": "commercial artist",
+      "relationship_type": "self_employment",
+      "start_date": "1937",
+      "date_precision": "The biography places the start when Smith moved to Manhattan at age nineteen; no end date or direct OSS transition is stated.",
+      "city": "New York City",
+      "state_or_region": "New York",
+      "research_notes": "Documented prewar self-employment; magazine clients are not mislabeled as employers, and immediacy before OSS remains unproven."
+    },
+    {
+      "key": "richard-d-smyser-penn-state-b893",
+      "person_id": "de95bdf0-f67e-5e8c-9216-481a3b5e322f",
+      "organization_key": "penn-state-b893",
+      "organization_name_as_found": "Pennsylvania State University",
+      "role_title": "student",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1944",
+      "date_precision": "Army entry recorded student status on 1942-12-15; the University of Alaska Anchorage biography identifies 1944 graduation from Pennsylvania State University.",
+      "state_or_region": "Pennsylvania",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Student status is not employment and does not establish the immediate pre-OSS affiliation."
+    },
+    {
+      "key": "edward-c-smith-ross-raf-b893",
+      "person_id": "eee04cc0-07ae-5122-a7b3-737c40d5efb7",
+      "organization_key": "royal-air-force-b893",
+      "organization_name_as_found": "Royal Air Force",
+      "role_title": "Flight Lieutenant",
+      "relationship_type": "military_assignment",
+      "start_date": "1936-04-01",
+      "end_date": "1936-04-01",
+      "date_precision": "Official promotion effective 1 April 1936; service before and after that date is corroborated but not fully bounded here.",
+      "country": "United Kingdom",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The dated RAF affiliation is documented prewar service; the transfer sequence into OSS remains unestablished."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-page436-row25-b893",
+      "person_id": "3dbc5bde-2890-5e97-89d1-6ce225b533bf",
+      "claim_type": "identity",
+      "claim_text": "The indexed William H Smith row on PDF page 436 is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree with the reviewed official Army record.",
+      "identity_match_assessment": "High confidence from exact-name agreement plus a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The matched Army entry is dated 1946, after the OSS period, and supports identity only.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and same-name source rows are not merged.",
+      "sources": [
+        {
+          "source_key": "nara-index-b893",
+          "locator_override": "PDF page 436 row 25; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b893",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-page436-row26-b893",
+      "person_id": "c1c4e791-d7db-5424-a3c2-9f9b15a14021",
+      "claim_type": "identity",
+      "claim_text": "The indexed William C Smith row on PDF page 436 is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree with the reviewed official Army record.",
+      "identity_match_assessment": "High confidence from exact-name agreement plus a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and same-name source rows are not merged.",
+      "sources": [
+        {
+          "source_key": "nara-index-b893",
+          "locator_override": "PDF page 436 row 26; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b893",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-page436-row27-b893",
+      "person_id": "157e35dc-5ebf-54d0-ab54-17c138da29c4",
+      "claim_type": "identity",
+      "claim_text": "The indexed William A Smith row on PDF page 436 is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree with the reviewed official Army record.",
+      "identity_match_assessment": "High confidence from exact-name agreement plus a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and same-name source rows are not merged.",
+      "sources": [
+        {
+          "source_key": "nara-index-b893",
+          "locator_override": "PDF page 436 row 27; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b893",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-page436-row39-b893",
+      "person_id": "588469b6-d7eb-51ba-97fe-739fa48a9e66",
+      "claim_type": "identity",
+      "claim_text": "The indexed Frank G Smolinski row on PDF page 436 is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree with the reviewed official Army record.",
+      "identity_match_assessment": "High confidence from exact-name agreement plus a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and same-name source rows are not merged.",
+      "sources": [
+        {
+          "source_key": "nara-index-b893",
+          "locator_override": "PDF page 436 row 39; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b893",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-page436-row41-b893",
+      "person_id": "2d2f5d8d-dbd9-5be0-baa0-3e2276a8de58",
+      "claim_type": "identity",
+      "claim_text": "The indexed Carl A Smollar row on PDF page 436 is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree with the reviewed official Army record.",
+      "identity_match_assessment": "High confidence from exact-name agreement plus a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and same-name source rows are not merged.",
+      "sources": [
+        {
+          "source_key": "nara-index-b893",
+          "locator_override": "PDF page 436 row 41; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b893",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-page436-row45-b893",
+      "person_id": "6d81be1b-1aa6-5a9c-b710-6201005ad163",
+      "claim_type": "identity",
+      "claim_text": "The indexed Rost R Smylie row on PDF page 436 is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree with the reviewed official Army record.",
+      "identity_match_assessment": "High confidence from exact-name agreement plus a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and same-name source rows are not merged.",
+      "sources": [
+        {
+          "source_key": "nara-index-b893",
+          "locator_override": "PDF page 436 row 45; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b893",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-page436-row46-b893",
+      "person_id": "de95bdf0-f67e-5e8c-9216-481a3b5e322f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Richard D Smyser row on PDF page 436 is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "The exact indexed name and a nonshared protected identifier agree with the reviewed official Army record.",
+      "identity_match_assessment": "High confidence from exact-name agreement plus a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and same-name source rows are not merged.",
+      "sources": [
+        {
+          "source_key": "nara-index-b893",
+          "locator_override": "PDF page 436 row 46; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b893",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-william-c-smith-b893",
+      "person_id": "c1c4e791-d7db-5424-a3c2-9f9b15a14021",
+      "affiliation_key": "william-c-smith-occupation-b893",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-04-13, William C Smith was recorded in the historical chauffeurs and drivers, bus, taxi, truck, and tractor category; no employer is identified.",
+      "evidence_excerpt": "Chauffeurs and drivers, bus, taxi, truck, and tractor",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 736, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation category belongs only to the accepted protected-identifier match for this index row.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical occupation category is reported as a qualified lead, not as an employer or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b893",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 736; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b893",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b893",
+          "locator_override": "PDF physical page 174; civilian occupation category 7-36",
+          "excerpt_override": "Chauffeurs and drivers, bus, taxi, truck, and tractor"
+        }
+      ]
+    },
+    {
+      "key": "occupation-william-a-smith-b893",
+      "person_id": "157e35dc-5ebf-54d0-ab54-17c138da29c4",
+      "affiliation_key": "william-a-smith-occupation-b893",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1944-05-29, William A Smith was recorded in the historical commercial artists category; no employer is identified.",
+      "evidence_excerpt": "Commercial artists",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 044, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation category belongs only to the accepted protected-identifier match for this index row.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical occupation category is reported as a qualified lead, not as an employer or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b893",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 044; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b893",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b893",
+          "locator_override": "PDF physical page 171; civilian occupation category 0-44",
+          "excerpt_override": "Commercial artists"
+        }
+      ]
+    },
+    {
+      "key": "occupation-frank-g-smolinski-b893",
+      "person_id": "588469b6-d7eb-51ba-97fe-739fa48a9e66",
+      "affiliation_key": "frank-g-smolinski-occupation-b893",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-04-20, Frank G Smolinski was recorded in the historical farm hands, general farms category; no employer is identified.",
+      "evidence_excerpt": "Farm hands, general farms",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 316, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation category belongs only to the accepted protected-identifier match for this index row.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical occupation category is reported as a qualified lead, not as an employer or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b893",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 316; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b893",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b893",
+          "locator_override": "PDF physical page 172; civilian occupation category 3-16",
+          "excerpt_override": "Farm hands, general farms"
+        }
+      ]
+    },
+    {
+      "key": "occupation-carl-a-smollar-row41-b893",
+      "person_id": "2d2f5d8d-dbd9-5be0-baa0-3e2276a8de58",
+      "affiliation_key": "carl-a-smollar-row41-occupation-b893",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-01-30, Carl A Smollar was recorded in the historical miners and mining-machine operators category; no employer is identified.",
+      "evidence_excerpt": "Miners and mining-machine operators",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 721, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation category belongs only to the accepted protected-identifier match for this index row.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical occupation category is reported as a qualified lead, not as an employer or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b893",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 721; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b893",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b893",
+          "locator_override": "PDF physical page 174; civilian occupation category 7-21",
+          "excerpt_override": "Miners and mining-machine operators"
+        }
+      ]
+    },
+    {
+      "key": "occupation-rost-r-smylie-b893",
+      "person_id": "6d81be1b-1aa6-5a9c-b710-6201005ad163",
+      "affiliation_key": "rost-r-smylie-occupation-b893",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-02-11, Rost R Smylie was recorded in the historical foremen, manufacturing category; no employer is identified.",
+      "evidence_excerpt": "Foremen, manufacturing",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 592, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation category belongs only to the accepted protected-identifier match for this index row.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical occupation category is reported as a qualified lead, not as an employer or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b893",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 592; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b893",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b893",
+          "locator_override": "PDF physical page 175; civilian occupation category 5-92",
+          "excerpt_override": "Foremen, manufacturing"
+        }
+      ]
+    },
+    {
+      "person_id": "157e35dc-5ebf-54d0-ab54-17c138da29c4",
+      "claim_type": "other_pre_oss_affiliation",
+      "identity_match_assessment": "The biography's full name, artist career and OSS-China account align with the indexed row and the official Army commercial-artist match; Maryland institutional evidence corroborates the full name and profession.",
+      "temporal_assessment": "Documented as prewar, but the source does not establish that this was the immediate pre-OSS affiliation or last civilian employer.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Presented as qualified earlier employment; no employer sequence is inferred beyond the source chronology.",
+      "key": "employment-william-a-smith-scripps-howard-b893",
+      "affiliation_key": "william-a-smith-scripps-howard-b893",
+      "claim_text": "A biographical source reports that William Arthur Smith worked as a sketch artist for Scripps-Howard Newspapers at the 1932 Los Angeles Olympics.",
+      "evidence_excerpt": "Scripps-Howard Newspapers to cover the 1932 Los Angeles Olympics",
+      "evidence_paraphrase": "The essay dates this named newspaper-chain employment to the 1932 Olympics.",
+      "sources": [
+        {
+          "source_key": "william-arthur-smith-biography-b893",
+          "locator_override": "Biographical paragraph on Smith's work beginning at age fourteen",
+          "excerpt_override": "Scripps-Howard Newspapers to cover the 1932 Los Angeles Olympics"
+        },
+        {
+          "source_key": "mdta-william-arthur-smith-b893",
+          "support_type": "context_only",
+          "excerpt_override": "William Arthur Smith (1918-1989), a renowned portraitist and illustrator"
+        }
+      ]
+    },
+    {
+      "person_id": "157e35dc-5ebf-54d0-ab54-17c138da29c4",
+      "claim_type": "other_pre_oss_affiliation",
+      "identity_match_assessment": "The biography's full name, artist career and OSS-China account align with the indexed row and the official Army commercial-artist match; Maryland institutional evidence corroborates the full name and profession.",
+      "temporal_assessment": "Documented as prewar, but the source does not establish that this was the immediate pre-OSS affiliation or last civilian employer.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Presented as qualified earlier employment; no employer sequence is inferred beyond the source chronology.",
+      "key": "employment-william-a-smith-examiner-b893",
+      "affiliation_key": "william-a-smith-examiner-b893",
+      "claim_text": "The same biography reports that William Arthur Smith later worked for the San Francisco Examiner sketching murder trials.",
+      "evidence_excerpt": "worked for the San Francisco Examiner sketching murder trials",
+      "evidence_paraphrase": "The essay names the newspaper and describes Smith's sketch-artist work before his move to Manhattan.",
+      "sources": [
+        {
+          "source_key": "william-arthur-smith-biography-b893",
+          "locator_override": "Biographical paragraph preceding Smith's move to Manhattan",
+          "excerpt_override": "worked for the San Francisco Examiner sketching murder trials"
+        },
+        {
+          "source_key": "mdta-william-arthur-smith-b893",
+          "support_type": "context_only",
+          "excerpt_override": "William Arthur Smith (1918-1989), a renowned portraitist and illustrator"
+        }
+      ]
+    },
+    {
+      "person_id": "157e35dc-5ebf-54d0-ab54-17c138da29c4",
+      "claim_type": "other_pre_oss_affiliation",
+      "identity_match_assessment": "The biography's full name, artist career and OSS-China account align with the indexed row and the official Army commercial-artist match; Maryland institutional evidence corroborates the full name and profession.",
+      "temporal_assessment": "Documented as prewar, but the source does not establish that this was the immediate pre-OSS affiliation or last civilian employer.",
+      "source_quality": "D_correlative_or_secondary",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Presented as qualified earlier employment; no employer sequence is inferred beyond the source chronology.",
+      "key": "self-employment-william-a-smith-b893",
+      "affiliation_key": "william-a-smith-freelance-b893",
+      "claim_text": "The biography describes William Arthur Smith as a successful freelance illustrator in Manhattan before his wartime OSS service.",
+      "evidence_excerpt": "found success as a freelance illustrator",
+      "evidence_paraphrase": "The chronology places freelance illustration after his move to Manhattan and before the essay's account of OSS recruitment.",
+      "sources": [
+        {
+          "source_key": "william-arthur-smith-biography-b893",
+          "locator_override": "Biographical paragraphs on Manhattan illustration and later OSS recruitment",
+          "excerpt_override": "found success as a freelance illustrator"
+        },
+        {
+          "source_key": "mdta-william-arthur-smith-b893",
+          "support_type": "context_only",
+          "excerpt_override": "William Arthur Smith (1918-1989), a renowned portraitist and illustrator"
+        }
+      ]
+    },
+    {
+      "key": "student-richard-d-smyser-penn-state-b893",
+      "person_id": "de95bdf0-f67e-5e8c-9216-481a3b5e322f",
+      "affiliation_key": "richard-d-smyser-penn-state-b893",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Richard D Smyser was recorded as a student at Army entry in December 1942, and an institutional biography identifies Pennsylvania State University and a 1944 graduation.",
+      "evidence_excerpt": "a 1944 graduate of Pennsylvania State University",
+      "evidence_paraphrase": "The official Army student category and UAA's rare-name biography independently support the dated institutional affiliation.",
+      "identity_match_assessment": "High confidence from exact rare-name agreement, a nonshared protected identifier and an institutional biography using his documented nickname.",
+      "temporal_assessment": "Strongly date-bounded to 1942-1944, but not shown to be employment or the immediate pre-OSS predecessor.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Pennsylvania State University is classified as an educational institution, not an employer.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b893",
+          "locator_override": "Accepted reviewed identity record; student code 992 at Army entry 1942-12-15; protected identifier withheld"
+        },
+        {
+          "source_key": "army-codes-b893",
+          "locator_override": "PDF physical page 304; corrected civilian occupation category 9-92",
+          "excerpt_override": "Students"
+        },
+        {
+          "source_key": "uaa-richard-d-smyser-b893",
+          "excerpt_override": "a 1944 graduate of Pennsylvania State University"
+        }
+      ]
+    },
+    {
+      "key": "identity-edward-c-smith-ross-b893",
+      "person_id": "eee04cc0-07ae-5122-a7b3-737c40d5efb7",
+      "claim_type": "identity",
+      "claim_text": "The indexed Edward C Smith-Ross is a high-confidence match to Royal Air Force officer Edward Charles Smith-Ross.",
+      "evidence_paraphrase": "Two official Gazette notices preserve the rare hyphenated name, expand the middle name and document RAF officer ranks consistent with the index.",
+      "identity_match_assessment": "High confidence from the rare exact surname, first name, middle initial and compatible Wing Commander rank.",
+      "temporal_assessment": "The 1936 notice is prewar; the 1946 notice corroborates identity and rank continuity only.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The full middle name is retained as a documented variant; no civilian employer is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-index-b893",
+          "locator_override": "PDF page 436 row 37; indexed as Edward C Smith-Ross, Wing C"
+        },
+        {
+          "source_key": "london-gazette-smith-ross-1936-b893",
+          "locator_override": "Page 2899; promotion effective 1 April 1936"
+        },
+        {
+          "source_key": "london-gazette-smith-ross-1946-b893",
+          "support_type": "context_only",
+          "locator_override": "Supplement page 1903; full name and Wing Commander rank"
+        }
+      ]
+    },
+    {
+      "key": "military-edward-c-smith-ross-raf-b893",
+      "person_id": "eee04cc0-07ae-5122-a7b3-737c40d5efb7",
+      "affiliation_key": "edward-c-smith-ross-raf-b893",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Edward Charles Smith-Ross was a Royal Air Force officer promoted to Flight Lieutenant effective 1 April 1936.",
+      "evidence_excerpt": "promoted to the rank of Flight Lieutenant",
+      "evidence_paraphrase": "The official Air Ministry notice names Smith-Ross and provides the effective promotion date.",
+      "identity_match_assessment": "The rare name and compatible indexed Wing Commander abbreviation make the affiliation a high-confidence match.",
+      "temporal_assessment": "Documented prewar military service; the immediate pre-OSS transfer sequence is not established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Royal Air Force service is classified as a military assignment, not a civilian employer.",
+      "sources": [
+        {
+          "source_key": "london-gazette-smith-ross-1936-b893",
+          "locator_override": "Page 2899; promotion effective 1 April 1936",
+          "excerpt_override": "promoted to the rank of Flight Lieutenant"
+        },
+        {
+          "source_key": "london-gazette-smith-ross-1946-b893",
+          "support_type": "context_only",
+          "locator_override": "Supplement page 1903; full name and Wing Commander rank"
+        }
+      ]
+    },
+    {
+      "key": "identity-jane-smith-hutton-b893",
+      "person_id": "a5740231-e0d5-5cb4-a5a6-549184194458",
+      "claim_type": "identity",
+      "claim_text": "A Georgetown University OSS Oral History Project finding aid independently corroborates the rare indexed name Jane Smith-Hutton.",
+      "evidence_excerpt": "biographical information on Jane Smith-Hutton",
+      "evidence_paraphrase": "The institutional finding aid names Jane Smith-Hutton in an OSS oral-history research folder.",
+      "identity_match_assessment": "High confidence from the rare exact hyphenated name and independent OSS-specific archival context.",
+      "temporal_assessment": "Identity and OSS research context only; the finding aid does not establish an assignment or pre-OSS affiliation.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No role, employer or personnel detail beyond the finding-aid description is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-index-b893",
+          "locator_override": "PDF page 436 row 35"
+        },
+        {
+          "source_key": "georgetown-jane-smith-hutton-b893",
+          "locator_override": "GTM-220705, Box 1, Folder 13",
+          "excerpt_override": "biographical information on Jane Smith-Hutton"
+        }
+      ]
+    },
+    {
+      "key": "identity-andre-v-smolianinoff-b893",
+      "person_id": "c619eabc-8dd2-55d2-9ced-4b785735f98b",
+      "claim_type": "identity",
+      "claim_text": "An OSS historical narrative preserved by the Hoover Institution corroborates Andre Smolianinoff as a U.S. Navy lieutenant working in OSS Special Operations.",
+      "evidence_excerpt": "Lt. Andre Smolianinoff, USN, was in charge of this desk",
+      "evidence_paraphrase": "The narrative places Lieutenant Smolianinoff at the recruiting desk for Special Operations personnel for Yugoslavia, Albania and Greece.",
+      "identity_match_assessment": "High confidence from the rare surname and first name in an OSS-specific institutional document.",
+      "temporal_assessment": "This documents wartime OSS status, not a pre-OSS military assignment or civilian employer.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The wartime Navy rank informs personnel classification only; it is not presented as the immediate pre-OSS affiliation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b893",
+          "locator_override": "PDF page 436 row 38"
+        },
+        {
+          "source_key": "hoover-oss-smolianinoff-b893",
+          "locator_override": "PDF page 47; Special Operations recruiting desk",
+          "excerpt_override": "Lt. Andre Smolianinoff, USN, was in charge of this desk"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "3dbc5bde-2890-5e97-89d1-6ce225b533bf",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact-name agreement plus a nonshared protected identifier connect the index row to a 1946 Army record. The post-OSS date supports identity only, and unassigned code 345 is not interpreted.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 726 personnel file for wartime status and pre-OSS affiliation; the accepted 1946 Army record supplies no usable pre-OSS occupation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c1c4e791-d7db-5424-a3c2-9f9b15a14021",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact-name agreement plus a nonshared protected identifier connect the visually verified index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 726 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "157e35dc-5ebf-54d0-ab54-17c138da29c4",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official Army bridge, rare commercial-artist category, OSS artist biography and Maryland institutional biography jointly support William Arthur Smith as a high-confidence identity.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 726 to determine whether Manhattan freelance illustration was the immediate pre-OSS affiliation or whether an intervening assignment existed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "William Arthur Smith"
+      ]
+    },
+    {
+      "person_id": "588469b6-d7eb-51ba-97fe-739fa48a9e66",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact-name agreement plus a nonshared protected identifier connect the visually verified index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 726 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2d2f5d8d-dbd9-5be0-baa0-3e2276a8de58",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The second Carl A Smollar row has an exact-name Army match through its nonshared protected identifier. The first same-name row remains separate and unresolved.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 726 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "possible_duplicate_group": "p436-carl-a-smollar-b893"
+    },
+    {
+      "person_id": "6d81be1b-1aa6-5a9c-b710-6201005ad163",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact-name agreement plus a nonshared protected identifier connect the visually verified index row to the reviewed official Army record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 726 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "de95bdf0-f67e-5e8c-9216-481a3b5e322f",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The official Army bridge and an institutional rare-name biography jointly identify Richard D. 'Dick' Smyser and his Pennsylvania State University student affiliation.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 726 to establish the sequence between Pennsylvania State University, Army entry and OSS service and to identify any civilian employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Dick Smyser"
+      ]
+    },
+    {
+      "person_id": "a5740231-e0d5-5cb4-a5a6-549184194458",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare exact hyphenated name appears independently in a Georgetown University OSS Oral History Project finding aid.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 726 and Georgetown GTM-220705, Box 1, Folder 13, for identity details and a documented pre-OSS affiliation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "eee04cc0-07ae-5122-a7b3-737c40d5efb7",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Official Gazette notices expand the rare indexed name to Edward Charles Smith-Ross and document RAF officer ranks compatible with Wing Commander.",
+      "name_variants": [
+        "Edward Charles Smith-Ross"
+      ],
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 726 to establish the RAF-to-OSS sequence and determine whether a later immediate pre-OSS assignment intervened.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "c619eabc-8dd2-55d2-9ced-4b785735f98b",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An OSS narrative preserved by the Hoover Institution identifies the rare-name Andre Smolianinoff as a U.S. Navy lieutenant in Special Operations.",
+      "personnel_category": "commissioned_naval_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 726 to establish Smolianinoff's pre-OSS Navy or civilian chronology; the wartime OSS narrative does not answer that question.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "da91124a-89fd-5e93-a846-e2411303eca1",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies William M Smith, Box 726 and archive location, but staged official-domain, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. The protected identifier produced no Army candidate, and common-name results lacked an OSS or Box 726 bridge. A non-hit is not negative proof.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 726 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "52f1f635-8b61-5c8f-8d7c-4db2864c48f1",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies William Smith, Box 726 and archive location, but staged official-domain, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. The no-initial name is exceptionally ambiguous; exact-name and occupation searches produced numerous unbridged namesakes.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 726 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "a44e8306-6b97-56bb-b79b-daaf4bec5f55",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies William J Smith, Box 726 and archive location, but staged official-domain, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. The protected identifier also appears on indexed Alexander J Soto. The conflicting rows remain separate, and no Army evidence is transferred.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 726 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "6b5293b4-d121-50da-85bf-9384db948774",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Williard E Smith, Box 726 and archive location, but staged official-domain, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. The index spelling Williard is preserved. Directory and other exact-name results lacked an OSS or Box 726 bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 726 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "432ee618-a5b0-5ed8-90c0-de392c13a3f0",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Wilma D Smith, Box 726 and archive location, but staged official-domain, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Genealogical and contemporary namesakes lacked an OSS, protected-identifier or Box 726 bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 726 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b5dcf046-1647-5a06-9d4f-04427707332f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Wingate Smith, Box 726 and archive location, but staged official-domain, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. An American Film Institute assistant-director namesake is a lead only; no source connects that career to the indexed captain or Box 726 file.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 726 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "a790cb51-5723-5a1e-b72f-e4dbd5c91c50",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Wylie D Smith, Box 726 and archive location, but staged official-domain, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Public-record namesakes were unbridged or chronologically incompatible with the indexed row.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 726 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "c2381c10-0242-5f17-9bcb-c2b9537a8d73",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies F E Smither, Box 726 and archive location, but staged official-domain, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. The initials-only record is highly ambiguous, and staged employment and archival searches found no defensible identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 726 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "0b2ae5c2-e6e1-57c2-a479-734c39218e2a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Frank R Smithka, Box 726 and archive location, but staged official-domain, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. The protected identifier produced no Army candidate, and exact-name searches found no independent OSS or Box 726 bridge. A non-hit is not negative proof.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 726 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "f836650c-0c21-5ee1-97fd-d61286a7a704",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Carl A Smollar, Box 726 and archive location, but staged official-domain, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. This first Carl A Smollar row has no protected identifier. Evidence accepted for the second same-name row is not transferred.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 726 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "p436-carl-a-smollar-b893"
+    },
+    {
+      "person_id": "81d58579-038d-598b-ba59-f7f8ced3e994",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Nick Smoltz, Box 726 and archive location, but staged official-domain, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Obituary-family and aircraft-name results did not establish that Nicholas or Nick Smoltz was the indexed person.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 726 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "19132dd2-ba41-554f-80cd-be5a2293ec28",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Roy W Smurr, Box 726 and archive location, but staged official-domain, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. A burial-record namesake supplied possible dates but no OSS, protected-identifier or Box 726 bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 726 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b13c4730-5346-509d-9509-2d15545b04e2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Laura Z Smusz, Box 726 and archive location, but staged official-domain, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Exact-name, employment, obituary, institutional and archival searches produced no usable identity bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 726 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page436-row24-william-m-smith-b893",
+      "person_id": "da91124a-89fd-5e93-a846-e2411303eca1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William M Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_893",
+      "started_at": "2026-10-18T13:00:00Z",
+      "completed_at": "2026-10-18T15:40:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The protected identifier produced no Army candidate, and common-name results lacked an OSS or Box 726 bridge. A non-hit is not negative proof.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. The protected identifier produced no Army candidate, and common-name results lacked an OSS or Box 726 bridge. A non-hit is not negative proof. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 726.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b893-v1"
+    },
+    {
+      "key": "page436-row25-william-h-smith-b893",
+      "person_id": "3dbc5bde-2890-5e97-89d1-6ce225b533bf",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William H Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_893",
+      "started_at": "2026-10-18T13:00:00Z",
+      "completed_at": "2026-10-18T15:40:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes and chronologically incompatible candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a high-confidence identity; public affiliation claims are limited to what the cited sources support. Reviewed evidence established an identity bridge and, where supported, a carefully bounded affiliation or occupation claim. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 726.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b893-v1"
+    },
+    {
+      "key": "page436-row26-william-c-smith-b893",
+      "person_id": "c1c4e791-d7db-5424-a3c2-9f9b15a14021",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William C Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_893",
+      "started_at": "2026-10-18T13:00:00Z",
+      "completed_at": "2026-10-18T15:40:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes and chronologically incompatible candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a high-confidence identity; public affiliation claims are limited to what the cited sources support. Reviewed evidence established an identity bridge and, where supported, a carefully bounded affiliation or occupation claim. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 726.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b893-v1"
+    },
+    {
+      "key": "page436-row27-william-a-smith-b893",
+      "person_id": "157e35dc-5ebf-54d0-ab54-17c138da29c4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William A Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_893",
+      "started_at": "2026-10-18T13:00:00Z",
+      "completed_at": "2026-10-18T15:40:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes and chronologically incompatible candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a high-confidence identity; public affiliation claims are limited to what the cited sources support. Reviewed evidence established an identity bridge and, where supported, a carefully bounded affiliation or occupation claim. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 726.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b893-v1"
+    },
+    {
+      "key": "page436-row28-william-smith-b893",
+      "person_id": "52f1f635-8b61-5c8f-8d7c-4db2864c48f1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_893",
+      "started_at": "2026-10-18T13:00:00Z",
+      "completed_at": "2026-10-18T15:40:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The no-initial name is exceptionally ambiguous; exact-name and occupation searches produced numerous unbridged namesakes.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. The no-initial name is exceptionally ambiguous; exact-name and occupation searches produced numerous unbridged namesakes. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 726.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b893-v1"
+    },
+    {
+      "key": "page436-row29-william-j-smith-b893",
+      "person_id": "a44e8306-6b97-56bb-b79b-daaf4bec5f55",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William J Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_893",
+      "started_at": "2026-10-18T13:00:00Z",
+      "completed_at": "2026-10-18T15:40:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The protected identifier also appears on indexed Alexander J Soto. The conflicting rows remain separate, and no Army evidence is transferred.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. The protected identifier also appears on indexed Alexander J Soto. The conflicting rows remain separate, and no Army evidence is transferred. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 726.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b893-v1"
+    },
+    {
+      "key": "page436-row30-williard-e-smith-b893",
+      "person_id": "6b5293b4-d121-50da-85bf-9384db948774",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Williard E Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_893",
+      "started_at": "2026-10-18T13:00:00Z",
+      "completed_at": "2026-10-18T15:40:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The index spelling Williard is preserved. Directory and other exact-name results lacked an OSS or Box 726 bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. The index spelling Williard is preserved. Directory and other exact-name results lacked an OSS or Box 726 bridge. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 726.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b893-v1"
+    },
+    {
+      "key": "page436-row31-wilma-d-smith-b893",
+      "person_id": "432ee618-a5b0-5ed8-90c0-de392c13a3f0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Wilma D Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_893",
+      "started_at": "2026-10-18T13:00:00Z",
+      "completed_at": "2026-10-18T15:40:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Genealogical and contemporary namesakes lacked an OSS, protected-identifier or Box 726 bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. Genealogical and contemporary namesakes lacked an OSS, protected-identifier or Box 726 bridge. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 726.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b893-v1"
+    },
+    {
+      "key": "page436-row32-wingate-smith-b893",
+      "person_id": "b5dcf046-1647-5a06-9d4f-04427707332f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Wingate Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_893",
+      "started_at": "2026-10-18T13:00:00Z",
+      "completed_at": "2026-10-18T15:40:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "An American Film Institute assistant-director namesake is a lead only; no source connects that career to the indexed captain or Box 726 file.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. An American Film Institute assistant-director namesake is a lead only; no source connects that career to the indexed captain or Box 726 file. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 726.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b893-v1"
+    },
+    {
+      "key": "page436-row33-wylie-d-smith-b893",
+      "person_id": "a790cb51-5723-5a1e-b72f-e4dbd5c91c50",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Wylie D Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_893",
+      "started_at": "2026-10-18T13:00:00Z",
+      "completed_at": "2026-10-18T15:40:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Public-record namesakes were unbridged or chronologically incompatible with the indexed row.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. Public-record namesakes were unbridged or chronologically incompatible with the indexed row. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 726.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b893-v1"
+    },
+    {
+      "key": "page436-row34-f-e-smither-b893",
+      "person_id": "c2381c10-0242-5f17-9bcb-c2b9537a8d73",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "F E Smither; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_893",
+      "started_at": "2026-10-18T13:00:00Z",
+      "completed_at": "2026-10-18T15:40:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The initials-only record is highly ambiguous, and staged employment and archival searches found no defensible identity bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. The initials-only record is highly ambiguous, and staged employment and archival searches found no defensible identity bridge. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 726.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b893-v1"
+    },
+    {
+      "key": "page436-row35-jane-smith-hutton-b893",
+      "person_id": "a5740231-e0d5-5cb4-a5a6-549184194458",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Jane Smith-Hutton; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_893",
+      "started_at": "2026-10-18T13:00:00Z",
+      "completed_at": "2026-10-18T15:40:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes and chronologically incompatible candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a high-confidence identity; public affiliation claims are limited to what the cited sources support. Reviewed evidence established an identity bridge and, where supported, a carefully bounded affiliation or occupation claim. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 726.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b893-v1"
+    },
+    {
+      "key": "page436-row36-frank-r-smithka-b893",
+      "person_id": "0b2ae5c2-e6e1-57c2-a479-734c39218e2a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Frank R Smithka; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_893",
+      "started_at": "2026-10-18T13:00:00Z",
+      "completed_at": "2026-10-18T15:40:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The protected identifier produced no Army candidate, and exact-name searches found no independent OSS or Box 726 bridge. A non-hit is not negative proof.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. The protected identifier produced no Army candidate, and exact-name searches found no independent OSS or Box 726 bridge. A non-hit is not negative proof. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 726.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b893-v1"
+    },
+    {
+      "key": "page436-row37-edward-c-smith-ross-b893",
+      "person_id": "eee04cc0-07ae-5122-a7b3-737c40d5efb7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edward C Smith-Ross; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_893",
+      "started_at": "2026-10-18T13:00:00Z",
+      "completed_at": "2026-10-18T15:40:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes and chronologically incompatible candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a high-confidence identity; public affiliation claims are limited to what the cited sources support. Reviewed evidence established an identity bridge and, where supported, a carefully bounded affiliation or occupation claim. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 726.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b893-v1"
+    },
+    {
+      "key": "page436-row38-andre-v-smolianinoff-b893",
+      "person_id": "c619eabc-8dd2-55d2-9ced-4b785735f98b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Andre V Smolianinoff; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_893",
+      "started_at": "2026-10-18T13:00:00Z",
+      "completed_at": "2026-10-18T15:40:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes and chronologically incompatible candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a high-confidence identity; public affiliation claims are limited to what the cited sources support. Reviewed evidence established an identity bridge and, where supported, a carefully bounded affiliation or occupation claim. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 726.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b893-v1"
+    },
+    {
+      "key": "page436-row39-frank-g-smolinski-b893",
+      "person_id": "588469b6-d7eb-51ba-97fe-739fa48a9e66",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Frank G Smolinski; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_893",
+      "started_at": "2026-10-18T13:00:00Z",
+      "completed_at": "2026-10-18T15:40:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes and chronologically incompatible candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a high-confidence identity; public affiliation claims are limited to what the cited sources support. Reviewed evidence established an identity bridge and, where supported, a carefully bounded affiliation or occupation claim. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 726.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 2,
+      "research_agent_version": "before-oss-b893-v1"
+    },
+    {
+      "key": "page436-row40-carl-a-smollar-b893",
+      "person_id": "f836650c-0c21-5ee1-97fd-d61286a7a704",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Carl A Smollar; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_893",
+      "started_at": "2026-10-18T13:00:00Z",
+      "completed_at": "2026-10-18T15:40:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "This first Carl A Smollar row has no protected identifier. Evidence accepted for the second same-name row is not transferred.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. This first Carl A Smollar row has no protected identifier. Evidence accepted for the second same-name row is not transferred. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 726.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b893-v1"
+    },
+    {
+      "key": "page436-row41-carl-a-smollar-b893",
+      "person_id": "2d2f5d8d-dbd9-5be0-baa0-3e2276a8de58",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Carl A Smollar; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_893",
+      "started_at": "2026-10-18T13:00:00Z",
+      "completed_at": "2026-10-18T15:40:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes and chronologically incompatible candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a high-confidence identity; public affiliation claims are limited to what the cited sources support. Reviewed evidence established an identity bridge and, where supported, a carefully bounded affiliation or occupation claim. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 726.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b893-v1"
+    },
+    {
+      "key": "page436-row42-nick-smoltz-b893",
+      "person_id": "81d58579-038d-598b-ba59-f7f8ced3e994",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Nick Smoltz; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_893",
+      "started_at": "2026-10-18T13:00:00Z",
+      "completed_at": "2026-10-18T15:40:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Obituary-family and aircraft-name results did not establish that Nicholas or Nick Smoltz was the indexed person.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. Obituary-family and aircraft-name results did not establish that Nicholas or Nick Smoltz was the indexed person. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 726.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b893-v1"
+    },
+    {
+      "key": "page436-row43-roy-w-smurr-b893",
+      "person_id": "19132dd2-ba41-554f-80cd-be5a2293ec28",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Roy W Smurr; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_893",
+      "started_at": "2026-10-18T13:00:00Z",
+      "completed_at": "2026-10-18T15:40:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "A burial-record namesake supplied possible dates but no OSS, protected-identifier or Box 726 bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. A burial-record namesake supplied possible dates but no OSS, protected-identifier or Box 726 bridge. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 726.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b893-v1"
+    },
+    {
+      "key": "page436-row44-laura-z-smusz-b893",
+      "person_id": "b13c4730-5346-509d-9509-2d15545b04e2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Laura Z Smusz; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_893",
+      "started_at": "2026-10-18T13:00:00Z",
+      "completed_at": "2026-10-18T15:40:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name, employment, obituary, institutional and archival searches produced no usable identity bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after staged search and namesake rejection. Exact-name, employment, obituary, institutional and archival searches produced no usable identity bridge. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 726.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b893-v1"
+    },
+    {
+      "key": "page436-row45-rost-r-smylie-b893",
+      "person_id": "6d81be1b-1aa6-5a9c-b710-6201005ad163",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Rost R Smylie; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_893",
+      "started_at": "2026-10-18T13:00:00Z",
+      "completed_at": "2026-10-18T15:40:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes and chronologically incompatible candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a high-confidence identity; public affiliation claims are limited to what the cited sources support. Reviewed evidence established an identity bridge and, where supported, a carefully bounded affiliation or occupation claim. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 726.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b893-v1"
+    },
+    {
+      "key": "page436-row46-richard-d-smyser-b893",
+      "person_id": "de95bdf0-f67e-5e8c-9216-481a3b5e322f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Richard D Smyser; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 726; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_893",
+      "started_at": "2026-10-18T13:00:00Z",
+      "completed_at": "2026-10-18T15:40:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes and chronologically incompatible candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a high-confidence identity; public affiliation claims are limited to what the cited sources support. Reviewed evidence established an identity bridge and, where supported, a carefully bounded affiliation or occupation claim. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 726.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b893-v1"
+    }
+  ]
+}

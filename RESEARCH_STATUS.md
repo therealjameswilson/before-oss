@@ -1,5 +1,41 @@
 # Research status
 
+Batch 893 completed PDF page 436, rows 24-46, from **William M Smith** through
+**Richard D Smyser**, preserving all 23 printed rows as separate source records
+linked to 23 active people. All 23 have terminal research outcomes. Seven
+official Army identity bridges are accepted and two materially conflicting
+candidates are rejected, with protected identifiers kept private. The two Carl
+A Smollar rows remain separate and are visibly grouped for duplicate review;
+Army evidence for the second row is not transferred to the first.
+
+William A Smith is identified with high confidence as illustrator William Arthur
+Smith. Three earlier prewar work relationships are published as medium-confidence
+qualified evidence because the surviving chronology does not establish the
+immediate predecessor or last civilian employer. Richard D Smyser's Penn State
+student affiliation and Edward Charles Smith-Ross's prewar Royal Air Force
+assignment are published as high-confidence non-employer affiliations. Six
+historical occupation or status categories are also preserved without inventing
+named employers, workplaces, schools or precise OSS-transfer sequences. Andre
+Smolianinoff and Jane Smith-Hutton receive identity or OSS-context evidence only.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **13,497/23,937 (56.3855%)**;
+verified-employer coverage is **435/23,937 (1.8173%)**;
+verified-affiliation coverage is **966/23,937 (4.0356%)**; archival-review
+coverage is **11,967/23,937 (49.9937%)**. There are **10,435** not-started
+people, **596** possible-duplicate groups and **462** conflicts. The public
+projection contains **2,988** affiliations, **1,109** organizations, **5,492**
+sources and **8,167** published or qualified claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 437, row 1,
+**Howard M Smyth**. See `research/batch-893-progress.md` for the source-by-
+source audit. Batch 893 has passed isolated and canonical idempotency imports,
+database integrity checks, extraction validation, derived export regeneration,
+public-data redaction, all 146 Python tests and 84 parameterized parser subtests,
+the deterministic 200-profile audit, the 93/93 browser and accessibility matrix,
+the complete 25,091-page internal-link check, the private-identifier scan, local
+manifest verification, the zero-warning 25,091-page Astro build, the dependency
+audit and two deterministic builds. Publication verification is pending.
+
 Batch 892 completed PDF page 436, rows 1-23, from **Susan Smith** through
 **William W Smith**, preserving all 23 printed rows as separate source records
 linked to 23 active people. All 23 have terminal research outcomes. Seven
