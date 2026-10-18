@@ -110,7 +110,11 @@ private-identifier audit finds zero unexpected matches, all 67 manifest assets
 verify locally, the production
 dependency audit reports zero vulnerabilities, and two consecutive builds
 produce identical public and output tree digests. CI, public deployment and
-unauthenticated verification remain separate publication gates.
+unauthenticated verification were then completed against immutable content
+commit `f74d5bcdf1214c31f5d4e7098229ddc6a3c5b21e`: Test run `39145716263`
+and Pages run `39145716151` passed, and the live verifier matched all 67
+manifest assets, eight core routes, 37 source-register pages and all 23 Batch
+896 profiles.
 
 ## Resume inputs
 

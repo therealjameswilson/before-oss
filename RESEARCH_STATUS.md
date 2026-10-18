@@ -31,8 +31,13 @@ Python tests and 84 parameterized subtests, the deterministic 200-profile
 audit, the 93/93 browser and accessibility matrix, the 25,095-page internal-
 link check, private-identifier scan, local
 manifest verification, zero-warning 25,095-page Astro build, dependency audit
-and two deterministic builds. Publication remains pending the immutable commit,
-clean GitHub Actions workflows and unauthenticated live verification.
+and two deterministic builds. Batch 896 is public from immutable content commit
+`f74d5bcdf1214c31f5d4e7098229ddc6a3c5b21e`. GitHub Actions Test run
+`39145716263` and Pages deployment run `39145716151` both completed
+successfully. The unauthenticated deployed-release verifier matched all 67
+public assets (119,489,581 bytes), eight core routes, 37 source-register pages
+and all 23 directly affected profiles. The deployed manifest SHA-256 is
+`67f7f39332aa05890af4d3e0aad2945a3769d8b543f7b0eb1eddb8e3a5545b4e`.
 
 Batch 895 completed PDF page 437, rows 24-46, from **Edwin N Snyder** through
 **John Soha**, preserving all 23 printed rows and linking them to 23 active
