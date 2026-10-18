@@ -113,9 +113,12 @@ dependency audit reports zero vulnerabilities.
 
 ## Publication status
 
-Publication is pending the Batch 885 content commit and GitHub Pages workflow.
-This section will be updated with the exact commit and workflow runs after the
-unauthenticated deployed-release verifier passes.
+Batch 885 is published at content commit
+e83e25d75a41ac66dd5fc257240c0a3406e6eb14. The clean Linux Test workflow
+passed in run 39098630281, and the GitHub Pages build and deploy passed in run
+39098630272. The unauthenticated release verifier confirmed all 67 manifest
+assets, eight core routes, 37 source-register pages and all 23 direct Batch 885
+profiles at https://therealjameswilson.github.io/before-oss/.
 
 ## Resume commands
 
