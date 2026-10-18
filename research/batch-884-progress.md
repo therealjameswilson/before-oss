@@ -117,9 +117,12 @@ dependency audit reports zero vulnerabilities.
 
 ## Publication status
 
-Batch 884 is validated locally but is not yet published. The public site still
-reflects Batch 883 until the remaining release checks, commit, push, GitHub
-Actions runs and unauthenticated deployment verification succeed.
+Batch 884 is published at content commit
+a7b3d20ea4846632eda3ed973867ff6112253369. The clean Linux Test workflow passed
+in run 39097098392, and the GitHub Pages build and deploy passed in run
+39097098439. The unauthenticated release verifier confirmed all 67 manifest
+assets, eight core routes, 37 source-register pages and all 23 direct Batch 884
+profiles at https://therealjameswilson.github.io/before-oss/.
 
 ## Resume commands
 
