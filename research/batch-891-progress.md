@@ -125,10 +125,16 @@ candidate but do not by themselves establish public deployment.
 
 ## Publication status
 
-Batch 891 is not yet public. Local release validation and GitHub Pages
-publication remain pending.
+Batch 891 is public from immutable content commit
+`5d63f637aa75d96b4f5bb16e02b1860b37d6b375`. GitHub Actions Test run
+`39112345829` and Pages deployment run `39112345401` both completed
+successfully. The unauthenticated deployed-release verifier matched all 67
+public assets (118,829,260 bytes), eight core routes, 37 source-register pages
+and all 24 directly affected profiles, including the adjacent Robert F Smith
+duplicate-link update. The deployed manifest SHA-256 is
+`b4658c94bf23fea477abcf61b6543b31936013adcefd31013fbb886466cf1460`.
 
-Public site (currently Batch 890):
+Public site:
 <https://therealjameswilson.github.io/before-oss/>
 
 ## Resume inputs

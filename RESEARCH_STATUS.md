@@ -33,8 +33,11 @@ subtests, the deterministic 200-profile audit, the 87/87 browser and
 accessibility matrix, the complete 25,086-page internal-link check, the
 private-identifier scan, local manifest verification, the zero-warning
 25,086-page Astro build, the dependency audit and two deterministic builds.
-The local release candidate is complete; publication verification is in
-progress.
+Batch 891 is public from immutable content commit
+`5d63f637aa75d96b4f5bb16e02b1860b37d6b375`; independent Test run
+`39112345829` and Pages deployment run `39112345401` passed, and the
+unauthenticated verifier matched all 67 public assets, eight core routes, 37
+source-register pages and all 24 directly affected profiles.
 
 Batch 890 completed PDF page 435, rows 1-23, from **Martha F Smith** through
 the first **Robert F Smith** entry, preserving all 23 printed rows as separate
