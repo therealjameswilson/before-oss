@@ -1,0 +1,1500 @@
+{
+  "bundle_version": "batch-891-v1",
+  "reviewer": "Before OSS Batch 891 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b891",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 724-725",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 435, rows 24-46; checked against layout-preserving text and a rendered page image",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain preserved. Full protected identifiers remain private and are masked from public data."
+    },
+    {
+      "key": "army-bulk-b891",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; 12 existing protected-identifier fields checked and nine nonshared-identifier candidates accepted after review",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full private identifier is retained in public assets. The file is incomplete and a non-hit is not negative proof."
+    },
+    {
+      "key": "army-tech-b891",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; fixed-width identifier, name, DD/MM/YY Army-entry-date, grade and civilian-occupation fields visually checked",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; documentation warnings about source damage, alternate layouts, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b891",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 170, 171, 174 and 304; civilian-occupation categories 003, 057, 105, 157, 485, 736, 760 and 992 visually checked",
+      "access_date": "2026-10-18",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical occupation labels name neither employers nor workplaces. The corrected 057 and 992 entries were preserved; no employer or institution is inferred."
+    }
+  ],
+  "organizations": [],
+  "affiliations": [
+    {
+      "key": "robert-g-smith-row25-occupation-b891",
+      "person_id": "e635478f-5c1b-546e-ba4d-e7b46324038c",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Welders and flame cutters",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1943-05-10",
+      "date_precision": "Historical civilian-occupation code 485 was recorded at Army entry on 1943-05-10; no employer, workplace, start date or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "No named employer, workplace, exact role or OSS-transfer sequence is supplied."
+    },
+    {
+      "key": "robert-b-smith-row28-occupation-b891",
+      "person_id": "b11baf40-7e25-5fd2-81a2-ea737792e016",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Salesmen, insurance",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-04-03",
+      "date_precision": "Historical civilian-occupation code 157 was recorded at Army entry on 1942-04-03; no employer, workplace, start date or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The different grade descriptions occur at different stages and are not treated as a contradiction. No insurer or employer is named."
+    },
+    {
+      "key": "robert-b-smith-row30-occupation-b891",
+      "person_id": "0949e62d-df9f-5a21-bb88-65c0013c8cb8",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Student",
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "1944-11-01",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1944-11-01; no employer, workplace, start date or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Student status is distinct from employment, and no school, course or employer is inferred."
+    },
+    {
+      "key": "robert-a-smith-row32-occupation-b891",
+      "person_id": "d72b29b0-777d-594b-943c-fccdb06b72ac",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Sports instructors, athletes, and sports officials",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-03-17",
+      "date_precision": "Historical civilian-occupation code 057 was recorded at Army entry on 1942-03-17; no employer, workplace, start date or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The broad historical sports category is not converted into a specific job, employer or institution."
+    },
+    {
+      "key": "robert-f-smith-row33-occupation-b891",
+      "person_id": "3dce0dac-b055-5a94-aed0-5ac33e5b902a",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Chauffeurs and drivers, bus, taxi, truck, and tractor",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1941-04-17",
+      "date_precision": "Historical civilian-occupation code 736 was recorded at Army entry on 1941-04-17; no employer, workplace, start date or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical driver category is not converted into a named employer or exact job title."
+    },
+    {
+      "key": "sam-m-smith-row38-occupation-b891",
+      "person_id": "1095ac4a-7293-5fac-97fe-16e5d0b6e7bf",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Clerks, general office",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1942-08-04",
+      "date_precision": "Historical civilian-occupation code 105 was recorded at Army entry on 1942-08-04; no employer, workplace, start date or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The general-office-clerk category names neither an employer nor a workplace."
+    },
+    {
+      "key": "sands-smith-row39-occupation-b891",
+      "person_id": "1c688f94-0919-52dd-94ec-011395f677b2",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Student",
+      "relationship_type": "student",
+      "start_date": null,
+      "end_date": "1943-07-03",
+      "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1943-07-03; no employer, workplace, start date or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Student status is distinct from employment. A discovery-only 1924-born namesake lacks a direct archival bridge and is not used as identity or employer evidence."
+    },
+    {
+      "key": "stephen-j-smith-row45-occupation-b891",
+      "person_id": "02f23a7e-922f-5848-935a-25e0b166371d",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Architects",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1941-02-07",
+      "date_precision": "Historical civilian-occupation code 003 was recorded at Army entry on 1941-02-07; no employer, workplace, start date or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The architect category does not name an employer, firm, project or location."
+    },
+    {
+      "key": "sunday-b-smith-row46-occupation-b891",
+      "person_id": "da092c48-923d-5c64-8cbc-52f2c0791c8c",
+      "organization_key": null,
+      "organization_name_as_found": null,
+      "role_title": null,
+      "occupation": "Attendants, filling stations and parking lots",
+      "relationship_type": "unknown",
+      "start_date": null,
+      "end_date": "1944-01-11",
+      "date_precision": "Historical civilian-occupation code 760 was recorded at Army entry on 1944-01-11; no employer, workplace, start date or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The attendant category identifies neither a particular station, lot, company nor employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-robert-g-smith-row25-b891",
+      "person_id": "e635478f-5c1b-546e-ba4d-e7b46324038c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Robert G Smith row on PDF page 435 is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "Exact-name agreement plus a nonshared protected identifier connect the index row to the official Army bulk record.",
+      "identity_match_assessment": "High confidence from name agreement and a nonshared protected-identifier bridge for this source row only.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish a named employer or the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed and same-name source rows are not merged.",
+      "sources": [
+        {
+          "source_key": "nara-index-b891",
+          "locator_override": "PDF page 435 row 25; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b891",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-robert-g-smith-row25-b891",
+      "person_id": "e635478f-5c1b-546e-ba4d-e7b46324038c",
+      "affiliation_key": "robert-g-smith-row25-occupation-b891",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-05-10, Robert G Smith was recorded in the historical welders and flame cutters category; no employer is identified.",
+      "evidence_excerpt": "Welders and flame cutters",
+      "evidence_paraphrase": "The accepted Army row carries civilian-occupation code 485, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation category belongs only to the accepted protected-identifier match for this index row.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "No named employer, workplace, exact role or OSS-transfer sequence is supplied.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b891",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 485; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b891",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; DD/MM/YY entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b891",
+          "locator_override": "PDF physical page 174; civilian occupation category 4-85",
+          "excerpt_override": "Welders and flame cutters"
+        }
+      ]
+    },
+    {
+      "key": "identity-robert-b-smith-row28-b891",
+      "person_id": "b11baf40-7e25-5fd2-81a2-ea737792e016",
+      "claim_type": "identity",
+      "claim_text": "The indexed Robert B Smith row on PDF page 435 is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "Exact-name agreement plus a nonshared protected identifier connect this index row to the official Army bulk record. The Army row records private grade at entry, while the later index prints M/Sgt; both are preserved as chronology.",
+      "identity_match_assessment": "High confidence from name agreement and a nonshared protected-identifier bridge for this source row only.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish a named employer or the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed and same-name source rows are not merged.",
+      "sources": [
+        {
+          "source_key": "nara-index-b891",
+          "locator_override": "PDF page 435 row 28; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b891",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-robert-b-smith-row28-b891",
+      "person_id": "b11baf40-7e25-5fd2-81a2-ea737792e016",
+      "affiliation_key": "robert-b-smith-row28-occupation-b891",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-04-03, Robert B Smith was recorded in the historical salesmen, insurance category; no employer is identified.",
+      "evidence_excerpt": "Salesmen, insurance",
+      "evidence_paraphrase": "The accepted Army row carries civilian-occupation code 157, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation category belongs only to the accepted protected-identifier match for this index row.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The different grade descriptions occur at different stages and are not treated as a contradiction. No insurer or employer is named.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b891",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 157; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b891",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; DD/MM/YY entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b891",
+          "locator_override": "PDF physical page 171; civilian occupation category 1-57",
+          "excerpt_override": "Salesmen, insurance"
+        }
+      ]
+    },
+    {
+      "key": "identity-robert-b-smith-row30-b891",
+      "person_id": "0949e62d-df9f-5a21-bb88-65c0013c8cb8",
+      "claim_type": "identity",
+      "claim_text": "The indexed Robert B Smith row on PDF page 435 is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "Base-name agreement plus a nonshared protected identifier connect this index row to official Army source form Robert B Smith Jr; the suffix remains a source variant.",
+      "identity_match_assessment": "High confidence from name agreement and a nonshared protected-identifier bridge for this source row only.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish a named employer or the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed and same-name source rows are not merged. The Army source form Robert B Smith Jr remains a documented variant and does not replace the indexed spelling.",
+      "sources": [
+        {
+          "source_key": "nara-index-b891",
+          "locator_override": "PDF page 435 row 30; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b891",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-robert-b-smith-row30-b891",
+      "person_id": "0949e62d-df9f-5a21-bb88-65c0013c8cb8",
+      "affiliation_key": "robert-b-smith-row30-occupation-b891",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1944-11-01, Robert B Smith was recorded in the historical student category; no employer is identified.",
+      "evidence_excerpt": "Student",
+      "evidence_paraphrase": "The accepted Army row carries civilian-occupation code 992, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation category belongs only to the accepted protected-identifier match for this index row.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Student status is distinct from employment, and no school, course or employer is inferred.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b891",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 992; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b891",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; DD/MM/YY entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b891",
+          "locator_override": "PDF physical page 304; corrected civilian occupation category 9-92",
+          "excerpt_override": "Student"
+        }
+      ]
+    },
+    {
+      "key": "identity-robert-a-smith-row32-b891",
+      "person_id": "d72b29b0-777d-594b-943c-fccdb06b72ac",
+      "claim_type": "identity",
+      "claim_text": "The indexed Robert A Smith row on PDF page 435 is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "Exact-name agreement plus a nonshared protected identifier connect the second Robert A Smith row to the official Army bulk record; the adjacent identical-name row has a different protected identifier and remains separate.",
+      "identity_match_assessment": "High confidence from name agreement and a nonshared protected-identifier bridge for this source row only.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish a named employer or the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed and same-name source rows are not merged.",
+      "sources": [
+        {
+          "source_key": "nara-index-b891",
+          "locator_override": "PDF page 435 row 32; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b891",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-robert-a-smith-row32-b891",
+      "person_id": "d72b29b0-777d-594b-943c-fccdb06b72ac",
+      "affiliation_key": "robert-a-smith-row32-occupation-b891",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-03-17, Robert A Smith was recorded in the historical sports instructors, athletes, and sports officials category; no employer is identified.",
+      "evidence_excerpt": "Sports instructors, athletes, and sports officials",
+      "evidence_paraphrase": "The accepted Army row carries civilian-occupation code 057, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation category belongs only to the accepted protected-identifier match for this index row.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The broad historical sports category is not converted into a specific job, employer or institution.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b891",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 057; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b891",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; DD/MM/YY entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b891",
+          "locator_override": "PDF physical pages 171 and 304; corrected civilian occupation category 0-57",
+          "excerpt_override": "Sports instructors, athletes, and sports officials"
+        }
+      ]
+    },
+    {
+      "key": "identity-robert-f-smith-row33-b891",
+      "person_id": "3dce0dac-b055-5a94-aed0-5ac33e5b902a",
+      "claim_type": "identity",
+      "claim_text": "The indexed Robert F Smith row on PDF page 435 is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "Exact-name agreement plus a nonshared protected identifier connect the third Robert F Smith entry on page 435 to the official Army bulk record; the two earlier rows have different protected identifiers and remain separate.",
+      "identity_match_assessment": "High confidence from name agreement and a nonshared protected-identifier bridge for this source row only.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish a named employer or the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed and same-name source rows are not merged.",
+      "sources": [
+        {
+          "source_key": "nara-index-b891",
+          "locator_override": "PDF page 435 row 33; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b891",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-robert-f-smith-row33-b891",
+      "person_id": "3dce0dac-b055-5a94-aed0-5ac33e5b902a",
+      "affiliation_key": "robert-f-smith-row33-occupation-b891",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-04-17, Robert F Smith was recorded in the historical chauffeurs and drivers, bus, taxi, truck, and tractor category; no employer is identified.",
+      "evidence_excerpt": "Chauffeurs and drivers, bus, taxi, truck, and tractor",
+      "evidence_paraphrase": "The accepted Army row carries civilian-occupation code 736, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation category belongs only to the accepted protected-identifier match for this index row.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical driver category is not converted into a named employer or exact job title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b891",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 736; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b891",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; DD/MM/YY entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b891",
+          "locator_override": "PDF physical page 174; civilian occupation category 7-36",
+          "excerpt_override": "Chauffeurs and drivers, bus, taxi, truck, and tractor"
+        }
+      ]
+    },
+    {
+      "key": "identity-sam-m-smith-row38-b891",
+      "person_id": "1095ac4a-7293-5fac-97fe-16e5d0b6e7bf",
+      "claim_type": "identity",
+      "claim_text": "The indexed Sam M Smith row on PDF page 435 is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "Exact-name agreement plus a nonshared protected identifier connect the index row to the official Army bulk record.",
+      "identity_match_assessment": "High confidence from name agreement and a nonshared protected-identifier bridge for this source row only.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish a named employer or the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed and same-name source rows are not merged.",
+      "sources": [
+        {
+          "source_key": "nara-index-b891",
+          "locator_override": "PDF page 435 row 38; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b891",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-sam-m-smith-row38-b891",
+      "person_id": "1095ac4a-7293-5fac-97fe-16e5d0b6e7bf",
+      "affiliation_key": "sam-m-smith-row38-occupation-b891",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-08-04, Sam M Smith was recorded in the historical clerks, general office category; no employer is identified.",
+      "evidence_excerpt": "Clerks, general office",
+      "evidence_paraphrase": "The accepted Army row carries civilian-occupation code 105, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation category belongs only to the accepted protected-identifier match for this index row.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The general-office-clerk category names neither an employer nor a workplace.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b891",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 105; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b891",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; DD/MM/YY entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b891",
+          "locator_override": "PDF physical page 171; civilian occupation category 1-05",
+          "excerpt_override": "Clerks, general office"
+        }
+      ]
+    },
+    {
+      "key": "identity-sands-smith-row39-b891",
+      "person_id": "1c688f94-0919-52dd-94ec-011395f677b2",
+      "claim_type": "identity",
+      "claim_text": "The indexed Sands Smith row on PDF page 435 is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "Base-name agreement plus a nonshared protected identifier connect the index row to official Army source form Sands Smith Jr; the suffix remains a source variant.",
+      "identity_match_assessment": "High confidence from name agreement and a nonshared protected-identifier bridge for this source row only.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish a named employer or the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed and same-name source rows are not merged. The Army source form Sands Smith Jr remains a documented variant and does not replace the indexed spelling.",
+      "sources": [
+        {
+          "source_key": "nara-index-b891",
+          "locator_override": "PDF page 435 row 39; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b891",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-sands-smith-row39-b891",
+      "person_id": "1c688f94-0919-52dd-94ec-011395f677b2",
+      "affiliation_key": "sands-smith-row39-occupation-b891",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-07-03, Sands Smith was recorded in the historical student category; no employer is identified.",
+      "evidence_excerpt": "Student",
+      "evidence_paraphrase": "The accepted Army row carries civilian-occupation code 992, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation category belongs only to the accepted protected-identifier match for this index row.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Student status is distinct from employment. A discovery-only 1924-born namesake lacks a direct archival bridge and is not used as identity or employer evidence.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b891",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 992; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b891",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; DD/MM/YY entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b891",
+          "locator_override": "PDF physical page 304; corrected civilian occupation category 9-92",
+          "excerpt_override": "Student"
+        }
+      ]
+    },
+    {
+      "key": "identity-stephen-j-smith-row45-b891",
+      "person_id": "02f23a7e-922f-5848-935a-25e0b166371d",
+      "claim_type": "identity",
+      "claim_text": "The indexed Stephen J Smith row on PDF page 435 is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "Exact-name agreement plus a nonshared protected identifier connect the index row to the official Army bulk record.",
+      "identity_match_assessment": "High confidence from name agreement and a nonshared protected-identifier bridge for this source row only.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish a named employer or the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed and same-name source rows are not merged.",
+      "sources": [
+        {
+          "source_key": "nara-index-b891",
+          "locator_override": "PDF page 435 row 45; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b891",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-stephen-j-smith-row45-b891",
+      "person_id": "02f23a7e-922f-5848-935a-25e0b166371d",
+      "affiliation_key": "stephen-j-smith-row45-occupation-b891",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-02-07, Stephen J Smith was recorded in the historical architects category; no employer is identified.",
+      "evidence_excerpt": "Architects",
+      "evidence_paraphrase": "The accepted Army row carries civilian-occupation code 003, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation category belongs only to the accepted protected-identifier match for this index row.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The architect category does not name an employer, firm, project or location.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b891",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 003; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b891",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; DD/MM/YY entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b891",
+          "locator_override": "PDF physical page 170; civilian occupation category 0-03",
+          "excerpt_override": "Architects"
+        }
+      ]
+    },
+    {
+      "key": "identity-sunday-b-smith-row46-b891",
+      "person_id": "da092c48-923d-5c64-8cbc-52f2c0791c8c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Sunday B Smith row on PDF page 435 is a high-confidence match to the official Army bulk record.",
+      "evidence_paraphrase": "Exact-name agreement plus a nonshared protected identifier connect the index row to the official Army bulk record.",
+      "identity_match_assessment": "High confidence from name agreement and a nonshared protected-identifier bridge for this source row only.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish a named employer or the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed and same-name source rows are not merged.",
+      "sources": [
+        {
+          "source_key": "nara-index-b891",
+          "locator_override": "PDF page 435 row 46; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b891",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-sunday-b-smith-row46-b891",
+      "person_id": "da092c48-923d-5c64-8cbc-52f2c0791c8c",
+      "affiliation_key": "sunday-b-smith-row46-occupation-b891",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1944-01-11, Sunday B Smith was recorded in the historical attendants, filling stations and parking lots category; no employer is identified.",
+      "evidence_excerpt": "Attendants, filling stations and parking lots",
+      "evidence_paraphrase": "The accepted Army row carries civilian-occupation code 760, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation category belongs only to the accepted protected-identifier match for this index row.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The attendant category identifies neither a particular station, lot, company nor employer.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b891",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 760; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b891",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; DD/MM/YY entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b891",
+          "locator_override": "PDF physical page 174; civilian occupation category 7-60",
+          "excerpt_override": "Attendants, filling stations and parking lots"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "e635478f-5c1b-546e-ba4d-e7b46324038c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact-name agreement plus a nonshared protected identifier connect the index row to the official Army bulk record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file in Box 724 or 725 to identify the last civilian employer and establish the Army-to-OSS sequence; the Army occupation category is not an employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b11baf40-7e25-5fd2-81a2-ea737792e016",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact-name agreement plus a nonshared protected identifier connect this index row to the official Army bulk record. The Army row records private grade at entry, while the later index prints M/Sgt; both are preserved as chronology.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file in Box 724 or 725 to identify the last civilian employer and establish the Army-to-OSS sequence; the Army occupation category is not an employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "possible_duplicate_group": "p435-robert-b-smith-b891"
+    },
+    {
+      "person_id": "0949e62d-df9f-5a21-bb88-65c0013c8cb8",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Base-name agreement plus a nonshared protected identifier connect this index row to official Army source form Robert B Smith Jr; the suffix remains a source variant.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file in Box 724 or 725 to identify the last civilian employer and establish the Army-to-OSS sequence; the Army occupation category is not an employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Robert B Smith Jr"
+      ],
+      "possible_duplicate_group": "p435-robert-b-smith-b891"
+    },
+    {
+      "person_id": "d72b29b0-777d-594b-943c-fccdb06b72ac",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact-name agreement plus a nonshared protected identifier connect the second Robert A Smith row to the official Army bulk record; the adjacent identical-name row has a different protected identifier and remains separate.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file in Box 724 or 725 to identify the last civilian employer and establish the Army-to-OSS sequence; the Army occupation category is not an employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "possible_duplicate_group": "p435-robert-a-smith-b891"
+    },
+    {
+      "person_id": "3dce0dac-b055-5a94-aed0-5ac33e5b902a",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact-name agreement plus a nonshared protected identifier connect the third Robert F Smith entry on page 435 to the official Army bulk record; the two earlier rows have different protected identifiers and remain separate.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file in Box 724 or 725 to identify the last civilian employer and establish the Army-to-OSS sequence; the Army occupation category is not an employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "possible_duplicate_group": "p435-robert-f-smith-b891"
+    },
+    {
+      "person_id": "1095ac4a-7293-5fac-97fe-16e5d0b6e7bf",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact-name agreement plus a nonshared protected identifier connect the index row to the official Army bulk record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file in Box 724 or 725 to identify the last civilian employer and establish the Army-to-OSS sequence; the Army occupation category is not an employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1c688f94-0919-52dd-94ec-011395f677b2",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Base-name agreement plus a nonshared protected identifier connect the index row to official Army source form Sands Smith Jr; the suffix remains a source variant.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file in Box 724 or 725 to identify the last civilian employer and establish the Army-to-OSS sequence; the Army occupation category is not an employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "name_variants": [
+        "Sands Smith Jr"
+      ]
+    },
+    {
+      "person_id": "02f23a7e-922f-5848-935a-25e0b166371d",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact-name agreement plus a nonshared protected identifier connect the index row to the official Army bulk record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file in Box 724 or 725 to identify the last civilian employer and establish the Army-to-OSS sequence; the Army occupation category is not an employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "da092c48-923d-5c64-8cbc-52f2c0791c8c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "Exact-name agreement plus a nonshared protected identifier connect the index row to the official Army bulk record.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file in Box 724 or 725 to identify the last civilian employer and establish the Army-to-OSS sequence; the Army occupation category is not an employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "438a81b6-647c-51bf-b5b6-a53c2c158ca5",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Robert W Smith, Box 724 or 725 and archive location, but staged official-domain, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Common-name veteran, obituary, directory and employment leads lacked an OSS or Box 725 bridge. A family-history page naming a steel employer was not transferable to this person.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 724 or 725 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "8bf823dd-6f4b-5e1b-9d06-cee2ad34f635",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Robert K Smith, Box 724 or 725 and archive location, but staged official-domain, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. An official National Park Service profile describes a same-name airman who died in January 1945, but the index supplies no identifier or assignment bridge tying him to this Box 725 file.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 724 or 725 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "71eef5f5-ba52-5047-8e54-b4598fc66dee",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Robert F Smith, Box 724 or 725 and archive location, but staged official-domain, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Professor, military, obituary and directory namesakes lacked this row's protected identifier or OSS/Box 724 bridge; the three same-name rows remain separate.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 724 or 725 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "p435-robert-f-smith-b891"
+    },
+    {
+      "person_id": "74aa846e-915c-5872-a53c-255d72176a2b",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Robert M Smith, Box 724 or 725 and archive location, but staged official-domain, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. A 1940 postmaster namesake and other common-name results lacked an OSS or Box 725 bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 724 or 725 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "7864e8d2-56bd-56f7-a746-57720209284f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Robert A Smith, Box 724 or 725 and archive location, but staged official-domain, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. The adjacent same-name row has a different protected identifier and an accepted Army match. No evidence transfers that identity or occupation to this separate row.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 724 or 725 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical",
+      "possible_duplicate_group": "p435-robert-a-smith-b891"
+    },
+    {
+      "person_id": "33f6ed9b-9f87-528f-b9dc-b230626c621d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Russell K Smith, Box 724 or 725 and archive location, but staged official-domain, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Exact-name, military, employment, obituary and archival searches yielded only unbridged namesakes.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 724 or 725 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "cf561725-0f49-5f2c-9766-f65dc2b46a28",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Ruth A Smith, Box 724 or 725 and archive location, but staged official-domain, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Student, war-work, engineering-company and other namesakes lacked an OSS or Box 725 bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 724 or 725 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "aaf55d5f-f53e-5d7c-929a-eb7a4e6b69f6",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Ruth E Smith, Box 724 or 725 and archive location, but staged official-domain, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Obituary, cemetery, directory and licensing-worker namesakes lacked an OSS or Box 725 bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 724 or 725 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "bb02ba81-a9f3-5333-bdbb-c24bbf698b98",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Ruthanna Smith, Box 724 or 725 and archive location, but staged official-domain, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. A 1947 graduate-student listing is postwar and supplies no OSS bridge; modern and incompatible obituary namesakes were rejected.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 724 or 725 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "36b49e6d-0451-50ab-a0a4-2383592db6f1",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Sara E Smith, Box 724 or 725 and archive location, but staged official-domain, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Exact-name, employment, obituary, institutional and directory searches produced no corroborating OSS or Box 725 bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 724 or 725 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "0ac0ee95-fec0-5792-b835-6b8f91ceb453",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Saul Smith, Box 724 or 725 and archive location, but staged official-domain, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Exact-name, occupation, obituary, institutional and archival searches produced unrelated modern people and unbridged namesakes.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 724 or 725 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "72b0a311-b136-5130-a35e-2a36c1f2904c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Saul M Smith, Box 724 or 725 and archive location, but staged official-domain, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Exact-name and initial-variant searches produced unrelated firm-name results and unbridged namesakes.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 724 or 725 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "24867299-a213-5a46-b0d9-1f70d3909fc2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Sidney B Smith, Box 724 or 725 and archive location, but staged official-domain, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Census, cemetery and genealogy candidates supplied no OSS, wartime identifier or Box 725 bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 724 or 725 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "f86c15f2-9a6f-5be9-90c9-d30a56556303",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Stella T Smith, Box 724 or 725 and archive location, but staged official-domain, exact-name, employment, occupation, obituary, institutional, directory and archival searches found no defensible identity bridge. Exact-name, employment, obituary, directory and archival searches produced no corroborating identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "commissioned_officer": null,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 724 or 725 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "c4738870-9e3f-5a3c-b157-b93bdc6b8673",
+      "possible_duplicate_group": "p435-robert-f-smith-b891",
+      "manual_review_required": true
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page435-row25-robert-g-smith-b891",
+      "person_id": "e635478f-5c1b-546e-ba4d-e7b46324038c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert G Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 724/725; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_891",
+      "started_at": "2026-10-18T07:35:00Z",
+      "completed_at": "2026-10-18T08:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "External namesakes lacked the protected identifier or Box 724/725 bridge; no named employer source was established.",
+      "research_notes": "High-confidence official Army identity and qualified occupation or student-status evidence established. No named employer, workplace, exact role or OSS-transfer sequence is supplied. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 724 or 725.",
+      "last_error_redacted": null,
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b891-v1"
+    },
+    {
+      "key": "page435-row28-robert-b-smith-b891",
+      "person_id": "b11baf40-7e25-5fd2-81a2-ea737792e016",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert B Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 724/725; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_891",
+      "started_at": "2026-10-18T07:35:00Z",
+      "completed_at": "2026-10-18T08:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "External namesakes lacked the protected identifier or Box 724/725 bridge; no named employer source was established.",
+      "research_notes": "High-confidence official Army identity and qualified occupation or student-status evidence established. The different grade descriptions occur at different stages and are not treated as a contradiction. No insurer or employer is named. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 724 or 725.",
+      "last_error_redacted": null,
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b891-v1"
+    },
+    {
+      "key": "page435-row30-robert-b-smith-b891",
+      "person_id": "0949e62d-df9f-5a21-bb88-65c0013c8cb8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert B Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 724/725; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_891",
+      "started_at": "2026-10-18T07:35:00Z",
+      "completed_at": "2026-10-18T08:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "External namesakes lacked the protected identifier or Box 724/725 bridge; no named employer source was established.",
+      "research_notes": "High-confidence official Army identity and qualified occupation or student-status evidence established. Student status is distinct from employment, and no school, course or employer is inferred. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 724 or 725.",
+      "last_error_redacted": null,
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b891-v1"
+    },
+    {
+      "key": "page435-row32-robert-a-smith-b891",
+      "person_id": "d72b29b0-777d-594b-943c-fccdb06b72ac",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert A Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 724/725; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_891",
+      "started_at": "2026-10-18T07:35:00Z",
+      "completed_at": "2026-10-18T08:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "External namesakes lacked the protected identifier or Box 724/725 bridge; no named employer source was established.",
+      "research_notes": "High-confidence official Army identity and qualified occupation or student-status evidence established. The broad historical sports category is not converted into a specific job, employer or institution. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 724 or 725.",
+      "last_error_redacted": null,
+      "attempt_number": 4,
+      "research_agent_version": "before-oss-b891-v1"
+    },
+    {
+      "key": "page435-row33-robert-f-smith-b891",
+      "person_id": "3dce0dac-b055-5a94-aed0-5ac33e5b902a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert F Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 724/725; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_891",
+      "started_at": "2026-10-18T07:35:00Z",
+      "completed_at": "2026-10-18T08:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "External namesakes lacked the protected identifier or Box 724/725 bridge; no named employer source was established.",
+      "research_notes": "High-confidence official Army identity and qualified occupation or student-status evidence established. The historical driver category is not converted into a named employer or exact job title. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 724 or 725.",
+      "last_error_redacted": null,
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b891-v1"
+    },
+    {
+      "key": "page435-row38-sam-m-smith-b891",
+      "person_id": "1095ac4a-7293-5fac-97fe-16e5d0b6e7bf",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Sam M Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 724/725; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_891",
+      "started_at": "2026-10-18T07:35:00Z",
+      "completed_at": "2026-10-18T08:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "External namesakes lacked the protected identifier or Box 724/725 bridge; no named employer source was established.",
+      "research_notes": "High-confidence official Army identity and qualified occupation or student-status evidence established. The general-office-clerk category names neither an employer nor a workplace. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 724 or 725.",
+      "last_error_redacted": null,
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b891-v1"
+    },
+    {
+      "key": "page435-row39-sands-smith-b891",
+      "person_id": "1c688f94-0919-52dd-94ec-011395f677b2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Sands Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 724/725; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_891",
+      "started_at": "2026-10-18T07:35:00Z",
+      "completed_at": "2026-10-18T08:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "External namesakes lacked the protected identifier or Box 724/725 bridge; no named employer source was established.",
+      "research_notes": "High-confidence official Army identity and qualified occupation or student-status evidence established. Student status is distinct from employment. A discovery-only 1924-born namesake lacks a direct archival bridge and is not used as identity or employer evidence. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 724 or 725.",
+      "last_error_redacted": null,
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b891-v1"
+    },
+    {
+      "key": "page435-row45-stephen-j-smith-b891",
+      "person_id": "02f23a7e-922f-5848-935a-25e0b166371d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Stephen J Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 724/725; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_891",
+      "started_at": "2026-10-18T07:35:00Z",
+      "completed_at": "2026-10-18T08:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "External namesakes lacked the protected identifier or Box 724/725 bridge; no named employer source was established.",
+      "research_notes": "High-confidence official Army identity and qualified occupation or student-status evidence established. The architect category does not name an employer, firm, project or location. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 724 or 725.",
+      "last_error_redacted": null,
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b891-v1"
+    },
+    {
+      "key": "page435-row46-sunday-b-smith-b891",
+      "person_id": "da092c48-923d-5c64-8cbc-52f2c0791c8c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Sunday B Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 724/725; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_891",
+      "started_at": "2026-10-18T07:35:00Z",
+      "completed_at": "2026-10-18T08:35:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "External namesakes lacked the protected identifier or Box 724/725 bridge; no named employer source was established.",
+      "research_notes": "High-confidence official Army identity and qualified occupation or student-status evidence established. The attendant category identifies neither a particular station, lot, company nor employer. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 724 or 725.",
+      "last_error_redacted": null,
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b891-v1"
+    },
+    {
+      "key": "page435-row24-robert-w-smith-b891",
+      "person_id": "438a81b6-647c-51bf-b5b6-a53c2c158ca5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert W Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 724/725; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_891",
+      "started_at": "2026-10-18T07:35:00Z",
+      "completed_at": "2026-10-18T08:35:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Common-name veteran, obituary, directory and employment leads lacked an OSS or Box 725 bridge. A family-history page naming a steel employer was not transferable to this person.",
+      "research_notes": "No reliable identity or pre-OSS employer found after staged search and namesake rejection. Common-name veteran, obituary, directory and employment leads lacked an OSS or Box 725 bridge. A family-history page naming a steel employer was not transferable to this person. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 724 or 725.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b891-v1"
+    },
+    {
+      "key": "page435-row26-robert-k-smith-b891",
+      "person_id": "8bf823dd-6f4b-5e1b-9d06-cee2ad34f635",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert K Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 724/725; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_891",
+      "started_at": "2026-10-18T07:35:00Z",
+      "completed_at": "2026-10-18T08:35:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "An official National Park Service profile describes a same-name airman who died in January 1945, but the index supplies no identifier or assignment bridge tying him to this Box 725 file.",
+      "research_notes": "No reliable identity or pre-OSS employer found after staged search and namesake rejection. An official National Park Service profile describes a same-name airman who died in January 1945, but the index supplies no identifier or assignment bridge tying him to this Box 725 file. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 724 or 725.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b891-v1"
+    },
+    {
+      "key": "page435-row27-robert-f-smith-b891",
+      "person_id": "71eef5f5-ba52-5047-8e54-b4598fc66dee",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert F Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 724/725; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_891",
+      "started_at": "2026-10-18T07:35:00Z",
+      "completed_at": "2026-10-18T08:35:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Professor, military, obituary and directory namesakes lacked this row's protected identifier or OSS/Box 724 bridge; the three same-name rows remain separate.",
+      "research_notes": "No reliable identity or pre-OSS employer found after staged search and namesake rejection. Professor, military, obituary and directory namesakes lacked this row's protected identifier or OSS/Box 724 bridge; the three same-name rows remain separate. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 724 or 725.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b891-v1"
+    },
+    {
+      "key": "page435-row29-robert-m-smith-b891",
+      "person_id": "74aa846e-915c-5872-a53c-255d72176a2b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert M Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 724/725; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_891",
+      "started_at": "2026-10-18T07:35:00Z",
+      "completed_at": "2026-10-18T08:35:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "A 1940 postmaster namesake and other common-name results lacked an OSS or Box 725 bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer found after staged search and namesake rejection. A 1940 postmaster namesake and other common-name results lacked an OSS or Box 725 bridge. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 724 or 725.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b891-v1"
+    },
+    {
+      "key": "page435-row31-robert-a-smith-b891",
+      "person_id": "7864e8d2-56bd-56f7-a746-57720209284f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert A Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 724/725; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_891",
+      "started_at": "2026-10-18T07:35:00Z",
+      "completed_at": "2026-10-18T08:35:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The adjacent same-name row has a different protected identifier and an accepted Army match. No evidence transfers that identity or occupation to this separate row.",
+      "research_notes": "No reliable identity or pre-OSS employer found after staged search and namesake rejection. The adjacent same-name row has a different protected identifier and an accepted Army match. No evidence transfers that identity or occupation to this separate row. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 724 or 725.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 15,
+      "research_agent_version": "before-oss-b891-v1"
+    },
+    {
+      "key": "page435-row34-russell-k-smith-b891",
+      "person_id": "33f6ed9b-9f87-528f-b9dc-b230626c621d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Russell K Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 724/725; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_891",
+      "started_at": "2026-10-18T07:35:00Z",
+      "completed_at": "2026-10-18T08:35:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name, military, employment, obituary and archival searches yielded only unbridged namesakes.",
+      "research_notes": "No reliable identity or pre-OSS employer found after staged search and namesake rejection. Exact-name, military, employment, obituary and archival searches yielded only unbridged namesakes. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 724 or 725.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b891-v1"
+    },
+    {
+      "key": "page435-row35-ruth-a-smith-b891",
+      "person_id": "cf561725-0f49-5f2c-9766-f65dc2b46a28",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ruth A Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 724/725; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_891",
+      "started_at": "2026-10-18T07:35:00Z",
+      "completed_at": "2026-10-18T08:35:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Student, war-work, engineering-company and other namesakes lacked an OSS or Box 725 bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer found after staged search and namesake rejection. Student, war-work, engineering-company and other namesakes lacked an OSS or Box 725 bridge. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 724 or 725.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b891-v1"
+    },
+    {
+      "key": "page435-row36-ruth-e-smith-b891",
+      "person_id": "aaf55d5f-f53e-5d7c-929a-eb7a4e6b69f6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ruth E Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 724/725; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_891",
+      "started_at": "2026-10-18T07:35:00Z",
+      "completed_at": "2026-10-18T08:35:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Obituary, cemetery, directory and licensing-worker namesakes lacked an OSS or Box 725 bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer found after staged search and namesake rejection. Obituary, cemetery, directory and licensing-worker namesakes lacked an OSS or Box 725 bridge. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 724 or 725.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 14,
+      "research_agent_version": "before-oss-b891-v1"
+    },
+    {
+      "key": "page435-row37-ruthanna-smith-b891",
+      "person_id": "bb02ba81-a9f3-5333-bdbb-c24bbf698b98",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ruthanna Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 724/725; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_891",
+      "started_at": "2026-10-18T07:35:00Z",
+      "completed_at": "2026-10-18T08:35:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "A 1947 graduate-student listing is postwar and supplies no OSS bridge; modern and incompatible obituary namesakes were rejected.",
+      "research_notes": "No reliable identity or pre-OSS employer found after staged search and namesake rejection. A 1947 graduate-student listing is postwar and supplies no OSS bridge; modern and incompatible obituary namesakes were rejected. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 724 or 725.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b891-v1"
+    },
+    {
+      "key": "page435-row40-sara-e-smith-b891",
+      "person_id": "36b49e6d-0451-50ab-a0a4-2383592db6f1",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Sara E Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 724/725; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_891",
+      "started_at": "2026-10-18T07:35:00Z",
+      "completed_at": "2026-10-18T08:35:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name, employment, obituary, institutional and directory searches produced no corroborating OSS or Box 725 bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer found after staged search and namesake rejection. Exact-name, employment, obituary, institutional and directory searches produced no corroborating OSS or Box 725 bridge. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 724 or 725.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b891-v1"
+    },
+    {
+      "key": "page435-row41-saul-smith-b891",
+      "person_id": "0ac0ee95-fec0-5792-b835-6b8f91ceb453",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Saul Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 724/725; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_891",
+      "started_at": "2026-10-18T07:35:00Z",
+      "completed_at": "2026-10-18T08:35:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name, occupation, obituary, institutional and archival searches produced unrelated modern people and unbridged namesakes.",
+      "research_notes": "No reliable identity or pre-OSS employer found after staged search and namesake rejection. Exact-name, occupation, obituary, institutional and archival searches produced unrelated modern people and unbridged namesakes. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 724 or 725.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b891-v1"
+    },
+    {
+      "key": "page435-row42-saul-m-smith-b891",
+      "person_id": "72b0a311-b136-5130-a35e-2a36c1f2904c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Saul M Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 724/725; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_891",
+      "started_at": "2026-10-18T07:35:00Z",
+      "completed_at": "2026-10-18T08:35:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name and initial-variant searches produced unrelated firm-name results and unbridged namesakes.",
+      "research_notes": "No reliable identity or pre-OSS employer found after staged search and namesake rejection. Exact-name and initial-variant searches produced unrelated firm-name results and unbridged namesakes. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 724 or 725.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b891-v1"
+    },
+    {
+      "key": "page435-row43-sidney-b-smith-b891",
+      "person_id": "24867299-a213-5a46-b0d9-1f70d3909fc2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Sidney B Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 724/725; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_891",
+      "started_at": "2026-10-18T07:35:00Z",
+      "completed_at": "2026-10-18T08:35:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Census, cemetery and genealogy candidates supplied no OSS, wartime identifier or Box 725 bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer found after staged search and namesake rejection. Census, cemetery and genealogy candidates supplied no OSS, wartime identifier or Box 725 bridge. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 724 or 725.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b891-v1"
+    },
+    {
+      "key": "page435-row44-stella-t-smith-b891",
+      "person_id": "f86c15f2-9a6f-5be9-90c9-d30a56556303",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Stella T Smith; NARA/index context; CIA Reading Room attempt; exact-name OSS variants; employer and occupation; obituary, institutional, newspaper, directory and archival searches; Box 724/725; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_891",
+      "started_at": "2026-10-18T07:35:00Z",
+      "completed_at": "2026-10-18T08:35:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 3,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name, employment, obituary, directory and archival searches produced no corroborating identity bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer found after staged search and namesake rejection. Exact-name, employment, obituary, directory and archival searches produced no corroborating identity bridge. The CIA adapter stopped at robots restrictions and the current Library of Congress request timed out; both are access limitations, not negative findings. No exposed NARA API credential was used.",
+      "next_action": "Review Box 724 or 725.",
+      "last_error_redacted": "CIA robots restriction; Library of Congress request timeout",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b891-v1"
+    }
+  ]
+}

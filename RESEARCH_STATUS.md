@@ -1,5 +1,41 @@
 # Research status
 
+Batch 891 completed PDF page 435, rows 24-46, from **Robert W Smith** through
+**Sunday B Smith**, preserving all 23 printed rows as separate source records
+linked to 23 active people. All 23 have terminal research outcomes. Nine
+official Army identity bridges are accepted with protected identifiers kept
+private. The two Robert A Smith rows, two Robert B Smith rows and three Robert
+F Smith rows remain separate and are visibly grouped for duplicate review.
+
+Nine medium-confidence historical occupation or student-status findings are
+published as qualified non-employer evidence: welders and flame cutters;
+insurance salesmen; student; sports instructors, athletes and sports officials;
+chauffeurs and drivers; general office clerks; student; architects; and
+filling-station or parking-lot attendants. None names an employer, workplace,
+school or immediate OSS predecessor. The indexed M/Sgt rank for one Robert B
+Smith is preserved alongside the earlier private grade in the Army-entry row;
+the two stages are not silently collapsed.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,937** active
+people. Research-attempt coverage is **13,451/23,937 (56.1933%)**;
+verified-employer coverage is **435/23,937 (1.8173%)**;
+verified-affiliation coverage is **964/23,937 (4.0272%)**; archival-review
+coverage is **11,921/23,937 (49.8016%)**. There are **10,481** not-started
+people, **594** possible-duplicate groups and **462** conflicts. The public
+projection contains **2,971** affiliations, **1,104** organizations, **5,476**
+sources and **8,133** published or qualified claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 436, row 1,
+**William B Smith**. See `research/batch-891-progress.md` for the source-by-
+source audit. Batch 891 has passed isolated and canonical idempotency imports,
+database integrity checks, extraction validation, derived export regeneration,
+public-data redaction, all 146 Python tests and 84 parameterized parser
+subtests, the deterministic 200-profile audit, the 87/87 browser and
+accessibility matrix, the complete 25,086-page internal-link check, the
+private-identifier scan, local manifest verification, the zero-warning
+25,086-page Astro build, the dependency audit and two deterministic builds.
+The local release candidate is complete; publication verification is in
+progress.
+
 Batch 890 completed PDF page 435, rows 1-23, from **Martha F Smith** through
 the first **Robert F Smith** entry, preserving all 23 printed rows as separate
 source records linked to 23 active people. All 23 have terminal research
