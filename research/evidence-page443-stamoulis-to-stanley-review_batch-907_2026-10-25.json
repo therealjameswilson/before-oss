@@ -1,0 +1,1400 @@
+{
+  "bundle_version": "batch-907-v1",
+  "reviewer": "Before OSS Batch 907 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b907",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 736 and 737",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 443, rows 24-46; checked against layout-preserving text and a rendered page image",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain immutable. Full protected identifiers remain private."
+    },
+    {
+      "key": "army-bulk-b907",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; seven accepted identity bridges and one rejected middle-initial conflict",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full protected identifier is retained in public assets. Coded occupations identify no employer."
+    },
+    {
+      "key": "army-tech-b907",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b907",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 170-174 and 177; all seven Batch 907 occupation codes visually and textually checked",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical occupation labels identify neither employers nor workplaces."
+    },
+    {
+      "key": "hoover-oss-stampados-b907",
+      "stable_url": "https://digitalcollections.hoover.org/internal/media/dispatcher/331573/full",
+      "archival_identifier": "Hoover Digital Collections media 331573",
+      "title": "Office of Strategic Services [Board proceedings, Caserta and Bari]",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "Hoover Institution Library & Archives",
+      "publication_record_date": "1944-05-04",
+      "locator": "PDF viewer pages 48-49, entry XIV; exact name, officer number, chronology and Greek Air Force service",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Office of Strategic Services records in Hoover Digital Collections",
+      "rights_notes": "A browser challenge blocked direct download, but the indexed PDF text and complete relevant pages were reviewed through an accessible search rendering. No access control was bypassed."
+    },
+    {
+      "key": "haf-history-b907",
+      "stable_url": "https://hafa.haf.gr/en/hafa/history/",
+      "title": "History",
+      "author_creator": "Hellenic Air Force Academy",
+      "repository_publisher": "Hellenic Air Force",
+      "locator": "Official institutional history, 1931-1951 and World War II sections",
+      "access_date": "2026-10-25",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Used only to normalize the historical Greek military organization; it does not identify Stampados."
+    },
+    {
+      "key": "arsof-clarence-stanford-b907",
+      "stable_url": "https://arsof-history.org/articles/pdf/v5n1_operation_boston.pdf",
+      "title": "Operation BOSTON: An OSS Combined Operation in the Indian Ocean",
+      "author_creator": "Troy J. Sacquety",
+      "repository_publisher": "United States Army Special Operations Command History Office",
+      "publication_record_date": "2009",
+      "locator": "Acknowledgments identifying Clarence Stanford as a P-101 veteran",
+      "access_date": "2026-10-25",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Identity lead only. Name agreement without an index identifier is insufficient for publication as the indexed person."
+    },
+    {
+      "key": "mppdc-clarence-stanford-b907",
+      "stable_url": "https://www.mppdc.com/articles/reports/FINAL_MPPDC_WWF_PLAN-RED.pdf",
+      "title": "Virginia Working Waterfront Master Plan",
+      "author_creator": "Middle Peninsula Planning District Commission",
+      "repository_publisher": "Middle Peninsula Planning District Commission",
+      "publication_record_date": "2015",
+      "locator": "Page 27; postwar profile of Colonial Beach boatbuilder Clarence Stanford",
+      "access_date": "2026-10-25",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Postwar candidate context only; it is not evidence of pre-OSS employment or an index identity bridge."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "hellenic-royal-air-force-b907",
+      "organization_id": "915b3fa9-f21c-5fb8-85ae-46f98b727af4",
+      "canonical_name": "Hellenic Royal Air Force",
+      "historical_name": "Air Force [of Greece]",
+      "aliases": [
+        "Greek Air Force",
+        "Royal Hellenic Air Force"
+      ],
+      "organization_type": "air force",
+      "sector": "military",
+      "country": "Greece",
+      "active_dates": "Historical designation during the Second World War",
+      "normalization_notes": "The OSS source says only that Stampados was a staff officer of the Air Force in Greece. The historical organization is normalized separately without altering that wording."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "vincent-c-stampone-occupation-b907",
+      "person_id": "9b9b1467-e3fa-5399-8138-d790378ea4e3",
+      "relationship_type": "employment",
+      "occupation": "Advertising agents",
+      "end_date": "1941-07-14",
+      "date_precision": "Historical civilian-occupation code 081 was recorded at Army entry on 1941-07-14; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact title."
+    },
+    {
+      "key": "basil-j-stanberg-occupation-b907",
+      "person_id": "596a3916-bb44-5955-8e60-4aee9eaf7788",
+      "relationship_type": "employment",
+      "occupation": "Unskilled occupations in production of clay products",
+      "end_date": "1943-02-05",
+      "date_precision": "Historical civilian-occupation code 866 was recorded at Army entry on 1943-02-05; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact title."
+    },
+    {
+      "key": "victor-l-stanek-occupation-b907",
+      "person_id": "4275343b-5f88-5dce-80fa-fd3a8d970449",
+      "relationship_type": "employment",
+      "occupation": "Meatcutters, except in slaughtering and packing houses",
+      "end_date": "1942-09-19",
+      "date_precision": "Historical civilian-occupation code 558 was recorded at Army entry on 1942-09-19; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact title."
+    },
+    {
+      "key": "ferdinand-f-stanford-occupation-b907",
+      "person_id": "49375915-35a5-5c97-a7bf-8b06cfb46a2c",
+      "relationship_type": "employment",
+      "occupation": "Carpenters",
+      "end_date": "1940-08-26",
+      "date_precision": "Historical civilian-occupation code 525 was recorded at Army entry on 1940-08-26; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact title."
+    },
+    {
+      "key": "william-stanko-occupation-b907",
+      "person_id": "6ca6bc3e-6112-5adf-b829-8a07e27aa133",
+      "relationship_type": "employment",
+      "occupation": "Bartenders",
+      "end_date": "1941-07-02",
+      "date_precision": "Historical civilian-occupation code 221 was recorded at Army entry on 1941-07-02; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact title."
+    },
+    {
+      "key": "carl-t-stanley-occupation-b907",
+      "person_id": "6c2ebb81-da8b-50ce-9c20-4f1ce56da92f",
+      "relationship_type": "employment",
+      "occupation": "Oilers of machinery",
+      "end_date": "1942-12-12",
+      "date_precision": "Historical civilian-occupation code 771 was recorded at Army entry on 1942-12-12; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact title."
+    },
+    {
+      "key": "eugene-r-stanley-occupation-b907",
+      "person_id": "340e3e1b-c7b6-52a5-b985-e9c92e8959eb",
+      "relationship_type": "employment",
+      "occupation": "Draftsmen",
+      "end_date": "1943-03-02",
+      "date_precision": "Historical civilian-occupation code 048 was recorded at Army entry on 1943-03-02; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, workplace or exact title."
+    },
+    {
+      "key": "demetrius-stampados-greek-air-force-b907",
+      "person_id": "12a33d31-8539-54fc-8778-9604cd57e62e",
+      "organization_key": "hellenic-royal-air-force-b907",
+      "organization_name_as_found": "Air Force [in Greece]",
+      "role_title": "staff officer",
+      "relationship_type": "military_assignment",
+      "date_precision": "Before coming to the United States and before entering OSS as a civilian on 11 December 1941; exact start and end dates are not stated.",
+      "country": "Greece",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "confirmed",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The direct OSS report establishes earlier Greek Air Force staff service but does not prove that it immediately preceded OSS or identify a civilian employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-vincent-c-stampone-b907",
+      "person_id": "9b9b1467-e3fa-5399-8138-d790378ea4e3",
+      "claim_type": "identity",
+      "claim_text": "The indexed Vincent C Stampone row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and exact name connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the nonshared protected-identifier bridge and exact name alignment.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the coded occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b907",
+          "locator_override": "PDF page 443 row 28; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b907",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-vincent-c-stampone-b907",
+      "person_id": "9b9b1467-e3fa-5399-8138-d790378ea4e3",
+      "affiliation_key": "vincent-c-stampone-occupation-b907",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-07-14, the official record assigned Vincent C Stampone the historical civilian-occupation category 'Advertising agents'; no employer is identified.",
+      "evidence_paraphrase": "The Army entry field carries code 081, which the visually checked NARA code list maps to the stated category.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge and exact name alignment.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but neither immediate pre-OSS status nor a named employer is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical code-language is retained and excluded from default confirmed/high-confidence employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b907",
+          "locator_override": "Army-entry date 1941-07-14; occupation code 081; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b907",
+          "support_type": "context_only",
+          "locator_override": "Civilian-occupation field definition"
+        },
+        {
+          "source_key": "army-codes-b907",
+          "locator_override": "PDF physical pages 170-171; category 0-81"
+        }
+      ]
+    },
+    {
+      "key": "identity-basil-j-stanberg-b907",
+      "person_id": "596a3916-bb44-5955-8e60-4aee9eaf7788",
+      "claim_type": "identity",
+      "claim_text": "The indexed Basil J Stanberg row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and exact name connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the nonshared protected-identifier bridge and exact name alignment.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the coded occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b907",
+          "locator_override": "PDF page 443 row 29; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b907",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-basil-j-stanberg-b907",
+      "person_id": "596a3916-bb44-5955-8e60-4aee9eaf7788",
+      "affiliation_key": "basil-j-stanberg-occupation-b907",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-02-05, the official record assigned Basil J Stanberg the historical civilian-occupation category 'Unskilled occupations in production of clay products'; no employer is identified.",
+      "evidence_paraphrase": "The Army entry field carries code 866, which the visually checked NARA code list maps to the stated category.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge and exact name alignment.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but neither immediate pre-OSS status nor a named employer is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical code-language is retained and excluded from default confirmed/high-confidence employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b907",
+          "locator_override": "Army-entry date 1943-02-05; occupation code 866; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b907",
+          "support_type": "context_only",
+          "locator_override": "Civilian-occupation field definition"
+        },
+        {
+          "source_key": "army-codes-b907",
+          "locator_override": "PDF physical page 173; category 8-66"
+        }
+      ]
+    },
+    {
+      "key": "identity-victor-l-stanek-b907",
+      "person_id": "4275343b-5f88-5dce-80fa-fd3a8d970449",
+      "claim_type": "identity",
+      "claim_text": "The indexed Victor L Stanek row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and exact name connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the nonshared protected-identifier bridge and exact name alignment.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the coded occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b907",
+          "locator_override": "PDF page 443 row 31; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b907",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-victor-l-stanek-b907",
+      "person_id": "4275343b-5f88-5dce-80fa-fd3a8d970449",
+      "affiliation_key": "victor-l-stanek-occupation-b907",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-09-19, the official record assigned Victor L Stanek the historical civilian-occupation category 'Meatcutters, except in slaughtering and packing houses'; no employer is identified.",
+      "evidence_paraphrase": "The Army entry field carries code 558, which the visually checked NARA code list maps to the stated category.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge and exact name alignment.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but neither immediate pre-OSS status nor a named employer is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical code-language is retained and excluded from default confirmed/high-confidence employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b907",
+          "locator_override": "Army-entry date 1942-09-19; occupation code 558; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b907",
+          "support_type": "context_only",
+          "locator_override": "Civilian-occupation field definition"
+        },
+        {
+          "source_key": "army-codes-b907",
+          "locator_override": "PDF physical page 174; category 5-58"
+        }
+      ]
+    },
+    {
+      "key": "identity-ferdinand-f-stanford-b907",
+      "person_id": "49375915-35a5-5c97-a7bf-8b06cfb46a2c",
+      "claim_type": "identity",
+      "claim_text": "The indexed Ferdinand F Stanford row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and exact name connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the nonshared protected-identifier bridge and exact name alignment.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the coded occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b907",
+          "locator_override": "PDF page 443 row 35; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b907",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-ferdinand-f-stanford-b907",
+      "person_id": "49375915-35a5-5c97-a7bf-8b06cfb46a2c",
+      "affiliation_key": "ferdinand-f-stanford-occupation-b907",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1940-08-26, the official record assigned Ferdinand F Stanford the historical civilian-occupation category 'Carpenters'; no employer is identified.",
+      "evidence_paraphrase": "The Army entry field carries code 525, which the visually checked NARA code list maps to the stated category.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge and exact name alignment.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but neither immediate pre-OSS status nor a named employer is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical code-language is retained and excluded from default confirmed/high-confidence employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b907",
+          "locator_override": "Army-entry date 1940-08-26; occupation code 525; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b907",
+          "support_type": "context_only",
+          "locator_override": "Civilian-occupation field definition"
+        },
+        {
+          "source_key": "army-codes-b907",
+          "locator_override": "PDF physical page 174; category 5-25"
+        }
+      ]
+    },
+    {
+      "key": "identity-william-stanko-b907",
+      "person_id": "6ca6bc3e-6112-5adf-b829-8a07e27aa133",
+      "claim_type": "identity",
+      "claim_text": "The indexed William Stanko row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and exact name connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the nonshared protected-identifier bridge and exact name alignment.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the coded occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b907",
+          "locator_override": "PDF page 443 row 38; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b907",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-william-stanko-b907",
+      "person_id": "6ca6bc3e-6112-5adf-b829-8a07e27aa133",
+      "affiliation_key": "william-stanko-occupation-b907",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-07-02, the official record assigned William Stanko the historical civilian-occupation category 'Bartenders'; no employer is identified.",
+      "evidence_paraphrase": "The Army entry field carries code 221, which the visually checked NARA code list maps to the stated category.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge and exact name alignment.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but neither immediate pre-OSS status nor a named employer is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical code-language is retained and excluded from default confirmed/high-confidence employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b907",
+          "locator_override": "Army-entry date 1941-07-02; occupation code 221; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b907",
+          "support_type": "context_only",
+          "locator_override": "Civilian-occupation field definition"
+        },
+        {
+          "source_key": "army-codes-b907",
+          "locator_override": "PDF physical page 172; category 2-21"
+        }
+      ]
+    },
+    {
+      "key": "identity-carl-t-stanley-b907",
+      "person_id": "6c2ebb81-da8b-50ce-9c20-4f1ce56da92f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Carl T Stanley row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and exact name connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the nonshared protected-identifier bridge and exact name alignment.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the coded occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b907",
+          "locator_override": "PDF page 443 row 40; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b907",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-carl-t-stanley-b907",
+      "person_id": "6c2ebb81-da8b-50ce-9c20-4f1ce56da92f",
+      "affiliation_key": "carl-t-stanley-occupation-b907",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-12-12, the official record assigned Carl T Stanley the historical civilian-occupation category 'Oilers of machinery'; no employer is identified.",
+      "evidence_paraphrase": "The Army entry field carries code 771, which the visually checked NARA code list maps to the stated category.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge and exact name alignment.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but neither immediate pre-OSS status nor a named employer is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical code-language is retained and excluded from default confirmed/high-confidence employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b907",
+          "locator_override": "Army-entry date 1942-12-12; occupation code 771; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b907",
+          "support_type": "context_only",
+          "locator_override": "Civilian-occupation field definition"
+        },
+        {
+          "source_key": "army-codes-b907",
+          "locator_override": "PDF physical page 177; category 7-71"
+        }
+      ]
+    },
+    {
+      "key": "identity-eugene-r-stanley-b907",
+      "person_id": "340e3e1b-c7b6-52a5-b985-e9c92e8959eb",
+      "claim_type": "identity",
+      "claim_text": "The indexed Eugene R Stanley row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and exact name connect the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from the nonshared protected-identifier bridge and exact name alignment.",
+      "temporal_assessment": "The Army record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and the coded occupation is kept separate from employer claims.",
+      "sources": [
+        {
+          "source_key": "nara-index-b907",
+          "locator_override": "PDF page 443 row 41; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b907",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-eugene-r-stanley-b907",
+      "person_id": "340e3e1b-c7b6-52a5-b985-e9c92e8959eb",
+      "affiliation_key": "eugene-r-stanley-occupation-b907",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-03-02, the official record assigned Eugene R Stanley the historical civilian-occupation category 'Draftsmen'; no employer is identified.",
+      "evidence_paraphrase": "The Army entry field carries code 048, which the visually checked NARA code list maps to the stated category.",
+      "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge and exact name alignment.",
+      "temporal_assessment": "Strongly date-bounded at Army entry, but neither immediate pre-OSS status nor a named employer is established.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Historical code-language is retained and excluded from default confirmed/high-confidence employer analytics.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b907",
+          "locator_override": "Army-entry date 1943-03-02; occupation code 048; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b907",
+          "support_type": "context_only",
+          "locator_override": "Civilian-occupation field definition"
+        },
+        {
+          "source_key": "army-codes-b907",
+          "locator_override": "PDF physical pages 170-171; category 0-48"
+        }
+      ]
+    },
+    {
+      "key": "identity-demetrius-stampados-b907",
+      "person_id": "12a33d31-8539-54fc-8778-9604cd57e62e",
+      "claim_type": "identity",
+      "claim_text": "The indexed Captain Demetrius G. Stampados is confirmed as the OSS officer described in the 4 May 1944 board proceedings.",
+      "evidence_paraphrase": "The direct OSS report repeats his exact name, captain rank and officer number, adding a precise entry and commissioning chronology.",
+      "identity_match_assessment": "Confirmed by exact full name, rank and the same officer number with a leading-zero formatting difference.",
+      "temporal_assessment": "The report states OSS entry as a civilian on 11 December 1941 and commission from civilian life in July 1943.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The full officer number remains private; the report supplies a direct, person-specific identity bridge.",
+      "sources": [
+        {
+          "source_key": "nara-index-b907",
+          "locator_override": "PDF page 443 row 25; Captain; officer number withheld"
+        },
+        {
+          "source_key": "hoover-oss-stampados-b907",
+          "locator_override": "PDF viewer page 48, entry XIV"
+        }
+      ]
+    },
+    {
+      "key": "prewar-demetrius-stampados-greek-air-force-b907",
+      "person_id": "12a33d31-8539-54fc-8778-9604cd57e62e",
+      "affiliation_key": "demetrius-stampados-greek-air-force-b907",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Before coming to the United States and entering OSS, Demetrius G. Stampados had served as an Air Force staff officer in Greece.",
+      "evidence_excerpt": "where he was a staff officer of the Air Force",
+      "evidence_paraphrase": "The OSS report describes Greek Air Force staff service and reconnaissance, photo-interpretation, topography and operations training before his U.S. arrival.",
+      "identity_match_assessment": "Confirmed by exact name, rank and officer number in the same direct OSS report.",
+      "temporal_assessment": "Documented prewar military affiliation; the report does not prove it was immediately before OSS and names no civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "Published as an earlier military affiliation, not as a civilian employer or an explicit immediate predecessor.",
+      "sources": [
+        {
+          "source_key": "hoover-oss-stampados-b907",
+          "locator_override": "PDF viewer pages 48-49, entry XIV"
+        },
+        {
+          "source_key": "haf-history-b907",
+          "support_type": "context_only",
+          "locator_override": "Official institutional history, 1931-1951"
+        }
+      ]
+    },
+    {
+      "key": "candidate-clarence-stanford-p101-b907",
+      "person_id": "369d4b4a-b7c7-5a5a-af00-a5da9f338583",
+      "claim_type": "identity",
+      "claim_text": "A P-101 veteran named Clarence Stanford is a candidate for the indexed Clarence Stanford, not a resolved identity.",
+      "evidence_paraphrase": "A USASOC history thanks the widow of P-101 veteran Clarence Stanford; a regional plan profiles a postwar boatbuilder of that name.",
+      "identity_match_assessment": "Ambiguous: the index provides no middle initial, rank or identifier, and relatives cannot serve as the principal identity bridge.",
+      "temporal_assessment": "The sources provide OSS and postwar context but no defensible pre-OSS affiliation or transition chronology.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "low",
+      "publication_status": "needs_review",
+      "match_notes": "Retained privately for Box 736 review; no public affiliation or employer is assigned.",
+      "sources": [
+        {
+          "source_key": "nara-index-b907",
+          "locator_override": "PDF page 443 row 33; Box 736"
+        },
+        {
+          "source_key": "arsof-clarence-stanford-b907",
+          "locator_override": "Acknowledgments; P-101 veteran Clarence Stanford"
+        },
+        {
+          "source_key": "mppdc-clarence-stanford-b907",
+          "support_type": "context_only",
+          "locator_override": "Page 27; postwar Colonial Beach boatbuilder"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "9b9b1467-e3fa-5399-8138-d790378ea4e3",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and exact name connect the visually verified index row to the reviewed official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "596a3916-bb44-5955-8e60-4aee9eaf7788",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and exact name connect the visually verified index row to the reviewed official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "4275343b-5f88-5dce-80fa-fd3a8d970449",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and exact name connect the visually verified index row to the reviewed official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "49375915-35a5-5c97-a7bf-8b06cfb46a2c",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and exact name connect the visually verified index row to the reviewed official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6ca6bc3e-6112-5adf-b829-8a07e27aa133",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and exact name connect the visually verified index row to the reviewed official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "6c2ebb81-da8b-50ce-9c20-4f1ce56da92f",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and exact name connect the visually verified index row to the reviewed official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "340e3e1b-c7b6-52a5-b985-e9c92e8959eb",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and exact name connect the visually verified index row to the reviewed official Army record. The historical occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5c4f081c-0157-54b4-8601-ffb36c851ea4",
+      "identity_status": "conflicting",
+      "identity_evidence": "The protected identifier agrees with an Army record for Thomas G Stamoulis, but the index prints Thomas S Stamoulis. The middle-initial conflict prevents transferring Army identity or occupation evidence.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "conflicting_sources",
+      "next_action": "Review Box 736 to resolve the S/G middle-initial conflict; do not transfer the Army occupation code or classify the indexed person from the disputed record.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "12a33d31-8539-54fc-8778-9604cd57e62e",
+      "identity_status": "confirmed",
+      "identity_evidence": "A direct OSS report repeats Demetrius G. Stampados's exact name, Captain rank and officer number and supplies a precise OSS-entry chronology.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "completed",
+      "next_action": "Review Box 736 to identify any civilian employer immediately before his 11 December 1941 OSS entry and to refine the timing of his earlier Greek Air Force staff service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "369d4b4a-b7c7-5a5a-af00-a5da9f338583",
+      "identity_status": "ambiguous",
+      "identity_evidence": "A USASOC history identifies a P-101 veteran named Clarence Stanford, and a regional plan profiles a postwar boatbuilder of that name. The index has no middle initial, rank or identifier, so the sources do not establish that either is the indexed person.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 736 for a P-101 or Maritime Unit reference, a middle initial and prewar occupation; keep the boatbuilder lead private unless independent identifiers bridge it.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e7d8cb18-535b-5006-8c3c-6d511a997b97",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Susan C Stampados, rank when printed, box and archive location, but staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Postwar material identifying a family relationship does not establish employment or an independent identity bridge and was excluded.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 736 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "81951af4-37ca-55b8-9ec5-66e80209aff8",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies James D Stamper, rank when printed, box and archive location, but staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Common-name and genealogy results could not be tied to the indexed R-prefixed identifier or OSS service.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 736 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "00c92df5-fea7-5cb8-9f7b-3f5f94634951",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Charles R Standen, rank when printed, box and archive location, but staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Exact-name and spelling-variant searches produced no defensible identity bridge or dated pre-OSS affiliation.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 736 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "9fa1606f-115c-5344-bed3-f553167530ee",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Phoebe E Stanfield, rank when printed, box and archive location, but staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Exact-name, obituary, institutional and archival searches produced no person-specific result.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 736 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ce18c2b1-9bd4-5cd7-b957-41a784785cf0",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Dorothy M Stanford, rank when printed, box and archive location, but staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Multiple same-name vital-record candidates lacked rank, service, box or OSS corroboration.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 736 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "3435d3c4-40df-5661-88fb-e70feb26401a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies George W Stanford, rank when printed, box and archive location, but staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. The printed T/SGT rank establishes enlisted status, but searches found no reliable identity bridge or pre-OSS affiliation.",
+      "personnel_category": "enlisted_army_personnel",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 736 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false
+    },
+    {
+      "person_id": "1a2b8b12-8b9d-599c-8c3f-6cb21b4ce088",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Marie Stanhope, rank when printed, box and archive location, but staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Modern professional and obituary results were chronologically incompatible or lacked an OSS bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 737 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "dc853cf2-d6bb-5d21-921d-09f9a54e953f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies George Stankula, rank when printed, box and archive location, but staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. The NARA index remained the only person-specific result; no reliable employer or occupation source was found.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 737 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e3761d01-ebe3-5fa6-b945-29564cd67251",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Hippolyte L Stanley, rank when printed, box and archive location, but staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. The distinctive full name produced no reliable official, institutional, newspaper or obituary match.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 737 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "767d1ad9-6711-5917-95c3-1234d6f003c3",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Joseph W Stanley, rank when printed, box and archive location, but staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Common-name searches returned incompatible candidates, including a 1944 Pennsylvania death entry, without an OSS bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 737 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "5b1ac0d8-9131-5113-8d00-8844c26fe9ee",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Katherine J Stanley, rank when printed, box and archive location, but staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Exact-name and variant searches produced no defensible identity or employment evidence.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 737 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "4c794cd9-83c8-5c28-b2fa-9358d1c739d7",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Leo F Stanley, rank when printed, box and archive location, but staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. The indexed middle initial F does not support assigning biographies of better-known Leo Stanleys with different initials; no corroborating identifier was found.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 737 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "801e5aca-5e7e-5de7-b37b-f8485e333c49",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Robert W Stanley, rank when printed, box and archive location, but staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Numerous same-name military and obituary records could not be connected to the index row, which prints no rank or service identifier.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 737 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page443-row24-thomas-s-stamoulis-b907",
+      "person_id": "5c4f081c-0157-54b4-8601-ffb36c851ea4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Thomas S Stamoulis; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 736; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_907",
+      "started_at": "2026-10-25T19:05:00Z",
+      "completed_at": "2026-10-25T20:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The official Army candidate was rejected as a resolved identity because the middle initial conflicts; no occupation was transferred.",
+      "research_notes": "The official Army candidate was rejected as a resolved identity because the middle initial conflicts; no occupation was transferred. The dedicated CIA and Library of Congress adapters failed closed after access errors; indexed site-specific discovery checks were completed without treating snippets as evidence. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 736 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b907-v1"
+    },
+    {
+      "key": "page443-row25-demetrius-g-stampados-b907",
+      "person_id": "12a33d31-8539-54fc-8778-9604cd57e62e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Demetrius G Stampados; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 736; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_907",
+      "started_at": "2026-10-25T19:05:00Z",
+      "completed_at": "2026-10-25T20:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically irrelevant records and postwar-only leads were not assigned.",
+      "research_notes": "Reviewed evidence established a direct identity/affiliation bridge, an official identity/occupation bridge, or a private candidate requiring the personnel file. The dedicated CIA and Library of Congress adapters failed closed after access errors; indexed site-specific discovery checks were completed without treating snippets as evidence. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 736 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b907-v1"
+    },
+    {
+      "key": "page443-row26-susan-c-stampados-b907",
+      "person_id": "e7d8cb18-535b-5006-8c3c-6d511a997b97",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Susan C Stampados; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 736; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_907",
+      "started_at": "2026-10-25T19:05:00Z",
+      "completed_at": "2026-10-25T20:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Postwar material identifying a family relationship does not establish employment or an independent identity bridge and was excluded.",
+      "research_notes": "Postwar material identifying a family relationship does not establish employment or an independent identity bridge and was excluded. The dedicated CIA and Library of Congress adapters failed closed after access errors; indexed site-specific discovery checks were completed without treating snippets as evidence. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 736 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b907-v1"
+    },
+    {
+      "key": "page443-row27-james-d-stamper-b907",
+      "person_id": "81951af4-37ca-55b8-9ec5-66e80209aff8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James D Stamper; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 736; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_907",
+      "started_at": "2026-10-25T19:05:00Z",
+      "completed_at": "2026-10-25T20:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Common-name and genealogy results could not be tied to the indexed R-prefixed identifier or OSS service.",
+      "research_notes": "Common-name and genealogy results could not be tied to the indexed R-prefixed identifier or OSS service. The dedicated CIA and Library of Congress adapters failed closed after access errors; indexed site-specific discovery checks were completed without treating snippets as evidence. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 736 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b907-v1"
+    },
+    {
+      "key": "page443-row28-vincent-c-stampone-b907",
+      "person_id": "9b9b1467-e3fa-5399-8138-d790378ea4e3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Vincent C Stampone; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 736; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_907",
+      "started_at": "2026-10-25T19:05:00Z",
+      "completed_at": "2026-10-25T20:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically irrelevant records and postwar-only leads were not assigned.",
+      "research_notes": "Reviewed evidence established a direct identity/affiliation bridge, an official identity/occupation bridge, or a private candidate requiring the personnel file. The dedicated CIA and Library of Congress adapters failed closed after access errors; indexed site-specific discovery checks were completed without treating snippets as evidence. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 736 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b907-v1"
+    },
+    {
+      "key": "page443-row29-basil-j-stanberg-b907",
+      "person_id": "596a3916-bb44-5955-8e60-4aee9eaf7788",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Basil J Stanberg; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 736; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_907",
+      "started_at": "2026-10-25T19:05:00Z",
+      "completed_at": "2026-10-25T20:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically irrelevant records and postwar-only leads were not assigned.",
+      "research_notes": "Reviewed evidence established a direct identity/affiliation bridge, an official identity/occupation bridge, or a private candidate requiring the personnel file. The dedicated CIA and Library of Congress adapters failed closed after access errors; indexed site-specific discovery checks were completed without treating snippets as evidence. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 736 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b907-v1"
+    },
+    {
+      "key": "page443-row30-charles-r-standen-b907",
+      "person_id": "00c92df5-fea7-5cb8-9f7b-3f5f94634951",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles R Standen; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 736; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_907",
+      "started_at": "2026-10-25T19:05:00Z",
+      "completed_at": "2026-10-25T20:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name and spelling-variant searches produced no defensible identity bridge or dated pre-OSS affiliation.",
+      "research_notes": "Exact-name and spelling-variant searches produced no defensible identity bridge or dated pre-OSS affiliation. The dedicated CIA and Library of Congress adapters failed closed after access errors; indexed site-specific discovery checks were completed without treating snippets as evidence. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 736 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b907-v1"
+    },
+    {
+      "key": "page443-row31-victor-l-stanek-b907",
+      "person_id": "4275343b-5f88-5dce-80fa-fd3a8d970449",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Victor L Stanek; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 736; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_907",
+      "started_at": "2026-10-25T19:05:00Z",
+      "completed_at": "2026-10-25T20:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically irrelevant records and postwar-only leads were not assigned.",
+      "research_notes": "Reviewed evidence established a direct identity/affiliation bridge, an official identity/occupation bridge, or a private candidate requiring the personnel file. The dedicated CIA and Library of Congress adapters failed closed after access errors; indexed site-specific discovery checks were completed without treating snippets as evidence. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 736 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b907-v1"
+    },
+    {
+      "key": "page443-row32-phoebe-e-stanfield-b907",
+      "person_id": "9fa1606f-115c-5344-bed3-f553167530ee",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Phoebe E Stanfield; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 736; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_907",
+      "started_at": "2026-10-25T19:05:00Z",
+      "completed_at": "2026-10-25T20:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name, obituary, institutional and archival searches produced no person-specific result.",
+      "research_notes": "Exact-name, obituary, institutional and archival searches produced no person-specific result. The dedicated CIA and Library of Congress adapters failed closed after access errors; indexed site-specific discovery checks were completed without treating snippets as evidence. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 736 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b907-v1"
+    },
+    {
+      "key": "page443-row33-clarence-stanford-b907",
+      "person_id": "369d4b4a-b7c7-5a5a-af00-a5da9f338583",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Clarence Stanford; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 736; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_907",
+      "started_at": "2026-10-25T19:05:00Z",
+      "completed_at": "2026-10-25T20:05:00Z",
+      "outcome": "candidate_found",
+      "sources_reviewed": 10,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically irrelevant records and postwar-only leads were not assigned.",
+      "research_notes": "Reviewed evidence established a direct identity/affiliation bridge, an official identity/occupation bridge, or a private candidate requiring the personnel file. The dedicated CIA and Library of Congress adapters failed closed after access errors; indexed site-specific discovery checks were completed without treating snippets as evidence. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 736 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b907-v1"
+    },
+    {
+      "key": "page443-row34-dorothy-m-stanford-b907",
+      "person_id": "ce18c2b1-9bd4-5cd7-b957-41a784785cf0",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Dorothy M Stanford; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 736; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_907",
+      "started_at": "2026-10-25T19:05:00Z",
+      "completed_at": "2026-10-25T20:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Multiple same-name vital-record candidates lacked rank, service, box or OSS corroboration.",
+      "research_notes": "Multiple same-name vital-record candidates lacked rank, service, box or OSS corroboration. The dedicated CIA and Library of Congress adapters failed closed after access errors; indexed site-specific discovery checks were completed without treating snippets as evidence. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 736 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b907-v1"
+    },
+    {
+      "key": "page443-row35-ferdinand-f-stanford-b907",
+      "person_id": "49375915-35a5-5c97-a7bf-8b06cfb46a2c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ferdinand F Stanford; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 736; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_907",
+      "started_at": "2026-10-25T19:05:00Z",
+      "completed_at": "2026-10-25T20:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically irrelevant records and postwar-only leads were not assigned.",
+      "research_notes": "Reviewed evidence established a direct identity/affiliation bridge, an official identity/occupation bridge, or a private candidate requiring the personnel file. The dedicated CIA and Library of Congress adapters failed closed after access errors; indexed site-specific discovery checks were completed without treating snippets as evidence. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 736 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b907-v1"
+    },
+    {
+      "key": "page443-row36-george-w-stanford-b907",
+      "person_id": "3435d3c4-40df-5661-88fb-e70feb26401a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "George W Stanford; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 736; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_907",
+      "started_at": "2026-10-25T19:05:00Z",
+      "completed_at": "2026-10-25T20:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The printed T/SGT rank establishes enlisted status, but searches found no reliable identity bridge or pre-OSS affiliation.",
+      "research_notes": "The printed T/SGT rank establishes enlisted status, but searches found no reliable identity bridge or pre-OSS affiliation. The dedicated CIA and Library of Congress adapters failed closed after access errors; indexed site-specific discovery checks were completed without treating snippets as evidence. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 736 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b907-v1"
+    },
+    {
+      "key": "page443-row37-marie-stanhope-b907",
+      "person_id": "1a2b8b12-8b9d-599c-8c3f-6cb21b4ce088",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Marie Stanhope; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 737; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_907",
+      "started_at": "2026-10-25T19:05:00Z",
+      "completed_at": "2026-10-25T20:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Modern professional and obituary results were chronologically incompatible or lacked an OSS bridge.",
+      "research_notes": "Modern professional and obituary results were chronologically incompatible or lacked an OSS bridge. The dedicated CIA and Library of Congress adapters failed closed after access errors; indexed site-specific discovery checks were completed without treating snippets as evidence. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 737 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b907-v1"
+    },
+    {
+      "key": "page443-row38-william-stanko-b907",
+      "person_id": "6ca6bc3e-6112-5adf-b829-8a07e27aa133",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "William Stanko; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 737; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_907",
+      "started_at": "2026-10-25T19:05:00Z",
+      "completed_at": "2026-10-25T20:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically irrelevant records and postwar-only leads were not assigned.",
+      "research_notes": "Reviewed evidence established a direct identity/affiliation bridge, an official identity/occupation bridge, or a private candidate requiring the personnel file. The dedicated CIA and Library of Congress adapters failed closed after access errors; indexed site-specific discovery checks were completed without treating snippets as evidence. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 737 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b907-v1"
+    },
+    {
+      "key": "page443-row39-george-stankula-b907",
+      "person_id": "dc853cf2-d6bb-5d21-921d-09f9a54e953f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "George Stankula; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 737; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_907",
+      "started_at": "2026-10-25T19:05:00Z",
+      "completed_at": "2026-10-25T20:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The NARA index remained the only person-specific result; no reliable employer or occupation source was found.",
+      "research_notes": "The NARA index remained the only person-specific result; no reliable employer or occupation source was found. The dedicated CIA and Library of Congress adapters failed closed after access errors; indexed site-specific discovery checks were completed without treating snippets as evidence. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 737 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b907-v1"
+    },
+    {
+      "key": "page443-row40-carl-t-stanley-b907",
+      "person_id": "6c2ebb81-da8b-50ce-9c20-4f1ce56da92f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Carl T Stanley; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 737; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_907",
+      "started_at": "2026-10-25T19:05:00Z",
+      "completed_at": "2026-10-25T20:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically irrelevant records and postwar-only leads were not assigned.",
+      "research_notes": "Reviewed evidence established a direct identity/affiliation bridge, an official identity/occupation bridge, or a private candidate requiring the personnel file. The dedicated CIA and Library of Congress adapters failed closed after access errors; indexed site-specific discovery checks were completed without treating snippets as evidence. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 737 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b907-v1"
+    },
+    {
+      "key": "page443-row41-eugene-r-stanley-b907",
+      "person_id": "340e3e1b-c7b6-52a5-b985-e9c92e8959eb",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Eugene R Stanley; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 737; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_907",
+      "started_at": "2026-10-25T19:05:00Z",
+      "completed_at": "2026-10-25T20:05:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 4,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically irrelevant records and postwar-only leads were not assigned.",
+      "research_notes": "Reviewed evidence established a direct identity/affiliation bridge, an official identity/occupation bridge, or a private candidate requiring the personnel file. The dedicated CIA and Library of Congress adapters failed closed after access errors; indexed site-specific discovery checks were completed without treating snippets as evidence. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 737 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b907-v1"
+    },
+    {
+      "key": "page443-row42-hippolyte-l-stanley-b907",
+      "person_id": "e3761d01-ebe3-5fa6-b945-29564cd67251",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Hippolyte L Stanley; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 737; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_907",
+      "started_at": "2026-10-25T19:05:00Z",
+      "completed_at": "2026-10-25T20:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The distinctive full name produced no reliable official, institutional, newspaper or obituary match.",
+      "research_notes": "The distinctive full name produced no reliable official, institutional, newspaper or obituary match. The dedicated CIA and Library of Congress adapters failed closed after access errors; indexed site-specific discovery checks were completed without treating snippets as evidence. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 737 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b907-v1"
+    },
+    {
+      "key": "page443-row43-joseph-w-stanley-b907",
+      "person_id": "767d1ad9-6711-5917-95c3-1234d6f003c3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph W Stanley; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 737; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_907",
+      "started_at": "2026-10-25T19:05:00Z",
+      "completed_at": "2026-10-25T20:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Common-name searches returned incompatible candidates, including a 1944 Pennsylvania death entry, without an OSS bridge.",
+      "research_notes": "Common-name searches returned incompatible candidates, including a 1944 Pennsylvania death entry, without an OSS bridge. The dedicated CIA and Library of Congress adapters failed closed after access errors; indexed site-specific discovery checks were completed without treating snippets as evidence. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 737 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b907-v1"
+    },
+    {
+      "key": "page443-row44-katherine-j-stanley-b907",
+      "person_id": "5b1ac0d8-9131-5113-8d00-8844c26fe9ee",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Katherine J Stanley; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 737; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_907",
+      "started_at": "2026-10-25T19:05:00Z",
+      "completed_at": "2026-10-25T20:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name and variant searches produced no defensible identity or employment evidence.",
+      "research_notes": "Exact-name and variant searches produced no defensible identity or employment evidence. The dedicated CIA and Library of Congress adapters failed closed after access errors; indexed site-specific discovery checks were completed without treating snippets as evidence. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 737 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b907-v1"
+    },
+    {
+      "key": "page443-row45-leo-f-stanley-b907",
+      "person_id": "4c794cd9-83c8-5c28-b2fa-9358d1c739d7",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Leo F Stanley; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 737; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_907",
+      "started_at": "2026-10-25T19:05:00Z",
+      "completed_at": "2026-10-25T20:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The indexed middle initial F does not support assigning biographies of better-known Leo Stanleys with different initials; no corroborating identifier was found.",
+      "research_notes": "The indexed middle initial F does not support assigning biographies of better-known Leo Stanleys with different initials; no corroborating identifier was found. The dedicated CIA and Library of Congress adapters failed closed after access errors; indexed site-specific discovery checks were completed without treating snippets as evidence. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 737 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b907-v1"
+    },
+    {
+      "key": "page443-row46-robert-w-stanley-b907",
+      "person_id": "801e5aca-5e7e-5de7-b37b-f8485e333c49",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert W Stanley; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 737; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_907",
+      "started_at": "2026-10-25T19:05:00Z",
+      "completed_at": "2026-10-25T20:05:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Numerous same-name military and obituary records could not be connected to the index row, which prints no rank or service identifier.",
+      "research_notes": "Numerous same-name military and obituary records could not be connected to the index row, which prints no rank or service identifier. The dedicated CIA and Library of Congress adapters failed closed after access errors; indexed site-specific discovery checks were completed without treating snippets as evidence. No access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 737 personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b907-v1"
+    }
+  ]
+}

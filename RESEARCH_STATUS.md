@@ -1,5 +1,41 @@
 # Research status
 
+Batch 907 completed PDF page 443, rows 24-46, from **Thomas S Stamoulis**
+through **Robert W Stanley**, preserving all 23 printed rows and linking them
+to 23 separate active people. All 23 now have terminal research outcomes.
+Seven official Army identity bridges are accepted; their historical civilian-
+occupation codes remain qualified and name no employer, institution or
+workplace.
+
+Captain Demetrius G. Stampados is confirmed through direct OSS board
+proceedings. His Greek Air Force staff service is published as documented
+prewar military affiliation, not as an immediate predecessor or civilian
+employer. Thomas S Stamoulis remains conflicting because the protected
+identifier leads to a Thomas G Stamoulis Army row; no disputed evidence is
+transferred. Same-name P-101 and postwar boatbuilding leads for Clarence
+Stanford remain private because the index lacks a corroborating identifier.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **13,811/23,936 (57.6997%)**;
+verified-employer coverage is **447/23,936 (1.8675%)**;
+verified-affiliation coverage is **991/23,936 (4.1402%)**; archival-review
+coverage is **12,283/23,936 (51.3160%)**. There are **10,120** not-started
+people, **608** possible-duplicate groups and **478** conflicts. Claim
+confidence counts are **1,639 confirmed**, **4,485 high**, **1,912 medium**,
+**218 low**, **407 conflicting** and **2 unresolved**. The public projection
+contains **3,124** affiliations, **1,138** organizations, **5,631** sources and
+**8,439** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 444, row
+1, **William S Stanley**, in Box 737. See `research/batch-907-progress.md` for
+the source-by-source audit.
+
+Batch 907 has passed evidence-schema validation, isolated and canonical
+duplicate-safe reviewed-decision and evidence imports, import idempotency,
+database integrity and foreign-key checks, complete 522-page extraction
+validation, derived export regeneration, coverage reporting and public-data
+redaction. Release-test, build and deployment results will be added after the
+current release finishes.
+
 Batch 906 completed PDF page 443, rows 1-23, from **Jean St. Thomas** through
 **Leonard V Stamnock**, preserving all 23 printed rows and linking them to 23
 separate active people. All 23 now have terminal research outcomes. Seven
