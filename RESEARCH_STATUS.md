@@ -1,5 +1,40 @@
 # Research status
 
+Batch 900 completed PDF page 440, rows 1-23, from **Mildred S Spanum** through
+**John P Spence**, preserving all 23 printed rows and linking them to 23 active
+people. All 23 have terminal research outcomes. Five official Army identity
+bridges are accepted. George Spardo and Joe G Speigler each remain separate
+from a conflicting printed variant row; disputed Army evidence is not
+transferred.
+
+Five historical Army categories remain qualified and name no employer or
+workplace. Ephraim A Speiser is identified at high confidence as Ephraim
+Avigdor Speiser. The University of Pennsylvania is published as his last
+civilian employer and as a qualified probable immediate affiliation, without
+inventing an exact leave or transfer date. The official John P Spence combat-
+swimmer candidate remains withheld because the common-name index row lacks the
+additional identifiers required to attach that biography.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **13,657/23,936 (57.0563%)**;
+verified-employer coverage is **440/23,936 (1.8382%)**;
+verified-affiliation coverage is **979/23,936 (4.0901%)**; archival-review
+coverage is **12,128/23,936 (50.6684%)**. There are **10,274** not-started
+people, **603** possible-duplicate groups and **471** conflicts. The public
+projection contains **3,057** affiliations, **1,127** organizations, **5,559**
+sources and **8,297** published, qualified or conflict claims. Full-index
+historical research remains unfinished. The next indexed boundary is PDF page
+440, row 24, **Marion J Spence**, visually confirmed in Box 732. See
+`research/batch-900-progress.md` for the source-by-source audit. Batch 900 has
+passed isolated and canonical idempotency imports, database integrity checks,
+complete 522-page extraction validation, derived export regeneration, coverage
+reporting, public-data redaction, all 146 Python tests and 84 parameterized
+subtests, the deterministic 200-profile audit, the 90/90 browser and
+accessibility release matrix, 25,109-page internal-link check, private-
+identifier scan, local manifest verification, zero-vulnerability production
+dependency audit and two deterministic builds. The release candidate is not
+yet public; CI, deployment and unauthenticated verification remain pending.
+
 Batch 899 completed PDF page 439, rows 24-46, from **M J Soustelle** through
 **Andrew Spanos**, preserving all 23 printed rows and linking them to 23 active
 people. All 23 have terminal research outcomes. Four official Army identity
