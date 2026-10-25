@@ -102,3 +102,19 @@ credential was used or persisted.
 
 The next indexed boundary is PDF page 443, row 24, **Thomas S Stamoulis**, in
 Box 736.
+
+## Release verification
+
+- Published content commit:
+  `d977b7f525422aa9493bffe4134f016ee87e7051`.
+- GitHub Actions Test run `40226798756`: completed successfully, including the
+  full Node 24 static build, bounded browser/accessibility release suite,
+  checked-in manifest verification and rebuilt-source public-identifier audit.
+- GitHub Pages run `40226798758`: build and deployment completed successfully.
+- Unauthenticated deployed-release verification matched all 67 public assets
+  (120,980,866 bytes), eight core routes, 38 source-register pages and all 23
+  directly affected profiles.
+- Deployed manifest SHA-256:
+  `5dd7add6ad57558d21d7e0f7b51ec8c6036bf6be56c2739b2035408357ea8258`.
+- Workflow annotations concerned action-runtime and runner-image migrations;
+  no test, build, redaction, accessibility or deployment gate failed.

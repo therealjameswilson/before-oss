@@ -34,8 +34,14 @@ and evidence imports, database integrity and foreign-key checks, complete
 522-page extraction validation, derived export regeneration, coverage
 reporting, public-data redaction, all 146 Python tests, checked-in manifest
 verification, a 25,119-page static build, a 90/90 bounded browser and
-accessibility release matrix, and a 25,119-page internal-link check. GitHub
-Actions and Pages deployment remain to be run for this release.
+accessibility release matrix, a 25,119-page internal-link check, rebuilt-source
+public-identifier audit, Pages deployment and unauthenticated deployed-release
+verification. Test run `40226798756` and Pages run `40226798758` completed
+successfully. Batch 906 is public from immutable content commit
+`d977b7f525422aa9493bffe4134f016ee87e7051`; the verifier matched all 67
+public assets (120,980,866 bytes), eight core routes, 38 source-register pages
+and all 23 affected profiles. The workflows emitted platform migration and
+deprecation annotations only; no release gate failed.
 
 Batch 905 completed PDF page 442, rows 24-46, from **Phillip I
 Squillacioti** through **Pierre G St. Sauveur**, preserving all 23 printed rows
