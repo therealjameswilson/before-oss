@@ -33,8 +33,12 @@ reporting, public-data redaction, all 146 Python tests and 84 parameterized
 subtests, the deterministic 200-profile audit, the 93/93 browser and
 accessibility matrix, the 25,106-page internal-link check, private-identifier
 scan, local manifest verification, zero-warning 25,106-page Astro build,
-dependency audit and two deterministic builds. CI, deployment and
-unauthenticated live verification await the release commit.
+dependency audit and two deterministic builds. Batch 898 is public from
+immutable content commit `252800576548df9ef6fdb4a1db368dbc317684a7`.
+GitHub Actions Test run `40199479077` and Pages deployment run `40199479113`
+both completed successfully. The unauthenticated deployed-release verifier
+matched all 67 public assets (119,850,846 bytes), eight core routes, 37 source-
+register pages and all 23 directly affected profiles.
 
 Batch 897 completed PDF page 438, rows 24-46, from **Henry Sonagere** through
 **Dario Soria**, preserving all 23 printed rows and linking them to 23 active

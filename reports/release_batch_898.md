@@ -51,7 +51,12 @@ Date: 2026-10-25 America/New_York
 
 ## Publication verification
 
-The release candidate is locally validated. Content commit, GitHub Actions
-status, deployed-manifest comparison and unauthenticated public-route checks
-will be added after publication. The currently public Batch 897 release remains
-available at <https://therealjameswilson.github.io/before-oss/>.
+- Content commit: `252800576548df9ef6fdb4a1db368dbc317684a7`.
+- GitHub Actions Test run `40199479077`: success.
+- GitHub Pages run `40199479113`: success.
+- The unauthenticated verifier matched all 67 public assets and 119,850,846
+  bytes to the immutable content commit; all eight core routes, 37 source-
+  register pages and 23 Batch 898 profiles resolved successfully.
+- Live manifest SHA-256:
+  `f45190c6ca142c14876c461b2925da616318e2c1280a267b1373382e7e544f66`.
+- Public site: <https://therealjameswilson.github.io/before-oss/>.
