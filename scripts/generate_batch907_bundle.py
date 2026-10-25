@@ -431,11 +431,11 @@ def person_updates() -> list[dict[str, object]]:
             {
                 "person_id": PEOPLE[33][0],
                 "identity_status": "ambiguous",
-                "identity_evidence": "A USASOC history identifies a P-101 veteran named Clarence Stanford, and a regional plan profiles a postwar boatbuilder of that name. The index has no middle initial, rank or identifier, so the sources do not establish that either is the indexed person.",
+                "identity_evidence": "Accessible same-name official and regional sources do not supply a corroborating middle initial, rank, identifier or chronology. The indexed identity therefore remains ambiguous and no candidate is accepted.",
                 "personnel_category": "unknown_or_indeterminate",
                 "manual_review_required": True,
                 "research_status": "requires_archival_review",
-                "next_action": "Review Box 736 for a P-101 or Maritime Unit reference, a middle initial and prewar occupation; keep the boatbuilder lead private unless independent identifiers bridge it.",
+                "next_action": "Review Box 736 for a full name, middle initial, personnel status, prewar occupation, employer and OSS assignment; do not accept a namesake without independent identifiers.",
                 "personnel_file_digitized": False,
                 "personnel_file_reviewed": False,
                 "archival_review_priority": "critical",
