@@ -53,11 +53,11 @@
       "author_creator": "National Archives and Records Administration",
       "repository_publisher": "National Archives at College Park - Electronic Records",
       "publication_record_date": "2011-01-12; modified 2011-03-17",
-      "locator": "PDF physical pages 170-175; categories 056, 105, 484, 494, 736 and 992 visually checked",
+      "locator": "PDF physical pages 170-175 and 304; categories 056, 105, 484, 494, 736 and amended category 992 visually checked",
       "access_date": "2026-10-25",
       "source_quality": "A_direct_official",
       "collection_name": "World War II Army Enlistment Records technical documentation",
-      "rights_notes": "Historical labels identify neither employers nor workplaces."
+      "rights_notes": "Historical labels identify neither employers nor workplaces. The amended table on physical page 304 supersedes the earlier 9-92 label and maps code 992 to Students."
     },
     {
       "key": "nara-duck-staiger-b906",
@@ -273,7 +273,7 @@
       "key": "richard-d-stainbrook-occupation-b906",
       "person_id": "2cc57327-5011-58e7-8122-145adacf288d",
       "relationship_type": "employment",
-      "occupation": "Unskilled occupations in production of ferrous and nonferrous metals, not elsewhere classified",
+      "occupation": "Students",
       "end_date": "1942-09-10",
       "date_precision": "Historical civilian-occupation code 992 was recorded at Army entry on 1942-09-10; no employer or OSS-transfer date is named.",
       "country": "United States",
@@ -657,7 +657,7 @@
       "person_id": "2cc57327-5011-58e7-8122-145adacf288d",
       "affiliation_key": "richard-d-stainbrook-occupation-b906",
       "claim_type": "occupation",
-      "claim_text": "At Army entry on 1942-09-10, the official record assigned Richard D Stainbrook the historical civilian-occupation category 'Unskilled occupations in production of ferrous and nonferrous metals, not elsewhere classified'; no employer is identified.",
+      "claim_text": "At Army entry on 1942-09-10, the official record assigned Richard D Stainbrook the historical civilian-occupation category 'Students'; no employer is identified.",
       "evidence_paraphrase": "The Army entry field carries code 992, which the visually checked NARA code list maps to the stated category.",
       "identity_match_assessment": "High confidence from a nonshared protected-identifier bridge between the index and official Army record.",
       "temporal_assessment": "Strongly date-bounded at Army entry, but neither immediate pre-OSS status nor a named employer is established.",
@@ -677,7 +677,7 @@
         },
         {
           "source_key": "army-codes-b906",
-          "locator_override": "PDF physical pages 170-173; category 9-92"
+          "locator_override": "PDF physical page 304; amended category 9-92"
         }
       ]
     },

@@ -60,7 +60,7 @@ test("Batch 906 Army bridges publish qualified occupations, not employers", asyn
     ["edd7eae3-d9cd-5725-8945-a80b4e28b090", "Semiskilled chauffeurs and drivers"],
     ["e64fd301-0183-5535-bf7b-3c9e885902e9", "Semiskilled chauffeurs and drivers"],
     ["2b671e64-23bb-5753-8582-b91a7729c6e5", "fabrication of metal products"],
-    ["2cc57327-5011-58e7-8122-145adacf288d", "production of ferrous and nonferrous metals"],
+    ["2cc57327-5011-58e7-8122-145adacf288d", "Students"],
     ["f852edf0-d68f-56b8-9f54-5910ec700d23", "structural and ornamental-metal workers"],
   ] as const;
 
@@ -73,6 +73,16 @@ test("Batch 906 Army bridges publish qualified occupations, not employers", asyn
       "No reliable pre-OSS employer has yet been identified",
     );
   }
+});
+
+test("Stainbrook uses NARA's amended code 992 and not the superseded metal-production label", async ({ page }) => {
+  await page.goto("./people/2cc57327-5011-58e7-8122-145adacf288d/");
+  const main = page.locator("main");
+  await expect(main).toContainText("Students");
+  await expect(main).not.toContainText("production of ferrous and nonferrous metals");
+  await expect(main.locator("section[aria-labelledby='civilian-employer']")).toContainText(
+    "No reliable pre-OSS employer has yet been identified",
+  );
 });
 
 test("Stanley Staiger keeps University of Oregon as student status", async ({ page }) => {

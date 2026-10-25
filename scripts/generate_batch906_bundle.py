@@ -56,7 +56,7 @@ ARMY_OCCUPATIONS = [
     {"row": 12, "date": "1943-03-16", "code": "736", "occupation": "Semiskilled chauffeurs and drivers, bus, taxi, truck, and tractor", "locator": "PDF physical pages 170-173; category 7-36"},
     {"row": 14, "date": "1943-04-20", "code": "736", "occupation": "Semiskilled chauffeurs and drivers, bus, taxi, truck, and tractor", "locator": "PDF physical pages 170-173; category 7-36"},
     {"row": 17, "date": "1942-03-07", "code": "494", "occupation": "Skilled occupations in fabrication of metal products, not elsewhere classified", "locator": "PDF physical pages 170-173; category 4-94"},
-    {"row": 19, "date": "1942-09-10", "code": "992", "occupation": "Unskilled occupations in production of ferrous and nonferrous metals, not elsewhere classified", "locator": "PDF physical pages 170-173; category 9-92"},
+    {"row": 19, "date": "1942-09-10", "code": "992", "occupation": "Students", "locator": "PDF physical page 304; amended category 9-92"},
     {"row": 21, "date": "1943-04-09", "code": "484", "occupation": "Skilled structural and ornamental-metal workers", "locator": "PDF physical pages 170-173; category 4-84"},
 ]
 
@@ -135,11 +135,11 @@ def sources() -> list[dict[str, object]]:
             "author_creator": "National Archives and Records Administration",
             "repository_publisher": "National Archives at College Park - Electronic Records",
             "publication_record_date": "2011-01-12; modified 2011-03-17",
-            "locator": "PDF physical pages 170-175; categories 056, 105, 484, 494, 736 and 992 visually checked",
+            "locator": "PDF physical pages 170-175 and 304; categories 056, 105, 484, 494, 736 and amended category 992 visually checked",
             "access_date": "2026-10-25",
             "source_quality": "A_direct_official",
             "collection_name": "World War II Army Enlistment Records technical documentation",
-            "rights_notes": "Historical labels identify neither employers nor workplaces.",
+            "rights_notes": "Historical labels identify neither employers nor workplaces. The amended table on physical page 304 supersedes the earlier 9-92 label and maps code 992 to Students.",
         },
         {
             "key": NARA_STAIGER,
