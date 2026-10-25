@@ -120,8 +120,12 @@ across the 70-file public tree. All 67 manifest assets verify locally
 vulnerabilities, and two consecutive builds produce identical public and
 output tree digests.
 
-Continuous-integration, deployment and unauthenticated live verification are
-pending the Batch 902 content commit.
+Continuous integration and deployed-release verification also pass: content
+commit `c261c0af8fc9e83af7117ff10c8a59d92866bf0e` passed GitHub Actions Test
+run `40207886838` and Pages run `40207886834`. The unauthenticated deployed-
+release verifier then matched all 67 assets (120,399,857 bytes), eight core
+routes, 38 source-register pages and all 23 Batch 902 profiles to that
+immutable commit.
 
 ## Resume inputs
 
