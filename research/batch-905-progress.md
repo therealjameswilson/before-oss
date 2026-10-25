@@ -109,3 +109,18 @@ existed.
 - Extraction validation: 23,978/23,978 rows, all 522 pages represented, every
   parser-warning row visually resolved.
 
+## Release verification
+
+- Published content commit:
+  `50caecef5f859cae2fb189218918774e30c7c76c`.
+- GitHub Actions Test run `40222176956`: completed successfully, including the
+  full Node 24 static build, bounded browser/accessibility release suite,
+  checked-in manifest verification and rebuilt-source public-identifier audit.
+- GitHub Pages run `40222176957`: build and deployment completed successfully.
+- Unauthenticated deployed-release verification matched all 67 public assets
+  (120,848,262 bytes), eight core routes, 38 source-register pages and all 24
+  directly affected or duplicate-linked profiles.
+- Deployed manifest SHA-256:
+  `52f278a0b0611ef0a80ec0393148e0cfaf4302a3ca79c556401fc74ed9cca2b5`.
+- Workflow annotations concerned action-runtime and runner-image migrations;
+  no test, build, redaction, accessibility or deployment gate failed.

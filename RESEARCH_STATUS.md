@@ -1,5 +1,42 @@
 # Research status
 
+Batch 906 completed PDF page 443, rows 1-23, from **Jean St. Thomas** through
+**Leonard V Stamnock**, preserving all 23 printed rows and linking them to 23
+separate active people. All 23 now have terminal research outcomes. Seven
+official Army identity bridges are accepted; their historical civilian-
+occupation codes remain qualified and name no employer, institution or
+workplace.
+
+Major Stanley A. Staiger is connected at high confidence to official NARA item
+102069 and the Smithsonian's Weihsien liberation account. His University of
+Oregon affiliation is published as student status, not employment. Laurence T.
+Stallings' MGM work and Glen M. Stadler's United Press work remain explicitly
+medium-confidence and identity-qualified. A same-name Martin Stahl OSS memo is
+retained privately as a low-confidence candidate and is not projected as a
+public claim or source.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **13,789/23,936 (57.6078%)**;
+verified-employer coverage is **447/23,936 (1.8675%)**;
+verified-affiliation coverage is **990/23,936 (4.1360%)**; archival-review
+coverage is **12,260/23,936 (51.2199%)**. There are **10,142** not-started
+people, **608** possible-duplicate groups and **477** conflicts. Claim
+confidence counts are **1,637 confirmed**, **4,478 high**, **1,905 medium**,
+**217 low**, **407 conflicting** and **2 unresolved**. The public projection
+contains **3,116** affiliations, **1,137** organizations, **5,625** sources and
+**8,423** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 443, row
+24, **Thomas S Stamoulis**, in Box 736. See `research/batch-906-progress.md`
+for the source-by-source audit.
+
+Batch 906 has passed isolated and canonical duplicate-safe reviewed-decision
+and evidence imports, database integrity and foreign-key checks, complete
+522-page extraction validation, derived export regeneration, coverage
+reporting, public-data redaction, all 146 Python tests, checked-in manifest
+verification, a 25,119-page static build, a 90/90 bounded browser and
+accessibility release matrix, and a 25,119-page internal-link check. GitHub
+Actions and Pages deployment remain to be run for this release.
+
 Batch 905 completed PDF page 442, rows 24-46, from **Phillip I
 Squillacioti** through **Pierre G St. Sauveur**, preserving all 23 printed rows
 and linking them to 23 separate active people. All 23 now have terminal
@@ -33,9 +70,16 @@ source-by-source audit.
 Batch 905 has passed isolated and canonical duplicate-safe reviewed-decision
 and evidence imports, import idempotency checks, database integrity and
 foreign-key checks, complete 522-page extraction validation, derived export
-regeneration, coverage reporting, public-data redaction and all 146 Python
-tests. Static-site type checking, build, browser/accessibility, link, manifest
-and deployment gates remain in progress and are not yet claimed as passed.
+regeneration, coverage reporting, public-data redaction, all 146 Python tests,
+checked-in manifest verification, the full Node 24 static build and bounded
+browser/accessibility release suite, rebuilt-source public-identifier audit,
+Pages deployment and unauthenticated deployed-release verification. Test run
+`40222176956` and Pages run `40222176957` completed successfully. Batch 905 is
+public from immutable commit `50caecef5f859cae2fb189218918774e30c7c76c`;
+the verifier matched all 67 public assets (120,848,262 bytes), eight core
+routes, 38 source-register pages and all 24 affected or linked profiles. The
+workflows emitted platform migration/deprecation annotations only; no release
+gate failed.
 
 Batch 904 completed PDF page 442, rows 1-23, from **Leland M Spore** through
 **Rosario F Squatrito**, preserving all 23 printed rows and linking them to 23
