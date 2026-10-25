@@ -1,0 +1,1396 @@
+{
+  "bundle_version": "batch-899-v1",
+  "reviewer": "Before OSS Batch 899 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b899",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 730-731",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 439, rows 24-46, plus page 440 row 2 for the George Spardo conflict; checked against layout-preserving text and a rendered page image",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "Printed rows remain immutable. Full protected identifiers remain private and are masked from public data."
+    },
+    {
+      "key": "army-bulk-b899",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; protected-identifier fields reviewed for five identity candidates and one duplicate conflict",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full private identifier is retained in public assets. The file is incomplete and a non-hit is not negative proof."
+    },
+    {
+      "key": "army-tech-b899",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b899",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 171-174; categories 1-05, 3-16 and 7-36 visually checked",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical labels identify neither employers nor workplaces and are published only as qualified occupation evidence."
+    },
+    {
+      "key": "aha-southworth-b899",
+      "stable_url": "https://www.historians.org/perspectives-article/herbert-r-southworth-1908-99-march-2000/",
+      "title": "Herbert R. Southworth (1908-99)",
+      "author_creator": "Paul Preston",
+      "repository_publisher": "American Historical Association, Perspectives on History",
+      "publication_record_date": "2000-03-01",
+      "locator": "Biographical paragraphs on Library of Congress, Spanish Information Bureau, Office of War Information and North Africa",
+      "access_date": "2026-10-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Project-authored paraphrases only; later career is retained only where useful for identity."
+    },
+    {
+      "key": "faber-southworth-b899",
+      "stable_url": "https://conversacionsobrehistoria.info/2020/12/29/hispanofilo-bibliofilo-antifascista-las-peleas-y-pasiones-de-herbert-southworth-i/",
+      "title": "Hispanófilo, bibliófilo, antifascista. Las peleas y pasiones de Herbert Southworth (I)",
+      "author_creator": "Sebastiaan Faber",
+      "repository_publisher": "Conversación sobre Historia",
+      "publication_record_date": "2020-12-29",
+      "locator": "Sections 3-4, especially paragraphs on 1938-1943 employment and the cited OSS personnel file",
+      "access_date": "2026-10-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "The scholarly article cites the OSS personnel file, but the physical file has not been independently reviewed by this project."
+    },
+    {
+      "key": "a-noite-spaatz-b899",
+      "stable_url": "https://hemeroteca-pdf.bn.gov.br/120588/per120588_1943_00754.pdf",
+      "title": "A Noite, 17 August 1943, Carl Spaatz profile",
+      "repository_publisher": "A Noite; Hemeroteca Digital Brasileira, Fundação Biblioteca Nacional",
+      "publication_record_date": "1943-08-17",
+      "locator": "PDF/newspaper page 33; profile paragraph on General Spaatz's eldest daughter Katherine",
+      "access_date": "2026-10-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "The contemporary article identifies OSS work but does not establish a pre-OSS employer."
+    },
+    {
+      "key": "air-university-spaatz-b899",
+      "stable_url": "https://www.airuniversity.af.edu/Portals/10/AUPress/Books/B_0085_HUSTON_AMERICAN_AIRPOWER_DIARIES.pdf",
+      "title": "American Airpower Comes of Age: General Henry H. Arnold's World War II Diaries, Volume 2",
+      "author_creator": "John W. Huston, editor",
+      "repository_publisher": "Air University Press",
+      "locator": "PDF page 277, note 72; Katherine 'Tatti' Spaatz and American Red Cross service",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "rights_notes": "The Red Cross evidence is not forced into a pre-OSS chronology; Box 730 is required to reconcile the sequence."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "library-congress-b899",
+      "organization_id": "11a2ad2b-e917-5a2a-abe3-9c391b43a51a",
+      "canonical_name": "Library of Congress",
+      "historical_name": "Library of Congress",
+      "organization_type": "national library and legislative-branch institution",
+      "sector": "federal_government",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused; the source does not identify Southworth's internal department."
+    },
+    {
+      "key": "spanish-information-bureau-b899",
+      "canonical_name": "Spanish Information Bureau",
+      "historical_name": "Spanish Information Bureau",
+      "aliases": [
+        "Oficina de Información Española",
+        "News of Spain"
+      ],
+      "organization_type": "Spanish Republican government information bureau",
+      "sector": "journalism_and_media",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "active_dates": "Spanish Civil War period",
+      "normalization_notes": "The historical English name is retained; it is not merged with later Spanish information agencies."
+    },
+    {
+      "key": "foreign-information-service-b899",
+      "canonical_name": "Foreign Information Service",
+      "historical_name": "Foreign Information Service",
+      "aliases": [
+        "FIS"
+      ],
+      "organization_type": "U.S. foreign information service",
+      "sector": "federal_government",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "active_dates": "1941-1942",
+      "normalization_notes": "Modeled separately from its successor Office of War Information; the source's earlier date language is preserved in notes rather than silently corrected."
+    },
+    {
+      "key": "owi-b899",
+      "organization_id": "c48b74b9-1a67-5480-bb47-8dd73d10abf4",
+      "canonical_name": "Office of War Information",
+      "historical_name": "Office of War Information",
+      "aliases": [
+        "OWI"
+      ],
+      "organization_type": "United States wartime information agency",
+      "sector": "federal_government",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "active_dates": "1942-1945",
+      "normalization_notes": "Existing canonical organization reused; it remains distinct from OSS."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "lewis-w-sowles-occupation-b899",
+      "person_id": "85efbcee-7ee7-5d9e-a915-aa3b95c8532f",
+      "relationship_type": "employment",
+      "occupation": "Clerks, general office",
+      "end_date": "1941-03-03",
+      "date_precision": "Historical civilian-occupation code 105 was recorded at Army entry on 1941-03-03; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, institution, workplace, or exact title."
+    },
+    {
+      "key": "joseph-j-spack-occupation-b899",
+      "person_id": "ec06afdf-6bee-55b2-a1c7-92d7d35d1eb4",
+      "relationship_type": "employment",
+      "occupation": "Chauffeurs and drivers, bus, taxi, truck, and tractor",
+      "end_date": "1943-09-21",
+      "date_precision": "Historical civilian-occupation code 736 was recorded at Army entry on 1943-09-21; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, institution, workplace, or exact title."
+    },
+    {
+      "key": "john-w-spade-occupation-b899",
+      "person_id": "d859ac79-b0eb-5f62-b2e3-cbca85c2bebc",
+      "relationship_type": "employment",
+      "occupation": "Farm hands, general farms",
+      "end_date": "1943-02-12",
+      "date_precision": "Historical civilian-occupation code 316 was recorded at Army entry on 1943-02-12; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, institution, workplace, or exact title."
+    },
+    {
+      "key": "dominick-spagnuolo-occupation-b899",
+      "person_id": "e1fbce86-395c-5ca9-ba0d-d2ead53426ba",
+      "relationship_type": "employment",
+      "occupation": "Chauffeurs and drivers, bus, taxi, truck, and tractor",
+      "end_date": "1942-12-03",
+      "date_precision": "Historical civilian-occupation code 736 was recorded at Army entry on 1942-12-03; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, institution, workplace, or exact title."
+    },
+    {
+      "person_id": "58145339-5a55-546f-8488-e6e8d7e38a3b",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "key": "herbert-southworth-loc-b899",
+      "organization_key": "library-congress-b899",
+      "organization_name_as_found": "Library of Congress",
+      "role_title": "library employee",
+      "occupation": "librarian",
+      "relationship_type": "employment",
+      "start_date": "1934",
+      "end_date": "1938-02",
+      "date_precision": "The biographies place him at the Library of Congress from 1934 until a February 1938 job offer from the Spanish Information Bureau; the exact start and separation dates are not stated.",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "research_notes": "Earlier documented employment; the internal Library unit is not inferred."
+    },
+    {
+      "person_id": "58145339-5a55-546f-8488-e6e8d7e38a3b",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "key": "herbert-southworth-sib-b899",
+      "organization_key": "spanish-information-bureau-b899",
+      "organization_name_as_found": "Spanish Information Bureau",
+      "role_title": "writer and information-bureau employee",
+      "occupation": "writer and journalist",
+      "relationship_type": "employment",
+      "start_date": "1938-02",
+      "end_date": "1939-02",
+      "date_precision": "The scholarly chronology explicitly dates the bureau employment from February 1938 to February 1939.",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "research_notes": "Best-supported last civilian employer before the intervening U.S. government information assignments; not the immediate affiliation at the June 1942 OSS application."
+    },
+    {
+      "person_id": "58145339-5a55-546f-8488-e6e8d7e38a3b",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "key": "herbert-southworth-fis-b899",
+      "organization_key": "foreign-information-service-b899",
+      "organization_name_as_found": "Foreign Information Service",
+      "role_title": "Iberian Peninsula specialist",
+      "occupation": "foreign-information specialist",
+      "relationship_type": "government_assignment",
+      "start_date": "1939-09",
+      "end_date": "1942-06",
+      "date_precision": "The scholarly chronology dates the appointment from September 1939 and explains that FIS was incorporated into OWI when OSS and OWI were created in June 1942.",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "research_notes": "Government assignment modeled separately from civilian employment and OWI."
+    },
+    {
+      "person_id": "58145339-5a55-546f-8488-e6e8d7e38a3b",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "key": "herbert-southworth-owi-b899",
+      "organization_key": "owi-b899",
+      "organization_name_as_found": "Office of War Information",
+      "role_title": "Iberian specialist; later Spanish-language broadcasting director",
+      "occupation": "government information specialist and broadcaster",
+      "relationship_type": "government_assignment",
+      "start_date": "1942-06",
+      "date_precision": "The personnel-file-based scholarly account says Southworth was serving in OWI when recommended to OSS in June 1942; OSS rejected the application and he remained with OWI.",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "research_notes": "Immediate affiliation at the OSS application, not proof of OSS employment. The application was rejected and Southworth remained in OWI."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-lewis-w-sowles-b899",
+      "person_id": "85efbcee-7ee7-5d9e-a915-aa3b95c8532f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Lewis W Sowles row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact name agreement and a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the coded Army field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b899",
+          "locator_override": "PDF page 439 row 33; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b899",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-joseph-j-spack-b899",
+      "person_id": "ec06afdf-6bee-55b2-a1c7-92d7d35d1eb4",
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph J Spack row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact name agreement and a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the coded Army field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b899",
+          "locator_override": "PDF page 439 row 36; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b899",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-w-spade-b899",
+      "person_id": "d859ac79-b0eb-5f62-b2e3-cbca85c2bebc",
+      "claim_type": "identity",
+      "claim_text": "The indexed John W Spade row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact name agreement and a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the coded Army field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b899",
+          "locator_override": "PDF page 439 row 37; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b899",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-dominick-spagnuolo-b899",
+      "person_id": "e1fbce86-395c-5ca9-ba0d-d2ead53426ba",
+      "claim_type": "identity",
+      "claim_text": "The indexed Dominick Spagnuolo row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact name agreement and a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the coded Army field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b899",
+          "locator_override": "PDF page 439 row 39; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b899",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-lewis-w-sowles-b899",
+      "person_id": "85efbcee-7ee7-5d9e-a915-aa3b95c8532f",
+      "affiliation_key": "lewis-w-sowles-occupation-b899",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1941-03-03, Lewis W Sowles was recorded in the historical clerks, general office category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 105, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not an employer, workplace, institution, or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b899",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 105; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b899",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b899",
+          "locator_override": "PDF physical page 171; category 1-05",
+          "excerpt_override": "Clerks, general office"
+        }
+      ]
+    },
+    {
+      "key": "occupation-joseph-j-spack-b899",
+      "person_id": "ec06afdf-6bee-55b2-a1c7-92d7d35d1eb4",
+      "affiliation_key": "joseph-j-spack-occupation-b899",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-09-21, Joseph J Spack was recorded in the historical chauffeurs and drivers, bus, taxi, truck, and tractor category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 736, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not an employer, workplace, institution, or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b899",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 736; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b899",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b899",
+          "locator_override": "PDF physical page 174; category 7-36",
+          "excerpt_override": "Chauffeurs and drivers, bus, taxi, truck, and tractor"
+        }
+      ]
+    },
+    {
+      "key": "occupation-john-w-spade-b899",
+      "person_id": "d859ac79-b0eb-5f62-b2e3-cbca85c2bebc",
+      "affiliation_key": "john-w-spade-occupation-b899",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-02-12, John W Spade was recorded in the historical farm hands, general farms category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 316, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not an employer, workplace, institution, or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b899",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 316; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b899",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b899",
+          "locator_override": "PDF physical page 172; category 3-16",
+          "excerpt_override": "Farm hands, general farms"
+        }
+      ]
+    },
+    {
+      "key": "occupation-dominick-spagnuolo-b899",
+      "person_id": "e1fbce86-395c-5ca9-ba0d-d2ead53426ba",
+      "affiliation_key": "dominick-spagnuolo-occupation-b899",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-12-03, Dominick Spagnuolo was recorded in the historical chauffeurs and drivers, bus, taxi, truck, and tractor category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 736, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not an employer, workplace, institution, or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b899",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 736; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b899",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b899",
+          "locator_override": "PDF physical page 174; category 7-36",
+          "excerpt_override": "Chauffeurs and drivers, bus, taxi, truck, and tractor"
+        }
+      ]
+    },
+    {
+      "key": "conflict-george-spadero-spardo-b899",
+      "person_id": "b47701d2-5ac0-5119-bb1f-d7e866d08b76",
+      "claim_type": "identity",
+      "claim_text": "George Spadero on index page 439 and George Spardo on page 440 are separate printed rows tied to one protected identifier; neither is merged or assigned the Army occupation candidate.",
+      "evidence_paraphrase": "The index spellings differ, the official Army spelling is a third form, and the protected identifier is shared across the two index rows.",
+      "identity_match_assessment": "Conflicting. The identifier cannot safely select one spelling or collapse the two immutable rows.",
+      "temporal_assessment": "The Army entry predates the later staff-sergeant rank printed for Spadero, but chronology cannot resolve which index row owns the Army record.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "Full protected identifiers are withheld. Review Boxes 730-731 together before transferring any identity or occupation evidence.",
+      "sources": [
+        {
+          "source_key": "nara-index-b899",
+          "locator_override": "PDF page 439 row 38 and page 440 row 2; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b899",
+          "support_type": "context_only",
+          "locator_override": "Conflicting name-form candidate; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-herbert-southworth-b899",
+      "person_id": "58145339-5a55-546f-8488-e6e8d7e38a3b",
+      "claim_type": "identity",
+      "claim_text": "The indexed Herbert Southworth is a high-confidence match to historian and wartime information specialist Herbert Rutledge Southworth.",
+      "evidence_paraphrase": "A scholarly account explicitly draws on Southworth's OSS personnel file and supplies a distinctive employment and June 1942 application chronology.",
+      "identity_match_assessment": "High confidence from the distinctive exact name, middle-name variant, OSS-file reference, and corroborating professional biography.",
+      "temporal_assessment": "The source explicitly dates his OSS application to June 1942 and states that it was rejected; the index row therefore does not prove OSS employment.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The project distinguishes an indexed OSS personnel file from actual OSS service and preserves the rejected-application outcome.",
+      "sources": [
+        {
+          "source_key": "nara-index-b899",
+          "locator_override": "PDF page 439 row 28; Box 730"
+        },
+        {
+          "source_key": "faber-southworth-b899",
+          "locator_override": "Paragraphs 85-100; chronology based in part on OSS Personnel Files"
+        },
+        {
+          "source_key": "aha-southworth-b899",
+          "support_type": "supports",
+          "locator_override": "Biographical paragraphs on 1934-1943 employment"
+        }
+      ]
+    },
+    {
+      "key": "identity-katherine-spaatz-b899",
+      "person_id": "885163da-87b6-5381-b8c9-c570bd40c063",
+      "claim_type": "identity",
+      "claim_text": "The indexed Katherine H Spaatz is a high-confidence match to Katherine 'Tatti' Spaatz, although accessible sources do not establish her pre-OSS employer.",
+      "evidence_paraphrase": "A contemporary 1943 profile places Katherine in strategic services, while an official Air Force history documents her American Red Cross service.",
+      "identity_match_assessment": "High confidence from the rare exact name and middle initial, contemporary strategic-services statement, and official wartime biography.",
+      "temporal_assessment": "The accessible sources do not securely order the OSS and Red Cross affiliations or identify an earlier employer, so no pre-OSS affiliation is published.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Family relationships corroborate identity but are not used as the principal basis for an employment claim. Box 730 is needed for chronology.",
+      "sources": [
+        {
+          "source_key": "nara-index-b899",
+          "locator_override": "PDF page 439 row 35; Box 730"
+        },
+        {
+          "source_key": "a-noite-spaatz-b899",
+          "locator_override": "Newspaper page 33; contemporary strategic-services statement"
+        },
+        {
+          "source_key": "air-university-spaatz-b899",
+          "support_type": "context_only",
+          "locator_override": "PDF page 277, note 72; American Red Cross service"
+        }
+      ]
+    },
+    {
+      "key": "employer-herbert-southworth-loc-b899",
+      "person_id": "58145339-5a55-546f-8488-e6e8d7e38a3b",
+      "affiliation_key": "herbert-southworth-loc-b899",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Herbert Southworth worked at the Library of Congress from about 1934 until accepting a Spanish Information Bureau position in February 1938.",
+      "evidence_paraphrase": "The professional biographies place him in Library employment before the Spanish Civil War information post.",
+      "identity_match_assessment": "High-confidence identity from the distinctive name, OSS-file reference and corroborating scholarly biography.",
+      "temporal_assessment": "Documented prewar employment; exact appointment and separation dates are not supplied.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The profile preserves the difference between civilian employment, government assignment, an OSS application and actual OSS service.",
+      "sources": [
+        {
+          "source_key": "aha-southworth-b899",
+          "locator_override": "Paragraphs 64-65"
+        },
+        {
+          "source_key": "faber-southworth-b899",
+          "support_type": "supports",
+          "locator_override": "Paragraphs 52 and 76"
+        }
+      ]
+    },
+    {
+      "key": "last-civilian-herbert-southworth-sib-b899",
+      "person_id": "58145339-5a55-546f-8488-e6e8d7e38a3b",
+      "affiliation_key": "herbert-southworth-sib-b899",
+      "claim_type": "last_civilian_pre_service",
+      "claim_text": "The Spanish Information Bureau is Herbert Southworth's best-supported last civilian employer before his intervening U.S. government information assignments.",
+      "evidence_paraphrase": "The scholarly chronology dates his bureau employment from February 1938 to February 1939 and his federal appointment from September 1939.",
+      "identity_match_assessment": "High-confidence identity from the distinctive name, OSS-file reference and corroborating scholarly biography.",
+      "temporal_assessment": "Strongly date-bounded; the bureau role ended before FIS and OWI, which are modeled separately as government assignments.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The profile preserves the difference between civilian employment, government assignment, an OSS application and actual OSS service.",
+      "sources": [
+        {
+          "source_key": "faber-southworth-b899",
+          "locator_override": "Paragraphs 76 and 85"
+        },
+        {
+          "source_key": "aha-southworth-b899",
+          "support_type": "supports",
+          "locator_override": "Paragraphs 65-68"
+        }
+      ]
+    },
+    {
+      "key": "government-herbert-southworth-fis-b899",
+      "person_id": "58145339-5a55-546f-8488-e6e8d7e38a3b",
+      "affiliation_key": "herbert-southworth-fis-b899",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Southworth served as an Iberian Peninsula specialist in the Foreign Information Service before its functions moved into the Office of War Information.",
+      "evidence_paraphrase": "The scholarly chronology dates the federal appointment from September 1939 and separates FIS from the successor OWI.",
+      "identity_match_assessment": "High-confidence identity from the distinctive name, OSS-file reference and corroborating scholarly biography.",
+      "temporal_assessment": "Strongly date-bounded government assignment; not labeled civilian employment or OSS service.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The profile preserves the difference between civilian employment, government assignment, an OSS application and actual OSS service.",
+      "sources": [
+        {
+          "source_key": "faber-southworth-b899",
+          "locator_override": "Paragraphs 85-87"
+        }
+      ]
+    },
+    {
+      "key": "immediate-herbert-southworth-owi-b899",
+      "person_id": "58145339-5a55-546f-8488-e6e8d7e38a3b",
+      "affiliation_key": "herbert-southworth-owi-b899",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Herbert Southworth's immediate affiliation when he sought an OSS appointment in June 1942 was the Office of War Information; OSS rejected the application and he remained with OWI.",
+      "evidence_paraphrase": "The scholarly account, citing his OSS personnel file, directly sequences OWI employment, the June 1942 recommendation and rejection.",
+      "identity_match_assessment": "High-confidence identity from the distinctive name, OSS-file reference and corroborating scholarly biography.",
+      "temporal_assessment": "Explicitly immediate to the OSS application; this is not a claim that Southworth entered OSS service.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The profile preserves the difference between civilian employment, government assignment, an OSS application and actual OSS service.",
+      "sources": [
+        {
+          "source_key": "faber-southworth-b899",
+          "locator_override": "Paragraphs 97-100; OSS-file-based application chronology"
+        },
+        {
+          "source_key": "aha-southworth-b899",
+          "support_type": "supports",
+          "locator_override": "Paragraph 68; OWI and 1943 North Africa assignment"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "7612d060-972b-53ee-9e51-88652c349247",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies M J Soustelle, Box 730, and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper, and archival protocol found no defensible identity bridge. The initials-only French-civilian entry produced no source that connects a full name, occupation, or institution to this Box 730 row.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 730 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "d68746ec-4a97-51e8-a5aa-78f8a9f7a732",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies James R Southern, Box 730, and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper, and archival protocol found no defensible identity bridge. The common name and protected identifier did not produce an official Army-bulk match or an external OSS and employer chronology.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 730 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "0fcf924d-4726-564b-b22a-9b18ec894806",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Richard Southgate, Box 730, and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper, and archival protocol found no defensible identity bridge. Exact-name searches produced multiple chronologically incompatible namesakes and no second identifier beyond the name.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 730 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "7a455dd5-13d3-597a-b17b-3ae1ea7c2ee5",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Faye F Southworth, Box 730, and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper, and archival protocol found no defensible identity bridge. Exact-name, institutional, obituary, newspaper, and archival searches did not establish a defensible identity or relationship to Herbert Southworth.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 730 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "a1781a66-d363-5419-bce9-27d0eb65c73a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Irene Souza, Box 730, and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper, and archival protocol found no defensible identity bridge. The common Portuguese-language name produced many modern and unbridged namesakes but no wartime identity or employer evidence.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 730 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "edb60948-009c-5a1d-ba0a-354366970e2f",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Katherine F Souza, Box 730, and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper, and archival protocol found no defensible identity bridge. The middle initial reduced the candidate set but no source connected a namesake to OSS, Box 730, or a pre-OSS employer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 730 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "05df6fef-1d47-54ff-af70-3b96bde9d442",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Pedro M Souza, Box 730, and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper, and archival protocol found no defensible identity bridge. The major rank and name did not yield two corroborating identifiers or a reliable Allied military and employer chronology.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 730 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "7927e30b-daa3-5060-86c7-c87f7162f3b6",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Karel Sovak, Box 730, and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper, and archival protocol found no defensible identity bridge. The distinctive Czech name produced modern namesakes but no wartime source linking the indexed person to an occupation or institution.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 730 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "7fac5efe-d3f3-57bf-b153-5e4cd993fcaf",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Santino R Sozio, Box 730, and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper, and archival protocol found no defensible identity bridge. The rare surname produced no exact wartime result with an OSS, military, obituary, institutional, or employer bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 730 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "f8e28fb5-5484-5904-afb9-015e3b123628",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Sylvia E Spain, Box 731, and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper, and archival protocol found no defensible identity bridge. Exact-name and middle-initial searches found no defensible wartime identity or pre-OSS affiliation for the Box 731 row.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 731 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "162da5de-df14-5161-9b14-32d9b84f9163",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Walter C Spain, Box 731, and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper, and archival protocol found no defensible identity bridge. A protected identifier and exact-name searches did not produce a reviewed official crosswalk or a reliable employer chronology.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 731 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "206eaa37-01ae-50fc-ae6c-237ad5443656",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Charles F Spalding, Box 731, and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper, and archival protocol found no defensible identity bridge. Several Charles F Spalding namesakes remain plausible, but none has an OSS or Box 731 bridge sufficient for assignment.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 731 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "bc6137ec-35f6-50d9-bbf5-a831452389ef",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Merrill T Spalding, Box 731, and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper, and archival protocol found no defensible identity bridge. The exact name produced no source connecting the indexed person to OSS, military service, or a prewar employer.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 731 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "9731ca48-f8cf-5e6e-bb9c-107bda39af3d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Beatrice Spang, Box 731, and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper, and archival protocol found no defensible identity bridge. The name produced modern European namesakes but no wartime identity or affiliation bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 731 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b97746f6-561a-5d7f-acc6-f5c53696bbba",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Yvonne Spann, Box 731, and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper, and archival protocol found no defensible identity bridge. The name produced modern and genealogical namesakes but no wartime identity or employer evidence.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 731 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "d1c66f0d-a2e4-5a0c-9bf6-8b8ca545f34c",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Andrew Spanos, Box 731, and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, newspaper, and archival protocol found no defensible identity bridge. The protected identifier did not produce an Army-bulk candidate, and exact-name results were modern namesakes without an OSS bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 731 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "85efbcee-7ee7-5d9e-a915-aa3b95c8532f",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 730 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ec06afdf-6bee-55b2-a1c7-92d7d35d1eb4",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 730 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d859ac79-b0eb-5f62-b2e3-cbca85c2bebc",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 730 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e1fbce86-395c-5ca9-ba0d-d2ead53426ba",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 731 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "58145339-5a55-546f-8488-e6e8d7e38a3b",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The distinctive exact name, scholarly reference to his OSS personnel file, and corroborating 1934-1943 employment chronology identify Herbert Rutledge Southworth at high confidence.",
+      "name_variants": [
+        "Herbert Rutledge Southworth",
+        "Herbert R. Southworth"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 730 to verify the underlying June 1942 application documents and determine whether the indexed file contains any additional pre-OWI employment evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "885163da-87b6-5381-b8c9-c570bd40c063",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare exact name and middle initial, a contemporary 1943 strategic-services statement and official Air Force history identify Katherine 'Tatti' Spaatz at high confidence, but the accessible sources do not securely order her OSS and Red Cross affiliations.",
+      "name_variants": [
+        "Katherine 'Tatti' Spaatz",
+        "Tatti Spaatz",
+        "Katherine Spaatz"
+      ],
+      "manual_review_required": true,
+      "research_status": "needs_temporal_review",
+      "next_action": "Review Box 730 to determine whether the file documents OSS employment, an application, or another personnel action and to sequence it against American Red Cross service; do not infer a pre-OSS employer from her family.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "b47701d2-5ac0-5119-bb1f-d7e866d08b76",
+      "identity_status": "conflicting",
+      "identity_evidence": "George Spadero on page 439 and George Spardo on page 440 are separately printed rows tied to one protected identifier; the reviewed Army record uses a third spelling. No occupation or employer evidence is transferred.",
+      "name_variants": [
+        "George Spadaro"
+      ],
+      "manual_review_required": true,
+      "possible_duplicate_group": "serial-conflict:george-spadero-spardo-pages439-440",
+      "research_status": "conflicting_sources",
+      "next_action": "Review the George Spadero file in Box 731 together with the George Spardo file in Box 730 before accepting any protected-identifier-based identity, occupation, or employer evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page439-row24-m-j-soustelle-b899",
+      "person_id": "7612d060-972b-53ee-9e51-88652c349247",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "M J Soustelle; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Box 730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_899",
+      "started_at": "2026-10-25T13:57:00Z",
+      "completed_at": "2026-10-25T14:01:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The initials-only French-civilian entry produced no source that connects a full name, occupation, or institution to this Box 730 row.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. The initials-only French-civilian entry produced no source that connects a full name, occupation, or institution to this Box 730 row. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b899-v1"
+    },
+    {
+      "key": "page439-row25-james-r-southern-b899",
+      "person_id": "d68746ec-4a97-51e8-a5aa-78f8a9f7a732",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James R Southern; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Box 730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_899",
+      "started_at": "2026-10-25T13:57:00Z",
+      "completed_at": "2026-10-25T14:01:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The common name and protected identifier did not produce an official Army-bulk match or an external OSS and employer chronology.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. The common name and protected identifier did not produce an official Army-bulk match or an external OSS and employer chronology. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b899-v1"
+    },
+    {
+      "key": "page439-row26-richard-southgate-b899",
+      "person_id": "0fcf924d-4726-564b-b22a-9b18ec894806",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Richard Southgate; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Box 730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_899",
+      "started_at": "2026-10-25T13:57:00Z",
+      "completed_at": "2026-10-25T14:01:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name searches produced multiple chronologically incompatible namesakes and no second identifier beyond the name.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Exact-name searches produced multiple chronologically incompatible namesakes and no second identifier beyond the name. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b899-v1"
+    },
+    {
+      "key": "page439-row27-faye-f-southworth-b899",
+      "person_id": "7a455dd5-13d3-597a-b17b-3ae1ea7c2ee5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Faye F Southworth; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Box 730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_899",
+      "started_at": "2026-10-25T13:57:00Z",
+      "completed_at": "2026-10-25T14:01:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name, institutional, obituary, newspaper, and archival searches did not establish a defensible identity or relationship to Herbert Southworth.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Exact-name, institutional, obituary, newspaper, and archival searches did not establish a defensible identity or relationship to Herbert Southworth. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b899-v1"
+    },
+    {
+      "key": "page439-row28-herbert-southworth-b899",
+      "person_id": "58145339-5a55-546f-8488-e6e8d7e38a3b",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Herbert Southworth; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Box 730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_899",
+      "started_at": "2026-10-25T13:57:00Z",
+      "completed_at": "2026-10-25T14:01:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results, postwar-only leads and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. Two scholarly biographies and the cited OSS personnel-file chronology support four bounded pre-OSS affiliations while establishing that the June 1942 OSS application was rejected. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b899-v1"
+    },
+    {
+      "key": "page439-row29-irene-souza-b899",
+      "person_id": "a1781a66-d363-5419-bce9-27d0eb65c73a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Irene Souza; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Box 730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_899",
+      "started_at": "2026-10-25T13:57:00Z",
+      "completed_at": "2026-10-25T14:01:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The common Portuguese-language name produced many modern and unbridged namesakes but no wartime identity or employer evidence.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. The common Portuguese-language name produced many modern and unbridged namesakes but no wartime identity or employer evidence. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b899-v1"
+    },
+    {
+      "key": "page439-row30-katherine-f-souza-b899",
+      "person_id": "edb60948-009c-5a1d-ba0a-354366970e2f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Katherine F Souza; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Box 730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_899",
+      "started_at": "2026-10-25T13:57:00Z",
+      "completed_at": "2026-10-25T14:01:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The middle initial reduced the candidate set but no source connected a namesake to OSS, Box 730, or a pre-OSS employer.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. The middle initial reduced the candidate set but no source connected a namesake to OSS, Box 730, or a pre-OSS employer. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b899-v1"
+    },
+    {
+      "key": "page439-row31-pedro-m-souza-b899",
+      "person_id": "05df6fef-1d47-54ff-af70-3b96bde9d442",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Pedro M Souza; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Box 730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_899",
+      "started_at": "2026-10-25T13:57:00Z",
+      "completed_at": "2026-10-25T14:01:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The major rank and name did not yield two corroborating identifiers or a reliable Allied military and employer chronology.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. The major rank and name did not yield two corroborating identifiers or a reliable Allied military and employer chronology. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b899-v1"
+    },
+    {
+      "key": "page439-row32-karel-sovak-b899",
+      "person_id": "7927e30b-daa3-5060-86c7-c87f7162f3b6",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Karel Sovak; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Box 730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_899",
+      "started_at": "2026-10-25T13:57:00Z",
+      "completed_at": "2026-10-25T14:01:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The distinctive Czech name produced modern namesakes but no wartime source linking the indexed person to an occupation or institution.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. The distinctive Czech name produced modern namesakes but no wartime source linking the indexed person to an occupation or institution. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b899-v1"
+    },
+    {
+      "key": "page439-row33-lewis-w-sowles-b899",
+      "person_id": "85efbcee-7ee7-5d9e-a915-aa3b95c8532f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Lewis W Sowles; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Box 730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_899",
+      "started_at": "2026-10-25T13:57:00Z",
+      "completed_at": "2026-10-25T14:01:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results, postwar-only leads and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. The accepted protected-identifier bridge supports identity and a dated historical occupation category, but not a named employer or immediate OSS chronology. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b899-v1"
+    },
+    {
+      "key": "page439-row34-santino-r-sozio-b899",
+      "person_id": "7fac5efe-d3f3-57bf-b153-5e4cd993fcaf",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Santino R Sozio; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Box 730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_899",
+      "started_at": "2026-10-25T13:57:00Z",
+      "completed_at": "2026-10-25T14:01:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The rare surname produced no exact wartime result with an OSS, military, obituary, institutional, or employer bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. The rare surname produced no exact wartime result with an OSS, military, obituary, institutional, or employer bridge. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b899-v1"
+    },
+    {
+      "key": "page439-row35-katherine-h-spaatz-b899",
+      "person_id": "885163da-87b6-5381-b8c9-c570bd40c063",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Katherine H Spaatz; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Box 730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_899",
+      "started_at": "2026-10-25T13:57:00Z",
+      "completed_at": "2026-10-25T14:01:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results, postwar-only leads and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. Contemporary press and an official Air Force history establish identity but do not securely order strategic-services and Red Cross affiliations or name an earlier employer. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b899-v1"
+    },
+    {
+      "key": "page439-row36-joseph-j-spack-b899",
+      "person_id": "ec06afdf-6bee-55b2-a1c7-92d7d35d1eb4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph J Spack; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Box 730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_899",
+      "started_at": "2026-10-25T13:57:00Z",
+      "completed_at": "2026-10-25T14:01:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results, postwar-only leads and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. The accepted protected-identifier bridge supports identity and a dated historical occupation category, but not a named employer or immediate OSS chronology. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b899-v1"
+    },
+    {
+      "key": "page439-row37-john-w-spade-b899",
+      "person_id": "d859ac79-b0eb-5f62-b2e3-cbca85c2bebc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John W Spade; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Box 730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_899",
+      "started_at": "2026-10-25T13:57:00Z",
+      "completed_at": "2026-10-25T14:01:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results, postwar-only leads and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. The accepted protected-identifier bridge supports identity and a dated historical occupation category, but not a named employer or immediate OSS chronology. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b899-v1"
+    },
+    {
+      "key": "page439-row38-george-spadero-b899",
+      "person_id": "b47701d2-5ac0-5119-bb1f-d7e866d08b76",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "George Spadero; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Box 731; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_899",
+      "started_at": "2026-10-25T13:57:00Z",
+      "completed_at": "2026-10-25T14:01:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results, postwar-only leads and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. The protected identifier is shared across George Spadero and George Spardo, while the Army source uses George Spadaro; the conflict remains visible and no occupation is transferred. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 731 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b899-v1"
+    },
+    {
+      "key": "page439-row39-dominick-spagnuolo-b899",
+      "person_id": "e1fbce86-395c-5ca9-ba0d-d2ead53426ba",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Dominick Spagnuolo; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Box 731; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_899",
+      "started_at": "2026-10-25T13:57:00Z",
+      "completed_at": "2026-10-25T14:01:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results, postwar-only leads and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. The accepted protected-identifier bridge supports identity and a dated historical occupation category, but not a named employer or immediate OSS chronology. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 731 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b899-v1"
+    },
+    {
+      "key": "page439-row40-sylvia-e-spain-b899",
+      "person_id": "f8e28fb5-5484-5904-afb9-015e3b123628",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Sylvia E Spain; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Box 731; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_899",
+      "started_at": "2026-10-25T13:57:00Z",
+      "completed_at": "2026-10-25T14:01:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name and middle-initial searches found no defensible wartime identity or pre-OSS affiliation for the Box 731 row.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Exact-name and middle-initial searches found no defensible wartime identity or pre-OSS affiliation for the Box 731 row. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 731 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b899-v1"
+    },
+    {
+      "key": "page439-row41-walter-c-spain-b899",
+      "person_id": "162da5de-df14-5161-9b14-32d9b84f9163",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Walter C Spain; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Box 731; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_899",
+      "started_at": "2026-10-25T13:57:00Z",
+      "completed_at": "2026-10-25T14:01:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "A protected identifier and exact-name searches did not produce a reviewed official crosswalk or a reliable employer chronology.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. A protected identifier and exact-name searches did not produce a reviewed official crosswalk or a reliable employer chronology. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 731 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b899-v1"
+    },
+    {
+      "key": "page439-row42-charles-f-spalding-b899",
+      "person_id": "206eaa37-01ae-50fc-ae6c-237ad5443656",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles F Spalding; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Box 731; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_899",
+      "started_at": "2026-10-25T13:57:00Z",
+      "completed_at": "2026-10-25T14:01:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Several Charles F Spalding namesakes remain plausible, but none has an OSS or Box 731 bridge sufficient for assignment.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Several Charles F Spalding namesakes remain plausible, but none has an OSS or Box 731 bridge sufficient for assignment. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 731 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b899-v1"
+    },
+    {
+      "key": "page439-row43-merrill-t-spalding-b899",
+      "person_id": "bc6137ec-35f6-50d9-bbf5-a831452389ef",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Merrill T Spalding; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Box 731; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_899",
+      "started_at": "2026-10-25T13:57:00Z",
+      "completed_at": "2026-10-25T14:01:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The exact name produced no source connecting the indexed person to OSS, military service, or a prewar employer.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. The exact name produced no source connecting the indexed person to OSS, military service, or a prewar employer. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 731 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b899-v1"
+    },
+    {
+      "key": "page439-row44-beatrice-spang-b899",
+      "person_id": "9731ca48-f8cf-5e6e-bb9c-107bda39af3d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Beatrice Spang; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Box 731; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_899",
+      "started_at": "2026-10-25T13:57:00Z",
+      "completed_at": "2026-10-25T14:01:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The name produced modern European namesakes but no wartime identity or affiliation bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. The name produced modern European namesakes but no wartime identity or affiliation bridge. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 731 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b899-v1"
+    },
+    {
+      "key": "page439-row45-yvonne-spann-b899",
+      "person_id": "b97746f6-561a-5d7f-acc6-f5c53696bbba",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Yvonne Spann; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Box 731; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_899",
+      "started_at": "2026-10-25T13:57:00Z",
+      "completed_at": "2026-10-25T14:01:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The name produced modern and genealogical namesakes but no wartime identity or employer evidence.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. The name produced modern and genealogical namesakes but no wartime identity or employer evidence. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 731 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b899-v1"
+    },
+    {
+      "key": "page439-row46-andrew-spanos-b899",
+      "person_id": "d1c66f0d-a2e4-5a0c-9bf6-8b8ca545f34c",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Andrew Spanos; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Box 731; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_899",
+      "started_at": "2026-10-25T13:57:00Z",
+      "completed_at": "2026-10-25T14:01:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The protected identifier did not produce an Army-bulk candidate, and exact-name results were modern namesakes without an OSS bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. The protected identifier did not produce an Army-bulk candidate, and exact-name results were modern namesakes without an OSS bridge. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 731 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b899-v1"
+    }
+  ]
+}

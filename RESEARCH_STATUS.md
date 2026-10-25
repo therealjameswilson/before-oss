@@ -1,5 +1,44 @@
 # Research status
 
+Batch 899 completed PDF page 439, rows 24-46, from **M J Soustelle** through
+**Andrew Spanos**, preserving all 23 printed rows and linking them to 23 active
+people. All 23 have terminal research outcomes. Four official Army identity
+bridges are accepted. George Spadero and the separately printed George Spardo
+row remain separate in a visible protected-identifier conflict, and disputed
+Army evidence is not transferred.
+
+Four historical Army occupation categories remain qualified and name no
+employer or workplace. Herbert Southworth's Library of Congress, Spanish
+Information Bureau, Foreign Information Service and Office of War Information
+chronology is published with civilian employment and government assignments
+kept distinct. His June 1942 OWI post is the explicit immediate affiliation at
+his unsuccessful OSS application, not proof of OSS service. Katherine H
+Spaatz's American Red Cross and strategic-services evidence remains in temporal
+review because the accessible sources do not establish a pre-OSS sequence or
+employer.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **13,634/23,936 (56.9602%)**;
+verified-employer coverage is **439/23,936 (1.8341%)**;
+verified-affiliation coverage is **978/23,936 (4.0859%)**; archival-review
+coverage is **12,105/23,936 (50.5724%)**. There are **10,297** not-started
+people, **603** possible-duplicate groups and **469** conflicts. The public
+projection contains **3,051** affiliations, **1,127** organizations, **5,554**
+sources and **8,282** published, qualified or conflict claims. Full-index
+historical research remains unfinished. The next indexed boundary is PDF page
+440, row 1, **Mildred S Spanum**, visually confirmed in Box 730. See
+`research/batch-899-progress.md` for the source-by-source audit. Batch 899 has
+passed isolated and canonical idempotency imports, database integrity checks,
+complete 522-page extraction validation, derived export regeneration, coverage
+reporting, public-data redaction, all 146 Python tests and 84 parameterized
+subtests, the deterministic 200-profile audit, a 21/21 targeted browser matrix
+and a zero-warning 25,109-page Astro build. The complete 90/90 browser and
+accessibility release matrix, 25,109-page internal-link check, private-
+identifier scan, local manifest verification, zero-vulnerability production
+dependency audit and two deterministic builds also pass. Continuous-
+integration and deployment gates remain pending; the currently public site
+therefore still reports Batch 898.
+
 Batch 898 completed PDF page 439, rows 1-23, from **Gene Sorisi** through
 **Jacques Soustelle**, preserving all 23 printed rows and linking them to 23
 active people. All 23 have terminal research outcomes. Five official Army
