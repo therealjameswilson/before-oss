@@ -1,5 +1,42 @@
 # Research status
 
+Batch 905 completed PDF page 442, rows 24-46, from **Phillip I
+Squillacioti** through **Pierre G St. Sauveur**, preserving all 23 printed rows
+and linking them to 23 separate active people. All 23 now have terminal
+research outcomes. Ten official Army identity bridges are accepted; two
+shared-identifier conflicts remain visible without transferring evidence.
+
+Seven dated historical Army occupation categories remain qualified and name no
+employer, institution or workplace. Three additional Army bridges establish
+identity only: two source records are post-OSS and one coded occupation cannot
+be safely interpreted. Anonda Srivardhana's Carnegie Institute of Technology
+connection is published as student status, not employment. Karawek
+Srivicharn's December 1942 Free Thai officer commission is kept separate from
+the unanswered pre-service employer question. Aaron Squires' official Army
+photographer category and scholarly Deer Team evidence are published alongside
+the National Park Service's conflicting **Alan Squires** first-name form.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **13,766/23,936 (57.5117%)**;
+verified-employer coverage is **447/23,936 (1.8675%)**;
+verified-affiliation coverage is **989/23,936 (4.1319%)**; archival-review
+coverage is **12,237/23,936 (51.1238%)**. There are **10,165** not-started
+people, **608** possible-duplicate groups and **477** conflicts. Claim
+confidence counts are **1,637 confirmed**, **4,469 high**, **1,894 medium**,
+**216 low**, **407 conflicting** and **2 unresolved**. The public projection
+contains **3,106** affiliations, **1,137** organizations, **5,616** sources and
+**8,403** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 443, row 1,
+**Jean St. Thomas**, in Box 735. See `research/batch-905-progress.md` for the
+source-by-source audit.
+
+Batch 905 has passed isolated and canonical duplicate-safe reviewed-decision
+and evidence imports, import idempotency checks, database integrity and
+foreign-key checks, complete 522-page extraction validation, derived export
+regeneration, coverage reporting, public-data redaction and all 146 Python
+tests. Static-site type checking, build, browser/accessibility, link, manifest
+and deployment gates remain in progress and are not yet claimed as passed.
+
 Batch 904 completed PDF page 442, rows 1-23, from **Leland M Spore** through
 **Rosario F Squatrito**, preserving all 23 printed rows and linking them to 23
 separate active people. All 23 now have terminal research outcomes. Six
