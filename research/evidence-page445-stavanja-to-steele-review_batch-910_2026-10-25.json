@@ -1,0 +1,1427 @@
+{
+  "bundle_version": "batch-910-v1",
+  "reviewer": "Before OSS Batch 910 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b910",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 740-741",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 445, rows 24-46; checked against layout-preserving text and a rendered page image",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain immutable. Full protected identifiers remain private; the Steed/Streed conflict remains unresolved."
+    },
+    {
+      "key": "army-bulk-b910",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; two accepted and one rejected reviewed Batch 910 identity bridge",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw Army row or full protected identifier is retained in public assets. The Ernest H. Steed candidate was rejected because its identifier is shared by another index entity."
+    },
+    {
+      "key": "army-tech-b910",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b910",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical page 239; civil-engineer category visually and textually checked",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "The historical category identifies neither an employer nor an exact workplace. Joseph W. Staves's separate code is not published because its meaning was not securely established."
+    },
+    {
+      "key": "hoover-oss-bari-board-b910",
+      "stable_url": "https://digitalcollections.hoover.org/internal/media/dispatcher/331573/full",
+      "archival_identifier": "Millard Preston Goodfellow papers, declassified U.S. government records, OSS Board of Officers interim-report material",
+      "title": "OSS Board of Officers interim report, including Bari personnel interviews",
+      "author_creator": "United States Office of Strategic Services",
+      "repository_publisher": "Hoover Institution Library & Archives Digital Collections",
+      "publication_record_date": "1944",
+      "locator": "PDF page 49, section XXVII, Lewis C. Stavanja",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Millard Preston Goodfellow papers",
+      "rights_notes": "The government report directly records the Army-to-OSS chronology and a civilian employer. The public excerpt is limited to the minimum supporting language."
+    },
+    {
+      "key": "southeast-europe-stavrianos-b910",
+      "stable_url": "https://www.tandfonline.com/doi/full/10.1080/14683850500321958",
+      "archival_identifier": "DOI 10.1080/14683850500321958",
+      "title": "Editor's Note",
+      "repository_publisher": "Southeast European and Black Sea Studies; Taylor & Francis",
+      "publication_record_date": "2005",
+      "locator": "Biographical chronology: Smith College appointment, OSS Greek Desk analyst assignment, and 1944 Balkan-intelligence work",
+      "access_date": "2026-10-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "The source spells the surname Stavrianos and the given name Leften. The index spelling Stavriancos is preserved and the identity remains qualified."
+    },
+    {
+      "key": "ahr-stavrianos-smith-b910",
+      "stable_url": "https://academic.oup.com/ahr/article-abstract/48/1/30/51764",
+      "archival_identifier": "DOI 10.1086/ahr/48.1.30",
+      "title": "The Balkan Federation Movement: A Neglected Aspect",
+      "author_creator": "L. S. Stavrianos",
+      "repository_publisher": "The American Historical Review; Oxford University Press",
+      "publication_record_date": "1942-10-01",
+      "locator": "Author affiliation: Smith College",
+      "access_date": "2026-10-25",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Contemporary institutional-affiliation evidence; it does not independently resolve the index misspelling."
+    },
+    {
+      "key": "princeton-stearns-memorial-b910",
+      "stable_url": "https://www.princeton.edu/~paw/archive_new/PAW01-02/04-1107/memorials.html",
+      "title": "Philip Olcott Stearns '40 memorial",
+      "author_creator": "Princeton Class of 1940",
+      "repository_publisher": "Princeton Alumni Weekly; Princeton University",
+      "publication_record_date": "2001-11-07",
+      "locator": "Memorial section for Philip Olcott Stearns '40",
+      "access_date": "2026-10-25",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "The memorial establishes Princeton student status and an explicit graduation-to-OSS sequence; Princeton is not classified as an employer."
+    },
+    {
+      "key": "usgs-stearns-water-bearing-b910",
+      "stable_url": "https://pubs.usgs.gov/wsp/0596/report.pdf",
+      "archival_identifier": "U.S. Geological Survey Water-Supply Paper 596-F",
+      "title": "Laboratory Tests on Physical Properties of Water-Bearing Materials",
+      "author_creator": "Norah Dowell Stearns",
+      "repository_publisher": "United States Geological Survey; U.S. Government Printing Office",
+      "publication_record_date": "1928",
+      "locator": "Title page and introduction describing a Geological Survey hydrologic laboratory",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "USGS Water-Supply Papers",
+      "rights_notes": "Official evidence of earlier USGS scientific work. It does not establish that USGS was the immediate pre-OSS affiliation."
+    },
+    {
+      "key": "loc-woman-geographers-b910",
+      "stable_url": "https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/ms005005/ms005005.pdf",
+      "title": "Society of Woman Geographers Records finding aid",
+      "author_creator": "Library of Congress Manuscript Division",
+      "repository_publisher": "Library of Congress",
+      "publication_record_date": "2023",
+      "locator": "Box I:30, Norah Dowell Stearns, 1942-1950",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Society of Woman Geographers Records, 1910-1987",
+      "rights_notes": "A collection-level identity and chronology lead; it does not identify employment or OSS duties."
+    },
+    {
+      "key": "columbia-steegmuller-papers-b910",
+      "stable_url": "https://findingaids.library.columbia.edu/pdf/cul-4079364.pdf",
+      "archival_identifier": "Francis Steegmuller papers, MS#1195, ID 4079364",
+      "title": "Francis Steegmuller papers finding aid",
+      "author_creator": "Columbia University Rare Book and Manuscript Library",
+      "repository_publisher": "Columbia University Libraries",
+      "publication_record_date": "Collection dates 1877-2012",
+      "locator": "Biographical note, page 3",
+      "access_date": "2026-10-25",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "The finding aid identifies his writing career and wartime military service but does not name a pre-OSS employer."
+    },
+    {
+      "key": "loc-steegmuller-nomination-b910",
+      "stable_url": "https://tile.loc.gov/storage-services/service/mss/mss11056dig/mss11056dig-022430/022430.pdf",
+      "title": "Francis Steegmuller nomination to the National Institute of Arts and Letters",
+      "author_creator": "William Maxwell",
+      "repository_publisher": "Library of Congress",
+      "publication_record_date": "1960s",
+      "locator": "PDF page 6, biographical statement and dated principal works",
+      "access_date": "2026-10-25",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "The dated book list establishes a prewar writing occupation but no named employer or practice arrangement."
+    },
+    {
+      "key": "lithub-steegmuller-oss-b910",
+      "stable_url": "https://lithub.com/shirley-hazzards-teenage-spy-career/",
+      "title": "Shirley Hazzard's Teenage Spy Career",
+      "author_creator": "Brigitta Olubas",
+      "repository_publisher": "Literary Hub",
+      "publication_record_date": "2016-11-07",
+      "locator": "Biographical context identifying Francis Steegmuller's wartime OSS service in occupied France",
+      "access_date": "2026-10-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Used as corroborative identity context, not as sole evidence for a prewar occupation or employer."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "us-army-b910",
+      "organization_id": "24facf23-e75a-54f2-a37a-0ef1509bc18a",
+      "canonical_name": "United States Army",
+      "historical_name": "U.S. Army",
+      "aliases": [
+        "Army of the United States"
+      ],
+      "organization_type": "military service",
+      "sector": "military",
+      "country": "United States",
+      "normalization_notes": "The source identifies Army service but no pre-OSS unit; the project does not invent one."
+    },
+    {
+      "key": "white-motor-b910",
+      "canonical_name": "White Motor Company",
+      "historical_name": "White Motor Car Company",
+      "aliases": [
+        "White Motor Car Co."
+      ],
+      "organization_type": "motor-vehicle manufacturer",
+      "sector": "business_and_industry",
+      "city": "Cleveland",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "active_dates": "1900-1980",
+      "normalization_notes": "The 1944 report's OCR reads 'White Mater Car Company'; the historically documented company name is preserved separately from that extraction artifact."
+    },
+    {
+      "key": "smith-college-b910",
+      "organization_id": "8c458c45-c94a-5e4a-b1a9-693a91d9cb0c",
+      "canonical_name": "Smith College",
+      "historical_name": "Smith College",
+      "aliases": [],
+      "organization_type": "college",
+      "sector": "academia_and_research",
+      "city": "Northampton",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "normalization_notes": "Published only as a qualified employer claim because the index spelling Stavriancos is not directly reconciled by the biographical source."
+    },
+    {
+      "key": "princeton-b910",
+      "organization_id": "ad6bb38c-850a-50e4-b092-d33163c93875",
+      "canonical_name": "Princeton University",
+      "historical_name": "Princeton University",
+      "aliases": [
+        "Princeton"
+      ],
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Princeton",
+      "state_or_region": "New Jersey",
+      "country": "United States",
+      "normalization_notes": "Student status is kept separate from employment."
+    },
+    {
+      "key": "usgs-b910",
+      "canonical_name": "United States Geological Survey",
+      "historical_name": "U.S. Geological Survey",
+      "aliases": [
+        "USGS",
+        "Geological Survey"
+      ],
+      "organization_type": "federal scientific agency",
+      "sector": "federal_government",
+      "country": "United States",
+      "normalization_notes": "Official prewar publications establish scientific work for the Survey but not an immediate OSS transfer."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "lewis-stavanja-army-b910",
+      "person_id": "9f532a3c-ad5e-5bd9-989e-17c458c7f159",
+      "organization_key": "us-army-b910",
+      "organization_name_as_found": "Army",
+      "role_title": "Second Lieutenant, Infantry",
+      "relationship_type": "military_assignment",
+      "start_date": "1940-10",
+      "end_date": "1943-10",
+      "date_precision": "The report says he entered the Army in October 1940, was commissioned in June 1942 and was assigned to OSS in October 1943; it names no pre-OSS unit.",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "Immediate military pathway is distinct from the earlier civilian employer."
+    },
+    {
+      "key": "lewis-stavanja-white-motor-b910",
+      "person_id": "9f532a3c-ad5e-5bd9-989e-17c458c7f159",
+      "organization_key": "white-motor-b910",
+      "organization_name_as_found": "White Mater Car Company",
+      "role_title": "rear axle assembly-line worker",
+      "occupation": "automobile assembly worker",
+      "relationship_type": "employment",
+      "end_date": "1940",
+      "date_precision": "The 1944 OSS report says he worked there in civilian life and entered the Army in October 1940; it does not explicitly call this his final civilian job.",
+      "city": "Cleveland",
+      "state_or_region": "Ohio",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "confirmed",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "A named civilian employer is verified, but the source does not explicitly prove that it was his last civilian employer before Army entry."
+    },
+    {
+      "key": "stavriancos-smith-b910",
+      "person_id": "a80b497b-3554-5791-952d-d45ccb1194a3",
+      "organization_key": "smith-college-b910",
+      "organization_name_as_found": "Smith College",
+      "role_title": "history faculty member",
+      "occupation": "historian and professor",
+      "relationship_type": "employment",
+      "start_date": "1939",
+      "end_date": "1944",
+      "date_precision": "A scholarly biography dates the Smith appointment to 1939 and says the government hired Stavrianos for the OSS Greek Desk during his Smith tenure.",
+      "city": "Northampton",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": true,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The unusual first name and initials align, but the index surname Stavriancos and biography surname Stavrianos are not silently merged."
+    },
+    {
+      "key": "john-stavrou-civil-engineer-b910",
+      "person_id": "9ad96232-d988-5165-9cb7-df87ccafdf5e",
+      "occupation": "civil engineer",
+      "relationship_type": "employment",
+      "end_date": "1945-10-19",
+      "date_precision": "The official Army entry record assigns historical occupation code 010 on 1945-10-19; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The code identifies an occupation, not a named employer or necessarily a pre-OSS role."
+    },
+    {
+      "key": "norah-stearns-usgs-b910",
+      "person_id": "48445b29-9b92-5ab0-a034-d0099ec4f918",
+      "organization_key": "usgs-b910",
+      "organization_name_as_found": "United States Geological Survey",
+      "role_title": "hydrologic researcher",
+      "occupation": "hydrogeologist",
+      "relationship_type": "employment",
+      "end_date": "1937",
+      "date_precision": "Official Geological Survey publications document her scientific work in the 1920s and 1930s; no source reviewed establishes the immediate pre-OSS sequence.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The expanded middle name and rare scientific career align with the index, but the personnel file remains necessary for a direct identity and transfer bridge."
+    },
+    {
+      "key": "philip-stearns-princeton-b910",
+      "person_id": "41f3ef20-1155-55bd-885e-8c905a59b321",
+      "organization_key": "princeton-b910",
+      "organization_name_as_found": "Princeton",
+      "role_title": "undergraduate student",
+      "occupation": "student",
+      "relationship_type": "student",
+      "end_date": "1940",
+      "date_precision": "The Princeton memorial says Philip Olcott Stearns graduated in 1940 and then volunteered for OSS duty behind enemy lines.",
+      "city": "Princeton",
+      "state_or_region": "New Jersey",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Princeton is an immediate institutional affiliation, not an employer."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-lewis-stavanja-b910",
+      "person_id": "9f532a3c-ad5e-5bd9-989e-17c458c7f159",
+      "claim_type": "identity",
+      "claim_text": "The indexed Lewis C. Stavanja is confirmed as the second lieutenant interviewed in the 1944 OSS Board of Officers report.",
+      "evidence_paraphrase": "The rare exact name and protected officer number agree, while the report supplies compatible Army and OSS dates.",
+      "identity_match_assessment": "Confirmed by exact protected-identifier agreement and the uncommon full name; the identifier is withheld publicly.",
+      "temporal_assessment": "The report gives Army entry, commission and OSS-assignment dates and separately describes his civilian work.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "confirmed",
+      "publication_status": "published",
+      "match_notes": "The index rank field is blank; commissioned status comes from the direct 1944 report rather than number-format inference.",
+      "sources": [
+        {
+          "source_key": "nara-index-b910",
+          "locator_override": "PDF page 445 row 24; protected officer number withheld"
+        },
+        {
+          "source_key": "hoover-oss-bari-board-b910",
+          "locator_override": "PDF page 49, section XXVII; protected officer number withheld"
+        }
+      ]
+    },
+    {
+      "key": "immediate-lewis-stavanja-army-b910",
+      "person_id": "9f532a3c-ad5e-5bd9-989e-17c458c7f159",
+      "affiliation_key": "lewis-stavanja-army-b910",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Lewis C. Stavanja's immediate pre-OSS pathway was active service in the U.S. Army; the accessible report does not identify his unit.",
+      "evidence_excerpt": "Entered the Army October 1940 ... Assigned to OSS October 1943",
+      "evidence_paraphrase": "The contemporary report explicitly sequences Army entry and commissioning before his October 1943 OSS assignment.",
+      "identity_match_assessment": "Confirmed by exact protected-identifier and full-name agreement.",
+      "temporal_assessment": "Explicit immediate military pathway, with no pre-OSS unit named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Kept separate from his civilian employer and from his later OSS Air Section duties.",
+      "sources": [
+        {
+          "source_key": "hoover-oss-bari-board-b910",
+          "locator_override": "PDF page 49, section XXVII"
+        }
+      ]
+    },
+    {
+      "key": "employer-lewis-stavanja-white-motor-b910",
+      "person_id": "9f532a3c-ad5e-5bd9-989e-17c458c7f159",
+      "affiliation_key": "lewis-stavanja-white-motor-b910",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Before Army and OSS service, Lewis C. Stavanja worked on the rear-axle assembly line at the White Motor Car Company.",
+      "evidence_excerpt": "worked on the rear axle assembly line at White Mater Car Company",
+      "evidence_paraphrase": "The 1944 OSS interview identifies a named civilian employer and job; the OCR renders Motor as Mater.",
+      "identity_match_assessment": "Confirmed by the protected-identifier and exact-name bridge to the indexed row.",
+      "temporal_assessment": "Strongly prewar and before Army entry, but the report does not explicitly call it his last civilian job.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Published as documented prewar employment, not silently promoted to the last-civilian-employer field.",
+      "sources": [
+        {
+          "source_key": "hoover-oss-bari-board-b910",
+          "locator_override": "PDF page 49, section XXVII"
+        }
+      ]
+    },
+    {
+      "key": "identity-joseph-staves-b910",
+      "person_id": "e7408420-ea7a-526f-9a15-b1360f3852b8",
+      "claim_type": "identity",
+      "claim_text": "The indexed Joseph W. Staves is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and compatible name connect the index row to the Army record, which adds Jr.",
+      "identity_match_assessment": "High confidence from the nonshared protected-identifier bridge and compatible full name.",
+      "temporal_assessment": "The Army record supports identity and a dated entry; its occupation code is not published because the historical meaning is unresolved.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed and no employer or occupation is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-index-b910",
+          "locator_override": "PDF page 445 row 25; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b910",
+          "locator_override": "Accepted reviewed identity bridge; Army name STAVES JOSEPH W JR; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-stavriancos-stavrianos-b910",
+      "person_id": "a80b497b-3554-5791-952d-d45ccb1194a3",
+      "claim_type": "identity",
+      "claim_text": "The indexed Lefterios S. Stavriancos is a probable match to historian Leften S. Stavrianos, the Smith College professor hired for the OSS Greek Desk.",
+      "evidence_paraphrase": "The highly distinctive first name, initials and near-identical surname align with a scholarly biography that explicitly names Smith College and OSS service.",
+      "identity_match_assessment": "Probable; the source does not reproduce the index spelling or supply a protected identifier, so the variant remains qualified.",
+      "temporal_assessment": "The biography explicitly places the OSS hire during his Smith College tenure.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The indexed spelling remains primary and the expanded biography name is published as a documented candidate variant.",
+      "sources": [
+        {
+          "source_key": "nara-index-b910",
+          "locator_override": "PDF page 445 row 27; indexed spelling Stavriancos"
+        },
+        {
+          "source_key": "southeast-europe-stavrianos-b910",
+          "locator_override": "Biographical chronology for Leften S. Stavrianos"
+        }
+      ]
+    },
+    {
+      "key": "employer-stavriancos-smith-b910",
+      "person_id": "a80b497b-3554-5791-952d-d45ccb1194a3",
+      "affiliation_key": "stavriancos-smith-b910",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "If the qualified identity match is correct, Smith College was Stavrianos's immediate pre-OSS employer.",
+      "evidence_excerpt": "During his tenure at Smith College, he was hired as an analyst",
+      "evidence_paraphrase": "A scholarly biography dates the Smith appointment to 1939 and explicitly says the government hired him for the OSS Greek Desk during that tenure.",
+      "identity_match_assessment": "Probable because the index and biography differ in both given-name form and surname spelling.",
+      "temporal_assessment": "Explicitly immediate in the biography, conditional on the qualified identity match.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Excluded from default employer analytics because only confirmed/high claims qualify.",
+      "sources": [
+        {
+          "source_key": "southeast-europe-stavrianos-b910",
+          "locator_override": "Smith College and OSS Greek Desk chronology"
+        },
+        {
+          "source_key": "ahr-stavrianos-smith-b910",
+          "support_type": "context_only",
+          "locator_override": "1942 author affiliation: Smith College"
+        }
+      ]
+    },
+    {
+      "key": "identity-john-stavrou-b910",
+      "person_id": "9ad96232-d988-5165-9cb7-df87ccafdf5e",
+      "claim_type": "identity",
+      "claim_text": "The indexed John M. Stavrou is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier and exact full name connect the index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact protected-identifier and name agreement.",
+      "temporal_assessment": "The 1945 Army entry record supports identity and occupation but does not establish when OSS service began.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed.",
+      "sources": [
+        {
+          "source_key": "nara-index-b910",
+          "locator_override": "PDF page 445 row 29; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b910",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-john-stavrou-b910",
+      "person_id": "9ad96232-d988-5165-9cb7-df87ccafdf5e",
+      "affiliation_key": "john-stavrou-civil-engineer-b910",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on October 19, 1945, John M. Stavrou was recorded in the historical civilian-occupation category civil engineer; no employer is identified.",
+      "evidence_paraphrase": "The Army record carries code 010, which the visually checked NARA code list maps to civil engineer.",
+      "identity_match_assessment": "High confidence from exact protected-identifier and name agreement.",
+      "temporal_assessment": "Dated at Army entry, but its relationship to OSS service is uncertain and no employer is named.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Excluded from employer analytics and not described as immediate pre-OSS work.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b910",
+          "locator_override": "Army-entry date 1945-10-19; occupation code 010; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b910",
+          "support_type": "context_only",
+          "locator_override": "Civilian-occupation field definition"
+        },
+        {
+          "source_key": "army-codes-b910",
+          "locator_override": "PDF physical page 239; civil-engineer category"
+        }
+      ]
+    },
+    {
+      "key": "identity-norah-dowell-stearns-b910",
+      "person_id": "48445b29-9b92-5ab0-a034-d0099ec4f918",
+      "claim_type": "identity",
+      "claim_text": "The indexed Norah D. Stearns is a probable match to hydrogeologist Norah Dowell Stearns.",
+      "evidence_paraphrase": "The uncommon exact first name, middle initial and surname align with official USGS authorship and a Library of Congress file spanning 1942-1950.",
+      "identity_match_assessment": "Probable; no reviewed source outside the index directly states that the hydrogeologist served in OSS.",
+      "temporal_assessment": "Official publications establish earlier prewar work; the immediate pre-OSS sequence remains unresolved.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The full middle name is added only as a qualified variant pending personnel-file confirmation.",
+      "sources": [
+        {
+          "source_key": "nara-index-b910",
+          "locator_override": "PDF page 445 row 34; indexed as Norah D. Stearns"
+        },
+        {
+          "source_key": "usgs-stearns-water-bearing-b910",
+          "locator_override": "Authorship: Norah Dowell Stearns"
+        },
+        {
+          "source_key": "loc-woman-geographers-b910",
+          "support_type": "context_only",
+          "locator_override": "Box I:30, Norah Dowell Stearns, 1942-1950"
+        }
+      ]
+    },
+    {
+      "key": "affiliation-norah-stearns-usgs-b910",
+      "person_id": "48445b29-9b92-5ab0-a034-d0099ec4f918",
+      "affiliation_key": "norah-stearns-usgs-b910",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "If the qualified identity match is correct, Norah D. Stearns did documented prewar hydrogeologic work for the U.S. Geological Survey.",
+      "evidence_excerpt": "By Norah Dowell Stearns",
+      "evidence_paraphrase": "Official Geological Survey publications credit her with laboratory and groundwater research in the 1920s and 1930s.",
+      "identity_match_assessment": "Probable from the uncommon name pattern, but not directly bridged to OSS service outside the index.",
+      "temporal_assessment": "Documented prewar work; not shown to be the immediate pre-OSS affiliation or last civilian employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Excluded from default employer analytics and visibly qualified.",
+      "sources": [
+        {
+          "source_key": "usgs-stearns-water-bearing-b910",
+          "locator_override": "Title page and laboratory-history introduction"
+        }
+      ]
+    },
+    {
+      "key": "identity-philip-olcott-stearns-b910",
+      "person_id": "41f3ef20-1155-55bd-885e-8c905a59b321",
+      "claim_type": "identity",
+      "claim_text": "The indexed Major Philip O. Stearns is a high-confidence match to Princeton alumnus Philip Olcott Stearns '40, who volunteered for OSS duty.",
+      "evidence_paraphrase": "The institutional memorial supplies the exact uncommon first, middle and surname and an explicit OSS service statement.",
+      "identity_match_assessment": "High confidence from the exact expanded name and person-specific OSS chronology; the memorial does not state his rank.",
+      "temporal_assessment": "The memorial explicitly sequences Princeton graduation before OSS volunteering.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The printed Major rank remains sourced to the index rather than the memorial.",
+      "sources": [
+        {
+          "source_key": "nara-index-b910",
+          "locator_override": "PDF page 445 row 37; Major; protected identifier withheld"
+        },
+        {
+          "source_key": "princeton-stearns-memorial-b910",
+          "locator_override": "Philip Olcott Stearns '40 memorial"
+        }
+      ]
+    },
+    {
+      "key": "student-philip-stearns-princeton-b910",
+      "person_id": "41f3ef20-1155-55bd-885e-8c905a59b321",
+      "affiliation_key": "philip-stearns-princeton-b910",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Philip O. Stearns's immediate pre-OSS institutional status was Princeton University student; Princeton is not classified as his employer.",
+      "evidence_excerpt": "After graduating with honors ... Phil volunteered for duty ... in the OSS",
+      "evidence_paraphrase": "Princeton's memorial explicitly places his graduation before his OSS volunteering.",
+      "identity_match_assessment": "High confidence from the exact expanded name and person-specific OSS statement.",
+      "temporal_assessment": "Explicit immediate student-to-OSS sequence.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Included in affiliation analytics but excluded from employer analytics.",
+      "sources": [
+        {
+          "source_key": "princeton-stearns-memorial-b910",
+          "locator_override": "Philip Olcott Stearns '40 memorial"
+        }
+      ]
+    },
+    {
+      "key": "candidate-ernest-h-steed-army-b910",
+      "person_id": "3fb4646c-4575-5a26-b08d-746cbf63709e",
+      "claim_type": "identity",
+      "claim_text": "An official Army record for Ernest H. Steed cannot be assigned because its protected identifier also appears on a separate Ernest H. Streed index row.",
+      "evidence_paraphrase": "The candidate identifier is shared by two preserved index entities with different surnames, so neither receives the Army occupation or identity claim.",
+      "identity_match_assessment": "Conflicting; exact-name agreement is outweighed by the duplicate protected identifier across two index records.",
+      "temporal_assessment": "The Army row is not usable for this person's pre-OSS chronology until both files are reviewed.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "low",
+      "publication_status": "needs_review",
+      "match_notes": "Private candidate only; no protected identifier or occupation is published.",
+      "sources": [
+        {
+          "source_key": "nara-index-b910",
+          "locator_override": "PDF page 445 row 41 and page 452 row 26; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b910",
+          "locator_override": "Rejected shared-identifier candidate; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-francis-steegmuller-b910",
+      "person_id": "e869ed0f-aeff-58c7-a423-85fc227136bc",
+      "claim_type": "identity",
+      "claim_text": "The indexed Francis J. Steegmuller is a high-confidence match to writer Francis Steegmuller, whose wartime OSS service is independently described.",
+      "evidence_paraphrase": "The highly distinctive exact name, institutional biographies and a reputable account of his OSS service in occupied France align.",
+      "identity_match_assessment": "High confidence from the rare exact name plus person-specific OSS service; no protected identifier is available.",
+      "temporal_assessment": "Official and institutional sources establish prewar writing and later military service but not an immediate employer.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No named employer is inferred from his writing career.",
+      "sources": [
+        {
+          "source_key": "nara-index-b910",
+          "locator_override": "PDF page 445 row 43"
+        },
+        {
+          "source_key": "columbia-steegmuller-papers-b910",
+          "locator_override": "Biographical note, page 3"
+        },
+        {
+          "source_key": "lithub-steegmuller-oss-b910",
+          "support_type": "context_only",
+          "locator_override": "Wartime OSS service in occupied France"
+        }
+      ]
+    },
+    {
+      "key": "occupation-francis-steegmuller-b910",
+      "person_id": "e869ed0f-aeff-58c7-a423-85fc227136bc",
+      "claim_type": "occupation",
+      "claim_text": "Francis J. Steegmuller was a documented prewar writer, novelist and biographer; the accessible sources do not identify a named employer.",
+      "evidence_excerpt": "biographer, novelist of New York",
+      "evidence_paraphrase": "A Library of Congress record lists books published in 1928, 1929, 1930, 1940 and 1943; Columbia describes his writing career.",
+      "identity_match_assessment": "High confidence from the rare exact name and independently documented OSS service.",
+      "temporal_assessment": "Definitely prewar, but not shown to be the immediately prior role or a salaried employment relationship.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Modeled as occupation evidence only; no self-employment or publisher-employer relationship is invented.",
+      "sources": [
+        {
+          "source_key": "loc-steegmuller-nomination-b910",
+          "locator_override": "PDF page 6, biographical statement and dated works"
+        },
+        {
+          "source_key": "columbia-steegmuller-papers-b910",
+          "support_type": "context_only",
+          "locator_override": "Biographical note, page 3"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "bec8b5a5-95fb-506a-8be4-b2a3dcbc8736",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Aristides Stavrakis, box and archive location, but staged official-context, CIA, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. A federal aviation publication names Henry Aristides Stavrakis, but it supplies no OSS, box, rank or identifier bridge to the no-initial index row.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "afea3b6d-4ccc-5a4a-8a1f-f14efe01912e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Theharis S Stavrides, box and archive location, but staged official-context, CIA, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Exact-name and spelling-variant searches produced no source that connects this row to an institution, occupation or employer.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "81a909c9-4856-5df4-bad5-60b916eda144",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Wyman Steadman, box and archive location, but staged official-context, CIA, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Exact-name OSS, occupation, obituary, directory and institutional searches produced no defensible person-specific result.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "8563efb4-48c2-5e28-8661-3bf619d35000",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Charles B Stearns, box and archive location, but staged official-context, CIA, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. The officer-format number is not treated as proof of rank, and same-name results lack an OSS assignment or protected-identifier bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "352416a9-81bf-555c-99f4-48d063042058",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Constance D Stearns, box and archive location, but staged official-context, CIA, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Exact-name searches produced modern namesakes and people-search pages but no defensible historical identity or pre-OSS affiliation.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "fad0e215-f4c5-5b07-8abe-18d84aa91f66",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Edward B Stearns, box and archive location, but staged official-context, CIA, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Burial and directory results for namesakes supply no OSS, box, rank or protected-identifier bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "d21ce953-4e05-5b6b-954a-7dcbbb211c73",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Parks H Stearns, box and archive location, but staged official-context, CIA, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Exact-name OSS, occupation, employer, obituary and archival searches produced no defensible person-specific result.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "07d6f44a-733a-5427-bc36-856482abea1a",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Paul E Stearns, box and archive location, but staged official-context, CIA, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Common-name results and postwar records lack corroborating OSS or protected-identifier evidence.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2442260d-c2c5-59a4-b829-3deb110ab7d4",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Rose H Stearns, box and archive location, but staged official-context, CIA, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. People-search and obituary results concern modern or otherwise unbridged namesakes and are not assigned.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3d6244c2-cdcb-531f-a2bd-dcaf95a8573d",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Homer A Stebbins, box and archive location, but staged official-context, CIA, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Exact-name searches produced no result capable of distinguishing this row from unrelated Stebbins namesakes.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "37d2c848-d9ef-59b6-a598-159b0bf36e4e",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Michael L Steck, box and archive location, but staged official-context, CIA, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Searches predominantly returned a nineteenth-century Indian agent and other namesakes without an OSS or identifier bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0ceeec2b-94ad-5c92-8702-db7af3f769dd",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies James R Steed, box and archive location, but staged official-context, CIA, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Common-name military, obituary and genealogy results lack the indexed middle initial, protected identifier or a person-specific OSS assignment.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "76fc5905-59a0-595d-bea9-495e3dfb0684",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Charles C Steele, box and archive location, but staged official-context, CIA, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Exact-name OSS, employer, obituary, institutional, newspaper and archival searches produced no defensible identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "45c8a2bb-a4c9-5dfc-8933-3747bba86ae2",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Daniel H Steele, box and archive location, but staged official-context, CIA, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. Exact-name OSS, employer, obituary, institutional, newspaper and archival searches produced no defensible identity bridge.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "6cae361e-3498-5bae-84d8-170ef829e014",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Francis R Steele, box and archive location, but staged official-context, CIA, exact-name, occupation, employer, obituary, institutional, newspaper, directory, Library of Congress and archival searches found no defensible identity bridge. A North Africa Mission official of the same name appears in postwar publications, but no OSS, chronology or identifier evidence connects him to this row.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "9f532a3c-ad5e-5bd9-989e-17c458c7f159",
+      "identity_status": "confirmed",
+      "identity_evidence": "The rare exact full name and protected officer number agree between the visually verified index row and a direct 1944 OSS Board of Officers interview.",
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "verified_employer_found",
+      "next_action": "Review Box 740 to determine whether White Motor Car Company was his final civilian employer and to identify the Army unit immediately preceding OSS assignment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "medium"
+    },
+    {
+      "person_id": "e7408420-ea7a-526f-9a15-b1360f3852b8",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and compatible full name connect the index row to the reviewed Army record; the Jr. suffix is retained as a variant. Occupation code 590 remains unpublished because its meaning was not securely established.",
+      "name_variants": [
+        "Joseph W Staves Jr"
+      ],
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 740 for the immediate pre-OSS affiliation, last civilian employer and an authoritative interpretation of the Army occupation code.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a80b497b-3554-5791-952d-d45ccb1194a3",
+      "identity_status": "probable",
+      "identity_evidence": "The highly distinctive first name, initials and near-identical surname align with historian Leften S. Stavrianos, whom a scholarly biography places at Smith College and the OSS Greek Desk. The spelling difference prevents an unqualified merge.",
+      "name_variants": [
+        "Leften S Stavrianos",
+        "Leften Stavros Stavrianos"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 740 for a direct spelling or biographical bridge before upgrading the qualified Smith College employer claim.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "9ad96232-d988-5165-9cb7-df87ccafdf5e",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and exact full name connect the index row to the reviewed official Army record. The civil-engineer category is dated at Army entry and names no employer.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 740 to establish whether civil engineering preceded OSS service and to identify any employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "48445b29-9b92-5ab0-a034-d0099ec4f918",
+      "identity_status": "probable",
+      "identity_evidence": "The uncommon exact first name, middle initial and surname align with official publications by hydrogeologist Norah Dowell Stearns and a Library of Congress file covering 1942-1950, but no independent OSS bridge was found.",
+      "name_variants": [
+        "Norah Dowell Stearns"
+      ],
+      "personnel_category": "civilian_professional_or_administrative_grade",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 741 to confirm the expanded middle name and determine the organization immediately preceding OSS service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "41f3ef20-1155-55bd-885e-8c905a59b321",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exact uncommon expanded name Philip Olcott Stearns and Princeton's person-specific OSS chronology support a high-confidence match to the indexed Major Philip O. Stearns.",
+      "name_variants": [
+        "Philip Olcott Stearns"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 741 for the military pathway after Princeton and any civilian employment before OSS assignment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "3fb4646c-4575-5a26-b08d-746cbf63709e",
+      "identity_status": "conflicting",
+      "identity_evidence": "The official Army candidate cannot be assigned because its protected identifier also appears on a separate Ernest H. Streed index row. Both source rows and entities remain separate.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "shared-identifier:ernest-h-steed-streed",
+      "research_status": "conflicting_sources",
+      "next_action": "Review the Box 741 Ernest H. Steed file together with the page 452 Ernest H. Streed file before accepting either Army identity or occupation.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "e869ed0f-aeff-58c7-a423-85fc227136bc",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare exact name, institutional biographies and a reputable person-specific account of wartime OSS service in occupied France support a high-confidence identity match.",
+      "personnel_category": "unknown_or_indeterminate",
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 741 to establish his immediate pre-OSS status and whether his documented writing occupation involved a named employer or self-employment.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page445-row24-lewis-c-stavanja-b910",
+      "person_id": "9f532a3c-ad5e-5bd9-989e-17c458c7f159",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Lewis C Stavanja; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 740; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_910",
+      "started_at": "2026-10-25T23:45:00Z",
+      "completed_at": "2026-10-26T02:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically irrelevant records and postwar-only employment were not assigned.",
+      "research_notes": "Reviewed evidence established a defensible identity, occupation, employer or institutional-affiliation result with the stated qualification. The LoC and CIA adapters failed closed on transport errors and those attempts remain errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b910-v1"
+    },
+    {
+      "key": "page445-row25-joseph-w-staves-b910",
+      "person_id": "e7408420-ea7a-526f-9a15-b1360f3852b8",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Joseph W Staves; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 740; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_910",
+      "started_at": "2026-10-25T23:45:00Z",
+      "completed_at": "2026-10-26T02:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically irrelevant records and postwar-only employment were not assigned.",
+      "research_notes": "Reviewed evidence established a defensible identity, occupation, employer or institutional-affiliation result with the stated qualification. The LoC and CIA adapters failed closed on transport errors and those attempts remain errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b910-v1"
+    },
+    {
+      "key": "page445-row26-aristides-stavrakis-b910",
+      "person_id": "bec8b5a5-95fb-506a-8be4-b2a3dcbc8736",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Aristides Stavrakis; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 740; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_910",
+      "started_at": "2026-10-25T23:45:00Z",
+      "completed_at": "2026-10-26T02:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "A federal aviation publication names Henry Aristides Stavrakis, but it supplies no OSS, box, rank or identifier bridge to the no-initial index row.",
+      "research_notes": "A federal aviation publication names Henry Aristides Stavrakis, but it supplies no OSS, box, rank or identifier bridge to the no-initial index row. The LoC and CIA adapters failed closed on transport errors and those attempts remain errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b910-v1"
+    },
+    {
+      "key": "page445-row27-lefterios-s-stavriancos-b910",
+      "person_id": "a80b497b-3554-5791-952d-d45ccb1194a3",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Lefterios S Stavriancos; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 740; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_910",
+      "started_at": "2026-10-25T23:45:00Z",
+      "completed_at": "2026-10-26T02:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically irrelevant records and postwar-only employment were not assigned.",
+      "research_notes": "Reviewed evidence established a defensible identity, occupation, employer or institutional-affiliation result with the stated qualification. The LoC and CIA adapters failed closed on transport errors and those attempts remain errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b910-v1"
+    },
+    {
+      "key": "page445-row28-theharis-s-stavrides-b910",
+      "person_id": "afea3b6d-4ccc-5a4a-8a1f-f14efe01912e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Theharis S Stavrides; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 740; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_910",
+      "started_at": "2026-10-25T23:45:00Z",
+      "completed_at": "2026-10-26T02:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name and spelling-variant searches produced no source that connects this row to an institution, occupation or employer.",
+      "research_notes": "Exact-name and spelling-variant searches produced no source that connects this row to an institution, occupation or employer. The LoC and CIA adapters failed closed on transport errors and those attempts remain errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b910-v1"
+    },
+    {
+      "key": "page445-row29-john-m-stavrou-b910",
+      "person_id": "9ad96232-d988-5165-9cb7-df87ccafdf5e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John M Stavrou; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 740; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_910",
+      "started_at": "2026-10-25T23:45:00Z",
+      "completed_at": "2026-10-26T02:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically irrelevant records and postwar-only employment were not assigned.",
+      "research_notes": "Reviewed evidence established a defensible identity, occupation, employer or institutional-affiliation result with the stated qualification. The LoC and CIA adapters failed closed on transport errors and those attempts remain errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b910-v1"
+    },
+    {
+      "key": "page445-row30-wyman-steadman-b910",
+      "person_id": "81a909c9-4856-5df4-bad5-60b916eda144",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Wyman Steadman; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 740; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_910",
+      "started_at": "2026-10-25T23:45:00Z",
+      "completed_at": "2026-10-26T02:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name OSS, occupation, obituary, directory and institutional searches produced no defensible person-specific result.",
+      "research_notes": "Exact-name OSS, occupation, obituary, directory and institutional searches produced no defensible person-specific result. The LoC and CIA adapters failed closed on transport errors and those attempts remain errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b910-v1"
+    },
+    {
+      "key": "page445-row31-charles-b-stearns-b910",
+      "person_id": "8563efb4-48c2-5e28-8661-3bf619d35000",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles B Stearns; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 740; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_910",
+      "started_at": "2026-10-25T23:45:00Z",
+      "completed_at": "2026-10-26T02:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The officer-format number is not treated as proof of rank, and same-name results lack an OSS assignment or protected-identifier bridge.",
+      "research_notes": "The officer-format number is not treated as proof of rank, and same-name results lack an OSS assignment or protected-identifier bridge. The LoC and CIA adapters failed closed on transport errors and those attempts remain errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b910-v1"
+    },
+    {
+      "key": "page445-row32-constance-d-stearns-b910",
+      "person_id": "352416a9-81bf-555c-99f4-48d063042058",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Constance D Stearns; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 741; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_910",
+      "started_at": "2026-10-25T23:45:00Z",
+      "completed_at": "2026-10-26T02:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name searches produced modern namesakes and people-search pages but no defensible historical identity or pre-OSS affiliation.",
+      "research_notes": "Exact-name searches produced modern namesakes and people-search pages but no defensible historical identity or pre-OSS affiliation. The LoC and CIA adapters failed closed on transport errors and those attempts remain errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b910-v1"
+    },
+    {
+      "key": "page445-row33-edward-b-stearns-b910",
+      "person_id": "fad0e215-f4c5-5b07-8abe-18d84aa91f66",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edward B Stearns; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 741; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_910",
+      "started_at": "2026-10-25T23:45:00Z",
+      "completed_at": "2026-10-26T02:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Burial and directory results for namesakes supply no OSS, box, rank or protected-identifier bridge.",
+      "research_notes": "Burial and directory results for namesakes supply no OSS, box, rank or protected-identifier bridge. The LoC and CIA adapters failed closed on transport errors and those attempts remain errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b910-v1"
+    },
+    {
+      "key": "page445-row34-norah-d-stearns-b910",
+      "person_id": "48445b29-9b92-5ab0-a034-d0099ec4f918",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Norah D Stearns; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 741; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_910",
+      "started_at": "2026-10-25T23:45:00Z",
+      "completed_at": "2026-10-26T02:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically irrelevant records and postwar-only employment were not assigned.",
+      "research_notes": "Reviewed evidence established a defensible identity, occupation, employer or institutional-affiliation result with the stated qualification. The LoC and CIA adapters failed closed on transport errors and those attempts remain errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b910-v1"
+    },
+    {
+      "key": "page445-row35-parks-h-stearns-b910",
+      "person_id": "d21ce953-4e05-5b6b-954a-7dcbbb211c73",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Parks H Stearns; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 741; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_910",
+      "started_at": "2026-10-25T23:45:00Z",
+      "completed_at": "2026-10-26T02:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name OSS, occupation, employer, obituary and archival searches produced no defensible person-specific result.",
+      "research_notes": "Exact-name OSS, occupation, employer, obituary and archival searches produced no defensible person-specific result. The LoC and CIA adapters failed closed on transport errors and those attempts remain errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b910-v1"
+    },
+    {
+      "key": "page445-row36-paul-e-stearns-b910",
+      "person_id": "07d6f44a-733a-5427-bc36-856482abea1a",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Paul E Stearns; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 741; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_910",
+      "started_at": "2026-10-25T23:45:00Z",
+      "completed_at": "2026-10-26T02:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Common-name results and postwar records lack corroborating OSS or protected-identifier evidence.",
+      "research_notes": "Common-name results and postwar records lack corroborating OSS or protected-identifier evidence. The LoC and CIA adapters failed closed on transport errors and those attempts remain errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b910-v1"
+    },
+    {
+      "key": "page445-row37-philip-o-stearns-b910",
+      "person_id": "41f3ef20-1155-55bd-885e-8c905a59b321",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Philip O Stearns; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 741; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_910",
+      "started_at": "2026-10-25T23:45:00Z",
+      "completed_at": "2026-10-26T02:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically irrelevant records and postwar-only employment were not assigned.",
+      "research_notes": "Reviewed evidence established a defensible identity, occupation, employer or institutional-affiliation result with the stated qualification. The LoC and CIA adapters failed closed on transport errors and those attempts remain errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b910-v1"
+    },
+    {
+      "key": "page445-row38-rose-h-stearns-b910",
+      "person_id": "2442260d-c2c5-59a4-b829-3deb110ab7d4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Rose H Stearns; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 741; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_910",
+      "started_at": "2026-10-25T23:45:00Z",
+      "completed_at": "2026-10-26T02:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "People-search and obituary results concern modern or otherwise unbridged namesakes and are not assigned.",
+      "research_notes": "People-search and obituary results concern modern or otherwise unbridged namesakes and are not assigned. The LoC and CIA adapters failed closed on transport errors and those attempts remain errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b910-v1"
+    },
+    {
+      "key": "page445-row39-homer-a-stebbins-b910",
+      "person_id": "3d6244c2-cdcb-531f-a2bd-dcaf95a8573d",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Homer A Stebbins; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 741; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_910",
+      "started_at": "2026-10-25T23:45:00Z",
+      "completed_at": "2026-10-26T02:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name searches produced no result capable of distinguishing this row from unrelated Stebbins namesakes.",
+      "research_notes": "Exact-name searches produced no result capable of distinguishing this row from unrelated Stebbins namesakes. The LoC and CIA adapters failed closed on transport errors and those attempts remain errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b910-v1"
+    },
+    {
+      "key": "page445-row40-michael-l-steck-b910",
+      "person_id": "37d2c848-d9ef-59b6-a598-159b0bf36e4e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Michael L Steck; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 741; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_910",
+      "started_at": "2026-10-25T23:45:00Z",
+      "completed_at": "2026-10-26T02:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Searches predominantly returned a nineteenth-century Indian agent and other namesakes without an OSS or identifier bridge.",
+      "research_notes": "Searches predominantly returned a nineteenth-century Indian agent and other namesakes without an OSS or identifier bridge. The LoC and CIA adapters failed closed on transport errors and those attempts remain errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b910-v1"
+    },
+    {
+      "key": "page445-row41-ernest-h-steed-b910",
+      "person_id": "3fb4646c-4575-5a26-b08d-746cbf63709e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Ernest H Steed; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 741; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_910",
+      "started_at": "2026-10-25T23:45:00Z",
+      "completed_at": "2026-10-26T02:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 8,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The official Army candidate was rejected because its protected identifier is shared by a separate Ernest H. Streed index entity.",
+      "research_notes": "The official Army candidate was rejected because its protected identifier is shared by a separate Ernest H. Streed index entity. The LoC and CIA adapters failed closed on transport errors and those attempts remain errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b910-v1"
+    },
+    {
+      "key": "page445-row42-james-r-steed-b910",
+      "person_id": "0ceeec2b-94ad-5c92-8702-db7af3f769dd",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "James R Steed; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 741; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_910",
+      "started_at": "2026-10-25T23:45:00Z",
+      "completed_at": "2026-10-26T02:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Common-name military, obituary and genealogy results lack the indexed middle initial, protected identifier or a person-specific OSS assignment.",
+      "research_notes": "Common-name military, obituary and genealogy results lack the indexed middle initial, protected identifier or a person-specific OSS assignment. The LoC and CIA adapters failed closed on transport errors and those attempts remain errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b910-v1"
+    },
+    {
+      "key": "page445-row43-francis-j-steegmuller-b910",
+      "person_id": "e869ed0f-aeff-58c7-a423-85fc227136bc",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Francis J Steegmuller; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 741; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_910",
+      "started_at": "2026-10-25T23:45:00Z",
+      "completed_at": "2026-10-26T02:15:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 12,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, discovery-only results, chronologically irrelevant records and postwar-only employment were not assigned.",
+      "research_notes": "Reviewed evidence established a defensible identity, occupation, employer or institutional-affiliation result with the stated qualification. The LoC and CIA adapters failed closed on transport errors and those attempts remain errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b910-v1"
+    },
+    {
+      "key": "page445-row44-charles-c-steele-b910",
+      "person_id": "76fc5905-59a0-595d-bea9-495e3dfb0684",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Charles C Steele; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 741; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_910",
+      "started_at": "2026-10-25T23:45:00Z",
+      "completed_at": "2026-10-26T02:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name OSS, employer, obituary, institutional, newspaper and archival searches produced no defensible identity bridge.",
+      "research_notes": "Exact-name OSS, employer, obituary, institutional, newspaper and archival searches produced no defensible identity bridge. The LoC and CIA adapters failed closed on transport errors and those attempts remain errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b910-v1"
+    },
+    {
+      "key": "page445-row45-daniel-h-steele-b910",
+      "person_id": "45c8a2bb-a4c9-5dfc-8933-3747bba86ae2",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Daniel H Steele; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 741; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_910",
+      "started_at": "2026-10-25T23:45:00Z",
+      "completed_at": "2026-10-26T02:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name OSS, employer, obituary, institutional, newspaper and archival searches produced no defensible identity bridge.",
+      "research_notes": "Exact-name OSS, employer, obituary, institutional, newspaper and archival searches produced no defensible identity bridge. The LoC and CIA adapters failed closed on transport errors and those attempts remain errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b910-v1"
+    },
+    {
+      "key": "page445-row46-francis-r-steele-b910",
+      "person_id": "6cae361e-3498-5bae-84d8-170ef829e014",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Francis R Steele; NARA/index and public Catalog context; CIA Reading Room exact-name check; OSS and spelling variants; employer and occupation; obituary, institutional, newspaper, directory, Library of Congress and archival searches; Box 741; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_910",
+      "started_at": "2026-10-25T23:45:00Z",
+      "completed_at": "2026-10-26T02:15:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 6,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "A North Africa Mission official of the same name appears in postwar publications, but no OSS, chronology or identifier evidence connects him to this row.",
+      "research_notes": "A North Africa Mission official of the same name appears in postwar publications, but no OSS, chronology or identifier evidence connects him to this row. The LoC and CIA adapters failed closed on transport errors and those attempts remain errors rather than negative results; equivalent public-source checks were completed manually. Search-result snippets were discovery aids only, no access control was bypassed, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed personnel file for corroborating identifiers and the last documented pre-OSS affiliation.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b910-v1"
+    }
+  ]
+}

@@ -1,5 +1,45 @@
 # Research status
 
+Batch 910 completed PDF page 445, rows 24-46, from **Lewis C Stavanja**
+through **Francis R Steele**, preserving all 23 printed rows and linking them
+to 23 separate active people. All 23 now have terminal research outcomes. Two
+nonshared protected-identifier Army identity bridges are accepted. The Ernest
+H Steed Army candidate is rejected because its identifier also appears on the
+separate Ernest H Streed index row; both people remain separate and the coded
+occupation is not published.
+
+Lewis C Stavanja is confirmed by a direct 1944 OSS board report: active U.S.
+Army service is his immediate pre-OSS pathway, while White Motor Car Company
+is documented only as an earlier civilian employer. Lefterios S Stavriancos,
+Norah D Stearns and their better-documented spelling variants remain visibly
+probable rather than silently corrected. John M Stavrou's civil-engineer code
+names an occupation, not an employer. Philip O Stearns's Princeton affiliation
+is student status, not employment. Francis J Steegmuller's prewar writing is
+published as an occupation without inventing a named employer or self-
+employment arrangement.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **13,879/23,936 (57.9838%)**;
+verified-employer coverage is **448/23,936 (1.8717%)**;
+verified-affiliation coverage is **994/23,936 (4.1527%)**; archival-review
+coverage is **12,352/23,936 (51.6043%)**. There are **10,052** not-started
+people, **613** possible-duplicate groups and **480** conflicts. Claim
+confidence counts are **1,640 confirmed**, **4,508 high**, **1,932 medium**,
+**227 low**, **407 conflicting** and **2 unresolved**. The public projection
+contains **3,145** affiliations, **1,141** organizations, **5,661** sources and
+**8,483** published, qualified or conflict claims. Full-index historical
+research remains unfinished. The next indexed boundary is PDF page 446, row
+1. See `research/batch-910-progress.md` for the source-by-source audit.
+
+Batch 910 has passed evidence-schema validation, isolated and canonical
+duplicate-safe imports, import idempotency, database integrity, derived export
+regeneration, coverage reporting, public-data redaction, all 146 Python tests,
+checked-in manifest verification, a deterministic 25,123-page static build,
+the 90/90 bounded browser and accessibility release matrix, the 25,123-page
+internal-link check, the public-identifier scan and the zero-vulnerability
+production dependency audit. Continuous integration, deployment and
+unauthenticated live verification remain separate release gates.
+
 Batch 907 completed PDF page 443, rows 24-46, from **Thomas S Stamoulis**
 through **Robert W Stanley**, preserving all 23 printed rows and linking them
 to 23 separate active people. All 23 now have terminal research outcomes.
