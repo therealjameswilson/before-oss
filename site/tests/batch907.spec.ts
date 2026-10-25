@@ -84,7 +84,7 @@ test("Stampados publishes confirmed Greek Air Force service without inventing an
   await expect(main).toContainText("documented pre-OSS");
   await expect(main).toContainText("confirmed");
   await expect(main.locator("section[aria-labelledby='immediate-affiliation']")).toContainText(
-    "No reliable immediate pre-OSS affiliation has yet been identified",
+    "No reviewed claim currently meets the publication threshold",
   );
   await expect(main.locator("section[aria-labelledby='civilian-employer']")).toContainText(
     "No reliable pre-OSS employer has yet been identified",
