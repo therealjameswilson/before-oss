@@ -22,8 +22,8 @@ The next unresearched boundary is page 440 row 24, Marion J Spence. Page 440
 was rendered and visually checked: the row prints Spence, Marion, middle
 initial J, Box 732 and archive location 230/86/41/02. The following Deforest
 Spencer rows in Boxes 731 and 732 visibly share one protected identifier and
-must remain a conflict or duplicate-review cluster until direct evidence
-supports resolution.
+are already linked to one high-confidence person entity while both immutable
+source rows remain separate; Batch 901 must preserve and review that linkage.
 
 ## Research outcomes
 

@@ -1,5 +1,41 @@
 # Research status
 
+Batch 901 completed PDF page 440, rows 24-46, from **Marion J Spence** through
+**Jerome Sperling**, preserving all 23 printed rows and linking them to 22
+active people. All 22 have terminal research outcomes. Four official Army
+identity bridges are accepted. The two Deforest Spencer rows remain one
+cautiously resolved person with both printed rows preserved. The two Harry G
+Sperling rows remain separate, and disputed art-dealer and Army evidence is
+not transferred.
+
+Four historical Army categories remain qualified and name no employer,
+institution or workplace. Edmond Speraber's self-employed medical practice in
+Saint-Jean-de-Luz is published as his last civilian employer, while his French
+Army medical service and resistance-network work remain separate affiliations.
+Jerome Sperling's Yale University employment is published at high confidence.
+Both immediate-pre-OSS chronologies remain visibly qualified because the
+accessible sources do not supply exact separation or transfer dates.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **13,679/23,936 (57.1482%)**;
+verified-employer coverage is **442/23,936 (1.8466%)**;
+verified-affiliation coverage is **981/23,936 (4.0984%)**; archival-review
+coverage is **12,150/23,936 (50.7604%)**. There are **10,252** not-started
+people, **604** possible-duplicate groups and **472** conflicts. The public
+projection contains **3,064** affiliations, **1,129** organizations, **5,571**
+sources and **8,315** published, qualified or conflict claims. Full-index
+historical research remains unfinished. The next indexed boundary is PDF page
+441, row 1, **Ann Sperry**, visually confirmed in Box 733. See
+`research/batch-901-progress.md` for the source-by-source audit. Batch 901 has
+passed isolated and canonical idempotency imports, database integrity checks,
+complete 522-page extraction validation, derived export regeneration, coverage
+reporting, public-data redaction, all 146 Python tests and 84 parameterized
+subtests, the deterministic 200-profile audit, the 96/96 browser and
+accessibility release matrix, 25,111-page internal-link check, private-
+identifier scan, local manifest verification, zero-vulnerability production
+dependency audit and two deterministic builds. Continuous integration and
+public deployment remain pending publication of the release commit.
+
 Batch 900 completed PDF page 440, rows 1-23, from **Mildred S Spanum** through
 **John P Spence**, preserving all 23 printed rows and linking them to 23 active
 people. All 23 have terminal research outcomes. Five official Army identity
