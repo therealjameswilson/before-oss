@@ -36,8 +36,13 @@ coverage reporting, public-data redaction, all 146 Python tests, the
 deterministic 200-profile audit, the 93/93 browser and accessibility release
 matrix, 25,115-page internal-link check, private-identifier scan, local
 manifest verification, zero-vulnerability production dependency audit and two
-deterministic builds. Continuous integration, deployment and unauthenticated
-live verification are pending the Batch 903 content commit.
+deterministic builds. Continuous integration and deployment also pass. Batch
+903 is public from immutable content commit
+`358f5c382c00b32f48a31b5858be72b1dfae8f85`. GitHub Actions Test run
+`40209624664` and Pages deployment run `40209624590` both completed
+successfully. The unauthenticated deployed-release verifier matched all 67
+public assets (120,526,819 bytes), eight core routes, 38 source-register pages
+and all 19 directly affected profiles.
 
 Batch 902 completed PDF page 441, rows 1-23, from **Ann Sperry** through the
 first **Grace M Spiro** row, preserving all 23 printed rows and linking them to

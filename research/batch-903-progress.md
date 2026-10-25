@@ -124,8 +124,12 @@ manifest assets verify locally (120,526,819 bytes), the production dependency
 audit reports zero vulnerabilities, and two consecutive builds produce
 identical public and output tree digests.
 
-Continuous integration, deployment and unauthenticated live-release
-verification are pending the Batch 903 content commit.
+Continuous integration and deployed-release verification also pass: content
+commit `358f5c382c00b32f48a31b5858be72b1dfae8f85` passed GitHub Actions Test
+run `40209624664` and Pages run `40209624590`. The unauthenticated deployed-
+release verifier then matched all 67 assets (120,526,819 bytes), eight core
+routes, 38 source-register pages and all 19 Batch 903 profiles to that
+immutable commit.
 
 ## Resume inputs
 
