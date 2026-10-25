@@ -1,0 +1,1828 @@
+{
+  "bundle_version": "batch-898-v1",
+  "reviewer": "Before OSS Batch 898 evidence review",
+  "sources": [
+    {
+      "key": "nara-index-b898",
+      "stable_url": "https://www.archives.gov/files/iwg/declassified-records/rg-226-oss/personnel-database.pdf",
+      "archival_identifier": "RG 226, Entry A1-224, Boxes 729-730",
+      "title": "OSS Personnel Files from Excel",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "2010-12-23",
+      "locator": "PDF page 439, rows 1-23; checked against layout-preserving text and a rendered page image",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "Records of the Office of Strategic Services, Record Group 226",
+      "rights_notes": "All 23 printed rows remain immutable. Full protected identifiers remain private and are masked from public data."
+    },
+    {
+      "key": "army-bulk-b898",
+      "stable_url": "https://catalog.archives.gov/id/1263923",
+      "archival_identifier": "National Archives Identifier 1263923; parent series NAID 604357",
+      "title": "Electronic Army Serial Number Merged File, ca. 1938-1946",
+      "author_creator": "Adjutant General's Office; National Personnel Records Center; National Archives and Records Administration",
+      "repository_publisher": "National Archives and Records Administration",
+      "publication_record_date": "1938-1946; merged file created 2002",
+      "locator": "Official unrestricted ASNEF.FIN.DAT; protected-identifier fields reviewed for five identity candidates",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records",
+      "document_number": "ASNEF.FIN.DAT",
+      "rights_notes": "No raw row or full private identifier is retained in public assets. The file is incomplete and a non-hit is not negative proof."
+    },
+    {
+      "key": "army-tech-b898",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1ND_NC.pdf",
+      "archival_identifier": "NN3-064-03-008; National Archives Identifier 1263923",
+      "title": "World War II Army Enlistment Records: Reference Copy of Technical Documentation",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "1994-2005; reference copy modified 2011",
+      "locator": "PDF physical pages 44-46; identifier, name, Army-entry-date, grade and civilian-occupation fields",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Used to interpret selected fields only; source damage, coding limits and incomplete coverage remain applicable."
+    },
+    {
+      "key": "army-codes-b898",
+      "stable_url": "https://catalog.archives.gov/medialive/23/2639/1263923/content/arcmedia/electronic-records/rg-064/asnf/100.1CL_SD.pdf",
+      "archival_identifier": "National Archives Identifier 1263923; Code No. 30",
+      "title": "NARA Compiled Code Lists for the Electronic Army Serial Number Merged File",
+      "author_creator": "National Archives and Records Administration",
+      "repository_publisher": "National Archives at College Park - Electronic Records",
+      "publication_record_date": "2011-01-12; modified 2011-03-17",
+      "locator": "PDF physical pages 174 and 304; categories 138, 627 and 688 visually checked; 059 and 999 not assigned substantive labels",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "collection_name": "World War II Army Enlistment Records technical documentation",
+      "rights_notes": "Historical labels identify neither employers nor workplaces and are published only as qualified occupation evidence."
+    },
+    {
+      "key": "nia-rolf-sorlie-b898",
+      "stable_url": "https://www.nia.no/en/the-operations/",
+      "title": "Four high-risk operations",
+      "author_creator": "Norwegian Industrial Workers Museum",
+      "repository_publisher": "Norwegian Industrial Workers Museum",
+      "locator": "Section 'The sinking of DF Hydro'",
+      "access_date": "2026-10-25",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Used for identity and wartime resistance context; it does not name a pre-OSS employer."
+    },
+    {
+      "key": "tekna-rolf-sorlie-b898",
+      "stable_url": "https://historiskarkiv.tekna.no/pdf/Magasin-2015-1.pdf",
+      "title": "Tekna Magasin 1/2015",
+      "author_creator": "Tekna",
+      "repository_publisher": "Tekna historical archive",
+      "publication_record_date": "2015",
+      "locator": "Article on the heavy-water campaign; passage identifying Rolf Sørlie as an engineer",
+      "access_date": "2026-10-25",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "The professional title is retained without inferring Norsk Hydro or another unnamed employer."
+    },
+    {
+      "key": "lowell-sorota-b898",
+      "stable_url": "https://lhsathletichalloffame.com/listings/stephen-s-sorota-class-of-1931/",
+      "title": "Stephen S. Sorota, Class of 1931",
+      "author_creator": "Lowell High School Athletic Hall of Fame",
+      "repository_publisher": "Lowell High School Athletic Hall of Fame",
+      "locator": "Biographical profile and coach listing",
+      "access_date": "2026-10-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "The page documents Stephen and nickname Steve but does not directly bridge either archival row to OSS."
+    },
+    {
+      "key": "tribune-soskice-one-b898",
+      "stable_url": "https://www.tribunejuive.info/2022/04/22/ypsilantis-en-lisant-victor-soskice-de-pierre-lurcat-1-2/",
+      "title": "En lisant Victor Soskice de Pierre Lurçat - 1/2",
+      "author_creator": "Olivier Ypsilantis",
+      "repository_publisher": "Tribune Juive",
+      "publication_record_date": "2022-04-22",
+      "locator": "Biographical paragraphs on the Lycée Français de New York, Georgetown and April 1942",
+      "access_date": "2026-10-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "A concise project paraphrase is retained; student status is not converted into employment."
+    },
+    {
+      "key": "tribune-soskice-two-b898",
+      "stable_url": "https://www.tribunejuive.info/2022/04/23/ypsilantis-en-lisant-victor-soskice-de-pierre-lurcat-2-2/",
+      "title": "En lisant Victor Soskice de Pierre Lurçat - 2/2",
+      "author_creator": "Olivier Ypsilantis",
+      "repository_publisher": "Tribune Juive",
+      "publication_record_date": "2022-04-23",
+      "locator": "Paragraphs on April 1942 OSS training, London assignment and the Lycée memorial plaque",
+      "access_date": "2026-10-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Full protected identifiers and unnecessary personal details are excluded."
+    },
+    {
+      "key": "us-war-memorials-soskice-b898",
+      "stable_url": "https://www.uswarmemorials.org/html/monument_details.php?MemID=4909&SiteID=2393",
+      "title": "SOE Personnel Execution Plaque - 2LT Victor Soskice",
+      "author_creator": "U.S. War Memorials Overseas",
+      "repository_publisher": "U.S. War Memorials Overseas",
+      "locator": "Monument description and commemorated-person record",
+      "access_date": "2026-10-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Used to corroborate name, rank, OSS and SOE service; no full identifier is retained."
+    },
+    {
+      "key": "shd-souard-b898",
+      "stable_url": "https://www.servicehistorique.sga.defense.gouv.fr/ark/1467285",
+      "archival_identifier": "Service historique de la Défense archival notice 1467285",
+      "title": "Stagiaires Français de G à Z de 1935 à 1937",
+      "author_creator": "Service historique de la Défense",
+      "repository_publisher": "Service historique de la Défense",
+      "publication_record_date": "1935-1937; notice modified 2022-06-13",
+      "locator": "Name list entry for Souard Frédéric, Henri, Charles",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "rights_notes": "The unnamed training setting is not expanded into an invented institution or employer."
+    },
+    {
+      "key": "cmh-souard-b898",
+      "stable_url": "https://history.army.mil/portals/143/Images/Publications/catalog/100-9.pdf",
+      "archival_identifier": "CMH Pub 100-9",
+      "title": "Fifth Army at the Winter Line, 15 November 1943-15 January 1944",
+      "author_creator": "Historical Division, War Department",
+      "repository_publisher": "U.S. Army Center of Military History",
+      "publication_record_date": "1945; CMH edition 1990",
+      "locator": "Section on the French Increment and Maj. Frédéric Souard as executive officer",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "rights_notes": "The assignment is not labeled pre-OSS because the transfer sequence is unknown."
+    },
+    {
+      "key": "elia-soullas-b898",
+      "stable_url": "https://www.elia.org.gr/userfiles/pdf_archieve/1944%209-1544%20Date%20Estimated%2C%20OSS%20Missions%2C%20SOE%2C%20Train%20Sabotage%2C%20Katerini%2C%20Tsirmulas%2C%20226-99-45-5%20%28Admin%29.pdf",
+      "archival_identifier": "RG 226, OSS mission file 226-99-45-5",
+      "title": "OSS missions, SOE, train sabotage, Katerini, Tsirmulas",
+      "author_creator": "Office of Strategic Services",
+      "repository_publisher": "Hellenic Literary and Historical Archive",
+      "publication_record_date": "1944 (estimated)",
+      "locator": "Declassified personnel roster naming Tec 4 Thomas P. Soullas",
+      "access_date": "2026-10-25",
+      "source_quality": "A_direct_official",
+      "rights_notes": "The public claim omits the full service number printed in the original roster."
+    },
+    {
+      "key": "cnd-soulier-b898",
+      "stable_url": "https://www.cnd-castille.org/wp-content/uploads/2021/10/infiltrations_into_france.pdf",
+      "title": "History of WWII Infiltrations into France",
+      "author_creator": "Marcel Treville",
+      "repository_publisher": "CND-Castille",
+      "publication_record_date": "2021-07-31",
+      "locator": "PDF page 139; Sussex/Ossex/OSS Vis entry and cited SHD files",
+      "access_date": "2026-10-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Used for identity and mission context, not a pre-OSS employer."
+    },
+    {
+      "key": "ailes-soulier-b898",
+      "stable_url": "https://www.aileshistoriquesdurhin.fr/app/download/11286806/01-2014%2BLes%2BAiles%2Bhistoriques%2Bdu%2BRhin.pdf",
+      "title": "Les Ailes historiques du Rhin, January 2014",
+      "author_creator": "Les Ailes historiques du Rhin",
+      "repository_publisher": "Les Ailes historiques du Rhin",
+      "publication_record_date": "2014-01",
+      "locator": "PDF page 8; George Soulier Silver Star caption and rank",
+      "access_date": "2026-10-25",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "rights_notes": "Used to corroborate the French rank printed in the index."
+    },
+    {
+      "key": "academie-soustelle-b898",
+      "stable_url": "https://www.academie-francaise.fr/les-immortels/jacques-soustelle",
+      "title": "Jacques Soustelle",
+      "author_creator": "Académie française",
+      "repository_publisher": "Académie française",
+      "locator": "Biographical paragraphs on scientific work, Musée de l'Homme, teaching and Free French service",
+      "access_date": "2026-10-25",
+      "source_quality": "B_authoritative_institutional",
+      "rights_notes": "Postwar political career is excluded except where needed to identify the subject."
+    }
+  ],
+  "organizations": [
+    {
+      "key": "phillips-academy-b898",
+      "organization_id": "e11f9963-9ea3-5c8c-a4e6-c691239abe79",
+      "canonical_name": "Phillips Academy",
+      "historical_name": "Phillips Academy",
+      "aliases": [
+        "Phillips Academy, Andover",
+        "Phillips Andover Academy"
+      ],
+      "organization_type": "secondary boarding school",
+      "sector": "academia_and_research",
+      "city": "Andover",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused; the historical institutional name is preserved."
+    },
+    {
+      "key": "georgetown-b898",
+      "organization_id": "b9d4129e-c34a-5bf9-b43c-2452b39b0d53",
+      "canonical_name": "Georgetown University",
+      "historical_name": "Georgetown University",
+      "organization_type": "university",
+      "sector": "academia_and_research",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "normalization_notes": "Existing canonical organization reused; student status is not employment."
+    },
+    {
+      "key": "lfny-b898",
+      "canonical_name": "Lycée Français de New York",
+      "historical_name": "Lycée Français de New York",
+      "aliases": [
+        "French High School of New York",
+        "LFNY"
+      ],
+      "organization_type": "secondary school",
+      "sector": "academia_and_research",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "active_dates": "1935-present",
+      "normalization_notes": "Student relationship only; the institution is not presented as an employer."
+    },
+    {
+      "key": "french-increment-b898",
+      "canonical_name": "French Increment, U.S. Fifth Army",
+      "historical_name": "French Increment",
+      "organization_type": "Allied military liaison and support command",
+      "sector": "military",
+      "country": "France; United States",
+      "active_dates": "1943-1944",
+      "normalization_notes": "The source-era multinational command name is preserved; it is not relabeled as an OSS unit."
+    },
+    {
+      "key": "musee-homme-b898",
+      "canonical_name": "Musée de l'Homme",
+      "historical_name": "Musée de l'Homme",
+      "organization_type": "anthropology museum and research institution",
+      "sector": "academia_and_research",
+      "city": "Paris",
+      "country": "France",
+      "active_dates": "1937-present",
+      "normalization_notes": "The French historical name is preserved."
+    },
+    {
+      "key": "college-france-b898",
+      "canonical_name": "Collège de France",
+      "historical_name": "Collège de France",
+      "organization_type": "higher-education and research institution",
+      "sector": "academia_and_research",
+      "city": "Paris",
+      "country": "France",
+      "normalization_notes": "The French historical name and lecturer relationship are preserved."
+    },
+    {
+      "key": "ecole-outre-mer-b898",
+      "canonical_name": "École nationale de la France d'outre-mer",
+      "historical_name": "École nationale de la France d'outre-mer",
+      "aliases": [
+        "ENFOM"
+      ],
+      "organization_type": "French civil-service training institution",
+      "sector": "academia_and_research",
+      "city": "Paris",
+      "country": "France",
+      "active_dates": "1934-1959",
+      "normalization_notes": "The historical institutional name is retained and not replaced by a successor."
+    }
+  ],
+  "affiliations": [
+    {
+      "key": "gene-sorisi-occupation-b898",
+      "person_id": "ee71c5a5-1eb4-5a48-8598-1ed493492e97",
+      "relationship_type": "employment",
+      "occupation": "Stock clerks",
+      "end_date": "1943-05-07",
+      "date_precision": "Historical civilian-occupation code 138 was recorded at Army entry on 1943-05-07; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, institution, workplace, or exact title."
+    },
+    {
+      "key": "erwin-sorkin-occupation-b898",
+      "person_id": "a897afa2-fefb-53c0-bb25-4a669abd1852",
+      "relationship_type": "employment",
+      "occupation": "Occupations in mechanical treatment of metals (rolling, stamping, forging, pressing, etc.), n.e.c.",
+      "end_date": "1942-09-16",
+      "date_precision": "Historical civilian-occupation code 688 was recorded at Army entry on 1942-09-16; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, institution, workplace, or exact title."
+    },
+    {
+      "key": "edmond-sottile-occupation-b898",
+      "person_id": "b7b61bd5-fad2-5418-aca4-e4a9467bf733",
+      "relationship_type": "employment",
+      "occupation": "Occupations in fabrication of textile products, n.e.c.",
+      "end_date": "1942-12-11",
+      "date_precision": "Historical civilian-occupation code 627 was recorded at Army entry on 1942-12-11; no employer or OSS-transfer date is named.",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "strongly_date_bounded",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "The historical category is not converted into a named employer, institution, workplace, or exact title."
+    },
+    {
+      "key": "rolf-sorlie-engineer-b898",
+      "person_id": "0deeab81-a1e6-54aa-8de3-42fbfb3abd81",
+      "role_title": "engineer",
+      "occupation": "engineer",
+      "relationship_type": "employment",
+      "end_date": "1944",
+      "date_precision": "The professional-association article identifies Sørlie as an engineer in the DF Hydro sabotage group; it does not name an employer or establish his OSS-file chronology.",
+      "country": "Norway",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "publish_qualified",
+      "research_notes": "Occupation only. Norsk Hydro or another workplace is not inferred."
+    },
+    {
+      "key": "stephen-sorota-phillips-b898",
+      "person_id": "2b24dcc5-3123-53d1-95b1-afbdfb3e9029",
+      "organization_key": "phillips-academy-b898",
+      "organization_name_as_found": "Phillips Andover Academy",
+      "role_title": "football and track coach",
+      "occupation": "coach and physical-education instructor",
+      "relationship_type": "employment",
+      "start_date": "1936",
+      "date_precision": "The institutional profile describes coaching from 1936 to 1978 but does not discuss wartime absence or an OSS relationship.",
+      "city": "Andover",
+      "state_or_region": "Massachusetts",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "probable",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "The rare exact name is a strong lead, but Box 729 is needed for a direct OSS identity bridge and wartime sequence."
+    },
+    {
+      "key": "victor-soskice-georgetown-b898",
+      "person_id": "7dbdc435-4f84-5fa5-acd4-93601b01c746",
+      "organization_key": "georgetown-b898",
+      "organization_name_as_found": "Georgetown",
+      "role_title": "student",
+      "relationship_type": "student",
+      "end_date": "1942-04",
+      "date_precision": "The biography review states that Soskice was a Georgetown student in April 1942 when he left for OSS training.",
+      "city": "Washington",
+      "state_or_region": "District of Columbia",
+      "country": "United States",
+      "immediate_pre_oss": true,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "explicit_immediate",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "Immediate student affiliation, not employment."
+    },
+    {
+      "key": "victor-soskice-lfny-b898",
+      "person_id": "7dbdc435-4f84-5fa5-acd4-93601b01c746",
+      "organization_key": "lfny-b898",
+      "organization_name_as_found": "Lycée français de New York",
+      "role_title": "student",
+      "relationship_type": "student",
+      "end_date": "1941-06",
+      "date_precision": "The biography review says he completed the French baccalaureate in June 1941.",
+      "city": "New York",
+      "state_or_region": "New York",
+      "country": "United States",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "publication_status": "publish_qualified",
+      "research_notes": "Earlier student status; not employment and not the final affiliation before OSS training."
+    },
+    {
+      "key": "frederic-souard-trainee-b898",
+      "person_id": "358e5285-5a5f-53e4-8793-ac3d61026b49",
+      "role_title": "French military trainee",
+      "relationship_type": "student",
+      "start_date": "1935",
+      "end_date": "1937",
+      "date_precision": "The official SHD notice lists Frédéric Henri Charles Souard among French trainees for 1935-1937 but does not name the school in the accessible notice.",
+      "country": "France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "A_direct_official",
+      "publication_status": "published",
+      "research_notes": "The unnamed training institution is not invented."
+    },
+    {
+      "key": "frederic-souard-french-increment-b898",
+      "person_id": "358e5285-5a5f-53e4-8793-ac3d61026b49",
+      "organization_key": "french-increment-b898",
+      "organization_name_as_found": "French Increment",
+      "role_title": "major and executive officer",
+      "relationship_type": "military_assignment",
+      "start_date": "1943-11",
+      "end_date": "1944-01",
+      "date_precision": "The official U.S. Army campaign history names Major Frédéric Souard as executive officer during the Fifth Army winter campaign; its sequence relative to the OSS file is unknown.",
+      "country": "Italy",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "temporal_relation_uncertain",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "medium",
+      "source_quality": "A_direct_official",
+      "publication_status": "publish_qualified",
+      "research_notes": "Military assignment, not civilian employment and not labeled the immediate OSS predecessor."
+    },
+    {
+      "key": "jacques-soustelle-musee-b898",
+      "person_id": "827e491a-a547-522d-9b9a-51c3f6fe01db",
+      "organization_key": "musee-homme-b898",
+      "organization_name_as_found": "musée de l'Homme",
+      "role_title": "deputy director",
+      "occupation": "ethnologist",
+      "relationship_type": "employment",
+      "end_date": "1940",
+      "date_precision": "The Académie biography lists the role before Soustelle joined the Free French after the June 1940 armistice; no exact appointment dates are supplied.",
+      "city": "Paris",
+      "country": "France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "A documented prewar institutional role; no unsupported final-employer sequence is imposed."
+    },
+    {
+      "key": "jacques-soustelle-college-b898",
+      "person_id": "827e491a-a547-522d-9b9a-51c3f6fe01db",
+      "organization_key": "college-france-b898",
+      "organization_name_as_found": "Collège de France",
+      "role_title": "lecturer",
+      "occupation": "ethnologist and lecturer",
+      "relationship_type": "employment",
+      "end_date": "1940",
+      "date_precision": "The Académie biography lists the teaching role before the June 1940 Free French transition; no exact dates or order among his institutions are supplied.",
+      "city": "Paris",
+      "country": "France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Teaching is modeled as employment; it is not selected as the final prewar role."
+    },
+    {
+      "key": "jacques-soustelle-enfom-b898",
+      "person_id": "827e491a-a547-522d-9b9a-51c3f6fe01db",
+      "organization_key": "ecole-outre-mer-b898",
+      "organization_name_as_found": "École nationale de la France d'outre-mer",
+      "role_title": "lecturer",
+      "occupation": "ethnologist and lecturer",
+      "relationship_type": "employment",
+      "end_date": "1940",
+      "date_precision": "The Académie biography lists the teaching role before the June 1940 Free French transition; no exact dates or order among his institutions are supplied.",
+      "city": "Paris",
+      "country": "France",
+      "immediate_pre_oss": false,
+      "last_civilian_pre_service": false,
+      "pre_oss_temporal_basis": "documented_prewar",
+      "identity_confidence": "high_confidence",
+      "claim_confidence": "high",
+      "source_quality": "B_authoritative_institutional",
+      "publication_status": "published",
+      "research_notes": "Teaching is modeled as employment; it is not selected as the final prewar role."
+    }
+  ],
+  "claims": [
+    {
+      "key": "identity-gene-sorisi-b898",
+      "person_id": "ee71c5a5-1eb4-5a48-8598-1ed493492e97",
+      "claim_type": "identity",
+      "claim_text": "The indexed Gene Sorisi row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact name agreement and a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the coded Army field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b898",
+          "locator_override": "PDF page 439 row 1; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b898",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-erwin-sorkin-b898",
+      "person_id": "a897afa2-fefb-53c0-bb25-4a669abd1852",
+      "claim_type": "identity",
+      "claim_text": "The indexed Erwin Sorkin row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact name agreement and a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the coded Army field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b898",
+          "locator_override": "PDF page 439 row 2; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b898",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-edmond-sottile-b898",
+      "person_id": "b7b61bd5-fad2-5418-aca4-e4a9467bf733",
+      "claim_type": "identity",
+      "claim_text": "The indexed Edmond Sottile row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact name agreement and a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The Army-entry record supports identity and a dated occupation category; it does not establish the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the coded Army field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b898",
+          "locator_override": "PDF page 439 row 14; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b898",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-lyman-f-sorrels-b898",
+      "person_id": "0241cc2f-f4cb-547c-86a3-f133a64fa472",
+      "claim_type": "identity",
+      "claim_text": "The indexed Lyman F Sorrels row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact name agreement and a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The matched Army entry is dated 1946, after the OSS wartime period; code 059 is not defined in the inspected official table and is not interpreted.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the coded Army field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b898",
+          "locator_override": "PDF page 439 row 8; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b898",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-thomas-g-soter-b898",
+      "person_id": "b831851e-8bb7-5ee9-aa1d-7416eabc838f",
+      "claim_type": "identity",
+      "claim_text": "The indexed Thomas G Soter row is a high-confidence match to the reviewed official Army record.",
+      "evidence_paraphrase": "A nonshared protected identifier connects the visually verified index row to the official Army record.",
+      "identity_match_assessment": "High confidence from exact name agreement and a nonshared protected-identifier bridge.",
+      "temporal_assessment": "The matched Army entry is dated 1940, but residual code 999 is not interpreted as an occupation, employer, or workplace.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier is exposed, and no employer or workplace is inferred from the coded Army field.",
+      "sources": [
+        {
+          "source_key": "nara-index-b898",
+          "locator_override": "PDF page 439 row 12; protected identifier withheld"
+        },
+        {
+          "source_key": "army-bulk-b898",
+          "locator_override": "Accepted reviewed identity bridge; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "occupation-gene-sorisi-b898",
+      "person_id": "ee71c5a5-1eb4-5a48-8598-1ed493492e97",
+      "affiliation_key": "gene-sorisi-occupation-b898",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1943-05-07, Gene Sorisi was recorded in the historical stock clerks category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 138, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not an employer, workplace, institution, or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b898",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 138; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b898",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b898",
+          "locator_override": "PDF physical page 304; category 138",
+          "excerpt_override": "Stock clerks"
+        }
+      ]
+    },
+    {
+      "key": "occupation-erwin-sorkin-b898",
+      "person_id": "a897afa2-fefb-53c0-bb25-4a669abd1852",
+      "affiliation_key": "erwin-sorkin-occupation-b898",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-09-16, Erwin Sorkin was recorded in the historical occupations in mechanical treatment of metals (rolling, stamping, forging, pressing, etc.), n.e.c. category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 688, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not an employer, workplace, institution, or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b898",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 688; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b898",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b898",
+          "locator_override": "PDF physical page 174; category 688",
+          "excerpt_override": "Occupations in mechanical treatment of metals (rolling, stamping, forging, pressing, etc.), n.e.c."
+        }
+      ]
+    },
+    {
+      "key": "occupation-edmond-sottile-b898",
+      "person_id": "b7b61bd5-fad2-5418-aca4-e4a9467bf733",
+      "affiliation_key": "edmond-sottile-occupation-b898",
+      "claim_type": "occupation",
+      "claim_text": "At Army entry on 1942-12-11, Edmond Sottile was recorded in the historical occupations in fabrication of textile products, n.e.c. category; no employer is identified.",
+      "evidence_paraphrase": "The accepted Army record carries civilian-occupation code 627, decoded from NARA's official code list.",
+      "identity_match_assessment": "The occupation belongs only to the reviewed protected-identifier match; the identifier itself is not public.",
+      "temporal_assessment": "Strongly date-bounded to Army entry; it does not establish the immediate pre-OSS affiliation or a named employer.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The historical category is a qualified lead, not an employer, workplace, institution, or exact title.",
+      "sources": [
+        {
+          "source_key": "army-bulk-b898",
+          "locator_override": "Accepted reviewed identity record; civilian occupation code 627; protected identifier withheld"
+        },
+        {
+          "source_key": "army-tech-b898",
+          "support_type": "context_only",
+          "locator_override": "PDF physical pages 44-46; Army-entry-date and civilian-occupation fields"
+        },
+        {
+          "source_key": "army-codes-b898",
+          "locator_override": "PDF physical page 174; category 627",
+          "excerpt_override": "Occupations in fabrication of textile products, n.e.c."
+        }
+      ]
+    },
+    {
+      "key": "identity-rolf-sorlie-b898",
+      "person_id": "0deeab81-a1e6-54aa-8de3-42fbfb3abd81",
+      "claim_type": "identity",
+      "claim_text": "The indexed Rolf Sorlie is a high-confidence match to Norwegian engineer and resistance participant Rolf Sørlie.",
+      "evidence_paraphrase": "The rare name, Norwegian index note, compatible age and institutional account of the 1944 DF Hydro operation identify the same wartime figure.",
+      "identity_match_assessment": "High confidence from the distinctive name, Norwegian note and two compatible institutional sources; Box 730 remains the direct archival bridge.",
+      "temporal_assessment": "The sources establish a 1944 Norwegian resistance role and engineer occupation but not the sequence relative to the OSS personnel file.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The documented spelling Rolf Sørlie is retained as a variant; no employer is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-index-b898",
+          "locator_override": "PDF page 439 row 4; note 'Norwegi'; Box 730"
+        },
+        {
+          "source_key": "nia-rolf-sorlie-b898",
+          "locator_override": "Section 'The sinking of DF Hydro'"
+        },
+        {
+          "source_key": "tekna-rolf-sorlie-b898",
+          "support_type": "supports",
+          "locator_override": "Heavy-water campaign article"
+        }
+      ]
+    },
+    {
+      "key": "occupation-rolf-sorlie-b898",
+      "person_id": "0deeab81-a1e6-54aa-8de3-42fbfb3abd81",
+      "affiliation_key": "rolf-sorlie-engineer-b898",
+      "claim_type": "occupation",
+      "claim_text": "A professional-association history identifies Rolf Sørlie as an engineer in the DF Hydro sabotage group; it does not name his employer.",
+      "evidence_paraphrase": "Tekna describes Sørlie as one of the engineers in the sabotage group.",
+      "identity_match_assessment": "High confidence from the distinctive name and Norwegian wartime context.",
+      "temporal_assessment": "Documented in 1944; the sequence relative to the OSS file remains uncertain.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The occupation is not converted into employment at Norsk Hydro or another unnamed organization.",
+      "sources": [
+        {
+          "source_key": "tekna-rolf-sorlie-b898",
+          "locator_override": "Heavy-water campaign article; DF Hydro passage"
+        }
+      ]
+    },
+    {
+      "key": "identity-stephen-sorota-b898",
+      "person_id": "2b24dcc5-3123-53d1-95b1-afbdfb3e9029",
+      "claim_type": "identity",
+      "claim_text": "The indexed Stephen S Sorota is probably the Lowell athlete and Phillips Academy coach Stephen S. 'Steve' Sorota, but the OSS identity bridge is incomplete.",
+      "evidence_paraphrase": "The rare exact full name and middle initial match an institutional biography using both Stephen and Steve.",
+      "identity_match_assessment": "Probable rather than high confidence because the biography supplies no OSS, protected-identifier or Box 729 linkage.",
+      "temporal_assessment": "The profile dates Phillips Academy coaching from 1936 but does not describe any wartime interruption or OSS sequence.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "The separately printed Steve S Sorota row in Box 730 remains unmerged and ambiguous.",
+      "sources": [
+        {
+          "source_key": "nara-index-b898",
+          "locator_override": "PDF page 439 row 6; Box 729"
+        },
+        {
+          "source_key": "lowell-sorota-b898",
+          "locator_override": "Stephen S. Sorota institutional profile"
+        }
+      ]
+    },
+    {
+      "key": "employer-stephen-sorota-phillips-b898",
+      "person_id": "2b24dcc5-3123-53d1-95b1-afbdfb3e9029",
+      "affiliation_key": "stephen-sorota-phillips-b898",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "A probable identity match places Stephen S. Sorota as a football and track coach at Phillips Academy beginning in 1936.",
+      "evidence_paraphrase": "The institutional profile names Phillips Andover Academy and dates the coaching role from 1936.",
+      "identity_match_assessment": "Probable identity from the rare exact name; archival confirmation is still required.",
+      "temporal_assessment": "Documented before OSS existed, but the wartime employment sequence and immediate-pre-OSS status are not established.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Excluded from default verified-employer analytics because the person identity remains probable.",
+      "sources": [
+        {
+          "source_key": "lowell-sorota-b898",
+          "locator_override": "Coach listing and biographical profile"
+        }
+      ]
+    },
+    {
+      "key": "identity-victor-a-soskice-b898",
+      "person_id": "7dbdc435-4f84-5fa5-acd4-93601b01c746",
+      "claim_type": "identity",
+      "claim_text": "The indexed Victor A Soskice row is a high-confidence match to OSS second lieutenant Victor Andrew Soskice.",
+      "evidence_paraphrase": "The nonshared protected identifier, exact initials, OSS service, and memorialized rank align with the index row.",
+      "identity_match_assessment": "High confidence from the protected-identifier bridge and multiple specific biographical details.",
+      "temporal_assessment": "The biography explicitly sequences Georgetown study and April 1942 OSS training.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The separate Victor L Soskice lieutenant row remains an unresolved possible duplicate because its middle initial conflicts.",
+      "sources": [
+        {
+          "source_key": "nara-index-b898",
+          "locator_override": "PDF page 439 row 11; protected identifier withheld"
+        },
+        {
+          "source_key": "us-war-memorials-soskice-b898",
+          "locator_override": "Commemorated person and OSS/SOE service description"
+        },
+        {
+          "source_key": "tribune-soskice-two-b898",
+          "support_type": "supports",
+          "locator_override": "April 1942 OSS training chronology"
+        }
+      ]
+    },
+    {
+      "key": "immediate-victor-soskice-georgetown-b898",
+      "person_id": "7dbdc435-4f84-5fa5-acd4-93601b01c746",
+      "affiliation_key": "victor-soskice-georgetown-b898",
+      "claim_type": "immediate_pre_oss_affiliation",
+      "claim_text": "Victor Andrew Soskice's best-supported immediate pre-OSS affiliation was student status at Georgetown University.",
+      "evidence_paraphrase": "The biography review says he was studying at Georgetown in April 1942 when he left for OSS training.",
+      "identity_match_assessment": "High-confidence identity from the protected-identifier bridge and specific OSS biography.",
+      "temporal_assessment": "Explicitly immediate: Georgetown study is directly followed by April 1942 OSS training.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Student status is not employment and is excluded from employer totals.",
+      "sources": [
+        {
+          "source_key": "tribune-soskice-one-b898",
+          "locator_override": "Biographical paragraph on Georgetown study in April 1942"
+        },
+        {
+          "source_key": "tribune-soskice-two-b898",
+          "support_type": "supports",
+          "locator_override": "April 1942 OSS training chronology"
+        }
+      ]
+    },
+    {
+      "key": "student-victor-soskice-lfny-b898",
+      "person_id": "7dbdc435-4f84-5fa5-acd4-93601b01c746",
+      "affiliation_key": "victor-soskice-lfny-b898",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Victor Andrew Soskice studied at the Lycée Français de New York and completed the French baccalaureate in June 1941.",
+      "evidence_paraphrase": "The biography review documents his New York schooling and baccalaureate date.",
+      "identity_match_assessment": "High-confidence identity from the protected-identifier bridge and specific biography.",
+      "temporal_assessment": "Documented before Georgetown and April 1942 OSS training; not the immediate predecessor affiliation.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Student status is not employment.",
+      "sources": [
+        {
+          "source_key": "tribune-soskice-one-b898",
+          "locator_override": "Biographical paragraph on 1940-1941 New York education"
+        }
+      ]
+    },
+    {
+      "key": "conflict-alexander-soto-b898",
+      "person_id": "1c3f3a03-3353-5eb5-890e-727044bef465",
+      "claim_type": "identity",
+      "claim_text": "Alexander J Soto shares a protected identifier with separately printed William J Smith, creating an unresolved identity conflict.",
+      "evidence_paraphrase": "Two materially different index names carry the same protected identifier and are never auto-merged.",
+      "identity_match_assessment": "Conflicting; neither printed person receives the other's identity, occupation, or employer evidence.",
+      "temporal_assessment": "No employment chronology is assigned while the identifier conflict remains unresolved.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "conflicting",
+      "publication_status": "conflicting",
+      "match_notes": "The public record masks the identifier and preserves both people as separate entities.",
+      "sources": [
+        {
+          "source_key": "nara-index-b898",
+          "locator_override": "PDF page 439 row 13 and separate William J Smith row; protected identifier withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-frederic-souard-b898",
+      "person_id": "358e5285-5a5f-53e4-8793-ac3d61026b49",
+      "claim_type": "identity",
+      "claim_text": "The indexed French major Frederic Souard is a high-confidence match to French officer Frédéric Henri Charles Souard.",
+      "evidence_paraphrase": "The rare exact name, French nationality note, major rank, official trainee file, and 1943 U.S. Army history align.",
+      "identity_match_assessment": "High confidence from two official sources plus the specific rank and nationality printed in the index.",
+      "temporal_assessment": "The sources document 1935-1937 training and a late-1943 military assignment, but not the OSS transfer sequence.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The accented spelling and full middle names are retained as variants.",
+      "sources": [
+        {
+          "source_key": "nara-index-b898",
+          "locator_override": "PDF page 439 row 15; Major; French; Box 730"
+        },
+        {
+          "source_key": "shd-souard-b898",
+          "locator_override": "1935-1937 trainee list"
+        },
+        {
+          "source_key": "cmh-souard-b898",
+          "support_type": "supports",
+          "locator_override": "French Increment section"
+        }
+      ]
+    },
+    {
+      "key": "student-frederic-souard-b898",
+      "person_id": "358e5285-5a5f-53e4-8793-ac3d61026b49",
+      "affiliation_key": "frederic-souard-trainee-b898",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "An official French defense-archive notice lists Frédéric Henri Charles Souard among French military trainees in 1935-1937.",
+      "evidence_paraphrase": "The SHD notice names Souard and dates the trainee series but does not identify the training institution in its accessible title.",
+      "identity_match_assessment": "High confidence from the distinctive name and later matching French major assignment.",
+      "temporal_assessment": "Documented prewar training; not employment and not shown as immediate to OSS.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No institution is fabricated from the archival notice.",
+      "sources": [
+        {
+          "source_key": "shd-souard-b898",
+          "locator_override": "1935-1937 trainee list entry"
+        }
+      ]
+    },
+    {
+      "key": "assignment-frederic-souard-b898",
+      "person_id": "358e5285-5a5f-53e4-8793-ac3d61026b49",
+      "affiliation_key": "frederic-souard-french-increment-b898",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "The U.S. Army history names Major Frédéric Souard as executive officer of the French Increment in Fifth Army during late 1943.",
+      "evidence_paraphrase": "The official campaign history identifies his rank, name, organization, and executive-officer role.",
+      "identity_match_assessment": "High confidence from the rare name, matching rank and French index note.",
+      "temporal_assessment": "Wartime assignment documented; its sequence relative to the OSS personnel file is uncertain.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "medium",
+      "publication_status": "publish_qualified",
+      "match_notes": "Military assignment is not relabeled as civilian employment or an immediate OSS predecessor.",
+      "sources": [
+        {
+          "source_key": "cmh-souard-b898",
+          "locator_override": "French Increment section; winter 1943-1944"
+        }
+      ]
+    },
+    {
+      "key": "identity-george-soulier-b898",
+      "person_id": "5e2ddd60-32e7-59d0-852e-e40a7417e178",
+      "claim_type": "identity",
+      "claim_text": "The indexed French sub-lieutenant George Soulier is a high-confidence match to Sussex/OSS radio operator Georges Soulier.",
+      "evidence_paraphrase": "The rare name, French rank, OSS-linked Vis mission, alias, and Silver Star description align with the index row.",
+      "identity_match_assessment": "High confidence from two mission-specific sources and the matching French sub-lieutenant rank.",
+      "temporal_assessment": "The sources establish wartime OSS-linked service but do not identify an earlier employer or predecessor assignment.",
+      "source_quality": "C_reputable_contemporary_or_scholarly",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "Georges Soulier and wartime alias Gérard Boudemange are retained as variants; no prewar employer is inferred.",
+      "sources": [
+        {
+          "source_key": "nara-index-b898",
+          "locator_override": "PDF page 439 row 18; S/Lt; French; Box 730"
+        },
+        {
+          "source_key": "cnd-soulier-b898",
+          "locator_override": "PDF page 139; Sussex/Ossex/OSS Vis entry"
+        },
+        {
+          "source_key": "ailes-soulier-b898",
+          "support_type": "supports",
+          "locator_override": "PDF page 8; Silver Star and rank caption"
+        }
+      ]
+    },
+    {
+      "key": "identity-thomas-soullas-b898",
+      "person_id": "ba48bbe0-6ff9-57ec-81b2-2caa9eaa4251",
+      "claim_type": "identity",
+      "claim_text": "The indexed Thomas P Soullas is a high-confidence match to Technician Fourth Grade Thomas P. Soullas in a declassified OSS mission roster.",
+      "evidence_paraphrase": "The exact name, middle initial, technical grade, and direct OSS operational context identify the same person.",
+      "identity_match_assessment": "High confidence from a declassified direct record; the full service number is not published.",
+      "temporal_assessment": "The roster establishes OSS wartime service but supplies no pre-OSS employer or predecessor assignment.",
+      "source_quality": "A_direct_official",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No protected identifier or unsupported pre-service occupation is exposed.",
+      "sources": [
+        {
+          "source_key": "nara-index-b898",
+          "locator_override": "PDF page 439 row 19; Box 730"
+        },
+        {
+          "source_key": "elia-soullas-b898",
+          "locator_override": "Declassified personnel roster; service number withheld"
+        }
+      ]
+    },
+    {
+      "key": "identity-jacques-soustelle-b898",
+      "person_id": "827e491a-a547-522d-9b9a-51c3f6fe01db",
+      "claim_type": "identity",
+      "claim_text": "The indexed Jacques Soustelle is a high-confidence match to French ethnologist and wartime Free French official Jacques Soustelle.",
+      "evidence_paraphrase": "The distinctive exact name and authoritative chronology of intelligence, information, and action-service leadership identify the same wartime figure.",
+      "identity_match_assessment": "High confidence from an exceptionally distinctive name and a detailed institutional biography compatible with the OSS index context.",
+      "temporal_assessment": "The biography documents pre-June-1940 academic roles and later Free French assignments but not an exact OSS-file creation date.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "No claim is made that every wartime intelligence role was an OSS appointment.",
+      "sources": [
+        {
+          "source_key": "nara-index-b898",
+          "locator_override": "PDF page 439 row 23; Box 730"
+        },
+        {
+          "source_key": "academie-soustelle-b898",
+          "locator_override": "Biographical paragraphs on academic and wartime service"
+        }
+      ]
+    },
+    {
+      "key": "employer-jacques-soustelle-musee-b898",
+      "person_id": "827e491a-a547-522d-9b9a-51c3f6fe01db",
+      "affiliation_key": "jacques-soustelle-musee-b898",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Jacques Soustelle served as deputy director of the Musée de l'Homme before joining the Free French after the June 1940 armistice.",
+      "evidence_paraphrase": "The Académie française biography places the institutional role before the June 1940 Free French transition.",
+      "identity_match_assessment": "High confidence from the distinctive exact name and authoritative institutional biography.",
+      "temporal_assessment": "Documented prewar employment; exact dates and ordering among the three institutions are not supplied, so none is selected as the final civilian employer.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The claim preserves the institution named by the source and does not infer immediate-pre-OSS status.",
+      "sources": [
+        {
+          "source_key": "academie-soustelle-b898",
+          "locator_override": "Biographical paragraph on pre-1940 academic roles"
+        }
+      ]
+    },
+    {
+      "key": "employer-jacques-soustelle-college-b898",
+      "person_id": "827e491a-a547-522d-9b9a-51c3f6fe01db",
+      "affiliation_key": "jacques-soustelle-college-b898",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Jacques Soustelle lectured at the Collège de France before joining the Free French after the June 1940 armistice.",
+      "evidence_paraphrase": "The Académie française biography places the institutional role before the June 1940 Free French transition.",
+      "identity_match_assessment": "High confidence from the distinctive exact name and authoritative institutional biography.",
+      "temporal_assessment": "Documented prewar employment; exact dates and ordering among the three institutions are not supplied, so none is selected as the final civilian employer.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The claim preserves the institution named by the source and does not infer immediate-pre-OSS status.",
+      "sources": [
+        {
+          "source_key": "academie-soustelle-b898",
+          "locator_override": "Biographical paragraph on pre-1940 academic roles"
+        }
+      ]
+    },
+    {
+      "key": "employer-jacques-soustelle-enfom-b898",
+      "person_id": "827e491a-a547-522d-9b9a-51c3f6fe01db",
+      "affiliation_key": "jacques-soustelle-enfom-b898",
+      "claim_type": "other_pre_oss_affiliation",
+      "claim_text": "Jacques Soustelle lectured at the École nationale de la France d'outre-mer before joining the Free French after the June 1940 armistice.",
+      "evidence_paraphrase": "The Académie française biography places the institutional role before the June 1940 Free French transition.",
+      "identity_match_assessment": "High confidence from the distinctive exact name and authoritative institutional biography.",
+      "temporal_assessment": "Documented prewar employment; exact dates and ordering among the three institutions are not supplied, so none is selected as the final civilian employer.",
+      "source_quality": "B_authoritative_institutional",
+      "claim_confidence": "high",
+      "publication_status": "published",
+      "match_notes": "The claim preserves the institution named by the source and does not infer immediate-pre-OSS status.",
+      "sources": [
+        {
+          "source_key": "academie-soustelle-b898",
+          "locator_override": "Biographical paragraph on pre-1940 academic roles"
+        }
+      ]
+    }
+  ],
+  "person_updates": [
+    {
+      "person_id": "9ac2db7b-eeb1-54b0-a571-a771924c8894",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Mildred Sorkin, Box 729 or 730, and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, and archival protocol found no defensible identity bridge. The common name and absent middle initial produced multiple unbridged namesakes and no protected identifier, OSS assignment, or employer chronology.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 729 or 730 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "fd09ff01-bb21-555c-a6a7-0d05bdd3ed52",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Morris B Soroka, Box 729 or 730, and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, and archival protocol found no defensible identity bridge. Exact-name and middle-initial searches did not produce two corroborating identifiers beyond the name.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 729 or 730 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "1181bd99-6665-5d6e-83e4-323190728eab",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Henry Sorrese, Box 729 or 730, and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, and archival protocol found no defensible identity bridge. A Library of Congress finding-aid lead for a New York police detective remains an unbridged namesake and is not assigned to the index row.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 729 or 730 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "77abf1b3-af84-5436-838b-051c39e0f4c5",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Romeo A Soucy, Box 729 or 730, and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, and archival protocol found no defensible identity bridge. Exact-name military, obituary, institutional, and archival searches did not isolate the indexed first sergeant.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 729 or 730 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "63cad4b6-bd5f-5bb4-a601-8f94c0b096d4",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies John I Soule, Box 729 or 730, and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, and archival protocol found no defensible identity bridge. The captain's common surname, officer identifier, and exact-name searches did not produce a reliable OSS or pre-service-employer bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 729 or 730 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "5f764f7b-058d-5b67-9210-b69730bc13a5",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Robert W Sours, Box 729 or 730, and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, and archival protocol found no defensible identity bridge. A 1942 local-newspaper index lead and later biographical namesakes lack a protected-identifier or OSS bridge.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 729 or 730 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "c915bf7f-a67a-5d45-a936-99d92c2bc3ea",
+      "identity_status": "unresolved",
+      "identity_evidence": "The visually verified index row supplies Mary Sousa, Box 729 or 730, and archive location, but the staged official-context, CIA Reading Room, exact-name, occupation, employer, obituary, institutional, directory, and archival protocol found no defensible identity bridge. The common name and missing identifiers produced many namesakes but no defensible identity or pre-OSS affiliation.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review the indexed Box 729 or 730 personnel file for corroborating identifiers and the last documented pre-OSS affiliation. No reliable pre-OSS employer has yet been identified in the accessible sources reviewed.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "ee71c5a5-1eb4-5a48-8598-1ed493492e97",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 730 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "a897afa2-fefb-53c0-bb25-4a669abd1852",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 730 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b7b61bd5-fad2-5418-aca4-e4a9467bf733",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier connects the visually verified index row to the reviewed official Army record. The occupation field remains separate from employer and immediate-affiliation claims.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review the indexed Box 730 personnel file to identify the immediate pre-OSS affiliation and last civilian employer; do not convert the Army occupation category into a named employer.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0241cc2f-f4cb-547c-86a3-f133a64fa472",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and exact name connect the index row to an official Army record, but the record supplies no usable pre-OSS occupation evidence.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 730 for the immediate pre-OSS affiliation and last civilian employer; do not interpret the undefined or residual Army code.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "b831851e-8bb7-5ee9-aa1d-7416eabc838f",
+      "identity_status": "high_confidence",
+      "identity_evidence": "A nonshared protected identifier and exact name connect the index row to an official Army record, but the record supplies no usable pre-OSS occupation evidence.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 730 for the immediate pre-OSS affiliation and last civilian employer; do not interpret the undefined or residual Army code.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "0deeab81-a1e6-54aa-8de3-42fbfb3abd81",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare name, Norwegian index note, matching wartime context and two institutional histories identify resistance participant and engineer Rolf Sørlie at high confidence.",
+      "name_variants": [
+        "Rolf Sørlie"
+      ],
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "occupation_only_found",
+      "next_action": "Review Box 730 to establish the OSS relationship and any named engineering employer; do not infer Norsk Hydro from the Vemork context.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "2b24dcc5-3123-53d1-95b1-afbdfb3e9029",
+      "identity_status": "probable",
+      "identity_evidence": "The rare exact full name and middle initial match an institutional profile of coach Stephen S. 'Steve' Sorota, but no OSS, protected-identifier or Box 729 bridge confirms the match.",
+      "name_variants": [
+        "Stephen S. Sorota",
+        "Steve Sorota"
+      ],
+      "manual_review_required": true,
+      "possible_duplicate_group": "name-variant:stephen-steve-sorota-page439",
+      "research_status": "requires_archival_review",
+      "next_action": "Review the Stephen S Sorota file in Box 729 together with the Steve S Sorota file in Box 730; establish whether they duplicate one person and whether Phillips Academy immediately preceded OSS.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "37bc75f5-e853-5362-9c83-89085af31f4e",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The separately printed Steve S Sorota row may be a nickname variant of Stephen S Sorota, but the different box and absent external OSS bridge prevent a merge or transfer of the Phillips Academy claim.",
+      "name_variants": [
+        "Steve Sorota"
+      ],
+      "manual_review_required": true,
+      "possible_duplicate_group": "name-variant:stephen-steve-sorota-page439",
+      "research_status": "requires_archival_review",
+      "next_action": "Review both Sorota personnel files together; keep the rows separate until the physical files establish duplication or difference.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "fe2ef923-8ed0-5109-bf02-acfb6f07d1c9",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The rare surname, first name, lieutenant rank and adjacent Victor A Soskice row suggest a possible duplicate, but the middle initial L conflicts with Victor Andrew and no direct evidence resolves the discrepancy.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "name-variant:victor-soskice-page439",
+      "research_status": "requires_archival_review",
+      "next_action": "Review both Victor Soskice files in Box 730 together; do not transfer Victor Andrew Soskice's Georgetown or OSS chronology to this L-initial row.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "7dbdc435-4f84-5fa5-acd4-93601b01c746",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The nonshared protected identifier, exact first and middle initial, second-lieutenant rank and OSS/SOE biography identify Victor Andrew Soskice at high confidence.",
+      "name_variants": [
+        "Victor Andrew Soskice"
+      ],
+      "personnel_category": "commissioned_army_officer",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "possible_duplicate_group": "name-variant:victor-soskice-page439",
+      "research_status": "requires_archival_review",
+      "next_action": "Review both Victor Soskice files in Box 730 to resolve the L/A initial discrepancy and confirm the complete Georgetown-to-OSS chronology.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "1c3f3a03-3353-5eb5-890e-727044bef465",
+      "identity_status": "conflicting",
+      "identity_evidence": "Alexander J Soto and separately printed William J Smith share one protected identifier. The records remain separate and no identity, occupation or employer evidence is transferred.",
+      "manual_review_required": true,
+      "possible_duplicate_group": "serial-conflict:alexander-soto-william-smith-page439",
+      "research_status": "conflicting_sources",
+      "next_action": "Review the Alexander J Soto and William J Smith personnel files together before accepting any protected-identifier-based identity or employment evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "358e5285-5a5f-53e4-8793-ac3d61026b49",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare exact name, French nationality note, major rank, official 1935-1937 trainee notice and late-1943 U.S. Army history identify Frédéric Henri Charles Souard at high confidence.",
+      "name_variants": [
+        "Frédéric Souard",
+        "Frédéric Henri Charles Souard"
+      ],
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 730 to establish the OSS-file chronology, immediate predecessor assignment and any civilian employer before military service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "5e2ddd60-32e7-59d0-852e-e40a7417e178",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The rare name, French sub-lieutenant rank, Sussex/OSS Vis mission and Silver Star description identify Georges Soulier at high confidence.",
+      "name_variants": [
+        "Georges Soulier",
+        "Gérard Boudemange"
+      ],
+      "personnel_category": "foreign_or_allied_military_personnel",
+      "commissioned_officer": true,
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 730 and the cited SHD files for pre-OSS military training, employer history and the exact route into the Sussex mission.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "ba48bbe0-6ff9-57ec-81b2-2caa9eaa4251",
+      "identity_status": "high_confidence",
+      "identity_evidence": "An original declassified OSS mission roster names Technician Fourth Grade Thomas P. Soullas, matching the exact indexed name and wartime context.",
+      "personnel_category": "enlisted_army_personnel",
+      "commissioned_officer": false,
+      "allied_or_foreign_personnel": false,
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 730 for Army-entry occupation, the immediate pre-OSS assignment and the last civilian employer; the roster establishes service only.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    },
+    {
+      "person_id": "e68fd14e-4d69-5b79-9ce0-51a3266cca58",
+      "identity_status": "ambiguous",
+      "identity_evidence": "The rare name produced a Czech journalist and political activist plus a 1937 exposition-design collaborator, but no OSS, protected-identifier, nationality note or Box 730 bridge establishes whether either is the indexed person.",
+      "manual_review_required": true,
+      "research_status": "requires_archival_review",
+      "next_action": "Review Box 730 for nationality, birth date, occupation and aliases before assigning either the journalist or architectural-design evidence.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "critical"
+    },
+    {
+      "person_id": "827e491a-a547-522d-9b9a-51c3f6fe01db",
+      "identity_status": "high_confidence",
+      "identity_evidence": "The exceptionally distinctive exact name and authoritative academic and Free French chronology identify ethnologist Jacques Soustelle at high confidence.",
+      "allied_or_foreign_personnel": true,
+      "manual_review_required": true,
+      "research_status": "documented_prewar_employer_found",
+      "next_action": "Review Box 730 to determine which Free French or Allied assignment created the OSS file and whether one academic institution can be established as his final civilian employer before wartime service.",
+      "personnel_file_digitized": false,
+      "personnel_file_reviewed": false,
+      "archival_review_priority": "high"
+    }
+  ],
+  "research_attempts": [
+    {
+      "key": "page439-row1-gene-sorisi-b898",
+      "person_id": "ee71c5a5-1eb4-5a48-8598-1ed493492e97",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Gene Sorisi; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Boxes 729-730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_898",
+      "started_at": "2026-10-25T13:35:00Z",
+      "completed_at": "2026-10-25T15:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results, postwar-only leads and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. Reviewed evidence established a supported identity bridge and, where available, a carefully bounded occupation, student, institutional, or military claim. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 or 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b898-v1"
+    },
+    {
+      "key": "page439-row2-erwin-sorkin-b898",
+      "person_id": "a897afa2-fefb-53c0-bb25-4a669abd1852",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Erwin Sorkin; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Boxes 729-730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_898",
+      "started_at": "2026-10-25T13:35:00Z",
+      "completed_at": "2026-10-25T15:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results, postwar-only leads and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. Reviewed evidence established a supported identity bridge and, where available, a carefully bounded occupation, student, institutional, or military claim. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 or 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b898-v1"
+    },
+    {
+      "key": "page439-row3-mildred-sorkin-b898",
+      "person_id": "9ac2db7b-eeb1-54b0-a571-a771924c8894",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Mildred Sorkin; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Boxes 729-730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_898",
+      "started_at": "2026-10-25T13:35:00Z",
+      "completed_at": "2026-10-25T15:20:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The common name and absent middle initial produced multiple unbridged namesakes and no protected identifier, OSS assignment, or employer chronology.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. The common name and absent middle initial produced multiple unbridged namesakes and no protected identifier, OSS assignment, or employer chronology. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 or 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b898-v1"
+    },
+    {
+      "key": "page439-row4-rolf-sorlie-b898",
+      "person_id": "0deeab81-a1e6-54aa-8de3-42fbfb3abd81",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Rolf Sorlie; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Boxes 729-730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_898",
+      "started_at": "2026-10-25T13:35:00Z",
+      "completed_at": "2026-10-25T15:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results, postwar-only leads and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. Reviewed evidence established a supported identity bridge and, where available, a carefully bounded occupation, student, institutional, or military claim. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 or 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b898-v1"
+    },
+    {
+      "key": "page439-row5-morris-b-soroka-b898",
+      "person_id": "fd09ff01-bb21-555c-a6a7-0d05bdd3ed52",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Morris B Soroka; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Boxes 729-730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_898",
+      "started_at": "2026-10-25T13:35:00Z",
+      "completed_at": "2026-10-25T15:20:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name and middle-initial searches did not produce two corroborating identifiers beyond the name.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Exact-name and middle-initial searches did not produce two corroborating identifiers beyond the name. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 or 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b898-v1"
+    },
+    {
+      "key": "page439-row6-stephen-s-sorota-b898",
+      "person_id": "2b24dcc5-3123-53d1-95b1-afbdfb3e9029",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Stephen S Sorota; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Boxes 729-730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_898",
+      "started_at": "2026-10-25T13:35:00Z",
+      "completed_at": "2026-10-25T15:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results, postwar-only leads and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. Reviewed evidence established a supported identity bridge and, where available, a carefully bounded occupation, student, institutional, or military claim. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 or 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b898-v1"
+    },
+    {
+      "key": "page439-row7-steve-s-sorota-b898",
+      "person_id": "37bc75f5-e853-5362-9c83-89085af31f4e",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Steve S Sorota; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Boxes 729-730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_898",
+      "started_at": "2026-10-25T13:35:00Z",
+      "completed_at": "2026-10-25T15:20:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The nickname-form institutional lead may describe the Stephen S Sorota row, but the separately printed Box 730 row is not merged or assigned its affiliation.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. The nickname-form institutional lead may describe the Stephen S Sorota row, but the separately printed Box 730 row is not merged or assigned its affiliation. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 or 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b898-v1"
+    },
+    {
+      "key": "page439-row8-lyman-f-sorrels-b898",
+      "person_id": "0241cc2f-f4cb-547c-86a3-f133a64fa472",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Lyman F Sorrels; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Boxes 729-730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_898",
+      "started_at": "2026-10-25T13:35:00Z",
+      "completed_at": "2026-10-25T15:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results, postwar-only leads and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. Reviewed evidence established a supported identity bridge and, where available, a carefully bounded occupation, student, institutional, or military claim. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 or 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b898-v1"
+    },
+    {
+      "key": "page439-row9-henry-sorrese-b898",
+      "person_id": "1181bd99-6665-5d6e-83e4-323190728eab",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Henry Sorrese; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Boxes 729-730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_898",
+      "started_at": "2026-10-25T13:35:00Z",
+      "completed_at": "2026-10-25T15:20:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "A Library of Congress finding-aid lead for a New York police detective remains an unbridged namesake and is not assigned to the index row.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. A Library of Congress finding-aid lead for a New York police detective remains an unbridged namesake and is not assigned to the index row. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 or 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b898-v1"
+    },
+    {
+      "key": "page439-row10-victor-l-soskice-b898",
+      "person_id": "fe2ef923-8ed0-5109-bf02-acfb6f07d1c9",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Victor L Soskice; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Boxes 729-730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_898",
+      "started_at": "2026-10-25T13:35:00Z",
+      "completed_at": "2026-10-25T15:20:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The adjacent Victor A Soskice evidence cannot be transferred across the conflicting L/A middle initials without the personnel files.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. The adjacent Victor A Soskice evidence cannot be transferred across the conflicting L/A middle initials without the personnel files. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 or 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b898-v1"
+    },
+    {
+      "key": "page439-row11-victor-a-soskice-b898",
+      "person_id": "7dbdc435-4f84-5fa5-acd4-93601b01c746",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Victor A Soskice; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Boxes 729-730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_898",
+      "started_at": "2026-10-25T13:35:00Z",
+      "completed_at": "2026-10-25T15:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results, postwar-only leads and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. Reviewed evidence established a supported identity bridge and, where available, a carefully bounded occupation, student, institutional, or military claim. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 or 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b898-v1"
+    },
+    {
+      "key": "page439-row12-thomas-g-soter-b898",
+      "person_id": "b831851e-8bb7-5ee9-aa1d-7416eabc838f",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Thomas G Soter; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Boxes 729-730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_898",
+      "started_at": "2026-10-25T13:35:00Z",
+      "completed_at": "2026-10-25T15:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results, postwar-only leads and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. Reviewed evidence established a supported identity bridge and, where available, a carefully bounded occupation, student, institutional, or military claim. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 or 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b898-v1"
+    },
+    {
+      "key": "page439-row13-alexander-j-soto-b898",
+      "person_id": "1c3f3a03-3353-5eb5-890e-727044bef465",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Alexander J Soto; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Boxes 729-730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_898",
+      "started_at": "2026-10-25T13:35:00Z",
+      "completed_at": "2026-10-25T15:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results, postwar-only leads and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. The protected identifier is shared with a materially different indexed name; the conflict remains visible and no evidence is transferred. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 or 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b898-v1"
+    },
+    {
+      "key": "page439-row14-edmond-sottile-b898",
+      "person_id": "b7b61bd5-fad2-5418-aca4-e4a9467bf733",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Edmond Sottile; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Boxes 729-730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_898",
+      "started_at": "2026-10-25T13:35:00Z",
+      "completed_at": "2026-10-25T15:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results, postwar-only leads and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. Reviewed evidence established a supported identity bridge and, where available, a carefully bounded occupation, student, institutional, or military claim. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 or 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b898-v1"
+    },
+    {
+      "key": "page439-row15-frederic-souard-b898",
+      "person_id": "358e5285-5a5f-53e4-8793-ac3d61026b49",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Frederic Souard; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Boxes 729-730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_898",
+      "started_at": "2026-10-25T13:35:00Z",
+      "completed_at": "2026-10-25T15:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results, postwar-only leads and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. Reviewed evidence established a supported identity bridge and, where available, a carefully bounded occupation, student, institutional, or military claim. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 or 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b898-v1"
+    },
+    {
+      "key": "page439-row16-romeo-a-soucy-b898",
+      "person_id": "77abf1b3-af84-5436-838b-051c39e0f4c5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Romeo A Soucy; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Boxes 729-730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_898",
+      "started_at": "2026-10-25T13:35:00Z",
+      "completed_at": "2026-10-25T15:20:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "Exact-name military, obituary, institutional, and archival searches did not isolate the indexed first sergeant.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. Exact-name military, obituary, institutional, and archival searches did not isolate the indexed first sergeant. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 or 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b898-v1"
+    },
+    {
+      "key": "page439-row17-john-i-soule-b898",
+      "person_id": "63cad4b6-bd5f-5bb4-a601-8f94c0b096d4",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "John I Soule; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Boxes 729-730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_898",
+      "started_at": "2026-10-25T13:35:00Z",
+      "completed_at": "2026-10-25T15:20:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The captain's common surname, officer identifier, and exact-name searches did not produce a reliable OSS or pre-service-employer bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. The captain's common surname, officer identifier, and exact-name searches did not produce a reliable OSS or pre-service-employer bridge. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 or 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b898-v1"
+    },
+    {
+      "key": "page439-row18-george-soulier-b898",
+      "person_id": "5e2ddd60-32e7-59d0-852e-e40a7417e178",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "George Soulier; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Boxes 729-730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_898",
+      "started_at": "2026-10-25T13:35:00Z",
+      "completed_at": "2026-10-25T15:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results, postwar-only leads and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. Reviewed evidence established a supported identity bridge and, where available, a carefully bounded occupation, student, institutional, or military claim. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 or 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b898-v1"
+    },
+    {
+      "key": "page439-row19-thomas-p-soullas-b898",
+      "person_id": "ba48bbe0-6ff9-57ec-81b2-2caa9eaa4251",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Thomas P Soullas; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Boxes 729-730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_898",
+      "started_at": "2026-10-25T13:35:00Z",
+      "completed_at": "2026-10-25T15:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results, postwar-only leads and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. Reviewed evidence established a supported identity bridge and, where available, a carefully bounded occupation, student, institutional, or military claim. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 or 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b898-v1"
+    },
+    {
+      "key": "page439-row20-bohuslav-soumar-b898",
+      "person_id": "e68fd14e-4d69-5b79-9ce0-51a3266cca58",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Bohuslav Soumar; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Boxes 729-730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_898",
+      "started_at": "2026-10-25T13:35:00Z",
+      "completed_at": "2026-10-25T15:20:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The Czech journalist and exposition-design leads remain competing unbridged identities and are withheld from public fact claims.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. The Czech journalist and exposition-design leads remain competing unbridged identities and are withheld from public fact claims. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 or 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b898-v1"
+    },
+    {
+      "key": "page439-row21-robert-w-sours-b898",
+      "person_id": "5f764f7b-058d-5b67-9210-b69730bc13a5",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Robert W Sours; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Boxes 729-730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_898",
+      "started_at": "2026-10-25T13:35:00Z",
+      "completed_at": "2026-10-25T15:20:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "A 1942 local-newspaper index lead and later biographical namesakes lack a protected-identifier or OSS bridge.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. A 1942 local-newspaper index lead and later biographical namesakes lack a protected-identifier or OSS bridge. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 or 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b898-v1"
+    },
+    {
+      "key": "page439-row22-mary-sousa-b898",
+      "person_id": "c915bf7f-a67a-5d45-a936-99d92c2bc3ea",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Mary Sousa; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Boxes 729-730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_898",
+      "started_at": "2026-10-25T13:35:00Z",
+      "completed_at": "2026-10-25T15:20:00Z",
+      "outcome": "candidate_rejected",
+      "sources_reviewed": 5,
+      "candidate_sources_rejected": 7,
+      "rejection_reasons": "The common name and missing identifiers produced many namesakes but no defensible identity or pre-OSS affiliation.",
+      "research_notes": "No reliable identity or pre-OSS employer was established after the staged search and namesake-rejection protocol. The common name and missing identifiers produced many namesakes but no defensible identity or pre-OSS affiliation. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 or 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b898-v1"
+    },
+    {
+      "key": "page439-row23-jacques-soustelle-b898",
+      "person_id": "827e491a-a547-522d-9b9a-51c3f6fe01db",
+      "source_adapter": "manual_staged_protocol",
+      "query_text": "Jacques Soustelle; NARA/index context; CIA Reading Room exact-name check; OSS and rank variants; employer and occupation; obituary, institutional, newspaper, directory, foreign-language when applicable, and archival searches; Boxes 729-730; protected-identifier Army crosswalk where available",
+      "query_variant_type": "staged_identity_employment_archival_protocol_batch_898",
+      "started_at": "2026-10-25T13:35:00Z",
+      "completed_at": "2026-10-25T15:20:00Z",
+      "outcome": "source_reviewed",
+      "sources_reviewed": 9,
+      "candidate_sources_rejected": 5,
+      "rejection_reasons": "Unbridged namesakes, chronologically irrelevant results, postwar-only leads and materially conflicting candidates were not assigned.",
+      "research_notes": "Reviewed evidence established a supported or explicitly conflicting identity outcome; public claims are limited to what the cited sources prove. Reviewed evidence established a supported identity bridge and, where available, a carefully bounded occupation, student, institutional, or military claim. Search-result snippets were discovery aids only, no paywall or access control was bypassed, the CIA Reading Room exact-name pass returned no relevant result, and no exposed NARA API credential was used.",
+      "next_action": "Review the indexed Box 729 or 730 personnel file.",
+      "attempt_number": 1,
+      "research_agent_version": "before-oss-b898-v1"
+    }
+  ]
+}

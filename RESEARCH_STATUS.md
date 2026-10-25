@@ -1,5 +1,41 @@
 # Research status
 
+Batch 898 completed PDF page 439, rows 1-23, from **Gene Sorisi** through
+**Jacques Soustelle**, preserving all 23 printed rows and linking them to 23
+active people. All 23 have terminal research outcomes. Five official Army
+identity bridges are accepted. The Sorota and Soskice variant rows remain
+separate, and Alexander J Soto's protected-identifier conflict with William J
+Smith remains visible without transferring disputed evidence.
+
+Three historical Army occupation categories remain qualified and name no
+employer. Rolf Sørlie's engineer occupation does not become an inferred Norsk
+Hydro job. Stephen S. Sorota's probable Phillips Academy work and Victor Andrew
+Soskice's Georgetown and Lycée Français student chronology remain medium-
+confidence qualified findings. Frédéric Souard's military records are kept
+temporally distinct. Jacques Soustelle's Musée de l'Homme, Collège de France
+and École nationale de la France d'outre-mer work is documented prewar, but no
+single role is promoted to immediate affiliation or last civilian employer.
+
+Current SQLite has **23,978/23,978** linked source rows and **23,936** active
+people. Research-attempt coverage is **13,611/23,936 (56.8641%)**;
+verified-employer coverage is **439/23,936 (1.8341%)**;
+verified-affiliation coverage is **978/23,936 (4.0859%)**; archival-review
+coverage is **12,082/23,936 (50.4763%)**. There are **10,320** not-started
+people, **602** possible-duplicate groups and **468** conflicts. The public
+projection contains **3,043** affiliations, **1,125** organizations, **5,546**
+sources and **8,267** published, qualified or conflict claims. Full-index
+historical research remains unfinished. The next indexed boundary is PDF page
+439, row 24, **M J Soustelle**, visually confirmed in Box 730. See
+`research/batch-898-progress.md` for the source-by-source audit. Batch 898 has
+passed isolated and canonical idempotency imports, database integrity checks,
+complete 522-page extraction validation, derived export regeneration, coverage
+reporting, public-data redaction, all 146 Python tests and 84 parameterized
+subtests, the deterministic 200-profile audit, the 93/93 browser and
+accessibility matrix, the 25,106-page internal-link check, private-identifier
+scan, local manifest verification, zero-warning 25,106-page Astro build,
+dependency audit and two deterministic builds. CI, deployment and
+unauthenticated live verification await the release commit.
+
 Batch 897 completed PDF page 438, rows 24-46, from **Henry Sonagere** through
 **Dario Soria**, preserving all 23 printed rows and linking them to 23 active
 people. All 23 have terminal research outcomes. Five official Army identity
