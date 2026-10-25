@@ -122,7 +122,11 @@ across the 70-file public tree and 25,183-file output tree. All 67 manifest
 assets verify locally, the production dependency audit reports zero
 vulnerabilities, and two consecutive builds produce identical public and
 output tree digests. Continuous-integration and deployed-release verification
-remain publication gates until the release commit is pushed.
+also pass: content commit
+`b6597b1da0a20f63d7b2d9e0c25f36a43da5d431` passed GitHub Actions Test run
+`40205731960` and Pages run `40205731975`. The unauthenticated deployed-release
+verifier then matched all 67 assets (120,236,337 bytes), eight core routes, 38
+source-register pages and all 22 Batch 901 profiles to that immutable commit.
 
 ## Resume inputs
 

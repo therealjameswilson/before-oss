@@ -34,7 +34,12 @@ subtests, the deterministic 200-profile audit, the 96/96 browser and
 accessibility release matrix, 25,111-page internal-link check, private-
 identifier scan, local manifest verification, zero-vulnerability production
 dependency audit and two deterministic builds. Continuous integration and
-public deployment remain pending publication of the release commit.
+deployment also pass. Batch 901 is public from immutable content commit
+`b6597b1da0a20f63d7b2d9e0c25f36a43da5d431`. GitHub Actions Test run
+`40205731960` and Pages deployment run `40205731975` both completed
+successfully. The unauthenticated deployed-release verifier matched all 67
+public assets (120,236,337 bytes), eight core routes, 38 source-register pages
+and all 22 directly affected profiles.
 
 Batch 900 completed PDF page 440, rows 1-23, from **Mildred S Spanum** through
 **John P Spence**, preserving all 23 printed rows and linking them to 23 active
